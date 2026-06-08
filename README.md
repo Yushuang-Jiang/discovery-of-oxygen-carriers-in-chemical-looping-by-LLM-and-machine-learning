@@ -39,7 +39,7 @@ Second, `text analysis by LLM.py` and `image analysis by LLM.py` are used to ext
 
 Third, the LLM-generated results are organized and checked to construct a structured dataset containing the figure number information of XRD and TGA characterization patterns. The identified characterization patterns are then digitized, structured, and processed for feature extraction using digitization software, resulting in the final machine learning datasets, `XRD-capacity.xlsx` and `XRD-T.xlsx`.
 
-Finally, based on `XRD-capacity.xlsx` and **`XRD-T.xlsx`, machine learning models in the `Machine learning model/` folder are trained to predict key oxygen carrier properties, including oxygen release capacity and reduction temperature.
+Finally, based on `XRD-capacity.xlsx` and `XRD-T.xlsx`, machine learning models in the `Machine learning model/` folder are trained to predict key oxygen carrier properties, including oxygen release capacity and reduction temperature.
 
 ## Purpose
 
