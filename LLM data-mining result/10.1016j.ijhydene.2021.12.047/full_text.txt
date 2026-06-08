@@ -1,0 +1,1002 @@
+
+
+===== Page 1 =====
+
+Effect of B-site Al substitution on hydrogen
+production of La0.4Sr0.6Mn1-xAlx (x¼0.4, 0.5 and 0.6)
+perovskite oxides
+Seyfettin Berk S‚anlı a,b, Berke Pis‚kin a,b,*
+a Dept. of Metallurgical and Materials Engineering, Mugla Sıtkı Koc¸man University, 48000, Mugla, Turkey
+b Energy Materials Laboratory, Mugla Sıtkı Koc¸man University, 48000, Mugla, Turkey
+h i g h l i g h t s
+ The effect of Al substitution on hydrogen production for LSMA perovskites was studied.
+ The highest O2 and H2 production were achieved by LSMA4646 which has the highest Al content.
+ Increasing substitution of Al in LSMA perovskites enhances the re-oxidation capacity.
+a r t i c l e i n f o
+Article history:
+Received 31 August 2021
+Received in revised form
+19 November 2021
+Accepted 5 December 2021
+Available online 23 December 2021
+Keywords:
+Perovskite oxide
+Pechini method
+Hydrogen production
+Thermochemical water splitting
+a b s t r a c t
+Thermochemical water splitting using perovskite oxides as redox materials is one of the
+important way to use solar energy to produce green hydrogen. Thus, it is hence important
+to discover new materials that can be used for this purpose. In this regard, we focused on
+Al-substituted La0.4Sr0.6Mn1-xAlxO3 (x ¼ 0.4, 0.5 and 0.6) perovskite oxides, namely as
+La0.4Sr0.6Mn0.6Al0.4 (LSMA4664), La0.4Sr0.6Mn0.5Al0.5 (LSMA4655), and La0.4Sr0.6Mn0.4Al0.6
+(LSMA4646) which have been successfully synthesized. Herein, synthesized LSMA4664,
+LSMA4655, and LSMA4646 were subjected to three consecutive thermochemical cycles in
+order to determine their oxygen capacity, hydrogen capacity, re-oxidation capability and
+structural stability following three cycles. Thermochemical cycles were carried out at
+1400 C for reduction and 800 C for the oxidation reaction. LSMA4646 exhibited the highest
+O2 production capacity with 275 mmol/g among the other perovskites employed in the
+study. Moreover, LSMA4646 has also the highest H2 production, 144 mmol/g, with 90% of re-
+oxidation capability by the end of three thermochemical water splitting cycles. On the
+other hand, LSMA4664 has the lowest H2 production and only kept approximately one-
+third of its hydrogen production capacity by the end of cycles. Thus, the current study
+provides insight that the increase in the Al-substitution enhances both oxygen and
+hydrogen production capacity. Besides, increasing the Al amount increases the structural
+stability during the redox reactions, the re-oxidation capability was also increased from
+38% to 89% after thermochemical cycles.
+© 2021 Published by Elsevier Ltd on behalf of Hydrogen Energy Publications LLC.
+Abbreviations: Ar, Argon; BET, The BrunauereEmmetteTeller; LSMA4664, La0.4Sr0.6Mn0.6Al0.4; LSMA4655, La0.4Sr0.6Mn0.5Al0.5;
+LSMA4646, La0.4Sr0.6Mn0.4Al0.6; MO, Metal Oxide; SEM, Scanning Electron Microscopy; TR, Thermal Reduction; TWS, Thermochemical
+Water Splitting; WS, Water Splitting; XRD, X-ray Diffractometer; XPS, X-ray Photoelectron Spectroscopy.
+* Corresponding author. Dept. of Metallurgical and Materials Engineering, Mugla Sıtkı Koc¸man University, 48000, Mugla, Turkey.
+E-mail address: berkepiskin@mu.edu.tr (B. Pis‚kin).
+Available online at www.sciencedirect.com
+ScienceDirect
+journal homepage: www.elsevier.com/locate/he
+i n t e r n a t i o n a l j o u r n a l o f h y d r o g e n e n e r g y 4 7 ( 2 0 2 2 ) 1 9 4 1 1 e1 9 4 2 1
+https://doi.org/10.1016/j.ijhydene.2021.12.047
+0360-3199/© 2021 Published by Elsevier Ltd on behalf of Hydrogen Energy Publications LLC.
+
+
+===== Page 2 =====
+
+Introduction
+Nowadays, the increase in electrical devices results in more
+energy consumption. The use of fossil fuels is inevitably
+increasing
+to
+meet
+this
+energy
+demand.
+This
+causes
+increasing greenhouse gas emissions that released to nature,
+and thus, results in environmental pollution and climate
+change. In addition, it is conjectured that current fossil fuel
+reserves existing in nature can preserve as a time period for 40
+years, 60 years, and 156 years for petroleum, natural gas, and
+coal, respectively [1,2]. Consequently, the concern of fossil
+fuels depletion has led researchers to focus on alternative
+energy sources in the last decades [3]. This reveals once again
+the importance of the need for renewable energy sources and
+hydrogen appears to be a valid solution [4].
+Hydrogen can be considered a renewable and sustainable
+energy solution due to its high energy density per mass (120 MJ/
+kg) and also as clean energy [5,6]. Especially, when it is used as
+fuel in fuel cells, only water and heat are released as a by-
+product [7e10]. Apart from being an energy source candidate,
+hydrogen is currently needed in many different industries such
+as crude oil reﬁning, chemical production (ammonia, etc.),
+aviation, metal reﬁning, food processing, and electronics
+manufacturing applications [11e17]. Moreover, independently
+of all these usages, hydrogen has shown that it has the po-
+tential to be used to mitigate the CO2 emission resulting from
+iron and steel production [18]. Nevertheless, the inability to
+produce pure H2, e.g. steam reforming process, formation of
+CO2, O2, H2O, H2S ve NOx as a by the product does not ﬁt the
+clean, low-cost and sustainable perspective of hydrogen. For
+this reason, signiﬁcant researches have been devoted to pro-
+ducing hydrogen with a cost-effective and clean route [19].
+Many methods can be used to obtain hydrogen from
+renewable resources such as biologically routes (including
+fermentation and photosynthesis), electrolytic methods (e.g.
+electrolysis of water), and also solar energy-based production
+methods (thermolysis, thermochemical cycles, reforming,
+cracking,
+gasiﬁcation)
+[20e23].
+Among
+the
+solar-based
+hydrogen production methods, thermochemical water split-
+ting have been considered as a long-term solution for green
+hydrogen production. The limiting drawback for the wide-
+spread usage of this method is the development of low
+reduction temperature materials is yet to be sufﬁcient.
+Although, some oxides which are reduced at lower tempera-
+ture e.g. Mn3O4, cannot be taken place in two-step thermo-
+chemical water splitting (TWS) redox reactions due to a too
+high regeneration temperature, still TWS using the metal ox-
+ides as redox material has attracted remarkable attention due
+to its reversibility of the method, its reasonable H2 production
+levels among the other hydrogen production methods [23e26].
+As shown in Fig. 1, TWS cycles begin with a reduction re-
+action. Here, metal oxide (MOx) is thermally reduced and be-
+comes an oxygen deﬁcient phase, MOx-d. This reduction
+reaction yields O2 formation at a temperature typically lower
+than 2000 C, Eq. (1). When the oxygen deﬁcient phase is
+exposed to H2O vapor, it oxidizes to its original state, i.e. MOx
+and produces H2 through water splitting at slightly lower
+temperatures between 500 and 1000 C Eq. (2). The production
+of O2 and H2 at different steps makes the TWS ideal, sus-
+tainable, and promising to produce pure H2 [27e29].
+MOx ðsÞ / MOxdðsÞ þ O2ðgÞ
+Eq. (1)
+MOxdðsÞ þ H2O ðgÞ / MOx ðsÞ þ H2ðgÞ
+Eq. (2)
+Redox materials to be used in TWS play critical roles in terms
+of solar-to-fuel efﬁciency. Therefore, an ideal redox material
+should demonstrate high oxygen exchange capacity, fast reac-
+tion kinetics, high structural and thermal stability for efﬁcient
+H2 production. Up to now, a variety of metal oxides has been
+proposed as active material that can be categorized as stoi-
+chiometric and non-stoichiometric [30,31]. Although stoichio-
+metric metal oxide such as ZnO [32,33], SnO2 [34], In2O3 [35], and
+Fe3O4 [33,36,37] showed high oxygen exchange capacity, they
+suffer from recombination, phase transformation, sintering,
+and sluggish reaction kinetics. Moreover, according to Steinfeld
+et al., the unit cost of 5 $/kg H2 from stoichiometric metal oxides
+is not competitive compared to other hydrogen production
+methods [38]. Thus, these problems make the stoichiometric
+oxides less preferable. In contrast, non-stoichiometric metal
+oxides such as CeO2 exhibits higher cycling stability and high
+reaction kinetics. Even though CeO2 has been regarded as a
+benchmark material for TWS, its high-temperature require-
+ment (>1500 C) for reduction reaction increases the interest in
+looking for alternative metal oxides [23,39e41].
+Currently,
+perovskite-type
+metal
+oxides
+have
+been
+demonstrated as a promising alternative to CeO2 owing to their
+unique features such as non-stoichiometric oxygen vacancy
+formation, high structural stability, ﬂexible doping/alloying,
+composition variety, and low-cost. An ideal perovskite struc-
+ture with a chemical formula of ABO3 present a cubic structure
+[31,42]. Different elements can occupy the A-site such as lan-
+thanides (e.g. La, Pr, and Gd) or alkaline earth metals (e.g. Ba
+and Sr) with 12-fold coordination. On the other hand, B-site is
+generally composed of transition metals (e.g. Mn, Co, Ni, Cr,
+and Fe) or other metals such as Al and Ga in 6-fold coordination
+with the surrounding oxygen anion [43]. It is stated that the
+mechanism of redox cycle activity that improves the water
+splitting behavior of the perovskite material, as it allows the
+formation of redox-active pairs that activate the water splitting
+reaction, is developed by substituting the trivalent cations (e.g.
+La3þ) with the divalent (e.g. Sr2þ) cations [48]. That is why
+numerous perovskite oxides families have been studied for
+thermochemical water splitting cycles. LaMnO3 perovskite
+family has received great interest due to its redox cycles ac-
+tivity among the other perovskite oxides. A site substitution of
+LaMnO3 with different divalent elements such as Ca [44,45], Sr
+[46,47] has revealed promising water splitting results. It has
+been observed that Sr-substituted LaMnO3 perovskite exhibi-
+ted an increased oxygen production capacity. The study of
+Scheffe et al. showed that the presence of Sr in the structure
+has increased the reduction capacity at a lower temperature
+compared to that state-of-art CeO2 [49,50]. Moreover, it was
+reported the increase of Sr substitution from 0.1 to 0.4
+enhanced the O2 production capacity of LaxSr1xMnO3 from
+24 mmol/g O2 to 215 mmol/g. That is approximately ten times
+higher O2 production for Sr ¼ 0.4 when it is compared to
+Sr ¼ 0.1. In addition, it was also observed that Sr substitution in
+i n t e r n a t i o n a l j o u r n a l o f h y d r o g e n e n e r g y 4 7 ( 2 0 2 2 ) 1 9 4 1 1 e1 9 4 2 1
+19412
+
+
+===== Page 3 =====
+
+the range of x ¼ 0e0.5 improves H2 production capacity in
+LaxSr1-xMnO3 perovskite oxides [47]. On the other hand, the
+further increase of Sr substitution negatively inﬂuences the re-
+oxidation
+efﬁciency
+during
+the
+thermochemical
+cycles.
+Demont and Abanades showed that re-oxidation capability
+was drastically dropped from 92% to 14% when the Sr amount
+increased from 0.35 to 0.80 [51]. This indicates that Sr amount
+has a crucial role in the re-oxidation efﬁciency. Simultaneous
+substitution of B-site cation is a widely used approach to
+improve the re-oxidation efﬁciency, structural stability, cycling
+kinetics. It was primarily focused on the substitution of the Mn,
+which is the B-site cation, with elements such as Al, Ga, Mg, Fe,
+Sc, and Co [52e56]. In this regard, Luciani et al. exhibited that
+the reduction temperatures can be reduced down to 1350 C.
+The reduction capacity can also be increased by Fe substitution
+in La1-xSrxMnO3 perovskite oxide. O2 production capacity has
+improved by Fe substitution (0.2e0.8) from 286 mmol/g to
+333 mmol/g in the La0.6Sr0.4Mn1-xFexO3 at 1350 C [57]. Demont
+et al. reported that Mg2þ substitution in La1-xSrxMnO3 prevents
+sintering and increases thermal stability [58]. In another study,
+Dey et al. showed that Ga3þ and Sc3þ substitution has a
+remarkable effect on having higher O2 production capacity and
+cycling performance in La1-xSrxMnO3 perovskite system for the
+two-step water splitting cycles [56]. On the other hand,
+aluminum is one of the feasible B-site substitution elements
+since its partial substitution has an impact on the structural
+stability for La1-xSrxMnO3 perovskite oxides. This is the result
+of the decrease in the crystal lattice due to the ionic radius
+difference between Mn and Al cations leading to strong atomic
+interactions. Thus, Al can provide better structural stability by
+lowering the reduction temperature and reducing the possi-
+bility of sintering problems [59].
+In this study, several perovskite-type oxides based on
+La0.4Sr0.6Mn1-xAlxO3 were investigated to reveal the effect of Al
+substitution as a B-site dopant. The thermochemical water
+splitting has been performed with multiple cycles in a series of
+oxides, i.e. La0.4Sr0.6Mn0.6Al0.4 (LSMA4664), La0.4Sr0.6Mn0.5Al0.5
+(LSMA4655), and La0.4Sr0.6Mn0.4Al0.6 (LSMA4646). The effect of
+Al was evaluated according to oxygen production, hydrogen
+production, re-oxidation efﬁciency, and the structural stabil-
+ity of the compositions in question.
+Experimental
+Chemicals
+La0.4Sr0.6Mn1-xAlx (LSMA) perovskite oxides were synthesized
+using La(NO3)3$6H2O (99.99%, Alfa Aesar), Sr(NO3)2 (99%,
+Carlo Erba), Mn(NO3)2$4H2O (98.5%, Merck) Al(NO3)3$9H2O
+(99%, Carlo Erba), citric acid anhydrous (99.5%, Carlo Erba)
+and ammonium solution (25%) precursors without any further
+puriﬁcation.
+Perovskite synthesis
+LSMA4664, LSMA4655, and LSMA4646 were synthesized via
+the Pechini Method [60]. The desired stoichiometric amount of
+nitrates
+precursors
+including,
+La(NO3)3$6H2O,
+Sr(NO3)2,
+Mn(NO3)2$4H2O, Al(NO3)3$9H2O were dissolved in deionized
+water. Citric acid was added to the solution as a chelating
+agent. Obtained solution heated to 70 C with continuous
+stirring at 300 rpm on the magnetic stirrer. The pH of the so-
+lution was adjusted to 8 by adding ammonium solution (25%)
+dropwise and held at 70
+C and 300 rpm until a gel-like
+structure was obtained. The gel-like structure was kept at
+70 C for ~24 h to remove the water completely in the drying
+oven. The drying process was completed by keeping them at
+250 C for 2 h remove any remaining organics and/or nitrates.
+Subsequently, synthesized powders were calcined at 900 C
+for 6 h to obtain a crystalline perovskite oxide structure.
+Characterization
+The crystal structure of the perovskites was identiﬁed by an X-
+ray diffractometer (XRD) (Rigaku SmartLab) with Cu-Ka wave-
+length (1.5406 A) at 40 kV and 30 mA. The measurements were
+carried out in the range of 10e100 in Bragg-Brentano geometry
+with a step size of 0.02 and a scanning rate of 2/min. The
+Fig. 1 e Thermochemical water splitting cycles.
+i n t e r n a t i o n a l j o u r n a l o f h y d r o g e n e n e r g y 4 7 ( 2 0 2 2 ) 1 9 4 1 1 e1 9 4 2 1
+19413
+
+
+===== Page 4 =====
+
+morphology of the perovskite oxides synthesized was inves-
+tigated by scanning electron microscope (SEM, JEOL JSM-
+7600F). The Brunauere EmmetteTeller (BET) method was uti-
+lized to determine surface areas of the samples with Quan-
+tachrome
+brand
+Autosorb
+1C-MS
+model
+device
+through
+nitrogen adsorption-desorption. X-ray photoelectron spec-
+troscopy (XPS, PHI 5000 VersaProbe) was performed to deter-
+mine the chemical states of the perovskite oxides synthesized.
+Elements of La, Sr, Mn, Al, and O were scanned in the binding
+energy range of 827e866, 128 to 140, 633 to 672, 68 to 78, and 523
+to 538, respectively. The samples were excited with mono-
+chromatic Al Ka radiation at 1458.1 eV over 100-mm spot area
+with an analyzer positioned at an angle of 45 to the surface of
+the samples for detection of photoelectrons. The spectra scan
+of the elements was carried out at a pass energy of 58.70 eV.
+Carbon peak, C1s, at a binding energy of 284.8 eV was used to
+normalize the collected XPS spectra.
+Thermochemical water splitting test
+Thermochemical water splitting cycles were performed to
+investigate the oxygen and hydrogen capacity, re-oxidation
+capability, and structural stability of the LSMA4664, LSMA4655,
+and LSMA4646 perovskite oxides. For that purpose, TWS cycles
+were carried out in a high temperature horizontal tubular
+furnace, coupled with a gas analyzer, Fig. 2. 0.5 g of powders
+producedwastransferredintoanaluminacrucibleandplacedin
+the heat zone of the horizontal furnace with an inner diameter
+of 50 mm. High purity argon (Ar) gas (~99.999%) was used as a
+carrier gas duringthe cycles and the ﬂow rate of theArwasset to
+100 sccm by a mass ﬂow controller integrated into the system.
+LSMA powders were subjected to the thermal reduction
+(TR) step by heating the furnace up to 1400 C at a rate of 5 C/
+min. The powders were held at that temperature for 2 h under
+continuous Ar ﬂow. To perform the water splitting (WS) step,
+the temperature was decreased to 800 C with a cooling rate of
+5 C/min. Water was then fed to a reactor by a syringe pump
+(New Era NE-300) with a rate of 150 ml/min. The temperature of
+the reactor was set to 150 C to evaporate the water fed to the
+system. H2 produced as a result of the reaction was trans-
+ported to the water trap to be puriﬁed from water vapor before
+reaching the analyzer. The gas mixture, which was free from
+water vapor, was transferred to the gas analyzer for the
+determination of H2 production. The whole H2O splitting
+process was kept for 2 h to complete the re-oxidation process.
+During the TR and WS steps, O2 and H2 produced were
+determined by a mass spectrometer (HIDEN QGA) and a gas
+chromatograph (Shimadzu Tracera).
+Results and discussion
+Structural characterization
+Fig. 3 a shows XRD patterns of LSMA4664, LSMA4655, and
+LSMA4646 perovskite oxides synthesized. It was observed that
+the main peaks observed in all LSMA belong to characteristics
+of cubic perovskite structure with a space group of Pm3m
+(COD-1542145). Rietveld reﬁnements of the LSMA perovskites,
+Fig. 3b-d, showed that SrCO3 existed as an impurity phase
+with a ratio of 1%e2% wt.
+The particle morphology was similar for all as-synthesized
+and calcined perovskite oxides which can be seen in Fig. 4. All
+LSMA samples have an equiaxed and ﬁne grain structure with
+an average primary particle size of <100 nm. Especially, it is
+seen that LSMA4655 and LSMA4646 have relatively smaller
+particles causing the formation of agglomerates. The ﬁndings
+in SEM analyses were conﬁrmed by BET results. The relatively
+higher surface area was obtained which were 33.52 m2/g,
+30.13 m2/g, 28.52 m2/g for LSMA4664, LSMA4655, LSMA4646,
+respectively. The results showed that an increase in the
+amount of Al substitution in the perovskite oxides makes the
+primary particle size smaller yielding the formation of ag-
+glomerates. Thus, it causes a slight decrease in the surface
+area of oxides.
+XPS was performed to determine the chemical states of
+elements in LSMA4664, LSMA4655, and LSMA4646 perovskite
+oxides. Here, carbon peak, C1s, at 284.8 eV was used as a
+reference to diagnose all other peaks belonging to relative
+elements. X-ray photoelectron spectroscopy spectrum of
+La3d, Sr3d, Mn2p, Al2p, and O1s of studied perovskite oxides
+are shown in Fig. 5. XPS spectrum of La3d reveals that La
+atoms are in the 3þ oxidation state. La3d spectrum has strong
+peaks at around 832 and 849 eV corresponding to the spin-
+orbit of multiplet splitting of La3d5/2 and La3d3/2 of La3þ ions
+in oxide form, Fig. 5 a. Moreover, the magnitude of the
+multiplet splitting, DE, can be used as an indicator to conﬁrm
+the chemical state of La3þ in the LSMA4664, LSMA4655, and
+LSMA4646 compositions, which is calculated as DE is around
+4 eV [61]. Strontium has two chemical states at around 131 eV,
+Fig. 2 e Experimental set-up of TWS.
+i n t e r n a t i o n a l j o u r n a l o f h y d r o g e n e n e r g y 4 7 ( 2 0 2 2 ) 1 9 4 1 1 e1 9 4 2 1
+19414
+
+
+===== Page 5 =====
+
+Fig. 3 e a) XRD patterns of calcined LSMA4664, LSMA4655, and LSMA4646 compositions. The reﬁned patterns of b)
+LSMA4664, c) LSMA4655, and d) LSMA4646.
+Fig. 4 e SEM micrographs of calcined a) LSMA4664, b) LSMA4655, and c) LSMA4646 perovskite-type oxides.
+i n t e r n a t i o n a l j o u r n a l o f h y d r o g e n e n e r g y 4 7 ( 2 0 2 2 ) 1 9 4 1 1 e1 9 4 2 1
+19415
+
+
+===== Page 6 =====
+
+Sr3d5/2, and 132.5 eV, Sr3d3/2, for all LSMA perovskite oxides
+that reveal that Sr atoms are in the 2þ oxidation form [61,62],
+Fig. 5 b. On the other hand, Sr3d spectra exhibit has another
+peak appearing at around 132.4 eV that may be related to the
+impurity phase as speciﬁed SrCO3 after XRD analysis [63].
+Fig. 5 c. shows that manganese has well splitting of Mn2p3/2
+and Mn2p1/2 at around 640 and 652 eV for all LSMA perovskite
+oxides, respectively. DE was measured as 11.65 eV for
+LSMA4664, and 11.75 eV for LSMA4655 and LSMA4646. In
+addition to that, an identiﬁable peak shape at the top of the
+Mn2p3/2, especially for LSMA4655 was observed. Both indicate
+the presence of Mn4þ for all perovskite oxides [64]. Aluminum
+has binding energy at around 72 eV conﬁrming that Al atoms
+are in the chemical state of Al3þ for all perovskite oxide syn-
+thesized, Fig. 5 d. The two oxygen peaks, O1s, were observed at
+around 527.5 eV and 530 eV corresponding lattice oxygen, and
+adsorbed oxygen, respectively as shown in Fig. 5 e [65]. Lattice
+oxygen belongs to the O bonds with La, Sr, Mn, and Al in
+perovskite structure whereas adsorbed oxygen is related to
+the hydroxyl group due to the adsorbed moisture from the air
+[66e69]. The ratio of lattice oxygen to adsorbed oxygen can be
+used as a comparison criterion to evaluate the performance of
+the oxygen carriers during chemical cycling [64]. This ratio is
+in the order of 1.516, 1.241, and 1.227 for LSMA4664, LSMA4655,
+and LSMA4646, respectively. Besides, this ratio decreases as
+the Al doping amount further increase.
+Fig. 5 e a) La3d, b) Sr3d, c) Mn2p, d) Al2p, and e) O1s X-ray photoelectron spectroscopy spectra of LSMA4664, LSMA4655 and
+LSMA4646 perovskite oxides.
+i n t e r n a t i o n a l j o u r n a l o f h y d r o g e n e n e r g y 4 7 ( 2 0 2 2 ) 1 9 4 1 1 e1 9 4 2 1
+19416
+
+
+===== Page 7 =====
+
+Thermochemical water splitting tests
+A consecutive three thermochemical water splitting cycles
+were performed for each LSMA powder to investigate their
+oxygen
+and
+hydrogen
+production
+capacity,
+re-oxidation
+capability, and structural stability. The reduction reaction
+temperature was employed at 1400 C for 2 h while water
+splitting reaction was carried out at 800 C for another 2 h. The
+re-oxidation capability of perovskite oxides was calculated by
+considering how much hydrogen production amount in the
+last cycle was preserved compared to the ﬁrst cycle. A sum-
+mary of the results showing O2 and H2 production for each
+cycle is given in Table 1.
+Fig. 6 a. shows the O2 production capacities of LSMA pe-
+rovskites in 1st cycle. During the 1st cycle, O2 production was
+achieved in the order of LSMA4646>LSMA4664>LSMA4655
+from 275 to 221 mmol/g. LSMA perovskites with various Al
+content had a signiﬁcant reduction capacity at the end of the
+1st cycle when their O2 production capacity was compared.
+Herein, with increasing Al amount in the structure from 0.4 to
+0.5, it was observed that oxygen production decreased from
+246 mmol/g to 221 mmol/g. In contrary to the expectations, a
+further increase in the amount of Al from 0.5 to 0.6 was
+resulted
+in
+increasing
+the
+oxygen
+production
+capacity.
+LSMA4646 exhibited the highest oxygen production, 275 mmol/
+g, among the other LSMA perovskite oxides. LSMA4646 has
+also the highest H2 production, 162 mmol/g, followed by
+LSMA4655, and then LSMA4664, Fig. 6 b. Unlike the oxygen
+release amount, the result for the H2 production amount was
+quite similar and low for the perovskite oxides. This result
+indicates that the reversible redox efﬁciencies of the perov-
+skite oxides are different. In addition to that, an increase in
+the Al substitution slightly enhances the hydrogen production
+capacity.
+During the 2nd cycle, it was observed that the non-
+stoichiometric oxygen production capacity of the studied
+perovskite oxides decreased. The effect of the decrease in the
+O2 production was clearly observed in the hydrogen produc-
+tion capacities of the perovskite oxides. During the 2nd cycle,
+H2 production capacities were in the order of LSMA4646>LS-
+MA4655>LSMA4664. The same behavior was obtained during
+the 2nd cycle for hydrogen production as in the case of the 1st
+cycle. During the 3rd cycle, all LSMA perovskite oxides exam-
+ined lower O2 production except LSMA4655. In contrary to the
+Table 1 e Oxygen and hydrogen production in consecutive cycles with LSMA perovskite oxides.
+O2 production (mmol/g)
+H2 production (mmol/g)
+H2/O2
+Re-oxidation (%)
+1st cycle
+2nd cycle
+3rd cycle
+1st cycle
+2nd cycle
+3rd cycle
+1st cycle
+2nd cycle
+3rd cycle
+after 3rd cycle
+LSMA4664
+246
+229
+173
+152
+102
+57
+0.62
+0.45
+0.33
+38
+LSMA4655
+221
+202
+201
+158
+130
+115
+0.72
+0.64
+0.57
+73
+LSMA4646
+275
+231
+175
+162
+145
+144
+0.59
+0.63
+0.82
+89
+Fig. 6 e a) The O2 production rate-time proﬁles, and b) the H2 production rate-time proﬁles of perovskites during the 1st
+cycle, comparison of c) the O2 production, and d) the H2 production capacities for consecutive three cycles. (La0.4Sr0.6Mn1-xAlx
+(x ¼ 0.4, 0.5 and 0.6)).
+i n t e r n a t i o n a l j o u r n a l o f h y d r o g e n e n e r g y 4 7 ( 2 0 2 2 ) 1 9 4 1 1 e1 9 4 2 1
+19417
+
+
+===== Page 8 =====
+
+other two compositions, LSMA4655 composition maintained
+its O2 production capacity. However, LSMA4655 did not
+maintain its H2 production capacity during 3rd cycle. On the
+other hand, the H2 production of LSMA4646 was almost the
+same for the 2nd and 3rd cycles. It was observed that the
+LSMA4646 composition which has the highest Al content
+preserves its H2 production capacity by ~89%, while this ratio
+was ~73% for LSMA4655 and ~38% for LSMA4664. Here, it can
+be said that the increase of Al substitution from x ¼ 0.4 to 0.6
+for La0.4Sr0.6Mn1-xAlxO3 perovskite oxides has an inﬂuence on
+preserving its H2 production capacity by the end of 3 ther-
+mochemical water splitting cycles.
+As mentioned above, O2 and H2 production capacities of
+perovskite oxides decreased by the end of 3 consecutive
+thermochemical water splitting cycles. Moreover, the result of
+1st cycle revealed that the oxygen release/uptake behavior of
+the materials is not completely reversible, which results in
+low H2 production. To investigate any possible structural, e.g.
+phase separation, sintering problem, etc., and chemical
+changes
+that
+might
+occur
+in
+compositions,
+LSMA4664,
+LSMA4655, and LSMA4646 perovskite oxides were further
+studied by XRD and SEM after three consecutive thermo-
+chemical water splitting cycles. Fig. 7 displays the XRD pat-
+terns of perovskite oxides after thermochemical cycles. As
+seen ﬁgure, XRD patterns showed diffraction peaks belonging
+to other phases rather than cubic perovskite structure, unlike
+before the cycling. Diffraction peaks at ca. 2q ¼ 31.5 and 35,
+belong to orthorhombic perovskite oxide with the space group
+of Pbnm (COD-1006143). It was observed that there was a for-
+mation of orthorhombic crystal structure during the thermo-
+chemical cycles, resulting in the coexistence of both cubic and
+orthorhombic structure. This was valid for all compositions.
+Fig. 7 e XRD pattern of LSMA4664, LSMA4655, and
+LSMA4646 perovskite oxides after three TWS cycles. The
+water splitting cycles were conducted with reduction at
+1400 C and re-oxidation at 800 C.
+Fig. 8 e SEM micrographs of a) LSMA4664, b) LSMA4655, and c) LSMA4646 perovskite oxides after three consecutive
+thermochemical cycles.
+i n t e r n a t i o n a l j o u r n a l o f h y d r o g e n e n e r g y 4 7 ( 2 0 2 2 ) 1 9 4 1 1 e1 9 4 2 1
+19418
+
+
+===== Page 9 =====
+
+On
+the
+other
+hand,
+three
+diffraction
+peaks
+at
+around
+2q ¼ 28e30
+was identiﬁed that are representative for
+brownmillerite phase (COD-9014764) with a chemical formula
+of ABO2.5 [37,38]. Formation of brownmillerite phase can be
+strongly correlated with having incomplete reversible oxygen
+release-uptake reaction during cycling.
+Fig. 8 depicts SEM image of LSMA oxides after thermo-
+chemical cycles. SEM images displays coalescence of parti-
+cles
+having
+an
+average
+size
+of
+~1
+mm
+for
+all
+LSMA
+compositions except LSMA4646. The primary particle size
+was observed around 500 nm for LSMA4646 after thermo-
+chemical cycling. Here, comparing the primary particle size
+maintained in LSMA powders after TWS and their hydrogen
+production capacity indicated an inverse relation. H2 pro-
+duction
+was
+achieved
+in
+the
+order
+of
+LSMA4646>LS-
+MA4664>LSMA4655 whereas the particle size was in the
+order of LSMA4646<LSMA4664<LSMA4655.
+Conclusion
+Al-doped La0.4Sr0.6Mn0.6Al0.4 (LSMA4664), La0.4Sr0.6Mn0.5Al0.5
+(LSMA4655), and La0.4Sr0.6Mn0.4Al0.6 (LSMA4646) perovskite
+oxides were synthesized via the Pechini method to be able to
+use as redox materials in thermochemical water splitting
+cycles. Cubic crystal structure was predominantly obtained
+following the calcination at 900 C for 6 h. It was observed
+that increasing Al-doping in the structure slightly reduced
+the particle size obtained in perovskite oxides. All composi-
+tions have similar surface morphology with the average
+particle size of <100 nm after calcination. O2 capacity of
+LSMA4646 was determined as 275 mmol/g which was the
+highest
+capacity
+obtained
+as
+compared
+to
+others.
+Re-
+oxidation capability after the 3rd cycle (%) was 38, 73, and
+89 for LSMA4664, LSMA4655, and LSMA4646, respectively.
+While LSMA4646 highly preserved its hydrogen production
+capacity, LSMA4664 only kept approximately one-third of its
+hydrogen production capacity by the end of three consecu-
+tive cycles. On the other hand, the ﬁndings showed that there
+were phase transformations in LSMA oxides after consecu-
+tive three thermochemical water splitting cycles. Small
+amount of orthorhombic and oxygen deﬁcient phase, namely
+as ABO3-d were observed together with dominant cubic
+phase. The formation of this oxygen-deﬁcient phase can be
+strongly correlated with having an incomplete reversible
+oxygen release-uptake reaction during cycling. The results
+showed that not only the hydrogen and oxygen capacity but
+also the re-oxidation capacity increase by the increasing of
+Al-dopant in LSMA oxides. Thus, the current study provides
+insight that the increase in the Al-dopant enhances both
+oxygen and hydrogen production capacity, as well as the re-
+oxidation capability during cycling although there is a need
+for further investigation under more consecutive cycles.
+Declaration of competing interest
+The authors declare that they have no known competing
+ﬁnancial interests or personal relationships that could have
+appeared to inﬂuence the work reported in this paper.
+Acknowledgments
+This research was supported by TUBITAK (The Scientiﬁc and
+Technological Research Council of Turkey) with project
+number 119M420, which the authors gratefully acknowledge.
+The authors also thank Prof. Dr. Mehmet €Oztu¨ rk and Prof. Dr.
+Mehmet Emin Duru for their support in the analysis by a mass
+spectrometer.
+r e f e r e n c e s
+[1] Abe JO, Popoola API, Ajenifuja E, Popoola OM. Hydrogen
+energy, economy and storage: review and recommendation.
+Int J Hydrogen Energy 2019;44:15072e86. https://doi.org/
+10.1016/j.ijhydene.2019.04.068.
+[2] Midilli A, Ay M, Dincer I, Rosen MA. On hydrogen and
+hydrogen energy strategies: I: current status and needs.
+Renew Sustain Energy Rev 2005;9(3):255e71.
+[3] Wang Z, Roberts RR, Naterer GF, Gabriel KS. Comparison of
+thermochemical, electrolytic, photoelectrolytic and
+photochemical solar-to-hydrogen production technologies.
+Int J Hydrogen Energy 2012;37:16287e301. https://doi.org/
+10.1016/j.ijhydene.2012.03.057.
+[4] Paris agreement to the united nations framework convention
+on climate change. [n.d].
+[5] Olabi AG, saleh Bahri A, Abdelghafar AA, Baroutaji A,
+Sayed ET, Alami AH, et al. Large-vscale hydrogen production
+and storage technologies: current status and future
+directions. Int J Hydrogen Energy 2021;46:23498e528. https://
+doi.org/10.1016/j.ijhydene.2020.10.110.
+[6] Dincer I, Acar C. Review and evaluation of hydrogen
+production methods for better sustainability. Int J Hydrogen
+Energy 2015;40:11094e111. https://doi.org/10.1016/
+j.ijhydene.2014.12.035.
+[7] O'Hayre RP, Cha S-W, Colella WG, Prinz FB. Fuel cell
+fundamentals. Hoboken, NJ, USA: John Wiley & Sons, Inc;
+2016. https://doi.org/10.1002/9781119191766.ch1.
+[8] Manoharan Y, Hosseini SE, Butler B, Alzhahrani H,
+Senior BTF, Ashuri T, et al. Hydrogen fuel cell vehicles;
+current status and future prospect. Appl Sci 2019;9:2296.
+https://doi.org/10.3390/app9112296.
+[9] Sazali N, Wan Salleh WN, Jamaludin AS, Mhd Razali MN.
+New perspectives on fuel cell technology: a brief review.
+Membranes 2020;10:99. https://doi.org/10.3390/
+membranes10050099.
+[10] Singh M, Zappa D, Comini E. Solid oxide fuel cell: decade of
+progress, future perspectives and challenges. Int J Hydrogen
+Energy 2021;46:27643e74. https://doi.org/10.1016/
+j.ijhydene.2021.06.020.
+[11] Hosseini SE, Wahid MA. Hydrogen production from
+renewable and sustainable energy resources: promising
+green energy carrier for clean development. Renew Sustain
+Energy Rev 2016;57:850e66.
+[12] Manna J, Jha P, Sarkhel R, Banerjee C, Tripathi AK, Nouni MR.
+Opportunities for green hydrogen production in petroleum
+reﬁning and ammonia synthesis industries in India. Int J
+Hydrogen Energy 2021;46:38212e31. https://doi.org/10.1016/
+j.ijhydene.2021.09.064.
+[13] Barreto L, Makihira A, Riahi K. The hydrogen economy in the
+21st century: a sustainable development scenario. Int J
+Hydrogen Energy 2003;28:267e84. https://doi.org/10.1016/
+S0360-3199(02)00074-5.
+[14] Muellerlanger F, Tzimas E, Kaltschmitt M, Peteves S. Techno-
+economic assessment of hydrogen production processes for
+i n t e r n a t i o n a l j o u r n a l o f h y d r o g e n e n e r g y 4 7 ( 2 0 2 2 ) 1 9 4 1 1 e1 9 4 2 1
+19419
+
+
+===== Page 10 =====
+
+the hydrogen economy for the short and medium term. Int J
+Hydrogen Energy 2007;32:3797e810. https://doi.org/10.1016/
+j.ijhydene.2007.05.027.
+[15] Hydrogen and fuel cells. Elsevier; 2012. https://doi.org/
+10.1016/C2009-0-63881-2.
+[16] Nicita A, Maggio G, Andaloro APF, Squadrito G. Green
+hydrogen as feedstock: ﬁnancial analysis of a photovoltaic-
+powered electrolysis plant. Int J Hydrogen Energy
+2020;45:11395e408. https://doi.org/10.1016/
+j.ijhydene.2020.02.062.
+[17] Ramachandran R. An overview of industrial uses of
+hydrogen. Int J Hydrogen Energy 1998;23:593e8. https://
+doi.org/10.1016/S0360-3199(97)00112-2.
+[18] Li S, Zhang H, Nie J, Dewil R, Baeyens J, Deng Y. The direct
+reduction of iron ore with hydrogen. Sustainability
+2021;13:8866. https://doi.org/10.3390/su13168866.
+[19] Smestad GP, Steinfeld A. Review: photochemical and
+thermochemical production of solar fuels from H 2O and CO
+2 using metal oxide catalysts. Ind Eng Chem Res 2012.
+https://doi.org/10.1021/ie3007962.
+[20] Li S, Kang Q, Baeyens J, Zhang HL, Deng YM. Hydrogen
+production: state of technology. IOP Conf Ser Earth Environ
+Sci 2020;544:012011. https://doi.org/10.1088/1755-1315/544/1/
+012011.
+[21] Nikolaidis P, Poullikkas A. A comparative overview of
+hydrogen production processes. Renew Sustain Energy Rev
+2017;67:597e611. https://doi.org/10.1016/j.rser.2016.09.044.
+[22] Steinfeld A. Solar thermochemical production of
+hydrogeneea review. Sol Energy 2005;78:603e15. https://
+doi.org/10.1016/j.solener.2003.12.012.
+[23] Deng Y, Dewil R, Appels L, Li S, Baeyens J, Degreve J, et al.
+Thermo-chemical water splitting: selection of priority
+reversible redox reactions by multi-attribute decision
+making. Renew Energy 2021;170:800e10. https://doi.org/
+10.1016/j.renene.2021.02.009.
+[24] Budama VK, Johnson NG, McDaniel A, Ermanoski I,
+Stechel EB. Thermodynamic development and design of a
+concentrating solar thermochemical water-splitting process
+for co-production of hydrogen and electricity. Int J Hydrogen
+Energy 2018;43:17574e87. https://doi.org/10.1016/
+j.ijhydene.2018.07.151.
+[25] McDaniel A, Barcellos D, Sanders M, Sugar J, O'Hayre R.
+Hydrogen production by solar thermochemical water
+splitting: searching for optimal nonstoichiometric perovskite
+oxides. Abstr Pap Am Chem Soc. 2018;vol. 255. AMER
+CHEMICAL SOC 1155 16TH ST, NW, WASHINGTON, DC 20036
+USA.
+[26] Dincer I, Acar C. Review and evaluation of hydrogen
+production methods for better sustainability. Int J Hydrogen
+Energy 2015;40:11094e111. https://doi.org/10.1016/
+j.ijhydene.2014.12.035.
+[27] Muhich CL, Ehrhart BD, Al-Shankiti I, Ward BJ, Musgrave CB,
+Weimer AW. A review and perspective of efﬁcient hydrogen
+generation via solar thermal water splitting. Wiley
+Interdiscip Rev Energy Environ 2016;5:261e87. https://
+doi.org/10.1002/wene.174.
+[28] Abanades S. Metal oxides applied to thermochemical water-
+splitting for hydrogen production using concentrated solar
+energy. Chem Eng J 2019;3. https://doi.org/10.3390/
+chemengineering3030063.
+[29] Safari F, Dincer I. A review and comparative evaluation of
+thermochemical water splitting cycles for hydrogen
+production. Energy Convers Manag 2020;205:112182. https://
+doi.org/10.1016/j.enconman.2019.112182.
+[30] Naghavi SS, Emery AA, Hansen HA, Zhou F, Ozolins V,
+Wolverton C. Giant onsite electronic entropy enhances the
+performance of ceria for water splitting. Nat Commun
+2017;8:1e6. https://doi.org/10.1038/s41467-017-00381-2.
+[31] Takacs M, Hoes M, Caduff M, Cooper T, Scheffe JR, Steinfeld A.
+Oxygen nonstoichiometry, defect equilibria, and
+thermodynamic characterization of LaMnO3perovskites with
+Ca/Sr A-site and Al B-site doping. Acta Mater 2016;103:700e10.
+https://doi.org/10.1016/j.actamat.2015.10.026.
+[32] Bhosale R, Kumar A, AlMomani F, Gupta RB. Solar
+thermochemical ZnO/ZnSO4water splitting cycle for
+hydrogen production. Int J Hydrogen Energy
+2017;42:23474e83. https://doi.org/10.1016/
+j.ijhydene.2017.02.190.
+[33] Galvez ME, Loutzenhiser PG, Hischier I, Steinfeld A. CO 2
+splitting via two-step solar thermochemical cycles with Zn/
+ZnO and FeO/Fe 3 O 4 redox reactions: thermodynamic
+analysis. Energy Fuels 2008;22:3544e50. https://doi.org/
+10.1021/ef800230b.
+[34] Abanades S, Charvin P, Lemont F, Flamant G. Novel two-step
+SnO2/SnO water-splitting cycle for solar thermochemical
+production of hydrogen. Int J Hydrogen Energy
+2008;33:6021e30. https://doi.org/10.1016/
+j.ijhydene.2008.05.042.
+[35] Lim T, Ju S. Thermochemical hydrogen generation of indium
+oxide thin ﬁlms. AIP Adv 2017;7:035207. https://doi.org/
+10.1063/1.4978489.
+[36] Kodama T, Nakamuro Y, Mizuno T. A two-step
+thermochemical water splitting by iron-oxide on stabilized
+zirconia. J Sol Energy Eng 2006;128:3e7. https://doi.org/
+10.1115/1.1878852.
+[37] Charvin P, Abanades S, Flamant G, Lemort F. Two-step water
+splitting thermochemical cycle based on iron oxide redox
+pair for solar hydrogen production. Energy 2007;32:1124e33.
+https://doi.org/10.1016/j.energy.2006.07.023.
+[38] Steinfeld A. Solar hydrogen production via a two-step water-
+splitting thermochemical cycle based on Zn/ZnO redox
+reactions. Int J Hydrogen Energy 2002;27:611e9. https://
+doi.org/10.1016/S0360-3199(01)00177-X.
+[39] Abanades S, Flamant G. Thermochemical hydrogen
+production from a two-step solar-driven water-splitting
+cycle based on cerium oxides. Sol Energy 2006;80:1611e23.
+https://doi.org/10.1016/j.solener.2005.12.005.
+[40] Kaneko H, Miura T, Ishihara H, Taku S, Yokoyama T,
+Nakajima H, et al. Reactive ceramics of CeO2-MOx (M¼Mn,
+Fe, Ni, Cu) for H2 generation by two-step water splitting
+using concentrated solar thermal energy. Energy
+2007;32:656e63. https://doi.org/10.1016/j.energy.2006.05.002.
+[41] Jiang Q, Zhou G, Jiang Z, Li C. Thermochemical CO2 splitting
+reaction with CexM1xO2d (M¼Ti4þ, Sn4þ, Hf4þ, Zr4þ,
+La3þ, Y3þ and Sm3þ) solid solutions. Sol Energy
+2014;99:55e66. https://doi.org/10.1016/j.solener.2013.10.021.
+[42] Nair MM, Abanades S. Experimental screening of perovskite
+oxides as efﬁcient redox materials for solar thermochemical
+CO 2 conversion. Sustain Energy Fuels 2018;2:843e54. https://
+doi.org/10.1039/C7SE00516D.
+[43] Emery AA, Saal JE, Kirklin S, Hegde VI, Wolverton C. High-
+throughput computational screening of perovskites for
+thermochemical water splitting applications. Chem Mater
+2016;28:5621e34. https://doi.org/10.1021/
+acs.chemmater.6b01182.
+[44] Wang L, Al-Mamun M, Liu P, Wang Y, Yang HG, Zhao H.
+Notable hydrogen production on La x Ca1xCoO3
+perovskites via two-step thermochemical water splitting. J
+Mater Sci 2018;53:6796e806. https://doi.org/10.1007/s10853-
+018-2004-2.
+[45] Wang L, Al-Mamun M, Liu P, Zhong YL, Wang Y, Yang HG,
+et al. Enhanced thermochemical H2 production on Ca-doped
+lanthanum manganite perovskites through optimizing the
+dopant level and Re-oxidation temperature. Acta Metall Sin
+English Lett 2018;31:431e9. https://doi.org/10.1007/s40195-
+018-0715-7.
+i n t e r n a t i o n a l j o u r n a l o f h y d r o g e n e n e r g y 4 7 ( 2 0 2 2 ) 1 9 4 1 1 e1 9 4 2 1
+19420
+
+
+===== Page 11 =====
+
+[46] Demont A, Abanades S. High redox activity of Sr-substituted
+lanthanum manganite perovskites for two-step
+thermochemical dissociation of CO2. RSC Adv
+2014;4:54885e91. https://doi.org/10.1039/C4RA10578H.
+[47] Yang C-K, Yamazaki Y, Aydin A, Haile SM. Thermodynamic
+and kinetic assessments of strontium-doped lanthanum
+manganite perovskites for two-step thermochemical water
+splitting. J Mater Chem 2014;2:13612e23. https://doi.org/
+10.1039/C4TA02694B.
+[48] Cooper T, Scheffe JR, Galvez ME, Jacot R, Patzke G,
+Steinfeld A. Lanthanum manganite perovskites with Ca/Sr A-
+site and Al B-site doping as effective oxygen exchange
+materials for solar thermochemical fuel production. Energy
+Technol 2015;3:1130e42. https://doi.org/10.1002/
+ente.201500226.
+[49] Scheffe JR, Steinfeld A. Oxygen exchange materials for solar
+thermochemical splitting of H2O and CO2: a review. Mater
+Today 2014;17:341e8. https://doi.org/10.1016/
+j.mattod.2014.04.025.
+[50] Scheffe JR, Weibel D, Steinfeld A. Lanthanum-strontium-
+manganese perovskites as redox materials for solar
+thermochemical splitting of H2O and CO2. Energy Fuels 2013.
+https://doi.org/10.1021/ef301923h.
+[51] Demont A, Abanades S. High redox activity of Sr-substituted
+lanthanum manganite perovskites for two-step
+thermochemical dissociation of CO2. RSC Adv 2014. https://
+doi.org/10.1039/c4ra10578h.
+[52] Horita T. Stability at La0.6Sr0.4CoO3d cathode/
+La0.8Sr0.2Ga0.8Mg0.2O2.8 electrolyte interface under current
+ﬂow for solid oxide fuel cells. Solid State Ionics
+2000;133:143e52. https://doi.org/10.1016/S0167-2738(00)
+00705-0.
+[53] Tai L-W, Nasrallah MM, Anderson HU, Sparlin DM,
+Sehlin SR. Structure and electrical properties of
+La1xSrxCo1yFeyO3. Part 1. The system
+La0.8Sr0.2Co1yFeyO3. Solid State Ionics 1995;76:259e71.
+https://doi.org/10.1016/0167-2738(94)00244-M.
+[54] Wang L, Al-Mamun M, Zhong YL, Jiang L, Liu P, Wang Y, et al.
+Ca2þ and Ga3þ doped LaMnO3 perovskite as a highly
+efﬁcient and stable catalyst for two-step thermochemical
+water splitting. Sustain Energy Fuels 2017;1:1013e7. https://
+doi.org/10.1039/C6SE00097E.
+[55] Wang L, Al-Mamun M, Zhong YL, Liu P, Wang Y, Yang HG,
+et al. Enhanced thermochemical water splitting through
+formation of oxygen vacancy in La 0.6 Sr 0.4 BO 3 d (B¼Cr,
+Mn, Fe, Co, and Ni) perovskites. Chempluschem
+2018;83:924e8. https://doi.org/10.1002/cplu.201800178.
+[56] Dey S, Naidu BS, Rao CNR. Beneﬁcial effects of substituting
+trivalent ions in the B-site of La 0.5 Sr 0.5 Mn 1x A x O 3 (A ¼
+Al, Ga, Sc) on the thermochemical generation of CO and H 2
+from CO 2 and H 2 O. Dalton Trans 2016;45:2430e5. https://
+doi.org/10.1039/C5DT04822B.
+[57] Luciani G, Landi G, Aronne A, Di Benedetto A. Partial
+substitution of B cation in La0.6Sr0.4MnO3 perovskites: a
+promising strategy to improve the redox properties useful for
+solar thermochemical water and carbon dioxide splitting. Sol
+Energy 2018. https://doi.org/10.1016/j.solener.2018.06.058.
+[58] Demont A, Abanades S. Solar thermochemical conversion of
+CO2 into fuel via two-step redox cycling of non-
+stoichiometric Mn-containing perovskite oxides. J Mater
+Chem 2015. https://doi.org/10.1039/c4ta06655c.
+[59] Sastre D, Carrillo AJ, Serrano DP, Pizarro P, Coronado JM.
+Exploring the redox behavior of La0.6Sr0.4Mn1xAlxO3
+perovskites for CO2-splitting in thermochemical cycles. Top
+Catal 2017;60:1108e18. https://doi.org/10.1007/s11244-017-
+0790-4.
+[60] Pechini MP. Method of preparing lead and alkaline earth
+titanates and niobates and coating method using the same to
+form a capacitor 1967.
+[61] Briggs D, Wanger D, Riggs WM, Davis LE, Moulder JF,
+Muilenberg GE. Handbook of X-ray photoelectron
+spectroscopy C. Eden Prairie, Minnesota, USA: Perkin-Elmer
+Corp., Physical Electronics Division; 1979. https://doi.org/
+10.1002/sia.740030412. 190 pp. $195. Surf Interface Anal
+1981;3:vev.
+[62] Stathopoulos VN, Belessi VC, Bakas TV, Neophytides SG,
+Costa CN, Pomonis PJ, et al. Comparative study of
+LaeSreFeeO perovskite-type oxides prepared by ceramic
+and surfactant methods over the CH4 and H2 lean-deNOx.
+Appl Catal B Environ 2009;93:1e11. https://doi.org/10.1016/
+j.apcatb.2009.09.003.
+[63] Vasquez RP. SrCO3 by XPS. Surf Sci Spectra 1992;1:112e6.
+https://doi.org/10.1116/1.1247696.
+[64] He F, Chen J, Liu S, Huang Z, Wei G, Wang G, et al. La1-
+xSrxFeO3 perovskite-type oxides for chemical-looping steam
+methane reforming: identiﬁcation of the surface elements
+and redox cyclic performance. Int J Hydrogen Energy
+2019;44:10265e76. https://doi.org/10.1016/
+j.ijhydene.2019.03.002.
+[65] Vijayaraghavan T, Sivasubramanian R, Hussain S, Ashok A. A
+facile synthesis of LaFeO 3 -based perovskites and their
+application towards sensing of neurotransmitters.
+Chemistry 2017;2:5570e7. https://doi.org/10.1002/
+slct.201700723.
+[66] Thirumalairajan S, Girija K, Mastelaro VR, Ganesh V,
+Ponpandian N. Detection of the neurotransmitter dopamine
+by a glassy carbon electrode modiﬁed with self-assembled
+perovskite LaFeO 3 microspheres made up of nanospheres.
+RSC Adv 2014;4:25957e62. https://doi.org/10.1039/
+C4RA03467H.
+[67] Dudric R, Vladescu A, Rednic V, Neumann M, Deac IG,
+Tetean R. XPS study on La0.67Ca0.33Mn1xCoxO3
+compounds. J Mol Struct 2014;1073:66e70. https://doi.org/
+10.1016/j.molstruc.2014.04.065.
+[68] Fierro JLG. Structure and composition of perovskite surface
+in relation to adsorption and catalytic properties. Catal
+Today 1990;8:153e74. https://doi.org/10.1016/0920-5861(90)
+87016-V.
+[69] Opitz AK, Rameshan C, Kubicek M, Rupp GM, Nenning A,
+G€otsch T, et al. The chemical evolution of the
+La0.6Sr0.4CoO3d surface under SOFC operating conditions
+and its implications for electrochemical oxygen exchange
+activity. Top Catal 2018;61:2129e41. https://doi.org/10.1007/
+s11244-018-1068-1.
+i n t e r n a t i o n a l j o u r n a l o f h y d r o g e n e n e r g y 4 7 ( 2 0 2 2 ) 1 9 4 1 1 e1 9 4 2 1
+19421

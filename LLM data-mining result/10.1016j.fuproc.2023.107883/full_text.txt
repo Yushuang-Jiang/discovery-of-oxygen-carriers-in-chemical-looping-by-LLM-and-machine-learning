@@ -1,0 +1,1241 @@
+
+
+===== Page 1 =====
+
+Fuel Processing Technology 250 (2023) 107883
+Available online 17 June 2023
+0378-3820/© 2023 Elsevier B.V. All rights reserved.
+Research article 
+Oxygen uncoupling chemical looping gasification of biomass over 
+heterogeneously doped La-Fe-O perovskite-type oxygen carriers 
+Changxin Li , Weijie Li , Yanfen Liao *, Shuang Liang , Xiaoqian Ma 
+Guangdong Key Laboratory of Efficient and Clean Energy Utilization Institutes, School of Electric Power, South China University of Technology, Guangzhou 510640, PR 
+China   
+A R T I C L E  I N F O   
+Keywords: 
+Chemical looping gasification 
+Oxygen uncoupling 
+LaFeO3-based oxygen carrier 
+Oxygen vacancy 
+In-situ/ex-situ gasification 
+A B S T R A C T   
+Biomass chemical looping gasification (BCLG) is a promising technology utilizes lattice oxygen for partial 
+oxidation to produce high-value fuels. But in the field of BCLG, oxygen uncoupling chemical looping gasification 
+(OU-CLG) is a novel concept that introduces molecular oxygen to optimize traditional gas-solid reactions. In this 
+work, based on the most representative oxygen uncoupling elements successfully doped into La-Fe-O oxygen 
+carriers, the results showed that the reaction performance not be positively correlated with the degree of oxygen 
+uncoupling, only Co doping exhibited a better gasification performance than LaFeO3 did. Further, Co-LF differs 
+from conventional LF in that it performs better in ex-situ gasification than in-situ gasification, with a total gas 
+yield and carbon conversion efficiency of 1078.70 ml/g and 75.15% respectively. Further characterizations 
+revealed that Co doping led to changes in the physical structure and reducibility. More importantly, enriched 
+lattice oxygen and oxygen vacancies induced the formation of disordered reactive oxygen species in perovskite 
+lattice, which promote the further oxygen uncoupling and the formation of oxygen uncoupling vacancies in ex- 
+situ gasification. Moreover, doped but failure to promote the CLG might due to oxygen scarcity, impurity and 
+elemental catalytic properties. Finally, a clear reaction mechanism regarding OU-CLG was proposed.   
+1. Introduction 
+Growing concerns about fossil fuel depletion, global warming and 
+energy security are the primary motivations for exploring alternative 
+fuels and efficient chemical methods. Renewable energy offers a valid 
+solution to rationalize the present and future energy structure, and 
+biomass is considered a promising substitute for fossil fuels featuring 
+carbon neutrality, abundant reserves and renewability [1,2]. Among the 
+thermo-chemical methods for biomass conversion, chemical looping 
+gasification (CLG), as a new thermal conversion method, outperforms 
+the traditional ways in several aspects [3,4]: (ⅈ) it can save costs by 
+avoiding the use of expensive pure oxygen as the gasification agent; (ⅈⅈ) 
+it produces syngas with higher purity by avoiding the use of air that 
+causes N2 dilution; (ⅈⅈⅈ) it realizes energy circulation between air reactor 
+and fuel reactor to a certain extent. 
+In general, oxygen carriers (OCs) used for the complete oxidation of 
+biomass are suitable for chemical looping combustion (CLC) for heat 
+generation, while those tend to incompletely oxidize biomass are suit­
+able for chemical looping gasification (CLG) for syngas production. As 
+shown in Fig. 1, the reactions involving molecular oxygen are 
+subdivided into oxygen uncoupling chemical looping combustion (OU- 
+CLC) and oxygen uncoupling chemical looping gasification (OU-CLG) 
+[5,6]. Oxygen uncoupling refers to the characteristic that oxygen car­
+riers release molecular oxygen at a specific temperature and oxygen 
+partial pressure to participate in the reaction process [7]. Compared to 
+conventional CLG, which focuses on the catalytic cracking of tar mole­
+cules by oxygen carriers and utilizes lattice oxygen to achieve partial 
+oxidation, OU-CLG has the advantage of introducing molecular oxygen 
+to optimize the conventional gas-solid reaction and improve the low 
+efficiency of the solid-solid gasification reaction due to heat and mass 
+transfer limitations [8,9]. In addition, due to the very high reactivity of 
+oxygen uncoupling materials, the amount of metal oxide material 
+required for system applications would be lower, realizing smaller 
+reactor size and lower costs [10]. As a new concept and process, research 
+in this area has recently been carried out by some researchers. Wang 
+et al. used Cu–Fe oxygen carriers for OU-CLG and explored that the 
+critical factors affecting the oxygen decoupling ability of OC are tem­
+perature, heating rate and oxygen partial pressure, and dissected the 
+oxygen decoupling phenomenon by combining the results of DFT cal­
+culations and kinetic analysis [9]. Zhang et al. investigated OU-CLG 
+* Corresponding author. 
+E-mail address: yfliao@scut.edu.cn (Y. Liao).  
+Contents lists available at ScienceDirect 
+Fuel Processing Technology 
+journal homepage: www.elsevier.com/locate/fuproc 
+https://doi.org/10.1016/j.fuproc.2023.107883 
+Received 16 April 2023; Received in revised form 3 June 2023; Accepted 6 June 2023   
+
+
+===== Page 2 =====
+
+Fuel Processing Technology 250 (2023) 107883
+2
+based on lignocellulosic biomass using different mixing ratios of CuO as 
+oxygen carriers, and rigorously performed product distribution analysis 
+and kinetic analysis [11]. Moreover, Yan et al. used Mn-doped Ca–Fe 
+OC for OU-CLG of digestate demonstrating that the oxygen uncoupling 
+capacity indeed can improve the selectivity of syngas and explaining the 
+activating phenomenon of CO2 molecule at oxygen uncoupling vacancy 
+[7,12]. OU-CLG is a technique that is gradually gaining widespread 
+attention from related researchers. 
+The selection of OCs is essential in the chemical looping process 
+(CLP) in regard to selectivity for syngas production, reducing pollutant 
+emissions and enhancing stability performance [13,14]. Numerous 
+studies have studied that the reactivity of OCs can be improved by 
+doping with transition metals (Ni, Mn, Sr, Ca, et al) [15–18]. However, 
+thermodynamically, only a limited number of metal oxides can match 
+the requirements of oxygen uncoupling processes: CuO/Cu2O, Mn2O3/ 
+Mn3O4, and Co3O4/CoO [10,19]. Unfortunately, such mono-metal ox­
+ides have some flaws if directly used as OCs, for instance, low melting 
+temperature, low resistance to agglomeration, and environmental 
+pollution. 
+Nowadays, perovskite-type oxides and doping strategies have been 
+widely proposed and applied in order to improve reactivity and cycling 
+stability. Perovskite-type oxides are generally in the form of ABO3, in 
+which A can be a rare-earth and alkali metal, and B is usually a transition 
+metal [20,21]. Typical examples are BaMnO3, CaMnO3, and LaFeO3, 
+which are used in the fields of hydrogen production, chemical looping 
+combustion, CO2 reduction and so on [21–23]. Out of the various 
+perovskite-type oxides, LaFeO3 is a relatively basic oxygen carrier and 
+gathers the merits of both perovskite and iron oxide, namely high oxy­
+gen transport capacity and capability of hosting high concentration of 
+alkaline active sites and oxygen vacancies [24,25]. Another attractive 
+characteristic of LaFeO3 is that different perovskite frameworks can be 
+derived through doping of the overall LaFeO3 structure or partial sub­
+stitution of the A- and/or B-site cations. In this way, the active compo­
+nents can be embedded into the bulk phase of materials while 
+maintaining their basic crystal structure [26]. In recent studies, Yan 
+et al. used Mn-doped Ca–Fe OC for OU-CLG of digestate [7,12], 
+demonstrating that the oxygen uncoupling capacity indeed can improve 
+the selectivity of syngas and explaining the activating phenomenon of 
+CO2 molecule at oxygen uncoupling vacancy. These prove that modi­
+fying the oxygen uncoupling capacity of OCs is a feasible and promising 
+method to improve CLG performance. 
+Therefore, this work took the widely reported LF as the basic oxygen 
+carrier and attempted to optimize the conventional gasification pro­
+cesses by introducing highly active molecular oxygen through the 
+doping of the three most representative oxygen uncoupling elements 
+(Cu, Mn, Co). Besides, the suitable oxygen uncoupling doping elements 
+for LaFeO3 were screened, and the effects of temperature and configu­
+ration conditions on the gasification performance of the OCs were also 
+illustrated. Eventually, the interaction mechanism of oxygen uncoupling 
+capacity‑oxygen vacancy activity-gasification performance of M-LF (M 
+= Cu, Mn and Co) was explored. This study is expected to further the 
+understanding of the novel concept of OU-CLG and realize highly effi­
+cient and clean utilization of biomass resources. 
+2. Materials and methods 
+2.1. Materials 
+2.1.1. Biomass feedstock 
+Pine sawdust (PS), from the locality of Nanjing (China) was used as 
+fuel biomass feedstock. The biomass was crushed and sieved to obtain 
+particles in the range 0.18–0.43 mm, after which it was dried for 24 h at 
+105 ◦C and kept for later use. The proximate and ultimate analyses of the 
+sawdust were shown in Table 1. 
+2.1.2. Synthesis of oxygen carriers 
+The perovskite-type OCs were synthesized by the sol-gel auto­
+combustion method. Firstly, the required amounts of La(NO3)3⋅6H2O, 
+Mn(NO3)2⋅4H2O, Cu(NO3)2, Fe(NO3)3⋅9H2O and Co(NO3)2⋅6H2O were 
+mixed in the molar ratio of M:La:Fe were 1:1:1(M-LF, M = Cu, Mn, Co) 
+and 0:1:1(LF) respectively, and dissolved in distilled water. In order to 
+facilitate the chelation process of metal ions, a certain amount of citric 
+acid and ethylene glycol were added to the solution to a molar ration of 
+citric acid: glycol: metal cations were 1.5:1.5:1. Subsequently, to 
+enhanced the homogeneity of the gel and the purity of phase, aqueous 
+ammonia was dropped into the resulted solution to adjust the pH value 
+= 8.0. The resulting mixture was stirred at 500rpm on a magnetic stirrer 
+and evaporated at 80 ◦C for 1h until a viscous gel was formed. A sponge- 
+like precursor was then formed after drying at 200 ◦C for 2 h. Thereafter, 
+the samples were heated at 900 ◦C for 6 h at a 10 ◦C/min ramp in a 
+muffle furnace. Ultimately, the synthesized solid was crushed and sieved 
+to particles under 80 mesh and obtained the final OCs. 
+2.2. OCs evaluation 
+2.2.1. Oxygen uncoupling performance test 
+The oxygen release capability of OCs was analyzed by thermogra­
+vimetric analysis using a TGA/DSC from Switzerland Mettler Toledo. 
+Firstly, First, 5–8 mg of fresh OCs were evenly spread on the bottom of 
+the alumina crucible and then placed into the TGA, and the temperature 
+was increased from 30 ◦C to 1000 ◦C at a rate of 10 ◦C/min, while 50 ml/ 
+min of pure argon was introduced. For evaluation of the oxygen 
+uncoupling stability of OCs, similarly, 5–8 mg of fresh OCs were placed 
+in TGA, and the temperature was increased from 30 ◦C to 900 ◦C at a rate 
+of 10 ◦C/min, accompanied by 50 ml/min of pure argon atmosphere, 
+and maintained 900 ◦C for 20 min. After that, by alternating air (50 ml/ 
+min) and argon (50 ml/min) atmosphere under isothermal condition 
+(900 ◦C) to simulated OCs deoxygenation and obtain oxygen. A total of 
+5 cycles were performed, with each half cycle lasting 20 min. 
+2.2.2. Experiment setup and procedure 
+The biomass chemical looping gasification experiments were carried 
+out in a fixed-bed reactor setup, as schematically depicted in Fig. 2, 
+consisting of a U-type tube made of quartz and a K-type thermocouple 
+with PID controller controlling the temperature. Take a typical in-situ 
+gasification experiment as an example, at first, the mixture samples of 
+PS (150 mg) and oxygen carriers (150 mg) are pre-assembled in a cru­
+cible and placed on the side of the reactor for subsequent experiments. 
+N2 was then introduced into the reactor at a rate of 50 ml/min to 
+eliminate air and maintain the inert environment. After reaching the 
+target reaction temperature, the crucible was promptly dropped for the 
+experiment. The gas was collected using the drainage method within 20 
+min of the process and identified via gas chromatography (Agilent Gas 
+Chromatograph, 7890B). After the reduction stage, N2 was purged for 
+20 min to exclude residual gas and then the carrier gas air was at a rate 
+of 100 ml/min for 30 min for the oxidation stage. 
+The detailed experiment setup and procedure of ex-situ gasification 
+experiment were described in the previous work [13]. Noteworthy, the 
+most obvious difference from the in situ gasification experiments is that 
+in the in situ experiments, the biomass and OCs were separated. The OCs 
+Fig. 1. Classification basis for typical biomass chemical looping processes.  
+C. Li et al.                                                                                                                                                                                                                                        
+
+
+===== Page 3 =====
+
+Fuel Processing Technology 250 (2023) 107883
+3
+were pre-positioned on one side of the reactor, while the biomass 
+feeding pyrolysis area was located on the other side, and other opera­
+tional procedures remained the same. During the reduction stage, the 
+pyrolysis products were carried by the carrier gas to the other side of the 
+U-tube for further gasification and reform with OCs, to investigating the 
+effect of deep oxygen uncoupling on chemical looping gasification. The 
+cyclic redox experiment is performed at 900 ◦C and other basic opera­
+tions and procedures remain identical. 
+2.2.3. Data evaluation 
+In this paper, the gas yield of each component Gi (ml/g) is calculated 
+by: 
+Gi = V
+mbio
+xi 
+Where V (ml) represents the collected total gas volume during the 
+experiment, mbio (g) is the mass of biomass, and xi (%) is the concen­
+tration of each gas component i (including H2, CO, CH4, CO2, and C2Hm), 
+measured by gas chromatograph. 
+The total gas yield G (ml/g) which is defined as the gas capacity per 
+unit mass of biomass, can be generally calculated as: 
+G = ΣGi 
+The low heating value of gas products (LHV, KJ/Nm3) is calculated 
+by: 
+LHV = 359cCH4 + 126cCO + 108cH2 + 635cC2Hm  
+ci = xi
+Σxi
+× 100%  
+where ci is the relative concentration of each gas component i. 
+Gasification efficiency (η) is a critical parameter to evaluate the 
+synthesis gas transformation performance of chemical looping gasifi­
+cation, which is calculated by: 
+η = LHV × G
+QPS
+× 100%  
+where QPS (MJ/kg) is the low calorific value of biomass samples. 
+Carbon conversion efficiency (ηc) is adopted to evaluate the con­
+version degree of biomass, which is calculated by: 
+ηc = 12(GCH4 + GCO + GCO2 + 2GC2Hm)
+22.4Cbio
+× 100% 
+Where Cbio is the carbon content of biomass. 
+2.3. Characterization of oxygen carriers 
+Structure and crystallinity of the samples were characterized by an 
+XRD diffractometer (RigakuSmartlab) using Cu Kα radiation (1.5406 Å) 
+in 2θ scanning range 5–90◦with a scan speed of 10 deg. min-1. Scanning 
+electron microscopy (SEM) of the obtained samples was performed using 
+a FEI QuantaTM 400. 
+The temperature programmed reduction with H2 (H2-TPR) was 
+monitored with Micromeritics AutoChem II 2920 using 100 mg of OC 
+and 10% H2/N2 at a flow rate of 50 ml/min. At first, the samples were 
+pretreated in a flow of Helium for 1 h at 200 ◦C, subsequently cooled to 
+the room temperature. After baseline is stable, the temperature was 
+increased to 1000 ◦C at a rate of 10 ◦C/min. 
+The composition elements and chemical valence state on the surface 
+of the samples were measured by X-ray Photoelectron Spectroscopy 
+(XPS, Model: Thermo Scientific K-Alpha, America) with Al Kα, and C 1 s 
+(284.8 eV) was used for calibration. 
+Electron paramagnetic resonance (EPR) was used to test the initial 
+oxygen vacancy concentration of the samples. In this paper, The EPR 
+measurement parameters were as follows: center field, 3510 G; sweep 
+width, 100 G; microwave power, 20.03 MW; microwave frequency, 
+9.852518 GHz. 
+Table 1 
+The properties of PS.  
+Ultimate analysis (wt%, ada) 
+Proximate analysis (wt%, ada) 
+LHV (MJ/kg) 
+C 
+H 
+O 
+N 
+S 
+Moisture 
+Ash 
+Volatile 
+Fixed Carbon 
+48.62 
+6.64 
+44.24 
+0 
+0 
+9.89 
+0.98 
+74.43 
+14.79 
+18.15  
+a Air dried basis. 
+Fig. 2. Schematic diagram of the fixed-bed setup for OU-CLG.  
+C. Li et al.                                                                                                                                                                                                                                        
+
+
+===== Page 4 =====
+
+Fuel Processing Technology 250 (2023) 107883
+4
+3. Results and discussion 
+3.1. Characterization of as-prepared OCs 
+3.1.1. Oxygen uncoupling performance test 
+The criterion for evaluating the oxygen uncoupling capability of an 
+oxygen carrier is whether it releases gaseous oxygen at a certain tem­
+perature and oxygen partial pressure. Therefore, the oxygen uncoupling 
+ability and stability of the as-prepared OCs were evaluated by switching 
+air and inert gas in TG. As seen in Fig. 3(a). The mass change curves of 
+four samples from 30 to 1000 ◦C under a argon atmosphere were 
+compared, and they can be split into three stages. For stage 1 (30 ◦C- 
+150 ◦C), all oxygen carriers had weight loss, which may be caused by the 
+release of water and other adsorbed impurities. In stage 2 
+(150 ◦C–500 ◦C), LF had more observable mass loss than other OCs, 
+which may be relevant to the continuous release of adsorbed oxygen, 
+while it exhibited no drastic loss of mass in stage 3 (500 ◦C–1000 ◦C), 
+during which, however, Cu-LF, Co-LF and Mn-LF all showed significant 
+weight loss. More specifically, Mn-LF started to lose mass at a stable rate 
+at around 520 ◦C and eventually remained at 98.397% of its mass, while 
+Co-LF and Cu-LF demonstrated drastic mass loss at around 800 ◦C, and 
+residual mass accounted for 97.593% and 97.073% respectively. This is 
+attributed to the spillover of part of the internal lattice oxygen driven by 
+high temperature, after the adsorbed oxygen that occupies the oxygen 
+vacancies was removed from the surface. 
+The stability of the oxygen uncoupling characteristics can be evalu­
+ated by isothermal cycling experiments with switching between argon 
+and air atmospheres. As shown in Fig. 3(b), M-LF lost weight rapidly in 
+argon atmosphere and regenerated rapidly in air atmosphere. It can be 
+inferred that the doping of different elements changes the microstruc­
+ture of peroxides to endow peroxides with oxygen uncoupling ability. 
+On top of that, it can be observed that the rate of oxygen-release of Co-LF 
+was much faster than that of oxygen-gain during a cycle, and such 
+efficient oxygen release may improve the reactivity [27]. However, LF 
+does not show a periodic fluctuation in mass under the switch in at­
+mosphere. In our previous study, some conventional oxygen carrier such 
+as NiFe2O4 also exhibits thermal stability like LF [13]. In summary, the 
+as-prepared M-doped LF (M = Cu, Mn, Co) have well-defined oxygen 
+characteristics and cycle performance, and follow the oxygen uncou­
+pling ability order in Cu-LF > Co-LF > Mn-LF, which meets the 
+expectation. 
+3.1.2. XRD 
+The crystalline phase of the as-prepared OCs was examined by XRD 
+patterns and shown in Fig. 4. The diffraction peaks of LF were perfectly 
+attributed to LaFeO3 (JCPDS No.75–0541), which were assigned to 
+orthorhombic structure with pm3m space group. For the samples of Mn- 
+LF and Co-LF, the OCs still kept the perovskite structure without any 
+other oxides containing La, Fe and Mn/Co, indicating the high purity of 
+the products. However, CuO and La2CuO4 were found in the diffraction 
+peak of Cu-LF, which may result from the excess overflow of Cu2+ and B- 
+site deficiency [28,29]. It is worth mentioning that, CuO is commonly 
+used in chemical looping combustion due to its superior oxygen storage 
+and transport capacity to facilitate combustion rate and carbon capture 
+efficiency. This may contradict our original intention, as it is not bene­
+ficial to the CLG field that partially oxidizes biomass to obtain syngas 
+[28]. When Co or Mn element was doped, Co3+ cation (0.61 Å) and 
+Mn3+ cation (0.53 Å) were both smaller than Fe3+ cation (0.645 Å). 
+Smaller B-site elements drove the perovskite structure to contract in­
+ward, causing the diffraction peaks to shift upward. In contrast, Cu2+
+cation (0.73 Å) was larger than Fe3+ cation (0.645 Å), causing the 
+diffraction peaks to shift downward. Researchers found that the sub­
+stitution of metal ions for a part of Fe3+ would cause an electronic un­
+balance, resulting in the electrical valence compensation to retain the 
+charge neutrality [30,31]. Meanwhile, the distorted perovskite structure 
+can also adjust the charge balance by generating oxygen vacancies, 
+which could promote the activity of OCs [32,33]. 
+Table 2 shows the structural parameters of the perovskites obtained 
+from XRD analyses. The calculated lattice constants of all oxygen car­
+riers did not change significantly, indicating that the perovskite struc­
+ture was maintained. The doping of metal ions changed the average 
+crystallite size and cell volume of oxygen carriers to different degrees. 
+However, it is worth noting that doping of Co to LaFeO3 led to the 
+shifting of diffraction peaks toward a lower angle direction and smaller 
+average crystallite size and cell volume, but in theory it should be the 
+opposite, since Co3+ (0.61 Å) is larger than Mn3+ (0.53 Å), which 
+revealed that higher-valence Co ions were induced to form, and Co-LF 
+had a more compact crystal structure. Taken together, it can be 
+referred that Co-LF probably had a higher lattice oxygen concentration. 
+In addition, it is clearly observed that the intensity of diffraction peaks of 
+Co-LF is significantly lower compared to that of other OCs. The decrease 
+of crystallinity can be illustrated by the Jahn-Teller effect, so Co doping 
+may have caused a change in tolerance factor, which led to a transition 
+from orthorhombic to other structures [34]. This slight tendency of 
+transferring to other crystalline forms might be related to the conversion 
+of lattice oxygen to active oxygen species as will be mentioned later. 
+Fig. 3. (a) TG curves of as-prepared OCs under Argon atmosphere. (b) TG curves of as-prepared OCs over 5 cycles of oxygen uncoupling and regeneration.  
+C. Li et al.                                                                                                                                                                                                                                        
+
+
+===== Page 5 =====
+
+Fuel Processing Technology 250 (2023) 107883
+5
+3.1.3. SEM 
+To analyze the morphologic of different elements doped LaFeO3 
+scanning electron microscopy (SEM) images of these samples were 
+carried out and presented in Fig.5. It can be seen that the LF nano­
+particles synthesized by the autocombustion method have excellent 
+dispersion and are quite homogeneous. More notably, after heteroge­
+neous doping, Mn-LF and Co-LF retain their original dense layered 
+structure, while Cu-LF exhibits larger nanoparticles and relatively 
+agglomerated bulk structure, while the significantly larger pores of OC 
+may not be conducive to the adequate contact between biomass pyrol­
+ysis products and active sites [35]. Comparing all the samples, the sur­
+face morphology of Co-LF formed the most dense layered or film-like 
+structure, which can indicate the homogeneity and fineness of its 
+nanoparticles on the one hand. On the other hand, it can indicate that it 
+possesses the overall structural specificity, which can indirectly predict 
+the positive improvement of this heterogeneous doping. 
+3.1.4. XPS 
+Fig. 6 depicts the wide XPS survey spectrum and high-resolution O1s 
+and Fe 2p spectra for all samples, which indicates the presence of La, Fe, 
+O and doped elements. Further, the asymmetric O1s core-level spectrum 
+for perovskite samples can be divided into lattice oxygen (OI), chem­
+isorbed oxygen (OII), and physoisorbed oxygen (OIII) [13,36]. When LF 
+was doped with different elements, the three oxygen species did not 
+have a significant change in the binding energy, but their content 
+exhibited obvious changes, especially lattice oxygen, which indicated 
+that the chemical environment around the active components has 
+changed. Generally speaking, doping with metal ions of different par­
+ticle sizes would change initial metal-O local environments, lower the 
+oxygen vacancy formation energy and promote lattice oxygen transfer 
+during reaction. Besides, the Fe 2p spectra of as-prepared OCs consisted 
+of two spin–orbit doublets of Fe 2p3/2 and Fe 2p1/2, located at 710.28 
+eV and 724.78 eV, and the satellite peak at ~718 eV and the asymmetric 
+peak shape together revealed the existence of iron ions with two 
+chemical environments in the perovskite. In the fitted Fe 2p3/2 and Fe 
+2p1/2 spectra, the two peaks corresponded to Fe3+ (710.08 and 723.48 
+eV) and Fe2+ (711.58, 714.18, 725.18 and 728.08 eV) states respectively 
+[37,38]. Normally, when the perovskite structure is maintained, the 
+concentration of oxygen vacancy can be reflected by the abundance of 
+Fe2+ ions in the system [39], since each oxygen vacancy created is 
+inevitable to leave two electrons, reducing Fe3+ into Fe2+ [40]. 
+Accordingly, we have analyzed the concentration of Fe2+ and Fe3+ ions 
+in as-prepared OCs and listed them in Table 3. As we can see, except for 
+Cu-LF, other doped perovskites showed higher Fe2+ concentration than 
+LF, confirming that the doping of different elements accelerated the 
+reduction of Fe3+ through the charge compensation effect and then 
+promoted the formation of oxygen vacancies [29,41]. The doping of Co 
+raised the total oxygen content to 115% of that of LF, and increased the 
+OI/(OII+ OIII) and Fe2+/(Fe3++Fe4+) from 1.10 and 0.67 to 1.60 and 
+1.22. The increased lattice oxygen and oxygen vacancies together 
+created conditions for further oxygen uncoupling, but also accelerated 
+the electrons exchange rate between biomass and OCs, hence promoting 
+the redox performance of oxygen carriers [26]. 
+3.1.5. H2-TPR 
+H2-TPR was conducted to test the reducibility and oxygen migration 
+behavior of the OCs. The reduction of OCs generally can be divided into 
+two stages below and above 550 ◦C. As can be seen from Fig. 7, the curve 
+of LF showed the peaks of hydrogen consumption at around 390 ◦C and 
+510 ◦C in the low-temperature stage, which may be due to the release of 
+adsorbed oxygen that occupied the oxygen vacancy in the surface and 
+the reduction of Fe3+ to Fe2+. These results are consistent with the 
+literature [42,43]. In the high-temperature stage, the curve of LF 
+appeared to a manifest peak at around 680 ◦C, and then emerged a 
+reduction band starting from 800 ◦C, which may result from the 
+migration-release of internal lattice oxygen [44]. As for Mn-LF, it 
+Fig. 4. X-ray diffraction patterns of the as-prepared oxygen carriers.  
+Table 2 
+Lattice constant, cell volume, average crystallite size, and hydrogen 
+consumptions.  
+Samples 
+Lattice constant(nm) 
+Va 
+Db 
+H2-1c 
+H2-2d 
+a 
+b 
+c 
+(nm3) 
+(nm) 
+(mmol 
+g−1) 
+(mmol 
+g−1) 
+LF 
+0.556 
+0.782 
+0.557 
+0.2419 
+34.732 
+2.43 
+2.17 
+Cu-LF 
+0.569 
+0.784 
+0.556 
+0.2427 
+66.889 
+1.51 
+1.13 
+Mn-LF 
+0.577 
+0.782 
+0.554 
+0.2417 
+27.201 
+0.41 
+0.73 
+Co-LF 
+0.598 
+0.776 
+0.554 
+0.2413 
+20.897 
+3.64 
+1.44  
+a cell volume. 
+b average crystallite size. 
+c H2 consumption below 550 ◦C. 
+d H2 consumption above 550 ◦C. 
+C. Li et al.                                                                                                                                                                                                                                        
+
+
+===== Page 6 =====
+
+Fuel Processing Technology 250 (2023) 107883
+6
+demonstrated the weakest reducibility with two weak peaks at ~350 ◦C 
+and 600 ◦C. While Cu-LF peaked only at the range of 100–200 ◦C despite 
+that it had the largest amount of oxygen uncoupling under hydrogen 
+atmosphere, possibly because of the CuO impurity crystal phase 
+mentioned above. Table 2 listed the hydrogen consumption of the as- 
+prepared OCs, among which Co-LF presented the strongest reduc­
+ibility. It had the first reduction peak at around 360 ◦C, corresponding to 
+the consumption of adsorbed oxygen combining with the reduction of 
+Fe3+ to Fe2+ even Fe0 and Co3+ to Co2+ [32]. Compared with LF, Co-LF 
+had a larger hydrogen consumption amount and lower peak tempera­
+ture. While its second peak was also in the low-temperature stage near 
+450 ◦C, corresponding to the bulk lattice oxygen in the oxygen carrier 
+particle rapidly transferred to the surface to supplement the oxygen 
+vacancies that came with the consumption of surface oxygen. Besides, 
+the reduction band of Co-LF at high-temperature also stood out among 
+the other samples. On the one hand, these demonstrated that the higher 
+mobility of Co-LF lattice oxygen and migration could occur more easily 
+[45,46]. On the other hand, it also demonstrated the ability of Co doping 
+to promote the deep reduction of iron-based oxygen carriers. Although 
+the XPS characterization showed that all the metal doping increased the 
+oxygen content of OCs to different degrees, the hydrogen consumption 
+of Cu-LF and Mn-LF was much lower than that of LF. On the one hand, as 
+pointed out by the XPS analysis, the amount of higher valence states of 
+Fe3+ or Fe4+ was diminishing as Cu or Mn doped therefore the degree of 
+reduction became shallow. On the other hand, these suggested that 
+different doping metals may have different effects on the Metal-O bond 
+strength [12,29], as well as different synergistic effects with the iron- 
+based oxygen carriers to make the differences in the reducibility. 
+3.1.6. EPR 
+The presence of oxygen vacancy vacancies can be further confirmed 
+by EPR technology, as shown in Fig. 8, the symmetric peaks centered at 
+g ≈2.003 represent the presence of single-electron-trapped oxygen 
+vacancies [47,48]. The EPR curves of as-prepared OCs showed the same 
+trend, and the EPR signal intensity of the OCs followed the sequence of 
+Co-LF > Cu-LF > Mn-LF > LF, which indicated that the different metal 
+doping largely strengthened the EPR signals of the as-prepared OCs. The 
+amount of adsorbed oxygen on the perovskite surface was undoubtedly 
+higher as there were more oxygen vacancies. More importantly, the 
+concentration differential between the inside and outside can foster the 
+continuous outflow of lattice oxygen to the surface after removing the 
+adsorbed oxygen from the surface [47,49]. Combined with the previous 
+characterization results, Cu-LF showed the deepest oxygen release depth 
+in Ar-TG results but the lowest hydrogen consumption in H2-TPR results. 
+While Co-LF can not only release surface oxygen and a considerable 
+amount of lattice oxygen in Argon atmosphere, but also consumes more 
+hydrogen in H2 (reducing atmosphere) through the overflowed of in­
+ternal lattice oxygen. The oxygen diffusion typically includes two steps: 
+an oxygen vacancy forms and a neighboring oxygenmigrates into it. 
+Thus, oxygen vacancies are advantageous for oxygen migration cause 
+oxygen transport through lattices occurs according to the vacancy- 
+mediated hopping mechanism [50,51]. So as for the oxygen uncou­
+pling characteristic of Co-LF, a high concentration of surface oxygen 
+vacancies is beneficial for the conversion of lattice oxygen to active 
+Fig. 5. SEM images of (a) LF, (b) Co-LF, (c) Cu-LF and (d) Mn-LF.  
+C. Li et al.                                                                                                                                                                                                                                        
+
+
+===== Page 7 =====
+
+Fuel Processing Technology 250 (2023) 107883
+7
+oxygen species, the conversion of lattice oxygen to active oxygen species 
+benefits from a large concentration of surface oxygen vacancies. 
+Alongside this, oxygen can be activated and transferred at the Co3+ sites, 
+which promotes the production of disordered active oxygen species in 
+the perovskite lattice. Therefore, it can be inferred that higher oxygen 
+vacancies can increase the mobility of lattice oxygen and enhance the 
+oxidizing ability of OCs, and that oxygen vacancies create conditions for 
+further oxygen uncoupling (under a reductive atmosphere instead of an 
+inert atmosphere) to proceed. In addition, as active sites on the surface 
+for catalytic reactions, oxygen vacancies usually contribute to the 
+adsorption of reactant molecules [52,53], which facilitates the CLG 
+reaction. 
+Fig. 6. XPS spectra of survey spectrum, Fe 2p, O 1 s and O functionality for fresh LF (a), Co-LF (b), Mn-LF (c) and Cu-LF (d).  
+Table 3 
+Oxygen species and Fe 2p results of fresh samples obtained by XPS analysis.  
+Samples 
+O 1s 
+OI/ 
+(OII+
+OIII) 
+Fe 2p 
+Fe2+/ 
+(Fe3++Fe4+) 
+Peak area(%) 
+Peak area(%) 
+OI 
+OII 
+OIII 
+Fe2+
+Fe3+ or 
+Fe4+
+LF 
+52.3 
+43.5 
+4.2 
+1.10 
+0.40 
+0.60 
+0.67 
+Cu-LF 
+55.0 
+38.8 
+6.2 
+1.22 
+0.38 
+0.62 
+0.61 
+Mn-LF 
+55.8 
+40.7 
+3.5 
+1.26 
+0.48 
+0.51 
+0.94 
+Co-LF 
+61.6 
+34.0 
+4.4 
+1.60 
+0.55 
+0.45 
+1.22  
+Fig. 7. H2-TPR profiles of the as-prepared OCs.  
+C. Li et al.                                                                                                                                                                                                                                        
+
+
+===== Page 8 =====
+
+Fuel Processing Technology 250 (2023) 107883
+8
+3.2. Gasification tests 
+3.2.1. Screening of perovskites for OU-CLG 
+Through the TG analysis, metal-doped LaFeO3 of Cu, Mn, and Co had 
+acquired the oxygen uncoupling ability. However, the properties of 
+oxygen uncoupling characteristics may be caused by different factors. In 
+this part, the fixed-bed reactor was used to explore the oxygen uncou­
+pling properties. Fig. 10 shows the gas yields of each component and 
+Fig. 9 illustrates comparison of gasification efficiency and carbon con­
+version efficiency with different oxygen carriers during the CLG process 
+in the temperature range of 750–950 ◦C. As the temperature rose, the 
+yield of H2 and CO increased while the yield of C2Hm gradually 
+decreased. The total gas yield, the gasification efficiency and carbon 
+conversion efficiency were also improved with increasing temperature. 
+This can be attributed to the fact that the high temperature facilitates the 
+pyrolysis of biomass and the cracking of macromolecular tar [26]. In 
+addition, high temperature can promote the rightward shift of a series of 
+endothermic reactions such as the Boudouard reaction, partial oxidation 
+of methane (POM) and the water-gas shift reaction, resulting in higher 
+yields and efficiencies. More specifically, Co-LF stood out among the 
+other samples at all reaction temperatures, with the total gas yield 
+reaching 978.89 ml/g and 1098.58 ml/g at 900 ◦C and 950 ◦C, respec­
+tively, higher than 869.07 ml/g and 930.86 ml/g of LaFeO3. On the 
+other hand, the gasification performance of Cu-LF and Mn-LF fell short 
+of expectations as they were both worse than that of LF. Furthermore, in 
+terms of component changes, the CO2 yield of Cu-LF increased contin­
+uously as the temperature rose, and its CO yield is the lowest among the 
+as-prepared OCs. The presence of CuO and excessive oxygen uncoupling 
+properties contribute to the excessive oxidation of biomass volatiles 
+causing the formation of CO2 consequently. 
+Assuming that the effect of pyrolysis gas atmosphere on oxygen 
+uncoupling is not considered, the results of previous thermogravimetric 
+experiments had indicated that Co-LF would release molecular oxygen 
+at around 800 ◦C. The CO2 yield of Co-LF (146.52 ml/g) was indeed 
+slightly higher than that of LF (128.74 ml/g) at 800 ◦C due to the strong 
+oxidizing property of molecular oxygen. However, at temperatures 
+higher than 800 ◦C, the CO2 yield of Co-LF is lower than that of LF. On 
+the other hand, The CO yield of Co-LF (418.18 ml/g) was higher than 
+that of LF (334.35 ml/g) at 900 ◦C even under the extreme oxidizing 
+condition caused by oxygen uncoupling, which indicates that Co-LF may 
+have a strong affinity toward CO2 adsorption and the enriched oxygen 
+vacancy on its surface is capable of activating CO2 molecule. This may 
+also be related to that LaFe perovskite promotes the dissociation of C–O 
+bonds and carbonyl (C=O) through Co doping [12,54]. Moreover, 
+among the four oxygen carriers, Co-LF showed the most superior 
+hydrogen production performance for each reaction temperature. In 
+general, in gasification experiments under N2 atmosphere (without 
+steam participation), H2 was mainly produced from the hydrocarbons of 
+biomass pyrolysis products and tar. Hence, the enhanced hydrogen 
+Fig. 8. EPR patterns of the as-prepared oxygen carriers.  
+Fig. 9. Effect of temperature on gas efficiency and carbon conversion.  
+C. Li et al.                                                                                                                                                                                                                                        
+
+
+===== Page 9 =====
+
+Fuel Processing Technology 250 (2023) 107883
+9
+Fig. 10. Effect of temperature on synthesis gas yield of in-situ gasification with different OCs: (a)750 ◦C, (b)800 ◦C, (c)850 ◦C, (d)900 ◦C, (e)950 ◦C.  
+C. Li et al.                                                                                                                                                                                                                                        
+
+
+===== Page 10 =====
+
+Fuel Processing Technology 250 (2023) 107883
+10
+production performance is attributed to the capability of Co-doping to 
+promote the rupture of hydroxyl and oxygen-containing heterocyclic 
+compounds in the volatile fraction at high temperatures [55]. On the 
+other hand, the metal ions in Co-LF with oxygen uncoupling capability 
+might be partially reduced more rapidly during the gasification process 
+compared to those in conventional OCs, thus making it easier to adsorb 
+hydrogen‑oxygen compounds, and then the Redox reactions occur [56]. 
+efficiency of in-situ gasification with different OCs. 
+In conclusion, by screening the three elements (Cu, Mn and Co) used 
+for LaFe perovskites, the doping of Co imparted oxygen uncoupling 
+capability and meanwhile improved gas yield to LaFeO3, and had higher 
+H2 and CO selectivity as well as gasification efficiency in the oxidation 
+stage of CLG. This indicates that Co-LF is an appropriate oxygen carrier 
+for oxygen uncoupling chemical looping gasification (OU-CLG), and it is 
+a potential notion to improve the reactivity of oxygen carriers by 
+modifying their oxygen uncoupling capacity. In contrast, although the 
+doping of Cu and Mn elements both imparted oxygen uncoupling 
+capability to LaFe perovskite, neither of them improved gasification 
+performance due to a series of reasons such as lower oxidation, the 
+presence of impurity phases, less lattice oxygen and oxygen vacancies, 
+and the catalytic performance of their own elements. 
+3.2.2. Ex-situ experiment for further oxygen uncoupling 
+In general, different types of catalyst-fuel configurations will have 
+different effects. For in-situ configuration [57,58]: (ⅈ) Provide intimate 
+physical contact between biomass with derived pyrolysis gas and OCs; 
+(ⅈⅈ) Fundamentally improve gas quality through in-situ catalysis of 
+biomass tar; (ⅈⅈⅈ) Allow interaction between partially activated coke and 
+OCs; (ⅈv) Produce less solid-phase products; (v) Had higher probability of 
+causing impurity clogging coverage and OCs poisoning. While for ex-situ 
+configuration: (ⅈ) Had complete biomass pyrolysis gas-OCs catalytic 
+reaction；(ⅈⅈ) Possessed higher degree of deoxidation；(ⅈⅈⅈ) Be more 
+liable for surface carbon deposit due to hydrocarbon decomposition. 
+Based on the consideration of the oxygen decoupling temperature 
+interval of the key samples and the results of the gasification tests at 
+different temperatures, 900 ◦C was chosen as the gasification tempera­
+ture for ex-situ experiment for further oxygen uncoupling. The results of 
+in-situ and ex-situ tests of LF and Co-LF were compared to further 
+investigate the effect of oxygen uncoupling effect on biomass gasifica­
+tion, as shown in Fig. 11. The in-situ configuration of LF showed higher 
+gas yield and gasification efficiency, which may be due to better contact 
+between OC and biomass fuel promoting the catalysis of pyrolysis gas 
+and tar. On the contrary, it is interesting to note that Co-LF with oxygen 
+uncoupling capacity has the higher gas yield and gasification efficiency 
+in the ex-situ experiments, with the total gas yield reaching 1078.70 ml/ 
+g at 900 ◦C. The opposite experimental phenomenon worth further 
+discussion of the mechanism of oxygen uncoupling characteristics, 
+because during the ex-situ test, Co-LF was placed in one side of the 
+reactor in advance and the temperature was raised to the target tem­
+perature before the biomass was injected to start the reaction. In other 
+words, before the start of the reaction, the oxygen carrier had already 
+lost 2% of its oxygen fraction consisting of adsorbed oxygen from surface 
+impurities and a slight amount of lattice oxygen, but showed better 
+gasification performance. 
+The distribution of gas components under different configurations as 
+shown in Fig. 11. It can be seen that Co-LF has a higher yield of H2 and 
+CO and nearly zero yield of C2Hm under ex-situ configuration compared 
+to in-situ configuration, which indicates that Co-LF can further catalyze 
+and reforming of hydrocarbons under ex-situ condition. In the previous 
+TG tests, Co-LF was able to release almost 2% of oxygen fraction under 
+argon atmosphere, and in the H2-TPR, the hydrogen depletion peak was 
+higher than that of LF, and the hydrogen depletion temperature lowered. 
+Shen et al. also proved by TG tests that the weight loss of metal-doped 
+perovskite in a hydrogen atmosphere was a dozen times more than 
+that in a argon atmosphere. Accordingly, it can be inferred that the 
+occurrence of further oxygen uncoupling is closely related to the at­
+mosphere around OCs. The ex-situ experiments between biomass and 
+OCs are equivalent to oxygen uncoupling under pyrolysis gas atmo­
+sphere, and the presence of reducing atmosphere will inevitably lead to 
+more active oxygen migration and release. When taking no account of 
+the difference between in-situ and ex-situ configurations of OCs, the loss 
+of about 2% oxygen consisting of surface adsorbed oxygen and a slight 
+amount of lattice oxygen in a nitrogen atmosphere before the start of the 
+experiments, instead, has a certain degree of activation of the oxygen 
+uncoupling of OCs. It could be elucidated that the oxygen uncoupling 
+Fig. 11. The gas distribution of LF and Co-LF in in-situ and ex-situ tests (900 ◦C).  
+C. Li et al.                                                                                                                                                                                                                                        
+
+
+===== Page 11 =====
+
+Fuel Processing Technology 250 (2023) 107883
+11
+characteristic not only introduces molecular oxygen to optimize the 
+conventional gasification reaction, but also increases the expression of 
+some of the undercoordinated metal cations as the active sites of gasi­
+fication reactions during this process [12]. The synergistic effect of these 
+active centers with oxygen uncoupling vacancies promoted the C–O 
+bond and hydroxyl breaking, and the same phenomenon and mechanism 
+were found and argued by Z. Cheng et al. [59]. 
+3.2.3. CLG stability test 
+3.2.3.1. Comparison of in-situ and ex-situ gasification for 10 cycles. In 
+order to assess the stability and reusability of the Co-LF, continuous 
+cycle experiments were conducted with biomass and OCs in in-situ and 
+ex-situ configurations, respectively. As can be seen from Fig. 12(a), Co- 
+LF in the ex-situ tests maintained a higher gasification performance than 
+in the in-situ tests; however, the Co-LF gradually deactivated during ten 
+redox cycles, which led to a decrease in the total gas yield and gasifi­
+cation efficiency. Fig. 12(b)(c) shows the XRD characterizations of Co-LF 
+after 1 cycle and 10 cycles, and the results showed that OCs still 
+Fig. 12. Cyclic performance over 10 cycles of Co-LF for OU-CLG. (a) total gas yield and gasification efficiency, (b) XRD patterns of Co-LF in different states in the in- 
+situ tests, (c) XRD patterns of Co-LF in different states in the ex-situ tests. 
+Fig. 13. Cyclic performance of Co-LF in ex-situ tests within 50 cycles.  
+C. Li et al.                                                                                                                                                                                                                                        
+
+
+===== Page 12 =====
+
+Fuel Processing Technology 250 (2023) 107883
+12
+Fig. 14. Characterization of Co-LF after 50-cycles. (a) XRD patterns, (b) XPS spectra, (c) SEM of fresh Co-LF (d) SEM of Co-LF after 10-cycles, (e) SEM of Co-LF after 
+50-cycles. 
+Fig. 15. Reaction mechanism of Co-LF for OU-CLG. (Upper part: schematic representation of the reaction mechanism in the OU-CLG process; Lower Part: detail of the 
+electron exchange and oxygen migration inside Co-LF). 
+C. Li et al.                                                                                                                                                                                                                                        
+
+
+===== Page 13 =====
+
+Fuel Processing Technology 250 (2023) 107883
+13
+maintain the perovskite structure after 10 cycles. In more detail, the 
+characteristic peak of Co2O3, La2O3, and Fe3O4 appeared, which indi­
+cated that the phase segregation occurs caused by the intense heat and 
+mass transfer. As seen from the SEM after ten cycles shown in Fig. 14(c- 
+d), it is also evident that the surface structure of OCs has changed, with 
+repeated redox causing further agglomeration and formation of bulk 
+structures, resulting in larger particle sizes. 
+3.2.3.2. Stability test and characterization of Co-LF within 50 cycles. 
+Based on the comparison results in the previous subsection, we subjected 
+Co-LF to long time ectopic gasification tests up to 50 times, and the 
+gasification performance is shown in Fig. 13. It can be found that the 
+gasification performance decreases about 15–20% due to the intense 
+redox in the first ten cycles (initial stage), however, Co-LF shows 
+excellent stability performance in the later long-term cycle tests. Spe­
+cifically, the average total gas yield and average gasification efficiency 
+of Co-LF were 954.66 ml/g and 74.51%, respectively, during the first 50 
+gasification cycles. For this reason, we also characterized the oxygen 
+carriers after 50 cycles. From the SEM surface structure evolution in 
+Fig. 14(c-e), the changes in the microscopic appearance after 50 cycles 
+are characterized by sintering and agglomeration, which reduce the 
+performance of the gasification active site and affect the specific surface 
+area. However, comparing the microscopic appearance after 10 cycles 
+with that after 50 cycles, the relevant changes are not significant, which 
+may be due to the inherent stable structure of OCs after the initial sin­
+tering, which becomes relatively stable in cycling performance. From 
+the XRD results shown in Fig. 14(a), the Co-LF after 50 cycles still 
+maintains the perovskite structure, but the inevitable phase segregation 
+behavior still exists, and the appearance of impurity phases inhibits the 
+action of the active component. The XPS results shown in Fig. 14(b) also 
+indicate that the distribution and content of oxygen species in the OCs 
+did not change significantly after prolonged cycling, and the higher 
+lattice oxygen content was maintained. In conclusion, through a series of 
+characterizations, Co-LF exhibits excellent stability performance in long 
+time gasification tests due to the relative stability of its physical prop­
+erties and chemical components, despite the non-negligible performance 
+differences within the first ten cycles. 
+3.2.4. Reaction mechanism discussion 
+Based on the experiments and analysis described above, the reaction 
+mechanism of Co-LF in oxygen uncoupling chemical looping gasification 
+is proposed as given in Fig. 15, which consists of four main stages: (1) 
+Generation of oxygen vacancies. (2) Catalytic reaction and further ox­
+ygen uncoupling on the surface. (3) Reactivation of the catalytic site at 
+oxygen uncoupling vacancy. (4) Air regeneration. At the beginning of 
+the reaction, the release of molecular oxygen and the formation of ox­
+ygen vacancies, which resulted from the diffusion and overflow of ox­
+ygen atoms after its intense vibration on the crystal surface, were driven 
+by the force of oxygen uncoupling due to temperature and oxygen 
+partial pressure [60,61]. The introduction of molecular oxygen enables 
+the optimization of the conventional gas-solid reaction of LaFeO3 and 
+better gasification performance. Next, the high concentration of lattice 
+oxygen inside the OC will migrate to the surface for further oxygen 
+uncoupling, driven by the continuous consumption of surface oxygen to 
+generate oxygen vacancies and the reducing atmosphere of biomass 
+pyrolysis products. As a result, the adsorption energy of reactants on the 
+OC surface would be reduced, since the further generated oxygen 
+uncoupling vacancies would lower the reaction energy barrier and 
+enhance molecular activation [44]. In the dynamic process of formation- 
+occupation of oxygen vacancies, catalytic pyrolysis reactions of biomass 
+progressively became more active. Moreover, the vacancies could 
+enable the regeneration of OCs by capturing oxygen atoms in biomass 
+pyrolysis gas, while enhancing the adsorption-catalysis effect [61]. In an 
+inert reaction atmosphere without a gasification agent such as H2O or 
+CO2, this effect allows the oxygen uncoupling vacancy to be reactivated, 
+so the C2Hm will be further converted and vacancies will catch the CO2 
+and reduce it to CO to achieve higher gasification efficiency [62]. 
+Finally, OCs were completely regenerated in the air reactor. 
+The oxygen uncoupling of Co-LF is driven by the temperature and 
+external atmosphere as well as the oxygen chemical potential gradient of 
+its own lattice. In the in-situ tests, Co-LF provides molecular oxygen to 
+participate in the gasification reaction system through lattice oxygen 
+uncoupling, which improves the gasification performance of LaFe 
+perovskite. In the ex-situ tests, the activated adsorption phenomenon 
+and catalytic performance of oxygen uncoupling vacancies were 
+magnified due to no interference of solid-solid and in-situ fixed carbon 
+components, hence the opposite gasification performance of LF and Co- 
+LF in the two different configuration conditions appeared. Most current 
+studies have focused on chemical looping gasification coupled with CO2 
+or H2O splitting utilizing strong residual valence forces of the unsatu­
+rated bonds presenting on the surface atoms of reduced OC, leading to 
+easier adsorption site formation on the particle surface [63–65]. OCs 
+with oxygen uncoupling ability also generate similar adsorption cata­
+lytic sites due to the continuous consumption of oxygen, so the precursor 
+reactions of some products such as the break-up of C–O bond and hy­
+droxyl were amplified in the ex-in tests, and showed higher yields of H2 
+and CO in the fuel reactor. Similarly, researchers have conducted a 
+number of studies using the deoxygenation properties of OC to produce 
+high-quality syngas [66,67]. Hence, there is a great potential to utilize 
+oxygen uncoupling characteristics and this study provides an unusual 
+perspective for screening suitable OCs to facilitate the generation of 
+syngas. Adjustment of the oxygen uncoupling capacity of OCs and 
+investigation of the mechanism of oxygen uncoupling adsorption- 
+catalysis reaction under gasification conditions such as water vapor/ 
+CO2 atmosphere can be further studied in the future. 
+4. Conclusion 
+In this work, LaFeO3 was chosen as the fundamental OC, and the 
+three most representative elements (Cu, Mn, Co) were used for doping to 
+endow OC oxygen uncoupling ability. The applicability and reaction 
+mechanism of M-LF (M = Cu, Mn, Co) for oxygen uncoupling chemical 
+looping gasification were investigated, and the main conclusions of the 
+study are outlined as follows: 
+(1) CLG reaction performance is not proportional to oxygen uncou­
+pling degree caused by different heterogeneously doped, only Co- 
+LF showed the best gasification performance among all OCs. 
+Further characterization showed that high concentrations of lat­
+tice oxygen and oxygen vacancies are the origin and key to the 
+OU-CLG properties, and the high mobility of lattice oxygen 
+created the conditions for further oxygen uncoupling to occur.  
+(2) The doping of Cu and Mn but did not promote CLG performance 
+of LF may be due to oxygen scarcity, impurity and elemental 
+catalytic properties. Although their perovskite structure is well 
+kept, significant differences in the strength of the metal-O bonds 
+as well as in their reducibility emerge. The result is poor catalytic 
+performance and the presence of overoxidation.  
+(3) The oxygen uncoupling property of Co-LF is further promoted in 
+the ex-situ experiments of pyrolysis gas and OCs. The oxygen 
+uncoupling vacancies generated can promote the adsorption of 
+hydrocarbons and the rupture of C–O bond and hydroxyl, as a 
+result, the total gas yield and carbon conversion efficiency 
+reached 1078.70 ml/g and 75.15%, respectively, at 900 ◦C. 
+Despite the phase segregation due to heat and mass transfer, Co- 
+LF still showed good stability in 10 consecutive redox cycles.  
+(4) The reaction process and mechanism of oxygen uncoupling 
+property for biomass gasification were thoroughly analyzed. In 
+brief, the introduction of a proper amount of molecular oxygen 
+into the reaction system can optimize the traditional gas-solid 
+reaction, while the adsorption-catalysis-regeneration process of 
+C. Li et al.                                                                                                                                                                                                                                        
+
+
+===== Page 14 =====
+
+Fuel Processing Technology 250 (2023) 107883
+14
+oxygen uncoupling vacancies plays a more critical role in the 
+quality improvement of syngas. 
+CRediT authorship contribution statement 
+Changxin Li: Investigation, Methodology, Writing – original draft. 
+Weijie Li: Investigation, Methodology, Writing – review & editing. 
+Yanfen Liao: Conceptualization, Funding acquisition, Writing – review 
+& editing. Shuang Liang: Methodology, Resources, Supervision. Xiao­
+qian Ma: Conceptualization, Resources, Supervision. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Data availability 
+Data will be made available on request. 
+Acknowledgment 
+National Natural Science Foundation of China (51676074). 
+References 
+[1] X. Tian, Y. Wang, Z. Zeng, L. Dai, J. Xu, K. Cobb, L. Ke, R. Zou, Y. Liu, R. Ruan, 
+Research progress on the role of common metal catalysts in biomass pyrolysis: a 
+state-of-the-art review, Green Chem. 24 (10) (2022) 3922–3942, https://doi.org/ 
+10.1039/D1GC04537G. 
+[2] N. Gao, J. Salisu, C. Quan, P. Williams, Modified nickel-based catalysts for 
+improved steam reforming of biomass tar: a critical review, Renew. Sust. Energ. 
+Rev. 145 (2021), 111023, https://doi.org/10.1016/j.rser.2021.111023. 
+[3] G. Liu, Y. Liao, Y. Wu, X. Ma, Application of calcium ferrites as oxygen carriers for 
+microalgae chemical looping gasification, Energy Convers. Manag. 160 (2018) 
+262–272, https://doi.org/10.1016/j.enconman.2018.01.041. 
+[4] G. Wei, L. Deng, H. Yuan, X. Yang, Z. Huang, A. Zheng, L. Xu, Enhanced chemical 
+looping gasification of biomass coupled with CO2 splitting based on carbon 
+negative emission, Energy Convers. Manag. 260 (2022), https://doi.org/10.1016/ 
+j.enconman.2022.115597. 
+[5] M. Luo, Y. Yi, C. Wang, K. Liu, J. Pan, Q. Wang, Energy and exergy analysis of 
+power generation systems with chemical looping combustion of coal, Chem. Eng. 
+Technol. 41 (4) (2018) 776–787, https://doi.org/10.1002/ceat.201700495. 
+[6] S. Wang, Q. Yin, J. Guo, B. Ru, L. Zhu, Improved Fischer–Tropsch synthesis for 
+gasoline over Ru, Ni promoted Co/HZSM-5 catalysts, Fuel 108 (2013) 597–603, 
+https://doi.org/10.1016/j.fuel.2013.02.021. 
+[7] B. Yan, Z. Liu, J. Wang, Y. Ge, J. Tao, Z. Cheng, G. Chen, Mn-doped Ca2Fe2O5 
+oxygen carrier for chemical looping gasification of biogas residue: effect of oxygen 
+uncoupling, Chem. Eng. J. 446 (2022), 137086, https://doi.org/10.1016/j. 
+cej.2022.137086. 
+[8] Z. Zhou, L. Han, O. Nordness, G.M. Bollas, Continuous regime of chemical-looping 
+combustion (CLC) and chemical-looping with oxygen uncoupling (CLOU) reactivity 
+of CuO oxygen carriers, Appl. Catal. B Environ. 166-167 (2015) 132–144, https:// 
+doi.org/10.1016/j.apcatb.2014.10.067. 
+[9] K. Wang, F. Wang, Q. Yu, M. van Sint Annaland, Z. Wang, J. Xi, Y. Zhang, M. Xue, 
+S. Du, Understanding of the oxygen uncoupling characteristics of CuFe composite 
+oxygen carriers for chemical-looping gasification, Fuel Process. Technol. 218 
+(2021) 106844, https://doi.org/10.1016/j.fuproc.2021.106844. 
+[10] N.M. Nguyen, F. Alobaid, P. Dieringer, B. Epple, Biomass-based chemical looping 
+gasification: overview and recent developments, Appl. Sci. 11 (15) (2021) 7069. 
+[11] B. Zhang, Z. Wu, J. Zhang, W. Guo, B. Yang, Chemical looping with oxygen 
+uncoupling of the lignocellulosic biomass main model compound: product 
+distribution and kinetic analysis on lignin, Energy Fuel 34 (9) (2020) 
+10968–10979, https://doi.org/10.1021/acs.energyfuels.0c00986. 
+[12] Z. Liu, J. Wang, Y. Cao, J. Tao, B. Yan, G. Chen, Mn-doping Ca2Fe2O5-based 
+oxygen carriers in chemical looping gasification of biogas residue: a comprehensive 
+study on the reaction mechanisms, Fuel 332 (2023), 126207, https://doi.org/ 
+10.1016/j.fuel.2022.126207. 
+[13] S. Liang, Y. Liao, W. Li, C. Li, X. Ma, Enhanced stability of iron-nickel oxygen 
+carriers in biomass chemical looping gasification by core-shell structure, Chem. 
+Eng. J. 451 (2023), 138964, https://doi.org/10.1016/j.cej.2022.138964. 
+[14] J. Yan, J. Lai, K. Yin, Y. Yan, L. Shen, L. Yang, Syngas production and gas-N 
+evolution over heterogeneously doped La-Fe-O perovskite-type oxygen carriers in 
+chemical looping gasification of microalgae, Bioresour. Technol. 369 (2023), 
+128507, https://doi.org/10.1016/j.biortech.2022.128507. 
+[15] R. Sun, L. Shen, S. Wang, H. Bai, CO conversion over LaFeO3 perovskite during 
+chemical looping processes: Influences of Ca-doping and oxygen species, Appl. 
+Catal. B Environ. 316 (2022), 121598, https://doi.org/10.1016/j. 
+apcatb.2022.121598. 
+[16] G. Liu, Y. Liao, Y. Wu, X. Ma, Evaluation of Sr-substituted Ca2Fe2O5 as oxygen 
+carrier in microalgae chemical looping gasification, Fuel Process. Technol. 191 
+(2019) 93–103, https://doi.org/10.1016/j.fuproc.2019.03.019. 
+[17] V. Fleischer, P. Littlewood, S. Parishan, R. Schom¨acker, Chemical looping as 
+reactor concept for the oxidative coupling of methane over a Na2WO4/Mn/SiO2 
+catalyst, Chem. Eng. J. 306 (2016) 646–654, https://doi.org/10.1016/j. 
+cej.2016.07.094. 
+[18] D. Hosseini, F. Donat, P.M. Abdala, S.M. Kim, A.M. Kierzkowska, C.R. Müller, 
+Reversible Exsolution of Dopant Improves the Performance of Ca2Fe2O5 for 
+Chemical Looping Hydrogen Production, ACS Appl. Mater. Interfaces 11 (20) 
+(2019) 18276–18284, https://doi.org/10.1021/acsami.8b16732. 
+[19] X. Zhao, H. Zhou, V.S. Sikarwar, M. Zhao, A.-H.A. Park, P.S. Fennell, L. Shen, L.- 
+S. Fan, Biomass-based chemical looping technologies: the good, the bad and the 
+future, Energy Environ. Sci. 10 (9) (2017) 1885–1910, https://doi.org/10.1039/ 
+C6EE03718F. 
+[20] O. Mihai, D. Chen, A. Holmen, Catalytic consequence of oxygen of Lanthanum 
+Ferrite Perovskite in chemical looping reforming of methane, Ind. Eng. Chem. Res. 
+50 (5) (2011) 2613–2621, https://doi.org/10.1021/ie100651d. 
+[21] Y.e. Zheng, X. Liao, H. Xiao, V. Haribal, X. Shi, Z. Huang, L. Zhu, K. Li, F. Li, 
+H. Wang, X. Chen, Highly efficient reduction of O2-containing CO2 via chemical 
+looping based on perovskite nanocomposites, Nano Energy 78 (2020) 105320, 
+https://doi.org/10.1016/j.nanoen.2020.105320. 
+[22] N. Galinsky, M. Sendi, L. Bowers, F. Li, CaMn1−xBxO3−δ (B=Al, V, Fe, Co, and Ni) 
+perovskite based oxygen carriers for chemical looping with oxygen uncoupling 
+(CLOU), Appl. Energy 174 (2016) 80–87, https://doi.org/10.1016/j. 
+apenergy.2016.04.046. 
+[23] D. Cao, C. Luo, W. Xing, G. Cai, T. Luo, F. Wu, X. Li, L. Zhang, Coal-direct chemical 
+looping hydrogen generation with BaMnO3 perovskite oxygen carrier, Fuel 
+Process. Technol. 233 (2022), 107296, https://doi.org/10.1016/j. 
+fuproc.2022.107296. 
+[24] E. Paparazzo, Comment on “Designed oxygen carriers from macroporous LaFeO3 
+supported CeO2 for chemical-looping reforming of methane”, by Zheng et al. 
+[Appl. Catal. B: Environ., 202 (2017) 51–63. doi: 10.1016/j.apcatb.2016.08.024], 
+Appl. Catal. B Environ. 224 (2018) 419–423, https://doi.org/10.1016/j. 
+apcatb.2017.10.035. 
+[25] K. Pan, H. Hou, J. Hu, J. Yang, J. Xiang, C. Li, C. Xu, S. Chen, S. Liang, J. Yang, Ca 
+and Cu doped LaFeO3 to promote coupling of photon carriers and redox cycling for 
+facile photo-Fenton degradation of bisphenol A, Chemosphere 308 (2022), 136325, 
+https://doi.org/10.1016/j.chemosphere.2022.136325. 
+[26] J. Yan, S. Jiang, T. Song, L. Shen, Chemical looping catalytic steam gasification 
+(CLCSG) of algae over La1-xBaxFeO3 perovskites for syngas production, Biomass 
+Bioenergy 151 (2021), 106154, https://doi.org/10.1016/j.biombioe.2021.106154. 
+[27] D. Sastre, D.P. Serrano, P. Pizarro, J.M. Coronado, Chemical insights on the activity 
+of La1-xSrxFeO3 perovskites for chemical looping reforming of methane coupled 
+with CO2-splitting, J. CO2 Utiliz. 31 (2019) 16–26, https://doi.org/10.1016/j. 
+jcou.2019.02.013. 
+[28] X. Yin, S. Wang, B. Wang, L. Shen, Perovskite-type LaMn1−xBxO3+δ (B = Fe, CO 
+and Ni) as oxygen carriers for chemical looping steam methane reforming, Chem. 
+Eng. J. 422 (2021), 128751, https://doi.org/10.1016/j.cej.2021.128751. 
+[29] X. Shen, Y. Wu, X. Xu, J. Su, Z. He, E. Jiang, Y. Ren, Y. Sun, Torrefaction enhanced 
+biomass chemical-looping gasification coupled with CO2-splitting via half doped 
+LaFe0.5M0.5O3 perovskites, Fuel Process. Technol. 234 (2022) 107314, https:// 
+doi.org/10.1016/j.fuproc.2022.107314. 
+[30] D. Xue, H. Xia, W. Yan, J. Zhang, S. Mu, Defect engineering on carbon-based 
+catalysts for electrocatalytic CO2 reduction, Nano-Micro Lett. 13 (1) (2020) 5, 
+https://doi.org/10.1007/s40820-020-00538-7. 
+[31] Q. Lei, R. Chen, Y. Zhao, H. Chen, X. Long, J. Tan, X. Wang, Tuning of the oxygen 
+species linker on the surface of polymeric carbon nitride to promote the 
+photocatalytic hydrogen evolution performance, ChemSusChem 13 (14) (2020) 
+3605–3613, https://doi.org/10.1002/cssc.202001027. 
+[32] K. Zhao, F. He, Z. Huang, G. Wei, A. Zheng, H. Li, Z. Zhao, Perovskite-type oxides 
+LaFe1−xCoxO3 for chemical looping steam methane reforming to syngas and 
+hydrogen co-production, Appl. Energy 168 (2016) 193–203, https://doi.org/ 
+10.1016/j.apenergy.2016.01.052. 
+[33] F. He, X. Li, K. Zhao, Z. Huang, G. Wei, H. Li, The use of La1−xSrxFeO3 perovskite- 
+type oxides as oxygen carriers in chemical-looping reforming of methane, Fuel 108 
+(2013) 465–473, https://doi.org/10.1016/j.fuel.2012.11.035. 
+[34] D.I. Khomskii, S.V. Streltsov, Orbital effects in solids: basics, recent progress, and 
+opportunities, Chem. Rev. 121 (5) (2021) 2992–3030, https://doi.org/10.1021/ 
+acs.chemrev.0c00579. 
+[35] G. Liu, Y. Liao, Y. Wu, X. Ma, Reactivity of Co-doped Ca2Fe2O5 brownmillerite 
+oxides as oxygen carriers for microalgae chemical looping gasification, Int. J. 
+Hydrog. Energy 44 (5) (2019) 2546–2559, https://doi.org/10.1016/j. 
+ijhydene.2018.11.232. 
+[36] W. Qin, Z. Yuan, Y. Shen, R. Zhang, F. Meng, Phosphorus-doped porous perovskite 
+LaFe1-xPxO3-δ nanosheets with rich surface oxygen vacancies for ppb level 
+acetone sensing at low temperature, Chem. Eng. J. 431 (2022), 134280, https:// 
+doi.org/10.1016/j.cej.2021.134280. 
+[37] H. Liu, S.-h. Luo, D.-b. Hu, X. Liu, Q. Wang, Z.-y. Wang, Y.-l. Wang, L.-j. Chang, Y.- 
+g. Liu, T.-f. Yi, Y.-h. Zhang, A.-m. Hao, Design and synthesis of carbon-coated 
+α-Fe2O3@Fe3O4 heterostructured as anode materials for lithium ion batteries, 
+Appl. Surf. Sci. 495 (2019), 143590, https://doi.org/10.1016/j. 
+apsusc.2019.143590. 
+C. Li et al.                                                                                                                                                                                                                                        
+
+
+===== Page 15 =====
+
+Fuel Processing Technology 250 (2023) 107883
+15
+[38] J. Dong, Y. Lin, H. Zong, H. Yang, Hierarchical LiFe5O8@PPy core-shell 
+nanocomposites as electrode materials for supercapacitors, Appl. Surf. Sci. 470 
+(2019) 1043–1052, https://doi.org/10.1016/j.apsusc.2018.11.204. 
+[39] S.K. Sundriyal, Y. Sharma, Controlled generation and tuning the oxygen defects in 
+nanofibers of Ca2Fe2O5 toward high and stable Li-ion battery anode, Appl. Surf. 
+Sci. 560 (2021), 150055, https://doi.org/10.1016/j.apsusc.2021.150055. 
+[40] S.K. Sundriyal, Y. Sharma, Role of oxygen deficiency and microstructural voids/ 
+gaps in nanostructures of Ca2Fe2O5 as an anode toward next-generation high- 
+performance Li-Ion batteries, ACS Appl. Energy Mater. 3 (7) (2020) 6360–6373, 
+https://doi.org/10.1021/acsaem.0c00578. 
+[41] X. Zheng, Y. Li, L. Zhang, L. Shen, Y. Xiao, Y. Zhang, C. Au, L. Jiang, Insight into the 
+effect of morphology on catalytic performance of porous CeO2 nanocrystals for 
+H2S selective oxidation, Appl. Catal. B Environ. 252 (2019) 98–110, https://doi. 
+org/10.1016/j.apcatb.2019.04.014. 
+[42] R.Z. Yarbay S¸ahin, M. Duplanˇci´c, V. Tomaˇsi´c, J.H. Badia i C´orcoles, S. Kurajica, 
+Correction to: essential role of B metal species in perovskite type catalyst structure 
+and activity on toluene oxidation, Int. J. Environ. Sci. Technol. 19 (1) (2022) 565, 
+https://doi.org/10.1007/s13762-021-03193-6. 
+[43] B. Heidinger, S. Royer, H. Alamdari, J.-M. Giraudon, J.-F. Lamonier, Reactive 
+Grinding Synthesis of LaBO3 (B: Mn, Fe) Perovskite; Properties for Toluene Total 
+Oxidation, Catalysts 9 (8) (2019) 633. 
+[44] Z. Li, X. Dong, B. Yan, J. Li, J. Wang, L. Jiao, G. Chen, S. Ahmed, Y. Cao, Chemical 
+looping gasification of digestate: Investigation on the surface and lattice oxygen of 
+perovskite oxygen carrier, Fuel 318 (2022), 123663, https://doi.org/10.1016/j. 
+fuel.2022.123663. 
+[45] I. Atribak, A. Bueno-L´opez, A. García-García, Combined removal of diesel soot 
+particulates and NOx over CeO2–ZrO2 mixed oxides, J. Catal. 259 (1) (2008) 
+123–132, https://doi.org/10.1016/j.jcat.2008.07.016. 
+[46] Y. Zheng, K. Li, H. Wang, Y. Wang, D. Tian, Y. Wei, X. Zhu, C. Zeng, Y. Luo, 
+Structure dependence and reaction mechanism of CO oxidation: a model study on 
+macroporous CeO2 and CeO2-ZrO2 catalysts, J. Catal. 344 (2016) 365–377, 
+https://doi.org/10.1016/j.jcat.2016.10.008. 
+[47] G. Li, K. He, F. Zhang, G. Jiang, Z. Zhao, Z. Zhang, J. Cheng, Z. Hao, Defect 
+enhanced CoMnNiOx catalysts derived from spent ternary lithium-ion batteries for 
+low-temperature propane oxidation, Appl. Catal. B Environ. 309 (2022), 121231, 
+https://doi.org/10.1016/j.apcatb.2022.121231. 
+[48] C. Yu, S. Yu, L. Li, S. Li, Highly stable Mo-based catalysts for selective 
+hydrodeoxygenation to produce diesel-like hydrocarbons, Fuel 323 (2022), 
+124334, https://doi.org/10.1016/j.fuel.2022.124334. 
+[49] D. Cao, H. Ding, C. Luo, F. Wu, X. Li, L. Zhang, Development of a cordierite 
+monolith reactor coated with CeO2-supported BaSrCo-based perovskite for 
+chemical looping steam methane reforming, Fuel Process. Technol. 220 (2021), 
+106889, https://doi.org/10.1016/j.fuproc.2021.106889. 
+[50] C. Lan, H. Li, S. Zhao, A first-principles study of the proton and oxygen migration 
+behavior in the rare-earth perovskite SmNiO3, J. Comput. Electron. 19 (3) (2020) 
+905–909, https://doi.org/10.1007/s10825-020-01501-w. 
+[51] A.B. Mu˜noz-García, A.M. Ritzmann, M. Pavone, J.A. Keith, E.A. Carter, Oxygen 
+transport in perovskite-type solid oxide fuel cell materials: insights from quantum 
+mechanics, Acc. Chem. Res. 47 (11) (2014) 3340–3348, https://doi.org/10.1021/ 
+ar4003174. 
+[52] S.C. Rood, H.B. Ahmet, A. Gomez-Ramon, L. Torrente-Murciano, T.R. Reina, 
+S. Eslava, Enhanced ceria nanoflakes using graphene oxide as a sacrificial template 
+for CO oxidation and dry reforming of methane, Appl. Catal. B Environ. 242 (2019) 
+358–368, https://doi.org/10.1016/j.apcatb.2018.10.011. 
+[53] B. Liu, C. Li, G. Zhang, X. Yao, S.S.C. Chuang, Z. Li, Oxygen vacancy promoting 
+dimethyl carbonate synthesis from CO2 and methanol over Zr-doped CeO2 
+nanorods, ACS Catal. 8 (11) (2018) 10446–10456, https://doi.org/10.1021/ 
+acscatal.8b00415. 
+[54] M. Shen, M. Wang, Q. Wang, J. Tian, L. Zhang, L. Wang, J. Shi, A Ti-OH bond 
+breaking route for creating oxygen vacancy in titania towards efficient CO2 
+photoreduction, Chem. Eng. J. 425 (2021), 131513, https://doi.org/10.1016/j. 
+cej.2021.131513. 
+[55] Q. Liu, S. Wang, Y. Zheng, Z. Luo, K. Cen, Mechanism study of wood lignin 
+pyrolysis by using TG–FTIR analysis, J. Anal. Appl. Pyrolysis 82 (1) (2008) 
+170–177, https://doi.org/10.1016/j.jaap.2008.03.007. 
+[56] Z. Huang, N. Gao, Y. Lin, G. Wei, K. Zhao, A. Zheng, Z. Zhao, H. Yuan, H. Li, 
+Exploring the migration and transformation of lattice oxygen during chemical 
+looping with NiFe2O4 oxygen carrier, Chem. Eng. J. 429 (2022), 132064, https:// 
+doi.org/10.1016/j.cej.2021.132064. 
+[57] B. Li, Z. Qian, J. Qin, Q. He, S. Huang, H. Dong, N. Zhou, M. Xia, Z. Zhou, Products 
+distribution during in situ and ex situ catalytic fast pyrolysis of Chinese herb 
+residues, Environ. Sci. Pollut. Res. 29 (59) (2022) 89235–89244, https://doi.org/ 
+10.1007/s11356-022-21887-3. 
+[58] Y. Cao, Y. Bai, J. Du, Air-steam gasification of biomass based on a multi- 
+composition multi-step kinetic model: a clean strategy for hydrogen-enriched 
+syngas production, Sci. Total Environ. 753 (2021), 141690, https://doi.org/ 
+10.1016/j.scitotenv.2020.141690. 
+[59] Z. Cheng, B.J. Sherman, C.S. Lo, Carbon dioxide activation and dissociation on 
+ceria (110): a density functional theory study, J. Chem. Phys. 138 (1) (2013), 
+https://doi.org/10.1063/1.4773248. 
+[60] L. Hou, M. Zhang, Z. Guan, Q. Li, J. Yang, Effect of annealing ambience on the 
+formation of surface/bulk oxygen vacancies in TiO2 for photocatalytic hydrogen 
+evolution, Appl. Surf. Sci. 428 (2018) 640–647, https://doi.org/10.1016/j. 
+apsusc.2017.09.144. 
+[61] J. Lin, S. Sun, J. Luo, C. Cui, R. Ma, L. Fang, X. Liu, Effects of oxygen vacancy defect 
+on microwave pyrolysis of biomass to produce high-quality syngas and bio-oil: 
+microwave absorption and in-situ catalytic, Waste Manag. 128 (2021) 200–210, 
+https://doi.org/10.1016/j.wasman.2021.05.002. 
+[62] G.-Q. Wei, W.-N. Zhao, J.-G. Meng, J. Feng, W.-Y. Li, F. He, Z. Huang, Q. Yi, Z.- 
+Y. Du, K. Zhao, Z.-L. Zhao, H.-B. Li, Hydrogen production from vegetable oil via a 
+chemical looping process with hematite oxygen carriers, J. Clean. Prod. 200 (2018) 
+588–597, https://doi.org/10.1016/j.jclepro.2018.07.263. 
+[63] Y. Turap, Z. Wang, Y. Wang, Z. Zhang, S. Chen, W. Wang, High purity hydrogen 
+production via coupling CO2 reforming of biomass-derived gas and chemical 
+looping water splitting, Appl. Energy 331 (2023), 120447, https://doi.org/ 
+10.1016/j.apenergy.2022.120447. 
+[64] D. Oh, F. Colombo, L. Nodari, J.H. Kim, J.K. Kim, S. Lee, S. Kim, S. Kim, D.-K. Lim, 
+J. Seo, S. Ahn, S. Mascotto, W. Jung, Rocking chair-like movement of ex-solved 
+nanoparticles on the Ni-Co doped La0.6Ca0.4FeO3-δ oxygen carrier during 
+chemical looping reforming coupled with CO2 splitting, Appl. Catal. B Environ. 
+332 (2023) 122745, https://doi.org/10.1016/j.apcatb.2023.122745. 
+[65] L. Zhao, B. Dou, H. Zhang, Z. Wang, Oxygen carriers for chemical-looping water 
+splitting to hydrogen production: a critical review, Carbon Capture Sci. Technol. 1 
+(2021), 100006, https://doi.org/10.1016/j.ccst.2021.100006. 
+[66] Z. Sun, H. Liu, H. Bai, S. Yu, C.K. Russell, L. Zeng, Z. Sun, The crucial role of 
+deoxygenation in syngas refinement and carbon dioxide utilization during 
+chemical looping-based biomass gasification, Chem. Eng. J. 428 (2022), 132068, 
+https://doi.org/10.1016/j.cej.2021.132068. 
+[67] Z. Sun, H. Liu, S. Toan, W. Shi, D. Cheng, Z. Sun, Deoxygenation-enhanced 
+chemical looping gasification: a new pathway to produce hydrogen from biomass, 
+Green Chem. 24 (6) (2022) 2613–2623, https://doi.org/10.1039/D1GC04733G. 
+C. Li et al.                                                                                                                                                                                                                                        

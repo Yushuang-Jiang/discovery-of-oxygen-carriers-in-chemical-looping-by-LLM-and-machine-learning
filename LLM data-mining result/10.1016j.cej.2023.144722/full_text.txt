@@ -1,0 +1,905 @@
+
+
+===== Page 1 =====
+
+Chemical Engineering Journal 472 (2023) 144722
+Available online 10 July 2023
+1385-8947/© 2023 Elsevier B.V. All rights reserved.
+Sintering and agglomeration characteristics of industrially prepared 
+CaMn0.5Ti0.375Fe0.125O3-δ perovskite oxygen carrier in chemical 
+looping combustion 
+Zhenwu Miao a, Laihong Shen a,*, Zhenshan Li b, Tianxu Shen c 
+a Key Laboratory of Energy Thermal Conversion and Control of Ministry of Education, School of Energy and Environment, Southeast University, Nanjing 210096, China 
+b Key Laboratory for Thermal Science and Power Engineering of Ministry of Education, Department of Energy and Power Engineering, Tsinghua University, Beijing 
+100084, China 
+c School of Energy and Mechanical Engineering, Nanjing Normal University, Nanjing 210046, China   
+A R T I C L E  I N F O   
+Keywords: 
+Perovskite 
+Spray drying granulation 
+Fluidized bed thermogravimetric analyzer 
+Agglomeration 
+Chemical looping combustion 
+A B S T R A C T   
+The development of oxygen carrier particles that can be prepared on an industrial scale with good cycling sta­
+bility remains a challenge in the field of chemical looping. In this work, a perovskite oxygen carrier (CaMn0.5­
+Ti0.375Fe0.125O3-δ) was prepared by an industrial-scale spray drying granulation and tested on a fluidized bed 
+thermogravimetric analyzer for long-term chemical looping combustion. The results showed that the attrition of 
+oxygen carrier particles originated from irregular parts of the fresh particle surface early in the cycle, and the 
+chemical stress on particles gradually increased with the number of redox cycles, increasing the attrition and 
+sintering of the particles. In addition, as the cycle proceeds, the perovskite structure was destroyed and the 
+oxygen carrier reacted chemically with the quartz tube wall and the air distribution plate leading to bonding. The 
+deep redox cycling reactions indicated that agglomeration of particles occurred mainly in the reduction stage, 
+with the bed entering repeated periods of defluidization during the 37th-43rd and 47th-55th cycles due to the 
+changes in particle bonding and bed pressure. Fixed bed experiment showed that particle activation came from 
+an increase in the active area of the particles during the cycle, independent of whether they were fluidized or not. 
+In addition, agglomeration started at the contact surface between the air distribution plate and the particles, 
+resulting in blocked oxidation of the particles and deepening agglomeration due to excessive reduction of the 
+particles.   
+1. Introduction 
+Chemical looping combustion (CLC) technology, a key component of 
+the second generation of carbon capture technology, has the benefit of 
+low cost and low energy consumption to collect CO2 [1], which is pro­
+jected to break the bottleneck of high cost and energy consumption. 
+Chemical looping combustion typically divides the fuel conversion into 
+two stages, which take place in two reactors [2]. Conventional com­
+bustion technology burns fuel and air directly to generate heat energy, 
+and the resultant CO2 is diluted by huge amounts of N2. The basic 
+components of the chemical looping combustion system are an air 
+reactor (AR) and a fuel reactor (FR), and the oxygen is transported via an 
+oxygen carrier (OC) [3]. The reduced oxygen carrier (MexOy-1) is 
+oxidized by air in the air reactor, producing heat in the process [4]. At 
+the fuel reactor’s exit, the CO2 is not diluted by the N2, and the H2O is 
+condensed to produce pure CO2, which can be compressed, transported, 
+used as a resource, etc. [5]. CLC hence can automatically enrich CO2 
+throughout the combustion process without using additional energy [6]. 
+The oxygen carrier is the medium to realize the chemical looping 
+conversion of the fuel, and the reactor system is the significant location 
+for the oxidation and reduction reactions of the oxygen carrier, heat 
+release, and fuel conversion. These are the key technologies of chemical 
+looping combustion: Good thermal qualities, quick kinetic properties, 
+long cycle stability, suitable mechanical properties, good fluidization 
+properties, and outstanding economic and environmental performance, 
+which are all necessary for appropriate oxygen carriers [7]. Researchers 
+have created a variety of bimetallic and polymetallic composite oxides 
+as oxygen carriers to increase reaction performance, mechanical 
+* Corresponding author. 
+E-mail address: lhshen@seu.edu.cn (L. Shen).  
+Contents lists available at ScienceDirect 
+Chemical Engineering Journal 
+journal homepage: www.elsevier.com/locate/cej 
+https://doi.org/10.1016/j.cej.2023.144722 
+Received 23 April 2023; Received in revised form 12 June 2023; Accepted 8 July 2023   
+
+
+===== Page 2 =====
+
+Chemical Engineering Journal 472 (2023) 144722
+2
+characteristics, and stability [8,9]. Perovskite, such as LaxSr1-xCoyFe1- 
+yO3-δ [10], LaFeO3-δ [11], CaMnxTiyMg1-xyO3-δ [12], etc., have attracted 
+the attention of more and more researchers in recent years. According to 
+a Chalmers University of Technology study, CaMn0.9Mg0.1O3-δ oxygen 
+carrier can have a lifetime of up to 12000 h and have a high degree of 
+reactivity and a low particle attrition rate [13]. 
+Perovskites are ceramic oxides with the general molecular formula 
+ABX3-δ, where A is for rare earth and alkaline earth metals with large 
+atomic radii (La, Ca, Sr, etc.) and B is for transition metals with small 
+atomic radii (Cu, Mn, Ni, Cr, etc.) [14,15]. For oxygen carriers, X is the O 
+element, which refers to the oxygen ion vacancy [16]. The ideal struc­
+ture of perovskite shows cubic symmetry with a skeleton structure ar­
+ranged in a point-sharing manner [17]. Perovskite materials can 
+selectively obtain physical and chemical properties such as specific ox­
+ygen ion transport properties, catalytic properties, and structural prop­
+erties by doping at A and B sites, and have been widely used in 
+electrochemistry, non-homogeneous catalysis, oxygen separation 
+membranes, electronic devices, and other fields [18]. Due to their good 
+lattice structure and chemical stability, perovskites have been used as 
+oxygen carriers for chemical looping combustion in recent years [19]. 
+The A and B sites of the majority of perovskite include rare gold, La [11], 
+Sr [20], Co [21], Ni [22], or other precious metals, which negatively 
+affect their economic and environmental performance. Research has 
+recently begun to concentrate on perovskite oxygen carriers with low 
+costs potential, primarily based on CaMnO3-δ-based materials, which 
+have high reactivity and oxygen decoupling ability, which are beneficial 
+to enhance the reducing gas conversion, but need to be adjusted for the 
+oxygen transport properties and mechanical stability of CaMnO3-δ-based 
+materials when used directly in chemical looping combustion [23]. The 
+thermodynamic characteristics, oxidation–reduction properties, and 
+structural stability of CaMnO3-δ can all be greatly enhanced by the 
+doping of additional elements like La, Sr, Cu, Ti, Mg, etc. at the A- or B- 
+site [24]. Therefore, a variety of CaMnO3-δ-based perovskite materials 
+have been formed for chemical looping combustion, such as 
+Ca0.8Sr0.2MnO3-δ [25], Ca0.9Mn0.5Ti0.5O3-δ [26], CaMn0.9Mg0.1O3-δ [27] 
+and CaMn0.775Ti0.125Mg0.1O3-δ [28]. However, only three perovskites, 
+CaMn0.875Ti0.125O3-δ, CaMn0.9Mg0.1O3-δ, and CaMn0.775Ti0.125Mg0.1O3-δ, 
+have undergone continuous assessment in the chemical looping com­
+bustion reactor system. In our previous study, CaMn0.5Ti0.375Fe0.125O3-δ 
+perovskite was developed to improve stability by adding Ti and reac­
+tivity by adding Fe [29]. This perovskite has faster oxygen uncoupling 
+and redox kinetic properties compared to Cu- and Mn-based oxygen 
+carriers and other reported perovskite. Currently, most of the studies on 
+synthetic OCs have been prepared at laboratory scale, and few large- 
+scale fabrications have been reported. However, when it comes to CLC 
+demonstration and industrial applications, scale-up remains a huge 
+challenge to be solved. 
+The most common procedures used to prepare perovskite oxygen 
+carriers are sol–gel, chemical co-precipitation, mechanical mixing, and 
+spray drying [30]. Among them, the sol–gel and co-precipitation 
+methods are suitable for synthesizing micro-powder oxygen carriers 
+[5,31], which are typically prepared at the gram level with particle size 
+less than 10 μm or nano-materials and are significantly different from 
+the actual fluidized bed applications. The prepared oxygen carriers are 
+primarily used to study reaction mechanisms. The mechanical mixing 
+approach, on the other hand, frequently results in an uneven distribu­
+tion of the active ingredients [32], while the freeze-drying process is 
+laborious and expensive to make [33]. In the food, pharmaceutical, and 
+chemical sectors, spray drying is a widely used drying or granulation 
+technique, primarily for the manufacturing of particles with particle 
+sizes of tens of microns, such as fluid catalytic cracking catalysts for the 
+petroleum industry [34]. Due to its capacity to continually produce 
+particles with consistent homogeneity and sphericity at a reduced cost, 
+the spray drying process is better ideal for producing perovskite particles 
+on a wide scale. 
+Therefore, 
+in 
+this 
+work, 
+a 
+self-developed 
+fluidized 
+bed 
+thermogravimetric analyzer (FB-TGA) was used to systematically eval­
+uate the CaMn0.5Ti0.375Fe0.125O3-δ perovskite oxygen carrier prepared 
+by spray drying and granulation, to investigate the attrition, sintering, 
+and agglomeration characteristics of this OC in long-term continuous 
+redox cycles. Deep redox cycle experiments and fixed bed destructive 
+experiments were also used to study the mechanism of sintering and 
+agglomeration formation, and their viability for use in industrial ap­
+plications was evaluated. 
+2. Materials and methods 
+2.1. Materials 
+Commercial Mn3O4 was used as the manganese (Mn) source and was 
+supplied by Hunan Special Metal Material Factory of Sinosteel Tianyuan 
+Group, commercial titanium dioxide (TiO2) was used as the titanium 
+(Ti) source and was supplied by Jinan Yuxing Chemical Co. Zibo Qilu 
+Ethylene Chemical Co., Ltd. provided the Ca(OH)2 for this experiment. 
+The Xinhua Branch of Shijiazhuang Changli Mineral Products Co. sup­
+plied the commercial Fe2O3. Table 1 displays the findings of the X-Ray 
+Fluorescence (XRF) investigation of the aforementioned four raw 
+materials. 
+Fig. 1 displays the four basic materials’ particle size distributions. Ca 
+(OH)2 has an average particle size (d50) of 3.18 μm, Mn3O4 has an 
+average particle size (d50) of 2.83 μm, TiO2 has an average particle size 
+(d50) of 0.99 μm, and Fe2O3 has an average particle size (d50) of 4.44 μm. 
+The combined maximum particle size of all raw materials is 20 μm. 
+When the raw ingredients are physically fine enough, the granulation 
+process may accomplish homogeneous mixing of the components. 
+2.2. Preparation process 
+In this experiment, hundred-micron-scale CaMn0.5Ti0.375Fe0.125O3-δ 
+perovskite oxygen carrier particles were prepared by spray granulation 
+method, and the main process included three steps. The flow schematic 
+is shown in Fig. 2. 
+2.2.1. Slurry preparation 
+Firstly, a solid powder mixture consisting of commercial Ca(OH)2, 
+Mn3O4, TiO2, and Fe2O3 was prepared according to the chemical 
+equivalence ratio of Ca, Mn, Ti, and Fe in CaMn0.5Ti0.375Fe0.125O3-δ and 
+the prepared solid mixture was placed in a mixer with a propeller blade. 
+A large amount of water was added to the mixer to maintain a solid to 
+water ratio of 2:1. After two hours of continuous stirring, a binder was 
+added to increase the viscosity of the suspension and then stirred for 
+another hour. A small amount of defoamer was used in order to elimi­
+nate the air bubbles generated during the mixing process. A small 
+amount of dispersant and lubricant was then used to improve the 
+rheology and flow of the suspension. The total mass fraction of binder, 
+defoamer, dispersant and lubricant was 1.20 wt%. Finally, the slurry 
+was then continuously stirred for 1 h and the final slurry was obtained 
+for the production of particles. 
+2.2.2. Spray granulation 
+Spray granulation is carried out on a pressure spray drying granu­
+lation plant with a maximum evaporation capacity of ~ 2800 kg/h. 
+First, the spray drying tower is heated up to 180℃, and the vacuum 
+inside the tower is maintained at ~ -80 Pa under the action of the tail 
+fan; then, the prepared slurry is pumped to the top of the spray granu­
+lation tower using a pressurized liquid transfer pump with a pumping 
+pressure of 3.5 MPa; second, the slurry is ejected through a single fluid 
+high-pressure nozzle with a vertical downward opening and is atomized 
+into small droplets, which move downward by gravity and hot air, and 
+as the droplets descend, the water is rapidly evaporated, producing 
+spherical particles; finally, the dried spherical particles fall into the 
+collector located at the bottom of the spray tower. 
+Z. Miao et al.                                                                                                                                                                                                                                    
+
+
+===== Page 3 =====
+
+Chemical Engineering Journal 472 (2023) 144722
+3
+2.2.3. High-temperature calcination 
+To form the lattice structure of perovskite and obtain sufficient 
+mechanical strength, the produced particles were transported to the 
+refractory plant for high-temperature calcination at 1350℃ for 12 h. 
+The calcined CaMn0.5Ti0.375Fe0.125O3-δ perovskite particles obtained 
+after calcination were named CMTF. After calcination, CMTF was 
+characterized by XRF, see Table 2. 
+A reasonable range of particle sizes was obtained by adjusting the 
+parameters, nozzle pressure, nozzle size, suspension rheology, drying 
+temperature, etc. As can be seen in Fig. 3, the volume fraction of the 
+particle size at 75–500 μm is ~ 90% and the average diameter (d50) of 
+the prepared CMTF particles is 195 μm. 
+2.3. Fluidized bed thermogravimetric analyzer 
+The FB-TGA was utilized to analyze the OC’s redox properties. As 
+shown in Fig. 4, the FB-TGA equipment used in the study has three main 
+parts: a bubbling fluidized bed reactor, a fast mass measurement, and 
+sensing unit, and an inlet gas management system. The bubbling fluid­
+ized bed reactor is a straight quartz tube with a 25 mm inner diameter 
+and a height of 200 mm, and a porous plate at the bottom of the reactor 
+for feeding OC particles. The temperature inside the reactor is controlled 
+and measured by a K-type thermocouple. The mass of the reactor and 
+bed material is continuously measured by a high-precision electronic 
+balance with a 0.1 mg measuring accuracy. The input gas flow is accu­
+rately controlled using a calibrated mass flow meter. 
+For long-term redox cycling experiments, 8 g of fully oxidized CMTF 
+particles were added to the reactor for cycling when the bed temperature 
+was stabilized at 900 ◦C. During the cycle, 1.1 L/min of N2 was 
+continuously introduced as the carrier gas, and an additional 2 min of 
+100 mL/min of H2 and O2 was introduced as the reaction gas (gas 
+concentration of 8.33 vol%) during the reduction and oxidation stages, 
+respectively. For the deep reduction–oxidation experiments, the other 
+parameters of the long-term redox cycle experiments were kept un­
+changed, and the reduction and oxidation phases were extended to 10 
+Table 1 
+Compositions of the raw materials used for the CaMn0.5Ti0.375Fe0.125O3-δ particles production.  
+Source 
+Composition (wt%) 
+Mn3O4 
+Mn 
+Zn 
+Fe 
+Si 
+Gd 
+Mg 
+Cl 
+Lu 
+Oa 
+75.79 
+0.17 
+0.13 
+0.08 
+0.06 
+0.05 
+0.03 
+0.02 
+23.67 
+Fe2O3 
+Fe 
+Zn 
+Dy 
+Cl 
+Na 
+Tm 
+Mn 
+Se 
+Oa 
+67.81 
+0.97 
+0.26 
+0.22 
+0.14 
+0.14 
+0.13 
+0.12 
+30.21 
+TiO2 
+Ti 
+Al 
+Na 
+Si 
+V 
+Zn 
+P 
+Zr 
+Oa 
+54.25 
+1.48 
+1.34 
+0.81 
+0.19 
+0.22 
+0.07 
+0.06 
+41.58 
+Ca(OH)2 
+Ca 
+Mg 
+Sn 
+Pb 
+Oa     
+51.17 
+1.90 
+0.01 
+0.01 
+46.91      
+a Oxygen calculation by the difference. 
+Fig. 1. Size distribution of the raw materials used for particle production.  
+Fig. 2. Process flow diagram for the spray drying granulation.  
+Table 2 
+Compositions of the CMTF.  
+Composition (wt%) 
+CaO 
+MnO 
+TiO2 
+Fe2O3 
+CMTF  
+39.04  
+30.29  
+19.54  
+8.07  
+Fig. 3. Size distribution of the CMTF particles.  
+Z. Miao et al.                                                                                                                                                                                                                                    
+
+
+===== Page 4 =====
+
+Chemical Engineering Journal 472 (2023) 144722
+4
+min and 5 min, respectively, resulting in a complete cycle of 17 min. For 
+the OC destructive cycle experiment, 2 g of fully oxidized CMTF particles 
+were added to the reactor, and the flow rates of H2, O2 and N2 were all 
+set to 250 mL/min, at which the gas concentrations of H2 and O2 were 
+50 vol%; both the oxidation and reduction phases were set to 5 min and 
+purged for 1 min, so each cycle duration was 12 min, and 10 cycles were 
+performed in this way. 
+2.4. Data analysis 
+Define the mass loss and increment during reduction and oxidation 
+in each redox cycle as Δmr, n and Δmo, n, respectively. 
+Δmo, n = mo, n −mr, n
+(1)  
+Δmr, n = mo, n−1 −mr, n
+(2) 
+where n is the number of cycles, mo, n and mr, n are the masses of OC 
+at the end of the oxidation and reduction stages, respectively, after the 
+nth cycle. 
+The net mass lost for the nth redox cycle is defined as Δmn, which is 
+calculated by subtracting the initial and final masses of each redox cycle: 
+Δmn = mo,n−1 −mo,n
+(3) 
+The reduction and oxidation rates during the nth cycles are defined as 
+Rr,n(t) and Ro,n(t) (g/s) respectively, and the formulas are calculated as 
+follows: 
+Rr,n(t) = mo,n−1 −mr,n(t)
+t −tr
+(4)  
+Ro,n(t) = mo,n(t) −mr,n
+t −to
+(5)  
+where mr,n(t) and mo,n(t) are the real-time masses of the reduction and 
+oxidation processes in the nth cycle. tr and to are the initial times of the 
+reduction and oxidation processes in the nth cycle, respectively. 
+3. Discussion 
+3.1. Redox cycles behavior of CMTF 
+The cycling characteristics of the CMTF were tested using FB-TGA for 
+180 redox processes at a reaction temperature of 900 ◦C. It can be seen 
+that the mass curve in the reactor tends to decrease rapidly at the 
+beginning of the redox cycle, with the attrition rate of particles rapidly 
+decreasing from 0.96 %/h to 0.24 %/h during the 0th-45th cycle and 
+tending to 0 with the gradual increase in the number of cycles. This is 
+due to the presence of some smaller particles in the fresh OC, which were 
+easily blown out of the reaction gas at the beginning of the fluidization 
+leading to a decrease in the mass in the bed. In addition, the surfaces of 
+some particles were irregular, which led to a high attrition rate of par­
+ticles at the beginning of fluidization according to the rounding effect of 
+irregular particles at the beginning of the cycle [35]. At the same time, 
+there was a tendency for the mass fluctuation of individual cycles to 
+increase during 0-60th cycles, which indicates that there was an acti­
+vation of OC at this stage and the redox properties of OC gradually in­
+crease. Fig. 5(b) shows the mass change curve of a typical redox cycle, 
+and it can be seen that OC was reduced by H2 in the reduction stage with 
+decreasing mass, and OC was oxidized by O2 in the oxidation stage with 
+increasing mass. It is noteworthy that OC was completely oxidized 
+before the end of the oxidation stage, indicating that the oxidation rate 
+was faster, about twice the reduction rate, and the oxygen transfer ca­
+pacity (ROC) of OC was 1.4% at this time. In addition, a decrease in the 
+mass of OC was observed in the purging phase at the end of the oxidation 
+stage, indicating that the CMTF perovskite oxygen carrier possesses 
+oxygen uncoupling ability, and the amount of uncoupling at this time 
+was 0.2%. 
+The mass signal of OC during the whole cycle was not affected by the 
+switching between different fluidizing gases, indicating that the re­
+quirements of the experimental operation were met. Fig. 5(c) shows the 
+mass variation curves in the reactor for different cycle numbers. It is 
+obvious that the mass change curves of OC were approximately the same 
+as the number of cycles increases, indicating that OC still maintains good 
+reaction performance after many redox cycles over a long period. 
+The crystalline phase composition of CMTF perovskite OC was 
+analyzed by X-Ray diffraction (XRD), and the results are shown in Fig. 6. 
+It can be seen that the crystalline phase composition of fresh CMTF is 
+CaMnO2.56 (29.6 wt%) and CaFeTi2O6 (70.4 wt%), and the crystalline 
+phase structure of CMTF becomes three types after a long cycle of 
+oxidation and reduction reactions, in which the same components of 
+oxidized and reduced perovskite are CaMnO2.56 and CaFeTi2O6, with the 
+difference that oxidized perovskite contains CaMnO3 phase, while 
+reduced perovskite contains CaTiO3 phase. In addition, the XRD peak 
+positions of the reacted perovskite were slightly shifted to a lower 2θ 
+position compared with those before the reaction, indicating that the 
+crystal structure of OC was slightly changed, which shifted the OC 
+diffraction peaks. 
+Fig. 4. Schematic diagram of the FB-TGA.  
+Z. Miao et al.                                                                                                                                                                                                                                    
+
+
+===== Page 5 =====
+
+Chemical Engineering Journal 472 (2023) 144722
+5
+The oxidized and reduced perovskite following the reaction was 
+analyzed using X-ray Photoelectron Spectroscopy (XPS), and the results 
+are displayed in Fig. 7 to help identify the active components of CMTF. 
+For oxidized perovskite, the binding energies for Fe 2p2/3 and Fe 2p2/3 
+were 710.4 eV and 724.0 eV, respectively. The binding energies of Fe 
+2p2/3 and Fe 2p2/3 did not change as the perovskite was reduced, 
+showing that the valence state of Fe did not change throughout the redox 
+reaction. For oxidized perovskite, Mn 2p2/3 and Mn 2p2/3 had binding 
+energies of 641.56 eV and 653.23 eV, respectively. For reduced perov­
+skite, Mn 2p2/3 and Mn 2p2/3 had peak locations that were reduced to 
+641.02 eV and 653.08 eV, respectively. The loss of lattice oxygen in 
+perovskite reduces the Mn 2p binding energy, indicating a decrease in 
+the valence state of Mn, which is therefore the active element of the 
+CMTF. Combined with the obvious oxygen uncoupling properties of OC 
+particles in the purging stage as seen in Fig. 5, the Mn and Cu-based 
+oxygen carriers are usually considered as the type of OC with oxygen 
+uncoupling properties, thus this also proves that Mn is the active metal 
+in the oxygen carriers. 
+Fig. 8 shows the weight change curves for individual cycles, oxida­
+tion, reduction and oxygen decoupling stages in the reactor during the 
+long redox cycle. It can be seen that during the first 60 cycles, there was 
+a large and fluctuating loss of weight in the reactor due to particle 
+attrition, after which the weight curve fluctuates less and remained 
+stable due to the gradual smoothing of the particle surface, resulting in 
+less mechanical stress on the particles. The mass changes in the oxida­
+tion and reduction stages showed that the oxidation and reduction 
+performance of OC was significantly enhanced in the first 60 cycles, 
+indicating that OC was activated and the reaction performance gradu­
+ally improved in the first 60 cycles. In addition, the oxygen decoupling 
+of CMTF remained stable at 0.16% throughout the cycle. 
+Fig. 9 shows a comparison of the reaction rates at different numbers 
+of cycles. It can be seen that the reaction rate of OC was low at the 
+beginning of the cyclic reaction, while the reaction rate of OC was 
+enhanced after activation. Furthermore, at the end of the activation 
+process, the oxidation rate, reduction rate and oxygen decoupling rate of 
+Fig. 5. Mass curves of multiple redox cycles in FB-TGA at 900℃, (a) Weight change and attrition rate throughout the cycle, (b) Weight change during a typical cycle, 
+(c) Weight change at a different number of cycles. 
+Fig. 6. The XRD patterns of fresh, reacted CMTF particles in the oxidized and 
+reduced states. 
+Z. Miao et al.                                                                                                                                                                                                                                    
+
+
+===== Page 6 =====
+
+Chemical Engineering Journal 472 (2023) 144722
+6
+OC were approximately the same for different cycle times, indicating a 
+good reaction stability of OC. It is worth noting that the reaction rate in 
+the oxidation phase was approximate twice the reaction rate in the 
+reduction phase. 
+Fig. 10 shows an image of the inside of the bed after 180 redox cycles. 
+It is clear that some particles are adhering to the reactor tube wall and 
+the air distribution plate, but the adhesion is very low and a slight tug 
+can remove the adhering particles. This suggests on the one hand that 
+after 180 redox cycles some particle sintering has occurred in the OC, 
+increasing particle surface adhesion. At the same time, the inhomoge­
+neous fluidization on the walls of the quartz tubes and air distribution 
+plates due to the wall effect led to particle adhesion. Furthermore, based 
+on the XRD results, the CMTF particles showed a crystalline phase shift 
+during the cycling process and it is speculated that some Ca atoms de­
+tached from the perovskite skeleton and formed a new crystalline phase 
+with the quartz tube wall, leading to the adhesion. 
+Fig. 11 shows a comparison of fresh OC under the microscope and OC 
+after 180 cycles. It can be seen that the fresh OC consists mainly of 
+spherical or ellipsoidal particles with an irregular surface and the par­
+ticles are relatively dispersed. In contrast, the surface morphology of the 
+OC particles did not change significantly after the reaction, but some of 
+the OC particles were observed to be attached, forming small agglom­
+erates, further indicating that surface sintering of the OC particles had 
+occurred, causing the particles to adhere to the quartz tube walls and air 
+Fig. 7. The XPS characterization of reduced and oxidized CMTF perovskite.  
+Fig. 8. The net weight loss and weight change of redox reactions in each cycle.  
+Fig. 9. The reaction rates at different numbers of redox cycles.  
+Z. Miao et al.                                                                                                                                                                                                                                    
+
+
+===== Page 7 =====
+
+Chemical Engineering Journal 472 (2023) 144722
+7
+distribution plate. 
+3.2. Deep redox cycles performance of CMTF 
+To further test the cycling performance and sintering resistance of 
+CMTF, FB-TGA was used to investigate the effect of deep oxida­
+tion–reduction cycling of CMTF on its crystal structure. Firstly, the 
+maximum oxygen transfer capacity of CMTF was tested by continuously 
+passing 1.1 L/min of N2 and 100 mL/min of H2 into the reactor to keep 
+the OC particles in a bubbling fluidized state, and the mass change in the 
+reactor is shown in Fig. 12. It is clear that the mass change of CMTF 
+plateaued when the reaction proceeded to 10 min, at which point the 
+maximum oxygen transfer capacity of CMTF was 4.75%. 
+Based on this, the cycling performance of OC in the deep redox cycle 
+reaction was further tested. Fig. 13 shows the change in mass within the 
+reactor over all 80 cycles and it can be seen that there was a slight 
+decrease in mass between the 0 and 20th cycles due to the attrition of OC 
+particles during the early cycles. At this stage the particle attrition rate 
+rapidly decreased from 15.1 %/h to about 0 over the process of 20 cy­
+cles. However, after 20 cycles there was a gradual increase in mass 
+within the reactor, indicating a gradual increase in agglomeration 
+within the bed, with some particles beginning to agglomerate on the air 
+distribution plate and quartz tube walls. During the 37th −
+43rd cycle, 
+there was a significant drop and rapid increase in the mass in the bed, 
+partly because the agglomerates that accumulated initially were less 
+viscous and could be easily blown away in the presence of increased 
+pressure in the bed. On the other hand, as the cycle progressed, the 
+chemical stress on the OC particles gradually increased and some of the 
+particles fractured, leading to the destruction of some agglomerates, 
+resulting in a decrease and increase in the mass signal. In addition, it is 
+worth noting that the drop in weight in the oxidation stage precedes the 
+reduction stage, indicating that agglomeration of the particles occurred 
+mainly in the reduction stage[36], so when agglomeration occurred the 
+O2 in the oxidation stage was unable to oxide the upper particles from 
+Fig. 10. Image of the inside of the bed after the reaction.  
+Fig. 11. Microscopic images of CMTF before and after the cyclic reaction, (a) and (b) fresh particles, (c) and (d) reacted particles.  
+Z. Miao et al.                                                                                                                                                                                                                                    
+
+
+===== Page 8 =====
+
+Chemical Engineering Journal 472 (2023) 144722
+8
+the lower part of the bed resulting in a continuous drop in weight in the 
+bed until the pressure in the lower part of the bed was greater than the 
+agglomeration in the upper layer before the particles can resume 
+fluidization again [37]. And as the sintering of the particles continues to 
+increase, the agglomerates continue to increase, gradually forming a 
+more compact agglomerate structure. Thus during the 47th-55th cycle, 
+the weight in the bed dropped more and more pressure needed to build 
+up in the bed to break the agglomerate layer, while at the same time, as 
+the chemical stress inside the particles increases, the reaction gas 
+gradually formed gas channels in the bed and the upper layer of particles 
+was reoxidation when they come into contact with the reaction gas 
+again, which manifests itself as another rise in the weight in the bed, 
+after which the bed gradually defluidization [38]. 
+Fig. 14(a) and (b) show images of the inside of the bed and the quartz 
+tube wall after a deep reduction–oxidation cycle. It is clear that after 80 
+cycles, the OC was no longer fluidized properly due to severe 
+agglomeration and the bed completely collapsed. In addition, there are 
+gas channels within the bed due to uneven fluidization caused by wall 
+effects. It is noteworthy that, as in Fig. 10, some of the particles adhered 
+to the quartz tube wall and could not be easily scraped off, indicating 
+that the OC reacted with the quartz tube at this point, which further 
+indicates that the perovskite structure of the OC was disrupted at this 
+point and some of the deconstructed calcium compounds reacted with 
+SiO2 to form a new crystalline phase. Fig. 14(c) shows the agglomerates 
+formed by the OC particles within the bed. The OC particles that un­
+derwent a deep reduction–oxidation cycle reaction underwent more 
+severe sintering and agglomeration compared to Fig. 11, and the ag­
+glomerates were not easily broken. 
+As shown in Fig. 14(d) and (e), the agglomerates were observed 
+through microscopy, at which point the OC particles in the agglomerates 
+still maintained a relatively intact ellipsoidal structure, indicating that 
+the physical and mechanical strength of the CMTF particles was high, 
+but the particles were adhering to each other at the tangents. In addi­
+tion, cracks of varying degrees were observed on the surfaces of a large 
+number of particles, which were due to the accumulation of chemical 
+stresses in the OC particles after multiple deep reduction–oxidation cy­
+cles over a long period [39], resulting in cracks and fractures on the 
+surfaces and within the particles. Therefore, the deep redox cycling 
+process, achieved by prolonging the oxidation and reduction times 
+during the cycle, will exacerbate the sintering and agglomeration of 
+CMTF during the cycle, mainly due to the prolonged reduction process 
+resulting in the OC crystal deconstruction and bonding to each other, in 
+addition, the deconstructed OC will also react with the quartz tube wall 
+and the air distribution plate, resulting in the particles bonding to the 
+inner reactor wall surface. 
+3.3. Fixed bed experiment 
+Based on the results of previous studies, the effect of using high 
+concentrations of reaction gas under fixed bed conditions on the per­
+formance of the CMTF was further investigated to create more severe 
+agglomeration conditions. Fig. 15(a) shows the weight change curve of 
+the bed over the 10 cycles. It is clear that the weight in the bed tended to 
+rise and then fall, indicating that the activation of OC was also present at 
+the beginning of the cycle, proving that the activation of CMTF 
+Fig. 12. Weight change curve for testing the maximum oxygen carrying ca­
+pacity of CMTF under a reducing atmosphere. 
+Fig. 13. Weight change curves in the bed during the cycle and weight change patterns at each stage.  
+Z. Miao et al.                                                                                                                                                                                                                                    
+
+
+===== Page 9 =====
+
+Chemical Engineering Journal 472 (2023) 144722
+9
+Fig. 14. Microscopic images of CMTF particles before and after the cycle reaction, (a) and (b) fresh particles, (c) and (d) reacted particles.  
+Fig. 15. Weight change curves during the cycle, (a) weight change throughout the cycle (b) weight change at each stage (c) weight change in the bed after 
+continuous induction of H2 at the end of the last cycle. 
+Z. Miao et al.                                                                                                                                                                                                                                    
+
+
+===== Page 10 =====
+
+Chemical Engineering Journal 472 (2023) 144722
+10
+perovskite is not related to whether the particles are fluidized or not, but 
+is due to the increase in the active reaction area of the particles during 
+the cycle. In contrast, after 3 cycles, the weight curve showed a slow 
+decrease, and in combination with Fig. 15(b), the weight loss of OC in 
+the reduction phase was always greater than the weight gain of OC in the 
+oxidation phase, which was significantly different from the previous 
+experimental results, indicating that OC agglomerated during the first 
+cycle and hindered the oxidation reaction of OC. After five cycles, the 
+activation phase of the OC particles ended and the weight gain in the 
+oxidation phase gradually decreased, while the reduction weight loss 
+gradually increased, indicating that the agglomeration of the bed of 
+particles was rapidly increasing. Fig. 15(c) shows the pattern of curve 
+changes after the last cycle with a continuous pass of H2 until the weight 
+in the bed stabilized, and shows that the ROC of OC at this point was 
+8.53%, which was higher than the ROC of the CMTF particles in the deep 
+redox reaction, indicating that the increased concentration of the reac­
+tion gas further increased the redox of OC and also led to more severe 
+particle sintering and agglomeration. 
+Fig. 16(a) and (b) showed images of the interior of the bed after 10 
+cycles of cycling, and it can be seen that the reacted particles were in a 
+dispersed state without forming large agglomerates, and some of the 
+particles were bonded to the air distribution plate with strong bonding 
+and could not move easily. Fig. 16(c) and (d) showed microscopic im­
+ages of the reacted particles and it can be seen that the reacted particles 
+maintained a good particle morphology. It is noted that cracks appeared 
+on the surface of some of the particles. Under fixed bed conditions, the 
+breakage on the surface of the particles originates from the increase and 
+accumulation of chemical stresses inside the particles during the redox 
+cycle. In addition, some particles were noted to adhere to each other, but 
+the adhesion was not strong. Therefore, the main reason for the blockage 
+of the OC oxidation phase was that some of the particles reacted with the 
+air distribution plate during the reduction stage and blocked some of the 
+air pores, affecting the normal oxidation of the upper particles. 
+4. Mechanistic analysis 
+Fig. 17 shows the sintering and agglomeration mechanism of the 
+CMTF oxygen carrier particles during the cycling process. At the early 
+stage of cycling, the particles fluidized well and the reactive reaction 
+area was increased during the cycling process, and the reaction perfor­
+mance of the particles was gradually enhanced. In addition, because 
+some of the fresh particles were irregularly ellipsoidal, collisions 
+occurred between the particles or between the particles and the reactor 
+during the fluidization process, resulting in partial particle attrition. 
+With the redox cycle, the perovskite structure of CMTF particles un­
+derwent lattice distortion, and some of the free calcium compounds 
+reacted with the air distribution plate and quartz tube wall and caused 
+some particles to bond, which also made some particles start to 
+agglomerate at the bottom of the bed. In addition, the gradual increase 
+of chemical stress inside the particles led to cracks or fractures in some 
+particles. Due to the gradual increase of sintering and agglomeration, 
+some of the upper particles could not be completely oxidized in the 
+oxidation stage resulting in a continuous decrease of the bed weight 
+until the gas pressure gradually established gas channels in the 
+agglomerated layer, and the upper particles could resume oxidation, at 
+which time the bed entered the repeated defluidization period. And with 
+the intensification of particle sintering and uneven gas distribution, the 
+newly established agglomerate layer became more compact, and the 
+agglomerate layer gradually spreads to the upper layer particles and 
+leads to complete bed defluidization. 
+5. Conclusion 
+In this study, the attrition, redox cycling properties and sintering 
+characteristics of CMTF perovskite prepared by spray drying granulation 
+on an industrial scale were investigated on FB-TGA. The main findings 
+are as follows: 
+At the beginning of the long-term multiple redox reaction cycles, the 
+attrition rate of the particles was high due to the small size and uneven 
+shape of some CMTF oxygen carrier particles, based on the rounding 
+effect of irregular particles. the XRD results showed that the crystal 
+diffraction peaks of CMTF were shifted after the cycling reaction, indi­
+cating that the crystal structure of CMTF changed after the cycling. In 
+addition, the partial sintering of OC particles during the redox cycling 
+increased the adhesion of the particle surface and caused particle 
+adhesion due to uneven fluidization at the quartz tube wall and air 
+distribution plate during the fluidization process. On the other hand, 
+because the CMTF crystal structure was destroyed during the cycling 
+Fig. 16. The reaction rates at different numbers of redox cycles.  
+Z. Miao et al.                                                                                                                                                                                                                                    
+
+
+===== Page 11 =====
+
+Chemical Engineering Journal 472 (2023) 144722
+11
+process, some Ca atoms broke away from the skeleton of the perovskite 
+structure and reacted with the air distribution plate and quartz tube 
+contact to form new crystals, leading to the adhesion of some particles 
+on the air distribution plate and quartz tube wall. The deep redox cycling 
+experiments showed that the OC oxidation reaction in the upper part of 
+the bed was inhibited by the continuous increase of particle sintering 
+and agglomeration during the cycling process of CMTF particles, while 
+the agglomerated bed was dispersed by the continuous increase of 
+pressure in the bed and the increase of chemical stress on the OC par­
+ticles, and the bed was in repeated loss of flow period. And with the 
+continuous sintering and agglomeration of particles, the agglomerates 
+gradually form a more compact agglomerate structure, and finally the 
+whole bed was defluidized. Fixed-bed high concentration reaction gas 
+experiments show that the activation of CMTF particles does not depend 
+on whether they are fluidized or not, but comes from the increase of 
+active reaction area during the redox cycle. In addition, agglomeration 
+of particles starts at the connection of the particles with the air distri­
+bution plate. Therefore, longer residence time and higher reaction gas 
+concentration are direct factors leading to CMTF agglomeration, while 
+higher ROC is the root cause of agglomeration. From the point of view of 
+inhibiting CMTF agglomeration and sintering, controlling the ROC of OC 
+and reducing the residence time and reaction gas concentration of OC in 
+the fuel reactor can prolong the safe operation of CMTF peroxides in 
+industry. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Data availability 
+The data that has been used is confidential. 
+Acknowledgments 
+The authors gratefully acknowledge the support of this research 
+work by the National Natural Science Foundation of China (Grant 
+52076044 and 52206261). Useful suggestions given by Dr. Zhenshan Li 
+from Tsinghua University are also acknowledged. 
+References 
+[1] A. Lyngfelt, C. Linderholm, Chemical-Looping Combustion of Solid Fuels-Status 
+and Recent Progress, Energy Procedia 114 (2017) 371–386, https://doi.org/ 
+10.1016/j.egypro.2017.03.1179. 
+[2] A.A.D. Zare, M. Yari, H. Nami, F. Mohammadkhani, Low-carbon hydrogen, power 
+and heat production based on steam methane reforming and chemical looping 
+combustion, Energ. Convers. Manage. 279 (2023), 116752, https://doi.org/ 
+10.1016/j.enconman.2023.116752. 
+[3] A. Cabello, A. Abad, T. Mendiara, M.T. Izquierdo, L.F. de Diego, Outstanding 
+performance of a Cu-based oxygen carrier impregnated on alumina in chemical 
+looping combustion, Chem. Eng. J. 455 (2023), 140484, https://doi.org/10.1016/ 
+j.cej.2022.140484. 
+[4] T. Mattisson, M. Keller, C. Linderholm, P. Moldenhauer, M. Ryd´en, H. Leion, 
+A. Lyngfelt, Chemical-looping technologies using circulating fluidized bed systems: 
+Status of development, Fuel. Process. Technol. 172 (2018) 1–12, https://doi.org/ 
+10.1016/j.fuproc.2017.11.016. 
+[5] S. Daneshmand-Jahromi, M.H. Sedghkerdar, N. Mahinpey, A review of chemical 
+looping combustion technology: Fundamentals, and development of natural, 
+industrial waste, and synthetic oxygen carriers, Fuel 341 (2023), 127626, https:// 
+doi.org/10.1016/j.Fuel.2023.127626. 
+[6] C.H.J. Koh Yang, G. Liu, W.P. Chan, Y. Zhao, M.P.V. Chin, W. Liu, T.T. Lim, 
+G. Lisak, Oxygen carrier derived from ferric sludge for chemical looping 
+combustion of MSW syngas: Waste derived material performance and carbon 
+footprint assessment, Chem. Eng. J. 465 (2023), 142874, https://doi.org/10.1016/ 
+j.cej.2023.142874. 
+[7] J. Chen, L. Duan, Y. Ma, Y. Jiang, A. Huang, H. Zhu, H. Jiao, M. Li, Y. Hu, H. Zhou, 
+Y. Xu, F. Donat, M. Awais Naeem, O. Kr¨ocher, Recent progress in calcium looping 
+integrated with chemical looping combustion (CaL-CLC) using bifunctional CaO/ 
+CuO composites for CO2 capture: A state-of-the-art review, Fuel 334 (2023), 
+126630, https://doi.org/10.1016/j.Fuel.2022.126630. 
+[8] H.A. Hashimi, O. Chaalal, Correlating electronegativity in bimetallic oxygen 
+carriers for chemical looping combustion, Therm. Sci. Eng. Prog. 27 (2022), 
+101170, https://doi.org/10.1016/j.tsep.2021.101170. 
+[9] X. Sun, L. Zhu, W. Zhao, F. Li, X. Chen, Ni-Fe bimetallic hexaaluminate for efficient 
+reduction of O2-containing CO2 via chemical looping, Chem. Eng. J. 441 (2022), 
+136071, https://doi.org/10.1016/j.cej.2022.136071. 
+[10] M. Wei, H. Li, S. Wu, Y. Wang, G. Guo, Y. Liu, F. Yan, D. Zhang, First-principles 
+study of oxygen reduction reaction on Pd-doped LaxSr1-xCoyFe1-yO3-δ cathodes of 
+solid oxide Fuel. cells, Int. J. Hydrogen Energy. 44 (54) (2019) 28720–28730, 
+https://doi.org/10.1016/j.ijhydene.2019.09.100. 
+[11] Y. Lv, B. Cheng, H. Yang, X. Cui, M. Zhao, Chemical looping partial oxidation 
+(CLPO) of toluene on LaFeO3 perovskites for tunable syngas production, Chem. 
+Eng. J. 451 (2023), 138968, https://doi.org/10.1016/j.cej.2022.138968. 
+[12] T. Mattisson, J. Ad´anez, K. Mayer, F. Snijkers, G. Williams, E. Wesker, O. Bertsch, 
+A. Lyngfelt, Innovative Oxygen Carriers Uplifting Chemical-looping Combustion, 
+Energy Procedia 63 (2014) 113–130, https://doi.org/10.1016/j. 
+egypro.2014.11.012. 
+[13] P. Hallberg, M. Ryd´en, T. Mattisson, A. Lyngfelt, CaMnO3-δ Made from Low-Cost 
+Material Examined as Oxygen Carrier in Chemical-looping Combustion, Energy 
+Procedia 63 (2014) 80–86, https://doi.org/10.1016/j.egypro.2014.11.009. 
+[14] F. Wang, S. Chen, S. Chen, J. Du, L. Duan, W. Xiang, Double adjustment of Ni and 
+Co in CeO2/La2Ni2-xCoxO6 double perovskite-type oxygen carriers for chemical 
+looping steam methane reforming, Chem. Eng. J. 465 (2023), 143041, https://doi. 
+org/10.1016/j.cej.2023.143041. 
+[15] J. Yan, R. Sun, L. Shen, H. Bai, S. Jiang, Y. Xiao, T. Song, Hydrogen-rich syngas 
+production with tar elimination via biomass chemical looping gasification (BCLG) 
+using BaFe2O4/Al2O3 as oxygen carrier, Chem. Eng. J. 387 (2020), 124107, 
+https://doi.org/10.1016/j.cej.2020.124107. 
+[16] X. Shen, Y. Wu, X. Xu, J. Su, Z. He, E. Jiang, Y. Ren, Y. Sun, Torrefaction enhanced 
+biomass chemical-looping gasification coupled with CO2-splitting via half doped 
+LaFe0.5M0.5O3 perovskites, Fuel. Process. Technol. 234 (2022), 107314, https:// 
+doi.org/10.1016/j.fuproc.2022.107314. 
+[17] J. Yan, J. Lai, K. Yin, Y. Yan, L. Shen, L. Yang, Syngas production and gas-N 
+evolution over heterogeneously doped La-Fe-O perovskite-type oxygen carriers in 
+chemical looping gasification of microalgae, Bioresour. Technol. 369 (2023), 
+128507, https://doi.org/10.1016/j.biortech.2022.128507. 
+[18] C. Shang, X. Xiao, Q. Xu, Coordination chemistry in modulating electronic 
+structures of perovskite-type oxide nanocrystals for oxygen evolution catalysis, 
+Coord. Chem. Rev. 485 (2023), 215109, https://doi.org/10.1016/j. 
+ccr.2023.215109. 
+Fig. 17. Schematic diagram of the sintering and agglomeration mechanism of CMTF in the redox cycle.  
+Z. Miao et al.                                                                                                                                                                                                                                    
+
+
+===== Page 12 =====
+
+Chemical Engineering Journal 472 (2023) 144722
+12
+[19] J. Tu, J. Ding, G. Xi, H. Li, Q. Yang, J. Tian, L. Zhang, Controllable chemical 
+composition in double-perovskite Bi0.5Sm0.5FeO3 epitaxial thin films for 
+ferroelectric, photovoltaic, and ferromagnetic properties, Chem. Eng. J. 453 
+(2023), 139726, https://doi.org/10.1016/j.cej.2022.139726. 
+[20] S. Capstick, B. Bulfin, J.M. Naik, M. Gigantino, A. Steinfeld, Oxygen separation via 
+chemical looping of the perovskite oxide Sr0.8Ca0.2FeO3 in packed bed reactors for 
+the production of nitrogen from air, Chem. Eng. J. 452 (2023), 139289, https:// 
+doi.org/10.1016/j.cej.2022.139289. 
+[21] G. Cai, C. Luo, Y. Zheng, D. Cao, T. Luo, X. Li, F. Wu, L. Zhang, BaCoO3−δ 
+perovskite-type oxygen carrier for chemical looping air separation, part I: 
+Determination of oxygen non-stoichiometry and cyclic stability of oxygen carrier, 
+Sep. Purif. Technol. 302 (2022), 121972, https://doi.org/10.1016/j. 
+seppur.2022.121972. 
+[22] J. Yan, W. Liu, R. Sun, S. Jiang, S. Wang, L. Shen, Chemical looping catalytic 
+gasification of biomass over active LaNixFe1-xO3 perovskites as functional oxygen 
+carriers, Chin. J. Chem. Eng. 36 (2021) 146–156, https://doi.org/10.1016/j. 
+cjche.2020.09.038. 
+[23] K. Zhao, J. Huang, Z. Huang, Y. Lin, M. Zheng, D. Song, A. Liu, X. Wang, A. Zheng, 
+Z. Zhao, Tungstate promoted CaMnO3-based core-shell redox catalysts for efficient 
+chemical looping oxidative coupling of methane, J. Energy Inst. 105 (2022) 
+273–281, https://doi.org/10.1016/j.joei.2022.10.002. 
+[24] A. Fossdal, E. Bakken, B.A. Øye, C. Schøning, I. Kaus, T. Mokkelbost, Y. Larring, 
+Study of inexpensive oxygen carriers for chemical looping combustion, Int. J. 
+Greenhouse Gas Control. 5 (3) (2011) 483–488, https://doi.org/10.1016/j. 
+ijggc.2010.08.001. 
+[25] N. Galinsky, A. Mishra, J. Zhang, F. Li, Ca1-xAxMnO3 (A=Sr and Ba) perovskite 
+based oxygen carriers for chemical looping with oxygen uncoupling (CLOU), Appl. 
+Energy. 157 (2015) 358–367, https://doi.org/10.1016/j.apenergy.2015.04.020. 
+[26] M. Pishahang, Y. Larring, M. McCann, R. Bredesen, Ca0.9Mn0.5Ti0.5O3−δ: A Suitable 
+Oxygen Carrier Material for Fixed-Bed Chemical Looping Combustion under 
+Syngas Conditions, Ind. Eng. Chem. Res. 53 (26) (2014) 10549–10556, https://doi. 
+org/10.1021/ie500928m. 
+[27] M. K¨all´en, M. Ryd´en, C. Dueso, T. Mattisson, A. Lyngfelt, CaMn0.9Mg0.1O3-δ as 
+Oxygen Carrier in a Gas-Fired 10 kWth Chemical-Looping Combustion Unit, Ind. 
+Eng. Chem. Res. 52 (21) (2013) 6923–6932, https://doi.org/10.1021/ie303070h. 
+[28] K. Mayer, S. Penthor, T. Pr¨oll, H. Hofbauer, The different demands of oxygen 
+carriers on the reactor system of a CLC plant-Results of oxygen carrier testing in a 
+120 kWth pilot plant, Appl. Energy. 157 (2015) 323–329, https://doi.org/10.1016/ 
+j.apenergy.2015.07.053. 
+[29] L. Liu, Z. Li, Z. Li, Y. Larring, N. Cai, Heterogeneous reaction kinetics of a 
+perovskite oxygen carrier for chemical looping combustion coupled with oxygen 
+uncoupling, Chem. Eng. J. 417 (2021), 128054, https://doi.org/10.1016/j. 
+cej.2020.128054. 
+[30] S. Abuelgasim, W. Wang, A. Abdalazeez, A brief review for chemical looping 
+combustion as a promising CO2 capture technology: Fundamentals and progress, 
+Sci. Total Environ. 764 (2021), 142892, https://doi.org/10.1016/j. 
+scitotenv.2020.142892. 
+[31] T. Luo, C. Luo, Z. Shi, X. Li, F. Wu, L. Zhang, Optimization of sol-gel combustion 
+synthesis for calcium looping CO2 sorbents, part I: Effects of sol-gel preparation 
+and combustion conditions, Sep. Purif. Technol. 292 (2022), 121081, https://doi. 
+org/10.1016/j.seppur.2022.121081. 
+[32] Q. Imtiaz, M. Broda, C.R. Müller, Structure–property relationship of co-precipitated 
+Cu-rich, Al2O3- or MgAl2O4-stabilized oxygen carriers for chemical looping with 
+oxygen uncoupling (CLOU), Appl. Energy. 119 (2014) 557–565, https://doi.org/ 
+10.1016/j.apenergy.2014.01.007. 
+[33] M. Arjmand, A.-M. Azad, H. Leion, T. Mattisson, A. Lyngfelt, Evaluation of CuAl2O4 
+as an Oxygen Carrier in Chemical-Looping Combustion, Ind. Eng. Chem. Res. 51 
+(43) (2012) 13924–13934, https://doi.org/10.1021/ie300427w. 
+[34] E. Jerndal, T. Mattisson, I. Thijs, F. Snijkers, A. Lyngfelt, Investigation of NiO/ 
+NiAl2O4 oxygen carriers for chemical-looping combustion produced by spray- 
+drying, Int. J. Greenhouse Gas Control. 4 (1) (2010) 23–35, https://doi.org/ 
+10.1016/j.ijggc.2009.09.007. 
+[35] Z. Miao, L. Shen, H. Zhao, Cycling performance of composite hematite and copper 
+ore oxygen carrier in chemical looping combustion, Chem. Eng. J. 452 (2023), 
+139224, https://doi.org/10.1016/j.cej.2022.139224. 
+[36] J. Riley, R. Siriwardane, J. Poston, Bench scale analysis of the physical attrition 
+properties for copper-ferri-aluminate oxygen carriers during chemical looping 
+combustion, Powder Technol. 366 (2020) 891–905, https://doi.org/10.1016/j. 
+powtec.2020.02.067. 
+[37] X. Zhang, R. Liu, T. Liu, C. Pei, J. Gong, Redox catalysts for chemical looping 
+methane conversion, Trends. Chem. 5 (7) (2023) 512–525. 
+[38] A. Abad, R. P´erez-Vega, M.T. Izquierdo, P. Gay´an, F. García-Labiano, L.F. de Diego, 
+J. Ad´anez, Novel magnetic manganese-iron materials for separation of solids used 
+in high-temperature processes: Application to oxygen carriers for chemical looping 
+combustion, Fuel 320 (2022), 123901, https://doi.org/10.1016/j. 
+Fuel.2022.123901. 
+[39] J. Yan, T. Shen, P. Wang, X. Yin, X. Zhu, S. Jiang, L. Shen, Redox performance of 
+manganese ore in a fluidized bed thermogravimetric analyzer for chemical looping 
+combustion, Fuel 295 (2021), 120564, https://doi.org/10.1016/j. 
+Fuel.2021.120564. 
+Z. Miao et al.                                                                                                                                                                                                                                    

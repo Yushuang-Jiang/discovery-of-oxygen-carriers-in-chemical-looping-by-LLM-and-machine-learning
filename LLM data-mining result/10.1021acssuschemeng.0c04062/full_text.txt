@@ -1,0 +1,1401 @@
+
+
+===== Page 1 =====
+
+Eﬃcient Metal−Organic Framework-Derived Cu−Zr Oxygen Carriers
+with an Enhanced Reduction Reaction Rate for Chemical Looping Air
+Separation
+Guida Li, Jianling Li, Bo Jin,* Wenhao Ji, Yangqiang Huang, Xiao Luo, and Zhiwu Liang*
+Cite This: https://dx.doi.org/10.1021/acssuschemeng.0c04062
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+*
+sı
+Supporting Information
+ABSTRACT: As a key to realize the chemical looping air
+separation (CLAS) process, CuO is a good oxygen carrier
+candidate because of its high oxygen transport capacity and
+excellent thermodynamic characteristics. However, it is hampered
+by easy deactivation during redox cycles. In this work, a Cu−Zr
+oxygen carrier is developed via a metal−organic framework
+(MOF) self-templated method to realize high redox reactivity
+and favorable thermal stability for the CLAS process. The
+physicochemistry property and reduction kinetics are investigated
+through isothermal redox cycles, material characterizations, and
+reduction kinetic modeling. Compared to the coprecipitated
+oxygen carrier (Copr.), the MOF-derived oxygen carrier (MOF-
+D) obtains a 35% faster average reaction rate at the temperature
+interval of 800−900 °C, especially a 60% reduction rate increase at 850 °C. This enhanced reaction rate is mainly ascribed to the
+lower intrinsic activation energy (126.3 kJ·mol−1 for MOF-D vs 157.3 kJ·mol−1 for Copr.) rather than the amount of active oxygen
+species. The oxygen-releasing mechanisms for the MOF-derived and coprecipitated oxygen carriers follow the nucleation and nuclei
+growth model with a transition of one-dimensional growth to two-dimensional nucleation at two temperature ranges (800−825 and
+850−900 °C). This study oﬀers a new route to develop an eﬃcient oxygen carrier for the CLAS process.
+KEYWORDS: chemical looping, air separation, oxygen carrier, metal−organic framework, reaction kinetics
+■INTRODUCTION
+Based on the chemical looping concept, chemical looping air
+separation (CLAS) is proposed as a promising method for
+oxygen production.1 Compared to other air separation
+technologies (e.g., cryogenic distillation, pressure swing
+adsorption, and membrane separation), CLAS attracts much
+attention because of low exergy penalty and highly eﬃcient
+production.1,2 Typically, the CLAS system consists of two
+interconnected reactors: an oxidation reactor and a reduction
+reactor to realize the cyclic oxidation and reduction of a
+looping medium (i.e., an oxygen carrier).2 Oxygen carriers
+release gaseous oxygen (eq 1) in the reduction reactor, while
+reduced oxygen carriers are then regenerated in the oxidation
+reactor (eq 2).
+2Me O (s)
+2Me O
+(s)
+O (g)
+x
+y
+x
+y
+1
+2
+=
++
+−
+(1)
+2Me O
+(s)
+O (g)
+2Me O (s)
+x
+y
+x
+y
+1
+2
++
+=
+−
+(2)
+As a cyclic medium, the oxygen carrier plays the most
+important role in chemical looping systems. Until now, many
+metal oxides have been selected and developed as oxygen
+carriers to release gaseous oxygen in CLAS.3−7 Because of the
+properties of high oxygen transport capacity (0.1 gO2/gCuO),
+high redox reactivity, excellent thermodynamic characteristics,
+and less solid inventory, CuO stands out as a promising oxygen
+carrier for the CLAS process.8,9 Meanwhile, it exhibits a
+desirable property that a modest equilibrium oxygen partial
+pressure diminishes the loss of eﬀective oxygen capacity during
+the conveying in the two reactors.10 In this way, Cu-based
+oxygen carriers can help to achieve the heat balance for the
+practical CLAS application. For instance, using CuO as the
+active component, reaction optimization and heat integration
+realize the thermal management for CLAS,2 while adjusting
+inert solid ﬂow and CO2 feeding makes the CLAS suitable for
+oxy-fuel combustion.11 However, CuO deactivates fast during
+redox cycles,12 indicating that great challenges still exist for this
+oxygen carrier for further applications.8,13 Therefore, eﬀective
+Received:
+June 1, 2020
+Revised:
+August 20, 2020
+Published: September 14, 2020
+Research Article
+pubs.acs.org/journal/ascecg
+© XXXX American Chemical Society
+A
+https://dx.doi.org/10.1021/acssuschemeng.0c04062
+ACS Sustainable Chem. Eng. XXXX, XXX, XXX−XXX
+Downloaded via UNIV OF NEW ENGLAND on September 25, 2020 at 02:42:59 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+
+===== Page 2 =====
+
+solutions are needed to improve the redox reactivity for Cu-
+based oxygen carriers in CLAS applications.
+Fortunately, three solutions can be applied to deal with the
+above observations: (i) add a support with high Tammann
+temperature to maintain high thermal stability; (ii) combine
+with a highly active oxygen carrier to enhance redox reactivity;
+and (iii) rationally design an oxygen carrier via advanced
+synthesis techniques to accelerate the reaction kinetics. In the
+ﬁrst aspect, single or blended supports have been intensively
+investigated and compared, such as Al2O3, ZrO2, MgAl2O4,
+MgO, ZnO, CeO2, and their mixtures.14−16 Among them,
+ZrO2 would be a competitive candidate because it can
+maintain high thermal stability and increase the oxygen-
+releasing rate.17−19 Certainly, the interaction between the
+active component and inert support should be considered to
+avoid the formation of inactive complexes20,21 and to
+implement a synergistic eﬀect from intensiﬁed ion con-
+duction.22 With respect to the second solution, the improved
+performance is mainly derived from the positive interactions
+between two active components.23 When compared to that of
+a single oxygen carrier, the combination of CuO and Fe2O3 can
+attain high redox reactivity and stable performance.24,25 Finally,
+using an advanced synthesis method to rationally design an
+oxygen carrier can be a way to improve redox reactivity and
+thermal stability. For instance, a templated synthesis approach
+would be a good choice because it realizes a rational design of
+solid materials with high performance (e.g., catalyst, oxygen
+carrier, and CO2 sorbent). A self-assembly template
+combustion-synthesized core−shell structured CuO@TiO2−
+Al2O3 showed superior redox performance without sintering,26
+while layered double-hydroxide-derived Cu−Al oxygen carriers
+with a nanoplatelet morphology demonstrated stable oxygen
+release and oxygen storage capacities.27 Hence, ﬁnding a
+suitable templated synthesis method would be a promising
+solution to obtain desirable and eﬃcient oxygen carriers.
+Metal−organic frameworks (MOFs), also known as porous
+coordination polymers, construct an inﬁnite and periodic
+network with backbones of metal ions as connectors and
+ligands as linkers.28 Their tunable textural and chemical
+properties make them promising materials for the application
+in gas adsorption, catalysis, energy conversion and storage,
+etc.29 More importantly, MOFs are also appropriate self-
+templates to synthesize nanostructured materials with superior
+activity. Signiﬁcant research studies on developing solid
+materials via MOF-templated methods have been applied to
+low-temperature electrocatalysis30,31 and photocatalysis;32,33
+however, limited attempts have been made to apply this
+method for high-temperature processes. Lithium orthosilicate
+(Li4SiO4) can be prepared from a Li−Si-based MOF template
+to achieve high sorption capacity and fast adsorption rates for
+CO2 capture.34 As the ﬁrst attempt to synthesize a Ca-based
+sorbent for calcium looping, a Ca-MOF-derived sorbent with a
+low inert support content showed 500% times CO2 sorption
+capacity and high thermal stability.35 These eﬀorts demon-
+strate a promising future for adopting the MOF-templated
+approach to rationally design solid materials for chemical
+looping applications. However, to the best of our knowledge,
+no such study uses the MOF-templated method to develop
+oxygen carriers for the CLAS process.
+Toward this end, in this work, a Cu-based oxygen carrier is
+ﬁrst synthesized using an MOF as a self-template to research
+its feasibility and reactivity for the CLAS process. In order to
+examine its redox performance, some characterization
+techniques and cyclic redox experiments have been applied
+for the comparison with a reference oxygen carrier prepared via
+a coprecipitation method. Moreover, a comprehensive reaction
+kinetic analysis is conducted to explain why the new CuO/
+ZrO2 oxygen carrier can yield an enhanced reduction reaction
+rate.
+■MATERIALS SYNTHESIS AND EXPERIMENTS
+Synthesis of Oxygen Carriers. A pristine Cu-MOF precursor
+was prepared by a modiﬁed solvothermal method.29,36−38 Typically,
+1116.9 mg of 1,3,5-benzenetricarboxylic acid (H3BTC) was dissolved
+in 30 mL of absolute ethanol as solution A, while 2172.8 mg of
+Cu(NO3)2·3H2O was dissolved in 30 mL of deionized water as
+solution B. Then, the two solutions were mixed, stirred, and
+transferred into a Teﬂon-lined stainless-steel autoclave. After being
+treated in an oven at 100 °C for 20 h, the resulting Cu-MOF
+precipitate was ﬁnally collected by ﬁltration, washed with deionized
+water, and dried at 100 °C under vacuum for 10 h.
+The CuO/ZrO2 oxygen carrier was obtained by the thermal
+transformation of a Zr-coated Cu-MOF precursor. Because this
+oxygen carrier is designed to have a nominal composition of 90 wt %
+CuO and 10 wt % ZrO2, a predetermined weight of ZrOCl2·8H2O
+was dissolved in ethanol. Then, the Cu-MOF precursor was added
+into the solution. The mixed solution was stirred for 6 h, dried for 10
+h, and calcined for 8 h at 950 °C with a heating rate of 2 K·min−1.
+Finally, the Cu-based oxygen carrier was obtained and denoted as
+MOF-D.
+In order to examine and compare the performance of the newly
+developed oxygen carrier, a copper/zirconium oxide with an identical
+CuO/ZrO2 mass ratio (9:1) was prepared by a coprecipitation
+method39 and selected as a reference material. The predetermined
+amounts of copper nitrate Cu(NO3)2·3H2O and ZrOCl2·8H2O were
+ﬁrst dissolved in deionized water, and sodium carbonate was then
+added in excess to precipitate the cupric ions and ZrO2+ ions through
+adjusting the pH close to be nearly alkaline with stirring. At last, the
+solid precipitate was ﬁltered, washed, dried, and calcined using the
+same condition as for the MOF-derived CuO/ZrO2 oxygen carrier.
+This reference sample is represented as Copr.. The obtained oxygen
+carriers were sieved into three groups: 100−200, 200−300, and 300−
+400 mesh. In order to eliminate the internal mass-transfer limitation,
+the eﬀect of these particle sizes was investigated during the reaction
+kinetic tests.
+Materials Characterization. The phase compositions of the as-
+prepared and used oxygen carriers were analyzed using a Shimadzu
+powder X-ray diﬀraction (XRD) 6100 diﬀractometer with Ni-ﬁltered
+Cu Kα radiation. Scans were performed at 10−80° at a rate of 4° per
+minute with an accelerating voltage and a ﬁlament current of 40 kV
+and 30 mA, respectively. The morphological images of the fresh and
+used materials were examined via scanning electron microscopy
+(SEM) which was performed on a Hitachi S-4800. The textural
+property was measured using nitrogen-adsorption/desorption iso-
+therms at 77 K on a JWGB Sci & Tech. instrument JW-BK200C,
+China.
+Redox Reactivity Test. The redox behavior of Cu-based oxygen
+carriers was examined at diﬀerent operating temperatures (800, 825,
+850, 875, and 900 °C) under atmospheric pressure using a
+thermogravimetric analyzer (NETZSCH STA 2500, Germany). The
+samples were placed in a 4 mm deep and 6 mm diameter quartz
+crucible. In a typical thermal decomposition experiment, a 5−10 mg
+sample was heated in a quartz bowl with a heating rate of 20 K min−1
+from ambient temperature to the desired temperature under N2 at 50
+mL·min−1. The 10 redox cycles were conducted within the
+temperature range of 800−900 °C using N2 as a reduction agent
+and air as an oxidation medium. The reduction and oxidation reaction
+time periods were set as 20 min and 15 min, respectively. Three
+diﬀerent oxygen concentrations (0, 0.8, and 1.2 vol %) are employed
+for the oxygen-releasing reaction.
+Data Evaluation. The mass changes were continuously monitored
+in the thermogravimetric analyzer during redox cycles. The oxygen
+ACS Sustainable Chemistry & Engineering
+pubs.acs.org/journal/ascecg
+Research Article
+https://dx.doi.org/10.1021/acssuschemeng.0c04062
+ACS Sustainable Chem. Eng. XXXX, XXX, XXX−XXX
+B
+
+
+===== Page 3 =====
+
+carrier conversion (X), instantaneous reduction reaction rate (rOC),
+and average reaction rate (r̅) are calculated by eqs 3−5, respectively.
+X
+m
+m
+m
+m
+t
+i
+i
+f
+=
+−
+−
+(3)
+r
+X
+t
+d
+d
+OC = −
+(4)
+(
+)
+r
+t
+t
+d
+t
+X
+t
+o
+d
+d
+∫
+̅ =
+−
+(5)
+where t is the reaction time, mt is the instantaneous weight of the
+oxygen carrier, and mi and mf are the initial weight (fully oxidized)
+and ﬁnal weight (completely reduced) of the oxygen carrier,
+respectively.
+■RESULTS AND DISCUSSION
+Characterization of the Synthesized Precursor and
+Oxygen Carrier. Figure 1 shows the XRD patterns of the
+synthesized Cu-MOF and the thermogravimetry (TG) curves
+for the decomposition of the precursors. It aims to conﬁrm the
+successful synthesis of the MOF precursor and to justify the
+formation of the oxygen carriers from the precursor. The good
+agreement of the characteristic peaks for the prepared Cu-
+MOF with the simulated XRD pattern indicates the successful
+synthesis of the MOF precursor.40 As shown in Figure 1b, the
+molecular formula of the Cu-MOF can be determined as
+Cu3(BTC)2·3H2O based on the calculation of weight loss from
+the thermal decomposition proﬁle, which is consistent with the
+previous literature results.38,41 Moreover, during the thermal
+transformation process from ambient temperature to calcina-
+tion temperature under an air atmosphere with a heating rate
+of 5 K·min−1, two thermal decomposition stages appeared for
+the Cu-MOF and Zr-precursor. For the Cu-MOF, the ﬁrst
+stage occurs at a temperature below 300 °C approximately,
+which is attributed to the loss of the absorbed water and
+ethanol in the ﬁrst rapid drop in weight and the removal of
+crystal water in the second drop in weight. The sharp weight
+loss in the second stage is due to the structural decomposition
+of organic linkages or guest molecules. Subsequently, new
+crystallized CuO and zirconia phases are formed. However, the
+Zr-loaded Cu-MOF precursor shows 65.90% weight loss
+(compared to a theoretical 63.74% weight loss) with the
+presence of one more decomposition stage because the
+primary decomposition stage of ZrOCl2·8H2O is diﬀerent
+from that of the Cu-MOF.
+The phase component of the MOF-D and Copr. oxygen
+carriers before and after redox cycles is illustrated in Figure 2.
+It is found that pure CuO and ZrO2 are detected without other
+impurities. The presence of only monoclinic zirconia before
+and after redox cycles indicates no incorporation of Cu into the
+Zr lattice because the dopants would destabilize and cause a
+phase transformation for ZrO2 between monoclinic and
+tetragonal phases.42,43 In other words, ZrO2 plays the role of
+an inert support to maintain the thermal stability of the two
+synthesized oxygen carriers. Determined from the Scherrer
+equation by ﬁtting a Gaussian function with deconvolution
+parameter D (equal to 2) to the three most intense
+characteristic peaks of each compound,44 the averaged
+crystalline size for the two samples is obtained. Owing to
+high-temperature calcination and redox reaction, a large
+crystalline size (for CuO: 46.2 nm for MOF-D vs 51.1 nm
+for Copr.) and a low surface area (Table S1, 3.7 m2·g−1 for
+MOF-D vs 2.4 m2·g−1 for Copr.) are obtained for the two
+oxygen carriers, even though the MOF-D oxygen carriers show
+a surface area and a crystal size more favorable than that of the
+Copr. oxygen carrier. Moreover, a 10% inert support can
+Figure 1. (a) XRD pattern for the Cu-MOF and (b) thermal decomposition proﬁle for the Cu-MOF, Zr-precursor, and Zr-coated Cu-MOF.
+Figure 2. XRD patterns for the synthesized Cu−Zr oxygen carriers
+before and after ﬁve redox cycles.
+ACS Sustainable Chemistry & Engineering
+pubs.acs.org/journal/ascecg
+Research Article
+https://dx.doi.org/10.1021/acssuschemeng.0c04062
+ACS Sustainable Chem. Eng. XXXX, XXX, XXX−XXX
+C
+
+
+===== Page 4 =====
+
+realize an acceptable stability with a slight decrease of crystal
+size to 37.9 and 40.2 nm for the MOF-D and Copr. oxygen
+carriers, respectively.
+As shown in Figure 3, the morphology of the two oxygen
+carriers before and after cyclic redox reactions was investigated.
+The surface properties of the MOF-D and Copr. oxygen
+Figure 3. SEM images of the oxygen carriers: (a) fresh MOF-D, (b) MOF-D after 10 cycles, (c) fresh Copr., and (d) Copr. after 10 cycles under
+900 °C and atmosphere pressure.
+Figure 4. Redox performance for the MOF-D and Copr. oxygen carriers at 850 and 900 °C under 10 redox cycles.
+Figure 5. Comparison of (a) conversion over time (blue solid lines: MOF-D; red dotted lines: Copr.) and (b) maximum diﬀerence in conversion
+between the two oxygen carriers at 800−900 °C.
+ACS Sustainable Chemistry & Engineering
+pubs.acs.org/journal/ascecg
+Research Article
+https://dx.doi.org/10.1021/acssuschemeng.0c04062
+ACS Sustainable Chem. Eng. XXXX, XXX, XXX−XXX
+D
+
+
+===== Page 5 =====
+
+carriers show little diﬀerences. Derived from the combination
+of the Brunauer−Emmett−Teller (BET) surface area and
+crystallite size for the two fresh samples, the aggregates of
+grains in the MOF-D oxygen carrier might be smaller than that
+in the Copr. oxygen carrier. After 10 redox cycles, the surface
+of the Copr. oxygen carrier becomes more dense than that of
+the MOF-D oxygen carrier. This phenomenon indicates that
+agglomeration or sintering of Copr. occurs more easily than
+that of MOF-D under 900 °C operating conditions.
+Redox Reactivity and Stability. Figure 4 shows the mass
+variations of two CuO/ZrO2 oxygen carriers at 850 and 900
+°C under 10 redox cycles. Because of the morphology
+evolution promoted at high temperature, the unstable
+maximum and minimum weight values of the two oxygen
+carriers at the ﬁrst four cycles are measured. These two solid
+materials become stable gradually beginning at the ﬁfth cycle,
+which is a common phenomenon which occurred in the
+previous studies.45,46 Thus, as discussed in the next section, the
+mass loss data at the ﬁfth cycle were selected to obtain the
+reaction rate and realize kinetic analysis at each temperature.
+The fact that there is no distinct diﬀerence in the stability of
+the two oxygen carriers obtained by two preparation methods
+is possibly due to the lower inert carrier content. Under these
+conditions, the metal oxides have already become dense during
+the calcination step of the preparation process. In addition,
+although the weight fraction of the inert zirconia support is
+only 10% and signiﬁcantly lower than that reported in the
+previous studies,10,47,48 the durability of the synthesized oxygen
+carriers can be guaranteed when compared to the circumstance
+of pure CuO.49
+Figure 5a illustrates the enhanced conversion rate for the
+CuO/ZrO2 oxygen carrier derived from the Cu-MOF
+precursor when compared to that of the coprecipitated
+CuO/ZrO2 oxygen carrier in the temperature range from
+800 to 900 °C. Figure 5b shows the maximum diﬀerence in
+conversion for the two oxygen carriers, in which the MOF-D
+oxygen carrier shows a conversion 52% higher than that of the
+Copr. oxygen carrier at 850 °C. However, the slight diﬀerence
+in the conversion for the two samples at 900 °C might be due
+to the high diﬀusional barrier caused by sintering eﬀects at high
+temperatures.50 As illustrated in Figure 6a, because the largest
+conversion gap between MOF-D and Copr. samples is
+obtained at 850 °C, their reduction reaction rates are
+compared at this temperature, indicating that the MOF-D
+oxygen carrier shows a 60% faster average reaction rate with a
+10.5 min oxygen-releasing period than the Copr. oxygen
+carrier. Similarly, the 31 and 11% increase in the average
+reaction rate are obtained for the MOF-D oxygen carrier at
+875 and 900 °C, respectively, compared to that for the Copr.
+material. Accordingly, the MOF-D oxygen carrier achieved a
+35% increase in the average oxygen-releasing rate at the
+temperature interval of 800−900 °C. This higher reactivity for
+the MOF-D oxygen carrier might be ascribed to the larger
+amount of active oxygen species and/or the lower intrinsic
+activation energy because more lattice distortion would be
+introduced using the MOF-templated method. However,
+temperature-programmed reduction experimental results (Fig-
+ure 6b) for the two oxygen carriers show almost an identical
+released oxygen amount (2.89 mmolO2/gOC for MOF-D and
+2.93 mmolO2/gOC for Copr.). This implies that the enhanced
+reaction activity for the MOF-D oxygen carrier is a result of its
+intrinsic kinetics, which will be comprehensively discussed in
+the next section.
+■REACTION KINETICS
+Controlling Resistances. In general, three resistance types
+(external mass transport limitation, internal diﬀusion resist-
+ance, and intrinsic chemical reaction) would potentially control
+the reaction rate individually or collectively in the gas−solid
+reaction. For the determination of the kinetic parameters, it is
+recommended that the physical transfer behaviors should be
+avoided. Therefore, the experiments on the elimination of
+internal and external diﬀusions were conducted. As illustrated
+in Figure S1, the eﬀects of nitrogen sweep ﬂow rate, sample
+mass, and particle size on the solid conversion were
+investigated. The results show that an adequate purge gas
+velocity (≥40 mL·min−1) and a less loading mass (≤6 mg)
+lower the oxygen partial pressure around the particles,
+minimizing the reaction rate limitation due to the thermody-
+namic eﬀects.51 In addition, the particles in the size range of
+75−150 μm have a negligible internal mass-transfer resistance
+according to the law of additive reaction times.52 Moreover, as
+discussed by a previous study,53 the temperature diﬀerence
+between particles and the bed during redox reactions can be
+neglected for oxygen carrier particles with a small size.
+Therefore, 6 mg oxygen carriers with diameters of 100−200
+mesh (75−150 μm) were employed in thermogravimetric
+Figure 6. (a) Reduction reaction rates at the ﬁfth cycle for two oxygen carriers at 850 °C and atmospheric pressure and (b) their oxygen storage
+capacities based on temperature-programmed (heating rate: 5 K·min−1) reaction.
+ACS Sustainable Chemistry & Engineering
+pubs.acs.org/journal/ascecg
+Research Article
+https://dx.doi.org/10.1021/acssuschemeng.0c04062
+ACS Sustainable Chem. Eng. XXXX, XXX, XXX−XXX
+E
+
+
+===== Page 6 =====
+
+analysis (TGA) under the nitrogen ﬂow rate of 50 mL·min−1 at
+each temperature to guarantee the minimal limitations in
+internal pore transfer and external ﬁlm convective transfer of
+oxygen molecules. Furthermore, the established dimensionless
+groups, Weise−Prater criterion (eq 6) and Früssling
+correlation (eqs 7 and 8), were also used to evaluate
+theoretically the abovementioned two physical limitations.
+C
+r
+R
+DC
+1
+WP
+obs
+2
+e
+eq
+=
+″
+≪
+(6)
+Sh
+Sc
+k d
+D
+2
+0.552Re0.5
+1/3
+g p
+AB
+=
++
+=
+(7)
+W
+k C
+C
+r
+(
+)
+r
+g
+s
+b
+obs
+=
+−
+≫′
+(8)
+where robs
+′
+and robs
+″
+are the oxygen generation rates per unit
+particle surface area and volume, Wr is the O2 radial diﬀusion
+ﬂux per unit particle surface area, dp and R are the diameter
+and radius of the particle (the worst scenario, namely, dp = 150
+μm, is employed in the theoretical calculation), respectively, De
+and DAB are the eﬀective diﬀusivity and binary diﬀusivity,
+respectively, Sh, Re, and Sc are the Sherwood number,
+Reynolds number, and Schmidt number, respectively, kg is
+the external convective mass-transfer coeﬃcient, and Cs and Cb
+are the oxygen molar concentration in the particle surface and
+oxygen molar concentration in the purge gas bulk, respectively.
+As summarized in Table 1, CWP and Wr are far less than 1 and
+robs
+′ , respectively, demonstrating that the adopted operating
+condition is suﬃcient for obtaining intrinsic reaction kinetics.
+Kinetic Models. For the reduction reaction kinetics of
+copper oxide under isothermal conditions, the conversion rate
+can be calculated according to the following equation.
+X
+t
+k T f X
+P
+P
+d
+d
+( ) ( )(
+)N
+eq
+=
+−
+(9)
+where t is the time, T is the temperature in kelvin, X represents
+the oxygen carrier conversion, f(X) is the mechanism function,
+and Peq and P are the oxygen pressures at the equilibrium
+condition and actual condition, respectively. In eq 9, k(T) is
+the reaction rate constant from the following Arrhenius
+equation.
+k
+A
+E
+RT
+exp(
+/
+)
+a
+=
+−
+(10)
+where A, Ea, and R are the pre-exponential factor, activation
+energy, and universal gas constant, respectively. From eq 9, the
+reaction rate depends on the temperature, equilibrium oxygen
+partial pressure, and solid conversion. The oxygen partial
+pressure at the equilibrium condition plays a key role in
+reaction rate because of its strong dependence on temperature
+(Figure 7). Hence, this thermodynamic limitation should be
+considered in a suitable range for reduction reaction kinetics.
+Equation 9 can be rewritten and analytically integrated as
+below.
+G X
+X
+f X
+k T t
+( )
+d
+( )
+( )
+X
+0∫
+=
+=
+(11)
+where G(X) is the integral form of the reaction model.
+Typically, as summarized in Table S2, the kinetic order models
+(F), diﬀusion models (D), contraction models (R), and
+nucleation and consequent growth models (A) involved with
+the diﬀerential and integrated forms of mechanism functions
+can be used to describe the gas−solid reactions.
+Model Evaluation. The time-dependent conversion in the
+Avrami-Erofe’ev equation can be expressed as eq 12
+X t
+kt
+( )
+1
+exp(
+)
+n
+=
+−
+−
+(12)
+where X(t) is the solid conversion at time t, k is a constant that
+particularly depends on the nucleation frequency and the rate
+of grain growth, and n is the kinetic exponent which depends
+upon the rate of nucleation and the dimensionality of the
+nuclei growth. The exponent n can also be interpreted as the
+sum of λ and δ, where λ is the dimensionality of growth (an
+integer value: 1, 2, or 3), and δ is the contribution of the
+nucleation process to the overall kinetics (it varies between 0
+and 1, a decreasing nucleation rate with the increasing δ).55
+Hancock and Sharp used a modiﬁed nucleation model as a
+classical method for analyzing all types of kinetic data for
+noncatalytic gas−solid reactions.56 Using this logarithm, eq 13
+can be expanded as below.
+X
+k
+n
+t
+ln( ln(1
+))
+ln( )
+ln( )
+−
+−
+=
++
+(13)
+The Sharp−Hancock plot, suitable for the acceleration
+interval 0.15 < X < 0.5, is a diagnostic of certain groupings of
+rate laws according to the slope n in eq 12. If n is below 1, the
+reaction is mostly controlled by the diﬀusion process, and if n
+is close to 1, the mechanism approaches a phase boundary-
+controlled process. When n is close to 2 or 3, the nucleation
+and nuclei-growth mechanism is possibly dominant. As
+described in Figure 8, the slopes of Hancock−Sharp plots
+(i.e., Avrami exponent n) for the MOF-derived and
+coprecipitated oxygen carriers are summarized in Table 2.
+The result indicates that the reaction may be controlled by the
+phase boundary or nucleation and subsequent nuclei growth
+Table 1. Relative Parameters in Theoretical Determination for the Gas Diﬀusion Eﬀect at 850 °C
+samples
+Ceq, mol·m−3
+DAB, m2·s−1
+kg, m·min−1
+De, m2·s−1
+robs
+′ , mol·m−2·min−1
+robs
+″ , mol·m−3·min−1
+Wr,mol·m−2·min−1
+Cwp × 109
+MOF-D
+0.045
+2.3 × 10−4
+3.70 × 102
+2.31 × 10−5
+1.38 × 10−5
+3.14 × 105
+1.67 × 101
+4.48
+Copr.
+1.93 × 10−5
+4.39 × 105
+6.26
+Figure 7. Calculated equilibrium oxygen partial pressure at diﬀerent
+temperatures for the CuO−Cu2O system.54
+ACS Sustainable Chemistry & Engineering
+pubs.acs.org/journal/ascecg
+Research Article
+https://dx.doi.org/10.1021/acssuschemeng.0c04062
+ACS Sustainable Chem. Eng. XXXX, XXX, XXX−XXX
+F
+
+
+===== Page 7 =====
+
+because the values of n for the two oxygen carriers vary within
+an interval of 1−2 in the temperature range from 800 to 900
+°C.
+The mechanism function of the MOF-D oxygen carrier was
+ﬁrst determined according to the linear correlation coeﬃcient
+R2. Figure 9 shows that a phase boundary-controlled model is
+not suitable for describing the reaction process because of the
+long induction period in the ﬁrst 2 min. Meanwhile, the
+Avrami-Erofe’ev model (i.e., A1.5) is found to achieve a better
+Figure 8. Sharp−Hancock plots for the MOF-D and Copr. oxygen carriers at the temperature range of 800−900 °C.
+Table 2. Slopes of Sharp−Hancock Plots for the MOF-D
+and Copr. Oxygen Carriers
+temperature (°C)
+sample
+800
+825
+850
+875
+900
+slopes of the H−S
+plots, n
+MOF-D
+1.22
+1.50
+1.64
+1.80
+1.86
+Copr.
+1.38
+1.52
+1.42
+1.78
+1.68
+Figure 9. Plots for ﬁtting diﬀerent reaction mechanisms of the MOF-D oxygen carrier based on the selected gas−solid kinetic models (R1, A1.5,
+and A2).
+ACS Sustainable Chemistry & Engineering
+pubs.acs.org/journal/ascecg
+Research Article
+https://dx.doi.org/10.1021/acssuschemeng.0c04062
+ACS Sustainable Chem. Eng. XXXX, XXX, XXX−XXX
+G
+
+
+===== Page 8 =====
+
+ﬁt (R2 > 0.99) at a low temperature from 800 to 825 °C,
+indicating that this phase transition proceeds via a one-
+dimensional growth process with a moderate nucleation
+process. Diﬀerently, the mechanism function converts into a
+two-dimensional nucleation model (i.e., A2) at a higher
+temperature range from 850 to 900 °C.
+Similarly, only two available models (A1.5 and A2) can be
+applied to evaluate the reaction processes of the coprecipitated
+samples at diﬀerent temperatures (800−900 °C). As shown in
+Figure 10, a nucleation and growth model with n = 1.5 can
+describe the situation at 800, 825, and 850 °C, whereas the
+reaction is controlled by the two-dimensional nucleation
+model when the temperature rises to 875 and 900 °C. The
+diﬀerence in kinetic models between the MOF-derived and
+coprecipitated oxygen carriers is that the integral form of G(X)
+for the latter sample is A1.5 and not A2 at 850 °C.
+Interestingly, it is found that a transition temperature about
+Avrami index n from 1.5 to 2 occurs for the two oxygen
+carriers. One possible explanation is that the oxygen-ion
+diﬀusion rate increases with increasing temperature.57
+By considering the eﬀect of oxygen pressure on reaction rate,
+the reaction order (N) can be obtained from eq 14. As shown
+in Figure 11, it is determined as 0.45 and 0.63 for MOF-D and
+Copr., respectively, which are in line with a recent analysis on
+the reaction order of the oxygen driving force for the CuO−
+Cu2O system.62 Hence, N is ﬁxed at 0.5 to ﬁt the eﬀect of
+driving force on the reaction kinetics, as seen in Figure 14.
+Accordingly, the Arrhenius plots of the MOF-D and Copr.
+oxygen carriers are illustrated in Figure 12 to obtain the
+intrinsic activation energy. The resulting apparent activation
+energies (Ea) for MOF-D and Copr. are 126.3 and 157.3 kJ·
+mol−1, while the pre-exponential factors (A) are 1.59 × 105 and
+3.49 × 106 min−1·atm−0.5, respectively. These values of
+activation energies are lower than that of some previous
+studies,47,58 which can be ascribed to the isolation of
+thermodynamic barriers from the global limitation. On the
+other hand, the activation energy for an oxygen carrier derived
+from the Cu-MOF precursor is lower than that of one prepared
+by the coprecipitation method, which might be associated with
+the formed morphology from the thermal transformation
+process in the MOF-D sample.
+k P
+P
+k
+N
+P
+P
+ln (
+)
+ln
+ln(
+)
+N
+eq
+eq
+[
+−
+] =
++
+−
+(14)
+Model Reliability. As shown in Figures 13 and 14, the
+validity of kinetic models is analyzed for the two oxygen
+carriers under the conditions of diﬀerent temperatures and
+oxygen pressures. The simulated values (solid lines) obtained
+Figure 10. Plots for ﬁtting diﬀerent reaction mechanisms of the Copr. oxygen carrier based on the selected models of A1.5 and A2.
+Figure 11. Values of reaction order (N) of the driving force for the
+MOF-D and Copr. oxygen carriers.
+Figure 12. Arrhenius plots for the oxygen uncoupling reaction of the
+prepared Cu-based oxygen carriers.
+ACS Sustainable Chemistry & Engineering
+pubs.acs.org/journal/ascecg
+Research Article
+https://dx.doi.org/10.1021/acssuschemeng.0c04062
+ACS Sustainable Chem. Eng. XXXX, XXX, XXX−XXX
+H
+
+
+===== Page 9 =====
+
+by the Avrami-Erofe’ev nucleation model agree well with the
+experimental data (symbols). However, there still exist some
+deviations between the simulated model and the experimental
+results in the later decay period (Figure 13). This kind of
+deviation between Avrami’s single crystal model and
+experimental data from powder samples is often observed in
+the decay region, typically because of the variations in
+crystallite and/or grain size.59 Furthermore, a similar situation
+also occurs in the phase transformation of CuAlCl4 from the
+beta phase to the alpha phase, with the diﬀerences most likely
+arising from the variations in grain size.60 In addition, the
+reduction reaction kinetics obtained in this work can be
+compared to those obtained in other published works.47,61,62
+As summarized in Table S3, the reaction kinetics is aﬀected by
+the active component content, inert support type, gas
+atmosphere, gas concentration, and operating conditions.
+Therefore, as formulated with eqs 15−18, the nucleation and
+nuclei growth model can be used to accurately describe the
+oxygen-releasing process from CuO reduction for the
+synthesized oxygen carriers.
+i
+k
+jjjj
+y
+{
+zzzz
+X
+t
+RT
+P
+P
+X
+X
+T
+d
+d
+1.59
+10 exp
+126.3
+10
+(
+)
+3
+2 (1
+)
+ln(1
+)
+,
+800 825 C
+5
+3
+eq
+0.5
+2/3
+=
+×
+−
+×
+−
+−
+[−
+−
+]
+=
+−
+°
+(15)
+i
+k
+jjjj
+y
+{
+zzzz
+X
+t
+RT
+P
+P
+X
+X
+T
+d
+d
+1.59
+10 exp
+126.3
+10
+(
+)
+2(1
+)
+ln(1
+)
+,
+850 900 C
+5
+3
+eq
+0.5
+1/2
+=
+×
+−
+×
+−
+−
+[−
+−
+]
+=
+−
+°
+(16)
+i
+k
+jjjj
+y
+{
+zzzz
+X
+t
+RT
+P
+P
+X
+X
+T
+d
+d
+3.49
+10 exp
+157.3
+10
+(
+)
+3
+2 (1
+)
+ln(1
+)
+,
+800 850 C
+6
+3
+eq
+0.5
+2/3
+=
+×
+−
+×
+−
+−
+[−
+−
+]
+=
+−
+°
+(17)
+i
+k
+jjjj
+y
+{
+zzzz
+X
+t
+RT
+P
+P
+X
+X
+T
+d
+d
+3.49
+10 exp
+157.3
+10
+(
+)
+2(1
+)
+ln(1
+)
+,
+875 900 C
+6
+3
+eq
+0.5
+1/2
+=
+×
+−
+×
+−
+−
+[−
+−
+]
+=
+−
+°
+(18)
+Figure 13. Solid conversion of (a) MOF-D and (b) Copr. oxygen carriers during the reduction reaction at 800, 825, 850, 875, and 900 °C vs time.
+The continuous lines represent the A1.5 and A2 model predictions using the resulting kinetic parameters, and the symbols represent the
+experimental data.
+Figure 14. Eﬀect of oxygen partial pressure (0, 0.008, and 0.012 atm) on the conversion of (a) MOF-D and (b) Copr. oxygen carriers at 900 °C.
+Symbols, experimental data; solid lines, A2 model prediction.
+ACS Sustainable Chemistry & Engineering
+pubs.acs.org/journal/ascecg
+Research Article
+https://dx.doi.org/10.1021/acssuschemeng.0c04062
+ACS Sustainable Chem. Eng. XXXX, XXX, XXX−XXX
+I
+
+
+===== Page 10 =====
+
+Based on the identiﬁed nucleation and nuclei growth model,
+the instantaneous reduction reaction rate of the two oxygen
+carriers is analyzed during three regions (the induction period,
+acceleration, and deceleration regions). As illustrated in Figure
+15, during the beginning of the induction period, the two
+oxygen carriers appear to have a nearly identical reaction rate,
+whereas the MOF-D oxygen carrier shows a faster momentary
+rate from the acceleration period to the reaction terminal. This
+increased reaction rate during the acceleration and decay
+regions for the MOF-D oxygen carrier makes it achieve a
+shorter reaction time and a faster average reaction rate under
+identical operating conditions when compared to the
+referenced oxygen carrier.
+■CONCLUSIONS
+A facile MOF-templated synthesis method is applied to
+develop a Cu−Zr oxygen carrier with high redox reactivity
+and favorable thermal stability for CLAS. Because of the
+diﬀerent thermal decomposition manner of the Zr and Cu
+precursors, the formation of the oxygen carrier from the Zr-
+coated Cu-MOF experiences three transformation stages with
+a maximum structure disassembly of organic linkages or guest
+molecules. Compared to the referenced oxygen carrier
+prepared by a typical coprecipitation approach, the MOF-
+derived oxygen carrier shows a smaller crystal size and a larger
+surface area. The two oxygen carriers show good thermal
+stability and high oxygen release capacity during 10 redox
+cycles. Moreover, the MOF-derived oxygen carrier achieves
+1.35 times average reduction rate of that for the coprecipitated
+oxygen carrier at the temperature interval of 800−900 °C and
+especially a 60% increase in average reduction rate at 850 °C.
+This is attributed to the fact that the former material provides a
+lower intrinsic activation energy (126.3 and 157.3 kJ·mol−1 for
+the MOF-derived and coprecipitated oxygen carriers, respec-
+tively) rather than a greater amount of active oxygen species.
+Although the reduction reaction kinetics for the two oxygen
+carriers can be described by the nucleation and consequent
+nuclei growth model, a transition from one-dimensional
+growth to two-dimensional nucleation occurs in diﬀerent
+temperature ranges. This is likely a result of the oxygen-ion
+diﬀusion rate and the rate control step change at high
+operating temperatures.
+■ASSOCIATED CONTENT
+*
+sı Supporting Information
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acssuschemeng.0c04062.
+Surface areas of solid samples; general mechanism
+functions in gas−solid reactions; relevant kinetic studies
+of Cu-based oxygen carriers; and graphical representa-
+tions of the elimination of diﬀusion limitations (PDF)
+■AUTHOR INFORMATION
+Corresponding Authors
+Zhiwu Liang −Joint International Center for CO2 Capture and
+Storage (iCCS), Provincial Hunan Key Laboratory for Cost-
+Eﬀective Utilization of Fossil Fuel Aimed at Reducing Carbon-
+Dioxide Emissions, Advanced Catalytic Engineering Research
+Center of the Ministry of Education, College of Chemistry and
+Chemical Engineering, Hunan University, Changsha, Hunan
+410082, P. R. China;
+orcid.org/0000-0003-1935-0759;
+Email: zwliang@hnu.edu.cn
+Bo Jin −Joint International Center for CO2 Capture and
+Storage (iCCS), Provincial Hunan Key Laboratory for Cost-
+Eﬀective Utilization of Fossil Fuel Aimed at Reducing Carbon-
+Dioxide Emissions, Advanced Catalytic Engineering Research
+Center of the Ministry of Education, College of Chemistry and
+Chemical Engineering, Hunan University, Changsha, Hunan
+410082, P. R. China; Email: kingjinbo1988@hnu.edu.cn
+Authors
+Guida Li −Joint International Center for CO2 Capture and
+Storage (iCCS), Provincial Hunan Key Laboratory for Cost-
+Eﬀective Utilization of Fossil Fuel Aimed at Reducing Carbon-
+Dioxide Emissions, Advanced Catalytic Engineering Research
+Center of the Ministry of Education, College of Chemistry and
+Chemical Engineering, Hunan University, Changsha, Hunan
+410082, P. R. China
+Jianling Li −Joint International Center for CO2 Capture and
+Storage (iCCS), Provincial Hunan Key Laboratory for Cost-
+Eﬀective Utilization of Fossil Fuel Aimed at Reducing Carbon-
+Dioxide Emissions, Advanced Catalytic Engineering Research
+Center of the Ministry of Education, College of Chemistry and
+Chemical Engineering, Hunan University, Changsha, Hunan
+410082, P. R. China
+Wenhao Ji −Joint International Center for CO2 Capture and
+Storage (iCCS), Provincial Hunan Key Laboratory for Cost-
+Eﬀective Utilization of Fossil Fuel Aimed at Reducing Carbon-
+Dioxide Emissions, Advanced Catalytic Engineering Research
+Center of the Ministry of Education, College of Chemistry and
+Chemical Engineering, Hunan University, Changsha, Hunan
+410082, P. R. China
+Yangqiang Huang −Joint International Center for CO2
+Capture and Storage (iCCS), Provincial Hunan Key
+Laboratory for Cost-Eﬀective Utilization of Fossil Fuel Aimed
+at Reducing Carbon-Dioxide Emissions, Advanced Catalytic
+Engineering Research Center of the Ministry of Education,
+College of Chemistry and Chemical Engineering, Hunan
+University, Changsha, Hunan 410082, P. R. China
+Xiao Luo −Joint International Center for CO2 Capture and
+Storage (iCCS), Provincial Hunan Key Laboratory for Cost-
+Eﬀective Utilization of Fossil Fuel Aimed at Reducing Carbon-
+Figure 15. Diﬀerence in experimental momentary rates of three rate
+regions for two oxygen carriers according to the nucleation and nuclei
+growth model.
+ACS Sustainable Chemistry & Engineering
+pubs.acs.org/journal/ascecg
+Research Article
+https://dx.doi.org/10.1021/acssuschemeng.0c04062
+ACS Sustainable Chem. Eng. XXXX, XXX, XXX−XXX
+J
+
+
+===== Page 11 =====
+
+Dioxide Emissions, Advanced Catalytic Engineering Research
+Center of the Ministry of Education, College of Chemistry and
+Chemical Engineering, Hunan University, Changsha, Hunan
+410082, P. R. China
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acssuschemeng.0c04062
+Notes
+The authors declare no competing ﬁnancial interest.
+■ACKNOWLEDGMENTS
+The authors gratefully acknowledge the ﬁnancial support from
+the National Natural Science Foundation of China (grants
+21808050 and 21536003) and the Fundamental Research
+Funds for the Central Universities (grant 531107050907).
+■REFERENCES
+(1) Moghtaderi, B. Application of chemical looping concept for air
+separation at high temperatures. Energy Fuels 2010, 24, 190−198.
+(2) Jin, B.; Zhao, Y.; Fan, Y.; Deng, Z.; Liang, Z. Thermal
+management for chemical looping systems with chemical production.
+Chem. Eng. Sci. 2020, 214, 115431.
+(3) Shah, K.; Moghtaderi, B.; Wall, T. Selection of suitable oxygen
+carriers for chemical looping air separation: A thermodynamic
+approach. Energy Fuels 2012, 26, 2038−2045.
+(4) Song, H.; Shah, K.; Doroodchi, E.; Moghtaderi, B. Development
+of a Cu−Mg-based oxygen carrier with SiO2 as a support for chemical
+looping air separation. Energy Fuels 2013, 28, 163−172.
+(5) Dou, J.; Krzystowczyk, E.; Mishra, A.; Liu, X.; Li, F. Perovskite
+promoted mixed cobalt−iron oxides for enhanced chemical looping
+air separation. ACS Sustainable Chem. Eng. 2018, 6, 15528−15540.
+(6) Tian, X.; Wei, Y.; Zhao, H. Using a hierarchically-structured
+CuO@TiO2-Al2O3 oxygen carrier for chemical looping air separation
+in a paralleled fluidized bed reactor. Chem. Eng. J. 2018, 334, 611−
+618.
+(7) Wang, K.; Yu, Q.; van Sint Annaland, M.; Wu, T.; Qin, Q.
+Improvement of the oxygen uncoupling properties of copper-based
+composite oxygen carriers for chemical looping air separation. Energy
+Fuels 2020, 34, 3449−3457.
+(8) Mattisson, T.; Lyngfelt, A.; Leion, H. Chemical-looping with
+oxygen uncoupling for combustion of solid fuels. Int. J. Greenhouse
+Gas Control 2009, 3, 11−19.
+(9) Wang, K.; Yu, Q.; Qin, Q. Reduction kinetics of Cu-based
+oxygen carriers for chemical looping air separation. Energy Fuels 2013,
+27, 5466−5474.
+(10) Hu, W.; Donat, F.; Scott, S. A.; Dennis, J. S. Kinetics of oxygen
+uncoupling of a copper based oxygen carrier. Appl. Energy 2016, 161,
+92−100.
+(11) Chen, S.; Hu, J.; Xiang, W. Application of chemical looping air
+separation for MILD oxy-combustion: Identifying a suitable opera-
+tional region. Appl. Therm. Eng. 2018, 132, 8−17.
+(12) Cui, D.; Qiu, Y.; Lv, Y.; Li, M.; Zhang, S.; Tippayawong, N.;
+Zeng, D.; Xiao, R. A high-performance oxygen carrier with high
+oxygen transport capacity and redox stability for chemical looping
+combustion. Energy Convers. Manage. 2019, 202, 112209.
+(13) Adánez-Rubio, I.; Abad, A.; Gayán, P.; de Diego, L. F.; García-
+Labiano, F.; Adánez, J. Identification of operational regions in the
+chemical-looping with oxygen uncoupling (CLOU) process with a
+Cu-based oxygen carrier. Fuel 2012, 102, 634−645.
+(14) Adánez-Rubio, I.; Gayán, P.; García-Labiano, F.; de Diego, L.
+F.; Adánez, J.; Abad, A. Development of CuO-based oxygen-carrier
+materials suitable for chemical-looping with oxygen uncoupling
+(CLOU) process. Energy Procedia 2011, 4, 417−424.
+(15) Liu, G.; Liao, Y.; Wu, Y.; Ma, X. Enhancement of Ca2Fe2O5
+oxygen carrier through Mg/Al/Zn oxide support for biomass chemical
+looping gasification. Energy Convers. Manage. 2019, 195, 262−273.
+(16) Ding, H.; Xu, Y.; Luo, C.; Wang, Q.; Shen, C.; Xu, J.; Zhang, L.
+A novel composite perovskite-based material for chemical-looping
+steam methane reforming to hydrogen and syngas. Energy Convers.
+Manage. 2018, 171, 12−19.
+(17) Ma, S.; Li, M.; Wang, G.; Zhang, L.; Chen, S.; Sun, Z.; Hu, J.;
+Zhu, M.; Xiang, W. Effects of Zr doping on Fe2O3/CeO2 oxygen
+carrier in chemical looping hydrogen generation. Chem. Eng. J. 2018,
+346, 712−725.
+(18) Liu, W.; Dennis, J. S.; Scott, S. A. The effect of addition of ZrO2
+to Fe2O3 for hydrogen production by chemical looping. Ind. Eng.
+Chem. Res. 2012, 51, 16597−16609.
+(19) Li, K.; Wang, H.; Wei, Y.; Yan, D. Partial oxidation of methane
+to syngas with air by lattice oxygen transfer over ZrO2-modified Ce−
+Fe mixed oxides. Chem. Eng. J. 2011, 173, 574−582.
+(20) Wang, K.; Yu, Q.; Wu, T.; Qin, Q. Redox property and kinetics
+of copper oxygen carrier under different oxygen concentrations.
+Environ. Prog. Sustain. Energy 2016, 35, 531−539.
+(21) Song, H.; Shah, K.; Doroodchi, E.; Wall, T.; Moghtaderi, B.
+Analysis on chemical reaction kinetics of CuO/SiO2 oxygen carriers
+for chemical looping air separation. Energy Fuels 2013, 28, 173−182.
+(22) Li, F.; Luo, S.; Sun, Z.; Bao, X.; Fan, L.-S. Role of metal oxide
+support in redox reactions of iron oxide for chemical looping
+applications: experiments and density functional theory calculations.
+Energy Environ. Sci. 2011, 4, 3661.
+(23) Zhao, Y.; Jin, B.; Liang, Z. Synergistic enhanced Ca-Fe chemical
+looing reforming process for integrated CO2 capture and conversion.
+Ind. Eng. Chem. Res. 2020, 59, 1298.
+(24) Siriwardane, R.; Tian, H.; Simonyi, T.; Poston, J. Synergetic
+effects of mixed copper−iron oxides oxygen carriers in chemical
+looping combustion. Fuel 2013, 108, 319−333.
+(25) Yang, W.; Zhao, H.; Wang, K.; Zheng, C. Synergistic effects of
+mixtures of iron ores and copper ores as oxygen carriers in chemical-
+looping combustion. Proc. Combust. Inst. 2015, 35, 2811−2818.
+(26) Xu, Z.; Zhao, H.; Wei, Y.; Zheng, C. Self-assembly template
+combustion synthesis of a core−shell CuO@TiO2−Al2O3 hierarchical
+structure as an oxygen carrier for the chemical-looping processes.
+Combust. Flame 2015, 162, 3030−3045.
+(27) Song, Q.; Liu, W.; Bohn, C. D.; Harper, R. N.; Sivaniah, E.;
+Scott, S. A.; Dennis, J. S. A high performance oxygen storage material
+for chemical looping processes with CO2 capture. Energy Environ. Sci.
+2013, 6, 288−298.
+(28) Kitagawa, S.; Matsuda, R. Chemistry of coordination space of
+porous coordination polymers. Coord. Chem. Rev. 2007, 251, 2490−
+2509.
+(29) Azhar, M. R.; Abid, H. R.; Sun, H.; Periasamy, V.; Tadé, M. O.;
+Wang, S. One-pot synthesis of binary metal organic frameworks
+(HKUST-1 and UiO-66) for enhanced adsorptive removal of water
+contaminants. J. Colloid Interface Sci. 2017, 490, 685−694.
+(30) Morozan, A.; Jaouen, F. Metal organic frameworks for
+electrochemical applications. Energy Environ. Sci. 2012, 5, 9269.
+(31) Chen, Y.-Z.; Wang, C.; Wu, Z.-Y.; Xiong, Y.; Xu, Q.; Yu, S.-H.;
+Jiang, H.-L. From bimetallic metal-organic framework to porous
+carbon: high surface area and multicomponent active dopants for
+excellent electrocatalysis. Adv. Mater. 2015, 27, 5010−5016.
+(32) deKrafft, K. E.; Wang, C.; Lin, W. Metal-organic framework
+templated synthesis of Fe2O3/TiO2 nanocomposite for hydrogen
+production. Adv. Mater. 2012, 24, 2014−2018.
+(33) Gong, Y.; Zhao, X.; Zhang, H.; Yang, B.; Xiao, K.; Guo, T.;
+Zhang, J.; Shao, H.; Wang, Y.; Yu, G. MOF-derived nitrogen doped
+carbon modified g-C3N4 heterostructure composite with enhanced
+photocatalytic activity for bisphenol A degradation with peroxymo-
+nosulfate under visible light irradiation. Appl. Catal., B 2018, 233, 35−
+45.
+(34) Lee, J. H.; Moon, B.; Kim, T. K.; Jeoung, S.; Moon, H. R.
+Thermal conversion of a tailored metal-organic framework into
+lithium silicate with an unusual morphology for efficient CO2 capture.
+Dalton Trans. 2015, 44, 15130−15134.
+ACS Sustainable Chemistry & Engineering
+pubs.acs.org/journal/ascecg
+Research Article
+https://dx.doi.org/10.1021/acssuschemeng.0c04062
+ACS Sustainable Chem. Eng. XXXX, XXX, XXX−XXX
+K
+
+
+===== Page 12 =====
+
+(35) Liao, J.; Jin, B.; Zhao, Y.; Liang, Z. Highly efficient and durable
+metal-organic framework material derived Ca-based solid sorbents for
+CO2 capture. Chem. Eng. J. 2019, 372, 1028−1037.
+(36) Hartmann, M.; Himsl, D.; Oliver, T. Adsorptive separation of
+isobutene and isobutane on Cu3(BTC)2. Langmuir 2008, 24, 8634.
+(37) Hu, X.; Li, C.; Lou, X.; Yang, Q.; Hu, B. Hierarchical CuO
+octahedra inherited from copper metal−organic frameworks: high-
+rate and high-capacity lithium-ion storage materials stimulated by
+pseudocapacitance. J. Mater. Chem. A 2017, 5, 12828−12837.
+(38) Kim, J.; Cho, H.-Y.; Ahn, W.-S. Synthesis and adsorption/
+catalytic properties of the metal organic framework CuBTC. Catal.
+Surv. Asia 2012, 16, 106−119.
+(39) Chiron, F.-X.; Patience, G. S. Kinetics of mixed copper−iron
+based oxygen carriers for hydrogen production by chemical looping
+water splitting. Int. J. Hydrogen Energy 2012, 37, 10526−10538.
+(40) Chui, S. S.; Charmant, P. H.; Guy Orpen, A.; Williams, I. D. A
+c h e m i c a l l y
+f u n c t i o n a l i z a b l e
+n a n o p o r o u s
+m a t e r i a l
+[Cu3(TMA)2(H2O)3]n. Science 1999, 283, 1148−1150.
+(41) Schlichte, K.; Kratzke, T.; Kaskel, S. Improved synthesis,
+thermal stability and catalytic properties of the metal-organic
+framework compound Cu3(BTC)2. Microporous Mesoporous Mater.
+2004, 73, 81−88.
+(42) Wang, Y.; Caruso, R. A. Preparation and characterization of
+CuO−ZrO2 nanopowders. J. Mater. Chem. 2002, 12, 1442−1445.
+(43) Ramaswamy, V.; Bhagwat, M.; Srinivas, D.; Ramaswamy, A. V.
+Structural and spectral features of nano-crystalline copper-stabilized
+zirconia. Catal. Today 2004, 97, 63−70.
+(44) Dharanipragada, N. V. R. A.; Galvita, V. V.; Poelman, H.;
+Buelens, L. C.; Marin, G. B.; Longo, A. Insight in kinetics from pre-
+edge features using time resolved in situ XAS. AIChE J. 2018, 64,
+1339−1349.
+(45) Wang, X.; Xu, T.; Liu, S.; Xiao, B.; Hu, Z.; Chen, Z. CuO
+supported on manganese ore as an oxygen carrier for chemical
+looping with oxygen uncoupling (CLOU). Chem. Eng. J. 2018, 343,
+340−350.
+(46) Xu, L.; Chen, S.; Sun, H.; Li, Z.; Cai, N. Experimental study of
+Cu-modified manganese ore for O2 production in the CLC + CLOU
+scheme. Fuel 2019, 244, 69−75.
+(47) Clayton, C. K.; Whitty, K. J. Measurement and modeling of
+decomposition kinetics for copper oxide-based chemical looping with
+oxygen uncoupling. Appl. Energy 2014, 116, 416−423.
+(48) Adánez-Rubio, I.; Gayán, P.; Abad, A.; García-Labiano, F.; de
+Diego, L. F.; Adánez, J. Kinetic analysis of a Cu-based oxygen carrier:
+Relevance of temperature and oxygen partial pressure on reduction
+and oxidation reactions rates in Chemical Looping with Oxygen
+Uncoupling (CLOU). Chem. Eng. J. 2014, 256, 69−84.
+(49) Saha, C.; Bhattacharya, S. Determination and comparison of
+CuO reduction/oxidation kinetics in CLC experiments with CO/Air
+by thesShrinking core model and its characterization. Energy Fuels
+2014, 28, 3495−3510.
+(50) Mimura, K.; Lim, J.-W.; Isshiki, M.; Jiang, Q. Brief review of
+oxidation kinetics of copper at 350 °C to 1050 °C. Metall. Mater.
+Trans. A 2006, 37, 1231−1237.
+(51) Means, N. C.; Burgess, W. A.; Howard, B. H.; Smith, M. W.;
+Wang, P.; Shekhawat, D. Examining and modeling oxygen uncoupling
+kinetics of Cu-based oxygen carriers for chemical looping with oxygen
+uncoupling (CLOU) in a drop tube fluidized bed reactor. Energy Fuels
+2019, 33, 5610−5619.
+(52) Sahir, A. H.; Lighty, J. S.; Sohn, H. Y. Kinetics of copper
+oxidation in the air reactor of a chemical looping combustion System
+using the law of additive reaction times. Ind. Eng. Chem. Res. 2011, 50,
+13330−13339.
+(53) García-Labiano, F.; de Diego, L. F.; Adánez, J.; Abad, A.;
+Gayán, P. Temperature variations in the oxygen carrier particles
+during their reduction and oxidation in a chemical-looping
+combustion system. Chem. Eng. Sci. 2005, 60, 851−862.
+(54) Deng, Z.; Jin, B.; Zhao, Y.; Gao, H.; Huang, Y.; Luo, X.; Liang,
+Z. Process simulation and thermodynamic evaluation for chemical
+looping air separation using fluidized bed reactors. Energy Convers.
+Manage. 2018, 160, 289−301.
+(55) Monazam, E. R.; Breault, R. W.; Siriwardane, R. Kinetics of
+hematite to wüstite by hydrogen for chemical looping combustion.
+Energy Fuels 2014, 28, 5406−5414.
+(56) Hancock, J. D.; Sharp, J. H. Method of comparing solid-state
+kinetic data and its application to the decomposition of Kaolinite,
+Brucite, and BaCO3. J. Am. Ceram. Soc. 1972, 55, 74.
+(57) Málek, J. The applicability of Johnson-Mehl-Avrami model in
+the thermal analysis of the crystallization kinetics of glasses.
+Thermochim. Acta 1995, 267, 61−73.
+(58) Sahir, A. H.; Sohn, H. Y.; Leion, H.; Lighty, J. S. Rate analysis
+of chemical-looping with oxygen uncoupling (CLOU) for solid fuels.
+Energy Fuels 2012, 26, 4395−4404.
+(59) Cardew, P. T.; Davey, R. J.; Ruddick, A. J. Kinetics of
+polymorphic solid-state transformations. J. Chem. Soc., Faraday Trans.
+2 1984, 80, 659.
+(60) Liu, H.; Sullivan, R. M.; Hanson, J. C.; Grey, C. P.; Martin, J. D.
+Kinetics and mechanism of the beta- to alpha-CuAlCl4 phase
+transition: a time-resolved(63)Cu MAS NMR and powder X-ray
+diffraction study. J. Am. Chem. Soc. 2001, 123, 7564−7573.
+(61) San Pio, M. A.; Roghair, I.; Gallucci, F.; van Sint Annaland, M.
+Investigation on the decrease in the reduction rate of oxygen carriers
+for chemical looping combustion. Powder Technol. 2016, 301, 429−
+439.
+(62) Tian, X.; Su, M.; Zhao, H. Kinetics of redox reactions of CuO@
+TiO2−Al2O3 for chemical looping combustion and chemical looping
+with oxygen uncoupling. Combust. Flame 2020, 213, 255−267.
+ACS Sustainable Chemistry & Engineering
+pubs.acs.org/journal/ascecg
+Research Article
+https://dx.doi.org/10.1021/acssuschemeng.0c04062
+ACS Sustainable Chem. Eng. XXXX, XXX, XXX−XXX
+L

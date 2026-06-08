@@ -1,0 +1,1674 @@
+
+
+===== Page 1 =====
+
+Self-assembly template combustion synthesis of a core–shell
+CuO@TiO2–Al2O3 hierarchical structure as an oxygen carrier for the
+chemical-looping processes
+Zuwei Xu, Haibo Zhao ⇑, Yijie Wei, Chuguang Zheng
+State Key Laboratory of Coal Combustion, Huazhong University of Science and Technology, 1037 Luoyu Road, Wuhan 430074, China
+a r t i c l e
+i n f o
+Article history:
+Received 19 April 2015
+Received in revised form 5 May 2015
+Accepted 5 May 2015
+Available online 20 May 2015
+Keywords:
+Chemical looping
+Oxygen carrier
+Combustion synthesis
+Rational design
+Nanoparticles
+CO2 capture
+a b s t r a c t
+Chemical looping combustion (CLC) and chemical looping with oxygen uncoupling (CLOU) are the most
+promising technologies for capture of CO2 at a low cost. CLC and CLOU involve cyclic reduction and oxi-
+dation of a solid oxygen carrier (OC) to transfer active oxygen from air to carbon-based fuels for combus-
+tion with the inherent feature of isolating CO2. One key issue with these technologies is to manufacture a
+high-performance, economical and practical OC material. In this paper, we propose a self-assembly tem-
+plate combustion synthesis (SATCS) method for preparing a hierarchical structure copper-based OC,
+Cu-rich, Al2O3-supported and TiO2-stabilized in a core–shell microarchitecture. The selection of raw
+materials and the rational design of OCs are based on the density functional theory (DFT) calculations
+and the classical Derjaguin–Landau–Verwey-Overbeek (DLVO) theory, respectively. The spontaneous
+aggregation between a-Al2O3 microparticles (lm-Al2O3) and rutile TiO2 nanoparticles (nm-TiO2) is dri-
+ven by the van der Waals attractive and electrostatic attractive forces to form core(Al2O3)–shell(TiO2)
+hard templates in the wet precursor containing copper nitrate and urea. Upon calcination of the dried
+precursor in air, fewer nitrogen oxides (NOx) are released, demonstrating an environment-friendly fabri-
+cation process, whereby a highly dispersed and high-loading Cu-based crystalline layer is deposited on
+the nanostructured shell. A representative CuO@TiO2–Al2O3 OC (17.5 wt% Al2O3, 5 wt% TiO2) possesses
+hierarchical porosity and an interconnected framework and exhibits excellent performance of the reac-
+tivity, stability, oxygen release/uptake capacity and mechanical strength in the high-temperature redox
+cycles. The proper addition of TiO2 nanoparticles is effective in preventing the formation of copper alu-
+minates (CuAl2O4 and CuAlO2) and inhibiting the sintering of active component grain. In addition, the
+rational design method and novel synthesis technique allow a mass production of various metal oxide
+composites used for chemical looping processes with CO2 capture and clean utilization of energy.
+ 2015 The Combustion Institute. Published by Elsevier Inc. All rights reserved.
+1. Introduction
+The chemical looping (CL) technique is an attractive solution for
+concentration and separation of CO2 from fossil fuels with a low
+economic cost and energy penalty. Several variants of chemical
+looping technologies are available, e.g., chemical looping combus-
+tion (CLC) [1], chemical looping with oxygen uncoupling (CLOU)
+[2], chemical looping air separation (CLAS) [3], chemical looping
+reforming (CLR) [1], and chemical looping hydrogen production
+(CLH) [4]. Typically, in a CL system, two reactors, a fuel reactor
+(FR) and an air reactor (AR), are interconnected while isolated from
+each other in a reaction atmosphere. Oxygen carrier (OC) particles
+circulate to carry active oxygen from air to carbonaceous fuel
+between the AR and the FR [5]. Thus, the CL processes are involved
+with a cyclic reduction–oxidation reaction, and the OC particles are
+required to demonstrate high reactivity, thermal stability, mechan-
+ical strength, ﬂuidizability, environmental friendliness, low cost,
+and resistance to agglomeration and sintering.
+Copper oxide has received a great deal of attention as an efﬁ-
+cient OC because it has some advantageous characteristics of high
+reactivity, high oxygen transport capacity, suitable equilibrium
+partial pressure of oxygen at temperatures of interest for combus-
+tion (800–1000 C), stable recyclability of oxygen release and
+uptake, moderate price, and being exothermic for fuel combustion
+in the FR [1,6]. However, CuO suffers from a tendency toward sin-
+tering and agglomeration upon full reduction, forming metallic
+copper with a rather low melting temperature (1083 C). Lower
+http://dx.doi.org/10.1016/j.combustﬂame.2015.05.006
+0010-2180/ 2015 The Combustion Institute. Published by Elsevier Inc. All rights reserved.
+⇑Corresponding author. Fax: +86 27 8754 5526.
+E-mail address: klinsmannzhb@163.com (H. Zhao).
+Combustion and Flame 162 (2015) 3030–3045
+Contents lists available at ScienceDirect
+Combustion and Flame
+journal homepage: www.elsevier.com/locate/combustﬂame
+
+
+===== Page 2 =====
+
+operating temperatures (800–850 C) in the FR and/or AR are
+advantageous for resistance to sintering, agglomeration and deﬂu-
+idization but disadvantageous for fast reaction kinetics and high
+energy utilization efﬁciency [7,8]. Usually, the active component
+CuO is supported by different inert materials of, e.g., ZrO2,
+MgAl2O4, Al2O3, SiO2, MgO, TiO2, and sepiolite to withstand a
+higher temperature (such as 900–1000 C) [2,7,9–14]. Several
+Cu-based OCs have been developed using different supports and
+preparation methods. Among various supports for the CuO oxygen
+carriers, Al2O3 has received considerable attention for increasing
+the temperature resistance and durability of Cu-based OCs [9,14–
+16], owing to its high melting point, high mechanical strength,
+and low cost.
+The support is known to have a great inﬂuence on the behavior
+of the OCs. In the case of Al2O3 as a support, the CuAl2O4 spinel is
+invariably formed during OC preparation at high temperatures
+(approximately 900–1200 C) by the interaction between CuO
+and Al2O3, resulting in the partial loss of CuO [7,16]. Although
+CuAl2O4 is fully reducible and can also release gaseous O2 under
+lower oxygen partial pressure and high-temperature conditions,
+the reaction rate is much lower than the reaction rate of CuO
+[17]. This interaction needs to be avoided to retain CuO as an active
+phase for CLOU, however, but the interaction seems to be difﬁcult
+to inhibit in our previous investigations [18,19]. Using copper
+nitrate
+and
+aluminum
+isopropoxide
+as
+raw
+materials,
+CuO/CuAl2O4 rather than the expected CuO/Al2O3 was produced
+by calcining the Cu(OH)2/c-AlOOH sol–gel precursor at 1000 C
+for 10 h [18]. CuO/CuAl2O4 OC (CuO, 60 wt%:CuAl2O4, 40 wt%)
+was able to release and absorb gaseous O2 repeatedly at combus-
+tion temperatures (800–1000 C) without agglomeration and sin-
+tering and could attain nearly complete conversion of coal in the
+FR. However, there was actually 17.5 wt% active CuO loss because
+full CuAl2O4 was not involved with redox during the CL process.
+Even earlier, Chuang et al. [7] also found that there was an interac-
+tion
+between
+Al2O3
+and
+CuO
+to
+form
+CuAl2O4
+under
+high-temperature conditions. Recently, we found that once the
+sol–gel-derived-CuO/CuAl2O4 was fully reduced to metal Cu and
+Al2O3 by carrying out a deep reduction with H2, CuAl2O4 would
+not be generated again in subsequent redox reactions [20]. This
+phenomenon may be attributed to the physical restructuring of
+OC particles after deep reduction. Although CuO can be more fully
+utilized in this way, there is a higher risk of agglomeration and sin-
+tering when high metal Cu content appears.
+It is thus necessary to minimize the interaction between the
+support and the active component during the preparation process.
+Imtiaz et al. [21] employed the co-precipitation technique to syn-
+thesize Cu-based and Al2O3-stabilized OCs using KOH as the pre-
+cipitating agent, and the OCs were calcined and evaluated at
+800 C. The residual K+ ions can inhibit CuAl2O4 formation, but
+the inhibiting effect was not examined at higher calcination or
+redox temperatures (e.g., 900–1000 C). Similarly, Song et al. [22]
+discovered that the presence of Na+ ions was effective in inhibiting
+the formation of copper aluminates (CuAl2O4 or CuAlO2) and stabi-
+lizing the copper phase in an amorphous support over multiple
+redox cycles. However, the Cu–Al OC with a high loading of CuO
+of 82.5 wt% may agglomerate in the CO-fueled CLC when cycled
+at temperatures above 900 C and demonstrated a considerable
+attrition rate. Other commonly-used supports, e.g., TiO2, do not
+react with CuO. However, the resulting Cu-based OCs demon-
+strated a low mechanical strength and an agglomeration problem
+[11,23]. As for the other supports (MgAl2O4 and ZrO2), the evalua-
+tions of the OCs with respect to price and mechanical stability are
+not satisfactory [10,11,24].
+To summarize, a single material as a support has its limitations
+within chemical stability, mechanical strength and temperature
+resistance. However, a composite support is combined from two
+or more constituent materials with different physical or chemical
+properties and may produce some substantial complementary
+characteristics
+different
+from
+the
+individual
+components
+to
+improve
+the
+comprehensive
+performance
+of
+Cu-based
+OCs.
+Recently, Ada´nez-Rubio et al. [10] examined the Cu-based OC mate-
+rials that were manufactured by spray-drying from water-based
+Nomenclature
+Latin symbols
+AH
+Hamaker constant [J]
+C
+ion concentration [mol L1]
+e
+elementary charge 1.6  1019 C
+f
+volume fraction of support
+Finteract
+interaction force between support and CuO [J m2]
+kB
+Boltzmann constant, 1.38  1023 J K1
+KW
+ion-product constant of water
+l
+distance between the surfaces of two interacting parti-
+cles [m]
+M
+solid state diffusion strength
+m
+mass of OC [kg]
+M0
+amount of active oxygen in unreacted OC [mol]
+mbed
+mass of OC needed in reactor [kg MWth
+1]
+mox
+fully oxidized state mass of OC [kg]
+_mO
+stoichiometric mass ﬂow of oxygen necessary [kg s1]
+mred
+fully reduced state mass of OC [kg]
+_msol
+oxygen carrier recirculation rate [kg MWth
+1 s1)
+nin,CH4
+molar ﬂow of dry CH4 entering reactor [mol s1]
+p
+partial pressure of gas [Pa]
+Ptot
+total pressure of gases [Pa]
+R
+grain radius of CuO [m]
+r
+radius of support particle [m]
+R0
+theoretical oxygen ratio of OC in CLC
+RAO
+actual oxygen transport capacity of OC
+ri
+radius of particle i [m]
+Rij
+center-to-center separation between particle i and j [m]
+Rmax
+maximum radius of CuO grain during growth [m]
+RO
+theoretical oxygen transport capacity of OC in CLOU
+rO
+oxygen transport rate of OC
+t
+time [s]
+T
+temperature [K]
+Vedl
+electric double layer repulsive/attractive energy [J]
+VT
+DLVO total interaction energy [J]
+Vvdw
+van der Waals attractive energy [J]
+X
+OC conversion with methane reduction in CLC
+Xmax
+maximum conversion of OC in cyclic TG tests
+Xox
+oxidation conversions of OC
+Xred
+reduction conversions of OC
+Y
+dimensionless effective surface potential
+Z
+ion valence value
+Greek symbols
+a
+geometry shape factor
+c
+speciﬁc surface energy [J m2]
+e0
+permittivity in vacuum [C2 J1 m1]
+er
+relative dielectric constant of medium
+j
+reciprocal of double layer thickness [m1]
+Wi
+surface potential of particle i [V]
+x
+mass-based conversion of OC
+Z. Xu et al. / Combustion and Flame 162 (2015) 3030–3045
+3031
+
+
+===== Page 3 =====
+
+slurries of a mixture of CuO with MgAl2O4/TiO2, MgAl2O4/SiO2, and
+TiO2/SiO2 in terms of their CLOU effect. Each of the given OCs could
+not
+simultaneously
+satisfy
+the
+comprehensive
+performance
+requirements including but not limited to high mechanical stabil-
+ity, low attrition rate and good reactivity. Therefore, extensive
+efforts are required to develop an OC material with all aspects of
+performance. On the one hand, it is important to understand the
+interaction between the active phase and the support phase for
+screening appropriate raw materials. On the other hand, it is neces-
+sary to pay attention to the synthetic route for designing the
+microstructure of OC particles. In this work, according to previous
+experimental research and theoretical calculations, we selected
+Al2O3 as the main support and TiO2 as the minor support of the
+CuO component and designed a novel CuO@TiO2–Al2O3 OC material
+based on the self-assembly between TiO2 nanoparticles (nm-TiO2)
+and Al2O3 microparticles (lm-Al2O3), where nm-TiO2 particles
+were coated on the surface of lm-Al2O3 particles to inhibit the
+interaction of active phase CuO with the main support Al2O3.
+The OCs were usually synthesized on an experimental scale uti-
+lizing a well-rounded chemical or physical method. The alternative
+methods for OC preparation included sol–gel, impregnation,
+co-precipitation, hydrothermal synthesis, low heating solid state
+reaction, freeze granulation, combustion synthesis, mechanical
+mixing, etc. [1,7,11,18,25–27]. The liquid preparation methods
+(e.g., sol–gel method), which usually use a nitrate solution of the
+target metal oxides as precursors, can attain a high purity, accurate
+stoichiometry of the products, controllable microstructure, and
+homogeneous mixing of components almost at the molecular level,
+yielding a high degree of dispersion and high loading of active
+metal oxide in the support after calcination. However, the liquid
+preparation methods usually suffer from a long preparation period
+and complex preparation processes that are almost involved in
+drying and granulation. In addition, the environmental inﬂuence
+should be paid close attention in the productive processes of
+OCs. Typically, nitric oxide (NOx) emissions result from the decom-
+position of nitrates during OC preparation processes. We proposed
+a sol–gel combustion synthesis (SGCS) method for the preparation
+of Fe2O3/Al2O3 and CuFe2O4 OC particles [28]. The self-propagating
+high temperature synthesis (SHS) relies on the combustion reac-
+tion between oxidizer (metal nitrates) and fuel (urea, citric acid
+or glycine, etc.) [29]. The SGCS method combines the advantages
+of sol–gel and SHS, including rapidity and simplicity, low energy
+consumption, molecular mixing of the precursors, and good resis-
+tance to sintering [30]. The SGCS method has the potential to
+reduce or even eliminate the NOx emissions from OC synthesis.
+In this paper, we further develop a novel self-assembly template
+combustion synthesis (SATCS) method based on the SGCS method
+for preparation of CuO@TiO2–Al2O3 OC particles. Compared with
+conventional
+combustion
+synthesis
+(e.g.,
+self-propagating
+high-temperature synthesis (SHS), solution combustion synthesis
+(SCS) [31]), the proposed SATCS involves a particular process in
+which self-assembly of support particles is driven by van der
+Waals and Coulombic interactions to form orderly core–shell
+structures as hard templates for efﬁciently dispersing and support-
+ing active component.
+2. Theoretical insights into OC design
+2.1. Density functional theory (DFT) investigations for CuO-support
+interactions
+A fundamental understanding of the microcosmic mechanisms
+of oxygen release and the interactions of different phases in OC
+particles could help rationalize the design of high performance
+OCs. In our recent papers [17,32], the periodical density functional
+theory (DFT) calculations were used to investigate the effects of
+different supports (TiO2, ZrO2, MgAl2O4, and CuAl2O4) on the per-
+formance of Cu-based OCs (several popular support materials).
+The aim of DFT calculations was to clarify some basic factors in
+determining the OC reactivity and sintering resistance. A lower
+energy barrier for the oxygen release process favors the OC reactiv-
+ity, and a higher adsorption energy between support and CuO ben-
+eﬁts the OC sintering resistance. The corresponding energy barriers
+for oxygen release and adsorption energies of CuO/TiO2 and
+CuO/CuAl2O4 were presented in Fig. 1. The oxygen release proceeds
+in two steps: (i) the formation of an O2 complex on the CuO nan-
+ocluster; and (ii) the desorption of molecular O2 to the gas phase.
+The energy barriers for CuO/TiO2 in the two steps are always lower
+than the energy barriers of CuO/CuAl2O4 in the whole oxygen
+release process, but the adsorption energy of CuO/TiO2 is relatively
+weak. In this context, TiO2 as a support beneﬁts the reactivity of
+CuO. However, TiO2 is not particularly satisfactory at sintering
+resistance for OCs due to a lower adsorption energy (absolute
+value) and melting point. Generally, it is necessary to achieve a
+compromise between the oxygen release energy barrier and the
+adsorption energy of CuO on the support to attain favorable perfor-
+mance of Cu-based OCs. So we designed a composite support com-
+bining TiO2 with Al2O3 via a self-assembly template combustion
+synthesis in which TiO2 and Al2O3 serve as an enhancer for the
+reactivity and sintering resistance of Cu-based OCs.
+2.2. Zener pinning theory for analyzing CuO sintering
+Sintering of OC particles is essentially solid-state diffusion dri-
+ven by the decrease of grain surface energy, and its kinetics
+depends not only on physicochemical properties (e.g., speciﬁc sur-
+face energy, adsorption energy, etc.) of component materials but
+also on the particle size and content of support. The Zener pinning
+theory [27,33] provides a route to understand the CuO grain radius
+growth kinetics, as follows [33]:
+dR
+dt ¼ aM 2c
+R 
+3f
+2r
+
+
+Finteract
+
+
+ð1Þ
+where R is the grain radius of CuO [m], a is the geometry shape fac-
+tor, M is the solid state diffusion strength, c is the speciﬁc surface
+energy of CuO [J m2], f is the volume fraction of support, r is the
+radius of support particles [m], Finteract is the interaction force
+between support and CuO, simpliﬁed as the speciﬁc surface energy
+of support material [J m2]. The performance and characteristics of
+OCs can be interpreted qualitatively using Eq. (1). When the growth
+rate is equal to 0 (i.e., dR/dt = 0, termination of growth), the maxi-
+mum radius of the CuO grain is attained and can be deduced as
+Rmax ¼ 4
+3
+c
+Finteract
+
+ r
+f
+ 
+ð2Þ
+Generally, there is not much difference in surface energy between
+CuO and some popular support materials, namely, c/Finteract  1
+(e.g.,
+for
+CuO/TiO2, c/Finteract = 0.86
+[27,34];
+for
+CuO/CuAl2O4,
+c/Finteract = 0.53 [17,34]), whereas the variation of support particle
+size (r) and fraction (f) can effectively inﬂuence the maximum
+radius of the CuO grain. Obviously, the smaller support particle size
+(r) can inhibit grain growth better in a high-loading active compo-
+nent. It is expected that nanolevel support particles (TiO2 nanopar-
+ticles in this paper) possess an outstanding effect for preventing
+active component sintering.
+2.3. Particle dynamics in aqueous suspensions of precursors
+Liquid-phase preparation methods have irreplaceable advan-
+tages in raw material mixtures and formation of precursors.
+3032
+Z. Xu et al. / Combustion and Flame 162 (2015) 3030–3045
+
+
+===== Page 4 =====
+
+However, a mediocre hybrid of raw materials is not infeasible
+because it is necessary to avoid direct contact of CuO and Al2O3
+in OC particles, and particle coating is supposed to be a desirable
+way to attain this aim. Core–shell composite particles, bigger
+Al2O3 particles coated with smaller TiO2 particles (here, Al2O3
+microparticles and TiO2 nanoparticles are considered) can be
+achieved by enhancing hetero-coagulation in the TiO2–Al2O3 bin-
+ary dispersions. The ability to control particle stability and assem-
+bly is crucial for the effective processing of precursor suspensions.
+The
+well-known
+Derjaguin–Landau–Verwey–Overbeek
+(DLVO)
+theory is most commonly used to describe the thermodynamic
+interactions between two particles in a suspension [35,36]. The
+DLVO total interaction energy (VT) is the sum of the van der
+Waals attractive (Vvdw) and electric double layer repulsive/attrac-
+tive (Vedl) potentials that exist between particles as they undergo
+Brownian motion.
+VT ¼ Vvdw þ Vedl
+ð3Þ
+The van der Waals attractive energy and electrical double layer
+repulsive/attractive energy are expressed as [37]:
+Vvdw ¼  AH
+6
+2rirj
+R2
+ij  ðri þ rjÞ2 þ
+2rirj
+R2
+ij  ðri  rjÞ2 þ ln
+R2
+ij  ðri þ rjÞ2
+R2
+ij  ðri  rjÞ2
+"
+#
+ð4Þ
+Vedl ¼
+4pere0wiwj
+rirj
+riþrj ln½1 þ expðjlÞ;
+jr P 5
+4pere0rirjYiYj
+kBT
+e
+
+2 expðjlÞ
+Rij
+;
+jr < 5
+8
+>
+<
+>
+:
+ð5Þ
+where AH is the Hamaker constant [J], ri and rj are the radii of par-
+ticle i and j, respectively [m], Rij is the center-to-center particle sep-
+aration [m], l is the distance between the surfaces of two interacting
+particles [m], j is the reciprocal of the thickness of the double layer
+[m1]. er is the relative dielectric constant of the medium and e0 is
+the permittivity in vacuum, W is the surface potential [V], estimated
+by the zeta potential of the charged particles, and Y is the dimen-
+sionless effective surface potential, Y = 4 tanh[eW/(4kBT)].
+The Al2O3 and TiO2 binary particle suspension can involve three
+different types of interactions: Al2O3–Al2O3 (A–A), Al2O3–TiO2
+(A–T), and TiO2–TiO2 (T–T). Based on the DLVO theory, it is possible
+to reach stabilization for like particles (i.e., A–A or T–T) due to
+like-charged repulsion, whereas charge heterogeneity for unlike
+particles can promote fast coagulation of A–T. The greater the
+difference between the isoelectric points (IEPs) of particles, the
+better coating effect can be achieved in aqueous suspension [38].
+After
+testing
+a
+variety
+of
+TiO2
+materials,
+we
+found
+that
+ﬂame-synthesized
+rutile
+TiO2
+nanoparticles
+(nm-TiO2)
+have
+resulted in a greater difference of IEP values from the a-Al2O3
+microparticles (lm-Al2O3). Figure 2 shows the zeta potential as a
+function of pH for lm-Al2O3 and nm-TiO2, measured using a
+micro-electrophoresis
+apparatus
+(Powereach
+JS94H,
+Shanghai
+Zhongchen Digital Technical Apparatus Co., Ltd, China), where
+the IEP values of nm-TiO2 and lm-Al2O3 are approximately 3.4
+and 9.0, respectively. The zeta potential of the particle was corre-
+lated with the pH level and decreased with increasing pH. At pH
+6, the biggest potential difference with opposite charges appeared.
+In the current experiments, the total interaction energy (VT)
+under different pH conditions was calculated based on the expres-
+sions in Eqs. (3)–(5), using parameters described in Table 1. For
+unlike particles (A–T), the van der Waals force and electrostatic
+force together are responsible for aggregating owing to simultane-
+ous attraction, and particles have a maximum net attractive energy
+at pH = 6. On the other side, agglomeration between like particles
+(A–A or T–T) is most signiﬁcant near the IEP as the electrical dou-
+ble layer diminishes, and the attractive energy due to van der
+Waals forces becomes dominant [37]. As the suspension pH devi-
+ates from the IEP, the electrical double layer thickness increases
+as does the surface charge (either positive or negative) and thus
+greater repulsion and smaller agglomerates are expected for like
+particles. The above behavior was illustrated in Fig. 3. We exam-
+ined the microstructure (TEM images) of steady agglomerates from
+the Al2O3–TiO2 suspension of sample B at pH = 5 and 6, respec-
+tively, as shown in Fig. 4. Here we have to show smaller Al2O3 par-
+ticles and therefore possess clearer TEM micrographs because
+electron beams are difﬁcult to pass through thick samples in a
+TEM. The TiO2 layer (green-line proﬁles) was thinner and uneven
+on the Al2O3 core (red-line proﬁles), and there were obvious aggre-
+gations for nm-TiO2 at pH = 5 (Fig. 4a), whereas the Al2O3 core was
+coated with a high coverage density of the nm-TiO2 cluster spread-
+ing outward from the core surface to the shell external boundary at
+pH = 6 (Fig. 4b). The experimental observations were consistent
+with the DLVO calculations of particle interactions, indicating that
+the pH level has signiﬁcant effects on the formation of the
+core(Al2O3)–shell(TiO2) structure, so the electric double layer force
+is a critical driver of the self-assembly. Consequently, when the pH
+level of the dispersions was adjusted to 6, the interaction between
+particles
+achieved
+an
+optimal
+coating
+effect
+(enhancing
+Fig. 1. Potential energy proﬁles of the CuO oxygen release process for CuO/TiO2 and
+CuO/CuAl2O4, corresponding energy barriers of O2 formation and of O2 desorption.
+The top left inset shows the adsorption energies between the CuO cluster and two
+support planes (for modulus, CuO/TiO2 < CuO/CuAl2O4).
+Fig. 2. Zeta potential of lm-Al2O3 and nm-TiO2 as a function of pH levels. The
+vertical bars represent a standard deviation of ﬁve repeated measurements.
+Z. Xu et al. / Combustion and Flame 162 (2015) 3030–3045
+3033
+
+
+===== Page 5 =====
+
+hetero-coagulation and diminishing homo-coagulation) to quickly
+and efﬁciently form core–shell structured templates.
+3. Experimental
+3.1. Synthesis of Cu-based OCs
+In this study, we synthesized four types of Cu-based OC materi-
+als (marked as A, B, C and D, 100 g of each) with same content of
+CuO (77.5 wt%), and different contents of TiO2 and Al2O3, and
+details of the samples were shown in Table 2. Commercial
+lm-Al2O3 particles were selected as the main component of the
+support, whereas nm-TiO2 particles were deposited on the surface
+of lm-Al2O3 by the electrostatic self-assembly in precursors to
+modify and stabilize the support. A schematic sketch of the
+individual synthesis steps was shown in Fig. 5, and detailed
+descriptions were given below.
+(1) The nm-TiO2 was prepared using ﬂame synthesis technology
+– a single step, a continuous and scalable process. The gas
+ﬂame synthesis facility was designed, as shown in Fig. 6, in
+which a four-concentric-tube burner was fed with TiCl4
+(vapor) and N2 (as a dilute gas and carrier gas), CH4 (fuel),
+O2 (oxidizer), and N2 (sheath gas), from the outside to the
+center. More detailed operating conditions and experimental
+data about the ﬂame synthesis are available in reference
+[40]. The co-ﬂow diffusion CH4 ﬂame established a control-
+lable and stable high-temperature ﬁeld that provides the
+energy needed for the nanoparticle synthesis, including the
+oxidation of the TiCl4, the crystal transition and morphology
+evolution of particles. The nm-TiO2 with complete rutile
+phase (see Fig. 7), and a good crystalline nature within the
+size range 10–50 nm (its morphology as shown in Fig. 8)
+can be obtained by regulating gas ﬂow rates.
+(2) The calculated amount (according to the expected mass ratio
+with respect to Table 2) of lm-Al2O3 (particle size 1–75 lm,
+Sinopharm, AR level) and nm-TiO2 powder was uniformly
+dispersed in 300 mL hot water (80 C, water bath heating).
+After stirring one hour, the suspension pH level was read-
+justed to 6 by adding dilute nitric acid or ammonia solution.
+(3) 97.5 g of urea (CO(NH2)2 crystals, Sinopharm, AR level) was
+added to the slurry to stabilize the templates by increasing
+the steric hindrance of the dispersion system. In addition,
+the urea was used as a fuel burned with copper nitrate in
+the subsequent combustion synthesis process.
+(4) 235.4 g copper nitrate trihydrate crystals (Cu(NO3)2  3H2O,
+Sinopharm, AR level) was added to the template slurry under
+the conditions of full stirring. Cupric ions (Cu2+) were uni-
+formly dispersed in the system, forming stable complex ions
+{Cu[CO(NH2)2]2}2+ with urea molecules, capable of avoiding
+crystallization segregation of Cu2+ during the subsequent
+drying process.
+Table 1
+Parameters used in the DLVO calculations.
+Particle radiusa
+Hamaker constant AH in water (J) [36,39]
+Al2O3
+8.7 lm
+4.57  1020
+TiO2
+22.4 nm
+3.75  1020
+Al2O3–TiO2
+–
+4.14  1020
+a Geometric mean radius of particle population with an approximate lognormal
+distribution.
+Fig. 3. Calculated interaction potential energy of particles as a function of pH levels
+at the suspension. At temperature 353 K, the ion-product constant of water is
+KW = [H+][OH] = 2.36  1013; the relative dielectric constant of water is er = 81.6;
+the
+permittivity
+is
+e0 = 8.85  1012 C2 J1 m1
+in
+vacuum;
+j = 6.643 
+107ðP
+nCnZ2
+nÞ
+1=2 where Cn is the concentration of ion n, and Zn is its valence value;
+Boltzmann constant kB = 1.38  1023 J K1. The center-to-center particle separa-
+tion Rij = 34.1 lm (A–A), 141.5 nm (T–T) and 8.8 lm (A–T) based on average particle
+distance in a suspension.
+Fig. 4. TEM micrographs of the Al2O3–TiO2 agglomerates from the suspension at (a)
+pH = 5; (b) pH = 6.
+3034
+Z. Xu et al. / Combustion and Flame 162 (2015) 3030–3045
+
+
+===== Page 6 =====
+
+Table 2
+Oxygen carriers prepared in this work.
+Sample
+Raw materials (g)
+Active phase
+Support phase
+lm-Al2O3
+nm-TiO2
+CO(NH2)2
+Cu(NO3)2  3H2O
+Al(C3H7O)3
+A
+22.5
+0
+97.5
+235.4
+–
+CuO
+CuAl2O4–Al2O3
+B
+17.5
+5.0
+97.5
+235.4
+–
+TiO2–Al2O3
+C
+12.5
+10.0
+97.5
+235.4
+–
+TiO2–Al2O3
+D
+0
+22.5
+97.5
+235.4
+–
+TiO2
+E (sol–gel)
+–
+–
+–
+235.4
+45.0
+CuAl2O4
+Fig. 5. Schematic of the different steps of synthesis of Cu-based OCs using the SATCS method. A series of simpliﬁed physical models for the structure fabrication was shown in
+the bottom row.
+Fig. 6. Schematic diagram of the ﬂame synthesis of rutile nm-TiO2 (product nm-TiO2 as an additive to self-assembly template combustion synthesis OCs).
+Z. Xu et al. / Combustion and Flame 162 (2015) 3030–3045
+3035
+
+
+===== Page 7 =====
+
+(5) The wet precursor was dried in an electrically heated drying
+oven (80 C for 24 h), and then the dried precursor was
+transferred into a temperature-programmed mufﬂe furnace
+and ignited at 200 C in air. The combustion synthesis
+method can utilize the inner heat source to accelerate the
+drying and evolution from pyrolysis and achieve a high cal-
+cination temperature. The as-burned precursor proceeded to
+be calcined in the mufﬂe furnace at 950 C for 2 h. Then, the
+temperature dropped to room temperature by the natural
+cooling.
+(6) Finally, the conglomeration was ground into particles and
+sieved to yield the OC product in the size range of 0.125–
+0.180 mm.
+In addition, a sol–gel-derived CuO/CuAl2O4 OC (i.e., sample E as
+shown in Table 2) with the same size range was prepared accord-
+ing to our previous work [18], compared with the self-assembly
+template combustion synthesis OCs in a contrastive investigation.
+3.2. Characterization techniques
+The mechanical strength of some fresh and used samples, deter-
+mined using a digital force gauge (Shimpo, FGJ-5), was taken as the
+average value of 30 measurements of the force needed to crush an
+OC particle. The attrition rates of fresh OCs were determined in a
+standard abrasion tester (a stainless steel cylinder of length
+14.5 cm and diameter 12.0 cm, with a 1.5 cm bafﬂe), and rotated
+on a ball-mill roller for 50 min at a rate of 10 rpm. The speciﬁc sur-
+face area and speciﬁc pore volume of OCs were characterized in a
+physisorption apparatus (Micromeritics ASAP-2020) by multipoint
+nitrogen adsorption at 77 K using the Brunauer–Emmett–Teller
+(BET) and the Barrett–Joyner–Halenda (BJH) methods, respectively.
+The determination of particle size distribution (PSD) was made
+with
+a
+laser
+diffraction
+particle
+size
+analyzer
+(Malvern
+Mastersizer 2000) that allows the size to range from 0.02 to
+2000 lm. The crystalline phase species of the fresh and used OCs
+was determined using a powder X-ray diffractometer (XRD,
+Shimadzu X’Pert Pro) using Cu Ka radiation (k = 0.1542 nm, the
+accelerating voltage of 40 kV and the tube current of 40 mA) in a
+2 h angular range of 20–90o. The microstructure of OC samples
+was analyzed in a ﬁeld emission scanning electron microscope
+(FSEM,
+FEI
+Nova
+Nano
+SEM
+450)
+coupled
+with
+an
+energy-dispersive X-ray spectrometer (EDS, Oxford X-Max 50).
+Some samples were also observed in a transmission electron
+microscope (TEM, FEI Tecnai G2 20). To analyze the internal section
+of the OC particles and the morphology of the inert support, we
+designed two methods to prepare microscopic samples: (1) OC par-
+ticles were embedded in epoxy resin and polished to obtain the
+cross-section of particles; (2) OC particles were immersed in an
+ammonia-ammonium carbonate solution (ammonia with a con-
+centration of 2.8 mol L1, [NH4
++]:[NH3] = 0.6), in which the active
+species (CuO) was dissolved to obtain the framework of the inert
+support). The internal microstructures of the particles and element
+distribution in the exposed cross-section were characterized using
+BSE (backscattered electron) images and EDS maps, and the skele-
+tons of the dissolved CuO particles were used to analyze the struc-
+ture
+of
+TiO2–Al2O3
+composite
+support
+using
+SE
+(secondary
+electron) images.
+3.3. Thermal analysis
+The combustion synthesis and precursor calcination processes
+were
+investigated
+in
+a
+simultaneous
+thermogravimetric-
+differential thermal analyzer (TG-DTA, BOIF WCT-1D) combined
+with a Fourier transform infrared spectrometer (FTIR, Bruker
+Tensor 27). The sample was heated in ﬂowing air (120 mL min1,
+STP) from the room temperature to 1000 C with a high heating rate
+of 10 C min1 to better simulate the dried precursor calcinations
+process in the mufﬂe furnace, and held at 1000 C for 30 min. The
+pyrolysis gases of solid precursors were instantly introduced from
+the TG-DTA to the FTIR by a heat tracing pipe at 150 C to avoid
+the condensation of steam. Spectra were recorded with a temporal
+resolution of 10 s. The infrared absorption band was in the range of
+Fig. 7. XRD pattern of ﬂame-synthesized nm-TiO2.
+Fig. 8. Typical FSEM (a) and TEM (b) micrographs (with a magniﬁcation of 200,000 in the original images) of nm-TiO2 samples produced using ﬂame synthesis.
+3036
+Z. Xu et al. / Combustion and Flame 162 (2015) 3030–3045
+
+
+===== Page 8 =====
+
+600–4000 cm1. Because the gas concentration was proportional to
+the absorbance with a value < 0.7, the absorbance could be used to
+characterize the concentration of the gas products. These formed
+OC samples were also examined in terms of their CLOU behavior
+using the TG-DTA, with the temperature increased from the room
+temperature to 1000 C at a heating rate of 5 C min1 in N2 atmo-
+sphere (120 mL min1, STP).
+3.4. Cyclic oxygen release and uptake tests
+The capacity for repeated release and uptake of gaseous O2 was
+investigated by successive oxygen release/uptake cycle tests in the
+TG-DTA. A small amount (30 mg) of each OC sample was placed
+in a zirconia sample holder and brought from the room tempera-
+ture to 900 C at a heating rate of 5 C min1 under air ﬂow. After
+stabilization, 15 cycle tests were conducted continuously under
+conditions of alternating atmospheres, and temperature was held
+at 900 C. The oxygen release and uptake atmosphere was pure
+N2 and 21 vol% O2 (balanced with N2), respectively, both with a
+ﬂow rate of 120 mL min1 (STP) for 20 min.
+3.5. Cyclic reduction and oxidation tests
+Temperature-programmed
+reduction
+(TPR)
+and
+temperature-programmed oxidation (TPO) studies were performed
+in a chemisorption analyzer (Micromeritics AutoChem II 2920).
+Each sample was heated in a 10 vol% H2/Ar ﬂow (TPR) or 3 vol%
+O2/He ﬂow (TPO) with 50 mL min1 (STP) from the room tempera-
+ture to 900 C at 10 C min1, and the ﬁnal temperature was kept at
+900 C for 30 min. The off-gas was ﬁrst led to a cold trap to remove
+the steam and then was introduced to the thermal conductivity
+detector (TCD). A TPR-TPO-TPR three-stage test with 150 mg of
+sample was conducted. TPR/TPO analysis was used to provide
+information on the reducibility species of the OC.
+The cyclic redox tests of many more OC particles were carried
+out in a batch ﬂuidized bed reactor (FBR) with methane as gaseous
+fuel to investigate the reactivity of OCs in a ﬂuidization environ-
+ment and the behavior with respect to agglomeration and attrition
+phenomena. An overview of the ﬂuidized bed system was pre-
+sented in Fig. 9. The detailed description of this system can be
+found in our published papers [41,42]. The FBR was fed with a
+batch of 20 g OC particles, and then the bed was heated to
+850 C, ﬂuidized by air to ensure full oxidation of OC particles
+before cyclic redox tests. The OC particles were then exposed to
+10 successive redox cycles with each cycle consisting of four
+stages: (1) purging with inert N2 (800 mL min1, STP) at 950 C
+for 3 min; (2) reduction of the OC in CH4 (500 mL min1, STP) at
+950 C for 40 s; (3) purging with inert N2 (800 mL min1, STP) at
+950 C for 15 min; (4) oxidation of OC with air (800 mL min1,
+STP) at 850 C for 20 min.
+4. Results and discussion
+4.1. Oxygen uncoupling of the OCs
+Four samples (A, B, C and D) were examined in terms of their
+CLOU behavior using the TG-DTA under the same experimental
+conditions. The weight loss curves as a function of time, which
+can reﬂect the oxygen uncoupling capacity and reactivity of OCs,
+were shown in Fig. 10. All the TG data were normalized from the
+stable point at approximately 700 C, after which the weight
+became stable and gaseous O2 release started. Clearly the OC (sam-
+ple A) without adding nm-TiO2 demonstrated the minimum ﬁnal
+weight loss (6 wt%), whereas other oxygen carriers (samples B,
+C, D) with the addition of nm-TiO2 demonstrated a larger oxygen
+transport capability, very close to the theoretical maximum value
+of loss weight (7.75 wt%). The sample D, CuO/TiO2, exhibited the
+highest maximum reduction rate, followed by samples B, C and
+A, and the experimental results were consistent with earlier DFT
+predictions. CuAl2O4 appeared to be formed as a major phase
+except CuO for sample A with the 60 wt% CuO40 wt% CuAl2O4
+mixture, according to the stoichiometric and XRD patterns (see
+Section 4.4, Fig. 16). In the reduction stage, CuO was reduced to
+Cu2O and a small part of CuAl2O4 also decomposed into CuAlO2,
+Al2O3 and O2 according to the following reaction:
+4CuAl2O4 ! 4CuAlO2 þ 2Al2O3 þ O2
+ðR1Þ
+For a ﬁxed temperature, the equilibrium O2 partial pressure and the
+rate of gaseous O2 release of CuAl2O4 is much lower than those of
+pure CuO [15]. Consequently, sample A gave a much slower rate
+of oxygen release, and the decomposition was not complete over
+the isothermal stage at 1000 C for 30 min. In practical CL processes,
+fast cyclic reduction and oxidation of the oxygen carrier will be per-
+formed by circulating between two reactors, so the slow kinetics of
+O2 release from CuAl2O4 are not favorable and essentially do not
+contribute to the gaseous O2 release. In contrast, samples B, C,
+and D showed fast stages of weight loss up to approximately
+7.75%, proving that the nm-TiO2 additive is effective in preventing
+Fig. 9. Schematic diagram of the ﬂuidized-bed facility.
+Z. Xu et al. / Combustion and Flame 162 (2015) 3030–3045
+3037
+
+
+===== Page 9 =====
+
+the formation of CuAl2O4 spinel and improving the reactivity of
+Cu-based OCs.
+Furthermore, to investigate the cyclic CLOU performance, 15
+consecutive release-uptake cycle tests for four types of OCs were
+conducted in the TG-DTA at 900 C (the TG curves shown in
+Fig. 11). Obviously, samples A (CuO/Al2O3) and D (CuO/TiO2)
+showed unstable patterns in the extent of reduction and oxidation
+reactions, whereas the Cu-based OC supported by the TiO2–Al2O3
+composite demonstrated a good recyclability to release and absorb
+gaseous oxygen repeatedly. More speciﬁcally, reactivity evaluation
+was obtained through analyzing the TG data of the OC samples. The
+conversions of the OC reduction and oxidation as functions of time
+were calculated, respectively by:
+XredðtÞ ¼ mox  mðtÞ
+mox  mred
+ð6Þ
+XoxðtÞ ¼ mðtÞ  mred
+mox  mred
+ð7Þ
+where mox, mred, and m(t) are the OC weights at the fully oxidized
+state, the reduced form, and the actual weight at time t, respec-
+tively. The theoretical oxygen transport capacity for the OC was
+deﬁned as
+RO ¼ mox  mred
+mox
+ð8Þ
+The actual oxygen (AO) transport capacity was deﬁned as
+RAO ¼ ROXmax
+ð9Þ
+where Xmax is the maximum conversion in cyclic TG tests. The oxy-
+gen transport rate was
+rO ¼ RO  dX
+dt
+ð10Þ
+Figure 12 showed the actual oxygen transport capacities and
+rates in 15-cycle redox tests of the four samples. The oxygen trans-
+port rates were calculated as average values from 20% to 80% of the
+Fig. 10. TG and differential thermogravimetry (DTG) curves of four types of Cu-
+based OCs.
+Fig. 11. Weight changes of four types of Cu-based OCs during the cyclic reduction–oxidation TG tests.
+3038
+Z. Xu et al. / Combustion and Flame 162 (2015) 3030–3045
+
+
+===== Page 10 =====
+
+conversion. There was a decrease in oxygen capacity for sample A
+with an increasing number of cycles. The mass of the oxidized and
+reduced state declined gradually with the cycle numbers. Factually,
+CuAl2O4 spinel was formed in the fresh sample A due to the solid–
+solid reaction of CuO and Al2O3 upon synthesis in air, and the pro-
+duct CuAlO2 of CuAl2O4 decomposition (R1) even did not oxidize
+fully in the later O2 uptake.
+With respect to sample B, support on lm-Al2O3 (17.5 wt%) and
+nm-TiO2 (5.0 wt%) showed the best stability. The amount of active
+component CuO always remained high-loading in the redox cycles,
+without observation of obvious XRD peaks of CuAl2O4 (see
+Section 4.4, Fig. 16) because the nm-TiO2 shell prevented the inter-
+action between copper and aluminum phases. The actual oxygen
+transport
+capacity
+of
+sample
+B
+maintained
+approximately
+0.075 kg
+O2/kg
+OC
+and
+was
+close
+to
+the
+theoretical
+value
+0.0775 kg O2/kg OC, corresponding well to the stable rates. The rate
+of O2 release is dominated mainly by the crystalline CuO, and a
+higher content of crystalline CuO gives higher gaseous O2 releasing
+capacity. A moderate declining tendency in oxygen release/uptake
+capacity was observed for sample C, and an ascending tendency in
+oxygen release/uptake capacity was observed for sample D. It was
+noted that sample D showed a very different tendency compared
+to others, and the oxygen release rate of each single cycle showed
+an increase with cycling progresses likely because of the develop-
+ment of ﬁssures led to a rise in porosity and reaction surface. The
+reactivity increased up to a maximum value after several cycles
+and stabilized. It had previously been observed in ilmenite as an
+OC in CLC [43]. A similar effect was also observed in the ﬁeld of car-
+bonate
+looping
+for
+CO2
+capture
+where
+it
+was
+named
+‘‘self-activation’’ [44]. When nm-TiO2 was used for most or all of
+the support, the total oxygen release/uptake capacity was slightly
+less than expected. A possible reason for the discrepancy is that a
+high proportion of the TiO2 additive is unfavorable for inhibiting
+sintering because the adsorption energy of TiO2 is lower than the
+adsorption energy of the Al2O3 as in the above-mentioned DFT cal-
+culations. In addition, too many or too few nm-TiO2 can be harmful
+to the formation of complete core–shell structures. For an exces-
+sive TiO2 additive, nm-TiO2 will form larger agglomerates in aque-
+ous
+suspension,
+also
+not
+conducive
+to
+inhibiting
+sintering
+according to the Zener pinning theory. In this context, the experi-
+mental results should not be surprising because sintering would
+lead to a decline in the active oxygen capacity and oxygen relea-
+se/uptake rate.
+4.2. Reactivity and stability of the OCs
+Based on TGA tests and physicochemical characterizations (see
+Section 4.3), sample B was the optimal one and most worth to be
+further investigated, and hereafter sample A or sample E was used
+as a baseline for comparative studies. For the TPR-TPO-TPR exper-
+iments of sample B at the chemisorption analyzer, the TCD curves
+of two TPR experiments (shown in Fig. 13) demonstrated similar
+Fig. 12. Reversible oxygen transport capacities and rates of four OCs in TG cyclic redox tests: (a) Oxygen release capacity; (b) Oxygen uptake capacity; (c) Oxygen release rate;
+and (d) Oxygen uptake rate.
+Z. Xu et al. / Combustion and Flame 162 (2015) 3030–3045
+3039
+
+
+===== Page 11 =====
+
+shapes with same peak numbers and approximate peak tempera-
+tures (approximately 300 C, attributed to the reduction reaction
+between CuO and H2), meaning nearly the same amount of H2 con-
+sumption and then good chemical stability for sample B. For sam-
+ple A (used as a baseline for comparison with sample B), the TCD
+proﬁles of two TPR experiments exhibited a main peak approxi-
+mately 300 C and a signiﬁcantly smaller peak at higher tempera-
+tures (900 C for the 1st TPR and 600 C for the 2nd) due to the
+reduction reaction between CuAl2O4 and H2. The two TPR tests also
+showed sample A is not stable in reactivity. From the TCD proﬁles
+of TPO experiments of the two samples, sample B absorbs more
+gaseous oxygen in the oxidation process.
+We tested the CLC behavior of sample B with methane and
+resistance
+to
+agglomeration/sintering
+in
+a
+high-temperature
+(850–950 C) environment using a batch ﬂuidized bed reactor.
+Sample E (sol–gel) was used as a comparison based on our previous
+systemic research for sol–gel synthesis OCs. Ten successive redox
+cycles were conducted using 20 g OCs where the particles were
+subjected to a ﬂow of 500 mL min1 pure CH4 for 40 s during the
+reduction period. The reactivity of a given OC during reduction
+with methane quantiﬁed in terms of OC conversion rate as a func-
+tion of time was calculated from the outlet gas concentrations by
+[45]:
+dX
+dt ¼
+1
+M0Ptot
+nin;CH4ð4pCO2;out þ 3pCO;out  pH2;outÞ
+ð11Þ
+where M0 is the number of moles of active oxygen in the unreacted
+oxygen carrier; Ptot is the total pressure; nin;CH4 is the molar ﬂow of
+dry CH4 entering the reactor; pCO2;out; pCO;out, and pH2;out are the outlet
+partial pressures of CO2, CO, and H2, respectively, after removal of
+water vapor. To be able to compare oxygen carriers with different
+fractions of support materials, a mass-based conversion, x, was
+deﬁned as follows [45]:
+x ¼ m
+mox
+¼ 1 þ R0ðX  1Þ
+ð12Þ
+where R0 is the oxygen ratio
+R0 ¼ mox  mred
+mox
+ð13Þ
+Figure 14 showed the OC conversion rate as a function of the
+mass-based conversion of sample B and sample E for the 2nd and
+10th repeated cycles. Sample B demonstrated a higher conversion
+rate, close to complete conversion of the fuel because Sample B had
+a higher porosity of particles and almost all of the copper exists in
+the form of an active component, which has been conﬁrmed by
+surface
+area,
+pore
+volume
+and
+XRD
+characterization
+(see
+Section 4.4).
+In addition to reactivity, other aspects like agglomeration and
+attrition should be considered to evaluate the behavior of the
+OCs during tests at high-temperature ﬂuidization. Figure 15
+showed the particle size distribution (PSD) of both fresh and
+extracted particles from the reactors at the end of the cyclic tests.
+Sample B particles exhibited inconspicuous fragmentation and
+agglomeration, whereas sample E particles performed a little obvi-
+ous agglomeration and attrition in spite of the high operating tem-
+perature, and deﬂuidization of the reactors was never detected for
+two OCs.
+In the continuous ﬂuidization operation for CLC/CLOU, Cu-based
+OCs are always subjected to attrition trouble [46]. It has long been
+known that for ﬂuidized bed combustion, particles from the fuel
+(coal, char, ash, etc.) or the SO2 sorbent (limestone, dolomite, etc.)
+are also attrited by the mechanical forces in the bed, while chem-
+ical reactions are taking place [47]. To some extent, the mechanical
+damage and chemical corrosion of OC particles can be alleviated by
+designing proper inner structure as well as choosing suitable mate-
+rial component. In light of this, a hierarchical structure is consisted
+with a whole porous Al2O3 core, an interconnected TiO2 nanoparti-
+cle layer, and a Cu-based active component coat, which exhibits
+better mechanical strength and support inertness in comparison
+to conventionally synthesized samples of the same composition.
+Fig. 13. TCD proﬁles of TPR (10% H2 + Ar) and TPO (3% O2 + He) tests for sample A and sample B in the chemisorption analyzer.
+Fig. 14. Reactivity of OCs with methane as the fuel at 950 C. Gas conversion rate as
+a function of the mass-based conversion for Sample B and Sample E.
+3040
+Z. Xu et al. / Combustion and Flame 162 (2015) 3030–3045
+
+
+===== Page 12 =====
+
+In order to validate the effect of SATCS, sample B as the optimal
+one was compared with other Al2O3- or TiO2-supported Cu-based
+OCs prepared by different methods available in some published lit-
+eratures. Remarkably, sample B could be decomposed at an oxygen
+release rate up to 0.37 kg O2/(kg OC min) at 900 C, about 11 and
+18 times higher than these of CuO/Al2O3 sample (80 wt% CuO load-
+ing at a 0.032 kg O2/(kg OC min) rate at 950 C) [48] and CuO/TiO2
+sample (50 wt% CuO loading at a 0.02 kg O2/(kg OC min) rate at
+900 C) [49], respectively. For CLC in a ﬂuidized-bed reactor, an
+estimate of the mass of OC needed in reactor, mbed, can be
+calculated as [50]:
+mbed ¼ x _mO
+dx=dt
+ð14Þ
+where _mO is the stoichiometric mass ﬂow of oxygen needed for
+complete conversion of the methane to carbon dioxide and water.
+Thereby, the amount of OC necessary can be calculated, in which
+41.9 kg/MWth of sample B was much lower than 78 kg/MWth of a
+representative CuO/Al2O3 sample in reference [9]. Moreover, the
+oxygen carrier recirculation rate between the air and fuel reactors
+is [50]
+_msol ¼ xair _mO
+Dx
+ð15Þ
+where xair is the conversion in the air reactor. Thus, for a Dx of 0.03
+the needed recirculation rates of sample B and the CuO/Al2O3 sam-
+ple [9] would be 1.1 kg/(MWth s) and 2.6 kg/(MWth s), respectively.
+These results indicated that the reactivity of sample B was superior
+to that of these OCs prepared by conventional methods. Because
+there were many notable differences between these references
+and this work in experimental conditions (especially conditions
+such as temperature, atmosphere, and particle size, which all have
+a signiﬁcant impact on reactivity), a comprehensive comparative
+investigation for some well-known preparation methods at the
+same experimental condition could be schematized in the near
+future. However, one point was afﬁrmative that the conventional
+methods, such as mechanical mixing or freeze-granulation, fail to
+construct an effective microstructure maintaining higher dispersion
+level and facilitating active oxygen transmission. The analysis of
+physicochemical characterizations could conﬁrm the inner organi-
+zation form of the novel OC as well as provide a clear understanding
+for the SATCS method.
+4.3. Physicochemical characterizations of the OCs
+As shown in Fig. 16, the chemical compositions of Sample A and
+Sample B in three different states were analyzed using XRD. For
+sample A without nm-TiO2, CuAl2O4 spinel was formed at high
+temperatures during synthesis as the reaction:
+CuO þ Al2O3 ! CuAl2O4
+ðR2Þ
+Fig. 15. Particle size distributions of fresh particles and particles after 10-cycles, OC
+extracted from the bed at the end of the tests: (a) sample B; (b) sample E (sol–gel).
+Fig. 16. XRD patterns of Sample A (left, CuO(77.5 wt%)/Al2O3(22.5 wt%)) and
+Sample B (right, CuO(77.5 wt%)/TiO2(5 wt%)-Al2O3(17.5 wt%)).
+Z. Xu et al. / Combustion and Flame 162 (2015) 3030–3045
+3041
+
+
+===== Page 13 =====
+
+The phase ﬁeld in the Cu-Al-O system is dependent on the oxygen
+partial pressure during redox cycles in the temperature range of rel-
+evance [16]. CuAl2O4 could slowly release gaseous O2 as a possible
+reaction (R1), so only a few CuAl2O4 would release oxygen for a lim-
+ited time in CLOU process. As for Sample B, all of the copper was
+presented in the form of active phase CuO/Cu2O to quickly achieve
+complete redox, whereas TiO2 and Al2O3 as support phases always
+maintained a stable chemical property.
+As shown in Fig. 17, the crushing strength of four used samples
+was reduced, and the standard deviation of the measurement also
+decreased. However, Sample B had the highest strength and kept a
+higher mechanical stability that was good for attrition resistance
+and sintering resistance. A recent investigation has shown that
+OCs with a crushing strength above 1 N have generally shown bet-
+ter performance with respect to attrition in continuous operation,
+and with a crushing strength above 2 N are more likely to resist
+attrition than soft particles [45].
+The attrition rate (by the standard abrasion tester), speciﬁc sur-
+face area (SSA) and speciﬁc pore volume (SPV) were measured and
+shown in Table 3. Attrition rate is a useful measure to estimate the
+lifetime of OC particles [14]. The attrition test was consistent with
+the crushing strength test, indicating that Sample B particles are
+really higher in mechanical durability. A higher speciﬁc surface
+area and speciﬁc pore volume of Sample B is an immediate cause
+of good reactivity. The fact that Sample B maintained high surface
+area and pore volume after 15 redox cycles further proved that
+Sample B had excellent resistance to sintering.
+From above experimental results, we found that the addition of
+nm-TiO2 has greatly improved the physicochemical performances
+of the Cu-based OC, and Sample B is the best from the point of view
+of CLOU behavior and material cost. Sample B was then selected for
+Fig. 17. Crushing strength of fresh and used Cu-based OCs. The vertical bars
+represent standard deviation of 30 repeated measurements for each sample.
+Table 3
+Properties of the OC particles, fresh and after 15 redox cycles.
+Sample A
+Sample B
+Sample C
+Sample D
+Fresh
+15 Redox
+Fresh
+15 Redox
+Fresh
+15 Redox
+Fresh
+15 Redox
+Attrition rate (%/h)
+8.04
+–
+6.12
+–
+6.36
+–
+13.44
+–
+SSA (m2/g)
+0.93
+0.41
+1.64
+1.25
+1.12
+0.76
+1.07
+0.55
+SPV (cm3/g)
+0.013
+0.008
+0.028
+0.021
+0.017
+0.013
+0.02
+0.006
+(a)
+(b)
+(c) 
+(d) 
+Fig. 18. FSEM-EDS images of fresh (a, c) and reused (b, d) OC particles (Sample B, CuO(77.5 wt%)@TiO2(5 wt%)–Al2O3(17.5 wt%)). BSE and EDS proﬁles of cross section
+particles (a, b), and SE images of the Al2O3–TiO2 skeleton (c, d).
+3042
+Z. Xu et al. / Combustion and Flame 162 (2015) 3030–3045
+
+
+===== Page 14 =====
+
+further investigation and analysis. Figure 18a and b via FSEM-EDS
+showed that in Sample B the components and elements were dis-
+tributed uniformly before and after the 15-redox test, and the
+active component CuO was enriched on the surface layer of parti-
+cles. It should be noted that Cu(NO3)2 solution could impregnate
+into lm-Al2O3 particles with porous structure, and nm-TiO2 could
+migrate through these micro pores due to drag forces induced by
+the receding liquid surface and capillary forces [51] during precur-
+sor drying. And nm-TiO2 thereby adsorbed on the inner surface of
+lm-Al2O3 to inhibit CuAl2O4 generation. As results, FSEM-EDS
+images show that Cu and Ti elements are distributed over the
+whole particle. The high magniﬁcation images showed the fresh
+and reused OC particles both maintained a rich and quite uniform
+porous structure. Once the active component CuO has been dis-
+solved by the ammoniaammonium carbonate solution, the
+core–shell structured Al2O3-TiO2 supports formed a spongiform
+framework with rich interconnected mesopores (as shown in
+Fig. 18c and d via SE). The active component was ﬁlled in the meso-
+pores and separated into ﬁne grains, so the contact between grain
+and grain, grain and Al2O3 was prevented. This special structure
+ensures that the oxygen carriers demonstrate higher reactivity,
+satisfactory mechanical properties and sintering resistance.
+4.4. Environmental and economic evaluation
+Synthetic Cu-based OCs often used copper nitrate as the main
+raw material, and there is no doubt that the NOx emissions prob-
+lem needs to be reconsidered. NOx is a serious air pollutant, and
+its
+generation
+and
+emissions
+must
+be
+strictly
+limited.
+The
+TG-DTA-FTIR investigation for dried precursors of Sample B (as a
+representative of SATCS method) and Sample E (sol–gel method)
+was conducted to analyze and compare the precursor transforma-
+tion and gas pollutant emissions in OC synthesis. For the Sample B
+precursor, the TG-DTA curves (Fig. 19a) indicated that the decom-
+position follows the loss of (1) hydrate water at approximately
+100–200 C
+(endothermic),
+(2)
+urea
+and
+nitrate
+combustion
+(exothermic, ignited at 212 C). The fact that a very small amount
+of NO2 was detected using FTIR at approximately 210 C and then
+the concentration rapidly declined to near-zero levels, as shown in
+Fig. 20 (green dashed line), demonstrated that there was a little
+decomposition of copper nitrate and urea (reactions R3 and R4)
+before the ignition, and then the stable combustion no longer
+released NO2 (reactions R5 and R6). Obviously, the SATCS method
+can signiﬁcantly reduce or even eliminate1 NOx emissions during
+OC synthesis processes, thereby providing an environment-friendly
+synthesis route. It is noted here ammonia (NH3) was widely used
+in selective non-catalytic reduction (SNCR) to reduce NOx to nitrogen
+and water (R5). The sharp exothermic peak (2) at 268.3 C of the DTA
+curve was characterized as the typical combustion synthesis. For per
+kilogram of OC (Sample B) produced, combustion releases heat at
+approximately 1.5 kW h (estimated according to the standard molar
+enthalpy change DHH
+m = 1675.5 kJ mol1 for reaction R6). The
+instantaneous heat release and high ﬂame temperature2 (approxi-
+mately 2000 C [28,52]) beneﬁted to exempt the calcination stage
+and heating equipment, shorten the production cycle and save
+energy consumption.
+2CuðNO3Þ2 ! 2CuO þ 4NO2 þ O2
+ðR3Þ
+COðNH2Þ2 þ H2O ! 2NH3 þ CO2
+ðR4Þ
+6NO2 þ 8NH3 ! 7N2 þ 12H2O
+ðR5Þ
+Fig. 19. TG-DTA curves for the temperature-programmed thermal decomposition
+of the dried precursors in air: (a) sample B, for DTA, (1) minimum (well) at 197.6 C,
+(2) maximum (peak) at 268.3 C; (b) Sample E (sol–gel), for DTA, three wells at (1)
+124.6 C, (2) 190.6 C, (3) 268.8 C, respectively, and one peak at (4) 967.5 C.
+Fig. 20. Relative concentration (measured using the FTIR and data processed using
+the OPUS 7.0 software) of NO2 as a representative gaseous pollutant produced by
+the burning/calcining precursors.
+1 Note: for Sample B in the TG-DTA, as shown in Fig. 20, a little NO2 release owing
+to incomplete reaction with NH3 at low temperature before burning is observed.
+Actually, pre-ignition can prevent the NO2 release.
+2 Note: for Sample B, in the TG-DTA, the temperature was measured out of the
+sample holder with a small amount (60 mg) of sample and high heat dissipation,
+thus it was much lower than the actual combustion temperature.
+Z. Xu et al. / Combustion and Flame 162 (2015) 3030–3045
+3043
+
+
+===== Page 15 =====
+
+3CuðNO3Þ2 þ 5COðNH2Þ2 ! 3CuO þ 5CO2 þ 10H2O þ 8N2
+ðR6Þ
+For Sample E in Fig. 19b, the removal of capillary water (well
+(1)) and hydrate water (well (2)), and the decomposition of copper
+nitrate (well (3)) need large amounts of heat consumption, and
+even worse, generate large amounts of released NO2 as much as
+18.3 mol/kg OC (Fig. 20 pink solid line) and would cause serious
+air pollution if no effective treatment. In addition, a weak exother-
+mic peak (Fig. 19b peak (4)) started from approximately 800 C
+until the end of the calcination, owing to the formation of copper
+aluminate (reaction R2). This is a drawback in conventional syn-
+thesis methods for Cu-based OCs, whereas the phenomenon does
+not happen in SATCS.
+Furthermore, the impact of the nm-TiO2 additive on the manu-
+facturing cost of fresh OC is worth considering. In Table 4, the unit
+prices of raw materials sourced from the industry information
+website
+about
+manufacturers,
+suppliers
+and
+products
+(www.made-in-china.com) in August 2014, and the costs of OCs
+for per kilogram gaseous oxygen capacity were estimated. The
+price adopted here approaches to the median over the past 7 years
+and is a representative choice at least. Obviously, the cost of
+Sample B was far lower than the cost of Sample E, and a cost
+advantage for the SATCS method compared with the sol–gel
+method was indicated. The cost of nm-TiO2 was only approxi-
+mately 8% of the total raw materials cost, which did not affect total
+costs so dramatically. If the environmental cost and energy con-
+sumption were considered, the superiority of the SATCS method
+was particularly prominent, and the costs could be cut further in
+mass production.
+5. Conclusions
+This study aimed to prepare Cu-based OCs with a high loading
+and high degree of dispersion of active CuO in the inexpensive
+and
+durable
+support.
+A
+novel
+Cu-based
+oxygen
+carrier
+(CuO@TiO2–Al2O3) with high performance was reported based on
+an interesting synthetic route (SATCS), involving nanomaterial, col-
+loid chemistry and environmental protection. The tailor-made
+CuO@TiO2–Al2O3 OC particles demonstrated satisfactory perfor-
+mances as desired in the CL processes. It is possible to synthesize
+functional OCs for the CL processes by tuning the precursor chem-
+istry and fabricating the microstructures within particles.
+First, a basic understanding of the interaction between CuO and
+support was obtained via DFT calculations, which involved the
+reactivity and sintering resistance of Cu-based OCs and was helpful
+in selecting the proper materials (i.e., TiO2 and Al2O3). Then, the
+inﬂuence of support size and content on OC stability was analyzed
+based on the concept of the Zener pinning force of sintering limit,
+which suggested that adding nanolevel particles favored sintering
+resistance.
+Subsequently,
+colloid
+chemistry
+analysis
+and
+calculations
+were
+used
+for
+designing
+an
+expected
+orderly
+microstructure, in which active component CuO was supported
+by core–shell structured Al2O3–TiO2 composite (a core(Al2O3)–
+shell(TiO2)
+hierarchical
+structure
+customized
+from
+the
+self-assembly of ﬂame-synthesized TiO2 nanoparticles and com-
+mercial Al2O3 microparticles). Finally, OCs were efﬁciently manu-
+factured with a short production period, low energy consumption
+and low pollution using the combustion synthesis technique.
+The novel CuO@TiO2–Al2O3 OCs with different Al2O3 and TiO2
+contents were examined in both a thermogravimetric analyzer
+and a ﬂuidized bed reactor to investigate the oxygen transport
+capacity, reactivity, and cyclic oxygen release and uptake. A repre-
+sentative Cu-based OC based on a support composite of Al2O3
+(17.5 wt%)–TiO2
+(5 wt%)
+exhibited
+excellent
+performance
+of
+repeated oxygen release/uptake, stable mechanical strength, and
+high reactivity. The microstructure and phase analysis using
+FSEM-EDS and XRD showed that the Al2O3 surface was coated with
+TiO2 nanoparticles, resulting in a spongy but ﬁrm inert framework.
+The CuO was uniformly dispersed and highly loaded in the sponge
+framework. The addition of TiO2 nanoparticles can prevent the
+interaction between CuO and Al2O3 almost completely and can
+inhibit CuO grain sintering effectively, so OCs with a high CuO con-
+tent can withstand a higher temperature (such as 1000 C) without
+sintering and agglomeration.
+Thus, CuO@TiO2–Al2O3 is an attractive oxygen carrier for CL
+processes,
+and
+the
+SATCS
+method
+is
+highly
+suitable
+for
+large-scale preparation of OC particles. The high performance OC
+could be applied in CLC, CLOU, CLAS, and Ca–Cu looping for clean
+energy production and CO2 capture.
+Acknowledgments
+This
+work
+was
+funded
+by
+the
+National
+Natural
+Science
+Foundation of China (Grant Nos. 51276077 and 51390494). The
+authors are grateful to the Analytical and Testing Center of HUST
+for XRD, SEM, EDS, and TEM measurements.
+References
+[1] J. Adanez, A. Abad, F. Garcia-Labiano, P. Gayan, L.F. de Diego, Prog. Energy
+Combust. Sci. 38 (2012) 215–282.
+[2] T. Mattisson, A. Lyngfelt, H. Leion, Int. J. Greenhouse Gas Control 3 (2009) 11–
+19.
+[3] B. Moghtaderi, Energy Fuels 24 (2009) 190–198.
+[4] S. Chen, W. Xiang, Z. Xue, X. Sun, Proc. Combust. Inst. 33 (2011) 2691–2699.
+[5] A. Lyngfelt, B. Leckner, T. Mattisson, Chem. Eng. Sci. 56 (2001) 3101–3113.
+[6] E.A. Goldstein, R.E. Mitchell, Proc. Combust. Inst. 33 (2011) 2803–2810.
+[7] S.Y. Chuang, J.S. Dennis, A.N. Hayhurst, S.A. Scott, Combust. Flame 154 (2008)
+109–121.
+[8] L.F. de Diego, F. Garci’a-Labiano, J. Adanez, P. Gayán, A. Abad, B.M. Corbella, J.
+Mari’a Palacios, Fuel 83 (2004) 1749–1757.
+[9] M. Arjmand, A.-M. Azad, H. Leion, A. Lyngfelt, T. Mattisson, Energy Fuels 25
+(2011) 5493–5502.
+Table 4
+Raw material costs of fresh OCs.
+Unit price ($/kg)
+Sample B (SATCS)
+Sample E (sol–gel)
+Amount (kg/kg O2)
+Cost ($/kg O2)
+Amount (kg/kg O2)
+Cost ($/kg O2)
+lm-Al2O3
+0.5a
+2.30
+1.2
+–
+–
+nm-TiO2
+20b
+0.66
+13.2
+–
+–
+CO(NH2)2
+0.2c
+12.83
+2.6
+–
+–
+Cu(NO3)2  3H2O
+4.6d
+30.98
+142.5
+38.99
+179.4
+Al(C3H7O)3
+3.7e
+–
+–
+26.53
+98.2
+OC product
+–
+13.16
+159.5
+16.56
+277.6
+a http://jzcshg.en.made-in-china.com/product/WSlQXaHwLIVO/China-High-Purity-White-Aluminum-Oxide.html.
+b http://ahelite.en.made-in-china.com/product/jqsnvKdDwBpu/China-10nm-Nano-Titanium-Dioxide-for-Photocatalyst-NT10.html.
+c http://qingshang.en.made-in-china.com/product/lvUnFfAJvkcz/China-Nitrogen-Fertilizer-Urea-46.html.
+d http://xilongchemical.en.made-in-china.com/product/yKDxvTcUHrVz/China-99-Purity-Cupric-Nitrate-Ar-Grade.html.
+e http://www.made-in-china.com/showroom/jintachem/product-detailHMUEZOguMNkw/China-Aluminium-Isopropoxide.html.
+3044
+Z. Xu et al. / Combustion and Flame 162 (2015) 3030–3045
+
+
+===== Page 16 =====
+
+[10] I. Adánez-Rubio, M. Arjmand, H. Leion, P. Gayán, A. Abad, T. Mattisson, A.
+Lyngfelt, Energy Fuels 27 (2013) 3918–3927.
+[11] P. Gayán, I. Adánez-Rubio, A. Abad, L.F. de Diego, F. García-Labiano, J. Adánez,
+Fuel 96 (2012) 226–238.
+[12] L.F. de Diego, P. Gayán, F. García-Labiano, J. Celaya, A. Abad, J. Adánez, Energy
+Fuels 19 (2005) 1850–1856.
+[13] P. Gayán, C.R. Forero, A. Abad, L.F. de Diego, F. García-Labiano, J. Adánez,
+Energy Fuels 25 (2011) 1316–1326.
+[14] C.R. Forero, P. Gayán, F. García-Labiano, L.F. de Diego, A. Abad, J. Adánez, Int. J.
+Greenhouse Gas Control 5 (2011) 659–667.
+[15] Q. Imtiaz, D. Hosseini, C.R. Müller, Energy Technol. 1 (2013) 633–647.
+[16] M. Arjmand, A.-M. Azad, H. Leion, T. Mattisson, A. Lyngfelt, Ind. Eng. Chem. Res.
+51 (2012) 13924–13934.
+[17] Y. Zhang, H. Zhao, L. Guo, C. Zheng, Combust. Flame 162 (2015) 1265–1274.
+[18] D. Mei, H. Zhao, Z. Ma, C. Zheng, Energy Fuels 27 (2013) 2723–2731.
+[19] D. Mei, H. Zhao, Z. Ma, W. Yang, Y. Fang, C. Zheng, J. Fuel Chem. Technol. 41
+(2013) 235–242.
+[20] D. Mei, A. Abad, H. Zhao, J. Adánez, Fuel Process. Technol. 133 (2015) 210–219.
+[21] Q. Imtiaz, A.M. Kierzkowska, M. Broda, C.R. Müller, Environ. Sci. Technol. 46
+(2012) 3561–3566.
+[22] Q. Song, W. Liu, C.D. Bohn, R.N. Harper, E. Sivaniah, S.A. Scott, J.S. Dennis,
+Energy Environ. Sci. 6 (2013) 288–298.
+[23] B.M. Corbella, L. De Diego, F. García, J. Adánez, J.M. Palacios, Energy Fuels 19
+(2005) 433–441.
+[24] A. Abad, J. Adánez, F. García-Labiano, L.F. de Diego, P. Gayán, J. Celaya, Chem.
+Eng. Sci. 62 (2007) 533–549.
+[25] J. Adánez, L.F. de Diego, F. García-Labiano, P. Gayán, A. Abad, J.M. Palacios,
+Energy Fuels 18 (2004) 371–377.
+[26] I. Adánez-Rubio, P. Gayán, A. Abad, L.F. de Diego, F. García-Labiano, J. Adánez,
+Energy Fuels 26 (2012) 3069–3081.
+[27] L. Xu, J. Wang, Z. Li, N. Cai, Energy Fuels 27 (2013) 1522–1530.
+[28] B. Wang, R. Yan, D.H. Lee, Y. Zheng, H. Zhao, C. Zheng, J. Anal. Appl. Pyrol. 91
+(2011) 105–113.
+[29] A. Makino, C.K. Law, Proc. Combust. Inst. 28 (2000) 1439–1446.
+[30] P. Erri, A. Varma, Chem. Eng. Sci. 62 (2007) 5682–5687.
+[31] S.T. Aruna, A.S. Mukasyan, Curr. Opin. Solid State Mater. Sci. 12 (2008) 44–50.
+[32] Y. Zhang, H. Zhao, in: 3rd International Conference on Chemical Looping,
+Goteborg, Sweden, 2014.
+[33] Z. Li, Y. Liu, N. Cai, Chem. Eng. Sci. 89 (2013) 235–243.
+[34] J. Hu, D. Li, J.G. Lu, R. Wu, J. Phys. Chem. C 114 (2010) 17120–17126.
+[35] E.M. Hotze, T. Phenrat, G.V. Lowry, J. Environ. Qual. 39 (2010) 1909–1924.
+[36] D. Zhou, A.I. Abdel-Fattah, A.A. Keller, Environ. Sci. Technol. 46 (2012) 7520–
+7526.
+[37] H.H. Liu, S. Surawanvijit, R. Rallo, G. Orkoulas, Y. Cohen, Environ. Sci. Technol.
+45 (2011) 9284–9292.
+[38] Y. Koreeda, Y. Hirata, S. Sameshima, J. Ceram. Process. Res. 5 (2004) 337–342.
+[39] Y.K. Leong, B.C. Ong, Powder Technol. 134 (2003) 249–254.
+[40] Z. Xu, H. Zhao, Combust. Flame 162 (2015) 2200–2213.
+[41] H. Zhao, K. Wang, Y. Fang, J. Ma, D. Mei, C. Zheng, Int. J. Greenhouse Gas Control
+22 (2014) 154–164.
+[42] L. Guo, H. Zhao, J. Ma, D. Mei, C. Zheng, Chem. Eng. Technol. 37 (2014) 1211–
+1219.
+[43] J. Adánez, A. Cuadrat, A. Abad, P. Gayán, L.F. de Diego, F. García-Labiano, Energy
+Fuels 24 (2010) 1402–1413.
+[44] S. Stendardo, L.K. Andersen, C. Herce, Chem. Eng. J. 220 (2013) 383–394.
+[45] A. Shulman, E. Cleverstam, T. Mattisson, A. Lyngfelt, Energy Fuels 23 (2009)
+5269–5275.
+[46] M. Rydén, D. Jing, M. Källén, H. Leion, A. Lyngfelt, T. Mattisson, Ind. Eng. Chem.
+Res. 53 (2014) 6255–6267.
+[47] B. González, M. Alonso, J.C. Abanades, Fuel 89 (2010) 2918–2924.
+[48] Q. Imtiaz, M. Broda, C.R. Müller, Appl. Energy 119 (2014) 557–565.
+[49] C.K. Clayton, K.J. Whitty, Appl. Energy 116 (2014) 416–423.
+[50] T. Mattisson, A. Järdnäs, A. Lyngfelt, Energy Fuels 17 (2003) 643–651.
+[51] M.J. Pavan, R. Shenhar, J. Mater. Chem. 21 (2011) 2028–2040.
+[52] B. Wang, H. Zhao, Y. Zheng, Z. Liu, C. Zheng, in: H. Qi, B. Zhao (Eds.), Cleaner
+Combustion and Sustainable World, Springer, Berlin, Heidelberg, 2013, pp.
+1189–1194.
+Z. Xu et al. / Combustion and Flame 162 (2015) 3030–3045
+3045

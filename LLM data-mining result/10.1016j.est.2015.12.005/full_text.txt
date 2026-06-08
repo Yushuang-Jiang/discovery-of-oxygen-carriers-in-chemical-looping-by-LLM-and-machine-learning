@@ -1,0 +1,1117 @@
+
+
+===== Page 1 =====
+
+Manganese oxide-based thermochemical energy storage: Modulating
+temperatures of redox cycles by Fe–Cu co-doping
+Alfonso J. Carrilloa,*, David P. Serranoa,b, Patricia Pizarroa,b, Juan M. Coronadoa,**
+a Thermochemical Processes Unit, IMDEA Energy Institute, Avenida Ramón de la Sagra, 3, Parque Tecnológico de Móstoles, 28935 Móstoles, Madrid, Spain
+b Chemical and Environmental Engineering Group, ESCET, Rey Juan Carlos University, c/Tulipán s/n, 28933 Móstoles, Madrid, Spain
+A R T I C L E 
+I N F O
+Article history:
+Received 30 September 2015
+Received in revised form 14 December 2015
+Accepted 15 December 2015
+Available online 31 December 2015
+Keywords:
+Thermochemical heat storage
+Manganese oxides
+Redox cycles
+Hysteresis
+Co-doping
+A B S T R A C T
+Manganese oxides are promising materials for thermochemical heat storage at high temperatures due to
+their low price and toxicity. However, doping with other transition metals is needed for stabilizing the
+oxidation kinetics, enhancing the material durability over prolonged charge-discharge cycling. As well,
+this system presents a high thermal hysteresis if compared with other redox couples. Namely, metal
+oxide reduction takes place at higher temperatures (ca. 200 C) than re-oxidation of the reduced phase.
+Narrowing the hysteresis loop for the manganese oxide system means that heat is stored and released in a
+closer range of temperatures, which could boost the energy storage efﬁciency.
+In this work, it was studied the effect that co-doping of Mn oxides with Fe and Cu has on the redox
+temperatures of both forward and reverse reactions. Materials were prepared by a variation of Pechini
+method and characterized by XRD and SEM. The capacity to withstand several redox cycles was analyzed
+by thermogravimetric analyses. It was found that addition of certain amount of both dopants narrowed
+the thermal hysteresis of such redox couple, at the same time that stable reversibility was achieved.
+ã 2015 Elsevier Ltd. All rights reserved.
+1. Introduction
+Solar radiation can provide enough energy to meet the world's
+annual demand. However, efﬁcient use of this renewable resource
+is technologically and economically challenging due to, among
+other facts, its intermittence. In this respect, concentrated solar
+power (CSP) plants can generate round-the-clock electricity
+production with the incorporation of thermal energy storage
+systems (TES) [1,2]. Based on the mechanism in which heat is
+stored, three different types of systems are identiﬁed: sensible,
+latent and thermochemical heat storage [3,4]. Sensible heat
+storage is already commercially installed, whereas latent or
+thermochemical systems are still under development. Thermo-
+chemical 
+heat 
+storage (TCS), 
+which 
+stores 
+energy 
+through
+reversible reactions, is the less mature of these technologies and
+presents higher technical complexity than those based on sensible
+or latent heat. On the other hand, TCS generally exhibits high
+energy storage densities and high operational ﬂexibility, since a
+plethora of reversible reactions is available for such purpose,
+covering a wide range of temperatures. However, recent advances
+in central receiver plants working with volumetric air receivers
+have focused the attention in the development of TCS based on
+reduction-oxidation cycles of multivalent metal oxides. Although
+these CSP plants are still under development [5], future designs
+will produce high temperature air (>1000 C) at the receiver, which
+can be utilized both as heat transfer ﬂuid for the reduction and as
+reactant for the oxidation. This fact would avoid the need of gas
+storage as in the case of other TCS approaches based on gas–solid
+reactions (e.g., decarbonation–carbonation or dehydration-hydra-
+tion [6,7]). Namely, part of the hot air generated with sun radiation
+is used to supply the energy required to perform the oxide thermal
+reduction, releasing oxygen Eq. (1). By this high-temperature
+endothermic process, surplus heat produced at the CSP plant is
+partly stored by means of a chemical reaction (charge). During off-
+sun periods, discharge proceeds by performing the reverse reaction
+Eq. (2). In this case, air is used to oxidize the reduced form of the
+metal oxide, releasing the stored heat due to the exothermic nature
+of this reaction.
+Charge MOx + DH ! MOxy + y/2 O2 (g) 
+(1)
+Discharge MOxy + y/2 O2 (g) ! MOx + DH 
+(2)
+R&D activities in redox-based TCS are basically focused on three
+directly interrelated aspects: the storage material [8–16], the
+* Corresponding author.
+** Corresponding author.
+E-mail addresses: alfonso.carrillo@imdea.org (A.J. Carrillo),
+juanmanuel.coronado@imdea.org (J.M. Coronado).
+http://dx.doi.org/10.1016/j.est.2015.12.005
+2352-152X/ã 2015 Elsevier Ltd. All rights reserved.
+Journal of Energy Storage 5 (2016) 169–176
+Contents lists available at ScienceDirect
+Journal of Energy Storage
+journa l home page : www.e lsevier.com/loca te/est
+
+
+===== Page 2 =====
+
+reactor concept [17–19] and the system integration [20]. Regarding
+the storage material, which is the focus of this work, several factors
+must be evaluated that strongly affect to the reactor engineering
+and process integration. Among them, energy storage density, cost,
+toxicity, thermodynamic and kinetics of both reactions and
+durability of a chosen material are crucial aspects in order to
+achieve a technically and economically feasible TCS system. Based
+on the aforementioned characteristics, a preliminary screening
+[21] concluded that the most suitable candidates for high
+temperature TCS were BaO2/BaO, Co3O4/CoO and Mn2O3/Mn3O4.
+In particular, the redox couple Mn2O3/Mn3O4, which presents the
+beneﬁt of being an abundant and inexpensive material and with
+low toxicity, has been proved to withstand several redox cycles at
+such temperatures [10]. This redox couple stores and releases heat
+through the next reversible reaction:
+6Mn2O3 $ 4 Mn3O4 + O2 (g) DH298 K = 202 kJ kg1
+(3)
+One of the most remarkable characteristics of redox cycles of
+these metal oxides is that the forward and reverse reactions occur
+at different temperatures, i.e., a thermal hysteresis exists. Namely,
+the metal oxide reduction takes place at higher temperatures than
+the re-oxidation of the reduced phase. In the case of Mn-based
+redox couple, the temperature difference between reduction and
+oxidation is of ca. 200 K [8], whereas for Co3O4/CoO is around 50 K
+range, depending on the nature of the material assayed and the
+heating ramp used [8,11,14,16]. Narrowing the hysteresis loop for
+the manganese oxide system means that heat is stored and
+released in a closer range of temperatures, as in the case of Co oxide
+system, and this fact could suppose an increase of the charge–
+discharge energy efﬁciency and facilitate the integration of the
+system.
+In a previous work [9] we demonstrated that addition of Fe
+shifted reduction and oxidation reactions to higher temperatures.
+Especially, Fe-doping increased the oxidation temperature, which
+in turn produced a narrowing in the hysteresis loop, as for the
+reduction step the variation of the temperature was more
+moderate [9]. Although limited, the raise in such value forced to
+carry out the reaction by heating up to 1050 C in order to reach full
+conversion. What it seems that is just a slight increase in
+temperature can drastically affect to the materials cyclability
+[9]. This is mainly due to the exponential relation between
+temperature and particle sintering, which is the main responsible
+of Mn oxides aging [10]. On the other hand, addition of Cu slightly
+decreased both values [22]. Therefore, in this work, the inﬂuence
+that co-doping the Mn oxides with Fe and Cu has on the
+temperatures of both reactions has been studied. Redox cycling
+was monitored by thermogravimetric analysis. Structure and
+morphology were characterized by powder X-ray diffraction and
+scanning electron microscopy before and after reaction. Finally, the
+thermochemical heat storage/release capacity of the material
+presenting best redox behavior was analyzed by differential
+scanning calorimetry.
+2. Experimental methods
+2.1. Materials preparation
+Fe–Cu-doped 
+manganese 
+oxides 
+were 
+synthesized 
+by 
+a
+modiﬁcation of Pechini method [23]. The metal (Me) precursors,
+namely Mn(NO3)24 H2O (97%, Sigma–Aldrich), Cu(NO3)23 H2O
+(99%, Sigma–Aldrich) and Fe(NO3)39 H2O (98%, Sigma–Aldrich)
+were added to an aqueous solution of citric acid (CA, 99.5%,
+Scharlab) with a Me:CA molar ratio of 1:5, with constant stirring
+for 3 h at 70 C. Afterwards, ethylene glycol (EG, 99.5%, Sigma–
+Aldrich) was added with a molar ratio of CA:EG = 3:2 and kept
+during 2 h more under stirring at 90 C for geliﬁcation. Then, the gel
+was dried at 200 C for 3 h and then calcined at 450 C for 4 h in air.
+Finally, the calcined gel was ground to ﬁne powders and further
+calcined at 700 C for 4 h under static air. In total, eight samples
+were synthesized varying the Mn–Fe–Cu molar ratio as shown in
+Table 1.
+2.2. Materials characterization
+X-ray diffraction (XRD) analyses were performed using a Philips
+PW 3040/00 X'Pert MPD/MRD diffractometer with CuKa radiation
+(l = 1.54178 Å) at a scanning rate of 0.2 s1. Scherrer formula was
+applied to the most intense reﬂection to calculate the mean
+crystallite size. The background noise from ﬂuoresced X-rays was
+removed by using a diffracted-beam monochromator. Lattice
+dimensions were obtained using the Bragg law and the equation
+d2 = a2/(h2 + k2 + l2), where h,k and l are the Miller indexes of the
+Bragg plane, a is the cell parameter and d is the interplanar spacing.
+The speciﬁc surface area (SBET) was determined by nitrogen
+adsorption–desorption analyses at 77 K applying the multi-point
+BET method and using a Quantachrome QuadraSorb-S equipment.
+Prior to these measurements, samples were degassed at 250 C
+under vacuum. Scanning electron microscopy (SEM) images were
+taken with a Hitachi TM-100 microscope without any previous
+treatment of the samples.
+2.3. Redox cycling
+Stability of redox cycles was monitored by thermogravimetric
+analysis (TGA) using a SDT Q-600 from TA Instruments. In
+cyclability studies, ca. 10 mg of sample were placed into 90 ml
+alumina crucibles and subjected to 30 charging–discharging
+cycles. Each cycle consisted of a heating step from 650 C up to
+1000 C and a cooling step from 1000 C to 650 C both at a rate of
+5 K min1, under a constant air ﬂow of 100 ml min1 (pO2 = 0.21).
+Simultaneously to TGA, differential scanning calorimetry (DSC)
+was carried out in order to study the heat effects during reduction
+and oxidation reactions. DSC was calibrated under Ar atmosphere
+using the melting temperatures and enthalpies of Zn and Ag along
+the temperature range utilized for redox cycling.
+Table 1
+Molar composition, crystal phase, crystallite size (d), cubic lattice parameter (a) and speciﬁc surface area (SBET) of each synthesized sample.
+Sample name 
+Mn:Fe:Cu (mol%) 
+Crystal Phase 
+d (nm) 
+a (Å) 
+SBET (m2 g1)
+0Fe–0Cu 
+100:0:0 
+Mn2O3
+50 
+9.411 
+10.4
+1Fe–1Cu 
+98:1:1 
+Mn2O3
+42 
+9.399 
+10.0
+5Fe–1Cu 
+94:5:1 
+Mn2O3
+37 
+9.399 
+11.8
+5Fe–5Cu 
+90:5:5 
+Mn2O3
+44 
+9.399 
+11.2
+10Fe–1Cu 
+89:10:1 
+Mn2O3
+44 
+9.398 
+12.2
+10Fe–5Cu 
+85:10:5 
+Mn2O3
+44 
+9.393 
+10.9
+20Fe–1Cu 
+79:20:1 
+Mn2O3
+44 
+9.401 
+19.8
+20Fe–5Cu 
+75:20:5 
+Mn2O3
+47 
+9.398 
+16.7
+170 
+A.J. Carrillo et al. / Journal of Energy Storage 5 (2016) 169–176
+
+
+===== Page 3 =====
+
+3. Results and discussion
+3.1. Structure and morphology of Fe–Cu-doped Mn oxides
+Fe–Cu-Mn oxides were prepared by applying the Pechini
+method. In total eight samples were synthesized using different
+Mn:Fe:Cu molar ratios (Table 1). In the case of Cu, amounts higher
+than 1% could involve the formation of a segregated phase of Mn–
+Cu spinel as reported in Mn–Cu–O phase diagram [24]. The
+presence of a segregated phase is usually undesirable because it is
+often inert to the redox processes. Accordingly, the mixed oxide
+acts as a diluting agent, implying that the whole amount of
+material is not being used for thermochemical storage and,
+furthermore, it could add kinetic limitations to the redox cycles.
+Thus, maximum loads of 5% Cu were used in this study in order to
+check the aforementioned hypotheses. In the case of Fe, increasing
+its amount shifts the reduction to higher temperatures [9,25].
+However, in this case, the better solubility of trivalent iron cations
+in the bixbyite phase (cubic Mn2O3), due to the identical ionic
+radium of Fe3+ and Mn3+ in six-fold coordination (0.645 Å [26]),
+would allow its incorporation without phase segregation up to a
+50%. Nevertheless in this study the maximum Fe molar percentage
+was 20% since we previously demonstrated this to be the optimum
+Fe/Mn ratio for thermochemical heat storage [9].
+Fig. 1 
+depicts the XRD diffraction patterns for the six
+synthesized samples. It can be observed that all of them presented
+the same reﬂections, characteristic of bixbyite, Mn2O3, crystalline
+phase (ICDD-00-041-144). Thus, the formation of any segregated
+phase due to addition of dopants was not observed, as it could be
+expected for the samples containing 5% Cu. Crystallite sizes
+(Table 1) of the as-synthesized samples were of the same order of
+magnitude ranging from 37 to 50 nm. The dashed panel in Fig. 1
+depicts the most intense reﬂection for each sample. It can be
+observed a slight shift to higher 2u values, which is attributed to
+the incorporation of Cu2+ cations in the bixbyite cubic structure.
+Cubic lattice parameter determination showed a diminution for all
+the doped samples, although no clear trend was observed when
+increasing the Cu quantity. This decrease indicates that copper
+cations are most probably occupying tetrahedral sites in the lattice
+rather than octahedral ones, since Cu2+ is smaller than Mn3+ in
+fourfold coordination (0.57 Å) but larger in sixfold coordination
+(0.73 Å) [26]. The preference of Cu bivalent cations for tetrahedral
+positions is the main reason for the formation of Cu–Mn spinels
+when higher amounts of copper are used. In that case, Cu2+ cations
+occupy tetrahedral positions and Mn3+ octahedral ones.
+Regarding the morphology of the Fe–Cu-doped Mn oxides,
+differences between the several samples prepared by Pechini
+method were not huge. Fig. 2 depicts the SEM micrographs taken to
+the synthesized materials before being subjected to the charging-
+discharging cycles. All the samples presented similar shapes,
+formed by aggregates of irregular particles. Moderate changes
+were appreciated on the speciﬁc surface area. The general trend
+indicates that addition of Fe enlarged the SBET, whereas increasing
+amounts of Cu reduced such value (Table 1).
+3.2. Inﬂuence of Fe–Cu doping on the redox thermal hysteresis
+As mentioned in the introduction, one of the most remarkable
+characteristics of redox cycles of transition metal oxides (e.g.,
+Co3O4/CoO and Mn2O3/Mn3O4) is that oxidation and reduction
+reactions take place at different temperature ranges for the same
+oxygen partial pressure. With the purpose of narrowing the
+thermal hysteresis that the Mn2O3/Mn3O4 pair exhibits, chemical
+modiﬁcations of such materials have been chosen based on
+previous ﬁndings [9,22], in which we demonstrated that addition
+of Fe or Cu to the Mn oxides modiﬁed the temperatures at which
+redox reactions take place. In particular, addition of Fe increased
+the reduction and, in a higher extent, the oxidation temperature
+[9], leading to considerable narrowing of the redox hysteresis.
+Conversely, addition of 1 mol% Cu had the opposite effect. Thus, in
+this work we have evaluated if the combination of both dopants
+could have a synergetic effect in such modiﬁcation, by running
+redox 
+5 
+cycles 
+in 
+a 
+thermobalance. 
+As 
+described 
+in 
+the
+experimental section, each cycle consisted in heating/cooling
+steps within the range 1000–650 C as targeted upper and
+minimum temperatures, with the exception of 20Fe-1Cu sample
+that was subjected to cycles in which the heating step was carried
+out up to 1050 C. The resultant curves of weight variation versus
+temperature corresponding to the last four cycles of each sample
+are represented in Fig. 3.
+For the un-doped sample (0Fe–0Cu) it can be appreciated that
+the difference between the onset temperatures of reduction and
+oxidation reactions (Tred and Tox, respectively) is 225 K (Table 2).
+Through the addition of 1 mol% of both dopants such difference
+was reduced by ca. 10 K. This was mainly caused by a higher
+increase of Tox, probably due to the incorporation of Fe. Thus,
+increasing the molar percentage of Fe up to 10% progressively
+reduced DTHysteresis up to a value of 104 K. In the case of
+incorporating 20% of Fe, the reduction temperature was consider-
+ably increased, as observed in an initial evaluation of such step
+(Fig. S1), this fact causing that no cyclability was achieved when
+using 1000 C as the upper heating temperature. For that reason,
+20Fe–1Cu sample was subjected to cycles in which the heating step
+was carried out up to 1050 C. In this case, despite the oxidation
+temperature was also incremented; the net impact on the
+DTHysteresis of Mn2O3 was a slight enlargement in comparison to
+the sample containing 10% Fe.
+On the other hand, the inﬂuence of Cu addition can be clearly
+observed for the three oxides containing 5% of such cation, since
+reduction temperatures are lower than for the un-doped material.
+It is remarkable that 20Fe–5Cu sample showed a Tred 83 C smaller
+than 20Fe–1Cu. It also should be pointed out that addition of Cu
+changed the shape of the weight loss curve, i.e., the kinetics of the
+reduction of Mn2O3. For the samples with just 1% Cu, such weight
+loss is a fast process, especially during the ﬁrst part of the reaction.
+However, those materials containing larger Cu amounts exhibited
+a much more progressive weight loss, indicating that addition of
+this dopant slowed the reduction reaction. Finally, as a result of the
+complementary roles of both cations, a synergetic effect was
+Fig. 1. X-Ray diffractograms of the as-synthesized Fe–Cu-doped Mn oxides. The
+right panel shows the dashed zone to observe better the peak shift.
+A.J. Carrillo et al. / Journal of Energy Storage 5 (2016) 169–176 
+171
+
+
+===== Page 4 =====
+
+attained with the 20Fe–5Cu sample, exhibiting the narrowest
+redox window (DTHysteresis = 81 K). These ﬁndings demonstrate
+that 
+redox 
+temperatures 
+can 
+be 
+tailored 
+by 
+selecting 
+the
+appropriate ratio of dopants. This is especially important for the
+efﬁciency of the overall charge–discharge cycle. Diminishing the
+temperature difference between the reduction and oxidation
+reactions will imply that heat storage and heat release are
+happening in a closer range, enhancing the exergetic efﬁciency of
+the overall process.
+3.3. Redox cycles stability
+The capacity to withstand several charge–discharge cycles was
+tested by carrying out 30-redox cycles assays to each sample.
+Fig. 4a represents the results of these runs. In Fig. 4b it is separately
+depicted an extract of 20 charge–discharge cycles for the 20Fe–1Cu
+sample since, as explained above, it was necessary to heat up to
+1050 C in order to reach full conversion in the reduction step. It
+can be observed that all the Fe–Cu-doped Mn oxides presented
+redox reversibility in the conditions assayed. Moreover, samples
+doped with 1% Cu presented quite stable redox cycles. However,
+those containing 5% Cu showed a remarkable change in their
+cyclability after several charge–discharge steps. For instance,
+sample 10Fe–5Cu presented a loss in its cycle stability which led to
+incomplete reactions. In particular, only an 85% of the reduced
+form of such sample was oxidized in the last cycle.
+As well, it was observed that by adding 5% Cu the weight loss
+was diminished to values among 3.1–3.2%, which is ca. 6% less than
+the theoretical value (3.4% calculated based on the stoichiometry of
+Eq. (3). This fact suggests that these samples might contain a minor
+amount of a segregated phase in the form of CuMn2O4 spinel,
+taking into account that the mixture of bixbyite and spinel phases
+Fig. 2. SEM images of the as-synthesized Fe–Cu-doped Mn oxides.
+172 
+A.J. Carrillo et al. / Journal of Energy Storage 5 (2016) 169–176
+
+
+===== Page 5 =====
+
+has been previously reported in literature [24]. Since the presence
+of such spinel was not observed by XRD measurements of the fresh
+samples, the samples after 30 redox cycles were also analyzed as an
+attempt to detect the presence of Cu-Mn segregated phases (Fig. 5).
+In addition to the reﬂections corresponding to bixbyite Mn2O3,
+0Fe–0Cu, 1Fe–1Cu, 5Fe–5Cu and 10Fe–5Cu samples exhibited
+diffraction signals indicating the presence of tetragonal Mn3O4
+phase (ICDD: 00-024-0734), which is due to the incomplete
+oxidation reaction in the last cooling step. On the other hand,
+despite all materials containing 5% Cu and also 10Fe–1Cu sample
+present a small peak at ca. 35.7 characteristic of CuMn2O4 spinel
+(ICDD: 01-074-1920), it is difﬁcult to ascertain if this reﬂection is
+only a minor contribution of CuMn2O4 or Mn2O3 since both phases
+present a signal at that diffraction angle.
+In order to evaluate the morphological changes caused by
+thermal cycling, SEM pictures were taken to each sample after the
+30 redox cycles. As it can be seen in Fig. 6, Fe–Cu-doped Mn oxides
+experienced a remarkable change due to the high temperature at
+which charge–discharge cycles take place. Namely, materials
+suffered from sintering after cycling; this process being mainly
+associated 
+with 
+particle 
+densiﬁcation 
+and 
+coarsening. 
+The
+700
+80
+ 
+0
+90
+ 
+0
+100
+ 
+0
+95.0
+95.5
+96.0
+96.5
+97.0
+97.5
+98.0
+98.5
+99.0
+99.5
+20Fe-1Cu
+10Fe-5Cu
+10Fe-1Cu
+5Fe-1Cu
+0Fe-0Cu
+1Fe-1Cu
+700
+80
+ 
+0
+90
+ 
+0
+100
+ 
+0
+95.5
+96.0
+96.5
+97.0
+97.5
+98.0
+98.5
+99.0
+99.5
+100.0
+700
+80
+ 
+0
+90
+ 
+0
+100
+ 
+0
+96.0
+96.5
+97.0
+97.5
+98.0
+98.5
+99.0
+99.5
+100.0
+100.5
+700
+80
+ 
+0
+90
+ 
+0
+100
+ 
+0
+95.5
+96.0
+96.5
+97.0
+97.5
+98.0
+98.5
+99.0
+99.5
+100.0
+)
+%
+(
+t
+h
+gie
+W
+700
+80
+ 
+0
+90
+ 
+0
+100
+ 
+0
+96.0
+96.5
+97.0
+97.5
+98.0
+98.5
+99.0
+99.5
+100.0
+100.5
+700
+80
+ 
+0
+90
+ 
+0
+100
+ 
+0
+95.5
+96.0
+96.5
+97.0
+97.5
+98.0
+98.5
+99.0
+99.5
+100.0
+Tempe
+ 
+ratu
+ re ( ºC)
+20Fe-5Cu
+5Fe-5Cu
+700
+80
+ 
+0
+90
+ 
+0
+100
+ 
+0
+95.5
+96.0
+96.5
+97.0
+97.5
+98.0
+98.5
+99.0
+99.5
+100.0
+700
+80
+ 
+0
+90
+ 
+0
+100
+ 
+0
+96.0
+96.5
+97.0
+97.5
+98.0
+98.5
+99.0
+99.5
+100.0
+100.5
+95.5
+96.0
+96.5
+97.0
+97.5
+98.0
+98.5
+99.0
+99.5
+100.0
+95.5
+96.0
+96.5
+97.0
+97.5
+98.0
+98.5
+99.0
+99.5
+100.0
+95.5
+96.0
+96.5
+97.0
+97.5
+98.0
+98.5
+99.0
+99.5
+100.0
+95.5
+96.0
+96.5
+97.0
+97.5
+98.0
+98.5
+99.0
+99.5
+100.0
+95.5
+96.0
+96.5
+97.0
+97.5
+98.0
+98.5
+99.0
+99.5
+100.0
+Fig. 3. Weight variation versus temperature plot of four redox cycles (2nd–5th) for the eight Fe-Cu-doped Mn oxides.
+Table 2
+Reduction and oxidation onset temperatures and thermal hysteresis value for the
+ﬁfth redox cycle.
+Sample name 
+Tred (C) 
+Tox (C) 
+DTHysteresis (K)
+0Fe–0Cu 
+940 
+715 
+225
+1Fe–1Cu 
+945 
+733 
+212
+5Fe–1Cu 
+972 
+815 
+157
+5Fe–5Cu 
+923 
+803 
+120
+10Fe–1Cu 
+980 
+876 
+104
+10Fe–5Cu 
+914 
+816 
+98
+20Fe–1Cu 
+985 
+850 
+135
+20Fe–5Cu 
+902 
+821 
+81
+30
+40
+50
+60
+70
+80
+95
+96
+97
+98
+99
+100
+101
+102
+103
+)
+%
+(
+t
+h
+gie
+W
+Time (h)
+20Fe-1Cu
+0
+100
+200
+300
+400
+500
+600
+700
+800
+900
+1000
+1100
+Temperature (ºC)
+96
+98
+100
+)
+%
+(
+t
+h
+gie
+W
+1Fe-1C 
+u
+96
+98
+100
+5Fe-1C 
+u
+96
+98
+100
+5Fe-5C 
+u
+96
+98
+100
+10Fe-1C 
+u
+96
+98
+100
+10Fe-5C 
+u
+96
+10
+20
+30
+40
+50
+60
+70
+96
+98
+100
+Time (h)
+20Fe-5C 
+u
+750
+1000
+96
+98
+100
+0Fe-0C 
+u
+100
+)
+C
+º(
+T
+a 
+b
+Fig. 4. (a) 30 redox cycles analyses performed in thermobalance. Each cycle consisted in heating up to 1000 C and cooling down to 650 C. (b) Extract of 20 cycles (10th–30th)
+of a 30 redox cycles performed to 20Fe–1Cu sample (heating up to 1050 C).
+A.J. Carrillo et al. / Journal of Energy Storage 5 (2016) 169–176 
+173
+
+
+===== Page 6 =====
+
+occurrence of both phenomena leads to an oxide with open
+macroporosity and a characteristic coral-like shape. Fe–Cu-doped
+materials exhibited a similar morphology compared to the un-
+doped Mn oxide, except for the samples with a 5% of Cu content
+and for 20Fe–1Cu which suffered a remarkable superior sintering
+effect. In the case of the last sample, it is attributed to the higher
+maximum temperature used for the redox cycling test, since
+sintering phenomena increases exponentially with temperature.
+Among the three 5% Cu doped-Mn oxides, 10Fe–5Cu and 20Fe–5Cu
+samples showed remarkable larger particle sizes, which can be
+related with the reason why at some point the oxidation reaction
+did not achieve full conversion during the cyclability test in both
+oxides (Fig. 4a). This huge morphological change may add barriers
+to the diffusion of oxygen through the reduced form of the metal
+oxide modifying the overall reaction kinetics. Interestingly, this
+does not apply for 20Fe–1Cu, which exhibited quite stable redox
+cycles and high degree of coarsening.
+When comparing 10Fe–1Cu and 10Fe–5Cu materials, it can be
+easily observed the vast differences in grain size for the two
+samples that were synthesized using the same procedure and
+analyzed under the same temperature conditions. Therefore, it
+may be considered that a higher concentration of Cu2+ enhanced
+defect and metal cation migration improving neck formation
+between particles, process that favored coarsening and densiﬁca-
+tion and, hence, resulting in a larger sintering extent. Differences in
+the surface energies induced by dopant incorporation surely play
+an additional role in the morphological changes of sintered
+aggregates from vermicular, in the case of low dopant contents, to
+prismatic forms at higher concentrations of Fe and Cu.
+The heat storage and release was measured by DSC, which was
+carried out simultaneously with TGA. We speciﬁcally analyzed the
+charge–discharge process for the 20Fe–1Cu sample, since it
+presented the best cyclability performance. Fig. 7 depicts the
+endothermic and exothermic peaks for the 15th cycle of the
+aforementioned sample. The area under the endothermic peak was
+determined by tangential–sigmoidal integration. It resulted in a
+reduction enthalpy value of 165 kJ kg1. Analogously, the oxidation
+enthalpy obtained was 150 kJ kg1, which is 10% lower than that of
+reduction. It should be noted that DSC measurements were carried
+out in alumina open crucibles. This fact implicates that some heat
+losses are involved due to the open system and the more moderate
+heat conductivity of alumina. Although these values are very
+similar to those of pure Mn oxide [9], they are 25% lower than the
+corresponding to a 20%Fe doped Mn oxide measured under the
+same conditions [9]. The rest Fe–Cu doped Mn oxides did not show
+better energy storage densities than 20Fe–1Cu sample. This result
+is attributed to the presence of Cu cations, which, even if added in
+small proportions, affected negatively to the heat storage/release
+values, very likely due to the dilution effect of the segregated
+CuMn2O4 spinel.
+3.4. Inﬂuence of Fe–Cu-doping on the redox kinetics
+As mentioned above, sintering processes, related with particle
+coarsening and densiﬁcation, have a direct impact on the oxidation
+reaction. However, it was found that by doping with the proper
+amount of Fe and Cu, the diffusional hurdles caused by sintering
+can be counteracted. This can be observed in Fig. 8a, where the
+cycle-to-cycle evolution of the oxidation rate for each sample is
+depicted. It can be distinguished three different trends depending
+on the doping content. That is, 0Fe–0Cu presented an exponential
+decrease of the oxidation rate values during the initial cycles,
+reaching a plateau on the last half of the assay. This exponential
+decrease can be remarkably improved by the adequate addition of
+Fe and Cu. For instance, by adding 1% of both dopants it was
+obtained a slightly worse oxidation behavior. However, by
+increasing the Fe content up to 5% (5Fe–1Cu) high and stable
+oxidation rates were observed over the 30-cycles run, presenting
+an average value of 4.3 mmol O2 min1 g1. 10Fe–1Cu sample
+showed the second highest initial oxidation rate, but it suffered a
+gradual decrease during the ten ﬁrst cycles, period after which it
+reached a quasi-stable value at ca. 3.4 mmol O2 min1 g1. This
+decrease is attributed to the formation of a segregated phase, as
+suggested by XRD analysis of Fig. 5, as a consequence of the
+prolonged thermal stresses to which the material was subjected
+during the TG experiments. Accordingly, the possible formation of
+segregated spinels suggested by XRD analysis could also explain
+the progressive decrease of the oxidation rate values for three
+samples with 5% Cu. Nevertheless, despite such samples presented
+a higher sintering extent (Fig. 6) in comparison with the un-doped
+oxide, they presented faster oxidation reactions along the whole
+30 cycles assayed, fact that could be explained by the presence of Fe
+cations in the Mn3O4 lattice. Indeed, for all the synthesized
+samples, the oxidation was clearly enhanced when increasing the
+Fe content. This fact was ultimately conﬁrmed when observing the
+oxidation rate values for 20Fe–1Cu sample. Besides presenting
+quite stable oxidation reactions over the whole test, such material
+showed the fastest oxidation rate. It reached an oxidation rate peak
+maximum of 6.5 mmol O2 min1 g1 (17th cycle) and an average
+rate value of 6.1 mmol O2 min1 g1. These results are very similar
+to those reported for 20% Fe-doped Mn oxide [9].
+Conversely, all the tested materials exhibited much more stable
+reduction rates along the whole 30-redox cycle runs (Fig. 8b). This
+result is attributed to the different mechanisms that control
+oxidation and reduction reactions [10]. In the case of reduction,
+which is a thermally controlled process [9], sintering does not
+affect to its rate stability over long thermal cycling in the same
+extent as in the case of oxidation. Additionally, in our previous
+work we found that an increase in the heating rate produced an
+increase on the reduction rate for both un-doped and Fe-doped Mn
+oxides. On the other hand, for the un-doped Mn oxide oxidation
+rates were not improved by using higher cooling rates. Indeed,
+incomplete conversions were achieved when using cooling rates
+higher than 10 K min1 for a sample with equal composition to
+0Fe–0Cu [9]. In general, reduction is a faster process than
+oxidation. For instance for 0Fe–0Cu, in the ﬁrst cycle, reduction
+is a 2-fold faster reaction than oxidation. However, it can be
+observed that co-doping Mn2O3 with Fe and Cu slows down the
+Fig. 5. XRD diffractograms after 30 redox cycle analyses.
+174 
+A.J. Carrillo et al. / Journal of Energy Storage 5 (2016) 169–176
+
+
+===== Page 7 =====
+
+reduction reaction, this effect being more pronounced in the case
+of Cu cations. Consequently, 20Fe–5Cu sample presented the
+slowest reduction reactions over the whole cycling period studied.
+However, improving the thermal reduction kinetics can be easily
+performed by carrying out such reaction at higher heating rates, as
+we previously demonstrated [9].
+In summary, from the reaction rates analysis, it seems that Fe is
+the major responsible for the oxidation rate enhancement and
+stabilization 
+over long 
+thermal 
+cycling, 
+whereas increasing
+contents of Fe and, specially, Cu caused slower reduction reactions.
+Nevertheless, with the techniques employed in the present work
+we could not discard interactions between Cu and Fe cations
+during the reduction and/or oxidation that could also affect to the
+redox kinetics and the reaction temperatures.
+Fig. 6. SEM micrographs of the Fe–Cu-doped Mn oxides after 30 redox cycles. (It should be noted that 20Fe–1Cu was cycled up to 1050 C).
+46.25
+46
+ 
+.50
+46
+ 
+.75
+47
+ 
+.00
+47
+ 
+.25
+47
+ 
+.50
+47
+ 
+.75
+96.0
+96.5
+97.0
+97.5
+98.0
+98.5
+99.0
+99.5
+100.0
+100.5
+150 kJ/ kg
+)
+%
+(
+t
+h
+gie
+W
+Time (h)
+ % Weigh t
+165 kJ/ kg
+20Fe-1
+ 
+Cu
+600
+800
+1000
+Tempe rature
+Temperature (°C)
+-5
+-4
+-3
+-2
+Heat F
+ 
+low
+Heat Flow (W/g)
+Fig. 7. DSC analysis for the 15th cycle carried out to 20Fe–1Cu sample.
+A.J. Carrillo et al. / Journal of Energy Storage 5 (2016) 169–176 
+175
+
+
+===== Page 8 =====
+
+4. Conclusions
+In this work it has been demonstrated the possibility of tuning
+the reduction and oxidation temperatures of a given redox couple
+by metal co-doping. This is especially important for heat storage
+systems based in redox cycles, since all of them present a
+characteristic thermal hysteresis. By narrowing such hysteresis,
+overall process efﬁciency is improved since storage and release of
+heat take place in a closer temperature range, then diminishing the
+energy penalty associated with lowering the temperature for
+performing the oxidation reaction. In particular, we have proven
+that Fe–Cu co-doping can be used for such approach in Mn oxide-
+based 
+thermochemical 
+heat 
+storage 
+system. 
+The 
+reduction
+temperature can be diminished by Cu incorporation, whereas
+oxidation temperature is increased through Fe doping. Thus, the
+difference 
+between 
+reduction 
+and 
+oxidation 
+temperature
+(DTHysteresis) has been signiﬁcantly decreased from 225 K, for the
+un-doped Mn oxide, up to 81 K for the sample containing 20 mol%
+of Fe and 5 mol% Cu. However, despite working at lower reduction
+temperatures and with smaller DTHysteresis is interesting from a
+process point of view, adding 5% of Cu also lowered the reduction
+rate and caused a gradual decrease on the oxidation one probably
+due to the formation of segregated mixed Mn–Cu spinel.
+Acknowledgements
+This work has received ﬁnancial support from the projects TCS
+Power of the FP7 (ENERGY.2011.2.5-1) and MULTISTOR (ENE2012-
+36937) of the Spanish Ministry of Economy and Competitiveness.
+Appendix A. Supplementary data
+Supplementary data associated with this article can be found, in
+the online version, at http://dx.doi.org/10.1016/j.est.2015.12.005.
+References
+[1] M. Romero, A. Steinfeld, Energy Environ. Sci. 5 (2012) 9234.
+[2] M. Romero, J. González-Aguilar, Wiley Interdiscip. Rev. Energy Environ. 3
+(2014) 42.
+[3] S. Kuravi, J. Trahan, D.Y. Goswami, M.M. Rahman, E.K. Stefanakos, Prog. Energy
+Combust. Sci. 39 (2013) 285.
+[4] A. Gil, M. Medrano, I. Martorell, A. Lázaro, P. Dolado, B. Zalba, L.F. Cabeza,
+Renew. Sustain. Energy Rev. 14 (2010) 31.
+[5] S. Zunft, M. Hänel, M. Krüger, V. Dreißigacker, F. Göhring, E. Wahl, J. Sol. Energy
+Eng. 133 (2011) 031019.
+[6] J. Wu, X. Feng Long, Int. J. Energy Res. 39 (2015) 869.
+[7] P. Pardo, A. Deydier, Z. Anxionnaz-Minvielle, S. Rougé, M. Cabassud, P. Cognet,
+Renew. Sustain. Energy Rev. 32 (2014) 591.
+[8] A.J. Carrillo, J. Moya, A. Bayón, P. Jana, V.A. de la Peña O’shea, M. Romero, J.
+Gonzalez-Aguilar, D.P. Serrano, P. Pizarro, J.M. Coronado, Sol. Energy Mater. Sol.
+Cells 123 (2014) 47.
+[9] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, ChemSusChem 8 (2015)
+1947.
+[10] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, J. Mater. Chem. A 2 (2014)
+19435.
+[11] C. Agraﬁotis, M. Roeb, M. Schmücker, C. Sattler, Sol. Energy 102 (2014) 189.
+[12] C. Agraﬁotis, S. Tescari, M. Roeb, M. Schmücker, C. Sattler, Sol. Energy 114
+(2015) 459.
+[13] C. Agraﬁotis, M. Roeb, M. Schmücker, C. Sattler, Sol. Energy 114 (2015) 440.
+[14] T. Block, N. Knoblauch, M. Schmücker, Thermochim. Acta 577 (2013) 25.
+[15] S.M. Babiniec, E.N. Coker, J.E. Miller, A. Ambrosini, Sol. Energy 118 (2015) 451.
+[16] C. Pagkoura, G. Karagiannakis, A. Zygogianni, S. Lorentzou, M. Kostoglou, A.G.
+Konstandopoulos, M. Rattenburry, J.W. Woodhead, Sol. Energy 108 (2014) 146.
+[17] M. Neises, S. Tescari, L. de Oliveira, M. Roeb, C. Sattler, B. Wong, Sol. Energy 86
+(2012) 3040.
+[18] E. Alonso, C. Pérez-Rábago, J. Licurgo, E. Fuentealba, C.A. Estrada, Sol. Energy
+115 (2015) 297.
+[19] S.Á. De Miguel, J. Gonzalez-Aguilar, M. Romero, Energy Procedia 49 (2014) 676.
+[20] A.J. Schrader, A.P. Muroyama, P.G. Loutzenhiser, Sol. Energy 118 (2015) 485.
+[21] B. Wong, L. Brown, F. Schaube, R. Tamme, C. Sattler, 16th SolarPACES
+International Symposium, Perpignan, France, 2010, pp. 1–8.
+[22] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Eurotherm Seminar #99
+Advances in Thermal Energy Storage, Lleida, Spain, 2014.
+[23] P. Jana, V.A. de la Peña O'shea, J.M. Coronado, D.P. Serrano, Int. J. Hydrogen
+Energy 35 (2010) 10285.
+[24] P. Wei, M. Bieringer, L.M.D. Cranswick, A. Petric, J. Mater. Sci. 45 (2010) 1056.
+[25] M. Rydén, H. Leion, T. Mattisson, A. Lyngfelt, Appl. Energy 113 (2014) 1924.
+[26] R.D. Shannon, Acta Crystallogr. Sect. A 32 (1976) 751.
+a
+b
+Fig. 8. 30-cycle oxidation (a) and reduction (b) rate evolution.
+176 
+A.J. Carrillo et al. / Journal of Energy Storage 5 (2016) 169–176

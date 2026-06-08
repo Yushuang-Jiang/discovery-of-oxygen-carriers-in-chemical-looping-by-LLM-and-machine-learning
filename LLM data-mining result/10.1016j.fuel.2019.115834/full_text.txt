@@ -1,0 +1,980 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Fuel
+journal homepage: www.elsevier.com/locate/fuel
+Full Length Article
+Thermochemical splitting of CO2 using Co-precipitation synthesized
+Ce0.75Zr0.2M0.05O2-δ (M = Cr, Mn, Fe, CO, Ni, Zn) materials
+Gorakshnath Takalkar, Rahul R. Bhosale⁎, Fares AlMomani
+Department of Chemical Engineering, College of Engineering, Qatar University, P. O. Box – 2713, Doha, Qatar
+A R T I C L E I N F O
+Keywords:
+CO2 splitting
+Thermochemical cycles
+Ceria-zirconia solid solution
+Co-precipitation method
+Redox reactivity
+Solar fuels
+A B S T R A C T
+This work reports the investigation of the redox reactivity of Ce0.75Zr0.2M0.05O2-δ (M = Cr, Mn, Fe, Ni, Co, Zn)
+materials towards thermochemical CO2 splitting (CS) cycle. The Ce0.75Zr0.2M0.05O2-δ materials were prepared via
+co-precipitation method and the derived materials were characterized to determine the phase/elemental com-
+position and microstructural morphology. The powder X-ray diffraction (PXRD) analysis indicate formation of
+phase pure Ce0.75Zr0.2M0.05O2-δ materials with no metal or metal oxide impurities. The analysis performed using
+scanning electron microscopy confirms production of agglomerated roundish particles of Ce0.75Zr0.2M0.05O2-δ
+materials. Synthesized Ce0.75Zr0.2M0.05O2-δ materials were further tested, using a thermogravimetric analyzer
+(TGA), to determine their redox reactivity towards CS reactions. The obtained results indicate that all the
+Ce0.75Zr0.2M0.05O2-δ materials possess better thermal reduction (TR) and CS aptitude as compared to previously
+studied phase pure ceria and transition metal doped ceria oxides. The obtained results further indicate that,
+except for Ce0.75Zr0.2Mn0.05O2-δ material, all the other Ce0.75Zr0.2M0.05O2-δ materials were capable of releasing
+higher amounts of O2 during TR performed at 1400 °C as compared to Ce0.75Zr0.25O2-δ. Overall in ten thermo-
+chemical cycles, the Ce0.75Zr0.2Zn0.05O2-δ showed the highest O2 releasing capacity (105.1 μmol/g·cycle) and the
+Ce0.75Zr0.2Ni0.05O2-δ indicated the maximum CO production aptitude (170.5 μmol/g·cycle).
+1. Introduction
+Gas to liquid (GTL) technology, based on the Fischer–Tropsch (FT)
+process, is a well-known option to convert natural gas i.e., CH4 into
+synthetic liquid fuels [1,2]. Pearl GTL (from Shell) located in Qatar is
+one of the largest capacity GTL plant. This plant operates in the fol-
+lowing three steps: 1) conversion of CH4 into synthesis gas (mixture of
+H2 and CO), 2) conversion of synthesis gas in to liquid hydrocarbons, 3)
+cracking and isomerization to produce the synthetic fuels such as diesel,
+kerosene, etc. This process has the potential to produce synthetic fuels
+from CH4, however emission of CO2 is considered as one of the major
+concerns.
+As an alternative to the GTL process, a metal oxide (MO) based
+solar-assisted two-step thermochemical H2O splitting (WS) and CO2
+splitting (CS) redox cycle can be considered for the production of
+syngas. As shown in Fig. 1, the combination of solar thermochemical
+syngas production cycle and the catalytic FT process provides a sus-
+tainable and environment friendly route for the generation of synthetic
+fuels from H2O and CO2.
+The MO-based WS/CS cycle is advantageous as it a) decreases the
+operating temperatures and b) resolves the issues associated with the
+gas separation allied with the direct WS/CS splitting reactions. The
+reactions allied to the solar thermochemical WS/CS cycle are presented
+below.
+Thermal reduction (TR) step:
++
+MO
+MO
+O
+2
+x
+x
+( )
+(
+)
+2
+(1)
+WS/CS step:
++
++
+MO
+H O CO
+MO
+H CO
+/
+/
+x
+x
+(
+)
+2
+2
+( )
+2
+(2)
+A variety of MOs such as zinc oxide [3–5], tin oxide [6–7], iron
+oxide [8–9], ceria and doped ceria [10–13], perovskites [14–17], fer-
+rites [18–20], other MOs [21–23] were utilized until now as the redox
+active materials for the splitting of H2O/CO2. Among the listed MOs,
+because of their a) higher oxygen storage capacity (OSC), b) faster ki-
+netics associated with the TR and WS/CS reactions, and c) excellent
+thermal stability, the ceria based redox materials were considered as
+the state of the art redox materials for solar thermochemical WS/CS
+cycles.
+Chueh et al. [24] have demonstrated the feasibility of CeO2 towards
+stable
+fuel
+generation
+via
+WS
+and
+CS
+reactions
+over
+500
+https://doi.org/10.1016/j.fuel.2019.115834
+Received 27 January 2019; Received in revised form 13 June 2019; Accepted 17 July 2019
+⁎ Corresponding author.
+E-mail address: rahul.bhosale@qu.edu.qarrbh (R.R. Bhosale).
+Fuel 256 (2019) 115834
+Available online 05 August 2019
+0016-2361/ © 2019 Elsevier Ltd. All rights reserved.
+T
+
+
+===== Page 2 =====
+
+thermochemical cycles. To further improve the fuel production capacity
+of CeO2, several researchers have explored Zr-doped ceria materials
+(ceria zirconia solid solutions). Miller et al. [25] prepared and utilized
+the CeO2-ZrO2 monolithic structures for thermochemically splitting the
+H2O/CO2. Thermochemical WS ability of the CeO2-ZrO2 solid solution
+was compared with the other CeO2-MOX solid solutions (where,
+M = Mn, Fe, Co, Cu, and Zn) by Abanades et al. [26] and reported that
+the CeO2-ZrO2 solid solution is the foremost choice in terms of the
+redox reactivity towards TR and WS steps. Kaneko et al. [27] tested the
+O2 releasing capacity of the Ce1-xZrxO2 (x = 0.1, 0.2, 0.3) solid solu-
+tions by performing the TR in presence of high O2 partial pressure and
+reported that the amount of O2 released (nO2) by Ce0.8Zr0.2O2-δ was
+greater than the CeO2 and other ceria-zirconia solid solutions. Le Gal
+and Abanades [28] reported that the Ce0.75Zr0.25O2-δ showed better TR
+and WS aptitude as compared to Ce0.9Zr0.1O2-δ and Ce0.5Zr0.5O2-δ for
+multiple TR (at 1400 °C) and WS steps (at 1050 °C). The thermodynamic
+and experimental exploration of Ce1-xZrxO2 (x = 0.05, 0.1, 0.15, 0.2)
+towards WS cycles was reported by Hao et al. [29] and the obtained
+results shows that the H2 production was enhanced with the increase in
+the Zr concentration (optimum range 15–20%).
+A study performed by Scheffe et al. [30] shows that the inclusion of
+Zr and Hf in the CeO2 fluorite structure was responsible for the im-
+provement in the CO production via CS reaction. The Ce1-xZrxO2 redox
+materials were tested by Abanades and Le Gal [31] and reported that
+the 10% incorporation of Zr in the ceria crystal structure was ad-
+vantageous to achieve CO production up to 130 μmol/g·cycle. Ac-
+cording to Call et al. [32], the Ce0.85Zr0.15O2 material was capable of
+attaining the maximum nO2 = 155 μmol/g·cycle and nCO = 305 μmol/
+g·cycle as compared to the other Ce1-xZrxO2 materials (where, x
+= 0–0.375) in four thermochemical CS cycles. Zhao et al. [33] and
+Jiang et al. [34] reported that the reduction in the activation energy
+associated with the CS reaction was responsible for the production of
+higher amount of CO by ceria-zirconia solid solutions in comparison to
+the phase pure ceria material.
+Recently, Munich et al. [35] reported that the ceria-zirconia solid
+solutions can be considered as promising redox materials based on their
+high solar-to-fuel energy conversion efficiency. These authors further
+added that the inclusion of the alkaline metals and transition metals as
+the dopants in the ceria-zirconia solid solutions resulted into im-
+provement in the H2 production via WS reaction. To achieve production
+of high quality syngas, in addition to the H2, CO generation via CO2
+splitting cycle is also an important step. Therefore, in this investigation,
+the influence of incorporation of transition metals such as Cr, Mn, Fe,
+Co,
+Ni,
+and
+Zn
+in
+the
+ceria-zirconia
+crystal
+structure
+on
+the
+thermochemical CS ability was examined. The Ce0.75Zr0.2M0.05O2-δ
+(where, M = Cr, Mn, Fe, Co, Ni, Zn) were synthesized using co-pre-
+cipitation method. As-prepared Ce0.75Zr0.2M0.05O2-δ materials were
+analyzed using multiple characterization techniques. A high tempera-
+ture thermogravimetric analyzer (TGA) was utilized to determine the
+redox reactivity of each Ce0.75Zr0.2M0.05O2-δ material by performing
+multiple CS cycles.
+2. Experimental sections
+2.1. Synthesis and characterization of Ce0.75Zr0.2M0.05O2-δ materials
+Synthesis of Ce0.75Zr0.2M0.05O2-δ materials using co-precipitation
+method was conducted by using following precursors (purchased from
+Sigma Aldrich, USA): Ce(III)(NO3)2·6H2O, Ni(II)(NO3)2·6H2O, Co(II)
+(NO3)2·6H2O, Zn(NO3)2·6H2O, Cr(III)(NO3)3·9H2O, Mn(II)(NO3)2·4H2O,
+Zr(IV)N2O7·H2O, Cr(III) (NO3)3·9H2O, Fe(III)(NO3)2·3H2O and 28%
+ammonium hydroxide. Deionized (DI) water was utilized for the dis-
+solution of metal precursors. Gas cylinders containing a) Ar with a
+stated purity of 99.999% and b) feedstock gas mixture containing 50%
+CO2 in Ar were acquired from a local supplier.
+The amounts of metal precursors needed for the synthesis of 1 g of
+Ce0.75Zr0.2M0.05O2-δ material were dissolved in excess DI water. To this
+solution, an aqueous ammonium hydroxide was added (as a pre-
+cipitating agent) until the pH of the solution reaches ~10. This aqueous
+solution was further stirred for 24–48 h (with a maintained pH ~10) to
+complete the precipitation reaction. The obtained precipitate of
+Ce0.75Zr0.2M0.05O2-δ was washed multiple times with DI water using a
+vacuum filtration unit (to remove the unreacted chemicals). The wa-
+shed solid particles were dried at 120–130 °C for multiple hours to re-
+move the moisture. Finally, the dried particles were crushed into a fine
+powder and this powder was further calcined up to 1000 °C in air for
+3–4 h using a muffle furnace. For simplicity, the Ce0.75Zr0.2M0.05O2-δ
+materials
+were
+abbreviated
+as:
+Ce0.75Zr0.2Cr0.05O2-δ
+(CZCr),
+Ce0.75Zr0.2Mn0.05O2-δ
+(CZMn),
+Ce0.75Zr0.2Fe0.05O2-δ
+(CZFe),
+Ce0.75Zr0.2Co0.05O2-δ
+(CZCo),
+Ce0.75Zr0.2Ni0.05O2-δ
+(CZNi),
+and
+Ce0.75Zr0.2Zn0.05O2-δ (CZZn).
+Crystallographic phase composition of the Ce0.75Zr0.2M0.05O2-δ ma-
+terials was determined by using a Panalytical XPert MPD/DY636
+powder X-ray diffractometer with CuKα radiation. The scanning elec-
+tron microscope equipped with the energy dispersive spectroscopy
+(SEM/EDS, Nova Nano 450, FEI) was applied to identify and distinguish
+the overall particle morphology and chemical composition of the syn-
+thesized Ce0.75Zr0.2M0.05O2-δ materials.
+Fig. 1. Schematic of the combined solar thermochemical H2O/CO2 splitting cycle and catalytic Fischer Tropsch Process for the production of synthetic fuels.
+G. Takalkar, et al.
+Fuel 256 (2019) 115834
+2
+
+
+===== Page 3 =====
+
+2.2. Thermochemical redox cycles
+The thermochemical CS reactivity of the Ce0.75Zr0.2M0.05O2-δ ma-
+terials was estimated by using a TGA setup (Setaram SETSYS Evolution,
+TGA-DSC) depicted in Fig. 2. The heating furnace installed in the TGA
+set-up was consists of a graphite-heating element, which was protected
+by an alumina tube. A temperature controller was utilized to maintain
+the temperature of the TGA set-up at the desired value. During the TGA
+experiments, a continuous flow of chilled water was supplied to the set-
+up to maintain the temperature of exhaust stream (leaving the TGA set-
+up) at ambient conditions. Ultrapure inert Ar was circulated through a)
+the heating furnace to avoid the oxidation of the graphite-element and
+b) the TGA balance to dodge the prospect of pollution of the balance
+and the sample chamber from the vapors generated during the TGA
+experiments. Mass flow controllers and pressure transducers were in-
+stalled in the TGA set-up to maintain the carrier and protective inert Ar
+gas flowrates. Other details associated with the Setaram SETSYS Evo-
+lution TGA-DSC set-up were already reported in our previous studies
+[36].
+The TR and CS ability of each Ce0.75Zr0.2M0.05O2-δ material was
+estimated by performing multiple thermochemical CS cycles using
+roughly 50 mg of the reactive sample. This Ce0.75Zr0.2M0.05O2-δ powder
+was placed on the hanging balance with the help of an alumina crucible
+and the TR and CS runs were carried out at 1400 °C for 60 min and
+1000 °C for 30 min, respectively. The TR step was performed in the
+presence of inert Ar whereas the CS step was conducted by using a feed
+gas mixture containing 50% CO2 in Ar. The mass flowrates of both Ar
+and the feed gas mixture were maintained at 100 ml/min during TR and
+CS steps. To eliminate the influence of buoyancy on the final results, a
+baseline TGA profile obtained by conducting a blank run (by using an
+empty alumina crucible only) at operating conditions identical to the
+CS experiments was subtracted from the TGA profile obtained during
+the actual experiment. The mass loss ( m
+)
+loss
+reported during the TR
+step and the mass gain ( m
+)
+gain
+recorded during the CS step were di-
+rectly attributed to the nO2 and nCO by Ce0.75Zr0.2M0.05O2-δ materials as
+per Eqs. (3) and (4).
+=
+×
+n
+m
+M
+m
+(
+)
+o
+loss
+o
+ce
+Zr
+M
+o
+2
+2
+0.75
+0.2
+0.05 2
+(3)
+=
+×
+n
+m
+M
+m
+(
+)
+co
+gain
+o
+ce
+Zr
+M
+o
+0.75
+0.2
+0.05 2
+(4)
+where,
+MO2 Molecular weight of O2
+MO Molecular weight of O
+mce
+Zr
+M
+o
+0.75
+0.2
+0.05 2
+Mass of Ce0.75Zr0.2M0.05O2-δ materials
+3. Results and discussion
+3.1. Characterization of Ce0.75Zr0.2M0.05O2-δ
+All the Ce0.75Zr0.2M0.05O2-δ materials synthesized via co-precipita-
+tion method were first characterized via PXRD analysis. The PXRD
+patterns associated with each Ce0.75Zr0.2M0.05O2-δ material are pre-
+sented in Fig. 3a. Each PXRD pattern shows formation of a single-phase
+cubic fluorite Fm-3m structure which is identical to that of the phase
+Fig. 2. Thermochemical experimental set-up involving a Setaram SETSYS Evolution, TGA-DSC instrument.
+G. Takalkar, et al.
+Fuel 256 (2019) 115834
+3
+
+
+===== Page 4 =====
+
+pure ceria material. The absence of any metal or metal oxide impurities
+further provided a confirmation that the transition metal dopants were
+successfully incorporated in the ceria-zirconia fluorite structure. As the
+crystal ionic radii of Cr, Mn, Fe, Co, Ni, and Zn are lower as compared to
+the Ce and Zr, the peaks associated with the Ce0.75Zr0.2M0.05O2-δ ma-
+terials were shifted towards the lower 2θ angle as compared to the
+Ce0.75Zr0.25O2-δ solid solution (Fig. 3b). The results obtained after
+performing the EDS analysis further validated the formation of
+Ce0.75Zr0.2M0.05O2-δ materials. The EDS patterns associated with each
+Ce0.75Zr0.2M0.05O2-δ material is presented in Fig. 4 and the chemical
+compositions are reported in Table 1.
+In addition to the phase composition, the PXRD analysis was also
+utilized
+to
+estimate
+the
+average
+crystallite
+size
+of
+each
+Ce0.75Zr0.2M0.05O2-δ material by applying the Scherrer equation [37].
+The results obtained indicate that there is no fixed trend allied with the
+variation in the average crystallite size of Ce0.75Zr0.2M0.05O2-δ materials
+as a function of the change in the dopant metal. The average crystallite
+size of all the Ce0.75Zr0.2M0.05O2-δ materials was observed to be in the
+range of 30–50 nm. The maximum and minimum average crystallite
+size was noticed in case of the CZFe (49.5 nm) and CZCr (30.5 nm),
+respectively.
+The microstructural morphology of the co-precipitation synthesized
+Ce0.75Zr0.2M0.05O2-δ materials was analyzed by performing SEM ana-
+lysis. The images obtained for CZCr, CZMn, CZFe, CZCo, CZNi, and
+CZZn are presented in Fig. 5 which shows agglomerated roundish
+particle morphology (for all the derived materials). Furthermore, it was
+understood that the material morphology was not affected due to the
+inclusion of Cr, Mn, Fe, Co, Ni, and Zn in the Ce0.75Zr0.2M0.05O2-δ
+crystal structure.
+3.2. Redox reactivity of Ce0.75Zr0.2M0.05O2-δ
+After characterization, the evaluation of the redox reactivity of the
+calcined Ce0.75Zr0.2M0.05O2-δ powders was conducted by using a TGA
+set-up. For all the TGA experiments, the TR and CS steps were per-
+formed at 1400 °C (for 60 min) and 1000 °C (for 30 min). A typical TGA
+profile obtained in case of CZNi material (attained after subtracting the
+blank run) is presented as an example in Fig. 6. The plot associated with
+the TR step indicate mass loss in two sections: 1) below 1000 °C due to
+the dissipation of moisture and other chemical impurities and b) above
+1000 °C due to the release of O2 from the Ce0.75Zr0.2M0.05O2-δ fluorite
+structure. The plots reported further indicate that the kinetics asso-
+ciated with the CS step was much faster as compared to the TR step.
+At the beginning, the redox reactivity of the Ce0.75Zr0.2M0.05O2-δ
+materials was determined by performing one thermochemical cycle.
+The TGA profiles allied with the TR and CS steps of the first thermo-
+chemical cycle are reported in Figs. 7 and 8. As expected, the mass of
+each Ce0.75Zr0.2M0.05O2-δ material was reduced during the TR step. The
+TGA profiles reported in Fig. 7 shows that all the Ce0.75Zr0.2M0.05O2-δ
+materials continue to lose weight for the entire TR duration. The ki-
+netics associated with the TR of CZZn was the fastest and for the TR of
+CZNi was the slowest. The
+mloss allied with the first TR step was
+converted into nO2 by each Ce0.75Zr0.2M0.05O2-δ material by using Eq.
+(3) and the numbers obtained are reported in Table 2. The data pre-
+sented in Table 2 shows that the CZZn was capable of releasing highest
+nO2 (707.6 µmol/g) and the CZMn liberated the lowest nO2 (130.5 µmol/
+g) as compared to the remaining Ce0.75Zr0.2M0.05O2-δ materials. The
+obtained results also indicate that the CZCo and CZNi possess the ca-
+pacity to release identical nO2during TR at 1400 °C.
+As presented in Fig. 8, the CZCo represents the quickest and CZMn
+shows the lethargic re-oxidation kinetics during the CS step performed
+at 1000 °C in comparison to the remaining Ce0.75Zr0.2M0.05O2-δ mate-
+rials. Similar to the TR step, all the Ce0.75Zr0.2M0.05O2-δ materials were
+continue to gain weight during the entire duration assigned for the CS
+step (30 min). This observation indicate that the time assigned for the
+CS step was not enough to completely re-oxidize the Ce0.75Zr0.2M0.05O2-
+δ materials. The nCO produced by each Ce0.75Zr0.2M0.05O2-δ material
+(Table 2), during 30 min of CS step, backs the above-mentioned state-
+ment.
+The
+numbers
+listed
+in
+Table
+1
+imply
+that
+all
+the
+Ce0.75Zr0.2M0.05O2-δ materials were partially re-oxidized as the nCO/nO2
+ratio was significantly less than 2.0. Based on the time allocated for the
+CS step, the CZNi produced the uppermost (227.3 µmol/g) and CZCr
+generated the lowermost nCO (167.0 µmol/g) as compared to other
+Ce0.75Zr0.2M0.05O2-δ materials.
+As the nCO/nO2 for the first thermochemical cycle was very low, it
+was essential to determine if this ratio persists during multiple ther-
+mochemical cycles. In this viewpoint, three consecutive thermo-
+chemical cycles were performed by conducting the TR and CS steps at
+conditions identical to the first cycle. The variation in the gain and loss
+of the Ce0.75Zr0.2M0.05O2-δ mass over three cycles is displayed in Fig. 9.
+Furthermore, the
+mloss and
+mgain recorded for the three cycles were
+converted into nO2and nCO by each Ce0.75Zr0.2M0.05O2-δ material
+Fig. 3. PXRD patterns of the co-precipitation synthesized Ce0.75Zr0.2M0.05O2-δ materials, a) 2θ = 20° to 80°, and b) 2θ = 28° to 29.5°.
+G. Takalkar, et al.
+Fuel 256 (2019) 115834
+4
+
+
+===== Page 5 =====
+
+(Table 3).
+The nO2 by each Ce0.75Zr0.2M0.05O2-δ material in the second cycle
+was observed to be considerably inferior than the nO2 liberated in the
+first cycle. For instance, the nO2 by CZCr, CZFe, and CZNi was decreased
+by 116.7 µmol/g, 138.1 µmol/g, and 45.7 µmol/g, respectively in cycle
+2. Similarly, the nCO by each Ce0.75Zr0.2M0.05O2-δ material was also
+reduced in the second cycle. The magnitude of the drop in the nCO in the
+second cycles by CZMn (30.3 µmol/g) was the highest and by CZCr
+(2.5 µmol/g)
+was
+the
+lowest
+as
+compared
+to
+the
+remaining
+Ce0.75Zr0.2M0.05O2-δ materials.
+In case of the third cycle, the nO2 by each Ce0.75Zr0.2M0.05O2-δ material
+continue to drop considerably. For instance, the percentage of fall in the nO2
+by Ce0.75Zr0.2M0.05O2-δ materials during the third cycle as compared to the
+second
+one
+can
+be
+arranged
+as
+follows:
+CZZn
+(36.8%) > CZMn
+Fig. 4. EDS patterns of the co-precipitation synthesized a) CZCr, b) CZMn, c) CZFe, d) CZCo, e) CZNi, and f) CZZn.
+Table 1
+Chemical composition, Ce/Zr/M (where M = transition metal cation) molar ratio (as-prepared and from EDS), and the abbreviations assigned to each
+Ce0.75Zr0.2M0.05O2-δ material.
+Abbreviation
+Ce/Zr/M (as-prepared)
+Ce/Zr/M (from EDS)
+Composition
+CZCr
+0.750/0.200/0.050
+0.743/0.216/0.048
+Ce0.743Zr0.216Cr0.048O2-δ
+CZMn
+0.750/0.200/0.050
+0.752/0.211/0.049
+Ce0.752Zr0.211Cr0.049O2-δ
+CZFe
+0.750/0.200/0.050
+0.744/0.199/0.050
+Ce0.744Zr0.199Cr0.050O2-δ
+CZCo
+0.750/0.200/0.050
+0.741/0.205/0.049
+Ce0.741Zr0.205Cr0.049O2-δ
+CZNi
+0.750/0.200/0.050
+0.739/0.208/0.051
+Ce0.739Zr0.208Cr0.051O2-δ
+CZZn
+0.750/0.200/0.050
+0.751/0.198/0.050
+Ce0.751Zr0.198Cr0.050O2-δ
+G. Takalkar, et al.
+Fuel 256 (2019) 115834
+5
+
+
+===== Page 6 =====
+
+(23.7%) > CZFe (21.8%) > CZCr (15.7%) > CZCo (13.7%) > CZNi
+(6.0%). Contrast to the decline in the nO2, the nCO by most of the
+Ce0.75Zr0.2M0.05O2-δ materials in the third cycle was roughly identical to the
+nCO in the second cycle, except for the CZMn and CZNi materials.
+The results described in the previous paragraphs indicate that, al-
+though the CS ability of the Ce0.75Zr0.2M0.05O2-δ materials attained
+stability, the TR aptitude of each material was not steady during first
+three cycles. Hence, as it is crucial to identify the long-term redox re-
+activity of the derived Ce0.75Zr0.2M0.05O2-δ materials, ten consecutive
+thermochemical cycles were performed and the TGA profiles obtained
+are presented in Fig. 10.
+Similar to the first three cycles, the nO2
+and nCO
+by each
+Ce0.75Zr0.2M0.05O2-δ material during ten cycles was estimated by using
+the mass variation recorded by the TGA and the equations listed in the
+experimental section. During the determination of the average nO2 and
+nCO, to avoid inaccuracy, the data acquired by the TGA during the first
+cycle was not considered. The nO2 and nCO by all the Ce0.75Zr0.2M0.05O2-
+δ materials during each cycle (cycle 2 to cycle 10) is presented in Fig. 11
+and Fig. 12, respectively. To compare with the Ce0.75Zr0.2M0.05O2-δ
+materials, the co-precipitation synthesized Ce0.75Zr0.25O2 was also
+tested for ten consecutive thermochemical cycles. The comparison be-
+tween the Ce0.75Zr0.2M0.05O2-δ materials and other previously in-
+vestigated ceria based materials, based on the average nO2, nCO, and
+nCO/nO2 (from cycle 2 to cycle 10), is presented in Table 4.
+The
+data
+presented
+in
+Fig.
+11
+shows
+that
+most
+of
+the
+Ce0.75Zr0.2M0.05O2-δ materials attained stability in terms of nO2 at
+around cycle 4 or cycle 5. When compared with each other, the highest
+nO2 = 105.1 μmol/g·cycle was recorded in case of CZZn and the lowest
+nO2 = 56.6 μmol/g·cycle was observed for CZMn (from cycle 2 to cycle
+10). Based on the average nO2 from cycle 2 to cycle 10, the
+Ce0.75Zr0.2M0.05O2-δ materials can be arranged as: CZZn > CZNi >
+CZFe > CZCr > CZCo > CZMn.
+Fig. 5. SEM images of the co-precipitation synthesized Ce0.75Zr0.2M0.05O2-δ materials.
+G. Takalkar, et al.
+Fuel 256 (2019) 115834
+6
+
+
+===== Page 7 =====
+
+When compared with the previously investigated phase pure ceria
+and transition metal doped ceria oxides, the average nO2 by each
+Ce0.75Zr0.2M0.05O2-δ material was considerably higher (Table 4). The
+average nO2 by CZZn, CZNi, CZFe, CZCr, CZCo, and CZMn was greater
+than
+Ce0.9Zn0.1O2,
+Ce0.9Ni0.1O2,
+Ce0.9Fe0.1O2,
+Ce0.9Cr0.1O2,
+Ce0.9Co0.1O2,
+and
+Ce0.9Mn0.1O2
+by
+54.6 μmol/g·cycle,
+42.9 μmol/
+g·cycle, 38.0 μmol/g·cycle, 30.4 μmol/g·cycle, 31.9 μmol/g·cycle, and
+15.4 μmol/g·cycle,
+respectively.
+When
+compared
+with
+the
+Ce0.75Zr0.25O2, except for CZMn, all the Ce0.75Zr0.2M0.05O2-δ materials
+showed higher TR aptitude. For instance, the average nO2 by CZZn,
+CZNi, CZFe, CZCr, and CZCo was higher than Ce0.75Zr0.25O2 by 32.9%,
+20.4%, 19.8%, 11.7%, and 8.3%, individually.
+Fig. 12 indicate that the CZCr, CZMn, CZNi, and CZCo attained the
+CS stability (in terms of stable nCO) by third cycle. In case of CZFe and
+CZCo, the stability in terms of constant nCO was achieved at around
+cycle 5. The computations further shows that the CZNi was capable of
+producing the highest nCO = 170.5 μmol/g·cycle and the aptitude of the
+CZMn was the lowest towards CS reaction (nCO = 108.2 μmol/g·cycle).
+The average nCO by the Ce0.75Zr0.2M0.05O2-δ materials follows the fol-
+lowing order: CZNi > CZZn > CZCr > CZCo > CZFe > CZMn.
+Similar
+to
+the
+average
+nO2,
+the
+average
+nCO
+by
+each
+Ce0.75Zr0.2M0.05O2-δ material was observed to be greater than the pre-
+viously studied phase pure ceria and transition metal doped ceria
+oxides. In terms of numbers, the CZZn, CZNi, CZFe, CZCr, CZCo, and
+Fig. 6. A typical TGA profile obtained in case of CZNi material.
+Fig. 7. TGA profiles obtained in case of TR of Ce0.75Zr0.2M0.05O2-δ at 1400 °C
+(60 min).
+Fig. 8. TGA profiles obtained in case of CS of Ce0.75Zr0.2M0.05O2-δ at 1000 °C
+(30 min).
+Table 2
+nO2, nCO, and CO/O2 molar ratio related to the Ce0.75Zr0.2M0.05O2-δ materials
+during the first thermochemical cycle.
+Ce0.75Zr0.2M0.05O2-δ materials
+nO2 (µmol/g)
+nCO (µmol/g)
+nCO/nO2
+CZCr
+218.6
+167.0
+0.76
+CZMn
+130.5
+177.1
+1.36
+CZFe
+285.6
+168.9
+0.59
+CZCo
+152.6
+176.8
+1.16
+CZNi
+152.6
+227.3
+1.49
+CZZn
+707.6
+188.7
+0.27
+Fig. 9. TGA profiles obtained for three cycles in case of Ce0.75Zr0.2M0.05O2-δ
+materials.
+G. Takalkar, et al.
+Fuel 256 (2019) 115834
+7
+
+
+===== Page 8 =====
+
+CZMn produced uppermost average nCO as compared to Ce0.9Zn0.1O2,
+Ce0.9Ni0.1O2,
+Ce0.9Fe0.1O2,
+Ce0.9Cr0.1O2,
+Ce0.9Co0.1O2,
+and
+Ce0.9Mn0.1O2 by a factor of 1.49, 1.85, 1.31, 1.69, 1.39, and 1.31, re-
+spectively. The comparison further shows that the CZNi, CZZn, and
+CZCr were capable of producing higher, CZCo and CZFe were capable of
+generating comparable, and CZMn produced lower nCO in comparison
+with the Ce0.75Zr0.25O2 material.
+By considering the average nO2 and nCO from cycle 2 to cycle 10, the
+average n
+n
+/
+CO
+O2allied with each Ce0.75Zr0.2M0.05O2-δ material was com-
+puted and presented in Fig. 13. The plot indicate that the average n
+n
+/
+CO
+O2
+was highest in case of CZNi (1.92) and lowest for the CZFe material (1.44).
+The Ce0.75Zr0.2M0.05O2-δ materials can be categorized as CZNi ~ CZMn >
+CZCr > CZCo > CZZn > CZFe in terms of average n
+n
+/
+CO
+O2. These re-
+sults further indicate that the re-oxidation aptitude of CZNi, CZMn, and
+CZCr was superior as compared to CZCo, CZZn, and CZFe.
+Table 3
+nO2and nCO by Ce0.75Zr0.2M0.05O2-δ materials during three cycles.
+Ce0.75Zr0.2M0.05O2-δ Materials
+Cycle 1
+Cycle 2
+Cycle 3
+nO2(μmol/g)
+nCO(μmol/g)
+nO2(μmol/g)
+nCO(μmol/g)
+nO2(μmol/g)
+nCO(μmol/g)
+CZCr
+218.6
+167.0
+101.9
+164.6
+86.0
+167.0
+CZMn
+130.5
+177.1
+88.6
+146.8
+67.6
+134.7
+CZFe
+285.6
+168.9
+147.5
+155.5
+115.3
+153.6
+CZCo
+152.6
+176.8
+115.1
+167.5
+99.3
+162.3
+CZNi
+152.6
+227.3
+107.0
+202.8
+100.6
+192.7
+CZZn
+707.6
+188.7
+201.7
+175.8
+127.4
+171.7
+Fig. 10. TGA profiles obtained for ten cycles in case of Ce0.75Zr0.2M0.05O2-δ
+materials.
+Fig. 11. nO2 by each Ce0.75Zr0.2M0.05O2-δ material from cycle 2 to cycle 10.
+Fig. 12. nCO by each Ce0.75Zr0.2M0.05O2-δ material from cycle 2 to cycle 10.
+Table 4
+Comparison between Ce0.75Zr0.2M0.05O2-δ and other previously investigation
+ceria based redox materials based on the average nO2 and nCO from cycle 2 to
+cycle 10.
+Materials
+Average nO2 (μmol/g·cycle)
+Average nCO (μmol/g·cycle)
+CeO2 [36]
+47.6
+95.6
+Ce0.9Cr0.1O2 [36]
+49.4
+88.8
+CZCr
+79.8
+150.7
+Ce0.9Mn0.1O2 [36]
+41.2
+82.2
+CZMn
+56.6
+108.2
+Ce0.9Fe0.1O2 [36]
+50.0
+96.3
+CZFe
+88.0
+126.3
+Ce0.9Co0.1O2 [36]
+45.0
+91.6
+CZCo
+76.9
+128.0
+Ce0.9Ni0.1O2 [36]
+45.7
+92.1
+CZNi
+88.6
+170.5
+Ce0.9Zn0.1O2 [36]
+50.5
+103.3
+CZZn
+105.1
+154.2
+Ce0.9Zr0.1O2 [36]
+41.0
+79.7
+Ce0.75Zr0.25O2
+70.5
+135.2
+Fig. 13. Average n
+n
+/
+CO
+O2 related to each Ce0.75Zr0.2M0.05O2-δ material (from
+cycle 2 to cycle 10).
+G. Takalkar, et al.
+Fuel 256 (2019) 115834
+8
+
+
+===== Page 9 =====
+
+4. Summary and conclusions
+By performing multiple thermochemical CS cycles, the redox re-
+activity of Ce0.75Zr0.2M0.05O2-δ materials (where, M = Cr, Mn, Fe, Co,
+Ni and Zn) was estimated. The Ce0.75Zr0.2M0.05O2-δ synthesis was
+achieved by using co-precipitation method in which ammonium hy-
+droxide was utilized as the precipitating agent. In addition, a TGA-
+based high temperature reactor set-up was developed and utilized to
+perform multiple TR and CS steps in the temperature range of 1000 to
+1400 °C by using the derived Ce0.75Zr0.2M0.05O2-δ materials. The PXRD
+analysis of the synthesized materials confirms formation of a single-
+phase Ce0.75Zr0.2M0.05O2-δ cubic fluorite Fm-3m structure. The average
+crystallite size of all the Ce0.75Zr0.2M0.05O2-δ materials was observed to
+be in the range of 30–50 nm. In addition, the SEM analysis indicate
+agglomerated
+roundish
+particle
+morphology
+of
+all
+the
+Ce0.75Zr0.2M0.05O2-δ materials synthesized via co-precipitation method.
+The results obtained in the TGA analysis notify that most of the
+Ce0.75Zr0.2M0.05O2-δ materials attained stability in terms of nO2 at
+around cycle 4 or cycle 5. Furthremore, the steady nCO was noticed in
+case of CZCr, CZMn, CZNi, and CZCo by the third cycle and for CZFe
+and CZCo by the fifth cycle. The TR and CS aptitude of all the
+Ce0.75Zr0.2M0.05O2-δ materials was observed to be higher as compared
+to the previously studied phase pure ceria and transition metal doped
+ceria oxides. In terms of numbers, among the all Ce0.75Zr0.2M0.05O2-δ
+materials explored in this study, the CZNi appears to be the best choice
+in terms of higher average nCO = 170.5 (μmol/g·cycle) and maximum
+average n
+n
+/
+CO
+O2 = 1.92 (in ten consecutive thermochemical cycles).
+Acknowledgments
+This publication was made possible by the NPRP grant (NPRP8-370-
+2-154) from the Qatar National Research Fund (a member of Qatar
+Foundation). The statements made herein are solely the responsibility
+of author(s).
+References
+[1] Wood DA, Nwaoha C, Towler BF. Gas-to-liquids (GTL): A review of an industry
+offering several routes for monetizing natural gas. J Nat Gas Sci Eng 2012. https://
+doi.org/10.1016/j.jngse.2012.07.001.
+[2] Velasco JA, Lopez L, Velásquez M, Boutonnet M, Cabrera S, Järås S. Gas to liquids: A
+technology for natural gas industrialization in Bolivia. J Nat Gas Sci Eng 2010.
+https://doi.org/10.1016/j.jngse.2010.10.001.
+[3] Loutzenhiser PG, Meier A, Steinfeld A. Review of the Two-Step H2O/CO2-Splitting
+solar thermochemical cycle based on Zn/ZnO redox reactions. Materials (Basel)
+2010;3:4922–38. https://doi.org/10.3390/ma3114922.
+[4] Bhosale R, Kumar A, AlMomani F, Gupta RB. Solar thermochemical ZnO/ZnSO4
+water splitting cycle for hydrogen production. Int J Hydrogen Energy 2016. https://
+doi.org/10.1016/j.ijhydene.2017.02.190.
+[5] Bhosale RR. Thermodynamic efficiency analysis of zinc oxide based solar driven
+thermochemical H2O splitting cycle: Effect of partial pressure of O2, thermal re-
+duction and H2O splitting temperatures. Int J Hydrogen Energy 2018.
+[6] Abanades S, Charvin P, Lemont F, Flamant G. Novel two-step SnO2/SnO water-
+splitting cycle for solar thermochemical production of hydrogen. Int J Hydrogen
+Energy 2008;33:6021–30. https://doi.org/10.1016/j.ijhydene.2008.05.042.
+[7] Bhosale RR, Kumar A, Sutar P. Thermodynamic analysis of solar driven SnO2/SnO
+based thermochemical water splitting cycle. Energy Convers Manag
+2017;135:226–35. https://doi.org/10.1016/j.enconman.2016.12.067.
+[8] Bhosale RR, Kumar A, Van Den Broeke LJP, Gharbia S, Dardor D, Jilani M, et al.
+Solar hydrogen production via thermochemical iron oxide-iron sulfate water split-
+ting cycle. Int J Hydrogen Energy 2015;40:1639–50. https://doi.org/10.1016/j.
+ijhydene.2014.11.118.
+[9] Scheffe JR, Allendorf MD, Coker EN, Jacobs BW, McDaniel AH, Weimer AW.
+Hydrogen production via chemical looping redox cycles using atomic layer de-
+position-synthesized iron oxide and cobalt ferrites. Chem Mater 2011;23:2030–8.
+https://doi.org/10.1021/cm103622e.
+[10] Scheffe JR, Steinfeld A. Thermodynamic analysis of cerium-based oxides for solar
+thermochemical fuel production. Energy Fuels 2012;26:1928–36. https://doi.org/
+10.1021/ef201875v.
+[11] Bhosale RR, Takalkar GD. Nanostructured co-precipitated Ce0.9Ln0.1O2(Ln = La,
+Pr, Sm, Nd, Gd, Tb, Dy, or Er) for thermochemical conversion of CO2. Ceram Int
+2018. https://doi.org/10.1016/j.ceramint.2018.06.096.
+[12] Bhosale RR, Kumar A, AlMomani F, Alxneit I. Sol-gel derived CeO2-Fe2O3 nano-
+particles: Synthesis, characterization and solar thermochemical application. Ceram
+Int 2015. https://doi.org/10.1016/j.ceramint.2016.01.042.
+[13] Bhosale RR, Takalkar G, Sutar P, Kumar A, AlMomani F, Khraisheh M. A decade of
+ceria based solar thermochemical H2O/CO2splitting cycle. Int J Hydrogen Energy
+2018. https://doi.org/10.1016/j.ijhydene.2018.04.080.
+[14] Scheffe JR, Weibel D, Steinfeld A. Lanthanum-strontium-manganese perovskites as
+redox materials for solar thermochemical splitting of H2O and CO2. Energy Fuels
+2013;27:4250–7. https://doi.org/10.1021/ef301923h.
+[15] Demont A, Abanades S. Solar thermochemical conversion of CO2 into fuel via two-
+step redox cycling of non-stoichiometric Mn-containing perovskite oxides. J Mater
+Chem A 2015. https://doi.org/10.1039/c4ta06655c.
+[16] Takacs M, Hoes M, Caduff M, Cooper T, Scheffe JR, Steinfeld A. Oxygen non-
+stoichiometry, defect equilibria, and thermodynamic characterization of
+LaMnO3perovskites with Ca/Sr A-site and Al B-site doping. Acta Mater 2016.
+https://doi.org/10.1016/j.actamat.2015.10.026.
+[17] Gálvez ME, Jacot R, Scheffe J, Cooper T, Patzke G, Steinfeld A. Physico-chemical
+changes in Ca, Sr and Al-doped La-Mn-O perovskites upon thermochemical splitting
+of CO2 via redox cycling. Phys Chem Chem Phys 2015. https://doi.org/10.1039/
+c4cp05898d.
+[18] Muhich CL, Aston VJ, Trottier RM, Weimer AW, Musgrave CB. First-principles
+analysis of cation diffusion in mixed metal ferrite spinels. Chem Mater
+2016;28:214–26. https://doi.org/10.1021/acs.chemmater.5b03911.
+[19] Scheffe JR, McDaniel AH, Allendorf MD, Weimer AW. Kinetics and mechanism of
+solar-thermochemical H2 production by oxidation of a cobalt ferrite–zirconia
+composite. Energy Environ Sci 2013;6:963. https://doi.org/10.1039/c3ee23568h.
+[20] Bhosale RR, Pasala X, Yelakanti S, Puszynski JA, Shende RV. Solar thermochemical
+water-splitting for H2 generation using sol-gel derived ferrite nanomaterials. Tech.
+Proc. 2012 NSTI Nanotechnol. Conf. Expo. NSTI-Nanotech; 2012. p. 2012.
+[21] Bhosale RR. Thermochemical H2production via solar driven hybrid SrO/
+SrSO4water splitting cycle. Int J Hydrogen Energy 2018. https://doi.org/10.1016/
+j.ijhydene.2018.02.053.
+[22] Bhosale RR, Kumar A, AlMomani F, Ghosh U, Khraisheh M. A comparative ther-
+modynamic analysis of samarium and erbium oxide based solar thermochemical
+water splitting cycles. Int J Hydrogen Energy 2017. https://doi.org/10.1016/j.
+ijhydene.2017.03.172.
+[23] Bhosale RR, Sutar P, Kumar A, Almomani F, Ali MH, Ghosh U, et al. Solar hydrogen
+production via erbium oxide based thermochemical water splitting cycle. J Renew
+Sustain Energy 2016. https://doi.org/10.1063/1.4953166.
+[24] Chueh WC, Abbott M, Scipio D, Haile SM. High-flux solar-driven thermochemical
+dissociation of CO 2 and H2O using ceria redox reactions. Science (80-)
+2010;63:2010. https://doi.org/10.1123/science.1197834.
+[25] Miller JE, Allendorf MD, Diver RB, Evans LR, Siegel NP, Stuecker JN. Metal oxide
+composites and structures for ultra-high temperature solar thermochemical cycles. J
+Mater Sci 2008. https://doi.org/10.1007/s10853-007-2354-7.
+[26] Abanades S, Legal A, Cordier A, Peraudeau G, Flamant G, Julbe A. Investigation of
+reactive cerium-based oxides for H2 production by thermochemical two-step water-
+splitting. J Mater Sci 2010. https://doi.org/10.1007/s10853-010-4506-4.
+[27] Kaneko H, Taku S, Tamaura Y. Reduction reactivity of CeO2-ZrO2oxide under high
+O2partial pressure in two-step water splitting process. Sol Energy 2011. https://doi.
+org/10.1016/j.solener.2011.06.019.
+[28] Le Gal A, Abanades S. Catalytic investigation of ceria-zirconia solid solutions for
+solar hydrogen production. Int J Hydrogen Energy 2011. https://doi.org/10.1016/
+j.ijhydene.2011.01.078.
+[29] Hao Y, Yang CK, Haile SM. Ceria-zirconia solid solutions (Ce1–xZrxO2−δ, x ≤0.2)
+for solar thermochemical water splitting: a thermodynamic study. Chem Mater
+2014;26:6073–82. https://doi.org/10.1021/cm503131p.
+[30] Scheffe JR, Jacot R, Patzke GR, Steinfeld A. Synthesis, characterization, and ther-
+mochemical redox performance of Hf4+, Zr4+, and Sc3+ doped ceria for splitting
+CO2. J Phys Chem C 2013. https://doi.org/10.1021/jp4050572.
+[31] Abanades S, Le Gal A. CO 2 splitting by thermo-chemical looping based on Zr xCe 1-
+xO 2 oxygen carriers for synthetic fuel generation. Fuel 2012. https://doi.org/10.
+1016/j.fuel.2012.06.068.
+[32] Call F, Roeb M, Schmücker M, Bru H, Curulla-Ferre D, Sattler C, et al.
+Thermogravimetric analysis of zirconia-doped ceria for thermochemical production
+of solar fuel. Am J Anal Chem 2013. https://doi.org/10.4236/ajac.2013.410A1005.
+[33] Zhao Z, Uddi M, Tsvetkov N, Yildiz B, Ghoniem AF. Enhanced intermediate-tem-
+perature CO 2 splitting using nonstoichiometric ceria and ceria-zirconia. Phys Chem
+Chem Phys 2017;19:25774–85. https://doi.org/10.1039/C7CP04789D.
+[34] Jiang Q, Zhou G, Jiang Z, Li C. Thermochemical CO2 splitting reaction with CexM1-
+xO2-δ (M=Ti4+, Sn4+, Hf4+, Zr4+, La3+, Y3+ and Sm3+) solid solutions. Sol
+Energy 2014;99:55–66. https://doi.org/10.1016/j.solener.2013.10.021.
+[35] Muhich CL, Blaser S, Hoes MC, Steinfeld A. Comparing the solar-to-fuel energy
+conversion efficiency of ceria and perovskite based thermochemical redox cycles for
+splitting H2O and CO2. Int J Hydrogen Energy 2018. https://doi.org/10.1016/j.
+ijhydene.2018.08.137.
+[36] Takalkar GD, Bhosale RR, Kumar A, AlMomani F, Khraisheh M, Shakoor RA, et al.
+Transition metal doped ceria for solar thermochemical fuel production. Sol Energy
+2018. https://doi.org/10.1016/j.solener.2018.03.022.
+[37] Patterson AL. The scherrer formula for X-ray particle size determination. Phys Rev
+1939;56:978–82. https://doi.org/10.1103/PhysRev. 56.978.
+G. Takalkar, et al.
+Fuel 256 (2019) 115834
+9

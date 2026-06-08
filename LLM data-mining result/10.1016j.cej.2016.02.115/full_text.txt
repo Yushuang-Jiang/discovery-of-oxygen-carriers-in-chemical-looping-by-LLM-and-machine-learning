@@ -1,0 +1,1246 @@
+
+
+===== Page 1 =====
+
+Combustion performance of sewage sludge in chemical looping
+combustion with bimetallic Cu–Fe oxygen carrier
+Xin Niu, Laihong Shen ⇑, Shouxi Jiang, Haiming Gu, Jun Xiao
+Key Laboratory of Energy Thermal Conversion and Control of Ministry of Education, School of Energy and Environment, Southeast University, Nanjing 210096, China
+h i g h l i g h t s
+ Bimetallic Cu–Fe oxides show better performance than hematite for sludge CLC.
+ The material with the highest Cu fraction gave the highest sludge conversion.
+ NO concentration is below 0.4% of the total nitrogen in sewage sludge during CLC.
+ Possible mechanisms for NO emission are presented.
+a r t i c l e
+i n f o
+Article history:
+Received 28 December 2015
+Received in revised form 26 February 2016
+Accepted 27 February 2016
+Available online 3 March 2016
+Keywords:
+Chemical looping combustion
+NO emission
+Copper–iron oxygen carrier
+Sewage sludge
+a b s t r a c t
+Sewage sludge is the by-product from the wastewater treatment plant. It can be utilized by chemical
+looping combustion (CLC) for energy conversion and phosphorus recovery. Hematite is an attractive
+material for CLC due to its abundance, low cost and environmental compatibility. However, hematite
+shows low reactivity for CLC of solid fuel. The reactivity of hematite can be improved by synthesizing
+with CuO. This work is to evaluate the combustion performance and NO emission in CLC of sewage sludge
+in a batch ﬂuidized-bed reactor. The oxygen carrier materials consisted of a mixture of hematite and CuO,
+which were synthesized using mechanical mixing method. The effect of reduction temperature and the
+CuO/hematite mass ratio on combustion efﬁciency and NO emission were investigated. The results show
+that the mixture of CuO and hematite can give signiﬁcant improvement in sludge conversion in compar-
+ison to only hematite. The oxygen carrier which consisted of 40% CuO and 60% hematite gave the highest
+sludge conversion with or without steam in ﬂuidizing gas. Most of the nitrogen in sewage sludge was
+released as N2 during the reduction period. About 0.4% of N in sewage sludge was converted to NO using
+the materials containing 10% CuO and 90% hematite. The conversion of fuel-N to NO decreased with the
+mass ratio of CuO/(CuO + hematite) from 10% to 40%. Additionally, the structural and morphological sta-
+bility of the oxygen carriers have been examined. The formation of CuFe2O4 could improve both the reac-
+tivity of Fe2O3 species through synergetic effect and the physical stability of CuO during redox reactions.
+Therefore, mixing hematite with CuO could be suitable for CLC of sewage sludge.
+ 2016 Elsevier B.V. All rights reserved.
+1. Introduction
+Sewage sludge is the by-product from the wastewater treat-
+ment plant [1]. It is a complex mixture of organic and inorganic
+materials and contains a wide variety of substances and microor-
+ganisms in suspended or dissolved form [2]. Some ingredients in
+the sludge such as phosphorus and organic matter are valuable
+components. With the growing global urbanization in recent years,
+the quantity of sewage sludge around the world has increased
+rapidly
+[3].
+The
+increasingly
+stringent
+sludge
+reuse/disposal
+regulations and increasing public concerns demand the reliable
+and lasting sludge management strategies [4]. Due to the organic
+nature of sewage sludge, thermochemical process is one of the
+most attractive methods to produce energy and valuable products
+from sewage sludge. Chemical looping combustion (CLC) is an
+innovative combustion technology that could intrinsically separate
+CO2 within the process. CLC offers a promising solution for sludge
+treatment with the target for both energy reuse and phosphorus
+recovery [5,6].
+The CLC system consists of two reactors, a fuel reactor and an
+air reactor with the oxygen carrier continuously circulating
+between them. In the fuel reactor, the oxygen carrier in a higher
+state is reduced by the fuel, which in turn is oxidized to CO2 and
+http://dx.doi.org/10.1016/j.cej.2016.02.115
+1385-8947/ 2016 Elsevier B.V. All rights reserved.
+⇑Corresponding author.
+E-mail address: lhshen@seu.edu.cn (L. Shen).
+Chemical Engineering Journal 294 (2016) 185–192
+Contents lists available at ScienceDirect
+Chemical Engineering Journal
+journal homepage: www.elsevier.com/locate/cej
+
+
+===== Page 2 =====
+
+H2O. Subsequently, the reduced oxygen carrier is oxidized to its
+initial state in the air reactor [7]. In this way, the fuel reactor efﬂu-
+ent is comprised of CO2 and H2O, therefore a concentrated stream
+of CO2 suitable for sequestration can be obtained simply by water
+condensation. If a solid fuel is used, the main approach is in situ
+gasiﬁcation chemical looping combustion (iG-CLC). In this process,
+the solid fuel is physically mixed with the oxygen carrier in the fuel
+reactor and gasiﬁed by CO2 or steam. Then the gaseous compounds
+(volatiles and gasiﬁcation products) react with the oxygen carrier.
+The selection of efﬁcient oxygen carriers is an essential compo-
+nent of the CLC process. The oxygen carrier should exhibit sufﬁ-
+cient oxygen transport capacity, high reactivity towards both fuel
+and air. It should also be mechanically durable, inexpensive and
+environment-benign [7]. Additionally, it should present resistance
+to attrition to minimize losses of elutriated solids. Both nickel
+oxide and hematite have been investigated as oxygen carrier for
+CLC of sewage sludge [5,6]. Although higher carbon capture efﬁ-
+ciency is obtained, the main drawback is the lower CO2 capture
+efﬁciency. When solid fuel is used in CLC process, the CO2 capture
+efﬁciency will be reduced if char particles enter the air reactor with
+the oxygen carrier stream [8]. Fortunately, our previous work
+revealed that there were no char particles by-passed to air reactor
+during CLC of sewage sludge using hematite as oxygen carrier in a
+1 kW continuous unit [6]. Thus, it is not necessary to deploy a car-
+bon stripper to separate the char from oxygen carrier. Sewage
+sludge contains a high volatile content. It may leads to insufﬁcient
+carrier stability and poor redox kinetics if a low reactivity oxygen
+carrier is selected.
+Among the various metal oxides (CuO, NiO, Fe2O3, etc.) tested as
+oxygen carriers for CLC, iron oxide remains the most favorable due
+to its abundance, low cost and environmental compatibility [9].
+Hematite as a kind of iron oxides has commonly been used as an
+oxygen carrier [10–12]. However, its low fuel conversion, weak
+redox characteristics, and low oxygen transport capacity (because
+of thermodynamic limitation) constitute signiﬁcant drawbacks. It
+is possible to resolve the shortcomings by combining hematite
+with a more reactive metal, such as Cu, Mn and Ni [9,13–15].
+The mixed oxides show a good balance between cost, toxicity
+and reactivity for CLC. One interesting category among these is
+the combined Cu–Fe oxide as oxygen carrier. The combined Cu–
+Fe oxygen carriers have low cost, high reactivity and favorable
+environmental and thermodynamic properties. Thus, the Cu–Fe
+oxide is signiﬁcantly relevant for CLC applications.
+The phase diagram of CuO–Fe2O3 bimetallic system is shown in
+Fig. 1 [16]. It can be seen that a solid solution of CuO–Fe2O3 is
+formed at the temperature above 761 K. If the mole concentration
+of Fe2O3 is higher than CuO, Fe2O3 and CuFe2O4 can coexist.
+Similarly, CuO can be observed when CuO concentration is higher
+than Fe2O3.
+Several combined Cu–Fe oxides have been examined as oxygen
+carriers in both CLC and CLOU process [17,18]. Compared with the
+single metal oxygen carriers, the combined Cu–Fe oxides displayed
+high reaction rate, better solid conversion, greater oxygen usage
+and improved physical stability [16]. Additionally, Cu–Fe mixed
+oxides has a higher catalytic activity for CO oxidation even at
+low temperature [19]. The addition of Cu into iron oxide promoted
+the structure and enhanced the catalytic activity through a
+synergistic effect. The results by Yang et al. indicate that 6% Cu
+(6CuHem) has better reactivity with the gasiﬁcation products
+and can accelerate the gasiﬁcation rate of anthracite char [17].
+It is a crucial technical obstacle that high nitrogen content in
+sewage sludge could cause a high NOx emission during combustion
+process. The high NOx emissions from sludge combustion are not
+only because of their high nitrogen content but also the high
+contents of metal oxides in the ash [20,21].
+Shimizu et al. [20,21] investigated the emissions of NOx and N2O
+during combustion of dried sewage sludge in both bubbling
+ﬂuidized bed combustor (BFBC) and circulating ﬂuidized bed com-
+bustor (CFBC). The results show that the increase in NOx with the
+sludge ash accumulation in the reactor is less for the CFBC than
+the BFBC. It can be due to the higher attrition rate of sludge ash
+in CFBC resulting from the higher gas velocity. The combustion
+process in the CFBC presents a high concentration of NOx
+(400–600 mg/Nm3) at 1123 K. To reduce NOx emission, a combined
+gasiﬁcation and incineration process for the disposal of sewage
+sludge was proposed [22]. The results indicate that the conversion
+of fuel-N to NOx is 1 ± 0.04%. Even with the combined gasiﬁcation
+and incineration process, high NOx concentrations are emitted in
+sewage sludge air-combustion process. However, during CLC of
+coal in a 1 kW unit, N2 is the sole product of fuel-N conversion in
+the fuel reactor using either hematite or Ni-based oxide as oxygen
+carrier [12,23]. Thus, it can be speculated that both the inlet fuels
+and the combustion conditions have a great inﬂuence on the NO
+emission [24]. As a result, the viability of sewage sludge for CLC,
+to a large extent, will be determined by the NO emission level.
+The objective of this work is to explore the combustion perfor-
+mance and NO emission in CLC of sewage sludge using bimetallic
+Cu–Fe oxide as oxygen carrier. The experiment was conducted in
+a batch ﬂuidized-bed reactor. The effects of operating conditions
+including reduction temperature and the CuO/hematite mass ratio
+on the combustion characteristics were investigated. The combus-
+tion characteristics such as carbon conversion and NO emission
+were analyzed. SEM and XRD analyses were also conducted to
+reveal the reaction mechanism of during sewage sludge in CLC.
+2. Experimental
+2.1. Manufacture and characterization of oxygen carriers
+The oxygen carriers used in this work were particles with a
+CuO:hematite mass ratio of 10:90, 20:80, 30:70 and 40:60. The
+particles were manufactured by mechanical mixing method in
+Southeast University. Hematite (Nanjing Steel Manufacturing
+Company, <0.05 mm) and CuO (Jiangsu Teho Metal Industrial Com-
+pany, >99%, <0.05 mm) were mixed thoroughly and deionized
+water was added to the mixture to obtain a paste. The paste was
+then extrusion molding in a tablet machine and dried at room tem-
+perature for 24 h. The dried particles were crushed and sieved to
+0.2–0.3 mm. After this, the samples were calcined at 980 C for
+3 h in a mufﬂe oven to completely oxidize and increase the
+mechanical strength. The elemental compositions of the synthe-
+sized oxygen carrier were performed by X-ray ﬂuorescence (XRF),
+as summarized in Table 1. Here, Cu denotes CuO and the digits
+after Cu represents the mass fraction of CuO in the sample. Further,
+Fe denotes hematite and the following digits show the mass
+fraction of hematite. Fig. 2 shows the size distribution of the fresh
+oxygen carrier using Cu20Fe80 as an example.
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+400
+600
+800
+1000
+1200
+CuO+CuO(Fe2O3)
+CuO(Fe2O3)+Fe2O3
+T(K)
+Mole CuO/(CuO+Fe 2O3)
+CuO+Fe2O3
+Fig. 1. Thermodynamic analysis of interaction between CuO–Fe2O3 systems.
+186
+X. Niu et al. / Chemical Engineering Journal 294 (2016) 185–192
+
+
+===== Page 3 =====
+
+2.2. Fuel
+De-watered sewage sludge supplied by Nanjing wastewater
+treatment plant was used as solid fuel in the experiment. The
+proximate and ultimate analyses of the sewage sludge together
+with the ash composition are shown in Table 2. The sample was
+sieved to a size range of 0.2–0.45 mm.
+2.3. Experimental setup
+The combustion performance of sewage sludge with bimetallic
+Cu–Fe oxygen carrier was examined in a batch ﬂuidized-bed
+reactor system. The reactor was made of stainless steel and the
+schematic view of the reactor was shown in Fig. 3. The same
+system has been used in earlier studies for other kinds of oxygen
+carrier materials [5]. This system is not a circulating ﬂuidized
+bed, but instead emulates circulation by exposing the oxygen car-
+riers alternatingly to oxidation with O2/Ar and a reduction by fuel.
+The system is ﬂushed in between cycles by inert gas ﬂow (Ar). The
+reactor is 1340 mm long and 32 mm in diameter. The oxygen car-
+rier particles were placed on a porous plate which is located
+450 mm from the bottom of the reactor. The reactor temperature
+was monitored by two K-type thermocouples, one between the
+tube and the heater, and the other inside the tube 10 mm above
+the porous plate. The gas was injected from the bottom of the reac-
+tor. The ﬂue gas leaving from the top of the reactor was cooled and
+then to sampled by gas bags. CO2, CO, O2 and CH4 concentration is
+analyzed by a NGA2000 type gas analyzer. The concentration of NO
+is analyzed by an ECOM-J2KN analyzer.
+The gas ﬂow in the ﬂuidized bed reactor was 3 L/min (STP),
+which corresponded to a gas velocity of 0.27 m/s at 900 C and
+0.28 m/s at 950 C, respectively. The minimum ﬂuidization gas
+velocity Umf of the oxygen carrier was around 0.068 m/s at 900 C
+and 0.066 m/s at 950 C. A sample of 50 g oxygen carrier particles
+was placed on the porous plate and heated to the desired
+temperature in a gas mixture consisting of 5% O2 and 95% Ar. As
+the desired temperature reached and kept stable, the particles
+were ﬂuidized by Ar. Subsequently, 1 g of sewage sludge was
+introduced to the reactor and the ﬂuidization gas was switched
+to either 100% Ar or 30% H2O in Ar for reactivity testes with sewage
+sludge.
+The oxidation and the reduction periods were separated by an
+inert period with Ar for 5 min. The temperatures during reducing,
+inert and oxidizing period were identical. Additionally, the reaction
+temperatures
+selected
+were
+900
+and
+950 C.
+Each
+of
+the
+experiments was repeated three times and a good repeatability
+of the experiments was observed.
+2.4. Data evaluation
+Total molar ﬂow (Fout) is calculated by the mass balance of Ar
+ﬂow introduced:
+Fout ¼
+FAr
+ð1  P
+iyiÞ
+ð1Þ
+where yi is the molar fraction of the component i (CO, CO2, H2 or
+CH4) in the outlet gas ﬂow on a dry basis.
+The evolution of carbon conversion efﬁciency is calculated by
+integrating the ratios of mole of carbon in the ﬂue gas to the mole
+of carbon added to the reactor (NC,fuel).
+XC ¼
+R t
+0ðyCO2 þ yCO þ yCH4Þ  Fout  dt
+NC;fuel
+ 100%
+ð2Þ
+where NC,fuel is the mole of carbon fed to the reactor.
+The relative fraction of each component (CO, CO2, H2 or CH4)
+was deﬁned as the ratio of the gas species in the product gas.
+Fi ¼
+R t
+0Fout  yi  dt
+R t
+0 Fout  ðyCO þ yCO2 þ yH2 þ yCH4Þ  dt
+ð3Þ
+The conversion of fuel-N to NO is calculated as the mole ratio of
+NO concentration to the mole of nitrogen introduced to the reactor
+(NN,fuel).
+XNO ¼
+R t
+0yNO  Fout  dt
+NN;fuel
+ 100%
+ð4Þ
+Table 1
+Composition of the fresh oxygen carrier materials.
+Sample
+Synthesis
+composition
+(wt.%)
+Elemental composition (wt.%)
+Fe2O3
+CuO
+CaO
+SiO2
+Al2O3
+Others
+Cu10Fe90
+10% CuO
+90% hematite
+75.35
+10.30
+0.63
+6.34
+5.14
+2.24
+Cu20Fe80
+20% CuO
+80% hematite
+67.45
+19.41
+0.56
+5.25
+4.36
+2.97
+Cu30Fe70
+30% CuO
+70% hematite
+57.86
+30.48
+0.45
+4.84
+3.75
+2.62
+Cu40Fe60
+40% CuO
+60% hematite
+49.98
+39.01
+0.35
+4.26
+3.62
+2.78
+160
+200
+240
+280
+320
+360
+0
+4
+8
+12
+16
+20
+Volume (%)
+Particle size (μm)
+Fig. 2. Particle size distribution of fresh Cu20Fe80 oxygen carrier.
+Table 2
+Sewage sludge properties.
+Proximate analysis (wt.%, as received)
+Moisture
+4.76
+Volatile matter
+36.80
+Fixed carbon
+3.93
+Ash
+54.51
+Ultimate analysis (wt.%, as received)
+Carbon
+20.27
+Hydrogen
+3.44
+Nitrogen
+3.52
+Sulfur
+0.55
+Oxygen
+12.95
+Low heating value (MJ/kg)
+9.4
+Inorganic elemental analysis (wt.%)
+Fe2O3
+15.72
+SiO2
+41.89
+Al2O3
+15.09
+P2O5
+13.22
+CaO
+6.03
+K2O
+2.22
+MgO
+2.83
+SO3
+1.38
+Others
+1.61
+X. Niu et al. / Chemical Engineering Journal 294 (2016) 185–192
+187
+
+
+===== Page 4 =====
+
+3. Results and conclusion
+3.1. Sewage sludge combustion with bimetallic Cu–Fe oxides
+The combustion performance of sewage sludge is a crucial fac-
+tor to determine the activity of bimetallic Cu–Fe oxygen carriers. A
+wide range of process parameters was examined in CLC of sewage
+sludge experiments.
+Fig. 4 shows the carbon conversion efﬁciency of sewage sludge
+as a function of the oxygen carrier composition at two different
+reactor temperatures. The ﬂuidizing gases are 30 vol.% steam with
+Ar as balance gas. For all oxygen carriers, it can be said that
+increased reactor temperature resulted in increased carbon con-
+version efﬁciency of sewage sludge. The carbon conversion efﬁ-
+ciency reached almost 90% at 950 C for the oxygen carrier with
+a CuO content higher than 30%. This could be expected since the
+oxygen carrier reduction reactivity was higher at higher tempera-
+tures, but also because sewage sludge gasiﬁcation reactions pro-
+ceed faster at higher temperatures [25]. In Fig. 4, it is worth
+noting that the addition of CuO could signiﬁcantly improve the
+sludge conversion. The carbon conversion for the pure hematite
+was only 81.73%. This value for Cu40Fe60 could reach 86.83% at
+900 C and 91.07% at 950 C, respectively. This can be also proved
+that Cu-based oxygen carrier has a higher reactivity towards CO
+and H2, compared to the Fe-based counterparts [26]. At the lower
+reaction temperature (900 C), the carbon conversion efﬁciency
+increased slightly when the CuO ratio increased from 10% to 20%;
+but the carbon conversion efﬁciency increased drastically with
+the CuO ratio rise from 20% to 40%. At higher reaction temperature
+(950 C), the carbon conversion is in a marginal increase when the
+CuO content higher than 30%.
+Fig. 5 shows the dry gas concentrations for a reduction period as
+a function of CuO mass fraction with sewage sludge as fuel at two
+different reactor temperatures. The inlet gas is 30% H2O in Ar. It can
+be noted that the CO2 concentration is higher at 950 C compared
+to the one at 900 C for all of the investigated materials. This is
+likely due to the higher reactivity of oxygen carrier at higher tem-
+perature. For either temperatures, the oxygen carrier with a higher
+CuO content exhibit a higher CO2 concentration. As the CuO mass
+ratio increased from 0% to 40%, the CO2 concentration increased
+from 63.39% to 75.06% at 900 C and from 69.12% to 79.17% at
+950 C, respectively. One explanation for the higher CO2 conversion
+with the rise of CuO content is the contribution by release of oxy-
+gen from CuO, meaning that some of the fuel is converted through
+chemical looping with oxygen uncoupling (CLOU) effect. It is a
+challenge to determine whether the conversion process is achieved
+via CLC or CLOU. So, the bimetallic Cu–Fe oxides were tested under
+Ar to investigate the sludge CLOU performance.
+Fig. 6 displays the raw data obtained from the TGA during
+decomposition of the investigated bimetallic Cu–Fe oxides at
+950 C. The initial slight weight increase results from the oxidation
+of oxygen carrier. The weight increase did not affect the decompo-
+sition of the bimetallic Cu–Fe oxides, because the weight percent-
+age
+of
+the
+four
+samples
+were
+the
+same
+when
+the
+target
+temperature was reached. During the uncoupling period, CuO in
+oxygen carrier spontaneously decomposed into Cu2O under the
+N2 atmosphere, resulting in the release of O2. The material with
+the highest amount of CuO exhibited the best behavior. As the
+CuO mass fraction increase from 10% to 40%, the weight loss
+increased gradually from 0.82% to 3.58%.
+For further investigation, the inlet gas was switched to 100% Ar
+to obtain a better understanding of the behavior of the bimetallic
+Cu–Fe oxides. Fig. 7 shows carbon conversion and gas concentra-
+tion as a function of CuO mass ratio at 950 C. With the CuO mass
+ratio increasing from 0% to 40%, the carbon conversion of sewage
+sludge increased from 70.24% to 88.90%. This value was 2.4–
+10.1% lower for the tests without steam addition when compared
+to the results using 30% H2O in Ar as ﬂuidizing gas in Fig. 4. This
+reﬂects that less portion of carbon would be converted to gas when
+T
+Thermocouple
+Inlet flow
+Thermocouple and
+Temperature controller
+T
+P
+Valve 1
+Valve 2
+Reservoir
+Ar
+O2
+H2O
+Mass flow
+ controller
+Steam
+generator
+Pump
+Emerson
+CO:   0-100%
+CO2:  0-100%
+CH4:    0-10%
+O2:       0-25%
+H2:       0-50%
+Cooler
+Drier
+Vent
+Vent
+Filter
+Fig. 3. Schematic of the ﬂuidized-bed chemical looping reactor.
+0.0
+0.1
+0.2
+0.3
+0.4
+70
+75
+80
+85
+90
+95
+100
+900 oC
+Carbon conversion (%)
+CuO/(CuO+hematite)
+950 
+oC
+Fig. 4. Carbon conversion for sewage sludge as a function of the oxygen carrier
+composition in 30% steam, balance Ar at a bed temperature of both 900 and 950 C,
+respectively.
+188
+X. Niu et al. / Chemical Engineering Journal 294 (2016) 185–192
+
+
+===== Page 5 =====
+
+the ﬂuidizing gas is only Ar. When the ﬂuidizing gas was Ar, the
+CO2 concentration signiﬁcantly increased from 57.04% to 74.92%
+with the increasing of CuO loading from 0% to 40%. This data
+increased from 69.14% to 79.17% when 30% H2O in Ar was used.
+This reﬂects that the addition of steam in ﬂuidizing gas can vastly
+increase the CO2 conversion using pure hematite as oxygen carrier.
+Moreover, the effect of steam diminished when the CuO mass con-
+tent was higher than 30%. Thus, the sewage sludge conversion pro-
+cess is achieved via both CLC and CLOU.
+3.2. NO emission during CLC of sewage sludge
+A salient problem of sludge combustion is its high nitrogen con-
+tent, which may engender high NO emission. The effect of reduc-
+tion temperature on the formation and distribution of nitrogen
+compounds was discussed. The ﬂuidizing gas is 30 vol.% steam
+with Ar as balance gas.
+Fig. 8(a) and (b) shows the progress of NO concentration during
+CLC of sewage sludge at 900 C and 950 C, respectively. At such
+temperature levels, the formations of thermic NO and prompt NO
+are negligible. NO formation mainly results from the oxidation of
+the nitrogen present in sewage sludge. In the reduction period,
+N2 and NO were the only nitrogenous species detected at all the
+temperatures tested. All of the investigated oxygen carriers have
+similar NO emission proﬁles. Increasing reduction temperature
+has a noticeable decrease on the NO concentration. It can be also
+observed in Fig. 8(a) and (b) that the CuO/hematite mass ratio is
+very sensitive to NO emission. In both tested temperatures, the
+NO emission is higher at a lower CuO/hematite mass ratio.
+Fig. 9 presents the conversion ratio of fuel-N to NO as a function
+of CuO/hematite mass ratios at two different reaction tempera-
+tures. It can be seen that the increased of reduction temperature
+resulted in decreased conversion ratio of fuel-N to NO. For exam-
+ple, when Cu30Fe70 was used as oxygen carrier, the process emit-
+ted 0.31% NO at 900 C and with a temperature increase to 950 C
+the NO concentration was 0.26%. It is also interesting to note that,
+for both reaction temperatures, the conversion ratio of fuel-N to
+NO decreased with increasing CuO/hematite mass ratio. When
+the Cu/hematite mass ratio reached 40%, the conversion ratio of
+fuel-N to NO was only 0.18% at 950 C. Compared to NO formation
+in CLOU of lignite using Cu50Fe/MgAl [27], NO concentration in
+reduction process was much lower during sewage sludge combus-
+tion by CLC. Additionally, these results was appreciably higher
+compared to NO emission in CLC of bituminous coal or anthracite
+with hematite as oxygen carrier [12].
+During sewage sludge devolatilization process, part of fuel
+nitrogen is released with volatiles, whereas the remaining part is
+retained in char [28]. The split of nitrogen between volatiles and
+the remaining char is roughly in proportion to the volatiles in sew-
+age sludge [29]. As shown in Table 2, the weight ratio of volatile to
+ﬁxed carbon corresponded to 9.36, indicating that the nitrogen in
+volatiles accounted for a major portion in NO emission. The evolu-
+tion of NO in Fig. 8 can also prove that the volatile conversion path
+determines the NO emission.
+Because sewage sludge is mainly composed of microbes, the
+major part of nitrogen in sewage sludge is in the form of amino
+(–NH2) and peptide bond (–(CO)–(NH)–) [30,31]. In sewage sludge
+combustion process, volatile-N species are mainly released as light
+gas-N [29]. The intermediate NH3 is the predominant N-containing
+gas present in the light gas-N in sludge combustion process
+[30,32]. In CLC process, H2O provides the effective source of H
+and OH radicals, which would react with NH3 to form NO.
+In NH3 oxidation process, NH3 can react with H and OH radicals
+to form NH2, and subsequently NH and N radicals. The NH2, NH and
+N radicals are subsequently further oxidized to NO [30,33]. The NO
+formation mechanism described above can be shown as (R1).
+NH3 !
+þH;OH NH2 !
+þH;OH NH !
+þH;OH N !
+þOH;O NO
+ðR1Þ
+NH3
+is
+also
+an
+important
+reducing
+agent
+in
+selective
+non-catalytic reduction (SNCR) at rather higher (1073–1373 K)
+temperatures [34]. The key step in the reaction mechanism of NO
+reduction NH3 is the reaction between NO and NH2.
+0.0
+0.1
+0.2
+0.3
+0.4
+0
+20
+40
+60
+80
+100
+CH4
+CO
+Gas concentration (%)
+CuO/(CuO+hematite) [wt.%/wt.%]
+Temperature: 900 
+oC
+CO2
+(a)
+0.0
+0.1
+0.2
+0.3
+0.4
+0
+20
+40
+60
+80
+100
+CH4
+CO
+Gas concentration (%)
+CuO/(CuO+hematite) [wt.%/wt.%]
+Temperature: 950 
+oC
+CO2
+(b)
+Fig. 5. The dry gas concentrations for a reduction period as a function of CuO mass fraction with sewage sludge as fuel at (a) 900 C and (b) 950 C in 30% steam, balance Ar.
+0
+20
+40
+60
+80 100 120 140
+95
+96
+97
+98
+99
+100
+101
+Cu40Fe60
+Cu30Fe70
+Cu20Fe80
+Weight percentage (%)
+Reaction time (min)
+Cu10Fe90
+0
+200
+400
+600
+800
+1000
+10% O2
+Temperature ( oC)
+N2
+Fig. 6. TGA proﬁle during decomposition of the investigated bimetallic Cu–Fe
+oxides (Cu10Fe90, Cu20Fe80, Cu30Fe70 and Cu40Fe60) at 950 C in N2.
+0.0
+0.1
+0.2
+0.3
+0.4
+0
+20
+40
+60
+80
+100
+Gas concentration (%)
+CuO/(CuO+hematite) (wt.%/wt.%)
+0
+20
+40
+60
+80
+100
+Carbon conversion (%)
+CO2
+CO
+CH4
+XC
+Fig. 7. Gas concentration and carbon conversion (XC) for sewage sludge as a
+function of the oxygen carrier composition in Ar at a bed temperature of 950 C.
+X. Niu et al. / Chemical Engineering Journal 294 (2016) 185–192
+189
+
+
+===== Page 6 =====
+
+NH2 þ NO ! N2 þ H2O
+ðR2Þ
+NH2 þ NO ! N2 þ H þ OH
+ðR3Þ
+Another aspect affecting the nitrogen chemistry in CLC process
+is the oxygen carrier used. Fe2O3 demonstrates positive effect for
+NO decomposition [35]. Thus, the presence of important quantities
+of Fe2O3 is favorable for NO reduction.
+Hence, NO generation is the competition between the formation
+through NH3 oxidation and the destruction channels of NO to N2 in
+CLC process. The NO emission in CLC of sewage sludge process
+below the legal limit. It can be speculated that CLC is an appropri-
+ate technology for conversion sewage sludge to energy with simul-
+taneous the reduction of NO emission.
+3.3. Characterization of the oxygen carriers before and after reactions
+Besides the reactivity of the particles, crystal structure and sur-
+face morphology of the particles are important. The fresh and used
+oxygen carrier samples were characterized by different techniques.
+The used particles represent those tested with sewage sludge after
+10 cycles at 950 C and then cooled down after the last reduction
+test in Ar atmosphere.
+0
+2
+4
+6
+8
+10
+12
+14
+16
+0
+50
+100
+150
+200
+250
+300
+350
+NO concentration [ppm]
+Time [min]
+Cu10Fe90
+ Cu20Fe80
+ Cu30Fe70
+ Cu40Fe60
+900 
+oC
+(a)
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+0
+100
+200
+300
+400
+0
+2
+4
+6
+8
+10
+12
+14
+16
+0
+50
+100
+150
+200
+250
+300
+350
+Cu10Fe90
+ Cu20Fe80
+ Cu30Fe70
+ Cu40Fe60
+NO concentration [ppm]
+Time [min]
+950 
+oC
+(b)
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+0
+100
+200
+300
+400
+Fig. 8. The progress of NO concentration during the combustion of sewage sludge in reduction process for all materials tested at (a) 900 C and (b) 950 C.
+0.1
+0.2
+0.3
+0.4
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+Conversion of fuel-N to NO[%]
+CuO/(CuO+hematite) [wt.%/wt.%]
+900 oC
+ 950 
+oC
+Fig. 9. The mole ratio of fuel-N converted to NO during sludge combustion for all
+materials tested at 900 and 950 C.
+Table 3
+BET surface areas of the investigated oxygen carriers.
+Hematite
+Cu10Fe90
+Cu20Fe80
+Cu30Fe70
+Cu40Fe60
+Fresh (m2/g)
+0.8722
+0.3755
+0.3114
+0.2529
+0.1215
+Used (m2/g)
+0.4154
+0.2510
+0.2386
+0.1860
+0.0911
+Fig. 10. SEM images of the investigated oxygen carriers before (A–D) and after (E–H) 10-cycle bench-scale ﬂuidized-bed reactor tests with sewage sludge.
+190
+X. Niu et al. / Chemical Engineering Journal 294 (2016) 185–192
+
+
+===== Page 7 =====
+
+The BET surface areas of the oxygen carriers were determined
+by a Micrometric ASAP 2020. Table 3 summarizes the BET surface
+areas of the used oxygen carriers. The BET surface vastly decreased
+when CuO was incorporated with hematite. Thus, the improve-
+ment in the reactivity of Cu–Fe carriers is due to a chemical mech-
+anism other than the physical surface area.
+Fig. 10 shows the scanning-electron microscope (SEM) images
+of the investigated oxygen carrier samples before and after 10
+cycles testing. By comparing the morphology of the used oxygen
+carrier particles with the fresh one, there are no signiﬁcant changes
+during the course of reacting with sewage sludge. Moreover, the
+used particles show that no agglomeration or reactivity deteriora-
+tion which is in line with the avoidance of tendency towards
+agglomeration during reaction. It can be also emphasized that no
+deﬂuidization was detected.
+EDX analyses of the studied materials were conducted in order
+to test the effect of sludge ash on oxygen carrier. The EDX results of
+the studied materials for both fresh and used particles are summa-
+rized in Table 4. It is sufﬁcient to note that Mg was detected on the
+surface of the used particles, which was not detected in the fresh
+samples. Additionally, the mass fractions of Al, Si and Ca slightly
+increased after 10 cycles. The analysis of the sewage sludge ash
+reveals the presence of Al, Si, Fe, Ca and Mg, as shown in Table 2.
+Hence, it can strongly concluded that a small amount of sludge
+ash is deposited on the surface of the oxygen carrier particles after
+10 cycles. However, it is necessary to highlight that the effect of the
+deposited sludge ash on the characteristic of oxygen carrier could
+be ignored, which is veriﬁed by the XRD analysis.
+The crystalline phase composition of the fresh and used oxygen
+carrier particles was examined with XRD, as shown in Fig. 11. The
+XRD data of the fresh particles indicated the presence of Fe2O3, CuO
+and CuFe2O4, which is consistent with the phase diagram (see
+Fig. 1). Generally, more CuO and CuFe2O4 were detected in the
+XRD pattern with the increase of CuO content. CuFe2O4 has a
+tetragonally distorted spinel structure. It can be described by the
+structural formula of Fe3+[Fe3+Cu2+]O4
+2, in which the octahedral
+cations are placed inside square brackets. However, the thermal
+history and quenching can reduce the tetragonal distortion by
+locating Cu2+ on tetrahedral site, reduction of Cu2+ to Cu+ and occu-
+pation of the interstitial site by Cu+ [36–38]. Additionally, the even
+dispersion of these ﬁne copper particles in the CuFe2O4 inhibited
+sintering of copper even at high temperature. To prove this fact,
+the elemental mapping of the fresh Cu20Fe80 sample is shown in
+Fig. 12, as an example. It is noticed that the uniform distribution
+of Cu (Blue) and Fe (Green) is in agreement with the formation
+of CuFe2O4 structure.
+In the reduced samples after 10 redox cycles, phases corre-
+sponding to Fe3O4 and CuFeO2 were observed, and neither Cu2O
+nor Cu was detected. This is in agreement with the phase diagram
+of the Fe–Cu–O system [39]. It can be speculated the existence of
+the following reactions related to CuFe2O4: heterogeneous CuFe2O4
+reduction reactions by CO or H2 with CuFeO2 as product and CuFe2-
+O4
+oxygen
+uncoupling.
+Reaction
+((R4)–(R6))
+illustrates
+the
+expected reaction mechanism that may occur using bimetallic
+Cu–Fe oxide as oxygen carrier.
+3CuFe2O4 þ 2CO ! 3CuFeO2 þ Fe3O4 þ 2CO2
+ðR4Þ
+3CuFe2O4 þ 2H2 ! 3CuFeO2 þ Fe3O4 þ 2H2O
+ðR5Þ
+3CuFe2O4 ! 3CuFeO2 þ Fe3O4 þ O2
+ðR6Þ
+CuFe2O4 structure is also beneﬁcial to facilitate gas diffusion in
+the uniform micro-cracks formed during the reduction of CuFe2O4
+[16]. This reﬂects that the reaction between steam-derived synthe-
+sis gas and oxygen carrier can be promoted when CuO is added. It
+can be concluded that the formation of CuFe2O4 could improve
+both the reactivity of Fe2O3 species through synergetic effect and
+the physical stability of CuO during redox reactions.
+Table 4
+The EDX results of the investigated oxygen carriers.
+Fe
+Cu
+Si
+Al
+Ca
+Mg
+O
+Fresh Cu10Fe90
+54.79
+8.27
+2.45
+2.67
+0.78
+–
+31.04
+Fresh Cu20Fe80
+46.94
+18.52
+2.10
+2.29
+0.70
+–
+29.46
+Fresh Cu30Fe70
+42.21
+24.73
+1.88
+2.06
+0.61
+–
+28.50
+Fresh Cu40Fe60
+35.15
+34.25
+1.57
+1.72
+0.27
+–
+27.05
+Used Cu10Fe90
+54.62
+8.67
+3.27
+3.08
+0.88
+0.69
+28.79
+Used Cu20Fe80
+47.22
+18.34
+2.83
+2.66
+0.83
+0.82
+27.30
+Used Cu30Fe70
+43.61
+23.12
+2.61
+2.46
+0.61
+0.78
+26.81
+Used Cu40Fe60
+35.25
+34.83
+2.11
+1.99
+0.35
+0.64
+24.83
+C20H80
+ Fe2O3 [87-1164]    
+CuFe2O4 [34-0425]   
+CuO [80-1916]
+C10H90
+(A)
+C30H70
+10
+20
+30
+40
+50
+60
+70
+C40H60
+2θ(o)
+Used C20H80
+ Fe2O3 [87-1164]  
+ CuFeO2 [76-2366]  
+ Fe3O4 [88-0315] 
+Used C10H90
+(B)
+Used C30H70
+10
+20
+30
+40
+50
+60
+70
+Used C40H60
+2θ(o)
+Fig. 11. The XRD patterns of the bimetallic Cu–Fe oxygen carriers for (A) fresh and (B) used particles collected after 10 cycles.
+Fig. 12. The elemental mapping of the fresh Cu20Fe80 oxygen carrier. Red: O;
+Green: Fe; Blue: Cu. (For interpretation of the references to color in this ﬁgure
+legend, the reader is referred to the web version of this article.)
+X. Niu et al. / Chemical Engineering Journal 294 (2016) 185–192
+191
+
+
+===== Page 8 =====
+
+4. Conclusions
+The combustion performance and the fate of nitrogen were
+evaluated in CLC of sewage sludge process in a batch ﬂuidized
+bed reactor using bimetallic Cu–Fe oxygen carrier. The results indi-
+cate that the mixture of CuO and hematite as oxygen carrier signif-
+icantly improved carbon conversion and CO2 conversion in CLC of
+sewage sludge process. More strikingly, both carbon conversion
+and CO2 concentration increased with CuO mass ratio. Although
+there are some sludge ash deposited on the surface of oxygen car-
+rier, the effect of ash on the characteristic of oxygen carrier can be
+ignored. The XRD data shows that CuFe2O4 is formed during oxy-
+gen carrier manufactured and the reduced phase is CuFeO2 after
+reaction with sewage sludge. The formation of CuFe2O4 could
+improve both the reactivity of Fe2O3 species through synergetic
+effect and the physical stability of CuO during redox reactions. As
+regards the fate of nitrogen in sewage sludge, N2 and NO were
+the main nitrogenous species observed in the reduction period.
+NO concentration was below 0.4% of the total nitrogen fed with
+sewage sludge. Higher the mass ratio of CuO/hematite appeared
+to decrease the conversion ratio of fuel-N to NO. NO formation is
+the competition between the formation through NH3 oxidation
+and the destruction channels of NO to N2 in CLC process. Therefore,
+mixing hematite with a more reactive CuO can improve combus-
+tion performance and decrease NO emission as compared to the
+case with only hematite as oxygen carrier.
+Acknowledgements
+We gratefully acknowledge the support of this research work by
+the Scientiﬁc Research foundation of Graduate school of Southeast
+University (YBJJ1543), National Natural Science Foundation of
+China
+(Grant
+Nos.
+51476029,
+51276037,
+51561125001
+and
+51406035), China Postdoctoral Science Foundation (2015T80486,
+2014M551489).
+References
+[1] J. Werther, T. Ogada, Sewage sludge combustion, Prog. Energy Combust. 25
+(1999) 55–116.
+[2] P.
+Manara,
+A.
+Zabaniotou,
+Towards
+sewage
+sludge
+based
+biofuels via
+thermochemical conversion – a review, Renew. Sustain. Energy Rev. 16
+(2012) 2566–2582.
+[3] P. Hadi, M. Xu, C. Ning, C. Sze Ki Lin, G. McKay, A critical review on preparation,
+characterization and utilization of sludge-derived activated carbons for
+wastewater treatment, Chem. Eng. J. 260 (2015) 895–906.
+[4] V.K. Tyagi, S.-L. Lo, Sludge: a waste or renewable source for energy and
+resources recovery?, Renew Sustain. Energy Rev. 25 (2013) 708–728.
+[5] X. Niu, L. Shen, H. Gu, T. Song, J. Xiao, Sewage sludge combustion in a CLC
+process using nickel-based oxygen carrier, Chem. Eng. J. 260 (2015) 631–641.
+[6] X. Niu, L. Shen, H. Gu, S. Jiang, J. Xiao, Characteristics of hematite and ﬂy ash
+during chemical looping combustion of sewage sludge, Chem. Eng. J. 268
+(2015) 236–244.
+[7] J. Adanez, A. Abad, F. Garcia-Labiano, P. Gayan, L.F. de Diego, Progress in
+chemical-looping
+combustion and
+reforming technologies,
+Prog.
+Energy
+Combust. 38 (2012) 215–282.
+[8] P. Gayán, A. Abad, L.F. de Diego, F. García-Labiano, J. Adánez, Assessment of
+technological solutions for improving chemical looping combustion of solid
+fuels with CO2 capture, Chem. Eng. J. 233 (2013) 56–69.
+[9] S. Bhavsar, G. Veser, Bimetallic Fe–Ni oxygen carriers for chemical looping
+combustion, Ind. Eng. Chem. Res. 52 (2013) 15342–15352.
+[10] T. Song, J. Wu, H. Zhang, L. Shen, Characterization of an Australia hematite
+oxygen carrier in chemical looping combustion with coal, Int. J. Greenhouse
+Gas Control 11 (2012) 326–336.
+[11] H. Gu, L. Shen, J. Xiao, S. Zhang, T. Song, D. Chen, Iron ore as oxygen carrier
+improved with potassium for chemical looping combustion of anthracite coal,
+Combust. Flame 159 (2012) 2480–2490.
+[12] T. Song, T. Shen, L. Shen, J. Xiao, H. Gu, S. Zhang, Evaluation of hematite oxygen
+carrier in chemical-looping combustion of coal, Fuel 104 (2013) 244–252.
+[13] A.
+Shulman,
+E.
+Cleverstam,
+T.
+Mattisson,
+A.
+Lyngfelt,
+Manganese/iron,
+manganese/nickel, and manganese/silicon oxides used in chemical-looping
+with oxygen uncoupling (CLOU) for combustion of methane, Energy Fuels 23
+(2009) 5269–5275.
+[14] S. Wang, G. Wang, F. Jiang, M. Luo, H. Li, Chemical looping combustion of coke
+oven gas by using Fe2O3/CuO with MgAl2O4 as oxygen carrier, Energy Environ.
+Sci. 3 (2010) 1353–1360.
+[15] B. Moghtaderi, H. Song, Reduction properties of physically mixed metallic
+oxide oxygen carriers in chemical looping combustion, Energy Fuels 24 (2010)
+5359–5368.
+[16] R. Siriwardane, H. Tian, T. Simonyi, J. Poston, Synergetic effects of mixed
+copper–iron oxides oxygen carriers in chemical looping combustion, Fuel 108
+(2013) 319–333.
+[17] W. Yang, H. Zhao, J. Ma, D. Mei, C. Zheng, Copper-decorated hematite as an
+oxygen carrier for in situ gasiﬁcation chemical looping combustion of coal,
+Energy Fuels 28 (2014) 3970–3981.
+[18] S. Rajendran, S. Zhang, R. Xiao, S. Bhattacharya, Use of synthetic oxygen
+carriers for Chemical Looping Combustion of Victorian brown coal, Proc.
+Combust. Inst. 35 (2015) 3619–3627.
+[19] E. Amini, M. Rezaei, M. Sadeghinia, Low temperature CO oxidation over
+mesoporous CuFe2O4 nanopowders synthesized by a novel sol-gel method,
+Chin. J. Catal. 34 (2013) 1762–1767.
+[20] T. Shimizu, M. Toyono, Emissions of NOx and N2O during co-combustion of
+dried sewage sludge with coal in a circulating ﬂuidized bed combustor, Fuel 86
+(2007) 2308–2315.
+[21] T. Shimizu, M. Toyono, H. Ohsawa, Emissions of NOx and N2O during co-
+combustion of dried sewage sludge with coal in a bubbling ﬂuidized bed
+combustor, Fuel 86 (2007) 957–964.
+[22] J.-G. Zhu, Y. Yao, Q.-G. Lu, M. Gao, Z.-Q. Ouyang, Experimental investigation of
+gasiﬁcation and incineration characteristics of dried sewage sludge in a
+circulating ﬂuidized bed, Fuel 150 (2015) 441–447.
+[23] T. Song, L. Shen, J. Xiao, D. Chen, H. Gu, S. Zhang, Nitrogen transfer of fuel-N in
+chemical looping combustion, Combust. Flame 159 (2012) 1286–1295.
+[24] Q.Z. Yu, C. Brage, G.X. Chen, K. Sjöström, The fate of fuel-nitrogen during
+gasiﬁcation of biomass in a pressurised ﬂuidised bed gasiﬁer, Fuel 86 (2007)
+611–618.
+[25] N. Gil-Lalaguna, J.L. Sánchez, M.B. Murillo, E. Rodríguez, G. Gea, Air–steam
+gasiﬁcation of sewage sludge in a ﬂuidized bed. Inﬂuence of some operating
+conditions, Chem. Eng. J. 248 (2014) 373–382.
+[26] A. Abad, J. Adánez, F. García-Labiano, L.F. de Diego, P. Gayán, J. Celaya, Mapping
+of the range of operational conditions for Cu-, Fe-, and Ni-based oxygen
+carriers in chemical-looping combustion, Chem. Eng. Sci. 62 (2007) 533–549.
+[27] R. Pérez-Vega, I. Adánez-Rubio, P. Gayán, M.T. Izquierdo, A. Abad, F. García-
+Labiano, et al., Sulphur, nitrogen and mercury emissions from coal combustion
+with CO2 capture in chemical looping with oxygen uncoupling (CLOU), Int. J.
+Greenhouse Gas Control 46 (2016) 28–38.
+[28] J.E. Johnsson, Formation and reduction of nitrogen oxides in ﬂuidized-bed
+combustion, Fuel 73 (1994) 1398–1415.
+[29] P. Glarborg, A.D. Jensen, J.E. Johnsson, Fuel nitrogen conversion in solid fuel
+ﬁred systems, Prog. Energy Combust. 29 (2003) 89–113.
+[30] I. Vermeulen, C. Block, C. Vandecasteele, Estimation of fuel-nitrogen oxide
+emissions from the element composition of the solid or waste fuel, Fuel 94
+(2012) 75–80.
+[31] S. Kambara, T. Takarada, M. Toyoshima, K. Kato, Relation between functional
+forms of coal nitrogen and NOx emissions from pulverized coal combustion,
+Fuel 74 (1995) 1247–1253.
+[32] J.-P. Cao, L.-Y. Li, K. Morishita, X.-B. Xiao, X.-Y. Zhao, X.-Y. Wei, et al., Nitrogen
+transformations during fast pyrolysis of sewage sludge, Fuel 104 (2013) 1–6.
+[33] V.J. Wargadalam, G. Löfﬂer, F. Winter, H. Hofbauer, Homogeneous formation of
+NO and N2O from the oxidation of HCN and NH3 at 600–1000 C, Combust.
+Flame 120 (2000) 465–478.
+[34] S. Mahmoudi, J. Baeyens, J.P.K. Seville, NOx formation and selective non-
+catalytic reduction (SNCR) in a ﬂuidized bed combustor of biomass, Biomass
+Bioenergy 34 (2010) 1393–1409.
+[35] R.F.W. Köpsel, S. Halang, Catalytic inﬂuence of ash elements on NOx formation
+in char combustion under ﬂuidized bed conditions, Fuel 76 (1997) 345–351.
+[36] X.-X. Tang, A. Manthiram, J.B. Goodenough, Copper ferrite revisited, J. Solid
+State Chem. 79 (1989) 250–262.
+[37] C. Villette, P. Tailhades, A. Rousset, Thermal behavior and magnetic properties
+of acicular copper-cobalt ferrite particles, J. Solid State Chem. 117 (1995) 64–
+72.
+[38] K.-S. Kang, C.-H. Kim, W.-C. Cho, K.-K. Bae, S.-W. Woo, C.-S. Park, Reduction
+characteristics of CuFe2O4 and Fe3O4 by methane; CuFe2O4 as an oxidant for
+two-step thermochemical methane reforming, Int. J. Hydrogen Energy 33
+(2008) 4560–4568.
+[39] A.V.
+Khvan,
+O.B.
+Fabrichnaya,
+G.
+Savinykh,
+R.
+Adam,
+H.J.
+Seifert,
+Thermodynamic assessment of the Cu–Fe–O system, J. Phase Equilib. Diffus.
+32 (2011) 498–511.
+192
+X. Niu et al. / Chemical Engineering Journal 294 (2016) 185–192

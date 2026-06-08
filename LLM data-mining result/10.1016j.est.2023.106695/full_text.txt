@@ -1,0 +1,748 @@
+
+
+===== Page 1 =====
+
+Journal of Energy Storage 61 (2023) 106695
+Available online 31 January 2023
+2352-152X/© 2023 Elsevier Ltd. All rights reserved.
+Research papers 
+Understanding thermochemical energy storage performance of 
+Ba1-xSrxCoO3-δ perovskite system: A computational and experimental study 
+Peng Yuan , Haoran Xu , Zeyu Ning , Gang Xiao * 
+Key Laboratory of Clean Energy and Carbon Neutrality of Zhejiang Province, Jiaxing Institute of Zhejiang University, Jiaxing, Zhejiang 314031, China 
+State Key Laboratory of Clean Energy Utilization, College of Energy Engineering, Zhejiang University, Hangzhou, Zhejiang 310027, China   
+A R T I C L E  I N F O   
+Keywords: 
+Thermochemical energy storage 
+Perovskite 
+Thermodynamics 
+Density functional theory 
+A B S T R A C T   
+Concentrated solar power coupled with thermochemical energy storage (TCES) has emerged as an effective 
+approach for renewable energy utilization. TCES based on perovskites attracts much attention because of tem­
+perature tunability and high flexibility. In this work, the electronic structures are simulated by the density 
+functional theory (DFT) method, revealing the reduction temperatures is related to the formation energy of 
+oxygen vacancy (Evac). The compounds of Ba1-xSrxCoO3-δ with x = 0–1 are synthesized and investigated by 
+experimental methods. According to the results, Ba content improves the redox capacities and reaction kinetics, 
+while Sr content expands the reaction temperatures and enhances the micro morphologies. In addition, all the 
+samples present a greater reversibility after 150 cycles, because the extended pores are beneficial to the oxygen 
+diffusion. Overall, Ba0.5Sr0.5CoO3-δ is suggested as a suitable TCES material with a reaction enthalpy of 202.20 kJ 
+kg−1. This study provides a design principle of composite perovskites for thermochemical energy storage.   
+1. Introduction 
+Renewable energy is a key solution to achieve climate stability and 
+sustainable development. Solar energy has attracted much attention due 
+to the advantages of cleanness and abundance [1]. The approach for 
+solar energy utilization can be divided into photovoltaic and concen­
+trated solar power (CSP). CSP coupled with thermal energy storage 
+(TES) is becoming more and more competitive, enabling a continuous 
+power generation and remarkable dispatchability [2–5]. TES systems 
+can be integrated to store excess solar energy and supply electricity on 
+demand during solar transients [6]. In order to improve the system ef­
+ficiency and service life, TES materials should present high energy 
+storage densities, fast reaction kinetics and long-term durability [7]. 
+According to the working principles, TES technologies can be classified 
+into sensible, latent and thermochemical energy storage [4]. Sensible 
+energy storage, such as molten salt, has been successfully incorporated 
+to commercial CSP plants, but the energy storage density is relatively 
+small. Latent energy storage using phase change materials (PCM) covers 
+a wide range of temperatures with higher energy storage density. 
+However, some of PCMs such as chlorides and hydroxides are corrosive 
+[4]. Thermochemical energy storage (TCES) makes use of reversible 
+chemical reactions, including gas-gas reactions and gas-solid reactions. 
+Among these technologies, TCES stands out because of large energy 
+storage density and long storage periods [8]. 
+TCES based on redox reactions has been widely studied because heat 
+can be absorbed or released at air atmosphere, which is safe and 
+convenient. The Co3O4/CoO couple exhibits high energy storage density 
+and fully reversible reactions, but its toxicity may affect the system 
+safety, which requires special attention in practical applications [9]. The 
+CuO/Cu2O couple suffers from poor oxidation kinetics, because the re­
+action temperature (~1030 ◦C) is close to the melting temperature 
+(~1077 ◦C) [10,11]. Wong investigated the thermal properties of the 
+Mn2O3/Mn3O4 couple and found the re-oxidation could hardly happen 
+[12]. Agrafiotis et al. proposed that the addition of Fe2O3 could promote 
+the re-oxidation of Mn3O4 significantly [13]. Xiang et al. reported a self- 
+assembled core-shell structure of the Mn–Fe binary couple. It was 
+demonstrated that the lower formation energy of oxygen vacancies in 
+the shell led to an improved oxidation rate [14]. However, these metal 
+oxide systems can only store heat in a specific temperature range 
+(800–1100 ◦C), which is too high for current commercial CSP plants. 
+Thus flexible TCES materials with a broad temperature window should 
+be developed to better match various applications [15]. 
+Perovskites with an ABO3 formula have emerged as promising can­
+didates for TCES due to high oxygen diffusion rates and favorable 
+* Corresponding author. 
+E-mail address: xiaogangtianmen@zju.edu.cn (G. Xiao).  
+Contents lists available at ScienceDirect 
+Journal of Energy Storage 
+journal homepage: www.elsevier.com/locate/est 
+https://doi.org/10.1016/j.est.2023.106695 
+Received 2 July 2022; Received in revised form 7 December 2022; Accepted 11 January 2023   
+
+
+===== Page 2 =====
+
+Journal of Energy Storage 61 (2023) 106695
+2
+cyclability [16–21]. Another feature of perovskites is that they can 
+exhibit a continuous reaction over a wide temperature range of 
+300–1000 ◦C [20]. The thermochemical properties of these perovskites 
+can be tuned by chemical substitutions [22,23]. The previous study 
+demonstrated crystal structures are mainly related to A-site metals, 
+while redox thermodynamics are mainly governed by B-site metals [24]. 
+Mastronardo et al. proposed B-site doping with Fe could extend the re­
+action temperature range of CaMnO3 [15]. Ti-doped and Al-doped 
+CaMnO3 were also be investigated by Sandia National Laboratories. 
+The results showed these dopants could increase the average B–O bond 
+strength and thus the reduction enthalpy [25]. Vieten et al. reported the 
+oxygen storage capacity could be improved by Cu-doping in SrFeO3-δ. 
+The SrFe1-xCuxO3-δ with high Cu levels exhibited a good redox perfor­
+mance at high temperature [26]. Krzystowczyk et al. chose Mn, Co, Cu 
+and Ni as B-site dopants to assess the thermochemical performance of 
+substituted SrFeO3. Cu-doping increased the redox capacity, but 
+agglomeration was observed. The Mn doped sample showed a good 
+cyclability after 1000 cycles, indicating a robust stability [27]. Many 
+studies on B-site substitutions have been reported, but studies on A-site 
+substitutions are sparse. Actually, the structural changes caused by A- 
+site substitutions will also affect the redox properties. Imponenti et al. 
+found Sr substitution on A-site could inhibit the phase decomposition of 
+CaMnO3, leading to an increased redox capacity [28]. Popczun et al. 
+investigated the temperature tunability of Sr1-xCaxFeO3-δ (x = 0–0.4) for 
+different operating temperatures between 400 ◦C and 700 ◦C [19]. This 
+work mainly concerned the oxygen storage capacity of the materials, so 
+the reaction enthalpy was not studied. Zhang et al. studied the ther­
+mochemical redox behavior of Ba and Sr series perovskites, revealing 
+BaCoO3-δ could be fully oxidized with an energy storage density of 292 
+kJ kg−1 [29]. Gokon et al. studied the impact of partial A-site sub­
+stitutions on the thermal behaviors of BaxSr1-xCoO3-δ (x = 0.3, 0.5, 0.7) 
+and suggested Ba0.7Sr0.3CoO3-δ as a suitable TCES material [30]. 
+Although some important works on the Ba1-xSrxCoO3-δ system can be 
+found, these works focus on the experimental assessment of thermal 
+characteristics. The micro morphology and long-term cyclability are not 
+fully investigated. Besides, most of these studies do not cover the entire 
+compositional range, so a systematic investigation with x = 0–1 is 
+required. For a comprehensive understanding of the composite system, 
+the computational methods can be performed in advance of the exper­
+iments to guide material design. 
+In this work, the thermochemical energy storage performance of the 
+Ba1-xSrxCoO3-δ (x = 0–1) system is investigated by computational and 
+experimental methods. The density functional theory (DFT) method is 
+used to predict the thermal characteristics of Ba1-xSrxCoO3-δ perovskites 
+by analyzing the electronic structures. The formation energy of oxygen 
+vacancy (Evac) is also calculated and considered as a theoretical 
+descriptor for the reduction temperatures of the Ba1-xSrxCoO3-δ system. 
+Different roles of Ba and Sr on A-sites are compared in terms of redox 
+capacities and micro morphologies by TG-DSC and SEM. The multi-cycle 
+cyclability and structural stability are demonstrated by in situ XRD. This 
+study provides a design principle of composite perovskites for thermo­
+chemical energy storage. 
+2. Materials and methods 
+2.1. Computational methods 
+In this work, the DFT calculations were carried out in Materials 
+Studio 2019 using the generalized gradient approximation (GGA) with 
+Perdew-Burke-Erzernhof (PBE) type. The cubic perovskites belonged to 
+the Pm3m (#221) space group. The lattice parameter of BaCoO3 and 
+SrCoO3 were 3.95 Å and 3.86 Å [31]. To improve computing efficiency, 
+a 5 × 2 × 1 supercell with 50 atoms was created, enabling a substitution 
+level of x = 0, 0.1, 0.3, 0.5, 0.7, 0.9 and 1. The Ba0.5Sr0.5CoO3 (BSC55) 
+model was created by replacing 50 % Ba atoms Sr by atoms, as shown in 
+Fig. S1. A convergence test of calculation parameters was carried out to 
+ensure the computational accuracy, as shown in Fig. S2. According to 
+the convergence test, the energy cut-off was 600 eV and the k-point 
+mesh was 1 × 1 × 3. The energy convergence was 2 × 10−5 eV. All 
+structures were relaxed until the forces on each ion were <0.05 eV Å−1. 
+The formation energy of oxygen vacancy was calculated by Eq. (1) [19]. 
+Evac = Edefect + 1
+/
+2EO2 −Ebulk
+(1) 
+Here, Edefect is the total energy of the supercell with an oxygen va­
+cancy, EO2 is the chemical potential of a free oxygen molecule, and Ebulk 
+is the total energy of a defect-free supercell. 
+2.2. Materials synthesis 
+The Ba1-xSrxCoO3-δ samples were synthesized by a modified Pechini 
+process [32]. The Ba1-xSrxCoO3-δ (x = 0, 0.1, 0.3, 0.5, 0.7, 0.9, 1) sam­
+ples were abbreviated as BC, BSC91, BSC73, BSC55, BSC37, BSC19 and 
+SC respectively. The chemical compositions of different samples are 
+listed in Table 1. The preparation precursors were Ba(NO3)2 (purity 
+99.0 %), Sr(NO3)2 (purity 99.5 %), Co(NO3)2⋅6H2O (purity 99.0 %), 
+citric acid (purity 99.5 %), EDTA (purity 99.5 %), ammonia solution 
+(purity 25–28 %) and ethylene glycol (purity 99.5 %). These chemical 
+reagents were provided by Aladdin Biochemical Technology Co., Ltd. 
+Stoichiometric amounts of metal nitrates, citric acid and EDTA were 
+dissolved in de-ionized water. The mole ratio of citric acid, EDTA and 
+total metal ions was 1.2:0.6:1. Then ethylene glycol and ammonia so­
+lution were added to adjust the pH to 8. The mixed solution was stirred 
+in a thermostat water bath at 80 ◦C for 5 h to obtain a resin. Then, the 
+resin was dried in an electrothermal drier at 200 ◦C for 3 h. The pre­
+cursor was pre-calcined in a muffle furnace at 300 ◦C for 3 h to remove 
+organic components and then calcined at 1000 ◦C for 5 h. After cooling 
+to room temperature, the samples were ground into powder in a ball 
+crusher. To obtain the volumetric energy storage densities, 40 g 
+perovskite powder was pressed into cubic honeycombs (3 cm × 3 cm ×
+3 cm) using a plate vulcanization machine (1000 kN, 20 MPa). 20 wt% 
+polyvinyl alcohol was used as a binder. The honeycombs were calcined 
+at 800 ◦C for 8 h. The density of the perovskite honeycomb is about 2.07 
+g cm−3. 
+2.3. Materials characterization 
+X-ray diffraction (XRD) was measured on an X-pert Powder X-ray 
+diffractometer using Cu-Kα1 radiation with a step of 0.02◦. The scanning 
+angle (2θ) was 10–60◦. The particle size of the sample should be within 
+200 mesh. The samples were put into the sample rack and flattened 
+before testing. In situ XRD was conducted on a Rigaku Smartlab in­
+strument to monitor the crystalline phase evolution in the scanning 
+range of 25–35◦. The sample was heated to 1000 ◦C and then cooled to 
+300 ◦C in the air atmosphere. The data was collected every 100 ◦C. X-ray 
+photoelectron spectroscopy (XPS) was performed on a ThermoFisher K- 
+Alpha spectrometer, where C1s (284.8 eV) was used for energy cali­
+bration. The powder samples were prepared on aluminum foil tape (1 
+cm × 1 cm) for XPS analysis. The morphologies of fresh and cycled 
+samples were observed by scanning electron microscopy (SEM) on a 
+Hitachi SU3500 scanning electron microscope. Transmission electron 
+Table 1 
+The chemical compositions of Ba1−xSrxCoO3−δ samples.  
+Samples 
+Ba:Sr mole ratio 
+Abbreviation 
+BaCoO3-δ 
+1:0 
+BC 
+Ba0.9Sr0.1CoO3-δ 
+0.9:0.1 
+BSC91 
+Ba0.7Sr0.3CoO3-δ 
+0.7:0.3 
+BSC73 
+Ba0.5Sr0.5CoO3-δ 
+0.5:0.5 
+BSC55 
+Ba0.3Sr0.7CoO3-δ 
+0.3:0.7 
+BSC37 
+Ba0.1Sr0.9CoO3-δ 
+0.1:0.9 
+BSC19 
+SrCoO3-δ 
+0:1 
+SC  
+P. Yuan et al.                                                                                                                                                                                                                                    
+
+
+===== Page 3 =====
+
+Journal of Energy Storage 61 (2023) 106695
+3
+microscopy (TEM) and energy dispersive spectrometer (EDS) were 
+performed on a Titan ChemiSTEM instrument to analyze the element 
+distributions. The accelerating voltage is 20 kV, and the magnification is 
+1000–5000. In order to improve the conductivity, the samples should be 
+sprayed with gold for 30 s before SEM and TEM tests. 
+Thermogravimetric (TG) and differential scanning calorimetry (DSC) 
+measurements were conducted on a NETZSCH STA 449F3 instrument. 
+The samples of ~10 mg were put into a quartz crucible and placed on the 
+sample holder. In the pre-experimental stage, an isothermal test of 
+BaCoO3-δ was performed, as shown in Fig. S3. The sample weight kept 
+almost unchanged at constant temperatures, so only variable tempera­
+ture tests were considered subsequently. The sample was first heated to 
+1050 ◦C and then cooled to 400 ◦C in air with a gas flow of 50 mL min−1. 
+The heating/cooling rate was 20 ◦C min−1. The energy storage densities, 
+namely the reaction enthalpies (△H) were obtained from the peak areas 
+of DSC curves. The reaction capacities (δ) were calculated according to 
+the mass changes in TG curves, as shown in Eq. (2) [15]. 
+δ = Δm
+m0
+× M
+MO
+(2) 
+Here, Δm is the mass change, m0 is the initial mass of the sample, M is 
+the molar mass of the sample and MO is the molar mass of an oxygen 
+atom. 
+3. Results and discussion 
+3.1. DFT calculations 
+The DFT method was used to predict the microscopic properties of 
+different models and guide subsequent experiments. This will help to 
+better understand the micro mechanism of substitution modification. 
+The impact of substitution on A-sites was analyzed in terms of crystal 
+structures and electronic distribution. The 5 × 2 × 1 supercell models of 
+BaCoO3 (BC), Ba0.5Sr0.5CoO3 (BSC55) and SrCoO3 (SC) were created and 
+optimized to find the minimum total energy. The optimized lattice pa­
+rameters were in excellent agreement with the experimental values with 
+a relative error within ±0.5 %, as shown in Table S1. The lattice con­
+stants decrease after Sr-substitution because ion radius of Sr2+ is smaller 
+than that of Ba2+. The Mulliken charges of BC, BSC55 and SC models are 
+listed in Table 2. For all the models, the effective charges of Ba/Sr are 
+close to +2e, which means Ba and Sr show strong ionic properties in the 
+lattices. The ionic interaction between A-sites and O mainly includes 
+long-range attraction and short-range repulsion. The long-range 
+attraction of Ba–O and Sr–O are close because of similar arrange­
+ment of outer electrons. However, the short-range repulsion will decline 
+with the ion radius reduction. Thus, Sr-substitution will weaken the 
+repulsion of A-O ion pair, as well as the structural stability [33]. The 
+effective charges of Co are about 0.72e, which is much smaller than +4e. 
+This result can be attributed to the covalent nature of B–O bonds in 
+Table 2 
+The Mulliken charges of BC, BSC55 and SC models.  
+Models 
+Ba 
+Sr 
+Co 
+BC  
+1.30  
+–  
+0.72 
+BSC55  
+1.28  
+1.35  
+0.72 
+SC  
+–  
+1.36  
+0.72  
+Fig. 1. The partial density of states (PDOS): (a) BC model; (b) BSC55 model; (c) SC model.  
+P. Yuan et al.                                                                                                                                                                                                                                    
+
+
+===== Page 4 =====
+
+Journal of Energy Storage 61 (2023) 106695
+4
+ABO3 perovskites. 
+To further estimate the electronic structures, the partial density of 
+states (PDOS) for BC, BSC55 and SC models are compared in Fig. 1. Here, 
+zero corresponds to the Fermi level (EF). The peaks at −10 eV and 13 eV 
+belong to Ba5p and Ba6s respectively. Sr4p and Sr5s peaks lie in lower 
+energy of −15 eV and 12 eV. They have little contribution to O2p, 
+revealing Ba and Sr mainly exist in the form of ions. In the BSC55 model, 
+the reduction of Ba states can be observed because of the addition of Sr. 
+The energy region between −10 eV and 5 eV is dominated by O2p and 
+Co3d. The effective overlap indicates Co and O will form strong covalent 
+bonds, which is consistent with the Mulliken charge analysis. Compared 
+to BSC55 and SC, Co3d and O2p show greater overlap in the BC model, 
+suggesting stronger Co–O bonds. The results indicate tuning the Ba/Sr 
+content will negligibly affect the bonding types in the Ba1-xSrxCoO3-δ 
+system, but the bond strength tend to be weakened by the replacement 
+of Ba with Sr. 
+During the reduction progress, the B–O bonds will be broken 
+because the atomic vibration intensifies under high temperature. The 
+energy required for bonds breaking, i.e., the formation energy of oxygen 
+vacancy (Evac) can reflect the reduction temperature. For seeking the 
+variation law of Evac with Sr content, the Ba1-xSrxCoO3-δ (x = 0, 0.1, 0.3, 
+0.5, 0.7, 0.9, 1) models were created and optimized. Different types of 
+oxygen vacancies were considered according to the number of adjacent 
+Ba atoms. Fig. 2 shows the averaged Evac of the Ba1-xSrxCoO3-δ models. 
+Fig. 2. The averaged Evac of the Ba1-xSrxCoO3-δ models.  
+Fig. 3. Phase and composition characterization: (a) XRD patterns of the Ba1-xSrxCoO3-δ samples; (b) TEM of BSC55 sample; (c) EDS mapping of Ba element; (d) EDS 
+mapping of Sr element. 
+P. Yuan et al.                                                                                                                                                                                                                                    
+
+
+===== Page 5 =====
+
+Journal of Energy Storage 61 (2023) 106695
+5
+In general, the Evac shows a decreasing trend between 5.90 eV and 5.06 
+eV with the increment of x. When x > 0.5, the decline trend becomes 
+slow, which can be explained by formation kinetics of oxygen vacancy in 
+different chemical environments [24]. This implies the oxygen escapes 
+more easily in Sr-rich samples, so the reduction temperature is predicted 
+to decrease with increasing Sr content. 
+3.2. Physicochemical characterization 
+The Ba1-xSrxCoO3-δ samples were synthesized by a modified Pechini 
+process. The samples are abbreviated as BC, BSC91, BSC73, BSC55, 
+BSC37, BSC19 and SC when x = 0, 0.1, 0.3, 0.5, 0.7, 0.9 and 1respec­
+tively. The XRD patterns are presented in Fig. 3a and the phase com­
+positions are listed in Table S2. The main crystal phase of the BC sample 
+is BaCoO2.6, which can be indexed to the hexagonal structure at ambient 
+temperature. After the introduction of Sr element, the Ba0.5Sr0.5CoO3 
+phase can be detected in a wide range of x = 0.1–0.7. With the increase 
+of Sr content, the Ba0.5Sr0.5CoO3 phase gradually becomes dominant. 
+When x = 0.9, the main phase of SrCoO2.52 can be observed. In the case 
+of SC, a high purity of the SrCoO2.52 phase is obtained. The characteristic 
+peaks shift to higher diffraction angles with the increment of Sr con­
+centration, corresponding to a slight decrease of cell parameters caused 
+by smaller ionic radius of Sr2+. EDS mapping images of BSC55 are shown 
+in Fig. 3b-d, indicating the element homogeneity in the composite 
+sample. 
+In order to study the surface chemistry of Ba1-xSrxCoO3-δ samples, 
+XPS was conducted to evaluate the chemical states and relative con­
+centration of Ba, Sr and O elements. The spectra of Ba3d and Sr3d are 
+compared in Fig. S4a-b, respectively. The Ba3d peak shapes of BC and 
+BSC55 are similar, indicating the addition of Sr has a negligible impact 
+on the chemical states of Ba [34]. The Sr3d spectrum of SC shows an 
+obvious doublet, while the doublet of BSC55 become broader and less 
+evident. The Sr3d spectra were fitted with three components. The peaks 
+around 131.9 eV (Sr3d5/2) can be ascribed to lattice Sr2+, and peaks 
+around 132.9 eV are corelated to surface SrO. The peaks at higher 
+binding energy (133.5 eV) are related to SrCO3 caused by carbonation 
+[18]. As shown in Fig. S4c-d, there is a distinct increase of lattice Sr2+
+after the incorporation of Ba, which may lead to a lower oxygen vacancy 
+density [35]. To observe changes of oxygen species clearly, the O1s 
+spectra were analyzed and the results are shown in Fig. 4. The O1s 
+spectra were fitted with four components, corresponding to surface 
+lattice oxygen (around 529.0 eV), surface absorbed oxygen (around 
+530.7 eV), OH−/CO3
+2−(around 531.5 eV) and H2O (around 532.5 eV) 
+[18]. The ratio of surface lattice oxygen is related to the phase compo­
+sitions. The surface lattice oxygen increased in BSC55, because the main 
+phase of BSC55 (Ba0.5Sr0.5CoO3) shows a higher oxygen stoichiometry 
+Fig. 4. XPS spectra of O1s: (a) BC; (b) BSC55; (c) SC; (d) ratio diagram of O species.  
+P. Yuan et al.                                                                                                                                                                                                                                    
+
+
+===== Page 6 =====
+
+Journal of Energy Storage 61 (2023) 106695
+6
+than BC and SC. XPS is a semi-quantitative analysis of surface chemical 
+properties, so the substitution effects on energy storage performances 
+need to be further studied by thermodynamic experiments. 
+3.3. Thermal characteristics 
+Thermal characteristics of Ba1-xSrxCoO3-δ samples were analyzed by 
+TG and DSC measurements. BC shows a large reaction capacity, with a 
+reduction onset temperature of 442 ◦C (Fig. 5a). δox is slightly smaller 
+than δre due to some irreversible mass losses of impurities [17]. SC ex­
+hibits a relatively slow reaction rate and poor reversibility in a wide 
+temperature range (Fig. 5b). Similarly, the reduction of SC also shows an 
+inflection point, because perovskite-type SrCoO2.52 will transform into 
+brownmillerite-type Sr2Co2O5 at elevated temperatures [36]. This phase 
+transition is irreversible, so δox is significantly less than δre. The com­
+posite samples show complex thermal characteristics, as shown in 
+Fig. 6a and Table 3. The composite samples show a temperature 
+tunability in the range of 298–312 ◦C. Generally, the reduction onset 
+temperature Tre, as well as the reaction capacity δ, tend to decrease with 
+increasing Sr levels. This phenomenon is consistent with DFT prediction 
+results, indicating the Evac can be considered as a theoretical descriptor 
+as the reduction temperatures. The redox pattern of BSC91 is similar 
+with BC, but the Tre decreases by 130 ◦C. This means Sr substitution on 
+A-site can expand the reaction temperature range. However, it should be 
+noted that the temperature deviation between rapid reduction and 
+oxidation reactions expands with the increment of Sr content. Compared 
+to other composite samples, BSC19 also shows a low oxidation rate. This 
+means excessive concentration of Sr may lead to kinetic hindrance. In 
+terms of redox reactivity, BSC19 suffers from poor reversibility, indi­
+cating Ba-rich samples produce large redox capacities and good 
+reversibility. Table 3 shows the reaction enthalpies of different samples. 
+The deviation between reduction enthalpies and oxidation enthalpies is 
+probably caused by the instrument measurement error. In this work, the 
+volumetric energy storage densities (Qvol) were converted from the 
+Fig. 5. Thermogravimetric (TG) curves of undoped samples: (a) BaCoO3-δ; (b) SrCoO3-δ.  
+Fig. 6. Thermal characteristics of Ba1-xSrxCoO3-δ (x = 0.1–0.9) samples: (a) TG curves; (b) temperature deviation between rapid reduction and oxidation reactions.  
+Table 3 
+Thermal characteristics of Ba1−xSrxCoO3−δ samples measured by TG-DSC.  
+Samples 
+Tre 
+(◦C) 
+δre 
+δox 
+△Hre (kJ 
+kg−1) 
+△Hox (kJ 
+kg−1) 
+Qvol (kWh 
+m−3) 
+BC  
+442  
+0.50  
+0.39  
+215.14  
+208.30  
+119.77 
+BSC91  
+312  
+0.41  
+0.35  
+122.44  
+166.12  
+95.52 
+BSC73  
+305  
+0.38  
+0.32  
+163.20  
+179.50  
+103.21 
+BSC55  
+300  
+0.33  
+0.29  
+180.50  
+202.20  
+116.27 
+BSC37  
+299  
+0.30  
+0.23  
+178.12  
+195.08  
+112.17 
+BSC19  
+298  
+0.33  
+0.22  
+130.76  
+36.26  
+20.85 
+SC  
+293  
+0.42  
+0.21  
+48.69  
+25.87  
+14.88  
+P. Yuan et al.                                                                                                                                                                                                                                    
+
+
+===== Page 7 =====
+
+Journal of Energy Storage 61 (2023) 106695
+7
+oxidation enthalpies. Among all the tested samples, BSC55 shows a 
+relatively large energy storage density and good reversibility, so it is 
+suggested as a suitable TCES materials. The results demonstrate the 
+addition of Ba facilitates the oxidation progress of SC, which is beneficial 
+to improve the reversibility and energy storage density. Meanwhile, the 
+reaction temperatures can be expanded and tailored for different energy 
+storage applications by Sr substitution. 
+3.4. Cyclability and structural stability 
+Thermochemical energy storage materials should have an excellent 
+cyclability for long-term applications. In order to estimate the cyclic 
+stability of Ba1-xSrxCoO3-δ perovskites, the samples underwent 150 cy­
+cles in a tubular furnace between 400 and 1050 ◦C. The cycle perfor­
+mance is shown in Fig. 7. An overall downward trend of δre can be seen 
+for undoped BC and SC samples. Comparatively, the composite samples 
+show better cyclic stability with small fluctuations. As for the oxidation 
+process, BC shows a slight degradation after 150 cycles. Other samples 
+exhibit even larger δox after 150 cycles, though a small drift can be 
+detected during cycling. The TG curves of the cycled samples are shown 
+in Fig. 8a. After 150 cycles, the samples can still realize the reversible 
+redox reactions. Significantly, the reversibility of cycled samples is 
+obviously better than fresh samples as displayed in Fig. 8b. This can be 
+explained by morphology changes. As revealed by SEM images in Fig. 9, 
+the Ba-rich samples exhibit terraced structures with point defects on the 
+surfaces [34]. The Sr-rich samples appear to have porous structures in 
+favor of the diffusion of oxygen. After 150 cycles, some large holes 
+instead of point defects can be distinguished in the Ba-rich samples, 
+which may accelerate oxygen exchange rates. The Sr-rich samples 
+maintain the favorable structures with high porosity, though slight 
+agglomeration can be observed. The oxygen diffusion is related to the 
+porosity and pore size distribution. As shown in Fig. 10, some small 
+pores aggregate into large pores after multiple cycles, which is condu­
+cive to the oxidation progress [37]. The results indicate the composite 
+perovskites have the desired cyclability with incredibly robust 
+microstructures. 
+To assess the structural stability of the composite perovskites, XRD 
+patterns of the cycled samples are shown in Fig. 11. The main crystal 
+phases remain the same as the prepared samples. No impurity phases are 
+generated, indicating a high structural stability of the perovskite mate­
+rials. In situ XRD was performed to further study the crystalline phase 
+evolution during the redox process. The contour map of cycled BSC55 
+during the reduction and oxidation processes is displayed in Fig. 12a. 
+Two main reflections of the hexagonal phase, (101) peak and (110) 
+peak, shift to lower angles under heating conditions, which is related to 
+oxygen release. Above 900 ◦C, the hexagonal phase exhibits a fast 
+Fig. 7. Cyclic performance of the Ba1-xSrxCoO3-δ samples: (a) reduction rate; (b) oxidation rate.  
+Fig. 8. Redox performance of the cycled Ba1-xSrxCoO3-δ samples: (a) TG curves; (b) reversibility diagram. Here, the reversibility is determined by the δox/δre ratio.  
+P. Yuan et al.                                                                                                                                                                                                                                    
+
+
+===== Page 8 =====
+
+Journal of Energy Storage 61 (2023) 106695
+8
+transition into the cubic phase. During the oxidation progress, the cubic 
+phase converts back into the hexagonal phase at about 800 ◦C. As shown 
+in Fig. 12b, the temperatures of DSC peaks correspond to the phase 
+transition temperatures. Thus, the DSC peaks can be used to estimate the 
+phase boundaries [15]. The high-temperature cubic phase is more sta­
+ble, so the cubic-hexagonal transition is more difficult, which is 
+responsible for the temperature deviation observed in Fig. 6b. 
+4. Conclusions 
+Perovskites is a kind of promising thermochemical energy storage 
+materials because of flexible reaction temperatures, large energy storage 
+densities and long storage periods. In this work, the compounds of Ba1- 
+xSrxCoO3-δ are studied by computational and experimental methods. To 
+entirely estimate different roles of Ba/Sr contents, a wide compositional 
+range of x = 0–1 is covered in this work. To predict the thermal char­
+acteristics of Ba1-xSrxCoO3-δ perovskites, the crystal and electronic 
+structures are calculated by DFT method. It is demonstrated that A-site 
+substitution has negligible impact on the bonding types in the perov­
+skites, but the formation energy of oxygen vacancy turns out to decrease 
+with the increasing Sr content. Therefore, it is predicted that the 
+reduction reactions become more easily in Sr-rich samples, resulting in 
+lower reduction temperatures. According to the experimental results, 
+the reduction onset temperatures can be tuned from 440 ◦C to 290 ◦C 
+Fig. 9. SEM images of the Ba1-xSrxCoO3-δ samples before and after 150 cycles: (a)-(g) correspond to x = 0, 0.1, 0.3, 0.5, 0.7, 0.9, 1 respectively.  
+Fig. 10. Schematic diagram of pore growth mechanism.  
+Fig. 11. XRD patterns of the cycled Ba1-xSrxCoO3-δ samples.  
+P. Yuan et al.                                                                                                                                                                                                                                    
+
+
+===== Page 9 =====
+
+Journal of Energy Storage 61 (2023) 106695
+9
+when increasing Sr content from 0 to 1. It is also found that Ba- 
+substitution can improve the oxidation kinetics and enthalpy of 
+SrCoO3-δ. Sr-addition can conduce to a porous microstructure, which is 
+beneficial to the oxygen diffusion. In addition, the cyclability and 
+structural stability after 150 cycles are investigated. SEM analysis in­
+dicates the cycled samples show pore structures with larger specific 
+surfaces, so the reversibility has been enhanced after multiple cycles. 
+Overall, Ba0.5Sr0.5CoO3-δ is suggested as a suitable TCES material, due to 
+a large reduction enthalpy of 202.20 kJ kg−1 (116.27 kWh m−3) and 
+excellent cycling stability for long-term applications. This study offers a 
+rational guideline for the material design of thermochemical energy 
+storage perovskites. In summary, the Ba1-xSrxCoO3-δ perovskites provide 
+a wide temperature range, so they can be integrated with different 
+systems flexibly. In addition, they show robust structural stability after 
+multiple cycles, which is beneficial to extend the service life. However, 
+TCES technology based on perovskites is still in the laboratory stage due 
+to high technical difficulty and expensive cost. This work focuses on the 
+energy storage performance of perovskite powder. In the future, per­
+formance tests of perovskite honeycombs should be carried out for large- 
+scale systems. 
+CRediT authorship contribution statement 
+Peng Yuan: Conceptualization, Methodology, Validation, Writing – 
+original draft. Haoran Xu: Investigation, Resources, Writing – review & 
+editing. Zeyu Ning: Investigation, Software. Gang Xiao: Funding 
+acquisition, Project administration, Supervision. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Data availability 
+No data was used for the research described in the article. 
+Acknowledgment 
+This work was supported by the Zhejiang Provincial Natural Science 
+Foundation [grant number LR20E060001]; and the Zhejiang Provincial 
+Key R&D Program [grant number 2022C01043]. Thanks for the support 
+of College of Materials Science and Engineering, Zhejiang University. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.est.2023.106695. 
+References 
+[1] T.A. Hamed, A. Alshare, Environment impact of solar and wind energy- a review, 
+J. Sustain. Dev. Energy Water Environ. Syst. 10 (2) (2022) 1090387. 
+[2] F. Jin, C. Xu, H. Yu, X. Xia, F. Ye, X. Li, X. Du, Y. Yang, CaCo0.05Mn0.95O3-δ: a 
+promising perovskite solid solution for solar thermochemical energy storage, ACS 
+Appl. Mater. Interfaces 13 (3) (2021) 3856–3866. 
+[3] M. Sarvghad, S. Delkasar Maher, D. Collard, M. Tassan, G. Will, T.A. Steinberg, 
+Materials compatibility for the next generation of concentrated solar power plants, 
+Energy Storage Mater. 14 (2018) 179–198. 
+[4] A.J. Carrillo, J. Gonzalez-Aguilar, M. Romero, J.M. Coronado, Solar energy on 
+demand: a review on high temperature thermochemical heat storage systems and 
+materials, Chem. Rev. 119 (7) (2019) 4777–4816. 
+[5] M. Liu, N.H.S. Tay, S. Bell, M. Belusko, R. Jacob, G. Will, W. Saman, F. Bruno, 
+Review on concentrating solar power plants and new developments in high 
+temperature thermal energy storage technologies, Renew. Sustain. Energy Rev. 53 
+(2016) 1411–1432. 
+[6] E. Mastronardo, X. Qian, J.M. Coronado, S.M. Haile, Impact of La doping on the 
+thermochemical heat storage properties of CaMnO3-δ, J. Energy Storage 40 (2021), 
+102793. 
+[7] A. Zaki, J. Carrasco, D. Bielsa, A. Faik, Tunable redox temperature of Co3-xMnxO4 
+(0 </= x </= 3) continuous solid solution for thermochemical energy storage, ACS 
+Appl. Mater. Interfaces 12 (6) (2020) 7010–7020. 
+[8] S. Wu, C. Zhou, E. Doroodchi, R. Nellore, B. Moghtaderi, A review on high- 
+temperature thermochemical energy storage based on metal oxides redox cycle, 
+Energy Convers. Manag. 168 (2018) 421–453. 
+[9] D. Müller, C. Knoll, W. Artner, M. Harasek, C. Gierl-Mayer, J.M. Welch, A. Werner, 
+P. Weinberger, Combining in-situ X-ray diffraction with thermogravimetry and 
+differential scanning calorimetry – an investigation of Co3O4, MnO2 and PbO2 for 
+thermochemical energy storage, Sol. Energy 153 (2017) 11–24. 
+[10] L. Andr´e, S. Abanades, L. Cassayre, Experimental investigation of Co–Cu, Mn–Co, 
+and Mn–Cu redox materials applied to solar thermochemical energy storage, ACS 
+Appl. Energy Mater. 1 (7) (2018) 3385–3395. 
+[11] M. Deutsch, F. Horvath, C. Knoll, D. Lager, C. Gierl-Mayer, P. Weinberger, 
+F. Winter, High-temperature energy storage: kinetic investigations of the CuO/ 
+Cu2O reaction cycle, Energy Fuel 31 (3) (2017) 2324–2334. 
+[12] P. Staff, Thermochemical heat storage for concentrated solar power, in: Office of 
+Scientific & Technical Information Technical Reports, 2011. 
+[13] C. Agrafiotis, T. Block, M. Senholdt, S. Tescari, M. Roeb, C. Sattler, Exploitation of 
+thermochemical cycles based on solid oxide redox systems for thermochemical 
+storage of solar heat. Part 6: testing of Mn-based combined oxides and porous 
+structures, Sol. Energy 149 (2017) 227–244. 
+[14] D. Xiang, C. Gu, H. Xu, G. Xiao, Self-assembled structure evolution of mn-fe oxides 
+for high temperature thermochemical energy storage, Small 17 (29) (2021), 
+e2101524. 
+[15] E. Mastronardo, X. Qian, J.M. Coronado, S.M. Haile, The favourable 
+thermodynamic properties of fe-doped CaMnO3 for thermochemical heat storage, 
+J. Mater. Chem. A 8 (17) (2020) 8503–8517. 
+Fig. 12. (a) Contour map of cycled BSC55 during reduction and oxidation processes. 2θ = 25–35◦; (b) DSC curve of BSC55.  
+P. Yuan et al.                                                                                                                                                                                                                                    
+
+
+===== Page 10 =====
+
+Journal of Energy Storage 61 (2023) 106695
+10
+[16] P. Yuan, C. Gu, H. Xu, Z. Ning, K. Cen, G. Xiao, Regulating thermochemical redox 
+temperature via oxygen defect engineering for protection of solar molten salt 
+receivers, iScience 24 (9) (2021), 103039. 
+[17] R.D. Barcellos, M.D. Sanders, J. Tong, A.H. McDaniel, R.P. O’Hayre, 
+BaCe0.25Mn0.75O3−δ—a promising perovskite-type oxide for solar 
+thermochemical hydrogen production, Energy & Environmental Science 11 (11) 
+(2018) 3256–3265. 
+[18] J. Vieten, B. Bulfin, M. Senholdt, M. Roeb, C. Sattler, M. Schmücker, Redox 
+thermodynamics and phase composition in the system SrFeO3−δ — SrMnO3−δ, 
+Solid State Ionics 308 (2017) 149–155. 
+[19] E.J. Popczun, D.N. Tafen, S. Natesakhawat, C.M. Marin, T.-D. Nguyen-Phan, 
+Y. Zhou, D. Alfonso, J.W. Lekse, Temperature tunability in Sr1−xCaxFeO3−δ for 
+reversible oxygen storage: a computational and experimental study, J. Mater. 
+Chem. A 8 (5) (2020) 2602–2612. 
+[20] S.M. Babiniec, E.N. Coker, A. Ambrosini, J.E. Miller, ABO3 (A = La, Ba, Sr, K; B =
+Co, Mn, Fe) perovskites for thermochemical energy storage, in: AIP Conference 
+Proceedings 1734, 2016, p. 050006. 
+[21] M.A. Pe˜na, J.L. Fierro, Chemical structures and performance of perovskite oxides, 
+Chem. Rev. 101 (7) (2001) 1981–2017. 
+[22] L. Imponenti, K.J. Albrecht, R. Kharait, M.D. Sanders, G.S. Jackson, Redox cycles 
+with doped calcium manganites for thermochemical energy storage to 1000 ◦C, 
+Appl. Energy 230 (2018) 1–18. 
+[23] S.M. Babiniec, E.N. Coker, J.E. Miller, A. Ambrosini, Investigation of LaxSr1- 
+xCoyM1-yO3-δ (M = Mn, Fe) perovskite materials as thermochemical energy 
+storage media, Sol. Energy 118 (2015) 451–459. 
+[24] J. Vieten, B. Bulfin, P. Huck, M. Horton, D. Guban, L. Zhu, Y. Lu, K.A. Persson, 
+M. Roeb, C. Sattler, Materials design of perovskite solid solutions for 
+thermochemical applications, Energy Environ. Sci. 12 (4) (2019) 1369–1384. 
+[25] S.M. Babiniec, E.N. Coker, J.E. Miller, A. Ambrosini, Doped calcium manganites for 
+advanced high-temperature thermochemical energy storage, Int. J. Energy Res. 40 
+(2) (2016) 280–284. 
+[26] J. Vieten, B. Bulfin, D.E. Starr, A. Hariki, F.M.F. de Groot, A. Azarpira, C. Zach¨aus, 
+M. H¨avecker, K. Skorupska, N. Knoblauch, M. Schmücker, M. Roeb, C. Sattler, 
+Redox behavior of solid solutions in the SrFe1-xCuxO3-δ system for application in 
+thermochemical oxygen storage and air separation, Energy Technol. 7 (1) (2019) 
+131–139. 
+[27] E. Krzystowczyk, X. Wang, J. Dou, V. Haribal, F. Li, Substituted SrFeO3 as robust 
+oxygen sorbents for thermochemical air separation: correlating redox performance 
+with compositional and structural properties, Phys. Chem. Chem. Phys. 22 (16) 
+(2020) 8924–8932. 
+[28] L. Imponenti, K.J. Albrecht, J.W. Wands, M.D. Sanders, G.S. Jackson, 
+Thermochemical energy storage in strontium-doped calcium manganites for 
+concentrating solar power applications, Sol. Energy 151 (2017) 1–13. 
+[29] Z.K. Zhang, L. Andre, S. Abanades, Experimental assessment of oxygen exchange 
+capacity and thermochemical redox cycle behavior of Ba and Sr series perovskites 
+for solar energy storage, Sol. Energy 134 (2016) 494–502. 
+[30] N. Gokon, T. Yawata, S. Bellan, T. Kodama, H.-S. Cho, Thermochemical behavior of 
+perovskite oxides based on LaxSr1-x(Mn, Fe, Co)O3-δ and BaySr1-yCoO3-δ redox 
+system for thermochemical energy storage at high temperatures, Energy 171 
+(2019) 971–980. 
+[31] Y. Wang, L. Yu, J. Wang, L. Chen, W. Gao, X. Du, L. Biao, Porous microstructure 
+modification of La1−xSrxCoO3 (0≤x≤1) ceramics via Sr content, Mater. Lett. 75 
+(2012) 39–41. 
+[32] Q. Shen, Y. Zheng, S. Li, H. Ding, Y. Xu, C. Zheng, M. Thern, Optimize process 
+parameters of microwave-assisted EDTA method using orthogonal experiment for 
+novel BaCoO 3−δ perovskite, J. Alloys Compd. 658 (2016) 125–131. 
+[33] Y. Xie, H. Yu, G. Zhang, H. Fu, Lattice dynamics investigation on different 
+transition behaviors of cubic BaTiO3 and SrTiO3 by first-principles calculations, 
+J. Phys. Condens. Matter 20 (2008), 215215. 
+[34] N. Jain, A. Roy, A. De, Ba-addition induced enhanced surface reducibility of 
+SrTiO3: implications on catalytic aspects, Nanoscale Adv. 1 (12) (2019) 
+4938–4946. 
+[35] X. Nie, D. Zheng, Y. Chen, B. Wang, C. Xia, W. Dong, X. Wang, H. Wang, B. Zhu, 
+Processing SCNT(SrCo0.8Nb0.1Ta0.1O3-δ)-SCDC(Ce0.8Sm0.05Ca0.15O2-δ) 
+composite into semiconductor-ionic membrane fuel cell (SIMFC) to operate below 
+500 ◦C, Int. J. Hydrog. Energy 44 (59) (2019) 31372–31385. 
+[36] O. Jankovský, D. Sedmidubský, J. Vítek, P. ˇSimek, Z. Sofer, Phase diagram of the 
+Sr–Co–O system, J. Eur. Ceram. Soc. 35 (3) (2015) 935–940. 
+[37] H. Liu, F. Pan, S. Wu, The grain growth mechanism of nano-CaO regenerated by 
+nano-CaCO3 in calcium looping, RCS Adv. 9 (2019) 26949–26955. 
+P. Yuan et al.                                                                                                                                                                                                                                    

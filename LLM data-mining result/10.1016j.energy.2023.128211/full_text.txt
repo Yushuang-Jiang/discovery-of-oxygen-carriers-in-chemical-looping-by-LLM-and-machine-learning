@@ -1,0 +1,1098 @@
+
+
+===== Page 1 =====
+
+Energy 280 (2023) 128211
+Available online 21 June 2023
+0360-5442/© 2023 Elsevier Ltd. All rights reserved.
+Chemical looping with oxygen uncoupling of biomass-derived hydrochar 
+with Cu-based oxygen carriers modified by alkaline earth metals 
+Yousheng Lin a,*, Zhifeng Hu b, Ya Ge a, Hanmin Xiao a, Gang Zhang a, Qing He a,** 
+a Guangdong Provincial Key Laboratory of Distributed Energy Systems, School of Chemical Engineering and Energy Technology, Dongguan University of Technology, 
+Dongguan, 523808, China 
+b Key Laboratory for Biobased Materials and Energy of Ministry of Education, College of Materials and Energy, South China Agricultural University, Guangzhou, 510642, 
+China   
+A R T I C L E  I N F O   
+Keywords: 
+Chemical looping with oxygen uncoupling 
+Cu-based oxygen carriers 
+Hydrochar 
+Alkaline earth metals 
+Kinetic analysis 
+A B S T R A C T   
+In this paper, the effect of alkaline-earth metals (AEMs, Ca, Ba, and Sr) on the performance of CuO/ZrO2 oxygen 
+carriers (OCs) and the hemical looping with oxygen uncoupling (CLOU) process of wheat-derived hydrochars 
+with these Cu-based OCs were investigated. The results showed that after multiple cycles, the crystal phases of 
+modified Cu-based OCs were the same as that of pure CuO/ZrO2 OC without any interaction between them. Due 
+to the catalytic effects of AEMs, an increase in the decomposition of wheat and hydrochar-235 in modified Cu- 
+based was observed at 500 ◦C. The combination of Ca and HTC promotes reoxidation, while Ba and Sr inhibit 
+reoxidation. Notably, the Cu-based OCs exhibited moderate agglomeration after 20 redox cycles at 950 ◦C. The 
+results of the kinetic analysis indicate that the chemical order models and diffusion models can suitably describe 
+the first combustion stage for wheat and hydrochars with Cu-based OCs, respectively. The geometrical 
+contraction model was also found to most suitably describe the second combustion stage of all samples. These 
+results suggest that a combination of hydrothermal carbonization pretreatment with AEMs modification is an 
+efficient approach for CLOU using CuO-based OCs.   
+1. Introduction 
+Due to the increasing energy demand, a large number of non- 
+renewable fossil fuels is being consumed and a huge amount of CO2 is 
+released [1,2]. CO2 is a primary greenhouse gas with the highest 
+contribution (65%) to global emissions [3]. Global warming is the most 
+serious environmental challenge. Countries warming is currently 
+considered the most serious threat, such that governments worldwide 
+have acknowledged the need to achieve carbon neutrality [4]. In 
+September 2020, China pledged to enable carbon peaking by 2030 and 
+achieve carbon neutrality by 2060 [5]. Driven by this goal, researchers 
+are investigating efficient CO2 capture technologies and renewable en­
+ergy sources. Chemical looping combustion, a thermochemical conver­
+sion technology, provides active oxygen by employing the circulation of 
+metallic oxygen-carrying materials and avoids direct contact between 
+fuel and air [6]. This technology not only can achieve high concentra­
+tion of CO2 enrichment, and emits a significantly lower amount of NOx, 
+but also has many advantages such as a high system exergy efficiency 
+and the in situ reduction of SOx, HCl, and polychlorinated 
+dibenzo-p-dioxins and -furans (PCDD/Fs) secondary pollutants [6,7]. To 
+increase the rate of solid (fuel)-solid (oxygen carrier, OC) reactions, in 
+2009, Mattisson et al. [8] proposed chemical looping with oxygen 
+uncoupling (CLOU) for the combustion of solid fuels. The OCs used in 
+CLOU, such as CuO/Cu2O, Mn2O3/Mn3O4, and Co3O4/CoO, release 
+oxygen in the fuel reactor (FR), which is then regenerated in the air 
+reactor (AR) [2]. As shown in Fig. 1, the OCs release gaseous reactive 
+oxygen in the FR in an oxygen-deficient environment and at tempera­
+tures between 850 and 1000
+○C (Eq. (1)). The char and volatiles from the 
+pyrolysis reaction are then react with gaseous oxygen (Eq. (2)) [6]. The 
+combustion flue gas stream from the FR only comprise CO2 and water 
+vapor. The high-concentration CO2 can easily be separated by carbon 
+capture and storage technology via water vapor condensation; a small 
+amount of CO2 is also used as the fluidizing agent in the FR. The reduced 
+OCs are then transported to the AR and re-oxidized by reacting with air 
+(Eq. (3)) [8]. The re-oxidized OCs are then reused in the FR. 
+* Corresponding author. 
+** Corresponding author. 
+E-mail addresses: linys@dgut.edu.cn (Y. Lin), heqing@dgut.edu.cn (Q. He).  
+Contents lists available at ScienceDirect 
+Energy 
+journal homepage: www.elsevier.com/locate/energy 
+https://doi.org/10.1016/j.energy.2023.128211 
+Received 24 March 2023; Received in revised form 29 May 2023; Accepted 20 June 2023   
+
+
+===== Page 2 =====
+
+Energy 280 (2023) 128211
+2
+2MexOy →2MexOy−1 + O2
+(1)  
+C(Char) + CnH2m(Volatiles) +
+(
+1 + n + m
+2
+)
+O2 →(n + 1)CO2 + mH2O
+(2)  
+2MexOy−1 + O2→2MexOy
+(3) 
+Recently, biomass has gained significant attention due to its renew­
+ability, abundance, and near-zero CO2 emissions. The utilization of 
+biomass energy via CLOU can help to reduce reliance on fossil fuels and 
+achieve negative CO2 emissions [9]. Adanez-Rubio et al. [10] reported 
+that the use of biomass with CLOU resulted in the successful operation of 
+a 1.5 kW continuous unit using a 60% CuO/MgAl2O4 OC. The results 
+showed that the biomass was combusted completely and that a CO2 
+capture efficiency of 100% was reached at 935 ◦C. However, the char­
+acteristics of raw biomass (low energy density and high moisture con­
+tent) significantly affect the energy efficiency of CLOU, such as increase 
+transportation costs and smoke heat loss. Therefore, pretreatment 
+methods are necessary to combat these issues. 
+Recently, hydrothermal carbonization (HTC) has been used as an 
+energy-efficient and environmentally friendly pretreatment technology 
+for wet biomass waste [11,12]. During HTC, water acts as a solvent and 
+participates in the reaction by providing H3O+ and OH−ions. After that, 
+the wet biomass waste is converted into value-added hydrochars with 
+high energy densities and low moisture content under autogenous 
+saturation pressure. During HTC, the moisture contained in the biomass 
+is removed in the liquid phase, thereby avoiding energy-intensive 
+pre-drying processes [12]. Previously published works had confirmed 
+that HTC can improve combustion performance and reduce pollutant 
+emissions [11,13,14]. However, the chemical looping process of 
+hydrochars has not yet been sufficiently researched. This study is the 
+first to investigate the CLOU process of biomass-derived hydrochars 
+with Cu-based OCs. 
+Cu-based OCs are widely used in CLOU, due to the primary advan­
+tages of fast reaction rate, high oxygen transport capacity and favorable 
+combustion thermodynamics [2]. However, CuO is relatively expensive, 
+has low mechanical strength and a high agglomeration tendency at high 
+temperatures [8,10]. With the exception of the inter supports, such as 
+MgAl2O4 and ZrO2, the use of low-cost exogenous heterogeneous ions 
+for CuO modification improves the reactivity and anti-agglomeration 
+ability of the OC. Arjmand et al. [15] reported that CaZrO3- and 
+SrZrO3-modified CuO-based OCs exhibited rapid oxygen release, with 
+the latter showing no agglomeration or deactivation. Abuelgasim et al. 
+[16] also found that the addition of alkaline earth metal (e.g., CaO and 
+MgO) increased the CuO uncoupling rate. However, the alkali species 
+(Na and K) decreased the reactivity of CuO and led to sintering and 
+agglomeration due to their lower melting point [16]. Additionally, 
+alkaline earth metals have been reported to improve the solid fuel 
+gasification rate and promote the combustion of tar and coke [17]. 
+Therefore, alkaline earth metals are undoubtedly a better choice for CuO 
+OC modification compared to alkali species. However, research on the 
+use of alkaline-earth-metal-modified Cu-based composite OCs in the 
+CLOU process of biomass is limited. 
+Because of the crucial role of CLOU technology in the large-scale 
+utilization of biomass in future carbon-neutral processes, it is impor­
+tant to study the characteristics of combustion processes and the per­
+formance of Cu-based OCs during the CLOU process of biomass and its 
+hydrochars. Therefore, the primary objectives of this study are: i) to 
+study the effect of HTC on the CLOU process of biomass waste, ii) to 
+evaluate the effect of AEMs on the performance of Cu-based OCs, and iii) 
+to perform a kinetic analysis of the thermodynamic combustion process 
+using the Coats–Redfern method. 
+2. Materials and methods 
+2.1. Materials 
+In this study, the wheat harvested in Hebei Province (China) was 
+used as the waste biomass. Two hydrochars were obtained at 235 
+○C and 
+270 
+○C for 60 min with the solid-to-liquid ratio of 4 g: 50 mL by a 100 mL 
+Hastelloy autoclave reactor. The experimental process has been 
+described in our previous paper [18]. Before the experiment, the wheat 
+and hydrochars were dried in an oven at 105
+○C for 48 h, then crushed to 
+<0.25 mm. 
+2.2. Preparation and characterization of Cu-based OCs 
+The Cu-based OCs were prepared using a mechanical mixing method. 
+CuO (AR, ≥99%), ZrO2 (≥99%, act as support), CaO (≥98%), BaCO3 
+(AR, ≥99%), SrCO3 (AR, ≥99%), and SiO2 (≥99.99%, 10 μm) were 
+purchased from Shanghai Aladdin Biochemical Technology Co., Ltd. For 
+the CuO OC, the mass ratio of CuO:ZrO2 was 60:40. For Cu-based OCs 
+modified by AEMs, the mass ratio of CuO: AEM precursors: ZrO2 was 
+50:10:40. Briefly, 60 g or 50 g of CuO, 40 g of ZrO2, and without or 10 g 
+AEMs precursors were mixed with 300 mL deionized water. For a 
+comparison, the same ratio of SiO2 was also added. The mixtures were 
+continuously stirred (500 rpm) and heated to approximately 75 ◦C until 
+Fig. 1. The schematic of the chemical looping with oxygen uncoupling process.  
+Y. Lin et al.                                                                                                                                                                                                                                      
+
+
+===== Page 3 =====
+
+Energy 280 (2023) 128211
+3
+complete evaporation of water. Subsequently, the viscous precursors 
+were transferred to a 120 ◦C drying oven for 12 h, then calcined in a 
+muffle furnace from room temperature to 950 ◦C with a heating rate of 
+5 ◦C/min and maintained at 950 ◦C for 4 h under an air atmosphere. 
+Finally, the CuO/ZrO2 composite OCs modified by AEMs or SiO2 were 
+crushed and sieved to 180–250 μm particle size. The OC materials were 
+labeled as CuO/ZrO2, CuO/ZrO2–Ca, CuO/ZrO2–Ba, CuO/ZrO2–Sr, and 
+CuO/ZrO2–SiO2. The crystal phases of the fresh OCs, the reduced OCs, 
+and the OCs after multiple-cycle reaction were obtained by X-ray 
+diffraction (XRD, Rigaku UltimaIV, Japan) with Cu-Kα radiation. The 
+samples were scanned with a step size of 0.02o at a speed of 5o(2θ)/min 
+over 10◦-90o. The first reduced and multiple redox cycles OCs without 
+biomass were prepared in a fixed furnace. Briefly, 1 ± 0.1 g of OCs was 
+loaded in the crucible and the fixed furnace was heated to 950 ◦C. The 
+order of the reaction stages in one cycle was as follows: reduction (pure 
+N2, 200 mL/min, 20min) → reoxidation (air, 200 mL/min, 20min). 
+2.3. Combustion experiments using a fixed furnace and 
+thermogravimetric analysis (TGA) 
+In this study, the stoichiometric amount of OC required for the 
+complete combustion of the biomass or hydrochar was determined by 
+the elemental analysis and oxygen transport capacity of Cu-based OCs. 
+The ratio of the biomass or hydrochar to the Cu-based OC was set to be 
+1:25 for all samples. The decomposition of wheat with the same amount 
+of SiO2 was also carried out for comparison. The redox cycle reactions of 
+OCs with the biomass or hydrochar was performed in a fixed furnace. 
+For the purpose, 40 mg of the biomass or hydrochar and 1 g of OCs were 
+mixed thoroughly and loaded in the crucible. The order of the reaction 
+stages in one cycle was and follows: the fixed furnace was heated to 
+950 ◦C (pure N2, 200 mL/min) → send the sample to the furnace center 
+→reduction (pure N2, 200 mL/min, 20min) → reoxidation (air, 200 mL/ 
+min, 20min) →cool to room temperature (air, 200 mL/min) → adding 
+40 mg sample to the re-oxidized OCs. PerkinElmer-STA6000 was 
+employed to perform the TGA experiments of the biomass, Cu-based 
+OCs, and biomass-OCs mixtures. For this analysis, 20 ± 0.1 mg of the 
+premixed biomass-CuO-based OCs (1:25) was loaded in the alumina 
+crucible. The TGA was heated from 30 ◦C to 950 ◦C at a rate of 20 ◦C/ 
+min under N2 atmosphere (80 mL/min) and held for 40 min at 950 ◦C. 
+Subsequently, the gas was switched to air at 80 mL/min and then held 
+for 40 min at 950 ◦C. In addition, the surface morphology of reoxidation 
+OC particles was analyzed by scanning electron microscopy (SEM, 
+FESEM, Regulus 8100, HITACHI, Japan). 
+2.4. Kinetic analysis 
+Refer to published research on the kinetics of chemical looping 
+process of solid fuel with different OCs [2,19,20], for CLOU of the 
+biomass-CuO-based OCs mixture, the fuel fractional conversion degree 
+(α) during combustion reaction was calculated as Eq. (4). 
+α = mo −mt
+mo −mf
+(4)  
+where mo is the primary weight of the mixture, mt is the instantaneous 
+weight of the mixture at the given time t, and mf is the final weight of the 
+mixture after complete combustion. 
+The Coats–Redfern model-based method is widely used to obtained 
+the activation energy (E) and pre-exponential factor (A) for complex 
+materials. The detailed solution process has been well described in 
+various articles [2,21]. Briefly, the integral form of the kinetic model by 
+the Coats–Redfern method can be written as Eq. (5). 
+ln
+[g(α)
+T2
+]
+= ln
+[AR
+βE
+(
+1 −2RT
+E
+)]
+−RT
+E
+(5)  
+where g(α) is the integral form of the kinetic mechanism function f(α); T 
+is the absolute temperature (K); A represents the pre-exponential factor 
+(min−1); R is the universal gas constant (8.314 J K−1 mol−1); β = dT/dt, 
+heating rate (20 ◦C/min in this study); and E is the apparent activation 
+energy (kJ/mol). Table S1 lists the common reaction mechanisms and 
+their mathematical models. In most temperature ranges, the first item on 
+the right side of Eq. (5) can be considered a constant. Thus, the A and E 
+can be obtained by plotting ln(g(α)/T2) vs. 1/T. Further, the correlation 
+coefficient (R2) values of the least-square fitting are compared for all 
+reaction mechanisms. 
+3. Results and discussion 
+3.1. Characterization of wheat, hydrochars, and Cu-based OCs 
+The physicochemical properties of wheat and hydrochars are plotted 
+in Fig. 2. As expected, the C content of biomass increased from 41.64% 
+to 55.83% and 66.33% after HTC, which can be attributed to the 
+aromatization and polymerization reactions, resulting in a significant 
+number of C––C bonds (Fig. S1) [12,14]. On the other hand, the O 
+content decreased significantly from 44.93% to 28.94% and 17.76%, 
+which can be attributed to the dehydroxylation and decarboxylation 
+reactions, causing many oxygen-containing functional groups, such as 
+C–O, C––O, and O–C–C, to break (Fig. S1). Correspondingly, from Fig. 2 
+(b), an increase in fixed carbon was also observed, and the volatile 
+matter was found to decrease from 79.15% to 58.24% and 54.64%. 
+Although the ignition was more difficult due to the increase in fixed 
+carbon and decrease in volatile matter, the hydrochars will exhibit more 
+stable combusting profiles and higher combustion efficiency [22]. 
+Meanwhile, the hydrochar with a low H/C and O/C ratio will reduce the 
+exhaust smoke heat loss during combustion. 
+ZrO2 is an excellent support material for OCs, such that CuO/ZrO2 
+OC exhibit excellent oxygen uncoupling even after a 50-cycle operation 
+[23]. The crystal phases of the fresh, reduced, 1-redox-cycle, and 
+10-redox-cycle Cu-based OCs are shown in Fig. 3. As Fig. 3(a) indicates, 
+the fresh CuO/ZrO2 OC exhibited ZrO2 characteristic peaks that can be 
+attributed to the baddeleyite monoclinic phase (PDF# 83–0942), while 
+the active CuO exhibited characteristic peaks that can be attributed to 
+the tenorite monoclinic phase (PDF# 80–1916) [24]. As can be observed 
+from Fig. 3(b), the reduced OCs reflect the Cu2O cubic phase (PDF# 
+78–2076), with major characteristic peaks observed at approximately 
+36.44o, 42.32o, 61.38o, and 73.52o. No CuO peaks are detected in the 
+reduced OCs, indicating the complete conversion of CuO into Cu2O. 
+After multiple redox cycles, the crystal phases of the 1st CuO/ZrO2 
+(Fig. 3(c)) and the 10th CuO/ZrO2 (Fig. 3(d)) are found to be the same as 
+that of the fresh OC. Notably, there was no interaction between the 
+active component and the support during the calcination and multiple 
+redox processes, which is consistent with the previous reports [23,24]. 
+In particular, there was no evidence to suggest that the CuO and Cu2O 
+phases in the modified OCs were affected by the AEMs at this mixing 
+ratio. As can be observed from Fig. 3(a)–(d), the characteristic reflection 
+angles and intensities of the CuO and Cu2O peaks in CuO/ZrO2–Ca, 
+CuO/ZrO2–Ba, and CuO/ZrO2–Sr are the same as those of the CuO/ZrO2 
+after multiple redox cycles. This indicates that the redox ability and 
+oxygen capacity of the modified Cu-based OCs were effectively main­
+tained. This result is considerably different from Cao’s work which re­
+ports the production of CaCu2O3 and Ca2CuO3 when modifying CuO 
+with limestone (mainly containing CaO) [25]. This can be attributed to 
+the excessive loading of limestone (40%) during OC synthesis. However, 
+AEMs can easily combined with the support material to form of CaZrO3 
+(PDF# 76–2401, 22.22o, 31.60o, 45.28o) and Ca0⋅15Zr0⋅85O1.85 (PDF# 
+26–0341, 
+30.18o, 
+50.20◦) 
+in 
+the 
+CuO/ZrO2–Ca 
+OC 
+during 
+high-temperature calcination, as well as BaZrO3 (PDF# 74–1299, 
+30.12o, 42.13o, 53.50o) and SrZrO3 (PDF# 44–0161,30.82o, 44.10o, 
+54.76o) in the CuO/ZrO2–Ba OC and CuO/ZrO2–Sr OC, respectively. 
+CaZrO3, BaZrO3, and SrZrO3 are perovskite complex oxides that increase 
+the temperature stability of the support. Ca0.15Zr0.85O1.85 (a solid 
+Y. Lin et al.                                                                                                                                                                                                                                      
+
+
+===== Page 4 =====
+
+Energy 280 (2023) 128211
+4
+solution) disappeared during the reduction reaction. The radius of Zr4+
+is smaller than that of Ca2+, which could lead to the shrinkage distortion 
+of Ca. Additionally, the high intensity of the major diffraction peak of 
+BaZrO3, compared to CaZrO3 and SrZrO3, is attributed to the low 
+melting point of the BaCO3 precursor (811 ◦C) [26]. The effects of HTC 
+and AEMs on CLOU performance will be further discussed in the 
+following sections. 
+3.2. Thermogravimetric characterization of biomass samples, Cu-based 
+OCs, and biomass–OC mixtures 
+Fig. 4 shows the mass loss (TG) and the derivative mass loss (DTG) 
+curves obtained for wheat and its corresponding hydrochars in an N2 
+atmosphere with an isothermal step at 950 ◦C. The curves can be divided 
+into two stages, where the largest peaks are located at 332.7 ◦C, 
+373.3 ◦C, and 423.1 ◦C for wheat, hydrochar-235, and hydrochar-270, 
+Fig. 2. Physicochemical properties of wheat and hydrochars as dry basic.  
+Fig. 3. XRD patterns of fresh (a), reduced (b), one redox cycle (c), and 10 redox cycle (d) Cu-based OCs.  
+Y. Lin et al.                                                                                                                                                                                                                                      
+
+
+===== Page 5 =====
+
+Energy 280 (2023) 128211
+5
+respectively, followed by a low-intensity peak at higher temperatures. 
+The decrease in volatile matter weakened the devolatilization reactivity 
+of the hydrochars and caused the TG curves to shift toward the high- 
+temperature region. Thus, the maximum DTG (DTGmax) values were 
+determined to be highly distinguishable, which were −18.73%/min, 
+−13.89%/min, and −3.06%/min for wheat, hydrochar-235, and 
+hydrochar-270, respectively. The second degradation zone at high 
+temperatures is related to the degradation reactions of fixed carbon and 
+alkali metal-based compounds contained in the ash. Notably, the 
+hydrochar-270 exhibited a lower decomposition rate during pyrolysis, 
+indicating the conversion of volatiles into more stable compounds dur­
+ing HTC. From Fig. S2, a clear mass loss peak of hydrochar-270 with a 
+DTGmax of −5.36%/min can be observed under air atmosphere at 
+950 ◦C, which verifies the cause of the above thermal behavior. 
+A short response time and high oxygen carrying capacity correspond 
+to a faster decoupling rate and lower OC consumption, which are 
+preferred in CLOU process [27]. The decoupling and reoxidation pro­
+cesses of four Cu-based OCs are shown in Fig. 5. Initially, the response 
+time of the oxygen decoupling rate of the CuO/ZrO2–Sr OC was found to 
+be longer at 950 ◦C. From Fig. 5(b), a DTG peak around 950 ◦C can be 
+observed, which can be attributed to the thermal decomposition of CuO 
+into Cu2O (CuO→Cu2O + O2). The DTG values for the CuO/ZrO2, 
+CuO/ZrO2–Ca, 
+CuO/ZrO2–Ba, 
+and 
+CuO/ZrO2–Sr 
+OCs 
+were 
+−1.37%/min, −1.17%/min, −1.22%/min, and −0.99%/min, respec­
+tively. Given the proportioning mass of CuO (normalized mass, 
+%/(min•g)), Ca and Ba exhibited a slightly increased uncoupling rate, 
+indicating that Ca and Ba represent some catalytic effects [16]. How­
+ever, a negative effect was observed in the CuO/ZrO2–Sr OC. Notably, 
+the oxygen capacities of the four OCs were almost equal to the 
+theoretical oxygen capacity, as shown in Fig. 5(a), which were 6.01%, 
+4.99%, 5.07%, and 5.08% for CuO/ZrO2, CuO/ZrO2–Ca, CuO/ZrO2–Ba, 
+and CuO/ZrO2–Sr OCs, respectively. This observation also suggests that 
+the active Cu component did not interact with the AEMs, which is 
+consistent with the XRD analysis results. The reoxidation of Cu2O into 
+CuO resulted in a second peak (Cu2O + O2→CuO). However, there was a 
+marked difference in the second DTG. As shown in Fig. 5(b), the reox­
+idation profile of the Cu/ZrO2–Ca OC was higher and steeper with a 
+maximum reoxidation rate of 2.29%/min. Combined with the analysis 
+results of XRD, this improved oxidation regeneration ability can be 
+attributed to the form of Ca0⋅15Zr0⋅85O1.85, though more evidence is 
+required to confirm this. A similar phenomenon was reported in the 
+literature [27], where it was found that modification with limestone 
+resulted in an increase in reoxidation reactivity and allowed the CuO OC 
+to remain stable at 950 ◦C. However, doping the CuO OC with Ba and Sr 
+significantly reduced the maximum reoxidation rate from 0.75%/min to 
+0.39%/min in both cases. The addition of Ba/Sr species with a large 
+radius potentially influenced the dispersion of the active Cu component 
+on the support, leading to decreased reoxidation ability [28]. 
+The TG and DTG curves of wheat with four Cu-based OCs are dis­
+played in Fig. 6; two major mass loss peaks were observed in the 
+200–430 ◦C and 780–950 ◦C temperature ranges. For comparison, the 
+decomposition of wheat with pure SiO2 and CuO/ZrO2–SiO2 were also 
+presented in Fig. 6. The first peak, centered at approximately 322 ◦C, can 
+be attributed to the combined effect of biomass devolatilization and 
+combustion of volatiles with the lattice oxygen of CuO at a relatively low 
+reaction rate [29–31]. According to the previous work by Cao et al. [32], 
+CuO reduction by solid fuels can start at temperatures as low as 
+approximately 500 ◦C. The maximum DTG1 values of the biomass with 
+Fig. 4. TG (a) and DTG (b) curves of wheat, hydrochar-235, and hydrochar-270 in N2.  
+Fig. 5. TG (a) and DTG (b) curves of CuO/ZrO2 and three CuO/ZrO2 modified by AEMs OCs in N2 atmosphere at 950 ◦C.  
+Y. Lin et al.                                                                                                                                                                                                                                      
+
+
+===== Page 6 =====
+
+Energy 280 (2023) 128211
+6
+CuO/ZrO2, CuO/ZrO2–Ca, CuO/ZrO2–Ba, and CuO/ZrO2–Sr OCs were 
+−0.70%/min, −0.69%/min, −0.67%/min, and −0.65%/min, respec­
+tively, implying that the decomposition and combustion rates of vola­
+tiles were higher at this stage when using Cu-based OCs modified with 
+AEMs under unit oxygen supply capacity. This can mainly be attributed 
+to the catalytic effect of AEMs [33]. Reactive AEMs weaken the elec­
+tromotive force of reaction between the gas-solid phases by generating 
+an ionization potential difference of opposite polarity, thus activating 
+the reactants and forming carbon-oxygen-metal complexes. These 
+complexes reduce the organic carbon-carbon and carbon-oxygen bond 
+energy. Additionally, the electron-donating effect of AEMs can also 
+induce the transfer of reactive oxygen species [34,35]. Keva et al. [36] 
+also reported that the presence of AEMs in biomass increases coal con­
+version efficiency when using a Cu-based OC in the CLC process. As 
+shown in Fig. 6(b), due to the lack of lattice oxygen, the first peak of 
+wheat with SiO2 was much lower than those of wheat with CuO-based 
+OCs. With increasing temperature, the biomass char combustion with 
+the participation of gaseous oxygen released from the OC led to the 
+second DTG peak at 950 ◦C [25,37]. CuO decomposes at approximately 
+850 ◦C, and the conversion of lattice oxygen into gaseous oxygen could 
+accelerate the transfer of oxygen from the bubble to the particulate 
+phase. Meanwhile, the effect of the external mass transfer on the char 
+particles was reduced [38]; as a result, the combustion rate of biomass 
+char increased when oxygen uncoupling occurred. As shown in Fig. 6(b), 
+the DTG values of the second mass loss peak were larger than those of 
+the first peak, and which were −1.41%/min, −0.86%/min, 
+−0.92%/min, and −1.31%/min for the CuO/ZrO2, CuO/ZrO2–Ca, 
+CuO/ZrO2–Ba, and CuO/ZrO2–Sr OCs, respectively. Note that the com­
+bustion rates of wheat with CuO/ZrO2–Ca and CuO/ZrO2–Ba were lower 
+than that of CuO/ZrO2 under unit oxygen supply capacity; for compar­
+ison, that of CuO/ZrO2–Sr was higher. This indicates that the catalytic 
+effects of Ca and Ba are more sensitive to temperature than that of Sr. At 
+the reoxidation stage, CuO/ZrO2–Ca still exhibited good regeneration 
+performance, while that of CuO/ZrO2–Ba and CuO/ZrO2–Sr was found 
+to decrease; this is consistent with the results shown in Fig. 5. 
+Although the fuel grade of the biomass-derived hydrochar was 
+upgraded, the increase in ash content may also negatively impact CLOU 
+performance. Fig. 7 presents the TG and DTG curves of CuO/ZrO2 with 
+wheat and hydrochars in one redox cycle. A significant change in the 
+first mass loss peak for the CuO/ZrO2 OC with hydrochar was observed. 
+First, the CLOU DTG curves shifted toward the high-temperature region, 
+which is due to the decrease in the volatile content. The DTG1 center 
+temperatures of hydrochar-235 and hydrochar-270 were determined to 
+be 376 ◦C and 391 ◦C, respectively. However, the DTG1 value of 
+hydrochar-235 was −1.01%/min, which is bigger than that of wheat, 
+while the DTG1 value of hydrochar-270 was −0.25%/min. This could be 
+due to the decay of biomass cell walls in the hydrothermal environment, 
+causing severe damage to the hemicellulose structure and promoting the 
+decomposition of lignin. In addition, compared to the parent biomass, 
+the highly homogeneous amorphous carbonaceous and porous structure 
+of hydrochar which is conducive to the transfer of lattice oxygen [39], 
+which enhances the oxidation reaction between CuO and hydrochar. 
+With a further increase in temperature, many C–O functional groups 
+were shed due to the hydrolysis of cellulose and hemicellulose. Xiao 
+reported that the hemicellulose and cellulose was nearly complete 
+decompose when the HTC process temperature exceeded 250 ◦C [40]. 
+The formation of fixed carbon may also induce the degradation of the 
+porous structure, resulting in the blockage of combustion products. 
+Fig. 6. TG (a) and DTG (b) curves of SiO2 and Cu-based OCs with wheat in one redox cycle.  
+Fig. 7. TG (a) and DTG (b) curves of CuO/ZrO2 with wheat and hydrochars in one redox cycle.  
+Y. Lin et al.                                                                                                                                                                                                                                      
+
+
+===== Page 7 =====
+
+Energy 280 (2023) 128211
+7
+Thus, a low combustion rate with a small weightless shoulder was 
+observed in the hydrochar-270 DTG curve in the 280–650 ◦C tempera­
+ture range. However, high temperatures also correspond to more com­
+plex and active chemical reactions. The decomposed intermediate 
+products were polymerized and reorganized to form new aromatic car­
+bon substances [41], particularly, the formation of a large number of 
+C––C functional groups (as shown in Fig. S1). As a result, a new mass loss 
+peak was observed at 760 ◦C with a DTG value of −0.61%/min. The new 
+aromatic carbon substances were also formed at 235 ◦C. However, the 
+weakened reaction did not result in a new mass loss peak in the DTG 
+curve. 
+At high temperatures, the combustion rate depends on the gaseous 
+oxygen release rate of the CuO OC. Notably, the wheat and hydrochars 
+reached the maximum mass loss peak almost at the same time, as shown 
+in Fig. 7(b). At this stage, the mass loss can be attributed to the overall 
+combustion process of fuel combined with the conversion of CuO into 
+Cu2O and Cu [2]. Similarly, under the unit oxygen supply capacity, the 
+DTG2 peak value of hydrochar-235 was significantly higher than that of 
+wheat, while that of hydrochar-270 was found to have decreased. The 
+DTGmax values of hydrochar-235 and hydrochar-270 were −1.61%/min 
+and −1.07%/min, respectively. Although the fixed carbon content of 
+hydrochar-270 was higher than that of hydrochar-235, these fixed car­
+bons underwent combustion at 760 ◦C and 950 ◦C, respectively, thus 
+decreasing the maximum combustion mass loss rate at 950 ◦C. At the 
+reoxidation stage, the reoxidation performances of the CuO OC with 
+hydrochars was better than that of the CuO OC with wheat, especially 
+for hydrochar-235. 
+Considering the above results, the CuO OC with hydrochar-235 
+exhibited the best CLOU redox cycle performance, indicating that the 
+moderate HTC process not only promoted the combustion, but also 
+improved the reoxidation performance of the CuO OC. 
+The TG and DTG curves of the CuO/ZrO2–Ca, CuO/ZrO2–Ba, and 
+Fig. 8. TG and DTG (b) curves of CuO/ZrO2–Ca (a, b), CuO/ZrO2–Ba (c, d), and CuO/ZrO2–Sr (e, f) with wheat and hydrochars in one redox cycle.  
+Y. Lin et al.                                                                                                                                                                                                                                      
+
+
+===== Page 8 =====
+
+Energy 280 (2023) 128211
+8
+CuO/ZrO2–Sr OCs with hydrochars after one redox cycle are shown in 
+Fig. 8. The profiles of CuO/ZrO2 with wheat are also shown for com­
+parison. As it shown, the first mass loss peaks of hydrochar-235 with the 
+CuO/ZrO2–Ca, CuO/ZrO2–Ba, and CuO/ZrO2–Sr OCs were −0.87%/ 
+min, −1.00%/min, and −0.87%/min, respectively. These DTG values 
+were not only higher than that of their corresponding oxygen carriers 
+with raw wheat, but also than that of the CuO/ZrO2 OC with hydrochar- 
+235 under the unit oxygen supply capacity. Furthermore, the tempera­
+ture according to these peaks decreased from 376 ◦C for CuO/ZrO2 to 
+approximately 372 ◦C for CuO/ZrO2–Ca, CuO/ZrO2–Ba, and CuO/ 
+ZrO2–Sr. These results suggest that Ca, Ba, and Sr AEMs were able to 
+catalyze the CLOU process of hydrochars with Cu-based OCs. However, 
+the second peak values of hydrochar-235 with the CuO/ZrO2–Ca, CuO/ 
+ZrO2–Ba, and CuO/ZrO2–Sr OCs centered at 950 ◦C were found to 
+decrease compared to those of hydrochar-235 with CuO/ZrO2. which 
+were −1.02%/min, −0.94%/min, and −0.89%/min, respectively. This 
+could be because the inclusion of AEMs promoted the decomposition of 
+hydrochars in the medium-high temperature range, leading to a lower 
+second mass loss peak. According to DTG data, the DTGmean in 
+510 ◦C–790 ◦C temperature range for the CuO/ZrO2, CuO/ZrO2–Ca, 
+CuO/ZrO2–Ba, and CuO/ZrO2–Sr OCs with hydrochar-235 were 
+−0.088%/min, −0.096%/min, −0.108%/min, and −0.090%/min, 
+respectively. 
+Prominently, a large range of small mass loss peaks for hydrochar- 
+270 with the CuO/ZrO2–Ca OC superseded two peaks for it with the 
+CuO/ZrO2 OC (Fig. 8(b)). Subsequently, a steeper mass loss peak 
+(950 ◦C), attributed to hydrochar-270 with CuO/ZrO2–Ca OC, was 
+observed, with a value of −1.51%/min. Notably, the intensity of the first 
+and second mass loss peaks of hydrochar-270 with CuO/ZrO2–Ba and 
+CuO/ZrO2–Sr OCs were also larger than that of hydrochar-270 with the 
+CuO/ZrO2 OC under the unit oxygen supply capacity; the values were 
+−0.26%/min and −0.79%/min for the CuO/ZrO2–Ba OC and −0.23%/ 
+min and −0.66%/min for the CuO/ZrO2–Sr OC. On the other hand, the 
+DTG peaks of hydrochar-270 with CuO/ZrO2–Ba and CuO/ZrO2–Sr OCs 
+centered at 950 ◦C were close to that of hydrochar-270 with CuO/ZrO2. 
+At the reoxidation stage (Fig. 8(b)), the reoxidation rate of CuO/ 
+ZrO2–Ca + hydrochar-270 was the highest, which was followed by CuO/ 
+ZrO2–Ca + hydrochar-235, CuO/ZrO2–Ca + wheat, and CuO/ZrO2+­
+wheat; this indicates that the combination of the HTC process and Ca 
+modification significantly improves oxidation regeneration. Notably, 
+the reoxidation rates of the hydrochars with CuO/ZrO2–Ba (Fig. 8(d)) 
+and CuO/ZrO2–Sr (Fig. 8(f)) were lower than that of wheat with CuO/ 
+ZrO2. Nevertheless, the above results found that the HTC process was 
+conducive to the reoxidation of the CuO OC. The larger atomic radii of 
+Ba and Sr might inhibit the diffusion of gaseous oxygen into the parti­
+cles, leading to decreased oxygen regeneration performance. Given this, 
+Ba and Sr are not suitable for use in modifying Cu-based OCs. 
+To evaluate the performance of CuO-based OCs in multiple redox 
+cycles, a typical ten cycle TGA experiments were performed for 
+hydrochar-235 with CuO/ZrO2–Ca, since the effects of hydrochar-235 
+and the doping of Ca on the performance of CLOU based on the Cu- 
+based OC were relatively obvious as discussed above. The ten-cycle 
+experimental results are shown in Fig. S3. Due to a limitation for mul­
+tiple redox cycle TGA experiment using solid fuel and the lack of method 
+for separating ash, after one TGA redox cycle, accurately weighed same 
+amount of hydrochar used in the first cycle was mixed with residue in 
+the crucible consisting of re-oxidized OC and ash. Thus, the ash was 
+accumulated in the crucible. As shown in Fig. S3, the results suggest 
+sufficiently good repeatability of Cu/ZrO2–Ca OC in mass loss charac­
+teristics during 10 cycles combustion stage at 950 
+○C. This finding sug­
+gests the Cu/ZrO2–Ca OC has stable redox ability and accumulated ash 
+have no restriction on interaction between the hydrochar and Cu/ 
+ZrO2–Ca OC during ten cycles. 
+3.3. Characterization of the Cu-based OCs after multiple redox cycles 
+Typical XRD patterns of reoxidation OCs with wheat and hydrochar- 
+235 after one redox cycle are shown in Fig. 9. Based on the above 
+analysis, CuO/ZrO2 with wheat and CuO/ZrO2–Ca with hydrochar-235 
+were chosen for the subsequent experiment with multiple redox cycles 
+using a fixed furnace. Fig. 9 also illustrates the XRD patterns of the 
+reoxidation of the CuO/ZrO2 OC with wheat and the CuO/ZrO2–Ca OC 
+with hydrochar-235 after 20 redox cycles. As shown in Fig. 9, the major 
+characteristic peaks of the 1st and 20th CuO-based OCs with wheat or 
+hydrochar-235 were consistent with that of the corresponding fresh OCs 
+displayed in Fig. 3, and no new species or unconverted Cu2O were 
+detected. However, Dubey et al. [2,42] discovered the presence of a 
+trace amount of Cu2O after reoxidation. The results from this study 
+suggests that the active components could be completely transformed 
+during multiple redox cycles and that the oxygen-carrying capacities 
+were not affected by the AEMs. Additionally, there was no interaction 
+between the ash and the active component. However, the two major 
+characteristic peaks belonging to CuO of the 20th OC at 35.56◦and 
+38.74◦were found to have slightly decreased, which is due to the 
+accumulated ash. However, there was no evidence that the accumulated 
+ash restricted interaction between the biomass and OCs. 
+A metal is subjected to sintering at its Tamman temperature (half of 
+its absolute melting temperature), which is approximately 586 ◦C for 
+CuO [43]. Hence, CuO is definitely exposed to sintering at CLOU tem­
+peratures. Fig. 10 depicts the surface morphology of reoxidation 
+Cu-based OCs with wheat (Fig. 10(a)) and hydrochar-235 (Fig. 10(b)) 
+after 20 redox cycles at 950 ◦C. The FESEM images suggest that CuO OC 
+was moderately agglomerated, indicating that the active Cu component 
+gradually migrated to the particle surface during the multiple redox 
+cycles. 
+Although 
+the 
+agglomeration 
+of 
+CuO/ZrO2–Ca 
+with 
+hydrochar-235 is slightly more serious, it is not obvious. The occurrence 
+of agglomeration can be attributed to the relatively high operating 
+temperature. Similar morphological observations were also reported by 
+various research groups [2,44]. Another possible reason is that the 
+mechanical mixing method used for Cu-based OC synthesis generally has 
+a 
+lower 
+agglomeration 
+resistance 
+than 
+wet 
+impregnation, 
+co-precipitation, and sol-gel combustion synthesis methods [45]. 
+Therefore, the optimization of the synthetic process and the modifica­
+tion of the OCs with perovskite or a core-shell structure to improve the 
+anti-agglomeration properties of Cu-based OCs is necessary [46]. 
+3.4. Kinetic analysis 
+The CLOU process of biomass with Cu-based OCs involves devolati­
+lization, heterogeneous and homogeneous combustion of the volatile 
+matter and char, migration of lattice oxygen, and release of gaseous 
+oxygen [2]. The fuel conversion rate is also dependent on the reaction 
+temperature and the extent of oxygen diffused from the OC particles to 
+the combustible product layer. In addition, the physical structure of the 
+fuel and the OCs are also affected by the above process. 
+Table 1 details the kinetic parameters of all samples with Cu-based 
+OCs, which are based on the most appropriate reaction mechanisms 
+with the largest correlation coefficient (R2) values among all solid-state 
+reaction kinetics. The results based on other solid-state reaction kinetics 
+are also presented in Table S2. From Table 1 shows, with the exception 
+of hydrochar-270 with CuO/ZrO2–Ca, other samples could be divided 
+into two temperature zones, and the R2 values were between 0.9553 and 
+0.9976, indicating that the kinetic models provided an excellent fit to 
+the experimental TGA data for the selected temperature zones during the 
+CLOU process. The kinetic plots of ln(g(x)/T2) vs 1/T are shown in 
+Fig. S4. The chemical order models were demonstrated to be suitable for 
+describing the reduction of wheat with the Cu-based OCs in the first 
+zone, which were the second-order reaction model (F2) for wheat with 
+the CuO/ZrO2–Ca OC and the first-order reaction model (F1) for wheat 
+with other OCs, respectively. This result implies that the combustion 
+Y. Lin et al.                                                                                                                                                                                                                                      
+
+
+===== Page 9 =====
+
+Energy 280 (2023) 128211
+9
+reaction rate of wheat was essentially controlled by the reaction tem­
+perature in this zone (approximately 200–450 ◦C). The activation en­
+ergies of raw wheat with CuO/ZrO2, CuO/ZrO2–Ca, CuO/ZrO2–Ba, and 
+CuO/ZrO2–Sr OCs were 94.95, 113.81, 79.67, and 111.14 kJ/mol, 
+respectively. Interestingly, the reaction mechanism changed to the 
+classical diffusion models for hydrochars with Cu-based OCs in the first 
+zone, which was the three-dimensional (3-D) Jander-type diffusive re­
+action mechanism (D3 model) for hydrochar-235 with the CuO/ZrO2–Ca 
+Fig. 9. XRD patterns of reoxidation Cu-based OCs with wheat (a) and hydrochar-235 (b) after multiple redox cycles.  
+Fig. 10. FESEM images of reoxidation 20th CuO/ZrO2-wheat (a) and 20th CuO/ZrO2–Ca-hydrochar-235 (b) at 950 ◦C.  
+Table 1 
+Kinetic parameters of biomass and hydrochars with Cu-based OCs modified by alkaline earth metals under N2 atmosphere (20 
+◦C/min).  
+Sample 
+Models 
+Temperature (oC) 
+E (kJ/mol) 
+LogA 
+(min−1) 
+R2 
+Models 
+Temperature (oC) 
+E (kJ/mol) 
+LogA 
+(min−1) 
+R2 
+CuO/ZrO2-wheat 
+F1 
+240–410 
+94.95 
+8.02 
+0.9944 
+R2 
+780–950 
+314.74 
+12.78 
+0.9633 
+CuO/ZrO2-hydrochar-235 
+D4 
+250–440 
+147.52 
+10.46 
+0.9800 
+R2 
+790–950 
+362.82 
+20.87 
+0.9664 
+CuO/ZrO2-hydrochar-270 
+D4 
+600–815 
+231.55 
+10.24 
+0.9976 
+R2 
+825–950 
+392.55 
+16.70 
+0.9896 
+CuO/ZrO2–Ca-wheat 
+F2 
+210–410 
+113.81 
+9.88 
+0.9963 
+R2 
+825–950 
+302.49 
+12.22 
+0.9749 
+CuO/ZrO2–Ca-hydrochar- 
+235 
+D3 
+255–440 
+206.40 
+15.36 
+0.9852 
+R2 
+805–950 
+379.10 
+15.70 
+0.9553 
+CuO/ZrO2–Ca-hydrochar- 
+270 
+– 
+– 
+– 
+– 
+– 
+R2 
+750–950 
+236.32 
+9.31 
+0.9594 
+CuO/ZrO2–Ba-wheat 
+F1 
+210–415 
+79.67 
+6.56 
+0.9906 
+R2 
+780–950 
+376.98 
+15.51 
+0.9662 
+CuO/ZrO2–Ba-hydrochar- 
+235 
+D4 
+230–440 
+158.19 
+11.21 
+0.9788 
+R2 
+840–950 
+384.80 
+15.69 
+0.9915 
+CuO/ZrO2–Ba-hydrochar- 
+270 
+D4 
+610–820 
+254.88 
+11.48 
+0.9933 
+R2 
+825–950 
+349.65 
+14.60 
+0.9918 
+CuO/ZrO2–Sr-wheat 
+F1 
+220–365 
+111.14 
+9.5921 
+0.9968 
+R2 
+790–950 
+372.04 
+15.36 
+0.9727 
+CuO/ZrO2–Sr-hydrochar- 
+235 
+D4 
+280–415 
+215.43 
+16.23 
+0.9894 
+R2 
+825–950 
+396.60 
+21.32 
+0.9666 
+CuO/ZrO2–Sr-hydrochar- 
+270 
+D4 
+600–805 
+256.78 
+11.66 
+0.9962 
+R2 
+810–950 
+373.52 
+15.80 
+0.9698  
+Y. Lin et al.                                                                                                                                                                                                                                      
+
+
+===== Page 10 =====
+
+Energy 280 (2023) 128211
+10
+OC and the 3-D Ginstling-type diffusive reaction mechanism (D4 model) 
+for hydrochars with other OCs. This meant that the combustion rate- 
+controlling factor transformed from reaction temperature to active ox­
+ygen diffusion. Notably, this is coupled with an increase in combustion 
+rate, which is consistent with the discussion above. The combustion rate 
+was not significantly affected by the reaction temperature. However, a 
+further increase in the combustion rate required an increase in the active 
+oxygen diffusion rate through the char layer. Dubey et al. [2] also 
+employed classical diffusion models to describe the devolatilization 
+process and the combustion of volatile matter in the first combustion 
+zone of Indian coal with a CuO OC. For four types of Cu-based OCs, the 
+highest activation energy in the first combustion zone was observed in 
+hydrochar-270, followed by hydrochar-235 and wheat. This implies that 
+the hydrochars had to overcome a larger energy barrier than raw wheat 
+to induce combustion during the CLOU process. For example, the E 
+values of CuO/ZrO2 for the three samples were 94.95, 147.52, and 
+231.55 kJ/mol, respectively. 
+In the second combustion zone, the geometrical contraction model 
+(R2) most suitably described the reaction mechanism for all samples, 
+indicating that the combustion rate was mainly affected by the forma­
+tion of the Cu2O layer [23]. In this combustion zone (approximately 
+750–950 ◦C), the nucleation of Cu2O occurred rapidly on the surface of 
+particles and released gaseous oxygen for char combustion. Except for 
+hydrochar-270 with the CuO/ZrO2–Ca OC, the E values of all samples in 
+this zone were larger than that of CuO/ZrO2 OC reduction (250.6 
+kJ/mol) reported by Ku et al. [23]. The increased activation energy can 
+be attributed to the complex chemical reaction between the CuO-based 
+OCs and the fuel, the composition of CuO-based OCs, and the synthetic 
+process of these CuO-based OCs. Although the DTG peaks in this zone 
+were larger than the former one, the activation energies of all samples 
+were higher than those in the former zone. This further implies that 
+there was a disproportion between activation energy and combustion 
+reactivity and that the combustion reactivity of biomass or hydrochars 
+with Cu-based OCs cannot be determined from only the activation 
+energy. 
+Guo et al. [19] investigated the CLC of cellulose with iron-based OCs 
+and the E values were 219–230 kJ/mol in the first stage (236–373 ◦C) 
+and 389 kJ/mol in the third stage (461–568 ◦C). These values were 
+higher than those in this study. In our previous work, the E values of 
+waste wood hydrochar obtained at 240 ◦C are 63.8 kJ/mol in the first 
+stage (171–349 ◦C) and 270.8 kJ/mol in the third stage (458–633 ◦C) in 
+air combustion [47]. While these values were lower than those in the 
+present study. The E values of CLC process was the highest and followed 
+by CLOU and air combustion, implying the combustion under gaseous 
+oxygen is easier than lattice oxygen. Besides, different models used, 
+sample properties, and different OCs also affected the E values. 
+In summary, the kinetic parameters for the CLOU process of biomass 
+and hydrochars with Cu-based OCs modified by AEMs have rarely been 
+reported on thus far. Hence, the findings of this study are meaningful for 
+the design of CLOU reactors utilizing biomass or providing theoretical 
+guidance for the initial design of highly active OCs. Notably, deficiencies 
+inherent in this method should be noted for its combining the kinetic 
+process of solid fuel and CuO-based OCs. 
+4. Conclusions 
+The effect of AEMs (Ca, Ba, and Sr) on the performance of CuO/ZrO2 
+OCs and the CLOU process of wheat-derived hydrochars with these Cu- 
+based OCs were investigated. The main conclusions can be summarized 
+as follows:  
+1) The XRD and TG results showed that Ca, Ba, and Sr had no negative 
+effects on the crystal phases and oxygen-carrying capacity of the CuO 
+active component. Furthermore, the uncoupling rate was slightly 
+improved by the modification of the OCs with Ca and Ba.  
+2) Compared to that of raw wheat and hydrochar-720, hydrochar-235 
+with the CuO OC exhibited the best CLOU redox cycle performance. 
+The first mass loss peaks of wheat and hydrochar-235 at the medium- 
+low temperature range (<500 ◦C) were improved for the AEM- 
+modified Cu-based OCs, implying the improvement of lattice oxy­
+gen activity.  
+3) The HTC process and the doping of Ca resulted in significant 
+improvement of the reoxidation performance of CuO, while inhibited 
+effect were in the case of Ba and Sr. 
+4) Although the active CuO components could be completely trans­
+formed with no interaction with the accumulated ash, CuO still 
+exhibited moderate agglomeration after 20 redox cycles at 950 ◦C.  
+5) The kinetics analysis revealed that the chemical order models and 
+diffusion models were best suited to describe the reaction mecha­
+nisms in the raw wheat and hydrochars with Cu-based OCs in the first 
+combustion stage. In the second combustion stage, the geometrical 
+contraction model (R2) was suitable choice to describe the reaction 
+mechanisms for all samples. 
+Credit author statement 
+Yousheng Lin: Original idea, Methodology, Experimental scheme 
+design, Writing – original draft, Funding acquisition. Zhifeng Hu: 
+Characterization analysis, Writing- review. Ya Ge: Data collection, 
+Figure Visualization, Funding acquisition. Hanmin Xiao: Experimental 
+measurement. Gang Zhang: Funding acquisition. Qing He: Methodology, 
+Funding acquisition, Resources. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Data availability 
+Data will be made available on request. 
+Acknowledgment 
+The work is supported by: Guangdong Basic and Applied Basic 
+Research Foundation, Nos.2023A1515011333 and 2019A1515110271; 
+(2) National Natural Science Foundation of China (NSFC), Nos. 
+11902075 and 52106081; (3) Guangdong Provincial Key Laboratory of 
+Distributed Energy Systems, No. 2020B1212060075; (4) Dongguan Sci- 
+tech Commissioner Program, No. 20221800500282. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.energy.2023.128211. 
+References 
+[1] Zeng C, Stringer LC, Lv T. The spatial spillover effect of fossil fuel energy trade on 
+CO2 emissions. Energy 2021;223:120038. 
+[2] Dubey AK, Samanta A, Sarkar P, Saxena VK. Investigations on the chemical looping 
+with oxygen uncoupling process using Indian coal and copper oxide oxygen carrier. 
+Fuel 2022;311:122546. 
+[3] Bhattacharyya SS, Leite FFGD, Adeyemi MA, Sarker AJ, Cambareri GS, Faverin C, 
+et al. A paradigm shift to CO2 sequestration to manage global warming – with the 
+emphasis on developing countries. Sci Total Environ 2021;790:148169. 
+[4] Wei Y-M, Chen K, Kang J-N, Chen W, Wang X-Y, Zhang X. Policy and management 
+of carbon peaking and carbon neutrality: a literature review. Engineering 2022. 
+[5] Li W, Zhang S, Lu C. Exploration of China’s net CO2 emissions evolutionary 
+pathways by 2060 in the context of carbon neutrality. Sci Total Environ 2022;831: 
+154909. 
+[6] Adanez J, Abad A, Mendiara T, Gayan P, de Diego LF, Garcia-Labiano F. Chemical 
+looping combustion of solid fuels. Prog Energy Combust Sci 2018;65:6–66. 
+Y. Lin et al.                                                                                                                                                                                                                                      
+
+
+===== Page 11 =====
+
+Energy 280 (2023) 128211
+11
+[7] Jiang HM, Huo RQ, Zhang Z, Lin Y, Zhao ZL, Huang Z, et al. Removal of pollution 
+from the chemical looping process: a mini review. Fuel Processing Technology; 
+2021. p. 221. 
+[8] Mattisson T, Lyngfelt A, Leion H. Chemical-looping with oxygen uncoupling for 
+combustion of solid fuels. Int J Greenh Gas Control 2009;3(1):11–9. 
+[9] Mendiara T, García-Labiano F, Abad A, Gay´an P, de Diego LF, Izquierdo MT, et al. 
+Negative CO2 emissions through the use of biofuels in chemical looping 
+technology: a review. Appl Energy 2018;232:657–84. 
+[10] Ad´anez-Rubio I, Abad A, Gay´an P, de Diego LF, García-Labiano F, Ad´anez J. 
+Biomass combustion with CO2 capture by chemical looping with oxygen 
+uncoupling (CLOU). Fuel Process Technol 2014;124:104–14. 
+[11] Lin Y, Ma X, Peng X, Yu Z, Fang S, Lin Y, et al. Combustion, pyrolysis and char CO2- 
+gasification characteristics of hydrothermal carbonization solid fuel from 
+municipal solid wastes. Fuel 2016;181:905–15. 
+[12] Wang TF, Zhai YB, Zhu Y, Li CT, Zeng GM. A review of the hydrothermal 
+carbonization of biomass waste for hydrochar formation: process conditions, 
+fundamentals, and physicochemical properties. Renewable Sustainable Energy Rev 
+2018;90:223–47. 
+[13] Zhao PT, Shen YF, Ge SF, Chen ZQ, Yoshikawa K. Clean solid biofuel production 
+from high moisture content waste biomass employing hydrothermal treatment. 
+Appl Energy 2014;131:345–67. 
+[14] Zhang Y, Zahid I, Danial A, Minaret J, Cao Y, Dutta A. Hydrothermal carbonization 
+of miscanthus: processing, properties, and synergistic Co-combustion with lignite. 
+Energy 2021;225:120200. 
+[15] Arjmand M, Azad A-M, Leion H, Ryd´en M, Mattisson T. CaZrO3 and SrZrO3-based 
+CuO oxygen carriers for chemical-looping with oxygen uncoupling (CLOU). Energy 
+Proc 2014;51:75–84. 
+[16] Abuelgasim S, Wang W, Li T, Abdalazeez A, Xia Z. The effect of alkali and alkaline 
+earth metals oxides addition on oxygen uncoupling rate of copper-based oxygen 
+carrier: a kinetic and experimental investigations. Separ Purif Technol 2021;275: 
+119176. 
+[17] Yu J, Guo Q, Gong Y, Ding L, Wang J, Yu G. A review of the effects of alkali and 
+alkaline earth metal species on biomass gasification. Fuel Process Technol 2021; 
+214:106723. 
+[18] Lin Y, Ge Y, He Q, Chen P, Xiao H. The redistribution and migration mechanism of 
+chlorine during hydrothermal carbonization of waste biomass and fuel properties 
+of hydrochars. Energy 2022;244:122578. 
+[19] Guo W, Wu J, Meng L, Geng C, Yang Y, Li N, et al. Reactive behaviors and 
+mechanisms of cellulose in chemical looping combustions with iron-based oxygen 
+carriers: an experimental combined with ReaxFF MD study. Applications in Energy 
+and Combustion Science 2023;14:100135. 
+[20] Huang Z, Deng Z, Chen D, He F, Liu S, Zhao K, et al. Thermodynamic analysis and 
+kinetic investigations on biomass char chemical looping gasification using Fe-Ni 
+bimetallic oxygen carrier. Energy 2017;141:1836–44. 
+[21] Zhang G, Feng Q, Hu J, Sun G, Evrendilek F, Liu H, et al. Performance and 
+mechanism of bamboo residues pyrolysis: gas emissions, by-products, and reaction 
+kinetics. Sci Total Environ 2022;838:156560. 
+[22] Liu Z, Quek A, Kent Hoekman S, Balasubramanian R. Production of solid biochar 
+fuel from waste biomass by hydrothermal carbonization. Fuel 2013;103:943–9. 
+[23] Ku Y, Chang C-W, Shiu S-H, Wu H-C, Moed NM. Kinetic behavior of fabricated 
+CuO/ZrO2 oxygen carriers for chemical looping oxygen uncoupling. Processes 
+2021;9(12). 
+[24] Abdalla A, Mohamedali M, Mahinpey N. CuO/ZrO2 modified by WO3 oxygen 
+carriers for chemical looping with oxygen uncoupling. Fuel 2022;310:122288. 
+[25] Kuang C, Wang S, Luo M, Cai J, Zhao J. Investigation of CuO-based oxygen carriers 
+modified by three different ores in chemical looping combustion with solid fuels. 
+Renew Energy 2020;154:937–48. 
+[26] Liu G, Wu X, Zhao Y, Veksha A, Giannis A, Lim TT, et al. Thermal behavior of Cu- 
+Mg-Al-Ba/Sr bifunctional composites during chemical looping combustion and HCl 
+adsorption of MSW syngas. Chem Eng J 2022;430:132871. 
+[27] Kuang C, Wang S, Luo M, Zhao J. Reactivity study and kinetic evaluation of CuO- 
+based oxygen carriers modified by three different ores in chemical looping with 
+oxygen uncoupling (CLOU) process. Chin J Chem Eng 2021;37:54–63. 
+[28] Zhong CL, Guo XM, Mao DS, Wang S, Wu GS, Lu GZ. Effects of alkaline-earth oxides 
+on the performance of a CuO-ZrO2 catalyst for methanol synthesis via CO2 
+hydrogenation. RSC Adv 2015;5(65):52958–65. 
+[29] Ran JY, Fu FX, Qin CL, Zhang P, Yang LL, Wang WD, et al. Evaluation of CuO/ 
+MgAl2O4 in biomass chemical looping gasification with oxygen uncoupling. 
+Bioresources 2016;11(1):2109–23. 
+[30] Mendiara T, Adanez-Rubio I, Gayan P, Abad A, de Diego LF, Garcia-Labiano F, 
+et al. Process comparison for biomass combustion: InSitu gasification-chemical 
+looping combustion (iG-CLC) versus chemical looping with oxygen uncoupling 
+(CLOU). Energy Technol 2016;4(10):1130–6. 
+[31] Zhang Q, Rakhshi A, Dasgupta D, Wiltowski T. Gaseous state oxygen carrier for 
+coal chemical looping process. Fuel 2017;202:395–404. 
+[32] Cao Y, Casenas B, Pan W-P. Investigation of chemical looping combustion by solid 
+fuels. 2. Redox reaction kinetics and product characterization with coal, biomass, 
+and solid waste as solid fuels and CuO as an oxygen carrier. Energy Fuels 2006;20 
+(5):1845–54. 
+[33] Wang W, Lemaire R, Bensakhria A, Luart D. Review on the catalytic effects of alkali 
+and alkaline earth metals (AAEMs) including sodium, potassium, calcium and 
+magnesium on the pyrolysis of lignocellulosic biomass and on the co-pyrolysis of 
+coal with biomass. J Anal Appl Pyrol 2022;163:105479. 
+[34] Liu G, Wang H, Veksha A, Giannis A, Lim TT, Lisak G. Chemical looping 
+combustion-adsorption of HCl-containing syngas using alkaline-earth coated iron 
+ore composites for simultaneous purification and combustion enhancement. Chem 
+Eng J 2021;417:129226. 
+[35] Wang H, Liu G, Veksha A, Dou X, Giannis A, Lim TT, et al. Iron ore modified with 
+alkaline earth metals for the chemical looping combustion of municipal solid waste 
+derived syngas. J Clean Prod 2021;282:124467. 
+[36] Kevat MD, Banerjee T. Insights into the co-combustion of coal and biomass 
+mixtures using a copper-based oxygen carrier in chemical looping combustion. Int 
+J Oil Gas Coal Technol 2020;25(1):55–72. 
+[37] Yan J, Chu X, Jiao H, Kang S, Lei Z, Li Z, et al. Preparation and performance of Cu- 
+based bimetallic oxygen carriers in chemical looping combustion with gaseous and 
+solid fuels. Fuel Process Technol 2020;205:106463. 
+[38] Kwong KY, Mao R, Scott SA, Dennis JS, Marek EJ. Analysis of the rate of 
+combustion of biomass char in a fluidised bed of CLOU particles. Chem Eng J 2021; 
+417:127942. 
+[39] Lin Y, Ma X, Peng X, Hu S, Yu Z, Fang S. Effect of hydrothermal carbonization 
+temperature on combustion behavior of hydrochar fuel from paper sludge. Appl 
+Therm Eng 2015;91:574–82. 
+[40] Xiao L-P, Shi Z-J, Xu F, Sun R-C. Hydrothermal carbonization of lignocellulosic 
+biomass. Bioresour Technol 2012;118:619–23. 
+[41] Song YP, Zhan H, Zhuang XZ, Yin XL, Wu CZ. Synergistic characteristics and 
+capabilities of Co-hydrothermal carbonization of sewage sludge/lignite mixtures. 
+Energy Fuels 2019;33(9):8735–45. 
+[42] Dubey AK, Samanta A, Sarkar P, Dey R, Saxena VK. Performance and kinetic 
+evaluation of synthesized CuO/SBA-15 oxygen carrier for chemical looping with 
+oxygen uncoupling. Energy Technol 2019;7(10). 
+[43] Argyle MD, Bartholomew CH. Heterogeneous catalyst deactivation and 
+regeneration: a review. Catalysts 2015;5(1):145–269. 
+[44] Saha C, Zhang S, Hein K, Xiao R, Bhattacharya S. Chemical looping combustion 
+(CLC) of two Victorian brown coals – Part 1: assessment of interaction between 
+CuO and minerals inherent in coals during single cycle experiment. Fuel 2013;104: 
+262–74. 
+[45] Miao Z, Jiang E, Hu Z. Review of agglomeration in biomass chemical looping 
+technology. Fuel 2022;309:122199. 
+[46] Liu G, Lisak G. Cu-based oxygen carriers for chemical looping processes: 
+opportunities and challenges. Fuel 2023;342:127828. 
+[47] Lin Y, Ge Y, Xiao H, He Q, Wang W, Chen B. Investigation of hydrothermal co- 
+carbonization of waste textile with waste wood, waste paper and waste food from 
+typical municipal solid wastes. Energy 2020;210:118606. 
+Y. Lin et al.                                                                                                                                                                                                                                      

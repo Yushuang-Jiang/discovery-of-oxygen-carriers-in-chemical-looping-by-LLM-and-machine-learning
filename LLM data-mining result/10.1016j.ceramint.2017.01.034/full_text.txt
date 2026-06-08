@@ -1,0 +1,523 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Ceramics International
+journal homepage: www.elsevier.com/locate/ceramint
+Eﬀectiveness of Ni incorporation in iron oxide crystal structure towards
+thermochemical CO2 splitting reaction
+Rahul R. Bhosalea,⁎, Anand Kumara, Fares AlMomania, Ujjal Ghosha, Parag Sutara,
+Gorakshnath Takalkara, Anchu Ashokb, Ivo Alxneitc,d
+a Department of Chemical Engineering, College of Engineering, Qatar University, P.O. Box- 2713, Doha, Qatar
+b Department of Mechanical and Industrial Engineering, College of Engineering, Qatar University, P.O. Box-2713, Doha, Qatar
+c Solar Technology Laboratory, Paul Scherrer Institute, CH-5232 Villigen, Switzerland
+d Bioenergy and Catalysis Laboratory, Paul Scherrer Institute, CH-5232 Villigen, Switzerland
+A R T I C L E I N F O
+Keywords:
+CO2 splitting
+Ni-ferrite
+Solar energy
+Thermochemical cycles
+Sol-gel method
+A B S T R A C T
+In this study, Ni-doped iron oxide (NixFe3−xO4) materials were synthesized via the 1,2-epoxypropane assisted
+sol-gel method by varying the molar concentration of Ni from x=0.2 to 1. Sol-gel derived NixFe3−xO4 gels were
+dried and the dried powder was further calcined upto 600 °C in air for 90 min. Obtained calcined NixFe3−xO4
+powders were further analyzed to determine the phase composition, crystallite size, speciﬁc surface area, pore
+volume, and morphology via powder X-ray diﬀraction (PXRD), BET surface area analysis (BET), as well as
+scanning and transmission electron microscopy (SEM and TEM). The obtained results in the synthesis and
+characterization section indicate formation of NixFe3−xO4 nanoparticles with high speciﬁc surface area. Thermal
+reduction and re-oxidation of the sol-gel synthesized NixFe3−xO4 materials were determined by using the high
+temperature thermogravimetry. Obtained results indicate that the amount of O2 released during the thermal
+reduction step (at 1400 °C) and quantity of CO produced during the CO2 splitting step (at 1000 °C) increases as
+the concentration of Ni inside the iron oxide crystal structure increases. The highest amounts of O2 released
+(221.88 μmol/g) and CO produced (375.01 μmol/g) in case of NiFe2O4 (NF10 material).
+1. Introduction
+Syngas i.e. a mixture of H2 and CO is utilized as the feedstock for
+the production of liquid transportation fuels such as gasoline, diesel,
+and jet fuel via the Fischer Tropsch process [1]. Solar driven thermo-
+chemical splitting of H2O and CO2 using metal oxide based redox
+reactions is considered as a promising new technology for the produc-
+tion of syngas, bypassing the utilization of fossil fuels [2,3]. As only
+(atmospheric) CO2 and H2O are consumed, the syngas produced can be
+considered as a renewable product. Among the various metal oxides
+investigated in past, ferrites (doped iron oxides) are considered as
+potential materials due to their excellent redox reactivity and the high
+fuel production capacity.
+In recent years, several ferrite including Ni-ferrite, Zn-ferrite, Co-
+ferrite, Ni-Zn-ferrite, Ni-Mn-ferrite, Cu-ferrite, and others have been
+studied towards thermochemical H2O splitting cycles [4–22] and
+among all these, Ni-ferrite has been investigated heavily. Sano et al.
+[23] synthesized a carbon bearing Ni-ferrite for the production of H2
+via thermochemical H2O splitting reaction at 300 °C. Kodama et al.[24]
+reported that the Ni-ferrite supported on ZrO2 exhibits higher activity
+and a sustainable H2 production in multiple water splitting cycles due
+to the alleviation of sintering. A solar heated, internally circulating
+ﬂuidized bed reactor containing Ni-ferrite/ZrO2 particles as the
+reactive medium for the water splitting reaction was successfully
+designed and tested by Gokon et al.[25]. Allendorf et al.[7] performed
+the thermodynamic analysis of the thermal reduction and re-oxidation
+of Ni-ferrite by thermochemical water splitting cycle using the FactSage
+thermodynamic software package. Fresno et al.[26] compared the
+activity for H2 production of commercially available ferrites such as
+Ni-ferrite, Zn-ferrite, Cu-ferrite, Ni-Zn-ferrite and Cu-Zn-ferrite (pur-
+chased from Sigma Aldrich) by performing thermochemical water
+splitting cycles and reported that Ni-ferrite produces the highest
+amount of H2 compared to other ferrites. Agraﬁotis et al.[4] synthe-
+sized diﬀerent ferrite materials by the combustion synthesis and
+reported that the Ni-ferrite and Co-ferrite are the two most promising
+candidates as they are capable of producing the highest amounts of H2
+and of O2 compared to other ferrite based redox materials. Agraﬁotis
+et al.[4] also investigated the kinetics of ferrite based water splitting
+http://dx.doi.org/10.1016/j.ceramint.2017.01.034
+Received 7 November 2016; Received in revised form 30 December 2016; Accepted 8 January 2017
+⁎ Corresponding author.
+E-mail addresses: rahul.bhosale@qu.edu.qa, solar.chemical.engineering@gmail.com (R.R. Bhosale).
+Ceramics International 43 (2017) 5150–5155
+Available online 09 January 2017
+0272-8842/ © 2017 Elsevier Ltd and Techna Group S.r.l. All rights reserved.
+MARK
+
+
+===== Page 2 =====
+
+reaction using a simple mathematical model associated with the
+heterogeneous surface reactions [5].
+To produce syngas, it is essential that the redox system is also
+capable towards the production of CO in addition to H2. Therefore,
+diﬀerent Ni-ferrites are assessed in this study for their ability to
+produce CO from CO2. The eﬀect of Ni incorporation in the iron oxide
+crystal structure towards the thermochemical CO2 splitting reaction is
+investigated by comparing the Ni-ferrites with diﬀerent Ni content. The
+NixFe3−xO4 redox materials (where, x=0.2 to 1) were synthesized using
+a 1,2-epoxypropane assisted sol-gel method. The redox inactive Fe+2 is
+replaced by Ni+2 and due to this, it is expected that the redox reactivity
+in terms of O2 release and CO production will be higher in case of
+NixFe3−xO4 compared to pure iron oxide (Fe3O4). The derived
+NixFe3−xO4 redox materials are characterized using the powder XRD
+(PXRD), BET surface area analysis (BET), as well as scanning and
+transmission electron microscopy (SEM and TEM). The thermal
+reduction and re-oxidation by CO2 is assessed by using a thermogravi-
+metric analyzer (TGA). It is noteworthy that, several researchers
+investigated Ni-ferrite for other applications [27–31], however; the
+sol-gel synthesized Ni-ferrite was never studied towards thermoche-
+mical CO2 splitting reaction.
+2. Experimental
+2.1. Materials
+The sol-gel synthesis of NixFe3−xO4 was performed by using
+following precursors and chemicals: nitrate salts of nickel and iron,
+ethanol as the solvent, 1,2-epoxypropane as the proton scavenger
+(gelation agent). All of these materials were purchased from Sigma
+Aldrich and Alfa Aesar. No pretreatment was carried out on any of
+these materials.
+2.2. Synthesis of NixFe3−xO4 redox materials
+Diﬀerent NixFe3−xO4 redox active materials (x=0.2 to 1) were
+synthesized by applying the 1,2-epoxypropane assisted sol-gel method.
+The value of x=1.0 represents the complete replacement of the redox-
+inactive Fe2+ by Ni2+ in the ferrite structure. Later on, the following
+abbreviations
+are
+used:
+Ni0.2Fe2.8O4
+(NF2),
+Ni0.4Fe2.6O4
+(NF4),
+Ni0.5Fe2.5O4
+(NF5), Ni0.6Fe2.4O4
+(NF6), Ni0.8Fe2.2O4
+(NF8), and
+NiFe2O4 (NF10). To obtain the desired stoichiometry, 10 g of the
+metal precursors i.e. the nitrate salts of nickel and iron in the
+appropriate molar ratio were dissolved in 20 ml of ethanol. Complete
+dissolution was aided by agitating the slurry in an ultrasonic bath. After
+dissolution, 20 ml of 1,2-epoxypropane was added slowly to the mixed
+solution and the gel formation was induced. The gel was aged at room
+temperature for 24 h and then dried at 100 °C for 2 h using a
+temperature-controlled hot plate. The dried powders were calcined in
+a muﬄe furnace at 600 °C for 90 min in air to achieve crystalline phase
+formation. The obtained calcined powders were stored in dry atmo-
+sphere and characterized using diﬀerent analytical methods. The sol-
+gel synthesis approach is schematically summarized in Fig. 1.
+2.3. Characterization of NixFe3−xO4 redox materials
+A Panalytical XPert MPD/DY636 powder X-ray diﬀractometer was
+used to determine the compositional purity and crystallite size (by
+using Scherrer's equation) of the synthesized NixFe3−xO4 materials. A
+BET surface area analyzer, Micromeritics ASAP 2420 was used to
+determine the speciﬁc surface area (SSA) and pore volume of the
+NixFe3−xO4 materials. The morphology of the synthesized NixFe3−xO4
+material was scrutinized using a Zeiss Supra 55VP ﬁeld-emission
+scanning electron microscope (SEM). In addition, the formation of
+NixFe3−xO4 nanoparticles was conﬁrmed by using a high resolution
+transmission electron microscope (TECNAI G2 F20 and JEM-2010).
+2.4. CO2 splitting ability of NixFe3−xO4 redox materials
+The thermochemical CO2 splitting ability of synthesized Ni-ferrites
+was studied by using a thermogravimetric analyzer (TGA, Netzsch STA
+409). The details about the set-up used have been published in our
+recent investigations [32,33]. Approximately, 50 mg of Ni-ferrite
+powder was placed in an Al2O3 crucible and this crucible was
+introduced into the TGA. The TGA temperature was increased upto
+1400 °C at a rate of 25 °C/min and the TGA was held at this
+temperature for 1 h in an Ar ﬂow of 100 ml/min. The observed
+decrease of the mass was directly attributed to the amount of O2
+released as per Eq. (1).
+n
+Δm
+M
+m
+=
+/(
+·
+)
+O
+loss
+O
+ferrite
+2
+2
+(1)
+After performing the thermal reduction step, the temperature of the
+TGA was decreased to 1000 °C with the natural cooling rate of ~25 °C/
+min (still under inert atmosphere). Once the temperature was reached
+to 1000 °C, CO2 was admitted and re-oxidation of the Ni-ferrite sample
+via CO2 splitting was studied under isothermal conditions for 30 min.
+Flow rates of CO2 and Ar were kept constant at 50 ml/min each during
+the entire re-oxidation phase. The observed mass increase was directly
+converted to the amount of CO produced by Eq. (2).
+n
+Δm
+M m
+=
+/(
+·
+)
+CO
+gain
+O
+ferrite
+(2)
+The completeness of the re-oxidation reaction was determined as:
+O recovery
+Δm
+Δm
+%
+=
+×100
+gain
+loss
+2
+⎛
+⎝
+⎜
+⎞
+⎠
+⎟
+(3)
+Before carrying out the actual experiments, a baseline TGA proﬁle
+was obtained under identical operating conditions by performing the
+blank experiment using an empty alumina crucible. The TGA proﬁle
+obtained in the blank experiment was subtracted from the TGA proﬁle
+obtained in the real experiment to eliminate the buoyancy eﬀect and
+consequences caused by changing the gas atmosphere when switching
+from inert to oxidizing conditions.
+3. Results and discussion
+In Fig. 2, we report the PXRD patterns of the calcined Ni-ferrite
+powders. The patterns are characterized by strong reﬂections indicat-
+ing highly crystalline samples. All reﬂections observed can be attrib-
+uted to the cubic structure of the spinel phase. Notably, peaks that
+could be attributed to impurity phases such as NiO are completely
+absent. Thus, the PXRD patterns conﬁrm complete incorporation of
+Ni2+ into the Fe3O4 crystal structure. As the concentration of nickel
+increases, the peaks shift to lower angles conﬁrming the formation of
+NixFe3−xO4 with an expanded crystal lattice.
+Close inspection of the PXRD peaks revealed that the peak width
+increases with the increase in the Ni2+ concentration. This observation
+indicates that the crystallite size decreases as more Ni2+ was incorpo-
+rated into the ferrite crystal structure. The quantitative evaluation of
+the crystallite size (see Fig. 3) was performed by using the Scherrer
+Nomenclature
+Δmloss
+Mass loss observed during thermal reduction step
+Δmgain
+Mass gain observed during CO2 splitting step
+nO2
+Amount of O2 released during thermal reduction step
+nCO
+Amount of CO produced during CO2 splitting step
+mferrite
+Mass of ferrite used in the thermogravimetric experi-
+ments
+MO2
+Molecular weight of O2
+MO
+Molecular weight of O
+R.R. Bhosale et al.
+Ceramics International 43 (2017) 5150–5155
+5151
+
+
+===== Page 3 =====
+
+equation. At the lowest doping level (NF2), a crystallite size of 28.7 nm
+was found. This number decreases to 20.3 nm for the completely doped
+Ni-ferrite (NF10). The error involved in the quantitative analysis of the
+crystallite size was in the range of 2–3%.
+The speciﬁc surface area and the pore volume of the Ni-ferrites as
+function of Ni2+ content is reported in Fig. 4. Both, the speciﬁc surface
+area and the pore volume increases as the Ni+2 concentration increases.
+At the lowest Ni2+ content (NF2), the speciﬁc surface area of 32.2 m2/g
+and the pore volume of 0.045 cm3/g are observed. These values
+increase upto 45.2 m2/g and 0.098 cm3/g for the completely exchanged
+NF10 material.
+The morphology of all the sol-gel derived NixFe3−xO4 materials was
+analyzed using SEM and TEM. The SEM analysis shows formation of
+smaller grains and indicated nanoparticles morphology of sol-gel
+derived NixFe3−xO4. TEM analysis further conﬁrms the formation of
+NixFe3−xO4 nanoparticles in the range of 10–50 nm. No evidence of the
+eﬀect of Ni incorporation in the iron oxide crystal structure on the
+morphology of the NixFe3−xO4 materials synthesized was observed.
+Fig. 5a and b show representative SEM and TEM images for NF8 redox
+material. Similar material morphology was observed in case of other
+NixFe3−xO4 and hence the SEM and TEM images for these materials are
+not included in this paper.
+The activity of the Ni-ferrites materials towards production of CO
+via the thermochemical CO2 splitting reaction was examined using a
+high temperature TGA. The typical TGA proﬁle obtained during the
+thermal reduction of NF8 is shown in Fig. 6. The overall loss in the Ni-
+ferrite mass was computed from the weight diﬀerence between the
+starting ferrite material and the material left over after performing
+thermal reduction for 60 min at 1400 °C. The mass of Ni-ferrite
+material decreases due to the release of O2 during thermal reduction
+resulting into formation of O2 vacancies in the NixFe3−xO4 crystal
+structure. The mass loss (Δmloss) was determined by using TGA proﬁles
+and this mass loss was converted into the amount of O2 released by
+using Eq. (1). In case of NF2, the percentage mass loss was 0.20% and
+as the nickel content increases, the percentage mass loss increases
+considerably. The highest mass loss was observed in the case of NF10
+where all Fe2+ has been substituted by Ni2+.
+After the thermal reduction step, the temperature of TGA was
+decreased to 1000 °C and the CO2 was admitted for 30 min. During this
+time period, the thermally reduced Ni-ferrite was re-oxidized by CO2
+Fig. 1. Schematic of the sol-gel synthesis method.
+Fig. 2. PXRD pattern of Ni-ferrites synthesized.
+Fig. 3. Variation of crystal size as a function of Ni+2 concentration.
+Fig. 4. Increase in the speciﬁc surface area and pore volume of the sol-gel synthesized
+NixFe3−xO4 materials as a function of Ni+2 concentration.
+R.R. Bhosale et al.
+Ceramics International 43 (2017) 5150–5155
+5152
+
+
+===== Page 4 =====
+
+releasing CO. A typical TGA proﬁle obtained during the re-oxidation of
+NF8 is shown in Fig. 8. The mass gain throughout the CO2 splitting
+reactions recorded for all the ferrite materials is presented in Fig. 7.
+During the CO2 splitting experiment, the thermally reduced Ni-ferrite
+material was re-oxidized by CO2 resulting into the formation of CO.
+Due to the re-oxidation of ferrite, the mass increases (Δmgain) and this
+increase in the mass can be directly converted into CO produced with
+the help of Eq. (2).
+A similar curve is observed for the case of gain in the mass of Ni-
+ferrite as function of the nickel content as was observed in case of loss
+in the mass of Ni-ferrite. At low doping levels, the gain the mass was
+lowest and it increases gradually as the Ni+2 concentration increases.
+Once the nickel content surpasses 50% (NF5), the increase in the mass
+gain is observed to be much higher. Interestingly, the O2 recovery curve
+exhibits the similar general shape as both the mass loss and the mass
+gain curve. Obtained results indicate that the reduction of the ferrites is
+much faster as compared to the re-oxidation by CO2. With the
+increasing nickel content, the reaction kinetics of the CO2 splitting
+Fig. 5. a) SEM and b) TEM images of the sol-gel synthesized Ni0.8Fe2.2O4 (NF8)
+material.
+Fig. 6. TGA proﬁle for thermal reduction of Ni0.8Fe2.2O4 (NF8) material.
+Fig. 7. Variations in mass change and % O2 recovery associated with the NixFe3−xO4
+materials during thermal reduction and CO2 splitting reaction.
+Fig. 8. TGA proﬁle for re-oxidation of Ni0.8Fe2.2O4 (NF8) material via CO2 splitting
+reaction.
+Fig. 9. Amounts of O2 released and CO produced by the sol-gel derived NixFe3−xO4
+materials during thermal reduction and CO2 splitting reaction.
+R.R. Bhosale et al.
+Ceramics International 43 (2017) 5150–5155
+5153
+
+
+===== Page 5 =====
+
+step was observed to be improved. Hence, the CO2 splitting reaction
+becomes faster and thus re-oxidation of Ni-ferrite was observed to be
+comprehensive. However, the reason for the two diﬀerent regimes (low
+nickel content of up to 50% and high nickel content which is more than
+50%) is not clear at this moment. The TGA results clearly indicate that
+substituting Fe2+ by Ni2+ is more beneﬁcial to the CO2 splitting
+reaction. With the increase in the nickel content, not only more
+amount of CO production is realized, but also the reaction extent is
+enhanced.. While only 45% of the O2 released during thermal reduction
+is recovered by NF2 via CO2 splitting, the O2 recovery has almost
+doubled (84.5%) in the completely substituted NF10 ferrite.
+The obtained TGA results are summarized in Fig. 9, which includes
+the amount of O2 released during thermal reduction step, the amount
+of CO produced via CO2 splitting reaction, and the molar ratio of CO to
+O2 for the diﬀerent Ni-ferrites examined in this study. 62.50 μmol/g of
+O2 was released by the least substituted Ni-ferrite (NF2) and
+56.25 μmol/g of CO was produced during its re-oxidation by CO2
+splitting reaction. The fully substituted NF10 was able the release
+221.88 μmol/g of O2 during the thermal reduction at 1400 °C and to
+produce 375.01 μmol/g of CO during the re-oxidation by CO2 splitting
+performed at 1000 °C. The extent of the reaction during one full cycle is
+reported in Fig. 9 as the molar ratio of CO/O2. It increases from 0.90 to
+1.69 as the concentration of Ni increases from x=0.2 (NF2) to x=1
+(NF10).
+The obtained results indicate that substitution of Fe+2 by Ni+2 in
+Fe3O4 has a beneﬁcial eﬀect. For low substitution levels up to about
+60%, only a small increase of the redox capacity in terms of the amount
+of O2 that can be removed from the crystal structure is observed. At
+high substitution levels and in particular in the fully substituted
+NiFe2O4 (NF10), a drastic increase of the redox performance is
+experienced.
+4. Summary and conclusions
+The eﬀect of the substitution of Fe+2 by Ni+2 in iron oxide crystal
+structure on its physico-chemical properties and CO2 splitting ability
+was investigated in detail. The PXRD patterns indicate that the sol-gel
+synthesis results into the formation of phase pure NixFe3−xO4 with
+highly crystalline spinel cubic structure in absence of any impurity
+phases such as NiO. Nickel substitution leads to a signiﬁcant decrease
+in the crystallite size from about 28 nm for NF2 to 20 nm for the fully
+substituted NF10. The decrease in the crystallite size is accompanied by
+an increase in the speciﬁc surface area and the pore volume by 28.76%
+and 54.08%, respectively. The SEM and TEM analysis conﬁrms the
+formation of highly crystalline NixFe3−xO4 nanoparticles. The thermo-
+gravimetric experiments indicate that the redox performance of Ni-
+ferrite increases with increasing nickel content. Interestingly, substitu-
+tion of less than about 60% of the Fe+2 results into slightly improved
+redox performance of Ni-ferrite. At higher substitution levels and most
+notably in the case of the fully substituted NiFe2O4, the redox
+performance of the Ni-ferrite material drastically increases. CO pro-
+duction is enhanced by a factor of 6.67 in case of fully substituted NF10
+in comparison to the least substituted NF2. Not only does the amount
+of CO produced increases but also the ratio of CO/O2 increases by
+46.75% as the substitution level increases from x=0.2 to 1. The best
+performance was observed with NiFe2O4 (NF10) when compared to the
+other sol-gel derived NixFe3−xO4. However, it is important to note that
+the present study only concerns an initial assessment as the materials
+are only subjected to one complete thermochemical cycle. For a more
+complete assessment and to allow a comparison with previously
+investigated ceria based redox materials, it will be essential to
+investigate the redox reactivity and thermal stability of the sol-gel
+derived NixFe3−xO4 materials in multiple thermochemical cycles. This
+study is the subject of our ongoing work.
+Acknowledgements
+This publication was made possible by the NPRP grant (NPRP8-
+370-2–154) from the Qatar National Research Fund (a member of
+Qatar Foundation). The statements made herein are solely the respon-
+sibility of author(s). Authors would also like to acknowledge the
+ﬁnancial support provided by the Indo-Swiss Joint Research Program
+(ISJRP, grant #138852).
+References
+[1] M.E. Dry, The Fischer–Tropsch Process: 1950–2000, Catalysis Today, 71, 2002,
+pp. 227–241.
+[2] A. Steinfeld, Solar thermochemical production of hydrogen–a review, Sol. Energy
+78 (2005) 603–615.
+[3] J.R. Scheﬀe, A. Steinfeld, Oxygen exchange materials for solar thermochemical
+splitting of H2O and CO2: a review, Mater. Today 17 (2014) 341–348.
+[4] C.C. Agraﬁotis, C. Pagkoura, A. Zygogianni, G. Karagiannakis, M. Kostoglou,
+A.G. Konstandopoulos, Hydrogen production via solar-aided water splitting
+thermochemical cycles: combustion synthesis and preliminary evaluation of spinel
+redox-pair materials, Int. J. Hydrog. Energy 37 (2012) 8964–8980.
+[5] C. Agraﬁotis, A. Zygogianni, C. Pagkoura, M. Kostoglou, A.G. Konstandopoulos,
+Hydrogen production via solar‐aided water splitting thermochemical cycles with
+nickel ferrite: experiments and modeling, AIChE J. 59 (2013) 1213–1225.
+[6] K.M. Allen, E.N. Coker, N. Auyeung, J.F. Klausner, Cobalt ferrite in YSZ for Use as
+Reactive Material in Solar Thermochemical Water and Carbon Dioxide Splitting,
+part I: Material Characterization, JOM, 65, 2013, pp. 1670–1681
+[7] M.D. Allendorf, R.B. Diver, N.P. Siegel, J.E. Miller, Two-step water splitting using
+mixed-metal ferrites: thermodynamic analysis and characterization of synthesized
+materials, Energy Fuels 22 (2008) 4115–4124.
+[8] D. Ariﬁn, V.J. Aston, X. Liang, A.H. McDaniel, A.W. Weimer, CoFe2O4 on a porous
+Al2O3 nanostructure for solar thermochemical CO2 splitting, Energy Environ. Sci.
+5 (2012) 9438–9443.
+[9] R.R. Bhosale, R.V. Shende, J.A. Puszynski, H2 generation from thermochemical
+water-splitting using sol-gel synthesized Zn/Sn/Mn-doped Ni-ferrite, Int. Rev.
+Chem. Eng. 2 (2010) 852.
+[10] R.R. Bhosale, I. Alxneit, van den Broeke, Leo LP, A. Kumar, M. Jilani, S.S. Gharbia,
+J. Folady, D.Z. Dardor, Sol-Gel Synthesis of Nanocrystalline Ni-Ferrite and Co-
+Ferrite Redox Materials for Thermochemical Production of Solar Fuels, 1675, 2014,
+mrss14-1675-rr06-10.
+[11] R.R. Bhosale, A. Kumar, F. AlMomani, I. Alxneit, Propylene oxide assisted sol–gel
+synthesis of zinc ferrite nanoparticles for solar fuel production, Ceram. Int. 42
+(2016) 2431–2438.
+[12] R.R. Bhosale, R.V. Shende, J.A. Puszynski, Thermochemical water-splitting for H2
+generation using sol-gel derived Mn-ferrite in a packed bed reactor, Int. J. Hydrog.
+Energy 37 (2012) 2924–2934.
+[13] R. Bhosale, R. Khadka, J. Puszynski, R. Shende, H2 generation from two-step
+thermochemical water-splitting reaction using sol-gel derived SnxFeyOz, J. Renew.
+Sustain. Energy 3 (2011) 063104.
+[14] R. Bhosale, R. Shende, J. Puszynski, H2 generation from thermochemical water
+splitting using sol-gel derived Ni-ferrite, J. Energy Power Eng. 4 (2010).
+[15] F. Fresno, T. Yoshida, N. Gokon, R. Fernández-Saavedra, T. Kodama, Comparative
+study of the activity of nickel ferrites for solar hydrogen production by two-step
+thermochemical cycles, Int. J. Hydrog. Energy 35 (2010) 8503–8510.
+[16] S. Lorentzou, A. Zygogianni, K. Tousimi, C. Agraﬁotis, A. Konstandopoulos,
+Advanced synthesis of nanostructured materials for environmental applications, J.
+Alloy. Compd. 483 (2009) 302–305.
+[17] M. Neises, M. Roeb, M. Schmücker, C. Sattler, R. Pitz‐Paal, Kinetic investigations of
+the hydrogen production step of a thermochemical cycle using mixed iron oxides
+coated on ceramic substrates, Int. J. Energy Res. 34 (2010) 651–661.
+[18] M. Roeb, N. Gathmann, M. Neises, C. Sattler, R. Pitz‐Paal, Thermodynamic analysis
+of two‐step solar water splitting with mixed iron oxides, Int. J. Energy Res. 33
+(2009) 893–902.
+[19] M. Roeb, M. Neises, N. Monnerie, F. Call, H. Simon, C. Sattler, M. Schmücker,
+R. Pitz-Paal, Materials-related aspects of thermochemical water and carbon dioxide
+splitting: a review, Materials 5 (2012) 2015–2054.
+[20] J.R. Scheﬀe, M.D. Allendorf, E.N. Coker, B.W. Jacobs, A.H. McDaniel,
+A.W. Weimer, Hydrogen production via chemical looping redox cycles using atomic
+layer deposition-synthesized iron oxide and cobalt ferrites, Chem. Mater. 23 (2011)
+2030–2038.
+[21] J.R. Scheﬀe, J. Li, A.W. Weimer, A spinel ferrite/hercynite water-splitting redox
+cycle, Int. J. Hydrog. Energy 35 (2010) 3333–3340.
+[22] J.R. Scheﬀe, A.H. McDaniel, M.D. Allendorf, A.W. Weimer, Kinetics and mechan-
+ism of solar-thermochemical H2 production by oxidation of a cobalt ferrite–
+zirconia composite, Energy Environ. Sci. 6 (2013) 963–973.
+[23] T. Sano, M. Kojima, N. Hasegawa, M. Tsuji, Y. Tamaura, Thermochemical water-
+splitting by a carbon-bearing Ni (II) ferrite at 300° C, Int. J. Hydrog. Energy 21
+(1996) 781–787.
+[24] T. Kodama, N. Gokon, R. Yamamoto, Thermochemical two-step water splitting by
+ZrO 2-supported NixFe 3−xO4 for solar hydrogen production, Sol. Energy 82
+(2008) 73–79.
+[25] N. Gokon, S. Takahashi, H. Yamamoto, T. Kodama, Thermochemical two-step
+R.R. Bhosale et al.
+Ceramics International 43 (2017) 5150–5155
+5154
+
+
+===== Page 6 =====
+
+water-splitting reactor with internally circulating ﬂuidized bed for thermal reduc-
+tion of ferrite particles, Int. J. Hydrog. Energy 33 (2008) 2189–2199.
+[26] F. Fresno, R. Fernández-Saavedra, M.B. Gómez-Mancebo, A. Vidal, M. Sánchez,
+M.I. Rucandio, A.J. Quejido, M. Romero, Solar hydrogen production by two-step
+thermochemical cycles: evaluation of the activity of commercial ferrites, Int. J.
+Hydrog. Energy 34 (2009) 2918–2924.
+[27] J. Azadmanjiri, S.S. Ebrahimi, H. Salehani, Magnetic properties of nanosize
+NiFe2O4 particles synthesized by sol–gel auto combustion method, Ceram. Int. 33
+(2007) 1623–1625.
+[28] L. Chauhan, A. Shukla, K. Sreenivas, Properties of NiFe2O4 ceramics from powders
+obtained by auto-combustion synthesis with diﬀerent fuels, Ceram. Int. (2016).
+[29] Y. Kuo, W. Hsu, P. Chiu, Y. Tseng, Y. Ku, Assessment of redox behavior of nickel
+ferrite as oxygen carriers for chemical looping process, Ceram. Int. 39 (2013)
+5459–5465.
+[30] U. Kurtan, H. Güngüneş, H. Sözeri, A. Baykal, Synthesis and characterization of
+monodisperse NiFe2O4 nanoparticles, Ceram. Int. 42 (2016) 7987–7992.
+[31] M. Dilshad, S. Nazim, M.F. Warsi, M. Shahid, S. Naseem, S. Riaz, I. Shakir,
+S. Haider, M.A. Khan, Fabrication and characterization of Ni1xZrxFe 2−2xO4
+nanoparticles for potential applications in high frequency devices, Ceram. Int. 42
+(2016) 16359–16363.
+[32] R.R. Bhosale, A. Kumar, F. AlMomani, I. Alxneit, Sol–gel derived CeO 2–Fe2O3
+nanoparticles: synthesis, characterization and solar thermochemical application,
+Ceram. Int. 42 (2016) 6728–6737.
+[33] R.R. Bhosale, A. Kumar, F. AlMomani, U. Ghosh, S. Al-Muhtaseb, R. Gupta,
+I. Alxneit, Assessment of CexZryHfzO 2 based oxides as potential solar thermo-
+chemical CO 2 splitting materials, Ceram. Int. 42 (2016) 9354–9362.
+R.R. Bhosale et al.
+Ceramics International 43 (2017) 5150–5155
+5155

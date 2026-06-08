@@ -1,0 +1,1186 @@
+
+
+===== Page 1 =====
+
+Journal of Energy Storage 43 (2021) 103271
+Available online 30 September 2021
+2352-152X/© 2021 Elsevier Ltd. All rights reserved.
+Development of a kinetic reaction model for reduction and oxidation of Si 
+doped Mn2O3 for thermochemical energy storage in concentrated solar 
+power plants 
+Daniel Bielsa a,b,*, Abdelali Zaki a, Pedro L. Arias b, Abdessamand Faik a 
+a Centre for Cooperative Research on Alternative Energies (CIC energiGUNE), Basque Research and Technology Alliance (BRTA), Albert Einstein 48, 01510, Mi˜nano 
+(´Alava), Spain 
+b University of the Basque Country (UPV/EHU), calle Alameda Urquijo s/n, 48013 Bilbao, Spain   
+A R T I C L E  I N F O   
+Keywords: 
+Thermochemical energy storage 
+Manganese oxide 
+Kinetic models 
+Reaction rate 
+Doped metal oxides 
+Concentrated solar power plant 
+A B S T R A C T   
+Thermal energy storage plays a significant role in concentrated solar power plants. Particularly, thermochemical 
+energy storage has been proposed as a promising future candidate due to its high energy density. One of the most 
+studied thermochemical reactions are metal oxides redox reactions. The simplicity of using air as both heat 
+transfer fluid and reactant provides important advantages. Among the studied materials, Mn2O3 has been deeply 
+investigated due to its low cost and toxicity, although its reversibility has been shown to be highly deteriorated 
+when exposed to high temperatures. Doping Mn2O3 with 1 at% of Si counteracted this weakness leading to a 
+promising candidate for energy storage. In this work, thermogravimetric analysis of (Mn0.99Si0.01)2O3 demon­
+strated no significant changes in enthalpy compared to Mn2O3, while the oxidation kinetics and mostly, its 
+cycling stability experienced great improvements. In order to provide tools for future thermochemical reactor 
+design, a complete study of the reduction and oxidation kinetics of (Mn0.99Si0.01)2O3 in a thermobalance was 
+carried out, obtaining satisfactory kinetic parametrization models. Both processes are mainly controlled by 
+nucleation and growth mechanisms, although the diffusion mechanism prevails at high conversion extents (α >
+0.8). In order to mimic accurately the effect of the oxygen partial pressure on the reaction kinetics, significant in 
+the case of the oxidation reaction, the developed model includes an innovative contribution. The so called 
+‘isoconversional activation energy’ was introduced in the model, turning into an accurate prediction tool able to 
+simulate the material kinetics deceleration within the hysteresis zone, providing a reaction rate kinetic model 
+with extended range which has not been provided before.   
+1. Introduction 
+If the future power grid is fundamentally based on renewable energy, 
+it might have relevant energy constrains during certain periods of the 
+day/night, especially when wind or sun are not available. Therefore, the 
+development of appropriate energy storage technologies becomes of 
+paramount importance to ensure the resilience of the upcoming green 
+energy grid. 
+Thermal energy storage (TES) is a proven technology capable of 
+storing large amount of energy at a reasonable cost, aiming to play an 
+important role on the balance of the future energy system. TES systems are 
+well-known in concentrated solar power (CSP) technologies, because they 
+can be easily coupled to the solar field and offer energy dispatchability. 
+TES systems allow storing part of the energy collected during sun hours to 
+extent the electricity production several hours beyond sunset. Current TES 
+technologies in most commercial CSP plants involve the use of molten 
+nitrate salts as the storage medium, because it is a low-cost material with 
+good energy storage density. Nevertheless, these salts present some 
+drawbacks such as the high freezing point and maximum allowable 
+temperature, that impose maintaining the temperature of the salt 
+continuously above 290 ◦C and not exceeding 565 ◦C to avoid its degra­
+dation [1]. Current research efforts are focused mainly in reducing the 
+cost of these systems to improve their competitiveness. TES cost repre­
+sents approximately 9% of the total capital costs of a parabolic through 50 
+MWe power plant with 7.5 h of storage [2], which represents several tens 
+of millions of euros. One of the most promising technologies to improve 
+* Corresponding author. 
+E-mail address: dbielsa@cicenergigune.com (D. Bielsa).  
+Contents lists available at ScienceDirect 
+Journal of Energy Storage 
+journal homepage: www.elsevier.com/locate/est 
+https://doi.org/10.1016/j.est.2021.103271 
+Received 13 October 2020; Received in revised form 10 September 2021; Accepted 20 September 2021   
+
+
+===== Page 2 =====
+
+Journal of Energy Storage 43 (2021) 103271
+2
+the TES performance and reduce the cost is the thermochemical energy 
+storage (TcES), which has attracted the attention of the scientific com­
+munity for decades. The main advantages are its high energy density, 
+negligible heat loss and low volume requirement. Nevertheless, they are 
+at an early stage of development, and it is necessary, mainly, to avoid the 
+reversibility losses under repetitive charge and discharge cycles, to 
+develop a cost-effective solution for the critical components (e. g. re­
+actors) and to design their optimal integration into the power plant [3]. 
+Among thermochemical reversible reactions, gas–solid reactions are 
+especially interesting because the gas released during the TES charging 
+step can be easily separated from the active thermochemical material. 
+The most investigated TcES gas-solid reactions for CSP plants involves 
+dehydrogenation/hydrogenation of metal hydrides (2,811 – 4,934 kJ/ 
+kg) [4], dehydration/hydration of metal hydroxides (1,352 kJ/kg) [5], 
+decarbonation/carbonation of metal carbonates (1,780 kJ/kg) [6] and 
+reduction/oxidation of metal oxides (202–844 kJ/kg) [7]. The latter 
+presents two interesting advantages which turn these materials into 
+interesting candidates, namely, cheap and easily available oxidizing 
+agent (natural air) and high reaction equilibrium temperature (above 
+600 ◦C), which may increase the overall solar-to-electricity conversion 
+efficiency, contributing to boost one of the current research lines for 
+future CSP technology [8]. 
+A great number of reversible reactions involving pure metal oxides 
+has been deeply studied, although only few of them showed promising 
+redox behavior for TES. The most studied ones are the following (be­
+tween brackets the enthalpy measurement by DSC reported in recent 
+studies): BaO2/BaO (390 kJ/kg BaO2) [9], Fe2O3/Fe3O4 (599 kJ/kg 
+Fe2O3) [10], CuO/Cu2O (652 kJ/kg CuO) [10], Co3O4/CoO (561.4 - 576 
+kJ/kg Co3O4) [10,11] and Mn2O3/Mn3O4 (161.69 - 231 kJ/kg Mn2O3) 
+[10,12]. Most research efforts have been focused on Co3O4/CoO and 
+Mn2O3/Mn3O4 pairs. Co3O4/CoO presents higher reaction enthalpy and 
+kinetics, while Mn2O3/Mn3O4 has lower cost and toxicity, turning this 
+material into a promising candidate. Nevertheless, several studies 
+showed the profound tendency for Mn2O3-based materials to sinter 
+when subjected to repetitive charge and discharge cycles. This phe­
+nomenon causes a slowdown on the oxidation reaction kinetics, leading 
+to a significant storage capacity loss in a long term operation scenario [7, 
+12–14]. Most of the proposals to overcome this material weakness are 
+based on mixing it with another metal. Iron addition has been the most 
+studied approach. It forms a mixed structure of the type Mn2-xFexO3, 
+with much faster oxidation reaction kinetics than pure Mn2O3. This 
+improvement was attributed to lattice distortion caused by the smaller 
+Fe2+ radius, which counteracted, to some extent, the sintering effects 
+[15,16], even though not completely avoided. Recently, we studied the 
+positive effects of doping Mn2O3 with 1 at% of Si, observing how Si4+
+segregation at the grain boundaries hindered particle growth and 
+shrinkage, characteristic of the sintering effects. At the same time, the 
+smaller size of Si4+ compared to Mn3+ contributed to accelerate the 
+oxidation reaction rate [17]. This system stores and releases heat (Q) 
+through the following reversible reaction: 
+6(Mn0.99Si0.01)2O3(s) + Q ↔4(Mn0.99Si0.01)3O4 (s) + O2 (g).
+(1) 
+Thereafter, the study of the reduction and oxidation kinetics represents 
+an important issue to determine empirical rate laws for TcES reactor design 
+and to proceed to the next step of technological development. Neverthe­
+less, redox kinetic studies have been scarcely reported for TcES, especially 
+considering the effect of the pressure of the gas phase in the oxidation 
+kinetics. Several authors have reported the kinetic study of the first step of 
+the Mn2O3/Mn3O4 thermochemical cycle for hydrogen production, which 
+involves Mn2O3 reduction to Mn3O4 under inert atmosphere. Francis et al., 
+provided a calculation of a constant reaction rate of the reduction reaction 
+of Mn2O3, assuming that the reaction proceeds via an Avrami–Erofeev 
+mechanism [18]. Botas et al. obtained an accurate prediction model using 
+a combination of isoconversional methods for the estimation of realistic 
+activation energy values and a multivariate nonlinear regression proced­
+ure for the determination of the best kinetic model and pre-exponential 
+factor [19]. Alonso et al. showed the kinetic study of the Mn2O3 reduc­
+tion reaction using a solar-driven thermogravimeter, determining that the 
+reaction rate fitted to a nth-order reaction rate [20]. Considering TcES 
+applications, F. Pestalozzi developed a kinetic model for the reduction and 
+oxidation of Mn2O3 in a packed bed reactor, under isothermal conditions, 
+finding out that the experimental results did not fit with an Avrami model, 
+so, a combined Sestak model was used to obtain satisfactory results [21]. A 
+similar approach was applied by Carrillo et al., trying to explain the 
+mechanisms involved in the reduction and oxidation of (Mn0.8Fe0.2)2O3 in 
+a thermobalance. They considered that the reactions followed nucleation 
+and growth models, described by Avrami-Erofeev mechanisms, although 
+they used a Sestak model to get more accurate results [15]. Al-Shankiti 
+et al. studied the oxidation kinetics of MnFe2O4 using solid-state kinetics 
+theory and XRD analysis. They found that the reaction proceeded ac­
+cording to two different reaction mechanisms, a diffusion-controlled re­
+action mechanism followed by a nucleation-growth reaction mechanism 
+[22]. Nevertheless, even though several studies revealed that the gas 
+partial pressure may have a significant effect on the reaction kinetics of 
+these materials [23], little work can be found in the literature regarding 
+modelling its effect over Mn-based oxides for TcES applications. Wokon 
+et al. developed a kinetic model of (Mn0.75Fe0.25)2O3 reduction and 
+oxidation reactions, including the determination of the pressure depen­
+dence term. They found that the reactions follow an Avrami-Erofeev 
+model. In the case of the oxidation reaction, they found model de­
+viations when approaching to equilibrium, so it was not possible to 
+determine a reaction rate expression within a certain temperature range 
+called ‘thermal hysteresis zone’ [24]. Other study comprising the effect of 
+the pressure term was published by Hamidi et al., devoted only to the study 
+of the reduction reaction kinetics of (Mn0.33Fe0.67)2O3, using air and argon 
+as the reducing gas environments. Due to the low porosity of the prepared 
+particles, they applied a shrinking core model to describe the reaction 
+kinetics, finding the internal oxygen diffusion as the prevalent rate con­
+trolling mechanism. They developed a completely different reaction rate 
+expression compared to the model of Wokon et al., ascribing this 
+disagreement to the different materials used [25]. 
+To the best of our knowledge, up to date no work has been reported 
+regarding a complete kinetic study of reduction and oxidation of Si- 
+doped manganese oxide for TcES. Due to the improved redox behavior 
+of Si-doped Mn oxide, the identification of the main kinetic parameters 
+(the activation energy Ea, the preexponential factor A, the kinetic model 
+f(α) and the pressure dependent term h(pgas)), of the reduction and 
+oxidation reactions is of relevant importance to set the basis for future 
+upscaling of this technology. In addition, the effect of the oxygen partial 
+pressure on the reaction kinetics of these materials has been barely re­
+ported, leading to models with restricted application in terms of oper­
+ating temperature or pressure ranges. In order to optimize the future 
+integration of the manganese oxide TcES system into a power plant, 
+looking at the poor material oxidation behavior close to equilibrium and 
+the degradation effect caused by the high temperature, it might be useful 
+to charge and discharge the system using different gas partial pressures, 
+since these pressures are directly related with the reaction onset tem­
+perature and kinetics. Therefore, the present study aims to provide new 
+insights into the gas pressure relevance on the oxidation kinetic model, 
+especially in the hysteresis zone, which has been ignored in most of the 
+reported kinetic studies. 
+In this work, we have investigated for the first time the reduction and 
+oxidation kinetics of (Mn0.99Si0.01)2O3/(Mn0.99Si0.01)3O4. In the first 
+part of the work, we present a thermogravimetric and stability analysis 
+of the redox cycle by simultaneous thermal analysis (STA), stating the 
+main advantages of (Mn0.99Si0.01)2O3 compared to pure Mn2O3. The 
+second part of the work consists on the determination of the reduction 
+and oxidation kinetics models of (Mn0.99Si0.01)2O3, applying iso­
+conversional methods from thermogravimetric experimental data to 
+obtain the kinetic parameters. In this part, we provide a new proposal to 
+gather the effect of the oxygen partial pressure into the oxidation re­
+action kinetics. Finally, as a means of validation, the kinetic equations 
+D. Bielsa et al.                                                                                                                                                                                                                                   
+
+
+===== Page 3 =====
+
+Journal of Energy Storage 43 (2021) 103271
+3
+obtained are successfully compared against experimental thermogravi­
+metric measurements, providing further understanding on the reaction 
+mechanisms involved. 
+2. Experimental 
+2.1. Material preparation 
+(Mn0.99Si0.01)2O3 samples were synthesized by a sol-gel method, 
+following the procedure described in a previous work [17], which 
+showed improved material redox reversibility compared to Mn2O3. 
+First, a mixture of Mn(NO3)2⋅1H2O (98%, Sigma Aldrich) and citric acid 
+(99+%, Alfa Aesar) at a molar proportion 1:5 was dissolved in a solution 
+of 20 ml of deionized water and ethanol (96%. Scharlau). Subsequently, 
+the appropriate quantity of Si(C8H20O4) (98%, Sigma Aldrich) was 
+added to the solution. Then, after stirring for 2 h, the mixture was dried 
+at 120 ◦C and the resulting material was calcined at 800◦C for 15 h and 
+grounded by means of a mortar until getting fine powder. 
+Similar process was used for the synthesis of the manganese oxide 
+samples. In this case, ethylene glycol (99.8%, Sigma Aldrich) was added 
+to the solution of Mn(NO3)2⋅1H2O (98%, Sigma Aldrich) and citric acid 
+(99+%, Alfa Aesar), at a molar ratio 3:5:1 (EG:CA:MN). Subsequently, 
+the solution was dried at 120 ◦C until the gel was formed. Then, the 
+resulting material was calcined at 800◦C for 15 h and grounded by 
+means of a mortar until getting fine powder. 
+2.2. Characterization techniques 
+For the determination of the crystallographic structure X-ray 
+diffraction technique was used. The measurements were carried out by 
+means of a Bruker D8 Discover X-ray diffractometer equipped with a 
+LYNXEYE detector using CuKα1 radiation (λ =
+1.5406 Å) and θ–2θ 
+geometry. The measurement was carried out at room temperature be­
+tween 10◦and 110◦in 2θ with a step size and time of 0.02◦and 67 s, 
+respectively. The material phase composition was analyzed by means of 
+EVA v4.2.1 software. The XRD profile of the sample, presented in Fig. 1a 
+showed that only one phase was present, corresponding to Mn2O3 cubic 
+structure. 
+The size and shape of the material particles were studied using a 
+Quanta 200 FEG scanning electron microscope (SEM) running in high 
+vacuum mode at 30 kV and with a back scattered electron detector 
+(BSED). Fig. 1b depicts the SEM image of the sample after the synthesis 
+process and calcination, showing a quite uniform distribution of parti­
+cles within the nm scale. 
+Simultaneous thermal analysis (STA) measurements were performed 
+with the simultaneous thermal analyzer STA 449 F3 Jupiter (Netzsch). 
+In these studies, samples of approximately 20 mg were placed into 85µl 
+open platinum/rhodium crucibles (Netzsch) and subjected to different 
+reduction and oxidation steps under different gas atmospheres. 
+3. Results and discussion 
+3.1. Redox cycle and cycling behaviour 
+The thermogravimetric analysis of the reduction/oxidation cycle of 
+(Mn0.99Si0.01)2O3, together with pure Mn2O3, is shown in Fig. 2. The re­
+ported measurements have been performed in air at a heating/cooling rate 
+of 10 ◦C/min from 600 ◦C to 1050 ◦C (reduction reaction) and back to 600 
+◦C (oxidation reaction). The reactions are reversible, although in the case 
+of pure Mn2O3, the oxidation reaction kinetics was not fast enough to get 
+full re-oxidation during the cooling step. The samples presented a weight 
+change of 3.36 % for Mn2O3 and 3.01 % for (Mn0.99Si0.01)2O3. The latter 
+represents a lower value compared to the stoichiometry of Mn2O3 redox 
+reaction (3.38 %). This difference is attributable to the partial deactivation 
+of Mn-O bonds due to the introduction of Si into the structure [17]. The 
+incorporation of Si also affected slightly the temperatures at which the 
+reduction and oxidation take place, although in a previous work no sig­
+nificant differences were found [17]. Mn2O3 presents a reduction and 
+Fig. 1. a) XRD patterns of (Mn0.99Si0.01)2O3 sample, b) SEM micrograph of the (Mn0.99Si0.01)2O3 sample after synthesis and calcination.  
+Fig. 2. Reduction and oxidation cycle of Mn2O3 and (Mn0.99Si0.01)2O3, 
+applying a heating/cooling rate of 10 ◦C/min up to 1050 ◦C in air. 
+D. Bielsa et al.                                                                                                                                                                                                                                   
+
+
+===== Page 4 =====
+
+Journal of Energy Storage 43 (2021) 103271
+4
+oxidation onset temperatures of 910 ◦C and 712 ◦C, respectively, while 
+(Mn0.99Si0.01)2O3 presents a reduction onset temperature of 921 ◦C and an 
+oxidation onset temperature of 768 ◦C (Fig. 2). We were not able to 
+identify the reason of these deviations, which may be ascribed to differ­
+ences in the measuring conditions induced by the testing instruments used 
+in the previous and present studies (TGA and STA). In the following part of 
+the work, the thermodynamic data is analyzed in order to obtain a hy­
+pothesis that might explain the observed reactions onset temperature in­
+crease in the Si-doped samples. Reaction enthalpies were retrieved from 
+the areas under the DSC curves of the STA experiments and are plotted in 
+Fig. 3a and 3b. The reduction enthalpy of Mn2O3 found was 147.15 J/g, 
+however the oxidation reaction is so slow that the reaction enthalpy could 
+not be obtained. In the case of (Mn0.99Si0.01)2O3, its associated reduction 
+enthalpy was 149,32 J/g and the oxidation one 17.99 J/g. These results 
+are lower than the theoretical 210.5 kJ/kg, obtained by Fritsch and 
+Navrotsky using transposed temperature drop calorimetry [26], but are 
+close to the reported values using the same measurement technique (see 
+Table 1). The determination of the reaction enthalpy of Mn2O3 redox 
+material via STA measurement has been reported as a complex issue, 
+attributable to its slow reaction kinetics [10]. Si doping in the conditions 
+assessed in this work causes a slight reduction on the reduction reaction 
+kinetics, which causes a peak broadening in the DSC signal, making it 
+more difficult to obtain an accurate value for the reaction enth 
+alpy. Nevertheless, the reduction reaction enthalpy measured for (Mn 
+0.99Si0.01)2O3 presents a very similar value compared to Mn2O3 sample, 
+thus, no change on the energy storage density can be expected. In the case 
+of the oxidation reaction, the kinetic improvement observed by Si doping 
+was not enough to reach the theoretical values of the oxidation reaction 
+enthalpy and the obtained value follows the trend reported in other works, 
+where much lower value compared to the reduction one is showed, so 
+other means shall be used to determine the oxidation reaction enthalpy. 
+In order to evaluate the cycling ability of the (Mn0.99Si0.01)2O3 
+sample over a relevant number of charging and discharging cycles, it 
+was subjected to 80 redox cycles under air between 1050◦C and 700◦C, 
+with a heating rate of 20◦C/min for the reduction reaction, followed by 
+an oxidation isothermal step at 700 ◦C. The results depicted on Fig. 4a 
+indicate good material stability under cycling, obtaining a measured 
+recovered mass above 99.9 % over the whole cycling program. It should 
+be pointed out that the initial mass of the sample was not recovered, 
+likely ascribed to some impurities collected within the preparation 
+process, lost in the first heating ramps, which was also observed by other 
+authors [13,17]. For that reason, the initial sample mass considered for 
+the stability assessment was the sample mass at the end of the 5th redox 
+cycle. This cycling stability represents a significant improvement 
+compared to Mn2O3 pure sample, already showed in a previous work 
+[17] and was attributed to both the re-oxidation kinetics improvement 
+and to the sintering protection given by Si doping, which hinders par­
+ticle growth. Whereas Mn2O3 particles after 40 redox cycles presented a 
+homogeneous coral-like array of particles approaching to the micro-size 
+scale [17], (Mn0.99Si0.01)2O3 particles after the 80 redox cycles carried 
+out in this work present a much less degree of sintering, as it can be 
+observed in Fig. 4b. All particles remain in the nano-size scale with some 
+of them that seem not to be affected at all by sintering (e. g. at the center 
+of Fig. 4b). 
+4. Kinetic analysis methodology 
+Reduction and oxidation reactions of metal oxides involve the ab­
+sorption and desorption of oxygen, respectively and therefore, it in­
+volves a sample mass change. The plot of mass change with time α(t), is 
+the common procedure used to analyse the reactions kinetics, which 
+may have different shapes in direct relationship with the different 
+mechanisms involved in the reactions. 
+A complete kinetic study requires the determination of the main 
+kinetic parameters; namely, the activation energy Ea, the preexponential 
+factor A, the reaction model f(α) and the pressure dependent term h 
+(pO2), which is related to the partial pressure of the oxygen [30]. The 
+pressure dependence term h(pO2) is ignored in most kinetic studies, but 
+several studies showed how the oxygen partial pressure, PO2, in man­
+ganese oxide-based material may have a significant influence on reac­
+tion onset temperatures, reaction rate (dα/dt) and Ea [24,31]. The 
+reaction rate is commonly described by the following equations [30]: 
+dα
+dt = k (T) × f(α) × h
+(
+pO2
+)
+,
+(2)  
+k (T) = Ae−Ea
+RT,
+(3)  
+where R is the universal gas constant (8.314 J mol−1 K−1) and T [K] the 
+temperature. 
+The reaction rate model can be determined by different kinetic 
+analysis methods, such as model-fitting methods, generalized kinetic 
+models and model-free methods, being the latter the most used method 
+in studies concerning metal oxides for TcES. Model-free methods, also 
+called isoconversional methods, allow the determination of the activa­
+tion energy Ea without previous knowledge of the kinetic model f(α) that 
+fits the reaction mechanism. The isoconversional principle assumes that 
+the reaction rate is only function of the temperature for a given extent of 
+conversion (α). The Friedman method is the most commonly used iso­
+conversional method that provides accurate values of the activation 
+energies [32]. This method states that if the pressure term is avoided 
+using an inert gas atmosphere, Eq. (2) can be written in logarithmic form 
+as follows: 
+Fig. 3. Reduction and oxidation enthalpy measurement results via STA using 60 ml/min of air at a heating/cooling rate of 10 ◦C/min: a) Mn2O3 and b) 
+(Mn0.99Si0.01)2O3 . 
+D. Bielsa et al.                                                                                                                                                                                                                                   
+
+
+===== Page 5 =====
+
+Journal of Energy Storage 43 (2021) 103271
+5
+ln
+(dα
+dt
+)
+= ln(Af(α)) −
+Ea
+RT.
+(4) 
+Then, at a constant value of α, f(α) would also be constant and 
+provided that A is also constant, the activation energy Ea at a constant α 
+value can be determined from the slope of the plot of the left-hand side 
+of Eq. (4) against the inverse of the temperature, at different heating/ 
+cooling rates. 
+The next step is the determination of f(α), that is often obtained by a 
+combination of model-Fitting with model-Free methods, which requires 
+using the previously calculated Ea and some experimental data, obtained 
+from TGA measurements under different heating rates with a pre­
+determined set of kinetic models. The use of master plots is a well-known 
+method to apply this methods combination. Master plots are reference 
+theoretical curves only dependent on the kinetic model. The method 
+consists in obtaining an experimental master plot from the TGA mea­
+surements. Thereafter, it is compared with the theoretical master plots, 
+which reflects certain kinetics mechanisms and the closets are used to 
+determine the kinetics mechanisms of the studied sample. Some of these 
+kinetic mechanisms are order-based, nucleation, diffusion and geomet­
+rical contraction models, shown in Table 2. 
+Finally, the most common pressure dependence rate of many of 
+reversible solid-state decompositions, applicable to metal oxides redox 
+reactions can be presented as Eq. (5) [23]: 
+h(p) =
+(
+1 −
+PO2
+PO2eq(T)
+)m
+,
+(5) 
+Table 1 
+Reduction and oxidation reaction enthalpies of Mn2O3 found in literature and the ones obtained in this work for Mn2O3 and (Mn0.99Si0.01)2O3.  
+Authors 
+Experimental technique 
+Material 
+Gas flow [ml/min] 
+Reduction enthalpy [J/g] 
+Oxidation enthalpy [J/g] 
+Fritsch and Navrotsky [26] 
+transp. temp. drop calorimetry 
+Mn3O4 
+- 
+- 
+210.5 ± 7.6 
+Berbenni and Marini [27] 
+DSC 
+Mn3O4 
+100 – Air 
+127.84 
+124.96 
+Carrillo et al. [12] 
+DSC 
+Mn2O3 
+100 – Air 
+161.69 
+79.29 
+Carrillo et al. [13] 
+DSC 
+Mn2O3 
+100 – Air 
+160 - 170 
+130 - 60 
+Agrafiotis et al. [14] 
+DSC 
+Mn2O3 
+Air 
+138.6 - 84.6 
+- 
+Block et al. [10] 
+DSC 
+Mn2O3 
+80/20 - N2/O2 
+231 
+- 
+Agrafiotis et al. [28] 
+DSC 
+Mn2O3 
+Air 
+191 - 50 
+- 
+Andr´e et al. [29] 
+DSC 
+Mn2O3 
+20% O2/Ar 
+148 
+- 
+This work 
+DSC 
+Mn2O3 
+60 - Air 
+147.15 
+- 
+This work 
+DSC 
+(Mn1.98Si0.01)2O3 
+60 - Air 
+149.32 
+17.99  
+Fig. 4. Cycling stability over 80 reduction and oxidation cycles to (Mn0.99Si0.01)2O3 using 60 ml/min of air at a heating rate of 20 ◦C/min up to 1050 ◦C followed by 
+an isothermal step at 700 ◦C: a) weight changes in the TGA and b) SEM photograph after cycling. 
+Table 2 
+Algebraic Expressions for the f(α) functions for the most common mechanisms in 
+Solid-State Reactions.  
+Reaction 
+model 
+Code 
+Mechanism 
+f(x) 
+Mampel (nth 
+order) 
+F1 
+Random nucleation followed by an 
+instantaneous growth of nuclei 
+1-α 
+F2 
+(1-α)2 
+F3 
+(1-α)3 
+Power law 
+P2 
+Random nucleation and growth of nuclei 
+through different nucleation and 
+nucleus growth models 
+2α1/2 
+P3 
+3α2/3 
+P4 
+4α3/4 
+Avrami- 
+Erofeev 
+A2 
+2(1-α)[-ln 
+(1-α)]1/2 
+A3 
+3(1-α)[-ln 
+(1-α)]2/3 
+A4 
+4(1-α)[-ln 
+(1-α)]3/4 
+Diffusion 
+D1 
+Based on the penetration of reactant 
+molecules through a layer of product 
+1/2α-1 
+D2 
+[-ln(1-α)]−1 
+D3 
+3/2(1-α)2/ 
+3[1-(1-α)1/ 
+3]−1 
+D4 
+3/2[(1- 
+α)-1/3-1] 
+Contracting 
+cylinder 
+R2 
+Phase boundary-controlled reaction 
+2(1-α)1/2 
+Contracting 
+sphere 
+R3 
+3(1-α)2/3  
+D. Bielsa et al.                                                                                                                                                                                                                                   
+
+
+===== Page 6 =====
+
+Journal of Energy Storage 43 (2021) 103271
+6
+where PO2 is the experimental oxygen partial pressure, PO2eq(T) is the 
+oxygen equilibrium pressure, that only depends on the reaction tem­
+perature and the material under study, and the exponent m is the order 
+of the pressure dependence term. 
+The exponent m can be determined by taking natural logarithms in 
+both sides of Eq. (2), which leads to Eq. (6). Thereafter, applying the 
+isoconversional method for a given α at different gas pressures and 
+plotting both sides of Eq. (6), it is possible to obtain the exponent m from 
+the slope of the plot. 
+ln
+(dα
+dt
+)
+−ln(A) + Ea
+RT −ln(f(α)) = m⋅ln
+(
+1 −
+PO2
+PO2eq
+)
+.
+(6)  
+5. Reduction reaction rate modelling 
+In order to determine the kinetic parameters of the reduction reac­
+tion of (Mn0.99Si0.01)2O3 two different programs were carried out. The 
+first program consisted in five runs at different heating ramps under N2 
+atmosphere (pO2 approaching to zero) (Fig. 5a). Inert atmosphere was 
+used to avoid the influence of the pressure term h(p) on the reaction rate. 
+The second program consisted in five runs at 10 ◦C/min using different 
+oxygen partial pressures, ranging from 0.8 to 0.1 bar (Fig. 5b), aimed to 
+determine the influence of the pressure term h(p) on the reaction rate. 
+Then, using the STA experimental data and applying the Friedman 
+isoconversional method, it was possible to determine the Ea value. Fig. 6 
+plots the left term of Eq. (4) against 1000/T at different extent of 
+reduction reaction (α) and heating rates. Ea was determined from the 
+slope of the curves. 
+All the plots were almost linear and independently of the conversion 
+extent the corresponding activation energy showed quite stable values 
+with an average value of 341.726 ± 11.3 kJ/mol (Fig. S1). This value is 
+higher to the ones reported by Francis et al. (106.36 kJ/mol) [18], Botas 
+et al. (254.14 kJ/mol) [19] and Alonso et al. (303 kJ/mol) [20] for 
+Mn2O3. However, a slightly higher value was reported by Carrillo et al. 
+for a Mn-Fe mixed structure (371.2 kJ/mol), linking it to the observed 
+47 ◦C reduction onset temperature increase [15]. This fact is also 
+consistent with the 26 ◦C increase on the reduction onset temperature 
+observed in our samples. In order to provide more insights into this onset 
+temperature increase, the reduction of (Mn0.99Si0.01)2O3 was compared 
+to the reduction of pure Mn2O3 using the same temperature program 
+under N2 atmosphere in the STA. We observed that the reduction onset 
+temperature difference disappears in these conditions, occurring 
+approximately at 740◦C in both samples. Taking into consideration that 
+almost no oxidation is expected during this temperature programs, the 
+reduction onset temperature increase observed under air atmosphere in 
+the Si-doped sample (Fig. 2), may be explained by the counteracting 
+effect caused by the improvement of the oxidation reaction kinetics, 
+which delays the oxygen release detection to a higher temperature value 
+during the heating program. 
+Once the Ea was determined, it was possible to assess the reaction 
+mechanism using the so-called experimental master plots. Comparing the 
+different theoretical reaction models given in Table 2 with the data 
+gathered during thermogravimetric experiments, it could be observed 
+that it did not agree with any theoretical model (Fig. 7). The same 
+observation was reported by Pestalozzi and Carrillo et al., who proposed 
+the use of the Sestak-Berggren (SB) model to achieve better accuracy [21, 
+15]. The SB model is a mathematical description of most of the possible 
+solid-state reaction mechanisms, proposed by Sestak and Berggren in 
+1971 [33]. It uses an empirical formula with three exponents (n, m, and 
+p), which are properly selected to fit the resulting model curve to the 
+experimental results. In general, the SB model does not provide infor­
+mation regarding the mechanisms involved in the reaction but it con­
+stitutes a flexible tool to model almost any reaction process [34]. On the 
+other hand, the sigmoid-shape of the α plots shown in Fig. 5a and 5b are 
+commonly related to nucleation and growth mechanisms, which was also 
+observed by Francis and Alonso in their kinetic study of Mn2O3 reduction 
+reaction [18,20]. Nevertheless, further investigation is required to 
+ascertain the reaction mechanisms involved in the reduction reaction of 
+(Mn0.99Si0.01)2O3. Applying the SB model to our experimental data, it can 
+be observed that the SB function fits the experimental data when m = 0.1, 
+n = 1.15 and p = 0.05. Thus, f(α) can be written as: 
+Fig. 5. Reduction of (Mn0.99Si0.01)2O3: a) at 10, 15, 20, 25 and 30 ◦C/min heating rates in N2 and b) under O2 partial pressures ranging from 0.1 bar to 0.8 bar at 10 
+◦C/min. 
+Fig. 6. Friedman plots of (Mn0.99Si0.01)2O3 reduction reaction at different re­
+action extents (α). 
+D. Bielsa et al.                                                                                                                                                                                                                                   
+
+
+===== Page 7 =====
+
+Journal of Energy Storage 43 (2021) 103271
+7
+Fig. 7. Theoretical master plot curves based on the differential form and experimental data from TGA run at 20 ◦C/min fitted to SB function with m = 0.1, n = 1.15 
+and p = 0.05. 
+Fig. 8. Correlation between oxygen partial pressures and experimental reduction reaction onset values for (Mn0.99Si0.01)2O3 at different heating rates vs thermo­
+dynamic equilibrium temperatures for Mn2O3 given by Mattisson et al. [35]. 
+D. Bielsa et al.                                                                                                                                                                                                                                   
+
+
+===== Page 8 =====
+
+Journal of Energy Storage 43 (2021) 103271
+8
+f(α)red = α0.1⋅(1 −α)1.15⋅[−ln(1 −α)]0.05.
+(7) 
+Once f(α) was determined, it was possible to calculate the last term of 
+the so-called “kinetic triplet” from Eq. (4), which is the pre-exponential 
+factor A. It was determined by numerical curve fitting based on a 
+minimization of the sum of error squares, resulting in an average value 
+equal to 3.8⋅1015 min−1. 
+In the final step, the dependence of the reaction rate on the gas 
+pressure, associated to the exponent m in the term h(p,) was identified 
+using dynamic measurements in different O2/N2 gas atmospheres. In 
+order to get different O2 partial pressures, O2 and N2 different gas flows 
+were introduced in the STA instrument at the same time. The total gas 
+flow rate used was 100 mL/min, varying the O2 and N2 gas flow rates 
+from 100 ml/min to 10 ml/min, resulting in a O2/(N2+O2) content ratio 
+variation from 1 to 0.1. Firstly, it was required to identify the denomi­
+nator of Eq. (5) (PO2 eq(T)), which correlates the oxygen partial pressure 
+and the equilibrium temperature. For that purpose, six runs at 20 ◦C/ 
+min, 2 ◦C/min and 1 ◦C/min at different partial pressures were carried 
+out. The equilibrium temperature of the reaction was calculated plotting 
+the different curves at the same partial pressure and extending the 
+resulting trend to a heating rate close to 0 ◦C/min (Fig. S2). In a similar 
+approach, Wokon et al. used an exponential trend plot [24], nevertheless 
+we found that a power function trend given by Eq. (8) fitted better with 
+the equilibrium temperatures given by Mattison et al. for Mn2O3 [35]. 
+PO2 eq red = 8⋅107⋅e
+−23.13
+(
+1000
+T
+)
+.
+(8) 
+The corresponding results of Eq. (8) at different temperatures are 
+showed in a Van’t Hoff plot (Fig. 8), together with the values reported by 
+Mattisson et al. for Mn2O3. The resulting onset temperatures of the 
+reduction reactions present very similar values compared to the values 
+reported by Mattisson et al., nevertheless, taking into consideration the 
+methodology used, these values should be taken only as an approxi­
+mation for the purpose of the present work. 
+Henceforth and in order to determine the exponent m, dynamic 
+measurements at 10 ◦C/min at several oxygen partial pressures ranging 
+from 0.8 to 0.1 bar have been used in this work (Fig. 5b). Plotting both 
+sides of Eq. (6) and applying the isoconversional method for different α, 
+the exponent m was obtained from the slope of the resulting curve 
+(Fig. S3), returning an average value of 7.05. 
+Based on the previous calculations, the resulting reaction rate model 
+equation for the reduction step of (Mn0.99Si0.01)2O3 is represented by the 
+following expression: 
+Thereafter, Fig. 9a illustrates the corresponding comparison between 
+the experimental results and the predictions obtained from Eq. (9), con­
+cerning the reduction of (Mn0.99Si0.01)2O3 in N2 at different heating rates. 
+On the other hand, Fig. 9b depicts the comparison between the model 
+predictions and the experimental results at different O2 partial pressures. 
+From the plots, we can extract that the model predictions fit correctly 
+during most of the reaction conversion extent, without significant errors 
+on the predictions. We found small deviations of the predicted values for α 
+> 0.8, which increase with increasing oxygen partial pressure. These 
+deviations may be explained by the fact that initially, the reaction rate 
+may be controlled mainly by nucleation and growth mechanisms, but as 
+reaction proceeds, if the oxygen is not properly removed by the flowing 
+gas, there is an increase in the oxygen concentration around the particles. 
+Therefore, the oxygen partial pressure increases locally inside the sample 
+and the reaction becomes closer to the equilibrium, turning the slower 
+external oxygen diffusion into the controlling reaction mechanism, 
+decreasing the reaction rate. As the difference to equilibrium decreases 
+with increasing gas partial pressure (see Fig. 8), this effect is larger in the 
+case of oxygen rich environments. This fact was also reported by Hamidi 
+et al. [25], Varsano et al. [36] and Schoenfelder and Swisher [37] and 
+may be attributable to the measuring conditions induced by the common 
+laboratory analyzers used (TGA and STA). 
+Fig. 9. Comparison between experimental data and model prediction results for reduction of (Mn0.99Si0.01)2O3: a) at different heating rates in N2 (PO2 = 0), and b) at 
+different O2 partial pressures. Continuous lines correspond to experimental data and doted lines to model predictions. 
+dαred
+dt
+= 3.8⋅1015 min−1 ⋅e
+⎛
+⎜
+⎝−
+341.72 kJ
+mol
+RT
+⎞
+⎟
+⎠
+α0.1⋅(1 −αred)1.15 ⋅[ −ln(1 −αred)]0.05 ⋅
+⎛
+⎜
+⎜
+⎝1 −
+PO2
+8⋅107⋅e
+−23.13
+(
+1000
+T
+)
+⎞
+⎟
+⎟
+⎠
+7.05
+(9)   
+D. Bielsa et al.                                                                                                                                                                                                                                   
+
+
+===== Page 9 =====
+
+Journal of Energy Storage 43 (2021) 103271
+9
+6. Oxidation reaction rate modelling 
+In order to obtain the kinetic parameters concerning the oxidation 
+reaction of (Mn0.99Si0.01)2O3, two sets of isothermal programs were 
+used. The first one consisted on five oxidation isothermal steps at 
+different temperatures ranging from 650 ◦C to 750 ◦C under O2 atmo­
+sphere (pO2 approaching to 100%). The α-time plots of the oxidation 
+reactions are illustrated in Fig. 10a. The second program consisted on six 
+isothermal oxidation steps at 675 ◦C under different oxygen partial 
+pressures, ranging from 1 bar to 0.1 bar (Fig. 10b). In both set of pro­
+grams, to prevent any material oxidation during the cooling step, the 
+material was reduced firstly under N2 atmosphere and the gas was 
+switched to the relevant N2/O2 mixture once the isothermal condition 
+was stabilized, 5 min after reaching the target temperature. 
+In case of isothermal experiments, the reaction model can be assessed 
+by applying the master plots method regardless of the Ea [30]. Hence, 
+comparing the different theoretical reaction models in the differential 
+form (Table 2) with the thermogravimetric experimental data, no good 
+match is found in the whole extent of reaction. This fact raises some 
+difficulties to determine a reliable reaction mechanism from these plots 
+(Fig. S4). The experimental curve approximates to an Avrami-Erofeev 
+model during the first 2/3 of reaction, while for higher extent of con­
+version, it fits better to a diffusion model, meaning that there may be a 
+change on the reaction controlling step for α > 0.8. The particular 
+configuration of the testing instrument and crucible geometry where the 
+oxygen intake proceeds only through the top of the sample, may be one 
+of the reasons behind this change in the reaction controlling step. Pes­
+talozzi demonstrated how different crucible geometries and gas flow 
+directions may alter the reaction kinetics of Mn2O3 [21]. To confirm this 
+statement, a homemade tubular reactor will be constructed and tested in 
+a following work. In order to find a single and accurate expression for f 
+(α), a SB empiric model was used to approach to the oxidation experi­
+mental data. Fig. 11 depicts the comparison of the oxidation at 700 ◦C 
+between the experimental master plots with theoretical A2, D3 and SB 
+Fig. 10. Oxidation of (Mn0.99Si0.01)2O3: a) at 750, 725, 700, 675 and 650 ◦C in O2 and b) at 1, 0.8, 0.6, 0.4, 0.2 and 0.1 bar of oxygen partial pressure at 675 ◦C.  
+Fig. 11. Comparison between master plot built with oxidation experimental data from STA at 700 ◦C and theoretical Avrami-Erofeev A2 model, D3 model and SB 
+function with m = 2.7, n = 0.5 and p = -1.85. 
+D. Bielsa et al.                                                                                                                                                                                                                                   
+
+
+===== Page 10 =====
+
+Journal of Energy Storage 43 (2021) 103271
+10
+model (fitted with m = 2.7, n = 0.5 and p = -1.85). As can be deduced 
+from the plots, the SB model gets a better match with the experimental 
+data. Therefore, f(α) can be written as Eq. (10). 
+f(α)ox = α2.7⋅(1 −α)0.5⋅[−ln(1 −α)]−1.85.
+(10) 
+In the case of the oxidation reaction, the determination of a unique Ea 
+value for a broad range of temperatures using the Friedman isoconver­
+sional method may lead to an inaccurate kinetic model. Nonlinearity of 
+Arrhenius plots close to the equilibrium temperature has been reported 
+for nucleation driven phase transitions in reversible processes [38]. A. J. 
+Carrillo et al. observed, in their work regarding the investigation of 
+(Mn0.8Fe0.2)2O3 reaction kinetics in air, a significant kinetic deceleration 
+of the oxidation reaction when approaching to the reaction equilibrium 
+conditions. In their Friedman isoconversional plot, the curve presented 
+two different behavior zones, one up to 725 ◦C following an Arrhenius 
+behavior with an average Ea value of 74 kJ/mol, and another from 725 
+◦C up to 800 ◦C with a positive slope, turning into a negative Ea value 
+[15]. Considering these results, they provided a SB kinetic model only 
+valid for temperatures below 725 ◦C, far from equilibrium conditions, 
+corresponding to the Arrhenius behavior. This zone close to the equi­
+librium conditions belongs to the so-called ‘technical hysteresis’ and is 
+characteristic of some metal oxides. In this zone, the effective reaction 
+rate is almost negligible meaning that the forward and backward reac­
+tion rates become similar. In addition, it has been shown that the re­
+action behavior under the technical hysteresis zone maintains a strong 
+relationship with the oxygen partial pressure, especially significant in 
+the case of the oxidation reaction [24]. This material behavior in the 
+hysteresis zone has been barely studied, Shenouda and Aziz ascribed it 
+mainly to particle shrinkage [39], where oxygen diffusion into the lat­
+tice encounters physical barriers that limit the rate of the reactions, but 
+further work is required to find an appropriate model to replicate the 
+material response within this zone. Studying a similar manganese-iron 
+oxide composition, Wokon et al. deduced a SB oxidation reaction ki­
+netic model for (Mn0.75Fe0.25)2O3, providing satisfactory predictions in a 
+higher temperature range than Carrillo, between 805.2 and 891.2 ◦C and 
+pressures between 0.15 and 0.4 bar. In this temperature range, the 
+material still presented an Arhenious behavior providing an Ea value in 
+air of 463.53 kJ/mol. It is worth to say that Wokon et al. used granulated 
+particle sizes between 1 to 3 mm, while the material used by Carrillo 
+et al. was in the form of fine powder. Higher particle size has been shown 
+to increase the oxidation reaction onset temperature [13] and therefore, 
+it may become the main reason of the technical hysteresis reduction 
+observed in the work of Wokon et al.. On the other hand, the Ea was 
+obtained at temperatures 3 times closer to equilibrium compared to that 
+of Carrillo, which may explain the high difference in the Ea value. These 
+results are in agreement with the work of Liavitskaya and Vyazovkin 
+where they demonstrated the dependencies between the activation en­
+ergy and temperature, over dehydration reversible reactions [40]. In 
+order to reproduce this relationship in a prediction model, they intro­
+duced the isoconversional activation energy value Eα, according to Eq. 
+(11), which permits establishing a link between the effective activation 
+energy of the overall process and other parameters of the individual 
+steps such as temperature and pressure. 
+Ea(p) = Ea + ΔHr
+PO2eq
+PO2eq −
+PO2
+(11) 
+Considering these findings, in our work, to determine an effective 
+activation energy representing a broader range of temperatures and 
+partial pressures, we applied the isoconversional activation energy 
+concept to our results. Firstly, we followed the Friedman isoconversional 
+method to obtain the Ea in a temperature range far from the equilibrium 
+(954 ◦C in O2), trying to avoid the effect of the technical hysteresis zone. 
+Then, to include the effect of the partial pressure, we applied the 
+correction factor given by Liavitskaya and Vyazovkin in Eq. (11) to 
+obtain Eα. The determination of the correction factor requires previous 
+determination of the oxidation reaction equilibrium pressures and re­
+action enthalpy (ΔHr). 
+Then, in order to obtain an Ea value far from equilibrium, we applied 
+the Friedman isoconversional method using the experimental oxidation 
+results at different isothermal conditions under O2. Fig. 12 depicts the 
+left term of Eq. (4) versus 1/T at different α values, Ea is obtained from 
+the slope of the curve. Regardless of the conversion state, all the curves 
+Fig. 12. Friedman plots of (Mn0.99Si0.01)2O3 oxidation reaction at different reaction extents (α).  
+D. Bielsa et al.                                                                                                                                                                                                                                   
+
+
+===== Page 11 =====
+
+Journal of Energy Storage 43 (2021) 103271
+11
+present a kinetic exponential trend up to ≈700 ◦C, followed by a slope 
+change at 730 ◦C, which means entering into the hysteresis zone, similar 
+to the behavior reported by Carrillo et al. in their study concerning a 
+similar sample morphology [15]. Ea is determined from the slope of the 
+Arrhenius zone, before the slope starts to decay, corresponding to tem­
+peratures below 700 ◦C and presented a stable value of 120.42 ±17 
+kJ/mol (Fig. S5). The Ea values reported by Wokon et al. (463.53 
+kJ/mol) and Carrillo et al. (74 kJ/mol) corresponded to manganese iron 
+oxides, so they can be taken only as a reference. Compared to our 
+measurements, they were measured closer and farther to equilibrium 
+conditions, respectively, so our result that lies in between, may agree 
+with the statement given by Liavitskaya and Vyazovkin, regarding the 
+decrease of the Ea with increasing temperature difference to the 
+equilibrium. 
+To determine the reaction enthalpy (ΔHr), it is necessary to identify 
+the oxidation reaction equilibrium conditions. For this purpose, several 
+programs at different cooling rates under different oxygen atmospheres 
+were launched. The corresponding correlations between oxygen partial 
+pressures and experimental reaction temperature threshold values at 
+different cooling rates are plotted in Fig. S6 and derives to the power 
+function formula showed in Eq. (12). Extrapolating the power trend to a 
+cooling rate approaching 0 ◦C/min, we obtained the equilibrium tem­
+perature at different oxygen partial pressures depicted in a Van’t Hoff 
+diagram (Fig. 13) together with the equilibrium values reported by 
+Mattisson et al. for Mn2O3 [35]. It can be observed that the resulting 
+onset temperatures of the oxidation reaction of (Mn0.99Si0.01)2O3 are far 
+away from the values reported by Mattisson et al., which was also 
+observed by Wokon et al. in their kinetic study of (Mn0.75Fe0.25)2O3. 
+They attributed this difference to a profound slowdown of the oxidation 
+reaction when approaching to the equilibrium [24], which was also 
+observed in our work (Fig. 12). Hence, the parametrization of PO2eq(T) 
+proposed and represented by Eq. (12), cannot be identified as thermo­
+dynamic equilibrium of the (Mn0.99Si0.01)2O3 system and it is only used 
+for the purpose of this work. 
+PO2 eq ox = 5⋅106⋅e
+−18.87
+(
+1000
+T
+)
+.
+(12) 
+Thereafter, using the equilibrium approximation values given by Eq. 
+(12), ΔHr has been calculated plotting the logarithmic partial pressures 
+(PO2eq/PO2) against the reciprocal temperatures at thermodynamic 
+equilibrium, according to Van’t Hoff equation (Fig. S7). This plot gives a 
+linear plot, which slope is proportional to the standard reaction 
+enthalpy, obtaining a value of 156.88 kJ/mol, which is very similar to 
+the values obtained in the STA measurements. 
+Based on these results, Eα(P) can be represented by the following 
+expression: 
+Eα(P) = −120.42 + 156.88
+PO2eq
+PO2eq −PO2
+.
+(13) 
+Finally, introducing the previous calculations in Eq. (2), the oxida­
+tion reaction rate model returns the following expression: 
+dαox
+dt = 1.7⋅107 min−1 ⋅e
+(
+−
+Eα(P)
+RT
+)
+⋅α2.7
+ox ⋅(1 −αox)0.5 ⋅[ −ln(1 −αox)]−1.85.
+(14) 
+Fig. 14a and 14b illustrate the corresponding experimental results 
+and the predictions obtained from Eq. (14) concerning the oxidation of 
+(Mn0.99Si0.01)2O3 in O2 at different isothermal programs (Fig. 10a) and 
+at different O2 partial pressures under isothermal conditions at 675 ◦C 
+(Fig. 10b). Examining the model results, there is a good match between 
+the experimental and model results even at temperatures closer to the 
+equilibrium. The model is able to predict the reaction kinetics in the 
+whole range of examined temperatures and partial pressures, modelling 
+accurately the kinetics acceleration and deceleration when approaching 
+to the hysteresis zone. Nevertheless, the effective reaction rate un­
+dergoes a strong deceleration for temperatures above 750◦C that may 
+not be reproduced by Eq. (14), so a deeper insight into the hysteresis 
+Fig. 13. Correlation between oxygen partial pressures and experimental oxidation reaction onset values for (Mn0.99Si0.01)2O3 at different cooling rates. Thermo­
+dynamic equilibrium temperatures for Mn2O3 given by Mattisson are included [35]. 
+D. Bielsa et al.                                                                                                                                                                                                                                   
+
+
+===== Page 12 =====
+
+Journal of Energy Storage 43 (2021) 103271
+12
+zone would be required to get a model able to accurately represent the 
+material behavior under the whole hysteresis zone. It is worth to add, 
+that the model predictions present small deviations for α > 0.8, which 
+may be attributable to the identified change in the reaction controlling 
+mechanism. We found that for a high extent of conversion the diffusion 
+mechanism may become the controlling step of the reaction, where 
+applying SB models have been shown to lead to some inaccuracies [41]. 
+7. Conclusions 
+In this work, (Mn0.99Si0.01)2O3 was studied for thermochemical en­
+ergy storage in concentrated solar power plants. The results from ther­
+mogravimetric analysis was compared to the behaviour of pure Mn2O3, 
+showing a slight increase in the reaction onset temperatures with no 
+significant variation of the energy storage density (147.15 – 149.32 J/g). 
+Nevertheless, the main difference observed was the much faster and 
+stable oxidation reaction kinetics of (Mn0.99Si0.01)2O3 under air atmo­
+sphere, which led to a consistent reversibility under an 80 redox cycles 
+program in a thermobalance. Subsequently, a complete study of reduc­
+tion and oxidation kinetics of (Mn0.99Si0.01)2O3 was carried out, trying to 
+ascertain accurately the three components of the reaction rate equations, 
+namely k(T), f(α) and h(P). The resulting modelling expressions showed a 
+satisfactory kinetic parametrization of each process, suitable for future 
+thermochemical reactor modelling. Our modelling results show that 
+nucleation and growth mechanism is the controlling step of the reduction 
+and oxidation reactions up to 80% conversion. After that, the reaction 
+rates are either controlled by the slower external or internal diffusion of 
+oxygen, that may be imposed by the limited capacity of the testing cru­
+cibles and instruments to bring or remove oxygen in and out the sample, 
+which would probably not happen in a tubular reactor. The oxidation 
+kinetics is highly affected by the equilibrium conditions and presents a 
+temperature threshold while cooling with a substantial change on the 
+activation energy. This fact can lead to inaccurate models if a unique 
+value of the activation energy is selected and used for parametrization of 
+the reaction rate and reactor modelling. For an accurate determination of 
+the oxidation kinetic model, the recent developed concept of ‘iso­
+conversional activation energy’ has been applied, obtaining accurate 
+results in the whole range of temperatures and pressures studied in this 
+work. Overall, the developed methodology demonstrates a full flexibility, 
+accuracy and improved capabilities able to simulate different operation 
+conditions, in novel concentrated solar power plants environments with 
+the corresponding boundaries and requirements. In addition, the meth­
+odology and findings showed in this work may be applicable not only to 
+the material under study, but also to other similar systems and thermo­
+chemical energy storage materials as well. 
+Declaration of Competing Interest 
+As a corresponding author I am signing on behalf of the authors 
+whose names are listed below certify that they have no affiliations with 
+or involvement in any organization or entity with any financial interest 
+(such as honoraria; educational grants; participation in speakers’ bu­
+reaus; membership, employment, consultancies, stock ownership, or 
+other equity interest; and expert testimony or patent-licensing ar­
+rangements), or non-financial interest (such as personal or professional 
+relationships, affiliations, knowledge or beliefs) in the subject matter or 
+materials discussed in the submitted manuscript entitled: 
+Acknowledgements 
+This work has been supported by the Department of Economic 
+Development and Infrastructures of the Basque government, through the 
+funding of the ELKARTEK CIC Energigune-2017 research program. The 
+authors express their sincere thanks to Cristina Luengo, Leticia Martínez 
+and Yagmur Polat for their technical support. 
+Supplementary materials 
+Supplementary material associated with this article can be found, in 
+the online version, at doi:10.1016/j.est.2021.103271. 
+References 
+[1] G. Alva, L. Liu, X. Huang, G. Fang, Thermal energy storage materials and systems 
+for solar energy applications, Renewable and Sustainable Energy Reviews 68 
+(2017) 693–706. 
+[2] P. Krishnamurthy, S. Mishra, R. Banerjee, An analysis of costs of parabolic trough 
+technology in India, Energy Policy 48 (2012) 407–419. 
+[3] A.J. Carrillo, J. Gonz´alez-Aguilar, M. Romero, J.M. Coronado, Solar Energy on 
+Demand: A Review on High Temperature Thermochemical Heat Storage Systems 
+and Materials, Chem. Rev. 119 (7) (2019) 4777–4816. 
+[4] C. Corgnale, B. Hardy, T. Motyka, R. Zidan, J. Teprovich, B. Peters, Screening 
+analysis of metal hydride based thermal energy storage systems for concentrating 
+solar power plants, Renewable and Sustainable Energy Reviews 38 (2014) 
+821–833. 
+[5] F. Schaube, A. W¨orner, R. Tamme, High Temperature Thermochemical Heat 
+Storage for Concentrated Solar Power Using Gas–Solid Reactions, J. Sol. Energy 
+Eng. 133 (3) (2011), 031006-031006-7. 
+[6] K.G. Sakellariou, N.I. Tsongidis, G. Karagiannakis, A.G. Konstandopoulos, D. Baciu, 
+G. Charalambopoulou, T. Steriotis, A. Stubos, W. Arlt, Development and evaluation 
+Fig. 14. Comparison between experimental data and model prediction results during oxidation of (Mn0.99Si0.01)2O3: a) at different isothermal programs in O2 (PO2 =
+100), and b) at different O2 partial pressures at 675 ◦C. Continuous lines correspond to experimental data and doted lines to model predictions applying Eq. 14. 
+D. Bielsa et al.                                                                                                                                                                                                                                   
+
+
+===== Page 13 =====
+
+Journal of Energy Storage 43 (2021) 103271
+13
+of materials for thermochemical heat storage based on the CaO/CaCO3 reaction 
+couple, AIP Conference Proceedings 1734 (2016), 050040. 
+[7] B. Wong, "Thermochemical Heat Storage for Concentrated Solar Power. Final 
+Report for the U.S. Department of Energy," in http://www.osti.gov/scitech/, 
+Berlin, 2010. 
+[8] M. Romero, A. Steinfeld, Concentrating solar thermal power and thermochemical 
+fuels, Energy Environ. Sci. 5 (2012) 9234. 
+[9] A J Carrillo, D Sastre, D P Serrano, P Pizarro, J M Coronado, Revisiting the BaO2/ 
+BaO redox cycle for solar thermochemical energy storage, Physical Chemistry 
+Chemical physics 18 (2016) 8039–8048, a. 
+[10] T. Block, M. Schmücker, Metal oxides for thermochemical energy storage: A 
+comparison of several metal oxide systems, Solar Energy 126 (2016) 195–207. 
+[11] C Agrafiotis, M Roeb, M Schmücker, C Sattler, Exploitation of thermochemical 
+cycles based on solid oxide redox systems for thermochemical storage of solar heat. 
+Part 1: Testing of cobalt oxide-based powders, Solar Energy 102 (2014) 189–211. 
+[12] A.J. Carrillo, J. Moya, A. Bay´on, P. Jana, V.A. de la Pe˜na O’Shea, M. Romero, 
+J. Gonzalez-Aguilar, D. P.Serrano, P. Pizarro, J. M.Coronado, Thermochemical 
+energy storage at high temperature via redox cycles of Mn and Co oxides: Pure 
+oxides versus mixed ones, Solar Energy Materials & Solar Cells 123 (2014) 47–57, 
+a. 
+[13] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Thermochemical heat 
+storage based on the Mn2O3/Mn3O4 redox couple: influence of the initial particle 
+size on the morphological evolution and cyclability, J. Mater. Chem. A 2 (2014) 
+19435–19443, b. 
+[14] C. Agrafiotis, M. Roeb, C. Sattler, Exploitation of thermochemical cycles based on 
+solid oxide redox systems for thermochemical storage of solar heat. Part 4: 
+Screening of oxides for use in cascaded thermochemical storage concepts, Solar 
+Energy 139 (2016) 695–710. 
+[15] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Understanding Redox 
+Kinetics of Iron-doped Manganese Oxides for High Temperature Thermochemical 
+Energy Storage, The Journal of Physical Chemistry C 120 (49) (2016) 
+27800–27812, b. 
+[16] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Improving the 
+Thermochemical Energy Storage Performance of the Mn2O3/Mn3O4 Redox 
+Couple by the Incorporation of Iron, ChemSusChem 8 (2015) 1947–1954. 
+[17] D. Bielsa, A. Zaki, Pedro L. Arias, A. Faik, Improving the redox performance of 
+Mn2O3/Mn3O4 pair by Si doping to be used as thermochemical energy storage for 
+concentrated solar power plants, Solar Energy 204 (2020) 144–154. 
+[18] T.M. Francis, P.R. Lichty, A.W. Weimer, Manganese oxide dissociation kinetics for 
+the Mn2O3 thermochemical water-splitting cycle. Part 1: Experimental, Chemical 
+Engineering Science 65 (2010) 3709–3717. 
+[19] J.A. Botas, J. Marugan, R. Molina, C. Herradon, Kinetic modelling of the first step 
+of Mn2O3/MnO thermochemical cycle for solar hydrogen production, 
+International journal of hydrogen energy 37 (2012) 18661–18671. 
+[20] E. Alonso, C. Hutter, M. Romero, A. Steinfeld, J. Gonzalez-Aguilar, Kinetics of 
+Mn2O3−Mn3O4 and Mn3O4−MnO Redox Reactions Performed under 
+Concentrated Thermal Radiative Flux, Energy Fuels 27 (8) (2013) 4884–4890. 
+[21] F. Pestalozzi, Master Thesis: Experimental Investigation of Mn-Based Redox 
+Reaction Kinetics for Thermochemical Energy Storage, ETH, 2013. March. 
+[22] I.A. Al-Shankiti, B.D. Ehrhart, B.J. Ward, A. Bayon, M.A. Wallace, R. Bader, 
+P. Kreider, A.W. Weimer, Particle design and oxidation kinetics of iron-manganese 
+oxide redoxmaterials for thermochemical energy storage, Solar Energy 183 (2019) 
+17–29. 
+[23] S. Vyazovkin, Kinetic effects of pressure on decomposition of solids, International 
+Reviews in Physical Chemistry 39 (1) (2020) 35–66. 
+[24] M. Wokon, T. Block, S. Nicolai, M. Linder, M. Schmücker, Thermodynamic and 
+kinetic investigation of a technical grade manganese-iron binary oxide for 
+thermochemical energy storage, Solar Energy 153 (2017) 471–485. 
+[25] M. Hamidi, A. Bayon, V.M. Wheeler, P. Kreider, M.A. Wallace, T. Tsuzuki, 
+K. Catchpole, A.W. Weimer, Reduction kinetics for large spherical 2:1 
+iron–manganese oxide redox materials for thermochemical energy storage, 
+Chemical Engineering Science 201 (2019) 74–81. 
+[26] S. Fritsch, A. Navrotski, Themodinamic properties of manganese oxides, J. Am. 
+Ceram. Soc. 79 (7) (1996) 1761–1768. 
+[27] V. Berbenni, A. Marini, Oxidation behaviour of mechanically activated Mn3O4 by 
+TGA/DSC/XRPD, Materials Research Bulletin 38 (2003) 1859–1866. 
+[28] C. Agrafiotis, T. Block, M. Senholdt, S. Tescari, M. Roeb, C. Sattler, Exploitation of 
+thermochemical cycles based on solid oxide redox systems for thermochemical 
+storage of solar heat. Part 6: Testing of Mn-based combined oxides and porous 
+structures, Solar Energy 149 (2017) 227–244. 
+[29] Laurie Andr´e, St´ephane Abanades, Laurent Cassayre, High-temperature 
+thermochemical energy storage based on redox reactions using Co-Fe and Mn-Fe 
+mixed metal oxides, Journal of Solid State Chemistry 253 (2017) 6–14. 
+[30] S. Vyazovkin, A.K. Burnham, J.M. Criado, L.A. P´erez-Maqueda, C. Popescu, 
+N Sbirrazzuoli, ICTAC Kinetics Committee recommendations for performing kinetic 
+computations on thermal analysis data, Thermochim. Acta 520 (2011) 1–19. 
+[31] J. Marugan, J.A. Botas, M. Martın, R. Molina, C. Herradon, Study of the first step of 
+the Mn2O3/MnO thermochemical cycle for solar hydrogen production, 
+international journal of hydrogen energy 37 (2012) 7017–7025. 
+[32] H.L. Friedman, Kinetics of thermal degradation of char-forming plastics from 
+thermogravimetry. Application to a phenolic plastic, Polym. Sci. Part C 6 (1964) 
+183–195. 
+[33] J. ˇSest´ak, G. Berggren, Study of the kinetics of the mechanism of solid-state 
+reactions at increasing temperatures, Thermochimica Acta 3 (1) (1971) 1–12. 
+[34] P. Simon, Fourty years of the Sest´ak–Berggren equation, Thermochimica Acta 520 
+(2011) 156–157. 
+[35] T. Mattisson, A. Lyngfelt, H. Leion, Chemical-looping with oxygen uncoupling for 
+combustion of solid fuels, International journal of greenhouse gas control 3 (2009) 
+11–19. 
+[36] Francesca Varsano, Carlo Alvani, Aurelio La Barbera, Andrea Masi, Franco Padella, 
+Lithium manganese oxides as high-temperature thermal energy storage system, 
+Thermochimica Acta 640 (2016) 26–35. 
+[37] C.W. Schoenfelder, J.H. Swisher, Kinetics of Thermal Decomposition of TiH2, J Vac 
+Sci Technol 10 (1973) 862–870. 
+[38] S. Vyazovkin, Recent Advances, Techniques and Applications, Vol.5. The 
+Handbook of Thermal Analysis & Calorimetry, 1st ed., Elsevier, Amsterdam, 2008. 
+[39] F. Shenouda, S. Aziz, Equilibria and hysteresis in the system Mn2O3-Mn3O4-O2, 
+Journal of Applied Chemistry 17 (1967) 258–262. 
+[40] T. Liavitskaya, S. Vyazovkin, Delving into the Kinetics of Reversible Thermal 
+Decomposition of Solids Measured on Heating and Cooling, J. Phys. Chem. C 121 
+(28) (2017) 15392–15401. 
+[41] N. Sbirrazzuoli, Determination of pre-exponential factors and of the mathematical 
+functions f( ̨ ) or G( ̨ ) that describe the reaction mechanism in a model-free way, 
+Thermochimica Acta 564 (2013) 59–69. 
+D. Bielsa et al.                                                                                                                                                                                                                                   

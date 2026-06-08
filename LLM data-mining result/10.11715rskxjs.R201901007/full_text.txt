@@ -1,0 +1,753 @@
+
+
+===== Page 1 =====
+
+燃烧科学与技术 
+Journal of Combustion Science and Technology 
+2020，26(1)：75-80
+DOI 10.11715/rskxjs.R201903014
+ 
+  收稿日期：2019-03-12． 
+  基金项目：国家自然科学基金资助项目(51976184；91841302)；中央高校基本科研业务费资助项目(2019FZA4025)． 
+  作者简介：叶沉然（1993—  ），男，硕士研究生，yechenran@zju.edu.cn. 
+  通信作者：王高峰，男，博士，副教授，gfwang@zju.edu.cn. 
+ 
+ 
+ 
+涡轮导叶对环形燃烧室点火的影响 
+ 
+叶沉然，王高峰，方元祺，马承飚 
+(浙江大学航空航天学院，杭州310027) 
+ 
+摘 要：在TurboCombo 实验平台上实验研究了涡轮导叶对环形燃烧室点火过程的影响．采用高速相机观察记录
+火焰周向传播过程以及火焰与涡轮导叶的耦合作用．分析对比了不同当量比、热功率及主流速度条件下带涡轮导
+叶的环形燃烧室与独立环形燃烧室点火过程的异同与周向点火时间．实验结果表明，两种构型下的周向点火过程
+基本相似，但相同条件下带涡轮导叶的环形燃烧室相较于独立的环形燃烧室周向点火时间更短．考虑了湍流褶皱
+及燃后气体膨胀效应后，预估了周向火焰传播速度并与实验结果在较大雷诺数下吻合得较好． 
+ 
+关键词：环形燃烧室；涡轮导叶；周向点火 
+中图分类号：V23       文献标志码：A       文章编号：1006-8740(2020)01-0075-06 
+ 
+Ignition Dynamics in Annular Combustor  
+with Turbine Guide Vanes 
+ 
+Ye Chenran，Wang Gaofeng，Fang Yuanqi，Ma Chengbiao 
+(School of Aeronautics and Astronautics，Zhejiang University，Hangzhou 310027，China) 
+ 
+Abstract：Ignition dynamics in an annular combustor with turbine guide vanes was experimentally studied on a 
+TurboCombo platform．High-speed cameras were used to observe and record the light-round sequence and the 
+interaction between flame and turbine guide vanes．The light-round sequence and the light-round time were com-
+pared between the annular combustor with or without turbine guide vanes at different equivalence ratios，thermal 
+powers and bulk velocities．The experimental results indicate that the light-round sequences are similar in the two 
+configurations，but the annular combustor with turbine guide vanes features shorter light-round time in the same 
+condition．With the turbulent wrinkling and burnt gas expansion effect considered，the circumferential flame 
+speed was estimated，which fitted the experimental results well at a larger Reynolds number． 
+ 
+Keywords：annular combustor；turbine guide vane；light-round 
+ 
+点火问题由于关乎到整个航空发动机的安全及
+可靠性，一直是研究的热点领域．而环形燃烧室因其
+结构紧凑、重量轻等优点，在航空发动机中被广泛采
+用．对于独立环形燃烧室的周向点火过程，国内外已
+经取得了一定的进展．剑桥大学的Bach 等[1]最初搭
+建了一个具有18 个旋流喷嘴的环形燃烧室模型，并
+在其上进行了点火实验研究．研究发现，相较于单纯
+的周向传播模式，火焰在两相邻喷嘴之间的传播更接
+ 
+万方数据
+
+
+===== Page 2 =====
+
+燃烧科学与技术 
+第26 卷 第1 期
+ 
+ 
+— 76 — 
+近于一种“锯齿形”的传播模式．之后，Machover 
+等[2-3]对模型做了改进，并分别针对预混燃烧和非预
+混燃烧进行研究．对于非预混模式，他们发现吹熄边
+界比点火边界宽得多，但随着喷嘴间距的减小，两者
+逐渐靠拢．由于旋流的影响，两侧火焰的传播速度存
+在差异，并且减小喷嘴间距或是增大当量比都会加速
+火焰传播．针对预混模式，发现增加旋流，增大主流
+速度，增大当量比都会使得火焰传播加速，并且比较
+不同当量比下的实验结果，得出燃后气体膨胀效应是
+加速火焰传播的主要因素．巴黎中央理工大学的
+EM2C 实验室也搭建了名为MICCA 的环形燃烧室
+模型．Bourgouin 等[4]在研究周向点火时同样发现了
+燃后气体膨胀效应和燃烧共同决定了实际火焰传播
+速度．Philip 等[5-7] 运用大涡模拟(LES) 复现了
+MICCA 中的周向点火过程，并在火焰结构及火焰传
+播位置上都与实验结果吻合得较好．上述实验均采
+用了气体燃料，与实际航空煤油差异较大，因此
+Prieur 等[8]改进了旋流喷嘴，发展了MICCA-Spray 环
+形燃烧室模型，并在其上比对了丙烷气体燃料，庚烷
+及十二烷液体燃料的周向点火特性．实验发现虽然3
+种燃料的周向点火过程近似，但受液体燃料挥发特性
+的影响，特别是十二烷与丙烷相比周向点火时间显著
+变长．国内浙江大学的令狐昌鸿等[9]搭建了类似的预
+混环形燃烧室模型，在同一燃烧室模型中对比了先点
+火后通燃料以及先通燃料后点火两种点火模式下的
+周向点火过程．发现先通燃料后点火模式下周向点
+火时间较短，并且点火过程也更稳定．叶沉然等[10-11]
+通过改变喷嘴的入射角度在环形燃烧室中引入了周
+向速度分量进行实验，在周向速度分量的作用下，火
+焰传播特性发生了显著改变，特别是在先点火后通燃
+料模式下，火焰仅沿着周向速度分量方向单向传播． 
+但以上的研究都是将环形燃烧室作为航空发动
+机当中一个独立的部件，这样做的好处是能够简化实
+验模型，降低实验成本，但其弊端也是显而易见的，
+因为独立环形燃烧室的实验环境特别是出口边界条
+件与真实航空发动机存在明显的差异．但目前国内
+外还缺乏对于更接近真实环形燃烧室的出口边界条
+件并且考虑涡轮导叶对环形燃烧室周向点火影响的
+相关研究．因此本文在浙江大学TurboCombo 实验平
+台上进行了点火实验研究，该平台由环形燃烧室和涡
+轮两部分组成，这样就克服了上述实验中将环形燃烧
+室作为独立部件研究的弊端，其周向点火过程就与真
+实航空发动机中的更为接近，并且能够提供更有价值
+的实验数据．除此之外，实验结果还与独立环形燃烧
+室中的周向点火过程进行了比对，进一步探究出口涡
+轮导叶对周向点火过程的影响． 
+1 实验装置与设置 
+1.1 
+TurboCombo实验平台 
+TurboCombo 实验平台如图1 所示．整个平台主
+体分为两部分，即环形燃烧室部分与涡轮部分．环形
+燃烧室部分主要由燃烧室壁面、旋流喷嘴以及配气室
+组成．为了满足周向点火过程的可视化需求，环形燃
+烧室外壁面由外径及高度均为300 mm，厚度为5 mm
+的石英玻璃构成．在环形基座上等间距地布置了16
+个旋流喷嘴，喷嘴的直径为10 mm 并且通过6 个径
+向的斜孔形成旋流，旋流的方向为俯视逆时针，旋流
+数S＝0.82．且在旋流的作用下，在环形燃烧室的外
+壁面附近会形成俯视逆时针的速度分量，而在内壁面
+附近会形成俯视顺时针的速度分量(见图2)．丙烷与
+空气经过一定长度的预混管路充分预混后送入配气
+室以均匀来流、减小湍流度，再经16 个旋流喷嘴进
+入环形燃烧室．涡轮部分主要由带导叶的涡轮叶盘 
+ 
+1—石英玻璃管壁面；2—涡轮导叶；3—旋流喷嘴；4—配气室 
+图1 TurboCombo实验平台 
+Fig.1  TurboCombo experimental platform 
+ 
+图2 实验装置布置 
+Fig.2 Layout of experimental configuration 
+万方数据
+
+
+===== Page 3 =====
+
+叶沉然等：涡轮导叶对环形燃烧室点火的影响                                                     燃烧科学与技术
+ 
+ 
+— 77 —
+ 
+ 
+以及支撑金属圆筒壁组成．在涡轮叶盘上等间距地
+布置了26 片涡轮导叶，叶片弦长为38 mm，叶高为
+27 mm，叶栅节距为34 mm，安装角为30.2°．因导叶
+的布置及收缩型的出口流道，流道截面收缩比约为
+0.16．为了探究燃烧室出口加装涡轮导叶对周向点火
+过程的影响，可将涡轮叶盘用等高的金属圆筒壁面所
+替代，构成敞口的独立环形燃烧室模型． 
+1.2 
+点火装置与模式 
+本实验采用了双针点火针即点火针的两级由相
+距5 mm 的双针组成，在接通了15 kV 输出的点火器
+后能稳定地产生100 Hz 的电弧，以此来点燃丙烷-空
+气混合气体．点火针安装在离环形基座大约高
+10 mm 贴近喷嘴的位置，并且为了方便后文叙述，将
+临近点火针的喷嘴记作0#喷嘴，剩余喷嘴沿顺时针
+方向依次记作-1#～-7#喷嘴，沿逆时针方向记作
++1#～+8#喷嘴(见图2)．实验中采用的是先点火后通
+燃料的点火模式，这种模式也是实际飞机地面起动中
+所采用的．具体的操作步骤如下：将一定量的空气预
+先送入环形燃烧室；接通电源，启动点火针；根据实
+验设定的热功率及当量比将丙烷按照设定值送入环
+形燃烧室，之后当合适配比的丙烷-空气遇到点火针，
+周向点火过程随即开始．上述空气与丙烷的流量均
+通过七星D07 质量流量控制计控制． 
+1.3 高速相机及设置 
+本文实验中的主要手段就是通过高速相机记录
+带涡轮导叶的环形燃烧室与独立环形燃烧室两种构
+型下的周向点火过程．由于涡轮叶盘或者金属圆筒
+壁面的遮挡，本实验采用了2 个径向对置的高速相机
+来记录完整的周向点火过程．相机1、2 的型号及设
+置参数如表1 所示．为了更清晰地捕捉到火焰结构，
+两个相机镜头前均加装了带宽为400～680 nm 的可
+见光滤镜，滤去了红外波段高温燃后气体．在该区间
+内，相机捕获到的主要是火焰面上的CH*和C2*基团
+的化学自发光[4]，因此可以大致认为相机拍摄到的发
+光部分即为火焰面所处的位置． 
+表1 高速相机参数 
+Tab.1 Settings of the high-speed camera 
+相机 
+型号 
+频率/Hz 
+分辨率 
+带宽/nm
+1 
+Photron AX100 
+1 000 
+1 024×1 024 
+2 
+Phantom M110 
+1 000 
+1 280×800 
+400～680
+ 
+1.4 实验工况 
+本实验是在常温常压下进行的，实验选取了贫燃
+条件下4 个当量比(Φ 为0.67，0.71，0.76，0.81)，与
+之对应的3 个热功率P 及主流速度
+b
+U 详细列在表2
+中，主流速度定义为空气流量与出口截面积之比．另
+外根据文献调研[6,8]以及以往的实验经验，周向点火
+过程在冷态与热态下有明显差异．因此在每次点火
+实验前，会选择恰当的工况点火燃烧将环形燃烧室壁
+面温度预热至500 K(±10 K)． 
+表2 实验工况 
+Tab.2 Experimental conditions 
+Φ 
+b
+U /(m·s
+-1) 
+P/kW 
+0.67 
+[3.90，5.85] 
+0.71 
+[3.65，5.47] 
+0.76 
+[3.42，5.14] 
+0.81 
+[3.22，4.84] 
+12.4 
+15.5 
+18.6 
+2 实验结果 
+2.1 
+火焰形态 
+图3 展示了TurboCombo 实验平台中的旋流火
+焰照片．在Φ＝0.76 的贫燃工况下，可以看到淡蓝色
+的“V”型旋流火焰独立地依附于各个旋流喷嘴之
+上．在火焰及高温燃气的加热作用下，涡轮导叶呈暗
+红色，并且高温的涡轮叶片也会反过来影响环形燃烧
+室内的温度及流场分布，这就表明了环形燃烧室与涡
+轮并不是两个独立的部件，两者之间存在明显的耦合
+作用，因此研究涡轮导叶对环形燃烧室周向点火过程
+的影响是十分有价值的． 
+ 
+图3
+在Φ＝0.76，P＝18.6 kW 工况下，TurboCombo 实
+验平台中的旋流火焰照片 
+Fig.3
+Photo of the swirling flames on the TurboCombo 
+experimental platform at Φ＝0.76，P＝18.6 kW 
+2.2 
+周向点火过程 
+图4 和图5 分别展示了TurboCombo 实验平台
+中带涡轮导叶的环形燃烧室构型以及独立环形燃烧
+室构型下的周向点火过程．需要指出，为了使图片更
+加清晰，整个点火时序图片是经过渲染的伪色图．可
+以大致认为亮黄色对应着最大发光强度而暗红色对
+应着最小发光强度．对比图4 和图5 可以看到两种
+构型下整个周向点火过程基本相似，大体上可以分为
+3 个阶段：在t＝0 ms，合适配比的丙烷-空气在点火
+万方数据
+
+
+===== Page 4 =====
+
+燃烧科学与技术 
+第26 卷 第1 期
+ 
+ 
+— 78 — 
+针的作用下形成了初始火核；t＝0～6 ms，初始火核
+开始扩张并且在点火针临近的0#喷嘴处形成了单个
+稳定的旋流火焰；之后，单个旋流火焰继续扩张，开
+始向两侧传播并依次点燃相邻的喷嘴，最终两侧火焰
+面融合所有喷嘴被全部点燃，环形燃烧室达到稳定工
+作状态． 
+ 
+图4
+ 在Φ＝0.76，P＝18.6 kW工况下，TurboCombo实验
+平台中带涡轮导叶的周向点火过程 
+Fig.4
+ Light-round sequences on the TurboCombo ex-
+perimental platform with turbine guide vanes at
+Φ＝0.80，P＝18.6 kW 
+ 
+图5
+ 在Φ＝0.76，P＝18.6 kW工况下，TurboCombo实验
+平台中未带涡轮导叶的周向点火过程 
+Fig.5
+ Light-round sequences on the TurboCombo ex-
+perimental platform without turbine guide vanes
+at Φ＝0.80，P＝18.6 kW 
+从图4 中可以清晰地看到火焰面在传播过程中
+冲刷涡轮导叶，火焰面上沿与导叶接触部分出现明显
+的偏折，这也进一步证明了环形燃烧室的周向点火过
+程与涡轮之间存在耦合作用．而在图5 中可以看到，
+当涡轮叶盘被等高的金属圆筒壁替代时，火焰面上沿
+由于卷吸作用进入了金属圆筒壁内侧． 
+3 分析与讨论 
+3.1 
+周向点火时间 
+周向点火时间τ 是衡量环形燃烧室点火的一个
+重要参数指标．一般地，将初始火核形成时刻记作周
+向点火过程的起点，将所有喷嘴被点燃时刻记作周向
+点火过程的终点，两者之间的时间间隔即为周向点火
+时间τ．因此通过高速相机拍摄的影像就能得到各个
+工况下两种构型的周向点火时间，由此来探究环形燃
+烧室出口加装涡轮导叶对周向点火过程的影响．为
+了保证实验结果的可靠性，每个工况都进行了至少3
+次独立实验，选取其中合理的结果取平均，下述所得
+的结果都为实验平均结果． 
+图6 给出了热功率P＝15.5 kW 的情况下，周向
+点火时间τ 随主流速度
+b
+U 及当量比Φ 的变化规
+律．可以看到带涡轮导叶的环形燃烧室与独立环形
+燃烧室两种构型下的变化规律是一致的，即周向点火
+时间τ 随着主流速度
+b
+U 的增大或当量比Φ 的减小而
+缩短．一方面，
+b
+U 的增大使得湍流脉动及火焰面褶皱
+加剧，未燃喷嘴的中心回流区有更大概率捕获相邻已
+燃喷嘴的火焰片段，因此τ 将缩短．另一方面，在贫
+燃条件下，Φ 的减小会导致层流火焰传播速度
+L
+S 以
+及燃后气体温度下降，两者都会使得周向火焰传播速
+度减小，因此τ 将变长．因此根据实验结果可知，相
+较于当量比Φ，主流速度
+b
+U 对于周向点火过程的影
+响更为显著．此外在同一工况下比较两种构型可见，
+带涡轮导叶的环形燃烧室相较于独立的环形燃烧室
+周向点火时间τ 有一定的缩短．在图示的工况范围
+内，带涡轮导叶的环形燃烧室的周向点火时间平均缩
+短了大约13%．造成这一现象可能的原因有：第一，
+当环形燃烧室出口布置涡轮导叶时，点火过程中燃烧
+室内的压力发生变化．但根据周向点火过程中环形
+燃烧室内压力变送器采集到的信号，整个燃烧室内并
+没有明显的压力变化，因此该原因可以大致排除；第
+二，由于每次实验前都进行了预热，因此高温的涡轮
+导叶会使得燃烧室出口的温度有所上升；第三，在环
+形燃烧室出口加装涡轮导叶会使得周向点火过程中
+燃烧室内的非定常流场结构发生了改变，这可能是造 
+ 
+图6 热功率一定时，周向点火时间τ 的变化规律 
+Fig.6 Light-round time τ when thermal power is fixed 
+万方数据
+
+
+===== Page 5 =====
+
+叶沉然等：涡轮导叶对环形燃烧室点火的影响                                                     燃烧科学与技术
+ 
+ 
+— 79 —
+ 
+ 
+成周向点火时间缩短的最主要原因．这有待在后续
+实验中使用高速PIV 获得燃烧室内的流场结构进行
+验证． 
+图7 给出了当量比Φ＝0.76 时，周向点火时间τ
+随热功率P 及主流速度
+b
+U 的变化规律．在这种情况
+下，热功率P 的增大意味着更多的丙烷气体被送入
+了环形燃烧室参与反应，因此为了保持当量比的恒
+定，空气流量即主流速度也需要相应的增大．如同前
+述，更大的主流速度
+b
+U 会加速火焰的周向传播，所以
+周向点火时间的缩短是显而易见．同样地，带涡轮导
+叶的环形燃烧室构型下，周向点火时间τ 较短． 
+ 
+图7
+ 当量比一定时，周向点火时间τ 的变化规律 
+Fig.7
+ Light-round time τ when equivalence ratio is fixed
+3.2 
+周向火焰传播速度 
+以当量比Φ＝0.71，热功率P＝18.6 kW 工况为
+例，层流火焰传播速度
+LS ≈0.24 m/s[12]，这远远小于
+通过传播距离与周向点火时间估算的周向火焰传播
+速度(
+mean
+mean
+/
+R
+τ
+π
+≈6.01 m/s)．因此有必要考虑燃后
+气体膨胀，湍流褶皱等因素对周向火焰传播的加速效
+应．一般地，可以认为周向火焰传播速度与层流火焰
+传播速度之间存在如下关系： 
+ 
+   
+c
+u
+b
+L
+=
+(
+/
+)
+S
+S
+Θ ρ
+ρ
+ 
+(1)
+ 
+式中Θ 表示湍流褶皱因子，可以评估湍流褶皱效
+应．
+u
+b
+/
+ρ
+ρ 表示未燃气体与燃后气体的密度比，可以
+评估燃后气体膨胀效应． 
+  对于褶皱因子Θ ，根据一种基于湍流脉动速度
+以及雷诺数的模型有[13-14] 
+   
+1/2
+1/4
+L
+l
+1
+( '/
+)
+(
+)
+z
+C u S
+Re
+Θ = +
+ 
+(2)
+ 
+式中
+0.4
+z
+C =
+是一个模型常数；
+l
+Re 为大尺度湍流雷诺
+数，这里近似等于基于喷嘴出口直径以及主流速度的
+雷诺数，而对于湍流脉动速度
+'
+u 则可以通过
+b
+/
+u
+u
+′
+=  
+1/8
+0.16(
+)
+Re −
+来估算．燃后气体密度比
+u
+b
+/
+ρ
+ρ 依据绝热
+火焰温度
+ad
+T 以及丙烷-空气化学反应方程式有 
+ 
+u
+b
+ad
+u
+/
+=1.04 90%
+/
+T
+T
+ρ
+ρ
+×
+ 
+这里考虑到实际的实验环境，燃后气体温度取
+90% 的绝热火焰温度． 
+综上所述，各参数数值以及周向火焰传播速度估
+算值与实验值列于表3 中． 
+可以看到上述方法估算的周向火焰传播速度与
+实验值吻合得较好，特别是大雷诺数条件下，平均误
+差在25% 左右．但多数工况下实验值较估算值偏小，
+造成这种情况的原因，其一可能是计算所采用的模型
+本身存在误差，其二是观察周向点火过程可知，实际
+火焰的传播路径并不是简单的沿着环形基座水平传
+播，而是更接近于一种“锯齿形”的传播模式[1-3]．具
+体来说，当一个喷嘴被点燃时，火焰首先沿着喷嘴轴
+向方向向下游传播，此时一些零星的火焰片段被相邻
+未燃喷嘴的中心回流区所捕获，这些火焰片段再沿着
+未燃喷嘴的轴向方向向上游传播直至点燃整个喷嘴，
+因此实验估算中所采用的半圆周长(
+mean
+R
+π
+)要小于
+火焰的实际传播路径，这也就造成了偏小的实验值． 
+表3 带涡轮导叶构型下周向火焰传播速度估算及与实验值的比较 
+Tab.3 Circumferential flame speed evaluation under the configuration with turbine guide vanes and the comparison with  
+                    experimental values 
+Φ 
+L
+S /(m·s
+-1) 
+b
+U /(m·s
+-1) 
+Re 
+u′ /(m·s
+-1)
+Θ  
+ad
+T /K 
+u
+b
+/
+ρ
+ρ  
+cS 估算值/(m·s
+-1) 
+cS 实验值/(m·s
+-1)
+0.67 
+0.20 
+3.90 
+2 596 
+0.23 
+4.09
+1 898 
+5.9 
+4.82 
+4.05 
+0.67 
+0.20 
+4.87 
+3 242 
+0.28 
+4.59
+1 898 
+5.9 
+5.42 
+6.10 
+0.67 
+0.20 
+5.85 
+3 895 
+0.33 
+5.08
+1 898 
+5.9 
+5.99 
+7.60 
+0.71 
+0.24 
+3.65 
+2 430 
+0.22 
+3.69
+1 988 
+6.2 
+5.49 
+4.06 
+0.71 
+0.24 
+4.55 
+3 029 
+0.27 
+4.13
+1 988 
+6.2 
+6.15 
+5.61 
+0.71 
+0.24 
+5.47 
+3 642 
+0.31 
+4.55
+1 988 
+6.2 
+6.78 
+6.01 
+0.76 
+0.27 
+3.42 
+2 277 
+0.21 
+3.43
+2 075 
+6.5 
+6.01 
+4.64 
+0.76 
+0.27 
+4.27 
+2 843 
+0.25 
+3.83
+2 075 
+6.5 
+6.72 
+5.21 
+0.76 
+0.27 
+5.14 
+3 422 
+0.30 
+4.21
+2 075 
+6.5 
+7.39 
+6.77 
+0.81 
+0.30 
+3.22 
+2 144 
+0.20 
+3.21
+2 160 
+6.7 
+6.45 
+3.91 
+0.81 
+0.30 
+4.03 
+2 683 
+0.24 
+3.58
+2 160 
+6.7 
+7.19 
+4.91 
+0.81 
+0.30 
+4.84 
+3 222 
+0.28 
+3.92
+2 160 
+6.7 
+7.88 
+6.26 
+ 
+万方数据
+
+
+===== Page 6 =====
+
+燃烧科学与技术 
+第26 卷 第1 期
+ 
+ 
+— 80 — 
+ 
+4 结 论 
+本文在TurboCombo 实验平台上研究了带涡轮
+导叶的环形燃烧室的周向点火过程，并将结果与独立
+的环形燃烧室构型相比较，试图探究涡轮导叶对周向
+点火过程的影响．实验中运用一对径向对置的高速 
+相机记录了两种构型下完整的周向点火过程并得到
+了周向点火时间τ．此外通过系统地改变丙烷-空气的
+配比，分析了在不同当量比Φ，热功率P 以及主流速
+度
+b
+U 条件下，周向点火时间τ 的变化规律． 
+  (１) 实验结果表明，两种构型下的周向点火过程
+基本相似；受湍流脉动及火焰褶皱的影响，热功率或
+当量比一定时，周向点火时间均随主流速度的增大而
+缩短，并且带涡轮导叶的环形燃烧室相较于独立环形
+燃烧室在相同工况下周向点火时间更短，这很有可能
+是燃烧室出口加装的涡轮导叶使得周向点火过程中
+的非定常流场结构发生了改变． 
+  (2) 在考虑了燃后气体膨胀效应及湍流褶皱等
+因素下，估算了实际周向火焰传播速度
+cS ，在较大雷
+诺数工况下其与实验值吻合得较好． 
+  本文中的实验结果可以用来验证模拟实际航空
+发动机点火过程的数值模型． 
+参考文献： 
+［1］ Bach E，Kariuki J，Dawson J R，et al. Spark ignition 
+of single bluff-body premixed flames and annular 
+combustors[C]//51st AIAA Aerospace Sciences Meeting 
+Including the New Horizons Forum and Aerospace 
+Exposition. Grapevine，Texas，USA，2013，AIAA-
+2013-1182.  
+［2］ Machover E，Mastorakos E. Spark ignition of annular 
+non-premixed combustors[J]. Experimental Thermal and 
+Fluid Science，2016，73：64-70.  
+［3］ Machover E，Mastorakos E. Experimental investigation 
+on spark ignition of annular premixed combustors[J]. 
+Combustion and Flame，2017，178：148-157.  
+［4］ Bourgouin J-F，Durox D，Schuller T，et al. Ignition 
+dynamics of an annular combustor equipped with 
+multiple swirling injectors[J]. Combustion and Flame，
+2013，160(8)：1398-1413.  
+［5］ Philip M，Boileau M，Vicquelin R，et al. Ignition 
+sequence of an annular multi-injector combustor[J]. 
+Physics of Fluids，2014，26(9)：091106.  
+［6］ Philip M，Boileau M，Vicquelin R，et al. Simulation 
+of the ignition process in an annular multiple-injector 
+combustor and comparison with experiments[J]. Journal 
+of Engineering for Gas Turbines and Power，2014，
+137(3)：031501.  
+［7］ Philip M，Boileau M，Vicquelin R，et al. Large eddy 
+simulations of the ignition sequence of an annular 
+multiple-injector combustor[J]. Proceedings of the 
+Combustion Institute，2015，35(3)：3159-3166.  
+［8］ Prieur K ，Durox D ，Beaunier J ，et al. Ignition 
+dynamics in an annular combustor for liquid spray and 
+premixed gaseous injection[J]. Proceedings of the 
+Combustion Institute，2017，36(3)：3717-3724.  
+［9］ 令狐昌鸿，王高峰，钟 亮，等. 环形旋流燃烧室模
+型点火过程的实验[J]. 航空动力学报，2018 ，
+33(7)：1767-1778.  
+Linghu Changhong，Wang Gaofeng，Zhong Liang，et 
+al. Experiment on ignition process in annular swirling 
+combustor model[J]. Journal of Aerospace Power，
+2018，33(7)：1767-1788(in Chinese).  
+［10］ Ye C R，Wang G F，Fang Y Q，et al. Ignition 
+dynamics in an annular combustor with gyratory flow 
+motion[C]//Proceedings of ASME Turbo Expo 2018：
+Turbomachinery Technical Conference and Exposition. 
+Oslo，Norway，2018：GT2018-76624.  
+［11］ 叶沉然，王高峰，马承飚，等. 斜喷环流环形燃烧室
+点火实验研究[J]. 工程热物理学报，2018，39(11)：
+2549-2558.  
+Ye Chenran，Wang Gaofeng，Ma Chengbiao，et al. 
+Experimental investigation of ignition process in annular 
+combustor with circumferential flow via oblique 
+injection[J]. Journal of Engineering Thermophysics，
+2018，39(11)：2549-2558(in Chinese).  
+［12］ Lowry W，De Vries J，Krejci M，et al. Laminar flame 
+speed measurements and modeling of pure alkanes and 
+alkane blends at elevated pressures[J]. Journal of 
+Engineering for Gas Turbines and Power ，2011 ，
+133(9)：091501.  
+［13］ Lipatnikov A N，Chomiak J. Turbulent flame speed and 
+thickness：Phenomenology，evaulation，and applica-
+tion in multi-dimensional simulations[J]. Progress in 
+Energy and Combustion Science，2002，28(1)：1-74.  
+［14］ Driscoll J. Turbulent premixed combustion：Flamelet 
+structure and its effect on turbulent burning velocities[J]. 
+Progress in Energy and Combustion Science，2008，
+34(1)：91-134.  
+ 
+万方数据

@@ -1,0 +1,1016 @@
+
+
+===== Page 1 =====
+
+Investigation of CuO-based oxygen carriers modiﬁed by three different
+ores in chemical looping combustion with solid fuels
+Cao Kuang a, Shuzhong Wang a, *, Ming Luo b, Jianjun Cai a, Jun Zhao a
+a Key Laboratory of Thermo-Fluid Science and Engineering of MOE, School of Energy and Power Engineering, Xi’an Jiaotong University, Xi’an, 710049, China
+b School of Energy and Power Engineering, Jiangsu University, 301 Xuefu Road, Zhenjiang, Jiangsu Province, 212013, China
+a r t i c l e i n f o
+Article history:
+Received 30 August 2019
+Received in revised form
+1 March 2020
+Accepted 7 March 2020
+Available online 9 March 2020
+Keywords:
+CuO
+Chemical-looping combustion
+Chemical-looping with oxygen uncoupled
+Biomass char
+Power generation
+a b s t r a c t
+This effort is to improve CuO’s chemical-looping characteristics by introducing iron ore, chrysolite and
+limestone to obtain high power efﬁciency in chemical looping combustion (CLC) power plants. The
+reactivity and oxygen uncoupling behavior were evaluated by thermogravimetric analysis (TGA) in N2
+and CO2 atmosphere under different heating rate. CuO modiﬁed by chrysolite and limestone showed
+better performance than iron ore-added CuO oxygen carrier (OC) in a CLC system. CO2 could play an
+important role in the gasiﬁcation of char only when the temperature is above 800 C. Two peaks were
+found in the Differential thermal gravity (DTG) curve when modiﬁed CuO reacted with char. That could
+be the solid-solid reaction turned into gas-solid reaction with temperature increasing. Scanning electron
+microscopy (SEM)/energy-dispersive X-ray (EDX) technique analysis indicated an enhancement of high
+temperature tolerance of Cu-based OCs, while CuO occurred sever sinter and agglomeration. Higher
+temperature tolerance means higher temperature off-gas from the fuel reactor entering the heat utili-
+zation power generation system, which could obtain higher efﬁciency in CLC power plants.
+© 2020 Elsevier Ltd. All rights reserved.
+1. Introduction
+Climate change and global warming is caused by an increasing
+concentration of CO2 in the atmosphere drawing people’s attention
+widely. Researchers from world wild are endeavoring on the solu-
+tions to reduce the CO2 emission. The utilization of biomass is one
+of the methods to reduce CO2 emissions because the carbon dioxide
+released during biomass combustion has previously been removed
+from the atmosphere during biomass growth [1]. The global
+warming is getting deteriorated by the higher CO2 emission, CO2
+capture and storage (CCS) technologies become a popular topic for
+many researchers. Several different technologies, pre-combustion,
+oxy-fuel combustion, and post-combustion, have been used to
+capture CO2. These techniques involving the separation and storage
+of CO2 are energy-intensive, resulting in a signiﬁcant decrease in
+net thermal efﬁciency of the conventional coal-ﬁred power plant
+(CFPP) by 7e13% point [2]. However, chemical looping combustion
+(CLC) combining fuel combustion and pure CO2 production without
+extra energy supplemented has been deemed as one of the lowest
+energy consumption potential technology to capture CO2.
+The technology discussed in this paper uses oxygen carrier (OC)
+particles to transfer oxygen from the air to the fuel. The OC particles
+are circulated between the fuel reactor and the interconnected air
+reactor. In the fuel reactor, fuel is oxidized by the OC particles to
+produce CO2 and H2O, allowing high-purity CO2 to be produced for
+storage or utilization after steam condensation. In the air reactor,
+the OC particles are re-oxidized by the air to gain poor oxygen and
+rich nitrogen stream. This process is ﬂameless combustion and has
+no direct contact between fuel and air, producing no nitrogen
+oxide.
+The use of solid fuel in the CLC has been reported by many re-
+searchers. However, solid-solid reaction between OC and char
+could be the limiting step of the whole process. The ﬁrst option to
+use solid fuel to obtain high carbon conversion and CO2 capture
+efﬁciency in a CLC system is to use synthetic gas generated from a
+previous gasifying step. A CO2 capture ratio of 90.1% was obtained
+in Wang’s study [3] which built a system of coal gasiﬁcation CLC
+combined cycle. Zhu et al. [4] evaluated the performance of inte-
+grated gasiﬁcation combined cycle (IGCC) system with CO2 capture
+using CLC and calcium looping process (CLP) for power generation.
+A net power efﬁciency of 39.78% with the overall CO2 capture ef-
+ﬁciencies of 99.9% was obtained. However, the gasiﬁcation process
+has an important energy penalty to provide the oxygen needed for
+* Corresponding author.
+E-mail address: szwang@aliyun.com (S. Wang).
+Contents lists available at ScienceDirect
+Renewable Energy
+journal homepage: www.elsevier.com/locate/renene
+https://doi.org/10.1016/j.renene.2020.03.027
+0960-1481/© 2020 Elsevier Ltd. All rights reserved.
+Renewable Energy 154 (2020) 937e948
+
+
+===== Page 2 =====
+
+the gasiﬁcation process as well as extra investment in gasiﬁcation
+equipment [5]. Spallina et al. and Mukherjee et al. presented ana-
+lyses of coal-fed, integrated gasiﬁcation CLC plants with energy
+penalty as high as 4.5% for gasiﬁcation step [6]. The second option is
+the direct coal chemical looping combustion where the solid fuel is
+directly brought into to the fuel reactor. As the fuel and oxygen
+carriers are physically mixed, the reaction rate and combustion
+efﬁciency are restricted by solid-solid reaction. In-situ gasiﬁcation
+chemical looping combustion (iG-CLC) and chemical looping with
+oxygen uncoupling (CLOU) are two proposed solid fuel CLC pro-
+cesses that transform the solid -solid reaction into gas-solid reac-
+tion to increase the reaction rate and CO2 capture efﬁciency. Design
+and operation of 10-100KWth unit with coal have been demon-
+strated in some researches [7,8]. However, The limiting step in iG-
+CLC is the reaction rate of syngas with OC which is faster than
+the gasiﬁcation reaction rate [9]. While for CLOU process, the idea
+was proposed by Mattisson et al. [10] making use of the idea ﬁrst
+proposed by Lewis and Gilliand to produce CO2 from solid carbo-
+naceous fuels by utilizing the gaseous oxygen released from some
+oxygen carriers [11]. This process is based on the utilization of
+oxygen carrier materials which release gaseous oxygen at high
+temperature that could burn solid fuel. During this process, solid
+fuels are burned with gas-phase oxygen released from OC at high
+temperature, avoiding the slow gasiﬁcation step, giving a much
+faster solid conversion [10e13].
+CuO/Cu2O, Mn2O3/Mn3O4 and Co3O4/CoO have been identiﬁed
+as redox pairs with the capacity to release oxygen and could be
+regenerated at high temperature [14]. The investigation of using
+Mn-based oxygen carriers have been studied by many researchers
+[15e17]. Thermogravimetric experiments and bench-scale ﬁxed-
+bed reactor tests were conducted to investigate the oxygen transfer
+capacity, reaction kinetics, and stability during cyclic reduction/
+oxidation reaction based on CuO and Fe2O3 [18]. Besides, Cao et al.
+[19] established a theoretical frame of oxygen carriers among Cu,
+Mn, Co, Fe and Ni and demonstrated copper to be a better choice as
+an oxygen carrier based on the oxygen transfer capability, energy-
+balance analysis, and thermodynamic analysis. Cu-based oxygen
+carriers have also been tested with solid fuel in many studies
+[14,19e21]. The primary advantages of Cu-based OCs are the fast
+reaction rate, high oxygen transport capacity and favorable com-
+bustion thermodynamics that convert fuel to CO2 and H2O [14].
+However, agglomeration is a potential issue due to the low melting
+of Cu (1085 C). Slightly melting phenomenon of reduced CuO by
+coal and wood in the SEM images at 800 C was found in the
+research [22]. It is essential for the OCs to meet the characteristics
+of chemical and mechanical stability during successive redox cycles
+and high resistance to attrition in a ﬂuidized bed.
+In order to improve the mechanical stability of CuO at high
+temperature, supports of SiO2, TiO2 or ZrO2 on CuO have been
+studied by many researchers [14,20,23]. Synthetic OCs allow for CLC
+operation at high temperatures and pressures, which in turn allows
+for higher efﬁciencies and smaller carbon footprint per energy unit
+produced, compared to their inexpensive equivalents [6]. ICB-CSIC
+research group performed a screening study of 25 different Cu-
+based oxygen carriers to select appropriate materials of 60 wt%
+CuO supported on MgAl2O4 and 40 wt% CuO supported on ZrO2
+[11,12]. Other than the OC’s reactivity, its high ash-resistance was
+also studied [24]. In an actual CLC system, separating system of ash
+from the OCs is often installed to avoid the accumulation of ash
+[19]. This would lead to appreciable loss of OCs with ash stream.
+Thus, low cost OC materials, especially natural materials are more
+favorable for the combustion of solid fuel [24]. Iron is often used in
+CLC due to its high temperature stability, low cost, expensive
+sources and environmentally friendly but exhibits low reactivity
+when used with solid fuels [25]. The agglomeration resistance of
+CuO species and the lower reactivity of the Fe2O3 species were both
+improved by the synergetic effect of the bimetallic CuOeFe2O3 [26].
+Mitsuoka et al. [27,28] found that the alkali and alkaline earth metal
+compounds showed attractive catalytic effect on the gasiﬁcation
+process of solid fuels. Zhifeng Zhang [28] concluded that Ca-based
+catalysts had more application prospects than other alkali-metal-
+based additives because they were cheaper and more widely
+available. Besides, Erik Jerndal et al. also [29] found that the addi-
+tion of Mg could help get better fuel conversion. However, the
+literature contains relatively few studies devoted to the use of Mg-
+based ore as a bed material in chemical looping processes.
+Furthermore, a direct comparison of performance among the CuO
+modiﬁed by chrysolite, iron ore and limestone has also not been
+reported.
+Additionally, the reaction temperature has great inﬂuence on
+the reaction taking place in iG-CLC and CLOU. Some researcher [30]
+obtained a lower carbon conversion in the CLC process using Cu-
+based oxygen carrier reacted with solid fuel with a result of a
+high carbon capture efﬁciency (99.29%) in a CLOU test at 950 C.
+Ping et al. [21] concluded that the reaction rate in the CLOU process
+were three times faster than with iG-CLC for CuO and found a CLOU
+process started at 600
+C. Thereby, the reaction should be
+controlled in CLOU to obtain higher carbon conversion and reaction
+rate. However, the support has great inﬂuence on the reaction. In a
+iG-CLC process, the operating temperature was 850 C using CuO
+supported on g-Al2O3 and a CLC test was also operated at 900 C of
+Cu-based oxygen carriers [30]. Hence, it is important for CuO-ore to
+deﬁne the reaction temperature taking place in CLOU.
+In addition to the inﬂuence of oxygen carriers, the reaction
+condition of heating rate and ﬂuidized gas in chemical looping
+combustion also shows noticeable effects on the combustion of
+char with OCs [19]. Hence, the objective of the study is to improve
+the performance of CuO by introducing of iron ore, chrysolite and
+limestone. The reactivity and oxygen uncoupling behavior of the
+CuO-based OC were investigated by thermogravimetric analysis
+(TGA) to investigate the reaction temperature in CLOU. The CO2
+gasiﬁcation of char on the OC’s performance in biomass char-fueled
+CLC was further investigated to improve the carbon conversion.
+Finally, physical properties of OCs were characterized using various
+techniques. The utilization of Cu-based oxygen carriers for CLC
+power generation was also discussed.
+2. Experimental and data processing methods
+2.1. Oxygen-carrier material
+The CuO-based oxygen carriers were prepared by mechanical
+mixing method. CuO, natural iron ore produced from Mongolia,
+chrysolite and limestone were used as raw materials and the par-
+ticle size of all the materials were all smaller than 50 mm. The
+composition analysis of these ores is listed in Table 1.
+A certain amount of active metal oxide and the inert support
+were mixed in a beaker to obtain the power mixture, the deionized
+water was then added to the beaker to obtain a paste. After stirred,
+the paste was extruded in a tablet machine (FW-4A, produced by
+Tianjin TP instrument company) to obtain cylindrical extrudates.
+Table 1
+Chemical analysis of the ore samples.
+Content (wt%)
+Fe2O3
+MgO
+CaO
+SiO2
+Al2O3
+Others
+Iron ore
+82.93
+5.416
+e
+6.97
+0.924
+3.76
+Chrysolite
+9.91
+44.2
+1.45
+42.9
+e
+1.54
+Limestone
+e
+3.26
+91.22
+3.52
+1.56
+0.44
+C. Kuang et al. / Renewable Energy 154 (2020) 937e948
+938
+
+
+===== Page 3 =====
+
+These extrudates were dried overnight at room temperature and
+then sintered at 950 C for 8 h in a mufﬂe oven exposed to the air.
+The calcined samples were grounded and sieved to the size range of
+75e100 mm.
+The mass ratios of CuO and ore in the oxygen carriers in this
+paper were 40:60, 60:40 and 80:20. Cu denotes CuO and the digit in
+front of Cu represents the proportion of CuO in the sample. The iron
+ore, chrysolite and limestone are depicted by Fe, Ch and L,
+respectively. For example, 60CueFe indicates a sample composed of
+60 wt% CuO and 40 wt% iron ore.
+2.2. Char preparation
+The biomass char used in the study was prepared by rapid py-
+rolysis of straw (from Shanxi province) in a ﬁxed-bed reactor which
+is shown in Fig. 1. Biomass after crushing and screening with a size
+range of 150e200 mm was loaded into a crucible and then placed on
+the cold side of the quartz tube. After the reactor reached the
+speciﬁed temperature 950 C, the gas switched to N2 to purge to
+exhaust air in the reactor and then the crucible was quickly pushed
+into the heated zone of the reactor. Particles were pyrolyzed rapidly
+for about 10 min. The ultimate analysis of biomass char is listed in
+Table 2.
+2.3. Experimental setup and procedure
+A thermo-gravimetrical analysis (TGA) experiments were con-
+ducted in a TGA system (WCT-2C) produced by Beijing Optical In-
+strument Factory. TGA experiments were used to analyze the
+reactivity of the sample under the determined conditions in the
+absence of the complex ﬂuidizing factors, such as those derived
+from particle attrition and interphase mass-transfer processes. The
+reactor consisted of a quartz tube (22 mm inner diameter) placed in
+an oven, allowing to heat up till 1400 C. The samples were placed
+in a 5 mm deep and 10 mm diameter crucible. The schematic dia-
+gram of the TGA is shown in Fig. 2.
+Before the experiment began, air was ﬁrstly removed by purging
+nitrogen for about 10 min and the sample was heated at different
+heating rate of 10, 15, 20 and 40 C/min from ambient temperature
+to 950 C. In order to get fully conversion of samples, the reaction
+was kept at 950 C for about 30 min. A computer was used to
+continuously record and monitor the weight change of the sample.
+The inlet gas, controlled by a ﬂow meter, was injected and
+discharged from the upper and middle of the tube, respectively. The
+samples were heated in N2 and CO2 environments to investigate
+CuO-based oxygen carriers uncoupling, CLOU, iG-CLC, char pyrol-
+ysis and gasiﬁcation.
+Considering the thermodynamic limitations, external mass
+transfer and inter-particle diffusion, the gas ﬂow rate was set to
+60 mL/min [20] and the weight of the sample varied in 20e60 mg,
+except for the study on the char pyrolysis and gasiﬁcation.
+2.3.1. Characterization of the oxygen carriers
+The surface morphology and composition of both fresh and used
+oxygen carrier particles were analyzed by a (SEM) scanning elec-
+tron microscopy (FESEM, JSM7800F, JEOL, Japan) and energy-
+dispersive X-ray (EDX) technique (Oxford 50 mm2). The X-ray
+diffraction (XRD) patterns for crystal structure of fresh and used
+particles were conducted on a diffractometer (PANalytical, the
+Netherlands).
+2.4. Data evaluation
+2.4.1. Oxygen release, char pyrolysis and gasiﬁcation process
+CuO decomposed to Cu2O with the release of oxygen upon
+heating (Reaction (R1)). However, in some literature [31], about a
+0.15% weight loss was founded when using Fe2O3 as oxygen carrier
+at 950 C in CO2. If the form of Fe in the OC is Fe2O3, the maximum
+oxygen release is 0.06%. Compared with 6% of CuO, the weight loss
+of Fe2O3 could be ignored.
+4CuO 4 2Cu2O þ O2
+(R1)
+The variation of weight recorded by the TGA was obtained as a
+function of time. The oxygen-carrier conversion was calculated as
+XOC ¼ m
+mox
+ 100%
+(1)
+where m is the instantaneous weight of the sample, and mox is the
+mass of the sample fully oxidized.
+For the experiment of char pyrolysis and gasiﬁcation, the fuel
+conversion rate was calculated as
+XC ¼ mt
+mchar
+ 100%
+(2)
+where mt is the instantaneous weight of the sample when the
+Fig. 1. Schematic diagram of ﬁxed-bed.
+C. Kuang et al. / Renewable Energy 154 (2020) 937e948
+939
+
+
+===== Page 4 =====
+
+temperature increases under N2 or CO2 atmosphere, and mchar is the
+mass of the raw material.
+2.4.2. CLC of biomass char
+The theoretical conversion was deﬁned as
+Xocfuel ¼
+ms
+mchar þ mO
+(3)
+where ms is the real weight loss of OC-coal mixture, mchar is the
+mass of char added in the mixture and the mO is the theoretical
+oxygen demand. Letting the stochiometric number f to be 1, the
+denominator is the maximum weight loss in the reaction process.
+The global reaction rates (dX/dt) at different fractional conver-
+sions (X) were calculated by differentiating the data.
+3. Results and discussion
+3.1. TGA test for the oxygen releasing process of oxygen carriers at
+950 C in N2 and CO2 atmosphere under different heating rate
+When temperature rose, the oxygen carrier conversion in the
+reduction process was characterized as a function of time, shown in
+Fig. 3. The effect of heating rate on the oxygen release process is
+also displayed in this ﬁgure. As oxygen carrier heated from room
+temperature to 800 C in N2 or CO2 atmosphere, there was almost
+no weight loss from 50 to 800 C which implied that no reaction
+happened in this period. After the temperatures went beyond
+800 C, apparent weight loss was observed in the TG curve by CuO
+reduction to Cu2O (Reaction (R1)). Detailed analysis is illustrated in
+the following paragraphs.
+3.1.1. Effect of heating rate
+Due to the similar oxygen releasing process of OCs in CO2 at-
+mosphere, only the conversion verse time in N2 is shown in Fig. 3.
+The speciﬁc parameters, such as, initial-end temperature, peak
+temperature, reaction time are summarized in Table 3 (the data of
+60Cu-L is not included in Table 3 because it differs from the other
+two OCs and the effect of heating rate on the oxygen release process
+will be discussed later). For 60Cu-Ch and 60CueFe, it was apparent
+in Fig. 3 that the TG curves moved toward higher temperature re-
+gion as the heating rate increased. Experiments results also
+demonstrated that the reaction time and the peak value were
+improved with increased heating rate. The reaction time at 10 C/
+min was almost two times longer than the time at 40 C/min. This
+indicated that the heating rate had a conspicuous effect on the
+oxygen release process. The reason for the phenomenon was that
+oxygen release process was a chemical reaction process accompa-
+nied by heat and mass transfer. With the increase of the heating
+rate, the temperature difference between the ambience and parti-
+cle became larger, which led to a thermal hysteresis phenomenon.
+That explained why the initial temperature of the reaction moved
+to the high temperature region. In addition, it can be concluded
+from Table 3 that maximum oxygen release rate was accelerated
+with the increasing of heating rate. That could be attributed to the
+increased activity at high temperature. Different from CuO modi-
+ﬁed by chrysolite and iron ore, the oxygen uncoupling process of
+60Cu-L had two oxygen release process in N2 atmosphere, shown in
+Fig. 3. The effect of heating rate on the initial temperature was the
+same as the 60Cu-Ch and 60CueFe due to thermal hysteresis,
+especially at 40 C/min. In order to ﬁgure out what happened
+during the ﬁrst stage, an experiment with terminal temperature of
+720 C was conducted in TGA with a heating rate of 15 C/min under
+N2 atmosphere. The presence of Cu2O, shown by XRD analysis
+(Supplementary Material Fig. S7), conﬁrmed that both stages may
+Table 2
+Ultimate analysis of biomass char.
+Ultimate analysis (wt%)
+C
+H
+N
+S
+Oa
+59.070
+1.478
+0.650
+0.629
+38.173
+a By difference.
+Fig. 2. Schematic diagram of the experimental apparatus.
+C. Kuang et al. / Renewable Energy 154 (2020) 937e948
+940
+
+
+===== Page 5 =====
+
+be resulted from CuO uncoupling. Ping Wang et al. [21] also found
+similar phenomenon using CuO as oxygen carrier which was
+deemed as the ﬁne particle releasing O2 at a lower temperature.
+3.1.2. Effect of atmosphere
+From the experimental results showed in Table 3, it was obvious
+that TG and Differential thermal gravity (DTG) curves of oxygen
+release process in CO2 atmosphere shifted to higher temperature
+zone. At the same heating rate, the initial temperature and reaction
+time increased signiﬁcantly in CO2 atmosphere. Experimental re-
+sults also indicated that the peak reaction rate under CO2 atmo-
+sphere was lower than this in N2 atmosphere. Oxygen release
+process in CO2 atmosphere with lower initial temperature and peak
+temperature was possibly resulted from the higher speciﬁc heat of
+CO2 [32]. In addition, it was worth noting that the amount of oxy-
+gen released was the same in both atmosphere, which showed that
+CO2 only affected the reaction process and had no effect on the
+reactant itself.
+3.1.3. Effect of support
+The main component in the modiﬁed oxygen carrier was CuO
+which was conﬁrmed in XRD analysis, shown in Fig. 7. For oxygen
+carrier modiﬁed by chrysolite and iron ore, only one stage was
+observed in Fig. 3. The oxygen release process showed a similar
+trend with the increasing heating rate. The difference in reaction
+time and the maximum oxygen release rate was not signiﬁcant
+between 60Cu-Ch and 60CueFe under the same reaction condition.
+However, notice that the initial temperature and peak temperature
+of 60Cu-Ch was lower than that of 60CueFe. The higher peak value
+and shorter reaction time demonstrated that the reactivity of 60Cu-
+Ch was stronger than 60CueFe. This was mainly due to the new
+phase of CuFe2O4 in 60CueFe which was stable enough even under
+high temperature. Some studies [33] concluded that in the process
+of oxygen release from CuO, the formation of OeO bond and the
+desorption of O2 were controlled by surface chemical reaction. The
+process of oxygen release was not affected by oxygen atom
+migration in crystals. While for spinel structure, the internal oxy-
+gen atom migration process was the speed control step of oxygen
+release process. The stable structure of crystal and densely arranged
+oxygen atoms led to the difﬁculty of oxygen migration and the
+formation of OeO structure which resulted in the difference of
+oxygen release rate.
+For 60Cu-L, the oxygen release process in CO2 was different from
+that in N2 atmospheres. As shown in Fig. 4 (only the TG and DTG
+curves of the heating rate at 40 C/min are shown here), it can be
+found that oxygen carriers showed a weight gain process in the
+atmosphere of CO2 between 600 C and 868 C. This might be the
+presence of CaO in 60Cu-L which could react with CO2 to produce
+CaCO3. As the temperature increased further, the oxygen release
+rate curve had two peaks, which may be the decomposition of
+CaCO3 (R2) and CuO (R1).
+CaCO3 4 CaO þ CO2
+(R2)
+Despite different performance in oxygen release process, all OCs
+could ﬁnish the oxygen release process independently. The
+maximum oxygen release rate was observed at approximately
+950 C in both N2 and CO2.
+3.2. Pyrolysis and gasiﬁcation process of biomass char at 950 C
+under different heating rate
+It can be observed from Fig. 5 that there was continuous weight
+loss in N2 atmosphere. The results were in good agreement with
+that discussed by Zhen Huang et al. [34] which could be explained
+by the fact that the gas products produced by unstable macro-
+molecule substances in char cracking escaped from the system as
+Fig. 3. The conversion of CuO-based oxygen carriers from room temperature to 950 C
+under different heating rate in N2 atmosphere.
+C. Kuang et al. / Renewable Energy 154 (2020) 937e948
+941
+
+
+===== Page 6 =====
+
+temperature increased. Moreover, it can be found that the weight
+loss rate of char was improved at higher heating rate. The reason
+could result from the acceleration of heat transfer within the par-
+ticles which led to the aggravation of unstable bond breakage in
+biomass macromolecules.
+For the gasiﬁcation process, the biomass char was completely
+gasiﬁed under CO2 atmosphere at 950 C. Compared with pyrolysis
+process in N2 atmosphere, mass loss rate of char increased signif-
+icantly. Fig. 5 shows that the gasiﬁcation of char started at around
+800 C. The temperature was similar to the observation by Varhegyi
+g. et al. [35]. The sharp decrease of mass was mainly attributed to
+the gasiﬁcation reaction between the char and the carbon dioxide
+(R3). The increasing of heating rate also had positive effect on the
+gasiﬁcation process. For char gasiﬁcation process, at the heating
+rate of 40 C/min, the maximum rate of gasiﬁcation was 43.26 wt
+%/min at 963 C while 19.33 wt%/min at 903 C was obtained at
+10 C/min. The maximum gasiﬁcation rate of char at 40 C/min was
+almost two times larger than that at 10 C/min. The rapid char
+gasiﬁcation would play an important role when the temperature is
+above 800 C in chemical looping combustion.
+Table 3
+Experimental results for different processes.
+OCs
+Gas
+Heating rate (C/min)
+Initial -end temp. (C)
+Reaction time (min)
+Peak temp. (C)
+Peak rate (%/min)
+60Cu-Ch
+N2
+10
+801e958
+18.14
+954
+2.2517
+15
+807e962
+15.2
+955
+2.53
+20
+816e974
+11.62
+962
+3.1971
+40
+820e984
+9.12
+972
+3.8929
+CO2
+10
+811e985
+18.54
+955
+2.0872
+15
+814e961
+16.34
+957
+2.0946
+20
+827e965
+14.13
+963
+2.4054
+40
+839e983
+9.201
+975
+3.3809
+60CueFe
+N2
+10
+805e957
+22.56
+953
+2.0324
+15
+809e959
+20.2
+955
+2.53
+20
+812e963
+16.5
+962
+2.5447
+40
+824e987
+11
+976
+3.3891
+CO2
+10
+814e956
+25.49
+954
+1.755
+15
+829e959
+22.38
+957
+2.246
+20
+840e968
+15.36
+961
+2.347
+40
+847e982
+12.81
+977
+3.3419
+Fig. 4. The oxygen release process of 60Cu-L at a heating rate of 40 C/min under CO2
+atmosphere.
+Fig. 5. Pyrolysis (a) and gasiﬁcation (b) process at different heating rate.
+C. Kuang et al. / Renewable Energy 154 (2020) 937e948
+942
+
+
+===== Page 7 =====
+
+3.3. Char-Cu-ore reactions at 950 C in N2 and CO2 atmosphere
+under different heating rate
+Fig. 6 shows the conversions (XOC-fuel) and conversion rates (dX/
+dt) for the biomass char reactions at 950 C in N2 and CO2 under
+different heating rate. There were three stages in the char oxidation
+process. For the ﬁrst stage, the TG curve decreased slightly with no
+obvious peak in the DTG curve since the samples were heated from
+room temperature to 750 C. It could be considered that the mass
+loss in the ﬁrst stage was mainly caused by the char pyrolysis, due
+to the poor reactivity of oxygen carrier under lower temperature.
+The mass loss was also almost equal to the amount of volatile
+matter in char. As temperature increasing, the sharply decrease of
+mass occurred in the second stage from about 750 to 850 C. This
+could be attributed to the oxidization of char by the lattice [O] in OC
+where gas-solid (R1, R3, R4, R5) did not occur due to the low
+reactivity of oxygen release and gasiﬁcation of char in this period.
+The maximum reaction rate of 60Cu-Ch in the second stage was
+15.286 wt%/min in N2 atmosphere, 11.94 wt%/min at 804 C in CO2
+atmosphere. Moreover, it was possible to see that the maximum
+Fig. 6. TG and DTG proﬁles of different oxygen carriers reduction by char under N2/CO2 atmosphere at different heating rate.
+C. Kuang et al. / Renewable Energy 154 (2020) 937e948
+943
+
+
+===== Page 8 =====
+
+reaction rate in CO2 atmosphere was decreased slightly compared
+with that in N2 atmosphere. One probable reason was that CO2 was
+not involved in the reaction due to the low reactivity between the
+char and CO2 as shown in Fig. 5. Therefore, the decreased peak
+value of the reaction and longer reaction time may be the high
+speciﬁc heat of carbon dioxide, leading to thermal hysteresis. While
+for 60CueFe, the temperature of maximum reaction rate in the
+second
+period
+was
+higher
+than
+800
+C
+where
+gasiﬁcation
+happened. The reactivity could be improved by the gasiﬁcation of
+char, leading to a higher reaction rate than that in N2 atmosphere.
+Obvious decrease of 60Cu-L was observed in CO2 atmosphere. That
+could be the reaction of CO2 with CaO in OC to produce CaCO3
+which offset the weight loss by the char oxidization. The highest
+reaction rate of 60Cu-L with char in about 950 C may be partially
+due to the decomposition of CaCO3.
+The reactions possible happened were described as follows:
+C þ CO2/2CO
+(R3)
+CuO þ CO/Cu þ CO2
+(R4)
+Cu2O þ CO/2Cu þ CO2
+(R5)
+2CuO þ C/2Cu þ CO2
+(R6)
+With the further increase of temperature, there was a peak in the
+range of 850e950 C. The possible reason was that gas-phase ox-
+ygen happened due to the rapid oxygen release of three oxygen
+carriers at that temperature. Thus, the process during 850e950 C
+could be considered as the char oxidization by the gas-phase oxy-
+gen released from OCs. The transformation of solid-solid reaction
+into gas-solid reaction could accelerate the oxidation of biomass
+char. Ping Wang [22] deduced similar conclusions using CuO as
+oxygen carriers and found that the combustion rate of char was
+increased with the oxygen releasing rate of CuO. There were dif-
+ferences among the reaction temperatures of solid fuel with oxygen
+carrier reported by investigators. This could be contributed to three
+aspects. First, the oxygen carriers amongst the literature studies
+varied obviously, especially in the compositions of the inert sup-
+port. Different support in the oxygen carriers may have various
+impacts on the reaction of char with OC. Second, experimental
+parameters, such as stoichiometric ratio, heating rates etc., may
+also partially inﬂuence the observed experimental phenomenon.
+Third, differences in fuel reactivity in different studies should also
+be considered.
+The reactivity of oxygen carrier can be evaluated by the maximum
+weight loss rate [36]. In other words, if the weight loss rate was low
+and its corresponding temperature was high, the reactivity of oxygen
+carrier would be poor. As shown in the DTG curves in Fig. 6, the
+maximum weight loss rate of 60Cu-Ch and 60Cu-L was higher than
+thatof 60CueFe under the same condition.The maximumweight loss
+rate occurred below 800 C, except 60CueFe. One explanation could
+be the low reactivity of CuFe2O4 with biomass char, which had stable
+spinel structure. In addition, Fe2O3 is an OC material with oxygen
+carrying capacity. The presence of FeO and Fe3O4 shown in Fig. 7 and
+Supplementary Material (Fig. S1eS2), indicated that Fe2O3 in
+60CueFewasreducedbychar.Thus, the lower reactivityof Fe2O3with
+char [19] could also contribute to the higher temperature and lower
+reaction rate. Besides, the catalytic properties of chrysolite and
+limestone during char gasiﬁcation improved the combustion of char.
+The higher reactivity of 60Cu-Ch reacted with char also showed that
+chrysolite is a better support material for CuO. Additionally, notice
+that the conversion of char-OCs reached over 90% and 95% under N2
+and CO2 atmosphere, respectively.
+3.4. Characterization of the OCs
+OCs reduced by the char in CO2 atmosphere at a heating rate of
+40 C/min were selected for analysis.
+Fig. 7. XRD analysis of the fresh and used OCs.
+C. Kuang et al. / Renewable Energy 154 (2020) 937e948
+944
+
+
+===== Page 9 =====
+
+Fig. 8. SEM images of the fresh and used particles.
+C. Kuang et al. / Renewable Energy 154 (2020) 937e948
+945
+
+
+===== Page 10 =====
+
+3.4.1. XRD analysis
+As shown in Fig. 7, XRD patterns of fresh and used OCs reveals
+that its major component was CuO. The presence of CuMgSi2O6,
+CuFe2O4 and CaCu2O3 indicated that the active component (CuO)
+could react with support. That also explained the difference of
+initial oxygen release temperature between Cu-ore and CuO. The
+XRD analysis in Fig. 7 showed the phase of Cu2O in the reduced
+phase among all three oxygen carriers, even FeO and Fe3O4 in the
+used 60CueFe. The reason for that may be attributed to two as-
+pects. First, it was difﬁcult to control the stoichiometric ratio to 1 in
+the weighing process, so the oxygen carriers were slightly excessive
+in most cases. Second, the relative positions of oxygen carriers and
+fuel did not change in TGA experiments. Char will react with the
+surrounding OCs and Fe2O3 could be reduced by the char at high
+temperature [19,22].
+3.4.2. SEM-EDX analysis of OCs
+In order to illustrate the effect of the support of three different
+ores better, CuO was used for comparison in experiments. The SEM
+images of fresh and used OCs are shown in Fig. 8. It was observed
+that CuO suffered from severe sintering problem after reaction,
+while almost no sintering phenomenon could be detected on the
+surface of used 60Cu-ore. The used particles showed no sintering or
+agglomeration which was in line with the avoidance of tendency
+towards agglomeration during reaction. EDX was further employed
+to determine the chemical composition of the 60Cu-ore, shown in
+Fig. 9. C was not observed in the EDX spectra, except for the basic
+elements in the oxygen carrier. The results showed that there was
+no carbon deposition on the surface of the OCs.
+3.5. Power generation
+The main purpose of solid fuel in CLC is to generate power and
+achieve high CO2 capture efﬁciency. Design and operating param-
+eters of the CLC system, such as the pressure drops, temperature,
+and combustion efﬁciency etc., will affect the overall performance
+of the plant. The heat inside the CLC reactor is removed for further
+utilization in downstream turbines. Thus, reactor temperature
+plays a signiﬁcant role in improving the overall plant efﬁciency
+[37]. In the case that a combined cycle was used i.e. air based, CO2
+and steam turbines, the overall efﬁciency enhanced as the fuel-
+reactor temperature increases [38]. Shiyi Chen [39] performed
+joint simulation of CLC reactors at 850 Ce910 C using Fe2O3 as
+oxygen carrier and a Supercritical CO2 (sCO2) Brayton cycle for
+power generation. The results showed that the net power efﬁciency
+increased from 41.3% to 43.3% as the turbine inlet temperature
+increased about 50 C. Chen et al. [6] also concluded that the main
+factor that limited CLC combined cycle for power plant efﬁciency
+was the reactor temperature which was constrained by the oxygen
+carrier material. They estimated that a 100 C increase in turbine
+inlet temperature could translate into a net electrical efﬁciency gain
+of ~2%.
+In our study, the results indicated that the optimum reaction
+temperature of the CuO-based oxygen carriers was 950 C which
+was higher than the temperature in the literature [40,41] due to the
+support of chrysolite, iron ore and limestone. Moreover, higher
+temperature determined a better char conversion [42] and a larger
+fraction of low heat value (LHV) energy of exploited fuel, leading to
+an increment of the electric power. Thus, higher temperature off-
+gas from the fuel reactor sucked in the heat utilization power
+generation system could obtain higher efﬁciency in CLC power
+plants.
+4. Conclusion
+The CuO supported on iron ore, chrysolite and limestone were
+investigated as an OC using TGA in CLC process at 950 C in N2 and
+CO2 atmosphere at different heating rate. The oxygen uncoupling
+properties and the reactivity of the Cu-ore were evaluated. The
+following conclusions are drawn:
+1) The oxygen release process of Cu-based OCs occurred at around
+800 C and the reaction was improved with the increasing
+temperature. The formation of CuFe2O4 in 60CueFe had a
+negative effect on the oxygen release process due to the stable
+spinel structure. 60Cu-L had two oxygen release process in N2
+atmosphere. The XRD analysis showed the weight change be-
+tween 500 and 720 C resulted from CuO uncoupling.
+Fig. 9. EDX proﬁles of used OC particles, (a) 60Cu-Ch-char-CO2-40 C/min; (b) 60Cu-L-
+char-CO2-40 C/min; (c) 60CueFe-char-CO2-40 C/min.
+C. Kuang et al. / Renewable Energy 154 (2020) 937e948
+946
+
+
+===== Page 11 =====
+
+2) Ch-modiﬁed CuO and limestone-modiﬁed CuO presented better
+reactivity for char conversion. The reason for that may result
+from the catalytic properties of chrysolite and limestone during
+char gasiﬁcation. The higher reactivity of CuO modiﬁed by
+chrysolite reacted with char also shows that chrysolite is a
+better support material for CuO. Additionally, it should be noted
+that the conversion of three OCs reacted with biomass char
+reached over 90% under N2 atmosphere and 95% under CO2
+atmosphere.
+3) For the OC-char reaction, the process during 750e850 C should
+be controlled by the solid-solid reaction due to the low reac-
+tivity of oxygen release. With temperature increasing to 950 C,
+the second period should be caused by the combustion of char
+with the oxygen released from the OCs. Gasiﬁcation of char in
+CO2 atmosphere has positive effect on the chemical looping
+combustion of solid fuel when the temperature is above 800 C.
+4) SEM analysis proved that the no sintering and agglomeration
+phenomenon occurred in Cu-ore. No carbon deposition was
+found on the surface of the OCs. These results indicated that the
+addition of ores inhibits the agglomeration of CuO at 950 C.
+Author contributions section
+Cao Kuang: Conceptualization, Methodology, Formal analysis
+Data curation, Writing- Original draft preparation, Investigation.
+Shuzhong Wang: Conceptualization, Project administration,
+Investigation.
+Ming Luo: Writing- Reviewing and Editing, Methodology.
+Jianjun Cai: Visualization, Writing- Reviewing and Editing.
+Jun Zhao: Supervision, Software.
+Declaration of competing interest
+The authors declare that they have no known competing
+ﬁnancial interests or personal relationships that could have
+appeared to inﬂuence the work reported in this paper.
+Acknowledgments
+The authors gratefully acknowledge the ﬁnancial support by the
+Fundamental
+Research
+Funds
+for
+the
+Central
+Universities
+(xjh012019019).
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at
+https://doi.org/10.1016/j.renene.2020.03.027.
+References
+[1] T. Mendiara, I. Adanez-Rubio, P. Gayan, A. Abad, L.F. deDiego, F. García-Labi-
+ano,
+J.
+Adanez,
+Process
+comparison
+for
+biomass
+combustion:
+in
+situ
+gasiﬁcation-chemical looping combustion (iG-CLC) versus chemical looping
+with oxygen uncoupling (CLOU), Energy Technol. 4 (2016) 1130e1136.
+[2] D.P. Hanak, V. Manovic, Calcium looping combustion for high-efﬁciency low-
+emission power generation, J. Clean. Prod. 161 (2017) 245e255.
+[3] W.X.a.S. Wang, Investigation of gasiﬁcation chemical looping combustion
+combined cycle performance, Energy Fuels 22 (2008) 961e966.
+[4] L. Zhu, P. Jiang, J. Fan, Comparison of carbon capture IGCC with chemical-
+looping combustion and with calcium-looping process driven by coal for
+power generation, Chem. Eng. Res. Des. 104 (2015) 110e124.
+[5] J. Wang, H. Zhao, Evaluation of CaO-decorated Fe2O3/Al2O3 as an oxygen
+carrier for in-situ gasiﬁcation chemical looping combustion of plastic wastes,
+Fuel 165 (2016) 235e243.
+[6] C.C.a.G.M. Bollas, Optimal Design of Combined Cycle Power Plants with Fixed-
+Bed Chemical-Looping Combustion Reactors, 2019, p. 65.
+[7] N. Berguerand, A. Lyngfelt, Design and operation of a 10kWth chemical-
+looping combustor for solid fuels e testing with south african coal, Fuel 87
+(2008) 2713e2726.
+[8] P. Markstr€om, C. Linderholm, A. Lyngfelt, Chemical-looping combustion of
+solid fuels e design and operation of a 100kW unit with bituminous coal, Int. J.
+Greenh. Gas Contr. 15 (2013) 150e162.
+[9] A. Cuadrat, A. Abad, F. García-Labiano, P. Gayan, L.F. de Diego, J. Adanez,
+Relevance of the coal rank on the performance of the in situ gasiﬁcation
+chemical-looping combustion, Chem. Eng. J. 195e196 (2012) 91e102.
+[10] T. Mattisson, A. Lyngfelt, H. Leion, Chemical-looping with oxygen uncoupling
+for combustion of solid fuels, Int. J. Greenh. Gas Contr. 3 (2009) 11e19.
+[11] I. Adanez-Rubio, A. Abad, P. Gayan, L.F. de Diego, F. García-Labiano, J. Adanez,
+Identiﬁcation of operational regions in the chemical-looping with oxygen
+uncoupling (CLOU) process with a Cu-based oxygen carrier, Fuel 102 (2012)
+634e645.
+[12] P. Gayan, I. Adanez-Rubio, A. Abad, L.F. de Diego, F. García-Labiano, J. Adanez,
+Development of Cu-based oxygen carriers for chemical-looping with oxygen
+uncoupling (CLOU) process, Fuel 96 (2012) 226e238.
+[13] M. Arjmand, A.-M. Azad, H. Leion, A. Lyngfelt, T. Mattisson, Prospects of
+Al2O3and MgAl2O4-Supported CuO oxygen carriers in chemical-looping
+combustion (CLC) and chemical-looping with oxygen uncoupling (CLOU),
+Energy Fuels 25 (2011) 5493e5502.
+[14] I. Adanez-Rubio, A. Abad, P. Gayan, L.F. de Diego, F. García-Labiano, J. Adanez,
+Biomass combustion with CO2 capture by chemical looping with oxygen
+uncoupling (CLOU), Fuel Process. Technol. 124 (2014) 104e114.
+[15] M. Arjmand, H. Leion, T. Mattisson, A. Lyngfelt, Investigation of different
+manganese ores as oxygen carriers in chemical-looping combustion (CLC) for
+solid fuels, Appl. Energy 113 (2014) 1883e1894.
+[16] T.M. Qamar Zafar, B€orje Gevert, Redox investigation of some oxides of
+transition-state metals Ni, Cu, Fe, and Mn supported on SiO2 and MgAl2O4 20
+(2006) 34e44.
+[17] H.T. Ranjani Siriwardane, George Richards, Thomas Simonyi, Poston James,
+Chemical-looping combustion of coal with metal oxide oxygen carriers, En-
+ergy Fuels 23 (2009) 3885e3892.
+[18] R.S. Hanjing Tian, Thomas Simonyi, Poston James, Natural ores as oxygen
+carriers in chemical looping combustion, Energy Fuels 27 (2013) 4108e4118.
+[19] Y.C.a.W.-P. Pan, Investigation of chemical looping combustion by solid fuels. 1.
+process analysis, Energy Fuels 20 (2006) 1836e1844.
+[20] S. Wang, M. Luo, G. Wang, L. Wang, M. Lv, Analysis of reactivity of a CuO-based
+oxygen carrier for chemical looping combustion of coal, Energy Fuels 26
+(2012) 3275e3283.
+[21] P. Wang, N. Means, B.H. Howard, D. Shekhawat, D. Berry, The reactivity of CuO
+oxygen carrier and coal in chemical-looping with oxygen uncoupled (CLOU)
+and in-situ gasiﬁcation chemical-looping combustion (iG-CLC), Fuel 217
+(2018) 642e649.
+[22] B.C. Yan Cao, Wei-Ping Pan, Investigation of chemical looping combustion by
+solid fuels. 2. redox reaction kinetics and product characterization with coal,
+biomass, and solid waste as solid fuels and CuO as an oxygen carrier, Energy
+Fuels 20 (2006) 1845e1854.
+[23] I. Adanez-Rubio, M. Arjmand, H. Leion, P. Gayan, A. Abad, T. Mattisson,
+A. Lyngfelt, Investigation of combined supports for Cu-based oxygen carriers
+for chemical-looping with oxygen uncoupling (CLOU), Energy Fuels 27 (2013)
+3918e3927.
+[24] L. Chen, J. Bao, L. Kong, M. Combs, H.S. Nikolic, Z. Fan, K. Liu, Activation of
+ilmenite as an oxygen carrier for solid-fueled chemical looping combustion,
+Appl. Energy 197 (2017) 40e51.
+[25] H.Z. Weijing Yang, Jinchen Ma, Daofeng Mei, and Chuguang Zheng, Copper-
+decorated hematite as an oxygen carrier for in situ gasiﬁcation chemical
+looping combustion of coal, Energy Fuels 28 (2014) 3970e3981.
+[26] R. Siriwardane, H. Tian, T. Simonyi, J. Poston, Synergetic effects of mixed
+coppereiron oxides oxygen carriers in chemical looping combustion, Fuel 108
+(2013) 319e333.
+[27] K. Mitsuoka, S. Hayashi, H. Amano, K. Kayahara, E. Sasaoaka, M.A. Uddin,
+Gasiﬁcation of woody biomass char with CO2: the catalytic effects of K and Ca
+species on char gasiﬁcation reactivity, Fuel Process. Technol. 92 (2011) 26e31.
+[28] Z. Zhang, Y. Wang, L. Zhu, J. Li, F. Wang, G. Yu, Performance of Fe2O3/Al2O3
+oxygen carrier modiﬁed by CaCO3 and CaSO4 in chemical looping combustion,
+Appl. Therm. Eng. 160 (2019).
+[29] E. Jerndal, T. Mattisson, I. Thijs, F. Snijkers, A. Lyngfelt, NiO particles with Ca
+and Mg based additives produced by spray- drying as oxygen carriers for
+chemical-looping combustion, Energy Procedia 1 (2009) 479e486.
+[30] T.X. Xun Wanga, Xiaoyu Jina, Zhiquan Hua, Shiming Liua, Bo Xiaoa,
+Zhihua Chenb, Mian Hua, CuO supported on olivine as an oxygen carrier in
+chemical looping processes with pine sawdust used as fuel, Chem. Eng. J. 330
+(2017) 480e490.
+[31] C. Saha, S. Bhattacharya, Chemical looping combustion of low-ash and high-
+ash low rank coals using different metal oxides e a thermogravimetric ana-
+lyser study, Fuel 97 (2012) 137e150.
+[32] C.a. Wang, X. Zhang, Y. Liu, D. Che, Pyrolysis and combustion characteristics of
+coals in oxyfuel combustion, Appl. Energy 97 (2012) 264e273.
+[33] Y. Zhang, H. Zhao, L. Guo, C. Zheng, Decomposition mechanisms of Cu-based
+oxygen carriers for chemical looping with oxygen uncoupling based on
+density
+functional
+theory
+calculations,
+Combust.
+Flame
+162
+(2015)
+1265e1274.
+[34] Z. Huang, F. He, H. Zhu, D. Chen, K. Zhao, G. Wei, Y. Feng, A. Zheng, Z. Zhao,
+H. Li, Thermodynamic analysis and thermogravimetric investigation on
+chemical looping gasiﬁcation of biomass char under different atmospheres
+C. Kuang et al. / Renewable Energy 154 (2020) 937e948
+947
+
+
+===== Page 12 =====
+
+with Fe2O3 oxygen carrier, Appl. Energy 157 (2015) 546e553.
+[35] P.S. Gabor Varhegyi, Emma Jakab, Ferenc Till, Mathematical modeling of char
+reactivity in Ar-O2 and CO2-O2 mixtures, Energy Fuels 10 (1996) 1208e1214.
+[36] M.P. Kannan, G.N. Richards, Gasiﬁcation of biomass chars in carbon-dioxide -
+dependence of gasiﬁcation rate on the indigenous metal content, Fuel 69
+(1990) 747e753.
+[37] V. Spallina, M.C. Romano, P. Chiesa, F. Gallucci, M. van Sint Annaland, G. Lozza,
+Integration of coal gasiﬁcation and packed bed CLC for high efﬁciency and
+near-zero emission power generation, Int. J. Greenh. Gas Contr. 27 (2014)
+28e41.
+[38] J. Adanez, A. Abad, F. Garcia-Labiano, P. Gayan, L.F. de Diego, Progress in
+chemical-looping combustion and reforming technologies, Prog. Energy
+Combust. Sci. 38 (2012) 215e282.
+[39] A.S. Shiyi Chen, Ran Yu, Jun Hu, Zhao Sun, Wenguo Xiang, Integration of
+chemical looping combustion and supercritical CO2 cycle for combined heat
+and power generation with CO2 capture, Energy Convers. Manag. 167 (2018)
+113e124.
+[40] S. Mukherjee, P. Kumar, A. Yang, P. Fennell, Energy and exergy analysis of
+chemical
+looping
+combustion
+technology
+and
+comparison
+with
+pre-
+combustion
+and
+oxy-fuel
+combustion
+technologies
+for
+CO2
+capture,
+J. Environ. Chem. Eng. 3 (2015) 2104e2114.
+[41] M.A. Petriz-Prieto, V. Rico-Ramirez, G. Gonzalez-Alatorre, F.I. Gomez-Castro,
+U.M. Diwekar, A comparative simulation study of power generation plants
+involving chemical looping combustion systems, Comput. Chem. Eng. 84
+(2016) 434e445.
+[42] M. Spinelli, P. Peltola, A. Bischi, J. Ritvanen, T. Hypp€anen, M.C. Romano, Process
+integration of chemical looping combustion with oxygen uncoupling in a coal-
+ﬁred power plant, Energy 103 (2016) 646e659.
+C. Kuang et al. / Renewable Energy 154 (2020) 937e948
+948

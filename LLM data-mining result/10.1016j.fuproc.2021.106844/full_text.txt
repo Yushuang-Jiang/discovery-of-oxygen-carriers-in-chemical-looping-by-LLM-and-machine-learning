@@ -1,0 +1,1175 @@
+
+
+===== Page 1 =====
+
+Fuel Processing Technology 218 (2021) 106844
+Available online 15 April 2021
+0378-3820/© 2021 Elsevier B.V. All rights reserved.
+Research article 
+Understanding of the oxygen uncoupling characteristics of Cu–Fe 
+composite oxygen carriers for chemical-looping gasification 
+Kun Wang a,c,d,*, Fuqing Wang a, Qingbo Yu a,c,d,*, Martin van Sint Annaland b, Ziyu Wang a, 
+Jiaze Xi a, Yunwei Zhang a, Meng Xue a, Shijie Du a 
+a School of Metallurgy, State Environmental Protection Key Laboratory of Eco-Industry, Northeastern University, Shenyang 110819, China 
+b Chemical Process Intensification, Department of Chemical Engineering and Chemistry, Eindhoven University of Technology, Eindhoven 5600, MB, Netherlands 
+c Institute for Frontier Technologies of Low-Carbon Steelmaking, Northeastern University, Shenyang 110819, China 
+d Liaoning Province Engineering Research Center for Technologies of Low-Carbon Steelmaking, Shenyang 110819, China   
+A R T I C L E  I N F O   
+Keywords: 
+Chemical-looping gasification 
+Composite oxygen carrier 
+Oxygen uncoupling 
+Characteristic 
+Stability 
+Kinetics 
+A B S T R A C T   
+A Cu–Fe oxygen carrier (OC) with oxygen uncoupling capability is proposed to be applied in chemical-looping 
+gasification with oxygen uncoupling (CLGOU) technology to increase the gasification rate. Density functional 
+theory analysis shows that a chemical reaction occurs after Cu4O4 cluster adsorption onto α - Fe2O3 (001) surface. 
+Extension of bond length and transfer of charge indicate the composite oxide has been activated. An optimal 
+molar ratio of 2:1 of CuO to Fe2O3 is determined for the preparation the OC and the oxygen transport capacity is 
+determined at 3.65 wt% with a starting oxygen uncoupling temperature is 749.5 ◦C. The composite OC exhibits 
+good low-temperature oxygen uncoupling characteristics. This OC exhibits stable behaviour and satisfactory 
+oxygen recyclability over 15 consecutive redox cycles at 900 ◦C / 700 ◦C oxygen uncoupling and absorbing 
+temperatures. The high stability is corresponding to the calculation result (high adsorption energy of CuO onto 
+Fe2O3). And oxygen uncoupling rates are much higher than the lower limit (0.4 wt%/min) for cracking. The 
+chemical phases and surface micromorphology all retain stable after cycles. Using combined Coats-Redfern and 
+Malek method, the oxygen uncoupling kinetic model of Cu–Fe OC is determined as a shrinking core model (m =
+3).   
+1. Introduction 
+Waste resource utilization and climate change are the most 
+compelling problems of today’s world [1]. Therefore, finding and 
+exploiting alternative energy sources has become a hot topic in the en­
+ergy and environmental research fields. Biomass, a clean and renewable 
+energy, has been the fourth largest energy source after oil, coal and 
+natural gas [2]. Compared with coal, the sulphur and ash contents of 
+biomass are much lower. Besides, biomass is the only renewable source 
+of carbon, which can solidify CO2 from the air and achieve net zero CO2 
+emissions [3,4]. Clean and efficient use of biomass will effectively help 
+alleviating energy shortage and protect ecology. 
+At present, the utilization of biomass mainly includes bio-briquette 
+fuel, bio-syngas, and bio-liquid fuel [5]. And thermochemical trans­
+formation, physical transformation and biological transformation are 
+the main methods to convert biomass to biofuel. Among the thermal 
+chemical transformation processes, biomass gasification has the highest 
+industrial application prospect with advantages of a high gas production 
+rate, a high degree of automation and operation at large scale [6]. By 
+2015, the global biogas output is about 57 billion m3, of which the 
+annual biogas output in Germany is more than 20 billion m3. The 
+Swedish biogas meets 30% of the national demand for vehicle gas [7]. 
+During gasification, biomass is converted to easily transportable gas 
+fuels under high heat demand, and the main reaction products are H2, 
+CH4, CO, CO2 and a small amount of other hydrocarbons [8]. In this 
+process, the gasification agents such as air, O2, H2O and CO2 are used. 
+However, the presence of N2 in the gas products greatly reduces the heat 
+value of the produced syngas when air is used as gasification agent. Pure 
+oxygen as the gasification agent has benefits of a high carbonization rate 
+and high concentration of combustible gas, but the high cost of current 
+oxygen production technologies adversely affect the economy of 
+biomass gasification by pure oxygen hampering its exploitation [9]. 
+* Corresponding authors at: School of Metallurgy, State Environmental Protection Key Laboratory of Eco-Industry, Northeastern University, Shenyang 110819, 
+China. 
+E-mail addresses: wangkun@mail.neu.edu.cn (K. Wang), yuqb@mail.neu.edu.cn (Q. Yu).  
+Contents lists available at ScienceDirect 
+Fuel Processing Technology 
+journal homepage: www.elsevier.com/locate/fuproc 
+https://doi.org/10.1016/j.fuproc.2021.106844 
+Received 23 December 2020; Received in revised form 24 March 2021; Accepted 6 April 2021   
+
+
+===== Page 2 =====
+
+Fuel Processing Technology 218 (2021) 106844
+2
+To find a suitable oxygen source for biomass gasification, the 
+chemical-looping gasification (CLG) was proposed [10]. During gasifi­
+cation, fuel is gasified by lattice oxygen in oxygen carrier (OC) following 
+syngas mainly consists of CO and H2, maintained by controlling the ratio 
+of the OC and fuel. Subsequently, during oxidation, the reduced OC 
+absorbs oxygen to bring the OC back to the oxidized state. The most 
+expected advantages are: i) OC provides lattice oxygen for gasification, 
+and a separate oxygen unit is omitted; ii) the heat released can be carried 
+out over by the OC from air reactor to gasification reactor, thus acting 
+also as a heat carrier; iii) the metal OC can catalyze reactions with tar, 
+which can reduce the tar content [11–13]. 
+The OC links the two separated reactors and is the key for a good 
+performance of CLG. Extensive researches on OCs for CLG have been 
+carried out. Huang et al. found that the carbon conversion rate and 
+syngas production rate using CLG technology increased by 7.47% and 
+11.02% respectively, compared with traditional steam gasification [14]. 
+They also studied the Ni–Fe composite OC for CLG at 1200 ◦C, and their 
+results showed that NiFe2O4 promoted the gasification of fixed carbon 
+[15]. Sozen et al. carried out CLG experiments using an Fe-based OC and 
+found that the H2 and CO yields, carbon transformation rate all 
+enhanced with an increase in the gasification temperatures [16]. Zhao 
+et al. utilized a Cu-based OC to gasify biomass at 600–850 ◦C and found 
+that the Cu-based OC could prompt the carbon conversion and reduce 
+the C2Hm and tar in the syngas [17]. Ge et al. used natural hematite OC 
+and determined the optimal gasification parameters: 860 ◦C gasification 
+temperature, 1.0 steam-to-biomass ratio and 40 wt% hematite mass 
+percentage [18]. 
+The reported studies on CLG mainly focused on the reaction between 
+lattice oxygen and fixed carbon as well as the catalysis of tar. In this 
+process, the solid OC reacts with solid biomass char or fixed carbon 
+directly. Due to the restriction of diffusion, heat and mass transfer, the 
+solid-solid gasification reaction does not occur at an appreciable rate. 
+The low gasification rate of solid fuel is also the limit of chemical- 
+looping combustion (CLC) [19–21]. In solve this limit, a novel 
+chemical-looping with oxygen uncoupling (CLOU) technology was put 
+forward in 2005 [22–24]. OC first undergoes oxygen uncoupling and 
+releases gaseous oxygen. And solid fuels are directly gasified by gaseous 
+oxygen released. Solid-solid combustion of OC and fuel converts to gas- 
+solid combustion of released gaseous oxygen and fuel. Thus, combustion 
+efficiency is significantly increased. Based upon the CLOU concept, in 
+this study the OC with oxygen uncoupling capability is proposed to be 
+applied in the CLG technology. A schematic of the chemical-looping 
+gasification with oxygen uncoupling (CLGOU) is shown in Fig. 1. 
+In CLGOU technology, the gasification agent is the gaseous oxygen 
+released by OC and steam. O2-steam gasification of biomass is a rela­
+tively mature technology and many works on O2-steam gasification have 
+been carried out. Meng et al. investigated the effects of operational 
+conditions on the tar formation in O2-steam gasification at temperatures 
+of 730–820 ◦C and found that bed materials affected the tar 
+decomposition [25]. Huynh et al. studied the characteristics of O2- 
+enriched air and steam biomass gasification process at 800 ◦C and 
+concluded that this process favors the production of combustible gas 
+components in the syngas [26]. Fu et al. indicated that the biomass 
+gasification could be completed below 800 ◦C when enriched air and 
+steam were used as fluidizing and oxidizing agents [27]. 
+Based upon the above analysis, the OC, which has a low reduction 
+temperature is required for the of CLGOU technology. CuO, Mn2O3 and 
+Co3O4 are commonly used in CLOU. Among these, the Cu-based OC has 
+the highest reactivity and oxygen transport capacity of CuO is 10 wt%, 
+but the uncoupling temperature is also high (>800 ◦C). For a Mn-based 
+OC, the uncoupling temperature is the lowest (~600 ◦C) and the oxygen 
+transport capacity of Mn2O3 is 3.4 wt%. However, it suffers from 
+oxidation due to the thermodynamic limits. The highest reaction heat 
+and price, as well as the satety and environmetal concerns restrict the 
+scale-up application of Co-based OC [28–30]. The oxygen transport 
+capacity of Co3O4 is 6.6 wt%. CuO and Fe2O3 are mostly used in CL 
+technologies. More importantly, they all have the catalysis on the gasi­
+fication reaction as well as the reduction of tar [3,18,31–33]. Many 
+works have proved that elemental composition can effectively improve 
+the thermodynamic properties of oxides [34–39]. In this study, we 
+attempt to develop a typical Cu–Fe composite OC and investigate its 
+feasibility for CLGOU. 
+This study focuses on oxygen uncoupling characteristics and mech­
+anism of the Cu–Fe combined OC. Density functional theory (DFT) 
+calculation was introduced to investigate the activity and stability of 
+CuO onto α - Fe2O3 (0 0 1) surface. In the following parts, the Cu–Fe 
+composite OC was prepared, and the oxygen uncoupling performances 
+viz. reactivity, kinetic and stability, were investigated experimentally. 
+The optimal mole ratio of CuO and Fe2O3 was determined based upon 
+the oxygen uncoupling temperature and oxygen transport capacity. The 
+redox reactivity under several critical operating parameters, viz. oxygen 
+concentration and heating rate was investigated by thermogravimetric 
+analysis. Stability of Cu–Fe composite OC over several consecutive 
+redox cycles was investigated followed by BET, XRD, and SEM charac­
+terizations. Finally, a kinetic model of the oxygen uncoupling reaction 
+was developed from the obtained experimental data. The oxygen 
+uncoupling reactivity, kinetics, and stability data of this type of OC is the 
+basis for the further development and design of a CLGOU system and 
+gasification reactor. 
+2. Computational and experimental section 
+2.1. Computation module and parameter setting 
+In recent years, DFT calculation has successfully gotten the interac­
+tion information of composite materials from an electronic and atomic 
+level. In this paper, the aims of DTF calculations were mainly obtain the 
+activity and stability of CuO/Fe2O3 adsorption system theoretically. In 
+Gasification Reactor 
+Biomass   Char + Tar + Syngas
+MexOy    MexOy-2 + O2
+Char + tar + H2O+O2    Syngas 
+Air Reactor 
+MexOy-2 + O2    MexOy
+MexOy-2 
+Oxygen-poor air
+Syngas
+MexOy
+Air
+Biomass+Steam
+Fig. 1. Schematic of CLGOU.  
+K. Wang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 3 =====
+
+Fuel Processing Technology 218 (2021) 106844
+3
+our calculations, the DMol3 module was selected, and the method used 
+was a generalized gradient approximation (GGA) employed by the 
+exchange-collection potential of Perdew, Burke, and Ernzerhof (PBE). 
+Effective Core Potential (ECP) was used to replace inner electrons, and 
+the valence electron wave function was Double Numeric with Polari­
+zation (DNP) [40–42]. The parameters settings for all calculations are 
+summarized in Table 1. 
+2.2. Preparation of OC 
+The Cu–Fe composite OC was prepared using mechanical mixing 
+method with analytical purity powders (≥99.0%) of CuO, Fe2O3 and 
+ZrO2 as raw materials. ZrO2 was used as the support. Among the suitable 
+binders (ZrO2, SiO2, Al2O3, MgAl2O4, cement etc.) for OC, ZrO2 has the 
+advantage of high stability during redox reaction and its function is to 
+enhance the sintering resistance characteristic of OC [43]. The whole 
+preparation process includes: mixing, drying (80 ◦C for 12 h), calcining 
+(950 ◦C for 6 h), squeezing and sieving (150– 180 μm). 
+2.3. Characterization of OC 
+DFT calculations indicate new phases formed in the OC particles. 
+XRD (PANalytieal PW 3040/60) was used to determine phase compo­
+sitions of Cu–Fe composite OC. SEM-EDX (ULTRA 55) is a useful 
+measurement to assess the sintering resistance characteristic of OC. The 
+specific surface area (BET, Quantachrome NOVA 1200e) affects the gas 
+diffusion rate inside the OC particle. The crushing strength of OC is 
+another essential characteristic, which strongly affects the long-time use 
+of OC in fluidized bed or fixed bed. A press apparatus measured the 
+crushing strengths of OC in this study. 
+2.4. Experimental set-up 
+Experiments were performed in a TGA (NETZSCH, STA 409 PC). In 
+each test, ~10 mg composite material was placed in a corundum cru­
+cible. During the oxygen uncoupling process, 0.0, 7.0, 14.0, 21.0, 33.3, 
+50.0 vol% O2 in N2 mixing gases were used, and the volumetric flow was 
+30 ml⸱min−1. The Cu–Fe OC was heated from room temperature to 
+1100 ◦C with heating rates of 10, 15, 20, 25 K⸱min−1, respectively. 
+2.5. Data evaluation 
+In the DFT calculations, the binding energy (Ebind) refers to the dif­
+ference of total energy of each substance before and after adsorption, 
+given by [44]: 
+Ebind = E(Cu4O4−surface) −
+(
+E(surface) + E(Cu4O4)
+)
+(1)  
+where E(Cu4O4-surface) is total energy of adsorption model, eV; E(Cu4O4) is 
+energy of Cu4O4 cluster, eV; E(surface) is energy of adsorption surface, eV. 
+During each experiment, recording the temperature and mass of the 
+sample as a function of temperature or time, the conversion was deter­
+mined via: 
+XOC = 1 −
+M −Mred
+Moxi −Mred
+(2)  
+where XOC is the conversion of OC, %; Mred and Moxi represent the mass 
+of complete reduced and oxidized OC, mg; and M is the real-time mass, 
+mg. 
+3. Density functional theory analysis 
+3.1. Optimization of Fe2O3 surface structure 
+Fe2O3 belongs to α type cell structure under natural conditions and α 
+- Fe2O3 crystallizes in the hexagonal close-packed corundum. The space 
+group is R-3c, which is an antimagnetic material. The spin direction is 
+↑↓↑. Fig. 2(a) shows a cell structure of Fe2O3. The theoretical value of 
+cell parameters after optimization is a = b = 5.035 Å, c = 13.720 Å, 
+agreeing well with the experimental value (a = b = 5.038 Å, c = 13.772 
+Å) [45–47]. 
+α - Fe2O3 (0 0 1) surface is a low index surface with catalytic activity, 
+and the Fe - terminated surface is the most stable. Therefore, this surface 
+Table 1 
+Parameter settings.  
+Parameters 
+Values 
+Energy tolerance 
+1.0E-5 Ha 
+Force tolerance 
+0.002 Ha/Å 
+Maximum iteration steps 
+500 
+Maximum step length 
+0.3 Å 
+SCF convergence 
+1.0E-6 
+Maximum displacement tolerance 
+0.005 Å 
+Smearing 
+0.001  
+Fig. 2. Structure of α - Fe2O3 cell.  
+K. Wang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 4 =====
+
+Fuel Processing Technology 218 (2021) 106844
+4
+is selected for calculations, and the vacuum layer is taken as 20 Å, and a 
+(2 × 2) nine-layer supercell plate model is constructed for optimization. 
+Fig. 2 (b) and (c) are the main view and top view of α - Fe2O3 (0 0 1) 
+surface structure, respectively. 
+Convergence test of K-points was carried out. The results show that 
+the differences of total energies under K-point meshes of 2 × 2 × 1, 3 × 3 
+× 1 and 4 × 4 × 1 are very minimal (< 10−3 eV) and they all show 
+considerable accuracy. Thus, in order to save calculation time, the K- 
+point mesh is selected as 2 × 2 × 1, and the total energy is −1.55E5 eV. 
+3.2. Adsorption of Cu4O4 cluster onto α - Fe2O3 (0 0 1) 
+Fig. 3 (a) depicts initial position of the adsorption model. Cu4O4 
+cluster is placed above the surface of α - Fe2O3 (0 0 1), so that the dis­
+tance between O atom at bottom of cluster and the two Fe3f atoms on the 
+surface is equal, which is 2.834 Å. After optimization, depicted in Fig. 3 
+(b), it can be seen that the atomic structure of the adsorption model has 
+changed clearly, and the structure of Cu4O4 cluster has become dis­
+torted. The calculated binding energy is −6.14 eV and this value is 
+higher than the binding energies of Cu4O4 cluster onto CuO (111) 
+(−2.92 eV) [44], CuAl2O4 (100) (−4.25 eV) [44], and onto ZrO2 (101) 
+(−5.54 eV) [42]. It indicates chemical adsorption has taken place, and 
+the sintering resistance characteristic of Cu–Fe composite OC should be 
+very high. 
+The changes of Mulliken charge and bond length of Cu4O4 clusters by 
+adsorption onto α - Fe2O3 (0 0 1) surface were compared. The average 
+length of Cu & O develops from 1.983 Å in initial state to 2.343 Å after 
+adsorption (see Table 2). The charge numbers of all of the Cu (O) atoms 
+after adsorption have been changed. Meanwhile, the overall charge data 
+decreases from 0 to −0.023, and the Cu4O4 cluster obtains some elec­
+trons from α - Fe2O3 (0 0 1) surface. The extending of bond length and 
+the charge transferring also indicates the composite oxide has been 
+activated [48]. 
+The electronic properties are analyzed furtherly by comparing the 
+density of states (DOS). Fig. 4 shows changes of DOS of the surface of α - 
+Fe2O3 (0 0 1) before and after Cu4O4 cluster was loaded. The position of 
+DOS peak remains unchanged before and after loading. However, the 
+DOS peaks are steep at −19 ~ −16 eV, and the electron shows strong 
+localization. The DOS peaks appear mild at −7.5– 0 eV, and the electron 
+has strong delocalization. The lower peak intensity after loading in­
+dicates that part of the electrons on the surface has been lost and 
+Fig. 3. Structure of α - Fe2O3 (0 0 1) surface adsorption Cu4O4 cluster. 
+(a - Initial state; b - Optimized). 
+Table 2 
+Changes of Mulliken atom charge and bond length before and after adsorption.  
+Cu4O4 
+Cu(1) 
+Cu(2) 
+Cu(3) 
+Cu(4) 
+O(1) 
+O(2) 
+O(3) 
+O(4) 
+Overall charge 
+Cu & O 
+(Å) 
+Free 
+0.547 
+0.547 
+0.547 
+0.547 
+−0.547 
+−0.547 
+−0.547 
+−0.547 
+0 
+1.983 
+Adsorption 
+0.444 
+0.458 
+0.577 
+0.564 
+−0.477 
+−0.462 
+−0.541 
+−0.586 
+−0.023 
+2.343  
+Fig. 4. DOS of α - Fe2O3 (0 0 1) before and after Cu4O4 cluster loaded.  
+K. Wang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 5 =====
+
+Fuel Processing Technology 218 (2021) 106844
+5
+transferred to Cu4O4 cluster, which is consistent with the result of the 
+Mulliken charge analysis. 
+Fig. 5 shows the changes of DOS of Cu4O4 cluster before and after 
+loading onto α - Fe2O3 (0 0 1) surface. The Cu4O4 cluster has fewer DOS 
+peaks after loading onto α - Fe2O3 (0 0 1) surface. The DOS peaks have 
+even disappeared entirely after the position of 2 eV energy level. 
+Fig. 5. DOS of Cu4O4 cluster before and after loading onto α - Fe2O3 (0 0 1) surface.  
+Fig. 6. Weight loss and loss rate of Cu–Fe OC in oxygen uncoupling test.  
+Fig. 7. Conversion and mass loss rate of OC under different local oxygen concentrations.  
+K. Wang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 6 =====
+
+Fuel Processing Technology 218 (2021) 106844
+6
+Moreover, the peaks are more gentle at −5– 0 eV and electrons show 
+strong delocalization, which shows that Cu4O4 cluster and α - Fe2O3 (0 
+0 1) surface have strong interaction and the activity of the adsorption 
+system has been enhanced. 
+4. Experimental results analysis 
+4.1. Determination of mole ratio of CuO to Fe2O3 
+During the preparation of Cu–Fe OC, four-mole ratios of CuO to 
+Fe2O3 were used. Their oxygen uncoupling characteristics were inves­
+tigated, and the results are shown in Fig. 6. For the four samples, the 
+starting oxygen uncoupling temperatures are similar, however, the 
+temperatures at the point of maximum mass loss rate are different. The 
+OC with a molar ratio CuO:Fe2O3 of 1:1 presents the best low- temper­
+ature oxygen uncoupling activity. The reason is that the molar concen­
+tration of the active phase of CuFe2O4 in the OC is the highest at a molar 
+ratio CuO:Fe2O3 of 1:1. Compared to CuO, CuFe2O4 has a good low- 
+temperature oxygen uncoupling property, which is consistent with the 
+DFT calculation results. With the molar ratio CuO:Fe2O3 increasing, 
+there is excessive CuO in the prepared OC. Thus, the temperatures at the 
+peaks of DTG shift to a higher value. However, the mass loss and mass- 
+loss rate of the OC with a molar ratio of 2:1 are biggest. And the oxygen 
+delivery capacity of this OC is 3.65 wt%. This value is lower than copper 
+OC, for example, the oxygen delivery capacity of copper OC with 40 wt% 
+ZrO2 as binder is 6 wt% [49]. But such oxygen delivery capacity is 
+deemed acceptable for CL reactions. The oxygen transport capacity of 
+OC with a mole ratio of 1: 1 is only 1.78 wt%. Based upon the oxygen 
+uncoupling temperature and oxygen transport capacity, the optimal 
+mole ratio of CuO to Fe2O3 of 2:1 is selected. And the starting oxygen 
+uncoupling temperature is determined as 749.5 ◦C, which is lower than 
+the oxygen uncoupling temperature of copper OC (~800 ◦C) [50]. 
+4.2. Reactivity under different oxygen concentrations 
+The conversion and mass loss rate of OC (with the molar ratio of CuO: 
+Fe2O3 = 2: 1) under different local oxygen concentrations is shown in 
+Fig. 7. It can be seen that the starting oxygen uncoupling temperature 
+increased greatly as the local oxygen concentration increases. The 
+reason is that the oxygen uncoupling properties depend on the driving 
+Fig. 8. Conversion and mass loss rate of OC under different heating rates.  
+Fig. 9. Redox behaviour of Cu–Fe composite OC.  
+K. Wang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 7 =====
+
+Fuel Processing Technology 218 (2021) 106844
+7
+force of oxygen uncoupling reaction [49]. When the equilibrium oxygen 
+concentration at a specific temperature is higher than local oxygen 
+concentration around the OC particles, OC begins to release oxygen. 
+Furthermore, the starting temperature at 50.0 vol% O2 is 1033.5 ◦C, 
+which increases by 284 ◦C compared to the value for a N2 atmosphere. 
+However, at 1033.5 ◦C, the equilibrium oxygen concentration of Cu- 
+based OC is only 23.2 vol%. This type of OC presents a better low- 
+temperature oxygen uncoupling property. The maximum mass loss 
+rate at 33.3 vol% O2 is the biggest. When the local oxygen concentration 
+increases further, at 50.0 vol% O2, the oxygen uncoupling rate de­
+creases. In CLGOU technology, the oxygen released by OC is consumed 
+immediately by the biochar. Thus, OC always releases oxygen at a 
+relatively low oxygen concentration atmosphere, which allows the ox­
+ygen uncoupling process of the OC to proceed. In addition, the gasifi­
+cation temperature can be kept in a low level as a result of the low 
+oxygen uncoupling temperature of the Cu–Fe OC at a low oxygen 
+concentration atmosphere. 
+4.3. Reactivity under different heating rates 
+In CLGOU technology, the OC cycles between the air and gasification 
+reactors. Due to the endothermic or exothermic reaction in the reactor, 
+the temperature of OC constantly changes. Thus, it is necessary to get the 
+oxygen uncoupling reactivity data for different heating rates. Fig. 8 
+shows conversion and mass loss rate of OC under different heating rates. 
+At high heating rates (20, 25 K/min), the starting temperatures increase. 
+Because the thermal hysteresis caused by heat transfer limitations from 
+surface to core in the particles, temperatures at the maximum oxygen 
+uncoupling rates increase with heating rate increasing. Moreover, the 
+oxygen uncoupling rate also increases. It can be explained by the fact 
+that the time needed to reach a high temperature is the shortest with the 
+highest heating rate, and the high temperature is favorable for the ox­
+ygen uncoupling reaction. When the heating rates increase further, the 
+increasing trend of oxygen uncoupling rates will become low. The 
+reason is that the driving force of oxygen uncoupling is high enough that 
+the OCs will keep high oxygen uncoupling rates at the higher heating 
+rate conditions. 
+4.4. Stability of OC 
+To obtain the stability of OC, redox cycles with N2 for oxygen 
+uncoupling and air for regeneration were carried out at 900 ◦C/700 ◦C 
+oxygen uncoupling and absorbing temperatures. At 900 ◦C, the oxygen 
+uncoupling rate is high enough (seen from Figs. 6~8). And the gasifi­
+cation conversion and gasification rates of biomass in O2-steam 
+gasification atmosphere is high [25–27]. Fig. 9 illustrates the redox 
+behaviour of Cu–Fe composite OC. This OC exhibits stable performance 
+over 15 consecutive redox cycles. This phenomenon is consistent with 
+the DFT calculation results (the high adsorption energy of CuO onto 
+Fe2O3). Moreover, the mass losses in oxygen uncoupling are almost 
+equal to the mass gains in regeneration. The satisfactory oxygen recy­
+clability indicates the OC’s suitability for CLGOU. 
+The oxygen uncoupling and oxidation rates have also been studied 
+and the results are shown in Fig. 10. It can be seen that the oxidation rate 
+is slightly lower than the oxygen uncoupling rate. In industrial CLGOU, 
+these two rates can be balanced by increasing the airflow rate. Ac­
+cording to simple order-of-magnitude calculations, the oxygen uncou­
+pling rates are much higher than 0.4 wt%/min for achieving a desirable 
+cracking rate [51–53]. Therefore, the oxygen uncoupling rates of Cu–Fe 
+OC far exceeds the lower bound for usability, and it is a right candidate 
+for CLGOU technology. 
+The fresh and cycled OC were also characterized for further evalu­
+ation its stability. Fig. 11 illustrates XRD patterns of the prepared and 
+cycled samples. The peak positions and relative intensities of the fresh 
+and cycled samples are almost the same. During the redox cycles, the 
+chemical phases keep stable, corresponding to the stable oxygen recy­
+clability of OC. After the composition of CuO and Fe2O3, a new phase of 
+Fig. 10. Oxygen uncoupling and oxidation rates of Cu–Fe OC.  
+Fig. 11. XRD patterns of the prepared and cycled Cu–Fe OC.  
+K. Wang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 8 =====
+
+Fuel Processing Technology 218 (2021) 106844
+8
+CuFe2O4 is formed. Besides CuO, it is another active phase in OC, and the 
+redox reaction can be followed as: 
+4CuFe2O4⇋4CuFeO2 + 2Fe2O3 + O2 (g) ΔH900◦C = 787.5 kJ/mol
+(3) 
+Fig. 12 shows SEM-EDX images of the fresh and cycled samples. The 
+fresh and cycled samples all exhibit porous structures. After cycles, the 
+number of pores has increased due to the consecutive redox reactions, 
+while the surface of OC particle has become smoother due to the crys­
+talline phase migration. No obvious sintering has been observed. The Fe 
+and Cu distributions on the OC surface is similar, which indicates 
+CuFe2O4 is the main active phase in OC particles. After cycles, the ele­
+ments on the surface remain uniformly distributed. The changes of 
+micromorphology indicate the OC have been further active after cycles 
+[50]. 
+Both the specific surface areas of prepared and cycled samples are 
+very minimal (0.641 m2⸱g−1 for the prepared sample and 0.735 m2⸱g−1 
+for the cycled sample). The value has a slight increase after cycles, which 
+is corresponding to the SEM results. Such BET values are typical for OC. 
+The BET values are small, but OC has a high activity. It can be explained 
+by the activity of OC correlates more with internal oxygen transport 
+properties than surface area [54,55]. The crushing strengths for fresh 
+and cycled OC particles are all high (15.7 N for the fresh sample and 
+14.9 N for the cycled sample). Such crushing strengths are sufficiently 
+high to be used in fluidized bed applications [56]. 
+5. Kinetic analysis 
+The kinetics of OC plays important roles in determining the required 
+amount of bed material, designing the reactor, and controlling the 
+product distribution in CLGOU [57,58]. To understand the oxygen 
+Fig. 12. SEM-EDX images of the prepared and cycled Cu–Fe OC. 
+(a, b, c – Prepared sample; d, e, f – Cycled sample) 
+K. Wang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 9 =====
+
+Fuel Processing Technology 218 (2021) 106844
+9
+uncoupling characteristic and mechanism, a kinetic model was 
+developed based upon the temperature-programmed experimental data. 
+This model focuses on the oxygen uncoupling process and suits for ox­
+ygen uncoupling reaction. The oxygen uncoupling of OC is a typical 
+solid-gas reaction, and the basic kinetic equation is given by [59–61]: 
+dX
+dT = (A/β)exp( −E/RT)f(X)
+(
+1 −
+Co2
+Co2,eq
+)
+(4)  
+where A is pre-exponential factor, s−1; E is activation energy, kJ⋅mol−1; 
+R is universal gas constant (8.314 J⋅mol−1⋅K−1); T is temperature, K; CO2 
+is local oxygen concentration, mol/m3, CO2, eq is equilibrium oxygen 
+concentration, mol/; f(X) is mechanism function. Table 3 summarizes 
+different kinetic functions (G(X) and f(X)). 
+In Eq. (4), CO2, eq is given by [62]: 
+CO2,eq = 101325
+RT
+exp
+(
+22 −2.993 × 104/
+T −1.048 × 106/
+T2)
+(5) 
+On TGA, the sample mass in each experiment is small, and the carrier 
+gas flow rate is much higher than the oxygen releasing rate of OC. Thus, 
+the local oxygen concentration is equal to the oxygen concentration in 
+injection gas (CO2 = 0). 
+Integration of Eq. (4) is shown as followed: 
+Table 3 
+Different kinetic functions (G(X) and f(X)).  
+Code 
+Mechanism 
+Differential f(X) 
+Integral G(X) 
+Dm 
+Diffusion 
+D1 
+1-D diffusion 
+(1/2)X−1 
+X2 
+D2 
+2-Ddiffusion 
+[−ln(1-X)]−1 
+X+(1-X)ln(1-X) 
+D3 
+3-D diffusion(cylinder) 
+(3/2)[(1-X)-1/3–1]−1 
+1-(2/3)X-(1-X)2/ 
+3 
+D4 
+3-D diffusion(sphere) 
+(3/2) (1-X)2/3[1-(1-X)1/ 
+3]−1 
+[1-(1-X)1/3]2 
+Nm 
+Nucleation and nuclei 
+growth 
+m(1-X) [−ln(1-X)](m-1)/m 
+[−ln(1-X)]1/m 
+N1 
+m = 1 
+1-X 
+-ln(1-X) 
+N3/2 
+m = 3/2 
+(3/2) (1-X)[−ln(1-X)]1/3 
+[−ln(1-X)]2/3 
+N2 
+m = 2 
+2(1-X)[−ln(1-X)]1/2 
+[−ln(1-X)]1/2 
+N3 
+m = 3 
+3(1-X)[−ln(1-X)]2/3 
+[−ln(1-X)]1/3 
+Sm 
+Shrinking core 
+n(1-X)(m-1)/m 
+1-(1-X)1/m 
+S2 
+m = 2 
+2(1-X)1/2 
+1-(1-X)1/2 
+S3 
+m = 3 
+3(1-X)2/3 
+1-(1-X)1/3 
+Cm 
+Chemical reaction 
+(1-X)m 
+[1-(1-X)1-m]/(1- 
+m) 
+C2 
+m = 2 
+(1-X)2 
+(1-X)−1–1 
+C3 
+m = 3 
+(1-X)3 
+(1/2)[(1- 
+X)−2–1]  
+Fig. 13. Linear fitting using different kinetic functions.  
+Table 4 
+R2, RSS, and y2 of the different mechanism models.  
+Models 
+10 K/min 
+15 K/min 
+20 K/min 
+25 K/min 
+R2 
+RS 
+y2 
+R2 
+RS 
+y2 
+R2 
+RS 
+y2 
+R2 
+RS 
+y2 
+Dm 
+Diffusion model 
+D1 
+0.997 
+0.128 
+2.088 
+0.992 
+0.306 
+1.119 
+0.992 
+0.171 
+3.235 
+0.983 
+0.244 
+2.910 
+D2 
+0.999 
+0.049 
+1.939 
+0.997 
+0.141 
+0.683 
+0.996 
+0.096 
+2.078 
+0.991 
+0.165 
+1.625 
+D3 
+0.999 
+0.031 
+1.955 
+0.998 
+0.083 
+0.614 
+0.998 
+0.068 
+1.776 
+0.994 
+0.131 
+1.349 
+D4 
+0.999 
+0.037 
+1.970 
+1.000 
+0.032 
+0.627 
+0.999 
+0.030 
+1.773 
+0.997 
+0.076 
+1.361  
+Nm 
+Nucleation and nuclei growth model f(X) = m(1-X) [−ln(1-X)](m-1)/m 
+N1 
+0.998 
+0.042 
+2.326 
+0.998 
+0.039 
+0.779 
+0.999 
+0.007 
+1.363 
+0.999 
+0.009 
+1.195 
+N1.5 
+0.998 
+0.019 
+2.326 
+0.998 
+0.017 
+0.779 
+0.999 
+0.003 
+1.363 
+0.999 
+0.004 
+1.195 
+N2 
+0.997 
+0.010 
+2.326 
+0.998 
+0.009 
+0.779 
+0.999 
+0.002 
+1.363 
+0.999 
+0.002 
+1.195 
+N3 
+0.997 
+0.005 
+2.326 
+0.998 
+0.004 
+0.779 
+0.999 
+0.001 
+1.363 
+0.998 
+0.001 
+1.195  
+Sm 
+Shrinking core model f(X) = m(1-X)(m-1)/m 
+S2 
+0.999 
+0.007 
+1.948 
+0.999 
+0.015 
+0.599 
+0.998 
+0.014 
+1.652 
+0.994 
+0.028 
+1.252 
+S3 
+0.999 
+0.009 
+1.951 
+0.999 
+0.008 
+0.610 
+0.999 
+0.008 
+1.461 
+0.997 
+0.019 
+1.346  
+Cm 
+Chemical reaction model (1-X)m 
+C2 
+0.984 
+0.562 
+3.498 
+0.979 
+0.922 
+1.768 
+0.989 
+0.208 
+2.148 
+0.990 
+0.150 
+2.161 
+C3 
+0.966 
+2.207 
+4.825 
+0.954 
+4.058 
+2.879 
+0.972 
+0.989 
+3.454 
+0.972 
+0.891 
+3.174  
+K. Wang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 10 =====
+
+Fuel Processing Technology 218 (2021) 106844
+10
+G(X) =
+∫T
+T0
+(A/β)exp( −E/RT)dT ≈(A/β)
+∫T
+0
+exp( −E/RT)dT
+(6) 
+In this study, the combined Coats-Redfern and Malek method was 
+introduced to obtain dynamic parameters. This method is suitable for 
+multi heating curve, considering the slope and residual of fitting line 
+comprehensively, and has high precision. Eq. (6) is converted as [63]: 
+ln
+[G(X)
+T2
+]
+= ln
+[ ∫T
+0
+(A
+β
+)
+exp
+(
+−
+E
+RT
+)
+dT
+]
+≈ln
+[AR
+βE
+(
+1 −2RT
+E
+) ]
+−
+E
+RT
+(7) 
+For oxygen uncoupling reaction of OC, the value of RT/E < < 1, Eq. 
+(7) can be simplified to: 
+ln
+[G(X)
+T2
+]
+≈ln
+(AR
+βE
+)
+−
+E
+RT
+(8) 
+Linear fitting of Eq. (8) using different kinetic functions (shown in 
+Fig. 13), should yield a high linear correlation coefficient (R2), while the 
+residuals (Rs) should be small for any suitable mechanism function. 
+To obtain the most probable mechanism function, Eq. (8) is rewritten 
+as: 
+G(X) = ART2
+βE exp
+(
+−
+E
+RT
+)
+(9) 
+Based on the most probable mechanism function, Eq. (10) can be set 
+up: 
+f(X)G(X)
+f((X0.5)G(X0.5) = T2
+T0.5
+dX/dT
+(dX/dT)0.5
+(10) 
+In Eq. (10), the left hand side is a model value, whereas the right 
+hand side is an experimentally determined value, the residuals (y2) of 
+model and experimental values are obtained. Table 4 shows R2, RSS, and 
+y2 of the different mechanism models for the oxygen uncoupling of 
+Cu–Fe OC. 
+Comprehensive considerations of the highest R2 and the smallest RSS, 
+and y2, the most probable mechanism function of shrinking core model 
+(m = 3) has been determined. The oxygen uncoupling rate is controlled 
+by the chemical reaction. During oxygen uncoupling process, the reac­
+tion layer penetrates into the core product from the surface of the par­
+ticles and retains the morphology similar to the original particles. Using 
+the slops (−E/R) and intercepts (ln(AR/βE)) of the fitting lines in Fig. 13 
+(b), the dynamic parameters are obtained, which are shown in Table 5. 
+As shown in Fig. 8(a), the smooth solid curves are the model results. It 
+can be seen that the established model descripts the experimental data 
+well, especially when the conversion of OC is lower than 95%. 
+6. Conclusions 
+Aiming to increase the gasification rate of CLG, a Cu–Fe OC with 
+oxygen uncoupling capability was proposed to be used in CLGOU. The 
+oxygen uncoupling reactivity and stability of OC have been computa­
+tionally and experimentally investigated. In addition, oxygen uncou­
+pling kinetic model was developed.  
+1) DFT analysis shows that a chemical reaction occurs after Cu4O4 
+cluster adsorption onto α - Fe2O3 (0 0 1) surface. Extension of bond 
+length and transfer of charge indicate the composite oxide has been 
+activated. The calculated binding energy is high (−6.14 eV) and the 
+sintering resistance characteristic of Cu–Fe composite OC should be 
+high. 
+2) An optimal molar ratio of 2:1 of CuO to Fe2O3 is used for the prep­
+aration of OC ((by mechanical mixing) and oxygen delivery capacity 
+of the OC is determined at 3.65 wt%. This OC presents a good low- 
+temperature oxygen uncoupling property, and the starting uncou­
+pling temperature was found to be 749.5 ◦C.  
+3) The starting uncoupling temperature increased significantly with an 
+increase in local oxygen concentration. The chemical and physical 
+characteristics kept stable over cycles. And the oxygen uncoupling 
+rates are much higher than the lower bound (0.4 wt%/min) for 
+cracking. The most probable mechanism function was found to be a 
+shrinking core model (m = 3) with which the oxygen uncoupling 
+reaction kinetics can be described well. The investigated Cu–Fe 
+composite OC is promising for CLGOU. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgement 
+This research was financially supported by National Natural Science 
+Foundation of China (51604078); Fundamental Research Funds for the 
+Central Universities (N182504011). 
+References 
+[1] N.A. Mohammed, A. Al-Bazi, Management of renewable energy production and 
+distribution planning using agent-based modelling, Renew. Energy 164 (2021) 
+509–520. 
+[2] N. Tripathi, C.D. Hills, R.S. Singh, C.J. Atkinson, Biomass waste utilisation in low- 
+carbon products: harnessing a major potential resource, Npj. Clim. Atmospheric. 
+Sci. 2 (2019) 1–10. 
+[3] A. Nzihou, B. Stanmore, P. Sharrock, A review of catalysts for the gasification of 
+biomass char, with some reference to coal, Energy 58 (2013) 305–317. 
+[4] C.K. Gao, H.M. Na, K.H. Song, N. Dyer, F. Tian, Q.J. Xu, Y.H. Xing, Environmental 
+impact analysis of power generation from biomass and wind farms in different 
+locations, Renew. Sust. Energ. Rev. 102 (2019) 307–317. 
+[5] M. Antar, D.M. Lyu, M. Nazari, A.T. Shah, X.M. Zhou, D.L. Smith, Biomass for a 
+sustainable bioeconomy: an overview of world biomass production and utilization, 
+Renew. Sust. Energ. Rev. 139 (2021) 110691. 
+[6] X. Luo, T. Wu, K. Shi, M. Song, Y. Rao, Biomass Gasification: An Overview of 
+Technological Barriers and Socio-Environmental Impact, Gasif Low-Grade 
+Feedstock, 2018. 
+[7] N. Scarlat, J.-F. Dallemand, F. Fahl, Biogas: developments and perspectives in 
+Europe, Renew. Energy 129 (2018) 457–472. 
+[8] W.Y. Li, S.Y. Wu, Y.Q. Wu, S. Huang, J.S. Gao, Gasification characteristics of 
+biomass at a high-temperature steam atmosphere, Fuel Process. Technol. 194 
+(2019) 106090. 
+[9] R.J. Lancee, A.I. Dugulan, P.C. Thüne, H.J. Veringa, J.W. Niemantsverdriet, 
+Fredriksson HOA, Chemical looping capabilities of olivine, used as a catalyst in 
+indirect biomass gasification, Appl. Catal. B Environ. 145 (2014) 216–222. 
+[10] Z. Sun, Z. Chen, S. Toan, Z.Q. Sun, Chemical looping deoxygenated gasification: an 
+implication for efficient biomass utilization with high-quality syngas modulation 
+and CO2 reduction, Convers Manage 215 (2020) 112913. 
+[11] Z. Huang, A.Q. Zheng, Z.B. Deng, G.Q. Wei, K. Zhao, D.Z. Chen, F. He, Z.L. Zhao, H. 
+B. Li, F.X. Li, In-situ removal of toluene as a biomass tar model compound using 
+NiFe2O4 for application in chemical looping gasification oxygen carrier, Energ. 
+190 (2020) 116360. 
+[12] L.S. Fan, F.X. Li, S. Ramkumar, Utilization of chemical looping strategy in coal 
+gasification processes, Particuology 6 (2008) 131–142. 
+[13] A. Mishra, T.Y. Li, F.X. Li, E.E. Santiso, Oxygen vacancy creation energy in Mn- 
+containing perovskites: an effective indicator for chemical looping with oxygen 
+uncoupling, Chem. Mater. 31 (2019) 689–698. 
+[14] Z. Huang, F. He, Y. Feng, K. Zhao, A. Zheng, S. Chang, et al., Synthesis gas 
+production through biomass direct chemical looping conversion with natural 
+hematite as an oxygen carrier, Bioresour. Technol. 140 (2013) 138–145. 
+[15] Z. Huang, F. He, Y. Feng, K. Zhao, A. Zheng, S. Chang, et al., Biomass char direct 
+chemical looping gasification using NiO-modified iron ore as an oxygen carrier, 
+Energy Fuel 28 (2014) 183–191. 
+[16] S. Huseyin, G. Wei, H. Li, F. He, Z. Huang, Chemical-looping gasification of 
+biomass in a 10 kWth interconnected fluidized bed reactor using Fe2O3/Al2O3 
+oxygen carrier, J. Fuel Chem. Technol. 42 (2014) 922–931. 
+Table 5 
+Dynamics model parameters of Cu–Fe oxygen carrier.  
+Heating rate (K/min) 
+10 
+15 
+20 
+25 
+Ex (kJ/mol) 
+273.348 
+246.880 
+306.031 
+336.000 
+A (×10−10/s) 
+0.268 
+0.017 
+7.959 
+19.946  
+K. Wang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 11 =====
+
+Fuel Processing Technology 218 (2021) 106844
+11
+[17] L. Guo, H. Zhao, C. Zheng, Synthesis gas generation by chemical-looping reforming 
+of biomass with natural copper ore as oxygen carrier, Waste Biomass Valorizat. 6 
+(2015) 81–89. 
+[18] T. Shen, H. Ge, L. Shen, Characterization of combined Fe-Cu oxides as oxygen 
+carrier in chemical looping gasification of biomass, Int. J. Greenh Gas Control 75 
+(2018) 63–73. 
+[19] J. Adanez, A. Abad, F. Garcia-Labiano, P. Gayan, L.F. de Diego, Progress in 
+chemical-looping combustion and reforming technologies, Prog. Energy Combust. 
+Sci. 38 (2012) 215–282. 
+[20] P. Moldenhauer, M. Ryd´en, T. Mattisson, M. Younes, A. Lyngfelt, The use of 
+ilmenite as oxygen carrier with kerosene in a 300W CLC laboratory reactor with 
+continuous circulation, Appl. Energy 113 (2014) 1846–1854. 
+[21] J. Bao, Z. Li, N. Cai, Promoting the reduction reactivity of ilmenite by introducing 
+foreign ions in chemical looping combustion, Ind. Eng. Chem. Res. 52 (2013) 
+6119–6128. 
+[22] T. Mattisson, A. Lyngfelt, H. Leion, Chemical-looping with oxygen uncoupling for 
+combustion of solid fuels, Int. J. Greenh Gas Control 3 (2009) 11–19. 
+[23] Q. Imtiaz, D. Hosseini, C.R. Müller, Review of oxygen carriers for chemical looping 
+with oxygen uncoupling (CLOU): thermodynamics, material development, and 
+synthesis, Energy Technol. 1 (2013) 633–647. 
+[24] T. Mattisson, Materials for chemical-looping with oxygen uncoupling, Int. Sch. Res. 
+Not. 2013 (2013) 1–19. 
+[25] X. Meng, W. de Jong, N. Fu, A.H.M. Verkooijen, Biomass gasification in a 100 kWth 
+steam-oxygen blown circulating fluidized bed gasifier: Effects of operational 
+conditions on product gas distribution and tar formation, Biomass Bioenergy 35 
+(2011) 2910–2924. 
+[26] C.V. Huynh, S.-C. Kong, Performance characteristics of a pilot-scale biomass 
+gasifier using oxygen-enriched air and steam, Fuel 103 (2013) 987–996. 
+[27] Q. Fu, Y. Huang, M. Niu, G. Yang, Z. Shao, Experimental and predicted approaches 
+for biomass gasification with enriched air–steam in a fluidised bed, Waste Manag. 
+Res. 32 (2014) 988–996. 
+[28] I. Ad´anez-Rubio, P. Gay´an, F. García-Labiano, L.F. de Diego, J. Ad´anez, A. Abad, 
+Development of CuO-based oxygen-carrier materials suitable for chemical-looping 
+with oxygen uncoupling (CLOU) process, Energy Procedia 4 (2011) 417–424. 
+[29] K. Wang, Q. Yu, Q. Qin, Z. Zuo, T. Wu, Evaluation of Cu-based oxygen carrier for 
+chemical looping air separation in a fixed-bed reactor, Chem. Eng. J. 287 (2016) 
+292–301. 
+[30] Y. Cao, B. He, W. Tong, H. Yao, Z. Duan, On the kinetics of Mn2O3/ZrO2 oxygen 
+carrier for chemical looping air separation, Chem. Eng. Process. Process Intensif. 
+136 (2019) 82–91. 
+[31] J. Chen, K. Zhao, Z. Zhao, F. He, Z. Huang, G. Wei, Identifying the roles of MFe2O4 
+(M=Cu, Ba, Ni, and Co) in the chemical looping reforming of char, pyrolysis gas 
+and tar resulting from biomass pyrolysis, Int. J. Hydrog. Energy 44 (2019) 
+4674–4687. 
+[32] R. Siriwardane, H. Tian, T. Simonyi, J. Poston, Synergetic effects of mixed 
+copper–iron oxides oxygen carriers in chemical looping combustion, Fuel 108 
+(2013) 319–333. 
+[33] T. Liu, Z.L. Yu, W.H. Jiao, S.S. Song, C.Y. Li, Y.T. Fang, Interaction of coal ashes 
+with potassium-decorated Fe2O3/Al2O3 oxygen carrier in coal-direct chemical 
+looping hydrogen generation (CLHG), J. Energy Inst. 93 (5) (2020) 1790–1797. 
+[34] H. Zhou, Q. Yi, G.Q. Wei, Y.K. Zhang, Y.L. Hou, Z. Huang, A.Q. Zheng, Z.L. Zhao, H. 
+B. Li, Reaction performance and lattice oxygen migration of MnFe2O4 oxygen 
+carrier in methane-carbon dioxide reaction system, Int. J. Hydrog. Energy 45 
+(2020) 30254–30266. 
+[35] M. Ryd´en, H. Leion, T. Mattisson, A. Lyngfelt, Combined oxides as oxygen-carrier 
+material for chemical-looping with oxygen uncoupling, Appl. Energy 113 (2014) 
+1924–1932. 
+[36] Z.S. Cao, X. Zhu, K.Z. Li, Y.G. Wei, F. He, H. Wang, Moderate -temperature 
+chemical looping splitting of CO2 and H2O for syngas generation, Chem. Eng. J. 
+397 (2020) 125393. 
+[37] C.-C. Cormos, Chemical looping with oxygen uncoupling (CLOU) concepts for high 
+energy efficient power generation with near total fuel decarbonisation, Appl. 
+Therm. Eng. 112 (2017) 924–931. 
+[38] A. Shulman, E. Cleverstam, T. Mattisson, A. Lyngfelt, Chemical – Looping with 
+oxygen uncoupling using Mn/Mg-based oxygen carriers – oxygen release and 
+reactivity with methane, Fuel 90 (2011) 941–950. 
+[39] J.A. Medrano, H.P. Hamers, G. Williams, M. van Sint Annaland, F. Gallucci, NiO/ 
+CaAl2O4 as active oxygen carrier for low temperature chemical looping 
+applications, Appl. Energy 158 (2015) 86–96. 
+[40] H. Zhao, Y. Zhang, Y. Wei, J. Gui, Understanding CuO-support interaction in Cu- 
+based oxygen carriers at a microcosmic level, Proc. Combust. Inst. 36 (2017) 
+4069–4677. 
+[41] M. Wang, J. Liu, F. Shen, H. Cheng, J. Dai, Y. Long, Theoretical study of stability 
+and reaction mechanism of CuO supported on ZrO2 during chemical looping 
+combustion, Appl. Surf. Sci. 367 (2016) 485–492. 
+[42] W. Qin, Y. Wang, C. Dong, J. Zhang, Q. Chen, Y. Yang, The synergetic effect of 
+metal oxide support on Fe2O3 for chemical looping combustion: a theoretical study, 
+Appl. Surf. Sci. 282 (2013) 718–723. 
+[43] I. Adanez-Rubio, S.T. Bararpour, A. Abad, P. Gayan, G. Williams, A. Scullard, 
+N. Mahinpey, J. Adanez, Performance evaluation of a Cu-based oxygen carrier 
+impregnated onto ZrO2 for chemical-looping combustion (CLC), Ind. Eng. Chem. 
+Res. 59 (2020) 7255–7266. 
+[44] Y. Zhang, H. Zhao, L. Guo, C. Zheng, Decomposition mechanisms of Cu-based 
+oxygen carriers for chemical looping with oxygen uncoupling based on density 
+functional theory calculations, Combust. Flame 162 (2015) 1265–1274. 
+[45] M. Catti, G. Valerio, R. Dovesi, Theoretical study of electronic, magnetic, and 
+structural properties of Mo and W based group V (N, P, As, Sb and Bi) compounds, 
+Comput. Mater. Sci. 49 (2010) 112–120. 
+[46] W. Weiss, W. Ranke, Surface chemistry and catalysis on well-defined epitaxial iron- 
+oxide layers, Prog. Surf. Sci. 70 (2002) 1–151. 
+[47] A. Kiejna, T. Pabisiak, Mixed termination of hematite (α-Fe2O3) (0001) surface, 
+J. Phys. Chem. C 117 (2013) 24339–24344. 
+[48] Y.L. Lv, F. Gong, H. Li, Q. Zhou, X.L. Wu, W.B. Wang, R. Xiao, A flexible 
+electrokinetic power generator derived from paper and ink for wearable 
+electronics, Appl. Energy 279 (2020). 
+[49] K. Wang, Q. Yu, Q. Qin, The thermodynamic method for selecting oxygen carriers 
+used for chemical looping air separation, J. Therm. Anal. Calorim. 12 (2013) 
+47–53. 
+[50] K. Wang, Q. Yu, Long-lasting investigation of the Cu-based oxygen carrier particles 
+in chemical looping air separation, Powder Technol. 343 (2019) 40–48. 
+[51] X. Zhu, Q. Imtiaz, F. Donat, C.R. Muller, F.X. Li, Chemical looping beyond 
+combustion - a perspective, Energy Environ. Sci. 13 (2020) 772–804. 
+[52] L. Zeng, Z. Cheng, L.S. Fan, J.L. Gong, Metal oxide redox chemistry for chemical 
+looping processes, Nat. Rev. Chem. 2 (2018) 349–364. 
+[53] S. Yusuf, V. Haribal, D. Jackson, L. Neal, F.X. Li, Mixed iron-manganese oxides as 
+redox catalysts for chemical looping-oxidative dehydrogenation of ethane with 
+tailorable heat of reactions, Appl. Catal. B-Environ. 257 (2019) 117885. 
+[54] L.M. Neal, A. Shafiefarhood, F. Li, Dynamic methane partial oxidation using a 
+Fe2O3@La0.8Sr0.2FeO3-δ core–shell redox catalyst in the absence of gaseous oxygen, 
+ACS Catal. 4 (2014) 3560–3569. 
+[55] A. Mishra, N. Galinsky, F. He, E.E. Santiso, F. Li, Perovskite-structured 
+AMnxB1−xO3 (a = Ca or Ba; B = Fe or Ni) redox catalysts for partial oxidation of 
+methane, Catal. Sci. Technol. 6 (2016) 4535–4544. 
+[56] D. Mei, A. Abad, H. Zhao, J. Ad´anez, Characterization of a sol–gel derived CuO/ 
+CuAl2O4 oxygen carrier for chemical looping combustion (CLC) of gaseous fuels: 
+Relevance of gas–solid and oxygen uncoupling reactions, Fuel Process. Technol. 
+133 (2015) 210–219. 
+[57] K. Coenen, F. Gallucci, E. Hensen, M. van Sint Annaland, Kinetic model for 
+adsorption and desorption of H2O and CO2 on hydrotalcite-based adsorbents, 
+Chem. Eng. J. 355 (2019) 520–531. 
+[58] Z.Q. Wu, Y.W. Li, B. Zhang, W.C. Yang, B.L. Yang, Co-pyrolysis behavior of 
+microalgae biomass and low-rank coal: Kinetic analysis of the main volatile 
+products, Bioresour. Technol. 271 (2019) 202–209. 
+[59] N.C. Means, W.A. Burgess, B.H. Howard, M.W. Smith, P. Wang, D. Shekhawat, 
+Examining and modeling oxygen uncoupling kinetics of Cu-based oxygen carriers 
+for chemical looping with oxygen uncoupling (CLOU) in a drop tube fluidized bed 
+REACTOR, Energy Fuel 33 (2019) 5610–5619. 
+[60] I. Ad´anez-Rubio, P. Gay´an, A. Abad, F. García-Labiano, L.F. de Diego, J. Ad´anez, 
+Kinetic analysis of a Cu-based oxygen carrier: relevance of temperature and oxygen 
+partial pressure on reduction and oxidation reactions rates in chemical looping 
+with oxygen uncoupling (CLOU), Chem. Eng. J. 256 (2014) 69–84. 
+[61] K. Wang, Q.B. Yu, T.W. Wu, M. van Sint Annaland, Q. Qin, Thermodynamic and 
+kinetic characteristics of a Cu-Mn composite oxygen carrier for low-temperature 
+chemical-looping air separation, Chem. Eng. J. 393 (2020) 124792. 
+[62] Z. Niu, G. Liu, H. Yin, D. Wu, C. Zhou, Investigation of mechanism and kinetics of 
+non-isothermal low temperature pyrolysis of perhydrous bituminous coal by in-situ 
+FTIR, Fuel 172 (2016) 1–10. 
+[63] C.-H. Li, An integral approximation formula for kinetic analysis of nonisothermal 
+TGA data, AICHE J. 31 (1985) 1036–1038. 
+K. Wang et al.                                                                                                                                                                                                                                   

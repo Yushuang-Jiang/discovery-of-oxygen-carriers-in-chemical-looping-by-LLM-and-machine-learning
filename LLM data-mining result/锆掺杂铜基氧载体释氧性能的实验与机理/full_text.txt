@@ -1,0 +1,701 @@
+
+
+===== Page 1 =====
+
+第40 卷第11 期
+煤
+炭
+学
+报
+Vol．40
+No．11
+2015 年
+11 月
+JOUＲNAL OF CHINA COAL SOCIETY
+Nov．
+2015
+程
+浩，王敏俊，刘
+晶．锆掺杂铜基氧载体释氧性能的实验与机理［J］．煤炭学报，2015，40( 11) : 2727－2732．doi: 10．13225 /j．
+cnki．jccs．2015．8015
+Cheng Hao，Wang Minjun，Liu Jing．Experimental and mechanism study on O2 desorption ability of Zr-doped Cu-based oxygen carriers［J］．
+Journal of China Coal Society，2015，40( 11) : 2727－2732．doi: 10．13225 /j．cnki．jccs．2015．8015
+锆掺杂铜基氧载体释氧性能的实验与机理
+程
+浩，王敏俊，刘
+晶
+( 华中科技大学煤燃烧国家重点实验室，湖北武汉
+430074)
+摘
+要: 为了提高铜基氧载体的释氧性能，采用溶胶凝胶－燃烧法制备了一系列锆掺杂的铜基氧载
+体并进行了实验研究。通过XＲD、SEM、BET、固定床实验等手段研究了锆掺杂对铜基氧载体物相
+结构、表面形貌、释氧性能和循环反应性能的影响。实验结果表明: 锆离子能够进入氧载体晶格形
+成固溶体; 掺杂锆能提高铜基氧载体的比表面积，细化其晶粒; 掺杂锆的铜基氧载体，释氧量和释氧
+性能得到提高; 掺杂8% Zr 的铜基氧载体在多次循环实验中表现出较好的稳定性。量子化学的密
+度泛函理论计算结果表明: Zr 掺杂能有效降低氧化铜释氧反应的活化能垒，提高其释氧能力，与实
+验结果吻合。
+关键词: 铜基氧载体; 锆掺杂; 化学链氧解耦; 密度泛函理论
+中图分类号: TK16
+文献标志码: A
+文章编号: 0253－9993( 2015) 11－2727－06
+收稿日期: 2015－09－10
+责任编辑: 韩晋平
+基金项目: 国家重点基础研究发展计划( 973) 资助项目( 2011CB707301) ; 湖北省自然科学基金资助项目( 2015CFA046)
+作者简介: 程
+浩( 1990—) ，男，湖北应城人，硕士研究生。通讯作者: 刘
+晶( 1974—) ，女，辽宁大连人，教授，博士生导师。Tel: 027 －
+87545526，E－mail: liujing27@ mail. hust. edu. cn
+Experimental and mechanism study on O2 desorption ability of Zr-doped
+Cu-based oxygen carriers
+CHENG Hao，WANG Min-jun，LIU Jing
+( State Key Laboratory of Coal Combustion，Huazhong University of Science and Technology，Wuhan
+430074，China)
+Abstract: To enhance the performance of Cu-based oxygen carriers，a series of Zr-doped Cu-based oxygen carriers
+were prepared by the sol-gel combustion method and studied by experiments．The effects of doping Zr on surface topog-
+raphy，phase structure and oxygen desorption were investigated by XＲD，SEM，BET，and fixed bed experiment．The ex-
+perimental results indicate that Zr ion can enter the crystal lattice of oxygen carrier to form a solid solution．The addi-
+tion of Zr enlarges the specific surface area and refines the grains．The Zr-doped Cu-based oxygen carriers have high
+oxygen release capacity and oxygen desorption reaction rates．The 8% Zr-doped Cu-based oxygen carriers have high
+cyclic stability in cyclic operation．Density functional theoretical calculation shows that the Zr-doped CuO has lower
+energy barrier for oxygen desorption compared with the pure CuO，thus facilitating the oxygen release of CuO，which
+agrees with the experimental results．
+Key words: Cu-based oxygen carriers; Zr-doping; chemical looping with oxygen uncoupling; density functional theory
+化学链氧解耦
+［1］( chemical looping with oxygen
+uncoupling，CLOU) 为基于化学链概念( chemical loo-
+ping) 提出的一种新型的燃烧技术。该燃烧系统主要
+由空气反应器、燃料反应器组成。在CLOU 燃烧过程
+中，氧载体MeOx在燃料反应器中释放出氧气，燃料与
+释放的气态氧反应，产生CO2 和水蒸气; 释氧后的氧
+载体MeOx －1随后在空气反应器中被氧化为MeOx，如
+此完成循环。其反应式为
+中国煤炭期刊网 
+www.chinacaj.net
+
+
+===== Page 2 =====
+
+煤
+炭
+学
+报
+2015 年第40 卷
+2MeO
+→
+
+x
+2MeOx－1 + O2( 释氧)
+( 1)
+2MeOx－1 + O
+→
+
+2
+2MeOx( 吸氧)
+( 2)
+从CLOU 的原理可以看出，与传统的化学链燃
+烧
+［2］( chemical looping combustion，CLC) 中燃料是与
+氧载体的晶格氧反应不同，CLOU 中，燃料主要是与
+氧载体释放的气态氧反应，这有利于提高碳基固体燃
+料( 如煤，生物质等) 中固定碳的转化速率。因此，用
+于CLOU 技术的氧载体应具有良好的释氧性能，同时
+该氧载体还应具有稳定性高、成本低以及环境友好等
+特点
+［3－4］。
+目前研究的氧载体主要有Cu，Co，Mn 基金属氧
+化物以及钙钛矿型氧化物等。Mattisson 等
+［1］从热力
+学角度上分析了CuO/Cu2O，Mn2O3 /Mn3O4和Co3O4 /
+CoO 三种氧载体的释氧/吸氧可行性。梅道锋等
+［5］对
+这3 种氧化物体系进行了动力学机理研究，根据活化
+能大小分析了3 种氧载体释氧的难易程度。Ｒui
+等
+［6－7］和Yin 等
+［8］使用钙钛矿型氧化物制取O2 －CO2
+混合气体，发现其能够有效释氧和吸氧。但钙钛矿型
+氧化物可能发生碳酸化反应，不利于CO2 捕集
+［9］，释
+氧/吸氧速率也有待提高。铜基氧载体具有载氧率
+高、反应速率快、价格相对便宜等优点，是较理想的氧
+载体，然而铜基氧载体较低的熔点限制了其应用。通
+过加入稳定、熔点高的惰性成分有助于改善这一问
+题。Adanez 等
+［10］使用喷雾干燥法制备了CuO/MgAl2
+O4氧载体，并通过TGA 和流化床实验发现该氧载体
+具有较高并且稳定的反应性。Xu 等
+［11］使用机械混
+合法制备了水泥负载的CuO 氧载体，并在流化床中
+进行实验，发现添加水泥能有效抑制CuO 烧结。向
+氧载体中掺杂少量的化学元素，也是一种提高氧载体
+性能的有效途径。Liu 等
+［12］研究表明K 掺杂能够提
+高铁基氧载体的稳定性，燃料转化率以及抗积碳性
+能，而积碳是制约氧载体反应性能的一个重要因
+素
+［13］。近年来，有研究表明Zr 掺杂能够有效提高相
+关材料的化学反应性和氧储存性能。这是由于Zr 掺
+杂可以增加这些材料的晶体缺陷和氧空位，提高氧空
+穴流动性以及细化晶粒
+［14－15］。
+为进一步探索增加氧载体的释氧量、反应性和稳
+定性的方法，笔者采用溶胶凝胶－燃烧法制备了一系
+列锆掺杂铜基氧载体，通过对其物相结构、表面形貌、
+释氧性能、循环反应性能等方面的测试，研究了锆组
+分对铜基氧载体制氧能力的影响。同时采用量子化
+学计算的密度泛函理论( DFT，density functional theo-
+ry) 计算分析Zr 掺杂CuO 释氧过程中相关构型和释
+氧反应活化能垒，定量地分析它们的成键特征，从本
+质上揭示Zr 掺杂对CuO 释氧反应的影响机理。
+1
+实验与计算方法
+1. 1
+氧载体制备
+采用溶胶凝胶－燃烧法制备不同锆掺杂比的铜
+基氧载体，活性CuO 和CuAl2O4质量比为6 ∶4，锆的
+掺杂量分别为0，2% ，4% ，8% 和10% 。选用分析纯
+的硝酸铜、硝酸铝、柠檬酸、硝酸锆和去离子水为原
+料。将称量好的原料与适量去离子水配成均匀的蓝
+色透明溶液。在75 ℃下持续恒温水浴加热、搅拌，形
+成黏稠的凝胶。凝胶在90 ℃下干燥后点燃，将自蔓
+延燃烧形成的黑色粉末放入已预热至850 ℃的马弗
+炉中煅烧6 h。研磨煅烧后的粉末筛分得到粒径
+88 ～125 μm 的氧载体颗粒。
+1. 2
+实验与表征
+样品的物相结构应用X 射线衍射仪( XＲD) 表
+征，表面形貌应用扫描电子显微镜( SEM) 观察。样
+品释氧性能采用固定床进行实验研究，样品在圆柱型
+石英玻璃反应器( 总长950 mm，内径30 mm) 内反应，
+反应后的气体经过滤后使用顺磁氧分析仪进行在线
+测量。根据前期不同温度下铜基氧载体性能的实验
+结果
+［16］，本实验中释氧/吸氧温度选择880 ℃。释氧
+过程中通入纯CO2，流速为500 mL/min。实验时，待
+反应器温度达到设定的释氧温度并稳定后，开始加入
+铜基氧载体进行释氧反应，并保持恒温。通过顺磁氧
+分析仪在线监测反应器出口气体中O2 含量的变化，
+来确定反应的进行程度。
+样品的循环反应性能使用固定床进行实验研究，
+先通入CO2 气体吹扫，反应器在CO2 气氛下升温至
+880 ℃，加入10 g 铜基氧载体( 锆掺杂铜基氧载体的
+量在此基础上按掺杂比例增加) 进行释氧反应，待出
+口气体中O2 体积分数稳定后通入空气进行吸氧反
+应，恒温一段时间后氧载体完全反应。当出口气体中
+O2体积分数上升至21% 时，降温到室温。继续重复
+上述循环4 次。
+1. 3
+计算模型与方法
+密度泛函理论能够准确地解释和预测原子间的
+键和分子的结构、物质的物理和化学性质以及有关化
+学反应机理。笔者采用基于密度泛函理论的
+CASTEP 模块进行计算
+［17］。晶体波函数采用平面波
+基组展开，平面波截断能为350 eV。交换关联能采
+用非局域化GGA ( Generalized Gradient Approxima-
+tion) 的修正方法( PW91) 。静电势选用超软赝势。
+布里渊区采用Monkhorst－Pack 方法，k 点取样为4 ×
+4×4。自洽场迭代采用BFGS 算法，结构优化标准设
+定为: ①自洽场精度收敛标准为2. 0×10
+－6 eV/atom;
+8
+2
+7
+2
+中国煤炭期刊网 
+www.chinacaj.net
+
+
+===== Page 3 =====
+
+第11 期
+程
+浩等: 锆掺杂铜基氧载体释氧性能的实验与机理
+②能量标准为2. 0×10
+－5 eV/atom; ③最大力收敛标
+准为0. 05 eV/( 10
+－10 m) ; ④最大位移为2 ×10
+－13 m。
+采用完整的LST/QST 方法搜索反应过渡态。活化能
+垒由下式计算，有
+Eb = ETS －EIS
+( 3)
+式中，ETS与EIS分别为反应中过渡态和对应反应物构
+型的能量。
+选择周期性模型来构建CuO 表面结构。由于
+CuO( 1 1 1) 表面是CuO 晶体容易生长的稳定的低指
+数面，因此笔者选择此面作为最主要的反应面。
+CuO( 1 1 1) 表面的周期性结构如图1 所示。
+图1
+CuO( 1 1 1) 表面和Zr 掺杂CuO( 1 1 1) 表面
+Fig. 1
+CuO( 1 1 1) surface and Zr doped CuO( 1 1 1) surface
+计算得到CuO 晶格参数为a = 4. 723×10
+－10 m，
+b = 3. 418×10
+－10 m，c = 5. 161×10
+－10 m，β = 99. 34°，
+与实验结果基本一致( a = 4. 683×10
+－10 m，b = 3. 422×
+10
+－10 m，c = 5. 129 × 10
+－10 m ，β = 99. 54°)
+［18］。表
+明了笔者所采用计算的方法的正确性。
+2
+结果与讨论
+2. 1
+锆掺杂对铜基氧载体物相结构、表面形貌的影响
+新鲜制备的不同比例锆掺杂的铜基氧载体XＲD
+图谱如图2 所示。各合成样品的XＲD 图谱峰型尖
+锐，结晶完整。未掺杂Zr 的氧载体仅含有预期的主
+晶相CuO 与CuAl2O4。当Zr 掺杂量较少时( ≤2% ) ，
+图谱中没有出现明显的杂峰，说明Zr 能够进入主晶
+格结构中形成固溶体且分布均匀，未引起结构变化。
+当掺杂比为4% 时，图谱中开始出现一些小杂峰，分
+析小杂峰物相后可知其成分可能是立方相ZrO2，说
+明Zr 在CuO/CuAl2O4中的固溶量有限。
+图2
+不同比例锆掺杂的铜基氧载体XＲD 图谱
+Fig. 2
+XＲD patterns of the oxygen carriers with different
+Zr doping contents
+对不同锆掺杂比的氧载体进行场发射扫描电子
+显微镜观测，以研究锆组分对铜基氧载体表面形貌的
+影响，结果如图3 所示。
+图3
+不同锆掺杂比铜基氧载体微观形貌
+Fig. 3
+SEM micrographs of the oxygen carriers with different Zr doping contents
+9
+2
+7
+2
+中国煤炭期刊网 
+www.chinacaj.net
+
+
+===== Page 4 =====
+
+煤
+炭
+学
+报
+2015 年第40 卷
+各个样品表面颗粒呈粗糙、多孔状，没有明显团
+聚烧结现象，未出现晶粒异常长大，同时并未观察到
+明显的杂质。与未掺杂锆的氧载体相比，掺杂后的载
+体孔数量增多。随着锆掺杂量的增加，氧载体颗粒分
+布和孔分布趋于均匀，平均粒径减小。掺杂4% Zr 的
+氧载体表面孔数量丰富，孔径较大，掺杂8% Zr 后，氧
+载体表面孔径减小，但孔的数量进一步增加。
+不同比例锆掺杂的铜基氧载体BET 分析结果见
+表1。由表1 可以看出，与未掺杂样品相比，Zr 掺杂
+样品的比表面积，孔体积和平均孔径均显著增加，而
+等效粒径减小，这与SEM 形貌分析结果是一致的。
+随着掺杂浓度的增加，比表面积和孔体积均逐渐增
+加。这种由Zr 掺杂产生的形貌变化将有利于提高铜
+基氧载体的反应性。
+表1
+不同比例锆掺杂的铜基氧载体的BET 分析
+Table 1
+BET data for the fresh Cu-based oxygen carriers
+with different Zr doping content
+掺杂比/
+%
+比表面积/
+( m2·g－1)
+孔体积/
+( cm3·g－1)
+平均孔
+径/nm
+等效粒
+径/nm
+0
+3. 86
+0. 013
+13. 7
+1 552. 8
+2
+4. 11
+0. 027
+24. 8
+1 353. 1
+4
+4. 50
+0. 031
+26. 3
+1 291. 9
+8
+5. 33
+0. 034
+25. 1
+1 125. 2
+2. 2
+锆组分对铜基氧载体反应性能的影响
+化学链氧解耦中，氧载体具有良好的释氧特性非
+常关键，它要求氧载体能够快速地、尽可能多地释放
+出O2。图4 为固定床内不同锆掺杂比铜基氧载体在
+880 ℃下的释氧特性。
+图4
+不同锆掺杂比铜基氧载体的释氧特性
+Fig. 4
+O2 desorption curves of Cu-based oxygen carriers
+with different Zr doping contents
+由图4 可以看出，在CO2 气氛下，铜基氧载体能
+够释放出O2。与未掺杂锆相比，掺杂锆组分后铜基
+氧载体的释氧量明显增加。这可能是因为锆掺杂一
+方面增大了氧载体比表面积和孔的数量，另一方面锆
+元素进入铜基氧载体的晶格后，增加了晶格缺陷，产
+生更多的氧空位，加快扩散。此外，形成固溶体后的
+晶格结构发生一定畸变，处于高能量的活化状态，从
+而有利于化学反应的进行。这一促进机理将在2. 4
+节中具体说明。8% Zr 掺杂比的氧载体具有较高的
+释氧量，继续增加掺杂比，其促进作用不明显。这可
+能是因为继续增加锆含量，杂相增多，阻碍氧传递，同
+时可能结构变得致密，减少了比表面积和孔的数量。
+2. 3
+锆掺杂铜基氧载体的循环反应性能
+氧载体应该具有良好的长时间、多次循环反应能
+力，所以考察锆掺杂铜基氧载体的循环反应能力十分
+必要。Zr 掺杂比为8% 的铜基氧载体在固定床内5
+次循环的反应曲线如图5 所示。
+图5
+8% Zr 掺杂铜基氧载体的循环反应性能
+Fig. 5
+Multiple absorption/desorption cycles of Cu-based
+oxygen carrier with 8% Zr doping
+第2 次循环反应中，氧载体的释氧量略有下降，
+最大氧气体积分数从第1 次循环的6. 2% 降低为
+5. 3% ，这可能是由于1 次释氧/吸氧反应后氧载体颗
+粒表面发生了轻微烧结。第3 次循环反应中，最大氧
+气体积分数升高到5. 5% ，释氧量又略有增加，这可
+能是因为在热冲击和化学反应的作用下颗粒内部形
+成了较大孔隙的缘故。而此后的2 次循环反应中，氧
+载体释氧量均保持稳定( 5. 6% ) 。同时完成1 次释
+氧/吸氧所需时间基本相同，表明释氧/吸氧速率能够
+保持稳定。
+2. 4
+锆掺杂铜基氧载体的释氧机理
+Zhang 等
+［19］采用密度泛函理论研究了CuO 的释
+氧机理。在高温条件下，CuO 表面氧原子迁移形成
+O—O 键结构，并脱离晶体表面形成自由的O2 分子。
+同时，CuO 晶体内部氧原子不断向表面迁移，从而可
+以不断形成表面O—O 键结构。而在这一释氧过程
+中。表面反应过程起到关键作用
+［19］。笔者采用密度
+泛函理论研究了Zr 掺杂CuO 的表面释氧过程。根
+据Zr 掺杂CuO 释氧前后的构型，经过过渡态搜索，
+确定了Zr 掺杂CuO 的释氧过程，如图6 所示。
+由图6 可知，Zr 掺杂CuO 释氧过程经过过渡态
+TS、中间态IM 和终态FS。在IS—TS—IM 过程中，Zr
+0
+3
+7
+2
+中国煤炭期刊网 
+www.chinacaj.net
+
+
+===== Page 5 =====
+
+第11 期
+程
+浩等: 锆掺杂铜基氧载体释氧性能的实验与机理
+图6
+Zr 掺杂CuO 表面释氧过程势能图及相应结构变化
+Fig. 6
+Potential energy diagram and the corresponding structure
+transformation of Zr doped CuO surface in O2 release process
+掺杂CuO 表面的氧原子逐渐迁移到表面，并形成
+O—O 键结构，键长为1. 527×10
+－10 m。计算得到此反
+应吸热1. 6 eV，反应活化能为1. 8 eV，低于纯CuO 的
+释氧能垒2. 3 eV。在IM－FS 过程中，上述过程中形
+成的O—O 键结构脱离表面形成O2分子。其键长为
+1. 245 × 10
+－10 m，接近纯氧气分子的键长1. 240 ×
+10
+－10 m。计算得到这一过程中O2 的解离能为
+3. 7 eV。上述计算结果表明Zr 掺杂可以有效降低
+CuO 释氧反应能垒，提高CuO 的反应性能，这与实验
+结果是一致的。
+3
+结
+论
+( 1) 锆能够与铜基氧载体CuO/CuAl2 O4 形成固
+溶体，其固溶度有限。锆掺杂能够细化铜基氧载体晶
+粒，有利于形成颗粒与孔分布更加均匀的形貌。
+( 2) 锆掺杂对铜基载氧体的释氧量具有促进作
+用。这可能是因为锆掺杂一方面增大了载氧体比表
+面积和孔的数量，另一方面增加了晶格缺陷，产生更
+多的氧空位。同时形成固溶体后，晶格结构发生一定
+畸变，处于高能量的活化状态，从而有利于化学反应
+的进行。8% 掺杂比具有最佳效果。
+( 3) 密度泛函理论计算结果表明锆掺杂能有效
+降低铜基氧载体释氧反应活化能垒，从而提高铜基氧
+载体的反应性。
+参考文献:
+［1］
+Mattisson T，Lyngfelt A，Leion H．Chemical-looping with oxygen un-
+coupling for combustion of solid fuels［J］．International Journal
+of Greenhouse Gas Control，2009，3( 1) : 11－19．
+［2］
+Ｒichter H J，Knoche K F．Ｒeversibility of combustion processes
+［A］．Proceedings of the ACS Symposium Series，F［C］．Oxford:
+Oxford University Press，1983．
+［3］
+刘黎明，赵海波，郑楚光．化学链燃烧方式中氧载体的研究进展
+［J］．煤炭转化，2006，29( 3) : 83－93．
+Liu Liming，Zhao Haibo，Zheng Chuguang．Advance on oxygen carri-
+ers of chemical-looping combusion［J］．Coal Conversion，2006，
+29( 3) : 83－93．
+［4］
+秦翠娟，沈来宏，肖
+军，等．化学链燃烧技术的研究进展［J］．
+锅炉技术，2008，39( 5) : 64－73．
+Qin Cuijuan，Shen Laihong，Xiao Jun，et al．Ｒesearch development
+of chemical-looping combustion ［J］．Boiler Technology，2008，
+39( 5) : 64－73．
+［5］
+梅道锋，赵海波，马兆军，等．Cu /Co/Mn 基氧载体释氧动力学及
+机理研究［J］．燃料化学学报，2013，41( 2) : 235－242．
+Mei Daofeng，Zhao Haibo，Ma Zhaojun，et al．Oxygen release kinetics
+and mechanism study on Cu-，Co-，Mn-based oxygen carrier［J］．
+Journal of Fuel Chemistry and Technology，2013，41( 2) : 235－242．
+［6］
+Ｒui Z，Ding J，Fang L，et al．YBaCo4 O7+δ sorbent for oxygen-en-
+riched carbon dioxide stream production at a low-temperature［J］．
+Fuel，2012，94: 191－196．
+［7］
+Ｒui Z，Ding J，Li Y，et al．SrCo0．8Fe0．2O3－δ sorbent for high-temper-
+ature production of oxygen-enriched carbon dioxide stream［J］．Fu-
+el，2010，89( 7) : 1429－1434．
+［8］
+Yin Q，Kniep J，Lin Y．Oxygen sorption and desorption properties
+of Sr-Co-Fe oxide［J］．Chemical Engineering Science，2008，63( 8) :
+2211－2218．
+［9］
+张
+腾，李振山，蔡宁生．利用钙钛矿型氧化物制取O2 －CO2 混
+合气体的实验研究［J］．工程热物理学报，2008，29( 9) : 1591 －
+1594．
+Zhang Teng，Li Zhenshan，Cai Ningsheng．Experimental study of O2-
+CO2 mixed stream production based on perovskite［J］．Journal of En-
+gineering Thermophysics，2008，29( 9) : 1591－1594．
+［10］
+Adaánez-Ｒubio I A，Gayaán P，Abad A，et al．Evaluation of a
+spray-dried CuO/MgAl2O4 oxygen carrier for the chemical looping
+with oxygen uncoupling process［J］．Energy ＆Fuels，2012，
+26( 5) : 3069－3081．
+［11］
+Xu L，Wang J，Li Z，et al．Experimental study of cement-supported
+CuO
+oxygen
+carriers
+in
+chemical
+looping
+with
+oxygen
+uncoupling( CLOU) ［J］．Energy ＆Fuels，2013，27 ( 3 ) : 1522 －
+1530．
+［12］
+Liu L，Zachariah M Ｒ．Enhanced performance of alkali metal doped
+Fe2O3 and Fe2O3 /Al2O3 composites as oxygen carrier material
+in chemical looping combustion ［J］．Energy ＆Fuels，2013，
+27( 8) : 4977－4983．
+［13］
+路
+遥，金
+晶，陈
+磊，等．金属载氧体的积碳特性研究［J］．
+煤炭学报，2012，37( 2) : 328－331．
+Lu Yao，Jin Jing，Chen Lei，et al．Ｒesearch on the carbon deposi-
+tion characteristics of the metal oxygen carrier［J］．Journal of China
+Coal Society，2012，37( 2) : 328－331．
+［14］
+Lu H，Deng Z，Tong J，et al．Oxygen permeability and structural stabili-
+1
+3
+7
+2
+中国煤炭期刊网 
+www.chinacaj.net
+
+
+===== Page 6 =====
+
+煤
+炭
+学
+报
+2015 年第40 卷
+ty of Zr-doped oxygen-permeable Ba0．5 Sr0．5 Co0．8 Fe0．2 O3－δ membrane
+［J］．Materials Letters，2005，59( 18) : 2285－2288．
+［15］
+Wu X，Wu X，Liang Q，et al．Structure and oxygen storage capacity
+of Pr/Nd doped CeO2-ZrO2 mixed oxides［J］．Solid State Sciences，
+2007，9( 7) : 636－643．
+［16］
+王敏俊，刘
+晶，刘
+丰，等．铜基氧载体制取O2 －CO2 混合气
+体的实验研究［J］．工程热物理学报，2014，35( 2) : 378－381．
+Wang Minjun，Liu Jing，Liu Feng，et al．Experimental study of O2-
+CO2 mixed stream production using a Cu-based oxygen carriers
+［J］．Journal of Engineering Thermophysics，2014，35 ( 2) : 378 －
+381．
+［17］
+Segall M，Lindan P J，Probert M A，et al．First-principles simula-
+tion: Ideas，illustrations and the CASTEP code［J］．Journal of Phys-
+ics: Condensed Matter，2002，14( 11) : 2717．
+［18］
+sbrink S，Norrby L-J．A refinement of the crystal structure of cop-
+per( II) oxide with a discussion of some exceptional esd’s［J］．Ac-
+ta Crystallographica Section B: Structural Crystallography and Crys-
+tal Chemistry，1970，26( 1) : 8－15．
+［19］
+Zhang Y，Zhao H，Guo L，et al．Decomposition mechanisms of Cu-
+based oxygen carriers for chemical looping with oxygen uncoupling
+based on density functional theory calculations［J］．Combustion and
+Flame，2015，162( 4) :
+櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢櫢
+1265－1274．
+《煤炭学报》刊发的论文又有22 篇入选F5000
+根据2015 年10 月21 日科技部中国科学技术信息研究所发布的信息，2014 年度《煤炭学报》又有22 篇优
+秀论文入选“中国精品科技期刊顶尖学术论文( 领跑者5000) ”。
+领跑者5000( 简称F5000) ，是中国科学技术信息研究所自2000 年开始立项开发的国家级研究课题，旨在
+将中国精品科技期刊上发表的部分优秀论文推向国内外的高端平台，在更大范围内向世界展示和推广我国最
+重要的科研成果，以扩大期刊和作者的学术影响力，引领我国高水平科技期刊事业的发展和成长。自2012 年
+度F5000 项目启动以来，《煤炭学报》已有66 篇次论文入围。2014 年度《煤炭学报》入选的论文名单如下:
+序号
+第一作者
+单位
+题目
+发表年份
+1
+常聚才
+安徽理工大学
+深部巷道围岩力学特征及其稳定性控制
+2009
+2
+许家林
+中国矿业大学
+浅埋煤层覆岩关键层结构分类
+2009
+3
+康红普
+中国煤炭科工集团有限公司
+掘进工作面围岩应力分布特征及其与支护的关系
+2009
+4
+张治斌
+河南理工大学
+基于Zigbee 井下无线传感器网络的定位方法
+2009
+5
+闫少宏
+中国煤炭科工集团有限公司
+特厚煤层大采高综放开采支架外载的理论研究
+2009
+6
+王双明
+西安科技大学
+生态脆弱矿区含( 隔) 水层特征及保水开采分区研究
+2010
+7
+邵
+强
+河南理工大学
+构造煤分布规律对煤与瓦斯突出的控制
+2010
+8
+董书宁
+长安大学
+对中国煤矿水害频发的几个关键科学问题的探讨
+2010
+9
+张吉雄
+中国矿业大学
+矸石充填综采覆岩关键层变形特征研究
+2010
+10
+卢
+平
+安徽建筑工业学院
+低透气性煤层群高瓦斯采煤工作面强化抽采卸压瓦斯机理及试验
+2010
+11
+陶
+树
+中国地质大学( 北京)
+沁南煤层气井产能影响因素分析及开发建议
+2011
+12
+孙继平
+中国矿业大学( 北京)
+煤矿安全生产理念研究
+2011
+13
+孙继平
+中国矿业大学( 北京)
+煤矿井下避难硐室与救生舱关键技术研究
+2011
+14
+林柏泉
+中国矿业大学
+基于区域瓦斯治理的钻割抽一体化技术及应用
+2011
+15
+陈尚斌
+中国矿业大学
+川南龙马溪组页岩气储层纳米孔隙结构特征及其成藏意义
+2012
+16
+黄金亮
+中国石油勘探开发研究院
+川南志留系龙马溪组页岩气形成条件与有利区分析
+2012
+17
+缪协兴
+中国矿业大学
+综合机械化固体充填采煤技术研究进展
+2012
+18
+周福宝
+中国矿业大学
+瓦斯与煤自燃共存研究( Ⅱ) : 防治新技术
+2013
+19
+武
+强
+中国矿业大学( 北京)
+煤层底板突水评价的新型实用方法Ⅴ
+2013
+20
+谭
+波
+中国矿业大学( 北京)
+煤的绝热氧化阶段特征及自燃临界点预测模型
+2013
+21
+秦
+勇
+中国矿业大学
+沁水盆地南部致密砂岩和页岩的气测显示与气藏类型
+2014
+22
+李树刚
+西安科技大学
+采动裂隙椭抛带动态演化及煤与甲烷共采
+2014
+编辑部向以上论文作者表示祝贺，并真诚的希望广大作者能够继续将最新、最优秀的论文投至本刊!
+本刊编辑部
+2
+3
+7
+2
+中国煤炭期刊网 
+www.chinacaj.net

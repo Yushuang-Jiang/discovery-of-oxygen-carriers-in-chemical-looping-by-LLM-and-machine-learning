@@ -1,0 +1,856 @@
+
+
+===== Page 1 =====
+
+Journal of Energy Storage 55 (2022) 105774
+Available online 3 October 2022
+2352-152X/© 2022 Published by Elsevier Ltd.
+Exploration of LiCoO2-doped cobalt oxide composite for thermochemical 
+energy storage at high temperature 
+Rongjun Wu a, Lisheng Deng b, Hongyu Huang b, Mitsuhiro Kubota a, Noriyuki Kobayashi a,* 
+a Department of Chemical Systems Engineering, Graduate School of Engineering, Nagoya University, Furo-cho, Chikusa-ku, Nagoya-shi, Aichi 464-8603, Japan 
+b Guangzhou Institute of Energy Conversion, Chinese Academy of Sciences, No. 2 Nengyuan Road, Wushan, Tianhe District, Guangzhou 510640, China   
+A R T I C L E  I N F O   
+Keywords: 
+Thermochemical energy storage 
+Reduction/oxidation process 
+Cobalt oxide 
+Lithium compound dopant 
+Cyclic stability 
+A B S T R A C T   
+Due to the high energy storage density, long-term energy storage and long-distance transport possibility, as well 
+as operation possibility under open system, metal oxide-based thermochemical energy storage (TCS) was 
+considered as a promising candidate for efficient energy utilization. Herein, lithium cobalt oxide (LiCoO2)-doped 
+cobalt oxide composite was proposed and investigated for the metal oxide-based TCS application. Doping with 
+LiCoO2 diminished the onset temperature of reduction and re-oxidation by 50 ◦C and 65 ◦C, respectively. Also, 
+doping with appropriate amount of LiCoO2 contributed to improve the re-oxidation rate of cobalt oxide-based 
+system under a high cooling rate, resulting the discharging heat (423.8 kJ/kg) increased significantly in com­
+parison with pure cobalt oxide (289.8 kJ/kg) under temperature cooling rate of 20 ◦C/min. It was found that 
+doping with LiCoO2 decreased the apparent activation energy of reduction and oxidation. Meanwhile, the results 
+obtained from in-situ X-ray diffraction indicate that LiCoO2 was involved in the reduction/re-oxidation process. 
+Moreover, excellent repeatability of the composite was attested in 30 cycles. Hence, doping with LiCoO2 was 
+verified as an effective method to expanding the possibility of cobalt oxide for TCS application.   
+1. Introduction 
+With the consistent growth of energy consumption, developing 
+efficient energy utilization technology becomes an attractive subject in 
+the globe. Thermal energy storage technology is becoming increasingly 
+important to realize the efficient use of energy [1,2]. Generally, thermal 
+energy storage technologies can be classified into three categories: 
+sensible heat storage system, latent heat storage system and thermo­
+chemical energy storage (TCS) system. Compared with sensible and 
+latent heat storage systems, thermochemical energy storage system, 
+which can store and release thermal energy through reversible chemical 
+reaction, possesses the following advantages: high energy storage den­
+sity, energy storage at room temperature, long-term energy storage and 
+long-distance transport possibility [3–5]. Metal oxide-based TCS system 
+is based on reversible reduction and oxidation of metal oxides. In 
+reduction process, thermal energy is used to drive the endothermic 
+reduction of metal oxide along with oxygen release. In the reverse 
+oxidation process, thermal energy is released through the exothermic 
+oxidation of metal oxide along with oxygen uptake. This system can be 
+performed in an open-loop plant where air is used as the source of ox­
+ygen as well as the thermal energy transfer medium [6]. Hence, there are 
+no technical requirements for gas separation and storage in comparison 
+with other TCS systems, such as CO2 separation and storage for 
+carbonate-based TCS system, and H2O storage for hydroxide-based TCS 
+system. In recent years, metal oxide-based TCS was mainly studied for 
+the concentrating solar power (CSP) plants. In a typical process, high- 
+temperature air heated by solar energy is employed to drive the reduc­
+tion of metal oxide, simultaneously partial thermal energy is stored in 
+the reduced metal oxide. Then, the reduced metal oxide is cooled down 
+under oxygen-poor condition. During the night time or on rainy day, the 
+thermal energy can be released by oxidizing the reduced metal oxide 
+with air [4]. 
+In the last over 40 years, scientists have donated considerable efforts 
+to explore suitable and efficient materials for metal oxide-based TCS 
+application. In terms of conventional metal oxides, BaO2/BaO [7], 
+Co3O4/CoO [8–12], Mn2O3/Mn3O4 [12,13], and CuO/Cu2O [14] pairs 
+were proposed as promising candidates for TCS application. Recently, 
+several novel multi-metal oxides exhibited the potential in TCS appli­
+cation like perovskite oxides [15–18], iron‑manganese oxides [19–24], 
+copper‑manganese oxides [23,24], lithium‑manganese oxides [25,26]. 
+Among them, cobalt oxide (Co3O4/CoO), which has high energy storage 
+density and remarkable recyclability in the temperature range of 
+* Corresponding author. 
+E-mail address: kobayashi.noriyuki@material.nagoya-u.ac.jp (N. Kobayashi).  
+Contents lists available at ScienceDirect 
+Journal of Energy Storage 
+journal homepage: www.elsevier.com/locate/est 
+https://doi.org/10.1016/j.est.2022.105774 
+Received 21 April 2022; Received in revised form 21 September 2022; Accepted 26 September 2022   
+
+
+===== Page 2 =====
+
+Journal of Energy Storage 55 (2022) 105774
+2
+870–955 ◦C in air [8–10], was considered as one of the most attractive 
+candidates for metal oxide-based TCS application. Cobalt oxide as well 
+as other Co-based materials played significant roles in various fields 
+[27]. For instance, cobalt was used in the Li-ion batteries as a vital 
+element [28]. Cobalt-based materials were employed as catalysts for 
+several reactions like hydrogen evolution reaction [29]. Cobalt can 
+exhibit multiple oxidation states (Co2+, Co3+ and Co4+), which gener­
+ates the redox reaction of cobalt oxide. Based on the redox reaction, 
+cobalt oxide was utilized in supercapacitor for charging storage [30]. 
+Moreover, cobalt oxide was proposed for oxygen production [8]. The 
+possible utilization of cobalt oxide for TCS was emphasized in the 
+project led by the American company General Atomics, in collaboration 
+with DLR, from which a growing number of researches concerning TCS 
+focused on the cobalt oxide [31]. The redox process is showed in the 
+following equation: 
+2Co3O4(s)⇌6CoO(s) + O2(g)
+(1)  
+where the right side in Eq. (1), Co3O4 reduction, is an endothermic step 
+corresponding to thermal energy storage, and the left side, CoO oxida­
+tion, is an exothermic step corresponding to thermal energy release. 
+To improve the chemical properties and parameters of Co3O4/CoO 
+redox process for TCS practical application, several researches based on 
+cobalt oxide system have been done, such as coating Co3O4 on porous 
+ceramic structures [10], shaping Co3O4 into porous structures [11], as 
+well as modified cobalt oxide by doping with other metal cations. 
+Suitable amount of Fe was found to be beneficial for the microstructural 
+stability [24,32]. Doping with Mn, Ni, Cu and Mg did not show better 
+redox performance than pure cobalt oxide [9,24,33]. Nevertheless, some 
+researches have reported that Ni-doping [34] and Cu-doping [24] can 
+help to lower the working temperature, which make it possible to use 
+cobalt oxide-based system in applications for lower temperature. 
+To broaden the working temperature and widen more applicability 
+of cobalt oxide-based system for TCS application, this work proposed a 
+cobalt oxide-based composite, which is composed of lithium cobalt 
+oxide (LiCoO2) and cobalt oxide. LiCoO2 has been widely used for 
+lithium-ion batteries. The basic reaction of LiCoO2 in a lithium-ion 
+battery is well known to be lithium ion extraction from or insertion 
+into a layered cobalt dioxide matrix by varying the interlayer distance 
+[35]. Accordingly, LiCoO2 was exploited as the support of Pt catalyst to 
+control the lattice strain of Pt catalyst and thus to tune the catalytic 
+activity in the oxygen reduction reaction [36]. Besides, LiCoO2 was also 
+utilized as catalyst for oxygen evolution reaction [37]. It is worthy to 
+mention that lithium compounds were frequently used as an adjuvant or 
+enhancer in several TCS systems [38]. Addition with lithium compounds 
+was found to be beneficial to lower the dehydration temperature, 
+improve the heat output density and enhance the reactivity of reaction 
+process in dehydration/hydration system (i.e. CaO/Ca(OH)2 system and 
+MgO/Mg(OH)2 system) [39–47]. Addition with lithium compounds also 
+was found to promote the carbonation of MgO/MgCO3 system [48]. In 
+metal oxide-based TCS system, lithium‑manganese oxides were pro­
+posed as possible working mediums for TCS application [25,26]. To the 
+best of our knowledge, there were rare researches that reported the ef­
+fect of doping lithium compounds on metal oxide-based TCS system. In 
+the present work, Co3O4 was doped with LiCoO2 by a simple mixing 
+process to prepare the LiCoO2-doped cobalt oxide composite. The redox 
+behavior of this composite was investigated. The optimum doping 
+amount of LiCoO2 was determined. The repeatability of this composite 
+was also tested. Moreover, the reduction/re-oxidation process of this 
+composite was explored and discussed. Additionally, pure cobalt oxide 
+was used for comparative analysis. 
+2. Experimental section 
+2.1. Preparation of samples 
+Co3O4 powder (99.99 %, Kanto Chemical CO., INC.) and LiCoO2 
+powder (99.988 %, Toshima Manufacturing CO., Ltd.) were used as 
+received. Certain amount of Co3O4 and LiCoO2 were weighed and put in 
+a mortar. To avoid the deviation generated in the milling process, the 
+total weight of each sample was weighed in around 1000 mg. Materials 
+were carefully mixed by hand, grinding with a speed of ~2 laps per 
+second for 20 min. In this work, samples with different doping amounts 
+of LiCoO2 were prepared. The molar ratio, x, is defined as, 
+x =
+mLiCoO2/MLiCoO2
+mLiCoO2/MLiCoO2 + mCo3O4/MCo3O4
+(2)  
+where mLiCoO2 is the weight of LiCoO2, and MLiCoO2 is the molecular 
+weight of LiCoO2. mCo3O4 is the weight of Co3O4, and MCo3O4 is the 
+molecular weight of Co3O4. 
+2.2. Characterization 
+The crystal structure of sample was identified by X-ray diffraction 
+(XRD; Rigaku Ultima IV) with Cu Kα radiation (40 kV/30 mA). The 
+morphology of sample was collected by scanning electronic microscope 
+(SEM; JEOL JSM-7500FA). The composition of sample was measured by 
+inductively coupled plasma optical emission spectrometers (ICP, Perki­
+nElmer OPTIMA 8000DV). 
+2.3. Redox investigation 
+The reduction/re-oxidation process of sample was performed by 
+thermogravimetric analyzer (TGA; HITACHI STA7300). In general, 
+reduction and re-oxidation steps were performed in air atmosphere 
+under a constant flow of 200 mL/min. The temperature program con­
+sisted of a heating step from 700 ◦C to 1000 ◦C with following holding 
+for 5 min and then a cooling step from 1000 ◦C to 700 ◦C with following 
+holding for 5 min. Heating/cooling steps were performed with ramping 
+rates of ±10 ◦C/min. The temperature program was proceeded in two 
+cycles for eliminating the influences caused by impurity. Also, the 
+repeatability of sample was performed by TGA with appropriate tem­
+perature procedures. All samples were weighed in approximately 10 mg. 
+During the reduction process, oxygen released leading to a weight loss of 
+sample. During re-oxidation process, oxygen uptake occurred leading to 
+a weight gain of sample. The weight change, α (%), is defined as, 
+α = mi −mt
+mi
+× 100
+(3)  
+where mi is the initial weight of sample, and mt is the weight at time t. 
+Due to the possible impurities existed in samples, initial weight of the 
+second cycle was used as the initial weight for each sample. 
+Moreover, the conversion ratio of reduction/re-oxidation, β (%), is 
+defined as, 
+β = m0 −mt
+m0 −mf
+× 100
+(4)  
+where m0 is the initial weight of sample before the reduction/re- 
+oxidation process, mt is the weight at time t, and mf is the final weight 
+of sample after the reduction/re-oxidation process. 
+The apparent activation energy of reduction and oxidation for sam­
+ples were calculated by isoconversional Friedman method [25,49,50], 
+which is represented by the following equation: 
+ln
+[
+i⋅
+(dβ
+dT
+) ]
+= ln[Af(β) ] −
+E
+RT
+(5)  
+R. Wu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 3 =====
+
+Journal of Energy Storage 55 (2022) 105774
+3
+where i is the heating rate (K/min), β is the conversion ratio, A is the pre- 
+exponential factor, f(β) is the reaction model, E is the apparent activa­
+tion energy (J/mol), R is the gas constant (8.314 J/K/mol), T is the 
+temperature (K) at which the extent of conversion β is reached under the 
+heat rate i. For each given β, the apparent activation energy E is deter­
+mined from the slope of the plot of ln[i⋅(dβ/dT)] against 1/T. The 
+apparent activation energy of reduction was calculated based on the 
+heating rate of 5, 10, 15 and 20 K/min. The apparent activation energy 
+of oxidation was calculated by reduced samples based on the heating 
+rate of 1, 3, 5 and 10 K/min. To obtained reduced samples, the as- 
+prepared samples were heated to 1000 ◦C in air, and then cooled 
+down to room temperature in nitrogen. 
+Simultaneous thermogravimetry-differential scanning calorimetry 
+(TG-DSC, NETZSCH STA449F3) was carried out to study the heat 
+charging and discharging during reduction and re-oxidation process. 
+The temperature procedure consisted of a heating step from 30 ◦C to 
+1020 ◦C with following holding for 30 min and then a cooling step from 
+1020 ◦C to 100 ◦C with following holding for 5 min. Both heating and 
+cooling steps were performed in air atmosphere under a constant flow of 
+100 mL/min with ramping rates of ±20 ◦C/min. 
+The reduction/re-oxidation process was analyzed by in-situ X-ray 
+diffraction (in-situ XRD; Rigaku SmartLab 3 kW) with Cu Kα radiation 
+(40 kV/40 mA). The powder patterns were recorded during a heating/ 
+cooling process between 30 ◦C and 1000 ◦C. 
+3. Results and discussion 
+3.1. Characterization of samples 
+The chemical compositions of pure Co3O4, pure LiCoO2 and mixed 
+samples with different molar ratios (x) were confirmed by ICP 
+(Table S1). Fig. 1 shows the XRD patterns of these samples. All mixed 
+samples presented the characteristic reflections of LiCoO2 phase (PDF: 
+01-070-2685) and Co3O4 phase (PDF: 00-043-1003). No new diffraction 
+peaks were detected after mixing process. Fig. 2 shows the SEM images 
+of these samples. Each sample shows an agglomerate morphology with 
+terraced structure made of particles. Obviously, different particle sizes 
+can be observed between Co3O4 (≥1 μm) and LiCoO2 (≤0.5 μm). 
+Therefore, it is easy to distinguish LiCoO2 particles from Co3O4 particles. 
+As we can see in the images taken from mixed samples, LiCoO2 particles 
+dispersed on the surface of Co3O4. What is more, different amounts of 
+LiCoO2 particles can be observed. With the increasing of x value, the 
+amount of LiCoO2 particles increased. 
+3.2. Redox behaviors of samples 
+The redox behaviors of samples with different molar ratios (x) were 
+explored. Fig. 3 shows the TGA results of samples with different molar 
+ratios (x). The redox performance of pure LiCoO2 was also tested. As 
+shown in Fig. 3, there was no reversible reaction occurred for pure 
+LiCoO2 under the configured temperature program. In terms of mixed 
+samples and pure Co3O4, there was an initial weight loss before the rapid 
+weight loss for each sample in the first heating step, which may attribute 
+to two reasons: (1) the absorbed compounds like water, CO2, and O2 
+were irreversibly eliminated; (2) oxygen vacancies were generated in 
+the crystal lattice of metal oxide at elevated temperature (with corre­
+sponding loss of oxygen), which caused by point defect [28,51,52]. And 
+then, a rapid weight loss occurred with the increasing temperature from 
+700 ◦C to 1000 ◦C for each sample due to the oxygen release in reduction 
+process. Subsequently, the weight of each sample increased with the 
+decreasing temperature from 1000 ◦C to 700 ◦C due to the oxygen up­
+take in re-oxidation process. Apparently, different redox behaviors with 
+respect to reduction/re-oxidation temperature and weight change can 
+be observed among mixed samples and pure Co3O4. The reduction/re- 
+oxidation temperature will be discussed in Figs. 4 and 5. The impor­
+tant matter about reduction/re-oxidation temperature illustrated in 
+Fig. 3 is that the mixed samples exhibited relatively low reduction/re- 
+oxidation temperature in comparison with pure Co3O4. 
+In terms of the weight change, it is clearly visible that the weight 
+change corresponding to the amount of oxygen release/uptake 
+Fig. 1. XRD patterns of Co3O4, LiCoO2 and mixed samples with different molar ratios (x).  
+R. Wu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 4 =====
+
+Journal of Energy Storage 55 (2022) 105774
+4
+Fig. 2. SEM images of (a) Co3O4, (b) LiCoO2 and mixed samples with molar ratios of (c) x = 0.1, (d) x = 0.2, (e) x = 0.3, (f) x = 0.4, (g) x = 0.5, (h) x = 0.6, and (i) x 
+= 0.7. 
+Fig. 3. Thermogravimetric curves of samples with different molar ratios (x).  
+R. Wu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 5 =====
+
+Journal of Energy Storage 55 (2022) 105774
+5
+decreased with increasing doping amount of LiCoO2 (i.e., with 
+increasing molar ratios (x)). The weight loss upon reduction was nearly 
+α = 6.5 % and the main weight gain upon re-oxidation was nearly α =
+6.3 % for pure Co3O4. In the case of mixed samples, the rapid weight loss 
+for the mixed samples with molar ratios of x = 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 
+and 0.7 were nearly α = 6.4 %, 5.9 %, 5.5 %, 5.2 %, 4.6 %, 4.0 %, and 
+3.3 %, respectively. Then, in the subsequent re-oxidation process, the 
+main weight gain for the mixed samples with molar ratios of x = 0.1, 0.2, 
+0.3, 0.4, 0.5, 0.6, and 0.7 were nearly α = 6.2 %, 5.7 %, 5.3 %, 5.1 %, 4.5 
+%, 4.0 %, and 3.3 %, respectively. A slight deviation of weight change 
+between reduction and re-oxidation steps occurred for the samples with 
+molar ratios (x) ≤0.5. When the molar ratios (x) > 0.5, the weight 
+recovered completely. As we can observe in Fig. 3, the re-oxidation rate 
+of the samples with molar ratios (x) ≤0.5 became relatively low in the 
+Fig. 4. Reduction profiles for samples with different molar ratios (x).  
+Fig. 5. (a) Re-oxidation profiles for samples with different molar ratios (x) and (b) Evolution of the onset re-oxidation temperature as a function of molar ratio (x).  
+R. Wu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 6 =====
+
+Journal of Energy Storage 55 (2022) 105774
+6
+concluding part of re-oxidation process, leading to partial weight gained 
+slowly. 
+Conversion ratio of reduction and re-oxidation were calculated by 
+eq. (4) from the weight change of each sample in reduction and re- 
+oxidation steps performed by TGA with ramping rates of ±10 ◦C/min. 
+Fig. 4 shows the conversion ratio of reduction as a function of temper­
+ature during the second cycle for samples with different molar ratios (x). 
+As seen in Fig. 4, the conversion ratio of reduction for each sample 
+increased gradually with increasing temperature. The reduction process 
+of pure Co3O4 took place between 925 ◦C and 955 ◦C and completed in 3 
+min. In terms of mixed samples, the reduction process of each mixed 
+sample started at approximately 875 ◦C, which was lower than that of 
+pure Co3O4. When the molar ratio was x = 0.1, the reduction process of 
+the sample took 6.5 min and finished at around 940 ◦C. With the 
+increasing molar ratios from x = 0.1 to 0.4, the reduction rate became 
+faster. When the molar ratio was x = 0.4, the reduction process took 3 
+min and finished at around 905 ◦C. Then, as we can observe from Fig. 4, 
+similar reduction profiles were exhibited for the mixed samples with 
+molar ratios of x = 0.4, 0.5, 0.6, and 0.7. Thus, the mixed sample 
+exhibited an optimum reduction rate when the molar ratio (x) was 
+higher than 0.4. The results reveal that doping with LiCoO2 contributed 
+to lower the onset temperature of reduction for pure Co3O4. Much more 
+interesting, doping amount of LiCoO2 was not related to the onset 
+temperature of reduction but impacted on the reduction rate. 
+Fig. 5a shows the conversion ratio of re-oxidation as a function of 
+temperature during the second cycle for samples with different molar 
+ratios (x). As shown in Fig. 5a, the re-oxidation process of each mixed 
+sample started at a lower temperature in comparison with pure Co3O4. 
+Also, it is worthy to note that the onset temperatures of re-oxidation for 
+mixed samples were obviously different, which differed from the 
+reduction process illustrated in Fig. 4. Furthermore, Fig. 5b illustrates 
+the evolution of the onset temperature of re-oxidation as a function of 
+molar ratio (x). When the molar ratio increased from x = 0 to 0.4, the 
+onset temperature of re-oxidation decreased linearly. The onset tem­
+perature of re-oxidation for samples with molar ratios of x = 0, 0.1, 0.2, 
+0.3, and 0.4 were approximately 890 ◦C, 870 ◦C, 855 ◦C, 845 ◦C and 
+825 ◦C, respectively. And then, the onset temperature was constant at 
+825 ◦C when the molar ratio increased from x = 0.4 to 0.7. As shown in 
+Fig. 5a, the conversion ratio of re-oxidation for each sample increased 
+gradually with decreasing temperature. The conversion ratio of pure 
+Co3O4 reached nearly β = 95 % in 8.5 min when the temperature 
+decreased from 890 ◦C to 805 ◦C. Afterwards, the concluding part of the 
+re-oxidation took place slowly in a wide temperature range. When the 
+molar ratio was x = 0.1, the conversion ratio for the mixed sample 
+reached nearly β = 95 % in 8.5 min with decreasing temperature from 
+870 ◦C to 785 ◦C. Similarly, the concluding part for the mixed sample 
+also took place slowly. With increasing molar ratios from x = 0.1 to 0.7, 
+the re-oxidation rate was improved gradually, as shown in Fig. 5a. When 
+the molar ratio was x = 0.4, the conversion ratio of the mixed sample 
+reached nearly β = 95 % in approximately 6 min with decreasing 
+temperature from 825 ◦C to 768 ◦C. The results illustrated in Fig. 5 
+indicate that doping with LiCoO2 leaded to a decrease in the onset 
+temperature of re-oxidation. Moreover, doping amount of LiCoO2 
+impacted on the onset temperature of re-oxidation as well as the re- 
+oxidation rate. The onset temperatures of reduction/re-oxidation for 
+samples with different molar ratios (x) were also summarized in Table 1. 
+Accordingly, the optimum molar ratio for the composite was determined 
+as x = 0.4 with respective to the onset temperature of reduction/re- 
+oxidation, weight change and reduction/re-oxidation rate. 
+The effect of LiCoO2 doping on the redox rate of cobalt oxide was 
+further investigated. Fig. 6 displays the evolution of reduction/re- 
+oxidation conversion ratio as a function of temperature for pure Co3O4 
+sample and the mixed sample with molar ratio of x = 0.4 under different 
+heating/cooling rates. As shown in Fig. 6A, the curves of reduction step 
+under different heating rates were nearly identical for the pure Co3O4 
+sample and the mixed sample. While in the case of re-oxidation step, it 
+can be observed that the higher cooling rate exhibited opposite effect on 
+the re-oxidation for pure Co3O4 sample and the mixed sample, leading to 
+incomplete conversions for these two samples when the cooling rate was 
+higher than 10 ◦C/min. Nonetheless, the mixed sample with molar ratio 
+of x = 0.4 presented a faster re-oxidation under the higher cooling rate 
+by comparing with pure Co3O4 sample, resulting in the higher conver­
+sion ratio. As we can see, β = 45 % conversion obtained for pure Co3O4 
+sample under the cooling rate of 20 ◦C/min, while β = 76 % conversion 
+obtained for the mixed sample under the same cooling rate. The result 
+indicates that doping with appropriate amount of LiCoO2 contributed to 
+improve the re-oxidation rate of cobalt oxide-based system under a high 
+cooling rate, which might extend the applicability of the composite in 
+terms of operation conditions. The heat-charging/discharging result was 
+measured by DSC with alumina open crucibles. As shown in Fig. 7, pure 
+Co3O4 and the mixed sample both exhibited evident endothermic and 
+exothermic peaks under the heating/cooling rate of 10 ◦C/min. The ratio 
+between charging and discharging heat for pure Co3O4 and the mixed 
+sample were 0.83 and 0.86, respectively. The deviation between 
+charging and discharging heat might attribute to the difference of re­
+action rate between reduction and re-oxidation processes as well as the 
+heat loss occurred in the open reaction system. When the heating/ 
+cooling rate was 20 ◦C/min, pure Co3O4 exhibited a small exothermic 
+peak corresponding to 289.8 kJ/kg, while the mixed sample exhibited a 
+sharp exothermic corresponding to 423.8 kJ/kg. The ratio between 
+charging and discharging heat for pure Co3O4 and the mixed sample 
+were 0.46 and 0.74, respectively. The difference in the discharging heat 
+for these two samples under the cooling rate of 20 ◦C/min may be owing 
+to the different re-oxidation rates as shown in Fig. 6B. 
+As reported in Fig. 8, the apparent activation energy of reduction for 
+the mixed sample with molar ratio of x = 0.4 and pure Co3O4 are 435.17 
+± 8.39 kJ/mol and 524.85 ± 54.64 kJ/mol, respectively. Meanwhile, 
+the apparent activation energy of oxidation for the mixed sample with 
+molar ratio of x = 0.4 and pure Co3O4 are 173.88 ± 16.11 kJ/mol and 
+265.78 ± 19.49 kJ/mol, respectively. By doping with LiCoO2, the 
+apparent activation energy of reduction and oxidation were decreased. 
+The result indicates that doping with LiCoO2 can make reduction and 
+oxidation of cobalt oxide occur more easily. 
+3.3. Reduction/re-oxidation process exploration 
+To understand deeply about the effect of LiCoO2 on the reduction/re- 
+oxidation process of cobalt oxide, in-situ XRD was utilized to explore the 
+process. Fig. 9 (A-D) shows the in-situ XRD patterns of the mixed sample 
+with molar ratio of x = 0.4. Fig. 9A shows the XRD patterns in the 
+heating step, as we can observe, the sample exhibited both LiCoO2 phase 
+(PDF: 01–070-2685) and Co3O4 phase (PDF: 00–043-1003) clearly at 
+room temperature. When temperature was higher than 850 ◦C, the in­
+tensity of diffraction peaks decreased with the increasing temperature. 
+Ultimately, the XRD patterns at 950 ◦C exhibited a single phase of CoO 
+(PDF: 01–076-3829). This behavior demonstrates that both Co3O4 and 
+Table 1 
+The onset temperature of reduction/re-oxidation and weight change of samples 
+with different molar ratios (x).  
+Sample 
+Tonset red (◦C)a 
+Tonset oxi (◦C)a 
+Weight loss (%)b 
+Weight gain (%)b 
+x = 0  
+925  
+890  
+6.5  
+6.3 
+x = 0.1  
+875  
+870  
+6.4  
+6.2 
+x = 0.2  
+875  
+855  
+5.9  
+5.7 
+x = 0.3  
+875  
+845  
+5.5  
+5.3 
+x = 0.4  
+875  
+825  
+5.2  
+5.1 
+x = 0.5  
+875  
+825  
+4.6  
+4.5 
+x = 0.6  
+875  
+825  
+4.0  
+4.0 
+x = 0.7  
+875  
+825  
+3.3  
+3.3  
+a The onset temperature in this work corresponds to the start temperature of 
+sharp weight change under the configured temperature program. 
+b The data of weight loss obtained from the second cycle. 
+R. Wu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 7 =====
+
+Journal of Energy Storage 55 (2022) 105774
+7
+LiCoO2 were converted into CoO. It seemed that the Li species inserted 
+into the CoO lattice and formed a CoO-based solid solution. The in-situ 
+XRD patterns shown in Fig. 9B illustrates the re-oxidation process in the 
+cooling step. As we can observe, LiCoO2 phase and Co3O4 phase repro­
+duced while the CoO phase vanished with the decreasing temperature. It 
+should be noted that the structure is detected by in-situ XRD only when 
+the amount of the material is enough. Consequently, no CoO phase was 
+tested by in-situ XRD when the temperature decreased to 800 ◦C, which 
+differed from the result illustrated in Fig. 5 obtained by TGA. The 
+important matter verified by in-situ XRD is that LiCoO2 was involved in 
+the reduction/re-oxidation process. 
+Fig. 9C shows the localized in-situ XRD patterns within the 2θ range 
+from 17.5◦to 20◦in the heating step. The diffraction peak corresponding 
+to the LiCoO2 (003) facets shifted from 18.92◦at 30 ◦C to 18.42◦at 
+Fig. 6. (A) Reduction and (B) Re-oxidation profiles for pure Co3O4 sample and the mixed sample with molar ratio of x = 0.4 under different heating/cooling rates.  
+Fig. 7. DSC curves of pure Co3O4 and the mixed sample with molar ratio of x = 0.4 under different heating/cooling rates: (a) pure Co3O4, 10 ◦C/min, (b) pure Co3O4, 
+20 ◦C/min, (c) the mixed sample with molar ratio of x = 0.4, 10 ◦C/min, and (d) the mixed sample with molar ratio of x = 0.4, 20 ◦C/min. 
+R. Wu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 8 =====
+
+Journal of Energy Storage 55 (2022) 105774
+8
+890 ◦C, corresponding to an increase in layer spacing of LiCoO2 from 
+4.69 Å to 4.81 Å. Similarly, Fig. 9D shows the localized in-situ XRD 
+patterns within the 2θ range from 30◦to 33◦in the heating step. The 
+diffraction peak, corresponding to the Co3O4 (220) facets where present 
+abundant of Co3+ [53,54], shifted from 31.26◦at 30 ◦C to 30.82◦at 
+890 ◦C, corresponding to an increase in the relevant lattice spacing of 
+Co3O4 from 2.86 Å to 2.90 Å. In addition, as we can observe from 
+Fig. 9A, other diffraction peaks of LiCoO2 phase and Co3O4 phase also 
+shifted toward the lower angle side. This behavior means that other 
+facets of LiCoO2 and Co3O4 crystals also expended in the heating step. 
+Fig. 9E shows the in-situ XRD patterns of mixed samples with 
+different molar ratios (x) at 950 ◦C and Table 2 shows the lattice 
+Fig. 8. Isoconversional plots calculated by Friedman method for the (A) reduction and (B) oxidation in air (β = 50 %).  
+Fig. 9. In-situ XRD patterns of the mixed sample with molar ratio of x = 0.4: (A) In the heating step, (B) In the cooling step, (C) Localized XRD patterns within the 2θ 
+range from 17.5◦to 20◦in the heating step, and (D) Localized XRD patterns within the 2θ range from 30◦to 33◦in the heating step. And (E) in-situ XRD patterns of 
+mixed samples with different molar ratios (x) at 950 ◦C. 
+R. Wu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 9 =====
+
+Journal of Energy Storage 55 (2022) 105774
+9
+parameter of the CoO phase at 950 ◦C for these samples. A single CoO 
+phase (PDF: 01–076-3829) was detected for the mixed samples with 
+molar ratios of x = 0.3 and 0.4. When the molar ratio was x ≥0.5, a 
+secondary phase corresponding to LiCoO2 phase (PDF: 01–070-2685) 
+can be observed. Meanwhile, the lattice parameter of CoO decreased 
+from 4.28 Å to 4.24 Å when the molar ratio (x) increased from 0.3 to 0.6, 
+which might be due to the insertion of Li species (Fig. S1). Afterwards, 
+the lattice parameter was constant when the molar ratio was x ≥0.6. 
+The result indicates that the amount of Li species in the CoO structure 
+increased with the increasing of LiCoO2 doping amount. Nonetheless, 
+the amount of Li species in CoO structure was limited. This result might 
+account for the different onset temperatures of re-oxidation for mixed 
+samples with different molar ratios (x), as illustrated in Fig. 5 of Section 
+3.2. With an increase in the doping amount of Li species in CoO lattice, 
+the onset temperature of re-oxidation decreased gradually. 
+Combined the in-situ XRD results with the redox behaviors discussed 
+in Section 3.2, a plausible reduction/re-oxidation process of the LiCoO2- 
+doped cobalt oxide composite was proposed, as shown in Fig. 10. In 
+heating step, the lattices of LiCoO2 and Co3O4 slightly expanded with 
+increasing temperature. It is known that lithium ions will extract from or 
+insert into the layered cobalt dioxide matrix of LiCoO2 by varying the 
+interlayer distance [35–37]. Thus, partial lithium ions extracted from 
+the layered cobalt dioxide matrix when the interlayer distance of LiCoO2 
+increased from 4.69 Å to 4.81 Å (De-lithiation process). Simultaneously, 
+the extracted lithium ions inserted into Co3O4 lattice, which may render 
+the Co3O4 crystal more fragile and stimulate the reduction of Co3O4 to 
+start at lower temperature, as discussed in Fig. 4 of Section 3.2. Ulti­
+mately, LiCoO2 and Co3O4 converted into CoO-based solid solution. In 
+cooling step, the reverse oxidation process occurred. The CoO-based 
+solid solution converted to LiCoO2 and Co3O4 in relatively low tem­
+perature, which may be owing to the doping lithium ions in CoO lattice. 
+At the same time, the lithium ions inserted into the layered cobalt di­
+oxide matrix of LiCoO2 (Lithiation process). We assumed the insertion of 
+lithium into Co3O4/CoO has a positive effect on the reduction/re- 
+oxidation process. As a further issue, deeper investigation is necessary 
+and required. 
+3.4. Repeatability test 
+To examine the repeatability of the composite. The mixed sample 
+with molar ratio of x = 0.4, which exhibited an optimum redox 
+behavior, was subjected to 30 runs of reduction/re-oxidation by TGA 
+under an appropriate temperature range. Fig. 11 shows the TGA result of 
+the subjected sample with 30 runs of reduction/re-oxidation. α = 5.2 % 
+weight lost and α = 5.1 % weight recovered in the second cycle, and α =
+5.2 % weight lost and α = 5.2 % weight recovered in the 30th cycle. This 
+result demonstrates the feasibility of this composite for TCS application 
+as it can be reused for several cycles. Fig. 12 displays the relevant SEM 
+images of the mixed sample with molar ratio of x = 0.4. It can be 
+observed that remarkable changes occurred in the morphology of the 
+sample during reduction/re-oxidation cycles. Differing from the as- 
+prepared sample, the used samples presented coral-like morphologies 
+caused by thermal sintering. Moreover, LiCoO2 particles could not be 
+distinguished from the bulk. As we can observe from the image taken 
+after 2 cycles, the necks with diameter of around 1 μm formed between 
+the neighboring particles. Meanwhile, open macro-pores presented 
+among the necks. Further, the relatively long necks and large pores 
+shown in the image taken after 30 cycles indicates that there was a 
+further sintering occurred during the subsequent reduction/re-oxidation 
+cycles. The large pores among coral-like structures maybe beneficial to 
+the diffusion of oxygen and facilitate the re-oxidation. 
+4. Conclusion 
+In summary, LiCoO2-doped cobalt oxide composite was proposed 
+and explored for thermochemical energy storage application. The 
+Table 2 
+Lattice parameters of CoO phase at 950 ◦C for mixed sample with different molar 
+ratios (x).  
+Mixed sample 
+x = 0.3 
+x = 0.4 
+x = 0.5 
+x = 0.6 
+x = 0.7 
+Lattice parameter (Å)a 
+4.28 
+4.27 
+4.25 
+4.24 
+4.24  
+a Lattice parameter is derived from (111) (200) (220) facets based on in-situ 
+XRD analysis. 
+Fig. 10. Plausible reduction/re-oxidation process of LiCoO2-doped cobalt oxide composite.  
+R. Wu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 10 =====
+
+Journal of Energy Storage 55 (2022) 105774
+10
+composite was facilely obtained by physical mixing process, which is 
+advantageous to scale-up research and practical application. 
+The reduction/re-oxidation behavior of LiCoO2-doped cobalt oxide 
+composite was investigated. The optimum doping amount of LiCoO2 in 
+composite was determined by the reduction/re-oxidation temperature, 
+weight change and reduction/re-oxidation rate. It was found that doping 
+with LiCoO2 diminished the onset temperature of reduction and re- 
+oxidation by 50 ◦C and 65 ◦C, respectively. Also, doping with appro­
+priate amount of LiCoO2 contributed to improve the re-oxidation rate of 
+cobalt oxide-based system under a high cooling rate, resulting the dis­
+charging heat (423.8 kJ/kg) increased significantly in comparison with 
+pure cobalt oxide (289.8 kJ/kg) under temperature cooling rate of 
+20 ◦C/min. Doping with LiCoO2 was found to decrease the apparent 
+activation energy of reduction and oxidation. Meanwhile, excellent 
+repeatability of this composite was attested in 30 cycles. Hence, LiCoO2- 
+doped cobalt oxide was proved as a promising candidate for TCS 
+application. Moreover, the in-situ XRD results demonstrated that LiCoO2 
+was involved in the reduction/re-oxidation process. The effect of lithium 
+ions on the reduction/re-oxidation process would be investigated in the 
+future. In addition, as doping with lithium compounds has been verified 
+as an effective method to expanding the possibility of metal oxides for 
+TCS application, more lithium compounds and metal oxide pairs would 
+be tested in the future. 
+Fig. 11. Thermogravimetric curve of the mixed sample with molar ratio of x = 0.4 under 30 runs of reduction/re-oxidation.  
+Fig. 12. SEM images of the mixed sample with molar ratio of x = 0.4: (a and a’) as-prepared sample, (b and b’) after 2 cycles, and (c and c’) after 30 cycles.  
+R. Wu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 11 =====
+
+Journal of Energy Storage 55 (2022) 105774
+11
+CRediT authorship contribution statement 
+Rongjun Wu: Conceptualization, Methodology, Investigation, 
+Writing – original draft. Lisheng Deng: Investigation. Hongyu Huang: 
+Resources, Writing – review & editing. Mitsuhiro Kubota: Resources. 
+Noriyuki Kobayashi: Supervision. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Data availability 
+Data will be made available on request. 
+Acknowledgements 
+This work was partially supported by “Knowledge Hub Aichi”, Pri­
+ority Research Project from Aichi Prefectural Government, Japan and 
+the National Natural Science Foundation of China (No.52176091). 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.est.2022.105774. 
+References 
+[1] H. Mahon, D. O’Connor, D. Friedrich, B. Hughes, A review of thermal energy 
+storage technologies for seasonal loops, Energy 239 (2022), 122207. 
+[2] S. Kuravi, J. Trahan, D. Yogi Goswami, M.M. Rahman, E.K. Stefanakos, Thermal 
+energy storage technologies and systems for concentrating solar power plants, 
+Prog. Energy Combust. Sci. 39 (2013) 285–319. 
+[3] L. Andr´e, S. Abanades, G. Flamant, Screening of thermochemical systems based on 
+solid-gas reversible reactions for high temperature solar thermal energy storage, 
+Renew. Sustain. Energy Rev. 64 (2016) 703–715. 
+[4] A.J. Carrillo, J. Gonz´alez-Aguilar, M. Romero, J.M. Coronado, Solar energy on 
+demand: a review on high temperature thermochemical heat storage systems and 
+materials, Chem. Rev. 119 (2019) 4777–4816. 
+[5] X. Yang, S. Li, J. Zhao, X. Wang, H. Huang, Y. Wang, Construction of metal organic 
+framework-derived hollow-structured mesoporous carbon based lithium hydroxide 
+composites for low-grade thermal energy storage, Compos.Part B 232 (2022), 
+109604. 
+[6] A. Bayon, R. Bader, M. Jafarian, L. Fedunik-Hofman, Y. Sun, J. Hinkley, S. Miller, 
+W. Lipinski, Techno-economic assessment of solid-gas thermochemical energy 
+storage systems for solar thermal power applications, Energy 149 (2018) 473–484. 
+[7] A.J. Carrillo, D. Sastre, D.P. Serrano, P. Pizarro, J.M. Coronado, Revisiting the 
+BaO2/BaO redox cycle for solar thermochemical energy storage, Phys. Chem. 
+Chem. Phys. 18 (2016) 8039–8048. 
+[8] K.N. Hutchings, M. Wilson, P.A. Larsen, R.A. Cutler, Kinetic and thermodynamic 
+considerations for oxygen absorption/desorption using cobalt oxide, Solid State 
+Ionics 177 (2006) 45–51. 
+[9] C. Agrafiotis, M. Roeb, M. Schmücker, C. Sattler, Exploitation of thermochemical 
+cycles based on solid oxide redox systems for thermochemical storage of solar heat. 
+Part 1: testing of cobalt oxide-based powders, Sol. Energy 102 (2014) 189–211. 
+[10] C. Agrafiotis, M. Roeb, M. Schmücker, C. Sattler, Exploitation of thermochemical 
+cycles based on solid oxide redox systems for thermochemical storage of solar heat. 
+Part 2: redox oxide-coated porous ceramic structures as integrated thermochemical 
+reactors/heat exchangers, Sol. Energy 114 (2015) 440–458. 
+[11] C. Agrafiotis, S. Tescari, M. Roeb, M. Schmücker, C. Sattler, Exploitation of 
+thermochemical cycles based on solid oxide redox systems for thermochemical 
+storage of solar heat. Part 3: cobalt oxide monolithic porous structures as 
+integrated thermochemical reactors/heat exchangers, Sol. Energy 114 (2015) 
+459–475. 
+[12] C. Agrafiotis, M. Roeb, C. Sattler, Exploitation of thermochemical cycles based on 
+solid oxide redox systems for thermochemical storage of solar heat. Part 4: 
+screening of oxides for use in cascaded thermochemical storage concepts, Sol. 
+Energy 139 (2016) 695–710. 
+[13] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Thermochemical heat 
+storage based on the Mn2O3/Mn3O4 redox couple: influence of the initial particle 
+size on the morphological evolution and cyclability, J. Mater. Chem. A 2 (2014) 
+19435–19443. 
+[14] E. Alonso, C. P´erez-R´abago, J. Licurgo, E. Fuentealba, C.A. Estrada, First 
+experimental studies of solar redox reactions of copper oxides for thermochemical 
+energy storage, Sol. Energy 115 (2015) 297–305. 
+[15] S.M. Babiniec, E.N. Coker, J.E. Miller, A. Ambrosini, Investigation of LaxSr1- 
+xCoyM1-yO3-δ (M = Mn, Fe) perovskite materials as thermochemical energy 
+storage media, Solid Energy 118 (2015) 451–459. 
+[16] K.J. Albrecht, G.S. Jackson, R.J. Braun, Thermodynamically consistent modeling of 
+redox-stable perovskite oxides for thermochemical energy conversion and storage, 
+Appl. Energy 165 (2016) 285–296. 
+[17] Z. Zhang, L. Andre, S. Abanades, Experimental assessment of oxygen exchange 
+capacity and thermochemical redox cycle behavior of Ba and Sr series perovskites 
+for solar energy storage, Sol. Energy 134 (2016) 494–502. 
+[18] N. Gokon, T. Yawata, S. Bellan, T. Kodama, H.-S. Cho, Thermochemical behavior of 
+perovskite oxides based on LaxSr1-x(Mn, Fe, Co)O3-δ and BaySr1-yCoO3-δ redox 
+system for thermochemical energy storage at high temperatures, Energy 171 
+(2019) 971–980. 
+[19] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Improving the 
+thermochemical energy storage performance of the Mn2O3/Mn3O4 redox couple 
+by the incorporation of iron, ChemSusChem 8 (2015) 1947–1954. 
+[20] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Understanding redox kinetics 
+of iron-doped manganese oxides for high temperature thermochemical energy 
+storage, J. Phys. Chem. 120 (2016) 27800–27812. 
+[21] L. Andr´e, S. Abanades, L. Cassayre, High-temperature thermochemical energy 
+storage based on redox reactions using Co-Fe and Mn-Fe mixed metal oxides, 
+J. Solid State Chem. 253 (2017) 6–14. 
+[22] C. Agrafiotis, T. Block, M. Senholdt, S. Tescari, M. Roeb, C. Sattler, Exploitation of 
+thermochemical cycles based on solid oxide redox systems for thermochemical 
+storage of solar heat. Part 6: testing of Mn-based combined oxides and porous 
+structure, Sol. Energy 149 (2017) 227–244. 
+[23] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Manganese oxide-based 
+thermochemical energy storage: modulating temperatures of redox cycles by Fe-Cu 
+Co-doping, J.Energy Storage 5 (2016) 169–176. 
+[24] T. Block, M. Schmücker, Metal oxides for thermochemical energy storage: a 
+comparison of several metal oxide systems, Sol. Energy 126 (2016) 195–207. 
+[25] F. Varsano, C. Alvani, A.L. Barbera, A. Masi, F. Padella, Lithium manganese oxides 
+as high-temperature thermal energy storage system, Thermochim. Acta 640 (2016) 
+26–35. 
+[26] N.W. Hlongwa, D. Sastre, E. Iwuoha, A.J. Carrillo, C. Ikpo, D.P. Serrano, P. Pizarro, 
+J.M. Coronado, Exploring the thermochemical heat storage capacity of AMn2O4 (A 
+= Li or Cu) spinels, Solid State Ionics 320 (2018) 316–324. 
+[27] A. Waris, M. Din, A. Ali, S. Afridi, A. Baset, A.U. Khan, M. Ali, Green fabrication of 
+Co and Co3O4 nanoparticles and their biomedical applications: a review, OpenLife 
+Sci. 16 (2021) 14–30. 
+[28] Y. Lyu, X. Wu, K. Wang, Z. Feng, T. Cheng, Y. Liu, M. Wang, R. Chen, L. Xu, 
+J. Zhou, Y. Lu, B. Guo, An overview on the advances of LiCoO2 cathodes for 
+lithium-ion batteries, Adv. Energy Mater. 11 (2021) 2000982–2001010. 
+[29] T.-R. Kuo, W.-T. Chen, H.-J. Liao, Y.-H. Yang, H.-C. Yen, T.-W. Liao, C.-Y. Wen, Y.- 
+C. Lee, C.-C. Chen, D.-Y. Wang, Improving hydrogen evolution activity of earth- 
+abundant cobalt-doped iron pyrite catalysts by surface modification with 
+phosphide, Small 13 (2017) 1603356–1603361. 
+[30] T.-Y. Chen, T.-R. Kuo, S. Yougbar´e, L.-Y. Lin, C.-Y. Xiao, Novel direct growth of ZIF- 
+67 derived Co3O4 and N-doped carbon composites on carbon cloth as 
+supercapacitor electrodes, J. Colloid Interface Sci. 608 (2022) 493–503. 
+[31] B. Wong, in: Thermochemical Heat Storage for Concentrated Solar Power, Final 
+Report for the U.S. Department of Energy, United States, 2011, pp. 10–31. 
+[32] T. Block, N. Knoblauch, M. Schmücker, The cobalt-oxide/iron-oxide binary system 
+for use as high temperature thermochemical energy storage material, Thermochim. 
+Acta 577 (2014) 25–32. 
+[33] A.J. Carrillo, J. Moya, A. Bay´on, P. Jana, V.A. de la Pe˜na O’Shea, M. Romero, 
+J. Gonzalez-Aguilar, D.P. Serrano, P. Pizarro, J.M. Coronado, Thermochemical 
+energy storage at high temperature via redox cycles of Mn and Co oxides: pure 
+oxides versus mixed ones, Sol. Energy Mater. Sol. Cells 123 (2014) 47–57. 
+[34] Y. Portilla-Nieto, A. Zaki, K. Vidal, M. Hernaiz, A. Aranzabe, S. Doppiu, A. Faik, 
+Development of Co3-xNixO4 materials for thermochemical energy storage at lower 
+red-ox temperature, Sol. Energy Mater. Sol. Cells 230 (2021), 111194. 
+[35] T. Ohzuku, A. Ueda, Solid-state redox reactions of LiCoO2 (R3m) for 4 volt 
+secondary lithium cells, J. Electrochem. Soc. 141 (1994) 2972. 
+[36] H. Wang, S. Xu, C. Tsai, Y. Li, C. Liu, J. Zhao, Y. Liu, H. Yuan, F. Abild-Pedersen, F. 
+B. Prinz, J.K. Nørskov, Y. Cui, Direct and continuous strain control of catalysts with 
+tunable battery electrode materials, Science 354 (2016) 1031–1036. 
+[37] Z. Lu, G. Chen, Y. Li, H. Wang, J. Xie, L. Liao, C. Liu, Y. Liu, T. Wu, Y. Li, A.C. Luntz, 
+M. Bajdich, Y. Cui, Identifying the active surfaces of electrochemically tuned 
+LiCoO2 for oxygen evolution reaction, J.Am.Chem.Soc. 139 (2017) 6270–6276. 
+[38] P.E. Marín, Y. Milian, S. Ushak, L.F. Cabeza, M. Gr´ageda, G.S.F. Shire, Lithium 
+compounds for thermochemical energy storage: a state-of-the-art review and future 
+trends, Renew. Sustain. Energy Rev. 149 (2021), 111381. 
+[39] J. Yan, C.Y. Zhao, First-principle study of CaO/Ca(OH)2 thermochemical energy 
+storage system by Li or Mg cation doping, Chem. Eng. Sci. 117 (2014) 293–300. 
+[40] J. Ryu, N. Hirao, R. Takahashi, Y. Kato, Dehydration behavior of metal-salt-added 
+magnesium hydroxide as chemical heat storage media, Chem. Lett. 37 (2008) 
+1140. 
+[41] H. Ishitobi, N. Hirao, J. Ryu, Y. Kato, Evaluation of heat output densities of lithium 
+chloride-modified magnesium hydroxide for thermochemical energy storage, Ind. 
+Eng. Chem. Res. 52 (2013) 5321–5325. 
+[42] O. Myagmarjav, J. Ryu, Y. Kato, Lithium bromide-mediated reaction performance 
+enhancement of a chemical heat-storage material for magnesium oxide/water 
+chemical heat pumps, Appl. Therm. Eng. 63 (2014) 170–176. 
+R. Wu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 12 =====
+
+Journal of Energy Storage 55 (2022) 105774
+12
+[43] A. Shkatulov, Y. Aristov, Modification of magnesium and calcium hydroxides with 
+salts: an efficient way to advanced materials for storage of middle-temperature 
+heat, Energy 85 (2015) 667–676. 
+[44] A.I. Shkatulov, Y. Aristov, Thermochemical energy storage using LiNO3-doped Mg 
+(OH)2: a dehydration study, Energy Technol. 6 (2018) 1844–1851. 
+[45] A. Shkatulov, H. Takasu, Y. Kato, Y. Aristov, Thermochemical energy storage by 
+LiNO3-doped Mg(OH)2: rehydration study, J.Energy Storage 22 (2019) 302–310. 
+[46] S. Li, J. Liu, T. Tan, J. Nie, H. Zhang, Optimization of LiNO3-Mg(OH)2 composites 
+as thermo-chemical energy storage materials, J. Environ. Manag. 262 (2020), 
+110258. 
+[47] A. Maruyama, R. Kurosawa, J. Ryu, Effect of lithium compound addition on the 
+dehydration and hydration of calcium hydroxide as a chemical heat storage 
+material, ACS Omega 5 (2020) 9820–9829. 
+[48] A.I. Shkatulov, S.T. Kim, H. Miura, Y. Kato, Y.I. Aristov, Adapting the MgO-CO2 
+working pair for thermochemical energy storage by doping with salts, Energy 
+Convers. Manag. 185 (2019) 473–481. 
+[49] S. Vyazovkin, A.K. Burnham, J.M. Criado, L.A. Perez-Maqueda, ICTAC kinetics 
+committee recommendations for performing kinetic computations on thermal 
+analysis data, Thermochim. Acta 520 (2011) 1–19. 
+[50] H.L. Friedman, Kinetics of thermal degradation of char-forming plastics from 
+thermogravimetry.Application to a phenolic plastic, J. Polym. Sci. C 6 (1964) 
+183–195. 
+[51] X. Shi, H. Zheng, A.M. Kannan, K. P´erez-Salcedo, B. Escobar, Effect of thermally 
+induced oxygen vacancy of α-MnO2 nanorods toward oxygen reduction reaction, 
+Inorg. Chem. 58 (2019) 5335–5344. 
+[52] G. Zhuang, Y. Chen, Z. Zhuang, Y. Yu, J. Yu, Oxygen vacancies in metal oxides: 
+recent progress towards advanced catalyst design, Sci. China Mater. 63 (2020) 
+2089–2118. 
+[53] X. Xie, Y. Li, Z.Q. Liu, M. Haruta, W. Shen, Low-temperature oxidation of CO 
+catalysed by Co3O4 nanorods, Nature 458 (2009) 746. 
+[54] Y. Zhang, F. Ding, C. Deng, S. Zhen, X. Li, Y. Xue, Y.M. Yan, K. Sun, Crystal plane- 
+dependent electrocatalytic activity of Co3O4 toward oxygen evolution reaction, 
+Catal. Commun. 67 (2015) 78–82. 
+R. Wu et al.                                                                                                                                                                                                                                      

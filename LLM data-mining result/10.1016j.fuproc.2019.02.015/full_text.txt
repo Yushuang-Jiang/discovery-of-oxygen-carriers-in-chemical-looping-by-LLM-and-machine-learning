@@ -1,0 +1,1044 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Fuel Processing Technology
+journal homepage: www.elsevier.com/locate/fuproc
+Research article
+Experimental investigation of the reduction of liquid bismuth oxide with
+graphite
+M.M. Sarafraz⁎, M. Jafarian, M. Arjomandi, G.J. Nathan
+Centre for Energy Technology, School of Mechanical Engineering, the University of Adelaide, Australia
+A R T I C L E I N F O
+Keywords:
+Thermo-gravimetric analysis
+Bismuth oxide
+Liquid oxygen carrier
+Kissinger method
+Liquid bismuth containment
+A B S T R A C T
+We report an experimental demonstration of the chemical reactions for the chemical looping gasiﬁcation process
+using molten bismuth oxide as the oxygen carrier. Cycling of the material without noticeable degradation was
+shown using a thermo-gravimetric analyser (TGA) furnace through both the reduction of bismuth oxide with
+carbon and its oxidation with air. The potential for any contamination of liquid bismuth oxide with the alumina
+container and of any agglomeration was assessed experimentally using x-ray diﬀraction (XRD) test. A kinetic
+model was also developed using Kissinger method to estimate the activation energy and the pre-exponential
+factor for the reduction and the oxidation reactions. It was found that the reduction and oxidation of bismuth
+and its oxide is feasible at temperatures of approximately 900 °C with the activation energies of 229.4 kJ/mol
+and 173.6 kJ/mol for the reduction and oxidation reactions, respectively at chemical conversion of 0.7. The
+chemical conversion of carbon in the presence of bismuth oxide was measured to reach 85% for the partial
+oxidation of carbon and to reach completion for the complete oxidation of bismuth. Furthermore, no contain-
+ment challenges for liquid bismuth were identiﬁed in the alumina crucible at 900 °C. Hence, the proposed system
+oﬀers potential to avoid the challenges of sintering and agglomeration that are associated with chemical looping
+systems using a solid oxygen carrier.
+1. Introduction
+Gasiﬁcation is a well-established method Liquid chemical looping
+gasiﬁcation (LCLG) is a newly proposed method, which to produce
+syngas from a carbonaceous feedstock such as coal and biomass [1–3].
+In the conventional chemical looping gasiﬁcation processes, an air and
+a gasiﬁcation reactor are used with a solid oxygen carrier to provide
+oxygen for the gasiﬁcation reaction. In the gasiﬁer, the solid oxygen
+carrier, which is typically a metal oxide particle with chemical looping
+oxygen uncoupling (CLOU), is reduced to release oxygen from the
+particle and partially oxidise the carbonaceous feedstock. The oxygen
+uncoupling phenomenon occurs under a speciﬁc temperature and
+pressure and for some speciﬁc metal oxides such iron or copper oxides.
+A gasifying agent can also be used to maintain the required temperature
+and to increase the concentration of hydrogen in the gaseous product.
+The steam is often used as the gasifying agent and the ﬂuidising
+medium within the reactor.
+The gaseous product from the gasiﬁer is typically referred to as
+“synthetic gas”, which is abbreviated as “syngas”. This comprises a
+mixture of carbon monoxide, hydrogen and smaller quantities of me-
+thane and carbon dioxide. The production of syngas through chemical
+looping gasiﬁcation is a plausible path to mitigate the challenges as-
+sociated with the nitrogen dilution, which is typical of the conventional
+air blown gasiﬁcation processes. However, the lifetime of the solid state
+oxygen carrier in the chemical looping gasiﬁcation systems highly de-
+pends on the rate of sintering and agglomeration of particles [4,5],
+leading to diminishing of the capacity of the solid oxygen carriers in
+transferring oxygen between the oxidation and reduction reactors of the
+CLG systems. While also, the deposition of the carbon within the porous
+structure of the oxygen carrier particles decreases both the eﬃciency of
+CLG system for carbon capture and the surface active sites of the oxygen
+carrier particles for the reduction and oxidation reactions. [6,7]. One
+potential option to bypass these challenges is to use a liquid metal oxide
+instead of a solid oxygen carrier in chemical looping gasiﬁcation sys-
+tems. Metal oxides oﬀer a great potential for heat and mass transfer
+[49,50,51,52,53,54] in comparison with conventional heat transfer
+medium [55,56,57]. The concept was ﬁrstly proposed by McGlashan
+et al. [8,9] in chemical looping combustion systems. Recently, Sarafraz
+et al. [1,2] and Jafarian et al. [10] have proposed the use of a liquid
+metal oxides in chemical looping gasiﬁcation and reforming systems.
+In our previous publications, for the liquid chemical looping gasi-
+ﬁcation process (LCLG) a bubbling media has been proposed for the air
+https://doi.org/10.1016/j.fuproc.2019.02.015
+Received 21 November 2018; Received in revised form 27 January 2019; Accepted 12 February 2019
+⁎ Corresponding author.
+E-mail address: mohammadmohsen.sarafraz@adelaide.edu.au (M.M. Sarafraz).
+Fuel Processing Technology 188 (2019) 110–117
+Available online 18 February 2019
+0378-3820/ © 2019 Elsevier B.V. All rights reserved.
+T
+
+
+===== Page 2 =====
+
+and the gasiﬁcation reactors as the medium to transport the heat and/or
+oxygen required to drive the reactions [1–3]. This approach typically
+yields higher rates of heat and mass transfer than for the solid reactants
+[11]. It is worth noting that; advantageously, the LCLG concept elim-
+inates some of the technical challenges associated with the use of solid-
+state oxygen carriers. Furthermore, the demonstration of chemical po-
+tential is a necessary step in the development of the process. Never-
+theless, it is premature to address economic potential at present, since
+this requires a system to be available with which to calculate both
+performance and cost. Before the techno-economic potential of the
+concept can be properly evaluated, it is necessary to develop tech-
+nology to overcome the following additional challenges:
+(1) Feeding: Technology needs to be developed with which to inject
+both steam and the carbonaceous feedstock into the molten metal
+bath, because no such system is commercially available, although
+tuyeres have been developed to inject gases into molten metals
+during puriﬁcation of metals [12],
+(2) Containment: Further work is required to identify materials that
+are suitable to contain the molten bismuth safely during long-term
+cycling although, silicon carbide was found to be chemically stable
+during the present short-term trials and has already been identiﬁed
+as the potential material for containers [13],
+(3) Circulation: Technology is also needed to circulate the liquid bis-
+muth and its oxide between reactors. No complete system is com-
+mercially available, although some high-temperature pumps are
+available [14,15],
+(4) Solidiﬁcation: Technology is also needed to prevent solidiﬁcation
+of the liquid bismuth oxide within the chemical looping system. No
+complete system is commercially available, although trace heating
+has been developed for molten salt systems [16].
+Apart from the potentials and disadvantages of the proposed system,
+the proposed process needs to be veriﬁed experimentally, since limited
+experimental measurements are available of the kinetics of these re-
+actions. The ﬁrst attempt to gasify a carbonaceous fuel with a molten
+metal was performed by Tyrer et al. [17] and a very low conversion of
+reactants together with the solidiﬁcation of the molten metal was re-
+ported. Also, the kinetics of the reaction was not assessed. Since then,
+Steinberg et al. [18] used liquid tin to decompose natural gas into hy-
+drogen and CO at temperatures between ~500 and 900 °C. They also
+found that the composition of carbon monoxide depends strongly on
+the amount of oxygen dissolved in the tin liquid bath. However, the
+mechanisms and the kinetics of the reactions remain to be investigated.
+Martynov et al. [19] and Gulevich et al. [20] developed a bubble re-
+actor to produce hydrogen via a liquid metal alloy (of lead and bis-
+muth) into which natural gas was injected. They demonstrated the
+feasibility of hydrogen production from methane cracking, but the ki-
+netics and mechanisms involved in this process are yet to be reported.
+Later, Paxman et al. [21] reported the thermochemical equilibrium of
+the decomposition of carbonaceous feedstock in a bubble column re-
+actor at various designs and operating conditions and found that the
+reactor temperature changes the performance of the system sig-
+niﬁcantly, which they attributed it to changes in the activation energy
+of the reaction. However, the detailed inﬂuence of the temperature on
+the kinetics of the reaction remains to be reported. Schultz et al. [22]
+assessed a capillary reactor to use a liquid metal for the decomposition
+of natural gas and demonstrated that at 1100 °C, methane conversion
+can reach ~32%. Interestingly, after 5 h of operation, neither carbon
+deposition nor agglomeration was seen on the walls and within the li-
+quid phase.
+The aforementioned literature further motivated many investigators
+to conduct research on the plausible application of liquid metal for the
+gasiﬁcation [22–25]. For example, Serban et al. [23] conducted some
+experiments using a stainless steel-made micro-reactor ﬁlled with liquid
+tin, liquid lead and a combination of tin/packed bed material. They
+used natural gas as a fuel and chose bubbling regime for mixing the
+natural gas in the liquid bath. They reported a ~57% conversion of
+methane to hydrogen at temperature ~750 °C. They utilised SiC-made
+packed bed material and noticed that tin can be contained with SiC as
+well. Plevan et al. [24] performed some experiments in a larger stain-
+less steel reactor but with the same experimental conditions to those of
+conducted by Serban et al. [23]. They reached ~18% conversion at
+900 °C. For the similar experiments with liquid tin, Geibler et al. [25]
+reported a conversion of 30% without signiﬁcant carbon deposition
+within the reactor. They used a tubular quartz-made reactor and the
+experiments were performed to investigate the methane pyrolysis with
+liquid tin in the reactor. The reactor was ﬁlled with tin and some cy-
+lindrical quartz rings were used as a packed bed to increase the contact
+of gas and liquid. Tests were performed at diﬀerent temperatures
+ranged between 930 °C and 1175 °C. Methane was bubbled within the
+column and the ratio of methane to liquid tin was also adjusted using
+dilution of inlet gas with nitrogen. It was found that with an increase in
+the ﬂow rate of methane, the yield of hydrogen increased. Likewise, an
+increase in the temperature of liquid metal resulted in an increase in the
+hydrogen yield as well. Interestingly, the hydrogen yield reached ~78%
+at 1175 °C. The liquid phase was analysed and it was found that only
+1.5% of liquid metal can be converted to other tin-related products such
+as SnC alloy. Also, carbon formed a ﬂake-shaped ash on the surface of
+tin and some agglomerated particles with the mean size of 40 nm to
+100 nm was observed during the experiments. They reported that the
+presence of ash changes the rate of reaction signiﬁcantly, however, no
+detailed study was conducted to understand the mechanism and ki-
+netics of the reactions in liquid metal bubble column.
+Apart from equilibrium modelling [26–30] and experimental tests
+[31–33], a lot of information is available on the kinetics of the reduc-
+tion of metal oxides with a carbonaceous feedstock from previous work
+on metal reﬁning. Sato et al. [34] showed that the rate of reduction
+reaction of iron oxide with graphite at temperatures above the melting
+temperature of iron oxide (1320–1620 °C) is proportional to the second
+power of the concentration of iron oxide [34]. Seaton et al. [35] de-
+monstrated that the rate of heat transfer between iron pellets and
+molten steel increases with the rate of CO production in the process.
+This was attributed to the ﬁrst-order inﬂuence of temperature on the
+activation energy and other kinetic parameters. Similarly, Upadhya
+et al. [36] found that the kinetics of the reduction of lead oxide in a
+dilute liquid mixture of CaO-A12O3-SiO2 slag using graphite dissolved
+in iron is driven by the evolved gases and scales with the ratio of lead
+oxide to carbon. However, a general kinetic model was not developed
+for the reduction reaction of lead oxide with graphite.
+Thermo-gravimetric analysis (TGA) has also been used to accurately
+measure the activation energy of the reduction of molten metals with
+carbon. For example, Monazam et al. [37] used TGA to show that the
+reduction of CuO impregnated in bentonite with natural gas within the
+range of 1023 K to 1173 K has an activation energy of 37.3 ± 1.3 kJ/
+mol. They also reported that copper oxide was not deactivated after 10
+successive cycles of the experiments. With another experiment, they
+conﬁrmed the results with the measurement of the outlet gases and
+concluded that the CuO/bentonite oxygen carrier is a promising can-
+didate for the CLG/CLC systems. In another study, the activation energy
+of reduction reaction of copper oxide with CO gas was measured by
+Plewa and Skrzypek [38]. They reported the value of 44.3 ± 1.8 kJ/
+mol using TGA measurements at 398 K to 473 K.
+In our previous assessments, bismuth oxide has been identiﬁed as
+the suitable liquid oxygen carrier for the LCLG [2]. Therefore, a sys-
+tematic experimental study need to be conducted to further understand
+the chemical performance, kinetic of the reaction and its containment.
+Bismuth oxide with melting temperature of ~830 °C is a plausible liquid
+oxygen for the LCLG system. However, to the best of authors' knowl-
+edge, no experimental study has been conducted to assess the potential
+of reduction of molten bismuth and its oxide with a carbonaceous fuel.
+Hence, the ﬁrst aim of this work is to experimentally demonstrate the
+M.M. Sarafraz, et al.
+Fuel Processing Technology 188 (2019) 110–117
+111
+
+
+===== Page 3 =====
+
+reduction of bismuth oxide with a carbonaceous feedstock. The paper
+also aims to develop a ﬁrst-order kinetic model for the reduction of
+bismuth oxide with carbon through measurement of the activation
+energy and pre-exponential factors.
+2. Experimental
+2.1. Experimental instruments
+The reduction and oxidation experiments were performed in a high-
+temperature thermo-gravimetric analyser (TGA) manufactured by
+Netzsch (STA 449F1). The shielding gas for the device was nitrogen,
+while the carrier gas for the reduction and oxidation stages were ni-
+trogen and air for reduction and oxidation reactions, respectively. The
+temperature, residual mass and the gas ﬂow rate were processed with
+Proteus TGA-MS software using a transient module. Table 1 represents
+the experimental conditions used in the present work.
+2.2. Chemical reactions
+The reduction reaction occurs in the gasiﬁer according to the fol-
+lowing chemical equation:
++
+→
++
+Bi O
+C s
+Bi l
+CO
+g
+1.5
+( )
+2
+( )
+1.5
+( )
+2
+3
+2
+(1)
+and
++
+→
++
+Bi O
+C s
+Bi l
+CO g
+3
+( )
+2
+( )
+3
+( )
+2
+3
+(2)
+Both reactions are endothermic and spontaneous at a temperature
+range of 473–1573 K. However, thermodynamic assessments show that
+Reaction 1 proceeds when the oxygen released from the bismuth oxide
+is suﬃcient for the complete combustion of carbon, while reaction 2
+proceeds with sub-stoichiometric values of oxygen. Hence, the molar
+ratio of Bi2O3 to carbon determines which reaction is dominant.
+The oxidation reaction of Bi with oxygen is described as follows:
++
+→
+Bi l
+O
+g
+Bi O
+l
+2
+( )
+1.5
+( )
+( )
+2
+2
+3
+(3)
+This equation is exothermic and spontaneous in the temperature
+range 298 K < T < 1573 K.
+The oxygen uncoupling feature of the bismuth oxide is shown with
+the following equation:
+→
++
+Bi O
+l
+Bi l
+O
+g
+( )
+2
+( )
+1.5
+( )
+2
+3
+2
+(4)
+2.3. Data reduction and uncertainty analysis
+The extent of chemical conversion was determined with the fol-
+lowing equation:
+=
+−
+−
+α
+m t
+m
+m
+m
+( )
+i
+i
+e
+(5)
+Here, m is the mass of sample at time t, i and f are the ‘initial’ and
+‘ﬁnal’ mass of the sample, respectively, α is the conversion of the
+sample at time t, which was measured with TGA. The rate of a reaction
+was estimated with the following equation:
+−
+=
+…
+r
+K
+C
+C
+.
+.
+A
+T
+A
+n
+B
+(6)
+Here, KT is the constant of the reaction, and C is the concentration of
+the species participating in the reaction. The rate of a reaction is de-
+ﬁned by the Arrhenius equation as follows:
+=
+−
+K
+A e
+.
+.
+T
+Ea
+RT
+(7)
+Here, Ea is the activation energy, R is the universal gas constant
+(8.314 J/mol·K) and A is the pre-exponential factor. To obtain the ac-
+tivation energy and the pre-exponential factor, Kissinger [39] proposed
+the following equation:
+⎜
+⎟
+⎛
+⎝
+⎞
+⎠
+=
+⎛
+⎝
+⎞
+⎠
+−
+Ln
+B
+T
+Ln
+A R
+E
+E
+RT
+.
+,
+a
+a
+2
+(8)
+where B is the heating rate (K/min), T is the peak temperature of the
+Derivative Thermo-Gravimetric curve (DTG), Ea is the activation en-
+ergy, kJ/mol, A is the pre-exponential factor and R is universal gas
+constant (J/mol. K). Eq. (2) implies that Ea is the slope of the line ob-
+tained from plotting Ln (B/T2) versus I/T, while the intercept of this line
+represents the pre-exponential factor (A). The molar ratio of liquid
+oxygen carrier to fuel is deﬁned from their molar ﬂow rates as follows:
+=
+φ
+n
+n
+̇
+̇
+LOC
+LOC
+feed
+(9)
+Here, ṅ is the molar ﬂow rate of the LOC and feedstock (graphitic
+carbon). φ is used to show the amount of liquid oxygen carrier in the
+reaction, which also describes the amount of oxygen available in the
+system.
+Table 2 presents the uncertainty of these experiments, which were
+estimated from the correlation introduced by Kline-McClintock [40]
+was used. It can be seen that the uncertainty of the measured values of
+Table 1
+Experimental conditions used in the thermo-gravimetric analysis measurements.
+Parameter
+Value and/or description
+Remarks
+Oxygen carrier
+Bismuth/Bismuth oxide
+Nominal diameter: 50 μm, melting temperature of bismuth oxide: 1123 K
+Reductant
+Graphitic carbon
+Carbon nominal particle size: 50 μm
+Bismuth nominal particle size: 50 μm
+Temperature
+298 K–1173 K
+Melting temperature of bismuth oxide:1123 K
+Experiments were conducted at various heating rate
+Pressure
+1 bar
+–
+Time
+0–85 min
+Crucible
+Alumina cylinder 40 cc with PT lid and protector
+No reaction between bismuth oxide and the alumina crucible was observed.
+Heating rate
+5 K/min-35 K/min
+–
+Shielding gas
+Nitrogen (purity 99.99%)
+Used to control the atmosphere and to cool the balance.
+Shielding gas ﬂow rate
+20 ml/min
+–
+Carrier gases
+Reduction: Nitrogen@ 120 ml/min
+Oxidation: Air @120 ml/min
+–
+Table 2
+The uncertainty of the present measurements, as obtained with the method of
+Kline-McClintock [40].
+Parameter
+Value
+SI unit
+Range
+Temperature
+± 0.1%
+K
+313–1173
+Sample mass
+± 1
+mg
+0.1–5
+Time
+± 1/60
+min
+1–85
+Gas ﬂow rate
+± 1% of reading value
+ml/min
+120
+Heating rate
+± 0.1%
+K/min
+5–35
+Activation energy
+± 1.6%
+kJ/mol
+–
+Pre-exponential
+± 3.1%
+–
+–
+Residual mass
+± 0.03%
+mg
+–
+M.M. Sarafraz, et al.
+Fuel Processing Technology 188 (2019) 110–117
+112
+
+
+===== Page 4 =====
+
+activation energy and pre-exponential factor is ± 6.1% and ± 5.8%,
+respectively.
+2.4. Experimental procedure
+The measurements in the TGA were performed with alumina cru-
+cibles (40 ml, cylindrical, purchased from Netzsch CO.) Before each
+experiment, the crucibles were washed with methanol to remove any
+impurities and then exposed to 800 °C for 120 min to remove any
+moisture. Bismuth, bismuth oxide and carbon particles were purchased
+from Chem-supply with a purity of 99.9% and used as purchased. The
+reduction tests were conducted at a series of heating rates from 5 to
+35 K/min in steps of 5 K/min as shown in Table 2. Nitrogen with a
+purity of 99.99% at a ﬂow rate of 20 ml/min of nitrogen was employed
+as the shielding gas around the TGA balance, preventing any ingress of
+reactive gases such as air, and also to protect the balance from any
+thermal shock. The ﬂow rate for the carrier gas was 120 ml/min. Ni-
+trogen was also used as the carrier gas for the reduction reaction, while
+air was used for the oxidation reaction at a ﬂow rate of 120 ml/min.
+The reference TGA measurements were also conducted for samples of
+pure carbon, pure bismuth oxide and a mixture of bismuth oxide and
+carbon. The reduction and the oxidation reactions were assessed in the
+nitrogen and the air environments at heating rates of 5–35 K/min and
+for the conditions shown in Table 3.
+A Shimadzu XRD-7000 x-ray diﬀractometer was employed to assess
+the composition and structure of the solid phase materials before and
+after the experiments. The XRD experiments were used to identify any
+potential side-reactions between the crucible and the carbonaceous
+feedstock, the crucible and the liquid bismuth oxide or the crucible with
+the gaseous products. The XRD tests were conducted under irradiation
+of Cu-Ka lamp and the operating potential is +25.1 kV, at current value
+of 10 mA and the scanning rate l°/min.
+A scanning Electron Microscopy (SEM) was employed to assess any
+changes in morphology or physical structure of the samples before and
+after the thermo-gravimetric tests, e.g. agglomeration and penetration
+of carbon inside the solidiﬁed bismuth oxide. Before each SEM test, the
+samples were prepared by coating them on a disk with mean diameter
+of 2 mm. This was suﬃcient to achieve high-quality clear images with
+low noise.
+3. Results and discussion
+3.1. Thermo-gravimetric analysis
+3.1.1. Reduction reaction
+Fig. 1 presents the dependence on time of the residual mass for
+reduction (samples S2 and S3) and oxidation (samples S4 and S5). The
+drying process can be identiﬁed for the carbon-containing samples S2
+and S4 as a small but discernible mass loss in the temperature range
+T < 300 °C, which is too low for carbon to undergo any reaction. This
+small mass change is consistent with the low moisture content of the
+carbon particles and can be attributed to the porous structure of the
+carbon, which causes it to adsorb moisture from atmosphere. This
+contrasts the trace for bismuth oxide, whose structure has suﬃciently
+low porosity for any weight change to be negligible in this temperature
+range.
+No reduction in mass with heating was observed for sample S1,
+which is consistent with the absence of oxygen, and hence of any re-
+action. In contrast, the oxidation of carbon in the presence of air for
+sample S4 results in the strong reduction nearly to zero. The reduction
+of bismuth oxide, sample S3 results in a gradual reduction of mass by up
+to ~10.7% due to the release of oxygen content of the sample at
+temperatures > ~850 °C which is above the melting temperature of the
+bismuth oxide (830 °C). The equilibrium value of the residual mass of
+bismuth after reduction at a temperature of 900 °C was estimated to be
+~88% using HSC Chemistry 7.0 Software. This value is in a good
+agreement with 89.96%, which was obtained experimentally with the
+TGA. This measurement also provides further support for the validity of
+previous models developed for the reduction of bismuth oxide and
+other liquid metal oxides with carbon [3].
+The weight loss of the blend of carbon and bismuth oxide, sample
+S2, is consistent with the fact that carbon further reduces the bismuth
+oxide and this results in more release of oxygen from bismuth oxide
+(according to Eq. (4)). The released oxygen reacts with carbon, which
+further decreased the mass of the sample resulting in a ~16% decrease
+in the mass of the sample (in comparison with 10.7% mass reduction of
+sample S3).
+As can be seen from Fig. 1, the reduction reaction with carbon can
+be achieved with complete conversion at T = 900 °C providing that the
+φ value is suﬃciently high (e.g. φ = 2). This is compatible with tower
+technologies under development for concentrated solar thermal energy,
+which have achieved 1000 °C in pilot-scale trials [4]. In contrast, no
+tower-based concentrating technology has yet been demonstrated to
+achieve temperatures of > 1200 °C that are required for a conventional
+chemical looping process to achieve the highest carbon conversion
+[41]. Interestingly, for the proposed process, complete conversion of
+carbon can occur at T = 900 °C providing that the φ value is suﬃciently
+high (e.g. φ = 2).
+3.1.2. Oxidation reaction
+Fig. 2 presents the dependence of the residual mass of the bismuth
+samples on time since the start of the heating during the reduction-
+oxidation reactions. As can be seen, for each cycle of reduction-oxida-
+tion, the residual mass for the reduction reaction is 10.04% (i.e. a loss),
+which is recovered identically during the oxidation. The extent of
+conversion was also cross-checked after each redox cycle by removing
+the sample and characterising it with XRD to ensure that no residual
+carbon was presented in the bismuth. The identical quantity of carbon
+was then added to the sample before repeating the cycle. No signiﬁcant
+change in mass of the bismuth oxide was detected after ﬁve successive
+cycles, which implies no signiﬁcant loss of bismuth by evaporation. This
+is consistent with the low vapour pressure of bismuth oxide (~2.04E-
+8 MPa at ~800–900 °C) [42]. This demonstrates the chemical feasibility
+of the cyclical reduction of bismuth oxide with carbon and the oxida-
+tion of bismuth with air and hence also for the LCLG process. For many
+chemical looping process with solid oxygen carriers, such as copper and
+iron oxides [43], the residual mass decreases after several cycles of
+operation due to the evaporation of the metal. The reactivity of some
+oxygen carriers also decreases with cycling [44]. In contrast, both the
+reactivity and residual mass for bismuth oxide were unchanged, even
+after ﬁve successive cycles of operation.
+3.2. Carbon conversion
+Fig. 3 presents the dependence of carbon conversion on time of the
+reaction for various molar ratios of bismuth oxide to carbon. The tests
+were conducted in a non-isothermal condition (heating rate: 35 K/min,
+Table 3
+Speciﬁcations of the samples used in the thermo-gravimetric tests.
+Sample
+Mass of
+carbon
+Mass of
+bismuth oxide
+Mass of
+bismuth
+Environment
+S1a (carbon)
+0.38
+–
+–
+Nitrogen
+S2 (Bi2O3 + C),
+gasiﬁcation
+0.38
+5
+–
+Nitrogen
+S3 (Bi2O3)
+–
+5
+Nitrogen
+S4b (carbon)
+0.38
+–
+–
+Air
+S5 (bismuth),
+oxidation
+4.48
+–
+–
+Air
+a N2 shielding gas was fed to the system at 20 ml/min.
+b N2 shielding gas was fed to the system at 10 ml/min.
+M.M. Sarafraz, et al.
+Fuel Processing Technology 188 (2019) 110–117
+113
+
+
+===== Page 5 =====
+
+time span: 45 min), followed by an isothermal test at 1173 K for 35 min
+both in N2 environment. The carbon conversion extent slightly changes
+in drying region and anomalously increases due to the partial and/or
+complete oxidation of carbon with the released oxygen from bismuth
+oxide particles. For example, at φ = 2.0, the carbon conversion in-
+creases from 7% at t = 16 min, to ~100% at t = 37 min and remains
+constant since the remaining residue only consists of very small quan-
+tity of impurities together with pure bismuth. Fig. 3 also shows that the
+extent of conversion increases with an increase in the molar ratio of
+bismuth to carbon. For sub-stoichiometric values of ??, insuﬃcient
+oxygen is available for the complete oxidation of carbon, which results
+in the formation of carbon monoxide and the presence of unreacted
+carbon remains in the system. For example, for ?? = 0.25, only 68% of
+the total carbon has reacted after 60 min of run time, while for ?? = 0.5
+and ?? = 1, the carbon conversion extent has reached 74% and 90%,
+respectively. This is in accordance with the previous results published
+in the literature [2]. Furthermore, for ?? = 1.5–2.0, the carbon con-
+version extent reaches 100%. However, for ?? values smaller than 1.0,
+the oxidation of carbon is only partial. Therefore, there is a trade-oﬀ
+between the amount of the unreacted carbon and the value of ?? in the
+system.
+3.3. Characterization of samples
+Fig. 4 presents the XRD spectra for bismuth oxide and carbon
+(sample S2) before and after the TGA measurements at φ = 1. As can be
+seen, the XRD spectra of sample S2 recorded before the reduction
+contains the characteristic peaks of bismuth oxide at 27.5°, 33.2°, 33.4°
+[45] and those at 26°, 45°, 46° and 53° and 55° for graphitic carbon
+[46]. In contrast, the spectra recorded after the reduction reaction
+contain the characteristic peaks of pure bismuth [47] at 26°, 27°, 37.5°,
+40°, 47.5°, 50°, 53° and 56° together with peaks of unreacted carbon
+including 26°, 45°, 46° and 53° and 55°. Importantly, no characteristic
+peak associated with alumina (from the crucible) can be seen in the
+XRD spectrum. Nevertheless, some residual oxygen peaks are evident,
+which shows that oxygen has not been fully consumed in this reaction.
+Fig. 1. Time history of the residual mass of the samples during heating for carbon, bismuth oxide and the combination of both in either nitrogen or air environments
+as per Table 3 at heating rate of 50 K/min.
+Fig. 2. Reduction and oxidation of sample S2 with nitrogen and air after 5
+successive cycles. Carbon with mass of 0.38 mg was added to the sample after
+each cycle is completed.
+Fig. 3. Dependence of carbon conversion on time of the reaction for various
+molar ratios of bismuth oxide to carbon (sample S2) at heating rate of 35 K/
+min.
+M.M. Sarafraz, et al.
+Fuel Processing Technology 188 (2019) 110–117
+114
+
+
+===== Page 6 =====
+
+This suggests that some aspects of the reaction are diﬀusion controlled.
+Further evidence for this can be found from the carbon conversion of
+the sample being 0.9 for φ = 1.0 was 0.9, so that some unreacted
+carbon remains in the residue.
+Fig. 5 represents the scanning electron microscopic images taken
+from the samples before and after the experiments with TGA. As can be
+seen, the bismuth oxide particles are spherical and uniform in terms of
+size and morphology (Fig. 5a), however, after the TGA test (Fig. 5b),
+due to the melting and then the solidiﬁcation processes, the particles
+lose their morphology and form an agglomerated clog within the cru-
+cible. However, the clog formation does not inﬂuence the chemical
+performance of the sample since the reactions occur in the liquid phase
+in each cycle.
+3.4. Kinetic modelling
+Fig. 6 presents the dependence of ln (β/T2), where β is deﬁned in Eq.
+(7), on 1000/T for the reduction of bismuth oxide with carbon and for
+the oxidation of bismuth with air. As can be seen, the data has a good ﬁt
+to a linear dependence between ln (β/T2) and 1000/T, the slope of the
+line which corresponds to the activation energy of the reaction. For
+example, for the reduction reaction, E/R is 27.625, while it is 21.151
+for the oxidation reaction. The R-square for the obtained lines is 0.9953
+and 0.9955 for oxidation and reduction reactions showing the high
+accuracy of the Kissinger method for estimating the activation energy.
+Hence, the ﬁrst-order Kissinger kinetic method is suitable for estimating
+this parameter. It can also be seen that the oxidation reaction has a
+lower activation energy than the reduction reaction, which is consistent
+with the higher values of the reaction rate in the higher temperature.
+Also, the oxidation reaction is an aggressive reaction with a relatively
+low activation energy, resulting in a quick reaction. Notably, the pre-
+exponential factor for the reduction and oxidation reactions can also be
+obtained from Eq. (7), which is the intercept of the interpolated line.
+The technique was applied for various carbon conversion extends and
+Fig. 4. The XRD spectra obtained for sample S2 (bismuth oxide and carbon) under the reduction reaction a) before the TGA test, b) after the TGA test under the
+heating rate of 35 K/min.
+Fig. 5. SEM micro-graphs obtained for sample S2 (bismuth oxide and carbon) under the reduction reaction in TGA, a) before the TGA test, b) after the TGA test at
+heating rate of 35 K/min.
+Fig. 6. The measured dependence of parameter “Ln (β/T2)” in Eq. (7) on
+temperature for the reduction and oxidation reactions at a conversion of 0.7 as
+deﬁned with the Kissinger free kinetic method.
+M.M. Sarafraz, et al.
+Fuel Processing Technology 188 (2019) 110–117
+115
+
+
+===== Page 7 =====
+
+are reported in Table 4. Notably, the kinetic parameters were estimated
+after each cycle and it was found that the kinetic remains the same after
+successive cycles of reduction and oxidation. The activation energy
+parameters were within ± 1.1% of deviation with each other.
+Notably, to independently assess the accuracy of the Kissinger
+method for estimating the activation energy, this method was also ap-
+plied to the reduction of iron oxide with carbon. The activation energy
+derived from this measurement was 355 kJ/mol, which is within ±
+1.3% of the value published in the literature for the activation energy
+of the iron oxide‑carbon monoxide reduction reaction (360 kJ/mol)
+[48].
+3.5. Containment of bismuth oxide
+Fig. 7 presents the images of the surface of the alumina crucibles
+after successive cycles of reduction of bismuth oxide with carbon and
+the oxidation of bismuth with air at 900 °C with the TGA. As can be
+seen, the reduction and oxidation of bismuth oxide after ﬁve cycles can
+occur in an alumina crucible. However, some agglomeration was ob-
+served after 2 cycles. Importantly, this was found not to aﬀect the re-
+activity of the sample, because the sample melts during each cycle,
+which renders any agglomeration process irrelevant. Similarly, the SEM
+images taken from the sample after each cycle show that the porosity of
+bismuth oxide decreases with the number of test cycles. This can be
+expected to inﬂuence the reactivity of the bismuth oxide over succes-
+sive cycles. This, in turn, suggests that the device used to generate
+bismuth oxide will need to be carefully designed to achieve the right
+and suﬃcient porosity. These issues can be addressed in the future
+work.
+4. Conclusion
+It has been found that it is chemically feasible to employ liquid
+bismuth oxide as an oxygen carrier for the proposed liquid chemical
+looping gasiﬁcation process. The cyclical reduction of bismuth oxide
+with carbon and oxidation of bismuth with air was measured to be
+repeatable for ﬁve cycles with no detectible diﬀerence in the extent of
+mass change between these cycles. Furthermore, with graphite as the
+reductant, the alumina crucible was found to provide eﬀective con-
+tainment in these short-term tests. The extent of carbon conversion was
+measured to be as high as ~85%, while the combustion reactions were
+found to exhibit complete conversion. In addition, the speciﬁc ﬁndings
+are as follows:
+▪No net loss in mass was detectible over the ﬁve successive cycles of
+oxidation and reduction, demonstrating no signiﬁcant evaporative
+loss of bismuth. This is consistent with the low vapour pressure of
+bismuth.
+▪No side reactions between the bismuth and the alumina crucible
+were detected.
+▪The extent of chemical conversion was found to scale with the re-
+sidual oxygen molar ratio in the reactor.
+▪The conversion of bismuth oxide to bismuth by reduction with
+carbon and of bismuth to bismuth oxide by oxidation with air was
+conﬁrmed by XRD and SEM measurements.
+▪Some agglomeration of bismuth oxide particles was observed and
+the porosity of the samples decreased over the ﬁve successive cycles.
+This did not inﬂuence the type of reactions because the LCLG op-
+erates in the liquid phase, but can be expected to decrease the re-
+activity of the bismuth over time. This suggests that further appli-
+cation of the technology may be required a robust method to be
+developed to control the porosity of the bismuth oxide particles.
+▪The kinetics of the reaction was measured using the Kissinger
+method. The activation energy and the pre-exponential factor for
+Table 4
+The values of the activation energy and pre-exponential factor for the reduction
+and oxidation of bismuth oxide with carbon and air, respectively, as derived
+from the Kissinger method.
+Kissinger
+model
+Reduction
+Oxidation
+Carbon
+conversion
+Activation
+energy (kJ/
+mol)
+Pre-
+exponential
+factor
+Activation
+energy (kJ/
+mol)
+Pre-
+exponential
+factor
+0.1
+196.4
+2.39E+11
+138.2
+9.95E+4
+0.3
+201.3
+8.92E+11
+142.5
+2.03E+5
+0.5
+211.6
+3.28E+12
+155.6
+8.54E+5
+0.7
+229.4
+1.193E+13
+173.6
+1.42E+6
+0.9
+237.1
+1.04E+13
+180.7
+2.32E+7
+Fig. 7. Photographs (upper images) and micrographs (lower images) of the surface of the alumina crucible after successive cycles of reduction of bismuth oxide with
+carbon and oxidation with air.
+M.M. Sarafraz, et al.
+Fuel Processing Technology 188 (2019) 110–117
+116
+
+
+===== Page 8 =====
+
+the reduction and oxidation reactions were found to be ~229 kJ/
+mol and ~175.8 kJ/mol, respectively for a conversion extend of 0.7.
+Acknowledgement
+The
+authors
+gratefully
+acknowledge
+the
+Australian
+Research
+Council (ARC) for its ﬁnancial support through grant DP150102230
+and the Australian Renewable Energy Agency (ARENA) for its support
+through the Australian Solar Thermal Research Initiative (ASTRI). The
+ﬁrst author of this work acknowledges the “Australian Government
+Research Training Program Scholarship” for its ﬁnancial supports.
+References
+[1] M. Sarafraz, M. Jafarian, M. Arjomandi, G. Nathan, Potential use of liquid metal
+oxides for chemical looping gasiﬁcation: a thermodynamic assessment, Appl.
+Energy 195 (2017) 702–712.
+[2] M. Sarafraz, M. Jafarian, M. Arjomandi, G.J. Nathan, The relative performance of
+alternative oxygen carriers for liquid chemical looping combustion and gasiﬁcation,
+Int. J. Hydrog. Energy 42 (2017) 16396–16407.
+[3] M. Sarafraz, M. Jafarian, M. Arjomandi, G. Nathan, Potential of molten lead oxide
+for liquid chemical looping gasiﬁcation (LCLG): a thermochemical analysis, Int. J.
+Hydrog. Energy 43 (2018) 4195–4210.
+[4] J. Adanez, A. Abad, F. Garcia-Labiano, P. Gayan, F. Luis, Progress in chemical-
+looping combustion and reforming technologies, Prog. Energy Combust. Sci. 38
+(2012) 215–282.
+[5] P. Cho, T. Mattisson, A. Lyngfelt, Comparison of iron-, nickel-, copper- and man-
+ganese-based oxygen carriers for chemical-looping combustion, Fuel 83 (2004)
+1215–1225.
+[6] J.d. Adánez, L.F. de Diego, F. García-Labiano, P. Gayán, A. Abad, J. Palacios,
+Selection of oxygen carriers for chemical-looping combustion, Energy Fuel 18
+(2004) 371–377.
+[7] B. Wang, R. Yan, D.H. Lee, D.T. Liang, Y. Zheng, H. Zhao, C. Zheng,
+Thermodynamic investigation of carbon deposition and sulfur evolution in chemical
+looping combustion with syngas, Energy Fuel 22 (2008) 1012–1020.
+[8] N.R. McGlashan, P.R. Childs, A.L. Heyes, Chemical looping combustion using the
+direct combustion of liquid metal in a gas turbine based cycle, J. Eng. Gas Turbines
+Power 133 (2011) 031701.
+[9] N. McGlashan, Chemical-looping combustion: a thermodynamic study, Proc. Inst.
+Mech. Eng. C J. Mech. Eng. Sci. 222 (2008) 1005–1019.
+[10] M. Jafarian, M. Arjomandi, G.J. Nathan, Thermodynamic potential of high tem-
+perature chemical looping combustion with molten iron oxide as the oxygen carrier,
+Chem. Eng. Res. Des. 120 (2017) 69–81.
+[11] J. Heijnen, K. Van't Riet, Mass transfer, mixing and heat transfer phenomena in low
+viscosity bubble column reactors, Chem. Eng. J. 28 (1984) B21–B42.
+[12] D.B. George, Apparatus and process for the production of ﬁre-reﬁned blister copper,
+Google Patents, 1995.
+[13] P. Nikolopoulos, S.A.P. Los, G. Angelopoulos, A. Naoumidis, H. Grübmeier,
+Wettability and interfacial energies in SiC-liquid metal systems, J. Mater. Sci. 27
+(1992) 139–145.
+[14] E. Pavlov, D. Ivanov, P. Gasanov, A. Gulayev, Method and apparatus for moving
+molten metal, Google Patents, 2018.
+[15] M. Hvasta, W. Nollet, M. Anderson, Designing moving magnet pumps for high-
+temperature, liquid-metal systems, Nucl. Eng. Des. 327 (2018) 228–237.
+[16] D. Kearney, U. Herrmann, P. Nava, B. Kelly, R. Mahoney, J. Pacheco, R. Cable,
+N. Potrovitza, D. Blake, H. Price, Assessment of a molten salt heat transfer ﬂuid in a
+parabolic trough solar ﬁeld, J. Sol. Energy Eng. 125 (2003) 170–176.
+[17] T. Daniel, Production of hydrogen, Google Patents, 1931.
+[18] M. Steinberg, Fossil fuel decarbonization technology for mitigating global warming,
+Int. J. Hydrog. Energy 24 (1999) 771–777.
+[19] P. Martynov, A. Gulevich, Y.I. Orlov, V. Gulevsky, Water and hydrogen in heavy
+liquid metal coolant technology, Prog. Nucl. Energy 47 (2005) 604–615.
+[20] A. Gulevich, P. Martynov, V. Gulevsky, V. Ulyanov, Technologies for hydrogen
+production based on direct contact of gaseous hydrocarbons and evaporated water
+with molten Pb or Pb–Bi, Energy Convers. Manag. 49 (2008) 1946–1950.
+[21] D. Paxman, S. Trottier, M. Nikoo, M. Secanell, G. Ordorica-Garcia, Initial experi-
+mental and theoretical investigation of solar molten media methane cracking for
+hydrogen production, Energy Procedia 49 (2014) 2027–2036.
+[22] I. Schultz, D.W. Agar, Decarbonisation of fossil energy via methane pyrolysis using
+two reactor concepts: ﬂuid wall ﬂow reactor and molten metal capillary reactor, Int.
+J. Hydrog. Energy 40 (2015) 11422–11427.
+[23] M. Serban, M.A. Lewis, C.L. Marshall, R.D. Doctor, Hydrogen production by direct
+contact pyrolysis of natural gas, Energy Fuel 17 (2003) 705–713.
+[24] M. Plevan, T. Geißler, A. Abánades, K. Mehravaran, R. Rathnam, C. Rubbia,
+D. Salmieri, L. Stoppel, S. Stückrad, T. Wetzel, Thermal cracking of methane in a
+liquid metal bubble column reactor: experiments and kinetic analysis, Int. J.
+Hydrog. Energy 40 (2015) 8020–8033.
+[25] T. Geißler, M. Plevan, A. Abánades, A. Heinzel, K. Mehravaran, R. Rathnam,
+C. Rubbia, D. Salmieri, L. Stoppel, S. Stückrad, Experimental investigation and
+thermo-chemical modeling of methane pyrolysis in a liquid metal bubble column
+reactor with a packed bed, Int. J. Hydrog. Energy 40 (2015) 14134–14146.
+[26] H. Seﬁdari, B. Lindblom, H. Wiinikka, L.-O. Nordin, A. Lennartsson, J. Mouzon,
+I.U. Bhuiyan, M. Öhman, The eﬀect of disintegrated iron-ore pellet dust on deposit
+formation in a pilot-scale pulverized coal combustion furnace. Part II: thermo-
+chemical equilibrium calculations and viscosity estimations, Fuel Process. Technol.
+180 (2018) 189–206.
+[27] O. Yakaboylu, J. Harinck, K. Smit, W. De Jong, Testing the constrained equilibrium
+method for the modeling of supercritical water gasiﬁcation of biomass, Fuel
+Process. Technol. 138 (2015) 74–85.
+[28] F. Moradian, P.A. Tchoﬀor, K.O. Davidsson, A. Pettersson, R. Backman,
+Thermodynamic equilibrium prediction of bed agglomeration tendency in dual
+ﬂuidized-bed gasiﬁcation of forest residues, Fuel Process. Technol. 154 (2016)
+82–90.
+[29] Z.I.S. Adiya, V. Dupont, T. Mahmud, Chemical equilibrium analysis of hydrogen
+production from shale gas using sorption enhanced chemical looping steam re-
+forming, Fuel Process. Technol. 159 (2017) 128–144.
+[30] J. Yin, X. Kang, C. Qin, B. Feng, A. Veeraragavan, D. Saulov, Modeling of CaCO3
+decomposition under CO2/H2O atmosphere in calcium looping processes, Fuel
+Process. Technol. 125 (2014) 125–138.
+[31] M. Su, J. Ma, X. Tian, H. Zhao, Reduction kinetics of hematite as oxygen carrier in
+chemical looping combustion, Fuel Process. Technol. 155 (2017) 160–167.
+[32] K. Mondal, H. Lorethova, E. Hippo, T. Wiltowski, S. Lalvani, Reduction of iron oxide
+in carbon monoxide atmosphere: reaction controlled kinetics, Fuel Process.
+Technol. 86 (2004) 33–47.
+[33] D. Bom, R. Andrews, D. Jacques, J. Anthony, B. Chen, M.S. Meier, J.P. Selegue,
+Thermogravimetric analysis of the oxidation of multiwalled carbon nanotubes:
+evidence for the role of defect sites in carbon nanotube chemistry, Nano Lett. 2
+(2002) 615–619.
+[34] A. Sato, G. Aragane, K. Kamihira, S. Yoshimatso, Reducing rates of molten iron
+oxide by solid carbon or carbon in molten iron, Trans. Iron Steel Inst. Jpn. 27
+(1987) 789–796.
+[35] C.E. Seaton, A.A. Rodriguez, M. gonzález, M. Manrique, The rate of dissolution of
+reduced iron in molten steel, Trans. Iron Steel Inst. Jpn. 23 (1983) 14–20.
+[36] K. Upadhya, Kinetics of reduction of lead oxide in liquid slag by carbon in iron,
+Metall. Trans. B 17 (1986) 271–279.
+[37] E.R. Monazam, R. Siriwardane, R.W. Breault, H. Tian, L.J. Shadle, G. Richards,
+S. Carpenter, Kinetics of the reduction of CuO/bentonite by methane (CH4) during
+chemical looping combustion, Energy Fuel 26 (2012) 2779–2785.
+[38] J. Plewa, J. Skrzypek, Kinetics of the reduction of copper oxide with carbon mon-
+oxide, Chem. Eng. Sci. 44 (1989) 2817–2824.
+[39] H.E. Kissinger, Reaction kinetics in diﬀerential thermal analysis, Anal. Chem. 29
+(1957) 1702–1706.
+[40] S.A. Kline, F.A. McClintock, Describing uncertainties in single-sample experiments,
+Mech. Eng. 75 (1953) 3–8.
+[41] E.J. Marek, Y. Zheng, S.A. Scott, Enhancement of char gasiﬁcation in CO2 during
+chemical looping combustion, Chem. Eng. J. 354 (2018) 137–148.
+[42] G. Moiseev, N. Vatolin, N. Belousova, Thermodynamic investigations in the Bi-O
+system, J. Therm. Anal. Calorim. 61 (2000) 289–303.
+[43] Y. Zhongliang, Y. Yanyan, Y. Song, Z. Qian, Z. Jiantao, F. Yitian, H. Xiaogang,
+G. Guoqing, Iron-based oxygen carriers in chemical looping conversions: a review,
+Carbon Resour. Convers. 2 (2019) 23–34.
+[44] L.F. De Diego, F. Garcı́a-Labiano, J. Adánez, P. Gayán, A. Abad, B.M. Corbella,
+J.M.A. Palacios, Development of Cu-based oxygen carriers for chemical-looping
+combustion, Fuel 83 (2004) 1749–1757.
+[45] L. Leontie, M. Caraman, M. Alexe, C. Harnagea, Structural and optical character-
+istics of bismuth oxide thin ﬁlms, Surf. Sci. 507 (2002) 480–485.
+[46] Z. Li, C. Lu, Z. Xia, Y. Zhou, Z. Luo, X-ray diﬀraction patterns of graphite and
+turbostratic carbon, Carbon 45 (2007) 1686–1695.
+[47] H.C. Hoover, Georgius Agricola De Re Metallica, Russian version (1950).
+[48] T. Utigard, G. Sanchez, J. Manriquez, A. Luraschi, C. Diaz, D. Cordero,
+E. Almendras, Reduction kinetics of liquid iron oxide-containing slags by carbon
+monoxide, Metall. Mater. Trans. B Process Metall. Mater. Process. Sci. 28 (1997)
+821–826.
+[49] M.M. Sarafraz, F. Hormozi, M. Kamalgharibi, Sedimentation and convective boiling
+heat transfer of CuO-water/ethylene glycol nanoﬂuids, Heat Mass Transf. 50 (2014)
+1237–1249.
+[50] M.M. Sarafraz, S. Peyghambarzadeh, S. Alavi Fazel, N. Vaeli, Nucleate pool boiling
+heat transfer of binary nano mixtures under atmospheric pressure around a smooth
+horizontal cylinder, Period. Polytech., Chem. Eng. 57 (2013) 71–77.
+[51] M.M. Sarafraz, F. Hormozi, M. Silakhori, S.M. Peyghambarzadeh, On the fouling
+formation of functionalized and non-functionalized carbon nanotube nano-ﬂuids
+under pool boiling condition, Appl. Therm. Eng. 95 (2016) 433–444..
+[52] M.M. Sarafraz, V. Nikkhah, S.A. Madani, M. Jafarian, F. Hormozi, Low-frequency
+vibration for fouling mitigation and intensiﬁcation of thermal performance of a
+plate heat exchanger working with CuO/water nanoﬂuid, Appl. Therm. Eng. 121
+(2017) 388–399.
+[53] M.M. Sarafraz, F. Hormozi, S.M. Peyghambarzadeh, N. Vaeli, Upward Flow Boiling
+to DI-Water and Cuo Nanoﬂuids Inside the Concentric Annuli, J. Appl. Fluid Mech.
+8 (2015) 651–659.
+[54] M. Nakhjavani, V. Nikkhah, M.M. Sarafraz, S. Shoja, M. Sarafraz, Green synthesis of
+silver nanoparticles using green tea leaves: Experimental study on the morpholo-
+gical, rheological and antibacterial behaviour, Heat Mass Transf. 53 (2017)
+3201–3209.
+[55] M.M. Sarafraz, S.M. Peyghambarzadeh, N. Vaeli, Subcooled ﬂow boiling heat
+transfer of ethanol aqueous solutions in vertical annulus space, Chem. Ind. Chem.
+Eng. Q. 18 (2012) 315–327.
+[56] M.M. Sarafraz, Nucleate pool boiling of aqueous solution of citric acid on a
+smoothed horizontal cylinder, Heat Mass Transf. 48 (2012) 611–619.
+[57] M.M. Sarafraz, F. Hormozi, Application of thermodynamic models to estimating the
+convective ﬂow boiling heat transfer coeﬃcient of mixtures, Exp. Thermal Fluid Sci.
+53 (2014) 70–85.
+M.M. Sarafraz, et al.
+Fuel Processing Technology 188 (2019) 110–117
+117

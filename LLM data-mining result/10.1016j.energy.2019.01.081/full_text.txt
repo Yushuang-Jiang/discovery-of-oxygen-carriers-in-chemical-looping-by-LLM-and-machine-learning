@@ -1,0 +1,1454 @@
+
+
+===== Page 1 =====
+
+Thermochemical behavior of perovskite oxides based on LaxSr1-x(Mn,
+Fe, Co)O3-d and BaySr1-yCoO3-d redox system for thermochemical
+energy storage at high temperatures
+Nobuyuki Gokon a, *, Takehiro Yawata b, Selvan Bellan a, Tatsuya Kodama c,
+Hyun-Seok Cho c
+a Institute for Research Promotion, Niigata University, 8050 Ikarashi 2-nocho, Nishi-ku, Niigata 950-2181, Japan
+b Graduate School of Science and Technology, Niigata University, 8050 Ikarashi 2-nocho, Niigata 950-2181, Japan
+c Department of Chemistry & Chemical Engineering, Faculty of Engineering, Niigata University, 8050 Ikarashi 2-nocho, Niigata 950-2181, Japan
+a r t i c l e i n f o
+Article history:
+Received 17 April 2018
+Received in revised form
+8 January 2019
+Accepted 14 January 2019
+Available online 19 January 2019
+Keywords:
+Reactive ceramics
+Perovskite oxide
+Thermochemical cycling
+Chemical energy storage
+Charging/discharging processes
+Concentrated solar power
+a b s t r a c t
+LaxSr1-x(Mn, Fe, Co)O3-d, and BaySr1-yCoO3-d perovskite oxide powders were investigated as potential
+thermochemical energy storage (TES) materials operated at high temperatures above 600 C. The pur-
+pose of the research is to provide complete characterization of the impact of partial A- and B-site sub-
+stitution on the reactivity, kinetics, redox reaction repeatability and charging/discharging storage
+capacity. The perovskite oxides were investigated by thermogravimetric analysis (TGA) and differential
+scanning calorimetry (DSC) at temperatures of 500e1100 C. Thermal energy storage was evaluated in
+terms of the enthalpy of the reversible reactions of oxygen release (reduction) and uptake (oxidation)
+upon heating the oxide materials in air stream. Among the perovskites tested, Ba0.3Sr0.7CoO3-d and
+Ba0.7Sr0.3CoO3-d powders were suitable thermochemical storage materials operating at above 600 C in
+terms of chemical reactivity, charging/discharging temperatures and storage capacities, kinetics of ox-
+ygen uptake/release, and repeatability of thermochemical cycling. Further, charging/discharging capacity
+for both perovskites was comparable to that for Fe-doped manganese oxide.
+© 2019 Elsevier Ltd. All rights reserved.
+1. Introduction
+Thermal energy can be stored as sensible, latent, or thermo-
+chemical heat [1]. Thermochemical heat storage (TCS) possesses
+greater energy density than sensible or latent heat and can be used
+at higher temperatures [2]. TCS consists of charging, storage, and
+discharging steps. The heat provided by concentrated solar radia-
+tion drives a reversible, endothermic chemical reaction during the
+charging step, which stores the heat as reaction products. Heat is
+recovered from the exothermic reverse of this chemical reaction
+during the discharge step. The TCS system allows long-term and
+round-the-clock operation in concentrated solar power (CSP) plant
+to achieve CO2-free power generation. Redox pairs operating in the
+range of 600e1000 C, which is much greater than the 600 C
+operational limit of current state-of-the-art molten nitrate heat-
+transfer ﬂuids, are consistent with the needs of next-generation
+CSP plants [3e5]. 800e1000 C redox pairs are applicable to solar
+methane reforming and gasiﬁcation of carbonaceous materials via
+endothermic processes producing hydrogen and synthetic gas [6].
+Thermodynamics, working temperature, energy storage capac-
+ity, material costs, reaction kinetics, toxicity, and cyclic behavior are
+important factors in the choice of the redox pair for TCS [7]. A redox
+system based on a hercynite (FeAl2O4) cycle has been studied at the
+University of Colorado [8], and a CuO/Cu2O redox pair has been
+tested for TCS [9]. Wong evaluated various metal oxides as a TCS
+medium by thermodynamic calculation and experimental analysis
+[10]. Among the systems suitable for TCS, a Co3O4/CoO redox pair
+exhibited the best re-oxidation kinetics, whereas a Mn2O3/Mn3O4
+system exhibited cost-effectiveness and favorable redox tempera-
+tures between 800 and 1000 C. The TCS performance of the Co3O4/
+CoO redox pair has been studied from the viewpoint of thermo-
+dynamic analysis, materials testing, and reactor/heat exchangers
+[4,11e16]. The TCS properties of Co3O4 are consistent with the
+operating temperatures of next-generation CSP plants [10] and
+solar chemical reactors. A promising concept for CSP plants
+* Corresponding author.
+E-mail address: ngokon@eng.niigata-u.ac.jp (N. Gokon).
+Contents lists available at ScienceDirect
+Energy
+journal homepage: www.elsevier.com/locate/energy
+https://doi.org/10.1016/j.energy.2019.01.081
+0360-5442/© 2019 Elsevier Ltd. All rights reserved.
+Energy 171 (2019) 971e980
+
+
+===== Page 2 =====
+
+combining a volumetric central air receiver and a Co3O4/CoO redox
+pair has been proposed and studied [3]. The Mn2O3/Mn3O4 system,
+however, has drawbacks of slow kinetics in its discharge step and
+poor repeatability of the redox reaction [17]. Doped manganese
+oxides have been studied in a search for improved kinetics and
+repeatability [4,18]. The present authors at Niigata University have
+developed prototype windowed receiver/reactors using a ﬂuidized
+bed of chemically reactive (coal cokes, metal oxides) particles
+[19,20] or chemically inert (quartz sand) heat storage particles [21]
+and have proposed the combination of a windowed solar chemical
+receiver/reactor with a newly developed solar reﬂective tower or
+beam-down optics [22e24]. The effect of Co3O4/CoO particle size
+on TCS performance has been investigated to explore the material's
+potential in a ﬂuidized-particle bed reactor [16]. The ﬂuidity of
+Co3O4 powders in a cold test of the ﬂuidized bed reactor also was
+examined in the study.
+Perovskite oxides are thermodynamically more attractive than
+Co3O4/CoO and doped manganese oxides as a redox material for
+TCS [25e34]. Perovskite oxides of the general formula, ABO3, have
+large concentrations of vacancies in their structure and can
+reversibly accumulate and release oxygen at high temperatures. In
+addition, their crystal structure is essentially invariant during the
+high-temperature redox reaction that did not accompanies the
+phase transition between different crystal structures, which results
+in a small volume change upon oxygen uptake and release. Thus,
+perovskite oxides should exhibit favorable redox cycle repeat-
+ability. The TCS process using a perovskite oxide redox pair is
+represented as:
+Heat Charge (HC) step: ABO3 /ABO3-d
+þ d/2O2 (endothermic, T1)
+(1)
+Heat Discharge (HD) step: ABO3-d
+þ d/2O2 /ABO3 (exothermic, T2)
+(2)
+A and B are the A- and B-site ions in the ABO3 perovskite
+structure, ABO3-d is the reduced oxide, and d is a stoichiometric
+factor that deﬁnes the change in oxygen content during oxidation
+and reduction. The cationic A and B sites can be substituted to
+control changes in oxygen stoichiometry, kinetics, and thermody-
+namic properties over a wide range of compositions. Perovskite
+oxides remain in the solid state during redox reactions and retain
+their structure over a wide range of oxygen stoichiometries.
+Perovskite oxide reactivity is improved by A-site alkaline earth
+or B-site transition metal cation substitution in the crystal struc-
+ture, which creates oxygen vacancies and produces changes in
+oxygen uptake/release capacities for TCS [25]. Babiniec et al. stud-
+ied LaxSr1-xCoyM1-yO3-d (M ¼ Mn, Fe) families by thermogravi-
+metric analysis (TGA) [26]. The HC step was performed at a heating
+rate of 20 C/min from 200 to 1250 C followed by cooling of the
+sample to 200 C in the HD step at rate of 20 C/min. Air and Ar
+were used as heat transfer ﬂuids (HTFs) to evaluate reactivity. A La
+content of x ¼ 0.3 provided the greatest redox reactivity in both
+families. The authors reported that the B-site composition does not
+affect redox reactivity. Ashoka et al. synthesized LaMO3 (M ¼ Cr,
+Mn, Fe, Co, Ni) families [27], and Agraﬁotis et al. subjected LaxSr1-
+xFeO3/LaxSr1-xFeO3-d redox pairs to TGA testing [28]. TGA testing
+of La0.3Sr0.7FeO3 was performed cyclically between 1200 and 800 C
+with a heating/cooling rate of 5 C/min. The HTFs were air in the 1st
+cycle and Ar gas in the 2nd cycle. Imponenti et al. investigated Ca1-
+xSrxMnO3-d (x ¼ 0, 0.05, 0.1) families as potential TCS materials by
+TGA and reported the impact of A-site substitution [29]. Samples
+were tested cyclically between 500 C in air and 900 C at low ox-
+ygen partial pressure of PO2 ¼ 104 bar to evaluate durability.
+Undoped
+CaMnO3-d
+did
+not
+behave
+reversibly
+under
+these
+conditions, but the redox cycle of Sr-doped CaMnO3-d was revers-
+ible. Galinsky et al. considered Ca1-xAMnO3 (A ¼ Sr, Ba) to be a
+potential TCS material [30]. The effect of A-site doping upon sub-
+stitution of Sr and Ba at various concentrations was examined by
+TGA. Samples were subjected to He, Ar, and O2 gases at 850 C to
+evaluate the short term cyclability of the redox reactions. The HC
+step was conducted under an inert atmosphere of He and Ar,
+whereas the HD step was performed with O2 added to the gas
+mixture. The authors reported that Sr doping enhanced crystal
+structure stability and facilitated oxygen release, although Ba
+doping was ineffective. Albrecht et al. studied the thermodynamics
+of TCS with Ca0.6Sr0.4MnO3-d [31]. The model assumed that the
+crystal structure phase changes during TCS occur at temperatures
+of
+500e1000 C
+and
+oxygen
+partial
+pressures
+of
+pO2 ¼ 100e105 atm. Masunaga et al. studied the impact of A-site
+substitution in Fe-based Sr0.5Ba0.5FeO3-d, Ca0.5Sr0.5FeO3-d, and
+Ca0.5Ba0.5FeO3-d perovskite oxides by TGA [32]. Synthetic air and
+pure N2 were passed over the sample repetitively at 450 C for
+60 min Sr0.5Ba0.5FeO3-d exhibited good repeatability of oxygen up-
+take and release at this temperature. Vieten et al. examined the
+oxygen storage capacity and repeatability of SrFe0.95Cu0.05O3-d and
+Ca0.8Sr0.2MnO3-d at a low oxygen partial pressure (PO2 ¼ 0.16 bar)
+and T < 1200 C by TGA [33]. Zhang et al. studied the heat storage
+capacity of Ba and Sr perovskites during HC and HD steps by TGA in
+pure Ar and in an AreO2 mixture with PO2 ¼ 0.2 bar. Experiments
+were conducted over a temperature range of 300e1050 C with
+heating/cooling rates of 20 C/min. The inﬂuence of A- and B-site
+substitutions on oxygen storage capacity was reported [34].
+Although LaSre and BaSr-based perovskites have been studied
+as redox materials for TCS and as participants in thermochemical
+H2O and H2O/CO2 splitting cycles [35e37], complete characteriza-
+tion of the impact of partial A- and B-site substitution on the
+reactivity, kinetics, and redox reaction repeatability in air has not
+been performed for these materials. This study aims to ﬁll that gap
+by providing information on the applicability of LaSre and BaSr-
+based perovskites as TCS materials through studies of their
+behavior in a stream of air. The impacts of partial A- and B-site
+substitution on the thermodynamics, kinetics, and redox reaction
+repeatability are compared and evaluated for both perovskite
+families.
+2. Experimental section
+2.1. Preparation of LaxSr1-x(Mn, Fe, Co)O3-d, and BaySr1-yCoO3-
+d redox powders
+LaxSr1-x(Mn, Fe, Co)O3-d and BaySr1-yCoO3-d were synthesized by
+a modiﬁed Pechini process [38]. The La/Sr ratio of perovskite was
+expressed as “x” in the chemical formula, while the Ba/Sr ratio was
+denoted as “y”. Stoichiometric amounts of La(NO3)3$9H2O (purity
+99.9%), Sr(NO3)2 (purity 98.0%), Ba(NO3)$6H2O (purity 99.0%),
+Mn(NO3)3$9H2O (purity 98.0%), Fe(NO3)3$6H2O (purity 99.9%), and
+Co(NO3)$6H2O (purity 99.0%) were dissolved in deionized, distilled
+water (200 mL). Ethylene glycol and citric acid were added to the
+aqueous solution. The mole ratio of the sum of metallic cations,
+ethylene glycol, and citric acid was 4:5:5. The solution was heated
+at 80 C with stirring for 1 h, after which the temperature was
+increased to 180 C for 0.5 h to form a gel. The gel was maintained
+for 4.5 h for drying. The resulting back powder was calcined at
+1200 C for 6 h in an air stream using an electric heater. The
+chemical compositions of the LaxSr1-x(Mn, Fe, Co)O3-d, and BaySr1-
+yCoO3-d powders are listed in Table 1.
+Solid phase identiﬁcation was performed by X-ray powder
+diffraction (XRD) (MXeLabo, MAC Science) using CuKa radiation
+(l ¼ 0.15418 nm) (40 kV - 25 mA) at room temperature. Diffraction
+N. Gokon et al. / Energy 171 (2019) 971e980
+972
+
+
+===== Page 3 =====
+
+data were collected in the angular range of 20 < 2q < 80 with a
+0.01 step size and 5 s step interval. Crystalline phases were iden-
+tiﬁed by comparison with standard reference patterns (Inorganic
+Crystal Structure Database, ICSD) [39].
+2.2. Reactivity and repeatability test of LaxSr1-x(Mn, Fe, Co)O3-d and
+BaySr1-yCoO3-d redox powders
+The thermochemical storage performance of LaxSr1-x(Mn, Fe,
+Co)O3-d and BaySr1-yCoO3-d redox powders was examined by the
+following procedure. Approximately 100 mg of sample powder was
+packed into a platinum cup (5 mm diameter  5 mm deep) and
+mounted on the balance in a ceramic reaction chamber. Fig.1 shows
+the experimental set-up of the thermogravimetric reactor (Rigaku
+Thermo plus EVO TG-DTA, weight resolution of 0.1 mg, temperature
+resolution of ±0.0025  |t|
+C) used for endothermic thermal
+reduction (TR) and subsequent exothermic air oxidation (AO) of the
+sample powder. The powder was ﬁrst heated to 1100 C at a rate of
+30 C/min using an electric furnace while passing 99.9% synthetic
+air through the reactor at a ﬂow rate of 0.2 dm3/min controlled by a
+mass ﬂow controller (KOFLOC RK1700). The TR (heat charging)
+reaction is accomplished in this step. The temperature of the
+sample powder was monitored using an R-type thermocouple in
+contact with the platinum cup. The powder was heated at a con-
+stant temperature of 1100 C for 20 min and subsequently cooled to
+500 C at a rate of 30 C/min at the air ﬂow indicated above. The
+sample maintained at 500 C for 30 min in the electric furnace of
+the reactor to complete the AO (heat discharging) step. The TR and
+AO steps were repeated three to six times in sequence to study the
+repeatability of charging and discharging. The sample powder
+weight changed in the reactor furnace by O2 release during the TR
+step and O2 uptake during the AO step. The weight change of the
+powder was recorded as a function of time to monitor the fractional
+extent of reaction in the TR and AO steps.
+The weight change, a, for release and uptake of O2 in each step is
+deﬁned as,
+a ¼ m  mi
+mi
+(3)
+where mi is the initial weight of sample powder, and m is the
+weight at time t. a is calculated from the measured weight change
+of the sample in the thermogravimetric reactor.
+The oxygen storage capacity (OSC), b, during the TR and AO steps
+of thermochemical cycle is deﬁned as,
+b ¼
+Dm
+MO in sample
+(4)
+where Dm is the weight change of sample powder for each step,
+MO in sample is the total weight of oxygen (O atom) weight contained
+in the sample.
+The chemical energy storage capacity of perovskite powder
+samples was determined using a differential scanning calorimeter
+(DSC, NETZSCH DSC 404 F3 Pegasus, temperature resolution of
+±0.0025  |t| C). The redox temperature of samples was estimated
+from the endothermic and exothermic peaks of the DSC. The pro-
+grammed heating and cooling rates for DSC measurements were: 1)
+heating at 10 C/min between room temperature and 800 C, 2)
+heating at 5 C/min between 800 C and 1000 C, 3) stationary at
+1000 C for 5 min, 4) cooling at 10 C/min to 500 C, and 5) sta-
+tionary at 500 C for 10 min. The DSC heating/cooling cycle was
+repeated three times in air at a ﬂow rate of 200 cm3/min. Powder
+samples obtained after the energy storage cycle were examined by
+powder XRD to identify the crystal phase.
+3. Results and discussion
+3.1. Synthesis of perovskite oxides
+Fig. 2 shows XRD patterns of the original (a) LaxSr1-xCoO3-d, (b)
+La0.5Sr0.5MO3-d, and (c) BaxSr1-xCoO3-d materials. XRD data of some
+powders obtained from the Inorganic Crystal Structure Database
+(ICSD)
+[39]
+are
+included
+for
+comparison.
+For
+LaxSr1-xCoO3-
+d (Fig. 2(a)), a series of peaks due to perovskite oxides with a cubic
+crystal structure at all A-site La and Sr substitution levels are
+evident in the XRD patterns. No new peaks due to La or Sr substi-
+tution are observed. This result means that the LaxSr1-xCoO3-
+d samples retain the perovskite structure as a single phase with the
+substituted ions incorporated into the crystal structure as a solid
+solution. As shown for La0.5Sr0.5MO3-d (M ¼ Mn, Fe, Co) (Fig. 2(b)),
+the XRD patterns are in agreement with the reference patterns
+cited from the ICSD, which indicates that Mne, Fee, and Co-
+substitution of La0.5Sr0.5MO3-d at the B site also retains the perov-
+skite structure as a single phase. However, the XRD peaks of BaxSr1-
+xCoO3-d at x ¼ 0.3e0.7 (Fig. 2(c)) are consistent with a vaterite-type
+oxide with a hexagonal crystal structure. The XRD peaks of
+x ¼ 0.3e0.7 BaxSr1-xCoO3-d observed at 2q ¼ 40e44 also move to
+greater diffraction angles with increasing Sr substitution. The
+composition-dependent peaks of BaxSr1-xCoO3-d occur in the range
+between those of BaCoO3-d and SrCoO3-d. The peak shifts are
+consistent with the substitution of Ba and Sr ions into a perovskite
+structure during the synthetic process.
+Table 1
+Synthesized perovskite oxides of LaxSr1-x (Mn, Fe, Co)O3-d, and BaySr1-yCoO3-d series.
+A-site
+B-site
+A : Sr in A-site
+Materials synthesized
+Abbreviation
+La
+Mn
+0.5: 0.5
+La0.5Sr0.5MnO3-d
+LS55M
+0.3: 0.7
+La0.3Sr0.7Al0.3Mn0.7O3-d
+LSAM3737
+0.4: 0.6
+La0.4Sr0.6Al0.4Mn0.6O3-d
+LSAM4646
+0.5: 0.5
+La0.5Sr0.5Al0.5Mn0.5O3-d
+LSAM5555
+Fe
+0.5: 0.5
+La0.5Sr0.5FeO3-d
+LS55F
+0.5: 0.5
+La0.5Sr0.5Cr0.5Fe0.5O3-d
+LSCrF5555
+0.5: 0.5
+La0.5Sr0.5Al0.5Fe0.5O3-d
+LSAF5555
+Co
+0.3: 0.7
+La0.3Sr0.7CoO3-d
+LS37C
+0.5: 0.5
+La0.5Sr0.5CoO3-d
+LS55C
+0.7: 0.3
+La0.7Sr0.3CoO3-d
+LS73C
+Ba
+Co
+0.3: 0.7
+Ba0.3Sr0.7CoO3-d
+BS37C
+0.5: 0.5
+Ba0.5Sr0.5CoO3-d
+BS55C
+0.7: 0.3
+Ba0.7Sr0.3CoO3-d
+BS73C
+R-type thermocouple
+Electric furnace
+Air
+200 cm3 min-1
+Platinum cup
+perovskite particle (about 100 mg)
+balance
+Mass change logging
+Gas out
+Fig. 1. Schematic diagram of the thermogravimetric reactor for thermochemical en-
+ergy storage using perovskite oxides. The inlet gas of air was introduced to the ther-
+mogravimetric reactor at 25 C, and the outlet gas was released at temperatures of
+500e1100 C from behind the device.
+N. Gokon et al. / Energy 171 (2019) 971e980
+973
+
+
+===== Page 4 =====
+
+3.2. Inﬂuence of A- and B -site partial substitution on oxygen
+uptake/release behavior
+Fig. 3(a) shows the thermogravimetric proﬁles of La0.3Sr0.7CoO3-
+d (LS37C) and Ba0.3Sr0.7CoO3-d (BS37C). The results illustrate the
+effect of La or Ba substitution at the A site of perovskite oxide
+(A0.3Sr0.7CoO3-d, A ¼ La, Ba). The weight of LS37C decreases linearly
+with increasing temperature from 350 to 1100 C due to thermal
+reduction and remains constant at 1100 C. The weight loss upon
+reduction is nearly a ¼ 2%. When temperature is decreased from
+1100 to 500 C, the weight increases linearly due to oxygen uptake
+and remains constant at 500 C. The weight gain increases to within
+a ¼ 0.34% of the initial value. The reduction-oxidation cycle was
+repeated 3 times with similar results. The weight of BS37C rapidly
+decreases at 900 C and then continues to decrease with increasing
+temperature from 900 to 1100 C, before stabilizing at 1100 C.
+When the temperature of BS37C is decreased from 1100 to 500 C,
+the sample weight increases monotonically, but a sharp spike is
+reproducibly observed between 750 and 500 C. The overall weight
+changes of BS37C upon reduction and oxidation are similar to those
+of LS37C. The results suggest that ionic species of the A site of
+perovskite oxide does not impact on reactivity but charging/dis-
+charging rate. However, a substitution of different valance states
+(La3þ, Ba2þ, Sr2þ) in the A site of perovskite generally induces ox-
+ygen vacancy, leading to improving reactivity. Thus, the authors
+will quantitatively compare and evaluate OSC based on the weight
+changes for all tested materials in Fig. 4. In term of charging/dis-
+charging rate, the authors will discuss in Figs. 5 and 6. An important
+0
+1000
+2000
+3000
+4000
+5000
+6000
+20
+30
+40
+50
+60
+70
+80
+Intensity / cps
+2
+(Cu-K ) / degrees
+LS37C
+LS55C
+LS73C
+LS37C (ICSD No. 193787)
+LS55C (ICSD No. 156455)
+LS73C (ICSD No. 156554)
+(a)
+0
+1000
+2000
+3000
+4000
+5000
+6000
+20
+30
+40
+50
+60
+70
+80
+Intensity / cps
+2
+(Cu-K ) / degrees
+LS55M
+LS55M (ICSD No. 55978)
+LS55F
+LS55C
+LS55F (ICSD No. 290489)
+LS55C (ICSD No. 156455)
+(b)
+0
+500
+1000
+1500
+2000
+2500
+3000
+3500
+4000
+4500
+5000
+20
+30
+40
+50
+60
+70
+80
+0
+500
+1000
+1500
+2000
+2500
+3000
+3500
+4000
+4500
+5000
+40
+41
+42
+43
+44
+Intensity / cps
+2
+(Cu-K ) / degrees
+Intensity / cps
+2
+(Cu-K ) / degrees
+BS37C
+Ba4.01Sr3.99Co4O15
+(ICSD No. 290489)
+BS55C
+BS73C
+BS55C
+(ICSD No. 154840)
+BS37C
+BS55C
+BS73C
+(c)
+Fig. 2. XRD patterns of synthesized (a) LaxSr1-xCoO3-d, (b) La0.5Sr0.5MO3-d (M ¼ Fe, Co, Mn), and (c) BaxSr1-xCoO3-d powders. Some reference samples are cited from the ICSD database
+for comparison.
+N. Gokon et al. / Energy 171 (2019) 971e980
+974
+
+
+===== Page 5 =====
+
+matter in Fig. 3(a) is that the sample weight for both sample quickly
+responded with temperature variations. The behavior of weight
+change means that the A site partial substitution of perovskites is
+not related to macroscopic thermal response for temperature
+variation.
+Fig. 3(b) shows the thermogravimetric proﬁles of LaxSr1-xCoO3-
+d (LS37C, LS55C, and LS73C). The results illustrate the effect of La
+and Sr substitution at the A site of LaxSr1-xCoO3-d with x ¼ 0.3, 0.5,
+and 0.7. The weight changes of LS73C are the smallest among the
+LaxSr1-xCoO3-d series. Its weight decreases linearly to a ¼ 0.40%
+during the TR step, but increases during AO to the extent that it
+exceeds the initial weight by ca. 0.2%. The LS73C sample is unique
+among these materials in that its weight after AO exceeds the initial
+value during thermochemical cycling. A considerable reason is that
+an oxygen-deﬁciency for LS73C obtained after the synthesis may be
+largest among the LaxSr1-xCoO3-d series, leading to weight gain due
+to oxygen uptake during TR. The weight of LS55C decreases by
+a ¼ 1.3% upon thermal reduction, but returns to its initial value
+upon cooling to 500 C during the AO step. The weight of LS37C
+decreases by a ¼ 1.95% during TR, but increases only to 0.33% of
+its initial value upon AO. However, this 1.62% range in weight
+change is the largest in the LaxSr1-xCoO3-d series. Fig. 3(b) illustrates
+the repeatability of the LaxSr1-xCoO3-d weight changes upon tem-
+perature cycling; the weight change is quasi-linear behavior during
+0
+200
+400
+600
+800
+1000
+1200
+-2.5
+-2
+-1.5
+-1
+-0.5
+0
+0.5
+0
+50
+100
+150
+200
+250
+Temperature /
+Weight change,
+/ %
+Time / min
+LS37C
+BS37C
+Temp
+(a)
+0
+200
+400
+600
+800
+1000
+1200
+-2.5
+-2
+-1.5
+-1
+-0.5
+0
+0.5
+0
+50
+100
+150
+200
+250
+Temperature /
+Weight change,
+/ %
+Time / min
+LS37C
+LS55C
+LS73C
+Temp
+(b)
+0
+200
+400
+600
+800
+1000
+1200
+-2.5
+-2
+-1.5
+-1
+-0.5
+0
+0.5
+0
+50
+100
+150
+200
+250
+Temperature /
+Weight change,
+/ %
+Time / min
+LS55F
+LS55C
+LS55M
+Temp
+(c)
+0
+200
+400
+600
+800
+1000
+1200
+-2.5
+-2
+-1.5
+-1
+-0.5
+0
+0.5
+0
+50
+100
+150
+200
+250
+Temperature /
+Weight change,
+/ %
+Time / min
+LS37AM37
+LS46AM46
+LS55AM55
+Temp
+LSAM3737
+LSAM5555
+LSAM4646
+(d)
+0
+200
+400
+600
+800
+1000
+1200
+-2.5
+-2
+-1.5
+-1
+-0.5
+0
+0.5
+0
+50
+100
+150
+200
+250
+Temperature /
+Weight change,
+/ %
+Time / min
+LS55CrF55
+LS55AF55
+LS55AM55
+Temp
+LSCrF5555
+LSACr5555
+LSAF5555
+(e)
+Fig. 3. Thermogravimetric curves of (a) LS37C and BS37C, (b) LaxSr1-xCoO3-d (x ¼ 0.3, 0.5, 0.7), (c) La0.5Sr0.5MO3-d (M ¼ Fe, Co, Mn), (d) LSAM3737, LSAM 4646, and LSAM5555, and
+(e) LSCrF5555, LSAF5555, and LSACr5555.
+0.00
+0.05
+0.10
+0.15
+0.20
+0.25
+0.30
+0.35
+1st
+2nd
+3rd
+1st
+2nd
+3rd
+1st
+2nd
+3rd
+1st
+2nd
+3rd
+1st
+2nd
+3rd
+1st
+2nd
+3rd
+LS37C
+LS55C
+LS73C
+BS37C
+BS55C
+BS73C
+Oxygen storage capacity,
+[ - ]
+TR step
+AO step
+(a)
+0
+0.02
+0.04
+0.06
+0.08
+0.1
+0.12
+0.14
+0.16
+0.18
+0.2
+1st
+2nd
+3rd
+1st
+2nd
+3rd
+1st
+2nd
+3rd
+LS55M
+LS55F
+LS55C
+Oxygen storage capacity,
+[ - ]
+TR step
+AO step
+(b)
+Fig. 4. Redox reactivity of (a) AxSr1-xCoO3-d (A ¼ La, Ba; x ¼ 0.3, 0.5, 0.7) and (b) La0.5Sr0.5BO3-d (B ¼ Mn, Fe, Co).
+N. Gokon et al. / Energy 171 (2019) 971e980
+975
+
+
+===== Page 6 =====
+
+both steps. The quasi-linear behavior of weight change is a char-
+acteristic ﬁnding for LaxSr1-xCoO3-d series. The LaxSr1-xCoO3-
+d weight differences at the beginning and end of the TR and AO
+cycles increase as Sr is substituted for La at the A sites (i.e., as the
+value of x decreases in LaxSr1-xCoO3-d series). This means that Sr
+substitution enhances the reactivity of the endothermic and
+exothermic processes. The La ionic radius (La3þ: 1.36 Å) is smaller
+than the Sr ionic radius (Sr2þ: 1.44 Å) [40]; the A site of for LaxSr1-
+xCoO3-d have a mixture of trivalent and divalent valence states by La
+and Sr of partial substitution. Thus, the Sr incorporation alternative
+to La induces oxygen deﬁciency in the perovskite oxide. This may
+enhance oxygen diffusion in the crystal structure, leading to large
+weight change for La0.3Sr0.7CoO3-d.
+The effect of Mn, Fe, and Co substitution at the B site in
+La0.5Sr0.5BO3 series was examined. Fig. 3(c) shows the thermogra-
+vimetric
+proﬁles
+of
+La0.5Sr0.5FeO3-d
+(LS55F),
+La0.5Sr0.5CoO3-
+d (LS55C), and La0.5Sr0.5MnO3-d (LS55M). The weight of LS55M
+decreased minimally during TR and also at the constant tempera-
+ture of 1100 C. The weight increase also was gradual when the
+temperature was decreased from 1100 to 500 C. The periodic
+behavior continued for 3 cycles, and the net weight change
+(0.06%) was very small. The weight of LS55F decreased linearly
+from 600 to 1100 C during TR and increased linearly from 1100 to
+500 C during AO. The net weight changes during the 1st, 2nd, and
+3rd cycles for LS55F were a ¼ 0.71, 0.70, and 0.69%, respec-
+tively. The weight change behavior of LS55C was almost the same as
+that of LS55F, but the onset temperature for a weight decrease
+during TR was lower. The net weight changes during the 1st, 2nd,
+and 3rd cycles for LS55C were 1.38, 1.30, and 1.31%, respec-
+tively. These results indicate that ionic species (Mn, Co, Fe) of B site
+strongly contribute to oxygen storage capacity in the mixed valence
+states of A site. The order of reactivity upon Mn, Fe, and Co sub-
+stitution at the B site of La0.5Sr0.5BO3 series was Co > Fe [ Mn for
+the
+endothermic
+and
+exothermic
+processes.
+The
+B
+site
+of
+La0.5Sr0.5BO3 series generally have B ¼ 3.5 þ of average valance. It is
+known that the Mn ions varied between trivalent and tetravalent of
+mixed valence state in La1-xSrxMnO3 [41]. According to a literature
+[40], the both valence states for Fe and Co ions are reported. The
+order of ionic radius for trivalent state is Fe3þ (0.645 Å) > Mn3þ
+(0.58 Å) > Co4þ (0.53 Å), while that for tetravalent state is Fe4þ
+(0.585 Å) > Mn4þ (0.53 Å) ¼ Co3þ (0.53 Å). In viewpoint of ionic
+radius of B site ions of perovskite, reasonable descriptions are not
+available in the presents study. Thus, further studies are required to
+explain the speciﬁc nature for La0.5Sr0.5CoO3.
+Fig. 3(d) shows the thermogravimetric proﬁles of La0.3S-
+r0.7Al0.3Mn0.7O3-d
+(LSAM3737),
+La0.4Sr0.6Al0.4Mn0.6O3-
+-0.18
+-0.16
+-0.14
+-0.12
+-0.1
+-0.08
+-0.06
+-0.04
+-0.02
+0
+0.02
+500
+600
+700
+800
+900
+1000
+1100
+Temperature /
+BS73C
+BS55C
+BS37C
+-0.18
+-0.16
+-0.14
+-0.12
+-0.1
+-0.08
+-0.06
+-0.04
+-0.02
+0
+0.02
+500
+600
+700
+800
+900
+1000
+1100
+Temperature /
+LS37C
+LS55C
+LS73C
+(b)
+(a)
+d /dt / min-1
+d /dt / min-1
+Fig. 5. Reaction rate for (a) LaxSr1-xCoO3-d (x ¼ 0.3, 0.5, 0.7) and (b) BaxSr1-xCoO3-d (x ¼ 0.3, 0.5, 0.7) during TR.
+-0.02
+0
+0.02
+0.04
+0.06
+0.08
+0.1
+0.12
+0.14
+0.16
+0.18
+500
+600
+700
+800
+900
+1000
+1100
+Temperature /
+BS73C
+BS55C
+BS37C
+-0.02
+0
+0.02
+0.04
+0.06
+0.08
+0.1
+0.12
+0.14
+0.16
+0.18
+500
+600
+700
+800
+900
+1000
+1100
+Temperature[
+]
+LS37C
+LS55C
+LS73C
+(a)
+(b)
+d /dt / min-1
+d /dt / min-1
+Fig. 6. Reaction rate for (a) LaxSr1-xCoO3-d (x ¼ 0.3, 0.5, 0.7) and (b) BaxSr1-xCoO3-d (x ¼ 0.3, 0.5, 0.7) during AO.
+N. Gokon et al. / Energy 171 (2019) 971e980
+976
+
+
+===== Page 7 =====
+
+d (LSAM4646), and La0.5Sr0.6Al0.5Mn0.5O3-d (LSAM5555). The results
+indicate the effect of Al substitution at different proportions into
+the B site of the LaxSr1-xAlxMn1-xO3-d series. The net weight changes
+for LaxSr1-xAlxMn1-xO3-d are quite small for both steps throughout
+the 3 cycles. The LaxSr1-xAlxMn1-xO3-d series exhibits little reactivity
+and slow kinetics. Fig. 3(e) contains the thermogravimetric proﬁles
+of
+La0.5Sr0.5Cr0.5Fe0.5O3-d
+(LSCrF5555),
+La0.5Sr0.5Al0.5Fe0.5O3-
+d (LSAF5555), and La0.5Sr0.5Al0.5Cr0.5O3-d (LSACr5555). The results
+show the effect of Al, Fe, and Cr co-substitution at the B site in
+La0.5Sr0.5B1B2O3 (B1, B2 ¼ Al, Fe, Cr). The net weight changes for the
+La0.5Sr0.5B1B2O3 series are less than 0.5% for both steps throughout
+3 cycles, which indicates the very small reactivity of these
+materials.
+3.3. Inﬂuence of A- and B -site partial substitution on oxygen
+storage capacity and reaction rate
+Fig. 4(a) shows the redox reactivity of AxSr1-xCoO3-d (A ¼ La, Ba;
+x ¼ 0.3, 0.5, 0.7) during the 1st-3rd cycles of TR and AO. The b values
+of oxygen storage capacity were calculated by eq. (4) from the
+weight change of each material for each step of the three cycles. The
+results illustrate the redox reactivity and repeatability upon La and
+Ba substitution and changes in composition at site A of AxSr1-xCoO3-
+d. The absolute magnitude of b decreases with increasing La content
+in the LaxSr1-xCoO3-d series (LS37C, LS55C, and LS73C). However,
+the opposite behavior is observed upon increasing the Ba content in
+BaxSr1-xCoO3-d series (BS37C, BS55C, and BS73C). The repeatability
+of both series is nearly the same as that reported above based on
+the observation that b for the TR step is only slightly smaller in
+cycles 2 and 3 than in cycle 1. The AxSr1-xCoO3-d results mean that a
+large Ba ion population at site A produces good redox reactivity and
+repeatability. As seen in Fig. 4(a), the redox reactivity of both steps
+for LS37C is comparable for to BS37C. The results are good agree-
+ment with the results for Fig. 3(a). However, the redox reactivity for
+LS73C is quite different from that for BS73C. The results indicate
+that Sr-substituted A2þB4þO3-d structure is higher OSC than Sr-
+substituted A3þB3þO3-d structure. For BaxSr1-xCoO3-d series, Ba2þ-
+Sr2þ substitution cannot enhance oxygen vacancy in the perovskite,
+but the difference of ionic radius between Sr2þ (1.44 Å) and Ba2þ
+(1.61 Å) may alleviate lattice distortion of perovskite and induce
+oxygen uptake/release.
+Fig. 4(b) shows b values for La0.5Sr0.5BO3-d (B ¼ Mn, Fe, Co) for
+the 1st-3rd cycles of TR and AO. The results describe the redox
+reactivity and repeatability produced by substitution of Mn, Fe, and
+Co at site B of La0.5Sr0.5BO3-d. The average values of b are 0.015,
+0.094, and 0.176 for LS55M, LS55F, and LS55C, respectively. Redox
+reactivity depends on the identity of the species at the B site. Cobalt
+substitution produces the greatest redox reactivity, which is 12
+times greater than that of Mn and 1.9 times greater than that of Fe.
+Repeatability is not inﬂuenced by the ion at site B. A tolerance
+factors for La0.5Sr0.5BO3-d series are in a range of 0.97e1.02, indi-
+cating that the perovskites are small lattice distortion and stable
+cubic crystal structure. In the case of LaxSr1-xCoO3-d series, oxygen
+vacancy increases with increasing Sr contents due to La3þ-Sr2þ
+substitution, leading to enhancement of OSC in the perovskite.
+Reaction rate of oxygen release was measured for the perov-
+skites during TR step of thermochemical cycles. Fig. 5 shows values
+of db/dt as a function of temperature during the 1st-3rd cycles of TR
+for (a) LS37C, LS55C, and LS73C and (b) BS73C, BS55C, and BS37C.
+The proﬁles of all three cycles overlap. As seen in Fig. 5(a), there are
+no major endothermic peaks in the proﬁles. This observation in-
+dicates that the kinetics of endothermic oxygen release are slow
+and independent of composition for LaxSr1-xCoO3-d (x ¼ 0.3, 0.5,
+0.7) and that the reaction proceeds at a nearly constant rate across a
+wide temperature range as seen in Fig. 3(b). On the other hand, as
+seen in Fig. 5(b), the proﬁles of BaxSr1-xCoO3-d (x ¼ 0.3, 0.5, 0.7)
+exhibit a sharp endothermic peak at 860e980 C during TR. The
+result means that a series of the perovskite can cyclically charge
+heat from air stream at speciﬁc temperatures. The response at
+1000 C for BS55C is the artifact of a programed temperature
+change in the thermogravimetry unit and does not represent an
+authentic endothermic reaction. The peak values of db/dt at
+860e980 C are 0.176 (BS73C), 0.130 (BS37C), and 0.081 min1
+(BS55C). The order of charging rate was not identical to that of
+reactivity as seen in Fig. 3 (b). The facts for both series indicate that
+a reaction rate for TR is not correlated with OSC, and chemical
+composition and temperature are dominant factors for charging/
+discharging rate in a thermochemical cycle. The oxygen release
+kinetics of BS73C is superior to those of the other examples, and its
+peak position is almost unchanged throughout the 1st-3rd cycles.
+Reaction rate of oxygen uptake was measured for the perov-
+skites during AO step of thermochemical cycles. Fig. 6 shows the
+variations in db/dt versus temperature during the 1st-3rd cycles of
+AO for (a) LS37C, LS55C, and LS73C and (b) BS73C, BS55C, and
+BS37C. The proﬁles of all cycles overlap. As seen in Fig. 6(a), there
+are no major peaks in the proﬁles as well as the 1st-3rd cycles of TR
+as seen in Fig. 5(a). This result indicates that the exothermic uptake
+of oxygen is kinetically slow and independent of chemical
+composition for LaxSr1-xCoO3-d (x ¼ 0.3, 0.5, 0.7). From the results of
+Figs. 5(a) and 6(a), the LaxSr1-xCoO3-d series provided slow thermal
+response over the wide temperature range for TR and AO in air
+stream, although an enough OSC based on weight change was
+observed in the thermogravimetric analysis. The heat-charging/
+discharging capacity for the series was validated using DSC anal-
+ysis in following section.
+Deﬁnitive peaks are observed in Fig. 6(b) for BaxSr1-xCoO3-
+d (x ¼ 0.3, 0.5, 0.7) with maximum values of db/dt ¼ 0.157 (BS73C),
+0.096 (BS55C), and 0.056 min1 (BS37C). The db/dt peak maxima
+increase with increasing Ba content at site A. Moreover, the peak
+position shifts to higher temperatures, and the peak shape
+sharpens as the Ba content increases. The results indicate that a
+tendency of heat-discharging kinetics for BaxSr1-xCoO3-d series is a
+different from heat-charging kinetics (Fig. 5(b)). It appears that the
+order of discharging rate was identical to that of redox reactivity as
+seen in Fig. 3 (b). The kinetics of oxygen uptake depend on the
+chemical composition at the A site with BS73C producing the
+greatest reaction rate over the smallest temperature range. Thus,
+BaxSr1-xCoO3-d series provided quick thermal response over the
+wide temperature range for TR and AO in air stream as well as redox
+reactivity based on weight change in the thermogravimetric anal-
+ysis. The heat-charging/discharging capacity for BaxSr1-xCoO3-d se-
+ries will be validated using DSC analysis in following section.
+3.4. Redox reaction repeatability and thermochemical capacity for
+BS37C and BS73C
+Fig. 7(a) shows thermogravimetric proﬁles of six consecutive
+cycles of BS37C and BS73C. The responses are repeatable and
+exhibit no deterioration. Fig. 7(b) shows overlapping traces of the
+percentage weight change versus temperature for six consecutive
+cycles of BS37C and BS73C. Both materials display excellent
+repeatability of oxygen release and uptake after the initial cycle.
+The area within the hysteresis loop was smaller for BS73C than that
+for BS37C. Therefore, BS73C have a great advantage of small heat
+loss through its charging/discharging cycle. The curves exhibit a
+hysteresis
+loop
+encompassing
+700e920 C
+for
+BS37C
+and
+600e950 C for BS73C. The results indicate that the charging
+temperature little impacts on the chemical composition and the
+discharging temperature shifts toward low temperature as the Sr
+contents in BaxSr1-xCoO3-d series increases. A considerable reason
+N. Gokon et al. / Energy 171 (2019) 971e980
+977
+
+
+===== Page 8 =====
+
+may relate to oxygen diffusion in a crystal structure. As described
+above, Ba2þ-Sr2þ substitution can cannot induce oxygen vacancy.
+However, there is a possibility that a lattice distortion relaxed due
+to tolerance factor approaching unity by Sr substitution. It may
+enhance oxygen release at high temperature of charging step, while
+facilitate oxygen uptake for BS37C at relative low temperature of
+discharging step. Further study is required in order to elucidate the
+mechanism.
+Fig. 8 shows differential scanning calorimetric proﬁles of (a)
+BS37C, (b) BS55C, (c) BS73C, and (d) LS37C materials. The DSC result
+0
+200
+400
+600
+800
+1000
+1200
+-2.5
+-2
+-1.5
+-1
+-0.5
+0
+0.5
+0
+100
+200
+300
+400
+500
+600
+Temperature/
+Weight change,
+/ %
+Time / min
+(a)
+Temperature /
+Weight change,
+/ %
+(b)
+-2.5
+-2
+-1.5
+-1
+-0.5
+0
+600
+650
+700
+750
+800
+850
+900
+950
+1000
+BS37C
+BS73C
+BS37C
+Temp
+BS73C
+Fig. 7. (a) Thermogravimetric curves of BS37C and BS73C during consecutive TR and AO cycling and (b) relationship between the change in weight and reaction temperature during
+consecutive TR and AO cycles.
+(a) BS37C
+(b) BS55C
+(d) LS37C
+(c) BS73C
+Fig. 8. Results of DSC measurements for (a) Ba0.3Sr0.7CoO3-d, (b) Ba0.5Sr0.5CoO3-d, (c) Ba0.7Sr0.3CoO3-d, and (d) La0.3Sr0.7CoO3-d.
+N. Gokon et al. / Energy 171 (2019) 971e980
+978
+
+
+===== Page 9 =====
+
+of LS37C is included as a reference for comparison with the BS
+materials. The response of LS37C contains no major peaks, whereas
+the BS materials exhibit sharp endothermic peaks during TR, sharp
+exothermic peaks during AO and relative broad large peak during
+temperature variation in their DSC curves. The BS materials also
+provide good repeatability. The reversible thermochemical capac-
+ities of BS37C, BS55C, and BS73C during cycles 1e3 are listed in
+Table 2. Also, the reversible thermochemical capacities of 10, 20 and
+30% Fe-doped Mn2O3 were cited from our literature [42] and listed
+as a reference. The data of Fe-doped manganese oxides was
+measured using same DSC device. The Fe-doped manganese oxides
+were tested in a temperature range of 590e1100 C with heating/
+cooling rate of 10 C/min in air at a ﬂow rate of 200 cm3/min. As
+seen in Table 2, the endothermic heat in the 1st cycle showed poor
+repeatability in comparison to exothermic heat. A considerable
+reason is greatly dependent on the initial state of the material.
+Thus, the average reaction enthalpies of the 2nd and 3rd cycles
+were used as basis of comparison. BS37C provides a greatest
+charging capacity among BaxSr1-xCoO3-d series, and BS37C and
+BS73C exhibits relatively large discharging capacity. However,
+BS55C shows smallest charging/discharging capacity. The tendency
+of heat-charging/discharging capacity is quite different with that of
+OSC (Fig. 4) and reaction rate (Figs. 5 and 6). The results indicate
+that thermochemical capacity should be evaluated by direct mea-
+surement of charging/discharging heat using DSC device. Thus,
+BS73C is one of suitable thermochemical storage materials in terms
+of OSC and charging/discharging kinetics, while BS37C is superior
+to BS73C with regard to reactivity and storage capacity. Their ma-
+terials can be chosen depending on charging/discharging temper-
+ature level. As seen in Table 2, the charging capacity for BS37C and
+BS73C is similar level to Fe-doped manganese oxides that are su-
+perior to Mn2O3/Mn3O4 in terms of repeatability and charging/
+discharging capacity [42]. Especially, the charging/discharging ca-
+pacity for BS37C is greater than Fe-doped manganese oxides.
+Therefore, BS37C and BS73C are one of promising thermochemical
+storage materials at high temperatures above 600 C.
+4. Conclusions
+Thermochemical energy storage of LaxSr1-x(Mn, Fe, Co)O3-d and
+BaySr1-yCoO3-d perovskite oxides was studied to develop a TES
+operating at temperatures above 600 C. The materials were cycli-
+cally tested under a stream of air without inert gas to evaluate the
+impact of partial substitution at their A and B sites on the reactivity,
+kinetics, and repeatability of oxygen uptake and release. XRD
+demonstrated that A- and B-site substitutions in LaxSr1-x(Mn, Fe,
+Co)O3-d series are accommodated within the perovskite oxide cubic
+crystal structure without phase transformation. A series of vaterite-
+type oxide BaySr1-yCoO3-d materials with a hexagonal crystal
+structure was also prepared and investigated.
+The reactivity and repeatability of LaxSr1-x (Mn, Fe, Co)O3-d, and
+BaySr1-yCoO3-d redox powders were examined in a thermogravi-
+metric reactor. The oxygen uptake/release kinetics of both series is
+evaluated using weight changing proﬁles. The charging/discharg-
+ing capacity is measured for redox reaction in air stream by using
+DSC device. BS37C provides a greatest charging capacity among
+BaxSr1-xCoO3-d series, and BS37C and BS73C exhibited relatively
+large discharging capacity. The tendency of heat capacity was not
+directly related with that of OSC and reaction rate. Thermochemical
+capacity should be evaluated by direct measurement of charging/
+discharging heat using DSC device. The charging capacity for BS37C
+and BS73C is similar level to Fe-doped manganese oxides that are
+superior to Mn2O3/Mn3O4 in terms of repeatability and charging/
+discharging capacity. Especially, the charging/discharging capacity
+for BS37C is greater than Fe-doped manganese oxides. BS73C is one
+of suitable thermochemical storage materials in terms of OSC and
+charging/discharging kinetics, while BS37C is superior to BS73C
+with regard to reactivity and storage capacity. Their materials can
+be chosen depending on charging/discharging temperature level
+above 600 C.
+Acknowledgements
+This research was partially supported by the Ministry of Edu-
+cation, Science, Sports, and Culture, Grant-in-Aid for Scientiﬁc
+Research (B), JSPS KAKENHI Grant Number JP16H04645; Grant-in-
+Aid for Scientiﬁc Research (C), JSPS KAKENHI Grant Number
+JP16K06969.
+References
+[1] Abedin AH, Rosen MA. Closed and open thermochemical energy storage:
+energy- and exergy-based comparisons. Energy 2012;41:83e92.
+[2] Prieto C, Cooper P, InesFernandez A, Cabeza LF. Review of technology: ther-
+mochemical energy storage for concentrated solar power plants. Renew
+Sustain Energy Rev 2016;60:909e29.
+[3] Agraﬁotis C, Roeb M, Schmücker M, Sattler C. Exploitation of thermochemical
+cycles based on solid oxide redox systems for thermochemical storage of solar
+heat. Part 1: testing of cobalt oxide-based powders. Sol Energy 2014;102:
+189e211.
+[4] Carrillo AJ, Moya J, Bayon A, Jana P, O'Shea VAP, Romero M, Gonzalez-Aguilar J,
+Serrano DP, Pizarro P, Coronado JM. Thermochemical energy storage at high
+temperature via redox cycles of Mn and Co oxides: pure oxides versus mixed
+ones. Sol Energy Mater Sol Cells 2014;123:47e57.
+[5] Bayon A, Bader R, Jafarian M, Fedunik-Hofman L, Sun Y, Hinkley J, Miller S,
+Lipinski W. Techno-economic assessment of solid-gas thermochemical energy
+storage systems for solar thermal power applications. Energy 2018;149:
+473e84.
+[6] Villafan-Vidales HI, Arancibia-Bulnes CA, Riveros-Rosas D, Romero-Paredes H,
+Estrada CA. An overview of the solar thermochemical processes for hydrogen
+and syngas production: reactors, and facilities. Renew Sustain Energy Rev
+Table 2
+Reaction enthalpy of BaySr1-yCoO3-d perovskite oxides.
+Reaction enthalpy DH [kJ/kg]
+Ba0.3Sr0.7CoO3-d
+Ba0.5Sr0.5CoO3-d
+Ba0.7Sr0.3CoO3-d
+Endothermic
+Exothermic
+Endothermic
+Exothermic
+Endothermic
+Exothermic
+1st Cycle
+190.8
+179.2
+61.8
+89.1
+139.1
+176.3
+2nd Cycle
+206.7
+174.5
+78.5
+78.4
+170.7
+168.8
+3rd Cycle
+209.4
+152.4
+72.2
+81.4
+167.7
+179.2
+Average (2nd, 3rd Cycle)
+208.1
+163.4
+75.4
+79.9
+169.2
+174.0
+Fe 10%-doped Mn2O3
+Fe 20%-doped Mn2O3
+Fe 30%-doped Mn2O3
+1st Cycle
+180.2
+133.1
+183.4
+165.3
+175.1
+158.9
+2nd Cycle
+173.6
+138.3
+178.6
+157.5
+176.8
+144.4
+3rd Cycle
+174.1
+137.8
+180.4
+155.5
+175.1
+124.4
+Average (2nd, 3rd Cycle)
+173.9
+138.1
+180.0
+156.5
+176.0
+134.4
+N. Gokon et al. / Energy 171 (2019) 971e980
+979
+
+
+===== Page 10 =====
+
+2017;75:894e908.
+[7] W€orner A, Binyami S, Giger F, Soupart JB, Gonzalez-Aguilar J, Steinfeld A,
+Trettin R. The TCS power project thermochemical energy storage for
+concentrated solar power plants. Marrakech, Morocco: SolarPACES; 2012.
+2012.
+[8] Ehrhart B, Coker E, Siegel N, Weimer A. Thermochemical cycle of a mixed
+metal oxide for augmentation of thermal energy storage in solid particles.
+Energy Procedia 2014;49:762e71.
+[9] Alonso E, Perez-Rabago C, Licurgo J, Fuentealba E, Estrada CA. First experi-
+mental studies of solar redox reactions of copper oxides for thermochemical
+energy storage. Sol Energy 2015;115:297e305.
+[10] Wong B. Thermochemical heat storage for concentrated solar power. San
+Diego, CA, USA: Final Report for the US Department of Energy; 2011.
+[11] Schrader AJ, Muroyama AP, Loutzenhiser PG. Solar electricity via an Air
+Brayton cycle with an integrated two-step thermochemical cycle for heat
+storage based on Co3O4/CoO redox reactions: thermodynamic analysis. Sol
+Energy 2015;118:485e95.
+[12] Neises M, Tescari S, de Oliveira L, Roeb M, Sattler C, Wong B. Solar-heated
+rotary kiln for thermochemical energy storage. Sol Energy 2012;86:3040e8.
+[13] Tescari S, Agraﬁotis C, Breuer S, de Oliveira L, Neises-von Puttkamer M,
+Roeb M, Sattler C. Thermochemical solar energy storage via redox oxides:
+materials and reactor/heat exchanger concepts. Energy Procedia 2014;49:
+1034e43.
+[14] Pagkoura C, Karagiannakis G, Zygogianni A, Lorentzou S, Kostoglou M,
+Konstandopoulos AG, Rattenburry M, Woodhead JW. Cobalt oxide based
+structured bodies as redox thermochemical heat storage medium for future
+CSP plants. Sol Energy 2014;108:146e63.
+[15] Agraﬁotis C, Roeb M, Schmücker M, Sattler C. Exploitation of thermochemical
+cycles based on solid oxide redox systems for thermochemical storage of solar
+heat. Part 2: redox oxide-coated porous ceramic structures as integrated
+thermochemical reactors/heat exchangers. Sol Energy 2015;114:440e58.
+[16] Gokon N, Yokota S, Cho HS, Hatamachi T, Kodama T. Redox and ﬂuidization
+performances of Co3O4/CoO for solar thermochemical energy storage. Inter-
+national Solar Energy Society/Solar World Congress. 2015. Daegu, Korea, 08 e
+12 November 2015.
+[17] Carrillo AJ, Serrano DP, Pizarro P, Coronado JM. Thermochemical heat storage
+based on the Mn2O3/Mn3O4 redox couple: inﬂuence of the initial particle size
+on the morphological evolution and cyclability. J Mater Chem 2014;2:
+19435e43.
+[18] Carrillo AJ, Serrano DP, Pizarro P, Coronado JM. Improving the thermochem-
+ical energy storage performance of the Mn2O3/Mn3O4 redox couple by the
+incorporation of iron. ChemSusChem 2015;8:1947e54.
+[19] Gokon N, Mataga T, Kondo N, Kodama T. Thermochemical two-step water
+splitting by internally circulating ﬂuidized bed of NiFe2O4 particles: successive
+reaction of thermal-reduction and water-decomposition steps. Int J Hydrogen
+Energy 2011;36(8):4757e67.
+[20] Gokon N, Izawa T, Kodama T. Steam gasiﬁcation of coal cokes by internally
+circulating ﬂuidized-bed reactor by concentrated Xe-light irradiation for solar
+syngas production. Energy 2015;79:264e72.
+[21] Gokon N, Izawa T, Takehiko T, Kodama T. Steam gasiﬁcation of coal cokes in an
+internally circulating ﬂuidized bed of thermal storage material for solar
+thermochemical processes. Int J Hydrogen Energy 2014;39(21):11082e93.
+[22] Segal A, Epstein M. The optics of the solar tower reﬂector. Sol Energy 2001;69:
+229e41.
+[23] Tamaura Y, Utamura M, Kaneko H, Hasuike H, Doming M, Rellso S. A novel
+beam-down system for solar power generation with multi-ring central re-
+ﬂectors and molten salt thermal storage. In: Proceedings of 13th international
+symposium on concentrated solar power and chemical energy technologies;
+2006. Seville Spain, 2006.
+[24] Kodama T, Gokon N, Matsubara K, Yoshida K, Koikari S, Nagase Y, Nakamura K.
+Flux measurement of a new beam-down solar concentrating system in
+Miyazaki for demonstration of thermochemical water splitting reactors. In:
+Proceedings of SolarPACES 2013, September 17e20, 2013, Las Vegas, Nevada;
+2013.
+[25] Andre L, Abanades S, Flamant G. Screening of thermochemical systems based
+on solid-gas reversible reactions for high temperature solar thermal energy
+storage. Renew Sustain Energy Rev 2016;64:703e15.
+[26] Babiniec SM, Coker EN, Miller JE, Ambrosini A. Investigation of LaxSr1-xCoyM1-
+yO3-d (M ¼ Mn, Fe) perovskite materials as thermochemical energy storage
+media. Sol Energy 2015;118:451e9.
+[27] Ashok A, Kumar A, Bhosale RR, Almomani F, Malik SS, Suslov S, Tarlochan F.
+Combustion synthesis of bifunctional LaMO3 (M ¼Cr, Mn, Fe, Co, Ni) perov-
+skites for oxygen reduction and oxygen evolution reaction in alkaline media.
+J Electroanal Chem 2018;809:22e30.
+[28] Agraﬁotis C, Roeb M, Sattler C. Exploitation of thermochemical cycles based on
+solid oxide redox systems for thermochemical storage of solar heat. Part 4:
+screening of oxides for use in cascaded thermochemical storage concepts. Sol
+Energy 2016;139:695e710.
+[29] Imponenti L, Albrecht KJ, Wands JW, Sanders MD, Jackson GS. Thermo-
+chemical
+energy
+storage
+in
+strontium-doped
+calcium
+manganites
+for
+concentrating solar power applications. Sol Energy 2017;151:1e13.
+[30] Galinsky N, Mishra A, Zhang J, Li F. Ca1-xAxMnO3 (A ¼ Sr and Ba) perovskite
+based oxygen carriers for chemical looping with oxygen uncoupling (CLOU).
+Appl Energy 2015;157:358e67.
+[31] Albrecht KJ, Jackson GS, Braun RJ. Thermodynamically consistent modeling of
+redox-stable perovskite oxides for thermochemical energy conversion and
+storage. Appl Energy 2016;165:285e96.
+[32] Masunaga T, Izumi J, Miura N. Relationship between Oxygen sorption prop-
+erties and crystal structure of Fe-based oxides with double perovskite
+composition. Chem Eng Sci 2012;84:108e12.
+[33] Vieten J, Bulﬁn B, Call F, Lange M, Schmucker M, Francke A, Roeb M, Sattler C.
+Perovskite oxides for application in thermochemical air separation and oxy-
+gen storage. J Mater Chem 2016;4:13652e9.
+[34] Zhang Z, Andre L, Abanades S. Experimental assessment of oxygen exchange
+capacity and thermochemical redox cycle behavior of Ba and Sr series pe-
+rovskites for solar energy storage. Sol Energy 2016;134:494e502.
+[35] Carrillo RJ, Scheffe JR. Advances and trends in redox materials for solar
+thermochemical fuel production. Sol Energy 2017;156:3e20.
+[36] Orﬁla M, Linares M, Molina R, Botas JA, Sanz R, Marugan J. Perovskite mate-
+rials for hydrogen production by thermochemical water splitting. Int J
+Hydrogen Energy 2016;41:19329e38.
+[37] McDaniel AH, Miller EC, Ariﬁn D, Ambrosini A, Coker EC, O'Hayre R,
+Chueh WC, Tong J. Sr- and Mn-doped LaAlO3d for solar thermochemical H2
+and CO production. Energy Environ Sci 2013;6:2424e8.
+[38] Pechini M. P. US Patent 3,3306,97. 1967.
+[39] Inorganic crystal structure database (ICSD) version 2016.
+[40] Shannon RD. Revised effective ionic radii ans systematic studies of inter-
+atomic distances in halides and chalcogenide. Acta Crystallogr 1976;32:
+751e67. A.
+[41] Rao CNR, Dey S. Solar thermochemical splitting of water to generate
+hydrogen. Proc Natl Acad Sci Unit States Am 2017:1e9.
+[42] Gokon N, Nishizawa A, Yawata T, Bellan S, Kodama T, Cho HS. Fe-doped
+manganese oxide redox material for thermochemical energy storage at high-
+temperatures. In: SolarPACES; 2018. Casabranca, Morocco, October 2-5, 2018.
+N. Gokon et al. / Energy 171 (2019) 971e980
+980

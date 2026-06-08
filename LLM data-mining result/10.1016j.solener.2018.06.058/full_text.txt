@@ -1,0 +1,933 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Solar Energy
+journal homepage: www.elsevier.com/locate/solener
+Partial substitution of B cation in La0.6Sr0.4MnO3 perovskites: A promising
+strategy to improve the redox properties useful for solar thermochemical
+water and carbon dioxide splitting
+G. Luciania, G. Landib,⁎, A. Aronnea, A. Di Benedettoa
+a Dipartimento di Ingegneria Chimica, dei Materiali e della Produzione Industriale, University of Naples Federico II Naples, 80125, Italy
+b Institute for Researches on Combustion-CNR, Naples 80125, Italy
+A R T I C L E I N F O
+Keywords:
+Solar thermochemical splitting
+Perovskite
+Hydrogen
+High temperature
+A B S T R A C T
+Mixed perovskites, described by the formula La0.6Sr0.4Mn1−xFexO3−δ with x ranging from 0 to 1, were prepared
+and tested as potential catalysts for the solar thermochemical water and carbon dioxide splitting. The increase of
+iron amount promotes the reduction step according to the trend of the starting reduction temperatures; on the
+other hand, the reactivity towards H2O and CO2 seems to be fostered by high Mn contents. The highest amounts
+of oxygen evolved during thermogravimetric analysis and hydrogen produced during splitting tests occur to the
+sample with x = 1 even if a non-monotonic trend with iron substitution is appreciated. Instead, CO amount
+progressively decreases by increasing iron content. The results reported in this work indicate that the for-
+mulation of bi-functional systems with two active sites, one showing good self-reduction the other good re-
+activity towards splitting reactions, is the best route to prepare materials with larger intrinsic H2 and CO pro-
+ductivity as well as lower reduction/oxidation temperature.
+1. Introduction
+Thermochemical cycles have received a renewed interest for H2
+production through water splitting since more eﬃcient solar radiation
+concentration systems have been developed (Rao and Dey, 2015).
+Thermochemical water splitting cycles can be divided into low (LT) and
+high (HT) temperature cycles (Rao and Dey, 2015). The main diﬀerence
+is related to the number of steps required to complete the cycle, two for
+the HT cycles, more than two for the LT cycles. Despite their high op-
+erating temperatures, two-step cycles appear more promising due to
+their higher theoretical eﬃciency and lower complexity (Rao and Dey,
+2015).
+As shown in some interesting reviews on this topic (Agraﬁotis et al.,
+2015; Miller et al., 2014; Muhich et al., 2016; Rao and Dey, 2015;
+Stechel and Miller, 2013), the development of a solar thermochemical
+H2O and CO2 splitting process is a multidisciplinary issue involving
+connecting expertise on solar receivers, chemical reactors, heat ex-
+change/recovery and redox materials.
+An ideal material for solar thermochemical splitting cycles should
+exhibit high oxygen release at temperature as low as possible, fast H2
+and/or CO production in H2O/CO2 streams and structure stability (al-
+lowing re-utilization for several cycles).
+Several materials were proposed, including volatile (ZnO, SnO2,
+In2O3) and non-volatile oxides, the latter classiﬁed into stoichiometric
+(iron oxide, ferrite, hercynite) and non-stoichiometric (undoped and
+doped ceria, perovskite) oxides (Agraﬁotis et al., 2015; Ambrosini et al.,
+2010; Fu et al., 2016; Gao et al., 2018, 2016; Scheﬀe and Steinfeld,
+2014; Zhang et al., 2009). According to Scheﬀe and Steinfeld (2014),
+volatile and melting oxides are not suitable materials for thermo-
+chemical splitting cycles due to technical drawbacks related to the se-
+paration from the gas phase (volatile oxides) or the need of crushing
+and sieving (melting oxides). On the contrary, although non-stoichio-
+metric oxides can desorb lower O2 amounts, in principle they should
+show an improved structure stability and keep the same (solid) phase
+during the whole cycle; as a result, they are suitable materials for
+practical applications.
+Several results showed that it is diﬃcult to get a material exhibiting
+both good self-reducibility at low temperature and good activity to-
+wards splitting reactions due to thermodynamic and/or kinetic limita-
+tions (Miller et al., 2014; Yang et al., 2014). Trovarelli and co-workers
+(Pappacena et al., 2017, 2016) demonstrated that compositional het-
+erogeneity at the nanoscale level is beneﬁcial for the splitting process.
+Due to their signiﬁcant redox properties, structure stability and
+wide range of formulations, perovskites (ABO3 as general formula) were
+https://doi.org/10.1016/j.solener.2018.06.058
+Received 3 October 2017; Received in revised form 14 June 2018; Accepted 15 June 2018
+⁎ Corresponding author.
+E-mail address: landi@irc.cnr.it (G. Landi).
+Solar Energy 171 (2018) 1–7
+0038-092X/ © 2018 Elsevier Ltd. All rights reserved.
+T
+
+
+===== Page 2 =====
+
+claimed as catalysts for several reactions, such as partial and complete
+oxidation of fuels (Barbato et al., 2015; Landi et al., 2010; Royer et al.,
+2014; Saracco et al., 1999), NOx abatement (Royer et al., 2014), soot
+combustion (Royer et al., 2014), CO preferential oxidation (Gosavi and
+Biniwale, 2012; Maluf and Assaf, 2011), VOC abatement (Royer et al.,
+2014), “bioreﬁnery” reactions (Bernardi et al., 2014; Royer et al.,
+2014). Moreover, perovskites were recently proposed as splitting ma-
+terials (Evdou et al., 2010; Nalbandian et al., 2009) due to their large
+reduction degree related to non-stoichiometry (Scheﬀe et al., 2013).
+Actually, the perovskite structure can host several elements among al-
+kaline, alkaline earth and rare earth metals as A cation and among
+several metals from the 3d, 4d, or 5d conﬁguration as B cation (Royer
+et al., 2014); a huge number of compositions can be thus obtained.
+LaMnO3 has received a great interest as splitting material, showing
+good redox properties during reduction/oxidation cycles as well as fa-
+vourable thermodynamics (Scheﬀe et al., 2013). In order to improve the
+redox behaviour under the typical splitting conditions, the substitution
+on the A site was explored (Cooper et al., 2015; Dey et al., 2015a,
+2015b; Yang et al., 2014). Results showed that La substitution with
+either Sr or Ca increased oxygen production and lowered the reduction
+temperature; however, the oxidation kinetics can be negatively af-
+fected.
+A positive eﬀect on splitting properties of partial substitution of the
+B cation with Al in the LaxSr1−xMnO3 structure was reported (Cooper
+et al., 2015; McDaniel et al., 2013a, 2013b). Because Al does not exhibit
+any redox properties, the improved splitting activity was related to the
+crystal structure modiﬁcations. Demont et al. (2015) showed that the
+partial substitution of Mn with Mg in LaxSr1−xMnO3 system enhances
+CO production through CO2 splitting. This behaviour was related to the
+improved thermal stability and resistance to sintering. On the contrary,
+Jiang et al. (2014) studied the eﬀect of B site substitution with Mn or Co
+in LaFeO3 perovskites on CO2 splitting. They found no signiﬁcant CO
+production on unsupported materials, while good activity was detected
+on SiO2 supported perovskites, such as LaFe0.7Co0.3O3.
+The eﬀect of the partial substitution of the B cation with reducible
+species was studied for energy storage applications (Babiniec et al.,
+2016, 2015). Results showed that improved reducibility can be ob-
+tained starting from a Mn-based perovskite by partial substitution with
+either Fe or Co (Babiniec et al., 2015) and with either Al or Ti (Babiniec
+et al., 2016).
+In the case of splitting reaction, few works were developed to study
+the eﬀect of the partial substitution of B cation with reducible elements.
+Bork et al. (2015) showed that La0.6Sr0.4Cr1−xCoxO3 shows interesting
+splitting performance while the systems Ba/Sr or La/Sr perovskites with
+Co/Fe as B cations (Demont et al., 2014) showed lower activity than
+La0.5Sr0.5MnO3. Recently, Nair and Abanades (2018) showed that the
+partial substitution of A and/or B cation improves the catalyst perfor-
+mances (Nair and Abanades, 2018).
+According to the evidence of the literature, the emerging material
+has to be formulated by an intimate mixing of diﬀerent active species at
+the atomic scale, one able to produce molecular oxygen by self-reduc-
+tion and the other active towards water/carbon dioxide splitting.
+Following this approach, in this work, a novel strategy for the pre-
+paration of materials active in the solar thermochemical splitting is
+proposed. In particular, the partial substitution of manganese with iron
+in La0.6Sr0.4MnO3 perovskite proved to be highly eﬀective and pro-
+mising as a tool to manage and tune the redox features toward CO2/
+H2O splitting reactions.
+2. Materials and methods
+2.1. Materials preparation
+Perovskites with La/Sr = 1.5 and variable Mn/Fe molar ratios were
+prepared according to the following procedure. Aqueous solutions were
+prepared by mixing stoichiometric amounts of manganese (II) nitrate
+tetrahydrate, strontium nitrate, lanthanum nitrate hydrate and iron (III)
+nitrate nonahydrate (Sigma Aldrich) in 75 ml bi-distilled water and
+stirred for 3 h. Then these solutions were heated in a MW oven (CEM
+SAM-155) up to the formation of a homogeneous gel. Gel formation was
+usually obtained by heating at 90 °C under continuous stirring (Cooper
+et al., 2015); in this work the use of MW heating allowed to get full
+geliﬁcation in few minutes (10–15 min). Then the obtained gel was
+further calcined at 1400 °C for 4 h in a MAB high temperature furnace
+(heating rate: 20 °C/min). The nominal composition of the prepared
+samples can be described by the general formula La0.6Sr0.4Mn1−xFexO3
+(0 ≤x ≤1). The La/Sr ratio was chosen as the best value for manganite
+perovskites in water splitting cycles from both experimental and theo-
+retical data (Bork et al., 2017). In Table 1 the general formulas and
+labels for the prepared materials are reported.
+2.2. Materials characterization
+The actual composition was determined by means of ICP-MS ana-
+lysis using an Agilent 7500CE instrument. Results showed diﬀerences
+with the nominal content within the experimental error ( ± 5%).
+X-ray diﬀraction spectra were collected with a XRD diﬀractometer
+PANalytical X'Pert Pro. The measurements were carried out with a step
+size of 0.02° and a counting time of 80 s per step.
+Fourier transform infrared (FTIR) transmittance spectra were re-
+corded in 400–4000 cm−1 using a Nicolet 5700 FT-IR spectrometer.
+2.3. TG analysis
+TG analysis was performed in a TGA/DSC TA Instrument Q600SDT,
+sketched in Fig. 1. 30 mg sample were placed in an alumina crucible.
+Each sample was pre-treated in air at 1200 °C (heating rate: 20 °C/min)
+in order to remove the chemisorbed CO2 (Di Benedetto et al., 2013) and
+then cooled down to room temperature. After a 1 h purging under a
+nitrogen ﬂow, the sample was heated up to 1350 °C (heating rate:
+20 °C/min) under a nitrogen ﬂow (0.1 l(STP)/min) and kept for 20 min
+at 1350 °C. Then it was cooled down to 1000 °C and the atmosphere was
+switched to CO2, followed by an isothermal step at 1000 °C for 50 min
+(oxidation step).
+2.4. H2O splitting tests
+The lab-scale set-up used for H2O splitting experiments is sketched
+in Fig. 2 and can be ideally divided into three sections: (i) gas feed
+preparation and control, (ii) reaction zone and (iii) gas analysis. N2 at
+high purity from gas cylinders and high purity H2 from H2 generator
+Table 1
+Prepared materials and their corresponding labels.
+Sample
+Label
+La0.6Sr0.4MnO3
+LSM
+La0.6Sr0.4Mn0.8Fe0.2O3
+LSMF-0.2
+La0.6Sr0.4Mn0.6Fe0.4O3
+LSMF-0.4
+La0.6Sr0.4Mn0.4Fe0.6O3
+LSMF-0.6
+La0.6Sr0.4FeO3
+LSF
+Reference 
+Gas Inlet 
+Gas Outlet 
+Sample 
+Balance/Thermocouple 
+beams
+Fig. 1. Sketch of a dual beam TGA-DSC instrument, showing the sample and
+reference beams in the furnace.
+G. Luciani et al.
+Solar Energy 171 (2018) 1–7
+2
+
+
+===== Page 3 =====
+
+(GENius TH-500; detail (a) in Fig. 2) were independently controlled
+through mass ﬂow controllers (Brooks 5850S; detail (b) in Fig. 2).
+Water ﬂow rate was controlled by a pump (Dionex P680 HPLC Pump;
+detail (c) in Fig. 2) and vaporised by heating at 120 °C; the so-produced
+steam was mixed to nitrogen just upstream of the reactor inlet. A
+pressure transducer (detail (d) in Fig. 2), placed just upstream the re-
+actor inlet, provides the on-line monitoring of the pressure. The reactor
+can be by-passed using a four-way valve (detail (f) in Fig. 2), thus al-
+lowing the analysis of both feed and reactor oﬀproducts by the same
+analysis system.
+The powder sample (500 mg) with a particle size in the range
+170–300 µm was placed in a tubular quartz reactor (detail (g) in Fig. 2).
+A thermocouple placed inside a co-axial tube with the reactor provided
+the measurement of the catalyst temperature. The temperature was
+controlled by inserting the reactor into an electric tubular furnace
+(Lenton; detail (h) in Fig. 2) provided with a PID-type controller. A
+CaCl2 trap (detail (m) in Fig. 2) was used to dry the gaseous ﬂow
+downstream to the reactor, which was analysed with a Fisher-Rose-
+mount NGA2000 continuous analyser monitoring the main gas species
+(O2 by a paramagnetic detector and H2 by a thermo-conductivity de-
+tector) and equipped with a cross sensitivity correction.
+Due to the limitation to the maximum temperature achievable by
+the tubular furnace (≈1100 °C), samples were pre-treated in a hy-
+drogen ﬂow (10 l(SLT)/h; 5 vol% H2/N2) at about 1000 °C (Al-Shankiti
+et al., 2013; Pappacena et al., 2017, 2016), and cooled down to 60 °C
+under a nitrogen ﬂow. A 3 vol% H2O/N2 ﬂow (10 l(SLT)/h) was then
+sent to the reduced samples and the temperature raised up to about
+1000 °C (heating rate: 10 °C/min; time at the maximum temperature:
+20 min). We chose to use diluted water mixture as Petkovich et al.
+(2011), in order to avoid fast reaction and hot-spots formation, espe-
+cially over the H2-reduced samples; this allowed correctly correlating
+the H2 production to the measured temperature.
+3. Results
+3.1. Characterization of the materials (XRD, FTIR, SEM)
+Fig. 3a shows XRD proﬁles of the studied perovskites. In LSM
+sample a single phase with a tetragonal structure (JCPDS 01-089-0786)
+was detected.
+The coexistence of both tetragonal and orthorhombic structures
+(JCPDS 01-089-0786 and JCPDS 01-088-0061) was revealed for LSMF-
+0.2, whereas single rhombohedral perovskite phase was ascertained for
+the LSMF-0.4 and LSMF-0.6 compositions ((JCPDS 00-051-0118).
+In pure LSF sample both rhombohedral (JCPDS 01-082-1963) and
+tetragonal (JCPDS 01-071-1745) perovskite structures were identiﬁed;
+furthermore, other peaks appear revealing formation of SrLaFeO4 phase
+(JCPDS 29-1305).
+In the range 2θ = 32–34° (Fig. 3b) the peaks appear shifted towards
+lower angles with increasing the Fe-content. This eﬀect is related to an
+increase of the volume of the unit cell due to the partial substitution of
+Mn4+ by Fe3+ which exhibits larger ionic ratio (0.640 and 0.645 Å,
+respectively).
+The average crystalline size, evaluated by Sherrer formula, was
+about 15 nm in the LSM, LSMF-0.2, LSMF-0.4 and LSMF-0.6, whereas it
+was lower in the LSF sample (about 5 nm).
+Fig. 4 shows FTIR spectra of LSM, LSMF-0.6 and LSF samples. The
+band at 3420 cm−1 is typical of OeH stretching vibration mode of
+physically absorbed water (Silvestri et al., 2012). In addition, the broad
+band at 600 cm−1 (highlighted in the red box of Fig. 4) can be assigned
+to the stretching of MeeO (Me = Fe, Mn) bonds in perovskite structure
+(Bernard et al., 2004). This band shifts to higher wavenumbers in
+LSMF-0.6 sample, since the strength of FeeO bonds (407 ± 1 kJ/mol)
+is larger than that of MneO bonds (362 ± 25 kJ/mol) (Luo, 2007).
+Furthermore, this band splits into two peaks in LSF sample; in particular
+the band at 630 cm−1 is usually assigned to stretching vibrations of Fe-
+O bonds in FeO4 tetrahedra (Andronache and Racolta, 2014), thus
+N2
+H2
+H2O
+P
+Exhaust
+Analyser
+(a)
+(b)
+(c)
+(d)
+(e)
+(f)
+(g)
+(h)
+(i)
+(l)
+(l)
+(m)
+(n)
+(j)
+(k)
+Fig. 2. Sketch of the experimental rig used for H2O splitting tests. (a) Hydrogen
+generator; (b) mass ﬂow controllers; (c) HPLC pump; (d) pressure transducer;
+(e) electro-valve (safety issue); (f) four-way valve; (g) quartz reactor; (h) tub-
+ular furnace; (i) condenser; (j) ball valve; (k) bubble ﬂowmeter; (l) three-way
+valves; (m) CaCl2 trap; (n) ﬂowmeter. Red lines indicate heated pipes. (For
+interpretation of the references to colour in this ﬁgure legend, the reader is
+referred to the web version of this article.)
+2
+20
+30
+40
+50
+60
+70
+80
+Intensity, a.u.
+LSM
+LSMF-0.2
+LSMF-0.4
+LSMF-0.6
+LSF
+2
+32
+34
+a)
+b)
+Fig. 3. (a) XRD proﬁles of LSMF perovskites: (▾) tetragonal (JCPDS 01-089-
+0786); (△) orthorhombic (JCPDS 01-088-0061); (♢) rhombohedral (JCPDS 00-
+051-0118); (∇) tetragonal (JCPDS 01-071-1745); (♦) rhombohedral (JCPDS 01-
+082-1963); (○) SrLaFeO4 tetragonal phase (JCPDS 29-1305). (b) Highlight of
+31–35° section.
+Wavenumbers, cm-1
+1000
+2000
+3000
+4000
+Trasmittance, a.u.
+LSM
+LSMF-0.6
+LSF
+400
+600
+800
+Fig. 4. FTIR spectra of LSMF-x samples recorded at room temperature.
+G. Luciani et al.
+Solar Energy 171 (2018) 1–7
+3
+
+
+===== Page 4 =====
+
+conﬁrming the presence of SrLaFeO4 in LSF sample, in agreement with
+XRD results.
+In summary, all the materials show a well-deﬁned perovskite
+structure. Furthermore, the structural properties move from those cor-
+responding to LSM towards those corresponding to LSF by increasing
+the Fe substitution degree.
+3.2. TG analysis
+TG measurements in N2 atmosphere were performed to assess O2
+evolution at temperatures lower than 1400 °C. Fig. 5 shows the weight
+loss proﬁles (Fig. 5a) and the corresponding derivatives (Fig. 5b) of the
+samples pre-treated in air. TG curve of LSM shows a decrease starting at
+about 800 °C, in agreement with the literature results (Demont et al.,
+2014). On the other hand, from the TG proﬁles it can be drawn that LSF
+is the most reducible catalyst, showing both the lowest reduction
+temperature (signiﬁcant O2 evolution starting at about 400 °C) and the
+highest O2 production, in agreement with Demont et al. (2014). As
+displayed in Fig. 5a, mixed perovskites show a qualitative behaviour
+like LSM rather than to LSF. For the samples with x = 0.4 and 0.6 the
+main reduction starts at quite higher temperatures than that detected
+for LSM. However, as displayed in Fig. 5b, LSMF samples show at low
+temperature a small reduction phenomenon, more evident by in-
+creasing the iron content.
+As reported in Table 2 the overall O2 released amount is comparable
+with those reported in the literature (Demont et al., 2015, 2014; Dey
+et al., 2015b; Jiang et al., 2014; McDaniel et al., 2013a, 2013b), thus
+suggesting that our materials are comparable with perovskites prepared
+by other research groups. The largest oxygen production was obtained
+on LSF, while for the mixed perovskites a lower oxygen production was
+observed. According to literature results, the reduction path and the
+catalytic activity of Mn-based perovskites are related to the abundance
+of Mn4+ species, also causing an oxygen non-stoichiometry (Ciambelli
+et al., 2000; Irusta et al., 1998; Oliva et al., 2012; Ponce et al., 2000;
+Rossetti et al., 2009; Royer et al., 2014). In the LSMF materials with low
+iron content (x ranging from 0.2 to 0.4) the reduced amount of released
+oxygen could be ascribed to the preferential substitution of Fe3+ ions to
+Mn4+ species, thus decreasing the overall reduction behaviour.
+As reported in the Section 2.3, reduced samples were exposed to
+CO2 after cooling down to 1000 °C. The subsequent weight increases
+were addressed to the materials re-oxidation and simultaneous CO
+production. As shown in Fig. 5, all samples show partial re-oxidations,
+that are however associated to signiﬁcant CO production for LSM,
+LSMF-0.2, LSMF-0.4. In Table 2 the corresponding CO amount are re-
+ported; CO production shows a progressive decrease as Fe3+ ions are
+substituted to Mn3+/Mn4+ species in the B sites of the ABO3 perovskite
+structure. Accordingly, in CO2 atmosphere mixed perovskites show re-
+oxidation properties intermediate between those of the LSF and LSM
+samples. The re-oxidation degree (Table 2) decreases from 67% for LSM
+down to 29% for LSF, in agreement with the higher activity of man-
+ganese based perovskites towards the oxidation step (Demont et al.,
+2014).
+3.3. H2O splitting tests
+As reported in the Section 2.4, H2O splitting tests were performed
+on samples pre-treated under 5 vol% H2 stream. The inﬂuence of the
+pre-treatment on the materials structure was studied by XRD and shown
+in Fig. 6 for LSM and LSF.
+The crystalline structure of both samples is aﬀected by the treat-
+ment under H2 stream. In particular, the SrLaFeO4 tetragonal phase of
+LSF disappears, while the perovskite tetragonal phase (JCPDS 01-071-
+1745) becomes dominant. The modiﬁcation of the LSM sample is more
+complex; peaks of both tetragonal (JCPDS 96-153-2612) and hexagonal
+(JCPDS 96-153-3257) phase appear. These results are in agreement
+with Liu et al. (2018), proving that reduction in hydrogen atmosphere
+leads to a phase transition in perovskite structure. However, it is worth
+Time, min
+0
+20
+40
+60
+80
+240
+270
+Weight, %
+98.4
+98.8
+99.2
+99.6
+100.0
+Temperature, °C
+0
+200
+400
+600
+800
+1000
+1200
+1400
+LSF
+LSMF-0.6 
+LSMF-0.4 
+LSMF-0.2 
+LSM 
+Temperature, °C
+200
+400
+600
+800
+1000
+1200
+dw/dT, %/K
+-2.5e-3
+-2.0e-3
+-1.5e-3
+-1.0e-3
+-5.0e-4
+0.0
+a)
+b)
+N2
+CO2
+Fig. 5. (a) Weight losses of LSMF-x samples as a function of the time during
+TGA in N2 (heating ramp: 20 °C/min up to 1350 °C) and subsequent weight
+increases under pure CO2 after cooling down to 1000 °C; (b) weight loss deri-
+vatives of LSMF-x samples as a function of the temperature during TGA in N2.
+Table 2
+Overall molecular oxygen evolution during self-reduction in TGA under N2,
+overall molecular CO evolution during re-oxidation in TGA under CO2 and re-
+oxidation degree of LSMF-x samples.
+Sample
+O2 production
+(µmol/g)
+CO production
+(µmol/g)
+Re-oxidation degree
+(%)
+LSM
+348.8
+469.1
+67.2
+LSMF-0.2
+286.0
+329.9
+57.7
+LSMF-0.4
+280.0
+317.5
+56.7
+LSMF-0.6
+333.2
+277.2
+41.6
+LSF
+427.3
+250.6
+29.3
+20
+30
+40
+50
+60
+70
+80
+Intensity, a.u.
+LSM
+LSF
+LSM-H2
+LSF-H2
+2θ
+Fig. 6. XRD proﬁles of as-prepared and H2-reduced samples. (▾) tetragonal
+(JCPDS 01-089-0786); (□) tetragonal (JCPDS 96-153-2612); (☆) hexagonal
+(JCPDS 96-153-3257); (∇) tetragonal (JCPDS 01-071-1745); (♦) rhombohedral
+(JCPDS 01-082-1963); (○) SrLaFeO4 tetragonal phase (JCPDS 29-1305).
+G. Luciani et al.
+Solar Energy 171 (2018) 1–7
+4
+
+
+===== Page 5 =====
+
+noting that no reduced phase is detected despite the H2 pre-treatment.
+Moreover, the main changes are related to the conversion of a per-
+ovskite structure into another perovskite structure.
+Fig. 7 shows the H2 proﬁles obtained during the ﬁrst (Fig. 7a) and
+the second (Fig. 7b) splitting cycles on LSMF-x pre-reduced samples.
+LSM shows two well-deﬁned peaks at 500 °C and 900 °C, while oxida-
+tion of LSF occurs in the range 600–800 °C (maximum is detected at
+about 750 °C with a shoulder at lower temperature). The LSMF-0.2
+sample shows three H2 peaks at about 500, 700 and 900 °C, respec-
+tively, suggesting the co-presence of sites resembling those of the pure
+perovskites (LSM and LSF). However, the peak temperatures related to
+LSM sites slightly increase, while those associated with iron sites de-
+crease. By increasing the iron content, peak temperatures further shift
+to higher values, lower temperature peak progressively disappears and
+intermediate oxidation peak signiﬁcantly increases. Therefore, while
+the H2 production steadily increases by increasing the Fe content,
+oxidation (i.e. lower oxidation temperatures) is favoured by the Mn
+content.
+H2 proﬁles obtained during the second H2O splitting tests (Fig. 7b)
+show few diﬀerences with respect to those reported in Fig. 7a. In par-
+ticular, samples LSF, LSMF-0.6, and LSMF-0.4 show better deﬁned H2
+production peaks, suggesting a more homogeneous sites distribution.
+The atomic oxygen amounts released from the samples (calculated
+as H2 consumption) during pre-treatment and those adsorbed during
+H2O splitting tests (calculated as H2 production) in two successive cy-
+cles are shown in Fig. 8, together with the atomic oxygen amounts
+evolved in the TGA tests and gained during the TGA in CO2. Table 3
+gives the H2 amounts evolved during H2O splitting tests and the cor-
+responding re-oxidation degrees. Even if more tests are needed to assess
+the repeatability and thus the stability of these materials, results of
+repeated experiments are in good agreement.
+As shown in Fig. 8, the overall oxygen amount evolved/leaved
+during pre-treatment/H2O splitting are signiﬁcantly higher than those
+obtained in the TGA experiments. However, the same trend is obtained
+as function of the material composition. This suggests that the com-
+parison among the diﬀerent samples can be carried out despite the
+overestimation of the H2 production.
+All the samples show an incomplete re-oxidation during the ﬁrst
+cycle (oxygen evolved during the ﬁrst pre-treatment is higher than that
+leaved during the ﬁrst H2O splitting test), suggesting that water does
+not react with all the reduced sites, in agreement with previous lit-
+erature results (Demont et al., 2014) and our results in CO2 atmosphere.
+However, this diﬀerence decreases by increasing the Fe content, as
+underlined by the re-oxidation degrees (i.e. the ratio between the hy-
+drogen produced during the splitting test and that consumed during the
+pre-treatment) given in Table 3. Re-oxidation degrees of the second
+cycles are higher for all samples; interestingly, a complete re-oxidation
+is obtained for samples with Fe fraction starting from 0.4, suggesting a
+more repeatable behaviour of these materials.
+Fig. 9 shows the overall H2 produced amount, as obtained in the two
+repeated tests as function of the starting oxidation temperature (i.e the
+temperature at which main H2 production starts, see Fig. 7). Seemingly,
+Temperature, °C
+400
+600
+800
+1000
+H2 production, a.u.
+400
+600
+800
+1000
+LSM
+LSMF-0.2
+LSMF-0.4
+LSMF-0.6
+LSF
+LSM
+LSMF-0.2
+LSMF-0.4
+LSMF-0.6
+LSF
+a)
+b)
+Fig. 7. H2 production proﬁles obtained during the ﬁrst (a) and second (b) H2O
+splitting tests on pre-reduced LSMF-x samples.
+LSM
+LSMF-0.2
+LSMF-0.4
+LSMF-0.6
+LSF
+Atomic oxygen, mol/g
+0
+1000
+2000
+3000
+4000
+5000
+O evolved during TGA in N2
+O gained during TGA in CO2
+O evolved during I pre-treatment
+O gained during I H2O splitting test
+O evolved during II pre-treatment
+O gained during II H2O splitting test
+Fig. 8. Atomic oxygen evolved/gained on LSMF-x samples.
+Table 3
+H2 production and re-oxidation degree of two consecutive reduction/splitting
+cycles on LSMF-x samples.
+Sample
+First cycle
+Second cycle
+H2 (µmol/g)
+Re-oxidation (%)
+H2 (µmol/g)
+Re-oxidation (%)
+LSM
+1342
+48.4
+1227
+62.5
+LSMF-0.2
+1254
+50.6
+1205
+87.6
+LSMF-0.4
+1550
+64.4
+1645
+98.5
+LSMF-0.6
+2620
+77.7
+2827
+106.0
+LSF
+3504
+81.8
+3359
+101.5
+460
+480
+500
+520
+540
+560
+580
+600
+1000
+1500
+2000
+2500
+3000
+3500
+4000
+H2, mol/g
+Temperature, °C
+LSM
+LSMF-0.2
+LSMF-0.4
+LSMF-0.6
+LSF
+Fig. 9. H2 production during H2O splitting tests on pre-reduced LSMF-x mate-
+rials as a function of the starting oxidation temperature: I cycle (red symbols)
+and II cycle (green symbols). (For interpretation of the references to colour in
+this ﬁgure legend, the reader is referred to the web version of this article.)
+G. Luciani et al.
+Solar Energy 171 (2018) 1–7
+5
+
+
+===== Page 6 =====
+
+H2 production starts at higher temperature by increasing the iron
+content in agreement with the higher LSM reactivity towards H2O than
+LSF (Muhich et al., 2016) and in agreement with the larger CO pro-
+duction detected during TG experiments. Furthermore, H2 amount
+shows a minimum by increasing the iron content, in agreement with the
+oxygen amount evolved during the TGA tests (Fig. 5). It is worth saying
+that notwithstanding the diﬀerent sample pre-treatment in the H2O and
+CO2 runs and the consequent structure modiﬁcations (Fig. 6), the
+qualitative trends in the H2O splitting (lab-reactor) tests and CO2 oxi-
+dation in TG experiments are the same suggesting that the catalytic
+activity is unaﬀected by perovskite phase transition. On the other hand,
+the quantitative eﬀect of the initial state of the reduced material on the
+oxidation kinetics is beyond the scope of the present work and it will be
+further investigated.
+These results suggest that the good strategy for developing pro-
+mising STS catalysts is to formulate materials with two diﬀerent active
+sites, the former showing good self-reduction (i.e. LSF), the latter good
+reactivity towards splitting (i.e. LSM).
+4. Conclusions
+Perovskites with La and Sr as A cations (La/Sr = 1.5) and with Mn
+(very active towards splitting reactions as LaxSr1−xMnO3) and Fe
+(showing good self-reduction properties as LaxSr1−xFeO3) as B cations
+were prepared to study the eﬀect of the Mn/Fe ratio on their mor-
+phological, structural and redox catalytic properties.
+Structural characterization of the calcined materials revealed that
+all of them have the typical perovskite structure with the additional
+appearance of a tetragonal SrLaFeO4 phase only in the sample without
+manganese. The structural features of the samples move from those
+corresponding to La0.6Sr0.4MnO3 towards those corresponding to
+La0.6Sr0.4FeO3 by increasing the substitution degree of manganese with
+iron.
+TG analysis showed that both starting reduction temperature and
+oxygen produced through self-reduction follow a non-monotonic trend
+with iron content. This could be related to a preferential substitution of
+Mn4+ with Fe3+. On the other hand, H2O splitting tests showed that
+reactivity is higher and starting oxidation temperature is lower on
+samples with larger Mn amount. H2 production as a function of the iron
+content shows the same trend detected during TG experiments.
+Repeated tests showed good reproducibility especially on samples with
+high iron content.
+CO2 shift tests in TG show that all samples undergo only partial re-
+oxidations, but with signiﬁcant CO production, that progressively de-
+creases with Fe content.
+Results of the characterization, TGA and H2O splitting tests com-
+bined with structural evidences prove that structural features as well as
+reduction/oxidation properties can be tuned by opportunely changing
+the nature and amount of B cations.
+Therefore, an improved CO/H2 production at lower temperature can
+be obtained modulating the relative amount of Mn3+/Mn4+ and Fe3+
+at B site in the material. This opens the way to design materials with
+larger intrinsic CO/H2 productivity and lower reduction/oxidation
+temperatures.
+This also suggests that the redox properties of perovskite materials
+can be adapted to the features of the reactor and of the sunlight con-
+centrating system.
+Further insights into the mechanism of self-reduction, H2O/CO2
+oxidation and surface-to-bulk and bulk-to-bulk oxygen transfer would
+be useful in order to deepen the knowledge of the features providing
+good performance for splitting cycle. However, this study is beyond the
+aim of this work and will be further reported.
+Acknowledgements
+The authors gratefully acknowledge Mr. Ferdinando Stanzione
+(CNR) for ICP-MS analysis.
+This research did not receive any speciﬁc grant from funding
+agencies in the public, commercial, or not-for-proﬁt sectors.
+References
+Agraﬁotis, C., Roeb, M., Sattler, C., 2015. A review on solar thermal syngas production via
+redox pair-based water/carbon dioxide splitting thermochemical cycles. Renew.
+Sustain. Energy Rev. 42, 254–285. http://dx.doi.org/10.1016/j.rser.2014.09.039.
+Al-Shankiti, I., Al-Otaibi, F., Al-Salik, Y., Idriss, H., 2013. Solar thermal hydrogen pro-
+duction from water over modiﬁed CeO2 materials. Top. Catal. 56, 1129–1138.
+http://dx.doi.org/10.1007/s11244-013-0079-1.
+Ambrosini, A., Coker, E.N., Rodriguez, M.A., Livers, S., Evans, L.R., Miller, J.E., Stechel, E.
+B., 2010. Synthesis and Characterization of Ferrite Materials for Thermochemical
+CO2 Splitting Using Concentrated Solar Energy. pp. 1–13. http://doi.org/10.1021/
+bk-2010-1056.ch001.
+Andronache, C.I., Racolta, D., 2014. Structural investigation of MO⋅P2O5⋅Li2O
+(MO = Fe2O3 or V2O5) glass systems by FTIR spectroscopy. pp. 115–119. http://doi.
+org/10.1063/1.4903024.
+Babiniec, S.M., Coker, E.N., Miller, J.E., Ambrosini, A., 2016. Doped calcium manganites
+for advanced high-temperature thermochemical energy storage. Int. J. Energy Res.
+40, 280–284. http://dx.doi.org/10.1002/er.3467.
+Babiniec, S.M., Coker, E.N., Miller, J.E., Ambrosini, A., 2015. Investigation of
+LaxSr1−xCoyM1−yO3−δ (M=Mn, Fe) perovskite materials as thermochemical
+energy storage media. Sol. Energy 118, 451–459. http://dx.doi.org/10.1016/j.
+solener.2015.05.040.
+Barbato, P.S., Di Sarli, V., Landi, G., Di Benedetto, A., 2015. High pressure methane
+catalytic combustion over novel partially coated LaMnO3-based monoliths. Chem.
+Eng. J. 259, 381–390. http://dx.doi.org/10.1016/j.cej.2014.07.123.
+Bernard, C., Durand, B., Verelst, M., Lecante, P., 2004. Hydrothermal synthesis of
+LaMnO3+δ: F.T.I.R. and W.A.X.S. investigations of the evolution from amorphous to
+crystallized powder. J. Mater. Sci. 39, 2821–2826. http://dx.doi.org/10.1023/
+B:JMSC.0000021459.24971.91.
+Bernardi, M., Deorsola, F.A., Fino, D., Russo, N., 2014. Catalytic wet air oxidation of
+maleic acid over lanthanum-based perovskites synthesized by solution combustion
+synthesis. Waste Biomass Valorizat. 5, 857–863. http://dx.doi.org/10.1007/s12649-
+014-9301-z.
+Bork, A.H., Kubicek, M., Struzik, M., Rupp, J.L.M., 2015. Perovskite
+La0.6Sr0.4Cr1−xCoxO3−δ solid solutions for solar-thermochemical fuel production:
+strategies to lower the operation temperature. J. Mater. Chem. A 3, 15546–15557.
+http://dx.doi.org/10.1039/C5TA02519B.
+Bork, A.H., Povoden-Karadeniz, E., Rupp, J.L.M., 2017. Modeling thermochemical solar-
+to-fuel conversion: CALPHAD for thermodynamic assessment studies of perovskites,
+exempliﬁed for (La, Sr)MnO3. Adv. Energy Mater. 7, 1601086. http://dx.doi.org/10.
+1002/aenm.201601086.
+Ciambelli, P., Cimino, S., De Rossi, S., Faticanti, M., Lisi, L., Minelli, G., Pettiti, I., Porta,
+P., Russo, G., Turco, M., 2000. AMnO3 (A=La, Nd, Sm) and Sm1−xSrxMnO3 per-
+ovskites as combustion catalysts: structural, redox and catalytic properties. Appl.
+Catal. B Environ. 24, 243–253.
+Cooper, T., Scheﬀe, J.R., Galvez, M.E., Jacot, R., Patzke, G., Steinfeld, A., 2015.
+Lanthanum manganite perovskites with Ca/Sr A-site and Al B-site doping as eﬀective
+oxygen exchange materials for solar thermochemical fuel production. Energy
+Technol. 3, 1130–1142. http://dx.doi.org/10.1002/ente.201500226.
+Demont, A., Abanades, S., Beche, E., 2014. Investigation of perovskite structures as
+oxygen-exchange redox materials for hydrogen production from thermochemical
+two-step water-splitting cycles. J. Phys. Chem. C 118, 12682–12692. http://dx.doi.
+org/10.1021/jp5034849.
+Demont, A., Abanades, S., Kolesnik, S., Mais, J., Jorgensen, J.D., Short, S., Jorgensen,
+J.D., Tong, J.H., 2015. Solar thermochemical conversion of CO2 into fuel via two-step
+redox cycling of non-stoichiometric Mn-containing perovskite oxides. J. Mater.
+Chem. A 3, 3536–3546. http://dx.doi.org/10.1039/C4TA06655C.
+Dey, S., Naidu, B.S., Govindaraj, A., Rao, C.N.R., 2015a. Noteworthy performance of
+La1−xCaxMnO3 perovskites in generating H2 and CO by the thermochemical splitting
+of H2O and CO2. Phys. Chem. Chem. Phys. 17, 122–125. http://dx.doi.org/10.1039/
+C4CP04578E.
+Dey, S., Naidu, B.S., Rao, C.N.R., 2015b. Ln0.5A0.5MnO3 (Ln=Lanthanide, A= Ca, Sr)
+perovskites exhibiting remarkable performance in the thermochemical generation of
+CO and H2 from CO2 and H2O. Chem. - A Eur. J. 21, 7077–7081. http://dx.doi.org/
+10.1002/chem.201500442.
+Di Benedetto, A., Barbato, P.S., Landi, G., 2013. Eﬀect of CO2 on the methane combustion
+over a perovskyte catalyst at high pressure. Energy Fuels 27, 6017–6023. http://dx.
+doi.org/10.1021/ef401818z.
+Evdou, A., Zaspalis, V., Nalbandian, L., 2010. La1−xSrxFeO3−δ perovskites as redox ma-
+terials for application in a membrane reactor for simultaneous production of pure
+hydrogen and synthesis gas. Fuel 89, 1265–1273. http://dx.doi.org/10.1016/j.fuel.
+2009.09.028.
+Fu, Y., Li, S., Zhang, J., Sun, Y., 2016. Eﬀective macroporous core-shell structure of
+alumina-supported spinel ferrite for carbon dioxide splitting based on chemical
+looping. Energy Technol. 4, 1349–1357. http://dx.doi.org/10.1002/ente.
+201600142.
+Gao, X., Liu, G., Zhu, Y., Kreider, P., Bayon, A., Gengenbach, T., Lu, T., Liu, Y., Hinkley, J.,
+Lipiński, W., Tricoli, A., 2018. Earth-abundant transition metal oxides with extra-
+ordinary reversible oxygen exchange capacity for eﬃcient thermochemical synthesis
+of solar fuels. Nano Energy 50, 347–358. http://dx.doi.org/10.1016/j.nanoen.2018.
+G. Luciani et al.
+Solar Energy 171 (2018) 1–7
+6
+
+
+===== Page 7 =====
+
+05.045.
+Gao, X., Vidal, A., Bayon, A., Bader, R., Hinkley, J., Lipiński, W., Tricoli, A., 2016.
+Eﬃcient ceria nanostructures for enhanced solar fuel production via high-tempera-
+ture thermochemical redox cycles. J. Mater. Chem. A 4, 9614–9624. http://dx.doi.
+org/10.1039/C6TA02187E.
+Gosavi, P.V., Biniwale, R.B., 2012. Eﬀective cleanup of CO in hydrogen by PROX over
+perovskite and mixed oxides. Int. J. Hydrogen Energy 37, 3958–3963. http://dx.doi.
+org/10.1016/j.ijhydene.2011.04.110.
+Irusta, S., Pina, M.P., Menéndez, M., Santamarı́a, J., 1998. Catalytic combustion of vo-
+latile organic compounds over La-based perovskites. J. Catal. 179, 400–412. http://
+dx.doi.org/10.1006/jcat.1998.2244.
+Jiang, Q., Tong, J., Zhou, G., Jiang, Z., Li, Z., Li, C., 2014. Thermochemical CO2 splitting
+reaction with supported LaxA1−xFeyB1−yO3 (A=Sr, Ce, B=Co, Mn; 0≤x, y≤1)
+perovskite oxides. Sol. Energy 103, 425–437. http://dx.doi.org/10.1016/j.solener.
+2014.02.033.
+Landi, G., Barbato, P.S., Cimino, S., Lisi, L., Russo, G., 2010. Fuel-rich methane com-
+bustion over Rh-LaMnO3 honeycomb catalysts. Catal. Today 155, 27–34. http://dx.
+doi.org/10.1016/j.cattod.2009.01.020.
+Liu, Y., Wang, Z., Veder, J.P.M., Xu, Z., Zhong, Y., Zhou, W., Tade, M.O., Wang, S., Shao,
+Z., 2018. Highly defective layered double perovskite oxide for eﬃcient energy sto-
+rage via reversible pseudocapacitive oxygen-anion intercalation. Adv. Energy Mater.
+1702604, 1–11. http://dx.doi.org/10.1002/aenm.201702604.
+Luo, Y.-R., 2007. Comprehensive Handbook of Chemical Bond Energies. CRC Press.
+Maluf, S.S., Assaf, E.M., 2011. CO preferential oxidation (CO-PROx) on La1−xCexNiO3
+perovskites. Catal. Commun. 12, 703–706. http://dx.doi.org/10.1016/j.catcom.
+2010.12.022.
+McDaniel, A.H., Ambrosini, A., Coker, E.N., Miller, J.E., Chueh, W.C., O’Hayre, R., Tong,
+J., 2013a. Nonstoichiometric perovskite oxides for solar thermochemical H2 and CO
+production. Energy Proc. 49, 2009–2018. http://dx.doi.org/10.1016/j.egypro.2014.
+03.213.
+McDaniel, A.H., Miller, E.C., Ariﬁn, D., Ambrosini, A., Coker, E.N., O’Hayre, R., Chueh,
+W.C., Tong, J., 2013b. Sr- and Mn-doped LaAlO3−δ for solar thermochemical H2 and
+CO production. Energy Environ. Sci. 6, 2424. http://dx.doi.org/10.1039/
+c3ee41372a.
+Miller, J.E., McDaniel, A.H., Allendorf, M.D., 2014. Considerations in the design of ma-
+terials for solar-driven fuel production using metal-oxide thermochemical cycles.
+Adv. Energy Mater. 4, 1300469. http://dx.doi.org/10.1002/aenm.201300469.
+Muhich, C.L., Ehrhart, B.D., Al-Shankiti, I., Ward, B.J., Musgrave, C.B., Weimer, A.W.,
+2016. A review and perspective of eﬃcient hydrogen generation via solar thermal
+water splitting. Wiley Interdiscip. Rev. Energy Environ. 5, 261–287. http://dx.doi.
+org/10.1002/wene.174.
+Nair, M.M., Abanades, S., 2018. Experimental screening of perovskite oxides as eﬃcient
+redox materials for solar thermochemical CO2 conversion. Sustain. Energy Fuels
+http://doi.org/10.1039/C7SE00516D.
+Nalbandian, L., Evdou, A., Zaspalis, V., 2009. La1−xSrxMO3 (M = Mn, Fe) perovskites as
+materials for thermochemical hydrogen production in conventional and membrane
+reactors. Int. J. Hydrogen Energy 34, 7162–7172. http://dx.doi.org/10.1016/j.
+ijhydene.2009.06.076.
+Oliva, C., Allieta, M., Scavini, M., Biﬃ, C., Rossetti, I., Forni, L., 2012. Electron
+paramagnetic resonance analysis of La1-xMxMnO3+δ (M = Ce, Sr) perovskite-like
+nanostructured catalysts. Inorg. Chem. 51, 8433–8440. http://dx.doi.org/10.1021/
+ic300977e.
+Pappacena, A., Boaro, M., Armelao, L., Llorca, J., Trovarelli, A., 2016. Water splitting
+reaction on Ce0.15Zr0.85O2 driven by surface heterogeneity. Catal. Sci. Technol. 6,
+1–9. http://dx.doi.org/10.1039/C5CY01337B.
+Pappacena, A., Rancan, M., Armelao, L., Llorca, J., Ge, W., Ye, B., Lucotti, A., Trovarelli,
+A., Boaro, M., 2017. New insights into the dynamics that control the activity of Ceria-
+Zirconia solid solutions in thermochemical water splitting cycles. J. Phys. Chem. C
+121, 17746–17755. http://dx.doi.org/10.1021/acs.jpcc.7b06043.
+Petkovich, N.D., Rudisill, S.G., Venstrom, L.J., Boman, D.B., Davidson, J.H., Stein, A.,
+2011. Control of heterogeneity in nanostructured Ce1-xZrxO2 binary oxides for en-
+hanced thermal stability and water splitting activity. J. Phys. Chem. C 115,
+21022–21033. http://dx.doi.org/10.1021/jp2071315.
+Ponce, S., Peña, M.A., Fierro, J.L.G., 2000. Surface properties and catalytic performance
+in methane combustion of Sr-substituted lanthanum manganites. Appl. Catal. B
+Environ. 24, 193–205.
+Rao, C.N.R., Dey, S., 2015. Generation of H2 and CO by solar thermochemical splitting of
+H2O and CO2 by employing metal oxides. J. Solid State Chem. 242, 107–115. http://
+dx.doi.org/10.1016/j.jssc.2015.12.018.
+Rossetti, I., Buchneva, O., Biﬃ, C., Rizza, R., 2009. Eﬀect of sulphur poisoning on per-
+ovskite catalysts prepared by ﬂame-pyrolysis. Appl. Catal. B Environ. 89, 383–390.
+http://dx.doi.org/10.1016/j.apcatb.2008.12.017.
+Royer, S., Duprez, D., Can, F., Courtois, X., Batiot-Dupeyrat, C., Laassiri, S., Alamdari, H.,
+2014. Perovskites as substitutes of noble metals for heterogeneous catalysis: dream or
+reality. Chem. Rev. 114, 10292–10368. http://dx.doi.org/10.1021/cr500032a.
+Saracco, G., Geobaldo, F., Baldi, G., 1999. Methane combustion on Mg-doped LaMnO3
+perovskite catalysts. Appl. Catal. B Environ. 20, 277–288. http://dx.doi.org/10.
+1016/S0926-3373(98)00118-0.
+Scheﬀe, J.R., Steinfeld, A., 2014. Oxygen exchange materials for solar thermochemical
+splitting of H2O and CO2: a review. Mater. Today 17, 341–348. http://dx.doi.org/10.
+1016/j.mattod.2014.04.025.
+Scheﬀe, J.R., Weibel, D., Steinfeld, A., 2013. Lanthanum–strontium–manganese per-
+ovskites as redox materials for solar thermochemical splitting of H2O and CO2.
+Energy Fuels 27, 4250–4257. http://dx.doi.org/10.1021/ef301923h.
+Silvestri, B., Pezzella, A., Luciani, G., Costantini, A., Tescione, F., Branda, F., 2012.
+Heparin conjugated silica nanoparticle synthesis. Mater. Sci. Eng. C 32, 2037–2041.
+http://dx.doi.org/10.1016/j.msec.2012.05.018.
+Stechel, E.B., Miller, J.E., 2013. Re-energizing CO2 to fuels with the sun: Issues of eﬃ-
+ciency, scale, and economics. J. CO2 Util. 1, 28–36. http://dx.doi.org/10.1016/j.jcou.
+2013.03.008.
+Yang, C.-K., Yamazaki, Y., Aydin, A., Haile, S.M., 2014. Thermodynamic and kinetic as-
+sessments of strontium-doped lanthanum manganite perovskites for two-step ther-
+mochemical water splitting. J. Mater. Chem. A 2, 13612–13623. http://dx.doi.org/
+10.1039/C4TA02694B.
+Zhang, Y., Liang, H., Gao, X.Y., Liu, Y., 2009. Three-dimensionally ordered macro-porous
+CuO-CeO2 used for preferential oxidation of carbon monoxide in hydrogen-rich gases.
+Catal. Commun. 10, 1432–1436. http://dx.doi.org/10.1016/j.catcom.2009.03.010.
+G. Luciani et al.
+Solar Energy 171 (2018) 1–7
+7

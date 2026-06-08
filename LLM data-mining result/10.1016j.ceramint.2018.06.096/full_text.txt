@@ -1,0 +1,1231 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Ceramics International
+journal homepage: www.elsevier.com/locate/ceramint
+Nanostructured co-precipitated Ce0.9Ln0.1O2 (Ln = La, Pr, Sm, Nd, Gd, Tb,
+Dy, or Er) for thermochemical conversion of CO2
+R.R. Bhosale⁎, G.D. Takalkar
+Department of Chemical Engineering, College of Engineering, Qatar University, P. O. Box – 2713, Doha, Qatar
+A R T I C L E I N F O
+Keywords:
+Ce0.9Ln0.1O2
+CO2 splitting
+Lanthanides
+Co-precipitation
+Ceria
+Thermochemical cycles
+A B S T R A C T
+The inﬂuence of lanthanide metal cations doped into the CeO2 crystal structure (to form Ce0.9Ln0.1O2; Ln = La,
+Pr, Nd, Sm, Gd, Tb, Dy, or Er) on thermochemical reduction and the CO2 splitting ability of Ce0.9Ln0.1O2 is
+scrutinized using thermogravimetric analysis. Ce0.9Ln0.1O2 redox materials are eﬀectively synthesized by co-
+precipitation of hydroxides. As-synthesized Ce0.9Ln0.1O2 redox materials are further characterized based on their
+phase composition, crystallite size, surface area, and morphology using powder X-ray diﬀraction, Brunauer-
+Emmett-Teller surface area analysis, and scanning electron microscopy. The thermal reduction and CO2 splitting
+aptitude of Ce0.9Ln0.1O2 redox materials are examined by performing 10 consecutive thermochemical cycles. The
+results imply that insertion of Sm3+, Er3+, Tb3+, Dy3+, and La+3 in place of Ce4+ in the ﬂuorite crystal
+structure of CeO2 (forming Ce0.9Ln0.1O2) enhances the O2 liberation by 22.5, 14.6, 12.6, 5.85, and 2.96 μmol O2/
+g·cycle, respectively. Besides, CeLa is observed to be more active towards the CO2 splitting reaction than CeO2
+and the other Ce0.9Ln0.1O2 redox materials investigated in this study.
+1. Introduction
+Carbon dioxide production is inescapable because of the un-
+warranted use of fossil fuels in various industries. The incessant lib-
+eration of CO2 from industries adds to global warming from the
+greenhouse eﬀect [1]. The feasible solution to circumvent this cata-
+strophe is to convert CO2 into value-added products. Metal oxide (MO)-
+based solar-driven thermochemical splitting of CO2 (in combination
+with H2O splitting) oﬀers a favourable route for the utilization of CO2
+and storage of concentrated solar thermal energy as chemical fuels [2].
+Solar thermochemical splitting of H2O/CO2 produces a gas mixture
+containing H2 and CO (known as syngas), which can be used to produce
+transportation fuels via the catalytic Fischer-Tropsch process [3].
+The MO-based solar thermochemical cycle is more promising than
+direct thermolysis of H2O/CO2 because of the prerequisite lower op-
+erating temperatures [4]. The MO-based solar thermochemical cycle
+encompasses an endothermic solar thermal reduction of the MO, which
+causes the release of O2 (step 1) and an exothermic re-oxidation of
+reduced MO by splitting H2O/CO2 (step 2) [5]. The solar energy is
+stored in the MOs during the endothermic thermal reduction step, and
+it is released as a fuel, such as H2/CO, via the exothermic re-oxidation
+phase.
+Numerous volatile and non-volatile MOs (predominantly zinc oxide
+[6–9], tin oxide [10–12], iron oxide [13–15], ferrites [16–22], ceria
+[23–28], perovskites [29,30], and others [31,32] have been expended
+for thermochemical splitting of H2O/CO2. Among these MOs, ceria-
+based oxides have received a lot of attention in recent years because of
+their outstanding thermal stabilities and fast oxidation kinetics. CeO2
+(in the form of a powder, reticulated porous ceramic, felt, and coating
+on ceramic honeycomb structures) has been tested for H2O/CO2 split-
+ting cycles using various reactor arrangements [14,23–25,33–37]. The
+long-term reactivity and thermal stability of CeO2 was veriﬁed during
+102, 500, and 2000 thermochemical cycles in a solar reactor driven by
+concentrated solar power [23,38].
+Attempts to improve the oxygen mobility have focused on in-
+corporating suitable dopants into the ﬂuorite crystal structure of CeO2.
+Doped ceria materials are appealing for thermochemical H2O/CO2
+splitting because of their enhanced redox reactivity at low thermal re-
+duction and re-oxidation temperatures. In addition to transition and
+alkali earth metal cations [39–53], lanthanides can be employed as
+dopants to upgrade the redox reactivity of CeO2 [26,39,54–57]. For
+example, lanthanide-doped ceria exhibited an excellent automotive
+catalytic activity because of the amended oxygen mobility [56,58].
+Likewise, La and Gd doping into a ceria-zirconia solid solution boosted
+the amount of released O2 (via thermal reduction) and generated H2
+(via H2O splitting) [26,50]. In particular by addition of Pr as a second
+dopant into ceria has enhanced H2 production more than 25% during
+H2O splitting [54]. Likewise, La and Y dopant ceria are capable of
+https://doi.org/10.1016/j.ceramint.2018.06.096
+Received 12 February 2018; Received in revised form 6 June 2018; Accepted 11 June 2018
+⁎ Corresponding author.
+E-mail address: rahul.bhosale@qu.edu.qa (R.R. Bhosale).
+Ceramics International 44 (2018) 16688–16697
+Available online 15 June 2018
+0272-8842/ © 2018 Elsevier Ltd and Techna Group S.r.l. All rights reserved.
+T
+
+
+===== Page 2 =====
+
+producing 10% higher CO as compared to pure ceria due to the re-
+duction in the activation energy associated with the CO2 splitting step.
+Wang et al. [59] reported the dependence of O2 nonstoichiometry of
+Ce0.9Gd0.1O1.95-x towards fuel production ability (at various tempera-
+tures and oxygen partial pressures). These authors further evaluated the
+partial thermodynamic properties of doped ceria using defect models.
+The outcomes of various studies associated with the thermochemical
+splitting of H2O or CO2 using lanthanide doped ceria materials are
+listed in Table 1. The data reported clearly indicates that most of the
+studies performed are related to H2O splitting reactions [26,39,54–57].
+Some of the studies are related to thermochemical splitting of CO2;
+however, the data reported is not very signiﬁcant.
+Therefore,
+in
+this
+paper,
+lanthanide-doped
+ceria
+materials
+(Ce0.9Ln0.1O2; Ln = La, Pr, Sm, Nd, Gd, Tb, Dy, or Er) are synthesized
+by co-precipitation of hydroxide, and their thermochemical conversion
+of CO2 is assessed. The redox chemistry allied with the Ce0.9Ln0.1O2-
+based thermochemical CO2 splitting cycle is characterized by the fol-
+lowing reactions:
+→
++
+−
+Ce
+Ln
+O
+Ce
+Ln
+O
+δ/2O (Thermal reduction)
+0.9
+0.1
+2
+0.9
+0.1
+2
+δ
+2
+(1)
++
+→
++
+−
+Ce
+Ln
+O
+δCO
+Ce
+Ln
+O
+δCO(CO splitting)
+0.9
+0.1
+2
+δ
+2
+0.9
+0.1
+2
+2
+(2)
+2. Experimental
+2.1. Materials
+The metal precursors (lanthanum(III) nitrate hexahydrate, praseo-
+dymium(III) nitrate hexahydrate, neodymium(III) nitrate hexahydrate,
+samarium(III) nitrate hexahydrate, gadolinium(III) nitrate hexahydrate,
+terbium(III) nitrate hexahydrate, dysprosium(III) nitrate hydrate, er-
+bium(III) nitrate pentahydrate, and cerium(III) nitrate hexahydrate)
+and aqueous ammonium hydroxide (28%) (the precipitating agent)
+were purchased from Sigma Aldrich, USA. To synthesize Ce0.9Ln0.1O2
+via hydroxide co-precipitation, the aqueous solution of metal pre-
+cursors was prepared using deionized water (ultrapure Type 1), which
+was generated using a Direct-Q system (Millipore, France). The gases
+[Ar (99.99% purity) and a 50% CO2-Ar mixture] used during the
+thermogravimetric experiments were procured from Buzwair Scientiﬁc
+and Technical Gases, Doha, Qatar.
+Nomenclature
+Δmloss
+Mass lass observed during thermal reduction step
+Δmgain
+Mass gain observed during CO2 splitting step
+nO2
+Amount of O2 released during thermal reduction step
+nCO
+Amount of CO produced during CO2 splitting step
+mCe
+Ln
+O
+0.9
+0.1
+2
+Mass of Ce0.9Ln0.1O2 used in the thermogravimetric
+experiments
+MO2
+Molecular weight of O2
+MO
+Molecular weight of O
+TR
+Thermal reduction temperature (°C)
+TO
+CO2 splitting temperature (°C)
+Table 1
+Summary of experimental ﬁnding associated with the lanthanide-doped ceria towards thermochemical splitting of H2O and CO2 (NA = not available).
+Lanthanide doped Ceria
+TR (°C)
+To (°C)
+O2 released (µmol/g)
+Reactant
+CO /H2 generated (µmol/g)
+References
+Pr0.1Ce0.9O2-δ
+1500
+500
+98
+H2O
+154
+[60]
+750
+102.3
+177
+950
+89.3
+165.2
+CeO2
+1400
+1050
+82
+H2O
+117
+[26]
+Ce0.75Zr0.25O2-δ
+1400
+1050
+247
+H2O
+345
+Ce0.75Zr0.24Gd0.01O2- δ
+1400
+1050
+209
+H2O
+340
+Ce0.9M0.1O2- δ (M=La, Y, Pr, Gd)
+1400
+1050
+94
+H2O
+172
+La0.1Ce0.9O2- δ
+1400
+1000
+63
+H2O
+137
+[50]
+1100
+60
+123
+1200
+99
+117
+Sm0.1Ce0.9O2- δ
+1400
+1050
+65
+108.6
+Gd0.1Ce0.9O2- δ
+1400
+1050
+62
+101.6
+Sm0.15Ce0.85O1.925- δ
+1500
+700
+NA
+H2O
+343
+800
+H2O
+334
+800
+CO2
+312
+[56]
+700
+CO2
+89.3
+600
+CO2
+80.4
+400
+CO2
+16
+CeO2
+1400
+1100
+Not reported
+CO2
+125
+[55]
+La0.1Ce0.9O2- δ
+140
+Y0.1Ce0.9O2- δ
+138
+CeO2
+1400
+900
+102
+CO2
+198
+[57]
+Ce0.85Zr0.15O2- δ
+158
+315
+Ce0.825Zr0.15Y0.025O2- δ
+135
+260
+Ce0.825Zr0.15La0.025O2- δ
+140
+270
+Ce0.825Zr0.15Sm0.025O2- δ
+155
+278
+Ce0.825Zr0.15Gd0.025O2- δ
+138
+275
+CeO2
+1400
+800
+111
+CO2
+200.9
+[39]
+La0.15Ce0.85O2- δ
+1400
+800
+67
+272.3
+La0.15Ce0.85O2- δ
+1500
+700
+174
+250
+La0.15Ce0.85O2- δ
+1500
+900
+174
+227.6
+La0.1Ce0.9O2- δ
+1500
+NA
+200.9
+NA
+La0.1Ce0.9O2- δ
+1400
+NA
+89
+NA
+Sm0.15Ce0.85O2- δ
+1400
+NA
+62.5
+NA
+Y0.15Ce0.85O2- δ
+1400
+NA
+62.5
+NA
+Hf0.25Ce0.75O2- δ
+1400
+1000
+321
+111
+Ce0.9Hf0.1)0.9Pr0.1O2-δ
+1500
+500
+138
+H2O
+255.4
+[54]
+(Ce0.9Hf0.1)0.95Pr0.05O2-δ
+138.4
+H2O
+228.6
+Ce0.9Hf0.1O2-δ
+132
+H2O
+200
+R.R. Bhosale, G.D. Takalkar
+Ceramics International 44 (2018) 16688–16697
+16689
+
+
+===== Page 3 =====
+
+2.2. Synthesis of Ce0.9Ln0.1O2
+The detailed steps involved in the synthesis of Ce0.9Ln0.1O2 via
+hydroxide co-precipitation using aqueous ammonium hydroxide (28%)
+as the precipitating agent are as follows:
+1. The metal precursors were dissolved in deionized water (with un-
+interrupted stirring).
+2. The aqueous ammonium hydroxide (28%) solution was added to the
+aqueous solution of metal precursors (dropwise addition) to achieve
+pH ≈10.
+3. The aqueous dispersion was agitated for 48 h (while maintaining
+pH ≈10) and then allowed to stand overnight (undisturbed).
+4. The precipitate was washed several times using deionized water
+until the pH was reduced to 7.
+5. The remaining water was removed via vacuum ﬁltration until a
+thick, dry precipitate was obtained on the ﬁlter paper.
+6. The precipitate was dried at 100 °C and then annealed at 800 °C for
+2 h using an air-circulated muﬄe furnace.
+7. The calcined powder of Ce0.9Ln0.1O2 was stored in a dry location
+before a) powder X-ray diﬀraction (PXRD), Brunauer-Emmett-Teller
+(BET) surface area analysis, and scanning electron microscopy
+(SEM), and b) thermogravimetric CO2 splitting experiments.
+2.3. Characterization of Ce0.9Ln0.1O2
+A PANalytical XPert MPD/DY636 powder X-ray diﬀractometer with
+Cu Kα radiation (λ = 0.15418 nm, voltage = 45 kV, current = 20 mA,
+angular range = 20–90° 2θ, step = 0.05° 2θ, recording time = 5 s) was
+used to determine the phase composition and crystallite size of the
+Ce0.9Ln0.1O2 redox materials (before and after the thermochemical cy-
+cles). The speciﬁc surface area (SSA) of Ce0.9Ln0.1O2 was estimated
+using an ASAP 2420 BET surface area analyzer (Micromeritics).
+Additionally, SEM was performed (Nova Nano 450, FEI) with a max-
+imum magniﬁcation of 200 kx to analyse the microstructure of the
+Ce0.9Ln0.1O2 powder.
+2.4. Thermogravimetric analysis set-up
+Thermogravimetric analysis (TGA, SETSYS Evolution, Setaram;
+Fig. 1) was used to verify the redox reactivity of the Ce0.9Ln0.1O2 ma-
+terials. The TGA set-up comprises a heating furnace with a graphite
+heating element bound by an alumina tube, a temperature-control
+system, and a reaction chamber. To evade damage to the graphite
+Fig. 1. The thermogravimetric analyzer utilized for performing multiple thermochemical CO2 splitting cycles using Ce0.9Ln0.1O2 redox materials (Stream Setsys
+Evo.).
+R.R. Bhosale, G.D. Takalkar
+Ceramics International 44 (2018) 16688–16697
+16690
+
+
+===== Page 4 =====
+
+heating element from the oxidizing gases, a protective gas (Ar) was
+constantly passed through the furnace. The temperature of the set-up
+was maintained using a chiller, which provided an ice-cold water
+supply to the furnace. A balance was positioned in the top section of the
+TGA set-up, and the carrier gas (Ar) was guided from the top to the
+bottom of the set-up to avoid oxidation or pollution caused by vapours
+exiting the sample. Two mass ﬂow controllers—one for Ar and the other
+for the CO2/Ar mixture—were used to gauge and to control the ﬂow
+rates of the gases used in the TGA experiments. The temperature of the
+powder sample was measured and regulated using a Pt–Rh thermo-
+couple (type B) placed near the alumina crucible. The air or O2 trapped
+inside the hollow of the furnace was evacuated before performing any
+TGA experiments. This evacuation step was achieved by a two-step
+mechanism: ﬁrst applying the vacuum and then purging the hollow
+using an inert carrier gas (Ar).
+2.5. Thermochemical CO2 splitting using Ce0.9Ln0.1O2
+To execute the thermal reduction and CO2 splitting experiments,
+approximately 100 mg of Ce0.9Ln0.1O2 powder was loaded in an alu-
+mina crucible (capacity: 100 µL). The powder in the alumina crucible
+was then sited very accurately on a hanging balance. Several thermo-
+chemical cycles were carried out from 1000 to 1400°C. The thermal
+reduction step was performed at 1400 °C for 60 min with inert Ar, and
+the CO2 splitting step was executed at 1000 °C for 30 min by exposing
+the Ce0.9Ln0.1O2 powder to a 50% CO2-Ar gaseous mixture. At 1400 °C,
+the overall mass of the sample diminished from the liberation of the O2
+from Ce0.9Ln0.1O2 via the thermal reduction step. In contrast, at
+1000 °C, the overall mass of the sample increased because of the re-
+oxidation of Ce0.9Ln0.1O2 via the CO2 splitting reaction. By utilizing the
+mass loss and gain values, the amounts of O2 released and CO produced
+during multiple thermochemical cycles were calculated according to
+the following equations.
+=
+∆
+×
+n
+m
+M
+m
+(
+)
+O
+loss
+O
+Ce
+Ln
+O
+2
+2
+0.9
+0.1
+2
+(3)
+=
+∆
+×
+n
+m
+M
+m
+(
+)
+CO
+gain
+O
+Ce
+Ln
+O
+0.9
+0.1
+2
+(4)
+3. Results and discussion
+3.1. Characterization of Ce0.9Ln0.1O2
+Fig. 2a and b exhibit the PXRD peaks of Ce0.9Ln0.1O2. The PXRD
+pattern of each Ce0.9Ln0.1O2 redox material is shifted with respect to the
+CeO2 PXRD peaks (Fig. 2b), indicating the formation of ceria-lantha-
+nide solid solutions (with cubic ﬂuorite crystal structures). PXRD peaks
+associated with the individual dopant oxides are absent, which further
+conﬁrms the high degree of substitution of Ln in the CeO2 crystal
+structure to produce a phase-pure CexLn1-xO2 redox material.
+SEM was used to examine the microstructure of the Ce0.9Ln0.1O2
+redox materials synthesized via hydroxide co-precipitation; the ac-
+quired images are reported in Fig. 3. The SEM images for all
+Ce0.9Ln0.1O2 materials display large agglomerates with primary particle
+diameters from 10 to 100 nm. The particles are spherical with no evi-
+dence of well-deﬁned lattice planes. The sizes and structures of the
+particles are analogous; therefore, the SSAs for all the Ce0.9Ln0.1O2
+materials are comparable (38–42 m2/g).
+3.2. Thermochemical CO2 splitting
+To determine the redox reactivity and thermal stability of the
+Ce0.9Ln0.1O2 redox materials, multiple thermochemical CO2 splitting
+cycles were carried out using the TGA set-up (Fig. 1). The experimental
+conditions employed for the TGA experiments are listed in Table 2. A
+buoyancy eﬀect is inevitable because of the continuous interchanging
+of gases and operating temperatures during multiple consecutive
+thermal reductions and CO2 splitting steps. The buoyancy eﬀect needs
+to be nulliﬁed to avoid discrepancies in the TGA results. To achieve this
+task, baseline blank experiments were conducted under identical ex-
+perimental conditions using an empty alumina crucible before per-
+forming the TGA experiments using the Ce0.9Ln0.1O2 redox materials.
+The buoyancy eﬀect was eliminated by subtracting the TGA proﬁles
+obtained during the blank experiments from those obtained during the
+thermochemical CO2 splitting experiments.
+Figs. 4 and 5 illustrate typical TGA proﬁles obtained during the ﬁrst
+thermochemical cycle performed using the Ce0.9Ln0.1O2 redox mate-
+rials. The overall mass loss during the thermal reduction step was cal-
+culated from the change in the weight of the Ce0.9Ln0.1O2 redox ma-
+terial starting from 500 °C and the material left behind after the thermal
+reduction step (i.e. Ce0.9Ln0.1O2-δ) for 60 min at 1400 °C. Likewise, the
+overall mass gain was computed by exploiting the weight diﬀerence
+between the originally reduced Ce0.9Ln0.1O2-δ and the re-oxidized
+Ce0.9Ln0.1O2 material obtained after CO2 splitting for 30 min at 1000 °C.
+The overall mass of the Ce0.9Ln0.1O2 redox material decreases during
+the thermal reduction step because of the release of O2, which forms O2
+vacancies in the Ce0.9Ln0.1O2 crystal structure. In contrast, the mass of
+the reduced Ce0.9Ln0.1O2-δ increases during the CO2 splitting step be-
+cause O2 is regained by the Ce0.9Ln0.1O2 crystal structure from CO2 (i.e.
+re-oxidation), producing CO. The overall mass loss and gain can be
+directly converted into the amounts of O2 released and CO produced by
+the Ce0.9Ln0.1O2 redox material according to Eqs. (3) and (4). The
+Fig. 2. a) PXRD patterns of Ce0.9Ln0.1O2 redox materials synthesized via co-
+precipitation method, b) PXRD peak shift of the Ce0.9Ln0.1O2 corresponding to
+the doping of Ln (where Ln = La, Pr, Nd, Sm, Gd, Tb, Dy, Er).
+R.R. Bhosale, G.D. Takalkar
+Ceramics International 44 (2018) 16688–16697
+16691
+
+
+===== Page 5 =====
+
+experimental errors associated with these calculation are in the range of
+2–3%.
+The quantities of O2 discharged and CO formed during the ﬁrst ther-
+mochemical cycle executed using Ce0.9Ln0.1O2 materials are reported in
+Table 2. All the Ce0.9Ln0.1O2 redox materials synthesized in this study
+liberate higher amounts of O2 than CeO2 (53.3 µmol O2/g). The amount of
+O2 released during the thermal reduction step by each of the Ce0.9Ln0.1O2
+redox
+materials
+decreases
+according
+to
+CeSm > CePr > CeLa >
+CeTb > CeEr > CeNd > CeGd > CeDy > CeO2. These ﬁndings further
+indicate that the formation Ce0.9Ln0.1O2 redox materials by substituting
+Ce4+ by Ln3+ improves the thermal reduction capacity of CeO2.
+The CO production ability via the CO2 splitting reaction of each of the
+Ce0.9Ln0.1O2 redox materials decreases according to CeTb > CeLa >
+CeDy > CeSm > CePr > CeEr > CeNd > CeGd. The CO yields using
+CeLa and CeTb are higher than those using CeO2 (110.4 µmol CO/g), and
+CeSm and CeDy produce equivalent amounts of CO during the ﬁrst CO2
+splitting step (performed at 1000 °C for 30 min). According to these results,
+the inclusion of La3+ and Tb3+ in the CeO2 crystal structure (by replacing
+Ce4+) is valuable towards enhancing the CO production ability of CeO2.
+Furthermore, these ﬁndings also show that Pr3+, Nd3+, Gd3+, and Er3+
+doping in the CeO2 crystal structure considerably reduce the CO produc-
+tion capacity. Overall, CeSm provides the best thermal reduction ability,
+whereas the CeTb and CeLa display the best CO producing capacities
+during the ﬁrst thermochemical CO2 splitting cycle.
+We have performed three uninterrupted thermochemical cycles
+using Ce0.9Ln0.1O2 redox materials by retaining the experimental con-
+ditions. The TGA proﬁles attained and the amounts of O2 released and
+CO produced in three successive thermochemical cycles are presented
+in Fig. 6 and Table 4. The amount of O2 released by all the Ce0.9Ln0.1O2
+redox materials (except for CeGd and CeEr) decreases during the second
+thermal reduction step (as compared to the 1st thermal reduction step).
+The Ce0.9Ln0.1O2 redox materials utilized in the 1st thermal reduction
+step were freshly prepared and the mass loss was calculated from 500 to
+1400°C. In contrast, the Ce0.9Ln0.1O2 redox materials used during the
+2nd thermal reduction step are already went through one thermal re-
+duction step at 1400 °C (for 60 min) and the mass loss during the 2nd
+thermal reduction step was determined from 1000 to 1400°C. Hence,
+the loss in the amount of O2 released by the Ce0.9Ln0.1O2 redox mate-
+rials in the 2nd thermal reduction step is expected.
+The CO2 splitting capacity of all the Ce0.9Ln0.1O2 redox materials is
+also suppressed during the second CO2 splitting step. For example, the
+CO production decreases by 22.6, 13.9, 11.2, 8.4, 14.9, 12.1, 44.3, 20.3,
+and 26.2 μmol CO/g from the ﬁrst to the second CO2 splitting step for
+Ce, CeLa, CePr, CeNd, CeSm, CeGd, CeTb, CeDy, and CeEr, respectively.
+The drop in the CO production capacity of the Ce0.9Ln0.1O2 redox ma-
+terials during the second CO2 splitting step is likely caused by the re-
+duction of the O2 liberated during the second thermal reduction step.
+The O2 releasing abilities of CeLa, CeNd, and CeEr during the third
+thermal reduction step are approximately the same as the respective
+values during the second thermal reduction step (Table 3). For CeSm and
+CeGd, the amounts of O2 discharged during the third thermal reduction
+step are 6.2% and 16.1% lower, respectively, than that for the second
+thermal reduction step. In contrast, the O2 liberating capacities of CePr,
+CeTb, and CeDy are 1.13, 1.29, and 1.097 times larger, respectively,
+during the third thermal reduction step than during the second thermal
+reduction step. For the third CO2 splitting step, all Ce0.9Ln0.1O2 redox
+materials produce approximately the same amounts of CO as during the
+second CO2 splitting step. The Ce0.9Ln0.1O2 redox materials investigated
+in this study are arranged in the following order (based on the results
+obtained in 3 consecutive thermochemical cycles): CeSm > CeLa >
+CePr > CeTb > CeEr > CeDy > CeNd > CeGd > Ce
+(grounded
+on
+the thermal reduction ability) and CeLa > CeSm > CeDy > Ce >
+CePr > CeTb > CeNd > CeEr > CeGd (grounded on the CO2 splitting
+capacity).
+Fig. 3. SEM images for Ce0.9Ln0.1O2 materials synthesized via co-precipitation of hydroxide method, a) Ce0.9La0.1O2 (CeLa), b) Ce0.9Pr0.1O2 (CePr), c) Ce0.9Sm0.1O2
+(CeSm), d) Ce0.9Nd0.1O2 (CeNd), e) Ce0.9Gd0.1O2 (CeGd), f) Ce0.9Dy0.1O2 (CeDy), g) Ce0.9Er0.1O2 (CeEr), and h) Ce0.9Tb0.1O2 (CeTb).
+R.R. Bhosale, G.D. Takalkar
+Ceramics International 44 (2018) 16688–16697
+16692
+
+
+===== Page 6 =====
+
+The prime objective of this investigation is to identify a suitable
+Ce0.9Ln0.1O2 redox material for thermochemical splitting of CO2. The
+criteria for the selection of best Ce0.9Ln0.1O2 redox material is its higher
+O2 releasing and CO producing capacity as compared to other materials
+explored in this study. Among all the Ce0.9Ln0.1O2 redox materials,
+CeSm is the best material in terms of its thermal reduction capacity; and
+CeLa is the best choice to produce CO by CO2 splitting (based on the
+data obtained in the 3 consecutive thermochemical cycles).
+To reach a sustainable conclusion, the long-term thermal stabilities
+and redox reactivity's of Ce0.9Ln0.1O2 redox materials were investigated
+by performing 10 thermochemical CO2 splitting cycles (by performing
+TGA in a continuous manner for more than 21 h). The changes in the
+weights of the Ce0.9Ln0.1O2 redox materials from multiple thermal
+Table 2
+The experimental conditions employed for performing the thermochemical CO2
+splitting experiments using Ce0.9Ln0.1O2 redox materials in a thermogravimetric
+analyzer.
+Parameters
+Values
+Reactive gas composition
+50% CO2 + 50% Argon
+Reactive gas ﬂowrate
+100 ml/min
+Carrier gas
+Ar (99.99% purity)
+Carrier gas ﬂowrate
+100 ml/min
+Heating rate
+25 °C/min
+Cooling rate
+25 °C/min
+Time period for thermal reduction
+60 min
+Time period for CO2 splitting
+30 min
+Fig. 3. (continued)
+Fig. 4. TGA proﬁles of the ﬁrst thermal reduction step conducted by using the Ce0.9Ln0.1O2 redox materials at 1400 °C and 60 min.
+R.R. Bhosale, G.D. Takalkar
+Ceramics International 44 (2018) 16688–16697
+16693
+
+
+===== Page 7 =====
+
+reduction and CO2 splitting steps are displayed in Fig. 7. The quantities
+of O2 released and CO generated by each Ce0.9Ln0.1O2 redox material
+are presented in Figs. 8 and 9, respectively.
+Analogous to the three thermochemical cycles (reported in Section
+3.2), the TGA proﬁles obtained during the 10 thermochemical cycles
+(Fig. 7) show that the thermal reduction and CO2 splitting capability of
+all the Ce0.9Ln0.1O2 redox materials are the greatest during the ﬁrst
+cycle. Such a change is anticipated because the Ce0.9Ln0.1O2 redox
+materials tested during the ﬁrst thermochemical cycle were freshly
+synthesized and not previously used for any thermal cycling. The extent
+of O2 released and CO produced by Ce0.9Ln0.1O2 redox materials during
+the ﬁrst thermochemical cycle are provided in Tables 3 and 4.
+To compare the redox reactivity of the Ce0.9Ln0.1O2 materials, the
+ﬁrst thermochemical cycle was eliminated from the analysis; the
+amounts of O2 released and CO produced for the remaining nine ther-
+mochemical cycles (from cycle 2 to cycle 10) are depicted in Figs. 8 and
+9. The data presented in Fig. 8 show that the amounts of O2 liberated by
+most of the Ce0.9Ln0.1O2 redox materials decreases in ﬁrst few cycles
+(mainly from cycle 2 to cycle 5). However, from cycle 6 to cycle 10,
+most of the Ce0.9Ln0.1O2 redox materials yields into a constant amount
+of O2 released. Based on the average amount of O2 liberated from cycle
+2 to cycle 10, the Ce0.9Ln0.1O2 redox materials can be arranged in the
+following order: CeSm (69.9 μmol O2/g·cycle) > CeEr (62.0 μmol O2/
+g·cycle) > CeTb
+(60.0 μmol
+O2/g·cycle) > CeDy
+(53.2 μmol
+O2/
+g·cycle) > CeLa (50.4 μmol O2/g·cycle) > CeO2 (47.7 μmol O2/g·cycle)
+[52] > CeGd
+(46.7 μmol
+O2/g·cycle) > CePr
+(46.6 μmol
+O2/
+g·cycle) > CeNd (43.5 μmol O2/g·cycle).
+Fig. 9 demonstrates the deviations in the amounts of CO produced
+during nine uninterrupted thermochemical CO2 splitting cycles per-
+formed by exploiting the Ce0.9Ln0.1O2 redox materials. For all the
+Ce0.9Ln0.1O2 redox materials, the amounts of CO produced in cycle 2
+and cycle 3 are higher than other cycles. However, from cycle 5 to cycle
+9, the CO production ability of all the Ce0.9Ln0.1O2 redox materials
+seems to be constant (for individual case). The scrutinized Ce0.9Ln0.1O2
+redox materials can be organized in the following sequence based on
+the average amounts of CO produced during nine thermochemical cy-
+cles: CeLa (98.0 μmol CO/g·cycle) > > CeO2 (94.9 μmol O2/g·cycle)
+[52] > CeDy
+(87.3 μmol
+CO/g·cycle) > CePr
+(86.2 μmol
+CO/
+g·cycle) > CeSm
+(85.8
+μmol
+CO/g·cycle) > CeEr
+(82.5 μmol
+CO/
+g·cycle) > CeNd
+(82.1 μmol
+CO/g·cycle) > CeTb
+(80.0 μmol
+CO/
+g·cycle) > CeGd (77.2 μmol CO/g·cycle).
+It is highly essential to identify the redox materials which are capable
+of matching the theoretical CO/O2 molar ratio = 2. This ratio is very
+useful to predict the redox and thermal stability of the material in terms of
+its re-oxidation ability after each thermochemical cycle. Based on the
+average amounts of O2 released and CO produced by each Ce0.9Ln0.1O2
+redox material in nine thermochemical cycles, the CO/O2 molar ratio is
+calculated and presented in Fig. 10. As per the data reported, expectedly,
+the CeLa material possess the highest CO/O2 molar ratio = 1.95 as com-
+pared to other Ce0.9Ln0.1O2 redox materials. In addition to CeLa, CePr and
+CeNd are also capable of re-oxidizing at a very good extent (CO/O2 molar
+ratio equal to 1.86 and 1.89, individually). The lowest CO/O2 molar ratio
+was observed in case of CeSm (equal to 1.19) which shows the poor re-
+oxidation ability of the material.
+Table 3
+Amounts of O2 released and CO produced by Ce0.9Ln0.1O2 redox materials during ﬁrst thermochemical CO2 splitting cycle.
+Ce0.9Ln0.1O2
+Ce
+CeLa
+CePr
+CeNd
+CeSm
+CeGd
+CeTb
+CeDy
+CeEr
+O2 released (µmol/g)
+53.3
+161.8
+165.2
+84.0
+173.3
+75.8
+106.1
+73.5
+85.3
+CO produced (µmol/g)
+110.4
+122.4
+103.3
+95.5
+108.1
+92.4
+122.7
+110.5
+100.5
+Fig. 6. TGA proﬁles for three consecutive thermochemical cycles performed by using Ce0.9Ln0.1O2 (thermal reduction at 1400 °C for 60 min and CO2 splitting at
+1000 °C for 30 min).
+Fig. 5. TGA proﬁles (% of mass gain) of the ﬁrst CO2 splitting step performed
+by using the Ce0.9Ln0.1O2 redox materials at 1000 °C for 30 min.
+R.R. Bhosale, G.D. Takalkar
+Ceramics International 44 (2018) 16688–16697
+16694
+
+
+===== Page 8 =====
+
+3.3. Post-reaction characterization of Ce0.9Ln0.1O2 redox materials
+The Ce0.9Ln0.1O2 redox materials used for 10 thermochemical cycles
+were analysed using PXRD. The PXRD analysis reveals that the phase
+compositions of the reacted Ce0.9Ln0.1O2 redox materials (after 10
+thermochemical cycles from 1000 to 1400°C) were the same as those for
+the freshly prepared Ce0.9Ln0.1O2 redox materials (calcined at 800 °C).
+The average crystallite sizes of the reacted and unreacted Ce0.9Ln0.1O2
+redox materials were estimated by applying the Scherrer equation, and
+the results are reported in Table 5. As per the data listed in Table 5, the
+crystallite sizes of all the Ce0.9Ln0.1O2 redox materials increase from
+thermal cycling. The average crystallite size (after performing 10
+thermochemical cycles) is the highest for CeEr (166.8 nm) and the
+lowest for CeTb (106.8 nm). The mean crystallite sizes of CeLa, CeNd,
+and CeTb are smaller than those of CePr, CeSm, and CeDy and similar to
+those of CeO2. The percentage increase in the average crystallite sizes of
+the reacted Ce0.9Ln0.1O2 redox materials (after 10 thermochemical cy-
+cles) with respect to the freshly prepared Ce0.9Ln0.1O2 redox material
+decrease
+as
+follows:
+CeLa
+(65.4%) > CeEr
+(61.7%) > CePr
+(53.8%) > CeGd
+(49.2%) > Ce
+(49.0%) > CeTb
+(43.8%) > CeDy
+(37.7%) > CeNd (28.8%) > CeSm (26.7%). These statistics signify
+that the inclusion of Sm3+, Nd3+, Dy3+, and Tb3+ in place of Ce4+ in
+the ﬂuorite crystal structure of CeO2 improves the thermal stability of
+Ce0.9Ln0.1O2 redox materials in terms of crystallite size for multiple
+thermochemical CO2 splitting cycles.
+4. Summary and conclusions
+Ce0.9Ln0.1O2 redox materials (Ln = La, Pr, Nd, Sm, Gd, Tb, Dy, or
+Er) were successfully synthesized by hydroxide co-precipitation. The
+PXRD analysis of the derived materials indicate a phase-pure compo-
+sition with the absence of individual peaks from the dopant oxides. The
+BET study shows analogous SSAs for all the Ce0.9Ln0.1O2 redox mate-
+rials (38–42 m2/g). The SEM analysis conﬁrms the formation of sphe-
+rical Ce0.9Ln0.1O2 nanoparticles (10–100 nm). The SEM evaluation
+further exhibits that the size and structure of the nanoparticles is alike
+for all synthesized Ce0.9Ln0.1O2 redox materials (because of this, the
+SSA for all these materials is equivalent).
+Multiple thermochemical CO2 splitting cycles were conducted using
+TGA and specify that the Ce0.9Ln0.1O2 redox materials can be arranged
+based on their thermal reduction abilities in the following order:
+CeSm > CeEr > CeTb > CeDy > CeLa > CeO2
+[52] > CeGd >
+CePr > CeNd. Likewise, these materials can also be arranged based on
+their
+CO2
+splitting
+capacities
+as
+follows:
+CeLa >
+CeO2[52] > CeDy > CePr > CeSm > CeEr > CeNd > CeTb > CeG-
+d. The obtained results indicate that CeSm, CeEr, CeTb, CeDy, and CeLa
+are the pre-eminent materials for the thermal reduction reaction,
+whereas CeLa is more suitable towards the CO2 splitting reaction as
+compared to phase-pure CeO2. The post-reaction PXRD analysis of the
+Ce0.9Ln0.1O2 redox materials exploited in 10 thermochemical cycles
+highlighted that CeSm, CeNd, CeDy, and CeTb are more thermally stable
+than CeO2 and the other Ce0.9Ln0.1O2 redox materials. The experimental
+Fig. 8. Amounts of O2 released during multiple thermal reduction steps per-
+formed using Ce0.9Ln0.1O2 redox materials at 1400 °C for 60 min.
+Fig. 9. Amounts of CO produced during multiple CO2 splitting steps performed
+using Ce0.9Ln0.1O2 redox materials at 1000 °C for 30 min.
+Fig. 7. Percentage mass loss and gain for ten consecutive thermochemical cycles in case of Ce0.9Ln0.1O2 redox materials (thermal reduction at 1400 °C for 60 min and
+CO2 splitting at 1000 °C for 30 min).
+R.R. Bhosale, G.D. Takalkar
+Ceramics International 44 (2018) 16688–16697
+16695
+
+
+===== Page 9 =====
+
+work currently underway shows progress towards examining the utili-
+zation of ternary ceria-lanthanide redox oxides (where two suitable
+trivalent lanthanides are incorporated inside the CeO2 ﬂuorite crystal
+structure) towards thermochemical H2O/CO2 splitting cycles.
+Acknowledgements
+This publication was made possible by the NPRP grant (NPRP8-370-
+2-154) from the Qatar National Research Fund (a member of Qatar
+Foundation). The statements made herein are solely the responsibility
+of author(s).
+References
+[1] R.R. Bhosale, V.V. Mahajani, Kinetics of absorption of carbon dioxide in aqueous
+solution of ethylaminoethanol modiﬁed with N-methyl-2-pyrolidone, Sep. Sci.
+Technol. 48 (2013) 2324–2337, http://dx.doi.org/10.1080/01496395.2013.
+805228.
+[2] J.R. Scheﬀe, A. Steinfeld, Oxygen exchange materials for solar thermochemical
+splitting of H2O and CO2: a review, Mater. Today 17 (2014) 341–348, http://dx.
+doi.org/10.1016/j.mattod.2014.04.025.
+[3] M.E. Dry, The Fischer-Tropsch process: 1950–2000, Catal. Today (2002) 227–241,
+http://dx.doi.org/10.1016/S0920-5861(01)00453-9.
+[4] A. Steinfeld, Solar hydrogen production via a two-step water-splitting thermo-
+chemical cycle based on Zn/ZnO redox reactions, Int. J. Hydrog. Energy 27 (2002)
+611–619, http://dx.doi.org/10.1016/S0360-3199(01)00177-X.
+[5] R.R. Bhosale, R.V. Shende, J.A. Puszynski, H2 generation from thermochemical
+water-splitting using sol-gel derived Ni-Ferrite, J. Energy Power Eng. 4 (2010)
+27–38.
+[6] E. Koepf, W. Villasmil, A. Meier, Pilot-scale solar reactor operation and character-
+ization for fuel production via the Zn/ZnO thermochemical cycle, Appl. Energy 165
+(2016) 1004–1023, http://dx.doi.org/10.1016/j.apenergy.2015.12.106.
+[7] A. Statnatiou, P.G. Loutzenhiser, A. Steinfeld, Solar syngas production via H2O/
+CO2-splitting thermochemical cycles with Zn/ZnO and FeO/Fe3O4 redox reactions,
+Chem. Mater. 22 (2010) 851–859, http://dx.doi.org/10.1021/cm9016529.
+[8] R. Müller, A. Steinfeld, H2O-splitting thermochemical cycle based on ZnO/Zn-
+redox: quenching the eﬄuents from the ZnO dissociation, Chem. Eng. Sci. 63 (2008)
+217–227, http://dx.doi.org/10.1016/j.ces.2007.09.034.
+[9] R. Bhosale, A. Kumar, F. AlMomani, R.B. Gupta, Solar thermochemical ZnO/ZnSO4
+water splitting cycle for hydrogen production, Int. J. Hydrog. Energy 42 (2017)
+23474–23483, http://dx.doi.org/10.1016/j.ijhydene.2017.02.190.
+[10] S. Abanades, P. Charvin, F. Lemont, G. Flamant, Novel two-step SnO2/SnO water-
+splitting cycle for solar thermochemical production of hydrogen, Int. J. Hydrog.
+Energy 33 (2008) 6021–6030, http://dx.doi.org/10.1016/j.ijhydene.2008.05.042.
+[11] P. Charvin, S. Abanades, F. Lemont, G. Flamant, Experimental study of SnO2/SnO/
+Sn thermochemical systems for solar production of hydrogen, AIChE J. 54 (2008)
+2759–2767, http://dx.doi.org/10.1002/aic.11584.
+[12] R.R. Bhosale, A. Kumar, P. Sutar, Thermodynamic analysis of solar driven SnO2/
+SnO based thermochemical water splitting cycle, Energy Convers. Manag. 135
+(2017) 226–235, http://dx.doi.org/10.1016/j.enconman.2016.12.067.
+[13] R.B. Diver, J.E. Miller, M.D. Allendorf, N.P. Siegel, R.E. Hogan, Solar thermo-
+chemical water-splitting ferrite-cycle heat engines, J. Sol. Energy Eng. 130 (2008)
+041001, http://dx.doi.org/10.1115/1.2969781.
+[14] R.R. Bhosale, A. Kumar, F. AlMomani, I. Alxneit, Sol-gel derived CeO2-Fe2O3 na-
+noparticles: synthesis, characterization and solar thermochemical application,
+Ceram. Int. (2015), http://dx.doi.org/10.1016/j.ceramint.2016.01.042.
+[15] R.R. Bhosale, A. Kumar, L.J.P. Van Den Broeke, S. Gharbia, D. Dardor, M. Jilani,
+J. Folady, M.S. Al-Fakih, M.A. Tarsad, Solar hydrogen production via thermo-
+chemical iron oxide-iron sulfate water splitting cycle, Int. J. Hydrog. Energy 40
+(2015) 1639–1650, http://dx.doi.org/10.1016/j.ijhydene.2014.11.118.
+[16] C.C. Agraﬁotis, C. Pagkoura, A. Zygogianni, G. Karagiannakis, M. Kostoglou,
+A.G. Konstandopoulos, Hydrogen production via solar-aided water splitting ther-
+mochemical cycles: combustion synthesis and preliminary evaluation of spinel
+redox-pair materials, Int. J. Hydrog. Energy 37 (2012) 8964–8980, http://dx.doi.
+org/10.1016/j.ijhydene.2012.02.196.
+[17] J.R. Scheﬀe, J. Li, A.W. Weimer, A spinel ferrite/hercynite water-splitting redox
+cycle, Int. J. Hydrog. Energy 35 (2010) 3333–3340, http://dx.doi.org/10.1016/j.
+ijhydene.2010.01.140.
+[18] R.R. Bhosale, R.V. Shende, J.A. Puszynski, Thermochemical water-splitting for H2
+generation using sol-gel derived Mn-ferrite in a packed bed reactor, Int. J. Hydrog.
+Energy 37 (2012) 2924–2934, http://dx.doi.org/10.1016/j.ijhydene.2011.03.010.
+[19] R.R. Bhosale, R.V. Shende, J.A. Puszynski, Sol-gel derived NiFe2O4 modiﬁed with
+ZrO2 for hydrogen generation from solar thermochemical water-splitting reaction,
+MRS Proc. 1387 (2012), http://dx.doi.org/10.1557/opl.2012.772 (mrsf11-1387-
+e09-07).
+[20] R.R. Bhosale, A. Kumar, F. AlMomani, U. Ghosh, P. Sutar, G. Takalkar, A. Ashok,
+I. Alxneit, Eﬀectiveness of Ni incorporation in iron oxide crystal structure towards
+thermochemical CO2 splitting reaction, Ceram. Int. 43 (2017) 5150–5155, http://
+dx.doi.org/10.1016/j.ceramint.2017.01.034.
+[21] R.R. Bhosale, I. Alxneit, L.L.P. van den Broeke, A. Kumar, M. Jilani, S.S. Gharbia,
+J. Folady, D.Z. Dardor, Sol-gel synthesis of nanocrystalline Ni-Ferrite and Co-Ferrite
+redox materials for thermochemical production of solar fuels, MRS Proc. 1675
+Table 4
+Amounts of O2 released and CO produced in case of Ce0.9Ln0.1O2 redox materials during three consecutive thermochemical CO2 splitting cycles.
+CexLn1-xO2-δ
+Cycle 1
+Cycle 2
+Cycle 3
+O2 released (µmol/g)
+CO produced (µmol/g)
+O2 released (µmol/g)
+CO produced (µmol/g)
+O2 released (µmol/g)
+CO produced (µmol/g)
+Ce
+53.3
+110.4
+45.5
+87.8
+45.8
+89.1
+CeLa
+161.8
+122.4
+56.2
+108.5
+53.4
+106.5
+CePr
+165.2
+103.3
+47.8
+92.1
+54.2
+91.3
+CeNd
+84.0
+95.5
+46.3
+87.1
+45.9
+86.7
+CeSm
+173.3
+108.1
+84.3
+93.2
+79.1
+91.8
+CeGd
+75.8
+92.4
+53.8
+80.3
+45.1
+78.9
+CeTb
+106.1
+122.7
+56.3
+78.4
+72.9
+81.6
+CeDy
+73.5
+110.5
+51.1
+90.2
+56.1
+91.8
+CeEr
+85.3
+100.5
+74.3
+80.2
+72.6
+81.6
+Fig. 10. Comparison between the Ce0.9Ln0.1O2 redox materials based on the
+average CO/O2 molar ratio.
+Table 5
+Average crystalize size of as-synthesized and reacted Ce0.9Ln0.1O2 redox ma-
+terials.
+Ce0.9Ln0.1O2
+Abbreviation
+Average crystallite size (nm)
+As-synthesized
+After 10 cycles
+CeO2
+Ce
+73.2
+143.5
+Ce0.9La0.1O2
+CeLa
+47.2
+136.3
+Ce0.9Pr0.1O2
+CePr
+66.7
+144.4
+Ce0.9Nd0.1O2
+CeNd
+84.8
+119.1
+Ce0.9Sm0.1O2
+CeSm
+106.5
+145.2
+Ce0.9Gd0.1O2
+CeGd
+83.9
+165.2
+Ce0.9Tb0.1O2
+CeTb
+60.0
+106.8
+Ce0.9Dy0.1O2
+CeDy
+87.7
+140.8
+Ce0.9Er0.1O2
+CeEr
+63.9
+166.8
+R.R. Bhosale, G.D. Takalkar
+Ceramics International 44 (2018) 16688–16697
+16696
+
+
+===== Page 10 =====
+
+(2014), http://dx.doi.org/10.1557/opl.2014.866 (mrss14-1675-rr06-10).
+[22] R. Shende, J. Puszynski, M. Opoku, R. Bhosale, Synthesis of novel ferrite foam
+material for water-splitting application, in: Nanotech Conf. Expo 2009, Vol 1, Tech.
+Proc. 1, 2009, pp. 201–204.
+[23] W.C. Chueh, C. Falter, M. Abbott, D. Scipio, P. Furler, S.M. Haile, A. Steinfeld, High-
+ﬂux solar-driven thermochemical dissociation of CO2 and H2O using nonstoichio-
+metric ceria, Science 330 (2010) 1797–1801, http://dx.doi.org/10.1126/science.
+1197834.
+[24] P. Furler, J. Scheﬀe, M. Gorbar, L. Moes, U. Vogt, A. Steinfeld, Solar thermo-
+chemical CO2 splitting utilizing a reticulated porous ceria redox system, Energy
+Fuels (2012) 7051–7059, http://dx.doi.org/10.1021/ef3013757.
+[25] P. Furler, J. Scheﬀe, D. Marxer, M. Gorbar, A. Bonk, U. Vogt, A. Steinfeld,
+Thermochemical CO2 splitting via redox cycling of ceria reticulated foam structures
+with dual-scale porosities, Phys. Chem. Chem. Phys. 16 (2014) 10503–10511,
+http://dx.doi.org/10.1039/C4CP01172D.
+[26] A. Le Gal, S. Abanades, N. Bion, T. Le Mercier, V. Harlé, Reactivity of doped ceria-
+based mixed oxides for solar thermochemical hydrogen generation via two-step
+water-splitting cycles, Energy Fuels 27 (2013) 6068–6078, http://dx.doi.org/10.
+1021/ef4014373.
+[27] R. Bhosale, G. Takalkar, P. Sutar, A. Kumar, F. AlMomani, M. Khraisheh, A decade
+of ceria based solar thermochemical H2O/CO2 splitting cycle, Int. J. Hydrog.
+Energy (2018), http://dx.doi.org/10.1016/j.ijhydene.2018.04.080 (in press).
+[28] J.R. Scheﬀe, A. Steinfeld, Thermodynamic analysis of cerium-based oxides for solar
+thermochemical fuel production, Energy Fuels 26 (2012) 1928–1936, http://dx.doi.
+org/10.1021/ef201875v.
+[29] J.R. Scheﬀe, D. Weibel, A. Steinfeld, Lanthanum-strontium-manganese perovskites
+as redox materials for solar thermochemical splitting of H2O and CO2, Energy Fuels
+(2013) 4250–4257, http://dx.doi.org/10.1021/ef301923h.
+[30] T. Cooper, J.R. Scheﬀe, M.E. Galvez, R. Jacot, G. Patzke, A. Steinfeld, Lanthanum
+manganite perovskites with Ca/Sr A-site and Al B-site doping as eﬀective oxygen
+exchange materials for solar thermochemical fuel production, Energy Technol. 3
+(2015) 1130–1142, http://dx.doi.org/10.1002/ente.201500226.
+[31] R.R. Bhosale, A. Kumar, F. Almomani, U. Ghosh, D. Dardor, Z. Bouabidi, M. Ali,
+S. Youseﬁ, A. Alnouss, M.S. Anis, M.H. Usmani, M.H. Ali, R.S. Azzam, A. Banu, Solar
+co-production of samarium and syngas via methanothermal reduction of samarium
+sesquioxide, Energy Convers. Manag. 112 (2016) 413–422, http://dx.doi.org/10.
+1016/j.enconman.2016.01.032.
+[32] R. Bhosale, A. Kumar, F. Almomani, Solar thermochemical hydrogen production via
+terbium oxide based redox reactions, Int. J. Photoenergy 2016 (2016), http://dx.
+doi.org/10.1155/2016/9727895.
+[33] S. Abanades, G. Flamant, Thermochemical hydrogen production from a two-step
+solar-driven water-splitting cycle based on cerium oxides, Sol. Energy 80 (2006)
+1611–1623, http://dx.doi.org/10.1016/j.solener.2005.12.005.
+[34] R.R. Bhosale, A. Kumar, F. Almomani, U. Ghosh, S. Al-Muhtaseb, R. Gupta,
+I. Alxneit, Assessment of CexZryHfzO2 based oxides as potential solar thermo-
+chemical CO2 splitting materials, Ceram. Int. 42 (2016) 9354–9362, http://dx.doi.
+org/10.1016/j.ceramint.2016.02.100.
+[35] P. Furler, J.R. Scheﬀe, D. Marxer, A. Steinfeld, Solar Thermochemical CO2 Splitting
+Using A Reticulated Porous Ceria Redox System, 2013, pp. 1–17.
+[36] P. Furler, J.R. Scheﬀe, A. Steinfeld, Syngas production by simultaneous splitting of
+H2O and CO2 via ceria redox reactions in a high-temperature solar reactor, Energy
+Environ. Sci. 5 (2012) 6098–6103, http://dx.doi.org/10.1039/C1EE02620H.
+[37] P. Furler, J. Scheﬀe, D. Marxer, M. Gorbar, A. Bonk, U. Vogt, A. Steinfeld,
+Thermochemical CO2 splitting via redox cycling of ceria reticulated foam structures
+with dual-scale porosities, Phys. Chem. Chem. Phys. 16 (2014) 10503–10511,
+http://dx.doi.org/10.1039/c4cp01172d.
+[38] N.R. Rhodes, M.M. Bobek, K.M. Allen, D.W. Hahn, Investigation of long term re-
+active stability of ceria for use in solar thermochemical cycles, Energy 89 (2015)
+924–931, http://dx.doi.org/10.1016/j.energy.2015.06.041.
+[39] Q. Jiang, G. Zhou, Z. Jiang, C. Li, Thermochemical CO2 splitting reaction with
+CexM1-xO2-δ (M=Ti4+, Sn4+, Hf4+, Zr4+, La3+, Y3+ and Sm3+) solid so-
+lutions, Sol. Energy 99 (2014) 55–66, http://dx.doi.org/10.1016/j.solener.2013.10.
+021.
+[40] J.R. Scheﬀe, R. Jacot, G.R. Patzke, A. Steinfeld, Synthesis, characterization, and
+thermochemical redox performance of Hf4+, Zr4+, and Sc3+ doped ceria for
+splitting CO2, J. Phys. Chem. C 117 (2013) 24104–24110, http://dx.doi.org/10.
+1021/jp4050572.
+[41] H. Kaneko, T. Miura, H. Ishihara, S. Taku, T. Yokoyama, H. Nakajima, Y. Tamaura,
+Reactive ceramics of CeO2-MOx (M=Mn, Fe, Ni, Cu) for H2 generation by two-step
+water splitting using concentrated solar thermal energy, Energy 32 (2007)
+656–663, http://dx.doi.org/10.1016/j.energy.2006.05.002.
+[42] H. Kaneko, H. Ishihara, S. Taku, Y. Naganuma, N. Hasegawa, Y. Tamaura, Cerium
+ion redox system in CeO2-xFe2O3 solid solution at high temperatures
+(1273–1673 K) in the two-step water-splitting reaction for solar H2 generation, J.
+Mater. Sci. 43 (2008) 3153–3161, http://dx.doi.org/10.1007/s10853-008-2499-z.
+[43] H. Kaneko, Y. Tamaura, Reactivity and XAFS study on (1-x)CeO2-xNiO (x =
+0.025–0.3) system in the two-step water-splitting reaction for solar H2 production,
+J. Phys. Chem. Solids 70 (2009) 1008–1014, http://dx.doi.org/10.1016/j.jpcs.
+2009.05.015.
+[44] H. Kaneko, S. Taku, Y. Tamaura, Reduction reactivity of CeO2-ZrO2 oxide under
+high O2 partial pressure in two-step water splitting process, Sol. Energy 85 (2011)
+2321–2330, http://dx.doi.org/10.1016/j.solener.2011.06.019.
+[45] P. Singh, M.S. Hegde, Ce0.67Cr0.33O2.11: a new low-temperature O2 evolution
+material and H2 generation catalyst by thermochemical splitting of water, Chem.
+Mater. 22 (2010) 762–768, http://dx.doi.org/10.1021/cm9013305.
+[46] C. Lee, Q.-L. Meng, H. Kaneko, Y. Tamaura, Solar hydrogen productivity of cer-
+ia–scandia solid solution using two-step water-splitting cycle, J. Sol. Energy Eng.
+135 (2012) 011002, http://dx.doi.org/10.1115/1.4006876.
+[47] H.P. Dasari, K. Ahn, S.Y. Park, H. Il, Ji, K.J. Yoon, B.K. Kim, H.J. Je, H.W. Lee,
+J.H. Lee, Hydrogen production from water-splitting reaction based on RE-doped
+ceria-zirconia solid-solutions, Int. J. Hydrog. Energy (2013) 6097–6103, http://dx.
+doi.org/10.1016/j.ijhydene.2013.01.145.
+[48] Q.-L. Meng, C. Lee, H. Kaneko, Y. Tamaura, Solar thermochemical process for hy-
+drogen production via two-step water splitting cycle based on Ce1−xPrxO2−δ
+redox reaction, Thermochim. Acta 532 (2012) 134–138, http://dx.doi.org/10.
+1016/j.tca.2011.01.028.
+[49] Q.-L. Meng, C. Lee, S. Shigeta, H. Kaneko, Y. Tamaura, Solar hydrogen production
+using Ce1−xLixO2−δ solid solutions via a thermochemical, two-step water-split-
+ting cycle, J. Solid State Chem. 194 (2012) 343–351, http://dx.doi.org/10.1016/j.
+jssc.2012.05.024.
+[50] A. Le Gal, S. Abanades, Dopant incorporation in ceria for enhanced water-splitting
+activity during solar thermochemical hydrogen generation, J. Phys. Chem. C 116
+(2012) 13516–13523, http://dx.doi.org/10.1021/jp302146c.
+[51] Q.L. Meng, C. Il Lee, T. Ishihara, H. Kaneko, Y. Tamaura, Reactivity of CeO2-based
+ceramics for solar hydrogen production via a two-step water-splitting cycle with
+concentrated solar energy, Int. J. Hydrog. Energy 36 (2011) 13435–13441, http://
+dx.doi.org/10.1016/j.ijhydene.2011.07.089.
+[52] A. Le Gal, S. Abanades, Catalytic investigation of ceria-zirconia solid solutions for
+solar hydrogen production, Int. J. Hydrog. Energy 36 (2011) 4739–4748, http://dx.
+doi.org/10.1016/j.ijhydene.2011.01.078.
+[53] S. Abanades, A. Legal, A. Cordier, G. Peraudeau, G. Flamant, A. Julbe, Investigation
+of reactive cerium-based oxides for H2 production by thermochemical two-step
+water-splitting, J. Mater. Sci. 45 (2010) 4163–4173, http://dx.doi.org/10.1007/
+s10853-010-4506-4.
+[54] Q.L. Meng, Y. Tamaura, Enhanced hydrogen production by doping Pr into
+Ce0.9Hf0.1O2 for thermochemical two-step water-splitting cycle, J. Phys. Chem.
+Solids 75 (2014) 328–333, http://dx.doi.org/10.1016/j.jpcs.2013.07.023.
+[55] E.V. Ramos-Fernandez, N.R. Shiju, G. Rothenberg, Understanding the solar-driven
+reduction of CO2 on doped ceria, RSC Adv. 4 (2014) 16456–16463, http://dx.doi.
+org/10.1039/C4RA01242A.
+[56] W.C. Chueh, S.M. Haile, Ceria as a thermochemical reaction medium for selectively
+generating syngas or methane from H2O and CO2, ChemSusChem 2 (2009)
+735–739, http://dx.doi.org/10.1002/cssc.200900138.
+[57] F. Call, M. Roeb, M. Schmücker, C. Sattler, R. Pitz Paal, Ceria doped with zirconium
+and lanthanide oxides to enhance solar thermochemical production of fuels, J. Phys.
+Chem. C 119 (2015) 6929–6938, http://dx.doi.org/10.1021/jp508959y.
+[58] K. Takise, S. Manabe, K. Muraguchi, T. Higo, S. Ogo, Y. Sekine, Anchoring eﬀect
+and oxygen redox property of Co/La0.7Sr0.3AlO3-Δperovskite catalyst on toluene
+steam reforming reaction, Appl. Catal. A Gen. 538 (2017) 181–189, http://dx.doi.
+org/10.1016/j.apcata.2017.03.026.
+[59] S.R. Wang, H. Inaba, H. Tagawa, M. Dokiya, T. Hashimoto, Nonstoichiometry of
+Ce0.9Gd0.1O1.95-x, Solid State Ion. 107 (1998) 73–79, http://dx.doi.org/10.1016/
+S0167-2738(97)00519-5.
+[60] Q.L. Meng, C. Il Lee, H. Kaneko, Y. Tamaura, Solar thermochemical process for
+hydrogen production via two-step water splitting cycle based on Ce1-xPrxO2-??
+Redox reaction, Thermochim. Acta 532 (2012) 134–138, http://dx.doi.org/10.
+1016/j.tca.2011.01.028.
+R.R. Bhosale, G.D. Takalkar
+Ceramics International 44 (2018) 16688–16697
+16697

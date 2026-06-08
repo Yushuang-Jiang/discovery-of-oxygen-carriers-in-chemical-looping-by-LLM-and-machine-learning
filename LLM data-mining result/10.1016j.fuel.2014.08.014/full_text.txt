@@ -1,0 +1,957 @@
+
+
+===== Page 1 =====
+
+Iron-containing mixed-oxide composites as oxygen carriers for Chemical
+Looping with Oxygen Uncoupling (CLOU)
+Arya Shaﬁefarhood, Amy Stewart, Fanxing Li ⇑
+Department of Chemical and Biomolecular Engineering, North Carolina State University, 911 Partners Way, Raleigh, NC 27695-7905, USA
+h i g h l i g h t s
+ Mixed oxides of Fe–Co and Fe–Mn are studied for their oxygen-uncoupling properties.
+ Oxides with higher Co and Mn contents start losing oxygen at lower temperatures.
+ Perovskite support lowers uncoupling temperature of Fe–Co mixed-oxides.
+ Presence of perovskite notably enhances isothermal CLOU properties of Fe–Co oxides.
+a r t i c l e
+i n f o
+Article history:
+Received 14 June 2014
+Received in revised form 5 August 2014
+Accepted 6 August 2014
+Available online 20 August 2014
+Keywords:
+Chemical looping
+Oxygen uncoupling
+Mixed oxide
+Oxygen carrier
+a b s t r a c t
+Chemical Looping with Oxygen Uncoupling (CLOU) offers a potentially effective approach for converting
+solid carbonaceous fuels with inherent carbon dioxide capture. It utilizes oxygen carriers that allow facile
+and reversible exchange of their lattice oxygen with external environment under varying oxygen partial
+pressures. The varying and often tunable thermodynamic properties of mixed oxides of ﬁrst row transi-
+tion metals make them potentially viable for CLOU applications. In this study, mixed iron–cobalt and
+iron–manganese oxides are synthesized and evaluated in terms of their ability to uncouple oxygen.
+The effects of adding a secondary perovskite phase on the uncoupling properties of these primary tran-
+sition metal oxides are also investigated. The experimental results indicate that different cation compo-
+sitions exhibit different oxygen uncoupling properties. The initial decomposition temperature of the
+oxygen carrier sample is found to generally decrease with increasing amount of Co or Mn. Addition of
+a secondary perovskite phase is found to signiﬁcantly affect oxygen donation properties of the primary
+mixed metal oxides. For instance, CLOU properties of mixed Fe–Co oxides are enhanced by perovskite
+addition. In contrast, oxygen carrying capacity of mixed Fe–Mn oxides under an isothermal condition
+is negatively affected by perovskite addition. Redistribution of the transition metal cations between
+the primary and secondary oxide phases is likely to be responsible for such changes in their redox
+properties.
+ 2014 Elsevier Ltd. All rights reserved.
+1. Introduction
+Concerns over global climate change caused by anthropogenic
+carbon dioxide emission, coupled with ever-increasing needs for
+energy, calls for new power generation processes with reduced
+carbon footprint [1,2]. As suggested by the International Energy
+Agency (IEA), Carbon Capture and Storage (CCS) represents one
+of the promising mid-term solutions for the aforementioned grand
+challenge [3]. In the CCS concept, CO2 formed in energy conversion
+processes is captured at the point of production, compressed, and
+stored. The energy penalty of the current CO2 capture technologies,
+such as amine scrubbing, however, is high [4,5].
+The concept of cyclic redox conversion of carbonaceous fuels
+was proposed over half a century ago [6,7]. ‘‘Rediscovered’’ as an
+effective approach for fossil fuel conversion and CO2 capture, the
+chemical looping concept has captured signiﬁcant attention within
+the last two decades [8]. In a CLC scheme, lattice oxygen in a solid
+oxygen carrier is used to fully oxidize a carbonaceous fuel, produc-
+ing carbon dioxide and steam. The reduced oxygen carrier is then
+transferred to a subsequent reactor for regeneration with air and/
+or steam. The cyclic redox operation avoids the needs for oxygen
+separation and reduces CO2 capture cost. To date, more than 700
+oxygen carriers have been synthesized [9,10]. Existing oxygen car-
+riers are generally composed of a primary oxide (mostly ﬁrst-row
+http://dx.doi.org/10.1016/j.fuel.2014.08.014
+0016-2361/ 2014 Elsevier Ltd. All rights reserved.
+⇑Corresponding author.
+E-mail address: Fli5@ncsu.edu (F. Li).
+Fuel 139 (2015) 1–10
+Contents lists available at ScienceDirect
+Fuel
+journal homepage: www.elsevier.com/locate/fuel
+
+
+===== Page 2 =====
+
+transition metal oxides) and an ‘‘inert support’’. Mixed metal oxi-
+des have also been investigated. These studies have resulted in
+oxygen carriers with promising activity and stability. Although
+CLC process has been extensively demonstrated in laboratory and
+sub-pilot scales for conversion of gaseous fuels like methane and
+syngas using oxides of Ni and Fe [11,12], their activities for solid
+fuel conversion are relatively low. An alternative chemical looping
+concept, known as Chemical Looping with Oxygen Uncoupling
+(CLOU) [13], has shown promise to increase the activity for solid
+fuel conversion. The CLOU process takes advantage of oxygen car-
+riers that are capable of releasing gaseous oxygen at low oxygen
+partial pressures. As a result, solid (and gaseous) fuels are effec-
+tively combusted with molecular oxygen evolved from oxygen car-
+rier lattice.
+Many oxygen carriers have been tested for their CLOU proper-
+ties [14]. Oxides of copper, manganese, and cobalt are among the
+ﬁrst oxygen carrying materials that have been investigated [15].
+Cobalt oxide is generally not considered to be suitable because of
+its low decomposition temperature and health and environmental
+concerns [13]. Despite its good oxygen uncoupling properties, cop-
+per oxide, when over-reduced, face challenges such as low meting
+point, sintering, and high cost [9]. Different supports are tested to
+address these issues [13,16–20]. Among the supports investigated,
+MgAl2O4 is promising as it increases sintering resistance and sta-
+bility of copper [16,17,21–24]. Other support, such as Al2O3, SiO2
+and ZrO2, showed low activities, sintering and/or attrition issues
+[17–19,25]. Combinations of supports such as MgAl2O4, TiO2, and
+SiO2 have also been investigated for copper oxide based oxygen
+carriers [26].
+Compared to copper oxide, manganese oxide is relatively less
+studied. Mn2O3 decomposes at lower temperature than copper
+oxide, which could be beneﬁcial. However, re-oxidation of Mn3O4
+tends to be slow at such temperatures [27]. Re-oxidation issue is
+reported to be partially resolvable by doping of Mn2O3 with vari-
+ous amounts of secondary metals such as Fe, Ni, Mg, and Ca
+[28,29]. Mixed oxides resulting from secondary metal addition
+can lead to enhanced structural and/or thermodynamic properties
+compared to their parent oxides. Such tunable properties make
+these mixed oxides attractive for CLOU. Addition of secondary
+metal; however, tends to reduce the uncoupling capacity of Mn
+oxide [28,30,31]. Among the various secondary metals investi-
+gated, iron-containing samples showed the most promising uncou-
+pling kinetics. Azimi et al. [30,31] tested a wide range of Mn:Fe
+ratios and reported that all combinations showed uncoupling
+kinetics comparable to CuO decomposition at 850 C. The corre-
+sponding CLOU capacities are up to 0.5 wt.%. They concluded that
+2:1 ratio of Mn:Fe possessed the best uncoupling properties in
+terms of both oxygen release and reoxidation. Therefore, identiﬁ-
+cation of supports or dopants that can increase the amount of lat-
+tice oxygen extraction to its full thermodynamic potential is
+desired.
+Perovskites represent another group of materials that have been
+tested for CLOU. These materials have the general formula of
+ABO3d, with A-site being a large cation and B-site being a smaller
+cation. Ability of the perovskite structure to accommodate moder-
+ate distortions allows almost all the elements in groups IA to IVB
+on the periodic table to occupy A- or B-sites. Calcium manganite
+based perovskites (CaMnO3) are currently the most studied per-
+ovskites for CLOU applications. [32,33] Recent research focused
+on doping different metals to enhance the CLOU properties of CaM-
+nO3d perovskites [34–39]. Despite their low uncoupling capacity
+(0.8 wt.% max), these perovskites are generally reported to be
+active for carbonaceous fuel conversion [36,38]. Besides CLOU
+properties, some perovskite structured materials possess good
+mixed ionic–electronic conductivities and can be used as supports
+to enhance redox activities of primary metal oxides [40–42].
+Another advantage of perovskite materials as supports is their
+phase-compatibility with Fe, Co, and Mn as B-site materials. There-
+fore, by choosing thermodynamically compatible ratios of metal
+cations, it is possible to minimize the formation of undesired
+phases in redox reactions.
+In this study, mixed oxides of cobalt–iron and manganese–iron
+are studied for their oxygen uncoupling properties. Cobalt and
+manganese have variable oxidation states at different tempera-
+tures and oxygen partial pressures. By doping them with various
+concentrations of iron, mixed metal oxides with modiﬁed oxygen
+uncoupling properties are obtained. The effect of perovskite sup-
+ports on oxygen release from the mixed oxides is also investigated.
+The mixed oxides with a higher content of cobalt and manganese
+showed faster oxygen release. Addition of the perovskite support
+lowered the initial uncoupling temperature of the mixed oxides.
+Isothermal CLOU experiments carried out in a TGA indicate up to
+2.8 wt.% and 3.1 wt.% CLOU capacities for Mn–Fe and Co–Fe sam-
+ples, respectively.
+2. Experimental
+2.1. Oxygen carrier/mixed metal oxide selection and preparation
+Mixed oxides of Fe–Co and Fe–Mn with the general formula of
+(CoxFe1x)3O4 and (MnyFe1y)2O3 (x = 0.5, 0.6, 0.7, 0.8, 0.9, y = 0.3,
+0.45, 0.6, 0.75, 0.9) are prepared using a Solid State Reaction
+(SSR) method. The ratios of the mixed oxides are chosen based
+on the mixed oxide phase diagrams to cover a wide range of oxy-
+gen partial pressures. The phase diagrams of iron–cobalt oxide and
+iron–manganese oxide are presented in Fig. 1 [43]. As can be seen
+from the phase diagrams, desired oxygen uncoupling reactions for
+these mixed-oxide systems are:
+ðCoxFe1xÞ3O4ðspinelÞ ! 3CoxFe1xOðmonoxide=cubicÞ
+þ 0:5O2
+ð1Þ
+3ðMnyFe1yÞ2O3ðbixbyiteÞ ! 2ðMnyFe1yÞ3O4ðspinelÞ
+þ 0:5O2
+ð2Þ
+The SSR method involves mixing stoichiometric amounts of iron
+oxide (Fe2O3, Sigma Aldrich), cobalt oxide (Co3O4, Sigma Aldrich)
+and manganese oxide (Mn3O4, Sigma Aldrich) in a planetary ball
+mill to form a homogeneous powdery mixture followed with
+pelletization (XBM4X, Columbia International) and annealing
+(GSL-1500-X50 tube furnace, MTI Corporation) in air to promote
+the formation of desired phases. The samples are pelletized at
+15 MPa. The annealing step is carried out at 1100 C for 8 h. Selected
+(CoxFe1x)3O4 and (MnyFe1y)2O3 samples (x = 0.5, 0.7, 0.9, y = 0.3,
+0.6, 0.9) are also prepared through a sol–gel method to achieve
+higher homogeneity. This process involves dispersion of calculated
+precursors
+(Fe(NO3)39H2O,
+Co(NO3)26H2O,
+Mn(NO3)3,
+Sigma
+Aldrich) in deionized water followed by addition of citric acid (CA,
+Sigma Aldrich, CA:total cations = 2.5) and stirring at 50 C for
+30 min and addition of ethylene glycol (EG, Sigma Aldrich,
+EG:CA = 1.5) and ramping of temperature to 80 C to complete the
+gelation process. The resulting gel is then dried overnight at 80 C
+and sintered at high temperature to form the mixed oxide phase.
+Five additional samples are also prepared to investigate the
+effect of perovskite support. The ratios of Co:Fe or Mn:Fe are kept
+identical in primary oxides and the perovskite B-site. The weight
+ratio between the primary mixed-oxide and perovskite support is
+1:1 for all supported samples. This allows us to estimate the parti-
+tion of the transition metals between the primary oxide phase and
+perovskite phase. Lanthanum and strontium with 4:1 M ratio are
+chosen to be used as the A-site in the support structure since
+2
+A. Shaﬁefarhood et al. / Fuel 139 (2015) 1–10
+
+
+===== Page 3 =====
+
+moderate doping of Sr can enhance the mixed-conductivity of per-
+ovskites [44]. The supports, therefore, have the general formula of
+La0.8Sr0.2CoxFe1x O3d and La0.8Sr0.2MnyFe1y O3d with x and y
+being identical to the mixed oxides they support. The support
+was prepared through SSR. A summary of these mixed oxide sam-
+ples and their nominal compositions are listed in Table S1.
+2.2. Sample characterization and oxygen donation/uncoupling
+experiments
+X-ray powder diffraction is used to identify the phases present
+in each sample. Samples are crushed into ﬁne powders and ana-
+lyzed using a Rigaku SmartLab X-ray diffractometer with Cu Ka
+(k = 0.1542 nm) radiation operating at 40 kV and 44 mA. A step-
+wise approach with a step size of 0.1 and residence time of 5 s
+at each step in 20–80 angle range (2h) is used to generate the
+XRD patterns.
+Reducibility of the samples in 5% hydrogen (balanced with
+grade 5.0 argon) is determined using Quantachrome ChemBET Pul-
+sar Temperature Programmed Reduction/Desorption (TPR/TPD)
+instrument with 5 C/min ramping rate. A similar experiment
+using a Thermo Gravimetric Analyzer (TGA, Q600 TA Instruments)
+coupled with a Mass Spectrometer (MS, Cirrus 2, MKS) is per-
+formed to analyze the reducibility of the samples in 10% methane
+(grade 2.5, Airgas) balanced with helium (grade 5.0, Airgas).
+Oxygen uncoupling properties of the samples are tested in the
+TGA. Under an inert environment, the sample temperature is
+increased by 20 C/min to 950 C and then kept isothermally for
+an hour. The weight of the sample is monitored as a function of
+temperature. To conﬁrm the oxygen donation, the composition of
+the outlet gas is also monitored for selected samples using the
+MS. The samples are also tested in cyclic oxygen uncoupling exper-
+iments at 850 C in helium and 10% oxygen (grade 2.8, Airgas) bal-
+anced with helium to screen their uncoupling performance/
+stability. Similar redox experiments are conducted in 10% methane
+and oxygen balanced with helium as reducing and oxidizing gases,
+respectively.
+2.3. Interfacial phase diffusion study
+Since the cations in the primary mixed oxide can also occupy
+the B-sites of perovskite support, interfacial diffusion of cations
+may occur at the primary oxide-perovskite phase boundaries dur-
+ing the annealing process depending on the thermodynamic driv-
+ing force across the phase boundary. Interfacial diffusion studies
+are performed to determine the interaction between the primary
+metal oxide and perovskite support phases. The procedure involves
+preparing metal oxide and MIEC pellets with well-deﬁned interface
+(Fig. 2), high temperature annealing (1100 C for 8 h), cutting and
+polishing the intersection of the pellets, and capturing scanning
+electron micrographs (SEM, Hitachi S3200) and EDX point/line
+scans. Two samples are prepared to investigate diffusion between
+Co3O4-LSF and Mn3O4-LSF phases. These two cases are chosen to
+inspect whether Mn and Co cations tend to diffuse into the perov-
+skite phase and partially replace Fe cations in the B-site.
+3. Results and discussion
+3.1. Effect of cation ratios on oxygen uncoupling characteristics
+3.1.1. Oxygen carrier phase characterizations
+XRD is used to analyze the phases present in the samples. XRD
+spectra of three Fe–Co and Fe–Mn samples are shown in Fig. 3. XRD
+conﬁrms the presence of the spinel phase, which corresponds to
+the oxidized form of the iron–cobalt mixed oxide [45]. With
+increasing cobalt content, however, small peaks of (Fe–Co)O (and
+metallic minority phases) are detected, indicating the decomposi-
+tion of mixed oxide from its oxidized. A mixture of bixbyite and
+hematite phases is formed for 30–70% Mn–Fe mixture. This is con-
+sistent with the Fe–Mn phase diagram. By increasing the Mn con-
+tent,
+mixed
+oxide
+structure
+shifted
+toward
+spinel,
+which
+corresponds to the decomposed metal oxide phase. To fully oxidize
+the samples for subsequent uncoupling tests, samples with high Co
+and Mn contents are further treated at 900 C and cooled down to
+room temperature with 1 C/min ramp under a constant ﬂow of
+21% O2. XRD conﬁrms the formation of bixbyite in Fe–Mn and spi-
+nel in Fe–Co sample (Fig. S4 in supplemental document). The pres-
+ence of the perovskite and primary mixed oxide phases in the
+supported samples are also conﬁrmed using the same method
+(Fig. 3).
+Fig. 1. Phase diagrams of (a) Fe–Mn oxide [43] and (b) Fe–Co oxide in air (reproduced from FactSage oxides database).
+Fig. 2. Schematic of cation diffusion study between two pellets with well-deﬁned
+interface.
+A. Shaﬁefarhood et al. / Fuel 139 (2015) 1–10
+3
+
+
+===== Page 4 =====
+
+3.1. 2. Uncoupling properties of the oxygen carriers
+Differential Thermal Gravimetricy (DTG) analysis is used to
+determine the decomposition temperature of the samples in
+helium. Lorentzian peaks are ﬁtted to the DTG data (Fig. 4, original
+data shown in Fig. S5). The temperature at which the curve reaches
+its maximum is reported as the decomposition temperature. The
+amounts of oxygen donation and decomposition temperatures
+are summarized in Table 1. As shown in the table, different combi-
+nations of metal oxides exhibited different uncoupling behaviors.
+For instance, decomposition occurs between 862 and 942 C.
+The general trend shows that samples with a higher concentra-
+tion of manganese and cobalt lose their oxygen at lower tempera-
+tures. Cobalt–iron samples with higher concentrations of Co also
+donate more oxygen, which is consistent with Fe–Co–O phase dia-
+grams presented by Roiter and Paladino [45]. Maximum weight loss
+in iron–cobalt samples is 3.21%, which is around half of the theoret-
+ical weight loss from spinel to monoxide phase. This is also consis-
+tent with the Fe–Co phase diagram at 950 C (Fig. S6) for Co
+concentrations less than 90%: oxygen partial pressure needs to be
+lower than 1010 atm in order to achieve full reduction to monoxide
+Fig. 3. XRD spectra of as prepared samples before reoxidation.
+Fig. 4. DTG results of decomposition of unsupported samples ﬁtted with Lorentzian curves.
+4
+A. Shaﬁefarhood et al. / Fuel 139 (2015) 1–10
+
+
+===== Page 5 =====
+
+phase. Such a low oxygen partial pressure may not have been
+achieved in TGA even with ultra-high purity helium. Although
+phase diagram indicates that 90–10% Co–Fe sample should be fully
+reducible to monoxide phase, this was not observed for the SSR
+sample, likely due to non-homogeneity of the SSR sample. To con-
+ﬁrm this, more homogeneous mixed oxide samples are prepared
+using wet chemistry (sol–gel) method for selected samples. As
+shown in Table 1, sol–gel samples exhibit higher oxygen donation
+compared to SSR samples. This indicates that non-homogeneity of
+the samples can lead to non-uniform iron and cobalt distributions
+in the mixed oxide sample, making the mixture less prone to oxy-
+gen loss. Iron–manganese samples showed a similar trend in terms
+of initial oxygen donation temperature. However, all of the samples
+lost comparable amounts of oxygen, which is close to the theoreti-
+cally predicted oxygen loss from bixbyite to spinel structure.
+3.2. Effect of support addition and primary–secondary phase
+interactions
+3.2.1. Effect of support addition on decomposition behavior of mixed
+oxides
+DTG results for supported samples are presented in Fig. 5 and
+their decomposition temperatures are summarized in Table 2.
+Fig. 6 compares the decomposition temperature of the samples
+before and after addition of the perovskite support. The decompo-
+sition temperature of perovskite supported samples did not show a
+clear trend when compared to unsupported ones. This is likely to
+result from intertwined effect of perovskite-primary oxide interac-
+tions and varying mixed-conductivity of the perovskite phases.
+However, it is clear from Fig. 6 that initial decomposition temper-
+atures for all the samples are decreased upon addition of the
+perovskite support. This may indicate that either perovskite sup-
+port contributes to oxygen donation or addition of the mixed con-
+ductive
+support
+facilitates
+lattice
+oxygen
+migration
+and
+decomposition of the primary mixed-oxide phase. It is also evident
+that the amount of oxygen donation from Co–Fe oxides is increased
+by addition of the support. This could be attributed the contribu-
+tion from the perovskite support phase, which also uncouples its
+lattice oxygen. Weight loss of supported manganese–iron samples,
+when normalized by Mn–Fe oxide content, is slightly larger than
+their unsupported counterparts. This also conﬁrms oxygen dona-
+tion from support phase.
+To determine the contribution of support phase to oxygen
+donation and weight loss, similar tests are conducted on perovskite
+supports for selected samples (samples #1, 3, 6, 8). These perov-
+skite samples are prepared through an SSR method. The results
+are presented in Fig. 7. It can be seen that perovskites with higher
+concentrations of Mn and Co has higher tendency for decomposi-
+tion. This is consistent with previously reported experimental data
+[46]. Fig. 8 compares the weight loss of supported oxygen carriers
+with the weighted summation of those from pure primary oxide
+and support respectively. Results indicate that at lower concentra-
+tions of Co and Mn, weight loss proﬁles of the supported samples
+at lower temperatures are fairly consistent those of the pure perov-
+skite, while samples with higher concentrations of cobalt and man-
+ganese behave similar to the primary mixed oxides, i.e. they do not
+lose oxygen at low temperatures. This may be due to the redistri-
+bution of the Fe/Co or Fe/Mn cations in the primary oxide and
+perovskite support phases. For some samples, especially those with
+higher Co and Mn concentrations, a portion of Fe-cation may have
+migrated out of the primary oxide phase to perovskite B-site,
+thereby stabilizing the perovskite phase [46]. Co–Fe and Mn–Fe
+samples also behave differently in terms of amount of oxygen
+donation. The amount of oxygen loss from the supported samples
+is considerably higher than the sum of separate support and
+primary oxide phases for Fe–Co containing samples. In contrast,
+Fe–Mn mixture shows an opposite behavior. This conﬁrms that
+there is a synergistic effect between primary mixed oxide and
+Table 1
+Decomposition temperatures and total oxygen donations from the unsupported mixed oxides (Italic numbers in the brackets are weight loss for
+sol–gel samples, all other samples are prepared using a solid-state reaction or SSR method).
+Sample #
+Cation composition
+Decomposition temperature (C)
+Oxygen donation (weight%)
+1
+50%Co–50%Fe
+942
+1.71 (1.65)
+2
+60%Co–40%Fe
+916
+2.65
+3
+70%Co–30%Fe
+883
+2.78 (3.65)
+4
+80%Co–20%Fe
+889
+3.22
+5
+90%Co–10%Fe
+862
+3.7 (5.5)
+6
+30%Mn–70%Fe
+938
+3.23 (3.60)
+7
+45%Mn–55%Fe
+941
+3.47
+8
+60%Mn–40%Fe
+909
+3.56 (3.34)
+9
+75%Mn–25%Fe
+874
+3.57
+10
+90%Mn–10%Fe
+887
+3.36 (3.85)
+Fig. 5. DTG results of decomposition of supported samples ﬁtted with Lorentzian curves.
+A. Shaﬁefarhood et al. / Fuel 139 (2015) 1–10
+5
+
+
+===== Page 6 =====
+
+perovskite phases. In addition, poor ionic conductivity of LSMF
+may also be responsible for its relatively poor performance as a
+support.
+3.2.2. Interfacial diffusion study
+Fig. 9 shows the scanning electron micrograph of the cross sec-
+tion of the two phases and the point at which EDX scans are per-
+formed. Table 3 summarizes the elemental composition of the
+points demonstrated in the ﬁgure. The backscattered micrograph
+of cobalt shows a clear contrast at the phase boundary, which
+infers that Co concentration drops sharply when passing through
+the phase boundary. This is conﬁrmed with EDX line scan
+(Fig. S7). The result indicates that Co diffusion into the B-site of
+the LSF is minimal or that Co tends to stay in the primary mixed
+oxide phase. This is understandable as increasing Co tends to
+destabilize iron containing perovskites [46]. This is also consistent
+with the uncoupling behavior of the supported mixed oxides. In
+contrast, SEM images of the Fe–Mn sample showed gradual
+decrease in Mn concentration when crossing the phase boundary
+(Fig. S8). This indicates the diffusion of manganese into the LSF
+perovskite phase. As a result, Mn and Fe co-inhabit the B-site of
+the perovskite phase. This could imply that an equilibrium ratio
+of Fe/Mn may exist to maximize the stability of the composite
+oxide. It is noted that we only examined extreme situations under
+which the diffusive driving force for Mn/Co to the perovskite phase
+are maximized. In-depth studies of Co, Mn, and Fe containing
+mixed metal oxides and perovskites are outside of the scope of cur-
+rent article.
+3.2.3. Reducibility in hydrogen and methane
+The oxygen donation behavior of the mixed oxides can vary
+depending on the reducing environment and surface properties
+of the oxygen carrier. To investigate the reducibility of the samples,
+decomposition temperatures of a number of samples are tested in
+hydrogen using TPR. Fig. 10 summarizes the TPR curves for sup-
+ported and unsupported iron–cobalt samples. Although a clear
+trend on the initial reduction temperature of unsupported sample
+is lacking, it is evident that addition of the perovskite support
+reduces the initial reduction temperatures in all cases. Although
+unsupported iron–cobalt samples showed different reduction tem-
+peratures, the reduction behavior of the supported samples are
+very similar. This could be interpreted as reduction of the samples
+being kinetically hindered i.e. although the reduction is favored
+thermodynamically, the rate of oxygen loss for the samples are
+slow at lower temperatures. Addition of supports is shown to
+lower the reduction temperature (Fig. 10b), likely due to increased
+oxygen transfer rate. Iron–manganese samples did not show dis-
+tinct reduction peaks in their TPR results (Fig. S9), which may
+result from non-homogeneity of the samples. Reduction tempera-
+tures of the samples in methane are also studied. The results are
+presented and compared in Table 4. As can be seen, the reduction
+temperature in methane is signiﬁcantly higher than in hydrogen.
+This can be explained by the stability of C–H bond in methane.
+3.3. Redox tests
+3.3.1. Cyclic CLOU studies
+Stability over multiple redox cycles is an important perfor-
+mance parameter for an oxygen carrier. Four iron–cobalt and
+iron–manganese samples were tested under cyclic redox condi-
+tions at 850 C, with 10% oxygen in helium as oxidizing gas. The
+TGA results are presented in Fig. 11. Addition of LSCF support to
+Fe–Co mixed oxide enhanced both oxygen donation capacity and
+recyclability of the samples in cyclic conditions. At 80% cobalt con-
+tent, the sample exhibited stable performance and oxygen uncou-
+pling capacity of more than 3 wt.% of the oxygen carrier or 6 wt.%
+Table 2
+Decomposition temperatures and total oxygen donations from the supported mixed oxides.
+Sample #
+Cation composition
+Decomposition temperature (C)
+Oxygen donation (weight%)
+Normalized oxygen donation (weight%)
+1
+50%Co–50%Fe
+878
+1.81
+3.60
+2
+60%Co–40%Fe
+854
+2.51
+4.99
+3
+70%Co–30%Fe
+878
+2.84
+5.64
+4
+80%Co–20%Fe
+871
+3.7
+7.34
+5
+90%Co–10%Fe
+855
+3.8
+7.33
+6
+30%Mn–70%Fe
+855
+1.03
+2.53
+7
+45%Mn–55%Fe
+907
+2.08
+5.12
+8
+60%Mn–40%Fe
+867
+1.48
+3.64
+9
+75%Mn–25%Fe
+869
+1.89
+4.66
+10
+90%Mn–10%Fe
+838
+1.49
+3.67
+Fig. 6. Comparison of decomposition temperature of mixed-oxide samples before
+and after support addition.
+Fig. 7. Weight loss of the perovskite supports due to oxygen uncoupling in an inert
+environment.
+6
+A. Shaﬁefarhood et al. / Fuel 139 (2015) 1–10
+
+
+===== Page 7 =====
+
+with respect to the primary mixed oxide content. Manganese
+containing samples, however, behaved differently. Unsupported
+Fe–Mn samples exhibited better recyclability compared to Fe–Co
+samples. Addition of LSMF support, however, signiﬁcantly lowered
+the oxygen uncoupling capacity by preventing it from getting oxi-
+dized back. A likely explanation is that addition of support causes
+Mn cations to redistribute and concentrate in the primary metal
+phase. Since Mn-enriched mixed oxide phase is more prone to
+decomposition, it cannot be regenerate back to its oxidized form
+with 10% oxygen.
+3.3.2. Cyclic redox in methane/oxygen
+Fig. 12 shows the weight loss of the 4 selected samples in cyclic
+redox condition in methane. As can be seen, samples are reduced
+signiﬁcantly more in methane. Unsupported cobalt-containing
+sample gains activity over the ﬁrst few cycles while Fe–Mn sample
+become less active after multiple cycles. Addition of the perovskite
+Fig. 8. Comparison between the absolute weight loss of supported (a) 50%Co–50%Fe, (b) 70%Co–30%Fe, (c) 30%Mn–70%Fe, (d) 60%Mn–40%Fe due to oxygen uncoupling in an
+inert environment.
+Fig. 9. Scanning electron micrograph of the phase interface of the (a) Co3O4-LSF and (b) Mn3O4-LSF after sintering at 1100 C for 8 h.
+Table 3
+Elemental composition of the cation species recorded from EDX point scan of the
+point demonstrated in Fig. 9.
+Element
+Atomic (%)
+Point 1
+Point 2
+Point 3
+Point 4
+Co or Mn
+2.39
+98.80
+99.50
+4.64
+Fe
+60.55
+1.13
+0.46
+57.93
+La
+29.07
+0.01
+0.00
+27.36
+Sr
+7.99
+0.06
+0.03
+10.06
+A. Shaﬁefarhood et al. / Fuel 139 (2015) 1–10
+7
+
+
+===== Page 8 =====
+
+support signiﬁcantly affects the redox properties of the samples
+when reacting with methane. Not only does support addition
+increases the amount of oxygen donation by almost 2 times for
+both Co–Fe and Mn–Fe samples, it enhances the recyclability of
+the samples in both cases. Notable coke formation is observed with
+fully reduced Co–Fe samples, both with and without perovskite
+support. In contrast, due to TGA result, coke formation is insignif-
+icant with perovskite supported Mn–Fe samples. Perovskite sup-
+ported Co–Fe sample exhibited the highest oxygen carrying
+capacity (17 wt.%), which is signiﬁcantly higher than that of sup-
+ported Mn–Fe sample (11%).
+Fig. 10. TPR results of (a) unsupported Fe–Co, (b) supported Fe–Co in 5% hydrogen with 5 C/min temperature ramp.
+Table 4
+Initial reduction temperatures of selected supported and unsupported mixed oxides
+in hydrogen and methane.
+Sample
+Reduction temperature (C)
+H2
+CH4
+Fe30–Co70
+350–450
+720
+Fe10–Co90
+450
+850
+Fe30–Co70 supported
+410
+750
+Fe10–Co90 supported
+410
+620
+Fe40–Mn60
+500–700
+700
+Fe10–Mn90
+700
+800
+Fe40–Mn60 supported
+500–550
+700
+Fe10–Mn90 supported
+500–550
+700
+Fig. 11. Weight loss of mixed oxides in cyclic CLOU condition, (a) 50% Co, (b) 80% Co, (c) 30% Mn, and (d) 60%.
+8
+A. Shaﬁefarhood et al. / Fuel 139 (2015) 1–10
+
+
+===== Page 9 =====
+
+4. Conclusion
+The present study investigates oxygen uncoupling properties of
+Co–Fe and Mn–Fe mixed oxides and mixed oxide composites with
+perovskite support. Mixed oxides with different compositions
+exhibited varying oxygen uncoupling properties. The iron–cobalt
+samples showed decomposition temperatures in the range of
+862–942 C and those of iron–manganese samples ranged between
+874 and 941 C. As a general trend, samples with higher concentra-
+tions of cobalt and manganese exhibit lower decomposition tem-
+perature.
+Effects
+of
+perovskite
+support
+addition
+are
+also
+investigated. Support addition reduced the initial uncoupling tem-
+perature of all the mixed oxides samples, by up to 8.8%. This exhib-
+its synergistic effects between the primary mixed oxide and
+perovskite phases. When applied under isothermal cyclic redox
+conditions, perovskite supported Co–Fe oxides exhibit higher
+activity and oxygen uncoupling capacity when compared to unsup-
+ported Co–Fe oxides. In contrast, perovskite support inhibits reox-
+idation of Mn–Fe oxides and limits their oxygen carrying capacity.
+This is likely to be due to the redistribution of Mn and Fe cations in
+the primary oxide and support phases. When compared to unsup-
+ported samples, perovskite supported Co–Fe and Mn–Fe samples
+exhibited signiﬁcantly higher activity, stability, and oxygen carry-
+ing capacity for methane conversion.
+Acknowledgements
+The authors would like to thank Eastman Chemical Company
+for their ﬁnancial support and Drs. Joseph Zoeller, David Norman,
+and William Ketchie for their valuable suggestions. Funding sup-
+port from Illinois Clean Coal Institute (Award Number 14/5C-2) is
+also greatly appreciated. The authors acknowledge the use of the
+Analytical Instrumentation Facility (AIF) at North Carolina State
+University, which is supported by the State of North Carolina and
+the National Science Foundation. We would also like to acknowl-
+edge Elizabeth Shively and Arjun Devarajan for their help in con-
+ducting some of the experiments.
+Appendix A. Supplementary material
+Supplementary data associated with this article can be found, in
+the online version, at http://dx.doi.org/10.1016/j.fuel.2014.08.014.
+References
+[1] Figueroa JD, Fout T, Plasynski S, McIlvried H, Srivastava RD. Advances in CO2
+capture technology—the U.S. Department of Energy’s Carbon Sequestration
+Program. Int J Greenhouse Gas Control 2008;2:9–20.
+[2] Hansen J, Sato M. Greenhouse gas growth rates. Proc Natl Acad Sci USA
+2004;101:16109–14.
+[3] CO2 Emissions from Fuel Combustion 2012 – Highlights. Paris, France:
+International Energy Agency; 2012.
+[4] Tuinier MJ, Hamers HP, van Sint Annaland M. Techno-economic evaluation of
+cryogenic
+CO2
+capture—a
+comparison
+with
+absorption
+and
+membrane
+technology. Int J Greenhouse Gas Control 2011;5:1559–65.
+[5] Toftegaard MB, Brix J, Jensen PA, Glarborg P, Jensen AD. Oxy-fuel combustion
+of solid fuels. Prog Energy Combust Sci 2010;36:581–625.
+[6] Gilliland ER, Lewis WK. Production of pure carbon dioxide. US2665972 A;
+1954.
+[7] Richter HJ, Knoche KF. Reversibility of combustion processes. In: Efﬁciency
+costing, vol. 235; 1983. p. 71–5 [Am Chem Soc].
+[8] Ishida M, Jin H. A novel combustor based on chemical-looping reactions and its
+reaction kinetics. J Chem Eng Jpn 1994;27:296–301.
+[9] Adanez J, Abad A, Garcia-Labiano F, Gayan P, de Diego LF. Progress in chemical-
+looping combustion and reforming technologies. Prog Energy Combust Sci
+2012;38:215–82.
+[10] Lyngfelt A, Johansson M, Mattisson T. Chemical-looping combustion – status of
+development. Hamburg, Germany; 2008.
+[11] Tong A, Sridhar D, Sun Z, Kim HR, Zeng L, Wang F, et al. Continuous high purity
+hydrogen generation from a syngas chemical looping 25 kWth sub-pilot unit
+with 100% carbon capture. Fuel 2013;103:495–505.
+[12] Sridhar D, Tong A, Kim H, Zeng L, Li F, Fan L-S. Syngas chemical looping
+process: design and construction of a 25 kWth subpilot unit. Energy Fuels
+2012;26:2292–302.
+[13] Mattisson T, Lyngfelt A, Leion H. Chemical-looping with oxygen uncoupling for
+combustion of solid fuels. Int J Greenhouse Gas Control 2009;3:11–9.
+[14] Imtiaz Q, Hosseini D, Müller CR. Review of oxygen carriers for Chemical
+Looping
+with
+Oxygen
+Uncoupling
+(CLOU):
+thermodynamics,
+material
+development, and synthesis. Energy Technol 2013;1:633–47.
+[15] Keller M, Leion H, Mattisson T, Lyngfelt A. Gasiﬁcation inhibition in chemical-
+looping combustion with solid fuels. Combust Flame 2011;158:393–400.
+[16] Arjmand M, Azad A-M, Leion H, Lyngfelt A, Mattisson T. Prospects of Al2O3 and
+MgAl2O4-supported CuO oxygen carriers in Chemical-Looping Combustion
+(CLC) and Chemical-Looping with Oxygen Uncoupling (CLOU). Energy Fuels
+2011;25:5493–502.
+[17] Gayán P, Adánez-Rubio I, Abad A, de Diego LF, García-Labiano F, Adánez J.
+Development of Cu-based oxygen carriers for Chemical-Looping with Oxygen
+Uncoupling (CLOU) process. Fuel 2012;96:226–38.
+[18] Xu L, Wang J, Li Z, Cai N. Experimental study of cement-supported CuO oxygen
+carriers in Chemical Looping with Oxygen Uncoupling (CLOU). Energy Fuels
+2013;27:1522–30.
+[19] Hedayati A, Azad A-M, Rydén M, Leion H, Mattisson T. Evaluation of novel
+ceria-supported
+metal
+oxides
+as
+oxygen
+carriers
+for
+chemical-looping
+combustion. Ind Eng Chem Res 2012;51:12796–806.
+[20] Mei D, Zhao H, Ma Z, Zheng C. Using the sol–gel-derived CuO/CuAl2O4 oxygen
+carrier in chemical looping with oxygen uncoupling for three typical coals.
+Energy Fuels 2013;27:2723–31.
+[21] Arjmand M, Keller M, Leion H, Mattisson T, Lyngfelt A. Oxygen release and
+oxidation rates of MgAl2O4-supported CuO oxygen carrier for Chemical-
+Looping
+combustion
+with
+Oxygen
+Uncoupling
+(CLOU).
+Energy
+Fuels
+2012;26:6528–39.
+[22] Adánez-Rubio I, Abad A, Gayán P, de Diego LF, García-Labiano F, Adánez J.
+Identiﬁcation of operational regions in the Chemical-Looping with Oxygen
+Uncoupling
+(CLOU)
+process
+with
+a
+Cu-based
+oxygen
+carrier.
+Fuel
+2012;102:634–45.
+[23] Adánez-Rubio I, Gayán P, Abad A, de Diego LF, García-Labiano F, Adánez J.
+Evaluation of a spray-dried CuO/MgAl2O4 oxygen carrier for the chemical
+looping with oxygen uncoupling process. Energy Fuels 2012;26:3069–81.
+[24] Adánez-Rubio I, Abad A, Gayán P, de Diego LF, García-Labiano F, Adánez J.
+Performance of CLOU process in the combustion of different types of coal with
+CO2 capture. Int J Greenhouse Gas Control 2013;12:430–40.
+Fig. 12. Weight loss of mixed oxides in cyclic redox condition with 10% methane/oxygen, (a) 70% Co, (b) 60% Mn.
+A. Shaﬁefarhood et al. / Fuel 139 (2015) 1–10
+9
+
+
+===== Page 10 =====
+
+[25] Moldenhauer
+P,
+Rydén
+M,
+Mattisson
+T,
+Lyngfelt
+A.
+Chemical-looping
+combustion and chemical-looping with oxygen uncoupling of kerosene with
+Mn- and Cu-based oxygen carriers in a circulating ﬂuidized-bed 300 W
+laboratory reactor. Fuel Process Technol 2012;104:378–89.
+[26] Adánez-Rubio I, Arjmand M, Leion H, Gayán P, Abad A, Mattisson T, et al.
+Investigation of combined supports for Cu-based oxygen carriers for Chemical-
+Looping with Oxygen Uncoupling (CLOU). Energy Fuels 2013;27:3918–27.
+[27] Zafar Q, Abad A, Mattisson T, Gevert B, Strand M. Reduction and oxidation
+kinetics of Mn3O4/Mg–ZrO2 oxygen carrier particles for chemical-looping
+combustion. Chem Eng Sci 2007;62:6556–67.
+[28] Shulman A, Cleverstam E, Mattisson T, Lyngfelt A. Chemical-looping with
+oxygen uncoupling using Mn/Mg-based oxygen carriers – oxygen release and
+reactivity with methane. Fuel 2011;90:941–50.
+[29] Shulman
+A,
+Cleverstam
+E,
+Mattisson
+T,
+Lyngfelt
+A.
+Manganese/iron,
+manganese/nickel, and manganese/silicon oxides used in Chemical-Looping
+with Oxygen Uncoupling (CLOU) for combustion of methane. Energy Fuels
+2009;23:5269–75.
+[30] Azimi G, Leion H, Mattisson T, Lyngfelt A. Chemical-looping with oxygen
+uncoupling using combined Mn–Fe oxides, testing in batch ﬂuidized bed.
+Energy Procedia 2011;4:370–7.
+[31] Azimi G, Leion H, Rydén M, Mattisson T, Lyngfelt A. Investigation of different
+Mn–Fe
+oxides
+as
+oxygen
+carrier
+for
+Chemical-Looping
+with
+Oxygen
+Uncoupling (CLOU). Energy Fuels 2013;27:367–77.
+[32] Rørmark L, Wiik K, Stølen S, Grande T. Oxygen stoichiometry and structural
+properties of La1xAxMnO3±d(A = Ca or Sr and 0 6 x 6 1). J Mater Chem
+2002;12:1058–67.
+[33] Bakken E, Norby T, Stølen S. Nonstoichiometry and reductive decomposition of
+CaMnO3d. Solid State Ion 2005;176:217–23.
+[34] Leion H, Larring Y, Bakken E, Bredesen R, Mattisson T, Lyngfelt A. Use of
+CaMn0.875Ti0.125O3
+as
+oxygen
+carrier
+in
+chemical-looping
+with
+oxygen
+uncoupling. Energy Fuels 2009;23:5276–83.
+[35] Rydén M, Lyngfelt A, Mattisson T. CaMn0.875Ti0.125O3 as oxygen carrier for
+chemical-looping combustion with oxygen uncoupling (CLOU)—experiments
+in a continuously operating ﬂuidized-bed reactor system. Int J Greenhouse Gas
+Control 2011;5:356–66.
+[36] Hallberg P, Jing D, Rydén M, Mattisson T, Lyngfelt A. Chemical looping
+combustion and chemical looping with oxygen uncoupling experiments in a
+batch reactor using spray-dried CaMn1xMxO3d (M = Ti, Fe, Mg) particles as
+oxygen carriers. Energy Fuels 2013;27:1473–81.
+[37] Källén M, Rydén M, Dueso C, Mattisson T, Lyngfelt A. CaMn0.9Mg0.1O3d as
+oxygen carrier in a gas-ﬁred 10 kWth chemical-looping combustion unit. Ind
+Eng Chem Res 2013;52:6923–32.
+[38] Arjmand M, Hedayati A, Azad A-M, Leion H, Rydén M, Mattisson T.
+CaxLa1xMn1yMyO3d (M = Mg, Ti, Fe, or Cu) as oxygen carriers for
+Chemical-Looping
+with
+Oxygen
+Uncoupling
+(CLOU).
+Energy
+Fuels
+2013;27:4097–107.
+[39] Sundqvist S, Leion H, Rydén M, Lyngfelt A, Mattisson T. CaMn0.875Ti0.125O3d as
+an oxygen carrier for Chemical-Looping with Oxygen Uncoupling (CLOU)—
+solid-fuel testing and sulfur interaction. Energy Technol 2013;1:338–44.
+[40] Galinsky NL, Huang Y, Shaﬁefarhood A, Li F. Iron oxide with facilitated O2–
+transport for facile fuel oxidation and CO2 capture in a chemical looping
+scheme. ACS Sustain Chem Eng 2013;1:364–73.
+[41] Shaﬁefarhood A, Galinsky N, Huang Y, Chen Y, Li F. Fe2O3@LaxSr1xFeO core–
+shell
+redox
+catalyst
+for
+methane
+partial
+oxidation.
+ChemCatChem
+2014;6:790–9.
+[42] He F, Trainham JA, Parsons GN, Newman J, Li F. A hybrid solar-redox scheme
+for liquid fuel and hydrogen coproduction – Energy & Environmental Science
+(RSC Publishing). Energy Environ Sci; n.d.
+[43] Crum JV, Riley BJ, Vienna JD. Binary phase diagram of the manganese oxide–
+iron oxide system. J Am Ceram Soc 2009;92:2378–84.
+[44] Simner SP, Bonnett JF, Canﬁeld NL, Meinhardt KD, Sprenkle VL, Stevenson JW.
+Optimized lanthanum ferrite-based cathodes for anode-supported SOFCs.
+Electrochem Solid-State Lett 2002;5:A173–5.
+[45] Roiter BD, Paladino AE. Phase equilibria in the ferrite region of the system Fe–
+Co–O. J Am Ceram Soc 1962;45:128–33.
+[46] Bouwmeester HJM. Dense ceramic membranes for methane conversion. Catal
+Today 2003;82:141–50.
+10
+A. Shaﬁefarhood et al. / Fuel 139 (2015) 1–10

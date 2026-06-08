@@ -1,0 +1,1458 @@
+
+
+===== Page 1 =====
+
+Materials Chemistry and Physics 276 (2022) 125358
+Available online 15 October 2021
+0254-0584/© 2021 Elsevier B.V. All rights reserved.
+Investigation of reactive perovskite materials for solar fuel production via 
+two-step redox cycles: Thermochemical activity, thermodynamic properties 
+and reduction kinetics 
+Anita Haeussler a, Anne Julbe b, St´ephane Abanades a,* 
+a Processes, Materials and Solar Energy Laboratory, CNRS-PROMES, 7 Rue Du Four Solaire, 66120, Font-Romeu, France 
+b Institut Europ´een des Membranes, IEM, UMR-5635, ENSCM, CNRS, Univ Montpellier, Place Eug`ene Bataillon, 34095, Montpellier cedex 5, France   
+H I G H L I G H T S  
+G R A P H I C A L  A B S T R A C T  
+• Solar thermochemical generation of 
+synthetic fuels via two-step splitting of 
+CO2 or H2O. 
+• Investigation 
+of 
+non-stoichiometric 
+perovskite materials comparing favor­
+ably to ceria. 
+• Manganite perovskites exhibit suitable 
+redox activity, fuel production yield and 
+thermal stability. 
+• Thermodynamic properties determined 
+from oxygen non-stoichiometry mea­
+surements at given T-pO2. 
+• Kinetic study revealed the increase of 
+the activation energy with the reduction 
+extent.  
+A R T I C L E  I N F O   
+Keywords: 
+Thermochemical redox splitting 
+Solar fuels 
+Ceramic materials 
+Perovskites 
+Ceria 
+CO2 conversion 
+Hydrogen production 
+A B S T R A C T   
+The investigation and optimization of solar fuels production by H2O and CO2 splitting reactions using non- 
+stoichiometric redox materials as oxygen carriers relies on materials-related studies. The thermochemical cy­
+cles performance strongly rely on the thermodynamics and kinetics of redox reactions, as well as the chemical 
+composition and morphology of the reactive redox materials commonly based on ceria and perovskites. This 
+study focusses on the evaluation and selection of suitable non-stoichiometric metal oxides for two-step ther­
+mochemical cycles with high fuel production yields, rapid reaction rates, and performance stability. The redox 
+activities of different A- and B-site substituted perovskite materials (ABO3) were experimentally investigated 
+(with A = La, Sr, Y, Ca, Ce, Pr, Sm and B = Mn, Co, Fe, Mg, Al, Ga, Cr). The reactive powders were synthesized 
+via modified Pechini methods providing a porous microstructure especially suitable for thermochemical cycles, 
+while their redox activity was evaluated by thermogravimetric analysis. This experimental screening highlighted 
+the difficulty to combine high reduction extent (δ) achievable by the reactive material with complete re- 
+oxidation extent and fast reaction rates. From the redox activity study of manganite perovskites, 
+La0.5Sr0.5Mn0.9Mg0.1O3 (LSMMg) was pointed out as a good compromise between CO2 splitting activity and 
+thermal stability, possibly competing with ceria as a promising material for two-step thermochemical cycles. 
+Both thermodynamic and kinetic studies were also performed to provide a better understanding of the mecha­
+nisms involved in thermochemical cycles. Thermodynamic properties derived from experimental δ(T,pO2) 
+* Corresponding author. 
+E-mail address: stephane.abanades@promes.cnrs.fr (S. Abanades).  
+Contents lists available at ScienceDirect 
+Materials Chemistry and Physics 
+journal homepage: www.elsevier.com/locate/matchemphys 
+https://doi.org/10.1016/j.matchemphys.2021.125358 
+Received 2 February 2021; Received in revised form 19 July 2021; Accepted 14 October 2021   
+
+
+===== Page 2 =====
+
+Materials Chemistry and Physics 276 (2022) 125358
+2
+diagrams were used to predict the upper bounds for both reduction extent and fuel production performance at 
+equilibrium. Regarding kinetics, the activation energy during LSMMg reduction was shown to increase with the 
+increase of the non-stoichiometry extent.   
+1. Introduction 
+A main challenge for two-step thermochemical cycles is to develop a 
+reactive material able to dissociate water and/or CO2 with fast reaction 
+rate and performance stability over cycles. To be useable in solar-driven 
+thermochemical cycles, a reactive material should thus satisfy most of 
+the following criteria:  
+• favorable 
+thermodynamics 
+for 
+low 
+reduction 
+temperature 
+(<1400 ◦C);  
+• capacity to produce high amounts of H2 and/or CO during the 
+oxidation step;  
+• fast kinetic rate;  
+• good thermal stability;  
+• low cost, non-toxicity, and largely available and abundant [1,2]. 
+Typical redox-active materials used in thermochemical splitting are 
+metal oxides based on either volatile (e.g. ZnO/Zn and SnO2/SnO [3,4]) 
+or non-volatile stoichiometric and non-stoichiometric redox pairs, 
+involving spinel and fluorite-structured redox materials (CeO2/CeO2-δ 
+[5,6], CeO2/Ce2O3 [7], Fe3O4/FeO [8], and ferrites [9–11] such as 
+NiFe2O4 [12]). More exhaustive lists of relevant material formulations 
+can be found in the literature [13–16]. Recently, non-stoichiometric 
+ceramics with ABO3-δ perovskite structure have attracted significant 
+attention, thanks to their suitable redox properties, durability and reli­
+ability at high processing temperatures. More specifically, perovskite 
+oxides arose as a promising class of materials for thermochemical cycles, 
+due to the large range of reachable non-stoichiometry along with their 
+stability over a large range of operating conditions. Unlike ceria, ther­
+modynamics are not favorable to complete re-oxidation for most of 
+perovskite materials, and either a large temperature swing between 
+reduction and oxidation steps or an excess of oxidant is usually required 
+to increase the fuel production rate [17]. However, the large amount of 
+doping possibilities in perovskite materials offers great potential for 
+tuning their thermodynamic properties. Perovskite formulations such as 
+La0.5Ca0.5MnO3 (LCM) and La0.5Sr0.5MnO3 (LSM) with or without any 
+dopant have been tested for either H2O or CO2 splitting [18–24]. 
+Insertion of aluminum in B-site was found to increase both H2 produc­
+tion and reaction kinetics, with stable production rate after 80 cycles 
+[25]. The insertion of Ga in B-site (limited to 30% due to its low solu­
+bility) was found to increase the tolerance factor, with beneficial in­
+fluence on the reduction rate [26]. Nair and Abanades [27] pointed out 
+that Mg as dopant in B-site does not increase the fuel production rate but 
+improves thermal stability. A detailed overview of the best performing 
+perovskite formulations, with a special focus on their ability to produce 
+solar fuel with high yield and stable performance was published by 
+Haeussler et al. [15]. Doping strategies in perovskite materials represent 
+a pathway to overpass the thermochemical performance of the current 
+state-of-the-art ceria material. Broadly speaking, the search for per­
+forming reactive materials should aim to decrease the reduction step 
+temperature and the temperature swing between steps, while optimizing 
+the reduction and re-oxidation extents and enhancing the kinetics. 
+However, a trade-off between reduction and re-oxidation performance is 
+usually necessary. Other important criteria include non-toxicity, avail­
+ability of the resource and environmental impact of material pro­
+duction/shaping. Other tools such as density functional theory can be 
+useful to orient the choice of oxygen carriers. A detailed experimental 
+study is also required to select the reactive materials and validate their 
+applicability for thermochemical cycles. In light of the available data on 
+the redox materials investigated so far, the most promising compositions 
+were selected to study experimentally their redox activity. 
+This study aims to present an experimental screening of promising 
+materials compositions in order to identify suitable redox systems for 
+thermochemical cycles. First, the impact of various dopants on ther­
+mochemical performance has been investigated on a series of powders 
+prepared by Pechini-derived synthesis methods. The investigated ma­
+terials encompass Ca and Sr-based lanthanum-manganese perovskites, 
+Sm and Pr-based strontium-manganese perovskites, lanthanum-cobalt 
+perovskites, yttrium-manganese perovskites, barium-manganese perov­
+skites, and ceria-based oxides. The redox behavior of the powders was 
+studied in two-step cycles. The purpose was both to investigate new 
+formulations and to corroborate (or invalidate) results reported by other 
+studies on whether the dopants do enhance the thermochemical per­
+formance of the considered perovskites. The most promising materials 
+were finally selected to perform thermodynamic and kinetic studies 
+based on thermogravimetric analyses in order to provide better under­
+standing of the mechanisms involved in thermochemical cycles. The 
+thermodynamic analysis was used to predict the theoretical perfor­
+mance of the oxygen carrier materials and can be wisely applied to pre- 
+select potential reactive materials. Such a thermodynamic study does 
+not include any practical considerations such as kinetic limitations or 
+sintering effects. It was thus completed by a kinetic study. The latter 
+provided essential information and better understanding about reaction 
+mechanisms and durations, which are key parameters for reactor design 
+and large-scale implementation. In this work, the kinetic and thermo­
+dynamic characteristics of redox reactions were extensively probed. 
+Both Ca0.5Sr0.5MnO3 (CSM) and La0.5Sr0.5Mn0.9Mg0.1O3 (LSMMg) were 
+selected as benchmark materials to illustrate the thermodynamic equi­
+librium approach. CSM was previously considered as a ceria membrane 
+coating to boost oxygen exchange [28], while LSMMg was used to 
+promote fuel production capacity of ceria foams [29]. The kinetic study 
+of LSMMg further revealed an evolution of the activation energy as a 
+function of the reduction extent during the reduction reaction, which 
+was never investigated before. 
+2. Materials and method 
+2.1. Materials synthesis 
+The perovskite powders were synthesized by Pechini-derived 
+methods [30,31] based on the utilization of nitrate metal salts (M), 
+citric acid (CA) as a chelating agent, and ethylene glycol (EG) as a 
+complexing agent. Two different solution formulations with the 
+following molar ratios: M:CA:EG = 1:1.5:1 (P1 method) and M:CA:EG =
+1:5:20 (P2 method) have been applied. In a typical synthesis, a given 
+quantity of metal nitrates was dissolved in water with the fixed M:H2O 
+mass ratio of 1:6. 
+LSM powders (with or without Mg or Al dopant) were first prepared 
+by the P1 method. The mixture of nitrate salts and CA (CA:M = 1.5:1) 
+was heated to 60 ◦C and stirred for 10 min. Then, EG was added to the 
+solution with the molar ratio EG:CA = 0.66:1. 
+In parallel, LSM and LCM powders were prepared by P2 method, in 
+which large excess of CA was added to the metal salts solution (CA:M =
+5:1). The mixture was heated to 60 ◦C and stirred for 10 min. Then, a 
+large excess of EG was added to the solution with the molar ratio EG:CA 
+= 4:1. It was highlighted that large excess in citrate agent (P2-method) 
+leads to increased powder sinterability [24], which can be suitable to 
+realize dense layers. In contrast, the P1-method was found relevant to 
+synthesize reactive materials with low sinterability, yielding stable 
+performance in two-step thermochemical cycles. 
+A. Haeussler et al.                                                                                                                                                                                                                              
+
+
+===== Page 3 =====
+
+Materials Chemistry and Physics 276 (2022) 125358
+3
+For both methods, the final mixture was heated to 120 ◦C until a 
+viscous colored sol was obtained, which was further heated to 250 ◦C for 
+2 h to form a polymeric resin (polyesterification step). The as-obtained 
+resin was crushed using an agate mortar and subsequently treated in 
+successive thermal treatment steps in air atmosphere: i) 600 ◦C for 1 h 
+with a 3 ◦C/min ramp yielding a porous ceramic powder, ii) 1400 ◦C for 
+1 h with a 5 ◦C/min ramp, yielding the final perovskite material which 
+was used in two-step thermochemical CO2 splitting reactions. All sample 
+references, corresponding formulations, and synthesis methods are re­
+ported in Table S1. 
+2.2. Characterization methods 
+The main physico-chemical characteristics (morphology, chemical 
+composition, crystalline structure, and microstructure) of the P1 and P2 
+powders were determined and compared. The powders morphology and 
+grain sizes were observed by Field Emission Scanning Electron Micro­
+scopy (FESEM – Hitachi S4800). 
+The crystallographic structure of the investigated powders was 
+analyzed at room temperature by X-ray diffraction (XRD) using a 
+PANalytical XPert Pro diffractometer (Cu Kα radiation, λ = 0.15418 
+nm). A 20–75◦angular range was used with θ-θ symmetrical scan. X-ray 
+diffractograms were recorded and analyzed with PANalytical softwares 
+(Data collector and HighScorePlus). All the collected XRD patterns are 
+presented in Supplementary Material. 
+Particle size distributions were measured by laser diffraction (Mas­
+tersizer 3000) coupled with a fluid dispersion system (Hydro EV). The 
+system was operated at two wavelengths (633 nm and 470 nm). Ultra­
+sounds were used to operate powder dispersion in water and particle 
+size distribution was determined by applying the Fraunhofer diffraction 
+theory [32]. 
+The thermochemical CO2 splitting reactivity of the powders prepared 
+at 1400 ◦C was studied via thermogravimetric analysis (TGA – 
+SETARAM SETSYS) using a platinum crucible. Around 100 mg of pow­
+der was used for each TGA experiment. The temperature was first 
+increased to 1400 ◦C (20 ◦C/min) under argon (99.999% purity, < 2 
+ppm of O2, 0.020 NL/min) to perform the thermal reduction step. After 
+45 min plateau at 1400 ◦C, the temperature was decreased to 1050 ◦C 
+(20 ◦C/min). An equimolar mixture of CO2 and Ar was then introduced 
+(0.010 NL/min for each) in the system to perform the oxidation step, 
+during 60 min. Then the temperature was increased again to 1400 ◦C 
+under argon, and the thermal reduction and CO2 splitting reaction cycle 
+was operated again. The mass variation due to oxygen release during the 
+thermal reduction step and oxygen uptake during the CO2 splitting step 
+was recorded continuously, and the amounts of O2 and CO produced 
+were calculated [23]. Specific H2O splitting tests were also performed in 
+a tubular furnace with online O2 and H2 analysis (Fig. S1). 
+For the thermodynamic study, different temperature dwells (ranging 
+from 1000 to 1400 ◦C) were carried out in TGA at different oxygen 
+partial pressures (from 10 to 10000 ppm) to determine the δ(T,pO2) di­
+agrams. Regarding kinetic analysis, the reduction in Ar up to 1400 ◦C 
+was carried out under different heating rates (non-isothermal tests) to 
+determine both the conversion rate and δ values as a function of the 
+temperature. 
+3. Results and discussion 
+3.1. Influence of chemical composition and dopants on the redox activity 
+A series of promising materials and dopants was investigated for 
+thermochemical cycles application. All the selected reactive composi­
+tions are reported in Table S1, along with their abbreviations. The 
+selected material compositions were synthesized with a modified 
+Pechini method, and their crystallographic structure was determined by 
+XRD analysis. The redox behavior of powder series was investigated via 
+TGA (gas yields are reported in Table S2), and their structural stability 
+was assessed via XRD analysis after thermochemical cycles, in order to 
+detect any evolution of crystallographic phases. FESEM was also applied 
+to analyze the microstructure of powders and their morphological evo­
+lution. Finally, the most promising formulations were selected for 
+further thermodynamic and kinetic studies. 
+3.1.1. Ca and Sr-based lanthanum manganese perovskites (A- and B-sites 
+substituted) 
+Lanthanum manganite perovskites have been investigated for 
+numerous applications such as electrodes in solid oxide fuel cells [33], 
+metal-air batteries [34], gas and ion sensors [35,36] or high perfor­
+mance materials for catalysis [37]. Addition of Ca has been considered 
+to achieve high reduction extent [21,22]. Lanthanum-strontium 
+manganite perovskites have been investigated for applications in mi­
+croelectrodes [38]. For two-step thermochemical cycles, Sr-based and 
+Ca-based lanthanum manganite perovskites have been widely studied 
+[39]. However, their low re-oxidation extent is an issue. Thus, to 
+enhance the thermochemical performance, different dopants were 
+selected on the basis of their promising behavior reported in the liter­
+ature: Al, Cr, Ga, and Mg. The following perovskites were investigated in 
+this work: La0.5A0.5Mn0.6Al0.4O3, La0.5A0.5Mn0.6Cr0.4O3, La0.5A0.5M­
+n0.6Al0.2Cr0.2O3, La0.5A0.5Mn0.8Ga0.2O3, and La0.5A0.5Mn0.9Mg0.1O3. The 
+La0.5A0.5MnO3 materials were used as references (with A = Sr, Ca). A 
+comparative study was performed to elucidate the influence of the 
+modified-Pechini method parameters and of the dopants on the reac­
+tivity of the derived powders. The crystallographic structure of the 
+considered material series was studied by XRD analysis (Figs. S2–S3). All 
+the LSM powders exhibit a cubic phase, with lattice parameter a in the 
+range 3.840–3.864 Å. The LCM powders exhibit an orthorhombic phase 
+with lattice parameter a in the range 5.346–5.431 Å, b in the range 
+5.362–5.432 Å, and c in the range 7.593–7.688 Å. 
+In a previous work [24], the characteristics of powders prepared by 
+P1 and P2 modified-Pechini methods were investigated to select the 
+most adapted protocols yielding perovskite formulations and micro­
+structures with both suitable sinterability (depending on the targeted 
+application involving either porous microstructures or densified mem­
+branes) and attractive CO2 splitting performance. Dilatometric results 
+clearly evidenced that P1-powders offer low sinterability and densifi­
+cation below 1400 ◦C, whereas P2-powders show enhanced sintering at 
+this point [24]. The P2 powders were easily shaped as pellets and their 
+sintering was controllable up to strong densification at about 1400 ◦C. In 
+contrast, the P1 powders were found to present heterogeneities and a 
+spongy microstructure due to combustion reactions during their syn­
+thesis [40]. 
+A comparison of the redox activity of both P1 and P2-powders (LSM, 
+LSMMg, and LSMAl) for CO2 splitting reaction reveals similar fuel pro­
+duction yield during two-step thermochemical cycles (Table S2). The 
+highest CO amount (215–217 μmol/g) is produced by LSMMg with an 
+almost complete re-oxidation yield for both P1 and P2 powders (97%), 
+thereby confirming cycling stability. For all samples, the CO production 
+yield during the first and second cycles is similar. 
+Fig. 1 compares the O2 and CO production yields obtained from TGA 
+for the series of Sr and Ca-based perovskites (data from Ref. [24]). The 
+reduction extent reached during the first cycle is enhanced by Al3+ and 
+Mg2+ dopants in comparison with LSM and LCM reference perovskites. 
+On the contrary, the reduction step is not improved by Ga3+ and Al/Cr 
+dopants, and the Cr dopant is even unfavorable. The O2 production starts 
+at 800 ◦C for all the Sr-based perovskite series, against 900 ◦C for the 
+Ca-based perovskites, except for LCMAl with a start at 650 ◦C unveiling a 
+lower reduction enthalpy. This explains the higher reduction extent 
+reached by LCMAl in comparison with other Ca-based perovskites. 
+Concerning the oxidation step of Ca-based perovskites, only LCMGa 
+offers higher CO production yield in comparison with LCM, but re- 
+oxidation extent is low (below 60%). The other dopants (Al, Cr, and 
+Mg) negatively impact the amount of CO produced. For Sr-based pe­
+rovskites, the Mg2+, Ga3+ and Al3+ dopants lead to an enhancement of 
+A. Haeussler et al.                                                                                                                                                                                                                              
+
+
+===== Page 4 =====
+
+Materials Chemistry and Physics 276 (2022) 125358
+4
+the CO production yield in comparison with LSM. The CO production 
+yields obtained during the first and the second cycles are similar, con­
+firming the thermochemical stability of the perovskite series. The re- 
+oxidation extents reached during the second cycles are above 90%, 
+except for Al/Cr that only reaches 83% due to its low CO production 
+yield. Therefore, apart from Cr and Cr/Al3+ dopants, Ga3+, Al3+ and 
+Mg2+ are able to enhance LSM performance. In this series, LSMMg seems 
+to be the most promising material since it offers both the highest CO 
+production yield and enhanced performance stability. 
+TGA thus points out the promising redox behavior of LSMMg. In 
+order to further provide insights into the thermochemical reactions of 
+LSMMg, two thermochemical H2O splitting cycles were carried out in an 
+electric tubular furnace (Fig. S1), with ~0.8 g of reactive material. The 
+system permits to directly analyze the O2 and H2 gas produced at the 
+outlet, thus yielding production rate values (Fig. 2). The reduction step 
+was performed at 1400 ◦C after a heating ramp of 10 ◦C/min, with an Ar 
+flow rate of 0.2 NL/min. The oxidation step was performed at 1050 ◦C 
+for 40 min under 50% of H2O. The O2 and H2 production yields obtained 
+with the tubular furnace were in the same order of magnitude than the 
+O2 and CO production yields measured by TGA (207 μmol/g against 269 
+μmol/g for O2, and 236 μmol/g for H2 against 215 μmol/g for CO, in 
+tubular furnace and TGA, respectively). In the 2nd cycle, O2 and H2 
+yields were 123 and 251 μmol/g, confirming complete re-oxidation. The 
+oxygen production rate increased with the increase of temperature and 
+reached a peak value at the target temperature. Then, the O2 production 
+decreased slowly until reaching a sufficiently low production rate value 
+and the temperature was then decreased for the oxidation step. The H2 
+production rate reached a peak few seconds after steam injection and 
+then slowly decreased. This fits the kinetic studies reported for perov­
+skites in the literature [18,41]. The H2 production rate reached a 
+maximum value of 0.31 mL/min/g during both cycles, denoting good 
+production stability for LSMMg-P1. These results demonstrate that 
+LSMMg is able to split both CO2 and H2O with similar performance. 
+To explain the good thermochemical performance of LSMMg-P1, its 
+microstructure was observed by FESEM. Fig. 3 presents the micrographs 
+of LSMMg-P1 powder before and after redox cycles in TGA. The spongy 
+microstructure results from nitrate decomposition during Pechini syn­
+thesis. Such a morphology is typical for powders obtained by combus­
+tion reactions [40]. Grain sizes were measured in the range 0.5–1 μm. 
+Furthermore, the two thermochemical cycles performed in TGA did not 
+induce any sintering, as confirmed by the limited grain growth. The 
+presence of Mg2+ ion as stabilizer in the perovskite structure could 
+explain this behavior. Indeed, the strong Mg–O bond, resulting in high 
+melting temperature for MgO (2800 ◦C), could explain its good thermal 
+resistance [20]. Thermal resistance is a key asset for further process 
+implementation, as the reactive material should undergo multiple cycles 
+while maintaining stable performance. Thus, LSMMg-P1 appears as a 
+promising candidate for this purpose. 
+The grain size distribution is another important characteristic of the 
+reactive powder, with direct influence on its specific surface area. 
+Indeed, a high specific surface area promotes gas production rate during 
+the surface-controlled oxidation step. The particle size distribution of 
+both fresh and cycled LSMMg-P1 powders was investigated by laser 
+diffraction (Fig. 4), using the Fraunhofer diffraction theory and the 
+assumption of spherical particles. For the fresh sample, a bimodal dis­
+tribution of particle sizes is observed with two maximums centered at 
+Fig. 1. Influence of dopants on O2 and CO production yields, and re-oxidation extent (2nd cycle) for series of Ca and Sr-based perovskites.  
+Fig. 2. O2 and H2 production rates during two consecutive thermochemical 
+cycles for H2O splitting, performed in a tubular furnace with LSMMg-P1 
+A. Haeussler et al.                                                                                                                                                                                                                              
+
+
+===== Page 5 =====
+
+Materials Chemistry and Physics 276 (2022) 125358
+5
+5.9 μm and 27.4 μm. After two thermochemical cycles in TGA (CO2 
+splitting), the proportion of small particles strongly decreased in favor of 
+larger ones, attributed to a slight sintering effect. The two initial dis­
+tributions shift, combine, and form a single distribution, centered at 
+40.1 μm. In comparison with the small grain sizes (0.5–1 μm) observed 
+by SEM [24], the large particle sizes measured by laser diffraction 
+correspond to consolidated aggregates of grains partially sintered. It 
+appears clearly in Fig. 3 that these porous aggregates are more effi­
+ciently consolidated (sintered) after cycling although the size of grains 
+within the aggregates remains almost unchanged. 
+To sum up, Ca-doped perovskites offer higher reduction extent than 
+Sr-doped perovskites. Conversely, Sr-based perovskites show higher re- 
+oxidation yield than Ca-based perovskites. The use of Mg dopant in B- 
+site is promising. Mg2+ is not involved in redox reactions but it enhances 
+the oxidation degree of Mn (compared with Ga3+ and Al3+), thus fa­
+voring both reduction and oxidation extents. Mg2+ also acts as a sin­
+tering inhibitor as the LSMMg powder remains well dispersed and not 
+cohesive after TGA cycling, whereas other powders tend to sinter. 
+3.1.2. Sm and Pr-based strontium manganese perovskites 
+Numerous studies have investigated perovskites with lanthanum in 
+the A-site. In this work, other rare earth elements such as samarium or 
+praseodymium were investigated instead of lanthanum in order to 
+promote thermochemical performance. Five compositions were 
+selected: Sm0.75Sr0.25MnO3 (SmSrM75), Sm0.5Sr0.5MnO3 (SmSrM50), 
+Pr0.75Sr0.25MnO3 
+(PrSrM75), 
+Pr0.5Sr0.5MnO3 
+(PrSrM50), 
+and 
+Pr0.25Sr075MnO3 (PrSrM25). The P1 method was used to synthesize the 
+powder series. Their crystallographic structures were studied by XRD 
+(Fig. S4). It should be noted that the synthesis of Sm0.25Sr0.75MnO3 
+formulation was also attempted, but XRD analysis showed that the 
+perovskite structure did not form. 
+Fig. 5 shows TGA results for the strontium-manganese perovskite 
+series (including LSM for comparison). First, the Sr content influences 
+the non-stoichiometry extent reached by the reactive material. A high Sr 
+content induces a high amount of oxygen released; for example PrSrM25 
+(Pr0.25Sr075MnO3) produces 668 μmol/g of O2 against 146 μmol/g for 
+PrSrM75 (Pr0.75Sr0.25MnO3). The O2 production rate is also sharply 
+enhanced (Fig. S5). As highlighted in the literature, increasing the Sr 
+content increases the Mn oxidation state in B-site. As the reduction re­
+action depends on the reduction of Mn4+ to Mn3+, an increase of Sr 
+content enhances the reduction extent [18,39,42–47]. However, 
+increasing Sr content does not enhance the CO yield. For a fixed Sr 
+content, the amount of O2 released depends on the Sr-substitution 
+element in the A-site. With 50% Sr, the O2 production yield increases 
+in the following order: LSM (232 μmol) < PrSrM50 (268 μmol/g) <
+SmSrM50 (377 μmol/g). Using Sm3+ or Pr3+ in the A-site thus enhances 
+the reduction step in comparison with La3+. The CO production during 
+the first cycle increases in the following order: PrSrM50 (153 μmol/g) <
+SmSrM50 (169 μmol/g) < LSM (190 μmol/g). The highest O2 production 
+yield is obtained with PrSrM25 (668 μmol/g) whereas the highest CO 
+production yield is obtained with SmSrM75 (180 μmol/g). Thus, Sm and 
+Pr in A-site (instead of La) have beneficial impact on the reduction step 
+but they decrease the amount of CO produced during the oxidation step, 
+impeding the enhancement of thermochemical performance. However, 
+Fig. 3. FESEM observations of LSMMg-P1 powder: a) and b) before cycling; c) and d) after cycling in TGA for CO2 splitting.  
+Fig. 4. Particle size distribution of fresh (red) and cycled (blue) LSMMg-P1 
+powder. (For interpretation of the references to color in this figure legend, 
+the reader is referred to the Web version of this article.) 
+A. Haeussler et al.                                                                                                                                                                                                                              
+
+
+===== Page 6 =====
+
+Materials Chemistry and Physics 276 (2022) 125358
+6
+all the materials show very good fuel production stability and higher 
+productivity than pure ceria under similar conditions [48]. 
+3.1.3. Lanthanum cobalt perovskites 
+Lanthanum cobalt perovskites were studied for their attractive 
+magnetic properties [49] or their performance as cathode materials in 
+high temperature fuel cells [50]. Due to their high oxygen exchange 
+capacities, lanthanum cobalt perovskites also appear as potentially 
+attractive reactive materials for thermochemical cycles. Both 
+La0.5Sr0.5CoO3 (LSCo) and LaMn0.5Co0.5O3 (LMCo) were selected for 
+tests in thermochemical cycles. The XRD patterns of LSCo and LMCo 
+confirm the formation of the expected crystallographic structure 
+(Fig. S6). Fig. S7 compares the mass variation during two thermo­
+chemical cycles for LSCo and LMCo. The LSCo cycles were carried at a 
+lower reduction temperature (1300 ◦C) due to the melting risk of this 
+material at higher temperatures. The oxidation temperature was also 
+decreased to 950 ◦C in order to maintain a similar temperature swing for 
+all TGA cycling experiments. The CO production yield of LMCo was low 
+(~100 μmol/g) due to the weak non-stoichiometry extent reached 
+during the reduction step (δ = 0.021). On the contrary, LSCo reached a 
+high reduction extent during the first cycle (1191 μmol/g) and high 
+subsequent mass uptake (1141 μmol/g) despite a low re-oxidation 
+extent (48%). This result was ascribed to carbonate formation, as 
+denoted by the sharp mass loss observed when stopping CO2 feed (also 
+evidenced in Ref. [23]), reflecting prompt decarbonation (CO2 release) 
+and unsuitability for CO2 redox splitting. In a previous work in our 
+group, this material was also tested for H2O splitting and low H2 pro­
+duction was measured, confirming its low thermochemical splitting 
+activity [43]. In addition, strong sintering or partial melting occurred in 
+the crucible after TGA performed with CO2. The XRD pattern of LSCo 
+after thermochemical cycles highlighted the decomposition of 
+La0.5Sr0.5CoO3 to LaSrCoO4 and CoO (Fig. S6), as previously pointed out 
+in Ref. [43]. 
+3.1.4. Yttrium manganese perovskites 
+Yttrium manganese perovskites have been widely studied for air 
+separation applications due to their ability to selectively absorb, store 
+and release significant amounts of oxygen [51]. The high oxygen ex­
+change capacity is a key parameter for reactive materials in thermo­
+chemical cycles. In this respect, series of yttrium manganese perovskites 
+were investigated in this work for thermochemical CO2 splitting cycles. 
+Four promising compositions were selected: Y0.97La0.03MnO3 (YLaM), 
+Y0.9Ce0.1MnO3 
+(YCeM), 
+Y0.87Sr0.1La0.03MnO3 
+(YLaSrM), 
+and 
+Y0.9Sr0.1MnO3 
+(YSrM). 
+The 
+XRD 
+patterns 
+of 
+the 
+prepared 
+yttrium-manganite perovskite series are shown in Fig. S8. Their struc­
+tures correspond to the space group P63cm (01-070-4962). YSrM shows 
+a peak shift due to the substitution of Y3+ by Sr2+ in comparison with 
+YMnO3, inducing the following lattice parameters: a = 6.11 Å and c =
+11.25 Å. After thermochemical cycles, the lattice parameters slightly 
+increase, with a = 6.16 Å and c = 11.47 Å. Both YLaM and YCeM show 
+increased lattice parameters (a = 6.16 Å and 6.21 Å; c = 11.48 Å and 
+11.98 Å, respectively) in comparison with YMnO3 (a = 6.13 Å; c = 11.40 
+Å). This is due to the higher ionic radii of La (1.03 Å) and Ce (1.01 Å) in 
+comparison with Y (0.90 Å) [52]. Similarly to YSrM, both YLaM and 
+YCeM present a decrease in lattice parameters after thermochemical 
+cycles: a = 6.15 Å and c = 11.43 Å for YLaM and a = 6.20 Å and c =
+11.94 Å for YCeM. 
+Fig. 6 shows the mass variation during two thermochemical cycles, 
+along with the O2 and CO production yields. The TGA of YCeM was 
+aborted after the first cycle due to very low re-oxidation extent. A high 
+mass loss was observed during the first part of the reduction step (until 
+1128 ◦C) and thus, only the mass variation measured during the second 
+part of the reduction step (above 1128 ◦C) was taken into account to 
+calculate the oxygen yield. Among the tested yttrium manganese pe­
+rovskites, YLaSrM reached the highest reduction extent with 145 μmol/g 
+of O2 in comparison with 54 μmol/g, 47 μmol/g, and 127 μmol/g for 
+YLaM, YCeM, and YSrM, respectively. The CO production yields fol­
+lowed the same trend as the O2 production yields, suggesting that CO 
+production depends on the achieved non-stoichiometry, with the 
+following yields: YLaSrM (135 μmol/g) > YSrM (118 μmol/g) > YLaM 
+(86 μmol/g) > YCeM (33 μmol/g). Despite its low reduction extent, 
+YLaM displays high re-oxidation extent (77%) during the 1st cycle in 
+comparison with YSrM (46%). Furthermore, both O2 and CO production 
+yields for YSrM during the 2nd cycle are lower (106 μmol/g and 106 
+μmol/g, respectively) than those of the first cycle (127 μmol/g and 118 
+μmol/g, respectively). On the contrary, YLaM exhibits an increase of 
+both O2 and CO production yields when comparing the first and second 
+cycles (from 54 to 60 μmol/g and from 86 to 107 μmol/g, respectively). 
+This can be explained by a slow reduction rate of the material. Indeed 
+during the first cycle, YLaM does not reach its maximum reduction 
+extent. Hence, the non-stoichiometry extent continues to increase dur­
+ing the second step. Among the yttrium manganese perovskites inves­
+tigated, YLaSrM offers the best performance with the highest CO 
+production yield (137 μmol/g). Furthermore, the CO production yield is 
+stable between the first and the second cycle, highlighting the thermo­
+chemical stability of this perovskite material. The re-oxidation extent of 
+YLaSrM during the second cycle reached 91%. Consequently, YLaSrM 
+appears to be the most promising reactive material among the investi­
+gated yttrium manganese perovskite series. 
+3.1.5. Barium manganese perovskites 
+Barcellos et al. identified cerium-doped barium manganese perov­
+skite as a promising water-splitting material due to its appropriate ox­
+ygen bonding strength [53]. In order to test this type of perovskite, 
+BaCe0.5Mn0.5O3 (BaCeMn) was synthesized by the Pechini method. As 
+reported in Ref. [53], a mixture of two phases BaCe0.5Mn0.5O3 and CeO2 
+Fig. 5. a) Thermogravimetric reduction and re-oxidation profiles for CO2 splitting and b) O2 and CO production yields for a series of strontium manganite 
+perovskites. 
+A. Haeussler et al.                                                                                                                                                                                                                              
+
+
+===== Page 7 =====
+
+Materials Chemistry and Physics 276 (2022) 125358
+7
+was evidenced in the XRD patterns (Fig. S9). Two TGA cycles were 
+carried out as presented in Fig. S10. During the first cycle, 220 μmol/g 
+and 154 μmol/g of O2 and CO were produced, respectively. These values 
+are in line with those obtained for lanthanum manganese perovskites 
+[39]. However, during the second cycle, CO production yield fell to 110 
+μmol/g and a poor re-oxidation yield was achieved. Such a decrease in 
+performance is not consistent with the good stability highlighted by 
+Barcellos et al. [53]. This may be explained by the slightly higher 
+reduction temperature used here (1400 ◦C) in comparison with Barcellos 
+work (1350 ◦C). Indeed, higher temperatures can induce sintering that 
+may hinder the re-oxidation reaction. Furthermore, a decomposition of 
+the BaCeMn structure (with formation of BaCeO3 and MnO3 phases) was 
+evidenced by XRD after cycling (Fig. S9), thus explaining the degrada­
+tion of thermochemical performance. For these reasons, such a formu­
+lation appears unsuitable for solar thermochemical application. 
+3.1.6. Ceria and doped-ceria 
+Currently, ceria is considered as the state-of-art material for two-step 
+thermochemical cycles, due to the stability of its crystallographic 
+structure over a large range of non-stoichiometry and working condi­
+tions. However, it suffers from a low reduction extent impeding high fuel 
+production yield [54–57]. Numerous doping strategies have been 
+explored to improve ceria thermochemical performance [48,58–60]. In 
+this work, three promising compositions were selected from the litera­
+ture and synthesized via Pechini method (P2): Ce0.85Zr0.15O2 (CeZr15), 
+Ce0.63Zr0.37O2 (CeZr37) and Ce0.63Zr0.27Al0.1O2 (CeZr27Al10). CeO2 
+was used as reference material. The formation of a fluorite structure was 
+checked by XRD for all the selected formulations (Fig. S11). Fig. 7 shows 
+the TGA profiles of both ceria and doped-ceria powders along with the 
+O2 and CO production yields. In comparison with pure ceria, the 
+doped-ceria series presents enhanced reduction extent during the first 
+cycle (in the range of 116–176 μmol/g compared with 55 μmol/g for 
+pristine ceria). Doping with Zr has a beneficial impact on ceria reduction 
+extent: the reduction yield increases from 55 μmol/g for pure ceria to 
+176 μmol/g for CeZr37. The lattice distortion induced by the incorpo­
+ration of Zr4+ enhances oxygen mobility, explaining the higher O2 yield 
+obtained with Zr-doped ceria [60,61]. 
+The total amount of dopant in CeZr27Al10 and CeZr37 is similar 
+(37%), however the O2 released by CeZr27Al10 (129 μmol/g) is 
+significantly lower than the value measured for CeZr37 (176 μmol/g). 
+Thus, simultaneous incorporation of both Al and Zr into ceria is not 
+beneficial to the reduction extent. Concerning the oxidation step, the CO 
+production yield increases in the following order: CeZr37 (72 μmol/g) <
+CeO2 (95 μmol/g) ≈CeZr27Al10 (86 μmol/g) < CeZr15 (144 μmol/g). 
+Doped-ceria materials offer low re-oxidation extent (in the range of 
+20–62%) in comparison with pristine ceria (77%) due to slow kinetics. 
+During the second cycle, CeZr37 and CeZr27Al10 show a decrease of the 
+amount of CO produced (69 μmol/g and 57 μmol/g, respectively) in 
+comparison with the first cycle (72 μmol/g and 86 μmol/g, respectively). 
+Such a decrease in performance is attributed to the low thermal stability 
+of the microstructure of these materials (synthesized via P2 method, 
+favoring strong sintering and well adapted for preparing dense mem­
+brane [24]), making them not suitable for consecutive cycling operation. 
+Within this series, the best performing materials are thus pure ceria due 
+to high re-oxidation rates, and CeZr15 due to the improved fuel pro­
+ductivity (at the expense of lower oxidation rates for Zr-substituted 
+ceria). When considering two-step redox cycles, the activity of ceria 
+and ceria-zirconia synthesized via different methods was studied before 
+[62]. The thermal stability of the microstructure of these ceria-based 
+materials was enhanced when adequate synthesis methods were used 
+to limit sintering, thus enhancing final CO production yields. However, 
+the fuel yield relative to unit mass of ceria remains low because the 
+Fig. 6. a) Thermogravimetric reduction and re-oxidation profiles with CO2 (solid lines) and associated temperatures (dashed line), b) O2 and CO production yields 
+for yttrium manganite perovskite series. 
+Fig. 7. a) Thermogravimetric reduction and re-oxidation profiles (solid lines) and associated temperatures (dashed line), b) O2 and CO production yields for ceria 
+and doped-ceria materials. 
+A. Haeussler et al.                                                                                                                                                                                                                              
+
+
+===== Page 8 =====
+
+Materials Chemistry and Physics 276 (2022) 125358
+8
+reduction extent (δ value) is limited, and most of perovkite formulations 
+compete favorably with ceria in terms of reduction extent and fuel 
+productivity. 
+3.2. Thermodynamic study 
+The determination of thermodynamic properties is interesting to 
+predict both the theoretical reduction extent and the fuel production 
+yield of materials. Thermodynamic properties were assessed from 
+experimental measurements of oxygen non-stoichiometry δ at given T- 
+pO2, for two selected materials: LSMMg-P1 (the most promising material 
+studied here) and Ca0.5Sr0.5MnO3 (CSM). 
+The CSM perovskite was already studied for thermochemical energy 
+storage applications due to its excellent oxygen exchange capacity and 
+associated heat storage capacity [63,64]. However, a re-oxidation with 
+CO2 at 1050 ◦C is unsuitable to observe significant CO production. A 
+re-oxidation performed during continuous temperature decrease 
+revealed that the oxidation rate became more favorable when 
+approaching 600 ◦C. After a reduction at 1400 ◦C under 10 ppm O2, the 
+final non-stoichiometry extent reached by CSM near equilibrium led to 
+an O2 production yield of 1302 μmol/g (Fig. 8a). After cooling down to 
+600 ◦C in Ar, followed by CO2 injection (50%), its re-oxidation extent 
+was weak (less than 20%), which highlights the need for a large tem­
+perature swing to favor the oxidation step and produce significant 
+amounts of CO (~350 μmol/g at 600 ◦C after a reduction plateau up to 
+1400 ◦C for CSM, Fig. 8a). Similarly, Ca0.5Sr0.5Mn0.5Fe0.5O3 (CSMF) 
+displays an O2 yield of 913 μmol/g at 1300 ◦C under 10 ppm O2 and a CO 
+production yield of 315 μmol/g at 600 ◦C (Fig. S12). For such perov­
+skites, a large temperature swing is thus required for acceptable CO 
+production, which is inappropriate for rapid cycling due to the required 
+heating/cooling stages between reaction steps of thermochemical cy­
+cles. These results evidence very different redox behaviors for CSM and 
+LSMMg materials, and it was thus particularly relevant to study and 
+compare their thermodynamic properties. 
+To evaluate the partial molar enthalpy and entropy as a function of 
+the non-stoichiometry, the Van’t Hoff method was applied according to 
+Equation (1) [65,66]. If ΔH◦(δ) and ΔS◦(δ) do not depend on the tem­
+perature, as often observed, an Arrhenius plot of a set of T-pO2 pairs for a 
+given δ value yields a linear curve, with the values of enthalpy and en­
+tropy of reduction given by the curve slope and intercept, respectively. 
+To this aim, three steps are required, as represented in Fig. 8 for CSM 
+material. Firstly, thermogravimetric analyses were carried out with 
+several temperature steps (1000 ◦C, 1100 ◦C, 1200 ◦C, 1300 ◦C, and 
+1400 ◦C) under different values of oxygen partial pressures pO2 (10 ppm, 
+250 ppm, 2000 ppm, and 10000 ppm). Fig. 8a and 8 b present the 
+thermogravimetric analysis of CSM under 10 ppm O2 and 250 ppm O2, 
+respectively. At the different temperatures, for all the couples (T, pO2), 
+the non-stoichiometry at equilibrium δ was determined (by numerical 
+extrapolation for low pO2 conditions because equilibrium is often hardly 
+reached for the lowest pO2 value corresponding to 10 ppm). Secondly, 
+for all the investigated pO2 values, the non-stoichiometry extent δ was 
+plotted as a function of the temperature, as shown in Fig. 8c. Finally, for 
+each δ value, the logarithm plot of pO2 versus the inverse temperature 
+was fitted by linear regression from which the enthalpy and entropy of 
+reduction were extracted using Eq. (1) (Fig. 8d). Thus, both enthalpy 
+and entropy can be calculated for all the non-stoichiometry extent 
+values. Likewise, the different data used to compute the thermodynamic 
+properties of LSMMg are presented in Fig. 9. 
+ln
+(pO2
+P◦
+)
+δ = 2ΔSo(δ)
+R
+−2ΔHo(δ)
+RT
+(1) 
+The thermodynamic properties of both materials were investigated 
+with calculation of their partial molar enthalpies and entropies as a 
+function of oxygen non-stoichiometry (Fig. 10). The enthalpy and en­
+tropy values for CeO2 and La0.5Sr0.5MnO3 (LSM) calculated by Refs. [18, 
+67] were also plotted for comparison. Both LSM and LSMMg show 
+similar and consistent trends because the materials have close redox 
+activity, which confirms experimental data reliability. CSM features a 
+large oxygen non-stoichiometry variation and an increase of entropy 
+Fig. 8. a) TGA of CSM under 10 ppm O2 and b) TGA of CSM under 250 ppm O2, with successive temperature steps (heating rate of 20 ◦C/min, dwell of 45 min at each 
+temperature plateau), c) non-stoichiometry extent as a function of temperature, and d) logarithm of oxygen partial pressure versus inverse temperature for CSM. 
+A. Haeussler et al.                                                                                                                                                                                                                              
+
+
+===== Page 9 =====
+
+Materials Chemistry and Physics 276 (2022) 125358
+9
+and enthalpy values with the increase of non-stoichiometry (in the δ 
+range 0.1–0.32 related to the experimental measurements), as also 
+previously noticed for several other perovskite materials that repro­
+duced a similar trend [68–72]. Fig. 11 presents the evolution of the 
+Gibbs free enthalpy (ΔG) as a function of the non-stoichiometry extent 
+for a temperature of 1400 ◦C under 10 ppm O2. For both CSM and 
+LSMMg-P1, ΔG values constantly increase with the increase of 
+non-stoichiometry. This can be explained by the fact that increasing the 
+non-stoichiometry requires increasing the energy input to the reaction. 
+From the knowledge of the enthalpy and entropy values, it is possible 
+to determine the theoretical maximum non-stoichiometry extent for 
+both the oxidation and reduction steps. In the following, both the 
+reduction extent and re-oxidation yield of CSM and LSMMg in similar 
+conditions than TGA (reduction at 1400 ◦C under 10 ppm O2 with a re- 
+oxidation step at 1050 ◦C) are predicted thanks to the thermodynamic 
+data extracted from the previous analysis. At the reaction equilibrium, 
+the Gibbs free enthalpy of the reaction is null. To obtain the final non- 
+stoichiometry extent (δf), the non-standard Gibbs free enthalpy needs 
+to be determined as a function of non-stoichiometry. Thus, for fixed 
+operating conditions, the reduction extent at equilibrium, which corre­
+sponds to a null Gibbs free enthalpy, is the final reduction extent 
+Fig. 9. a) TGA of LSMMg under 10 ppm O2 and b) TGA of LSMMg under 250 ppm O2 with successive temperature steps (heating rate of 20 ◦C/min, dwell of 60 min), 
+c) non-stoichiometry extent as a function of temperature, and d) logarithm of oxygen partial pressure versus inverse temperature for LSMMg. 
+Fig. 10. a) Enthalpy and b) entropy of reduction as a function of the oxygen 
+non-stoichiometry for CSM and LSMMg. Data for CeO2 and LSM issued from 
+Refs. [16,67] were also reported for comparison purpose. 
+Fig. 11. Gibbs free enthalpy at 1400 ◦C under 10 ppm O2 versus the non- 
+stoichiometry extent for CSM and LSMMg. 
+A. Haeussler et al.                                                                                                                                                                                                                              
+
+
+===== Page 10 =====
+
+Materials Chemistry and Physics 276 (2022) 125358
+10
+obtained from Equation (2). 
+ΔGo(
+δf
+)
+= ΔHo(
+δf
+)
+−TredΔSo(
+δf
+)
++ 1
+2 RT ln
+(pO2
+P◦
+)
+= 0
+(2) 
+The values of the final oxygen non-stoichiometry of CSM and LSMMg 
+after the reduction step thus derive from the vertical dashed lines cor­
+responding to ​ ΔG = 0 in Fig. 11. 
+Concerning the oxidation step, it is also possible to determine the 
+maximum non-stoichiometry reached after the re-oxidation reaction 
+(δox). The re-oxidation of the reduced material (MxOy−δred) with CO2 
+(reaction 3) is the sum of the material oxidation with O2 (reaction 4) and 
+the CO2 dissociation (reaction 5). 
+1
+ΔδMxOy−δred + CO2→1
+ΔδMxOy−δox + CO
+(3)  
+1
+ΔδMxOy−δred + 1
+2O2→1
+ΔδMxOy−δox
+(4)  
+CO2 →CO + 1
+2O2
+(5) 
+Thus, the Gibbs free enthalpy of re-oxidation reaction is the sum of 
+the Gibbs free enthalpy of the two previous reactions, as defined by 
+Equation (6), 
+ΔG
+◦
+re−ox = −ΔG
+◦
+ox(δox) + ΔG
+◦
+CO2
+(6)  
+Where ΔG
+◦
+re−ox, ΔG
+◦
+ox and ΔG
+◦
+CO2 are the standard free energy of reactions 
+(3), (4), and (5) respectively. The equilibrium constant of the CO2 
+dissociation can be expressed at 1 atm as: 
+Kdiss = pCO × p1/2
+O2
+pCO2 × P◦1/2
+(7)  
+Where Kdiss is the dissociation constant, pCO, pO2, and pCO2 are the partial 
+pressure of CO, O2, and CO2, respectively. The CO yields at equilibrium 
+can be determined by expressing the oxygen partial pressure in terms of 
+the dissociation constant, and values of CO2 and CO partial pressures, as 
+shown in Equation (8). 
+ΔGO(δred −Δδ) = RTox ln
+[KdisspCO2
+pCO
+]
+(8) 
+The CO2 and CO partial pressures can be expressed according to the 
+following equations: 
+pCO2 = nCO2, i −nCO
+ng
+(9)  
+pCO = nCO
+ng
+(10) 
+Where nCO2,i, nCO, ng are the initial amount of CO2, the amount of CO 
+and the total amount of gas per mole of reactive material, respectively. 
+Combining equations (8)–(10) allows to determine the amount of CO 
+produced per mole of material, and corresponding to Δδ. It is assumed 
+that the reaction occurs in a closed-system and that spontaneous CO2 
+dissociation is not significant at the oxidation temperature. Similar 
+reasoning can be applied for an oxidation step using water as oxidant gas 
+[73–76]. Using the method previously exposed, the theoretical reduc­
+tion extent and fuel production yield for CSM and LSMMg were 
+computed (Table 1), representing the boundary values predicted by 
+thermodynamics. The operating conditions inputted in the thermody­
+namic model were the followings: a reduction step at 1400 ◦C under 
+10−5 bar of O2 partial pressure, followed by a re-oxidation step at 
+1050 ◦C. The initial amount of oxidant gas was assumed to be in large 
+excess at nCO2,i = 1000δred as used in Ref. [74]. These operating condi­
+tions correspond to those used in TGA. In addition, a less favorable 
+initial CO2 amount for oxidation corresponding to nCO2,i = 10δred was 
+also considered for comparison. The theoretical final non-stoichiometry 
+extents after the reduction step were calculated at δ = 0.475 and 0.231 
+for CSM and LSMMg-P1, respectively. Thus, CSM reached a higher 
+reduction extent than LSMMg-P1 at equilibrium (O2 production: 1469 
+μmol/g for CSM and 542 μmol/g for LSMMg-P1). This is due to the lower 
+enthalpy for CSM in comparison with LSMMg-P1, which permits to 
+reach higher final non-stoichiometry. Concerning the oxidation step, 
+LSMMg-P1 presents a high re-oxidation yield (72%), whereas it is only 
+32% for CSM at 1050 ◦C for nCO2,i = 1000δred. Indeed, CSM exhibits a too 
+low enthalpy to allow full re-oxidation. A decrease in the initial amount 
+of excess CO2 to 10δred leads to the re-oxidation yield decrease (decrease 
+of Δδ in Table 1). The comparison between the theoretical and experi­
+mental values obtained with TGA shows a large disparity. This can be 
+explained by the limited cycling duration used in TGA, impeding reac­
+tion completion, whereas the thermodynamic equilibrium study does 
+not consider reaction kinetics. Secondly, as the reduction step is not 
+complete, then during the re-oxidation step, the non-stoichiometry 
+variation is lower. This analysis confirmed that the very different 
+redox behavior of CSM (high reducibility and low oxidation capability 
+with CO2) in comparison with LSMMg can be predicted from thermo­
+dynamic properties derived from experimental δ(T,pO2) measurements. 
+Thus, the thermodynamic study is a relevant approach to highlight 
+interesting reactive materials for thermochemical cycles, although it 
+must be completed with experimental data and kinetic study of ther­
+mochemical cycles. 
+3.3. Kinetic study 
+The kinetics of redox reactions was investigated to predict the 
+amount of fuel produced by a reactive material as a function of the 
+cycling time. However, the study of reaction kinetics is complex due to 
+the high number of involved parameters. The kinetic rate of a reaction is 
+defined by equation (11), 
+dα
+dt = A exp
+(
+−Ea
+RT
+)
+f(α)
+(11)  
+where α is the conversion extent, f a mathematical function representing 
+the reaction mechanism, Ea the activation energy, A the pre-exponential 
+factor and T the temperature. 
+The main reaction models used in solid-state kinetics are presented in 
+Table 1 
+Theoretical non-stoichiometry extents and O2 and CO production yields derived from thermodynamic equilibrium investigations (Tred = 1400 ◦C, pO2, red = 10−5 bar, 
+Tox = 1050 ◦C under CO2 excess).   
+Reduction step 
+Oxidation step 
+Compound 
+δred  
+O2 produced 
+δox 
+for nCO2,i =
+Δδ 
+for nCO2,i =
+CO produced 
+for nCO2,i =
+1000δred  
+10δred  
+1000δred  
+10δred  
+1000δred  
+10δred    
+(μmol/g)     
+(μmol/g) 
+CSM 
+0.475 
+1469 
+0.321 
+0.344 
+0.154 
+0.041 
+923 
+246 
+LSMMg-P1 
+0.231 
+542 
+0.064 
+0.075 
+0.167 
+0.155 
+784 
+727  
+A. Haeussler et al.                                                                                                                                                                                                                              
+
+
+===== Page 11 =====
+
+Materials Chemistry and Physics 276 (2022) 125358
+11
+Table S3 [77,78]. The nucleation models describe reactions such as 
+crystallization, crystallographic transition or adsorption. The geomet­
+rical contraction models assume that the reaction is controlled by the 
+progression of the reaction interface toward the center of a reactive 
+particle. Diffusion models represent the kinetic mechanism for a reac­
+tion controlled by diffusion through the thickness of the product barrier. 
+In the order-based models, the reaction rate is proportional to the con­
+centration of remaining reactants. In this study, two approaches are 
+proposed to investigate the kinetics of the reduction reaction. The first 
+one is a simple method requiring experimental data with only one 
+heating rate, which provides a first evaluation of the activation energy. 
+The second method requires performing the reduction reaction with at 
+least three different temperature ramps and permits to obtain the acti­
+vation energy as a function of the conversion extent. 
+3.3.1. Direct method to determine the activation energy 
+The first method permits to calculate the apparent activation energy 
+of the reduction reaction by assuming that the reaction mechanism is 
+unchanged during the process. Rewriting the general kinetic equation 
+(11) gives Equation (12). 
+ln
+(dα/dt
+f(α)
+)
+= ln(A) −
+Ea
+RT
+(12) 
+By plotting ln
+(
+dα/dt
+f(α)
+)
+as a function of 1/T, the activation energy is 
+calculated by linear regression. This method requires knowing the re­
+action model function and thus the contracting sphere model (R3) was 
+used, assuming that the reaction proceeds from the external surface to 
+the core of particles [79]. Indeed, the contracting sphere model (R3) 
+offers the best fitting of experimental data (as shown in Fig. S13, 
+comparing with A3 and F3 models). The activation energies for all the 
+investigated materials were calculated with this method, using TGA data 
+(with a heating ramp to 1400 ◦C at 20 ◦C/min in Ar). Fig. 12 represents 
+the O2 production yield of all the investigated reactive materials as a 
+function of the activation energy of the reduction reaction. The hol­
+lowed scatters represent data with high residual standard deviation 
+value during the linear regression. Within a given material family, the 
+increase of activation energy was clearly correlated to the decrease of O2 
+production yield. Indeed, the activation energy represents the energy 
+barrier that should be overpassed to perform a reaction. Consequently, 
+the activation energy can be used as an indicator to predict the 
+non-stoichiometry reached by a reactive material. However, it does not 
+give any indication on the oxidation step, impeding to predict the 
+amount of fuel produced. The correlation existing between the 
+non-stoichiometry extent and the activation energy is further empha­
+sized in the next section in the case of LSMMg reduction. 
+3.3.2. Iso-conversion method 
+The activation energy as a function of the conversion extent can be 
+obtained thanks to the iso-conversion method. It assumes that, for a 
+fixed conversion extent, the reaction rate only depends on the temper­
+ature, as expressed by Equation (13). 
+⎡
+⎢⎣
+∂ln
+(
+dα
+dt
+)
+∂T−1
+⎤
+⎥⎦
+α
+= −Eα
+R
+(13) 
+Numerous iso-conversional computational methods exist, using the 
+same principle. In this study, the differential iso-conversional method 
+developed by Friedman [80] was used. It is based on Equation (14): 
+ln
+(dα
+dt
+)
+α, i
+= ln[f(α)Aα] −
+Eα
+RTα,i
+(14)  
+where i denotes the heating rate, and Tα,i is the temperature at which α is 
+reached under the heating rate i. Plotting ln
+(
+dα
+dt
+)
+α,i 
+as a function of 1/
+Tα,i allows obtaining the activation energy for each α value, determined 
+from the slope of the plot (Fig. 13). The method is model-free, as it does 
+not require any reaction model assumption. Complex reaction mecha­
+nisms can even be highlighted by a discontinuity of the activation en­
+ergy as a function of the conversion extent. Three temperature ramps 
+were performed in TGA, as illustrated in Fig. 13a. The rates from TGA 
+measurements were assumed not being affected by mass transfer limi­
+tations given the low solid mass involved (gas phase oxygen diffusion is 
+not limiting) and the sweep gas flow rate was kept unchanged during the 
+tests at different heating rates. The conversion extent was defined as the 
+ratio of the non-stoichiometry extent to the final non-stoichiometry 
+extent. The latter was assumed to be the theoretical final non- 
+stoichiometry extent at 1400 ◦C under 10 ppm O2 (calculated in the 
+thermodynamic study). The non-stoichiometry evolution as a function 
+Fig. 12. Experimental O2 yield as a function of activation energy for the series of investigated reactive materials.  
+A. Haeussler et al.                                                                                                                                                                                                                              
+
+
+===== Page 12 =====
+
+Materials Chemistry and Physics 276 (2022) 125358
+12
+of temperature for 3 ◦C/min and 5 ◦C/min ramps are very similar (but 
+different) because the temperature ramps are very close. The non- 
+stoichiometry interval in which the activation energy was determined 
+corresponds to the non-stoichiometry values reached at the different 
+temperatures during heating, since the iso-conversional method 
+required using different temperatures for a given α value. 
+The activation energy for the reduction of LSMMg-P1 was computed 
+with this method (Fig. 14). The evolution of the activation energy versus 
+non-stoichiometry extent does not show any discontinuity, revealing a 
+single reaction mechanism during the reduction step. The activation 
+energy is not constant with the evolution of the reduction extent: it in­
+creases from ~300 kJ/mol up to ~500 kJ/mol when non-stoichiometry 
+increases. This means that the reduction of LSMMg-P1 becomes more 
+kinetically limited as oxygen extraction proceeds, and the reduction 
+reaction is thus increasingly hindered. This result confirms the relevance 
+of activation energy determination versus non-stoichiometry during the 
+reduction reaction. The iso-conversion method provides relevant infor­
+mation about the kinetic behavior of reactive materials for thermo­
+chemical cycles. Regarding the oxidation step, such methods are not 
+applicable because the oxidation step is thermodynamically favored by a 
+temperature decrease in the investigated temperature range, thus 
+implying a thermodynamic control of the reaction. 
+4. Conclusion 
+A large range of materials compositions was probed in order to 
+identify suitable formulations for thermochemical cycles with poten­
+tially high solar-to-fuel conversion efficiency. The materials were 
+experimentally screened to unveil the variations in redox reactivity. In 
+comparison with ceria, considered as the benchmark material, 
+numerous perovskites offer improved thermochemical performance 
+related to both reduction extent and fuel production capacity, such as 
+(La,A)(B,Mn)O3 (with A = Ca and Sr, and B = Al, Al/Cr, Cr, Ga and Mg), 
+(Y,La)SrMnO3, (Pr,Sr)MnO3, and (Sm,Sr)MnO3. LSMMg exhibits prom­
+ising performance, combining high reduction extent, high fuel produc­
+tion yield, and good thermal stability. In addition, Ca0.5Sr0.5MnO3 
+(CSM) was also investigated due to its high reduction capability and 
+oxygen mobility, potentially attractive for ceramic membrane applica­
+tions (requiring enhanced oxygen ion transport). Kinetic and/or ther­
+modynamic properties of LSMMg and CSM were extracted from different 
+experiments to provide further insights into their redox activity. 
+It has been demonstrated that in A1-xSrxMnO3 perovskites, Sm3+ and 
+Pr3+ in A-site permit to increase the reduction extent in comparison with 
+Fig. 13. a) Mass variation during TGA of LSMMg for different heating rates under Ar (3 ◦C/min, 5 ◦C/min, and 20 ◦C/min) along with the associated temperature 
+profiles. The mass loss during the first reduction step at the different heating rates was used for kinetic analysis (after reduction, the material was re-oxidized at 
+1050 ◦C under 50% CO2 in Ar). b) Associated conversion extent as a function of the non-stoichiometry, c) associated non-stoichiometry extent as a function of 
+temperature, and d) logarithm of the reaction rate as a function of the inverse temperature for different non-stoichiometry extents at constant heating rates. 
+Fig. 14. Activation energy of LSMMg reduction as a function of the non- 
+stoichiometry extent. 
+A. Haeussler et al.                                                                                                                                                                                                                              
+
+
+===== Page 13 =====
+
+Materials Chemistry and Physics 276 (2022) 125358
+13
+La3+ but the re-oxidation yield is not enhanced. The extent of Sr2+
+substitution impacts on the perovskite reduction extent as it modifies the 
+Mn oxidation state. Among the lanthanum-manganite perovskites, Ca2+
+dopant in A-site permits to increase the amount of oxygen released in 
+comparison with Sr2+ but not the fuel production yield. For LSM, doping 
+with Ga3+, Al3+ and Mg2+ brings about an improvement of the amount 
+of oxygen and fuel produced. On the contrary, doping with Cr or Al/Cr 
+negatively impacts on LSM thermochemical performance. 
+For doped-ceria, the increase of Zr4+ incorporation enhances the 
+reduction extent. The optimal Zr content appears to be 15% as it in­
+creases both the oxygen and fuel production yields. Conversely, co- 
+doping with Al3+/Zr4+ does not improve ceria thermochemical cycles. 
+Regarding kinetics, it has been highlighted that the activation energy 
+of the reduction step is correlated with the reduction extent of the 
+reactive material. Moreover, the activation energy increases with the 
+increase of the non-stoichiometry extent during the progression of the 
+reduction reaction. However, reduction kinetics does not allow antici­
+pating the re-oxidation rate/yield, which is also a key factor for mate­
+rials selection. In addition, the determination of thermodynamic 
+properties permits to predict the theoretical reduction and re-oxidation 
+extent, but experimental values can be lower than those predicted at 
+thermodynamic equilibrium due to kinetic limitations. Thus, it is 
+essential to combine both kinetic and thermodynamic studies, in order 
+to provide the most complete overview of the redox behavior of the 
+selected reactive materials. 
+CRediT authorship contribution statement 
+Anita Haeussler: Investigation, Data curation, Formal analysis, 
+Visualization, Validation, Writing – original draft. Anne Julbe: Writing 
+– review & editing, Supervision. St´ephane Abanades: Conceptualiza­
+tion, Methodology, Investigation, Data curation, Formal analysis, Vali­
+dation, Writing – review & editing, Supervision, Project administration, 
+Funding acquisition. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgments 
+This work was funded by the French National Agency for Research 
+(ANR, SUNFUEL project, contract N◦ANR-16-CE06-0010). The authors 
+thank J. Jouannaux for P2-powders synthesis. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.matchemphys.2021.125358. 
+References 
+[1] C.L. Muhich, B.D. Ehrhart, I. Al-Shankiti, B.J. Ward, C.B. Musgrave, A.W. Weimer, 
+A review and perspective of efficient hydrogen generation via solar thermal water 
+splitting, WIREs Energy Environ 5 (2015) 261–287, https://doi.org/10.1002/ 
+wene.174. 
+[2] S. Abanades, P. Charvin, G. Flamant, P. Neveu, Screening of water-splitting 
+thermochemical cycles potentially attractive for hydrogen production by 
+concentrated solar energy, Energy 31 (2006) 2805–2822, https://doi.org/ 
+10.1016/j.energy.2005.11.002. 
+[3] G. Centi, S. Perathoner, Opportunities and prospects in the chemical recycling of 
+carbon dioxide to fuels, Catal. Today 148 (2009) 191–205, https://doi.org/ 
+10.1016/j.cattod.2009.07.075. 
+[4] S. Abanades, Thermogravimetry analysis of CO2 and H2O reduction from solar 
+nanosized Zn powder for thermochemical fuel production, Ind. Eng. Chem. Res. 51 
+(2012) 741–750, https://doi.org/10.1021/ie202518k. 
+[5] S. Abanades, A. Legal, A. Cordier, G. Peraudeau, G. Flamant, A. Julbe, Investigation 
+of reactive cerium-based oxides for H2 production by thermochemical two-step 
+water-splitting, J. Mater. Sci. 45 (2010) 4163–4173, https://doi.org/10.1007/ 
+s10853-010-4506-4. 
+[6] F. Call, M. Roeb, M. Schmücker, C. Sattler, R. Pitz-Paal, Ceria doped with 
+Zirconium and lanthanide oxides to enhance solar thermochemical production of 
+fuels, J. Phys. Chem. C 119 (2015) 6929–6938, https://doi.org/10.1021/ 
+jp508959y. 
+[7] P. Charvin, S. Abanades, E. Beche, F. Lemont, G. Flamant, Hydrogen production 
+from mixed cerium oxides via three-step water-splitting cycles, Solid State Ionics 
+180 (2009) 1003–1010, https://doi.org/10.1016/j.ssi.2009.03.015. 
+[8] S. Abanades, I. Villafan-Vidales, CO2 valorisation based on Fe3O4/FeO 
+thermochemical redox reactions using concentrated solar energy, Int. J. Energy 
+Res. 37 (2013) 598–608, https://doi.org/10.1002/er.1953. 
+[9] T. Kodama, Y. Kondoh, R. Yamamoto, H. Andou, N. Satou, Thermochemical 
+hydrogen production by a redox system of ZrO2-supported Co(II)-ferrite, Sol. 
+Energy 78 (2005) 623–631, https://doi.org/10.1016/j.solener.2004.04.008. 
+[10] J.E. Miller, M.D. Allendorf, R.B. Diver, L.R. Evans, N.P. Siegel, J.N. Stuecker, Metal 
+oxide composites and structures for ultra-high temperature solar thermochemical 
+cycles, J. Mater. Sci. 43 (2008) 4714–4728, https://doi.org/10.1007/s10853-007- 
+2354-7. 
+[11] P.G. Loutzenhiser, M.E. G´alvez, I. Hischier, A. Stamatiou, A. Frei, A. Steinfeld, CO2 
+splitting via two-step solar thermochemical cycles with Zn/ZnO and FeO/Fe 3O4 
+redox reactions II: kinetic analysis, Energy Fuel. 23 (2009) 2832–2839, https://doi. 
+org/10.1021/ef801142b. 
+[12] C. Agrafiotis, A. Zygogianni, C. Pagkoura, M. Kostoglou, A.G. Konstandopoulos, 
+Hydrogen production via solar-aided water splitting thermochemical cycles with 
+nickel ferrite: experiments and modeling, AlChE J 59 (2013) 1213–1225, https:// 
+doi.org/10.1002/aic.13882. 
+[13] C. Milone, Y. Kato, E. Mastronardo, Thermal energy storage with chemical 
+reactions, in: A. Frazzica, L.F. Cabeza (Eds.), Recent Advancements in Materials 
+and Systems for Thermal Energy Storage, Springer International Publishing, Cham, 
+2019, pp. 15–32, https://doi.org/10.1007/978-3-319-96640-3_3. 
+[14] B. Bulfin, J. Vieten, C. Agrafiotis, M. Roeb, C. Sattler, Applications and limitations 
+of two step metal oxide thermochemical redox cycles; a review, J. Mater. Chem. A. 
+5 (2017) 18951–18966, https://doi.org/10.1039/C7TA05025A. 
+[15] A. Haeussler, S. Abanades, J. Jouannaux, A. Julbe, Non-stoichiometric redox active 
+perovskite materials for solar thermochemical fuel production: a review, Catalysts 
+8 (2018) 611–631, https://doi.org/10.3390/catal8120611. 
+[16] Abanades, Metal oxides applied to thermochemical water-splitting for hydrogen 
+production using concentrated solar energy, ChemEngineering 3 (2019) 63, 
+https://doi.org/10.3390/chemengineering3030063. 
+[17] R.J. Carrillo, J.R. Scheffe, Advances and trends in redox materials for solar 
+thermochemical fuel production, Sol. Energy 156 (2017) 3–20, https://doi.org/ 
+10.1016/j.solener.2017.05.032. 
+[18] C.-K. Yang, Y. Yamazaki, A. Aydin, S.M. Haile, Thermodynamic and kinetic 
+assessments of strontium-doped lanthanum manganite perovskites for two-step 
+thermochemical water splitting, J. Mater. Chem. A. 2 (2014) 13612–13623, 
+https://doi.org/10.1039/C4TA02694B. 
+[19] M.E. G´alvez, R. Jacot, J. Scheffe, T. Cooper, G. Patzke, A. Steinfeld, Physico- 
+chemical changes in Ca, Sr and Al-doped La–Mn–O perovskites upon 
+thermochemical splitting of CO2 via redox cycling, Phys. Chem. Chem. Phys. 17 
+(2015) 6629–6634, https://doi.org/10.1039/C4CP05898D. 
+[20] A. Demont, S. Abanades, Solar thermochemical conversion of CO2 into fuel via 
+two-step redox cycling of non-stoichiometric Mn-containing perovskite oxides, 
+J. Mater. Chem. A. 3 (2015) 3536–3546, https://doi.org/10.1039/C4TA06655C. 
+[21] T. Cooper, J.R. Scheffe, M.E. Galvez, R. Jacot, G. Patzke, A. Steinfeld, Lanthanum 
+manganite perovskites with Ca/Sr A-site and Al B-site doping as effective oxygen 
+exchange materials for solar thermochemical fuel production, Energy Technol. 3 
+(2015) 1130–1142, https://doi.org/10.1002/ente.201500226. 
+[22] L. Wang, M. Al-Mamun, Y.L. Zhong, L. Jiang, P. Liu, Y. Wang, H.G. Yang, H. Zhao, 
+Ca2+ and Ga3+ doped LaMnO3 perovskite as a highly efficient and stable catalyst 
+for two-step thermochemical water splitting, Sustainable Energy Fuels 1 (2017) 
+1013–1017, https://doi.org/10.1039/C6SE00097E. 
+[23] M.M. Nair, S. Abanades, Experimental screening of perovskite oxides as efficient 
+redox materials for solar thermochemical CO2 conversion, Sustainable Energy 
+Fuels 2 (2018) 843–854, https://doi.org/10.1039/C7SE00516D. 
+[24] J. Jouannaux, A. Haeussler, M. Drobek, A. Ayral, S. Abanades, A. Julbe, Lanthanum 
+manganite perovskite ceramic powders for CO2 splitting: influence of Pechini 
+synthesis parameters on sinterability and reactivity, Ceram. Int. 45 (2019) 
+15636–15648, https://doi.org/10.1016/j.ceramint.2019.05.075. 
+[25] A.H. McDaniel, E.C. Miller, D. Arifin, A. Ambrosini, E.N. Coker, R. O’Hayre, W. 
+C. Chueh, J. Tong, Sr- and Mn-doped LaAlO3−δ for solar thermochemical H2 and 
+CO production, Energ, Environ. Sci. 6 (2013) 2424–2428, https://doi.org/ 
+10.1039/c3ee41372a. 
+[26] S. Dey, B.S. Naidu, C.N.R. Rao, Beneficial effects of substituting trivalent ions in the 
+B-site of La0.5Sr0.5Mn1−xAxO3 (A = Al, Ga, Sc) on the thermochemical generation of 
+CO and H2 from CO2 and H2O, Dalton Trans. 45 (2016) 2430–2435, https://doi. 
+org/10.1039/C5DT04822B. 
+[27] M.M. Nair, S. Abanades, Insights into the redox performance of non-stoichiometric 
+lanthanum manganite perovskites for solar thermochemical CO2 splitting, 
+ChemistrySelect 1 (2016) 4449–4457, https://doi.org/10.1002/slct.201601171. 
+[28] A. Haeussler, S. Abanades, J. Jouannaux, A. Julbe, Demonstration of a ceria 
+membrane solar reactor promoted by dual perovskite coatings for continuous and 
+isothermal redox splitting of CO2 and H2O, J. Membr. Sci. 634 (2021) 119387., 
+https://doi.org/10.1016/j.memsci.2021.119387. 
+A. Haeussler et al.                                                                                                                                                                                                                              
+
+
+===== Page 14 =====
+
+Materials Chemistry and Physics 276 (2022) 125358
+14
+[29] A. Haeussler, S. Abanades, A. Julbe, J. Jouannaux, B. Cartoixa, Two-step CO2 and 
+H2O splitting using perovskite-coated ceria foam for enhanced green fuel 
+production in a porous volumetric solar reactor, Journal of CO2 Utilization 41 
+(2020) 101257, https://doi.org/10.1016/j.jcou.2020.101257. 
+[30] T.O.L. Sunde, T. Grande, M.-A. Einarsrud, Modified Pechini synthesis of oxide 
+powders and thin films, in: Handbook of Sol-Gel Science and Technology, Springer, 
+2016. 
+[31] M.P. Pechini, Method of Preparing Lead and Alkaline Earth Titanates and Niobates 
+and Coating Method Using the Same to Form a Capacitor, 1967. US3330697A, http 
+s://patents.google.com/patent/US3330697A/en. (Accessed 21 April 2020). 
+[32] G.B.J. de Boer, C. de Weerd, D. Thoenes, H.W.J. Goossens, Laser diffraction 
+spectrometry: fraunhofer diffraction versus Mie scattering, Part. Part. Syst. Char. 4 
+(1987) 14–19, https://doi.org/10.1002/ppsc.19870040104. 
+[33] S.P. Jiang, Development of lanthanum strontium manganite perovskite cathode 
+materials of solid oxide fuel cells: a review, J. Mater. Sci. 43 (2008) 6799–6833, 
+https://doi.org/10.1007/s10853-008-2966-6. 
+[34] Y. Xue, H. Miao, S. Sun, Q. Wang, S. Li, Z. Liu, (La1−xSrx)0.98MnO3 perovskite with 
+A-site deficiencies toward oxygen reduction reaction in aluminum-air batteries, 
+J. Power Sources 342 (2017) 192–201, https://doi.org/10.1016/j. 
+jpowsour.2016.12.065. 
+[35] H.-C. Cho, S. Kuramoto, S. Takase, J.-H. Song, Y. Shimizu, Sensing properties of 
+impedancemetric solid-electrolyte NOx sensor using perovskite-type lanthanum 
+manganite-based receptor, Sensor. Mater. 24 (2012) 31, https://doi.org/ 
+10.18494/SAM.2012.763. 
+[36] M.R. Mullen, J.V. Spirig, J. Hoy, J.L. Routbort, D. Singh, P.K. Dutta, Development 
+of nanosized lanthanum strontium aluminum manganite as electrodes for 
+potentiometric oxygen sensor, Sensor. Actuator. B Chem. 203 (2014) 670–676, 
+https://doi.org/10.1016/j.snb.2014.07.027. 
+[37] S. Ponce, M.A. Pe˜na, J.L.G. Fierro, Surface properties and catalytic performance in 
+methane combustion of Sr-substituted lanthanum manganites, Appl. Catal. B 
+Environ. 24 (2000) 193–205, https://doi.org/10.1016/S0926-3373(99)00111-3. 
+[38] G.J. la O’, Y. Shao-Horn, Thickness dependence of oxygen reduction reaction 
+kinetics on strontium-substituted lanthanum manganese perovskite thin-film 
+microelectrodes, Electrochem. Solid State Lett. 12 (2009) B82, https://doi.org/ 
+10.1149/1.3095681. 
+[39] J.R. Scheffe, D. Weibel, A. Steinfeld, Lanthanum–Strontium–Manganese 
+perovskites as redox materials for solar thermochemical splitting of H2O and CO2, 
+Energy Fuel. 27 (2013) 4250–4257, https://doi.org/10.1021/ef301923h. 
+[40] A.L.A. da Silva, L. da Conceiç˜ao, A.M. Rocco, M.M.V.M. Souza, Synthesis of Sr- 
+doped LaMnO3 and LaCrO3 powders by combustion method: structural 
+characterization and thermodynamic evaluation, Cerˆamica 58 (2012) 521–528, 
+https://doi.org/10.1590/S0366-69132012000400018. 
+[41] J.E. Miller, A. Ambrosini, E.N. Coker, M.D. Allendorf, A.H. McDaniel, Advancing 
+oxide materials for thermochemical production of solar fuels, Energy Procedia 49 
+(2014) 2019–2026, https://doi.org/10.1016/j.egypro.2014.03.214. 
+[42] C. Agrafiotis, M. Roeb, C. Sattler, A review on solar thermal syngas production via 
+redox pair-based water/carbon dioxide splitting thermochemical cycles, Renew. 
+Sustain. Energy Rev. 42 (2015) 254–285, https://doi.org/10.1016/j. 
+rser.2014.09.039. 
+[43] A. Demont, S. Abanades, E. Beche, Investigation of perovskite structures as oxygen- 
+exchange redox materials for hydrogen production from thermochemical two-step 
+water-splitting cycles, J. Phys. Chem. C 118 (2014) 12682–12692, https://doi.org/ 
+10.1021/jp5034849. 
+[44] A.H. Bork, E. Povoden-Karadeniz, J.L.M. Rupp, Modeling thermochemical solar-to- 
+fuel conversion: CALPHAD for thermodynamic assessment studies of perovskites, 
+exemplified for (La,Sr)MnO3, Adv. Energy Mater. 7 (2017) 1601086, https://doi. 
+org/10.1002/aenm.201601086. 
+[45] J.H. Kuo, H.U. Anderson, D.M. Sparlin, Oxidation-reduction behavior of undoped 
+and Sr-doped LaMnO3 nonstoichiometry and defect structure, J. Solid State Chem. 
+83 (1989) 52–60, https://doi.org/10.1016/0022-4596(89)90053-4. 
+[46] J. Mizusaki, Oxygen nonstoichiometry and defect equilibrium in the perovskite- 
+type oxides La1−xSrxMnO3+d, Solid State Ionics 129 (2000) 163–177, https://doi. 
+org/10.1016/S0167-2738(99)00323-9. 
+[47] S. Dey, C.N.R. Rao, Splitting of CO2 by manganite perovskites to generate CO by 
+solar isothermal redox cycling, ACS Energy Lett 1 (2016) 237–243, https://doi. 
+org/10.1021/acsenergylett.6b00122. 
+[48] A. Haeussler, S. Abanades, J. Jouannaux, M. Drobek, A. Ayral, A. Julbe, Recent 
+progress on ceria doping and shaping strategies for solar thermochemical water 
+and CO2 splitting cycles, AIMS Materials Science 6 (2019) 657–684, https://doi. 
+org/10.3934/matersci.2019.5.657. 
+[49] O. Toulemonde, N. N’Guyen, F. Studer, A. Traverse, Spin state transition in LaCoO3 
+with temperature or strontium doping as seen by XAS, J. Solid State Chem. 158 
+(2001) 208–217, https://doi.org/10.1006/jssc.2001.9094. 
+[50] O. Haas, R.P.W.J. Struis, J.M. McBreen, Synchrotron X-ray absorption of LaCoO3 
+perovskite, J. Solid State Chem. 177 (2004) 1000–1010, https://doi.org/10.1016/ 
+j.jssc.2003.10.004. 
+[51] C. Abughayada, Air Separation and Oxygen Storage Properties of Hexagonal Rare- 
+Earth Manganites, Doctoral dissertation, Northern Illinois University, 2015. 
+https://commons.lib.niu.edu/handle/10843/18551. 
+[52] (n.d Shannon Radii. http://abulafia.mt.ic.ac.uk/shannon/ptable.php. (Accessed 4 
+January 2018). 
+[53] D.R. Barcellos, M.D. Sanders, J. Tong, A.H. McDaniel, R.P. O’Hayre, 
+BaCe0.25Mn0.75O3−δ —a promising perovskite-type oxide for solar thermochemical 
+hydrogen production, Energ, Environ. Sci. 11 (2018) 3256–3265, https://doi.org/ 
+10.1039/C8EE01989D. 
+[54] P. Furler, J.R. Scheffe, A. Steinfeld, Syngas production by simultaneous splitting of 
+H2O and CO2 via ceria redox reactions in a high-temperature solar reactor, Energy 
+Environ. Sci. 5 (2012) 6098–6103, https://doi.org/10.1039/C1EE02620H. 
+[55] B. Bulfin, A.J. Lowe, K.A. Keogh, B.E. Murphy, O. Lübben, S.A. Krasnikov, I. 
+V. Shvets, Analytical model of CeO2 oxidation and reduction, J. Phys. Chem. C 117 
+(2013) 24129–24137, https://doi.org/10.1021/jp406578z. 
+[56] W.C. Chueh, C. Falter, M. Abbott, D. Scipio, P. Furler, S.M. Haile, A. Steinfeld, 
+High-flux solar-driven thermochemical dissociation of CO2 and H2O using 
+nonstoichiometric ceria, Science 330 (2010) 1797–1801, https://doi.org/10.1126/ 
+science.1197834. 
+[57] J.R. Scheffe, A. Steinfeld, Oxygen exchange materials for solar thermochemical 
+splitting of H2O and CO2: a review, Mater. Today 17 (2014) 341–348, https://doi. 
+org/10.1016/j.mattod.2014.04.025. 
+[58] H. Kong, X. Kong, H. Wang, J. Wang, A strategy for optimizing efficiencies of solar 
+thermochemical fuel production based on nonstoichiometric oxides, Int. J. 
+Hydrogen Energy (2019), https://doi.org/10.1016/j.ijhydene.2019.05.197. 
+[59] G. Takalkar, R.R. Bhosale, S. Rashid, F. AlMomani, R.A. Shakoor, A. Al Ashraf, 
+Application of Li-, Mg-, Ba-, Sr-, Ca-, and Sn-doped ceria for solar-driven 
+thermochemical conversion of carbon dioxide, J. Mater. Sci. (2020), https://doi. 
+org/10.1007/s10853-020-04875-1. 
+[60] A. Le Gal, S. Abanades, Catalytic investigation of ceria-zirconia solid solutions for 
+solar hydrogen production, Int. J. Hydrogen Energy 36 (2011) 4739–4748, https:// 
+doi.org/10.1016/j.ijhydene.2011.01.078. 
+[61] G. Vlaic, P. Fornasiero, S. Geremia, J. Kaˇspar, M. Graziani, Relationship between 
+the zirconia-promoted reduction in the Rh-loaded Ce0.5Zr0.5O2 mixed oxide and the 
+Zr–O local structure, J. Catal. 168 (1997) 386–392, https://doi.org/10.1006/ 
+jcat.1997.1644. 
+[62] A. Le Gal, S. Abanades, G. Flamant, CO2 and H2O splitting for thermochemical 
+production of solar fuels using nonstoichiometric ceria and ceria/zirconia solid 
+solutions, Energy Fuel. 25 (2011) 4836–4845, https://doi.org/10.1021/ef200972r. 
+[63] E.I. Goldyreva, I.A. Leonidov, M.V. Patrakeev, A.V. Chukin, I.I. Leonidov, V. 
+L. Kozhevnikov, Oxygen nonstoichiometry and defect equilibrium in electron 
+doped Ca0.6−уSr0.4LaуMnO3−δ, J. Alloys Compd. 638 (2015) 44–49, https://doi. 
+org/10.1016/j.jallcom.2015.03.048. 
+[64] K.J. Albrecht, G.S. Jackson, R.J. Braun, Thermodynamically consistent modeling of 
+redox-stable perovskite oxides for thermochemical energy conversion and storage, 
+Appl. Energy 165 (2016) 285–296, https://doi.org/10.1016/j. 
+apenergy.2015.11.098. 
+[65] Y. Hao, C.-K. Yang, S.M. Haile, Ceria–zirconia solid solutions (Ce1–xZrxO2−δ, x ≤
+0.2) for solar thermochemical water splitting: a thermodynamic study, Chem. 
+Mater. 26 (2014) 6073–6082, https://doi.org/10.1021/cm503131p. 
+[66] J. Vieten, B. Bulfin, P. Huck, M. Horton, D. Guban, L. Zhu, Y. Lu, K.A. Persson, 
+M. Roeb, C. Sattler, Materials design of perovskite solid solutions for 
+thermochemical applications, Energy Environ. Sci. 12 (2019) 1369–1384, https:// 
+doi.org/10.1039/C9EE00085B. 
+[67] R.J. Panlener, R.N. Blumenthal, J.E. Garnier, A thermodynamic study of 
+nonstoichiometric cerium dioxide, J. Phys. Chem. Solid. 36 (1975) 1213–1222, 
+https://doi.org/10.1016/0022-3697(75)90192-4. 
+[68] X. Qian, J. He, E. Mastronardo, B. Baldassarri, C. Wolverton, S.M. Haile, Favorable 
+redox thermodynamics of SrTi0.5Mn0.5O3−δ in solar thermochemical water 
+splitting, Chem. Mater. 32 (2020) 9335–9346, https://doi.org/10.1021/acs. 
+chemmater.0c03278. 
+[69] E. Mastronardo, X. Qian, J.M. Coronado, S.M. Haile, Impact of La doping on the 
+thermochemical heat storage properties of CaMnO3-δ, Journal of Energy Storage 40 
+(2021) 102793, https://doi.org/10.1016/j.est.2021.102793. 
+[70] L. Imponenti, K.J. Albrecht, J.W. Wands, M.D. Sanders, G.S. Jackson, 
+Thermochemical energy storage in strontium-doped calcium manganites for 
+concentrating solar power applications, Sol. Energy 151 (2017) 1–13, https://doi. 
+org/10.1016/j.solener.2017.05.010. 
+[71] S.M. Babiniec, E.N. Coker, J.E. Miller, A. Ambrosini, Doped calcium manganites for 
+advanced high-temperature thermochemical energy storage, Int. J. Energy Res. 40 
+(2016) 280–284, https://doi.org/10.1002/er.3467. 
+[72] J. Vieten, B. Bulfin, M. Senholdt, M. Roeb, C. Sattler, M. Schmücker, Redox 
+thermodynamics and phase composition in the system SrFeO3−δ — SrMnO3−δ, 
+Solid State Ionics 308 (2017) 149–155, https://doi.org/10.1016/j.ssi.2017.06.014. 
+[73] J.R. Scheffe, A. Steinfeld, Thermodynamic analysis of cerium-based oxides for solar 
+thermochemical fuel production, energ, Fuel 26 (2012), https://doi.org/10.1021/ 
+ef201875v, 1928–1936. 
+[74] M. Takacs, M. Hoes, M. Caduff, T. Cooper, J.R. Scheffe, A. Steinfeld, Oxygen 
+nonstoichiometry, defect equilibria, and thermodynamic characterization of 
+LaMnO3 perovskites with Ca/Sr A-site and Al B-site doping, Acta Mater. 103 (2016) 
+700–710, https://doi.org/10.1016/j.actamat.2015.10.026. 
+[75] M. Takacs, J.R. Scheffe, A. Steinfeld, Oxygen nonstoichiometry and 
+thermodynamic characterization of Zr doped ceria in the 1573–1773 K 
+temperature range, Phys. Chem. Chem. Phys. 17 (2015) 7813–7822, https://doi. 
+org/10.1039/C4CP04916K. 
+[76] W.C. Chueh, S.M. Haile, A thermochemical study of ceria: exploiting an old 
+material for new modes of energy conversion and CO2 mitigation, Phil. Trans. R. 
+Soc. A. 368 (2010) 3269–3294, https://doi.org/10.1098/rsta.2010.0114. 
+[77] S. Vyazovkin, A.K. Burnham, J.M. Criado, L.A. P´erez-Maqueda, C. Popescu, 
+N. Sbirrazzuoli, ICTAC Kinetics Committee recommendations for performing 
+kinetic computations on thermal analysis data, Thermochim. Acta 520 (2011) 
+1–19, https://doi.org/10.1016/j.tca.2011.03.034. 
+A. Haeussler et al.                                                                                                                                                                                                                              
+
+
+===== Page 15 =====
+
+Materials Chemistry and Physics 276 (2022) 125358
+15
+[78] A. Khawam, D.R. Flanagan, Solid-state kinetic models: basics and mathematical 
+fundamentals, J. Phys. Chem. B 110 (2006) 17315–17328, https://doi.org/ 
+10.1021/jp062746a. 
+[79] O. Levenspiel, Chemical Reaction Engineering, vol. 3, Wiley, Hoboken, NJ, 1999. 
+[80] H.L. Friedman, Kinetics of thermal degradation of char-forming plastics from 
+thermogravimetry. Application to a phenolic plastic, J. Polym. Sci., Part C: Polym. 
+Symp. 6 (1964) 183–195, https://doi.org/10.1002/polc.5070060121. 
+A. Haeussler et al.                                                                                                                                                                                                                              

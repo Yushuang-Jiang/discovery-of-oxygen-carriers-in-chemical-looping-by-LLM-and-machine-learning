@@ -1,0 +1,702 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Applied Surface Science
+journal homepage: www.elsevier.com/locate/apsusc
+Full length article
+Sol-gel synthesized NixFe3−xO4 for thermochemical conversion of CO2
+Gorakshnath Takalkar, Rahul R. Bhosale⁎, Fares AlMomani
+Department of Chemical Engineering, College of Engineering, Qatar University, P. O. Box – 2713, Doha, Qatar
+A R T I C L E I N F O
+Keywords:
+Ni-ferrite
+CO2 splitting
+Sol-gel method
+Thermochemical cycles
+Solar fuels
+Nanoparticles
+A B S T R A C T
+To identify the best suitable metal oxide (MO) to split H2O/CO2, it is critical to investigate the formation of O2
+vacancies during thermal reduction (TR) step and the re-oxidation of the MOs via H2O or CO2 splitting (CS)
+reaction. Accordingly, in the present work, we have experimentally evaluated the redox reactivity of sol-gel
+synthesized Ni-ferrite (NiF) in multiple temperature-swing redox cycles. The calcined powders of NiF materials
+were characterized for the determination of phase purity, crystallite size, and particle morphology. In case of the
+TGA cycles, the TR was accomplished at 1400 °C (for 60 min) and the reduced NiF was again re-oxidized via CS
+reaction at 1000 °C (for 30 min). The obtained outcomes indicated that, among all the NiF materials investigated
+i.e. Ni0.2Fe2.8O4 (NiF2), Ni0.4Fe2.6O4 (NiF4), Ni0.5Fe2.5O4 (NiF5), Ni0.6Fe2.4O4 (NiF6), Ni0.8Fe2.2O4 (NiF8),
+NiFe2O4 (NiF10), the NF10 has the aptitude to produce maximum quantities of O2 (nO2) and CO (nCO). When
+compared with the benchmark CeO2 material, the average nO2 and nCO by the NiF10 (from cycle 2 to cycle 9) was
+greater by 15.9 μmol/g·cycle and 30.9 μmol/g·cycle, respectively.
+1. Introduction
+Owing to the detrimental consequences of CO2 driven global
+warming, plentiful research teams are focused towards converting CO2
+into valuable chemicals [1–5]. Among the numerous CO2 conversion
+processes, solar driven thermochemical splitting of H2O/CO2 is one of
+the capable means of transforming CO2 into liquid transportation fuels
+[6–9]. This solar thermal process proceeds on the metal oxide (MO)
+based redox reactions. Researchers have examined several MOs for the
+solar thermochemical H2O/CO2 splitting cycle [10–25], and amid all
+these, Ni-ferrite (NiF) appears to be a striking option.
+Sano et al. [26] attained the H2 production at 300 °C by thermo-
+chemical water splitting (WS) reaction using a carbon bearing NiF. By
+engaging a zirconia supported NiF, Kodama et al. [27] achieved a
+sustainable H2 generation in multiple WS cycles. Allendorf et al. [28]
+thermodynamically probed the eﬀect of inclusion of Co, Ni, and Zn
+metal cations into iron oxide spinel structure towards H2 generation via
+WS reaction. Fresno et al. [29,30] reported that the NiF possess the
+upmost H2 production competence in multiple WS cycles as compared
+to the commercially obtained Zn-ferrite, Cu-ferrite, Ni-Zn-ferrite and
+Cu-Zn-ferrite. The outcomes published by Agraﬁotis et al. [31] implied
+that both NiF and Co-ferrite produced maximum quantity of H2 via WS
+reaction in comparison with the iron oxide, Zn-ferrite, Mn-ferrite Ni-Zn
+ferrite, and Mn-Zn ferrite. By performing a detailed Rietveld analysis,
+the O2 liberation aptitude of zirconia supported and unsupported NiF
+was estimated by Gokon et al. [32]. Fernández-Saavedra et al. [33]
+scrutinized the kinetics of the NiF based thermochemical WS cycle and
+reported activation energies of 261.7 kJ/mol and 34.5 kJ/mol for the
+thermal reduction (TR) and WS steps, respectively.
+From the preceding investigations, it was understood that the NiF
+was applied mainly in case of the WS reaction and its utilization to-
+wards CO2 splitting (CS) reaction was very limited [34,35]. The sys-
+tematic assessment of the performance of MOs towards multiple ther-
+mochemical cycles is vital in order to unveil their long-term redox
+reactivity and thermal stability. Thus, to make an appropriate com-
+parison with the previously examined MOs, the sol-gel derived NiF
+materials synthesized in this investigation were inspected in ten ther-
+mochemical CS cycles using a thermogravimetric analyzer (TGA). Sol-
+gel method was selected, as it possesses unique advantages in terms of
+stoichiometry and powder characteristics. Molecular lever mixing and
+networking of the chemical components is one of the major features of
+this synthesis approach, which improves the chemical homogeneity,
+stoichiometry, phase purity and powder characteristics [36–38].
+2. Experimental section
+2.1. Materials
+The Ni and Fe nitrates, ethanol, and 1,2-epoxypropane mandatory
+for the synthesis of NiF materials were procured from Sigma Aldrich.
+https://doi.org/10.1016/j.apsusc.2019.05.285
+Received 21 December 2018; Received in revised form 16 May 2019; Accepted 24 May 2019
+⁎ Corresponding author.
+E-mail address: rahul.bhosale@qu.edu.qa (R.R. Bhosale).
+Applied Surface Science 489 (2019) 693–700
+Available online 03 June 2019
+0169-4332/ © 2019 Published by Elsevier B.V.
+T
+
+
+===== Page 2 =====
+
+Inert Ar with a minimum stated purity of 99.999% and feed gas mixture
+of 50% CO2/Ar was purchased from Buzwair Scientiﬁc and Technical
+Gases supplier, Qatar. Deionized water was also utilized for the pre-
+paration of Ni and Fe nitrate precursor solution.
+2.2. Synthesis of NiF materials via sol-gel method
+The detailed procedure allied with the sol-gel methodology (Fig. 1)
+used for the synthesis of NixFe3−xO4 (where, x = 0.2, 0.4, 0.5, 0.6, 0.8,
+1) was elucidated in our former investigation [35]. In this paper, for the
+simplicity, the sol-gel derived NixFe3−xO4 materials are abbreviated as:
+Ni0.2Fe2.8O4
+(NiF2),
+Ni0.4Fe2.6O4
+(NiF4),
+Ni0.5Fe2.5O4
+(NiF5),
+Ni0.6Fe2.4O4 (NiF6), Ni0.8Fe2.2O4 (NiF8), and NiFe2O4 (NiF10).
+2.3. Characterization of the derived NiF materials
+The compositional purity of the sol-gel synthesized NiF materials
+was estimated by performing the crystal structure analysis using a
+Panalytical XPert MPD/DY636 powder X-ray diﬀractometer (PXRD).
+The particle morphology of the derived NiF materials was ascertained
+by utilizing the Scanning Electron Microscope (Nova Nano 450, FEI).
+2.4. CO2 splitting experiments
+The TR and CS aptitude of the NiF materials was evaluated by using
+a TGA set-up (Setaram Setsys, TGA-DSC) presented in Fig. 2. In this
+thermogravimetric analyzer (TGA), the heating section is made up of a
+graphite-heating element surrounded by an alumina tube. A protective
+inert gas was always used to avoid the contact between the graphite and
+the oxidizing gases. The temperature of the furnace was controlled by
+Fig. 1. Stepwise sol-gel synthesis of NiF.
+Fig. 2. The experimental setup used for the investigation of thermochemical CS ability of the sol-gel synthesized NiF materials.
+G. Takalkar, et al.
+Applied Surface Science 489 (2019) 693–700
+694
+
+
+===== Page 3 =====
+
+using an air cooled chiller. The weighing balance was placed at the top
+of the TGA and the gases are ﬂowing from top to the bottom direction.
+Mass ﬂow controllers were employed to measure the ﬂowrates of the
+carrier and reactive gases. Two pressure transducers were applied to
+measure the pressure of the protective and the carrier gases ﬂowing
+through the furnace. A Pt-Rh thermocouple (type B) was placed near to
+the crucible to measure and to control the temperature of the reaction.
+Before performing any reaction, the furnace hollow-space was ﬁrst
+evacuated by applying vacuum and then purged with inert gas to avoid
+presence of any O2 based impurity. The temperature of the gas stream
+departing the TGA set-up was maintained by employing a chilled water
+supply. 75 mg of the NiF material was situated on the hanging balance
+of the TGA by using a 100 μl alumina crucible. The TR of the NiF ma-
+terial was studied in the presence of inert Ar (100 ml/min) at 1400 °C
+for 60 min. Moreover, the CS experiments were conducted by using a
+50% CO2/Ar gas mixture (100 ml/min) at 1000 °C for 30 min. The
+amounts of O2 released (nO2) and CO produced (nCO) by each NiF ma-
+terial was computed with the help of following equations.
+=
+∆
+×
+n
+m
+M
+m
+(
+)
+O
+loss
+O
+NiF
+2
+2
+(1)
+=
+∆
+×
+n
+m
+M
+m
+(
+)
+CO
+gain
+O
+NiF
+(2)
+Fig. 3. Sol-gel synthesized NiF: PXRD patterns a) 2θ = 20 to 60° and b)
+2θ = 34.5 to 36.5°.
+Fig. 4. SEM images of sol-gel derived NiF materials.
+Table 1
+Chemical composition, Ni/Fe molar ratio (as-prepared and from EDS), and the
+abbreviations assigned to each NiF material.
+Abbreviation
+Ni/Fe (as-prepared)
+Ni/Fe (from EDS)
+Composition
+NiF2
+0.20/2.80
+0.198/2.803
+Ni0.198Fe2.803O4−δ
+NiF4
+0.40/2.60
+0.408/2.622
+Ni0.408Fe2.622O4−δ
+NiF5
+0.50/2.50
+0.498/2.499
+Ni0.498Fe2.499O4−δ
+NiF6
+0.60/2.40
+0.604/2.399
+Ni0.604Fe2.399O4−δ
+NiF8
+0.80/2.20
+0.804/2.198
+Ni0.804Fe2.298O4−δ
+NiF10
+1.00/2.00
+1.002/1.997
+Ni1.002Fe1.997O4−δ
+G. Takalkar, et al.
+Applied Surface Science 489 (2019) 693–700
+695
+
+
+===== Page 4 =====
+
+3. Results and discussion
+3.1. PXRD and SEM analysis
+While the PXRD patterns of sol-gel derived NiF materials were al-
+ready reported in our previous investigation [35], to attain a con-
+ﬁrmation that in this study we were exploring the NiF materials with a
+compositional purity similar to those utilized in the preceding study
+[35], the NiF powders obtained after annealing were analyzed using the
+PXRD. The PXRD peaks displayed in Fig. 3 showed strong reﬂections
+associated with a cubic structure of the spinel phase conﬁrming for-
+mation of crystalline NiF materials. As the peaks related to the metal or
+metal oxide impurities such as Ni, Fe, NiO, FeO, Fe2O3, and Fe3O4 were
+Fig. 5. TGA proﬁles attained during three CS cycles performed using NiF materials.
+Table 2
+nO2 and nCO by each NiF material during three CS cycles.
+NiF materials
+Cycle 1
+Cycle 2
+Cycle 3
+nO2
+(μmol/
+g)
+nCO
+(μmol/g)
+nO2
+(μmol/
+g)
+nCO
+(μmol/g)
+nO2
+(μmol/
+g)
+nCO
+(μmol/g)
+NiF2
+58.5
+60.3
+10.5
+10.4
+9.4
+11.6
+NiF4
+76.4
+79.9
+11.1
+13.9
+10.2
+13.1
+NiF5
+80.3
+87.3
+12.3
+20.5
+11.8
+19.2
+NiF6
+87.5
+100.1
+21.9
+30.2
+20.5
+29.3
+NiF8
+122.2
+195.2
+28.9
+42.6
+27.9
+40.2
+NiF10
+229.2
+379.2
+64.3
+128.3
+66.1
+130.9
+G. Takalkar, et al.
+Applied Surface Science 489 (2019) 693–700
+696
+
+
+===== Page 5 =====
+
+absent, it was concluded that the inclusion of Ni+2 in the iron oxide
+crystal structure was successful.
+By using the obtained PXRD patterns and the Scherrer formula, the
+crystallize size (CS) of each NiF material was estimated. The values
+obtained after calculations indicated that the CS of each NiF material
+decreased with an upsurge in the Ni+2 atomic concentration. For in-
+stance, the CS diminished from 30.2 nm to 23.9 nm as the atomic
+concentration of Ni+2 upturned from 0.2 (NiF2) to 1.0 (NiF10). This
+reduction in the CS was anticipated as the width of the PXRD peaks
+allied with each NiF material expanded due to the rise in the Ni+2
+atomic concentration (Fig. 4). The CS values of the NiF materials syn-
+thesized in this investigation are comparable with the CS values re-
+ported by Bhosale et al. [35]. The microstructural particle morphology
+of each NiF material was also dissected using SEM. The images showed
+in Fig. 4 conﬁrmed a nanoparticulated morphology with no drift in the
+particle size due to the upturn in the Ni+2 atomic concentration.
+By using the EDS set-up, which is equipped with the SEM analyzer,
+the chemical composition of the NiF materials is determined. The re-
+sults associated to the EDS analysis are presented in Table 1.
+3.2. TGA analysis
+Sol-gel synthesized NiF materials were compared with each other by
+performing three thermochemical CS cycles (presented in Fig. 5). By
+applying Eqs. (1) and (2), the nO2 and nCO by each NiF material was
+calculated and the values obtained are listed Table 2. The nO2 and nCO
+Fig. 6. TGA proﬁles attained during ten CS cycles performed using NiF materials.
+G. Takalkar, et al.
+Applied Surface Science 489 (2019) 693–700
+697
+
+
+===== Page 6 =====
+
+by each NiF material in the ﬁrst CS cycle matches very well with the
+ﬁndings reported by Bhosale et al. [35]. The obtained outcomes further
+indicated that the TR and CS ability of each NiF material reduced sig-
+niﬁcantly in the second CS cycle. The nO2 by NiF2, NiF4, NiF5, NiF6,
+NiF8, and NiF10 decreased by 48.0 μmol/g, 65.3 μmol/g, 68.0 μmol/g,
+65.6 μmol/g, 93.3 μmol/g, and 164.9 μmol/g, respectively in the second
+CS cycle as compared to the ﬁrst cycle. The nCO also diminished by
+83.2%, 82.7%, 76.5%, 69.8%, 78.2%, and 66.1% for the NiF2, NiF4,
+NiF5, NiF6, NiF8, and NiF10, respectively in the second CS cycle. In
+contrast, the nO2 and nCO by each NiF material in the third CS cycle was
+equivalent to that of the second CS cycle. The ﬁndings obtained in the
+third CS cycle provided an initial approval towards achievement of
+stable redox reactivity by each NiF material.
+From the data listed in Table 2, it is clearly noticeable that the nO2
+and nCO by each NiF material in the ﬁrst CS cycle is very high as
+compared to that of the second and third CS cycles. The solar ther-
+mochemical community is interested to know the redox potential of the
+MO in terms of the stable values of nO2 and nCO. Hence, for the rest of
+the analysis conducted in this investigation, the data obtained in the
+ﬁrst CS cycle was overlooked. Based on the average nO2 and nCO in the
+second and third CS cycles, the NiF10 appears to be the best choice
+(nO2 = 65.2 μmol/g·cycle and nCO = 129.6 μmol/g·cycle) than the other
+NiF materials examined.
+To understand the redox behavior of the sol-gel synthesized NiF
+materials for a lengthy period, ten consecutive cycles were performed in
+which the TR and CS were conducted at 1400 °C and 1000 °C, respec-
+tively. Fig. 6 represents the drift in the mass of each NiF material re-
+corded during ten CS cycles. This variation in the mass was converted
+into the nO2 and nCO and the values are presented in Figs. 7 and 8,
+separately. Fig. 7 indicated that all the NiF materials were capable of
+liberating an unvarying quantity of O2 from cycle 2 to cycle 10. As an
+example,
+the
+NiF4
+material
+released
+11.1 μmol/g,
+10.2 μmol/g,
+10.7 μmol/g,
+9.5 μmol/g,
+10.3 μmol/g,
+11.1 μmol/g,
+10.6 μmol/g,
+10.0 μmol/g, and 10.3 μmol/g of O2 in cycles 2, 3, 4, 5, 6, 7, 8, 9, and
+10, respectively. Similar to the nO2, the nCO by each NiF material
+(presented in Fig. 8) was also stable for each CS cycle. For example,
+20.5 μmol/g, 19.2 μmol/g, 19.1 μmol/g, 22.4 μmol/g, 19.9 μmol/g,
+20.4 μmol/g, 19.9 μmol/g, 20.1 μmol/g, and 19.7 μmol/g of CO was
+produced by NF5 material in cycles 2, 3, 4, 5, 6, 7, 8, 9, 10, corre-
+spondingly. It is very important to note that, for each NiF material,
+amounts of mass lost during the TR steps and the sum of mass gained
+during the CS steps were unable to reach their maximum possible yield
+at the applied experimental conditions. The possible reasons for this
+observation are a) lower operating temperature and b) lesser time
+employed for both TR and CS steps.
+In terms of average nO2, the sol-gel synthesized NiF materials can be
+arranged
+as:
+NiF2
+(8.8 μmol/g·cycle) < NiF4
+(10.4 μmol/
+g·cycle) < NiF5
+(13.9 μmol/g·cycle) < NiF6
+(20.5 μmol/
+g·cycle) < NiF8
+(27.4 μmol/g·cycle) < NiF10
+(64.4 μmol/g·cycle).
+Likewise, NiF materials can be organized based on the average nCO as:
+NiF10
+(125.9 μmol/g·cycle) > NiF8
+(42.6 μmol/g·cycle) > NiF6
+(30.7 μmol/g·cycle) > NiF5 (20.1 μmol/g·cycle) > NiF4 (13.9 μmol/
+g·cycle) > NiF2 (11.6 μmol/g·cycle). The CO/O2 molar ratio in case of
+the NiF10 material was the highest (1.95) as compared to the NiF2
+(1.31), NiF4 (1.34), NiF5 (1.45), NiF6 (1.50), and NiF8 (1.55). These
+ﬁndings indicated that, among all the NiF materials examined in this
+study, the NiF10 appears to be the top choice as it was capable of
+achieving higher nO2and nCO with a maximum CO/O2 molar ratio.
+Furthermore, it was also understood that the average nO2 and nCO by the
+NiF materials increased by a factor of 7.3 and 10.8 as the atomic con-
+centration of Ni+2 upsurged from 0.2 to 1.0.
+As CeO2 is considered as the benchmark redox material for the solar
+thermochemical H2O/CO2 splitting cycles, the outcomes obtained in
+case of NF10 material were compared with the nO2 and nCO by CeO2
+[39,40]. The comparison presented in Table 3 indicated that the nO2 and
+nCO by NiF10 material was higher than CeO2 in each CS cycle. For in-
+stance, the average nO2 by NiF10 from cycle 2 to cycle 9 was higher than
+CeO2 by 15.9 μmol/g·cycle. Similarly, the CO producing aptitude of the
+NiF10 in nine CS cycles was upper than CeO2 by 30.9 μmol/g·cycle. The
+average CO/O2 molar ratio for both NiF10 and CeO2 from cycle 2 to
+cycle 9 was equivalent.
+The results obtained in this study are promising, however; the TGA
+proﬁles presented in Fig. 6 noticeably showed that the amounts of mass
+lost during the TR steps and the sum of mass gained during the CS steps
+were unable to reach their maximum possible yield at the applied ex-
+perimental conditions. The probable reason for this outcome was the
+insuﬃcient time allotted for each TR step (60 min) and CS step
+Fig. 7. nO2 by NiF materials in multiple CS cycles.
+Fig. 8. nCO by NiF materials in multiple CS cycles.
+Table 3
+nO2 and nCO by CeO2 [39,40] and NiF10 materials from cycle 2 to cycle 9.
+Cycles
+CeO2 [39,40]
+NiF10
+nO2
+(μmol/g)
+nCO
+(μmol/g)
+CO/O2
+molar
+ratio
+nO2
+(μmol/g)
+nCO
+(μmol/g)
+CO/O2
+molar
+ratio
+Cycle 2
+47.5
+93.8
+1.97
+64.3
+128.3
+2.00
+Cycle 3
+48.8
+94.3
+1.93
+66.1
+130.9
+1.98
+Cycle 4
+48.6
+94.7
+1.95
+64.9
+127.3
+1.96
+Cycle 5
+48.3
+95.9
+1.99
+66.9
+129.6
+1.94
+Cycle 6
+49.2
+95.9
+1.95
+64.2
+122.7
+1.91
+Cycle 7
+47.7
+95.3
+2.00
+63.9
+123.3
+1.93
+Cycle 8
+50.5
+94.7
+1.88
+62.3
+120.3
+1.93
+Cycle 9
+47.7
+94.1
+1.97
+62.2
+123.5
+1.99
+Cycle 10
+48.7
+96.6
+1.98
+64.6
+127.0
+1.96
+Average
+48.5
+95.0
+1.96
+64.4
+125.9
+1.96
+G. Takalkar, et al.
+Applied Surface Science 489 (2019) 693–700
+698
+
+
+===== Page 7 =====
+
+(30 min). To examine further, our research team is currently opera-
+tional towards investigating the eﬀect of TR and CS dwell time on the
+nO2 and nCO by NiF10 material.
+4. Summary and conclusions
+By substituting the redox active Ni+2 in place of the redox inactive
+Fe+2, synthesis of NixFe3−xO4 (where x = 0.2, 0.4, 0.5, 0.6, 0.8, and
+1.0) i.e. NiF materials was successfully achieved by using the sol-gel
+approach. PXRD analysis conﬁrmed formation of phase pure NiF2,
+NiF4, NiF5, NiF6, NiF8, and NiF10 materials. The calculations per-
+formed using the Scherrer formula indicated that the CS of NiF mate-
+rials decreased from 30.2 to 23.9 nm as the Ni+2 atomic concentration
+increases from 0.2 (NiF2) to 1.0 (NiF10). The results obtained via SEM
+analysis showed that each NiF material attained a nanoparticulated
+morphology. The redox reactivity of each NiF material was estimated
+by performing ten thermochemical CS cycles (using a TGA set-up). The
+TGA results indicated that all the NiF materials were capable of pro-
+ducing stable nO2 and nCO from cycle 2 to cycle 9. Furthermore, it was
+understood that the nO2 and nCO upsurged with the rise in the atomic
+concentration of Ni+2. For instance, the highest nO2 = 64.4 μmol/
+g·cycle and nCO = 125.9 μmol/g·cycle was observed in case of NiF10
+material. At identical experimental conditions, the average nO2 and nCO
+by the NiF10 material (from cycle 2 to cycle 9) was considerably higher
+than the CeO2.
+Acknowledgments
+This publication was made possible by the NPRP grant (NPRP8-370-
+2-154) from the Qatar National Research Fund (a member of Qatar
+Foundation). The statements made herein are solely the responsibility
+of author(s).
+References
+[1] S.R. Lingampalli, M.M. Ayyub, C.N.R. Rao, Recent progress in the photocatalytic
+reduction of carbon dioxide, ACS Omega 2 (2017) 2740–2748, https://doi.org/10.
+1021/acsomega.7b00721.
+[2] E. Koepf, I. Alxneit, C. Wieckert, A. Meier, A review of high temperature solar
+driven reactor technology: 25 years of experience in research and development at
+the Paul Scherrer Institute, Appl. Energy (2017), https://doi.org/10.1016/j.
+apenergy.2016.11.088.
+[3] M.A. Scibioh, B. Viswanathan, Perspectives—CO2 conversion to fuels and chemi-
+cals, Carbon Dioxide to Chem. Fuels, 2018, pp. 475–482, , https://doi.org/10.
+1016/B978-0-444-63996-7.00010-9.
+[4] J.A. Herron, J. Kim, A.A. Upadhye, G.W. Huber, C.T. Maravelias, A general fra-
+mework for the assessment of solar fuel technologies, Energy Environ. Sci. 8 (2015)
+126–157, https://doi.org/10.1039/C4EE01958J.
+[5] H.L. Tuller, Solar to fuels conversion technologies: a perspective, Mater. Renew.
+Sustain. Energy. 6 (2017) 1–16, https://doi.org/10.1007/s40243-017-0088-2.
+[6] R.R. Bhosale, G. Takalkar, P. Sutar, A. Kumar, F. AlMomani, M. Khraisheh, A decade
+of ceria based solar thermochemical H2O/CO2 splitting cycle, Int. J. Hydrog. Energy
+(2018), https://doi.org/10.1016/j.ijhydene.2018.04.080.
+[7] M. Takacs, M. Hoes, M. Caduﬀ, T. Cooper, J.R. Scheﬀe, A. Steinfeld, Oxygen non-
+stoichiometry, defect equilibria, and thermodynamic characterization of
+LaMnO3perovskites with Ca/Sr A-site and Al B-site doping, Acta Mater. (2016),
+https://doi.org/10.1016/j.actamat.2015.10.026.
+[8] R.J. Carrillo, J.R. Scheﬀe, Advances and trends in redox materials for solar ther-
+mochemical fuel production, Sol. Energy 156 (2017) 3–20, https://doi.org/10.
+1016/j.solener.2017.05.032.
+[9] A. Steinfeld, Solar thermochemical production of hydrogen––a review, Sol. Energy
+78 (2005) 603–615, https://doi.org/10.1016/j.solener.2003.12.012.
+[10] P.G. Loutzenhiser, A. Steinfeld, Solar syngas production from CO2 and H2O in a
+two-step thermochemical cycle via Zn/ZnO redox reactions: thermodynamic cycle
+analysis, Int. J. Hydrog. Energy 36 (2011) 12141–12147, https://doi.org/10.1016/
+j.ijhydene.2011.06.128.
+[11] R.R. Bhosale, Thermodynamic eﬃciency analysis of zinc oxide based solar driven
+thermochemical H2O splitting cycle: eﬀect of partial pressure of O2, thermal re-
+duction and H2O splitting temperatures, Int. J. Hydrog. Energy (2018), https://doi.
+org/10.1016/j.ijhydene.2018.06.074.
+[12] S. Abanades, P. Charvin, F. Lemont, G. Flamant, Novel two-step SnO2/SnO water-
+splitting cycle for solar thermochemical production of hydrogen, Int. J. Hydrog.
+Energy 33 (2008) 6021–6030, https://doi.org/10.1016/j.ijhydene.2008.05.042.
+[13] R.R. Bhosale, A. Kumar, P. Sutar, Thermodynamic analysis of solar driven SnO2/
+SnO based thermochemical water splitting cycle, Energy Convers. Manag. 135
+(2017), https://doi.org/10.1016/j.enconman.2016.12.067.
+[14] H. Ishihara, H. Kaneko, T. Yokoyama, A. Fuse, N. Hasegawa, Y. Tamaura, Hydrogen
+production through two-step water splitting using YSZ (Ni,Fe) system for solar
+hydrogen production, Sol. Eng. 2006 (2005) 687–689, https://doi.org/10.1115/
+ISEC2005-76151.
+[15] R.R. Bhosale, A. Kumar, F. AlMomani, I. Alxneit, Sol-gel derived CeO2-Fe2O3 na-
+noparticles: synthesis, characterization and solar thermochemical application,
+Ceram. Int. (2015), https://doi.org/10.1016/j.ceramint.2016.01.042.
+[16] W.C. Chueh, C. Falter, M. Abbott, D. Scipio, P. Furler, S.M. Haile, A. Steinfeld, High-
+ﬂux solar-driven thermochemical dissociation of CO2 and H2O using nonstoichio-
+metric ceria, Science (80-. ) 330 (2010) 1797–1801, https://doi.org/10.1126/
+science.1197834.
+[17] R.R. Bhosale, A. Kumar, F. Almomani, U. Ghosh, S. Al-Muhtaseb, R. Gupta,
+I. Alxneit, Assessment of CexZryHfzO2 based oxides as potential solar thermo-
+chemical CO2 splitting materials, Ceram. Int. 42 (2016) 9354–9362, https://doi.
+org/10.1016/j.ceramint.2016.02.100.
+[18] T. Cooper, J.R. Scheﬀe, M.E. Galvez, R. Jacot, G. Patzke, A. Steinfeld, Lanthanum
+manganite perovskites with Ca/Sr A-site and Al B-site doping as eﬀective oxygen
+exchange materials for solar thermochemical fuel production, Energy Technol. 3
+(2015) 1130–1142, https://doi.org/10.1002/ente.201500226.
+[19] A. Demont, S. Abanades, E. Beche, Investigation of perovskite structures as oxygen-
+exchange redox materials for hydrogen production from thermochemical two-step
+water-splitting cycles, J. Phys. Chem. C 118 (2014) 12682–12692, https://doi.org/
+10.1021/jp5034849.
+[20] C.L. Muhich, S. Blaser, M.C. Hoes, A. Steinfeld, Comparing the solar-to-fuel energy
+conversion eﬃciency of ceria and perovskite based thermochemical redox cycles for
+splitting H2O and CO2, Int. J. Hydrog. Energy (2018), https://doi.org/10.1016/j.
+ijhydene.2018.08.137.
+[21] R. Bhosale, R. Shende, J. Puszynski, Synthesis of nano-sized ferrite materials for H2
+generation from high temperature water-splitting reaction, Tech. Proc. 2011 NSTI
+Nanotechnol. Conf. Expo, NSTI-Nanotech 2011, 2011.
+[22] R. Shende, J. Puszynski, M. Opoku, R. Bhosale, Synthesis of novel ferrite foam
+material for water-splitting application, Nanotechnol. 2009 Fabr. Part. Charact.
+MEMS, Electron. Photonics - Tech. Proc. 2009 NSTI Nanotechnol. Conf. Expo, NSTI-
+Nanotech 2009, 2009.
+[23] J.H. Norman, K.J. Mysels, R. Sharp, D. Williamson, Studies of the sulfur-iodine
+thermochemical water-splitting cycle, Int. J. Hydrog. Energy 7 (1982) 545–556,
+https://doi.org/10.1016/0360-3199(82)90035-0.
+[24] R.R. Bhosale, A. Kumar, F. Almomani, I. Alxneit, Propylene oxide assisted sol-gel
+synthesis of zinc ferrite nanoparticles for solar fuel production, Ceram. Int. (2016),
+https://doi.org/10.1016/j.ceramint.2015.10.043.
+[25] J.R. Scheﬀe, J. Li, A.W. Weimer, A spinel ferrite/hercynite water-splitting redox
+cycle, Int. J. Hydrog. Energy 35 (2010) 3333–3340, https://doi.org/10.1016/j.
+ijhydene.2010.01.140.
+[26] T. Sano, M. Kojima, N. Hasegawa, M. Tsuji, Y. Tamaura, Thermochemical water-
+splitting by a carbon-bearing Ni(II) ferrite at 300°C, Int. J. Hydrog. Energy (1996),
+https://doi.org/10.1016/0360-3199(96)00011-0.
+[27] T. Kodama, N. Gokon, R. Yamamoto, Thermochemical two-step water splitting by
+ZrO2-supported NixFe3-xO4for solar hydrogen production, Sol. Energy (2008),
+https://doi.org/10.1016/j.solener.2007.03.005.
+[28] M.D. Allendorf, R.B. Diver, N.P. Siegel, J.E. Miller, Two-step water splitting using
+mixed-metal ferrites: thermodynamic analysis and characterization of synthesized
+materials, Energy Fuels 22 (2008) 4115–4124, https://doi.org/10.1021/
+ef8005004.
+[29] F. Fresno, R. Fernández-Saavedra, M. Belén Gómez-Mancebo, A. Vidal, M. Sánchez,
+M. Isabel Rucandio, A.J. Quejido, M. Romero, Solar hydrogen production by two-
+step thermochemical cycles: evaluation of the activity of commercial ferrites, Int. J.
+Hydrog. Energy (2009), https://doi.org/10.1016/j.ijhydene.2009.02.020.
+[30] F. Fresno, T. Yoshida, N. Gokon, R. Fernández-Saavedra, T. Kodama, Comparative
+study of the activity of nickel ferrites for solar hydrogen production by two-step
+thermochemical cycles, Int. J. Hydrog. Energy 35 (2010) 8503–8510, https://doi.
+org/10.1016/j.ijhydene.2010.05.032.
+[31] C.C. Agraﬁotis, C. Pagkoura, A. Zygogianni, G. Karagiannakis, M. Kostoglou,
+A.G. Konstandopoulos, Hydrogen production via solar-aided water splitting ther-
+mochemical cycles: combustion synthesis and preliminary evaluation of spinel
+redox-pair materials, Int. J. Hydrog. Energy (2012), https://doi.org/10.1016/j.
+ijhydene.2012.02.196.
+[32] N. Gokon, K. Kondo, T. Hatamachi, M. Sato, T. Kodama, Oxygen-releasing step of
+nickel ferrite based on Rietveld analysis for thermochemical two-step water-split-
+ting, Int. J. Hydrog. Energy (2013), https://doi.org/10.1016/j.ijhydene.2013.02.
+014.
+[33] R. Fernández-Saavedra, M.B. Gómez-Mancebo, C. Caravaca, M. Sánchez,
+A.J. Quejido, A. Vidal, Hydrogen production by two-step thermochemical cycles
+based on commercial nickel ferrite: kinetic and structural study, Int. J. Hydrog.
+Energy (2014), https://doi.org/10.1016/j.ijhydene.2014.02.076.
+[34] H.C. Shin, S.C. Choi, K.D. Jung, S.H. Han, Mechanism of M ferrites (M = Cu and Ni)
+in the CO2 decomposition reaction, Chem. Mater. 13 (2001) 1238–1242, https://
+doi.org/10.1021/cm000658b.
+[35] R.R. Bhosale, A. Kumar, F. AlMomani, U. Ghosh, P. Sutar, G. Takalkar, A. Ashok,
+I. Alxneit, Eﬀectiveness of Ni incorporation in iron oxide crystal structure towards
+thermochemical CO2 splitting reaction, Ceram. Int. 43 (2017) 5150–5155, https://
+doi.org/10.1016/j.ceramint.2017.01.034.
+[36] T. Zhou, Z. Zang, J. Wei, J. Zheng, J. Hao, F. Ling, X. Tang, L. Fang, M. Zhou,
+Eﬃcient charge carrier separation and excellent visible light photoresonse in Cu2O
+nanowires, Nano Energy 50 (2018) 118–125.
+[37] J. Venturini, T.B. Wermuth, M.C. Machado, S. Arcaro, A.K. Alves, A. Viegas,
+G. Takalkar, et al.
+Applied Surface Science 489 (2019) 693–700
+699
+
+
+===== Page 8 =====
+
+C.P. Bergmann, The inﬂuence of solvent composition in the sol-gel synthesis of
+cobalt ferrite (CoFe2O4): a route to tuning its magnetic and mechanical properties,
+J. Eur. Ceram. Soc. (2019) (Article in Press).
+[38] V. Amar, J.A. Puszynski, R.V. Shende, H2 generation from thermochemical water-
+splitting using yttria stabilized NiFe2O4 core-shell nanoparticles, J. Renew. Sustain.
+Energy 7 (2015) 023113.
+[39] G.D. Takalkar, R.R. Bhosale, A. Kumar, F. AlMomani, M. Khraisheh, R.A. Shakoor,
+R.B. Gupta, Transition metal doped ceria for solar thermochemical fuel production,
+Sol. Energy 172 (2018) 204–211.
+[40] R.R. Bhosale, G.D. Takalkar, Nanostructured co-precipitated Ce0.9Ln0.1O2 (Ln = La,
+Pr, Sm, Nd, Gd, Tb, Dy, or Er) for thermochemical conversion of CO2, Ceram. Int. 44
+(2018) 16688–16697.
+G. Takalkar, et al.
+Applied Surface Science 489 (2019) 693–700
+700

@@ -1,0 +1,658 @@
+
+
+===== Page 1 =====
+
+Journal of Energy Storage 38 (2021) 102501
+Available online 5 April 2021
+2352-152X/© 2021 Elsevier Ltd. All rights reserved.
+Investigation of Sr-based perovskites for redox-type thermochemical energy 
+storage media at medium-high temperature 
+Xiaoyu Chen a, Mitsuhiro Kubota a,*, Seiji Yamashita b, Hideki Kita a 
+a Nagoya University, Graduate school of Engineering, Department of Chemical Systems Engineering, Nagoya 4648603, Japan 
+b Nagoya University, Graduate school of Engineering, Department of Materials Process Engineering, Nagoya 4648603, Japan   
+A R T I C L E  I N F O   
+Keywords: 
+Thermochemical energy storage 
+Sr-based perovskite 
+Medium-high temperature 
+A B S T R A C T   
+Thermochemical heat storage system exhibits extraordinary properties compared with sensible or latent heat 
+storage system. Owing to the versatility of perovskite, Sr-based perovskites were investigated for redox-type 
+thermochemical energy storage at medium-high temperature. In this study, SrCoO3-δ, SrFeO3-δ and SrMnO3-δ 
+were prepared via a modified Pechini method. The oxidation enthalpy of each sample was measured using a 
+combination of tubular furnace and DSC. Composition analysis, redox and cyclability tests revealed that SrFeO3-δ 
+possesses favorable behavior validating the design principles.   
+1. Introduction 
+Recently, due to the increasing global demand for energy and 
+exhaustion of fossil fuel resources, there has been a greater focus on 
+technology for solar and other renewable energy technologies. In the 
+field of solar energy, concentrating solar power (CSP) plants represent 
+the most effective form of solar energy conversion. Suffering from the 
+problem of solar energy intermittency, excellent storage systems are 
+needed to make continuous operation possible. As for now, the heat 
+storage systems can be classified into sensible, latent, and thermo­
+chemical heat storage (TCS) system [1], of which TCS exhibits the most 
+favorable properties, such as improved energy storage density, a wider 
+range of operational temperature [2] and theoretically unlimited dis­
+tance of transportation [3]. 
+Redox type TCS system is based on reduction-oxidation reaction of 
+metal oxide, as seen in Eq. (1). Driven by thermal energy, reduction 
+(charge) process was conducted. When energy is later required, the 
+metal oxides in their reduced state could re-oxidize in oxygen and 
+release heat. Theoretically, it does not require a tank for the storage of 
+gaseous products as oxygen can be extracted or released from the 
+atmosphere. 
+MOoxidized state + ΔHr⇌MOreduced state + O2
+(1) 
+Unlike traditional redox pairs, such as BaO2/BaO [4], CuO/Cu2O [5], 
+Co3O4/CoO [6–8], Fe2O3/Fe3O4 [9] and Mn2O3/MnO [10], perovskite 
+oxides (ABO3) do not encounter a discrete structural phase change 
+during the redox process [Eq. (2)]. 
+ABO3−δi(s) + ΔHr⇌ABO3−δf (s) + δf −δi
+2
+O2(g)
+(2)  
+where δi (δi < 0.5)
+is the initial oxygen nonstoichiometric, and 
+δf (δf ≤0.5) is the nonstoichiometric value when the predetermined 
+temperature is reached. 
+Crystal phase transformation implies severe lattice reorganization 
+will occur, potentially damaging the long-term recyclability of the ma­
+terial. Therefore, perovskites are more appropriate for TCS system than 
+traditional redox pairs. Furthermore, the reduction and oxidation of 
+perovskites occur faster than traditional redox pairs mentioned above, 
+which can be attributed to the faster O2−diffusion in nonstoichiometric 
+oxides. Typically, perovskite oxides can re-oxidize in the air within a few 
+seconds [11]. However, the heat storage density of perovskite material 
+might be restricted by the absence of obvious crystal phase change. 
+Pioneering this work, Babiniec et al. investigated LaxSr1-xCoyM1-yO3- 
+δ (M=Mn, Fe) perovskite materials as thermochemical energy storage 
+media for CSP system in 2015 [12]. Actually, LaxSr1-xCoyM1-yO3-δ can be 
+regarded as SrCoO3-δ doped by La, Mn and Fe. Increasing La concen­
+tration resulted in a lattice distortion away from the ideal cubic struc­
+ture, which represented the highest redox capacity. Later, they reported 
+the highest storage capacity (ΔH=390 kJ/kg) of perovskites until now, 
+by using doped calcium manganites (CaBxMn1-xO3-δ, B=Al, Ti) [13]. 
+Recently, Mastronardo et al. investigated CaFexMn1-xO3-δ (x = 0.1, 
+0.3) for thermochemical heat storage [14]. The introduction of 0.1 Fe 
+* Corresponding author. 
+E-mail address: kubota.mitsuhiro@material.nagoya-u.ac.jp (M. Kubota).  
+Contents lists available at ScienceDirect 
+Journal of Energy Storage 
+journal homepage: www.elsevier.com/locate/est 
+https://doi.org/10.1016/j.est.2021.102501 
+Received 25 November 2020; Received in revised form 18 March 2021; Accepted 20 March 2021   
+
+
+===== Page 2 =====
+
+Journal of Energy Storage 38 (2021) 102501
+2
+prevented the decomposition of CaMnO3 up to 1200◦C at pO2 = 0.008 
+atm and increased the heat storage capacity into 344 kJ/kg. While 
+CaFe0.3Mn0.7O3-δ exhibits a higher oxygen exchange capacity, they 
+claimed that the lower enthalpy accompanying the change in oxidation 
+state resulted in a diminished heat storage capacity of 221 kJ/kg. 
+Zhang et al. reported Ba and Sr series perovskites for thermochemical 
+energy storage [15]. They claimed that oxygen monoatomic ion of pe­
+rovskites released from the crystal lattice is not subjected by a single 
+energy threshold and results in an inconspicuous DSC peak during 
+reduction and oxidation. Although Sr-based perovskites are already re­
+ported by Zhang et al. [15], detailed studies on energy storage density 
+are lacking due to the limitation of DSC apparatus. 
+Currently, TCS technology is primarily applied for solar energy uti­
+lization and recycle. However, other thermal technology fields, such as 
+steel industry, electric vehicle, and seasonal indoor heating, also require 
+advanced TCS technology. In practice, such applications cannot be 
+operated under excessively high-temperature condition and volume 
+restrictions for heat storage equipment may exist. Although most re­
+searches in this filed focus on the high temperature, the development of 
+medium-high temperature heat storage technology remains stagnant, 
+resulting in wasted energy resources as well as gaps in TCS research. The 
+utilization of thermal energy is always a challenge in the field of 
+renewable energy; in particular, the exergy of thermal energy is limited 
+as the temperature decreasing, making that energy is more difficult to 
+capture. 
+A few principles for medium-high temperature redox-type thermo­
+chemical energy storage deign are summarized below:  
+I Fast reaction kinetics; either reduction or oxidation.  
+II Can be operable in the medium-high temperature range.  
+III Appropriated operational oxygen partial pressure (A high or low 
+pO2 requires more energy input).  
+IV Sufficient thermochemical heat storage capacity.  
+V Cyclability and durability.  
+VI Affordable raw materials.  
+VII Low toxicity. 
+Herein, the composition analysis, redox ability and cyclability of Sr- 
+based perovskite were investigated. Oxidation enthalpy was investi­
+gated in particular by a combination of tubular furnace and DSC 
+analysis. 
+2. Experimental approach 
+2.1. Synthesis 
+SrBO3-δ (B=Mn, Fe, Co, Ni, Cu) perovskite was synthesized by a 
+modified Pechini method [16]. Stoichiometric amounts of nitrate salts 
+Sr(NO3)2 (98%, FUJIFILM Wako Pure Chemical Corporation), Mn 
+(NO3)2⋅6H2O (98%, FUJIFILM Wako Pure Chemical Corporation), Fe 
+(NO3)3⋅9H2O (99%, FUJIFILM Wako Pure Chemical Corporation), Co 
+(NO3)2⋅6H2O (98%, FUJIFILM Wako Pure Chemical Corporation), Ni 
+(NO3)2⋅6H2O (98%, FUJIFILM Wako Pure Chemical Corporation), and 
+Cu(NO3)2⋅3H2O (98%, FUJIFILM Wako Pure Chemical Corporation) 
+were dissolved in deionized water, then citric acid was added to the 
+solution at a ratio of 1:2 (cation: citric acid). Ethylene glycol was 
+introduced as a reactant with citric acid, then adjusted the pH value to 
+around 9 with ammonia solution subsequently. The solution was dried 
+and pre-calcined at 500◦C for 1h in air to remove all the organic com­
+ponents. After grounding, these powders were pelletized with a 25 mm 
+die at 30 MPa, then pellets were heated to 1200◦C for 5 hours in air. In 
+order to preserve the metastable brownmillerite (reduction state) phase 
+of perovskite until XRD analysis was performed, a few samples were 
+quenched by liquid N2. The remaining samples were cooled at room 
+temperature. For convenience, the quenched samples are denoted as 
+Q-ABO3-δ and the samples without quenching are denoted as NQ-ABO3-δ. 
+2.2. Structural characterization 
+The pre-calcined sample, Q-ABO3-δ and NQ-ABO3-δ sample were 
+investigated using X-ray diffraction (XRD) (SmartLab, Rigaku) with Cu 
+Kα radiation (λ = 0.15418 nm, 40 kV – 25 mA). Crystalline phases were 
+analyzed using PDXL2 (Rigaku Data Analysis Software). 
+2.3. TG analysis and SEM morphology 
+Three thermogravimetric analysis programs were performed for this 
+study. For the first program, the redox capacity and mass change of the 
+NQ-ABO3-δ and Q-ABO3-δ families were evaluated. The primary redox 
+characterization of the NQ-ABO3-δ and Q-ABO3-δ families was tested 
+using pellet fragments (~20mg) in a HITACHI STA7300. This experi­
+ment could not determine the absolute δ values of each sample, but 
+provided an appropriate standard for comparing different families. The 
+first program consisted of two cycles. The “break-in” cycle aim to 
+removing any impurity (i.e. adsorbed species on the surface of the 
+sample) [12,17,18] and eliminating the quenching effect. The initial 
+mass was recorded at 100◦C, and the sample was heated up to 1000◦C 
+holding for 1 h then re-oxidized in the air while cooled to 100◦C for 90 
+min. This investigation was vital for screening the best candidates for 
+further study. The second program acted as a “pre-experiment” aims to 
+obtaining an oxidation rate of the reduced perovskites at room tem­
+perature. This ensured the validity of combining a tubular furnace and 
+DSC analysis. The third program was set up for cyclability and durability 
+tests. The SEM morphology was also studied using as-prepared, 1 cycle 
+and 10 cycles samples. Details on each TG program will be presented in 
+later section. 
+2.4. Oxidation enthalpy measurement 
+To measure oxidation enthalpy, NQ-ABO3-δ samples were heated to 
+1000◦C in an argon flow using tubular furnace to obtain the most 
+reduced ABO2.5 brownmillerite phase, then cooled down to the room 
+temperature also in a protective argon flow. Isothermal oxidation 
+method was performed for SrCoO3-δ and SrFeO3-δ. After heating to the 
+appropriate temperature under N2 protection, the gas was changed to air 
+when target temperature was stable. The exothermic signal was detected 
+using DSC apparatus (DSC-60, Shimadzu Corp.). The oxidation enthalpy 
+of SrMnO3-δ was measured using a non-isothermal oxidation method. 
+3. Results and discussion 
+3.1. Synthesis mechanism and characterization of composition 
+The preparation schematic of Sr-based perovskites via Pechini 
+method was shown in Fig. 1. 
+Metallic cations were initially chelated with citric acid. With the aid 
+of polyalcohol, the corresponding metallic citrates were cross-linked to 
+form a gel through esterification. The organic compositions were 
+removed after pre-calcine process, and the cations were subsequently 
+oxidized at high temperature to form a perovskite structure. 
+Although SrNiO3-δ and SrCuO3-δ perovskite were also prepared using 
+Pechini method, pure SrNiO3-δ and SrCuO3-δ perovskite were not ob­
+tained in this study because of their instability in normal condition [19, 
+20]. Moreover, the complex synthesis conditions do not satisfy the 
+design principles and unsuitable for practical application. Therefore, 
+only SrCoO3-δ, SrFeO3-δ and SrMnO3-δ were considered for further study. 
+To confirm the validity of Pechini methods, XRD analysis of pre- 
+calcined, NQ-ABO3-δ and Q-ABO3-δ samples were performed. The re­
+sults are summarized in Table 1 and typical XRD pattern of NQ-ABO3-δ 
+and Q-ABO3-δ samples are presented in Fig. 2. 
+The XRD results of pre-calcined samples coincide with the mecha­
+nism introduced in Fig. 1, but interestingly, Sr tends to create two kinds 
+of simple substance rather than oxides. Conversely, transition metal 
+X. Chen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 3 =====
+
+Journal of Energy Storage 38 (2021) 102501
+3
+elements readily generated oxides with relatively high valences, which 
+are very close to target perovskites. As temperature continually in­
+creases, these Sr simple substances have the ability to reduce the 
+cationic position of certain transition oxides. Therefore, the Sr cation 
+acts as the A-site and transition metallic cation settles at B-site of 
+perovskites. 
+The phase composition of the unquenched samples (NQ-SrCoO3-δ, 
+NQ-SrFeO3-δ, and NQ-SrMnO3-δ) were analyzed using XRD. After 
+compared with standard PDF card, it was observed that instead of the 
+predicted SrCoO3 phase, NQ-SrCoO3-δ exhibited a Sr6Co5O15 phase that 
+the molar ratio of Sr and Co is not equal to 1:1. Previous evidence 
+suggests that during room temperature cooling of SrCoO3-δ after the 
+Pechini method, it will decompose into Sr6Co5O15 and a small amount of 
+Co3O4. Based on the synthesis mechanism of pre-calcined samples, there 
+are two possible explanations for this result: A. when cooling at room 
+temperature, a small amount of Co was decomposed from SrCoO3-δ then 
+slowly oxidized in air, while remaining SrCoO3-δ was evolved into more 
+stable Sr6Co5O15 phase; B. during the cooling process, SrCoO3 was 
+generated first, and a small amount of Sr was decomposed from SrCoO3-δ 
+then reacted with the undecomposed SrCoO3-δ to form Sr6Co5O15. Irre­
+spective of the mechanism, the XRD results suggested Sr6Co5O15 is more 
+stable than SrCoO3 at room temperature, making it difficult to synthe­
+size and use in practical applications. The Sr-Co-O phase diagram [21] 
+shows that when temperature was lower than 1150 K, it was impossible 
+to form SrCoO3 perovskite even if the mole ratio of raw materials was 
+1:1. 
+Conversely, SrFeO3-δ presented continued phase from high temper­
+ature to room temperature. Nonetheless, even unquenched sample 
+shows unsaturated phase mainly because the dense pelletization of 
+sample may obstruct oxygen diffusion, the inner part cannot acquire 
+enough oxygen. 
+The metastable brownmillerite phase can be obtained using the 
+quenching method. However, Q-SrFeO3-δ also consists of SrFeO2.875, 
+maintaining a relatively larger δ value. This suggested that even sample 
+was “frozen” by the quenching method, but it will still slowly oxidize 
+over time. It is interesting to notice that the quenching effect of SrMnO3- 
+δ has not been detected, which can be attributed to stronger Mn-O bond 
+that needs higher temperature to release lattice oxygen. Moreover, 
+SrMnO3 shows hexagonal structure instead of standard ABO3 perovskite 
+cubic structure, leading its redox behavior, viz. oxygen exchange ca­
+pacity, which deviates from another two [22]. 
+Fig. 1. Preparation schematic.  
+Table 1 
+Main phase, crystal structure and PDF-code of each sample.  
+Sample 
+Main phase 
+Crystal Structure 
+PDF-# 
+Pre-calcined-SrCoO3-δ 
+α-Sr, γ-Sr, 
+Co2.62O4 
+(-) 
+(-) 
+Pre-calcined-SrFeO3-δ 
+α-Sr, γ-Sr, 
+Fe3O4 
+(-) 
+(-) 
+Pre-calcined-SrMnO3-δ 
+α-Sr, γ-Sr, 
+Mn2O3 
+(-) 
+(-) 
+NQ-SrCoO3-δ 
+Sr6Co5O15 
+Trigonal, R32 (155) 
+00-060- 
+0757 
+NQ-SrFeO3-δ 
+SrFeO3 
+Cubic, Pm-3m (221) 
+01-070- 
+6802 
+SrFeO2.75 
+Orthorhombic, Cmmm 
+(65) 
+01-070- 
+5777 
+NQ-SrMnO3-δ 
+SrMnO3 
+Hexagonal, P63/mmc 
+(194) 
+01-084- 
+1612 
+Q-SrCoO3-δ 
+SrCoO2.5 
+Orthorhombic, Ima2 
+(46) 
+01-078- 
+5502 
+Q-SrFeO3-δTetragonal, I4/ 
+mmm (139) 
+SrFeO2.5 
+Orthorhombic, Icmm 
+(74) 
+01-070- 
+0836 
+SrFeO2.875 
+Tetragonal, I4/mmm 
+(139) 
+00-059- 
+0638 
+Q-SrMnO3-δ 
+SrMnO3 
+Hexagonal, P63/mmc 
+(194) 
+01-084- 
+1612  
+Fig. 2. XRD patterns of NQ-ABO3 and Q-ABO3 samples.  
+X. Chen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 4 =====
+
+Journal of Energy Storage 38 (2021) 102501
+4
+3.2. Redox behavior 
+The redox behavior of NQ-ABO3-δ and Q-ABO3-δ families were 
+determined using TGA. Fig. 3 shows the profile of TGA program and 
+mass change of each sample. SrCoO3-δ and SrFeO3-δ exhibited very 
+similar redox behavior when heated to 1000◦C in the atmospheric 
+ambient, while SrMnO3-δ showed inactivity under these conditions. 
+Because some adsorbed species may remain on the surface of the sample, 
+the first cycle is used to diminish the effect of impurities. The initial mass 
+of the second cycle was used as the initial mass of each sample at a time 
+of 210 min. 
+The changes in mass of unquenched SrCoO3-δ, SrFeO3-δ and SrMnO3-δ 
+samples are 2.11%, 2.34% and 0.34%, respectively. The changes in mass 
+of quenched SrCoO3-δ, SrFeO3-δ and SrMnO3-δ samples were slightly 
+lower (1.72%, 2.11% and 0.33%, respectively). The change in δ, namely 
+Δδ, can be calculated easily using Eq. (3): 
+Δδ = Δm⋅MWABO3
+minitial⋅MWO
+(3)  
+where Δm is the change in mass, minitial is the initial mass, MWABO3 is the 
+molecular weight of perovskite (δ = 0), MWO is the molecular weight of 
+monoatomic oxygen. The results for Δδ are listed in Table 2. 
+It is interesting to notice that after quenching process the redox 
+behavior of ABO3-δ was slightly worse than those unquenched samples. 
+This is mainly due to irreversible damage caused to ABO3-δ during the 
+quenching process; being unable to return to most oxidized state leads to 
+a narrow range of mass change. In particular, the Q-ABO3-δ families 
+show rapid mass change behavior in the first cycle, around 700◦C and 
+400◦C for SrCoO3-δ and SrFeO3-δ, respectively. By quenching, the 
+perovskite sample can be “frozen” at reduced state until it returns to 
+room temperature. When “frozen” perovskite was heated again, the 
+oxidation rate was faster. As presented in Fig. 3 (b), when a certain 
+temperature was reached, around 800◦C for SrCoO3-δ and 500◦C for 
+SrFeO3-δ, Q-ABO3-δ almost return to the initial mass. However, as tem­
+perature keeps increasing the reduction behavior was observed. 
+Although the reduction reaction occurs during the entire heating pro­
+cess, the reduction rate is lower than the oxidation rate until a certain 
+temperature is reached. Nonetheless, unlike the other perovskites, 
+SrMnO3-δ did not exhibit an obvious quenching effect except for a slight 
+variation in the mass change. 
+Actually, in the case of SrCoO3-δ and SrFeO3-δ, their redox behaviors 
+are quite different in a sense due to their own property. The mass change 
+of SrFeO3-δ seems like a linear function in the temperature range from 
+400◦C to 1000◦C either reduction or oxidation. This property can exist 
+over two cycles, which can be demonstrated by cyclability test. SrCoO3- 
+δ, on the other hand, represents more complicated reduction behavior. 
+This behavior can be classified into broken line function, with a change 
+in slope at approximately 900◦C. It can be attributed to the variety of Sr- 
+Co-O ternary component phase. Ondˇrej Jankovský et al. [21] previously 
+investigated the detailed phase composition of Sr-Co-O. According to 
+Sr-Co-O phase diagram, at a temperature below 877◦C, Sr and Co can 
+only create quasi-one-dimensional Sr6Co5O15 [23] rather than the 
+SrCoO3-δ perovskite structure. These results also show perfect consis­
+tency with ours. From another point of view, varied phase change during 
+the redox process seems unfavorable to reactor design because of the 
+instability of kinetics. Even when the SrMnO3-δ was heated up to 
+1000◦C, it remained in a relatively high oxidation state. In the supple­
+mentary experiment performed by Zhang et al. [15], despite heating 
+SrMnO3-δ perovskite to 1150◦C in an Ar atmosphere, namely reduced in 
+an extremely low oxygen partial pressure, it only exhibited a mass 
+change of less than 2%. This indicates that SrMnO3-δ may possess a large 
+reduction enthalpy; the estimated value was reported by other authors 
+[24,25], but in terms of heat storage at medium-high temperature, the 
+rigorous operating conditions pose some problems. 
+3.3. Oxidation enthalpy estimate 
+To confirm that the oxidation rate in the ambient condition of the 
+reduced sample was slow enough for DSC measurement, a pre- 
+experiment was performed with the result shown in Fig. S1. The NQ- 
+ABO3-δ family was heated to 1000◦C in a N2 atmosphere to obtain 
+reduced samples, then gas was changed into synthesized air while 
+temperature was fixed at 100◦C to determine the oxidation rate under 
+normal condition. The values of Δδ in N2 atmosphere and air are listed in 
+Table S1. To study the thermochemical heat storage capacity per unit 
+volume, the density of each sample was measured using helium pyc­
+nometer method, with results of 5.70 g/cm3 for SrCoO3-δ, 5.79 g/cm3 for 
+SrFeO3-δ and 6.82 g/cm3 for SrMnO3-δ. 
+3.3.1. Oxidation enthalpy of Sr(Co,Fe)O3-δ 
+According to the calculation results from Fig. S1, SrCoO3-δ and 
+SrFeO3-δ can be almost reduced into ABO2.5 brownmillerite phase, and 
+the changes in δ for SrCoO3-δ and SrFeO3-δ were so small that they can be 
+ignored while gas was changed into air. Oxidation state samples were 
+subjected to heat treatment using tubular furnace to obtain reduced 
+samples. Then reduced samples were heated to appropriate temperature 
+in N2 protection, the gas was changed to air, and the DSC exothermic 
+peak was monitored. This is known as the isothermal oxidation method. 
+Typical DSC results were shown in Fig. 4. 
+An appropriate oxidation temperature is crucial for each reduced 
+sample due to the temperature and oxygen partial pressure sensitivity of 
+perovskite materials. Excessively high oxidation temperature may result 
+in incomplete oxidation, as high temperature also promotes reduction 
+Fig. 3. Redox behavior of (a) NQ-ABO3-δ and (b) Q-ABO3-δ families.  
+Table 2 
+The value of Δδ (Mean value ± standard deviation) for no-quench and quenched 
+families.  
+Experiment Condition 
+SrCoO3-δ 
+SrFeO3-δ 
+SrMnO3-δ 
+No-Quench 
+0.266 ± 0.007 
+0.279 ± 0.003 
+0.049 ± 0.006 
+Quenched 
+0.199 ± 0.008 
+0.262 ± 0.007 
+0.048 ± 0.007  
+X. Chen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 5 =====
+
+Journal of Energy Storage 38 (2021) 102501
+5
+reaction. However, at insufficient temperature, the oxidation reaction 
+may be too tardy to generate visible peak. Hence, the oxidation tem­
+perature for SrCoO3-δ and SrFeO3-δ are 450◦C and 400◦C (program 
+temperature), respectively. 
+Among the DSC results, only SrFeO3-δ showed the intact exothermic 
+peak, while SrCoO3-δ represented semi-peak or vaulted peak. Interest­
+ingly, the DSC curve of SrCoO3-δ has two-level baselines before and after 
+reaction, which suggested a change in the specific heat capacity of 
+SrCoO3-δ. This can be attributed to the formation of Sr6Co5O15 we dis­
+cussed previously. Despite the similarity of the redox behavior of 
+SrCoO3-δ and SrFeO3-δ the oxidation enthalpy of SrCoO3-δ is 47.6 ± 5.7 
+kJ/kg-ABO3 (270.5 ± 32.3 kJ/L) which slightly smaller than 81.7 ± 3.4 
+kJ/kg-ABO3 (473.5 ± 20.0 kJ/L). In addition, it is worth noting that the 
+exothermic peak measured by DSC is usually smaller than the real value, 
+which is mainly due to the inevitable heat loss. 
+3.3.2. Oxidation enthalpy of SrMnO3-δ 
+It was found that SrMnO3-δ appears to have a significant oxygen af­
+finity. Even when the reduced SrMnO3-δ was heated to 500◦C in N2 at­
+mosphere (extreme low oxygen partial pressure), the reduced SrMnO3-δ 
+still re-oxidized in 30 min. As seen in Fig. S2, the reduced SrMnO3-δ 
+exhibits similar oxidation behavior in N2 or Air. For this reason, a non- 
+isothermal oxidation method was adopted. The reduced SrMnO3-δ was 
+heated at a fixed heating rate (10◦C/min) in air. After integrated the 
+exothermic peak, the oxidation enthalpy was found to be 25.6 ± 5.8 kJ/ 
+kg-ABO3 (230.3 ± 39.4 kJ/L). A typical pattern is shown in Fig. 5. 
+Since it was found that SrMnO3-δ can only reach a small Δδ (from 
+Fig. S2, Δδ only reached 0.1), even under high temperature and low pO2 
+condition, its oxidation enthalpy was not satisfactory. On the contrary, it 
+shows an unusual stability, suggesting that SrMnO3-δ may possess the 
+highest oxidation enthalpy among the all Sr-based perovskites while its 
+Δδ is sufficiently large. Unfortunately, because the relationship of Δδ 
+and enthalpy is not always linear, it is difficult to predict the complete 
+oxidation value by DSC method from only a single point. Vieten et al. 
+[24] estimated the reaction enthalpy of SrMnO3-δ (373 ± 55 kJ/mol-O2) 
+using Van’t Hoff approach, but this method poses severe measurement 
+uncertainties since only small mass changes were detected. It is worth 
+noting that the unit they used (kJ/mol-O2) means the amount of heat 
+released when perovskite reacts with 1 mol of oxygen. In 2001, Rørmark 
+et al. [26] measured the oxidation enthalpy of SrMnO3-δ to be 293 ± 10 
+kJ/mol-O2 and 73.3 ± 0.5 kJ/mol-Mn (~384.65 kJ/kg). Furthermore, 
+comparing with the DFT-based data [27–29], the reaction enthalpy of 
+SrMnO3-δ is 340 kJ/mol-O2. From the literature, SrMnO3-δ does possess a 
+larger reaction enthalpy, as expected from the design principles, but the 
+high stability of SrMnO3-δ in the range of 500-1000◦C results in practical 
+difficulties. In conclusion, only SrFeO3-δ was found to be able to operate 
+under medium-high temperature conditions. 
+3.4. Cyclability test 
+SrFeO3-δ was chosen for further cyclability test in 10 redox cycles, as 
+shown in Fig. 6. Aside from the first cycle not showing a satisfactory 
+depth of reduction, the other cycles show an excellent cyclability in air. 
+The large mass loss seen in the first cycle can be attributed to the 
+desorption of water vapor or other adsorbed species. From this 
+perspective, SrFeO3-δ could return to the relatively high oxidation state, 
+at a mass very close to the authentic initial mass, when temperature was 
+cooled down to 100◦C. 
+As shown in Fig. 7 (a-b), some SrFeO3-δ agglomerated and generated 
+relatively large particles whose size is over 20 μm. The agglomerated 
+particles appear to have a terraced and exfoliated structure. In the 
+magnified view, the terraced structure is distinct, with some small holes 
+(about 1 μm) visible on the surface of particles. The point defects in 
+Fig. 4. The DSC curve for reduced Sr(Co,Fe)O3-δ with isothermal oxidation method.  
+Fig. 5. The DSC curve for reduced SrMnO3-δ with non-isothermal oxida­
+tion method. 
+Fig. 6. The 10 redox cycles test of SrFeO3-δ.  
+X. Chen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 6 =====
+
+Journal of Energy Storage 38 (2021) 102501
+6
+crystal growth may play an important role in determining of surface 
+morphology. For example, defects may accelerate the oxygen exchange 
+rate due to the increment of surface area. However, after two cycles, 
+only a small amount of the terraced structure remains, and the point 
+defect can no longer be detected, as seen in Fig. 7 (c-d). The 10 cycles 
+result shown in Fig. 7 (e-f) indicate that SrFeO3-δ exhibits severe sin­
+tering, and the terraced structure no longer exists. Some holes can be 
+distinguished, but they should be considered as incomplete sintering 
+instead of point defects. Surprisingly, even suffer from the significant 
+sintering, the redox behavior of SrFeO3-δ is still adequate. 
+4. Conclusions 
+In this research, Sr-based transition metal perovskites were prepared 
+for thermochemical energy storage at medium-high temperature. Owing 
+to the instability of SrCuO3-δ and SrNiO3-δ, only SrCoO3-δ, SrFeO3-δ and 
+SrMnO3-δ were successfully formed via the modified Pechini method. 
+The “frozen” samples were obtained using quenching method to inves­
+tigate their crystal structure. The structure of SrMnO3-δ is deviate from 
+the ideal perovskite cubic structure and shows diminished redox ca­
+pacity at 1000◦C, even in the N2 atmosphere. However, several reports 
+have shown that SrMnO3-δ may possess the highest reaction enthalpy 
+(300~400 kJ/mol-O2) among three candidates due to the stronger Mn-O 
+bonds and non-cubic structure. 
+Although SrCoO3-δ has very similar redox capacity to that of SrFeO3- 
+δ, according to the phase diagram of Sr-Co-O, its variant phase transition 
+is unfavorable to the TCS system. SrCoO3-δ, SrFeO3-δ and SrMnO3-δ were 
+heated to 1000◦C to obtain reduced phase. After DSC measurement, the 
+oxidation enthalpies of each sample are 47.6 ± 5.7 kJ/kg-ABO3 (270.5 ±
+32.3 kJ/L), 81.7 ± 3.4 kJ/kg-ABO3 (473.5 ± 20.0 kJ/L) and 25.6 ± 5.8 
+kJ/kg-ABO3 (230.3 ± 39.4 kJ/L), respectively. Theoretically, if all 
+samples reach the same Δδ, the oxidation enthalpy will increase in the 
+increase of element metallicity, which may be related to the difference 
+of M-O bonds strength (SrNiO3-δ and SrCuO3-δ could also be considered 
+as their M-O bonds are too weak to form). 
+Since SrFeO3-δ exhibited excellent redox capacity, further cyclability 
+tests were performed and their morphology was investigated by SEM. 
+The result showed a good cyclability for 10 cycles even after sintering. In 
+conclusion, SrFeO3-δ meets the requirements for operation in moderate 
+oxygen partial pressure and medium-high temperature range and pos­
+sesses exceptional cyclability. However, the limited thermochemical 
+energy storage capacity and reaction kinetics require further 
+investigation. 
+CRediT authorship contribution statement 
+Xiaoyu Chen: Conceptualization, Methodology, Writing – original 
+draft. Mitsuhiro Kubota: Conceptualization, Formal analysis, Writing – 
+review & editing. Seiji Yamashita: Investigation. Hideki Kita: 
+Supervision. 
+Fig. 7. SEM images of SrFeO3-δ: (a-b) for as-prepared sample, (c-d) for 2-cycles sample and (e-f) for 10-cycles sample.  
+X. Chen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 7 =====
+
+Journal of Energy Storage 38 (2021) 102501
+7
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgement 
+This research was supported by “Knowledge Hub Aichi”, Priority 
+Research Project from Aichi Prefectural Government, Japan. 
+Supplementary materials 
+Supplementary material associated with this article can be found, in 
+the online version, at doi:10.1016/j.est.2021.102501. 
+Reference 
+[1] A.J. Carrillo, J. Gonz´alez-Aguilar, M. Romero, J.M. Coronado, Solar energy on 
+demand: a review on high temperature thermochemical heat storage systems and 
+materials, Chem. Rev. 119 (2019) 4777–4816. 
+[2] M. Kubota, S. Matsumoto, H. Matsuda, Enhancement of hydration rate of LiOH by 
+combining with mesoporous carbon for low-temperature chemical heat storage, 
+Appl. Therm. Eng. 150 (2019) 858–863. 
+[3] P. Pardo, et al., A review on high temperature thermochemical heat energy storage, 
+Renew. Sustain. Energy Rev. 32 (2014) 591–610. 
+[4] A.J. Carrillo, D. Sastre, D.P. Serrano, P. Pizarro, J.M. Coronado, Revisiting the 
+BaO2/BaO redox cycle for solar thermochemical energy storage, Phys. Chem. 
+Chem. Phys. 18 (2016) 8039–8048. 
+[5] M. Deutsch, et al., High-temperature energy storage: kinetic investigations of the 
+CuO/Cu2O reaction cycle, Energy Fuels 31 (2017) 2324–2334. 
+[6] C. Agrafiotis, M. Roeb, M. Schmücker, C. Sattler, Exploitation of thermochemical 
+cycles based on solid oxide redox systems for thermochemical storage of solar heat. 
+Part 1: testing of cobalt oxide-based powders, Sol. Energy 102 (2014) 189–211. 
+[7] C. Agrafiotis, M. Roeb, M. Schmücker, C. Sattler, Exploitation of thermochemical 
+cycles based on solid oxide redox systems for thermochemical storage of solar heat. 
+Part 2: Redox oxide-coated porous ceramic structures as integrated 
+thermochemical reactors/heat exchangers, Sol. Energy 114 (2015) 440–458. 
+[8] C. Agrafiotis, S. Tescari, M. Roeb, M. Schmücker, C. Sattler, Exploitation of 
+thermochemical cycles based on solid oxide redox systems for thermochemical 
+storage of solar heat. Part 3: Cobalt oxide monolithic porous structures as 
+integrated thermochemical reactors/heat exchangers, Sol. Energy 114 (2015) 
+459–475. 
+[9] T. Block, M. Schmücker, Metal oxides for thermochemical energy storage: a 
+comparison of several metal oxide systems, Sol. Energy 126 (2016) 195–207. 
+[10] Q. Lei, R. Bader, P. Kreider, K. Lovegrove, W. Lipi´nski, Thermodynamic analysis of 
+a combined-cycle solar thermal power plant with manganese oxide-based 
+thermochemical energy storage, in: E3S Web Conf. 22, 2017. 
+[11] L. Imponenti, K.J. Albrecht, R.J. Braun, G.S. Jackson, Measuring thermochemical 
+energy storage capacity with redox cycles of doped-CaMnO3, ECS Trans. 72 (2016) 
+11–22. 
+[12] S.M. Babiniec, E.N. Coker, J.E. Miller, A. Ambrosini, Investigation of LaxSr1- 
+xCoyM1-yO3-δ (M=Mn, Fe) perovskite materials as thermochemical energy storage 
+media, Sol. Energy 118 (2015) 451–459. 
+[13] S.M. Babiniec, E.N. Coker, J.E. Miller, A. Ambrosini, Doped calcium manganites for 
+advanced high-temperature thermochemical energy storage, Int. J. Energy Res. 40 
+(2016) 280–284. 
+[14] E. Mastronardo, X. Qian, J.M. Coronado, S.M. Haile, The favourable 
+thermodynamic properties of Fe-doped CaMnO3 for thermochemical heat storage, 
+J. Mater. Chem. A 8 (2020) 8503–8517. 
+[15] Z. Zhang, L. Andre, S. Abanades, Experimental assessment of oxygen exchange 
+capacity and thermochemical redox cycle behavior of Ba and Sr series perovskites 
+for solar energy storage, Sol. Energy 134 (2016) 494–502. 
+[16] Pechini, M. P. Method of Pre Parng lead and alkalne earth titanates and nobates 
+and coat. US Pat. 3,330,697 2 (1967). 
+[17] A. Ambrosini, et al., Synthesis and characterization of ferrite materials for 
+thermochemical CO2 splitting using concentrated solar energy, ACS Symp. Ser. 
+1056 (2010) 1–13. 
+[18] E. Ksepko, Perovskite-type Sr(Mn1-xNix)O3 materials and their chemical-looping 
+oxygen transfer properties, Int. J. Hydrogen Energy 39 (2014) 8126–8137. 
+[19] M. Zinkevich, Constitution of the Sr-Ni-O system, J. Solid State Chem. 178 (2005) 
+2818–2824. 
+[20] C.B. Aicock, B. Li, Thermodynamic study of the Cu-Sr-0 system, J. Am. CerOm Soc. 
+73 (1990). 
+[21] O. Jankovský, D. Sedmidubský, J. Vítek, P. ˇSimek, Z. Sofer, Phase diagram of the 
+Sr-Co-O system, J. Eur. Ceram. Soc. 35 (2015) 935–940. 
+[22] M.T. Curnan, J.R. Kitchin, Effects of concentration, crystal structure, magnetism, 
+and electronic structure method on first-principles oxygen vacancy formation 
+energy trends in perovskites, J. Phys. Chem. C 118 (2014) 28776–28790. 
+[23] A.S. Botana, et al., Non-one-dimensional behavior in charge-ordered structurally 
+quasi-one-dimensional Sr6Co5O15, Phys. Rev. B - Condens. Matter Mater. Phys. 83 
+(2011) 1–8. 
+[24] J. Vieten, et al., Redox thermodynamics and phase composition in the system 
+SrFeO3−δ —SrMnO3−δ, Solid State Ionics 308 (2017) 149–155. 
+[25] J. Vieten, et al., Perovskite oxides for application in thermochemical air separation 
+and oxygen storage, J. Mater. Chem. A 4 (2016) 13652–13659. 
+[26] L. Rørmark, A.B. Mørch, K. Wiik, S. Stølen, T. Grande, Enthalpies of oxidation of 
+CaMnO3-δ, Ca2MnO4-δ and SrMnO3-δ - deduced redox properties, Chem. Mater. 13 
+(2001) 4005–4013. 
+[27] A. Jain, et al., Formation enthalpies by mixing GGA and GGA + U calculations, 
+Phys. Rev. B - Condens. Matter Mater. Phys. 84 (2011) 1–10. 
+[28] A. Jain, et al., A high-throughput infrastructure for density functional theory 
+calculations, Comput. Mater. Sci. 50 (2011) 2295–2310. 
+[29] A. Jain, et al., Commentary: The materials project: a materials genome approach to 
+accelerating materials innovation, APL Mater 1 (2013). 
+X. Chen et al.                                                                                                                                                                                                                                    

@@ -1,0 +1,1349 @@
+
+
+===== Page 1 =====
+
+A Novel CeO2–xSnO2/Ce2Sn2O7 Pyrochlore Cycle for Enhanced
+Solar Thermochemical Water Splitting
+Chongyan Ruan and Yuan Tan
+State Key Laboratory of Catalysis, Dalian Institute of Chemical Physics, Chinese Academy of Sciences,
+Dalian 116023, China
+University of Chinese Academy of Sciences, Beijing 100049, China
+Lin Li, Junhu Wang, Xiaoyan Liu, and Xiaodong Wang
+State Key Laboratory of Catalysis, Dalian Institute of Chemical Physics, Chinese Academy of Sciences,
+Dalian 116023, China
+DOI 10.1002/aic.15701
+Published online March 17, 2017 in Wiley Online Library (wileyonlinelibrary.com)
+A novel CeO2–xSnO2/Ce2Sn2O7 pyrochlore stoichiometric redox cycle with superior H2 production capacities is identi-
+ﬁed and corroborated for two-step solar thermochemical water splitting (STWS). During the ﬁrst thermal reduction step
+(14008C), a reaction between CeO2 and SnO2 occurred for all the CeO2–xSnO2 (x 5 0.05–0.20) solid compounds, form-
+ing thermodynamically stable Ce2Sn2O7 pyrochlore rather than metastable CeO2-d. Consequently, substantially higher
+reduction extents were achieved owing to the reduction of CeIV to CeIII. Moreover, in the subsequent reoxidation with
+H2O (8008C), H2 production capacities increased by a factor of 3.8 as compared to the current benchmark material
+ceria when x 5 0.15, with the regeneration of CeO2 and SnO2 and the concomitant reoxidation of CeIII to CeIV. The
+H2O-splitting performance for CeO2–0.15SnO2 was reproducible over seven consecutive redox cycles, indicating the
+material was also robust. V
+C 2017 American Institute of Chemical Engineers AIChE J, 63: 3450–3462, 2017
+Keywords: solar fuel, pyrochlore, stoichiometric, water splitting, H2 production
+Introduction
+Solar resource, with its unmatched magnitude and availabil-
+ity, is generally considered as a permanent solution to ensuring
+energy security and combating climate change.1–3 Currently,
+several plausible pathways to convert sunlight to fuel inter-
+mediates,
+including
+photochemical,4,5
+photoelectrochemi-
+cal,6,7 thermochemical,8–10 and their combinations11,12 are
+under consideration. In particular, solar thermochemical water
+splitting (STWS), which utilizes the entire solar spectrum and
+inherently operates at high temperatures, offers the potential
+to convert abundant yet intermittent solar energy to renewable
+hydrogen with high solar to hydrogen production rates and
+efﬁciencies.8–10,13–16
+Two-step thermochemical cycles, which eliminate the need
+for in situ gaseous separation of O2 and H2,17–21 and lower the
+required temperature compared to direct water thermoly-
+sis,13,22 are most commonly operated in STWS. A typical two-
+step STWS cycle involving metal oxide as reactive intermedi-
+ate can be exempliﬁed as follows:
+High-temperature reduction
+MOox ! MOred1 1
+2 O2 g
+ð Þ
+(1)
+Low-temperature oxidation with H2O
+MOred1H2O g
+ð Þ ! MOox1H2 g
+ð Þ
+(2)
+where MOox and MOred represent the oxidized and the corre-
+sponding reduced forms of the metal oxide.
+During the ﬁrst high-temperature reduction step, MOox is
+typically reduced at low oxygen partial pressure driven by
+concentrated solar energy. During the following oxidation
+step, H2O is introduced to reoxidize the reduced metal oxide
+back to the original oxidized state, producing hydrogen and
+thus establishing a cyclic process.
+Over the past decades, numerous efforts have been made to
+identify
+viable
+materials
+for
+efﬁcient
+two-step
+STWS.14–16,23–25 However, substantial challenges still remain
+in discovering feasible metal-oxide based redox cycles with
+moderate operating temperatures and large gravimetric fuel
+production capacities for cost-effective solar hydrogen pro-
+duction. In early studies, systems based on stoichiometric
+chemistries (e.g., Fe3O4 ! 3FeO 1 1=2O2
+26,27; ZnO !
+Zn 1 1=2O2
+28,29; SnO2 ! SnO 1 1=2O2
+30,31) were extensive-
+ly studied on account of the great oxygen exchange capacities
+and thus fuel productions per mass of oxide. Cycle feasibility
+with pure Fe3O4 has been experimentally demonstrated, but
+Additional Supporting Information may be found in the online version of this
+article.
+Correspondence concerning this article should be addressed to X. Wang at
+xdwang@dicp.ac.cn.
+V
+C 2017 American Institute of Chemical Engineers
+3450
+AIChE Journal
+August 2017 Vol. 63, No. 8
+
+
+===== Page 2 =====
+
+the kinetics are slow and magnetite must be combined with an
+oxygen conducting refractory material such as yttrium-
+stabilized zirconia (YSZ) or ZrO2 to suppress problems associ-
+ated with melting and sintering, which limit their overall
+solar-to-fuel efﬁciency. Conversely, for the ZnO/Zn and
+SnO2/SnO processes, the volatile products require rapid
+quenching to avoid recombination and to achieve products
+separation, yielding great challenges for innovative reactor
+design even though the global solar-to-fuel efﬁciency is
+promising.24
+Recently, two-step STWS cycles based on nonstoichiomet-
+ric chemistries has attracted considerable interest for the sim-
+plicity of implementation. Three classes of nonstoichiometric
+oxides have been proposed as candidate materials for commer-
+cial two-step STWS: doped-hercynite (CoxFe1–xAl2O4), perov-
+skite (SrxLa1–xMnyAl1–yO3), and ceria (CeO2). Muhich et al.19
+validated the doped-hercynite cycle governed by an O-
+vacancy mechanism using DFT calculations in conjunction
+with experimental measurements. Near-isothermal H2O split-
+ting
+was
+achieved
+by
+cycling
+CoxFe1–xAl2O4
+materials
+between 1500 and 13508C. Slow reaction kinetics is currently
+the most signiﬁcant limitation for the doped-hercynite active
+materials. Recent studies on perovskites (ABO3) highlight this
+class of oxides as impressive candidates for solar-to-fuel con-
+version. McDaniel et al.20 evaluated the nonstoichiometric
+SrxLa1–xMnyAl1–yO3–d perovskites and demonstrated encour-
+aging fuel productivity at a reduction temperature of 13508C.
+Based on the highly amenability to doping, perovskites with
+higher H2 production capacity and more rapid reaction kinetics
+still remain to be identiﬁed for practical solar fuel applica-
+tions. Undoped ceria has emerged as a highly attractive candi-
+date
+with
+inherent
+fast
+reaction
+kinetics
+and
+superior
+crystallographic stability, making it the current benchmark
+material for comparing the performance of new redox cycles
+for two-step STWS.8,21,32,33 Chueh et al.8,33 proposed a non-
+stoichiometric ceria cycle via an O-vacancy mechanism as
+illustrated below:
+Higher temperature
+CeO2 ! CeO22d1 d
+2 O2
+(3)
+Lower temperature
+CeO22d1dH2O ! CeO21dH2
+(4)
+The viability of the nonstoichiometric ceria cycle was success-
+fully demonstrated with stable solar fuels production in a
+cavity-based solar reactor under realistic solar concentrating
+conditions.8,21,34 Nevertheless, the reduction to nonstoichio-
+metric CeO22d shows restricted thermochemical fuel yield
+despite the fast kinetics and outstanding thermal stability.
+Rather high temperatures, near 20008C, were necessary to
+decompose CeIVO2 to CeIII
+2 O3 for efﬁcient fuel production,35
+which impeded the practicality of undoped ceria in STWS
+applications.
+Doping ceria with divalent (Ca, Mg, Sr, Cu),36,37 trivalent
+(Y, La, Sc, Sm, Gd, Pr, Fe, Ni, Rh),32,38–40 and tetravalent (Zr,
+Hf)41–45 cations to form CeO2-based mixed oxides or solid sol-
+utions has proven to be an effective way to alter its thermody-
+namic and kinetic properties. The divalent and trivalent
+dopants introduce stable intrinsic oxygen vacancies within the
+ceria lattice and thus result in higher oxygen diffusion rates
+when codoped with tetravalent dopants. The tetravalent dop-
+ants induce lattice strain in bulk ceria, which in turn decreases
+the oxygen-vacancy formation energy and in consequence
+enhances the reduction extents. Among them Hf-doped ceria
+exhibits the best redox performance in term of the fuel produc-
+tion for CO and H2, with 35% more CO and 41% more H2
+evolving for Ce0.9Hf0.1O2 than undoped ceria.36,42 Moreover,
+in a recent study, rhodium-doped ceria was employed in solar
+thermochemical cycles with stable solar H2 and even hydro-
+carbon fuels productivity by incorporating a catalytic pro-
+cess.40 Despite the extensive effort, the above doping metals
+based on nonstoichiometric chemistries have achieved limited
+success in increasing H2 production capacities due to the par-
+tial reduction of CeIV to CeIII. In previous studies, Sn doped
+ceria solid solutions exhibited numerous applications as oxy-
+gen gas sensors and oxygen ion conductors by virtue of their
+amazing oxygen exchange properties, which relied on the
+redox cycle between CeIV and CeIII within the Ce2Sn2O7-
+Ce2Sn2O8 complex oxides known as pyrochlores.46 The pyro-
+chlore oxides associated with the general formula A2B2O7 can
+be described as cubic ﬂuorite consisting of ordered cations and
+vacancies with 1/8 of the anions missing,47 which have been
+the subject of great interest motivated by the wide variety of
+the chemical substitutions at the A, B, O sites, signiﬁcant
+oxide ion conductivity and radiation tolerance under extreme
+conditions.48–54 Therefore, it would be highly anticipated that
+the CeO2–xSnO2 solid compounds can potentially enhance the
+reduction extents and thus improve two-step STWS perfor-
+mance. However, the lack of studies related to CeO2–xSnO2
+solid compounds in two-step STWS, in particular, is surprising
+given the superior oxygen exchange capacities.
+In light of this evidence, we synthesized a series of ceria-tin
+oxide solid compounds (CeO2–xSnO2) for assessment of their
+two-step STWS capabilities as compared to benchmark mate-
+rial ceria. The productivity and overall reaction kinetics of the
+prepared materials for two-step STWS cycled between 1400
+and 8008C were systematically investigated in identical exper-
+imental conditions. In parallel, crystalline phase evolution,
+element-speciﬁc chemical state, microstructural morphology
+change, and elemental composition distributions of the sam-
+ples conditioned under various redox treatment (initial sam-
+ples, samples subjected to thermal reduction, postcycling
+samples), were characterized and critically analyzed via pow-
+der X-ray diffraction (XRD), Raman spectroscopy, X-ray
+absorption
+near
+edge
+structure
+(XANES)
+spectroscopy,
+M€ossbauer spectroscopy, and electron microscopy (SEM,
+HRTEM, STEM-EDX). Finally, insights into reaction mecha-
+nism governing the two-step redox cycle were deduced based
+on the experimental ﬁndings and characterization evidence.
+Essentially, a new CeO2–xSnO2/Ce2Sn2O7 pyrochlore stoi-
+chiometric redox cycle taking advantage of reversible change
+of the oxidation state of Ce, that is, CeIV $ CeIII was identi-
+ﬁed to facilitate two-step STWS.
+Experimental Section
+Preparation of redox materials
+All the chemicals used in the coprecipitation synthesis of
+CeO2–xSnO2 (x 5 0.05, 0.10, 0.15, and 0.20, i.e., molar ratio
+of Ce:Sn 5 0.95:0.05, 0.90:0.10, 0.85:0.15, and 0.80:0.20) sol-
+id compounds were of analytical grade without further treat-
+ment. Typically, stoichiometric amounts of Ce(NO3)36H2O
+and SnCl22H2O were mixed and dissolved in deionized water
+under continuous stirring. To dissolve SnCl22H2O precursor,
+dilute hydrochloric acid was added slowly to the magnetically
+AIChE Journal
+August 2017 Vol. 63, No. 8
+Published on behalf of the AIChE
+DOI 10.1002/aic
+3451
+ 15475905, 2017, 8, Downloaded from https://aiche.onlinelibrary.wiley.com/doi/10.1002/aic.15701 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 3 =====
+
+stirred solution until pH 5 1 to obtain a transparent solution.
+Subsequently, ammonium hydroxide was added dropwise to
+the transparent solution until pH 5 9, under vigorously stirring
+for 2 h at room temperature. The resultant slurry was aged for
+another 1 h, ﬁltered, washed thoroughly with deionized water,
+and then dried at 1208C overnight. Finally, the dried solid
+products were ground into a ﬁne powder with an agate mortar
+and pestle followed by thermal treatment in the ﬂowing air
+according to the program: heating from room temperature to
+10008C at 58C min21, and ﬁnally heating to 14008C at 28C
+min21 and holding for 4 h. This resulted in sintered, light yel-
+low dense powders. For comparison, pure CeO2 sample was
+prepared following the same procedure as described above
+without adding SnCl22H2O precursor. It must be mentioned
+that the sintering process at the high temperature relevant to
+thermal cycling is crucially important to stabilize the structure
+properties of the samples as prepared. Fluctuations of the sam-
+ples’ performance during two-step STWS can thus be
+minimized.
+A summary of desired molar ratio of Ce:Sn, actual molar
+ratio of Ce:Sn as determined by inductively coupled plasma-
+atomic emission spectrometry (ICP-AES) analysis, and the
+associated sample identiﬁcations are presented in Table 1.
+Inductively coupled plasma2mass spectrometry (ICP-MS)
+analysis detected no residual chlorine from the as synthesized
+CeO2–0.15SnO2 sample sintered at 14008C for 4 h (Supporting
+Information Table S1).
+Reactivity tests for thermochemical cycling
+The experimental setup for two-step water splitting is
+shown schematically in Figure 1. Powder Sample (0.5 g) was
+loosely packed in a stagnation ﬂow reactor as reported else-
+where,9,18,55 allowing gases to access all the redox material.
+The main features of the reactor are brieﬂy summarized here.
+A stainless gas-handing manifold, two concentric Al2O3 tubes
+make up the reactor. Inlet gases ﬂow along the open ended
+inner tube (7 mm i.d.) downward toward the round-bottom,
+close ended outer tube (14 mm i.d.) to mix well with the mate-
+rial tested, and then turn by 1808 to exit via an annular region
+between the two concentric tubes. The concentric alumina
+tubes reactor was placed horizontally in the infrared image
+furnace (ULVAC-RIKO, VTH-E44) capable of rapid heating
+and cooling. Irradiation from the infrared image lamps was
+regulated by a temperature program controller (ULVAC-
+RIKO, TPC-5000), and temperature was monitored using an
+R-type thermocouple (63.88C) enclosed in an alumina sheath
+in direct contact with the sample.
+Gas ﬂows were regulated with digital mass ﬂow controllers.
+Prior to entering the reactor, traces of O2 in purge gas Ar
+(99.9996% purity) was removed by passing through the deoxi-
+dizer. During a typical thermochemical cycle, thermal reduc-
+tion
+was
+ﬁrst
+accomplished
+by
+increasing
+the
+sample
+temperature from 8008C to 14008C at 1008C min21 in an Ar
+ﬂow (500 mL min21), and holding at 14008C for 10 min. Fol-
+lowing thermal reduction, the temperature was ramped down
+to 8008C at 2008C min21 in the ﬂowing Ar. Subsequently,
+H2O splitting was initiated by delivering Ar gas saturated with
+puriﬁed water (500 mL min21, c(H2O) 5 4.2 mol %) to the
+thermally reduced sample via a water bubbler inside a water
+bath at 308C for 8 min. The passage for the steam to the reac-
+tor was heated by a heater band to prevent condensation. Both
+the high-temperature reduction and low-temperature H2O
+splitting steps were carried out at atmospheric pressure.
+Product gases (O2, H2) exiting the ﬂow reactor were con-
+stantly monitored and recorded using a quadrupole mass
+Table 1. Nominal and Measured Material Compositions of
+CeO2–xSnO2 Solid Compounds with Associated Sample
+Names
+Sample Name
+Nominal Ce:Sn
+Molar Ratio
+Measured Ce:Sn
+Molar Ratio
+CeO2-0.05SnO2
+0.95:0.05
+0.96:0.04
+CeO2-0.10SnO2
+0.90:0.10
+0.92:0.08
+CeO2-0.15SnO2
+0.85:0.15
+0.85:0.15
+CeO2-0.20SnO2
+0.80:0.20
+0.79:0.21
+Figure 1. Experimental setup for two-step thermochemical water splitting.
+[Color figure can be viewed at wileyonlinelibrary.com]
+3452
+DOI 10.1002/aic
+Published on behalf of the AIChE
+August 2017 Vol. 63, No. 8
+AIChE Journal
+ 15475905, 2017, 8, Downloaded from https://aiche.onlinelibrary.wiley.com/doi/10.1002/aic.15701 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 4 =====
+
+spectrometer (MS; InProcess Instruments GAM200) after con-
+densing out of excess steam by a cryogenic trap. Calibration
+of the mass spectrometry was performed daily prior to each
+experiment with six known concentrations of O2 and H2
+(1000–5000 ppm O2, 1000–5000 ppm H2, balance Ar) to an
+accuracy of 0.001 mol %.
+The transient O2 and H2 evolution rates were calculated as
+Vi5 xiVtotal
+mred
+(5)
+where Vi denotes the volumetric rates of O2 or H2 produced
+per unit of mass of CeO2–xSnO2 sample; xi denotes the mole
+fraction of O2 or H2 in the efﬂuent gas, monitored by the mass
+spectrometer; Vtotal is the total volumetric ﬂow rate regulated
+by the digital mass ﬂow controller; and mred is the mass of
+CeO2–xSnO2 redox material.
+For quantitative determination of efﬂuent gas, O2 and H2
+yields per cycle were obtained from numerical integration of
+gas evolution rate-time curves.
+Characterization techniques
+At the end of each processing step, the redox material was
+cooled down under Ar atmosphere. Afterward, the powder
+was transferred into an air-closed container under N2-atmo-
+sphere for ex situ structure characterization. The crystal phase
+transformation of CeO2–xSnO2 (x 5 0.05–0.20) redox samples
+(samples as-synthesized, samples subjected to thermal reduc-
+tion, samples after H2O splitting reaction), were identiﬁed by
+X-ray powder diffraction (XRD) using a PANalytical diffrac-
+tometer (Cu Ka, 40 kV, 40 mA). A continuous mode was used
+for collecting data in the 2h scan range of 15–808 with an
+angular step size of 0.028 and a counting time of 30 s per step.
+Raman spectroscopy was conducted using a LabRam
+HR800 confocal Raman microprobe (HORIBA Jobin Yvon,
+France) equipped with a 532-nm wavelength He-Ne laser.
+Phonon modes in the powders were investigated to ﬁngerprint
+the chemical structure of CeO2–xSnO2 (x 5 0.05–0.20) sam-
+ples after various processing steps.
+X-ray absorption near edge structure (XANES) spectra of
+the samples (diluted with approximated 90% by mass of BN
+and pressed into self-supporting wafers) at the Ce LIII-edge
+were measured at beamline BL14W1 of Shanghai Synchrotron
+Radiation Facility (SSRF, Shanghai, China). The electron stor-
+age ring was operated at 3.5 GeV with the electron current of
+140 2 210 mA. Spectra were collected in transmission mode
+at room temperature using a solid-state detector. The output
+beam was monochromatized by a Si(111) double-crystal
+monochromator. CeO2 and Ce(NO3)36H2O wafers were used
+as standard references with known oxidation states of CeIV
+and CeIII, respectively. The XANES data were recorded from
+5520 to 6120 eV and analyzed using a standard curve-ﬁtting
+procedure with ATHENA software program.
+119Sn Mo€ssbauer spectroscopic measurements were carried
+out in transmission mode at room temperature using a constant
+acceleration spectrometer (Topologic Systems. Inc.) with a
+single-line c-ray source of Ca119mSnO3. The absorbers con-
+taining approximately 10 mg cm22 of 119Sn were prepared
+under argon atmosphere inside the glove box, and the sample
+holder was then sealed to avoid contact with air. Velocity
+scale calibration was performed using the magnetic sextet of a
+high-purity a-Fe foil absorber as a standard, and 57Co (Rh
+matrix) was used as the source. Experimental spectra were ﬁt-
+ted to appropriate combinations of Lorentzien proﬁles by
+least-squares method using the MossWinn 4.0 program. The
+119Sn isomer shifts were given relative to the center of the
+CaSnO3 spectrum recorded at room temperature.
+Surface microstructures were analyzed via scanning elec-
+tron microscopy (JSM-7800F Field Emission SEM) operated
+at 4 kV. Samples were placed on conductive tapes and then
+sputtered with carbon. The morphology and crystallinity of the
+materials were also characterized using a JEOL JEM-2000
+EM ﬁeld emission high-resolution transmission
+electron
+microscope (HRTEM) operating at 200 kV. Samples after var-
+ious processing steps were crushed into ﬁne powders, followed
+by ultrasonic dispersion in ethanol for 15 min. The resulting
+suspension was drop-casted on copper TEM grids coated with
+carbon and allowed to dry for analysis. Elemental composition
+and distribution were determined via energy dispersive X-ray
+spectroscopy (EDX).
+Nitrogen sorption isotherm at 77 K was performed on a
+Micromeritics ASAP 2460 apparatus. The samples were out-
+gassed at 3008C and 1-m Torr for 4 h prior to the analysis.
+Brunauer-Emmett-Teller (BET) were evaluated from the
+adsorption isotherm within the pressure range 0.05 < P/P0<
+0.3.
+Results and Discussion
+Thermal chemical H2O splitting
+For thermochemical cycling applications, pure CeO2 acts as
+a good baseline for comparison of new materials to evaluate
+the degree of enhancement in solar fuels productivity that can
+be achieved. We therefore compared the transient O2 and H2
+evolution rates during a complete H2O-splitting redox cycle
+obtained with CeO2–0.15SnO2 and pure CeO2 under identical
+experimental conditions. The results are presented in Figures
+2a, b. During the thermal reduction step (Figure 2a), O2 evolu-
+tion starts at above 9008C for both CeO2–0.15SnO2 and pure
+CeO2.
+Intriguingly,
+O2
+evolution
+from
+CeO2–0.15SnO2
+increases more rapidly initially in comparison with pure CeO2,
+attaining a peak rate of 2.83 mL min21 g21 at 11008C and
+0.30 mL min21 g21 at 14008C for CeO2–0.15SnO2 and pure
+CeO2, respectively. Notably, fully 4.73 more O2 is released
+for CeO2–0.15SnO2 (4.87 mL g21) than pure CeO2 (1.03 mL
+g21). During the following oxidation with H2O at 8008C (Fig-
+ure 2b), H2 is immediately produced on introduction of the
+steam in both cases. Pure CeO2 exhibits an initial rapid
+increase to a peak rate of 5.08 mL min21 g21 followed by
+exponential decline. Whereas for CeO2–0.15SnO2, the peak
+H2 evolution rate drops to 2.96 mL min21 g21 followed by a
+comparably slower decrease rate. Conversely, compared to
+pure CeO2, CeO2–0.15SnO2 did not achieve its thermodynam-
+ic equilibrium, as indicates by long tail of H2 evolution after
+reoxidation at 8008C for 8 min. And it was due to the compa-
+rably short reoxidation period (see Supporting Information
+Figure S1 for further information). More importantly, the
+enhanced reduction extent for CeO2–0.15SnO2 leads to a
+higher H2 yield during the subsequent oxidation with H2O, for
+which H2 production capacity (CeO2–0.15SnO2, 7.18 mL g21;
+pure CeO2, 1.87 mL g21) increases by a factor of 3.8 despite
+the initial H2 evolution rate being lower on introduction of the
+steam.
+To get further insight into the inﬂuence of SnO2 content on
+the thermal reduction capabilities and the subsequent H2O
+splitting kinetics, CeO2–xSnO2 (x 5 0.05–0.20) together with
+pure CeO2 were assessed systematically. The thermochemical
+AIChE Journal
+August 2017 Vol. 63, No. 8
+Published on behalf of the AIChE
+DOI 10.1002/aic
+3453
+ 15475905, 2017, 8, Downloaded from https://aiche.onlinelibrary.wiley.com/doi/10.1002/aic.15701 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 5 =====
+
+behaviors are depicted in Figure 3a (see Supporting Informa-
+tion Figure S2 and Table S2 for details). We note that for all
+the CeO2–xSnO2 (x 5 0.05–0.20) solid compounds, total
+amounts of oxygen evolved are improved signiﬁcantly when
+compared with pure CeO2, and increase linearly with increas-
+ing SnO2 content. Given that all the samples were evaluated
+under the same conditions, we thus presume the enhanced O2
+yields mainly stem from more favorable reduction thermody-
+namics. H2 yields, in excellent correspondence with the
+expectations, also increase linearly with the improved reduc-
+tion extent for x 5 0.05–0.15. It is noteworthy that H2 yields
+increase by a factor of 1.3 and even 3.8 for x 5 0.05 and
+x 5 0.15, respectively (Supporting Information Figure S2 and
+Table S2). However, for higher SnO2 content of x 5 0.20, H2
+yield decreases remarkably albeit the highest O2 yield is
+observed, which may result from the severe sintering as will
+be shown in the subsequent discussion. In summary, the reduc-
+tion extents for CeO2–xSnO2 (x 5 0.05–0.20) are substantially
+improved in comparison with pure CeO2, and increase linearly
+with increasing SnO2 content. Moreover, the subsequent H2O
+splitting performances are also sufﬁciently favored owing to
+the enhanced reduction extents.
+To assess the stability of the water-splitting performance,
+CeO2–0.15SnO2 was subjected to seven consecutive redox
+cycles at 14008C reduction/8008C reoxidation. As seen in Fig-
+ure 3b, the O2 and H2 productivity are roughly constant with-
+out obvious deactivation from cycle 1 to cycle 7. The average
+yields of O2 and H2 for CeO2–0.15SnO2 are 4.64 and 7.05 mL
+g21, respectively, with very slightly decreases compared with
+the values reported in Supporting Information Table S2, indi-
+cating rather stable fuel productivity. ICP-AES analysis shows
+the molar ratio of Ce:Sn for CeO2–0.15SnO2 sample after
+cycling is consistent with that of initial sample sintered at
+14008C for 4 h (Supporting Information Table S3).
+To probe into the underlying reason for the enhanced reduc-
+tion extents with sufﬁciently favored H2O splitting performan-
+ces of ceria-tin oxide solid compounds when compared with
+Figure 2. Comparison of transient (a) O2 evolution rates
+during thermal reduction at 14008C in Ar, (b) H2
+evolution rates during the following reoxidation
+at 8008C in H2O/Ar for CeO2–0.15SnO2 and pure
+CeO2.
+Experimental conditions were as follows: Ar sweep gas
+flow rate 5 1000 mL min21 g21 during thermal reduc-
+tion; cH2O 5 4.2 mol %, total gas flow rate 5 1000 mL
+min21 g21 during the following reoxidation. Inset shows
+the integrated O2 and H2 productivity, respectively.
+[Color figure can be viewed at wileyonlinelibrary.com]
+Figure 3. (a) O2 and H2 yield of CeO2–xSnO2 (x 5 0.05–
+0.20) solid compounds as compared to pure
+CeO2. (b) O2 and H2 yield of CeO2–0.15SnO2
+over seven consecutive H2O splitting cycles.
+The same experimental conditions were employed and
+illustrated as follows: Ar sweep gas at a flow rate of
+1000 mL21 min21 g21 during the thermal reduction at
+14008C, and H2O/Ar at cH2O 5 4.2 mol %, for which
+total gas flow rate 5 1000 mL21 min21 g21 during the
+reoxidation at 8008C. [Color figure can be viewed at
+wileyonlinelibrary.com]
+3454
+DOI 10.1002/aic
+Published on behalf of the AIChE
+August 2017 Vol. 63, No. 8
+AIChE Journal
+ 15475905, 2017, 8, Downloaded from https://aiche.onlinelibrary.wiley.com/doi/10.1002/aic.15701 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 6 =====
+
+pure CeO2, crystalline phase, element-speciﬁc chemical state,
+microstructural morphology, and elemental composition distribu-
+tions of the samples (initial samples, samples subjected to thermal
+reduction, samples after the subsequent H2O splitting cycle) of
+various processing steps, were characterized via XRD together
+with Raman spectroscopy, XANES spectroscopy, M€ossbauer
+spectroscopy, as well as electron microscopy (SEM, HRTEM,
+STEM-EDX).
+Sample characterization
+Figure 4a displays the X-ray powder diffraction patterns of
+initial CeO2–xSnO2 (x 5 0.05–0.20) solid compounds thermal-
+ly calcined at 14008C for 4 h. Pure CeO2 is also shown as a
+reference. For all the as synthesized samples, reﬂection peaks
+indexable to the cubic ﬂuorite CeO2 (JCPDS 00-043-1002)
+and rutile type tetragonal SnO2 (JCPDS 01-077-0447) are
+observed, indicating the samples prior to use are in the form of
+mixed metal oxides. Additionally, the intensity of SnO2 dif-
+fraction peaks, as expected, monotonically increases with
+increasing SnO2 amount. The X-ray powder diffraction pat-
+terns of CeO2–xSnO2 (x 5 0.05–0.20) solid compounds after
+thermal reduction at 14008C in ﬂowing Ar for 10 min are
+shown in Figure 4b. Interestingly, for all the samples thermally
+reduced, reﬂection peaks assignable to the SnO2 completely
+disappear (with traces of SnO2 only detectable for x 5 0.20)
+along with the emergence of a new superstructure reﬂection
+attributable to the Fd3m (no. 227) symmetry of a typical
+Ce2Sn2O7 pyrochlore phase. The newly emerged reﬂection
+peaks (highlight by the gray bars in Figures 4b, c) can be
+indexed as (222), (400), (440), and (622) planes of Ce2Sn2O7
+pyrochlore structure.56 Furthermore, the increase of the corre-
+sponding Ce2Sn2O7 pyrochlore reﬂections is coupled with the
+decrease of the cubic ﬂuorite CeO2 phase. This points out that
+a reaction between CeO2 and SnO2 has occurred, resulting in
+the reduction or even disappearance of the reﬂection peaks of
+CeO2 and SnO2. No extra peaks originating from the other
+phases are observed for pure CeO2 sample thermally reduced
+(Figure 4b). The above XRD observations conﬁrm that during
+thermal reduction in ﬂowing Ar, a stoichiometric reaction
+occurs between CeO2 and SnO2, forming thermodynamically
+favorable Ce2Sn2O7 pyrochlore. These observations are also in
+agreement with the enhanced O2 production capacities, which
+increase linearly with increasing SnO2 content as shown in
+Figure 3a.
+Notably, after the subsequent H2O splitting step with the
+thermally reduced CeO2–xSnO2 (x 5 0.05–0.20) solid com-
+pounds, the intensities of the Ce2Sn2O7 pyrochlore reﬂection
+peaks decrease remarkably, with only traces of Ce2Sn2O7
+pyrochlore phase present when x 5 0.05–0.15 (Figure 4c).
+This reveals that the reduced Ce2Sn2O7 pyrochlore is almost
+completely oxidized. From these results, it is concluded that
+during reoxidation with H2O, Ce2Sn2O7 pyrochlore is oxidized
+back to CeO2 and SnO2. Additionally, no diffraction peak
+characteristic of SnO2 is resolved, indicating a high dispersion
+of SnO2 in ceria-tin oxide solid compounds after the reoxida-
+tion step. On the contrary, in the case of CeO2–xSnO2
+(x 5 0.20), Ce2Sn2O7 pyrochlore is still visible, thus implying
+a fraction of the reduced Ce2Sn2O7 pyrochlore has not been
+oxidized back by H2O, resulting in the remarkable decrease in
+H2 yield presented in Figure 3a.
+As an effective tool to analyze the M-O bonds as well as lat-
+tice defects, Raman spectroscopy was employed to further
+characterize the crystalline phase evolution of CeO2–xSnO2
+(x 5 0.05–0.20) solid compounds. Raman spectra of samples
+after various processing steps are compared in Figure 5a (see
+Supporting Information Figures S3 and S4 for more details).
+The spectra are plotted on the same relative intensity scale.
+All the as synthesized samples calcined at 14008C exhibit
+spectral features indicative of ideal crystalline CeO2, with an
+intense band centered at ca. 465 cm21 (Figure 5a) related to
+the F2g Raman active mode of the ﬂuorite-type structure
+Figure 4. X-ray powder diffraction patterns of CeO2–xSnO2
+solid compounds: (a) as synthesized samples
+calcined
+at
+14008C,
+(b)
+samples
+thermally
+reduced in flowing Ar, (c) samples after the sub-
+sequent H2O splitting step.
+Crystalline phases: (•) CeO2; (*) SnO2; () Ce2Sn2O7.
+The gray bars highlight reflection peaks assignable to
+Ce2Sn2O7 pyrochlore. Pure CeO2 after various process-
+ing steps are also shown as references. [Color figure can
+be viewed at wileyonlinelibrary.com]
+AIChE Journal
+August 2017 Vol. 63, No. 8
+Published on behalf of the AIChE
+DOI 10.1002/aic
+3455
+ 15475905, 2017, 8, Downloaded from https://aiche.onlinelibrary.wiley.com/doi/10.1002/aic.15701 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 7 =====
+
+(Supporting Information Figure S5a).57 The F2g peak origi-
+nates from the symmetrical stretching vibration of the oxygen
+atoms located around eight-fold coordination CeIV ions (Sup-
+porting Information Figure S5d).58–60 Furthermore, weaker
+Raman bands at ca. 479 cm21, which is the characteristic Eg
+vibration mode of cassiterite SnO2,61 are observed with
+x 5 0.15 and x 5 0.20 (Supporting Information Figure S3a).
+However, this low-intensity band at ca. 479 cm21 is absent
+with x 5 0.05 and x 5 0.10 (Supporting Information Figure
+S3a) attributable to the comparably lower SnO2 content. The
+above observations clearly conﬁrm that SnO2 has not been
+incorporated into the CeO2 framework of the initial samples,
+as evidenced by the X-ray diffraction patterns in Figure 4a.
+Importantly, all the samples thermally reduced in following
+Ar generally decrease remarkably in the intensity of the F2g
+peaks, accompanied by a shift to lower wavenumbers with
+broader modes (as displayed in Figure 5a). By closer inspec-
+tion, a continuous blue shift of 25 to 210 cm21 is measured
+for all the samples thermally reduced as compared to the as
+synthesized samples, for which DF2g Raman shift is almost
+linear with SnO2 molar ratio, Figure 5b. These phenomena are
+qualitatively consistent with other Ce12xRExO22y systems,
+where RE 5 La, Pr, Nd, Eu, Gd, and Sm.58–60,62–64 For exam-
+ple, Banerji et al.59 and Giannici et al.63 reported that as the
+M2O3 (M 5 Gd, Sm, Yb) concentration in CeO2 increases, the
+Raman spectrum changes considerably with increases in width
+and a decrease of the intense mode of CeO2 at 465cm21. In a
+recent study, Li et al.65 also demonstrated that the insertion of
+Sn ions into CeO2 lattice to form a solid solution results in a
+systematic shift of the band at 465cm21 to lower frequencies
+with increasing Sn content. Considering that the blue-shift
+(red-shift) of Raman F2g peak is associated with lattice expan-
+sion (contraction) and weakening (strengthening) of local
+cation-anion bonds,58,60 the decreased intensity and the blue
+shift of F2g peaks resulting from lattice expansion explicitly
+indicate the incorporation of SnO2 into CeO2 ﬂuorite structure
+after thermal reduction, with the reduction of CeIV (0.97 A˚ at
+octahedral coordination) ions to bigger CeIII (1.143 A˚ at octa-
+hedral coordination) as supported by the XANES results
+below. This is in good accordance with conclusion from afore-
+mentioned XRD observations that a continuous reaction
+between CeO2 and SnO2 occurs with increasing SnO2 content.
+It is noteworthy that after the subsequent H2O splitting step,
+the intensity of the F2g peaks increase with a red shift ranging
+between 13 to 15 cm21 for cycled samples when x 5 0.05–
+0.15 (Figures 5a, b), implying the regeneration of CeO2
+ﬂuorite-type structure and lattice contraction with the oxida-
+tion of CeIII to smaller CeIV ions. However, for the cycled
+sample with x 5 0.20, the F2g peak is neither enhanced in
+intensity nor shifted back to higher wavenumbers, indicating
+CeO2 and SnO2 are not regenerated completely during reoxi-
+dation with H2O. These results are in line with the XRD inves-
+tigations shown in Figure 4c. Meanwhile, cassiterite SnO2,
+which falls below XRD detection limits (Figure 4c), is identi-
+ﬁed with characteristic weak Raman bands at ca. 479 cm21
+(Supporting Information Figure S3c). This suggests the migra-
+tion of SnO2 out of CeO2 ﬂuorite structure which alleviates
+CeO2 lattice distortions after reoxidation with H2O.
+To provide element-speciﬁc electronic conﬁgurations of the
+metals studied and to give better insight into redox chemistry,
+valence states of Ce and Sn in CeO2–0.15SnO2 solid com-
+pound featuring the highest H2 yield were determined by Ce
+LIII-edge XANES spectroscopy and 119Sn M€ossbauer spectros-
+copy. Figure 6 shows the normalized XANES spectra for
+CeO2–0.15SnO2 after various processing steps together with
+the spectra of standard reference compounds at the Ce LIII
+edge. XANES spectrum of CeIII(NO3)36H2O (red) is dominat-
+ed by one intense absorption band at around 5728 eV. The
+spectrum of CeIVO2 (black) exhibits a typical double white
+line 5 eV apart, which stems from the two cerium ground-state
+electronic conﬁgurations of 4f0 and 4f1.66,67 For the initial
+CeO2–0.15SnO2 (green), the spectrum shows exclusively fea-
+tures characteristic of CeIV. Negligible shifts in the edge posi-
+tion of the Ce LIII absorption edge is observed as compared to
+the reference spectra of CeO2. The inset highlights the shift of
+the absorption edge position of CeO2–0.15SnO2 solid com-
+pound at three different stages of thermochemical H2O split-
+ting cycling. We note that for CeO2–0.15SnO2 after thermal
+reduction in following Ar (blue), a shift in the edge position to
+lower photon energy is evident concomitant with appearance
+of a new peak corresponding to CeIII (Figure 6) when
+Figure 5. (a) Raman spectra of CeO2–xSnO2 solid com-
+pounds after various processing steps (as
+synthesized
+samples
+calcined
+at
+14008C,
+samples
+thermally
+reduced
+in
+flowing
+Ar,
+samples after the subsequent H2O splitting
+cycle) with different SnO2 content. (b) Plot of
+DF2g
+Raman
+shift
+of
+samples
+thermally
+reduced as compared to the as synthesized
+samples (blue shift) and samples after the
+subsequent H2O splitting cycle as compared
+to samples thermally reduced (red shift) as a
+function of SnO2 molar ratio.
+[Color figure can be viewed at wileyonlinelibrary.com]
+3456
+DOI 10.1002/aic
+Published on behalf of the AIChE
+August 2017 Vol. 63, No. 8
+AIChE Journal
+ 15475905, 2017, 8, Downloaded from https://aiche.onlinelibrary.wiley.com/doi/10.1002/aic.15701 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 8 =====
+
+compared with the as synthesized sample (green), indicating a
+reduction from CeIV to CeIII happens. For CeO2–0.15SnO2
+samples after the subsequent H2O splitting cycle (brown),
+there is a shift in the edge position back to higher photon ener-
+gy, which conﬁrms that CeIII reverts back to CeIV during reox-
+idation with H2O. Additionally, a slight shift to higher photon
+energy compared to the initial spectrum is observed, revealing
+the incomplete reoxidation of cerium, which is likely due to
+the comparably short reoxidation period (8 min).
+119Sn M€ossbauer spectroscopy is traditionally considered as
+the most sensitive tool for probing the oxidation state and the
+local structural symmetry of Sn on the atomic scale.68,69 Two
+characteristic hyperﬁne parameters can be extracted from the
+measured spectra: isomer shift (IS) and quadrupole splitting
+(QS). IS reﬂects the changes to the s-electrons density, which
+is induced by electron-donating or electron-withdrawing
+groups and, to a greater extent, by the change of the valence
+state. QS indicates the local structural symmetry of the probed
+Sn nucleus, with asymmetric environments corresponding to
+large splitting of the nuclear energy levels.
+The experimental and ﬁtted 119Sn M€ossbauer spectra of
+CeO2–0.15SnO2 solid compounds (as synthesized, reduced,
+and cycled) are illustrated in Figure 7 and the resulting hyper-
+ﬁne parameters of the corresponding ﬁts are included in Sup-
+porting Information Table S4. The spectrum of the initial
+CeO2–0.15SnO2 (Figure 7a) shows a symmetric Lorentzian
+doublet that can be unambiguously ascribed to typical crystal-
+line SnO2. The isomer shift close to 0 mm s21 (IS 5 0.088 mm
+s21) is characteristic of the SnIV oxidation state and the quad-
+rupole splitting of QS 5 0.528 mm s21 arises from the intrin-
+sic asymmetry of the SnO6 octahedron in the well-crystallized
+SnO2 (Supporting Information Figures S5b, e). For CeO2–
+0.15SnO2
+sample
+thermally
+reduced
+(Figure
+7b),
+the
+M€ossbauer experimental data can be ﬁtted to a symmetric Lor-
+entzian doublet with a higher value of an isomer shift and a
+quadrupole splitting which can be assigned to SnIV in
+Ce2Sn2O7 pyrochlore (IS 5 0.163 mm s21, QS 5 0.654 mm
+s21). This ﬁnding implies an evolution from crystalline SnO2
+to Ce2Sn2O7 pyrochlore occurs after thermal reduction, corre-
+lating well with the XRD results in Figure 4. The relatively
+higher IS value suggests an increase in Sn 5s electron density
+due to the electron transfer from neighboring Ce to Sn in
+Ce2Sn2O7 pyrochlore, while the larger QS value indicating a
+more asymmetric environment originating from the surround-
+ing Ce atoms as the original Sn neighbors in SnO2 are replaced
+with Ce in Ce2Sn2O7 pyrochlore (Supporting Information Fig-
+ures S5c, f). Note that no detectable spectroscopic indications
+Figure
+6. Normalized
+XANES
+spectra
+for
+CeO2–
+0.15SnO2
+solid
+compounds
+after
+various
+processing steps at the Ce LIII edge togeth-
+er with the spectra of standard reference
+compounds. Inset represents the shift of
+the
+absorption
+edge
+position
+of
+CeO2–
+0.15SnO2 solid compound as synthesized
+(green), reduced (blue), and cycled (brown).
+[Color figure can be viewed at wileyonlinelibrary.com]
+Figure 7. Room temperature 119Sn M€ossbauer spectra
+of CeO2–0.15SnO2 solid compounds (a) as
+synthesized, (b) thermally reduced in flowing
+Ar, and (c) after the subsequent H2O splitting
+cycle. Structures inset corresponding to the
+local coordination of (a) SnO2 moiety, (b)
+Ce2Sn2O7
+moiety,
+(c)
+SnO2
+and
+Ce2Sn2O7
+moieties as assigned in literature.
+The red sphere represents an oxygen atom, whereas
+green and brown spheres identify tin and cerium atoms,
+respectively. [Color figure can be viewed at wileyonline-
+library.com]
+AIChE Journal
+August 2017 Vol. 63, No. 8
+Published on behalf of the AIChE
+DOI 10.1002/aic
+3457
+ 15475905, 2017, 8, Downloaded from https://aiche.onlinelibrary.wiley.com/doi/10.1002/aic.15701 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 9 =====
+
+for the reduced Sn species, such as SnII and Sn0, are observed,
+which clearly demonstrates no change in SnIV oxidation state
+occurs for CeO2–0.15SnO2 sample thermally reduced. For
+CeO2–0.15SnO2 samples after the subsequent H2O splitting
+cycle (Figure 7c), the spectrum consists of two symmetric Lor-
+entzian doublets corresponding to SnO2 and Ce2Sn2O7 with an
+area fraction of, respectively, 73% and 27%. This result is
+well in accordance with the O2 and H2 productivity shown in
+Supporting Information Table S2 (O2 yield: 4.87 mL g21, H2
+yield: 7.18 mL g21), where 74% of the reduced Ce2Sn2O7 was
+reoxidized to produce H2. To sum up, the XANES and
+M€ossbauer spectroscopy results provide unambiguous evi-
+dence that the thermochemical H2O splitting cycling with
+CeO2–0.15SnO2 rely on the facile and reversible change of the
+oxidation state of Ce (CeIVO2 $ CeIII
+2 Sn2O7); meanwhile,
+instead of an innocent spectator, the presence of Sn facilitates
+the reversibility of the reduction/oxidation between CeIV/CeIII
+for forming the thermodynamically stable Ce2Sn2O7 pyro-
+chlore intermediate.
+Structures and morphologies of the as-synthesized and ther-
+mochemical cycled samples were studied by scanning electron
+microscopy (SEM). Figure 8 shows the typical SEM micro-
+graphs of initial CeO2–xSnO2 (x 5 0.05–0.20) samples prior to
+thermochemical cycling. For comparison, a SEM image of
+pure CeO2 is given in Figure 8e. Pure CeO2 mainly consists of
+small particles with primary diameters of around 0.5 lm.
+CeO2–xSnO2 (x 5 0.05, 0.10) exhibits a relatively homoge-
+neous microstructure with smooth surfaces and grain sizes of
+approximately 1 lm (Figures 8a, b). However, lower homoge-
+neity is observed with x 5 0.15 and x 5 0.20 (Figures 8c, d).
+Figure 8. Representative SEM images of initial CeO2–xSnO2 samples thermally calcined at 14008C with different
+SnO2 content: (a) x 5 0.05, (b) x 5 0.10, (c) x 5 0.15, (d) x 5 0.20, and (e) pure CeO2.
+3458
+DOI 10.1002/aic
+Published on behalf of the AIChE
+August 2017 Vol. 63, No. 8
+AIChE Journal
+ 15475905, 2017, 8, Downloaded from https://aiche.onlinelibrary.wiley.com/doi/10.1002/aic.15701 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 10 =====
+
+For x 5 0.15, small particles and large agglomerates appear
+mixed with sizes ranging between 1 and 3 lm (Figure 8c).
+Further increasing SnO2 content to x 5 0.20, small grains are
+almost vanished and only large agglomerates more than 5 lm
+are evident (Figure 8d). The BET surface area of the as-
+synthesized CeO2–xSnO2 (x 5 0.05–0.20) and pure CeO2 are
+summarized in Supporting Information Table S5. The lowest
+surface area of 0.21 m2 g21 was measured for CeO2–
+0.20SnO2. After thermochemical H2O splitting cycling, parti-
+cle growth is observed over all the samples (Supporting Infor-
+mation Figure S6). The grain boundaries of all the cycled
+samples appear to be completely fused. Remarkably, CeO2–
+0.20SnO2 undergoes dramatic sintering with grains signiﬁcant-
+ly larger than CeO2–xSnO2 (x 5 0.05–0.15) and pure CeO2.
+CeO2–0.15SnO2 solid compound was further analyzed by
+TEM and STEM-EDX. For the initial CeO2–0.15SnO2 sample
+thermally calcined at 14008C, the clear lattice fringes observed
+in high-resolution TEM and the corresponding fast Fourier
+transform (FFT) diffraction pattern (Figure 9a) indexed to
+cubic ﬂuorite CeO2 are revealed. However, cassiterite SnO2 is
+not identiﬁed, although some variability in contrast across the
+investigated region is evident (refer to Supporting Information
+Figure S7 for further details). Conversely, STEM-EDX analy-
+sis does reveal the presence of CeO2 and SnO2 with Ce and Sn
+emissions (Figures 9b–e). Moreover, EDX mapping of Ce and
+Sn displays an inhomogeneous distribution through the as-
+synthesized sample prior to thermochemical cycling, as evi-
+dent
+by
+the
+Ce/Sn
+segregation
+phases
+(Figures
+9b-e).
+Figure 9. (a) High-resolution TEM image of initial CeO2–0.15SnO2 samples thermally calcined at 14008C, along with
+the respective FFT patterns characteristics of cubic fluorite CeO2. Representative STEM image and EDX
+elemental map of initial CeO2–0.15SnO2 sample thermally calcined at 14008C (b–e), sample thermally
+reduced in flowing Ar (f–i), and sample after thermochemical H2O splitting cycling (j–m).
+[Color figure can be viewed at wileyonlinelibrary.com]
+AIChE Journal
+August 2017 Vol. 63, No. 8
+Published on behalf of the AIChE
+DOI 10.1002/aic
+3459
+ 15475905, 2017, 8, Downloaded from https://aiche.onlinelibrary.wiley.com/doi/10.1002/aic.15701 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 11 =====
+
+Following thermal reduction in the following Ar, CeO2–
+0.15SnO2 sample in the reduced state exhibits signiﬁcant mix-
+ing of the CeO2 and SnO2 phases with a homogeneous disper-
+sion of Ce and Sn elements (Figures 9f–i), further conﬁrming
+that a reaction between CeO2 and SnO2 occurs after thermal
+reduction. Additionally, for sample after thermochemical H2O
+splitting cycling, Ce and Sn elements are also well mixed (Fig-
+ures 9j–m). See Supporting Information Figure S8 for further
+details. In accordance, we can conclude that of the initial
+CeO2–xSnO2 (x 5 0.05–0.20) solid compounds, SnO2 was dis-
+tributed unevenly on CeO2, forming mixed metal oxides. After
+thermal reduction, a reaction between CeO2 and SnO2 occurs,
+resulting in a homogeneous dispersion of Ce and Sn elements.
+Reaction mechanism for the novel CeO2–xSnO2/
+Ce2Sn2O7 pyrochlore cycle
+The experimental ﬁndings of two-step thermochemical H2O
+splitting performance and the characterization evidence pre-
+sented above provide a basis for reﬁning the mechanism for
+the novel CeO2–xSnO2/Ce2Sn2O7 pyrochlore cycle. We con-
+clude that instead of proceeding via the nonstoichiometric O-
+vacancy mechanism for pure CeO2 as embodied by Eqs. 3 and
+4, a new CeO2–xSnO2/Ce2Sn2O7 pyrochlore stoichiometric
+redox cycle is involved for CeO2–xSnO2 in two-step thermo-
+chemical H2O splitting. This new redox cycle is illustrated as
+follows:
+High-temperature reduction
+CeIVO21SnO2 ! 1
+2 CeIII
+2Sn2O71 1
+4 O2 g
+ð Þ
+(6)
+Low-temperature reoxidation with H2O
+1
+2 CeIII
+2Sn2O71 1
+2 H2O g
+ð Þ ! CeIVO21 SnO21 1
+2 H2 g
+ð Þ
+(7)
+To summarize, during the ﬁrst high-temperature reduction
+step (14008C), a stoichiometric reaction between inhomoge-
+neous distributed CeO2 and SnO2 occurred, forming thermo-
+dynamically stable Ce2Sn2O7 pyrochlore instead of metastable
+CeO2-d (Eq. 6). As a result, enhanced reduction extent was
+accomplished on account of the reduction of CeIV to CeIII.
+During the subsequent low-temperature reoxidation with H2O
+(8008C), the reduced Ce2Sn2O7 pyrochlore was reoxidized
+with CeIII reverted back to CeIV. Meanwhile CeO2 and SnO2
+were regenerated with a homogeneous dispersion, completing
+the redox cycle between CeIV and CeIII at modest temperatures
+(Eq. 7).
+Conclusions
+In this contribution, two-step STWS operating via a stoi-
+chiometric reaction mechanism was successfully demonstrated
+with the successive insertion/extraction of SnO2 within the
+intriguing CeO2–xSnO2/Ce2Sn2O7 pyrochlore cycle. The nov-
+el pyrochlore cycle was corroborated using X-ray diffraction,
+Raman spectroscopy, XANES spectroscopy, M€ossbauer spec-
+troscopy, in combination with electron microscopy (SEM,
+HRTEM, STEM-EDX). The ﬁrst thermal reduction proceeded
+via a stoichiometric reaction between CeO2 and SnO2, forming
+thermodynamically stable Ce2Sn2O7 pyrochlore rather than
+metastable CeO2-d. Consequently, enhanced reduction extents
+were achieved for all the CeO2–xSnO2 (x 5 0.05–0.20) solid
+compounds owing to the reduction of CeIV to CeIII. O2 produc-
+tion capacities were improved signiﬁcantly when compared
+with pure CeO2, which increased linearly with increasing
+SnO2 content. During the subsequent low-temperature reoxi-
+dation with H2O, CeO2, and SnO2 were regenerated, complet-
+ing the redox cycle between CeIV and CeIII at 14008C
+reduction/8008C reoxidation. Encouragingly, H2 yield for
+CeO2–0.15SnO2 was improved by a factor of 3.8 due to the
+enhanced reduction extent when compared with the state-of-
+the-art CeO2, with stable O2 and H2 productivity over seven
+cycles.
+It may be anticipated that this novel compound-forming
+stoichiometric redox chemistry can be readily implemented
+and exploited with other pyrochlore oxides exhibiting wide
+varieties of chemical substitution, thus opening up new oppor-
+tunities for identifying even more promising materials and
+accelerating realization of solar fuels production based on
+thermochemical cycles.
+Acknowledgments
+This work was supported by National Natural Science
+Foundation
+of
+China
+(21476232,
+21573232,
+21522608,
+21676269) and the “Strategic Priority Research Program” of
+the Chinese Academy of Sciences (XDB17020100).
+Literature Cited
+1. Lewis NS, Nocera DG. Powering the planet: chemical challenges in
+solar energy utilization. Proc Natl Acad Sci USA. 2006;103:15729–
+15735.
+2. Trainham JA, Newman J, Bonino CA, Hoertz PG, Akunuri N.
+Whither solar fuels? Curr Opin Chem Eng. 2012;1:204–210.
+3. Centi G, Perathoner S. Towards solar fuels from water and CO2.
+ChemSusChem. 2010;3:195–208.
+4. Liu J, Liu Y, Liu N, Han Y, Zhang X, Huang H, Lifshitz Y, Lee S-
+T, Zhong J, Kang Z. Metal-free efﬁcient photocatalyst for stable vis-
+ible water splitting via a two-electron pathway. Science. 2015;347:
+970–974.
+5. Xiang Q, Cheng B, Yu J. Graphene-based photocatalysts for solar-
+fuel generation. Angew Chem Int Ed. 2015;54:11350–11366.
+6. Luo J, Im J-H, Mayer MT, Schreier M, Nazeeruddin MK, Park N-G,
+Tilley SD, Fan HJ, Graetzel M. Water photolysis at 12.3% efﬁciency
+via perovskite photovoltaics and earth-abundant catalysts. Science.
+2014;345:1593–1596.
+7. Cox CR, Lee JZ, Nocera DG, Buonassisi T. Ten-percent solar-to-
+fuel conversion with nonprecious materials. Proc Natl Acad Sci
+USA. 2014;111:14057–14061.
+8. Chueh WC, Falter C, Abbott M, Scipio D, Furler P, Haile SM,
+Steinfeld A. High-ﬂux solar-driven thermochemical dissociation of
+CO2 and H2O using nonstoichiometric ceria. Science. 2010;330:
+1797–1801.
+9. Muhich CL, Evanko BW, Weston KC, Lichty P, Liang X, Martinek
+J, Musgrave CB, Weimer AW. Efﬁcient generation of H2 by split-
+ting water with an isothermal redox cycle. Science. 2013;341:540–
+542.
+10. Roeb M, Sattler C. Isothermal water splitting. Science. 2013;341:
+470–471.
+11. Meng X, Wang T, Liu L, Ouyang S, Li P, Hu H, Kako T, Iwai H,
+Tanaka A, Ye J. Photothermal conversion of CO2 into CH4 with H2
+over group VIII nanocatalysts: an alternative approach for solar fuel
+production. Angew Chem Int Ed. 2014;53:11478–11482.
+12. Chanmanee W, Islam MF, Dennis BH, MacDonnell FM. Solar pho-
+tothermochemical alkane reverse combustion. Proc Natl Acad Sci
+USA. 2016;113:2579–2584.
+13. Fletcher EA, Moen RL. Hydrogen and oxygen from water. Science.
+1977;197:1050–1056.
+14. Funk JE. Thermochemical hydrogen production: past and present.
+Int J Hydrogen Energy. 2001;26:185–190.
+15. Kodama T, Gokon N. Thermochemical cycles for high-temperature
+solar hydrogen production. Chem Rev. 2007;107:4048–4077.
+16. Perkins C, Weimer AW. Solar-thermal production of renewable
+hydrogen. AIChE J. 2009;55:286–293.
+17. Ariﬁn D, Aston VJ, Liang X, McDaniel AH, Weimer AW. CoFe2O4
+on a porous Al2O3 nanostructure for solar thermochemical CO2 split-
+ting. Energy Environ Sci. 2012;5:9438.
+3460
+DOI 10.1002/aic
+Published on behalf of the AIChE
+August 2017 Vol. 63, No. 8
+AIChE Journal
+ 15475905, 2017, 8, Downloaded from https://aiche.onlinelibrary.wiley.com/doi/10.1002/aic.15701 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 12 =====
+
+18. Scheffe JR, McDaniel AH, Allendorf MD, Weimer AW. Kinetics and
+mechanism of solar-thermochemical H2 production by oxidation of a
+cobalt ferrite–zirconia composite. Energy Environ Sci. 2013;6:963.
+19. Muhich
+CL,
+Ehrhart
+BD,
+Witte
+VA,
+Miller
+SL,
+Coker
+EN,
+Musgrave CB, Weimer AW. Predicting the solar thermochemical
+water splitting ability and reaction mechanism of metal oxides: a
+case study of the hercynite family of water splitting cycles. Energy
+Environ Sci. 2015;8:3687–3699.
+20. McDaniel AH, Miller EC, Ariﬁn D, Ambrosini A, Coker EN, O’hayre
+R, Chueh WC, Tong J. Sr- and Mn-doped LaAlO32d for solar thermo-
+chemical H2 and CO Production. Energy Environ Sci. 2013;6:2424.
+21. Furler P, Scheffe JR, Steinfeld A. Syngas production by simulta-
+neous splitting of H2O and CO2 via ceria redox reactions in a high-
+temperature solar reactor. Energy Environ Sci. 2012;5:6098–6103.
+22. Ohya H, Yatabe M, Aihara M, Negishi Y, Takeuchi T. Feasibility of
+hydrogen production above 2500 K by direct thermal decomposition
+reaction in membrane reactor using solar energy. Int J Hydrogen
+Energy. 2002;27:369–376.
+23. Loutzenhiser PG, Meier A, Steinfeld A. Review of the two-step
+H2O/CO2-splitting solar thermochemical cycle based on Zn/ZnO
+redox reactions. Materials. 2010;3:4922–4938.
+24. Scheffe JR, Steinfeld A. Oxygen exchange materials for solar ther-
+mochemical splitting of H2O and CO2: a review. Mater Today.
+2014;17:341–348.
+25. Muhich CL, Ehrhart BD, Al-Shankiti I, Ward BJ, Musgrave CB,
+Weimer AW. A review and perspective of efﬁcient hydrogen genera-
+tion via solar thermal water splitting. Wiley Interdiscip Rev Energy
+Environ. 2016;5:261–287.
+26. Gokon N, Hasegawa T, Takahashi S, Kodama T. Thermochemical
+two-step water-splitting for hydrogen production using Fe-YSZ par-
+ticles and a ceramic foam device. Energy. 2008;33:1407–1416.
+27. Gokon N, Murayama H, Umeda J, Hatamachi T, Kodama T. Mono-
+clinic zirconia-supported Fe3O4 for the two-step water-splitting ther-
+mochemical cycle at high thermal reduction temperatures of 1400–
+16008C. Int J Hydrogen Energy. 2009;34:1208–1217.
+28. Stamatiou A, Loutzenhiser PG, Steinfeld A. Solar syngas production
+via H2O/CO2-splitting thermochemical cycles with Zn/ZnO and FeO/
+Fe3O4 redox reactions. Chem Mater. 2010;22:851–859.
+29. Stamatiou A, Loutzenhiser PG, Steinfeld A. Syngas production from
+H2O and CO2 over Zn particles in a packed-bed reactor. AIChE J.
+2012;58:625–631.
+30. Charvin P, Abanades S, Lemont F, Flamant G. Experimental study
+of SnO2/SnO/Sn thermochemical systems for solar production of
+hydrogen. AIChE J. 2008;54:2759–2767.
+31. Lev^eque G, Abanades S, Jumas J-C, Olivier-Fourcade J. Characteri-
+zation of two-step tin-based redox system for thermochemical fuel
+production from solar-driven CO2 and H2O splitting cycle. Ind Eng
+Chem Res. 2014;53:5668–5677.
+32. Chueh WC, Haile SM. Ceria as a thermochemical reaction medium
+for selectively generating syngas or methane from H2O and CO2.
+ChemSusChem. 2009;2:735–739.
+33. Chueh WC, Haile SM. A Thermochemical study of ceria: exploiting
+an old material for new modes of energy conversion and CO2 miti-
+gation. Philos Trans R Soc A. 2010;368:3269–3294.
+34. Marxer D, Furler P, Scheffe J, Geerlings H, Falter C, Batteiger V,
+Sizmann A, Steinfeld A. Demonstration of the entire production
+chain to renewable kerosene via solar thermochemical splitting of
+H2O and CO2. Energy Fuels. 2015;29:3241–3250.
+35. Abanades S, Flamant G. Thermochemical hydrogen production from
+a two-step solar-driven water-splitting cycle based on cerium oxides.
+Sol Energy. 2006;80:1611–1623.
+36. Meng Q-L, Lee C-I, Ishihara T, Kaneko H, Tamaura Y. Reactivity
+of CeO2-based ceramics for solar hydrogen production via a two-
+step water-splitting cycle with concentrated solar energy. Int J
+Hydrogen Energy. 2011;36:13435–13441.
+37. Scheffe JR, Steinfeld A. Thermodynamic analysis of cerium-based
+oxides for solar thermochemical fuel production. Energy Fuels.
+2012;26:1928–1936.
+38. Kaneko H, Ishihara H, Taku S, Naganuma Y, Hasegawa N, Tamaura
+Y. Cerium ion redox system in CeO2 – xFe2O3 solid solution at high
+temperatures (1,273–1,673 k) in the two-step water-splitting reaction
+for solar H2 generation. J Mater Sci. 2008;43:3153–3161.
+39. Call F, Roeb M, Schm€ucker M, Sattler C, Pitz-Paal R. Ceria doped
+with zirconium and lanthanide oxides to enhance solar thermochemi-
+cal production of fuels. J Phys Chem C. 2015;119:6929–6938.
+40. Lin FJ, Rothensteiner M, Alxneit I, van Bokhoven JA, Wokaun A.
+First demonstration of direct hydrocarbon fuel production from water
+and carbon dioxide by solar-driven thermochemical cycles using rho-
+dium-ceria. Energy Environ Sci. 2016;9:2400–2409.
+41. Abanades S, Legal A, Cordier A, Peraudeau G, Flamant G, Julbe A.
+Investigation of reactive cerium-based oxides for H2 production by ther-
+mochemical two-step water-splitting. J Mater Sci. 2010;45:4163–4173.
+42. Scheffe JR, Jacot R, Patzke GR, Steinfeld A. Synthesis, characterization,
+and thermochemical redox performance of Hf41, Zr41, and Sc31 doped
+ceria for splitting CO2. J Phys Chem C. 2013;117:24104–24114.
+43. Hao Y, Yang C-K, Haile SM. Ceria–zirconia solid solutions (Ce1–
+xZrxO22d, x 0.2) for solar thermochemical water splitting: a ther-
+modynamic study. Chem Mater. 2014;26:6073–6082.
+44. Rothensteiner M, Bonk A, Vogt UF, Emerich H, van Bokhoven JA.
+Structural changes in Ce0.5Zr0.5O22d under temperature-swing and
+isothermal solar thermochemical looping conditions determined by
+in situ Ce K and Zr K edge X-ray absorption spectroscopy. J Phys
+Chem C. 2016;120:13931–13941.
+45. Petkovich ND, Rudisill SG, Venstrom LJ, Boman DB, Davidson JH,
+Stein A. Control of heterogeneity in nanostructured Ce1–xZrxO2 bina-
+ry oxides for enhanced thermal stability and water splitting activity.
+J Phys Chem C. 2011;115:21022–21033.
+46. Tolla B, Demourgues A, Isnard O, Menetrier M, Pouchard M,
+Rabardel L, Seguelong T. Structural investigation of oxygen inser-
+tion within the Ce2Sn2O7-Ce2Sn2O8 pyrochlore solid solution by
+means of in situ neutron diffraction experiments. J Mater Chem.
+1999;9:3131–3136.
+47. Subramanian MA, Aravamudan G, Rao GVS. Oxide pyrochlores2a
+review. Prog Solid State Chem. 1983;15:55–143.
+48. Thomson JB, Armstrong AR, Bruce PG. A new class of pyrochlore
+solid solution formed by chemical intercalation of oxygen. J Am
+Chem Soc. 1996;118:11129–11133.
+49. Sickafus KE, Mineevini L, Grimes RE, Valde JA, Ishimare M, Li F,
+McClellan KJ, Hartmann T. Radiation tolerance of complex oxides.
+Science. 2000;289:748–751.
+50. Wright CS, Fisher J, Thompsett D, Walton RI. Hydrothermal synthe-
+sis of a cerium(IV) pyrochlore with low-temperature redox proper-
+ties. Angew Chem Int Ed. 2006;45:2442–2446.
+51. Yamamoto T, Suzuki A, Nagai Y, Tanabe T, Dong F, Inada Y,
+Nomura M, Tada M, Iwasawa Y. Origin and dynamics of oxygen
+storage/release in a Pt/ordered CeO2–ZrO2 catalyst studied by time-
+resolved XAFS analysis. Angew Chem Int Ed. 2007;119:9413–9416.
+52. Sickafus KE, Grimes RW, Valdez JA, Cleave A, Tang M, Ishimaru
+M,
+Corish
+SM,
+Stanek
+CR,
+Uberuaga
+BP.
+Radiation-induced
+amorphization resistance and radiation tolerance in structurally relat-
+ed oxides. Nat Mater. 2007;6:217–223.
+53. Oh SH, Black R, Pomerantseva E, Lee JH, Nazar LF. Synthesis of a
+metallic mesoporous pyrochlore as a catalyst for lithium-O2 batter-
+ies. Nat Chem. 2012;4:1004–1010.
+54. Shamblin J, Feygenson M, Neuefeind J, Tracy CL, Zhang F,
+Finkeldei S, Bosbach D, Zhou H, Ewing RC, Lang M. Probing dis-
+order in isometric pyrochlore and related complex oxides. Nat
+Mater. 2016;15:507–511.
+55. Scheffe JR, Allendorf MD, Coker EN, Jacobs BW, McDaniel AH,
+Weimer AW. Hydrogen production via chemical looping redox
+cycles using atomic layer deposition-synthesized iron oxide and
+cobalt ferrites. Chem Mater. 2011;23:2030–2038.
+56. Tolla B, Demourgues A, Pouchard M, Rabardel L, Fournes L,
+Wattiaux A. Oxygen exchange properties in the new pyrochlore solid
+solution Ce2Sn2O7-Ce2Sn2O8. Solid State Chem Cryst Chem. 1999;2:
+139–146.
+57. Guzman J, Carrettin S, Corma A. Spectroscopic evidence for the supply
+of reactive oxygen during CO oxidation catalyzed by gold supported on
+nanocrystalline CeO2. J Am Chem Soc. 2005;127:3286–3287.
+58. McBride JR, Hass KC, Poindexter BD, Weber WH. Raman and X-
+ray studies of Ce12xRexO22y, where Re5La, Pr, Nd, Eu, Gd, and
+Tb. J Appl Phys. 1994;76:2435.
+59. Banerji A, Grover V, Sathe V, Deb SK, Tyagi AK. CeO2-Gd2O3
+system: unraveling of microscopic features by Raman spectroscopy.
+Solid State Commun. 2009;149:1689–1692.
+60. Rupp JLM, Fabbri E, Marrocchelli D, Han J-W, Chen D, Traversa
+E, Tuller HL, Yildiz B. Scalable oxygen-ion transport kinetics in
+metal-oxide ﬁlms: impact of thermally induced lattice compaction in
+acceptor doped ceria ﬁlms. Adv Funct Mater. 2014;24:1562–1574.
+61. Johari A, Bhatnagar MC, Rana V. Effect of substrates on structural
+and optical properties of tin oxide (SnO2) nanostructures. J Nanosci
+Nanotechnol. 2012;12:7903–7908.
+62. Yang N, Shi Y, Schweiger S, Strelcov E, Belianinov A, Foglietti V,
+Orgiani P, Balestrino G, Kalinin SV, Rupp JLM, Aruta C. Role of
+AIChE Journal
+August 2017 Vol. 63, No. 8
+Published on behalf of the AIChE
+DOI 10.1002/aic
+3461
+ 15475905, 2017, 8, Downloaded from https://aiche.onlinelibrary.wiley.com/doi/10.1002/aic.15701 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 13 =====
+
+associated defects in oxygen ion conduction and surface exchange
+reaction for epitaxial Samaria-doped ceria thin ﬁlms as catalytic
+coatings. ACS Appl Mater Interfaces. 2016;8:14613–14621.
+63. Giannici F, Gregori G, Aliotta C, Longo A, Maier J, Martorana A. Structure
+and oxide ion conductivity: local order, defect interactions and grain bound-
+ary effects in acceptor-doped ceria. Chem Mater. 2014;26:5994–6006.
+64. Shi Y, Bork AH, Schweiger S, Rupp JLM. The effect of mechanical
+twisting on oxygen ionic transport in solid-state energy conversion
+membranes. Nat Mater. 2015;14:721–727.
+65. Li LL, Xu J, Yuan Q, Li ZX, Song WG, Yan CH. Facile synthesis
+of macrocellular mesoporous foamlike Ce-Sn mixed oxides with a
+nanocrystalline framework by using triblock copolymer as the single
+template. Small. 2009;5:2730–2737.
+66. Elfallah J, Boujana S, Dexpert H, Kiennemann A, Majerus J, Touret
+O, Villain F, Lenormand F. Redox processes on pure ceria and on
+Rh/CeO2 catalyst monitored by X-ray absorption (Fast acquisition
+mode). J Phys Chem. 1994;98:5522–5533.
+67. Zhang F, Wang P, Koberstein J, Khalid S, Chan S-W. Cerium oxida-
+tion state in ceria nanoparticles studied with X-ray photoelectron
+spectroscopy and absorption near edge spectroscopy. Surf Sci. 2004;
+563:74–82.
+68. de Kergommeaux A, Faure-Vincent J, Pron A, de Bettignies R,
+Malaman B, Reiss P. Surface oxidation of tin chalcogenide nano-
+crystals revealed by 119Sn-M€ossbauer spectroscopy. J Am Chem Soc.
+2012;134:11659–11666.
+69. Protesescu L, Rossini AJ, Kriegner D, Valla M, de Kergommeaux
+A, Walter M, Kravchyk KV, Nachtegaal M, Stangl J, Malaman B,
+Reiss P, Lesage A, Emsley L, Coperet C, Kovalenko MV. Unrav-
+eling the core-shell structure of ligand-capped Sn/SnOx nanopar-
+ticles
+by
+surface-enhanced
+nuclear
+magnetic
+resonance,
+M€ossbauer, and X-ray absorption spectroscopies. Acs Nano. 2014;
+8:2639–2648.
+Manuscript received Nov. 16, 2016, and revision received Feb. 13, 2017.
+3462
+DOI 10.1002/aic
+Published on behalf of the AIChE
+August 2017 Vol. 63, No. 8
+AIChE Journal
+ 15475905, 2017, 8, Downloaded from https://aiche.onlinelibrary.wiley.com/doi/10.1002/aic.15701 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

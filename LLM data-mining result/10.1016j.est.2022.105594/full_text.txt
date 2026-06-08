@@ -1,0 +1,1022 @@
+
+
+===== Page 1 =====
+
+Journal of Energy Storage 55 (2022) 105594
+Available online 5 September 2022
+2352-152X/© 2022 Elsevier Ltd. All rights reserved.
+Research papers 
+Co2.8Mg0.2O4 as a promising thermochemical energy storage material with 
+lower reduction onset temperature and higher energy density 
+Lei Liu, Zijian Zhou *, Yue Zhou, Dejun Peng, Xiaowei Liu *, Minghou Xu 
+State Key Laboratory of Coal Combustion, School of Power and Engineering, Huazhong University of Science and Technology, Wuhan 430074, China   
+A R T I C L E  I N F O   
+Keywords: 
+Thermochemical energy storage 
+Co–Mg binary oxides 
+Reduction onset temperature 
+Energy density 
+Cost-benefit analysis 
+A B S T R A C T   
+Co-based oxides have been considered as one of the most promising materials for thermochemical energy storage 
+(TCES) systems, however, the high operation temperature limits their applications. Specially, when Co3O4-based 
+materials are used in concentrated solar power (CSP) system, a large mirror field area is required to meet the high 
+endothermic temperature, which significantly increases the cost of a CSP system. In addition, the high cost of Co- 
+based materials also limits its application. Improving the energy density can effectively reduce the use of the 
+materials. Thus, in this work, to reduce the reduction onset temperature and increase the energy density of Co- 
+based oxides, the TCES performance of Co3-xMgxO4 oxides is investigated. Co2.8Mg0.2O4 shows the best TCES 
+performance. The reduction onset temperature of Co2.8Mg0.2O4 is ~775.6 ◦C, which is 133.7 ◦C lower than that 
+of the pure Co3O4 (~909.3 ◦C). Mg-decoration can also improve the energy density of Co3O4 by 8.02 %. 
+Furthermore, the in situ XRD spectra of the oxides indicate that precipitation of MgO from the Co3O4 lattice 
+during the reduction reaction result in a metastable structure of the oxide, which is conducive to its reduction 
+reaction. Density functional theory calculations indicate that Co2.8Mg0.2O4 possessed a higher defect formation 
+energy and shorter chemical bonds than the pure cobalt oxide, which result in its lower reduction onset tem­
+perature and higher energy density. The cost-benefit analysis results showed that Mg-decoration could signifi­
+cantly reduce the area of mirror field and the use of energy storage material for a CSP system.   
+1. Introduction 
+The emission of anthropogenic CO2 due to the excessive use of 
+conventional fossil fuels is believed to be the main contributor to global 
+warming [1,2], climate change, and environmental pollution, which 
+have been adversely affecting ecosystems globally [3–5]. Thus, the 
+development of renewable energy is significant to the reduction of the 
+global emission of CO2 [6,7]. Solar energy is a promising source of 
+abundant and clean renewable energy, however, its periodic availability 
+on earth has limited its extensive application [8,9]. At present, 
+concentrated solar power (CSP) plants use thermal energy storage (TES) 
+systems, which enable the absorption and release of solar-derived 
+thermal energy during on-sun and off-sun hours, respectively, to 
+enhance the dispatchability of solar energy [10,11]. 
+Presently, heat storage systems operate via three different mecha­
+nisms: sensible (SES), latent (LES), and thermochemical (TCES) energy 
+storage [12,13]. In the SES and LES mechanisms, which are employed in 
+commercial CSP plants, molten salts are the main heat storage media, 
+and the absorption and release of heat are dependent on the specific heat 
+capacity and the phase transition of the materials, respectively [12,14]. 
+However, as the operating temperature in upcoming third-generation 
+CSP plants is over 700 ◦C [15], which is higher than the decomposi­
+tion temperature of molten salts, the use of molten salts as heat storage 
+media exhibits drawbacks such as salt decomposition and corrosion 
+[16,17]. To obtain a highly efficient TES system, the conceptual design 
+of the system must lead to a high energy density, and the operating 
+temperature must be suitable for the heat storage medium. In a TCES 
+system, the absorption and release of heat occur via the breakage and 
+recombination of chemical bonds, respectively, and consequently, the 
+energy density and operating temperature are considerably higher than 
+those of SES and LES systems [18–20]. Thus, TCES systems are consid­
+ered to be highly efficient energy storage systems for CSP plants. 
+The most extensively studied types of TCES systems are hydroxide 
+looping reactions (Ca(OH)2/CaO most widely investigated) and car­
+bonate looping reactions (particularly CaCO3/CaO), which have been 
+extensively studied for carbon capture and now TCES [21]. There are 
+definitely fewer studies of metal oxide redox reactions [22–24]. In 
+addition, the metal oxide redox system, which is considered to be an 
+* Corresponding authors. 
+E-mail addresses: zhouzj2012@hust.edu.cn (Z. Zhou), xwliu@hust.edu.cn (X. Liu).  
+Contents lists available at ScienceDirect 
+Journal of Energy Storage 
+journal homepage: www.elsevier.com/locate/est 
+https://doi.org/10.1016/j.est.2022.105594 
+Received 1 July 2022; Received in revised form 9 August 2022; Accepted 29 August 2022   
+
+
+===== Page 2 =====
+
+Journal of Energy Storage 55 (2022) 105594
+2
+open system, employs air as the heat transfer fluid and reactant and a 
+reversible redox reaction for charging and discharging [25,26]. In this 
+system, no product separation occurs, which significantly reduces its 
+complexity. Among the various redox couples of pure metal oxides, such 
+as Co3O4/CoO [27], Mn2O3/Mn3O4 [28], BaO2/BaO [29,30], CuO/ 
+Cu2O [31] and Fe2O3/Fe3O4 [32], that have been investigated for TCES 
+systems, Co3O4/CoO has been reported to exhibit favorable TCES 
+properties owing to its higher energy density and superior redox ki­
+netics. For instance, the enthalpy and rate of the redox reaction of 
+Mn2O3/Mn3O4 are approximately 202 kJ/kg and 0–10 μmol/min/g 
+[28,33], respectively, while those of Co3O4/CoO are approximately 844 
+kJ/kg and 0–400 μmol/min/g [34,35]. However, despite the favorable 
+TCES performance of Co3O4/CoO, its practical application has been 
+hindered owing to the high material cost of Co. The main costs for a CSP 
+plant are those of the heat storage material (9 %) and mirror field (62 %) 
+[36], which are approximately $23,861.40/t (for Co) and $11.5–12.5/ 
+m2, respectively [37]. Thus, to facilitate the use of Co3O4/CoO in CSP 
+plants, it is significant to reduce the cost of the raw materials and mirror 
+field. It is worth mentioning that with the decreasing of system tem­
+perature, the thermodynamic cycle efficiency for CSP plants will be 
+decreased, while the solar collecting efficiency will be increased. 
+Meanwhile, in the temperature range of 650–900 ◦C by lowering system 
+temperature, the decreased efficiency for thermodynamic cycle is less 
+than that of increased for solar collecting [38]. 
+Furthermore, the cost of the raw materials can be reduced through 
+the enhancement of the energy density of the Co3O4-based system as it 
+would lower the amount of Co required to store the same amount of 
+energy. Although Mn-doped Co3O4 has been reported to effectively 
+enhance the energy density (from 844 to 1264 kJ/kg) of a Co3O4-based 
+heat storage system [39], they exhibit a significantly higher reduction 
+reaction onset temperature than those of pure cobalt oxides 
+(897–1230 ◦C), which increases the required area of the solar mirror 
+field and consequently the cost of the mirror field. Furthermore, the use 
+of spinel Co3-xNixO4 has been reported to reduce the onset reduction 
+temperature, which could reduce the cost of the mirror field, while it did 
+not exhibit an enhanced energy density [40]. Therefore, it is significant 
+to investigate the development a Co-based system that operates at a low 
+reduction onset temperature and simultaneously exhibits a high energy 
+density. 
+As well known, adding the secondary element to Co3O4 may cause 
+the lattice distortion of Co-based materials. After lattice distortion, its 
+structure is a metastable structure with higher defect formation energy, 
+which can be decomposed at a lower temperature. Meanwhile, adding 
+the secondary element can enhance the energy density of Co-based 
+materials by increasing the Co–O bond energy. In our previous work, 
+9 different elements (Yb, Si, Ce, La, Mg, Zr, Cu, Fe and Al) with mole 
+fraction of 15 % were added into Co-based materials. It was found that 
+Mg can lower its reduction onset temperature significantly. However, no 
+in-depth investigation on its redox mechanism and cost-benefit analysis 
+was carried out. Therefore, in this work, a Co-based TCES system con­
+sisting of binary oxides of Co3-xMgxO4 (X = 0, 0.05, 0.1, 0.2, 0.4, 0.6, and 
+0.8) was investigated with the aim of reducing cost of TCES system via 
+the decrease in its reduction onset temperature and the enhancement for 
+the oxide energy density. Finally, the effects of reduction onset tem­
+perature and energy density of optimum Co–Mg binary oxide on the 
+reduction in the cost of a CSP plant was investigated. The results of this 
+study provide guidelines for the rational design of advanced materials 
+for solar TCES systems. 
+2. Experimental 
+2.1. Raw materials 
+Cobalt nitrate hexahydrate (Co(NO3)2⋅6H2O AR 99 %), magnesium 
+nitrate hexahydrate (Mg(NO3)2⋅6H2O AR 99 %), glycol (C2H6O2 AR 98 
+%), and citric acid (C6H8O7 AR ≥99.5 %) were purchased from 
+Shanghai Aladdin Biochemical Technology Co., Ltd. (China). 
+2.2. Synthesis method 
+The metal oxides were synthesized using a modified Pechini method, 
+where Co(NO3)2⋅6H2O and Mg(NO3)2⋅6H2O served as the precursors, 
+and glycol and citric acid as the dispersant and chelating ligand, 
+respectively. Based on the general formula Co3-xMgxO4, the amounts of 
+Co(NO3)2⋅6H2O and Mg(NO3)2⋅6H2O were chosen such that the mass of 
+the obtained oxide was 2 g. To synthesize the oxides, 10 mL of glycol was 
+stirred for 1 h, and subsequently Co(NO3)2⋅6H2O, Mg(NO3)2⋅6H2O, and 
+citric acid were added to it. After vigorous magnetic stirring for 1 h, the 
+obtained colloid was dried at 180 ◦C for 12 h. Then, the obtained black 
+powder was calcined in air at 800 ◦C for 10 h to obtain the final product 
+with the required stoichiometry. The samples were labelled according to 
+the proportion of Mg in the obtained oxide (for example, the 
+Co2.8Mg0.2O4 and Co2.95Mg0.05O4 samples were labelled as 20 M and 5 
+M, respectively. 
+2.3. Characterization of materials 
+The phase compositions of the oxides were identified from their XRD 
+spectra (PANalytical B.V., Netherlands) generated for a 2θ range of 
+10–80◦using Cu Kα radiation (λ = 0.15186 nm), and the average crys­
+tallite sizes and lattice parameters were calculated using the Scherrer's 
+and Bragg's equations, respectively. The micro morphology and the 
+elemental distribution on the surfaces of the oxides were investigated 
+using a scanning electron microscope equipped with an X-ray energy 
+dispersive spectrometer (SEM, Zeiss, sigma 30). The structures of the 
+oxides were further investigated using their Raman spectra (LabRAM 
+HR800, Horiba Jobin Yvon) generated using a backscattering geometry 
+and a stabilized 532 nm diode-pumped solid-state laser. The in situ XRD 
+spectra of the oxides were generated for a 2θ range of 5–80◦(scan rate 
+0.14◦/s) using a diffractometer (PANalytical Empyrean) operating at 40 
+kV and 40 mA and equipped with a Cu tube (λ = 1.5406 Å), a pixel 
+detector (PIXcel3D), and a high-temperature furnace (Anton Paar HTK 
+16). The heating and cooling rates of the furnace were set to 10 ◦C/min. 
+2.4. Redox reactivity 
+To investigate the redox reactivities of the oxides, their TGA and DSC 
+curves were generated (Netzsch STA 449 F5). An 85 μL alumina crucible 
+was used for the analyses, and the sample mass was approximately 20 
+mg. The heating and cooling rates were set to 10 ◦C/min and the air flow 
+to 100 mL/min (79 mL/min N2 and 21 mL/min O2). To calcine the 
+samples prior to the redox cycles, they were heated to 1000 ◦C, cooled to 
+950 ◦C, held at this temperature for 20 min, and then further cooled to 
+750 ◦C. Each redox cycle consisted of two steps: heating from 750 to 
+1000 ◦C and then cooling from 1000 to 750 ◦C. For every oxide, the 
+reduction onset temperature was obtained from their respective TGA 
+curve, and the efficiency of conversion (χ) was calculated using Eq. (1). 
+χr,N = Δmoxi,N
+/
+Δmtheoretical⋅ΔH
+Δmoxi,1st
+/
+Δmtheoretical⋅ΔH = Δmoxi,N
+Δmoxi,1st
+(1)  
+where Δmoxi,N is the weight gain of the sample, Δmoxi,1st is the weight 
+gain after the first cycle, and Δmtheoretical is the theoretical mass change. 
+ΔH is the theoretical enthalpy of redox reaction. 
+The actual enthalpy of the reduction reaction, which is a measure of 
+the energy density, of every sample was calculated through the inte­
+gration of their respective DSC curves. 
+2.5. Redox reaction kinetics 
+The analysis of the redox kinetics was performed using the Netzsch 
+STA 449 F5 instrument, which was equipped with a thermobalance. To 
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 3 =====
+
+Journal of Energy Storage 55 (2022) 105594
+3
+investigate the reduction kinetics of the oxides, dynamic runs were 
+performed at three heating rates (β = 5, 10, and 20 ◦C/min, where β =
+dT/dt) in N2 atmosphere. The purpose of performing dynamic runs 
+instead of isothermal ones was to obtain the relationship between 
+heating rate and efficiency of conversion. For the investigation of the 
+oxidation kinetics, the samples were heated to 1000 ◦C in N2 atmosphere 
+to generate reduced phases in situ and subsequently re-oxidized in air 
+(air flow of 100 mL/min). 
+Most gas–solid reactions can be described using an Arrhenius type 
+law [41], and for a non-isothermal reaction the Arrhenius type law can 
+be written as: 
+r = dα
+dt = dα
+dT
+dT
+dt = dα
+dt β = Aexp
+(Ea
+RT
+)
+f(α)
+(2)  
+where “r” is not typically used to describe the reaction rate (dα/dt), α is 
+the efficiency of conversion, A is the pre-exponential factor, Ea is the 
+activation energy. R is the gas constant and its value is 8.31 J/(kg⋅K), 
+and f(α) is the reaction model [41,42]. 
+Based on the mass changes estimated from the TGA curves, the ef­
+ficiency of conversion (α) can be calculated using the following equa­
+tion: 
+α = m0 −mt
+m0 −mf
+(3)  
+where m0 is initial weight, mt is the weight at time t, and mf is the final 
+weight. 
+From Eqs. (2) and (3), the following equation can be obtained: 
+g(α) = AEa
+βR p(x)
+(4)  
+where g(α) is the integral form of the reaction rate. Ea/RT is replaced by 
+x, and p(x) is the exponential integral, which has no analytical solution. 
+One of the typically used methods to calculate the activation energy 
+is the Friedman method, which is based on the following equation [43]: 
+ln
+(
+β dα
+dT
+)
+= ln[Af(α) ] −
+Ea
+RT
+(5) 
+According to this method, 1/T and ln(βdα/dT) exhibit a linear rela­
+tionship with each other, and the slope of the 1/T vs. ln(βdα/dT) curve is 
+given by −Ea/RT. 
+2.6. Computation details 
+The thermodynamic phase diagram of a Co–Mg–O system was 
+generated using the FactPS and FToxide databases present in the soft­
+ware Factsage. In addition, the formation of all possible products in the 
+forms of gas, solution, liquid, and solid compounds were considered 
+using the information in Factsage. 
+DFT calculations were performed using the Vienna Ab-initio Simu­
+lation Package (VASP). The single unit cell for Co3O4 was used for 
+calculation, which included 24 cobalt atoms and 32 oxygen atoms, and 
+the lattice parameters were 8.065 Å. Projector augmented-wave (PAW) 
+pseudopotentials were used to describe the core electrons, and the 
+plane-wave cut off energy was set to 400 eV, the K-point in the Brillouin 
+area to 4 × 4 × 4, and the convergence criteria for EDIFFG to −0.05 eV. 
+After the model was developed, the calculations of defect formation 
+energy (Ef) were carried out using Eq. (6). 
+Ef = Edoped −Eperfect −mμCo + mμMg
+(6)  
+where Edoped and Eperfect are the total energies of the Mg-doped and pure 
+cobalt oxides, respectively. μCo and μMg are the atomic potentials of Co 
+(−1.95 eV) and Mg (−0.33 eV), respectively, which was the energy of 
+atoms in their most stable form, and m is the number of dopant atoms. 
+2.7. Economic analysis 
+The economic analysis of the Co-based TCES system is associated 
+with the costs of the mirror field area and the energy absorbed by the 
+materials of the TCES system in the form of heat. The relationship be­
+tween the mirror field area and the reduction onset temperature is given 
+by Eq. (7): 
+Tabs =
+[ραCgSin2(ξ)T4sun
+ε
++ T4
+amb
+]1
+4
+(7)  
+where ρ and α are the reflectivity (90.0 %) and absorption (90 %) rates of 
+the concentrator, respectively, ξ the half angle of the solar disk (4.7 rad), 
+ε the acceptability of the heat sink (90.0 %), Cg the concentration ratio, 
+Tsun the temperature of the solar surface (6000 K), and Tamb the ambient 
+temperature (283.15 K). 
+Cg is defined as the ratio of the area of the aperture of the collector to 
+the area of the receiver (Eq. (8)) and is one of the most important pa­
+rameters in the designing of a collector. 
+Cg = AL
+AR
+(8)  
+where AL and AR are the areas of the aperture of the collector and the 
+receiver, respectively. 
+3. Results and discussion 
+3.1. Physicochemical properties of Co–Mg oxides 
+As shown in Table 1, the results of the ICP-OES analyses confirmed 
+that the actual amounts of Mg in most of the synthesized oxides (5 M, 20 
+M, 40 M, 60 M, and 80 M) were approximately equal to their theoreti­
+cally calculated amounts. In the synthesis process, the mixed solution 
+was dried in an oven at 180 ◦C, in which it took place a rapid dehy­
+dration reaction and was accompanied by dramatic volume expansion. 
+This process was uncontrollable and there may be some loss of Mg- 
+precursor. Thus, the Mg content referred to in the following sections is 
+the measured value. 
+XRD patterns for all samples were studied in depth using the Rietveld 
+refinement methods. Experimental, computed data and their difference 
+was show in Figs. S1–S7. Fig. 1(a) shows the refined XRD spectra of the 
+Co3-xMgxO4 oxides. The diffraction peaks of the pure cobalt oxide (0 M) 
+corresponded to the standard spectrum of a hexagonal crystal (PDF # 
+78-1970) [44]. The spectra of samples 5 M–40 M indicated that these 
+oxides were mainly comprised of the Co3O4 phase, and no characteristic 
+peaks of MgO were observed. However, as shown by the 2θ values 
+(36.0–37.5◦) in Fig. 1(b), every peak in the spectra of the samples 5 
+M–80 M exhibited a slight shift from their characteristic positions, which 
+indicated that Mg was successfully doped into the Co3O4 lattice of these 
+samples. For 60 M and 80 M, as the Mg content was increased, charac­
+teristic peaks corresponding to MgO (PDF # 77-2179) were observed in 
+addition to the peaks of the Co3O4 phase (Fig. 1(a)). This indicated that 
+at a low Mg content, Co3O4 is the predominant phase, whereas at a high 
+Table 1 
+ICP-OES composition, crystal phase, crystallite size (d), cubic lattice parameter 
+(a) of the as-synthesized materials.  
+Sample 
+Mga 
+Crystal phase 
+a (Å) 
+d (nm) 
+0 M  
+0.00 
+Co3O4  
+8.0867  
+82.8 
+5 M  
+0.04 
+Co3O4  
+8.0882  
+68.4 
+10 M  
+0.06 
+Co3O4  
+8.0874  
+60.9 
+20 M  
+0.20 
+Co3O4  
+8.0897  
+57.1 
+40 M  
+0.42 
+Co3O4  
+8.0871  
+37.6 
+60 M  
+0.61 
+Co3O4 + MgO  
+8.0874  
+26.5 
+80 M  
+0.82 
+Co3O4 + MgO  
+8.0916  
+25.4  
+a Is the x in Co3-xMgxO4 calculated by ICP-OES result. 
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 4 =====
+
+Journal of Energy Storage 55 (2022) 105594
+4
+Mg content, the formation of the MgO phase occurs. The formation of 
+this mixed phase consisting of MgO and Co3O4 could be attributed to the 
+larger atomic radius of Mg (1.6 Å) than that of Co (1.25 Å), which result 
+the distortion for Co3O4 crystal lattice. However, at a low Mg content, 
+Mg atoms could replace Co atoms in a Co3O4 lattice. Furthermore, the 
+spinel structure for lower Mg content is metastable. At a high temper­
+ature, MgO can precipitate out of the spinel lattice easily [45], which 
+causes the crystal structure of the oxide to destabilize. 
+Table 1 and Fig. 1(c) show the values of the crystal size (d) and lattice 
+parameter (a), which were estimated based on the XRD spectra, of the 
+synthesized oxides. The lattice parameter (a) of the pure cobalt oxide 
+was 8.0867 Å, and the values of the lattice parameter of the oxides 
+increased with the Mg content (Fig. 1(c)). This increase could be 
+attributed to the formation of crystal defects and an expansion of the 
+crystal lattice of the Co–Mg binary oxide as the Co atoms are replaced 
+by larger Mg atoms. A schematic of the change in the crystal structure is 
+shown in Fig. 1(c). Although the correlation between the lattice 
+parameter and Mg content could be attributed to Vegard's law [46], the 
+samples 40 M, 60 M, and 80 M did not exhibit this correlation owing to 
+the formation of a mixed phase consisting of MgO and Co3O4. At a lower 
+Mg content (0 M, 5 M, 10 M and 20 M), the Mg atoms could well sub­
+stitute the Co atoms in Co3O4 crystal lattice. However, with the 
+increasing of Mg content (40 M, 60 M and 80 M), most of Mg atoms were 
+formed MgO, and for 40 M, the MgO may attach to the surface of Co3O4 
+crystal lattice uniformly, thus the Co3-xMgxO4 crystal lattice was com­
+pressed corresponding a lower lattice parameter and MgO diffraction 
+peaks could not be observed [46]. Furthermore, the gradual increase in 
+peak width in Fig. 1b illustrated that the crystallinity for all samples 
+decreased with the increasing of Mg content. And to quantitatively 
+analyze the crystallinity of all synthesized materials, the crystal size (d) 
+was also calculated and shown in Table 1. As shown in Table 1, the 
+crystal size (d) decreased linearly with an increase in the Mg content. 
+After doping Mg, the Co3O4 crystal nucleation and growth was pre­
+vented. Moreover, owing to the larger atomic radius of Mg, Co3O4 
+crystal was expanded in Fig. 1(c), the crystal symmetry was weakened, 
+which may also be detrimental to crystal growth [47,48]. 
+Fig. 1(d) shows the Raman spectra of the Co–Mg binary oxides with 
+the various Mg content. The various sites of a spinel structure exhibit 
+characteristic bands in a Raman spectrum (the octahedral sites with A1g 
+symmetry and tetrahedral sites with F2g symmetry correspond to Raman 
+shifts of 691 and 194 cm−1, respectively). The spectrum of Co3O4 
+exhibited well-defined bands at approximately 488 (Eg), 522 (T2g), and 
+691 (A1g) cm−1, which correspond to the vibration modes of the well- 
+known spinel structure of Co3O4 [49]. As shown in Fig. 1(d), the addi­
+tion of Mg resulted in a blue-shift and increase in intensity of the 
+characteristic peaks, which could be attributed to the enhanced Co–O 
+bond energy [50,51]. Owing to the larger radius of the Mg atom, the 
+Co–O bond length may become shorter with the addition of Mg. 
+The EDS mapping images of 20 M (Fig. 2) were chosen as the 
+representative images to investigate the micro morphology and 
+elemental distribution of the synthesized oxides. Moreover, the images 
+of the other samples are shown in Figs. S8–S13. From Fig. 2(a) we 
+observed that Co, Mg, and O were homogeneously distributed over the 
+surface of the oxides, which indicated that Mg can be uniformly doped 
+into Co3O4. The corresponding EDS spectra of 20 M indicated that the 
+atomic ratio of Co, Mg, and O were 41.36 %, 40.5 %, and 54.59 %, 
+respectively, while the value of Mg/(Co + Mg) was 8.9 % and that of X in 
+Co3-xMgxO4 was 0.27, which was consistent with the ICP-OES result. 
+Based on the ICP-OES, XRD, and EDS results we deduced that the syn­
+thesis method used in this work is feasible, and the TCES performance of 
+Co–Mg binary oxides can be reliably investigated using these samples. 
+Fig. 1. (a) XRD patterns as synthesized materials, and (b) the most intense peak used for crystallite size calculation. (c) Lattice parameter values of 0 M–80 M and a 
+schematic of the crystal structure change. (d) Raman spectra of the synthesized oxides. 
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 5 =====
+
+Journal of Energy Storage 55 (2022) 105594
+5
+3.2. The redox performance for 2 charging-discharging cycles 
+Each sample was subjected to two redox cycles; the first cycle was 
+aimed at the calcination of the samples to remove impurities, such as 
+adsorbed water and carbon dioxide from air, as they cause an irrevers­
+ible weight loss of the oxide and consequently complicate the estimation 
+of the redox mass change [52]. As shown in Fig. 3(a), although the TGA 
+curve of every sample exhibits reversible weight loss and weigh gain 
+regions, the TCES behavior indicated by every curve was different. In 
+Fig. 3(b), the reduction onset temperature for the first reduction reaction 
+is decreasing as the Mg content increased. While the reduction onset 
+temperature for the second reduction reaction decreased for 0 M, 5 M, 
+10 M, and 20 M but increased for 40 M, 60 M, and 80 M. Furthermore, 
+the oxidation rates of the Co–Mg binary oxides were slower than that of 
+the pure cobalt oxide. To further investigate the TCES performance of 
+the samples, their reduction onset temperatures and efficiency of 
+Fig. 2. (a) SEM-EDS mappings and (b) corresponding EDS spectrum of 20 M (Co, Mg, and O elements are represented in blue, yellow, and red, respectively). (For 
+interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.) 
+Fig. 3. TGA curves of the synthesized oxides. (a) The mass change and temperature versus time curves, (b) enlarged region for the first reduction reaction and (c) 
+enlarged region for the second reduction reaction. 
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 6 =====
+
+Journal of Energy Storage 55 (2022) 105594
+6
+conversion were calculated based on the TGA curves. 
+As shown in Fig. 4(a), for the first redox cycles of the oxides, as the 
+Mg content increased, the reduction onset temperature of the oxides 
+decreased (858.2 and 672.9 ◦C for 5 M and 80 M, respectively), and the 
+pure cobalt oxide (0 M) exhibited the highest reduction onset temper­
+ature (909.3 ◦C). The decrease in the reduction onset temperature can be 
+explained from a thermodynamics point of view. Fig. 4(b) shows the 
+predicted metal oxide phases corresponding to the various temperature 
+and atmospheric conditions of the calcination process and the subse­
+quent redox cycling conditions (25–1200 ◦C in air at standard atmo­
+spheric pressure). The curve between the monoxide and spinel +
+monoxide phased exhibited a downward tendency as the Mg content 
+increased, which indicated that the temperature at which phase change 
+occurred during the heating step decreased as the Mg content increased. 
+Furthermore, at room temperature (25–30 ◦C), the samples with a Mg/ 
+(Mg + Co) ratio below 0.24 exhibited a spinel phase, and the ones with a 
+Mg/(Mg + Co) ratio above 0.24 exhibited a mixed spinel + monoxide 
+phase, which is in agreement with the XRD patterns shown in Fig. 1. For 
+a temperature range of 750–950 ◦C, as 0 M, 5 M, and 10 M are composed 
+of the spinel phase initially, the oxides absorb heat to undergo phase 
+changes from spinel to spinel + monoxide to monoxide, resulting in a 
+higher energy density of these samples. 
+Notably, in the second redox cycle, the oxides exhibited different 
+thermal behaviors compared with that in the first cycle. Based on our 
+previous studies [35], we speculated that the first cycle typically does 
+not reflect the actual TCES performance of an oxide owing to the pres­
+ence of impurities, which could be attributed to the adsorbed water, 
+carbon dioxides and the incompletely decomposed nitrates and organic 
+components. After the high temperature calcination, the impurities 
+would not interfere the TCES performance anymore. And thus, the data 
+from the second cycle was considered to investigate the TCES perfor­
+mance of the oxides. On comparison of the second redox cycles of the 
+oxides, 20 M exhibited the lowest reduction onset temperature. It should 
+be noted that the difference in the reduction onset temperatures in the 
+first and second cycles could be attributed to an incomplete redox re­
+action in the first cycle, in which with the addition of Mg, the re- 
+oxidation step is weakened, especially for higher Mg content (40 M, 
+60 M and 80 M), the re-oxidation rate is lower than the cooling rate. 
+Therefore, owing to the present test conditions, the samples with higher 
+Mg content showed incomplete oxidation reaction before the 
+commencement of the subsequent reduction reaction, which delayed the 
+second reduction reaction and consequently increased the reduction 
+onset temperature of the second redox cycle. The reversibility of the 
+redox reactions was examined via their efficiency of conversion, which 
+were estimated based on the TGA curves shown in Fig. 3 and Eq. (1). The 
+addition of Mg to the oxides led to a decrease in the efficiency of con­
+version of the redox reactions, and as the Mg content was increased, the 
+weight loss and weight gain of the samples decreased. Based on the 
+weight gain and weight loss values shown in Fig. 4(c), the pure cobalt 
+oxide exhibited the efficiency of conversion of approximately 0.97, 
+which indicated an excellent redox reversibility. The efficiency of con­
+version slightly decreased for 5 M and 10 M (0.93 and 0.92, respectively) 
+and considerably decreased for 40 M, 60 M, and 80 M (0.86, 0.66, and 
+0.21, respectively). This result is well supported by that of Fig. 3. On the 
+contrary, 20 M exhibited a similar efficiency of conversion (0.95) to that 
+of the pure cobalt oxide (0.97), which indicated that 20 M was the op­
+timum synthesized Co–Mg oxide and could be effectively used in a 
+TCES system owing to its excellent redox performance. 
+The energy densities of the synthesized oxides were estimated from 
+the reduction enthalpy values in the second redox cycles (Fig. 4(d)) [53]. 
+The energy density of the pure cobalt oxide (0 M) was 369.2 kJ/kg, 
+which is lower than its theoretical value (844 kJ/kg). The lower value of 
+energy density was attributed to a change in the Co3+ spin-state, which 
+involves an energy consumption of approximately 200–400 kJ/kg and is 
+Fig. 4. (a) Reduction onset temperatures of the oxides and (b) phase diagram of a Mg-Co-O system. (c) Weight loss, weight gain and efficiency of conversion values 
+for first redox cycle and (d) energy density values of the oxides based on the second redox cycles. 
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 7 =====
+
+Journal of Energy Storage 55 (2022) 105594
+7
+not accounted for by TGA and DSC instruments [9,34,35,54]. Therefore, 
+the energy density values estimated in this study have been considered 
+for qualitative comparisons only. The energy densities of the doped 
+oxides decreased as the Mg content was increased. However, the energy 
+densities of 5 M, 10 M, and 20 M (534.5 kJ/kg, 449.5 kJ/kg, and 398.8 
+kJ/kg, respectively) were higher than that of the pure oxide, whereas 
+those of 40 M, 60 M, and 80 M were lower. The decrease in the energy 
+density with an increase in the Mg content could be attributed to 
+incomplete redox reactions due to a high Mg content. Thus, although the 
+addition of Mg to Co3O4 was conducive to the enhancement of the en­
+ergy density of the oxide, a high Mg content in the oxide led to a low 
+efficiency of conversion of the reduction reaction and energy density. 
+Although 20 M exhibited a lower energy density than 5 M and 10 M, its 
+energy density was higher than that of the pure cobalt oxide. Further­
+more, it exhibited the highest efficiency of conversion and lowest 
+reduction onset temperature among the binary oxides, which indicated 
+that it is the optimum oxide among the ones synthesized in this study for 
+the development of a high performance TCES system. 
+3.3. The long-term cyclability 
+In a TCES system, the TCES material typically undergoes charging 
+and discharging cycles at high temperatures (600–1200 ◦C) for long 
+periods. Thus, although 20 M exhibited a favorable TCES performance, 
+the investigation of its cyclic stability is significant. For this purpose, 0 M 
+and 20 M were subjected to 50 redox cycles in air with a flow rate of 100 
+mL/min (79 mL/min N2 and 21 mL/min O2) at a temperature range of 
+650–950 ◦C and heating rate of 10 ◦C/min. To avoid the influence of 
+impurities and an incomplete reaction on the investigation, the second 
+and forty ninth cycles were considered as the first and last redox cycles. 
+As shown in Fig. 5, although the efficiency of conversion of the pure 
+cobalt oxide exhibited a higher stability than that of 20 M, the efficiency 
+of conversion of both oxides were above 0.95 after 50 cycles, which 
+indicated the favorable long-term cyclability of 20 M. Furthermore, on 
+comparison with the oxides reported in previous studies after various 
+number of cycles (Table S1), 20 M exhibited the excellent performance 
+on the efficiency of conversion, lower onset reduction temperature and 
+energy density. 
+As shown in Fig. 5(b), the reduction onset temperatures of 0 M and 
+20 M remained virtually constant after the second redox cycle, and at the 
+end of the last cycle these temperatures were approximately 910–914 ◦C 
+for 0 M and 816–823 ◦C for 20 M. Thus, based on the similar efficiency of 
+conversion of 20 M to that of 0 M and a lower reduction onset temper­
+ature of 20 M than that of 0 M (difference of 91–94 ◦C) after 50 redox 
+cycles, we deduced that 20 M exhibited a superior long-term cyclability. 
+3.4. Redox kinetics analysis 
+The kinetics of the redox reactions of 0 M and 20 M were investigated 
+using TGA. For the reduction kinetics analysis, the oxides were heated to 
+1000 ◦C at three different heating rates (5, 10, and 20 ◦C/min) in N2 
+atmosphere (100 mL/min) and subsequently cooled to 100 ◦C at a 
+heating rate of 10 ◦C/min. Whereas for the oxidation kinetics analysis, 
+the oxides were heated from 100 ◦C to 1000 ◦C at the same three heating 
+rates in air (79 mL/min N2 and 21 mL/min O2). For the various effi­
+ciency of conversion (0.1–0.9) estimated from the TGA curves, the 
+corresponding activation energy values were calculated using Fried­
+man's method (Fig. 6). As shown in Table S2, the R2 value for every 
+efficiency of conversion value is above 0.98, which verifies the reli­
+ability of the fit. 
+As shown in Fig. 6(a), the activation energy increased as the effi­
+ciency of conversion increased from 0.1 to 0.2 but decreased as the ef­
+ficiency of conversion further increased from 0.2 to 0.9. For every 
+efficiency of conversion value, the activation energy of 20 M was lower 
+than of 0 M, which indicated that the reduction reaction of 20 M was 
+straightforward compared with that of 0 M, which resulted in a lower 
+reduction onset temperature of 20 M. 
+As shown in Fig. 6(b), for the efficiency of conversion of 0.1, the 
+activation energy of 20 M with respect to oxidation was significantly 
+higher than that of 0 M, which indicated that the oxidation reaction of 
+20 M was complicated compared with that of 0 M. Furthermore, for the 
+higher efficiency of conversion, the activation energy values of 20 M 
+were only slightly higher than those of 0 M. This indicated that the 
+oxidation reaction for binary oxides is mainly influenced by the initial 
+stage of the reaction, which could be ascribed to the intercalation and 
+exfoliation of Mg ions into the Co3O4 lattice. Thus, compared to a single 
+Fig. 5. (a) The efficiency of conversion for 0 M, 20 M, and previously reported 
+Co oxides after multiple redox cycles and (b) reduction onset temperature of 0 
+M and 20 M for 50 redox cycles. 
+Fig. 6. The activation energy values for the (a) reduction and (b) oxida­
+tion reactions. 
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 8 =====
+
+Journal of Energy Storage 55 (2022) 105594
+8
+redox cycle, the reduction reactions after multiple redox cycles will be 
+delayed owing to the complex oxidation step, which is consistent with 
+the increase in the reduction onset temperature observed for the second 
+redox cycle in Fig. 4(a). 
+3.5. Redox mechanism 
+Fig. 7(b) and (c) shows the in situ XRD spectra of 20 M as it under­
+went reduction and oxidation at heating and cooling rates of 10 and 
+5 ◦C/min, respectively. The spectra were generated for temperature 
+ranges of 650–950 ◦C. The experimental temperature range associated 
+with in situ XRD is higher than that associated with TGA as the sample 
+temperature in the in situ XRD instrument is lower than that in the TGA 
+heating furnace e, thus in this work, the sample temperature is tem­
+perature that is corrected by TGA. 
+As shown in Fig. 7(b), prior to the reduction, the oxide was composed 
+of solely Co3O4 and no diffraction peaks corresponding to MgO were 
+observed, which indicated that Mg atoms had successfully doped into 
+the Co3O4 crystal structure. During the heating period, the intensities of 
+the characteristic peaks of Co3O4 decreased, and from 700 to 750 ◦C, 
+characteristic peaks of MgO (PDF # 77-2179) were observed, which 
+indicated that the oxide was composed of MgO and Co3O4. Furthermore, 
+the appearance of these peaks indicated that MgO could be readily 
+precipitated in the lattice, resulting in an unstable crystal structure of 
+the oxide. From 850 to 950 ◦C, the characteristic peaks of CoO (PDF # 
+78-0431) were observed, and at 950 ◦C, the peaks of Co3O4 disappeared. 
+Thus, at this temperature, the peaks in the spectrum corresponded to 
+CoO and MgO. The oxidation mechanism of the oxide was examined 
+during the cooling period, and the tendency of the phase composition 
+was opposite to that during the reduction reaction. As the cooling period 
+commenced shown in Fig. 7(c), the intensities of the peaks of CoO and 
+MgO decreased, and the peaks of Co3O4 appeared at 750 ◦C. The peaks of 
+CoO and MgO disappeared at 650 ◦C, which indicated that Mg atoms 
+reentered the Co3O4 lattice as the oxide cooled to 650 ◦C. Based on the 
+results of the in situ XRD analysis, the redox reaction can be described by 
+Eq. (9) 
+Co2.8Mg0.2O4 ⇔Qsolar2.8CoO + 0.2MgO + 1
+2O2
+(9) 
+To get further insight into the effect of the Mg doping on the redox 
+mechanism we performed DFT calculations. Pure cobalt oxides are 
+typically made of three cations (Co1, Co2, and Co3), and a unit cell of 
+pure cobalt oxide contains twenty four Co atoms and thirty two O atoms. 
+To simulate the actual Co–Mg ratio of Co2.8Mg0.2O4, two Co atoms were 
+replaced by Mg atoms. A Co3O4 unit cell was modelled, and six different 
+doping sites were predicted for 20 M. Table 2 shows the total energy and 
+lattice parameter values of the Co3O4 structures. Owing to the larger 
+atomic radius of Mg than that of Co, the Co–Mg binary oxides exhibited 
+larger lattice parameter values than the pure cobalt oxide, which is 
+Fig. 7. (a) Schematic of reduction mechanism. In situ XRD spectra of 20 M for (b) reduction and (c) oxidation periods.  
+Table 2 
+Total energy for 0 M, and the 6 different possibilities for 20 M.  
+Doping situation 
+Total energy (1000 * eV) 
+a (Å) 
+Pure cobalt oxide  
+−0.37891992  
+7.9723 
+Co1-Co1  
+−0.37486341  
+7.9922 
+Co2-Co2  
+−0.37486556  
+7.9918 
+Co3-Co3  
+−0.37363689  
+7.9906 
+Co1-Co2  
+−0.37509172  
+7.9952 
+Co1-Co3  
+−0.37442553  
+7.9958 
+Co2-Co3  
+−0.37442463  
+7.9833  
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 9 =====
+
+Journal of Energy Storage 55 (2022) 105594
+9
+consistent with the results of the XRD analysis. The oxide with the 
+doping site Co1–Co2 exhibited the lowest total energy and consequently 
+exhibited the most stable structure, which is considered as the optimal 
+structures. 
+To evaluate the structural stabilities and energy densities of the 
+crystal structures of 0 M and 20 M shown in Fig. 8(a) and (b), we esti­
+mated their defect formation energies (using Eq. (6)) and bond energies. 
+The bond energy is represented by the bond length, and the represen­
+tative bond lengths have been depicted in Fig. 8. From Fig. 8(c) it is 
+evident that bond lengths of A2, C2, and D2 (20 M) are shorter than 
+those of A1, C1, and D1 (pure cobalt oxide), respectively, whereas that of 
+B2 is longer than that of B1. Furthermore, most of the bond lengths in 
+the Mg-doped oxides are shorter than those of the pure cobalt oxide 
+(Table S3). A structure with a shorter bond length requires more energy 
+to undergo reduction, which indicated a higher energy density of the 
+Co–Mg binary oxide. In addition, as the defect formation energy of the 
+Co–Mg binary oxide was calculated to be larger than 0 (0.5582 eV), we 
+can conclude that the structure of the 20 M is metastable compared with 
+that of the pure cobalt oxide, which resulted in a lower reduction onset 
+temperature and a more straightforward reduction reaction of the doped 
+oxide. 
+3.6. Cost-benefit analysis 
+As shown in Fig. 9(a) and (b), the costs of the mirror field and heat 
+storage material contribute significantly to the costs of a CSP plant [36]. 
+The low reduction onset temperature and high energy density of the 
+Co–Mg binary oxide (20 M) indicate that it can effectively reduce these 
+costs. It should be pointed that the improvement of system efficiency 
+caused by lowering reduction onset temperature is not considered in this 
+work. Based on Eqs. (7) and (8), a lower absorber temperature (reduc­
+tion onset temperature) could reduce the concentration ratio and 
+consequently reduce the required mirror field area. 
+For the onset of the reduction reaction, the oxide 20 M requires a 
+temperature of approximately 815 ◦C, which corresponds to a concen­
+tration ratio of approximately 59, whereas the pure cobalt oxide requires 
+a temperature of 915 ◦C, which corresponds to a concentration ratio of 
+approximately 84. Consequently, owing to 20 M, the cost of the mirror 
+field can be reduced by 29.8 % ((84 −59) / 84 × 100), as shown in Fig. 9 
+(d). 
+Furthermore, owing to the higher energy density of 20 M than that of 
+0 M and the lower cost of MgO than that of Co3O4 (Table 3), the cost per 
+energy density of 20 M (0.64 $/(kJ/kg)) is 12.3 % lower than of 0 M 
+(0.73 $/(kJ/kg)) (Fig. 9(d)). 
+4. Conclusion 
+To reduce the cost of Co-based TCES systems, we synthesized a range 
+of Co3−xMgxO4 oxides and investigated their reduction onset tempera­
+tures and energy densities. Among the synthesized oxides, Co2.8Mg0.2O4 
+was considered as the optimum heat storage oxide owing to its lowest 
+reduction onset temperature (775.6 ◦C, which was 103.7 ◦C lower than 
+of the pure cobalt oxide) and highest energy density (8.02 % higher 
+compared to the pure cobalt oxide). Furthermore, after 50 redox cycles, 
+Fig. 8. Unit cell of (a) 0 M and (b) 20 M, and (c) bond lengths of 0 M and 20 M.  
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 10 =====
+
+Journal of Energy Storage 55 (2022) 105594
+10
+the energy density of Co2.8Mg0.2O4 was similar to that of the pure cobalt 
+oxide while its reduction onset temperature was lower, which indicated 
+its excellent cyclability. The results of the in situ XRD analysis indicated 
+that the precipitation and intercalation of MgO results in the structural 
+instability of the oxide, and the lower reduction onset temperature is 
+obtained. The DFT calculations indicated that the lower reduction onset 
+temperature and higher energy density of Co2.8Mg0.2O4 could be 
+attributed to its lower defect formation energy and shorter Co–O bond 
+lengths. The results of the economic analysis of the pure cobalt oxide and 
+Co2.8Mg0.2O4 with respect to their application in TCES systems indicated 
+Fig. 9. (a) Schematic of a CSP system, (b) cost distribution of a CSP plant (c) correlation between the optimal absorber temperature and concentration ratio, and (d) 
+reduction in mirror field and material costs owing to the TCES performance of 20 M. 
+Table 3 
+Economic characteristics of 0 M and 20 M.  
+Sample 
+Material consumption 
+Price ($/kg) 
+Energy density (kJ/kg) 
+Energy consumption (kJ/kg⋅$) 
+Cost reduction (%) 
+MgO 
+Co3O4 
+0 M  
+0.0000  
+1.0000  
+42.11  
+362.5  
+0.1162  
+0.0 
+20 M  
+0.0342  
+0.9613  
+40.63  
+398.8  
+0.1019  
+12.3 
+The unit price of industrial grade dopants was obtained from the wholesale website http://www.alibaba.com/ on 1. 15, 2022. 
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 11 =====
+
+Journal of Energy Storage 55 (2022) 105594
+11
+that the use of Co2.8Mg0.2O4 could lower the costs of the mirror field and 
+storage material by approximately 29.8 % and 12.3 %, respectively. 
+Thus, Co2.8Mg0.2O4 exhibits a high potential for its application in CSP 
+plants as a heat storage material owing to its low reduction onset tem­
+perature and high energy density. 
+CRediT authorship contribution statement 
+Lei Liu: Conceptualization, Investigation, Formal analysis, Writing – 
+original draft. Zijian Zhou: Conceptualization, Investigation, Experi­
+mental, Writing – review & editing. Yue Zhou: Formal analysis. Dejun 
+Peng: Investigation. Xiaowei Liu: Funding acquisition. Minghou Xu: 
+Supervision. 
+Data availability 
+No data was used for the research described in the article. 
+Acknowledgments 
+This study was supported by the National Natural Science Founda­
+tion of China (51906078 and 51922045) and the Fundamental Research 
+Funds for the Central Universities (2021XXJS064). Additionally, we 
+appreciate the services of the Analytical and Testing Centers at the 
+Huazhong University of Science & Technology. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.est.2022.105594. 
+References 
+[1] J.Crowley Thomas, A.Berner Robert, CO2 and climate change, Science 292 (2001) 
+870–872. 
+[2] J. Xu, X. Liu, Z. Zhou, M. Xu, Photocatalytic CO2 reduction catalyzed by 
+metalloporphyrin: understanding of cobalt and nickel sites in activity and 
+adsorption, Appl. Surf. Sci. 513 (2020), 145801. 
+[3] S.I. Zandalinas, F.B. Fritschi, R. Mittler, Global warming, climate change, and 
+environmental pollution: recipe for a multifactorial stress combination disaster, 
+Trends Plant Sci. 26 (2021) 588–599. 
+[4] E. Ergin, B. Altinel, E. Aktas, A mixed method study on global warming, climate 
+change and the role of public health nurses from the perspective of nursing 
+students, Nurse Educ. Today 107 (2021), 105144. 
+[5] D.E. Allen, M. McAleer, Fake news and indifference to scientific fact: president 
+Trump’s confused tweets on global warming, climate change and weather, 
+Scientometrics 117 (2018) 625–629. 
+[6] S.R. Bull, Renewable energy today and tomorrow, Proc. IEEE 89 (2001) 
+1216–1226. 
+[7] D. Gielen, F. Boshell, D. Saygin, M.D. Bazilian, N. Wagner, R. Gorini, The role of 
+renewable energy in the global energy transformation, Energ. Strat. Rev. 24 (2019) 
+38–50. 
+[8] M. Shahabuddin, M.A. Alim, T. Alam, M. Mofijur, S.F. Ahmed, G. Perkins, A critical 
+review on the development and challenges of concentrated solar power 
+technologies, Sustainable Energy Technol. Assess. 47 (2021), 101434. 
+[9] J. Sunku Prasad, P. Muthukumar, F. Desai, D.N. Basu, M.M. Rahman, A critical 
+review of high-temperature reversible thermochemical energy storage systems, 
+Appl. Energy 254 (2019), 113733. 
+[10] S. Kuravi, J. Trahan, D.Y. Goswami, M.M. Rahman, E.K. Stefanakos, Thermal 
+energy storage technologies and systems for concentrating solar power plants, 
+Prog. Energy Combust. Sci. 39 (2013) 285–319. 
+[11] A.J. Carrillo, J. Gonz´alez-Aguilar, M. Romero, J.M. Coronado, Solar energy on 
+demand: a review on high temperature thermochemical heat storage systems and 
+materials, Chem. Rev. 119 (2019) 4777–4816. 
+[12] A. Gil, M. Medrano, I. Martorell, A. L´azaro, P. Dolado, B. Zalba, L.F. Cabeza, State 
+of the art on high temperature thermal energy storage for power generation. Part 
+1—Concepts, materials and modellization, Renew. Sust. Energ. Rev. 14 (2010) 
+31–55. 
+[13] Y. Zhou, Z. Zhou, L. Liu, X. She, R. Xu, J. Sun, M. Xu, Enhanced thermochemical 
+energy storage stability of CaO-based composite pellets incorporated with a zr- 
+based stabilizer, Energy Fuel 35 (2021) 18778–18788. 
+[14] Y. Tian, X. Liu, H. Zheng, Q. Xu, Z. Zhu, Q. Luo, C. Song, K. Gao, H. Yao, C. Dang, 
+Y. Xuan, Artificial mitochondrion for fast latent heat storage: experimental study 
+and lattice boltzmann simulation, Energy 245 (2022), 123296. 
+[15] L. Teng, Y. Xuan, Y. Da, X. Liu, Y. Ding, Modified ca-looping materials for directly 
+capturing solar energy and high-temperature storage, Energy Storage Mater. 25 
+(2020) 836–845. 
+[16] M. Sarvghad, S. Delkasar Maher, D. Collard, M. Tassan, G. Will, T.A. Steinberg, 
+Materials compatibility for the next generation of concentrated solar power plants, 
+Energy Storage Mater. 14 (2018) 179–198. 
+[17] M.T. Islam, N. Huda, A.B. Abdullah, R. Saidur, A comprehensive review of state-of- 
+the-art concentrating solar power (CSP) technologies: current status and research 
+trends, Renew. Sust. Energ. Rev. 91 (2018) 987–1018. 
+[18] S.E.B. Edwards, V. Materi´c, Calcium looping in solar power generation plants, Sol. 
+Energy 86 (2012) 2494–2503. 
+[19] S. Bellan, T.E. Alam, J. Gonz´alez-Aguilar, M. Romero, M.M. Rahman, D. 
+Y. Goswami, E.K. Stefanakos, Numerical and experimental studies on heat transfer 
+characteristics of thermal energy storage system packed with molten salt PCM 
+capsules, Appl. Therm. Eng. 90 (2015) 970–979. 
+[20] B. Bulfin, J. Vieten, C. Agrafiotis, M. Roeb, C. Sattler, Applications and limitations 
+of two step metal oxide thermochemical redox cycles; a review, J. Mater. Chem. A 
+5 (2017) 18951–18966. 
+[21] A. Bayon, R. Bader, M. Jafarian, L. Fedunik-Hofman, Y. Sun, J. Hinkley, S. Miller, 
+W. Lipi´nski, Techno-economic assessment of solid–gas thermochemical energy 
+storage systems for solar thermal power applications, Energy 149 (2018) 473–484. 
+[22] S. Tescari, C. Agrafiotis, S. Breuer, L. de Oliveira, M.N.-V. Puttkamer, M. Roeb, 
+C. Sattler, Thermochemical solar energy storage via redox oxides: materials and 
+reactor/heat exchanger concepts, Energy Procedia 49 (2014) 1034–1043. 
+[23] W. Fang, S. Chen, J. Xu, K. Zeng, Predicting heat transfer coefficient of a shell-and- 
+plate, moving packed-bed particle-to-sCO2 heat exchanger for concentrating solar 
+power, Energy 217 (2021), 119389. 
+[24] S. Bai, J. Sun, Z. Zhou, C. Bu, X. Chen, Y. Yang, R. Wang, Y. Guo, C. Zhao, W. Liu, 
+Structurally improved, TiO2-incorporated, CaO-based pellets for thermochemical 
+energy storage in concentrated solar power plants, Sol. Energy Mater. Sol. Cells 
+226 (2021), 111076. 
+[25] S.A. Kalogirou, Solar thermal collectors and applications, Prog. Energy Combust. 
+Sci. 30 (2004) 231–295. 
+[26] E. Alonso, C. P´erez-R´abago, J. Licurgo, E. Fuentealba, C.A. Estrada, First 
+experimental studies of solar redox reactions of copper oxides for thermochemical 
+energy storage, Sol. Energy 115 (2015) 297–305. 
+[27] D. Müller, C. Knoll, W. Artner, M. Harasek, C. Gierl-Mayer, J.M. Welch, A. Werner, 
+P. Weinberger, Combining in-situ X-ray diffraction with thermogravimetry and 
+differential scanning calorimetry – an investigation of Co3O4, MnO2 and PbO2 for 
+thermochemical energy storage, Sol. Energy 153 (2017) 11–24. 
+[28] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Improving the 
+thermochemical energy storage performance of the Mn2O3/Mn3O4 redox couple 
+by the incorporation of iron, ChemSusChem 8 (2015) 1947–1954. 
+[29] R.G. Bowrey, J. Jutsen, Energy storage using the reversible oxidation of barium 
+oxide, Sol. Energy 21 (1978) 523–525. 
+[30] A.J. Carrillo, D. Sastre, D.P. Serrano, P. Pizarro, J.M. Coronado, Revisiting the 
+BaO2/BaO redox cycle for solar thermochemical energy storage, Phys. Chem. 
+Chem. Phys. 18 (2016) 8039–8048. 
+[31] D. Xiang, C. Gu, H. Xu, J. Deng, P. Zhu, G. Xiao, Al-modified CuO/Cu2O for high- 
+temperature thermochemical energy storage: from reaction performance to 
+modification mechanism, ACS Appl. Mater. Interfaces 13 (2021) 57274–57284. 
+[32] L. Andr´e, S. Abanades, G. Flamant, Screening of thermochemical systems based on 
+solid-gas reversible reactions for high temperature solar thermal energy storage, 
+Renew. Sust. Energ. Rev. 64 (2016) 703–715. 
+[33] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Understanding redox kinetics 
+of iron-doped manganese oxides for high temperature thermochemical energy 
+storage, J. Phys. Chem. C 120 (2016) 27800–27812. 
+[34] L. Liu, Z. Zhou, C. Wang, J. Xu, H. Xia, G. Chang, X. Liu, M. Xu, Superior 
+thermochemical energy storage performance of the Co3O4/CoO redox couple with 
+a cubic micro-nanostructure, J. Energy Storage 43 (2021), 103167. 
+[35] L. Liu, Z. Zhou, X. Liu, Y. Liu, J. Xu, H. Xia, M. Xu, CoOx ceramics synthesized by a 
+facile and rapid combustion method and its application for thermochemical energy 
+storage, Ceram. Int. 47 (2021) 35048–35056. 
+[36] P. Krishnamurthy, S. Mishra, R. Banerjee, An analysis of costs of parabolic trough 
+technology in India, Energy Policy 48 (2012) 407–419. 
+[37] Price of cobalt and solar mirror field in concentrated solar power, http://www, 
+https://cn.bing.com/, 2022. (Accessed 26 February 2022). 
+[38] M. Mehrpooya, B. Ghorbani, S.S. Hosseini, Thermodynamic and economic 
+evaluation of a novel concentrated solar power system integrated with absorption 
+refrigeration and desalination cycles, Energy Convers. Manag. 175 (2018) 
+337–356. 
+[39] A. Zaki, J. Carrasco, D. Bielsa, A. Faik, Tunable redox temperature of a 
+Co3–xMnxO4 (0 ≤x ≤3) continuous solid solution for thermochemical energy 
+storage, ACS Appl. Mater. Interfaces 12 (2020) 7010–7020. 
+[40] Y. Portilla-Nieto, A. Zaki, K. Vidal, M. Hernaiz, E. Aranzabe, S. Doppiu, A. Faik, 
+Development of Co3-xNixO4 materials for thermochemical energy storage at lower 
+red-ox temperature, Sol. Energy Mater. Sol. Cells 230 (2021), 111194. 
+[41] S. Vyazovkin, A.K. Burnham, J.M. Criado, L.A. P´erez-Maqueda, C. Popescu, 
+N. Sbirrazzuoli, ICTAC kinetics committee recommendations for performing 
+kinetic computations on thermal analysis data, Thermochim. Acta 520 (2011) 
+1–19. 
+[42] A. Khawam, D.R. Flanagan, Solid-state kinetic models: basics and mathematical 
+fundamentals, J. Phys. Chem. B 110 (2006) 17315–17328. 
+[43] H.L. Friedman, Kinetics of thermal degradation of char-forming plastics from 
+thermogravimetry. Application to a phenolic plastic, J. Polym. Sci., Part C: Polym. 
+Symp. 6 (1964). 
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 12 =====
+
+Journal of Energy Storage 55 (2022) 105594
+12
+[44] C. Wang, C. Zhang, W. Hua, Y. Guo, G. Lu, S. Gil, A. Giroir-Fendler, Catalytic 
+oxidation of vinyl chloride emissions over co-ce composite oxide catalysts, Chem. 
+Eng. J. 315 (2017) 392–402. 
+[45] J. Gao, B. Jiang, C. Ni, Y. Qi, X. Bi, Enhanced reduction of nitrate by noble metal- 
+free electrocatalysis on P doped three-dimensional Co3O4 cathode: mechanism 
+exploration from both experimental and DFT studies, Chem. Eng. J. 382 (2020), 
+123034. 
+[46] Y. Yang, S. Yao, Y. Hu, J. Sun, Q. Li, Z. Li, S. Zhou, W. Liu, High-temperature CO2 
+adsorption by one-step fabricated nd-doped Li4SiO4 pellets, Chem. Eng. J. 410 
+(2021), 128346. 
+[47] D. Regonini, C.R. Bowen, A. Jaroenworaluck, R. Stevens, A review of growth 
+mechanism, structure and crystallinity of anodized TiO2 nanotubes, Mater. Sci. 
+Eng. R. Rep. 74 (2013) 377–406. 
+[48] R.B. Richards, Polyethylene-structure, crystallinity and properties, J. Appl. Chem. 
+1 (1951) 370–376. 
+[49] B. Xiao, K. Zhao, L. Zhang, T. Cai, X. Zhang, Z. Wang, J. Yuan, L. Yang, P. Gao, 
+D. He, A green and facile synthesis of Co3O4 monolithic catalyst with enhanced 
+total oxidation of propane performance, Catal. Commun. 116 (2018) 1–4. 
+[50] Y. Mao, M. Head-Gordon, Probing blue-shifting hydrogen bonds with adiabatic 
+energy decomposition analysis, J. Phys. Chem. Lett. 10 (2019) 3899–3905. 
+[51] P. Hobza, V. ˇSpirko, H.L. Selzle, E.W. Schlag, Anti-hydrogen bond in the benzene 
+dimer and other carbon proton donor complexes, J. Phys. Chem. A 102 (1998) 
+2501–2504. 
+[52] D. Bielsa, A. Zaki, P.L. Arias, A. Faik, Improving the redox performance of Mn2O3/ 
+Mn3O4 pair by si doping to be used as thermochemical energy storage for 
+concentrated solar power plants, Sol. Energy 204 (2020) 144–154. 
+[53] P. Pardo, A. Deydier, Z. Anxionnaz-Minvielle, S. Roug´e, M. Cabassud, P. Cognet, 
+A review on high temperature thermochemical heat energy storage, Renew. Sust. 
+Energ. Rev. 32 (2014) 591–610. 
+[54] S. Wu, C. Zhou, E. Doroodchi, R. Nellore, B. Moghtaderi, A review on high- 
+temperature thermochemical energy storage based on metal oxides redox cycle, 
+Energy Convers. Manag. 168 (2018) 421–453. 
+L. Liu et al.                                                                                                                                                                                                                                       

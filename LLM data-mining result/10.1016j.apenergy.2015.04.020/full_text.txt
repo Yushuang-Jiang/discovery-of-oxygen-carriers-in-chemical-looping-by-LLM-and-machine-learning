@@ -1,0 +1,1169 @@
+
+
+===== Page 1 =====
+
+Ca1xAxMnO3 (A = Sr and Ba) perovskite based oxygen carriers for
+chemical looping with oxygen uncoupling (CLOU)
+Nathan Galinsky a, Amit Mishra a, Jia Zhang b, Fanxing Li a,⇑
+a North Carolina State University, Campus Box 7905, Raleigh, NC 27695-7905, USA
+b Institute of High Performance Computing, 1 Fusionopolis Way, #16-16 Connexis, Singapore 138632, Singapore
+h i g h l i g h t s
+ Sr and Ba are doped into the CaMnO3 structure for enhanced phase stability and CLOU properties.
+ Strontium dopant helps to prevent irreversible decomposition of the perovskite structure.
+ Sr-doped oxygen carriers have CLOU capabilities at lower temperatures while being redox stable.
+ Computational techniques, such as DFT, can potentially be used to guide oxygen carrier selection.
+a r t i c l e
+i n f o
+Article history:
+Received 6 January 2015
+Received in revised form 28 March 2015
+Accepted 6 April 2015
+Available online 23 April 2015
+Keywords:
+Chemical looping
+Oxygen uncoupling
+Perovskite
+Solid fuel
+a b s t r a c t
+Operated under a cyclic redox mode with an oxygen carrier, the chemical looping with oxygen uncou-
+pling (CLOU) process offers the potential to effectively combust solid fuels while capturing CO2.
+Development of oxygen carriers capable of reversibly exchanging their active lattice oxygen (O2) with
+gaseous oxygen (O2) under varying external oxygen partial pressure (PO2) is of key importance to
+CLOU process performance. This article investigates the effect of A-site dopants on CaMnO3 based oxygen
+carriers for CLOU. Both Sr and Ba are explored as potential dopants at various concentrations. Phase seg-
+regations are observed with the addition of Ba dopant even at relatively low concentrations (5% A-site
+doping). In contrast, stable solid solutions are formed with Sr dopant at a wide range of doping level.
+While CaMnO3 perovskite suffers from irreversible change into Ruddlesden–Popper (Ca2MnO4) and
+spinel (CaMn2O4) phases under cyclic redox conditions, Sr doping is found to effectively stabilize the per-
+ovskite structure. In-situ XRD studies indicate that the Sr doped CaMnO3 maintains a stable orthorhombic
+perovskite structure under an inert environment (tested up to 1200 C). The same oxygen carrier sample
+exhibited high recyclability over 100 redox cycles at 850 C. Besides being highly recyclable, Sr doped
+CaMnO3 is found to be capable of releasing its lattice oxygen at a temperature signiﬁcantly lower than
+that for CaMnO3, rendering it a potentially effective oxygen carrier for solid fuel combustion and carbon
+dioxide capture.
+ 2015 Elsevier Ltd. All rights reserved.
+1. Introduction
+Climate change caused by anthropogenic carbon dioxide emis-
+sions along with the ever increasing demand for energy requires
+new power generation processes with lower carbon footprints. Of
+the various carbon capture technologies under development,
+chemical looping combustion (CLC) has emerged as a potentially
+promising option [1,2]. The CLC processes utilize a solid oxygen
+carrier to transfer oxygen from the air to the fuel. This is achieved
+using interconnected ﬂuidized bed or moving bed reactors [3–8]. In
+the ﬁrst reactor, commonly termed the reducer/fuel reactor, the
+oxidized form of the oxygen carrier is reacted with the fuel to form
+carbon dioxide and water vapor. The oxygen depleted carrier is
+then transported to a second reactor referred to as the oxidizer/
+air reactor. Here, air is used to regenerate the oxygen depleted car-
+rier while producing heat for power generation.
+While most oxygen carriers are effective for gaseous fuel com-
+bustion, they tend to be less active in converting solid fuels such
+as biomass or coal due to mass transfer and kinetic limitations.
+To enhance the combustion rate for solid fuels, two methods are
+typically used. In the ﬁrst method, solid fuel is gasiﬁed into syngas
+by steam, carbon dioxide, or oxygen. The resulting syngas is then
+reacted with the oxygen carrier at a faster rate than direct
+http://dx.doi.org/10.1016/j.apenergy.2015.04.020
+0306-2619/ 2015 Elsevier Ltd. All rights reserved.
+⇑Corresponding author. Tel.: +1 919 515 7328.
+E-mail address: ﬂi5@ncsu.edu (F. Li).
+Applied Energy 157 (2015) 358–367
+Contents lists available at ScienceDirect
+Applied Energy
+journal homepage: www.elsevier.com/locate/apenergy
+
+
+===== Page 2 =====
+
+solid–solid interactions [6–11]. A variety of oxygen carriers includ-
+ing Fe [8,10,12–14], Mn [13,15], and Ni [16,17] based oxides have
+been used in the conversion of solid fuels via such an in-situ
+gasiﬁcation approach. An even faster approach to combust solids
+fuel is the so-called chemical looping with oxygen uncoupling
+(CLOU) [3,18,19]. The CLOU process takes the advantage of oxygen
+carriers with high equilibrium oxygen partial pressure (PO2). As a
+result, solid fuels are combusted with gaseous oxygen released
+from the oxygen carrier, resulting in signiﬁcantly improved reac-
+tion kinetics. Typical oxygen carriers that exhibit CLOU properties
+include oxides and mixed oxides containing Cu, Mn, and/or Co
+[18–30].
+Despite possessing excellent oxygen uncoupling properties,
+copper oxides face challenges including a low melting point of
+the reduced Cu phase which can lead to agglomeration and deﬂu-
+idization. Supports, such as MgAl2O4, SiO2, and Al2O3, have been
+shown to help prevent sintering and deﬂuidization while main-
+taining the oxygen uncoupling properties of the copper oxide
+[19,26–28]. Nevertheless, the relatively high cost of copper oxide
+may limit its applications. Cobalt oxides, while potentially feasi-
+ble,
+are
+typically
+avoided
+due
+to
+their
+low
+decomposition
+temperature,
+toxicity,
+and
+negative
+environmental
+impact
+[18,23]. Manganese oxides hold advantages over copper oxides
+in terms of high availability and low cost. However, pure man-
+ganese oxide is difﬁcult to regenerate with air due to its high
+equilibrium PO2. Formation of mixed oxide phases through the
+addition of secondary metal oxides such as Fe, Ni, Mg, and Ca
+to manganese oxides has been shown as an effective approach
+to improve the regenerability and structural stability of Mn based
+oxygen carriers [15,19,21–25,31–36].
+More recently, perovskite structured oxygen carriers have
+received increasing attentions as oxygen carriers for redox applica-
+tions [23,31,33–54]. Typical perovskite takes the form of ABO3d,
+where A is a large cation of either the alkali earth or rare earth
+metal and B is a smaller transition metal cation [55]. As a support,
+mixed ionic and electronic conductive (MIEC) perovskites such as
+La1xSrxFeO3 (LSF) have shown to enhance the redox activity of
+iron
+oxides
+by
+nearly
+two
+orders
+of
+magnitude
+[51–54].
+Perovskite and perovskite supported iron oxide have also been
+explored as redox catalysts for syngas generation and water-split-
+ting [42,56]. In terms of CLOU applications, La containing per-
+ovskite supports are reported to be effective to enhance the
+oxygen donation properties of mixed Mn–Fe and Co–Fe oxides
+[23]. Up to 8.8% decrease in initial decomposition temperature
+was reported for perovskite supported mixed metal oxides. As a
+standalone oxygen carrier, perovskites of the CaMnO3 family
+are extensively studied for CLOU and CLC applications [20,29–
+39,49,57–61]. While its oxygen uncoupling capacity is smaller than
+copper oxides, CaMnO3, which can be synthesized from abundantly
+available manganese ores and Ca precursors [29,60], has been
+reported to be active for solid fuel conversions [29,31,34,36]. A
+challenge to CaMnO3 is its lack of long term stability and activity
+with fuels. Undoped CaMnO3 has been reported to undergo irrever-
+sible phase change to CaMn2O4 and Ca2MnO4 phases, leading to
+eventual deactivation of the oxygen carrier [19,20,32,58,59]. In
+addition, CaMnO3 has been shown to deactivate in the presence
+of sulfur, a common constituent of coal, through formation of
+CaSO4 [32,36,59]. Prevention of irreversible phase transition has
+been investigated by doping secondary metals into the A and
+B-sites of the CaMnO3 parent material. The dopants can also be
+used to increase the activity of the oxygen carrier. The most com-
+mon elements used to stabilize the structure are Ti and Mg.
+Pishahang et al. investigated Ca1yMn1xTixO3d oxygen carriers
+under ﬁxed bed conditions using syngas as the fuel [38]. The
+authors reported that adding Ti and decreasing the Ca content
+increased stability of the oxygen carrier. 95% conversion of the
+syngas was achieved with no observable coke formation. Rydèn
+et al. studied a CaMn0.875Ti0.125O3d oxygen carrier for CLOU [35].
+The oxygen carrier exhibited oxygen uncoupling at temperature
+above 720 C in a ﬂuidized bed with a maximum oxygen uncou-
+pling rate of 0.03 LN/min at 950 C. The maximum oxygen concen-
+tration was 4 vol.%. Besides the good uncoupling properties, the
+oxygen carrier exhibited good redox activity and stability for
+methane conversion. Kallen et al. used Mg doped CaMnO3 and
+tested the oxygen carrier in a 10 kWth gas-ﬁred CLC unit [37].
+The synthesized oxygen carrier released oxygen at above 700 C.
+The oxygen carrier did not agglomerate for 120 h. at hot conditions
+(including 55 h of reaction) and formation of ﬁnes (<45 lm) was
+below 0.01%, indicating possible longevity in the particle’s lifetime.
+Another study using Mg, Ti, and Fe dopants conducted by Hallberg
+et al. shows good activity with methane and syngas while releasing
+0.3–0.5% by weight gaseous oxygen at 900 C [33]. A maximum
+oxygen release of 1 wt.% was reported at 1000 C. The authors
+noted CaMn2O4 spinel formation after testing the oxygen carrier’s
+CLOU properties in three cycles and activity for methane conver-
+sion in a single cycle. Hallberg et al. also investigated the addition
+of both Ti and Mg in a 300 W ﬂuidized bed system using natural
+gas as the fuel [61]. The designed oxygen carriers showed higher
+conversion of the fuel than Ni oxides while showing little attrition,
+however, it was determined that the spent particles contained a
+noticeable amount of the spinel CaMn2O4 phase. Pour et al.
+examined different oxygen carriers created by combining cheap
+manganese ores with Ca(OH)2 [29]. While the primary phase was
+CaMnO3d, the manganese ores also contained Al, Fe, K, Ti, Mg,
+etc. in small quantities. In reaction with methane, ores containing
+high concentrations of Al showed poor performance due to spinel
+formation between Al and Mn. The best performing oxygen carrier
+made from a South African manganese ore, which was mainly com-
+posed of Fe, Si, Ca, Mg, and Mn, had an oxygen capacity of 1.5 wt.%
+in methane. Oxygen uncoupling capacity was between 0.37 and
+0.68 wt.% for the various oxygen carriers investigated.
+Although extensive studies on B-site dopants were performed,
+limited
+studies
+using
+A-site
+dopants
+have
+been
+conducted.
+Arjmand et al. investigated CaxLa1xMnyM1yO3d (M = Mg, Ti, Fe,
+or Cu) oxygen carriers for CLOU properties between 900 and
+1000 C in a laboratory scale ﬂuidized bed [31]. The authors
+characterized the oxygen carriers’ capability to release oxygen by
+measuring oxygen concentration in the product gas stream during
+the uncoupling step. It was determined that pure CaMnO3 had the
+highest oxygen release capability (0.7% after 360 s). La-doped
+CaMnO3 had a lower oxygen concentration of 0.5% after 360 s.
+Doping of both A and B-sites caused even further decrease in
+oxygen release except for copper doping which exhibited higher
+oxygen concentration than CaMnO3. However, copper caused the
+perovskite materials to deﬂuidize when fuel was added. The
+authors did detect small amounts of spinel CaMn2O4 although its
+effect on the oxygen carrier performance was not documented.
+To summarize, further studies on the effect of A-site substitution
+using low cost alkali earth metals are desired in order to obtain a
+more informed strategy to develop oxygen carriers with lower cost
+and improved CLOU performance.
+This
+article
+investigates
+the
+effect
+of
+A-site
+dopants
+on
+CaMnO3 based oxygen carriers for CLOU applications. Both Sr
+and Ba are explored as potential dopants at various concentra-
+tions. The impacts of A-site dopants on phase stability, oxygen
+release
+properties,
+redox
+stability,
+and
+reactivity
+of
+the
+Ca1xAxMnO3 (A = Sr and Ba) based oxygen carriers are investi-
+gated using an in-situ X-ray diffraction (XRD) instrument, a
+thermogravimetric analyzer (TGA), and a ﬂuidized bed reactor.
+It is determined that Sr dopant can enhance the stability of
+the perovskite structure while providing facile oxygen release
+for solid fuel conversions.
+N. Galinsky et al. / Applied Energy 157 (2015) 358–367
+359
+
+
+===== Page 3 =====
+
+2. Experimental
+2.1. Oxygen carrier synthesis
+Mixed oxides with a general formula of Ca1xAxMnO3 (A = Ba or
+Sr and x = 0, 0.05, 0.25, 0.5, 0.75, and 1) are prepared using a citric
+acid sol–gel method. General procedure for the sol–gel samples
+includes dispersion of cation precursors Ca(NO3)24H2O (Sigma–
+Aldrich), Ba(NO3)2 (Sigma Aldrich), Sr(NO3)2 (ACS Reagent, Noah),
+and Mn(NO3)24H2O (Sigma Aldrich) in distilled water followed
+by addition of citric acid. In the synthesis procedure used, citric
+acid (Sigma Aldrich) is added to the solution in a molar ratio of
+2.5:1 (citric acid: total cations) as a chelating agent. After a short
+time, ethylene glycol (Sigma Aldrich) is used as a gel promoter in
+a molar ratio of 1.5:1 (ethylene glycol: citric acid) at a temperature
+of 80 C. After most of the water is boiled out, the sol–gel sample is
+dried in a vacuum oven for 12 h to remove any extra moisture. The
+dried sample is then annealed in air at 1200 C for 12 h. The result-
+ing powder is crushed and sieved to under 75 lm particle size.
+A solid state reaction (SSR) method is used to scale up the
+synthesis process. The SSR method procedure requires powder pre-
+paration, followed by pelletization, and annealing/solid state reac-
+tion.
+Preparation
+of
+a
+Ca0.75Sr0.25MnO3
+oxygen
+carrier
+was
+conducted by mixing calculated amounts of CaCO3 (P99.0%,
+Sigma–Aldrich), SrCO3 (99.0%, Noah), and Mn3O4 (99.0%, Noah)
+precursors for 12 h in a planetary ball mill (XBM4X, Columbia
+International) at a rotation speed of 250 rpm. The mixture is then
+pressed into
+3
+=
+400 pellets by a hydraulic press (YLJ-15T, MTI
+Corporation) at a pressure of 20 MPa and sintered in a high tem-
+perature furnace (GSL-1500-X50, MTI Corporation) at 1200 C for
+12 h. After annealing, the particles are fractured and sieved into a
+range of 90–250 lm.
+2.2. Oxygen uncoupling experiments
+Initial oxygen uncoupling properties of the oxygen carriers are
+characterized in a TGA. Two primary experiments are conducted
+in the TGA: (1) temperature programmable desorption TPD experi-
+ments using inert helium (5.0, Airgas) up to 1000 C at a ramp of
+20 C/min and (2) isothermal experiments between 650 and
+950 C. Isothermal experiments are conducted at various tempera-
+tures to determine the oxygen uncoupling capabilities at low to
+high temperatures. At each temperature, 5 cycles of switching
+between pure inert and 10% O2 (Extra Dry, Airgas) balanced with
+a mixture of argon (5.0, Airgas) and helium are conducted for short
+term recyclability of the oxygen carrier. Best performing oxygen
+carriers are also tested for 100 cycles at 850 C to demonstrate
+the oxygen uncoupling performance of the perovskite oxygen car-
+riers over the long term.
+2.3. Fluidized bed experiments
+A laboratory-scale ﬂuidized-bed reactor is used for solid fuel
+conversion experiment (Fig. S1). The quartz ﬂuidized-bed reactor
+has an outer diameter of 25.4 mm. The reactor is heated through
+external heating from a tube furnace (MTI OTF-1200X-S-VT).
+Temperature is measured inside the reactor with an Inconel
+(Type K) thermocouple to set the temperature of the reactor to
+850 C. A 3.75 mm ID stainless steel tube is used for solid fuel
+injection into the reactor. A gas mixing panel is used to send the
+desired ratio of gases from both the bottom of the reactor for ﬂu-
+idization and through the smaller stainless steel tube for solid fuel
+injection. For maintaining ﬂuidization, ﬂow rates of 1080 and
+1200 mL/min (at S.T.P) are used for solid fuel conversion (inert
+environment) and oxidation cycles, respectively. The ﬂow rates
+correspond to 6–7 times the calculated minimum ﬂuidization
+velocity, Umf, of the synthesized oxygen carrier. Prior to experi-
+ments, the reactor bed is loaded with 16 mesh silicon carbide
+(Kramer Industries) at the bottom of the reactor. The SiC particles
+act as a gas preheater and distributor. The SiC layer also supports
+the oxygen carrier bed. After the SiC layer is placed, approximately
+15 g of the oxygen carrier is placed into the reactor.
+For redox reactions of solid fuel, bituminous coal (Asbury Inc.) is
+converted into devolatized coal char through heating in the reactor
+at 800 C in a N2 environment. Injection of the coal char is con-
+ducted in a pulse mode by loading from the top of the reactor
+through the small stainless steel tube and is pulsed into the bottom
+of the oxygen carrier layer of the reactor bed using N2. 10 redox
+cycles are tested using the ﬂuidized bed reactor conducting two
+experiments in those 10 cycles. During cycles 1, 3, 5, and 10 solid
+fuel conversion is tested. Cycles 2, 4, and 6–9 are examining the
+oxygen uncoupling properties. Exhaust gas concentrations are
+measured using a quadrupole mass spectrometer (MKS Cirrus 2)
+and a near-IR based gas analyzer (Emerson X-Stream).
+2.4. Sample characterizations
+Phase identiﬁcation of the oxygen carriers is conducted using
+X-ray powder diffraction. Powdered samples are prepared and
+tested using a Rigaku SmartLab X-ray diffractometer with Cu Ka
+(k = 0.1542 nm) radiation operating at 40 kV and 44 mA. A scan-
+ning range of 20–80 (2h) with a step size of 0.1 holding for
+3.5 s at each step is used to generate the XRD patterns. To examine
+phase properties during TPD experiments, in-situ X-ray diffraction
+was conducted using an Empyrean PANalytical XRD using a similar
+Cu Ka radiation operating at 45 kV and 40 mA. A 2h range of 20–80
+is used at a ramp rate of 0.1 holding each step for 0.1 s. A TPD
+experiment is conducted in the in-situ XRD by heating the sample
+at 5 C/min in pure argon. XRD scans are conducted the entire
+length of the ramp to 1200 C.
+2.5. DFT calculations
+Density functional theory (DFT) calculations are conducted to
+interpret the oxygen uncoupling behavior of cubic CaMnO3 and
+hexagonal BaMnO3. The calculations are performed using the
+Vienna ab initio simulation package (VASP) [62,63] in which a
+plane-wave basis set is used. The electron–ion interaction is mod-
+eled by the projector-augmented wave (PAW) method [64,65]. The
+Perdew–Burke–Enzerhoff (PBE) form of the generalized-gradient
+approximation (GGA) is used for the exchange and correlation
+functional [66]. The plane-wave cutoff energy is set to 425 eV. To
+calculate the O vacancy (OV) formation energy, 1  2  2 and
+2  2  2 supercells are chosen for BaMnO3 and CaMnO3 systems,
+respectively. A 4  2  2 C-centered k-mesh and a 4  4  4
+Monkhost–Pack k-mesh are used to the BaMnO3 and CaMnO3
+supercells, respectively. In our calculations, both the ferromagnetic
+(FM) and the antiferromagnetic (AFM) order are used for consid-
+ered perovskite structures. Here, A-type AFM and G-type AFM spin
+conﬁgurations are adopted by BaMnO3 and CaMnO3, respectively.
+In this work, removal of one O atom from the perfect structure is
+done to create a defect. The formation energy of the O vacancy is
+deﬁned as
+EOV ¼ EAMnO3d þ 1
+2 EO2  EAMnO3
+where EAMnO3d is the total energy of the perovskite supercells with
+one O vacancy (A = Ba, Ca and d = 0.125), EO2 is the energy of the iso-
+lated O2 molecules in the spin-polarized triplet state, and EAMnO3
+corresponds to the energy of the perfect AMnO3.
+360
+N. Galinsky et al. / Applied Energy 157 (2015) 358–367
+
+
+===== Page 4 =====
+
+3. Results and discussions
+3.1. Motivation for dopant addition
+Previous studies indicate that CaMnO3 undergoes an irreversi-
+ble phase transition into CaMn2O4d and Ca2MnO4 under redox
+conditions [58]. Since perovskites can accommodate signiﬁcant
+amount of oxygen vacancies, the decomposition would occur in
+two steps. In the ﬁrst step, manganese undergoes reduction from
+a 4 + valence state (CaMnO3) to 3 + (CaMnO2.5) with the perovskite
+structure maintained. Further reduction of Mn will result in the
+formation of new phases:
+6CaMnO2:5 $ 2CaMn2O4d þ 2Ca2MnO4 þ ðd  0:5ÞO2
+ðReaction1Þ
+One potential approach to avoid such an undesired transition is
+to add dopants that enhance the stability of the perovskite phase.
+By inspection of the Goldschmidt or bond-valence model (BVM)
+tolerance factor, it is possible to project dopant effect on the struc-
+tural stability of perovskites semi-empirically. The Goldschmidt
+tolerance factor is deﬁned in Eq. (1) [67]:
+t ¼
+rA þ rO
+ﬃﬃﬃ
+2
+p
+ðrB þ rOÞ
+ð1Þ
+where rA, rB, and rO are the ionic radii of the A-site ion, B-site ion,
+and oxygen ion. BVM tolerance factor replaces the summations of
+effective ionic radii in Eq. (1) with ideal A–O and B–O bond dis-
+tances [68]. Based on the report by Dabrowski et al. [69], CaMnO3
+has a tolerance factor of 0.985. While this value is within the suit-
+able range to form stable cubic perovskites (0.9 6 t < 1), further
+increase of the tolerance factor towards an ideal value of 1 for cubic
+perovskite can potentially enhance the stability of the oxygen
+vacant Ca1xAxMnO2.5 perovskite. It is apparent from Eq. (1) that
+larger A-site dopants such as Ba and Sr should render such an effect.
+It is also noted that the ionic radius of Ba2+ (1.61 angstrom) is sig-
+niﬁcantly larger than Mn3+ (0.58 angstrom under low spin) and
+Ca2+ (1.34 angstrom). Therefore, signiﬁcant doping of Ba will lead
+to a tolerance factor larger than 1, resulting in a hexagonal per-
+ovskite structure.
+Effect of A-site dopant on stability of CaMnO3 perovskite family
+can also preliminarily be understood from DFT calculations. The
+BaMnO3/CaMnO3 structures have different magnetic ordering pat-
+terns over different temperature ranges. Table 1 shows the oxygen
+vacancy formation energies for BaMnO3 and CaMnO3 in both FM
+and AFM states. It can be seen that O vacancy is easier form in
+CaMnO3
+(EOv ¼ 1:20 eV
+and
+2.28 eV,
+respectively)
+than
+in
+BaMnO3 (EOv ¼ 2:79 eV and 3.18 eV, respectively) regardless of
+the magnetic state adopted. We found that both CaMnO3 and
+BaMnO3 with AFM ordering need more energy to release oxygen
+than the corresponding one with FM ordering. Indeed, the AFM
+ordered state can only be remained at a relatively low temperature
+(below the Néel temperature). The computational results implies
+that the structural stability coupled with the oxygen donation
+capability can potentially be changed by substituting Ca in the A-
+site with larger cations such as Sr or Ba. In addition, the doping
+effect is likely to be correlated to the experimental temperature.
+Since Sr has an ionic radius slightly larger than Ca but smaller than
+Ba, one could anticipate Sr addition to CaxA1xMnO3 causing simi-
+lar effects as Ba addition, but to a lesser extent. Although stability
+of the perovskite can only be accurately estimated by comparing
+the relative stability of original and decomposed phases, vacancy
+formation energy calculations together with semi-empirical analy-
+sis give important clues to the selection of potentially effective
+dopants (like Sr and Ba) for the CaMnO3 parent structure.
+3.2. Thermal stability of CaMnO3
+Although previous studies revealed irreversible decomposition
+of
+CaMnO3
+to
+Ruddlesden–Popper
+and
+spinel
+phases,
+the
+decomposition was observed under extended redox cycles at rela-
+tively low temperatures (<1000 C) [31]. An alternative approach
+that can conveniently quantify phase stability of perovskites with-
+out undergoing extended redox cycles would be desirable for efﬁ-
+cient screening of perovskite based oxygen carriers. In the current
+study, temperature programmed desorption (TPD) and in-situ XRD
+are used to determine the stability of perovskites as well as their
+initial oxygen uncoupling temperature and rate of oxygen uncou-
+pling. Fig. 1 shows the TPD and in-situ XRD results. The sample
+weight loss proﬁle in TPD indicates an initial decomposition tem-
+perature at approximately 800 C followed with signiﬁcant release
+of lattice oxygen. This is corroborated by the in-situ XRD spectra,
+which exhibit signiﬁcant increase in lattice parameter (decreasing
+2h angles) at above 800 C. When heated above 1000 C, the
+CaMnO3
+phase
+decomposes
+into
+undesired
+Ca2MnO4
+and
+CaMn2O4 structures as evidenced by the peaks formed at or near
+29.5, 33, 34.5, 37.7, 39, 40.4, 43.2, and etc. 2h angles.
+3.3. Effect of A-site dopants on oxygen uncoupling properties
+Perovskite samples with various dopant amounts are tested
+using TPD to observe initial oxygen release temperature and total
+amount
+of
+oxygen
+released.
+Differential
+thermal
+gravimetry
+(DTG) curves of selected samples are shown in Fig. 2. The area
+under the DTG curves is the total weight loss exhibited by the oxy-
+gen carriers. As can be seen, CaMnO3 exhibits a signiﬁcant
+decomposition peak at around 800 C. A similar feature is also
+observed for Ca0.95Ba0.05MnO3. Both Sr and Ba dopant affect the ini-
+tial decomposition temperature, oxygen release rate, and total oxy-
+gen release of Ca1xAxMnO3. Both pure SrMnO3 and BaMnO3 are
+more stable than CaMnO3 and, as a result, release less total oxygen.
+BaMnO3 offers about 7 times less total oxygen release and SrMnO3
+offers about 3.5 times less oxygen compared to pure CaMnO3.
+When Sr and Ba are doped to the A-site, properties of both oxides
+can be observed. Ba and Sr doped samples tend to decompose at
+signiﬁcantly lower temperatures (<700 C) than Ca based per-
+ovskites. When Ba is doped, the trend is apparent to shift between
+pure CaMnO3 and pure BaMnO3. While 0.05 Ba doping does not
+signiﬁcantly affect the properties of oxygen uncoupling, increasing
+the dopant amount to 0.25 can shift the initial reduction tempera-
+ture
+by
+approximately
+200 C.
+Total
+oxygen
+release
+for
+Ca0.75Ba0.25MnO3 is 3 wt.% during the TPD experiment. This is only
+slightly lower than the 3.7 wt.% oxygen release by pure CaMnO3.
+The rate of oxygen release in the high temperature ranges
+(>750 C), however, is signiﬁcantly slower for Ca0.75Ba0.25MnO3.
+Another intriguing property is the signiﬁcant weight loss observed
+at low temperatures (<600 C) in which almost 0.5 wt.% of the sam-
+ple is released in the form of oxygen (Fig. 2a). Further doping of Ba
+onto the perovskite follows a trend to reduce total oxygen release
+and oxygen donation rate in the high temperature range. Sr-doped
+samples follow a trend similar to that exhibited by the Ba-doped
+samples. Rates of oxygen release at high temperatures are slightly
+faster than the Ba-doped samples, although still slower than pure
+CaMnO3. Doping up to 0.25 Sr does not signiﬁcantly affect the total
+Table 1
+Oxygen vacancy (OV) formation energy of BaMnO3 and CaMnO3 under FM (ferromag-
+netic) and AFM (antiferromagetic) orders.
+EOV , FM (eV)
+EOV AFM (eV)
+BaMnO3
+2.79
+3.18
+CaMnO3
+1.20
+2.28
+N. Galinsky et al. / Applied Energy 157 (2015) 358–367
+361
+
+
+===== Page 5 =====
+
+oxygen released. Initial temperature for oxygen release; on the
+other hand, is lowered. For instance, Ca0.75Sr0.25MnO3 exhibits sig-
+niﬁcant weight loss in two distinct temperature regions, i.e. 300–
+450 C and >600 C. The low temperature oxygen release could
+be associated with chemisorbed oxygen in the lattice structure.
+Fig. 3 summarizes the total oxygen release and initial decomposi-
+tion temperature for several representative perovskite samples.
+3.4. Structural and stability studies
+Effectiveness of dopant addition largely relies on the compati-
+bility of the dopant and its parent structure. Ideally, the dopant
+should be fully incorporated into the host structure to form a
+homogeneous solid state solution. Fig. 4 illustrates the XRD pat-
+terns for the oxygen carriers for Ba and Sr doped CaMnO3 at a range
+Fig. 1. (a) TPD of the pure CaMnO3 at 5 C/min to 1000 C in pure helium environment. Sample weight: 20 mg; gas ﬂow rate: 100 mL/min. He (grade 5.0). (b) In-situ XRD of
+the same oxygen carrier at 5 C/min to 1200 C in argon. Gas ﬂow rate: 50 mL/min Ar (grade 5.0).
+Fig. 2. Normalized differential thermal gravimetric (DTG) curves of (a) Ba-doped and (b) Sr-doped CaMnO3 ramped to 1000 C at a rate of 20 C/min in a pure helium
+atmosphere. Sample weight: 20 mg; gas ﬂow rate: 100 mL/min. He (5.0 grade).
+362
+N. Galinsky et al. / Applied Energy 157 (2015) 358–367
+
+
+===== Page 6 =====
+
+of x = 0 to x = 1. As can be seen, Ba cannot be fully incorporated into
+the CaMnO3 structure in most cases. Even at small dopant levels
+(x < 0.1), a secondary hexagonal BaMnO3 phase can be identiﬁed.
+When doped further, ternary phases, such as Mn oxides, are
+observed until A-site is fully occupied by Ba. Sr-doped CaMnO3,
+on the other hand, forms a relatively homogenous solid-solution.
+Sr doping up to x = 0.25 exhibits complete incorporation of Sr into
+CaMnO3 while shifting the structure from cubic to orthorhombic.
+At x = 0.5, co-existence of SrMnO3 and CaMnO3 structures are
+observed. At higher doping levels (>0.5), a single orthorhombic
+SrMnO3 phase is observed.
+The primary motivation for dopant addition is to stabilize the
+CaMnO3 structure and prevent the formation of stable spinel
+phases at high temperatures. Fig. 5 investigates the in-situ XRD
+of the Sr- and Ba-doped CaMnO3. For the Sr-doped sample, the
+structure of the perovskite phase is maintained even at a high tem-
+perature of 1200 C. To compare, CaMnO3 is decomposed at
+1000 C. Signiﬁcant shift of 2h angles, which are indicative of oxy-
+gen release, begins at approximately 600 C. This is consistent with
+TPD observations. Ca1xBaxMnO3 sample with a low dopant level
+(x = 0.05) was chosen for in-situ XRD due to the difﬁculty to incor-
+porate Ba into the CaMnO3 host structure. As shown in Fig. 5, the
+Ba-doped
+sample,
+similar
+to
+CaMnO3,
+exhibited
+phase
+decomposition at 1000 C. It is therefore concluded that Sr is likely
+to be a more suitable dopant for CaMnO3, since it readily incorpo-
+rates into the host structure and helps to enhance the stability of
+the perovskite phase. Ba-doped samples, on the other hand, do
+not exhibit the desired CLOU properties. This may have resulted
+from the signiﬁcant differences in ionic sizes between Ba2+ and
+Ca2+, which can lead to large lattice distortions and stresses.
+3.5. Redox testing
+CLOU performance of an oxygen carrier can be characterized by
+its oxygen donation properties under cyclic redox conditions. In
+order to determine the oxygen donation properties of the reference
+(CaMnO3) and Sr doped (Ca0.75Sr0.25MnO3) oxygen carrier samples,
+short-term isothermal redox experiments are carried out at 650 C,
+750 C, 850 C, and 950 C. The results are summarized in Fig. 6.
+As can be seen, undoped CaMnO3 does not observe any notice-
+able weight loss at 650 C. Once the temperature reaches 850 C,
+signiﬁcant oxygen release is observed. When the temperature is
+increased even further, the oxygen carrier exhibits even higher
+oxygen donation.
+When doping Sr and Ba into CaMnO3, different phenomena are
+observed. When Ba is doped, there is no indication that the
+Fig. 3. Total oxygen release and initial decomposition temperature comparisons between CaMnO3 and Sr- and Ba-doped synthesized oxygen carriers. Sample weight: 20 mg;
+gas ﬂow rate: 100 mL/min. He (5.0 grade).
+Fig. 4. XRD of various doped CaMnO3 with (a) Sr doping and (b) Ba doping. Phases: (d) SrMnO3, (x) CaMnO3, (N) BaMnO3, and (H) Mn3O4.
+N. Galinsky et al. / Applied Energy 157 (2015) 358–367
+363
+
+
+===== Page 7 =====
+
+material is being reoxidized to any extent at any temperature using
+10% O2. From XRD of the reduced sample, the formation of spinel
+CaMn2O4 phase is observed. This may indicate that Ba could be dis-
+torting the structure to promote the decomposition of the cubic
+CaMnO3
+phase.
+In-situ
+XRD
+(Fig.
+5b)
+also
+corroborates
+the
+formation of spinel and reduced perovskite phases at a lower tem-
+perature than pure CaMnO3. When Sr is doped into the CaMnO3
+structure, it promotes oxygen donation at a much lower tempera-
+ture while still being able to reoxidize. While at 650 C, 0.1 wt.%
+oxygen release is observed. Once the material is heated to 850 and
+950 C, total oxygen release becomes more signiﬁcant. In pure
+CaMnO3, near complete oxidation using 10% oxygen is achieved.
+However, Sr-doped CaMnO3 is only able to restore roughly 99%
+of the initial weight. Each sample was cycled 5 times at each tem-
+perature and no change in performance was observed.
+In chemical looping schemes, long term cycling is important
+due to the need to replenish the solid oxygen carriers over time.
+Fig. 7 examines the Sr-doped perovskite at 850 C for 100
+uncoupling cycles. Over 100 cycles, the material has no observable
+deactivation and is very stable throughout all 100 cycles. After 100
+cycles are performed, oxygen release is still observed at lower
+Fig. 5. In-situ XRD of the (a) Ca0.75Sr0.25MnO3 and (b) Ca0.95Ba0.05MnO3 in argon at a ramping rate of 5 C/min to 1200 C. Gas ﬂow rate: 50 mL/min Ar (grade 5.0).
+Fig. 6. Isothermal weight loss at temperatures between 650 and 950 C. Sample
+weight: 30 mg. Flow rates: reduction step: 30 mL/min He (5.0 grade) and 60 mL/
+min Ar (5.0 grade). Oxidation step: additional 10 mL/min O2 (extra dry grade) added
+to aforementioned gas stream.
+364
+N. Galinsky et al. / Applied Energy 157 (2015) 358–367
+
+
+===== Page 8 =====
+
+temperatures 650 C and 750 C. The oxygen capacity and rate of
+oxygen release at these lower temperatures are comparable to
+what was observed in Fig. 6. XRD analysis shows a small amount
+of SrMnO3 appearing after the 100 cycles (see Fig. S2). However,
+no spinel or Ruddlesden–Popper phases were identiﬁed.
+Initial coal char reactions were conducted in a TGA. Coal char
+was well mixed with the oxygen carrier and placed in the TGA
+and heated to 250 C to remove any moisture. The TGA is then
+heated to 950 C in helium and the reaction is allowed to proceed
+to completion. Fig. 8 examines the results of pure CaMnO3 versus a
+Sr-doped sample. The Sr-doped oxygen carrier has an initial reac-
+tion temperature of approximately 100 C lower compared to the
+undoped CaMnO3 oxygen carrier. Besides the lower reaction tem-
+perature, the Sr-doped has a higher activity in reaching full conver-
+sion of solid char.
+Fluidized bed results are shown in Fig. 9. Examination of the
+solid char cycles of the Ca0.75Sr0.25MnO3 reveals nearly 100% con-
+version of the coal char in every cycle. This is conﬁrmed through
+no observable CO2 during the oxidation step (see Fig. S3). Further
+comparison of the CO2 to CO selectivity reveals around 90%
+selectivity during every cycle. The ﬂuidized bed results conﬁrm
+the viability of the Ca0.75Sr0.25MnO3 oxygen carrier in CLOU
+applications.
+4. Conclusions
+The present study investigates the redox properties of doped
+CaMnO3 as oxygen carriers for CLOU processes. The effects of A-site
+substitution with Sr and Ba dopants on structural stability, oxygen
+carrying capacity, and oxygen donation temperature of the oxygen
+carriers are investigated. The A-site dopants are chosen through
+both a semi-empirical approach and DFT calculations for oxygen
+vacancy formation energy. Ba addition to the CaMnO3 structure
+is found to be ineffective due to the inability of Ba to incorporate
+into the CaMnO3 structure. Sr, on the other hand, is found to form
+homogeneous solid solutions with the CaMnO3 host structure.
+Sr-doped samples are also found to be effective in preventing irre-
+versible decomposition of the parent perovskite structure to the
+Ruddlesden–Popper (Ca2MnO4) and spinel (CaMn2O4) phases.
+Excellent
+stability
+is
+observed
+for
+Sr
+doped
+sample
+(Ca0.75Sr0.25MnO3) through various conditions including heating
+to 1200 C, 100 isothermal redox cycles, and reaction with solid
+fuels. Besides the increased stability of the structure, Sr-doped oxy-
+gen carriers exhibit noticeable oxygen release at signiﬁcantly
+lower temperature than that observed for pure CaMnO3. Due to
+its various advantages compared to undoped CaMnO3, Sr-doped
+CaMnO3 oxygen carrier offers a potentially viable option for solid
+fuel conversion in CLC schemes.
+Acknowledgements
+Funding supports from the U.S. Department of Energy (Award
+Number FE001247) and Illinois Clean Coal Institute (Award
+Number 14/5C-2) are greatly appreciated. We acknowledge the
+use of the Analytical Instrumentation Facility (AIF) at North
+Carolina State University, which is supported by the State of
+North Carolina and the National Science Foundation. We would
+also like to acknowledge Feng He for his help in setting up some
+of the experiments.
+Fig. 7. 100 Cycles at 850 C Ca0.75Sr0.25MnO3 oxygen carrier. Sample weight: 50 mg.
+Gas ﬂow rates: reduction step: 30 mL/min He (5.0 grade) and 60 mL/min Ar (5.0
+grade). Oxidation step: additional 10 mL/min O2 (extra dry grade) added to
+aforementioned inert gas.
+Fig. 8. Char combustion using TGA of pure and Sr-doped CaMnO3. Heating in inert
+to 250 C for drying, then heated at a rate of 20 C/min in helium to 950 C. Sample
+weight: 20 mg for the oxygen carrier and 0.2 mg of coal char. Gas ﬂow rates:
+100 mL/min He (5.0 grade).
+Fig. 9. Char conversion and CO2 selectivity of the Ca0.75Sr0.25MnO3 oxygen carrier in
+a ﬂuidized bed reactor. Sample weight: 17 g. Ca0.75Sr0.25MnO3 and 10 mg of char
+temperature: 850 C gas ﬂow rates: nitrogen: 800 mL/min (grade 5.0) and helium
+(grade 5.0): 280 mL/min (char reduction) and oxygen (extra dry grade): 120 mL/
+min (during oxidation only).
+N. Galinsky et al. / Applied Energy 157 (2015) 358–367
+365
+
+
+===== Page 9 =====
+
+Appendix A. Supplementary material
+Supplementary data associated with this article can be found, in
+the online version, at http://dx.doi.org/10.1016/j.apenergy.2015.
+04.020.
+References
+[1] Figueroa JD, Fout T, Plasynski S, McIlvried H, Srivastava RD. Advances in CO2
+capture technology—the U S. Department of Energy’s Carbon Sequestration
+Program. Int J Greenh Gas Con 2008;2:9–20. http://dx.doi.org/10.1016/S1750-
+5836(07)00094-.
+[2] Hansen J, Sato M. Greenhouse gas growth rates. Proc Natl Acad Sci USA
+2004;101:16109–14.
+[3] Adanez J, Abad A, Garcia-Labiano F, Gayan P, de Diego LF. Progress in chemical-
+looping combustion and reforming technologies. Prog Energy Combust
+2012;38:215–82. http://dx.doi.org/10.1016/j.pecs.2011.09.001.
+[4] Fan L-S, Li F. Chemical looping technology and its fossil energy conversion
+applications. Ind Eng Chem Res 2010;49:10200–11. http://dx.doi.org/10.1021/
+ie1005542.
+[5] Fan L-S. Chemical looping systems for fossil energy conversions; 2010.
+[6] Lyngfelt
+A.
+Chemical-looping
+combustion
+of
+solid
+fuels
+–
+status
+of
+development.
+Appl
+Energy
+2014;113:1869–73.
+http://dx.doi.org/10.1016/
+j.apenergy.2013.05.043.
+[7] Sorgenfrei M, Tsatsaronis G. Design and evaluation of an IGCC power plant
+using iron-based syngas chemical-looping (SCL) combustion. Appl Energy
+2014;113:1958–64. http://dx.doi.org/10.1016/j.apenergy.2013.03.089.
+[8] Tong A, Bayham S, Kathe MV, Zeng L, Luo S, Fan L-S. Iron-based syngas
+chemical
+looping
+process
+and
+coal-direct
+chemical
+looping
+process
+development at Ohio State University. Appl Energy 2014;113:1836–45.
+http://dx.doi.org/10.1016/j.apenergy.2013.05.024.
+[9] Scott SA, Dennis JS, Hayhurst AN, Brown T. In situ gasiﬁcation of a solid fuel and
+CO2 separation using chemical looping. AIChE J 2006;52:3325–8. http://
+dx.doi.org/10.1002/aic.10942.
+[10] Leion H, Mattisson T, Lyngfelt A. The use of petroleum coke as fuel in chemical-
+looping
+combustion.
+Fuel
+2007;86:1947–58.
+http://dx.doi.org/10.1016/
+j.fuel.2006.11.037.
+[11] Luo S, Bayham S, Zeng L, McGiveron O, Chung E, Majumder A, et al. Conversion
+of metallurgical coke and coal using a Coal Direct Chemical Looping (CDCL)
+moving bed reactor. Appl Energy 2014;118:300–8. http://dx.doi.org/10.1016/
+j.apenergy.2013.11.068.
+[12] Cuadrat A, Linderholm C, Abad A, Lyngfelt A, Adánez J. Inﬂuence of limestone
+addition in a 10 kWth chemical-looping combustion unit operated with
+petcoke. Energy Fuel 2011;25:4818–28. http://dx.doi.org/10.1021/ef200806q.
+[13] Linderholm C, Lyngfelt A, Cuadrat A, Jerndal E. Chemical-looping combustion
+of solid fuels – operation in a 10 kW unit with two fuels, above-bed and in-bed
+fuel feed and two oxygen carriers, manganese ore and ilmenite. Fuel
+2012;102:808–22. http://dx.doi.org/10.1016/j.fuel.2012.05.010.
+[14] Leion H, Mattisson T, Lyngfelt A. Solid fuels in chemical-looping combustion.
+Int
+J
+Greenh
+Gas
+Con
+2008;2:180–93.
+http://dx.doi.org/10.1016/S1750-
+5836(07)00117-X.
+[15] Arjmand M, Leion H, Mattisson T, Lyngfelt A. Investigation of different
+manganese ores as oxygen carriers in chemical-looping combustion (CLC) for
+solid
+fuels.
+Appl
+Energy
+2014;113:1883–94.
+http://dx.doi.org/10.1016/
+j.apenergy.2013.06.015.
+[16] Shen L, Wu J, Xiao J. Experiments on chemical looping combustion of coal with
+a
+NiO
+based
+oxygen
+carrier.
+Combust
+Flame
+2009;156:721–8.
+http://
+dx.doi.org/10.1016/j.combustﬂame.2008.08.004.
+[17] Shen L, Wu J, Xiao J, Song Q, Xiao R. Chemical-looping combustion of biomass
+in a 10 kWth reactor with iron oxide as an oxygen carrier. Energy Fuel
+2009;23:2498–505. http://dx.doi.org/10.1021/ef900033n.
+[18] Mattisson T, Lyngfelt A, Leion H. Chemical-looping with oxygen uncoupling for
+combustion of solid fuels. Int J Greenh Gas Con 2009;3:11–9. http://dx.doi.org/
+10.1016/j.ijggc.2008.06.002.
+[19] Mattisson T. Materials for chemical-looping with oxygen uncoupling. ISRN
+Chem Eng 2013;2013:1–19. http://dx.doi.org/10.1155/2013/526375.
+[20] Imtiaz Q, Hosseini D, Müller CR. Review of oxygen carriers for chemical
+looping
+with
+oxygen
+uncoupling
+(CLOU):
+thermodynamics,
+material
+development,
+and
+synthesis.
+Energy
+Technol
+2013;1:633–47.
+http://
+dx.doi.org/10.1002/ente.201300099.
+[21] Azimi G, Leion H, Mattisson T, Lyngfelt A. Chemical-looping with oxygen
+uncoupling using combined Mn–Fe oxides, testing in batch ﬂuidized bed.
+Energy Proc 2011;4:370–7. http://dx.doi.org/10.1016/j.egypro.2011.01.064.
+[22] Azimi G, Leion H, Rydén M, Mattisson T, Lyngfelt A. Investigation of different
+Mn–Fe oxides as oxygen carrier for chemical-looping with oxygen uncoupling
+(CLOU). Energy Fuel 2013;27:367–77. http://dx.doi.org/10.1021/ef301120r.
+[23] Shaﬁefarhood A, Stewart A, Li F. Iron-containing mixed-oxide composites as
+oxygen carriers for chemical looping with oxygen uncoupling (CLOU). Fuel
+2015;139:1–10. http://dx.doi.org/10.1016/j.fuel.2014.08.014.
+[24] Shulman
+A,
+Cleverstam
+E,
+Mattisson
+T,
+Lyngfelt
+A.
+Manganese/iron,
+manganese/nickel, and manganese/silicon oxides used in chemical-looping
+with oxygen uncoupling (CLOU) for combustion of methane. Energy Fuel
+2009;23:5269–75. http://dx.doi.org/10.1021/ef9005466.
+[25] Shulman A, Cleverstam E, Mattisson T, Lyngfelt A. Chemical – looping with
+oxygen uncoupling using Mn/Mg-based oxygen carriers – oxygen release and
+reactivity with methane. Fuel 2011;90:941–50. http://dx.doi.org/10.1016/
+j.fuel.2010.11.044.
+[26] Arjmand M, Azad A-M, Leion H, Lyngfelt A, Mattisson T. Prospects of Al2O3 and
+MgAl2O4-supported CuO oxygen carriers in chemical-looping combustion
+(CLC) and chemical-looping with oxygen uncoupling (CLOU). Energy Fuel
+2011;25:5493–502. http://dx.doi.org/10.1021/ef201329x.
+[27] Arjmand M, Keller M, Leion H, Mattisson T, Lyngfelt A. Oxygen release and
+oxidation rates of MgAl2O4-supported CuO oxygen carrier for chemical-
+looping
+combustion
+with
+oxygen
+uncoupling
+(CLOU).
+Energy
+Fuel
+2012;26:6528–39. http://dx.doi.org/10.1021/ef3010064.
+[28] Gayán P, Adánez-Rubio I, Abad A, de Diego LF, García-Labiano F, Adánez J.
+Development of Cu-based oxygen carriers for chemical-looping with oxygen
+uncoupling (CLOU) process. Fuel 2012;96:226–38. http://dx.doi.org/10.1016/
+j.fuel.2012.01.021.
+[29] Pour NM, Azimi G, Leion H, Rydén M, Lyngfelt A. Production and examination
+of oxygen-carrier materials based on manganese ores and Ca(OH)2 in chemical
+looping with oxygen uncoupling. AIChE J 2014;60:645–56. http://dx.doi.org/
+10.1002/aic.14273.
+[30] Rydén M, Leion H, Mattisson T, Lyngfelt A. Combined oxides as oxygen-carrier
+material
+for
+chemical-looping
+with
+oxygen
+uncoupling.
+Appl
+Energy
+2014;113:1924–32. http://dx.doi.org/10.1016/j.apenergy.2013.06.016.
+[31] Arjmand M, Hedayati A, Azad A-M, Leion H, Rydén M, Mattisson T.
+CaxLa1xMn1yMyO3d
+(M = Mg,
+Ti,
+Fe,
+or
+Cu)
+as
+oxygen
+carriers
+for
+chemical-looping with oxygen uncoupling (CLOU). Energy Fuel 2013. http://
+dx.doi.org/10.1021/ef3020102.
+[32] Arjmand M, Kooiman RF, Rydén M, Leion H, Mattisson T, Lyngfelt A. Sulfur
+tolerance of CaxMn1yMyO3d (M = Mg, Ti) perovskite-type oxygen carriers in
+chemical-looping
+with
+oxygen
+uncoupling
+(CLOU).
+Energy
+Fuel
+2014;28:1312–24. http://dx.doi.org/10.1021/ef402383v.
+[33] Hallberg P, Jing D, Rydén M, Mattisson T, Lyngfelt A. Chemical looping
+combustion and chemical looping with oxygen uncoupling experiments in a
+batch reactor using spray-dried CaMn1xMxO3d (M = Ti, Fe, Mg) particles as
+oxygen carriers. Energy Fuel 2013;27:1473–81. http://dx.doi.org/10.1021/
+ef3013618.
+[34] Leion H, Larring Y, Bakken E, Bredesen R, Mattisson T, Lyngfelt A. Use of
+CaMn0.875Ti0.125O3
+as
+oxygen
+carrier
+in
+chemical-looping
+with
+oxygen
+uncoupling.
+Energy
+Fuel
+2009;23:5276–83.
+http://dx.doi.org/10.1021/
+ef900444d.
+[35] Rydén M, Lyngfelt A, Mattisson T. CaMn0.875Ti0.125O3 as oxygen carrier for
+chemical-looping combustion with oxygen uncoupling (CLOU)—experiments
+in a continuously operating ﬂuidized-bed reactor system. Int J Greenh Gas Con
+2011;5:356–66. http://dx.doi.org/10.1016/j.ijggc.2010.08.00.
+[36] Sundqvist S, Leion H, Rydén M, Lyngfelt A, Mattisson T. CaMn0875Ti0.125O3d as
+an oxygen carrier for chemical-looping with oxygen uncoupling (CLOU)-solid-
+fuel testing and sulfur interaction. Energy Technol 2013;1:338–44. http://
+dx.doi.org/10.1002/ente.20130000.
+[37] Källén M, Rydén M, Dueso C, Mattisson T, Lyngfelt A. CaMn0.9Mg0.1O3d as
+oxygen carrier in a gas-ﬁred 10 kWth chemical-looping combustion unit. Ind
+Eng Chem Res 2013;52:6923–32. http://dx.doi.org/10.1021/ie303070h.
+[38] Pishahang M, Larring Y, McCann M, Bredesen R. Ca0.9Mn0.5Ti0.5O3d: a suitable
+oxygen carrier material for ﬁxed-bed chemical looping combustion under
+syngas conditions. Ind Eng Chem Res 2014;53:10549–56. http://dx.doi.org/
+10.1021/ie500928m.
+[39] Moldenhauer P, Rydén M, Mattisson T, Hoteit A, Jamal A, Lyngfelt A. Chemical-
+looping combustion with fuel oil in a 10 kW pilot plant. Energy Fuel
+2014;28:5978–87. http://dx.doi.org/10.1021/ef5014677.
+[40] Dai XP, Li J, Fan JT, Wei WS, Xu J. Synthesis gas generation by chemical-looping
+reforming in a circulating ﬂuidized bed reactor using perovskite LaFeO3-based
+oxygen carriers. Ind Eng Chem Res 2012;51:11072–82. http://dx.doi.org/
+10.1021/ie300033e.
+[41] He F, Li X, Zhao K, Huang Z, Wei G, Li H. The use of La1xSrxFeO3 perovskite-
+type oxides as oxygen carriers in chemical-looping reforming of methane. Fuel
+2013;108:465–73. http://dx.doi.org/10.1016/j.fuel.2012.11.035.
+[42] Mihai O, Chen D, Holmen A. Chemical looping methane partial oxidation: the
+effect of the crystal size and O content of LaFeO3. J Catal 2012;293:175–85.
+http://dx.doi.org/10.1016/j.jcat.2012.06.022.
+[43] Murugan A, Thursﬁeld A, Metcalfe IS. A chemical looping process for hydrogen
+production
+using
+iron-containing
+perovskites.
+Energy
+Environ
+Sci
+2011;4:4639. http://dx.doi.org/10.1039/c1ee02142g.
+[44] Readman JE, Olafsen A, Larring Y, Blom R. La0.8Sr0.2Co0.2Fe0.8O3d as a potential
+oxygen carrier in a chemical looping type reactor, an in-situ powder X-ray
+diffraction study. J Mater Chem 2005;15:1931. http://dx.doi.org/10.1039/
+b416526h.
+[45] Rydén M, Lyngfelt A, Mattisson T, Chen D, Holmen A, Bjørgum E. Novel oxygen-
+carrier materials for chemical-looping combustion and chemical-looping
+reforming; LaxSr1xFeyCo1yO3d perovskites and mixed-metal oxides of NiO,
+Fe2O3 and Mn3O4. Int J Greenh Gas Con 2008;2:21–36. http://dx.doi.org/
+10.1016/S1750-5836(07)00107-7.
+[46] Sarshar Z, Sun Z, Zhao D, Kaliaguine S. Development of sinter-resistant core–
+shell LaMnxFe1xO3@mSiO2 oxygen carriers for chemical looping combustion.
+Energy Fuel 2012;26:3091–102. http://dx.doi.org/10.1021/ef3003137.
+366
+N. Galinsky et al. / Applied Energy 157 (2015) 358–367
+
+
+===== Page 10 =====
+
+[47] Zhao K, He F, Huang Z, Zheng A, Li H, Zhao Z. Three-dimensionally ordered
+macroporous LaFeO3 perovskites for chemical-looping steam reforming of
+methane. Int J Hydrogen Energy 2014;39:3243–52. http://dx.doi.org/10.1016/
+j.ijhydene.2013.12.046.
+[48] Sarshar Z, Kleitz F, Kaliaguine S. Novel oxygen carriers for chemical looping
+combustion: La1xCexBO3 (B = Co, Mn) perovskites synthesized by reactive
+grinding
+and
+nanocasting.
+Energy Environ
+Sci
+2011;4:4258–69.
+http://
+dx.doi.org/10.1039/C1EE01716K.
+[49] Noorman S, Gallucci F, Van Sint Annaland M, Kuipers JAM. Experimental
+investigation of chemical-looping combustion in packed beds: a parametric
+study.
+Ind
+Eng
+Chem
+Res
+2011;50:1968–80.
+http://dx.doi.org/10.1021/
+ie1019112.
+[50] Chen Y, Galinsky N, Wang Z, Li F. Investigation of perovskite supported
+composite
+oxides
+for
+chemical
+looping
+conversion
+of
+syngas.
+Fuel
+2014;134:521–30. http://dx.doi.org/10.1016/j.fuel.2014.06.017.
+[51] Galinsky NL, Huang Y, Shaﬁefarhood A, Li F. Iron oxide with facilitated O2
+transport for facile fuel oxidation and CO2 capture in a chemical looping
+scheme. ACS Sustain Chem Eng 2013;1:364–73. http://dx.doi.org/10.1021/
+sc300177j.
+[52] Shaﬁefarhood A, Galinsky N, Huang Y, Chen Y, Li F. Fe2O3@LaxSr1xFeO3 core–
+shell
+redox
+catalyst
+for
+methane
+partial
+oxidation.
+ChemCatChem
+2014;6:790–9. http://dx.doi.org/10.1002/cctc.201301104.
+[53] Neal LM, Shaﬁefarhood A, Li F. Dynamic methane partial oxidation using a
+Fe2O3@La0.8Sr0.2FeO3d core–shell redox catalyst in the absence of gaseous
+oxygen. ACS Catal 2014;4:3560–9. http://dx.doi.org/10.1021/cs500841.
+[54] Galinsky NL, Shaﬁefarhood A, Chen Y, Neal L, Li F. Effect of support on redox
+stability of iron oxide for chemical looping conversion of methane. Appl Catal
+B – Environ 2015;164:371–9. http://dx.doi.org/10.1016/j.apcatb.2014.09.023.
+[55] Peña MA, Fierro JLG. Chemical structures and performance of perovskite
+oxides. Chem Rev 2001;101:1981–2018. http://dx.doi.org/10.1021/cr980129f.
+[56] He F, Trainham J, Parsons G, Newman JS, Li F. A hybrid solar-redox scheme for
+liquid fuel and hydrogen coproduction. Energy Environ Sci 2014;7:2033.
+http://dx.doi.org/10.1039/c4ee00038b.
+[57] Jing D, Mattisson T, Leion H, Rydén M, Lyngfelt A. Examination of perovskite
+structure CaMnO3d with MgO addition as oxygen carrier for chemical looping
+with oxygen uncoupling using methane and syngas. Int J Chem Eng
+2013;2013:1–16. http://dx.doi.org/10.1155/2013/679560.
+[58] Bakken E, Norby T, Stolen S. Nonstoichiometry and reductive decomposition of
+CaMnO3d. Solid State Ionics 2005;176:217–23. http://dx.doi.org/10.1016/
+j.ssi.2004.07.001.
+[59] Cabello A, Abad A, Gayán P, de Diego LF, García-Labiano F, Adánez J. Effect of
+operating
+conditions
+and
+H2S
+presence
+on
+the
+performance
+of
+CaMg0.1Mn0.9O3d perovskite material in chemical looping combustion (CLC).
+Energy Fuel 2014;28:1262–74. http://dx.doi.org/10.1021/ef402071.
+[60] Fossdal A, Bakken E, Øye BA, Schøning C, Kaus I, Mokkelbost T, et al. Study of
+inexpensive oxygen carriers for chemical looping combustion. Int J Greenh Gas
+Con 2011;5:483–8. http://dx.doi.org/10.1016/j.ijggc.2010.08.001.
+[61] Hallberg P, Källén M, Jing D, Snijkers F, van Noyen J, Rydén M, et al.
+Experimental investigation of CaMnO3d based oxygen carriers used in
+continuous chemical-looping combustion. Int J Chem Eng 2014;2014:1–9.
+http://dx.doi.org/10.1155/2014/412517.
+[62] Kresse G, Hafner J. Ab initio molecular dynamics for open-shell transition
+metals. Phys Rev B 1993;48:13115–8. http://dx.doi.org/10.1103/PhysRevB.48.
+13115.
+[63] Kresse G, Hafner J. Ab initio molecular-dynamics simulation of the liquid-
+metal–amorphous-semiconductor
+transition
+in
+germanium.
+Phys
+Rev
+B
+1994;49:14251–69. http://dx.doi.org/10.1103/PhysRevB.49.14251.
+[64] Blöchl PE. Projector augmented-wave method. Phys Rev B 1994;50:17953–79.
+http://dx.doi.org/10.1103/PhysRevB.50.17953.
+[65] Kresse G. From ultrasoft pseudopotentials to the projector augmented-wave
+method. Phys Rev B 1999;59:1758–75. http://dx.doi.org/10.1103/PhysRevB.
+59.1758.
+[66] Perdew JP, Burke K, Ernzerhof M. Generalized gradient approximation made
+simple. Phys Rev Lett 1996;77:3865–8. http://dx.doi.org/10.1103/PhysRevLett.
+77.3865.
+[67] Bhalla AS, Guo R, Roy R. The perovskite structure – a review of its role in
+ceramic science and technology. Mater Res Innov 2000;4:3–26. http://
+dx.doi.org/10.1007/s100190000062.
+[68] Lufaso MW, Woodward PM. Prediction of the crystal structures of perovskites
+using the software program SPuDS. Acta Crystallogr B 2001;57:725–38. http://
+dx.doi.org/10.1107/S0108768101015282.
+[69] Dabrowski B, Chmaissem O, Mais J, Kolesnik S, Jorgensen JD, Short S. Tolerance
+factor
+rules
+for
+Sr1xyCaxBayMnO3
+perovskites.
+J
+Solid
+State
+Chem
+2003;170:154–64. http://dx.doi.org/10.1016/S0022-4596(02)00056-7.
+N. Galinsky et al. / Applied Energy 157 (2015) 358–367
+367

@@ -1,0 +1,1391 @@
+
+
+===== Page 1 =====
+
+Journal of Energy Storage 53 (2022) 105175
+Available online 27 June 2022
+2352-152X/© 2022 Elsevier Ltd. All rights reserved.
+Research papers 
+Reassessment of thermochemical energy storage in perovskite-like 
+manganites at comparative studies of RP SrCa3Mn3O10-δ vs. orthorhombic 
+Sr0.25Ca0.75MnO3-δ 
+E.A. Antipinskaya a, B.V. Politov a,*, S.A. Petrova b, V.P. Zhukov a, E.V. Chulkov c,d, 
+A.Yu. Suntsov a, V.L. Kozhevnikov a 
+a Institute of Solid State Chemistry, Ural Branch RAS, Yekaterinburg, Russia 
+b Institute of Metallurgy UB RAS, Yekaterinburg, Russia 
+c Donostia International Physics Center, San Sebastian, Spain 
+d Departamento de Fisica de Materiales, Facultad de Quimica, San Sebastian, Spain   
+A R T I C L E  I N F O   
+Keywords: 
+Perovskite-like manganites 
+Thermochemical energy storage 
+Defect chemistry 
+DFT calculations 
+Oxygen intercalation thermodynamics 
+Cycling stability tests 
+A B S T R A C T   
+The structural stability, thermal expansion, oxygen exchange thermodynamics, and thermochemical storage 
+(TCS) capacity of perovskite-like Sr0.25Ca0.75MnO3-δ and Ruddlesden-Popper SrCa3Mn3O10-δ manganites are 
+studied by the combined use of experimental techniques, thermodynamic modeling of the defect formation re­
+actions, and energy calculations utilizing density functional theory (DFT). It is argued that conservative estimates 
+of the storage capacity can be made by the use of the Dulong-Petit limit for high-temperature heat capacity and 
+oxygen partial enthalpy independent of both temperature and oxygen content. The respectively recalculated 
+literature data and the obtained results show that the thermodynamic limit for the TCS capacity (~800 kJ/kg) of 
+Sr0.25Ca0.75MnO3-δ is one of the highest at thermal cycling within the oxygen partial pressure range of 10 
+−4–0.21 atm. At the same time, the storage capacity of SrCa3Mn3O10-δ achieves only about 600 kJ/kg. The TCS 
+cycling tests demonstrate the stability of SrCa3Mn3O10-δ while a decline in the energy storage capacity is 
+observed for Sr0.25Ca0.75MnO3-δ. According to the EDX analysis, this effect may reflect surface degradation of 
+Sr0.25Ca0.75MnO3-δ. The energy storage capacities of SrCa3Mn3O10-δ and Sr0.25Ca0.75MnO3-δ decrease to 510 and 
+560 kJ/kg, respectively, because of the rather sluggish reduction kinetics. It is concluded that further 
+improvement of manganites as energy storage materials can be achieved using new doping strategies.   
+1. Introduction 
+The thermochemical storage of solar energy (TCS) is considered a 
+promising approach to address the problem of intermittent operation of 
+solar energy-based plants [1–5]. The technology rests on the capture of 
+heat energy by an oxide material at elevated temperatures, followed by 
+the release of the stored energy at backward oxidation when the tem­
+perature is decreased. As a result, the cyclic energy capture/release can 
+be used to smooth out the peaks of energy consumption. This method is 
+distinguished by the higher density of the stored energy and a wider 
+temperature range of use compared to the storage of sensible and latent 
+heat [4]. Owing to the inherent simplicity, the TCS is more robust and 
+less expensive to implement than the battery technology commonly 
+applied in photovoltaic plants [6]. The main function of the TCS unit 
+coupled with an electric power plant is to accumulate the excess heat 
+produced throughout the day and release the stored energy into the 
+energy generating cycle for continuous operation of the plant. The en­
+ergy storage capacities of perovskite-like manganites SrxCa1-xMnO3–δ 
+have been found to be particularly appealing [7,8]. These oxides evince 
+a promising properties' combination as they are cheap, non-toxic, stable 
+under TCS conditions, and exhibit a significant density of chemical en­
+ergy associated with oxidation of manganese ions Mn3+ → Mn4+ and 
+filling of oxygen vacancies in the crystal lattice at 500–1100 ◦C. Similar 
+to the doping of Mn sites [9], the strontium incorporation in the Ca sub- 
+lattice thwarts the tendency of CaMnO3–δ to phase transition above 900 
+◦C [10]. Additionally, it favors enhanced oxidation/reduction kinetics 
+and enlarged oxygen non-stoichiometry (δ) at elevated temperatures 
+[11]. Alternative attempts at developing more advanced TCS materials 
+* Corresponding author. 
+E-mail address: politoffboris@yandex.com (B.V. Politov).  
+Contents lists available at ScienceDirect 
+Journal of Energy Storage 
+journal homepage: www.elsevier.com/locate/est 
+https://doi.org/10.1016/j.est.2022.105175 
+Received 21 February 2022; Received in revised form 16 May 2022; Accepted 18 June 2022   
+
+
+===== Page 2 =====
+
+Journal of Energy Storage 53 (2022) 105175
+2
+based on the use of other dopants or combined doping of Ca and Mn sub- 
+lattices have not resulted in any significant improvement in functional 
+characteristics. Most possibly, it occurs because dopants either do not 
+change or even decrease the concentration of electroactive manganese 
+cations. Respectively, it is interesting to consider compounds with a 
+larger concentration of manganese in the crystal lattice, e.g., CaMn2O4 
+with a marokite structure type [12]. This manganite is characterized by 
+a higher concentration of manganese (28.6 % at) compared to CaMnO3 
+(20 % at), and all manganese cations are in the 3+ oxidation state. These 
+features potentially benefit considerable oxidation enthalpy because 
+reduction of Mn3+ to Mn2+ takes a lot of energy [13]. Unfortunately, the 
+structure of CaMn2O4 formed by edge-sharing MnO6 octahedra is un­
+favorable for a wide homogeneous range of oxygen content [12]. Hence, 
+the chemical contribution to the stored energy in this manganite is 
+small. Alternatively, one can try to use manganites with the increased 
+oxidation enthalpy for Mn3+ cations even if their concentration is 
+somewhat smaller than in CaMnO3–δ. The larger oxidation enthalpy, i.e., 
+enhanced Mn – O bonding, can be attained by the insertion of additional 
+CaO structural units in perovskite-like framework of CaMnO3. Indeed, 
+the experimentally observed value of −222 kJ⋅mol−1 for Ca2MnO4–δ is 
+considerably larger compared to the oxidation enthalpy of −178 
+kJ⋅mol−1 in CaMnO3-δ [14]. Therefore, the available data suggests that 
+the strontium doped manganites Can+1MnnO3n+1–δ (n = 1, 2, or 3) in the 
+Ruddlesden-Popper (RP) series may be promising for TCS applications. 
+To the best of our knowledge, no study has been conducted yet on en­
+ergy storage and high-temperature oxygen exchange thermodynamics in 
+layered manganites. In selecting which member of the RP series may 
+better fit the TCS demands, Ca4Mn3O10-δ attracts attention because thick 
+(CaMnO3–δ)3 slabs are expected to tolerate wide variations of oxygen 
+content, and the value of Ca/Mn = 4/3 is fairly close to the ratio Ca/Mn 
+= 1 in CaMnO3–δ. On the other hand, the sheets of CaO that keep the 
+quasi-2D crystalline lattice in Ca4Mn3O10–δ may favorably influence the 
+energy characteristics and mobility of the labile oxygen [15]. Another 
+advantageous feature of Ca4Mn3O10–δ is that the incorporation of 
+strontium in the n = 3 RP structure enables a well-ordered phase with a 
+minimal concentration of stacking and intergrowth defects, which can 
+interfere with obtaining unambiguous results [16]. With the above 
+consideration, we resolved to carry out a contrasting study of the ther­
+mochemical energy storage properties and oxygen exchange thermo­
+dynamics in the strontium substituted layered RP manganite 
+SrCa3Mn3O10–δ and the perovskite-like Sr0.25Ca0.75MnO3-δ with the same 
+Ca/Sr = 3/1 ratio. 
+Considering the obtained results and literature data, we argue that 
+the conservative approach based on the Dulong–Petit limit for heat ca­
+pacity and permanent oxygen enthalpy results in a viable evaluation of 
+the thermodynamic maximum for the energy storage capacity in man­
+ganites. Despite having superior TCS characteristics, manganites require 
+further development to ensure fast reduction and oxidation kinetics and 
+good reversibility during redox cycling. 
+2. Methods 
+2.1. Synthesis and characterization 
+The samples were synthesized by a sol-gel technique from high- 
+purity grade CaCO3 (99 + %), SrCO3 (99.9 + %) and Mn2O3 (99.9 +
+%). The starting materials were pre-heated at 523 K for 2 h in order to 
+remove adsorbates, weighed in desirable proportions, and dissolved in a 
+light excess of 2 M HNO3 (99.5 %). The obtained solutions were mixed 
+together and added with glycine (99 %) in an amount sufficient for the 
+reduction of chemically bound nitrogen to a gaseous state. Then, the 
+liquor was heated on a hot plate, resulting in the formation of a gel. The 
+gel was dried at 573 K, and then heated at 1173 K for 10 h in order to 
+remove 
+carbonaceous 
+residues. 
+The 
+obtained 
+precursor 
+of 
+SrCa3Mn3O10–δ was carefully ground, pelletized under a uniaxial load of 
+1 kbar, fired at 1673 K for 75 h in the air with three intermittent 
+grindings in ethanol media and repelletizations, and furnace cooled to 
+room temperature. Sr0.25Ca0.75MnO3–δ was fired in the air for 10 h at 
+1473 K, followed by slow cooling. Some parts of the obtained materials 
+were pulverized for further experiments. 
+Powder X-ray diffraction (XRD) in Bragg-Brentano mode at room 
+temperature was used for phase purity control and structure determi­
+nation of the synthesized materials. A Shimadzu XRD-7000 diffrac­
+tometer (Cu-Kα radiation) was used to collect data in the 2Θ range of 
+10–90◦with a 0.03◦step size and a 5 s acquisition time. Another set of 
+data from room temperature to 1200 K in the air was obtained for the 
+SrCa3Mn3O10–δ sample with the help of a D8 Advance diffractometer 
+equipped with a high-temperature chamber HTK 1200 N and a position 
+sensitive detector VÅNTEC-1. The XRD spectra were taken in the 2Θ 
+range of 8–137◦with a 0.021◦step size, a heating rate of 0.5◦/min, a 
+temperature step of 10◦, and an acquisition time of 493 s at each tem­
+perature. Rietveld profile refinement of the data was performed using 
+the FullProf calculation package [17]. The behavior of the synthesized 
+materials at heating in various gas media was studied with the help of a 
+TG-DTA-92 (Setaram) thermoanalyzer. Initially, weighed portions of the 
+studied compounds were heated in the air to 1223 K, after which they 
+were slowly cooled to 423 K and kept at this temperature for 5 h in order 
+to circumvent the effect of trace amounts of moisture on the results of 
+the experiment. The resulting mass (m0) was further taken as a refer­
+ence. Then, the hydrogen purge was switched on and the samples were 
+heated to 1223 K, followed by a 10 h dwell. Cyclic tests were carried out 
+using a program that switched the gas medium from synthetic air to Ar 
+(>99.99 %), and adjusted the temperature regime accordingly. 
+The oxygen content changes in the oxides in conditions with varied 
+temperature and oxygen partial pressure were measured by the coulo­
+metric titration technique within 973–1223 K. The experimental setup 
+and measurement features can be found elsewhere [18,19]. Morpho­
+logical studies were conducted by using scanning electron microscopy 
+(SEM, JEOL JSM 6390-LA). The chemical analysis was performed along 
+with the morphological studies by energy dispersive X-ray spectroscopy 
+(EDX, EX-23010BU) at an acceleration voltage of 20 kV. 
+2.2. Computational approach 
+The density functional theory (DFT) based calculations were per­
+formed with the VASP simulation package [20] in order to assess the 
+energy characteristics of the crystalline lattices of perovskite-like man­
+ganites with different Ca–Sr configurations. The technical details can be 
+found in Supplements. The initial atomic coordinates and elementary 
+cell parameters were taken from [16,21]. In the first stage, DFT calcu­
+lations were performed in order to optimize elementary cell parameters 
+in Sr-free tetragonal Ca4Mn3O10 and a 1 × 1 × 2 supercell of ortho­
+rhombic CaMnO3. Then, the optimized cells were partially modified as 
+shown in Fig. 1 by replacing two calcium atoms with strontium atoms 
+according 
+to 
+the 
+formal 
+stoichiometries 
+SrCa3Mn3O10 
+and 
+Sr0.25Ca0.75MnO3, respectively. In the RP phase, strontium atoms were 
+placed in rock–salt layers and perovskite–like slabs, Fig. 1(a), and Fig. 1 
+(b), respectively. In the case of CaMnO3, strontium atoms were either 
+next to each other or spaced apart as depicted in Fig. 1(c) and Fig. 1(d), 
+respectively. 
+The resulting supercells, optimized according to the forces acting on 
+ions, were further employed for the calculations of oxygen vacancy 
+formation enthalpies ΔHf(VO) in i-th crystallographic position and 
+different cation coordinations as 
+ΔHf(VO) = 1
+N
+(
+Etot
+def −Etot
+pr
+)
++ 1
+2 ΔhO2
+(1)  
+where Edef
+tot and Epr
+tot stand for the total energy per formula unit of the 
+manganites with and without N oxygen vacancies, respectively, and 
+ΔhO2 = 10.5 eV is the enthalpy of gaseous molecular oxygen at 1000 K 
+[22]. 
+E.A. Antipinskaya et al.                                                                                                                                                                                                                       
+
+
+===== Page 3 =====
+
+Journal of Energy Storage 53 (2022) 105175
+3
+3. Results and discussion 
+3.1. Structural features 
+The X-ray diffraction spectra in Fig. 2 give evidence of the formation 
+of single–phase Sr0.25Ca0.75MnO3–δ and SrCa3Mn3O10–δ specimens. The 
+obtained set of reflections was unambiguously ascribed to orthorhombic 
+(S.G. Pnma) and tetragonal (S.G. I/4 mmm) symmetry for the elementary 
+cell of Sr0.25Ca0.75MnO3–δ and SrCa3Mn3O10–δ oxides, respectively. The 
+refined elementary cell parameters in Table 1 are close to those observed 
+in works [16,23] for similar compounds. The Rietveld refinement results 
+for SrCa3Mn3O10–δ show a strong preference for strontium atoms to 
+occupy Ca1 positions in perovskite–like slabs, as shown in Table 1. 
+This conclusion is corroborated by DFT calculations showing about 
+100 kJ/mol less energy for the structure in Fig. 1(b) compared to the one 
+in Fig. 1(a). This observation is also supported by a very good coinci­
+dence of the experimental and calculated elementary cell parameters. 
+Quite differently, strontium atoms in Sr0.25Ca0.75MnO3 are not expected 
+to exhibit positional preference in the crystal lattice as the energy dif­
+ference between the supercells in Fig. 1(c) and (d) does not exceed 10 
+kJ/mol. Therefore, the energy-based arguments confirm the random 
+distribution of Sr dopants over Ca sites in Sr0.25Ca0.75MnO3–δ and rein­
+force the X-ray diffraction results. The preferential location of the Sr 
+impurity in RP–manganite is most likely due to strontium's large ionic 
+radius. As a result, the residence of 9-fold coordinated calcium in rock- 
+salt layers is accompanied by pronounced local deformations, while the 
+replacement of calcium in 12-fold coordination in perovskite-like slabs 
+is less energy demanding. This is not the case for the perovskite-like 
+manganite, where oxygen always coordinates Ca/Sr– positions 
+12–fold, favoring a randomized distribution of Sr and Ca in 
+Sr0.25Ca0.75MnO3. 
+The materials for high-temperature applications are supposed to be 
+thermally robust. The respective studies of phase and thermodynamic 
+stability of manganites in the series Sr1-xCaxMnO3-δ were carried out 
+earlier in works [24,25], where the orthorhombic structure of 
+Sr0.25Ca0.75MnO3–δ was found to exist at wide variations of temperature 
+and oxygen partial pressure. At the same time, little is known about the 
+stability limits of RP– manganite SrCa3Mn3O10–δ. In order to eliminate 
+this deficiency, we performed X – ray diffraction experiments at elevated 
+temperatures. The obtained data is presented in Fig. 3. It is seen that 
+heating in the air up to 1500 K is not accompanied by structural tran­
+sitions or phase decomposition. The temperature-dependent variations 
+of the elementary cell parameters in SrCa3Mn3O10–δ show an expressed 
+anisotropy of thermal expansion, Fig. 4. According to the data [25] [26], 
+the main contribution to the increase in elementary cell volume V(T) 
+Fig. 1. The schematic representation of the unit cell of SrCa3Mn3O10 with Sr atoms in rock salt layers (a) and perovskite slabs (b); solid and dashed circles mark 
+neighboring O4 positions. The doubled elementary unit of Sr0.25Ca0.75MnO3 shows neighboring (c) and spaced (d) strontium atoms. 
+Fig. 2. X-ray diffraction patterns of SrCa3Mn3O10–δ and Sr0.25Ca0.75MnO3–δ. 
+The dots show experimental data; the red solid line is the calculated profile; 
+purple dashes are possible positions of diffraction peaks; the blue line is the 
+difference between the experimental and calculated profiles. (For interpretation 
+of the references to colour in this figure legend, the reader is referred to the web 
+version of this article.) 
+E.A. Antipinskaya et al.                                                                                                                                                                                                                       
+
+
+===== Page 4 =====
+
+Journal of Energy Storage 53 (2022) 105175
+4
+with temperature is related to expansion along the a and b axes. 
+The values of the volume expansion coefficient αV(T) appreciably 
+increase above 800–900 K, which most possibly signals the 
+commencement of thermally induced exchange of oxygen between the 
+sample and gas-phase ambient. Notice also that the thermal expansion of 
+the RP – phase closely resembles the pattern of temperature driven 
+changes in the orthorhombic manganites Sr1-xCaxMnO3-δ [23,26]. This 
+correspondence indicates that SrCa3Mn3O10–δ and Sr0.25Ca0.75MnO3–δ 
+exhibit similar thermomechanical behavior in TCS cycles. 
+3.2. Oxygen content and non-stoichiometry variations 
+The oxygen stoichiometry changes of as synthesized samples 
+Sr0.25Ca0.75MnO3-δ and SrCa3Mn3O10-δ were determined by TG mea­
+surements at heating in air atmosphere. The results are presented in 
+Fig. 5(a). As can be seen, the heating of the samples is accompanied by a 
+significant decrease in their relative mass (Δm/m0). In both phases, the 
+oxygen exchange practically halts below 900 K. For the case of the RP 
+manganite this observation is additionally corroborated by strong 
+changes of the volumetric expansion coefficient, Fig. 4. The value of 
+Δm/m0 for SrCa3Mn3O10-δ is somewhat smaller compared to 
+Sr0.25Ca0.75MnO3-δ, which most possibly reflects the respectively smaller 
+concentration of manganese in the crystalline lattice of SrCa3Mn3O10-δ. 
+Still, both samples exhibit quite large variations of oxygen non- 
+stoichiometry, a feature of importance in the design of TCS materials. 
+The behavior of the manganites at heating in the flow of the 5%H2/Ar 
+gas mixture is shown in Fig. 5(b). The X-raying revealed simple metal 
+oxides CaO, SrO and MnO in the products after heat treatment at 1200 K. 
+Hence, the reductive decomposition of the manganites may be repre­
+sented by reactions: 
+SrCa3Mn3O10−δ + (3 −δ)H2 →
+T SrO + 3CaO + 3MnO + (3 −δ)H2O↑
+(2)  
+Sr0.25Ca0.75MnO3−δ + (1 −δ)H2 →
+T 1
+4 SrO + 3
+4 CaO + MnO + (1 −δ)H2O↑
+(3)  
+Accordingly, the relative weight loss Δm/m0 at the reduction of 
+Sr0.25Ca0.75MnO3-δ and SrCa3Mn3O10-δ was used in order to calculate the 
+respective oxygen non-stoichiometry values δ = 0.00 ± 0.01 and δ =
+0.15 ± 0.02 in the as-synthesized specimens. We have to notice that in 
+contrast with as-prepared Sr0.25Ca0.75MnO3-δ where δ is very small, the 
+oxygen deficiency δ = 0.15 in SrCa3Mn3O10-δ is rather appreciable. This 
+may be indicative of a small or even negative enthalpy ΔHf(VOi) for the 
+oxygen vacancy formation in some crystalline positions. Indeed, the DFT 
+Table 1 
+The refined and DFT calculated crystal lattice parameters in SrCa3Mn3O10 and Sr0.25Ca0.75MnO3.  
+Refined 
+parameters 
+Experiment 
+(DFT) 
+Atom type 
+Atom coordinates 
+Occ 
+X 
+Y 
+Z 
+SrCa3Mn3O10 
+a, Å 
+3.739 
+(3.813) 
+Ca1/Sr1 
+0.0 
+0.0 
+0.57(1) 
+0.47/0.53 
+c, Å 
+27.141 
+(27.010) 
+Ca2/Sr2 
+0.0 
+0.0 
+0.70(4) 
+0.97/0.03 
+V, Å3 
+379.4 
+(392.9) 
+Mn1 
+0.0 
+0.0 
+0.0 
+1.0 
+Rp, % 
+19.5 
+Mn2 
+0.0 
+0.0 
+0.14(1) 
+1.0 
+Rwp, % 
+20.2 
+O1 
+0.0 
+0.0 
+0.06(3) 
+1.0 
+Rbr, % 
+9.469 
+O2 
+0.0 
+0.0 
+0.21(3) 
+1.0 
+χ2 
+2.98 
+O3 
+0.0 
+0.5 
+0.64(1) 
+1.0 
+O4 
+0.0 
+0.5 
+0.5 
+1.0  
+Sr0.25Ca0.75MnO3 
+a, Å 
+5.305 
+(5.399) 
+Ca/Sr  
+0.019(1)  
+0.25 
+0.020(1) 
+0.75/0.25 
+b, Å 
+7.494 
+(7.587) 
+Mn  
+0.0  
+0.0 
+0.5 
+1.0 
+c, Å 
+5.296 
+(5.368) 
+O2  
+0.501(1)  
+0.25 
+0.002(3) 
+1.0 
+V, Å3 
+210.5 
+(219.8) 
+O3  
+0.306(2)  
+0.023(2) 
+0.250(1) 
+1.0 
+Rp, % 
+33.7      
+Rwp, % 
+33.6      
+Rbr, % 
+15.88      
+χ2 
+3.64       
+Fig. 3. The temperature dependent changes of XRD spectrum of SrCa3Mn3O10–δ at heating in the air: (a) isometric projection, (b) 3D representation.  
+E.A. Antipinskaya et al.                                                                                                                                                                                                                       
+
+
+===== Page 5 =====
+
+Journal of Energy Storage 53 (2022) 105175
+5
+calculated enthalpies in Table 2 corroborate this supposition because the 
+depletion of O4 positions in the Ca coordinated environment is an 
+exothermic process for SrCa3Mn3O10-δ. The appearance of a vacancy 
+near strontium favors a shift of the enthalpy to positive values. Still, the 
+small enthalpy (38.5 kJ/mol) suggests that the equatorial sites O4 in the 
+middle layers of the perovskite-like slabs in SrCa3Mn3O10–δ are partic­
+ularly active in oxygen exchange. Notice that there are two O4 positions 
+per elementary cell in the RP manganite [27]. Therefore, the oxygen loss 
+at heating can be expected to be rather large. However, it is even 
+somewhat smaller than for Sr0.25Ca0.75MnO3–δ, Fig. 5. In order to un­
+derstand this effect, we carried out additional DFT calculations for 
+SrCa3Mn3O10–δ with two oxygen vacancies VO4 in neighboring O4 po­
+sitions, Fig. 1(b). Compared to the isolated vacancy with the enthalpy of 
+−19.7 kJ/mol, the partial enthalpy ΔHf(VO4) for such a configuration is 
+found to increase to 105.2 kJ/mol. This finding suggests that the va­
+cancy interaction is the mechanism preventing the residence of VO4 
+vacancies in the quasi 2D structure of SrCa3Mn3O10–δ. The data in 
+Table 2 shows also that O2 positions are distinguished by a particularly 
+large enthalpy. Respectively, their contribution to changes in non- 
+stoichiometry can be practically neglected. On the whole, the results 
+of DFT calculations in Table 2 reveal that the oxygen exchange activity 
+of SrCa3Mn3O10–δ is mainly related to positions O1 and O3. Similar 
+analysis shows that the oxygen vacancy formation enthalpy does not 
+practically depend on the location of the oxygen vacancies in 
+Sr0.25Ca0.75MnO3-δ, which agrees with the earlier results [28]. For the 
+sake of simplicity and clarity in further consideration, we focus on O3 
+positions in the oxygen sublattice of the orthorhombic manganite. 
+The coulometrically measured variations in oxygen content in 
+Sr0.25Ca0.75MnO3–δ and SrCa3Mn3O10–δ with temperature (T) and oxy­
+gen partial pressure (PO2) in the ambient gas phase are shown in Fig. 6. 
+The smooth shape of the isotherms as pressure decreases down to 10−5 
+atm is indicative of the high-temperature structural stability of the 
+manganites in the entire pressure range being typical for TCS cycles. In 
+order to interpret the observed changes in stoichiometry, we have to 
+consider the equilibration of manganites with gas phase oxygen. The 
+respective reaction of oxygen exchange can be expressed in Kr¨oger–Vink 
+notations [29] as 
+2Mn×
+Mn + O×
+O3→2Mn/
+Mn + V••
+O3 + 1
+2O2
+(4)  
+Additionally, we have to take into account thermal ionization of man­
+ganese ions 
+2Mn×
+Mn→Mn•
+Mn + Mn/
+Mn
+(5)  
+where Mn×
+Mn, Mn/
+Mn and Mn•
+Mn denote regular manganese sites, localized 
+electrons and electron holes, respectively, while O×
+O3 and V••
+O3 stand for 
+oxygen atoms and oxygen vacancies in O3 positions. Assuming appli­
+cability of the ideal gas model for point defects and using equilibrium 
+constants for reactions (4) and (5) in combination with the structure and 
+charge conservation requirements, one can obtain the implicit interre­
+lation of non-stoichiometry δ with temperature T and equilibrium 
+pressure of oxygen PO2 over Sr0.25Ca0.75MnO3–δ: 
+PO2 = K2
+ex(I)
+(3 −δ
+δ
+)2
+[
+2
+̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+(1 −4δ2)Ki + δ2
+√
+−1
+]4
+[
+δ +
+̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+(1 −4δ2)Ki + δ2
+√
++ 2(2δ −1)Ki
+]4
+(6)  
+Fig. 5. The relative weight changes of Sr0.25Ca0.75MnO3–δ and SrCa3Mn3O10–δ 
+at temperature variations in air atmosphere (a) and 5%H2/Ar gas mixture (b). 
+The red dotted lines show temperature profiles. The vertical dotted lines depict 
+the borders of different heating regimes. (For interpretation of the references to 
+colour in this figure legend, the reader is referred to the web version of 
+this article.) 
+Table 2 
+The DFT calculated enthalpies for the formation of oxygen vacancies in different crystallographic positions.  
+Vacancy 
+Type 
+ΔHf(VOi), kJ⋅mol−1 
+SrCa3Mn3O10–δ 
+Sr0.25Ca0.75MnO3–δ 
+“Ca coordinated” 
+“Sr coordinated” 
+“Ca coordinated” 
+“Sr coordinated” 
+VO1  
+85.4 
+133.7 
+– 
+– 
+VO2  
+220 
+– 
+141 
+144.4 
+VO3  
+107.2 
+176.4 
+136.1 
+149.2 
+VO4  
+−19.7 
+38.5 
+– 
+–  
+Fig. 4. Variations in the elementary cell parameters and unit cell volume 
+(symbols, left hand panel), and linear and volume thermal expansion co­
+efficients (lines, right hand panel) in SrCa3Mn3O10–δ during heating in the air. 
+E.A. Antipinskaya et al.                                                                                                                                                                                                                       
+
+
+===== Page 6 =====
+
+Journal of Energy Storage 53 (2022) 105175
+6
+where 
+kB 
+is 
+the 
+Boltzmann 
+constant; 
+Kex(I) = exp
+(
+ΔS
+◦
+ex(I)/kB −ΔH
+◦
+ex(I)/kBT
+)
+, ΔH
+◦
+ex(I) and ΔS
+◦
+ex(I) designate the 
+equilibrium constant, standard enthalpy and entropy changes in reac­
+tion (4), respectively; ΔH
+◦
+i is the standard enthalpy change in the ioni­
+zation reaction (5), and the auxiliary designation Ki = exp
+(
+−ΔH
+◦
+i /kBT
+)
+is introduced for brevity. The derivation of (6) can be found elsewhere 
+[25]. It is seen from Eq. (6) that non-stoichiometry at permanent T and 
+PO2 strongly depends on enthalpies ΔH
+◦
+i and ΔH
+◦
+ex(I). The numerical 
+values of these parameters for Sr0.25Ca0.75MnO3–δ obtained in the course 
+of fitting procedures are presented in Table 3. The isothermal fitting of 
+the experimental data as well as the isotherms calculated outside the 
+measured limits of T and PO2 are shown in Fig. 6(a). It is seen that the 
+experimental trends for oxygen non-stoichiometry in Sr0.25Ca0.75MnO3–δ 
+can be quite satisfactorily described by the model reactions (4) and (5). 
+However, when applied to SrCa3Mn3O10–δ, they are insufficient. Such a 
+deficiency most possibly reflects the presence of two energetically 
+inequivalent 
+positions 
+involved 
+in 
+the 
+oxygen 
+exchange 
+of 
+SrCa3Mn3O10–δ. This supposition is corroborated by DFT calculated 
+enthalpies in Table 2 showing that positions O1 and O3, which are most 
+favorable for the oxygen exchange in SrCa3Mn3O10–δ, exhibit significant 
+energy differences. The available experimental data [27] also suggests 
+the involvement in oxygen equilibration of two structurally different 
+positions in the layered oxides. In order to consider ensembles O1 and 
+O3 of two inequivalent oxygen positions that participate in oxygen ex­
+change, we have to complement (4) and (5) with one more reaction 
+2Mn×
+Mn + O×
+O1→2Mn/
+Mn + V••
+O1 + 1
+2O2
+(7)  
+The use of the equilibrium constants for reactions (4), (5) and (7) in 
+combination with the charge and structure conservation requirements 
+enables one to derive the interrelation PO2 = PO2(δ,T) for SrCa3Mn3O10–δ 
+(Supplements): 
+Fig. 6. The isothermal variations of oxygen content in Sr0.25Ca0.75MnO3–δ (a) and SrCa3Mn3O10–δ (b) at changes of oxygen partial pressure. Symbols represent 
+experimental data, red lines – calculated results. Stars show oxygen content values according to TG data at 773 K. The hatched fields show typical Po2 variations 
+during TCS cycling. Variations in oxygen partial molar enthalpies as oxygen content changes in Sr0.25Ca0.75MnO3-δ (c) and SrCa3Mn3O10–δ (d). The insets in panels (с) 
+and (d) demonstrate temperature dependencies of oxygen chemical potential ΔμO in the manganites at permanent values of oxygen non-stoichiometry. (For 
+interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.) 
+Table 3 
+Calculated thermodynamic parameters for defect formation reactions.  
+Reaction/index 
+Sr0.25Ca0.75MnO3–δ 
+SrCa3Mn3O10–δ 
+ΔS
+◦, J/mol/K 
+ΔH
+◦, kJ/mol 
+ΔS
+◦, J/mol/K 
+ΔH
+◦, kJ/mol 
+(4)/“i” 
+0 
+51 ± 0.3 
+0 
+45 ± 5 
+(5)/“ex(I)” 
+98 ± 0.5 
+184 ± 0.5 
+97 ± 1 
+96 ± 2 
+(7)/“ex(II)” 
+– 
+– 
+97 ± 1 
+165 ± 3 
+(9)/“Od” 
+– 
+– 
+0 
+69 ± 1  
+E.A. Antipinskaya et al.                                                                                                                                                                                                                       
+
+
+===== Page 7 =====
+
+Journal of Energy Storage 53 (2022) 105175
+7
+(8)  
+where 
+Kex(II) =
+exp
+(
+ΔS
+◦
+ex(II)/kB −ΔH
+◦
+ex(II)/kBT
+)
+,
+KOd =
+exp
+(
+−
+(
+ΔH
+◦
+ex(II) −ΔH
+◦
+ex(I)
+)/
+kBT
+)
+, and ΔH
+◦
+ex(II) −ΔH
+◦
+ex(I) is the enthalpy 
+change in the reaction (9) of intrinsic oxygen disordering: 
+O×
+O1 + V••
+O3→O×
+O3 + V••
+O1
+(9) 
+The best fitting parameters ensuing from the model represented by 
+reactions (4), (5), and (7) are shown in Table 3. The obtained parameters 
+also allow for a satisfactory description of the experimental plots 10 −δ 
+= log (PO2) in Fig. 6(b). Some inaccuracies below 773 K can probably be 
+attributed to the limited applicability of the developed model at low 
+temperatures. 
+In addition to simulation of defect equilibria, the experimental data 
+in Fig. 6(a) and (b) can be used for calculations of the chemical potential 
+ΔμO and partial enthalpy ΔHO of oxygen in the manganites from the 
+known thermodynamic relations: 
+ΔμO = kBT
+2 ln(PO2)
+(10)  
+ΔHO =
+(∂(ΔμO/T)
+∂(1/T)
+)
+δ
+(11)  
+The plots for Sr0.25Ca0.75MnO3–δ and SrCa3Mn3O10–δ are presented in 
+Fig. 6(c) and (d). One can observe that the experimental enthalpies do 
+not practically depend on oxygen content, and may be well approxi­
+mated by constant values −180 ± 7 and −165 ± 5 kJ/mol in 
+Sr0.25Ca0.75MnO3–δ and SrCa3Mn3O10–δ, respectively. Relations (10) and 
+(11) can be combined to result in the expression 
+ΔHO =
+−kBT2
+2PO2(δ, T)
+(∂PO2(δ, T)
+∂T
+)
+δ
+(12)  
+that can be utilized for calculations of the plots ΔHO = ΔHO(δ, T) from 
+model Eqs. (6) and (8). The use of this approach demonstrates quite a 
+reasonable coincidence of the theoretical and experimental results, 
+Fig. 6(c) and (d). 
+3.3. The energy storage 
+The application of oxides with variable oxygen content in TCS cycles 
+is based on periodic changes of external conditions where oxygen non- 
+stoichiometry δ1 at temperature T1 changes to δ2 at temperature T2 
+and backward. T1 < T2 is assumed to be true. Therefore, the heating of 
+the oxide MOm-δ and accompanied oxygen loss can be represented as 
+MOm−δ1 ̅̅̅̅̅̅̅̅̅̅̅̅→
+T1,δ1→T2,δ2
+MOm−δ2 + δ2 −δ1
+2
+O2
+(13)  
+The oxygen loss results in a reduction and an increase in the total spe­
+cific enthalpy (Δhtot) in the oxide. In general, the value of Δhtot can be 
+calculated as 
+Δhtot =
+∫δ2
+δ1
+dδ
+∫T2
+T1
+dTM−1
+S (δ)
+[
+cp(T, δ) −ΔHO(T, δ)
+]
+(14)  
+where MS(δ) denotes the molar mass of the oxide, cp(T,δ) and ΔHO(T, δ)
+stand for heat capacity and oxygen partial enthalpy of the sample, 
+respectively. These quantities may depend on both temperature and 
+oxygen content [30,31]. Eq.(14) can be simplified by choosing a 
+convenient way of integration [32] and splitting the enthalpy as Δhtot =
+Δhsens + Δhchem, where sensible (Δhsens) and chemical (Δhchem) con­
+tributions can be calculated as 
+Δhsens = M−1
+S (δ1)
+∫T2
+T1
+dTcp(T, δ1);
+Δhchem = −
+∫δ2
+δ1
+dδM−1
+S (δ)ΔHO(T2, δ)
+(15) 
+Prior to the use of Eqs. (14) and (15), we have to draw attention to 
+several points. First of all, measuring high-temperature heat capacity is a 
+complicated experimental task. As a result, it is not surprizing that the 
+data for SrCa3Mn3O10–δ are lacking in the literature, and there is only 
+one work presenting adiabatic calorimetry results for heat capacity in 
+CaMnO3 and CaMnO2.562 up to 600 K [33]. The reliability of the data 
+follows from the excellent coincidence with the low temperature mea­
+surements [34,35]. Importantly, the heat capacity values in CaMnO3 
+(121.3 J⋅mol−1 K−1) and CaMnO2.562 (110.9 J⋅mol−1 K−1) at 600 K are 
+only 3 % smaller than the respective high-temperature limits calculated 
+from the Dulong-Petit law. The extrapolation of the data [33] to higher 
+temperatures does not appear reliable [36]. For instance, the extrapo­
+lated heat capacity of CaMnO2.8 at 1273 K attains 125 J⋅mol−1 K−1, 
+which is >10 % larger than the Dulong-Petit limit, and the difference is 
+too large to ascribe it to the effects of anharmonicity and/or the 
+appearance of oxygen vacancies [37]. Even larger divergence with the 
+experiment is obtained at theoretical estimates [38] where the calcu­
+lated heat capacity of CaMnO3 is in excess of 300 J⋅mol−1 K−1 at 600 K. 
+Considering the experimental and theoretical difficulties, it seems that 
+the Dulong-Petit limit is sufficient for conservative estimates of the high- 
+temperature heat capacity and sensible heat. 
+The evaluation of the chemical contribution to the stored energy 
+typically involves the use of ΔHO(T, δ) obtained from the experimental 
+equilibrium plots for δ = δ(PO2,T) according to relations (10) and (11). 
+For instance, authors [9] apply this approach to CaTi0.2Mn0.8O3-δ and 
+CaAl0.2Mn0.8O3-δ and find that the derived values of ΔHO(T, δ) do not 
+depend on temperature. It is also shown that the impact of oxygen non- 
+stoichiometry on the enthalpy in CaTi0.2Mn0.8O3-δ is practically insig­
+nificant. An alternative method is utilized in work [7] where a defect 
+model is developed for Ca0.95Sr0.05MnO3-δ and Ca0.9Sr0.1MnO3-δ in order 
+to describe experimental δ = δ(PO2,T) plots and reproduce the enthalpy 
+behavior from the model parameters. The simulated enthalpy is found to 
+be practically independent on temperature and non-stoichiometry at δ 
+> 0.2. At the same time, the theoretical values strongly decrease with δ 
+from −190 ÷ −200 to −240 ÷ -260 kJ/mol in the range of 0 < δ < 0.2. 
+In order to support their model calculations, the authors carried out 
+high-temperature DSC measurements. The typical scatter of the ob­
+tained values reached 25 %. In view of the experimental uncertainties, a 
+stoichiometry independent constant enthalpy appears most appropriate 
+for the representation of the experimental results. Nonetheless, the au­
+thors fitted the data following their model, i.e., by a curve bending 
+sharply from −200 kJ/mol at δ > 0.2 to −260 kJ/mol at δ → 0. Mean­
+while, due to the strong enthalpy dependence, the interval 0 < δ < 0.2 
+makes an unusually large contribution to the record high stored chem­
+ical energy calculated from Eq. (15) for Ca0.95Sr0.05MnO3-δ at integration 
+within the experimental range 0 < δ < 0.3 [7]. The results obtained in 
+work [40] are very instructive in deciding which approach is best suited 
+for the estimates. The authors show that the use of a free-fit approach to 
+the experimental data may give significantly different enthalpies of 
+oxidation in perovskite-related oxides. On the other hand, they 
+demonstrate that the composition-independent enthalpic terms can be 
+used as a good approximation to describe the redox energetics of non- 
+E.A. Antipinskaya et al.                                                                                                                                                                                                                       
+
+
+===== Page 8 =====
+
+Journal of Energy Storage 53 (2022) 105175
+8
+stoichiometric oxides. Our data in Fig. 6(c) and (d) agree with this 
+conclusion. Furthermore, the analysis of defect equilibria based on re­
+actions (4), (5) and (7) supports δ – independent enthalpy ΔHO in both 
+Sr0.25Ca0.75MnO3–δ and SrCa3Mn3O10–δ, which also agrees with the re­
+sults [39]. Considering the energy of chemical bonding in oxides, one 
+can hardly expect any sufficient changes of ΔHO with temperature. In 
+other words, the temperature independent oxygen partial enthalpy ap­
+pears to be a quite reliable assumption. Following these arguments, it 
+appears that the best option is to approximate the oxygen enthalpies in 
+Sr0.25Ca0.75MnO3–δ and SrCa3Mn3O10–δ with constant values that are not 
+affected by temperature or composition. When cp and ΔHO are constant, 
+one can easily calculate from Eqs. (14) and (15) the energy that can be 
+accumulated in Sr0.25Ca0.75MnO3–δ and SrCa3Mn3O10–δ at the change of 
+the non-stoichiometry and temperature from (δ1,T1) to (δ2,T2). Practi­
+cally, the use of variables (PO2,T) may be sometimes more convenient. 
+The conversion to (PO2,T) can be done with the help of Eqs. (6) and (8); 
+the corresponding calculations are given in Supplements. The resulting 
+expressions for Δhtot turn out to be exceedingly cumbersome, so that 
+only their numerical integration can be carried out. As an example, the 
+plots in Fig. 7(a) and (b) show respectively obtained variations of the 
+energy that can be stored in Sr0.25Ca0.75MnO3-δ and SrCa3Mn3O10–δ at 
+heating from the starting state (T1 = 773 K, PO2 = 0.21 atm) to the final 
+states with different (T2, PO2) values. The heat capacity and partial 
+molar enthalpy values used in the calculations are presented in Table 4. 
+At thermal cycling from (773 K, air) to (1273 K, PO2 = 10−4 atm) the 
+maximum energy stored in Sr0.25Ca0.75MnO3–δ (~800 kJ/kg) is notice­
+ably greater than the amount (~600 kJ/kg) stored in SrCa3Mn3O10-δ. 
+However, the partial pressure of oxygen at the high-temperature leg of 
+the TCS cycle is practically never lower than 10−2 atm [40]. In such a 
+case, the difference in the energy stored in Sr0.25Ca0.75MnO3–δ (650 kJ/ 
+kg) and SrCa3Mn3O10–δ (550 kJ/kg) decreases to about 100 kJ/kg, 
+Fig. 7. 
+It is interesting to compare the data obtained in the present work 
+with the advanced results for Δhtot in other perovskite-like manganites. 
+Considering different approaches in the literature, we recalculated Δhtot 
+within the uniform limits (773 K, 0.21 atm – 1273 K, 10−4 atm) by 
+making use of heat capacities and partial oxygen enthalpies approxi­
+mated by constants as argued above. The resulting values of Δhtot, 
+Δhsens, and Δhchem are collected in Table 4 together with the enthalpies 
+for Sr0.25Ca0.75MnO3–δ and SrCa3Mn3O10–δ obtained in the present work. 
+It is seen that the revised TCS characteristics are somewhat smaller 
+compared to earlier published data, which takes place because of more 
+limitative estimates of sensitive and chemical contributions to the stored 
+heat. Furthermore, the storage capacity of the record holders, namely 
+Sr0.05Ca0.95MnO3–δ, CaCo0.05Mn0.95O3–δ, and Sr0.25Ca0.75MnO3–δ, is 
+nearly identical within determination uncertainties. It is also worth 
+noting that, while the TCS capacity of the layered SrCa3Mn3O10–δ ap­
+proaches that of 3D perovskite-like manganites, it does not exceed their 
+energy storage characteristics within the accepted (T, PO2) cycling 
+limits. Therefore, for further scrutiny of the applicability of the man­
+ganites for TCS technologies, we need to compare cyclability and kinetic 
+aspects of their behavior in conditions simulating a TCS reactor. 
+3.4. Cyclability at TCS testing 
+The 
+oxygen 
+content 
+changes 
+in 
+SrCa3Mn3O10–δ 
+and 
+Sr0.25Ca0.75MnO3–δ manganites for conditions simulating TCS redox 
+cycles are shown in Fig. 8. It is distinctly seen that the values of the 
+oxygen loss and intake for SrCa3Mn3O10–δ do not practically vary with 
+Fig. 7. Total stored energy (kJ/kg) in Sr0.25Ca0.75MnO3–δ (a) and SrCa3Mn3O10–δ (b) as calculated at transition from the equilibrium state in the air at 773 K to 
+different final (T2, PO2) states. Solid lines correspond to the permanent values of the stored energy. 
+Table 4 
+Comparison of thermochemical characteristics for different manganites at 
+thermal cycling from (773 K, air) to (1273 K, PO2=10−4 atm).  
+Compound 
+Δδ 
+cp, J/ 
+K/ 
+mol 
+ΔHO, 
+kJ/kg 
+Δhsens, 
+kJ/kg 
+Δhchem, 
+kJ/kg 
+Δhtot, 
+kJ/kg 
+Sr0.05Ca0.95MnO3–δ  
+[7]  
+0.31  
+124.7 
+-200 
+± 20  
+428 
+426 ±
+42 
+854 
+± 42 
+CaCo0.05Mn0.95O3–δ  
+[41]  
+0.30  
+124.7 
+−175 
+± 6  
+435 
+366 ± 9 
+801 
+± 9 
+Sr0.25Ca0.75MnO3–δ 
+(a)  
+0.34  
+124.7 
+−180 
+± 7  
+402 
+398 ±
+13 
+800 
+± 13 
+CaFe0.1Mn0.9O3–δ  
+[42]  
+0.23  
+123.6 
+−191 
+± 4  
+435 
+295 ± 4 
+730 
+± 7 
+CaCr0.05Mn0.95O3–δ  
+[43]  
+0.23  
+124.7 
+−170 
+± 25  
+436 
+274 ±
+38 
+709 
+± 38 
+CaTi0.2Mn0.8O3–δ  
+[33]  
+0.19  
+124.7 
+−187 
+± 7  
+440 
+251 ± 9 
+691 
+± 9 
+La0.1Ca0.9MnO3–δ  
+[32]  
+0.17  
+124.7 
+−181 
+± 6  
+408 
+216 ± 8 
+624 
+± 9 
+SrCa3Mn3O10–δ (a)  
+0.63  
+405.9 
+−165 
+± 5  
+381 
+207 ± 7 
+588 
+± 7  
+a This work. 
+E.A. Antipinskaya et al.                                                                                                                                                                                                                       
+
+
+===== Page 9 =====
+
+Journal of Energy Storage 53 (2022) 105175
+9
+the increase in the number of cycles, while the oxygen storage capacity 
+of Sr0.25Ca0.75MnO3–δ noticeably declines with the cycling. At the same 
+time, X-ray phase analysis of the samples after testing did not reveal any 
+signs of phase separation (see Fig. S2 in Supplements). 
+It should be stressed that the mass changes related to oxygen content 
+variations in SrCa3Mn3O10–δ (1.18 %) and Sr0.25Ca0.75MnO3-δ (1.35 %) 
+at cycling between the air and Ar (PO2 ≈10−4 atm) atmospheres are 
+considerably smaller compared to the values calculated with the help of 
+equilibrium plots for oxygen content in Fig. 6 (1.9 % and 3.4 % for 
+Sr0.25Ca0.75MnO3–δ and SrCa3Mn3O10–δ, respectively). The data in Fig. 8 
+suggest that the observed divergence reflects a rather sluggish reduction 
+of manganites in the Ar atmosphere, which was also noticed previously 
+[7]. This conclusion is confirmed by the isothermal weight loss of the 
+samples during long-term holding in argon. At the same time, we have to 
+note also that the additional cyclic tests of the oxides in the air did not 
+reveal any kinetic difficulties because the corresponding mass changes 
+Δm/m0 reached permanent values both at 773 K and at 1273 K (see Fig. 
+S3 in Supplements). Therefore, the kinetic factor leads to a decrease of 
+thermochemical energy capacity for both manganites in reducing 
+gaseous environments. Calculations based on experimental data in Fig. 8 
+show that the practically stored energy Δhtot that may be extracted 
+during thermal cycling can attain only around 510 and 560 kJ/kg in 
+SrCa3Mn3O10–δ and Sr0.25Ca0.75MnO3–δ, respectively. Apparently, the 
+thermodynamic potential of the energy storage in manganites is not used 
+in full because of the kinetic limitations for oxygen exchange during 
+thermal cycling. Therefore, surface modifications and light doping by 
+more redox active metals, e.g. cobalt, may be useful tools for achieving 
+extreme values of Δhtot in manganates [44]. These issues are the subject 
+of research in the work to follow. 
+The impact of redox cycling on oxygen exchange kinetics of the title 
+manganites can be illustrated by comparing the oxygen loss in the initial 
+and tenth cycle after 120 h of testing (see Fig. 8). Respective data is 
+shown in Fig. 9. It is clear that, in contrast to the RP–manganite 
+SrCa3Mn3O10–δ, the oxygen exchange capacity of the perovskite-like 
+Sr0.25Ca0.75MnO3–δ decreases noticeably. For example, the difference 
+in Δm/m0 values between the initial and final heating of 
+Sr0.25Ca0.75MnO3–δ in an Ar atmosphere is approximately 0.2 %, as 
+shown in Fig. 9(a). This is about four times more than in the RP- 
+manganite where the mass difference does not exceed 0.05 %. In the case 
+of SrCa3Mn3O10–δ, the general shape of the curves Δm/m0 = f(T) does 
+not change as the number of cycles increases, Fig. 9(a). On the other 
+hand, orthorhombic Sr0.25Ca0.75MnO3–δ exhibits a significant variation 
+in the corresponding behavior, i.e., the mass decreases in the first cycle 
+while it actually stops changing as soon as the temperature stops 
+increasing in the last cycle. One can see also that the oxidation of 
+Sr0.25Ca0.75MnO3–δ in the air at the end of the cycling is accompanied by 
+a detectable mass change, whereas SrCa3Mn3O10–δ almost fully main­
+tains the oxygen intake capacity during the test, Fig. 9(b). Thus, it fol­
+lows from the obtained data that the studied oxides react differently to 
+the cyclic changes of the gaseous atmosphere. The observed features 
+may possibly reflect microstructural changes in the samples. However, 
+the results of SEM studies are ambiguous because the well-developed 
+porous morphologies of the samples practically do not vary in the 
+course of the redox cycling, Fig. 10. Still, the analysis of the cationic 
+composition of the surface made it possible to draw some conclusions. 
+Table 5 contains the results of the surface EDX analysis before and after 
+Fig. 8. The changes of oxygen content in SrCa3Mn3O10–δ (blue solid line) and Sr0.25Ca0.75MnO3–δ (green solid line) at heating/cooling cycles in alternating atmo­
+spheres of the air and cylinder argon (PO2 ≈10−4 atm). The temperature profile is shown by the red dotted line. (For interpretation of the references to colour in this 
+figure legend, the reader is referred to the web version of this article.) 
+Fig. 9. The oxygen loss in the first and last cycles for SrCa3Mn3O10–δ and Sr0.25Ca0.75MnO3–δ during (a) initial heating in Ar and (b) final cooling in the 
+air atmosphere. 
+E.A. Antipinskaya et al.                                                                                                                                                                                                                       
+
+
+===== Page 10 =====
+
+Journal of Energy Storage 53 (2022) 105175
+10
+the cycle testing. 
+The data suggests that the thermochemical cycling results in changes 
+of the surface composition of Sr0.25Ca0.75MnO3–δ ceramics while the 
+sample of SrCa3Mn3O10–δ remains unaffected. It is possible that the 
+observed cation redistribution is responsible for the decline of oxygen 
+exchange and energy storage capacity of Sr0.25Ca0.75MnO3-δ. However, 
+caution should be taken in interpreting the results of the EDX analysis 
+[45], and more conclusive evidence requires further studies of the ma­
+terials under thermochemical cycling, which is the subject of further 
+work. 
+4. Conclusions 
+In the framework of this study, we synthesized complex oxide 
+manganites Sr0.25Ca0.75MnO3-δ and SrCa3Mn3O10-δ via combustion of 
+organometallic precursors. The single-phase compositions of the 
+resulting oxides were confirmed by X-ray diffraction. According to 
+experimental data and DFT calculations, strontium atoms preferentially 
+reside in the perovskite slabs of the layered SrCa3Mn3O10, as opposed to 
+random distribution in Sr0.25Ca0.75MnO3–δ. Moreover, DFT calculation 
+results suggest that the O1 and O3 positions in perovskite-like slabs are 
+mostly active in the oxygen exchange of SrCa3Mn3O10-δ with the 
+ambient gas phase. The DFT calculations agree with the thermodynamic 
+analysis of SrCa3Mn3O10-δ equilibration with gas-phase oxygen, 
+demonstrating that the involvement of two structurally different oxygen 
+positions in oxygen exchange allows for an excellent simulation of 
+experimental data for variations of non-stoichiometry stoichiometry 
+δ(T, PO2) with temperature and oxygen partial pressure. The combina­
+tion of the experimental results with consideration of defect equilibria 
+and literature data gives strong arguments in proof of the oxygen partial 
+enthalpy independent of temperature and oxygen content in the man­
+ganites. It is also reasoned that the Dulong-Petit law gives rather reliable 
+estimates of high-temperature heat capacity in non-stoichiometric 
+manganites. The respectively reconsidered literature data and the re­
+sults in the present work show that the thermodynamic limit for the TCS 
+capacity (~800 kJ/kg) of quasi– 3D manganite Sr0.25Ca0.75MnO3–δ is 
+one of the highest. Simultaneously, it is only about 600 kJ/kg in quasi– 
+2D manganite SrCa3Mn3O10-δ in the same span of variations of tem­
+perature (773–1273 K) and oxygen partial pressure (0.21–10−4 atm) 
+values. It is shown that the potentially larger energy storage capacity of 
+SrCa3Mn3O10-δ is not attained because of the oxygen vacancy repulsive 
+interaction, preventing active participation of equatorial O4 positions in 
+oxygen exchange. The TCS cycling tests reveal superior stability of 
+SrCa3Mn3O10-δ compared to Sr0.25Ca0.75MnO3–δ. The EDX analysis data 
+suggest that the poor cyclability of Sr0.25Ca0.75MnO3–δ is the result of a 
+surface degradation. SrCa3Mn3O10–δ and Sr0.25Ca0.75MnO3–δ energy 
+storage efficiencies converge at thermal cycling in the practicable oxy­
+gen pressure range of 10−2–0.21 atm, where TCS capacity is only about 
+510 and 560 kJ/kg in SrCa3Mn3O10–δ and Sr0.25Ca0.75MnO3–δ, respec­
+tively. The cyclability tests and thermal analysis results show that the 
+decreased TCS performance is mostly due to the sluggish reduction ki­
+netics of the manganites. Overall, the findings indicate that further ad­
+vancements in manganites as energy storage materials are possible 
+through the development of doping strategies that ensure better surface 
+stability and faster bulk oxygen exchange. 
+Fig. 10. The micrographs of ceramic samples of SrCa3Mn3O10-δ (a) before, (b) after, and Sr0.25Ca0.75MnO3–δ (c) before, (d) after redox cycle testing.  
+Table 5 
+The data of elemental analysis of Sr0.25Ca0.75MnO3–δ and SrCa3Mn3O10–δ before 
+and after redox cycle testing.  
+Element 
+Content, at. % 
+Sr0.25Ca0.75MnO3–δ 
+SrCa3Mn3O10–δ 
+Nominal 
+Before 
+After 
+Nominal 
+Before 
+After 
+Sr  
+12.5 
+13 ± 2 
+18 ± 2  
+14.3 
+14 ± 3 
+14 ± 2 
+Ca  
+37.5 
+38 ± 2 
+32 ± 3  
+42.9 
+43 ± 2 
+42 ± 2 
+Mn  
+50 
+50 ± 1 
+50 ± 2  
+42.9 
+44 ± 1 
+41 ± 3  
+E.A. Antipinskaya et al.                                                                                                                                                                                                                       
+
+
+===== Page 11 =====
+
+Journal of Energy Storage 53 (2022) 105175
+11
+CRediT authorship contribution statement 
+E.A. Antipinskaya: Investigation, Formal analysis, Writing original 
+draft. 
+B.V. Politov: Investigation, Formal analysis, Writing original draft, 
+Conceptualization. 
+S.A. Petrova: Investigation. 
+V.P. Zhukov: Writing – review & editing, Validation. 
+E.V. Chulkov: Validation, Software. 
+A.Yu. Suntsov: Investigation, Writing – review & editing, Valida­
+tion, Funding acquisition. 
+V.L. Kozhevnikov: Writing – review & editing, Formal analysis, 
+Funding acquisition, Conceptualization, Supervision. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgments 
+This work was carried out under support of the state programs N◦
+АААА-А19-119031890026-6 and N◦АААА-А19-119110190048-7. 
+Part of the DFT calculations were performed on the URAN cluster at the 
+Institute of Mathematics and Mechanics, UB RAS. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.est.2022.105175. 
+References 
+[1] G.A. Farulla, M. Cellura, F. Guarino, M. Ferraro, A review of thermochemical 
+energy storage systems for power grid support, Appl. Sci. 10 (2020) 3142, https:// 
+doi.org/10.3390/app10093142. 
+[2] X. Chen, Z. Zhang, C. Qi, X. Ling, H. Peng, State of the art on the high-temperature 
+thermochemical energy storage systems, Energy Convers. Manag. 177 (2018) 
+792–815, https://doi.org/10.1016/j.enconman.2018.10.011. 
+[3] S. Tescari, C. Agrafiotis, S. Breuer, L. De Oliveira, M. Neises-Von Puttkamer, 
+M. Roeb, C. Sattler, Thermochemical solar energy storage via redox oxides: 
+materials and reactor/heat exchanger concepts, Energy Procedia 49 (2014) 
+1034–1043, https://doi.org/10.1016/j.egypro.2014.03.111. 
+[4] Y. Yan, K. Wang, P.T. Clough, E.J. Anthony, Developments in calcium/chemical 
+looping and metal oxide redox cycles for high-temperature thermochemical energy 
+storage: a review, Fuel Process. Technol. 199 (2020), 106280, https://doi.org/ 
+10.1016/j.fuproc.2019.106280. 
+[5] M. Kubicek, A.H. Bork, J.L.M. Rupp, Perovskite oxides-a review on a versatile 
+material class for solar-to-fuel conversion processes, J. Mater. Chem. A 5 (2017) 
+11983–12000, https://doi.org/10.1039/c7ta00987a. 
+[6] S. Wu, C. Zhou, E. Doroodchi, R. Nellore, B. Moghtaderi, A review on high- 
+temperature thermochemical energy storage based on metal oxides redox cycle, 
+Energy Convers. Manag. 168 (2018) 421–453, https://doi.org/10.1016/j. 
+enconman.2018.05.017. 
+[7] L. Imponenti, K.J. Albrecht, J.W. Wands, M.D. Sanders, G.S. Jackson, 
+Thermochemical energy storage in strontium-doped calcium manganites for 
+concentrating solar power applications, Sol. Energy 151 (2017) 1–13, https://doi. 
+org/10.1016/j.solener.2017.05.010. 
+[8] Q. Lei, Q. Si, J. Zhang, Y. Jiang, L. Hu, L. Qiao, X. Zu, G. Xiao, J. Yang, S. Li, Redox 
+cycle of calcium manganite for high temperature solar thermochemical storage 
+systems, Appl. Energy 305 (2022), 117958, https://doi.org/10.1016/j. 
+apenergy.2021.117958. 
+[9] S.M. Babiniec, E.N. Coker, J.E. Miller, A. Ambrosini, Doped calcium manganites for 
+advanced high-temperature thermochemical energy storage, Int. J. Energy Res. 40 
+(2016) 280–284, https://doi.org/10.1002/er.3467. 
+[10] E.I. Goldyreva, I.A.I.A. Leonidov, M.V. Patrakeev, V.L.V.L. Kozhevnikov, Oxygen 
+non-stoichiometry and defect equlibria in CaMnO3-δ, J. Solid State Electrochem. 16 
+(2012) 1187–1191, https://doi.org/10.1007/s10008-011-1499-0. 
+[11] C. Kaps, R. Kriegel, Perovskite ceramics as smart materials for efficient energy 
+technologies, in: Glob Roadmap Ceram ICC2 Proc, 2008, pp. 2–8. 
+[12] M.E. Arroyo De Dompablo, C. Krich, J. Nava-Avenda˜no, N. Biˇskup, M.R. Palacín, 
+F. Bard´e, A joint computational and experimental evaluation of CaMn2O4 
+polymorphs as cathode materials for ca ion batteries, Chem. Mater. 28 (2016) 
+6886–6893, https://doi.org/10.1021/acs.chemmater.6b02146. 
+[13] J. Nowotny, M. Rekas, Defect chemistry of (La, Sr)MnO3, J. Am. Ceram. Soc. 81 
+(1998) 67–80, https://doi.org/10.1111/j.1151-2916.1998.tb02297.x. 
+[14] L. Rørmark, A.B. Mørch, K. Wiik, S. Stølen, Enthalpies of oxidation of CaMnO3-δ, 
+Ca2MnO4-δ and SrMnO3-δ - deduced redox properties, Chem. Mater. 13 (2001) 
+4005–4013. 
+[15] A.A. Taskin, A.N. Lavrov, Y. Ando, Fast oxygen diffusion in A-site ordered 
+perovskites, Prog. Solid State Chem. 35 (2007) 481–490, https://doi.org/10.1016/ 
+j.progsolidstchem.2007.01.014. 
+[16] R. Chen, M. Greenblatt, L.A. Bendersky, Stabilization of the n=3 ruddlesden- 
+popper phases: Sr4Mn3-xFexO10-δ and Sr4-yCayMn3O10-δ, Chem. Mater. 13 (2001) 
+4094–4100, https://doi.org/10.1021/cm0102842 CCC. 
+[17] J. Rodriguez-Carvajal, Recent advances in magnetic structure determination by 
+neutron powder diffraction, Phys. B 192 (1993) 55–69. 
+[18] S.N. Marshenya, B.V. Politov, D.A. Osinkin, A.Y. Suntsov, I.A. Leonidov, V. 
+L. Kozhevnikov, Advanced electrochemical properties of Pr0.9Y0.1BaCo1.8Ni0.2O6–δ 
+– Ce0.8Sm0.2O1.9 composite as cathode material for IT–SOFCs, J. Alloys Compd. 779 
+(2019) 712–719, https://doi.org/10.1016/j.jallcom.2018.11.255. 
+[19] M.V. Patrakeev, I.A. Leonidov, V.L. Kozhevnikov, Applications of coulometric 
+titration for studies of oxygen non-stoichiometry in oxides, J. Solid State 
+Electrochem. 15 (2011) 931–954, https://doi.org/10.1007/s10008-010-1111-z. 
+[20] G. Kresse, M. Marsman, J. Furthmüller, Vienna Ab Initio Simulation Package 
+(VASP), the Guide; Computational Materials Physics, Faculty of Physics, 
+Universit¨at Wien, Vienna, Austria, 2014. 
+[21] G.Q. Zhong, H. Xiong, Y.Q. Jia, Synthesis, crystal structure, relative content of the 
+Mn4+ ion, tolerance factor and catalytic property of La1-xCaxMnO3 (x = 0.0-1.0), 
+Mater. Chem. Phys. 91 (2005) 10–16, https://doi.org/10.1016/j. 
+matchemphys.2004.09.047. 
+[22] V.P. Zhukov, I.R. Shein, Ab initio thermodynamic characteristics of the formation 
+of oxygen vacancies, and boron, carbon, and nitrogen impurity centers in anatase, 
+Phys. Solid State 60 (2018) 37–48, https://doi.org/10.1134/S1063783418010304. 
+[23] J. T¨opfer, U. Pippardt, I. Voigt, R. Kriegel, Structure, nonstoichiometry and 
+magnetic properties of the perovskites Sr1-xCaxMnO3-δ, Solid State Sci. 6 (2004) 
+647–654, https://doi.org/10.1016/j.solidstatesciences.2004.03.023. 
+[24] I.A. Leonidov, E.I. Konstantinova, M.V. Patrakeev, A.V. Chukin, V.L. Kozhevnikov, 
+Electron transport and mobility analysis in La/Sr co-doped CaMnO3–δ, J. Solid 
+State Electrochem. 21 (2017) 2099–2108, https://doi.org/10.1007/s10008-017- 
+3571-x. 
+[25] I.A. Leonidov, E.I. Konstantinova, M.V. Patrakeev, V.L. Kozhevnikov, Oxygen 
+thermodynamics and defect chemistry of nonstoichiometric manganites 
+Ca0.6−уSr0.4LaуMnO3−δ, J. Alloys Compd. 690 (2017) 80–85, https://doi.org/ 
+10.1016/j.jallcom.2016.08.031. 
+[26] Q. Zhou, B.J. Kennedy, Thermal expansion and structure of orthorhombic CaMnO3, 
+J. Phys. Chem. Solids 67 (2006) 1595–1598, https://doi.org/10.1016/j. 
+jpcs.2006.02.011. 
+[27] R.C. Yu, S.Y. Li, J.L. Zhu, F.Y. Li, Z. Zhang, C.Q. Jin, I.G. Voigt-Martin, Studies of 
+the Ca4Mn3O10 structure obtained using high pressure and high temperature, 
+J Phys Condens Matter. 14 (2002) 11119–11123, https://doi.org/10.1088/0953- 
+8984/14/44/436. 
+[28] N. Galinsky, A. Mishra, J. Zhang, F. Li, Ca1−xAxMnO3 (A = sr and Ba) perovskite 
+based oxygen carriers for chemical looping with oxygen uncoupling (CLOU), Appl. 
+Energy 157 (2015) 358–367, https://doi.org/10.1016/j.apenergy.2015.04.020. 
+[29] F.A. Kroger, H.J. Vink, Relations between the concentrations of imperfections in 
+crystalline solids, Solid State Phys. 3 (1956) 307–435, https://doi.org/10.1016/ 
+S0081-1947(08)60135-6. 
+[30] H. Satoh, M. Takagi, K. Kinukawa, N. Kamegashira, Heat capacity of LaMnO3, 
+Thermochim. Acta 299 (1997) 123–126. 
+[31] P. Holba, D. Sedmidubský, Heat capacity equations for nonstoichiometric solids, 
+J. Therm. Anal. Calorim. 113 (2013) 239–245, https://doi.org/10.1007/s10973- 
+012-2886-1. 
+[32] E. Mastronardo, X. Qian, J.M. Coronado, S.M. Haile, Impact of La doping on the 
+thermochemical heat storage properties of CaMnO3-δ, J Energy Storage. 40 (2021), 
+102793 https://doi.org/10.1016/j.est.2021.102793. 
+[33] E. Bakken, J. Boerio-Goates, T. Grande, B. Hovde, T. Norby, L. Rørmark, R. Stevens, 
+S. Stølen, Entropy of oxidation and redox energetics of CaMnO3-δ, Solid State Ionics 
+176 (2005) 2261–2267, https://doi.org/10.1016/j.ssi.2005.06.009. 
+[34] Y. Moritomo, A. Machida, E. Nishibori, M. Takata, M. Sakata, Enhanced specific 
+heat jump in electron-doped CaMnO3: spin ordering driven by charge separation, 
+Phys. Rev. B 64 (2001), 214409, https://doi.org/10.1103/PhysRevB.64.214409. 
+[35] J.J. Neumeier, K. Andres, A.L. Cornelius, Thermodynamic investigation of the 
+magnetic phase transitions of CaMnO3 and SrRuO3, Phys. Rev. B 64 (2001), 
+172406, https://doi.org/10.1103/PhysRevB.64.172406. 
+[36] S.K. Panda, Critical Evaluation and Thermodynamic Optimization of Calcium – 
+Magnesium – Manganese – Oxygen System, McGill University, Montreal, 2013. 
+[37] G.J. Hyland, A.M. Stoneham, Anharmonic specific heat of solid UO2, J. Nucl. 
+Mater. 96 (1981) 1–4. 
+[38] F.P. Zhang, X. Zhang, Q.M. Lu, J.X. Zhang, Y.Q. Liu, Electronic structure and 
+thermal properties of doped CaMnO3 systems, J. Alloys Compd. 509 (2011) 
+4171–4175, https://doi.org/10.1016/j.jallcom.2011.01.032. 
+[39] B. Bulfin, J. Vieten, D.E. Starr, A. Azarpira, C. Zach¨aus, M. H¨avecker, K. Skorupska, 
+M. Schmücker, M. Roeb, C. Sattler, Redox chemistry of CaMnO3 and 
+Ca0.8Sr0.2MnO3 oxygen storage perovskites, J. Mater. Chem. A 5 (2017) 
+7912–7919, https://doi.org/10.1039/c7ta00822h. 
+[40] K.J. Albrecht, G.S. Jackson, R.J. Braun, Evaluating thermodynamic performance 
+limits of thermochemical energy storage subsystems using reactive perovskite 
+oxide particles for concentrating solar power, Sol. Energy 167 (2018) 179–193, 
+https://doi.org/10.1016/j.solener.2018.03.078. 
+E.A. Antipinskaya et al.                                                                                                                                                                                                                       
+
+
+===== Page 12 =====
+
+Journal of Energy Storage 53 (2022) 105175
+12
+[41] F. Jin, C. Xu, H. Yu, X. Xia, F. Ye, X. Li, X. Du, Y. Yang, CaCo0.05Mn0.95O3-δ: a 
+promising perovskite solid solution for solar thermochemical energy storage, ACS 
+Appl. Mater. Interfaces 13 (2021) 3856–3866, https://doi.org/10.1021/ 
+acsami.0c18207. 
+[42] E. Mastronardo, X. Qian, J.M. Coronado, S. Haile, Fe-doped CaMnO3 for 
+thermochemical heat storage application, AIP Conf Proc. 2126 (2019), 210005, 
+https://doi.org/10.1063/1.5117754. 
+[43] L. Imponenti, K.J. Albrecht, R. Kharait, M.D. Sanders, G.S. Jackson, Redox cycles 
+with doped calcium manganites for thermochemical energy storage to 1000 ◦C, 
+Appl. Energy 230 (2018) 1–18, https://doi.org/10.1016/j.apenergy.2018.08.044. 
+[44] M. Pein, L. Matzel, L. Oliveira, G. Alkan, A. Francke, P. Mechnich, C. Agrafiotis, 
+M. Roeb, C. Sattler, Reticulated porous perovskite structures for thermochemical 
+solar energy storage, Adv. Energy Mater. 2102882 (2022) 2102882, https://doi. 
+org/10.1002/aenm.202102882. 
+[45] M. Abd Mutalib, M.A. Rahman, M.H.D. Othman, A.F. Ismail, J. Jaafar, Scanning 
+electron microscopy (SEM) and energy-dispersive X-ray (EDX) spectroscopy, 
+Elsevier B.V. (2017), https://doi.org/10.1016/B978-0-444-63776-5.00009-7. 
+E.A. Antipinskaya et al.                                                                                                                                                                                                                       

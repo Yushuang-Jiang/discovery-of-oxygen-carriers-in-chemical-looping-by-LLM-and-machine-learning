@@ -1,0 +1,552 @@
+
+
+===== Page 1 =====
+
+Energy Sources, Part A: Recovery, Utilization, and
+Environmental Eﬀects
+ISSN: 1556-7036 (Print) 1556-7230 (Online) Journal homepage: www.tandfonline.com/journals/ueso20
+Chemical looping co-gasiﬁcation of lignite
+and rice husk for syngas generation with a Co
+decorated Cu-based oxygen carrier
+Tianle Li, Yuchao Chen, Qiao Wu & Wenju Wang
+To cite this article: Tianle Li, Yuchao Chen, Qiao Wu & Wenju Wang (2025) Chemical looping
+co-gasiﬁcation of lignite and rice husk for syngas generation with a Co decorated Cu-based
+oxygen carrier, Energy Sources, Part A: Recovery, Utilization, and Environmental Eﬀects, 47:1,
+3429-3440, DOI: 10.1080/15567036.2020.1852340
+To link to this article:  https://doi.org/10.1080/15567036.2020.1852340
+Published online: 29 Nov 2020.
+Submit your article to this journal 
+Article views: 296
+View related articles 
+View Crossmark data
+Citing articles: 1 View citing articles 
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=ueso20
+
+
+===== Page 2 =====
+
+Chemical looping co-gasification of lignite and rice husk for syngas 
+generation with a Co decorated Cu-based oxygen carrier
+Tianle Li, Yuchao Chen, Qiao Wu, and Wenju Wang
+School of Energy and Power Engineering, Nanjing University of Science and Technology, Nanjing, China
+ABSTRACT
+In this work, the steam gasification and chemical looping gasification (CLG) 
+of lignite and rice husk (LRH) over 5% Co3O4/CuO oxygen carrier were 
+conducted on a fixed-bed system by non-isothermal method. The non- 
+isothermal oxygen uncoupling experiments showed that the oxygen uncou­
+pling temperature of 5% Co3O4/CuO (730°C) was lower than that of CuO 
+(800°C). It was ascribed to the synergy of CuO and Co3O4. The gasification 
+results showed that the yields of gas products (H2, CO, CO2 and CH4) in CLG 
+of lignite or rice husk were higher than that in steam gasification because of 
+the catalytic function of Co3O4/CuO oxygen carrier. Moreover, the catalysis of 
+K and the transferring of active OH and H radicals from the biomass to the 
+coal will show a synergetic effect between LRH. So the yields of gas products 
+in chemical looping co-gasification (CLCG) were also higher than that in 
+steam co-gasification or individual CLG. Furthermore, the carbon conversion 
+rate in CLCG of LRH was 24.99% higher than that in steam co-gasification. It 
+showed that CLCG of coal and biomass was effective for syngas generation, 
+and the presence of 5% Co3O4/CuO oxygen carrier enhanced the generation 
+of syngas.
+ARTICLE HISTORY 
+Received 1 August 2020  
+Revised 29 October 2020  
+Accepted 11 November 2020 
+KEYWORDS 
+Chemical looping; co- 
+gasification; Cu-Co oxygen 
+carrier; synergy; syngas
+Introduction
+Syngas (consisting mainly of H2 and CO) can be produced from carbonaceous materials, and it is an 
+important raw material for a number of different chemical products (Sheng et al. 2017; Yang et al.  
+2019). Nowadays, people prefer to obtain syngas by solid fuels (Guo et al. 2014). However, direct 
+combustion of solid fuels brought serious environmental problems (Wang et al. 2017b). Chemical 
+looping gasification (CLG) has been suggested to be the most promising technology for its great 
+potential to solve energy and environmental problems (Qi et al. 2017). In the CLG process, the oxygen 
+carrier circulates in the fuel reactor to transfer oxygen and heat to the fuel, thereby avoiding direct 
+contact between fuel and air (Li et al. 2020). Compared with other typical gasification process, CLG 
+process saved the demand of oxygen and heat. (Siriwardane et al. 2016).
+Because of the high volatile content, porosity, and reactivity (Long and Wang 2011; Wei et al. 2020), 
+we chose lignite as the carbon source for CLG. It has been reported that biomass facilitated the 
+gasification of coal and it increased the yields of syngas by the reason of a positive synergy between the 
+active sites of the biomass and coal. The interaction was formed not only by the H and OH radicals 
+formed during co-pyrolysis (Krerkkaiwan et al. 2013), but also by the catalysis of alkali metals such as 
+potassium in biomass(Mallick, Mahanta, and Moholkar 2017). Co-gasification of biomass and coal 
+was favorable because that it reduced the dependency on fossil fuels and improved the temperature of 
+gasification and conversion of carbon. (Bhui and Vairakannu 2018) reported that lignite could 
+produce syngas with calorific value of 226.8 kJ/mol under stream gasification, and the calorific value 
+CONTACT Wenju Wang 
+wangwenju1982@gmail.com, wangwenju1982@163.com. 
+School of Energy and Power 
+Engineering, Nanjing University of Science and Technology, Nanjing 210094, China
+ENERGY SOURCES, PART A: RECOVERY, UTILIZATION, AND ENVIRONMENTAL EFFECTS 
+2025, VOL. 47, NO. 1, 3429–3440 
+https://doi.org/10.1080/15567036.2020.1852340
+© 2020 Taylor & Francis Group, LLC
+
+
+===== Page 3 =====
+
+of syngas increased to 237 kJ/mol when biomass was blended with the lignite. Rice husk is a valuable 
+biomass type, and there are about 7 × 107 tons of rice husks produced annually just in China (Jiang 
+et al. 2003). Furthermore, rice husk has higher volatile content, higher O/C ratio, and H/C ratio, which 
+makes it have good thermal reactivity. Making full use of these waste rice husks will greatly alleviate 
+the energy crisis. Basing on that, we researched the chemical looping co-gasification (CLCG) of LRH.
+The choice of oxygen carrier is crucial in the key chemical looping reactions. Its thermodynamics 
+properties, oxygen transport capacity, reactivity, resistance to sintering, cost, and environmentally 
+friendly characteristics should be considered in the selection process (Adanez et al. 2012; Li et al.  
+2009). Abundant works have been reported on the development of high-performance stable oxygen 
+carriers. Metal-based oxides (Cu, Ni, Co, Fe, Mn) have been widely used in chemical looping process. 
+Among these oxygen carriers, Cu-based oxygen carriers have the advantages of high reactivity (Means 
+et al. 2019), strong oxygen transfer capacity (Zheng et al. 2020), high lattice oxygen content (Liu and 
+Wang 2018), good sintering resistance (Zhang et al. 2015), low price, and environmental friendliness 
+(Dai and Whitty 2020). These characteristics make Cu-based oxygen carriers have promising applica­
+tion prospects. Compared with other oxygen carriers, Co3O4 has received less attention due to its high 
+cost and low decomposition temperature of 900°C(Fu and Grant 2015; Hossain and De Lasa 2008). 
+However, Co3O4 has the highest available oxygen content (Wang et al. 2020), higher reactivity of 
+oxidation and reduction reactions (Alalwan, Cwiertny, and Grassian 2017), and good resistance to 
+sintering at high temperature (Li et al. 2017). All of these properties make Co3O4 as a good oxygen 
+carrier. Studies of CuO and Co3O4 in chemical looping system have been reported in lots of literatures 
+in recent years. (Kuang et al. 2020) investigated the reaction of CuO supported on iron ore, chrysolite, 
+and limestone with biomass char, and the conversion reached over 90% under N2 atmosphere and 95% 
+under CO2 atmosphere. (Alalwan, Cwiertny, and Grassian 2017) researched the chemical looping 
+combustion of CH4 over Co3O4 oxygen carrier, they found that the oxidation rate and the degree of 
+CH4 oxidation to CO2 reached the maximum at 700°C. However, few publications have been devoted 
+to chemical looping system over a mixed oxygen carrier of CuO and Co3O4.
+In this work, CLG of rice husk or lignite, and CLCG of LRH were conducted over 5% Co3O4/CuO 
+oxygen carrier on a fixed-bed system by non-isothermal method. The gaseous products were analyzed 
+by a gas chromatography finally.
+Experimental
+Materials preparation
+The 5% Co3O4/CuO oxygen carrier was synthesized by using a sol-gel technique. Firstly, Co(NO3)2  
+· 6H2O and Cu(NO3)2 · 3H2O (1:20) were added into deionized water to prepare the mixed solution. 
+0.3 M citric acid solution was then added into the mixed solution. The molar ratio of metal ions to 
+citric acid was 2:1. The final solution was stirred in a water bath at 80°C to get a viscous gel. The 
+obtained solid was then put in an oven at 120°C to make a xerogel. Finally, the xerogel was calcined at 
+800°C for 1 h with a heating rate of 10°C/min. After being ground into particles, the composite oxygen 
+carrier (5% Co3O4/CuO) was prepared.
+Oxygen content, moisture content, volatile content and ash content in lignite are about 15%~30%, 
+15%~40%, 35%~60%, and 20%, respectively. Lignite has a low calorific value, which is about 
+12.56 ~ 14.65 MJ/kg. The proximate and ultimate analysis of the lignite are shown in Table 1. The 
+Table 1. Proximate and ultimate analyses of LRH.
+Proximate analysis(wt%, ad)
+Ultimate analysis (wt%,daf)
+Mad
+Vad
+Aad
+FCad
+C
+H
+O
+N
+S
+Lignite
+9.9
+46.8
+17.6
+25.7
+81.96
+3.74
+15.19
+1.63
+1.22
+Rice husk
+7.4
+73.78
+11.01
+7.81
+23.4
+10.26
+64.13
+0.77
+1.44
+3430
+T. LI ET AL.
+
+
+===== Page 4 =====
+
+rice husk and lignite were both dried at 80°C followed by calcination at 600°C for 2 h in N2. The lignite 
+is ground into powder with the size range of 400–800 μm, and the average size of rice husk is about 
+180 μm.
+ad: on air-dry basis daf: on dry-ash-free basis
+Tests of oxygen release performances
+The schematic diagram of fixed-bed system for oxygen uncoupling experiments is illustrated in Figure 
+1. The oxygen carrier of 5%Co3O4/CuO sample was put into the middle of a quartz reactor equipped 
+with a temperature-programmed tube furnace. Prior to each run, Ar with high-purity was poured into 
+the reactor until the indication of O2 in zirconia oxygen analyzer dropped below 10 ppm. The sample 
+was heated from 20 to 1000 °C with a heating rate of 10°C/min. The experimental results were 
+recorded by the zirconia oxygen analyzer.
+Gasification experiments
+The schematic diagram of the gasification devices is shown in Figure 2, CLG and CLCG were 
+conducted in this system. The mixture of weighed oxygen carrier and fuel was carefully poured into 
+the quartz tube filled with silica wool at the bottom. A certain amount of distilled water was injected 
+Figure 1. Schematic diagram of experimental system for oxygen uncoupling.
+Figure 2. Schematic diagram of gasification experimental system for tests of oxygen carrier performance.
+ENERGY SOURCES, PART A: RECOVERY, UTILIZATION, AND ENVIRONMENTAL EFFECTS
+3431
+
+
+===== Page 5 =====
+
+into the liquid feeding device, and the liquid hourly space velocity (LHSV) was fixed at 3 h−1. Prior to 
+each run, the reactor was swept for 30 min by Ar to remove the residual air completely. The 
+temperature programmed reduction (TPR) test was conducted at 900°C for 2 h under N2 atmosphere 
+(60 mL/min) with a heating rate of 10°C/min. And the distilled water was pumped into the system 
+when the temperature rose to 300°C. The outlet gases were analyzed online by a gas chromatography 
+finally.
+Characterization techniques
+The released amount of oxygen was recorded by a zirconia oxygen analyzer (ZO-2000, NERNST 
+Instrument Co. Ltd. Nanjing, China).
+X-ray diffractograms were obtained by a Rigaku D/max-2500 instrument with CuKα radiation 
+(λ = 0.154 nm). Diffraction angles (2θ) were scanned every 0.02° from 10° to 80°.
+The SEM analysis was performed using a (COXEM)EM-30 Plus SEM. Two magnifications at 
+5000× and 10000× were selected to be analyzed.
+Results and discussion
+Characterization of fresh catalyst
+All kinds of single metal oxides have their own defects. The interaction between metal oxides can 
+effectively suppress the phase transition at high temperatures. The non-isothermal oxygen uncoupling 
+experiments of CuO and 5% Co3O4/CuO were conducted on a fixed-bed system, and the oxygen 
+uncoupling curves were shown in Figure 3. The oxygen-uncoupling temperature of CuO is 800°C, 
+while that of 5% Co3O4/CuO is 730°C. It has been reported that CuO released O2 and converted into 
+Cu2O at about 800°C in Ar atmosphere (Hosseini et al. 2015; Wang et al. 2017a). The lower oxygen 
+uncoupling temperature of 5% Co3O4/CuO oxygen carriers may be concluded as the synergy of CuO 
+and Co3O4. In addition, the gaseous oxygen release of CuO and Co3O4 was 20% and 26.6% 
+Figure 3. The oxygen uncoupling curves of CuO and 5% Co3O4/CuO.
+3432
+T. LI ET AL.
+
+
+===== Page 6 =====
+
+theoretically. In our test, the amount of oxygen releasing over CuO reached 10%, and the similar result 
+was reported by (Zhang, Yu, and Zhang 2009).
+The phase of 5% Co3O4/CuO was characterized by XRD analysis, and the results were shown in 
+Figure 4. The patterns of 5% Co3O4/CuO are matched well with the characteristic peaks of the 
+standard XRD patterns of CuO. The diffraction peaks at 32.5°, 35.5°, 38.7°, 48.8°, 53.4°, 58.3°, 61.5°, 
+65.8°, 68.1°, 72.4 and 75.0° are corresponding to the distinctive reflection plans ((110), (002), (111), 
+(−202), (020), (020), (202), (−113), (022), (220), (311), (004)) of CuO (Reddy 2017). It was noted that 
+there are no peaks related to impurities including Co3O4, which was ascribed to the low contents of 
+Co3O4.
+The external morphology of the 5% Co3O4/CuO has been captured from the SEM, and the SEM 
+picture is illustrated in Figure 5. The CuO looks more like spherical particles and the size of the 
+particles were observed within the range of 0.3–1 μm. There are some uneven holes which are formed 
+by gases released from citric acid and nitrate during the calcination process (Costa et al. 2013).
+Figure 4. XRD patterns of the 5% Co3O4/CuO.
+Figure 5. SEM images of 5% Co3O4/CuO under different magnifications. (a) 5 k× and (b) 10 k × .
+ENERGY SOURCES, PART A: RECOVERY, UTILIZATION, AND ENVIRONMENTAL EFFECTS
+3433
+
+
+===== Page 7 =====
+
+CLG of lignite
+The gasification process of coal includes pyrolysis, steam gasification, water-gas shift reaction, carbon 
+gasification reaction, methanation reaction and so on. The outlet gaseous production in CLG included 
+H2, CO, CO2 and CH4, and these gases were analyzed online by a gas chromatography. The gas yields 
+with unit mass were obtained by integrating the flow rate values of produced gas. The changes of gas 
+production rates with time are shown in Figure 6. The maximum yield of H2 is 0.03 mol/g in lignite 
+char gasification and that is 0.05 mol/g in CLG of lignite. The H2 yield in CLG of lignite is 40% higher 
+than that in steam gasification of lignite. H2 is mainly produced by the water-gas shift reaction 
+(CO+H2O→CO2+ H2) and the gasification reaction between lignite and steam (char(C)+H2O→H2 
++ CO). The increased H2 yield is due to that the heat released from CLG improved the water gas shift 
+reaction of CO and the gasification of tar. The maximum yields of CO and CO2 are 0.014 mol/g and 
+0.025 mol/g in the gasification of lignite, respectively. It increases to 0.02 mol/g and 0.03 mol/g in CLG 
+of lignite with 5% Co3O4/CuO as oxygen carrier. For the increase of CO yields, there are two reasons to 
+explain it. On the one hand, the reduction reaction of oxygen carrier (C+ CuO→CO+Cu) provides the 
+heat for the gasification of lignite. The equilibrium shift improves the CO yield. On the other hand, the 
+reduction of CO2 (C+ CO2→2CO) obtained from chemical looping combustion (CLC) produces CO. 
+CO2 was mainly produced by water-gas shift reaction, the reaction of C with CuO (C + 2CuO→CO2 
++ Cu) and the reaction of CO with CuO (CO+2CuO→CO2+ Cu2O). CO2 generates slowly in the initial 
+stage of reaction due to the inadequate oxygen concentration. The ratio of H2 to CO in yield is 2.5:1. It 
+was because the water-gas shift reaction led to a larger proportion and a higher product mass of H2. 
+CH4 is mainly produced by the pyrolysis of lignite. However, the yield of CH4 is relatively low, and it is 
+always below 0.0015 mol/g.
+(a:H2, b:CO, c: CH4, d: CO2)
+CLG of rice husk
+The steam gasification and the CLG reaction of rice husk were performed with 5% Co3O4/CuO as 
+oxygen carrier. The mass of rice husk and 5% Co3O4/CuO were both 0.5g. From the gasification results 
+in Figure 7, we can draw that the yield of H2 in the CLG of rice husk is 0.016 mol/g, which is 45.45% 
+Figure 6. Yields of produced gases in CLG of lignite.
+3434
+T. LI ET AL.
+
+
+===== Page 8 =====
+
+higher than that in the gasification of rice husk. The main reasons for the improvement in CLG are 
+concluded as two aspects. First, the exothermic reaction of oxygen carrier provides more heat for rice 
+husk gasification. According to the theory of Le Chatelier, the high temperature is beneficial to the 
+equilibrium of exothermic reaction. The equilibrium shift improves the gasification of C with steam. 
+Second, the secondary cracking and the catalysis of oxygen carrier also increase the H2 yield. The CO 
+yield in CLG of rice husk is 0.005 mol/g, which is 66.67% higher than that in gasification of rice husk. 
+The heat provided by the exothermic reaction of oxygen carrier in CLG promotes the conversion of 
+semi-coke fixed carbon to CO. In the CLG process and gasification process of rice husk, the CO yield is 
+33.33% and 27.27% of the H2 yield, respectively. The proportion of CO to H2 in the CLG of rice husk is 
+higher than that in rice husk gasification, which is a disadvantage of the CLG process. The CH4 yield in 
+CLG of rice husk is 4 × 10−4 mol/g, which is 166.7% higher than that of rice husk gasification. This 
+situation is caused by the high temperature and the high yield of H2 and CO. In that condition, the 
+methanation reaction of H2 and CO produces more CH4. The secondary cracking of tar interferes with 
+the reforming reaction of CH4 with steam and the transition from CH4 to H2 and CO. The proportion 
+of CH4 in available gases in CLG of rice husk is 1.27%, and 0.68% in rice husk gasification. It turned 
+out that the presence of oxygen carrier could improve the proportion of CH4 in available gases. The 
+CO2 yield in CLG of rice husk is 0.001 mol/g, which is 25% higher than that in rice husk gasification. In 
+the steam gasification of rice husk, the H2O molecule adsorbed on the surface of carbon atom breaks 
+down into a hydrogen atom and a hydroxyl group, and the hydroxyl groups with strong oxidizing 
+property oxidize CO to CO2. Furthermore, the presence of oxygen carrier in CLG process improves 
+the oxidation reaction of C. Hence, the yield of CO2 increases. In brief, the yields of four kinds of gases 
+in the CLG of rice husk are higher than those in steam gasification.
+Steam co-gasification and CLCG of LRH
+Biomass showed high volatile content and good carbon sequestration activity. The co-gasification of 
+coal and biomass can increase the gasification temperature, carbon conversion rate and the decom­
+position of tar. Besides, the synergy in co-gasification improves the efficiency of gasification reactions. 
+The synergy is explained as the stimulative effect of an alkali metal such as K in biomass.
+Figure 7. Yields of produced gases in the CLG of rice husk. (a) H2, (b) CO, (c) CH4, (d) CO2
+ENERGY SOURCES, PART A: RECOVERY, UTILIZATION, AND ENVIRONMENTAL EFFECTS
+3435
+
+
+===== Page 9 =====
+
+Steam co-gasification of LRH
+In the steam co-gasification experiments of LRH, the weight ratio of lignite/rice husk blend (0.5g) was 
+50:50%, it was reported that the synergistic effect of biomass and coal is most significant when the ratio 
+of biomass to coal is 1:1 (Krerkkaiwan et al. 2013). The gasification results were shown in Figure 8. It is 
+found that the H2 yield in lignite gasification is 3.5 times of that in steam gasification rice husk 
+gasification. The yield of H2 in steam co-gasification of LRH is 71.43% of that in gasification of 0.5g 
+lignite, and the H2 yield in 0.5 g rice husk gasification is 40% of that in steam co-gasification. (Arifin 
+et al. 2015) also found that co-gasification of LRH enhanced the hydrogen content in syngas when the 
+mass yield of coal was around 50%. The yield of CO in co-gasification of LRH is 64.29% of that in 0.5 
+g lignite gasification, and the CO yield in 0.5 g rice husk gasification is 33.33% of that in co-gasification. 
+The yield of CH4 in co-gasification is 54.55% of that in 0.5 g lignite gasification. The CH4 yield in 0.5 
+g rice husk gasification is 33.33% of that in co-gasification. The yield of CO2 in co-gasification is 
+66.67% of that in 0.5 g lignite gasification, and the CO2 yield in 0.5 g rice husk gasification is 37.52% of 
+that in co-gasification. Moreover, the mass of lignite in co-gasification is only half of that in individual 
+gasification. It suggested that the yields of produced gases in steam co-gasification of LRH were higher 
+than those in steam gasification of lignite, which was caused by the transferring of active OH and 
+H radicals from rice husk to the lignite and a promoting effect of K released from biomass. Similar 
+results have been reported that the K released from the cedar bark will condense on the surface of coal 
+tar in the co-pyrolysis, and it will facilitate the reaction (Wannapeera, Fungtammasan, and 
+Worasuwannarak 2011).
+CLCG of LRH
+The CLCG experiments of LRH were conducted with 5% Co3O4/CuO as an oxygen carrier. The weight 
+ratio of rice husk/lignite was 50:50% (both 0.25 g), and the weight of 5% Co3O4/CuO was 0.5 g. The 
+experimental results of CLCG and CLG of 0.5 g lignite or 0.5 g rice husk are shown in Figure 9.
+The H2 yield in CLCG of rice husk and lignite is 80.22% of that in the CLG of 0.5 g lignite, and the 
+yield of H2 in the CLG of 0.5 g rice husk is 37.5% of that in CLCG. The CO yield in CLCG of 0.5 
+g lignite is 70.52% of that in CLG, and the yield of CO in the CLG of 0.5 g rice husk is 35.71% of that in 
+CLCG. The yield of CH4 in CLCG is 66.67% of that in CLG of 0.5 g lignite. The CH4 yield in CLG of 
+Figure 8. Gases yields in steam co-gasification and individual steam gasification. (a) H2, (b) CO, (c) CH4, (d) CO2
+3436
+T. LI ET AL.
+
+
+===== Page 10 =====
+
+0.5 g rice husk is 40.23% of that in CLCG. The CO2 yield in CLCG is 78.12% of that in CLG of 0.5 g 
+lignite, and the yield of CO2 in CLG of 0.5 g rice husk is only 40.21% of that in CLCG. By comparing 
+these data, we found that the results are better in CLCG, as the mass of lignite in CLCG is only half of 
+that in CLG. Similarly, the better effect may be also attributed to the H and OH radicals and the 
+catalysis of alkali metal, especially potassium (K) which was beneficial for the decomposition of 
+secondary char and char gasification (Howaniec et al. 2011; Krerkkaiwan et al. 2013).
+The comparison of steam co-gasification and CLCG
+The comparison of steam co-gasification and CLCG of LRH are listed in Table 2. The synergy in co- 
+gasification promotes the yields of available gases. The performance differences between steam co- 
+gasification and CLCG were discussed as follows.
+The yields of H2 in CLCG of 0.25 g lignite and 0.25 g rice husk are 1.32 times higher than the 
+algebraic superposition of that in CLG of 0.25 g lignite and 0.25 g rice husk. The algebraic super­
+position of gaseous yields of CO, CO2 and CH4 in CLG of 0.25 g lignite and 0.25 g rice husk are 
+84.62%, 91.67%, and 94.4% of that in CLCG of 0.25 g lignite, and 0.25 g rice husk, respectively. The 
+gasification reactions of rice husk are mainly based on the break of weak ether bond (R-O-R) in lignin 
+and cellulose (Moghtaderi, Meesri, and Wall 2004). So the activation energy of rice husk gasification 
+reactions is low. The structure of coal mostly comprises dense polycyclic aromatic hydrocarbon linked 
+by C = C bond, and the gasification of coal depended on the break of C = C bond whose bond energy is 
+about 1000 kJ/mol (Zhang et al. 2007). Therefore, the activation energy of coal gasification reactions is 
+Figure 9. Gases yields in CLG and CLCG of LRH. (a) H2, (b) CO, (c) CH4, (d) CO2
+Table 2. Comparison of gas production.
+Gas (mol/ 
+g)
+Steam gasification
+CLG
+Algebraic superposition of individual steam 
+gasification
+Steam co- 
+gasification
+Algebraic superposition of indivi­
+dual CLG
+CLCG
+H2
+0.023
+0.026
+0.025
+0.033
+CO
+8.60 × 10−3
+9.36 × 10−3
+0.011
+0.013
+CH4
+6.28 × 10−4
+6.49 × 10−4
+9.44 × 10−4
+0.0010
+CO2
+0.016
+0.017
+0.022
+0.024
+ENERGY SOURCES, PART A: RECOVERY, UTILIZATION, AND ENVIRONMENTAL EFFECTS
+3437
+
+
+===== Page 11 =====
+
+high. In the CLCG reactions of LRH, oxygen carrier provided a high oxidation rate and good 
+reactivity. The catalysis of oxygen carrier facilitated the break of C = C bond and weak ether bond. 
+As a result, the gases yields were higher in CLCG than that in steam in co-gasification. In addition, the 
+ratio of H2 to CO in CLCG of 0.25 g lignite and 0.25 g rice husk is 2.54, and it is 2.27 in the algebraic 
+superposition of CLG of 0.25 g lignite and 0.25 g rice husk. The higher ratio of H2 to CO in CLCG was 
+due to the catalysis of oxygen carrier, which accelerated the equilibrium shift toward the direction of 
+generating H2.
+The carbon conversion in steam co-gasification and CLCG
+The conversion of carbon in different gasification experiments was shown in Figure 10. The 
+C conversion of lignite in steam gasification is 58.45%. In CLG process, the C conversion in of lignite 
+is 80.9%, which is 22.45% higher than that in steam gasification. The C conversion of rice husk in 
+steam gasification is 60.05%. The C conversion of rice husk in CLG is 82.5%, which is 22.45% higher 
+than that in steam gasification. What is more, the C conversion in the steam co-gasification of LRH is 
+62.43%, and in CLCG process, the C conversion of LRH is 87.42%, which is 24.99% higher than that in 
+steam co-gasification. In addition, the C conversion in co-gasification is also higher than that in 
+individual feed gasification. The higher C conversion in CLCG is due to the effect of 5%Co3O4/CuO 
+oxygen carrier. There are also researchers reported that the carbon conversion rate and the yields of 
+available gases in co-gasification of coal and biomass are larger than those in coal gasification (Song 
+et al. 2006; Tursun et al. 2016). (Figueiredo, Orfão, and Ferraz 1984) found that Co improved the 
+production of carbon with well-developed mesoporosity in gasification of biomass char. The porous 
+carbon indicates the improvement on carbon gasification of Co catalyst. (Furusawa and Tsutsumi  
+2005) reported that Co catalyst was a promising catalyst and it increases the energy efficiency of 
+biomass gasification system.
+Conclusions
+In this work, the performance of 5% Co3O4/CuO oxygen carrier in steam gasification and CLCG was 
+tested in a gasification experimental system. The gaseous products were analyzed by a gas 
+Figure 10. C conversion in different gasification experiments.
+3438
+T. LI ET AL.
+
+
+===== Page 12 =====
+
+chromatography. The oxygen uncoupling temperature of CuO was 800°C, while that of 5%Co3O4 
+/CuO was 730°C, which was concluded as the synergy of CuO and Co3O4. The XRD and SEM revealed 
+the crystal structural and the external morphology of 5%Co3O4/CuO. Due to the transfer of H and OH 
+radicals and the catalysis of alkali metal in rice husk, there is a synergy between LRH, which improved 
+the efficiency of gasification. The yields of (H2, CO, CO2 and CH4) in the CLG of rice husk or lignite 
+were all higher than that in the steam gasification. In addition, it was found that the yields of gases (H2, 
+CO, CO2 and CH4) in CLCG of 0.25 g lignite and 0.25 g rice husk were all higher than the algebraic 
+superposition of that in CLG of 0.25 g lignite and 0.25 g rice husk. The ratio of H2 to CO in CLCG of 
+0.25 g lignite and 0.25 g rice husk is 2.54, which is 11.89% higher than that in the algebraic super­
+position of CLG of 0.25 g lignite and 0.25 g rice husk. Furthermore, the C conversion in co-gasification 
+was also higher than that in individual feed gasification, and in CLCG process, the C conversion of 
+LRH is 24.99% higher than that in steam co-gasification. Given the advantages of CLCG, we will try 
+more catalysts (such as spinel and perovskite) to increase the yields of syngas in the future.
+Acknowledgments
+This work is financially supported by the National Natural Science Foundation of China, China (No.21676148), and the 
+Fundamental Research Funds for the Central Universities, China (No.30918012202).
+Funding
+This work was supported by the National Natural Science Foundation of China [China (No.21676148)]; Fundamental 
+Research Funds for the Central Universities [China (No.30918012202)].
+References
+Adanez, J., A. Abad, F. Garcialabiano, P. Gayan, and L. F. De Diego. 2012. Progress in chemical-looping combustion and 
+reforming technologies. Progress in Energy and Combustion Science 38:215–82.
+Alalwan, H. A., D. M. Cwiertny, and V. H. Grassian. 2017. Co3O4 nanoparticles as oxygen carriers for chemical looping 
+combustion: A materials characterization approach to understanding oxygen carrier performance. Chemical 
+Engineering Journal 319:279–87.
+Arifin, Z., S. S. Putri, H. Kusbandriyo, K. J. Kroda, A. H. Wibowo, A. Setyo Nugroho, and Dharmanto. 2015. Synthesis of 
+activated carbon from coal for enhancing hydrogen content in syngas from co-gasification of rice husk and coal. 
+Applied Mechanics and Materials 699:723–29.
+Bhui, B., and P. Vairakannu. 2018. Chemical looping and plasma technologies for gasification of coal and biomass. In 
+Coal and biomass gasification: Recent advances and future challenges, ed. S. De, A. K. Agarwal, V. S. Moholkar, and B. 
+Thallada, 499–520. Singapore: Springer.
+Costa, A. F., P. M. Pimentel, F. M. Aquino, D. M. A. Melo, M. A. F. Melo, and I. M. G. Santos. 2013. Gelatin synthesis of 
+CuFe2O4 and CuFeCrO4 ceramic pigments. Materials Letters 112:58–61.
+Dai, J., and K. J. Whitty. 2020. Impact of fuel-derived chlorine on CuO-based oxygen carriers for chemical looping with 
+oxygen uncoupling. Fuel 263:116780.
+Figueiredo, J., J. M. Orfão, and M. C. A. Ferraz. 1984. Catalytic gasification of chars. Fuel 63:1059–60.
+Fu, C., and P. S. Grant. 2015. Toward low-cost grid scale energy storage: Supercapacitors based on up-cycled industrial 
+mill scale waste. ACS Sustainable Chemistry & Engineering 3:2831–38.
+Furusawa, T., and A. Tsutsumi. 2005. Development of cobalt catalysts for the steam reforming of naphthalene as a model 
+compound of tar derived from biomass gasification. Applied Catalysis. A, General 278:195–205.
+Guo, Q., Y. Cheng, Y. Liu, W. Jia, and H. Ryu. 2014. Coal chemical looping gasification for syngas generation using an 
+iron-based oxygen carrier. Industrial & Engineering Chemistry Research 53:78–86.
+Hossain, M. M., and H. De Lasa. 2008. Chemical-looping combustion (CLC) for inherent CO2 separations—a review. 
+Chemical Engineering Science 63:4433–51.
+Hosseini, D., Q. Imtiaz, P. Abdala, S. Yoon, A. Kierzkowska, A. Weidenkaff, and C. R. Muller. 2015. CuO promoted Mn2 
+O3-based materials for solid fuel combustion with inherent CO2 capture. Journal of Materials Chemistry A 
+3:10545–50.
+Howaniec, N., A. Smoliński, K. Stańczyk, and M. Pichlak. 2011. Steam co-gasification of coal and biomass derived chars 
+with synergy effect as an innovative way of hydrogen-rich gas production. International Journal of Hydrogen Energy 
+36:14455–63.
+ENERGY SOURCES, PART A: RECOVERY, UTILIZATION, AND ENVIRONMENTAL EFFECTS
+3439
+
+
+===== Page 13 =====
+
+Jiang, H., X. Zho, Q. Geo, and Q. Zhu. 2003. Gasification of rice husk in a fluidized-bed gasifier without inert additives. 
+Industrial & Engineering Chemistry Research 42:5745–50.
+Krerkkaiwan, S., C. Fushimi, A. Tsutsumi, and P. Kuchonthara. 2013. Synergetic effect during co-pyrolysis/gasification 
+of biomass and sub-bituminous coal. Fuel Processing Technology 115:11–18.
+Kuang, C., S. Wang, M. Luo, J. Cai, and J. Zhao. 2020. Investigation of CuO-based oxygen carriers modified by three 
+different ores in chemical looping combustion with solid fuels. Renewable Energy 154:937–48.
+Li, F., H. R. Kim, D. Sridhar, F. Wang, L. Zeng, J. Chen, and L. S. Fan. 2009. Syngas chemical looping gasification process: 
+Oxygen carrier particle selection and performance. Energy & Fuels 23:4182–89.
+Li, T., Q. Wu, W. Wang, Y. Xiao, C. Liu, and F. Yang. 2020. Solid-solid reaction of CuFe2O4 with C in chemical looping 
+system: A comprehensive study. Fuel 267:117163.
+Li, X., X. Du, X. Ma, Z. Wang, X. Hao, A. Abudula, A. Yoshida, and G. Guan. 2017. CuO nanowire@Co3O4 ultrathin 
+nanosheet core-shell arrays: An effective catalyst for oxygen evolution reaction. Electrochimica Acta 250:77–83.
+Liu, C., and W. Wang. 2018. Chemical looping gasification of pyrolyzed biomass and coal char with copper ferrite as an 
+oxygen carrier. Journal of Renewable and Sustainable Energy 10:063101.
+Long, H. A., and T. Wang. 2011. Case studies for Biomass/coal co-gasification in IGCC applications. ASME 2011 Turbo 
+Expo: Turbine Technical Conference and Exposition. American Society of Mechanical Engineers Digital Collection, 
+Vancouver, British Columbia, Canada, 547–61.
+Mallick, D., P. Mahanta, and V. S. Moholkar. 2017. Co-gasification of coal and biomass blends: Chemistry and 
+engineering. Fuel 204:106–28.
+Means, N. C., W. A. Burgess, B. H. Howard, M. W. Smith, P. Wang, and D. Shekhawat. 2019. Examining and modeling 
+oxygen uncoupling kinetics of cu-based oxygen carriers for Chemical Looping with Oxygen Uncoupling (CLOU) in 
+a drop tube fluidized bed reactor. Energy & Fuels 33:5610–19.
+Moghtaderi, B., C. Meesri, and T. F. Wall. 2004. Pyrolytic characteristics of blended coal and woody biomass. Fuel 
+83:745–50.
+Qi, B., Z. Xia, G. Y. Huang, and W. Wang. 2017. Study of chemical looping co-gasification (CLCG) of coal and rice husk 
+with an iron-based oxygen carrier via solid–solid reactions. Journal of the Energy Institute 92:382–90.
+Reddy, K. R. 2017. Green synthesis, morphological and optical studies of CuO nanoparticles. Journal of Molecular 
+Structure 1150:553–57.
+Sheng, W. C., S. Kattel, S. Y. Yao, B. H. Yan, Z. X. Liang, C. J. Hawxhurst, t, Q. Y. Wu, and J. G. G. Chen. 2017. 
+Electrochemical reduction of CO2 to synthesis gas with controlled CO/H2 ratios. Energy & Environmental Science 
+10:1180–85.
+Siriwardane, R., J. Riley, H. Tian, and G. Richards. 2016. Chemical looping coal gasification with calcium ferrite and 
+barium ferrite via solid–solid reactions. Applied Energy 165:952–66.
+Song, X. C., K. Z. Li, J. F. Wang, Z. B. Dong, and J. C. Bi. 2006. Experimental study on co-gasification of biomass and 
+coal. Ranliao Huaxue Xuebao 34:303–08.
+Tursun, Y., S. Xu, C. Wang, Y. Xiao, and G. Wang. 2016. Steam co-gasification of biomass and coal in decoupled 
+reactors. Fuel Processing Technology 141:61–67.
+Wang,B., Q. Ma, W. Wang, C. Zhang, D. Mei, H. Zhao, et al. 2017a. Effect of reaction temperature on the chemical 
+looping combustion of coal with CuFe2O4 combined oxygen carrier. Energy & Fuels 31:5233–45.
+Wang, W., L. Fan, G. Wang, and Y. Li. 2017b. CO2 and SO2 sorption on the alkali metals doped CaO(100)surface: A 
+DFT-D study. Applied Surface Science 425:972–77.
+Wang, Z., J. Liu, Y. Yang, F. Liu, Y. Yu, and X. Yan. 2020. Molecular mechanistic nature of elemental mercury oxidation 
+by surface oxygens over the Co3O4 catalyst. The Journal of Physical Chemistry C 124:4605–12.
+Wannapeera, J., B. Fungtammasan, and N. Worasuwannarak. 2011. Effects of temperature and holding time during 
+torrefaction on the pyrolysis behaviors of woody biomass. Journal of Analytical and Applied Pyrolysis 92:99–105.
+Wei, B., L. Jin, D. Wang, Y. Xiong, H. Hu, and Z. Bai. 2020. Effect of different acid-leached USY zeolites on in-situ 
+catalytic upgrading of lignite tar. Fuel 266:117089.
+Yang, J., Y. Wei, J. Yang, H. Xiang, L. Ma, W. Zhang, L. Wang, Y. Peng, and H. Liu. 2019. Syngas production by chemical 
+looping gasification using Fe supported on phosphogypsum compound oxygen carrier. Energy 168:126–35. 
+doi:10.1016/j.energy.2018.11.106.
+Zhang, L., S. Xu, W. Zhao, and S. Liu. 2007. Co-pyrolysis of biomass and coal in a free fall reactor. Fuel 86:353–59.
+Zhang, P., B. Yu, and L. Zhang. 2009. Mechanism of oxygen releasing of copper ferrite in the formation of the 
+corresponding oxygen-deficient compound. Science in China Series B: Chemistry 52:101–03.
+Zhang, Y., H. Zhao, L. Guo, and C. Zheng. 2015. Decomposition mechanisms of Cu-based oxygen carriers for chemical 
+looping with oxygen uncoupling based on density functional theory calculations. Combustion and Flame 
+162:1265–74.
+Zheng, C., J. Cao, Y. Zhang, and H. Zhao. 2020. Insight into the oxidation mechanism of a cu-based oxygen carrier (Cu → 
+Cu2O → CuO) in chemical looping combustion. Energy & Fuels 34:8718–25.
+3440
+T. LI ET AL.

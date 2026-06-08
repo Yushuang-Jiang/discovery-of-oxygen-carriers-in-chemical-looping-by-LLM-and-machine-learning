@@ -1,0 +1,1046 @@
+
+
+===== Page 1 =====
+
+Preventing Agglomeration of CuO-Based Oxygen Carriers for
+Chemical Looping Applications
+Qasim Imtiaz, Andac Armutlulu, Felix Donat, Muhammad Awais Naeem, and Christoph R. Müller*
+Cite This: ACS Sustainable Chem. Eng. 2021, 9, 5972−5980
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+*
+sı
+Supporting Information
+ABSTRACT: Chemical looping combustion (CLC) is a promising
+alternative to the conventional combustion-based, fossil fuel conversion
+processes. In CLC, a solid oxygen carrier is used to transfer oxygen from air
+to a carbonaceous fuel. This indirect combustion route allows for eﬀective
+CO2 capture because a sequestrable stream of CO2 is inherently produced
+without any need for energy-intensive CO2 separation. From a
+thermodynamic point of view, CuO is arguably one of the most promising
+oxygen carrier candidates for CLC. However, the main challenge associated
+with the use of CuO for CLC is its structural instability at the typical
+operating temperatures of chemical looping processes, leading to severe
+thermal sintering and agglomeration. To minimize the irreversible
+microstructural changes during CLC operation, CuO is commonly
+stabilized by a high Tammann temperature ceramic, for example, Al2O3,
+MgAl2O4, and so forth. However, it has been observed that a high
+Tammann temperature support does not always provide a high resistance to agglomeration. This work aims at identifying the
+descriptors that can be used to characterize accurately the agglomeration tendency of CuO-based oxygen carriers. CuO-based oxygen
+carriers supported on diﬀerent metal oxides were synthesized using the Pechini method. The cyclic redox stability and agglomeration
+tendency of the synthesized materials were evaluated using both a thermo-gravimetric analyzer and a lab-scale ﬂuidized bed reactor
+at 900 °C using 10 vol % H2 in N2 as the fuel and air for re-oxidation. In order to study the diﬀusion of Cu(O) during redox
+reactions, well-deﬁned model surfaces comprising thin ﬁlms of Cu/CuO and two diﬀerent supports, namely, ZrO2 and MgO, were
+prepared via magnetron sputtering. Energy-dispersive X-ray spectroscopy on focused ion beam-cut cross-sections of the thin ﬁlms
+revealed that Cu atoms have a tendency to diﬀuse outward through the support material under redox conditions. The support that
+inhibits the outward movement of Cu(O), that is, avoiding the presence of low melting Cu on the oxygen carrier surface, is found to
+provide the highest agglomeration resistance. The support MgO was found to possess such diﬀusion characteristics.
+KEYWORDS: chemical looping combustion, oxygen carriers, copper oxide, agglomeration resistance, Kirkendall eﬀect, diﬀusion barrier,
+thin ﬁlms
+■INTRODUCTION
+Chemical looping combustion (CLC) is an oxy-combustion-
+related technology for power generation with integrated
+carbon dioxide (CO2) capture. The CLC concept is based
+on the decomposition of the conventional combustion reaction
+into multiple sub-reactions facilitated by a solid oxygen carrier
+(MxOy).1 In CLC, the oxidation of (hydro-)carbonaceous fuels
+to CO2 and steam proceeds according to
++
+−
++
+→
++
+−
++
++
+−
+n
+m
+p
+n
+m
+p
+n
+m
+(2
+)M O
+C H
+O
+(2
+)M O
+CO
+H O
+x
+y
+n
+m
+p
+x
+y
+2
+1
+2
+2
+(1)
+Reaction 1 may be either exothermic or endothermic
+depending on the oxygen carrier and the type of fuel. To
+close the redox cycle, the reduced oxygen carrier is converted
+back to its original form via the following reaction
++
+→
+−
+2M O
+O
+2M O
+x
+y
+x
+y
+1
+2
+(2)
+For most oxygen carrier materials, reaction 2 is exothermic
+except for a few perovskite-type oxides.2,3 The overall enthalpy
+change of the CLC process is equal to that of the conventional
+combustion process, but the use of a solid oxygen carrier to
+transfer oxygen from air to the fuel avoids the direct contact
+between air and the fuel. Consequently, the costs associated
+with the cryogenic separation of oxygen from air (conventional
+oxy-combustion processes) or CO2 from the ﬂue gas (post-
+Received:
+January 25, 2021
+Revised:
+March 26, 2021
+Published: April 19, 2021
+Research Article
+pubs.acs.org/journal/ascecg
+© 2021 The Authors. Published by
+American Chemical Society
+5972
+https://doi.org/10.1021/acssuschemeng.1c00560
+ACS Sustainable Chem. Eng. 2021, 9, 5972−5980
+Downloaded via 119.42.58.94 on May 14, 2021 at 06:52:31 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+
+===== Page 2 =====
+
+combustion CO2 capture processes) are avoided in CLC,
+thereby signiﬁcantly lowering the overall CO2 capture costs.4
+Various reactor conﬁgurations have been proposed to perform
+reactions 1 and 2, for example, a single ﬁxed-bed reactor with
+alternating reduction and oxidation steps and dual inter-
+connected continuous ﬂuidized beds.5 It is worth mentioning
+here that the latter reactor conﬁguration provides better heat
+management compared to alternating reactor designs.6
+The solid oxygen carrier is the cornerstone of the CLC
+process and needs to satisfy certain characteristics. The
+foremost requirement for an oxygen carrier is that it should
+thermodynamically favor the complete conversion of carbona-
+ceous fuels to CO2 and H2O, that is, disfavor the formation of
+partial oxidation products and carbon during reaction 1.7
+Additionally, it needs to possess and maintain a high oxygen
+carrying capacity and reactivity for reactions 1 and 2 over a
+large number of redox cycles.8 The preference of continuous
+interconnected ﬂuidized bed reactors for CLC processes
+necessitates that the oxygen carriers also possess suitable
+ﬂuidization properties, high mechanical strength to minimize
+attrition, and high thermal resistance to prevent sintering and
+agglomeration. Over the last two decades, signiﬁcant eﬀorts
+have been made toward the development of solid oxygen
+carriers, and till date, more than 2000 oxygen carriers have
+been tested for CLC of gaseous and solid fuels in diﬀerent
+laboratory-scale reactors.6 A large number of these materials
+have shown high reactivity but lack adequate mechanical and
+thermal properties preventing their use in continuous ﬂuidized
+beds. As a result, only a very small number of oxygen carriers
+(comprising of supported oxides of Ni, Cu, and Fe) have
+shown satisfactory performances in continuous prototype units
+ranging in size from 0.3 kW to 3 MW.6,8
+Most of the synthetic materials reported in the literature
+comprise mixed oxides or perovskite-type oxides of Cu, Fe, Ni,
+Mn, or Co.9−12 Among these materials, CuO-based oxygen
+carriers are particularly attractive due to their excellent
+reactivity with gaseous fuels, beneﬁcial thermodynamic proper-
+ties, and a very high oxygen carrying capacity of 0.2 g O2 per g
+of CuO. Furthermore, CuO-based carriers can be used for the
+combustion of solid fuels because of their ability to release gas-
+phase oxygen at temperatures >700 °C under low oxygen
+partial pressures.13−15 Despite their promising characteristics,
+the main challenge associated with the use of CuO-based
+carriers is the low Tammann temperature (the Tammann
+temperature indicates the onset of sintering of the bulk
+material) of the CuO/Cu (or CuO/Cu2O) redox pair, leading
+to severe sintering and agglomeration of the oxygen carrier
+particles at typical operating temperatures of chemical looping
+processes (800−1000 °C). In the circulating ﬂuidized beds,
+structural changes of the oxygen carrier particles due to
+agglomeration can interrupt the circulation of the solids within
+the system and even cause the bed to deﬂuidize. The most
+widely used approach to minimize sintering of an oxygen
+carrier is to homogenously mix the oxygen carrier with a high
+Tammann temperature material that acts as a physical barrier
+between the Cu(O) grains. Typical support materials used are
+Al2O3, MgAl2O4, ZrO2, and so forth.15−18 However, literature
+reports show that a high Tammann temperature support does
+not necessarily prevent sintering and agglomeration of CuO-
+based oxygen carriers. For example, CuO (60 wt %) supported
+on CeO2 (which has a Tammann temperature of 1064 °C)
+only shows a stable performance at 900 °C in a ﬂuidized bed
+for a short number of redox cycles (<10) and then starts to
+gradually deactivate owing to sintering and agglomeration.19 It
+was observed that Cu(O) species in the CuO/CeO2 mixture
+tend to migrate to the surface of the particles during the
+oxidation reaction and thus phase-separate from CeO2. This
+segregation prevented the CeO2 grains from acting as a
+physical barrier between the Cu(O) grains. Similar behavior
+has also been reported for 60 wt % CuO supported on calcium
+aluminates after 25 redox cycles in a ﬂuidized bed reactor at
+950 °C.20
+We hypothesize that the failure of some high Tammann
+temperature supports to prevent sintering is related to the
+Kirkendall eﬀect.21 The Kirkendall eﬀect is a well-known
+phenomenon originating from the diﬀerence in intrinsic
+diﬀusivities of constituents of solid solutions. At high working
+temperatures, the diﬀerent rates of diﬀusion of Cu(O) and the
+support within the oxygen carrier particle cause the phases to
+separate over time, which eventually leads to the sintering of
+the low Tammann temperature Cu(O) grains. The segregation
+of Cu(O) and the support in an oxygen carrier particle can be
+mitigated by (i) lowering the operating temperature since
+diﬀusion coeﬃcients are temperature-dependent, (ii) reducing
+the amount of redox active CuO in the oxygen carrier to
+minimize the formation of sinter bridges, (iii) increasing the
+porosity of oxygen carrier particles since open spaces hamper
+the diﬀusion of solid species within the material, and/or (iv)
+stabilizing CuO on supports that can exsolve it under reducing
+conditions and dissolve it back under oxidizing conditions.22,23
+However, these strategies have certain drawbacks. For example,
+reducing the amount of CuO in an oxygen carrier reduces its
+oxygen carrying capacity resulting in an increase in the solid
+inventory inside the reactor. Similarly, porous particles lack
+mechanical strength and can disintegrate rapidly. Therefore,
+this work investigates a diﬀerent approach to reduce the
+Kirkendall eﬀect, namely, by identifying a support material
+which hinders the migration of Cu(O) toward the surface of
+the oxygen carrier particle, thereby acting as an eﬀective
+diﬀusion barrier for Cu(O). To this end, a series of CuO-based
+oxygen carriers were synthesized. The agglomeration resistance
+of the synthesized oxygen carriers was evaluated at 900 °C in a
+ﬂuidized-bed reactor. To study the diﬀusion of Cu(O) species,
+thin ﬁlms were prepared via reactive sputtering and exposed to
+reducing and oxidizing conditions at 900 °C. Subsequently, the
+ﬁlms were cut using focused ion beam (FIB) and visualized
+using scanning electron microscopy (SEM) coupled with
+energy-dispersive X-ray (EDX) spectroscopy.
+■EXPERIMENTAL SECTION
+Material Synthesis. Al2O3, MgAl2O4, MgO, ZrO2, or CeO2-
+supported CuO-based oxygen carriers containing ∼60 wt % CuO
+were synthesized using the Pechini method24 to obtain a homogenous
+distribution of the support and the redox-active CuO. First,
+appropriate amounts of metal nitrates were dissolved in 120 mL of
+a 67 vol % solution of ethanol in water. Subsequently, ethylene glycol
+(10 mL) and citric acid were added to the nitrate solution. The molar
+ratio between citric acid and metal cations was ﬁxed at 1:1. The
+resulting solution was stirred at 80 °C for 2 h and subsequently dried
+at 120 °C for 48 h. The ﬁnal oxygen carrier was obtained after
+calcination at 900 °C for 2 h (using a temperature ramp of 3 °C/
+min).
+TiO2-stabilized CuO was prepared using a sol−gel technique. First,
+appropriate amounts of titanium (IV) butoxide and copper nitrate
+were mixed in ethanol under vigorous stirring at room temperature for
+30 min. To induce hydrolysis and polycondensation, an aqueous
+acetic acid solution was used. The resulting sol was kept at 70 °C for 1
+ACS Sustainable Chemistry & Engineering
+pubs.acs.org/journal/ascecg
+Research Article
+https://doi.org/10.1021/acssuschemeng.1c00560
+ACS Sustainable Chem. Eng. 2021, 9, 5972−5980
+5973
+
+
+===== Page 3 =====
+
+h and subsequently aged at room temperature for 48 h. Finally, the
+material was dried at 120 °C, followed by calcination at 900 °C for 2
+h.
+Characterization of the Oxygen Carrier. Nitrogen Physisorp-
+tion. A Quantachrome NOVA 4000e analyser was used to measure
+the surface area and pore volume of the freshly calcined oxygen
+carriers. Each sample was degassed at 300 °C for 2 h prior to the
+measurements. The Brunauer−Emmett−Teller25 and Barrett−Joy-
+ner−Halenda26 models were used to calculate the surface area and
+pore volume of the materials, respectively.
+X-ray Powder Diﬀraction. X-ray diﬀraction (XRD) was used to
+determine the composition of the crystalline phases and the average
+crystallite size of CuO in the calcined oxygen carriers. X-ray
+diﬀractograms were acquired on a Bruker D8 Advance diﬀractometer
+mounted with a LynxEye super-speed detector using Cu Kα radiation
+and operated at 40 kV and 40 mA. The scans were recorded in the
+range of 2θ = 30−70° with a step size of 0.0275° per s.
+Scanning Electron Microscopy. The surface composition and
+morphology of the oxygen carriers were visualized using a Leo Gemini
+1530 scanning electron microscope equipped with an EDX detector.
+The oxygen carriers were attached to an aluminium holder using a
+double-sided carbon tape.
+Thermo-gravimetric Analyzer. The reduction characteristics of the
+synthesized oxygen carriers at low oxygen partial pressure were
+investigated using temperature-programmed reduction (TPR) in a
+thermo-gravimetric analyzer (TGA, Mettler Toledo TGA/DSC 1). In
+a typical experiment, a small amount of the material (∼25 mg) was
+placed in an alumina pan and heated from 25 to 1000 °C at a ramp
+rate of 10 °C/min under a ﬂow of N2 (125 mL/min). The sample was
+kept at 1000 °C for 2 h. The recorded weight change was also used to
+determine the onset of oxygen uncoupling in N2 and the amount of
+redox-active CuO present in each sample.
+The cyclic redox performance of the oxygen carriers was studied in
+the same TGA at 900 °C using 25 vol % CH4/N2 for reduction and
+air for re-oxidation. Here, ∼25 mg of an oxygen carrier was placed in
+an alumina pan, heated to 900 °C at a rate of 10 °C/min and kept at
+900 °C for 500 min. The duration of the reduction and oxidation
+steps was ﬁxed at 4.5 min each. A N2 ﬂow was used to purge the
+reaction chamber for 30 s between each reaction segment. The total
+ﬂow rate of the reactive gas was 125 mL/min and included a constant
+N2 ﬂow of 25 mL/min over the microbalance. Assuming a complete
+reduction of CuO in the oxygen carriers (i.e., 60 wt % CuO), the yield
+of O2 was calculated as
+=
+Yield of O
+measured weight loss of oxygen carrier during reduction
+theoretical weight loss of oxygen carrier
+2
+(3)
+To determine the redox stability of the oxygen carriers, the
+fractional oxidation conversions (Xox) and apparent rates (rox) of the
+oxidation reaction were calculated using the following equations
+=
+−
+i
+k
+jjjjj
+y
+{
+zzzzz
+r
+m
+m
+X
+t
+1
+d
+d
+ox
+red
+ox
+ox
+(4)
+=
+−
+−
+X
+m
+m
+m
+m
+ox
+red
+ox
+red
+(5)
+where m, mox, and mred are the instantaneous sample weight, the
+weight of the fully oxidized sample, and the weight of the fully
+reduced sample, respectively.
+Agglomeration Tests. The agglomeration tendency of the
+synthesized oxygen carriers was evaluated at 900 °C in a quartz
+ﬂuidized bed reactor (i.d. 29.5 mm and length 460 mm). The reactor
+was heated in a tubular electric furnace, and the temperature of the
+ﬂuidized bed was controlled using a K-type thermocouple. In a typical
+experiment, Al2O3 was ﬂuidized by air at a ﬂow rate of 3 L/min (25
+°C and 1 bar) and heated to 900 °C. Once the temperature of the
+ﬂuidized bed had stabilized, 1 g of oxygen carrier, sieved to the size
+range 425−500 μm, was added to the reactor and 50 redox cycles
+were performed. Each redox cycle consisted of four segments: (i) 2
+min reduction under a ﬂow of 25 vol % CH4/N2, (ii) 0.5 min reactor
+purge with N2, (iii) 2 min oxidation under air, and (iv) 0.5 min
+reactor purge with N2. The ﬂow rate of the inlet gas was set to 3 L/
+min in each segment of a cycle. The fraction of carbon oxides and
+CH4 in the gas stream at the outlet of the reactor during the reduction
+step was determined by nondispersive infrared gas analysers (ABB
+EL3020). The moles of CO2 and CO produced during the reduction
+step were calculated using the following equations
+∫
+=
+×
+N
+V
+y
+td
+CO
+CH /N
+CO
+2
+4
+2
+2
+(6)
+∫
+=
+×
+N
+V
+y
+td
+CO
+CH /N
+CO
+4
+2
+(7)
+where NCO2nd NCO are, respectively, the moles of CO2 and CO
+produced in each reduction step, V is the molar ﬂow rate of 25 vol %
+CH4 in N2, and yCO2and yCO are, respectively, the mole fractions of
+CO2 and CO measured in the oﬀ-gases on a dry basis. After 50 cycles
+of operation, the ﬂuidized bed reactor was cooled down to room
+temperature, the oxygen carrier particles were recovered and sieved
+Figure 1. Scanning electron micrographs showing the surface of freshly calcined oxygen carriers and their corresponding EDX maps. The purple
+color corresponds to CuO, whereas the green color in the EDX map indicates the support material.
+ACS Sustainable Chemistry & Engineering
+pubs.acs.org/journal/ascecg
+Research Article
+https://doi.org/10.1021/acssuschemeng.1c00560
+ACS Sustainable Chem. Eng. 2021, 9, 5972−5980
+5974
+
+
+===== Page 4 =====
+
+into nine diﬀerent fractions using the following sieve sizes: (i) 425−
+500, (ii) 500−600, (iii) 600−710, (iv) 710−850, (v) 850−1180, (vi)
+1180−2000, (vii) 2000−3170, (viii) 3170−4000, and (ix) 4000−
+5660 μm.
+Deposition and Characterization of the Thin Films. Thin
+ﬁlms composed of metallic Cu and a metal oxide of interest (i.e.,
+either MgO or ZrO2) were deposited onto 3 in. p-type Si(100) wafers
+with a total thickness of 381 μm (Si-Mat Silicon Materials, Germany)
+using a DC magnetron sputtering system (PVD Products Inc., USA).
+The deposition of the metal oxide ﬁlms was performed via reactive
+sputtering from their respective metallic targets under O2/Ar ﬂow,
+whereas the Cu ﬁlm was sputtered from a Cu target under Ar ﬂow.
+Co-sputtering of the CuO and a support metal oxide was also
+performed by simultaneously exposing the two metallic targets to
+reactive sputtering conditions under a ﬂow of a O2/Ar mixture. Prior
+to the sputtering process, the Si substrates were cleaned with acetone
+and isopropanol in an ultrasonic bath. The base pressure of the
+deposition chamber was 2.9 × 10−7 Torr. The deposition of ZrO2
+ﬁlms was performed from a Zr target at 5 mTorr, 300 W, 50 mL/min
+Ar ﬂow, and 5 mL/min O2 ﬂow, whereas MgO ﬁlms were sputtered
+from a Mg target at 5 mTorr, 200 W, 50 mL/min Ar ﬂow, and 3 mL/
+min O2 ﬂow. Metallic Cu ﬁlms were deposited from a Cu target at 3
+mTorr, 200 W, and 20 mL/min Ar ﬂow. For the surface cleaning of
+the Cu target, the target plasma was ignited 2 min before opening the
+target and substrate shutters. During the co-sputtering process, the
+targets were aligned in a confocal manner opposite to each other,
+where the target surfaces were tilted by 35° with respect to the
+substrate surface. To achieve a uniform ﬁlm deposition, the Si
+substrates were rotated at 30 rpm throughout the sputtering process.
+Cross-sections of the synthesized ﬁlms were prepared by FIB
+equipped with a Ga liquid metal ion source and imaged via a high-
+resolution ﬁeld emission-SEM (NVision 40, Zeiss, Germany). The
+elemental mapping of Mg, Zr, Cu, and O was performed by a Leo
+Gemini 1530 equipped with an EDX detector.
+■RESULTS AND DISCUSSION
+SEM−EDX and XRD Analysis of the Freshly Calcined
+Materials. The morphology and distribution of CuO on the
+surface of the freshly calcined oxygen carriers was visualized
+using SEM coupled with EDX spectroscopy. It is evident from
+Figure 1 that calcination in static air at 900 °C for 2 h
+produced oxygen carriers with dense and nonporous surfaces,
+thereby, resulting in low surface areas and pore volumes (see
+Table 1), as determined by N2 physisorption analysis. The Cu
+K-edge EDX maps show that the surface of Al2O3-, MgAl2O4-,
+or MgO-based oxygen carriers was decorated with micrometer-
+sized CuO particles. For these irreducible supports, the
+enrichment of CuO on the surface (based on visual inspection)
+increased in the following order: Al2O3 > MgAl2O4 > MgO.
+On the other hand, the surface of the ZrO2-, CeO2-, or TiO2-
+stabilized oxygen carriers was found to be comprised almost
+entirely of CuO. Only a very small amount of the support
+material can be detected on the surface. The enrichment of
+CuO on the surface of such oxygen carriers was due to the
+outward diﬀusion of Cu2+ species during calcination in air; this
+is discussed in detail below. Powder XRD was used to
+determine the crystalline phases present in the oxygen carriers
+after the initial calcination. In the case of the Al2O3-stabilized
+oxygen carrier, peaks corresponding to CuAl2O4 and CuO
+were identiﬁed, indicating that Al2O3 reacted with CuO during
+calcination at 900 °C to form a mixed oxide. The X-ray
+diﬀractograms of the other oxygen carriers only showed peaks
+corresponding to CuO and the support (Figure S1). The
+crystallite size of CuO, estimated using the Scherrer’s equation,
+is given in Table S1. There was very little variation in the size
+of the CuO crystallites in the diﬀerent oxygen carriers.
+Cyclic Redox Stability, Oxygen Uncoupling Charac-
+teristics, and Agglomeration Resistance of the Oxygen
+Carriers. The cyclic redox stability of the synthesized oxygen
+carriers was determined in the TGA at 900 °C using 25 vol %
+CH4/N2 for reduction and air for re-oxidation. Figure 2a shows
+that all of the oxygen carriers possessed a stable oxygen
+carrying capacity over 50 redox cycles tested in a TGA, except
+TiO2-stabilized CuO. The O2 yield of TiO2-stabilized CuO
+was ∼3.6 mmol/g in the ﬁrst cycle but decreased quickly to
+∼2.6 mmol/g over the next 10 redox cycles. A further loss in
+the oxygen carrying capacity was observed during the next 40
+redox cycles, albeit at a lower rate, leading to an O2 yield of
+∼2.1 mmol/g at the end of the experiment. This signiﬁcant
+drop in the oxygen carrying capacity can be associated with the
+comparatively low melting point of TiO2. Of all of the ceramic
+supports used in the study, TiO2 had the lowest Tammann
+temperature of 789 °C, as seen in Table 2. We speculate that a
+Tammann temperature lower than the operating temperature
+would lead to a signiﬁcant structural instability of the material,
+which in turn would decrease the oxygen carrying capacity with
+cycle number. To conﬁrm this hypothesis, we tested TiO2-
+stabilized CuO at an operating temperature of 700 °C and
+indeed a relatively high and stable O2 yield was observed
+(Figure S2), which indicates that for TiO2-stabilized CuO the
+loss in the oxygen carrying capacity at higher temperatures is
+associated with its sintering-induced structural instability. For
+MgAl2O4-, MgO-, CeO2-, and ZrO2-based materials, the
+average O2 yield was in the range 3.7−3.8 mmol/g. TGA
+experiments revealed that the content of CuO in these oxygen
+carriers was close to the theoretical value of 60 wt %. Finally, in
+the case of Al2O3-stabilized CuO, the average oxygen yield was
+∼4.1 mmol/g, which corresponds to a slightly higher CuO
+content of 65%. The maximum (apparent) rates of the
+oxidation reaction during the 1st and 50th redox cycles are given
+in Table S2. To determine the activity of the oxygen carriers,
+apparent oxidation rates were calculated from the recorded
+weight changes in the TGA using eqs 4 and 5. During the ﬁrst
+redox cycle, the maximum (apparent) oxidation rate increased
+in the following order: CeO2 < ZrO2 < MgAl2O4 < TiO2 ≈
+Al2O3 < MgO. The maximum (apparent) rates of all the
+oxygen carriers were found to increase slightly in the 50th redox
+cycle, except TiO2-stabilized CuO. The maximum oxidation
+rate of TiO2-stabilized CuO almost halved over 50 redox cycles
+owing to thermal sintering, as discussed above.
+The oxygen uncoupling characteristics of the diﬀerent
+oxygen carriers were determined in the TGA using N2-TPR
+experiments. Plots of normalized weight loss as a function of
+temperature are shown in Figure 2b. N2-TPR proﬁles show
+that all oxygen carriers were able to release molecular oxygen
+via the following reaction
+Table 1. Surface Area, Pore Volume, and Average Crystallite
+Size of CuO in the Synthesized Materials
+material
+surface area
+[m2/g]
+pore volume
+[cm3/g]
+CuO(1̅11)
+[nm]
+CuO−Al2O3
+<1
+0.08
+32
+CuO−MgAl2O4
+11
+0.05
+31
+CuO−MgO
+26
+0.12
+32
+CuO−CeO2
+23
+0.03
+31
+CuO−ZrO2
+5
+0.05
+25
+CuO−TiO2
+4
+0.02
+29
+ACS Sustainable Chemistry & Engineering
+pubs.acs.org/journal/ascecg
+Research Article
+https://doi.org/10.1021/acssuschemeng.1c00560
+ACS Sustainable Chem. Eng. 2021, 9, 5972−5980
+5975
+
+
+===== Page 5 =====
+
+→
++
+4CuO
+2Cu O
+O
+2
+2
+(8)
+The onset of reduction of CuO in N2 (i.e., the temperature
+at which the weight loss is greater than 2% of the initial
+weight) was not signiﬁcantly aﬀected by the ceramic support.
+The oxygen uncoupling of all materials occurred in the
+temperature range of 760−940 °C in a single step, except
+MgO-stabilized CuO, which was reduced in two steps. From
+Figure 2b, it can be seen that for temperatures exceeding 900
+°C, the decomposition rate of CuO was very slow. This is
+probably due to the formation of a mixed oxide between Cu2O
+and MgO under chemical looping with oxygen uncoupling
+conditions,27 which hinders the reduction of CuO toward the
+end of the reaction.
+The agglomeration resistance of the oxygen carrier particles
+that had initially an average particle size of 463 μm (size range
+425−500 μm) was determined in a ﬂuidized bed at 900 °C.
+Here again, 25 vol % CH4/N2 was used for reduction and the
+re-oxidation was performed in air. The yields of CO2 and CO
+are plotted for each oxygen carrier as a function of cycle
+number in Figure S3. It can be seen that all oxygen carriers
+possessed high CO2 yields, except for TiO2-stabilized CuO
+which deactivated after the ﬁrst redox cycle, in agreement with
+the TGA measurements. After 50 redox cycles, the oxygen
+carrier particles were recovered from the ﬂuidized bed and
+carefully sieved into nine diﬀerent average sizes, namely, 0.463,
+0.550, 0.655, 0.780, 1.015, 1.590, 2.585, 3.585, and 4.830 mm.
+Figure 3a plots the cumulative mass of particles recovered as a
+function of their average size. Under the conditions studied
+here, an increase in the average particle size was observed for
+all of the oxygen carriers after 50 redox cycles. The particle size
+distributions shown in Figure 3a were characterized using three
+diﬀerent D-values or percentiles, namely, D10, D50, and D90.
+The D-value is the maximal particle size for a given percentage
+of the sample. For example, D50 means that 50% of the total
+sample weight has a particle diameter below D50. The
+calculated values for D10, D50, and D90 are given in Table S1.
+Figure 2. (a) Cyclic O2 yield of the diﬀerent oxygen carriers as determined in a TGA at 900 °C, (b) N2-TPR proﬁles of the synthesized oxygen
+carriers.
+Table 2. Tammann and Melting Temperatures of Diﬀerent
+Materials
+material
+Tammann temperature [°C]
+melting temperature [°C]
+CuO
+526
+1325
+Cu2O
+481
+1235
+Cu
+405
+1083
+TiO2
+789
+1851
+Al2O3
+884
+2041
+MgAl2O4
+929
+2131
+CeO2
+1064
+2401
+ZrO2
+1214
+2701
+MgO
+1290
+2853
+Figure 3. (a) Cumulative weight as a function of the oxygen carrier’s particle size distribution after 50 redox cycles in a ﬂuidized bed reactor at 900
+°C. (b) Agglomeration index of the diﬀerent oxygen carriers as a function of Tammann temperature of (closed symbols) reducible and (open
+symbols) irreducible ceramic supports.
+ACS Sustainable Chemistry & Engineering
+pubs.acs.org/journal/ascecg
+Research Article
+https://doi.org/10.1021/acssuschemeng.1c00560
+ACS Sustainable Chem. Eng. 2021, 9, 5972−5980
+5976
+
+
+===== Page 6 =====
+
+It can be seen that D50 of the cycled oxygen carrier particles
+increased in the following order: MgO (0.91 mm) < TiO2
+(1.35 mm) < MgAl2O4 (1.72 mm) < Al2O3 = CeO2 (2.00 mm)
+< ZrO2 (2.49 mm). Among the oxygen carriers investigated,
+MgO-supported CuO had also the smallest D10 and D90 values.
+On the other hand, ZrO2-supported CuO showed the largest
+D-values. This indicates that MgO- and ZrO2-based oxygen
+carriers had the lowest and highest agglomeration tendencies,
+respectively. To quantify the agglomeration tendency of an
+oxygen carrier, an agglomeration index was deﬁned as
+∑
+=
+−
+i
+k
+jjjjj
+y
+{
+zzzzz
+w d
+d
+d
+Agglomeration index, AI
+i
+i
+0.425
+4.000
+0
+0
+(9)
+Here, d0 = 425 μm and wi is the weight fraction of the cycled
+particles retained on the sieve of size di (di > d0). A high value
+of the agglomeration index would indicate a high tendency
+toward agglomeration and vice versa. The calculated agglom-
+eration indices are plotted in Figure 3b as a function of the
+support’s Tammann temperature. To this end, Figure 3b
+reveals two opposite relationships between Tammann temper-
+ature and agglomeration resistance. For the TiO2-, CeO2- and
+ZrO2-based oxygen carriers, the agglomeration index was
+determined as 3.0, 4.4, and 5.2, respectively. Surprisingly, for
+these materials, the agglomeration index increased with
+increasing Tammann temperature, making these oxygen
+carriers highly susceptible to thermal sintering. It is worth
+mentioning here that the surfaces of the reducible oxide
+supports were found to be enriched with CuO upon
+calcination at 900 °C in air, as seen in Figure 1. In the case
+of irreducible supports, the agglomeration index was calculated
+to be 1.0, 2.8, and 4.0 for MgO-, MgAl2O4-, and Al2O3-
+supported CuO, respectively. Here, the value of the
+agglomeration index was found to decrease with increasing
+Tammann temperature of the support. From Figure 3b, it can
+be seen that despite having similar Tammann temperatures,
+ZrO2- and MgO-based oxygen carriers showed opposite
+agglomeration trends. Therefore, it can be concluded that
+the Tammann temperature alone cannot be used as a
+descriptor for the agglomeration resistance of a composite
+material. From Figures 1 and 3b, it can be noted that the
+enrichment of CuO on the surface of freshly calcined oxygen
+carriers correlates directly with the agglomeration index of the
+cycled oxygen carriers. Therefore, it is likely that the
+agglomeration resistance of a composite material depends
+also on the tendency of Cu(O) to diﬀuse outward through the
+ceramic support during repeated reduction and oxidation steps.
+This is discussed in the next section.
+Thin Films’ Architecture. To elucidate the relationship
+between the diﬀusion of Cu(O) and the agglomeration
+tendency of Cu/CuO-based oxygen carriers, thin ﬁlms of the
+oxygen carriers showing the highest (i.e., CuO/ZrO2) and the
+lowest (i.e., CuO/MgO) agglomeration resistance were
+prepared. The selection of only two supports for preparing
+thin ﬁlms was further rationalized by the fact that MgO and
+ZrO2 have similar Tammann temperatures. The Tammann
+temperature of ZrO2 is ∼1214 °C while that of MgO is ∼1290
+°C, but the agglomeration index of ZrO2-stabilized oxygen
+carriers was found to be ﬁve times higher than that of MgO-
+stabilized oxygen carriers. We hypothesized that the support
+that minimizes the outward diﬀusion of CuO and Cu during
+the reduction and oxidation reactions, respectively, oﬀers the
+highest resistance toward agglomeration. To probe the validity
+of this hypothesis, we prepared two diﬀerent architectures of
+thin ﬁlms via sputtering. An ideal oxygen carrier particle
+comprises a homogeneous mixture of the redox-active
+transition metal oxide and the support oxide. To mimic such
+an oxygen carrier particle, both CuO and the ceramic support
+were co-sputtered on a thin layer of support oxide. These thin
+ﬁlms were used to study the diﬀusion of Cu(O) in a reducing
+environment and are represented as MOx/CuOx−MOx (M =
+Mg or Zr) throughout this section. Figure 4a shows the cross-
+sectional views of these ﬁlms. EDX spectroscopy showed that
+oxygen was homogeneously distributed in the entire ﬁlm
+conﬁrming that both Cu and M were oxidized during reactive
+Figure 4. Cross-sectional view of thin ﬁlms prepared by magnetron sputtering of Cu, Mg, and Zr targets: (a) MOx/CuOx−MOx and (b) MOx/Cu/
+MOx.
+ACS Sustainable Chemistry & Engineering
+pubs.acs.org/journal/ascecg
+Research Article
+https://doi.org/10.1021/acssuschemeng.1c00560
+ACS Sustainable Chem. Eng. 2021, 9, 5972−5980
+5977
+
+
+===== Page 7 =====
+
+sputtering. However, since the diﬀerent metals oxidize at
+diﬀerent rates during the co-sputtering process, the obtained
+oxides are not necessarily stoichiometric. Therefore, x is used
+to indicate a possible degree of non-stoichiometry in the
+structure. Since co-sputtering of a metal and an oxide is not
+feasible, a layered structure in which metallic Cu was
+sandwiched between two layers of ceramic oxide was prepared
+to observe the diﬀusion of Cu during oxidation in air. These
+ﬁlms are referred to as MOx/Cu/MOx in the subsequent
+sections. The cross-sections of these ﬁlms are presented in
+Figure 4b. The thickness of Cu was ∼0.7 μm in all of the thin
+ﬁlms prepared.
+Reduction of MOx/CuOx−MOx-Type Thin Films. The
+migration of CuO in an oxygen carrier particle during
+reduction was studied on MOx/CuOx−MOx thin ﬁlms in the
+TGA. The ﬁlms were initially exposed to an atmosphere
+comprising 25 vol % CH4/N2 for 15 min at 900 °C.
+Subsequent FIB-SEM analysis revealed that the MgO-based
+ﬁlm delaminated during reduction, as shown in Figure S4.
+Therefore, it was not possible to infer anything about the
+diﬀusion of Cu species in the MgO-based ﬁlms. On the other
+hand, the ZrO2-based ﬁlm remained intact during the
+experiment and its surface was found to be enriched with
+Cu. This demonstrates that Cu(O) phase-separated from the
+CuOx−ZrO2 matrix during reduction and migrated toward the
+surface. To observe the migration/diﬀusion behavior of CuO/
+MgO, pristine thin ﬁlms were exposed to 5 vol % CH4 in N2
+for 15 min at 900 °C. It can be seen in Figure 5 that the
+outward diﬀusion of Cu(O) species in MgO/CuOx−MgOx
+ﬁlms during reduction in 5 vol % CH4/N2 was not very
+signiﬁcant and most of the Cu was found to be still dispersed
+in MgO after the experiment. On the other hand, the phase
+separation of Cu and ZrO2 was clearly observed, with all of the
+Cu being present only on the surface of the ﬁlm. These results
+are in agreement with the previous ﬁndings of Adánez-Rubio et
+al.16 for ZrO2-supported CuO. Using SEM−EDX analysis on
+cross-sectional areas of fresh and cycled CuO−ZrO2 particles,
+they showed that Cu(O) species migrate from the inside of the
+particle to the surface during continuous operation in a 500
+Wth CLC unit at 800 °C. Our thin-ﬁlm experiments conﬁrm
+that MgO acted as a diﬀusion barrier during the reduction of
+CuO and thus prevented the sintering of the Cu grains formed
+after reduction.
+Oxidation of MOx/Cu/MOx-Type Thin Films. To
+observe the diﬀusion behavior of Cu in ZrO2 and MgO, thin
+ﬁlms of the type MOx/Cu/MOx were oxidized in air at 900 °C
+for 1 h in the TGA. The SEM−EDX analysis of the cross-
+sectional areas of the oxidized ﬁlms revealed that most of the
+Cu that was initially sandwiched between the two layers of
+ZrO2 ended up at the surface of the ﬁlms after oxidation. From
+these experiments, it is not clear whether Cu ﬁrst was oxidized
+to CuO, which then migrated to the surface, or whether
+metallic Cu ﬁrst migrated to the surface, where it was oxidized.
+Nonetheless, ZrO2 again failed to prevent the migration of
+Cu(O) species. In the thin ﬁlms comprising MgO/Cu/MgO,
+the layer of Cu remained trapped between the MgO layers
+during oxidation; see Figure 6. The oxidation of the Cu middle
+layer to CuO is conﬁrmed by the homogeneously distributed
+EDX signal for oxygen throughout the thin ﬁlm. It is worth
+mentioning here that MgO is a poor conductor of oxygen.
+However, Figures 4 and 6 show that the top MgO layer
+comprises of loosely packed submicron-sized grains. Therefore,
+Figure 5. Scanning electron micrographs of MOx/CuOx−MOx-type thin ﬁlms and their corresponding EDX maps after reduction. The reduction
+reaction was performed in the TGA at 900 °C for 15 min using 5 vol % CH4/N2. The purple and green colors correspond to Cu and Mg/Zr,
+respectively.
+Figure 6. Scanning electron micrographs of MOx/Cu/MOx type thin ﬁlms and their corresponding EDX maps after oxidation. The oxidation
+reaction was performed in the TGA at 900 °C for 1 h using air. The purple, green, and blue colors correspond to Cu, Mg/Zr, and O, respectively.
+ACS Sustainable Chemistry & Engineering
+pubs.acs.org/journal/ascecg
+Research Article
+https://doi.org/10.1021/acssuschemeng.1c00560
+ACS Sustainable Chem. Eng. 2021, 9, 5972−5980
+5978
+
+
+===== Page 8 =====
+
+we speculate that oxidation of the Cu layer sandwiched
+between the MgO layers takes place by the diﬀusion of
+molecular oxygen through the voids between the MgO grains.
+Nonetheless, this result shows that the support MgO prevents
+the migration of Cu(O) to the surface of the particles under
+both oxidizing and reducing conditions.
+To this end, our results from the ﬂuidized bed and thin-ﬁlm
+experiments indicate that MgO plays a vital role in preventing
+the outward diﬀusion of Cu(O) in oxygen carrier particles and
+thus their agglomeration. However, further investigation is
+needed to determine whether this strategy is eﬀective over a
+longer period of time or not. Nonetheless, the future
+development of CuO-based oxygen carriers should consider
+the relative diﬀusivities of CuO and the ceramics used as the
+support, in addition to the support properties,28 particle
+structure,29 and the CuO content. Only if the redox-active
+CuO and the ceramic support remain distributed homoge-
+neously within the particle during repeated redox cycles in a
+ﬂuidized bed at high temperature, the deﬂuidization of the bed
+can be avoided and the reactor can be operated reliably at a
+large scale for a long period of time.
+■CONCLUSIONS
+We report the synthesis of six diﬀerent CuO-based oxygen
+carriers (60 wt % CuO) using the Pechini method. SEM−EDX
+analysis revealed the enrichment of CuO on the surface of
+oxygen carriers comprising reducible supports after calcination.
+The agglomeration resistance of the synthesized oxygen
+carriers was evaluated at 900 °C in a ﬂuidized bed reactor.
+The results showed that the agglomeration tendency was the
+highest and lowest for the ZrO2- and MgO-based materials,
+respectively, despite having similar Tammann temperatures.
+Thin-ﬁlm studies revealed that MgO prevented the outward
+diﬀusion of Cu and CuO to the surface of particles during the
+oxidation and reduction reactions, respectively. The support
+that inhibited the outward movement of Cu/CuO, namely,
+MgO, provided the highest agglomeration resistance. There-
+fore, the ceramic supports used to stabilize CuO do not only
+need to have a high Tammann temperature but should also
+minimize the Kirkendall eﬀect in the CuO-support matrix.
+■ASSOCIATED CONTENT
+*
+sı Supporting Information
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acssuschemeng.1c00560.
+Diﬀerent D-values of the cycled oxygen carrier particles,
+X-ray diﬀractograms of the freshly calcined oxygen
+carriers, cyclic redox performance of TiO2-stabilized
+CuO in the TGA at 700 °C, maximum (apparent)
+oxidation rates for the 1st and 50th redox cycle, CO2 and
+CO yields determined from ﬂuidized-bed experiments at
+900 °C, and scanning electron micrographs of MOx/
+CuOx−MOx-type thin ﬁlms after reduction at 900 °C
+(PDF)
+■AUTHOR INFORMATION
+Corresponding Author
+Christoph R. Müller −Laboratory of Energy Science and
+Engineering, Institute of Energy Technology, ETH Zürich,
+8092 Zürich, Switzerland;
+orcid.org/0000-0003-2234-
+6902; Email: muelchri@ethz.ch
+Authors
+Qasim Imtiaz −Laboratory of Energy Science and
+Engineering, Institute of Energy Technology, ETH Zürich,
+8092 Zürich, Switzerland
+Andac Armutlulu −Laboratory of Energy Science and
+Engineering, Institute of Energy Technology, ETH Zürich,
+8092 Zürich, Switzerland;
+orcid.org/0000-0002-9084-
+8763
+Felix Donat −Laboratory of Energy Science and Engineering,
+Institute of Energy Technology, ETH Zürich, 8092 Zürich,
+Switzerland;
+orcid.org/0000-0002-3940-9183
+Muhammad Awais Naeem −Laboratory of Energy Science
+and Engineering, Institute of Energy Technology, ETH
+Zürich, 8092 Zürich, Switzerland
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acssuschemeng.1c00560
+Notes
+The authors declare no competing ﬁnancial interest.
+■REFERENCES
+(1) Zhu, X.; Imtiaz, Q.; Donat, F.; Müller, C. R.; Li, F. Chemical
+looping beyond combustiona perspective. Energy Environ. Sci. 2020,
+13, 772−804.
+(2) Luongo, G.; Donat, F.; Müller, C. R. Structural and
+thermodynamic study of Ca A- or Co B-site substituted SrFeO3−δ
+perovskites for low temperature chemical looping applications. Phys.
+Chem. Chem. Phys. 2020, 22, 9272−9282.
+(3) Dou, J.; Krzystowczyk, E.; Wang, X.; Robbins, T.; Ma, L.; Liu,
+X.; Li, F. A- and B-site codoped SrFeO3 oxygen sorbents for enhanced
+chemical looping air separation. ChemSusChem 2020, 13, 385−393.
+(4) Lyngfelt, A. Chemical looping combustion: Status and
+development challenges. Energy Fuels 2020, 34, 9077−9093.
+(5) De Vos, Y.; Jacobs, M.; Van Der Voort, P.; Van Driessche, I.;
+Snijkers, F.; Verberckmoes, A. Development of stable oxygen carrier
+materials for chemical looping processesA review. Catalysts 2020,
+10, 926.
+(6) Adánez, J.; Abad, A. Chemical-looping combustion: Status and
+research needs. Proc. Combust. Inst. 2019, 37, 4303−4317.
+(7) Jerndal, E.; Mattisson, T.; Lyngfelt, A. Thermal analysis of
+chemical-looping combustion. Chem. Eng. Res. Des. 2006, 84, 795−
+806.
+(8) Lyngfelt, A.; Brink, A.; Langørgen, Ø.; Mattisson, T.; Rydén, M.;
+Linderholm, C. 11,000 h of chemical-looping combustion oper-
+ationWhere are we and where do we want to go? Int. J. Greenhouse
+Gas Control 2019, 88, 38−56.
+(9) Adanez, J.; Abad, A.; Garcia-Labiano, F.; Gayan, P.; de Diego, L.
+F. Progress in chemical-looping combustion and reforming
+technologies. Prog. Energy Combust. Sci. 2012, 38, 215−282.
+(10) Abanades, J. C.; Arias, B.; Lyngfelt, A.; Mattisson, T.; Wiley, D.
+E.; Li, H.; Ho, M. T.; Mangano, E.; Brandani, S. Emerging CO2
+capture systems. Int. J. Greenhouse Gas Control 2015, 40, 126−166.
+(11) Imtiaz, Q.; Hosseini, D.; Müller, C. R. Review of oxygen
+carriers for chemical looping with oxygen uncoupling (CLOU):
+Thermodynamics, material development, and synthesis. Energy
+Technol. 2013, 1, 633−647.
+(12) Song, T.; Shen, L. Review of reactor for chemical looping
+combustion of solid fuels. Int. J. Greenhouse Gas Control 2018, 76, 92−
+110.
+(13) Imtiaz, Q.; Broda, M.; Müller, C. R. Structure−property
+relationship of co-precipitated Cu-rich, Al2O3- or MgAl2O4-stabilized
+oxygen carriers for chemical looping with oxygen uncoupling
+(CLOU). Appl. Energy 2014, 119, 557−565.
+(14) Mattisson, T.; Lyngfelt, A.; Leion, H. Chemical-looping with
+oxygen uncoupling for combustion of solid fuels. Int. J. Greenhouse
+Gas Control 2009, 3, 11−19.
+ACS Sustainable Chemistry & Engineering
+pubs.acs.org/journal/ascecg
+Research Article
+https://doi.org/10.1021/acssuschemeng.1c00560
+ACS Sustainable Chem. Eng. 2021, 9, 5972−5980
+5979
+
+
+===== Page 9 =====
+
+(15) Gayán, P.; Adánez-Rubio, I.; Abad, A.; de Diego, L. F.; García-
+Labiano, F.; Adánez, J. Development of Cu-based oxygen carriers for
+chemical-looping with oxygen uncoupling (CLOU) process. Fuel
+2012, 96, 226−238.
+(16) Adánez-Rubio, I.; Bararpour, S. T.; Abad, A.; Gayán, P.;
+Williams, G.; Scullard, A.; Mahinpey, N.; Adánez, J. Performance
+evaluation of a Cu-based oxygen carrier impregnated onto ZrO2 for
+chemical-looping combustion (CLC). Ind. Eng. Chem. Res. 2020, 59,
+7255−7266.
+(17) Díez-Martín, L.; Grasa, G.; Murillo, R.; Scullard, A.; Williams,
+G. Development of suitable CuO-based materials supported on Al2O3,
+MgAl2O4, and ZrO2 for Ca/Cu H2 Production Process. Ind. Eng.
+Chem. Res. 2018, 57, 2890−2904.
+(18) Arjmand, M.; Azad, A.-M.; Leion, H.; Lyngfelt, A.; Mattisson,
+T. Prospects of Al2O3 and MgAl2O4-supported CuO oxygen carriers
+in chemical-looping combustion (CLC) and chemical-looping with
+oxygen uncoupling (CLOU). Energy Fuels 2011, 25, 5493−5502.
+(19) Imtiaz, Q.; Kurlov, A.; Rupp, J. L. M.; Müller, C. R. Highly
+efficient oxygen-storage material with intrinsic coke resistance for
+chemical looping combustion-based CO2 capture. ChemSusChem
+2015, 8, 2055−2065.
+(20) Donat, F.; Hu, W.; Scott, S. A.; Dennis, J. S. Characteristics of
+copper-based oxygen carriers supported on calcium aluminates for
+chemical-looping combustion with oxygen uncoupling (CLOU). Ind.
+Eng. Chem. Res. 2015, 54, 6713−6723.
+(21) Nakajima, H. The discovery and acceptance of the Kirkendall
+Effect: The result of a short research career. JOM 1997, 49, 15−19.
+(22) Zeng, D.; Qiu, Y.; Peng, S.; Chen, C.; Zeng, J.; Zhang, S.; Xiao,
+R. Enhanced hydrogen production performance through controllable
+redox exsolution within CoFeAlOx spinel oxygen carrier materials. J.
+Mater. Chem. A 2018, 6, 11306−11316.
+(23) Qiu, Y.; Ma, L.; Zeng, D.; Li, M.; Cui, D.; Lv, Y.; Zhang, S.;
+Xiao, R. Efficient CO2 to CO conversion at moderate temperatures
+enabled by the cobalt and copper co-doped ferrite oxygen carrier. J.
+Energy Chem. 2020, 46, 123−132.
+(24) Dimesso, L. Pechini Processes: An Alternate Approach of the
+Sol−Gel Method, Preparation, Properties, and Applications. In
+Handbook of Sol-Gel Science and Technology; Klein, L., Aparicio, M.,
+Jitianu, A., Eds.; Springer International Publishing: Cham, Switzer-
+land, 2016.
+(25) Brunauer, S.; Emmett, P. H.; Teller, E. Adsorption of gases in
+multimolecular layers. J. Am. Chem. Soc. 1938, 60, 309−319.
+(26) Barrett, E. P.; Joyner, L. G.; Halenda, P. P. The determination
+of pore volume and area distributions in porous substances. I.
+Computations from nitrogen isotherms. J. Am. Chem. Soc. 1951, 73,
+373−380.
+(27) Kwak, B. S.; Park, N.-K.; Baek, J.-I.; Ryu, H.-J.; Kang, M.
+Improvement of reduction and oxidation performance of MMgOx
+(M=Fe, Co, Ni, and Cu) particles for chemical looping combustion.
+Powder Technol. 2017, 312, 237−247.
+(28) Zeng, D.; Qiu, Y.; Ma, L.; Li, M.; Cui, D.; Zhang, S.; Xiao, R.
+Tuning the support properties toward higher CO2 conversion during
+a chemical looping scheme. Environ. Sci. Technol. 2020, 54, 12467−
+12475.
+(29) Zeng, D.; Qiu, Y.; Li, M.; Ma, L.; Cui, D.; Zhang, S.; Xiao, R.
+Spatially controlled oxygen storage materials improved the syngas
+selectivity on chemical looping methane conversion. Appl. Catal., B
+2021, 281, 119472.
+ACS Sustainable Chemistry & Engineering
+pubs.acs.org/journal/ascecg
+Research Article
+https://doi.org/10.1021/acssuschemeng.1c00560
+ACS Sustainable Chem. Eng. 2021, 9, 5972−5980
+5980

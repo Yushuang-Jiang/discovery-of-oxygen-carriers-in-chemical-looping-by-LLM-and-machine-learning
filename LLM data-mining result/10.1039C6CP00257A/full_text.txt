@@ -1,0 +1,994 @@
+
+
+===== Page 1 =====
+
+12278 | Phys. Chem. Chem. Phys., 2016, 18, 12278--12288
+This journal is ©the Owner Societies 2016
+Cite this: Phys.Chem.Chem.Phys.,
+2016, 18, 12278
+Na+ doping induced changes in the reduction
+and charge transport characteristics of Al2O3-
+stabilized, CuO-based materials for CO2 capture†
+Q. Imtiaz,a P. M. Abdala,a A. M. Kierzkowska,a W. van Beek,b S. Schweiger,c
+J. L. M. Ruppc and C. R. Mu¨ller*a
+Chemical looping combustion (CLC) and chemical looping with oxygen uncoupling (CLOU) are
+emerging CO2 capture technologies that could reduce appreciably the costs associated with the capture
+of CO2. In CLC and CLOU, the oxygen required to combust a hydrocarbon is provided by a solid oxygen
+carrier. Among the transition metal oxides typically considered for CLC and CLOU, copper oxide (CuO)
+stands out owing to its high oxygen carrying capacity, exothermic reduction reactions and fast reduction
+kinetics. However, the low Tammann (sintering) temperature of CuO is a serious drawback. In this
+context, it has been proposed to support CuO on high Tammann temperature and low cost alumina
+(Al2O3), thus, reducing the morphological changes occurring over multiple CLC or CLOU redox cycles
+and stabilizing, in turn, the high activity of CuO. However, in CuO–Al2O3 systems, phase stabilization and
+avoiding the formation of the CuAl2O4 spinel is key to obtaining a material with a high redox stability and
+activity. Here, we report a Na+ doping strategy to phase stabilize Al2O3-supported CuO, yielding in turn an
+inexpensive material with a high redox stability and CO2 capture efficiency. We also demonstrate that doping
+CuO–Al2O3 with Na+ improves the oxygen uncoupling characteristics and coke resistance of the oxygen
+carriers. Utilizing in situ and ex situ X-ray absorption spectroscopy (XAS), the local structure of Cu and the
+reduction pathways of CuO were determined as a function of the Na+ content and cycle number. Finally,
+using 4-point conductivity measurements, we confirm that doping of Al2O3-supported CuO with Na+ lowers
+the activation energy for charge transport explaining conclusively the improved redox characteristics of the
+new oxygen carriers developed.
+Introduction
+Chemical looping combustion (CLC) and chemical looping
+with oxygen uncoupling (CLOU) are emerging CO2 capture
+and storage (CCS) technologies that could substantially reduce
+the costs that are associated with the capture of CO2.1,2 In CLC,
+lattice oxygen of an oxygen carrier, typically a transition metal
+oxide, is used to combust a hydrocarbon. For example, the full
+oxidation of methane (CH4) with oxygen provided by copper
+oxide (CuO) is given as
+CH4 + 4CuO - CO2 + 2H2O + 4Cu
+(1)
+Chemical looping with oxygen uncoupling (CLOU) is an exten-
+sion of the CLC process to eﬃciently combust solid fuels. In
+CLOU a hydrocarbon is combusted with molecular oxygen that
+is derived from a metal oxide via a reduction reaction, viz.
+4CuO - 2Cu2O + O2(g)
+(2)
+CH4 + 2O2(g) - CO2 + 2H2O
+(3)
+After the condensation of steam, a pure stream of CO2 is
+obtained, which can be readily compressed and sequestered.
+The advantage of CLOU over CLC is that a solid fuel, e.g. coal can
+be combusted directly, i.e. an intermediate, often rate-limiting
+gasification step is omitted. To close the cycle, the reduced
+oxygen carrier is re-oxidized in air:
+2Cu2O + O2 - 4CuO
+(4a)
+or
+2Cu + O2 - 2CuO
+(4b)
+a Laboratory of Energy Science and Engineering, Department of Mechanical and
+Process Engineering, ETH Zu¨rich, Leonhardstrasse 21, 8092 Zu¨rich, Switzerland.
+E-mail: muelchri@ethz.ch
+b Swiss Norwegian Beamlines, European Synchrotron Radiation Facility (ESRF),
+Grenoble, France
+c Electrochemical Materials, Department of Materials, ETH Zu¨rich,
+Ho¨nggerbergring 64, 8093 Zu¨rich, Switzerland
+† Electronic supplementary information (ESI) available. See DOI: 10.1039/c6cp00257a
+Received 13th January 2016,
+Accepted 23rd March 2016
+DOI: 10.1039/c6cp00257a
+www.rsc.org/pccp
+PCCP
+PAPER
+Published on 31 March 2016. Downloaded by University of Birmingham on 25/06/2016 13:42:35. 
+View Article Online
+View Journal | View Issue
+
+
+===== Page 2 =====
+
+This journal is ©the Owner Societies 2016
+Phys. Chem. Chem. Phys., 2016, 18, 12278--12288 | 12279
+The oxidation reaction (4), is always exothermic, whereas the
+reduction reaction (1) is commonly endothermic, the most promi-
+nent exception being CuO. During CLC and CLOU operation, the
+two reaction steps, i.e. the reduction and re-oxidation of the oxygen
+carrier, are separated either spatially or temporally. Therefore, in
+CLC and CLOU the eﬄuent during the combustion reaction is
+not diluted with nitrogen and, hence, the costs associated with
+the energy intensive CO2 separation step are avoided. A further
+advantage of CLC and CLOU over conventional combustion
+processes is that the formation of NOx is largely reduced.
+The CuO–Cu2O/Cu redox couple has been identified as a very
+attractive material for CLC and CLOU owing to its (i) high oxygen
+carrying capacity of 0.2 g O2 per g CuO under CLC conditions,
+(ii) high oxygen uncoupling capacity of 0.1 g O2 per g CuO under
+CLOU conditions, (iii) high equilibrium oxygen partial pressure
+in the temperature range 850–1000 1C (see Fig. 1), (iv) fast
+kinetics for the reduction reactions and (v) exothermic reduction
+reaction. However, the Tammann temperatures of CuO, Cu2O
+and Cu (526 1C, 481 1C and 405 1C, respectively) are signifi-
+cantly lower than the typical operating temperature of the CLC
+and CLOU processes (850–1000 1C). The Tammann temperature
+indicates the onset of sintering and is defined empirically as half
+of the melting temperature, Tm (in Kelvin). Thus, research efforts
+are currently directed towards the development of sintering
+resistant CuO-based oxygen carriers that possess high phase
+stability and in turn also a high redox activity and stability.
+Various high Tammann temperature supports, e.g. ZrO2, Al2O3,
+TiO2, SiO2 or MgAl2O4 have been proposed.3 Among the different
+support materials, Al2O3 has received most attention owing to its
+low cost and high Tammann temperature of B885 1C.1,4–6
+The phase diagram of the Cu2O–CuO–Al2O3 system shows
+that at temperatures exceeding 600 1C Al2O3 can form a solid
+solution with CuO, viz. the spinel (CuAl2O4) or delafossite
+(CuAlO2).8 Chuang et al.9 and Imtiaz et al.10 demonstrated
+previously that CuO that is present in the spinel phase is fully
+reducible under CLC conditions. Therefore, the formation of
+CuAl2O4 does not reduce the oxygen carrying capacity of Al2O3-
+stabilized CuO. However, the formation of CuAl2O4 does affect
+negatively the CLOU performance of Al2O3-stabilized CuO owing
+to the irreversible decomposition of CuAl2O4 to CuAlO2 and the
+low oxygen equilibrium partial pressure of the CuAl2O4–CuAlO2
+couple (Fig. 1).11
+A strategy to avoid the reaction between Al2O3 and transition
+metal oxides is doping with small quantities of alkali metal
+ions (e.g. Li+, Na+ or K+). For example, Houalla et al.12 showed
+that Al2O3 and NiO did not form NiAl2O4 when doped with
+Li+. The inhibition of NiAl2O4 formation was explained by
+the preferential formation of an Al2O3–Li spinel. Using X-ray
+diffraction and differential thermal analysis, El-Shobaky et al.13
+studied the solid–solid reaction between CuO (16.3 wt%) and
+Na+-doped Al2O3 in the temperature range 500–1000 1C. It was
+observed that the presence of Na+ prevented the reaction
+between CuO and Al2O3. This was attributed to the formation
+of a sodium aluminate phase at the surface of the Al2O3 grains.
+El-Shobaky et al.13 speculated that the sodium-aluminate phase
+limited the thermal diffusion of Cu2+ into the Al2O3 matrix,
+thus, preventing the formation of the copper aluminate spinel.
+In a previous study, Imtiaz et al.14 reported that the incorpora-
+tion of K+ in the CuO–Al2O3 matrix did not only avoid the
+formation of the spinel CuAl2O4 but also reduced the propen-
+sity of the material to coke deposition.
+However, the eﬀect of alkali metals on the structural char-
+acteristics and cyclic redox performance of Al2O3-stablized,
+CuO-based oxygen carriers is currently unknown. In addition,
+the reduction pathways of commercial, pure (i.e. unsupported)
+CuO have been probed only at low temperatures (200–300 1C).15
+Thus, the aim of the present study is to investigate the influence
+of Na+ doping on the reduction, oxygen uncoupling and coke
+deposition characteristics of Al2O3-stabilized, CuO-based oxygen
+carriers. To achieve a homogeneous distribution of the dopant
+(Na+), a sol–gel technique was utilized. The quantity of CuO in
+the oxygen carriers was fixed to 70 wt%. The structure and
+reduction pathways of Na+-doped, Al2O3-stabilized, CuO were
+studied at 750 1C using X-ray absorption spectroscopy (XAS).
+In addition, the effect of Na+ doping on charge transport was
+also probed.
+Experimental
+Oxygen carrier synthesis
+Na+-doped (1, 3 or 5 wt%), Al2O3-stabilized, CuO-based (70 wt%
+CuO) oxygen carriers were synthesized using a sol–gel technique.
+In a typical synthesis, first an appropriate amount of aluminium
+isopropoxide ((C3H7O)3Al) was added to deionized water. The
+obtained mixture was heated to 75 1C and allowed to hydrolyse
+for 0.5 h under stirring. Subsequently, the solution was peptized
+with concentrated nitric acid. The molar ratio of Al3+: H2O : H+
+was 0.5 : 50 : 0.07.16 After peptization, condensation was allowed
+for 2 h at 90 1C. Subsequently, an aqueous solution containing
+appropriate amounts of copper(II) nitrate (Cu(NO3)22.5H2O)
+and sodium hydroxide (NaOH) was added to the aluminium gel.
+Fig. 1
+The equilibrium partial pressure of O2 as a function of temperature:
+(TT) CuO–Cu2O couple and (– –) CuAl2O4–CuAlO2 couple. The thermo-
+dynamic data was taken from Barin and Knacke,7 and Jacob and Alcock.8
+Paper
+PCCP
+Published on 31 March 2016. Downloaded by University of Birmingham on 25/06/2016 13:42:35. 
+View Article Online
+
+
+===== Page 3 =====
+
+12280 | Phys. Chem. Chem. Phys., 2016, 18, 12278--12288
+This journal is ©the Owner Societies 2016
+The mixture was heated under reflux for 12 h at 90 1C and
+subsequently dried at 100 1C. The final oxygen carrier was
+obtained by calcination in air in a muffle furnace at 900 1C
+for 2 h (temperature ramp 5 1C min1). Throughout this paper,
+the abbreviation CuAlNax, where x is the wt% of Na+, will be
+used to refer to the different oxygen carriers synthesized.
+Characterization techniques
+A Bruker D8 Advance diﬀractometer, equipped with a Lynx eye
+super speed detector, was used to analyse the composition and
+crystallinity of (i) freshly calcined, (ii) reduced and (iii) cycled
+oxygen carriers. The diﬀractometer was operated at 40 mA and
+40 kV using Cu Ka radiation. Each sample was scanned in the
+range 2y = 201–801. The step size was 0.02751 and the scan time
+per step was 0.8 s. A scanning electron microscope (FEI Magellan
+400 FEG) was used to characterize the surface morphology of the
+freshly calcined oxygen carriers. A double-sided carbon tape was
+used to attach samples of the oxygen carrier onto an aluminium
+holder. Prior to imaging, the samples were sputter coated with
+an approximately 3 nm thick layer of platinum. The surface area
+and pore volume of the synthesized oxygen carriers were deter-
+mined using a Quantachrome NOVA 4000e analyser. Prior to the
+acquisition of the N2 isotherms at 196 1C, each sample was
+degassed at 300 1C for approximately 3 h. The Brunauer et al.17
+(BET) and the Barrett et al.18 (BJH) models were used to calculate,
+respectively, the surface area and the pore volume of the freshly
+calcined materials from the acquired isotherms.
+The
+electrical
+conductivity
+and
+the
+activation
+energy
+for charge transport were determined by 4-point conductivity
+measurements on sintered pellets.19,20 The materials were first
+crushed and then pelletized via uniaxial (40 kN for 2 min) and
+isostatic (1000 kN for 2 min) pressing. The pellets were sintered
+in air (PO2 = 0.21 bar) for 24 h at 1000 1C (the heating and
+cooling rate was 3 1C min1). The sintered pellets possessed a
+density of 495% of the theoretical bulk density. Platinum
+electrodes were applied in a 4-point electrode arrangement
+on both sides of the pellets (Heraeus 3605). The resistance of
+each pellet was measured in air as a function of temperature
+(from 25 1C to 950 1C using a heating and cooling rate of
+3 1C min1) by applying a DC voltage of 1 V (Keithley 2601B
+multimeter). To ensure reproducibility, three heating and cooling
+cycles were performed.
+To determine the oxygen uncoupling characteristics and the
+CuO content of the synthesized oxygen carriers, N2-temperature
+programmed reduction (TPR) experiments were performed in a
+thermo-gravimetric analyser (TGA, Mettler Toledo TGA/DSC 1).
+In a typical experiment, B15 mg of the oxygen carrier were
+heated from 25 1C to 1150 1C with a rate of 10 1C min1 under a
+flow of N2 (25 mL min1). H2- and CH4-TPR were performed
+to probe, respectively, the reduction characteristics and the
+propensity for coke formation of the synthesized oxygen
+carriers. In a typical experiment, B15 mg of the oxygen carrier
+was heated from 25 1C to 1000 1C at a rate of 10 1C min1. At the
+end of the temperature ramp the material was kept at 1000 1C for an
+additional 30 min. H2-TPR and CH4-TPR experiments were per-
+formed using 5 vol% H2 in N2 and 10 vol% CH4 in N2, respectively.
+A Philips CM12 transmission electron microscope, operated at
+100 kV, was used to image the carbon deposited.
+Cyclic CLC and CLOU performance
+The cyclic oxygen carrying capacity of the synthesized oxygen
+carriers was studied in a TGA at 900 1C. A mixture of 10 vol%
+CH4 in N2 was used for reduction (CLC), whereas a N2 atmo-
+sphere was used for CLOU experiments. The reduced materials
+were re-oxidized with air. In each reaction segment, the flow
+rate of the gases was 25 mL min1 (25 1C and 1 bar). In
+addition, a constant N2 flow of 25 mL min1 was used as purge
+flow over the micro-balance. In a typical experiment, a small
+quantity (B25 mg) of the oxygen carrier was placed in an
+alumina pan and heated from room temperature to 900 1C
+(10 1C min1) in a flow of air. After reaching the reaction
+temperature, a reduction step was performed. The duration of
+the reduction steps during CLC and CLOU experiments was 390 s
+and 600 s, respectively. Subsequently, the oxygen carrier was
+re-oxidized in air. The oxygen carriers were re-oxidized for 390 s
+and 600 s for CLC and CLOU operation, respectively. In CLC
+experiments a N2 flow was used to purge the reaction chamber
+for 60 s between each reduction and oxidation segment. The
+reduction and oxidation cycle was repeated 20 times.
+X-ray absorption spectroscopy
+X-ray absorption spectroscopy (XAS) was performed at the Swiss-
+Norwegian beamline (BM01B) at the European Synchrotron
+Radiation Facility (ESRF), Grenoble, France. The measurements
+(Cu K-edge) were performed in transmission mode using a
+Si(111) double crystal monochromator. The energy was calibrated
+to the edge position of Cu foil (8979 eV). In order to study the
+local atomic order in the materials developed, extended X-ray
+absorption fine structure (EXAFS) data were collected (pellets
+using cellulose as binder). In situ X-ray absorption near edge
+structure (XANES) spectroscopy was performed to determine the
+reduction pathways of two representative oxygen carriers, viz.
+CuAlNa0 and CuAlNa5. A detailed description of the experi-
+mental set-up used for the XAS measurements is given in the
+ESI.† XAS data normalization and analysis were performed
+using the Athena and Artemis software packages (Demeter
+0.9.20 software package).21 The structural parameters, such as
+interatomic distances, coordination number and the Debye–
+Waller factor, were obtained by nonlinear least-squares fitting
+of the acquired EXAFS data (k3-weighted, k-range 3–13 Å1).
+Results
+Characterization of the calcined oxygen carriers
+Fig. 2 shows the X-ray diﬀractograms of the calcined oxygen
+carriers. CuAlNa0 and CuAlNa1 contained CuO and CuAl2O4,
+whereas CuAlNa3 and CuAlNa5 contained only CuO and NaAlO2
+(minor phase). The absence of CuAl2O4 in CuAlNa3 and CuAlNa5
+is most likely due to Na+ suppressing the formation of the spinel.
+Due to the lack of diﬀraction peaks for Al2O3 in CuAlNa3 and
+CuAlNa5, Al2O3 is most likely present in an amorphous form.
+PCCP
+Paper
+Published on 31 March 2016. Downloaded by University of Birmingham on 25/06/2016 13:42:35. 
+View Article Online
+
+
+===== Page 4 =====
+
+This journal is ©the Owner Societies 2016
+Phys. Chem. Chem. Phys., 2016, 18, 12278--12288 | 12281
+From Table 1 it can be seen that the average crystallite size of
+CuO in the synthesized oxygen carriers, estimated using the
+Scherrer equation,22 is B23 nm (independent of the fraction
+of Na+).
+XANES and EXAFS spectroscopy were performed to gain a
+better insight into the local Cu environment. Fig. 3(a) plots the
+Cu K-edge XANES spectra (acquired at room temperature) of the
+synthesized materials. For comparison, the Cu K-edge XANES
+spectra of pure, i.e. unsupported CuO and CuAl2O4 are also
+shown in Fig. 3(a). The edge energies (defined as the maximum
+in the first derivative of m(E) with respect to energy) of CuO and
+CuAl2O4 were determined as 8983.3 eV and 8986.1 eV, respec-
+tively, in agreement with literature.23,24 One of the features that
+clearly diﬀerentiates the XANES of CuO from that of CuAl2O4 is
+a shoulder in the edge step (absent for CuAl2O4). From the inset
+3(a1) of Fig. 3(a) it can be seen that the shoulders in the edge
+step of CuAlNa0 and CuAlNa1 are less pronounced than for
+pure, i.e. unsupported CuO. This feature in the XANES of
+CuAlNa0 and CuAlNa1 can be attributed to the presence of a
+CuAl2O4 phase in these materials (as confirmed by XRD, Fig. 2).
+On the other hand, except for a minor reduction in the intensity
+of the white line (inset 3(a2)), the XANES spectra of CuAlNa3
+and CuAlNa5 resemble very well the reference spectra of CuO.
+Linear combination fitting (LCF) of the XANES data (weight
+fractions of CuO and CuAl2O4 on an Al2O3 free basis, Table 1)
+shows that the quantity of CuAl2O4 in the materials decreased
+with increasing Na+ content.
+The experimentally determined k3-weighted EXAFS func-
+tions of the synthesized oxygen carriers, CuO and CuAl2O4 are
+given in Fig. 3(b). The EXAFS functions of CuAlNa0, CuAlNa1
+and CuAlNa3 show a reduction of the amplitude of the oscilla-
+tions when compared to the CuO reference data (e.g. see inset
+3(b1)). Moreover, the EXAFS spectra of CuAlNa0, CuAlNa1 and
+CuAlNa3 contain features that can be ascribed to CuAl2O4.
+These observations indicate that the (volume averaged) local
+environment of Cu in CuAlNa0, CuAlNa1 and CuAlNa3 is, due
+to the presence of CuAl2O4, somewhat diﬀerent from pure CuO
+(in agreement with XRD and LCF analysis). On the other hand,
+the EXAFS data show that only CuAlNa5 has a similar signature
+as the CuO reference, indicating that 5 wt% Na+ prevented the
+reaction between CuO and Al2O3.
+Scanning electron micrographs of the synthesized oxygen
+carriers are given in Fig. S3 (ESI†). The oxygen carriers
+CuAlNa0 and CuAlNa1 reveal a porous surface morphology
+Fig. 2
+X-ray diﬀractograms of the calcined oxygen carriers. The following
+compounds were identified: (’) CuO, (E) CuAl2O4 and (m) NaAlO2.
+Table 1
+Average crystallite size and the weight fraction of CuO and
+CuAl2O4 (Al2O3-free basis) in the calcined oxygen carriers. The average
+crystallite sizes were calculated from the (200) and (311) reflections of CuO
+and CuAl2O4, respectively. The weight fractions of the Cu2+-containing
+phases were determined from the XANES spectra using LCF
+Material
+CuO [nm]
+CuAl2O4 [nm]
+CuO [—]
+CuAl2O4 [—]
+CuAlNa0
+23
+38
+0.71  0.03
+0.29  0.03
+CuAlNa1
+21
+34
+0.75  0.03
+0.25  0.03
+CuAlNa3
+24
+—
+0.91  0.03
+0.09  0.03
+CuAlNa5
+25
+—
+0.98  0.02
+0.02  0.02
+Fig. 3
+Room temperature (a) XANES and (b) EXAFS spectra (k3-weighted) of calcined (
+) CuAlNa0, (
+) CuAlNa1, (
+) CuAlNa3, (
+) CuAlNa5, (
+) CuO
+and (TT) CuAl2O4 measured at the Cu K-edge.
+Paper
+PCCP
+Published on 31 March 2016. Downloaded by University of Birmingham on 25/06/2016 13:42:35. 
+View Article Online
+
+
+===== Page 5 =====
+
+12282 | Phys. Chem. Chem. Phys., 2016, 18, 12278--12288
+This journal is ©the Owner Societies 2016
+(in combination with a comparatively high surface area, Table S2,
+ESI†). Increasing the Na+ content to 5 wt% led to a densification
+of the material’s morphology. As expected, this change in
+morphology of CuAlNa3 and CuAlNa5 was accompanied by a
+decrease in surface area.
+Temperature programmed reduction
+To determine the influence of Na+ on the oxygen uncoupling
+characteristics of the synthesized oxygen carriers, N2-TPR
+experiments were performed in a TGA. The normalized weight
+loss is plotted as a function of temperature for the diﬀerent
+materials (Fig. 4). Fig. 4 confirms that the reduction of all oxygen
+carriers (defined as the temperature at which the oxygen carrier
+has lost 2% of the total weight loss) starts at B770 1C, independent
+of the Na+ loading. As expected, the reduction of CuAlNa0,
+CuAlNa1 and CuAlNa3 occurred in two steps. In the first step
+(temperature range 750–890 1C), CuO is reduced to Cu2O via:
+4CuO(s) - 2Cu2O(s) + O2(g)
+(5)
+The comparatively slow reduction of CuAl2O4 to CuAlO2 occurs in
+the second step (temperature range 890–1050 1C), according to:
+4CuAl2O4(s) - 4CuAlO2(s) + 2Al2O3(s) + O2(g)
+(6)
+The (apparent) rate of CuAl2O4 reduction was slower in
+CuAlNa1 compared to CuAlNa0. Currently we cannot unequi-
+vocally explain the slower reduction of CuAl2O4 in CuAlNa1.
+XRD analysis of the reduced CuAlNa0, CuAlNa1 and CuAlNa3
+confirmed the presence of Cu2O, CuAlO2 and Al2O3 (Fig. S4 of
+the ESI†). Due to the absence of CuAl2O4, the reduction of
+CuAlNa5 occurred in a single step. The X-ray diﬀractogram
+of reduced CuAlNa5 shows peaks due to Cu2O and NaAlO2
+only. The CuO content of the synthesized oxygen carriers, as
+determined from N2-TPR experiments, was close to the theore-
+tically expected value of 70 wt%, see Table 2.
+H2-TPR experiments, Fig. 5(a), were performed to study
+the eﬀect of Na+ on the reduction characteristics of the synthe-
+sized materials. The peak positions of the H2-TPR profiles are
+summarized in the inset of Fig. 5(a). For CuAlNa0 and CuAlNa1,
+the reduction started at B245 1C, with peaks located at B310 1C
+and B322 1C, respectively. A second peak was located at
+B415 1C and B385 1C for, respectively, CuAlNa0 and CuAlNa1.
+The first peak can be assigned to the reduction of CuO to Cu,
+whereas the second peak corresponds to the reduction of
+CuAl2O4 to Cu and Al2O3. For CuAlNa3 and CuAlNa5, reduction
+started at B280 1C with peaks located at B332 1C and B335 1C,
+respectively. The presence of only a single peak in the H2-TPR
+profiles of CuAlNa3 and CuAlNa5 is indicative of the absence
+of CuAl2O4 in these oxygen carriers. Overall, we observed that
+increasing Na+ loadings led to increasing reduction tempera-
+tures. X-ray diﬀractograms of the reduced materials confirmed
+the presence of Cu in the reduced oxygen carriers (Fig. S5, ESI†).
+In the case of CuAlNa5, also NaAlO2 was identified in the
+reduced materials (minor phase).
+The reduction and carbon deposition characteristics of
+the synthesized oxygen carriers were assessed further using
+CH4-TPR. The CH4-TPR profiles of the synthesized oxygen
+carriers are plotted in Fig. 5(b). The reduction of CuAlNa0
+started at B530 1C and was completed at B710 1C. In contrast
+to the N2-TPR and H2-TPR measurements, we could not observe
+a separate reduction step for CuAl2O4 in the CH4-TPR measure-
+ments. This indicates that using CH4, CuO and CuAl2O4 are
+reduced simultaneously. The reduction of Na+ doped oxygen
+carriers started at B560 1C irrespective of the Na+ content, i.e.
+at a higher temperature (+30 1C) compared to the undoped
+material. For CuAlNa0, a substantial increase in weight was
+observed for temperatures 4750 1C. This is due to the deposi-
+tion of coke via the CH4 decomposition reaction, viz.:
+CH4(g) - C(s) + H2(g)
+(7)
+On the other hand, CuAlNa1 revealed a comparatively low
+propensity to coke formation and compared to CuAlNa0, the
+onset of carbon deposition was shifted to higher temperatures.
+Transmission electron microscopy (Fig. S6, ESI†) revealed that
+the carbon deposited on CuAlNa0 and CuAlNa1 was in the form
+of filaments and whiskers. Importantly, no carbon deposition
+was observed in the transmission electron micrographs of
+CuAlNa3 and CuAlNa5; a very favourable characteristic for
+CLC. The increased resistance of Na+-doped oxygen carriers to
+carbon formation is attributed to the ability of alkali metals to
+stabilize preferably CHx–* species instead of C–* surface inter-
+mediates.25,26 The X-ray diffractograms of the CH4-reduced
+oxygen carriers showed peaks due to Cu (Fig. S7, ESI†). For
+CuAlNa5, Bragg reflections due to NaAlO2 were also identified.
+CLC and CLOU performance
+The cyclic CLOU and CLC performance of the synthesized oxygen
+carriers was evaluated in a TGA at 900 1C. The normalized oxygen
+Fig. 4
+N2-TPR profiles of the synthesized oxygen carriers: (
+) CuAlNa0,
+(
+) CuAlNa1, (
+) CuAlNa3 and (
+) CuAlNa5.
+Table 2
+CuO content of the oxygen carriers as determined from N2-TPR
+Material
+CuAlNa0
+CuAlNa1
+CuAlNa3
+CuAlNa5
+CuO content [wt%]
+70.4
+69.9
+71.1
+70.9
+PCCP
+Paper
+Published on 31 March 2016. Downloaded by University of Birmingham on 25/06/2016 13:42:35. 
+View Article Online
+
+
+===== Page 6 =====
+
+This journal is ©the Owner Societies 2016
+Phys. Chem. Chem. Phys., 2016, 18, 12278--12288 | 12283
+carrying capacity defined as
+Normalized oxygen carrying capacity ¼ measured weight loss
+theoretical weight loss
+(8)
+is plotted in Fig. 6(a) (CLOU) and (b) (CLC) as a function of cycle
+number. Under CLOU conditions the normalized oxygen carry-
+ing capacity of CuAlNa0 and CuAlNa1 decreased with cycle
+number. This behaviour is due to the slow oxidation kinetics of
+CuAlO2 back to CuAl2O4.4 Over the 20 cycles tested a B16%
+decrease in the oxygen carrying capacity was observed for
+CuAlNa0 and CuAlNa1. Doping the oxygen carrier with 1 wt%
+Na+ did not prevent the formation of a solid solution between
+CuO and Al2O3 (as confirmed by XRD and XAS). Thus, the CLOU
+performances of CuAlNa0 and CuAlNa1 are very similar. In the
+X-ray diﬀractogram of cycled (oxidized state) CuAlNa0 and
+CuAlNa1, CuO, CuAlO2 and Al2O3 were identified (Fig. S8, ESI†).
+On the other hand, for CuAlNa3 and CuAlNa5 the oxygen
+carrying capacity is only reduced by B3% over the first four
+cycles. From the fifth cycle onwards, the oxygen carrying
+capacity of CuAlNa3 remained stable, reaching 97% of the
+theoretically predicted oxygen carrying capacity of the material.
+The X-ray diﬀractogram of cycled CuAlNa3 (Fig. S8, ESI†) showed
+weak peaks due to CuAl2O4 along with CuO and NaAlO2. This
+confirms (in line with XAS data) that doping CuO–Al2O3 with
+3 wt% Na+ is not sufficient to completely avoid the formation
+of a solid solution between CuO and Al2O3. In the case of
+CuAlNa5, the normalized oxygen carrying capacity reached
+100% of the theoretically predicted oxygen carrying capacity
+in the ninth cycle and remained stable for the subsequent
+cycles. This implies a fully reversible reduction–oxidation
+of the CuO–Cu2O couple. The X-ray diffractogram of cycled
+(oxidized state) CuAlNa5 showed peaks due to CuO and NaAlO2
+only, i.e. the spinel CuAl2O4 is not present in CuAlNa5. The slight
+drop in the oxygen carrying capacity during the first five cycles
+is probably due to some small changes in the kinetics of
+the oxidation reaction over the initial CLOU cycles, as shown
+in Fig. S9 (ESI†).
+Turning to the CLC performance of the synthesized oxygen
+carriers, a gradual decrease in the normalized oxygen carrying
+capacity was observed for CuAlNa0 (Fig. 6(b)). On the other
+hand, all Na+ doped oxygen carriers showed stable oxygen
+carrying capacities close to 1 over the 20 redox cycles tested.
+The X-ray diﬀractograms of cycled (oxidized state) CuAlNa0 and
+Fig. 5
+(a) H2- and (b) CH4-TPR profiles of the synthesized oxygen carriers: (
+) CuAlNa0, (
+) CuAlNa1, (
+) CuAlNa3 and (
+) CuAlNa5.
+Fig. 6
+Normalized oxygen carrying capacity of the oxygen carriers synthesized, as determined in a TGA at 900 1C under (a) CLOU and (b) CLC
+conditions: (E) CuAlNa0, (’) CuAlNa1, (m) CuAlNa3 and (K) CuAlNa5.
+Paper
+PCCP
+Published on 31 March 2016. Downloaded by University of Birmingham on 25/06/2016 13:42:35. 
+View Article Online
+
+
+===== Page 7 =====
+
+12284 | Phys. Chem. Chem. Phys., 2016, 18, 12278--12288
+This journal is ©the Owner Societies 2016
+CuAlNa1, see Fig. S10 (ESI†), showed reflections due to CuO
+and CuAl2O4. On the other hand, the XRD data of CuAlNa3 and
+CuAlNa5 XRD showed only peaks due to CuO and NaAlO2. It
+should be noted that CuAl2O4 is fully reducible under CLC
+conditions and does not reduce the oxygen carrying capacity of
+CuAlNa0.10,14 On the other hand, the temporally resolved mass
+loss profiles of CuAlNa0 (Fig. S11, ESI†) reveal that the rate of
+oxidation of CuAlNa0 decreased with cycle number, leading in
+turn to a decreasing oxygen carrying capacity with cycle number
+(the oxidation time was fixed to 390 s). In contrast, all Na+
+doped oxygen carriers not only possessed higher oxidation rates
+(compared to undoped material) but also maintained their high
+oxidation rates over the 20 cycles tested. Therefore, CuAlNa1,
+despite containing CuAl2O4, showed a stable cyclic oxygen
+carrying capacity under CLC conditions.
+The long term redox stability of CuAlNa5 was evaluated
+further in a TGA at 900 1C for 100 CLC and CLOU cycles.
+Fig. 7 plots the normalized oxygen carrying capacity of CuAlNa5
+under both CLC and CLOU conditions as a function of cycle
+number. Under both CLC and CLOU conditions CuAlNa5
+showed stable oxygen carrying capacities close to 1 over the
+100 redox cycles tested, indicating that there was no sodium
+leaching at the high operating temperatures. Even after 100
+cycle, we could not observe CuAl2O4 or CuAlO2 in the X-ray
+diﬀractograms (Fig. S12, ESI†) of cycled (oxidized state) CuAlNa5,
+confirming further the long term stability of Na+-doped and
+Al2O3-stabilized CuO.
+In situ XANES spectroscopy
+In situ XANES spectroscopy was performed to investigate
+the reduction pathways of undoped and Na+-doped (5 wt%),
+Al2O3-stabilized CuO at 750 1C. In total three redox cycles
+were performed for each material. Fig. 8(a) and (b) show the
+temporal changes of the Cu K-edge XANES spectra of, respec-
+tively, CuAlNa0 and CuAlNa5 (first reduction step using 5 vol%
+H2 in He). Each spectrum plotted was acquired in He after a 5 s
+pulse of the reducing gas was released into the bed. Fig. 8
+reveals that at 750 1C the reduction of the oxygen carriers
+commenced with the first H2 pulse, i.e. an induction period
+was not observed. The absence of an induction period at 750 1C
+is most likely due to the high thermal disorder in the materials
+as confirmed by the EXAFS spectra of CuAlNa0 and CuAlNa5
+(Fig. S13 of the ESI†). Rodriguez et al.27 argued that the
+occurrence of an induction period is related to the formation of
+defect sites on the metal oxide surface. These active sites have a
+high activity for the dissociation of H2, but have, however, only
+been observed at low temperatures, i.e. T o 310 1C.27 For example,
+the in situ XAS measurements of Kim et al.15 showed an induction
+period in the temperature range 250–300 1C (commercial, pure
+CuO powder; 5 vol% H2 in He with a flow rate 415 mL min1).
+Kim et al.15 also reported that the duration of the induction period
+decreased with increasing temperature.
+The reduction pathways of CuAlNa0 and CuAlNa5 (Fig. 9(a)
+and (b), respectively) were determined using LCF of the acquired
+XANES data. Fig. 9 confirms that the reduction of both oxygen
+Fig. 7
+Normalized oxygen carrying capacity of CuAlNa5, as determined in
+a TGA at 900 1C under (’) CLC and (&) CLOU conditions.
+Fig. 8
+Time-resolved (150 s) Cu K-edge XANES spectra during reduction (5 vol% H2 in He) of (a) CuAlNa0 and (b) CuAlNa5 at 750 1C. The red (
+) and
+blue (
+) lines correspond to the initial and final states, respectively.
+PCCP
+Paper
+Published on 31 March 2016. Downloaded by University of Birmingham on 25/06/2016 13:42:35. 
+View Article Online
+
+
+===== Page 8 =====
+
+This journal is ©the Owner Societies 2016
+Phys. Chem. Chem. Phys., 2016, 18, 12278--12288 | 12285
+carriers proceeds via the Cu2O intermediate. The transition
+though the Cu2O intermediate phase during reduction was
+supported further by principal component analysis (PCA).
+PCA of the recorded XANES data of CuAlNa0 and CuAlNa5
+confirmed that all spectra could be reconstructed when using
+the four reference compounds CuO, CuAl2O4, Cu2O and Cu.
+Using DFT, Kim et al.15 showed that under reducing conditions
+CuO can reach metastable states that possess a large number of
+oxygen vacancies. A transition from these metastable states to
+Cu2O is associated with large variations in the cell parameters
+of CuO, whereas a very small amount of energy (total energy of
+unit cell calculated using DFT) is released during the transition
+from metastable CuO (CuO with large number of oxygen
+vacancies) to Cu2O. Consequently, Kim et al.15 proposed that
+Cu2O intermediates are only formed for slow reduction rates.
+On the other hand, under fast oxygen removal conditions the
+following transitions CuO - metastable CuO - Cu are favored
+energetically. We speculate that in the present work, the use
+of H2 pulses (simulating a slow reduction) has allowed the
+formation of the Cu2O intermediate during reduction. We
+did not observe, within the temporal resolution of the XAS
+spectrometer, the formation of the Cu2O intermediate when a
+continuous flow of 25 mL min1 of 5 vol% H2 in He was used
+for reduction (simulating a fast reduction).
+The in situ XAS results plotted in Fig. 9(a) also show that in
+the first reduction segment of CuAlNa0, CuO and CuAl2O4 were
+reduced simultaneously to Cu2O. The reduction of CuO and
+CuAl2O4 to Cu2O was completed within the first 60 s. The further
+reduction of Cu2O to Cu started after 20 s. At the end of the
+reduction step (150 s), the material still contained B15 wt%
+Cu2O, indicative of comparatively slow reduction rate for Cu2O.
+Nonetheless, XANES confirmed that CuO that is in a solid
+solution with Al2O3 is fully reducible to Cu via the Cu2O
+intermediate. Thus, the formation of CuAl2O4 does not reduce
+the oxygen carrying capacity of the synthesized oxygen carriers.
+The composition of CuAlNa0 at the end of the first redox cycle
+(i.e. after re-oxidation with 5 vol% O2 in He) was 62.5 wt% CuO,
+21.0 wt% Cu2O and 16.5 wt% CuAl2O4. The incomplete oxida-
+tion of Cu2O to CuO within the fixed oxidation time is due to
+the sluggish oxidation kinetics of the Cu(I)–Cu(II) transition.28
+In the reduction step of the second and third redox cycle, the
+reduction of CuO and CuAl2O4 was completed within 20 seconds,
+i.e. three times faster when compared to the first cycle. Similarly,
+the (apparent) rate of reduction of Cu2O also increased slightly
+with cycle number. As a consequence, Cu2O was fully reduced
+to Cu in the third cycle.
+For CuAlNa5, only CuO was identified in the fresh and
+re-oxidized materials. In the first 15 s of the reduction segment
+of the first cycle, CuO was reduced primarily to Cu2O; only a
+minor quantity of Cu was detected. After 15 s, the fraction
+of Cu started to increase gradually. The reduction of CuO
+and Cu2O was completed within 45 s and 90 s, respectively.
+Here, the apparent rate of reduction of CuO and Cu2O was
+again found to increase with cycle number. For example, in the
+Fig. 9
+Weight fractions of CuO (–&–), CuAl2O4 (–J–), Cu2O (–}–) and Cu (–n–) during the reduction of (a) CuAlNa0 and (b) CuAlNa5 using linear
+combination fitting of the acquired Cu K-edge XANES data. The reduction was performed at 750 1C using 5 s pulses of 5 vol% H2 and 95 vol% He. 30 H2
+pulses were used in total.
+Paper
+PCCP
+Published on 31 March 2016. Downloaded by University of Birmingham on 25/06/2016 13:42:35. 
+View Article Online
+
+
+===== Page 9 =====
+
+12286 | Phys. Chem. Chem. Phys., 2016, 18, 12278--12288
+This journal is ©the Owner Societies 2016
+second and third cycle, Cu occurred already after the first H2
+pulse (5 s). Furthermore, we observed that for CuAlNa5 the
+quantity of Cu2O formed during reduction decreases with
+increasing cycle number. From Fig. 9(a) and (b) it is evident
+that the reduction kinetics of CuAlNa5 are faster compared to
+CuAlNa0. The influence of Na+ on the reduction pathways and
+kinetics will be discussed in detail further below.
+To explain the increase in the reduction kinetics with cycle
+number, room temperature EXAFS data of fresh and cycled
+CuAlNa5 were recorded. Compared to fresh CuAlNa5, the Four-
+ier transformed EXAFS function of cycled CuAlNa5 shows an
+appreciably reduced height of the peaks due to the first and
+second coordination spheres (Fig. S14, ESI†), indicative of an
+increasing defect structure in CuO with cycle number. Fitting of
+the first shell of cycled CuAlNa5 shows an increase in the
+Debye–Waller factor and a decrease in the Cu–O coordination
+number compared to fresh CuAlNa5 (Table S4, ESI†).
+Conductivity measurements
+Using DFT calculations, Li et al.29,30 argued that the redox
+performance of transition metal oxides depends critically on
+the activation energy for the counter-current conduction of ions
+and electrons through the oxygen carrier. However, there is
+currently very little experimental evidence available to support
+this modelling result. In order to investigate the influence
+of Na+ doping on the activation energy for charge transport
+4-point electrical conductivity measurements were performed.
+In Fig. 10(a) the measured resistivity of CuAlNa0 and CuAlNa5
+is plotted as a function of temperature. CuAlNa5 has a lower
+resistivity than CuAlNa0 and the resistivity decreases with
+increasing temperature. The resistivity data was further analysed
+by fitting the following Arrhenius relationship
+s ¼ s0
+T exp Ea
+kT
+
+
+(9)
+where, s0, Ea and k are, respectively, a proportionality constant,
+the activation energy for charge conduction and the Boltzmann
+constant. Plotting ln(sT) as a function of 1/T yielded two distinct
+regions (Fig. S15, ESI†). Thus, the low and high temperature
+regimes were fitted by separate activation energies. For
+temperatures o600 1C, the activation energy for charge trans-
+port in CuAlNa0 and CuAlNa5 was determined as 0.152 eV and
+0.098 eV, respectively (see Fig. 10(b)). At B600 1C, an increase
+in activation energy is observed, indicative of a change in the
+charge transport mechanism. For temperatures exceeding
+600 1C, an activation energy of 0.448 and 0.405 eV was deter-
+mined for CuAlNa0 and CuAlNa5, respectively. It is worth
+noting here that CuO is a p-type semiconductor.31 Jeong and
+Choi32 showed that conduction at low temperature is due to the
+hopping of charge carriers in metal deficient CuO, i.e. Cu1yO.
+Using 4-point conductivity measurements, Jeong and Choi32
+determined the activation energy for charge carrier hopping as
+0.1  0.01 eV which is in good agreement with the values
+obtained here (for T o 600 1C). The high temperature region
+gives the intrinsic conductivity of the material. In the literature
+the activation energy for charge transport through unsupported
+CuO at high temperatures (for T 4 600 1C) was determined
+as 0.7  0.04 eV. This value is slightly higher than the one
+obtained from our measurements. The diﬀerence can most
+likely be attributed to morphological diﬀerence between com-
+mercial CuO and the material synthesized by us.32
+Discussion
+Eﬀect of Na+ on the morphological properties of
+Al2O3-stabilized CuO
+We observe that the average crystallite size of CuO in the
+synthesized oxygen carriers is not aﬀected by Na+ doping
+(Table 1). This implies that Na+ doping has no pronounced
+solute drag or strain eﬀect on the crystallite size development of
+CuO.33 On the other hand, Na+ doping significantly modifies
+the surface morphology of the oxygen carriers synthesized
+(Fig. S3, ESI†). Based on visual inspection of the electron
+micrographs, the sintering tendency of the grains was found
+to increase with increasing Na+ content. It has been reported
+Fig. 10
+(a) Resistivity as a function of temperature for CuAlNa0 (
+) and CuAlNa5 (
+); (b) activation energy for charge transport for CuAlNa0 (TT)
+and CuAlNa5 (TT).
+PCCP
+Paper
+Published on 31 March 2016. Downloaded by University of Birmingham on 25/06/2016 13:42:35. 
+View Article Online
+
+
+===== Page 10 =====
+
+This journal is ©the Owner Societies 2016
+Phys. Chem. Chem. Phys., 2016, 18, 12278--12288 | 12287
+that the addition of alkali metals, e.g. Li, to metal oxides,
+e.g. ceria, can increase sintering through an increased atomic
+mobility at the grain boundaries.34
+Influence of Na+ on reduction kinetics and charge transport
+characteristics
+From in situ XANES spectroscopy results (Fig. 9) it is evident
+that the (apparent) rate of reduction of CuAlNa5 is appreciably
+faster when compared to CuAlNa0, albeit the same reduction
+pathway was followed, viz. CuO - Cu2O - Cu. As the oxygen
+carrier CuAlNa5 has a smaller surface area than CuAlNa0
+(Table S2, ESI†) the faster reduction kinetics of CuAlNa5 cannot
+be explained by surface area eﬀects. Thus, we attribute the fast
+reduction kinetics of CuAlNa5 to Na+ induced defect structures.
+Owing to diﬀerences in the oxidation states and ionic radii of
+Cu ions (0.73 Å) and Na ions (1.02 Å), doping Al2O3-stabilized
+CuO with Na+ creates aliovalent substitution defects in the
+oxygen carrier.35 Aliovalent substitution defects lower the positive
+charge within the oxygen carrier, therefore, oxygen vacancies or
+holes are generated as a charge compensation mechanism to
+maintain the overall charge neutrality. These oxygen vacancies or
+holes facilitate the transport of oxygen (O2) and electronic
+carriers during redox reactions. Comparing the electrical trans-
+port characteristics of Na+ doped CuO (CuAlNa5) and undoped
+CuO (CuAlNa0), it is clear that Na+ doping increases the
+reduction kinetics of CuO by (i) lowering the activation energy
+for charge transport by B0.05 eV and (ii) increasing the overall
+conductivity by a factor of 2. We ascribe the lowering of the
+activation energy for charge transport to Na+ induced modifica-
+tions in the electronic structure of CuO in line with XANES data
+and the absence of a spinel phase in CuAlNa5.
+Influence of cycle number on the reduction kinetics
+Fig. 9 shows that the reduction kinetics of both CuAlNa0
+and CuAlNa5 increase with cycle number. This observation is
+consistent with the TGA and fluidized bed measurements of
+Imtiaz et al.10,11 that also showed an increasing reduction rate
+of Al2O3-stabilized CuO with cycle number. The Fourier trans-
+formed EXAFS functions of fresh and cycled CuAlNa5 (Fig. S14
+and Table S4, ESI†) revealed that the number of defects
+(e.g. oxygen vacancies) in the CuO structure increase with
+number of repeated redox cycles resulting in an increasing
+distortion of the local atomic order. We believe that the
+increasing structural disorder of CuO with cycle number facil-
+itates the transport of oxygen ions during reduction, which in
+turn leads to faster reduction kinetics.
+Relation between reduction kinetics and pathways
+The quantity of Cu2O formed during the reduction of CuAlNa5
+was found to decrease with increasing cycle number (in situ XAS
+measurements, Fig. 9(b)). The decreasing quantity of Cu2O with
+cycle number suggests a change in the reduction pathway
+from a sequential (CuO - Cu2O - Cu) to a direct transition
+(CuO - Cu). Indeed, it is conceivable that the increasing
+(apparent) reduction kinetics with cycle number as discussed
+above, are a direct consequence of this change in reduction
+pathway with cycle number. This observation is an agreement
+with the report of Kim et al.15 that showed that the reduction
+kinetics of pure CuO plays an important role for the reduction
+pathway. The sequential reduction of CuO occurs only under
+slow oxygen removal conditions. Therefore, an increasing rate
+of reduction with cycle number (as observed here) would favour
+the CuO - Cu transition and change the reduction pathway
+from sequential to direct. The change of the reduction pathway
+of CuO would have important consequences for the oxidation
+mechanism of gaseous hydrocarbons. In the case of a sequen-
+tial reduction pathway the reaction between CH4 and CuO
+proceeds with both the lattice oxygen of CuO and molecular
+oxygen released via the CuO - Cu2O transition. For the direct
+reduction of CuO, only lattice oxygen will be available for the
+oxidation of CH4.
+Conclusions
+In this work, we probe and characterize in detail the eﬀect of
+Na+ doping on the local structure, electronic properties and
+cyclic redox characteristics of Al2O3-stabilized CuO. Using a
+combination of XAS, XRD and conductivity measurements we
+could demonstrate that the improved redox performance of Na+
+doped oxygen carriers under CLC conditions is due to Na+
+induced changes in the electronic structure of CuO and the
+suppression of the formation of a spinel phase. These structural
+changes lead to enhanced electronic transport kinetics possibly
+due to the generation of oxygen vacancies compensating the lower
+charge of Na+ when compared to Cu2+. The absence of the
+CuAl2O4 phase leads to a high redox stability under CLOU
+conditions. Utilizing in situ XANES spectroscopy, we were able
+to show that the reduction of both undoped and doped CuO
+proceeds via the Cu2O intermediate. The (apparent) rate of
+reduction increases with cycle number owing to an increasing
+structural disorder. As a consequence, with cycle number the
+reduction pathway changes from sequential (CuO - Cu2O - Cu)
+to a direct CuO - Cu transition.
+Acknowledgements
+We are grateful to the Swiss National Science Foundation (SNF)
+(Project 406640_13670011) for financial support. We also thank
+Mrs Lydia Zehnder for her help with the XRD analysis and the
+Scientific Centre for Optical and Electron Microscopy (ScopeM)
+for providing access to and training on scanning and trans-
+mission electron microscopes. We acknowledge SNBL and ESRF
+for the provision of beamtimes.
+Notes and references
+1 Q. Imtiaz, D. Hosseini and C. R. Muller, Energy Technol.,
+2013, 1, 633–647.
+2 R. K. Lyon and J. A. Cole, Combust. Flame, 2000, 121,
+249–261.
+Paper
+PCCP
+Published on 31 March 2016. Downloaded by University of Birmingham on 25/06/2016 13:42:35. 
+View Article Online
+
+
+===== Page 11 =====
+
+12288 | Phys. Chem. Chem. Phys., 2016, 18, 12278--12288
+This journal is ©the Owner Societies 2016
+3 P. Gayan, I. Adanez-Rubio, A. Abad, L. F. de Diego, F. Garcia-
+Labiano and J. Adanez, Fuel, 2012, 96, 226–238.
+4 M. Arjmand, A. M. Azad, H. Leion, T. Mattisson and
+A. Lyngfelt, Ind. Eng. Chem. Res., 2012, 51, 13924–13934.
+5 M. M. Hossain and H. I. de Lasa, Chem. Eng. Sci., 2008, 63,
+4433–4451.
+6 J. Adanez, A. Abad, F. Garcia-Labiano, P. Gayan and L. F. de
+Diego, Prog. Energy Combust. Sci., 2012, 38, 215–282.
+7 I. Barin and O. Knacke, Thermochemical properties of
+inorganic substances, Springer-Verlag, Berlin, New York,
+1973.
+8 K. T. Jacob and C. B. Alcock, J. Am. Ceram. Soc., 1975, 58,
+192–195.
+9 S. Y. Chuang, J. S. Dennis, A. N. Hayhurst and S. A. Scott,
+Combust. Flame, 2008, 154, 109–121.
+10 Q. Imtiaz, A. M. Kierzkowska and C. R. Muller, Chem-
+SusChem, 2012, 5, 1610–1618.
+11 Q. Imtiaz, M. Broda and C. R. Muller, Appl. Energy, 2014,
+119, 557–565.
+12 M. Houalla, J. Lemaitre and B. Delmon, J. Chem. Soc.,
+Faraday Trans. 1, 1982, 78, 1389–1400.
+13 G. A. Elshobaky, T. Elnabarawy, G. A. Fagal and N. H. Amin,
+Thermochim. Acta, 1989, 141, 195–203.
+14 Q. Imtiaz, A. M. Kierzkowska, M. Broda and C. R. Muller,
+Environ. Sci. Technol., 2012, 46, 3561–3566.
+15 J. Y. Kim, J. A. Rodriguez, J. C. Hanson, A. I. Frenkel and
+P. L. Lee, J. Am. Chem. Soc., 2003, 125, 10684–10692.
+16 A. M. Kierzkowska, C. D. Bohn, S. A. Scott, J. P. Cleeton,
+J. S. Dennis and C. R. Muller, Ind. Eng. Chem. Res., 2010, 49,
+5383–5391.
+17 S. Brunauer, P. H. Emmett and E. Teller, J. Am. Chem. Soc.,
+1938, 60, 309–319.
+18 E. P. Barrett, L. G. Joyner and P. P. Halenda, J. Am. Chem.
+Soc., 1951, 73, 373–380.
+19 J. L. M. Rupp, E. Fabbri, D. Marrocchelli, J. W. Han,
+D. Chen, E. Traversa, H. L. Tuller and B. Yildiz, Adv. Funct.
+Mater., 2014, 24, 1562–1574.
+20 A. A. Felix, J. L. M. Rupp, J. A. Varela and M. O. Orlandi,
+J. Appl. Phys., 2012, 112, 054512.
+21 B. Ravel and M. Newville, J. Synchrotron Radiat., 2005, 12,
+537–541.
+22 A. L. Patterson, Phys. Rev., 1939, 56, 978–982.
+23 E. Kleymenov, J. Sa, J. Abu-Dahrieh, D. Rooney, J. A. Van
+Bokhoven, E. Troussard, J. Szlachetko, O. V. Safonova and
+M. Nachtegaal, Catal.: Sci. Technol., 2012, 2, 373–378.
+24 V. V. Galvita, M. Filez, H. Poelman, V. Bliznuk and
+G. B. Marin, Catal. Lett., 2014, 144, 32–43.
+25 A. P. E. York, T. C. Xiao, M. L. H. Green and J. B. Claridge,
+Catal. Rev., 2007, 49, 511–560.
+26 J. R. Rostrup-Nielsen, in Catalysis: Science and Technology,
+ed. J. R. Anderson and M. Boudart, Springer-Verlag, Berlin
+Heidelberg, vol. 5, ch. 1, 1984.
+27 J. A. Rodriguez, J. C. Hanson, A. I. Frenkel, J. Y. Kim and
+M. Perez, J. Am. Chem. Soc., 2002, 124, 346–354.
+28 S. Y. Chuang, J. S. Dennis, A. N. Hayhurst and S. A. Scott,
+Energy Fuels, 2010, 24, 3917–3927.
+29 F. X. Li, Z. C. Sun, S. W. Luo and L. S. Fan, Energy Environ.
+Sci., 2011, 4, 876–880.
+30 F. X. Li, S. W. Luo, Z. C. Sun, X. G. Bao and L. S. Fan, Energy
+Environ. Sci., 2011, 4, 3661–3667.
+31 X. Y. Song, S. X. Sun, W. M. Zhang, H. Y. Yu and W. L. Fan,
+J. Phys. Chem. B, 2004, 108, 5200–5205.
+32 Y. K. Jeong and G. M. Choi, J. Phys. Chem. Solids, 1996, 57, 81–84.
+33 E. Zolotoyabko, J. L. M. Rupp and L. J. Gauckler, Scr. Mater.,
+2012, 66, 190–193.
+34 J. D. Nicholas and L. C. De Jonghe, Solid State Ionics, 2007,
+178, 1187–1194.
+35 R. D. Shannon, Acta Crystallogr., 1976, 32, 751–767.
+PCCP
+Paper
+Published on 31 March 2016. Downloaded by University of Birmingham on 25/06/2016 13:42:35. 
+View Article Online

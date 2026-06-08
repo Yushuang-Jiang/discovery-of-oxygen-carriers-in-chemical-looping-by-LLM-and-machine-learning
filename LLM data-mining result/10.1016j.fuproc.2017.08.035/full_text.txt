@@ -1,0 +1,1238 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Fuel Processing Technology
+journal homepage: www.elsevier.com/locate/fuproc
+Chemical looping with oxygen uncoupling (CLOU) and chemical looping
+combustion (CLC) using copper-enriched oxygen carriers supported on ﬂy
+ash
+Anita Skulimowskaa, Luca Di Felicea, Natalia Kamińska-Pietrzaka, Agnieszka Celińskab,
+Mariola Pławeckab, Jarosław Hercogb, Mariusz Krauzc, Asunción Arandaa,⁎
+a Department of Environmental Technology, Institute for Energy Technology, Instituttveien 18, NO-2007 Kjeller, Norway
+b Thermal Processes Department, Institute of Power Engineering, Augustówka 36, 02-981 Warszawa, Poland
+c Ceramic Department Cerel, Institute of Power Engineering, Techniczna 1, 36-040 Boguchwała, Poland
+A R T I C L E I N F O
+Keywords:
+Chemical-looping combustion (CLC)
+Chemical-looping with oxygen uncoupling
+(CLOU)
+Copper-based oxygen carrier
+Fy ash-supported oxygen carrier
+Carbon capture
+Coal combustion
+A B S T R A C T
+An experimental investigation on chemical activity and stability of innovative CuO-based oxygen carriers (OC)
+supported on coal ﬂy ash, towards Chemical Looping Combustion (CLC) and Chemical Looping Oxygen
+Uncoupling (CLOU) is presented. The materials were prepared by granulation of ﬁne powders of CuO and ﬂy ash
+(FA), with 40–60–80 wt% CuO loading (Cu40FA, Cu60FA and Cu80FA), using a high shear granulator. CLC and
+CLOU activities were investigated in a thermogravimetric analyzer (TGA) in the presence of a reactive fuel or an
+inert atmosphere, respectively. A rather stable CLOU capacity (Ro-CLOU) in the range of 4–8 g O2/100 g OC was
+found over 42 redox cycles, in agreement with the stoichiometry of the prepared samples. CLC oxygen carrying
+capacity (Ro-CLC) with gaseous fuel, on the other hand, has evidenced a quick decline for the material with higher
+copper loading (80 wt% CuO). Furthermore, both oxygen carriers with 40–60 wt% CuO were tested for com-
+bustion of coal in a macro-TGA rig using CO2 as carrier gas and diﬀerent OC:fuel ratios. First, a blank test in the
+absence of the OC was carried out to characterize the fast devolatilization and slow gasiﬁcation reactions taking
+place due to the exposure of the fuel to high temperature and CO2-rich atmosphere. The comparison of the
+weight loss curve evolution with and without oxygen carrier, and the measured residual carbon after test, en-
+abled to extract the CLOU eﬀect for each combination of material/solid fuel.
+1. Introduction
+In a view of the current climate change and rapid increase of
+greenhouse gases (GHG) concentrations, carbon capture, utilization and
+storage (CCUS) has been widely accepted as an eﬃcient way for miti-
+gating the contribution of GHG emission from fossil fuels combustion to
+global warming. Among the proposed technologies for CO2 capture,
+three main groups can be distinguished: pre-combustion, oxy-fuel
+combustion and post combustion [1,2]. Chemical Looping Combustion
+(CLC) is a zero-emission technology, with a very low eﬃciency penalty
+and low CO2 capture cost, producing a concentrated CO2 stream ready
+for utilization and/or storage [3,4]. The CLC process does not use air for
+combustion, so avoids the costly oxygen separation from air needed in
+alternative CO2 capture technologies. Moreover, the nitrogen is elimi-
+nated from the process, thus strongly reducing the NOx emissions and
+producing a ﬂue gas stream consisting only of CO2 and H2O.
+The generic equations for CLC process are as follows:
++
++
+→
++
++
++
+(2n
+m)M O
+C H
+(2n
+m)M O
+mH O
+nCO
+x
+y
+n
+2m
+x
+y‐1
+2
+2
+(1)
++
+→
+2Me O
+O
+2Me O
+x
+y‐1
+2
+x
+y
+(2)
+The oxygen needed for the combustion reaction is provided by a
+solid, the so-called oxygen carrier (OC). The OC is transported between
+two reactors: the combustion or fuel reactor and the air reactor. In the
+fuel reactor the oxygen carrier provides the oxygen whilst being re-
+duced (Eq. (1)); in the air reactor it is exposed to air at high tempera-
+ture to re-oxidize (Eq. (2)) before being sent back to the fuel reactor. As
+a result, the carbonaceous fuel is burnt in an oxygen-rich atmosphere
+without nitrogen.
+Chemical Looping Combustion (CLC) has been operated in a number
+of units in the size range of 0.3 to 140 kW showing successful results
+[5]. Worldwide data from 12 chemical looping combustors have been
+reported in the last years and > 700 OC materials have been tested for
+the CLC process [3–10]. Only in pilot plants, the total reported working
+time sums up an operational experience up to 4000 h using close to
+http://dx.doi.org/10.1016/j.fuproc.2017.08.035
+Received 14 July 2017; Received in revised form 25 August 2017; Accepted 25 August 2017
+⁎ Corresponding author.
+E-mail address: Suni.Aranda@ife.no (A. Aranda).
+Fuel Processing Technology 168 (2017) 123–130
+Available online 19 September 2017
+0378-3820/ © 2017 Elsevier B.V. All rights reserved.
+MARK
+
+
+===== Page 2 =====
+
+thirty diﬀerent OCs [6].
+Whilst CLC technology is well suited for natural gas or syngas
+combustion, its deployment with solid fuels such as coal and biomass is
+limited by the slow combustion rate achievable in the solid-solid re-
+action with the OC lattice oxygen. To face this challenge, in 1951 Lewis
+et al. [11] presented for the ﬁrst time the application of a decomposi-
+tion reaction of a solid OC releasing molecular oxygen at high tem-
+perature for solid fuels gasiﬁcation. > 50 years later, Mattisson et al.
+[8] adapted Lewis concept to solid fuels combustion within Chemical
+Looping technology, and introduced the acronym CLOU (Chemical
+Looping with Oxygen Uncoupling). In CLOU, the key step is the thermal
+decomposition of OC at high temperature, providing molecular oxygen:
+→
++
+2Me O
+2Me O
+O (g)
+x
+y
+x
+y‐1
+2
+(3)
+Subsequently, the solid fuel is combusted according to:
++
++
+® →
++
+C H
+(n
+m 2)O (g)
+nCO (g)
+mH O (g)
+n
+2m
+2
+2
+2
+(4)
+Since both devolatilization and gasiﬁcation of the fuel also occur in
+parallel, tars and other light hydrocarbons, together with the produced
+syngas, are combusted using both molecular (gaseous) and/or lattice
+(solid) oxygen of the OC.
+OCs activity for eﬀective decomposition of oxygen relies on both
+reaction thermodynamics and physico-chemical properties of the ma-
+terials [10]. The metal oxide redox pairs identiﬁed as the most suitable
+are CuO/Cu2O, Mn2O3/Mn3O4, and Co3O4/CoO [7,8]. The system
+CuO–Cu2O displays the maximum theoretical oxygen transfer capacity
+of 0.1 g O2/g CuO, whereas Co3O4–CoO and Mn2O3-Mn3O4 account for
+0.066 and 0.034 g O2/g OC, respectively. This makes copper oxide an
+attractive material for CLOU technology, although the relatively low
+melting point of metallic copper (1085 °C) limits high temperature
+operation. As a matter of fact, copper decomposition begins at 800 °C
+(0.1% equilibrium concentration of O2) and increases exponentially
+with temperature (e.g., reaching 11.4 vol% at 1000 °C) [12].
+Pure metal oxides are not suitable OC candidates [13–15], due to
+their sintering tendency and mechanical weakness. Therefore, synthetic
+supports such as Al2O3, MgAl2O4, SiO2, MgO or ZnO are typically
+proposed in literature [7,10,16–18]. Recently, to promote a resource-
+eﬃcient recirculation of materials with beneﬁcial environmental im-
+pact, Aisyah et al. [19] proposed low-value ﬂy ashes as support for Cu,
+Ni and Fe based OCs, as they inherently contain SiO2, Al2O3 and MgO.
+The present study provides a new investigation on the use of ﬂy ash
+as support for CuO-based OCs, with 40–60–80 wt% loading of CuO.
+Materials have been prepared via a simple and cost-eﬀective agglom-
+eration step, using a high shear granulator, and their CLOU and CLC
+activities have been investigated in a thermogravimetric analyzer.
+Cyclic CLOU properties of the materials have been ﬁrstly measured
+under inert atmosphere at high temperature. Then, the OCs have been
+physically mixed with a solid fuel (coal) and rapidly heated up in a
+macro-TGA device; after decomposition of the volatile fraction of the
+fuel at intermediate temperature, the combustion of char residues via
+CLOU eﬀect has been extracted showing the potential of the prepared
+materials towards solid fuels combustion.
+2. Material and methods
+2.1. Synthesis of oxygen carrier particles
+Oxygen carrier granules with desired particle size were prepared by
+agglomeration of copper oxide (purity: 97%, Alfa Aesar) and ﬂy ash
+from Sobieski coal combustion, using a high shear granulator Lab-scale
+GMX-LAB Micro (Vector Corporation). The adequate weight of solids
+(100–200 g of ﬂy ash or blend of CuO with ﬂy ash) in powder form
+(0.5–100 μm) was dried at 105 °C overnight, then introduced in the
+1 dm3 vessel of the agglomerator and dry-mixed for 1 min. An aqueous
+solution
+of
+15 wt%
+polyethylene
+glycol
+(PEG)
+4000
+(pur.
+100
+BioChemica; Panreac-Applichem) was slowly added to the blend using
+an
+integrated
+pump.
+The
+obtained
+round-shape
+agglomerates
+(0.1 < dp < 2 mm) were dried in air at ambient temperature for 3 h
+and overnight at 90 °C, then calcined for 2 h at 950 °C. Finally, the
+particles were sieved in the range 0.1 < dp < 0.2 mm before tests.
+The ﬁnal materials were named according to their composition, i.e. FA
+(ﬂy ash) or CuxFA, where x = 40, 60 and 80 following the nominal
+weight percentage of copper oxide in the OC.
+2.2. Materials characterization
+Particles crushing strength was determined using a Digital Force
+Gauge SHIMPO FGV-10× apparatus. The crushing strength was taken
+as the average value of a minimum of 75 consecutive measurements
+undertaken on diﬀerent particles (particle size range of 500–800 μm) of
+each sample, randomly chosen.
+The identiﬁcation of crystalline chemical species was carried out by
+powder X-ray diﬀraction (XRD) patterns acquired in an X-ray dif-
+fractometer, Bruker D8 Advance, using a CuKα radiation source
+(λ = 1.5406 Å) at 40 kV and 40 mA. The diﬀractograms were collected
+in the 2-theta range of 10°–90° with a step of 0.02°.
+The initial speciﬁc surface of the oxygen carrier materials was de-
+termined according to Brunauer–Emmett–Teller (BET) theory of gas
+physical adsorption on material surface, using a Thermo Fisher
+Scientiﬁc Surfer analyzer. Degassed samples (under vacuum, at 200 °C,
+for 12 h) were subsequently analyzed at the temperature of liquid ni-
+trogen with the use of gaseous nitrogen as adsorbate.
+The total and residual moisture, ash and volatile matter of solid
+fuels were measured by gravimetric method. Caloriﬁc value was ana-
+lyzed according to calorimetric method using a AC 500 LECO Isoperibol
+Calorimeter. Elemental composition was analyzed using a TruSpec
+CHNS Micro LECO Analyzer. Carbon, hydrogen and sulfur were ana-
+lyzed according to high temperature combustion method. Nitrogen
+content was analyzed according to catharometric method.
+Mineral composition of ﬂy ash derived from combustion of Sobieski
+coal was determined using inductively coupled plasma optical emission
+spectrometry (ICP-OES), using Thermo iCAP 6500 Duo ICP equipment.
+Total carbon contained in fuel-OC mixtures after macro-TGA tests
+was analyzed as follows: 20 mg of each sample was weighed into a tin
+capsule (× 4 replicates per sample) and combusted in an Elemental
+Analyzer (EA) connected to an Isotope Ratio Mass Spectrometer (IRMS),
+where all C was converted to CO2 at 1700° Celsius and subsequently
+analyzed in the IRMS. The obtained peak amplitudes were used to
+calculate the %C in the samples based on a reference standard (1.56%C,
+n = 6) that was analyzed together with the samples. 2 empty capsules
+were analyzed at the end of the run and the average carbon contribu-
+tion from the empty capsules was used to correct for the capsule and
+instrument background.
+2.3. Thermogravimetric analysis (TGA)
+2.3.1. Multicycle CLC and CLOU activity
+Thermogravimetric analysis was used to investigate oxygen carrying
+capacity and chemical stability of the OCs. Both oxidation and reduc-
+tion steps were carried out at 925 °C. Synthetic air was used as the
+oxidative agent, while two OC reduction conditions were chosen to
+investigate the diﬀerent degrees of oxygen release from the solids,
+namely O2 thermal decomposition under neutral atmosphere (Eq. (5))
+and solid oxides reduction to metallic copper in contact with gaseous
+fuel (Eq. (7) and Eq. (8)).
+Firstly, CLOU oxygen capacity under inert atmosphere was mea-
+sured using a thermogravimetric analyzer Netzsch STA 449 F3 Jupiter
+TG-DSC. Typically 20 mg of sample were placed in a Al2O3 crucible,
+and exposed to a total ﬂow of 0.2 Nl/min under both neutral and oxi-
+dative atmospheres. The O2 released by thermal decomposition (the
+CLOU eﬀect) was measured under an inert (argon) atmosphere:
+A. Skulimowska et al.
+Fuel Processing Technology 168 (2017) 123–130
+124
+
+
+===== Page 3 =====
+
+→
++
+O
+2 CuO
+Cu O
+½
+2
+2
+(5)
+and the oxygen carrying capacity (Ro −CLOU, gO2/gOC) calculated as:
+=
+−
+−
+R
+m
+m
+m
+o
+CLOU
+ox i
+red i
+ox i
+,
+,
+,
+(6)
+where mox,i and mred,i are the mass of the OC in oxidized and reduced
+state under inert ﬂow, respectively. The time for a complete redox cycle
+was settled to 20 min (10 min reduction and 10 min oxidation).
+Secondly, oxygen carrier reactivity was investigated under a re-
+active (reductive) atmosphere composed by 5% H2, 15% CH4, 35%
+H2O, 25% CO2, 20% N2, in a custom-made TGA [20] using 45 mg
+sample of OC. This gas mixture was chosen to take into account relevant
+conditions of a fuel reactor (high concentration of H2O and CO2) and
+the occurrence of typical CLC gas-solid reactions with both H2 and CH4,
+which are reported to have similar reactivity towards copper-based
+oxygen carrier materials [21]:
++
+→
++
+CuO
+H
+Cu
+H O
+2
+2
+(7)
++
+→
++
++
+4CuO
+CH
+4Cu
+CO
+2H O
+4
+2
+2
+(8)
+Oxygen carrying capacity (Ro −CLC, gO2/gOC) is indicated as:
+=
+−
+−
+R
+m
+m
+m
+o
+CLC
+ox r
+red r
+ox r
+,
+,
+,
+(9)
+where mox,r and mred,r are the mass of the OC in oxidized and reduced
+state under reducing ﬂow, respectively.
+The reduction and oxidation steps (15 min each) were separated by
+N2 ﬂushing between each step (5 min). All steps were carried out with a
+total ﬂow of 0.5 Nl/min at 925 °C.
+2.3.2. Macro-TGA tests in the presence of solid fuel
+In addition to multicycling CLC and CLOU tests, OCs have been
+physically mixed with coal and tested in a macro-TGA to evaluate the
+CLOU eﬀect in the presence of a solid fuel. About 1 g of Sobieski coal
+was mixed with variable amounts of CLOU active oxygen carriers (de-
+pending on the oxygen capacity and on the desired oxygen excess in the
+bed) and analyzed in a customized macro-thermobalance (macro-TGA)
+designed and manufactured at Institute of Power Engineering in
+Warsaw, Poland. The TGA device consists of an insulated and elec-
+trically heated steel cylindrical reactor (0.06 m internal diameter and
+0.5 m height) equipped with a set of thermocouples which ensure a
+constant temperature inside the chamber. The sample (consisting of
+physically mixed fuel and OC) is placed in a Al2O3 crucible (ID: 34 mm)
+hanging on a scale located at the top of the reactor [22]. The crucible
+containing the sample is introduced from the top of the pre-heated
+reactor while preheated CO2 with controlled ﬂow (40Nl/h) is fed from
+the bottom, preventing air to enter during the fuel/OC introduction
+phase.
+The experimental OC: fuel ratios have been determined from the
+expression of oxygen excess, λ:
+=
+∙
+λ
+O
+O
+m
+(
+)
+OC
+m t
+fuel
+(10)
+Here OOC is the available stoichiometric oxygen from the oxygen
+carrier [gO2], mfuel is the initial mass of fuel [gfuel] and (Om)t is the
+theoretical oxygen demand for solid fuel complete combustion [gO2/
+gfuel] [23]:
+=
+∙
++
+∙
++
+−
+O
+C
+H
+S
+O
+(
+)
+8
+3
+8
+m t
+(11)
+In Eq. (11), C, H, S and O content in the fuel is intended as wt%, and
+the coeﬃcients used take into account the O2/fuel mass ratios needed
+for complete combustion of C (32/12), H (8/1) and S (32/32). Typical
+oxygen excess values used were in the range of 1 > λ > 2. The
+macro-TGA results were reported in terms of normalized mass loss of
+the sample, Nml, deﬁned as the ratio between the measured residual
+weight as function of time, and the maximum weight loss theoretically
+achievable, i.e. the sum of the masses of the ash free fuel plus the
+oxygen demand of the fuel:
+=
++
+−
+∙
+−
++
+−
+∙
+N
+O
+A
+m
+w
+O
+A
+m
+t
+[(
+)
+(1
+)]
+( )
+[(
+)
+(1
+)]
+ml
+m t
+f
+fuel
+loss
+m t
+f
+fuel
+(12)
+where Af is the fuel ash fraction (wt/wt) and wloss(t) is the weight loss as
+function of time. 1 g of Sobieski coal has a calculated oxygen demand
+(Eq. (11)) of 1.85 g O2 and a resulting maximum theoretical mass loss of
+2.77 g.
+3. Results and discussion
+3.1. Physical and chemical properties of fuels and oxygen carriers
+Sobieski coal and wood chips biomass were initially screened for
+macro-TGA tests. Coal is reported to have a higher caloriﬁc value,
+higher content of sulfur and ash, and lower volatile matter than biomass
+(Table 1). Due to its low residual char content, biomass has not been
+employed as fuel for CLOU tests; however, it has been used together
+with coal to investigate the evolution of volatiles decomposition at high
+heating rate in the macro-TGA (see blank test in paragraph 3.3).
+Fly ashes derived from combustion of Sobieski coal – which are used
+as oxygen carrier support in this work – have been analyzed by ICP-OES
+and results are shown in Table 2. A signiﬁcant amount of Si, Al and Fe
+has been detected. The main ﬂy ash phase detected by X-Ray Diﬀraction
+analysis was SiO2 (Fig. 1, diﬀractogram a), while additional tenorite
+peaks (CuO) have been identiﬁed on the synthesized oxygen carriers
+(Fig. 1, diﬀractograms b–d). No relevant copper-support interactions
+(e.g., CuO-Al2O3 or CuO-SiO2) have been detected.
+Porosity, density and BET surface area of both support and OCs
+(Cu40- and Cu60FA) are shown in Table 3. As expected, materials
+density increases when copper is added to ﬂy ash supports, and is
+proportional to copper loading. Moreover, a slight progressive decrease
+in both porosity and BET surface area is observed when copper oxide is
+added to the ﬂy ash support in the range 40–60 wt%.
+Results from crushing strength tests of copper-enriched ﬂy ash
+particles are shown in Table 4 in comparison with both raw ﬂy ash and
+ilmenite particles – the latter was used as benchmark oxygen carrier
+material. All the agglomerated Cu-enriched samples have shown ade-
+quate mechanical strength and compare well with previously reported
+CuO/synthetic supports OCs [16]. Fly ash and ilmenite displayed a
+Table 1
+Proximate and ultimate analysis of used Sobieski coal and wood chips biomass.
+Parameter
+Sobieski coal
+Wood chips
+Residual moisture (wt%)
+13.3
+8.9
+Ash (wt%)
+8.2
+0.4
+Volatile matter (wt%)
+29.49
+75.94
+Gross caloriﬁc value (kJ/kg)
+24,551
+17,975
+Carbon (wt%)
+61.9
+45.9
+Hydrogen (wt%)
+3.66
+5.46
+Nitrogen (wt%)
+0.99
+0.26
+Total sulfur (wt%)
+1.39
+0.01
+Table 2
+Elemental composition of ﬂy ash derived from combustion of Sobieski coal.
+Element
+% wt
+Element
+% wt
+Si
+as SiO2
+38.6
+Mg
+as MgO
+3.46
+Fe
+as Fe2O3
+14.7
+Sr
+as SO3
+4.13
+Al
+as Al2O3
+27.3
+P
+as P2O5
+0.51
+Mn
+as Mn3O4
+0.10
+Na
+as Na2O
+1.11
+Ti
+as TiO2
+1.16
+K
+as K2O
+1.03
+Ca
+as CaO
+6.81
+A. Skulimowska et al.
+Fuel Processing Technology 168 (2017) 123–130
+125
+
+
+===== Page 4 =====
+
+comparable crushing strength of 3 N; the addition of copper increases
+the average crushing strength of the materials from 4 to 7 N when the
+metal content is progressively increased from 40 to 80 wt%. This is a
+promising result considering that a crushing strength of 2 N is accepted
+as lower threshold for oxygen carrier particles that are more likely to
+resist attrition [12].
+3.2. Multicycling tests in TGA
+The evolution of molecular oxygen uptake/release capacity (Ro-
+CLOU) and the CLC oxygen carrying capacity (Ro-CLC) over 42 and 90
+TGA redox cycles, respectively, are shown in Fig. 2 and Fig. 3 (a,b) for
+the diﬀerent OCs, and are discussed in Sections 3.2.1 and 3.2.2.
+3.2.1. CLOU tests
+As shown in Fig. 2a, CLOU carrying capacity (Ro-CLOU) has been
+found to be rather stable along 42 cycles performed for the three ma-
+terials Cu40-, Cu60- and Cu80FA, and close to the expected maximum
+value of 4, 6 and 8 g O2/100 g OC, respectively. As previously reported,
+pure ﬂy ash support was found to be inactive in CLOU tests [19]. The
+weight change as function of time for the three diﬀerent samples during
+the 2nd and 42nd cycle is shown in Fig. 2b. Deactivation phenomena of
+CuO-based oxygen carriers during CuO-Cu2O cyclic phase change of
+CLOU tests have been previously reported due to copper sintering or
+interactions with Al2O3 contained in the support to form copper(II)
+aluminate (CuAl2O4) and copper(I) aluminate (CuAlO2) [24]. No sig-
+niﬁcant variations of oxygen carrying capacity, however, were ob-
+served between cycle 2 and 42, pointing out ﬂy ash as good candidate
+for supporting copper-based materials in this respect. It is worth men-
+tioning that the rate of O2 release during the ﬁrst cycle for both Cu60-
+and Cu80FA materials was slightly slower (1.4–1.5 times) than for the
+subsequent cycles.
+3.2.2. CLC tests
+As previously reported, even under low concentration of reductive
+gas (> 1 vol% H2) gas-solid reaction (Eq. (7)) seems to dominate the
+oxygen transfer mechanism of CLOU active materials (Eq. (5)) [21]. For
+this reason, under the adopted experimental conditions (5 vol% H2 and
+15 vol% CH4 in the ﬂow) common CLC gas solid reactions will likely
+prevail over the oxygen uncoupling mechanism. The CLC oxygen car-
+rying capacity (Ro-CLC) of Cu40FA, Cu60FA and Cu80FA over 90 TGA
+redox cycles under reductive gas mixture is shown in Fig. 3a.
+As blank test, activity of ﬂy ash support alone has also been mea-
+sured (for 3 redox cycles) showing a minor capacity of 0.7 g O2/100 g
+(not reported in Fig. 3a). When in contact with a reducing atmosphere,
+Cu80FA sample activity drops by about 20% after 4 reduction/oxida-
+tion cycles, close to the level of Cu60FA sample, and for this reason the
+test has been stopped before the scheduled 90 cycles. The inspected
+sample after test appeared to have a hard sintered cake shape; as a
+matter of fact, deactivation phenomena are associated to metallic
+copper formation as result of chemical reaction with the reducing gases:
+increased Cu mobility and migration [25], cracking [26] and segrega-
+tion of copper-rich nodules [24].
+The measured Ro-CLC of Cu40- and Cu60FA (9 and 11.2 g O2/100 g
+OC, respectively, as measured from cycle 2), on the other hand, was
+stable along 90 redox cycles and compared well with the expected value
+from the nominal loading of copper oxide plus the measured capacity of
+the support, 8.5 gO2/100 gOC and 12.3 gO2/100 gOC, respectively, in-
+dicating that copper oxide is well dispersed on the ﬂy ash support and
+exposed to the gas mixture. This conﬁrms that the presence of ﬂy ash
+may enhance the thermal stability of the oxygen carrier [19].
+The dynamic response of the weight loss curves as function of time
+for cycle 2 and cycle 90, for Cu40FA and Cu60FA OCs, is reported in
+Fig. 3b. Both samples have shown a good performance with similar O2
+uptake/release slopes. As previously reported [21] the oxygen carrier
+underwent a slightly slower conversion rate in the ﬁrst cycle.
+3.2.3. Kinetic data
+The rates of reaction of both CLOU and CLC tests, measured in the
+middle of each reduction/oxidation curve to account for the maximum
+slope of weight change, are shown in Table 5 for cycle 2 and cycle 42
+(CLOU) or 90 (CLC). Although the reported values might not express
+the intrinsic kinetic rate of the respective decomposition/reduction
+reactions due to heat and mass transfer limitation speciﬁc of the TGA
+used (for instance, as a result of the unknown O2 partial pressure inside
+the crucible, limiting the CLOU driving force), they clearly indicate that
+CLOU reaction proceeds at appreciable and satisfactory rates. A fast
+oxygen release is an advantage for future use in solid fuels oxidation,
+e.g. lowering the solid inventory of the process [27]. Observed CLOU
+rates are in line with previous observations (0.36–0.46 ·10−3 kgO2/
+(s·kg OC) [21]).
+3.3. Solid fuel tests in macro-TGA
+Transport phenomena involved in macro-TGA tests of solid fuels
+mixed with oxygen carriers have been recently investigated [28]. The
+mixed fuel/oxygen carrier bed is heated up from the outer sample
+Fig. 1. X-ray diﬀraction of Sobieski coal ﬂy ash (FA, a), Cu40FA (b), Cu60FA (c), Cu80FA
+(d), agglomerated particles.
+Table 3
+Porosity, density and BET surface area analysis of support and oxygen carriers after
+granulation.
+Sample
+Porosity[%]
+Particle density
+[g/cm3]
+Real density
+[g/cm3]
+BET surface area
+[m2/g]
+FA
+70.0
+0.70
+2.35
+0.61
+Cu40FA
+69.3
+1.05
+3.42
+0.56
+Cu60FA
+61.7
+1.50
+3.91
+0.41
+Table 4
+Measured crushing strength (N) of CuO-based oxygen carrier agglomerated in comparison
+with reference ilmenite.
+Average (N)
+Standard deviation
+Ilmenite
+3
+± 1.8
+FA
+3.1
+± 1.6
+Cu40FA
+3.9
+± 1.9
+Cu60FA
+4.9
+± 2.0
+Cu80FA
+6.9
+± 2.0
+A. Skulimowska et al.
+Fuel Processing Technology 168 (2017) 123–130
+126
+
+
+===== Page 5 =====
+
+layers (basket walls and free surface of the bed) before reaching a
+uniform temperature along the whole volume (above 900 °C) after
+about 500 s. While temperature increases, individual thermal decom-
+position steps take place in sequence, i.e. moisture evaporation
+(T = 100 °C),
+devolatilization
+of
+organic
+compounds
+(300 < T < 500 °C for biomass, higher temperature range for coal
+[29]), oxygen release from the OC (T > 800 °C). CLOU eﬀect is ex-
+pected to play a major role after volatiles decomposition, when the
+remaining char is combusted by gaseous oxygen released from the OC.
+The reaction system under investigation is complex and would ap-
+pear to pose sever problems for the task of relating the sample weight
+loss to the activity of the oxygen carrier. For this reason, a blank test
+(i.e., test with solid fuel but without the oxygen carrier) has been car-
+ried out using either coal or biomass (1 g) in the absence of the oxygen
+carrier. This test will enable to extract the eﬀect of the OC from fuel
+thermal decomposition, knowing that mass loss curve of blank and
+CLOU tests are expected to become substantially diﬀerent when the
+material will release molecular oxygen, initiating char combustion re-
+actions.
+It can be observed from the blank test (Fig. 4) that the release of
+volatiles takes place during the initial 150 s, while further weight losses
+(e.g., residual char reactions with CO2) are negligible at the time scale
+of interest for CLOU (1000 s). For biomass and coal the residual char
+weight after devolatilization corresponds to about 7 and 59 wt% of the
+original mass, respectively. As previously evidenced (Table 1) biomass
+has a signiﬁcant higher content of residual moisture and volatile matter
+as compared to coal, resulting in a lower solid residue after thermal
+treatment.
+A comparison between the blank (coal only) and combustion in the
+presence of the oxygen carrier (coal + OC) tests, using Cu60FA mate-
+rial at λ = 1.1 and 925 °C, is shown in Fig. 5. In the ﬁrst part of the
+curve (t < 200 s) the devolatilization in presence of the oxygen carrier
+is slower due to hindered heat and mass transfer. However, at t ≈280 s
+the weight loss drops well below the devolatilization plateau of the
+blank test; at this stage, the observed weight change is ascribed to
+oxygen release and solid char combustion.
+The performance of synthesized OC materials Cu40FA and Cu60FA
+was investigated at diﬀerent oxygen excess ratios λ (1–2) and using
+coal as fuel, as reported in Fig. 6 a–b. Due to its poor performance in
+presence of a reducing gas mixture, Cu80FA was not considered for this
+0
+10
+20
+30
+40
+0
+3
+4
+5
+6
+7
+8
+9
+O2 capacity, gO2/100g OC
+Cycle number (-)
+ Cu40FA
+ Cu60FA
+ Cu80FA
+a)
+0
+5
+10
+15
+0
+17
+18
+19
+20
+21
+Weight (mg)
+time (minuts)
+ Cu80FA_Cycle2
+ Cu80FA_Cycle42
+ Cu60FA_Cycle2
+ Cu60FA_Cycle42
+ Cu40FA_Cycle2
+ Cu40FA_Cycle42
+b)
+Fig. 2. TGA multicycling tests for O2 de-
+composition followed by reoxidation at
+925 °C (CLOU test), O2 capacity (gO2/
+100 g OC) as function of number of cycles
+(a) and weight change as function of time
+for cycle 2 and 42 (b), 40 wt% Cu/FA
+(Cu40FA), 60 wt% Cu/FA (Cu60FA), 80 wt
+% Cu/FA (Cu80FA) oxygen carriers.
+0
+20
+40
+60
+80
+100
+0
+8
+10
+12
+14
+16
+O2 carrying capacity (gO2/100g OC)
+Cycle number (-)
+ Cu60FA
+ Cu40FA
+ Cu80FA
+a)
+0
+5
+10
+15
+20
+25
+30
+35
+0
+42
+43
+44
+45
+46
+47
+48
+49
+weight (mg)
+time (minuts)
+ Cu40FA_Cycle2
+ Cu40FA_Cycle90
+ Cu60FA_Cycle2
+ Cu60FA_Cycle90
+b)
+Fig. 3. TGA multicycling tests for oxygen carrier reduction followed by reoxidation at 925 °C (CLC test), O2 capacity (gO2/100 g OC) as function of number of cycles (a) and weight
+change as function of time for cycle 2 and 90 (b), 40 wt% Cu/FA (Cu40FA), 60 wt% Cu/FA (Cu60FA), 80 wt% Cu/FA (Cu80FA) oxygen carriers.
+Table 5
+measured CLOU and CLC reaction rates during 2nd and last TGA cycle for the diﬀerent
+materials tested.
+CLOU 2nd cycle
+[kgO2/s/kg OC]
+·10−3
+CLOU 42nd
+cycle [kgO2/s/
+kg OC] ·10−3
+CLC 2nd cycle
+[kgO2/s/kg OC]
+·10−3
+CLC 90th cycle
+[kgO2/s/kg OC]
+·10−3
+Red.
+Ox.
+Red.
+Ox.
+Red.
+Ox.
+Red.
+Ox.
+Cu40FA
+0.4
+0.9
+0.3
+0.7
+0.7
+0.5
+0.6
+0.5
+Cu60FA
+0.4
+1.0
+0.4
+1.0
+0.4
+0.5
+0.4
+0.5
+Cu80FA
+0.4
+2.1
+0.4
+1.8
+–
+–
+–
+–
+A. Skulimowska et al.
+Fuel Processing Technology 168 (2017) 123–130
+127
+
+
+===== Page 6 =====
+
+test. It can be seen from Fig. 6 that char combustion becomes faster
+when higher oxygen excess ratios are used. The ﬁnal normalized mass
+loss achieved, which takes into account both oxygen demand and fuel
+conversion, was found to be in the range of 80–90% of the theoretical
+achievable value in all tests. A dedicated analysis on residual carbon to
+determine the fuel conversion is reported in the next paragraph (3.4).
+3.4. Characterization after test
+The crystallite size of copper and copper oxide for samples before
+and after CLC/CLOU tests have been analyzed by XRD using the
+Scherrer equation. Since TGA-CLOU tests were ended after an oxidation
+step, CuO was the main phase detected by XRD after cycling and its
+crystallite size was measured and compared with the raw samples be-
+fore test. On the other hand, CLC tests were ended after a reduction step
+with gaseous fuel and metallic copper reﬂections were found to be
+dominant. It was previously reported that crystallite size of CuO (111)
+and Cu (1 1 1) (after CuO reduction) are comparable if sintering does
+not occur during copper reduction; sintering would produce an increase
+in Cu crystallite sizes compared to crystallite sizes of the corresponding
+oxides [30,31]. Therefore both crystallite size of Cu (after CLC tests)
+and CuO (as-prepared sample and after CLOU tests) have been mea-
+sured to get an insight of possible sintering occurring after both CLC
+and CLOU multicycling operation. 2-theta angles of about 43.1–43.6°
+and 38.5–39.5°, corresponding to the most prominent CuO (1 1 1) and
+Cu (1 1 1) reﬂections, were used for such a measurements, and results
+are reported in Table 6.
+Increase in the CuO loading from 40 to 60 wt% results in an en-
+largement of the initial CuO crystallites. As compared with the sample
+before test, Cu40FA shows no substantial diﬀerence in crystallite size
+after both CLOU (CuO) and CLC (Cu) cycles (83 and 77 nm, respec-
+tively). For the Cu60FA, on the other hand, the ﬁnal crystallite size of
+Cu after CLC (112 nm) is sensibly higher than the size of the initial
+oxide (67 nm) and the one after CLOU cycles (52 nm). This suggests
+that sintering phenomena might begin at higher copper loading in
+presence of reducing gases and deep reduction to metallic copper, in
+agreement with Table 5 that has shown a slightly slower CLC rate for
+Cu60FA compared to Cu40FA. The obtained crystallite size of metallic
+copper were previously reported to be in the range 68–98 nm after 1–20
+CLC redox cycles with methane as reducing agent and no performance
+decay [32].
+0
+500
+1000
+1500
+2000
+0,0
+0,2
+0,4
+0,6
+0,8
+1,0
+Normalized mass loss, Nml
+time (seconds)
+ biomass
+ coal
+Fig. 4. Macro-TGA blank test of Sobieski coal and wood chip biomass devolatilization as
+function of time. Carrier gas: CO2; T = 925 °C.
+0
+200
+400
+600
+800
+1000
+0,0
+0,2
+0,4
+0,6
+0,8
+1,0
+Normalized mass loss, Nml
+time (seconds)
+ coal blank test 
+ Cu60FA-coal, λ=1.1
+Fig. 5. Comparison between blank and combustion test with Cu60FA oxygen carrier at
+λ = 1.1. Carrier gas: CO2; Fuel: Sobieski coal; T: 925 °C.
+0
+500
+1000
+1500
+0
+20
+40
+60
+80
+100
+Normalized mass loss, Nml
+time (seconds)
+ Cu40FA, λ=1
+ Cu40FA, λ=1.3
+ Cu40FA, λ=1.5
+ Cu40FA, λ=2
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+a)
+Increasing λ
+0
+500
+1000
+1500
+0
+20
+40
+60
+80
+100
+Normalized mass loss, Nml
+time (seconds)
+ Cu60FA λ=1
+ Cu60FA λ=1.3
+ Cu60FA λ=1.5
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+b)
+Increasing λ
+Fig. 6. CLOU tests with 40 wt% CuO/ﬂy ash (Cu40FA) oxygen carrier at 1 < λ < 2, (a)
+and 60 wt% CuO/ﬂy ash (Cu60FA) oxygen carrier at 1 < λ < 1.5, (b). Carrier gas: CO2;
+Fuel: Sobieski coal; T: 925 °C.
+Table 6
+detected crystallite size by X-ray Diﬀraction before and after CLC and CLOU tests.
+Cu40FA (nm)
+Cu60FA (nm)
+Cu80FA (nm)
+Initial (CuO)
+39
+67
+65
+After 42 CLOU cycles (CuO)
+83
+52
+73
+After 90 CLC cycles (Cu)
+77
+112
+–
+A. Skulimowska et al.
+Fuel Processing Technology 168 (2017) 123–130
+128
+
+
+===== Page 7 =====
+
+No change of the initial CuO crystallite size was observed when
+copper loading increased from 60 to 80 wt% (Table 6). Moreover, in
+agreement with the observed stable cycling capacity, the measured
+crystallite size of CuO in the Cu80FA oxygen carrier after CLOU cycles
+(73 nm) resulted to be comparable with the one of Cu60- and Cu40FA
+(52–83 μm, respectively), conﬁrming a good performance of the ma-
+terial at the highest copper loading for CLOU.
+Copper aluminate phase formation, which would have resulted in a
+partial loss of CLOU activity ([33] and references therein) has not been
+detected by XRD analysis after test. CuO-SiO2 interactions have not
+been found according to a previous work [32].
+As far as macro-TGA tests are concerned, XRD analysis of the ma-
+terials after test has evidenced a mixture of Cu – Cu2O, together with
+minor peaks of unconverted CuO (not shown). In order to evaluate solid
+fuel conversion, the carbon content in the residual sample recovered
+after test was analyzed, and the results are shown in Table 7. The
+conversion of residual char has been found to be in the range of
+90–98%.
+4. Conclusions
+Copper-based oxygen carriers supported on ﬂy ash have been pre-
+pared, characterized and tested in TGA for CLC and CLOU applications.
+Crushing strength results were satisfactory. The materials did not suﬀer
+from sintering/deactivation under CLOU tests, showing high and stable
+activity along 42 cycles. Deep copper reduction under a reactive gas
+mixture evidenced a decline in activity at higher copper loading (from
+second cycle, for Cu80FA). At 60 wt% CuO loading (Cu60FA), O2 ca-
+pacity was stable over 90 cycles although an increase in copper crys-
+tallite size and a slightly slower CLC apparent kinetics compared to
+40 wt% CuO (Cu40FA) were measured. Neither copper aluminates nor
+mixed copper-silica phases were observed before/after TGA tests using
+ﬂy ash as support. Molecular oxygen release rates (CLOU eﬀect) were
+found to be fast for all the CuO-FA combinations. CuO supported on ﬂy
+ash have therefore been pointed out as good candidates for further
+research on resource-eﬃcient use of low-value materials for oxygen
+carriers in chemical looping applications.
+Macro-TGA tests allowed prooﬁng the reactivity of oxygen carrier in
+the presence of a solid fuel (coal). After volatiles decomposition, com-
+bustion by reaction with gaseous oxygen evolved from the oxygen
+carrier was observed, and the detected carbon conversion referred to
+the residual char in the bed was reported to be in the range of 90–98%.
+Acknowledgements
+This work was entirely ﬁnanced by EEA-Norway grants (NewLoop
+project POL-NOR/235083/104/2014). The authors would like to thank
+Titania AS (Norway) for supplying ilmenite concentrate for this study.
+Christian A. Schöpke is acknowledged for C analysis after macro-TGA
+tests with solid fuels.
+References
+[1] J.C. Abanades, B. Arias, A. Lyngfelt, T. Mattisson, D.E. Wiley, H. Li, M.T. Ho,
+E. Mangano, S. Brandani, Emerging CO2 capture systems, Int. J. Green Gas Control
+40 (2015) 126–166, http://dx.doi.org/10.1016/j.ijggc.2015.04.018.
+[2] D. Jansen, M. Gazzani, G. Manzolini, E. van Dijk, M. Carbo, Pre-combustion CO2
+capture, Int. J. Green Gas Control 40 (2015) 167–187, http://dx.doi.org/10.1016/j.
+ijggc.2015.05.028.
+[3] M.M. Hossain, H.I. de Lasa, Chemical-looping combustion (CLC) for inherent CO2
+separations—a review, Chem. Eng. Sci. 63 (2008) 4433–4451, http://dx.doi.org/
+10.1016/j.ces.2008.05.028.
+[4] A.H. Sahir, J.K. Dansie, A.L. Cadore, J.S. Lighty, A comparative process study of
+chemical-looping combustion (CLC) and chemical-looping with oxygen uncoupling
+(CLOU) for solid fuels, Int. J. Green Gas Control 22 (2014) 237–243, http://dx.doi.
+org/10.1016/j.ijggc.2014.01.008.
+[5] T. Pröll, Fundamentals of Chemical Looping Combustion and Introduction to CLC
+Reactor Design, in Calcium and Chemical Looping Technology for Power
+Generation and Carbon Dioxide (CO2) Capture, Woodhead Publishing, 2015.
+[6] A. Lyngfelt, Chemical-looping combustion of solid fuels – status of development,
+Appl. Energy 113 (2014) 1869–1873, http://dx.doi.org/10.1016/j.apenergy.2013.
+05.043.
+[7] T. Mattisson, Tobias, materials for chemical-looping with oxygen uncoupling, ISRN
+Chem. Eng. 2013 (2013) 1–19, http://dx.doi.org/10.1155/2013/526375.
+[8] T. Mattisson, A. Lyngfelt, H. Leion, Chemical-looping with oxygen uncoupling for
+combustion of solid fuels, Int. J. Green Gas Control 3 (2009) 11–19, http://dx.doi.
+org/10.1016/j.ijggc.2008.06.002.
+[9] J. Adanez, A. Abad, F. Garcia-Labiano, P. Gayan, L.F. de Diego, Progress in che-
+mical-looping combustion and reforming technologies, Prog. Energy Combust. Sci.
+38 (2012) 215–282, http://dx.doi.org/10.1016/j.pecs.2011.09.001.
+[10] Q. Imtiaz, D. Hosseini, C.R. Müller, Review of oxygen carriers for chemical looping
+with oxygen uncoupling (CLOU): thermodynamics, material development, and
+synthesis, Energ. Technol. 1 (2013) 633–647, http://dx.doi.org/10.1002/ente.
+201300099.
+[11] W.K. Lewis, E.R. Gilliland, G.T. McBride, Gasiﬁcation of carbon by carbon dioxide
+in ﬂuidized powder bed, Ind. Eng. Chem. 41 (1949) 1213–1226, http://dx.doi.org/
+10.1021/ie50474a017.
+[12] M. Rydén, D. Jing, M. Källén, H. Leion, A. Lyngfelt, T. Mattisson, CuO-based
+oxygen-carrier particles for chemical-looping with oxygen uncoupling – experi-
+ments in batch reactor and in continuous operation, Ind. Eng. Chem. Res. 53 (2014)
+6255–6267, http://dx.doi.org/10.1021/ie4039983.
+[13] A. Shaﬁefarhood, A. Stewart, F. Li, Iron-containing mixed-oxide composites as
+oxygen carriers for chemical looping with oxygen uncoupling (CLOU), Fuel 139
+(2015) 1–10, http://dx.doi.org/10.1016/j.fuel.2014.08.014.
+[14] C.Y. Sim, T. Brown, Q. Chen, V. Shariﬁ, J. Swithenbank, J. Dennis, S. Scott, Particle
+characterisation in chemical looping combustion, Chem. Eng. Sci. 69 (2012)
+211–224, http://dx.doi.org/10.1016/j.ces.2011.10.026.
+[15] R. Siriwardane, H. Tian, T. Simonyi, J. Poston, Synergetic eﬀects of mixed cop-
+per–iron oxides oxygen carriers in chemical looping combustion, Fuel 108 (2013)
+319–333, http://dx.doi.org/10.1016/j.fuel.2013.01.023.
+[16] P. Gayán, I. Adánez-Rubio, A. Abad, L.F. de Diego, F. García-Labiano, J. Adánez,
+Development of cu-based oxygen carriers for chemical-looping with oxygen un-
+coupling (CLOU) process, Fuel 96 (2012) 226–238, http://dx.doi.org/10.1016/j.
+fuel.2012.01.021.
+[17] Q. Imtiaz, M. Broda, C.R. Müller, Structure–property relationship of co-precipitated
+Cu-rich, Al2O3- or MgAl2O4-stabilized oxygen carriers for chemical looping with
+oxygen uncoupling (CLOU), Appl. Energy 119 (2014) 557–565, http://dx.doi.org/
+10.1016/j.apenergy.2014.01.007.
+[18] H. Leion, E. Jerndal, B.-M. Steenari, S. Hermansson, M. Israelsson, E. Jansson,
+M. Johnsson, R. Thunberg, A. Vadenbo, T. Mattisson, A. Lyngfelt, Solid fuels in
+chemical-looping combustion using oxide scale and unprocessed iron ore as oxygen
+carriers, Fuel 88 (2009) 1945–1954, http://dx.doi.org/10.1016/j.fuel.2009.03.033.
+[19] L. Aisyah, P.J. Ashman, C.W. Kwong, Performance of coal ﬂy-ash based oxygen
+carrier for the chemical looping combustion of synthesis gas, Appl. Energy 109
+(2013) 44–50, http://dx.doi.org/10.1016/j.apenergy.2013.03.068.
+[20] J. Kalantzopoulos, Georgios N. Kazi, Saima Sultana, G. Mastin Grasa,
+Johann Murillo, Meyer Ramon, Development of high performance CO2 solid sor-
+bents combined with a reforming catalyst for hydrogen production by Sorption-
+Enhanced Reforming (SER), in: A. Méndez-Vilas (Ed.), Proc. Energy Mater. Res.
+Conf. 2015, BrownWalker Press, 2015, pp. 120–126.
+[21] D. Mei, A. Abad, H. Zhao, J. Adánez, Characterization of a sol–gel derived CuO/
+CuAl2O4 oxygen carrier for chemical looping combustion (CLC) of gaseous fuels:
+relevance of gas–solid and oxygen uncoupling reactions, Fuel Process. Technol. 133
+(2015) 210–219, http://dx.doi.org/10.1016/j.fuproc.2015.02.007.
+[22] K. Kwiatkowski, K. Bajer, A. Celińska, M. Dudyński, J. Korotko, M. Sosnowska,
+Pyrolysis and gasiﬁcation of a thermally thick wood particle – eﬀect of fragmen-
+tation, Fuel 132 (2014) 125–134, http://dx.doi.org/10.1016/j.fuel.2014.04.057.
+[23] J. Kurzycki, Combustion, Set Probl. Therm. Technol, Warsaw University of
+Technology, 1973.
+[24] M. Lambert, Arnold Tilland, Airy Pelletant, William Bertholin, Stephane Moreau,
+Florent Clemencon, Isabelle Yazdanpanah, Performance and degradation mechan-
+isms of CLC particles produced by industrial methods, 4th Int. Conf. Chem. Looping,
+Nanjing, China, 2016.
+[25] M. Saima Sultana, Kazi Asunción, Aranda Luca, Di Felice Julien, G. Ramón,
+Murillo Gemma, Development of cost eﬀective and high performance composite for
+CO2 capture in Ca-Cu looping process, J. Phys. Chem. C 119 (52) (2015)
+28828–28835.
+[26] A. Cabello, P. Gayán, A. Abad, L.F. de Diego, F. García-Labiano, M.T. Izquierdo,
+A. Scullard, G. Williams, J. Adánez, Long-lasting Cu-based oxygen carrier material
+for industrial scale in chemical looping combustion, Int. J. Green Gas Control 52
+(2016) 120–129, http://dx.doi.org/10.1016/j.ijggc.2016.06.023.
+[27] I. Adánez-Rubio, A. Abad, P. Gayán, L.F. de Diego, F. García-Labiano, J. Adánez,
+Identiﬁcation of operational regions in the chemical-looping with oxygen
+Table 7
+Carbon detection (% weight) after macro-TGA tests with solid fuels.
+OC
+λ
+% weight C (ﬁnal)
+% weight C (initial)
+% conversion
+Cu60FA
+λ = 1
+0.196 ± 0.025
+1.9
+90
+λ = 1.5
+0.038 ± 0.014
+1.3
+97
+Cu40FA
+λ = 1
+0.021 ± 0.013
+1.3
+98
+λ = 1.5
+0.025 ± 0.007
+0.9
+97
+A. Skulimowska et al.
+Fuel Processing Technology 168 (2017) 123–130
+129
+
+
+===== Page 8 =====
+
+uncoupling (CLOU) process with a Cu-based oxygen carrier, Fuel 102 (2012)
+634–645, http://dx.doi.org/10.1016/j.fuel.2012.06.063.
+[28] R. Lewtak, Experimental study and numerical simulations of coal chemical looping
+combustion in a packed porous bed, Eur. Combust. Meet. Durovnik, Croat, 2017.
+[29] E.B. Biagini, L. Federica, Tognotti, Devolatilization of Biomass Fuels and Biomass
+Components Studied by TG/FTIR Technique, (2006), http://dx.doi.org/10.1021/
+IE0514049.
+[30] P. Kurr, I. Kasatkin, F. Girgsdies, A. Trunschke, R. Schlögl, T. Ressler,
+Microstructural characterization of Cu/ZnO/Al2O3 catalysts for methanol steam
+reforming-a comparative study, Appl. Catal. A Gen. 348 (2008) 153–164, http://dx.
+doi.org/10.1016/j.apcata.2008.06.020.
+[31] V.P. Pakharukova, E.M. Moroz, D.A. Zyuzin, A.V. Ishchenko, L.Y. Dolgikh,
+P.E. Strizhak, Structure of copper oxide species supported on monoclinic zirconia, J.
+Phys. Chem. C 119 (2015) 28828–28835, http://dx.doi.org/10.1021/acs.jpcc.
+5b06331.
+[32] B.M. Corbella, L. de Diego, F. García-Labiano, J. Adánez, J.M. Palacios,
+Characterization and Performance in a Multicycle Test in a Fixed-bed Reactor of
+Silica-supported Copper Oxide as Oxygen Carrier for Chemical-looping Combustion
+of Methane, (2005), http://dx.doi.org/10.1021/EF050212N.
+[33] I. Adánez-Rubio, M. Arjmand, H. Leion, P. Gayán, A. Abad, T. Mattisson,
+A. Lyngfelt, Investigation of combined supports for Cu-based oxygen carriers for
+chemical-looping with oxygen uncoupling (CLOU), Energy Fuel 27 (2013)
+3918–3927, http://dx.doi.org/10.1021/ef401161s.
+A. Skulimowska et al.
+Fuel Processing Technology 168 (2017) 123–130
+130

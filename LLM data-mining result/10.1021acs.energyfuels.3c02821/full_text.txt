@@ -1,0 +1,1306 @@
+
+
+===== Page 1 =====
+
+Enhancement of Elemental Mercury Oxidation by Core−Shell
+CuCo2O4@SiO2 Oxygen Carrier with Strong Oxygen Release and
+Weak Adsorption Capacity in Chemical-Looping Combustion
+Chaoran Wang, Dunyu Liu,* Kailong Xu, Jing Jin, and Jingjing Ma
+Cite This: Energy Fuels 2023, 37, 19664−19679
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+*
+sı
+Supporting Information
+ABSTRACT: Oxygen carriers transfer lattice oxygen and oxidize
+elemental mercury in chemical-looping combustion (CLC). This
+study aims to design a core−shell CuCo2O4@SiO2 oxygen carrier
+to enhance the removal of mercury during CLC. CuCo2O4@SiO2
+was prapered by combining a salt-assisted combustion method and
+an impregnation method. The SiO2:CuCo2O4 ratio was optimized
+to achieve a high mercury removal efficiency. Over 10 cycles,
+CuCo2O4@SiO2 oxygen carriers have a stable oxygen release. At
+900 °C, in comparison with CuCo2O4, mercury removal efficiency
+over CuCo2O4@SiO2 through oxidation increased from 63.46 to 82.21%. The mercury removal over CuCo2O4@SiO2 through
+chemical adsorption decreased accordingly. This indicated that CuCo2O4@SiO2 oxygen carriers promoted the oxidation efficiency of
+Hg0 and reduced the adsorption of mercury on its surface. The DFT calculations revealed that SiO2 loading over CuCo2O4 surface
+provided part of the lattice oxygen to supplement the oxygen vacancies on the CuCo2O4 surface, promoting the oxygen release from
+the oxygen carrier. However, the loading of SiO2 inhibited the formation of surrounding oxygen vacancies to a certain extent, and the
+right amount of SiO2 improved the oxygen release rate. Therefore, CuCo2O4@SiO2 is a suitable oxygen carrier that can be applied in
+CLC.
+1. INTRODUCTION
+Chemical-looping combustion (CLC) has been regarded as
+one of the most promising technologies to reduce carbon
+emissions from fossil fuel combustion.1,2 Unlike conventional
+combustion, which relies on air as the source of oxygen, CLC
+uses oxygen carriers to provide oxygen to the fuel, allowing for
+more efficient combustion and in situ CO2 capture.3 Oxygen
+carriers are a key component of the CLC process and play a
+critical role in the overall efficiency and effectiveness of the
+technology. When the oxygen carrier is exposed to high
+temperatures and reducing atmosphere of the CLC process, it
+undergoes a reduction reaction, releasing oxygen to the fuel
+and becoming reduced. As the reduced oxygen carrier
+circulates back to the air reactor, it is exposed to air, which
+oxidizes the carrier and restores its oxygen-carrying capacity.
+This cyclic process of reduction and oxidation allows for
+efficient and continuous fuel combustion, while also capturing
+the CO2 generated in the process.4 In addition to its role as an
+oxygen transport carrier, oxygen carriers have the ability to
+remove pollutants from the combustion process, including
+elemental mercury, a highly toxic substance often found in coal
+combustion exhaust gases.5−7 The gas composition in the
+process of CLC has a significant impact on the removal of Hg0
+and the oxidation of Hg0 during flue gas cooling. Studies have
+shown that NO, HCl, and O2 have a positive effect on the
+oxidation of Hg0,8 while SO2 has a negative effect on Hg0
+oxidation.9 H2S positively affects the oxidation of Hg0 through
+heterogeneous reactions.10 CO and H2 are reducing gases that
+may indirectly affect the oxidation of Hg0, leading to the
+reduction of oxygen carriers. In CLC, the reasons for mercury
+removal are related to four main aspects. First, mercury
+emissions are higher in air reactors compared to coal-fired
+power plants. The mercury emission from ultralow emission
+coal-fired power plants accounts for 4.8% of the total mercury
+in the furnace, while the mercury emission from air reactors
+accounts for more than 5% of the total mercury in the
+furnace.11 Second, the mercury released in the fuel reactor has
+an impact on the quality of CO2.12 Third, the adsorption of
+elemental mercury on oxygen carriers causes the decom-
+position of CO to C, which results in carbon deposition on the
+surface of oxygen carriers, leading to a reduction in the active
+sites and surface reactivity of oxygen carriers.13 Zhang et al.6
+found that the adsorption of Hg0 reduces the adsorption
+energy of CO on the reduced Fe2O3 surface but promotes the
+charge transfer from the surface to the adsorbed CO molecule.
+Received:
+July 28, 2023
+Revised:
+November 11, 2023
+Accepted:
+November 27, 2023
+Published: December 11, 2023
+Article
+pubs.acs.org/EF
+© 2023 American Chemical Society
+19664
+https://doi.org/10.1021/acs.energyfuels.3c02821
+Energy Fuels 2023, 37, 19664−19679
+Downloaded via SOUTHEAST UNIV on October 18, 2025 at 09:55:40 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+
+===== Page 2 =====
+
+This phenomenon activates the C−O bond, which is
+conducive to the decomposition of CO and the deposition
+of carbon. Finally, liquid mercury can have an embrittlement
+effect on aluminum heat exchangers in a high-pressure
+environment, so that the standard of 0.01−0.1 μg/N m3 of
+Hg0 needs to be strictly obeyed to avoid damage to the
+equipment.14
+There are very few studies on the migration and trans-
+formation of mercury during CLC. Liu et al.15 discussed the
+underlining mechanisms for the transformation of mercury-
+related species both in combustion and postcombustion
+process, in which oxygen carriers promote the conversion of
+Hg0 to Hg2+ and Hgp, which contributes to the efficiency of
+mercury removal. Mendiara et al.16 used the Fe-enriched sand
+fraction (58 wt % Fe2O3) as an oxygen carrier in CLC. The
+molar ratio of Hg0/Hg2+ was 86:14 in the fuel reactor and
+38:62 in the air reactor for the combustion of anthracite at 920
+°C. An et al.17 found that chemical-looping gasification of coal
+promoted the conversion of Hg0 to Hgp and Hg2+ compared to
+conventional coal gasification using CuFe2O4 as the oxygen
+carrier. Ma et al.12 studied hematite as an oxygen carrier and
+found that oxygen carriers during in situ gasification chemical-
+looping combustion of coal had a less effect on the release rate
+and amount of mercury released, but the oxygen carriers
+promoted the conversion of Hg0 to Hg2+. The removal
+efficiency of Hg0(g) by CuO@TiO2@Al2O3 with oxygen
+uncoupling ability in CLC was 60.71%. Previously, when
+evaluating oxygen carriers, it was found that the oxidation
+efficiency of metal oxides for Hg0 in a HCl atmosphere was in
+the following order: Co3O4(Mn2O3)>Fe2O3>CuO(CeO2)
+>SiO2(Al2O3),18,19 with the lattice oxygen release in the
+oxygen carrier playing an important role in the removal of
+mercury.20,21 Oxygen carriers can effectively reduce the
+emission of Hg0, and the conversion of Hg0 to Hg2+ is still
+possible under high-temperature conditions.17 Therefore,
+oxygen carriers with good mercury removal performance
+need to be further developed to improve the efficiency of Hg0
+oxidation in fuel reactors.
+The three common metal oxides with oxygen uncoupling
+ability are CuO, Co3O4, and MnO2, which have oxygen release
+capacities of 10, 6.6, and 3.3 wt %, respectively. CuO has the
+strongest oxygen release capacity, but CuO is prone to
+sintering at high temperatures, agglomeration after reduction,
+and thus has poor recycling performance.22 In recent years,
+spinel (AB2X4) oxides have been continuously applied in
+several research fields, such as energy storage and environ-
+mental treatment, due to their magnetic property, high
+catalytic activity, and good chemical stability.23−31 A series of
+spinel oxides have also been widely used as oxygen carriers in
+CLC processes due to the synergistic effect of their complex
+metal oxides.32−36 Among the spinel-type oxides, cobalt-based
+spinel oxides have good activity, low cost, high stability, and
+environmental benefits.37−39 CuCo2O4, constructed by replac-
+ing Co2+ in the tetrahedral position in Co3O4 with Cu2+, is a
+typical spinel structure.40,41 At 900 °C, the mercury removal
+efficiency of CuCo2O4 is 16% higher than that of Co3O4, and it
+reaches the maximum mercury removal efficiency faster (as
+shown in Figure S1). CuCo2O4 has better oxygen release
+properties than Co3O4 and can further improve the oxidation
+of mercury in the fuel reactor. Most of the mercury in the coal
+is released in the fuel reactor, and some are adsorbed on the
+surface of the oxygen carrier and carried into the air reactor.
+Perez-Vega et al.42 found a mercury concentration of 1 μg/N
+m3 in the air reactor with copper-based oxygen carriers in
+CLC. The mercury released in the air reactor was originated
+from the reduced oxygen carrier and residual char. Ji et al.43
+found that the release of mercury in the air reactor was about
+10% of the total mercury.
+Although the mercury in coal was mainly released in the fuel
+reactor, some of the mercury was still released in the air
+reactor, causing the secondary pollution of air. Therefore, the
+oxygen carrier should also have the property of weak
+adsorption of mercury to avoid the chemical adsorption of
+mercury onto the surface of the oxygen carrier in the fuel
+reactor. Based on the strong oxygen release capacity of
+CuCo2O4 oxygen carriers, a layer of SiO2,44 which is inert for
+mercury adsorption, is further loaded on the surface of
+CuCo2O4 to form CuCo2O4@SiO2 oxygen carriers with a
+strong oxygen-releasing capacity and weak adsorption capacity.
+It is expected that the oxygen carrier with core shell structure
+does not change the mercury oxidation performance of the
+Figure 1. Preparation process of CuCo2O4 and CuCo2O4@SiO2 oxygen carriers.
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://doi.org/10.1021/acs.energyfuels.3c02821
+Energy Fuels 2023, 37, 19664−19679
+19665
+
+
+===== Page 3 =====
+
+oxygen carrier and reduces the mercury adsorption perform-
+ance of the oxygen carrier.
+In this study, CuCo2O4@SiO2 oxygen carriers with strong
+oxygen release and weak adsorption capacity were designed by
+the salt-assisted combustion and impregnation methods. The
+physicochemical properties of CuCo2O4@SiO2 were charac-
+terized by different analytical methods. The optimum loading
+amount of SiO2 was determined. The oxygen release and
+mercury removal performance, as well as the cycling stability,
+of CuCo2O4@SiO2 were investigated. In addition, the
+microscopic mechanism of oxygen transfer on the surface of
+CuCo2O4@SiO2 was revealed by DFT calculations.
+2. MATERIALS AND METHODS
+2.1. Preparation of Oxygen Carriers. Figure 1 shows the
+preparation process of CuCo2O4 and CuCo2O4@SiO2 oxygen
+carriers. CuCo2O4 was prepared by the salt-assisted combustion
+method. Co(NO3)2·6H2O, Cu(NO3)2 ·3H2O, glycine, and KCl were
+uniformly mixed and dissolved in deionized water (molar ratio of
+Co2+/Cu2+ was chosen as 2:1; molar ratio of KCl/metal ions was
+chosen as 1:1; and the amount of glycine was determined by chemical
+eq 1, while stoichiometric ratio λ was chosen as 7:9). The mixed
+solution was further heated and stirred on a magnetic stirrer to form a
+viscous gel. The gel precursor was placed in a drying oven and dried at
+95 °C for 48 h to form a porous precursor. The precursor was burned
+in a muffle furnace at 300 °C to form salt-containing solid particles,
+which were washed and filtered with deionized water and anhydrous
+ethanol to form a salt-free solid. The salt-free solid continued to be
+dried in a drying oven at 120 °C for 24 h to remove water, and the
+dried particle precursor was then calcined at 800 °C for 2 h.
+CuCo2O4@SiO2 was prepared by impregnation using tetraethyl
+orthosilicate (TEOS) as the silicon source. A certain molar ratio of
+CuCo2O4 and TEOS was dissolved in ethylene glycol solution, heated
+until a viscous mixture was formed, and then dried in a desiccator at
+120 °C for 24 h. The resulted material continued to be placed in a
+muffle furnace and was calcined at 800 °C for 2 h to obtain the
+CuCo2O4@SiO2 oxygen carrier.
+Glycine (C2H5NO2) combustion reaction:
+2Co(NO )
+Cu(NO )
+4 C H NO
+(9
+7)O
+CuCo
+O
+(3
+2 )N
+8 CO
+10 H O
+3 2
+3 2
+2
+5
+2
+2
+2
+4
+2
+2
+2
++
++
++
+=
++
++
++
++
+(1)
+2.2. Method of Experiment. The experimental system used in
+the study was a horizontal tube furnace system, as shown in Figure 2,
+which mainly consisted of a gas supply unit, an oxygen carrier reaction
+unit, and a gas analysis unit. The Hg0 vapor in the gas supply unit was
+obtained by heating the mercury permeation tube in the water bath
+and brought out by the carrier gas. Different mercury vapor
+concentrations were obtained at different temperatures under control.
+The oxygen carrier reaction unit mainly consisted of a horizontal tube
+furnace and a quartz tube reactor, in which the experimental sample
+was placed in an internal quartz tube, while quartz wool was plugged
+at both ends to prevent the sample from blowing away. The gas
+analysis unit mainly detected and analyzed the mercury in the flue gas,
+which needed to be pretreated before entering the mercury analyzer
+for testing. The moisture was absorbed by color-changing silica gel to
+prevent damage to the instrument. At the same time, the flue gas was
+filtered and purified by activated carbon before being discharged into
+the atmosphere to prevent pollution of the atmosphere. The
+experimental temperatures included 800 and 900 °C. The mass of
+the oxygen carrier was 1 g. The flow rate of the mercury removal
+experimental gas was 1 L/min; and the concentration of mercury
+vapor was 100 μg/m3. The carrier gas was 20% N2 + 80% CO2.
+The detection and analysis of gaseous mercury mainly included the
+analysis of Hg0 and Hg2+. Hg0 was obtained directly by the
+measurement of VM3000 (Mercury Instruments, Germany) online
+mercury analyzer. The measurement of Hg2+ was obtained according
+to the Ontario hydro method.45 The particulate mercury was analyzed
+according to the national standard method GB/T16659-2008. The
+efficiency of mercury removal in this study was calculated by eq 2. In
+the experimental system shown in Figure 2, the Hg0 vapor first passed
+through the bypass, with the Hg0 concentration after the stabilization
+recorded as Hgin
+0. The stabilized Hg0 vapor was switched to the
+reaction line in the quartz tube reactor, with the Hg0 concentration
+denoted as Hgout
+0. The oxidation efficiency of Hg0 (ηHg
+0) can be
+expressed as follows.
+Hg
+Hg
+Hg
+100%
+Hg
+in
+0
+out
+0
+in
+0
+0 =
+×
+(2)
+The analysis of the oxygen release capacity of oxygen carriers was
+performed with a thermogravimetric analyzer (STA-449F3) manufac-
+tured by NETZSCH (Germany). The thermogravimetric conditions
+were set as follows. Ar was chosen as the purge gas and protective gas.
+The temperature rise rate was 10 °C/min, and the final temperature
+was 1000 °C. The temperature was maintained at 1000 °C for 10 min.
+In the oxidation process, the temperature was cooled down from 900
+to 800 °C at a rate of 10 °C/min under atmospheric air and
+maintained at a constant temperature of 800 °C for 10 min.
+2.3. Calculation Method. Theoretical calculations were
+performed within the framework of density generalized function
+theory, which was implemented in the CASTEP code.46 The DET+U
+method was used to solve the strong correlation problem for Co 3d
+orbitals, with Hubbard U set to 3.0 eV.47 The potential for exchange
+correlation was added in the form of Perdew−Burke−Ernzerhoff
+functions using the generalized gradient approximation.48,49 The
+energy cutoff and the K-point grid for cell optimization were 500 eV
+and 4 × 4 × 4, respectively. The convergence criteria for force, energy,
+Figure 2. Schematic diagram of the horizontal tube furnace system.
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://doi.org/10.1021/acs.energyfuels.3c02821
+Energy Fuels 2023, 37, 19664−19679
+19666
+
+
+===== Page 4 =====
+
+self-consistent field, and displacement were set to 0.05 eV/Å, 2.0 ×
+10−5 eV/atom, 1.0 × 10−6 eV/atom, and 0.002 Å, respectively.
+The crystal structure of CuCo2O4 is shown in Figure 3a, with
+Cu2+and Co3+ located in tetrahedra and octahedra, respectively. The
+structurally optimized cell parameters are a = b = c = 8.163 Å, which
+has an error of only 0.283% from the experimental value of a = b = c =
+8.14 Å.50 This confirms that the DFT calculation method is accurate
+and reliable. Figure 3 b shows the surface of CuCo2O4(110), with c
+and d showing the two different configurations of SiO2 adsorbed on
+the surface of CuCo2O4(110).
+When the O atom leaves the oxygen carrier, an oxygen vacancy
+(OV) is formed on the surface of the oxygen carrier. During the
+oxygen vacancy formation process, the valence electrons of the O 2p
+orbital are localized to the nearby metal atom, where the metal atom
+is reduced to the lower valence state, and the heat absorbed by this
+process is called the oxygen vacancy formation energy (Evac).51 The
+value of Evac reflects the ease of detachment of O atoms from the
+surface of the oxygen carrier.52 Evac can be used to assess the oxygen
+uncoupling capacity of the oxygen carrier, and the equation for Evac is
+shown in eq 3:
+E
+E
+E
+E
+1/2
+vac
+(surface vacancy)
+O
+(surface)
+2
+=
++
++
+(3)
+Where E(surface + vacancy) represents the total energy of the system
+after the formation of an oxygen vacancy on the surface of the oxygen
+carrier; EO2 is the energy of a single oxygen molecule; E(surface) is the
+energy of the surface of the oxygen carrier without oxygen vacancy
+before the reaction.
+In this study, the transition state search was performed using the
+CASTEP-optimized reactant and product structures using the
+complete linear synchronous transit/quadratic synchronous transit
+method.53 The energy barrier (Ebarrier) of the reaction is calculated
+according to eq 4:
+E
+E
+E
+barrier
+TS
+IS
+=
+(4)
+Where ETS represents the total energy of the transition state
+structure and EIS represents the total energy of the initial state
+structure of the reaction.
+3. RESULTS AND DISCUSSION
+3.1. Characterization of Oxygen Carriers. To explore
+the crystal phase structure of the CuCo2O4@SiO2 oxygen
+carrier with strong oxygen release and weak adsorption and the
+loading condition of SiO2, XRD analysis of the CuCo2O4@
+SiO2 oxygen carrier with various molar ratios of SiO2:CuCo2O4
+is shown in Figure 4. At 2θ = 19.04, 31.35, 36.94, 38.64, 44.92,
+55.80, 59.51, and 65.41°, the CuCo2O4 diffraction peak
+appeared in all these positions. With the increase in SiO2
+loading, it can be found that the diffraction peak intensity of
+Figure 3. (a) CuCo2O4; (b) CuCo2O4(110); (c) CuCo2O4(110)
+with Cu site adsorbed by SiO2; (d) CuCo2O4(110) with O site
+adsorbed by SiO2.
+Figure 4. XRD patterns of CuCo2O4@SiO2 oxygen carriers with different SiO2 loads.
+Figure 5. SEM images of different oxygen carriers: (a) CuCo2O4 and
+(b) CuCo2O4@SiO2.
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://doi.org/10.1021/acs.energyfuels.3c02821
+Energy Fuels 2023, 37, 19664−19679
+19667
+
+
+===== Page 5 =====
+
+CuCo2O4 gradually decreased, and this may be due to the
+increase in SiO2 loading on the surface leading to the decrease
+in internal diffraction intensity. However, the diffraction peak
+of SiO2 was not shown in the XRD pattern, which may be due
+to the high dispersion of SiO2 on the surface of the oxygen
+carrier. Therefore, it is necessary to further determine the
+distribution of SiO2 in oxygen carriers by EDS and XPS
+analysis.
+The surface morphology of the CuCo2O4@SiO2 oxygen
+carrier with a molar ratio of SiO2:CuCo2O4 of 1:1 is shown in
+Figure 5. Regular geometric polyhedral crystal particles were
+formed in CuCo2O4 oxygen carriers, and the crystals were well
+developed. KCl addition broke the 3D network structure of the
+combustion synthesis powder and significantly improved the
+crystallization and dispersion of the products. The CuCo2O4
+oxygen carrier was prepared by the salt-assisted combustion
+method. During the combustion process, heat was released
+intensively, and the temperature of the reaction system rose
+instantaneously, resulting in the in situ precipitation of KCl,
+which was spontaneously wrapped on the surface of the oxygen
+carrier. During the cooling process, the oxygen carrier wrapped
+in a salt shell effectively prevented the agglomeration of
+particles and obtained nanoparticles with good dispersion.
+SiO2 loading did not lead to the agglomeration of oxygen
+carrier particles. Compared with the SEM image of CuCo2O4,
+it was found that the surface of CuCo2O4@SiO2 was rougher,
+and this may be caused by the uniform loading of SiO2. The
+distribution of O, Si, Cu, and Co in the CuCo2O4@SiO2
+oxygen carrier is shown in Figure 6. Si is uniformly distributed
+on the surface of the oxygen carrier without agglomeration
+phenomenon. Figure 7a−c shows CuCo2O4@SiO2 before
+cycling. Meanwhile, Figure 7d−f represents the CuCo2O4@
+SiO2 oxygen carrier after cycling. In Figure 7, the TEM image
+clearly shows a significant difference in brightness between the
+Figure 6. EDS diagram of the CuCo2O4@SiO2 oxygen carrier.
+Figure 7. (a)−(c) show the CuCo2O4@SiO2 oxygen carrier before cycling; (d)−(f) represent the CuCo2O4@SiO2 oxygen carrier after cycling.
+Figure 8. HRTEM image as well as Fourier transform images (a)−(c)
+of CuCo2O4@SiO2.
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://doi.org/10.1021/acs.energyfuels.3c02821
+Energy Fuels 2023, 37, 19664−19679
+19668
+
+
+===== Page 6 =====
+
+central region and the edge of the particles, with a distinct
+boundary. The dark-colored inner region corresponds to
+CuCo2O4, while the light-colored outer edge corresponds to
+SiO2. Figure 8 shows the HRTEM image and Fourier
+transform image of the CuCo2O4@SiO2 oxygen carrier.
+From the Fourier transform images b and c, it can be observed
+that the oxygen carrier prepared by incorporating inert salt
+(KCl) exhibits good crystallinity. The Fourier transform image
+in Figure 8a indicates that the silica is in an amorphous state.
+The HRTEM image reveals that the crystal plane distance of
+0.235 and 0.272 nm corresponds to the (222) and (220)
+crystal planes of the CuCo2O4 cubic structure, respectively.
+Combined with the EDS mapping in Figure 6, silica is
+uniformly distributed on the surface of the oxygen carrier
+without aggregation, indicating a core−shell structure of the
+particles.
+XPS analysis of the elemental valence state of the
+CuCo2O4@SiO2 oxygen carrier with a SiO2: CuCo2O4 molar
+Figure 9. XPS spectra of CuCo2O4@SiO2 before reaction: (a) Cu 2p; (b) Co 2p; (c) Si 2p; (d) O 1s.
+Figure 10. TG curve of the oxygen carrier.
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://doi.org/10.1021/acs.energyfuels.3c02821
+Energy Fuels 2023, 37, 19664−19679
+19669
+
+
+===== Page 7 =====
+
+ratio of 1:1 is shown in Figure 9. The Cu 2p XPS map shows
+four peaks: two spin−orbit peaks (Cu 2p3/2 and Cu 2p1/2) and
+two satellite peaks at binding energies of 942.09 and 962.27
+eV.54,55 The binding energies at 934.42 and 954.30 eV
+belonged to Cu2+. Co 2p also had two spin−orbit peaks (Co
+2p3/2, Co 2p1/2) and two satellite peaks. The satellite peaks
+were observed at binding energies of 785.92 and 803.01 eV.
+The binding energies at 780.18 and 795.24 eV belonged to
+Co3+. The binding energies at 781.24 and 797.05 eV belonged
+to Co2+.56,57 The proportion of Co2+ was relatively low,
+indicating that a large amount of Cu2+ occupied Co2+ to form
+CuCo2O4. The atlas of Si 2p showed that it was Si4+ at the
+binding energy of 103.41 eV,58,59 and Si in the CuCo2O4@
+SiO2 oxygen carrier mainly existed in the form of SiO2. In the
+O 1s atlas, lattice oxygen (OL), oxygen vacancy (OV), and
+oxygen chemisorbed (OC) were observed at binding energies
+of 529.83, 531.30, and 532.72 eV, respectively,60−62 among
+which the proportion of OC was as high as 68.94%. This may
+be due to the formation of more oxygen vacancies in the
+internal CuCo2O4 during the process of Si oxidation, which
+further adsorbs oxygen to form more chemisorbed oxygen. The
+higher proportion of chemisorbed oxygen is conducive to
+improving oxygen carrier performance.
+3.2. Oxygen Release characteristics of Oxygen
+Carriers. Oxygen release is an important index to evaluate
+the performance of oxygen carriers. The thermogravimetric-
+differential scanning calorimetry (TG-DSC) curve of the
+oxygen release reaction of the prepared CuCo2O4 oxygen
+carrier under the inert gas Ar is shown in Figure 10a. The
+oxygen release of the CuCo2O4 oxygen carrier was about 7.2
+wt %. The XRD pattern of the oxygen carrier after oxygen
+release is shown in Figure 11. CuCo2O4 was reduced to Cu2O
+and CoO after oxygen decoupling. The theoretical oxygen
+release of (Cu2O+CoO)/CuCo2O4 was 9.7 wt %. It failed to
+reach the theoretical oxygen release because CuO was
+generated during the preparation process. The crystal structure
+of CuCo2O4 prepared by oxygen carrier material was not
+100%. Compared with the oxygen release of Co3O4 (6.6 wt %),
+the oxygen release of CuCo2O4 was significantly improved.
+The initial oxygen release temperature of CuCo2O4 was about
+750 °C, while the initial temperatures of Co3O4 and CuO were
+775 and 790 °C, respectively. The results showed that the
+oxygen-releasing activity of CuCo2O4 was stronger than those
+of Co3O4 and CuO. The cyclic TG curve for CuCo2O4
+decomposition−oxidation is given in Figure12. This indicates
+the stability of oxygen release of CuCo2O4 oxygen carriers.
+SiO2 loaded on the surface of CuCo2O4 may hinder the
+release and transportation of oxygen. The oxygen release of
+CuCo2O4@SiO2 oxygen carriers with different SiO2 loads is
+shown in Figure 10 b. The oxygen release of CuCo2O4 was
+calculated as 7.20 wt %. The molar ratios of SiO2: CuCo2O4
+Figure 11. XRD pattern of the oxygen carrier CuCo2O4 after oxygen
+release.
+Figure 12. Cyclic TG curves for CuCo2O4 and CuCo2O4@SiO2 core−shell oxygen carriers.
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://doi.org/10.1021/acs.energyfuels.3c02821
+Energy Fuels 2023, 37, 19664−19679
+19670
+
+
+===== Page 8 =====
+
+were 1:4, 1: 2, 1:1, 2:1, and 4:1. The theoretical oxygen release
+c a p a c i t i e s
+c a l c u l a t e d
+b a s e d
+o n
+f o r m u l a
+w
+w
+w
+(
+0.072)/(
+)
+CuCo O
+CuCo O
+SiO
+2
+4
+2
+4
+2
+×
++
+were 6.79, 6.42, 5.79,
+4.8, and 3.64 wt %, respectively. The actual oxygen release
+capacities were 7.24, 7.25, 6.89, 6.08, and 4.21 wt %,
+respectively. The actual oxygen release capacities were
+increased by 6.63%, 12.93%, 19.00%, 25.62%, and 15.66%,
+compared to the theoretical oxygen release. However, it can be
+seen from the TG curve that when the molar ratio was 2:1 and
+4:1, the oxygen release rate was seriously reduced, so the
+oxygen carrier with the molar ratio of SiO2: CuCo2O4 (1:1)
+was finally selected. The above results showed that SiO2 did
+not hinder the oxygen release of CuCo2O4 and even promoted
+oxygen release. This may be because the oxygen in SiO2
+supplements the oxygen vacancy formed after the oxygen
+release of CuCo2O4. By comparing the cyclic performance of
+CuCo2O4 and CuCo2O4@SiO2 in Figure 12, it is found that
+the reoxidation rate of CuCo2O4@SiO2 is smaller than that of
+CuCo2O4. This indicates that the reoxidation of oxygen carrier
+with core−shell structure is strongly inhibited.
+Twenty cyclic tests for oxygen release of the CuCo2O4@
+SiO2 oxygen carrier are shown in Figure 12. The oxygen carrier
+did not show a considerable fluctuation, and the oxygen release
+remained unchanged, still maintaining a good oxygen release
+performance. The oxygen release after cycling reaction was
+about 5.9 wt %, which was reduced by 0.9 wt % compared with
+the initial state, indicating that the material has good cycling
+performance. Moreover, from the TG curve, it can be observed
+that there are segmented phenomena during the release and
+replenishment of oxygen in the oxygen carrier. Taking the
+reduction stage of the oxygen carrier as an example, in the first
+Figure 13. XRD pattern of the oxygen carrier CuCo2O4@SiO2 before and after the oxygen release cycle.
+Figure 14. Mercury removal efficiency of the CuCo2O4@SiO2 oxygen
+carrier.
+Figure 15. Distribution of Hgp and Hg2+ in total mercury removal
+efficiency over oxygen carriers at different temperatures.
+Figure 16. Mercury removal efficiency of the oxygen carrier during
+the cycling process.
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://doi.org/10.1021/acs.energyfuels.3c02821
+Energy Fuels 2023, 37, 19664−19679
+19671
+
+
+===== Page 9 =====
+
+stage, it is caused by the reduction of Co3+ in copper cobaltite
+(CuCo2O4). In the second stage, it is caused by the reduction
+of Cu2+ in the oxygen carrier. From Figure 13, it can be
+observed that the intensity of diffraction peaks of CuCo2O4 has
+weakened after the cycle, while the diffraction peaks of CuO
+have increased. The wide peak centered at about 25° in the
+XRD is due to the formation of amorphous SiO2 on the surface
+of CuCo2O4. The XRD spectrum results indicate that after the
+cycle, the oxygen carrier still maintains good stability, and there
+is no significant change in the crystal phase structure.
+3.3. Mercury Removal Performance of Oxygen
+Carriers. The mercury removal efficiency of oxygen carriers
+at 800 and 900 °C is shown in Figure 14. CuCo2O4 reached a
+maximum of 45% in 8.5 min at 800 °C and 54% in 5 min at
+Figure 17. XPS spectra of CuCo2O4@SiO2 after reaction: (a) Cu 2p; (b) Co 2p; (c) Si 2p; (d) O 1s.
+Figure 18. XPS spectra of CuCo2O4 and CuCo2O4@SiO2 after reaction: (a) Hg 4f(CuCo2O4) and (b) Hg 4f(CuCo2O4@SiO2).
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://doi.org/10.1021/acs.energyfuels.3c02821
+Energy Fuels 2023, 37, 19664−19679
+19672
+
+
+===== Page 10 =====
+
+900 °C. This may be because high temperature promotes
+oxygen release, which causes that mercury removal rate reaches
+its peak faster. At 800 °C, the maximum efficiency over
+CuCo2O4@SiO2 for 10 min was about 42%. After 10 min, the
+mercury removal efficiency gradually decreased with the
+gradual reduction of oxygen release capacity. The contribution
+of Hg2+ and Hgp to the mercury removal efficiency at 800 °C
+was 66:34, as shown in Figure 15. At 900 °C, the maximum
+removal efficiency of mercury for 8 min was about 45%. After
+9.6 min, it was gradually lower than that at 800 °C, and after
+25 min, it gradually decreased from 10 to 5%. The contribution
+ratio of Hg2+ to Hgp was 82.21:17.79. The contribution of Hgp
+decreased significantly with the increase in temperature.
+Specifically, the contribution of Hgp for mercury removal
+over CuCo2O4 oxygen carriers at 800 and 900 °C was 38.41
+and 38.54%, respectively. The contribution of Hgp for mercury
+removal over CuCo2O4@SiO2 oxygen carriers decreased
+significantly, indicating that CuCo2O4@SiO2 oxygen carriers
+have good elemental mercury oxidation capacity and weak
+mercury adsorption capacity at high temperatures. Figure 16
+represents the mercury removal efficiency of the oxygen carrier
+during the cycling process. As observed from the graph, the
+mercury removal efficiency of the first oxygen carrier reached
+46%. After five cycles, the mercury removal efficiency of the
+oxygen carrier gradually decreased but still maintained a
+mercury removal efficiency of 32% and tended to stabilize.
+The XPS analysis of CuCo2O4@SiO2 after the reaction at
+900 °C is shown in Figure 17. The Cu 2p map after the
+reaction shows that part of Cu2+ is reduced to Cu+, and the Co
+2p map shows that Co2+ is the main presence state after the Co
+reaction. After the reaction, the Si 2p pattern showed a new
+peak, which was due to Si2+56,58 at the binding energy of
+101.75 eV, accounting for 32.68%, indicating that part of SiO2
+was reduced to SiO, which was also the reason why the oxygen
+release of CuCo2O4 increased after loading SiO2. SiO2 can
+supplement part of oxygen in the reduction process of
+CuCo2O4. Si−Cu/Co compound was located at a binding
+energy of 107.45 eV. Based on O 1s atlas analysis, it was found
+that compared with that before the reaction, the proportion of
+OV increased to 57.61%, and the proportion of OC decreased
+to 23.79%. CuCo2O4@SiO2 formed a higher proportion of
+oxygen vacancies after the reaction, and a large amount of
+adsorbed oxygen was consumed, indicating that it had a higher
+reaction activity. During the reaction process, CuCo2O4@SiO2
+provides more reactive oxygen species for Hg0 removal and
+promotes the oxidative removal of mercury. The Hgp
+production of 1 g CuCo2O4@SiO2 oxygen carrier was 42.58
+ng for 1 h before the reaction at 900 °C, and that of CuCo2O4
+oxygen carrier was 77.4 ng for 1 h before the reaction at 900
+°C. The load of SiO2 on the surface weakened the fixation of
+mercury on the oxygen carrier surface to form Hgp.
+Hgp formed on the surface of the oxygen carrier mainly
+consisted of Hg0 and HgO,63 as seen in Figure 18. The fitting
+curve of Hg 4f can be divided into HgO at a binding energy of
+102.14 eV64 and Hg0 at a binding energy of 99.9 eV.65 On the
+reacted CuCo2O4 oxygen carrier, HgO accounted for 65.68%
+Figure 19. Optimized configuration, adsorption energy of Hg0
+adsorption on CuCo2O4 surface.
+Figure 20. Optimized configuration, adsorption energy of Hg0 adsorption on CuCo2O4@SiO2 surface.
+Table 1. Bond Configuration Analysis of Hg0 Adsorption on
+CuCo2O4@SiO2
+adsorption site
+bond
+population
+length (Å)
+1-CuO
+O18−Hg
+0.27
+2.24
+O4−Hg
+0.21
+2.25
+Cu4−Hg
+0.08
+2.71
+Cu1−Hg
+0.12
+2.75
+2-Cu1
+Cu1−Hg
+0.48
+2.62
+3-Cu2
+Cu1−Hg
+0.36
+2.67
+4-CoO
+Co8−Hg
+0.30
+2.77
+Co6−Hg
+0.17
+2.93
+Si−Hg
+0.09
+2.86
+6-Cu3
+Cu5−Hg
+0.10
+2.82
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://doi.org/10.1021/acs.energyfuels.3c02821
+Energy Fuels 2023, 37, 19664−19679
+19673
+
+
+===== Page 11 =====
+
+of the total Hg, and the percentage of Hg0 was 34.32%. While
+on the reacted CuCo2O4@SiO2 oxygen carrier, the percentage
+of Hg0 in the total Hg decreased to 9.81%. Therefore, the
+reduction in Hgp generation on the CuCo2O4@SiO2 oxygen
+carrier may be attributed to the decrease in adsorbed Hg0 on
+the surface.
+3.4. Simulation Study on the Performance of
+CuCo2O4 and CuCo2O4@SiO2 Oxygen Carriers for
+Mercury Removal. The adsorption of Hg0 on the
+CuCo2O4 oxygen carrier surface is the first step in the
+heterogeneous oxidation of mercury. Thus, the interaction of
+Hg0 with the CuCo2O4 surface was first investigated,
+considering the Co, Cu, O, and bridge sites. The optimized
+stable configurations and related geometrical parameters are
+shown in Figure 19. The most stable bonding structure is 1-
+Cu, with Hg and the Cu sites on the surface generating the
+Cu−Hg bond. The Co site on the CuCo2O4 surface can form
+two stable adsorption configurations, 2-CoCo and 3-Co, with
+adsorption energies of −55.26 and −42.51 kJ/mol, respec-
+tively, which are lower than that of the Cu2+ site. Compared to
+Co3O4, Cu2+, which replaces Co2+, becomes the best Hg0
+adsorption site, while the original Co2+ does not form a stable
+Hg0 adsorption, indicating that CuCo2O4 has a better Hg0
+adsorption capacity, which is beneficial for the removal of
+mercury. At the same time, the Co site (−111.72 kJ/mol) is
+stronger than the Cu site (−69.71 kJ/mol) in O2 adsorption.
+Therefore, CuCo2O4 can achieve the synergistic effect of
+oxygen adsorption at the Co site and mercury adsorption at the
+Cu site.
+The optimized stable configurations and their geometric
+parameters are shown in Figure 20, considering Co, Cu, O, and
+bridge adsorption sites on the CuCo2O4@SiO2 surface. When
+SiO2 is adsorbed on the O site of the CuCo2O4 surface, the
+most stable structure is 1-CuO. Hg forms Cu−Hg bond (2.75
+Å) with the surface Cu and forms O−Hg bond (2.24 Å) with
+O from SiO2, with an adsorption energy of −109.52 kJ/mol.
+The adsorption energies of the other two types of sites are
+−50.03 and −53.90 kJ/mol. When SiO2 is adsorbed on the Cu
+site of the CuCo2O4 surface, the most stable structure is 4-
+CoO. Hg forms Co−Hg bond (2.77 Å) with the surface Co
+and forms O−Hg bond (2.42 Å) with O from SiO2, with an
+adsorption energy of −105.90 kJ/mol. The Hg adsorption
+energies on the 5-Co and 6-Cu3 sites are −29.94 and −27.16
+kJ/mol, respectively.
+Table 1 presents the bond configuration analysis of Hg0
+adsorption on CuCo2O4@SiO2, with bond occupancy values
+ranging from 0 to 1. A higher value indicates a stronger bond,
+while negative values indicate nonbonding interactions. When
+Hg is close to 1-CuO near the silica, the bond occupancy
+numbers for the bonding between Hg and O18 and O4 are
+0.27 and 0.21, respectively. The bond occupancy numbers for
+the bonding between Hg and Cu1 and Cu4 are 0.12 and 0.08,
+respectively. A comparison with other individually adsorbed
+Cu sites reveals that when Hg forms bonds with O, it leads to
+weakening of the adsorption capacity of Cu for Hg. This may
+be due to the formation of a relatively stable mercury
+compound of HgO through the bonding between Hg and
+oxygen.
+From the above discussion, it can be inferred that when Hg
+is adsorbed near SiO2 on the CuCo2O4@SiO2 surface, it
+simultaneously forms bonds with the oxygen atom from SiO2
+and Cu or Co sites on CuCo2O4, with a higher adsorption
+energy and more stable configuration. However, when Hg is
+adsorbed on other sites, its adsorption energy is lower than
+that on the CuCo2O4 surface, especially when SiO2 is adsorbed
+on the Cu site of CuCo2O4. The reason for the higher
+adsorption energy of 1-CuO and 4-CoO may be due to the
+combined adsorption of CuCo2O4 and SiO2 for Hg.
+HgO is an important product in the process of mercury
+removal from oxygen carriers, and it is also particularly
+important to study the interaction of HgO on the surface of
+CuCo2O4 and CuCo2O4@SiO2. Figure 21a shows the stable
+configuration and adsorption energy of HgO adsorption. Two
+stable adsorption configurations can be formed. In 1-Co-O
+configuration, Hg0 combines with Co and O on the surface to
+form a Co−Hg−O bond with an adsorption energy of −23.13
+kJ/mol. In 2-Co configuration, Hg0 only combines with Co on
+the surface to form a Co−Hg bond with an adsorption energy
+of −21.35 kJ/mol.
+HgO adsorption on CuCo2O4@SiO2 surface was optimized
+to form several adsorption configurations as shown in Figure
+21b. In 1-Cu1 configuration, the dissociation of HgO occurs
+with Hg adsorption on the Cu site, with an adsorption energy
+of −403.82 kJ/mol. In 2-O1 and 4-O2 configurations, HgO
+adsorbs on the oxygen sites of SiO2, with adsorption energies
+of −222.68 and −108.24 kJ/mol, respectively. In 3-CoCo
+configuration, HgO adsorbs on the surface Co site, forming an
+Hg−Co bond, with an adsorption energy of −162.34 kJ/mol.
+Compared with the adsorption energy of HgO on the
+Figure 21. Optimized configuration, adsorption energy of HgO adsorbed on (a) CuCo2O4 surface and (b) CuCo2O4@SiO2 surface.
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://doi.org/10.1021/acs.energyfuels.3c02821
+Energy Fuels 2023, 37, 19664−19679
+19674
+
+
+===== Page 12 =====
+
+CuCo2O4 surface, the adsorption energy on the CuCo2O4@
+SiO2 surface is significantly higher. The simulation results
+indicate that the adsorption of Hg0 on CuCo2O4@SiO2 is
+weakened, but the adsorption of HgO is enhanced. Moreover,
+the relative content of Hg2+ on the CuCo2O4@SiO2 oxygen
+carrier after reaction is significantly higher than that on the
+CuCo2O4 oxygen carrier after reaction, as observed in Figures
+15 and 18.
+According to the simulation study, we have obtained the
+transformation process of Hg0. First, most of the mercury is
+physically adsorbed on the surface of Cu and Co sites, which
+facilitates the oxidation of mercury on the surface. However, a
+small portion of the mercury adsorbed near silica not only
+forms bonds with surfaces of Cu and Co but also with silica,
+leading to an increase in adsorption energy. Subsequently, the
+chemisorbed oxygen on the surface of the oxygen carrier reacts
+with the adsorbed mercury, forming mercury oxide. Most of
+the mercury oxide desorbs from the oxygen carrier, while a
+small portion of it forms particulate mercury in the form of
+Hg−metal compounds on the surface of the oxygen carrier.
+3.5. Insights into the Oxygen Transport Processes in
+CuCo2O4@SiO2 Oxygen Carriers. During chemical-looping
+oxygen uncoupling process, the key function of the oxygen
+carrier is to provide oxygen molecules. The reaction of the
+Figure 22. (a) Oxygen transport processes in CuCo2O4 oxygen carriers; (b) oxygen transport processes in CuCo2O4@SiO2 (SiO2 adsorption at the
+Cu site); and (c) oxygen transport processes in CuCo2O4@SiO2 (SiO2 adsorption at the O site).
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://doi.org/10.1021/acs.energyfuels.3c02821
+Energy Fuels 2023, 37, 19664−19679
+19675
+
+
+===== Page 13 =====
+
+oxygen carrier is a process of surface oxygen depletion and
+internal lattice oxygen migration, whereas surface oxygen is
+continuously depleted to form surface oxygen vacancies, which
+are replenished by oxygen from the lower layers under the
+action of the oxidation potential gradient. The formation of
+oxygen vacancies and the migration of lattice oxygen play a
+crucial role in the performance of oxygen carriers as it is
+generally difficult for reactants to enter the crystal interior and
+react with lattice oxygen.
+The oxygen transport processes of CuCo2O4 oxygen carriers
+and defective CuCo2O4@SiO2 oxygen carriers are shown in
+Figure 22. Path 1 (a) is the migration of oxygen from the
+second lattice layer of CuCo2O4 to the surface oxygen
+vacancies. The oxygen vacancy formation energy and reaction
+energy barriers of this process are 96.73 and 115.38 kJ/mol,
+respectively. Path 2 (b) is the process of oxygen adsorption on
+the Cu sites of CuCo2O4(110) and oxygen transfers to the
+surface oxygen vacancies of CuCo2O4. The oxygen vacancy
+formation energy and the maximum reaction energy barrier for
+this process are 220.75 and 171.10 kJ/mol, respectively. Path 3
+(c) is the migration of oxygen adsorbed on SiO2, which is
+adsorbed at the O site on the CuCo2O4 (110) surface to the
+oxygen vacancy on the CuCo2O4 (110) surface. The oxygen
+vacancy formation energy of this process is 152.38 kJ/mol, and
+the reaction energy barrier to be overcome is 147.51 kJ/mol.
+The surface oxygen vacancy formation energy of the adsorbed
+SiO2 at the Cu site and O site on the CuCo2O4 surface is
+higher than the oxygen vacancy formation energy on the
+CuCo2O4 surface. Therefore, the SiO2 adsorbed on the surface
+of the CuCo2O4 oxygen carrier may be detrimental to the
+formation of surrounding oxygen vacancies. The difference in
+energy barriers between path 3 and path 1 is 32.13 kJ/mol, and
+the difference in energy barriers between path 2 and path 1 is
+55.72 kJ/mol. The difference in reaction energy barriers
+between path 3 and path 1 is not significant, and this indicates
+that it is possible for the oxygen in SiO2 to supplement the
+oxygen vacancies on the CuCo2O4 surface. This simulation is
+consistent with experimental results as shown in Figure 9 and
+Figure 17.
+Figure 23 shows the oxygen migration process during the
+oxidation of Hg0 by adsorption of CuCo2O4@SiO2. First, Hg0
+is adsorbed on the surface of CuCo2O4@SiO2, and the oxygen
+on the surface is consumed by the adsorbed Hg0 to generate
+HgO, which leads to the generation of oxygen vacancies on the
+surface of CuCo2O4. There are two different oxygen migration
+paths for the replenishment of surface oxygen vacancies, the
+first path is the migration of oxygen from the second lattice
+layer of CuCo2O4 to the surface to replenish the surface
+oxygen vacancies. The second path is the migration of oxygen
+from SiO2 to the CuCo2O4 surface oxygen vacancies. Most of
+the oxygen vacancies are replenished by the first migration
+path, with oxygen migration in SiO2 accounting for a small
+fraction. Compared to the single oxygen migration pathway on
+the CuCo2O4 surface, two oxygen migration pathways in
+CuCo2O4@SiO2 may exist, and this in turn promotes the
+oxygen release from the oxygen carrier.
+4. CONCLUSION
+In CLC, elemental mercury is better released and oxidized in
+the fuel reactor with subsequent pollution control apparatus
+compared to that in the air reactor with pollutants directly
+emitted to atmosphere. In this paper, a novel kind of oxygen
+carriers with strong oxygen release and weak adsorption
+performance CuCo2O4@SiO2 has been proposed. Investiga-
+tions on elemental mercury removal over CuCo2O4@SiO2
+have been conducted based on both experiments and
+simulations, and the following conclusions can be drawn.
+(1) The salt-assisted combustion impregnation method was
+used to prepare the CuCo2O4@SiO2 oxygen carriers with
+strong oxygen release and weak adsorption performance. The
+optimal ratio of SiO2 to CuCo2O4 was 1:1, and the oxygen
+release was 6.89 wt %. SiO2 did not reduce the oxygen release
+of CuCo2O4 but provided some oxygen for the reduction
+process of CuCo2O4. During 10 cycles, the oxygen release of
+the CuCo2O4@SiO2 oxygen carrier is stable, indicating that it
+has good cycling performance.
+(2) The peak mercury removal efficiencies of CuCo2O4@
+SiO2 at 800 and 900 °C were 42% and 45%, respectively, and
+they were slightly lower than CuCo2O4. Specifically, the
+contribution of mercury removal decreased to 34 and 17.79%
+at 800 and 900 °C, respectively. The Hgp production was also
+reduced and was only 42.58 ng within 1 h before the reaction
+of 1 g CuCo2O4@SiO2 oxygen carrier at 900 °C, achieving the
+research goal of strong oxygen release and weak adsorption.
+(3) Based on DFT calculations, it is found that the
+adsorption of SiO2 has a certain inhibitory effect on the
+formation of oxygen vacancies on the surface of CuCo2O4;
+however, SiO2 can replenish the oxygen vacancies on the
+surface. Therefore, an appropriate SiO2/CuCo2O4 molar ratio
+can promote the oxygen release rate, while a high SiO2 ratio
+can seriously hinder the formation of oxygen vacancies on the
+surface of CuCo2O4, thus reducing the oxygen release rate of
+CuCo2O4.
+■ASSOCIATED CONTENT
+*
+sı Supporting Information
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acs.energyfuels.3c02821.
+Figure 23. Oxygen migration process in CuCo2O4@SiO2.
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://doi.org/10.1021/acs.energyfuels.3c02821
+Energy Fuels 2023, 37, 19664−19679
+19676
+
+
+===== Page 14 =====
+
+The mercury removal efficiency and the proportion of
+mercury removal for the CuCo2O4 oxygen carrier
+(Figure S1) (PDF)
+■AUTHOR INFORMATION
+Corresponding Author
+Dunyu Liu −School of Energy and Power Engineering,
+University of Shanghai for Science and Technology, Shanghai
+200093, China;
+orcid.org/0000-0002-4927-8500;
+Email: liudunyu@usst.edu.cn
+Authors
+Chaoran Wang −School of Energy and Power Engineering,
+University of Shanghai for Science and Technology, Shanghai
+200093, China
+Kailong Xu −School of Energy and Power Engineering,
+University of Shanghai for Science and Technology, Shanghai
+200093, China
+Jing Jin −School of Energy and Power Engineering, University
+of Shanghai for Science and Technology, Shanghai 200093,
+China;
+orcid.org/0000-0002-1681-9681
+Jingjing Ma −State Key Laboratory of High-Efficiency
+Utilization of Coal and Green Chemical Engineering, College
+of Chemistry and Chemical Engineering, Ningxia University,
+Yinchuan, Ningxia 750021, China
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acs.energyfuels.3c02821
+Notes
+The authors declare no competing financial interest.
+■ACKNOWLEDGMENTS
+We greatly acknowledge the financial support from Natural
+Science Foundation of Shanghai (Project No. 21ZR1444400),
+National Natural Science Foundation of China (Project Nos.
+51706143 and 51976129), and Foundation of State Key
+Laboratory of High efficiency Utilization of Coal and Green
+Chemical Engineering (Grant No. 2022-K38).
+■REFERENCES
+(1) Adanez, J.; Abad, A. Chemical-looping combustion: Status and
+research needs. Proc. Combust. Ins. 2019, 37 (4), 4303−4317.
+(2) Mendiara, T.; García-Labiano, F.; Abad, A.; Gayan, P.; de Diego,
+L. F.; Izquierdo, M. T.; Adanez, J. Negative CO2 emissions through
+the use of biofuels in chemical looping technology: A review. Appl.
+Energy 2018, 232, 657−684.
+(3) Czakiert, T.; Krzywanski, J.; Zylka, A.; Nowak, W. Chemical
+Looping Combustion: A Brief Overview. Energies 2022, 15 (4), 1563.
+(4) Wang, P.; Means, N.; Shekhawat, D.; Berry, D.; Massoudi, M.
+Chemical-Looping Combustion and Gasification of Coals and
+Oxygen Carrier Development: A Brief Review. Energies 2015, 8
+(10), 10605−10635.
+(5) Beckers, F.; Rinklebe, J. Cycling of mercury in the environment:
+Sources, fate, and human health implications: A review. Crit. Rev.
+Environ. Sci. Technol. 2017, 47 (9), 693−794.
+(6) Zhang, J.; Qin, W.; Dong, C.; Yang, Y. Density Functional
+Theory Study of Elemental Mercury Adsorption on Fe2O3[104] and
+Its Effect on Carbon Deposit during Chemical Looping Combustion.
+Energy Fuels 2016, 30 (4), 3413−3418.
+(7) Hou, F.; Jin, J.; Liu, D.; Kou, X.; Yang, H.; Wang, Y.
+Competition between reduction reaction and carbon deposition for
+CaSO4 oxygen carrier in chemical-looping combustion: A first-
+principle study and reaction equilibrium analysis. Surf. Interfaces 2021,
+25, 101314.
+(8) Ma, J.; Tian, X.; Zhao, B.; Li, X.; Zhao, Y.; Zhao, H.; Zheng, C.
+Behavior of mercury in chemical looping with oxygen uncoupling of
+coal. Fuel Process. Technol. 2021, 216, 106747.
+(9) Tao, Y.; Zhuo, Y.; Zhang, L.; Chen, C.; Xu, X. Impact of Flue
+Gas Species and Temperature on Mercury Oxidation. Tsinghua Sci.
+Technol. 2010, 15 (4), 418−425.
+(10) An, M.; Guo, Q.; Wei, X. Reaction mechanism of H2S with Hg0
+on CuFe2O4 oxygen carrier with oxygen vacancy structure during coal
+chemical looping gasification. Fuel 2023, 333, 126477.
+(11) Ma, J.; Mei, D.; Tian, X.; Zhang, S.; Yang, J.; Wang, C.; Chen,
+G.; Zhao, Y.; Zheng, C.; Zhao, H. Fate of Mercury in Volatiles and
+Char during in Situ Gasification Chemical-Looping Combustion of
+Coal. Environ. Sci. Technol. 2019, 53 (13), 7887−7892.
+(12) Ma, J.; Tian, X.; Zhao, B.; Li, X.; Zhao, Y.; Zhao, H.; Zheng, C.
+Behavior of mercury in chemical looping with oxygen uncoupling of
+coal. Fuel Process. Technol. 2021, 216, 106747.
+(13) Li, J.-H.; Lin, C.-F.; Qin, W.; Xiao, X.-B.; Wei, L. Synergetic
+Effect of Mercury Adsorption on the Catalytic Decomposition of CO
+over Perfect and Reduced Fe2O3[001] Surface. Acta Phys.-Chim. Sin.
+2016, 32 (11), 2717−2723.
+(14) Mashyanov, N. Mercury in gas and oil deposits: Corrosion
+problem. E3S Web Conf. 2021, 225, 01009.
+(15) Liu, D.; Wang, C.; Fan, Y.; Liu, Q.; Wang, X.; Xu, K.; Jin, J.;
+Ma, J.; Ma, J. Mercury transformation and removal in chemical
+looping combustion of coal: A review. Fuel 2023, 347, 128440.
+(16) Mendiara, T.; Izquierdo, M. T.; Abad, A.; de Diego, L. F.;
+García-Labiano, F.; Gayán, P.; Adánez, J. Release of pollutant
+components in CLC of lignite. Int. J. Greenhouse Gas Control 2014,
+22, 15−24.
+(17) An, M.; Ma, J.; Guo, Q. Transformation and Migration of
+Mercury during Chemical-Looping Gasification of Coal. Ind. Eng.
+Chem. Res. 2019, 58 (44), 20481−20490.
+(18) Liu, Q.; Liu, D.; Ni, M.; Xu, K.; Ma, J.; Liu, Z.; Jin, J.; Shi, H.
+Oxygen-Induced Elemental Mercury Oxidation in Chemical Looping
+Combustion of Coal. ACS Omega 2022, 7 (24), 20959−20967.
+(19) Ni, M.; Liu, D.; Jin, J.; Feng, L.; Liu, Z. Ranking Oxygen
+Carriers for Elemental Mercury Oxidation in Coal-Fired Chemical-
+Looping Combustion: A Thermodynamic Approach. Energy Fuels
+2020, 34 (2), 2355−2365.
+(20) Liu, D.; Xu, K.; Ma, J.; Liu, Q.; Fan, Y.; Wang, C.; Wang, X.;
+Jin, J.; Shi, H. Advances in rational design of catalysts for efficient Hg0
+removal. Fuel 2023, 331, 125922.
+(21) Xu, K.; Liu, D.; Feng, L.; Jin, J.; Xiong, Z.; Ni, M.; Liu, Z.; Liu,
+Q.; Hou, F. Mercury removal by Co3O4@TiO2@Fe2O3 magnetic
+core-shell oxygen carrier in chemical-looping combustion. Fuel 2021,
+306, 121604.
+(22) Block, T.; Schmücker, M. Metal oxides for thermochemical
+energy storage: A comparison of several metal oxide systems. Sol.
+Energy 2016, 126, 195−207.
+(23) Baral, A.; Nandi, A.; Bose, N.; Mukherjee, N. Crumpled
+graphene oxide/spinel cobalt oxide composite based high perform-
+ance supercapacitive energy storage device. J. Energy Storage 2021, 42,
+103021.
+(24) Singh, M.; Dubey, B. P.; Sahoo, A.; Yadav, K. L.; Sharma, Y.
+Tailoring the transport and magnetic properties of Mn doped spinel
+FeCo2O4 and their impact on energy storage properties: A new
+strategy to improve storage performance. J. Energy Storage 2021, 44,
+103361.
+(25) Fan, J.; Zhang, Y.; Yang, Y.; Hao, J.; Wang, Y.; Qian, A.
+Performance of thermochemical energy storage for spinel CuMn2O4
+material. J. Energy Storage 2021, 41, 102881.
+(26) Zhao, J.; Li, C.; Yu, Q.; Zhu, Y.; Liu, X.; Li, S.; Liang, C.;
+Zhang, Y.; Huang, L.; Yang, K.; et al. Interface engineering of Mn3O4/
+Co3O4 S-scheme heterojunctions to enhance the photothermal
+catalytic degradation of toluene. J. Hazard. Mater. 2023, 452, 131249.
+(27) Cao, S.; Zhou, T.; Xu, X.; Bing, Y.; Sui, N.; Wang, J.; Li, J.;
+Zhang, T. Metal-organic frameworks derived inverse/normal bimet-
+allic spinel oxides toward the selective VOCs and H2S sensing. J.
+Hazard. Mater. 2023, 457, 131734.
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://doi.org/10.1021/acs.energyfuels.3c02821
+Energy Fuels 2023, 37, 19664−19679
+19677
+
+
+===== Page 15 =====
+
+(28) Ding, S.; Zhu, C.; Hojo, H.; Einaga, H. Enhanced catalytic
+performance of spinel-type Cu-Mn oxides for benzene oxidation
+under microwave irradiation. J. Hazard. Mater. 2022, 424, 127523.
+(29) Lingamdinne, L. P.; Choi, Y. L.; Kim, I. S.; Yang, J. K.; Koduru,
+J. R.; Chang, Y. Y. Preparation and characterization of porous reduced
+graphene oxide based inverse spinel nickel ferrite nanocomposite for
+adsorption removal of radionuclides. J. Hazard. Mater. 2017, 326,
+145−156.
+(30) Atanda, L.; Fraga, G. L.; Ahmed, M. H.; Alothman, Z. A.; Na,
+J.; Batalha, N.; Aslam, W.; Konarova, M. Conversion of agricultural
+waste into stable biocrude using spinel oxide catalysts. J. Hazard.
+Mater. 2021, 402, 123539.
+(31) Wang, C.; Liu, D.; Liu, Q.; Fan, Y.; Wang, X.; Jin, J.; Ma, J.
+Review and Perspectives of Mercury Removal by Spinel Compounds.
+Energy Fuels 2023, 37 (14), 10023−10044.
+(32) An, M.; Yuan, N.; Guo, Q.; Wei, X. Role of CuFe2O4 in
+elemental mercury adsorption and oxidation on modified bentonite
+for coal gasification. Fuel 2022, 328, 125231.
+(33) An, M.; Guo, Q.; Wei, X. Reaction mechanism of H2S with Hg0
+on CuFe2O4 oxygen carrier with oxygen vacancy structure during coal
+chemical looping gasification. Fuel 2023, 333, 126477.
+(34) Liu, F.; Liu, J.; Li, Y.; Fang, R.; Yang, Y. Studies on the
+synergistically improved reactivity of spinel NiFe2O4 oxygen carrier
+for chemical-looping combustion. Energy 2022, 239, 122100.
+(35) BoopathiRaja, R.; Parthibavarman, M.; Begum, A. N. Design
+and and fabrication of hierarchical heterostructure CuCo2O4@PPy
+based asymmetric device with ultra high capacitance and attractive
+cycling performance. Mater. Res. Bull. 2020, 126, 110817.
+(36) Kuo, Y.-L.; Huang, W.-C.; Tseng, Y.-H.; Chang, S.-H.; Ku, Y.;
+Lee, H.-Y. Electric arc furnace dust as an alternative low-cost oxygen
+carrier for chemical looping combustion. J. Hazard. Mater. 2018, 342,
+297−305.
+(37) Zheng, J.; Liu, X.; Zhang, L. Design of porous double-shell
+Cu2O@CuCo2O4 Z-Scheme hollow microspheres with superior redox
+property for synergistic photocatalytic degradation of multi-pollutants.
+Chem. Eng. J. 2020, 389, 124339.
+(38) Tan, S.; Ji, Y.; Ren, F.; Chen, F.; Ouyang, W. Improved energy
+conversion and storage performance enabled by hierarchical zigzag-
+like P-doped CuCo2O4 nanosheets based 3D electrode materials. Int.
+J. Hydrogen Energy 2022, 47 (15), 9248−9260.
+(39) Nhlapo, T. A.; Msomi, J. Z.; Moyo, T. Temperature-dependent
+magnetic behavior of Mn-Mg spinel ferrites with substituted Co, Ni &
+Zn, synthesized by hydrothermal method. J. Mol. Struct. 2021, 1245,
+131042.
+(40) An, M.; Yuan, N.; Guo, Q. Analysis of the role of Cu for
+improving the reactivity of Cu-modified Fe2O3 oxygen carriers in the
+chemical looping gasification process with coal. Fuel 2021, 305,
+121619.
+(41) Yuan, N.; Bai, H.; An, M.; Zhang, J.; Hu, X.; Guo, Q.
+Modulation of Fe-based oxygen carriers by low concentration doping
+of Cu in chemical looping process: Reactivity and mechanism based
+on experiments combined with DFT calculations. Powder Technol.
+2021, 388, 474−484.
+(42) Pérez-Vega, R.; Adánez-Rubio, I.; Gayán, P.; Izquierdo, M. T.;
+Abad, A.; García-Labiano, F.; de Diego, L. F.; Adánez, J. Sulphur,
+nitrogen and mercury emissions from coal combustion with CO2
+capture in chemical looping with oxygen uncoupling (CLOU). Int. J.
+Greenh. Gas. Con. 2016, 46, 28−38.
+(43) Ji, L.; Wang, Q.; Zhang, Z.; Wu, H.; Zhou, C.; Yang, H. Release
+characteristics of mercury in chemical looping combustion of
+bituminous coal. J. Environ. Sci. 2020, 94, 197−203.
+(44) An, M.; Wei, X.; Guo, Q.; Hu, X. Inhibited grain growth to
+strengthen the redox performance of CuFe2O4 via SiO2 as a support
+for the chemical looping gasification. J. Mater. Res. Technol. 2022, 17,
+1302−1310.
+(45) Lee, S. J.; Seo, Y.-C.; Jurng, J.; Hong, J.-H.; Park, J.-W.; Hyun, J.
+E.; Lee, T. G. Mercury emissions from selected stationary combustion
+sources in Korea. Sci. Total Environ. 2004, 325 (1−3), 155−161.
+(46) Segall, M. D.; Lindan, P. J. D.; Probert, M. J.; Pickard, C. J.;
+Hasnip, P. J.; Clark, S. J.; Payne, M. C. First-principles simulation:
+Ideas, illustrations and the CASTEP code. J. Phys.: Condens. Matter
+2002, 14 (11), 2717−2744.
+(47) Selcuk, S.; Selloni, A. DFT plus U Study of the Surface
+Structure and Stability of Co3O4(110): Dependence on U. J. Phys.
+Chem. C 2015, 119 (18), 9973−9979.
+(48) Singh, V.; Kosa, M.; Majhi, K.; Major, D. T. Putting DFT to the
+Test: A First-Principles Study of Electronic, Magnetic, and Optical
+Properties of Co3O4. J. Chem. Theory Comput. 2015, 11 (1), 64−72.
+(49) Constantin, L. A.; Perdew, J. P.; Pitarke, J. M. Exchange-
+correlation hole of a generalized gradient approximation for solids and
+surfaces. Phys. Rev. B 2009, 79, 075126.
+(50) Shaheen, W. M.; Ali, A. A. Characterization of solid-solid
+interactions and physicochemical properties of copper-cobalt mixed
+oxides and CuxCo3‑xO4 spinels. Mater. Res. Bull. 2001, 36 (9), 1703−
+1716.
+(51) Liu, T.; Li, H.; Gao, J.; Ding, S.; Liu, X.; Jia, H.; Xue, J. Effect of
+oxygen vacancies on the photocatalytic CO2 reduction performance of
+Bi2WO6: DFT and experimental studies. Appl. Surf. Sci. 2022, 579,
+152135.
+(52) Pentyala, P.; Singhania, V.; Duggineni, V. K.; Deshpande, P. A.
+Machine learning-assisted DFT reveals key descriptors governing the
+vacancy formation energy in Pd-substituted multicomponent ceria.
+Mol. Catal. 2022, 522, 112190.
+(53) Garcia, E. V.; Carbajal-Franco, G.; López-Galán, O. A. DFT
+transition state study of the catalyzed oxidation of methane on SnO2
+surfaces. Catal. Today 2022, 392−393, 41−48.
+(54) Cheng, D.; Wang, T.; Zhang, G.; Wu, H.; Mei, H. A novel
+nonenzymatic electrochemical sensor based on double-shelled
+CuCo2O4 hollow microspheres for glucose and H2O2. J. Alloys
+Compd. 2020, 819, 153014.
+(55) Liu, Y.; Chang, X.; Wang, M.; Guo, H.; Li, W.; Wang, Y.
+Hierarchical CuCo2O4/CuO nanoflowers crosslinked with carbon
+nanotubes as an advanced electrode for supercapacitors. J. Alloys
+Compd. 2021, 871, 159555.
+(56) Sun, M.; Fang, Q.; Li, Z.; Cai, C.; Li, H.; Cao, B.; Shen, W.;
+Liu, T. X.; Fu, Y. Co-precipitation synthesis of CuCo2O4 nano-
+particles for supercapacitor electrodes with large specific capacity and
+high rate capability. Electrochim. Acta 2021, 397, 139306.
+(57) Mao, H.; Sun, J.; Bao, E.; Dai, L.; Xu, C.; Chen, H. Battery-type
+CuCo2O4/CuO nanocomposites as positive electrode materials for
+highly capable hybrid supercapacitors. Ceram. Int. 2021, 47 (17),
+24877−24886.
+(58) Alfonsetti, R.; Lozzi, L.; Passacantando, M.; Picozzi, P.; Santuci,
+S. XPS studies on SiOx thin films. Appl. Surf. Sci. 1993, 70−71, 222−
+225.
+(59) Matsumoto, R.; Nishizawa, Y.; Kataoka, N.; Tanaka, H.;
+Yoshikawa, H.; Tanuma, S.; Yoshihara, K. Reproducibility of XPS
+analysis for film thickness of SiO2/Si by active Shirley method. J.
+Electron Spectrosc. Relat. Phenom. 2016, 207, 55−59.
+(60) Lin, X.; Li, S.; He, H.; Wu, Z.; Wu, J.; Chen, L.; Ye, D.; Fu, M.
+Evolution of oxygen vacancies in MnOx-CeO2 mixed oxides for soot
+oxidation. Appl. Catal., B 2018, 223, 91−102.
+(61) Li, J.; Zhou, H.; Zhuo, H.; Wei, Z. Z.; Zhuang, G. L.; Zhong,
+X.; Deng, S. W.; Li, X. N.; Wang, J. G. Oxygen vacancies on TiO2
+promoted the activity and stability of supported Pd nanoparticles for
+the oxygen reduction reaction. J. Mater. Chem. A 2018, 6 (5), 2264−
+2272.
+(62) Zhu, P.; Yin, X.; Gao, X.; Dong, G.; Xu, J.; Wang, C. Enhanced
+photocatalytic NO removal and toxic NO2 production inhibition over
+ZIF-8-derived ZnO nanoparticles with controllable amount of oxygen
+vacancies. Chin. J. Catal. 2021, 42 (1), 175−183.
+(63) Liu, Z.; Liu, D.; Jin, J.; Feng, L.; Ni, M.; Zhao, B.; Wu, X.
+Impact of gas impurities on the Hg0 oxidation on high iron and
+calcium coal ash for chemical looping combustion. Environ. Sci. Pollut.
+Res. Int. 2021, 28 (34), 46130−46146.
+(64) Zhou, Z.; Liu, X.; Hu, Y.; Liao, Z.; Cheng, S.; Xu, M. An
+efficient sorbent based on CuCl2 loaded CeO2-ZrO2 for elemental
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://doi.org/10.1021/acs.energyfuels.3c02821
+Energy Fuels 2023, 37, 19664−19679
+19678
+
+
+===== Page 16 =====
+
+mercury removal from chlorine-free flue gas. Fuel 2018, 216, 356−
+363.
+(65) Li, H.; Wu, S.; Wu, C.-Y.; Wang, J.; Li, L.; Shih, K. SCR
+Atmosphere Induced Reduction of Oxidized Mercury over CuO-
+CeO2/TiO2 Catalyst. Environ. Sci. Technol. 2015, 49 (12), 7373−
+7379.
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://doi.org/10.1021/acs.energyfuels.3c02821
+Energy Fuels 2023, 37, 19664−19679
+19679

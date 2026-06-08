@@ -1,0 +1,1176 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Chemical Engineering Journal
+journal homepage: www.elsevier.com/locate/cej
+CuO supported on olivine as an oxygen carrier in chemical looping processes
+with pine sawdust used as fuel
+Xun Wanga, Tingting Xua, Xiaoyu Jina, Zhiquan Hua, Shiming Liua,⁎, Bo Xiaoa,⁎, Zhihua Chenb,
+Mian Hua
+a School of Environmental Science & Engineering, Huazhong University of Science & Technology, Wuhan 430074, China
+b School of Environment, Henan Normal University, No. 46, Jianshe Road, Xinxiang 453007, Henan, China
+A R T I C L E I N F O
+Keywords:
+Chemical looping processes
+Copper oxide
+Olivine
+Carbon capture
+Oxygen carrier
+A B S T R A C T
+Chemical looping is a promising low-cost technology for CO2 capture with a low energy penalty. In this study,
+CuO supported on olivine (CuO/olivine) was investigated as an oxygen carrier (OC) in chemical looping com-
+bustion (CLC) and in chemical looping with oxygen uncoupling (CLOU). The reactivity and oxygen uncoupling
+behavior were evaluated by thermogravimetric analysis (TGA). CLC and CLOU experiments using pine sawdust
+(PS) as fuel were conducted in a ﬂuidized-bed reactor. The CLC cyclic performance and the oxygen release and
+uptake behaviors of CuO/olivine were explored. In CLC experiments, both carbon conversion (χc) and carbon
+capture eﬃciency (ηc) increased with increasing temperature and with increases in OC-to-fuel ratio (Φ); the
+maximum value of χc and ηc—96.81% and 95.54%, respectively—were achieved at 900 °C with Φ = 1.50. In
+CLC cyclic tests, the CuO/olivine displayed stable reactivity, and the values of χc and ηc were 94.64% and
+92.59% at the 20th cycle, respectively. In the CLOU tests, oxygen transport capacity (Ro) of 3.55% was obtained
+via TGA. Complete conversion of pine PS and ηc = 99.29% were also achieved at 950 °C in a ﬂuidized bed
+reactor. MgCu2O4 was found in the fresh CuO/olivine sample and it disappeared immediately during the ﬁrst
+redox cycle; most of CuO accumulated on the olivine surface and then gradually spread and covered the olivine
+upon additional cycles. After 20 CLC cycles. CuO content of the CuO/olivine OC decreased slightly from 38.81%
+to 35.22%; a crushing strength of 4.8 N was maintained, and no signiﬁcant agglomeration was observed. The
+CuO/olivine has an excellent cyclic performance and it can be used as a good OC candidate in chemical looping
+processes.
+1. Introduction
+Carbon capture and storage (CCS) technologies have received ex-
+tensive attention over the past few decades as a potential way to reduce
+CO2 emissions. CCS technologies are aimed at capturing CO2, trans-
+porting it and ﬁnally storing it away from the atmosphere. Three major
+CO2 capture technologies—oxy-fuel combustion, pre-combustion and
+post-combustion—involve high-energy-consuming and high-cost gas
+separation steps. Chemical looping combustion (CLC) is a novel tech-
+nology for CO2 capture in which CO2 separation is inherent. In CLC, fuel
+combustion occurs in the fuel reactor (FR) where oxygen is provided by
+an oxygen carrier (OC) instead of by air. The fuel and air are never
+mixed during this process, circumventing the need for gas separation
+steps. A high concentration of CO2 can be obtained by condensing the
+ﬂue gas. The reduced OC in the FR is transferred into the air reactor
+(AR) where it is oxidized to its initial state by air.
+Chemical looping technologies have been reviewed in detailed by
+Adanez et al. [1]. Most research eﬀorts concerning the chemical looping
+processes have been focused on gaseous fuels. Chemical looping with
+solid fuels, such as biomass [2,3], coal [4,5] and biomass char [6], has
+drawn increasing attention in recent years. Biomass is a promising
+neutral renewable energy resource for the reduction of CO2 emissions.
+Even negative CO2 emissions can be achieved in biomass CLC, because
+the CO2 is previously absorbed by photosynthesis. Compared with coal,
+biomass has low N and S contents, which reduce SO2 and NOx emis-
+sions.
+OCs are the cornerstone of any chemical looping processes. More
+than 1000 OCs have been reported. Cu-based OCs have been shown to
+be a promising OC candidate because high oxygen transport capacity
+(RO),
+high
+reactivity
+and
+favorable
+thermodynamic
+behavior.
+Additionally, gaseous oxygen can be released by CuO under suitable
+conditions,
+a
+process
+known
+as
+chemical
+looping
+with
+oxygen
+http://dx.doi.org/10.1016/j.cej.2017.07.175
+Received 29 May 2017; Received in revised form 28 July 2017; Accepted 29 July 2017
+⁎ Corresponding authors.
+E-mail addresses: shmliu@hust.edu.cn (S. Liu), xiaobo1958@hust.edu.cn (B. Xiao).
+Chemical Engineering Journal 330 (2017) 480–490
+Available online 31 July 2017
+1385-8947/ © 2017 Elsevier B.V. All rights reserved.
+MARK
+
+
+===== Page 2 =====
+
+uncoupling (CLOU). CLOU is particularly suitable for solid fuels com-
+bustion because of its high combustion rate and high capture eﬃciency.
+However, the reactivity, stability and mechanical properties of Cu-
+based carrier materials are substantially degraded in the chemical
+looping processes, because of the low melting point of Cu, which results
+in serious agglomeration. To enhance the performance of Cu-based OCs,
+various support materials(Al2O3 [7–10], ZrO2 [11–14], MgAl2O4
+[15–18], TiO2 [11,14,19], SiO2 [15,20], Yttria-stabilized zirconia (YSZ)
+[17], CuAl2O4 [21–23], diatomite [24], bentonite [25] or sepiolite
+[14,26]), have been tested. OCs used in CLOU process have been re-
+viewed in detail by Imtiza et al. [27].
+A naturally occurring iron-magnesium mineral, olivine, has been
+extensively used in biomass gasiﬁcation as a support or as a catalyst
+because of its low cost, high mechanical strength and high reactivity
+toward tar destruction [28–31]. The chemical looping capabilities of
+olivine has been reported and is attributed to the iron segregates out of
+the olivine matrix forming free iron oxide phases, which are capable of
+transferring oxygen to the reactor [32]. However, the literature con-
+tains relatively few studies devoted to the use of olivine as a bed ma-
+terial in chemical looping processes.
+In this study, CuO supported on calcined olivine (i.e. CuO/olivine)
+was evaluated as an OC in CLC and CLOU. The reactivity and oxygen
+uncoupling behavior of the CuO/olivine were investigated by thermo-
+gravimetric analysis (TGA). The CLC and CLOU experiments were
+conducted in a ﬂuidized-bed reactor using pine sawdust (PS) as fuel.
+The carbon conversion (χc), CO2 capture eﬃciency (ηc) and gas con-
+centration were measured. The cyclic performance of the CuO/olivine
+was further investigated. Finally, physical properties of the CuO/olivine
+carrier were characterized using various techniques.
+2. Experimental
+2.1. Biomass feedstock
+PS was used as the biomass feedstock and obtained from a wood
+factory in Bijie City, Guizhou Province, China. The PS sample was
+naturally dried, crushed, and passed through a 150 mesh sieve, re-
+sulting in a particle size of less than 104 μm. The ultimate analysis and
+proximate analysis and the ash oxides content were determined, results
+are shown in Table 1. Ultimate analysis gave the weight percent of
+carbon, hydrogen, nitrogen, and sulfur in the sample simultaneously.
+The weight percent of oxygen was determined by diﬀerence.
+2.2. Preparation of the CuO/olivine OC
+Raw olivine was collected from Yichang City, Hubei Province,
+China. The raw olivine was crushed and calcined at 1000 °C for 6 h
+under an air atmosphere, and then the resulting product was cooled,
+ground and sieved into particles with a size range of 100–250 μm to
+obtain the calcined olivine sample. The composition of the calcined
+olivine sample was determined by X-ray ﬂuorescence (XRF); results are
+listed in Table 4.
+It was veriﬁed that the formation of Cu was responsible for the
+agglomeration process of the Cu-based OCs in CLC process. The high
+content of CuO-based OC increases the risk of agglomeration in che-
+mical looping processes. The agglomeration can be avoided by using
+lower loading amount of CuO, while a low content of CuO will lead to a
+high solids circulation rate and a high solids inventory in the reactor.
+Additionally, the calcine olivine has a lower porosity in general. Higher
+loading amount of CuO may have contributed to the enrichment of
+copper on the surface of olivine, which further increase the risk of
+agglomeration. In this study, CuO/olivine OC with a mass fraction of
+40 wt% CuO was synthesized by the impregnation method. The pro-
+cedure of impregnation method was brieﬂy described below. First, Cu
+(NO3)2·3H2O and calcined olivine were accurately weighted with a
+mass ratio of Cu(NO3)2·3H2O/calcined olivine of 2.03. The Cu
+(NO3)2·3H2O (reagent grade) was put into a beaker, and then an
+amount of deionized water was added to make a nitrate aqueous so-
+lution. After that, the prepared aqueous solution was transferred to
+another beaker, where the calcined olivine powder was placed.
+Subsequently, the mixture was stirred slowly for 10 h at 80 °C. Next, the
+sample was dried at 105 °C for 48 h to remove water, and then calcined
+Table 1
+Properties of pine sawdust.
+Ultimate analysis (wt%)a
+C
+H
+N
+S
+Ob
+47.16 ± 0.47
+6.21 ± 0.18
+0.17 ± 0.14
+0.15 ± 0.07
+46.31 ± 0.19
+Proximate analysis(wt%)c
+Volatiles
+Fixed carbon
+Ash
+Moisture
+77.96 ± 1.29
+14.05 ± 2.01
+1.09 ± 0.27
+6.90 ± 0.53
+Oxide contents of ash (wt%)d
+MgO
+SiO2
+P2O5
+K2O
+CaO
+MnO
+Fe2O3
+ZnO
+1.59
+6.48
+3.90
+38.94
+22.67
+0.41
+0.84
+0.13
+a Analysed by using an elemental analyser (Vario Micro cube, Elementar).
+b by diﬀerence.
+c Measured according to ASTM: volatile matter contents, ASTM D 3175-89; ash content, ASTM D 3174-89; ﬁxed carbon content, ASTM D3172-13. Moisture content, ASTM D3173-11.
+d Measured using an X-ray ﬂuorescence (XRF) microprobe apparatus (EAGLE III, EDAX Inc.).
+Table 2
+Physical properties of the investigated oxygen carriers.
+Samples
+Surface
+area (m2/
+g)
+Pore
+volume
+(cm3/g)
+Average pore
+diameter
+(nm)
+Crushing
+strength (N)
+Calcined olivine
+0.89
+0.010
+21.31
+5.6
+CuO/olivne
+Fresh
+0.96
+0.013
+18.77
+5.5
+After10
+cycles
+1.26
+0.015
+16.98
+5.2
+After 20
+cycles
+1.47
+0.021
+15.53
+4.8
+Table 3
+Distribution of elements in the oxygen carriers.
+Spot
+Elements (wt%)
+Cu
+Mg
+Fe
+Si
+Ni
+Ca
+Al
+Cr
+1
+–
+37.22
+12.09
+44.12
+1.61
+1.73
+2.91
+0.32
+2
+–
+35.74
+12.19
+41.01
+1.49
+3.85
+5.10
+0.63
+3
+6.92
+48.91
+5.61
+34.89
+1.11
+1.02
+1.54
+–
+4
+52.88
+43.94
+1.81
+1.37
+–
+–
+–
+–
+5
+21.80
+33.89
+6.41
+29.82
+–
+–
+–
+–
+6
+88.68
+4.74
+6.26
+1.31
+–
+–
+–
+–
+7
+91.29
+4.64
+1.12
+2.95
+–
+–
+–
+–
+8
+92.36
+4.19
+1.25
+2.20
+–
+–
+–
+–
+– Not detected.
+X. Wang et al.
+Chemical Engineering Journal 330 (2017) 480–490
+481
+
+
+===== Page 3 =====
+
+at 1000 °C for 6 h in a muﬄe furnace under an air atmosphere. Finally,
+the CuO/olivine sample was cooled to room temperature, crushed and
+sieved into particles with a size range of 75–250 μm.
+2.3. TGA
+2.3.1. Reactivity with biomass in CLC
+The reaction reactivity of OC and biomass was investigated in a TGA
+(SDT Q600, TA Instruments). First, the PS was mixed thoroughly with
+the OC in a mortar at a mass ratio of 1:15. Second, approximately 15 mg
+sample was added to a ceramic crucible, heated from room temperature
+to 950 °C in a nitrogen environment and then maintained at this tem-
+perature for 20 min. The heating rate and the nitrogen ﬂow were 20 °C/
+min and 80 ml/min, respectively.
+2.3.2. Oxygen transport capacity in CLOU
+The RO of CuO/olivine was measured using TGA. In this test, CuO
+released all of gaseous oxygen and then it was completely reduced into
+Cu2O; the olivine was acting as an inert support. First, approximately of
+15 mg CuO/olivine was heated in air (80 ml/min, consisting of 20.8%
+O2 in N2) from ambient temperature to 950 °C at a heating rate of
+20 °C/min, and then maintained at this temperature for 15 min. The
+gaseous oxygen was released by the CuO/olivine in nitrogen (80 ml/
+min, 99.999% N2) for 60 min. Subsequently, nitrogen was switched into
+air (80 ml/min, consisting of 20.8% O2 in N2) for 15 min to oxidize the
+CuO/olivine. A total of 10 redox cycles were performed.
+2.4. Fluidized-bed tests
+The biomass CLC and CLOU experiments were performed in a la-
+boratory-scale ﬂuidized-bed reactor. The experimental setup of the
+ﬂuidized-bed reactor system is illustrated in Fig. 1; more details of this
+reactor system are available elsewhere [33].
+At the start of each experiment, the PS sample was loaded in the
+biomass feeder (PEF-90AL, Sanki Co. Ltd., Japan), and the feeding rate
+was determined by adjusting the vibrational frequency of the biomass
+feeder. The OC particles were placed on the porous distributor plate of
+ﬂuidized-bed reactor, heated from room temperature to the desired
+temperature with an air ﬂow rate of 600 ml/min. When the tempera-
+ture stabilized, nitrogen ﬂow (100 ml/min) was used to purge the
+biomass feeder from the top; this ﬂowing nitrogen could be used as a
+balance gas during the feeding process. Additional nitrogen ﬂow
+(600 ml/min) was supplied to the reactor from the bottom as a ﬂui-
+dizing gas. After 5 min, the PS was fed into the reactor and reacted with
+the OC. After the reaction, the nitrogen ﬂowing from the bottom of the
+ﬂuidized-bed reactor was switched into air (600 ml/min) to oxidize the
+reduced OC particles.
+The ﬂue gases passed through a cyclone separator, a condenser and
+an on-line gas analyzer (Gasboard-3100) in sequence. The ﬁne particles
+were collected; the condensable components of ﬂue gases were re-
+moved; and the gas concentrations (including CO, CO2, CH4, H2, CnHm
+(2 ≤n ≤3, m ≤8) and O2) were analyzed and recorded continuously
+during this process.
+2.5. Data analysis
+To investigate the eﬀects of the OC- to- fuel mass ratio on the χc and
+ηc in CLC, we calculated the OC- to- PS mass ratio, Φ, as
+=
+m
+w
+M
+m
+Φ
+0.5
+Ω
+CuO olivine
+CuO
+CuO
+PS
+PS
+/
+(1)
+where mPS(kg) and mCuO/olivine (kg) represent the mass of PS and the
+mass of CuO/olivine fed into the reactor during each test; wCuO is the
+mass fraction of CuO; MCuO is the molar mass of CuO; and ΩPS (mol O2/
+kg PS) is the stoichiometric mole of oxygen, as O2, required for com-
+plete combustion of 1 kg of PS. A value of Φ = 1.0 indicates that the
+oxygen provided by the OC fully converts the PS to CO2, H2O, NO2 and
+SO2 as the CuO is reduced to Cu. The chemical looping capabilities of
+olivine are ascribed to the presence of free iron phases in CLC [32].
+However, the chemical looping capabilities of olivine were not con-
+sidered in this study. On one hand, the content of free iron phases in
+CuO/olivine is very little; on the other hand, all of gaseous oxygen is
+derived from CuO rather than free iron oxides in CLOU process. The ΩPS
+was calculated using following equation:
+=
++
++
++
+−
+M
+w
+M
+w
+M
+w
+M
+w
+M
+Ω
+w
+4
+2
+PS
+C
+C
+H
+H
+N
+N
+S
+S
+O
+O
+(2)
+where wi represents mass fraction of element i (i = C, H, O, N and S) in
+the PS, as listed in Table 1, and Mi is the molar mass of element i (kg/
+mol).
+The outlet N2 molar ﬂow (FN2, mol/s) was constant, and the outlet
+gas ﬂow was calculated as
+=
+∑
+F
+F
+x
+1
+out
+N
+j
+j
+2
+(3)
+where xj denotes the molar fraction of the gas components (j= CO2, CO,
+CH4, H2, CnHm and O2) at any given point in time.
+The carbon conversion (χc,%) was deﬁned as the conversion degree
+of carbon in PS into carbonaceous gases in the fuel reactor; it was
+calculated as
+∫
+=
++
++
+×
+χ
+M
+F
+x
+x
+x
+w m
+(
+)
+100%
+c
+C
+t
+out
+CO
+CO
+CH
+C
+PS
+0
+2
+4
+(4)
+The CO2 capture eﬃciency (ηc, %) was used to evaluate the con-
+version degree of carbonaceous gases into CO2 in the fuel reactor; it was
+calculated as
+∫
+∫
+=
++
++
+×
+η
+F
+x
+F
+x
+x
+x
+(
+)
+100%
+c
+t
+out
+CO
+t
+out
+CO
+CH
+CO
+0
+2
+0
+4
+2
+(5)
+In CLOU process, the oxygen transport capacity, RO, was calculated
+in a TGA as
+=
+−
+Ro
+m
+m
+m
+ox
+red
+ox
+(6)
+where mox denotes the mass of fully oxidized particles and mred in the
+reduce form, i.e. when all CuO has been reduced to Cu2O.
+The theoretical weight fraction of CuO (wCuO-T) can be calculated as
+Table 4
+Oxide contents of the oxygen carriers.
+Oxides
+MgO
+SiO2
+CaO
+Fe2O3
+Cr2O3
+Ni2O3
+Al2O3
+CuO
+Calcined olivine
+40.18
+49.48
+1.82
+7.41
+0.46
+0.64
+–
+–
+CuO/olivine
+Fresh
+24.28
+31.45
+1.17
+4.7
+0.21
+–
+–
+38.18
+After 10 cycles
+28.25
+27.26
+0.98
+5.14
+0.33
+0.15
+1.28
+36.61
+After 20 cycles
+30.02
+25.43
+0.86
+5.55
+0.32
+0.12
+2.47
+35.22
+–Not detected.
+X. Wang et al.
+Chemical Engineering Journal 330 (2017) 480–490
+482
+
+
+===== Page 4 =====
+
+=
+×
+−
+w
+RoM
+M
+2
+100%
+CuO
+T
+CuO
+O
+(7)
+where MO is the molar mass of oxygen (O).
+2.6. Characterization of OCs
+The X-ray diﬀraction (XRD) patterns were obtained using an X’Pert
+PRO diﬀractometer (X’Pert PRO, PANalytical B.V.) equipped with a Cu
+Kα radiation source (40 kV and 40 mA). The samples were scanned at a
+scanning rate of 2°/min from 2θ = 10 ° to 80 °with a scanning step of
+0.02°. Surface area analysis was performed via the Brunauer Emmett
+Teller (BET) method using a Micrometrics ASAP 2010 system. The
+crushing strength of OCs was measured using a digital force gauge
+(SHIMPO, FGN-5), and the value was taken as the average value of 20
+particles with sizes ranging from 180 to 250 μm. The surface mor-
+phology
+and
+elemental
+distribution
+were
+investigated
+using
+environmental scanning electron microscopy (ESEM; FEI Quanta 200)
+in conjunction with an energy-dispersive X-ray (EDX) spectroscopy. The
+chemical composition of samples was measured using an X-ray ﬂuor-
+escence (XRF) microprobe apparatus (EAGLE III, EDAX Inc.) operating
+at 40 kV and 40 mA with an exposure time at 35 μs.
+3. Results and discussion
+3.1. CLC tests
+3.1.1. Reactivity of OC with biomass in TGA
+As shown in Fig. 2, the mass loss of an olivine sample without PS
+was small (1.31 wt%) after 65 min, indicating that a small fraction
+olivine was decomposed. For the CuO/olivine sample without PS, a
+ﬁnal mass loss of 4.25 wt% was observed. The characteristic tempera-
+ture (Tm) is deﬁned as the temperatures where the maximum rate of
+Fig. 1. Schematic layout of the laboratory ﬂuidized-bed reactor.
+X. Wang et al.
+Chemical Engineering Journal 330 (2017) 480–490
+483
+
+
+===== Page 5 =====
+
+weight loss occurs, as evidenced by the peaks in DTG proﬁle. The Tm,
+912.79 °C, was obtained for the calcined olivine without PS, which is
+ascribed to the characteristic oxygen uncoupling of CuO. Two peaks
+were observed at Tm = 373.32 °C and Tm = 818.12 °C for the PS/cal-
+cined olivine mixture. The former peak is mainly due to the devolati-
+lization of PS, whereas the latter peak is attributable to the decom-
+position of carbonaceous compounds in char residues. Three peaks at
+Tm = 368.30 °C, Tm = 746.46 °C and Tm = 921.76 °C were observed in
+the DTG proﬁle of the mixture of CuO/olivine and PS. The character-
+istic temperatures of ﬁrst two peaks were lower than that of PS/cal-
+cined olivine mixture, probably due to reactions of volatiles with CuO.
+However, when the PS was used in the CLOU process, it must be con-
+sidered that two diﬀerent reactions take place, namely the reaction of
+oxygen release from the OC and combustion of residual char. The
+oxygen release earlier than combustion of the residual char, thus, the
+Tm (921.76 °C) of CuO/olivine with PS was higher than that Tm
+(912.79 °C) of CuO/olivine without PS.
+To evaluate the eﬀect of CLC cyclic tests on the reactivity of the
+CuO/olivine, the CuO/olivine after 20 CLC redox cycles was analyzed.
+This mixture exhibited the highest mass-loss rate (2.103 wt%/min) at
+368.30 °C, which is likely attributable to the multiple redox cycles
+changing the distribution of CuO, thereby enhancing the reactions of
+volatiles with the CuO. After 20 cycles, the ﬁnal mass loss (89.15 wt%)
+of CuO/olivine and PS was slightly lower than that (89.85 wt%) of with
+fresh CuO/olivine and PS, this is attributed to a portion of the CuO was
+lost during the redox processes.
+3.1.2. ﬂuidized-bed tests
+Biomass CLC tests were conducted in a ﬂuidized-bed reactor be-
+tween 700 °C to 900 °C. In each run, PS powders (3.0 g) were fed at a
+rate of 0.20 g/min, and the reduction time was 25 min. Four OC-to-fuel
+ratios (Φ = 1.0, 1.10, 1.25 and 1.50) were used, corresponding to the
+CuO/olivine masses of 48.0 g, 53.0 g, 60.0 g and 72.0 g, respectively. A
+total 3 cycles was performed at each Φ by feeding additional PS pow-
+ders at the start of new cycle; the χc and ηc were taken as the average
+values.
+3.1.2.1. Carbon
+conversion,
+carbon
+capture
+eﬃciency
+and
+gas
+composition. As shown in Fig. 3(a) and (b), at the same Φ, both χc
+and ηc tended to increase with increasing temperature. In addition, both
+χc and ηc increased with increasing Φ at a given temperature. The
+minimum values of χc and ηc (80.43% and 78.41%, respectively) were
+observed at 700 °C with Φ = 1.00, whereas the maximum values
+(96.81% and 95.54%, respectively) were achieved at 900 °C with
+Φ = 1.50. These results indicated that higher reaction temperatures
+and greater masses of OCs are improve the χc and the ηc. On the one
+hand, high temperatures strength the reactivity of the OCs and
+improved the reactivity of gasiﬁcation (pyrolysis) reactions of PS, on
+the other hand, greater massed of OCs meant that more oxygen was
+provided.
+The slopes of the linear ﬁtted of χc and ηc decrease with increasing
+Φ, demonstrating that the eﬀects of temperature on χc and ηc decrease
+with increasing Φ. In other words, higher ηc and χc can be achieved by
+increasing the mass of OC at lower temperatures, whereas reaction
+temperature can be increased when a less OC is used. However, the
+more OC was used, the higher solids inventory was required in the
+reactor.
+Fig. 4 shows the gas composition in CLC tests at 700 °C, 800 °C and
+900 °C with Φ = 1.10. In the reduction process, the concentration of
+combustible gases (including H2, CO and CH4) at 700 °C was higher
+than that of at 800 °C and 900 °C. Although, the reaction reactivity of
+OC increased with increasing temperature, high temperatures enhances
+the reactions of gasiﬁcation/pyrolysis of PS, which resulted in the rapid
+release of volatiles. Thus, a portion of combustible gases did not react
+with CuO/olivine and escaped from the reactor. Even at 900 °C with
+Φ = 1.50,
+full
+conversion
+of
+PS
+and
+complete
+capture
+carbon
+(χc = 96.81% and ηc = 95.54%) were not achieved. In the oxidation
+process, the CO2 was detected over the entire investigated temperature
+range, because of the oxidation of unconverted char to CO2; The CO was
+observed at 700 °C, which is mainly attributable to a portion of char
+was oxidized into CO in the beginning of the oxidation process. No-
+tably, both CnHm and tar were not observed in the ﬂue gas even at the
+lowest value of Φ = 1.00. The CuO/olivine not only acted as an oxygen
+source for tar combustion, but also exhibited catalytic activity toward
+tar cracking, which is an advantageous in biomass chemical looping
+processes.
+3.1.2.2. Cyclic tests. To investigate the cyclic performance of the CuO/
+olivine, 20 CLC cycles were performed in the ﬂuidized-bed reactor
+using PS as fuel at 850 °C with Φ = 1.25, both χc and ηc were measured.
+As seen in Fig. 5, both χc and ηc slightly increased during the ﬁrst ﬁve
+cycles, reaching values of 95.08% and 92.84% at the 5th cycle,
+respectively; this behavior is likely due to few early cycles in the
+beginning
+signiﬁcantly
+aﬀecting
+the
+structure
+of
+CuO/olivine.
+Furthermore, both χc and ηc ﬂuctuated slightly and maintained at a
+relatively higher level; values of 94.64% and 92.59% were obtained at
+Fig. 2. The thermogravimetric (TG) and derivative thermogravimetric
+(DTG) curves of the oxygen carriers with and without pine sawdust
+(PS).
+X. Wang et al.
+Chemical Engineering Journal 330 (2017) 480–490
+484
+
+
+===== Page 6 =====
+
+the 20th cycle, respectively. We can conclude that the CuO/olivine
+exhibits excellent cyclic performance. In order to investigate the eﬀect
+of olivine on CuO, the CuO/olivine OCs derived from CLC cyclic tests
+with diﬀerent cyclic numbers were analyzed using various techniques,
+more details will be mentioned in Section 3.3.
+3.2. CLOU tests
+3.2.1. Oxygen transport capacity evaluated by TGA
+The ability of the OCs to maintain oxygen transport capacity over
+many oxidation/reduction cycles was evaluated in the TGA by cycling
+the gas between air and nitrogen; results for 10 cycles of the CuO/
+olivine carrier at 950 °C are shown in Fig. 6. The ﬁnal weight loss in-
+creased with increasing number of cycles during the ﬁrst four cycles in
+the reduction process, potentially due to the decomposition of olivine.
+The weight variation of CuO/olivine between the reduced and oxidized
+processes was nearly constant after the 4th cycle, conﬁrming that the
+CuO/olivine had a stable reactivity in the CLOU process. A Ro value of
+3.59% was obtained for the10th cycle, corresponding to a 35.67 wt%
+theoretical weight fraction of CuO. This CuO content was lower than
+that of fresh CuO/olivine (38.18 wt%, see Section 3.3.4) because the
+CuO was lost during the redox process. Pilar Gayán et al. [34] in-
+vestigated the Ro of ﬁve OCs which CuO was supported on Al2O3- and
+MgAl2O4-supportedCuO OCs synthesized using an incipient wet im-
+pregnation method, and the maximum value of Ro, 3.30%, was ob-
+served for Cu33γ-Al_850 at 1000 °C, which is lower than the RO of CuO/
+olivine at 950 °C. Additionally, RO values for two other CuO/olivine
+samples derived from the 10th and 20th cycles in CLC cyclic tests were
+further investigated. The RO of CuO/olivine after 10 and 20 CLC cycles
+were 3.44% and 3.37% (results not shown), respectively. These results
+indicated that the CLC tests only weakly aﬀected the oxygen uncoupling
+performance.
+3.2.2. Oxygen concentration proﬁle in a ﬂuidized-bed reactor
+To
+characterize
+the
+CuO/olivine
+oxygen
+release
+and
+uptake
+Fig. 3. Eﬀects of temperature on (a) carbon conversion (χc) and (b) carbon capture ef-
+ﬁciency (ηc).
+Fig. 4. Gas concentration proﬁles for the CLC process with Φ = 1.10: (a) 700 °C, (b)
+800 °C, and (c) 900 °C.
+X. Wang et al.
+Chemical Engineering Journal 330 (2017) 480–490
+485
+
+
+===== Page 7 =====
+
+behaviors at diﬀerent temperatures, the oxygen concentration proﬁle in
+a ﬂuidized-bed reactor was monitored. In each run, the CuO (60.0 g)
+was heated to the desired temperature in ﬂuidized-bed reactor in air.
+During the reduction process, nitrogen was used at a ﬂow rate of
+600 ml/min. The oxygen concentration was recorded using an on-line
+gas analyzer. When the oxygen concentration was lower than 0.5%,
+nitrogen was changed to air (600 ml/min) in the reactor to oxidize the
+CuO/olivine.
+Fig. 7 shows the multiple of oxygen concentrations during the re-
+duction and oxidation processes under diﬀerent temperatures. In the
+reduction process (see Fig. 6(a)), the oxygen concentration initially
+decreased sharply, and then decreased slowly with increasing time.
+After 840 s, the concentration was 0.73% at 900 °C, 1.22% at 925 °C,
+2.26% at 950 °C, and 3.03% at 975 °C. The oxygen concentration in the
+reactor was lower than the predicted by thermodynamic equilibrium
+[35], possibly because the oxygen release was limited by kinetic hin-
+drance instead of chemical equilibrium [36]. In the case of the oxida-
+tion process, there was no signiﬁcant diﬀerence in oxygen concentra-
+tion was observed between 900 °C and 925 °C, at which point the
+oxygen concentration increased quickly to its initial levels. As the re-
+action temperature was increased, the full oxidization of CuO/olivine
+required more time. The OC release oxygen more completely during
+reduction period at high temperatures. The conversion of the Cu2O into
+CuO is exothermic; therefore, higher temperatures do not favor the
+oxidation of Cu2O.
+3.2.3. CLOU ﬂuidized-bed tests with PS
+The CLOU ﬂuidized-bed tests with PS were conducted at 950 °C
+using 1.0 g of PS and 60.0 g of CuO/olivine in each experiment. The PS
+was fed into the reactor in a shorter period time. The gas concentrations
+are displayed in Fig. 8, the concentration of CO2 ﬁrst increased sub-
+stantially, and then decreased sharply. CO, CnHm and tar were not de-
+tected during the reduction process, although, a small peak of H2 and
+the trace amounts of CH4 resulting from devolatilization of PS [37]. An
+oxygen peak was detected after PS feeding during the reduction pro-
+cess, which we attributed to the exothermic reaction of PS with CuO.
+This reaction resulted in an increase in the reactor temperature, which
+promoted the release of oxygen. Similar results have been reported by
+Mattisson et al. [38] and Zhao et al. [39]. No gas other than oxygen was
+present during the oxidation process. Full conversion of PS and a very
+high carbon capture eﬃciency, ηc = 99.29%, were achieved in the fuel
+reactor. In this case, unburnt compounds were present barely in the fuel
+reactor outlet. Thus, the CLOU process should not require special
+measures such as an oxygen-polishing step.
+3.3. Characterization of the OCs
+In order to evaluate the eﬀect of olivine on CuO, the CuO/olivine
+samples derived from the CLC cyclic tests (see Section 3.1.2.2) were
+analyzed using various techniques. In this section, 5 oxygen carrier
+Fig. 5. Multiple redox cycles in the ﬂuidized-bed reactor at 850 °C and Φ = 1.25.
+Fig. 6. Multiple TGA redox cycles of fresh CuO/olivine at 950 °C.
+Fig. 7. Oxygen concentration proﬁles during (a) the reduction process and (b) the oxidation process.
+X. Wang et al.
+Chemical Engineering Journal 330 (2017) 480–490
+486
+
+
+===== Page 8 =====
+
+samples (i.e. the calcined olivine, fresh CuO/olivine, reduced CuO/
+olivine, CuO/olivine after 10 redox cycles and CuO/olivine after 20
+redox cycles) were selected.
+3.3.1. Speciﬁc surface area and crushing strength
+The speciﬁc surface area, pore volume, average pore diameter and
+crushing strength of the OCs were measured; results are listed in
+Table 2. The calcined olivine exhibited very small speciﬁc surface area
+(0.89 m2/g), pore volume (0.010 cm3/g) and average pore diameter
+(21.31 nm). Compared with the speciﬁc surface area and pore volume
+of calcined olivine, those of fresh CuO/olivine were greater, whereas
+the average pore diameter showed the opposite behavior. These results
+indicated that the loading of CuO be conducive to increase the surface
+area. After CLC tests, the speciﬁc surface area and pore volume of CuO/
+olivine increased with increasing number of cycles. After 20 redox cy-
+cles, the speciﬁc surface area, pore volume and average pore diameter
+were 1.47 m2/g, 0.021 cm3/g and 15.53 nm, respectively. More pores
+were produced in the interior of olivine particles during the redox cy-
+cles. An increase in surface area is conducive to the reaction of PS with
+OC particles.
+OCs with a crushing strength less than 1.0 N are unsuitable for use
+in large-scale chemical looping applications[40]. The calcine olivine
+has a very high crushing strength, 5.6 N. When CuO was supported on
+the calcined olivine, the crushing strength, 5.5 N, was obtained for the
+fresh CuO/olivine carrier. Although, the crushing strength of the CuO/
+olivine decreased slightly with increasing number of cycle, a higher
+value of 4.8 N was maintained after 20 cycles. In general, the CuO/
+olivine has an excellent crushing strength for the chemical looping
+processes.
+3.3.2. XRD analysis
+As shown in Fig. 9, XRD patterns of fresh CuO/olivine revealed that
+it major components were CuO, Mg1.826Fe0.159Ni0.015SiO4, MgCu2O3
+and MgSiO3. The presence of MgCu2O3 indicates that the active com-
+ponent (CuO) reacted with olivine. Interaction between CuO and oli-
+vine did not want to be seen in CLC because because this may result in a
+decrease in the Ro of CuO/olivine. In the reduced samples, CuO, Cu,
+and Cu2O were detected. CuO peaks of were detected because excess
+CuO (Φ = 1.25) was used. MgSiO3, Mg1.826Fe0.159Ni0.015SiO4, and
+MgCu2O3 remained in reduced samples. The presence of MgO is mainly
+attributable to the decomposition of olivine.
+Notably, MgCu2O3 was not observed in the regenerated OC sample.
+The MgCu2O3 may be decomposed into MgO and CuO. The result
+therefore conﬁrmed that the presence of MgCu2O3 in the fresh CuO/
+olivine sample was insigniﬁcant. Although iron has been reported to be
+gradually extracted from the olivine bulk to the olivine surface, peaks
+Fig. 8. Gas concentration proﬁles for the pine sawdust CLOU process
+at 950 °C.
+Fig. 9. XRD patterns of OCs: (a) fresh CuO/olivine, (b) reduced CuO/olivine, (c) oxidized
+CuO/olivine and, (d) CuO/olivine after 20 CLC redox cycles.
+X. Wang et al.
+Chemical Engineering Journal 330 (2017) 480–490
+487
+
+
+===== Page 9 =====
+
+attributable to iron oxides were not observed in the XRD patterns of
+either the reduced or oxidized samples. This could be explained by the
+iron oxide content in CuO/olivine was below instrument’s detection
+limit. Compared to the crystalline structure of CuO/olivine after the
+ﬁrst cycle, that of the crystalline structure of CuO/olivine after 20 redox
+cycles were not substantially diﬀerent, further indicating the CuO/oli-
+vine has an excellent cyclic performance.
+3.3.3. ESEM and EDX analyses
+ESEM was used to evaluate the surface morphology of the OC par-
+ticles. As shown in Fig. 10, t surface morphology of the calcined olivine
+diﬀered substantially from that of the fresh CuO/olivine. Surface of the
+calcined
+olivine
+was
+compact,
+smooth
+and
+less
+porous
+(see
+Fig.10(A) and (a)), whereas the surface of the fresh CuO/olivine was
+rough and the CuO was not well-distributed (see Fig. 10(B) and (b)). A
+small portion of CuO particles coated onto the surface of the calcined
+olivine, whereas most of CuO particles clumped together. After 10 CLC
+cycles, CuO grains with diﬀerent diameter are covered on the surface of
+olivine (Fig. 10(C) and (c)). Accumulation of CuO grains disappeared
+gradually with increasing cycle numbers. After 20 redox cycles, the CuO
+grains size was uniform, moderate and well-distributed on the surface
+of olivine (see Fig. 10(D) and (d)). Some pore presented between dif-
+ferent CuO grains, which resulted in an increase of the surface area. It is
+not evident that the sintering occurred during the redox process.
+The EDX analysis results for the surface of OCs are summarized in
+Table 3. The diﬀerence in composition between spot 1 and spot 2 was
+not signiﬁcant for the calcined olivine sample. In addition to the pre-
+sence of Si, Mg and Fe, the calcined olivine contained trace amounts of
+Fig. 10. SEM images of OCs: (A, a) calcined olivine, (B, b)
+fresh CuO/olivine, (C, c) CuO/olivine after 10 redox cycles
+and (D, d) CuO/olivine after 20 redox cycles.
+X. Wang et al.
+Chemical Engineering Journal 330 (2017) 480–490
+488
+
+
+===== Page 10 =====
+
+Ni, Ca and Ce, which are beneﬁcial for the biomass pyrolysis/gasiﬁ-
+cation. When CuO was supported on the olivine, the concentrations of
+the other elements were lower than their corresponding concentrations
+in the calcined olivine sample. The Cu content of Spot 4(52.88 wt%) is
+substantially greater than that of spot 3 (6.92 wt%). After 10 redox
+cycles, the diﬀerence in distributions of element still remained sig-
+niﬁcant: the Cu contents of spot 5 and spot 6 were 21.80 wt% and
+88.68 wt%, respectively. These results indicated that the distribution of
+Cu was not uniform. However, the Cu contents was very high of spot 7
+(91.29 wt%) and spot 8 (92.36 wt%) after 20 CLC cycles. These results
+indicated that the CuO gradually coated surface of the olivine particles
+during the alternate redox reaction process.
+3.3.4. XRF analyses
+The elemental contents of the OCs were determined by XRF; the
+oxide contents are listed in Table 4. CuO content of fresh CuO/olivine,
+38.18 wt%, was slightly lower than the theoretical value of 40.00 wt%,
+and CuO content decreased to 35.22 wt% after 20 redox cycles. A small
+portion of CuO was lost during the OC preparation process and the
+redox cycles process. The loss of CuO is unfavorable for the chemical
+looping processes because it may cause a decrease in oxygen transport
+capacity. Compared with fresh CuO/olivine, the CuO/olivine after 20
+redox cycles exhibited slight increases in the Fe2O3, Cr2O3, NiO and
+Al2O3 contents; these increases are attributable to Fe, Cr, Ni and Al
+were being transferred to the surface during the redox cycles [32]. This
+transfer is conducive to the chemical looping process because some of
+these species can act as OCs and catalysts. It also may explain why both
+χc and ηc values were maintained higher level after 20 redox cycles even
+a fraction of CuO was lost in CLC process.
+The contributions of the active components in olivine are not dis-
+cussed in the study because low content of them; further studies will be
+needed to explore the function of olivine in chemical looping processes.
+In addition, the eﬀects of ash on the reactivity of CuO/olivine were
+insigniﬁcant, possibly because of the low content (1.09 wt%) of ash in
+PS. Role of ash in CuO/olivine chemical looping processes should be
+further explored in future studies.
+4. Conclusions
+The CuO supported on calcined olivine was investigated as an OC
+using TGA and a ﬂuidized-bed reactor in CLC and CLOU. The oxygen
+uncoupling properties, mechanical properties, and reactivity of the
+CuO/olivine were evaluated. The following conclusions were drawn:
+In the CLC with PS, both χc and ηc increase with the increasing
+temperature and OC-to-fuel ratio (Φ). The maximum values for χc and
+ηc, 96.81% and 95.54%, respectively, were achieved at 900 °C with
+Φ = 1.50. In the CLC cyclic tests, both χc and ηc increased gradually
+during the ﬁrst ﬁve cycles and then stabilized. Values of 94.64%% and
+92.59%, respectively, were recorded in the 20th cycle.
+In CLOU tests, Ro of CuO/olivine, 3.55 wt% was obtained after 10
+redox cycles in TGA. The oxygen concentrations in the reactor were less
+than those predicted based on thermodynamic equilibrium. Complete
+conversion of PS and a high carbon capture eﬃciency (99.29%) were
+achieved at 950 °C in the ﬂuidized-bed reactor.
+MgCu2O4 was detected in the fresh and reduced CuO/olivine sam-
+ples, however, it is disappeared immediately during the ﬁrst redox
+cycle, indicated that the interaction between olivine and CuO is insig-
+niﬁcant. SEM image indicated that the majority of CuO accumulated on
+the olivine surface at the beginning, and then gradually spread out and
+covered the olivine particles as the number of cycles increased. A slight
+increase in speciﬁc surface area of the CuO/olivine was observed be-
+cause of an increase in the number of pores among CuO grains. The XRF
+analysis results conﬁrmed that a small quantity of CuO was lost in the
+cyclic tests. After 20 CLC cycles, a crushing strength of 4.8 N was ob-
+tained, and no signiﬁcant agglomeration was observed for CuO/olivine.
+The results indicated that CuO/olivine as an oxygen carrier in chemical
+looping processes is feasible.
+Acknowledgments
+The research received ﬁnancial support by the National Natural
+Science Foundation of China (No. 21676112), National Science and
+Technology Support Program (No. 2015BA0800805) and Science and
+Technology
+Application
+Program
+of
+Shenzhen
+(No.
+KJYY20150731141145480). Meanwhile, the authors would also ac-
+knowledge the Analytical and Testing Center of Huazhong University of
+Science & Technology(HUST) for the analyses of samples.
+References
+[1] J. Adanez, A. Abad, F. Garcia-Labiano, P. Gayan, L.F. de Diego, Progress in che-
+mical-looping combustion and reforming technologies, Prog. Energy Combust. 38
+(2012) 215–282.
+[2] H. Ge, W. Guo, L. Shen, T. Song, J. Xiao, Experimental investigation on biomass
+gasiﬁcation using chemical looping in a batch reactor and a continuous dual re-
+actor, Chem. Eng. J. 286 (2016) 689–700.
+[3] H. Ge, W. Guo, L. Shen, T. Song, J. Xiao, Biomass gasiﬁcation using chemical
+looping in a 25kWth reactor with natural hematite as oxygen carrier, Chem. Eng. J.
+286 (2016) 174–183.
+[4] A. Abad, Obras-Loscertales M de Las, F. García-Labiano, L.F. de Diego, P. Gayán,
+J. Adánez, In situ gasiﬁcation chemical-looping combustion of coal using limestone
+as oxygen carrier precursor and sulphur sorbent, Chem. Eng. J. 310 (2017)
+226–239.
+[5] S. Rajendran, M. Wong, D. Stokie, S. Bhattacharya, Performance of a Victorian
+brown coal and iron ore during chemical looping combustion in a 10 kW th alter-
+nating ﬂuidized bed, Fuel 183 (2016) 245–252.
+[6] Z. Huang, Y. Zhang, J. Fu, L. Yu, M. Chen, S. Liu, et al., Chemical looping gasiﬁ-
+cation of biomass char using iron ore as an oxygen carrier, Int. J. Hydrogen Energy
+41 (2016) 17871–17883.
+[7] S.Y. Chuang, J.S. Dennis, A.N. Hayhurst, S.A. Scott, Development and performance
+of Cu-based oxygen carriers for chemical-looping combustion, Combust. Flame 154
+(2008) 109–121.
+[8] S. Noorman, F. Gallucci, Annaland M van Sint, H.J. Kuipers, Experimental in-
+vestigation of a CuO/Al2O3 oxygen carrier for chemical-looping combustion, Ind.
+Eng. Chem. Res. 49 (2010) 9720–9728.
+[9] C.R. Forero, P. Gayán, F. García-Labiano, L.F. De Diego, A. Abad, J. Adánez, High
+temperature behaviour of a CuO/γAl2O3 oxygen carrier for chemical-looping
+combustion, Int. J Greenhouse Gas Control 5 (2011) 659–667.
+[10] S.Y. Chuang, J.S. Dennis, A.N. Hayhurst, S.A. Scott, Kinetics of the oxidation of a
+Co-precipitated mixture of Cu and Al2O3 by O2 for chemical-looping combustion,
+Energy Fuel 24 (2010) 3917–3927.
+[11] S. Wang, M. Luo, G. Wang, L. Wang, M. Lv, Analysis of reactivity of a CuO-based
+oxygen carrier for chemical looping combustion of coal, Energy Fuel 26 (2012)
+3275–3283.
+[12] T. Mattisson, H. Leion, A. Lyngfelt, Chemical-looping with oxygen uncoupling using
+CuO/ZrO2 with petroleum coke, Fuel 88 (2009) 683–690.
+[13] M. Arjmand, H. Leion, T. Mattisson, A. Lyngfelt, ZrO2-supported CuO oxygen car-
+riers for chemical-looping with oxygen uncoupling (CLOU), Energy Procedia 37
+(2013) 550–559.
+[14] J. Adánez, L.F. de Diego, F. García-Labiano, P. Gayán, A. Abad, J.M. Palacios,
+Selection of oxygen carriers for chemical-looping combustion, Energy Fuel 18
+(2004) 371–377.
+[15] Q. Zafar, T. Mattisson, B. Gevert, Redox investigation of some oxides of transition-
+state metals Ni, Cu, Fe, and Mn supported on SiO2 and MgAl2O4, Energy Fuel 20
+(2006) 34–44.
+[16] M. Arjmand, M. Keller, H. Leion, T. Mattisson, A. Lyngfelt, Oxygen release and
+oxidation rates of MgAl2O4-supported CuO oxygen carrier for chemical-looping
+combustion with oxygen uncoupling (CLOU), Energy Fuel 26 (2012) 6528–6539.
+[17] M. Rydén, D. Jing, M. Källén, H. Leion, A. Lyngfelt, T. Mattisson, CuO-based
+oxygen-carrier particles for chemical-looping with oxygen uncoupling–experiments
+in batch reactor and in continuous operation, Ind. Eng. Chem. Res. 53 (2014)
+6255–6267.
+[18] I. Adánez-Rubio, P. Gayan, A. Abad, F. García-Labiano, L.F. de Diego, J. Adanez,
+Kinetic analysis of a Cu-based oxygen carrier: relevance of temperature and oxygen
+partial pressure on reduction and oxidation reactions rates in chemical looping with
+oxygen uncoupling (CLOU), Chem. Eng. J. 256 (2014) 69–84.
+[19] B.M. Corbella, L. De Diego, F. García, J. Adánez, J.M. Palacios, The performance in
+a ﬁxed bed reactor of copper-based oxides on titania as oxygen carriers for chemical
+looping combustion of methane, Energy Fuel 19 (2005) 433–441.
+[20] H. Song, K. Shah, E. Doroodchi, B. Moghtaderi, Development of a Cu–Mg-based
+oxygen carrier with SiO2 as a support for chemical looping air separation, Energy
+Fuel 28 (2013) 163–172.
+[21] D. Mei, H. Zhao, Z. Ma, C. Zheng, Using the sol–gel-derived CuO/CuAl2O4 oxygen
+carrier in chemical looping with oxygen uncoupling for three typical coals, Energy
+Fuel 27 (2013) 2723–2731.
+[22] P. Cho, T. Mattisson, A. Lyngfelt, Comparison of iron-, nickel-, copper- and man-
+ganese-based oxygen carriers for chemical-looping combustion, Fuel 83 (2004)
+X. Wang et al.
+Chemical Engineering Journal 330 (2017) 480–490
+489
+
+
+===== Page 11 =====
+
+1215–1225.
+[23] H. Zhao, L. Guo, X. Zou, Chemical-looping auto-thermal reforming of biomass using
+Cu-based oxygen carrier, Appl. Energy 157 (2015) 408–415.
+[24] N. van Garderen, F.J. Clemens, T. Graule, Development of copper impregnated
+porous granulates for chemical-looping combustion, Fuel 119 (2014) 323–327.
+[25] E.R. Monazam, R. Siriwardane, R.W. Breault, H. Tian, L.J. Shadle, G. Richards,
+et al., Kinetics of the reduction of CuO/bentonite by methane (CH4) during che-
+mical looping combustion, Energy Fuel 26 (2012) 2779–2785.
+[26] L.F. De Diego, F. Garcı́a-Labiano, J. Adánez, P. Gayán, A. Abad, B.M. Corbella, et al.,
+Development of Cu-based oxygen carriers for chemical-looping combustion, Fuel 83
+(2004) 1749–1757.
+[27] Q. Imtiaz, D. Hosseini, C.R. Müller, Review of oxygen carriers for chemical looping
+with oxygen uncoupling (CLOU): thermodynamics, material development, and
+synthesis, Energy Technol. 1 (2013) 633–647.
+[28] J. Marinkovic, H. Thunman, P. Knutsson, M. Seemann, Characteristics of olivine as
+a bed material in an indirect biomass gasiﬁer, Chem. Eng. J. 279 (2015) 555–566.
+[29] D. Świerczyński, C. Courson, L. Bedel, A. Kiennemann, J. Guille, Characterization of
+Ni−Fe/MgO/olivine catalyst for ﬂuidized bed steam gasiﬁcation of biomass, Chem.
+Mater. 18 (2006) 4025–4032.
+[30] X. Yang, S. Xu, H. Xu, X. Liu, C. Liu, Nickel supported on modiﬁed olivine catalysts
+for steam reforming of biomass gasiﬁcation tar, Catal. Commun. 11 (2010)
+383–386.
+[31] Z. Zhao, N. Lakshminarayanan, S.L. Swartz, G.B. Arkenberg, L.G. Felix,
+R.B. Slimane, et al., Characterization of olivine-supported nickel silicate as potential
+catalysts for tar removal from biomass gasiﬁcation, Appl. Catal. A: Gen. 489 (2015)
+42–50.
+[32] R.J. Lancee, A.I. Dugulan, P.C. Thüne, H.J. Veringa, J.W. Niemantsverdriet,
+H.O.A. Fredriksson, Chemical looping capabilities of olivine, used as a catalyst in
+indirect biomass gasiﬁcation, Appl. Catal. B: Environ. 145 (2014) 216–222.
+[33] X. Wang, Z. Chen, M. Hu, Y. Tian, X. Jin, S. Ma, et al., Chemical looping combustion
+of biomass using metal ferrites as oxygen carriers, Chem. Eng. J. 312 (2017)
+252–262.
+[34] P. Gayán, I. Adánez-Rubio, A. Abad, L.F. de Diego, F. García-Labiano, J. Adánez,
+Development of Cu-based oxygen carriers for chemical-looping with oxygen un-
+coupling (CLOU) process, Fuel 96 (2012) 226–238.
+[35] Q. Imtiaz, M. Broda, C.R. Müller, Structure–property relationship of co-precipitated
+Cu-rich, Al2O3- or MgAl2O4-stabilized oxygen carriers for chemical looping with
+oxygen uncoupling (CLOU), Appl. Energy 119 (2014) 557–565.
+[36] V. Frick, M. Rydén, H. Leion, T. Mattisson, A. Lyngfelt, Screening of supported and
+unsupported Mn-Si oxygen carriers for CLOU (chemical-looping with oxygen un-
+coupling), Energy 93 (2015) 544–554.
+[37] H. Leion, T. Mattisson, A. Lyngfelt, Using chemical-looping with oxygen uncoupling
+(CLOU) for combustion of six diﬀerent solid fuels, Energy Procedia 1 (2009)
+447–453.
+[38] T. Mattisson, A. Lyngfelt, H. Leion, Chemical-looping with oxygen uncoupling for
+combustion of solid fuels, Int. J. Greenhouse Gas Control 3 (2009) 11–19.
+[39] H. Zhao, K. Wang, Y. Fang, J. Ma, D. Mei, C. Zheng, Characterization of natural
+copper ore as oxygen carrier in chemical-looping with oxygen uncoupling of an-
+thracite, Int. J. Greenhouse Gas Control 22 (2014) 154–164.
+[40] M. Johansson, T. Mattisson, A. Lyngfelt, Investigation of Fe2O3 with MgAl2O4 for
+chemical-looping combustion, Ind. Eng. Chem. Res. 43 (2004) 6978–6987.
+X. Wang et al.
+Chemical Engineering Journal 330 (2017) 480–490
+490

@@ -1,0 +1,852 @@
+
+
+===== Page 1 =====
+
+Thermochemical CO2 splitting reaction with supported
+LaxA1xFeyB1yO3 (A = Sr, Ce, B = Co, Mn; 0 6 x, y 6 1)
+perovskite oxides
+Qingqing Jiang a,b, Jinhui Tong a,b, Guilin Zhou a,b, Zongxuan Jiang a, Zhen Li a,b, Can Li a,⇑
+a State Key Laboratory of Catalysis, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian National Laboratory for Clean Energy,
+Dalian 116023, China
+b Graduate University of Chinese Academy of Sciences, Beijing 100049, China
+Received 13 December 2013; received in revised form 19 February 2014; accepted 21 February 2014
+Available online 15 March 2014
+Communicated by: Associate Editor Michael Epstein
+Abstract
+An eﬃcient redox material for two-step thermochemical CO2 splitting reaction requires high chemical yield at relatively low reduction
+temperature. Herein, the oxides with perovskite structure of formula LaxA1xFeyB1yO3 (A = Sr, Ce, B = Co, Mn; 0 6 x, y 6 1) start to
+release O2 at 800 C and the largest O2 production is 11.8 ml/gperovskite at 1300 C. However, for these unsupported LaxA1xFeyB1yO3
+materials, the CO production is low in spite of high reduction yield. ZrO2, Al2O3 and SiO2 are thus considered as supports to disperse
+LaxA1xFeyB1yO3 materials and diﬀerent supports induce great diﬀerences in the reaction activity. By A-site or B-site substitution of
+LaFeO3, the O2 releasing temperature has fallen from 1230 C to 800-950 C and the CO production is enhanced 2–3 times. LaFe0.7Co0.3-
+O3 (25 wt%)/SiO2 shows the highest reaction activity among these investigated materials with the O2 production of 4.0 ml/gmaterial
+(16.0 ml/gperovskite) and CO production of 7.6 ml/gmaterial (30.4 ml/gperovskite) when it is reduced at 1300 C and re-oxidized at 1100 C,
+and the activity is relatively stable even after 10 cycles of the reaction. By contrast, the CO production is 4.5 ml/g for CeO2 when it
+is reduced at 1400 C. The estimated activation energy for the reduction step of LaFe0.7Co0.3O3 (25 wt%)/SiO2 is around 89–149 KJ/
+mol according to diﬀerent models. The CO generation step of LaFe0.7Co0.3O3 (25 wt%)/SiO2 is mainly controlled by bulk diﬀusion
+(D1) at 1000 C and then it turns to ﬁrst order surface reaction (F1) at 1100 C.
+ 2014 Elsevier Ltd. All rights reserved.
+Keywords: Solar energy; CO2 reduction; Perovskite oxide; Kinetics
+1. Introduction
+Eﬃcient utilization of solar energy is an important sub-
+ject. The conversion of concentrated solar energy into
+chemical fuels via two-step thermochemical H2O and CO2
+splitting reaction which uses the entire solar spectrum is
+an attractive option for solar energy utilization (Chueh
+et al., 2010; Steinfeld, 2005; Furler et al., 2012; Muhich
+et al., 2013; Jiang et al., 2014). The two-step thermochem-
+ical splitting reaction with metal oxide as redox material
+can be represented as follows:
+MOox þ solar thermal energy ¼ MOred þ O2
+ð1:1Þ
+MOred þ H2O=CO2 ¼ MOox þ H2=CO
+ð1:2Þ
+Total reaction:
+http://dx.doi.org/10.1016/j.solener.2014.02.033
+0038-092X/ 2014 Elsevier Ltd. All rights reserved.
+⇑Corresponding author. Tel.: +86 411 84379070; fax: +86 411
+84694447.
+E-mail address: canli@dicp.ac.cn (C. Li).
+www.elsevier.com/locate/solener
+Available online at www.sciencedirect.com
+ScienceDirect
+Solar Energy 103 (2014) 425–437
+
+
+===== Page 2 =====
+
+H2O=CO2 þ solar energy ¼ H2=CO þ O2
+ð1:3Þ
+Various metal oxides have been investigated in the two
+step thermochemical splitting
+reaction,
+among
+which
+Fe3O4, ZnO and CeO2 are the most popular redox materi-
+als. In order to obtain high chemical yield at relatively low
+reduction temperature, the addition of dopants into Fe3O4
+and CeO2 were extensively studied with a certain degree of
+success (Gal et al., 2011; Gal and Abanades, 2012; Meng
+et al., 2011; Scheﬀe and Steinfeld, 2012; Fresno et al.,
+2009; Kodama et al., 2008). However, the reduction to
+nonstoichiometric MOred below 1400 C shows limited
+chemical yield for most of these investigated redox oxides.
+The perovskite oxides, ABO3, have been applied in the
+ﬁelds of catalysis, solid oxide fuel cells, and oxygen perme-
+able membranes due to their unique structural features
+(Merino et al., 2006; Wang et al., 2004; Yang et al., 2003;
+He et al., 2011; Lu et al., 2012). Their basic structural
+framework keeps unchanged with wide variety of constitu-
+ent elements and composition, therefore the valence of cat-
+ions and the oxygen vacancy concentration can be changed
+widely (Tanaka and Misono, 2001). Furthermore, the ther-
+mal stability of perovskite oxides is better than their corre-
+sponding transition metal oxides.
+La1xSrxMO3 (M = Mn, Fe) have been investigated for
+the two-step thermochemical steam reforming of methane
+(Evdou et al., 2008a,b). It is desired to investigate the
+two step thermochemical H2O and CO2 splitting reaction
+with perovskite oxides because it is a more attractive way
+for energy utilization from a long term perspective. The
+latest results from McDaniel et al. (2013) showed that
+Sr- and Mn-doped LaAlO3d exhibited excellent reaction
+performance in two step thermochemical CO2 and H2O
+splitting reaction. The H2 yields were 9  greater, and the
+CO yields 6  greater, than those produced by ceria, when
+it was reduced at 1350 C and re-oxidized at 1000 C.
+In the present work, the perovskite oxides of formula
+LaxA1xFeyB1yO3 (A = Sr, Ce, B = Co, Mn; 0 6 x,
+y 6 1) based on Fe3+/Fe2+ cycle were utilized in two-step
+thermochemical CO2 splitting reaction. It is found that
+unsupported LaxA1xFeyB1yO3 materials present negligi-
+ble CO production in spite of high reduction yield. What
+seems surprising is that mixing SiO2 with the perovskite
+oxides
+apparent
+enhances
+the
+redox
+activity.
+These
+A- and B-site substituted LaFeO3 show an enhanced reduc-
+ibility at low temperature and in some cases, the CO gener-
+ation activity is also largely increased. The CO production
+Fig. 1. (a) The O2 evolution rate-time proﬁles from 800 C to 1300 C and (b) the CO generation rate-time proﬁles at 1000 C of LaFexB1xO3 (B = Mn
+and Co; x = 1.0, 0.7 and 0).
+426
+Q. Jiang et al. / Solar Energy 103 (2014) 425–437
+
+
+===== Page 3 =====
+
+for
+LaFe0.7Co0.3O3
+(25 wt%)/SiO2
+is
+7.6 ml/gmaterial
+(30.4 ml/gperovskite) when it is reduced at 1300 C and re-
+oxidized at 1100 C. By contrast, the CO production is
+4.5 ml/g for CeO2 when it is reduced at 1400 C. Cycle per-
+formance shows that the redox activity is stable even after
+10 cycles of high temperature reaction. The calculated acti-
+vation energies of the reduction step and the main limita-
+tion of the CO generation reaction was given by kinetic
+analysis.
+2. Experimental section
+2.1. Synthesis method
+The citrate method was employed to produce nanopar-
+ticles of these LaxA1xFeyB1yO3 (A = Sr, Ce; B = Mn,
+Co, Ni) perovskite oxides (Merino et al., 2006). Aqueous
+solutions of starting nitrates were mixed with an aqueous
+solution of citric acid. The molar ratio between the total
+amount of nitrates and citric acid was 1:2. The resulting
+solution was evaporated at 80 C and then completely
+dried overnight at 120 C. The spongy material thus
+obtained was crushed and calcined at 700 C for 4 h. The
+perovskite oxides were supported on commercial supports
+(SiO2, ZrO2 and Al2O3) before reaction testing. The perov-
+skite oxides were well-mixed with supports in which the
+weight ratio was 1:3. The perovskite oxides and commer-
+cial supports were mechanically mixed in a mortar for half
+an hour. After that, the mixture was heated at 900 C in a
+muﬄe burner for 10 h.
+2.2. Characterization of samples
+The synthesized samples were characterized by X-ray
+powder diﬀraction (XRD) on a Rigaku D/Max-2500/PC
+powder diﬀractometer. Each sample powder was scanned
+using Cu Ka radiation with an operating voltage of
+40 kV and an operating current of 200 mA. The scan rate
+of 5 min1 was applied to record the XRD patterns in
+the range of 20–80 at a step size of 0.02. The speciﬁc sur-
+face areas of the samples were taken with a Micromeritics
+ASAP 2000 adsorption analyzer.
+2.3. Reaction activity testing
+The two-step thermochemical splitting reaction was car-
+ried out at a laboratory scale in a ﬁxed bed conﬁguration.
+The vertical alumina tubular reactor was placed inside an
+electric furnace. The argon ﬂow (purity 99.9996%) ﬁrstly
+passed through a deoxidation tube to get rid of the residual
+Fig. 2. SEM images of (a) LaFeO3, (b) LaFeO3 after high temperature treatment and (c) LaFe0.7Co0.3O3 (25 wt%)/SiO2 after 10 cycles.
+Q. Jiang et al. / Solar Energy 103 (2014) 425–437
+427
+
+
+===== Page 4 =====
+
+O2 before it passed into the reactor. The O2 concentration
+in the experimental system was about 20 ppm.
+The reduction reaction was performed with an argon
+ﬂow rate of 100 ml/min. For unsupported LaxA1xFeyB1yO3
+(A = Sr, Ce; B = Mn, Co) samples, 0.5 g of the materials
+were heated to 800 C with a 20 C/min heating rate and
+then to 1300 C with a 10 C/min heating rate. To investi-
+gate the eﬀect of diﬀerent supports on the reaction activity,
+0.4 g of the mixed materials were heated to 800 C with a
+20 C/min heating rate and then to 1300 C with a
+10 C/min heating rate. To investigate the eﬀect of A-site
+or B-site substitution on the reaction activity, 0.4 g of the
+mixed materials were heated to 1200 C with a 20 C/min
+heating rate and then to 1300 C with a 5 C/min heating
+rate. The temperature plateau at 1300 C was maintained
+for a while until O2 releasing reaction completed. The pro-
+duced gas mixture was analyzed with a gas chromatograph
+(Aligent 6890) equipped with a 5A molecular sieve column
+and a TCD detector, which took gas sample at the reactor
+outlet every ca. 2 min.
+The reduced state of the oxide was maintained under the
+protection of Ar with a ﬂow rate of 500 ml/min before CO2
+was exposed to the reactor. After the electric furnace was
+fell to the certain temperature (900–1100 C), and then
+CO2 (purity 99.999%) with a ﬂow rate of 500 ml/min was
+injected to react with the oxygen-deﬁcient materials. The
+CO gas product was analyzed by a gas chromatograph
+(Aligent 6890) equipped with a GDX-01 column and a
+FID detector, which took gas sample at the reactor outlet
+every ca. 1 or 2 min. Numerical integration of the molar
+ﬂow rate-time curves gave the production of O2 and CO.
+In this study, the results were expressed in terms of O2
+and CO production (ml) per gram of active perovskite oxi-
+des (ml/gperovskite) and per gram of total mixed materials
+(ml/gmaterial).
+3. Results and discussion
+3.1. LaFexB1xO3 as redox materials
+LaFexB1xO3 (B = Mn and Co; x = 1.0, 0.7 and 0) were
+heated from 800 C to 1300 C with a heating rate of
+10 C/min under an argon (purity 99.9996%) ﬂow of
+100 ml/min. As shown in Fig. 1(a), LaFeO3 starts to release
+O2 at 1210 C and the ﬁnal amount of oxygen released is
+1.3 ml/gperovskite.
+By
+contrast,
+LaMnO3
+and
+LaCoO3
+start to release O2 at 800 C and the O2 production is
+10.6 ml/gperovskite and 11.8 ml/gperovskite, respectively. The
+results agree well with the thermodynamic analysis which
+indicates that the reduction of Mn3O4 to MnO and of
+Co3O4 to CoO is much easier than that of Fe3O4 to FeO
+(Kodama and Gokon, 2007). As a result, doping Mn and
+Fig. 3. (a) The O2 evolution rate-time proﬁles from 800 C to 1300 C and (b) the CO generation rate-time proﬁles at 1000 C of LaFe0.7Co0.3O3 dispersed
+on diﬀerent supports for the ﬁrst cycle.
+428
+Q. Jiang et al. / Solar Energy 103 (2014) 425–437
+
+
+===== Page 5 =====
+
+Co into LaFeO3 makes the thermal reduction step thermo-
+dynamically more favorable in comparison to pure LaFeO3.
+The
+corresponding O2 production
+is
+increased
+from
+1.3 ml/gperovskite up to 8.5 ml/gperovskite for LaFe0.7Mn0.3O3
+and 6.4 ml/gperovskite for LaFe0.7Co0.3O3, respectively.
+The generation of CO for these reduced LaFexB1xO3
+materials shown in Fig. 1(b) demonstrates that CO2 split-
+ting reaction activity is poor at 1000 C. These samples
+present low CO generation rate and negligible CO produc-
+tion at 1000 C in spite of high reduction yield. SEM
+images show that the samples are aggregated into large
+particles after high temperature treatment and the poor
+CO generation activity may be due to sintering (Fig. 2(a
+and b)). Therefore, the perovskite oxides are dispersed
+on supports to enhance the high temperature thermal
+stability.
+Fig. 4. XRD patterns of (a) LaFe0.7Co0.3O3, Al2O3 and LaFe0.7Co0.3O3 (25 wt%)/Al2O3 after reaction, (b) LaFe0.7Co0.3O3, ZrO2 and LaFe0.7Co0.3O3
+(25 wt%)/ZrO2 after reaction, and (c) LaFe0.7Co0.3O3 (25 wt%)/SiO2 after 10 cycles of CO2 splitting reaction.
+Fig. 5. The CO generation activity of (a) LaAl11xFexO19 (b) CoxFe3xO4 at 1000 C. The value of x is according to the content of iron in LaFe0.7Co0.3O3
+(25 wt%)/Al2O3 and LaFe0.7Co0.3O3 (25 wt%)/ZrO2.
+Q. Jiang et al. / Solar Energy 103 (2014) 425–437
+429
+
+
+===== Page 6 =====
+
+3.2. The eﬀect of diﬀerent supports on the reaction activity
+ZrO2, Al2O3 and SiO2 were thus used as the supports.
+The loading of LaFe0.7Co0.3O3 was set to 25% on a weight
+basis. These supported materials were reduced at tempera-
+ture up to 1300 C (with a heating rate 10 C/min) under an
+argon ﬂow of 100 ml/min.
+Indeed, The O2 evolution activity is largely enhanced by
+dispersing LaFe0.7Co0.3O3 on supports of ZrO2, Al2O3 and
+SiO2, as shown in Fig. 3(a). Diﬀerent supports (ZrO2,
+Al2O3 and SiO2) induce great diﬀerences in the O2 pro-
+duce
+activity.
+The
+maximum
+O2
+evolution
+rate
+for
+Fig. 6. XRD patterns of (a) SrFeO3, La0.7Sr0.3FeO3, La0.7Ce0.3FeO3 and LaFeO3 and (b) LaMnO3, LaCoO3, LaFe0.7Co0.3O3, LaFe0.7Mn0.3O3 and
+LaFeO3.
+Table 1
+BET surface areas and crystallite sizes of these perovskite oxides.
+Samples
+Crystallite size
+(A˚ )
+Surface area
+(m2 g1)
+LaFeO3
+233
+10.7
+La0.7Sr0.3FeO3
+316
+9.7
+La0.7Ce0.3FeO3
+465
+9.6
+LaFe0.7Co0.3O3
+249
+9.2
+LaFe0.7Mn0.3O3
+207
+18.5
+SiO2
+2.9
+LaFe0.7Co0.3O3/SiO2 after10 cycles
+0.6
+The crystallite size is calculated
+from XRD
+Fig. 7. (a) The O2 evolution rate-time proﬁles, (b) CO generation rate-time proﬁles at 1100 Cof LaxA1xFeO3 (A = Sr and Ce) (25 wt%)/SiO2 for the ﬁrst
+cycle.
+430
+Q. Jiang et al. / Solar Energy 103 (2014) 425–437
+
+
+===== Page 7 =====
+
+LaFe0.7Co0.3O3 (25 wt%)/SiO2 is 13  greater, for LaFe0.7-
+Co0.3O3 (25 wt%)/Al2O3 is 5.6  greater, and for LaFe0.7-
+Co0.3O3
+(25 wt%)/ZrO2
+is
+2.9  greater,
+than
+that
+produced by unsupported LaFe0.7Co0.3O3. LaFe0.7Co0.3O3
+(25 wt%)/SiO2 is considered to be the best candidate which
+could be reduced to a greater extent at same reduction tem-
+perature. The O2 evolution curves are quite diﬀerent from
+each other mainly due to diﬀerent high temperature solid
+state
+reactions
+occur
+between
+LaFe0.7Co0.3O3
+and
+supports.
+As shown in Fig. 3(b), the CO generation activity
+follows the order of intensities LaFe0.7Co0.3O3 (25 wt%)/
+SiO2 > LaFe0.7Co0.3O3
+(25 wt%)/ZrO2 > LaFe0.7Co0.3O3
+(25 wt%)/Al2O3 > LaFe0.7Co0.3O3. The diﬀerent productiv-
+ities of LaFe0.7Co0.3O3 dispersed on diﬀerent supports are
+thus attributed to the diﬀerent structural changes after high
+temperature treatment.
+The XRD patterns shown in Fig. 4(a) indicates that Fe-
+substituted hexaaluminate (LaAl11xFexO19) is formed for
+LaFe0.7Co0.3O3 (25 wt%)/Al2O3 after high temperature
+treatment. The CO production of LaAl11xFexO19 is negli-
+gible (Fig. 5(a)) and thus Al2O3 supported LaFe0.7Co0.3O3
+exhibits low CO generation activity. For LaFe0.7Co0.3O3
+(25 wt%)/ZrO2 after high temperature treatment, phases
+of La2Zr2O7, CoxFe3xO4, and ZrO2 are observed. The
+reaction activity of LaFe0.7Co0.3O3 (25 wt%)/ZrO2 is simi-
+lar to that of CoxFe3xO4 (Fig. 5(b)) which proves the
+active
+species
+is
+CoxFe3xO4.
+For
+LaFe0.7Co0.3O3
+(25 wt%)/SiO2, silica is transformed to stable tridymite
+phase after high temperature treatment. The high tempera-
+ture stable tridymite phase is the main factor for high reac-
+tion activity. High temperature solid state reaction occurs
+between silica and perovskite oxides after high temperature
+treatment. The redox active agents are not perovskite phase
+but the mixed materials, including La2SiO5, FexSiyOz,
+tridymite and others. The active redox element is Fe3+,
+however, the reaction activity of LaxA1xFeyB1yO3/SiO2
+is quite diﬀerent from their corresponding ferrites. The
+mixed structure may be the other reason for the enhanced
+reaction activity.
+3.3. The eﬀect of A-site substitution of LaFeO3 on the
+reaction activity
+Ce4+- and Sr2+-substituted LaFeO3 were synthesized
+and tested in the two step thermochemical CO2 and H2O
+splitting reaction. XRD patterns of SrFeO3, La0.7Sr0.3FeO3,
+La0.7Ce0.3FeO3 and LaFeO3 are exhibited in Fig. 6(a). For
+La0.7Sr0.3FeO3, the pure orthorhombic perovskite-type
+structure is formed, and single component oxide such as
+La2O3, and Fe2O3, has not been detected, indicating that
+the perovskite-type structure is preserved with the partial
+Fig. 8. (a) The O2 evolution rate-time proﬁles and (b) the CO generation rate-time proﬁles at 1100 C of LaFexCo1xO3 (x = 1, 0.9, 0.7, 0.5) (25 wt%)/
+SiO2 for the ﬁrst cycle.
+Q. Jiang et al. / Solar Energy 103 (2014) 425–437
+431
+
+
+===== Page 8 =====
+
+substitution of A-site elements. For La0.7Ce0.3FeO3, tiny
+CeO2 phase is observed. The crystallite sizes were estimated
+to be <50 nm using Scherrer’s equation, as represented in
+Table 1. The samples synthesized by citrate method exhibit
+low speciﬁc surface area, about 10 m2 g1.
+From Fig. 7(a) it can be seen that the O2 releasing tem-
+perature has fallen from 1230 C to 970 C by partial sub-
+stitution of La3+ with Sr2+ and the maximum O2 evolution
+rate is increased 2 times after the introduction of Ce4+ into
+LaFeO3. The O2 production for these SiO2 supported
+LaxA1xFeyB1yO3 samples is shown in Fig. 10(a) and it
+indicates that the O2 production is enhanced 2–3 times by
+A-site substitution.
+However, the high reduction yield of La0.7Sr0.3FeO3
+(25 wt%)/SiO2 does not result in high CO generation rate
+(Fig. 7b). The CO generation rate of La0.7Sr0.3FeO3
+Fig. 9. The (a) O2 evolution rate-time proﬁles and (b) CO generation rate-time proﬁles at 1100 C of LaFexB1xO3 (B = Mn and Co) (25 wt%)/SiO2 for
+the ﬁrst cycle.
+Fig. 10. (a) O2 and (b) CO production of LaxA1xFeyB1yO3 (A = Sr, Ce; B = Co, Mn) (25 wt%)/SiO2 for the ﬁrst cycle.
+432
+Q. Jiang et al. / Solar Energy 103 (2014) 425–437
+
+
+===== Page 9 =====
+
+(25 wt%)/SiO2 is only half of LaFeO3 (25 wt%)/SiO2. The
+CO production during the ﬁrst 20 min of La0.7Sr0.3FeO3
+(25 wt%)/SiO2 is also half of LaFeO3 (25 wt%)/SiO2.
+Nevertheless, the total CO production is increased from
+2.0 ml/gmaterial
+(8.1 ml/gperovskite)
+to
+2.8 ml/gmaterial
+(11.2 ml/gperovskite) by substituted La3+ with Sr2+.
+For La0.7Ce0.3FeO3 (25 wt%)/SiO2, although the CO
+generation rate does not show much improvement, the
+enhanced reducibility leads to higher CO and H2 produc-
+tion as compared to LaFeO3 (25 wt%)/SiO2. The total
+CO
+production
+is
+increased
+from
+2.0 ml/gmaterial
+(8.1 ml/gperovskite) to 3.1 ml/gmaterial (12.4 ml/gperovskite) by
+substituted La3+ with Ce4+.
+The defect chemistry of LaxA1xFeO3 has been widely
+investigated. The partial substitution of Sr2+ for La3+ leads
+to higher oxidation states of Fe ion and the simultaneous
+formation of structural defects (Evdou et al., 2008a,b; Ferri
+and Forni, 1998; Royer et al., 2005). The enhanced reduc-
+ibility could be attributed to the modiﬁed reducibility of Fe
+ion. However, the vacancies for compensating the Sr2+
+doping acceptors are considered stable and could not
+utilize during the CO2 and H2O splitting reaction. There-
+fore, the high reduction yield and low fuel productivity
+for La0.7Sr0.3FeO3 (25 wt%)/SiO2 is reasonable. According
+to the previous TPR results, the addition of Ce4+ into the
+perovskite lattice could enhance the reducibility of Fe3+
+species due to the interaction between Fe3+–Fe2+ and
+Ce4+–Ce3+ redox couples (Royer et al., 2005). Therefore,
+the addition of Ce4+ into LaFeO3 favours the reduction
+process and the corresponding CO production.
+3.4. The eﬀect of B-site substitution of LaFeO3 on the
+reaction activity
+Combination of two diﬀerent ions at the B-site brings
+about synergistic eﬀects and is a powerful tool for enhance-
+ment of the reducibility. Co- and Mn- are thus considered
+for the substitution of Fe in LaFeO3. The studied materials
+are LaFe1xCoxO3 (x = 0.9, 0.7, 0.5) and LaFe0.7Mn0.3O3.
+The XRD patterns are presented in Fig. 6(b) conﬁrming
+the formation of perovskite-type structure.
+The O2 evolution activity for LaFexCo1xO3 as a func-
+tion of Co content is shown in Fig. 8(a). It can be seen that
+the O2 evolution activity increases as the Co content
+increasing. The CO generation rate reaches the maximum
+when x is 0.3 as the x value varies from 0 to 0.5
+(Fig. 8(b)). The initial CO generation rate of LaFe0.7Co0.3O3
+(25 wt%)/SiO2 is 4 times faster than that of LaFeO3
+(25 wt%)/SiO2 and the CO production for the ﬁrst 20 min
+is increased from 1.2 ml/gmaterial (4.6 ml/gperovskite) up to
+4.3 ml/gmaterial (17.2 ml/gperovskite). The total CO production
+for LaFexCo1xO3 (x = 0.7 and 0.5) (25 wt%)/SiO2 is almost
+three times larger than that of LaFeO3 (25 wt%)/SiO2
+(Fig. 10(b)). The substitution of Fe3+ with Co3+ favors the
+reduction of Fe3+ to Fe2+, therefore, the reaction activity
+enhances with the molar ratio of Co to Fe increasing, how-
+ever, Fe3+/Fe2+ is the eﬀective redox pair, if too much
+Fe3+ is substituted, the CO generation activity could be
+decreased.
+LaFe0.7Mn0.3O3 (25 wt%)/SiO2 exhibits the highest O2
+evolution activity among these A-site and B-site substituted
+LaFeO3 (Fig. 9(a)). The maximum O2 evolution rate is
+0.37 ml min1 g1
+material for LaFe0.7Mn0.3O3 (25 wt%)/SiO2,
+by
+contrast,
+0.13 ml min1 g1
+material
+for
+LaFe0.7Co0.3O3
+(25 wt%)/SiO2, 0.13 ml min1 g1
+material for La0.7Ce0.3FeO3
+(25 wt%)/SiO2
+and
+0.1 ml min1 g1
+material
+for
+LaFeO3
+Fig. 11. (a) The O2 rate-time proﬁles at 1200 C, 1300 C, and 1400 C, (b) the corresponding CO generation activity at 1100 C of LaFe0.7Co0.3O3/SiO2.
+Fig. 12. Cycle performance of LaFe0.7Co0.3O3 (25 wt%)/SiO2 for 10 times
+with reduction temperature at 1300 C and CO generation reaction at
+1100 C.
+Q. Jiang et al. / Solar Energy 103 (2014) 425–437
+433
+
+
+===== Page 10 =====
+
+(25 wt%)/SiO2. The initial CO generation rate of LaFe0.7-
+Mn0.3O3 (25 wt%)/SiO2 is similar to that of LaFeO3
+(25 wt%)/SiO2,
+and
+it
+is
+much
+lower
+than
+that
+of
+LaFe0.7Co0.3O3 (25 wt%)/SiO2 (Fig. 9(b)), nevertheless, the
+CO productivity is comparable to that of LaFe0.7Co0.3O3
+(25 wt%)/SiO2, as shown in Fig. 10(b).
+Fig. 11 exhibits the CO2 splitting activity for LaFe0.7-
+Co0.3O3 (25 wt%)/SiO2 as the reduction temperature varies
+from 1200 C to 1400 C. The O2 production is largely
+increased
+as
+reduction
+temperature
+increases
+from
+1200 C to 1400 C, from 1.6 ml/gmaterial up to 6.3 ml/gmaterial.
+The corresponding CO production is only 0.4 ml/gmaterial
+when the reduction temperature is 1200 C which indicates
+that O2 production below 1200 C is not due to the reduction
+of Fe3+ to Fe2+, but the reduction of Co3+ to Co2+. The cor-
+responding CO generation activity of that reduced at 1400 C
+is much lower than that reduced at 1300 C which proves that
+the reaction performance of LaFe0.7Co0.3O3 (25 wt%)/SiO2 is
+diﬀerent from ferrites.
+Cycle performance for LaFe0.7Co0.3O3 (25 wt%)/SiO2
+was performed with the reduction temperature at 1300 C
+and CO generation step at 1100 C. As shown in Fig. 12,
+the
+O2
+and
+CO
+production
+for
+LaFe0.7Co0.3O3
+(25 wt%)/SiO2 becomes even higher as the increasing of cycle
+number. The ratio of CO production to O2 production is
+more and more close to 2 as the increasing of cycle number.
+Fig. 13. (a) O2 evolution rate of LaFe0.7Co0.3O3 (25 wt%)/SiO2 under heating rate of 10 C/min, (b–e) Arrhenius plot for the non-isothermal reduction of
+LaFe0.7Co0.3O3 (25 wt%)/SiO2 according to diﬀerent models. F1 means ﬁrst order reaction; F2 means second order reaction; R2 and R3 means
+geometrical-contracting models.
+434
+Q. Jiang et al. / Solar Energy 103 (2014) 425–437
+
+
+===== Page 11 =====
+
+The CO production is 7.6 ml/gmaterial (30.4 ml/gperovskite) for
+the 10th cycle, by contrast, the CO production is 4.5 ml/g for
+CeO2 when it is reduced at 1400 C. It indicates that SiO2
+supported LaxA1xFeyB1yO3 (A = Sr, Ce; B = Co, Mn)
+pervoskite oxides are promising redox materials for fuel pro-
+duction via two-step solar thermal splitting reaction at rela-
+tively low reduction temperature.
+3.5. Kinetic analysis
+The kinetic studies for the O2 evolution reaction were
+performed under non-isothermal experimental condition
+with a constant heating rate of 10 C/min. According to
+the literatures, the model can be expressed as follows
+(Levenspiel, 1972; Galwey and Brown, 1999; Francis
+et al. (2010); Schunk and Steinfeld, (2009)
+ln ðda=dTÞb
+f ðaÞ
+
+
+¼ lnA  Ea
+RT
+ð3:1Þ
+f ðaÞ ¼ ð1  aÞn
+ð3:2Þ
+And a is deﬁned as:
+a ¼ Total O2ðtÞ
+Total O2
+ð3:3Þ
+The curve of ln ðda=dTÞb
+f ðaÞ
+h
+i
+versus 1/T should be linear if the
+hypothetical model is reasonable, and then activation
+energy Ea can be calculated from slope of the line.
+The O2 evolution rate-time proﬁles of LaFe0.7Co0.3O3
+(25 wt%)/SiO2 from 800 C to 1300 C with a heating rate
+of 10 C/min is shown in Fig. 13(a). The reaction order (F1
+and F2) and geometrical-contracting (R2 and R3) models
+have been attempted for f (a). The experimental data are
+processed according to (3.1). The linear regression for the
+experimental data is shown in Fig. 13(b–e). Both surface
+reaction order (F1 and F2) and geometrical-contracting
+(R2 and R3) models show excellent linear ﬁt. It is diﬃcult
+to precisely determine the actual reaction model for the
+reduction reaction of LaFe0.7Co0.3O3 (25 wt%)/SiO2. The
+estimated activation energy according to diﬀerent models
+Fig. 14. (a) the CO generation rate-time proﬁles for LaFe0.7Co0.3O3 (25 wt%)/SiO2 from 900 C to 1100 C (b and c) normalized rate data compared to
+solid state reaction model of the CO generation reaction for LaFe0.7Co0.3O3 (25 wt%)/SiO2 at 1000 C and 1100 C. F1 means ﬁrst order reaction; D1
+means ﬁrst order diﬀusion reaction model.
+Q. Jiang et al. / Solar Energy 103 (2014) 425–437
+435
+
+
+===== Page 12 =====
+
+is 108 KJ/mol for F1, 149 KJ/mol for F2, 89 KJ/mol for
+R2, and 97 KJ/mol for R3, respectively.
+The CO generation rate can be expressed as follows:
+da
+dt ¼ kf ðaÞ
+ð3:4Þ
+For isothermal experiment, if the normalized rate data
+agree well with a given kinetic model, (3.4) can be
+expressed as (Gotor et al., 2000; Pe´rez-Maqueda et al.,
+2002; Yang et al., 2009):
+da=dt
+ðda=dtÞa¼0:5
+¼
+f ðaÞ
+f ðaÞa¼0:5
+ð3:5Þ
+Fig. 14(a) shows the CO generation rate-time proﬁles for
+LaFe0.7Co0.3O3 (25 wt%)/SiO2 from 900 C to 1100 C. It
+can be seen that the CO generation rate increases with the
+increasing of temperature. The normalized rate data for
+LaFe0.7Co0.3O3 (25 wt%)/SiO2 compared to various solid
+state reaction models are shown in Fig. 14(b and c). The
+CO generation reaction of LaFe0.7Co0.3O3 (25 wt%)/SiO2
+agrees well with a bulk diﬀusion model (D1) at 1000 C
+(0.2 < a < 0.8). When the CO generation reaction is per-
+formed at 1100 C, the reaction turns to the ﬁrst order sur-
+face reaction (0.1 < a < 1.0).
+4. Conclusions
+The
+oxides
+with
+perovskite
+structure
+of
+formula
+LaxA1xFeyB1yO3 (A = Sr, Ce; B = Co, Mn) were uti-
+lized in two-step thermochemical CO2 splitting reaction.
+For unsupported pervoskite oxides, the CO generation
+activity was negligible in spite of promising O2 evolution
+production at low reduction temperature. Thus, commer-
+cial ZrO2, Al2O3 and SiO2 were thus considered as the
+supports. Diﬀerent supports have great inﬂuence on the
+reaction activity and SiO2 was found to be the best candi-
+date among these investigated supports. By A-site or B-site
+substitution of LaFeO3, the O2 evolution temperature was
+reduced by 200–400 C and the fuel production was
+enhanced 2–3 times. LaFe0.7Co0.3O3 (25 wt%)/SiO2 exhib-
+ited the highest reaction activity among these investigated
+perovskite oxides. The maximum CO generation rate for
+LaFe0.7Co0.3O3 (25 wt%)/SiO2 was 4 times greater than
+that produced by LaFeO3 (25 wt%)/SiO2. The CO produc-
+tion for LaFe0.7Co0.3O3 (25 wt%)/SiO2 was 7.6 ml/gmaterial
+(30.4 ml/gperovskite)
+when
+the
+sample
+was
+reduced
+at
+1300 C, by contrast, the CO production was 4.5 ml/g for
+CeO2 when it was reduced at 1400 C. The estimated acti-
+vation energy for the reduction step of LaFe0.7Co0.3O3
+(25 wt%)/SiO2 was around 89–149 KJ/mol according to
+diﬀerent models. The kinetic analysis of the CO generation
+step of LaFe0.7Co0.3O3 (25 wt%)/SiO2 indicated that the
+reaction was mainly controlled by bulk diﬀusion (D1) at
+1000 C and then it turned to ﬁrst order surface reaction
+(F1) at 1100 C. Overall, SiO2 supported LaxA1xFeyB1yO3
+(A = Sr, Ce; B = Co, Mn) pervoskite oxides are promising
+redox materials for fuel production via two-step solar
+thermal splitting reaction at relatively low reduction
+temperature.
+Acknowledgements
+This work was ﬁnancially supported by National
+Program
+on
+Key
+Basic
+Research
+Project
+(Grant
+2009CB220010), National Natural Science Foundation of
+China (Grant 21061140361), and Solar Energy Action
+Plan of Chinese Academy of Sciences (Grant KGCX2-
+YW-393-1).
+References
+Chueh, W.C., Falter, C., Abbott, M., Scipio, D., Furler, P., Haile, S.M.,
+Steinfeld, A., 2010. High-ﬂux solar-driven thermochemical dissociation
+of CO2 and H2O using nonstoichiometric ceria. Science 330, 1797–
+1800.
+Evdou, A., Nalbandian, L., Zasplis, V.T., 2008a. Perovskite membrane
+reactor for continuous and isothermal redox hydrogen production
+from the dissociation of water. J. Membr. Sci. 325, 704–711.
+Evdou, A., Zaspalis, V., Nalbandian, L., 2008b. La(1x)SrxMnO3d
+perovskites as redox materials for the production of high purity
+hydrogen. Int. J. Hydrogen Energy 33, 5554–5562.
+Ferri, D., Forni, L., 1998. Methane combustion on some perovskite-like
+mixed oxides. Appl. Catal. B: Environ. 16, 119–126.
+Francis,
+T.M.,
+Lichty,
+P.R.,
+Weimer,
+A.W.,
+2010.
+Manganese
+oxide
+dissociation
+kinetics
+for
+the
+Mn2O3
+thermochemical
+water-splitting
+cycle.
+Part
+1:
+Experimental.
+Chem.
+Eng.
+Sci.
+65, 3709–3717.
+Fresno, F., Ferna´ndez-Saavedra, R., Go´mez-Mancebo, M.B., Vidal, A.,
+Miguel Sa´nchez, V., Rucandio, M.I., Quejido, J.A., Romero, M., 2009.
+Solar hydrogen production by two-step thermochemical cycles: eval-
+uation of the activity of commercial ferrites. Int. J. Hydrogen Energy
+34, 2918–2924.
+Furler,
+P.,
+Furler,
+P.,
+Scheﬀe,
+J.R.,
+Steinfeld,
+A.,
+2012.
+Syngas
+production by simultaneous splitting of H2O and CO2 via ceria
+redox
+reactions
+in
+a
+high-temperature
+solar
+reactor.
+Energy
+Environ. Sci. 5, 6098–6103.
+Gal, A.L., Abanades, S., 2012. Dopant incorporation in ceria for
+enhanced water-splitting activity during solar thermochemical hydro-
+gen generation. J. Phys. Chem. C 116, 13516–13523.
+Gal, A.L., Abanades, S., Flament, G., 2011. CO2 and H2O splitting for
+thermochemical production of solar fuels using nonstoichiometric
+ceria and ceria/zirconia solid solutions. Energy Fuels 25, 4836.
+Galwey, A.K., Brown, M.E., 1999. Thermal Decomposition of Ionic
+Solids, ﬁrst ed. Elsevier, New York.
+Gotor, F.J., Criado, J.M., Malek, J., Koga, N., 2000. Kinetic analysis of
+solid-state reactions: the universality of master plots for analyzing
+isothermal and nonisothermal experiments. J. Phys. Chem. A 104,
+10777–10782.
+He, Y.F., Zhu, X.F., Yang, W.S., 2011. The role of a-site ion nonsto-
+ichiometry in the oxygen absorption properties of Sr1+xCo0.8Fe0.2O3
+oxides. AIChE J. 57, 87–95.
+Jiang, Q.Q., Zhou, G.L., Jiang, Z.X., Li, C., 2014. Thermochemical CO2
+splitting reaction with CexM1xO2d (M = Ti4+, Sn4+, Hf4+, Zr4+,
+La3+, Y3+ and Sm3+) solid solutions. Solar Energy 99, 55–66.
+Kodama, Tatsuya, Gokon, Nobuyuki, 2007. Thermochemical cycles for
+high-temperature solar hydrogen production. Chem. Rev. 107, 4048–
+4077.
+Kodama, T., Gokon, N., Yamamoto, R., 2008. Thermochemical two-step
+water splitting by ZrO2-supported NixFe3xO4 for solar hydrogen
+production. Solar Energy 82, 73–79.
+Levenspiel, O., 1972. Chemical Reaction Engineering. John Wiley & Sons,
+New York.
+436
+Q. Jiang et al. / Solar Energy 103 (2014) 425–437
+
+
+===== Page 13 =====
+
+Lu, H., Zhu, L.L., Kim, J.P., Son, S.H., Park, J.H., 2012. Perovskite
+La0.6Sr0.4B0.2Fe0.8O3-d (B = Ti, Cr, Co) oxides: structural, reduction–
+tolerant, sintering, and electrical properties. Solid State Ionics 209–
+210, 24–29.
+McDaniel, A.H., Miller, E.C., Ariﬁn, D., Ambrosini, A., Coker, E.N.,
+O’Hayre, R., Chueh, W.C., Tong, J.H., 2013. Sr- and Mn-doped
+LaAlO3dfor solar thermochemical H2 and CO production. Energy
+Environ. Sci. 6, 2424–2428.
+Meng, Q.L., Lee, C.I., Shigeta, S., Kaneko, H., Tamaura, Y., 2011.
+Reactivity of CeO2-based ceramics for solar hydrogen production via a
+two-step water-splitting cycle with concentrated solar energy. Int. J.
+Hydrogen Energy 36, 13435–13441.
+Merino, N.A., Barbero, B.P., Ruiz, P., Cadus, L.E., 2006. Synthesis,
+characterisation, catalytic activity and structural stability of LaCo1y-
+FeyO3±k perovskite catalysts for combustion of ethanol and propane.
+J. Catal. 240, 245–257.
+Muhich, C.L., Evanko, B.W., Weston, K.C., Lichty, P., Liang, X.H.,
+Martinek, J., Musgrave, C.B., Weimer, A.W., 2013. Eﬃcient gener-
+ation of H2 by splitting water with an isothermal redox cycle. Science
+341, 540–542.
+Pe´rez-Maqueda, L.A., Criado, J.M., Gotor, F.J., Malek, J., 2002.
+Advantages of combined kinetic analysis of experimental data
+obtained under any heating proﬁle. J. Phys. Chem. A 106, 2826–2868.
+Royer, S., Alamdari, H., Duprez, D., Kaliaguine, S., 2005. Oxygen storage
+capacity of La1xAxBO3 perovskites (with A = Sr, Ce; B = Co, Mn)—
+relation with catalytic activity in the CH4 oxidation reaction. Appl.
+Catal. B: Environ. 58, 273–288.
+Scheﬀe, J.R., Steinfeld, A., 2012. Thermodynamic analysis of cerium-
+based oxides for solar thermochemical fuel production. Energy Fuels
+26, 1928–1936.
+Schunk, L.O., Steinfeld, A., 2009. Kinetics of the thermal dissociation of
+ZnO exposed to concentrated solar irradiation using a solar-driven
+thermogravimeter in the 1800–2100 K range. AIChE J. 55, 1497–1503.
+Steinfeld, A., 2005. Solar thermochemical production of hydrogen––a
+review. Solar Energy 78, 603–615.
+Tanaka, H., Misono, M., 2001. Advances in designing perovskite
+catalysts. Curr. Opin. Solid State Mater. Sci. 5, 381–387.
+Wang, C.H., Chen, C.L., Weng, H.S., 2004. Surface properties and
+catalytic performance of La1xSrxFeO3 perovskite-type oxides for
+methane combustion. Chemosphere 57, 1131–1138.
+Yang, Tan, Liang, Gu, X.H., Jin, W.Q., Zhang, L.X., Xu, N.P., 2003.
+New series of Sr(Co, Fe, Zr)O3-dperovskite-type membrane materials
+for oxygen permeation. Ind. Eng. Chem. Res. 42, 2299–2305.
+Yang, H.C., Eun, H.C., Cho, Y.Z., Lee, H.S., Kim, I.T., 2009. Kinetic
+analysis of dechlorination and oxidation of PrOCl by using a non-
+isothermal TG method. Thermochim. Acta 484, 77–81.
+Q. Jiang et al. / Solar Energy 103 (2014) 425–437
+437

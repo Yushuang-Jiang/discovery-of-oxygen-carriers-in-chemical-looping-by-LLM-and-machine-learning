@@ -1,0 +1,1075 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Chemical Engineering Journal
+journal homepage: www.elsevier.com/locate/cej
+Geopolymer-composites with thermomechanical stability as oxygen carriers
+for fluidized bed chemical looping combustion with oxygen uncoupling
+A. Natali Murri⁎, F. Miccio, V. Medri, E. Landi
+National Research Council–Institute of Science and Technology for Ceramics, CNR-ISTEC, via Granarolo 64, 48018 Faenza, RA, Italy
+H I G H L I G H T S
+• Oxygen carriers (OCs) based on geopolymer and metal oxides were synthesized for CLOU.
+• OCs were tested by TGA at 700/900 °C, in alternating inert and oxidizing atmospheres.
+• CuO-based OC showed better CLOU performances (1% wt. carrying capacity).
+• Results were confirmed in fluidized bed reactor with high rate index.
+• OCs highlighted a good mechanical resistance from attrition and crushing tests.
+A R T I C L E I N F O
+Keywords:
+Chemical looping combustion
+CLOU
+Geopolymer
+Oxygen carrier
+Fluidized bed
+A B S T R A C T
+Oxygen carriers based on geopolymer composites with enhanced thermal and mechanical stability have been
+synthesized and been proposed for chemical looping combustion with oxygen uncoupling. Geopolymer synthesis
+belongs to green chemistry and ensures chemical and mechanical properties similar to those of high temperature
+sintering. Suitable metal oxides, such as combinations of Cu, Mn and Fe oxides, have been used as active fillers in
+geopolymer matrices. Thermogravimetric analysis conducted at 900 °C pointed out the excellent performance of
+the CuO-based oxygen carrier, and the overall performance trend of CuO > CuMn-oxides > MnFe-oxides. The
+performance of the CuO based material (around 1.0% wt. of transferred O2) was confirmed in tests carried out in
+a fluidized bed at 900 °C, where a slightly lower carrying capacity, and a remarkable oxidation rate index
+(37.1 ± 1.4%) were obtained. Tests of wood-char combustion confirmed the ability of the CuO-based oxygen
+carrier to operate in a real chemical looping combustion process. Moreover, attrition and crushing tests de-
+monstrated that the mechanical resistance of geopolymer-based oxygen carriers was comparable to that of
+materials currently used for fluidized bed application.
+1. Introduction
+The need to reduce carbon dioxide emissions according to the Kyoto
+protocol and Paris climate conference COP21 [1] calls for the devel-
+opment of increasingly efficient methods for CO2 capture and separa-
+tion from industrial processes. Several methods have been considered,
+depending on the conditions of each specific industrial process. Both
+conventional and innovative techniques have been studied, for example
+wet absorption, dry adsorption, membrane separation, high tempera-
+ture uptake by sorbents, and others [2]. In general, these operations are
+very expensive both in terms of energy demand and plant engineering,
+making the process penalty for CO2 capture/separation substantially
+high, and leading to increase the final product price (e.g. electricity)
+[3]. Chemical looping combustion (CLC) is recognized to be an effective
+method for the inherent separation of the carbon dioxide in combus-
+tion-based processes [4], and it is based on the idea of producing ex-
+hausts that are highly concentrated in CO2 to avoid separation costs. In
+fact, CLC allows generation of two distinct streams of effluents, the first
+being rich in carbon dioxide, the second being air depleted in oxygen
+that eliminates the dilution of the CO2 by the nitrogen in the air. Oxy-
+combustion accomplishes the same concept, but requires an expensive
+air separation unit. In contrast, CLC works by means of oxygen carriers
+(OCs) that are able to transfer atomic oxygen from one reactor to a
+second one [5]. The most likely configuration is two interconnected
+fluidized bed (FB) reactors, where a granular carrier circulates and
+transfers oxygen from the air to the fuel, without any direct contact
+between the reactors [6]. Moreover, emissions of N-oxides by thermal
+and prompt mechanisms are substantially reduced because nitrogen in
+https://doi.org/10.1016/j.cej.2020.124756
+Received 17 January 2020; Received in revised form 10 March 2020; Accepted 11 March 2020
+⁎ Corresponding author.
+E-mail address: annalisa.natalimurri@istec.cnr.it (A. Natali Murri).
+Chemical Engineering Journal 393 (2020) 124756
+Available online 12 March 2020
+1385-8947/ © 2020 Elsevier B.V. All rights reserved.
+T
+
+
+===== Page 2 =====
+
+the air is not exposed to direct flames [7].
+Naturally occurring metal oxides that have multiple oxidation states
+such as Ni, Fe, Mn, and Cu oxides are possible OCs. Among these metal
+oxides, manganese and copper exhibit good transport efficiency, and
+demonstrate the ability to release O2 in the fuel reactor at elevated
+temperatures, which makes them suitable for chemical looping com-
+bustion with oxygen uncoupling (CLOU) [8–10]. In particular, OCs
+based on Mn and Cu oxides have been investigated because of the
+formation of the mixed phase CuMn2O4, which is thought to enhance
+oxygen transport [8,11]. The CLOU process exploits spontaneous
+splitting of certain metal oxides at high temperatures releasing gaseous
+O2, which avoids the gasification step and allows for use of less reactive
+solid fuels [4].
+For the CLC and CLOU processes, the carrier materials need to ex-
+hibit long term stability, retention of the oxygen transport capacity, and
+resistance to cracking or agglomeration, which can be accomplished by
+coupling the metal oxides with an inert, strong support matrix that
+prevents material losses and particle breakup [12]. Besides the funda-
+mental requirement of having multiple oxidation states and high oxi-
+dation/reduction activity, OCs should also be stable under repeated
+temperature cycles in FBs, have a low tendency to agglomerate, and
+exhibit adequate mechanical strength to withstand the stress during
+high-speed circulation [13]. Metal oxides are usually used combined
+with oxide support materials as SiO2, ZrO2 or Al2O3 to increase the
+carrier reactivity and improve their mechanical stability. In addition,
+the overall oxygen transport capacity of the carrier depends on the
+relative ratio between the metal oxide and the inert material, as well as
+physical characteristics such as the active surface, pore volume, and
+particle size [13]. One of the main requirements for the support ma-
+terial is that it does not react with the metal oxides to produce mixed
+phases with lower melting temperatures or lower oxygen transport
+capabilities, so that the overall performances of the OCs is not affected.
+Taking into account all these aspects, geopolymers can be an in-
+novative solution to be used as support for metal oxides, being porous
+and mechanically and thermally resistant up to 1200 °C depending on
+the composition. Geopolymers are inorganic synthetic polymers based
+on alkali aluminosilicates that are produced through a simple and
+sustainable one-step process [14]. Geopolymers are obtained by re-
+acting amorphous aluminosilicate powders with aqueous solutions of
+alkali silicates. The geopolymer mixture acts as binder for fillers and
+additives thanks to the formation of nanoprecipitates during con-
+solidation [14]. Indeed, the production of geopolymer composites is of
+considerable importance to increase the application potentialities since
+proper fillers impart special functionalities. Metal oxide powders can
+easily be added to the mixture to incorporate them into the geopoly-
+mers. This route is appealing for production of synthetic OCs from the
+energy consumption perspective since geopolymerization consists of
+curing at 80 °C and a short conditioning treatment at the maximum
+working temperature (i.e., 900 °C in this case), which is appreciably
+lower than the sintering temperatures of conventional processes for
+preparation of OCs [15]. More interestingly, geopolymer-based OCs
+have excellent mechanical properties and thermal stability due to the
+strong bonds in the polysialate matrix, which are able to withstand high
+temperatures without any loss of mechanical strength [16,17]. This is
+particularly attractive for FB application, where fluidized particles ex-
+perience significant mechanical stresses, particle breakup, and loss by
+attrition, so durability of the OC particles is desirable. Moreover, the
+nanoscaled microstructure and the intrinsic pore network in the geo-
+polymer matrix enhance oxygen transport in OCs, and the presence of a
+highly stable alkali-aluminosilicate matrix prevents detrimental inter-
+actions with the metal oxides. The authors have been the first to in-
+troduce geopolymers in CLC applications and in previous works they
+first investigated the use of these materials as inert supports for OCs in
+CLC applications [18,19]. Geopolymer composites have been conceived
+and synthesized by the authors in the form of granules with embedded
+Fe and Mn oxides, then tested as OCs in conventional CLC systems for
+methane and syngas combustion [18,19]. The granules offered a me-
+chanical resistance to abrasion higher than that of a FCC catalyst and of
+the same order of magnitude as γ-alumina. In details, thermogravi-
+metric texts for the reduction in a CH4 atmosphere and oxidation in air
+of hematite/geopolymer OCs [18] demonstrated a capacity very close
+to the theoretical value 1.3 after repeated cycles for transferring oxygen
+to a gaseous fuel. Tests conducted at 900 °C in a laboratory-scale dif-
+ferential reactor gave rise to a lower O-carrying capacity (< 1.0%), but
+rather high kinetics (i.e. rate index) by comparison with Fe oxide and
+data in the literature. Furthermore, novel Mn2O3 and Mn2O3-Fe2O3
+geopolymer based OCs were tested in a laboratory CLC fixed bed plant,
+fueled with coal char and operated at 800, 850 and 900 °C [19]. They
+were able to release oxygen in inert atmosphere, thereby demonstrating
+potentialities for CLOU applications.
+This article follows and implements these previous studies on geo-
+polymer-based OCs [18,19], reporting for the first time on the use of
+these materials for the production of OCs to be used in CLOU operation
+mode. To this aim, suitable oxides such as Cu, Mn and Fe oxides, have
+been used alone or in combination as filler in a geopolymer matrix. To
+the author’s knowledge, no other research has been conducted on
+geopolymers as support materials for OCs in CLC or CLOU operation
+modes. In this research, the CLOU ability of the oxygen carriers was
+investigated in sequential steps: 1) definition of thermodynamic fra-
+mework for operation; 2) testing in thermogravimetric alternating
+oxidation and reduction cycles for selection of best OC formulation; 3)
+demonstration in batch FB experiments of the oxygen uncoupling be-
+havior also for char combustion; 4) characterization of OC resistance to
+attrition and mechanical impact. The study was complemented by SEM
+and XRD analyses of collected samples, for highlighting possible mi-
+crostructural and phase modifications.
+2. Materials and methods
+2.1. Materials
+Metal oxide powder mixtures were prepared by mixing CuO and
+Mn2O3 or Fe2O3 and Mn2O3 powders to produce Cu:Mn and Mn:Fe
+molar ratios equal to 1:2 based on the ratio of active phases suggested
+in other studies [19–21]. The specific surface areas (by BET method)
+were 8.8 m2/g for CuO, 2.4 m2/g for Mn2O3 and 11.4 m2/g for Fe2O3.
+Geopolymer composites were synthetized according to a previously-
+developed formulation [20] by mixing slurries produced by mechanical
+Nomenclature
+C
+volumetric concentration
+n
+mole number
+P
+pressure
+R
+rate index
+Q
+volumetric flow rate
+t
+time
+T
+temperature
+U
+fluidization velocity
+W
+weight
+X
+oxide content in the oxygen carrier
+ΔW
+weight change
+ΔWmax
+maximum weight change
+θ
+angle in polar coordinate
+τ
+period
+ξ
+conversion degree
+A. Natali Murri, et al.
+Chemical Engineering Journal 393 (2020) 124756
+2
+
+
+===== Page 3 =====
+
+stirring for 10 min. Geopolymer composites were then cast in sealed
+silicone molds and cured at 80 °C for 24 h, followed by 24 h curing at
+room temperature. Finally, the plain geopolymer and metal oxide-
+geopolymer composite monoliths were crushed in a porcelain mortar,
+and then sieved to obtain desired particle size fractions in the range of
+0.2–0.4 mm. The granules were then conditioned by calcining at 900 °C
+in air for 2 h. The three OCs were labeled with a prefix GP for the
+geopolymer matrix, followed by the type of metal oxides added to the
+slurry and their relative molar ratio (Table 1).
+The final content of active metal oxide in the three materials was
+determined using X-ray fluorescence spectroscopy analysis on calcined
+granulates was slightly lower than 40% wt. (Table 1). Tap and particle
+densities are also reported in Table 1.
+Pine wood was devolatilized in muffle furnace at 800 °C using a
+crucible with lid and then sieved in the size range 0.6–1.0 mm for tests
+of CLOU combustion in fluidized bed. A thermogravimetric analysis of
+the wood-char determined a content of 24%wt. in volatiles, 63%wt. in
+fixed carbon, and 13%wt. in ash on dry basis.
+2.2. Methods
+Thermochemical software (HSC®) was used to evaluate the ther-
+modynamic equilibrium composition of the system formed by oxides
+(Cu, Mn and Fe) at different temperatures. Thermogravimetric analysis
+(TGA) was carried out in a STA 449 Jupiter (Netzsch Geratebau, Selb,
+Germany) to measure weight changes in alternating inert and oxidizing
+atmospheres and, hence, determine oxygen loss and enrichment. Air
+and argon were used as working gases with flow rates of 100 mL/min
+and of 180 mL/min plus 20 mL/min of Ar as protective stream for in-
+strument safe operation. The sample weight was in the range 70–80 mg.
+The tests were conducted at the isothermal temperature of 900 °C for
+both the oxidizing and inert steps, lasting 30 and 40 min respectively,
+or adopting alternating temperature of 700 °C and 900 °C respectively
+for the oxidizing and inert steps, lasting 30 min each. Heating and
+cooling rates of 30 °C/min were used for the dynamic steps, which were
+conducted in air up to 700 °C and from 900 to 700 °C. An inert atmo-
+sphere (Ar) was used up to the reaction temperature of 900 °C. The total
+(oxygen) weight loss of the material was also detected performing a run
+up to 1000 °C in inert atmosphere.
+A FB reactor composed by a quartz tube (30 mm ID) installed in a
+tubular furnace (Carbolite 1200) was used for tests of particle attrition
+and CLOU process. The fluidization column was equipped with a porous
+distributor and the atmosphere was either air or N2 dosed into the
+system by an electronic mass-flow controller (Mod. Brooks 5850S
+100L/h). The pressure before the gas distributor was measured by
+means of an electronic transducer (AMECal Mod. ST-8890 0–5 PSI). The
+CLOU tests were carried out by periodically switching the fluidization
+gas from air to nitrogen. The gas exiting the fluidization column was
+monitored with a continuous analyzer for O2, CO2, CO, CH4 and H2
+(GEIT mod. 3100). Additional tests were conducted by dropping a small
+amount of wood char granules (80 mg) into the column at the begin-
+ning of the nitrogen step to determine the capability of the oxygen
+carrier to provide oxygen to combust the solid fuel. For attrition tests
+under constant flow of air, the mass of the elutriated fines was de-
+termined by periodically collecting them on a paper filter (Whatman N.
+4) assembly mounted downstream from the reactor.
+A particle crushing test was carried out at room temperature by
+means of a manually operated crush tester equipped with an electronic
+load cell (piezoresistive transducer mod. RS 828–5723). The crushing
+test was repeated 12 times with particles in the nominal size range of
+the oxygen carrier (i.e. 0.2–0.4 mm).
+Qualitative crystallographic analysis was carried out by X-ray dif-
+fraction (Bruker D8 Advance powder diffractometer with CuKα radia-
+tion Karlsruhe, Germany) on unprocessed and cycled OCs to evaluate
+the phase evolution in the material upon cycling and any interactions
+between the active oxide phases and the geopolymer matrix.
+Microstructural and chemical characterization of unprocessed and
+cycled OCs was carried out by field emission gun-scanning electron
+microscopy (FEG-SEM, ΣIGMA Zeiss) and energy dispersion spectro-
+scopy (EDS-Oxford Instruments).
+3. Results
+3.1. Thermodynamic framework
+The metal oxides used in the preparation of the composite oxygen
+carriers were assumed to decompose via following reactions:
+Fe2O3 = 2/3 Fe3O4 + 1/6 O2
+R1
+Mn2O3 = 2/3 Mn3O4 + 1/6 O2
+R2
+CuO = ½ Cu2O + 1/4 O2
+R3
+The theoretical maximum weight change ΔWmax for the three
+oxygen carriers (see Table 1) was evaluated according to Eq. (1)
+=
+W
+X n
+M
+31.998%
+max
+O
+w ox
+2
+,
+(1)
+where X is the weight oxide content, nO2 the expected molar O2
+yield per one mole of metal oxide (Fe2O3, Mn2O3 and CuO) and Mw the
+molecular weight of the oxide. Thus, ΔWmax turns out equal to 1.3% for
+GPMnFe2, 2.8% for GPCuMn2, and 3.7% for GPCu at full conversion.
+However, reactions R1-R3 do not reach completion, but reach chemical
+equilibrium in the reactor. On the basis of the HSC® database, other
+species may be present at equilibrium for mixed systems, such as
+Fe2MnO4 (Mn- Fe system) and CuMn2O4 (Cu-Mn system). In parallel,
+other reactions may occur leading to formation of more reduced metal
+oxides (e.g. Cu, FeO, MnO). Thermochemical simulations by HSC®
+predicted appreciable amounts of MnO and Cu at 900 °C, indicating that
+Eq (1) would underestimate ΔWmax because it did not account for those
+reduced species.
+Thermochemical results by HSC® are shown in Fig. 1 in terms of O2
+yield (mmol/g) at T = 900 °C for the pure and mixed oxides used in
+present investigation. The oxygen pressure was set to 0.01 bar during
+the reduction step. The oxidation temperature in air (0.21 bar O2) was
+either 700 or 900 °C.
+The predicted oxygen yield decreases moving from CuO to Mn2O3
+and Fe2O3, the latter showing a very low value even in the best case.
+The mixed oxides exhibit different results. The Mn-Fe system shows a
+slightly lower O2 yield in comparison to Mn2O3 in spite of the double
+content in Fe, because of the prominent role of Fe-Mn spinel phases
+[22]. In contrast, the Cu-Mn system exhibits an intermediate value of
+O2 yield in comparison to respective pure oxides. The oxidation tem-
+perature, Tox, has a strong influence on O2 yield in all cases, since lower
+temperature stabilizes the more oxidized compounds. In fact, the
+oxygen yield roughly halves moving from Tox = 700 °C to 900 °C.
+Considering the eventual oxide content in the GP oxygen carriers
+(Table 1), the maximum O2 yield for the three OCs are reported in
+Table 2. GPCu has the best theoretical ability in O2 transfer at both
+oxidation temperatures.
+Altogether, the thermodynamic analysis has suggested two possible
+strategies for the experiments: i) oxidation at 700 °C and reduction at
+Table 1
+Composition and densities of the powders after calcination at 900 °C.
+Oxide content
+[% wt.]
+Tap density
+[g/cm3]
+Particle density
+[g/cm3]
+GP
+0.0
+0.7
+1.4
+GPCu
+37.3
+1.3
+2.4
+GPCuMn2
+36.4
+1.3
+2.5
+GPMnFe2
+40.8
+0.9
+1.8
+A. Natali Murri, et al.
+Chemical Engineering Journal 393 (2020) 124756
+3
+
+
+===== Page 4 =====
+
+900 °C (thermodynamically favored); ii) oxidation and reduction at
+900 °C (kinetically favored).
+3.2. Thermogravimetric analysis
+The results of thermogravimetric tests under cycling conditions are
+summarized in Table 3.
+Fig. 2A compares weight changes with time (t) for the three OCs
+during repeated isothermal cycles of reduction and oxidation at 900 °C.
+Repeatability in mass change with repeated cycling was good apart
+from drift of the baseline. GPCu had the highest weight changes in both
+isothermal and non-isothermal conditions, either for oxidation and re-
+duction steps, indicating better overall performances over the other two
+OCs.
+Non-isothermal conditions (Fig. 2B) resulted in similar behaviors,
+but produced different trends among the three OCs. The smother shape
+of curves in Fig. 2B in comparison to Fig. 2A is due to the contemporary
+change in temperature, when passing from oxidation to reduction en-
+vironment. In fact, the weight change started during heating from 700
+to 900 °C in Ar and the cooling step from 900 to 700 °C in air and some
+delay occurred because of the non-instantaneous temperature change of
+the instrument. According to the thermodynamic simulations (section
+3.1), similar temperature effects are expected for oxidation and
+reduction for all oxides. In contrast, GPCuMn2 and GPMnFe2 seem to
+better perform in non-isothermal conditions, when the temperature was
+cycled between 700 and 900 °C, whilst GPCu exhibited an inverse
+trend, with higher weight changes at fixed temperature of 900 °C
+compared to the alternating temperature regime. Even though GPCu
+still maintains the overall highest values in all conditions, such a dif-
+ferent trend could be due to kinetic effects on copper oxidation at
+700 °C overcoming the benefits of the thermodynamic driving force.
+Weight changes (ΔW/W0%), and specific O2 gain/loss (nO2/W0
+mmol/g) are reported in Table 3 for the first and last cycle of each test
+with nO2 derived from ΔW using the molecular weight of O2. All data in
+Table 3 were computed on the basis of the sample weight W0 just before
+each segment, in order to minimize the effect of the baseline drift.
+GPCu showed the highest oxygen mass change, which increased
+moving from the first to the last cycle without evidence of decay. In all
+cases, the loss value was higher than the corresponding gain. The
+composite performance was better when the oxidation and reduction
+were conducted at the same temperature (900 °C): in this case the O2
+gain increased by the 23% moving from the first to the last cycle (from
+0.26 to 0.32 mmol/g) while the O2 loss increased only by the 3%
+keeping a value around 0.30 mmol/g. The weight gain at the 5th cycle
+was 1.02 wt%, thus approached but did not achieved the theoretical
+one (calculated as 1.19 wt%, Table 2).
+The GP-mixed oxides had lower performance in O2 exchange at
+900 °C. The weight gains and losses relative to GPCu were 38% (0.12/
+0.32) and 45% (-0.14/-0.31) for GPCuMn2 and 19% (0.06/0.32) and
+22% (-0.07/-0.31) for GPMnFe2. In contrast to GPCu, the OCs con-
+taining Mn performed better when oxidizing treatment was carried out
+at lower temperature (700 °C). In case of GPCuMn2, although a de-
+crease of 15% in the mass gain was detected from the first to the last
+cycle (from 0.17 to 0.14 mmol/g) while the weight loss value changed
+by 22% (from −0.19 to −0.23 mmol/g). When alternating tempera-
+tures were used, the oxygen exchange of GPCuMn2 improved,
+achieving fractions up to 55% (0.14/0.26) and 78% (-0.23/-0.30) of the
+corresponding GPCu values.
+On the whole, the performance trend in oxygen carrying ability was
+GPCu > GPCuMn2 > GPMnFe2 based on TG analysis, and the
+asymptotic values for weight change at 900 °C were 1.0% for GPCu,
+0.4% for GPCuMn2 and 0.2% for GPMnFe2. The alternating tempera-
+tures in the oxidation and reduction steps only had beneficial effects for
+Mn based oxygen carriers. The oxygen delivery capacity of GPCu equal
+to 1.0% would collocate this material in a medium rank position with
+respect to other synthetic oxygen carriers [10].
+3.3. Chemical-physical characterization
+3.3.1. Phase characterization
+The unprocessed OCs exhibited well-defined phase compositions.
+Geopolymer-derived kalsilite [23] and mineral oxide phases from the
+original formulations crystallized during calcination at 900 °C in ad-
+dition to trace of impurities from the metakaolin powder (quartz,
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+1.4
+1.6
+1.8
+2.0
+CuO
+Mn2O3
+Fe2O3
+MnFe2O3
+CuOMnO3
+O2 yield, mmol/g
+700°C
+900°C
+Fig. 1. O2 yield at 900 °C and PO2 = 0.01 bar for pure and mixed oxides at
+different oxidation temperatures.
+Table 2
+O2 yield at 900 °C and PO2 = 0.01 bar for OCs at different oxidation tem-
+peratures.
+GPCu
+GPCuMn2
+GPMnFe2
+Oxidation temperature [°C]
+O2 yield [mmol/g (%wt.)]
+700
+0.729 (2.33)
+0.331 (1.06)
+0.162 (0.52)
+900
+0.371 (1.19)
+0.175 (0.56)
+0.065 (0.21)
+Table 3
+Weight change of the sample and oxygen release/uptake in TG at 1st and 5th cycle.
+Sample
+Cycling conditions
+Oxidation (Air)
+Reduction (Ar)
+Weight change
+[%]
+O2
+[mmol/g]
+Weight change
+[%]
+O2
+[mmol/g]
+1st
+5th
+1st
+5th
+1st
+5th
+1st
+5th
+GPCu
+700 °C air/900 °C Ar
+0.79
+0.84
+0.25
+0.26
+−0.91
+−0.96
+−0.28
+−0.30
+900 °C air/900 °C Ar
+0.83
+1.02
+0.26
+0.32
+−0.97
+−1.00
+−0.30
+−0.31
+GPCuMn2
+700 °C air/900 °C Ar
+0.54
+0.46
+0.17
+0.14
+−0.61
+−0.75
+−0.19
+−0.23
+900 °C air/900 °C Ar
+0.35
+0.39
+0.11
+0.12
+−0.45
+−0.45
+−0.14
+−0.14
+GPMnFe2
+700 °C air/900 °C Ar
+0.33
+0.25
+0.10
+0.08
+−0.33
+−0.33
+−0.10
+−0.10
+900 °C air/900 °C Ar
+0.20
+0.19
+0.06
+0.06
+−0.23
+−0.21
+−0.07
+−0.07
+A. Natali Murri, et al.
+Chemical Engineering Journal 393 (2020) 124756
+4
+
+
+===== Page 5 =====
+
+anatase, muscovite, not shown) (Fig. 3). GPCuMn2 contained traces of
+newly formed mineral phases after calcining including a mixed copper-
+manganese oxide (CuMn2O4) and a manganese silicate (braunite,
+Mn7SiO12), which were formed by reaction of Mn2O3 with both the
+copper oxide and the silicate environment of the geopolymer during
+calcination. In contrast, GPCu and GPMnFe2 show no evidence of
+mixed oxides or silicate phases after calcining, as their compositions
+were still defined by tenorite and hematite as the major phases. The
+presence of CuMn2O4 spinel and, secondarily, of braunite in GPCuMn2
+was favored by the relative contents of Mn and Cu in the formulation
+(Mn:Cu = 2) and by the 2+ oxidation state of Cu, which combines
+more easily with Mn3+ to form a spinel structure rather than Fe3+
+[24,25]. However, both bimetallic CuMn2O4 and the manganese silicate
+Mn7SiO12 have already been demonstrated good oxygen release ability
+and could enhance performance in CLOU applications [10,24]. The X-
+ray diffraction patterns of the oxygen carriers in the reduced state after
+cycling in an alternating Ar-air atmosphere at 900 °C are reported in
+Fig. 4. All treated samples showed evidence of the starting metal oxides
+being reduced based on the presence of traces of Cu2O in GPCu and
+Mn3O4 in GPCuMn2 or GPMnFe2. The reduced oxides confirmed the
+reactivity of the materials during oxidation and reduction cycles. No
+evidence of the reduction of CuO to Cu or Mn2O3 to MnO was observed
+in
+contrast
+to
+thermodynamic
+simulations.
+Mn2O3
+not
+thermo-
+dynamically stable above 900 °C and, as such, is prone to decomposi-
+tion, which enables it to form bimetallic oxides and silicates, as was
+observed in GPCuMn2 and GPMnFe2 [8,24]. No traces of regenerated
+Mn oxide could be found in these samples, likely because the phase
+transformation from Mn3O4 to Mn2O3 is not reversible at temperatures
+higher than 800 °C. Hence, Mn3O4 formed preferentially in the re-
+converted material [8].
+The phase composition of GPCuMn2 was dominated by geopolymer-
+derived phases, braunite, and CuMn2O4. Traces of CuMnO2 and MnSiO3
+(rhodonite) were also found, likely due to the reduction of CuMn2O4
+and the partial reaction of braunite with the available silica from the
+matrix by reactions R(4) and R(5) [8,9]:
+2CuMn2O4 ↔2CuMnO2 + Mn3O4 + O2 (g)
+R4
+(2/3)Mn7SiO12 + 4SiO2 ↔(14/3)MnSiO3 + O2 (g)
+R5
+Fig. 2. Time profile of sample weight during thermogravimetric tests with GPCu, GPCuMn2 and GPMnFe2: T = 900 °C in Ar and air (A); T = 900 °C in Ar,
+T = 700 °C in air (B).
+A. Natali Murri, et al.
+Chemical Engineering Journal 393 (2020) 124756
+5
+
+
+===== Page 6 =====
+
+Both reactions R(4) and R(5) are fully reversible in systems with a
+relatively low amount of reactive SiO2[9]. In addition, both reactions
+involve the release of oxygen, which increases the oxygen uncoupling
+ability of the carrier and the formation of such phases increases CLOU
+efficiency. The absence of tephroite (Mn2SiO4), which is a reaction
+product between braunite and rhodonite at temperatures above 1000 °C
+and has been previously observed in Mn-containing geopolymers [19],
+is justified because the process temperature does not exceed 900 °C and
+the Si/Mn ratio is not optimal [9]. The interactions between Mn and the
+silicate environment of the geopolymer at a given Si/(Mn + Si) mole
+ratio at temperature below 1000 °C do not hinder the oxygen un-
+coupling ability and enhance the reactivity of the system [9,26].
+A bimetallic Fe-Mn oxide (jacobsite, MnFe2O4) was identified in
+GPMnFe2, in addition to quartz and hematite. The formation of the
+ferrite spinel jacobsite is consistent with previous reports of Mn-Fe CLC
+systems [19,27], which found is as an intermediate phase during the
+regeneration of the reduced monometallic oxides.
+The complete conversion to the oxidized phases of Fe2O3 and Mn2O3
+during the oxidation step could not be verified in the present study
+because their formation could be due to exposure to the ambient air
+during XRD analysis. The transformation of jacobsite into Mn and Fe
+monometallic oxides has been shown to require a relatively long time
+[27], and might not be favored at low temperature. As a result, he-
+matite, possibly formed by re-oxidation of Fe3O, was identified as the
+predominant phase, although minor amounts of Mn2O3 were also
+spotted. However, the difference between manganese and iron-bearing
+phases was problematic. Unlike the beneficial effect on oxygen un-
+coupling ability of the formation of CuMn2O4 in GPCuMn2, the pre-
+sence of the corresponding iron-based spinel MnFe2O4, in GPMnFe2
+was detrimental to the performances of the OC. Cubic jacobsite is not
+Fig. 3. XRD patterns of the three oxygen carries.
+Fig. 4. XRD patterns of the three oxygen carries after TG cycles at 900 °C (reducing segment).
+A. Natali Murri, et al.
+Chemical Engineering Journal 393 (2020) 124756
+6
+
+
+===== Page 7 =====
+
+active phase, which reduces the reactivity of the oxygen carrier [28].
+3.3.2. Microstructural characterization
+All OCs exhibited a homogeneous microstructure, made of the ty-
+pical aluminosilicate nanoprecipitates formed by the alkali activation
+process, along with well dispersed mineral oxide particles (Fig. 5). The
+metal oxides maps obtained by EDS analysis and reported in Fig. 6
+confirms the homogeneous distribution of the active phases within the
+geopolymer matrix. Furthermore, no microcracks were detected,
+pointing out the good refractoriness of the geopolymer starting mate-
+rials and confirming sufficient stability at the operating conditions.
+In all OCs, the mineral oxide particles were uniformly distributed in
+the matrix. Some CuO agglomeration was noticed for GPCu, likely due
+to the finer particle size of the CuO powder compared to the other
+oxides. Elemental mapping also shows that the particle size of Mn oxide
+was larger compared to Fe2O3 and CuO as previously found by particle
+size measurements. Such difference in grain size and, correspondingly,
+in the specific surface area (active surface) of the oxide particles em-
+bedded in the matrix, are likely responsible for the lower performances
+of the Mn-bearing samples compared to GPCu, especially considering
+the effective molar ratio Mn:Cu = 2 used in the formulation. The larger
+size of Mn2O3 particles might have decreased the O2 gain and loss ratio,
+slowing the reaction rate of the Mn-bearing phases such as CuMn2O4
+and Mn7SiO12, thus decreasing their oxygen uncoupling ability.
+3.4. Fluidized bed reactor experiments using a GPCu oxygen carrier
+On the basis of the better performance of the GPCu oxygen carrier in
+TG cycling tests, FB reactor tests were carried out only for this material
+in order to ascertain the suitability of GPCu to undergo real process
+conditions. A comparison with unfilled geopolymer GP was also per-
+formed under same operation conditions.
+Firstly, the minimum fluidization velocity (Umf) of GPCu was de-
+termined at T = 800 °C by measuring the pressure drop in the FB
+column at increasing/decreasing fluidization velocity. An inflection
+point was found in the pressure diagram at U = 0.045 m/s. The Ergun
+equation [29] predicted a slightly lower value of 0.040 mm/s. Conse-
+quently, GPCu granules with size 0.2–0.4 mm were categorized as B
+group in the Geldart classification [29], i.e. sand-like and easily flui-
+dizable powder.
+The CLOU function of GPCu was tested in fluidized bed by peri-
+odically switching the reactor atmosphere from N2 to air with a period
+τ = 30 or 40 min. A number of repeated cycles in excess of 20 was
+carried at T = 900 °C. Examples of the measured oxygen concentration
+profile are shown in Fig. 7. The test started with complete oxidation of
+GPCu (t = 0 in Fig. 7). The measured concentration shows good re-
+peatability with increasing cycle number, with release from 0.8 to 0.5%
+vol. of molecular oxygen during the reduction stage. The duration of
+30 min was not sufficient for the complete depletion of oxygen in ni-
+trogen, but it was enough to achieve complete re-oxidation in air, i.e.
+21.0% vol. concentration of O2. The profiles obtained for the unfilled
+geopolymer GP (red curve) showed no oxygen carrier activity, since no
+residual oxygen was found after oxidation stage, which confirmed the
+inert character of GP. Thus, catalytic activity of GPCu due to Mars and
+van-Krevelen mechanism [30] via oxygen adsorption in geopolymer
+matrix is likely excluded: GPCu material actually behaves as an oxygen
+carrier more than a catalyst.
+Results of the cyclic tests with GPCu were analyzed in terms of
+oxygen carrier conversion degree (ξ) Analysis assumed conservation of
+oxygen (Eqs. (2) and (3)), where Q is the volumetric flow rate of the
+gas, and WOC the mass of the oxygen carrier in the reactor. In addition,
+24.03 (L/mol) is the molar volume of gas at 20 °C and 31.998 (g/mol) is
+molecular weight of O2. ΔWmax was set to 1.0% based on results of TG
+analysis. Equation (2) applies for the step of reduction in N2, whilst Eq.
+(3) describes oxidation in air. The instantaneous conversion degree can
+be computed as a function of time by integrating Eqs. (2) and (3). The
+value of ξ increases during reduction and decreases during oxidation,
+ranging between 0 and 1.
+=
+d
+dt
+QC
+W
+W
+100
+31.998
+24.03
+1
+O
+max
+OC
+2
+(2)
+=
+d
+dt
+Q
+C
+W
+W
+21
+100
+31.998
+24.03
+1
+O
+max
+OC
+2
+(3)
+The data from Fig. 7 were converted to the conversion degree dia-
+gram in Fig. 8. The rise of ξ is rather slow and regular during reduction,
+whereas the decrease in ξ is faster during oxidation in air. Apart from
+the first cycle having period of 40 min, the diagram highlights the
+overlapping behavior of both reduction and oxidation curves with very
+similar final conversion degree, moving from the first to the last cycle.
+Possible inter-particle kinetic limitations did not allow for full conver-
+sion (i.e. ξ = 1.0) at the end of the reduction step, with an average
+value ξ = 0.81 ± 0.03.
+The time derivatives of the conversion degree (dξ/dt) are shown as a
+function of ξ during a TG cycle (Fig. 9A) and a FB cycle (Fig. 9B) for
+GPCu at 900 °C. The shape of the curves was very different moving from
+the TG test to the FB test. The TG test had blunter, but longer evolution
+during both reduction and oxidation. This indicates that the FB reactor
+more rapidly removes oxygen or makes it available during cyclic op-
+eration, presumably due to enhanced transport phenomena during FB
+operation as compared to TG, where inter-particle diffusional resistance
+may be a limiting factor [31].
+Three other observations were that: i) the maximum conversion rate
+occurs in the early stages of both oxidation and reduction when more
+active sites are available; ii) the maximum values obtained in both tests
+are of the same order of magnitude; and iii) oxidation is faster than
+Fig. 5. SEM images at different magnifications of GPCu, as representative of all produced OCs.
+A. Natali Murri, et al.
+Chemical Engineering Journal 393 (2020) 124756
+7
+
+
+===== Page 8 =====
+
+Fig. 6. Element maps by EDS for GPCu (a), GPCuMn2 (b), GPMnFe2 (c).
+0
+5
+10
+15
+20
+25
+0
+50
+100
+150
+200
+250
+300
+O2 concentration, % vol.
+time, min
+GPCuO
+GP13
+Fig. 7. O2 profile during repeated cycles of fluidization in air and in N2 for GPCu and the plain geopolymer GP (T = 900 °C, U = 0.073 m/s).
+0
+0.2
+0.4
+0.6
+0.8
+1
+0
+50
+100
+150
+200
+250
+300
+350
+conversion degree, -
+time, min
+R                O          R
+O           R          O            R         O          R            O
+Fig. 8. Diagram of the conversion degree during repeated cycles of reduction (R) and oxidation (O) (GPCu, T = 900 °C, U = 0.073 m/s).
+A. Natali Murri, et al.
+Chemical Engineering Journal 393 (2020) 124756
+8
+
+
+===== Page 9 =====
+
+reduction in both tests because of the oxygen concentration that was
+used (21% vol.). From a practical point of view it should be inferred
+that the switch from reduction to oxidation should be operated when
+dξ/dt substantially decays, this event occurring at around ξ = 0.4 in
+both cases.
+The rate index R [32] was calculated from the dξ/dt curves by
+averaging over the first minute of oxidation or reduction (Eqs. (4) and
+(5)). Rox was normalized to 15% vol. of oxygen (Eq. (4)).
+=
+R
+d
+dt
+0.15
+0.21%
+ox
+(4)
+=
+R
+d
+dt %
+red
+(5)
+The
+computed
+values
+for
+the
+FB
+tests
+with
+GPCu
+were
+Rox = 37.1 ± 1.4% min−1, and Rred = 20.9 ± 1.7% min−1 resulting
+Fig. 9. Time derivative of the conversion degree against the conversion degree. A) TG test; B) fluidized bed test (GPCu, T = 900 °C).
+Fig. 10. Time profiles of CO2, CO (A) and O2 (B) during six cycles of reduction and oxidation with feeding wood char batches (GPCu, T = 900 °C, U = 0.073 m/s,
+Wch = 80 mg). The symbols mark the peaks of CO2, when the gas switch occurred (stars: air-to-N2, triangles: N2-to-air).
+A. Natali Murri, et al.
+Chemical Engineering Journal 393 (2020) 124756
+9
+
+
+===== Page 10 =====
+
+higher values than reported for other oxygen carriers [32] and con-
+firming the enhanced kinetics of the geopolymer based composites.
+The ability of the GPCu to operate in a real CLOU process was de-
+monstrated by feeding wood (pine) char into the FB reactor. In these
+runs, just before the fluidization stream was switched from air to ni-
+trogen, a wood-char batch (Wch = 80 mg) was manually dropped into
+the reactor. The CO2 – CO (Fig. 10A) and O2 (Fig. 10B) concentrations
+confirmed that GPCu delivered O2 to the fuel for oxidation. CO2 was
+detected during the entire N2 stage and, by comparison with Fig. 7, the
+released O2 was depleted by char combustion. In addition, CO was also
+detected as consequence of the transient high temperature step and
+possible reaction with residual volatiles in the wood char. The peak CO2
+concentrations up to 19.5% vol. at beginning of the reduction step
+(marked by star symbols) are also due to traces of residual air from the
+oxidation cycle. The variation of the CO2 peaks among the cycles
+(standard deviation equal to 3.4% vol.) may be attributed to the manual
+feeding of the fuel, with likely changes in the feeding interval. The
+small CO2 peaks noted at beginning of the oxidation step (marked by
+triangle symbols) are due to residual unconverted char in the reactor,
+which promptly burnt in air. However, the tests confirmed that GPCu
+was able to convert most of the fuel in absence of air during OC re-
+duction step. The integration of CO2 profile during the reduction step,
+just before switching of air into reactor, provided the quantitative de-
+termination of carbon burned by chemical looping. The average value
+over the six cycles was equal to 25.6 ± 2.1 mg, accounting for around
+60% of fixed carbon in the wood-char.
+The final test of the suitability of GPCu for FB operation was an
+attrition test that was carried out in a FB at 800 °C in air. The fluidi-
+zation velocity U was set at 0.20 m/s (U/Umf = 3.8). The elutriation
+rate diagram is displayed in Fig. 11, showing a typical asymptotic trend
+with time. The asymptotic value was 6.3 ± 2.2 × 10-5h−1, which was
+similar to attrition rates reported for other oxygen carriers [33] and
+typical FB catalysts [34]. The crushing strength of the GPCu granules
+was 6.4 ± 0.9 N, which was comparable to or higher than values re-
+ported for natural or modified oxygen carriers of similar size [8,15,28].
+The good structural integrity of the material after the FB tests was
+confirmed by SEM analysis. Image analysis repeated on different sam-
+plings highlighted how the OC grain size was scarcely affected by the
+FB cycling tests (Fig. 12A). The process only resulted in the exfoliation
+of the external layer of the granules and in the removal of superficial
+debris, leaving the active phase directly exposed (Fig. 12B) but grafted
+to the matrix by connecting bridges (Fig. 12B inset). Overall, the results
+of both attrition and crushing tests demonstrated that the geopolymer
+oxygen carrier was suitable for application in fluidized beds.
+4. Conclusions
+Enhanced OCs intended for CLOU applications were produced using
+geopolymer composites based on CuO, Mn2O3/CuO and Fe2O3/Mn2O3.
+Thermogravimetric analysis assessed the oxygen transfer ability of the
+formulated materials and found that GPCu had the best performance in
+isothermal conditions at 900 °C. The measured O2 loss and gain was
+found just above around 1.0 wt% for GPCu, referred to a total active
+phase of 37 wt%. Mixed Mn/Fe and Mn/Cu oxide-based OCs were less
+effective because their performance was affected by the formation of
+bimetallic Mn oxides and silicates.
+Fluidized bed tests in alternating atmospheres of N2 and air con-
+firmed the results of TG analysis for GPCu. The kinetics of oxidation is
+faster than reduction. The rate index was higher than values reported
+for common oxygen carriers. The results of attrition and crushing tests
+demonstrated GPCu is a suitable oxygen carrier for fluidized bed ap-
+plications.
+Confirmation of the ability of GPCu to operate in a real CLOU
+process was provided by batch tests of wood char combustion. Evidence
+of CO2 formation was observed during repeated cycles under inert at-
+mosphere and in presence of char particles, with GPCu being able to
+convert more than 80% of fixed carbon in the wood-char. The research
+indicates that novel geopolymer-based oxygen carriers are suitable for
+CLOU combustion of solid fuels operated in complex process schemes.
+0.E+00
+2.E-04
+4.E-04
+6.E-04
+8.E-04
+1.E-03
+0
+100
+200
+300
+400
+500
+600
+el. rate, h-1
+time, min
+Fig. 11. Elutriation rate of GPCu (T = 800 °C, U = 0.200 m/s).
+Fig. 12. SEM images of GPCu granules after CLOU cycling and attrition test in fluidized bed reactor at low (left) and high (right) magnification.
+A. Natali Murri, et al.
+Chemical Engineering Journal 393 (2020) 124756
+10
+
+
+===== Page 11 =====
+
+Funding
+This research did not receive any specific grant from funding
+agencies in the public, commercial, or not-for-profit sectors.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influ-
+ence the work reported in this paper.
+References
+[1] J. Morgan, E. Northrop, Will the Paris Agreement accelerate the pace of change?
+Wiley Interdiscip. Rev. Clim. Change 8 (2017).
+[2] J.C. Abanades, B. Arias, A. Lyngfelt, T. Mattisson, D.E. Wiley, H. Li, M.T. Ho,
+E. Mangano, S. Brandani, Emerging CO2 capture systems, Int. J. Greenh. Gas Con.
+40 (2015) 126–166.
+[3] E.S. Rubin, H.B. Zhai, The Cost of Carbon Capture and Storage for Natural Gas
+Combined Cycle Power Plants, Environ. Sci. Technol. 46 (2012) 3076–3084.
+[4] A. Lyngfelt, 20 – Chemical looping combustion (CLC) A2 – Scala, Fabrizio, Fluidized
+Bed Technologies for Near-Zero Emission Combustion and Gasification, Woodhead
+Publishing2013, pp. 895–930.
+[5] J. Adanez, A. Abad, F. Garcia-Labiano, P. Gayan, L.F. de Diego, Progress in che-
+mical-looping combustion and reforming technologies, Prog. Energy Combust. Sci.
+38 (2012) 215–282.
+[6] T. Mattisson, M. Keller, C. Linderholm, P. Moldenhauer, M. Rydén, H. Leion,
+A. Lyngfelt, Chemical-looping technologies using circulating fluidized bed systems:
+Status of development, Fuel Process. Technol. 172 (2018) 1–12.
+[7] J.A. Miller, C.T. Bowman, Mechanism and modeling of nitrogen chemistry in
+combustion, Prog. Energy Combust. Sci. 15 (1989) 287–338.
+[8] A.-M. Azad, A. Hedayati, M. Rydén, H. Leion, T. Mattisson, Examining the
+Cu–Mn–O spinel system as an oxygen carrier in chemical looping combustion,
+Energy Technology 1 (2013) 59–69.
+[9] D. Jing, M. Arjmand, T. Mattisson, M. Rydén, F. Snijkers, H. Leion, A. Lyngfelt,
+Examination of oxygen uncoupling behaviour and reactivity towards methane for
+manganese silicate oxygen carriers in chemical-looping combustion, Int. J. Greenh.
+Gas Con. 29 (2014) 70–81.
+[10] D. Hosseini, Q. Imtiaz, P.M. Abdala, S. Yoon, A.M. Kierzkowska, A. Weidenkaff,
+C.R. Müller, CuO promoted Mn2O3-based materials for solid fuel combustion with
+inherent CO2 capture, J. Mater. Chem. A 3 (2015) 10545–10550.
+[11] P. Mungse, G. Saravanan, T. Uchiyama, M. Nishibori, Y. Teraoka, S. Rayalu,
+N. Labhsetwar, Copper-manganese mixed oxides: CO2-selectivity, stable, and cyclic
+performance for chemical looping combustion of methane, Phys. Chem. Chem.
+Phys. 16 (2014) 19634–19642.
+[12] W.T. Hu, F. Donat, S.A. Scott, J.S. Dennis, The interaction between CuO and Al2O3
+and the reactivity of copper aluminates below 1000 degrees C and their implication
+on the use of the Cu-Al-O system for oxygen storage and production, RSC Adv. 6
+(2016) 113016–113024.
+[13] J. Adánez, L.F. de Diego, F. García-Labiano, P. Gayán, A. Abad, J.M. Palacios,
+Selection of oxygen carriers for chemical-looping combustion, Energy Fuels 18
+(2004) 371–377.
+[14] J. Davidovits, Geopolymers – inorganic polymeric new materials, J. Therm. Anal.
+37 (1991) 1633–1656.
+[15] R. Pérez-Vega, A. Abad, F. García-Labiano, P. Gayán, L.F. de Diego, M.T. Izquierdo,
+J. Adánez, Chemical Looping Combustion of gaseous and solid fuels with manga-
+nese-iron mixed oxide as oxygen carrier, Energy Convers. Manage. 159 (2018)
+221–231.
+[16] P. Duxson, G.C. Lukey, J.S.J. van Deventer, Thermal evolution of metakaolin geo-
+polymers: Part 1 – Physical evolution, J. Non-Cryst. Solids 352 (2006) 5541–5555.
+[17] J.L. Provis, C.Z. Yong, P. Duxson, J.S.J. van Deventer, Correlating mechanical and
+thermal properties of sodium silicate-fly ash geopolymers, Colloids Surf., A 336
+(2009) 57–63.
+[18] F. Miccio, A.N. Murri, E. Landi, Synthesis and characterization of geopolymer
+oxygen carriers for chemical looping combustion, Appl. Energ. 194 (2017)
+136–147.
+[19] R. Bendoni, F. Miccio, V. Medri, E. Landi, Chemical looping combustion using
+geopolymer-based oxygen carriers, Chem. Eng. J. 341 (2018) 187–197.
+[20] M. Minelli, V. Medri, E. Papa, F. Miccio, E. Landi, F. Doghieri, Geopolymers as solid
+adsorbent for CO2 capture, Chem. Eng. Sci. 148 (2016) 267–274.
+[21] I. Adánez-Rubio, M.T. Izquierdo, A. Abad, P. Gayán, L.F. de Diego, J. Adánez, Spray
+granulated Cu-Mn oxygen carrier for chemical looping with oxygen uncoupling
+(CLOU) process, Int. J. Greenh. Gas Con. 65 (2017) 76–85.
+[22] A. Evdou, V. Zaspalis, L. Lori Nalbandian, Ferrites as redox catalysts for chemical
+looping processes, Fuel 165 (2016) 367–378.
+[23] V.F.F. Barbosa, K.J.D. MacKenzie, Synthesis and thermal behaviour of potassium
+sialate geopolymers, Mater. Lett. 57 (2003) 1477–1482.
+[24] M. Källén, M. Rydén, A. Lyngfelt, T. Mattisson, Chemical-looping combustion using
+combined iron/manganese/silicon oxygen carriers, Appl. Energ. 157 (2015)
+330–337.
+[25] Q. Zafar, T. Mattisson, B. Gevert, Integrated hydrogen and power production with
+CO2 capture using chemical-looping reforming-redox reactivity of particles of CuO,
+Mn 2O3, NiO, and Fe2O3 using SiO2 as a support, Ind. Eng. Chem. Res. 44 (2005)
+3485–3496.
+[26] M. Rydén, H. Leion, T. Mattisson, A. Lyngfelt, Combined oxides as oxygen-carrier
+material for chemical-looping with oxygen uncoupling, Appl. Energ. 113 (2014)
+1924–1932.
+[27] A. Lambert, C. Delquié, I. Clémeneçon, E. Comte, V. Lefebvre, J. Rousseau,
+B. Durand, Synthesis and characterization of bimetallic Fe/Mn oxides for chemical
+looping combustion, Energy Procedia 1 (2009) 375–381.
+[28] S.K. Haider, G. Azimi, L. Duan, E.J. Anthony, K. Patchigolla, J.E. Oakey, H. Leion,
+T. Mattisson, A. Lyngfelt, Enhancing properties of iron and manganese ores as
+oxygen carriers for chemical looping processes by dry impregnation, Appl. Energ.
+163 (2016) 41–50.
+[29] D. Kunii, O. Levenspiel, CHAPTER 3 – Fluidization and Mapping of Regimes, in: D.
+Kunii, O. Levenspiel (Eds.) Fluidization Engineering (Second Edition), Butterworth-
+Heinemann, Boston, 1991, pp. 61-94.
+[30] C. Doornkamp, V. Ponec, The universal character of the Mars and Van Krevelen
+mechanism, J. Mol. Catal. A: Chem. 162 (2000) 19–32.
+[31] L. Massimilla, H.F. Johnstone, Reaction kinetics in fluidized beds, Chem. Eng. Sci.
+16 (1961) 105–112.
+[32] T. Mendiara, R. Perez, A. Abad, L.F. de Diego, F. Garcia-Labiano, P. Gayan,
+J. Adanez, Low-cost Fe-based oxygen carrier materials for the iG-CLC process with
+coal. 1, Ind. Eng. Chem. Res. 51 (2012) 16216–16229.
+[33] A. Cabello, P. Gayan, F. Garcia-Labiano, L.F. de Diego, A. Abad, J. Adanez, On the
+attrition evaluation of oxygen carriers in Chemical Looping Combustion, Fuel
+Process. Technol. 148 (2016) 188–197.
+[34] P. Ammendola, R. Chirone, L. Lisi, G. Ruoppolo, G. Russo, Copper catalysts for H2
+production via CH4 decomposition, J. Mol. Catal. A: Chem. 266 (2007) 31–39.
+A. Natali Murri, et al.
+Chemical Engineering Journal 393 (2020) 124756
+11

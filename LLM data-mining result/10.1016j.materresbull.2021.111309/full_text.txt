@@ -1,0 +1,704 @@
+
+
+===== Page 1 =====
+
+Materials Research Bulletin 140 (2021) 111309
+Available online 11 March 2021
+0025-5408/© 2021 Elsevier Ltd. All rights reserved.
+Enhanced thermal stability and red-ox activity of PrBaMn2-xFexO6–δ oxides 
+V.S. Kudyakova a, A.M. Shalamova a, A.V. Chukin b, A. Yu. Suntsov a,* 
+a Institute of Solid State Chemistry, Ural Branch, Russian Academy of Sciences, Yekaterinburg, 620990, Russia 
+b Ural Federal University, Yekaterinburg, 620075, Russia   
+A R T I C L E  I N F O   
+Keywords: 
+Chemical looping with oxygen uncoupling 
+(CLOU) 
+Oxygen storage materials (OSM) 
+Perovskite 
+Manganite 
+Anisotropic expansion 
+A B S T R A C T   
+The design of new oxygen storage materials remains the key factor for intensive progress in technologies of air- 
+free hydrocarbons combustion. The influence of the iron concentration on the oxygen storage characteristics of 
+solid solutions PrBaMn2–xFexO6–δ is discussed. The complex oxides are synthesized via combined glycine- 
+glycerol-nitrate precursor route. Dependence of unit cell parameters on iron content is estimated by X-ray 
+powder diffraction at heating and an extended solid solution is shown to be formed up to x = 1.00. The tem­
+perature increase, as well as iron doping, is shown to be favorable factors for the crystallization of highly 
+symmetric perovskites. Thermogravimetry with differential scanning calorimetry is used to demonstrate a phase 
+stability of iron doped materials at elevated temperatures in air. Solid solutions exhibit large oxygen storage 
+capacity and excellent reversibility of exchange under switching gas phase between air ↔ 5% H2 in Ar. With the 
+increase of iron concentration, the kinetics of redox processes are shown to decline which caused by suppression 
+in anisotropy of thermal expansion under doping.   
+1. Introduction 
+The development of new ecologically clean methods of hydrocarbons 
+processing has become a matter of high interest with the present state of 
+environmental degradation in conjunction with the increasing level of 
+energy demand. One of the technologies that meet the requirements of 
+environment-oriented energetics is the chemical looping with oxygen 
+uncoupling (CLOU) based on the cyclic redox processes of compounds 
+acting as oxygen storage materials (OSMs) [1–3]. The efficiency of CLOU 
+processes directly depends on such OSMs characteristics, as oxygen 
+storage capacity, redox kinetics, structural and mechanical robustness. 
+Simple oxides of transition metals seem to have been most intensely 
+studied for applications in CLOU technologies [4–9]. For instance, 
+copper and nickel oxides can release about 15 wt% of oxygen when 
+reduced to metals. Unfortunately, the reduction process is accompanied 
+with agglomeration of the metal particles. In order to overcome this 
+problem, an inert support can be used like alumina or zirconia. How­
+ever, this method results in a sharp decrease of the storage capacity of 
+the obtained materials [10,11]. Though better withstanding reductive 
+caking, iron and manganese oxides show poor kinetics of oxygen ex­
+change [9,12] while cobalt oxide is too much expensive for the appli­
+cation [4]. The drawbacks of simple oxides call for the search of 
+alternatives such as the using of more complex oxides in Ca-Mn-O, 
+Mn-Fe-O, Mn-Si-O and Mn-Ni-O systems [13–18]. Among them, perov­
+skite related oxides are of particular interest due to favorable arrange­
+ments of oxygen ions being capable for fast ionic transport. The 
+literature data show that perovskite-like manganites are most numerous 
+complex oxides maintaining a single-phase state in oxygen exchange 
+reactions for OSM applications, which reflects their abundance, avail­
+ability and capability of using in variety of conditions. For example, low 
+cost and rather large variations of oxygen content at elevated temper­
+atures are attractive features of CaMnO3–δ [4,19]. Still, the oxygen ex­
+change rate for simple perovskite-like manganites is not high enough for 
+CLOU applications [4] and the research interest is aimed at modifying its 
+chemical composition and crystal structure to improve functional 
+properties. One of the widely used methods is doping with atoms of 
+substantially different size compared with the ones in the pristine oxide 
+resulting in formation of ordered perovskite-like structures. The derived 
+structures are usually anisotropic and accommodate oxygen vacancies in 
+strictly defined energetically non-equivalent crystallographic positions 
+[20–22]. Such oxides are characterized by a wide range of oxygen ho­
+mogeneity enabling an increased oxygen capacity to be expected. 
+Recently, PrBaMn2O6–δ (PBMO) was suggested as a promising CLOU 
+material [13–16,23] which belongs to the class of A-site ordered double 
+perovskites containing a layered arrangement of praseodymium and 
+barium ions. The release of oxygen from the oxide in reducing 
+* Corresponding author. 
+E-mail address: suntsov@ihim.uran.ru (A.Yu. Suntsov).  
+Contents lists available at ScienceDirect 
+Materials Research Bulletin 
+journal homepage: www.elsevier.com/locate/matresbu 
+https://doi.org/10.1016/j.materresbull.2021.111309 
+Received 16 October 2020; Received in revised form 3 March 2021; Accepted 8 March 2021   
+
+
+===== Page 2 =====
+
+Materials Research Bulletin 140 (2021) 111309
+2
+conditions is mainly provided by oxygen vacancy formation in Pr–O 
+structural sheets [16], resulting in a wide range of oxygen 
+non-stoichiometry 0 ≤δ ≤1 (i.e. from the ‘O6’ to ‘O5’ forms). This 
+process is accompanied by changing the average manganese ions 
+valency from 3.5 до 2.5. PBMO is also characterized by the high rate of 
+oxygen release/intake processes [14,16,23]. Nevertheless, the phase 
+stability of PBMO under both oxidative and reducing conditions is quite 
+limited: partial decomposition to BaMnO3 and praseodymium oxides 
+appears at heating above 970 ◦C in air [23]. In other work this process is 
+found to arise at 750 ◦C with low rate [16]. In the reductive atmosphere 
+PBMO is partially decomposed with the formation of MnO at tempera­
+tures above 800 ◦C [23]. Therefore, the area of manganite thermobaric 
+stability restricts the temperature regimes of CLOU processes. On the 
+other hand, the efficiency of CLOU processes is determined not only by 
+the properties of OSMs, but also by the operating temperatures [17,18]: 
+the temperature increasing leads to the intensification of cyclic redox 
+processes. Therefore, the modification of the chemical composition of 
+PBMO to increase phase stability seems to be a matter of interest. As 
+shown in [24] by ab initio simulation the binding energy of Mn–O (≈
+5.08 eV) in the perovskite-like oxide LaMnO3 is lower than Fe–O (≈5.29 
+eV) in LaFeO3. On the other hand, the ionic radii of manganese and iron 
+ions are similar in octahedral environment (r(Mn3+
+IS ) = r(Fe3+
+HS) = 0.645 
+Å) [25]. Therefore, the substitution of manganese by iron in double 
+manganite PrBaMn2O6-δ with an expectation of the phase stability 
+increasing is seemed to be effective route. In this work, the solid solu­
+tions PrBaMn2-xFexO6–δ (x = 0.11, 0.33, 0.67, 1.00) were obtained and 
+influence of the iron content on the unit cell parameters, phase stability 
+and oxygen intake/release characteristics of the oxides were studied. 
+2. Materials and methods 
+2.1. Synthesis 
+High purity powdered oxides Pr6O11, Mn2O3, barium carbonate 
+BaCO3 and iron carbonyl (R grade) were used as starting materials for 
+the synthesis of PrBaMn2–xFexO6–δ (PBMFO). The reagents were weighed 
+in appropriate amounts, placed in a quartz glass and fully dissolved with 
+the nitric acid. Then glycerol was added to the solution in equimolar 
+ratio to the total content of metal cations and glycine in half а of this 
+quantity. This mix of organic components are both prevents formation of 
+insoluble iron glycerolate complex [26] and high-intensity combustion 
+due to activity of metal-glycinate complex. The obtained liquor was 
+heated on a hot plate with continuous stirring till complete evaporation 
+of water and ignition of the residue. The resulting fine powder was 
+ground and calcined in air at 950 ◦C for 10 h in order to remove the 
+carbon traces. The obtained powder was pelletized under uniaxial load 
+of 2 kBar and fired consecutively in air at 1350 ◦C for 10 h, H2 at 850 ◦C 
+for 10 h and finally in air at 400 ◦C for 10 h. A part of the as-synthesized 
+sample was separated for characterization experiments. 
+2.2. Characterization 
+Experimental X–ray powder diffraction (XRD) spectra were collected 
+by a Shimadzu XRD-7000 diffractometer with Cu-Kα radiation. The ox­
+ygen contents (6–δ) of the oxides were determined by iodometric titra­
+tion [27]. The morphology of the studied materials was examined by 
+JEOL JSM 6390 scanning electron microscope (SEM). The specific sur­
+face area of the powders was measured by the BET method with a 
+Gemini VII (Micromeritics, USA) analyzer. The particle size distribution 
+of the pulverized samples was determined using a LA-950V2 analyzer 
+(Horiba, Japan) with deionized water as the suspending agent. In order 
+to avoid particles agglomeration measurements were carried out during 
+ultrasonic processing. 
+2.3. Phase stability tests 
+The phase stability was studied with the use of a high-temperature 
+Anton Paar HTK 1200 N camera and a PANalytical XPert Pro auto­
+mated diffractometer with Cu-Kα radiation in the 2θ range 20–80◦with 
+0.026◦step size and 50 s acquisition time. In order to obtain reliable data 
+the samples were heated up and equilibrated at the desired temperature 
+for 20 min before each measurement. The obtained data were utilized 
+for the crystal structure refinement with the use of the FullProf suite 
+package [28]. The absolute errors of the unit cell parameters determi­
+nation were calculated according to the positions of reflexes with 
+Nelson-Riley correction [29]. Additionally, the phase stability of single 
+phase compounds was tested on powdered samples at heating up to 
+1200 ◦C with a rate of 5◦/min in the airflow followed by keeping at these 
+conditions for 12 h and slow cooling down. The susceptibility of 
+Fe-doped manganites towards reducing conditions was examined by 
+calcination of pelletized oxides in 5% H2 in Ar mixture at 850 ◦C during 
+12 h. The phase composition of the samples after the abovementioned 
+treatments was controlled by XRD. 
+2.4. Oxygen exchange with the gas phase 
+Simultaneous thermogravimetric and differential scanning calori­
+metric measurements (TGDSC) in air were performed with the use of a 
+STA 449 F3 Jupiter (Netzsch, Germany). The typical weight of the 
+powder specimens was selected as ~40 mg, TG-DSC data were collected 
+by heating of the samples in a corundum pot from room temperature to 
+1200 ◦C with the rate of 5◦/min in airflow. The oxygen uptake/release 
+characteristics were studied in additional experiments. At the first stage, 
+the samples were heated to 950 ◦C in the air with the rate of 5◦/min and 
+then carefully cooled down to 200 ◦C with 0.5◦/min to provide an 
+equilibrium oxygen content. The oxygen loss at reduction was obtained 
+from the weight decrease of the samples in a corundum pan at heating 
+up to 950 ◦C with a rate of 2◦/min in a 5% H2 in Ar gas flow. After 
+heating, the samples were kept at a constant temperature and gas media 
+until the weight loss acquired an asymptotic-like view caused by a low 
+rate of oxygen exchange between gas and reduced oxides. At the final 
+stage, the atmosphere was switched on air to provide a full oxygen 
+saturation of the samples. Chamber vacuuming was performed before 
+each change of atmosphere. 
+3. Results and discussion 
+3.1. Characterization 
+The obtained XRD data for the samples PrBaMn2–xFexO6–δ (x = 0.11, 
+0.33, 0.67, 1.00) and dependence of the unit cell volume of manganites 
+on iron concentration are summarized in Fig. 1a. The X-ray diffraction 
+patterns give evidence to phase purity of the as-prepared iron doped 
+materials having invariably tetragonal structure P4/mmm correspond­
+ing to the fully oxidized form of layered manganites. Iron incorporation 
+in the structure is accompanied by a linear increase of the unit cell pa­
+rameters showing the formation of extended solid solutions in the con­
+centration range 0 < x < 1. The crystal structure of the doped oxides is 
+similar to the parent manganite PrBaMn2O6–δ [16,23]. The unit cell 
+parameters are collected in Table 1. As can be seen from Fig. 1(b) iron 
+doping leads to an insignificant shift in diffraction signals with a gradual 
+merge of the split peaks. Earlier such phenomenon was explained by the 
+partial disordering of Pr3+ and Ba2+ ions in the double perovskite matrix 
+PrBaMn2O6. [14] On the other hand, the observed asymmetry of the 
+peak indicates the coexistence of the layered structure with the disor­
+dered one. The full-profile refinement results in Fig. 1c are presented for 
+the PrBaMn1.33Fe0.67O6–δ as an example. 
+The obtained XRD data for PrBaMnFeO6–δ at different stages of heat 
+treatment are shown in Fig. 2 as an example. Firing in air at 1350 ◦C 
+leads 
+to 
+the 
+formation 
+of 
+cubic 
+disordered 
+manganite 
+V.S. Kudyakova et al.                                                                                                                                                                                                                          
+
+
+===== Page 3 =====
+
+Materials Research Bulletin 140 (2021) 111309
+3
+Pr0.5Ba0.5Mn0.5Fe0.5O3–δ discussed in [30,31]. Further annealing at 850 
+◦C in the hydrogen flow results in the formation of the reduced ‘O5’ form 
+of the layered perovskite with tetragonal structure P4/nmm [16,23]. The 
+final heat treatment for 10 h at 400 ◦C ends up with the gradual oxygen 
+saturation of the ordered phase and obtaining the ‘O6’ with P4/mmm 
+space group [23]. Such phase transformation during synthesis is 
+observed for all samples under investigation. 
+Increasing of the iron concentration in doped oxides leads to a 
+gradual decrease in the BET specific surface area with an increase in 
+particle size (see Supplementary), which can affect the redox kinetics 
+[14]. Results of SEM analysis indicate the oxides are mainly formed 
+spherical particles of micron size that typical for the synthesis used 
+(Fig. 2, inset). 
+The selected X-ray spectra for PrBaMn1.67Fe0.33O6 collected in 
+isothermal mode at different temperatures after equilibration are shown 
+in Fig. 3 (a). As can be seen the gradual heating up to 1000 ◦C is 
+accompanied only with a slight shift of the diffraction peaks confirming 
+the structural stability towards thermally induced phase transitions. It is 
+important to notice that a similar behavior for studied solid solution 
+PrBaMn2-xFexO6–δ up to x = 1.0 is observed. Generally, the temperature 
+increase is considered a key factor to facilitate crystallization of highly- 
+symmetric phases. Such phenomenon takes place for the studied iron- 
+doped manganites which is confirmed by a smoothing of the split 
+peaks in Fig. 3(b). As mentioned earlier iron doped manganites are 
+characterized with small changes in XRD patterns compared with initial 
+PrBaMn2O6–δ. Apparently it is caused by close ionic radii of manganese 
+and iron within moderate increase in unit cell volume under doping. 
+Therefore it is interesting to examine this tendency at elevated tem­
+peratures where such phenomena as polyhedra rotation, defect forma­
+tions and redistribution over the spin states are mostly intensified. 
+The high temperature XRD (HT XRD) data for investigated oxides 
+demonstrate the linear increase of lattice parameters in tetragonal phase 
+at heating, inset on Fig. 3(a). The magnitude of thermal expansion co­
+efficient (TEC), calculated over the temperature range 25–1000 ◦C, 
+varies within 15–16∙10−6 K–1 being in a good agreement with the 
+experimental data reported recently [30], Fig. 3(c). The relative error of 
+TEC determination is approximately 0.3 %. The obtained TECs values 
+are rather moderate which makes the studied compounds suitable for 
+application as active components of different high-temperature devices. 
+It should be stressed also the average TEC values do not virtually 
+depend on iron concentration growth, while thermal expansion along a 
+(αa) and c (αc) axes tend to increase and decrease, respectively. Thus one 
+can observe the strong anisotropy of thermal expansion in PrBaMn2O6-δ 
+Fig. 1. The powder XRD spectra for PrBaMn2–xFexO6–δ at different iron content (a). Dependence of the unit cell volume of manganites on iron concentration is shown 
+in the inset. The colored region is shown by an enlarged graph (b). XRD data with Rietveld refinement for PrBaMn1.33Fe0.67O6–δ are depicted at the right panel (c). 
+Table 1 
+Oxygen content and the unit cell parameters in tetragonal PrBaMn2–xFexO6–δ with S.G. P4/mmm.  
+x 
+Oxygen content 
+а, Å 
+c, Å 
+V, Å3 
+Fitting parameters 
+χ2 
+Rexp,% 
+Rp,% 
+Rwp,% 
+0.11 
+5.98 ± 0.01 
+3.901 ± 0.003 
+7.731 ± 0.004 
+117.6 ± 0.2 
+2.22 
+11.24 
+13.5 
+16.8 
+0.33 
+5.99 ± 0.02 
+3.903 ± 0.003 
+7.735 ± 0.004 
+117.8 ± 0.2 
+3.00 
+9.75 
+12.7 
+16.9 
+0.67 
+6.01 ± 0.03 
+3.904 ± 0.003 
+7.752 ± 0.005 
+118.2 ± 0.2 
+2.16 
+12.7 
+15.1 
+18.7 
+1.00 
+6.00 ± 0.02 
+3.906 ± 0.004 
+7.766 ± 0.005 
+118.5 ± 0.3 
+4.64 
+10.39 
+16.7 
+22.4  
+Fig. 2. Powder X-ray diffraction spectra of the PrBaMnFeO6–δ obtained after 
+different synthesis stages. SEM image of powder PrBaMnFeO6–δ particles is 
+shown in the inset as an example. 
+V.S. Kudyakova et al.                                                                                                                                                                                                                          
+
+
+===== Page 4 =====
+
+Materials Research Bulletin 140 (2021) 111309
+4
+that suppressed by partial substitution of iron for manganese. It should 
+be considered as interesting phenomenon that can be of great practical 
+prospects of iron doped material at high-temperature applications. It is 
+well-known the anisotropic nature of the thermal expansion in disor­
+dered perovskite-like manganites is closely related to the deviation of 
+cubic symmetry due to MnO6 tilting [32,33]. In the ABO3 perovskite 
+structure the angle of the B–O–B bonds close to 180◦and the B–O 
+bond length is smaller compared with A–O one. But for manganites, in 
+the case of LaxCa1−xMnO3 solid solution, the tilting of MnO6 polyhedra 
+results in a little shift of oxygen ion from the Mn–Mn edge to the A ion 
+while the Mn–O–Mn angle declines to 160◦. However ordering of 
+A-cations is expected to be favorable for impeded tilting of polyhedra 
+because of the formation of strong structural anisotropy. Moreover as 
+earlier demonstrated the Mn3+O6 octahedra are tended to local 
+Jahn-Teller distortions with a various Mn–O bonds that provide a linear 
+elongation along the c-axis in perovskite-like manganites [34–36]. In 
+this regard it is reasonable to assume the studied oxide PrBaMn2O6–δ, 
+containing an equal amount of octahedrally coordinated Mn3+ and 
+Mn4+ to adopt these features and manifest the anisotropic expansion 
+also. The observed suppression in anisotropic expansion can be easily 
+explained by substitution of Mn3+ ions by stable Fe3+ ones. Taking into 
+account the constant oxygen content in the oxides upon doping (Table 1) 
+it is reasonable to assume that the content of Mn4+ ions remains 
+unchanged. Suggested mechanism is expected to stabilize the structure 
+of double perovskite by reducing the content of labile Mn3+O6 octahedra 
+and to maintain a high oxygen content in the samples. To verify this 
+statement the required experiments were carried out and obtained re­
+sults are discussed below. 
+3.2. Phase stability 
+XRD patterns for studied oxides annealed both oxidizing and 
+reducing atmospheres are shown by Fig. 4. As can be seen a continuous 
+calcination of the studied compounds provides a different set of impu­
+rities which depends on the gas media used. Analysis of XRD spectra 
+obtained after oxidizing conditions reveal no addition peaks that could 
+be attributed to new phases, Fig. 4 (a) compared with PBMO. It is 
+important that even a small amount of iron concentrations provides 
+existence of single-phase manganite with double perovskite structure as 
+follows from the split reflections at 47◦and 77◦. Such behavior indicates 
+the doping of manganites by iron as an attractive route to increase the 
+stability of the perovskite-like structure. At the same time a reducing 
+atmosphere leads to accumulation of MnO traces, which observed for 
+doped oxides up to x = 0.67 Fig. 4(b). It is expected such a negligible 
+amount of impurity should not be a limiting factor for using of iron 
+doped manganites as oxygen carriers in CLOU processes, since 
+Fig. 3. In-situ powder X-ray diffraction spectra of PrBaMn1.33Fe0.67O6–δ obtained in isothermal mode after 20 min equilibration in air (a). Evolution of the a and c 
+lattice parameters of PBMFO on heating in air is shown in the inset. The colored region is shown by an enlarged graph (b). Dependence of the linear TECs from room 
+temperature (RT) to 1000 ◦C calculated by change of a and c lattice parameters (αa and αc respectively) and average TEC values on iron concentration (с). Data for x =
+0 are taken from [23] A schematic representations for octaherda at 1000 ◦C correspond to different areas of iron content. 
+Fig. 4. XRD spectra for PrBaMn2–xFexO6–δ obtained after continuous calcinations in air at 1200 ◦C (a) and in 5% H2 in Ar mixture at 850 ◦C (b). The colored region is 
+shown by inset. 
+V.S. Kudyakova et al.                                                                                                                                                                                                                          
+
+
+===== Page 5 =====
+
+Materials Research Bulletin 140 (2021) 111309
+5
+manganese oxide is rapidly oxidized at temperatures above 400 ◦C [37]. 
+The main reflections of XRD patterns given in Fig. 4(b) can be indexed 
+on the basis of the tetragonal P4/mmm S.G. The estimated values of unit 
+cell parameters are summarized in Table S2. As can be seen, a contin­
+uous reduction is favorable to an expansion in the unit cell of the studied 
+oxides which mainly caused by amplification in Coulomb repulsion 
+forces in cation sublattice. 
+TG-DSC analysis was performed to confirm a phase stability of the 
+iron doped solid solutions during heating/cooling cycle in air (Fig. 5). 
+There no thermal effects for studied oxides were appeared showing the 
+increased thermal stability of oxides with high iron concentration. The 
+increasing of manganites phase stability with iron doping was also 
+observed in [38,39]. The differences in the thermal stability of the 
+studied materials can be explained by the greater value of the Fe–O 
+binding energy compared to the Mn–O [24]. 
+3.3. Oxygen intake/release properties 
+The weight changes for all PBMFO samples under gas phase 
+switching air ↔ 5% H2 in Ar are close to each other (Fig. 6). In reducing 
+atmosphere in PrBaMn1.89Fe0.11O6-δ the relatively fast weight loss is 
+followed with a slow decrease in isothermal mode. Heating in a reducing 
+atmosphere is accompanied by the oxygen deintercalation from the 
+oxide with changes in manganese and iron ions valency according to 
+reaction (1) and corresponding to intensive oxygen loss: 
+2M(n+1)+ + O2−⇄2Mn+ + 1
+2O2↑
+(1)  
+where M = Mn or Fe, n = 2 and 3. 
+The further low-rate weight decrease can be related to the lingering 
+reduction of trivalent manganese ion resulting in partial decomposition 
+of manganite with MnO formation as an impurity, which is confirmed by 
+the XRD data. This effect was recently discussed for undoped oxide 
+PrBaMn2O6–δ in [23] and its reversibility in an oxidizing atmosphere 
+was shown. 
+For PrBaMn1.89Fe0.33O6–δ and PrBaMn1.89Fe0.67O6–δ the three-step 
+weight change is observed: a fast reduction is followed by a stage with 
+a lower rate and finished by a slow drift. The second stage may be 
+associated with different reduction kinetics of manganese and iron ions 
+due to the difference in the energy for vacancy formation when the 
+Fe–O and Mn–O bonds are broken [24]. Therefore, these effects appear 
+in doped manganites as the concentration of iron increases. 
+It is worth to mention, that in PrBaMnFeO6-δ there is one-step weight 
+loss without the following drift showing the high phase stability of the 
+oxide in a reducing atmosphere that additionally confirms obtained 
+experimental XRD data. The low rate weight decrease in undoped 
+manganite PBMO is associated both with the low kinetics of manganese 
+3+ ions reduction and the continuous accumulation of impurity. Notice 
+such decomposition is observed for the oxygen-deficient phase namely 
+‘O5’ where the oxygen vacancies are formed entirely in O–Pr–O layers 
+[16]. It is reasonable to assume that the MnO has to be crystallized as 
+secondary phase in the ordered matrix PrBaMn2O6–δ near these struc­
+tural elements. On the other hand one can observe in Fig. 4(b) some 
+decrease of impurity peak with the iron content growth that evidences in 
+favor of incline the fraction of manganese ions prone to deep reduction 
+down to the simple oxide. TG data show that iron doping leads to the 
+decrease of this effect, which completely disappears in the ordered 
+composition of PrBaMnFeO6–δ. The XRD spectra from Fig. 4(b), con­
+taining reflexes from MnO impurity and pure phase PBMFO after 
+reduction in H2 confirm this hypothesis. The weight changes dW in high 
+rate oxygen release stages closely correspond to the theoretical value at 
+the transition ‘O6’ ↔ ‘O5’ for all PBMFO solid solutions [14,16,23]. 
+The switch of the hydrogen-containing atmosphere for air results in a 
+very fast oxygen uptake almost to the maximum, which is followed with 
+slow saturation. It should be noted that the increase in iron concentra­
+tion reduces the oxygen capacity of PBMFO. These effects are almost 
+imperceptible in PrBaMn1.89Fe0.11O6-δ and PrBaMn1.67Fe0.33O6-δ oxides 
+but become quite significant for the PrBaMnFeO6-δ, in which the sample 
+weight is decreased by ≈0.35 % during one red-ox cycle. 
+The rates of oxygen loss in PrBaMn2-xFexO6-δ up to x = 0.67 are 
+relatively equal and attain a maximum at 300–450 ◦C with a gradually 
+decrease at further heating (Fig. 7a). Similar values were obtained 
+earlier 
+for 
+undoped 
+oxide 
+PrBaMn2O6-δ 
+in 
+[14,16,23]. 
+The 
+PrBaMnFeO6-δ starts to reduce under higher temperatures 400−550 ◦C 
+with a lower kinetics. At the same time, a certain decline in oxygen 
+saturation rate with iron concentration increase is observed under 
+oxidative conditions (Fig. 7b). For solid solutions PrBaMn2-xFexO6-δ up 
+to x = 0.67 the oxidation rates are comparable, while the kinetics of 
+PrBaMnFeO6-δ is significantly lower. Stepwise weight changes observed 
+in PrBaMn2–xFexO6-δ (x = 0.11, 0.33, 0.67) oxides during both the 
+reduction and oxidation can be associated with the different red-ox 
+behavior of manganese and iron ions under conditions used. By 
+analyzing Fig. 7 (b) two different steps of oxidation can be distinguished. 
+The first of them is specific for the oxides with iron content up to 0.67. As 
+can be seen from Fig. 4(b) a continuous firing of the samples in a 
+reducing atmosphere leads to a slow accumulation of MnO phase. Tak­
+ing into account the instability of such impurity higher 400 ◦C in air [37] 
+it is natural to expect rapid oxidation under experimental conditions 
+used. Indeed one can see from Fig. 7(b) this process is completed in 15 
+min. 
+Fig. 5. Weight loss (circles) and variations of DSC signal in heating/cooling 
+cycle for PrBaMn2–xFexO6–δ solid solution. 
+Fig. 6. Weight changes at isothermal (T =950 ◦C) reduction and oxidation 
+of PBFMO. 
+V.S. Kudyakova et al.                                                                                                                                                                                                                          
+
+
+===== Page 6 =====
+
+Materials Research Bulletin 140 (2021) 111309
+6
+On the other hand, some decrease of red-ox activity of the PBMF 
+phase could be attributed to the suppression in the anisotropy of thermal 
+expansion with iron doping. Indeed, a sharp increase of unit cell pa­
+rameters along c-axis in parent PBMO at heating seems to be favorable 
+for relatively fast oxygen diffusion thorough zigzag-like channels which 
+usually formed in ab plane in double-perovskite structure [40]. These 
+routes involve non-equivalent vacancy positions O3 and O2 located in 
+O–Pr–O and O–Mn–O layers (Fig. S1), respectively [41]. A slight 
+change in the unit cell parameters along ab plane observed in Fig. 3b for 
+iron-free manganite is expected to maintain a short distance between 
+O2–O2 positions and to facilitate the jumping for oxygen ions. In 
+contrast, a significant enlargement of polyhedra along ab plane caused 
+by an increase in iron concentration seems to be a key factor for 
+hampered ionic diffusion and impaired kinetics of oxygen exchange with 
+gaseous media. 
+4. Conclusion 
+In summary, the layered perovskites PrBaMn2–xFexO6–δ are synthe­
+sized via combined glycine-glycerin-nitrate precursor route. The single 
+phase iron-doped specimens are shown to maintain invariably tetrag­
+onal structure at heating in the air from room temperature to 1000 ◦C as 
+observed for undoped manganite earlier. The iron solubility limit is 
+found to be x ≥1.0. Increasing of the iron concentration is shown to 
+decrease in the specific surface area and to suppress of anisotropic 
+thermal expansion in parent manganite. The iron-doped oxide 
+PrBaMnFeO6-δ with highest iron concentration exhibits enhanced phase 
+stability both in oxidizing and reducing atmospheres compared to other 
+perovskites under study. A combination of moderate TEC values of 
+PBMFO with enhanced stability under both reductive and oxidative at­
+mospheres makes PBMFO solid solutions a good candidate for solid 
+oxide fuel cell oxygen electrodes. The solid solutions are characterized 
+by large oxygen storage capacity and show reversible oxygen exchange 
+when switching gas phase between air and 5% H2 in Ar accompanied by 
+a transition from ‘O6’ to ‘O5’ form, respectively. The growth of iron 
+content leads to a decrease in the reversibility of oxygen intake/release 
+processes which is related with narrowing in the channels for oxygen 
+diffusion caused by suppression of anisotropy in thermal expansion 
+under doping. Due to differences in oxidation/reduction kinetics of the 
+manganese and iron ions the oxygen exchange occurs in several steps. 
+The most acceptable oxide for application in CLOU processes is 
+considered to be PrBaMn1.33Fe0.67O6-δ, conjoining both increased phase 
+stability and sufficient rates of redox processes. 
+Author statement 
+Kudyakova V.S.: Data curation, Investigation, Formal analysis, 
+Validation, Writing - original draft. 
+Shalamova A.M.: Methodology, Investigation. 
+Chukin A.V.: Investigation, Resources. 
+Suntsov A.Yu.: Visualization, Conceptualization, Funding acquisi­
+tion, Supervision, Writing - review & editing. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgements 
+This work was supported by the Russian Science Foundation under 
+grant N◦19-79-10147. 
+Appendix A. Supplementary data 
+Supplementary material related to this article can be found, in the 
+online 
+version, 
+at 
+doi:https://doi.org/10.1016/j.materresbull.20 
+21.111309. 
+References 
+[1] K. Idziak, T. Czakiert, J. Krzywanski, M. Kozlowska, W. Nowak, Safety and 
+environmental reasons for the use of Ni-, Co-, Cu-, Mn- and Fe-based oxygen 
+carriers in CLC/CLOU applications: an overview, Fuel 268 (2020), 117245, https:// 
+doi.org/10.1016/j.fuel.2020.117245. 
+[2] N.C. Means, W.A. Burgess, B.H. Howard, M.W. Smith, P. Wang, D. Shekhawat, 
+Examining and modeling oxygen uncoupling kinetics of Cu-Based oxygen carriers 
+for chemical looping with oxygen uncoupling (CLOU) in a drop tube fluidized bed 
+reactor, Energy Fuels 33 (2019) 5610–5619, https://doi.org/10.1021/acs. 
+energyfuels.9b00338. 
+[3] J. Dai, K.J. Whitty, Impact of fuel-derived chlorine on CuO-based oxygen carriers 
+for chemical looping with oxygen uncoupling, Fuel 263 (2020), 116780, https:// 
+doi.org/10.1016/j.fuel.2019.116780. 
+[4] M. Ryden, H. Leion, T. Mattisson, et al., Combined oxides as oxygen carrier 
+material for chemical-looping with oxygen uncoupling, Appl. Energy 113 (2014) 
+1924–1932, https://doi.org/10.1016/j.apenergy.2013.06.016. 
+[5] J. Adanez, F.Abad A. Garcia-Labiano, P. Gayan, et al., Progress in chemical-looping 
+combustion and reforming technologies, Prog. Energy Combust. Sci. 38 (2012) 
+215–282, https://doi.org/10.1016/j.pecs.2011.09.001. 
+[6] P. Gay´an, L.F. de Diego, F. García-Labiano, J. Ad´anez, A. Abad, C. Dueso, Effect of 
+support on reactivity and selectivity of Ni-based oxygen carriers for chemical- 
+looping combustion, Fuel 87 (2008) 2641–2650, https://doi.org/10.1016/j. 
+fuel.2008.02.016. 
+Fig. 7. Relative weight changes of PrBaMn2–xFexO6–δ with different iron content collected in a 5% H2 in Ar gas mixture (a) and during isothermal oxidation at 950 ◦C 
+in the air (b). 
+V.S. Kudyakova et al.                                                                                                                                                                                                                          
+
+
+===== Page 7 =====
+
+Materials Research Bulletin 140 (2021) 111309
+7
+[7] L.F. de Diego, F. García-Labiano, J. Ad´anez, P. Gay´an, A. Abad, B.M. Corbella, et 
+al., Development of Cu-based oxygen carriers for chemical-looping combustion, 
+Fuel 83 (2004) 1749–1757, https://doi.org/10.1016/j.fuel.2004.03.003. 
+[8] H. Leion, A. Lyngfelt, M. Johansson, E. Jerndal, T. Mattisson, The use of ilmenite as 
+an oxygen carrier in chemical-looping combustion, Chem. Eng. Res. Des. 86 (2008) 
+1017–1026, https://doi.org/10.1016/j.cherd.2008.03.019. 
+[9] T. Mattisson, A. Lyngfelt, H. Leion, Chemical-looping with oxygen uncoupling for 
+combustion of solid fuels, Int. J. Greenhouse Gas Control. 3 (2009) 11–19, https:// 
+doi.org/10.1016/j.ijggc.2008.06.002. 
+[10] I.M. Gerzeliev, N.Ya Usachev, A. Yu. Popov, S.N. Khadzhiev, Partial oxidation of 
+lower alkanes by active lattice oxygen of metal oxide systems: 2. Synthesis of solid 
+contacts and syngas production in a pilot plant with a riser reactor, Pet. Chem. 52 
+(2012) 305–312, https://doi.org/10.1134/S0965544112050039. 
+[11] P. Gay´an, C.R. Forero, A. Abad, L.F. de Diego, F. García-Labiano, J. Ad´anez, Effect 
+of support on the behavior of Cu-Based oxygen carriers during long-term CLC 
+operation at temperatures above 1073 K, Energy Fuel 25 (2011) 1316–1326, 
+https://doi.org/10.1021/ef101583w. 
+[12] L. Shen, J. Wu, J. Xiao, Q. Song, R. Xiao, Chemical - looping combustion of biomass 
+in a 10 KWth reactor with Iron oxide as an oxygen carrier, Energ. Fuel. 23 (2009) 
+2498–2505, https://doi.org/10.1021/ef900033n. 
+[13] A. Klimkowicz, K. Swierczek, K. Zheng, D. Wallacher, A. Takasaki, Oxygen release 
+from BaLnMn2O6 (Ln: Pr, Nd, Y) under reducing conditions as studied by neutron 
+diffraction, J. Mater. Sci. 52 (2017) 6476–6485, https://doi.org/10.1007/s10853- 
+017-0883-2. 
+[14] A. Klimkowicz, K. Swierczek, T. Yamazaki, A. Takasaki, Enhancement of the 
+oxygen storage properties of BaPrMn2O5+δ and BaSmMn2O5+δ oxides by a high- 
+energy milling, Solid State Ion. 298 (2016) 66–72, https://doi.org/10.1016/j. 
+ssi.2016.11.013. 
+[15] H. Kim, S. Ida, Y.-W. Ju, G. Kim, T. Ishihara, Mixing effects of Cr2O3–PrBaMn2O5 
+for increased redox cycling properties of Fe powder for a solid-oxide Fe–air 
+rechargeable battery, J. Mater. Chem. A 5 (2017) 364–371, https://doi.org/ 
+10.1039/C6TA07911C. 
+[16] K. Jeamjumnunja, W. Gong, T. Makarenko, A.J. Jacobson, A determination of the 
+oxygen non-stoichiometry of the oxygen storage materials LnBaMn2O5+δ (Ln=Gd, 
+Pr), J. Solid State Chem. 239 (2016) 36–45, https://doi.org/10.1016/j. 
+jssc.2016.04.006. 
+[17] D. Jing, T. Mattisson, H. Leion, M. Ryd´en, A. Lyngfelt, Examination of perovskite 
+structure CaMnO3-δ with MgO addition as oxygen carrier for chemical looping with 
+oxygen uncoupling using methane and syngas, Int. J. Chem. Eng. 2013 (2013), 
+679560, https://doi.org/10.1155/2013/679560. 
+[18] M. Arjmand, A. Hedayati, A.-M. Azad, H. Leion, M. Ryde, T. Mattisson, CaxLa1- 
+xMn1-yMyO3-δ (M = Mg, Ti, Fe, or Cu) as oxygen carriers for chemical-looping with 
+oxygen uncoupling (CLOU), Energy Fuels 27 (2013) 4097–4107, https://doi.org/ 
+10.1021/ef3020102. 
+[19] A. Fossdal, E. Bakken, B.A. Øye, C. Schøning, I. Kaus, T. Mokkelbost, et al., Study of 
+inexpensive oxygen carriers for chemical looping combustion, Int. J. Greenhouse 
+Gas Control 5 (2011) 483–488, https://doi.org/10.1016/j.ijggc.2010.08.001. 
+[20] Y. Hu, O. Hernandez, T. Broux, M. Bahout, et al., Oxygen diffusion mechanism in 
+the mixed ion-electron conductor NdBaCo2O5+δ, J. Mater. Chem. 22 (2012) 
+18744–18747, https://doi.org/10.1039/c2jm34396g. 
+[21] R.A. Cox–Galhotra, A. Huq, J.P. Hodges, C. Yu, X. Wang, W. Gong, A.J. Jacobson, 
+S. McIntosh, An in-situ neutron diffraction study of the crystal structure of 
+PrBaCo2O5+δ at high temperature and controlled oxygen partial pressure, Solid 
+State Ion. 249–250 (2013) 34–40, https://doi.org/10.1016/j.ssi.2013.07.017. 
+[22] Y.C. Chen, M. Yashima, J. Pe˜na–Martinez, J.A. Kilner, Experimental visualization 
+of the diffusional pathway of oxide ions in a layered perovskite-type cobaltite 
+PrBaCo2O5+δ, Chem. Mater. 25 (2013) 2638–2641, https://doi.org/10.1021/ 
+cm4010618. 
+[23] V.S. Kudyakova, B.V. Politov, A.V. Chukin, A.A. Markov, A. Yu Suntsov, V. 
+L. Kozhevnikov, Phase stability and oxygen storage capacity of PrBaMn2O6-δ, 
+Mater. Lett. 269 (2020), 127650 https://doi.org/10.1016/j.matlet.2020.127650. 
+[24] Q. Li, Y.-X. Deng, Y.-A. Zhu, D. Chen, W.-K. Yuan, Structural stability of 
+Lanthanum-based oxygen-deficient perovskites in redox catalysis: a density 
+functional theory study, Catal. Today 347 (2020) 142–149, https://doi.org/ 
+10.1016/j.cattod.2018.04.070. 
+[25] R.D. Shannon, Revised effective ionic radii and systematic studies of interatomic 
+distances in halides and chalcogenides, Acta Crystallogr. A 32 (1976) 751–756, 
+https://doi.org/10.1107/S0567739476001551. 
+[26] V. Bartůnˇeka, D. Průchaa, M. ˇSvecov´ab, P. Ulbrichc, ˇS. Hubera, D. Sedmidubskýa, 
+O. Jankovskýa, Ultrafine ferromagnetic iron oxide nanoparticles: facile synthesis 
+by low temperature decomposition of iron glycerolate, Mater. Chem. Phys. 180 
+(2016) 272–278, https://doi.org/10.1016/j.matchemphys.2016.06.007. 
+[27] M. Karppinen, H. Okamoto, H. Fjellvåg, T. Motohashi, H. Yamauchi, Oxygen and 
+cation ordered perovskite, Ba2Y2Mn4O11, J. Solid State Chem. 177 (2004) 
+2122–2128, https://doi.org/10.1016/j.jssc.2004.02.003. 
+[28] J. Rodriguez–Carvajal, Recent advances in magnetic structure determination by 
+neutron powder diffraction, Phys. B Condens. Matter 192 (1993) 55–69, https:// 
+doi.org/10.1016/0921-4526(93)90108-I. 
+[29] J.B. Nelson, D.P. Riley, An experimental investigation of extrapolation methods in 
+the derivation of accurate unit-cell dimensions of crystals, Proc. Phys. Soc. 57 
+(1945) 160–177, https://doi.org/10.1088/0959-5309/57/3/302. 
+[30] B. Hua, Y.-F. Sun, M. Li, et al., Stabilizing double perovskite for effective 
+bifunctional oxygen electrocatalysis in alkaline conditions, Chem. Mater. 29 (2017) 
+6228–6237, https://doi.org/10.1021/acs.chemmater.7b01114. 
+[31] S. Sengodan, S. Choi, A. Jun, et al., Layered oxygen-deficient double perovskite as 
+an efficient and stable anode for direct hydrocarbon solid oxide fuel cells, Nat. 
+Mater. 14 (2015) 205–206, https://doi.org/10.1038/NMAT4166. 
+[32] J.A. Alonso, M.J. Martínez-Lope, M.T. Casais, M.T. Fern´andez-Díaz, Evolution of 
+the Jahn−Teller distortion of MnO6 octahedra in RMnO3 perovskites (R = Pr, Nd, 
+Dy, Tb, Ho, Er, Y): a neutron diffraction study, Inorg. Chem. 39 (2000) 917–923, 
+https://doi.org/10.1021/ic990921e. 
+[33] J. Klarbring, S.I. Simak, Nature of the octahedral tilting phase transitions in 
+perovskites: a case study of CaMnO3, Phys. Rev. B 97 (2018), 024108, https://doi. 
+org/10.1103/PhysRevB.97.024108. 
+[34] V.M. Loktev, Yu. G. Pogorelov, Peculiar physical properties and the colossal 
+magnetoresistance of manganites (Review), Low Temp. Phys. 26 (2000) 171–193, 
+https://doi.org/10.1063/1.593890. 
+[35] D. Louca, T. Egami, E.L. Brosha, H. R¨oder, A.R. Bishop, Local Jahn-Teller distortion 
+in La1−xSrxMnO3 observed by pulsed neutron diffraction, Phys. Rev. B 56 (1997), 
+https://doi.org/10.1103/PhysRevB.56.R8475. R8475(R). 
+[36] M.A. Halcrow, Jahn–Teller distortions in transition metal compounds, and their 
+importance in functional molecular and inorganic materials, Chem. Soc. Rev. 42 
+(2013) 1784–1795, https://doi.org/10.1039/C2CS35253B. 
+[37] V. Di Castro, G. Polzonetti, XPS study of MnO oxidation, J. Electron Spectrosc. 
+Relat. Phenom. 48 (1989) 117–123, https://doi.org/10.1016/0368-2048(89) 
+80009-X. 
+[38] N. Galinsky, M. Sendi, L. Bowers, F. Li, CaMn1−xBxO3−δ (B = Al, V, Fe, Co, and Ni) 
+perovskite based oxygen carriers for chemical looping with oxygen uncoupling 
+(CLOU), Appl. Energy 174 (2016) 80–87, https://doi.org/10.1016/j. 
+apenergy.2016.04.046. 
+[39] E. Mastronardo, X. Qian, J.M. Coronado, S.M. Haile, The favourable 
+thermodynamic properties of Fe-doped CaMnO3 for thermochemical heat storage, 
+J. Mater. Chem. A 8 (2020) 8503, https://doi.org/10.1039/D0TA02031A. 
+[40] V.P. Zhukov, B.V. Politov, A. Yu. Suntsov, I.A. Leonidov, I.R. Shein, V. 
+L. Kozhevnikov, Structural stability, defects and competitive oxygen migration in 
+Pr1−xYxBaCo2O6−δ, Solid State Ion. 347 (2020), 115230 https://doi.org/10.1016/j. 
+ssi.2020.115230. 
+[41] V.S. Kudyakova, B.V. Politov, A. Yu. Suntsov, V.L. Kozhevnikov, Phase stability and 
+thermodynamic properties of PrBaMn2O6–δ, J. Solid State Chem. 287 (2020), 
+121382 https://doi.org/10.1016/j.jssc.2020.121382. 
+V.S. Kudyakova et al.                                                                                                                                                                                                                          

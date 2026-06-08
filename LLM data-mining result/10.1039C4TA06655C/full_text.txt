@@ -1,0 +1,1364 @@
+
+
+===== Page 1 =====
+
+Solar thermochemical conversion of CO2 into fuel
+via two-step redox cycling of non-stoichiometric
+Mn-containing perovskite oxides†
+Antoine Demont and St´ephane Abanades*
+Solar-driven two-step thermochemical splitting of carbon dioxide represents one of the most promising
+candidate processes for carbon-neutral fuel production and solar energy storage. This redox process
+yields CO, one of the main precursors for liquid hydrocarbon fuels, and inherently results in the recycling
+and valorization of the CO2 greenhouse gas. In this context, non-stoichiometric perovskites such as
+La1xSrxMnO3d have emerged as attractive candidate redox materials because of their large oxygen
+storage capacities and exchange capabilities that are required for applications in high temperature
+thermochemical redox cycles for splitting CO2. This study addresses the investigation of reactive Mn-
+containing substituted perovskites derived from this La1xSrxMnO3d series, where Ba2+, Ca2+ or Y3+ have
+been incorporated on the A-site. Conversely, introduction of Al3+ and Mg2+ on the B-site was also
+examined. The materials were synthesized and their structures were validated by powder X-ray
+diﬀraction.
+Their
+thermochemical
+redox
+performances
+were
+subsequently
+quantiﬁed
+by
+thermogravimetric analysis, while the microstructure of the polycrystalline materials was examined by
+scanning electron microscopy. High redox activity for CO2 splitting was observed for the majority of the
+substituted perovskites examined here, in which Mn was the single reducible cation and Mn4+/Mn3+
+redox pair was activated in the oxygen-exchange process. The structural evolutions and thermochemical
+behavior are discussed with respect to the distinct chemistries of the additional cations incorporated in
+these Mn-based perovskites.
+Introduction
+Solar irradiation represents a powerful, sustainable and abun-
+dant source of energy. The solar-driven CO2 conversion into
+liquid hydrocarbons could ultimately oﬀer the possibility to
+integrate renewable solar fuels into industrial and trans-
+portation sectors and would provide a sustainable pathway for
+the recycling of existing greenhouse gas emissions. The use of
+CO2 as a chemical feedstock to produce synthetic fuels is a great
+opportunity to consider CO2 as a resource that can be recycled
+rather than a waste with a cost of disposal. The solar recycling of
+captured CO2 to fuels is a novel alternative option to under-
+ground CO2 sequestration and storage. Among other processes,
+thermochemical reactions using concentrated solar power at
+high temperatures are particularly attractive and thermo-
+dynamically favorable for solar fuel generation due to poten-
+tially high solar-to-fuel energy conversion eﬃciency, deriving
+from the utilization of the entire solar spectrum, without the
+use of any precious metal catalyst.1 In this context, since
+industrial
+catalytic
+processes
+such
+as
+Fischer–Tropsch
+synthesis2 exist to convert syngas into liquid hydrocarbons,
+solar-driven thermochemical reactions chiey focus onto the
+greatest challenge consisting of the generation of the precursors
+for this reaction, namely H2 and CO, that can be produced from
+H2O and CO2 splitting via similar reactions using concentrated
+solar energy as process heat.3
+Since the direct thermolysis reaction (2CO2 / 2CO + O2)
+spontaneously occurs at very high temperatures (in excess of
+3065 C according to thermodynamics) that are prohibitive for
+large-scale
+solar
+facilities,
+metal
+oxide
+redox
+pairs
+are
+commonly used to decrease the reaction temperature. Two-step
+thermochemical cycles can therefore be used to produce CO
+(and/or H2) and regenerate the catalyst with the following
+reactions:
+1. Solar-driven reduction, O2 generation: AOx / AOxd + d/2O2
+(T1, endothermic step).
+2. Re-oxidation, CO generation: AOxd + dCO2 / AOx + dCO
+(T2 < T1, exothermic step).
+One should note that beside the strong decrease of the
+reaction temperature (below 1600 C), thermochemical redox
+cycling allows eliminating the need for high-temperature gas
+Processes, Materials, and Solar Energy Laboratory, PROMES-CNRS (UPR 8521), 7 Rue
+du Four Solaire, 66120 Font-Romeu, France. E-mail: stephane.abanades@promes.
+cnrs.fr; Tel: +33 4 68 30 77 30
+† Electronic supplementary information (ESI) available: LeBail ts of PXRD
+diagrams, determination of activation energies for thermal reduction, and
+further thermochemical characterizations (TGA). See DOI: 10.1039/c4ta06655c
+Cite this: J. Mater. Chem. A, 2015, 3,
+3536
+Received 4th December 2014
+Accepted 24th December 2014
+DOI: 10.1039/c4ta06655c
+www.rsc.org/MaterialsA
+3536 | J. Mater. Chem. A, 2015, 3, 3536–3546
+This journal is © The Royal Society of Chemistry 2015
+Journal of
+Materials Chemistry A
+PAPER
+Published on 02 January 2015. Downloaded by University of Aberdeen on 14/02/2015 15:45:43. 
+View Article Online
+View Journal | View Issue
+
+
+===== Page 2 =====
+
+separation of O2 and CO. Nevertheless, some challenges remain
+and one of them is to reduce the operating temperature for
+maintaining thermal and chemical performances of the mate-
+rials during cycling, while achieving large CO production yields.
+Several classes of redox-active materials can be considered, and
+they can be divided into two distinct categories: stoichiometric
+volatile or non-volatile oxides,4–8 and non-stoichiometric oxides
+involving
+solid-state
+reactions.9–11
+Despite
+weaker
+oxygen
+storage capabilities, the non-stoichiometric oxides have recently
+attracted considerable interest, because they remain crystallo-
+graphically stable during oxygen vacancies formation and O2 is
+the only gaseous species released during solid-state partial
+reduction, thereby avoiding products recombination encoun-
+tered for volatile oxides (e.g., ZnO/Zn). Hence, signicant H2 or
+CO productions and rapid kinetics were observed when using
+non-stoichiometric ceria or substituted-ceria as a catalyst for
+solar fuels generation,12–18 with operating temperatures that can
+be lowered to 1400 C during the thermal reduction. Thus, the
+suitability of the CeO2/CeO2d cycle was proven under simu-
+lated solar conditions,15 and subsequent syngas production
+from CO2/H2O dissociation over ten cycles was later demon-
+strated.19 To date, the best redox performances in term of the
+magnitude of the fuel production for CO and H2 gases were
+observed in Zr-substituted ceria.14,17,20–23
+More recently, non-stoichiometric perovskite oxides have
+also emerged as attractive candidates for solar thermochemical
+splitting of H2O and CO2 within a similar range of tempera-
+ture.11,24–26 In particular, two-step redox cycling of Mn-based
+perovskites has been demonstrated with evolved CO or H2
+amounts comparable with state of the art materials in the eld
+of solar thermochemical fuel production.24–27 Indeed, the
+perovskite structures oﬀer features reminiscent of a rich defect
+chemistry, that are comparable to the CeO2-based materials,
+with the possibility to stabilize mixed valent cations and large
+domains of non-stoichiometry. The former allows the structure
+to not undergo substantial cation rearrangement during the
+two-step process, while the latter is benecial to the ion
+conduction necessary for redox reactions, with the generation of
+diﬀusion pathways through oxygen vacancies in the crystal
+network.
+Based on the vast number of possible doping schemes, series
+of even more attractive materials remain to be considered,
+designed and tested. The potential promises of the ABO3
+perovskite
+structure
+for
+thermochemical
+fuel
+generation
+certainly rely in its exibility toward incorporation of various
+chemical elements on both A- and B-cation sites. This oﬀers a
+number of potential formulations with multiple substitutions
+and doping strategies in order to improve their thermochemical
+performances. For example, such strategies already showed
+signicant benets in diverse areas including magnetism,
+mixed ionic-electronic conductivity (solid oxide fuel cells and
+membranes), high temperature superconductivity, ferro-elec-
+tricity or multiferroics. Here, we focus on the La1xSrxMnO3d
+series, which was recently shown to exhibit promising redox
+activity for both water splitting and CO2 dissociation,26,27 and
+several substitutions in these perovskites are explored in this
+study. Substituted compounds were synthesized with various
+amounts of Y3+, Ba2+ or Ca2+ incorporated on the A-site. Mg2+
+and Al3+ were also incorporated on the B-site in an attempt to
+enhance thermal stability and resistance to sintering. The
+examination of the phase purity and structural evolution was
+performed by using powder X-ray diﬀraction (PXRD). The
+investigation of the redox performances and thermal stability of
+these materials during two-step thermochemical cycles was
+carried out with thermogravimetric analysis (TGA) and scan-
+ning electron microscopy (SEM). A signicant CO2 splitting
+activity was observed for the majority of the synthesized
+compounds.
+Experimental section
+The diﬀerent formulations of perovskite-based compounds
+considered in this study are listed in Table 1. Except for LSM-
+Al40 and LSM-Al60, the polycrystalline samples were synthe-
+sized by a conventional solid-state method with stoichiometric
+amounts of the appropriate precursors. For lanthanum-con-
+taining perovskites, La2O3 was red at 950 C prior to utiliza-
+tion, in order to eliminate La(OH)3 traces. Precursors were
+weighted before being ground together with an agate mortar
+and pestle. The resulting powders were introduced into alumina
+crucibles and red at high temperature for 6 h. Grinding and
+ring were thereaer repeated until phase purity was reached
+and until no evolution of the peak proles was observed in the
+PXRD diagrams. The latter point was checked because the
+evolution of the Bragg peak prole throughout regrinding and
+re-ring of perovskites containing multiple elements in the A- or
+B-site oen indicates poor long range homogeneity of the
+cationic composition in the sample.
+For samples having a large Al3+ content, homogenization was
+found to be diﬃcult and samples were still multiphasic aer six
+cycles of regrinding and ring at 1500 C. The Pechini method
+was therefore applied for LSM-Al40 and LSM-Al60 to enhance
+rapid homogenization of the samples. Stoichiometric amounts
+of nitrate precursors were weighed and dissolved in distilled
+water with 1.5 equivalent of citric acid (CA) for 1 equivalent of
+metallic cations. Ethylene glycol (EG) was then added with a
+3 : 2 CA : EG weight proportion. The solution was maintained at
+90 C until a gel was formed, which was later dried at 200 C and
+calcined at 350 C. The resulting ashes were red at 1000 C for
+6 h and 1500
+C to stabilize the microstructure at high
+temperature and achieve thermal conditions comparable to
+samples prepared by the solid-state method. Table 1 summa-
+rizes the samples abbreviations and provides relevant infor-
+mation concerning their synthesis. Origin and purities of the
+precursors notied in Table 1 are: Al2O3 (Alfa Aesar, 99.9%);
+Al(NO3)3$9H2O (Merck, >99%); BaCO3 (Sigma Aldrich, >99%);
+CaCO3 (Alfa Aesar, 99.95%); La2O3 (Fluka Chemika, 99.98%);
+La(NO3)3$6H2O (Alfa Aesar, 99.9%); MgO (Alfa Aesar, >99%);
+MnO2 (Sigma Aldrich, >99.0%); Mn(NO3)2$6H2O (Alfa Aesar,
+ACS reagent, 98.0–102.0%); SrCO3 (Sigma Aldrich, >99.9%);
+Sr(NO3)2 (Sigma Aldrich, >99%).
+PXRD diagrams were collected at room temperature with an
+X'Pert Pro PANalytical diﬀractometer equipped with an X'cel-
+erator detector and working with Cu Ka1 and Ka2 radiations
+This journal is © The Royal Society of Chemistry 2015
+J. Mater. Chem. A, 2015, 3, 3536–3546 | 3537
+Paper
+Journal of Materials Chemistry A
+Published on 02 January 2015. Downloaded by University of Aberdeen on 14/02/2015 15:45:43. 
+View Article Online
+
+
+===== Page 3 =====
+
+(l ¼ 0.15418 nm). The measurements of q–q symmetrical scans
+were carried out in the range 10–100 with a step size and a time
+per step xed at 0.01 and 5 s respectively. Preliminary identi-
+cation of crystalline phases was performed by comparison
+with standard reference patterns (Powder diﬀraction le PDF-2,
+International Centre for Diﬀraction Data, ICDD). LeBail ts of
+PXRD data were carried out with the Fullprof soware28
+included
+in
+the
+Winplotr
+package.29
+Powders
+size
+and
+morphology were studied with a high resolution scanning
+electron microscope (FESEM Hitachi S-4800). Thermogravi-
+metric (TG) data were collected using a SETARAM Sestys
+Evolution device, with sample masses of approximately 120 mg
+placed in a platinum crucible. The thermal reduction step was
+performed under an Ar ow of 20 ml min1 (2 ppm O2), and CO2
+was injected for the CO2 splitting step (CO2 mole fraction of
+50% in Ar). All heating and cooling steps were performed with
+ramp rates of 20 C min1.
+Results and discussion
+A-site substituted perovskites
+The synthesis of A-site substituted La1xSrxMnO3d perovskites
+was carried out and the powder X-ray diﬀraction patterns
+collected for YSM50, LCM35, LCM50, LBM35 and LBM50
+samples are presented on Fig. 1. The main peaks observed in all
+diﬀractograms were characteristic of ABO3 perovskite struc-
+tures. Diﬀerent peak proles were observed on these perovskite
+main reections, indicating the splitting of some reections
+due to diﬀerent crystal symmetries arising from distortions
+from the ideal cubic perovskite (Pm3m). Some weak super-
+structure reections were also clearly observed for some of the
+samples, for example in the 2q range 50–57 for YSM50, LCM35
+and LCM50 (Fig. 1). Additionally, a noticeable shiof the main
+Bragg peaks is observed from one sample to another, owing to
+the distinct radii of the elements incorporated in the perovskite
+structure. For example, structural changes are clearly observed
+as Bragg peaks are displaced toward lower angles from LCM50
+to LBM50, in agreement with the increase of the A site cation
+radius (rCa2+ ¼ 1.34 ˚A, rSr2+ ¼ 1.44 ˚A, and rBa2+ ¼ 1.61 ˚A).
+Since not all of these compounds are reported in the PXRD
+diagrams databases such as the Powder X-ray Diﬀraction File
+PDF 2 from ICDD, it was important to index all peaks, including
+weak reections, in order to ensure that those were actually
+arising from perovskite superstructures rather than from
+impurities. Indexation and LeBail ts were therefore performed
+on these samples (Fig. SI1†), enabling to conrm that all
+samples were single phase. The main results obtained from
+LeBail ts are summarized in Table 2 along with Goldschmidt
+tolerance factors calculated from data tabulated from R.D.
+Shannon for ionic radii.30 The evolutions of crystal symmetries
+we observe here are to be correlated with the variation of the
+Goldschmidt tolerance factor for the ABO3 perovskite31 and are
+in
+agreement
+with
+the
+symmetries
+reported
+for
+these
+compounds32 or others having closely related compositions or
+tolerance factors.33–36 Such correlation with the tolerance factor
+is for example well known in the La1xSrxMnO3 series, where
+the sequence Pnma / R3c / I4/mcm / Pm3m is observed as
+the Goldschmidt tolerance factor varies from 0.961 in LaMnO3
+(x ¼ 0) to 1.049 in SrMnO3 (x ¼ 1), from values tabulated by
+Shannon30 for the ionic radii of La3+, Sr2+, Mn3+, Mn4+ and O2.
+The trend we observe here is consistent with this behavior, with
+the evolution from Pnma to Pm3m as the tolerance factor is
+elevated from 0.952 in YSM50 to 1.049 in LBM50.
+Along with the symmetries, the results summarized in Table 2
+also allow to ensure that all the cell parameter evolutions are
+Table 1
+Materials compositions, abbreviations and summary of the synthesis conditions for the A-site and B-site substituted perovskites
+Cationic composition
+Abbreviation
+Synthetic method
+Precursors
+Final temperature
+Time
+La0.65Ca0.35MnO3
+LCM35
+Solid state
+La2O3/CaCO3/MnO2
+1450 C
+2  6 h
+La0.50Ca0.50MnO3
+LCM50
+Solid state
+La2O3/CaCO3/MnO2
+1450 C
+2  6 h
+La0.65Ba0.35MnO3
+LBM35
+Solid state
+La2O3/BaCO3/MnO2
+1450 C
+2  6 h
+La0.50Ba0.50MnO3
+LBM50
+Solid state
+La2O3/BaCO3/MnO2
+1500 C
+4  6 h
+Y0.50Sr0.50MnO3
+YSM50
+Solid state
+Y2O3/SrCO3/MnO2
+1450 C
+2  6 h
+La0.50Sr0.50Mn0.75Al0.25O3
+LSM-Al25
+Solid state
+La2O3/SrCO3/MnO2/Al2O3
+1500 C
+3  6 h
+La0.60Sr0.40Mn0.60Al0.40O3
+LSM-Al40
+Pechini
+La(NO3)3$6H2O/Sr(NO3)2
+1500 C
+2  6 h
+Mn(NO3)2$4H2O/Al(NO3)3$9H2O
+La0.60Sr0.40Mn0.40Al0.60O3
+LSM-Al60
+Pechini
+La(NO3)3$6H2O/Sr(NO3)2
+1500 C
+2  6 h
+Mn(NO3)2$4H2O/Al(NO3)3$9H2O
+La0.50Sr0.50Mn0.85Mg0.15O3
+LSM-Mg15
+Solid state
+La2O3/SrCO3/MnO2/MgO
+1500 C
+3  6 h
+La0.60Sr0.40Mn0.83Mg0.17O3
+LSM-Mg17
+Solid state
+La2O3/SrCO3/MnO2/MgO
+1500 C
+3  6 h
+LaMn2/3Mg1/3O3
+LM-Mg
+Solid state
+La2O3/MnO2/MgO
+1500 C
+4  6 h
+Fig. 1
+PXRD patterns collected for YSM50, LCM35, LCM50, LBM35
+and LBM50 samples.
+3538 | J. Mater. Chem. A, 2015, 3, 3536–3546
+This journal is © The Royal Society of Chemistry 2015
+Journal of Materials Chemistry A
+Paper
+Published on 02 January 2015. Downloaded by University of Aberdeen on 14/02/2015 15:45:43. 
+View Article Online
+
+
+===== Page 4 =====
+
+consistent with those expected from the distinct perovskite
+compositions. Because of the crystal structure distortions
+resulting in perovskite superstructures of diﬀerent orders, the
+unit cell parameters are not directly comparable from YSM50 to
+LBM50. In order to obtain directly comparable parameters, one
+can establish the crystallographic relationship of these cell
+parameters and of the volume of the unit cell with ap (Table 2),
+where ap is the cell parameter of a simple cubic perovskite. The
+parameter ap
+3 is then directly comparable from one composi-
+tion to another, and relates to the volume per formula unit (V
+p.f.u.) for each perovskite compound. Then, the V p.f.u. increase
+when comparing YSM50, LCM50 and LBM50, can be reasoned
+by the increase of the average A-site ionic radius, whereas the
+decrease from LCM35 to LCM50 can be reasoned by a strong
+decrease of the ionic radius on the B-site, as Mn3+ is replaced by
+Mn4+ due to charge balance.
+Fig. 2 shows the O2 production rates (Fig. 2a) and the mass
+variations (Fig. 2b) that were measured using thermogravi-
+metric analysis (TGA) during two-step thermochemical treat-
+ments of YSM50, LCM50, LBM50, with a reduction performed at
+1400 C in Ar for 45 min and a re-oxidation performed under
+CO2 (Ar : CO2 mole ratio of 50%) for 1 h at 1050 C (two
+successive cycles). On each graph, the measurements for LSM50
+under the same treatment27 are displayed for comparison. More
+details are shown in the ESI, with the variations of the oxygen
+non stoichiometry d (Fig. SI2a†) and of the Mn oxidation state
+(Fig. SI2b†) during the thermochemical treatment. All samples
+examined here showed only partial re-oxidations, associated
+however with signicant CO productions. Under these same
+conditions, LCM50, LSM50, and LBM50 show respective O2
+productions of 311, 248, and 203 mmol g1, whereas their
+respective CO productions during the CO2 splitting step are 210,
+269, and 185 mmol g1. LCM50, LSM50, and LBM50 start with a
+formal oxidation state of Mn+3.50. Aer reduction at 1400 C,
+respective oxidation states of Mn+3.27, Mn+3.31 and Mn+3.32 are
+achieved. Re-oxidation leads to Mn+3.35, Mn+3.41 and Mn+3.42
+nal oxidation states. In term of redox activity, these samples
+Table 2
+Goldschmidt tolerance factor and summary of the structural characteristics of A-site substituted LSM compounds determined from
+LeBail ﬁts. The cell parameter relationship column refers to the relation of the perovskite superstructure to the ideal cubic perovskite structure. ap
+refers to the cell parameter of a simple cubic perovskite structure
+Goldschmidt tolerance
+factor
+Space group
+Cell parameters
+relationship
+a (˚A)
+b (˚A)
+c (˚A)
+V (˚A3)
+ap (˚A)
+ap (˚A)
+ap (˚A)
+ap
+3 (˚A3)
+YSM50
+0.952
+Pnma
+a ¼ apO2
+5.4014(2)
+7.6344(2)
+5.4071(3)
+222.97(2)
+b ¼ 2ap
+c ¼ apO2
+3.8194(2)
+3.8172(1)
+3.8234(3)
+55.74(1)
+V ¼ 4ap
+3
+LCM35
+0.978
+Pnma
+a ¼ apO2
+5.45384(7)
+7.7019(2)
+5.46767(7)
+229.668(5)
+b ¼ 2ap
+c ¼ apO2
+3.85645(6)
+3.8509(2)
+3.86623(6)
+57.417(2)
+V ¼ 4ap
+3
+LCM50
+0.985
+Pnma
+a ¼ apO2
+5.41730(9)
+7.6379(2)
+5.42870(7)
+224.622(6)
+b ¼ 2ap
+c ¼ apO2
+3.86061(7)
+3.81894(7)
+3.83867(5)
+56.155(4)
+V ¼ 4ap
+3
+LBM35
+1.012
+R3c
+a ¼ apO2
+5.53297(3)
+5.53297(3)
+13.5270(2)
+358.632(5)
+b ¼ apO2
+c ¼ 2apO3
+3.91240(3)
+3.91240(3)
+3.9049(2)
+59.772(4)
+V ¼ sin 120  4ap
+3  O3
+LBM50
+1.049
+Pm3m
+a ¼ ap
+3.90770(2)
+3.90770(2)
+3.90770(2)
+59.671(1)
+b ¼ ap
+c ¼ ap
+3.90770(2)
+3.90770(2)
+3.90770(2)
+59.671(1)
+V ¼ ap
+3
+Fig. 2
+(a) O2 production rates derived from the TGA data for LCM50,
+LBM50, and YSM50. LSM50 is presented as a reference for compar-
+ison. (b) TGA of the same samples during reduction at 1400 C under
+Ar followed by exposure to CO2 at 1050 C (two cycles).
+This journal is © The Royal Society of Chemistry 2015
+J. Mater. Chem. A, 2015, 3, 3536–3546 | 3539
+Paper
+Journal of Materials Chemistry A
+Published on 02 January 2015. Downloaded by University of Aberdeen on 14/02/2015 15:45:43. 
+View Article Online
+
+
+===== Page 5 =====
+
+show a similar behavior with respectively 0.23, 0.19 and 0.18 e
+p.f.u. exchanged during the reduction. The activation energies
+(Ea) for this reduction step were found to be 158, 145, and 174 kJ
+mol1, and details on the determination of Ea are given in the
+ESI (Fig. SI3†). The model used for these calculations was based
+on the shrinking core, which was previously validated to
+describe the reduction of non-stoichiometric perovskites.37 This
+model was also recently validated for CeO2, in order to describe
+the reduction process in this material.38 The results suggest a
+slightly lower standard Gibbs free enthalpy of reduction (DG0
+red)
+for LCM50 when compared to LSM50 and LBM50 which should
+themselves be characterized by a similar DG0
+red. The re-oxidation
+behavior is consistent with such characteristics, as LCM50,
+LSM50, and LBM50 undergo electronic transfers of 0.08, 0.10
+and 0.09 e p.f.u. suggesting a larger DG0
+ox for LCM50. This also
+shows that the lower CO productions in LBM50 when compared
+to LCM50 cannot be explained by a larger redox activity of Mn in
+LCM50 (same initial Mn oxidation state of +3.50 in both
+compounds), but rather by the large molar mass of Ba2+ (M ¼
+137.33 g mol1) as opposed to the lighter Ca2+ (M ¼ 40.078 g
+mol1), which decreases the nal gravimetric production
+expressed in mmol g1, despite superior electronic transfer in
+LBM50. Nevertheless, the performances of these compounds
+seem to be governed by very similar redox thermodynamics.
+Purely in term of redox activity, these perovskites show
+performances superior to CeO2 during the CO2 dissociation step
+(CeO2 shows an exchange of 0.036 e p.f.u.39 under similar
+conditions), and the electronic transfer in these materials is
+rather comparable to that in Ce0.75Zr0.25O2, which reaches 0.076
+e p.f.u.39 The superior performance when compared to CeO2 is
+clearly a result of diﬀerent reduction thermodynamics, which
+limits the reduction extent to d < 0.05 in the uorite-based
+material at 1400 C. The performances found in these perov-
+skites indicate that their redox thermodynamics are more
+similar to Zr-doped ceria, in agreement with thermodynamic
+data reported for CeO2,40 (Ce,Zr)O2 (ref. 41 and 42) and Mn-
+containing perovskite compounds.26 For instance, the partial
+molar enthalpy of oxygen in CeO2 is about 480 kJ mol1,
+whereas it is about 290 kJ mol1 in Ce0.75Zr0.25O2 and 240 kJ
+mol1 in LSM50.
+YSM50 shows a very distinct behavior when compared to the
+aforementioned samples. Substitution of Y3+ for La3+ in LSM50
+clearly enhances oxygen vacancy formation in the perovskite
+structure upon thermal reduction. Such nding is reminiscent
+of the LnBaCo2O6d (Ln ¼ lanthanide or Y) family of non-stoi-
+chiometric double perovskites where d monotonously increases
+when the size of Ln decreases.43 In that case, this phenomenon
+is attributed to the smaller coordination spheres and lower
+electropositivity of the smaller Ln3+ cations, favoring oxygen
+vacant environments. This may also explain the enhanced O2
+production observed here for YSM50, which reaches 551 mmol
+g1 aer 45 min at 1400 C. Moreover, the O2 production rate
+reaches a maximum at approximately 1315
+C during the
+thermal reduction, which suggests that the reduction temper-
+ature could be lowered without any signicant alteration of the
+nal yield. However, this good reduction behavior was not
+found to be benecial to the re-oxidation by CO2, since the CO
+production with YSM50 reaches 112 mmol g1 aer 1 h at
+1050 C, as opposed to 269 mmol g1 in LSM50. This strongly
+suggests a large change of the redox thermodynamics upon
+replacement of La3+ by Y3+, involving larger reduction capabil-
+ities but less favorable re-oxidation thermodynamics. As such
+the re-oxidation yields in YSM50 were found to be 10 and 9%
+during the 1st and 2nd thermochemical cycles respectively,
+which accounts for only a slight portion of oxygen released
+during reduction being recovered by the crystal lattice during
+the CO2 dissociation step.
+Fig. 3 shows the O2 production rates (Fig. 3a) and mass
+variations (Fig. 3b) measured on LCM35 and LBM35 during two-
+step thermochemical treatments. Data collected on LSM35
+under the same conditions are presented for comparison. When
+compared to LCM50 and LBM50, LCM35 and LBM35 show both
+signicant decrease of the O2 productions associated with
+thermal reduction and increase of the re-oxidation yields
+associated with CO2 dissociation. This strongly suggests
+that upon La3+ enrichment, both compounds undergo a
+signicant decrease of DG0
+ox. Such behavior is reminiscent of the
+La1xSrxMnO3d series where DG0
+ox increases with x.26 Replace-
+ment of Sr2+ by the isovalent Ca2+ and Ba2+ seems to result in a
+similar trend, most probably due to the fact that the formal
+Mn oxidation state increases with x, easing oxidation for
+large La3+ contents, and reciprocally easing reduction for large
+Ae2+ contents in La1xAexMnO3d compounds (where Ae ¼ Ca,
+Sr, Ba).
+Nevertheless, for x ¼ 0.35 in La1xAexMnO3d, a noticeable
+diﬀerence between Ae ¼ Ca, Ba and Ae ¼ Sr is observed.
+Enhanced thermal reduction is observed with Ae ¼ Ca, Ba,
+associated with poorer re-oxidation yields, whereas LSM35
+Fig. 3
+(a) O2 production rates derived from the TGA data for LCM35
+and LBM35. LSM35 is presented as a reference for comparison. (b) TGA
+of the same samples during reduction at 1400 C under Ar followed by
+exposure to CO2 at 1050 C (two cycles).
+3540 | J. Mater. Chem. A, 2015, 3, 3536–3546
+This journal is © The Royal Society of Chemistry 2015
+Journal of Materials Chemistry A
+Paper
+Published on 02 January 2015. Downloaded by University of Aberdeen on 14/02/2015 15:45:43. 
+View Article Online
+
+
+===== Page 6 =====
+
+undergoes a re-oxidation that is almost total (re-oxidation yield
+of 94% during the second cycle). Moreover, a decrease of the
+activation energy was observed for thermal reduction of LCM35
+and LBM35 (Fig. SI4†), with respectively 129 and 141 kJ mol1,
+as opposed to 158 and 174 kJ mol1 for LCM50 and LBM50
+respectively. Such features could be associated with the pres-
+ence of a signicant hyper-stoichiometry for x ¼ 0.35 in the case
+of Ca2+ and Ba2+. Compounds of the form La1xAexMnO3d (d <
+0) have indeed been reported by several authors for x < 0.5,34,44,45
+where the oxygen hyper-stoichiometry is believed to arise from
+La3+ and Ae2+ cation vacancies since the perovskite crystal
+structure provides no crystallographic site for interstitial O2
+anions. On one hand, Rørmark et al. showed that this non-
+stoichiometry was slightly higher and persists for larger x for Ae
+¼ Ca than for Ae ¼ Sr (it is indeed almost negligible aer x ¼ 0.3
+for Sr).44 On the other hand, to our knowledge, no report has
+been dedicated to a careful measure of the oxygen hyper-stoi-
+chiometry for Ae ¼ Ba as a function of x, but the fact that
+stoichiometric La1xBaxMnO3 could be obtained by Dabrowski
+et al.45 only aer treatment under inert atmosphere or
+quenching from above 1000 C suggests that signicant hyper-
+stoichiometry is present until at least x ¼ 0.24. Since it has also
+been shown that DG0
+ox undergoes an abrupt increase in La1x-
+SrxMnO3d when d < 0,26 i.e. when cation vacancies have to be
+created
+in
+order
+to
+generate
+the
+hyper-stoichiometric
+compounds, the hypothesis of a larger hyper-stoichiometry for
+Ae ¼ Ca2+, Ba2+ could well explain the poorer re-oxidation yields
+when compared to Ae ¼ Sr2+. It would also be in agreement with
+the lower activation energies for reduction of LCM35 and
+LBM35 when compared to LCM50 and LBM50, due to an easier
+departure of the excess oxygen from the crystal framework.
+It should be noted that CO productions exceeding 200 mmol
+g1 were reported in LSM35,11 albeit with a higher reduction
+temperature (1500 C) enabling to enhance thermal reduction
+and therefore re-incorporate more oxygen during the CO2
+splitting step. Under the conditions used here, LSM35 shows
+CO productions of 189 and 198 mmol g1 at 1050 C during the
+rst and second cycle, respectively.27 LCM35 displays similar
+productions with 183 and 188 mmol g1. As was observed for
+LCM50 and LBM50, the slightly smaller productions of 163 and
+159 mmol g1 observed in LBM35 result from the larger molar
+mass of Ba when compared to Ca rather than from enhanced
+redox activity of the Ca-containing perovskite.
+Fig. 4 summarizes the results concerning the re-oxidation
+yields (Fig. 4a), O2 productions and CO productions (Fig. 4b)
+observed during two thermochemical cycles under the same
+conditions for YSM50, LCM35, LCM50, LBM35, and LBM50.
+In order to ensure consistency between the rst and second
+cycle, the re-oxidation yields were calculated based not only
+on the oxygen lost in the previous reduction step, but based
+on the total amount of oxygen lost and re-incorporated from
+the rst cycle. LCM50 and LBM50 exhibit signicant decrease
+of the CO production aer the rst thermochemical cycle,
+whereas these are more stable in the case of LCM35, LBM35
+and YSM50. Thus, the largest CO production aer one cycle is
+observed in LCM50 (210 mmol g1), whereas it is observed in
+LCM35 aer two cycles (188 mmol g1). Deterioration of the re-
+oxidation yield has previously been described in other mate-
+rials39 and was assigned to sintering of the polycrystalline
+samples (yielding both powder densication and mass
+transfer limitation of gaseous reactant in the sample). SEM
+Fig. 4
+(a) Re-oxidation yields of the perovskites under CO2 exposure.
+The ﬁrst and second bars correspond to the ﬁrst and second cycles
+respectively. (b) O2 and CO productions during the two cycles.
+Fig. 5
+Scanning electron micrographs of LCM50 samples (a) after the
+synthesis, and (b) after two thermochemical cycles.
+This journal is © The Royal Society of Chemistry 2015
+J. Mater. Chem. A, 2015, 3, 3536–3546 | 3541
+Paper
+Journal of Materials Chemistry A
+Published on 02 January 2015. Downloaded by University of Aberdeen on 14/02/2015 15:45:43. 
+View Article Online
+
+
+===== Page 7 =====
+
+images collected before (Fig. 5a) and aer the thermochem-
+ical treatment (Fig. 5b) on the LCM50 sample – which suﬀers
+from the largest alteration of performance in term of CO
+production, along with LBM50 – clearly conrm this feature. A
+large growth of the particles is observed aer two cycles which
+should lower both the specic surface area of the powder and
+gas diﬀusion throughout the packed sample, therefore
+decreasing the re-oxidation yield.
+Control of the polycrystalline samples was also systemati-
+cally performed by powder X-ray diﬀraction aer the ther-
+mochemical treatments (Fig. SI5†). LCM35, LCM50, LBM35
+and LBM50 show excellent chemical stability toward the
+cycles of reduction and re-oxidation under CO2, and no
+impurities could be detected aer the two-step treatments.
+For YSM50, traces of the hexagonal phase YMnO3 could be
+detected aer the thermochemical treatment, whilst a large
+majority of the sample retains the original perovskite struc-
+ture (Fig. SI5†). Since no other impurity was detected, this
+implies a slight enrichment and impoverishment of the
+respective Sr2+ and Y3+ content in the perovskite phase, to
+compensate for the loss of Y3+ due to the formation of YMnO3,
+according to the following reaction (which only accounts for
+the cationic repartition between the hexagonal and the
+perovskite phase, and does not consider the oxygen loss
+associated to the two-step cycle):
+Y0.50Sr0.50MnO3 / (1  x)Y(0.50x)/(1x)Sr0.50/(1x)MnO3 +
+xYMnO3
+It is likely that the small amount of pure Mn3+-containing
+YMnO3 is formed during the thermal reduction, upon partial
+reduction of Mn4+ into Mn3+. The better stability of LCM35,
+LCM50, LBM35 and LBM50 when compared to YSM50 may be
+rationalized in term of relative Goldschmidt tolerance factors of
+these perovskites. The lower tolerance factor in YSM50 provokes
+a strong distortion of the perovskite structure, which may
+therefore be less exible toward thermal reduction, as Mn4+
+replacement by Mn3+ results in an even lower tolerance factor.
+Conversely, it should be noted that the low tolerance factor is
+directly responsible for YMnO3 crystallizing in a hexagonal
+structure instead of a perovskite structure. Formation of a slight
+amount of the stable YMnO3 phase allows for Sr2+ enrichment
+in the perovskite phase, increasing the average A-site radius,
+and therefore yielding a more favorable tolerance factor,
+implying less severe distortion of the perovskite structure
+during the reduction and resulting into more structural exi-
+bility toward reduction.
+In term of CO production, the performances of all these A-
+site substituted materials compare favorably to CeO2, which
+produces approximately 100 mmol g1 under similar condi-
+tions.39 These better performances mainly lie on more favorable
+reduction thermodynamics for the perovskites studied here,
+which in turn results in larger oxygen re-incorporation during
+the CO2 dissociation step, despite poorer re-oxidation yields
+when
+compared
+to
+CeO2.
+LSM50
+and
+LCM50
+produce
+approximately the same amount of CO as Ce0.75Zr0.25O2
+(synthesized via Pechini method) under the same conditions.39
+B-site substituted perovskites
+Fig. 6 shows PXRD patterns of La1xSrxMnO3d samples that
+were substituted on the B-site with Al3+ and Mg2+. Both cations
+have distinct chemistries, as can be illustrated with their
+distinct charge and size. Indeed, while LSM50 could be easily
+substituted with 0.25Al3+ per f.u. (La0.5Sr0.5Mn0.75Al0.25O3d:
+LSM-Al25), the solubility limit for Mg2+ into LSM50 was found to
+be approximately 0.15 (La0.5Sr0.5Mn0.85Mg0.15O3d: LSM-Mg15)
+under our synthesis conditions. Attempts to substitute Mn in
+LSM50 with 0.20 or 0.25Mg2+ per f.u. led to the observation of
+MgO impurity in the PXRD patterns aer several cycles of
+grinding and ring at 1500 C. It was found that decreasing the
+Sr2+ content allowed easier incorporation of Mg2+ into the
+perovskite, hence the synthesis of La0.6Sr0.4Mn0.83Mg0.17O3d
+(LSM-Mg17) and LaMn0.67Mg0.33O3d (LM-Mg) that display
+poorer strontium content than LSM50. Additionally, La0.6Sr0.4-
+Mn0.6Al0.4O3d (LSM-Al40) and La0.6Sr0.4Mn0.4Al0.6O3d (LSM-
+Al60), for which good thermochemical performances have been
+reported by McDaniel et al.24 were synthesized in order to obtain
+comparison with our samples within the same thermochemical
+conditions. These diﬀerent compositions result in Mg- and Al-
+substituted compounds with various La/Sr ratios.
+The PXRD patterns collected for these samples were char-
+acteristic of the ABO3 perovskite structures. As in the case of A-
+site substitutions, diﬀerent crystal symmetries were observed,
+and since not all of these compounds are reported in the PXRD
+patterns database, indexation and LeBail ts were also under-
+taken in order to ensure that weak perovskite superstructure
+peaks were not actually arising from impurities (Fig. SI6†). The
+results from this analysis are summarized in Table 3. Diﬀerent
+crystal symmetries were found for these compounds, in agree-
+ment with the evolution of the Goldschmidt tolerance factor.
+The sequence Pnma / R3c / I4/mcm / Pm3m is observed as
+the tolerance factor varies from 0.967 (LM-Mg) to 1.030 (LSM-
+Al60). Due to charge balance reasons, both Al3+ and Mg2+ are
+expected to substitute for Mn3+ rather than Mn4+ and therefore,
+at an equal La/Sr ratio, Al3+ introduction tends to decrease the
+volume per f.u. due to a smaller ionic radius, while Mg2+
+Fig. 6
+PXRD patterns collected for LM-Mg, LSM-Mg17, LSM-Mg15,
+LSM-Al60, LSM-Al40, and LSM-Al25 samples.
+3542 | J. Mater. Chem. A, 2015, 3, 3536–3546
+This journal is © The Royal Society of Chemistry 2015
+Journal of Materials Chemistry A
+Paper
+Published on 02 January 2015. Downloaded by University of Aberdeen on 14/02/2015 15:45:43. 
+View Article Online
+
+
+===== Page 8 =====
+
+incorporation has the opposite eﬀect owing to a larger ionic
+radius. At this equal La/Sr ratio, one should also note that Mg2+
+incorporation tends to promote the formation of unit cells with
+lower symmetry, whereas Al3+ tends to favor higher symmetries
+when compared to the Al and Mg-free compounds in the
+La1xSrxMnO3d series,46 as a result of the respectively lower
+and larger tolerance factor thus obtained.
+Thermochemical CO2-splitting performance characteriza-
+tions were performed for all B-site substituted La1xSrxMnO3d
+perovskites by TGA. Full thermochemical cycles are presented
+in the ESI (Fig. SI7†), along with details on the re-oxidation steps
+(Fig. SI8†) and on the activation energy calculations (Fig. SI9†).
+Fig. 7 shows the O2 production rates (Fig. 7a), re-oxidation
+yields (Fig. 7b), and the O2 and CO productions calculated
+during the rst (Fig. 7c) and second (Fig. 7d) thermochemical
+cycles. As previously reported for the La1xSrxMnO3d series,27
+Sr substitution clearly enhances the reduction extent in the B-
+site substituted compounds. Accordingly, a limited O2 release
+was observed for the pure La-containing LM-Mg, which in turn
+yields poor CO productions. Activation energies were found to
+be 164, 159, 89, 115, 119, and 35 kJ mol1 for LSM-Al25, LSM-
+Al40, LSM-Mg15, LSM-Mg17, and LM-Mg respectively. Overall,
+Sr-doped compounds display similar redox performances,
+which result in both elevated O2 and CO productions despite
+the partial re-oxidations. Particularly, during the second cycle,
+these compounds display CO productions that are similar to
+that observed in LSM50 under the same conditions. Al-doped
+compounds were reported to show large CO productions over
+one thermochemical cycle, with 294 mmol g1 for LSM-Al40 and
+247 mmol g1 for LSM-Al60.24 Under our thermochemical
+conditions, 196 mmol g1 and 279 mmol g1 were respectively
+observed for the same compositions. Such variations may be
+attributed
+to
+a
+variety
+of
+parameters,
+such
+as
+sample
+Table 3
+Goldschmidt tolerance factor and summary of the structural characteristics of B-site substituted LSM compounds determined from
+LeBail ﬁts. The cell parameter relationship column refers to the relation of the perovskite superstructure to the ideal cubic perovskite structure. ap
+refers to the cell parameter of a simple cubic perovskite structure
+Goldschmidt tolerance
+factor
+Space group
+Cell parameters
+relationship
+a (˚A)
+b (˚A)
+c (˚A)
+V (˚A3)
+ap (˚A)
+ap (˚A)
+ap (˚A)
+ap
+3 (˚A3)
+LSM-Al25
+1.018
+I4/mcm
+a ¼ apO2
+5.4265(2)
+5.4265(2)
+7.7131(3)
+227.124(10)
+b ¼ apO2
+c ¼ 2ap
+3.8371(2)
+3.8371(2)
+3.8565(2)
+56.781(3)
+V ¼ 4ap
+3
+LSM-Al40
+1.018
+Pm3m
+a ¼ ap
+3.82859(5)
+3.82859(5)
+3.82859(5)
+56.120(1)
+b ¼ ap
+c ¼ ap
+3.82859(5)
+3.82859(5)
+3.82859(5)
+56.120(1)
+V ¼ ap
+3
+LSM-Al60
+1.030
+Pm3m
+a ¼ ap
+3.81125(5)
+3.81125(5)
+3.81125(5)
+55.361(1)
+b ¼ ap
+c ¼ ap
+3.81125(5)
+3.81125(5)
+3.81125(5)
+55.361(1)
+V ¼ ap
+3
+LSM-Mg15
+1.007
+R3c
+a ¼ apO2
+5.4612(3)
+5.4612(3)
+13.3731(4)
+345.41(4)
+b ¼ apO2
+c ¼ 2apO3
+3.8617(3)
+3.8617(3)
+3.8605(2)
+57.57(1)
+V ¼ sin 120  4ap
+3  O3
+LSM-Mg17
+0.998
+R3c
+a ¼ apO2
+5.47832(6)
+5.47832(6)
+13.3325(3)
+346.526(8)
+b ¼ apO2
+c ¼ 2apO3
+3.87376(5)
+3.87376(5)
+3.84876(7)
+57.754(2)
+V ¼ sin 120  4ap
+3  O3
+LM-Mg
+0.967
+Pnma
+a ¼ apO2
+5.49373(7)
+7.7831(2)
+5.52996(6)
+236.452(5)
+b ¼ 2ap
+c ¼ apO2
+3.88465(5)
+3.8915(2)
+3.91027(5)
+59.113(2)
+V ¼ 4ap
+3
+Fig. 7
+Results of thermochemical measurements performed on B-site
+substituted La1xSrxMnO3d. (a) O2 production rates during the thermal
+reduction. (b) Re-oxidation yields with the ﬁrst and second bars cor-
+responding for each sample to the ﬁrst and second cycle respectively.
+(c) O2 and CO productions during the ﬁrst cycle. (d) O2 and CO
+productions during the second cycle.
+This journal is © The Royal Society of Chemistry 2015
+J. Mater. Chem. A, 2015, 3, 3536–3546 | 3543
+Paper
+Journal of Materials Chemistry A
+Published on 02 January 2015. Downloaded by University of Aberdeen on 14/02/2015 15:45:43. 
+View Article Online
+
+
+===== Page 9 =====
+
+microstructure, diﬀerent pO2 and temperatures applied during
+the series of experiments. Upon our synthesis and reaction
+conditions, the Al-doped compounds do not show any signi-
+cant enhancement of the reactivity when compared to the pure
+Mn-containing LSM35 and LSM50. This may be a result of the
+loss of redox active Mn cations that are replaced by Al3+ (Al
+incorporation reduces the amount of reducible Mn cation on B-
+site). Moreover, the productions observed with the most per-
+formant Al-doped compounds were dramatically lowered aer
+two cycles, probably due to a strong inuence of sintering,
+notably with LSM-Al60 which displays a decrease of the re-
+oxidation yield from 57% to 35% aer two cycles. Such decrease
+of the re-oxidation yield was not reported by McDaniel et al. who
+presented only one cycle for three Al-containing materials.24
+However, cycling of one of their Al-doped material, albeit with
+shorter reaction time, showed CO productions not exceeding
+150 mmol g1, for a sample producing 286 mmol g1 over one
+cycle. Deactivation of the Al-containing samples aer the rst
+cycle may therefore also be presumed in this case.
+Systematic control of the samples evolution aer the ther-
+mochemical treatments was performed by PXRD. Fig. SI10†
+shows that all B-site substituted samples remain single phase
+perovskites,
+conrming
+the
+chemical
+stability
+of
+these
+compounds during thermal reduction followed by CO2 split-
+ting. Whereas strong variations of the CO productions and re-
+oxidation yields could be observed from the rst to second
+cycles for the Al-substituted materials, greater stability of the
+production was observed with Mg-substituted compounds. In
+particular, the LSM-Mg17 compound shows the largest CO
+production aer two cycles when compared to other B-site
+doped LSM compounds. Fig. 8 shows SEM images that were
+collected before and aer identical thermochemical cycles on
+samples of LSM35 (Fig. 8a and b), LSM50 (Fig. 8c and d) and
+LSM-Mg17 (Fig. 8e and f). LSM35 and LSM50 were synthesized
+at 1450 C, whereas LSM-Mg17 was synthesized at 1500 C.
+Comparable grain sizes are observed in LSM35 and LSM50
+before and aer thermochemical characterizations. Remark-
+ably, LSM-Mg17 shows a dramatically smaller particle size, with
+some grains being one order of magnitude smaller than some
+observed in LSM35 and LSM50. Loosely packed aggregates of
+these particles enable formation of an irregular framework of
+open pores. Such architecture is retained aer two thermo-
+chemical cycles, showing the good resistance to sintering of the
+Mg-substituted sample. Mg2+ incorporation into LSM materials
+could therefore have a benecial eﬀect for sintering resistance
+both during synthesis (in order to achieve smaller grain size)
+and thermochemical treatments (in order to obtain thermal and
+chemical performance stability). That feature may be correlated
+with the generally strong Mg–O bonding energy in oxides, which
+for example results in a melting point of 2852 C for MgO.
+With the aim to enhance the CO productions of LaMnO3
+based perovskites, LSM50 was shown to be close to the optimal
+Sr-doping.27 Therefore, LSM-Mg17 represents one of the most
+promising materials studied here, as it oﬀers performances that
+are comparable to LSM50, with respective productions of 207
+and 215 mmol g1 aer the second cycle under the same
+conditions, while it oﬀers a greater resistance to sintering and
+then should be less sensitive toward deactivation upon long
+term cycling. Various temperatures of re-oxidation were inves-
+tigated for this material and a third cycle was performed at 1050
+C in order to evaluate the deactivation process past the rst
+thermochemical cycle. The full thermochemical treatment is
+shown in Fig. SI11† and the CO productions as a function of the
+temperature and of the cycle number are depicted on Fig. 9.
+Based on the isothermal re-oxidation experiments at various
+temperatures and the corresponding peak reaction rates, the
+activation energy for the re-oxidation process of LSM-Mg17 by
+CO2 was found to be 39 kJ mol1 (using Arrhenius law). Inter-
+estingly, a greater CO production is observed when the re-
+oxidation is performed at 1200 C, that reaches 239 mmol g1,
+Fig. 8
+Scanning electron micrographs of LSM35, LSM50, and LSM-
+Mg17 samples after the synthesis and after two thermochemical
+cycles.
+Fig. 9
+CO productions obtained with LSM-Mg17 as a function of the
+temperature of re-oxidation with CO2. The same reduction temper-
+ature of 1400 C was applied for all cycles.
+3544 | J. Mater. Chem. A, 2015, 3, 3536–3546
+This journal is © The Royal Society of Chemistry 2015
+Journal of Materials Chemistry A
+Paper
+Published on 02 January 2015. Downloaded by University of Aberdeen on 14/02/2015 15:45:43. 
+View Article Online
+
+
+===== Page 10 =====
+
+whereas a steep decrease is observed at 900 C, with 169 mmol
+g1. Since the thermodynamics of re-oxidation are generally
+favored by a temperature decrease, the larger CO productions
+observed at higher temperatures are likely to be a result of the
+enhancement of thermally activated processes such as catalytic
+CO2 dissociation and oxide ion bulk diﬀusion. The greater
+redox performances produced by enhancement of the kinetics
+at higher re-oxidation temperatures is practically a very inter-
+esting feature in order to diminish the temperature shineeded
+to perform two-step thermochemical splitting of CO2. For
+instance, a temperature shiof approximately 400 C or higher
+is generally needed to make prot of the good redox perfor-
+mances of ceria-based materials. In the case of LSM-Mg17, this
+shicould be reduced to 200 C, potentially resulting in a more
+eﬃcient use of solar energy input, with less time dedicated to
+the cooling and heating of the solar reactor. In addition, the
+third re-oxidation performed at 1050 C showed good repro-
+ducibility with the second re-oxidation at the same temperature,
+in term of both kinetics and magnitude of the CO production.
+The respective CO productions were indeed 208 and 215 mmol
+g1 aer the second and third CO2 splitting steps performed at
+1050 C, with a similar prole in term of kinetics (Fig. 9). Note
+that the initial re-oxidation kinetics was faster during the rst
+cycle at 1050 C but the same nal CO production was reached.
+Since no evidence of decomposition was observed aer the
+thermochemical treatments, such result suggests that the
+sample microstructure is mostly impacted by the rst cycle,
+allowing for better cycling of the kinetics and the CO production
+past this point.
+Conclusion
+A- and B-site substituted perovskites derived from the La1x-
+SrxMnO3d series were synthesized and their reactivity toward
+two-step
+thermochemical
+CO2
+splitting
+was
+subsequently
+studied. Signicant CO productions were observed for the
+majority of the compounds as most of them display redox
+activities that are comparable to state of the art ceria and
+substituted ceria in term of CO production. The best perfor-
+mances aer two cycles were observed in the case of the B-site
+substitution with Mg2+ for La0.60Sr0.40Mn0.83Mg0.17O3d (LSM-
+Mg17). Substitution of Sr2+ by other alkaline earth cations Ca2+
+and Ba2+ leads to a similar behavior and redox activity of
+manganese resulting in large CO productions. In contrast, the
+incorporation of Y3+ in place of La3+ enhances oxygen vacancy
+formation in the perovskite and the decrease of the thermal
+reduction temperature may be achieved by this type of substi-
+tution. However, this might be associated with larger standard
+Gibbs free enthalpy of oxidation which is not benecial to the
+CO2 splitting step. The B-site substitution of Al3+ for Mn3+ was
+found to promote the best performances during the rst ther-
+mochemical cycle. However, a strong decrease of the CO
+production was observed aer this rst cycle, indicating poorer
+thermal stability when compared to undoped La1xSrxMnO3d
+compounds. In contrast, upon Mg2+ introduction on the B-site,
+strong thermal stability was observed for LSM-Mg17 and this
+material maintains CO productions that surpass 200 mmol g1
+aer three thermochemical cycles. Moreover, SEM images
+conrm that Mg2+ incorporation could be highly benecial for
+thermal stability in the La1xSrxMnO3d series and could favor a
+decrease of the particle size, therefore increasing the surface
+area available for the interfacial solid-gas reaction inherent to
+the CO2 splitting step. Thus, Mg2+ introduction allows retaining
+thermochemical
+performances
+while
+increasing
+thermal
+stability and enhancing resistance to sintering, and could
+therefore be considered to induce such eﬀects in other perov-
+skite
+systems
+applied
+to
+high
+temperature
+solar-driven
+thermochemistry.
+Acknowledgements
+This study was funded by Airbus Group Corporate Foundation
+(CNRS CT 084210) and by CNRS (d´eENRS, VALTHER-CO2
+project). The authors gratefully acknowledge D. Perarnau and E.
+Beche (PROMES, Odeillo) for XRD data collection, as well as A
+Julbe
+and
+M.
+Drobek
+(IEM,
+Montpellier)
+for
+SEM
+characterizations.
+References
+1 E. A. Fletcher and R. L. Moen, Science, 1977, 197, 1050–1056.
+2 T. Riedel and G. Schaub, Top. Catal., 2003, 26, 145–156.
+3 G. P. Smestad and A. Steinfeld, Ind. Eng. Chem. Res., 2012, 51,
+11828–11840.
+4 A. Steinfeld, Int. J. Hydrogen Energy, 2002, 27, 611–619.
+5 S. Abanades, P. Charvin, F. Lemont and G. Flamant, Int. J.
+Hydrogen Energy, 2008, 33, 6021–6030.
+6 T. Nakamura, Sol. Energy, 1977, 19, 467–475.
+7 T. Kodama, Y. Kondoh, R. Yamamoto, H. Andou and
+N. Satou, Sol. Energy, 2005, 78, 623–631.
+8 J. R. Scheﬀe, J. Li and A. W. Weimer, Int. J. Hydrogen Energy,
+2010, 35, 3333–3340.
+9 W. C. Chueh and S. M. Haile, Philos. Trans. R. Soc., A, 2010,
+368, 3269–3294.
+10 S. Abanades, A. Legal, A. Cordier, G. Peraudeau, G. Flamant
+and A. Julbe, J. Mater. Sci., 2010, 45, 4163–4173.
+11 J. R. Scheﬀe, D. Weibel and A. Steinfeld, Energy Fuels, 2013,
+27, 4250–4257.
+12 H. Kaneko, H. Ishihara and S. Taku, J. Mater. Sci., 2008, 43,
+3153–3161.
+13 H. Kaneko and Y. Tamaura, J. Phys. Chem. Solids, 2009, 70,
+1008–1014.
+14 A. Le Gal and S. Abanades, J. Phys. Chem. C, 2012, 116,
+13516–13523.
+15 W. C. Chueh, C. Falter, M. Abbott, D. Scipio, P. Furler,
+S. M. Haile and A. Steinfeld, Science, 2010, 330, 1797–1801.
+16 N. D. Petkovich, S. G. Rudisill, L. J. Venstrom, D. B. Boman,
+J. H. Davidson and A. J. Stein, J. Phys. Chem. C, 2011, 115,
+21022–21033.
+17 A. Le Gal, S. Abanades, N. Bion, T. Le Mercier and V. Harl´e,
+Energy Fuels, 2013, 27, 6068–6078.
+18 M. Ryden, A. Lyngfelt, T. Mattisson, D. Chen, A. Holmen and
+E. Bjorgum, Int. J. Greenhouse Gas Control, 2008, 2, 21–36.
+This journal is © The Royal Society of Chemistry 2015
+J. Mater. Chem. A, 2015, 3, 3536–3546 | 3545
+Paper
+Journal of Materials Chemistry A
+Published on 02 January 2015. Downloaded by University of Aberdeen on 14/02/2015 15:45:43. 
+View Article Online
+
+
+===== Page 11 =====
+
+19 P. Furler, J. R. Scheﬀe and A. Steinfeld, Energy Environ. Sci.,
+2012, 5, 6098–6103.
+20 Q.-L.
+Meng,
+C.-I.
+Lee,
+T.
+Ishihara,
+H.
+Kaneko
+and
+Y. Tamaura, Int. J. Hydrogen Energy, 2011, 36, 13435–13441.
+21 Q.-L. Meng and Y. Tamaura, J. Phys. Chem. Solids, 2014, 75,
+328–333.
+22 J. R. Scheﬀe, R. Jacot, G. R. Patzke and A. Steinfeld, J. Phys.
+Chem. C, 2013, 117, 24104–24114.
+23 F. Call, M. Roeb, M. Schm¨ucker, H. Bru, D. Curulla-Ferre,
+C. Sattler and R. Pitz-Paal, Am. J. Anal. Chem., 2013, 4, 37–45.
+24 A. H. McDaniel, E. C. Miller, D. Arin, A. Ambrosini,
+E. N. Coker, R. O'Hayre, W. C. Chueh and J. H. Tong,
+Energy Environ. Sci., 2013, 6, 2424–2428.
+25 A. Demont, S. Abanades and E. Beche, J. Phys. Chem. C, 2014,
+118, 12682–12692.
+26 C.-K. Yang, Y. Yamazaki, A. Aydin and S. M. Haile, J. Mater.
+Chem. A, 2014, 2, 13612–13623.
+27 A. Demont and S. Abanades, RSC Adv., 2014, 4(97), 54885–
+54891, DOI: 10.1039/c4ra10578h.
+28 J.
+Rodriguez-Carvajal,
+Fullprof,
+http://www.ill.eu/sites/
+fullprof/php/programs.html.
+29 T. Roisnel and J. Rodriguez-Carvajal, Mater. Sci. Forum, 2001,
+118, 278–381.
+30 R. D. Shannon, Acta Crystallogr., Sect. A: Cryst. Phys., Diﬀr.,
+Theor. Gen. Crystallogr., 1976, 32, 751–767.
+31 V. M. Goldschmidt, Naturwissenschaen, 1926, 21, 477–485.
+32 P. G. Radaelli, D. E. Cox, M. Marezio and S.-W. Cheong, Phys.
+Rev. B: Condens. Matter Mater. Phys., 1997, 55, 3015.
+33 P. G. Radaelli, M. Marezio, H. Y. Hwang and S.-W. Cheong, J.
+Solid State Chem., 1996, 122, 444–447.
+34 B. Dabrowski, R. Dybzinski, Z. Bukowski, O. Chmaissem and
+J. D. Jorgensen, J. Solid State Chem., 1999, 146, 448–457.
+35 P. M. Woodward, T. Vogt, D. E. Cox, A. Arulraj, C. N. R. Rao,
+P. Karen and A. K. Cheetham, Chem. Mater., 1998, 10, 3652–
+3665.
+36 O. Chmaissem, B. Dabrowski, S. Kolesnik, J. Mais and
+J. D. Jorgensen, Phys. Rev. B: Condens. Matter Mater. Phys.,
+2003, 67, 094431/01–094431/13.
+37 M. A. Pena and J. L. G. Fierro, Chem. Rev., 2001, 101, 1981–
+2017.
+38 B. Buln, A. J. Lowe, K. A. Keogh, B. E. Murphy, O. L¨ubben,
+S. A. Krasnikov and I. V. Shvets, J. Phys. Chem. C, 2013, 117,
+24129–24137.
+39 A. Le Gal, S. Abanades and G. Flamant, Energy Fuels, 2011,
+25, 4836–4845.
+40 R. J. Panlener, R. N. Blumenthal and J. E. Garnier, J. Phys.
+Chem. Solids, 1975, 36, 1213–1222.
+41 M. Kuhn, S. R. Bishop, J. L. M. Rupp and H. L. Tuller, Acta
+Mater., 2013, 61, 4277–4288.
+42 P. R. Shah, T. Kim, G. Zhou, P. Fornasiero and R. J. Gorte,
+Chem. Mater., 2006, 18, 5363–5369.
+43 J.-H. Kim and A. Manthiram, J. Electrochem. Soc., 2008, 155,
+B385–B390.
+44 L. Rørmark, S. Stølen, K. Wiik and T. Grande, J. Solid State
+Chem., 2002, 163, 186–193.
+45 B.
+Dabrowski,
+K.
+Rogacki,
+X.
+Xiong,
+P.
+W.
+Klamut,
+R. Dybzinski, J. Shaler and J. D. Jorgensen, Phys. Rev. B:
+Condens. Matter Mater. Phys., 1998, 58, 2716.
+46 O.
+Chmaissem,
+B.
+Dabrowski,
+S.
+Kolesnik,
+J.
+Mais,
+J. D. Jorgensen and S. Short, Phys. Rev. B: Condens. Matter
+Mater. Phys., 2003, 67, 094431/01–094431/13.
+3546 | J. Mater. Chem. A, 2015, 3, 3536–3546
+This journal is © The Royal Society of Chemistry 2015
+Journal of Materials Chemistry A
+Paper
+Published on 02 January 2015. Downloaded by University of Aberdeen on 14/02/2015 15:45:43. 
+View Article Online

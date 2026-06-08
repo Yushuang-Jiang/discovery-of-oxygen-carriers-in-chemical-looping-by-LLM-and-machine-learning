@@ -1,0 +1,839 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Applied Surface Science
+journal homepage: www.elsevier.com/locate/apsusc
+Full Length Article
+Thermochemical splitting of CO2 using solution combustion synthesized
+LaMO3 (where, M = Co, Fe, Mn, Ni, Al, Cr, Sr)
+Gorakshnath Takalkara, Rahul R. Bhosalea,⁎, Fares AlMomania, Anand Kumara, Aliya Banua,
+Anchu Ashokb, Suliman Rashida, Majeda Khraisheha, Abdul Shakoorc, Abdullah al Ashrafc
+a Department of Chemical Engineering, College of Engineering, Qatar University, P.O. Box – 2713, Doha, Qatar
+b Department of Mechanical and Industrial Engineering, College of Engineering, Qatar University, Doha, Qatar
+c Center for Advanced Materials (CAM), Qatar University, P.O. Box 2713, Doha, Qatar
+A R T I C L E I N F O
+Keywords:
+Perovskites
+CO2 splitting
+Thermochemical
+Solution combustion synthesis
+Solar energy
+A B S T R A C T
+The effort of this paper was to recognize the inclusion of appropriate dopants that will upgrade the redox
+reactivity of La-based perovskites. By maintaining the fuel (glycine) to metal nitrate ratio ( ) = 1, the LaMO3
+(where, M = Co, Fe, Mn, Ni, Al, Cr, Sr) perovskites were synthesized by using the solution combustion synthesis
+(SCS). Physical properties such as the phase purity, elemental composition, crystallite size, and material mor-
+phology of the SCS derived LaMO3 determined by using various analytical techniques. The influence of in-
+corporation of Co, Fe, Mn, Ni, Al, Cr, and Sr as dopants on the O2 release and CO production ability of LaMO3
+perovskites was studied by performing multiple cycles in the temperature range of 1000–1400 °C. Based on the
+acquired data, the SCS synthesized LaMO3 perovskites can be arranged as follows:
+Based on the O2 releasing aptitude: LaMnO3
+>
+LaSrO3
+>
+LaNiO3
+>
+LaCoO3
+>
+LaAlO3
+>
+LaCrO3 > LaFeO3.
+Based on the CO production capacity: LaSrO3
+>
+LaAlO3
+>
+LaCoO3
+>
+LaFeO3
+>
+LaMnO3
+>
+LaCrO3 > LaNiO3.
+1. Introduction
+Thermochemical conversion of thermodynamically stable H2O/
+CO2 into syngas (H2/CO mixture) by using redox materials and con-
+centrated solar power has emerged as one of the effectual approaches
+for the generation of renewable liquid fuels [1–4]. This process is
+beneficial as it aids to lessen the greenhouse effect by commendably
+upgrading the CO2 into synthetic fuels and provides a sustainable al-
+ternative for the consumption of fossil fuels [5].
+To be a favorable candidate for the thermochemical redox cycle, the
+essential properties the metal oxides should possess includes higher and
+sustained levels of O2 evolution (formation of a large number of O2
+vacancies) and CO production in multiple cycles, faster reaction ki-
+netics, highest solar-to-fuel energy conversion efficiency, and long term
+thermal stability. In pursuit of the best redox material, numerous vo-
+latile and non-volatile (both stoichiometric and nonstoichiometric)
+metal oxides such as ZnO [6–9], SnO2 [10–12], ceria [13–20], ferrites
+[21–29], perovskites [30–35], and others [36–38] have been in-
+vestigated. Among these, ceria based redox materials are competent of
+producing consistent amounts of O2 and CO in successive cycles with a
+faster reaction kinetics. Alike ceria, perovskite-based redox materials
+(ABO3) also displayed encouraging results towards splitting H2O/CO2
+thermochemically. The redox reactions involved in a perovskite-based
+thermochemical cycle are as follows:
++
+ABO
+ABO
+O
+g
+2
+( )
+3
+3
+2
+(1)
++
++
+ABO
+H O g
+ABO
+H g
+( )
+( )
+3
+2
+3
+2
+(2)
++
++
+ABO
+CO
+g
+ABO
+CO g
+( )
+( )
+3
+2
+3
+(3)
+The preceding studies indicate that analogous to the ceria-based ma-
+terials, the redox properties of the perovskites upgraded via integrating
+various combinations of the metal cations in the perovskite crystal
+structure. Doping of the metal cations appreciably influences the O2 re-
+leasing and H2O/CO2 splitting capability of the perovskites. Additionally,
+the doped perovskites were also competent of being thermally reduced at
+lower temperatures as compared to ceria-based materials.
+Scheffe et al. [39] have explored the La-Sr-Mn-O perovskites by
+varying the composition of Sr as 0.3 and 0.4 and reported favorable
+redox outcomes with better solar-to-fuel energy conversion efficiency.
+https://doi.org/10.1016/j.apsusc.2019.144908
+Received 29 November 2018; Received in revised form 24 November 2019; Accepted 29 November 2019
+⁎ Corresponding author.
+E-mail address: rahul.bhosale@qu.edu.qa (R.R. Bhosale).
+Applied Surface Science 509 (2020) 144908
+Available online 02 December 2019
+0169-4332/ © 2019 Elsevier B.V. All rights reserved.
+T
+
+
+===== Page 2 =====
+
+Similar to the study mentioned above, the effect of variation in the Sr
+composition in the La-Sr-Mn-O perovskite on the water-splitting ability
+was thermodynamically and kinetically investigated by Yang et al. [40]
+and the obtained results indicate that the composition of Sr in the range
+of 0.4–0.6 is suitable for the elevated amounts of fuel production. Dey
+et al. [41] reported that the La-Sr-Mn-O perovskite and the Y-Sr-Mn-O
+perovskite possess higher fuel production capacity and better redox
+performance as compared to the ceria and Zr-doped ceria materials.
+Ezbiri et al. [42] investigated the performance of the (La-Sr)-(Mn-Al)-O
+perovskite and (La-Ca)-(Mn-Al)-O perovskite towards H2O/CO2 split-
+ting reactions by varying the compositions on the A site. Based on the
+obtained results, these authors have concluded that these two per-
+ovskites are suitable for the H2O/CO2 splitting reactions at reduced
+operating temperatures. McDaniel et al. [43] indicated that the Sr- and
+Mn-doped La-Al-O perovskites were capable of producing a consider-
+able amount of H2 and CO at lower temperatures (approximately by
+300 °C) as compared to the ceria.
+Multiple researchers have reported that, by employing the Ca-, Sr-,
+and Al-doped La-Mn-O perovskites [33,34,44], the unwanted carbona-
+tion reaction avoided by using re-oxidation temperature above 900 °C.
+Such combinations of cations on A and B sites favor the enhancement in
+the redox outcome of the perovskites as compared to ceria (for the
+thermal reduction temperatures in the range of 1200–1400 °C). Bork
+et al.[45] reported that the use of La-Sr- combination on the A site and
+Cr-Co- combination on the B site is beneficial to split CO2 25 times higher
+as compared to ceria (without any carbonation) for the operating tem-
+peratures in the range of 800–1200 °C. Demont and Abanades [46] ex-
+amined the crystal chemistry and phase composition of the Ba-, Ca-, Y-,
+Al-, and Mg-doped La-Sr-Mn-O perovskites towards H2O splitting reac-
+tion performed in the temperature range of 1000–1400 °C. Likewise,
+Babiniec et al. [47] explored an extensive range of composition of (La-
+Sr)-(Co-Mn)-O perovskites and (La-Sr)-(Co-Fe)-O perovskites towards
+H2O splitting using a thermogravimetric analyzer.
+From the list, it is evident that the La-based perovskites were con-
+siderably exercised for the thermochemical splitting of H2O/CO2.
+Moreover, to enrich the redox reactivity of the La-based perovskites, Sr,
+Mn, Fe, Co, Al, and Cr were employed as dopants. Based on the literature
+survey conducted by our team, we identified that the initial selection of
+the dopants was primarily made based on the thermodynamic analysis
+(no experimental reasoning provided). Therefore, in this investigation,
+our emphasis was to assess the efficacy of the different dopants, in-
+dividually and experimentally, towards enhancing the redox reactivity of
+the La-based perovskites (LaMO3). The LaMO3 (where M = Co, Fe, Mn,
+Ni, Al, Cr, Sr) perovskites were synthesized utilizing the solution com-
+bustion synthesis (SCS) approach where glycine acts as the fuel. The
+effectiveness of each LaMO3 material towards the thermochemical
+splitting of CO2 was determined by performing multiple cycles using a
+high-temperature thermos-gravimetric analyzer (TGA).
+2. Experimental methodology
+2.1. Materials
+La(NO3)3·6H2O, Ni(NO3)2·6H2O, Co(NO3)2·6H2O, Mn(NO3)2·4H2O,
+Cr(NO3)3·9H2O, Fe(NO3)2·9H2O, Al(NO3)2·9H2O and Sr(NO3)2, and
+glycine were procured from Sigma Aldrich. The ultrapure Type 1,
+Nomenclature
+mloss
+mass lass observed during thermal reduction step
+mgain
+mass gain observed during CO2 splitting step
+nO2
+amount of O2 released during thermal reduction step
+nCO
+amount of CO produced during CO2 splitting step
+mLaMO3
+mass of LaMO3 used in the thermogravimetric experiments
+MO2
+molecular weight of O2
+MO
+molecular weight of O
+v
+valence of metal cations
+fuel to metal nitrate mixture ratio
+Fig. 1. Synthesis of LaMO3 materials using the glycine driven SCS method.
+G. Takalkar, et al.
+Applied Surface Science 509 (2020) 144908
+2
+
+
+===== Page 3 =====
+
+Direct-Q system (Millipore, France) produced the deionized water,
+which was utilized for the formulation of the metal precursor solution.
+The gas cylinders containing Ar and the 50% CO2/Ar gas mixture re-
+quired for the TGA experiments were ordered from Buzwair Scientific
+and Technical Gases, Qatar.
+2.2. Preparation of LaMO3 using SCS approach
+The LaMO3 perovskites (where M = Co, Fe, Mn, Ni, Al, Cr, Sr) were
+synthesized via the SCS method (Fig. 1). The amounts of metal pre-
+cursors required for the synthesis of 1 g of LaMO3 calculated by using
+the stoichiometric Eq. (4).
++
++
++
++
++
++
++
++
++
++
++
++
+La
+NO
+M
+NO
+v
+v
+v
+v
+La M
+O
+v
+v
+g
+O g
+v
+v
+g
+(
+)
+(
+)
+(5/9( 1
+2) )C H
+NO
+(5/4( 1
+2)(1
+))O
+10/9( 1
+2) CO ( )
+25
+/18 H
+( )
+( 1
+2)(5
+9)
+18
+N ( )
+v
+v
+v
+v
+v
+v
+v
+v
+1
+3
+1
+2
+3
+2
+2
+5
+2
+2
+1
+2
+( 1
+2)/2
+2
+2
+2
+(4)
+where v1 and v2 are the vacancies of La and M (dopants), and the
+parameter ϕ is known as the fuel to metal nitrates ratio. A homogeneous
+mixture comprising metal nitrates and glycine (as the fuel) was prepared
+in 50 ml of deionized water with nitrates to fuel ratio (ϕ) equal to 1. This
+homogenous solution was heated up to 300 °C to evaporate the surplus
+water and to commence the combustion reaction. The detailed steps
+associated with the SCS of LaMO3 are reported in Fig. 1. The LaMO3
+powder acquired after the end of the combustion reaction was calcined in
+air at 1000 °C for five hours. SCS synthesized LaMO3 perovskites are
+abbreviated as: LaCoO3 (LaCo), LaFeO3 (LaFe), LaMnO3 (LaMn), LaNiO3
+(LaNi), LaAlO3 (LaAl), LaCrO3 (LaCr), and LaSrO3 (LaSr).
+2.3. Characterization of LaMO3
+The powders obtained after calcination were further analyzed using
+a PANalytical XPert MPD/DY636 powder X-ray diffractometer (PXRD)
+with Cu
+Kα radiation (λ = 0.15418 nm, voltage = 45 kV,
+current = 20 mA, angular range = 20–90° 2θ, step = 0.05° 2θ, re-
+cording time = 5 s). Additionally, scanning electron microscopy (SEM)
+equipped with energy-dispersive X-ray spectroscopy (EDS) (Nova Nano
+450, FEI) was utilized to scrutinize the morphology and the elemental
+composition of the calcined LaMO3 powders.
+2.4. Thermogravimetric experiments
+The assessment of the redox reactivity of the synthesized LaMO3
+perovskites was conducted by using a TGA (SETSYS Evolution)
+Fig. 2. TGA setup used for the evaluation of cyclic redox reactivity of LaMO3.
+Fig. 3. PXRD patterns of the calcined LaMO3 powders (synthesized via the
+SCS).
+G. Takalkar, et al.
+Applied Surface Science 509 (2020) 144908
+3
+
+
+===== Page 4 =====
+
+purchased from Setaram Instrumentation, France (Fig. 2). The details
+associated with the TGA set-up are already reported in our previous
+studies [20]. Around 75 mg of the LaMO3 perovskite powder was
+placed on the TGA suspended balance with the help of an alumina
+crucible. A Pt–Rh thermocouple (type B) was expended for the mea-
+surement and regulation of the sample temperature. Consecutive mul-
+tiple cycles were conducted systematically to gauge the consequence of
+dopant incorporation on the thermal reduction and re-oxidation
+Fig 4. SEM images of the LaMO3 (Where, M = Co, Fe, Mn, Ni, Al, Cr, Sr).
+G. Takalkar, et al.
+Applied Surface Science 509 (2020) 144908
+4
+
+
+===== Page 5 =====
+
+capacity of the LaMO3 perovskites. The thermal reduction of the LaMO3
+perovskites was carried out at 1400 °C for 60 min in the presence of an
+inert Ar (100 ml/min). The operating conditions employed in this study
+were selected based on the previous investigations associated with the
+ferrite and ceria based thermochemical CO2 splitting experiments. The
+CO production capacity of the LaMO3 perovskites was estimated by
+performing the CO2 splitting reaction at 1000 °C for 30 min by using a
+gas mixture containing 50% CO2 with 50% Ar (100 ml/min). The
+variation in the mass of the sample observed during both steps was
+transformed into the sums of O2 released, and CO produced after O2
+uptake into LaMO3 by using the following equations.
+=
+×
+n
+m
+M
+m
+(
+)
+O
+loss
+O
+MO
+La
+2
+2
+3
+(5)
+=
+×
+n
+m
+M
+m
+(
+)
+CO
+gain
+O
+MO
+La
+3
+(6)
+3. Results and discussion
+As stated earlier, the compositional purity of the SCS synthesized
+LaMO3 redox materials was identified by performing the PXRD analysis.
+The PXRD peaks allied with each LaMO3 material are reported in Fig. 3.
+For all the perovskite materials (except for LaNiO3), the phase identi-
+fication conducted by using the PANalytical XPert software designates
+the formation of the respective perovskite phase with no traces of any
+metal/metal oxide impurities. Besides phase identification, the average
+crystallite size of each perovskite material was computed by using the
+Scherrer formula. The numbers acquired after performing the calcula-
+tions indicate that the average crystallite size of all the LaMO3 materials
+was in the range of 50–70 nm. The uppermost crystallite size was de-
+tected in the case of the LaFeO3 (69.6 nm), whereas the lowest one
+observed in the case of LaSrO3 (50.9 nm).
+The microstructural morphological analysis was also conducted, and
+the SEM images obtained for each LaMO3 perovskite are presented in
+Fig. 4. All the SCS synthesized perovskites showed more extensive irregular
+shaped porous morphology. The elemental composition of the perovskites
+was also determined by using the EDS, and the obtained results confirmed
+1:1 M ratio for all La:M (M = Co, Fe, Mn, Ni, Al, Cr, Sr) perovskites.
+The O2 releasing and CO producing capacity of the calcined LaMO3
+perovskites was determined by performing thermochemical redox ex-
+periments using a high-temperature TGA. In the beginning, the redox
+reactivity of the SCS synthesized LaMO3 perovskites were compared
+with each other based on the findings obtained in the first thermo-
+chemical cycle. Each perovskite was reduced at 1400 °C for 60 min and
+re-oxidized at 1000 °C for 30 min, and an exemplified TGA profile (for
+the LaAlO3) obtained during the first cycle is reported in Fig. 5.
+The amount of mass lost by each perovskite during the reduction step
+was calculated starting from 1000 °C up to 1400 °C (steady for 60 min)
+whereas, the sum of mass gain via splitting of CO2 estimated at 1000 °C
+(steady for 30 min). The obtained mass variation values were converted into
+the amounts of O2 released, and CO produced using Eqs. (5) and (6). The
+numbers obtained specify that the O2 releasing and CO producing aptitude
+of LaSrO3 perovskite was significantly higher than the other perovskites.
+The amounts of O2 released by each LaMO3 perovskite was as follows: LaSr
+(3424.9 μmol/g)
+>
+LaCo (655.2 μmol/g)
+>
+LaNi (362.5 μmol/
+g) > LaMn (347.1 μmol/g) > LaAl (68.4 μmol/g) > LaCr (37.6 μmol/
+g) > LaFe (32.8 μmol/g). Likewise, the sum of CO produced via splitting of
+CO2 by each LaMO3 perovskite was as follows: LaSr (3120.3 μmol/
+g) > LaAl (120.9 μmol/g) > LaMn (67.6 μmol/g) > LaFe (53.9 μmol/
+g) > LaCr (51.9 μmol/g) > LaCr (46.9 μmol/g) > LaNi (28.1 μmol/g).
+The results of the first thermochemical cycle show that the LaSrO3
+perovskite was noticeably active as compared to other perovskites to-
+wards the thermal reduction and CO2 splitting reactions. The LaMO3
+perovskites were further evaluated in three O2 releasing and CO2
+splitting cycles at operating conditions identical to the first cycle. The
+TGA profiles obtained for all the perovskite materials for three cycles
+are reported in Fig. 6, and the quantities of O2 released and CO pro-
+duced are listed in Table 1.
+The tabulated numbers display that the thermal reduction aptitude
+of all the LaMO3 perovskites lessens in the second cycle. The %decrease
+in the amount of O2 liberated by each perovskite in the second cycle as
+compared to the first cycle was as follows: LaMn (40.3%), LaCo
+(77.8%), LaNi (74.1%), LaFe (17.4%), LaCr (27.9%), LaSr (55.1%), and
+LaAl (22.1%). The O2 releasing competence of most of the LaMO3
+perovskites (except for LaMn and LaNi) further reduced in the third
+cycle. For instance, the %decrease in the quantity of O2 freed by each
+perovskite in the third cycle as compared to the second cycle was as
+follows: LaMn (2.2%), LaCo (39.8%), LaNi (2.4%), LaFe (14.8%), LaCr
+(18.95%), LaSr (88.5%), and LaAl (7.9%). The obtained findings in-
+dicate that, in terms of their thermal reduction ability, the LaMn, LaNi,
+and partially LaAl became stable after three thermochemical cycles,
+whereas the remaining perovskites were still unsteady.
+The potential of the SCS synthesized LaMO3 perovskites towards the
+splitting of CO2, in terms of the amounts of CO produced in three cycles,
+is presented in Table 1. Similar to the thermal reduction section, the
+capacity of each perovskite (except LiCo) to split CO2 was decreased
+considerably in the second cycle. For instance, the %reduction in the CO
+generated by each perovskite in the second cycle as compared to the first
+one was as follows: LaMn (51.3%), LaCo (3.0%), LaNi (43.2%), LaFe
+(41.3%), LaCr (44.9%), LaSr (88.5%), and LaAl (35.9%). In the third
+cycle also the CO production ability of LaMn, LaNi, LaFe, LaCr, and LaSr
+diminished significantly in comparison to the CO generated in cycle 2
+(22.2%, 6.3%, 23.7%, 50.0%, and 37.9%, individually). Nevertheless,
+LaCo and LaAl appear to be proficient in producing comparable amounts
+of CO in the third cycle as compared to the second one.
+From the outcomes attained in three consecutive cycles, it was en-
+ormously challenging to ascertain the competent LaMO3 perovskite for the
+Fig 5. Exemplified TGA profile of the LaAlO3 perovskite during the first thermochemical cycle.
+G. Takalkar, et al.
+Applied Surface Science 509 (2020) 144908
+5
+
+
+===== Page 6 =====
+
+splitting of the CO2 thermochemical way. Hence, the LaMO3 perovskites
+were further examined in ten successive thermochemical cycles to re-
+cognize their thermal dissociation and CO2 splitting reactivity for a long-
+lasting period. The experimental circumstances employed to perform ten
+cycles were analogous to those applied in the case of three cycles. To get a
+better comparison between the perovskites, the TGA data obtained in the
+first two cycles excluded from the analysis. Hence, the LaMO3 perovskites
+were compared based on the findings acquired from cycles three to ten.
+Fig. 6. TGA profile of each LaMO3 perovskite obtained during three thermochemical redox cycles.
+G. Takalkar, et al.
+Applied Surface Science 509 (2020) 144908
+6
+
+
+===== Page 7 =====
+
+Fig. 7 illustrates the amounts of O2 released by each perovskite from
+cycle 3 to cycle 10. As per the reported results, the LaMn perovskite was
+able to liberate the maximum quantity of O2 as compared to other LaMO3
+perovskites in all cycles. However, the O2 released by LaMn perovskite
+reduces from 202.9 to 113.3 μmol/g from cycle 3 to cycle 10. The
+second-best material, in terms of the thermal reduction aptitude, was
+observed to be LaSr perovskite. Similar to the LaMn perovskite, the O2
+releasing competence of the LaSr decreases by 87.7 μmol/g from cycle 3
+to cycle 6. Though, from cycle 7 to cycle 10, the extent of O2 liberated in
+the case of LaSr was roughly stable (71.6 μmol/g). LaNi perovskite ex-
+hibited steady O2 release from cycle 3 to cycle 5. Yet, as the number of
+cycles increases from 5 to 10, the sum of O2 released by LaNi perovskite
+was lessened from 96.6 to 40.1 μmol/g. The similar trend was observed
+in the case of LaCo perovskite, where the O2 released declined from 87.5
+to 52.3 μmol/g from cycle 3 to cycle 10. LaAl perovskite was qualified for
+liberating almost invariable amounts of O2 in all thermochemical cycles;
+but the sum of O2 released in each cycle was lower than the LaMn and
+LaSr perovskites. Identical to LaAl perovskite, the LaFe and LaCr per-
+ovskites also showed unchanging O2 release for all the cycles. None-
+theless, the quantity of O2 liberated by the LaFe and LaCr perovskites was
+the lowest as compared to other perovskites investigated in this study.
+As per Fig. 8, the uppermost CO production was observed in the case
+of LaSr perovskite. The amount of CO produced by the LaSr perovskite
+decreased from cycle 2 (222.2 μmol/g) to cycle 6 (79.5 μmol/g).
+However, from cycle 6 (79.5 μmol/g) to cycle 10 (86.6 μmol/g), this
+perovskite was capable of producing a roughly a similar quantity of CO.
+Based on the sum of CO generated, the second-best option was the LaAl
+perovskite. Although the LaAl perovskite produced a considerable vo-
+lume of CO, the amounts were fluctuating per cycle. For instance, in
+cycle 3 the LaAl produced 86.6 μmol/g of CO, which was reduced to
+59.2 μmol/g in cycle 4 and again increased up to 70.7 μmol/g in cycle
+6. Identical to LaAl perovskite, the LaCo perovskite also generated the
+sizable sum of CO, but the trend of the CO production per cycle was of
+increasing-decreasing order. The remaining perovskites produced in-
+ferior amounts of CO as compared to LaSr, LaAl, and LaCo perovskites.
+Fig. 9 represents the average fuel production capacity of each
+LaMO3 perovskite in terms of molar ratio of CO/O2 (from cycle 3 to
+cycle 10). The reported data designate that the LaMn perovskite liber-
+ated the highest amount of O2 whereas the LaSr perovskite produced a
+maximum quantity of CO as compared to other LaMO3 perovskites. The
+outcomes signify that the application of both Sr and Mn together as the
+dopants can be beneficial towards improving the redox reactivity of La-
+based perovskites. The LaMO3 perovskites can be arranged based on the
+average quantity of O2 released from cycle 3 to cycle 10 as follows:
+LaMn (184.8 μmol/g·cycle)
+>
+LaSr (96.1 μmol/g·cycle)
+> LaNi
+(74.7 μmol/g·cycle) > LaCo (61.3 μmol/g·cycle) > LaAl (56.9 μmol/
+g·cycle) > LaCr (28.8 μmol/g·cycle) > LaFe (27.2 μmol/g·cycle).
+Likewise, this list can be modified as follows by considering the average
+quantities of CO produced by each perovskite: LaSr (124.1 μmol/
+g·cycle) > LaAl (67.0 μmol/g·cycle) > LaCo (37.7 μmol/g·cycle) >
+LaFe (14.9 μmol/g·cycle) > LaMn (14.1 μmol/g·cycle) > LaCr
+(12.2 μmol/g·cycle) > LaNi (7.8 μmol/g·cycle).
+4. Summary and conclusions
+In this study, various La-based perovskites were synthesized and
+tested towards thermochemical CO2 splitting reactions. The results as-
+sociated with the compositional characterization (performed using
+PXRD) confirmed the formation of targeted perovskites with pure phase
+composition. The outcomes of the elemental analysis of the derived
+perovskite samples agree with the results obtained during the PXRD
+investigation. The SEM analysis of the La-based perovskites showed
+more significant irregular shaped porous morphology.
+Table 1
+Amounts of O2 released and CO produced by each LaMO3 perovskite in three
+thermochemical cycles.
+LaMO3
+Cycle 1
+Cycle 2
+Cycle 3
+O2
+(μmol/g)
+CO
+(μmol/g)
+O2
+(μmol/g)
+CO
+(μmol/g)
+O2
+(μmol/g)
+CO
+(μmol/g)
+LaMn
+347.2
+67.6
+207.4
+32.9
+222.9
+25.6
+LaCo
+655.6
+46.9
+145.4
+48.5
+87.5
+53.1
+LaNi
+362.5
+28.0
+93.8
+15.9
+95.6
+14.9
+LaFe
+32.8
+53.8
+27.1
+31.6
+23.1
+24.1
+LaCr
+37.6
+51.9
+27.1
+28.6
+22.1
+14.3
+LaSr
+3425.1
+3120.3
+1536.8
+357.9
+176.1
+222.2
+LaAl
+68.4
+120.9
+43.3
+77.5
+49.1
+86.6
+Fig. 7. O2 released (μmol/g) by each LaMO3 perovskite from cycle 3 to cycle
+10.
+Fig. 8. CO produced (μmol/g) by each LaMO3 perovskite from cycle 3 to cycle
+10.
+Fig. 9. Average quantities of O2 released and CO produced (with CO/O2 molar
+ratio) by the SCS synthesized LaMO3 perovskites (from cycle 3 to cycle 10).
+G. Takalkar, et al.
+Applied Surface Science 509 (2020) 144908
+7
+
+
+===== Page 8 =====
+
+Several thermochemical redox cycles were performed to determine
+the redox reactivity (amount of O2 released and CO produced) of each
+LaMO3 perovskite (thermal reduction at 1400 °C and CO2 splitting at
+1000 °C). The obtained findings indicate that the inclusion of Mn into
+the La-based perovskite was considerably beneficial towards improving
+the O2 release through the lattice during the thermal reduction step.
+Likewise, to enhance the production of CO during the CO2 splitting
+step, the incorporation of Sr in the La-based perovskite was essential. In
+overall, La-Mn-O perovskite was capable of liberating 184.8 μmol of
+O2/g·cycle, and the aptitude of the La-Sr-O perovskite towards produ-
+cing CO via CO2 splitting was equal to 124.1 μmol of CO/g·cycle.
+Acknowledgements
+This publication was made possible by the NPRP grant (NPRP8-370-
+2-154) from the Qatar National Research Fund (a member of Qatar
+Foundation). The statements made herein are solely the responsibility
+of author(s). The authors also gratefully acknowledge the Center of
+Advances Materials (CAM) at Qatar University for carrying out the
+PXRD analysis, and the Central Laboratory Unit (CLU) for services re-
+lated to the electron microscopy.
+References
+[1] R.R. Bhosale, A. Kumar, F. Almomani, U. Ghosh, D. Dardor, Z. Bouabidi, M. Ali,
+S. Yousefi, A. Alnouss, M.S. Anis, M.H. Usmani, M.H. Ali, R.S. Azzam, A. Banu, Solar
+co-production of samarium and syngas via methanothermal reduction of samarium
+sesquioxide, Energy Convers. Manage. 112 (2016) 413–422, https://doi.org/10.
+1016/j.enconman.2016.01.032.
+[2] J.R. Scheffe, A. Steinfeld, Oxygen exchange materials for solar thermochemical
+splitting of H2O and CO2: a review, Mater. Today. 17 (2014) 341–348, https://doi.
+org/10.1016/j.mattod.2014.04.025.
+[3] E.C. Vagia, N. Muradov, A. Kalyva, A. T-Raissi, N. Qin, A.R. Srinivasa,
+K.E. Kakosimos, Solar hybrid photo-thermochemical sulfur-ammonia water-split-
+ting cycle: photocatalytic hydrogen production stage, Int. J. Hydrogen Energy 42
+(2017) 20608–20624, https://doi.org/10.1016/j.ijhydene.2017.06.210.
+[4] Y. Bicer, I. Dincer, Development of a new solar and geothermal based combined
+system for hydrogen production, Sol. Energy (2016), https://doi.org/10.1016/j.
+solener.2016.01.031.
+[5] S. Chu, A. Majumdar, Opportunities and challenges for a sustainable energy future,
+Nature 488 (2012) 294–303, https://doi.org/10.1038/nature11475.
+[6] P.G. Loutzenhiser, A. Steinfeld, Solar syngas production from CO2 and H2O in a
+two-step thermochemical cycle via Zn/ZnO redox reactions: thermodynamic cycle
+analysis, Int. J. Hydrogen Energy 36 (2011) 12141–12147, https://doi.org/10.
+1016/j.ijhydene.2011.06.128.
+[7] R.R. Bhosale, Thermodynamic efficiency analysis of zinc oxide based solar driven
+thermochemical H2O splitting cycle: effect of partial pressure of O2, thermal re-
+duction and H2O splitting temperatures, Int. J. Hydrogen Energy (2018), https://
+doi.org/10.1016/j.ijhydene.2018.06.074.
+[8] R. Bhosale, A. Kumar, F. AlMomani, R.B. Gupta, Solar thermochemical ZnO/ZnSO4
+water splitting cycle for hydrogen production, Int. J. Hydrogen Energy 42 (2017),
+https://doi.org/10.1016/j.ijhydene.2017.02.190.
+[9] M. Chambon, S. Abanades, G. Flamant, Thermal dissociation of compressed ZnO
+and SnO 2 powders in a moving-front solar thermochemical reactor, AIChE J.
+(2011), https://doi.org/10.1002/aic.12432.
+[10] S. Abanades, M. Chambon, CO2 dissociation and upgrading from two-step solar
+thermochemical processes based on ZnO/Zn and SnO2/SnO redox pairs, Energy
+Fuels (2010), https://doi.org/10.1021/ef101092u.
+[11] R.R. Bhosale, A. Kumar, P. Sutar, Thermodynamic analysis of solar driven SnO2/
+SnO based thermochemical water splitting cycle, Energy Convers. Manage. 135
+(2017), https://doi.org/10.1016/j.enconman.2016.12.067.
+[12] S. Abanades, P. Charvin, F. Lemont, G. Flamant, Novel two-step SnO2/SnO water-
+splitting cycle for solar thermochemical production of hydrogen, Int. J. Hydrogen
+Energy 33 (2008) 6021–6030, https://doi.org/10.1016/j.ijhydene.2008.05.042.
+[13] S. Ackermann, M. Takacs, J. Scheffe, A. Steinfeld, Reticulated porous ceria under-
+going thermochemical reduction with high-flux irradiation, Int. J. Heat Mass
+Transf. 107 (2017) 439–449, https://doi.org/10.1016/j.ijheatmasstransfer.2016.
+11.032.
+[14] S. Abanades, A. Le Gal, CO2 splitting by thermo-chemical looping based on
+ZrxCe1−xO2 oxygen carriers for synthetic fuel generation, Fuel 102 (2012)
+180–186, https://doi.org/10.1016/j.fuel.2012.06.068.
+[15] R.R. Bhosale, G. Takalkar, P. Sutar, A. Kumar, F. AlMomani, M. Khraisheh, A decade
+of ceria based solar thermochemical H2O/CO2splitting cycle, Int. J. Hydrogen
+Energy (2018), https://doi.org/10.1016/j.ijhydene.2018.04.080.
+[16] W.C. Chueh, C. Falter, M. Abbott, D. Scipio, P. Furler, S.M. Haile, A. Steinfeld, High-
+flux solar-driven thermochemical dissociation of CO2 and H2O using nonstoichio-
+metric ceria, Science (80-.) 330 (2010) 1797–1801, https://doi.org/10.1126/
+science.1197834.
+[17] P. Furler, J. Scheffe, M. Gorbar, L. Moes, U. Vogt, A. Steinfeld, Solar thermo-
+chemical CO2 splitting utilizing a reticulated porous ceria redox system, Energy
+Fuels 26 (2012) 7051–7059, https://doi.org/10.1021/ef3013757.
+[18] R.R. Bhosale, A. Kumar, F. AlMomani, U. Ghosh, S. Al-Muhtaseb, R. Gupta,
+I. Alxneit, Assessment of CexZryHfzO2 based oxides as potential solar thermo-
+chemical CO2 splitting materials, Ceram. Int. 42 (8) (2016) 9354–9362.
+[19] R.R. Bhosale, A. Kumar, F. Almomani, I. Alxneit, Sol-gel derived CeO2-
+Fe2O3nanoparticles: synthesis, characterization and solar thermochemical appli-
+cation, Ceram. Int. (2016), https://doi.org/10.1016/j.ceramint.2016.01.042.
+[20] G.D. Takalkar, R.R. Bhosale, A. Kumar, F. AlMomani, M. Khraisheh, R.A. Shakoor,
+R.B. Gupta, Transition metal doped ceria for solar thermochemical fuel production,
+Sol. Energy (2018), https://doi.org/10.1016/j.solener.2018.03.022.
+[21] C. Agrafiotis, A. Zygogianni, C. Pagkoura, M. Kostoglou, A.G. Konstandopoulos,
+Hydrogen production via solar-aided water splitting thermochemical cycles with
+nickel ferrite: experiments and modeling, AIChE J. 59 (2013) 1213–1225, https://
+doi.org/10.1002/aic.13882.
+[22] R.R. Bhosale, A. Kumar, F. AlMomani, U. Ghosh, P. Sutar, G. Takalkar, A. Ashok,
+I. Alxneit, Effectiveness of Ni incorporation in iron oxide crystal structure towards
+thermochemical CO2splitting reaction, Ceram. Int. 43 (2017) 5150–5155, https://
+doi.org/10.1016/j.ceramint.2017.01.034.
+[23] R.R. Bhosale, R.V. Shende, J.A. Puszynski, Sol-gel derived NiFe2O4modified with
+ZrO2for hydrogen generation from solar thermochemical water-splitting reaction,
+Mater. Res. Soc. Symp. Proc. (2011), https://doi.org/10.1557/opl.2012.772.
+[24] K.M. Allen, E.N. Coker, N. Auyeung, J.F. Klausner, Cobalt ferrite in YSZ for use as
+reactive material in solar thermochemical water and carbon dioxide splitting, Part I:
+material characterization, JOM (2013), https://doi.org/10.1007/s11837-013-
+0704-2.
+[25] C.L. Muhich, V.J. Aston, R.M. Trottier, A.W. Weimer, C.B. Musgrave, First-princi-
+ples analysis of cation diffusion in mixed metal ferrite spinels, Chem. Mater. 28
+(2016) 214–226, https://doi.org/10.1021/acs.chemmater.5b03911.
+[26] K. Randhir, N.R. Rhodes, L. Li, N. AuYeung, D.W. Hahn, R. Mei, J.F. Klausner,
+Magnesioferrites for solar thermochemical fuel production, Sol. Energy (2018),
+https://doi.org/10.1016/j.solener.2017.12.006.
+[27] R.R. Bhosale, R.V. Shende, J.A. Puszynski, Sol-gel derived NiFe2O4 modified with
+ZrO2 for hydrogen generation from solar thermochemical water-splitting reaction,
+MRS Proc. (2012), https://doi.org/10.1557/opl.2012.772.
+[28] R. Shende, J. Puszynski, M. Opoku, R. Bhosale, Synthesis of Novel Ferrite Foam
+Material for Water-Splitting Application, NSTI-Nanotech, 2009.
+[29] J.R. Scheffe, M.D. Allendorf, E.N. Coker, B.W. Jacobs, A.H. McDaniel, A.W. Weimer,
+Hydrogen production via chemical looping redox cycles using atomic layer de-
+position-synthesized iron oxide and cobalt ferrites, Chem. Mater. 23 (2011)
+2030–2038, https://doi.org/10.1021/cm103622e.
+[30] A. Demont, S. Abanades, E. Beche, Investigation of perovskite structures as oxygen-
+exchange redox materials for hydrogen production from thermochemical two-step
+water-splitting cycles, J. Phys. Chem. C 118 (2014) 12682–12692, https://doi.org/
+10.1021/jp5034849.
+[31] R.R. Bhosale, A. Kumar, A. Ashok, P. Sutar, G. Takalkar, M. Khraisheh,
+F. Almomani, U. Ghosh, La-based perovskites as oxygen-exchange redox materials
+for solar syngas production, MRS Adv. 2017, https://doi.org/10.1557/adv.2017.
+300.
+[32] A.H. Mcdaniel, E.C. Miller, D. Arifin, A. Ambrosini, E.N. Coker, R. O’hayre,
+W.C. Chueh, J. Tong, Sr-and Mn-doped LaAlO 3Àd for solar thermochemical H 2
+and CO production † Broader context Energy & Environmental Science, Energy
+Environ. Sci. (2013), https://doi.org/10.1039/c3ee41372a/31/2018.
+[33] T. Cooper, J.R. Scheffe, M.E. Galvez, R. Jacot, G. Patzke, A. Steinfeld, Lanthanum
+manganite perovskites with Ca/Sr A-site and Al B-site doping as effective oxygen
+exchange materials for solar thermochemical fuel production, Energy Technol. 3
+(2015) 1130–1142, https://doi.org/10.1002/ente.201500226.
+[34] M.E. Gálvez, R. Jacot, J. Scheffe, T. Cooper, G. Patzke, A. Steinfeld, Physico-che-
+mical changes in Ca, Sr and Al-doped La-Mn-O perovskites upon thermochemical
+splitting of CO2 via redox cycling, Phys. Chem. Chem. Phys. (2015), https://doi.
+org/10.1039/c4cp05898d.
+[35] C.L. Muhich, S. Blaser, M.C. Hoes, A. Steinfeld, Comparing the solar-to-fuel energy
+conversion efficiency of ceria and perovskite based thermochemical redox cycles for
+splitting H2O and CO2, Int. J. Hydrogen Energy 43 (2018) 18814–18831, https://
+doi.org/10.1016/j.ijhydene.2018.08.137.
+[36] R.R. Bhosale, P. Sutar, A. Kumar, F. Almomani, M.H. Ali, U. Ghosh, S. Almuhtaseb,
+M. Khraisheh, Solar hydrogen production via erbium oxide based thermochemical
+water splitting cycle, J. Renew. Sustain. Energy (2016), https://doi.org/10.1063/1.
+4953166.
+[37] R. Bhosale, A. Kumar, F. Almomani, Solar thermochemical hydrogen production via
+terbium oxide based redox reactions, Int. J. Photoenergy 2016 (2016), https://doi.
+org/10.1155/2016/9727895.
+[38] R. Bhosale, A. Kumar, F. AlMomani, U. Ghosh, M.S. Anis, K. Kakosimos, R. Shende,
+M.A. Rosen, Solar hydrogen production via a samarium oxide-based thermo-
+chemical water splitting cycle, Energies (2016), https://doi.org/10.3390/
+en9050316.
+[39] J.R. Scheffe, D. Weibel, A. Steinfeld, Lanthanum-strontium-manganese perovskites
+as redox materials for solar thermochemical splitting of H2O and CO2, Energy Fuels
+27 (2013) 4250–4257, https://doi.org/10.1021/ef301923h.
+[40] C.K. Yang, Y. Yamazaki, A. Aydin, S.M. Haile, Thermodynamic and kinetic assess-
+ments of strontium-doped lanthanum manganite perovskites for two-step thermo-
+chemical water splitting, J. Mater. Chem. A 2 (2014) 13612–13623, https://doi.
+org/10.1039/c4ta02694b.
+[41] S. Dey, B.S. Naidu, C.N.R. Rao, Ln0.5A0.5MnO3 (Ln=Lanthanide, A= Ca, Sr) per-
+ovskites exhibiting remarkable performance in the thermochemical generation of
+G. Takalkar, et al.
+Applied Surface Science 509 (2020) 144908
+8
+
+
+===== Page 9 =====
+
+CO and H2 from CO2 and H2O, Chem. - A Eur. J. 21 (2015) 7077–7081, https://doi.
+org/10.1002/chem.201500442.
+[42] M. Ezbiri, M. Takacs, D. Theiler, R. Michalsky, A. Steinfeld, Tunable thermo-
+dynamic activity of LaxSr1−xMnyAl1−yO3−δ (0 ≤x ≤1, 0 ≤y ≤1) per-
+ovskites for solar thermochemical fuel synthesis, J. Mater. Chem. A 5 (2017)
+4172–4182, https://doi.org/10.1039/c6ta06644e.
+[43] A.H. McDaniel, E.C. Miller, D. Arifin, A. Ambrosini, E.N. Coker, R. O’Hayre,
+W.C. Chueh, J. Tong, Sr- and Mn-doped LaAlO3-δ for solar thermochemical H 2 and
+CO production, Energy Environ. Sci. 6 (2013) 2424–2428, https://doi.org/10.
+1039/c3ee41372a.
+[44] M. Takacs, M. Hoes, M. Caduff, T. Cooper, J.R. Scheffe, A. Steinfeld, Oxygen non-
+stoichiometry, defect equilibria, and thermodynamic characterization of
+LaMnO3perovskites with Ca/Sr A-site and Al B-site doping, Acta Mater. (2016),
+https://doi.org/10.1016/j.actamat.2015.10.026.
+[45] A.H. Bork, M. Kubicek, M. Struzik, J.L.M. Rupp, Perovskite La0.6Sr0.4Cr1-xCoxO3-δ
+solid solutions for solar-thermochemical fuel production: strategies to lower the
+operation temperature, J. Mater. Chem. A (2015), https://doi.org/10.1039/
+c5ta02519b.
+[46] A. Demont, S. Abanades, Solar thermochemical conversion of CO2 into fuel via two-
+step redox cycling of non-stoichiometric Mn-containing perovskite oxides, J. Mater.
+Chem. A (2015), https://doi.org/10.1039/c4ta06655c.
+[47] S.M. Babiniec, E.N. Coker, J.E. Miller, A. Ambrosini, Investigation of LaxSr1-
+xCoyM1-yO3-δ (M=Mn, Fe) perovskite materials as thermochemical energy sto-
+rage media, Sol. Energy 118 (2015) 451–459, https://doi.org/10.1016/j.solener.
+2015.05.040.
+G. Takalkar, et al.
+Applied Surface Science 509 (2020) 144908
+9

@@ -1,0 +1,1096 @@
+
+
+===== Page 1 =====
+
+Structure–property relationship of co-precipitated Cu-rich, Al2O3- or
+MgAl2O4-stabilized oxygen carriers for chemical looping with oxygen
+uncoupling (CLOU)
+Qasim Imtiaz, Marcin Broda, Christoph R. Müller ⇑
+Laboratory of Energy Science and Engineering, ETH Zurich, Leonhardstrasse 27, 8092 Zurich, Switzerland
+h i g h l i g h t s
+ Development of a synthesis–performance relationship for co-precipitated materials.
+ CLOU reaction mechanism for Al2O3-stabilized oxygen carriers is proposed.
+ CuAl2O4 and CuAlO2 show, respectively, slow decomposition and oxidation kinetics.
+ MgAl2O4-stabilized CuO (80 wt.%) are identiﬁed as a suitable material for CLOU.
+a r t i c l e
+i n f o
+Article history:
+Received 4 February 2013
+Received in revised form 18 October 2013
+Accepted 5 January 2014
+Available online 28 January 2014
+Keywords:
+CO2 capture
+CLOU
+CuO
+Al2O3
+MgAl2O4
+Coprecipitation
+a b s t r a c t
+Chemical looping with oxygen uncoupling (CLOU) is a novel combustion technology that utilizes the
+decomposition reaction of an oxygen storage material to combust solid (hydro-)carbonaceous fuels.
+CuO is an ideal candidate for CLOU owing to its high oxygen uncoupling capacity (10 wt.%) and its abil-
+ity to release oxygen at temperatures relevant for chemical looping combustion (CLC), i.e. 850–1000 C.
+Here, we investigate the feasibility of Cu-rich, Al2O3 or MgAl2O4-stabilized oxygen carriers containing
+70–90 wt.% CuO for the CLOU process. Al2O3- and MgAl2O4-stabilized oxygen carriers were synthesized
+using a co-precipitation technique and calcined either at 800 C or 1000 C. The CLOU performance of
+the oxygen carriers was evaluated at 950 C in a ﬂuidized bed reactor using a N2 atmosphere for the
+decomposition reaction and a mixture of 10.5 vol.% O2 and 89.5 vol.% N2 for the re-oxidation reaction.
+It was found that the calcination temperature and the surface area had no signiﬁcant inﬂuence on the
+oxygen carrying capacity of the synthesized oxygen carriers. The oxygen uncoupling capacity of Al2O3-
+stabilized oxygen carriers was substantially below the theoretically expected values due to the formation
+of the mixed oxides CuAl2O4 and CuAlO2. Based on thermo-gravimetric measurements, a reaction path-
+way for the oxygen release and re-oxidation reactions of Al2O3-stabilized CuO was proposed. On the other
+hand, no interaction between MgAl2O4 and the active phase, i.e. CuO was observed. As a consequence,
+MgAl2O4-stabilized oxygen carriers possessed a high oxygen uncoupling capacity very close to the theo-
+retical values. Owing to its stable and high oxygen release capacity, MgAl2O4-supported oxygen carriers
+containing 80 wt.% CuO were identiﬁed as a promising material for CLOU.
+ 2014 Elsevier Ltd. All rights reserved.
+1. Introduction
+The capture of CO2 using conventional absorption technologies
+is very cost intensive [1]. On the other hand, emerging second and
+third-generation CCS technologies such as carbonate looping and
+chemical looping combustion (CLC) allow the capture of CO2 at
+substantially reduced costs [2–6]. CLC, originally proposed by Rich-
+ter and Knoche in 1983 [7], is a two stage process comprised of a
+reduction and an oxidation step. In the reduction step, lattice
+oxygen of a solid oxygen carrier is used to oxidize a (hydro-)carbo-
+naceous fuel, viz.:
+ð2n þ mÞMexOy ðsÞ þ CnH2m ! ð2n þ mÞMexOy1 ðsÞ
+þ nCO2 ðgÞ þ mH2O ðgÞ
+ð1Þ
+Subsequently, the reduced oxygen carrier is re-oxidized with air
+2MexOy1 ðsÞ þ O2 ðgÞ ! 2MexOy ðsÞ
+ð2Þ
+to close the cycle. The CLC process produces inherently a pure
+stream of CO2 (after the condensation of steam). Consequently,
+the high costs associated with the capture of CO2 from ﬂue gases
+are substantially reduced [8]. The application of CLC to solid fuels,
+0306-2619/$ - see front matter  2014 Elsevier Ltd. All rights reserved.
+http://dx.doi.org/10.1016/j.apenergy.2014.01.007
+⇑Corresponding author. Tel.: +41 44 632 3440.
+E-mail address: muelchri@ethz.ch (C.R. Müller).
+Applied Energy 119 (2014) 557–565
+Contents lists available at ScienceDirect
+Applied Energy
+journal homepage: www.elsevier.com/locate/apenergy
+
+
+===== Page 2 =====
+
+e.g. coal or petroleum coke, requires a prior gasiﬁcation step using
+O2 or O2/steam mixtures to avoid the dilution of the resulting syn-
+gas with N2. The syngas is subsequently combusted in the so-called
+fuel reactor using oxygen carriers developed for gaseous fuels.
+Alternatively, in situ gasiﬁcation of the solid fuel can also be per-
+formed by ﬂuidizing the fuel and the oxygen carrier with either
+CO2 or steam. However, due to the slow in situ gasiﬁcation of the so-
+lid fuels a large oxygen carrier inventory is required for CLC of solid
+fuels when compared to that for gaseous fuels [9].
+The rate of combustion of the solid fuel in the fuel reactor can
+be increased by using a CLC-based process termed chemical loop-
+ing with oxygen uncoupling (CLOU) [10]. The advantage of the
+CLOU process over the CLC process is that a prior gasiﬁcation step
+of the solid fuel is not required anymore. In the ﬁrst CLOU step oxy-
+gen is released through the decomposition reaction of a metal
+oxide, viz.
+2MexOy ðsÞ ! 2MexOy1 ðsÞ þ O2 ðgÞ
+ð3Þ
+Subsequently, the (hydro-)carbonaceous fuel reacts with the re-
+leased oxygen to produce, after the condensation of H2O, a pure
+stream of CO2 according to:
+CnH2m þ ðn þ m=2ÞO2 ðgÞ ! nCO2 ðgÞ þ mH2O ðgÞ
+ð4Þ
+To close the cycle, the reduced oxygen carrier is re-oxidized to
+its initial state using air:
+2MexOy1 ðsÞ þ O2 ðgÞ ! 2MexOy ðsÞ
+ð5Þ
+The overall heat of reaction of the CLOU process is equal to that
+of the conventional combustion process. From a practical point of
+view, CLOU is performed either in a batch mode using a single ﬂu-
+idized bed reactor or continuously using two interconnected ﬂuid-
+ized bed reactors. Abad et al. [11] were the ﬁrst to demonstrate the
+CLOU process in a 1.5 kWth continuously operated ﬂuidized bed
+using bituminous coal as a fuel.
+From a thermodynamic point of view the metal oxide systems,
+CuO–Cu2O, Mn2O3–Mn3O4 and Co3O4–CoO, are very attractive
+since they provide a high partial pressure of oxygen in the temper-
+ature range of interest i.e. 700–1000 C, as plotted in Fig. 1. Another
+important selection criterion for a suitable oxygen carrier material
+is its oxygen carrying capacity. For example, the system CuO–Cu2O
+has an oxygen carrying capacity of 0.1 g O2/g CuO whereas Co3O4–
+CoO and Mn2O3-Mn3O4 have lower oxygen carrying capacities of
+0.066 g O2/g Co3O4 and 0.034 g O2/g Mn2O3, respectively. Besides
+metal oxides, also perovskite and spinels, e.g. CaMn0.875Ti0.125O3
+and Mg2MnO4, have been proposed as promising-materials for
+CLOU [12–14]. Overall, copper oxide is a very attractive oxygen
+carrier for CLOU owing to its (i) high equilibrium partial pressure
+of
+oxygen
+at
+typical
+operating
+temperatures
+(850–1000 C),
+(ii) high oxygen uncoupling capacity and (iii) fast kinetics for the
+decomposition reaction. However, CuO-based oxygen carriers are
+prone to thermal sintering and agglomeration because of the low
+Tammann temperature of CuO, Cu2O and Cu of, respectively,
+526 C, 481 C and 405 C [15]. Hence, CuO requires stabilization
+by a high melting point support, e.g. ZrO2, Al2O3 or MgAl2O4 [16].
+Over the past decade, strategies to synthesize CuO-based
+oxygen carriers for CLOU have focused on freeze granulation
+[10,17–19], spray drying [11,20–22] and mechanical mixing [23],
+as summarized in a recent review by Imtiaz et al. [24]. For exam-
+ple, Abad et al. [11] and Adánez-Rubio et al. [20–21] synthesized
+MgAl2O4-stabilized,
+CuO-based
+oxygen
+carriers
+containing
+60 wt.% CuO via a spray drying technique. In the temperature range
+890–1000 C, the oxygen carrier showed a high reactivity with dif-
+ferent solid fuels such as a bituminous Colombian coal. Oxygen
+carriers synthesized using the aforementioned techniques pos-
+sessed sufﬁcient mechanical strength for operation in a ﬂuidized
+bed and excellent redox stability. However, the amount of CuO in
+these materials was limited to 60 wt.%. We believe that the low
+Tammann temperatures of CuO, Cu2O and Cu in combination with
+the ‘‘macroscopic’’ synthesis techniques applied prohibited the
+development of CuO-rich oxygen carriers, i.e. materials containing
+P70 wt.% CuO for CLOU. One of the key challenges in the synthesis
+of CuO-rich oxygen carriers is the requirement of a high degree of
+dispersion of the stabilizing phase. ‘Conventional’ synthesis meth-
+ods, such as mechanical mixing fail to provide the high degree of
+dispersion required and, thus, produce materials which show poor
+resistance to sintering when tested over repeated redox cycles
+[15]. A synthesis technique that could potentially achieve homoge-
+neous mixing between the active phase, CuO, and the support is
+coprecipitation. For example, Chuang et al. [25] compared the re-
+dox characteristics of Al2O3-stabilized, CuO-based oxygen carriers
+containing 82.5 wt.% CuO synthesized using mechanical mixing,
+wet impregnation and coprecipitation techniques. Chuang et al.
+[25] found that the oxygen carriers prepared via coprecipitation
+showed high redox stability over many cycles. Previously, also Im-
+tiaz et al. [26,27] demonstrated that Al2O3-stabilized, CuO-rich
+oxygen carriers (87.8 wt.% CuO) with excellent mechanical proper-
+ties and stable redox performance could be synthesized by a judi-
+cious choice of the pH value at which the coprecipitation was
+performed.
+Here, we report a systematic study of the inﬂuence of the CuO
+content, the support material and the calcination temperature on
+the redox stability of oxygen carriers synthesized via a precipita-
+tion technique. The synthesized oxygen carriers were character-
+ized in detail to elaborate a synthesis–performance relationship.
+An important aspect of this work was the determination of the
+maximal CuO content in the oxygen carriers that allowed stable
+CLOU performance.
+2. Experimental
+2.1. Synthesis of oxygen carriers
+CuO-based, MgAl2O4- or Al2O3-stabilized oxygen carriers were
+synthesized using a co-precipitation technique. Precipitation was
+performed at pH values of 10.0 and 8.5 for MgAl2O4- and Al2O3-
+supported oxygen carriers, respectively. NaOH was used as the
+precipitating agent. The synthesis protocol comprised the follow-
+ing steps. First a 2 M aqueous solution containing Cu(NO3)22.5H2-
+O, Al(NO3)39H2O and Mg(NO3)26H2O (or Cu(NO3)22.5H2O and
+Al(NO3)39H2O) was prepared. The amounts of Cu-, Al- and Mg-
+nitrate (or Cu- and Al-nitrate) were adjusted such that the calcined
+oxygen carriers contained the following mass fraction of CuO, viz.
+0.00
+0.02
+0.04
+0.06
+0.08
+0.10
+500
+600
+700
+800
+900
+1000
+O2 equilibritum partial pressure 
+[bar]
+Temperature [°C]
+Fig. 1. The equilibrium partial pressure of O2 as a function of temperature: (—) CuO/
+Cu2O, () Mn2O3/Mn3O4 and (— —) Co3O4/CoO.
+558
+Q. Imtiaz et al. / Applied Energy 119 (2014) 557–565
+
+
+===== Page 3 =====
+
+70, 80 or 90 wt.%. Subsequently, a 2 M NaOH solution was added
+drop-wise to 100 mL of the nitrate solution under magnetic stir-
+ring. Once a pH value of 10.0 (or 8.5) was reached, the resulting
+slurry was aged for 150 min at room temperature. To remove ex-
+cess Na+ and nitrate ions, the precipitate was washed several times
+with reverse osmosis water (15 MX cm at 25 C). Once the electri-
+cal conductivity of the ﬁltrate was 200 lS/cm, the precipitate was
+dried in an oven at 100 C for 24 h. Subsequently, the dried mate-
+rial was calcined in a mufﬂe furnace at two different temperatures
+viz., 800 C or 1000 C, for 2 h. The quantity of the calcined oxygen
+carrier obtained was approximately 15 g. Finally, the calcined oxy-
+gen carrier was crushed and sieved into the size range 300–
+425 lm. Here the following nomenclature is used to characterize
+the synthesis protocol of the oxygen carrier: the symbol Cu is fol-
+lowed by the weight percentage of CuO, an abbreviation for the
+support material (i.e. MgAl or Al) and the temperature at which
+the oxygen carrier was calcined. For example, Cu70MgAl-800 is
+an MgAl2O4-stabilized oxygen carrier that contains 70 wt.% CuO
+and was calcined at 800 C.
+2.2. Material characterization
+The surface area and pore volume of the unreacted oxygen car-
+riers were determined using N2-physisorption (Quantachrome
+NOVA 4000e analyzer). The Brunauer–Emmett–Teller (BET) [28]
+and Barrett–Joyner–Halenda (BJH) [29] models were used to calcu-
+late the surface area and pore volume, respectively. Prior to the
+acquisition of the N2 isotherms the oxygen carriers were degassed
+at 300 C for at least 2 h.
+The mechanical strength of the unreacted oxygen carriers was
+determined by measuring the force required to break oxygen car-
+rier particles (size range 300–425 lm) using a Shimpo breaking
+force gauge. To obtain a representative value for the crushing
+strength, 20 measurements on randomly chosen particles were
+made.
+A Bruker AXS D8 Advance X-ray diffractometer was used to ac-
+quire powder X-ray diffraction (XRD) patterns of the unreacted and
+cycled oxygen carriers. The diffractometer was mounted with a
+Lynx eye super speed detector and operated at 40 kV and 40 mA
+using Cu Ka radiation. Each sample was scanned within the range
+of 2h = 10–90 with a step size of 0.0275 per second.
+High resolution scanning electron microscopy (HR-SEM) was
+used to morphologically characterize the calcined oxygen carriers
+(Zeiss Gemini 1530 FEG). The samples were sputter coated with
+platinum before imaging.
+To determine the content of CuO and the decomposition charac-
+teristics of the oxygen carriers synthesized, temperature pro-
+grammed decomposition (TPD) experiments were performed
+using a thermo-gravimetric analyzer (TGA, Mettler Toledo TGA/
+DSC 1). In a typical experiment, a small amount (<30 mg) of oxygen
+carrier was heated from room temperature to 1100 C at a rate of
+10 C/min under a ﬂow of N2 of 100 mL/min.
+2.3. Cyclic CLOU characteristics
+The cyclic CLOU performance of the oxygen carriers was studied
+in a TGA at 950 C. In a typical experiment, a ﬁxed amount of an
+oxygen carrier (30 mg) was loaded on an alumina pan and heated
+up to 950 C at a rate of 10 C/min under a ﬂow of N2 (25 mL/min).
+Once the reaction temperature was reached, the oxygen carrier
+was allowed to decompose for 20 min in a N2 ﬂow of 25 mL/min.
+Subsequently, the N2 ﬂow was stopped and the material was
+reoxidized for 20 min in air (25 mL/min). A constant N2 ﬂow of
+25 mL/min was used as purge ﬂow over the micro-balance. For
+each oxygen carrier, ten CLOU cycles were performed. The oxygen
+uncoupling capacity (Ro) and the fractional conversion (Xdec) were
+calculated from the continuously recorded weight change using,
+respectively, Eqs. (6) and (7):
+Ro ¼ ðmox  mdecÞ=mox
+ð6Þ
+Xdec ¼ ðmox  mÞ=ðmox  mdecÞ
+ð7Þ
+Here mox, mdec and m is the weight of the oxygen carrier at the start
+of the decomposition step (i.e. when it is fully oxidized), the weight
+of the oxygen carrier at the end of the decomposition step (i.e. when
+it is fully decomposed) and the instantaneous sample weight,
+respectively.
+The cyclic CLOU performance of the oxygen carriers calcined at
+1000 C was also evaluated in a ﬂuidized bed operated at 950 C.
+Detailed information on the experimental setup can be found in
+the supporting information (Text S1 and Fig. S1 of the SI). The
+experimental protocol to study the cyclic decomposition and re-
+oxidation reactions in a ﬂuidized bed was as follows.
+A batch of 20 g of Al2O3 (300–425 lm) comprised the bulk of
+the ﬂuidized bed. The bed was ﬂuidized by N2 at a ﬂow rate of
+3 L/min (u/Umf = 4.4) and operated at 950 C. Once the operating
+temperature was reached, 1 g of an oxygen carrier was added to
+the ﬂuidized bed and 25 CLOU cycles were performed. The dura-
+tion of the decomposition and re-oxidation reactions were ﬁxed
+to 120 s and 180 s, respectively. The ﬂow rate of the inlet gas
+was set to 3 L/min, as measured at 25 C and 1 bar, in each segment
+of a cycle. At the end of the experiment, the reactor was cooled
+down to room temperature and the cycled oxygen carrier was
+recovered for XRD analysis. Assuming complete decomposition of
+the theoretical content of CuO in the oxygen carriers (i.e. 70, 80
+or 90 wt.% CuO) the yield of O2 was calculated as
+Yield of O2 ¼ measured amount of O2 released
+theoretical amount of O2 released
+ð8Þ
+3. Results
+3.1. XRD analysis
+XRD measurements were performed to determine the inﬂuence
+of the calcination temperature on the crystallinity and the chemi-
+cal composition of the synthesized materials. The X-ray diffracto-
+grams of the Al2O3- and MgAl2O4-stabilized oxygen carriers are
+given in Fig. 2(a) and (b), respectively. Fig. 2(a) shows only the
+presence of CuO and CuAl2O4 in Al2O3-stabilized oxygen carriers,
+independent of the calcination temperature. CuAl2O4 is a mixed
+oxide of CuO and Al2O3 and has a cubic spinel structure. Al2O3
+was not detected in the CuO–Al2O3 oxygen carriers, indicating
+that either all the Al2O3 formed CuAl2O4 or that it was present in
+an amorphous form. On the other hand, independent of the
+calcination temperature, MgAl2O4-stabilized oxygen carriers only
+contained CuO and MgAl2O4, as shown in Fig. 2(b). Unlike for
+Al2O3-stabilized materials, the formation of mixed oxides between
+the active compound, i.e. CuO, and the support, i.e. MgAl2O4, Al2O3
+or MgO was not observed for MgAl2O4-stabilized oxygen carriers.
+Using XRD the presence of alumina or magnesia could not be de-
+tected indicating that all the Al2O3 and MgO formed MgAl2O4 or
+existed in amorphous phases. The increase of the intensity and a
+decrease in the full width at half maximum of the diffraction peaks
+of the oxygen carriers calcined at 1000 C, when compared to
+materials calcined at 800 C, indicates an increase in crystallinity
+and/or the growth of the size of the crystallites with increasing
+temperature [30]. The average crystallite size of the synthesized
+oxygen carriers, estimated using Scherrer’s equation [31], is given
+in Table 1.
+Q. Imtiaz et al. / Applied Energy 119 (2014) 557–565
+559
+
+
+===== Page 4 =====
+
+3.2. Temperature programmed decomposition (TPD)
+To determine the inﬂuence of the calcination temperature and
+the CuO content on the thermal decomposition characteristics of
+the oxygen carriers synthesized, temperature programmed decom-
+position (TPD) experiments were performed in a TGA. Figs. 3 and 4
+plot the normalized mass loss as a function of temperature for
+Al2O3- and MgAl2O4-stabilized oxygen carriers, respectively. The
+data in Fig. 3 show that the calcination temperature and the CuO
+content in the oxygen carrier have a strong effect on the decompo-
+sition characteristics of Al2O3-stabilized materials owing to the
+interaction of CuO with Al2O3. The decomposition of CuO–Al2O3
+based oxygen carriers calcined at 800 C occurred in the tempera-
+ture range 735–970 C via a single step mechanism, irrespective of
+the CuO content. However, it can be seen from Fig. 3(a) that for
+temperatures exceeding 930 C the decomposition rates of the oxy-
+gen carriers were very slow. This is probably due to slow decompo-
+sition rates of CuAl2O4 present in the oxygen carriers. On the other
+hand, the decomposition of oxygen carriers calcined at 1000 C oc-
+curred in the temperature range 770–1050 C and revealed a clear
+two step decomposition mechanism for Cu80Al-1000 and Cu90Al-
+1000. In the ﬁrst decomposition step (770–950 C), bulk CuO forms
+Cu2O. The comparatively slow decomposition of CuAl2O4 to CuAlO2
+occurred in a second step in the temperature range 950–1050 C. A
+kink in the normalized mass loss curve of Cu70Al-1000 at 985 C
+suggests that also the decomposition of Cu70Al-1000 occurred
+in two steps. However, the initial rate of decomposition of
+Cu70Al-1000 was slow compared to the other two oxygen carriers
+calcined at 1000 C. This behavior could be explained by the re-
+duced amount of bulk CuO in Cu70Al-1000. Assuming that all the
+Al2O3 in Cu70Al-1000 reacts with CuO, the amount of bulk CuO
+would be 46.6 wt.%. Thus the dominant phase in Cu70Al-1000 is
+CuAl2O4 and not CuO. The TPD results indicate that not only does
+CuAl2O4 possess slow decomposition kinetics, but CuAl2O4 also
+inﬂuences the rate of decomposition of bulk CuO, probably due
+to the mixing of CuO and CuAl2O4 on a molecular level.
+Cu70Al-800
+Cu80Al-800
+Cu90Al-800
+Cu70Al-1000
+Cu80Al-1000
+Cu90Al-1000
+Cu70MgAl-800
+Cu80MgAl-800
+Cu90MgAl-800
+Cu70MgAl-1000
+Cu80MgAl-1000
+Cu90MgAl-1000
+(a)
+(b)
+Fig. 2. XRD patterns of the (a) Al2O3- and (b) MgAl2O4-stabilized, CuO-based oxygen carriers. The oxygen carriers were calcined at two different temperatures, viz. 800 C and
+1000 C. The following compounds were identiﬁed: (N) CuO, (j) CuAl2O4 and (d) MgAl2O4.
+Table 1
+Average crystallite size of CuO, CuAl2O4 and MgAl2O4 in the oxygen carriers synthesized. The average crystallite sizes were calculated from the 200, 311 and 311 planes of,
+respectively, CuO, CuAl2O4 and MgAl2O4.
+Material
+CuO (nm)
+CuAl2O4 (nm)
+MgAl2O4 (nm)
+CuO (nm)
+CuAl2O4 (nm)
+MgAl2O4 (nm)
+Calcined at 800 C
+Calcined at 1000 C
+Cu70Al
+24
+18
+–
+33
+41
+–
+Cu80Al
+29
+19
+–
+34
+42
+–
+Cu90Al
+25
+18
+–
+30
+38
+–
+Cu70MgAl
+26
+–
+25
+33
+–
+46
+Cu80MgAl
+29
+–
+24
+33
+–
+36
+Cu90MgAl
+25
+–
+25
+30
+–
+40
+(a)
+(b)
+735 °C
+970 °C
+1050 °C
+770 °C
+985 °C
+Fig. 3. TPD proﬁles of Al2O3-stabilized oxygen carwas calculated asriers containing (— —) 70 wt.%, () 80 wt.% or (—) 90 wt.% CuO. The oxygen carriers were calcined at (a)
+800 C and (b) 1000 C. The solid and the dashed vertical lines correspond to the temperatures at which the weight loss is 1% and 98% of the initial weight, respectively.
+560
+Q. Imtiaz et al. / Applied Energy 119 (2014) 557–565
+
+
+===== Page 5 =====
+
+Turning now to the MgAl2O4-stabilized oxygen carriers, it was
+observed that only the calcination temperature inﬂuenced the
+decomposition characteristics. As shown in Fig. 4(a), the decompo-
+sition of the oxygen carriers calcined at 800 C started at 730 C
+and was completed at 945 C. For oxygen carriers calcined at
+1000 C, the temperature range over which the decomposition
+reaction occurred shifted to slightly higher temperatures, i.e. to
+780–970 C. The total amount of CuO (both in its pure from and
+in the form of CuAl2O4) in the synthesized oxygen carriers, as
+determined from the mass loss during the decomposition reaction,
+is summarized in Table 2. For all oxygen carriers, the TPD deter-
+mined CuO contents were close to the theoretically expected
+values.
+3.3. Structural characterization
+Table 3 summarizes the BET surface area, the BJH pore volume
+and the hardness of the oxygen carriers synthesized as a function
+of (i) the CuO content, (ii) the calcination temperature and (iii)
+the support material. The hardness of the oxygen carriers calcined
+at 800 C was in the range of 1.4–3.5 N, irrespective of the support.
+As expected, increasing the calcination temperature to 1000 C
+increased the crushing strength of the materials (2.5–5.7 N). The
+BET surface area and the BJH pore volume of the oxygen carriers
+calcined at 800 C was in the range of 20–30 m2/g and 0.12–
+0.17 cm3/g, respectively. Upon calcination at 1000 C, a drastic
+decrease in the surface area and pore volume was observed. With
+the exception of Cu70Al-1000, that possessed a surface area of
+9 m2/g, the surface area of all oxygen carriers was 62 m2/g. The
+measurements summarized in Table 3 indicate that the content
+of CuO and the type of support, i.e. Al2O3 or MgAl2O4 had no
+signiﬁcant inﬂuence on the surface area, pore volume and hardness
+of the oxygen carriers. Indeed, the structural properties of the syn-
+thesized oxygen carriers were inﬂuenced only by the calcination
+temperature.
+3.4. Electron microscopy
+The surface morphology of the oxygen carriers calcined at
+1000 C was imaged using HR-SEM. The high resolution scanning
+electron micrographs are shown in Fig. 5 and indicate that the sur-
+face morphology of the oxygen carriers was strongly inﬂuenced by
+the support material. For example, Cu90Al-1000 possessed a
+morphology comprised of platelets. The average lateral size and
+thickness of a platelet were 0.9 ± 0.2 lm and 219 ± 45 nm,
+respectively. Using EDX analysis, the platelets were found to be
+composed of CuO. EDX analysis further revealed that CuAl2O4 or
+Al2O3 in the form of nano-sized grains was present on the surface
+of the CuO platelets. Additionally, Fig. 5(a) shows that the CuAl2O4
+particles
+covering
+the
+platelets
+have
+an
+average
+size
+of
+75 ± 14 nm and formed agglomerates instead of being homoge-
+neously distributed. On the other hand, the surface of Cu90MgAl-
+1000 was uniformly covered with MgAl2O4 particles as depicted
+in Fig. 5(b). The average size of the MgAl2O4 particles was
+48 ± 7 nm. Some local sintering of CuO was also observed.
+3.5. Thermo-gravimetric analysis
+To determine the inﬂuence of the calcination temperature, the
+support material and the CuO content on the CLOU characteristics
+the cyclic oxygen uncoupling capacity, Ro, was determined from
+TGA experiments performed at 950 C. The cyclic oxygen uncou-
+pling capacity of Al2O3- and MgAl2O4-stabilized oxygen carriers
+is plotted in Fig. 6(a) and (b), respectively. All Al2O3-stabilized oxy-
+gen carriers revealed a substantial decrease in the amount of oxy-
+gen released over the ﬁrst 3–4 cycles. The extent of the reduction
+of the oxygen uncoupling capacity over the initial cycles was found
+to decrease with increasing CuO content. Al2O3-stabilized oxygen
+carriers containing 70, 80 and 90 wt.% CuO showed a decrease in
+their oxygen carrying capacities by, respectively, 62%, 32% and
+12% over 10 CLOU cycles. From Fig. 6(a) it can be seen that the cal-
+cination temperature did not affect the CLOU characteristics sub-
+stantially. On the other hand, the MgAl2O4-stabilized oxygen
+carriers possessed a high and stable oxygen uncoupling capacities
+over the 10 cycles tested, irrespective of the CuO content and the
+calcination temperature (Fig. 6(b)).
+The effect of the support material on the decomposition rate of
+CuO was also determined from TGA experiments performed at
+950 C. In Fig. 7 the fractional conversion, Xdec, is plotted as a func-
+tion of time for Cu80Al-1000 and Cu80MgAl-1000. Up to a conver-
+sion of 93% the decomposition rate of Cu80Al-1000 was higher
+than that of Cu80MgAl-1000. However, at 93% conversion the
+decomposition rate of Cu80Al-1000 decreased quickly, becoming
+even slower than that of Cu80MgAl-1000. It is worth noticing that
+Cu80Al-1000 and Cu80MgAl-1000 possess a similar surface area
+and pore volume. Similar results were obtained for other oxygen
+carriers and are given in Fig. S2 of the SI. Furthermore, the results
+shown in Fig. 7 are in agreement with Figs. 3 and 4. A detailed
+study would be required to conclusively elucidate the reason for
+the faster decomposition of Al2O3-supported CuO compared to
+MgAl2O4-supported CuO, however, this is beyond the scope of
+the current paper. Nonetheless, both Al2O3- and MgAl2O4-stabi-
+lized oxygen carriers calcined at 1000 C were sufﬁciently reactive
+for use in a ﬂuidized bed.
+(a)
+(b)
+730 °C
+945 °C
+970 °C
+780 °C
+Fig. 4. TPD proﬁles of MgAl2O4-stabilized, oxygen carriers containing (— —) 70 wt.%, () 80 wt.% or (—) 90 wt.% CuO. The oxygen carriers were calcined at (a) 800 C and (b)
+1000 C. The solid and the dashed vertical lines correspond to the temperatures at which the weight loss is 1% and 98% of the initial weight, respectively.
+Table 2
+CuO content of the oxygen carriers synthesized as determined from TPD experiments.
+Material
+CuO content (wt.%)
+Material
+CuO content (wt.%)
+Cu70Al-1000
+71
+Cu70MgAl-1000
+72
+Cu80Al-1000
+80
+Cu80MgAl-1000
+81
+Cu90Al-1000
+91
+Cu90MgAl-1000
+88
+Q. Imtiaz et al. / Applied Energy 119 (2014) 557–565
+561
+
+
+===== Page 6 =====
+
+3.6. Fluidized bed experiments
+The CLOU performance of the oxygen carriers calcined at
+1000 C was also evaluated in a ﬂuidized bed operated at 950 C.
+The decomposition reaction was performed in a N2 atmosphere,
+whereas a mixture of 10.5 vol.% O2 and 89.5 vol.% N2 was used
+for re-oxidation. Here, it should be noted that a high temperature
+in the fuel reactor would enhance the rate of fuel combustion ow-
+ing to the higher equilibrium partial pressure of O2. A high temper-
+ature in the air reactor would, on one hand, decrease the driving
+force for Cu oxidation but on the other hand would increase the
+rate constant of the oxidation reaction (Arrhenius-based rate
+expression). The oxidation reaction was sufﬁciently fast under
+the conditions studied here.
+As depicted in Fig. 8, the concentration of O2 during the decom-
+position steps was close to the equilibrium O2 concentration. At the
+beginning of the decomposition step the O2 concentration de-
+creased, in a similar manner as in a blank experiment, from
+10.5 mol/m3 to 4 mol/m3. The decomposition of Cu80Al-1000 and
+Cu80MgAl-1000 started once the oxygen concentration in the ﬂu-
+idized bed was close to the equilibrium O2 concentration, i.e.
+4 mol/m3. The continuous decrease in the O2 concentration, as ob-
+served in Fig. 8, was due to the fact that only 1 g of oxygen carrier
+was used in the ﬂuidized bed measurements. Nonetheless, Fig. 8
+demonstrates that both Al2O3- and MgAl2O4-stabilized oxygen car-
+ries
+were
+capable
+of
+providing
+a
+O2
+atmosphere
+close
+to
+equilibrium.
+Fig. 9 shows the yield of O2 as a function of cycle number for
+Al2O3- and MgAl2O4-stabilized oxygen carriers. It can be seen that
+all Al2O3-stabilized oxygen carriers possessed O2 yields less than
+Table 3
+BET surface area, BJH pore volume and hardness of the oxygen carriers synthesized.
+Material
+BET surface area (m2/g)
+BJH pore volume (cm3/g)
+Crushing strength (N)
+BET surface area (m2/g)
+BJH pore volume (cm3/g)
+Crushing strength (N)
+Calcined at 800 C
+Calcined at 1000 C
+Cu70Al
+30
+0.17
+2.7
+9
+0.05
+5.7
+Cu80Al
+20
+0.16
+1.5
+2
+0.02
+4.4
+Cu90Al
+20
+0.17
+1.4
+<0.5
+0.01
+2.5
+Cu70MgAl
+32
+0.12
+3.5
+<0.5
+0.05
+4.8
+Cu80MgAl
+26
+0.15
+2.6
+1
+0.01
+4.7
+Cu90MgAl
+30
+0.12
+2.4
+1
+0.01
+4.1
+2 m
+(a)
+(b)
+1 m
+CuO
+MgAl2O4
+particles
+CuAl2O4
+or Al2O3
+particles
+CuO
+Fig. 5. High resolution scanning electron micrographs of the oxygen carriers synthesized: (a) Cu90Al-1000 and (b) Cu90MgAl-1000.
+Fig. 6. Cyclic oxygen uncoupling capacity as determined in a TGA at 950 C: (a) Al2O3- and (b) MgAl2O4-supported oxygen carriers. Open symbols correspond to the oxygen
+carriers calcined at 800 C and containing (s) 70, (D) 80 and (h) 90 wt.% CuO. Filled symbols represent the oxygen carriers calcined at 1000 C and containing (d) 70, (N) 80
+and (j) 90 wt.% CuO.
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+0
+100
+200
+300
+400
+500
+Xdec
+Time [s]
+Fig. 7. Effect of the support material on the decomposition rate of (—) Cu80Al-1000
+and (---) Cu80MgAl-1000 during the ﬁrst cycle. The decomposition reaction was
+performed at 950 C.
+562
+Q. Imtiaz et al. / Applied Energy 119 (2014) 557–565
+
+
+===== Page 7 =====
+
+unity. For Cu70Al-1000, an increase in the yield of O2 was observed
+during the initial cycles. The O2 concentration proﬁle revealed that
+complete decomposition of Cu70Al-1000 was not achieved during
+the ﬁrst cycle. However, the rate of decomposition of Cu70Al-1000
+increased with cycle number, resulting in an increase in the O2
+yield. A possible explanation for the increase in the rate of decom-
+position reaction is an increase in the surface area of the oxygen
+carrier [32]. After 10 cycles, the O2 yield of Cu70Al-1000 started
+to decrease. On the other hand, for Cu80Al-1000 and Cu90Al-
+1000, the O2 yields decreased continuously with cycle number.
+To elucidate the reason for the decrease of the O2 yield in Al2O3-
+supported oxygen carriers, XRD measurements of the cycled oxy-
+gen carriers (Fig. S3 of the SI) were acquired. The diffractograms
+showed the presence of CuAlO2 and CuAl2O4 in the cycled oxygen
+carriers. This would indicate that CuAlO2 is not fully oxidized back
+to CuAl2O4 under the conditions studied here, thus resulting in a
+reduction of the oxygen carrying capacity of Al2O3-supported oxy-
+gen carriers. From an equilibrium thermodynamics point of view,
+the O2 partial pressure used, i.e. pO2 ¼ 0:105 bar, is sufﬁcient for
+the reoxidation of CuAlO2 to CuAl2O4 [23], thus indicating kinetic
+limitations for the reoxidation of CuAlO2 to CuAl2O4. The low O2
+yields of Al2O3-supported oxygen carriers further suggest that
+the presence of CuAl2O4 (or CuAlO2) reduced the decomposition
+kinetics of bulk CuO. These results are in agreement with the TPR
+results of Al2O3-stabilized oxygen carriers calcined at 1000 C.
+Turning now to the MgAl2O4-stabilized oxygen carriers, both
+Cu70MgAl-1000 and Cu80MgAl-1000 showed high and stable O2
+yields over the 25 cycles tested. Over the ﬁrst 22 cycles, also the
+O2 yield of Cu90MgAl-1000 was equal to unity but started to de-
+crease subsequently, possibly due to attrition. This observation
+would indicate that 10 wt.% MgAl2O4 is not sufﬁcient to mechani-
+cally stabilize CuO for ﬂuidized bed operations. The XRD patterns
+of the cycled materials conﬁrmed that the composition of the
+oxygen carriers was preserved over 25 cycles, i.e. only CuO and
+MgAl2O4 were detected.
+4. Discussion
+4.1. Synthesis–performance relationship
+An important facet of this work was to establish a synthesis–
+performance relationship for the oxygen carriers synthesized. We
+found that the phases present in the oxygen carriers were not af-
+fected by the calcination temperatures. For Al2O3-stabilized oxy-
+gen carriers, this observation is in agreement with the phase
+diagram of the Cu2O–CuO–Al2O3 system which indicates the for-
+mation of the CuAl2O4 spinel at both 800 C and 1000 C [33]. How-
+ever, the calcination temperature of the oxygen carriers had a
+signiﬁcant inﬂuence on the oxygen release characteristics of the
+materials. For example, an increase in the calcination temperature
+resulted in an increase in the decomposition temperature of CuO.
+In addition, the apparent rate of the decomposition reaction de-
+creased with increasing calcination temperature. It is conceivable
+that a decrease in the surface area and pore volume of the oxygen
+carriers in combination with an increase in the crystallite size with
+increasing calcination temperature decreased the O2 mobility in
+the material. However, more detailed studies are required to fur-
+ther investigate this aspect. As expected the mechanical strength
+of the oxygen carriers was increased with increasing calcination
+temperatures, however, at the cost of a decrease in both surface
+area and pore volume. This aspect is particularly important with
+regards to a stable operation in ﬂuidized bed reactors. To summa-
+rize, the surface area, pore volume, hardness, degree of crystallinity
+and extent of interaction between the support material and the ac-
+tive phase can be adjusted by a judicious choice of calcination
+temperature.
+4.2. CLOU reaction mechanism of Al2O3-stabilized oxygen carriers
+The oxygen carrying capacity of the Al2O3-stabilized oxygen
+carriers was found to continuously decrease with cycle number
+when tested at 950 C in a TGA. The decrease in the O2 released
+can be explained via the following reaction mechanism:
+In the ﬁrst cycle, bulk CuO and CuAl2O4 decomposes via
+4CuO ðsÞ ! 2Cu2O ðsÞ þ O2ðgÞ
+ð9Þ
+and
+4CuAl2O4 ðsÞ ! 4CuAlO2 ðsÞ þ 2Al2O3 ðsÞ þ O2 ðgÞ;
+ð10Þ
+respectively. In the regeneration step, all the Cu2O is reoxidized
+back to CuO
+2Cu2O ðsÞ þ O2 ðgÞ ! 4CuO ðsÞ
+ð11Þ
+whereas only a small amount of the CuAlO2, formed via reaction
+(10), is converted back to CuAl2O4 owing to the slow oxidation
+kinetics of CuAlO2:
+4CuAlO2 ðsÞ þ 2Al2O3 ðsÞ þ O2 ðgÞ ! 4CuAl2O4 ðsÞ
+ð12Þ
+In addition, some Al2O3, formed via reaction (10), reacts with
+CuO to form CuAl2O4:
+Al2O3 ðsÞ þ CuO ðsÞ ! CuAl2O4 ðsÞ
+ð13Þ
+0
+2
+4
+6
+8
+10
+12
+0
+10
+20
+30
+40
+50
+60
+O2 released [mol/m3]
+Time [s]
+Fig. 8. Concentration proﬁle of O2 released during the ﬁrst decomposition step: ( 
+  ) Cu80Al-1000 and (  ) Cu80MgAl-1000. The experiment was performed at
+950 C in a ﬂuidized bed. The solid line (—) plots the oxygen concentration during a
+blank experiment, whereas the horizontal dotted line () corresponds to the
+equilibrium oxygen concentration at 950 C.
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+0
+5
+10
+15
+20
+25
+Yield of O2
+Cycle number
+Fig. 9. O2 yield as determined from ﬂuidized bed experiments at 950 C. The
+oxygen carriers were calcined at 1000 C. The duration of the decomposition and re-
+oxidation reaction was ﬁxed to 120 s and 180 s, respectively. Open symbols
+correspond to the MgAl2O4-stabilized oxygen carriers containing (s) 70, (D) 80 and
+(h) 90 wt.% CuO, whereas ﬁlled symbols denote the Al2O3-stabilized oxygen
+carriers containing (d) 70, (N) 80 and (j) 90 wt.% CuO.
+Q. Imtiaz et al. / Applied Energy 119 (2014) 557–565
+563
+
+
+===== Page 8 =====
+
+As a consequence, the oxygen carrying capacity decreases with
+cycle number, since bulk CuO forms CuAl2O4 which is irreversibly
+decomposed to CuAlO2 and Al2O3. Reactions (9)–(13) continue to
+occur until Al2O3 has been fully converted to CuAlO2. Based on
+the proposed reaction scheme, a decrease of the theoretical oxygen
+carrying capacity by 16%, 37% and 65% for oxygen carriers contain-
+ing, respectively 10, 20 and 30 wt.% Al2O3, is expected. Indeed a de-
+crease in the oxygen carrying capacity by 12%, 32% and 62% was
+observed after 10 cycles for oxygen carriers containing, respec-
+tively, 90 wt.%, 80 wt.% and 70 wt.% CuO. A possible strategy to cir-
+cumvent this loss in oxygen carrying capacity is the complete
+reduction of CuO to Cu prior to the reoxidation step. However, this
+increases the risk of agglomeration for CuO-rich oxygen carriers. It
+is, however, worth mentioning here that CuO-rich oxygen carriers
+(87 wt.% CuO) which show a high resistance to agglomeration have
+been previously developed by Imtiaz et al. [26,27]. Alternatively,
+the formation of the CuAl2O4 spinel can be inhibited by the incor-
+poration of Na+ or K+ ions [26].
+4.3. Agglomeration and attrition
+Agglomeration and attrition of the oxygen carriers are impor-
+tant aspects of the CLOU process since operation in ﬂuidized beds
+is most likely to be continuous. In the CLOU experiments reported
+here agglomeration was not observed regardless of the CuO con-
+tent of the material and the support material used. However, size
+analysis of Al2O3-stablized oxygen carriers recovered after 25 CLOU
+cycles revealed a signiﬁcant fraction of particles smaller than
+300 lm. The high rate of attrition of Al2O3-stabilized oxygen
+carriers was probably due to changes in their chemical composi-
+tion accompanied by high mechanical stresses during cyclic
+operation. On the other hand, only a small amount of particles with
+dp < 300 lm were recovered when MgAl2O4-stabilzed oxygen
+carrier (90 wt.% CuO) were used. These observations indicate that
+MgAl2O4-stabilized oxygen carriers containing 80 wt.% CuO are
+suitable oxygen carrier for the CLOU process.
+5. Conclusions
+We report the synthesis of Cu-rich, Al2O3- or MgAl2O4 stabilized
+oxygen carriers for the CLOU process using a coprecipitation tech-
+nique. The oxygen carriers were calcined at two different temper-
+atures viz. 800 C and 1000 C. The results reported here showed
+that the mechanical and structural properties of the oxygen carri-
+ers can be adjusted via the calcination temperature. Furthermore,
+we observed that calcination at high temperature shifted the tem-
+perature at which CuO decomposition occurred towards higher
+temperatures. Scanning electron micrographs of the oxygen carri-
+ers calcined at 1000 C revealed a platelet morphology of CuO.
+Using MgAl2O4 as a support, the surface of the oxygen carriers
+was found to be uniformly covered with nano-sized MgAl2O4
+grains. On the other hand, agglomerates of nano-sized Al2O3 grains
+could be identiﬁed on the surface of Al2O3-stabilized CuO. For
+Al2O3-stabilized oxygen carriers, the decomposition of CuAl2O4
+was not fully reversible. As a consequence, the oxygen release
+capacity of the Al2O3-stabilized oxygen carriers was signiﬁcantly
+below its theoretical value. Based on thermo-gravimetric and
+XRD measurements, a reaction mechanism for Al2O3-stabilized
+CuO was proposed. On the other hand, the oxygen uncoupling
+capacity of MgAl2O4-stabilized oxygen carriers was stable and
+close to the theoretical values. MgAl2O4-stabilized oxygen carriers
+containing 80 wt.% CuO were identiﬁed as a suitable material for
+the CLOU process owing to their stability, attrition and agglomer-
+ation resistance and high oxygen carrying capacity.
+Acknowledgements
+We would like to thank Lydia Zender for her help with the XRD
+analysis and the Electron Microscopy Centre of the ETH Zurich
+(EMEZ) for providing access and training to scanning electron
+microscopes.
+Appendix A. Supplementary material
+Supplementary data associated with this article can be found, in
+the online version, at http://dx.doi.org/10.1016/j.apenergy.2014.
+01.007.
+References
+[1] MacDowell N, Florin N, Buchard A, Hallett J, Galindo A, Jackson G, et al. An
+overview of CO2 capture technologies. Energy Environ Sci 2010;3:1645–69.
+[2] Kerr HR. Capture and separation technology gaps and priority research needs.
+In: Thomas DC, Benson SM, editors. Carbon dioxide capture for storage in deep
+geologic
+formations
+–
+results
+from
+the
+CO2
+capture
+project,
+vol.
+1. Oxford: Elsevier; 2005. p. 655–60.
+[3] Wang
+J,
+Anthony
+EJ.
+Clean
+combustion
+of
+solid
+fuels.
+Appl
+Energy
+2008;85:73–9.
+[4] Broda M, Müller CR. Synthesis of highly efﬁcient, Ca-based, Al2O3 stabilized,
+carbon gel templated CO2 sorbents. Adv Mater 2012;24:3059–64.
+[5] Kunze C, Spliethoff H. Assessment of oxy-fuel, pre- and post-combustion-
+based carbon capture for future IGCC plants. Appl Energy 2012;94:109–16.
+[6] Kierzkowska
+AM,
+Müller
+CR.
+Development
+of
+calcium-based,
+copper-
+functionalised CO2 sorbents to integrate chemical looping combustion into
+calcium looping. Energy Environ Sci 2012;5:6061–5.
+[7] Ritcher HJ, Knoche KF. Reversibility of combustion processes. In: Gaggioli RA,
+editor. Efﬁciency and costing, second law analysis of process. Washington
+D.C.: American Chemical Society; 1983. p. 71–85.
+[8] Adánez J, Abad A, García-Labiano F, Gayán P, de Diego LF. Progress in chemical-
+looping combustion and reforming technologies. Prog Energy Combust Sci
+2012;38:215–82.
+[9] Leion H, Mattisson T, Lyngfelt A. Solid fuels in chemical-looping combustion.
+Int J Greenhouse Gas Control 2008;2:180–93.
+[10] Mattisson T, Lyngfelt A, Leion H. Chemical-looping with oxygen uncoupling for
+combustion of solid fuels. Int J Greenhouse Gas Control 2009;3:11–9.
+[11] Abad A, Adánez-Rubio I, Gayán P, García-Labiano F, de Diego LF, Adánez J.
+Demonstration of chemical-looping with oxygen uncoupling (CLOU) process in
+a 1.5 kWth continuously operation unit using a Cu-based oxygen-carrier. Int J
+Greenhouse Gas Control 2012;6:189–200.
+[12] Leion H, Larring Y, Bakken E, Bredesen R, Mattisson T, Lyngfelt A. Use of
+CaMn0.875Ti0.125O3
+a
+oxygen
+carrier
+in
+chemical-looping
+with
+oxygen
+uncoupling. Energy Fuels 2009;23:5276–83.
+[13] Rydén M, Lyngfelt A, Mattisson T. CaMn0.875Ti0.125O3 as oxygen carrier for
+chemical-looping combustion with oxygen uncoupling (CLOU) – experiments
+in a continuously operating ﬂuidized-bed reactor system. Int J Greenhouse Gas
+Control 2011;5:356–66.
+[14] Shulman A, Cleverstam E, Mattisson T, Lyngfelt A. Chemical-looping with
+oxygen uncoupling using Mn/Mg-based oxygen carriers – oxygen release and
+reactivity with methane. Fuel 2011;90:941–50.
+[15] Song Q, Liu W, Bohn CD, Harper RN, Sivaniah E, Scott SA, et al. A high
+performance oxygen storage material for chemical looping processes with CO2
+capture. Energy Environ Sci 2013;6:288–98.
+[16] Adánez-Rubio I, Gayán P, García-Labiano F, de Diego LF, Adánez J, Abad A.
+Development of CuO-based oxygen-carrier materials suitable for chemical-
+looping
+with
+oxygen
+uncoupling
+(CLOU)
+process.
+Energy
+Procedia
+2011;4:417–24.
+[17] Leion H, Mattisson T, Lyngfelt A. Using chemical-looping with oxygen
+uncoupling (CLOU) for combustion of six different solid fuels. Energy
+Procedia 2009;1:447–53.
+[18] Mattisson T, Leion H, Lyngfelt A. Chemical-looping with oxygen uncoupling
+using CuO/ZrO2 with petroleum coke. Fuel 2009;88:683–90.
+[19] Arjmand M, Azad A-M, Leion H, Lyngfelt A, Mattisson T. Prospects of Al2O3 and
+MgAl2O4-supported CuO oxygen carriers in chemical-looping combustion
+(CLC) and chemical-looping with oxygen uncoupling (CLOU). Energy Fuels
+2011;25:5493–502.
+[20] Adánez-Rubio I, Gayán P, Abad A, de Diego LF, García-Labiano F, Adánez J.
+Evaluation of a spray-dried CuO/MgAl2O4 oxygen carrier for the chemical
+looping with oxygen uncoupling process. Energy Fuels 2012;26:3069–81.
+[21] Adánez-Rubio I, Abad A, Gayán P, de Diego LF, García-Labiano F, Adánez J.
+Identiﬁcation of operational regions in the chemical-looping with oxygen
+uncoupling
+(CLOU)
+process
+with
+a
+Cu-based
+oxygen
+carrier.
+Fuel
+2012;102:634–45.
+[22] Adánez-Rubio I, Abad A, Gayán P, García-Labiano F, de Diego LF, Adánez J. The
+fate of sulphur in the Cu-based Chemical Looping with Oxygen Uncoupling
+(CLOU) Process. Appl Energy 2014;113:1855–62.
+564
+Q. Imtiaz et al. / Applied Energy 119 (2014) 557–565
+
+
+===== Page 9 =====
+
+[23] Gayán P, Adánez-Rubio I, Abad A, de Diego LF, García-Labiano F, Adánez J.
+Development of Cu-based oxygen carriers for chemical-looping with oxygen
+uncoupling (CLOU) process. Fuel 2012;96:226–38.
+[24] Imtiaz Q, Hosseini D, Müller CR. Review of oxygen carriers for chemical
+looping
+with
+oxygen
+uncoupling
+(CLOU):
+thermodynamics,
+material
+development and synthesis. Energy Technol 2013;1:633–47.
+[25] Chuang SY, Dennis JS, Hayhurst AN, Scott SA. Development and performance of
+Cu-based oxygen carriers for chemical-looping combustion. Combust Flame
+2008;154:109–21.
+[26] Imtiaz Q, Kierzkowska AM, Broda M, Müller CR. Synthesis of Cu-rich, Al2O3-
+stabilized oxygen carriers using a coprecipitation technique: redox and carbon
+formation characteristics. Environ Sci Technol 2012;46:3561–6.
+[27] Imtiaz Q, Kierzkowska AM, Müller CR. Coprecipitated, copper-based, alumina-
+stabilized
+materials
+for
+carbon
+dioxide
+capture
+by
+chemical
+looping
+combustion. ChemSusChem 2012;5:1610–8.
+[28] Brunauer S, Emmett PH, Teller E. Adsorption of gases in multimolecular layers.
+J Am Chem Soc 1983;60:309–19.
+[29] Barrett EP, Joyner LG, Halenda PP. The determination of pore volume and area
+distributions in porous substances. 1. Computations from nitrogen isotherms. J
+Am Chem Soc 1951;73:373–80.
+[30] Rehman S, Mumtaz A, Hasanain SK. Size effects on the magnetic and optical
+properties of CuO nanoparticles. J Nanopart Res 2011;13:2497–507.
+[31] Patterson AL. The Scherrer formula for X-ray particles size determination. Phys
+Rev 1939;56:978–82.
+[32] Wang S, Wang G, Jiang F, Luo M, Li H. Chemical looping combustion of coke
+oven gas by using Fe2O3/CuO with MgAl2O4 as oxygen carrier. Energy Environ
+Sci 2010;3:1353–60.
+[33] Jacob KT, Alcock CB. Thermodynamics of CuAlO2 and CuAl2O4 and phase
+equilibria in the system Cu2O–CuO–Al2O3. J Am Ceram Soc 1975;58:192–5.
+Q. Imtiaz et al. / Applied Energy 119 (2014) 557–565
+565

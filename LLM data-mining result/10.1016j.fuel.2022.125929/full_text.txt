@@ -1,0 +1,1294 @@
+
+
+===== Page 1 =====
+
+Fuel 331 (2023) 125929
+Available online 16 September 2022
+0016-2361/© 2022 Elsevier Ltd. All rights reserved.
+Full Length Article 
+Investigation on the oxygen-carrying performance and reaction kinetics of 
+CaMnxFe1−xO3−δ perovskites prepared from red mud 
+Wenzheng Liang a, Fengyin Wang b, Cuiping Wang a,*, Hairui Yang c, Weiwei Cui a, 
+Guangxi Yue a,c 
+a College of Civil Engineering and Architecture, Shandong University of Science and Technology, Qingdao, Shandong Province 266510, China 
+b College of Electromechanic Engineering, Qingdao University, Qingdao, Shandong Province 266071, China 
+c Department of Energy and Power Engineering, Tsinghua University, Beijing 100084, China   
+A R T I C L E  I N F O   
+Keywords: 
+Perovskite 
+Chemical looping combustion 
+Oxygen uncoupling 
+Reaction kinetics 
+A B S T R A C T   
+In this study, two Ca/Mn/Fe perovskite oxygen carriers (i.e., CaMn0.5Fe0.5O3−δ and CaMn0.75Fe0.25O3−δ, 
+respectively) were prepared using red mud and two pure reagents to recycle the red mud for the chemical 
+looping combustion of biomass. The oxygen uncoupling (OU) capacity and redox cycle characteristics of pe­
+rovskites were examined by thermogravimetric analysis (TGA) under a gaseous (H2, O2, N2) environment. With 
+the same Mn/Fe mole ratio, reagent-based perovskites exhibited a higher total oxygen transport capacity, while 
+perovskites derived from red mud exhibited a better cycling stability. The addition of red mud did not affect the 
+reactivity of perovskites. The curves of conversion level vs time revealed that two control mechanisms are 
+involved in the reaction between oxygen carriers and gaseous compounds. That is, the oxidation kinetics of 
+perovskite oxygen carriers were mainly controlled by a chemical reaction, while the reduction kinetics were 
+controlled by a chemical reaction at a low conversion level, and with the increase in the reduction degree, gas 
+diffusion through the solid product layer was enhanced. In addition, kinetic parameters of OU and redox were 
+obtained, and the grain model was considered to be suitable to describe reduction and oxidation reactions.   
+1. Introduction 
+Currently, CO2 emission reduction is a common global problem, and 
+chemical looping combustion (CLC) technology is considered to 
+demonstrate immense application potential for cost-effective CO2 cap­
+ture [1]. In CLC technology, an oxygen carrier (OC) is used to flow be­
+tween the fuel reactor (FR) and air reactor (AR) to continuously transfer 
+the heat and lattice oxygen required for the reactions, and fuel com­
+bustion is conducted in the absence of nitrogen [1,2]. Generally, OC 
+performance is the key factor that affects CLC efficiency. For decades, a 
+number of studies on the properties of Fe-based OCs [3,4], Mn-based 
+OCs [5,6], Cu-based OCs [5,7], Ni-based OCs [8], and other OCs have 
+been conducted. Most OCs exhibit good reactivity in the initial stage of 
+redox cycles; however, with sintering, phase separation and carbon 
+deposition occur; hence, the OC activity decreases significantly [9,10]. 
+In addition, solid fuels such as coal are fired in the FR, and some un­
+converted char particles are entrapped by the OC flow to the AR, thereby 
+reducing the carbon capture efficiency [11,12]. 
+To solve the above problems, perovskite-composite OC with an 
+oxygen uncoupling (OU) property have attracted increasing attention. 
+The formula of the perovskite structure is ABO3, which exhibits better 
+stability in a wide range of oxygen partial pressures compared with 
+those of other composite OCs [13]. Lyngfelt et al. [14] have proposed 
+chemical looping with oxygen uncoupling (CLOU) and reported that OC 
+can release O2(g) in an inert atmosphere and react with fuel directly, 
+thereby improving the fuel conversion efficiency. Therefore, CLOU is 
+considered to be particularly suitable for solid-fuel CLC processes [15]. 
+Several studies have reported that Cu-based [5,16] and Mn-based 
+[5,17,18] metal oxides exhibit more suitable OU thermodynamics. For 
+example, CaMnO3−δ perovskite OC, where δ is the oxygen vacancy, ex­
+hibits a good OU property, high reactivity with reducing gases, and 
+cycling stability in experimental tests. By doping different metal ele­
+ments on the B site, the reactivity and stability of perovskites can be 
+improved further [19,20]. The CLC of CaMn0.5Ti0.375Fe0.125O3−δ [21] 
+and CaMn0.9Mg0.1O3−δ [22] perovskites has been investigated. Perov­
+skite OC exhibits immense development prospects in the near future. 
+The preparation cost of OC should be considered while ensuring its 
+good reactivity characteristics, which is crucial to scaling up CLC from 
+the laboratory level to the industrial level. Currently, several studies 
+* Corresponding author. 
+E-mail address: wangcuiping@tsinghua.org.cn (C. Wang).  
+Contents lists available at ScienceDirect 
+Fuel 
+journal homepage: www.elsevier.com/locate/fuel 
+https://doi.org/10.1016/j.fuel.2022.125929 
+Received 9 June 2022; Received in revised form 4 August 2022; Accepted 4 September 2022   
+
+
+===== Page 2 =====
+
+Fuel 331 (2023) 125929
+2
+have focused on the addition of commercial chemical powders with 
+adhesives and dispersants into a suspension, followed by spray-drying 
+granulation to afford the OC product [23,24]. To further reduce the 
+cost, an industrial solid waste or a natural ore can be considered as raw 
+materials to prepare cost-effective OC [25–27]. As a type of an alumina 
+industrial solid waste, red mud contains Fe2O3, Al2O3, CaCO3, and other 
+substances, the composition of which is similar to those of materials in 
+Fe-based OC [28]. Therefore, several researchers have used modified red 
+mud as the OC in CLC [29–31]; however, the in-depth analysis of the 
+effect of the structure has not been conducted. It will be beneficial to 
+further reduce the OC costs and expand the utilization of red mud if red 
+mud can be feasibly used as a suitable material to prepare perovskite OC. 
+In this study, comprehensive properties of CaMnxFe1−xO3−δ perov­
+skites OC prepared by red mud were mainly investigated. Two perov­
+skites based on red mud were prepared (chemical formulas of 
+CaMn0.5Fe0.5O3−δ-red mud and CaMn0.75Fe0.25O3−δ-red mud, respec­
+tively), where the abbreviation can be unified as CaMnxFe1−xO3−δ-red 
+mud. Then, the reaction kinetics was measured by thermogravimetric 
+analysis (TGA), and the reactivity, oxygen transport capacity, and 
+cycling stability of CaMnxFe1−xO3−δ-red mud and CaMnxFe1−xO3−δ-lab 
+(CaMnxFe1−xO3−δ perovskites prepared by laboratory reagents) were 
+compared. 
+2. Experimental 
+2.1. Preparation of perovskite oxygen carriers 
+Red mud can be divided into Bayer red mud, sintering red mud and 
+combined red mud according to the production process of alumina. The 
+Bayer process uses NaOH to dissolve bauxite, so the content of Fe2O3, 
+Al2O3 and alkali in Bayer red mud is high. While the sintering process 
+and the combined process deal with insoluble bauxite, the sintering red 
+mud and combined red mud has a high CaO content and low iron 
+Nomenclature 
+a 
+stoichiometric coefficient 
+A0, chem 
+pre-exponential factor of the fast reaction stage, m3n/moln/ 
+s 
+A0, diff 
+pre-exponential factor of the slow reaction stage, m3n/ 
+moln/s 
+Ci 
+concentration of gas i, mol/m3 
+CO2,eq 
+equilibrium concentration of O2, mol/m3 
+Echem 
+activation energy of the fast reaction stage, kJ/mol 
+Ediff 
+activation energy of the slow reaction stage, kJ/mol 
+kchem 
+chemical kinetics constant of the fast reaction stage, m3n/ 
+moln/s 
+kdiff 
+chemical kinetics constant of the slow reaction stage, m3n/ 
+moln/s 
+kx 
+decay constant for the product layer diffusivity 
+mo 
+mass of the oxidized oxygen carrier samples, g 
+mou-r 
+mass of the oxygen carrier after the oxygen uncoupling 
+reaction, g 
+mr 
+mass of the reduced oxygen carrier, g 
+mt 
+mass of the oxygen carrier at time t, g 
+m0 
+oxygen carrier samples’ initial mass, g 
+Mi 
+molar mass of i, kg/mol 
+n 
+reaction order for chemical reaction 
+Rg 
+ideal gases constant, J/mol/K 
+ROC,ou 
+oxygen transport capacity for oxygen uncoupling reaction, 
+wt.% 
+ROC,t 
+total oxygen transport capacity, wt.% 
+t 
+reaction time, s 
+tchem 
+duration of the fast reaction stage, s 
+tdiff 
+duration of the slow reaction stage, s 
+T 
+temperature in Kelvin, K 
+Xo 
+conversion level of oxidation reaction at time t 
+Xou-o 
+conversion level of regeneration at time t 
+Xou-r 
+conversion level of oxygen uncoupling reaction at time t 
+Xr 
+conversion level of reduction reaction at time t 
+α 
+conversion rate, % 
+β 
+heating rate, K/s 
+γ 
+amount of lattice oxygen 
+δ 
+amount of lattice oxygen 
+ε 
+the proportion of CaMnO3–δ’ perovskite in each sample 
+ω 
+oxygen carrier samples’ mass variation, wt.% 
+Ψ 
+ratio of the conversion level at the fast reaction stage to the 
+conversion level  
+Table 1 
+Composition of red mud.  
+Component 
+Na2O 
+MgO 
+Al2O3 
+SiO2 
+CaO 
+TiO2 
+Fe2O3 
+K2O 
+Content (wt/%)  
+6.141  
+0.164  
+18.701  
+20.158  
+2.882  
+4.078  
+41.923  
+0.109  
+Table 2 
+The raw materials used for the perovskite OC production.  
+Component 
+type 
+size 
+purity 
+source 
+Red mud 
+powder 
+<50 μm 
+/ 
+Shandong, China 
+CaO 
+powder 
+<10 μm 
+>98 % 
+Tianjin, China 
+Mn(NO3)2 
+solution 
+/ 
+50 wt% 
+Shanghai, China 
+Fe2O3 
+powder 
+<10 μm 
+>99 % 
+Tianjin, China  
+Fig. 1. Crystalline phase analysis of CaMnxFe1−xO3−δ-lab and CaMnxFe1−xO3−δ- 
+red mud perovskites. 
+W. Liang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 3 =====
+
+Fuel 331 (2023) 125929
+3
+content. So in this study, we chosen Bayer red mud to supply Fe elements 
+to perovskites. 
+The Bayer red mud was purchased from Shandong Lubei Enterprise 
+Group General Company. After X-ray fluorescence (XRF, ZSX Primus 
+Ⅳ-S, Rigaku Corporation, Japan) test, its compositions are listed in 
+Table 1. 
+Chemical impregnation was employed to prepare CaMnxFe1−xO3−δ- 
+red mud perovskite OC. First, red mud powder was dried, crushed, and 
+screened. Then, according to the corresponding stoichiometric ratio of 
+the metal element in CaMn0.5Fe0.5O3−δ and CaMn0.75Fe0.25O3−δ, red 
+mud powder, CaO powder, and a 50 wt% Mn(NO3)2 solution (as pre­
+cursor) were filled in a stirrer. Considerable amount of water was added 
+into the mixture to prepare an emulsion. After stirring for 2 h, the 
+emulsion was heated to 80 ◦C, and the temperature was maintained until 
+the water evaporated completely to obtain a dry mixture. Finally, the 
+dry mixture was subjected to calcination in air at 900 ◦C for 6 h in a 
+muffle furnace to obtain CaMnxFe1−xO3−δ-red mud OC with a perovskite 
+structure. The red mud was replaced with Fe2O3 powder, and the above 
+procedure was repeated, affording CaMnxFe1−xO3−δ-lab perovskite OC. 
+Table 2 shows the detail information of materials. 
+After calcination, X-ray diffraction (XRD, MiniFlex 600, Rigaku 
+Corporation, Japan) patterns of CaMnxFe1−xO3−δ-red mud and 
+CaMnxFe1−xO3−δ-lab were recorded. Fig. 1 shows the crystal phase 
+analysis results. 
+In the two types of CaMnxFe1−xO3−δ-lab, Ca/Mn-, Ca/Fe-, Ca/Fe/ 
+Mn-type perovskite phases were detected with the overlap of the main 
+characteristic peak. Two types of CaMnxFe1−xO3−δ-red mud were 
+composed of not only the above perovskite phases but also the calcium- 
+aluminosilicate phase, which was attributed to the presence of Si and Al 
+in the red mud. Hence, red mud can be used as raw material to prepare 
+perovskite OC. 
+2.2. TGA experiments 
+Fig. 2 show a scheme of TGA (STA 449 F5 Jupiter, NETZSCH, Ger­
+many) 
+experiments 
+to 
+investigate 
+the 
+reactive 
+kinetics 
+of 
+CaMnxFe1−xO3−δ-red mud and CaMnxFe1−xO3−δ-lab. Corresponding to 
+TGA measurement range, the maximum sample weight is 35000 mg 
+(including crucible), and the sensitivity of balance and temperature is 
+0.1 μg and 0.001 K respectively. 
+About 50 mg of the sample was used in each test. In the redox cycles, 
+5 vol% H2/N2 and 21 vol% O2/N2 were used as the reducing and 
+oxidizing agents, respectively. The OU capacity was investigated under 
+high-purity N2. In all cases, a gas flow of 100 mL/min was used. 
+2.3. Experimental setup 
+Temperature-programmed reduction (TPR) was first employed to 
+determine the total oxygen transport capacity of each perovskite OC. 
+Under 5 vol% H2/N2, samples were heated from 313 K to 1173 K at a 
+rate of 10 K/min. Then, the temperature was maintained for 25 min to 
+ensure that the sample achieved a fully reduced state. After TPRs, redox 
+cycles at a constant temperature (1173 K) were conducted to evaluate 
+the cycling stability of each perovskite OC. A cycle reaction was divided 
+into three stages: 1. The reduced sample was oxidized under 21 vol% 
+O2/N2 for 10 min to obtain lattice oxygen; 2. High-purity N2 was passed 
+during TGA for 10 min to prevent the reaction between O2 and the 
+subsequent reducing gas; 3. Next, 5 vol% H2/N2 was introduced again 
+for 25 min to complete a single redox cycle. 
+For the oxygen uncoupling kinetics test, under 21 vol% O2/N2, each 
+sample was first heated from 313 K to 1173 K at 20 K/min. Then, the 
+final temperature was maintained for 25 min to ensure that the perov­
+skites achieved a stable oxidated state at 1173 K. Next, four OU and 
+regeneration cycles were conducted at 1173 K, with the release of 
+gaseous oxygen in high-purity N2 for 25 min, followed by the oxidation 
+of the sample under 21 vol% O2/N2 for 25 min again. 
+3. Theoretical calculation 
+3.1. Reaction mechanism 
+It is essential to clarify the reaction mechanism between perovskite 
+OC and fuel gas for the calculation of reaction activity and quantitative 
+analysis of the oxygen transfer capacity. For example, CaMn0.5Fe0.5O3−δ 
+can release gaseous oxygen reacted with fuel (H2, CO), as shown in re­
+actions R(1)–R(3). 
+CaMn0.5Fe0.5O3−δ ↔CaMn0.5Fe0.5O3−γ + (γ −δ)
+/
+2O2
+(R1)  
+O2 + 2H2→2H2O
+(R2)  
+O2 + 2CO→2CO2
+(R3) 
+Following the equations, the OU capacity of OC can be calculated by 
+δ and γ (the oxygen vacancy in the oxidated and reduced states, 
+respectively). In addition, the lattice oxygen can react with fuel to 
+render a high reduction degree. Please check reactions R(4)–R(5). 
+CaMn0.5Fe0.5O3−δ + aH2→CaMn0.5Fe0.5O3−δ−a + aH2O
+(R4)  
+CaMn0.5Fe0.5O3−δ + aCO→CaMn0.5Fe0.5O3−δ−a + aCO2
+(R5) 
+The above reaction formulas are used for the calculation of the ox­
+ygen transport capacity of OC and the establishment of the kinetics 
+model of the OC reaction with fuel. 
+3.2. Thermochemical calculation 
+Two oxygen transfer mechanisms in OC exist as gaseous oxygen and 
+lattice oxygen, respectively, where ROC,ou and ROC,t correspond to the 
+oxygen transport capacity for OU and the total oxygen transport ca­
+pacity, respectively. Owing to the absence of available thermodynamical 
+data of CaMnxFe1−xO3−δ-red mud and CaMnxFe1−xO3−δ-lab, some 
+studies have assumed that the thermodynamic data of CaMnO3−δ’ pub­
+lished by Leonidova [20] can be used for calculation [21,32]. In this 
+study, two types of CaMnxFe1−xO3−δ-lab were equivalent to (CaM­
+nO3−δ’)0.5(CaFeO3)0.5 and (CaMnO3−δ’)0.75(CaFeO3)0.25 for convenience 
+of calculation, where CaFeO3 was regarded to not exhibit an OU 
+capacity. 
+For two types of CaMnxFe1−xO3−δ-red mud, Al2O3 and SiO2 compo­
+nents of the original red mud should be considered. In combination with 
+the XRF results, in the actual chemical composition of CaMnxFe1−xO3−δ- 
+red mud, additional oxides of Al, Si, Ti, and Na were present. After 
+Fig. 2. TGA experiments.  
+W. Liang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 4 =====
+
+Fuel 331 (2023) 125929
+4
+atomic normalization calculation, the actual chemical formulas of the 
+two types of CaMnxFe1−xO3−δ-red mud were.  
+CaMn0.5Fe0.5Al0.349Si0.319Ti0.048Na0.188O4.353−δ                                          
+and  
+CaMn0.75Fe0.25Al0.175Si0.16Ti0.024Na0.094O3.676−δ,                                        
+which were equivalent to  
+(CaMnO3-δ’)0.5(CaFeO3)0.5(Al2O3)0.175(SiO2)0.319(TiO2)0.048(Na2O)0.094          
+and  
+(CaMnO3-δ’)0.75(CaFeO3)0.25(Al2O3)0.087(SiO2)0.16(TiO2)0.024(Na2O)0.047         
+for easy thermochemical calculation, respectively. 
+The OU reaction of CaMnO3-δ’ perovskite OC can be expressed as 
+shown in R6: 
+CaMnO3−δ′ ↔CaMnO3−γ′ + (γ
+′ −δ
+′)/2O2
+(R6) 
+The OU capacity of OC was calculated by the oxygen vacancy (δ’ and 
+γ’). Leonidova et al. [20] have hypothesized that δ’ and γ’ of the 
+CaMnO3−δ’ perovskite depend on the O2 partial pressure and tempera­
+ture. Eq. (1) and Eq. (2) have been proposed to calculate oxygen vacancy 
+as a function of temperature. 
+(3 −δ
+′) = a1 + b1T−1 + c1T−2 + d1T−3
+(1)  
+(3 −γ
+′) = a2 −b2T
+(2) 
+The equilibrium O2 concentration (CO2,eq) was calculated as a func­
+tion of temperature and the oxygen vacancy, which was then used as the 
+driving force for the OU reaction. 
+CO2,eq = 101325
+RgT
+exp
+(
+M + N
+T
+)
+(3)  
+M = a3 + b3(3 −δ
+′) + c3(3 −δ
+′)2 + d3(3 −δ
+′)3
+(4)  
+N = a4 + b4(3 −δ
+′) + c4(3 −δ
+′)2 + d4(3 −δ
+′)3
+(5)  
+where T is the temperature in Kelvin, Rg is the gas constant, and the 
+coefficients M and N can be described as function of (3 −
+δ’). Please 
+check Eqs. (4) and (5). Table 3 lists the coefficients of equations (ai, bi, ci, 
+di). 
+According to R6, the theoretical value of the OU capacity (R’OC,ou) 
+and the total oxygen transport capacity (R’OC,t) can be calculated (Eqs. 
+(6) and (7)). 
+R
+′
+OC,ou =
+MO2
+MCaMnO3−δ′
+(γ
+′ −δ
+′
+2
+)
+(6)  
+R
+′
+OC,t =
+MO2
+MCaMnO3−δ′
+(1 −δ
+′
+2
+)
+(7) 
+Here, CaMnO2 represents the final reduction state of CaMnO3−δ’ 
+perovskite OC under the reducing atmosphere [32,36]; hence, γ’ in Eq. 
+(7) is equal to 1. Mi is the molar mass of component i, (kg/mol). Eq. (8) 
+was proposed to calculate the theoretical oxygen transport capacity of 
+CaMnxFe1−xO3−δ-lab and CaMnxFe1−xO3−δ-red mud. 
+ROC = εR
+′
+OC
+(8)  
+where ε represents the proportion of CaMnO3−δ’ perovskite in each 
+sample. As examples, for CaMn0.5Fe0.5O3−δ-lab and CaMn0.5Fe0.5O3−δ- 
+red mud, the ε value can be calculated as shown in Eqs. (9) and (10). 
+ε =
+0.5
+(
+MCaMnO3−δ′
+)
+0.5
+(
+MCaMnO3−δ′
+)
++ 0.5
+(
+MCaFeO3
+)
+(9)     
+4. Results and discussions 
+The mass variation of each sample in TGA can be converted to the 
+normalized one (Eq. (11)). 
+ω = mt
+m0
+× 100%
+(11)  
+ROC = 1 −ω
+(12)  
+where mt and m0 represent the sample mass at time t and the initial mass 
+of the sample, respectively. Hence, the experimental value of the oxygen 
+Table 3 
+Coefficients of equations in this section.   
+ai 
+bi 
+ci 
+di 
+i = 1 
+−0.404 
+8739 
+−7223000 
+1889000000 
+i = 2 
+2.9793 
+0.00013286 
+/ 
+/ 
+i = 3 
+1593883.5 
+−1627925 
+554138.87 
+−62863.581 
+i = 4 
+−2085079400 
+2130535800 
+−725574860 
+82355555  
+Fig. 3. Multiple cycles of mass variation during redox cycles in TGA (Reduc­
+tion: 5 vol% H2, Oxidation: 21 vol% O2). 
+ε =
+0.5
+(
+MCaMnO3−δ′
+)
+0.5
+(
+MCaMnO3−δ′
+)
++ 0.5
+(
+MCaFeO3
+)
++ 0.175
+(
+MAl2O3
+)
++ 0.319(MSiO2) + 0.048(MTiO2) + 0.094(MNa2O)
+(10)   
+W. Liang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 5 =====
+
+Fuel 331 (2023) 125929
+5
+transport capacity can be described by Eq. (12). 
+4.1. Oxygen transport capacity 
+4.1.1. Redox properties 
+The initial weight loss of the four samples in the TPR test (the 1st 
+cycle) was greater than those in the 2nd and 3rd cycles, but all samples 
+did not achieve complete regeneration (ω = 100 %), as shown in Fig. 3. 
+Abad et al. [32] also have reported that CaMn0.775Ti0.125Mg0.1O2.9−δ 
+perovskite OC can be fully regenerated in the low reduction state (ω >
+95 %); however, with the decrease in the ω value, the oxygen transport 
+capacity of OC exhibited a downward trend, possibly related to the 
+change in the perovskite structure in OC. 
+This phenomenon indicates that in the process, deep reduction is 
+observed, and perovskite OC exhibits good cyclic stability, albeit the 
+effective oxygen transport capacity decreases. 
+Therefore, the mass change in the TPR test is defined as the total 
+oxygen transfer capacity of fresh OC. Please check ROC,t (fresh) in 
+Table 4. ROC,t (fresh) was greater than the theoretical value ROC,t 
+calculated by Eqs. (7) and (8). For example, the ROC,t (fresh) values of 
+CaMn0.5Fe0.5O3−δ-lab and CaMn0.5Fe0.5O3−δ-red mud were 13.961 % 
+and 10.989 %, respectively, but the ROC,t values were 5.405 % and 
+4.076 %, respectively. This result is related to the fact that the ther­
+modynamical data of CaMnO3−δ’ used for theoretical calculation do not 
+include Fe-based oxides, while Fe-based oxides can provide lattice ox­
+ygen as active components. In addition, the ROC,t (fresh) of the red mud- 
+based OC was less than that of the lab-based OC due to the presence of 
+inert carriers such as Al and Si oxides. The curve of ω in the 2nd and 3rd 
+cycles was considered to be the stable redox cycle state of OC at 1173 K. 
+The total oxygen transfer capacity of OC at this stage was defined as ROC, 
+t (stable), as shown in Table 4. These values are further used to analyze 
+and construct the redox reaction kinetics model. 
+Table 4 
+Oxygen transport capacity values of CaMnxFe1−xO3−δ-lab and CaMnxFe1−xO3-δ-red mud.  
+Sample 
+Theoretical values (wt.%) 
+Experimental values in TGA (wt.%) 
+ROC,ou 
+ROC,t 
+ROC,ou (fresh) 
+ROC,t (fresh) 
+ROC,ou (stable) 
+ROC,t (stable) 
+CaMn0.5Fe0.5O3−δ-lab  
+0.802  
+5.405  
+0.926  
+13.961  
+0.742  
+10.603 
+CaMn0.75Fe0.25O3−δ-lab  
+1.206  
+8.128  
+1.291  
+12.461  
+0.755  
+9.678 
+CaMn0.5Fe0.5O3−δ-red mud  
+0.605  
+4.076  
+0.541  
+10.989  
+0.509  
+7.765 
+CaMn0.75Fe0.25O3−δ-red mud  
+1.037  
+6.987  
+0.943  
+10.458  
+0.595  
+7.55  
+Fig. 4. Multiple cycles of mass variation during oxygen uncoupling and regeneration cycles in the TGA. (a): CaMnxFe1−xO3−δ-lab, (b): CaMnxFe1−xO3−δ-red mud 
+(Reduction: N2, Oxidation: 21 vol% O2). (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.) 
+Fig. 5. Reduction conversion level (a) and oxidation conversion level (b) of CaMnxFe1−xO3−δ-lab and CaMnxFe1−xO3−δ-red mud. (For interpretation of the references 
+to colour in this figure legend, the reader is referred to the web version of this article.) 
+W. Liang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 6 =====
+
+Fuel 331 (2023) 125929
+6
+N2 purging was conducted from the oxidation stage to the reduction 
+stage, and the loss of mass during this stage represented the OU per­
+formance. Compared to the whole reduction stage, the release of gaseous 
+oxygen (~1.5 %) was considerably less than the transfer of lattice ox­
+ygen (~10 %). 
+4.1.2. Oxygen uncoupling and regeneration properties 
+All samples exhibited a slight mass loss during gradual heating up to 
+1173 K in air (Fig. 4(a) and (b)) because the oxygen vacancy increased 
+with the increase in the temperature, and O2 (g) was released [32]. 
+Then, with the increase in the number of cycles, the OU capacity of each 
+sample decreased first and finally became stable: Two types of 
+CaMn0.75Fe0.25O3−δ perovskites were even more obvious; for example, 
+compared with that in the 1st cycle, the weight loss of 
+CaMn0.75Fe0.25O3−δ-lab and CaMn0.75Fe0.25O3−δ-red mud in the 4th 
+cycle decreased by 41.5 % and 36.9 %, respectively, while that of 
+CaMn0.5Fe0.5O3−δ-lab and CaMn0.5Fe0.5O3−δ-red mud decreased by 19.8 
+% and 5.9 %, respectively. This phenomenon may be caused by the 
+disintegration of the perovskite phase into the Ca-Mn mixed oxide salt or 
+the phase without OU ability under harsh reduction conditions, leading 
+to the decline in the OU capacity [33]. The decrease trend of the two 
+types of CaMnxFe1−xO3−δ-red mud OC was less than that of the 
+CaMnxFe1−xO3−δ-lab OC. Hence, as the raw material for preparing Ca/ 
+Mn/Fe perovskites, red mud can significantly improve the cycling sta­
+bility of the OU reaction, which may be related to the inert components 
+in red mud. 
+To ignore the effects of the OC structure changes, the 1st cycle was 
+analyzed to obtain the experimental value of the OU capacity (please 
+check ROC,ou (fresh) in Table 4), and ROC,ou (fresh) was similar to the 
+theoretical value ROC,ou. The rate of OU was extremely low because the 
+driving force (CO2,eq −CO2) decreased significantly [32]; hence, the inert 
+period is not prolonged further. The stable OU capacity ROC,ou (stable) 
+can be obtained in the 4th cycle. 
+4.2. Reaction conversion analysis 
+To analyze the reaction kinetics model of the redox reaction and OU 
+reaction of OC, the relationship between the conversion level and re­
+action time should be established first. The oxygen transport capacity 
+and the signal of mass change were used to obtain the reduction con­
+version level Xr, oxidation conversion level Xo, and oxygen uncoupling 
+and regeneration conversion level Xou-r and Xou-o, respectively, as shown 
+in Eqs. (13), (14), (15), and (16). 
+Xr = mo −mt
+ROC,tmo
+(13)  
+Xo = mt −mr
+ROC,tmo
+(14)  
+Xou−r = mo −mt
+ROC,oumo
+(15)  
+Xou−o = mt −mou−r
+ROC,oumo
+(16)  
+where mo and mr represent the mass of the samples in the oxidated stage 
+and reduced stage, respectively, mt represents the sample mass at reac­
+tion time t, and mou-r represents the sample mass after the OU reaction. 
+In the early stage of reduction and oxidation, the curves of the 
+conversion level vs time exhibited a rapid straight increase, followed by 
+a gradual smooth transition to a slow reaction stage (Fig. 5 (a) and (b)). 
+Fig. 6. Oxygen uncoupling conversion level (a), (b) and oxidation conversion level (c), (d) of CaMnxFe1−xO3−δ-lab and CaMnxFe1−xO3−δ-red mud. (For interpretation 
+of the references to colour in this figure legend, the reader is referred to the web version of this article.) 
+W. Liang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 7 =====
+
+Fuel 331 (2023) 125929
+7
+This reaction indicates that two reaction control mechanisms exist when 
+an OC redox reaction occurs: A fast reaction stage controlled by the 
+chemical reaction and a slow reaction stage controlled by the diffusion 
+of gas through the solid product layer. At the initial conversion, the 
+gaseous fuel reacted rapidly at the surface and shallow zone of the OC, 
+while at a high conversion level, the control mechanism changed to the 
+diffusion of gas through the product layer formed around the particles. 
+Notably, both control mechanisms existed simultaneously in the reac­
+tion process, but with the difference in the conversion level, they 
+exhibited different degrees of influence on the chemical reaction. 
+When the chemical formula was the same, the rapid reaction stage of 
+red mud-based OC basically coincided with that of the lab-based OC 
+(Fig. 
+5 
+(a)). 
+Compared 
+to 
+CaMn0.5Fe0.5O3−δ 
+perovskites, 
+CaMn0.75Fe0.25O3−δ perovskites exhibited higher “straight line seg­
+ments,” indicating that the perovskites prepared by red mud exhibit 
+marginal difference with the lab-based OC in terms of reactivity and that 
+the reactivity of Ca/Mn/Fe perovskite is improved with the increase in 
+the Mn content. All of OCs exhibited similar conversion level curves in 
+oxidation cycles, indicative of similar oxidation reaction control 
+processes. 
+Fig. 6 shows the OU and regeneration conversion at a constant 
+temperature of 1173 K. The conversion level curves also included two 
+stages. However, unlike redox reactions, the driving force for the OU 
+reaction is CO2,eq −CO2. With the increase in the conversion level, the O2 
+concentration at equilibrium decreased rapidly [33]; thus, the slow re­
+action stage occurs (Fig. 6 (a) and (b)). 
+In addition, the OU conversion level curves of the four perovskites 
+moved upward with the increase in the cycle number, and 
+CaMn0.75Fe0.25O3−δ perovskites were even more obvious, indicating that 
+its reactivity increases (Fig. 6 (a) and (b)). This phenomenon may be 
+related to the change in the OC microstructure [33]. Abad et al. [34] has 
+hypothesized that chemical stress causes phase transformation, leading 
+to the increase in the OC surface area and reaction activity. 
+5. Models 
+It is imperative to design reactors and determine the residence time 
+of OC in reactors according to the reaction characteristics of OC and 
+kinetics models; as a result, kinetics models of the perovskite reaction 
+are determined. 
+5.1. Kinetics model 
+The conversion level curves provide the reaction control mecha­
+nisms, that is, before reaching a certain stage, the conversion level 
+exhibited a linear up warding, and with the increase in solid conversion, 
+gases need to diffuse through the product layer into the particles (Fig. 7). 
+Based on the control mechanisms and referring to the grain model 
+[35], the reaction kinetics could be determined. This model assumes that 
+each OC particle is composed of some non-porous spherical grains and 
+reacts according to the shrinking core model (SCM). To simplify the 
+reaction process, the resistance to not only gas-film mass transfer but 
+also diffusion inside the particle under TGA test conditions was ignored 
+herein [32]. The following equations describe this kinetics model: 
+t = tchemX + tdiff
+(
+1 −3(1 −X)2/3 + 2(1 −X)
+)
+(17)  
+tchem =
+1
+kchemCn
+i
+(i = H2, O2)
+(18)  
+kchem = A0,chemexp
+(
+−Echem
+RgT
+)
+(19)  
+tdiff =
+1
+6kdiffCn′
+i
+(20)  
+kdiff = A0,diffexp
+(
+−Ediff
+RgT −kxX
+1
+1−Ψ
+)
+(21) 
+Fig. 7. Schematic of the reaction mechanism of OC particles.  
+Fig. 8. Oxidation of reduced perovskites in air (a) and release of O2(g) in N2 (b) from fresh perovskites. (a): from 313 K to 1173 K, 10 K/min; (b): from 313 K to 1173 
+K, 20 K/min. 
+W. Liang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 8 =====
+
+Fuel 331 (2023) 125929
+8
+where t is the total reaction time (s), tchem and tdiff represent the duration 
+of the fast reaction stage and slow reaction stage, respectively. n is the 
+reaction order for the chemical reaction. Ci represents the reacting 
+concentration of gas i, (moln/m3n). The chemical kinetics constant of the 
+fast reaction stage (kchem) and slow reaction stage (kdiff) can be described 
+from the Arrhenius expressions (m3n/moln/s), as shown in Eqs. (19) and 
+(21). A0, chem and A0, diff represent the pre-exponential factors (m3n/ 
+moln/s). Echem and Ediff represent the activation energy (kJ/mol). Rg is 
+the ideal gas constant (Rg = 8.314 J/mol/K). kx is a modification 
+parameter to consider the effective diffusion constant kdiff with the 
+conversion, as shown in Eq. (21). Abad et al. [32] have believed that kx 
+can be used when the reaction rate and solid conversion decrease 
+significantly. However, in this study, kx can be used in all of the reaction 
+processes that require gas diffusion, and kx takes the same value when a 
+specific OC reacts with gas in the entire range of temperatures. Based on 
+the original model, another parameter Ψ was introduced to further 
+modify the influence of kx at different conversion levels, which was 
+better to describe the kinetic transition from the fast reaction stage to the 
+slow reaction stage through product layer diffusion. Ψ represents the 
+ratio of the conversion level at the fast reaction stage to the whole 
+conversion level, and in the study reported by Li et al., where micro- 
+fluidized bed thermogravimetric analysis (MFB-TGA) is conducted 
+[21,23], it is referred to as the reaction performance of Ca/Mn/Ti/Fe 
+perovskite. 
+Chemical reaction control is the only factor to be considered in the 
+OU reaction, and the driving force (CO2,eq −CO2) must be included, as 
+shown in Eq. (22). 
+t =
+1
+kchem
+(
+Cn
+O2,eq −Cn
+O2
+)Xou−r
+(22) 
+The equilibrium O2 concentration (CO2,eq) can be calculated as a 
+function of T and δ, as shown in Eqs. (1) and (3). In addition, the con­
+version level Xou-r can be described as a function of t and δ, as shown in 
+Eq. (23). 
+Xou−r(t) = δ(t) −δ
+γ −δ
+(23)  
+5.2. Determination of the model parameters 
+The mass change curves of samples were obtained from heating up in 
+different atmospheres, which were used to estimate activation energy, 
+pre-exponential factor, and other parameters. The mass variation curves 
+of perovskites heated in air and N2 were used to calculate the parameters 
+of oxidation and OU reactions, respectively (Fig. 8). The TPR test results 
+can be used to calculate the parameters of the reduction reaction 
+(Fig. 3). 
+To calculate parameters in the fast reaction stage, the reaction ve­
+locity is adopted as shown in Eq. (24): 
+dα
+dt = kchemf(α)
+(24)  
+where α is the conversion rate (%), and t is the reaction time (s). For a 
+simple reaction, f(α) can be written as f(α) = (1 −α)n and kchem can be 
+Fig. 9. Plots to calculate the activation energy Echem and pre-exponential factors A0, chem for reduction (a), oxidation and (b) oxygen uncoupling reactions (c). (a): 5 
+vol% H2, (b): 21 vol% O2, (c): pure N2. 
+W. Liang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 9 =====
+
+Fuel 331 (2023) 125929
+9
+Table 5 
+Model parameters for the redox reaction of H2 and O2 with CaMnxFe1−xO3−δ-lab and CaMnxFe1−xO3−δ-red mud perovskites.   
+Unit 
+CaMn0.5Fe0.5O3−δ-lab 
+CaMn0.75Fe0.25O3−δ-lab 
+CaMn0.5Fe0.5O3−δ-red mud 
+CaMn0.75Fe0.25O3-δ-red mud 
+H2 
+O2 
+H2 
+O2 
+H2 
+O2 
+H2 
+O2 
+n 
+– 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+A0, chem 
+m3n/moln/s 
+0.99 
+0.265 
+1.112 
+0.241 
+0.954 
+0.27 
+0.95 
+0.237 
+Echem 
+kJ/mol 
+60.22 
+43.952 
+55.354 
+44.082 
+58.033 
+44.671 
+52.278 
+43.337 
+n
+′
+– 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+A0,diff 
+m3n/moln/s 
+185500 
+0.01 
+193500 
+0.011 
+170000 
+0.008 
+194000 
+0.008 
+Ediff 
+kJ/mol 
+188.9 
+20 
+184.7 
+20 
+189.1 
+20 
+189.5 
+20 
+kx 
+– 
+2.8 
+3 
+3 
+3 
+2.85 
+3 
+3 
+3 
+Ψ 
+– 
+0.45 
+0.93 
+0.78 
+0.96 
+0.42 
+0.98 
+0.68 
+0.98  
+Table 6 
+Model parameters for the oxygen uncoupling and regeneration reaction of N2 and O2 with CaMnxFe1−xO3−δ-lab and CaMnxFe1−xO3−δ-red mud perovskites.   
+Unit 
+CaMn0.5Fe0.5O3−δ-lab 
+CaMn0.75Fe0.25O3−δ-lab 
+CaMn0.5Fe0.5O3−δ-red mud 
+CaMn0.75Fe0.25O3−δ-red mud 
+N2 
+O2 
+N2 
+O2 
+N2 
+O2 
+N2 
+O2 
+n 
+– 
+0.6 
+1 
+0.6 
+1 
+0.6 
+1 
+0.6 
+1 
+A0, chem 
+m3n/moln/s 
+0.284 
+0.242 
+0.21 
+0.24 
+0.248 
+0.242 
+0.272 
+0.24 
+Echem 
+kJ/mol 
+35.097 
+32.12 
+25.989 
+27.25 
+33.898 
+32.22 
+33.461 
+27.16 
+n
+′
+– 
+/ 
+1 
+/ 
+1 
+/ 
+1 
+/ 
+1 
+A0,diff 
+m3n/moln/s 
+/ 
+0.01 
+/ 
+0.011 
+/ 
+0.01 
+/ 
+0.011 
+Ediff 
+kJ/mol 
+/ 
+28 
+/ 
+31 
+/ 
+28 
+/ 
+33 
+kx 
+– 
+/ 
+3 
+/ 
+3 
+/ 
+3 
+/ 
+3 
+Ψ 
+– 
+/ 
+0.75 
+/ 
+0.84 
+/ 
+0.75 
+/ 
+0.79  
+Fig. 10. Experimental and model results for the redox reaction at 1173 K. (a), (c): Reduction reaction with 5 vol% H2; (b), (d): Oxidation reaction with 21 vol% O2.  
+W. Liang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 10 =====
+
+Fuel 331 (2023) 125929
+10
+written in the Arrhenius form: 
+dα
+dT = A0, chem
+β
+exp
+(
+−Echem
+RgT
+)
+(1 −α)n
+(25)  
+β = dT
+dt
+(26) 
+β is the heating rate (K/s), while the reaction order n = 1: 
+ln
+[−ln(1 −α)
+T2
+]
+= ln
+[RgA0, chem
+βEchem
+(
+1 −2RgT
+Echem
+) ]
+−Echem
+RgT
+(27) 
+n ∕= 1: 
+ln
+[
+1 −(1 −α)1−n
+T2(1 −n)
+]
+= ln
+[RgA0, chem
+βEchem
+(
+1 −2RgT
+Echem
+) ]
+−Echem
+RgT
+(28) 
+The curve of ln
+[
+−ln(1−α)
+T2
+]
+or ln
+[
+1−(1−α)1−n
+T2(1−n)
+]
+vs 1/T can be approximated 
+as a straight line if the value of n can be selected accurately. Hence, the 
+slop of this line determines Echem, and the intercept determines A0, chem, 
+as shown in Eqs. (27) and (28). Fig. 9 shows the actual calculation results 
+and fitting lines. 
+Under the same reaction atmosphere, the fitted lines of the red mud- 
+based perovskites were similar to those of the lab-based perovskites in 
+terms of slopes and intercepts, indicating that the reactivity of red mud- 
+based perovskites is similar to that of lab-based perovskites and that as 
+solid waste, red mud can be used as raw material for the preparation of 
+Ca/Mn/Fe perovskite OC. 
+Once the parameters for the chemical reaction were determined, the 
+kinetics model described by Eq. (17) can be used to determine the pa­
+rameters for the diffusion in the product layer. In this study, by referring 
+to the reaction kinetics of Ca/Mn/Ti/Mg perovskites examined by Abad 
+et al. [22,32,36], parameters for the diffusion in the product layer were 
+appropriately selected to fit model curves and experimental values. 
+Tables 5 and 6 summarize the results. 
+5.3. Experimental and model results of reactions 
+The curve of the conversion level at 1173 K changed slightly with the 
+increase in the cycle (Figs. 5 and 6). Hence, the mean and fluctuation 
+range of the conversion level are analyzed corresponding to each time, 
+which are shown as symbols to represent experimental curves, and 
+model predictions are expressed by a continuous line. Fig. 10 shows the 
+fitting results of oxidation and reduction, and Fig. 11 shows the results of 
+OU. As can be observed in Figs. 10 and 11, the kinetics model with the 
+parameters calculated herein accurately predicted the conversion curves 
+for all reaction types. 
+6. Conclusions 
+In this study, red mud was used as a raw material to prepare two 
+types of OC perovskites (i.e., CaMn0.5Fe0.5O3−δ-red mud and 
+CaMn0.75Fe0.25O3−δ-red mud, respectively). The physical and chemical 
+properties were compared with the perovskites prepared by laboratory 
+reagents (CaMn0.5Fe0.5O3−δ-lab and CaMn0.75Fe0.25O3−δ-lab). The redox 
+and oxygen uncoupling kinetics of these perovskites OC were 
+determined. 
+Fig. 11. Experimental and model results for the oxygen uncoupling reaction at 1173 K. (a), (c): Oxygen uncoupling reaction with N2; (b), (d): Oxidation reaction with 
+21 vol% O2. 
+W. Liang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 11 =====
+
+Fuel 331 (2023) 125929
+11
+The total oxygen transport capacity ROC,t and oxygen uncoupling 
+capacity ROC,ou of the red mud-based perovskites were less than those of 
+the lab-based perovskites, which may be related to inert carriers such as 
+Al2O3 in red mud. However, the red mud-based perovskites exhibited 
+better stability in redox cycles and oxygen uncoupling reactions. The 
+results confirmed that, as a type of solid waste, red mud can become a 
+suitable material for the preparation of OC perovskites for subsequent 
+application to chemical looping combustion. 
+The grain model was used to determine redox and oxygen uncou­
+pling kinetic parameters. Kinetics for reduction and oxidation were 
+mainly controlled by the chemical reaction during the initial reaction 
+period. However, a slow reaction stage controlled by gas diffusion 
+through the product layer occurred with the increase in the conversion 
+level. The activation energy Echem for the reaction of red mud-based 
+perovskites with 5 vol% H2 and 21 vol% O2 controlled by the chemi­
+cal reaction stage was similar to that for the lab-based perovskites. The 
+grain model modified with Ψ, corresponding to the ratio of the con­
+version level at the fast reaction stage, accurately predicted the con­
+version curves for all reaction types. 
+CRediT authorship contribution statement 
+Wenzheng Liang: Investigation, Data curation, Validation. Fengyin 
+Wang: Methodology, Writing – original draft. Cuiping Wang: 
+Conceptualization, Funding acquisition. Hairui Yang: Writing – review 
+& 
+editing. 
+Weiwei 
+Cui: 
+Resources. 
+Guangxi 
+Yue: 
+Project 
+administration. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Data availability 
+Data will be made available on request. 
+Acknowledgements 
+This work was supported by the National Natural Science Foundation 
+of China [Grant No.: 51676102, 52076125]. The authors greatly 
+acknowledge the support from the Foundation of Key Natural Science 
+Foundation of Shandong Province (ZR2020KE040). 
+References 
+[1] Lyngfelt A. Chemical looping combustion: status and development challenges. 
+Energy Fuels 2020;34:9077–93. 
+[2] Adanez J, Abad A, Garcia-Labiano F, Gayan P, De Diego LF. Progress in chemical- 
+looping combustion and reforming technologies. Prog Energy Combust Sci 2012;38 
+(2):215–82. 
+[3] Mendiara T, Perez R, Abad A, De Diego LF, Garcia-Labiano F, Gayan P, et al. Low- 
+cost Fe-based oxygen carrier materials for the iG-CLC process with coal. 1. Ind Eng 
+Chem Res 2012;51:16216–29. 
+[4] Wei G, Yang M, Huang Z, Bai H, Chang G, He F, et al. Syngas production from 
+lignite via chemical looping gasification with hematite oxygen carrier enhanced by 
+exogenous metals. Fuel 2020;321:124119. 
+[5] Ad´anez-Rubio I, Abad A, Gayan P, Luis F, Adanez J. CLOU process performance 
+with a Cu-Mn oxygen carrier in the combustion of different types of coal with CO2 
+capture. Fuel 2018;212:605–12. 
+[6] Zeng D, Cui D, Qiu Y, Li M, Ma L, Zhang S, et al. Mn-Fe-Al-O mixed spinel oxides as 
+oxygen carrier for chemical looping hydrogen production with CO2 capture. Fuel 
+2020;274:117854. 
+[7] Zheng C, Cao J, Zhang Y, Zhao H. Insight into the oxidation mechanism of a Cu- 
+based oxygen carrier (Cu → Cu2O → CuO) in chemical looping combustion. Energy 
+Fuels 2020;34:8718–25. 
+[8] Dueso C, Garcia-Labiano F, Adanez J, De Diego LF, Gayan P, Abad A. Syngas 
+combustion in a chemical-looping combustion system using an impregnated Ni- 
+based oxygen carrier. Fuel 2009;88:2357–64. 
+[9] Tilland A, Prieto J, Petitjean D, Schaer E. Study and analyses of a CLC oxygen 
+carrier degradation mechanism in a fixed bed reactor. Chem Eng J 2016;302: 
+619–32. 
+[10] Galinsky NL, Shafiefarhood A, Chen Y, Neal L, Li F. Effect of support on redox 
+stability of iron oxide for chemical looping conversion of methane. Appl Catal B 
+Environ 2015;164:371–9. 
+[11] Lyngfelt A. Chemical-looping combustion of solid fuels–status of development. 
+Appl Energy 2014;113:1869–73. 
+[12] Song T, Shen L. Review of reactor for chemical looping combustion of solid fuels. 
+Int J Greenhouse Gas Control 2018;76:92–110. 
+[13] Liu L, Li ZS, Li ZA, Larring Y, Li Y, Cai N. Fast redox kinetics of a perovskite oxygen 
+carrier measured using micro-fluidized bed thermogravimetric analysis. Proc 
+Combust Inst 2021;38:5259–69. 
+[14] Mattisson T, Lyngfelt A, Leion H. Chemical-looping with oxygen uncoupling for 
+combustion of solid fuels. Int J Greenhouse Gas Control 2009;3(1):11–9. 
+[15] Abad A, Adanez-Rubio I, Gayan P, Garcia-Labiano F, De ́Diego LF, Adanez J. 
+Demonstration of chemical-looping with oxygen ́uncoupling (CLOU) process in a 
+1.5 kWth continuously operating unit using a Cu-based oxygen-carrier. Int J 
+Greenhouse Gas Control 2012;6:189–200. 
+[16] Adanez-Rubio I, Bautista H, Izquierdo MT, Gayan P, Abad A. Development of a 
+magnetic Cu-based oxygen carrier for the chemical looping with oxygen 
+uncoupling (CLOU) process. Fuel Process Technol 2021;218:106836. 
+[17] Mattisson T. Materials for chemical-looping with oxygen uncoupling. ISRN Chem. 
+Eng. 2013;526375. 
+[18] Azimi G, Leion H, Ryd´en M, Mattisson T, Lyngfelt A. Investigation of different Mn- 
+Fe oxides as oxygen carrier for chemical-looping with oxygen uncoupling (CLOU). 
+Energy Fuels 2013;27:367–77. 
+[19] Yin X, Wang S, Wang B, Shen L. Perovskite-type LaMn1-xBxO3+δ (B = Fe, Co and Ni) 
+as oxygen carriers for chemical looping steam methane reforming. Chem. Eng. J. 
+2021; 422: 128751. 
+[20] Leonidova E, Leonidov I, Patrakeev M, Kozhevnikov V. Oxygen non-stoichiometry, 
+high-temperature properties, and phase diagram of CaMnO3-δ. J Solid State 
+Electrochem 2011;15:1071–5. 
+[21] Liu L, Li ZS, Li ZA, Larring Y, Cai N. Heterogeneous reaction kinetics of a perovskite 
+oxygen carrier for chemical looping combustion coupled with oxygen uncoupling. 
+Chem Eng J 2020;417(2):128054. 
+[22] De Diego LF, Abad A, Cabello A, Gayan P, Garcia-Labiano F, et al. Reduction and 
+oxidation kinetics of a CaMn0.9Mg0.1O3-δ oxygen carrier for chemical-looping 
+combustion. Ind Eng Chem Res 2014;53(1):87–103. 
+[23] Liu L, Li ZS, Wang Y, Li ZA, Larring Y, Cai N. Industry-scale production of a 
+perovskite oxide as oxygen carrier material in chemical looping. Chem Eng J 2022; 
+431:134006. 
+[24] Su Z, Wang Y, Du H, Ma J, Zheng Y, Zhao H. Using copper ore and hematite fine 
+particles as raw materials of an oxygen carrier for chemical looping combustion of 
+coal: spray drying granulation and performance evaluation. Energy Fuels 2020;34: 
+8587–99. 
+[25] Tian X, Wang K, Zhao H, Su M. Chemical looping with oxygen uncoupling of high- 
+sulfur coal using copper ore as oxygen carrier. Proc Combust Inst 2017;36:3381–8. 
+[26] Wang Y, Tian X, Zhao H, Liu K. The use of a low-cost oxygen carrier prepared from 
+red mud and copper ore for in situ gasification chemical looping combustion of 
+coal. Fuel Process Technol 2020;205:106460. 
+[27] Liang W, Kun W, Yuan S, Guo Q, Wang C. Investigation on the chemical-looping 
+reaction characteristics of ningdong coal with manganese ore. ACS Omega 2020;5 
+(42):27261–8. 
+[28] Khairul M, Zanganeh J, Moghtaderi B. The composition, recycling and utilisation of 
+Bayer red mud. Resour Conserv Recycl 2019;141:483–98. 
+[29] Chen L, Zhang Y, Liu F, Liu K. Development of a cost-effective oxygen carrier from 
+red mud for coal-fueled chemical-looping combustion. Energy Fuels 2015;29: 
+305–13. 
+[30] Ma S, Cheng F, Meng J, Ge H, Lu P, Song T. Ni-enhanced red mud oxygen carrier 
+for chemical looping steam methane reforming. Fuel Process Technol 2022;230: 
+107204. 
+[31] Lin S, Gu Z, Zhu X, Wei Y, Long Y, Yang K, et al. Synergy of red mud oxygen carrier 
+with MgO and NiO for enhanced chemical-looping combustion. Energy 2020;197: 
+117202. 
+[32] Abad A, Cabello A, Gayan P, Garcia-Labiano F, De Diego LF, Mendiara T, et al. 
+Kinetics of CaMn0.775Ti0.125Mg0.1O2.9-δ perovskite prepared at industrial scale and 
+its implication on the performance of chemical looping combustion of methane. 
+Chem Eng J 2020;394(124863). 
+[33] Thor´eton V, Pishahang M, Mokkelbost T, Wiik K, Larring Y. Microstructural 
+stability of tailored CaMn0.875-xFexTi0.125O3-δ perovskite oxygen carrier 
+materials. Chem Loop Combust Energy Technol 2017;5:1579–87. 
+[34] Cabello A, Abad A, Gayan A, Garcia-Labiano F, De Diego LF, Adanez J. Increasing 
+energy efficiency in chemical looping combustion of methane by in-situ activation 
+of perovskite-based oxygen carriers. Appl Energy 2021;287:116557. 
+[35] Szekely J, Evans J. A structural model for gas-solid reactions with a moving 
+boundary. Chem Eng Sci 1970;25:1091–107. 
+[36] Abad A, Garcia-Labiano F, Gayan P, De Diego LF, Adanez J. Redox kinetics of 
+CaMg0.1Ti0.125Mn0.775O2.9-δ for chemical looping combustion (CLC) and chemical 
+looping with oxygen uncoupling (CLOU). Chem Eng J 2015;269:67–81. 
+W. Liang et al.                                                                                                                                                                                                                                   

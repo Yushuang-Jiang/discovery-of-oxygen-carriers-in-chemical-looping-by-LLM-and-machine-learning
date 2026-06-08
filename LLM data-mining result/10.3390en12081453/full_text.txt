@@ -1,0 +1,763 @@
+
+
+===== Page 1 =====
+
+energies
+Article
+Coal Chemical-Looping with Oxygen Uncoupling
+(CLOU) Using a Cu-Based Oxygen Carrier Derived
+from Natural Minerals
+Ping Wang 1,*
+, Bret Howard 1, Nicholas Means 1,2, Dushyant Shekhawat 3 and David Berry 3
+1
+Department of Energy (DOE), National Energy Technology Laboratory (NETL), 626 Cochrans Mill Road,
+Pittsburgh, PA 15236, USA; bret.howard@netl.doe.gov (B.H.); nicholas.means@netl.doe.gov (N.M.)
+2
+Leidos Research Support Team, 626 Cochrans Mill Road, P.O. Box 10940, Pittsburgh, PA 15236-0940, USA
+3
+DOE, NETL, 3610 Collins Ferry Road, Morgantown, WV 26507, USA;
+Dushyant.Shekhawat@netl.doe.gov (D.S.); David.Berry@netl.doe.gov (D.B.)
+*
+Correspondence: ping.wang@netl.doe.gov; Tel.: +1-412-386-7539
+Received: 18 December 2018; Accepted: 9 April 2019; Published: 17 April 2019
+
+
+Abstract: Chemical-looping with oxygen uncoupling (CLOU) is considered a promising technology
+to burn solid fuels with improved CO2 capture and has the potential to improve fuel conversion
+and reaction rates. Cu-based oxygen carriers (Cu-OC) are often used in solid fuel CLOU. This study
+focused on investigating Cu-OC derived from a natural mineral for solid fuel CLOU because of
+their potentially lower cost compared to synthetic OCs. Reactivity and recyclability of a natural
+ore-derived Cu-OC on coal char (Powder River Basin sub-bituminous coal) were studied at 900 ◦C
+in Ar and air using TGA-QMS and ﬁxed-bed reactor-QMS for ﬁve cycles. Cu-OC was prepared by
+simply heating chalcopyrite in air. Chalcopyrite is one of the principle copper sulﬁde ores and one of
+the primary ores for copper. The prepared Cu-OC had primarily CuO and CuFe2O4 (CuOFe2O3) as
+active compounds based on XRD analysis and an oxygen capacity 3.3% from oxygen uncoupling.
+The carbon conversion eﬃciency Xc was 0.94 for reduction at a ratio of Cu-OC to char φ = 75 and
+the product gas was primarily CO2 with trace O2. The reactivities and the rates were similar for ﬁve
+redox cycles. These results indicate that the natural ore-derived material with low cost has potential
+as a competitive oxygen carrier in solid fuel CLOU based on its reactivity in this study.
+Keywords: chemical-looping with oxygen uncoupling (CLOU); coal; Cu-based oxygen carrier;
+reactivity; recyclability; natural minerals; chemical-looping combustion
+1. Introduction
+Chemical-looping with oxygen uncoupling (CLOU) is a promising solid fuel chemical-looping
+combustion (CLC) process for CO2 emission control [1,2]. CLOU uses a solid oxygen carrier (OC) that
+releases gaseous O2 to combust the solid fuels [3]. It results in a higher fuel conversion and reaction
+rate than in-situ gasiﬁcation CLC (iG-CLC), which uses an OC (typically Fe-based OC) to convert
+syngas generated from fuel gasiﬁcation [1,4]. Some metal oxides with oxygen uncoupling properties
+are CuO/Cu2O, Mn2O3/Mn3O4, and Co3O4/CoO [3]. Cu-based OCs are often used in solid fuel CLOU
+and have demonstrated complete fuel conversion with near 100% CO2 capture [5,6]. Cu-based OCs are
+also the focus of this study. Synthetic Cu-based oxygen carriers (60 wt.% CuO on a MgAl2O4 support)
+have successfully been tested in a 1.5 KWth continuously-operating CLOU reactor using bituminous
+coal [7] and pine wood [8]. Recently, eﬀorts towards development of OCs for CLOU have focused
+on combined metal oxides consisting of Cu-based and Mn-based materials mixed with Ca, Mg, Cu,
+Fe, or Si [9–11]. For reactivity and kinetic studies of the Cu-based OCs in CLOU, Thermogravimetric
+analysis (TGA) is typically used along with ﬁxed bed and ﬂuidized bed reactors [12–15]. The majority
+Energies 2019, 12, 1453; doi:10.3390/en12081453
+www.mdpi.com/journal/energies
+
+
+===== Page 2 =====
+
+Energies 2019, 12, 1453
+2 of 13
+of studies focus on the oxygen uncoupling and oxidation of the Cu-based OCs or reduction of the
+Cu-based OC with gas fuels.
+To fully convert solid fuels in CLOU, OCs with high O2 uncoupling capacity and/or low cost
+are required to generate excess oxygen [2,5]. Moreover, low cost OCs for reaction with solid fuels
+are preferred due to losses of OC in the challenging ash separation process, especially for coals with
+high ash content. Natural minerals are attractive for solid fuel CLC because of their potentially lower
+cost compared to synthetic OCs [4,16]. Natural copper ores have been investigated for CLOU and
+have demonstrated gaseous oxygen-releasing properties [17–21]. Three natural copper ores with
+low (5.82 wt.%) and high (63.52 and 87.28 wt.%) CuO content (primary mineral phase of CuO) were
+studied in cycle tests of oxygen uptake in air and release in CO2 in a ﬂuidized-bed reactor. The low
+Cu content ore did not have agglomeration for 20 cycles at a high temperature (980 ◦C) but both of
+the high Cu content ores showed agglomeration [21]. A medium Cu content OC (CuO 21 wt.% and
+CuFe2O4 70 wt.%), prepared from natural copper ore, was evaluated for oxygen release/uptake rates
+and cyclic redox reactivity of anthracite coal CLOU at 900 ◦C and 950 ◦C in a batch ﬂuidized-bed
+reactor [19]. The CLOU tests reached high combustion eﬃciency, above 96% and CO2 yields above
+0.95. Slight agglomeration and sintering were observed during the 10 h of testing. The same copper
+ore OC was modiﬁed by mechanical mixing with cement (calcium aluminate cement 10–30 wt.%) [20].
+The modiﬁed OC with 20 wt.% cement was tested with both synthesis gas and lignite coal at 950 ◦C
+and showed better reactivity and improved agglomeration resistance than the unmodiﬁed copper ore
+OC. The same medium Cu content OC was also evaluated for CLOU with diﬀerent coals (anthracite,
+bituminous, and lignite) over a range of temperatures 850–950 ◦C [18]. Carbon conversion rates
+decreased with the coal rank. No serious agglomeration was observed except for the high volatile
+lignite at 950 ◦C due to radical temperature increase. Until recently, there has been little research on
+copper ore for coal CLOU and limited types of ores have been studied. Further investigation of copper
+ore for coal CLOU is needed [16].
+Copper ores are abundant and consist of two primary types: copper sulﬁdes and copper oxides [22].
+Chalcopyrite (CuFeS2) is one of the principle copper sulﬁde ores and the most important ore for copper
+production [23]. Therefore, chalcopyrite was selected for this study. Since the chalcopyrite ore is a
+naturally occurring mineral and is mined at a large scale, it often contains a large portion of gangue
+mineral including quartz, clay, and other non-copper-bearing minerals. During copper production, a
+copper concentrate is ﬁrst generated from the chalcopyrite ore and typically consists of 24–28% copper,
+23–25% iron, and 25–30% sulphur [24]. These copper concentrates could be a resource for OCs because
+they naturally contain both copper and iron and are readily available in large quantities in the ore
+markets. However, it has proven diﬃcult to obtain small samples from copper mining companies for
+use in lab studies because of safety and security concerns when shipping these materials. Therefore,
+the ore used in this study was a chalcopyrite mineral sample but not the copper concentrate from
+mining companies. Coal is an abundant and inexpensive energy resource. Coal power plants generate
+large-scale, stable electricity output as part of the regional and global energy mix. The objective of this
+study is to investigate the reactivity and recyclability of natural copper ore for coal CLOU. Information
+resulting from this research could help to further develop low cost oxygen carriers for solid fuel
+CLOU technology.
+2. Experimental
+2.1. Coal Char Preparation and Characterization
+Coal char was prepared by pyrolyzing a Powder River Basin (PRB) sub-bituminous coal obtained
+from the U.S. Department of Energy’s National Carbon Capture Center (NCCC). Ground coal, with a
+particle size of 106–180 µm, was pyrolyzed at 1000 ◦C for one hour in a ﬁxed bed reactor under ﬂowing
+nitrogen. Table 1 lists the proximate and ultimate analysis results for the coal and the coal char on
+a dry basis. The moisture content of the coal and char were 1.20 wt.% and 12.29 wt.%, respectively.
+
+
+===== Page 3 =====
+
+Energies 2019, 12, 1453
+3 of 13
+The pyrolysis temperature was selected to be higher than the CLOU test temperature (900 ◦C) for the
+purpose of removing all volatile content from the char sample.
+Table 1. Proximate and ultimate analysis of the Powder River basin (PRB) sub-bituminous coal and char.
+Sample
+Proximate Analysis (% Dry Basis)
+Ultimate Analysis (% Dry Basis)
+Fixed Carbon
+Volatile Matter
+Ash
+C
+H
+N
+S
+O (Diﬀ.)
+PRB Coal
+47.66
+45.08
+7.26
+65.44
+4.39
+0.72
+0.48
+21.71
+PRB Char
+85.60
+1.98
+12.42
+85.60
+0.23
+1.12
+0.53
+0.10
+2.2. Cu-Based OC (Cu-OC) Preparation and Characterization
+The Cu-OC was prepared from a chalcopyrite sample mined in Mexico. The chalcopyrite was
+analyzed to determine its mineral composition using X-ray diﬀraction (XRD) (PANalytical X’Pert PRO).
+The fresh chalcopyrite sample consisted of chalcopyrite (CuFeS2, 75 wt.%) with minor quartz (SiO2,
+20 wt.%), trace kaolinite (a clay mineral, Al2Si2O3(OH)4, 3 wt.%), and trace siderite (FeCO3, 2 wt.%).
+The chalcopyrite ore composition by weight percentage was estimated by the reference intensity ratio
+(RIR) method from the XRD data. Table 2 summarizes the XRD analysis results for the various OC
+samples generated in this study.
+Table 2. XRD analysis of main phase compounds in chalcopyrite, fresh Cu-based oxygen carriers
+(Cu-OC), uncoupled Cu-OC, reduced, and reoxidized Cu-OC with char in Ar at 900 ◦C.
+Chalcopyrite
+Fresh Cu-OC
+Uncoupled Cu-OC
+Reduced Cu-OC
+Reoxidized
+Chemical
+wt%
+with Char
+Cu-OC with Char
+CuFeS2
+75
+CuO
+Cu2O
+Cu2O
+CuO
+CuFe2O4 (CuOFe2O3)
+(tetragonal)
+CuFe2O4 (tetragonal)
+CuFe2O4 (cubic)
+CuFe2O4 (cubic)
+CuFe2O4 (cubic)
+CuFeO2 (Cu2OFe2O3)
+CuFeO2
+Fe2O3
+Fe2O3
+Fe2O3
+Fe2O3
+SiO2
+20
+SiO2
+SiO2
+SiO2
+SiO2
+FeCO3
+2
+kaolinite
+3
+To prepare the Cu-OC, the chalcopyrite was crushed, ground, and sieved to a particle size range
+of 106–180 µm. The particles were then heated at 900 ◦C for two hours in a ﬁxed bed reactor under
+ﬂowing air to convert the sulﬁde ore to the oxide form releasing S as sulfur dioxide (SO2). The selected
+heating temperature of 900 ◦C to prepare the Cu-OC was based on an ore oxidation behavior test using
+a TGA (Linsens HS-TGA) and a quadrupole mass spectrometer (QMS) (Pfeiﬀer Ominstar GSD 301)
+(Figure 1).
+Figure 1.
+Schematic diagram of a thermogravimetric analyzer-quadrupole mass spectrometer
+(TGA-QMS) system used in this study.
+
+
+===== Page 4 =====
+
+Energies 2019, 12, 1453
+4 of 13
+In the ore oxidation test, the ground chalcopyrite (approximately 175 mg) was tested under
+“simulated air” (22.4 vol.% O2/Ar) at 1000 ◦C using a non-isothermal method. The sample was heated
+from room temperature to 100 ◦C at 5 ◦C/min and held at 100 ◦C for 1 min to remove moisture. Then,
+the temperature was increased to 1000 ◦C at 60 ◦C/min and held for about 30 min. The product
+gases were analyzed on-line by the QMS every second during the reaction. The resulting Cu-OC was
+analyzed to determine the crystalline phase composition by XRD.
+During the TGA-QMS test of Cu-ore oxidation, the TGA detected the sample weight loss with
+a maximum rate at approximately 500 ◦C. The ﬁnal weight loss was approximately 16% and was
+primarily due to decomposition of CuFeS2 releasing SO2 with contributions from FeCO3 releasing CO2
+and Al2Si2O3(OH)4 releasing H2O. All of the expected gases (SO2, CO2 and H2O) were detected by
+QMS during the chalcopyrite oxidation test. Figure 2 shows the SO2 ion current from the QMS and the
+sample temperature versus time for the ground chalcopyrite oxidation. Most of SO2 was released in
+the temperature range of 436–845 ◦C with the maximum at about 600 ◦C. Thus, the temperature of
+900 ◦C was selected to prepare Cu-OC from the chalcopyrite based on this result.
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+4.5
+0
+200
+400
+600
+800
+1000
+1200
+0
+200
+400
+600
+800
+1000
+1200
+1400
+1600
+1800
+SO2 Ion current A (x10-11)
+Temperature (oC)
+Time (s)
+Temperature
+SO2
+Figure 2. SO2 ion current from QMS and temperature versus time for the ground chalcopyrite oxidation
+in simulate air (22.4 vol.% O2/Ar) at 1000 ◦C in a TGA-QMS.
+The fresh Cu-OC consisted primarily of CuO (major component) and CuFe2O4 (CuOFe2O3,
+intermediate component) with minor amounts of hematite (Fe2O3) and SiO2 from the XRD analysis
+(Table 2). The oxidation is a complex process and may involve several stages of reaction [23]. The overall
+oxidation of chalcopyrite may be viewed as follows:
+2 CuFeS2 (s) + (13/2) O2 (g)→2 CuO (s) + Fe2O3 (s) + 4 SO2 (g)
+(R1)
+In the oxidation process, CuFe2O4 may be formed from CuO and Fe2O3. Conversion of the
+chalcopyrite to an oxygen carrier is a relatively simple process compared to synthetic Cu-Fe OC
+preparation which could require multiple steps and many chemicals, another beneﬁt of using
+chalcopyrite as a resource for a Cu-based OC with low cost.
+2.3. Analysis of the Cu-OC
+2.3.1. Cu-OC Oxygen Uncoupling
+Cu-OC oxygen uncoupling was tested using a TGA-QMS under Ar at 60 mL/min. A sample of
+the Cu-OC (approximately 30 mg) was heated from room temperature to 100 ◦C at 30 ◦C/min and held
+at 100 ◦C for 5 min to remove moisture from the OC. Then the temperature was increased to 900 ◦C at
+60 ◦C/min and held for about 60 min. The QMS quantiﬁed the oxygen gas (O2) on-line every second
+
+
+===== Page 5 =====
+
+Energies 2019, 12, 1453
+5 of 13
+during the reaction. The resulting reduced Cu-OC was analyzed to determine the crystalline phase
+composition by XRD.
+The non-isothermal method used in this study was done to quantify the gaseous oxygen released
+from the OC. For the isothermal method used for CLOU, a sample was heated to the test temperature
+in an air atmosphere then tested by switching to inert gas [25]. In the isothermal method, it is diﬃcult
+to determine the released oxygen from the OC because the gas from the TGA is a mixture of residual
+oxygen from the air and the released O2 from the OC with a relatively low concentration (<1% O2 in
+this study).
+2.3.2. Recyclability of the Cu-OC with Coal Char in a TGA-QMS
+The recyclability of the Cu-OC with coal char CLOU was evaluated at 900 ◦C for ﬁve cycles in the
+TGA-QMS. For one CLOU cycle, Cu-OC reduction with the coal char was ﬁrst tested under Ar using
+the same experimental procedure described in Section 2.3.1. A test sample of the Cu-OC and the char
+was physically mixed with a ratio of Cu-OC to char (φ) by weight of 75. This ratio was calculated based
+on oxygen. The available gaseous oxygen in the Cu-OC from oxygen uncoupling is the stoichiometric
+amount of oxygen required to fully combust the char to CO2 (Reaction R2). After the reduction of
+the sample, the reduced Cu-OC was immediately reoxidized at 900 ◦C for about 15 min under an
+oxygen gas environment. The oxygen gas was 22.4 vol.% O2/Ar at 60 mL/min. The QMS quantiﬁed
+the primary reaction gases (O2, CO, CO2, CH4, and H2). The reduced and reoxidized Cu-OC were
+analyzed to determine the crystalline phase composition by XRD.
+C (s) + O2 (g)→CO2 (g)
+(R2)
+After one CLOU cycle, the system was cooled to room temperature. The gas was switched to
+Ar for 2nd cycle testing. The same amount of coal char was again added to the sample crucible with
+the oxidized Cu-OC and coal ash from the previous cycle. The 2nd cycle and subsequent cycles were
+conducted following the same procedure.
+2.3.3. Recyclability of the Cu-OC with Coal Char in a Fixed Bed Reactor-QMS System
+The same multicycle tests were repeated using a ﬁxed bed reactor-QMS system to generate
+samples for BET surface area analysis. The purpose of this test was to obtain more sample for the
+BET measurements because Cu-OCs, like other OCs, have low surface areas. The BET surface areas
+of the fresh and used Cu-OC were evaluated by N2 adsorption isotherms performed at 77 K in a
+Quantachrome Autosorb 1-C.
+2.4. Data Analysis
+For TGA data, the reactivities of the Cu-OC are evaluated based on mass changes in solids.
+The Cu-OC oxygen uncoupling, reduction, and re-oxidation reactivity with coal char, and recyclability
+were evaluated by calculating sample weight change and rates of change. mo for oxygen uncoupling,
+mred for reduction, and mox for oxidation are deﬁned as follows:
+mo = moc −m
+moc
+× 100
+(1)
+mred or mox = m −(moc + mc)
+moc + mc
+× 100
+(2)
+where m, moc and mc are the mass of the test sample at the reaction time, the initial mass of the Cu-OC
+and the initial mass of the coal char, respectively. The maximum oxygen uncoupling mo is the oxygen
+transport capacity Roc (Roc = (mox −mred)/mox*100, mox: mass of the fully oxidized oxygen carrier; mred:
+mass of the reduced oxygen carrier [4]).
+
+
+===== Page 6 =====
+
+Energies 2019, 12, 1453
+6 of 13
+For QMS data, the reactivities of the Cu-OC are evaluated based on changes in the number of
+moles of the gases produced. The oxygen uncoupling (XO) was determined by calculating the moles of
+oxygen generated by uncoupling and rate of the change is (dXo/dt). Xo is deﬁned as follow:
+Xo =
+n
+nmax
+(3)
+where n is the moles of oxygen generated over the reaction time (t) and nmax is the maximum moles of
+the oxygen generated.
+In the coal char CLOU, the char reacted with gaseous oxygen released by heating Cu-OC and
+generated primarily CO2 and CO. The reactivity of the coal char was evaluated by calculating the
+carbon conversion eﬃciency (Xc) and its rate (dXc/dt) based on the QMS data [5]. Xc is deﬁned
+as follows:
+Xc = nc
+n0
+=
+Pt
+t=0 F(yCO2 + yCO)
+n0
+(4)
+where nc is the moles of carbon in product gases such as CO2 and CO over the reaction time no is
+the moles of the carbon in the initial coal char sample; F is the gas ﬂow rate; and yi is volumetric
+concentrations of the carbon containing gas (i).
+A major purpose for developing coal CLOU is for CO2 emission control, so a primary goal of coal
+CLOU is to convert carbon to CO2. In this study, the coal CLOU process performance was evaluated by
+calculating the CO2 conversion eﬃciency (Sco2) based on the QMS data [5]. Sco2 is deﬁned as follows:
+Sco2 = nCO2
+nt
+(5)
+where nco2 and nt are the total moles of accumulated carbon in CO2 and in the total carbon containing
+product gases over the reaction time (t), respectively.
+3. Results and Discussion
+3.1. Cu-OC Oxygen Uncoupling
+When the Cu-OC was heated over 600 ◦C, gaseous O2 was initially generated and detected by the
+QMS in the product gas and simultaneously a sample weight loss was detected by the TGA (Figures 3
+and 4). When the temperature was increased over 820 ◦C, the gaseous O2 concentration and the
+oxygen uncoupling rate quickly increased with a maximum at 900 ◦C (Figures 3 and 4). These oxygen
+uncoupling behaviors of the Cu-OC were similar to those of pure CuO [5]. Based on the TGA data, the
+maximum oxygen uncoupling (Roc) and oxygen uncoupling rate were 3.3% and 0.0032%/s, respectively
+(Table 3). Table 3 summarizes the reactivities results of OC uncoupling and carbon conversion in
+reduction for the Cu-OC in this study and pure CuO from reference [5]. The oxygen uncoupling (Roc)
+was similar to the 4% oxygen uncoupling of 40 wt.% CuO with ZrO2 support OC synthesized by
+mechanical mixing followed by pelletizing by pressure [25].
+Table 3. Oxygen capacity, carbon conversion eﬃciency, maximum conversion, and conversion rates
+and temperatures for Cu ore OC in Ar at 900 ◦C and pure CuO from reference [5].
+Sample
+T (◦C)
+Oxygen Uncoupling
+Carbon Conversion in Reduction
+Test System
+momax
+Tmax
+dXo/dtmax
+Xc
+Sco2
+Tmax
+dXc/dtmax
+Roc (%)
+(◦C)
+(1/s)
+(◦C)
+(1/s)
+Cu ore OC
+900
+3.3
+900
+0.0012
+TGA-QMS
+Pure CuO
+850
+10
+850
+0.0015
+ﬁxed bed-QMS
+950
+10
+922
+0.0077
+ﬁxed bed-QMS
+Cu ore OC/char
+900
+0.94
+1
+838
+0.005
+TGA-QMS
+φ = 75
+900
+0.95
+1
+835
+0.006
+ﬁxed bed-QMS
+Pure CuO/char
+850
+0.98
+1
+801
+0.006
+ﬁxed bed-QMS
+φ = 26
+950
+0.99
+1
+833
+0.011
+ﬁxed bed-QMS
+
+
+===== Page 7 =====
+
+Energies 2019, 12, 1453
+7 of 13
+The fresh Cu-OC consisted primarily of major amounts of CuO and intermediate amounts of
+CuFe2O4 (CuOFe2O3). CuO released gaseous O2 and was reduced to Cu2O at temperatures above 600
+◦C (Reaction R3 [3]). XRD indicated that Cu2O was generated and no CuO was detected in the residue
+of the Cu-OC oxygen uncoupling test. CuFe2O4 decomposes to generate gaseous O2, delafossite
+(CuFeO2), and Fe2O3 (Reaction R4) [26]. The XRD analysis of this residue also showed that a Cu-Fe-O
+compound of CuFeO2 (Cu2OFe2O3) formed. The Fe2O3 decreased and the CuFe2O4 (CuOFe2O3) phase
+changed (tetragonal to cubic) compared to the fresh Cu-OC (Table 2). So, some CuFe2O4 in the Cu-OC
+decomposed and released O2 because CuFe2O4 was detected by the XRD. Both CuO and CuFe2O4
+are active compounds in the Cu-OC. Zhao et al. studied a Cu-ore oxygen carrier with 21% CuO and
+reported both the CuO and CuFe2O4 released gaseous O2 but the CuO released oxygen faster than the
+CuFe2O4 [19].
+4CuO (s) ↔2Cu2O (s) + O2 (g)
+(R3)
+4 CuFe2O4 (s) ↔O2 (g) + 4 CuFeO2 (s)+ 2 Fe2O3 (s)
+(R4)
+Figure 3. The Cu-OC oxygen uncoupling rate (dmo/dt) and reaction temperature versus time at 900 ◦C
+in Ar in a TGA-QMS.
+Figure 4. The Cu-OC oxygen uncoupling (TGA) and gaseous O2 concentrations (QMS) versus time at
+900 ◦C in Ar in a TGA-QMS.
+Based on simple stoichiometric calculations, the maximum oxygen uncoupling or oxygen transport
+capacity of pure CuO from oxygen uncoupling is 10 wt.% [2]. The equilibrium oxygen concentration at
+900 ◦C is about 1.7 vol.% [3]. Comparing of the oxygen transport capacities of the Cu-OC with pure
+CuO, the Cu-OC was estimated to contain approximately 33% active CuO (releasing of gaseous O2) by
+
+
+===== Page 8 =====
+
+Energies 2019, 12, 1453
+8 of 13
+weight. The active CuO content in the Cu-OC was lower than the ideal CuO content from the material
+prepared from chalcopyrite. Based on reaction R1, the ideal CuO content should be ~40 wt.% CuO
+since 20% of the chalcopyrite consists of SiO2. The reason for the lower active CuO is due to CuFe2O4
+formation from the CuO and Fe2O3 reaction. CuFe2O4 in the tetragonal phase was detected by XRD in
+the fresh Cu-OC. CuFe2O4 in the cubic phase was detected in the Cu-OC after the uncoupling based
+on XRD. Some CuFe2O4 decomposed and released O2, which also was from the CuO in CuFe2O4
+(Reaction R4) [26].
+Based on the QMS data, the maximum oxygen concentration and the oxygen uncoupling rate
+(dXo/dt) were 0.68 vol.% (Figure 4) and 0.0012 s−1 at Tmax of 900 ◦C, respectively (Table 3). The pure
+CuO oxygen uncoupling rates tested in a ﬁxed bed reactor were 0.0015 s−1 at Tmax of 850 ◦C and 0.0077
+s−1 at Tmax of 922 ◦C for the tests at test temperatures of 850 ◦C and 950 ◦C, respectively (Table 3) [5].
+The Cu-OC oxygen uncoupling rate at 950 ◦C was close to the value for pure CuO at 850 ◦C and lower
+than pure CuO at 950 ◦C. Both CuO concentration and temperature aﬀected the oxygen uncoupling rate.
+3.2. Reduction and Reoxidization of Cu-OC with Coal Char
+The mixture of Cu-OC and char with φ = 75 was evaluated through a redox cycle test of reduction
+in Ar then reoxidation in air at 900 ◦C. When the Cu-OC and char were heated above 600 ◦C, CO2
+was generated and detected by the QMS in the product gas and, simultaneously, a sample weight loss
+was detected by the TGA (Figure 5). Char combustion took place because the Cu-OC began releasing
+O2 at ~600 ◦C from the Cu-OC oxygen uncoupling (Figures 3 and 4) (Reaction R3 and R4), which
+combusted the char (Reaction R2). The combustion had a peak at ~838 ◦C, which was close to the peak
+temperature (~833 ◦C) for the reaction of pure CuO and coal in a TGA under N2 [27]. The maximum
+combustion rate was 0.028%/s (Figure 6) and was eight times faster than the Cu-OC oxygen uncoupling
+rate (without char) because the combustion reaction (Reaction R2) consumed the oxygen from the
+Cu-OC uncoupling (Reaction R3 and R4) and increased the Cu-OC oxygen uncoupling rate. The ﬁnal
+reduction mred was 4.3% which was the same as the theoretical mred 4.3% based on the char being fully
+combusted to CO2 (Reaction R2) and gaseous oxygen being released from the Cu-OC. This means that
+the char was converted to CO2 in the reduction of Cu-OC with the char. The product gas was mainly
+CO2 with a trace amount of O2 detected by the QMS (Figure 5). The CO2 conversion eﬃciency Sco2
+was 1. The ﬁnal carbon conversion eﬃciency Xc was 0.94 (theoretical Xc = 1) and the maximum rate
+dXc/dt was 0.005 s−1 based on the QMS data (Table 3).
+Figure 5. The reduction mred of Cu-OC with coal char, CO2 and O2 concentrations (QMS) versus time
+in Ar at 900 ◦C in a TGA-QMS.
+The reduced Cu-OC was fully oxidized at 900 ◦C in air. The ﬁnal oxidation mox was 3.2% lower than
+the ﬁnal mred because of the mox and mred calculations (Equations (1) and (2)). In the mred calculation,
+m included both char and the Cu-OC. But for mox, only Cu-OC was counted in the reoxidation
+
+
+===== Page 9 =====
+
+Energies 2019, 12, 1453
+9 of 13
+calculation. The ﬁnal mox was close to the theoretical mox 3.0% based on the oxygen used to combust
+the char (Reaction R3) and the mox calculation (Equation (2)) including char in the sample weight. The
+slightly higher mox was due to extra O2 released during the reduction and this was also reoxidized.
+This additional oxidation was not included in the theoretical mox. The maximum oxidation rate was
+0.012%/s, less than half the reduction rate of the OC with char (0.028%/s) (Figure 6). The temperatures
+during the reoxidation were slightly higher than during the reduction due to exothermal reoxidation
+(Reaction R3) (Figure 6).
+Figure 6. The reduction rate of Cu-OC with coal char in Ar (dmred/dt), reoxidation rate of reduced
+Cu-OC in air (dmoc/dt), and the reaction temperatures versus time at 900 ◦C in a TGA-QMS.
+The Cu-OC reduced with the char primarily consisted of Cu2O and CuFeO2 which were reoxidized
+to CuO and CuFe2O4 (tetragonal and cubic phases) based on XRD analysis (Table 2). The experimental
+results were very close to the theoretical calculations based on active CuO uncoupling. For the Cu-OC,
+φ = 75 was used to fully combust the char to CO2. For pure CuO φ = 26 was selected [5]. Based on a
+comparison of the φ of the Cu-OC with that of pure CuO, the Cu-OC was estimated to contain ~35% of
+active CuO by weight.
+3.3. Recyclability of Cu-OC in Coal Char CLOU Tested in a TGA-QMS and Fixed-Bed Reactor-QMS
+Figure 7 shows the reactivities of ﬁve cycles of a mixture of Cu-OC and coal char in Ar at 900 ◦C
+then oxidized in air at 900 ◦C. Fresh coal char was added to the oxidized OC, which also contained
+any residual coal ash, after each cycle. The reactivities and the rates for the reduction of Cu-OC with
+char were similar for all ﬁve cycles. For the reoxidation of the Cu-OC with char, the oxidation mox and
+the rates for cycles 2, 4, and 5 were similar but were slight lower for cycle 1 and 3 (Figure 7). This is
+due to slightly lower oxygen concentrations in the oxidation gas (O2/Ar) at beginning of the oxidation.
+Overall, the result indicates that the Cu-OC was stable during the ﬁve cycle tests.
+
+
+===== Page 10 =====
+
+Energies 2019, 12, 1453
+10 of 13
+Figure 7. The reactivities of the Cu-OC with coal char mred in Ar and moc in air of ﬁve cycles versus
+time at 900 ◦C in a TGA-QMS.
+The recyclability of the Cu-OC in coal char CLOU also was tested for ﬁve cycles in the ﬁxed
+bed reactor using the same procedure that was used for the TGA tests. Figure 8 shows the carbon
+conversion eﬃciency Xc and generated CO2 concentration for the reduction of Cu-OC with coal char
+in one cycle of the ﬁve-cycle test. The CO2 conversion eﬃciency Sco2 was 1 because the generated gas
+was mainly CO2 with little O2 and H2O. There were two CO2 peaks, a very small peak around 600 ◦C
+and a large sharp peak around 835 ◦C. This was similar to the reduction test using pure CuO with PRB
+coal char at 950 ◦C, which had a small peak at ~670 ◦C and a large peak at 833 ◦C [5]. The small peak
+may be due to the small particle size fraction of the CuO that released oxygen at a lower temperature
+because a small peak at a lower temperature of 675 ◦C along with a large sharp were also observed in
+pure CuO oxygen uncoupling test in Ar. The carbon conversion eﬃciency Xc was 0.95, close to the
+theoretical Xc = 1, which means that the carbon in the coal char was close to complete conversion
+(Table 3). The carbon conversion rate dXc/dt was 0.006 s−1 (Table 3). The reaction rates of pure CuO
+with PRB coal char were 0.006 s−1 and 0.011 s−1 at test temperatures of 850 ◦C and 950 ◦C using the
+same ﬁxed bed reactor-QMS (Table 3) [5]. For 40 wt.% CuO with Fe2O3 and SiO2 OC synthesized by
+mechanical mixing followed by pelletizing by pressure at φ = 67, the carbon conversion eﬃciency rate
+at 1000 ◦C was 0.0077 s−1 [28] and close to the rate of the Cu-OC from the Cu-ore in this study
+Figure 8. The carbon conversion eﬃciency Xc and generated CO2 concentration (v%) in the reduction
+of Cu-OC with coal char versus time in one cycle of the ﬁve-cycle test in a ﬁxed bed reactor-QMS.
+For the ﬁve-cycle test, the carbon conversion eﬃciency and carbon conversion rates were similar
+for all ﬁve cycles. The results from the ﬁxed bed reactor were similar to the TGA results since both
+are the same type of reactor the carbon conversion Xc and rate dXc/dt measured in TGA-QMS were
+
+
+===== Page 11 =====
+
+Energies 2019, 12, 1453
+11 of 13
+slight lower than in the ﬁxed-bed reactor (Table 3) because sample in the ﬁxed-bed reactor was heated
+faster than in the TGA. In the ﬁxed-bed reactor, The ﬁxed-bed reactor was preheated to 400 ◦C and had
+heating rate ~65 ◦C/min [5].
+The BET surface areas of the fresh Cu-OC and the used Cu-OC after ﬁve cycles in the ﬁxed bed
+reactor were 0.36 and 0.2 m2/g, respectively. Both the fresh and used Cu-OC had low surface areas.
+The fresh Cu-OC surface area in this study was close to the reported by Zhao et al. for a fresh OC
+prepared from natural copper ore (21 wt.% CuO) for CLOU, 0.217 m2/g [19]. Their used OC, after
+10 h reduction/oxidation CLOU cycles with anthracite coal in a batch ﬂuidized bed reactor, had a
+BET surface area of 0.115 m2/g. They explained the slight decrease in BET surface area of the used
+OC as being due to slight sintering of the OC particles or blockage of the pores and available surface
+area by the ash generated from coal CLOU, but the impact was very limited [19]. In this study, there
+was no signiﬁcant agglomeration observed at 900 ◦C. After a redox cycle, the OC particles were very
+weakly bound together but easily loosened to powder again by light pressure. Tian et al. studied Cu
+ore OC with lignite coal in a batch-scale ﬂuidized bed reactor at 950 ◦C for 10 cycles and observed a
+sintering problem in the later cycles [20]. In the future, higher temperatures will be tested to evaluate
+the sintering, agglomeration, or partial melting of the particles.
+Natural ore has potential as a competitive oxygen carrier in solid fuel CLOU based on its reactivity
+as observed in this study. Based on extensive research on Fe-based OC for iG-CLC, the reactivity of
+mineral OC is typically lower than synthetic OC [4]. Research on the mineral Fe-OC is continuing
+because the mineral OC is inexpensive compared to the synthetic OC. For CLOU, a low-cost OC
+is even more important than iG-CLC because CLOU requires more OC to fully covert the fuels to
+CO2 due to its low oxygen capacity. Moreover, low cost is preferred for solid fuel CLOU due to
+ash from fuel combustion that causes loss of OC reactivity and loss of OC with separation of the
+ash. Mineral Cu-based OC is much lower in cost than synthetic Cu-OC based on Cu material prices.
+Cu ore (copper concentrate with 20–30% Cu) costs approximately $0.0695/lb [29], much cheaper than
+Cu metal at about $2.8875/lb [30]. Cu powder is used to produce CuO by roasting it in air among
+other diﬀerent CuO processes. Moreover, Cu-ores are abundant. Converting Cu-ore to an OC is a
+simple process as compared to production of a synthetic Cu-Fe OC which can require multiple steps
+and use many chemicals. Future investigation to increase the CuO content of mineral Cu-based OC
+and operating at higher temperatures could increase the reactivity and make it a more attractive OC.
+For commercial applications, further study of the long-term cyclic stability of the Cu-OCs with coal
+is required. Increasing the CuO content in the Cu-OC derived from natural copper ore is needed to
+increase oxygen transfer capacity and lower the ratio of Cu-OC to fuel to lower the operational cost of
+a future plant.
+4. Conclusions
+This study investigated Cu-based OCs derived from natural minerals for solid fuel CLOU to
+potentially lower the OC cost. Chalcopyrite, which contains primarily CuFeS2, has potential as a
+Cu-OC resource. It is one of the primary ores of copper, so is readily available. The Cu-OC used in
+this study was prepared by simply heating ground chalcopyrite in air 900 ◦C to remove the sulfur.
+The prepared Cu-OC consisted primarily of CuO and CuFe2O4 (CuOFe2O3) from the XRD analysis
+and had oxygen uncoupling properties based on TGA-QMS testing. The oxygen transport capacity of
+Cu-OC was 3.3% from both CuO and CuFe2O4 oxygen uncoupling. For the reduction of the Cu-OC
+with coal during CLOU at 900 ◦C in Ar, the coal char conversion eﬃciency Xc was 0.95 and the product
+gas was primarily CO2 with trace O2. The Cu-OC showed high reactivity and cyclic stability in a
+ﬁve-cycle test. Therefore, the natural ore has potential as a competitive oxygen carrier in solid fuel
+CLOU based on its reactivity in this study. For commercial applications, further study of the long-term
+cyclic stability of the Cu-OC with coal is certainly required. Increasing the CuO content in the Cu-OC
+made from natural copper ore and increasing the reaction temperature are needed to improve the
+
+
+===== Page 12 =====
+
+Energies 2019, 12, 1453
+12 of 13
+oxygen transfer capacity and lower the ratio of Cu-OC to fuel to reduce the operational cost of a
+CLOU system.
+Author Contributions: P.W. is the primary author of this article; B.H., N.M., D.S. and D.B. participated in materials
+preparation and characterizations, test system setup, discussions, and to the writing and editing of the manuscript.
+Funding: This research was supported by the Department of Energy, National Energy Technology Laboratory.
+Acknowledgments: Special thanks to Sittichar Natesakhawat for conducting sample BET surface analysis.
+Disclaimer: This report was prepared as an account of work sponsored by the Department of Energy, National
+Energy Technology Laboratory, an agency of the United States Government. Neither the United States Government
+nor any agency thereof, nor any of their employees, makes any warranty, express or implied, or assumes any legal
+liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or
+process disclosed, or represents that its use would not infringe privately owned rights. Reference herein to any
+speciﬁc commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not
+necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government
+or any agency thereof. The views and opinions of authors expressed herein do not necessarily state or reﬂect those
+of the United States Government or any agency thereof.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1.
+Adanez, J.; Abad, A.; Mendiara, T.; Gayan, P.; de Diego, L.F.; Garcia-Labiano, F. Chemical looping combustion
+of solid fuels. Prog. Energy Combust. Sci. 2018, 65, 6–66. [CrossRef]
+2.
+Wang, P.; Means, N.; Shekhawat, D.; Berry, D.; Massoudi, M. Chemical-looping combustion and gasiﬁcation
+of coals and oxygen carrier development: A brief review. Energies 2015, 8, 10605–10635. [CrossRef]
+3.
+Mattisson, T.; Lyngfelt, A.; Leion, H. Chemical-looping with oxygen uncoupling for combustion of solid
+fuels. Int. J. Greenh. Gas Control 2009, 3, 11–19. [CrossRef]
+4.
+Adanez, J.; Abad, A.; Garcia-Labiano, F.; Gayan, P.; de Diego, L.F. Progress in chemical-looping combustion
+and reforming technologies. Prog. Energy Combust. Sci. 2012, 38, 215–282. [CrossRef]
+5.
+Wang, P.; Means, N.; Howard, B.H.; Shekhawat, D.; Berry, D. The reactivity of cuo oxygen carrier and coal
+in chemical-looping with oxygen uncoupled (clou) and in-situ gasiﬁcation chemical-looping combustion
+(ig-clc). Fuel 2018, 217, 642–649. [CrossRef]
+6.
+Adanez-Rubio, I.; Abad, A.; Gayan, P.; de Diego, L.F.; Garcia-Labiano, F.; Adanez, J. Performance of clou
+process in the combustion of diﬀerent types of coal with co2 capture. Int. J. Greenh. Gas Control 2013, 12,
+430–440. [CrossRef]
+7.
+Abad, A.; Adanez-Rubio, I.; Gayan, P.; Garcia-Labiano, F.; de Diego, L.F.; Adanez, J. Demonstration of
+chemical-looping with oxygen uncoupling (clou) process in a 1.5 kw(th) continuously operating unit using a
+cu-based oxygen-carrier. Int. J. Greenh. Gas Control 2012, 6, 189–200. [CrossRef]
+8.
+Adanez-Rubio, I.; Abad, A.; Gayan, P.; de Diego, L.F.; Garcia-Labiano, F.; Adanez, J. Biomass combustion
+with co2 capture by chemical looping with oxygen uncoupling (clou). Fuel Process. Technol. 2014, 124,
+104–114. [CrossRef]
+9.
+Adanez-Rubio, I.; Arjmand, M.; Leion, H.; Gayan, P.; Abad, A.; Mattisson, T.; Lyngfelt, A. Investigation
+of combined supports for cu-based oxygen carriers for chemical-looping with oxygen uncoupling (clou).
+Energy Fuels 2013, 27, 3918–3927. [CrossRef]
+10.
+Azimi, G.; Leion, H.; Mattisson, T.; Ryden, M.; Snijkers, F.; Lyngfelt, A. Mn-fe oxides with support of mgal2o4,
+ceo2, zro2 and y2o3-zro2 for chemical-looping combustion and chemical-looping with oxygen uncoupling.
+Ind. Eng. Chem. Res. 2014, 53, 10358–10365. [CrossRef]
+11.
+Pour, N.M.; Leion, H.; Ryden, M.; Mattisson, T. Combined cu/mn oxides as an oxygen carrier in chemical
+looping with oxygen uncoupling (clou). Energy Fuels 2013, 27, 6031–6039. [CrossRef]
+12.
+Adanez-Rubio, I.; Gayan, P.; Abad, A.; Garcia-Labiano, F.; de Diego, L.F.; Adanez, J. Kinetic analysis of a
+cu-based oxygen carrier: Relevance of temperature and oxygen partial pressure on reduction and oxidation
+reactions rates in chemical looping with oxygen uncoupling (clou). Chem. Eng. J. 2014, 256, 69–84. [CrossRef]
+13.
+Clayton, C.K.; Whitty, K.J. Measurement and modeling of decomposition kinetics for copper oxide-based
+chemical looping with oxygen uncoupling. Appl. Energy 2014, 116, 416–423. [CrossRef]
+
+
+===== Page 13 =====
+
+Energies 2019, 12, 1453
+13 of 13
+14.
+Peterson, S.B.; Konya, G.; Clayton, C.K.; Lewis, R.J.; Wilde, B.R.; Eyring, E.M.; Whitty, K.J. Characteristics
+and clou performance of a novel sio2-supported oxygen carrier prepared from cuo and beta-sic. Energy Fuels
+2013, 27, 6040–6047. [CrossRef]
+15.
+Hu, W.T.; Donat, F.; Scott, S.A.; Dennis, J.S. Kinetics of oxygen uncoupling of a copper based oxygen carrier.
+Appl. Energy 2016, 161, 92–100. [CrossRef]
+16.
+Matzen, M.; Pinkerton, J.; Wang, X.M.; Demirel, Y. Use of natural ores as oxygen carriers in chemical looping
+combustion: A review. Int. J. Greenh. Gas Control 2017, 65, 1–14. [CrossRef]
+17.
+Wang, K.; Tian, X.; Zhao, H.B. Sulfur behavior in chemical-looping combustion using a copper ore oxygen
+carrier. Appl. Energy 2016, 166, 84–95. [CrossRef]
+18.
+Wang, K.; Zhao, H.B.; Tian, X.; Fang, Y.F.; Ma, J.C.; Zheng, C.G. Chemical-looping with oxygen uncoupling
+of diﬀerent coals using copper ore as an oxygen carrier. Energy Fuels 2015, 29, 6625–6635. [CrossRef]
+19.
+Zhao, H.B.; Wang, K.; Fang, Y.F.; Ma, J.C.; Mei, D.F.; Zheng, C.G. Characterization of natural copper ore as
+oxygen carrier in chemical-looping with oxygen uncoupling of anthracite. Int. J. Greenh. Gas Control 2014, 22,
+154–164. [CrossRef]
+20.
+Tian, X.; Zhao, H.B.; Wang, K.; Ma, J.C.; Zheng, C.G. Performance of cement decorated copper ore as oxygen
+carrier in chemical-looping with oxygen uncoupling. Int. J. Greenh. Gas Control 2015, 41, 210–218. [CrossRef]
+21.
+Wen, Y.-Y.; Li, Z.-S.; Xu, L.; Cai, N.-S. Experimental study of natural cu ore particles as oxygen carriers in
+chemical looping with oxygen uncoupling (clou). Energy Fuels 2012, 26, 3919–3927. [CrossRef]
+22.
+Calcutt, V. Introduction to Copper: Mining & Extraction. Copper Development Association Inc., 2001.
+Available online: https://www.copper.org/publications/newsletters/innovations/2001/08/intro_mae.html
+(accessed on 12 October 2018).
+23.
+Baba, A.A.; Ayinla, K.I.; Adekola, F.A.; Ghosh, M.K.; Ayanda, O.S.; Bale, R.B.; Sheik, A.R.; Pradhan, S.R. A
+review on novel techniques for chalcopyrite ore processing. Int. J. Min. Eng. Miner. Process. 2012, 1, 1–16.
+[CrossRef]
+24.
+Teck-Metals-Ltd.
+Andacollo Copper Concentrate Safety Data Sheet.
+2015.
+Available online:
+https://www.teck.com/media/Andacollo-Copper-Concentrate-SDS.pdf (accessed on 10 September 2018).
+25.
+Gayan, P.; Adanez-Rubio, I.; Abad, A.; de Diego, L.F.; Garcia-Labiano, F.; Adanez, J. Development of
+cu-based oxygen carriers for chemical-looping with oxygen uncoupling (clou) process. Fuel 2012, 96, 226–238.
+[CrossRef]
+26.
+Wang, B.; Yan, R.; Zhao, H.; Zheng, Y.; Liu, Z.; Zheng, C. Investigation of chemical looping combustion of
+coal with cufe2o4 oxygen carrier. Energy Fuels 2011, 25, 3344–3354. [CrossRef]
+27.
+Cao, Y.; Pan, W.-P. Investigation of chemical looping combustion by solid fuels. 1. Process analysis.
+Energy Fuels 2006, 20, 1836–1844. [CrossRef]
+28.
+Wang, P.; Howard, B.H.; Means, N.; Shekhawat, D. Bimetallic cu-fe Oxygen Carriers for Coal
+Chemical-Looping Combustion. In Proceedings of the 255th American Chemical Society National Meeting &
+Exposition, New Orleans, LA, USA, 18–22 March 2018.
+29.
+Fastmarkets-MB. Copper Concentrate tc/rcs Decline Further as Traders Bid Aggressively for Tonnes.
+2018. Available online: https://www.metalbulletin.com/Article/3787933/Copper-concentrate-TCRCs-decline-
+further-as-traders-bid-aggressively-for-tonnes.html (accessed on 9 March 2019).
+30.
+Fastmarkets-MB. LIVE Futures Report 08/03: Comex Copper Price Suﬀers Further Losses in Final Session.
+2018. Available online: https://www.metalbulletin.com/Article/3863299/LIVE-FUTURES-REPORT-0803-
+Comex-copper-price-suﬀers-further-losses-in-ﬁnal-session.html (accessed on 10 March 2019).
+© 2019 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access
+article distributed under the terms and conditions of the Creative Commons Attribution
+(CC BY) license (http://creativecommons.org/licenses/by/4.0/).

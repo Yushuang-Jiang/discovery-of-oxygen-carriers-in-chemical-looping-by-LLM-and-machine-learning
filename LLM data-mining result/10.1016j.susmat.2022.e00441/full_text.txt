@@ -1,0 +1,1275 @@
+
+
+===== Page 1 =====
+
+Sustainable Materials and Technologies 32 (2022) e00441
+Available online 6 May 2022
+2214-9937/© 2022 Elsevier B.V. All rights reserved.
+Highly-selective CO2 conversion through single oxide CuO enhanced 
+NiFe2O4 thermal catalytic activity 
+Boshu Jiang a, Qiming Sun b,d,e, Bachirou Guene Lougou a, Hao Zhang a, Xian Li b,d, Zhibin Qu a, 
+Yong Shuai a,*, Chi-Hwa Wang c,d,** 
+a School of Energy Science and Engineering, Harbin Institute of Technology, 92 West Dazhi Street, Harbin 150001, China 
+b NUS Environmental Research Institute, National University of Singapore, Singapore 138602, Singapore 
+c Department of Chemical and Biomolecular Engineering, National University of Singapore, Singapore 117585, Singapore 
+d Energy and Environmental Sustainability Solutions for Megacities (E2S2), Campus for Research Excellence and Technological Enterprise (CREATE), Singapore 138602, 
+Singapore 
+e Innovation Center for Chemical Sciences, College of Chemistry, Chemical Engineering and Materials Science, Soochow University, Suzhou 215123, People’s Republic of 
+China   
+A R T I C L E  I N F O   
+Keywords: 
+Solar fuels 
+Thermochemical cycle 
+Carbon dioxide splitting 
+Metal oxide catalyst 
+Quantum chemistry 
+A B S T R A C T   
+The solar-driven thermochemical CO2 conversion is an effective way to achieve the mission of carbon peaking 
+and carbon neutrality. However, finding a material with excellent thermal stability, oxygen exchange capacity, 
+and CO selectivity is one of the most important challenges in the thermochemical CO2 conversion approach. This 
+study investigated the solar thermochemical CO2-splitting characteristics through the synergistic thermal cata­
+lytic activity of CuO and NiFe2O4 and the effect of SiC photothermal properties. The thermochemical redox 
+cycling performance of CO2 conversion through thermally activated catalysts was experimentally investigated 
+via thermogravimetric combined quantum chemical calculations to provide comprehensive insights into the 
+physicochemical principles underlying the thermochemical catalytic CO2-splitting. The X-ray diffraction, scan­
+ning electron microscopy, and energy spectrum detector technics were developed to gain detail on the crystal 
+structure, surface morphology, and chemical composition changes in the reacting media. The newly synthesized 
+composite material consisting of 25%CuO and 75%NiFe2O4 (CNF-13) coated SiC porous skeleton resulted in 
+higher CO2-splitting catalytic activity with an instantaneous CO production of 10.98mL ⋅ min-1gCNF-13
+−1 
+and direct 
+CO2-to-CO conversion rate of 33.9% at 1000–1200 K reaction temperature. The thermochemical CO2-splitting 
+activity and redox stability of CNF-13@SiC was promoted by the photothermal properties of SiC support and the 
+formation of Cu2O and Fe3O4 new active material phases easing CO2 reduction at low energy. This study pro­
+vided experimental and theoretical findings that can be used as guidance for the fundamental research and 
+application of CO2 catalytic conversion into fuels through a solar thermochemical driven strategy.   
+1. Introduction 
+The world’s largest source of greenhouse gas emissions from human 
+activity is the burning of fossil fuels to generate electricity and heat, 
+accounting for more than half of all carbon dioxide emissions in the 
+atmosphere [1]. CO2 emissions have been found to grow at 2.6% per 
+year of the average rate from 2000 to 2014 [2]. According to the chal­
+lenges and opportunities associated with the Chinese government’s en­
+ergy transitions for carbon neutrality, there is an urgent need to 
+vigorously develop carbon dioxide emission reduction technology. 
+Carbon dioxide capture and storage technology have shown great 
+application value in the face of increasing environmental problems. The 
+main ways to reduce CO2 emission while promoting chemical energy are 
+electrochemistry, photochemistry, and thermochemistry. In addition, 
+CO2 capture and sequestration technology are also an effective way of 
+CO2 storage and utilization. Intensive research has been made on the 
+electrochemical reduction of CO2 [3–6]. Considering the attractive 
+application prospects of the high-temperature thermochemical process 
+[7–15], the solar-driven thermochemical cyclic conversion approach 
+can contribute to efficient CO2 utilization. The most promising approach 
+* Corresponding author at : Key Laboratory of Aerospace Thermophysics of MIIT, Harbin Institute of Technology, Harbin 150001, China. 
+** Corresponding author at: Department of Chemical and Biomolecular Engineering, National University of Singapore, Singapore 117585, Singapore. 
+E-mail addresses: shuaiyong@hit.edu.cn (Y. Shuai), chewch@nus.edu.sg (C.-H. Wang).  
+Contents lists available at ScienceDirect 
+Sustainable Materials and Technologies 
+journal homepage: www.elsevier.com/locate/susmat 
+https://doi.org/10.1016/j.susmat.2022.e00441 
+Received 24 November 2021; Received in revised form 22 April 2022; Accepted 2 May 2022   
+
+
+===== Page 2 =====
+
+Sustainable Materials and Technologies 32 (2022) e00441
+2
+is CO2 conversion into important chemical feedstocks through a ther­
+mochemical process using clean and renewable energy. Currently, re­
+searchers are conducting experimental tests through the combination of 
+solar simulators and thermochemical reactors [16–20] that generate 
+encouraging results, thus reflecting the reliability and feasibility of such 
+a process. 
+Processing CO2 conversion through a multi-step thermochemical 
+cycle was found more practical than the one-step CO2 reduction because 
+the multi-step cycle is thermodynamically advantageous and can be 
+operated at lower temperatures. Especially, the two-step thermochem­
+ical redox cycles using metal oxides are more flexible since the process is 
+based on gas-solid reaction mechanisms and produces gaseous products. 
+This facilitates the isolation of the metal oxides from the products [21]. 
+The two-step thermochemical redox cycles are typically characterized 
+by the thermal reduction step followed by oxidation of the reduced 
+metal oxides with CO2. 
+Thermal reduction (TR) : MOox→MOred + δ/2O2
+(1)  
+CO2 −splitting (CDS) : MOred + δCO2→MOox + δCO
+(2)  
+where MOox and MOred represent the oxidized and reduced state of the 
+redox materials, respectively. The thermal reduction of the metal oxide 
+materials is typically characterized by a high-temperature process. 
+However, regarding the thermal stability of most of the metal oxides, 
+proceeding under such a high-temperature operating condition may 
+result in material sintering and low thermochemical performance. For 
+example, the thermal reduction temperature of the raw material can be 
+limited to Tred = 1200 ◦C to overcome these issues. Then, oxidation of 
+MOred with CO2 could be carried out at the 800–1200 ◦C temperature 
+range. 
+The CO2-splitting performance of different redox materials including 
+CeO2 [22–25], perovskite [26–28], ferrite [29], NiFe2O4 [16–18,30], 
+etc. have been extensively studied through a two-step thermochemical 
+process. However, the properties of some materials are not ideal due to 
+many factors such as sintering resistance, stability, and oxygen release 
+capacity. The metal oxide compound Fe2O3/Fe3O4 was long considered 
+as a cheap oxide material, which can be applied to large-scale thermo­
+chemical energy storage processes [31]. Loutzenhiser [32] has reported 
+that a cycle efficiency of 46% can be obtained with Fe2O3/Fe3O4 redox 
+cycles coupled to an Air Brayton cycle for thermochemical energy 
+storage and electricity production. Bhosale [33] and Gorakshnath et al. 
+[34] have thermodynamically demonstrated the Co-ferrite CO2-splitting 
+reactivity and reported a maximum of 139.6 μmol/g of CO production 
+per cycle. Owing to its good ability to store/release oxygen, CuO/Cu2O 
+has been used in the processes of thermochemical energy storage, pho­
+tothermal, and electrochemical reduction of carbon dioxide [35–38]. 
+Qiu et al. [39] have first reduced the raw oxide material with hydrogen 
+before performing CO2 thermochemical reduction. They found that 
+Cu0.2Co0.8Fe2O4 presents a high average CO2-splitting rate of ~144.9 
+μmol.g−1
+. min−1 and CO yield of ~9.0 mmol.g−1 with satisfactory sta­
+bility over cyclic redox operating at 650 ◦C. Usually, the materials with 
+good thermal stability include alumina [40], zirconia [41], silicon [29], 
+silicon carbide [42], and yttria-stabilized zirconia (YSZ) [43] are used as 
+carriers to ensure the structural stability of the catalytic materials. 
+Selecting appropriate support is of great help to improve the catalyst’s 
+thermal stability and CO2-splitting catalytic activity for higher ther­
+mochemical performance. The main research focus in the field of solar 
+chemistry includes: (i) studying the redox reaction kinetics of materials 
+to select the best and most stable redox materials; (ii) synthesis of the 
+materials into a porous structure; (iii) design and build a scalable and 
+flexible solar reactor prototype able to support different heating con­
+cepts and operating modes. Moreover, the experimental performance 
+assessment of redox materials under representative conditions in solar 
+reactors, which could provide major insights into the performance of 
+real-time on-sun reactors is scarce to date. 
+In this work, the thermochemical redox kinetics and thermochemical 
+properties of CuO, NiFe2O4, ZrO2, and Al2O3 were studied in detail. The 
+morphology of the material was characterized by SEM and EDS. The 
+thermochemical properties were verified by thermogravimetric analysis 
+using pure CeO2 as reference. ZrO2 and Al2O3 supported catalysts were 
+also used for the thermogravimetric analysis to simulate the real 
+catalyst-support structure. The crystal structure was characterized by X- 
+ray diffraction. In addition, the influencing factors in terms of effects of 
+reduction temperature, heating rate, and CO2 entry stage on the per­
+formance of the thermochemical cycles were studied. To obtain the best- 
+mixed CuO and NiFe2O4 oxide catalyst systems, the ratio of the selected 
+materials was optimized to obtain the most appropriate material. The 
+resulted material’s CO2 reduction performance was investigated 
+through quantum chemistry calculations. This work provides new in­
+sights useful for the theoretical research and application of solar ther­
+mochemical CO2 conversion into fuels. 
+2. Experimental proceeding 
+2.1. Material characterization 
+X-ray diffraction (XRD) patterns were recorded via the X’PERT PRO 
+X-ray diffractometer with Cu Kα radiation. The power of the ceramic X- 
+ray tube was set at 2.2 kW. The material characterization test was car­
+ried out at temperatures varied from room temperature to 1200 ◦C. The 
+changes in the diffraction angle (2θ) from 10◦to 100◦were regulated 
+with a step size of 0.02◦and a scan time of 0.2 s per step. The phase 
+structures, chemical compositions, and lattice parameters of these 
+powders were obtained using HighScore Plus software. Identification of 
+different crystalline phases was conducted by comparing experimental 
+data with the standards database. The surface morphologies of the 
+samples were obtained by field emission scanning electron microscopy 
+(SEM, ZEISS, and TESCAN), and the elemental compositions and con­
+tents were determined by using the large window energy spectrum de­
+tector (EDS, Oxford) attached to the SEM. The characterization of the 
+investigated materials was developed to provide a comprehensive 
+background of the physicochemical principles underlying the thermo­
+chemical effect in high-temperature gas-solid CO2 catalytic conversion. 
+2.2. CO2 thermochemical reduction principles 
+High purity 99.999% nano-raw oxide materials including CuO, 
+NiFe2O4, Al2O3, ZrO2, CeO2, and SiC were all purchased from Aladdin 
+for the analysis of CO2 conversion and active materials thermal catalytic 
+activity over the reaction temperature changes. The thermochemical 
+properties of the samples were tested by a thermogravimetric analyzer 
+(TGA, SETARAM SETSYS EVO16/18). The system adopts the upper 
+balance and suspended sensor design, which are put into the furnace by 
+moving the suspension test bracket up and down. Two crucibles were 
+placed on both sides of the bracket, the left side is used for blank control, 
+and the right side is used for the sample testing. The sensor adopts a 
+plug-and-play interface, which is convenient for users to replace them­
+selves. The heating furnace is equipped with a water-cooling system, and 
+the performance is extremely stable. In terms of thermogravimetry, 
+SETARAM’s unique photoelectric balance technology is used to provide 
+ultra-high-test accuracy and meantime overcome the inherent stability 
+problems of thermogravimetric systems that usually use electronic bal­
+ances. The system can be stable for a long time without additional water 
+bath protection and preheating. The device uses an S-type thermocouple 
+with the highest temperature measurement of 1600 ◦C. The device has 
+two carrier gases and one protective gas. The carrier gas flows into the 
+furnace from top to bottom to ensure complete contact and reaction with 
+the sample. Each furnace carrier gas has a flow controller to measure the 
+carrier gas flow rate. In this study, the inert gas Ar is used as the pro­
+tective gas. Approximately 10 mg of sample was placed in the crucible 
+and put into the furnace through the lifting device. Purging with high- 
+B. Jiang et al.                                                                                                                                                                                                                                    
+
+
+===== Page 3 =====
+
+Sustainable Materials and Technologies 32 (2022) e00441
+3
+purity inert carrier gas for 1 h was carried out to ensure the composition 
+of the furnace gas. After the balance was stable, we started the 
+temperature-raising program and recorded the weight change. The 
+weight change was related to the release of oxygen during the reduction 
+process and the reduction of CO2 during the oxidation process. We adapt 
+to perform two consecutive redox cycles in a typical experiment. First, 
+the sample is heated to 1300 ◦C at 20 ◦C/min. Then, the reaction tem­
+perature is kept at 1300 ◦C for 1 h under 20 sccm of carrier gas flow rate. 
+The second step characterized by CO2-splitting is conducted by lowering 
+the reaction temperature from 1300 ◦C to 800 ◦C at the same tempera­
+ture change rate. The oxidation reaction temperature is kept at 800 ◦C 
+for 1 h. In this step, it is assumed that the reactive gas CO2 will react with 
+the oxygen-deficient oxide material obtained from the first step for the 
+formation of CO. To assess the material oxygen exchange capacity and 
+CO2 reduction performance, we subtracted the test weight of the empty 
+crucible from the test weight of the sample. The total amount of CO2 
+consumption in a single cycle is 70 mmol, which is calculated consid­
+ering the ideal gas state equation at 20 ◦C and atmospheric pressure. 
+This value is used to calculate the conversion efficiency of CO2. The set 
+of temperatures, heating rate, and cooling has been verified to gain the 
+optimal operating parameters for the subsequent tests. The yield of O2 
+release and CO formation through the weight change of the active 
+sample is calculated based on the two-step thermochemical redox cycles. 
+Under the high-temperature thermal reduction process, the material 
+weight lost is characterized by O2 release, which can be calculated by 
+the following formula. 
+nO2 = Δmloss
+/(
+MO2⋅msample
+)
+(3)  
+where Δmloss is the weight loss of the sample in the reduction step 
+measured by TGA, MO2 is the molecular mass of O2, and msample is the 
+weight of the sample in the crucible. 
+During the oxidation process corresponding to the CO2-splitting step, 
+the weight gain of the material can be used to calculate the amount of 
+CO formation. A possible equation illustrating this assumption can be 
+defined as follows. 
+nCO = Δmgain
+/(
+MO⋅msample
+)
+(4)  
+where Δmgain is the weight gain during the re-oxidation step and MO is 
+the molecular mass of the oxygen atom. 
+In the solar thermochemical experimental system, the total energy 
+conversion efficiency of the solar to fuel is defined by the following 
+equation. 
+ηsolar-fuel = HHV(CO)⋅VCO
+Qsolar
+=
+HHV(CO)⋅VCO
+∑(Plamb⋅theat)⋅ηelectricity-heat
+(5)  
+where HHV(CO) = 12.64 MJ/Nm3 is the higher heating value of carbon 
+monoxide, VCO is the amount of CO produced (in volume) during the 
+CO2-splitting step, Qsolaris the total energy input provided by the solar 
+simulator, Plamb is the total power of the xenon lamp, theat is the oper­
+ating time of the xenon lamp, ηelectricity-heat is the efficiency of electric 
+power to heat (the efficiency is about 30% in our experimental system). 
+2.3. Computational methods 
+The material that exhibited the highest performance was considered 
+for further analysis via quantum chemistry calculation. A powerful 
+comprehensive software package based on the Gaussian is utilized for 
+quantum chemistry. The numerical model is developed considering the 
+Gaussian functions, thermodynamic properties, and the reaction path 
+which could guarantee the accuracy of the finding and provide 
+comprehensive insight into the physicochemical changes and thermo­
+chemical CO2 conversion effectiveness. The calculation can be per­
+formed on the ground state or excited state of the system. In this study, 
+the Gaussian 09 program was used to optimize the geometric structure at 
+the PBE0-D3/DEF2-SVP level, and the single point energy was further 
+calculated at the PBE0-D3/DEF2-TZVPP level to accurately calculate the 
+energy change during the reaction. MultiWFN 3.7 program was used to 
+perform the wave function analysis for obtaining the electron density 
+difference diagrams of interactions [49]. 
+3. Results and discussion 
+3.1. Material characterization 
+Through the TG experimental research in section 3.2, the material 
+composite of 25%CuO and 75%NiFe2O4 (CNF-13) exhibited excellent 
+redox properties. In this section, the X-ray diffraction pattern of CNF-13 
+nanocomposite catalysts before and after being heated at high temper­
+atures is introduced as shown in Fig. 1. A high purity phase composition 
+was obtained with the fresh CNF-13. The peaks of each material were 
+determined by comparing them with the standard card (PDF and 
+JCPDS). The corresponding standard spectral map of fresh samples in 
+JADE6 software was CuO (#89–5899) and NiFe2O4 (#86–2267). XRD 
+pattern of the CNF-13 nanocomposite oxide material heated to 1300 ◦C 
+in the Ar atmosphere indicated the peaks of Fe0.64Ni0.36, Cu, and FeO 
+that could be regarded as the active components of CuO and NiFe2O4 at 
+high temperatures. Compared to the fresh samples, after heating the 
+sample corresponds to the standard spectrum map Fe0.64Ni0.36 (JCPDS 
+00-047-1405), Cu (JCPDS 03–065-9743), and FeO (JCPDS 01–075- 
+1550). The observed phase transition could be the key enhancing factor 
+of the CNF-13 thermochemical CO2-splitting performance. By changing 
+the working fluid, new material phases including CuFe2O4 (#77–0010), 
+Cu (JCPDS 03–065-9743), Ni (#04–0850), and (Cu0.2Ni0.8)O 
+(#25–1049) were identified as main products when CNF-13 is heated to 
+1000 ◦C in the CO2 atmosphere. The synergistic effect of Fe–Ni bime­
+tallic at the interface of NiO-Fe2O3 mixed oxide could result in signifi­
+cant H2 and CO production capacity compared to pure Fe2O3 [44]. 
+Regarding the effect of the working fluid, CNF-13 may directly reduce 
+into corresponding oxides, elements, and alloy under a high- 
+temperature inert (Ar) atmosphere. However, a relatively complex re­
+action could take place thereby promoting the combination of Cu and 
+Ni, as well as the formation of copper ferrite when the thermal reduction 
+of CNF-13 is carried under the CO2 atmosphere. The CNF-13 composite 
+material microstructure and morphology characterization through SEM 
+and EDS is shown in Fig. 2. Considering the microstructural analysis of 
+fresh powder as depicted in Fig. 2(a), it should be noted that CuO 
+20
+40
+60
+80
+100
+After heated 
+under CO2 flow
+After heated 
+under Ar flow
+Intensith (a.u.)
+2θ/°
+ Fe0.64Ni0.36 
+ FeO        
+ Cu
+ NiFe2O4
+ CuO       
+ Ni
+ CuFe2O4
+ (Cu0.2Ni0.8)O
+Fresh
+Fig. 1. X-ray diffraction images of fresh CNF-13 powder, CNF-13 heated to 
+1300 ◦C in Ar atmosphere and 1000 ◦C in CO2 atmosphere, respectively. 
+B. Jiang et al.                                                                                                                                                                                                                                    
+
+
+===== Page 4 =====
+
+Sustainable Materials and Technologies 32 (2022) e00441
+4
+particles were significantly smaller than nickel ferrite particles, and 
+consequently, CuO adhered to the surface of nickel ferrite particles. The 
+surface and microstructural modification of the CNF-13 nanocomposite 
+catalyst after being heated in an Ar atmosphere indicated an obvious 
+agglomeration of the main active material, as shown in Fig. 2(b). As can 
+be seen in Fig. 2(c), the Fe content is twice as much as the Ni content. It 
+can be observed that there is no Ni in some iron-containing positions, 
+which indicates the possible formation of FeO phases. Also, the presence 
+of (Fe, Ni), Ni, (Cu, Ni, O), and (Cu, O) on the surface can be observed in 
+Fig. 2(c). High-temperature sintering enlarges iron oxide and nickel 
+oxide particles. Since the base material is carbon glue, the electron beam 
+may have penetrated the material thereby resulting in higher carbon 
+content as shown in Fig. 2(c). 
+3.2. The thermochemical cycle performance 
+3.2.1. Selectivity based on material oxygen release and catalyst activity 
+The thermochemical redox cycle characteristics and reactivity of the 
+active samples were investigated by TGA. NiFe2O4, which is a commonly 
+used thermochemical material, was tested under the same conditions. 
+The samples with compositions of (CuO)0.25(NiFe2O4)0.75, (CuO)0.5(Ni­
+Fe2O4)0.5, (CuO)0.75(NiFe2O4)0.25, (CuO)0.125(NiFe2O4)0.375(ZrO2)0.5, 
+(CuO)0.5(ZrO2)0.5, 
+(CuO)0.5(Al2O3)0.5, 
+(NiFe2O4)0.4(ZrO2)0.6, 
+(NiFe2O4)0.2(ZrO2)0.8 and (NiFe2O4)0.1(ZrO2)0.9 were abbreviated as 
+CNF-13, CNF-11, CNF-31, CNFZ-134, CZ-11, CA-11, NFZ-23, NFZ-14, 
+and NFZ-19, respectively. The weight changes and redox performance 
+analysis of different ratios of NiFe2O4, CuO, and other materials are 
+depicted in Fig. 3. The fast weight loss for all the samples containing 
+CuO at 800–900 ◦C could be attributed to the rapid thermal decompo­
+sition of CuO. The good catalyst stability of NiFe2O4 and the higher 
+oxygen release ability of CuO were considered for the synthesis of mixed 
+composite oxides to obtain a functional material with both advantages. 
+The oxide material composition and design strategy were performed 
+with the aid of the theory of thermodynamics. Moreover, CeO2 was used 
+as reference material to assess the performance of the materials tested. 
+Higher oxygen release was obtained with CuO and NiFe2O4 compared to 
+CeO2. This proves that both materials are more conducive to high- 
+temperature thermal reduction. As shown in Fig. 3(b) the weightless­
+ness without oxygen release at high temperatures may be due to Cu2O 
+melting. The introduction of CO2 induces an increase in the sample 
+weight. As shown in Table 1, the weight gain of CuO-containing mate­
+rials was higher than that of NiFe2O4 and CeO2. The yields of CO across 
+CZ and CA media decreased from 386.3 to 126.5 μmol/g and 438.6 to 
+123.3 μmol/g, respectively. The change observed could be associated 
+with the cycle stability of the two samples. As for NFZ materials, the 
+higher content of nickel ferrite resulted in a higher CO yield in the 
+second cycle. The pure NiFe2O4 exhibited the best oxygen exchange 
+stability among the oxide materials investigated. A close yield of CO was 
+obtained with CNF-13 and CNF-31 in the first cycle compared to the 
+second cycle where the reactivity of CNF-13 exhibited a CO yield of two 
+times higher than CNF-31. Considering the performance of various 
+materials investigated, CNF-13 exhibited the highest stability and oxy­
+gen release capability. A CO2 conversion rate of 5.11% and 3.36% was 
+obtained in the first and second cycles by using 13.08 mg of CNF-13 
+sample weight. 
+3.2.2. Influence of reduction temperature 
+The effect of the thermal reduction temperatures on the thermo­
+chemical redox cycling performance of CNF-13 is further investigated by 
+varying the reduction temperature from 1000 ◦C to 1300 ◦C at a 20 ◦C/ 
+min heating rate while maintaining the oxidation temperature at 800 ◦C. 
+The yield of O2 and CO calculated through the weight changes of the 
+sample are shown in Fig. 4. A stable O2 release of 800 μmol/g was ob­
+tained at 800 ◦C in the first thermochemical cycle. However, the weight 
+of the sample keeps decreasing at temperatures exceeding 1100 ◦C. As 
+shown in Table 2, the CNF-13 sample is more sensitive to a high- 
+temperature thermal process since the weight loss of the active mate­
+rial increases as the reduction temperature increases. Also, increasing 
+CO yield was observed with the increase in the reduction temperature. 
+As for O2 release, the higher the reduction temperature, the higher the 
+O2 release can be observed. Thus, a higher reduction temperature could 
+induce higher oxygen exchange in the reaction medium. Besides, a 
+relatively stable weight change resulting in a CO/O2 ratio close to the 
+theoretical value of 2 was obtained at 1000 ◦C reduction temperature. 
+This indicates the redox cycle of CNF-13 can be carried in 800–1000 ◦C 
+range to ensure better cyclic stability. However, NiFe2O4 may not 
+release oxygen completely under 1000 ◦C reaction temperature due to 
+the low reduction. Therefore, 1300 ◦C was selected as an appropriate 
+reduction temperature for the subsequent test. As depicted in Fig. 5, the 
+size of particle agglomeration gradually increases with the increase in 
+the reduction temperature. A large number of nanoparticles were 
+observed when the reduction temperature was limited to 1000 ◦C and 
+1100 ◦C. However, a large number of materials were aggregated into 
+micron mass at 1200 ◦C and 1300 ◦C reaction temperatures. By 
+considering the EDS analysis, CNF-13 exhibited different phases with 
+the increase in the reduction temperature. A very similar material 
+composition close to the initial material ratio was observed at 1100 ◦C 
+and 1000 ◦C reduction temperatures. At 1200 ◦C, the higher 
+Fig. 2. The SEM and EDS map images of CNF-13 powders: (a) SEM image of fresh powder; (b) SEM image after heating at 1300 ◦C in Ar atmosphere; (c) EDS image 
+after heating. 
+B. Jiang et al.                                                                                                                                                                                                                                    
+
+
+===== Page 5 =====
+
+Sustainable Materials and Technologies 32 (2022) e00441
+5
+temperature causes the agglomeration of NiFe2O4 thereby reducing the 
+surface content, and as a result the increase in Cu proportion. As shown 
+in Fig. 5(c), a large amount of Cu is attached to the edge of some ma­
+terials. This led to the excessive Cu content in the composition compared 
+to the normal proportion. However, Cu disappeared in the material 
+composition at 1300 ◦C reduction temperature exceeding 1200 ◦C. 
+Compared to other nanoparticles such as Ni and Fe, the stability of Cu 
+could be associated with the volatilization or melting of Cu2O at a 
+1300 ◦C higher temperature. 
+3.2.3. Influence of heating rate 
+The effect of heating rate on the redox material oxygen exchange and 
+thermochemical conversion performance was investigated considering 
+1300 ◦C and 800 ◦C of thermal reduction and oxidation temperature, 
+respectively. The redox cyclic performance analysis of CNF-13 was 
+carried out at 10, 20, and 30 ◦C/min heating rates. Regarding the oxygen 
+Fig. 3. Thermal changes and chemical conversions of CuO and NiFe2O4 materials with different mixing ratios and different support: (a) Thermochemical redox cycles 
+of NFZ at 800–1300 ◦C; (b) The weight change of CNF-11 during the heating stage compared with the oxygen production measured through a gas analyzer; (c) and 
+(d) Thermochemical redox cycles of CNF at 800–1300 ◦C; (e) and (f) Thermochemical redox cycles of the catalysts with different supports at 800–1300 ◦C. 
+Table 1 
+CuO and NiFe2O4 catalysts activity and ZrO2 and Al2O3 support activity.  
+Active 
+catalysts 
+O2 released(μmol/g) 
+CO produced(μmol/ 
+g) 
+CO/O2 ratio 
+1st 
+cycle 
+2nd 
+cycle 
+1st 
+cycle 
+2nd 
+cycle 
+1st 
+cycle 
+2nd 
+cycle 
+CeO2 
+177.1 
+70.4 
+23.0 
+29.3 
+0.13 
+0.42 
+CNF-13 
+610.1 
+319.5 
+278.4 
+179.6 
+0.46 
+0.56 
+CNF-11 
+1428.1 
+186.3 
+163.4 
+71.1 
+0.11 
+0.38 
+CNF-31 
+2256.6 
+243.6 
+273.4 
+86.3 
+0.12 
+0.35 
+CNFZ-134 
+425.6 
+176.7 
+131.2 
+73.1 
+0.31 
+0.41 
+CZ-11 
+1308.6 
+179.8 
+386.3 
+126.5 
+0.30 
+0.70 
+CA-11 
+1291.3 
+781.7 
+438.6 
+123.3 
+0.34 
+0.16 
+NiFe2O4 
+1138.4 
+87.2 
+92.4 
+112.4 
+0.08 
+1.29 
+NFZ-23 
+705.4 
+111.9 
+43.4 
+65.3 
+0.06 
+0.58 
+NFZ-14 
+361.9 
+62.7 
+44.1 
+32.8 
+0.12 
+0.52 
+NFZ-19 
+516.4 
+44.1 
+– 
+9.1 
+– 
+0.21  
+B. Jiang et al.                                                                                                                                                                                                                                    
+
+
+===== Page 6 =====
+
+Sustainable Materials and Technologies 32 (2022) e00441
+6
+exchange capacity of CNF-13 as a function of heating rate, higher O2 and 
+CO production were obtained when the reaction was performed under 
+20 ◦C/min. This can be justified considering the effects of heating rate on 
+the chemical reaction and products evolution as shown in Figs. 6(a–c). 
+The heating rate of 30 ◦C/min may cause more sample agglomeration 
+thereby lowering CO production due to the heat transfer and oxygen 
+exchange limitation in the chemical reacting media. As depicted in Fig. 6 
+(d), the active material is highly characterized by higher catalyst activity 
+at the first step. In the first cycle, O2 release under the three heating rates 
+was almost the same. However, CO production at 20 ◦C/min (239.7 
+μmol/g) was twice of that generated at 30 ◦C/min and 1.5 times of those 
+quantified at 10 ◦C/min. As for the second cycle, CO production at 
+30 ◦C/min was significantly lower than those obtained at 10 ◦C/min and 
+20 ◦C/min heating rates. The heating rates of 10 ◦C/min and 20 ◦C/min 
+exhibited similar yields in the second cycle. We believe that the re- 
+oxidation yield could be maintained at a higher level by processing at 
+a lower heating rate. Through EDS analysis, we found that Cu element 
+on the surface of the material was less than 0.5% atomic ratio, which is 
+about 1% of O. This shows that Cu infiltrated into the material and 
+cannot be fully analyzed. The heating rate also affects the material 
+composition since the proportion of Fe element decreases slightly while 
+the proportion of Ni and Cu elements increases with the increase in the 
+heating rate. (See Fig. 7.) 
+3.2.4. Influence of CO2 entry stage 
+To clarify the issues associated with CO2 oxidation over the contin­
+uous decrease in the oxidation temperature, the oxidation catalyst ac­
+tivity of CNF-13 was investigated considering the oxidant entry stage. 
+The oxidation characteristics of CNF-13 were assessed at 1300–800 ◦C 
+reaction temperature range at a 20 ◦C/min heating rate. Different CO2 
+entry-stage, namely the cooling stage and the constant temperature 
+stage were considered for the analysis of the oxidation catalytic activity 
+as shown in Figs. 9(a–c). To gain detailed insights into the effect of CO2 
+inflow stage, the weight change of CO2 inflow stage during the experi­
+ment was subtracted from the weight change of Ar inflow at the same 
+stage as shown in Fig. 8(d). During the cooling stage (Fig. 8(b)), CO 
+production is close to zero, indicating CO2 is not reduced by the active 
+catalysts at the cooling stage. These results indicated higher CO2-split­
+ting catalytic activity could be achieved over a specific reaction tem­
+perature rather than the enter oxidation temperature changes. The 
+oxidation temperature distribution along with the local reaction time 
+could be the possible reason affecting the oxidation reaction kinetic and 
+CO2-splitting catalytic activity. Besides, the sample weight increases 
+slightly at the Ar cooling stage because the blank test could not 
+completely eliminate the weight change of the material caused by the 
+temperature change. As shown in Fig. 9, only oxidation conducted at 
+800 ◦C resulted in more iron‑nickel oxide particles with less sintering on 
+the surface of the material compared to high-temperature cooling 
+section. 
+XRD and EDS analysis developed above were considered for quan­
+tum chemical calculations of CNF-13 material’s CO2-splitting catalytic 
+activity. Cu2O and Fe3O4 were considered as the main active materials at 
+the surface of CNF-13 at 800 ◦C. Thus, CO2-splitting characteristic of 
+these two materials was assessed to provide a theoretical insight into 
+electron density difference diagrams of Fe3O4 and Cu2O active phases 
+and their energy change during CO2-splitting at high-temperature. 
+Figs. 10(a) and (b) represent the electron transfer between Fe/Cu and 
+Fig. 4. Thermochemical cycling characteristics and reactivity of CNF-13 at different reduction temperature: (a) 1300 ◦C; (b) 1200 ◦C; (c) 1100 ◦C; (d) 1000 ◦C.  
+Table 2 
+CuO and NiFe2O4 oxygen exchange capacity at 1000 ◦C, 1100 ◦C, 1200 ◦C, and 
+1300 ◦C, respectively.  
+Reduction 
+temperature 
+O2 released(μmol/ 
+g) 
+CO produced 
+(μmol/g) 
+CO/O2 ratio 
+1st 
+cycle 
+2nd 
+cycle 
+1st 
+cycle 
+2nd 
+cycle 
+1st 
+cycle 
+2nd 
+cycle 
+1300 ◦C 
+1681.2 
+257.4 
+239.7 
+157.6 
+0.14 
+0.61 
+1200 ◦C 
+1241.2 
+354.2 
+235.1 
+152.3 
+0.19 
+0.43 
+1100 ◦C 
+995.3 
+217.0 
+194.1 
+148.1 
+0.20 
+0.68 
+1000 ◦C 
+847.4 
+85.2 
+176.5 
+158.3 
+0.21 
+1.86  
+B. Jiang et al.                                                                                                                                                                                                                                    
+
+
+===== Page 7 =====
+
+Sustainable Materials and Technologies 32 (2022) e00441
+7
+CO2 during CO2 gas-solid catalytic reaction. The electrostatic potential 
+distribution of Cu2O and Fe3O4 clusters is depicted in Figs. 10(c) and (d), 
+respectively. The blue color represents the positive electrostatic 
+potential. It indicates that the active catalyst Cu and Fe of Cu2O and 
+Fe3O4 oxide materials are prone to interact with O atoms of CO2. As 
+shown in Fig. 10(e), the lower the ionization potential, the easier the 
+Fig. 5. SEM images and EDS analysis of the CNF-13 redox oxide material after thermochemical cycling at different reduction temperatures: (a) 1000 ◦C; (b) 1100 ◦C; 
+(c) 1200 ◦C; (d) 1300 ◦C. 
+Fig. 6. Thermochemical cycling characteristics and reactivity of CNF-13 at different heating rates: (a) 10 ◦C/min; (b) 20 ◦C/min; (c) 30 ◦C/min; (d) Production of O2 
+and CO. 
+B. Jiang et al.                                                                                                                                                                                                                                    
+
+
+===== Page 8 =====
+
+Sustainable Materials and Technologies 32 (2022) e00441
+8
+catalytic material transfers electrons to CO2 molecules. The direct 
+decomposition of CO2 into CO and CO2 catalytic conversion through 
+Cu2O and Fe3O4 are highlighted by the pink line, blue line, and red line 
+as depicted in Fig. 10(f). Less energy is required for CO2 decomposition 
+on Cu2O and Fe3O4 surfaces compared to direct decomposition. The DFT 
+results of CNF-13 elucidated the formation of new catalyst phases and 
+CO2 catalytic activity at Cu2O and Fe3O4 surfaces. Regarding the CO2 
+conversion energy change as a function of the reaction coordinate, 
+Fe3O4 may present better performance compared to Cu2O. These results 
+confirmed CO2 catalytic conversion performance of CNF-13 compared to 
+CO yield of about 200 μmol/g which is mostly observed in the kinds of 
+literature [11,21,23,40,45,46]. Regarding the amount of CO yield re­
+ported in the literature, the CNF-13 can be considered a good thermal 
+catalyst for CO2-splitting through a two-step thermochemical redox 
+cycle. 
+3.3. Experimental test of CO2 thermochemical cyclic conversion process 
+The experimental test process with a solar thermochemical reactor 
+heated by high-flux solar irradiation is shown in Fig. 11. The prototype 
+reactor model refers to the study in reference [17, 18, 47]. The power of 
+the solar energy input is continuously adjusted as the temperature rises. 
+A high-purity Ar is used to purge the air in the reactor before the 
+experiment starts. The inlet flow rate of Ar gas was set at 200 sccm via a 
+gas mass flow controller (Sierra C100L). At the CO2 reduction stage, the 
+flow rate of Ar and CO2 gas was 100 sccm, respectively. The gas flow 
+entering the reactor’s cavity passes through the light-receiving side. The 
+thermochemical reaction occurs in the porous material filled in the 
+reactor’s cavity. The product gases exhaust the reactor from the rear 
+where the reactor’s outlet is located. The exhaust gas through the rear is 
+connected directly to the gas chromatograph (Scion 456C) for the 
+analysis of product selectivity every 12 min. The front and back of the 
+reactor were equipped with a water-cooling system to ensure the cooling 
+of the quartz window and the gas exhausting the reactor’s outlet. S-type 
+and K-type thermocouples were set in the middle of the reactor to 
+monitor the operating temperature of the reactor chamber filled with 
+porous oxide catalyst and the temperature of the insulation layer, 
+respectively. A porous oxide material having 60 mm thickness, 60 mm 
+diameter, and 10ppi is filled in the reactor chamber. The temperature 
+measuring point is set at 20 mm from the surface receiving light at the 
+front section. The structure of the SiC porous support and the coated 
+porous material are shown in Fig. 12. 50 g of SiC substrate was firstly 
+prepared by sintering the porous polyurethane foam template before 
+coating it with 4 g of CNF-13 using anhydrous ethanol. 
+Fig. 13(a) shows the thermochemical cycle test curve of CNF-13@SiC 
+after pre-heating at 700 ◦C for 6 h to remove impurities. The real-time 
+experimental analysis of the thermochemical redox cycles was per­
+formed at 1200 K and 1035 K of the thermal reduction and oxidation 
+temperature, respectively. As depicted in Fig. 13(a), the initial heating 
+stage is characterized by both CO and H2 productions due to the 
+oxidation of SiC substrate and residual ethanol thermal decomposition. 
+However, obvious CO production with the decrease in H2 selectivity was 
+observed when CO2 was introduced in the heat preservation stage. The 
+increase in the reaction temperature promotes the conversion of residual 
+CO2 thereby resulting in the increase in CO and H2 yields simulta­
+neously. During the thermochemical cyclic process, there was no 
+Fig. 7. SEM images and EDS analysis of CNF-13 after the thermochemical cycling reaction performed at different heating rates: (a) 10 ◦C/min; (b) 20 ◦C/min; (c) 
+30 ◦C/min. 
+B. Jiang et al.                                                                                                                                                                                                                                    
+
+
+===== Page 9 =====
+
+Sustainable Materials and Technologies 32 (2022) e00441
+9
+obvious O2 release when tested with CNF-13@SiC. We speculate that the 
+oxygen released during the reduction process of the oxide reacts with 
+SiC to generate CO at each reduction step. The cyclic analysis of CO2- 
+splitting across CNF-13 coated SiC porous skeleton indicated an amount 
+of CO yield of 10.98 mL ⋅ min-1gCNF-13
+−1 
+that decreased to 8.56 and 6.265 
+mL ⋅ min-1gCNF-13
+−1
+. Theoretically, CNF-13 can produce up to 58.9 mL CO 
+per gram in a single cycle. Thus, SiC porous substrate would contribute 
+to CO production due to the combined action of light and heat, so-called 
+photothermal which is the upgrading stage of the thermochemical 
+process. The highest instantaneous CO and H2 productions were 10.98 
+mL ⋅ min-1gCNF-13
+−1
+, and 5.50 mL ⋅ min-1gCNF-13
+−1
+, respectively. By inte­
+grating the outlet’s CO, a total CO production of 3055 mL can be ob­
+tained with CNF-13. The thermochemical CO2-splitting catalytic activity 
+of CNF-13 resulted in 23.3% average CO2 conversion rate with single- 
+cycle conversion rates of 33.9%, 23.7%, and 12.1%, respectively. If 
+the measurement is done by only considering CO2 entry stage, the 
+amount of 1217.5 mL, 815.2 mL, and 525.2 mL CO production can be 
+obtained over the three redox cycles. By considering the measurement 
+per unit catalyst, the reactivity of CNF-13 could result in a cyclic CO 
+yield of 304.34mL ⋅ gCNF-13
+−1
+, 203.8mL ⋅ gCNF-13
+−1
+, 131.3mL ⋅ gCNF-13
+−1
+. The 
+production was much higher than the yield of CO = 5.88 ± 0.43 mL ⋅ 
+gCeO2
+−1 
+reported in the literature [48]. Moreover, by considering 12.64 
+MJ/Nm3 of the calorific value of CO, approximately 0.16 kJ/min with 
+the maximum instantaneous energy storage power of 0.56 kJ/min can 
+be gained with CNF-13 coated SiC porous media. However, a ηsolar-fuel of 
+0.127% was obtained by considering Eq. (5). The lower efficiency is 
+mainly due to the poor thermal insulation performance of the reactor, as 
+well as lower catalyst load and CO2 flow rate. However, to increase the 
+Fig. 8. Thermochemical property changes and catalysts activity of CNF-13 at different CO2 entry stages: (a) all; (b) 1300–800 ◦C cooling stage; (c) 800–800 ◦C 
+constant temperature stage; (d) production of O2 and CO. 
+Fig. 9. SEM images of CNF-13 after thermochemical cycling at different CO2 entry stages: (a) the whole process; (b) 1300–800 ◦C cooling stage; (c) 800–800 ◦C 
+constant temperature stage. 
+B. Jiang et al.                                                                                                                                                                                                                                    
+
+
+===== Page 10 =====
+
+Sustainable Materials and Technologies 32 (2022) e00441
+10
+flow rate, the problem associated with catalysts blowing away should be 
+considered. For instance, optimizing reactor inner cavity structure and 
+increasing catalyst load are effective ways to improve the efficiency of 
+the system. 
+The oxidation of the thermally activated SiC porous skeleton and 
+CO2-splitting performance were further investigated to obtain the effect 
+of SiC porous skeleton catalytic activity towards CO2 reduction as shown 
+in Fig. 13(b). At the initial heating stage, a similar H2 production and 
+about half of CO production were obtained with SiC compared to CNF- 
+13@SiC thermochemical reaction performance. The increase in the re­
+action temperature has positively affected CO2 reduction by strength­
+ening the catalyst activity of SiC thereby resulting in 21.9mL ⋅ min-1, 
+20.54mL ⋅ min-1, and 17.2mL ⋅ min-1of CO yield through three oxidation 
+cycles. The decrease in CO production over the three cycles was mainly 
+due to the stability of SiC, especially at the part receiving high-flux solar 
+irradiation. The photothermal synergistic effect created by the rapid 
+thermal response of the high-flux irradiated material combined with the 
+effect of high-intensity light promoted the photothermal catalytic 
+reduction of CO2 to CO on the front surface of CNF-13@SiC porous 
+media. To obtain the catalytic performance of CNF-13 as shown in 
+Fig. 13(c), the amount of product obtained by using CNF-13@SiC as 
+shown in Fig. 13(a) was subtracted from that obtained by the SiC blank 
+experiment under the same experimental conditions. The mixed CNF- 
+13@SiC composite catalyst activity was highly sensitive to the rela­
+tively low reaction temperature since CO selectivity decreases rapidly to 
+22.02mL ⋅ min-1, 13.7mL ⋅ min-1, and 7.86mL ⋅ min-1with the cycle 
+number compared to that obtained at high reaction temperature. The CO 
+production decreased uniformly until the theoretical production that 
+could be achieved by 4 g of CNF-13. This indicates that CNF-13 loaded 
+on SiC was helpful for CO2 reduction, especially at the light-receiving 
+reaction part. By relating the finding to the underlying theory which 
+explains the observed phenomena as purely physical, the CO2-splitting 
+reaction first took place at a high-temperature location mostly receiving 
+high-intensity light. Then, SiC gradually losses its higher surface cata­
+lytic activity due to the direct thermal irradiation. Afterward, the rise in 
+the temperature at the back of the reactor promotes CO2-splitting cat­
+alytic activity along the depth of the CNF-13@SiC porous reacting 
+media. At this time, SiC reacted with CO2 to generate CO under high- 
+temperature conditions. The actual CO production was close to that 
+obtained from CNF-13 catalytic activity when most of the SiC surfaces 
+that met the reaction conditions were reacted. 
+Fig. 14 shows the SEM and EDS images of CNF-13@SiC after the 
+thermochemical cycling processes. As depicted in Fig. 14(a-c), the 
+framework of SiC porous material is characterized by different sizes of 
+micro-pore which is conducive to CO2 adsorption and reduction. The 
+surface contained some crushed powder of CNF-13@SiC can be seen in 
+Fig. 14 (d) and Fig. 14 (g). Apart from Cu and Fe catalysts, silicon car­
+bide, silicon dioxide, or silicates were mostly identified on the surface of 
+the active material. Besides, the surface of the active material is char­
+acterized by some microsized Ni particles agglomerated into a large 
+sphere as shown in Fig. 14 (e) and Fig. 14 (f). This provides insight into 
+Fig. 10. Calculation results diagram: (a) Electron density difference diagrams of Fe3O4; (b) Electron density difference diagrams of Cu2O; (c) Electrostatic potential 
+distribution of Cu2O; (d) Electrostatic potential distribution of Fe3O4; (e) Ionization potential of Cu2O and Fe3O4; (f) Energy change during the reaction. 
+Fig. 11. Experimental test system of the solar thermochemical redox cycle in 
+this study. 
+Fig. 12. Structure of the porous material used and the thermochemical reactor 
+chamber: (a) SiC porous material substrate; (b) CNF-13 coated porous material; 
+(c) Front view of the reactor and the active material at high- 
+temperature condition. 
+B. Jiang et al.                                                                                                                                                                                                                                    
+
+
+===== Page 11 =====
+
+Sustainable Materials and Technologies 32 (2022) e00441
+11
+the growth of Ni microparticles on the surface of iron oxide resulting in 
+NiFe2O4 formation. Through the SEM images, we can see that there were 
+also a large number of areas and pores on SiC that could be loaded with 
+CNF-13. Regarding the XPS characterization of the spent material, as 
+shown in Fig. 15, the very low catalyst content could be the reason for 
+the lower efficiency. 
+4. Conclusion 
+In this study, the solar thermochemical CO2-splitting characteristics 
+through the synergistic thermal catalytic activity of CuO and NiFe2O4 
+and the effect of SiC photothermal properties were investigated. The 
+thermochemical CO2-splitting characteristics of different ratios of CuO 
+and NiFe2O4 were experimentally investigated to explore efficient 
+mixing ratios and obtain practical thermochemical CO2 catalytic con­
+version materials. The material characterization methods including 
+XRD, SEM, and EDS were used to provide comprehensive insight into the 
+crystal structure, surface morphology, and chemical composition 
+changes for a given reaction temperature. Moreover, quantum chemical 
+calculations were conducted to identify the most significant CO2-split­
+ting catalysts. Compared with the most investigated NiFe2O4, the yield 
+of CO and the thermochemical cycle stability could increase by 
+exploiting the synergistic thermal catalytic activity of CuO and NiFe2O4. 
+An average CO production of 229 μmol/g was obtained through the 
+optimal ratio of materials consisting of 25%CuO and 75%NiFe2O4 (CNF- 
+13). The heating rate of 20 ◦C/min was the most appropriate heating 
+rate resulting in the conservation of the thermochemical properties of 
+CNF-13 with great catalyst activity towards high product selectivity. The 
+effect of reduction and oxidation temperature along with CO2 entry- 
+stage are the main factors for improving the thermochemical CO2 
+reduction performance. Through quantum chemical calculations, it was 
+observed that the active components (Cu2O and Fe3O4) of CNF-13 can 
+reduce the energy required for CO2 reduction. During the thermo­
+chemical cyclic process, the highest instantaneous CO yield was 
+10.98mL ⋅ min-1gCNF-13
+−1
+. The thermochemical CO2 reduction across CNF- 
+13@SiC exhibited a total amount of 3055 mL of CO production with an 
+average thermochemical energy storage power of 0.16 kJ/min approx­
+imately. The average CO2 conversion rate of direct CO2-to-CO over three 
+cycles was 23.3% with single-cycle conversion rates of 33.9%, 23.7%, 
+and 12.1%, respectively. The contribution of SiC photothermal proper­
+ties to the direct CO2-to-CO conversion rate was about half, which be­
+comes higher with the increase in the cycle times. After the 
+thermochemical cycling redox process, the catalyst load decreased 
+significantly resulting in a low catalyst content and uneven catalyst 
+distribution on the spent material. This study provides valuable insight 
+into the thermochemical CO2 catalytic conversion and raises new critical 
+issues for further studies on the research development on CO2 capture 
+and utilization. 
+Credit author statement 
+Boshu Jiang: Conceptualization, Methodology, Experiment, Inves­
+tigation, Writing: Original draft. 
+Qiming Sun: Resources, Supervision, Funding acquisition. 
+Bachirou Guene Lougou: Methodology, Writing: Original draft & 
+Review, Language polishing, Funding acquisition. 
+0
+50
+100
+150
+200
+250
+300
+0
+200
+400
+600
+800
+1000
+1200
+1400
+6.6kW
+4.5kW
+4.5kW
+4.5kW
+7kW
+7kW
+6kW
+6kW
+7kW
+(25%wt CuO-NiFe2O4)@SiC
+6kW
+CO2
+Ar
+CO2
+Ar
+Ar
+)
+K
+( er
+utare
+p
+m
+e
+T
+Time (min)
+YH2
+YCO
+T
+CO2
+(a)
+0
+5
+10
+15
+Rate (mL min-1 g-1
+CNF-13)
+0
+50
+100
+150
+200
+250
+0
+200
+400
+600
+800
+1000
+1200
+1400
+7 kW
+)
+K
+( er
+utare
+p
+m
+e
+T
+Time (min)
+YH2
+SiC
+CO2
+Ar
+YCO
+T
+7 kW
+7 kW
+4.5 kW
+6 kW
+6 kW
+4.5 kW
+6 kW
+(b)
+0
+5
+10
+15
+20
+25
+Rate (mL min-1)
+0
+50
+100
+150
+200
+250
+300
+0
+200
+400
+600
+800
+1000
+1200
+1400
+)
+K
+( er
+utare
+p
+m
+e
+T
+Time (min)
+YCO
+CNF-13@SiC minus SiC
+CO2
+Ar
+YH2
+T
+7 kW
+7 kW
+4.5 kW
+6 kW
+6.6 kW
+6 kW
+4.5 kW
+4.5 kW
+6 kW
+7 kW
+(c)
+-5
+0
+5
+10
+15
+20
+25
+Rate (mL min-1)
+Fig. 13. Experimental temperature curve of the porous material along with CO and H2 production rate curves over time: (a) CNF-13 coated SiC porous skeleton 
+thermal catalytic activity; (b) thermally activated SiC porous skeleton CO2-splitting activity; (c) CO2-splitting across CNF-13 oxide catalyst. 
+B. Jiang et al.                                                                                                                                                                                                                                    
+
+
+===== Page 12 =====
+
+Sustainable Materials and Technologies 32 (2022) e00441
+12
+Hao Zhang: Investigation, Experiment, Resources, Supervision. 
+Xian Li: Resources, Funding acquisition. 
+Zhibin Qu: Resources, DFT calculations. 
+Yong 
+Shuai: 
+Validation, 
+Resources, 
+Supervision, 
+Funding 
+acquisition. 
+Chi-Hwa Wang: Validation, Resources, Funding acquisition. 
+Declaration of Competing Interest 
+No conflict of interest exists in the submission of this manuscript, and 
+the manuscript is approved by authors for publication. 
+Acknowledgments 
+This work was supported by the National Key R&D Program of China 
+(No. 2018YFA0702300) and the National Natural Science Foundation of 
+China (No. 51950410590). Qiming Sun, Xian Li, Chi-Hwa Wang 
+acknowledge the financial support by the Singapore National Research 
+Foundation (NRF) under its Campus for Research Excellence and 
+Technological Enterprise (CREATE) programme (Grant Number R-706- 
+001-102-281). 
+References 
+[1] World Resources Institute, Climate Analysis Indicators Tool, 2019. 
+[2] N. Mac Dowell, P.S. Fennell, N. Shah, et al., The role of CO2 capture and utilization 
+in mitigating climate change, Nat. Clim. Chang. 7 (4) (2017) 243–249. 
+[3] S. Liu, J. Xiao, X.F. Lu, et al., Efficient electrochemical reduction of CO2 to HCOOH 
+over Sub-2 nm SnO2 quantum wires with exposed grain boundaries, Angew. Chem. 
+Int. Ed. 58 (25) (2019) 8499–8503. 
+[4] S. Mou, T. Wu, J. Xie, et al., Boron phosphide nanoparticles: a nonmetal catalyst for 
+high-selectivity electrochemical reduction of CO2 to CH3OH, Adv. Mater. 31 (36) 
+(2019) 1903499. 
+[5] L. Ji, L. Chang, Y. Zhang, et al., Electrocatalytic CO2 reduction to alcohols with 
+high selectivity over a two-dimensional Fe2P2S6 nanosheet, ACS Catal. 9 (11) 
+(2019) 9721–9725. 
+[6] X. Chang, A. Malkani, X. Yang, et al., Mechanistic insights into electroreductive 
+C–C Coupling between CO and acetaldehyde into multicarbon products, J. Am. 
+Chem. Soc. 142 (6) (2020) 2975–2983. 
+[7] B. Guene Lougou, D. Han, H. Zhang, et al., Numerical and experimental analysis of 
+reactor optimum design and solar thermal-chemical energy conversion for 
+multidisciplinary applications, Energy Convers. Manag. 213 (2020), 112870. 
+Fig. 14. The SEM and EDS map images of CNF-13@SiC: (a-c) SEM images after heating; (d) and (g) EDS mapping images of the large area; (e) and (f) EDS images of 
+a sphere. 
+1300 1200 1100 1000 900 800 700 600 500 400 300 200 100
+0
+Fe 2p
+Al 2p
+Si 2p
+C 1s
+Counts / s
+Binding Energy (eV)
+O 1s
+Fig. 15. X-ray photoelectron spectroscopy (XPS) characterization. SiC (black) 
+and CNF-13@SiC (red) after thermochemical cycle. 
+B. Jiang et al.                                                                                                                                                                                                                                    
+
+
+===== Page 13 =====
+
+Sustainable Materials and Technologies 32 (2022) e00441
+13
+[8] S. Wu, C. Zhou, E. Doroodchi, et al., A review on high-temperature thermochemical 
+energy storage based on metal oxides redox cycle, Energy Convers. Manag. 168 
+(2018) 421–453. 
+[9] F. Wang, X. Shi, C. Zhang, et al., Effects of non-uniform porosity on 
+thermochemical performance of solar-driven methane reforming, Energy 191 
+(2020), 116575. 
+[10] Z.H. Pan, C.Y. Zhao, Gas-solid thermochemical heat storage reactors for high- 
+temperature applications, Energy 130 (2017) 155–173. 
+[11] W.C. Chueh, C. Falter, M. Abbott, et al., High-flux solar-driven thermochemical 
+dissociation of CO2 and H2O using nonstoichiometric ceria, Science 330 (6012) 
+(2010) 1797–1801. 
+[12] L. Wang, T. Ma, Z. Chang, et al., Solar fuels production via two-step 
+thermochemical cycle based on Fe3O4/Fe with methane reduction, Sol. Energy 177 
+(2019) 772–781. 
+[13] J.R. Scheffe, A. Steinfeld, Oxygen exchange materials for solar thermochemical 
+splitting of H2O and CO2: a review, Mater. Today 17 (7) (2014) 341–348. 
+[14] T.C. Davenport, C.K. Yang, C.J. Kucharczyk, et al., Maximizing fuel production 
+rates in isothermal solar thermochemical fuel production, Appl. Energy 183 (2016) 
+1098–1111. 
+[15] R.R. Bhosale, A. Kumar, P. Sutar, Thermodynamic analysis of solar-driven SnO2/ 
+SnO based thermochemical water-splitting cycle, Energy Convers. Manag. 135 
+(2017) 226–235. 
+[16] S. Lorentzou, D. Dimitrakis, A. Zygogianni, et al., Thermochemical H2O and CO2 
+splitting redox cycles in a NiFe2O4 structured redox reactor: design, development 
+and experiments in a high flux solar simulator, Sol. Energy 155 (2017) 1462–1481. 
+[17] Y. Shuai, H. Zhang, B. Guene Lougou, et al., Solar-driven thermochemical redox 
+cycles of ZrO2 supported NiFe2O4 for CO2 reduction into chemical energy, Energy 
+223 (2021), 120073. 
+[18] B. Guene Lougou, Y. Shuai, H. Zhang, et al., Thermochemical CO2 reduction over 
+NiFe2O4@alumina filled reactor heated by high-flux solar simulator, Energy 197 
+(2020), 117267. 
+[19] A. Haeussler, S. Abanades, A. Julbe, et al., Remarkable performance of 
+microstructured ceria foams for thermochemical splitting of H2O and CO2 in a 
+novel high-temperature solar reactor, Chem. Eng. Res. Des. 156 (2020) 311–323. 
+[20] M. Tou, R. Michalsky, A. Steinfeld, Solar-driven thermochemical splitting of CO2 
+and in situ separation of CO and O2 across a ceria redox membrane reactor, Joule 1 
+(1) (2017) 146–154. 
+[21] A. Ambrosini, E.N. Coker, M.A. Rodriguez, Synthesis and characterization of ferrite 
+materials for thermochemical CO2 splitting using concentrated solar energy, Adv. 
+CO2 Conversion Utiliz. (2010) 1–13. 
+[22] A. Haeussler, S. Abanades, A. Julbe, et al., Solar thermochemical fuel production 
+from H2O and CO2 splitting via two-step redox cycling of reticulated porous ceria 
+structures integrated in a monolithic cavity-type reactor, Energy 201 (2020), 
+117649. 
+[23] D. Marxer, P. Furler, M. Takacs, et al., Solar thermochemical splitting of CO2 into 
+separate streams of CO and O2 with high selectivity, stability, conversion, and 
+efficiency, Energy Environ. Sci. 10 (2017) 1142–1149. 
+[24] C.Y. Ruan, Z.Q. Huang, J. Lin, et al., Synergy of the catalytic activation on Ni and 
+the CeO2–TiO2/Ce2Ti2O7 stoichiometric redox cycle for dramatically enhanced 
+solar fuel production, Energy Environ. Sci. 12 (2019) 767–779. 
+[25] C.Y. Ruan, Y. Tan, J.H. Wang, et al., A novel CeO2–xSnO2/Ce2Sn2O7 pyrochlore 
+cycle for enhanced solar thermochemical water splitting, AICHE J. 8 (63) (2017) 
+3450–3462. 
+[26] A. Haeussler, S. Abanades, A. Julbe, et al., Two-step CO2 and H2O splitting using 
+perovskite-coated ceria foam for enhanced green fuel production in a porous 
+volumetric solar reactor, J. CO2 Utiliz. 41 (2020), 101257. 
+[27] G. Takalkar, R.R. Bhosale, F. AlMomani, et al., Thermochemical splitting of CO2 
+using solution combustion synthesized lanthanum–strontium–manganese 
+perovskites, Fuel 285 (2021), 119154. 
+[28] L. Wang, T. Ma, S. Dai, et al., Experimental study on the high performance of Zr 
+doped LaCoO3 for solar thermochemical CO production, Chem. Eng. J. 389 (2020), 
+124426. 
+[29] J. Tong, Q. Jiang, Z. Chen, et al., Two-step thermochemical cycles for CO2 splitting 
+on Zr-doped cobalt ferrite supported on silica, Sol. Energy 116 (2015) 133–143. 
+[30] I. Teknetzia, P. Nessib, V. Zaspalis, et al., Ni-ferrite with structural stability for 
+solar thermochemical H2O/CO2 splitting, Int. J. Hydrog. Energy 42 (42) (2017) 
+26231–26242. 
+[31] A. Steinfeld, P. Kuhn, J. Karni, High-temperature solar thermochemistry: 
+production of iron and synthesis gas by Fe3O4-reduction with methane, Energy 18 
+(3) (1993) 239–249. 
+[32] H.E. Bush, P.G. Loutzenhiser, Solar electricity via an Air Brayton cycle with an 
+integrated two-step thermochemical cycle for heat storage based on Fe2O3/Fe3O4 
+redox reactions: thermodynamic and kinetic analyses, Sol. Energy 174 (2018) 
+617–627. 
+[33] R.R. Bhosale, Synthesis and characterization of nanocrystalline CoFe2O4-zirconia 
+via propylene oxide aided sol-gel method, Ceram. Int. 44 (7) (2018) 8679–8683. 
+[34] G. Takalkar, R.R. Bhosale, F. AlMomani, et al., Thermocatalytic splitting of CO2 
+using sol-gel synthesized Co-ferrite redox materials, Fuel 257 (2019), 115965. 
+[35] P. Haseli, M. Jafarian, G.J. Nathan, High temperature solar thermochemical 
+process for production of stored energy and oxygen based on CuO/Cu2O redox 
+reactions, Sol. Energy 153 (2017) 1–10. 
+[36] E. Lu´evano-Hip´olito, Leticia M. Torres-Martínez, A. Fern´andez-Trujillo, Ternary 
+ZnO/CuO/Zeolite composite obtained from volcanic ash for photocatalytic CO2 
+reduction and H2O decomposition, J. Phys. Chem. Solids 151 (2021), 109917. 
+[37] H. Guzm´an, F. Salomone, E. Batuecas, How to make sustainable CO2 conversion to 
+methanol: thermocatalytic versus electrocatalytic technology, Chem. Eng. J. 417 
+(2021), 127973. 
+[38] Y. Zhou, X. Guo, X. Li, In-situ growth of CuO/Cu nanocomposite electrode for 
+efficient CO2 electro-reduction to CO with bacterial cellulose as support, J. CO2 
+Utiliz. 37 (2020) 188–194. 
+[39] Y. Qiu, L. Ma, M. Li, et al., Copper and cobalt co-doped ferrites as effective agents 
+for chemical looping CO2 splitting, Chem. Eng. J. 387 (2020), 124150. 
+[40] D. Arifin, V.J. Aston, X. Liang, et al., CoFe2O4 on a porous Al2O3 nanostructure for 
+solar thermochemical CO2 splitting, Energy Environ. Sci. 5 (11) (2012) 9438–9443. 
+[41] J.R. Scheffe, A.H. McDaniel, M.D. Allendorf, et al., Kinetics and mechanism of 
+solar-thermochemical H2 production by oxidation of a cobalt ferrite–zirconia 
+composite, Energy Environ. Sci. 6 (3) (2013) 963–973. 
+[42] Y. Gao, Y. Mao, Z. Song, et al., Efficient generation of hydrogen by two-step 
+thermochemical cycles: successive thermal reduction and water splitting reactions 
+using equal-power microwave irradiation and a high entropy material, Appl. 
+Energy 279 (2020), 115777. 
+[43] E.N. Coker, A. Ambrosini, M.A. Rodriguez, et al., Ferrite-YSZ composites for solar 
+thermochemical production of synthetic fuels: in operando characterization of CO2 
+reduction, J. Mater. Chem. 21 (29) (2011) 10767–10776. 
+[44] Y.L. Kuo, W.M. Hsu, P.C. Chiu, et al., Assessment of redox behavior of nickel ferrite 
+as oxygen carriers for chemical looping process, Ceram. Int. 39 (5) (2013) 
+5459–5465. 
+[45] G.D. Takalkar, R.R. Bhosale, Application of cobalt incorporated iron oxide catalytic 
+nanoparticles for thermochemical conversion of CO2, Appl. Surf. Sci. 495 (2019), 
+143508. 
+[46] R.R. Bhosale, A. Kumar, F. AlMomani, et al., Sol-gel derived CeO2–Fe2O3 
+nanoparticles: synthesis, characterization and solar thermochemical application, 
+Ceram. Int. 42 (6) (2016) 6728–6737. 
+[47] H. Zhang, Y. Shuai, B. Guene Lougou, et al., Thermal characteristics and thermal 
+stress analysis of solar thermochemical reactor under high-flux concentrated solar 
+irradiation, Science China Technol. Sci. 63 (9) (2020) 1776–1786. 
+[48] P. Furler, J.R. Scheffea, A. Steinfeld, Syngas production by simultaneous splitting 
+of H2O and CO2 via ceria redox reactions in a high-temperature solar reactor, 
+Energy Environ. Sci. 5 (3) (2012) 6098–6103. 
+[49] T. Lu, F.W. Chen, Multiwfn: A multifunctional wavefunction analyzer, J. Comput. 
+Chem. 33 (5) (2012) 580–592. 
+B. Jiang et al.                                                                                                                                                                                                                                    

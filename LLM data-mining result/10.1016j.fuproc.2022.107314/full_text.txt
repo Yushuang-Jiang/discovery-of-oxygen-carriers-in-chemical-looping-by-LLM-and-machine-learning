@@ -1,0 +1,1032 @@
+
+
+===== Page 1 =====
+
+Fuel Processing Technology 234 (2022) 107314
+Available online 21 May 2022
+0378-3820/© 2022 Published by Elsevier B.V.
+Torrefaction enhanced biomass chemical-looping gasification coupled with 
+CO2-splitting via half doped LaFe0.5M0.5O3 perovskites 
+Xiaowen Shen , Yujian Wu, Xiwei Xu, Jingfeng Su, Zhen He , Enchen Jiang , Yongzhi Ren, 
+Yan Sun * 
+Key Laboratory for Biobased Materials and Energy of Ministry of Education, College of Materials and Energy, South China Agricultural University, Guangzhou 510642, 
+China   
+A R T I C L E  I N F O   
+Keywords: 
+Torrefied biomass 
+Chemical looping 
+Doped perovskites 
+CO2-splitting 
+LaFeO3 
+A B S T R A C T   
+In order to explore the oxidation and reduction properties of the LaFe0.5M0.5O3(M = Mn, Co, Ni, Cu) perovskites, 
+torrefied biomass (TB) gasification and CO2 splitting were coupled as a whole chemical looping reaction, while 
+the doped LaFe0.5M0.5O3 were prepared and employed as oxygen carriers(OCs) in the chemical looping. An 
+proper torrefaction temperature was screened first for producing more syngas, then the effect of doped perov­
+skites on the chemical looping reaction were evaluated via thermogravimetric analyzer and fixed-bed reactor in 
+terms of the syngas yield and CO formation rate. The results showed that the doped perovskites exhibited higher 
+activity in the gasification process, which promoted the conversion of TB and improved the yield of H2 and CO. 
+Specifically, the CO yield of LaFe0.5Co0.5O3 and the H2 yield of LaFe0.5Ni0.5O3 was improved by about 4 times 
+and 1.3 times respectively compared with original LaFeO3. Moreover, LaFe0.5Ni0.5O3 exhibited better perfor­
+mance in both TB gasification and the CO2 splitting reaction, and the yield of H2 and CO reached 3.71 mmol⋅g−1 
+and 1.80 mmol⋅g−1, respectively. Furthermore, the composition and surface topography evolution of doped 
+perovskite were analyzed via TEM, SEM and XRD, and the results of XPS, EPR and TGA were combined to reveal 
+the reaction mechanism.   
+1. Introduction 
+The energy crisis and derived environmental problems force people 
+to find novel renewable ways to obtain fuels and chemicals [1]. Biomass 
+has been considered as the fourth energy source, which is also a kind of 
+green and renewable energy [2]. Preparing syngas from biomass gasi­
+fication is a promising way to convert biomass into fuels and value- 
+added chemicals [3]. However, the ratio of syngas obtained from 
+biomass gasification is difficult to reach the desired ideal value [4], 
+meanwhile, the separation device is always required to separate and 
+purify the gas product [5]. As the technology developed in recent years, 
+chemical looping technology provides a way to obtained purity syngas 
+without the costly separation process [6]. Biomass chemical looping 
+gasification coupled with CO2 splitting is a method derived from tradi­
+tional chemical looping technology, which not only overcomes the 
+shortcomings of traditional gasification but also achieves the effective 
+utilization of CO2. However, the complex composition of biomass pro­
+poses more requirements for the technology, thus the concerns have 
+been focused on the biomass feedstock improvement and the oxygen 
+carrier development [7]. 
+Previous researches have proved that the composition of biomass can 
+be preliminary controlled by pretreatment, which can not only reduce 
+the oxygen content of the biomass, but also achieve the enrichment of 
+the lignin or cellulose [8,9]. Torrefaction is one of the most promising 
+method for industrialization due to its process simplicity, it can be 
+regarded as a 200–300 ◦C low-temperature biomass pyrolysis process, 
+which could be used for decreasing the O content and improving the 
+heat value and energy density via simple low-temperature heating 
+treatment [10]. Moreover, torrefaction can reduce hemicellulose and 
+cellulose content in the biomass, which is instrumental in decreasing 
+CO2 formation and improving the syngas yield [11]. Several studies 
+have been found on the effects of torrefaction pretreatment on the BCLG 
+reaction performance. Fan et al. [12]. reported that the torrefaction 
+could effectively reduce the tar content and adjusted the H2/CO ratio of 
+the syngas in the BCLG process. Zhang et al. [13]. further studied the 
+chemical looping gasification behavior of torrefied spruce-pine-fir (SPF) 
+* Corresponding author. 
+E-mail address: simyan_sun@163.com (Y. Sun).  
+Contents lists available at ScienceDirect 
+Fuel Processing Technology 
+journal homepage: www.elsevier.com/locate/fuproc 
+https://doi.org/10.1016/j.fuproc.2022.107314 
+Received 23 January 2022; Received in revised form 7 May 2022; Accepted 7 May 2022   
+
+
+===== Page 2 =====
+
+Fuel Processing Technology 234 (2022) 107314
+2
+sawdust and Fe2O3. The results provided insights into the potential use 
+of torrefied biomass as a reactant in the chemical looping system, which 
+can significantly improve the H2/CO ratio of the syngas and decrease the 
+gasification activation energy. 
+Although torrefied biomass could replace biomass in chemical 
+looping gasification for producing high quality syngas, the OCs play the 
+determination role in the chemical looping gasification [14,15]. The 
+route that biomass chemical looping gasification coupled with CO2 
+splitting also proposes more requirements to the OCs designation. 
+Except for the good oxygen releasing capacity, the competitive CO 
+selectivity and CO2 cracking activity are also important for the OCs [16]. 
+Transition metal oxides, such as Fe, Co, Ni, Cu and so on, in the form of 
+spinel, perovskite have been extensively studied as OCs in chemical 
+looping [17]. Specifically, iron based perovskite are wildly used in 
+chemical looping conversion of solid fuel, attributing to their excellent 
+oxygen releasing capacity, thermal stability,as well as their low cost 
+[18,19]. As the typical iron based perovskite, LaFeO3 has been proved 
+that its alkaline active sites on the surface prefer to adsorb CO2 rather 
+than CO, which results its better CO selectivity. However, although 
+LaFeO3 assembles the advantages of perovskite and iron oxide, its oxy­
+gen releasing ability generally appears around 850 ◦C, while its activity 
+is poor at lower temperatures [20]. B-site doping is a promising modi­
+fication method for improving perovskite properties, which would 
+induce other ions to substitute the iron ions [21]. Early reports have 
+proved that proper substitution would increase oxygen vacancies, 
+change B-site metal ion valence states, produce crystal structure defects 
+and lead a directly effect on the based perovskite oxygen supply per­
+formance and catalytic performance. Yan et al. [21]. have found the Ba 
+doped LaFeO3 exhibited better carbon conversion and gasification effi­
+ciency in the chemical looping steam gasification of algae, while Li et al. 
+[22]. proved the Cu doped LaFeO3 showed the best gasification effi­
+ciency in the chemical looping gasification of fermented sludge. How­
+ever, most of the researcher concern about oxidation property of the 
+doped perovskites, while its reduction property after chemical looping 
+gasification are rare studied, let alone its applying in CO2 reduction. 
+Inspired by this, herein, the torrefied biomass gasification and CO2- 
+splitting were assembled as a whole chemical looping (See Fig. 1), while 
+the M-doped(M = Mn, Co, Ni, and Cu) LaFeO3 perovskites were 
+employed as oxygen carriers(OCs) in the chemical looping. The oxida­
+tion property of the doped perovskites and the reduction property of the 
+reduced doped perovskites were investigated via gasification and CO2- 
+splitting reaction respectively. Moreover, the composition and surface 
+topography evolution of doped perovskite were analyzed via SEM, TEM 
+and XRD, while TGA, EPR and XPS were applied to reveal the reaction 
+mechanism. 
+2. Materials and methods 
+2.1. Materials 
+2.1.1. The torrefaction of biomass 
+The shell of camellia oleifera was obtained from Huanggang city, 
+Hubei Province (China). Before torrefaction, the samples were dried at 
+100 ◦C for 24 h, then crushed into powder with pulverizer and sieved 
+through a 60-mesh sieve. In a typical torrefaction, 25 g of biomass (UB) 
+powder was torrefied in a fixed bed quartz tuber reactor at aim tem­
+perature (200, 240, 280, 320 ◦C) and held for 90 min with 100 mL/min 
+N2 as protection gas. 
+2.1.2. The preparation of oxygen carriers 
+LaFeO3(LaFe) and the half doped LaFe0.5M0.5O3(LaFeM) perovskites 
+(M = Mn, Ni, Cu, Co) were prepared by sol-gel method and the details of 
+all chemical reagents were listed in Table S1. The La (NO3)3⋅6H2O 
+(99%), Fe (NO3)3⋅9H2O (99%), 50%wt Mn (NO3)2 (99%), Co 
+(NO3)2⋅6H2O (99%), Ni (NO3)2⋅6H2O (99%), Cu (NO3)2 (99%) and citric 
+acid monohydrate were bought from Macklin. In typically, all metal 
+nitrates were dissolved into 200 mL deionized water. Then citric acid 
+was added into the above solutions in an amount of 1 M ratio to the total 
+metal ions. The above mixture solution was stirred with 400 rpm for 10 
+min, then the solution was transferred to an oil bath for evaporating 
+(80 ◦C, 8 h) until the solution was transformed to gel. The obtained gel 
+was dried at 120 ◦C for 100 min, then a sponge-like solid was obtained. 
+After grinding, the powders were moved into a crucible, in which these 
+powders were thermally decomposed at 400 ◦C for 2 h and calcined at 
+900 ◦C for 4 h. The calcined sample was ground and sieved (60 mesh) to 
+obtain the required samples. 
+2.2. Characterization of biomass samples 
+The structural changes of biomass were analyzed by a Fourier 
+transform infrared spectroscopy (FTIR) (Tensor 27, Bruker, Germany) 
+between 4000 and 400 cm−1. The ultimate analysis of fresh and torrefied 
+biomass samples were analyzed via the CHNS and O analyzer (Ele­
+mentar, Vario EL cube). The proximate analysis of samples (moisture 
+content, volatile matter, and ash content) was measured by ASTM 
+D5142-09. 
+2.3. Oxygen carrier characterization 
+The phase composition was analyzed by X-ray diffraction (XRD) on 
+an Ultima IV X-ray diffractometer with Cu Kα radiation, an operating 
+voltage of 40 kV, and a current of 40 mA in the angle interval from 20◦to 
+80◦(2θ), with a step size of 12◦(2θ). Meanwhile, the crystallite size also 
+derived from XRD via Scherrer equation, while the patterns were drawn 
+after background subtraction. The X-ray photoelectron spectroscopy 
+(XPS) experiments were obtained using Thermo-Scientific spectrometer 
+with an atmosphere of 5 × 10−9 mbar vacuum and monochromatized Al 
+Kα X-rays (1486.6 eV). The morphology of the perovskite-type oxides 
+was determined by scanning electron microscopy (SEM) on a Hitachi- 
+S4800 FESEM instrument. The initial oxygen vacancy concentration of 
+perovskites was tested via Electron Paramagnetic Resonance (EPR, 
+Bruker A300). 
+D =
+kγ
+BCOSθ × 100%
+(1) 
+K:is the Scherrer constant; D: is the average thickness of the grain 
+perpendicular to the crystal plane; B is the half peak height width or 
+integral width of the diffraction peak of the measured sample; θ: is the 
+Fig. 1. The scheme of coupled TB chemical looping gasification method used.  
+X. Shen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 3 =====
+
+Fuel Processing Technology 234 (2022) 107314
+3
+Bragg angle; γ:is the X-ray wavelength, which is 1.54056 Å. 
+2.4. Reactivity test 
+2.4.1. Thermogravimetric analysis 
+The oxygen releasing capacity of the fresh OCs was tested by a 
+thermogravimetric analyzer (NETZSCH STA-449c). The oxygen release 
+test: 8-12 mg LaFeM was put into an alumina crucible, after crucible was 
+settled in the TGA, 0.8%–1.6% H2 (balanced with Ar) at 100 mL/min 
+were sent to the instrument. Then, the temperature was raised from 
+room temperature to 800 ◦C with 20 ◦C/min and held for 40 min. The 
+gasification test of TB (320) with LaFeM: the mixture of LaFeM and TB 
+(320) with a mass ratio(m(OCs)/m(TB)) of 2 were put into an alumina 
+crucible and settled in TGA, N2(100 mL/min) was injected to keep the 
+inter atmosphere,while the temperature was raised from 30 ◦C to 800 ◦C 
+at a heating rate of 20 ◦C/min and then maintained at 800 ◦C for 30 min. 
+2.4.2. The tests of TB gasification and CO2 splitting on fixed bed 
+TB gasification and CO2 splitting reaction with B-doping LaFe pe­
+rovskites were carried on a fixed-bed quartz reactor. Typically, The 
+mixed samples with 1.5 g TB and 3 g perovskite were packed into quartz 
+tube with length of 310 mm and inner diameter of 21.62 mm. Quartz 
+wool was placed on both sides of the sample to ensure uniformity of the 
+inlet mixture gas and avoid the outflow of the OCs and TB. After the 
+reactor temperature arrived at 800 ◦C,the quartz tube with samples was 
+placed into the furnace and kept in N2 atomsphere with N2 flow at 30 
+mL/min. During the reaction(60 min), the yield gas was collected by gas 
+bag in each 5 min. After gasification stage, the N2 flow was kept for 10 
+min, then the gas was switched to CO2 with flow rate at 20 mL/min. The 
+yield gas was collected and detected in each 2 min until no CO being 
+detected in the yield gas, then end the reaction. The generated gas was 
+analyzed by the gas chromatograph (Agilent 6820) as the previous 
+research [23]. Carbon conversion (ƞ) and carbon conversion efficiency 
+(ƞgas) and the ratio of H2/CO (R) in the stage of TB gasification were 
+calculated as follows: 
+η =
+mafter × C%after
+mbiomass × C%biomass
+× 100%
+(2)  
+ηgas = (VCO + VCO2 + 2VC2H4 + 2VC2H6)/22.4
+mbiomass × C%biomass/12
+× 100%
+(3)  
+R = VH2
+VCO
+(4)  
+Vgas = N2 Flow
+PN2
+× Pgas
+(5) 
+Nomenclature: mafter: Sample mass after gasification; mbiomass: mass of 
+biomass initial input; C%after: Carbon content of sample after gasifica­
+tion; C%biomass: Carbon content of biomass; Vgas: the volume of each gas 
+(CO,CO2,C2H4,C2H6);Pgas: Partial pressure of each gas(CO,CO2,C2H4, 
+C2H6) in gas production (calculated from the relative content deter­
+mined via GC);N2 Flow: the N2 Flow =20;PN2:Partial pressure of N2 in gas 
+production. 
+In order to quantify the oxygen release and recovery during the fixed 
+bed reaction, thermogravimetric analyzer(TGA) was combined with 
+elemental analysis. The samples(OCs + biomass residue) after TB gasi­
+fication was collected, its elemental was tested via elemental analysis 
+while its oxidation weight gain was checked by TGA(air). Typiclly, 8-12 
+mg samples after TB gasification were put into TGA reactor, then the 
+temperature was rised to 900 ◦C at 20 ◦C/min rate under air atomsphere 
+with 60 mL/min 20%O2(N2) flow, then the oxidation weight gain was 
+record by the TG curve. However, during the TGA(air) test, the weight 
+change was the sum of LaFeM oxidation and the biomass residue com­
+bustion, thus the oxygen release was calculated as Eq. (4). Due to the 
+mass of H and O in biomass residue was far less than the C, the mass 
+losing from O and H was ignored in the equation. 
+mOrelease = mafter × C%after −mafter × wcombustion
+(6)  
+wcombustion = mout
+mafter
+× 100%
+(7) 
+Nomenclature: mOrelease: the quantity of oxygen release in gas­
+ificationfrom OCs; mafter: mass of sample after gasification; C%after: 
+Carbon content of sample after gasification; wcombustion: weight loss ratio 
+of samples after gasification during oxidation.mout:weight of samples 
+after the combustion in TGA. 
+After the reaction of CO2 reduction, two experiments were designed 
+for the samples: (1) the first one is removing the surface absorbed gas, 
+the samples(OCs + C residue) was settled in the TGA with an Ar flow rate 
+of 15 mL/min. The temperature was raised from 40 ◦C to 900 ◦C at a 
+heating rate of 20 ◦C/min and held at that temperature for 30 min. (2) 
+the second one is to quantify the recovered oxygen of OCs. The samples 
+was settlted in the TGA with an 20% O2/80% N2 flow rate of 60 mL/min. 
+The temperature was raised from 30 ◦C to 900 ◦C at a heating rate of 
+20 ◦C/min. The amount of oxygen recovered in the CO2 atmosphere was 
+calculated as follows: 
+mOrecover = mOrelease + mregeneration
+(
+wcombustion −C%regeneration
+)
+(8) 
+Nomenclature: mregeneration:mass of sample after CO2 spllitting; C 
+%regeneration: Carbon content of sample after CO2 reduction; wombustion: 
+Combustion weight loss ratio of samples after CO2 reduction. 
+3. Results and discussions 
+3.1. The effect of torrefaction temperature on the biomass chemical- 
+looping gasification coupled with CO2-splitting 
+Since torrefaction temperature played a key role in the composition 
+of torrefied biomass, an proper torrefaction temperature was screened 
+through evaluating the production distribution during chemical looping 
+gasification. FT-IR, proximate analysis and ultimate analysis were 
+applied to observe the influence of torrefaction temperature on the 
+composition of biomass, and the results were showed in Fig. 2(a–b) and 
+Table.1. It can be found from Fig. 2(a) that the weight loss of biomass 
+gradually decreased with the increasing of torrefaction temperature, 
+which indicated that the components of biomass were converted during 
+the torrefaction. Moreover, the DTG curve(Fig. 2(b)) showed that the 
+weight losing peak, which represented hemicellulose (224 ◦C) and cel­
+lulose (283 ◦C and 347 ◦C), disappeared gradually with the increasing of 
+torrefaction temperature, while the weight loss peak area of lignin 
+(>400 ◦C) increased. Meanwhile, part of H and O were removed from 
+biomass via the dehydration, decarboxylation, and dehydrogenation 
+during torrefaction. Therefore, the C content of torrefied biomass was 
+increased with the torrefaction temperature, while its value of O/C and 
+H/C gradually decreased. Furthermore, the increasing of fixed carbon 
+was accompanied by the decreasing of volatile matter, which may weak 
+the connection between biomass and oxygen carriers. 
+The effect of torrefaction temperature on LaFeNi performance during 
+the gasification and CO2 splitting reaction were explored and the results 
+were showed in Fig. 2(c–d) and Fig. S5. The changing trend of CO (Fig. 2 
+(c)) showed that its yield decreased gradually with torrefaction tem­
+perature increasing. 240 ◦C could be considered as a critical value of 
+torrefaction temperature, the CO yield was more than 240 mmol at 
+torrefaction temperature lower than 240 ◦C, while the CO yield 
+decreased lower than 160 mmol after the temperature increasing over 
+240 ◦C. Combined with the composition analysis(Fig. 2(b)), cellulose 
+and hemicellulose content showed the same variety trend as CO with the 
+torrefaction temperature increasing, which proved that CO may be the 
+mainly gasure production from cellulose and hemicellulose gasification. 
+With the increasing of torrefaction temperature (≥240 ◦C), the product 
+distribution showed that hydrogen gradually increased, while CO 
+X. Shen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 4 =====
+
+Fuel Processing Technology 234 (2022) 107314
+4
+decreased due to the decreased volatile matter. In addition, the H2/CO 
+ratio increased to 2.0 at the torrefaction temperature of 320 ◦C. During 
+the CO2 splitting stage, the CO yield increased firstly and then tended to 
+be stable with the increasing of torrefaction temperature. It was possible 
+that 1) CO2 was converted to CO via the reaction of biomass residual 
+carbon with CO2 under the catalytic role of perovskite with CO2.(CO2 +
+C = 2CO); 2) The CO2 was converted to CO under the reductive action of 
+perovskite(xCO2 + LaFeNiO3-y = xCO + LaFeNiO3+x-y). As the high 
+torrefaction temperature(>240 ◦C) deriving higher CO production, it 
+may be the higher fixed carbon content would increase the proportion of 
+residual carbon and promote more CO2 to be converted into CO. 
+Comprehensive analysis showed that torrefaction pretreatment could 
+adjust the composition of biomass and influence the product distribution 
+of chemical looping cycle process. 
+3.2. The effect of M doping on the torrefied biomass CLG coupled with 
+CO2-splitting via LaFe perovskites 
+The doped LaFe0.5M0.5O3 perovskites (M = Mn, Co, Ni, Cu) were 
+used as oxygen carrier for the gasification of TB (320), the total amount 
+of each product was shown in Fig. 3(a). As a result of increasing the yield 
+of H2, CO and CO2, all the doped LaFe0.5M0.5O3 perovskites promoted 
+gasification reaction. According to the Fig. S1, it can be found that most 
+of the CO2 was formed at the begin of the reaction, which proved the 
+surface absorption oxygen contributed to the completed oxidation, 
+while the slowly releasing of lattice oxygen provided a slow and lasted 
+CO formation proceed. It was worth noted that the CO2 yield of LaFeCu 
+(1.58 mmol g−1) was much higher than other samples, indicating that 
+the complete oxidation of TB (320) was the main reaction during gasi­
+fication with LaFeCu perovskites. The H2 yield of LaFeNi was the highest 
+Table 1 
+Properties of biomass samples.  
+Sample 
+Proximate analysis (dry basis) (wt%) 
+Ultimate (wt%) 
+Atomic ratio 
+Volatile matter 
+Ash 
+Fixed carbon 
+C 
+H 
+O 
+O/C 
+H/C 
+UB 
+73.81 
+2.81 
+23.38 
+48.53 
+4.66 
+44.92 
+0.93 
+0.10 
+TB (200) 
+57.20 
+3.25 
+39.55 
+57.53 
+4.96 
+35.18 
+0.61 
+0.09 
+TB (240) 
+32.79 
+5.64 
+61.57 
+66.88 
+4.03 
+25.35 
+0.38 
+0.06 
+TB (280) 
+26.22 
+5.96 
+67.82 
+69.92 
+3.63 
+23.28 
+0.33 
+0.05 
+TB (320) 
+20.84 
+7.48 
+71.68 
+69.88 
+3.47 
+22.20 
+0.32 
+0.05  
+Fig. 2. The analysis of coupled gasification in TG reactor (a)TG curve of different biomass; (b) DTG curve of different biomass; and Fixed bed (c)Gas distribution of 
+different biomass at gasification reaction (d) CO generation of different biomass at CO2 splitting reaction. 
+X. Shen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 5 =====
+
+Fuel Processing Technology 234 (2022) 107314
+5
+(3.71 mmol g−1),while LaFeCo obtained the highest CO yield(1.98 
+mmol g−1). In addition, the yield of syngas of LaFeNi reached 5.51 
+mmol g−1, which was much higher than the syngas production of 2.85 
+mmol g−1 obtained by Long et al. [24] via chemical looping reforming of 
+CH4. To further measure the selectivity of OCs to the partial oxidation of 
+C in the sample, the value of CO/(CO + CO2) was compared. LaFeCo and 
+LaFeNi performed the largest values of CO/(CO + CO2), which reached 
+around 70% and 65% respectively, indicating that these two perovskites 
+exhibited good CO selectivity. The C conversion(ƞ) and C conversion 
+efficiency(ƞgas) were shown in Fig. 3(b), both ƞ and ƞgas were increased 
+after half doping of Co, Ni and Cu, while the half doping of Mn decreased 
+the C conversion. LaFeNi showed the highest ƞ and ƞgas with a value of 
+31.88% and 11.72%, respectively. These results further demonstrated 
+that LaFeNi were the suitable oxygen carrier for the TB (320) chemical 
+looping gasification. 
+In the CO2 splitting stage, Fig. 3 (c) showed the variation of CO 
+generation rate with time via different perovskites as oxygen carriers. 
+The results proved that doping different metal in perovskites changed 
+the CO generation time and generation rate during the CO2 splitting 
+stage. For all doped perovskites, the rate of CO generation maintained 
+above 15 mL⋅min−1 for 120 min. Although LaFeMn and LaFe only 
+released a slight amount of oxygen during torrefied biomass gasification, 
+they showed a promoting effect in CO2 reduction. For these two pe­
+rovskites, oxygen vacancies may play a role in promoting the reaction of 
+C + CO2 = 2CO. Besides, LaFeCu, LaFeNi, and LaFeCo promoted the 
+splitting of CO2, especially, the rate of CO generation via LaFeNi was 
+much higher the other half doped perovskites in the first 120 min. 
+Furthermore, the effect of different doping metal on the CO yield and 
+the average rate of CO generation during CO2 splitting stage were shown 
+in Fig. 3(d). The CO yield was in the following order: LaFe > LaFeNi >
+LaFeMn > LaFeCu > LaFeCo > SiO2. However, the production of CO 
+mainly depended on the C content of biomass residue during gasification 
+stage and the amount of oxygen uptake of the perovskite from CO2 [25]. 
+Due to the OCs exhibited different activity in the stages of gasification, 
+the high active OCs had less carbon residue and showed more oxygen 
+consumption, while the low active OCs obtained more carbon residue 
+and less oxygen consumption, which resulted the difference of CO pro­
+duction was slight. In these two stages, the Ni-doped perovskite obtained 
+a high yield of syngas(5.4 mmol g−1) and CO (45.31 mmol g−1), 
+respectively. Compared with LaFe perovskite, Ni doping increased the 
+average rate of CO generation from 189.89 × 103 mmol g−1⋅min−1 to 
+221.00 × 103 mmol g−1⋅min−1 with a lower carbon residue content from 
+gasification stage, which prove the reduced metal not only acted as an 
+active centers for the activation of the CO2 [26],but also participated the 
+reaction of CO2 reduction. Meanwhile, the change of surface basicity of 
+perovskite caused by the enhancement of the reduction degree of 
+perovskite may be the other main reason for the activation of CO2 [27]. 
+3.3. The oxygen transfer properties of doping-LaFe during coupled 
+gasification 
+To investigate the oxygen transfer properties of doping-LaFe 
+Fig. 3. (a) The Gas distribution of M-doping LaFe perovskites in torrefied biomass gasification tests. (b) ƞ and ƞgas of M-doping LaFe perovskites in torrefied biomass 
+gasification tests(c) The CO generation rate of M-doping LaFe perovskites in CO2 splitting tests. (d) CO yield and average generation rate during the CO2 reduction/ 
+splitting stage with M-doping LaFe perovskites. 
+X. Shen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 6 =====
+
+Fuel Processing Technology 234 (2022) 107314
+6
+perovskite, the spent samples obtained at each reaction were further 
+analyzed via the TG (air) as showed in Fig. 4. It was hard to distinguish 
+the difference of the doping-LaFe perovskites via the TG curve, the data 
+of elemental analysis in Table S2 also was analyzed. Based on the 
+elemental analysis results, the weight losing amount, which derived 
+from C, H, N oxidation, could be calculated, then the difference between 
+element analysis and the TG results was induced by the perovskite 
+oxidation, which revealed the oxygen releasing property [28,29]. The 
+sequence of oxygen release followed: LaFeCu (5.00%) > LaFeNi 
+(4.33%) > LaFeCo (3.33%) > LaFe ~ LaFeMn (0.00%), while LaFe and 
+LaFeMn cannot be accurately calculated for their poor performance. The 
+theory oxygen content of these perovskite was around 6.58%, thus the 
+different metal doping changed the oxygen releasing property. Zhao 
+[30] proved that extra oxygen vacancies would be formed after doping, 
+which may adsorb more surface oxygen on the perovskite. Li [27] found 
+that the category of doping metal showed different metal-O bond en­
+ergy, which would influence the lattice oxygen transferring. However, 
+no matter which way changed the oxygen release characteristics of 
+perovskite, appropriate metal doping treatment can effectively control 
+the oxygen release of perovskite. Due to the slight C, H, N content of 
+spent samples after CO2 splitting reaction, the TG results showed in the 
+Fig. 4(b) were weight gain curves, which directly reflected the perov­
+skite recovery oxygen amount during the TG (air). However, the more 
+recovery oxygen amount appeared in the TG (air), the less recovery 
+oxygen amount obtained from CO2 splitting. It calculated that the order 
+of weight gain in TG(air) was: LaFeCu > LaFeNi > LaFeMn > LaFeCo >
+LaFe. Then, the recovery oxygen amount during CO2 splitting sequence 
+of these perovskite was LaFeCo > LaFeNi > LaFeCu ~ LaFeMn ~ LaFe. It 
+was normal to have little weight loss in an air atmosphere according to 
+the poor performance of LaFe and LaFeMn in the gasification stage for 
+the combustion of residual carbon. Since the structure of perovskite will 
+be changed in the redox process, thus the initial structure of perovskite 
+will not be the main factor in influencing the CO2 splitting reaction, the 
+activation of C–O bond via active metal played a key role on the oxygen 
+recovery. Consistent with previous studies, Ni and Co metal showed 
+better activity during CO2 splitting reaction. 
+3.4. Physical and chemical properties of OCs 
+3.4.1. Composition evolution during coupled gasification 
+XRD patterns of the fresh, reduced, and regenerated samples were 
+presented in Fig. 5. The phase changes and grain size were shown in 
+Table S3. The curves of fresh samples were compared to the Joint 
+Committee on Powder Diffraction Standards (JCPDS) card of 
+LaFe1−xMxO3−δ. There was no other crystalline phase that can be 
+detected in the patterns of LaFe (Fig. 5.a), LaFeMn (Fig. 5.b), LaFeCo 
+(Fig. 5.c) and LaFeNi (Fig. 5.d), indicating that the pure phase was ob­
+tained. However, CuO was found in the fresh sample of LaFeCu (Fig. 5. 
+e), which may be due to a consequence of a B-site deficiency in the 
+perovskite [31]. Zhang et al. [32] proved that CuO began to be reduced 
+by H2 at about 240 ◦C, so the first weight loss of LaFeCu (in Fig. 4) was 
+much larger than other perovskites for the reduction of CuO coinciding 
+in the LaFeCu. After gasification, all the doped perovskites showed 
+relative reduction products, even these perovskites were not reduced 
+completely. It should be noted that LaFeNi (Fig. 5.d) and LaFeCu (Fig. 5. 
+e) samples showed some peaks of C after gasification and it indicated 
+that crystalline carbon was generated through volatiles cracking after 
+gasification. 
+Due to the variation in the XRD patterns of LaFe (Fig. 5.a) and 
+LaFeMn (Fig. 5.b) were slight, which proved both of LaFe and LaFeMn 
+showed less effect as OCs on the gasification or CO2 splitting. Thus, the 
+analysis were focused on LaFeNi, LaFeCo and LaFeCu. After CO2 
+reduction, the XRD results showed that LaFeCo, LaFeNi and LaFeCu 
+produced a large proportion of La2O2CO3 in CO2 reduction stage and the 
+value of La2O2CO3/La was 20–30%. The LaFeNi (Fig. 5.d) and LaFeCo 
+(Fig. 5.c) samples failed to detect the corresponding alloy and the peak 
+of C that existed in the samples after gasification, indicating that the 
+regeneration of LaFeNi and LaFeCo. However, the peak of C did not 
+disappear in the pattern of LaFeCu (Fig. 5.e) after reacting with CO2. 
+These results proved that the alloy in the reduced LaFeNi (Fig. 5.d) and 
+LaFeCo (Fig. 5.c) promoted the reaction of C and CO2 as the function of 
+catalyst, while Cu showed less catalytic activity on the same reaction. 
+Qiu et al. [33] also found that increasing Cu doping amount was not 
+conducive to the oxidation reaction of the reduced sample in a CO2 at­
+mosphere. In summary, the reduced LaFeNi and LaFeCo absorbed parts 
+of the oxygen from CO2 for their own oxidation and LaFeNi should be the 
+best oxygen carrier for TB (320) chemical looping gasification in the four 
+doped perovskites. The grain size changes of various components in the 
+phase change of perovskites were calculated in Table S3. For the pe­
+rovskites doped with Co, Ni and Cu after gasification, the grain size of 
+ABO3-δ was smaller than the fresh and regenerated one. Moreover, the 
+intensity of the ABO3-δ diffraction peak was reduced after reduction, 
+which may due to the reduction of perovskite, but the intensity was 
+restored after the CO2 regeneration. 
+3.4.2. Surface topography evolution during coupled gasification 
+Fig. 6 showed the SEM images of some representative samples before 
+and after the reaction. The fresh perovskites had similar particle 
+(a) TG (air) analysis of spent oxygen carries after torrefied 
+biomass gasification. 
+(b) TG (air) analysis of spent oxygen carries after CO2
+splitting stage
+Fig. 4. TG analysis of samples after the redox reaction.  
+X. Shen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 7 =====
+
+Fuel Processing Technology 234 (2022) 107314
+7
+structures, while their degree of dispersion was different. The particles 
+of LaFeCo were evenly dispersed and the structure was loose, while some 
+massive structures were observed in LaFe and LaFeNi samples. The 
+morphology of LaFe had not changed after the reactions, which was 
+consistent with the poor performance in the gasification stage (Fig. 2 and 
+Fig. 4). However, the particles of LaFeCo were piled up together after 
+releasing parts of oxygen through the gasification. After regeneration, 
+the stacking state was relieved and the particles were distinct, but some 
+regular lumps were still existed. These changes indicated that LaFeCo 
+was regenerated, which was consistent with the previous results [23]. 
+After releasing the lattice oxygen in the gasification stage, LaFeNi 
+sample surface voids were filled with some substance which might be 
+the carbon deposit produced by the cracking of volatile matter. The 
+change of LaFeNi morphology may have a beneficial effect on the initial 
+rate of CO production in the CO2 splitting stage. After regeneration, most 
+of the LaFeNi showed scattered particles, and the surface morphology 
+was close to the fresh sample. However some regular bulks were 
+observed, which needed further characterization to prove its composi­
+tion. Furthermore, the elemental analysis of the two distinct states in 
+LaFeNi and LaFeCo after regeneration was carried out via energy 
+dispersive spectroscopy (EDS), and the results were presented in Fig. S3. 
+In the granular part of the sample, the molar ratio of B-site metals/La 
+was greater than 1 and the ratio of O/La was greater than 4, while the 
+two values of the bulk area were less than 0.6 and 4, respectively. 
+Fig. 5. X-ray diffraction patterns of fresh perovskites and samples after reactions. (a) LaFe, (b) LaFeMn, (C) LaFeCo, (d) LaFeNi, (e) LaFeCu.  
+X. Shen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 8 =====
+
+Fuel Processing Technology 234 (2022) 107314
+8
+Therefore, the reason for the bulk formation should be the sintering of 
+components that had not been regenerated in the CO2 reduction stage. 
+Besides, a small amount of K was also observed, which was the ash 
+derived from the shell of camellia oleifera. 
+3.5. Mechanism analysis 
+3.5.1. The effect of doping on the surface activity of perovskite 
+Thermogravimetric (TG) analysis under H2 atmosphere was con­
+ducted on M-doping metals LaFeM to analyze their reduction properties 
+as shown in Fig. 7(a). LF showed poor oxygen releasing ability, and the 
+Fig. 6. SEM images of the (a) fresh LaFe, (b) fresh LaFeCo, (c) fresh LaFeNi, (d) LaFe after gasification, (e) LaFeCo after gasification, (f) LaFeNi after gasification, (g) 
+LaFe after regeneration, (h) LaFeCo after regeneration and (i) LaFeNi after regeneration. 
+Fig. 7. The H2-TG(a) and EPR(b) profiles of doped LaFe samples.  
+X. Shen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 9 =====
+
+Fuel Processing Technology 234 (2022) 107314
+9
+M-doping modified perovskites showed weight loss at the zone of below 
+500 ◦C, indicating their redox capacity were increased. It was possible 
+that the Fe–O bond strength was weakened by the doping. The first 
+reduction peak was positioned at 250–600 ◦C, corresponding to the 
+surface oxygen transformation. It is generally accepted that the higher 
+oxidation state of B-site metal ion would form more oxygen on the 
+surface, thus the initial reduction would also bring these metal to normal 
+oxidation state, such as Fe5+/Fe4+ → Fe3+ [34], Mn4+ → Mn3+ [35], 
+Co4+ → Co3+, Co3+ → Co2+, Ni3+ → Ni2+, Cu2+ → Cu0 [36,37]. Notably, 
+due to Cu2+ was easily reduced to Cu at low temperature, a much larger 
+weight loss peak appeared at LaFeCu pattern. Based on the first weight 
+losing ratio of doping OCs (Fig. 7(a):300–600 ◦C), the sequence of ox­
+ygen releasing capacity at 250–600 ◦C can be concluded as follows: 
+LaFeCu >LaFeNi > LaFeCo > LaFeMn > LaFe. An extremely slow 
+weightlessness peak began at 675 ◦C corresponding to the deep reduc­
+tion of metal cations, such as Fe3+ → Fe2+, Mn3+ → Mn2+ (bulk) [38], 
+Co2+ → Co0, Ni2+ → Ni0. According to the second weight losing ratio 
+(Fig. 7(a):>600 ◦C), the deep reduction taken most of the lattice oxygen 
+from B-site metal, the sequence of lattice oxygen releasing capacity as 
+follow: LaFeNi > LaFeCo > LaFeCu > LaFeMn > LaFe. 
+The EPR results were shown in the Fig. 7(b). It showed that metal 
+doping increased the initial oxygen vacancy concentration of perovskite 
+(initial oxygen vacancy concentration: LaFeCu> LaFeCo> LaFeMn >
+LaFeNi > LaFe). According to the performance of releasing oxygen of 
+different perovskites under the atmosphere of H2, the amount of oxygen 
+releasing during the reduction process was in the order: LaFeCu >
+LaFeCo > LaFeNi > LaFeMn > LaFe. Combined with TG (H2) results, it 
+can be found that the increasing of oxygen vacancy can improve the 
+oxygen release capacity of perovskite. On one hand, the increasing of 
+vacancy increased the adsorption oxygen concentration on perovskite 
+surface [39], on the other hand, it enhanced the difference of oxygen 
+concentration between the surface and lattice, which can promote the 
+release of lattice oxygen [40]. However, the different doping metals may 
+induce different influence on the Metal-O bond, which also affected the 
+oxygen release property. Thus, the LaFeCu with the highest oxygen 
+vacancy concentration showed the highest oxygen release ability, while 
+LaFeNi with the weakest improvement of oxygen vacancy showed the 
+third oxygen release ability, which indicated that the enhancement of 
+oxygen releasing ability of perovskite doped with different metals was 
+not limited to the single effect of oxygen vacancy or metal-O bond, but 
+the synergistic effect of the two sides. 
+XPS measurements were conducted to study the surface chemical 
+compositions of fresh samples and reduced samples. The XPS analysis 
+results of fresh samples and reduced samples were displayed in Table.2 
+and the deconvolution spectra of Mn 2p, Co 2p, Ni 2p and Cu 2p of fresh 
+samples were shown in Fig. S4, while the Fe 2p patterns were showed in 
+Fig. 8. For the spectrum of Fe 2p, the presence of satellite peak at ~719 
+eV and the asymmetry of the peak shape indicated that the samples 
+contained ions with different valences. Hence, both Fe 2p peaks could be 
+fitted to two peaks, as high valence Fe3+/Fe4+ located at 710.5 eV and 
+low valence Fe2+ located at 709.6 eV. As shown in the Fig. S4, for pe­
+rovskites containing Co and Ni, the effect of the Auger peak between 710 
+and 720 eV [41] was removed through deconvolution. The Mn states 
+were characterized by an asymmetric 2p3/2 main peak and an 
+asymmetric 2p1/2 main peak. The peaks centered at 641.3 eV and 
+652.9 eV were ascribed to Mn3+; the peaks centered at 642.9 eV and 
+654.2 eV were ascribed to Mn4+ [42]. The peak of Co 2p3/2 was 
+assigned to two parts with the relevant area at 779.3 eV (Co2+) and 
+780.3 eV (Co3+) [41]. The spectrum of Ni and La partially overlap at 
+840–860 eV. Concretely, the two peaks around 850.2 eV and 854 eV 
+could be assigned to Ni2+ and Ni3+ [43]. Since the photoelectron peaks 
+of Ni and La cannot be separated, the valence distribution of Ni was only 
+used as a reference. The peaks correspond to Cu 2p3/2 could be fitted 
+into two peaks, respectively. Generally, the band at 932.6 eV was rooted 
+in Cu+, while the peak at 933.2 eV belonged to Cu2+. 
+As previous researches, metal doping showed an important influence 
+on the formation of oxygen vacancy [44]. On one hand, the charge 
+compensation caused by doping would lead to the increase of oxygen 
+defect sites in perovskite system [45], on the other hand, metal doping 
+reduced the oxygen vacancy formation energy on perovskite surface 
+[46]. However, based on the results of O 1s, the distribution of lattice 
+oxygen and absorbed oxygen were inconsistent with EPR results, due to 
+the absorbed oxygen also including the surface air pollutants. Zhang 
+[47] proved that the number of Fe2+ ions in the system reflected the 
+concentration of oxygen vacancies on the premise of maintaining the 
+perovskite structure. Therefore, the distribution of Fe2+ and Fe3+ ions in 
+doped perovskite was analyzed, and the results were shown in Table 2. 
+Besides of the Mn doped perovskite, the Fe2+ ratio of other doped pe­
+rovskites followed the sequence of the EPR results, which proved the 
+doping accelerated the reduced of Fe3+ via the charge compensation 
+effect and further promoted the formation of oxygen vacancy. Moreover, 
+the increasing of oxygen vacancies in Mn doping perovskite may be 
+induced by the extra existing Mn oxide, which provided more oxygen 
+vacancies. Combined the results of H2-TG, EPR and XPS results, it can be 
+proved that oxygen vacancy showed significant influence on the 
+releasing of oxygen of perovskite, thus the choose of suitable doping 
+metal would be an important strategy for perovskite utilization. After 
+the gasification reaction, the biomass residue inducing other kind of 
+oxygen to the sample, causing the increase of adsorbed oxygen ratio as 
+showed in Table 2 (7, 8 columns). Moreover, the oxygen vacancy dis­
+appeared for the perovskite structural destruction, indicating the metal 
+activity played an important role during the CO2 splitting reaction. 
+3.5.2. Proposed reaction pathway analysis 
+Proposed reaction pathway of coupling of TB gasification and CO2 
+splitting for syngas were shown in Fig. 9. The reactions occurred in the 
+gasification were shown below, which mainly included the cracking and 
+oxidation of volatiles and the oxidation of C [48]: 
+(1) TB devitalization: TB → C + H2 + CO + CH4 + H2O + other 
+substance. 
+(2) Boudoard reaction: C + CO2 → 2CO. 
+(3) Gasification: Volatile+[O] → C + H2 + CO + CO2 + H2O, C+[O] 
+→ CO + CO2, H2 + [O] → H2O, CO+[O] → CO2. 
+(4) Perovskite reduction: LaFe0.5M0.5O3-δ → La2O3/La(OH)3 +
+FexMy + [O]. 
+The results of H2-TG, EPR and XPS showed that the doping increased 
+the oxygen vacancy concentration and reduced the strength of the 
+metal-O bond, promoted the migration of bulk oxygen to oxygen 
+Table 2 
+Surface compositions of fresh samples obtained by XPS analysis.  
+Sample 
+Fresh 
+After gasification 
+Atomic ratio (at. %) 
+Atomic ratio (at. %) 
+O I (lattice) 
+O II (adsorbed) 
+Fe2+
+Fe3+ or Fe4+
+Metal M 
+O I (lattice) 
+O II (adsorbed) 
+LaFe 
+41.76 
+58.24 
+29.74 
+70.26 
+– 
+21.27 
+71.74 
+LaFeMn 
+47.80 
+52.20 
+25.33 
+74.67 
+1.95 (Mn3+/Mn4+) 
+20.54 
+79.46 
+LaFeCo 
+43.76 
+56.24 
+45.85 
+54.15 
+0.35 (Co2+/Co3+) 
+4.21 
+95.79 
+LaFeNi 
+41.76 
+58.24 
+31.39 
+68.61 
+0.87 (Ni2+/Ni3+) 
+0.00 
+80.39 
+LaFeCu 
+35.47 
+64.53 
+61.48 
+38.52 
+0.34 (Cu+/Cu2+) 
+9.05 
+77.08  
+X. Shen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 10 =====
+
+Fuel Processing Technology 234 (2022) 107314
+10
+vacancies and increased the releasing of oxygen, while perovskite kept 
+its selective property to the CO and enhanced the CO yield. The CO2 
+splitting stage mainly included the carbon gasification and the oxygen 
+carrier regeneration. The reactions occurred in the CO2 splitting stage 
+were shown below: 
+(1) Gasification of carbon: C (carbon deposit and the remaining 
+biochar after gasification) + CO2 → 2CO. 
+(2) Perovskite oxidation: La2O3 + FexMy + CO2 → CO + LaFe0.5 
+M0.5O3-δ. 
+(3) Other reactions: La2O3 + CO2 → La2O2CO3. 
+In the CO2 splitting stage, the changes in basicity and the Ni sites of 
+the reduced perovskite caused by Ni doping, which exposed metal Ni 
+Fig. 8. XPS deconvolution spectra of Fe 2p.  
+X. Shen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 11 =====
+
+Fuel Processing Technology 234 (2022) 107314
+11
+and alloy NiFe, increasing its adsorption and activation capacity to the 
+CO2, thereby promoting the reduction reaction of CO2 and enhanced CO 
+yield. 
+4. Conclusions 
+Half doped LaFe0.5M0.5O3 perovskites (M = Mn, Ni, Cu, Co) prepared 
+by sol-gel method were used as the oxygen carrier and catalyst in 
+chemical looping reaction coupled with TB gasification and CO2 split­
+ting. Compared untreated biomass, torrefaction pretreatment could 
+adjust the composition of biomass and the product distribution of 
+chemical looping cycle process. Specifically, the CO yield increased from 
+46.76 mmol g−1(untreated biomass) to 149.76 mmol g−1 (torrefied at 
+240 ◦C), while the H2/CO ratio reached 2.0 during the gasification of 
+torrefied biomass(320 ◦C). The doping of the B-site metal enhanced the 
+oxygen release performance of LaFe perovskites. Moreover, the doped 
+perovskite showed better CO selectivity and improved the syngas yield. 
+Concretely, the H2 yield of LaFeNi was the highest (3.71 mmol g−1) and 
+LaFeCo had the highest CO yield (1.98 mmol g−1), while the H2/CO ratio 
+reached 2.07 with LaFeNi. During the CO2 reduction stage, the average 
+rate of CO generation also increased from LaFe (189.89 × 103 mmol g−1 
+min−1) to LaFeNi (221.00 × 103 mmol g−1 min−1). 
+The measurement of XRD, SEM, XPS and EPR were used to analyze 
+the mechanism. The results showed that the doping of Ni weakened the 
+bond strength between metal and O and promoted the lattice oxygen 
+transferring at gasification step, and the reduced metallic Ni further 
+promoted the activation of CO2 and accelerated CO generation during 
+the CO2 splitting stage. The study provided a new way for obtained H2/ 
+CO = 2 syngas via the chemical looping coupled with gasification of 
+torrefied biomass (TB) and CO2 reduction/splitting. 
+CRediT authorship contribution statement 
+Xiaowen Shen: Writing – original draft. Zhen He: Data curation. 
+Enchen Jiang: Supervision. Yan Sun: Writing – review & editing. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgements 
+This work was supported by Chinese National Natural Science 
+Foundation (Grant No. 52006074); Natural Science Foundation of 
+Guangdong Province, China (Grant No. 2021A1515010886); Youth 
+science and technology innovation talent of Guangdong TeZhi plan, 
+China (Grant No. 2019TQ05N068). 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.fuproc.2022.107314. 
+References 
+[1] Y. Liao, S. Koelewijn, G. Van den Bossche, J. Van Aelst, S. Van den Bosch, 
+T. Renders, K. Navare, T. Nicolaï, K. Van Aelst, M. Maesen, H. Matsushima, J. 
+M. Thevelein, K. Van Acker, B. Lagrain, D. Verboekend, B.F. Sels, A sustainable 
+wood biorefinery for low–carbon footprint chemicals production, Science 367 
+(2020) 1385–1390. 
+[2] R. Fang, A. Dhakshinamoorthy, Y. Li, H. Garcia, Metal organic frameworks for 
+biomass conversion, Chem. Soc. Rev. 49 (2020) 3638–3687. 
+[3] O. Condori, F. García-Labiano, L.F. de Diego, M.T. Izquierdo, A. Abad, J. Ad´anez, 
+Biomass chemical looping gasification for syngas production using ilmenite as 
+oxygen carrier in a 1.5 kWth unit, Chem. Eng. J. 405 (2021) 126679. 
+[4] X. Li, L. Wang, B. Zhang, A. Khajeh, A. Shahbazi, Iron oxide supported on silicalite- 
+1 as a multifunctional material for biomass chemical looping gasification and 
+syngas upgrading, Chem. Eng. J. 401 (2020), 125943. 
+[5] C.A. Díaz Gonz´alez, L. Pacheco Sandoval, Sustainability aspects of biomass 
+gasification systems for small power generation, Renew. Sust. Energ. Rev. 134 
+(2020) 110180. 
+[6] M. Shahbaz, A. Alnouss, I. Ghiat, G. Mckay, H. Mackey, S. Elkhalifa, T. Al-Ansari, 
+A comprehensive review of biomass based thermochemical conversion 
+technologies integrated with CO2 capture and utilisation within BECCS networks, 
+Resour. Conserv. Recycl. 173 (2021), 105734. 
+[7] L. Yu, W. Zhou, Z. Luo, H. Wang, W. Liu, K. Yin, Developing oxygen carriers for 
+chemical looping biomass processing: challenges and opportunities, Adv. Sustain. 
+Syst. 4 (2020) 2000099. 
+[8] H. Chen, Z. Yunni, W. Jia, C. Jinyuan, M. Xianzhi, L. Luna, L. Fangmin, D. Yongjun, 
+F. Guigan, J.R. Arthur, Valorization of bamboo biomass using combinatorial 
+pretreatments, Green Chem. 24 (2022) 3736–3749. 
+[9] M. Xianzhi, P. Yunqiao, L. Mi, J.R. Arthur, A biomass pretreatment using cellulose- 
+derived solvent Cyrene, Green Chem. 22 (2020) 2862–2872. 
+[10] W. Chen, B. Lin, Y. Lin, Y. Chu, A.T. Ubando, P.L. Show, H.C. Ong, J. Chang, S. Ho, 
+A.B. Culaba, A. P´etrissans, M. P´etrissans, Progress in biomass torrefaction: 
+principles, applications and challenges, Prog. Energ. Combust. 82 (2021), 100887. 
+[11] R. Li, C. Wu, L. Zhu, Z. Hu, J. Xu, Y. Yang, F. Yang, Z. Ma, Regulation of the 
+elemental distribution in biomass by the torrefaction pretreatment using different 
+atmospheres and its influence on the subsequent pyrolysis behaviors, Fuel Process. 
+Technol. 222 (2021), 106983. 
+[12] Y. Fan, N. Tippayawong, G. Wei, Z. Huang, K. Zhao, L. Jiang, A. Zheng, Z. Zhao, 
+H. Li, Minimizing tar formation whilst enhancing syngas production by integrating 
+biomass torrefaction pretreatment with chemical looping gasification, Appl. Energ. 
+260 (2020), 114315. 
+[13] R. Zhang, J. Zhang, W. Guo, Z. Wu, Z. Wang, B. Yang, Effect of torrefaction 
+pretreatment on biomass chemical looping gasification (BCLG) characteristics: 
+Gaseous products distribution and kinetic analysis, Energ. Convers. Manage. 237 
+(2021), 114100. 
+Fig. 9. Scheme of the coupled TB gasification and CO2 splitting reaction pathway.  
+X. Shen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 12 =====
+
+Fuel Processing Technology 234 (2022) 107314
+12
+[14] D. Lee, H. Nam, H. Kim, B. Hwang, J. Baek, H. Ryu, Experimental screening of 
+oxygen carrier for a pressurized chemical looping combustion, Fuel Process. 
+Technol. 218 (2021), 106860. 
+[15] Q. Zhang, B. Jiang, L. Li, K. Liu, N. He, J. Ma, X. Zhang, D. Tang, Multifunctional 
+Ni-based oxygen carrier for H2 production by sorption enhanced chemical looping 
+reforming of ethanol, Fuel Process. Technol. 221 (2021), 106953. 
+[16] G. Wei, L. Deng, H. Yuan, X. Yang, Z. Huang, A. Zheng, L. Xu, Enhanced chemical 
+looping gasification of biomass coupled with CO2 splitting based on carbon 
+negative emission, Energ. Convers. Manage. 260 (2022), 115597. 
+[17] J. Hu, S. Chen, W. Xiang, Ni, Co and Cu-promoted iron-based oxygen carriers in 
+methane-fueled chemical looping hydrogen generation process, Fuel Process. 
+Technol. 221 (2021), 106917. 
+[18] X. Zhang, Y. Su, C. Pei, Z. Zhao, R. Liu, J. Gong, Chemical looping steam reforming 
+of methane over Ce-doped perovskites, Chem. Eng. Sci. 223 (2020), 115707. 
+[19] R. Sun, J. Yan, L. Shen, H. Bai, Performance and mechanism study of LaFeO3 for 
+biomass chemical looping gasification, J. Mater. Sci. 55 (2020) 11151–11166. 
+[20] J. Bo, L. Lin, Z. Qian, M. Jing, Z. Haotian, Y. Kewei, B. Zhoufeng, Z. Xiaoliang, 
+M. Xuehu, T. Dawei, Iron–oxygen covalency in perovskites to dominate syngas 
+yield in chemical looping partial oxidation, J. Mater. Chem. A 9 (2021) 
+13008–13018. 
+[21] J. Yan, S. Jiang, T. Song, L. Shen, Chemical looping catalytic steam gasification 
+(CLCSG) of algae over La1-Ba FeO3 perovskites for syngas production, Biomass 
+Bioenergy 151 (2021), 106154. 
+[22] Z. Li, X. Dong, B. Yan, J. Li, J. Wang, L. Jiao, G. Chen, S. Ahmed, Y. Cao, Chemical 
+looping gasification of digestate: Investigation on the surface and lattice oxygen of 
+perovskite oxygen carrier, Fuel 318 (2022), 123663. 
+[23] X. Shen, Y. Sun, Y. Wu, J. Wang, E. Jiang, X. Xu, J. Su, Z. Jia, The coupling of CH4 
+partial oxidation and CO2 splitting for syngas production via double perovskite- 
+type oxides LaFexCo1−xO3, Fuel 268 (2020), 117381. 
+[24] L. Yanhui, L. Kongzhai, G. Zhenhua, Z. Xing, W. Yonggang, L. Chunqiang, L. Shen, 
+Y. Kun, C. Xianming, T. Dong, H. Fang, W. Hua, Ce-Fe-Zr-O/MgO coated 
+monolithic oxygen carriers for chemical looping reforming of methane to co- 
+produce syngas and H2, Chem. Eng. J. 388 (2020), 124190. 
+[25] S. Daniel, ´A.G. Consuelo, P. Patricia, M.C. Juan, Enhanced performance of CH4 dry 
+reforming over La0.9Sr0.1FeO3/YSZ under chemical looping conditions, Fuel 309 
+(2021), 122122. 
+[26] K. Jabbour, Tuning combined steam and dry reforming of methane for “metgas” 
+production: a thermodynamic approach and state-of-the-art catalysts, J. Energy 
+Chem. 48 (2020) 54–91. 
+[27] Z. Li, X. Weibin, W. Jian, H. Yue, H. Chuande, Z. Yanyan, T. Ming, K. Yu, P. Xiaoli, 
+S. Yang, W. Junhu, W., Xiaodong, Identifying the role of A-Site cations in 
+modulating oxygen capacity of Iron-based perovskite for enhanced chemical 
+looping Methane-to-Syngas conversion, ACS Catal. 10 (16) (2020) 9420–9430. 
+[28] A. Alberto, M. Teresa, T.I. María, F.D.D. Luis, G. Francisco, G. Pilar, A. Juan, 
+Evaluation of the redox capability of manganese-titanium mixed oxides for 
+thermochemical energy storage and chemical looping processes, Fuel Process. 
+Technol. 211 (2021), 106579. 
+[29] W. Xun, X. Tingting, J. Xiaoyu, H. Zhiquan, L. Shiming, X. Bo, C. Zhihua, H. Mian, 
+CuO supported on olivine as an oxygen carrier in chemical looping processes with 
+pine sawdust used as fuel, Chem. Eng. J. 330 (2017) 480–490. 
+[30] K. Zhao, A. Zheng, H. Li, F. He, Z. Huang, G. Wei, Y. Shen, Z. Zhao, Exploration of 
+the mechanism of chemical looping steam methane reforming using double 
+perovskite-type oxides La1.6Sr0.4FeCoO6, Appl. Catal. B-Environ 219 (2017) 
+672–682. 
+[31] Y. Xianglei, W. Shen, W. Baoyi, S. Laihong, Perovskite-type LaMn1-xBxO3+δ (B = Fe, 
+Co and Ni) as oxygen carriers for chemical looping steam methane reforming, 
+Chem. Eng. J. 422 (2021), 128751. 
+[32] R. Zhang, Y. Cao, H. Li, Z. Zhao, K. Zhao, L. Jiang, The role of CuO modified 
+La0⋅7Sr0⋅3FeO3 perovskite on intermediate-temperature partial oxidation of 
+methane via chemical looping scheme, Int. J. Hydrogen Energ. 45 (2020) 
+4073–4083. 
+[33] Q. Yu, M. Li, L. Min, C. Dongxu, Z. Shuai, Z. Dewang, X. Rui, Copper and cobalt co- 
+doped ferrites as effective agents for chemical looping CO2 splitting, Chem. Eng. J. 
+387 (2020), 124150. 
+[34] F. He, J. Chen, S. Liu, Z. Huang, G. Wei, G. Wang, Y. Cao, K. Zhao, La1-xSrxFeO3 
+perovskite-type oxides for chemical-looping steam methane reforming: 
+Identification of the surface elements and redox cyclic performance, Int. J. 
+Hydrogen Energ. 44 (2019) 10265–10276. 
+[35] H. Najjar, H. Batis, Development of Mn-based perovskite materials: Chemical 
+structure and applications, Catal. Rev. 58 (2016) 371–438. 
+[36] J. Yao, J. Liu, H. Hofbauer, G. Chen, B. Yan, R. Shan, W. Li, Biomass to hydrogen- 
+rich syngas via steam gasification of bio-oil/biochar slurry over LaCo1-xCuxO3 
+perovskite-type catalysts, Energ. Convers. Manage. 117 (2016) 343–350. 
+[37] A. Tarjomannejad, A. Farzi, A. Niaei, D. Salari, NO reduction by CO over 
+LaB0.5B′0.5O3 (B = Fe, Mn, B′=Fe, Mn, Co, Cu) perovskite catalysts, an 
+experimental and kinetic study, J. Taiwan Inst. Chem. E 78 (2017) 200–211. 
+[38] Z. Sarshar, F. Kleitz, S. Kaliaguine, Novel oxygen carriers for chemical looping 
+combustion: La1−xCexBO3 (B = Co, Mn) perovskites synthesized by reactive 
+grinding and nanocasting, Energy Environ. Sci. 4 (2011) 4258. 
+[39] C. Arturo, A. Alberto, G. Pilar, G. Francisco, F.D.D. Luis, A. Juan, Increasing energy 
+efficiency in chemical looping combustion of methane by in-situ activation of 
+perovskite-based oxygen carriers, Appl. Energ. 287 (2021), 116557. 
+[40] C. Dingshan, D. Haoran, L. Cong, W. Fan, L. Xiaoshan, Z. Liqi, Development of a 
+cordierite monolith reactor coated with CeO2-supported BaSrCo-based perovskite 
+for chemical looping steam methane reforming, Fuel Process. Technol. 220 (2021), 
+106889. 
+[41] K. Zhao, J. Chen, H. Li, A. Zheng, Z. Huang, G. Wei, Z. Zhao, X. Wang, Investigation 
+of the relationship between electronic properties and reactivity of 3DOM LaFe1- 
+xCoxO3 for methane reforming to produce syngas, Int. J. Energ. Res. 43 (13) (2019) 
+7120–7134. 
+[42] Y. Yi, H. Liu, B. Chu, Z. Qin, L. Dong, H. He, C. Tang, M. Fan, L. Bin, Catalytic 
+removal NO by CO over LaNi0.5M0.5O3 (M = Co, Mn, Cu) perovskite oxide 
+catalysts: Tune surface chemical composition to improve N2 selectivity, Chem. Eng. 
+J. 369 (2019) 511–521. 
+[43] H. Fan, X. Zhang, Y. Wang, R. Gao, J. Lang, Mn and Co co-doped perovskite 
+fluorides KNiF3 with enhanced capacitive performance, J. Colloid Interf. Sci. 557 
+(2019) 546–555. 
+[44] L. Lei, L. Zhenshan, L. Zuoan, L. Yngve, C. Ningsheng, Perovskite oxygen carrier 
+with chemical memory under reversible chemical looping conditions with and 
+without SO2 during reduction, Chem. Eng. J. 424 (2021), 130417. 
+[45] L. Lei, L. Zhenshan, W. Yang, L. Zuoan, L. Yngve, C. Ningsheng, Industry-scale 
+production of a perovskite oxide as oxygen carrier material in chemical looping, 
+Chem. Eng. J. 431 (2021), 134006. 
+[46] M. Tam, M. Dane, Strain effects on oxygen vacancy formation energy in 
+perovskites, Solid State Ionics 311 (2017) 105–117. 
+[47] X. Zhang, C. Pei, X. Chang, S. Chen, R. Liu, Z. Zhao, R. Mu, J. Gong, FeO6 
+octahedral distortion activates lattice oxygen in perovskite ferrite for methane 
+partial oxidation coupled with CO2-splitting, J. Am. Chem. Soc. 142 (26) (2020) 
+11540–11549. 
+[48] T. Li, Q. Wu, W. Wang, Y. Xiao, C. Liu, F. Yang, Solid-solid reaction of CuFe2O4 
+with C in chemical looping system: a comprehensive study, Fuel 267 (2020). 
+X. Shen et al.                                                                                                                                                                                                                                    

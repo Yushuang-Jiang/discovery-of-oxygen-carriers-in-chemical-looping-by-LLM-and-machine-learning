@@ -1,0 +1,1179 @@
+
+
+===== Page 1 =====
+
+Assessment of CexZryHfzO2 based oxides as potential solar
+thermochemical CO2 splitting materials
+Rahul R. Bhosale a,n, Anand Kumar a, Fares AlMomani a, Ujjal Ghosh a,
+Shaheen Al-Muhtaseb a, Ram Gupta b, Ivo Alxneit c
+a Department of Chemical Engineering, College of Engineering, Qatar University, Doha, Qatar
+b Department of Chemical and Life Science Engineering, Virginia Commonwealth University, Richmond, VA 23284, USA
+c Solar Technology Laboratory, Paul Scherrer Institute, PSI, 5232 Villigen, Switzerland
+a r t i c l e i n f o
+Article history:
+Received 7 January 2016
+Received in revised form
+16 February 2016
+Accepted 17 February 2016
+Available online 18 February 2016
+Keywords:
+CexZryHfzO2
+Thermochemical cycles
+Solar fuels
+Co-precipitation
+CO2 splitting
+a b s t r a c t
+In this paper, we report the synthesis, characterization, and assessment of CexZryHfzO2 (CZH) materials
+for solar thermochemical splitting of CO2 in up to 20 consecutive thermochemical cycles. CZH materials
+with different stoichiometries were synthesized by using the co-precipitation of hydroxides method. CZH
+materials acquired after calcination were characterized using powder X-ray diffraction, scanning electron
+microscopy, energy dispersive spectroscopy, and BET surface area. The thermochemical CO2 splitting
+ability of the derived CZH materials was assessed by performing multiple thermochemical cycles using a
+thermogravimetric analyzer. All CZH materials studied exhibit a higher activity than ceria modiﬁed with
+Hf or Zr alone. Thus a synergistic effect seems to be present. Among the different CZH materials ex-
+amined, Ce0.895Zr0.046Hf0.053O1.988 (CZH5) was observed to be the most active exhibiting a sustained
+redox activity in terms of CO production/O2 release in the temperature range of 1000–1400 °C. Moreover,
+CZH5 was subjected to 20 consecutive thermochemical cycles during which no degradation could be
+observed. The results obtained indicate that CZH5 is a promising candidate for solar thermochemical
+conversion of CO2 as it is capable of producing stable amounts of O2 and CO in multiple thermochemical
+cycles.
+& 2016 Elsevier Ltd and Techna Group S.r.l. All rights reserved.
+1. Introduction
+Solar fuel production via metal oxide based thermochemical
+splitting of H2O and CO2 is a promising technology for meeting the
+future energy demand and to limit greenhouse gas concentrations
+in the earth's atmosphere. In a solar thermochemical cycle a metal
+oxide, in our case CexZryHfzO2, is thermally reduced at high tem-
+peratures provided by concentrated solar radiation. Then the re-
+duced material is reoxidized by H2O and/or CO2 to yield the initial
+oxide to close the cycle producing H2 and/or CO as schematically
+illustrated in Fig. 1.
+In comparison to the high temperature direct thermolysis of
+H2O and/or CO2 (42500 °C), metal oxide based thermochemical
+cycles are advantageous because 1) these cycles require lower
+operating temperatures (r1600 °C), 2) avoiding the formation of
+explosive product gas mixtures (as the production of H2/CO and O2
+can be carried out in two separate steps), and 3) these cycles are,
+environmentally
+and
+thermodynamically,
+more
+favorable
+compared to the direct thermolysis [1]. Previously, two types of
+metal oxide redox systems were examined as active materials in
+solar thermochemical H2O and/or CO2 splitting cycles, namely: a)
+volatile metal oxide pairs such as ZnO/Zn [2–12] and SnO2/SnO
+[11–16], and b) non-volatile metal oxide pairs such as Fe3O4/FeO
+[3,4,17–25], ferrites [26–40], ceria based redox materials [41–58],
+and perovskite based redox materials [59–69] respectively. Among
+all these redox systems, ceria-based oxides are of particular in-
+terest because of their faster reaction kinetics due to their in-
+trinsically high oxygen mobility and better thermal stability as
+compared to the other volatile and non-volatile metal oxide sys-
+tems. Abanades and Flamant [42] investigated the CeO2/Ce2O3
+redox system for solar thermochemical H2 production for the ﬁrst
+time. The following two reactions that compose the stoichiometric
+CeO2/Ce2O3 thermochemical cycle are:
+→
++ ½
+( )
+2CeO
+Ce O
+O
+1
+2
+2
+3
+2
++
+→
++
+( )
+Ce O
+H O
+2CeO
+H
+2
+2
+3
+2
+2
+2
+In the ﬁrst step, CeO2 is reduced to Ce2O3 at around 2000 °C,
+releasing O2. In the second step, the reduced Ce2O3 is re-oxidized
+to CeO2 using water as an oxidizer, which releases H2, in the
+Contents lists available at ScienceDirect
+journal homepage: www.elsevier.com/locate/ceramint
+Ceramics International
+http://dx.doi.org/10.1016/j.ceramint.2016.02.100
+0272-8842/& 2016 Elsevier Ltd and Techna Group S.r.l. All rights reserved.
+n Corresponding author.
+E-mail addresses: rahul.bhosale@qu.edu.qa,
+solar.chemical.engineering@gmail.com (R.R. Bhosale).
+Ceramics International 42 (2016) 9354–9362
+
+
+===== Page 2 =====
+
+temperature range of 400–600 °C. The CeO2/Ce2O3 redox system
+was rated as promising due to its fast reaction kinetics. However,
+the reduction temperature is very high and resulted in a partial
+loss of ceria due to sublimation as well as a decrease of activity as
+the oxide melts during the reduction step.
+Recently, several researchers have studied non–stoichiometric
+ceria-based redox mediators as active materials for solar thermo-
+chemical H2O and/or CO2 splitting [43–47] as:
+δ
+→
++ ½
+( )
+δ
+−
+CeO
+CeO
+O
+3
+2
+2
+2
+δ
+δ
++
+→
++
+( )
+δ
+−
+CeO
+H O
+CeO
+H
+4
+2
+2
+2
+2
+δ
+δ
++
+→
++
+( )
+δ
+−
+CeO
+CO
+CeO
+CO
+5
+2
+2
+2
+The non-stoichiometric ceria based redox cycle is also a two-
+step process. Firstly, CeO2 is reduced at 1500–1600 °C via a solar
+thermochemical reduction to its nonstoichiometric phase CeO2δ.
+Then, the reduced CeO2δ can be re-oxidized to CeO2 by the
+exothermic H2O and/or CO2 splitting reaction that produce H2 and/
+or CO at 900–1100 °C. Chueh et al. [43] reported a sustained ac-
+tivity of such reduction/re-oxidation reaction for 500 consecutive
+cycles. Furler et al. [45] demonstrated the solar production of
+syngas experimentally by combined H2O and CO2 splitting in a
+scalable solar reactor. Furthermore, Furler et al. [46] investigated
+the thermochemical CO2 splitting redox cycle experimentally in a
+solar cavity-receiver containing reticulated porous ceramic foam
+made from pure CeO2, and they reported the so-far highest solar-
+to-fuel energy conversion efﬁciency for solar-driven devices. In
+ceria-based cycles, sintering during the high temperature reduc-
+tion step is a major limitation. As both reactions forming the cycle
+are gas/solid reactions, and as the O2 storage and release during
+solar thermochemical cycles is mostly limited to the surface of the
+ceria materials, loss of activity caused by sintering is expected. To
+lower the required thermal reduction temperature, and to improve
+the redox reactivity by increasing the degree of reduction, several
+researchers have studied the inﬂuence of metal cations as dopants
+on the activity of ceria. The thermochemical H2O and/or CO2
+splitting cycle using doped ceria is represented as:
+δ
+→
++ ½
+( )
+δ
+−
+−
+−
+Ce
+M O
+Ce
+M O
+O
+6
+x
+x
+x
+x
+1
+2
+1
+2
+2
+δ
+δ
++
+→
++
+( )
+δ
+−
+−
+−
+Ce
+M O
+H O
+Ce
+M O
+H
+7
+x
+x
+x
+x
+1
+2
+2
+1
+2
+2
+δ
+δ
++
+→
++
+( )
+δ
+−
+−
+−
+Ce
+M O
+CO
+Ce
+M O
+CO
+8
+x
+x
+x
+x
+1
+2
+2
+1
+2
+Here, we assume the dopant ion to be redox inactive. Its sole
+role is to induce strain onto the ceria host lattice that leads to an
+easier reduction of the material, i.e. a higher oxygen storage ca-
+pacity (OSC). This is achieved by either the mismatch of the ion
+radius between Ce4þ and the dopant or by the formation of ex-
+trinsic oxygen vacancies due to a charge mismatch between do-
+pant and Ce4þ.
+Kaneko et al. [48–50] synthesized solid solutions of CeO2 and
+MOx (M¼Mn, Fe, Ni, and Cu) by a combustion method and studied
+these materials for their use in solar H2 production cycles oper-
+ating between 1000 and 1500 °C. They reported a larger O2 and H2
+release of the derived solid solutions (CeO2–MOx) compared to
+pure CeO2. The activity for solar H2 production of these CeO2–MOx
+solid
+solutions
+was
+observed
+to
+increase
+in
+the
+order
+of
+CeO2–CuOoCeO2–Fe2O3oCeO2–NiOoCeO2–MnO.
+Meng
+et
+al.
+[50]
+examined
+Ce0.9M0.1O2δ
+binary
+oxides
+(M¼Mg, Ca, Sr, Sc, Y, Dy, Zr, Hf) prepared by a complex poly-
+merization method for their application in solar thermochemical
+cycles. Among the investigated Ce0.9M0.1O2δ binary oxides,
+Ce0.9Hf0.1O2 exhibited the highest amount of H2 produced at
+500 °C and the least amount of deactivation during the thermal
+reduction step at 1500 °C. The performance of Ce0.9Hf0.1O2 was
+also shown to be superior compared to the previously studied
+CeO2–MOx (M¼Mn, Fe, Ni, and Pr).
+Recently, Abanades and Le Gal [56–58] synthesized ceria–zir-
+conia solid solutions with the help of various soft chemistry routes
+(such as the co-precipitation of hydroxides, the sol-gel method,
+the Pechini method and hydrothermal treatment). The potential of
+the derived ceria–zirconia materials in solar thermochemical H2O
+or CO2 splitting cycles was examined by performing thermo-
+gravimetric experiments. The synthesized ceria–zirconia materials
+were observed to be very promising as the required thermal re-
+duction temperature was reduced to 1400 °C. It was also reported
+that at high Zr concentration (Ce0.5Zr0.5O2), the reduction yield
+was maximum. However, the H2O/CO2 splitting yield and thermal
+stability was observed to be better at low Zr doping (Ce0.9Zr0.1O2
+and Ce0.75Zr0.25O2). According to the studies reported until now,
+ceria–zirconia and ceria–hafnia binary oxides are among the most
+promising candidates for solar thermochemical cycles. In recent
+investigations, researchers have also reported that some ternary
+oxides based on Zr–CeO2 doped with Gd3þ, La3þ, Y3þ exhibit an
+even better performance compared to binary ceria oxide [54].
+In this publication we report on ternary metal oxides (CZH)
+based on Ce, Zr, and Hf, a potentially interesting system which has
+not been examined so far. Our aim is to increase the amount of
+oxygen that can be removed at a given temperature during the
+thermal reduction. This will make a thermochemical cycle more
+efﬁcient as a larger amount of product is obtained per cycle and
+per unit mass of redox active material. Due to their redox potential
+(Zr/Zr4þ: 1.529 V, Hf/Hf4þ: 1.70 V) the dopants will not be
+redox active. Still, we expect that the modiﬁed materials are easier
+to reduce because the signiﬁcantly smaller ionic radius of the
+dopants compared to Ce4þ leads to large local strain in the host
+lattice. In addition, also the tendency for sintering is expected to
+decrease as both, ZrO2 and HfO2 are refractory oxides with a
+melting
+point
+signiﬁcantly
+higher
+than
+the
+one
+of
+ceria.
+Fig. 1. Ceria–zirconia–hafnia based solar thermochemical CO2 splitting cycle.
+R.R. Bhosale et al. / Ceramics International 42 (2016) 9354–9362
+9355
+
+
+===== Page 3 =====
+
+Maintaining a high speciﬁc surface area helps to keep reaction
+rates high as the oxygen diffusion length within a particle remains
+moderate.
+The CZH materials were prepared by co-precipitation of hy-
+droxides method. Their phase and elemental composition, surface
+area, porosity, and morphology was determined by powder X-ray
+diffraction (PXRD), BET surface area analysis (BET), scanning
+electron microscopy (SEM) and energy dispersive spectroscopy
+(EDS). Their performance in terms of redox reactivity was ex-
+amined during multiple thermochemical CO2 splitting cycles using
+a thermogravimetric analyser (TGA).
+2. Experimental section
+2.1. Synthesis of CexZryHfzO2 materials
+CexZryOzO2 (CZH) materials with various chemical stoichiome-
+tries (x¼0.5, 0.6, 0.7, 0.8, and 0.9, y¼0.05, 0.1, 0.15, 0.20, and 0.25,
+z¼0.05, 0.1, 0.15, 0.20, and 0.25) were synthesized using the co-
+precipitation of hydroxides method according to Fig. 2. Precursors
+salts cerium nitrate hexahydrate (Ce(NO3)3  6H2O), zirconium
+chloride (ZrCl4), hafnium chloride (HfCl4) and ammonium hydro-
+xide (NH4OH, 28%) were purchased from Alfa Aesar and used as
+received. To synthesize CZH materials, desired amounts of metal
+precursors were dissolved in demineralized water under mild
+stirring conditions. Once completely dissolved and well mixed, an
+excess amount of aqueous ammonium hydroxide (NH4OH, 28%)
+was added slowly to the solution until precipitation was complete
+(pH9). The aqueous dispersion was further stirred for 24 h, the
+color of the precipitate changes brownish to pale yellow. Then the
+dispersion was left to settle overnight. The supernatant liquid was
+decanted and the precipitate was recovered by vacuum ﬁltration
+and washed with demineralized water several times. Solids ob-
+tained after washing were dried, crushed, and subsequently cal-
+cined at 600 °C in air using a mufﬂe furnace. CZH obtained after
+calcination was ground using a ceramic mortar and pestle and
+stored in a dry atmosphere.
+2.2. Characterization of CexZryHfzO2 materials
+The phase composition of CexZryHfzO2 materials was de-
+termined using a Panalytical XPert MPD/DY636 powder X-ray
+diffractometer
+with
+CuKα
+radiation
+(λ¼0.15418 nm,
+voltage¼45 kV,
+current¼20 mA,
+angular
+range¼20–80°
+2θ,
+steps¼0.05o 2θ, recording time¼5 s). The particle morphology
+and chemical composition was analyzed using a Zeiss Supra 55VP
+ﬁeld-emission scanning electron microscope (SEM) equipped with
+a ﬁeld emission gun and X-ray energy dispersive spectrometer
+(EDS) from Oxford Instruments (for chemical analyses). The CZH
+materials were used for the SEM/EDS analysis without a con-
+ductive coating. A secondary electron detector was used to in-
+vestigate the oxide layer topography with an electron acceleration
+voltage of 3 kV. The BET surface area was obtained with an ASAP
+2420 by Micromeritics. The speciﬁc surface area (SSA), cumulative
+pore volume (PV) and average pore diameter (PD) were obtained
+from the recorded adsorption/desorption isotherms obtained after
+degassing the powders at 200 °C for 12 h.
+2.3. Thermochemical CO2 splitting cycles
+The ability of the synthesized CZH materials to perform ther-
+mochemical CO2 splitting cycles was examined in a thermogravi-
+metric analyzer (TGA, Netzsch STA 409). The TGA furnace was
+made up of an alumina tube surrounded by a silicon carbide
+heating element (maximum temperature¼1500 °C). Ultra-high
+purity Ar was used as a carrier gas and to maintain an inert at-
+mosphere. During the CO2 splitting step, CO2 was fed and mixed
+with Ar at the gas inlet of the furnace. The ﬂow rate of both, CO2
+and Ar, was adjusted and controlled by mass ﬂow controllers
+(MFC, BRONKHORST, Netherlands, precision 70.25%). A S-type
+(Pt-Rh) thermocouple records the temperature and controls the
+furnace. Off-gases from the TGA were continuously analyzed by a
+gas chromatograph (GC, VARIAN, CP-4900, Micro GC 2 channel
+system) with a time resolution of about 1 dataset every 2 min.
+Approximately 50 mg of material was placed in an Al2O3 cru-
+cible and was subjected to several consecutive thermal reduction
+(1400 °C) and CO2 splitting (1000 °C) steps. During each thermal
+reduction step, the temperature was ramped to 1400 °C (25 °C/
+min) and then kept at this temperature for 60 min in the inert
+atmosphere of Ar (100 ml/min). A mass loss was observed after
+reaching a temperature of 1000 °C, and it was attributed to the
+amount of O2 released by the CZH material [54–58]. After per-
+forming the thermal reduction of CZH, the sample was cooled to
+1000 °C at the natural cooling rate of 25 °C/min under inert at-
+mosphere. To perform the CO2 splitting reaction, CO2 was injected,
+and the CO2 splitting was performed under isothermal conditions
+for 30 min. Flow rates of CO2 (50 ml/min) and Ar (50 ml/min) were
+kept constant during the entire CO2 splitting step. The mass gain
+observed was attributed to the oxygen uptake of the material, and
+can be directly correlated to the CO produced [54–58]. The re-
+duction and oxidation yields (Xred and Xoxd, respectively) of the
+CZH materials were also calculated using the correlations pub-
+lished by Le Gal et al. [58]. The reproducibility of the results was
+examined and the error in all experimental measurements was
+observed to be less than73%.
+Ce(NO3)3·6H2O
+ZrCl4
+HfCl4
+Dissolution in Excess Distilled Water
+Stirring for 1 h
+Dropwise addition of NH4OH (28%)
+pH ~ 9
+Stirring for 24 h
+Kept for precipitate settling
+24 h
+Precipitate separation via filtration
+Oven Drying of precipitate (100oC for 12 h)
+Calcination at 600oC (5oC/min, 4 h hold)
+Ce-Zr-Hf-O nanopowder
+Ce(NO3)3·6H2O
+Ce(NO3)3·6H2O
+ZrCl4
+ZrCl4
+HfCl4
+HfCl4
+Dissolution in Excess Distilled Water
+Dissolution in Excess Distilled Water
+Stirring for 1 h
+Dropwise addition of NH4OH (28%)
+Dropwise addition of NH4OH (28%)
+pH ~ 9
+Stirring for 24 h
+Stirring for 24 h
+Kept for precipitate settling
+Kept for precipitate settling
+24 h
+Precipitate separation via filtration
+Precipitate separation via filtration
+Oven Drying of precipitate (100oC for 12 h)
+Oven Drying of precipitate (100oC for 12 h)
+Calcination at 600oC (5oC/min, 4 h hold)
+Calcination at 600oC (5oC/min, 4 h hold)
+Ce-Zr-Hf-O nanopowder
+Ce-Zr-Hf-O nanopowder
+Fig. 2. Co-precipitation route applied for the synthesis of ceria–zirconia–hafnia
+materials.
+R.R. Bhosale et al. / Ceramics International 42 (2016) 9354–9362
+9356
+
+
+===== Page 4 =====
+
+3. Results and discussion
+3.1. Characterization of the CexZryHfzO2 materials
+The stoichiometry of the synthesized CZH materials is reported
+in Table 1. In Fig. 3a we report the PXRD pattern of all synthesized
+materials. All materials consist of a single phase i.e. they corre-
+spond to solid solutions that exhibit the cubic ﬂuorite structure
+(Fm-3m) identical to that of native CeO2. Peaks related to dopant
+oxides such as ZrO2 or HfO2 are notably absent. We observe that
+with increasing concentration of the dopants the peak shifts to
+higher 2θ angles (see Fig., 3b), i.e. correspond to a cubic unit cell
+with smaller a-parameter. The shifts observed conﬁrm the for-
+mation of solid solutions of zirconia and hafnia in the cubic base
+material. Ce4þ (crystall radius 1.11 Å) is partially replaced by Zr4þ
+(0.97 Å) or Hf4þ (0.98 Å), but both ZrO2 and HfO2 exhibit the same
+crystal structure as ceria which makes the formation of a solid
+solution with a wide solution range possible. It is also evident from
+the increase of the width of the peak in Fig. 4b that the size of the
+crystalline domain decreases with increasing amounts of dopant.
+The result of the quantitative analysis (Scherrer formula) is also
+reported in Table 1.
+The elemental composition (or ratios) of the CZH materials was
+veriﬁed by an EDS analysis. Fig. 4 shows the EDS pattern of CZH5
+as an example. The EDS data is summarized and reported in Ta-
+ble 1. The close correspondence of the target elemental ratios to
+the ones obtained by EDS proves that precipitation of all pre-
+cursors at pH 9 was complete. Speciﬁc surface area (SSA), cumu-
+lative pore volume (PV) and average pore diameter (PD) were de-
+termined from a BET surface area analysis. The individual results
+are reported in Table 2. The materials exhibit very similar numbers
+and no clear trend can be observed. SSA lies in the range of
+40–45 m2/g, PV in the range of 0.10–0.15 cm3/g, and PD in the range
+of 12–14 nm. The fact that no clear trend of the SSA as function of
+the total amount of dopant can be observed in contrast to the
+crystallite size derived from the width of the PXRD peaks strongly
+suggests that the latter is indicative of the crystallinity of the
+material and not of the size of the particles.
+The microstructural morphology of the CZH materials was
+analyzed by SEM, and representative images are shown in Fig. 5.
+All materials consist of larger agglomerates with a cauliﬂower-like
+structure. The diameter of the primary particles is in the range of
+10–50 nm. These primary particles exhibit a roundish morphology
+and no evidence of being bound by distinct lattice planes is ob-
+served. These images conﬁrm the data obtained by PXRD and BET
+analysis. The materials exhibit similar values of the SSA as they
+consist of aggregates with very similar structure. The primary
+particles are not very well crystallized and become smaller with
+increasing dopant concentration. The same trend is observed in
+the crystallite sizes determined from the peak width in the PXRD
+pattern.
+Table 1
+Chemical composition, Ce/Zr/Hf mole ratio (before and after calcination), crystallite
+size, and abbreviations of ceria–zirconia–hafnia materials synthesized via co-pre-
+cipitation of hydroxides method.
+Ce/Zr/Hf ratio (as
+prepared)
+Ce/Zr/Hf ratio (after
+calcination)
+Abbreviation
+Crystallite size
+(nm)
+9.0/0.5/0.5
+8.95/0.46/0.53
+CZH5
+40
+8.0/1.0/1.0
+7.98/0.93/0.99
+CZH10
+38
+7.0/1.5/1.5
+7.02/1.45/1.48
+CZH15
+35
+6.0/2.0/2.0
+5.97/1.96/2.05
+CZH20
+33
+5.0/2.5/2.5
+5.01/2.46/2.48
+CZH25
+29
+26
+28
+30
+32
+2θ
+Arbitrary Counts 
+CZH25
+CZH20
+CZH15
+CZH10
+CZH5 
+CeO2 
+b) 
+20
+30
+40
+50
+60
+70
+80
+CZH25
+CZH20
+2θ
+Arbitrary Counts 
+a) 
+CZH15
+CZH10
+CZH5 
+CeO2
+Fig. 3. a) PXRD patterns of ceria–zirconia–hafnia materials synthesized via co-
+precipitation method, b) PXRD peak shift of the doped ceria corresponding to the
+Zr and Hf doping concentration.
+Fig. 4. EDS patterns of the CZH5 powder derived via co-precipitation of hydroxides
+method.
+Table 2
+SSA, pore volume and pore diameter of ceria–zirconia–hafnia materials.
+Material
+SSA (m2/g)
+PV (cm3/g)
+PD (nm)
+CZH5
+45.13
+0.1670
+12.91
+CZH10
+42.56
+0.1447
+11.17
+CZH15
+41.32
+0.1488
+10.41
+CZH20
+43.22
+0.1589
+11.68
+CZH25
+42.12
+0.1544
+10.99
+R.R. Bhosale et al. / Ceramics International 42 (2016) 9354–9362
+9357
+
+
+===== Page 5 =====
+
+3.2. Thermochemical CO2 splitting cycles using ceria–zirconia–haf-
+nia materials
+All CZH materials were subjected to an initial test consisting of
+four consecutive redox cycles. Thermal reduction was performed
+at 1400 °C while the following reoxidation in CO2 was performed
+at 1000 °C. A baseline TGA proﬁle was acquired under identical
+conditions as in the actual experiment but in absence of a sample.
+This allows subtracting artifacts due to buoyancy effects or those
+caused by changing the atmosphere.
+In Fig. 6, we report the baseline corrected TGA graphs for CZH5,
+CZH10, CZH15, CZH20, and CZH25. The black curve represents the
+temperature program while the other ﬁve curves represent the
+weight changes observed. The initial large weight loss observed
+during ﬁrst heating segment (approximately the ﬁrst 50 min) is
+neglected in the analysis because we assume that a fraction of
+incompletely condensed, amorphous hydroxide phase survives
+calcination. This fraction increases as the degree of crystallinity
+decreases. During the initial heating the hydroxides are converted
+to oxides and substantial amounts of water are released. Similar
+observations during the thermal reduction are also reported by
+others [56–58]. CO2 was admitted during the isothermal segment
+at 1000 °C. Amounts of O2 released and CO produced during four
+successive cycles were calculated from the mass losses and gains,
+respectively, are summarized in Table 3.
+It is evident form Fig. 6 that all materials except CZH5 exhibit a
+very similar temporal behavior. Both, reduction and reoxidation
+seem to be rather slow and do not run to completion. In contrast,
+CZH5 exhibits much faster reaction rates. Thermal reduction runs to
+completion assuming a slightly skewed baseline. Also reoxidation,
+Fig. 5. SEM images of the ceria–zirconia–hafnia materials derived via co-pre-
+cipitation of hydroxides method.
+Fig. 6. Four successive thermochemical CO2 splitting cycles performed using ceria–
+zirconia–hafnia powders.
+Table 3
+Thermal reduction and CO2 splitting ability of ceria–zirconia–hafnia materials de-
+rived via co-precipitation of hydroxides method. O2 and CO produced derived from
+the weight change on the TGA.
+CZH
+Material
+Cycle 1
+Cycle 2
+Cycle 3
+Cycle 4
+O2
+(μmol/
+g)
+CO
+(μmol/
+g)
+O2
+(μmol/
+g)
+CO
+(μmol/
+g)
+O2
+(μmol/
+g)
+CO
+(μmol/
+g)
+O2
+(μmol/
+g)
+CO
+(μmol/
+g)
+CZH5
+166
+182
+100
+144
+107
+160
+100
+182
+CZH10
+194
+144
+66
+132
+88
+119
+85
+113
+CZH15
+250
+122
+60
+100
+85
+106
+69
+94
+CZH20
+296
+112
+56
+75
+88
+86
+72
+88
+CZH25
+316
+106
+79
+63
+91
+65
+91
+50
+R.R. Bhosale et al. / Ceramics International 42 (2016) 9354–9362
+9358
+
+
+===== Page 6 =====
+
+though signiﬁcantly slower, runs almost to completion. The amount
+of O2 released during 1st thermal reduction step was observed to
+decrease as CZH254CZH204CZH154CZH104CZH5. Thus the
+amount of incompletely condensed hydroxide in the material in-
+creases as the total dopant concentration increases. The same trend
+was observed in the crystallinity of the samples as evidenced by the
+crystallite size determined by the Scherrer equation from the width
+of the diffraction peaks. In later cycles (2nd to 4th) this order is
+reversed and the amounts of oxygen released ranges between 110
+and 60 μmol/g per cycle. No further decrease of activity seems to
+occur in these later cycles. The amount of CO produced follows a
+different pattern. It seems to ﬂuctuate more from cycle to cycle than
+the O2 release. In the case of CZH5 average amount of CO produced
+during 2nd, 3rd and 4th CO2 splitting steps amounts to 162 μmol/g
+per cycle. Much smaller amounts are observed for the other sam-
+ples (CZH10: 121 μmol/g per cycle, CZH15: 100 μmol/g per cycle,
+CZH20: 83 μmol/g per cycle, CZH25: 59 μmol/g per cycle). With the
+exception of CZH5 all materials exhibit a pronounced decrease of up
+to 50% in the amounts of CO released during reoxidation.
+In Fig. 7 we report the data for CZH5 together with the O2 and
+CO signals obtained from gas chromatography. It is evident from
+the ﬁgure that in all cycles the majority of the mass loss already
+occurs during the heating from 1000 °C to 1400 °C. Once the
+temperature has reached 1400 °C only a minor loss occurs during
+the 45 min at 1400 °C. This is also reﬂected in the oxygen signal
+obtained from gas chromatography. Once temperature reaches
+1400 °C the O2 signal rapidly decreases to the background level.
+The reoxidation step, however, is much slower. Once CO2 is ad-
+mitted at 1000 °C the weight slowly increases and does not be-
+come constant even after 30 min and CO is detected by GC
+throughout the reoxidation segment. This conﬁrms that multiple
+thermochemical cycles do not decrease the activity of the mate-
+rials. It seems also that only a minor amount of sintering occurs
+that does not affect the ability of the material to convert CO2 to CO.
+Previously, Le Gal et al. [58] synthesized CeO2 by the co-pre-
+cipitation of hydroxides method and tested its suitability for the
+CO2 splitting cycle. They reported that CeO2 is releasing a constant
+amount of O2 (53 μmol/g) in three successive thermal reduction
+steps performed at 1400 °C. Their material produced 98, 102, and
+105 μmol/g of CO during the reoxidation step performed at
+1200 °C, 1100 °C, and 1000 °C in CO2, respectively.
+Abanades and Le Gal [57,58] further reported that the redox
+activity and thermal stability of CeO2 can be improved by doping
+the ceria ﬂuorite crystal structure with zirconia. Ceria–zirconia
+solid solutions were synthesized by the same co-precipitation of
+hydroxides method and their thermochemical activity was as-
+sessed. Among different ceria–zirconia solid solutions examined,
+Ce0.75Zr0.25O2 powder exhibited the best performance. During
+three complete cycles, respectively, Ce0.75Zr0.25O2 released 137, 96,
+and 74 μmol/g of O2 during the reduction step at 1400 °C. In the
+same experiment, 139, 132, and 99 μmol/g of CO evolved during
+the reoxidation steps at 1200 °C, 1100 °C, and 1000 °C, respectively.
+Thus, this material exhibited a severe loss of activity, where its
+redox capacity has decreased by almost 50% after only three
+complete cycles.
+In contrast to the previous results, in this work, the ternary
+oxide with the lowest dopant concentration (CZH5) exhibits the
+highest redox reactivity. After some degradation in the ﬁrst cycle,
+the amounts of O2 (118 μmol/g) and CO (167 μmol/g) released in
+the next three redox cycles remained constant and higher as
+compared to Zr doped ceria. Furthermore, virtually no further
+degradation occurred after the ﬁrst cycle as shown in Fig.7 and
+Table 3. Indeed, in case of CZH5, it was observed that the reduction
+yield was virtually constant during the 2nd (7.63%), 3rd (8.16%), and
+4th (7.63%) thermal reduction steps, which indicated no adverse
+effect of thermal cycling on the thermal reduction ability of the
+CZH5. It was also realized that the CZH5 oxidation yield was al-
+ways higher than 70.00% during the 2nd (72.00%), 3rd (78.03%),
+and 4th (91.00%) CO2 splitting steps.
+To realize a CZH5 based thermochemical cycle for solar fuel
+production on a commercial level, it is imperative that its activity
+is maintained even after being subjected to many more redox
+cycles. The long-term stability of CZH5 was examined during 20
+thermochemical cycles with the O2 release and CO production
+amounts summarized in Fig. 8. Overall, the data reported in Fig. 8
+conﬁrms that the amount of O2 released and CO produced by CZH5
+was virtually unchanged in 20 thermochemical cycles. For in-
+stance, CZH5 released, in average, 114 μmol/g of O2 and 162 μmol/
+g of CO during each of the 20 thermochemical cycles performed in
+Fig. 7. TGA and GC results obtained during four successive thermochemical CO2
+splitting cycles performed using CZH5.
+Fig. 8. O2 released during thermal reduction (blue squares) and CO produced
+during reoxidation with CO2 (red diamonds) during 20 redox cycles of CZH5. (For
+interpretation of the references to color in this ﬁgure legend, the reader is referred
+to the web version of this article.)
+R.R. Bhosale et al. / Ceramics International 42 (2016) 9354–9362
+9359
+
+
+===== Page 7 =====
+
+the temperature range of 1000–1400 °C.
+Additionally, the yields of thermal reduction (Xred) and oxida-
+tion (Xoxd) in case of CZH5 during 20 thermochemical cycles were
+calculated by using the correlations published by Le Gal et al. [58],
+and the results are presented in Fig. 9. Results reported indicated
+constant Xred and Xoxd during the 20 thermochemical cycles. For
+instance, the average Xred and Xoxd of CZH5 during each of the 20
+thermal reduction and CO2 splitting steps were observed to be
+8.72% and 71.30%, respectively. Also, the average ratio of CO/O2
+produced in each of the 20 thermochemical cycles was observed to
+be 1.42. We believe that the time assigned for the CO2 splitting
+step (30 min) is not sufﬁcient enough for complete re-oxidation of
+CZH5 to achieve the steady state production of CO via thermo-
+chemical CO2 splitting reaction. Hence, lower CO/O2 ratio and Xoxd
+were observed. To achieve higher CO/O2 ratio and Xoxd, it is re-
+commended to increase the time for the re-oxidation of CZH5 via
+thermochemical CO2 splitting reaction.
+To rationalize the high redox reactivity observed for CZH5, the
+material that was exposed to 20 redox cycles was re-analyzed by
+PXRD, BET and SEM. The PXRD patterns of CZH5 as-synthesized,
+after the ﬁrst reduction, after the ﬁrst re-oxidation in CO2, and
+after 20 complete cycles are shown in Fig. 10. It is evident from
+these PXRD data that the chemical composition of CZH5 did not
+change during the 20 cycles. However, the width of the individual
+peaks markedly decreases. Thus, the crystallinity of the material
+has increased.
+The BET analysis indicates that the SSA and PV of CZH5 de-
+creases during the ﬁrst thermal reduction step (due to sintering)
+as the material was exposed to higher temperatures for the ﬁrst
+time. However, obtained results also shows that the SSA and PV of
+CZH5 remain constant from cycle 2 to cycle 20. This is further
+conﬁrmed by the SEM images of a CZH5 retrieved after the ﬁrst
+and the ﬁnal thermochemical cycles (Fig. 11) Compared to the as-
+synthesized CZH5 (Fig. 5), the grain size of CZH5 after cycle 1 was
+observed to be increased. However, the SEM images of the CZH5
+obtained after cycle 1 and cycle 20 indicated no major difference in
+the grain size. Therefore, according to the experimental ﬁndings,
+the CZH5 material synthesized and assessed in this investigation
+Fig. 9. Thermal reduction (Xred) and oxidation yield (Xoxd) of CZH5.
+Fig. 10. PXRD patterns of CZH5 case of a) as-synthesized, b) after 1st thermal re-
+duction, c) after 1st CO2 splitting, and d) after 20 thermochemical cycles.
+Fig. 11. SEM images of CZH5 after thermochemical cycle 1 and Cycle 20.
+R.R. Bhosale et al. / Ceramics International 42 (2016) 9354–9362
+9360
+
+
+===== Page 8 =====
+
+was observed to be thermally stable from cycle 2 to cycle 20 and it
+is expected to behave after 20 cycles. This observation was pre-
+viously veriﬁed as the redox reactivity of the CZH5 material re-
+mained constant during cycles 2 through 20 (Fig. 8).
+4. Summary and conclusions
+CexZryHfzO2 (CZH) materials with different chemical stoichio-
+metries were successfully synthesized by using the co-precipita-
+tion of hydroxides method. The PXRD and EDS analyses conﬁrm
+the formation of pure CZH materials phase with an absence of any
+other oxides or metal impurities. The BET surface area analyses
+indicate that all derived CZH materials possess high surface areas
+in the range of 40–45 m2/g. The microstructural analyses per-
+formed by SEM showed that the CZH materials derived in this
+study acquire a nanoparticle morphology. CZH materials were
+further examined towards high-temperature reduction and CO2
+splitting thermochemical cycles in the temperature range of 1000
+to 1400 °C. Among various CZH materials investigated (CZH5,
+CZH10, CZH15, CZH20, and CZH25), CZH5 was observed to be the
+best in terms of its redox reactivity during four thermochemical
+cycles, which reﬂects into constant amounts of O2 release and CO
+production. For instance, in average, steady amounts of O2
+(118 μmol/g) and CO (167 μmol/g) were produced in four ther-
+mochemical cycles. CZH5 was also observed to be promising as
+compared to the previously investigated Zr doped ceria based re-
+dox materials in terms of its thermochemical CO production
+ability. The redox reactivity and thermal stability of CZH5 was
+further examined in 20 thermochemical cycles. Results obtained
+show that the thermal reduction (average of 114 μmol/g of O2) and
+CO2 splitting (average of 162 μmol/g of CO) capacity of CZH5 re-
+main constant for 20 thermochemical cycles. Likewise, the yields
+of thermal reduction (8.72%) and oxidation (71.30%) shown by
+CZH5 during multiple thermochemical cycles was also stable.
+PXRD and BET characterization of the reacted CZH5 showed un-
+changed chemical composition and pore characteristics from cycle
+2 to cycle 20. The SEM images show a grain growth due to sin-
+tering after the ﬁrst thermal reduction step. However, from cycle
+2 to cycle 20, the grain size was observed to be constant. Results
+obtained in this investigation indicate that the CZH5 material is
+very promising towards the thermochemical splitting of CO2 due
+to its sustained redox reactivity in multiple cycles.
+Acknowledgments
+This
+publication was
+made
+possible
+by the
+UREP
+grant
+(UREP18-146-2-060) from the Qatar National Research Fund (a
+member of Qatar Foundation). The statements made herein are
+solely the responsibility of author(s). The authors also gratefully
+acknowledge the ﬁnancial support provided by the Qatar Uni-
+versity Internal Grants (QUUG-CENG-CHE-13/14-4 and QUUG-
+CENG-CHE-14/15-10), Indo-Swiss Joint Research Program (ISJRP,
+grant #138852), and the Swiss Federal Ofﬁce of Energy (SFOE).
+References
+[1] R.R. Bhosale, I. Alxneit, Leo L.P. van den Broeke, A. Kumar, M. Jilani, S.S.
+Gharbia, J. Folady, D.Z. Dardor, in: Proceedings of Sol-gel Synthesis of Nano-
+crystalline Ni-Ferrite and Co-Ferrite Redox Materials for Thermochemical
+Production of Solar Fuels, 1675, mrss14-1675-rr06-10, 2014.
+[2] P.G. Loutzenhiser, A. Steinfeld, Solar syngas production from CO2 and H2O in a
+two-step thermochemical cycle via Zn/ZnO redox reactions: thermodynamic
+cycle analysis, Int. J Hydrog. Energy 36 (2011) 12141–12147.
+[3] A. Stamatiou, P. Loutzenhiser, A. Steinfeld, Solar syngas production from H2O
+and CO2 via two-step thermochemical cycles based on Zn/ZnO and FeO/Fe3O4
+redox reactions: kinetic analysis, Energy Fuels 24 (2010) 2716–2722.
+[4] P. Loutzenhiser, M. Gálvez, I. Hischier, A. Stamatiou, A. Frei, A. Steinfeld, CO2
+splitting via two-step solar thermochemical cycles with Zn/ZnO and
+FeO/Fe3O4 redox reactions II: kinetic analysis, Energy Fuels 23 (2009)
+2832–2839.
+[5] D. Dardor, R.R. Bhosale, S. Gharbia, A. Kumar, F. Al Momani, Solar carbon
+production via thermochemical ZnO/Zn carbon dioxide splitting cycle, J.
+Emerg. Trends Eng. Appl. Sci. 6 (2015) 129–135.
+[6] L. Schunk, W. Lipiński, A. Steinfeld, Heat transfer model of a solar receiver-
+reactor for the thermal dissociation of ZnO—Experimental validation at 10 kW
+and scale-up to 1 MW, Chem. Eng. J. 150 (2009) 502–508.
+[7] A. Steinfeld, Solar hydrogen production via a two-step water-splitting ther-
+mochemical cycle based on Zn/ZnO redox reactions, Int. J Hydrog. Energy 27
+(2002) 611–619.
+[8] A. Steinfeld, Solar thermochemical production of hydrogen––a review, Sol.
+Energy 78 (2005) 603–615.
+[9] J.R. Scheffe, A. Steinfeld, Oxygen exchange materials for solar thermochemical
+splitting of H2O and CO2: a review, Mater. Today 17 (2014) 341–348.
+[10] S. Abanades, P. Charvin, G. Flamant, Design and simulation of a solar chemical
+reactor for the thermal reduction of metal oxides: case study of zinc oxide
+dissociation, Chem. Eng. Sci. 62 (2007) 6323–6333.
+[11] G. Levêque, S. Abanades, Design and operation of a solar-driven thermo-
+gravimeter for high temperature kinetic analysis of solid–gas thermochemical
+reactions in controlled atmosphere, Sol. Energy 105 (2014) 225–235.
+[12] M. Chambon, S. Abanades, G. Flamant, Solar thermal reduction of ZnO and
+SnO2: characterization of the recombination reaction with O2, Chem. Eng. Sci.
+65 (2010) 3671–3680.
+[13] D. Dardor, R. Bhosale, S. Gharbia, A. AlNouss, A. Kumar, F. AlMomani, Solar
+thermochemical conversion of CO2 into C via SnO2/SnO redox cycle: thermo-
+dynamic study, Int. J. Eng. Res. Appl. 5 (2015) 134–140.
+[14] P. Charvin, S. Abanades, F. Lemont, G. Flamant, Experimental study of
+SnO2/SnO/Sn thermochemical systems for solar production of hydrogen,
+AIChE J. 54 (2008) 2759–2767.
+[15] M. Chambon, S. Abanades, G. Flamant, Kinetic investigation of hydrogen
+generation from hydrolysis of SnO and Zn solar nanopowders, Int. J Hydrog.
+Energy 34 (2009) 5326–5336.
+[16] S. Abanades, CO2 and H2O reduction by solar thermochemical looping using
+SnO2/SnO redox reactions: thermogravimetric analysis, Int. J Hydrog. Energy
+37 (2012) 8223–8231.
+[17] S. Abanades, H.I. Villafan-Vidales, CO2 and H2O conversion to solar fuels via
+two-step solar thermochemical looping using iron oxide redox pair, Chem.
+Eng. J. 175 (2011) 368–375.
+[18] T. Kodama, N. Gokon, Thermochemical cycles for high-temperature solar hy-
+drogen production, Chem. Rev. 107 (2007) 4048–4077.
+[19] N. Gokon, H. Murayama, J. Umeda, T. Hatamachi, T. Kodama, Monoclinic zir-
+conia-supported Fe3O4 for the two-step water-splitting thermochemical cycle
+at high thermal reduction temperatures of 1400–1600 °C, Int. J Hydrog. Energy
+34 (2009) 1208–1217.
+[20] C. Agraﬁotis, M. Roeb, A. Konstandopoulos, L. Nalbandian, V. Zaspalis,
+C. Sattler, P. Stobbe, A. Steele, Solar water splitting for hydrogen production
+with monolithic reactors, Sol. Energy 79 (2005) 409–421.
+[21] J.R. Scheffe, A. Francés, D.M. King, X. Liang, B.A. Branch, A.S. Cavanagh, S.
+M. George, A.W. Weimer, Atomic layer deposition of iron (III) oxide on zirconia
+nanoparticles in a ﬂuidized bed reactor using ferrocene and oxygen, Thin Solid
+Films 517 (2009) 1874–1879.
+[22] N. Gokon, T. Hasegawa, S. Takahashi, T. Kodama, Thermochemical two-step
+water-splitting for hydrogen production using Fe-YSZ particles and a ceramic
+foam device, Energy 33 (2008) 1407–1416.
+[23] H. Ishihara, H. Kaneko, N. Hasegawa, Y. Tamaura, Two-step water-splitting at
+1273–1623 K using yttria-stabilized zirconia-iron oxide solid solution via co-
+precipitation and solid-state reaction, Energy 33 (2008) 1788–1793.
+[24] J.E. Miller, M.D. Allendorf, R.B. Diver, L.R. Evans, N.P. Siegel, J.N. Stuecker, Metal
+oxide composites and structures for ultra-high temperature solar thermo-
+chemical cycles, J. Mater. Sci. 43 (2008) 4714–4728.
+[25] R.R. Bhosale, A. Kumar, van den Broeke, J.P. Leo, S. Gharbia, D. Dardor, M. Jilani,
+J. Folady, M.S. Al-Fakih, M.A. Tarsad, Solar hydrogen production via thermo-
+chemical iron oxide–iron sulfate water splitting cycle, Int. J Hydrog. Energy 40
+(2015) 1639–1650.
+[26] R.R. Bhosale, R.V. Shende, J.A. Puszynski, in: Proceedings of Sol-gel Derived
+NiFe2O4 Modiﬁed with ZrO2 for Hydrogen Generation from Solar Thermo-
+chemical Water-Splitting Reaction, 1387, mrsf11-1387-e09-07, 2012.
+[27] C.C. Agraﬁotis, C. Pagkoura, A. Zygogianni, G. Karagiannakis, M. Kostoglou, A.
+G. Konstandopoulos, Hydrogen production via solar-aided water splitting
+thermochemical cycles: Combustion synthesis and preliminary evaluation of
+spinel redox-pair materials, Int. J Hydrog. Energy 37 (2012) 8964–8980.
+[28] R.R. Bhosale., A. Kumar, F. AlMomani, I. Alxneit, Propylene oxide assisted sol–
+gel synthesis of zinc ferrite nanoparticles for solar fuel production, Ceram. Int.
+42 (2016) 2431–2438.
+[29] M. Roeb, N. Gathmann, M. Neises, C. Sattler, R. Pitz-Paal, Thermodynamic
+analysis of two‐step solar water splitting with mixed iron oxides, Int. J. Energy
+Res. 33 (2009) 893–902.
+[30] R.R. Bhosale, R.V. Shende, J.A. Puszynski, Thermochemical water-splitting for
+H2 generation using sol-gel derived Mn-ferrite in a packed bed reactor, Int. J
+Hydrog. Energy 37 (2012) 2924–2934.
+[31] J.R. Scheffe, M.D. Allendorf, E.N. Coker, B.W. Jacobs, A.H. McDaniel, A.
+R.R. Bhosale et al. / Ceramics International 42 (2016) 9354–9362
+9361
+
+
+===== Page 9 =====
+
+W. Weimer, Hydrogen production via chemical looping redox cycles using
+atomic layer deposition-synthesized iron oxide and cobalt ferrites, Chem.
+Mater. 23 (2011) 2030–2038.
+[32] J.R. Scheffe, J. Li, A.W. Weimer, A spinel ferrite/hercynite water-splitting redox
+cycle, Int. J. Hydrog. Energy 35 (2010) 3333–3340.
+[33] R. Bhosale, R. Khadka, J. Puszynski, R. Shende, H2 generation from two-step
+thermochemical water-splitting reaction using sol-gel derived SnxFeyOz, J.
+Renew. Sustain. Energy 3 (2011) 063104.
+[34] J.R. Scheffe, A.H. McDaniel, M.D. Allendorf, A.W. Weimer, Kinetics and me-
+chanism of solar-thermochemical H2 production by oxidation of a cobalt fer-
+rite–zirconia composite, Energy Environ. Sci. 6 (2013) 963–973.
+[35] R. Bhosale, R. Shende, J. Puszynski, H2 generation from thermochemical water
+splitting using sol–gel derived Ni-ferrite, J. Energy Power Eng. 4 (2010).
+[36] R.R. Bhosale, R.V. Shende, J.A. Puszynski, H2 generation from thermochemical
+water-splitting using sol–gel synthesized Zn/Sn/Mn-doped Ni-ferrite, Int. Rev.
+Chem. Eng. 2 (2010) 852.
+[37] D. Ariﬁn, V.J. Aston, X. Liang, A.H. McDaniel, A.W. Weimer, CoFe2O4 on a
+porous Al2O3 nanostructure for solar thermochemical CO2 splitting, Energy
+Environ. Sci. 5 (2012) 9438–9443.
+[38] S. Lorentzou, A. Zygogianni, K. Tousimi, C. Agraﬁotis, A. Konstandopoulos,
+Advanced synthesis of nanostructured materials for environmental applica-
+tions, J. Alloy. Compd. 483 (2009) 302–305.
+[39] C. Agraﬁotis, A. Zygogianni, C. Pagkoura, M. Kostoglou, A.G. Konstandopoulos,
+Hydrogen production via solar‐aided water splitting thermochemical cycles
+with nickel ferrite: Experiments and modeling, AIChE J. 59 (2013) 1213–1225.
+[40] M. Neises, M. Roeb, M. Schmücker, C. Sattler, R. Pitz-Paal, Kinetic investiga-
+tions of the hydrogen production step of a thermochemical cycle using mixed
+iron oxides coated on ceramic substrates, Int. J. Energy Res. 34 (2010) 651–661.
+[41] J.R. Scheffe, A. Steinfeld, Thermodynamic analysis of cerium-based oxides for
+solar thermochemical fuel production, Energy Fuels 26 (2012) 1928–1936.
+[42] S. Abanades, G. Flamant, Thermochemical hydrogen production from a two-
+step solar-driven water-splitting cycle based on cerium oxides, Sol. Energy 80
+(2006) 1611–1623.
+[43] W.C. Chueh, C. Falter, M. Abbott, D. Scipio, P. Furler, S.M. Haile, A. Steinfeld,
+High-ﬂux solar-driven thermochemical dissociation of CO2 and H2O using
+nonstoichiometric ceria, Science 330 (2010) 1797–1801.
+[44] S. Haussener, A. Steinfeld, Effective heat and mass transport properties of
+anisotropic porous ceria for solar thermochemical fuel generation, Materials 5
+(2012) 192–209.
+[45] P. Furler, J.R. Scheffe, A. Steinfeld, Syngas production by simultaneous splitting
+of H2O and CO2 via ceria redox reactions in a high-temperature solar reactor,
+Energy Environ. Sci. 5 (2012) 6098–6103.
+[46] P. Furler, J. Scheffe, M. Gorbar, L. Moes, U. Vogt, A. Steinfeld, Solar thermo-
+chemical CO2 splitting utilizing a reticulated porous ceria redox system, En-
+ergy Fuels 26 (2012) 7051–7059.
+[47] R. Bader, L.J. Venstrom, J.H. Davidson, W. Lipiński, Thermodynamic analysis of
+isothermal redox cycling of ceria for solar fuel production, Energy Fuels 27
+(2013) 5533–5544.
+[48] H. Kaneko, T. Miura, H. Ishihara, S. Taku, T. Yokoyama, H. Nakajima, Y. Tamaura,
+Reactive ceramics of CeO2–MOx (M¼Mn, Fe, Ni, Cu) for H2 generation by two-
+step water splitting using concentrated solar thermal energy, Energy 32
+(2007) 656–663.
+[49] H. Kaneko, H. Ishihara, S. Taku, Y. Naganuma, N. Hasegawa, Y. Tamaura, Cerium
+ion redox system in CeO2xFe2O3 solid solution at high temperatures (1,273–
+1,673 K) in the two-step water-splitting reaction for solar H2 generation, J.
+Mater. Sci. 43 (2008) 3153–3161.
+[50] H. Kaneko, Y. Tamaura, Reactivity and XAFS study on (1x)CeO2xNiO
+(x¼0.025–0.3) system in the two-step water-splitting reaction for solar H2
+production, J. Phys. Chem. Solids 70 (2009) 1008–1014.
+[51] Q. Meng, C. Lee, T. Ishihara, H. Kaneko, Y. Tamaura, Reactivity of CeO2-based
+ceramics for solar hydrogen production via a two-step water-splitting cycle
+with concentrated solar energy, Int. J Hydrog. Energy 36 (2011) 13435–13441.
+[52] P.T. Krenzke, J.H. Davidson, On the efﬁciency of solar H2 and CO production via
+the thermochemical cerium oxide redox cycle: the option of inert-swept re-
+duction, Energy Fuels 29 (2015) 1045–1054.
+[53] Y. Hao, C. Yang, S.M. Haile, Ceria–zirconia solid solutions (Ce1–xZrxO2δ,
+xr0.2) for solar thermochemical water splitting: a thermodynamic study,
+Chem. Mater. 26 (2014) 6073–6082.
+[54] A. Le Gal, S. Abanades, Dopant incorporation in ceria for enhanced water-
+splitting activity during solar thermochemical hydrogen generation, J. Phys.
+Chem. C 116 (2012) 13516–13523.
+[55] J.R. Scheffe, R. Jacot, G.R. Patzke, A. Steinfeld, Synthesis, characterization, and
+thermochemical redox performance of Hfþ4, Zrþ4, and Scþ3 doped ceria for
+splitting CO2, J. Phys. Chem. C 117 (2013) 24104–24114.
+[56] A. Le Gal, S. Abanades, Catalytic investigation of ceria-zirconia solid solutions
+for solar hydrogen production, Int. J Hydrog. Energy 36 (2011) 4739–4748.
+[57] S. Abanades, A. Le Gal, CO2 splitting by thermo-chemical looping based on Zrx
+Ce1xO2 oxygen carriers for synthetic fuel generation, Fuel 102 (2012)
+180–186.
+[58] A. Le Gal, S. Abanades, G. Flamant, CO2 and H2O splitting for thermochemical
+production of solar fuels using nonstoichiometric ceria and ceria/zirconia solid
+solutions, Energy Fuels 25 (2011) 4836–4845.
+[59] C. Yang, Y. Yamazaki, A. Aydin, S.M. Haile, Thermodynamic and kinetic as-
+sessments of strontium-doped lanthanum manganite perovskites for two-step
+thermochemical water splitting, J. Mater. Chem. A 2 (2014) 13612–13623.
+[60] J.R. Scheffe, D. Weibel, A. Steinfeld, Lanthanum–strontium–manganese per-
+ovskites as redox materials for solar thermochemical splitting of H2O and CO2,
+Energy Fuels 27 (2013) 4250–4257.
+[61] L. Nalbandian, A. Evdou, V. Zaspalis, La1xSrxMO3 (M¼Mn, Fe) perovskites as
+materials for thermochemical hydrogen production in conventional and
+membrane reactors, Int. J Hydrog. Energy 34 (2009) 7162–7172.
+[62] A.H. McDaniel, E.C. Miller, D. Ariﬁn, A. Ambrosini, E.N. Coker, R. O'Hayre, W.
+C. Chueh, J. Tong, Sr-and Mn-doped LaAlO3δ for solar thermochemical H2 and
+CO production, Energy Environ. Sci. 6 (2013) 2424–2428.
+[63] A.H. McDaniel, A. Ambrosini, E.N. Coker, J.E. Miller, W.C. Chueh, R. O'Hayre,
+J. Tong, Nonstoichiometric perovskite oxides for solar thermochemical H2 and
+CO production, Energy Procedia 49 (2014) 2009–2018.
+[64] A. Demont, S. Abanades, High redox activity of Sr-substituted lanthanum
+manganite perovskites for two-step thermochemical dissociation of CO2, RSC
+Adv. 4 (2014) 54885–54891.
+[65] A. Demont, S. Abanades, E. Beche, Investigation of perovskite structures as
+oxygen-exchange redox materials for hydrogen production from thermo-
+chemical two-step water-splitting cycles, J. Phys. Chem. C 118 (2014)
+12682–12692.
+[66] A. Evdou, L. Nalbandian, V. Zaspalis, Perovskite membrane reactor for con-
+tinuous and isothermal redox hydrogen production from the dissociation of
+water, J. Membr. Sci. 325 (2008) 704–711.
+[67] A. Evdou, V. Zaspalis, L. Nalbandian, La1xSrxFeO3δ perovskites as redox
+materials for application in a membrane reactor for simultaneous production
+of pure hydrogen and synthesis gas, Fuel 89 (2010) 1265–1273.
+[68] A. Evdou, V. Zaspalis, L. Nalbandian, La(1x)SrxMnO3δ perovskites as redox
+materials for the production of high purity hydrogen, Int. J Hydrog. Energy 33
+(2008) 5554–5562.
+[69] M. Gálvez, R. Jacot, J. Scheffe, T. Cooper, G. Patzke, A. Steinfeld, Physico-che-
+mical changes in Ca, Sr and Al-doped La–Mn–O perovskites upon thermo-
+chemical splitting of CO2 via redox cycling, Phys. Chem. Chem. Phys. 17 (2015)
+6629–6634.
+R.R. Bhosale et al. / Ceramics International 42 (2016) 9354–9362
+9362

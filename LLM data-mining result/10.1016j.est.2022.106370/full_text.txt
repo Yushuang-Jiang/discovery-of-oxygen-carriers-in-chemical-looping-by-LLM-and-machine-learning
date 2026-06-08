@@ -1,0 +1,777 @@
+
+
+===== Page 1 =====
+
+Journal of Energy Storage 59 (2023) 106370
+Available online 28 December 2022
+2352-152X/© 2022 Elsevier Ltd. All rights reserved.
+Research papers 
+Self-assembly CuO surface decorated with NiAl2O4 for high-temperature 
+thermochemical energy storage: Excellent performance and strong 
+interaction mechanism 
+Jiali Deng a,b, Changdong Gu c, Haoran Xu a,b, Gang Xiao a,b,* 
+a State Key Laboratory of Clean Energy Utilization, College of Energy Engineering, Zhejiang University, Hangzhou, Zhejiang 310027, China 
+b Key Laboratory of Clean Energy and Carbon Neutrality of Zhejiang, Jiaxing Institute of Zhejiang University, 966 Xiuyuan Road, Jiaxing 314031, China 
+c State Key Laboratory of Silicon Materials, College of Materials Science and Engineering, Zhejiang University, Hangzhou, Zhejiang 310027, China   
+A R T I C L E  I N F O   
+Keywords: 
+Self-assembly 
+Solar energy 
+Thermochemical energy storage 
+Cycling stability 
+Sinter resistance 
+Modification mechanism 
+A B S T R A C T   
+High-temperature thermochemical energy storage materials with high energy density is the key technical support 
+for the third generation concentrated solar power plants equipped with advanced energy storage system. CuO/ 
+Cu2O redox couple is one of the most promising systems due to its low cost and high energy density, but its 
+application is limited by poor reaction performance. Herein, the self-assembly CuO surface decorated with 15 wt 
+% NiAl2O4 is prepared with excellent redox reversibility and ultralong lifespan. Its reaction rate is increased by 
+4.2 times with re-oxidation degree increasing from 46 % to 99.9 %. The thermochemical energy density of 
+storage and release reach −772.726 kJ/kg and 764.655 kJ/kg, respectively. After 1000 cycles, the degree of 
+reduction and oxidation reaction can keep 99.9 % and 98 %. The material characterization shows that NiAl2O4 
+are uniformly and firmly loaded on the surface of CuO/Cu2O, which significantly increases the sintering tem­
+perature and improves the reaction performance. DFT studies further confirm that NiAl2O4 has a high binding 
+energy with CuO/Cu2O and can increase the formation energy of copper vacancy. The study reveals the anti- 
+sintering modification mechanism of CuO/Cu2O by introducing NiAl2O4, which provides a solution toward 
+sintering resistance of high-temperature thermochemical energy storage materials.   
+1. Introduction 
+The third generation concentrated solar power (CSP) plants require 
+lower cost and higher efficiency technology, and high temperature can 
+boost the efficiency of thermodynamic cycles [1]. Because thermo­
+chemical energy storage (TCES) technology has higher energy storage 
+density and feasibility than sensible heat storage (SHS) at high tem­
+perature, it emerges as an attractive scheme for the design of the next 
+generation of power plants [2]. The metal oxides redox system dem­
+onstrates many advantages of simpler system and better compatibility 
+with CSP plants than other TCES systems (e.g. carbonate and hydroxide 
+systems) [3–7], which is the most potential candidate for thermo­
+chemical energy storage based on solid-gas reversible reactions [8]. 
+Co3O4/CoO, Mn2O3/Mn3O4 and CuO/Cu2O are considered suitable for 
+high temperature thermochemical energy storage materials [8–12]. 
+Co3O4/CoO redox couple has excellent reversibility [13–17], but it 
+presents the distinct drawbacks of high costs and carcinogenicity 
+[2,8,9]. The most crucial problem of Mn2O3/Mn3O4 system is the slow 
+oxidation kinetics, but Fe-doping can remarkably improve the reaction 
+characteristics [2,18–22]. However, the energy storage density of this 
+system is much lower than other redox couples [9]. CuO/Cu2O couple 
+has the advantages of wide availability, high energy density, and low 
+hysteresis temperature gaps guaranteeing high exergy efficiencies [2]. 
+Nevertheless, the melting point of Cu2O is too close to the reduction 
+temperature and this may result in severe sintering problem, resulting in 
+incomplete oxidation of Cu2O [7,8,10]. After multiple cycles, the par­
+ticles show obvious shrinkage and densification induced a short cycle 
+life [23,24]. Limit its large-scale multi-scenario application as thermo­
+chemical energy storage materials. 
+Alonso et al. [7] found that oxygen was released at about 500 ◦C for 
+CuO/Cu2O in argon while this value increased to 800 ◦C in air. And 
+stronger coalescence of the particles was observed in air than in argon, 
+* Corresponding author at: State Key Laboratory of Clean Energy Utilization, College of Energy Engineering, Zhejiang University, Hangzhou, Zhejiang 310027, 
+China. 
+E-mail address: xiaogangtianmen@zju.edu.cn (G. Xiao).  
+Contents lists available at ScienceDirect 
+Journal of Energy Storage 
+journal homepage: www.elsevier.com/locate/est 
+https://doi.org/10.1016/j.est.2022.106370 
+Received 27 July 2022; Received in revised form 10 November 2022; Accepted 8 December 2022   
+
+
+===== Page 2 =====
+
+Journal of Energy Storage 59 (2023) 106370
+2
+what may handicap the redox reaction. Setoodeh et al. [25] re-evaluated 
+the effect of pressure for oxidation of Cu2O to CuO through thermog­
+ravimetric analyses, and isothermally ran between 800 ◦C and 930 ◦C at 
+different oxygen partial pressures (0.1, 0.2, 0.5, and 1.0 bar). This result 
+reflected low oxygen partial pressures would go along with low equi­
+librium temperatures. Therefore, changing the atmosphere can benefit 
+to promote the oxidation by alleviating sintering. But this approach can 
+make the operation of the CSP system complicated. Steinfeld et al. [26] 
+prepared porous CuO-based granules with yttria-stabilized zirconia 
+(YSZ) as sintering inhibitor. They found CuO-YSZ granules exhibited 
+stable cyclability over 100 consecutive cycles performed by TG in air 
+between 950 ◦C and 1050 ◦C. However, YSZ is expensive and not suit­
+able for extensive applications. Qasim et al. [27] investigated the 
+feasibility of using MgAl2O4-stabilized oxygen carrier containing 70–90 
+wt% CuO in CLOU process. The results showed that the surface of the 
+oxygen carrier covered with nano-sized MgAl2O4 grains can stabilize the 
+thermal sintering and agglomeration of CuO-based oxygen carrier at 
+950 ◦C. However, MgAl2O4 was not uniformly distributed on the oxygen 
+carrier in its material structure, and the grains of MgAl2O4 were obvi­
+ously agglomerated, resulting in a large decrease in O2 yield of material 
+with high CuO content (90 wt%) observed in only 25 cycles. In addition, 
+oxygen carrier typically undergo reduction at lower temperatures (~ 
+900 ◦C) in a nitrogen atmosphere, while metal oxides react directly with 
+air in CSP and require higher reduction temperatures (~ 1020 ◦C). TCES 
+materials face more severe sintering problems than oxygen carrier, so 
+the rational design of the material is demanding. In previous work, we 
+reported that the formation of CuAl2O4 after Al-doping could help to 
+avoid the sintering problem, which increased the formation energy of 
+copper vacancy in copper oxides [28]. The initial oxidation ratio of Cu2O 
+reached 99.5 % and remained 81.1 % after 120 cycles. Whereas, 
+CuAl2O4/CuAlO2 also underwent redox phase transformation in the 
+reaction process, but their reaction performance was not good, so that 
+the performance decay was fast after only 120 cycles. Moreover, due to 
+the loss of some CuO which reacted with Al2O3, the energy storage/ 
+release density of CuO/Cu2O decreased. The structural design of their 
+composites is somewhat inadequate, which may lead to the decrease of 
+sintering resistance and reactivity after repeated utilization. To sum up, 
+it is necessary to reasonably design TCES material structure with long 
+lifetime considering both the sinter-resistance and cyclic redox activity. 
+At the same time, a simplified synthesis strategy with high yield and 
+good reproducibility needs to be developed. 
+In this study, we designed the material structure of self-assembled 
+NiAl2O4 surface decorated CuO. The design of the composite structure 
+can ensure the CuO/Cu2O reaction performance and maximize the 
+retarding effect of inhibitor on CuO/Cu2O sintering. Additionally, the 
+composite was successfully synthesized by a simple preparation method, 
+which greatly improved the re-oxidation degree, reaction kinetics and 
+cycling stability. The improvement mechanism of NiAl2O4 spinel sin­
+tering inhibitor on CuO/Cu2O performance was expounded through 
+material characterization. Moreover, we also described density func­
+tional theory (DFT) calculations that analyzed the strong interaction 
+between the NiAl2O4 and CuO/Cu2O and compared the formation en­
+ergy of copper vacancy, to jointly reveal the anti-sintering mechanism of 
+the modified material. This research can provide guidance for the syn­
+thesis and design of other sinter-resistant metal oxides. 
+2. Material and methods 
+2.1. Material preparation 
+The self-assembly CuO surface decorated with NiAl2O4 were pre­
+pared by combining the sol-gel method and the high-temperature solid- 
+phase method, in which the spinel structure inhibitor was prepared by 
+the sol-gel method, and then was decorated on the CuO surface by the 
+high-temperature solid-phase method. 0.1 mol Ni (NO3)2⋅6H2O, 0.2 mol 
+Al (NO3)2⋅9H2O and 0.3 mol of citric acid were dissolved in an 
+appropriate amount of deionized water, stirred at 70 ◦C for 3 h, and then 
+0.2 mol ethylene glycol was added at 90 ◦C and stirred for 2 h. Then the 
+gel was dried at 200 ◦C for 3 h, calcined firstly at 450 ◦C for 4 h, and at 
+800 ◦C for 4 h. The NiAl2O4 spinel structure inhibitor could be obtained. 
+The composites were synthesized by mixing CuO and prepared NiAl2O4 
+powders uniformly in a planetary ball mill for 30 min and calcining at 
+900 ◦C for 4 h. The doping mass fraction ratios of CuO and NiAl2O4 in the 
+samples were 95 wt%: 5 wt%, 90 wt%: 10 wt%, 85 wt%: 15 wt%, 80 wt 
+%: 20 wt%, labeled NA-5, NA-10, NA-15 and NA-20, respectively. 
+2.2. Material characterizations 
+All samples in this paper were tested in powder form. X-ray 
+diffraction (XRD) patterns were recorded with a X-pert Powder 
+diffractometer in the range of 2θ of 10◦to 80◦by using Cu Kα (λ =
+1.5406 Å) radiation. The scan step size was 0.02◦and 20 s counting time 
+per angle. The generator voltage and tube current were 40 kV and 40 
+mA, respectively. The field emission scanning electron microscopic 
+(FESEM) imaging and energy-dispersive X-ray spectroscopy (EDS) 
+mapping were carried out by a SU-8010 microscope. The BET surface 
+area of samples was determined by using nitrogen adsorption- 
+desorption isotherms measured at 77K on the ASAP2460 automatic 
+specific surface and micropore size analyzer. Fourier Transform Infrared 
+Spectroscopy (FTIR) was used to study the chemical binding nature of 
+the synthesized products taking by a Thermo Scientific Nicolet iS20 
+spectrometer in the range 400–4000 cm−1, and the samples were pre­
+pared by the KBr disk method. X-ray photoemission spectroscopy (XPS) 
+was performed using a Thermo Scientific K-Alpha electron energy 
+analyzer and a monochromatized Al Kα X-ray photon source (hv =
+1486.6 eV). 
+2.3. Material performance testing 
+TGA/DSC3+ simultaneous thermal analyzer was used to test and 
+analyze the redox reactivity of the powder samples. The test atmosphere 
+was air, which was consistent with the real application scenario. Air 
+acted as both a heat transfer fluid and a reaction medium. The test 
+temperature range was 50 ◦C -1100 ◦C -700 ◦C at a heating/cooling rate 
+of 20 K/min under a continuous air flow of 50mL/min for ~10mg 
+samples. Reduction reaction (endothermic) occurred during heating, 
+followed by oxidation (exothermic) occurs during cooling. 
+2.4. DFT computation details 
+Spin-polarized DFT calculations were carried out using plane wave 
+basis sets for valence electrons and projector augmented wave (PAW) 
+potentials for core electrons [29], as implemented in the Vienna Ab 
+Initio Simulation Package (VASP) [30]. The generalized gradient 
+approximation (GGA) with the Perdew-Burke-Ernzerhof (PBE) 
+exchange-correlation functional was used [31]. The plane-wave basis 
+sets with a kinetic energy cutoff of 500 eV were set. Considering the 
+strong electron correlation effects of Cu and Ni, the calculations were 
+performed with the DFT + U method [32]. According to previous re­
+ports, the parameters were taken as U = 7 eV for Cu [33] and 6.3 eV for 
+Ni [34]. Monkhorst-Pack k-point meshes were used for the Brillouin 
+zone integration as given in Table S1. Geometry optimization was 
+employed using a convergence criterion of 1.0 × 10−4 eV for total en­
+ergy and 0.02 eV/Å for maximum force on the atoms. The lattice con­
+stants evaluated by DFT calculations agree with experimental values 
+with small deviations, as shown in Table S2. These results indicated that 
+the DFT calculation was reliable for geometry optimization. CuO (111), 
+Cu2O (111) and NiAl2O4 (111) surface were used in this study because 
+they were the most stable low index surfaces, mainly exposed to the 
+environment [35,36]. The constructed slab model consisted of a 2 × 2 
+surface unit cell. In the surface slab calculations, the vacuum thickness 
+was ~20 Å. The detailed structural parameters of slab models are listed 
+J. Deng et al.                                                                                                                                                                                                                                     
+
+
+===== Page 3 =====
+
+Journal of Energy Storage 59 (2023) 106370
+3
+in Table S3. 
+3. Results and discussion 
+3.1. Characterization of As-prepared samples 
+Fig. 1 illustrates schematically the design idea and self-assembly 
+preparation process of the composite. The phase composition and 
+crystal structure of the as-prepared materials were obtained by X-ray 
+diffraction analysis. The samples with different NiAl2O4 doping ratios 
+are only composed of CuO (ICDD-PDF No. 48–1548, C2/c monoclinic 
+space group) and NiAl2O4 (ICDD-PDF No. 73–0239, Fd3‾m cubic space 
+group), and no diffraction peaks of impurities are indexed (Fig. S1). CuO 
+and NiAl2O4 had sharp diffraction peaks, implying good crystallinity. 
+FESEM images of different fresh samples are demonstrated in Figs. 2 and 
+S2. The CuO particle size (~ 1 μm) without heat treatment was smaller 
+and easy to agglomerate, while the grain growth of NiAl2O4 modified 
+samples after high temperature treatment led to the increase of particle 
+size (~ 4–5 μm). In addition, NiAl2O4 nanoparticles were uniformly 
+distributed on the surface of CuO microparticles of NA-5, NA-10, NA-15 
+and NA-20. The load on the surface of the samples increased with the 
+mass percentage of NiAl2O4. Moreover, there was good dispersion be­
+tween the CuO particles, indicating that the self-assembly CuO surface 
+decorated with NiAl2O4 were successfully synthesized. 
+3.2. Redox reaction performance 
+The redox performance of the as-prepared samples are presented in 
+Fig. 3. The reduction of CuO could reach the theoretical weight loss (~ 
+10.02 %), but the weight gain of its oxidation process was only 4.6 % 
+(Fig. 3a and c). Moreover, the re-oxidation rate was slower compared to 
+the time required to complete the reduction, with only 46 % of the re- 
+oxidation degree still requiring 13.2 min (Fig. 3b). The mass percent­
+age of CuO decreased with the increase of NiAl2O4 doping. Since the 
+substance in which redox occurred was CuO/Cu2O, the reaction degree 
+was reduced correspondingly. For each increase of 5 wt% NiAl2O4, the 
+reaction degree decreased by about 0.55 %. The weight gain of NA-5, 
+NA-10, NA-15 and NA-20 are 9.05 %, 8.77 %, 8.22 % and 7.63 %, 
+respectively. Even the introduction of a small amount of NiAl2O4 could 
+effectively improve oxidation performance. Except for NA-5 sample, the 
+oxidation of other materials could be completed in 3.2–3.7 min. Overall, 
+the CuO/Cu2O surface decoration of NiAl2O4 has better reversibility and 
+faster reaction rate. 
+3.3. Sintering mitigation 
+The sintering process of different materials at high temperatures is 
+shown in Figs. 4 and S3. CuO was sintered at 1000 ◦C to form densified 
+hard lumps (~15 μm), which began to melt as the temperature rose to 
+1040 ◦C (~23 μm) and completely melted at 1060 ◦C (~26 μm). CuO 
+was only sintered before reduction (~1020 ◦C) but melted after 
+completion of reduction (~1060 ◦C). However, CuO could be 
+completely converted into Cu2O, and Cu2O was known to have poor 
+thermal stability at high temperatures. Therefore, it is reasonable to 
+speculate that the melting is caused by Cu2O, and the coalescence and 
+sintering of CuO in the early stage aggravate its melting. Nevertheless, 
+no obvious sintering and melting phenomena were observed in the 
+NiAl2O4 modified samples before ~1060 ◦C. In contrast, NA-5 may be 
+due to less doping, resulting in some particles with surface incompletely 
+decorated can still contact each other to sinter (~11 μm at 1060 ◦C) and 
+further melt (~20 μm at 1100 ◦C) under harsh conditions of higher 
+temperature, so its corresponding re-oxidation performance is slightly 
+inferior to other three samples (Fig. 3). NA-15 and NA-20 only had 
+smaller and less densified hard lumps (~5 μm and ~ 6 μm, respectively) 
+caused by slight sintering within 1100 ◦C, which significantly increased 
+the sintering temperature. Thus, the appropriate and effective NiAl2O4 
+surface decoration can greatly solve the agglomeration, sintering and 
+melting problems of CuO/Cu2O at high temperatures. 
+3.4. Thermochemical energy storage density and cycling life 
+The most important factor affecting the energy density and cycling 
+performance of CuO/Cu2O was serve sintering at high temperatures. 
+Surprisingly, from the foregoing results, the NA-15 sample could greatly 
+alleviate sintering while ensuring more redox. Fig. 5 manifests the en­
+ergy density and cycle performance of NA-15. In the first cycle, the 
+thermochemical energy storage density of NA-15 in the reduction stage 
+reached −772.726 kJ/kg, and the energy release density during the 
+oxidation was still 764.655 kJ/kg (Fig. 5a). However, the thermo­
+chemical energy release density of CuO in the first cycle was only 
+466.23 kJ/kg (Fig. S4). These results indicated that NA-15 had higher 
+thermochemical energy storage and release density. The material un­
+derwent a complete reduction and oxidation reaction as a cycle. The 
+cyclic reactivity of undoped CuO/Cu2O is demonstrated in Fig. S5. After 
+only 40 cycles, the re-oxidation degree attenuated to 28 %. As shown in 
+Fig. 5b and c, NA-15 sample still has excellent redox activity after 1000 
+cycles. The reduction and re-oxidation degree kept 99.9 % and 98 %, 
+respectively. It showed that the modification of the CuO/Cu2O surface 
+by 15 wt% NiAl2O4 greatly improves the cycle life of CuO/Cu2O. 
+FESEM was used to analyze the influence of different cycles on the 
+micromorphology of the samples, and to determine the grain changes 
+after multiple cycles. The FESEM images of undoped CuO with different 
+cycles are shown in Fig. S6. There was serious agglomeration and sin­
+tering between particles after only 10 cycles (~ 26 μm). With the 
+progress of the cycle, the grain fusion and grain boundary blur, the 
+sintered body was significantly densified after 40 cycles (~ 30 μm). 
+However, the different cycles of NA-15 samples have excellent particle 
+dispersion (Fig. 6). The particles were small after the first cycle (~ 4 
+μm), as shown in Fig. S7. From 1 to 200 cycles, the grain size increased 
+(~ 4–10 μm) rapidly due to the aggregation and merge of small and 
+large grains, which was driven by the difference in surface energy of 
+different grain sizes (Ostwald ripening) [22]. The particle size of NA-15 
+tended to be constant after 200 cycles (~ 10 μm), indicating that 
+surface-dispersed NiAl2O4 effectively inhibited coalescence between 
+CuO particles. In addition, the particle size of NA-15 after 200–1000 
+cycles (~ 10 μm) was about 1/3 of that of undoped CuO after 10 cycles 
+(~ 26 μm). The small NiAl2O4 grains were still uniformly and firmly 
+loaded on the CuO surface even after 1000 cycles. It is speculated that 
+Fig. 1. Schematics of the self-assembly preparation process and morphologic characteristics of the CuO surface decorated with NiAl2O4.  
+J. Deng et al.                                                                                                                                                                                                                                     
+
+
+===== Page 4 =====
+
+Journal of Energy Storage 59 (2023) 106370
+4
+the NiAl2O4 inhibitor has strong interaction with metal oxides, thereby 
+ensuring that the CuO/Cu2O surface decorated by 15 wt% NiAl2O4 had 
+excellent long-life redox reactivity. 
+The samples size change caused by particle sintering after different 
+cycles were further confirmed by Brunauer-Emment-Teller (BET) anal­
+ysis. The results are listed in Table 1. The BET surface area of CuO after 
+first cycle was 1.0509 m2/g, while decreased to 0.3087 m2/g after 40 
+cycles. The specific surface area reduced dramatically by 3.4 times, 
+indicating that there was serious coalescence and sintering between the 
+particles. The BET surface area of NA-15 was 1.4964 m2/g after the first 
+cycle. The specific surface area of NA-15 was larger than that of CuO due 
+to the smaller particle size of NiAl2O4 decorated on the surface of CuO 
+and the inhibitor prevented the agglomeration of CuO. Due to the grain 
+growth of NA-15, its specific surface area decreased to 0.8753 m2/g after 
+200 cycles. However, the BET surface area after 1000 cycles kept 0.7650 
+m2/g, which was close to the results of 200 cycles, elaborating that the 
+grain size remained stable and there was no serious sintering. The spe­
+cific surface area after 1000 cycles was still 2.48 times larger than that 
+after 40 cycles of CuO. Therefore, the CuO material surface decorated 
+with NiAl2O4 had excellent cycle stability and reaction activity. 
+3.5. Physicochemical properties of NA-15 with excellent performance 
+The physicochemical properties of NA-15 with excellent perfor­
+mance were deeply analyzed to explain the modification mechanism, 
+and the characterization results are shown in Figs. 7 and 8. In order to 
+clarify the phase structure evolution process of NA-15 in redox reaction, 
+the samples at different stages were tested by XRD. As shown in Fig. 7a, 
+CuO turned into Cu2O after reduction reaction. The results of oxidized 
+samples showed that no obvious Cu2O diffraction peak appeared, and 
+the phase was consistent with the fresh sample. It indicated that the 
+whole reaction process had excellent reversibility and NiAl2O4 signifi­
+cantly improved the re-oxidation (Fig. 3). It could be obviously observed 
+that there was more Cu2O in the oxidized sample (Fig. 7b), so its re- 
+oxidation degree was low. In addition, it is worth noting that the 
+NiAl2O4 of spinel-type structure maintained a stable phase structure 
+during the reaction, with the same diffraction peak intensity and good 
+crystallinity. Therefore, it could be inferred that the inert inhibitor 
+material had excellent chemical thermal stability in the operating tem­
+perature range. Moreover, NiAl2O4 didn’t react with CuO/Cu2O to form 
+impurities, thereby avoiding damage to the reaction performance. The 
+reaction equation of CuO surface decorated with NiAl2O4 can be 
+deduced as follows: 
+Fig. 2. FESEM images of fresh samples: (a) CuO, (b) NA-5, (c) NA-10, (d) NA-15, (e) NA-20.  
+Fig. 3. Redox reaction performance of NiAl2O4 modified CuO/Cu2O: (a) TG curves, (b) Reaction time, (c) Weight change ratio.  
+J. Deng et al.                                                                                                                                                                                                                                     
+
+
+===== Page 5 =====
+
+Journal of Energy Storage 59 (2023) 106370
+5
+4CuO + NiAl2O4⇌2Cu2O + O2 + NiAl2O4 
+NA-15 was tested and analyzed by SEM and EDS to further analyze 
+the mechanism of NiAl2O4 on CuO/Cu2O reaction performance 
+improvement. There is an obvious adhesion between undoped Cu2O 
+particles to form dense and irregular larger particles (~ 23 μm) after 
+reduction (Fig. S8), which was consistent with the melting phenomenon 
+observed above (Fig. 4). This might be due to the migration-coalescence 
+process of particles led to severe sintering. However, the particles 
+remained densified (~ 24 μm) after 1st cycle. It is speculated that the 
+reason why Cu2O could not be completely oxidized to CuO lay in the 
+densification of the material surface, which made it difficult for oxygen 
+to diffuse into the inside of the particles. SEM image, EDS element 
+mapping and EDS spectrum of NA-15 are shown in Figs. 8 and S9. 
+Although CuO and Cu2O underwent reversible phase transition, NiAl2O4 
+was firmly loaded on the surface of CuO/Cu2O, suggesting a strong 
+interaction between NiAl2O4 and CuO/Cu2O. The size of the particles 
+varied almost imperceptibly (~5 μm) and about 1/5 of undoped CuO. It 
+indicated that the inhibitor with relatively small particle size decorated 
+Fig. 4. Sintering process of different samples in operating temperature range. (a) FESEM images, (b) Schematic diagram.  
+Fig. 5. Thermochemical energy storage density of NA-15 in the first cycle (a) TG-DSC curves. Long-life cycling performance over 1000 cycles (b) TG curves and (c) 
+conversion rate. 
+J. Deng et al.                                                                                                                                                                                                                                     
+
+
+===== Page 6 =====
+
+Journal of Energy Storage 59 (2023) 106370
+6
+on the metal oxides surface could ensure a large chemical reaction 
+contact area and effectively prevent the agglomeration and sintering 
+caused by CuO/Cu2O particle contact. In addition, EDS element map­
+pings clearly observed Cu, O, Ni and Al elements dispersed uniformly. 
+NiAl2O4 was evenly distributed on the surface of CuO/Cu2O particles, 
+maximizing the confinement and preventing particles contact and 
+merger, thus increasing the sintering temperature. In short, the uniform 
+decoration of NiAl2O4 inhibitor can effectively improve the sintering 
+resistance and the redox characteristics of the material. 
+The relationship between NiAl2O4 and CuO/Cu2O was deeply 
+analyzed by FTIR. The local enlargement spectra of 1000–400 cm−1 is 
+shown in Fig. 7c and d. A broader spectrum of 4000–400 cm−1 is dis­
+played in Fig. S10. The peaks of NA-15 at 498.54 cm−1, 724.70 cm−1 and 
+720.09 cm−1 were attributed to the lattice vibration of Ni2+-O2−
+at 
+octahedral sites and Al3+-O2−at tetrahedral sites [37]. There was a peak 
+at 616.17 cm−1 associated with the stretching vibration of Cu+-O2- [38]. 
+In addition, the peak of CuO after 1st cycle at 504.73 cm−1 corresponded 
+to the Cu2+-O2−
+vibration in the monoclinic CuO [39]. It was worth 
+mentioning that the peaks of Cu+-O2−and Cu2+-O2−in NA-15 appeared 
+at 617.91 cm−1 and 522.26 cm−1, respectively. Compared to undoped 
+CuO, the positions of Cu–O peaks shifted to higher wavenumber after 
+NiAl2O4 surface decoration. It indicated that there was charge transfer in 
+NA-15 and strong interaction between CuO/Cu2O and NiAl2O4. Thus, it 
+is ensured that the inhibitor can firmly bind to CuO/Cu2O, inhibiting the 
+migration and sintering of CuO/Cu2O. 
+The re-oxidation performance of the material decorated with 
+NiAl2O4 was greatly improved, so the surface chemistry of the NA-15 
+sample after 1st cycle was analyzed by XPS. The Cu2p spectrum 
+(Fig. 7e) consisted of Cu 2p3/2 and Cu 2p1/2, respectively. The binding 
+energy were 933.2 eV in Cu 2p3/2, 953.1 eV in Cu 2p1/2, and the 
+satellites represented Cu2+ species [40,41]. However, NA-15 samples 
+had stronger Cu2+ peaks and satellites. CuO after 1st cycle had obvious 
+and strong Cu+ peak at 931.4 eV and 951.3 eV [42], indicating that it 
+was not completely oxidized, which was identical to the XRD pattern 
+(Fig. 7b). Meanwhile, the Cu LM2 (Fig. 7f) spectrum also revealed that 
+the characteristic peak of CuO sample at the binding energy of 569.5 eV 
+corresponded to Cu+ [43]. Notably, NA-15 shifted to higher binding 
+energy in the Cu 2p and Cu LM2 spectra, elucidating that the charge 
+transfer in the sample led to changes in the electronic properties of Cu, 
+which again confirmed the strong interaction between metal oxides and 
+inhibitor. The two peaks of CuO at 528.8 eV and 530.3 eV in the O1s 
+spectra (Fig. 7g) were the characteristics of lattice oxygen and adsorbed 
+oxygen (including oxygen defects or a mixture of hydroxyl groups on 
+CuO surface) [44]. Whereas, the peaks of NA-15 at 529.4 eV and 530.9 
+eV were also attributed to lattice oxygen and adsorbed oxygen, which 
+was coincide with the previously reported NiAl2O4 [45]. NA-15 had 
+more adsorbed oxygen than CuO, which was supposed to be ascribed to 
+the surface decoration of NiAl2O4. More oxygen vacancies in NiAl2O4 
+can enhance the strong interaction between the active component and 
+the inhibitor [46]. This is because the oxygen vacancy is electronegative, 
+Cu metal cation entering the NiAl2O4 oxygen vacancy can form ionic 
+bonds with it, which is conducive to strengthening the interaction. 
+3.6. Modification mechanism 
+The above experimental results had confirmed that alleviating CuO/ 
+Cu2O sintering could effectively improve its reaction characteristics, so 
+the sintering improvement mechanism of NiAl2O4 on CuO/Cu2O was 
+further revealed in combination with DFT calculation (Fig. 9). Based on 
+the XRD analysis results (Fig. 7a), the interface models of the reduced 
+and oxidized state are constructed (Fig. S11). The optimized slab models 
+are shown in Fig. 9a and b. The binding energy ΔEb of CuO-NiAl2O4 and 
+Cu2O-NiAl2O4 were −
+26.861 eV and −
+32.846 eV, respectively. They 
+were greater than the values of CuO-CuO (−13.277 eV) and Cu2O-Cu2O 
+(−12.299 eV). It manifested that compared with CuO-CuO/Cu2O-Cu2O 
+self-coalescing, they were more inclined to bind with NiAl2O4 to make 
+the whole system more stable, which could effectively solve the coa­
+lescence and sintering problem caused by surface contact and bonding of 
+particles. Moreover, the bond lengths of Cu–O and Al–O of various 
+models are exhibited in Table S4. The bonds at the interface of CuO/ 
+Cu2O-NiAl2O4 slabs were shorter and stronger than that of CuO/Cu2O/ 
+Fig. 6. FESEM images of NA-15 samples with different cycles: (a) 1st cycle, (b) 200th cycle, (c) 400th cycle, (d) 600th cycle, (e) 800th cycle, (f) 1000th cycle.  
+Table 1 
+Specific surface area of different samples at multiple cycles.  
+Metal oxides 
+Cycle number 
+BET (m2/g) 
+CuO  
+1  
+1.0509  
+20  
+0.7541  
+40  
+0.3087 
+NA-15  
+1  
+1.4964  
+200  
+0.8753  
+1000  
+0.7650  
+J. Deng et al.                                                                                                                                                                                                                                     
+
+
+===== Page 7 =====
+
+Journal of Energy Storage 59 (2023) 106370
+7
+NiAl2O4 or CuO-CuO/Cu2O-Cu2O. The results expounded that it was 
+more difficult to break bonds in this system, and there was a strong 
+interaction between the NiAl2O4 and CuO/Cu2O, which could inhibit the 
+migration of CuO/Cu2O at high temperature. In addition, according to 
+the mass transfer through diffusion mechanism in solid state sintering 
+theory, vacancy concentration in each part of the particle was different 
+to some extent, and the concentration gradient promoted the diffusion of 
+thermal defects such as vacancy on the surface or inside of the particle, 
+thus accelerating the sintering. The copper vacancy formation energies 
+of the interface models at different layers are presented in Fig. 9c and d. 
+E(VCu) had the order of CuO-CuO < CuO-NiAl2O4 and Cu2O-Cu2O <
+Cu2O-NiAl2O4, elucidating that the copper vacancies in CuO/Cu2O after 
+NiAl2O4 decoration were more difficult to form, thereby slowing down 
+the mass transfer during sintering. Theoretically, enhancing the strong 
+interfacial interaction between the inhibitor and the sintered material, 
+and restraining the formation of copper vacancy can effectively improve 
+the sintering resistance of the material. 
+Based on the experimental characterization and DFT calculation re­
+sults, the redox modification mechanism of self-assembly CuO/Cu2O 
+with NiAl2O4 surface decoration was clarified, as shown in Fig. 10. 
+When CuO/Cu2O undergoes reversible redox transformation, the spinel 
+structure NiAl2O4 inhibitor with excellent thermal stability maintains 
+phase stability to avoid impurity damage reactivity. The inhibitor with 
+smaller particle size can retain more CuO/Cu2O reaction area. The inert 
+inhibitor is distributed at the CuO/Cu2O grain boundary, and the driving 
+force of CuO/Cu2O grain growth is offset by the Zener pinning force 
+acting on the grain boundary by NiAl2O4, thus effectively inhibiting 
+grain growth. Moreover, NiAl2O4 is uniformly dispersed on the surface 
+of CuO/Cu2O, acting as a physical barrier to spatially confine the metal 
+oxides from sintering. Simultaneously, there is a strong interaction be­
+tween metal oxides and inhibitor, increasing the formation energy of 
+copper vacancy. Thus, the binding firmness of inhibitor and CuO/Cu2O 
+during the cycle is ensured, and the sintering of CuO/Cu2O caused by 
+surface bonding and mass transfer is inhibited. To conclude, CuO/Cu2O 
+modified by appropriate amount of NiAl2O4 have excellent redox 
+reversibility and long cycle life. 
+4. Conclusions 
+In summary, we have successfully synthesized the self-assembled 
+CuO surface decorated with 15 wt% NiAl2O4. The performance test re­
+sults showed that the oxidation rate increased by 4.2 times, and the re- 
+oxidation degree increased from 46 % to 99.9 %. The chemical energy 
+density of storage and release reached −772.726 kJ/kg and 764.655 kJ/ 
+Fig. 7. Physicochemical properties characterization for NA-15 and CuO. XRD patterns of different stages (a) NA-15 and (b) CuO. Local enlargement FTIR spectra at 
+the range of 1000–400 cm−1 (c) after reduction and (d) after 1st cycle. XPS spectra of (e) Cu 2p, (f) Cu LM2, (g) O1s after 1st cycle. 
+J. Deng et al.                                                                                                                                                                                                                                     
+
+
+===== Page 8 =====
+
+Journal of Energy Storage 59 (2023) 106370
+8
+kg. Moreover, the oxidation degree kept 98 % after 1000 cycles. Material 
+characterization demonstrated that the NiAl2O4 inhibitor as a physical 
+barrier uniformly dispersed on the CuO/Cu2O surface. And more oxygen 
+vacancies in NiAl2O4 contributed to the bonding between CuO/Cu2O 
+and NiAl2O4 surface, greatly increasing the sintering temperature. DFT 
+results further confirmed the strong interaction between CuO/Cu2O and 
+NiAl2O4, and the introduction of NiAl2O4 increased the formation en­
+ergy of copper vacancy in the system, which effectively solved the 
+problems of sintering. The integration of experimental and computa­
+tional effort offers deep insights into the modification mechanism of 
+anti-sintering and redox activity of CuO surface decorated with NiAl2O4. 
+These results can provide ideas for the development of cost-effective and 
+simpler synthesis methods, as well as the rational design of high- 
+performance, long-life thermochemical energy storage materials with 
+sintering resistance. 
+CRediT authorship contribution statement 
+Jiali Deng: Conceptualization, Methodology, Software, Investiga­
+tion, Writing – original draft. Changdong Gu: Validation, Writing – 
+review & editing. Haoran Xu: Visualization, Writing – review & editing. 
+Gang Xiao: Resources, Supervision, Project administration, Funding 
+acquisition. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Fig. 8. SEM images and corresponding EDS elemental mappings of NA-15: (a) fresh sample, (b) after reduction and (c) after 1st cycle.  
+J. Deng et al.                                                                                                                                                                                                                                     
+
+
+===== Page 9 =====
+
+Journal of Energy Storage 59 (2023) 106370
+9
+Fig. 9. DFT calculations. Interface binding energy ΔEb of (a) CuO-CuO and CuO-NiAl2O4, (b) Cu2O-Cu2O and Cu2O-NiAl2O4; Formation energies of copper vacancy E 
+(VCu) at different sites of (c) CuO-CuO and CuO-NiAl2O4, (d) Cu2O-Cu2O and Cu2O-NiAl2O4. 
+J. Deng et al.                                                                                                                                                                                                                                     
+
+
+===== Page 10 =====
+
+Journal of Energy Storage 59 (2023) 106370
+10
+Data availability 
+Data will be made available on request. 
+Acknowledgments 
+This work was supported by the Zhejiang Science Foundation for 
+Distinguished Young Scholars (LR20E060001); the National Natural 
+Science Foundation of China (52176207); and the Fundamental 
+Research Funds for the Central Universities (2022ZFJH004). 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.est.2022.106370. 
+References 
+[1] L.A. Weinstein, J. Loomis, B. Bhatia, D.M. Bierman, E.N. Wang, G. Chen, 
+Concentrating solar power, Chem. Rev. 115 (2015) 12797–12838, https://doi.org/ 
+10.1021/acs.chemrev.5b00397. 
+[2] A.J. Carrillo, J. Gonz´alez-Aguilar, M. Romero, J.M. Coronado, Solar energy on 
+demand: a review on high temperature thermochemical heat storage systems and 
+materials, Chem. Rev. 119 (2019) 4777–4816, https://doi.org/10.1021/acs. 
+chemrev.8b00315. 
+[3] A. Sol´e, I. Martorell, L.F. Cabeza, State of the art on gas-solid thermochemical 
+energy storage systems and reactors for building applications, Renew. Sust. Energ. 
+Rev. 47 (2015) 386–398, https://doi.org/10.1016/j.rser.2015.03.077. 
+[4] C. Agrafiotis, M. Roeb, C. Sattler, Hybrid sensible/thermochemical solar energy 
+storage concepts based on porous ceramic structures and redox pair oxides 
+chemistry, Energy Procedia 69 (2015) 706–715, https://doi.org/10.1016/j. 
+egypro.2015.03.081. 
+[5] A.J. Carrillo, D. Sastre, D.P. Serrano, P. Pizarro, J.M. Coronado, Revisiting the 
+BaO2 /BaO redox cycle for solar thermochemical energy storage, Phys. Chem. 
+Chem. Phys. 18 (2016) 8039–8048, https://doi.org/10.1039/C5CP07777J. 
+[6] T. Kousksou, P. Bruel, A. Jamil, T. El Rhafiki, Y. Zeraouli, Energy storage: 
+applications and challenges, Sol. Energy Mater. Sol. Cells 120 (2014) 59–80, 
+https://doi.org/10.1016/j.solmat.2013.08.015. 
+[7] E. Alonso, C. P´erez-R´abago, J. Licurgo, E. Fuentealba, C.A. Estrada, First 
+experimental studies of solar redox reactions of copper oxides for thermochemical 
+energy storage, Sol. Energy 115 (2015) 297–305, https://doi.org/10.1016/j. 
+solener.2015.03.005. 
+[8] L. Andr´e, S. Abanades, G. Flamant, Screening of thermochemical systems based on 
+solid-gas reversible reactions for high temperature solar thermal energy storage, 
+Renew. Sust. Energ. Rev. 64 (2016) 703–715, https://doi.org/10.1016/j. 
+rser.2016.06.043. 
+[9] S. Wu, C. Zhou, E. Doroodchi, R. Nellore, B. Moghtaderi, A review on high- 
+temperature thermochemical energy storage based on metal oxides redox cycle, 
+Energy Convers. Manag. 168 (2018) 421–453, https://doi.org/10.1016/j. 
+enconman.2018.05.017. 
+[10] T. Block, M. Schmücker, Metal oxides for thermochemical energy storage: a 
+comparison of several metal oxide systems, Sol. Energy 126 (2016) 195–207, 
+https://doi.org/10.1016/j.solener.2015.12.032. 
+[11] J.S. Prasad, P. Muthukumar, F. Desai, D.N. Basu, M.M. Rahman, A critical review of 
+high-temperature reversible thermochemical energy storage systems, Appl. Energy 
+254 (2019), 113733, https://doi.org/10.1016/j.apenergy.2019.113733. 
+[12] A. Bayon, R. Bader, M. Jafarian, L. Fedunik-Hofman, Y. Sun, J. Hinkley, S. Miller, 
+W. Lipi´nski, Techno-economic assessment of solid–gas thermochemical energy 
+storage systems for solar thermal power applications, Energy 149 (2018) 473–484, 
+https://doi.org/10.1016/j.energy.2017.11.084. 
+[13] A.J. Schrader, A.P. Muroyama, P.G. Loutzenhiser, Solar electricity via an air 
+Brayton cycle with an integrated two-step thermochemical cycle for heat storage 
+based on Co3O4/CoO redox reactions: thermodynamic analysis, Sol. Energy 118 
+(2015) 485–495, https://doi.org/10.1016/j.solener.2015.05.045. 
+[14] C. Agrafiotis, S. Tescari, M. Roeb, M. Schmücker, C. Sattler, Exploitation of 
+thermochemical cycles based on solid oxide redox systems for thermochemical 
+storage of solar heat. Part 3: cobalt oxide monolithic porous structures as 
+integrated thermochemical reactors/heat exchangers, Sol. Energy 114 (2015) 
+459–475, https://doi.org/10.1016/j.solener.2014.12.037. 
+[15] A.P. Muroyama, A.J. Schrader, P.G. Loutzenhiser, Solar electricity via an air 
+Brayton cycle with an integrated two-step thermochemical cycle for heat storage 
+based on Co3O4/CoO redox reactions II: kinetic analyses, Sol. Energy 122 (2015) 
+409–418, https://doi.org/10.1016/j.solener.2015.08.038. 
+[16] D. Müller, C. Knoll, W. Artner, M. Harasek, C. Gierl-Mayer, J.M. Welch, A. Werner, 
+P. Weinberger, Combining in-situ X-ray diffraction with thermogravimetry and 
+differential scanning calorimetry-an investigation of Co3O4, MnO2 and PbO2 for 
+thermochemical energy storage, Sol. Energy 153 (2017) 11–24, https://doi.org/ 
+10.1016/j.solener.2017.05.037. 
+[17] L. Andr´e, S. Abanades, L. Cassayre, High-temperature thermochemical energy 
+storage based on redox reactions using co-fe and mn-fe mixed metal oxides, J. Solid 
+State Chem. 253 (2017) 6–14, https://doi.org/10.1016/j.jssc.2017.05.015. 
+[18] L. Andr´e, S. Abanades, L. Cassayre, Experimental investigation of co-cu, mn-co, and 
+mn-cu redox materials applied to solar thermochemical energy storage, ACS Appl. 
+Energy Mater. 1 (2018) 3385–3395, https://doi.org/10.1021/acsaem.8b00554. 
+[19] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Improving the 
+thermochemical energy storage performance of the Mn2O3/Mn3O4 redox couple 
+by the incorporation of iron, ChemSusChem 8 (2015) 1947–1954, https://doi.org/ 
+10.1002/cssc.201500148. 
+[20] C. Agrafiotis, T. Block, M. Senholdt, S. Tescari, M. Roeb, C. Sattler, Exploitation of 
+thermochemical cycles based on solid oxide redox systems for thermochemical 
+Fig. 10. Schematic of redox and anti-sintering modification mechanism of CuO/Cu2O with NiAl2O4 surface decoration.  
+J. Deng et al.                                                                                                                                                                                                                                     
+
+
+===== Page 11 =====
+
+Journal of Energy Storage 59 (2023) 106370
+11
+storage of solar heat. Part 6: testing of mn-based combined oxides and porous 
+structures, Sol. Energy 149 (2017) 227–244, https://doi.org/10.1016/j. 
+solener.2017.03.083. 
+[21] M. Wokon, T. Block, S. Nicolai, M. Linder, M. Schmücker, Thermodynamic and 
+kinetic investigation of a technical grade manganese-iron binary oxide for 
+thermochemical energy storage, Sol. Energy 153 (2017) 471–485, https://doi.org/ 
+10.1016/j.solener.2017.05.045. 
+[22] D. Xiang, C. Gu, H. Xu, G. Xiao, Self-assembled structure evolution of mn-fe oxides 
+for high temperature thermochemical energy storage, Small 17 (2021), 2101524, 
+https://doi.org/10.1002/smll.202101524. 
+[23] M. Deutsch, F. Horvath, C. Knoll, D. Lager, C. Gierl-Mayer, P. Weinberger, 
+F. Winter, High-temperature energy storage: kinetic investigations of the CuO/ 
+Cu2O reaction cycle, Energy Fuel 31 (2017) 2324–2334, https://doi.org/10.1021/ 
+acs.energyfuels.6b02343. 
+[24] C. Agrafiotis, M. Roeb, C. Sattler, Exploitation of thermochemical cycles based on 
+solid oxide redox systems for thermochemical storage of solar heat. Part 4: 
+screening of oxides for use in cascaded thermochemical storage concepts, Sol. 
+Energy 139 (2016) 695–710, https://doi.org/10.1016/j.solener.2016.04.034. 
+[25] S. Setoodeh Jahromy, F. Birkelbach, C. Jordan, C. Huber, M. Harasek, A. Werner, 
+F. Winter, Impact of partial pressure, conversion, and temperature on the oxidation 
+reaction kinetics of Cu2O to CuO in thermochemical energy storage, Energies 12 
+(2019) 508, https://doi.org/10.3390/en12030508. 
+[26] M. Gigantino, S. Sas Brunser, A. Steinfeld, High-temperature thermochemical heat 
+storage via the CuO/Cu2O redox cycle: from material synthesis to packed-bed 
+reactor engineering and cyclic operation, Energy Fuel 34 (2020) 16772–16782, 
+https://doi.org/10.1021/acs.energyfuels.0c02572. 
+[27] Q. Imtiaz, M. Broda, C.R. Müller, Structure-property relationship of co-precipitated 
+cu-rich, Al2O3-or MgAl2O4-stabilized oxygen carriers for chemical looping with 
+oxygen uncoupling (CLOU), Appl. Energy 119 (2014) 557–565, https://doi.org/ 
+10.1016/j.apenergy.2014.01.007. 
+[28] D. Xiang, C. Gu, H. Xu, J. Deng, P. Zhu, G. Xiao, Al-modified CuO/Cu2O for high- 
+temperature thermochemical energy storage: from reaction performance to 
+modification mechanism, ACS Appl. Mater. Interfaces 13 (2021) 57274–57284, 
+https://doi.org/10.1021/acsami.1c17592. 
+[29] G. Kresse, D. Joubert, From ultrasoft pseudopotentials to the projector augmented- 
+wave method, Phys. Rev. B 59 (1999) 1758, https://doi.org/10.1103/ 
+PhysRevB.59.1758. 
+[30] G. Kresse, J. Furthmüller, Efficient iterative schemes for ab initio total-energy 
+calculations using a plane-wave basis set, Phys. Rev. B 54 (1996) 11169, https:// 
+doi.org/10.1103/PhysRevB.54.11169. 
+[31] J.P. Perdew, K. Burke, M. Ernzerhof, Generalized gradient approximation made 
+simple, Phys. Rev. Lett. 77 (1996) 3865, https://doi.org/10.1103/ 
+PhysRevLett.77.3865. 
+[32] S.L. Dudarev, G.A. Botton, S.Y. Savrasov, C.J. Humphreys, A.P. Sutton, Electron- 
+energy-loss spectra and the structural stability of nickel oxide: an LSDA+ U study, 
+Phys. Rev. B 57 (1998) 1505, https://doi.org/10.1103/PhysRevB.57.1505. 
+[33] M. Nolan, S.D. Elliott, The p-type conduction mechanism in Cu2O: a first principles 
+study, Phys. Chem. Chem. Phys. 8 (2006) 5350–5358, https://doi.org/10.1039/ 
+B611969G. 
+[34] B. Wang, J. Nisar, R. Ahuja, Molecular simulation for gas adsorption at NiO (100) 
+surface, ACS Appl. Mater. Interfaces 4 (2012) 5691–5697, https://doi.org/ 
+10.1021/am3016894. 
+[35] B.Z. Sun, X.L. Xu, W.K. Chen, L.H. Dong, Theoretical insights into the reaction 
+mechanisms of NO oxidation catalyzed by Cu2O (1 1 1), Appl. Surf. Sci. 316 (2014) 
+416–423, https://doi.org/10.1016/j.apsusc.2014.06.178. 
+[36] J. Hu, D. Li, J.G. Lu, R. Wu, Effects on electronic properties of molecule adsorption 
+on CuO surfaces and nanowires, J. Phys. Chem. C 114 (2010) 17120–17126, 
+https://doi.org/10.1021/jp1039089. 
+[37] S. Karmakar, D. Behera, Non-overlapping small polaron tunneling conduction 
+coupled dielectric relaxation in weak ferromagnetic NiAl2O4, J. Phys. Condens. 
+Matter 31 (2019), 245701, https://doi.org/10.1088/1361-648X/ab03f0. 
+[38] M.A. Khan, M. Ullah, T. Iqbal, H. Mahmood, A.A. Khan, M. Shafique, A. Majid, 
+A. Ahmed, N.A. Khan, Surfactant assisted synthesis of cuprous oxide (Cu2O) 
+nanoparticles via solvothermal process, Nanosci. Nanotechnol. Res. 3 (2015) 
+16–22, https://doi.org/10.12691/nnr-3-1-3. 
+[39] S.K. Shinde, D.P. Dubal, G.S. Ghodake, P. Gomez-Romero, S. Kim, V.J. Fulari, 
+Influence of mn incorporation on the supercapacitive properties of hybrid CuO/Cu 
+(OH)2 electrodes, RSC Adv. 5 (2015) 30478–30484, https://doi.org/10.1039/ 
+C5RA01093D. 
+[40] K. Wang, X. Dong, C. Zhao, X. Qian, Y. Xu, Facile synthesis of Cu2O/CuO/RGO 
+nanocomposite and its superior cyclability in supercapacitor, Electrochim. Acta 
+152 (2015) 433–442, https://doi.org/10.1016/j.electacta.2014.11.171. 
+[41] Q. Zhang, L. Huang, S. Kang, C. Yin, Z. Ma, L. Cui, Y. Wang, CuO/Cu2O nanowire 
+arrays grafted by reduced graphene oxide: synthesis, characterization, and 
+application in photocatalytic reduction of CO2, RSC Adv. 7 (2017) 43642–43647, 
+https://doi.org/10.1039/C7RA07310K. 
+[42] X. Tang, B. He, J. Li, G. Qin, One-step preparation of Cu/BC catalyzed the 
+upgrading of heavy oil assisted by microwave, J. Pet. Sci. Eng. 208 (2022), 109683, 
+https://doi.org/10.1016/j.petrol.2021.109683. 
+[43] X. Yang, W. Liu, G. Pan, Y. Sun, Modulation of oxygen in NiO: cu films toward a 
+physical insight of NiO: Cu/c-si heterojunction solar cells, J. Mater. Sci. 53 (2018) 
+11684–11693, https://doi.org/10.1007/s10853-018-2430-1. 
+[44] I.A. Khan, A. Badshah, M.A. Nadeem, N. Haider, M.A. Nadeem, A copper based 
+metal-organic framework as single source for the synthesis of electrode materials 
+for high-performance supercapacitors and glucose sensing applications, Int. J. 
+Hydrog. Energy 39 (2014) 19609–19620, https://doi.org/10.1016/j. 
+ijhydene.2014.09.106. 
+[45] X. Fang, R. Zhang, Y. Wang, M. Yang, Y. Guo, M. Wang, J. Zhang, J. Xu, X. Xu, 
+X. Wang, Plasma assisted preparation of highly active NiAl2O4 catalysts for 
+propane steam reforming, Int. J. Hydrog. Energy 46 (2021) 24931–24941, https:// 
+doi.org/10.1016/j.ijhydene.2021.05.050. 
+[46] W. Wang, Z. Qu, L. Song, Q. Fu, An investigation of Zr/Ce ratio influencing the 
+catalytic performance of CuO/Ce1-xZrxO2 catalyst for CO2 hydrogenation to 
+CH3OH, J. Energy Chem. 47 (2020) 18–28, https://doi.org/10.1016/j. 
+jechem.2019.11.021. 
+J. Deng et al.                                                                                                                                                                                                                                     

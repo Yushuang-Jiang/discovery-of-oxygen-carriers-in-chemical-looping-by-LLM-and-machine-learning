@@ -1,0 +1,805 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Journal of Energy Storage
+journal homepage: www.elsevier.com/locate/est
+Thermogravimetric analysis of Cu, Mn, Co, and Pb oxides for
+thermochemical energy storage
+Mahyar Silakhori⁎, Mehdi Jafarian, Maziar Arjomandi, Graham J. Nathan
+School of Mechanical Engineering, Centre for Energy Technology, The University of Adelaide, Adelaide, SA 5005, Australia
+A R T I C L E I N F O
+Keywords:
+RedOx cycles
+Chemical looping
+Thermochemical heat
+Pressure swing
+Solar energy
+Energy storage
+A B S T R A C T
+The reversible reduction and oxidation (RedOx) reactions of CuO/Cu2O, Co3O4/CoO, Mn2O3/Mn3O4, and
+Pb3O4/PbO have been assessed experimentally with thermogravimetric Analysis (TGA). The temperature was
+maintained constant during charging and discharging of the thermochemical energy storage via pressure swing
+for a range of oxygen partial pressures spanning from 0.05 to 0.8 bar. The rate of oxidation reactions were
+assessed for a range of partial pressures, while changes to the structure of the materials was assessed with X-Ray
+diﬀraction spectra (XRD) before and after 10 successive reduction and oxidation cycles. The results show that the
+Co3O4/CoO, Mn2O3/Mn3O4, and CuO/Cu2O pairs have a potential for chemical storage at temperatures ranges
+from 900 °C to 1000 °C, while no thermochemical reaction was observed for Pb3O4 up to a temperature of 550 °C.
+1. Introduction
+Thermal energy storage systems have received signiﬁcant attention
+because
+they
+oﬀer
+potential
+for
+low
+cost
+energy
+storage
+for
+Concentrating Solar Thermal (CST) energy plant [1], in comparison to
+other renewable energy technologies [2–4]. Among the diﬀerent types
+of thermal energy storage systems, thermochemical energy storage of-
+fers potential to achieve both a high energy density and operating
+temperatures in the range 700 °C–1100 °C [5], which is compatible with
+the more eﬃcient power cycles such as super-critical CO2 and gas
+turbine combined cycles. However, high temperature thermochemical
+energy storage systems are still at an early stage of development. One of
+the barriers to temperature swing systems is the enthalpy loss of heating
+and cooling, while another is the potential for sintering of materials and
+thermal hysteresis during reduction and oxidation [6,7]. Hence, more
+work is needed to assess the potential of suitable materials at diﬀerent
+thermodynamic condition.
+Reduction and Oxidation (RedOx) reactions of metal oxides can be
+described as follows:
+→
++
+>
+−
+(
+)
+Δ
+Reduction reaction: MeO
+O
+MeO
+H
+0,
+δ1
+δ
+δ
+2
+2
+δ2
+2
+1
+(1)
++
+→
+<
+−
+(
+)
+Δ
+Oxidation reaction: MeO
+O
+MeO
+H
+0.
+δ2
+δ
+δ
+2
+2
+δ1
+2
+1
+(2)
+MeOδ1 and MeOδ2 represent two states of oxidation of the metal Me.
+Since the reduction reaction (Eq. (1)) is endothermic, it oﬀers potential
+to be used in the charging cycle of a thermochemical thermal energy
+storage (TES) system. Similarly the exothermic oxidation reaction (Eq.
+(2)) can be used to release the stored heat. Based on Le Chatelier’s
+principle, two alternative states of oxidations of MeOδ1 and MeOδ2 can
+be achieved by either changing the partial pressure of oxygen (P-
+swing), the temperature of the reaction (T-swing) or a combination of
+them [8]. However, the relative advantages and disadvantages of these
+two alternative approaches on the rate of the reaction has not pre-
+viously received much attention.
+The pairs of Co3O4/CoO and Mn2O3/Mn3O4 and CuO/Cu2O have
+been selected here as potential candidate materials for thermochemical
+storage due to their high reaction enthalpy (Co3O4/CoO = 5.15 GJ/m3,
+CuO/Cu2O = 5.11 GJ/m3 and Mn2O3/Mn3O4 = 0.918 GJ/m3), high
+operating temperature of approximately 1000 °C and reaction reversi-
+bility [9–11]. These materials has been extensively assessed for ther-
+mochemical energy storage with temperature swing [9–11]. However,
+gaps remain in the understanding of their performance under some
+relevant conditions such as RedOx reactions at isothermal condition
+with changing the oxygen partial pressure.
+The exact temperatures for the RedOx reactions (Eqs. (1) and (2))
+and the conversion of multivalent metal oxides in temperature-swing
+system depend on the partial pressure of gaseous components involved
+in the reactions or experimental condition [12]. Table 1 presents the
+operating temperature of the selected metal oxides in various en-
+vironments such as N2, O2, Ar and Air. Neises et al. [13] reported a
+reduction temperature of 800 °C for Co3O4/CoO oxides in air at ambient
+https://doi.org/10.1016/j.est.2019.03.008
+Received 9 October 2018; Received in revised form 4 March 2019; Accepted 8 March 2019
+⁎ Corresponding author.
+E-mail address: mahyar.silakhori@adelaide.edu.au (M. Silakhori).
+Journal of Energy Storage 23 (2019) 138–147
+Available online 20 March 2019
+2352-152X/ © 2019 Elsevier Ltd. All rights reserved.
+T
+
+
+===== Page 2 =====
+
+pressure within a rotary kiln reactor. However, the measured tem-
+perature is lower at 700 °C when the reduction reaction is performed
+with Thermogravimetric Analysis (TGA) in an argon atmosphere [7].
+Muller et al. [14] reported reaction temperatures of 958 °C, 897.6 °C
+and 813.6 °C at diﬀerent environments of O2, air and N2, respectively.
+The kinetics of Co3O4/CoO oxides were also assessed in an air and ni-
+trogen environments at temperatures range of 840 °C–940 °C [15]. Ki-
+netic data propose that cobalt oxide with particle size of 1–5 μm can be
+oxidised and reduced at temperatures between 840 °C and 940 °C in air
+in less than 10 min at a bed thickness of 10 mm [15]. Carrillo et al. [16]
+found that the RedOx reactions of Mn2O3/Mn3O4 occurred at tem-
+perature ranges between 500 °C and 1000 °C in an air environment. In
+another study, Muller et al. [14] reported that a complete oxidation of
+Mn3O4 to Mn2O3 occurs at approximately 852.1 °C in pure O2, while
+this temperature reduces to 739.5 °C in air. The assessment of CuO/
+Cu2O pair showed that the RedOx reactions occurred at temperature
+ranges between 1027 °C and 1050 °C in an ambient air [10,17,18]. In
+these studies, the reaction temperature, reversibility, and kinetics of the
+reactions were investigated through temperature-swing system. To the
+best of the author’s knowledge, there is no investigation on the eﬀect
+partial pressure of oxygen on reversibility and rate of the reaction with
+pressure-swing system. Moreover, most previous investigations have
+been limited to oxygen partial pressures of 0 or 0.21 bar for reduction
+and oxidation reactions, respectively. However, it is also important to
+investigate the performance of RedOx reactions for oxygen partial
+pressures corresponding to air pressure < 3 bar (i.e. O2 partial pres-
+sures < 0.63 bar), because these conditions are relevant for applica-
+tions in gas turbines (3–30 bar). Therefore this paper aims in particular
+to assess the eﬀect of partial pressure of oxygen in a range of 0.05 to
+0.8 bar on RedOx reactions and rate of the reaction of CuO/Cu2O,
+Co3O4/CoO, Mn2O3/Mn3O4and Pb3O4 /PbO.
+Table 1 also shows that there is a temperature diﬀerence between
+reduction and oxidation reactions of temperature-swing system that
+reduce the thermodynamic eﬃciency of the system. This is because the
+charging temperature is higher than discharging temperature. Pressure-
+swing system is one of the plausible way to address this challenge.
+Therefore, another aims of this study is to assess the pressure-swing for
+thermochemical storage of CuO/Cu2O, Co3O4/CoO, Mn2O3/Mn3O4 and
+Pb3O4 /PbO.
+2. Experimental setup
+2.1. Materials and methods
+The particles of CuO, Co3O4, Mn2O3, and Pb3O4 with a purity of
+97.5%, 99.97%, 99.9% and 97%, respectively, were procured from
+Chem-Supply and used as the samples A Malvern Mastersizer 2000 was
+used to measure the particle size distribution of the materials, with
+optical scattering and Mie theory. As shown in Fig. 1, the particle size
+distribution of the CuO, Co3O4, Mn2O3, and Pb3O4 is between 1.1 μm
+and 36.9 μm. The average particle diameter for CuO, Co3O4, Mn2O3,
+and Pb3O4 is 14.68 μm, 4.89 μm, 4.153 μm, and 3.21 μm, respectively.
+For every test, 10 mg of the sample was placed in an alumina crucible.
+The sample were tested using a Netzsch STA 449 F3 Jupiter Thermo-
+gravimetric analyzer (TGA), which measures weight with an accuracy
+of ± 2%. The crucible was used without the lid to provide direct con-
+tact (and hence to facilitate reactions) between the metal oxide and the
+gaseous environment. The Netzsch software Proteus was used for data
+analysis.
+The experiment was designed based on available thermodynamic
+data and the phase stability diagrams shown in Fig. 2a–d [18,28–31].
+The oxidation and reduction processes were performed by changing the
+oxygen partial pressure between 0.05 and 0.8 bar via the ratio of
+oxygen and nitrogen in TGA for the RedOx pairs of CuO/Cu2O, Co3O4/
+CoO, Mn2O3/Mn3O4, and Pb3O4/PbO. Table 2 presents the various
+conditions at which the reduction and oxidation reactions were per-
+formed. The partial pressure of oxygen (PO2) in a TGA can be deﬁned
+with following equation:
+=
+P
+y
+Pt
+O
+O
+2
+2
+(3)
+In this equation, Pt and yO2 are total pressure and mole fraction of
+oxygen in the system. As shown in Table 2, PO2 can be modiﬁed by
+variation of O2 and N2 in the TGA. The weight change of the materials is
+deﬁned as:
+=
+Δ
+Δm
+m
+W%
+.
+0
+(4)
+In this equation, the diﬀerence between the ﬁnal mass (m )
+f
+and initial
+mass (m )
+0 is denoted by
+m
+Δ
+.
+At the beginning of any given cycle, the temperature was increased
+to 200 °C and held constant for 20 min to stabilise ﬂow rate of gases in
+the TGA. The temperature was then increased to the desirable value (eg,
+1000 °C based on phase stability diagram of CuO, Fig. 2a) at a constant
+Table 1
+Operating temperature of CuO/Cu2O, Co3O4/CoO, and Mn2O3/Mn3O4 at diﬀerent environment (Air, O2, N2, and Ar), in comparison with the present measurements.
+Materials
+Methods
+Operating temperature
+Atmosphere in RedOx reactions (partial pressure of oxygen)
+References
+CuO/Cu2O
+TGA
+400–910 °C (Temperature-swing)
+Air (0.21 bar), O2 (1 bar), N2 (0 bar).
+[19]
+1100–1200 °C (Temperature-swing)
+Air (0.21 bar)
+[9]
+Up to 1000 °C (Temperature-swing)
+Air (0.21 bar), Ar (0 bar).
+[20]
+Up to 1100 °C (Temperature-swing)
+Air (0.21 bar), N2 (0 bar).
+[10]
+1000 °C (Pressure-swing)
+N2 &O2 (0.05 bar) ⩽PO2 ⩽N2 &O2 (0.8 bar)
+Present study
+Co3O4/CoO
+TGA
+780–960 °C (Temperature-swing)
+Air (0.21 bar), O2 (1 bar).
+[15]
+Packed bed
+500–900 °C (Temperature-swing)
+Air (0.21 bar), N2 (0 bar).
+[21]
+Packed bed, TGA
+700–900 °C (Temperature-swing)
+Air (0.21 bar), N2 (0 bar).
+[9]
+Rotary kiln reactor
+Up to 1000 °C (Temperature-swing)
+Air (0.21 bar), O2 (1 bar), N2 (0 bar).
+[20]
+TGA
+600–1100 °C (Temperature-swing)
+Air (0.21 bar), Ar (0 bar).
+[22]
+177–940 °C (Temperature-swing)
+O2 (0.21 bar), Ar (0 bar)
+[23]
+25–1250 °C (Temperature-swing)
+Air (0.21 bar), O2 (1 bar), N2 (0 bar).
+[14]
+Packed bed, TGA
+800–1100 °C (Temperature-swing)
+Air (0.21 bar), Ar (0 bar)
+[24,25]
+TGA
+900 °C (Pressure-swing)
+N2 &O2 (0.05 bar) ⩽PO2 ⩽N2 &O2 (0.8 bar)
+Present study
+Mn2O3/Mn3O4
+TGA
+300–1100 °C (Temperature-swing)
+Air (0.21 bar).
+[9]
+Packed bed
+500-1100 °C (Temperature-swing)
+Air (0.21 bar).
+[26]
+TGA
+500–1000 °C (Temperature-swing)
+Air (0.21 bar).
+[16]
+TGA
+650–1000 °C (Temperature-swing)
+Air (0.21 bar).
+[27]
+Packed bed
+640–1090 °C (Temperature-swing)
+Air (0.21 bar).
+[25]
+TGA
+25–1250 °C (Temperature-swing)
+Air (0.21 bar), O2 (1 bar), N2 (0 bar).
+[14]
+TGA
+900 °C (Pressure-swing)
+N2 &O2 (0.05 bar) ⩽PO2 ⩽N2 &O2 (0.8 bar)
+Present study
+M. Silakhori, et al.
+Journal of Energy Storage 23 (2019) 138–147
+139
+
+
+===== Page 3 =====
+
+oxygen partial pressure with a heating rate of 10 °C/min (from A to B
+Fig. 2a). The partial pressure of oxygen was then changed at a constant
+temperature for 10 subsequent cycles (between B and C Fig. 2a) before
+cooling the material at a rate of 20 °C/min (shown as C →D in Fig. 2).
+This process was completed in a nitrogen rich environment (100 ml/
+min) with no oxygen to enable characterization of the ﬁnal reduced
+state of the material [11]. The rate of oxidation was also assessed by
+changing the partial pressure during the oxidation from 0.2 to 0.8 bar
+for the second cycle, while the reduction was constant at 0.05 bar. A
+dwell time of either 15 or 30 min. was chosen for each successive re-
+duction and oxidation step (Table 2) to ensure complete conversion.
+Structural characterization of the metal oxide was performed for 10
+successive reduction and oxidation reactions with X-Ray Diﬀraction
+(XRD) using a Rigaku MiniFlex60 in the diﬀraction angle (2 thetas)
+range of 20–80. Microstructural observations by Scanning Electron
+Microscopy (SEM) were performed with a Quanta 450 (ThermoFisher
+Scientiﬁc) instrument.
+Fig. 1. Particle size distribution of the CuO, Co3O4, Mn2O3 and Pb3O4.
+Fig. 2. The condition of the experiments shown in the phase diagram for a) copper and its oxides reproduced from [18,28] b) Cobalt and its oxides reproduced from
+[29] c) Manganese and its oxides reproduced from [30] and d) Lead and its oxides reproduced from [31]. The temperature was increased isobarically to the desired
+temperature, which is shown in the phase stability diagram for each material, over the partial pressure range from 0.05 to 0.8 bar (from A to B). The partial pressure
+of oxygen was then varied isothermally at partial pressure within the range from 0.05 to 0.8 bar for the reduction and oxidation reactions. At the ﬁnal stage of the
+experiment, the temperature was decreased isobaricaly to low temperature (From C–D). Other details are presented in Table 2.
+M. Silakhori, et al.
+Journal of Energy Storage 23 (2019) 138–147
+140
+
+
+===== Page 4 =====
+
+3. Results and discussion
+3.1. CuO/Cu2O cycle
+Fig. 3 presents the variations of weight with time for a CuO sample
+over 10 successive RedOx cycles. In this experiments the partial pres-
+sure of oxygen was 0.05 bar during reduction, while the oxidation was
+performed at partial pressures of oxygen of 0.8 bar at a constant tem-
+perature of 1000 °C. Fig. 3 shows that the ﬁrst weight loss of 10% (the
+reduction reaction) occurs by temperature and pressure swing (P
+(O2) = 0.05 bar). Next, the same weight gain (the oxidation reaction) is
+induced by increasing the oxygen partial pressure (P (O2) = 0.8 bar).
+This cycle is repeated, with the amount of weight loss and gain in each
+successive cycle being almost identical at 10.1%, showing a consistent
+conversion extent during each of the ten cycles. That is, no signiﬁcant
+overall weight loss was identiﬁed for up to 10 RedOx cycle in a pres-
+sure-swing system. In contrast, an overall weight loss was observed in
+the temperature-swing system of CuO/Cu2O pair after 5 RedOx cycles
+attribute to volatilization of the copper oxide [11]. This is one ad-
+vantageous of the pressure-swing over temperature-swing system.
+It can be seen that the time for complete reduction and oxidation is
+less than 15 min for copper oxide. This time for pressure swing cycle is
+signiﬁcantly less than the 2 h reported in a temperature swing system
+[11]. This implies that the kinetics of the reactions can be improved by
+pressure swing process over temperature swing, which is advantageous
+in decreasing the size of reactors and hence capital cost.
+Fig. 4a presents the rate of oxidation as a function of time for a
+series of values of PO2. As shown, the rate of oxidation increases with
+PO2 over the range 0.2 bar to 0.8 bar. The dependence of the maximum
+rate” [(dm/dt)/m0] max“on PO2 is plotted in the inset of the ﬁgure. It can
+be seen that this dependence is approximately linear and that the rate is
+greater for the copper than the cobalt pair (Fig. 4b).
+Fig. 5 presents the XRD of the CuO before and after 10 cycles of
+reduction and oxidation at conditions for sample S4. It can be seen that
+the peaks associated with CuO can be observed for the sample before
+cycling and are matched with the crystalline monoclinic structure of
+CuO (JCPDS card No: 80-1916). The spectra of Cu2O appears for con-
+dition of S4 in which the CuO has a change in partial pressure
+(PO2 = 0.8 bar), which leads to conversion of CuO to Cu2O (4CuO
+→2Cu2O + O2). The spectra of Cu2O matches with JCPDS card No: 05-
+0667, which is for a cubic structure of Cu2O. This conﬁrms the ﬁnal step
+of the cycle was the reduction reaction in a N2 rich environment.
+3.2. Co3O4/CoO cycle
+Fig. 6 presents the corresponding time history of the weight change
+for Co3O4/CoO, obtained for oxygen partial pressures of 0.05 and
+0.8 bar, respectively, for a constant temperature of 900 °C. The weight
+of cobalt oxide reduces by 6.8% during the ﬁrst reduction stage, while
+the successive weight gain is 6.65%. This diﬀerence contributes to the
+cumulative incorporation of oxygen into the solid phase during each
+cycle [22]. Consistent with the previous case, the dwell time for com-
+plete reduction and oxidation cycles was found to be 15 min, while this
+number was reported to be 3 h in a temperature swing system [22]. This
+provides further evidence that the kinetics of the system can be im-
+proved with pressure swing cycle. This ﬁgure also shows that the re-
+versibility of cobalt oxide is high since no signiﬁcant degradation in the
+weight change is observable for the 10 cycles of reduction and
+Table 2
+The partial pressure of oxygen for the reduction and oxidation reactions for the redox pairs of CuO/Cu2O, Co3O4, Mn2O3, and Pb3O4.
+Metal oxides
+Samples
+T (˚C)
+PO2 (bar) (reduction
+reaction)
+PO2 (bar) (oxidation
+reaction)
+Time (min) (Reduction/
+Oxidation)
+O2/N2 (ml/min)a
+reduction cycle
+O2/N2 (ml/min)a Oxidation
+cycle
+CuO/Cu2O
+S1
+1000
+0.05
+0.2
+15/15
+5/95
+20/80
+S2
+1000
+0.05
+0.4
+15/15
+5/95
+40/60
+S3
+1000
+0.05
+0.6
+15/15
+5/95
+60/40
+S4
+1000
+0.05
+0.8
+15/15
+5/95
+80/20
+Co3O4
+S5
+900
+0.05
+0.2
+15/15
+5/95
+20/80
+S6
+900
+0.05
+0.4
+15/15
+5/95
+40/60
+S7
+900
+0.05
+0.6
+15/15
+5/95
+60/40
+S8
+900
+0.05
+0.8
+15/15
+5/95
+80/20
+Mn2O3
+S9
+900
+0.05
+0.2
+30/30
+5/95
+20/80
+S10
+900
+0.05
+0.4
+30/30
+5/95
+40/60
+S11
+900
+0.05
+0.6
+30/30
+5/95
+60/40
+S12
+900
+0.05
+0.8
+30/30
+5/95
+80/20
+Pb3O4
+S13
+500
+0.05
+0.8
+15/15
+5/95
+80/20
+S14
+550
+0.05
+0.8
+15/15
+5/95
+80/20
+a The ﬂow-rate of O2 and N2 through the TGA.
+Fig. 3. The weight and temperature change of copper oxide
+over 10 successive reduction and oxidation reactions. The
+partial pressure of oxygen is 0.05 bar and 0.8 bar during re-
+duction and oxidation reactions, respectively. The red dashed
+line shows the temperature of the samples. (For interpretation
+of the references to colour in this ﬁgure legend, the reader is
+referred to the web version of this article.)
+M. Silakhori, et al.
+Journal of Energy Storage 23 (2019) 138–147
+141
+
+
+===== Page 5 =====
+
+oxidation reactions. Therefore, the RedOx pair of Co3O4/CoO is worth
+exploring further as a potential material for thermochemical energy
+storage.
+Fig. 7 presents the XRD of the Co3O4 before and after 10 successive
+RedOx cycles, which have been matched with the available literature
+[32,33]. It can be seen, the Co3O4 is fully converted to CoO, with no
+evidence of residual Co3O4 after 10th reduction. This indicates that the
+stability of the material is high and that the Co3O4/CoO pair is worthy
+of further consideration for RedOx processes.
+3.3. Mn2O3/Mn3O4 cycle
+Fig. 8 presents the time history of the weight change of Mn2O3
+samples through ten successive isothermal reduction and oxidation
+cycles under oxygen partial pressures of 0.05 and 0.8 bar, respectively.
+The dwell time has been increased to 30 min for each reduction and
+oxidation cycles of Mn2O3/Mn3O4 pair because 15 min was not enough
+for complete conversion of Mn2O3 to Mn3O4. As shown in Fig. 8, the
+weight losses and gains from each cycle are approximately repeatable at
+3.6%, although there is a slight reduction in the reversibility of the
+manganese oxide toward the end of the ten cycles. Consistent with
+other cases reported above, the dwell time for complete reduction and
+oxidation cycles is 30 min which is signiﬁcantly less than the 2–3 h for a
+temperature swing system reported previously [11], which implies an
+increase in the kinetics reactions.
+The reduction in the extent of the weight change after 6 cycles is
+attributed some sintering of the material over successive reduction and
+oxidation cycles. Carrilo et al. [27] have shown that sintering can lead
+to densiﬁcation and coarsening of a sample, resulting in a physical
+barrier to oxygen diﬀusion of the sample which reduces the rate of
+oxidation and incomplete oxidation. Sintering can also reduce the
+speciﬁc surface area of the sample which reduces the rate of reaction.
+Nevertheless, the degree of the sintering typically varies from one
+sample to another sample based on a small diﬀerence in initial
+Fig. 4. The rate of oxidation as a function of time for a series of partial pressure of oxygen during isothermal RedOx cycling for a) copper oxide, b) cobalt oxide. Other
+conditions are given in Table 2.
+M. Silakhori, et al.
+Journal of Energy Storage 23 (2019) 138–147
+142
+
+
+===== Page 6 =====
+
+properties
+Fig. 9 compares the SEM micrograph of the Mn2O3 sample before
+and after 10 consecutive Redox cycles. As can be seen, the morphology
+of the material has been changed by sintering, which can be attributed
+to the changes in temperature and pressure. Commensurate with this is
+the slight decrease in the reactivity of the Mn2O3 sample, especially
+after 6th cycle. These observations are consistent because sintering ef-
+fect leads to changes in the morphology and thermal deactivation of the
+materials [27,34].
+Fig. 10 compares the oxidation of the sample at diﬀerent partial
+pressure of oxygen for the temperature of 900 °C. As shown, the rate of
+oxidation of the manganese oxide is only signiﬁcant at this temperature
+for a partial pressure of 0.8 bar. This result can be matched with the
+phase stability of the manganese oxide reported above (Fig. 2c) [30].
+Fig. 11 presents the XRD of Mn2O3 before and after 10 RedOx cy-
+cles. The ﬁgure conﬁrms that the initial product was single-phase
+Mn2O3 and that it was fully converted to the single-phase of Mn3O4
+during the last cycle of reduction [11]. This ﬁgure shows that the cycles
+measured with the TGA correspond to full conversion and are also
+consistent with the phase stability diagram.
+3.4. Pb3O4/PbO cycle
+Fig. 12 presents the weight change of the Pb3O4 at temperatures of
+500 °C and 550 °C. In these experiments the PO2 was set to 0.05 for the
+reduction and 0.8 bar for oxidation. As can be seen no change in the
+weight of samples was observed at 500 °C even though the phase dia-
+gram (Fig. 2d) predicts that Pb3O4 reduces to PbO under these condi-
+tions. This observed behavior can be plausibly explained by mass
+transfer limitations, although further work is needed to conﬁrm this.
+For the case with a temperature of 550 °C, it can be seen that Pb3O4 is
+partially reduced to PbO because of increasing the temperature which is
+used as a driving force for reduction reaction. However, changing the
+partial pressure of the system from 0.5 bar to 0.8 bar does not reduce
+and oxide the sample at 550 °C. Moreover, the reversibility has not been
+observed for Pb3O4 and PbO at this thermodynamic condition. This can
+be explained by the slow kinetics and the existence of intermediate
+phases which made the reduction and oxidation reactions sluggish
+[9,14]. Thus, the Pb3O4/PbO pair is not a suitable material for chemical
+storage under this conditions.
+Fig. 13 presents the XRD of the Pb3O4 after 10 RedOx cycles at
+500 °C and 550 °C. As can be seen, Pb3O4 has not been converted to PbO
+at 500 °C, while based on phase diagram shown in Fig. 2d, Pb3O4 has
+potential to be reduced to PbO at 550 °C and an oxygen partial pressure
+Fig. 5. The XRD of copper oxide before and after 10 successive RedOx cycles under conditions for S4, given in Table 2.
+Fig. 6. A time history of the weight of sample during 10 cycles of oxidation at 0.8 bar and reduction at 0.05 bar, for the condition S8 shown in Table 2.
+M. Silakhori, et al.
+Journal of Energy Storage 23 (2019) 138–147
+143
+
+
+===== Page 7 =====
+
+Fig. 7. The XRD of cobalt oxide before and after 10 successive RedOx cycles under condition of S8.
+Fig. 8. Weight change of Mn2O3/Mn3O4 as a function of time for 10 cycles at a constant temperature of 900 °C, under S12 condition shown in Table 2. The dwell time
+for reduction and oxidation cycles was 30 min.
+Fig. 9. SEM micrograph of the Mn2O3 sample (a) before and (b) after 10 successive RedOx cycles.
+M. Silakhori, et al.
+Journal of Energy Storage 23 (2019) 138–147
+144
+
+
+===== Page 8 =====
+
+Fig. 10. The oxidation of manganese oxide as a function time at a temperature of 900 °C for diﬀerent partial pressures of oxygen.
+Fig. 11. The XRD of Mn2O3 before and after 10 successive RedOx cycles under conditions of S12, given in Table 2.
+Fig. 12. Weight change of Pb3O4/PbO as a function of time for 10 cycles at a constant temperature of 500 °C and 550 °C, as given in Table 2.
+M. Silakhori, et al.
+Journal of Energy Storage 23 (2019) 138–147
+145
+
+
+===== Page 9 =====
+
+of 0.8 bar. This result conﬁrms the TGA analysis of the Pb3O4 at a
+temperature of 550 °C.
+4. Conclusion
+The potential of CuO/Cu2O, Co3O4/CoO, Mn2O3/Mn3O4, and
+Pb3O4/PbO for reduction and oxidation reactions has been assessed
+with the use of a TGA. The result shows that CuO/Cu2O, Co3O4/CoO
+were highly reversible under isothermal pressure-swing cycles, while
+Mn2O3/Mn3O4 exhibits slight signs of sintering. However, the pair
+Pb3O4/PbO did not show any potential for redox reaction under these
+conditions. The TGA result shows that complete reduction and oxida-
+tion reactions is 15 min for CuO/Cu2O, Co3O4/CoO and 30 min for
+Mn2O3/Mn3O4. This is signiﬁcantly lower than the oxidation reaction in
+temperature swing system which is approximatly at 3 h. The result
+showed that the rate of oxidation increases with an increase in partial
+pressure of the oxygen from 0.2 bar to 0.8 bar. The maximum rate scales
+approximately linearly with partial pressure and can be increased from
+3.3%min−1 to 9.3%min−1 for CuO/Cu2O pair with an increase in
+partial pressure from 0.2 bar to 0.8 bar, respectively. The corresponding
+values for Co3O4/CoO are 0.89%min−1 and 5.3%min−1 for oxygen
+partial pressures of 0.2 bar and 0.8 bar. The XRD analysis of these
+materials conﬁrmed the full conversion of higher oxidation state to
+lower oxidation states during RedOx reaction. It can be concluded that
+the pair of CuO/Cu2O, Co3O4/CoO, Mn2O3/Mn3O4 exhibit good po-
+tential for themochemical energy storage through changing the partial
+pressure of oxygen.
+Acknowledgements
+The authors gratefully acknowledge the support of ARENA through
+the Australian Solar Thermal Research Initiative (ASTRI). The ﬁrst
+author of this work acknowledges “Australian Government Research
+Training Program Scholarship” for the ﬁnancial supports.
+References
+[1] A. Bayon, R. Bader, M. Jafarian, L. Fedunik-Hofman, Y. Sun, J. Hinkley, S. Miller,
+W. Lipiński, Techno-economic assessment of solid–gas thermochemical energy
+storage systems for solar thermal power applications, Energy 149 (2018) 473–484.
+[2] S. Kuravi, J. Trahan, D.Y. Goswami, M.M. Rahman, E.K. Stefanakos, Thermal energy
+storage technologies and systems for concentrating solar power plants, Prog. Energy
+Combust. Sci. 39 (2013) 285–319.
+[3] A. Gil, M. Medrano, I. Martorell, A. Lázaro, P. Dolado, B. Zalba, L.F. Cabeza, State of
+the art on high temperature thermal energy storage for power generation. Part 1:
+concepts, materials and modellization, Renew. Sustain. Energy Rev. 14 (2010)
+31–55.
+[4] M. Silakhori, M. Jafarian, M. Arjomandi, G.J. Nathan, The energetic performance of
+a liquid chemical looping cycle with solar thermal energy storage, Energy 170
+(2019) 93–101.
+[5] T. Block, M. Schmücker, Metal oxides for thermochemical energy storage: a com-
+parison of several metal oxide systems, Solar Energy 126 (2016) 195–207.
+[6] H.B. Dizaji, H. Hosseini, A review of material screening in pure and mixed-metal
+oxide thermochemical energy storage (TCES) systems for concentrated solar power
+(CSP) applications, Renew. Sustain. Energy Rev. 98 (2018) 9–26.
+[7] S. Wu, C. Zhou, E. Doroodchi, R. Nellore, B. Moghtaderi, A review on high-tem-
+perature thermochemical energy storage based on metal oxides redox cycle, Energy
+Convers. Manage. 168 (2018) 421–453.
+[8] L. Irwin, J. Stekli, C. Pfeﬀerkorn, R. Pitchumani, 11 - Thermochemical energy
+storage for concentrating solar thermal (CST) systems, in: Manuel J. Blanco,
+L.R. Santigosa (Eds.), Advances in Concentrating Solar Thermal Research and
+Technology, Woodhead Publishing, 2017, pp. 247–267.
+[9] B. Wong, Thermochemical Heat Storage for Concentarted Solar Power, Final Report
+for The U.S. Department of Energy, Department of Energy, San Diego, CA, USA,
+2011.
+[10] M. Deutsch, F. Horvath, C. Knoll, D. Lager, C. Gierl-Mayer, P. Weinberger,
+F. Winter, High-temperature energy storage: kinetic investigations of the CuO/Cu2O
+reaction cycle, Energy Fuels 31 (2017) 2324–2334.
+[11] C. Agraﬁotis, M. Roeb, C. Sattler, Exploitation of thermochemical cycles based on
+solid oxide redox systems for thermochemical storage of solar heat. Part 4:
+screening of oxides for use in cascaded thermochemical storage concepts, Solar
+Energy 139 (2016) 695–710.
+[12] L. André, S. Abanades, G. Flamant, Screening of thermochemical systems based on
+solid-gas reversible reactions for high temperature solar thermal energy storage,
+Renew. Sustain. Energy Rev. 64 (2016) 703–715.
+[13] M. Neises, S. Tescari, L. de Oliveira, M. Roeb, C. Sattler, B. Wong, Solar-heated
+rotary kiln for thermochemical energy storage, Solar Energy 86 (2012) 3040–3048.
+[14] D. Müller, C. Knoll, W. Artner, M. Harasek, C. Gierl-Mayer, J.M. Welch, A. Werner,
+P. Weinberger, Combining in-situ X-ray diﬀraction with thermogravimetry and
+diﬀerential scanning calorimetry: an investigation of Co3O4, MnO2 and PbO2 for
+thermochemical energy storage, Solar Energy 153 (2017) 11–24.
+[15] K.N. Hutchings, M. Wilson, P.A. Larsen, R.A. Cutler, Kinetic and thermodynamic
+considerations for oxygen absorption/desorption using cobalt oxide, Solid State
+Ionics 177 (2006) 45–51.
+[16] A.J. Carrillo, J. Moya, A. Bayón, P. Jana, V.A. de la Peña O’Shea, M. Romero,
+J. Gonzalez-Aguilar, D.P. Serrano, P. Pizarro, J.M. Coronado, Thermochemical en-
+ergy storage at high temperature via redox cycles of Mn and Co oxides: pure oxides
+versus mixed ones, Solar Energy Mater. Solar Cells 123 (2014) 47–57.
+[17] B. Hallstedt, D. Risold, L.J. Gauckler, Thermodynamic assessment of the copper-
+oxygen system, J. Phase Equilibria 15 (1994) 483–499.
+[18] D. Shishin, S.A. Decterov, Critical assessment and thermodynamic modeling of the
+Cu–O and Cu–O–S systems, Calphad 38 (2012) 59–70.
+[19] D. Chadda, J.D. Ford, M. Fahim, Chemical energy storage by the reaction cycle
+CuO/Cu2O, Int. J. Energy Res. 13 (1989) 63–73.
+[20] E. Alonso, C. Pérez-Rábago, J. Licurgo, E. Fuentealba, C.A. Estrada, First experi-
+mental studies of solar redox reactions of copper oxides for thermochemical energy
+storage, Solar Energy 115 (2015) 297–305.
+[21] B. Wong, L. Brown, F. Schaube, R. Tamme, C. Sattler, Oxide based thermochemical
+heat storage, Proceedings of the 16th SolarPACES Conference, Perpignan, France,
+2010, pp. 21–24.
+[22] C. Agraﬁotis, M. Roeb, M. Schmücker, C. Sattler, Exploitation of thermochemical
+cycles based on solid oxide redox systems for thermochemical storage of solar heat.
+Part 1: testing of cobalt oxide-based powders, Solar Energy 102 (2014) 189–211.
+Fig. 13. The XRD of Pb3O4 before and after 10 successive RedOx cycles under conditions of S13 and S14, given in Table 2.
+M. Silakhori, et al.
+Journal of Energy Storage 23 (2019) 138–147
+146
+
+
+===== Page 10 =====
+
+[23] A.P. Muroyama, A.J. Schrader, P.G. Loutzenhiser, Solar electricity via an Air
+Brayton cycle with an integrated two-step thermochemical cycle for heat storage
+based on Co3O4/CoO redox reactions II: kinetic analyses, Solar Energy 122 (2015)
+409–418.
+[24] C. Agraﬁotis, M. Roeb, M. Schmücker, C. Sattler, Exploitation of thermochemical
+cycles based on solid oxide redox systems for thermochemical storage of solar heat.
+Part 2: redox oxide-coated porous ceramic structures as integrated thermochemical
+reactors/heat exchangers, Solar Energy 114 (2015) 440–458.
+[25] C. Agraﬁotis, A. Becker, M. Roeb, C. Sattler, Exploitation of thermochemical cycles
+based on solid oxide redox systems for thermochemical storage of solar heat. Part 5:
+testing of porous ceramic honeycomb and foam cascades based on cobalt and
+manganese oxides for hybrid sensible/thermochemical heat storage, Solar Energy
+139 (2016) 676–694.
+[26] G. Karagiannakis, C. Pagkoura, A. Zygogianni, S. Lorentzou, A.G. Konstandopoulos,
+Monolithic ceramic redox materials for thermochemical heat storage applications in
+CSP plants, Energy Procedia 49 (2014) 820–829.
+[27] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Thermochemical heat storage
+based on the Mn2O3/Mn3O4 redox couple: inﬂuence of the initial particle size on
+the morphological evolution and cyclability, J. Mater. Chem. A 2 (2014)
+19435–19443.
+[28] M. Silakhori, M. Jafarian, M. Arjomandi, G.J. Nathan, Comparing the thermo-
+dynamic potential of alternative liquid metal oxides for the storage of solar thermal
+energy, Solar Energy 157 (2017) 251–258.
+[29] M. Chen, B. Hallstedt, L.J. Gauckler, Thermodynamic assessment of the Co-O
+system, J. Phase Equilibria 24 (2003) 212–227.
+[30] A.N. Grundy, B. Hallstedt, L.J. Gauckler, Assessment of the Mn-O system, J. Phase
+Equilibria 24 (2003) 21–39.
+[31] D. Risold, J.-I. Nagata, R. Suzuki, Thermodynamic description of the Pb-O system, J.
+Phase Equilibria 19 (1998) 213–233.
+[32] C.-H. Wu, Low energy-consumption industrial production of ultra-ﬁne spherical
+cobalt powders, in: A.Z. Ahmed (Ed.), Energy Conservation, InTech, Rijeka,
+2012Ch. 06.
+[33] M. Kim, W.-S. Son, K.H. Ahn, D.S. Kim, H.-s. Lee, Y.-W. Lee, Hydrothermal synthesis
+of metal nanoparticles using glycerol as a reducing agent, J. Supercrit. Fluids 90
+(2014) 53–59.
+[34] M. Silakhori, M. Jafarian, M. Arjomandi, G.J. Nathan, Experimental assessment of
+copper oxide for liquid chemical looping for thermal energy storage, J. Energy
+Storage 21 (2019) 216–221.
+M. Silakhori, et al.
+Journal of Energy Storage 23 (2019) 138–147
+147

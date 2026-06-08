@@ -1,0 +1,860 @@
+
+
+===== Page 1 =====
+
+ 
+第33 卷 第35 期 
+中  国  电  机  工  程  学  报 
+Vol.33 No.35  Dec.15, 2013 
+  
+2013 年12 月15 日 
+Proceedings of the CSEE 
+©2013 Chin.Soc.for Elec.Eng. 
+67 
+ 
+文章编号：0258-8013 (2013) 35-0067-06    中图分类号：TK 16    文献标志码：A    学科分类号：470·10 
+石墨成孔法制备的两种铜基载氧体 
+释氧以及循环反应特性 
+蒲舸，徐鹏，张力 
+(低品位能源利用技术及系统教育部重点实验室(重庆大学)，重庆市 沙坪坝区 400030) 
+ 
+Study on the Oxygen Releasing and Circulation Reaction Properties of Two Cu-based Oxygen 
+Carriers Prepared by Impregnation Method Using Graphite as Pore-forming Agent 
+PU Ge, XU Peng, ZHANG Li 
+(Key Laboratory of Low-Grade Energy Utilization Technologies and Systems(Chongqing University), Shapingba District, 
+Chongqing 400030, China) 
+ABSTRACT: Two Cu-based oxygen carriers for Chemical- 
+looping with oxygen uncoupling (CLOU) process were 
+prepared 
+by 
+impregnation 
+method 
+using 
+graphite 
+as 
+pore-forming agent. The oxygen releasing properties of the 
+carriers under different oxygen partial conditions and different 
+temperatures as well as the cyclic stability property were tested 
+using thermogravimetric analysis (TGA), X-ray diffraction 
+(XRD) and scanning electron microscopy (SEM). The 
+experimental results show that the conversion rate of oxygen 
+carrier increases with the increase of temperature. The oxygen 
+releasing property of Cu6Ti4 oxygen carrier at low temperature 
+was better than Cu6Si4 oxygen carrier. In addition, the initial 
+oxygen release temperature of Cu6Ti4 oxygen carrier under 
+different oxygen concentration was lower than that of Cu6Si4 
+oxygen carrier. After 20 cycles, the Cu6Si4 oxygen carrier still 
+remains a good oxygen uncoupling and absorption properties, 
+there is only 0.5% loss in oxygen release content compared to 
+1.5% loss of Cu6Ti4 oxygen carrier. SEM observations on 
+phase structure of these two kinds of Cu-based oxygen carriers 
+find that the surface of Cu6Si4 remains porous structure, which 
+is favorable for the release and absorption of oxygen. 
+KEY WORDS: chemical-looping with oxygen uncoupling 
+(CLOU); pore-forming using graphite as agent; Cu-based 
+oxygen carrier; oxygen releasing property; cyclic stability 
+摘要：通过石墨成孔浸渍法制备了Cu6Ti4 和Cu6Si4 这2 种
+氧解耦化学链燃烧铜基载氧体，并利用热重分析仪、X 衍射 
+ 
+基金项目：重庆市科技攻关重点计划项目(CSTC2009AA7051)；重
+庆市自然科学基金计划项目(CSTC2010BB6067)；重庆市重点自然科学
+基金计划项目(CSTC2013jjB90003)。 
+Key Research Project of Science and Technology of Chongqing 
+(CSTC2009AA7051); 
+Chongqing 
+Natural 
+Science 
+Foundation 
+(CSTC2010BB6067); Chongqing Key Natural Science Foundation 
+(CSTC2013jjB90003). 
+仪和扫描电镜对其进行了研究，主要考察了不同反应温度和
+不同氧气分压下的释氧特性，以及1000℃温度下的循环稳
+定特性等。热重实验结果表明：随着反应温度的增加，载氧
+体的转化速率，即载氧体中氧气的释放速率加快。Cu6Ti4
+载氧体在温度较低时的释氧性能要优于Cu6Si4 载氧体，且
+Cu6Ti4 载氧体在不同氧气分压下的开始释氧温度都要低于
+Cu6Si4 载氧体。经过20 次释氧/吸氧往复循环后，Cu6Si4 载
+氧体仍然保持着很好的释氧吸氧能力，载氧量仅下降0.5%，
+而Cu6Ti4 载氧体下降了1.5%。通过扫描电镜观察了两种载
+氧体循环反应前后的物相结构，结果发现Cu6Si4 载氧体经
+过20 次反应后，其表面结构仍有多孔结构，有利于氧气的
+析出和结合。 
+关键词：氧解耦化学链燃烧；石墨成孔；铜基载氧体；释氧
+特性；循环稳定性 
+0  引言 
+目前，我国CO2 排放量居世界第2 位，约占全
+世界排放总量的13%左右[1]，控制和减少CO2 的排
+放是解决该问题的关键，这对于应对全球变暖和温
+室效应具有重要的作用[2]。燃烧前CO2 回收、纯氧
+燃烧、燃烧后分离CO2 等碳捕集与封存技术被认为
+是减少大气CO2 浓度的有效途径之一，但均会导致
+系统效率降低和发电成本增加[3]。化学链燃烧
+(chemical looping combustion，CLC)是近年来新提
+出的一种用于分离提纯CO2 的新型燃烧技术[4-6]。
+在化学链燃烧，由于载氧体只将空气中的氧传递到
+燃料反应器中，N2 从空气反应器被直接排走(可彻
+底根除NOx 的产生)，因此可以从燃烧产物中获得
+高浓度的CO2
+[7-9]。化学链燃烧过程如图1 所示。 
+在CLC 技术基础上，Mattisson 等[10]提出了氧 
+DOI:10.13334/j.0258-8013.pcsee.2013.35.011
+
+
+===== Page 2 =====
+
+68 
+中  国  电  机  工  程  学  报 
+第33 卷 
+ 
+ N2O2 
+燃料 
+反应器 
+空气 
+反应器 
+空气 
+燃料 
+高纯CO2 
+冷凝 
+被还原的 
+载氧体Me 
+载氧体MeO 
+ 
+图1  化学链燃烧示意图 
+Fig. 1  Schematic diagram of chemical looping combustion 
+解耦化学链燃烧技术(Chemical looping with oxygen 
+uncoupling，CLOU)。该技术的特点在于金属氧化
+物载氧体能在燃料反应器中释放出O2，并在空气反
+应器中重新吸收O2。由于载氧体能在燃料反应器中
+释放出气态的O2，使得CLOU 中燃料与气态O2 之
+间的反应速率大大高于CLC 中燃料与晶格氧之间
+的反应速率[11]。目前，被证实具有CLOU 燃烧潜力
+的载氧体主要有CuO/Cu2O ，Mn2O3/Mn3O4 和
+Co3O4/CoO 这3 种[12-14]。其中，由于CuO/Cu2O 的
+载氧率远高于Mn2O3/Mn3O4 和Co3O4/CoO，因此得
+到了学者更多的关注和研究。Abad 等[15]制备的
+CuO/MgAl2O4 载氧体实验中表现出对煤很快的反
+应速率，并且在960℃的温度下对CO2 的捕集率可
+以到达100%。Rubio、Gayan 等[16-17]采用不同载体
+和不同方法制备了各种CuO 基载氧体，实验发现采
+用机械混合压力成粒法制备的60% CuO 含量的
+CuO/MgAl2O4 载氧体以及40% CuO 含量的
+CuO/ZrO2载氧体的释氧反应性能最好。王保文等[18]
+发现Al2O3的引入对CuO 与煤一次热解产物的反应
+是有利的。然而，CuO 的不足之处在于释氧温度较
+高[19]。在较高的释氧温度下，CuO 会因为其熔点较
+低而发生烧结现象，从而影响铜基载氧体在CLOU
+中的循环反应活性。因此，对于铜基载氧体的研究
+重点在于如何提高它的抗烧结能力和循环反应稳
+定性能[20-21]。 
+本文通过石墨成孔浸渍法制备了Cu6Ti4 和
+Cu6Si4 两种氧解耦化学链燃烧铜基载氧体，以热重
+分析(thermogravimetric analysis，TGA)实验为主，
+辅以扫描电镜(scanning electron microscopy，SEM)
+和(X-ray diffraction，XRD)等表征手段，旨在综合
+研究载氧体的释氧反应活性以及循环反应特性以
+及分析其循环反应稳定性降低的原因等，并与纯氧
+化铜进行了对比。本文的研究结果以期能为该载氧
+体更好的运用于CLOU 反应系统提供指导。 
+1  实验部分 
+1.1  载氧体制备 
+本实验所用的铜基载氧体分别采用SiO2 和
+TiO2 为惰性载体，通过石墨成孔浸渍法[22]制备而
+成。首先，在惰性载体中添加15%的石墨作为造孔
+剂，加入适量的去离子水充分混合搅拌至均匀。然
+后在1000℃的温度下于马弗炉中焙烧6h。将一定
+量焙烧后的惰性载体添加到硝酸铜溶液中，并在
+120℃的温度下于电磁搅拌器上充分搅拌，直到水
+分全部蒸发。最后，在马弗炉上焙烧3h，焙烧温
+度为800℃。制备好的铜基载氧体标记为Cu6Ti4 和
+Cu6Si4，其中Cu 表示CuO，6 表示CuO 的质量分
+数为60%；Ti 和Si 分别表示SiO2 和TiO2，4 表示
+惰性载体的质量分数为40%。 
+1.2  载氧体热重实验 
+铜基载氧体的热重实验在德国NETZSCH 公司
+STA409PC 型热重分析仪上进行。首先，在空气气
+氛下将15mg 的载氧体均匀摊置于热重坩埚内，再
+以10℃/min 的升温速率从室温加热到120℃并恒
+温15min，以确保样品完全干燥。再以40℃/min 的
+升温速率分别加热到900、950 和1000℃，此时切
+换空气气氛为N2 气氛(无氧气氛)并维持一定时间。 
+1.3  XRD 物相分析和SEM 
+载氧体的物相分析在D/Max-2500PC 型X 射线
+衍射仪上进行，Cu-K辐射源，管电压40kV，管
+电流40mA，扫描速度26，扫描步长0.02。 
+载氧体循环反应前后的物相结构特征观察在
+捷克TESCAN 公司制造的VEGA 3 SBH 型钨灯丝
+扫描电镜上进行。扫描放大倍数为5000 倍。 
+1.4  数据处理 
+为了讨论方便，定义载氧体的转化率为 
+ 
+0
+0
+rox
+m
+m
+c
+m
+m
+
+
+
+
+ 
+(1) 
+式中：m0 为载氧体初始质量；m为时刻载氧体的
+质量；mrox 为载氧体释氧完成后的质量。 
+2  结果及分析 
+2.1  载氧体XRD 表征 
+将用石墨成孔浸渍法制备的Cu6Si4 和Cu6Ti4
+两种载氧体采用XRD 技术进行物相分析，结果如
+图2 所示。分析结果表明Cu6Ti4载氧体经过焙烧后，
+载氧体中仅存在CuO 和TiO2 这2 种物质，Cu6Ti4
+载氧体中也仅存在CuO 和SiO2 这2 种物质。 
+
+
+===== Page 3 =====
+
+第35 期 
+蒲舸等：石墨成孔法制备的两种铜基载氧体释氧以及循环反应特性 
+69 
+ 
+图3 为Cu6Si4 和Cu6Ti4 这2 种载氧体在900、
+950 和1000℃温度下的热重曲线，其对应的载氧   
+体转化率曲线如图4 所示。横坐标的零点以反应温 
+ 
+2/() 
+(a) Cu6Ti4 
+衍射强度/103 
+0
+ 
+4
+8
+16
+12
+20 
+60 
+ 
+2 
+2 
+2 
+1 
+1 
+1 
+1
+1 
+1 
+1 
+2 
+2 
+2 2 
+2
+2 
+2 
+1 
+1 
+1：CuO 
+2：TiO2 
+40 
+80 
+ 
+ 
+2/() 
+(b) Cu6Si4 
+衍射强度/103 
+0
+ 
+4
+8
+12
+20 
+60 
+ 
+1：CuO 
+3：SiO2 
+40 
+80 
+1 
+3 
+3 
+1 
+1 
+1 
+3 
+3 
+3 
+3 
+3 
+3
+3 
+3 
+1 
+1 1 1 
+1
+1 1 
+1 
+16
+ 
+图2  载氧体XRD 图谱 
+Fig. 2  XRD for the fresh oxygen carriers 
+ 
+t/min 
+失重率/% 
+ 
+94
+96
+98
+0 
+15 
+25
+10
+20 
+100
+5 
+Cu6Si4-900℃ 
+Cu6Ti4-900℃ 
+Cu6Si4-950℃ 
+Cu6Ti4-950℃ 
+Cu6Si4-1000℃ 
+Cu6Ti4-1000℃ 
+ 
+图3  载氧体不同温度下的TG 曲线 
+Fig. 3  TG curves of oxygen carrier under different 
+temperatures 
+ 
+t/min 
+转化率 
+ 
+0.0
+0.4
+1.2
+0.8
+0 
+15 
+25
+10
+20 
+5 
+Cu6Si4-900℃ 
+Cu6Ti4-900℃ 
+Cu6Si4-950℃ 
+Cu6Ti4-950℃ 
+Cu6Si4-1000℃ 
+Cu6Ti4-1000℃ 
+ 
+图4  载氧体不同温度下转化率曲线 
+Fig. 4  Conversion curves of oxygen carrier under 
+different temperatures 
+度达到900、950 和1000℃并切换为无氧气氛开始
+记录。 
+2.2  不同温度的释氧特性 
+从图3 可以看出，当反应气氛切换为无氧气氛
+后，两种载氧体开始氧气的析出，并在不同反应温
+度下都能达到6%的释氧量，这与纯氧化铜在无氧
+气氛下10%的释氧量相符。从图4 可以看出，随着
+反应温度的增加，载氧体的转化速率，即载氧体中
+氧气的释放速率加快。在1000℃时，Cu6Si4 和
+Cu6Ti4 两种载氧体从开始析出氧气到释氧完成所需
+的时间基本一样，约为2.5min，大大低于900 和
+950℃时载氧体的释氧完成时间。而在950 和900℃
+温度时，Cu6Ti4 载氧体的转化率速率都要大于
+Cu6Si4 载氧体。其原因主要是因为无氧气氛下，载
+氧体中氧气的析出受温度和载氧体物相结构控制。
+在温度较低时，载氧体的氧平衡分压小，此时氧气
+的析出主要受控于载氧体的物相结构。而Cu6Ti4 载
+氧体在900 和950℃的转化完成时间都要低于
+Cu6Si4 载氧体，说明通过石墨成孔浸渍法制备而成
+的Cu6Ti4 载氧体的物相结构更利于氧气的析出。在
+温度较高时，氧平衡分压增大，此时物相结构的影
+响大大减小。 
+2.3  不同氧气分压下的释氧特性 
+对两种载氧体在0%，10%和20%氧气浓度条
+件下的释氧特性做了考察，结果如图5 所示。 
+ 
+温度/℃ 
+失重率/% 
+92
+750
+94
+96
+98
+950 
+1150
+850
+1050 
+100
+Cu6Si4-0%O2 
+Cu6Ti4-0%O2 
+Cu6Si4-10%O2 
+Cu6Ti4-10%O2 
+Cu6Si4-20%O2 
+Cu6Ti4-20%O2 
+ 
+图5  不同氧气分压下释氧曲线 
+Fig. 5  Oxygen release curves under different oxygen 
+partial pressure 
+从图5 中可以看出，随着氧气浓度的增大，载
+氧体开始释氧的温度也随之增大。且Cu6Ti4 载氧体
+在各个氧气浓度下的开始释氧温度都低于同条件
+下的Cu6Si4 载氧体。在0%氧气浓度下时，Cu6Ti4
+和Cu6Si4 载氧体各自的释氧温度分别为830 和   
+860℃，两种载氧体都能释氧6%。当氧气浓度达到
+10%时，Cu6Ti4 和Cu6Si4 载氧体各自的释氧温度增
+
+
+===== Page 4 =====
+
+70 
+中  国  电  机  工  程  学  报 
+第33 卷 
+ 
+加到943 和978℃。然而在10%的氧气浓度分压下，
+随着反应温度的增加，Cu6Ti4 载氧体的最终释氧量
+减少到只有4.7%，造成这种现象的原因主要是由于
+氧气浓度的增大导致Cu6Ti4 载氧体的释氧温度升
+高，而随着反应温度的不断升高，Cu6Ti4 载氧体出
+现了部分烧结现象。而Cu6Si4 载氧体仍能达到6%
+的释氧量，说明Cu6Si4 载氧体没有发生烧结现象。
+当氧气浓度继续增加到20%时，Cu6Ti4 载氧体的释
+氧量减少到只有3.8%。且随着温度的增加，Cu6Ti4
+载氧体出现吸氧现象。同样的现象也发生在Cu6Si4
+载氧体上。这种现象的发生可能是因为当载氧体释
+氧以后，在较高的氧气浓度下Cu2O 重新结合氧生
+成CuO 的缘故，即发生了式(2)的逆反应： 
+ 
+2
+2
+4CuO
+2Cu O
+O (g)
+
+
+ 
+(2) 
+将Cu6Ti4 和Cu6Si4 载氧体以及纯CuO 在0%、
+10%和20%氧气浓度下的开始释氧温度进行拟合，
+由此可得到载氧体开始释氧温度和氧气浓度一一
+对应的关系曲线，此即载氧体的氧平衡分压曲线，
+如图6 所示。载氧体的氧平衡分压曲线表明在任意
+一个氧气分压下，如果温度高于此氧气分压对应的
+释氧温度，则载氧体发生释氧反应。从图6 中可以
+看出，Cu6Si4 载氧体和CuO 的氧平衡分压曲线基本
+一样，表明添加SiO2 对CuO 的氧平衡分压影响不
+大。而惰性载体TiO2 的添加则极大改变了CuO 的
+氧平衡分压。 
+ 
+温度/(103℃) 
+氧气分压 
+0.05
+0.80 
+0.05
+0.15
+0.25
+0.95 
+1.05
+0.85 
+1.00 
+CuO 
+Cu6Si4 
+Cu6Ti4 
+0.90
+ 
+图6  氧平衡分压曲线 
+Fig. 6  Curves of oxygen balance partial pressure 
+2.4  载氧体循环稳定性 
+理想的氧解耦化学链燃烧载氧体不仅需要具备
+高的载氧率和快速的释氧速率，其在空气反应器和
+燃料反应器之间往复循环时的吸氧/释氧稳定性也
+是评价该载氧体的一个重要因素[23]。本文首先考察
+了纯氧化铜在1000℃反应温度下的循环持续稳定
+性，然后在相同条件下测试用石墨成孔浸渍法制备
+而成的Cu6Si4 和Cu6Ti4 载氧体。实验时以40℃/min
+的升温速率加热到1000℃后保持恒温，在N2 和空
+气之间进行反复切换，通过氧浓度的改变实现吸氧
+/释氧反应的交替发生，如此进行20 次循环。实验
+结果如下图7 的(a)、(b)和(c)所示。 
+ 
+t/min 
+(a) CuO 
+失重率/% 
+0
+90
+94
+100
+200
+600 
+800
+400 
+98
+92
+96
+ 
+ 
+t/min 
+(b) Cu6Si4 
+失重率/% 
+0
+94
+96
+100
+200
+600 
+800
+400 
+98
+ 
+ 
+t/min 
+(c) Cu6Ti4 
+失重率/% 
+0
+94
+96
+100
+200
+600 
+800
+400 
+98
+ 
+图7  20 次循环反应释氧吸氧特性 
+Fig. 7  Oxygen release/absorb property in 20 times circular 
+reaction 
+从图7(a)可以看出纯的CuO的释氧和吸氧率随
+着循环次数的增加而逐渐下降。循环到第20 次的
+时候，其释氧量为6.8%，比刚开始10%的氧气析
+出量降低了3.2%左右。Cu6Si4 载氧体第一次释氧完
+成后进行吸氧时，其吸氧量并没有达到6%的氧气
+析出量，下降了0.5%。但在以后的循环中，其释氧
+和吸氧量都没有减小，循环稳定性比较好。而对于
+Cu6Ti4 载氧体，其释氧量和吸氧量在每次反应后都
+呈下降的趋势，循环20 次后其载氧量下降了1.5%。
+因此，但相对于纯的氧化铜载氧体，SiO2 的加入明
+显提高了载氧体的循环稳定性，而TiO2 的添加效果
+
+
+===== Page 5 =====
+
+第35 期 
+蒲舸等：石墨成孔法制备的两种铜基载氧体释氧以及循环反应特性 
+71 
+ 
+不及SiO2 的好。 
+2.5  载氧体SEM 分析 
+对Cu6Ti4和Cu6Si4两种载氧体循环反应前后的
+物相结构做了电镜扫描观察，结果如图8 所示。从
+图8 中可以明显看出，Cu6Si4 反应前载氧体成颗粒
+状，大小在10m 左右，且颗粒表面含有众多的细
+小针状物。20 次循环反应后，由于高温下CuO 的
+烧结作用而使载氧体结合在一起，但SiO2 的加入使
+得载氧体表明仍呈细小颗粒状结构，颗粒间的间隙
+有利于氧气的析出以及结合。因此20 次循环反应
+后，Cu6Si4 载氧体仍然保持着很好的释氧吸氧能力。
+而Cu6Ti4 载氧体反应前表面为细小颗粒的多孔结
+构，但20 次循环后，载氧体粘结在一起。虽然有
+TiO2 的加入，但粒径增大，空隙减少，这一点不利
+于其循环反应性。 
+ 
+(a) Cu6Si4 循环反应前 
+10m 
+ 
+(b) Cu6Si4 循环反应后 
+10m
+ 
+ 
+(c) Cu6Ti4 循环反应前 
+10m 
+ 
+(d) Cu6Ti4 循环反应后 
+10m
+ 
+图8  Cu6Si4 和Cu6Ti4 循环反应前后SEM 图 
+Fig. 8  SEM pictures of Cu6Si4 and Cu6Ti4 oxygen carriers 
+before and after 20 cycles 
+3  总结 
+1）随着反应温度的增加，载氧体中氧气的释
+放速率加快。Cu6Ti4 载氧体在900 和950℃反应温
+度时的释氧性能要优于Cu6Si4 载氧体。 
+2）随着氧气浓度的增大，Cu6Ti4 和Cu6Si4 载
+氧体开始释氧气的温度也随之增大，且在不同氧气
+浓度下Cu6Ti4 载氧体的开始释氧温度都要低于
+Cu6Si4 载氧体。 
+3）经过20 次释氧/吸氧往复循环后，Cu6Si4 载
+氧体仍然保持着很好的释氧吸氧能力，释氧量仅在
+第一次反应后下降了0.5%，随后都很稳定。而
+Cu6Ti4 载氧体的释氧和吸氧量则逐渐减小，20 次反
+应后载氧量下降了1.5%。 
+4）SEM 技术观察了两种载氧体循环反应前后
+的物相结构，结果发现Cu6Si4 载氧体经过20 次反
+应后，其表面结构仍有多孔结构，有利于氧气的析
+出和结合。 
+参考文献 
+[1] 石敏俊，周晟吕．低碳技术发展对中国实现减排目标的
+作用[J]．管理评论，2010，6(22)：48-53． 
+Shi Minjun，Zhou Shenglv．The Impact of Low Carbon 
+Technology Development on China’s CO2 Emission 
+Reduction[J]．Management Review，2010，6(22)：48-53(in 
+Chinese)． 
+[2] 李庆钊，赵长遂，武卫芳，等．O2/CO2 气氛下燃煤SO2
+排放特性的实验研究[J]．中国电机工程学报，2009，
+29(20)：41-46． 
+Li Qingzhao，Zhao Changsui，Wu Weifang，et al．
+Experimental investigation on SO2 emission characteristic 
+during pulverized coal combustion in O2/CO2 environment 
+[J]．Proceedings of the CSEE，2009，29(20)：41-46(in 
+Chinese)． 
+[3] Liu Hengwei，Gallagher K S．Preparing to ramp up large 
+scale CCS demonstrations ：An engineering-economic 
+assessment of CO2 pipeline transportation in China[J]．
+International Journal of Greenhouse Gas Control，2011，
+5(4)：798-804． 
+[4] Richter H ，Knoche K ．Reversibility of combustion 
+processes[J]．ACS Symposium Series，1983，235(1)：
+71-86． 
+[5] Lyngfelt A，Johansson M，Mattisson T．Chemical-looping 
+combustion status of development[C]//9th International 
+Conference on Circulating Fluidized Beds(CFB-9) ，
+Hamburg，2008． 
+[6] Hossain M M，de Lasa H I．Chemical-looping combustion 
+(CLC) for inherent CO2 separations-a review[J]．Chemical 
+Engineering Science，2008，63(18)：4433-4451． 
+[7] 陈时熠，向文国，薛志鹏，等．固定床上Fe2O3 载氧燃
+烧特性实验研究[J]．中国电机工程学报，2010，30(20)：
+44-50． 
+Chen Shiyi，Xiang Wenguo，Xue Zhipeng，et al．
+Investigation on chemical-looping combustion using 
+Fe2O3 as oxygen carrier in a fixed bed reactor[J]．
+Proceedings of the CSEE ，2010 ，30(20) ：44-50(in 
+Chinese)． 
+[8] Chandel M K，Hoteit A，Delebarre A．Experimental 
+investigation of some metal oxides for chemical looping 
+combustion in a fluidized bed reactor[J]．Fuel，2009，
+88(5)：898-908． 
+
+
+===== Page 6 =====
+
+72 
+中  国  电  机  工  程  学  报 
+第33 卷 
+ 
+[9] Shen L H，Wu J H，Xiao J．Experiments on chemical 
+looping combustion of coal with a NiO based oxygen 
+carrier[J]．Combustion and Flame，2009，156(3)：721-728． 
+[10] Mattisson T，Lyngfelt A，Leion H．Chemical-looping 
+combustion 
+with 
+oxygen 
+uncoupling(CLOU)for 
+combustion of solid fuels[J]．International Journal of 
+Greenhouse Gas Control，2009，3(1)：11-19． 
+[11] Mattisson T，Leion H，Lyngfelt A．Chemical-looping with 
+oxygen uncoupling using CuO/ZrO2 with petroleum 
+coke[J]．Fuels，2009，88(4)：683-690． 
+[12] Leion H，Mattisson T，Lyngfelt A．Using chemical-looping 
+with oxygen uncoupling for combustion of six different 
+solid fuels[J]．Energy Procedia，2009，1(1)：447-453． 
+[13] 文圆圆，李振山，张腾，等．钴基载氧剂制取O2-CO2
+混合气体的流化床实验[J]．工程热物理学报，2010，
+3(31)：527-530． 
+Wen Yuanyuan，Li Zhenshan，Zhang Teng，et al．
+Experiments of O2-CO2 gas mixture production in a 
+fluidized bed reactor with Co-based oxygen carrier[J]．
+Journal of Engineering Thermophysics，2010，3(31)：
+527-530(in Chinese)． 
+[14] Li Zhenshan，Zhang Teng，Cai Ningsheng．Experimental 
+study of O2-CO2 production for the oxyfuel combustion 
+using a Co-based oxygen carrier[J] ．Industrail and 
+Engineering Chemistry Research ，2008 ，47(19) ：
+7147-7153． 
+[15] Abad A，Adánez-Rubio I，Gayán P，et al．Demonstration 
+of chemical-looping with oxygen uncoupling (CLOU) 
+process in a 1.5kWth continuously operating unit using a 
+Cu-based oxygen-carrier[J] ．International Journal of 
+Greenhouse Gas Control，2012，6(1)：189-200．   
+[16] Adánez-Rubio I ，Gayán P ，et al ．Development of 
+CuO-based oxygen-carrier materials suitable for chemical- 
+looping with oxygen uncoupling (CLOU) process[J]．
+Energy Procedia，2011，4(1)：417-424． 
+[17] Gayán P，Adánez-Rubio I，Abad A，et al．Development 
+of Cu-based oxygen carriers for chemical-Looping with 
+oxygen uncoupling (CLOU) process[J]．Fuel，2012(96)：
+226-238． 
+[18] 王保文，赵海波，郑瑛，等．惰性载体Al2O3 对Fe2O3
+及CuO 氧载体煤化学链燃烧的影响[J]．中国电机工程
+学报，2011，31(32)：53-61． 
+Wang Baowen，Zhao Haibo，Zheng Ying，et al．Effect of 
+inert support Al2O3 on the chemical looping combustion of 
+coal with Fe2O3 and CuO-based oxygen carrier[J] ．
+Proceedings of the CSEE ，2011 ，31(32) ：53-61(in 
+Chinese)． 
+[19] Moghtaderi B．Application of chemical looping concept 
+for air separation at high temperatures[J]．Energy & 
+Fuels，2010，24(1)：190-198． 
+[20] 姜江，金晶，段惠维，等．金属载氧体可持续循环能力
+特性研究[J]．工程热物理学报，2009，30(3)：505-508． 
+Jiang Jiang，Jin Jing，Duan Huiwei，，et al．The sustainable 
+capability research of the metal oxygen carrier[J]．Journal 
+of Engineering Thermophysics，2009，30(3)：505-508(in 
+Chinese)． 
+[21] Forero C R，Gayán P，García-Labiano F，et al．High 
+temperature behaviour of a CuO/Al2O3 oxygen carrier for 
+chemical-looping combustion[J]．International Journal of 
+Greenhouse Gas Control，2011，5(4)：659-667． 
+[22] Corbella B M，Diego L．D，Garcla F．Characterization 
+and performance in a multi-cycle test in a fixed bed 
+reactor of silica-supported copper oxide as oxygen carrier 
+for chemical-looping combustion of methane[J]．Energy & 
+Fuels，2006，20(1)：148-154． 
+[23] Abad A，Mattisson T，Lyngfelt A，et al．The use of iron 
+oxide as oxygen carrier in a chemical-looping reactor[J]．
+Fuel，2007，86(7-8)：1021-1035． 
+ 
+ 
+收稿日期：2013-06-15。 
+作者简介： 
+蒲舸(1969)，男，博士，教授，主要从事
+清洁燃烧与环境保护的研究工作，puge@ 
+cqu.edu.cn； 
+徐鹏(1987)，男，硕士研究生，主要从
+事CO2 减排的研究工作； 
+张力(1956)，男，博士，教授，主要从
+事多相流与燃烧，热能动力及可持续能源
+技术的科研工作，lizhang_cqu@163.com。
+蒲舸 
+ 
+(责任编辑  王庆霞) 
+ 
+
+
+===== Page 7 =====
+
+Extended Summary 
+正文参见pp.67-72 
+S10 
+Study on the Oxygen Releasing and Circulation Reaction Properties of  
+Two Cu-based Oxygen Carriers Prepared by  
+Impregnation Method Using Graphite as Pore-forming Agent 
+PU Ge, XU Peng, ZHANG Li 
+(Chongqing University of Technology) 
+KEY WORDS: wind power generation; dynamic economic dispatch; spinning reserve; risk reserve constraint; interior point method 
+Chemical 
+looping 
+with 
+oxygen 
+uncoupling 
+combustion (CLOU) is a novel technology, aiming at 
+reducing 
+the 
+CO2 
+emission. 
+The key point 
+of 
+the technology is about the research on the reactivity as 
+well as the cyclic properties of the oxygen carrier, which 
+is of importance in industrial application and in CO2 
+emission reduction.  
+Two kinds of Cu-based oxygen carriers are 
+prepared by the impregnation method using graphite as 
+the pore-forming agent. In this method, 15wt% of 
+powder graphite is firstly added to the inert support to 
+achieve a highly porous oxygen carrier before the 
+impregnation procedure. The obtained fresh oxygen 
+carriers are noted as Cu6Ti4 and Cu6Si4, where Cu=CuO, 
+Ti=TiO2, Si=SiO2 and the number indicates the mass 
+fraction of CuO and the inert support, respectively. 
+In this paper, thermogravimetric analysis (TG) is 
+mainly applied to investigate the oxygen releasing and 
+cyclic properties of the oxygen carrier. According to the 
+TG results, the conversion rate of the oxygen carrier 
+increases with the increasing of reaction temperatures, 
+which can be seen in Fig. 1. In addition, the Cu6Ti4 
+oxygen carrier has a better oxygen releasing property 
+than the Cu6Si4 oxygen carrier at lower reaction 
+temperatures, because the structure of Cu6Ti4 oxygen 
+carrier is favorable for the releasing of oxygen.  
+The oxygen releasing property also changes with 
+oxygen concentration. And it is found that the initial  
+ 
+t/min 
+Conversion 
+ 
+0.0
+0.4
+1.2
+0.8
+0
+15 
+25
+10 
+20 
+5
+Cu6Si4-900℃ 
+Cu6Ti4-900℃ 
+Cu6Si4-950℃ 
+Cu6Ti4-950℃ 
+Cu6Si4-1000℃
+Cu6Ti4-1000℃
+ 
+Fig. 1  Conversion curves of oxygen carrier under  
+different temperatures 
+oxygen releasing temperatures increase as the oxygen 
+concentration rises from 0% to 20%. In general, the 
+Cu6Ti4’s initial oxygen releasing temperature is lower 
+than that of the Cu6Si4 oxygen carrier. However, the 
+oxygen releasing ability of Cu6Ti4 decreases under 10% 
+and 20% oxygen concentration conditions, due to the 
+sintering of Cu6Ti4 particles.  
+As presented in Fig.2, the oxygen releasing and 
+absorption properties of CuO and Cu6Ti4 oxygen carriers 
+decrease with the increase of the number of cycles. 
+However, under the same condition, the Cu6Si4 oxygen 
+carrier exhibits a good oxygen releasing and absorption 
+property in 20 times circular reactions. Scanning electron 
+microscopy (SEM) observation on the phase structure of 
+these two kinds of Cu-based oxygen carriers shows that 
+the surface of Cu6Si4 maintains the porous structure, 
+which is favorable for the release and absorption of 
+oxygen. 
+ 
+t/min 
+(a) CuO 
+Weight loss/% 
+0 
+90
+94
+100
+200 
+600 
+800 
+400 
+98
+92
+96
+ 
+t/min 
+(b) Cu6Si4 
+Weight loss/% 
+0
+94
+96
+100
+200
+600
+800
+400
+98
+ 
+t/min 
+(c) Cu6Ti4 
+Weight loss/% 
+0
+94
+96
+100
+200 
+600
+800
+400 
+98
+ 
+Fig. 2  Oxygen releasing/absorption property in 20 times circular reactions 

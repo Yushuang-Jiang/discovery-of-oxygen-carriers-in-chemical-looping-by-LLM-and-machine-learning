@@ -1,0 +1,787 @@
+
+
+===== Page 1 =====
+
+ADVANCED NANO MATERIALS
+Ni incorporation in MgFe2O4 for improved CO2-splitting
+activity during solar fuel production
+Gorakshnath Takalkar1, Rahul R. Bhosale1,*
+, Fares AlMomani1, Suliman Rashid1, and
+R. A. Shakoor2
+1Department of Chemical Engineering, College of Engineering, Qatar University, P.O. Box 2713, Doha, Qatar
+2Center for Advanced Materials (CAM), Qatar University, P.O. Box 2713, Doha, Qatar
+Received: 24 January 2020
+Accepted: 5 May 2020
+Published online:
+25 May 2020
+ The Author(s) 2020
+ABSTRACT
+Efﬁcacy of the sol–gel derived Ni-doped Mg-ferrites for an enhanced CO2
+splitting activity is investigated. The results allied with the characterization
+indicate the formation of nominally phase pure Ni-doped Mg-ferrites with a
+coarser particle morphology. Ni-doped Mg-ferrites are further tested for mul-
+tiple thermal reduction as well as CO2 splitting steps by using a thermogravi-
+metric analyzer. The results associated with the thermogravimetric analysis
+conﬁrmed that most of the Ni-doped Mg-ferrites attained a steady TR aptitude
+after crossing the 5th or 6th cycle. Likewise, the CS capability of all the Ni-doped
+Mg-ferrites accomplished consistency after 4th cycle (except for Ni0.11Mg0.88-
+Fe2.01O4.005). The Ni0.90Mg0.11Fe2.04O4.070 showed the highest amount of O2
+release (117.1 lmol/g cycle) and CO production (210.3 lmol/g cycle) in ten
+consecutive thermochemical cycles. Besides, Ni0.29Mg0.72Fe1.98O3.980 indicated
+better re-oxidation aptitude (nCO=nO2 ratio = 1.89) when compared with other
+Ni-doped Mg-ferrites.
+Introduction
+Production of solar fuels, such as H2 or syngas, via a
+metal oxide (MO) based two-step solar thermo-
+chemical H2O/CO2 cycle (STC) has emerged as one
+of the promising technologies [1–3]. H2 can be used
+directly as a fuel [4], whereas the syngas can be
+converted into liquid fuels via a catalytic Fischer–
+Tropsch process [5]. With the help of solar fuel
+technology, the excessive utilization of fossil fuels
+and the continuous CO2 emissions can be reduced.
+Besides, this technology can store the abundantly
+available solar energy in the form of liquid fuels such
+as gasoline, kerosene, and others.
+In STCs, the MO plays a vital role in terms of the
+release and storage of the O2. The O2 gets released
+from the MOs during a thermal reduction (TR) step.
+On the other hand, the MOs can regain the O2 during
+the H2O/CO2 (WS/CS) splitting reaction. In previous
+studies, a variety of MOs has been utilized for the
+thermochemical conversion of H2O and CO2, which
+mainly includes zinc oxide [6, 7], tin oxide [8, 9], iron
+oxide [10, 11], CeO2 [12, 13], doped ceria materials
+[14, 15], ferrites [16–20], and La-based perovskites
+Address correspondence to E-mail: rahul.bhosale@qu.edu.qa; rrbhosle@yahoo.com
+https://doi.org/10.1007/s10853-020-04794-1
+J Mater Sci (2020) 55:11086–11094
+Advanced Nano Materials
+
+
+===== Page 2 =====
+
+[21–23]. Among the listed MOs, CeO2 is considered as
+a state-of-the-art material for the STCs due to its
+favorable reaction kinetics and high-temperature
+stability.
+Recently, Takalkar et al. [24, 25] investigated the
+sol–gel derived Ni-ferrite and Mg-ferrite for the
+thermochemical splitting of CO2. The reported results
+indicate that both Ni-ferrite (64.4 lmol of O2/g cycle)
+and Mg-ferrite (58.7 lmol of O2/g cycle) were cap-
+able of releasing higher levels of O2 than CeO2
+(48.5 lmol of O2/g cycle) [26] at 1400 C. The amount
+of
+CO
+produced
+at
+1000 C
+by
+the
+Ni-ferrite
+(125.9 lmol of CO/g cycle) was higher and by the
+Mg-ferrite (79.6 lmol of CO/g cycle) was lower than
+CeO2 (95.0 lmol of CO/g cycle). The obtained results
+show that both Ni-ferrite and Mg-ferrite possess a
+better TR aptitude than CeO2. In contrast, work needs
+to be done to improve the CS ability of the Mg-ferrite.
+To utilize the TR capacity of both Ni-ferrite and
+Mg-ferrite together and to improve the CS ability of
+the Mg-ferrite, in this study, we have examined
+ternary Ni-doped Mg-ferrites (NixMg1-xFe2O4-d) in
+multiple thermochemical cycles. It is believed that the
+incorporation of Ni in the Mg-ferrite crystal structure
+(partially replacing Mg?2 by Ni?2) will signiﬁcantly
+improve the CS aptitude. The redox reactions asso-
+ciated with the two-step Ni-doped Mg-ferrite (NMF)
+based CS cycle are as follows:
+NixMg1xFe2O4 ! NixMg1xFe2O4d þ d=2O2
+ð1Þ
+NixMg1xFe2O4d þ CO2 ! NixMg1xFe2O4 þ CO
+ð2Þ
+Ni-doped Mg-ferrites were tested by performing
+ten thermochemical cycles in which the TR and CS
+steps were carried out in the temperature range of
+1000–1400 C. Obtained results indicate that most of
+the Ni-doped Mg-ferrites attained the redox stability
+after crossing the 4th or 5th thermochemical cycle.
+This paper reports a detailed analysis of the results
+obtained
+during
+synthesis,
+characterization,
+and
+thermochemical cycles.
+Experimental section
+Preparation of Ni-doped Mg-ferrites
+Ni-doped Mg-ferrites were synthesized by using the
+sol–gel approach. The stoichiometric amounts of
+precursors, i.e., nickel nitrate, magnesium nitrate,
+and iron nitrate (procured from Sigma Aldrich), were
+ﬁrst dissolved in ethanol at room temperature. Sub-
+sequently, a predetermined quantity of propylene
+oxide (purchased from Sigma Aldrich) was added
+into the mixture. The as-prepared solution was kept
+undisturbed for the formation of the Ni-doped Mg-
+ferrite gel. The as-synthesized gel was aged and then
+dried at 120 C for 2 h. The dried Ni-doped Mg-fer-
+rite was then crushed into a ﬁne powder by using a
+mortar and pestle. Annealing of the powered Ni-
+doped Mg-ferrite up to 1000 C for 4 h was per-
+formed by using a mufﬂe furnace.
+Characterization of Ni-doped Mg-ferrites
+Crystallographic analysis of the Ni-doped Mg-ferrites
+was carried out by using a Powder X-ray Diffrac-
+tometer (PXRD) with CuKa radiation, the irradiation
+time of 5 s, and Bragg angle from 25 to 70 (Pana-
+lytical XPert MPD/DY636, k = 0.15,418 nm, steps =
+0.05). The microstructural morphology and ele-
+mental/chemical composition of the Ni-doped Mg-
+ferrites were scrutinized by using a scanning electron
+microscope (SEM, Nova Nano 450, FEI) equipped
+with an energy-dispersive X-ray spectroscopy (EDS).
+Cyclic CO2 splitting test
+A CO2 splitting cyclic study which comprised of
+multiple TR and CS steps was performed by using a
+TGA (procured from Setaram SETSYS Evolution,
+France, Fig. 1). The TGA setup was equipped with
+two mass ﬂow controllers and a vacuum gauge. The
+temperature cooling and heating rates were normal-
+ized at 25 K/min. The mass variation observed dur-
+ing the TR and CS steps was recorded by using an
+inbuilt Calisto processing software supplied by the
+Setaram. During the TGA experiments, approxi-
+mately 50 mg of the Ni-doped Mg-ferrite powder
+was loaded on an alumina crucible and placed inside
+the TGA. Multiple thermochemical cycles were per-
+formed by maintaining the operating conditions as
+follows: a) TR at 1400 C for 60 min with an Ar ﬂow
+rate at 100 ml/min and b) CS at 1000 C for 30 min
+with an Ar/CO2 (50:50) mixture ﬂow rate at 100 ml/
+min. The mass variation recorded by the software
+was further converted into the amounts of O2
+released and CO produced by using the following
+equations. Additional details associated with the
+J Mater Sci (2020) 55:11086–11094
+11087
+
+
+===== Page 3 =====
+
+other essential parts of the TGA setup and the
+experimental procedure are listed in our previous
+contributions [24, 25].
+nO2 ¼
+Dmloss
+MO2  mNMF
+ð
+Þ
+ð3Þ
+nCO ¼
+Dmgain
+MO  mNMF
+ð
+Þ
+ð4Þ
+where nO2 = moles of O2 released (lmol/g); nCO =
+moles of CO produced (lmol/g); Dmloss = amount of
+loss in the mass (mg); Dmgain = amount of gain in the
+mass (mg); MO2 = molecular weight of O2 (g/mol);
+MO = molecular weight of O (g/mol); mNMF = mass
+of the Ni-doped Mg-ferrites (mg)
+Results and discussion
+The prime objective of this study is to identify the
+best combination of the Ni-doped Mg-ferrite, which
+shows better redox performance as compared to
+CeO2, Ni-ferrite, and Mg-ferrite. Different combina-
+tions of the Ni-doped Mg-ferrites, which includes
+Ni0.1Mg0.9Fe2O4 (NMF19), Ni0.3Mg0.7Fe2O4 (NMF37),
+Ni0.5Mg0.5Fe2O4 (NMF55), Ni0.7Mg0.3Fe2O4 (NMF73),
+and Ni0.9Mg0.1Fe2O4 (NMF91), were synthesized by
+using the sol–gel method. The calcined Ni-doped
+Mg-ferrites were ﬁrst analyzed by using PXRD, and
+the results obtained are reported in Fig. 2a, b. The
+PXRD peaks associated with each Ni-doped Mg-fer-
+rite showed strong reﬂections of the cubic spinel
+structure with the non-existence of any metal or
+metal oxide impurities such as Ni, Mg, Fe, NiO, MgO,
+and Fe3O4. It was further noticed that the PXRD
+peaks were shifted toward a lower 2h angle as the
+molar concentration of Ni was increased. As the
+crystal ionic radii of the Ni?2 (83 pm) is smaller than
+the Mg?2 (86 pm), the replacement of the Mg?2 by
+Ni?2 is the main reason for the shift in the PXRD
+peaks toward a lower 2h angel. This result conﬁrmed
+the substitution of Mg?2 by Ni?2 and the formation of
+a desired Ni-doped Mg-ferrite phase composition.
+An additional check was conducted by analyzing the
+Ni-doped Mg-ferrite samples by using an EDS
+apparatus. The obtained results (listed in Table 1)
+provide further assurance of the formation of nomi-
+nally phase pure Ni-doped Mg-ferrites.
+In addition to the phase and chemical composition,
+the morphology of Ni-doped Mg-ferrites was scruti-
+nized via SEM analysis. The SEM analysis established
+that the variation in the Ni?2 and Mg?2 molar con-
+centrations has an insigniﬁcant inﬂuence on the
+morphology. Ni-doped Mg-ferrites showed coarser
+particle morphology with a diverse particle size in
+the range of * 100 nm (smallest particle) to * 1
+micron (largest particle). The exempliﬁed SEM ima-
+ges for the Ni0.29Mg0.72Fe1.98O3.980 and Ni0.72Mg0.31-
+Fe1.96O3.970 are presented in Fig. 3.
+After synthesizing and analyzing the physical
+properties, the redox reactivity of each Ni-doped Mg-
+ferrite toward the thermochemical splitting of CO2
+was investigated by using a TGA setup. Firstly, the
+TR and CS ability of each Ni-doped Mg-ferrite was
+explored by performing a single thermochemical
+Figure 1 A high-temperature
+TGA setup (Setaram SETSYS
+Evolution, France).
+11088
+J Mater Sci (2020) 55:11086–11094
+
+
+===== Page 4 =====
+
+cycle, and the TGA proﬁles obtained are reported in
+Fig. 4. As expected, Ni-doped Mg-ferrites showed a
+decrease in the mass during the TR step (due to the
+release of O2 and formation of O2 vacancies) and an
+increase in the weight during the CS step (via re-
+oxidation reaction). These mass variations were con-
+verted into the nO2 (by using Eq. 3) and nCO (by using
+Eq. 4) by each Ni-doped Mg-ferrite during 1st cycle
+(Fig. 5). As per the ﬁndings, nO2 by Ni0.90Mg0.11-
+Fe2.04O4.070
+(327.7 lmol/g)
+and
+Ni0.51Mg0.50Fe2.03-
+O4.055 (317.9 lmol/g) was considerably higher than
+the other three Ni-doped Mg-ferrites. Likewise, nCO
+by Ni0.90Mg0.11Fe2.04O4.070 (262.8 lmol/g) was the
+upmost when compared with other Ni-doped Mg-
+ferrites. Interesting to note that all the Ni-doped Mg-
+ferrites showed a higher nO2 as compared to nCO.
+Figure 2 PXRD patterns of
+Ni-doped Mg-ferrites,
+a 2h = 20 to 70, and
+b 2h = 34 to 38.
+Table 1 Chemical
+composition of Ni-doped Mg-
+ferrites
+Abbreviation
+Ni/Mg/Fe (as-prepared)
+Ni/Mg/Fe (from EDS)
+Composition
+NMF19
+0.1/0.9/2.0
+0.11/0.88/2.01
+Ni0.11Mg0.88Fe2.01O4.005
+NMF37
+0.3/0.7/2.0
+0.29/0.72/1.98
+Ni0.29Mg0.72Fe1.98O3.980
+NMF55
+0.5/0.5/2.0
+0.51/0.50/2.03
+Ni0.51Mg0.50Fe2.03O4.055
+NMF73
+0.7/0.3/2.0
+0.72/0.31/1.96
+Ni0.72Mg0.31Fe1.96O3.970
+NMF91
+0.9/0.1/2.0
+0.90/0.11/2.04
+Ni0.90Mg0.11Fe2.04O4.070
+Figure 3 SEM images of
+a Ni0.29Mg0.72Fe1.98O3.980,
+b Ni0.72Mg0.31Fe1.96O3.970.
+J Mater Sci (2020) 55:11086–11094
+11089
+
+
+===== Page 5 =====
+
+It is believed that during the high-temperature TR
+step, the chemicals left over from the synthesis of Ni-
+doped Mg-ferrites were burned. Due to this burning,
+an additional drop in the mass was recorded which
+contributed to the false indication of a higher nO2. In
+addition to the role of unburnt chemicals, there is a
+chance that the re-oxidation capacity of Ni-doped
+Mg-ferrites was not sizable enough and hence nCO
+was considerably lower than nO2. For further explo-
+ration, the Ni-doped Mg-ferrites were tested for an
+additional two thermochemical cycles. TGA proﬁles
+obtained for all three cycles are presented in Fig. 6.
+Besides, a comparison between the three cycles based
+on nO2 and nCO by Ni-doped Mg-ferrites is presented
+in Table 2.
+Table 2 clearly shows that nO2 by Ni-doped Mg-
+ferrites was decreased in the 2nd cycle as compared
+to the 1st cycle. In terms of numbers, nO2 by Ni0.11-
+Mg0.88Fe2.01O4.005,
+Ni0.29Mg0.72Fe1.98O3.980,
+Ni0.51-
+Mg0.50Fe2.03O4.055,
+Ni0.72Mg0.31Fe1.96O3.970,
+and
+Ni0.90Mg0.11Fe2.04O4.070 was reduced by 59.3%, 67.7%,
+66.3%, 58.7%, and 59.0%, respectively, in cycle 2 as
+compared to cycle 1. The above-mentioned results
+conﬁrmed that the higher levels of nO2 in cycle 1 was
+due to the release of the volatile matter and burning
+of the residual chemicals leftover from the synthesis.
+A further fall in nO2 which was recorded in cycle 3
+was considerably lower than the reduction reported
+in cycle 2. For instance, a decline of about 11.0%,
+1.9%, 4.1%, 6.9%, and 4.0% in nO2 by Ni0.11Mg0.88-
+Fe2.01O4.005,
+Ni0.29Mg0.72Fe1.98O3.980,
+Ni0.51Mg0.50-
+Fe2.03O4.055,
+Ni0.72Mg0.31Fe1.96O3.970,
+and
+Ni0.90Mg0.11Fe2.04O4.070 was noticed in cycle 3 when
+compared with the results obtained in cycle 2.
+As shown in Table 2, nCO by Ni-doped Mg-ferrites
+follows the trend similar to the one observed in the
+case of nO2. nCO by Ni0.11Mg0.88Fe2.01O4.005, Ni0.29-
+Mg0.72Fe1.98O3.980,
+Ni0.51Mg0.50Fe2.03O4.055,
+Ni0.72-
+Mg0.31Fe1.96O3.970, and Ni0.90Mg0.11Fe2.04O4.070 was
+declined by 10.9%, 8.6%, 4.9%, 15.6%, and 11.8%,
+respectively, in cycle 2 as compared to cycle 1. In
+cycle 3, however, the percentage decrease in nCO for
+all Ni-doped Mg-ferrites was extremely lower when
+compared to cycle 2. The overall results obtained
+indicate that Ni0.90Mg0.11Fe2.04O4.070 possesses better
+redox reactivity toward the TR and CS reactions than
+the other Ni-doped Mg-ferrites. The CO production
+aptitude of all Ni-doped Mg-ferrites was observed to
+be steady in cycle 2 and cycle 3. However, it was also
+recorded that the O2 releasing ability of Ni-doped
+Figure 4 TGA proﬁles obtained for Ni-doped Mg-ferrites during
+1st thermochemical cycle.
+Figure 5 nO2 and nCO by Ni-doped Mg-ferrites during 1st
+thermochemical cycle.
+Figure 6 TGA
+proﬁles
+obtained
+during
+three
+consecutive
+thermochemical cycles.
+11090
+J Mater Sci (2020) 55:11086–11094
+
+
+===== Page 6 =====
+
+Mg-ferrites has not attained stability in the ﬁrst three
+cycles.
+A set of successive ten thermochemical cycles was
+carried out to understand the long-term redox reac-
+tivity and stability of Ni-doped Mg-ferrites. The
+experimental conditions were kept unchanged, and
+the TGA proﬁles obtained for each Ni-doped Mg-
+ferrite are reported in Fig. 7. From the results
+obtained until now it is clear that nO2 by all Ni-doped
+Mg-ferrites during cycle 1 is not precise. Hence, to
+avoid publishing any misleading information, the
+data obtained during the 1st cycle were disregarded,
+and all the analysis was focused on the remaining
+nine cycles.
+Figure 7 shows the TGA proﬁles obtained during
+ten consecutive thermochemical cycles.
+The TGA proﬁles reported in Fig. 7 provide an
+initial indication that the Ni-doped Mg-ferrites have
+attained a stable TR and CS ability after crossing cycle
+5 or cycle 6. However, it was essential to verify this
+visual conﬁrmation with the help of numbers. Hence,
+the mass variations recorded in the TGA proﬁles
+were converted into nO2 and nCO with the help of
+Eqs. (3) and (4).
+nO2 by each Ni-doped Mg-ferrite (from cycle 2 to
+cycle 10) is presented in Fig. 8. The trends reported
+supported the visual conﬁrmation provided by Fig. 7
+and clearly shows that the Ni-doped Mg-ferrites have
+attained a steady TR aptitude after surpassing cycle 5
+or cycle 6. To be precise, Ni0.11Mg0.88Fe2.01O4.005,
+Ni0.29Mg0.72Fe1.98O3.980,
+Ni0.51Mg0.50Fe2.03O4.055,
+Ni0.72Mg0.31Fe1.96O3.970,
+and
+Ni0.90Mg0.11Fe2.04O4.070
+have indicated a stable nO2 once they cross over cycle
+6, cycle 5, cycle 6, cycle 4, and cycle 5, respectively. In
+terms of the average TR ability from cycle 2 to cycle
+10, Ni-doped Mg-ferrites can be arranged as follows:
+Ni0.90Mg0.11Fe2.04O4.070 [ Ni0.51Mg0.50Fe2.03O4.055 [
+Ni0.29Mg0.72Fe1.98O3.980 [ Ni0.72Mg0.31Fe1.96O3.970 [
+Ni0.11Mg0.88Fe2.01O4.005. The improvement in the
+TR ability of doped MO depends on the interaction
+between the metal cations incorporated in the
+crystal structure. At this moment, we are not in a
+position to provide any speciﬁc reason for the
+trends reported in Fig. 8 as we have not studied the
+molecular interaction between the metal cations
+associated with the Ni-doped Mg-ferrites.
+According to Fig. 9, the CS capability of all the Ni-
+doped Mg-ferrites has attained consistency after
+crossing cycle 4 except for Ni0.90Mg0.11Fe2.04O4.070 for
+Table 2 nO2 and nCO by Ni-
+doped Mg-ferrites during three
+consecutive thermochemical
+cycles
+NMF Materials
+nO2 (lmol/g)
+nCO (lmol/g)
+Cycle 1
+Cycle 2
+Cycle 3
+Cycle 1
+Cycle 2
+Cycle 3
+NMF19
+228.3
+92.9
+82.7
+174.3
+155.2
+156.5
+NMF37
+294.1
+95.0
+93.2
+197.3
+180.3
+171.8
+NMF55
+317.9
+107.0
+102.6
+179.9
+171.0
+164.7
+NMF73
+222.3
+91.8
+85.5
+178.6
+150.7
+139.3
+NMF91
+327.7
+134.4
+129.0
+262.8
+231.9
+228.8
+Figure 7 TGA
+proﬁles
+obtained
+during
+ten
+consecutive
+thermochemical cycles.
+Figure 8 nO2 by Ni-doped Mg-ferrites from cycle 2 to cycle 10.
+J Mater Sci (2020) 55:11086–11094
+11091
+
+
+===== Page 7 =====
+
+which a steady nCO was recorded from cycle 5 to
+cycle 10. In terms of the average nCO from cycle 2 to
+cycle 10, Ni-doped Mg-ferrites can be ranked as:
+Ni0.90Mg0.11Fe2.04O4.070 [ Ni0.29Mg0.72Fe1.98O3.980 [
+Ni0.51Mg0.50Fe2.03O4.055 [ Ni0.11Mg0.88Fe2.01O4.005 [
+Ni0.72Mg0.31Fe1.96O3.970. It is noteworthy that the
+ranks achieved by Ni-doped Mg-ferrites in the case
+of CS capability are not identical to the ranks
+attained in case of the TR aptitude. For instance,
+Ni0.51Mg0.50Fe2.03O4.055 and Ni0.29Mg0.72Fe1.98O3.980
+have achieved a position of 2nd and 3rd in terms of
+nO2. However, based on nCO, Ni0.51Mg0.50Fe2.03-
+O4.055 ranked 3rd whereas Ni0.29Mg0.72Fe1.98O3.980
+has attained the 2nd rank. A similar observation
+was noticed in the case of Ni0.72Mg0.31Fe1.96O3.970
+and
+Ni0.11Mg0.88Fe2.01O4.005.
+In
+contrast,
+Ni0.90-
+Mg0.11Fe2.04O4.070 was observed to be the best
+candidate and attained the 1st position among all
+Ni-doped Mg-ferrites in terms of nO2 and nCO.
+As shown in Fig. 10, the average nO2 by Ni-doped
+Mg-ferrites from cycle 2 to cycle 10 was higher than
+CeO2 (48.5 lmol of O2/g cycle), NiFe2O4 (64.4 lmol
+of O2/g cycle), and MgFe2O4 (58.7 lmol of O2/g cy-
+cle). In terms of the maximum yield, the TR aptitude
+of Ni0.90Mg0.11Fe2.04O4.070 was recorded to be greater
+than the CeO2, NiFe2O4, and MgFe2O4 by 68.6 lmol
+of
+O2/g cycle,
+52.7 lmol
+of
+O2/g cycle,
+and
+58.4 lmol of O2/g cycle, respectively. Similar to the
+TR capacity, the CS ability of Ni-doped Mg-ferrites
+was
+superior
+to
+CeO2,
+NiFe2O4,
+and
+MgFe2O4
+(Fig. 10). The comparison shows that nCO by Ni0.90-
+Mg0.11Fe2.04O4.070 was higher than CeO2, NiFe2O4,
+and MgFe2O4 by a factor of 2.21, 1.67, and 2.64,
+respectively.
+Figure 11 shows the variations in the average
+nCO=nO2 ratio for each Ni-doped Mg-ferrite. As per
+the data reported, the re-oxidation ability of Ni0.29-
+Mg0.72Fe1.98O3.980 was observed to be maximum
+when compared with other Ni-doped Mg-ferrites.
+The average nCO=nO2 ratios for the Ni0.11Mg0.88Fe2.01-
+O4.005 and Ni0.90Mg0.11Fe2.04O4.070 were comparable,
+whereas
+Ni0.51Mg0.50Fe2.03O4.055
+and
+Ni0.72Mg0.31-
+Fe1.96O3.970 indicated the lowest re-oxidation capac-
+ity. It was further understood that the average
+nCO=nO2 ratio of each Ni-doped Mg-ferrite was lower
+than CeO2 (average nCO=nO2 ¼ 1:96) and the NiFe2O4
+(average nCO=nO2 ¼ 1:96). In contrast, the comparison
+with MgFe2O4 (average nCO=nO2 ¼ 1:35) indicates that
+the inclusion of Ni?2 in the Mg-ferrite crystal struc-
+ture has improved the average nCO=nO2 ratio of Ni-
+doped Mg-ferrites.
+Figure 9 nCO by Ni-doped Mg-ferrites from cycle 2 to cycle 10.
+Figure 10 Comparison between Ni-doped Mg-ferrites and CeO2,
+NiFe2O4, and MgFe2O4 based on the average nO2 and nCO.
+Figure 11 Comparison between Ni-doped Mg-ferrites based on
+the average nCO=nO2 ratio.
+11092
+J Mater Sci (2020) 55:11086–11094
+
+
+===== Page 8 =====
+
+Summary and conclusions
+By applying the sol–gel method, Ni-doped Mg-fer-
+rites were synthesized. The PXRD and EDS analysis
+conﬁrmed the formation of Ni0.11Mg0.88Fe2.01O4.005,
+Ni0.29Mg0.72Fe1.98O3.98, Ni0.51Mg0.50Fe2.03O4.055, Ni0.72-
+Mg0.31Fe1.96O3.97,
+and
+Ni0.90Mg0.11Fe2.04O4.07.
+The
+SEM analysis indicates the formation of coarser par-
+ticles with sizes in the rage of * 100 nm (smallest
+particle size) to * 1 micron (largest particle size). Ni-
+doped Mg-ferrites were tested in multiple thermo-
+chemical cycles by using a TGA (TR at 1400 C and
+CS at 1000 C). Most of the Ni-doped Mg-ferrites
+indicated stable nO2 and nCO from cycle 5 to cycle 10.
+In terms of nO2, Ni-doped Mg-ferrites can be arranged
+in
+the
+following
+order:
+Ni0.90Mg0.11Fe2.04O4.07 [
+Ni0.51Mg0.50Fe2.03O4.055 [ Ni0.29Mg0.72Fe1.98O3.98 [
+Ni0.72Mg0.31Fe1.96O3.97 [ Ni0.11Mg0.88Fe2.01O4.005.
+Based on their CO production capacity, Ni-doped
+Mg-ferrites
+can
+be
+ranked
+as:
+Ni0.90Mg0.11Fe2.04
+O4.07[Ni0.29Mg0.72Fe1.98O3.98[Ni0.51Mg0.50Fe2.03O4.055
+[Ni0.11Mg0.88Fe2.01O4.005[Ni0.72Mg0.31Fe1.96O3.97. Ni-
+doped Mg-ferrites showed higher nO2 and nCO as com-
+pared to CeO2, NiFe2O4, and MgFe2O4. In contrast, the
+average re-oxidation ability of Ni-doped Mg-ferrites was
+recorded to be lower than CeO2 and NiFe2O4, and higher
+than MgFe2O4. Our research team is currently exploring
+the redox ability of Ni-doped Mg-ferrites for more than
+100 thermochemical cycles.
+Acknowledgements
+Open Access funding provided by the Qatar National
+Library. This publication was made possible by
+the NPRP Grant (NPRP8-370-2-154) from the Qatar
+National Research Fund (a member of Qatar Foun-
+dation). The statements made herein are solely the
+responsibility of author(s). The authors also grate-
+fully acknowledge the Center of Advances Materials
+(CAM) at Qatar University for performing the XRD
+analysis, the Central Laboratory Unit (CLU) for ser-
+vices related to SEM and EDS.
+Compliance with ethical standards
+Conﬂict of Interest
+The authors declare that they
+have no conﬂict of interest.
+Open Access
+This article is licensed under a Crea-
+tive Commons Attribution 4.0 International License,
+which permits use, sharing, adaptation, distribution
+and reproduction in any medium or format, as long
+as
+you
+give
+appropriate
+credit
+to
+the
+original
+author(s) and the source, provide a link to the Crea-
+tive Commons licence, and indicate if changes were
+made. The images or other third party material in this
+article are included in the article’s Creative Commons
+licence, unless indicated otherwise in a credit line to
+the material. If material is not included in the article’s
+Creative Commons licence and your intended use is
+not permitted by statutory regulation or exceeds the
+permitted use, you will need to obtain permission
+directly from the copyright holder. To view a copy of
+this licence, visit http://creativecommons.org/licen
+ses/by/4.0/.
+References
+[1]
+Carrillo RJ, Scheffe JR (2017) Advances and trends in redox
+materials for solar thermochemical fuel production. Sol
+Energy 156:3–20
+[2]
+Bhosale RR et al (2019) A decade of ceria based solar
+thermochemical H2O/CO2 splitting cycle. Int J Hydrogen
+Energy 44:34–60
+[3]
+Lu Y et al (2019) Solar fuels production: two-step thermo-
+chemical cycles with cerium-based oxides. Prog Energy
+Combust Sci 75:100785
+[4]
+Gupta RB (2008) in Hydrogen fuel: production, transport,
+and storage. Crc Press
+[5]
+Dry ME (2002) The ﬁscher–tropsch process: 1950–2000.
+Catal Today 71:227–241
+[6]
+Loutzenhiser PG, Steinfeld A (2011) Solar syngas produc-
+tion from CO2 and H2O in a two-step thermochemical cycle
+via Zn/ZnO redox reactions: thermodynamic cycle analysis.
+Int J Hydrogen Energy 36:12141–12147
+[7]
+Bhosale RR (2018) Thermodynamic efﬁciency analysis of
+zinc oxide based solar driven thermochemical H2O splitting
+cycle: effect of partial pressure of O2, thermal reduction and
+H2O
+splitting
+temperatures.
+Int
+J
+Hydrogen
+Energy
+43:14915–14924
+[8]
+Abanades S, Charvin P, Lemont F, Flamant G (2008) Novel
+two-step SnO2/SnO water-splitting cycle for solar thermo-
+chemical production of hydrogen. Int J Hydrogen Energy
+33:6021–6030
+[9]
+Bhosale RR, Kumar A, Sutar P (2017) Thermodynamic
+analysis of solar driven SnO2/SnO based thermochemical
+water splitting cycle. Energy Convers Manag 135:226–235
+[10] Neises M, Roeb M, Schmu¨cker M, Sattler C, Pitz-Paal R
+(2010) Kinetic investigations of the hydrogen production
+J Mater Sci (2020) 55:11086–11094
+11093
+
+
+===== Page 9 =====
+
+step of a thermochemical cycle using mixed iron oxides
+coated on ceramic substrates. Int J Energy Res 34:651–661
+[11] Bhosale RR et al (2015) Solar hydrogen production via
+thermochemical iron oxide–iron sulfate water splitting cycle.
+Int J Hydrogen Energy 40:1639–1650
+[12] Chueh WC et al (2010) High-ﬂux solar-driven thermo-
+chemical dissociation of CO2 and H2O using nonstoichio-
+metric ceria. Science 330:1797–1801
+[13] Furler P et al (2012) Solar thermochemical CO2 splitting
+utilizing a reticulated porous ceria redox system. Energy
+Fuels 26:7051–7059
+[14] Takalkar G et al (2018) Transition metal doped ceria for solar
+thermochemical fuel production. Sol Energy 172:204–211
+[15] Ackermann S, Takacs M, Scheffe J, Steinfeld A (2017)
+Reticulated porous ceria undergoing thermochemical reduc-
+tion with high-ﬂux irradiation. Int. J. Heat Mass Transfer
+107:439–449
+[16] Scheffe JR, Li J, Weimer AW (2010) A spinel ferrite/her-
+cynite water-splitting redox cycle. Int J Hydrogen Energy
+35:3333–3340
+[17] Gokon N, Takahashi S, Yamamoto H, Kodama T (2008)
+Thermochemical two-step water-splitting reactor with inter-
+nally circulating ﬂuidized bed for thermal reduction of ferrite
+particles. Int J Hydrogen Energy 33:2189–2199
+[18] Allen KM, Coker EN, Auyeung N, Klausner JF (2013)
+Cobalt ferrite in YSZ for use as reactive material in solar
+thermochemical water and carbon dioxide splitting, part I:
+material characterization. JOM 65:1670–1681
+[19] Allendorf MD, Diver RB, Siegel NP, Miller JE (2008) Two-
+step water splitting using mixed-metal ferrites: thermody-
+namic analysis and characterization of synthesized materials.
+Energy Fuels 22:4115–4124
+[20] Bhosale RR, Kumar A, AlMomani F, Alxneit I (2016)
+Propylene oxide assisted sol–gel synthesis of zinc ferrite
+nanoparticles
+for
+solar
+fuel
+production.
+Ceram
+Int
+42:2431–2438
+[21] Scheffe JR, Weibel D, Steinfeld A (2013) Lanthanum–
+strontium–manganese perovskites as redox materials for
+solar thermochemical splitting of H2O and CO2. Energy
+Fuels 27:4250–4257
+[22] Takacs M et al (2016) Oxygen nonstoichiometry, defect
+equilibria, and thermodynamic characterization of LaMnO3
+perovskites with Ca/Sr A-site and Al B-site doping. Acta
+Mater 103:700–710
+[23] Takalkar G, Bhosale R, AlMomani F (2019) Combustion
+synthesized A0.5Sr0.5MnO3-d perovskites (where, a = La,
+Nd, Sm, Gd, Tb, Pr, Dy, and Y) as redox materials for
+thermochemical splitting of CO2. Appl Surf Sci 489:80–91
+[24] Takalkar G, Bhosale RR, AlMomani F (2019) Sol–gel syn-
+thesized NixFe3-xO4 for thermochemical conversion of
+CO2. Appl Surf Sci 489:693–700
+[25] Takalkar G, Bhosale RR (2019) Thermochemical CO2
+splitting using a sol–gel–synthesized Mg-ferrite–based redox
+system. Int J Energy Res 43(13):6983–6993
+[26] Bhosale R, Takalkar G (2018) Nanostructured co-precipi-
+tated Ce0.9Ln0.1O2 (Ln = La, Pr, Sm, Nd, Gd, Tb, Dy, or Er)
+for
+thermochemical
+conversion
+of
+CO2.
+Ceram
+Int
+44:16688–16697
+Publisher’s Note
+Springer Nature remains neutral with
+regard to jurisdictional claims in published maps and
+institutional afﬁliations.
+11094
+J Mater Sci (2020) 55:11086–11094

@@ -1,0 +1,1108 @@
+
+
+===== Page 1 =====
+
+Vol:.(1234567890)
+Top Catal (2017) 60:1108–1118
+DOI 10.1007/s11244-017-0790-4
+1 3
+ORIGINAL PAPER
+Exploring the Redox Behavior of ­La0.6Sr0.4Mn1−xAlxO3 
+Perovskites for ­CO2-Splitting in Thermochemical Cycles
+Daniel Sastre1,2 · Alfonso J. Carrillo1 · David P. Serrano1,2 · Patricia Pizarro1,2 · 
+Juan M. Coronado1 
+Published online: 10 April 2017 
+© Springer Science+Business Media New York 2017
+selecting the compositions with more promising redox 
+properties, additional reactions were performed in a lab-
+scale fixed bed reactor with injection of ­CO2 in the oxida-
+tion step at 900 °C in order to generate CO. In these tests, 
+the most interesting results were obtained for the per-
+ovskite ­La0.6Sr0.4Mn0.6Al0.4O3, with reduction extent of 
+0.266 mmol g−1, but the production of CO is in compari-
+son significantly lower (0.114  mmol g−1). Further studies 
+are required to determine the best operation conditions for 
+thermochemical cycles using those materials.
+Keywords  Solar fuels · Perovskites · CO2-splitting · 
+Thermochemical cycles · Redox materials
+1  Introduction
+The transportation sector consumes huge quantities of 
+energy (ca. 30% of the total demand) in the form of dif-
+ferent types of fuels, which consumption is continuously 
+increasing. Consequently, producing fuels by more sus-
+tainable and efficient processes is one of the most signifi-
+cant challenges the society is facing nowadays in order to 
+develop a cleaner energy system. Therefore, any alternative 
+technology must contribute to solve this problem by envi-
+ronmentally acceptable means and, in particular, reduc-
+ing substantially ­CO2 emissions. Within this context, solar 
+thermochemical splitting of both ­CO2 and ­H2O constitute 
+an interesting route that potentially can fulfill these con-
+ditions due to the use of a renewable energy source and 
+feedstocks based on waste and abundant molecules. In this 
+way, initially generated syngas (CO + H2) can be further 
+processed to obtain other solar fuels, which in the future 
+can contribute to reduce the strong dependence on fossil 
+resources [1].
+Abstract  Mixed oxides with perovskite structure have 
+been proposed as promising alternative for the solar fuel 
+production via thermochemical redox cycles. For this 
+work, the system ­La0.6Sr0.4Mn1−xAlxO3 (x = 0 to 0.8) was 
+selected according to its high thermal stability and rapid 
+oxidation kinetics, and the influence of the Al/Mn ratio on 
+the redox properties was investigated. The characterization 
+of the five oxides samples with different Al content con-
+firmed the high redox capacity and the favorable behavior 
+of these materials in consecutive cycles, as analyzed ther-
+mogravimetrically. The results show that following reduc-
+tion at 1300 °C in inert atmosphere up to 0.32 mmol g−1 of 
+­O2 are released, while a 10-cycle reaction test confirms the 
+feasibility of long term operation with these perovskites. 
+It was observed that the reduction extent was enhanced 
+with increasing the Al-content, but the oxidation degree 
+is maximum for compositions near x = 0.5, correspond-
+ing to an ­O2 release of 0.318 mmol g−1 (δ = 0.132). After 
+ *	 Juan M. Coronado 
+	
+juanmanuel.coronado@imdea.org
+	
+Daniel Sastre 
+	
+daniel.sastre@imdea.org
+	
+Alfonso J. Carrillo 
+	
+alfonso.carrillo@mat.ethz.ch
+	
+David P. Serrano 
+	
+david.serrano@imdea.org
+	
+Patricia Pizarro 
+	
+patricia.pizarro@imdea.org
+1	
+Thermochemical Processes Unit, IMDEA Energy Institute, 
+Av. Ramón de la Sagra, 3, Parque Tecnológico de Móstoles, 
+Madrid, Spain
+2	
+Chemical and Environmental Engineering Group, Rey Juan 
+Carlos University, C/Tulipán s/n, 28933 Móstoles, Madrid, 
+Spain
+
+
+===== Page 2 =====
+
+1109
+Top Catal (2017) 60:1108–1118	
+1 3
+Solar thermochemical cycles imply the use of a mate-
+rial that works as oxygen exchanger in long period 
+cycling reactions. Although many types of thermochemi-
+cal redox cycles have been studied [2], those with two 
+steps are the most attractive due to the simplicity of the 
+process, which entails lower operation costs. The general 
+thermochemical redox cycle in two steps with a metal 
+oxide consists of the following steps:
+where δ represents the reduction extent, or the non-stoichi-
+ometry of the reduced material.
+In the first step, the endothermic reaction (1), the 
+material is reduced, partially or totally, at high tempera-
+tures, liberating oxygen from the structure. This reaction 
+must occur in a very low ­O2 pressure, using vacuum or 
+an inert atmosphere to avoid the material re-oxidation. In 
+the second step, the exothermic oxidation, reactions (2a) 
+and/or (2b) proceed at lower temperatures after the injec-
+tion of ­CO2 and/or ­H2O. In this way the desirable solar 
+fuels (CO and ­H2, respectively) are obtained by splitting 
+of the oxidants. Ideally, the metal oxide is simultaneously 
+re-oxidized to recover the initial state, so the cycle can 
+start again.
+Several compounds have been proposed as oxygen car-
+riers in the reduction–oxidation reactions and they can 
+be differentiated according to the extent of the structural 
+changes induced by the redox reaction [3–16]. The most 
+adequate materials for these processes are the non-stoi-
+chiometric metal oxides because they present very high 
+thermal stability and do not require additional steps to 
+recover the material or to separate the products. Among 
+the non-stoichiometric metal oxides, ­CeO2 is the state-of-
+the-art material for this process because it presents attrac-
+tive redox capacity and durability, while no phase changes 
+were observed after reactions. However, the excessively 
+high temperature (1500 °C) required for achieving ade-
+quate production rates [17, 18] supposes an important 
+design drawback for production plants. On the other, dop-
+ing ­CeO2 with other cations, such as ­Zr4+ or ­Hf4+, have 
+showed to enhance the fuel production [18–21]. Recently, 
+Marxer et al. [22] have proven for the first time the pro-
+duction of solar-kerosene, utilizing ceria-based thermo-
+chemical ­H2O and ­CO2 splitting. These promising results 
+in term of fuel productivity and cycling stability demon-
+strate the viability of the technology.
+In the last years, perovskites have been proposed as 
+interesting alternative non-stoichiometric oxides because 
+they can decrease the reduction temperature about 
+(1)
+MOx(s) + Δ →MOx−훿(s) + 훿∕2O2(g)
+(2a)
+MOx−훿(s) + 훿CO2(g) →MOx(s) + 훿CO(g)
+(2b)
+MOx−훿(s) + 훿H2O(g) →MOx(s) + 훿H2(g)
+300 °C below that for ceria with even better performance 
+[23–37]. Perovskite oxides present ­ABO3 structure, 
+where A and B are the metallic cations with coordination 
+12 and 6, respectively. They exhibit high thermochemi-
+cal stability and the capacity of accommodating signifi-
+cant amounts of other metals in the lattice, which allows 
+tailoring their properties. Doping these oxides causes 
+structural defects that mobilize oxygens in the lattice, 
+enhancing the redox properties, such as oxygen non-stoi-
+chiometry, electric and ionic conductivity and kinetic and 
+thermodynamic properties.
+However, few perovskites have shown to achieve better 
+or even similar performance than the reference ­CeO2 mate-
+rial. Thermodynamic and exhaustive theoretical assessment 
+has been proposed to evaluate the efficiency and ­H2 pro-
+duction of the perovskites systems [23–25]. The most stud-
+ied compositions are derived from (La, Sr)MnO3 perovs-
+kites [26, 27] that show promising results. These oxides has 
+been doped in the A-site with different cations including: 
+(a) Ca, obtaining five times more yield than the ceria sys-
+tem, [28]; (b) Y showing substantial CO production due to 
+the high oxygen release capacity [29]; or (c) Ba, which has 
+shown lower redox capacity than the LSM perovskites [30]. 
+On the other hand, the B-site cation has been also modified 
+with Mn, Co, Fe, Cr or Al [29–36], rendering encouraging 
+fuel yields. It is also remarkable the good redox capacity 
+of the perovskites involving ­Ga3+ and ­Sc3+ for the partial 
+substitution of the B-cation [32]. Among these works, it 
+is worth highlighting the notable improvement in the fuel 
+yield of the system doped with Al, which has been stud-
+ied for only three compositions and compared with ­CeO2 
+by McDaniel et al. [34]. Furthermore, this perovskite fam-
+ily has been investigated using a DFT calculation for the 
+material design by Deml et al. [30] and experimentally in 
+­CO2-splitting comparing the La–Sr–Mn–Al perovskite with 
+the La–Sr–Mn and La–Ca–Mn systems [36]. In contrast 
+with other cations, doping with Al has displayed a stabi-
+lizing role in the perovskite structure by reducing possible 
+sintering problems.
+In this work, the influence of Al doping in the ­CO2 split-
+ting performance of ­La0.6Sr0.4Mn1−xAlxO3 perovskites 
+has been systematically studied, varying x from 0 to 0.8, 
+in order to get further insight on the effect of the B-site 
+composition, which incorporates two elements that pre-
+sent good redox capacity and high thermal and structural 
+stability [37]. These materials were synthetized by a modi-
+fied Pechini method [38, 39], fixing the composition of the 
+A-site, since previous literature reports have revealed that 
+such Sr/La ratio presents optimal results for both reduction 
+and oxidation steps and does not induce phase changes after 
+redox cycles [40]. As to confirm these potentially favora-
+ble characteristics, the redox activity has been studied in 
+two ways: (a) thermogravimetric analysis, to determine its 
+
+
+===== Page 3 =====
+
+1110
+	
+Top Catal (2017) 60:1108–1118
+1 3
+oxygen storage capacity and cyclability; and (b) tests in a 
+fixed-bed high-temperature lab-scale reactor, injecting the 
+­CO2 during the oxidation step and monitoring the process 
+with a mass spectrometer. The morphological and struc-
+tural properties of these samples have been analyzed using 
+different techniques before and after redox processes in 
+order to determine the stability of theses perovskites.
+2  Experimental Section
+2.1  Perovskites Synthesis
+La0.6Sr0.4Mn1−xAlxO3 (x = 0; 0,2; 0,4; 0,5; 0,6; 0,8) were 
+synthesized following a modified Pechini method [38, 
+39]. The different metal nitrates, La(NO3)3·6H2O (Sigma-
+Aldrich, 99% purity), Sr(NO3)2 (Sigma-Aldrich, 99% 
+purity), Mn(NO3)2·4H2O (Sigma-Aldrich, 97% purity), 
+Al(NO3)3·9H2O (Sigma-Aldrich, 98% purity) in the 
+selected proportions were added to a citric acid (CA) solu-
+tion in distilled water (in a 2:1 molar ratio of CA:Metal) 
+and the mixture was stirred at 70 °C for 3 h. Then, ethyl-
+ene glycol (EG) was incorporated in a 3:2 ratio (CA:EG) 
+and stirred again at 90 °C for 2 h. After this step, the result-
+ing gel was dried at 200 °C for 3 h, to remove the water 
+and form a black resin, which afterward was ground in an 
+agate mortar. Finally, the powdered sample was calcined at 
+1100 °C for 10 h under static air using a heating ramp of 
+5 °C min−1. The so-obtained samples are labelled according 
+to the Al content as LSM(1-X)AX.
+2.2  Characterization
+Elemental analysis was performed by Inductively Coupled 
+Plasma Optical Emission Spectrometry, (ICP-OES) using a 
+Perkin Elmer Optima 3300 DV equipment. Samples were 
+previously digested in acid media in an Anton Paar Multi-
+wave 3000 microwave oven. The textural properties were 
+measured by ­N2 adsorption–desorption at 77 K (−196 °C) 
+using a Quantachrome QuadraSorb-S equipment, previ-
+ously degassed at 250 °C for 12  h. The specific surface 
+area, ­SBET, was calculated using the B.E.T. equation. 
+The crystalline structure was analyzed with a Philips PW 
+3040/00 X’Pert MPD/MRD X-ray diffractometer using Cu 
+Kα radiation (λ = 1.54178 Å) at a scanning rate of 0.2°s−1 
+in the range of 2θ = 20°–80°. SEM images were obtained 
+by using a XL 30 ESEM Philips microscope.
+Redox capacity of the samples was studied by ther-
+mogravimetric analysis using an SDT Q-600 from TA 
+Instruments, placing ~20  mg of powdered sample into 
+a 90  μl alumina crucibles. The samples were heated to 
+1300 °C at 20 °C  min−1 in an Ar atmosphere (reduction 
+step) and then cooled down to 1000 °C, where the syn-
+thetic air was injected (oxidation step).
+The degree of non-stoichiometry, δ, of the perovskite 
+was calculated using the following expression
+ where Δm is the mass difference between oxidized and 
+reduced states, ­m0 is the initial mass of the sample and 
+­MABO3 and ­MO are the molecular weight of the perovskite 
+and the atomic oxygen.
+2.3  CO2‑Splitting
+Thermochemical redox cycles with ­CO2 splitting were 
+performed in a setup schematically represented in Fig. 1. 
+About 250  mg of sample were deposited in an alumina 
+fiber bed in the middle of the reactor. The temperature 
+of the sample was measured by an S-type thermocouple 
+placed at the top part of redox material bed. The reduction 
+step was carried out heating up to 1250 °C at 20 °C min−1 
+in inert atmosphere (Ar) for 30 min, whereas the oxidation 
+step at 900 °C for 30 min in a 5% ­CO2 in He stream from a 
+pre-mixed cylinder. The total flow rate used for both steps 
+was 50  mL  min−1. The output gases were analyzed by a 
+Cirrus 2 MKS instruments quadrupole mass spectrometer 
+periodically calibrated with standard mixtures. Gas com-
+position was also checked off-line in an ­Agilent® CP-4900 
+μGC using gas sampling bags and, in order to avoid peaks 
+overlapping, He was chosen as carrier of ­CO2.
+(3)
+훿= Δm
+m0
+×
+MABO3
+MO
+Fig. 1   Schematic of the setup for the performance of the 
+­CO2-splitting reactions
+
+
+===== Page 4 =====
+
+1111
+Top Catal (2017) 60:1108–1118	
+1 3
+The CO contribution can calculated with the following 
+equation:
+ where f is the relation between the signals of m/z = 28 
+and 44 when ­CO2 is injected at constant flow with no reac-
+tion; this proportion of m/z = 28 corresponds to the sec-
+ondary signal due to the fragmentation of ­CO2 in the mass 
+spectrometer. Similar corrections have applied elsewhere 
+[41].
+3  Results and Discussion
+3.1  Physicochemical Characterization
+The synthesis of the perovskites of ­La0.6Sr0.4Mn1−xAlxO3 
+stoichiometry was carried out by a modified Pechini 
+method for values of x ranging from 0 to 0.8. Both 
+(4)
+[CO] = S (m∕z = 28) −S (m∕z = 44) × f
+elemental analyses (ICP-OES) and XRD results, summa-
+rized in Table 1 and Fig. 2, respectively, confirmed a suc-
+cessful synthesis of homogeneous perovskites.
+All the ­La0.6Sr0.4Mn1−xAlxO3 samples presented pure 
+phases similar to two reference perovskites with differ-
+ent lattice symmetries: (a) ­La0.5Sr0.5MnO3, tetragonal 
+structure, space group I4/mcm, ICDD 01-073-8343 [27], 
+and (b) ­LaAlO3, hexagonal structure, space group R3c, 
+ICDD 01-070-4120; in agreement with previous works 
+[37]. Nevertheless, in all cases the XRD patterns of the 
+­La0.6Sr0.4Mn1−xAlxO3 samples can be fitted consider-
+ing a hexagonal structure using Rietveld analysis, and the 
+obtained unit cell parameters are collected in Table 2. As 
+it can be seen in the XRD patterns zoomed in the range 
+2θ = 32°–34°, a significant shift of the position in the peaks 
+to higher angles appears with increasing the Al-content. 
+This effect is attributed to a reduction in the unit cell vol-
+ume due to the partial substitution of the ­Mn3+ with ­Al3+ 
+[25], which present smaller ionic ratio (0.58 and 0.535 Å, 
+respectively) [27, 42]. When substituting a cation with a 
+smaller one, the Goldschmidt tolerance factor (t) changes, 
+what means that slight distortions appear adjusting the 
+structure to maintain the charge equilibrium [43].
+Table 1   ICP-OES analyses of the composition of the as-synthesized 
+­La0.6Sr0.4Mn1−xAlxO3 perovskites
+Sample
+La (mol %) Sr (mol %) Mn (mol %) Al (mol%)
+La0.6Sr0.4MnO3
+30.4
+20
+49.6
+–
+La0.6Sr0.4Mn0.8A
+l0.2O3
+30.6
+20.1
+39.9
+9.4
+La0.6Sr0.4Mn0.6A
+l0.4O3
+30.8
+19.3
+29.7
+19.2
+La0.6Sr0.4Mn0.5A
+l0.5O3
+30.5
+19.6
+25.6
+24.3
+La0.6Sr0.4Mn0.4A
+l0.6O3
+31.5
+20.2
+20.0
+28.3
+La0.6Sr0.4Mn0.2A
+l0.8O3
+31.1
+20.7
+10.3
+37.9
+Fig. 2   XRD diffractograms of 
+the as-synthesized LSMA per-
+ovskites. a Range of 2θ = 20°–
+80°, ­La0.5Sr0.5MnO3 pattern in 
+red and ­LaAlO3 pattern in 
+green, b range 2θ = 32°–34°
+Counts
+LSM
+Counts
+LSM8A2
+LSM6A4
+LSM5A5
+LSM4A6
+LSM2A8
+20
+30
+40
+50
+60
+70
+80
+ La0.5Sr0.5MnO3
+LaAlO3
+ 2  (º)
+32
+33
+34
+2  (º)
+a
+b
+θ
+θ
+Table 2   Unit cell parameters and specific surface area for the as-syn-
+thesized ­La0.6Sr0.4Mn1−xAlxO3 perovskites
+Sample
+Cell parameters (Å)
+SBET ­(m2/g)
+a
+b
+c
+Unit cell volume
+LSM
+5.46
+5.46
+13.32
+396.95
+2.2
+LSM8A2
+5.45
+5.45
+13.27
+393.90
+6.9
+LSM6A4
+5.41
+5.41
+13.17
+384.86
+4.0
+LSM5A5
+5.38
+5.38
+13.10
+378.49
+3.7
+LSM4A6
+5.37
+5.37
+13.08
+377.22
+5.4
+LSM2A8
+5.36
+5.36
+13.08
+376.80
+3.5
+
+
+===== Page 5 =====
+
+1112
+	
+Top Catal (2017) 60:1108–1118
+1 3
+The specific surface areas were estimated from the 
+­N2 adsorption–desorption isotherms and the results are 
+shown in Table 2. As an example the LSM5A5 perovs-
+kite isotherm is presented in Fig. 3. The shape of the iso-
+therms for all the perovskite compositions is also type II, 
+according to the IUPAC classification. This indicates that 
+these types of materials are not porous as they present 
+small adsorption leap at low P/P0. Those observations 
+correspond to what is expected for stable oxides prepared 
+at high-temperature and formed by dense crystals.
+3.2  Redox Capacity
+The capacity to release and uptake oxygen of the as-
+synthesized perovskites was first investigated by thermo-
+gravimetric analysis, performing the following tempera-
+ture program: (a) reduction at 1300 °C in Ar atmosphere 
+and (b) subsequent oxidation at 1000 °C in air. The 
+results of the tests performed with the different materials 
+are shown in Fig. 4.
+Reduction capacity is determined by the loss of mass as 
+a function of temperature in Ar flow, which for all the sam-
+ples takes place in three successive events. Desorption of 
+humidity from the solids at around 130 °C causes the first 
+weight loss, while a second mass loss in the 700–900 °C 
+range, depending on the sample, can be associated to the 
+decompositions of surface carbonates (not detectable by 
+XRD) on the basis on mass spectrometry analyses per-
+formed in the fixed bed reactor tests (see below). Those 
+experiments revealed different peaks of m/z = 44 trace (cor-
+responding to the ­CO2 signal), which are attributed to the 
+adsorption of atmospheric ­CO2. This fact could explain 
+the uncomplete reversibility of the reduction process. The 
+most significant mass loss starts at about 1100 °C and cor-
+responds to the reduction of the perovskites by release of 
+oxygen, which comes from the crystal structure by dif-
+fusion of the ­O2− anions across the lattice to reach the 
+material surface. These results show that reduction extent 
+increases with the Al content, although difference for sam-
+ples with high Al content (x > 0.5) are limited. This fact 
+could be explained since, as mentioned before, the intro-
+duction of ­Al3+ in the structure reduces the unit cell vol-
+ume. This leads to stronger atomic interactions and, accord-
+ingly, the stability of the perovskite is enhanced, but at the 
+same time the redox capacity is diminished by reducing the 
+concentration of ­Mn3+ cations.
+Subsequently, the introduction of air at 1000 °C induces 
+a very rapid oxidation of the perovskites that gain weight 
+until values appreciably lower than those previous to the 
+reduction. A slight mass increment is also observed dur-
+ing the cooling of the samples, which is most likely due 
+to minor partially reoxidation caused by ­O2 impurities 
+­(pO2 < 10−3 bars) in the argon used as a carrier. Thermo-
+dynamic studies for non-stoichiometric materials have 
+reported that when the reduction capacity is enhanced, 
+the re-oxidation capacity decreased [24, 25, 29, 44]. 
+Fig. 3   N2 Adsorption–desorption isotherm of LSM5A5 perovskite 
+as-synthetized
+Fig. 4   TGA for LSMA perovskites. Reduction at 1300 °C in Ar and 
+oxidation at 1000 °C in air. Heating and cooling ramps at 20 °C min−1 
+and flow rates of 100 mL min−1
+Table 3   TGA results for the LSMA perovskites with the oxygen 
+released reincorporated and the non-stoichiometric extents of each 
+step
+Sample
+O2 released 
+(mmol g−1)
+Reduction 
+extent, δred
+O2 rein-
+corporated 
+(mmol g−1)
+Oxidation 
+extent, 
+δoxd
+LSM
+0.222
+0.098
+0.181
+0.080
+LSM8A2
+0.239
+0.103
+0.225
+0.097
+LSM6A4
+0.277
+0.116
+0.271
+0.114
+LSM5A5
+0.318
+0.132
+0.313
+0.130
+LSM4A6
+0.314
+0.129
+0.311
+0.127
+LSM2A8
+0.292
+0.116
+0.204
+0.081
+
+
+===== Page 6 =====
+
+1113
+Top Catal (2017) 60:1108–1118	
+1 3
+Accordingly, from these tests the redox capacity presents 
+optimal results for the perovskites with x around 0.5.
+In Table  3 and Fig.  5 are summarized the amount of 
+­O2 released during the reduction reaction, the oxygen 
+reincorporated during the oxidation and the non-stoichi-
+ometry, δ, for each step. The maximum reduction extent, 
+as measured by mass loss with respect to oxidized state, 
+is 0.97 wt% for LSM5A5, which corresponds to approxi-
+mately 0.318  mmol  g−1 of ­O2 released (δred = 0.132), 
+assuming the process contributing to reducing the sample 
+weight. This value agrees well with those reported for per-
+ovskites of similar composition in the study of Dey et al. 
+[29]. In the redox cycle, both reduction and re-oxidation 
+extents increase with the Al-content until x ≥ 0.6 when 
+the redox capacity starts to be hindered due to the larger 
+content in Al. It has been reported than the role of ­Al3+ is 
+to contribute to the stabilization of the perovskite, but it 
+may also contribute to facilitate the reduction of ­Mn4+ to 
+­Mn3+ and ­Mn2+ [23]. Nevertheless, as the amount of ­Al3+ 
+increases the redox capability is progressively reduced, as 
+observed in Fig. 5, because this element cannot change its 
+oxidation state.
+Therefore, for a more detailed study LSM6A4, LSM5A5 
+and LSM4A6 perovskites were selected considering their 
+better balance between oxidation and reduction processes. 
+These samples were submitted to a 3 redox cycles vary-
+ing the reduction temperature from 1300 °C to 1200 and 
+1100 °C in order to determine the effect of this param-
+eter on the redox behavior of the perovskites. The results 
+of these thermogravimetric assays are presented in Fig. 6. 
+As expected, the reduction extent rises with increasing the 
+temperature because the ionic diffusion is facilitated and, 
+accordingly, the degree of non-stoichiometry, δ, for a fixed 
+oxygen partial pressure increases. In all the three cycles, 
+once corrected by the baseline shift, the re-oxidation was in 
+the range of 95–100% for all the materials and at the three 
+assayed temperatures. A difference in the reduction rate 
+can also be observed as a change in the slope in the TG 
+plot of Fig. 5 after reaching the isotherm at 1300 °C. This 
+indicates that perovskite’s reduction is not completed dur-
+ing the heating stage and continues at the high temperature 
+dwell time, but more slowly as expected for final stage of 
+the process of oxygen release.
+Figure  7 plots an example of a long-term reaction 
+with 10 redox cycles of reduction at 1300 °C in inert and 
+oxidation at 1000 °C in air for the LSM5A5 perovskite. 
+The main objective of this test was to confirm the stabil-
+ity of these perovskites for longer times of reaction. As 
+it can be observed, except for the first cycle which shows 
+slightly higher amplitude of the redox cycle, the redox 
+capacity of this perovskite remains fairly constant in 
+LSM
+LSM8A2 LSM6A4 LSM5A5 LSM4A6 LSM2A8
+0.00
+0.02
+0.04
+0.06
+0.08
+0.10
+0.12
+0.14
+Non-stoichiometry, 
+ Reduction
+ Oxidation
+δ
+Fig. 5   Reduction and oxidation degree expressed as δ, obtained by 
+thermogravimetric analyses for the perovskites with different Al con-
+tent
+Fig. 6   Thermogravimetric 3-cycles tests varying the reduction tem-
+perature between 1300–1100 °C for the as-synthesized  LSM6A4, 
+LSM5A5 and LSM4A6 perovskites 
+Fig. 7   Thermogravimetric redox cycles for LSM5A5 perovskite. 
+Reduction at 1300 °C in Ar and oxidation at 1000 °C in Air. Heating 
+and cooling ramp of 20 °C min−1 and flow rate of 100 mL min−1
+
+
+===== Page 7 =====
+
+1114
+	
+Top Catal (2017) 60:1108–1118
+1 3
+successive stages. This could be due to some initial sin-
+tering of the sample. Moreover, XRD patterns plotted in 
+Fig. 8 demonstrate that all the tested perovskites maintain 
+their structures without any phase change after the redox 
+reactions in air. In addition, in Fig. 9 the SEM analysis 
+from two of the perovskite before and after reactions are 
+represented. No noticeable changes on the morphlogy are 
+detected, corroborating the high thermal stability of the 
+Al-doped perovskites. Therefore, these data confirm the 
+suitability of these materials for long-term use in redox 
+reactions.
+3.3  CO2 Splitting
+Perovskites samples showing the best performance in 
+terms of redox behavior in the thermogravimetric assays 
+were subsequently tested in a fix bed reactor. The reduc-
+tion step was carried out at 1250 °C in inert Ar atmos-
+phere and the oxidation step at 900 °C in a stream of 
+5% of ­CO2 in He to analyze the ­CO2-splitting capacity. 
+Reduction was monitored by the mass spectrometry as ­O2 
+released and the oxidation in ­CO2 atmosphere was fol-
+lowed as CO production (m/z = 28 corrected taking into 
+LSM_SCR x1
+LSM8A2_SCR x1
+LSM6A4_SCR x1
+LSM5A5_SCRx1
+Counts
+LSM4A6_SCR x1
+20
+30
+40
+50
+60
+70
+80
+ 2θ (º)
+LSM2A8_SCR x1
+20
+30
+40
+50
+60
+70
+80
+Counts
+2θ (º)
+ LSM5A5 as-synthesized
+ LSM5A5_SCRx10
+a
+b
+Fig. 8   XRD patterns of a LSM5A5 as-synthesized and after the 10-cycles reaction, b all perovskites after TGA tests
+Fig. 9   SEM images for 
+LSM4A6 (a, b) and LSM6A4 
+(c, d) perovskites before and 
+after reactions
+
+
+===== Page 8 =====
+
+1115
+Top Catal (2017) 60:1108–1118	
+1 3
+account the contribution of the ­CO2 secondary signal). 
+An example of the results obtained in this process is dis-
+played in Fig. 10 for the case of the perovskite LSM6A4. 
+An intense peak of ­O2 is detected during the reduction 
+step which starts at 1000 °C approximately and finishes 
+before the cooling down ramp, reaching a total ­O2 release 
+of 0.266 mmol g−1 (δ= 0) in about 40 min. This value is 
+lower than in the case of the TG tests because in mass 
+spectrometry only ­O2 is considered. On the other hand, 
+the CO production following the ­CO2 introduction is 
+observed as a very sharp and asymmetric peak last-
+ing for about 12  min. However, the total production of 
+CO is 0.114 mmol g−1, which is lower than the amount 
+of oxygen released, indicating a partial re-oxidation. 
+This difference between the TGA and setup experiments 
+can be explained since the energy necessary to dissoci-
+ate the ­CO2 is higher than to the ­O2. Additionally, such 
+low CO production can be also related with the signifi-
+cantly lower concentration of ­CO2 introduced during the 
+oxidation step in this work with regards to other literature 
+reports: 5% in the present case as compared to 40–50% 
+in previous works [25–27, 35, 40]. Such lower partial 
+pressure appears to be insufficient for achieving complete 
+reoxidation of the perovskites. In fact, thermodynamics 
+calculation for water splitting indicates that production of 
+­H2 is maximized a higher water vapor pressure and a sim-
+ilar behavior can be expected for ­CO2 dissociation [23]. 
+This is an important observation, which sets a limit for 
+the operation of the ­CO2 splitting cycles based on these 
+materials.
+Another two reactions were performed in the same 
+conditions using LSM5A5 and LSM4A6 perovskites. 
+In Fig. 11 illustrates the comparison of the cycle for the 
+three tested perovskites. The results shown in Table 4, fol-
+low the same tendency than the TGA results, thus the per-
+ovskite LSM5A5 present a larger peak (0.345 mmol g−1), 
+followed by LSM4A6 (0.321  mmol  g−1) and then by 
+LSM6A4 (0.266  mmol  g−1). On the other side, the CO 
+production follows the reverse order: the higher produc-
+tion is given by the LSM6A4 (0.114  mmol  g−1), fol-
+lowed by LSM4A6 (0.014  mmol  g−1) and LSM5A5 
+(0.011 mmol g−1). Those contrasting tendencies are con-
+sistent with the redox behavior in the thermogravimetric 
+assays, which also showed that when the reduction capac-
+ity is increased, the oxidation rate is decreased. Moreo-
+ver, by DFT analysis Deml et  al. [30], determined that 
+0
+50
+100
+150
+0
+200
+400
+600
+800
+1000
+Concentration (ppm)
+Time (min)
+ CO
+ O2
+0
+200
+400
+600
+800
+1000
+1200
+1400
+Temperature (ºC)
+CO2 (5%)
+Ar
+Fig. 10   CO2-splitting reaction for LSM6A4 perovskite. ­O2 released 
+represented by the blue line as M/Z = 32 and CO production by green 
+line as modified M/Z = 28
+0
+20
+40
+60
+80
+100
+120
+140
+0
+200
+400
+600
+800
+1000
+ LSM6A4
+ LSM5A5
+ LSM4A6
+O2 released (ppm)
+Time (min)
+120
+125
+130
+135
+140
+145
+150
+0
+100
+200
+300
+400
+500
+600
+700
+ LSM6A4
+ LSM5A5
+ LSM4A6
+CO production (ppm)
+Time (min)
+a
+b
+Fig. 11   Comparison of the ­O2 released (a) and CO produced (b) for selected LSMA perovskites
+Table 4   Summary of the ­CO2-splitting reactions results for the 
+LSMA perovskites
+Sample
+O2 released (mmol g−1)
+CO pro-
+duction 
+(mmol g−1)
+LSM6A4
+0.266
+0.114
+LSM5A5
+0.345
+0.011
+LSM4A6
+0.321
+0.014
+
+
+===== Page 9 =====
+
+1116
+	
+Top Catal (2017) 60:1108–1118
+1 3
+the composition corresponding to LSM6A4 was the opti-
+mal for the ­CO2 splitting in accordance with the results 
+obtained here in terms of larger CO production obtained 
+with this material.
+On the other hand, the XRD and SEM analysis after 
+these reactions of perovskite LSM5A5, presented in 
+Figs.  12 and 13, respectively, again indicated no phase 
+change neither significant morphological modifications 
+take place, confirming the feasibility of using that materials 
+in the presence of ­CO2 at high temperature. Nevertheless, 
+additional work will be required to optimize the reaction 
+conditions as to maximize the CO generation.
+4  Conclusions
+La0.6Sr0.4Mn1−xAlxO3 perovskites were successfully syn-
+thesized by a modified Pechini method to study the CO 
+production capacity by thermochemical redox cycles of 
+­CO2-splitting. The redox capacity of these materials was 
+tested using thermogravimetric analysis and a lab-scale 
+fixed bed reactor coupled to a mass spectrometer. The 
+morphological and elemental analyses reveal the forma-
+tion of homogeneous and pure phases, with hexagonal or 
+tetragonal structures, for all the compositions. Even after 
+the high temperatures redox reactions the oxides main-
+tain their structures and no phase segregation is observed. 
+These results confirm the attractive characteristics of 
+these materials for long-term cycling.
+It has been proved that the reduction extent for these 
+oxides increases with the content in Al, but an optimal 
+re-oxidation range is observed for the perovskites with 
+x = 0.4–0.6. However, it was also demonstrated that the 
+oxidation kinetics for these materials is very fast. The 
+results obtained performing successive assays indicate 
+that ­O2 release increases with the reduction temperature 
+and complete re-oxidation is achieved. That behavior was 
+also confirmed during the 10-cycles reaction performed 
+using LSM5A5, in which after a slight decrease in the 
+second cycle, the redox capacity remained stable.
+In the fixed bed reactor, similar reactions were real-
+ized using a stream containing 5% of ­CO2 in He as oxi-
+dant. The amount ­O2 released is in accordance with the 
+expected values, but the CO production is appreciably 
+lower, possibly due to the low concentration of ­CO2 in 
+the feeding stream and/or other differences in the opera-
+tion conditions. The best results were achieved with the 
+LSM6A4 perovskite, which best balance between reduc-
+tion and oxidation capacity. Again the XRD and SEM 
+analysis confirm the stability of the perovskites after 
+reaction at high temperature with ­CO2.
+Acknowledgements  The authors thank to “Ramón Areces” Founda-
+tion for financial support through the project SOLARKITE.
+20
+30
+40
+50
+60
+70
+80
+Counts
+2θ (º)
+ LSM5A5 as-synthesized
+ LSM5A5_DR
+Fig. 12   XRD analysis comparison for LSM5A5 as-synthesis and 
+after reaction
+Fig. 13   SEM images from 
+LSM5A5 before (a) and after 
+(b) the lab-scale reaction
+
+
+===== Page 10 =====
+
+1117
+Top Catal (2017) 60:1108–1118	
+1 3
+References
+	 1.	 Steinfeld A, Palumbo R (2003) Solar thermochemical process 
+technology. In: Encyclopedia of physical science and technol-
+ogy. Elsevier, Amsterdam, pp 237–256
+	 2.	 Serpone N, Lawless D, Terzian R (1992) Solar fuels: 
+status 
+and 
+perspectives. 
+Sol 
+Energy 
+49:221–234. 
+doi:10.1016/0038-092X(92)90001-Q
+	 3.	 Abanades S, Charvin P, Lemont F, Flamant G (2008) Novel 
+two-step ­SnO2/SnO water-splitting cycle for solar ther-
+mochemical production of hydrogen. Int J Hydrog Energy 
+33:6021–6030. doi:10.1016/j.ijhydene.2008.05.042
+	 4.	 Agrafiotis C, Roeb M, Sattler C (2015) A review on solar ther-
+mal syngas production via redox pair-based water/carbon diox-
+ide splitting thermochemical cycles. Renew Sustain Energy 
+Rev 42:254–285. doi:10.1016/j.rser.2014.09.039
+	 5.	 Allendorf MD, Diver RB, Siegel NP, Miller JE (2008) Two-
+step water splitting using mixed-metal ferrites: thermodynamic 
+analysis and characterization of synthesized materials. Energy 
+Fuels 22:4115–4124. doi:10.1021/ef8005004
+	 6.	 Kodama T, Kondoh Y, Yamamoto R et al (2005) Thermochem-
+ical hydrogen production by a redox system of ­ZrO2-supported 
+Co(II)-ferrite. 
+Sol 
+Energy 
+78:623–631. 
+doi:10.1016/j.
+solener.2004.04.008
+	 7.	 Kuhn M, Bishop SR, Rupp JLM, Tuller HL (2013) Structural 
+characterization and oxygen nonstoichiometry of ceria-zirco-
+nia ­(Ce1−xZrxO2−δ) solid solutions. Acta Mater 61:4277–4288. 
+doi:10.1016/j.actamat.2013.04.001
+	 8.	 Marugán J, Botas JA, Martín M et  al (2012) Study of the 
+first step of the ­Mn2O3/MnO thermochemical cycle for solar 
+hydrogen production. Int J Hydrog Energy 37:7017–7025. 
+doi:10.1016/j.ijhydene.2011.10.124
+	 9.	 Nakamura T (1977) Hydrogen production from water utiliz-
+ing solar heat at high temperatures. Sol Energy 19:467–475. 
+doi:10.1016/0038-092X(77)90102-5
+	10.	 Scheffe JR, Li J, Weimer AW (2010) A spinel ferrite/hercyn-
+ite water-splitting redox cycle. Int J Hydrog Energy 35:3333–
+3340. doi:10.1016/j.ijhydene.2010.01.140
+	11.	 Scheffe JR, McDaniel AH, Allendorf MD, Weimer AW (2013) 
+Kinetics and mechanism of solar-thermochemical ­H2 pro-
+duction by oxidation of a cobalt ferrite–zirconia composite. 
+Energy Environ Sci 6:963. doi:10.1039/c3ee23568h
+	12.	 Scheffe JR, Steinfeld A (2014) Oxygen exchange materials 
+for solar thermochemical splitting of ­H2O and ­CO2: a review. 
+Mater Today 17:341–348. doi:10.1016/j.mattod.2014.04.025
+	13.	 Steinfeld A (2002) Solar hydrogen production via a two-step 
+water-splitting thermochemical cycle based on Zn/ZnO redox 
+reactions. Int J Hydrog Energy 27:611–619. doi:10.1016/
+S0360-3199(01)00177-X
+	14.	 Steinfeld A, Meier A (2004) Solar fuels and materials. Encycl. 
+Energy 5:15. doi:10.1016/B0-12-176480-X/00322-3
+	15.	 Xiao L, Wu S-Y, Li Y-R (2012) Advances in solar hydrogen 
+production via two-step water-splitting thermochemical cycles 
+based on metal redox reactions. Renew Energy 41:1–12. 
+doi:10.1016/j.renene.2011.11.023
+	16.	 Michalsky R, Botu V, Hargus CM et al (2015) Design princi-
+ples for metal oxide redox materials for solar-driven isother-
+mal fuel production. Adv Energy Mater 5:1–10. doi:10.1002/
+aenm.201401082
+	17.	 Scheffe JR, Steinfeld A (2012) Thermodynamic analysis of 
+cerium-based oxides for solar thermochemical fuel production. 
+Energy Fuels 26:1928–1936. doi:10.1021/ef201875v
+	18.	 Scheffe JR, Jacot R, Patzke GR, Steinfeld A (2013) Synthe-
+sis, characterization, and thermochemical redox performance 
+of ­Hf4+, ­Zr4+, and ­Sc3+ doped ceria for splitting ­CO2. J Phys 
+Chem C 117:24104–24114. doi:10.1021/jp4050572
+	19.	 Hao Y, Yang C-K, Haile SM (2014) Ceria–Zirconia solid solu-
+tions ­(Ce1–xZrxO2–δ, x ≤ 0.2) for solar thermochemical water 
+splitting: a thermodynamic study. Chem Mater 26:6073–6082. 
+doi:10.1021/cm503131p
+	20.	 Kang M, Zhang J, Wang C et  al (2013) ­CO2 splitting via 
+two step thermochemical reactions over doped ceria/zirco-
+nia solid solutions. RSC Adv 3:18878–18885. doi:10.1039/
+C3RA43742F
+	21.	 Ramos-Fernandez E V., Shiju NR, Rothenberg G (2014) Under-
+standing the solar-driven reduction of ­CO2 on doped ceria. RSC 
+Adv 4:16456. doi:10.1039/c4ra01242a
+	22.	 Marxer D, Furler P, Scheffe J et al (2015) Demonstration of the 
+entire production chain to renewable kerosene via solar thermo-
+chemical splitting of ­H2O and ­CO2. Energy Fuels 29:3241–3250. 
+doi:10.1021/acs.energyfuels.5b00351
+	23.	 Takacs M, Hoes M, Caduff M et al (2016) Oxygen nonstoichi-
+ometry, defect equilibria, and thermodynamic characterization 
+of ­LaMnO3 perovskites with Ca/Sr A-site and Al B-site doping. 
+Acta Mater 103:700–710. doi:10.1016/j.actamat.2015.10.026
+	24.	 Yang C-K, Yamazaki Y, Aydin A, Haile SM (2014) Ther-
+modynamic and kinetic assessments of strontium-doped lan-
+thanum manganite perovskites for two-step thermochemical 
+water splitting. J Mater Chem A 2:13612–13623. doi:10.1039/
+C4TA02694B
+	25.	 Bork AH, Kubicek M, Struzik M, Rupp JLM (2015) Perovskite 
+­La0.6Sr0.4Cr1–xCoxO3–δ solid solutions for solar-thermochemical 
+fuel production: strategies to lower the operation temperature. J 
+Mater Chem A 3:15546–15557. doi:10.1039/C5TA02519B
+	26.	 Scheffe JR, Weibel D, Steinfeld A (2013) Lanthanum–Stron-
+tium–Manganese perovskites as redox materials for solar ther-
+mochemical splitting of ­H2O and ­CO2. Energy Fuels 27:4250–
+4257. doi:10.1021/ef301923h
+	27.	 Demont A, Abanades S (2014) High redox activity of Sr-sub-
+stituted lanthanum manganite perovskites for two-step ther-
+mochemical dissociation of ­CO2. RSC Adv 4:54885–54891. 
+doi:10.1039/C4RA10578H
+	28.	 Dey S, Naidu BS, Govindaraj A, Rao CNR (2015) Noteworthy 
+performance of ­La1–xCaxMnO3 perovskites in generating ­H2 
+and CO by the thermochemical splitting of ­H2O and ­CO2. Phys 
+Chem Chem Phys 17:122–125. doi:10.1039/C4CP04578E
+	29.	 Bork AH, Povoden-Karadeniz E, Rupp JLM (2016) Modeling 
+thermochemical solar-to-fuel conversion: CALPHAD for ther-
+modynamic assessment studies of perovskites, exemplified for 
+(La,Sr)MnO3. Adv Energy Mater. doi:10.1002/aenm.201601086
+	30.	 Deml AM, Stevanović V, Holder AM et  al (2014) Tunable 
+oxygen vacancy formation energetics in the complex perovs-
+kite oxide ­SrxLa1−xMnyAl1−yO3. Chem Mater 26:6595–6602. 
+doi:10.1021/cm5033755
+	31.	 Demont A, Abanades S (2015) Solar thermochemical conversion 
+of ­CO2 into fuel via two-step redox cycling of non-stoichiometric 
+Mn-containing perovskite oxides. J Mater Chem A 3:3536–3546. 
+doi:10.1039/C4TA06655C
+	32.	 Dey S, Naidu BS, Rao CNR (2016) Beneficial effects of sub-
+stituting trivalent ions in the B-site of ­La0.5Sr0.5Mn1−xAxO3 
+(A = Al, Ga, Sc) on the thermochemical generation of CO and ­H2 
+from ­CO2 and ­H2O. Daltan Trans 45:2430–2435. doi:10.1039/
+C5DT04822B
+	33.	 Jiang Q, Tong J, Zhou G et  al (2014) Thermochemical ­CO2 
+splitting reaction with supported ­LaxA1–xFeyB1–yO3 (A = Sr, Ce, 
+B = Co, Mn; 0 ≤ x, y ≤ 1) perovskite oxides. Sol Energy 103:425–
+437. doi:10.1016/j.solener.2014.02.033
+	34.	 McDaniel AH, Miller EC, Arifin D et  al (2013) Sr- and Mn-
+doped ­LaAlO3–δ for solar thermochemical ­H2 and CO produc-
+tion. Energy. Environ Sci 6:2424. doi:10.1039/c3ee41372a
+
+
+===== Page 11 =====
+
+1118
+	
+Top Catal (2017) 60:1108–1118
+1 3
+	35.	 Nalbandian L, Evdou A, Zaspalis V (2009) ­La1–xSrxMO3 
+(M = Mn, Fe) perovskites as materials for thermochemical 
+hydrogen production in conventional and membrane reac-
+tors. Int J Hydrog Energy 34:7162–7172. doi:10.1016/j.
+ijhydene.2009.06.076
+	36.	 Gálvez ME, Jacot R, Scheffe J et  al (2015) Physico-chemical 
+changes in Ca, Sr and Al-doped La–Mn–O perovskites upon 
+thermochemical splitting of ­CO2 via redox cycling. Phys Chem 
+Chem Phys 17:6629–6634. doi:10.1039/c4cp05898d
+	37.	 McDaniel AH, Ambrosini A, Coker EN et  al (2013) Nonstoi-
+chiometric perovskite oxides for solar thermochemical ­H2 and 
+CO production. Energy Procedi 49:2009–2018. doi:10.1016/j.
+egypro.2014.03.213
+	38.	 Pechini MP (1967) US Patent No. 3,330,697
+	39.	 Jana P, de la Peña O’Shea VA, Coronado JM, Serrano DP (2010) 
+Cobalt based catalysts prepared by Pechini method for ­CO2-free 
+hydrogen production by methane decomposition. Int J Hydrog 
+Energy 35:10285–10294. doi:10.1016/j.ijhydene.2010.07.125
+	40.	 Cooper T, Scheffe JR, Galvez ME et  al (2015) Lanthanum 
+Manganite perovskites with Ca/Sr A-site and Al B-site doping 
+as effective oxygen exchange materials for solar thermochemi-
+cal fuel production. Energy Technol 3:1130–1142. doi:10.1002/
+ente.201500226
+	41.	 Xu B, Bhawe Y, Davis ME (2013) Spinel metal oxide-alkali 
+carbonate-based, low-temperature thermochemical cycles for 
+water splitting and ­CO2 reduction. Chem Mater 25:1564–1571. 
+doi:10.1021/cm3038747
+	42.	 Shannon RD (1976) Revised effective ionic radii and system-
+atic studies of interatomic distances in halides and chalco-
+genides. Acta Crystallogr Sect A 32:751–767. doi:10.1107/
+S0567739476001551
+	43.	 Goldschmidt VM (1926) Die Gesetze der Krystallochemie. 
+Naturwissenschaften 14:477–485. doi:10.1007/BF01507527
+	44.	 Dalach P, Ellis DE, Van De Walle A (2012) First-principles ther-
+modynamic modeling of lanthanum chromate perovskites. Phys 
+Rev B 85:1–13. doi:10.1103/PhysRevB.85.014108

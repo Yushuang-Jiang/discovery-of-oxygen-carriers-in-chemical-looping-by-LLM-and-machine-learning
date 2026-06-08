@@ -1,0 +1,749 @@
+
+
+===== Page 1 =====
+
+Zr掺杂CaMnO3钙钛矿固溶体太阳能高温热化学
+储热性能研究
+靳菲1,2, 徐超1*, 张华静1, 胥博文1, 廖志荣1
+1. 华北电力大学能源动力与机械工程学院, 北京102206;
+2. 北方民族大学化学与化学工程学院, 银川750021
+* E-mail: mechxu@ncepu.edu.cn
+收稿日期: 2022-05-06; 接受日期: 2022-07-07; 网络版发表日期: 2022-07-21
+宁夏自然科学基金(编号: 2021AAC03232)和国家自然科学基金创新研究群体(编号: 51821004)资助项目
+摘要
+CaMnO3钙钛矿氧化物廉价易得, 能够在较大的温度和氧分压(p(O2))范围内通过氧化还原反应实现热能的
+储存和释放, 是具有应用潜力的聚光太阳能热化学储热材料. 但是, 由于CaMnO3在高温还原过程中易发生部分分
+解, 导致材料无法完全再氧化, 严重限制了其热化学储热性能. 本文提出Zr掺杂CaMnO3的新型热化学储热材料,
+并对其物相结构、氧化还原容量、储热性能以及光谱吸收特性等开展实验和理论计算研究. 结果表明: 掺杂10%
+Zr元素的CaZr0.1Mn0.9O3钙钛矿固溶体可在实现完全可逆氧化还原循环的同时, 有效抑制材料还原过程中的分解
+现象. 但随着Zr掺杂比例的进一步增加, 产生的杂相将显著降低材料的氧化还原性能. 采用van’t Hoff方法计算出
+CaZr0.1Mn0.9O3在1000°C, p(O2)=10
+−5 atm条件下的储热密度为390.6±32.8 kJ/kg, 且Zr的有效掺杂可提高CaMnO3在
+近红外波段的太阳能光谱吸收率. 通过密度泛函理论计算可知, Zr的有效掺杂提高了ABO3氧化物中B–O化学键
+的强度, 从而强化了其结构稳定性并提升了储热密度, 为钙钛矿热化学储热材料的开发提供了指导和依据.
+关键词
+热化学储热, 太阳能, 钙钛矿, 氧化还原, 密度泛函理论
+1
+引言
+面对日益突出的能源危机和环境问题, 大力发展
+可再生能源利用技术是实现我国“碳达峰, 碳中和”远
+景目标的必由之路. 太阳能作为储量丰富的可再生清
+洁能源, 每小时到达地球表面的能量可满足人类一年
+的能源需求
+[1]. 耦合储热系统的聚光太阳能热发电技
+术, 不仅能够将太阳能全光谱能量转化为电能, 还能
+够通过储热系统克服太阳能的间歇性和波动性, 保障
+可再生能源电力系统的安全和稳定
+[2]. 因此, 开发高性
+能储热材料, 提升储热系统性能对太阳能热发电技术
+的应用和发展具有重要意义.
+以金属氧化物作为太阳能热化学储热材料, 可通
+过其可逆氧化还原反应实现太阳热能的储存和释放,
+相较当前熔盐储热技术而言, 具有储热温度高和储热
+密度大等优势, 可面向下一代太阳能热发电技术, 进
+一步提升太阳能热发电效率和经济性
+[3,4]. 在众多的金
+属氧化物反应体系中, 钙钛矿氧化物凭借其优异的反
+引用格式:
+靳菲, 徐超, 张华静, 等. Zr掺杂CaMnO3钙钛矿固溶体太阳能高温热化学储热性能研究. 中国科学: 技术科学, 2022, 52: 1223–1232
+Jin F, Xu C, Zhang H J, et al. Investigation of Zr-doped CaMnO3 perovskite solid solution for high-temperature solar thermochemical energy storage
+(in Chinese). Sci Sin Tech, 2022, 52: 1223–1232, doi: 10.1360/SST-2022-0153
+© 2022 《中国科学》杂志社
+www.scichina.com
+中国科学: 技术科学
+2022 年
+第52 卷
+第8 期: 1223 ~ 1232
+SCIENTIA SINICA Technologica
+techcn.scichina.com
+论文
+
+
+===== Page 2 =====
+
+应可逆性和较快的反应速率
+[5,6], 是具有应用潜力的新
+型热化学储热材料, 其反应原理如图1所示.
+在聚光太阳能的驱动下, 钙钛矿氧化物(ABO3)吸
+收高温热量并还原释氧至还原状态(ABO3−δ), 实现热
+能的储存; 而当氧气重新填补还原后钙钛矿的氧空位
+时, 可将之前存储的热量进行释放, 材料也将氧化到
+初始状态, 完成氧化还原循环. 与MnO2和Co3O4等金
+属氧化物不同, 钙钛矿氧化物在一定温度和氧分压范
+围内发生连续氧化还原反应, 有利于灵活调控储热系
+统负荷及温度. 此外, 钙钛矿氧化物ABO3可以变换A
+位和B位元素, 从而有效调控材料的氧化还原特性.
+Chen等人[7]研究了SrCoO3, SrFeO3, SrMnO3等Sr
+系钙钛矿的储热性能, 通过差示扫描量热法(DSC)测
+量出上述三种材料在1000°C下的储热密度分别为
+47.6, 81.7和25.6 kJ/kg, 但由于DSC测量过程存在较大
+的热量损失, 测量值将小于实际放热量. 法国PROMES
+实验室Zhang等人
+[8]研究了Ba和Sr系钙钛矿, 实验结果
+表明在1050°C, p(O2)=10
+−6 atm条件下, Ba系氧化物表
+现出更大的氧化还原容量, 但其中只有BaCoO3能够在
+600°C空气条件下实现完全再氧化,
+储热密度为
+292 kJ/kg. 为了进一步提升钙钛矿氧化物的储能密度
+并降低材料成本, 基于CaMnO3的储热材料吸引了诸
+多学者的目光, 但其在还原过程中易分解的缺点, 限
+制了材料的应用
+[9]. Mastronardo等人
+[10]在CaMnO3的A
+位掺杂La元素, 有效抑制了材料在1200°C, p(O2)=
+0.008 atm还原过程中的部分分解, 其中Ca0.9La0.1MnO3
+的储热密度为265 kJ/kg, 而Ca0.7La0.3MnO3储热密度为
+97 kJ/kg, 储热密度仍需进一步提高. 该研究团队
+[11]还
+尝试在CaMnO3的B位掺杂10%的Fe元素进行材料性
+能的调控, 实验结果表明Fe在还原过程中作为惰性元
+素始终保持+3价态, 在1200°C, p(O2)=0.008 atm还原
+条件下储热密度可以提高到344 kJ/kg. Babiniec等人
+[12]
+选择Al和Ti作为掺杂剂, 当CaMnO3的B位掺杂20%的
+Al或Ti元素时可提升材料高温还原过程中的稳定性,
+在1250°C,
+p(O2)=0.001
+atm条件下可储存370和
+390 kJ/kg能量. 通过上述研究结果可知, 采用惰性元
+素掺杂可提升CaMnO3在高温还原过程中的结构稳定
+性, 但仍需开发新型钙钛矿储热材料, 平衡高温稳定性
+与释氧能力间的制约关系, 以期在较低温度下实现较
+高的储热密度.
+Zr元素作为惰性掺杂剂, 被广泛应用于两步法裂
+解H2O/CO2
+[13~15]以及空气分离
+[16]等热化学技术的材料
+性能调控. Zhu等人
+[13]通过在CeO2中掺杂15%的Zr元
+素, 提升了材料在高温下的稳定性和CO产量. Wang等
+人[14]在LaCoO3中掺杂Zr元素抑制了材料的还原能力,
+强化了晶体在氧化还原过程中的稳定性, 获得了较高
+的CO2裂解性能; 同时, Fu等人
+[15]也通过密度泛函理
+论计算验证了Zr掺杂对LaCoO3还原释氧的抑制作用.
+Zheng等人
+[16]开发了CaCoxZr1−xO3用于空气分离的热
+化学材料, 其研究结果表明: 材料良好的O2吸附能力
+源于Co元素, 而晶体结构良好的热稳定性是部分掺杂
+Zr元素的结果. 本文以Zr掺杂的CaMnO3作为研究对
+象, 采用实验与理论计算相结合的方法, 分析了材料
+物相结构和氧化还原特性随Zr掺杂比例的变化规律及
+其作用机理, 并针对筛选出的材料测试了储热密度和
+太阳能光谱吸收率, 为钙钛矿热化学储热材料的开发
+提供了依据.
+2
+实验及计算分析方法
+2.1
+材料制备方法
+Zr掺杂的CaMnO3钙钛矿氧化物通过溶胶凝胶自
+蔓延燃烧法进行制备,
+流程如图2所示:
+为合成
+0.01 mol钙钛矿氧化物,
+首先配置50 mL浓度为
+0.4 mol/L的柠檬酸溶液, 根据目标产物掺杂比例的不
+同(Zr掺杂比例分别为0, 5%, 10%, 20%, 30%以及
+50%), 投入相应化学计量比的硝酸盐原料Ca(NO3)2·4H2O,
+图1
+(网络版彩图)钙钛矿氧化物太阳能热化学储热原理示
+意图
+Figure 1
+(Color online) Schematic diagram of perovskite oxides for
+solar thermochemical energy storage.
+靳菲等: Zr掺杂CaMnO3钙钛矿固溶体太阳能高温热化学储热性能研究
+1224
+
+
+===== Page 3 =====
+
+Mn(NO3)2·4H2O以及ZrO(NO3)2·xH2O(上海阿拉丁生化科
+技股份有限公司), 并使用恒温磁力搅拌器(MS7-H550-
+Pro)在90°C下恒温搅拌, 磁力转子转速为500 r/min, 2 h
+后形成深黄色凝胶.
+将凝胶在空气下继续加热至
+400°C进行自蔓延燃烧, 得到黑色多孔粉末, 使用管式
+炉在空气下800°C煅烧10 h, 降温后在1300°C下再次煅
+烧6 h, 重复加热和冷却可使材料多次熔化以及再结晶,
+进而提升样品的纯度. 最后, 将煅烧后的粉末研磨得到
+所需的钙钛矿氧化物储热材料.
+2.2
+材料表征、测试及分析方法
+针对合成的Zr掺杂CaMnO3钙钛矿氧化物, 采用X
+射线衍射仪(XRD)对样品的物相结构进行分析; 通过
+光谱仪对样品在全光谱范围的光谱吸收性能进行分
+析, 采用同步热分析仪(STA)对样品的氧化还原性能和
+储能密度进行测试, 并结合密度泛函理论(DFT)计算对
+材料氧化还原性能调控机理进行深入分析.
+本研究使用日本理学SmartLab X射线衍射仪, 该
+设备以Cu靶为X射线源, 发生器功率为3 kW, 管电压为
+40 kV, 电流为40 mA, 扫描角度为10°~80°, 扫描步长为
+0.01°, 扫描速度为8°/min. 样品光谱吸收率通过组合
+Ocean Optics NIR Quest以及Ocean Optics QE Pro两
+种不同测量范围的光谱仪进行测量分析. 首先通过双
+向光纤探头测量漫反射基板, 确定反射率测量基准,
+在此基础上测量样品在全光谱范围内(λ=250~2250 nm)
+的反射率. 由于本文研究材料为黑色粉末钙钛矿材料,
+根据文献研究结果, 其透射率可以忽略
+[17], 因此样品
+的光谱吸收曲线可由“100%–反射率”获得, 并进一步
+计算全光谱范围的平均光谱吸收率.
+材料的氧化还原性能以及储热密度通过同步热分
+析仪进行测试, 所用设备为NETZSCH STA449F5, 配
+备的SiC炉体可以在室温~1600°C下通过热重分析法
+(TG)和DSC测试样品的质量和热流变化. 所有测试过
+程均称取约20 mg样品, 气体总流量保持100 NmL/min,
+通过质量流量控制器调节高纯氧和高纯氩的混合比例
+来调节反应的氧分压. 此外, 所有测试均在相同的测量
+条件下空白运行, 并通过扣除TG/DSC基线来校正浮力
+效应/热流效应对测量结果的影响.
+本研究DFT计算使用VASP软件包完成, 计算过程
+考虑原子的自旋极化, 电子和离子间的相互作用使用
+投影扩充波(PAW)方法耦合广义梯度近似(GGA)的
+Perdew-Burke-Ernzerhof (PBE)交换关联泛函进行描
+述. 平面波截断能为500 eV, 能量收敛标准为10
+−5 eV,
+离子弛豫采用准牛顿算法, 收敛标准为各原子之间作
+用力小于0.02 eV/Å. 采用Cubic型CaMnO3和CaZrO3的
+2×2×2超胞作为计算模型. Zr的掺杂通过随机替换
+CaMnO3超胞内的1个Mn原子实现, 因此Zr的掺杂比例
+为12.5%. 氧空位通过随机去掉模型中的1个O原子实现,
+则氧空位的非化学计量数为δ=1/8. 计算过程将优化晶胞
+结构及原子坐标. 氧空位形成能Ev按照下式进行计算:
+E
+E
+µ
+E
+=
++
+,
+(1)
+v
+def
+O
+pef
+其中, Epef为完整结构的总能量, Edef为具有氧缺陷结构
+的总能量, μO为氧化学势, 考虑PBE泛函计算氧化学势
+的修正, 取−4.73 eV
+[18]. 此外, 化学键分析采用晶体轨
+道哈密顿布居(COHP)进行分析, 使用LOBSTER软件
+包完成计算.
+3
+结果与讨论
+3.1
+Zr掺杂CaMnO3的物相结构变化分析
+通过XRD对不同Zr掺杂比例的CaMnO3样品进行
+物相结构分析. 如图3(a)所示, 当Zr的掺杂比例为0%,
+图2
+(网络版彩图) Zr掺杂CaMnO3钙钛矿氧化物制备流程图
+Figure 2
+(Color online) Schematic of preparation of Zr-doped CaMnO3 perovskite oxides.
+中国科学: 技术科学
+2022 年
+第52 卷
+第8 期
+1225
+
+
+===== Page 4 =====
+
+5%及10%时, 其XRD图谱均与纯CaMnO3的标准XRD
+图谱一致, 表明上述材料均为纯CaMnO3相结构, 没有
+其他相的生成. 此外, 由图3(b)可知, 当Zr掺杂比例从0
+增加至10%时, 2θ约为34°的特征峰逐渐向2θ减小的方
+向偏移. 该结果表明, 当Zr掺杂比例在10%以内时, Zr
+可以掺杂进CaMnO3晶格并形成固溶体, 且由于Zr离子
+半径(0.72 Å)大于Mn离子半径(0.53 Å), 导致晶格膨胀,
+从而观察到衍射峰逐渐向小角度偏移. DFT计算得出的
+晶胞体积变化也验证了上述结果: 纯CaMnO3的晶胞体积
+为54.95 Å
+3, 当B位掺入12.5% Zr元素后CaZr0.125Mn0.875O3
+的晶胞体积将增加到55.59 Å
+3, 而当B位Mn元素全部
+替换为Zr元素时, 晶胞体积将进一步增大到70.49 Å3.
+当样品中Zr掺杂比例达到20%时, 将有第二相
+CaZrO3生成, 且其特征峰强度随着Zr掺杂比例的增加
+而增大, 表明CaZrO3相的比例逐渐增多. 此外, 从图3(b)
+可知, 当掺杂比例从10%增加至20%时, 其CaMnO3
+相主特征峰(2θ≈34°)并未向低衍射角方向继续显著偏
+移, 同时还出现峰劈裂现象, 表明Zr元素在CaMnO3中
+的固溶度约为10%. 当Zr的掺杂比例进一步提高时,
+CaMnO3相因无法容纳更多的Zr原子而出现相转变.
+随着Zr掺杂比例的进一步增加, 2θ≈34°的特征峰将逐
+渐向衍射角增大的方向反向移动, 且峰劈裂现象更加
+显著. 该实验结果主要是因为随Zr掺杂比例的进一步
+增加, CaZrxMn1−xO3(x≤0.1)固溶体将向CaZrO3与
+Ca4Mn3O10混合相进行转变.
+3.2
+Zr掺杂CaMnO3氧化还原性能测试与分析
+3.2.1
+Zr掺杂对CaMnO3氧化还原性能的影响
+本研究比较了不同Zr掺杂比例CaMnO3在1000°C,
+p(O2)=10
+−5条件下的氧化还原性能. 首先, 将样品在空
+气气氛下(p(O2)=0.21)以20 K/min速率加热至500°C并
+恒温20 min, 以去除样品中吸附的水分及其他杂质, 所
+有样品以该条件作为还原前的初始状态, 样品初始质
+量记为m0, 对应的氧非化学计量数δ=0. 然后, 在Ar气
+氛下(p(O2)=10
+−5), 以10 K/min的速率将样品加热至
+1000°C并保温80 min进行还原反应测试. 将气氛切换
+至空气, 以10 K/min降温至500°C并保温20 min, 以测
+试样品的再氧化能力. 还原和氧化过程中氧非化学计
+量数计算方法如下:
+m
+m
+M
+M
+=
+,
+(2)
+0
+ABO
+O
+3
+其中, Δm为还原和氧化过程样品质量变化, m0为样品
+的初始质量, MABO3为钙钛矿相对分子质量, MO为氧原
+子的相对原子质量.
+实验结果如图4所示, 未掺杂的CaMnO3样品在
+1000°C及Ar气氛下还原释氧量为δ=0.34
+(单位为
+mol O/mol ABO3, 下同), 且CaMnO3的还原过程在δ约为
+0.25时出现显著的还原速率变化, 这是由于CaMnO3−δ
+此时部分分解为Ca2MnO4及CaMn2O4并进一步释放氧
+气
+[9,19]. 对于CaMnO3−δ的氧化反应而言, 由于上述分解
+反应在空气下的逆反应过程非常缓慢, 造成其再氧化
+过程受限, 再氧化程度仅为38%. 当在CaMnO3中掺入
+5%的Zr元素时, 样品还原过程释氧量减小到δ=0.28, 且
+此时在δ≥0.25阶段样品质量仍持续下降, 但速率明显
+低于纯CaMnO3, 表明CaMnO3的部分分解得到了一定
+抑制, 样品的再氧化程度提升至57%. 当Zr掺杂比例达
+到其固溶度10%时, CaZr0.1Mn0.9O3的还原程度进一
+图3
+(网络版彩图) Zr掺杂CaMnO3钙钛矿氧化物XRD图谱. (a) 10°~80°图谱; (b) 33°~35°放大图谱
+Figure 3
+(Color online) XRD patterns of Zr-doped CaMnO3 perovskite oxides. (a) Patterns between 10°–80°; (b) enlarged patterns between 33°–35°.
+靳菲等: Zr掺杂CaMnO3钙钛矿固溶体太阳能高温热化学储热性能研究
+1226
+
+
+===== Page 5 =====
+
+步降低到δ=0.24, 此时还原过程中没有出现相分解现
+象, 材料快速趋于热力学平衡状态. 在氧化过程中,
+CaZr0.1Mn0.9O3可以实现完全再氧化, 表明当材料有效
+抑制高温下的部分分解时, 可实现钙钛矿相的可逆氧
+化还原反应. 但是当Zr掺杂比例继续增加至30%和
+50%时, 样品的还原释氧量将进一步降低至0.15和0.07,
+虽然也可实现完全再氧化, 但氧化还原容量的大幅降
+低, 显著限制了其在热化学储热技术中的应用潜力.
+综上所述, Zr掺杂比例为10%的CaZr0.1Mn0.9O3钙
+钛矿固溶体可以有效抑制纯CaMnO3在还原过程中的
+部分分解, 实现完全可逆氧化还原循环, 因此选取最佳
+Zr掺杂比例为10%, 并在CaZr0.1Mn0.9O3的基础上开展
+进一步的研究.
+3.2.2
+Zr掺杂调控CaMnO3氧化还原性能机理分析
+通过氧化还原测试可知, 随着Zr掺杂比例的增加,
+材料的还原释氧能力单调减小, 下面结合XRD测试结
+果与密度泛函理论计算, 对Zr掺杂调控CaMnO3氧化
+还原特性的机理进行分析.
+通过XRD测试结果可知, 随着CaMnO3中Zr元素
+掺杂比例的逐渐增加, 材料依次出现下列4种相结构
+或其混合相: CaMnO3, CaZrxMn1−xO3, Ca4Mn3O10以及
+CaZrO3. 当上述四种相产生δ=1/8的氧空位时, 其氧空
+位形成能计算结果如图5所示. 当CaMnO3中有效掺杂
+12.5%的Zr元素形成固溶体时, 其氧空位形成能从
+1.31 eV增加到2.00 eV, 增加了材料还原释氧难度. 而
+CaZrO3氧空位形成能为6.09 eV, 远大于CaMnO3及其
+固溶体, 表明其还原释氧能力极弱. 此外, CaZrO3生成
+的同时还将出现Ca 4Mn 3O 1 0相,
+其氧空位形成能
+2.67 eV与Zr掺杂的CaMnO3相当. 氧化还原性能测试
+结果表明, Ca4Mn3O10具有一定的氧化还原能力, 但此
+时CaZrO3的含量随着Zr掺杂比例的增加而逐渐增大,
+使得材料整体氧化还原性能受到显著制约, 限制了其
+在热化学储热技术中的应用潜力.
+为了进一步分析Zr的有效掺杂对CaMnO3还原过
+程部分分解的抑制作用, 通过COHP计算对Zr掺杂前
+后的CaMnO3化学键强度进行分析, 结果如图6所示.
+CaMnO3中的Mn–O键以及CaZrxMn1−xO3固溶体中的
+Zr–O键ICOHP分别为−2.79和−4.51 eV, 表明固溶体中
+的Zr–O化学键强度远大于CaMnO3中的Mn–O键强度.
+此外, CaMnO3中Mn–O化学键长度为1.886 Å, 而掺杂
+的Zr–O化学键长度为2.007 Å. 说明Zr–O化学键强度的
+增加并不取决于化学键长度的变化. 其本质原因是Mn
+原子3d轨道与O原子2p轨道作用时, 在费米能级以下
+能量范围会产生部分反键作用, 而Zr原子4d轨道和
+O原子2p轨道作用时, 费米能级下方没有明显的反键
+作用, 从而成键作用增强, 强化了Zr–O化学键的强度.
+3.3
+CaZr0.1Mn0.9O3钙钛矿固溶体储热性能分析
+钙钛矿氧化物的热力学参数求解依赖于材料的晶
+体结构以及不同反应条件下的平衡参数
+[11,20]. 首先, 在
+500~1000°C, p(O2)=10
+−5 atm的还原条件下, 结合样品
+的TG曲线,
+微商热重曲线(DTG)以及DSC曲线对
+CaMnO3及CaZr0.1Mn0.9O3两种材料的晶体结构变化进
+图4
+(网络版彩图) Zr掺杂CaMnO3氧化还原性能热重测试
+结果
+Figure 4
+(Color online) TG experimental results of redox perfor-
+mance of Zr-doped CaMnO3.
+图5
+(网络版彩图) Zr掺杂CaMnO3不同物相的氧空位形成
+能
+Figure 5
+(Color online) Oxygen vacancy formation energies for
+different phase in the Zr-doped CaMnO3.
+中国科学: 技术科学
+2022 年
+第52 卷
+第8 期
+1227
+
+
+===== Page 6 =====
+
+行分析. 如图7所示, CaMnO3及CaZr0.1Mn0.9O3分别在
+817°C和842°C出现相转变峰, 且相变峰所对应的氧非
+化学计量数约为δ=0.06及δ=0.07, 可以推断10% Zr的有
+效掺杂增加了CaMnO3的还原焓, 使CaMnO3由斜方晶
+向立方晶转变的反应温度和氧非化学计量数少量增加.
+进一步对图7(b)中CaZr0.1Mn0.9O3的DTG曲线进行斜率
+变化分析, 结果表明CaZr0.1Mn0.9O3由斜方晶向立方晶的
+转变范围约为δ=0.03~0.10, 即在该还原范围内, 存在斜方
+晶和立方晶的混合相. 由于还原过程中, CaZr0.1Mn0.9O3
+以纯斜方晶状态进行热化学储热的反应范围过小, 因此
+不再对该范围的储热性能进行单独分析. CaZr0.1Mn0.9O3
+在混合相和立方晶相状态下的储热密度, 通过van’t
+Hoff方法进行分析求解, 具体过程如下.
+以CaZr0.1Mn0.9O3钙钛矿固溶体作为研究对象, 分
+别在氧分压p(O2)等于10
+−1, 10
+−2, 10
+−3, 10
+−5 atm以及反
+应温度为800~1100°C(间隔100°C)条件下, 通过TG测
+试其反应平衡参数, 实验数据整理如图8(a). 在此基础
+上, 将数据点转换为一定氧分压下, 反应温度T与氧非
+化学计量数δ的对应关系. 如图8(b)所示, 同一氧分压
+下T与δ呈较强的线性关系, 通过插值法可以较为准确
+地获得某一确定δ所对应的反应温度及氧分压条件.
+对于还原反应过程某一确定还原状态, 有如下热力学
+关系
+[21]:
+G T
+H T
+T S T
+( , ) =
+( , )
+( , ),
+(3)
+0
+0
+0
+G T
+RT
+p
+p
+( , ) =
+1
+2
+ln
+(O ) ,
+(4)
+0
+2
+0
+其中, p(O2)为氧分压, p0为标准参考压力(1 atm), T为反
+应温度, R为通用气体常数, ΔG0(δ), ΔH0(δ)和ΔS0(δ)分
+别为特定反应程度δ下的标准吉布斯自由能、反应焓
+以及反应熵. 由上述两式可得van’t Hoff方程:
+p
+H
+RT
+S
+R
+1
+2ln (O ) =
++
+.
+(5)
+2
+0
+0
+=const
+将图8(b)数据转换为图8(c)的van’t Hoff形式, 即以
+1/2lnp(O2)为纵坐标, 1/T为横坐标作图, 则可以通过数
+据点连线的斜率求出某一反应程度δ下对应的反应焓
+ΔH0(δ), 即材料每释放1 mol O所需吸收的热量, 单位
+为kJ/mol. 如图8(c)所示, CaZr0.1Mn0.9O3在混合相区域
+(δ=0.05, 0.10)和立方晶相区域(δ>0.10), 数据点均保持
+了较好的线性关系. 将ΔH0(δ)从反应初状态到反应末
+状态(δ0→δf)进行积分,
+并除以材料的相对分子质
+量MABO3, 可得到样品的储热密度ΔH, 即单位质量的
+钙钛矿材料达到反应末状态可储存的热量.
+H
+M
+H
+= 1000
+d .
+(6)
+ABO
+0
+3
+0
+f
+根据上述热力学原理, 计算出的CaZr0.1Mn0.9O3样
+品的还原焓及储热密度如图8(a)插图所示, 其中的计
+算误差来源于拟合过程产生的不确定度. CaZr0.1Mn0.9O3
+的还原焓ΔH0在0≤δ≤0.25范围内从206 kJ/mol小幅增
+图6
+(网络版彩图) Mn–O与Zr–O化学键强度COHP计算结果
+Figure 6
+(Color online) COHP calculation results of bond strengths of
+Mn–O and Zr–O.
+图7
+( 网络版彩图)
+C a M n O 3 及C a Z r 0 . 1 M n 0 . 9 O 3 在
+500~1000°C, p(O2)=10−5 atm还原过程中TG (a), DTG (b)和
+DSC (c)曲线的变化情况
+Figure 7
+(Color online) Profiles of CaMnO3 and CaZr0.1Mn0.9O3 on
+heating from 500 to 1000°C under a p(O2) of 10−5 atm. (a) TG;
+(b) DTG; (c) DSC curves.
+靳菲等: Zr掺杂CaMnO3钙钛矿固溶体太阳能高温热化学储热性能研究
+1228
+
+
+===== Page 7 =====
+
+加至243 kJ/mol, 大于文献报道的CaMnO3还原焓(170~
+180 kJ/mol)[22], 与DFT计算分析结果一致. CaZr0.1Mn0.9O3
+在1000°C, p(O2)=10
+−5 atm条件下达到反应平衡状态时
+的还原程度为δ=0.252, 对应的储热密度为ΔH=390.6±
+32.8 kJ/kg. 该储能密度高于CaMnO3及CaFe0.1Mn0.9O3
+的储热密度272.5及344.3 kJ/kg(反应条件为1200°C,
+p(O2)=0.008 atm)[11], 在较低的反应温度下实现了与
+CaTi0.2Mn0.8O3相当的储热密度(390 kJ/kg, 反应条件为
+1250°C, p(O2)=0.008 atm)
+[12].
+此外, 材料在1000°C高温下进行热化学循环, 材料
+高温下的显热也可提供客观的储热贡献. 依据氧化还
+原测试结果, CaZr0.1Mn0.9O3起始还原温度约为600°C,
+材料可在600~1000°C范围内进行充放热循环. 根据文
+献报道结果[11], 在CaMnO3中进行少量元素掺杂不会
+使材料比热容有显著变化, 因此CaZr0.1Mn0.9O3比热容
+根据文献报道的CaMnO3数据估算为0.8 kJ/(kg K).
+CaZr 0 . 1Mn 0 . 9O 3考虑显热后的总储热密度ΔH t o t≈
+710 kJ/kg, 其中显热占总储热量的45%.
+3.4
+CaZr0.1Mn0.9O3太阳能光谱吸收特性分析
+太阳能光谱吸收特性对热化学储热材料性能有重
+要影响, 决定了太阳能光谱的有效吸收比例, 进而影响
+太阳能集热系统聚光比以及热化学储热过程的能量利
+用效率. 通过光谱仪测量的光谱吸收率如图9所示,
+CaMnO3和CaZr0.1Mn0.9O3在可见光频段的光谱吸收率
+A(λ)均为90%左右. 在近红外范围内, 纯CaMnO3样品
+的光谱吸收率从950 nm波段开始显著降低, 在1150~
+1550 nm波段内约为50%, 并且在1750~2250 nm波段进
+图8
+(网络版彩图) CaZr0.1Mn0.9O3固溶体热化学储热密度
+计算过程. (a) 热力学平衡测试结果以及还原焓和储热密度
+计算结果; (b) 不同氧分压下δ与T的线性拟合; (c) van’t Hoff
+方程的拟合
+Figure 8
+(Color online) Calculation of thermochemical storage heat
+density of CaZr0.1Mn0.9O3. (a) Thermodynamic equilibrium, reduction
+enthalpy and heat storage density results; (b) linear fitting of δ and T at
+different p(O2); (c) linear fitting of van’t Hoff equation.
+图9
+(网络版彩图) CaMnO3及CaZr0.1Mn0.9O3钙钛矿太阳能
+全光谱吸收率
+Figure 9
+(Color online) The solar full spectrum absorptance of
+CaMnO3 and CaZr0.1Mn0.9O3 perovskites.
+中国科学: 技术科学
+2022 年
+第52 卷
+第8 期
+1229
+
+
+===== Page 8 =====
+
+一步降低至40%左右. 相比之下, CaZr0.1Mn0.9O3钙钛矿
+固溶体在近红外范围的光谱吸收率仍可维持在90%左
+右, 表明Zr的掺杂可以显著提高材料在近红外波段的
+光谱吸收率.
+以AM1.5太阳能光谱能量作为能量输入基准, 通
+过对太阳能全光谱范围进行积分, 计算纯CaMnO3和
+CaZr0.1Mn0.9O3固溶体的平均光谱吸收率A, 具体方程
+如下:
+A
+A
+I
+I
+=
+( )
+( )d /
+( )d .
+(7)
+250nm
+2250nm
+AM1.5
+250nm
+2250nm
+AM1.5
+计算结果表明, CaMnO3热化学储热材料的全光谱
+平均能量吸收率为80.8%, 而CaZr0.1Mn0.9O3的平均吸
+收率可以提高至89.5%. 当需要达到相同的反应温度
+时, CaZr0.1Mn0.9O3钙钛矿固溶体可以有效降低聚光倍
+数, 从而减少设备初投资和能量损失, 详细的能量分
+析及经济性分析还需进行系统性地评估分析.
+4
+结论
+本文针对CaMnO3掺杂不同比例Zr元素的钙钛矿
+热化学储热材料, 采用溶胶凝胶自蔓延燃烧法进行制
+备, 并从物相结构变化、氧化还原特性、储热性能以及
+太阳能光谱吸收特性等方面开展研究, 主要结论如下.
+(1) CaMnO3钙钛矿中Zr掺杂的固溶度约为10%,
+可形成CaZr0.1Mn0.9O3固溶体结构. 而当Zr掺杂比例高
+于固溶度时, 将出现CaZrO3及Ca4Mn3O10两相, 且含量
+随着Zr掺杂比例的提升而增大.
+(2) Zr掺杂的CaMnO3钙钛矿氧化物在1000°C还原
+过程中, 其还原释氧能力随着Zr掺杂比例的增大而单
+调减小. 当Zr有效掺杂形成CaZrxMn1−xO3固溶体时,
+CaMnO3中Mn–O化学键的p-d轨道反键作用得到削弱,
+使得整体化学键强度增大, 在保持较高还原释氧能力
+的条件下, 抑制了CaMnO3还原过程的部分分解, 材料
+可实现完全再氧化. 但是, 当Zr掺杂比例超过固溶度
+时, 产生的CaZrO3及Ca4Mn3O10将显著降低材料的还
+原释氧能力, 限制材料在热化学储热技术中的应用.
+(3) 掺杂10%的Zr元素可将CaMnO3在近红外波段
+的光谱吸收率从40%~50%提高至90%, 全光谱范围的
+平均吸收率从80.8%提高至89.5%, 有效提升了材料的
+辐射吸收能力.
+(4) CaZr0.1Mn0.9O3在还原过程中由斜方晶转变为
+立方晶, 采用van’t Hoff方法测试得出CaZr0.1Mn0.9O3还
+原焓在δ=0~0.25范围内约为206~243 kJ/mol, 且在
+1000°C, p(O2)=10−5 atm反应条件下可实现390.6±
+32.8 kJ/kg的储热密度. 相较已报道的掺杂CaMnO3储
+热材料, CaZr0.1Mn0.9O3可在更低的储热温度下实现具
+有竞争力的储热密度, 可为钙钛矿氧化物热化学储热
+材料的开发和性能调控提供指导和依据.
+参考文献
+1
+Lewis N S, Nocera D G. Powering the planet: Chemical challenges in solar energy utilization. Proc Natl Acad Sci USA, 2006, 103: 15729–15735
+2
+Steinfeld A. Concentrated solar energy: The path for efficient thermal conversion to power and fuels. Sci Bull, 2019, 64: 485–486
+3
+Dizaji H B, Hosseini H. A review of material screening in pure and mixed-metal oxide thermochemical energy storage (TCES) systems for
+concentrated solar power (CSP) applications. Renew Sustain Energy Rev, 2018, 98: 9–26
+4
+Carrillo A J, González-Aguilar J, Romero M, et al. Solar energy on demand: A review on high temperature thermochemical heat storage systems
+and materials. Chem Rev, 2019, 119: 4777–4816
+5
+André L, Abanades S, Flamant G. Screening of thermochemical systems based on solid-gas reversible reactions for high temperature solar
+thermal energy storage. Renew Sustain Energy Rev, 2016, 64: 703–715
+6
+Wu S, Zhou C, Doroodchi E, et al. A review on high-temperature thermochemical energy storage based on metal oxides redox cycle. Energy
+Convers Manage, 2018, 168: 421–453
+7
+Chen X, Kubota M, Yamashita S, et al. Investigation of Sr-based perovskites for redox-type thermochemical energy storage media at medium-
+high temperature. J Energy Storage, 2021, 38: 102501
+8
+Zhang Z, Andre L, Abanades S. Experimental assessment of oxygen exchange capacity and thermochemical redox cycle behavior of Ba and Sr
+series perovskites for solar energy storage. Sol Energy, 2016, 134: 494–502
+9
+Bulfin B, Vieten J, Starr D E, et al. Redox chemistry of CaMnO3 and Ca0.8Sr0.2MnO3 oxygen storage perovskites. J Mater Chem A, 2017, 5:
+7912–7919
+靳菲等: Zr掺杂CaMnO3钙钛矿固溶体太阳能高温热化学储热性能研究
+1230
+
+
+===== Page 9 =====
+
+10
+Mastronardo E, Qian X, Coronado J M, et al. Impact of La doping on the thermochemical heat storage properties of CaMnO3−δ. J Energy Storage,
+2021, 40: 102793
+11
+Mastronardo E, Qian X, Coronado J M, et al. The favourable thermodynamic properties of Fe-doped CaMnO3 for thermochemical heat storage. J
+Mater Chem A, 2020, 8: 8503–8517
+12
+Babiniec S M, Coker E N, Miller J E, et al. Doped calcium manganites for advanced high-temperature thermochemical energy storage. Int J
+Energy Res, 2016, 40: 280–284
+13
+Zhu L, Lu Y, Li F. Reactivity of Ni, Cr and Zr doped ceria in CO2 splitting for CO production via two-step thermochemical cycle. Int J Hydrogen
+Energy, 2018, 43: 13754–13763
+14
+Wang L, Ma T, Dai S, et al. Experimental study on the high performance of Zr doped LaCoO3 for solar thermochemical CO production. Chem
+Eng J, 2020, 389: 124426
+15
+Fu M, Wang L, Ma T, et al. Effectiveness of Zr and Hf incorporation into LaCoO3 towards fast and thermodynamically favorable solar
+thermochemical CO production studied with density functional theory. Sustain Energy Fuels, 2020, 4: 1515–1521
+16
+Zheng Q, Lail M, Zhou S, et al. CaCoxZr1−xO3−δ perovskites as oxygen-selective sorbents for air separation. ChemSusChem, 2019, 12: 2598–
+2604
+17
+Liu X, Wang T, Gao K, et al. Ca- and Ga-doped LaMnO3 for solar thermochemical CO2 splitting with high fuel yield and cycle stability. ACS
+Appl Energy Mater, 2021, 4: 9000–9012
+18
+Chen Z, Jiang Q, Cheng F, et al. Sr- and Co-doped LaGaO3−δ with high O2 and H2 yields in solar thermochemical water splitting. J Mater Chem
+A, 2019, 7: 6099–6112
+19
+Imponenti L, Albrecht K J, Kharait R, et al. Redox cycles with doped calcium manganites for thermochemical energy storage to 1000°C. Appl
+Energy, 2018, 230: 1–18
+20
+Mastronardo E, Qian X, Coronado J M, et al. Fe-doped CaMnO3 for thermochemical heat storage application. AIP Conf Proc, 2019, 2126:
+210005
+21
+Babiniec S M, Coker E N, Miller J E, et al. Investigation of LaxSr1−xCoyM1−yO3−δ (M=Mn, Fe) perovskite materials as thermochemical energy
+storage media. Sol Energy, 2015, 118: 451–459
+22
+Goldyreva E I, Leonidov I A, Patrakeev M V, et al. Thermodynamics of oxygen in CaMnO3−δ. J Solid State Electrochem, 2013, 17: 3185–3190
+中国科学: 技术科学
+2022 年
+第52 卷
+第8 期
+1231
+
+
+===== Page 10 =====
+
+Investigation of Zr-doped CaMnO3 perovskite solid solution for
+high-temperature solar thermochemical energy storage
+JIN Fei
+1,2, XU Chao
+1, ZHANG HuaJing
+1, XU BoWen
+1 & LIAO ZhiRong
+1
+1 School of Energy Power and Mechanical Engineering, North China Electric Power University, Beijing 102206, China;
+2 School of Chemistry and Chemical Engineering, North Minzu University, Yinchuan 750021, China
+CaMnO3 perovskite oxide, composed of earth-abundant and cost-effective elements, could store and release heat by the redox
+reactions over a wide range of temperatures and partial pressures of oxygen (p(O2)). CaMnO3 perovskite oxide has been regarded as a
+promising candidate for thermochemical heat storage in concentrated solar power plants. However, CaMnO3 perovskite oxide is
+partially decomposed during the high-temperature reduction process, resulting in the incomplete reoxidation of the material, which
+severely limits its thermochemical energy storage performance. Herein, Zr-doped CaMnO3 has been proposed as a novel
+thermochemical energy storage material. Moreover, its phase structure, redox capability, energy storage performance, and solar
+spectral absorption properties have been thoroughly investigated through experimental and theoretical calculations. The results
+demonstrated that the CaZr0.1Mn0.9O3 perovskite solid solution could achieve a fully reversible redox cycle while effectively
+inhibiting decomposition during reduction. However, with the further increase in the Zr doping ratio, the produced side phases would
+significantly reduce the redox performance of the material. The thermochemical energy storage density of CaZr0.1Mn0.9O3 could reach
+390.6±32.8 kJ/kg at 1000°C and p(O2)=10−5 atm, and the effective doping of Zr could enhance the spectral absorption of CaMnO3 in
+the near-infrared region. According to the calculation of density functional theory, the effective doping of Zr could enhance the B–O
+chemical bond strength of ABO3 oxides, thus strengthening the structural stability and improving the thermochemical energy storage
+density. This study provides guidance for the development of perovskites for thermochemical energy storage.
+thermochemical energy storage, solar energy, perovskite, redox, density functional theory
+doi: 10.1360/SST-2022-0153
+靳菲等: Zr掺杂CaMnO3钙钛矿固溶体太阳能高温热化学储热性能研究
+1232

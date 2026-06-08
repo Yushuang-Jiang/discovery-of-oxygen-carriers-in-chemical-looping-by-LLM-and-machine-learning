@@ -1,0 +1,463 @@
+
+
+===== Page 1 =====
+
+Journal of Energy Storage 41 (2021) 102881
+Available online 1 July 2021
+2352-152X/© 2021 Elsevier Ltd. All rights reserved.
+Performance of thermochemical energy storage for spinel 
+CuMn2O4 material 
+Jie Fan a, Ye Zhang b, Yongxing Yang a,*, Junsheng Hao a,*, Yongzhao Wang a, Aniu Qian c 
+a National Demonstration Center for Experimental Chemistry Education (Shanxi University), School of Chemistry and Chemical Engineering, Shanxi University, Wucheng 
+Road 92, Taiyuan 030006, China 
+b Institute of Coal Chemistry, Chinese Academy of Sciences, South Taoyuan Road 27#, Taiyuan 030001, China 
+c Institute of Resources and Environment Engineering, Shanxi University, Wucheng Road 92, Taiyuan 030006, China  
+A B S T R A C T   
+Because of spinel’s suitable redox properties, this article focuses on its application as a candidate of thermochemical energy storage materials. Pechini method was 
+used to synthesize of the copper and manganese mixed metal oxides with spinel structure. X-ray diffraction (XRD) was used to determine the crystal structure of the 
+sample. The thermochemical energy storage of the samples was measured by thermogravimetric analysis (TGA) and differential scanning calorimetry (DSC). It was 
+found that sample with Cu mole ratio 1/3 showed suitable cycle stability and more flexible temperature range. It is a potential candidate for thermal energy storage 
+material. Through the comparison of air and nitrogen-air redox cycle, it is revealed that the reduction is more thorough in inert atmosphere than in air atmosphere.   
+1. Introduction 
+Concentrated solar energy (CSP) systems will play an important role 
+in future renewable energy or heat production. Romero et al. review the 
+concentrated solar power plant because of its suitable power generation 
+capacity and makes it possible to integrate thermal storage equipment 
+and mix with standby fossil fuels [1]. Thermal energy storage (TCS) 
+system is proposed, which can still achieve continuous use of energy 
+during the intermittent period [2,3]. TCS has a higher energy storage 
+density in the field of high-temperature storage. From the practical view, 
+thermochemical storage based on reversible chemical reactions is a very 
+promising research area. As compared with sensible heat and latent heat 
+technology, the reversible thermochemical energy storage is based on 
+the existence of materials in the form of stable and transportable solids, 
+has a higher energy storage density, can store heat and materials in the 
+form of chemical bonds. In addition, the thermochemical energy storage 
+can provide longer storage time because it can prevent heat loss by 
+eliminating reactants such as O2, CO2 or H2O in the redox, carbonation 
+or hydration process [4]. Usually carbonation and hydration process will 
+provide very high energy density, but the reaction conditions are more 
+severe. On the contrary, redox process can work in atmosphere, so they 
+are more realistic and easier to achieve. The degradation for materials 
+based on redox process after multiple cycles should be negligible. In 
+addition, the cost should be as low as possible, and the volumetric en­
+ergy density should be high. 
+In the list of potential single metal oxides for TCS, cobalt oxide, 
+manganese oxide and copper oxide show interesting properties [5–8]. 
+Among them, the Co3O4/CoO system shows excellent reaction kinetics, 
+complete reaction reversibility and good cycle stability [9]. The main 
+disadvantages of cobalt oxide involve cost and toxicity issues and high 
+reduction temperature. The report pointed out that the weight energy 
+storage density of Mn2O3/Mn3O4 is about 110–160 kJ/kg [10,11]. 
+However, the material is significantly slowed down in the oxidation 
+stage and only partially re-oxidized. The main reason is that the strong 
+kinetic limitation and the huge difference between the reduction and 
+oxidation initiation temperatures, leading to poor reversibility of the 
+reaction. Haenchen et al. [12]. measured the thermochemical energy 
+storage of CuO/Cu2O oxidation pair. It is confirmed that CuO/Cu2O 
+system is a kind of chemical energy storage material with great potential 
+[12]. However, the material is prone to sintering during the 
+high-temperature reduction process, which has a greater impact on the 
+reactivity and stability of the material. 
+Spinel is composed of magnesium aluminum oxide (MgAl2O4). The 
+general composition is AB2O4, in which A may be magnesium, iron, zinc, 
+manganese, or nickel; B may be aluminum, chromium, or iron; and O is 
+oxygen. Spinel structure reduce the Gibbs free energy of the reaction 
+intermediate to the optimal level, and simultaneously facilitate the 
+transport of the electrons and the diffusions of generated gas, which 
+results in improved catalytic performance [13]. Since oxidation of these 
+compounds is thermodynamically more favorable, this process may 
+* Corresponding authors. 
+E-mail addresses: yzhang@sxicc.ac.cn (Y. Zhang), yangyongxing@sxu.edu.cn (Y. Yang), jshao@sxu.edu.cn (J. Hao), catalyst@sxu.edu.cn (Y. Wang).  
+Contents lists available at ScienceDirect 
+Journal of Energy Storage 
+journal homepage: www.elsevier.com/locate/est 
+https://doi.org/10.1016/j.est.2021.102881 
+Received 6 January 2021; Received in revised form 19 June 2021; Accepted 22 June 2021   
+
+
+===== Page 2 =====
+
+Journal of Energy Storage 41 (2021) 102881
+2
+eventually enhance the kinetics of reduction [14]. Excellent redox 
+behavior, high and stable chemical properties, which makes it also can 
+be used as a storage medium and has received widespread attention 
+[15]. Hlongwa et al. [16]. studied Li-Mn-O and Cu-Mn-O systems with 
+spinel structure for redox cycles. Laurie et al. [17]. evaluated the per­
+formance of Co-Cu-O, Mn-Co-O, and Mn-Cu-O systems with spinel 
+structure. Andre et al. [18]. chose to add Fe to the Co3O4/CoO and 
+Mn2O3/Mn3O4 systems. It was observed that the addition of Fe reduced 
+the redox activity and energy storage capacity of Co3O4/CoO, but the 
+addition of Fe significantly improved the reaction rate, reversibility. 
+Cycle stability and the weight energy storage density capacity of 
+Mn2O3/Mn3O4 have been improved. By exploring Mn-Fe-O, Carrillo 
+et al. [19]. obtained a promising redox system with low cost, good 
+thermodynamic properties and good cycle stability. Block et al. [20]. 
+tested eight binary metal oxide systems and performed thermochemical 
+energy storage analysis on them.  
+6Mn2O3 ↔ 4Mn3O4 + O2 (g)                                                            
+(1)  
+2Co3O4 ↔ 6CoO + O2 (g)                                                                
+(2)  
+6Fe2O3 ↔ 4Fe3O4 + O2 (g)                                                              
+(3) 
+As shown in formulas (1–3), metal oxides of manganese, cobalt, 
+copper, and iron are all suitable candidates. Iron oxide/cobalt oxide, 
+cobalt oxide/copper oxide, manganese oxide/copper oxide and man­
+ganese oxide/iron oxide are ideal of thermochemical storage materials 
+with higher potential. Block et al. [9]. found that the adjustable con­
+version temperature of Fe and Co mixed system and the reaction 
+enthalpy gradually decreased as the proportion of iron increased. Car­
+rillo et al. [19]. observed the iron-manganese system by characterization 
+and found that the incorporation of iron changed the bond length of the 
+metal oxide, resulting in an increase in the Mn-O bond. This structural 
+change can promote the rearrangement of the coordination poly­
+hedrons, which can explain the gradual acceleration of the oxidation 
+rate as the amount of iron added to manganese oxide increases. Zaki 
+et al. [21]. observed the thermal behavior of cobalt-manganese mixed 
+metal oxides. Compared with pure metal oxidation, the Co3-xMnxO4 
+phase did increase the enthalpy of the redox reaction, promote revers­
+ibility, and reduce energy loss. Zaki et al. [22]. proved that the enthalpy 
+of the mixed metal oxide of Co1.5Mn1.5O4 is higher than the enthalpy of 
+pure metal oxide, with a maximum value of 1233 kJ/kg, which is almost 
+twice that of pure cobalt oxide. 
+In order to improve the redox performance of the material, the 
+performance of the material can be improved by controlling the syn­
+thesis of the morphology or by adding inert materials; alternatively, the 
+pure oxide can be modified by adding a second transition metal oxide to 
+adjust the reaction kinetics, the temperature range of the redox reaction 
+and the stability of the cycle. In this paper, the improved Pechini method 
+is used to synthesize Cu-Mn-O mixed metal oxides with spinel structure. 
+After high temperature treatment, they can be quickly sintered to reach 
+a stable structure directly. The thermochemical energy storage of the 
+samples was studied by TGA and DSC. Sample with Cu mole ratio 1/3 
+showed excellent cycle stability and more flexible temperature range. It 
+is a potential candidate for thermal energy storage material. Through 
+the comparison of air and nitrogen-air redox cycle, it is revealed that the 
+reduction is more thorough in inert atmosphere than in air atmosphere. 
+2. Experimental 
+2.1. Materials preparation 
+In this experiment, an improved Pechini method was used to syn­
+thesize Cu-Mn-O mixed metal oxides with spinel structure. The molar 
+mass ratio of Cu(NO3)2•3H2O (>99% purity) and Mn(NO3)2 (>99% 
+purity) is 1:0, 1:2, 0:1 dissolved in a certain amount of deionized water, 
+and the molar mass ratio of metal cation, citric acid and ethylene glycol 
+according to the ratio of 3:15:10, mix the dissolved metal nitrate and 
+citric acid evenly, concentrate at 70 ◦C for 3 h, then add ethylene glycol 
+and concentrate at 90 ◦C for 2 h to form a viscous gel shape. Then the 
+configured gel was placed in a muffle furnace, calcined at 200 ◦C in air 
+for 3 h, then calcined in air at 450 ◦C for 4 h, and further calcined at 
+700 ◦C in air atmosphere for 4 h, and naturally cooled down to obtain Cu 
+synthetic material with a ratio of 1,1/3,0 (the ratio of the molar mass of 
+copper to the sum of the molar mass of copper and the molar mass of 
+manganese). 
+2.2. Characterization of the test 
+JSM-IT500 Scanning Electron Microscope was used to observe the 
+morphology of the sample. X-ray diffraction is measured on a BRUKER 
+D2 PHASER diffractometer with CuKα radiation (λ= 1.54178 Å) at a 
+scan rate of 0.2 s−1. NETZSCH’s STA 449 F3 thermogravimetric analysis 
+was used to determine the redox cycle performance, and the measured 
+sample was corrected by the blank control group and then measured. Put 
+a 15 mg sample in a 90 mL alumina crucible and perform multiple redox 
+cycle tests. The cycle temperature of the first cycle test is between 650 ◦C 
+and 1050 ◦C, heated from room temperature at 10 K•min−1 to 1050 ◦C, 
+then cooled at 10 K•min−1 to 650 ◦C, and then at 650 ◦C to 1050 ◦C. The 
+test is carried out at a circulation rate of 10 K•min−1 and the air flow rate 
+is 100 mL•min−1 (PO2= 0.21). The second round of cyclic testing is 
+based on the first round of testing, and the air flow of 100 mL•min−1 is 
+intermittently introduced with nitrogen and air. At the same time, dif­
+ferential scanning calorimetry  was performed on TGA to study the 
+Fig. 1. SEM micrographs of the sample CuMn2O4(A, B); SEM micrographs of 
+the sample after 30 cycles(C, D). 
+Fig. 2. (a). XRD of metal oxide with Cu = 1; (b). XRD of metal oxide with Cu =
+1/3; (c). XRD of metal oxide with Cu = 0. . 
+J. Fan et al.                                                                                                                                                                                                                                      
+
+
+===== Page 3 =====
+
+Journal of Energy Storage 41 (2021) 102881
+3
+thermal effects of reduction and oxidation reactions. 
+3. Results and discussion 
+3.1. Characterization analysis 
+Fig. 1 show the scanning electron microscope of CuMn2O4 before 30 
+cycles(A,B) and after 30 cycles(C,D). After 30 cycles, the CuMn2O4 
+particles form larger agglomerates. 
+XRD was used to determine the main physical and chemical prop­
+erties of the synthesized Cu-containing mixed oxide. The results are 
+shown in Fig. 2. Fig. 2(a) shows strong peaks at 32.4◦, 35.4◦, 38.6◦, 
+48.7◦, 53.5◦, 58.2◦, 61.5◦, 66.2◦, 68.0◦, 72.3◦and 75.0◦It agrees with 
+the crystal phase of CuO (JCPDS: 80–0076). In Fig. 2(b), strong peaks 
+are shown at 18.5◦, 30.5◦, 35.9◦, 43.7◦, 55.3◦, 57.7◦and 63.5◦By 
+comparing with the X-ray diffraction spectrum of the standard material, 
+Fig. 2(b) shows the formation of cubic CuMn2O4 spinel (JCPDS: 
+74–2422). By comparing the XRD spectra of Fig. 2(b) and Fig. 2(c), only 
+a small amount of low-intensity characteristic peaks caused by trace 
+Mn2O3 are observed, and the main part is CuMn2O4 phase. Fig. 2(c) 
+shows strong peaks at 23.0◦, 32.8◦, 38.2◦, 44.9◦, 49.4◦, 55.0◦and 65.8◦
+Comparing with the X-ray diffraction spectrum of the standard material, 
+it is confirmed the formation of Mn2O3 (JCPDS: 00–001–1061). 
+The XRD pattern of metal oxide Cu= 1 after 30 cycles is shown in 
+Fig. 3(A). It can be found that after 30 cycles, there are peaks at 30.3◦, 
+42.0◦, 60.6◦and 72.8◦It agrees with the crystal phase of Cu2O (JCPDS: 
+05–0667). The same XRD pattern of metal oxide Cu= 1/3 after 30 cycles 
+is shown in Fig. 3(B). It can be found that after 30 cycles, the sample 
+shows diffraction peaks at 18.0◦, 29.5◦, 34.9◦, 56.7◦and 62.4◦The main 
+crystalline phase still is CuMn2O4, and the peak intensity is weaker than 
+fresh sample, maybe because the material nanocrystalline particles 
+become smaller after 30 cycles. 
+3.2. High temperature redox cycle 
+Fig. 4 shows the variation curve of the weight of metal oxide ther­
+mochemical energy storage with Cu = 1 and Cu = 1/3 as a function of 
+temperature, as well as the reaction temperature of each stage of 
+reduction and oxidation. The average onset temperature of the metal 
+oxide Cu= 1, Cu= 1/3 of the 5 redox cycles is shown in Fig. 4(A). It can 
+be clearly evidented that at least with in 5 cycles, both the metal oxide 
+Cu= 1 and Cu= 1/3 exhibit a stable redox cycle temperature. The main 
+change in the mass reduction of the metal oxide Cu= 1 take place when 
+the temperature exceeds 997.68 ◦C, which is caused by the decompo­
+sition of copper oxide into cuprous oxide and the release of oxygen; the 
+main change in the mass increment of the metal oxide Cu= 1 take place 
+when the temperature exceeds 978.35 ◦C because the cuprous oxide 
+absorbs oxygen in the air and reacts to produce copper oxide, and the 
+molar mass increases. These can be obtained from the reaction equation 
+of formula (4). 
+The main change in the mass reduction of the metal oxide Cu= 1/3 
+take place when the temperature exceeds 929.44 ◦C, which is caused by 
+the decomposition of CuMn2O4 into CuMnO2 and Mn3O4 and the release 
+of oxygen; the main change in the mass increment of the metal oxide 
+Cu= 1/3 take place below 861.05 ◦C. This is because CuMnO2 and 
+Mn3O4 absorb oxygen in the air and react to produce CuMn2O4, and the 
+molar mass increases. These can be obtained from the reaction equation 
+of formula (5). Comparing the reduction reaction temperature of the 
+metal oxide Cu= 1 and Cu= 1/3, the reduction temperature of the metal 
+oxide Cu= 1/3 is 68.24 ◦C lower than the reduction temperature of Cu=
+1. It can be determined that Cu= 1/3 greatly improves the oxygen 
+mobility compared to Cu= 1. Also comparing the oxidation temperature 
+of the metal oxide Cu= 1 and Cu= 1/3, the oxidation temperature of 
+Cu= 1/3 is 117.30 ◦C lower than the oxidation temperature of Cu= 1, 
+which greatly increases the temperature gap of the reaction and it very 
+benefits for the adjustment of operating temperature, energy density and 
+process kinetics. The mass changes of the metal oxides Cu= 1 and 1/3 
+Fig. 3. (A). XRD of the metal oxide Cu= 1 after 30 cycles; (B). XRD of the metal oxide Cu= 1/3 after 30 cycles.  
+Fig. 4. (A). The starting temperature of reduction and oxidation at each cycle stage; (B). The change curve of the weight of metal oxide Cu= 1 with temperature 
+during the 5 redox processes; (C). The change curve of the weight of metal oxide Cu= 1/3 with temperature during the 5 redox processes. . 
+J. Fan et al.                                                                                                                                                                                                                                      
+
+
+===== Page 4 =====
+
+Journal of Energy Storage 41 (2021) 102881
+4
+with temperature are shown in Fig. 4 (B,C). The mass of Cu= 1 metal 
+oxide at the end of the first cycle is reduced by 1.67 wt%, and the mass at 
+the end of the second cycle is reduced by 1.11 wt%; the mass of Cu= 1/3 
+metal oxide at the end of the first cycle is reduced by 4.55 wt% and the 
+mass at the end of the second cycle is reduced by 1.51 wt%. Both of 
+samples could not reach the initial mass value, which may be caused by 
+the decomposition of other impurities in the sample after synthesis. In 
+order to eliminate the interference of unreacted materials and impu­
+rities, we selected the last 3 cycles for research. 
+According to the known chemical equation:  
+4CuO → 2Cu2O + O2                                                                      
+(4) 
+It can be seen that for the pure CuO theoretical decomposition mass 
+change is 10 wt%. As shown in Fig. 4(B), it can be seen that for the metal 
+oxide Cu= 1, the average change of the mass in the last three times is 
+9.92 wt%, which is slightly lower than the theoretical value. However, 
+considering the material itself has a certain error, it can be considered as 
+a complete conversion. For the metal oxide with Cu= 1/3, the main body 
+is determined to be CuMn2O4 spinel according to XRD. 
+According to the chemical equation:  
+3CuMn2O4 → 3CuMnO2 + Mn3O4 + O2                                            
+(5) 
+It can be seen that for the pure CuMn2O4, the theoretical decompo­
+sition mass change is 4.48 wt%. As shown in Fig. 4(C), it can be seen that 
+the average change of mass in the last three times is 3.89 wt%, which is 
+0.59 wt% different from the theoretical value. This may be caused by the 
+presence of a small amount of Mn2O3 in the mixed metal oxide Cu= 1/3. 
+Correspondingly, in Fig. 5, it can be seen from Fig. 5 (A, B) that the metal 
+oxide Cu=1 and 1/3 change periodically, and the mass change tends to 
+be stable in the last three cycles. However, in Fig. 5(C), there is no 
+cyclical change in quality of Mn2O3 over time. 
+Based on the redox TCS system, the long-term durability of the ma­
+terial during the cycle is the key parameter for selecting the material. In 
+order to further study the performance of the material, we conducted 30 
+stability cycle tests at 650 ◦C–1050 ◦C under the atmosphere for the 
+metal oxide Cu= 1 and Cu= 1/3. As shown in Fig. 6, after 30 cycles, 
+metal oxide Cu= 1 the mass is 3.28 wt% less than the initial mass. The 
+reason for this kind of phenomenon is that the operating temperature 
+range of the reaction is close to the melting point of Cu2O, which leads to 
+Fig. 5. (A). The change curve of the weight of metal oxide Cu= 1 with time during the 5 redox processes; (B). The change curve of the weight of mixed metal oxide 
+Cu= 1/3 with time during the 5 redox processes; (C). The change curve of the weight of metal oxide Cu= 0 with time during the 5 redox processes. 
+Fig. 6. (A) and (B). Cycle curves of mass with time for (A) Cu= 1 and (B) Cu= 1/3, respectively; (C) and (D). Cycle curves of mass with temperature for (C) Cu= 1 and 
+(D) Cu= 1/3, respectively. 
+J. Fan et al.                                                                                                                                                                                                                                      
+
+
+===== Page 5 =====
+
+Journal of Energy Storage 41 (2021) 102881
+5
+problem of inferior stability of metal oxide Cu= 1. From formula (4), it 
+can be seen that the theoretical decomposition mass change of the CuO/ 
+Cu2O system is 10 wt%. The 8th, 13th, 18th, 23rd and 30th cycle of mass 
+change analysis were selected from Fig. 6(A), the changes in mass are 
+8.46 wt%, 8.32 wt%, 7.42 wt%, 6.98 wt% and 6.59 wt%, respectively. 
+It’s getting further and further away from the theoretical value. This 
+indicates a deterioration in cycle performance. The decrement for the 
+five above selected values were calculated separately and is 0.14 wt%, 
+0.90 wt%, 0.44 wt% and 0.39 wt%. It can be found that although during 
+the initial cycle the metal oxide Cu=1 shows good cycle-reversibility. 
+After the 8th cycle, the stability showed an S-shaped curve transition 
+with time. From the 13th to the 18th cycle, the stability and the decay 
+rate reaches its maximum. After 18 cycles, the stability decay rate 
+gradually slowed down, this is because as the number of cycles in­
+creases, CuO is transformed gradually into a more stable metal oxide 
+Cu2O. It is proved that the cycle performance of metal oxide Cu=1 de­
+creases with the increase of cycles. 
+In contrast, the metal oxide Cu= 1/3 exhibits interesting cycle sta­
+bility. Through the analysis of Fig. 6(B), the initial mass change shows a 
+better cycle phenomenon than the other multiple cycles except for the 
+first cycle. Similarly, the 8th, 13th, 18th, 23rd and 30th cycles of the 
+spinel samples were selected for comparison. The mass changes are 4.34 
+wt%, 4.34 wt%, 4.35 wt%, 4.32 wt% and 4.35 wt%, respectively. 
+Judging from formula (5), the theoretical decomposition mass change of 
+copper-manganese mixed metal oxide (Cu= 1/3) is 4.48 wt%. The 
+reason for this phenomenon may be the initial material contains other 
+impurities. The fluctuation range of the mass change for each cycle is 
+slightly, showing good cycle stability. Comparing with metal oxide Cu=
+1, the metal oxide Cu= 1/3 can withstand 30 consecutive charging/ 
+discharging operating conditions without any significant reduction in 
+performance. This is a good news because the exhibiting excellent cycle 
+stability occupies an irreplaceable role in practical applications. 
+In order to analyze and compare the difference in more detail, the 30 
+mass change curve with temperature is shown in Fig. 6 (C,D). As shown 
+in Fig. 6(C), it can be clearly observed that as the number of cycles de­
+creases, the reduction temperature for metal oxide Cu= 1 decreases with 
+the number of cycles. Decreasing from 846.12 ◦C in the 8th time to 
+844.30 ◦C in the 18th cycle, after that, it dropped from 884.30 ◦C in the 
+18th to 842.36 ◦C in the 23rd one. This shows that the stability of metal 
+oxide Cu= 1 becomes worse and the cycle performance decreases as the 
+number of cycles increases; while for the metal oxide Cu=1/3, the 
+reduction temperature shown in Fig. 6(D) is stable at 825.17 ◦C without 
+significant changes. The termination temperature of the reduction re­
+action is 1034.01 ◦C. As compared with the metal oxide Cu= 1, the 
+temperature is reduced by 12.18±2 ◦C, which makes the reduction 
+temperature far away from the melting point of Cu2O by 1235 ◦C and 
+avoids suboxide. Inhibition of copper sintering should be one of the 
+reasons why the material with the mixed metal oxide Cu= 1/3 shows 
+good cycle stability. Comparing the oxidation reaction temperature of 
+the metal oxide Cu= 1 and Cu= 1/3, it can be clearly observed that as 
+the number of cycles increases, the oxidation temperature metal oxide 
+Cu= 1 decreases , from 1048.92 ◦C in the 8th cycle to 1046.19 ◦C in the 
+18th one. After that, the temperature dropped from 1046.19 ◦C in the 
+18th to 1044.59 ◦C between the 18th and the 23rd cycle. The temper­
+ature of the mixed metal oxide Cu= 1/3 is 91.89±0.70 ◦C lower than 
+that of the mixed metal oxide Cu= 1. After 30 cycles, it was evident that 
+both reduction and oxidation temperature of mixed metal oxide Cu= 1 
+showed a significant decline of the gradient., On the contrary, both 
+reduction and oxidation temperature of mixed metal oxide Cu= 1/3 
+were stable, indicating the suitable cyclic stability of mixed metal oxide 
+Cu= 1/3. Most materials are difficult to apply in TCS systems under high 
+temperature conditions. They sensitively react to sintering process of 
+compacting or generation of a solid mass and will gradually lose their 
+reaction stability with the loss of surface area at high temperatures. The 
+material based on the mixed metal oxide Cu= 1/3 displays excellent 
+cycle stability and it is a potential candidate for practical applications. 
+In the second round of TGA thermogravimetric experiment, we 
+heated the mixed metal oxide Cu=1/3 in a nitrogen atmosphere to 
+1050 ◦C, and then cooled it to 650 ◦C in the air to perform a reoxidation 
+cycle experiment. As shown in Fig. 7, by comparing 5 cycles under inert 
+atmosphere and air atmosphere, the reduction temperature in an inert 
+atmosphere is significantly lower than that in an air atmosphere, with a 
+decrease of 112.39 ◦C. This is because the reduction reaction in an inert 
+atmosphere happened more easily than in an air atmosphere without 
+oxygen partial pressure. While the oxidation temperature in an inert 
+atmosphere has a slight increase compared with that in an air atmo­
+sphere, with an increase of 36.03 ◦C. The mass reduction under inert 
+atmosphere is 4.33 wt%, and the average change in mass under air at­
+mosphere is 3.89 wt%. The difference between the two values is 0.44 wt 
+%, which proves that more complete reduction reaction can occur under 
+inert atmosphere than under air atmosphere. 
+The DSC data analysis for the first and second rounds of the mixed 
+metal oxide Cu= 1/3 was compared and the change of heat flow with 
+time is shown in Fig. 7(C). Through the analysis of Fig. 7(C) it is 
+observed that there are two peaks in the energy absorbed in the 
+reduction stage under an inert atmosphere, which are far greater than 
+the energy in the reduction stage under an air atmosphere. Besides Eq. 
+(6), an additional reaction also occurs as shown in below:  
+12CuMn2O4→6Cu2O+8Mn3O4+5O2                                                  
+(6) 
+This shows that in an inert atmosphere, the reduction reaction will 
+occur more thoroughly and the energy absorbed will be higher. 
+Conclusions 
+In this paper, an improved Pechini method was used to synthesize 
+Cu-Mn-O mixed metal oxides with spinal structure. Thermochemical 
+energy storage of the resulting material were evaluated by thermogra­
+vimetric analysis and differential scanning calorimetry analysis. It was 
+Fig. 7. (A). The curve of CuMn2O4 spinel mass change with temperature under nitrogen-air atmosphere; (B). The curve of CuMn2O4 spinel mass change with 
+temperature under air atmosphere; (C). The 5 times DSC curve of CuMn2O4 spinel in nitrogen-air atmosphere and air atmosphere. 
+J. Fan et al.                                                                                                                                                                                                                                      
+
+
+===== Page 6 =====
+
+Journal of Energy Storage 41 (2021) 102881
+6
+found that sample with Cu mole ratio 1/3 showed suitable cycle stability 
+and more flexible temperature range. Both reduction and oxidation 
+temperature for sample with Cu mole ratio 1/3 maintained stable, 
+indicating the suitable cyclic stability. It can withstand 30 consecutive 
+charging/discharging operating conditions without any significant 
+reduction in performance. It is a potential candidate for thermal energy 
+storage material. Through the comparison of air and nitrogen-air redox 
+cycle, it is revealed that the reduction is more thorough in inert atmo­
+sphere than in air atmosphere. 
+Declaration of Competing Interest 
+There are no conflicts to declare. 
+Acknowledgements 
+This work was financially supported by the Department of Science 
+and Technology of Shanxi Province (201705D211001). 
+References 
+[1] M. Romero, J. Gonzalez-Aguilar, Wires Energy Environ. 3 (2014) 42–59. 
+[2] L.A. Weinstein, J. Loomis, B. Bhatia, D.M. Bierman, E.N. Wang, G. Chen, Chem. 
+Rev. 115 (2015) 12797–12838. 
+[3] M. Romero, A. Steinfeld, Energy Environ. Sci. 5 (2012) 9234–9245. 
+[4] C. Prieto, P. Cooper, A. Ines Fernandez, L.F. Cabeza, Renew. Sustain. Energy Rev. 
+60 (2016) 909–929. 
+[5] C. Agrafiotis, M. Roeb, C. Sattler, Sol. Energy 139 (2016) 695–710. 
+[6] C. Agrafiotis, M. Roeb, M. Schmuecker, C. Sattler, Sol. Energy 114 (2015) 440–458. 
+[7] C. Agrafiotis, S. Tescari, M. Roeb, M. Schmuecker, C. Sattler, Sol. Energy 114 
+(2015) 459–475. 
+[8] L. Andre, S. Abanades, G. Flamant, Renew. Sustain. Energy Rev. 64 (2016) 
+703–715. 
+[9] T. Block, N. Knoblauch, M. Schmuecker, Thermochim. Acta 577 (2014) 25–32. 
+[10] G. Karagiannakis, C. Pagkoura, A. Zygogianni, S. Lorentzou, A.G. Konstandopoulos, 
+in: R. Pitchumani (Ed.), Proceedings of the Solarpaces 2013 International 
+Conference 49, 2014, pp. 820–829. 
+[11] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, ChemSusChem 8 (2015) 
+1947–1954. 
+[12] M. Haenchen, A. Stiel, Z.R. Jovanovic, A. Steinfeld, Ind. Eng. Chem. Res. 51 (2012) 
+7013–7021. 
+[13] P. Zheng, Y. Zhang, Z. Dai, Y. Zheng, K.N. Dinh, J. Yang, R. Dangol, X. Liu, Q. Yan, 
+Small (2018) 14. 
+[14] W. Fang, J. Zhao, T. Wu, Y. Huang, L. Yang, C. Liu, Q. Zhang, K. Huang, Q. Yan, 
+J. Mater. Chem. A 8 (2020) 5913–5918. 
+[15] E. Skliri, J. Miao, J. Xie, G. Liu, T. Salim, B. Liu, Q. Zhang, G.S. Armatas, Appl. 
+Catal. B-Environ. 227 (2018) 330–339. 
+[16] N.W. Hlongwa, D. Sastre, E. Iwuoha, A.J. Carrillo, C. Ikpo, D.P. Serrano, P. Pizarro, 
+J.M. Coronado, Solid State Ionics 320 (2018) 316–324. 
+[17] L. Andre, S. Abanades, L. Cassayre, ACS Appl. Energy Mater. 1 (2018) 3385–3395. 
+[18] L. Andre, S. Abanades, L. Cassayre, J. Solid State Chem. 253 (2017) 6–14. 
+[19] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, J. Phys. Chem. C 120 (2016) 
+27800–27812. 
+[20] T. Block, M. Schmuecker, Sol. Energy 126 (2016) 195–207. 
+[21] A. Zaki, J. Carrasco, D. Bielsa, A. Faik, ACS Appl. Mater. Interface 12 (2020) 
+7010–7020. 
+[22] A. Zaki, D. Bielsa, A. Faik, in: C. Richter (Ed.), Solarpaces 2018: International 
+Conference on Concentrating Solar Power and Chemical Energy Systems, 2019, 
+p. 2126. 
+J. Fan et al.                                                                                                                                                                                                                                      

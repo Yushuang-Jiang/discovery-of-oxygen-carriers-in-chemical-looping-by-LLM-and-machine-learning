@@ -1,0 +1,825 @@
+
+
+===== Page 1 =====
+
+第20卷第4期
+2021年8月
+热
+科
+学
+与
+技
+术
+JournalofThermalScienceandTechnology
+Vol.20No.4
+Aug.2021
+文章编号:1671-8097(2021)04-0409-08
+DOI:10.13738/j.
+issn.1671-8097.021044
+Cu-Mn复合载氧体释氧反应性及动力学研究
+李奉翠, 张志远*, 韩雅倩, 周恒涛, 鞠 睿, 虞婷婷, 付浩卡
+(河南城建学院能源与建筑环境工程学院,河南平顶山467036 )
+摘要:载氧体作为化学链转换技术的核心与关键,其性能决定了反应过程的经济性和稳定性。采用石墨成
+孔浸渍法制备了4种不同含量Cu修饰的Cu-Mn复合载氧体,对其进行了表征和抗磨损性能实验。在热重分
+析仪上研究了载氧体的释氧特性和循环反应特性,并采用Model-freemethod分析了载氧体的释氧动力学特
+性。结果表明:载氧体制备过程中活性组分CuO 和Mn2O3 并未与惰性载体MgO 发生化学反应;Cu修饰对
+载氧体具有拓孔作用,可以显著提高载氧体比表面积和总释氧量,降低释氧所需温度,缩短释氧时间,降低释
+氧活化能;但随着Cu含量的增加,载氧体抗烧结性能和抗磨损性能逐渐降低,且随着循环次数增加,载氧体
+循环反应性能降低。
+关键词:载氧体;化学链;释氧;循环反应;动力学
+中图分类号:TK16
+文献标识码:A
+收稿日期:2021-02-09; 修回日期:2021-03-20.
+基金项目:河南省科技攻关计划资助项目(212102310579,202102310286);河南省青年人才托举工程资助项目(2021HYTP020);河
+南省高等学校重点科研资助项目(20B480001).
+作者简介:李奉翠(第一作者),女,山东济南人,1975年生,硕士,副教授,主要研究方向为能源高效利用技术.E-mail:30040501@
+hncj.edu.cn;
+张志远(通信作者),男,河南漯河人,1989年生,博士,讲师,主要研究方向为能源高效利用技术.E-mail:605072113@
+qq.com
+0 引 言
+化学链(chemicallooping)的概念最早在20
+世纪初被提出,主要指将某特定化学反应通过化
+学介质分为多步完成[1]。随着能源与环保的双重
+压力日益加剧,石化能源的化学链转换技术逐渐
+被学者们关注。石化能源的化学链转换技术中利
+用载氧体中的晶格氧代替常规反应中的氧气,向
+燃料提供反应所需的氧元素,可以进一步降低污
+染,便于CO2 分离和捕捉,提高能源的利用率[2]。
+在化学链转换技术中,载氧体需要不断地还
+原和再生,重复发生氧化-还原反应,起到传递热
+量和提供晶格氧的作用[3-4]。因此,制备和选择良
+好性能的载氧体是化学链转换技术的核心与关
+键。可作为载氧体的活性成分主要有CaSO4、
+BaSO4、SrSO4 等硫酸盐,以及Ni、Fe、Cu 和Mn
+的氧化物[5-8]。其中,锰基载氧体价格低廉,反应
+活性相对适中,机械强度良好,对环境污染小,被
+认为是非常具有潜力的载氧体。
+为进一步获得性能优良的载氧体,学者们采
+用人工合成的方法,将某种或某几种活性成分负
+载到惰性载体上制备出复合型锰基载氧体,以期
+获得较好的物理化学特性。陈智豪等[9]通过溶胶
+凝胶燃烧法合成了MnFeO3 和MnFe2O4 复合氧
+载体,发现复合锰基载氧体可以大幅提高合成气
+中H2 和CO 的产率。Adanez等[10]研究发现,当
+惰性载体采用SiO2、TiO2 和MgAl
+2O4 时,锰的
+氧化物会与之反应形成新的化合物,导致载氧体
+中活性成分减少,进而降低了载氧体反应能力。
+Johansson等[11]选取ZrO2 作锰基载氧体的惰性
+载体,发现制备的载氧体在单流化床实验中具有
+良好的活性和稳定性,但是会出现团聚现象。
+Mattisson 等[12] 研究发现,制备的Mn2O3/γ-
+Al
+2O3 载氧体在循环过程中反应活性降低,这可
+能由于Mn2O3 与Al
+2O3 产生化学反应所造成。
+学者们研究发现,锰基载氧体易在反应过程
+中与其他化合物结合,降低载氧体活性,这极大地
+限制了锰基载氧体的进一步开发利用。因此,需
+寻找合适的惰性载体和修饰物,以提高锰基载氧
+体的相关性能。Cu基载氧体具较高的反应活性,
+
+
+===== Page 2 =====
+
+常用于复合载氧体制备过程中作为修饰物。基于
+此,本文选用MgO 作为惰性载体,利用石墨成孔
+浸渍法制备了不同Cu含量的Cu-Mn复合载氧
+体,并进行了相关表征分析以及磨损性能实验。
+在热重分析仪上考察了载氧体的释氧反应特性以
+及循环反应能力,采用Model-free Method研究
+了载氧体的释氧活化能。本文的研究结果以期能
+为Cu-Mn复合载氧体更好的运用于化学链燃烧
+系统提供指导。
+1 实验部分
+1.1 载氧体制备
+石墨成孔浸渍法制备载氧体可以获得孔隙丰
+富的载氧体颗粒,因此本文采用该方法进行
+Cu-Mn复合载氧体制备。活性组分、修饰物以及
+惰性载体的前驱体分别为体积分数为50% 的
+Mn(NO3)
+2 溶液、Cu(NO3)
+2 ·3H2O 和MgO。
+首先,选用石墨粉作为造孔剂与MgO 按1∶4的
+质量比在玛瑙砚体中混合研磨。然后,加入适量
+的去离子水进行充分混合搅拌,在900 ℃的马弗
+炉中煅烧6.00 h,制备出惰性载体。将Cu
+(NO3)
+2·3H2O、Mn(NO3)
+2 溶液和惰性载体按
+表1所示的理论成分质量比折算后,溶于适量的
+去离子水中,在60℃的恒温磁力搅拌器中充分搅
+拌至糊状。最后,将混合物置于O2 气氛的管式
+炉中,在700 ℃温度下焙烧6.00h,然后保持O2
+气氛不变降低温度至室温,得到所需的载氧体,此
+时认为载氧体充分吸氧,将得到的载氧体破碎后筛
+分,选取粒径为100~150μm 的颗粒作为实验样
+品。制备的4 种载氧体分别记为Cu0Mn7Mg3、
+Cu1Mn6Mg3、Cu2Mn5Mg3和Cu3Mn4Mg3。
+表1 载氧体的理论组成及其质量比
+Tab.1 Theoreticalcompositionandmassratioof
+oxygencarrier
+载氧体
+理论组成
+质量比
+Cu0Mn7Mg3
+Mn2O3,MgO
+7∶3
+Cu1Mn6Mg3
+CuO,Mn2O3,MgO
+1∶6∶3
+Cu2Mn5Mg3
+CuO,Mn2O3,MgO
+2∶5∶3
+Cu3Mn4Mg3
+CuO,Mn2O3,MgO
+3∶4∶3
+1.2 载氧体的表征
+为更好地研究制备的载氧体物理化学性质及
+结构特性,对其进行了XRD 表征、SEM 表征、比
+表面积和孔结构分析。
+XRD表征:德国Bruker公司D8Advance型
+X 射线衍射仪,Cu靶辐射,扫描范围2φ=10°~
+90°,步长为0.01°。
+SEM 表征:日本Hitachi公司S-4800型扫描
+电子显微镜,工作电压为5.0kV。
+比表面积和孔结构分析:美国Micromeritics
+公司ASAP2460型物理吸附仪,采用高纯度氮做
+为吸附剂,在77.3K 温度下对样品进行静态等温
+吸附,在相对压力为0.010~0.995Pa,选取20个
+比压力点进行等温吸附和脱附处理。根据BET
+(Brunauer-Emmett-Teller)法计算比表面积,根
+据BJH(Barrett-Joyner-Halenda)法计算孔结构
+参数。
+1.3 载氧体的抗磨损性能
+载氧体作为化学链燃烧过程中重要的枢纽,
+需要具有较强的抗磨损性能,这一特性关乎载氧
+体的使用寿命,进而影响系统的运行成本。载氧
+体的抗磨损性能实验参考ASTM 的“催化剂D-
+32委员会”颁布的空气喷射法测试磨损标准实验
+方法,在Attrib系列空气喷射磨耗仪上测试。首
+先用降速法分别测定各载氧体样品的最小流化速
+度,然后选择最小流化速度的2倍作为磨损实验
+操作气速[13]。由于化学链燃烧过程中载氧体需
+要长时间循环使用,为更准确地反映载氧体颗粒
+的磨损特性,磨损实验时间设置为12.00h,每隔
+0.50h测定一次载氧体磨损率。
+1.4 载氧体热重实验
+在美国TA 公司Q50型热重分析仪上研究
+载氧体的释氧特性和循环反应特性研究。
+释氧特性研究:称取15mg的载氧体平铺于
+坩埚中,在N2 气氛下以10℃/min的升温速率升
+温至900 ℃,然后在900 ℃温度下保持40.00
+min,考察载氧体释氧量与温度之间的关系。
+循环反应特性:称取15mg的载氧体平铺于
+坩埚中,在O2 气氛下以60℃/min的升温速率迅
+速升温至900℃。释氧阶段,保持温度为900℃,
+将O2 气氛切换为N2 气氛,时长为40.00 min。
+吸氧阶段,将温度降低至700 ℃,保持温度不变,
+将N2 气氛切换为O2 气氛,时长为40.00min。
+1.5 数据处理
+定义磨损实验t时刻载氧体颗粒的磨损率为
+At=
+∑Δmt
+∑Δmt+mat
+×100%
+(1)
+0
+1
+4
+热
+科
+学
+与
+技
+术
+第20卷 
+
+
+===== Page 3 =====
+
+式中:∑Δmt 为磨损实验开始至t时刻内载氧
+体损失的重量,g;mat为磨损实验t时刻对应的载
+氧体的剩余重量,g。
+将得到的磨损率At 对时间微分可以得到磨
+损速率at。
+定义载氧体释氧过程中转化率α由式(2)计算:
+α=(m0-mt)/(m0-ma)
+(2)
+式中:m0 为载氧体初始质量,mg;mt 为t时刻载
+氧体的质量,mg;ma 为载氧体释氧结束时的质
+量,mg。
+2 结果及分析
+2.1 载氧体的物相分析及表面特性
+采用XRD 对制备出的载氧体进行物相分
+析,结果如图1 所示。由图1 可以看出,
+Cu0Mn7Mg3中的主要物相为Mn2O3 和MgO,
+另外3种经过Cu修饰的样品与Cu0Mn7Mg3相
+比主要物相多了CuO 和CuMn2O4。说明在制备
+的过程中,Mn(NO3 )
+2 的主要分解产物为
+Mn2O3,Cu(NO3)
+2 的主要分解产物为CuO,两者
+并未与惰性载体MgO 发生化学反应,但这两种
+活性成分会相互结合形成CuMn2O4。
+4种载氧体的表面形貌特征如图2所示,比
+表面积、孔容及孔径如表2所示。由图2可以看
+出,制备出的载氧体均呈颗粒状,颗粒大小分布较
+为均匀,Cu修饰的样品与Cu0Mn7Mg3相比表面
+更为粗糙。同时,从表2 的结果也可以看出,
+Cu0Mn7Mg3的表面积仅为3.3m
+2/g,孔容为13
+×10
+-3cm
+3/g。
+当加入Cu修饰时,样品的表面积和孔容值
+均高于这一值,而且平均孔径变化不大。说明Cu
+的存在对载氧体具有拓孔作用,采用Cu修饰可
+以显著提高载氧体比表面积,而载氧体比表面积
+的增加主要是由于多孔结构的增加造成的。这种
+加入Cu修饰时出现的拓孔作用,可以用“柯肯达
+尔效应(Kirkendalleffect)”进行解释[14]。在载氧
+体浸渍和煅烧的过程中,载氧体颗粒外表面的
+Cu
+2+ 和Mn
+3+ 会逐渐向浓度较低的载氧体颗粒中
+心迁移,并且整个载氧体颗粒呈电中性,则存在着
+等电荷的空位向相反方向迁移扩散,在扩散路径
+上会形成空位,最终形成空洞,而Cu
+2+ 和Mn
+3+ 之
+间也存在电子转移现象,加剧了空洞的产生。
+2.2 载氧体的抗磨损性能
+为更好地对比载氧体的抗磨损性能,对纯
+       
+  (a)Cu0Mn7Mg3
+  (b)Cu1Mn6Mg3
+  (c)Cu2Mn5Mg3
+  (d)Cu3Mn4Mg3
+图1 载氧体的XRD 谱图
+Fig.1 XRDspectraofoxygencarrier
+Mn2O3 的磨损特性也进行了测定,载氧体的磨损
+率随时间变化的趋势如图3所示。由图3可以看
+出,载氧体的磨损过程随时间变化趋势可以分为
+快速磨损和稳态磨损两个阶段。实验开始阶段为
+快速磨损阶段,该阶段磨损速率较大,而在实验进
+1
+1
+4
+ 第4期   
+李奉翠等:Cu-Mn复合载氧体释氧反应性及动力学研究
+
+
+===== Page 4 =====
+
+       
+(a)Cu0Mn7Mg3
+(b)Cu1Mn6Mg3
+(c)Cu2Mn5Mg3
+(d)Cu3Mn4Mg3
+图2 新鲜载氧体的表观结构
+Fig.2 Structuresofvariousfreshoxygencarriers
+行到6.50h左右,磨损进入稳态磨损阶段,该阶
+段磨损速率显著低于快速磨损阶段。根据载氧体
+循环使用的特点,稳态磨损阶段的磨损情况更能
+体现出载氧体的磨损特性。
+实验结束时载氧体的总磨损率A0 和稳态磨
+损阶段的磨损速率as 如表3所示。可以看出,纯
+Mn2O3 的总磨损率最大,加入惰性载体MgO 后,
+载氧体的总磨损率显著降低,其中Cu0Mn7Mg3
+       
+表2 载氧体的比表面积和孔结构参数
+Tab.2 Specificsurfaceareaandporestructure
+parametersofoxygencarriers
+载氧体
+比表面积/
+(m2·g-1)
+孔容/
+(10-3cm3·g-1)
+孔径/
+nm
+Cu0Mn7Mg3
+10.30
+13
+13.56
+Cu1Mn6Mg3
+13.96
+15
+12.91
+Cu2Mn5Mg3
+17.11
+21
+14.26
+Cu3Mn4Mg3
+19.93
+28
+13.77
+图3 载氧体的磨损特性
+Fig.3 Attritionrateofoxygencarriers
+表3 载氧体的磨损特性参数
+Tab.3 Wearcharacteristicparametersofoxygencarriers
+载氧体
+A0/%
+as/(%·h-1)
+Mn2O3
+0.5286
+0.02787
+Cu0Mn7Mg3
+0.2198
+0.01053
+Cu1Mn6Mg3
+0.2415
+0.01147
+Cu2Mn5Mg3
+0.2549
+0.01211
+Cu3Mn4Mg3
+0.3371
+0.01386
+的总磨损率最小,仅为0.2198%。同时,载氧体
+的总磨损率与稳态磨损阶段的磨损速率均随着
+Cu含量的增加而增加,这主要是由于Cu的掺入
+增加了载氧体的比表面积和孔隙结构,但同时也
+会造成抗磨损性能的降低。
+2.3 载氧体的释氧特性
+图4为4种新鲜载氧体的释氧量随温度和时
+间变化的曲线。由图4可以看出,载氧体的释氧
+过程可以分为3个阶段:1)缓慢释氧阶段,由于
+释氧反应是一个吸热反应,此阶段载氧体所处的
+温度较低,因此,载氧体的释氧较为缓慢;2)快速
+释氧阶段,当载氧体达到某一温度后,会迅速释
+氧,释氧反应剧烈进行;3)释氧停滞阶段,载氧体
+在快速释氧完成后,重量基本趋于稳定,此时认为
+载氧体释氧完全。
+2
+1
+4
+热
+科
+学
+与
+技
+术
+第20卷 
+
+
+===== Page 5 =====
+
+图4 载氧体的释氧量
+Fig.4 Oxygenreleaseofoxygencarriers
+定义载氧体快速释氧阶段开始时的温度和时
+间分别为θ0 和t0,释氧停滞阶段开始时的时间为
+t1,快速释氧阶段持续的时间为Δt,在整个过程中
+总释氧量占样品质量的比例为w。载氧体的释氧
+特性参数如表4所示。可以看出,载氧体快速释
+氧阶段开始时的温度θ0 随着Cu含量的增加而增
+加;载氧体快速释氧阶段开始时的时间t0 和释氧
+停滞阶段开始的时间t1 随着Cu含量的增加而提
+前;载氧体快速释氧阶段持续的时间Δt随着Cu
+含量的增加而缩短;载氧体在整个过程中的总释
+氧量w
+随着Cu 含量的增加而增加。
+Cu3Mn4Mg3快速释氧阶段持续的时间Δt 为
+19.39min,相比Cu0Mn7Mg3缩短了32.57min。
+并且Cu3Mn4Mg3 的总释氧量为4.10%,相比
+Cu0Mn7Mg3提高了1.27%。
+表4 载氧体的释氧特性参数
+Tab.4 Oxygenreleasecharacteristicparameters
+ofoxygencarrier
+载氧体
+θ0/℃
+t0/min
+t1/min
+Δt/min w(O2)/%
+Cu0Mn7Mg3 739.56
+68.96
+120.92
+51.96
+2.83
+Cu1Mn6Mg3 712.51
+66.25
+93.09
+26.84
+3.31
+Cu2Mn5Mg3 696.42
+64.64
+88.84
+24.20
+3.59
+Cu3Mn4Mg3 668.96
+61.90
+81.29
+19.39
+4.10
+这是由于Cu的掺入使得载氧体的比表面积
+和孔容增大,孔隙结构增多,在载氧体制备时有助
+于吸附更多的氧气,使氧气所占比重增加,而在释
+氧阶段可以有效降低氧气在载氧体内部的扩散阻
+力,提高氧脱附能力,使载氧体在较低的温度下释
+氧,同时缩短释氧时间。
+也有部分学者认为,CuO 和Mn2O3 之间存
+在溢流效应,可以相互促进和改善颗粒表面氧原
+子浓度和迁移率,从而增强载氧体的释氧能
+力[15]。此外,采用石墨成孔浸渍法制备的载氧体
+中存在CuMn2O4,这种物质的晶格内存在Cu离
+子和Mn离子间的电子转移:Cu
+2+ +Mn
+3+ ↔Cu
++
++Mn
+4+ ,提高了反应活性[16]。
+2.4 载氧体的循环反应特性
+图5为4种载氧体释氧量随循环次数的变化
+关系。由图3可以看出,4种样品均在第1次循
+环时释氧量达到最大值,而在后续的循环中,释氧
+量未达到与第1次循环时释氧量相当的水平。这
+可能是由于第1次循环中,采用的是新鲜载氧体,
+其制备的过程从高温到常温均处于氧气气氛,而
+在后续的循环中载氧体是在700℃的温度下进行
+吸氧,载氧体在温度较高时的吸氧量要弱于常温
+下的吸氧,因此新鲜载氧体的第1次释氧量最大。
+Cu0Mn7Mg3、Cu1Mn6Mg3和Cu2Mn5Mg3从第
+2次循环开始,释氧量均基本保持稳定,分别维持
+在2.79%、3.21%和3.51%,说明这3种载氧体
+的循环反应特性随着循环次数的增加变化不大,
+具有较好的循环稳定性。Cu3Mn4Mg3在第2到
+5次循环时释氧量基本维持在4.01%左右,而从
+第6次循环开始,载氧体的释氧量随着循环次数
+的增加而逐渐降低。Cu3Mn4Mg3 循环第10 次
+时的载氧量与循环第5 次相比,释氧量下降了
+0.20%左右。因此,增加Cu 含量可以提高载氧
+体的吸氧-释氧能力,但当Cu含量增加过多时,会
+出现随着循环次数增加,载氧体循环反应性能降
+低的现象。
+图5 载氧体释氧量随循环次数的变化
+Fig.5 Variationofoxygenreleaseofoxygencarriers
+withcycletimes
+图6为4种载氧体循环10次后的表面形貌
+特征。由图6可以看出,与新鲜载氧体相比,在经
+过多次循环后载氧体均出现了烧结现象,其中
+Cu3Mn4Mg3在循环10次后的烧结现象最为严
+重。这说明当Cu含量过高时,随着循环次数的
+3
+1
+4
+ 第4期   
+李奉翠等:Cu-Mn复合载氧体释氧反应性及动力学研究
+
+
+===== Page 6 =====
+
+       
+(a)Cu0Mn7Mg3
+(b)Cu1Mn6Mg3
+(c)Cu2Mn5Mg3
+(d)Cu3Mn4Mg3
+图6 循环10次后载氧体的表观结构
+Fig.6 Surfacetopographyofoxygencarriersaftertencycles
+增加,载氧体更易出现烧结现象,导致部分孔隙结构
+被堵塞,造成随着循环次数增加释氧量下降的现象。
+2.5 释氧动力学分析
+载氧体释氧反应动力学方程遵循气固反应的
+一般方程:
+dα
+dt=kf(α)
+(3)
+式(3)中的反应速率常数k 遵循Arrhenius
+定律k=Ae
+- E
+RT ,将其带入式(3)可得
+dα
+dt=Ae
+- E
+RTf(α)
+(4)
+升温速率β可以表示为
+β=dT
+dt
+(5)
+将式(5)带入式(4)可得
+dα
+dT=A
+βe
+- E
+RTf(α)
+(6)
+式中:
+α为载氧体的转化率;T 为温度,K;A 为指
+前因子,s
+-1;E 为活化能,kJ/mol;R 为通用气体
+常数;f(α)为反应机理函数。
+传统的单升温速率法中,难以保证所选反应
+机理函数的合理性。因此,采用Model-free
+Method研究各载氧体的释氧活化能。Model-
+freeMethod
+[17]是指用不同升温速率所测得的几
+条热分析曲线来进行动力学分析,可将反应机理
+函数进行分离,从而在不引入动力学模型函数的
+前提条件下得到比较可靠的活化能E 的数值。
+本文用Kissinger-Akahira-SunoseMethod
+[18]
+(KAS)进行活化能E 的计算。KAS采用的是积
+分的方法,其表达式为
+ln( β
+T
+2) =ln AR
+Eg(α)- E
+RT
+(7)
+在不同的升温速率下,取载氧体的转化率α
+为0.1~0.9,步长为0.1,作ln(β/T
+2)-1/T 图,
+由回归直线的斜率得到各转化率所对应的活化能
+E 的数值。各载氧体样品在不同转化率α下对应
+的活化能E 如表5所示。
+由表5可以看出,在整个转化率范围内,载氧
+体的释氧活化能并不是一个定值,随着转化率的
+升高,活化能呈增加的趋势;相同转化率下,随着
+Cu含量的增加,载氧体的释氧活化能逐渐降低。
+转化率α<0.3和α>0.7,载氧体释氧活化能差
+异较大,且线性相关系数较低。转化率在0.3到
+0.7时,载氧体的活化能基本一致,且线性相关系
+数r均在0.995以上,说明计算的活化能可靠性
+较强。将各样品在转化率在0.3到0.7时得到的
+活化能进行平均值计算,可以得到Cu0Mn7Mg3、
+Cu1Mn6Mg3、Cu2Mn5Mg3和Cu3Mn4Mg3的平
+均释氧活化能分别为496.8、395.6、336.6 和
+4
+1
+4
+热
+科
+学
+与
+技
+术
+第20卷 
+
+
+===== Page 7 =====
+
+       
+表5 载氧体释氧过程的活化能
+Tab.5 Activationenergiesofoxygenreleaseforoxygencarriers
+α
+Cu0Mn7Mg3
+Cu1Mn6Mg3
+Cu2Mn5Mg3
+Cu3Mn4Mg3
+E/(kJ·mol-1)
+r
+E/(kJ·mol-1)
+r
+E/(kJ·mol-1)
+r
+E/(kJ·mol-1)
+r
+0.1
+89
+0.936
+84
+0.903
+75
+0.917
+63
+0.946
+0.2
+295
+0.994
+246
+0.989
+221
+0.995
+194
+0.994
+0.3
+486
+0.997
+381
+0.995
+327
+0.998
+245
+0.997
+0.4
+491
+0.997
+395
+0.998
+337
+0.998
+240
+0.998
+0.5
+499
+0.996
+398
+0.996
+336
+0.997
+247
+0.999
+0.6
+503
+0.996
+401
+0.996
+342
+0.997
+240
+0.999
+0.7
+505
+0.998
+403
+0.997
+341
+0.997
+235
+0.998
+0.8
+578
+0.976
+465
+0.989
+377
+0.983
+279
+0.990
+0.9
+719
+0.918
+546
+0.923
+444
+0.920
+388
+0.941
+241.4kJ/mol。说明Cu的修饰可以降低载氧体释
+氧所需的活化能,与之前实验得到的结论相吻合。
+3 结 论
+1)载氧体制备过程中,活性组分CuO 和
+Mn2O3 并未与惰性载体MgO 发生化学反应。采
+用Cu修饰可以使载氧体的比表面积和孔容增
+大,孔隙结构增多,释氧阶段可以有效降低氧气在
+载氧体内部的扩散阻力,提高氧脱附能力,促进载
+氧体在较低的温度下释氧,同时缩短释氧时间,提
+高总释氧量。
+2)随着Cu含量的增加,载氧体的总磨损率
+与稳态磨损阶段的磨损速率均增大,抗磨损性能
+的降低。同时,当Cu含量增加过多时,随着循环
+次数的增加,载氧体更易出现烧结现象,导致部分
+孔隙结构被堵塞,造成随着循环次数增加释氧量
+下降的现象。
+3) 采用Model-free Method 计算得到
+Cu0Mn7Mg3、Cu1Mn6Mg3、Cu2Mn5Mg3
+和
+Cu3Mn4Mg3的平均释氧活化能分别为496.8、
+395.6、336.6和241.4kJ/mol。
+参考文献(References):
+[1] 宋洋博,徐绍平,李伶俐,等.Cu-橄榄石载氧体煤
+焦化学链气化实验研究[J].燃料化学学报,2017,
+45(8):916-923.
+SONG Yangbo,XU Shaoping,LILingli,etal.
+Chemicallooping gasification of coal char with
+Cu-olivineoxygencarriers[J].JournalofThermal
+ScienceandTechnology,2017,45(8):916-923.(in
+Chinese)
+[2] 张泰岩,刘晓锋,彭
+辉,等.基于钾盐修饰Fe基
+载氧体的化学链燃烧研究[J].热科学与技术,
+2020,19(5):486-494.
+ZAHNGTaiyan,LIUXiaofeng,PENG Hui,etal.
+Experimental investigation of chemical looping
+combustionusingFe-basedoxygencarrierdecorated
+with potassium salt [J].Journalof Thermal
+Scienceand Technology,2020,19(5):486-494.
+(inChinese)
+[3] 郭万军,葛晖骏,沈来宏,等.基于铁矿石载氧体
+25kWth串行流化床生物质化学链气化实验研
+究[J].热科学与技术,2017,16(1):78-86.
+GUO Wanjun,GE Huijun,SHEN Laihong,etal.
+Experimentalstudyonchemicalloopinggasfication
+ofbiomasswithhematitebaseon25kWthfluidized
+beds[J].Journalof ThermalScienceand Tech-
+nology,2017,16(1):78-86.(inChinese)
+[4] 王翠苹,李勇鹏,黄
+飞,等.基于热重分析的不
+同态铁基载氧体与炭黑反应特性的研究[J].热科
+学与技术,2017,16(5):351-356.
+WANG Cuiping, LI Yongpeng, HUANG Fei,
+etal.Studyonreactioncharacteristicsofdifferent
+iron-based oxygen containers and carbon blacks
+basedonthermogravimetricanalysis [J].Journal
+ofThermalScienceandTechnology,2017,16(5):
+351-356.(
+inChinese)
+[5] RYDÉN M,CLEVERSTAM E,JOHANSSON M,
+etal.Fe2O3onCe-,Ca-,orMg-stabilizedZrO2as
+oxygen carrier for chemical-looping combustion
+usingNiOasadditive[J].AIChEJournal,2010,
+56(8):2211-2220.
+[6] ZHANGS,XIAOR,YANGY,etal.CO2capture
+anddesulfurizationinchemicalloopingcombustion
+ofcoalwithaCaSO4 oxygencarrier[J].Chemical
+Engineering & Technology,2013,36(9):1469-
+1478.
+[7] GAYÁNP,PANSM A,ORTIZM,etal.Testing
+of a highly reactive impregnated Fe2O3/Al
+2O3,
+oxygencarrierforaSR-CLCsysteminacontinuous
+CLCunit[J].FuelProcessingTechnology,2012,
+96(4):37-47.
+5
+1
+4
+ 第4期   
+李奉翠等:Cu-Mn复合载氧体释氧反应性及动力学研究
+
+
+===== Page 8 =====
+
+[8] DENNISJS,SCOTTSA.Insitu,gasificationofa
+lignitecoaland CO2,separation using chemical
+loopingwithaCu-basedoxygencarrier[J].Fuel,
+2010,89(7):1623-1640.
+[9] 陈智豪, 廖艳芬, 莫
+菲, 等. MnFeO3 和
+MnFe2O4 氧载体在稻草化学链气化中的应用[J].
+化工学报,2019,70(12):4835-4846.
+CHENZhihao,LIAO Yanfen,MOFei,etal.Ap-
+plicationofMnFeO3 and MnFe
+2O4 asoxygencarriers
+forstrawchemicalloopinggasification [J].CIESC
+Jorunal,2019,70(12):4835-4846.(inChinese)
+[10]ADÁNEZJ,DIEGO L F D,GARCÍALABIANO
+F,etal.Selectionofoxygencarriersforchemical-
+loopingcombustion [J].Energy & Fuels,2004,
+18(2):371-377.
+[11]JOHANSSON M,MATTISSON T,LYNGFELT
+A.Comparison ofoxygen carriersforchemical-
+loopingcombustionusing methane-richfuels [J].
+ThermalScience,2006,10:93-107.
+[12]MATTISSON T,JOHANSSON M,LYNGFELT
+A.TheuseofNiOasanoxygencarrierinchemical-loo-
+pingcombustion[J].Fuel,2006,85(5-6):736-747.
+[13]郗艳荣,刘永卓,田红景,等.规模化制备钙基复
+合载氧体的性能研究[J].高校化学工程学报,
+2014,28(1):51-58.
+XI Yanrong,LIU Yongzhuo, TIAN Hongjing,
+etal.PerformanceoflargescalepreparedCa-Based
+compoundoxygencarrier[J].JournalofChemical
+EngineeringofChineseUniversities,2014,28(1):
+51-58.(inChinese)
+[14]HEF,LINAK W P,DENGS,etal.Particulate
+formationfromacopperoxide-basedoxygencarrier
+inchemicalloopingcombustionforCO2capture[J].
+EnvironmentalScience & Technology,2017,51
+(4):2482-2490.
+[15]BUCIUMANFC,PATCASF,HAHNT.Aspill-
+overapproachtooxidationcatalysisovercopperand
+manganesemixedoxides [J].ChemicalEngineer-
+ing & Processing:ProcessIntensification,1999,
+38:563-569.
+[16]AZAD A M,HEDAYATIA,RYDÉN M,etal.
+ExaminingtheCu-Mn-Ospinelsystemasanoxygen
+carrierinchemicalloopingcombustion[J].Energy
+Technology,2013,1:59-69.
+[17]KOK M V ,TOPA E.Thermalcharacterization
+and model-free kineticsofbiodieselsample [J].
+Journalof Thermal Analysisand Calorimetry,
+2015,122(2):955-961.
+[18]STARINK M J.Thedetermination ofactivation
+energyfromlinearheatingrateexperiments:acompari-
+sonoftheaccuracyofisoconversion methods [J].
+ThermochimicaActa,2003,404(1):163-176.
+OxygenreleasereactivityandkineticsofCu-Mncompositeoxygencarriers
+LI Fengcui, ZHANG Zhiyuan
+* , HAN Yaqian, ZHOU Hengtao,
+JU Rui, YU Tingting, FU Haoka
+(SchoolofEnergy& ArchitecturalEnvironmentEngineering,HenanUniversityofUrbanConstruction,
+Pingdingshan467036,China)
+Abstract:Asthecoreandkeyofchemicalloopingconversiontechnology,theperformanceofoxygen
+carrierdeterminestheeconomyandstabilityofthereactionprocess.FourkindsofCu-Mncomposite
+oxygencarrierswithdifferentcontentofCu werepreparedbygraphiteporeformingimpregnation
+method,and their surface features and wear resistance were analyzed. The oxygen release
+characteristicsandcyclicreactioncharacteristicsofoxygencarrierswerestudiedbythermogravimetric
+analyzer,andthe oxygenrelease kineticscharacteristicsofoxygen carriers wereanalyzed with
+Model-freemethod.TheresultssuggestthatCuO and Mn2O3 donotreactwith MgO duringthe
+preparationprocess.Cu modificationcansignificantlyincreasethespecificsurfaceareaandtotal
+oxygenreleaseoftheoxygencarrier,reducetheoxygenreleasetemperature,shortentheoxygen
+releasetimeandreducetheoxygenreleaseactivationenergy.However,thesinteringresistanceand
+wearresistanceoftheoxygencarrierdecreasegraduallyastheCucontentincrease,andthecycling
+reactionperformanceoftheoxygencarrierdecreasesasthecyclingtimesincreases.
+Keywords:oxygencarrier;chemicalchain;oxygenrelease;cyclicreaction;kinetics
+[责任编辑:郭万慧]
+6
+1
+4
+热
+科
+学
+与
+技
+术
+第20卷 

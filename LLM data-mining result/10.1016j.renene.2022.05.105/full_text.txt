@@ -1,0 +1,1261 @@
+
+
+===== Page 1 =====
+
+Direct solar thermochemical CO2 splitting based on Ca- and Al- doped
+SmMnO3 perovskites: Ultrahigh CO yield within small temperature
+swing
+Ke Gao , Xianglei Liu *, Zhixing Jiang , Hangbin Zheng , Chao Song , Xinrui Wang ,
+Cheng Tian , Chunzhuo Dang , Nan Sun , Yimin Xuan
+School of Energy and Power Engineering, Nanjing University of Aeronautics and Astronautics, Nanjing, 210016, China
+a r t i c l e
+i n f o
+Article history:
+Received 5 February 2022
+Received in revised form
+5 May 2022
+Accepted 17 May 2022
+Available online 27 May 2022
+Keywords:
+Solar thermochemical
+CO2 splitting
+Solar fuels
+Perovskites
+a b s t r a c t
+Solar thermochemical CO2 splitting is a promising route to reduce environment pollution and mitigate
+energy crisis. However, traditional redox materials are limited by low CO production, slow reaction ki-
+netics, and poor cycling stability, which results in low solar-to-fuel efﬁciency. Here, Ca- and Al- doped
+SmMnO3 perovskites are proposed for high-performance solar thermochemical CO2 splitting. The
+average CO yield of Sm0.6Ca0.4Mn0.8Al0.2O3 reaches a record-high value of 595.56 mmol g1 when
+swinging between 1350 C and 1100 C. The CO yield is about 4.22 times as high as that of undoped
+SmMnO3 (140.97 mmol g1) under the same conditions, and remains stable over multiple cycling. The
+ultrahigh CO yield can be attributed to the transformation of reaction mechanism from solid-state sur-
+face reaction (F2) to bulk diffusion model (D2). Besides, Ca- and Al- doped SmMnO3 perovskites possess
+high solar absorptance over 86.5% (in stark contrast to 12.1% of CeO2), so that only solar concentration
+ratio of 898 (Sm0.6Ca0.4Mn0.8Al0.2O3) is required to drive thermochemical reactions while benchmark
+CeO2 needs 1936. This work provides novel approaches for high-performance solar thermochemical CO2
+splitting with high CO yield, good cycle stability, small temperature swing, and low solar concentration
+required.
+© 2022 Elsevier Ltd. All rights reserved.
+1. Introduction
+Over the past decades, the massive use of traditional fossil fuels
+has led to serious global warming and energy crisis problems while
+the demand of human activities for clean and sustainable fuels is
+constantly increasing [1e7]. CO2 conversion into fuels is an effective
+route to solve this current dilemma, and various CO2 conversion
+paths have been investigated all over the world, such as electro-
+chemical [8,9], photochemical [10,11], thermochemical [12e20]
+and so on. Among these approaches, solar thermochemical CO2
+splitting over two-step redox cycles has attracted much attention
+owing to high selectivity, wide solar spectrum utilization, and
+simple operation condition, which are described as following
+[21e27]:
+Step 1.
+(reduction, endothermic step):
+MOx!
+þDH;TH
+MOxd þ d2O2
+(1)
+Step 2.
+(reoxidation, exothermic step):
+MOxd þ dCO2!
+DH;TL
+MOx þ dCO
+(2)
+where MOx and MOx-d stand for oxidized and reduced metal oxide,
+respectively, and d represents the non-stoichiometry of metal ox-
+ide. As shown in Fig.1a, for the endothermic reaction (Step 1), metal
+oxide releases lattice oxygen to form oxygen vacancies under highly
+concentrated solar energy. For the exothermic process (Step 2), the
+reduced metal oxide takes away the O atoms in CO2 molecule, and
+then produces CO by ﬁlling the oxygen vacancies formed in the ﬁrst
+step [28e33].
+To achieve high-performance solar thermochemical CO2 split-
+ting, various redox materials have been investigated, and particu-
+larly Ce-based catalysts have demonstrated great potentials and
+* Corresponding author.
+E-mail addresses: gaokee@nuaa.edu.cn (K. Gao), xliu@nuaa.edu.cn (X. Liu),
+844438083@nuaa.edu.cn (Z. Jiang), hbnuaa@nuaa.edu.cn (H. Zheng), songchao@
+nuaa.edu.cn (C. Song), xinruiwang@nuaa.edu.cn (X. Wang), tiancheng@nuaa.edu.
+cn (C. Tian),
+czdang@nuaa.edu.cn (C.
+Dang), sunnan@nuaa.edu.cn (N. Sun),
+ymxuan@nuaa.edu.cn (Y. Xuan).
+Contents lists available at ScienceDirect
+Renewable Energy
+journal homepage: www.elsevier.com/locate/renene
+https://doi.org/10.1016/j.renene.2022.05.105
+0960-1481/© 2022 Elsevier Ltd. All rights reserved.
+Renewable Energy 194 (2022) 482e494
+
+
+===== Page 2 =====
+
+treated as benchmarks. For example, Jacot et al. pointed out Hf-, Zr-,
+and Ta- doped ceria display higher oxygen exchange capacity than
+pristine ceria to release more oxygen during reduction process [34].
+Zhu et al. reported that 15% Zr- doped CeO2 exhibited high perfor-
+mance with the CO production of 315.4 mmol g1 (1500/1000 C)
+[35]. Nevertheless, there is still a large gap between currently re-
+ported solar-to-fuel efﬁciency with the theoretical limit [21,36].
+Low CO production, high operation temperature, and high solar
+concentration required are three important reasons. To tackle
+aforementioned challenges, perovskite oxides (ABO3/ABO3-d) have
+drawn increasing attention recently due to their unprecedented
+tunability of thermochemical CO2 splitting performance via doping
+different elements at A- and B- sites [36e42]. For example, Wang
+et al. pointed out LaCo0.7Zr0.3O3 can achieve CO production of
+1066.6 mmol g1 when swinging between 1300 C and 800 C.
+Nevertheless, under such a wide temperature swing range (500 C),
+the sensible heat loss increases signiﬁcantly during cycling process
+[43]. Therefore, achieving high CO yield within a small swing
+temperature difference is highly desired [44e47].
+Efﬁcient system design is also vital for high-performance solar
+thermochemical CO2 splitting. To reduce radiative heat losses and
+enhance solar-to-fuel energy efﬁciency, various direct solar-driven
+reactors have been proposed. For example, Furler et al. designed a
+solar cavity-receiver containing porous CeO2 foams, and reported a
+peak solar-to-fuel efﬁciency of 3.53% [48]. Based on a similar sys-
+tem design, Abanades et al. replaced porous foams via ﬁbrous pel-
+lets and obtained a higher peak solar-to-fuel efﬁciency of 9.40%
+[49]. Nevertheless, redox cycling is inevitably accomplished by
+frequently switching ﬂow of inert gas and CO2 reactants for these
+ﬁxed bed reactors. Recently, Milanese et al. reported a new solar
+reactor based on a double-loop ﬂuidized bed and achieved
+continuous operation [50]. They further employed multi-parameter
+optimization to obtain the best conﬁguration of the double-loop
+ﬂuidized bed solar reactor, and predicted an average efﬁciency of
+29.96% over one year, with a maximum value of 59.46% [51]. For
+aforementioned direct solar-driven reactors whether ﬁxed bed or
+ﬂuidized bed, a high solar absorptance of materials is always sig-
+niﬁcant to achieve a high solar-to-fuel efﬁciency. Therefore, ideal
+redox materials should possess high CO yield, small swing tem-
+perature difference, and high solar absorptance simultaneously.
+In this work, Ca- and Al- doped SmMnO3 are proposed for high-
+performance thermochemical CO2 splitting. Redox properties of
+different Ca and Al doping ratios based on SmMnO3 are studied, and
+the optimal Sm/Ca and Mn/Al ratio are found to be 0.6:0.4 and
+0.8:0.2, Sm0.6Ca0.4Mn0.8Al0.2O3 namely. A record-high CO yield of
+595.56 mmol g1 is demonstrated over small temperature swing
+between 1350 C and 1100 C, which is about 4.22 times as high as
+that of undoped SmMnO3. And, no obvious degradation is found
+over multiply cycles. Effects of different reduction and oxidation
+temperature
+on
+thermochemical
+CO2
+splitting
+properties
+of
+Sm0.6Ca0.4Mn0.8Al0.2O3 are investigated, and the solid-state reac-
+tion mechanism is revealed. Moreover, the average solar absorp-
+tance reaches 86.5%, which is about 7.15 times as high as that of
+benchmark CeO2, resulting in a much lower solar concentration
+ratio needed to drive solar thermochemical CO2 splitting reactions.
+2. Experimental section
+2.1. Material synthesis
+All perovskite powder samples based on SmMnO3 are synthe-
+sized via a sol-gel method using citric acid as the complexing agent.
+Sm(NO3)3$6H2O,
+Ca(NO3)2$4H2O,
+Al(NO3)3$9H2O
+and
+Mn(CH3COO)2$4H2O are used as metal precursors without further
+puriﬁcation. The molar ratio of citric acid (C6H8O7$H2O) and metal
+cations is kept at 1.5:1. Firstly, precursors are calculated and
+weighted according to the corresponding chemical formula, fol-
+lowed by dissolving precursors and citric acid together in a beaker
+with 100 mL of deionized water. The mixed solution is then heated
+to 90 C with continuous stirring. The mixture becomes sol after DI
+water being evaporated. After that, sol is dried at 120 C for 24 h,
+and then milled into powders and calcined in a high temperature
+furnace at 1400 C in air for 6 h to eliminate organics. Finally, the
+perovskite sample is transferred into an agate mortar and collected
+for subsequent thermochemical tests and characterizations.
+2.2. Material characterization
+X-ray diffraction patterns (XRD) are recorded via the Bruker D8
+ADVANCE, and the operating current and voltage are 40 mA and
+40 kV, respectively. All samples are scanned at a scanning rate of
+0.02 s1 in the 2q ranging from 10 to 90. The morphologies of all
+perovskite powders are observed via scanning electron microscopy
+(GeminiSEM 300) at an acceleration voltage of 2 kV. The element
+composition and distribution of samples are investigated by using
+the XFlash 6160. The proportions of each metal element for all
+samples are analyzed by the Inductively Coupled Plasma (ICP,
+Varian 720-ES). The solar absorptance of all samples at different
+wavelengths is observed on PerkinElmer (Lambda 1050þ) and
+Thermo SCIENTIFIC (iS50 FT-IR). X-ray photoelectron spectroscopy
+(XPS) measurement is conducted by an ESCALAB 250Xi spectrom-
+eter (THERMO Scientiﬁc), using a non-monochromatized AlKa X-
+ray (hn ¼ 1486.65 eV) source.
+Fig. 1. (a) The general schematic of solar thermochemical CO2 splitting for CO production; (b) The experimental setup for redox cycles.
+K. Gao, X. Liu, Z. Jiang et al.
+Renewable Energy 194 (2022) 482e494
+483
+
+
+===== Page 3 =====
+
+2.3. Thermochemical performance measurements
+All samples are weighted as 0.2 g and tested for four cycles in the
+experiment setup, which is shown in Fig. 1b. The air in the high-
+temperature tubular furnace is ﬁrst removed by a vacuum pump.
+After that, the large ﬂow rate of high purity Ar (99.999%) is purged
+into a tubular furnace for 1 h to reduce the partial pressure of ox-
+ygen and then set the ﬂow rate of Ar to 200 mL min1 for 2 h. Then,
+the thermochemical cycle can be run. After that, each sample is
+heated to 1350 C at a heating rate of 10 C min1 and kept at the
+same temperature for 60 min with a constant ﬂow rate of
+200 mL min1 of Ar. The reoxidation process is performed at
+1100 C for 90 min with Ar and CO2 (99.999%) controlled at the ﬂow
+rate of 100 mL min1 individually (50% CO2 and 50% Ar), then CO2
+reacted with oxygen-deﬁcient powders to release CO. The testing
+concentrations of O2 and CO produced in the reduction and
+oxidation process are detected by O2 detector (YF-A01) and CO
+detector (CHeHeCO1000), both of which are calibrated via stan-
+dard gas to guarantee the measurement accuracy.
+Both the amount of O2 produced in the reduction step and CO
+released in the reoxidation step can be calculated by integrating the
+measured concentration curve, as follows [42,46]:
+nO2 ¼
+v,
+ðt2
+t1
+cO2 dt
+Vm$mperovskite
+(3)
+nCO ¼
+v,
+ðt4
+t3
+cCO dt
+Vm$mperovskite
+(4)
+where v is the ﬂow velocity of gas, t1, t2, t3, and t4 are the start and
+ﬁnish time of O2 and CO produced during the experiment,
+respectively, c is the concentration of O2 and CO, Vm is the molar
+volume of gas, and mperovskite is the mass of perovskite.
+3. Result and discussion
+3.1. High solar absorptance and low concentration ratio required for
+CO2 splitting
+Since solar energy is directly irradiated on thermochemical CO2
+splitting materials, their spectral absorption characteristics are very
+important to guarantee a high solar-to-fuel efﬁciency. Fig. 2a de-
+picts solar absorption properties of as prepared perovskites and
+commercial CeO2 from 200 nm to 2500 nm. The solar absorptance
+of CeO2 is mainly distributed in UVeVis. For better evaluation of
+full-spectrum solar absorption properties of different materials, the
+average solar absorptance (a) is deﬁned as [46]:
+a ¼
+ð2500nm
+200nm
+aðlÞIAM1:5ðlÞdl
+ð2500nm
+200nm
+IAM1:5ðlÞdl
+(5)
+where l represents the testing wavelength, aðlÞ represents the
+spectral absorptance in real wavelength, and I(l) represents the
+spectral irradiance under AM1.5, respectively. The Sm0.6Ca0.4M-
+n0.8Al0.2O3,
+Sm0.6Ca0.4Mn0.6Al0.4O3,
+Sm0.6Ca0.4Mn0.4Al0.6O3
+and
+Sm0.6Ca0.4Mn0.2Al0.8O3
+are
+abbreviated
+as
+SCMA20,
+SCMA40,
+SCMA60, and SCMA80 for simple description, respectively. In
+Fig. 2b, it can be obviously found that the average solar absorptance
+of all perovskites (expect SCMA80) is over 86.5%, which is about
+7.15 times as high as that of CeO2 (12.1%). The reason for this
+difference can be mainly attributed to presence of Mn ions with
+high solar absorptance, however, as the Mn- doped content reduces
+to be lower than 20 atom%, the average spectral absorption de-
+creases signiﬁcantly. High solar absorptance of proposed perov-
+skites helps to reduce reﬂection losses and thus contributes to
+higher solar-to-fuel efﬁciency.
+The infrared spectral emittance of different samples ranging
+from 2.5 mm to 16 mm is also measured as illustrated in Fig. 2c.
+Again, SCMA20 and SCMA40 have higher emittance than CeO2, but
+their differences are not as large as that for solar absorptance. By
+balancing solar absorptance and spectral emittance, the minimum
+concentration ratio to drive thermochemical reactions can be ob-
+tained. Speciﬁcally, by only considering convection heat transfer
+losses, the minimum required concentration ratio can be obtained
+as follows [42,46]:
+Cc ,
+ð
+2500 nm
+0
+IAM1:5ðlÞaðlÞdl  h,DT ¼
+ð∞
+0
+εðlÞEbðl; TÞdl
+(6)
+where εðlÞ represents the spectral emissivity of an object, and is
+equal to aðlÞ according to Kirchhoff's law, h is the convective heat
+transfer coefﬁcient, Cc is solar concentration ratio, and Ebðl; TÞ
+represents the spectral emissive power of blackbody. For a certain
+temperature, the minimum concentration required to reach such a
+temperature can be obtained from Eq. (6), and is given in Fig. 2d. As
+expected, for a concentration ratio, the temperature that SCMA20
+can reach is much higher than that of CeO2 (Figs. 2d and S1). Clearly,
+it can be found that experiment measurements have an excellent
+agreement with theoretical predictions, for which the heat transfer
+coefﬁcient is taken as 77 and 320 for CeO2 and SCMA20, respec-
+tively. Taking the reduction reaction temperature of 1350 C as a
+case, the minimum concentration required for CeO2 is 1936, while
+that of SCMA20 is only 898, which is ~53.62% smaller compared
+with CeO2. The decrease of the concentration ratio helps make
+thermochemical CO2 splitting system compatible with industrial
+solar concentration infrastructures, and thus promotes its large-
+scale deployment and commercialization.
+3.2. Effects of doping Ca at A site
+After making sure Ca- and Al- doped SmMnO3 possess high solar
+absorptance, now it is time to optimize the doping ratio of Ca. X-ray
+diffraction is ﬁrstly used to reveal the crystal structures of fresh
+perovskite powders. The phase compositions of all perovskite
+powders
+including
+pure
+SmMnO3,
+Sm0.8Ca0.2MnO3,
+and
+Sm0.6Ca0.4MnO3, are shown in Fig. 3. As illustrated in Fig. 3a, pure
+SmMnO3 and Ca-doped SmMnO3 indicate similar XRD patterns,
+which is corresponded to standard card (PDF #25e0747). The
+enlarged peaks ranging 32e34 in Fig. 3b show a slight shift to
+high angle owing to lattice distortion, which is attributed to the
+partial substitution Ca2þ of Sm3þ, demonstrating successful doping
+of Ca. Additionally, it can be noted that phase compositions of all
+samples illustrated no evident change after four thermochemical
+cycles (Fig. 3a and 3c). As described in Fig. 3eej, it can be noticed
+that these perovskite powders show irregular and uneven micro-
+structure at the micron scale, and the morphology indicates no
+signiﬁcant changes after cycling by comparing SEM images of fresh
+and cycled samples. Meanwhile, the particle size of Sm0.6Ca0.4MnO3
+has a slight increase while a prominent particle size increase is
+presented for other two samples (Table 1 and Fig. S2). Moreover,
+Table 2 shows the ICP results of the elemental compositions and
+contents for pure SmMnO3 and Ca-doped SmMnO3 perovskite
+samples. This result indicates that the elemental composition of all
+K. Gao, X. Liu, Z. Jiang et al.
+Renewable Energy 194 (2022) 482e494
+484
+
+
+===== Page 4 =====
+
+powder samples and proportions of each element are basically the
+same as the feed ratio.
+The solar thermochemical CO2 splitting performance of as-
+prepared samples is recorded by O2 and CO detectors. Fig. 4a and
+Fig. 4b represent reaction proﬁles (O2 and CO production rates) and
+temperature ramping change of samples with different Ca-doped
+contents performed with reduction at 1350 C and reoxidation at
+1100 C. As shown in Fig. 4a, the startup temperature for O2 release
+has a strong dependence on the ratio of Ca doping. The startup
+temperature signiﬁcantly decreases with increasing Ca-doped
+content, which decreases from 1205 C to 1173 C (20 atom%) to
+1114 C (40 atom%). Meanwhile, the peak release rate of O2 for
+Sm0.6Ca0.4MnO3 at 1350 C is ~0.135 mmol g1 s1, which is the
+highest for above samples and is about 2.60 times as high as that of
+SmMnO3 (0.052 mmol g1 s1). Fig. 4b shows the CO production rate
+over time during reoxidation process, for Sm0.8Ca0.2MnO3 and
+Sm0.6Ca0.4MnO3, it can be clearly noticed that the CO production
+rate rises rapidly in a short period of time, and slowly falls after
+reaching the reaction peak. As for the CO production rate of
+SmMnO3, it showed a slow rise and remained basically unchanged
+after reaching its peak (0.0267 mmol g1 s1). Meanwhile, the CO
+peak production rate rises as the Ca dopant increases from 0 to 0.4,
+and the maximum rate can be up to 0.416 mmol g1 s1 while Ca
+content is 40 atom%. Fig. 4c and d depict the total O2 and CO average
+yields of all samples in the last three cycles because the releasing of
+O2 and CO is unstable during the ﬁrst cycle. The total O2 yield are
+106.43 mmol g1, 161.83 mmol g1, and 314.10 mmol g1 for Ca
+content of 0, 20%, and 40%, respectively. Hence, the presence of Ca
+at the A site can increase the amount of oxygen released, signiﬁ-
+cantly. At the same time, the total CO yield is also enhanced by
+increasing
+Ca-doped
+content.
+Clearly,
+the
+CO
+yield
+of
+Sm0.6Ca0.4MnO3 is 519.99 mmol g1, followed by Sm0.8Ca0.2MnO3
+(161.83 mmol g1) and SmMnO3 (140.97 mmol g1). Additionally,
+these O2 and CO production rate and yield trends are the same as
+the non-stoichiometric changes of perovskite in the reaction pro-
+cess (Figs. S3a and S3b). For higher Ca doping ratio, Sm0.4Ca0.6MnO3
+and Sm0.2Ca0.8MnO3 are not selected and discussed here, because
+these samples will react with Al2O3 crucible during the calcination
+process. Therefore, it can be clearly found that the optimal content
+of Ca-doping is 40 atom% at A site.
+3.3. Effects of doping Al at B site
+Based on the above analysis and discussion, the best Ca-doped
+content is determined to be 40 atom% at A site. In order to
+further
+improve
+thermochemical
+CO2
+splitting
+performance,
+different Al- doped contents at B site (x ¼ 0.2, 0.4, 0.6 and 0.8) are
+considered and prepared by using the sol-gel method, which are
+similar to Sm0.6Ca0.4MnO3. Fig. 5a illustrates XRD patterns of these
+Sm0.6Ca0.4Mn1-xAlxO3 samples with different Al- doped contents. It
+could be noted that the peak shifts to high angles with increasing Al
+doping ratio, and diffraction peaks shift ~0.5 to high angles
+(Fig. 5b) due to Ca2þ and Al3þ doping, both of which have a smaller
+ion radius. Meanwhile, it was found that the crystal structure shows
+barely change after cycling (Fig. 5aeb and Fig. S4), indicating that
+the perovskite structure is stable.
+In order to compare and analyze the chemical stability and
+probe any changes of the valence states of SCMA20 during the
+whole two-step thermochemical cycle, the Mn 2p and Sm 3d of XPS
+spectrums for the fresh and cycled SCMA20 are indicated in Fig. 5c
+and d. Because of the difference between the Mn 2p3/2 and Mn 2p1/2
+of Mn3þ, each Mn 2p spectrum is ﬁtted by spin-orbital doublets
+Fig. 2. (a) Spectral absorptance, (b) average solar absorptance, and (c) spectral emittance of different samples; (d) the temperature vs. minimum required concentration ratio.
+K. Gao, X. Liu, Z. Jiang et al.
+Renewable Energy 194 (2022) 482e494
+485
+
+
+===== Page 5 =====
+
+centered at 641.3 and 652.5 eV. Meanwhile, the peaks at 643.0 and
+654.2 eV represent Mn 2p3/2 and Mn 2p1/2 of Mn4þ, respectively
+[46,47,52]. The ratio of peak areas (Mn3þ/Mn4þ) for the fresh and
+cycled SCMA20 are conﬁrmed to be 0.81, and 0.46, respectively. The
+possible reason is that Mn3þ of the sample is partially oxidized to
+Mn4þ in the atmosphere of CO2 during the reoxidation process for a
+long time. Nevertheless, this does not affect CO yield per cycle, as
+will be discussed in the following performance analysis. As shown
+in Fig. 5d, the peaks of Sm 3d5/2 peak and Sm 3d3/2 appear at
+1083.5 eV and 1110.8 eV for Sm3þ, respectively. There is no obvious
+change of Sm 3d spectra for SCMA20 after cycling [53,54].
+SEM images of fresh and cycled Sm0.6Ca0.4Mn1-xAlxO3 perovskite
+powders are shown in Fig. 5eeh and 5i-5l, respectively. As shown in
+Table 3 and Fig. S5, as the Al doping ratio increases, the particle size
+of the fresh sample decreases, obviously. It can be also noticed that
+particle sizes and particle morphology of all samples do not have
+obvious changes after cycles, and this shows these samples have
+good anti-sintering resistance, except for SCMA80, by comparing
+Fig. 5eeh and 5i-5l. Although microscopic pores are present in
+SCMA80 before CO2 splitting reaction, they disappeared after cy-
+cles, and this may be caused by unstable structure of the sample
+under high temperature reaction (1350 C). The ICP test results of
+Sm0.6Ca0.4Mn1-xAlxO3 are shown in Table 4, the proportion of each
+metal element in the prepared perovskite samples is consistent
+with the feed ratio.
+The inﬂuences of different Al- doped contents on thermo-
+chemical CO2 splitting are discussed and analyzed here. These re-
+sults
+of
+CO/O2
+production
+rate
+and
+total
+CO/O2
+yield
+of
+Sm0.6Ca0.4Mn1-xAlxO3 (x ¼ 0.2, 0.4, 0.6, and 0.8) under ﬁxed test
+conditions (Tred ¼ 1350 C and Toxi ¼ 1100 C) are illustrated in
+Fig. 6. It can be seen clearly from Fig. 6a that the O2 peak production
+rate of SCMA20 is 0.176 mmol g1 s1, which is about 2.44 times as
+high as that of SCMA80 (0.072 mmol g1 s1), followed by that of
+SCMA40 (0.142 mmol g1 s1) and SCMA60 (0.107 mmol g1 s1).
+Meanwhile, the O2 and CO peak production rate decrease with
+increasing
+Al-
+doped
+content
+(Fig.
+6a
+and
+b). Additionally,
+comparing the four cycles, it can be noted the O2 and CO yields
+remain basically stable over the last three cycles except for a slight
+swing for the ﬁrst cycle (Fig. 6c and d). Thus, the total O2 and CO
+yields in last three cycles are discussed and analyzed here. It can be
+Fig. 3. XRD patterns of (a) fresh Sm1-xCaxMnO3 (x ¼ 0, 0.2, and 0.4); (b) enlarged angles from 32 to 34 shown in (a); (c) cycled Sm1-xCaxMnO3 (x ¼ 0, 0.2, and 0.4); (d) enlarged area
+indicated in (c); (eej) SEM images of the fresh and cycled Sm1-xCaxMnO3 (x ¼ 0, 0.2, and 0.4).
+Table 1
+Average particle size for Ca-doped SmMnO3 before and after 4 cycles.
+Materials
+Fresh samples (nm)
+Cycled samples (nm)
+SmMnO3
+2510.0
+3312.1
+Sm0.8Ca0.2MnO3
+2214.7
+3214.1
+Sm0.6Ca0.4MnO3
+2106.8
+2178.9
+Table 2
+Elemental compositions and contents for Ca-doped SmMnO3 from ICP.
+Target materials
+Metal ion ratio
+Metal ion ratio
+(feed ratio)
+(from ICP)
+SmMnO3
+Sm:Mn ¼ 1:1
+Sm:Mn ¼ 1.02:1
+Sm0.8Ca0.2MnO3
+Sm:Ca:Mn ¼ 0.8:0.2:1
+Sm:Ca:Mn ¼ 0.76:0.22:1
+Sm0.6Ca0.4MnO3
+Sm:Ca:Mn ¼ 0.6:0.4:1
+Sm:Ca:Mn ¼ 0.58:0.41:1
+K. Gao, X. Liu, Z. Jiang et al.
+Renewable Energy 194 (2022) 482e494
+486
+
+
+===== Page 6 =====
+
+noted
+that
+SCMA20
+indicates
+the
+highest
+O2
+yield
+of
+379.83 mmol g1 and highest CO yield of 595.56 mmol g1, which is
+75.57 mmol g1 higher than Sm0.6Ca0.4MnO3 (519.99 mmol g1)
+under the same conditions. This demonstrates the enhanced total
+O2 and CO yields beneﬁting from Al doping at B site. With increase
+of Al- doped content to 40%, the CO peak production rate decreases
+from 0.447 mmol g1 s1 (SCMA20) to 0.348 mmol g1 s1
+(SCMA40), and the total CO yield decreases from 595.56 mmol g1 to
+510.64 mmol g1. When Al- doped ratio further increases, both total
+O2 yield and CO yield become lower, as shown in Fig. 6c and d. This
+change trend is consistent with the non-stoichiometry, among
+them, SCMA20 has the highest change of non-stoichiometry (d),
+0.175 during reduction process and 0.120 during oxidation process
+(Figs. S3c and S3d).
+Since the total CO yield is the highest (595.56 mmol g1) when
+operating between 1350 C and 1100 C, multiple cycling perfor-
+mance of SCMA20 (the optimal redox sample) is further tested, as
+described in Fig. 7. Obviously, total CO yield remains stable and has
+only a slight decay during 30 redox cycles (Fig. 7a). At the 30th
+cycle, the CO yield remains 498.23 mmol g1, which is 83.34% of
+peak CO value of 597.83 mmol g1. Fig. 7bed shows SEM images of
+SCMA20 samples after 0 cycle, 14 cycles, and 30 cycles, respectively.
+It can be noted that grain microscopic sizes of the sample gradually
+increase from 2706.90 nm to 3642.8 nm to 4377.1 nm (Fig. S6).
+Nevertheless, the total CO yield decreases slightly and is still
+considerable after 30 cycles. Moreover, distributions of Sm, Ca, Mn,
+Al, and O elements remain uniform after cycling (Fig. 7eeg),
+showing good stability.
+3.4. Effects of reduction/oxidation temperature
+Based on above thermochemical CO2 splitting performances
+investigations of Ca- and Al- doped SmMnO3 perovskites, it can be
+obtained that the best doping ratio of Ca is 40 atom% at A site, and
+the best doping ratio of Al is 20 atom%, thus, SCMA20 is selected for
+further optimization of reduction temperature and oxidation
+temperature. Fig. 8a and b indicate the performance of SCMA20 at
+different reduction temperature (1400 C, 1350 C, 1250 C, 1150 C,
+and 1100
+C, respectively) and same oxidation temperature
+(1100 C). As illustrated in Fig. 8a, both total O2 yield and CO yield
+are zero at the reduction temperature of 1100 C, where SCMA20
+has not released O2 to form oxygen vacancies. It can be noticed that
+the amount of O2 released increased with reduction temperature,
+and the total O2 yield reaches 501.93 mmol g1 at 1400 C. The CO
+yield, however, peaks at 1350 C, and the deterioration at 1400 C is
+caused by severe sintering with signiﬁcant changes of sample
+morphology (Fig. S7). As illustrated in Fig. 8b, the CO peak pro-
+duction rate increases continuously with reduction temperature
+ranging from 1100 C to 1400 C. However, the CO production rate
+becomes sharp and narrow at 1400 C, leading to the decrease of
+Fig. 4. Real time (a) O2 and (b) CO production rate proﬁles of Sm1-xCaxMnO3 (x ¼ 0, 0.2, and 0.4) in the second cycle. The average (c) O2 and (d) CO yield of above samples in the last
+three cycles.
+K. Gao, X. Liu, Z. Jiang et al.
+Renewable Energy 194 (2022) 482e494
+487
+
+
+===== Page 7 =====
+
+total CO yield as reduction temperature changes from 1350 C to
+1400
+C. Therefore, 1350
+C is set as the optimal reduction
+temperature.
+To unveil effects of oxidation temperature on the redox perfor-
+mance, oxidation temperature of 1000 C,1100 C,1200 C,1300 C,
+and 1350 C are considered here. As seen in Fig. 8c, with the rise of
+oxidation temperature from 1000 C to 1350 C, the total CO yield
+increases continuously and achieves as high as 1209.95 mmol g1 at
+1350/1350 C. Nevertheless, CO is produced from two parts when
+the oxidation temperature is higher than 1200 C, one part is
+produced by redox reaction, named CO2 splitting, and the other
+part is produced by the cracking of CO2 (CO2]COþ1/2O2), named
+thermolysis. The contribution ratio of CO yield from thermolysis
+increases from 10.34% to 80.26% with oxidation temperature
+increasing from 1200 C to 1350 C. For the case of 1350/1350 C, O2
+and CO production rates maintain as 0.109 mmol g1 s1 and
+0.206 mmol g1 s1, respectively, even after the oxidation endures
+for 2200 s. This is basically consistent with the CO2 thermolysis
+reaction equation (Fig. 8d). This thermolysis phenomenon can be
+roughly attributed to catalytic reaction caused by active sites on the
+surface of perovskites, Al2O3 crucible, or reactor walls [55].
+Although thermolysis enhances the CO yield, it brings in challenges
+of high-temperature gas separation, and thus is usually avoided.
+Hence, the optimal oxidation temperature for SCMA20 is chosen as
+1100 C.
+The CO produced by oxidation reaction during thermochemical
+CO2 splitting process depends on the redox reaction temperature.
+The CO production can be enhanced with increasing reduction
+temperature due to the easier formation of oxygen vacancies.
+However, a large swing temperature difference results in a high
+heat loss and low solar-to-fuel efﬁciency. Fig. 9 and Table S1
+compare CO yield during two step thermochemical cycles on
+various perovskites and Ce-based catalysts at different reduction
+temperatures. As clearly seen in Fig. 9, La0.5Ca0.5MnO3 indicates a
+high CO production of 525 mmol g1 under 1400/1100 C cycle, but
+Fig. 5. XRD patterns of (a) fresh Sm0.6Ca0.4Mn1-xAlxO3 (x ¼ 0.2, 0.4, 0.6, and 0.8); (b) enlarged area shown in (a); (c) Mn 2p and (d) Sm 3d of fresh and cycled Sm0.6Ca0.4Mn0.8Al0.2O3;
+(eel) SEM images of the fresh and cycled Sm0.6Ca0.4Mn1-xAlxO3 (x ¼ 0.2, 0.4, 0.6, and 0.8).
+Table 3
+Average particle size for Al- doped Sm0.6Ca0.4MnO3 before and after 4 cycles.
+Materials
+Fresh samples (nm)
+Cycled samples (nm)
+SCMA20
+2863.1
+3015.6
+SCMA40
+2062.8
+2241.3
+SCMA60
+1667.1
+1948.7
+SCMA80
+1063.6
+1478.6
+Table 4
+Elemental compositions and contents for Al-doped Sm0.6Ca0.4MnO3 from ICP.
+Target materials
+Feed ratio (as-prepared)
+Metal ion ratio (from ICP)
+SCMA20
+Sm:Ca:Mn:Al ¼ 0.6:0.4:0.8:0.2
+Sm:Ca:Mn:Al ¼ 0.6:0.37:0.81:0.22
+SCMA40
+Sm:Ca:Mn:Al ¼ 0.6:0.4:0.6:0.4
+Sm:Ca:Mn:Al ¼ 0.6:0.41:0.64:0.44
+SCMA60
+Sm:Ca:Mn:Al ¼ 0.6:0.4:0.4:0.6
+Sm:Ca:Mn:Al ¼ 0.6:0.37:0.39:0.63
+SCMA80
+Sm:Ca:Mn:Al ¼ 0.6:0.4:0.2:0.8
+Sm:Ca:Mn:Al ¼ 0.6:0.38:0.23:0.81
+K. Gao, X. Liu, Z. Jiang et al.
+Renewable Energy 194 (2022) 482e494
+488
+
+
+===== Page 8 =====
+
+has a large temperature difference of 400 C and thus a large energy
+loss [26]. SCMA20 perovskite, proposed in this work, possesses a
+superior CO yield of 595.56 mmol g1 within a small temperature
+swing (1350/1100 C), demonstrating its great potential in solar-
+driven thermochemical CO2 splitting.
+Fig. 6. Real time (a) O2 and (b) CO production rate proﬁles of Sm0.6Ca0.4Mn1-xAlxO3 (x ¼ 0.2, 0.4, 0.6, and 0.8) in the second cycle. The average (c) O2 and (d) CO yield in the last three
+cycles.
+Fig. 7. (a) Total CO yield of SCMA20 for 30 cycles between 1350 C and 1100 C; (bed) SEM images of SCMA20 after 0, 14, and 30 cycles; (eeg) EDX mapping of SCMA20 after 0, 14,
+and 30 cycles.
+K. Gao, X. Liu, Z. Jiang et al.
+Renewable Energy 194 (2022) 482e494
+489
+
+
+===== Page 9 =====
+
+3.5. Reaction kinetics analysis
+To further unveil the underlying mechanism for high CO yield,
+undoped SmMnO3 and optimal SCMA20 are selected to analyze
+their oxidation reaction kinetics at 1100 C. The reaction degree a
+during the oxidation step can be described as follows [56e58]:
+a ¼
+ðt
+0
+CCOðtÞ dt
+ð5400
+0
+CCOðtÞ dt
+(7)
+Fig. 8. (a) Total O2 and CO yield and (b) real time CO production rate curves with different reduction temperatures for SCMA20; (c) Total CO yield at different oxidation tem-
+peratures; (d) O2 and CO production rate in the last three cycles at 1350/1350 C working condition.
+Fig. 9. Comparison of CO yield between as-prepared perovskites with literature reports.
+K. Gao, X. Liu, Z. Jiang et al.
+Renewable Energy 194 (2022) 482e494
+490
+
+
+===== Page 10 =====
+
+where t is the real time of oxidation reaction process and CCO (t) is
+the concentration value of CO at real time, respectively. The kinetic
+reaction parameters and characteristics can be analyzed according
+to the real time oxidation reaction rate. Meanwhile, the kinetic
+reaction rate (da/dt) is deﬁned and calculated by Arrhenius equa-
+tion as follows [59e62]:
+da
+dt ¼ A,exp
+
+ Ea
+RT
+
+,f ðaÞ
+(8)
+da = dt ¼ kðTÞ,f ðaÞ
+(9)
+where A represents the pre-exponential factor, Ea represents the
+apparent
+activation
+energy,
+R
+represents
+the
+gas
+constant
+(8.314 J mol1 K1), T is the oxidation reaction temperature, f(a) is
+mechanism function deﬁned by a, and k(T) is rate constant
+depending on reaction temperature. Meanwhile, the kinetic pa-
+rameters and normalized rate data can be obtained by using the
+theoretical dynamic model to ﬁt the experimental data. Thus, Eq.
+(9) can be converted to Eq. (10), as follows [63,64]:
+ðda = dtÞ  ðda=dtÞa¼0:5 ¼ f ðaÞ  f ð0:5Þ
+(10)
+The solid-state reaction kinetic models coupled with the master
+plot method are applied for CO2 splitting kinetics analysis [65e68].
+Table 5 lists various solid-state dynamic models employed in this
+work, and normalized rate data comparing with solid-state reac-
+tion theoretical models at 1100 C during the oxidation step is
+described in Fig. 10. Taking SmMnO3 as an example, its ðda =dtÞ=
+ðda=dtÞa¼0:5  a curve is consistent well with the zero-order re-
+action dynamic reaction (F0) during the whole oxidation step,
+showing CO2 splitting process is determined by surface reaction for
+SmMnO3. As for SCMA20, it can be clearly seen that the normalized
+rate data shows good linear ﬁt by comparing with the second-order
+reaction model (F2), when a < 0.3. It can be also noticed that the
+experimental data agrees well with the two-dimensional diffusion
+reaction model (D2), when a > 0.3. This transition phenomenon
+from the F2 model to the D2 model indicates that oxidation reac-
+tion controlled by bulk diffusion proceeds continuously after the
+surface solid-state reaction ﬁnishes. Therefore, according to kinetic
+analysis results, the ultrahigh CO yield of SCMA20 can be attributed
+to the conversion of reaction mechanism from solid-state surface
+reaction to bulk diffusion model.
+3.6. Solar-to-fuel efﬁciency analysis
+Theoretical solar-to-fuel efﬁciency analysis is conducted to
+better evaluate potentials of proposed materials in solar thermo-
+chemical CO2 splitting [50,51,69]. For simplicity, all calculations are
+based on following assumptions: a) the separation energy of inert
+gas (Ar) is negligible; b) the speciﬁc heat capacity of the redox
+material is considered to be constant and independent of temper-
+ature; c) heat recovery is neglected on the whole system [13,51]. For
+a typical thermochemical CO2 splitting process, absorbed solar
+energy Qsolar mainly contain two parts: reduction process and
+oxidation process.
+The ﬁrst part of solar energy is employed to raise the temper-
+ature of catalysts, and can be described as [69,70]:
+Qcata ¼ mcata,
+ð
+Tred
+Toxi
+Cp;catadT
+(11)
+mcata ¼ nO2,MO2,Mcata
+
+di  df
+
+,MO
+(12)
+The second part of solar energy drives the reduction reaction
+(Qred), and can be obtained as [70]:
+Qred ¼ mcata,
+ðdi
+df
+DHQ
+redðdÞdd
+(13)
+where mcata is the mass of the redox material, Tred and Toxi are
+reduction temperature, and oxidation temperature, respectively.
+Cp,cata is the heat capacity of redox materials and is taken as
+598.2 J kg1 K1 by consulting the HSC software. di and df are the
+oxygen non-stoichiometry of
+perovskite
+after reduction and
+oxidation reactions, respectively Mcata, MO2, and MO are the relative
+molecular mass of the redox materials, O2, and O, and DHQ
+red is the
+enthalpy during reduction process.
+Table 5
+Different solid-state dynamic reaction model in this work.
+Mechanism [65,66]
+Symbol
+Differential form f(a)
+Zero-order reaction
+F0
+1
+First-order reaction
+F1
+ð1  aÞ
+Second-order reaction
+F2
+ð1  aÞ2
+One-dimensional diffusion
+D1
+1=ð2aÞ
+Two-dimensional diffusion
+D2
+1 =½  lnð1  aÞ
+Avrami-Erofeyev
+A2
+2ð1  aÞ½lnð1  aÞ1=2
+Phase boundary controlled reaction (contracting area)
+R2
+2ð1  aÞ1=2
+Fig. 10. The normalized CO production rate data at 1100 C compared with different
+solid-state reaction models.
+K. Gao, X. Liu, Z. Jiang et al.
+Renewable Energy 194 (2022) 482e494
+491
+
+
+===== Page 11 =====
+
+The pump energy (Qpump) required to obtain a low oxygen
+partial pressure is [70,71]:
+Qpump ¼ nO2RTpump lnP0
+ PO2
+	hS/W
+(14)
+where 2nO2 ¼ nCO, R is the universal gas constant, Tpump is the
+operating temperature of the pump, which is assumed to 293.15K,
+P0 is the experimental ambient pressure at atmospheric pressure,
+PO2 (10 ppm) is the oxygen partial pressure after vacuum operation.
+hS/W is the solar energy to pump work conversion efﬁciency and it
+is taken to be 0.1 in this work.
+For the oxidation process, the energy cost during the oxidation
+process mainly contains two parts: heating CO2 and driving
+chemical reaction. The energy consumed to heat CO2 from the
+ambient temperature (Tamb) to oxidation temperature (Toxi) is
+calculated as [69,70,72]:
+QCO2 heating ¼ nCO2
+ð
+Toxi
+Tamb
+Cp;CO2ðTÞdT
+(15)
+Cp;CO2ðTÞ ¼ 20:99 þ 6:768  102T  4:960  105T2
+þ1:779  108T3  2:495  1012T4
+(16)
+The energy required to drive the oxidation reaction (Qoxi) can be
+described as [70,73]:
+Qoxi ¼  Qred þ
+
+di  df
+
+nCOHHVCO
+(17)
+where nCO2 and nCO are CO2 introduced and CO produced during
+oxidation process, and conversion rate of CO2 is assumed to be
+100%, which means nCO2 ¼ nCO, Cp;CO2 is the molar speciﬁc heat
+capacity of CO2, which is a function of temperature T given by eq.
+(16), and HHV is the higher heating value of CO (283 kJ/mol).
+Due to radiative heat loss, the solar thermal conversion efﬁ-
+ciency (hstc) can be calculated as [42,46]:
+hstc ¼ a 
+ð∞
+0
+εðlÞEbðl; TÞdl
+ICc
+(18)
+where a represents the average solar absorptances of SmMO3
+(86.6%) and SCMA20 (87.1%), I is assumed to be 1000 W m2, and Cc
+is taken to 3000.
+For the entire thermochemical system, the energy balance
+equation is deﬁned as [74,75]:
+Qsolar ¼ Qred þ Qcata þ Qpump þ QCO2 heating þ Qoxi
+hstc
+(19)
+Note that nonintrisic losses, such as heat conduction and heat
+convection, are neglected. The mcata, nCO2, nO2, and nCO can be
+calculated and obtained by substituting Qsolar ¼ IC, nCO2 ¼ nCO ¼
+2nO2, eq. (11), eq. (13), eq. (14), eq. (15), and eq. (17) and into above
+energy balance equation. Therefore, the solar-to-fuel energy efﬁ-
+ciency (hsolar-to-fuel) can be calculated as [70,74,75]:
+hsolartofuel ¼
+habs
+
+di  df
+
+nCOHHVCO
+Qred þ Qcata þ Qpump þ QCO2 heating þ Qoxi
+(20)
+As shown in Table 6, it can be found that SCMA20 possesses a
+high solar-to-fuel efﬁciency of 10.01%, which is 3.81 times as high as
+that of SmMnO3 (2.63%). The main reason can be attributed to
+higher CO yield with larger non-stoichiometry (0.18) and fast re-
+action rate with nCO of 5.90 mol s1 of SCMA20, compared with
+SmMnO3 (non-stoichiometry of 0.08 and nCO of 4.67 mol s1).
+Therefore, Ca- and Al- doping can prominently enhance both CO
+yield and solar-to-fuel efﬁciency of SmMnO3.
+4. Conclusions
+In this work, direct solar-driven thermochemical CO2 splitting
+based on Ca- and Al- doped perovskites are proposed to achieve
+high CO yield within small temperature swing. After optimizing the
+doping ratio of Ca and Al elements, the highest CO yield reaches
+595.56 mmol g1 for Sm0.6Ca0.4Mn0.8Al0.2O3, which is about 4.22
+times as high as that of undoped SmMnO3 (140.97 mmol g1) under
+the same conditions, and remains stable over multiple cycling. The
+excellent redox performance of Sm0.6Ca0.4Mn0.8Al0.2O3 can be
+attributed to the conversion of reaction mechanism from solid-
+state surface reaction to bulk diffusion model. Additionally, the
+Ca- and Al- doped SmMnO3 perovskites present full-spectrum solar
+absorption (higher than 86.5%), which is about 7.15 times as high as
+that of CeO2 (12.1%), making solar concentration ratio required to
+achieve reduction temperature of 1350 C reduce by 53.62%. High
+CO yield and high solar absorptance enable Sm0.6Ca0.4Mn0.8Al0.2O3
+to possess a high solar-to-fuel efﬁciency of 10.01%, which is 3.81
+times as high as that of undoped SmMnO3. This work provides
+novel approaches for achieving high-performance solar thermo-
+chemical CO2 splitting with high CO yield, good cycle stability, small
+temperature swing, and high solar-to-fuel efﬁciency.
+CRediT authorship contribution statement
+Ke Gao: Writing e original draft, preparation, Writing e review
+& editing, Formal analysis, Methodology. Xianglei Liu: Conceptu-
+alization, Methodology, Supervision, Writing e review & editing.
+Zhixing Jiang: Investigation, Validation. Hangbin Zheng: Investi-
+gation, Validation. Chao Song: Investigation, Validation. Xinrui
+Wang: Investigation, Validation. Cheng Tian: Methodology, Char-
+acterization. Chunzhuo Dang: Methodology, Characterization. Nan
+Sun: Methodology, Characterization. Yimin Xuan: Conceptualiza-
+tion, Methodology, Validation.
+Declaration of competing interest
+The authors declare that they have no known competing
+ﬁnancial interests or personal relationships that could have
+appeared to inﬂuence the work reported in this paper.
+Acknowledgements
+This work was ﬁnancially supported by National Natural Science
+Foundation of China (No. 52076106 and 51888103) and Basic
+Research Program of Frontier Leading Technologies in Jiangsu
+Province (BK20202008).
+Table 6
+Evaluation of solar-to-fuel efﬁciency of different samples.
+Parameter
+SmMnO3
+SCMA20
+hsolar-to-fuel
+2.63%
+10.01%
+mcata (kg)
+14.77
+6.66
+di-df
+0.08
+0.18
+Qcata (kJ)
+2208.68
+995.67
+Qpump (kJ)
+524.94
+663.20
+QCO2 heating (kJ)
+254.62
+321.67
+Qred þ Qoxi (kJ)
+105.73
+300.55
+hstc
+0.77
+0.76
+nCO2 ¼ nCO ¼ 2nO2 (mol s1)
+4.67
+5.90
+K. Gao, X. Liu, Z. Jiang et al.
+Renewable Energy 194 (2022) 482e494
+492
+
+
+===== Page 12 =====
+
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at
+https://doi.org/10.1016/j.renene.2022.05.105.
+References
+[1] T. Ma, L. Wang, C. Chang, J.S. Akhatov, M. Fu, X. Li, A comparative thermo-
+dynamic analysis of isothermal and non-isothermal CeO2-based solar ther-
+mochemical cycle with methane-driven reduction, Renew. Energy 143 (2019)
+915e921.
+[2] Du Huibin, Li Na, A. Marilyn, Yuenuan Brown, Yong Peng, A bibliographic
+analysis of recent solar energy literatures: the expansion and evolution of a
+research ﬁeld, Renew. Energy 66 (2014) 696e706.
+[3] M. Khezri, A. Heshmati, M. Khodaei, Environmental implications of economic
+complexity and its role in determining how renewable energies affect CO2
+emissions, Appl. Energy 306 (2022), 117948.
+[4] S. Dey, B.S. Naidu, C.N.R. Rao, Ln0.5A0.5MnO3 (Ln¼Lanthanide, A¼ Ca, Sr) pe-
+rovskites exhibiting remarkable performance in the thermochemical genera-
+tion of CO and H2 from CO2 and H2O, Chem. Eur J. 21 (19) (2015) 7077e7081.
+[5] P.G. Loutzenhiser, A. Meier, A. Steinfeld, Review of the Two-Step H2O/CO2-
+Splitting solar thermochemical cycle based on Zn/ZnO redox reactions, Ma-
+terials 3 (11) (2010) 4922e4938.
+[6] X. Liu, H. Shi, X. Meng, C. Sun, K. Zhang, L. Gao, Y. Ma, Z. Mu, Y. Ling, B. Cheng,
+Solar-enhanced CO2 conversion with CH4 over synergetic NiCo alloy catalysts
+with Light-to-fuel efﬁciency of 33.8%, Solar RRL 5(8) 2170085.
+[7] X. Liu, Z. Mu, C. Sun, H. Shi, X. Meng, P. Li, Y. Ling, B. Cheng, Y. Xuan, Y. Ding,
+Highly efﬁcient solar-driven CO2-to-fuel conversion assisted by CH4 over
+NiCo-ZIF derived catalysts, Fuel 310 (2022).
+[8] X. Jing, L. Subiao, L. Jing-li, In-situ generated hydroxides realize near-unity CO
+selectivity for electrochemical CO2 reduction, Chem. Eng. J. 24 (2021), 133785.
+[9] S.J. Park, M.H. Joo, J.Y. Maeng, C.K. Rhee, J.-G. Kang, Y. Sohn, Electrochemical
+Ce3þ/Ce4þ and Eu2þ/Eu3þinterconversion, complexation, and electrochemical
+CO2 reduction on Thio-Terpyridyl-Derivatized Au electrodes, Appl. Surf. Sci.
+576 (2021), 151793.
+[10] S.H. Li, M.Y. Qi, Y.Y. Fan, Y. Yang, Y.J. Xu, Modulating photon harvesting
+through dynamic non-covalent interactions for enhanced photochemical CO2
+reduction, Appl. Catal. B Environ. 292 (2021), 120157.
+[11] J.H. Zhang, W. Yang, M. Zhang, H.J. Wang, T.B. Lu, Metal-organic layers as a
+platform for developing single-atom catalysts for photochemical CO2 reduc-
+tion, Nano Energy 80 (2021), 105542.
+[12] Chu Steven, Majumdar Arun, Opportunities and challenges for a sustainable
+energy future, Nature 488 (7144) (2012) 294e303.
+[13] Y. Lu, L. Zhu, C. Agraﬁotis, J. Vieten, C. Sattler, Solar fuels production: two-step
+thermochemical cycles with cerium-based oxides, Prog. Energ. Combust. 75
+(2019), 100785.
+[14] C.
+William
+Chueh,
+Christoph
+Falter,
+Mandy
+Abbott,
+Danien
+Scipio,
+Philipp Furler, High-ﬂux solar-driven thermochemical dissociation of CO2 and
+H2O using nonstoichiometric ceria, Science 330 (6012) (2010) 1797e1801.
+[15] A. Steinfeld, Solar thermochemical production of hydrogen-a review, Sol.
+Energy 78 (5) (2005) 603e615.
+[16] C.L.
+Muhich,
+B.D.
+Ehrhart,
+I.
+Al-Shankiti,
+B.J.
+Ward,
+C.B.
+Musgrave,
+A.W. Weimer, A review and perspective of efﬁcient hydrogen generation via
+solar thermal water splitting, WIRes, Energy Environ. 5 (3) (2016) 261e287.
+[17] V.H. Nguyen, B.S. Nguyen, Z. Jin, M. Shokouhimehr, Q.V. Le, Towards artiﬁcial
+photosynthesis: sustainable hydrogen utilization for photocatalytic reduction
+of CO2 to high-value renewable fuels, Chem. Eng. J. 402 (2020), 126184.
+[18] C. Perkins, A.W. Weimer, Likely near-term solar-thermal water splitting
+technologies, Int. J. Hydrogen Energy 29 (15) (2004) 1587e1599.
+[19] J.R. Scheffe, J. Li, A.W. Weimer, A spinel ferrite/hercynite water-splitting redox
+cycle, Int. J. Hydrogen Energy 35 (8) (2010) 3333e3340.
+[20] C.L. Muhich, B.W. Evanko, K.C. Weston, P. Lichty, X. Liang, J. Martinek,
+C. Musgrave, A. Weimer, Efﬁcient generation of H2 by splitting water with an
+isothermal redox cycle, Science 341 (2013) 540e542.
+[21] K. Hui, H. Yong, J. Hongguang, Isothermal versus two-temperature solar
+thermochemical fuel synthesis: a comparative study, Appl. Energy 228 (2018)
+301e308.
+[22] L. Zhu, Y. Lu, Reactivity and efﬁciency of ceria-based oxides for solar CO2
+splitting via isothermal and near-isothermal cycles, Energy Fuel. 32 (1) (2017)
+736e746.
+[23] R. Pullar, R. Novais, A. Caetano, M.A. Barreiros, S. Abanades, F.A. Oliveira,
+A review of solar thermochemical CO2 splitting using ceria-based ceramics
+with designed morphologies and microstructures, Front. Chem. 7 (2019),
+00601.
+[24] G. Takalkar, R.R. Bhosale, F. Almomani, Thermochemical splitting of CO2 using
+Co-precipitation synthesized Ce0.75Zr0.2M0.05O2-d (M ¼ Cr, Mn, Fe, CO, Ni, Zn)
+materials, Fuel 256 (15) (2019) 115834.1e115834.9.
+[25] S. Abanades, P. Charvin, F. Lemont, G. Flamant, Novel two-step SnO2/SnO
+water-splitting cycle for solar thermochemical production of hydrogen, Int. J.
+Hydrogen Energy 33 (2008) 6021e6030.
+[26] S. Dey, B.S. Naidu, A. Govindaraj, C.N.R. Rao, Noteworthy performance of La1-
+xCaxMnO3 perovskites in generating H2 and CO by the thermochemical
+splitting of H2O and CO2, Phys. Chem. Chem. Phys. 17 (1) (2015) 122e125.
+[27] A. Riaz, P. Kreider, F. Kremer, H. Tabassum, J.S. Yeoh, W. Lipinski, A. Lowe,
+Electrospun manganese-based perovskites as efﬁcient oxygen exchange redox
+materials for improved solar thermochemical CO2 splitting, ACS Appl. Energy
+Mater. 2 (4) (2019) 2494e2505.
+[28] A. McDaniel, E. Miller, D. Ariﬁn, Coker Ambrosini, R. O'Hayre, Sr- and Mn-
+doped LaAlO3-d for solar thermochemical H2 and CO production, Energy En-
+viron. Sci. 6 (2013) 2424e2428.
+[29] R. Bader, L.J. Venstrom, J.H. Davidson, W. Lipinski, Thermodynamic analysis of
+isothermal redox cycling of Ceria for solar fuel production, Energy Fuel. 27 (9)
+(2013) 5533e5544.
+[30] S. Boulfrad, M. Cassidy, E. Djurado, J.T.S. Irvine, G. Jabbour, Pre-coating of
+LSCM perovskite with metal catalyst for scalable high performance anodes,
+Int. J. Hydrogen Energy 38 (22) (2013) 9519e9524.
+[31] D. Papargyriou, J.T.S. Irvine, Nickel nanocatalyst exsolution from (La,Sr) (Cr,M,
+Ni)O3 (M¼Mn, Fe) perovskites for the fuel oxidation layer of oxygen transport
+membranes, Solid State Ionics 288 (2016) 120e123.
+[32] A. Le Gal, S. Abanades, G. Flamant, CO2 and H2O splitting for thermochemical
+production of solar fuels using nonstoichiometric ceria and ceria/zirconia
+solid solutions, Energy Fuel. 25 (10) (2011) 4836e4845.
+[33] A. Le Gal, S. Abanades, Dopant Incorporation in ceria for enhanced water-
+splitting activity during solar thermochemical hydrogen generation, J. Phys.
+Chem. C 116 (25) (2012) 13516e13523.
+[34] R. Jacot, R. More, R. Michalsky, A. Steinfeld, G.R. Patzke, Trends in the phase
+stability and thermochemical oxygen exchange of ceria doped with poten-
+tially tetravalent metals, J. Mater. Chem. 5 (2017).
+[35] L. Zhu, Y. Lu, F. Li, Reactivity of Ni, Cr and Zr doped ceria in CO2 splitting for CO
+production via two-step thermochemical cycle, Int. J. Hydrogen Energy 43
+(30) (2018) 13754e13763.
+[36] I. Al-Shankiti, B.D. Ehrhart, A.W. Weimer, Isothermal redox for H2O and CO2
+splittingeA review and perspective, Sol. Energy 156 (2017) 21e29.
+[37] N. Galinsky, A. Mishra, J. Zhang, F. Li, Ca1-xAxMnO3 (A¼Sr and Ba) perovskite
+based oxygen carriers for chemical looping with oxygen uncoupling (CLOU),
+Appl. Energy 157 (2015) 358e367.
+[38] M. Ezbiri, V. Becattini, M. Hoes, R. Michalsk, A. Steinfeld, High redox capacity
+of Al- doped La1xSrxMnO3d perovskites for splitting CO2 and H2O at Mn-
+enriched surfaces, ChemSusChem 10 (7) (2017) 1517e1525.
+[39] L. Nalbandian, A. Evdou, V. Zaspalis, La1-xSrxMO3 (M ¼ Mn, Fe) perovskites as
+materials for thermochemical hydrogen production in conventional and
+membrane reactors, Int. J. Hydrogen Energy 34 (17) (2009) 7162e7172.
+[40] Y. Maeno, H. Hashimoto, K. Yoshida, S. Nishizaki, T. Fujita, J. Bednorz,
+F. Lichtenberg, Superconductivity in a layered perovskite without copper,
+Nature 372 (1994) 532e534.
+[41] M.M. Nair, S. Abanades, Experimental screening of perovskite oxides as efﬁ-
+cient redox materials for solar thermochemical CO2 conversion, Sustain. En-
+ergy Fuels 2 (2018) 843e854.
+[42] K. Gao, X. Liu, T. Wang, Z. Zhu, P. Li, H. Zheng, C. Song, Y. Xuan, Y. Li, Y. Ding,
+Sr-doped SmMnO3 perovskites for high-performance near-isothermal solar
+thermochemical CO2-to-fuel conversion, Sustain. Energy Fuels 5 (2021)
+4295e4310.
+[43] L. Wang, T. Ma, S. Dai, T. Ren, X. Li, Experimental study on the high perfor-
+mance of Zr doped LaCoO3 for solar thermochemical CO production, Chem.
+Eng. J. 389 (2020), 124426.
+[44] M. Tou, R. Michalsky, A. Steinfeld, Solar-driven thermochemical splitting of
+CO2 and in situ separation of CO and O2 across a ceria redox membrane
+reactor, Joule 1 (1) (2017) 146e154.
+[45] J.R. Scheffe, A. Steinfeld, Oxygen exchange materials for solar thermochemical
+splitting of H2O and CO2: a review, Mater. Today 17 (7) (2014) 341e348.
+[46] X. Liu, T. Wang, K. Gao, X. Meng, Q. Xu, C. Song, Z. Zhu, H. Zheng, Y. Hao,
+Y. Xuan, Ca- and Ga- doped LaMnO3 for solar thermochemical CO2 splitting
+with high fuel yield and cycle stability, ACS Appl. Energy Mater. 4 (9) (2021)
+9000e9012.
+[47] A.J. Carrillo, A.H. Bork, T. Moser, E. Sediva, Z.D. Hood, J.L. Rupp, Modifying
+La0.6Sr0.4MnO3 perovskites with Cr incorporation for fast isothermal CO2-
+splitting kinetics in solar-driven thermochemical cycles, Adv. Energy Mater. 9
+(28) (2019), 1803886.
+[48] P. Furler, J.R. Scheffe, A. Steinfeld, Syngas production by simultaneous splitting
+of H2O and CO2 via ceria redox reactions in a high-temperature solar reactor,
+Energy Environ. Sci. 5 (3) (2012) 6098e6103.
+[49] S. Abanades, A. Haeussler, Two-step thermochemical cycles using ﬁbrous ceria
+pellets for H2 production and CO2 reduction in packed-bed solar reactors,
+Sustain. Mater. Tech. 19 (2021), e00328.
+[50] M. Milanese, G. Colangelo, F. Iacobazzi, A.D. Risi, Modeling of double-loop
+ﬂuidized bed solar reactor for efﬁcient thermochemical fuel production, Sol.
+Energy Mater. Sol. C 160 (2017) 174e181.
+[51] M. Milanese, G. Colangelo, D. Laforgia, A.D. Risi, Multi-parameter optimization
+of double-loop ﬂuidized bed solar reactor for thermochemical fuel production,
+Energy 134 (2017) 919e932.
+[52] Q.H. Wu, M. Liu, W. Jaegermann, X-ray photoelectron spectroscopy of
+La0.5Sr0.5MnO3, Mater. Lett. 59 (12) (2005) 1480e1483.
+[53] M. Yunsheng, Z. Junfa, Z. Weiping, Z. Runsheng, B. Xinhe, Z. Xingyi, Z. Shuxian,
+Structure and properties of samarium overlayer and Sm/Rh surface alloy on
+Rh(100), Sci. Bull. 46 (20) (2001) 1689e1691.
+[54] Y. Wang, S. Hu, Q. Xu, H. Ju, J. Zhu, Sm on CeO2(111): a case for ceria modi-
+ﬁcation via strong metaleceria interaction, Top. Catal. 61 (12) (2018)
+1227e1236.
+K. Gao, X. Liu, Z. Jiang et al.
+Renewable Energy 194 (2022) 482e494
+493
+
+
+===== Page 13 =====
+
+[55] L. Christopher Muhich, C. Kayla Weston, D. Ariﬁn, H. Anthony, Extracting ki-
+netic information from complex gasesolid reaction data, Ind. Eng. Chem. Res.
+54 (2014) 4113e4122.
+[56] T. Ishida, N. Gokon, T. Hatamachi, T. Kodama, Kinetics of thermal reduction
+step of thermochemical two-step water splitting using CeO2 particles:
+MASTER-plot method for analyzing non-isothermal experiments, Energy Proc.
+49 (2014) 1970e1979.
+[57] Kongzhai Chunqiang, Hua Wang, Xing Zhu, Yonggang Wei, Min Zheng,
+Chemical looping reforming of methane using magnetite as oxygen carrier:
+structure evolution and reduction kinetics, Appl. Energy 211 (2018) 1e4.
+[58] C. Song, X. Liu, H. Zheng, C. Bao, L. Teng, Y. Da, F. Jiang, C. Li, Y. Li, Y. Xuan,
+Y. Ding, Decomposition kinetics of Al- and Fe- doped calcium carbonate
+particles with improved solar absorbance and cycle stability, Chem. Eng. J. 406
+(2020), 126282.
+[59] N. Koga, Y. Goshi, S. Yamada, L. Perez-Maqueda, Kinetic approach to partially
+overlapped thermal decomposition processes, J. Therm. Anal. Calorim. 111
+(2012) 1463e1474.
+[60] J. Sestak, Rationale and fallacy of thermoanalytical kinetic patterns, J. Therm.
+Anal. Calorim. 110 (2012) 5e16.
+[61] G. Lev^eque, S. Abanades, Thermodynamic and kinetic study of the carbo-
+thermal reduction of SnO2 for solar thermochemical fuel generation, Energy
+Fuel. 28 (2) (2013) 1396e1405.
+[62] J. Sestak, G. Berggren, Study of the kinetics of the mechanism of solid-state
+reactions at increasing temperatures, Thermochim. Acta 3 (1971) 1e12.
+[63] L.A. Perez-Maqueda, J.M. Criado, F.J. Gotor, J. Malek, Advantages of combined
+kinetic analysis of experimental data obtained under any heating proﬁle,
+J. Phys. Chem. 106 (12) (2002) 2862e2868.
+[64] R. Ranbhor, V. Ramakrishnan, A. Kumar, S. Durani, The interplay of sequence
+and stereochemistry in deﬁning conformation in proteins and polypeptides,
+Biopolymers 83 (5) (2006) 537e545.
+[65] J. Huang, Y. Fu, S. Li, W. Kong, Y. Sun, Cobalt-based ferrites as efﬁcient redox
+materials for thermochemical two-step CO2-splitting: enhanced performance
+due to cation diffusion, Sustain. Energy Fuels 3 (4) (2019) 975e984.
+[66] J. Huang, Y. Fu, Y. Zhao, J. Zhang, S. Li, S. Li, G. Li, Z. Chen, Y. Sun, Anti-sintering
+non-stoichiometric nickel ferrite for highly efﬁcient and thermal-stable
+thermochemical CO2 splitting, Chem. Eng. J. 404 (2021), 127067.
+[67] F.J. Gotor, J.M. Criado, J. Malek, N. Koga, Kinetic Analysis of Solid-State Re-
+actions: the universality of master plots for analyzing isothermal and non-
+isothermal experiments, J. Phys. Chem. 104 (46) (2000) 10777e10782.
+[68] A. Khawam, D.R. Flanagan, Solid-state kinetic models: basics and mathemat-
+ical fundamentals, J. Phys. Chem. B 110 (2006) 17315e17328.
+[69] Yibo Gao, Miaomaio Zhang, Yanpeng Mao, Cao Han, et al., Microwave-trig-
+gered low temperature thermal reduction of Zr- modiﬁed high entropy oxides
+with extraordinary thermochemical H2 production performance, Energy
+Convers. Manag. 252 (2022), 115125.
+[70] L. Wang, T. Ma, S. Dai, T. Ren, Z. Chang, M. Fu, X. Li, Y. Li, Solar thermochemical
+CO2 splitting with doped perovskite LaCo0.7Zr0.3O3: thermodynamic perfor-
+mance and solar-to-fuel efﬁciency, RSC Adv. 10 (59) (2020) 35740e35752.
+[71] I. Ermanoski, N.P. Siegel, E.B. Stechel, A new reactor concept for efﬁcient solar-
+thermochemical fuel production, J. Sol. Energy Eng. 135 (3) (2013), 031002.
+[72] J.R. Scheffe, A. Steinfeld, Thermodynamic analysis of cerium-based oxides for
+solar thermochemical fuel production, Energy Fuel. 26 (3) (2012) 1928e1936.
+[73] D. Mark, Allendorf, B. Richard, Diver, P. Nathan, E. Siegel, Miller James, Two-
+step water splitting using mixed-metal ferrites: thermodynamic analysis and
+characterization
+of
+synthesized
+materials,
+Energy
+Fuel.
+22
+(6)
+(2008)
+4115e4124.
+[74] B. Bulﬁn, F. Call, M. Lange, O. Lübben, C. Sattler, R. Pitz-Paal, I.V. Shvets,
+Thermodynamics of CeO2 thermochemical fuel production, Energy Fuel. 29 (2)
+(2015) 1001e1009.
+[75] V.M. Wheeler, R. Bader, P.B. Kreider, M. Hangi, S. Haussener, W. Lipinski,
+Modelling of solar thermochemical reaction systems, Sol. Energy 156 (11)
+(2017) 149e168.
+K. Gao, X. Liu, Z. Jiang et al.
+Renewable Energy 194 (2022) 482e494
+494

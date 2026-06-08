@@ -1,0 +1,1003 @@
+
+
+===== Page 1 =====
+
+Characterization of a sol–gel derived CuO/CuAl2O4 oxygen carrier for
+chemical looping combustion (CLC) of gaseous fuels: Relevance of
+gas–solid and oxygen uncoupling reactions
+Daofeng Mei a, Alberto Abad b,⁎, Haibo Zhao a,⁎⁎, Juan Adánez b
+a State Key Laboratory of Coal Combustion, Huazhong University of Science and Technology, Wuhan 430074, People's Republic of China
+b Department of Energy and Environment, Instituto de Carboquímica (ICB-CSIC), Miguel Luesma Castán 4, Zaragoza 50018, Spain
+a b s t r a c t
+a r t i c l e
+i n f o
+Article history:
+Received 16 October 2014
+Received in revised form 15 January 2015
+Accepted 8 February 2015
+Available online 23 February 2015
+Keywords:
+Chemical looping combustion (CLC)
+Chemical looping with oxygen uncoupling
+(CLOU)
+Sol–gel method
+Cu-based oxygen carrier
+CO2 capture
+A new sol–gel CuO/CuAl2O4 material was characterized in a thermogravimetric analyzer (TGA) for chemical
+looping combustion (CLC) with gaseous fuels, including the relevance of the oxygen uncoupling mechanism
+in oxygen transference was considered. This material possesses high reactivity and oxygen transport capac-
+ity, which combines the best features of the previously reported impregnated and spray-dried materials.
+During the cycles with N2 and air, CuO was fully decomposed into Cu2O in N2 and then regenerated to
+CuO in air, similarly to chemical looping with oxygen uncoupling (CLOU) for solid fuels. Decomposition of
+CuAl2O4 to CuAlO2 was quite slow, and the followed regeneration cannot be accomplished. Subsequently,
+the adequate and stable reaction rates of this material were examined in high numbers of cycles (>50 cy-
+cles) with gaseous fuels. The material undergone such cycles with gaseous fuels was then subjected to cy-
+cles with N2 and air. Segregation of CuO from Al2O3 in the CuAl2O4 was observed during gaseous fuels
+combustion, which produced more available oxygen for CLOU than the initial material. Finally, the relative
+importance of gas–solid reactions in CLC against oxygen uncoupling in CLOU was examined with the ap-
+pearance of gaseous fuel.
+© 2015 Elsevier B.V. All rights reserved.
+1. Introduction
+The greenhouse gas CO2 has greatly increased its concentration
+over the past decades as a result of the dependence of energy pro-
+duced from fossil fuels. It was reported that the global mean concen-
+tration of CO2 had risen to 395 ppm in 2013 [1], which was increased
+more than 12% compared to the 1980s. Strategies are urgently need-
+ed to control the emission of CO2, especially from the combustion of
+fossil fuel which provides 80% of the overall world consumption of
+energy. Analysis made by IPCC and IEA [2,3] showed that the carbon
+capture and storage (CCS) could attribute 15–55% to the cumulative
+mitigation effort worldwide until 2100, to mitigate climate change to
+a reasonable cost. In this context, chemical looping combustion
+(CLC) has been suggested among the best alternatives for the capture
+of CO2 with low cost [4]. CLC concept based on the rationale of gen-
+erating pure CO2 was ﬁrst proposed by Lewis and Gilliland [5]. This
+concept was recovered by Richter and Knoche in the 1980s as a
+highly efﬁcient process for energy generation [6]. In CLC technology,
+combustion is split into separate reduction and oxidation: oxygen
+needed for the combustion of fuel is provided by one solid oxygen
+carrier, such as a metal oxide; and air is used to regenerate the oxy-
+gen carrier. Generally in CLC, the oxygen carrier circulates between
+interconnected ﬂuidized-bed reactors to provide continuous oxygen
+source for the fuel combustion [7]. In one of the reactors, i.e. fuel re-
+actor, the oxygen carrier is reduced and in another reactor, i.e. air re-
+actor, the previously reduced oxygen carrier was continuously
+regenerated. As an alternative in CLC technology, chemical looping
+with oxygen uncoupling (CLOU), which was ﬁrst proposed by
+Mattisson and coworkers [8], preserves the feasibilities of the CLC
+technology, but gaseous oxygen being generated in the fuel reactor.
+Thus, direct reaction between fuel and oxygen carrier particles is
+not required. In addition to the properties of conventional CLC, the
+CLOU process gives higher conversion rates and efﬁciencies for the
+solid fuel combustion [9].
+A schematic description of CLC technology, valid also for CLOU, is
+shown in Fig. 1 where the oxygen carrier, oxidized form MeOx and re-
+duced form MeOx −1, circulates between the air and fuel reactors to
+provide the oxygen source for combustion. In the fuel reactor, the oxy-
+gen carrier MeOx reacts with fuel (CnH2m) via reaction (1). Ideally, the
+outlet gas stream from the fuel reactor contains only CO2 and H2O
+Fuel Processing Technology 133 (2015) 210–219
+⁎ Corresponding author. Tel.: +34 976 733977; fax: +34 976 733318.
+⁎⁎ Corresponding author. Tel.: +86 27 8754 4779x8208; fax: +86 27 8754 5526.
+E-mail addresses: abad@icb.csic.es (A. Abad), klinsmannzhb@163.com (H. Zhao).
+http://dx.doi.org/10.1016/j.fuproc.2015.02.007
+0378-3820/© 2015 Elsevier B.V. All rights reserved.
+Contents lists available at ScienceDirect
+Fuel Processing Technology
+journal homepage: www.elsevier.com/locate/fuproc
+
+
+===== Page 2 =====
+
+(steam), where CO2 can be easily separated by relatively inexpensive
+condensation of H2O in the condenser. The reduced oxygen carrier
+MeOx −1 is subsequently transferred to the air reactor where it is regen-
+erated for new cycles via reaction (2) by capturing O2 from air. In CLC,
+the separation of CO2 is inherently accomplished with low energy pen-
+alty and low cost. The concentrated CO2 from CLC can be used for indus-
+trial purpose and the permanent underground storage [3]. In brief, the
+CLC technology provides a prospective technical strategy to address
+the global increasing of CO2 emission.
+Fuel reactor :
+CnH2m þ 2n þ m
+ð
+ÞMeOx→2n þ m
+ð
+ÞMeOx−1
+þ n CO2 þ m H2O
+ð1Þ
+Air reactor :
+MeOx−1 þ 1=2O2 g
+ð Þ→MeOx
+ð2Þ
+The cornerstone of CLC and CLOU is the oxygen carrier used. Along
+with many other properties, the oxygen carrier must maintain the reac-
+tivity during long-term operation. In CLOU, special oxygen carriers are
+required to provide gaseous oxygen for the combustion of fuels [8,10].
+Based on the thermodynamic, the pairs CuO/Cu2O, Mn2O3/Mn3O4, and
+Co3O4/CoO, can release and absorb oxygen at proper temperatures [8].
+Among these oxides, CuO is highlighted for its high oxygen transport ca-
+pacity, 10% with respect to 3% for Mn2O3 and 6.6% for Co3O4. Moreover,
+the reactions in fuel reactor and air reactor are exothermic when using
+the Cu-based materials, which is beneﬁcial to the heat balance over the
+global system [8,11].
+The earliest experimental investigation of CLOU was given by
+Mattisson et al. [12] by using a CuO supported on ZrO2 material in a
+batch ﬂuidized bed. In their experiments, petroleum coke burned quick-
+ly with the gaseous O2 released from CuO/ZrO2 particles. The average
+combustion rate of the petroleum coke varied between 0.5 and 5%/s de-
+pending on the temperature. This material was further demonstrated
+for its use in CLOU by combustions of six solid fuels (Mexican petroleum
+coke, South African coal, Indonesian coal, Colombian coal, German
+lignite and Swedish wood char) in the same batch ﬂuidized bed
+reactor [13].
+Researchers from ICB-CSIC developed Cu-based oxygen carriers
+with low attrition rate and high resistance to agglomeration both for
+CLC [14,15] and for CLOU [16,17]. For CLC, impregnated CuO/Al2O3 ma-
+terials were extensively investigated in units ranging from 0.5 to
+10 kWth, even with sulfur containing gases [18–23]. These materials
+showed a complete combustion of fuel gases due to the high reactivity
+with CH4, H2 and CO. In addition, agglomeration was avoided by main-
+taining the CuO content below 20 wt.% [14]. However, these impregnat-
+ed CuO/Al2O3 materials have no or little CLOU properties [17].
+For CLOU, more than 25 oxygen carriers prepared through various
+techniques were screened based on the following criterions: crushing
+strength, reactivity, resistance to attrition and agglomeration. After
+long-term tests, CuOs supported on MgAl2O4 or ZrO2 prepared by
+mechanical mixing followed by pelletizing by pressure were selected
+as suitable materials for CLOU. Subsequently, a similar material was
+demonstrated for the long-term use on CLOU in a 1.5 kW unit [11]
+with a bituminous coal as fuel. Later, combustion tests for several solid
+fuels, including anthracite, lignite and pine wood, were done [24–26].
+Totally, 40 h for continuous combustion under various conditions was
+accomplished. Complete combustion of the solid fuel was reached in
+all the cases and CO2 capture rates higher than 95% were usually
+obtained.
+Mei et al. recently developed a CuO/CuAl2O4 oxygen carrier by sol–
+gel [27,28]. During their tests in batch ﬂuidized bed reactor, the oxygen
+carrier composed of 60 wt.% CuO and 40 wt.% CuAl2O4 showed satisfac-
+tory properties for the combustion of different coals within 850–950 °C
+[28]. This oxygen carrier showed good properties to be used in the CLOU
+process. The sol–gel derived CuO/CuAl2O4 oxygen carrier maintained
+the porous structure after the tests with all the coals, which suggests
+that the sintering was avoided.
+Additionally, the use of low-cost Cu based mineral as oxygen
+carrier would be very attractive. However, these materials agglom-
+erated easily during ﬂuidized bed operation, which makes it difﬁ-
+cult to ﬁnd a proper mineral, excepting the recent work by Zhao
+et al. [29].
+In the CLOU process with solid fuels, an excess of oxygen must be
+provided for the combustion in order to keep high carbon capture efﬁ-
+ciency. This requirement was evidenced by the fact that small amount
+of O2 was always mixed with the CO2 stream outlet from the fuel reac-
+tor. In this sense, Adánez-Rubio et al. identiﬁed the operational regions
+to give a mapping of the gas distribution under different solid invento-
+ries [30]. When the solid inventory was higher than 58 kg/MWth, sub-
+stantial O2 was detected in the ﬂue gas from fuel reactor meanwhile
+the full conversion to CO2 was achieved. Decreasing the solid inventory
+to 32–58 kg/MWth, the reduction of O2 was attained; however, part of
+CO was not converted to CO2. Moreover, CO in the exhaust gas increased
+together with the depletion of oxygen, when oxygen carrier inventory
+in the fuel reactor was lower than 32 kg/MWth. The results illustrate
+that there is a compromise between low oxygen carrier inventory and
+high purity of CO2 in the CLOU combustion of coal. Thus, minor amount
+of either O2 or CO would be in the CO2 stream. However, the actual solid
+inventory must also consider the combustion reactivity of solid fuel in
+order to get high CO2 capture rates. Thus, preliminary calculations
+using kinetics for oxygen uncoupling reaction and coal combustion
+were performed. The results suggested that the solid inventory in the
+fuel reactor could be higher than 600 kg/MWth to reach CO2 capture
+higher than 95% for the lignite combustion [31]. Thus, an excess of oxy-
+gen would be expected in gas stream from fuel reactor, if both high CO2
+capture and complete fuel combustion were desired.
+The oxygen uncoupling property of an oxygen carrier can be also
+exploited for gaseous fuel combustion [32–34]. It has been found that
+the CLC process can be highly improved when an oxygen carrier with
+CLOU properties and the appropriate operation windows was applied
+[34].
+This work deals with the characterization of a new sol–gel de-
+rived CuO/CuAl2O4 oxygen carrier for its use in CLC of gaseous
+fuels, where the oxygen uncoupling involved in CLOU was studied
+as well. A thermogravimetric analyzer (TGA) was introduced to
+carry out the related experimental tests. The objectives of this work
+are: (i) a new material combining the best features of previously de-
+veloped impregnated and spray-dried materials was characterized;
+(ii) a new way based on TGA test was detailed to determine the com-
+position of the oxygen carrier; (iii) high numbers of cycles with gas-
+eous fuels were performed for the new material; (iv) the oxygen
+uncoupling property of this new material was examined; (v) prelim-
+inary mechanistic of the segregation of CuO from Al2O3 in the
+CuAl2O4 was studied; (vi) identiﬁcation of the relative signiﬁcance
+of CLC and CLOU effects was done when applying an oxygen-
+releasable material to gaseous fuel combustion.
+Fig. 1. Schematic layout of generic CLC process.
+211
+D. Mei et al. / Fuel Processing Technology 133 (2015) 210–219
+
+
+===== Page 3 =====
+
+2. Experimental
+2.1. Oxygen carrier
+The CuO/CuAl2O4 oxygen carrier material was prepared through the
+sol–gel technique which was usually used for preparing catalyst [35]
+and sometimes for the preparation of oxygen carrier particles being
+used for CLC technologies [28,36–40]. This technique is highlighted for
+its advantages including: mixing precursors at the molecular level lead
+to homogeneous components, and controllable microstructure as a
+low-temperature synthesis. The precursors for Al and Cu elements in
+the product are aluminum isopropoxide [Al(C3H7O)3, KESHI Co.] and
+copper nitrate [Cu(NO3)2·3H2O, Sinopharm Co.], respectively. Detailed
+description of the preparation process can be found in previous work
+[28] where a similar material containing 60 wt.% CuO and 40 wt.%
+CuAl2O4 was prepared. After crushing and sieving, the particles being
+sized to 125–180 μm were selected as oxygen carrier to be used in this
+work.
+Composition of the sol–gel derived particles was summarized in
+Table 1. The phase composition of the oxygen carrier before and after
+use was identiﬁed using a Bruker AXS D8 Advance powder X-ray Dif-
+fraction (XRD) apparatus which is equipped with a graphite monochro-
+mator, using Ni-ﬁltered “Cu Kα” radiation. The fresh oxygen carrier is
+composed of CuO and CuAl2O4 phases identiﬁed by XRD analysis. Ele-
+mental composition of Cu and Al was determined by inductively
+coupled plasma atomic emission spectroscopy (ICP-AES) with a Jobin
+Ybon 2000 apparatus, meanwhile the oxygen content was calculated
+for CuO and CuAl2O4 as major compounds. The total oxygen transport
+capacity was calculated for the full reduction of CuO and CuAl2O4 to
+Cu, being ROC = 11.6 wt.% from composition given by ICP-AES analysis.
+The present oxygen carrier composed of CuO and CuAl2O4 has a spe-
+cial characteristic in terms of oxygen release and uptake. The critical
+condition of oxygen release depends on so-called O2 equilibrium partial
+pressure. When the O2 pressure in the atmosphere is lower than the
+equilibrium value, gaseous O2 can be released via solid decompositions.
+In order to give a mapping of the present material, HSC Chemistry 6.1
+[41] was used to calculate the O2 equilibrium partial pressures of the
+CuO/Cu2O system, while data from literature [42] was considered for
+the CuAl2O4/CuAlO2 system. As shown in Fig. 2, both CuO and CuAl2O4
+can give gaseous oxygen in proper conditions, albeit CuAl2O4 has
+lower O2 equilibrium partial pressures. Additionally, previous works re-
+vealed that CuAl2O4 is reducible by syngas and methane [18,43,44] to Cu
+and Al2O3, but also reduced to CuAlO2 in N2 [17]. However, whereas re-
+duced Cu can be regenerated to CuO and/or CuAl2O4, oxidation of
+CuAlO2 to CuAl2O4 is impeded, likely due to oxygen diffusion limita-
+tions. To this end, CuO contained in the sol–gel derived CuO/CuAl2O4 ox-
+ygen carrier can provide one oxygen source for the CLC and CLOU
+process, but CuAl2O4 is expected to be active for oxygen transference
+in CLC, but not in CLOU in repeated redox cycles.
+2.2. TGA tests
+Experiments were carried out in a CI Electronics type thermogravi-
+metric analyzer (TGA) with the CuO/CuAl2O4 material. A detailed de-
+scription of the TGA can be found elsewhere [45]. The sample weight
+was around 50 mg for each test. The samples were ﬁrst heated from
+25 to 1000 °C at 20 °C/min in atmospheres either of 100 vol.% N2 or
+15 vol.% H2 diluted by N2 to analyze the oxygen uncoupling reaction
+or CuO–H2 reaction, respectively. In this way, the available oxygen for
+CLOU and CLC was identiﬁed. Then, multiple redox cycles were conduct-
+ed with reduction and oxidation agents at different temperatures in the
+900–1000 °C interval. Reaction agents were 100 vol.% N2, 15 vol.% H2 or
+15 vol.% CH4 diluted by N2 for reduction, and 100% air for oxidation. In
+the case of the diluted CH4, 20% steam was mixed to avoid the possible
+carbon deposition. In the above cycles, reaction periods are 15 min with
+N2, 1 min with H2 or CH4 for reduction and 3 min with pure air for oxi-
+dation. Moreover, the evolution of the oxygen release and uptake prop-
+erties relevant for CLOU mode of the CuO/CuAl2O4 material was
+analyzed. In this case, the particles being previously exposed to redox
+cycles with H2 or CH4 were tested in alternating air and N2 atmosphere.
+Several tests were carried out varying the length of the former reduction
+periods using 5 vol.% H2, which were followed by oxygen release and
+uptake cycles. In this way, the effect of the extension of gas–solid reac-
+tions – which are characteristics of the CLC process – on the oxygen evo-
+lution – distinctive of the CLOU process – was analyzed. In addition,
+experiments with lower H2 concentration, 0.5–3 vol.%, were done at
+950 °C to evaluate the relevance of the oxygen uncoupling mechanism
+in the CuO reduction in presence of a fuel gas. For all the tests carried
+out at ﬁxed temperatures, more than 10 cycles were operated to
+stabilize.
+2.3. Data evaluation
+To evaluate the CuO/CuAl2O4 oxygen carrier, the experimental data
+from TGA were processed to calculate the related parameters. The oxy-
+gen transport capacity, ROC, was calculated for every relevant process
+with gaseous fuels, i.e. gas–solid reaction in CLC mode and oxygen
+uncoupling for the CLOU mode. Thus, ROC,i for CLC (i = CLC) and CLOU
+(i = CLOU) were calculated as ROC,i = (mox −mred,i) / mox where mox
+and mred,i denoted the mass of oxygen carrier in the oxidized and re-
+duced form, respectively. mred,CLC and mred,CLOU depend on the applica-
+tion of the oxygen carrier, i.e. CLC or CLOU. For the CuO/CuAl2O4
+material used in this work, mred,CLC corresponded to the complete
+Table 1
+Composition of the CuO/CuAl2O4 oxygen carrier prepared by sol–gel method.
+Elements (wt.%)
+By ICP-AES
+By TGA tests
+Cu
+44.8
+43.7
+Al
+21.7
+24.0a
+O
+33.5
+32.3
+Compounds (wt.%)b
+CuO
+21.9
+CuAl2O4
+78.1
+XRD main phases
+Fresh
+CuO, CuAl2O4
+Used in N2
+Cu2O, CuAlO2, CuAl2O4
+Used in H2 or CH4
+Cu, θ-Al2O3
+a By difference.
+b For fresh particles.
+Fig. 2. Equilibrium O2 concentration of Cu2O/CuO and CuAlO2/CuAl2O4 systems as a func-
+tion of temperature.
+212
+D. Mei et al. / Fuel Processing Technology 133 (2015) 210–219
+
+
+===== Page 4 =====
+
+reduction of CuO/CuAl2O4 to Cu and Al2O3, and mred,CLOU was related to
+the total decomposition of CuO and CuAl2O4 to Cu2O and CuAlO2.
+Solid conversion values were calculated for reduction/decomposi-
+tion and oxidation process, respectively. Eqs. (3.A) and (3.B) give the
+solid conversion Xred,i during reduction and Xoxi,i during oxidation
+with the subscript i discriminating CLC (i = CLC) and CLOU (i =
+CLOU). The m in Eqs. (3.A) and (3.B) is the mass of oxygen carrier during
+the reactions.
+Xred;i ¼ mox−m
+ROC;imox
+ð3:AÞ
+Xoxi;i ¼ 1−mox−m
+ROC;imox
+ð3:BÞ
+Reaction rate of oxygen carrier was calculated through Eq. (4),
+where j = red and j = oxi refer to the reduction and oxidation, respec-
+tively.
+−r j;i
+
+
+¼ ROC;i  dX j;i
+dt
+ð4Þ
+When using different concentrations of reduction agent, e.g. H2, the
+reduction rate is considered to follow a n order with respect the H2 con-
+centration, CH2, as presented in Eq. (5).
+−rred;CLC ¼ krCn
+H2
+ð5Þ
+where kr is the apparent chemical reaction rate constant and n denotes
+the reaction order.
+The mass variation during redox cycles was described by the nor-
+malized parameter ω, which represents the fraction of the changed
+mass during reactions with respect to the mass of the fully oxidized ox-
+ygen carrier, which was calculated as Eq. (6).
+ω ¼ m
+mox
+ð6Þ
+3. Results
+3.1. Temperature programmed reactions
+In the temperature programmed reaction tests, the sol–gel derived
+oxygen carrier CuO/CuAl2O4 was characterized through temperature
+programmed reduction (TPR) with 15 vol.% H2 and temperature pro-
+grammed decomposition (TPD) in 100 vol.% N2 to obtain the available
+oxygen contained in the material for CLC and CLOU, respectively. The re-
+action progresses of TPR and TPD are plotted in Fig. 3 with the temper-
+ature increasing from 25 to 1000 °C at 20 °C/min. Moreover, the dω/dt as
+a function of temperature was considered to identify the stages of reac-
+tions, see the short-dash lines in Fig. 3. The reduction by 15 vol.% H2
+started at 300 °C and ended at 950 °C. It is composed of three stages,
+i.e. three peaks for the dω/dt curve, which can be attributed to reduction
+of CuO to Cu, reduction of CuAl2O4 to CuAlO2 and further reduction of
+CuAlO2 to Cu and Al2O3. The mass-loss fraction involved in each process
+was 4.4 wt.% for the reduction of CuO to Cu, followed by an additional
+6.6 wt.% for the reduction of CuAl2O4 to Cu and Al2O3. The ﬁnal normal-
+ized mass-loss fraction was ω = 0.89. Therefore, the oxygen transport
+capacity for the CLC process obtained through TGA experiments was
+ROC,CLC = 11%. This value was close to the 11.6 wt.% calculated by mate-
+rial composition determined by ICP-AES; see Table 1. Considering the
+mass-loss fraction values reacted during both CuO and CuAl2O4 reduc-
+tion, it was calculated that the fraction of free CuO was 21.9 wt.%,
+whereas CuO in CuAl2O4 was 32.8 wt.%. This means that the total CuO
+in the particles was 54.7 wt.%, which is shared by 40 wt.% in free CuO
+and 60 wt.% in CuAl2O4, respectively. It is observed that the elemental
+composition determined by TGA has minor difference with respect to
+that from the ICP-AES analysis. The compounds for fresh material,
+which was determined based on the TPR test, were also shown in
+Table 1. CuO and CuAl2O4 were found as the main compounds, which
+was the same as that given by the XRD analysis.
+For the TPD reaction, considering the phase composition in Table 1,
+CuO and CuAl2O4 can be decomposed to Cu2O and CuAlO2, which result-
+ed in two stages of reaction; see Fig. 3. The decomposition of CuO started
+at 850 °C and it can be considered to be ﬁnished at 940 °C, i.e. when the
+slope in the mass-loss curve showed an abrupt decrease at ω = 0.98. It
+is notable that the weight loss for this ﬁrst stage of TPD curve is half of
+the reduction to Cu in the TPR curve, which is evident because the
+mass loss for CuO decomposition to Cu2O is half of the fully reduction
+to Cu. Then, CuAl2O4 decomposes in 100 vol.% N2 at a relatively low
+rate, which led to the incomplete decomposition of CuAl2O4, i.e. both
+CuAl2O4 and CuAlO2 were found in the XRD analysis; see Table 1. In
+comparison to the TPD, different behavior of CuAl2O4 can be observed
+in TPR where CuAl2O4 was reduced to CuAlO2, which led to the occur-
+rence of the second peak of dω/dt, and then completely reduced to Cu
+and Al2O3 with reasonable rates, resulting in the last peak of dω/dt.
+From the TPD test, the ﬁnal normalized mass-loss fraction was ω =
+0.967, although it could be lower for longer period. The theoretical oxy-
+gen transport capacity for the sol–gel derived CuO/CuAl2O4 oxygen car-
+rier in CLOU mode was calculated to be ROC,CLOU = 5.5 wt.%.
+3.2. Cycles with gaseous fuels
+The reactivity and stability in the reaction with gaseous fuels are
+very important properties to evaluate an oxygen carrier. In this part,
+50 and 10 cycles were performed with 15 vol.% H2 and 15 vol.% CH4, re-
+spectively, for the CuO/CuAl2O4 oxygen carrier. The solid conversion
+variation with time for each cycle was plotted in Fig. 4. With respect
+to the reductions, the oxygen carrier underwent a slow rate of conver-
+sion in the ﬁrst cycle and then became stable during further cycles. Inde-
+pendent of the gaseous fuels used, the oxygen carrier reached its
+maximum conversion within 35 s, indicating the same reactivity for
+both 15 vol.% H2 and 15 vol.% CH4 with CuO/CuAl2O4. Regarding the ox-
+idation cycles, the stability of reaction was achieved since the ﬁrst oxi-
+dation. In this sense, complete conversions of reductions and
+oxidations can be accomplished for the sol–gel derived CuO/CuAl2O4
+oxygen carrier.
+Fig. 3. Mass variations, ω, and dω/dt (short-dash lines) of the CuO/CuAl2O4 material during
+the TPR with 15% H2 and the TPD with 100% N2, temperature was increased from 25 to
+1000 °C at 20 °C/min.
+213
+D. Mei et al. / Fuel Processing Technology 133 (2015) 210–219
+
+
+===== Page 5 =====
+
+Fig. 5 shows the reaction rates for the 50 cycles with 15 vol.% H2 and
+100 vol.% air. It is observed that the reduction rate largely increased after
+the ﬁrst cycle. Observation from the 2nd to 25th cycle indicates a slight
+increase of the reduction rate with the cycles, which might be attribut-
+able to a slight activation effect over the oxygen carriers. After that, a
+stable rate of oxygen transference 3.5 · 10−3 kgO2/(s · kgOC) was
+reached. This value is similar to the reduction rate by 15 vol.% H2
+for Cu-based materials prepared by impregnation on alumina, i.e.
+3.1 · 10−3 kgO2/(s · kgOC) for Cu10Al material with 10 wt.% CuO [46]
+or 3.3 · 10−3 kgO2/(s · kgOC) for Cu14Al particles with 14 wt.% CuO
+[47,48]. It is worth noting that the reacting time for impregnated
+materials is shorter than for sol–gel, but this is compensated by a higher
+CuO content, which must be also considered in the calculation of the
+oxygen transference rate; see Eq. (4). In a similar way, the oxygen trans-
+ference rate was 3.5 · 10−3 kgO2/(s · kgOC) for the reductions by
+15 vol.% CH4, which is similar to the impregnated particles, namely
+3.6 · 10−3 kgO2/(s · kgOC) for Cu10Al and 4.3 · 10−3 for Cu14Al
+[46–48].
+With respect of the oxidation, the oxygen carrier gained the stable
+reaction rates since the ﬁrst oxidation. Only a slight increase of the oxi-
+dation rate was observed until 25th cycle because of the activation ef-
+fect. Similar to the reduction, high oxidation rates were obtained for
+the CuO/CuAl2O4 material, calculated to be 3.2 · 10−3 kgO2/(s · kgOC)
+for oxidation in air at 950 °C. The present sol–gel derived material ex-
+hibited similar rate of oxidation with respect to impregnated materials
+previously reported, namely 2.8 · 10−3 kgO2/(s · kgOC) for Cu10Al
+and 2.5 · 10−3 kgO2/(s · kgOC) for Cu14Al [46–48].
+Based on the large numbers of tests with H2 and CH4, it was conclud-
+ed that the sol–gel derived CuO/CuAl2O4 oxygen carrier can rapidly
+reach the stable reactivity with gaseous fuels during the cycle reactions.
+Therefore, for the sol–gel CuO/CuAl2O4, high and stable rates of reduc-
+tion and oxidation were attained during the 50 cycles with H2, CH4
+and air. This suggests that the present oxygen carrier possesses ade-
+quate rates for long-term use in CLC process. The sol–gel particles
+showed similar rates of oxygen transference than particles prepared
+by impregnation. It is noted that the Cu14Al material was successfully
+used in a 10 kW CLC unit for the combustion of CH4 [19,20]. In
+Fig. 4. Solid conversions as a function of reaction time for (A) 50 reductions with 15 vol.% H2, (B) 50 oxidations with 100 vol.% air after reduction with H2, (C) 10 reductions with 15 vol.%
+CH4 + 20% H2O, (D) 10 oxidations with 100 vol.% air after reduction with CH4; temperature was ﬁxed at 950 °C.
+Fig. 5. Reaction rates of reduction and oxidation change as a function of cycle numbers
+during the redox by 15 vol.% H2 and 100 vol.% air at 950 °C.
+214
+D. Mei et al. / Fuel Processing Technology 133 (2015) 210–219
+
+
+===== Page 6 =====
+
+this sense, the oxygen carrier tested in the present work has adequate
+rates of both reduction and oxidation reactions to be used in CLC
+systems.
+3.3. Cycles alternating N2 and air
+From TPD test in Section 3.1, it was concluded that the CuO/CuAl2O4
+material can be proposed as an oxygen-releasable material because it
+decomposed to give gaseous oxygen in a N2 atmosphere. Now, the oxy-
+gen uncoupling reaction was analyzed by isothermal tests in TGA. Fig. 6
+shows 10 cycles of oxygen release and uptake, where the solid conver-
+sion evolution is presented as a function of time. As shown in Fig. 6A, the
+decomposition of CuO/CuAl2O4 is consisted of a two-step process – a
+fast ﬁrst reaction and a followed slow reaction – which corresponds to
+the oxygen releases from CuO and CuAl2O4, respectively, see also
+Fig. 3. Then the conversion does not reach the unity because of the
+slow decomposition of CuAl2O4 to CuAlO2. In addition, the oxidation
+process exhibits lower solid conversion than the decomposition, see
+Fig. 6B, which can be related to the irreversible decomposition of
+CuAl2O4. Meanwhile it is notable that slow oxidation step was not no-
+ticed, see Fig. 6B. Indeed, oxidation conversion was similar to the de-
+composition of CuO to Cu2O in Fig. 6A. Thus, re-oxidation of CuAlO2
+formed during reduction was not allowed, which was also observed
+by others in previous works [17,44] with respect of Cu-based materials
+with Al2O3 as supports. When the number of redox cycles increased the
+decomposition of CuAl2O4 to CuAlO2 was in progress. Eventually, ﬁnal
+conversion for decomposition converged with oxidation conversion
+when all CuAl2O4 was decomposed into the inactive CuAlO2.
+Rates of 0.36 · 10−3 kgO2/(s · kgOC) for oxygen release and
+1.3 · 10−3 kgO2/(s · kgOC) for oxidation were respectively attained at
+950 °C. The rates of the present oxygen carrier, sol–gel derived CuO/
+CuAl2O4, are similar to 0.46 · 10−3 kgO2/(s · kgOC) for oxygen release
+and 1.8 · 10−3 kgO2/(s · kgOC) for oxidation of a spray-dried CuO/
+MgAl2O4 material at the same reaction conditions [31]. Considering
+the incomplete decomposition and oxidation of the CuAl2O4, the effec-
+tive oxygen transport capacity was ROC,CLOU = 2.2 wt.%, which means
+that only the ﬁrst 40 s in Fig. 6B. could be signiﬁcant for oxygen carrier
+regeneration. If this was considered, the dXox,i/dt for the oxidation of
+Cu2O to CuO was higher than the oxidation of Cu to CuO, see
+Section 3.2., which indicated that the oxidation of Cu2O is faster than
+the oxidation of Cu.
+In CLOU, Cu2O and CuAlO2 were the ﬁnal products after decomposi-
+tion in N2. However, the regeneration by air was possible only from
+Cu2O to CuO, but not the CuAl2O4. Considering this, CuAl2O4 phase
+cannot be capable for oxygen generation, only the reduction of CuO to
+Cu2O is available in oxygen uncoupling. Thus, the effective oxygen
+transport capacity for the sol–gel derived CuO/CuAl2O4 oxygen carrier
+in CLOU was ROC,CLOU = 2.2 wt.% corresponding to the mass loss for
+CuO decomposition to Cu2O.
+The cycle tests in the above two sections, Sections 3.2 and 3.3, sug-
+gested both high reactivity and high oxygen transport capacity of the
+CuO/CuAl2O4 material. In this sense, the present sol–gel 22 wt.%
+CuO + 78 wt.% CuAl2O4 material combined the best features of the pre-
+viously reported impregnated and spray-dried oxygen carriers, Cu14Al
+[18–23] and Cu60MgAl [17].
+3.4. Effect of reduction by fuel gas on decomposition in N2
+As it was stated above, the behavior in CLOU conditions is quite dif-
+ferent than in CLC with H2 or CH4. On the one hand, the CLOU perfor-
+mance depends on the CuO and CuAl2O4 fraction because: (i) each
+reduction step in N2 included a quick step and a followed slow step, re-
+spectively attributable to the decompositions of CuO to Cu2O and
+CuAl2O4 to CuAlO2; (ii) complete oxidation could not be attained, the
+non-oxidized fraction corresponding to the fraction of CuAl2O4
+decomposed to CuAlO2. On the other hand, in the reactions with gas-
+eous fuels Cu and Al2O3 were the ﬁnal products after the reductions
+with H2, and later the Cu could be completely oxidized to CuO and/or
+CuAl2O4. Thus, the CLC performance does not depend on the CuO and
+CuAl2O4 fraction. However, once the Cu was formed, the fraction of
+CuO in the particles after oxidation could be different than the initial
+particles, because CuAl2O4 must be formed again by the dissolution of
+CuO on Al2O3. Then, the oxygen uncoupling properties of the oxygen
+carrier could vary with reduction cycles, as they shall depend on the
+fraction of copper as CuO.
+To analyze the oxygen uncoupling performance of the materials
+with and without previous reductions by a fuel gas, several redox cycles
+were done alternating 100 vol.% N2 and air. Fig. 7 presents in detail the
+mass variation obtained in 100 vol.% N2 for fresh particles and for the
+particles previously undergone cycles with H2. For fresh particles, the
+above described behavior was found, which was characterized by a
+two-step reduction — a fast reduction from CuO to Cu2O and a followed
+slow decomposition of CuAl2O4–. It is worth to note that for the N2/air
+cycles the ﬁnal mass after the reduction period was decreasing with
+the cycle number, but the total mass loss was the same in each cycle.
+The total mass loss is related to the oxygen transport capacity; thus
+the oxygen transport capacity was constant throughout the redox cy-
+cles. If only the fast reaction rate was considered, corresponding to
+Fig. 6. Oxygen carrier conversions as a function of time during 10 cycles with (A) 100 vol.% N2 and (B) 100 vol.% air; tests were conducted at 950 °C; calculated using ROC = 5.5 wt.%.
+215
+D. Mei et al. / Fuel Processing Technology 133 (2015) 210–219
+
+
+===== Page 7 =====
+
+decomposition of CuO to Cu2O, the oxygen transport capacity was calcu-
+lated to be ROC,CLOU = 2.2 wt.%. For the tests at other temperatures, i.e.
+900 and 1000 °C, the same effects on CLOU was observed.
+In order to evaluate the inﬂuence of reduction with a fuel gas on the
+oxygen uncoupling performance, the oxygen carrier CuO/CuAl2O4 was
+exposed to successive cycles — 50 cycles in 15 vol.% H2, 5 cycles in
+15 vol.% CH4 and 5 cycles in 100 vol.% N2. Fig. 8 shows the mass varia-
+tions during these sequential reactions. The total duration of tests was
+7 h, during which more than 5 h corresponds to the combustions of gas-
+eous fuels. During the reduction by 15 vol.% H2, higher extent of reduc-
+tion was noticed after the 1st redox cycle because of slight activation
+effects; see also Fig. 5. Later, reactivity was constant up to 50th cycle.
+Then, the oxygen carrier exhibited the same mass variation with
+15 vol.% CH4 + 20 vol.% H2O. The mass variation during redox cycles al-
+ternating H2, or CH4, and air was due to the total reduction of copper in
+the fresh sample to Cu0, and re-oxidation to Cu2+, corresponding to an
+oxygen transport capacity of ROC,CLC = 11 wt.%. Then, mass-loss fraction
+during decomposition in N2 was 5.3 wt.% during the ﬁrst cycle, i.e.
+approximately one half of the total mass-loss fraction with H2 or CH4.
+This means that near all copper oxide was decomposed to Cu2O. After
+that, oxygen carrier decomposition in 100 vol.% N2 was found to be sta-
+ble after the 3rd cycle, corresponding to ROC,CLOU = 4.9 wt.%. The above
+tests indicate that the sol–gel derived CuO/CuAl2O4 oxygen carrier pos-
+sesses the CLOU ability after long-term of CLC process. Indeed, the oxy-
+gen transport capacity for CLOU was higher for particles which have
+been previously reduced by a fuel gas in comparison to fresh particles.
+This fact suggests that the CuAl2O4 formation from Cu oxidation was
+low.
+More in detail, Fig. 7 presents the mass variations during the CLOU
+cycles of particles being previously exposed to cycles with H2. For
+these particles, a quick decrease of mass fraction was observed which
+was followed by a rapid mass increase till around ω = 1. This fact sug-
+gests that the reduction of any remaining CuAl2O4 was of low relevance,
+and only reduction of CuO to Cu2O was observed. Moreover, the fast in-
+crease of mass fractions during oxidation is related to a rapid regenera-
+tion. It is notable that the re-oxidation resulted in the full regenerations,
+i.e. ω = 1. Therefore, the mass variation in alternating N2 and air for pre-
+viously used with H2 was quite different to that of fresh particles. This
+fact is related to the high segregation of CuO from Al2O3, as the fraction
+of CuAl2O4 formed during Cu or Cu2O oxidation was low. It is valuable to
+mention that the decomposition and the regeneration of oxygen carrier
+used in the cycles with gaseous fuels had the same rates with the fresh
+particles. For the tests at other temperatures, i.e. 900 and 1000 °C, the
+same effects of CLC on CLOU were observed as well.
+The following part tries to ﬁnd the effect of the degree of reduction
+during CLC operation on the improvement of oxygen transport capacity
+for CLOU of the CuO/CuAl2O4 oxygen carrier. Controlling tests were
+carried out with low H2 concentration, viz. 5 vol.% H2, to reduce the
+oxygen carrier to different extents. The partial reduced particles were
+then oxidized and put into alternating N2 and air atmospheres to see
+the maximum oxygen release and uptake capacity. Fig. 9 plots the Xred,
+CLOU for oxygen release as a function of Xred,CLC attained during the re-
+duction cycles by gaseous fuels. At low levels of reduction by gas fuels,
+e.g. Xred,CLC b 0.4, the Xred,CLOU is around 0.5. However, when Xred,CLC
+was higher than 0.4 the Xred,CLOU began to increase due to the higher
+available oxygen in the CuO form. It is necessary to emphasize that
+the Xred,CLC = 0.4 determined by the composition in Table 1 corresponds
+to the beginning of the reduction of CuAl2O4, as seen from the vertical
+dash line in Fig. 9. In this sense, the reduction of CuAl2O4 to Cu and
+Al2O3 by a fuel gas occurred after the complete reduction of CuO to Cu,
+which gave extra CuO in the particles after oxidation. As a result, more
+Fig. 7. Mass variations in CLOU process in cycles alternating N2 and air for fresh CuO/
+CuAl2O4 (black line) and for particles after redox cycles with 15 vol.% H2 (blue line). The
+operation temperature is 950 °C.
+Fig. 8. Mass variations as a function of the reaction time for CuO/CuAl2O4 during 50 redox cycles with 15 vol.% H2, followed by 5 cycles with 15 vol.% CH4 + 20% H2O and then 5 cycles with
+100 vol.% N2 at 950 °C; oxidation periods were conducted with 100 vol.% air.
+216
+D. Mei et al. / Fuel Processing Technology 133 (2015) 210–219
+
+
+===== Page 8 =====
+
+CuO was produced via the reduction of CuAl2O4 to Cu with a gaseous
+fuel because the following oxidation of Cu forms CuO instead of
+CuAl2O4. The increasing amount of CuO in the oxygen carrier results in
+an increase of the active oxygen transport capacity for CLOU which
+also rises as higher degree of reduction with H2 is reached. More indeed,
+the reduction of CuAl2O4 only occurred when the free CuO in the CuO/
+CuAl2O4 was totally reduced to Cu. Therefore, it can be speculated that
+in the fresh oxygen carrier the CuAl2O4 phase was covered by the CuO
+phase.
+3.5. Relative signiﬁcance of gas–solid reaction (in CLC) and oxygen
+uncoupling (in CLOU)
+It is well known that the concentration of gaseous fuels affects the
+rate of reaction with oxygen carriers [46,49,50]. Thereby, H2 concentra-
+tions in the reduction agent were varied from 0.5 vol.% to 15 vol.% to
+draw the inﬂuences on reduction process. Mass variations, ω, as a
+function of time were shown in Fig. 10 for different gas concentrations.
+According to previous results, different ﬁnal weight losses were obtain-
+ed for the decomposition in 100 vol.% N2 than for reductions by H2. This
+fact was due to the different mechanisms involved in gas–solid reaction
+with a gaseous fuel and oxygen uncoupling in absence of a reducing
+agent, which are the main reactions involving the oxygen carrier in
+CLC and CLOU processes, respectively. Reduction in N2 was mainly driv-
+en by CuO decomposition into Cu2O, corresponding to a mass-loss frac-
+tion of 2.2 wt.% in fresh particles. However, regarding the reactions by
+gaseous fuel, no remarkable difference was found in the curves for the
+reduction from CuO to Cu2O with respect to the reduction from Cu2O
+to Cu, excepting the condition of 0.5 vol.% H2. In the case of 0.5 vol.%
+H2, a slight difference between the reduction of CuO to Cu2O and the fur-
+ther reduction of Cu2O to Cu was seen, that is, the slope of the reduction
+from CuO to Cu2O was slightly higher than that of Cu2O to Cu. Despite of
+this, complete reduction of the oxygen carrier by H2 was reached during
+all the reduction tests by H2.
+Thus, regarding the reduction of CuO by H2, the reaction rate de-
+creased as the H2 concentration decreased, which is not surprising.
+But more in detail, when the concentration of H2 was lower than
+1 vol.%, such as 0.5 vol.%, the reaction rate during CuO reduction to
+Cu2O was equal to that obtained during the decomposition in pure N2.
+This means that the decrease of H2 concentration in the interval lower
+than 1 vol.% cannot affect the rate of reaction from CuO to Cu2O. This
+fact suggests a change on the mechanism for the reduction of CuO to
+Cu2O when the H2 concentration was changed to lower than 1 vol.%.
+To better identify those behaviors observed in Fig. 10, Fig. 11 shows a
+logarithmic plot for the reaction rate as a function of the H2 concentra-
+tion. As it was discussed previously, the rate of reaction with H2 de-
+creases as the fuel concentration decreases. It is valuable to note that a
+linear relation existed between ln(−rred,CLC) and lnCH2 when the con-
+centration of H2 varied between values corresponding to 15 and
+1 vol.%. Based on Eq. (5), the reaction order of H2 during the reduction
+of CuO/CuAl2O4 to Cu2O/CuAl2O4 was determined as n = 0.8.
+However, when the H2 concentration decreased below 1 vol.%, i.e. ln
+CH2 b −2.3, a constant rate of reduction of 0.36 × 10−3 kgO2/(s · kgOC)
+was observed, which is equal to the oxygen release rate calculated in
+Section 3.3. As a consequence, the oxygen uncoupling reaction is faster
+than the gas–solid reaction at low H2 concentration, and therefore the
+oxygen transference rate was dominated by oxygen uncoupling mecha-
+nism. In this case, H2 concentration exhibited little contribution to the
+rate of reaction.
+Fig. 9. Solid conversions in 100 vol.% N2, Xred,CLOU, as a function of the reduction degree
+Xred,CLC with gaseous fuels attained in previous redox cycles; temperature: 950 °C; ROC,
+CLOU = 5.5 wt.%.
+Fig. 10. Effects of H2 concentration on the reduction of the CuO/CuAl2O4 oxygen carrier;
+temperature: 950 °C.
+Fig. 11. Reduction rates of CuO/CuAl2O4 as a function of the H2 concentration.
+217
+D. Mei et al. / Fuel Processing Technology 133 (2015) 210–219
+
+
+===== Page 9 =====
+
+As a comparison, the reduction rate for the complete reduction of
+Cu2O/CuAl2O4 to Cu was calculated as well; see the red dots in Fig. 11.
+It is worth noting that it cannot be distinguished the reduction of
+Cu2O from the reduction of CuAl2O4. The reaction order obtained for
+the reduction of Cu2O/CuAl2O4 to Cu is the same to the previous reduc-
+tion, i.e. n = 0.8, but higher than that obtained by García-Labiano et al.
+for an impregnated oxygen carrier [46], attributable to the different syn-
+thesis techniques.
+As a conclusion, in the case of using a H2 concentration higher than
+1 vol.%, the effect of the gas–solid reaction is more relevant, and
+the reaction rate increases with H2 concentration. In this sense,
+the H2 concentration of 1 vol.% can be considered as a critical
+value. Higher concentration than 1 vol.% H2 leads to faster oxygen trans-
+ference rate via gas–solid reaction. In this case, combustion process
+would be dominated by common gas–solid reaction like those found
+for materials without oxygen uncoupling properties in CLC. On the con-
+trary, oxygen uncoupling dominated the combustion of H2, which
+means the oxygen transference rate is determined by the rate of oxygen
+release, whereas H2 concentration contributes little to the reduction of
+CuO to Cu2O. Nevertheless, the presence of H2, even at low concentra-
+tion values, allowed the full reduction of the copper present in the par-
+ticles to Cu0 and then complete re-oxidition to Cu2+ was permitted,
+which is not the case for reduction for the oxygen uncoupling reaction
+in N2.
+The identiﬁcation of CLC and CLOU is meaningful for the real applica-
+tion of oxygen-releasable materials to gaseous fuel combustion. It is
+known that the fuel concentration in the reactor can be decreased
+with the height of the reactor [47]. In this case, with this speciﬁc oxygen
+carrier CLC will dominate the fuel conversion process in the major part
+of the fuel reactor. However, CLOU can dominate in the upper part of
+the reactor, when the fuel gas was highly converted and its concentra-
+tion was low. In this way, the complete conversion of the fuel can be fa-
+cilitated by the CLOU mechanism. In this sense, for materials with lower
+rates of the gas–solid reaction the relative signiﬁcance of CLOU over CLC
+could be more relevant that what was found for the CuO/CuAl2O4
+material.
+4. Conclusions
+A new CuO/CuAl2O4 oxygen carrier prepared by sol–gel was studied
+in a thermogravimetric analyzer (TGA) for the chemical looping com-
+bustion of gaseous fuels, where the oxygen uncoupling process was
+also analyzed. This material combined the best features of the previous-
+ly developed impregnated and spray-dried materials, Cu14Al and
+Cu60MgAl, which possessed both high reactivity and high oxygen trans-
+port capacity. For oxygen uncoupling, the free CuO in the CuO/CuAl2O4
+can decompose and regenerate rapidly, whereas only slow decomposi-
+tion of CuAl2O4 is feasible and the followed regeneration is incapable.
+During the gas–solid reaction, CuO and CuAl2O4 can be completely re-
+duced to metallic Cu, where rather stable reactivity and adequate
+rates were obtained during more than 50 cycles. However, the followed
+re-oxidation of Cu mainly towards CuO with minor CuAl2O4 formation.
+This can produce a higher content of free CuO in the material, and thus
+resulting more available oxygen for CLOU than the initial material. The
+new generated free CuO resulted in a higher effective oxygen transport
+capacity for the CLOU application. In the case of applying this kind of
+CLOU material to CLC for gaseous fuel combustion, the mode of reaction,
+i.e. CLC or CLOU, can be identiﬁed as a function of fuel gas concentration.
+In the case of H2 combustion with CuO/CuAl2O4, a critical concentration
+of H2, i.e. 1 vol.% H2, was found, which determined that either CLC or
+CLOU is the dominated mode for the gaseous fuel combustion. When
+the H2 concentration was lower than 1 vol.%, the oxygen uncoupling ef-
+fect was more relevant, and on the opposite the gas–solid reaction dom-
+inated, in the same way that with materials with no oxygen uncoupling
+property. It was the ﬁrst time for the identiﬁcation of CLC and CLOU ef-
+fects for the combustion of gaseous fuels.
+Nomenclature
+CH2
+H2 concentration (mol/m3)
+kr
+apparent chemical reaction rate constant, s−1
+m
+mass of oxygen carrier during the reaction processes, kg
+mox
+mass of oxygen carrier in completely oxidized form, kg
+mred,i
+mass of oxygen carrier in completely reduced form, i = CLC or
+CLOU respectively for the application in CLC or CLOU, kg
+n
+reaction order
+(−rj,i)
+reaction rate of oxygen carrier, kgO2/(s · kgOC)
+ROC,i
+oxygen transport capacity for CLC (i = CLC) or CLOU (i =
+CLOU), kgO2/kgOC
+t
+reaction time, s
+Xj,i
+solid conversion during reduction (j = red) and oxidation
+(j = oxi) for CLC (i = CLC) and CLOU (i = CLOU)
+Greek symbols
+ω
+normalized mass variation
+Acronyms
+CLC
+chemical looping combustion
+CLOU
+chemical looping with oxygen uncoupling
+ICP-AES
+inductively coupled plasma atomic emission spectroscopy
+OC
+oxygen carrier
+TGA
+thermogravimetric analyzer
+XRD
+X-ray diffraction
+Acknowledgements
+This work was supported by “National Natural Science Foundation of
+China (51390494)”, and “National Basic Research and Development
+Program (2011CB707300)”. Daofeng Mei is grateful for the support pro-
+vided by the China Scholarship Council (CSC201306160054).
+References
+[1] NOAA-ESRL National Oceanic and Atmospheric Administration in the US, Average
+concentration of CO2 in the atmosphere (Mauna Loa Observatory) for 2013 was
+posted June 14, 2014available at: http://www.esrl.noaa.gov/gmd/ccgg/trends/.
+[2] IEA International Energy Agency, Energy Technology Perspectives, Scenarios and
+Strategies to 2050, OECD/IEA, Paris, 2010.
+[3] IPCC, IPCC special report on carbon dioixde capture and storage, in: B. Metz, O.
+Davidson, H. de Coninck, M. Loos, L. Meyer (Eds.), Working Group III of the Intergov-
+ernmental Panel on Climate Change, Cambridge University Press, 2005.
+[4] D.C. Thomas, H.R. Kerr, in: D.C. Thomas, S.M. Benson (Eds.), Capture and Separation
+of Carbon Dioxide From Combustion Sources, Carbon Dioxide Capture for Storage in
+Deep Geologic Formations-results From the CO2 Capture Project, vol. 1, Elsevier, Ox-
+ford, 2005, pp. 583–586.
+[5] W.K. Lewis, E.R. Gilliland, Production of pure carbon dioxide, Patent US 2665971,
+1954.
+[6] H.J. Richter, K.F. Knoche, Reversibility of combustion processes, in: R.A. Gaggioli
+(Ed.)Efﬁciency and Costing, ACS Symposium Series, Washington DC, 1983,
+pp. 71–85.
+[7] A. Lyngfelt, B. Leckner, T. Mattisson, A ﬂuidized-bed combustion process with inher-
+ent CO2 separation: application of chemical-looping combustion, Chemical Engi-
+neering Science 56 (2001) 3101–3113.
+[8] T. Mattisson, A. Lyngfelt, H. Leion, Chemical-looping with oxygen uncoupling for
+combustion of solid fuels, International Journal of Greenhouse Gas Control 3
+(2009) 11–19.
+[9] J. Adánez, P. Gayán, I. Adánez-Rubio, A. Cuadrat, T. Mendira, A. Abad, F. García-
+Labiano, L.F. de Diego, Use of chemical-looping processes for coal combustion
+with CO2 capture, Energy Procedia 37 (2013) 540–549.
+[10] J. Adánez, A. Abad, F. García-Labiano, P. Gayán, L.F. de Diego, Progress in chemical-
+looping combustion and reforming technologies, Progress in Energy and Combus-
+tion Science 38 (2012) 215–282.
+[11] A. Abad, I. Adánez-Rubio, P. Gayán, F. García-Labiano, L.F. de Diego, J. Adánez, Dem-
+onstration of chemical-looping with oxygen uncoupling (CLOU) process in a
+1.5 kWth continuously operating unit using a Cu-based oxygen-carrier, International
+Journal of Greenhouse Gas Control 6 (2012) 189–200.
+[12] T. Mattisson, H. Leion, A. Lyngfelt, Chemical-looping with oxygen uncoupling using
+CuO/ZrO2 with petroleum coke, Fuel 88 (2009) 683–690.
+[13] H. Leion, T. Mattisson, A. Lyngfelt, Using chemical-looping with oxygen uncoupling
+(CLOU) for combustion of six different solid fuels, Energy Procedia 1 (2009)
+447–453.
+[14] L.F. de Diego, P. Gayán, F. García-Labiano, J. Celaya, A. Abad, J. Adánez, Impregnated
+CuO/Al2O3 oxygen carriers for chemical-looping combustion: avoiding ﬂuidized bed
+agglomeration, Energy and Fuels 19 (2005) 1850–1856.
+218
+D. Mei et al. / Fuel Processing Technology 133 (2015) 210–219
+
+
+===== Page 10 =====
+
+[15] L.F. de Diego, F. García-Labiano, J. Adánez, P. Gayán, A. Abad, B.M. Corbella, J.M.
+Palacios, Development of Cu-based oxygen carriers for chemical-looping combus-
+tion, Fuel 83 (2004) 1749–1757.
+[16] I. Adánez-Rubio, P. Gayán, F. García-Labiano, L.F. de Diego, J. Adánez, A. Abad, Devel-
+opment of CuO-based oxygen-carrier materials suitable for chemical-looping with
+oxygen uncoupling (CLOU) process, Energy Procedia 4 (2011) 417–424.
+[17] P. Gayán, I. Adánez-Rubio, A. Abad, L.F. de Diego, F. García-Labiano, J. Adánez, Devel-
+opment of Cu-based oxygen carriers for chemical-looping with oxygen uncoupling
+(CLOU) process, Fuel 96 (2012) 226–238.
+[18] C.R. Forero, P. Gayán, L.F. de Diego, A. Abad, F. García-Labiano, J. Adánez, Syngas
+combustion in a 500 Wth chemical-looping combustion system using an impregnat-
+ed Cu-based oxygen carrier, Fuel Processing Technology 90 (2009) 1471–1479.
+[19] J. Adánez, P. Gayán, J. Celaya, L.F. de Diego, F. García-Labiano, A. Abad, Chemical
+looping combustion in a 10 kWth prototype using a CuO/Al2O3 oxygen carrier: effect
+of operating conditions on methane combustion, Industrial and Engineering Chem-
+istry Research 45 (2006) 6075–6080.
+[20] L.F. de Diego, F. García-Labiano, P. Gayán, J. Celaya, J.M. Palacios, J. Adánez, Operation
+of a 10 kWth chemical-looping combustor during 200 h with a CuO–Al2O3 oxygen
+carrier, Fuel 86 (2007) 1036–1045.
+[21] C.R. Forero, P. Gayán, F. García-Labiano, L.F. de Diego, A. Abad, J. Adánez, Effect of gas
+composition in chemical-looping combustion with copper-based oxygen carriers:
+fate of sulphur, International Journal of Greenhouse Gas Control 4 (2010) 762–770.
+[22] C.R. Forero, P. Gayán, F. García-Labiano, L.F. de Diego, A. Abad, J. Adánez, High tem-
+perature behaviour of a CuO/γAl2O3 oxygen carrier for chemical-looping combus-
+tion, International Journal of Greenhouse Gas Control 5 (2011) 659–667.
+[23] P. Gayán, C.R. Forero, A. Abad, L.F. de Diego, F. García-Labiano, J. Adánez, Effect of
+Support on the behavior of Cu-based oxygen carriers during long-term CLC opera-
+tion at temperatures above 1073 K, Energy and Fuels 25 (2011) 1316–1326.
+[24] I. Adánez-Rubio, A. Abad, P. Gayán, L.F. de Diego, F. García-Labiano, J. Adánez, Perfor-
+mance of CLOU process in the combustion of different types of coal with CO2 cap-
+ture, International Journal of Greenhouse Gas Control 12 (2013) 430–440.
+[25] I. Adánez-Rubio, A. Abad, P. Gayán, L.F. de Diego, F. García-Labiano, J. Adánez, Bio-
+mass combustion with CO2 capture by chemical looping with oxygen uncoupling
+(CLOU), Fuel Processing Technology 124 (2014) 104–114.
+[26] I. Adánez-Rubio, A. Abad, P. Gayán, F. García-Labiano, L.F. de Diego, J. Adánez, The
+fate of sulphur in the Cu-based chemical looping with oxygen uncoupling (CLOU)
+process, Applied Energy 113 (2014) 1855–1862.
+[27] D. Mei, H. Zhao, Z. Ma, W. Yang, Y. Fang, C. Zheng, Oxygen release kinetics and
+mechanism study on Cu-, Co-, Mn-based oxygen carrier, Journal of Fuel Chemistry
+and Technology 41 (2013) 235–242.
+[28] D. Mei, H. Zhao, Z. Ma, C. Zheng, Using the sol–gel-derived CuO/CuAl2O4 oxygen car-
+rier in chemical looping with oxygen uncoupling for three typical coals, Energy and
+Fuels 27 (2013) 2723–2731.
+[29] H. Zhao, K. Wang, Y. Fang, J. Ma, D. Mei, C. Zheng, Characterization of natural copper
+ore as oxygen carrier in chemical-looping with oxygen uncoupling of anthracite, In-
+ternational Journal of Greenhouse Gas Control 22 (2014) 154–164.
+[30] I. Adánez-Rubio, A. Abad, P. Gayán, L.F. de Diego, F. García-Labiano, J. Adánez, Iden-
+tiﬁcation of operational regions in the chemical-looping with oxygen uncoupling
+(CLOU) process with a Cu-based oxygen carrier, Fuel 102 (2012) 634–645.
+[31] I. Adánez-Rubio, P. Gayán, A. Abad, F. García-Labiano, L.F. de Diego, J. Adánez, Kinetic
+analysis of a Cu-based oxygen carrier: relevance of temperature and oxygen partial
+pressure on reduction and oxidation reactions rates in chemical looping with oxy-
+gen uncoupling (CLOU), Chemical Engineering Journal 256 (2014) 69–84.
+[32] M. Källén, P. Hallberg, M. Rydén, T. Mattisson, A. Lyngfelt, Combined oxides of iron,
+manganese and silica as oxygen carriers for chemical-looping combustion, Fuel Pro-
+cessing Technology 124 (2014) 87–96.
+[33] M. Rydén, D. Jing, M. Källén, H. Leion, A. Lyngfelt, T. Mattisson, CuO-based oxygen-
+carrier particles for chemical-looping with oxygen uncoupling-experiments in
+batch reactor and in continuous operation, Industrial and Engineering Chemistry
+Research 53 (2014) 6255–6267.
+[34] A. Abad, P. Gayán, L.F. de Diego, F. García-Labiano, J. Adánez, K. Mayer, S. Penthon,
+Modelling a CLC process improved by CLOU and validation in a 120 kW unit, Proc.
+11th Int. Conf. on Fluidized Bed Technol., Beijing, China, 2014.
+[35] C.J. Brinker, G.W. Scherer, Sol–gel science: the physics and chemistry of sol–gel pro-
+cessing, Gulf Professional Publishing, 1990.
+[36] D. Mei, A. Abad, H. Zhao, J. Adánez, On a highly reactive Fe2O3/Al2O3 oxygen carrier
+for in-situ Gasiﬁcation Chemical Looping Combustion (iG-CLC), Energy and Fuels
+(2014)http://dx.doi.org/10.1021/ef501981g.
+[37] M. Ishida, H. Jin, T. Okamoto, A fundamental study of a new kind of medium material
+for chemical-looping combustion, Energy and Fuels 10 (1996) 958–963.
+[38] A.M. Kierzkowska, C.D. Bohn, S.A. Scott, J.P. Cleeton, J.S. Dennis, C.R. Müller, Develop-
+ment of iron oxide carriers for chemical looping combustion using sol–gel, Industrial
+and Engineering Chemistry Research 49 (2010) 5383–5391.
+[39] H. Zhao, L. Liu, B. Wang, D. Xu, L. Jiang, C. Zheng, Sol–gel-derived NiO/NiAl2O4 oxy-
+gen carriers for chemical-looping combustion by coal char, Energy and Fuels 22
+(2008) 898–905.
+[40] H. Zhao, D. Mei, J. Ma, C. Zheng, Comparison of preparation methods for iron-
+alumina oxygen carrier and its reduction kinetics with hydrogen in chemical
+looping combustion, Asia-Paciﬁc Journal of Chemical Engineering 9 (2014)
+610–622.
+[41] HSC Chemistry 6.1, Chemical Reaction and Equilibrium Software With Thermo-
+chemical Database and Simulation Module, Oututec Research Oy, 2008.
+[42] K.T. Jacob, C.B. Alcock, Thermodynamics of CuAlO2 and CuAl2O4 and phase equilibria
+in the system Cu2O-CuO-Al2O3, Journal of the American Ceramic Society 58 (1975)
+192–195.
+[43] S.Y. Chuang, J.S. Dennis, A.N. Hayhurst, S.A. Scott, Development and performance of
+Cu-based oxygen carriers for chemical-looping combustion, Combustion and Flame
+154 (2008) 109–121.
+[44] M. Arjmand, A.M. Azad, H. Leion, T. Mattisson, A. Lyngfelt, Evaluation of CuAl2O4 as
+an oxygen carrier in chemical-looping combustion, Industrial and Engineering
+Chemistry Research 51 (2012) 13924–13934.
+[45] J. Adánez, L.F. de Diego, F. García-Labiano, P. Gayán, A. Abad, J.M. Palacios, Selection
+of oxygen carriers for chemical-looping combustion, Energy and Fuels 18 (2004)
+371–377.
+[46] F. García-Labiano, L.F. de Diego, J. Adánez, A. Abad, P. Gayán, Reduction and oxida-
+tion kinetics of a copper-based oxygen carrier prepared by impregnation for
+chemical-looping combustion, Industrial and Engineering Chemistry Research 43
+(2004) 8168–8177.
+[47] A. Abad, J. Adánez, F. García-Labiano, L.F. de Diego, P. Gayán, Modeling of the
+chemical-looping combustion of methane using a Cu-based oxygen-carrier, Com-
+bustion and Flame 157 (2010) 602–615.
+[48] A. Abad, P. Gayán, F. García-Labiano, L.F. de Diego, J. Adánez, Relevance of oxygen
+carrier characteristics on CLC design for gaseous fuels, Proc. 3rd Int. Conf. on Chem-
+ical Looping, Göteborg, Sweden, 2014.
+[49] A. Abad, F. García-Labiano, L.F. de Diego, P. Gayán, J. Adánez, Reduction kinetics of
+Cu-, Ni-, and Fe-based oxygen carriers using syngas (CO + H2) for chemical-
+looping combustion, Energy and Fuels 21 (2007) 1843–1853.
+[50] L.F. de Diego, A. Abad, A. Cabello, P. Gayán, F. García-Labiano, J. Adánez, Reduction
+and oxidation kinetics of a CaMn0.9 Mg0.1O3−δ oxygen carrier for chemical-
+looping combustion, Industrial and Engineering Chemistry Research 53 (2014)
+87–103.
+219
+D. Mei et al. / Fuel Processing Technology 133 (2015) 210–219

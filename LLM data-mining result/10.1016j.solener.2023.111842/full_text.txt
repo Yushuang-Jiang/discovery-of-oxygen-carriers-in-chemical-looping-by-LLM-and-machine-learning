@@ -1,0 +1,1172 @@
+
+
+===== Page 1 =====
+
+Solar Energy 262 (2023) 111842
+Available online 14 July 2023
+0038-092X/© 2023 International Solar Energy Society. Published by Elsevier Ltd. All rights reserved.
+Long-term replenishment strategy of SiC-doped Mn-Fe particles for 
+high-temperature thermochemical energy storage 
+Di Gan a,b,1, Hongbin Sheng a,b,1, PeiWang Zhu a,b,c, Haoran Xu a,b,c, Gang Xiao a,b,c,* 
+a Key Laboratory of Clean Energy and Carbon Neutrality of Zhejiang Province, Zhejiang University, 38 Zheda Road, Hangzhou, Zhejiang 310027, China 
+b State Key Laboratory of Clean Energy Utilization, Zhejiang University, 38 Zheda Road, Hangzhou, 310027, China 
+c Jiaxing Research Institute, Zhejiang University, 1300 Dongshengxilu Road, Jiaxing, 314031, China   
+A R T I C L E  I N F O   
+Keywords: 
+Replenishment model 
+Thermochemical energy storage 
+Long-term cycling 
+Strengthened particle 
+CSP plants 
+A B S T R A C T   
+Thermal chemical energy storage (TCES) is a promising technology for large-scale energy storage, but long-term 
+use of TCES materials can lead to attrition and reaction performance deterioration, compromising heat storage 
+capacity and system continuity. To tackle this challenge, it is imperative to develop effective replenishment 
+strategies and investigate the evolution of TCES materials. In this study, SiC-doped Mn-Fe particles exhibited 
+superior performance, with only 1.87% mass loss ratio after 4.32 × 105 rotations attrition testing and a reaction 
+conversion of 91.7% even after 800 reaction cycles. However, assessing material suitability for TCES systems 
+necessitates analyzing both attrition resistance and reaction performance. A replenishment strategy was pro­
+posed, based on the attrition conversion factor and analysis of dissipated energy of particles in concentrated solar 
+power (CSP) plants. Compared to undoped Mn-Fe particles, the annual replenishment ratio was reduced by one 
+order of magnitude for SiC-doped particles, to only 1.26% (0.5 wt% SiC) and 0.994% (1 wt% SiC). The 
+replenishment strategy and strengthened particles result in curtailed particle fines and particle flow interruption, 
+and enhanced economics. Continuous replenishment strategy can undoubtedly cater to the requisite heat storage 
+capacity demands for protracted system operation and extend system stability, promoting the advancement of 
+TCES technology.   
+1. Introduction 
+Renewable energy sources are plagued by intermittency and vari­
+ability issues, underlining the critical importance of large-scale energy 
+storage. Thermochemical energy storage (TCES) offers advantages such 
+as high energy storage density and long-term heat retention, making it a 
+promising candidate for effective large-scale energy storage [35,42]. 
+iron-doped manganese oxides have been widely studied for thermal 
+energy storage due to their fast reaction kinetics, low cost, non-toxicity, 
+high reaction temperature range, high reaction conversion ratio and 
+reoxidation ratio, high heat storage density (797.3 kJ/kg, including 
+595.74 kJ/kg sensible heat and 201.56 kJ/kg thermochemical heat) 
+[49] compared to molten salt(304 kJ/kg) [14] and the use of air as a 
+medium [3,13,46,48,49]. These advantages enable high-density thermal 
+storage, which can further improve economic performance. However, 
+continuous operation of the system places high demands on the long- 
+term characteristics of the thermal storage material and long-term 
+operation strategy [16,21,27,42]. 
+In CSP plants, particle fines accumulation can greatly hinder particle 
+flow and cause reduced flowability, compromising heat storage capacity 
+and system continuity. Recent literature highlighted the impact of me­
+chanical strength in Mn-Fe particles on continuous operation [22,47]. 
+Strengthening the toughness of these particles is crucial [28]. To address 
+this issue, ongoing research has explored various approaches to enhance 
+the mechanical strength. Agrafiotis et al. coated porous foam with 
+(Mn0.8Fe0.2)2O3, demonstrating reproducible performance while main­
+taining structural integrity after 33 cycles [2]. Azimi et al. tested several 
+supports to enhance the attrition resistance of (Mn0.75Fe0.25)2O3 parti­
+cles [6,7]. Presiner et al. investigated the chemical stability and me­
+chanical strength of (Mn0.7Fe0.3)2O3 particles doped with TiO2, ZrO2, or 
+CeO2 and found that ZrO2 and CeO2 increased attrition resistance [39]. 
+Bielsa et al. enhanced the chemical and mechanical stability of Si-doped 
+manganese oxide particles through granulation technique optimization, 
+* Corresponding author at: Key Laboratory of Clean Energy and Carbon Neutrality of Zhejiang Province, Zhejiang University, 38 Zheda Road, Hangzhou, Zhejiang 
+310027, China. 
+E-mail address: xiaogangtianmen@zju.edu.cn (G. Xiao).   
+1 The two authors have the same contribution to this study. 
+Contents lists available at ScienceDirect 
+Solar Energy 
+journal homepage: www.elsevier.com/locate/solener 
+https://doi.org/10.1016/j.solener.2023.111842 
+Received 25 April 2023; Received in revised form 29 June 2023; Accepted 2 July 2023   
+
+
+===== Page 2 =====
+
+Solar Energy 262 (2023) 111842
+2
+achieving complete re-oxidation over 100 cycles and 30% increase in 
+mechanical strength [10]. Due to excellent resistance to high tempera­
+tures, high strength, thermal stability, and low cost (compared to CeO2 
+and ZrO2 which has been proved as potential additives to increase in 
+resistance towards attrition) [39] of SiC, some researchers use it as po­
+tential materials to increase TCES materials strength at high- 
+temperature. Peterson et al. developed strengthened Cu-based oxygen 
+carriers by incorporating β-SiC and calcining them to form a protective 
+SiO2 layer, with the porous and high-surface-area SiC structure showing 
+potential for gas–solid reactions and particle strengthening [36]. Guo 
+et al. improved heat transfer efficiency and mechanical stability by 
+adapting ceramic honeycomb SiC-DPF as a side shell for CaCO3 pellets, 
+which was able to support a load of 1.3 MPa after 22 cycles [20]. Li et al. 
+investigated the synergistic effects of Mn and SiC doping on the me­
+chanical, optical, and thermal properties of CaO-based materials, and 
+found that SiC positively impacted the crushing strength of the pellets, 
+increasing it from 6.2 to 7.0 N after 10 cycles [30]. SiC has emerged as a 
+promising candidate for particle mechanical strength improvement. 
+Besides, numerous investigations have been conducted to investigate 
+cycling performance of manganese oxides. Wang et al. discovered that 
+manganese-iron oxides exhibited well-preserved reduction performance 
+after 500 cycles [40]. Carrio et al. conducted a longevity test on iron- 
+doped manganese oxides over 75 redox cycles, demonstrating their 
+potential for long-term cycling without deactivation [15]. Wokon et al. 
+assessed the performance of technical grade raw material made 
+manganese-iron binary oxide over 100 cycles in air, proving good 
+cycling performance despite exhibiting a “swelling effect” during long- 
+term cycles [46]. Wang et al. found that doping TiO2 to manganese 
+oxide resulted in better reaction performance but some agglomeration 
+occurred [44], and Schrader et al. observed agglomeration formations of 
+CAM28 (CaAl0.2Mn0.8O3-δ) in granular flow channels [41]. Moya et al. 
+successfully obtained coral-like morphology by doping manganese oxide 
+with molybdenum, which presented excellent reaction performance 
+after 45 cycles [34]. Bielsa et al. evaluated the synergistic effect of Si 
+element and sol–gel method on redox performance of manganese oxides, 
+providing complete reversibility after 40 cycles but some particle size 
+increase [11]. Yilmaz et al. found cyclic stability and reaction perfor­
+mance of Mn-Si oxides improved with increasing silica content [52]. 
+Hamidi et al. emphasized the importance of TCES material durability 
+and cycling stability for practical application at scale when conducting 
+reduction experiments of Fe67 (particles composed of iron–manganese 
+oxide with a molar ratio of Fe/Mn 2:1) particles in a fixed-bed reactor 
+using an infrared irradiation (IR) furnace [21]. Abad et al. found 1.4 wt 
+% TiO2-doped manganese oxides had the best oxygen uncoupling 
+capability among all other TiO2-doped sample, while iron oxides 
+decreased mechanical strength [1]. 
+However, establishing an accurate relationship between particle 
+strength and operational performance cannot rely solely on mechanical 
+tests. This is particularly critical for Mn-Fe particles. In CSP plants, the 
+filling of small particles into void spaces can lead to close packing, 
+resulting in reduced flowability [45]. Elevated temperatures increase 
+static sliding friction, exacerbating flowability degradation [8,51]. 
+Techno-economic analyses reveal that thermochemical particles ac­
+count for 4%-12% of the total system cost of CSP plants [9,12,19,23]. 
+Considering the additional costs resulting from severe attrition [31], it is 
+urgent to investigate the reaction performance and attrition character­
+istics of Mn-Fe particles during long-term operation, establish correla­
+tions between particle attenuation process and systems operation, and 
+provide vital data support for the design and regulation of CSP plants. 
+To address the aforementioned requirements, this study investigates 
+the long-term performance evolution of SiC-doped Mn-Fe particles and 
+their effects on CSP plants. The investigation focuses on long-term 
+replenishment strategy based on Mn-Fe particles’ attrition characteris­
+tics and reaction cycling performance, to gain insight into the effect of 
+Nomenclature 
+Latin letters 
+E 
+dissipated energy 
+H 
+heat storage capacity 
+H0 
+initial heat storage capacity 
+Hf 
+hardness 
+Hremain 
+remaining heat storage capacity of particles 
+kf 
+probability of the micro protrusions on the surface will be 
+sheared off 
+kH 
+heat storage replenishment ratio 
+kimp 
+proportionality factor of impact attrition 
+km 
+replenishment mass ratio 
+krep,annu 
+average annual replenishment rates 
+ksum m 
+total replenishment mass ratio 
+Kc 
+attrition volume per unit of dissipated energy 
+Kfric 
+frictional attrition volume loss coefficient 
+Kft 
+fracture toughness 
+Kimp 
+impacted attrition volume loss coefficient 
+l 
+linear particle size 
+L 
+the relative sliding distance 
+m 
+mass 
+m0 
+initial particle mass of CSP plants 
+nt 
+number of times of replenishment 
+nyear 
+operation year 
+N 
+the normal force 
+R 
+attrition conversion factor 
+V 
+attrition volume loss 
+Greek letters 
+αh 
+remaining heat storage capacity ratio 
+αm 
+remaining mass ratio 
+θN 
+angle between force and normal direction 
+ρ 
+mass density 
+υimp 
+normal velocity 
+Abbreviations 
+AR 
+attrition rate 
+CAM28 
+CaAl0.2Mn0.8O3-δ 
+CSP 
+concentrated solar power 
+DSC 
+differential scanning calorimetry 
+Fe67 
+particles composed of iron–manganese oxide with a molar 
+ratio of Fe/Mn 2:1 
+IR 
+infrared irradiation 
+MR 
+mass ratio 
+PRR 
+particle replenishment rate 
+sCO2 
+supercritical carbon dioxide 
+TRMR 
+total replenishment mass ratio 
+TCES 
+thermal chemical energy storage 
+TGA 
+thermal gravimetric analyzer 
+Subscripts 
+cyl 
+cylindrical drum test apparatus 
+fric 
+frictional attrition 
+imp 
+impacted attrition 
+SH 
+sensible heat 
+N 
+normal 
+oxd 
+oxidation reaction 
+TCE 
+thermochemical heat  
+D. Gan et al.                                                                                                                                                                                                                                     
+
+
+===== Page 3 =====
+
+Solar Energy 262 (2023) 111842
+3
+particles’ long-term evolution process on operation of CSP plant. Based 
+on the models of attrition conversion factor, this study proposes a 
+replenishment strategy for long-term system operation, providing 
+valuable guidance for CSP plant optimizing. Optimizing particle 
+replenishment rates [19] underscores the contribution of particle 
+strengthening towards inventory cost reduction and improved system 
+economics. Furthermore, identifying long-term attrition characteristics 
+and reaction performance evolution provides crucial data support for 
+system regulation, enabling continuous and stable CSP plant operation 
+over the long term while promoting the development of thermochemical 
+energy storage technology (see Fig. 1). 
+2. Material preparation and method 
+2.1. Preparation of SiC-doped Mn-Fe particles 
+In selecting strengthening materials for particle systems, it is crucial 
+to ensure that they possess high-temperature stability, good thermo­
+chemical compatibility, and cost-effectiveness [32]. SiC has emerged as 
+a promising candidate due to its excellent resistance to high tempera­
+tures, high strength, thermal stability and low cost. Therefore, SiC was 
+selected as the doping material in this study. 
+SiC-doped (Mn0.8Fe0.2)2O3 particles were synthesized using a high- 
+temperature solid-state reaction method [43] that involved several 
+steps, including powder mixing, extrusion, spheronization, drying, and 
+high-temperature treatment of Mn3O4 (>97 wt%, Macklin), Fe2O3 (>99 
+wt%, Macklin), and SiC (>99 wt%, Macklin) powders (see Fig. 2). The 
+molar ratios of Mn and Fe were set at 4:1 to prepare mixed oxides with 8 
+wt% microcrystalline cellulose (>97 wt%, Yuanye). The addition of 
+microcrystalline cellulose is not only beneficial for the subsequent 
+smooth extrusion of the mixed powder, but also helps to form pores 
+inside the particles, facilitating the reaction [30]. The mixed powder 
+was put into a drum-type ball mill and mixed for 4 h at a rotation speed 
+of 300 r/min to ensure thorough mixing. 18 wt% of deionized water was 
+added to the mixed powder to fully wet it for subsequent extrusion. 
+Since the metal oxides mixed powder was relatively hard, a planetary 
+extruder with a large torque was used for the extrusion step, and the 
+pore size of the extrusion screen was set at 0.7 mm. The mixed powder 
+was continuously extruded at 10 r/min to obtain a columnar object 
+material. The extruded columnar object material was put into a cen­
+trifugal spheronizer with a rotation speed of 300 r/min for 5 min. The 
+resulting wet particles was soft and prone to sticking together, but most 
+of the moisture could be removed by drying at 150 ◦C for 1 h to reduce 
+adhesion and facilitate high-temperature treatment to obtain dispersed 
+particles. The dried particles were subject to high-temperature 
+treatment, where they were heated from room temperature to 1000 ◦C 
+and kept at that temperature for 8 h to ensure full synthesizing. After­
+wards, they were cooled naturally down to room temperature. 
+In this study, undoped (Mn0.8Fe0.2)2O3 particles and three types of 
+SiC-doped with doping ratios of 0.5 wt%, 1 wt%, and 5 wt% were syn­
+thesized. Properties of all four particle types were characterized through 
+long-term tests, providing essential insights into their performance and 
+enabling a comprehensive comparison of the effects of different doping 
+ratio. 
+2.2. Long-term attrition characteristic test 
+To measure particle attrition characteristics during long-term oper­
+ation, a cylindrical drum attrition characteristic test apparatus was 
+designed (ASTM D4058-96). The device emulates the particle attrition 
+process as large numbers of particles continuously impact the inner 
+walls while being impelled by an internal baffle. The cylinders are made 
+of wear-resistant 310 s stainless steel and have an overall length of 152 
+mm, an inner wall diameter of 254 mm, an average wall thickness of 6 
+mm, and a baffle height of 51 mm (see Fig. 3). During testing, the cyl­
+inders are rotated at a constant rate of 60 r/min for a certain time, using 
+400 g of particles to better match actual operating conditions in the 
+system. Before and after the attrition characteristic test, the particles are 
+sieved and weighed, using a 50-mesh sieve for separation. All data 
+acquisition occurs under standard ambient humidity and temperature 
+conditions. Supporting Information provides a detailed description of 
+the calculation of attrition ratio and attrition rate of particles. 
+Moreover, the particle size of the initial samples and the samples 
+subjected to attrition characteristic test (without sieving) was analyzed 
+using a LS-13–320-XR particle size analyzer (BECKMAN COULTER). The 
+elemental distribution of particles was analyzed using a scanning elec­
+tron microscope combined with an energy-dispersive spectrometer 
+(SEM-EDS). 
+2.3. Long-term reaction performance test 
+Long-term reaction performance test was conducted in a muffle 
+furnace to analyze reaction performance evolution of oxida­
+tion–reduction cycles (800 cycles) of SiC-doped (Mn0.8Fe0.2)2O3 parti­
+cles. During the reaction performance test, the particles were exposed to 
+an ambient air atmosphere, which is consistent with the actual situation 
+in CSP. Each cycle includes a heating segment and a cooling segment, 
+with temperature settings at 600 oC - 1100 oC - 600 oC, corresponding 
+to heat absorption and release processes of particles in CSP system, 
+respectively [12]. Besides, considering the temperature difference 
+Fig. 1. Schematic diagram of the implementation of strengthen Mn-Fe particles in the CSP system.  
+D. Gan et al.                                                                                                                                                                                                                                     
+
+
+===== Page 4 =====
+
+Solar Energy 262 (2023) 111842
+4
+between the set temperature during the cooling process in the muffle 
+furnaces and the actual sample temperature, lowering the temperature 
+to 600 ◦C ensures complete oxidation reaction. Long-term redox cycles 
+were carried out to obtain samples for reaction performance degradation 
+analysis, and a simultaneous thermal analyzer (TGA/DSC 3+, METTER 
+TOLEDO) was used to test the reduction and oxidation performance of 
+strengthen particles after different cycles at air atmosphere with a 50 
+mL min−1 gas flow rate, providing a data basis for quantifying reaction 
+performance degradation. The calculation of reduction and oxidation 
+conversion are shown in Supporting Information. The XRD analysis was 
+performed with a PANalytical B.V. (Netherland) X-pert Powder 
+diffractometer (Cu Kα radiation) in the diffraction angle (2θ) range of 
+10–80◦with a step of 0.02◦and 30 s counting time per angle. The crystal 
+phases were identified by using the ICDD PDF-4 database 
+3. Characteristics analysis of particle preparation process 
+3.1. Analysis of water content 
+The water content is measured by comparing the mass changes 
+before and after drying for 4 h at 150 ◦C, as shown in Fig. 4. The water 
+content was measured for mixed powder (wet), columnar objects, wet 
+particles, and dried particles. It can be seen that the initial particle water 
+content is about 18%, which gradually decreases during the granulation 
+process. The main dehydration process occurs during drying, and the 
+particle water content drops to <1% after drying. 
+Fig. 2. Schematic diagram of the main granulation steps for (Mn0.8Fe0.2)2O3 particles.  
+Fig. 3. Cylindrical drum attrition characteristic test apparatus.  
+Fig. 4. Water content of different SiC-doped materials.  
+Fig. 5. Particle size of different ratio of SiC-doped materials during particle 
+preparation. 
+D. Gan et al.                                                                                                                                                                                                                                     
+
+
+===== Page 5 =====
+
+Solar Energy 262 (2023) 111842
+5
+3.2. Analysis of particle size 
+Particle size test was conducted on wet particles, dried particles, and 
+synthesized particles, as shown in Fig. 5. It can be seen that the particle 
+size changes of the four materials exhibit similar patterns. After drying, 
+the particle size slightly increases due to the evaporation of water. 
+During high-temperature treatment, synthesis of Mn-Fe oxide occurs, 
+and microcrystalline cellulose is carbonized at high temperature, lead­
+ing to further particle shrinkage and a decrease in particle size after 
+high-temperature treatment. Particle size distribution data are provided 
+in the Supporting Information. 
+4. Attrition characteristic 
+To investigate the attrition of Mn-Fe particles in CSP plants, it is 
+necessary to first analyze their dissipated energy and attrition ratio 
+based on attrition characteristic tests. Based on this, a correlation can be 
+established with the attrition process in CSP plants. 
+4.1. Model of dissipated energy of particles attrition 
+When particles collide, energy dissipation mainly occurs in the 
+contact area between the particle and the impacted surface. Part of the 
+energy is used to change the kinetic energy of both the particle and the 
+impacted surface. When particles slide, energy dissipation mainly occurs 
+in the frictional contact area between the particle and the sliding sur­
+face. The energy is consumed to overcome the resistance caused by 
+friction. These indicate that attrition is essentially an energy dissipation 
+problem [24]. Huq, Celis, Fouvry, Mohrbacher, and others have pro­
+posed methods to calculate attrition volume and verified a linear rela­
+tionship between attrition volume V and dissipated energy E expressed 
+as Eq. (1) [17,25–26,33]. 
+V = KcE
+(1) 
+Here, Kc is the factor which describes the volume of attrition per unit 
+of energy consumed. The exact value depends on factors such as the 
+physical properties, the attrition conditions and the test method. In 
+subsequent calculations, the Kc value is assumed to be equal. 
+Archard considers the plasticized contact between materials where 
+the contact area is the ratio of the normal force to the material hardness, 
+and defined the frictional attrition volume loss Vfric as Eq. (2) [5]. 
+Vfric = kf
+3
+NL
+Hf
+= Kfric ˆA⋅LcosθN
+(2) 
+Here, kf is the coefficient showing the probability that the micro 
+protrusions on the surface will be sheared off, N is the normal force, L is 
+the relative sliding distance, Hf is the hardness of the particles and θN is 
+the angle between force and normal direction. Kfric is coefficient of the 
+frictional attrition volume loss. In subsequent calculations, the Kfric value 
+is assumed to be equal. 
+In impact attrition analysis, the volume loss can be defined by sub­
+surface transverse cracks, and free surfaces can easily be separated from 
+the impact site to form particle fines. [29]. Based on indentation fracture 
+mechanics, the volume of particle fines can be estimated from the depth 
+and length of transverse cracks. Accordingly, they propose the Eq. (3) to 
+estimate the impacted attrition volume loss Vimp [18]. 
+Vimp = kimp
+ρv2
+impl4Hf
+K2
+ft
+= Kimp ˆA⋅v2
+imp
+(3) 
+Here, kimp is the proportionality factor, the properties of the particle 
+including density ρ, linear particle size l, hardness Hf, fracture toughness 
+Kft, and the normal velocity υimp. Kimp is coefficient of the impacted 
+attrition volume loss. In subsequent calculations, the Kimp value is 
+assumed to be equal. 
+The cumulative dissipated energy of a single particle circulating in 
+the cylindrical drum is as Eq. (4). 
+Esum = Eimp + Efric
+(4) 
+The cumulative energy E of Mn-Fe particles in the cylindrical drum 
+was simulated using EDEM software based on particles movement 
+analysis. The simulation parameters, such as the device size, particle 
+sphericity, particle size, and particle friction coefficient, were set to be 
+consistent with those of the experimental apparatus and actual particles 
+characteristics. The contact model between the particles and the wall 
+was based on the Hertz-Mindlin model, with standard rolling friction 
+and relative attrition models employed as additional models [38]. The 
+cumulative energy E due to particle impact and friction acting on the 
+inner wall and baffle wall of the cylinder was estimated, and the degree 
+of attrition was quantified accordingly. 
+4.2. Analysis of particle attrition in the cylindrical drum 
+The process and simulation results of one rotation cycle (1 s) of the 
+particles in the cylindrical drum are shown in Fig. 6. During each 
+rotation cycle, most particles undergo two collisions with the cylinder, 
+as indicated in Fig. 6a–d for the first collision, and Fig. 6e–h for the 
+second collision. As shown in Fig. 6a–d, the particles fall from the top 
+surface under gravity, collide with the bottom surface and experienced 
+their first collision with the inner wall. The height of the particle’s initial 
+position affects its landing point, with a wide range of possible landing 
+points. As shown in Fig. 6e–f, after falling to the bottom, the particles 
+move towards the middle of the cylinder due to static friction, main­
+taining a relatively thin layer without significant accumulation. As 
+shown in Fig. 6g, when the frictional force is insufficient to support 
+further upward movement, the particle begins to fall again, colliding 
+with the baffle, resulting in the second collision. As shown in Fig. 6h, the 
+particle forms an accumulation pile under the push of the baffle and 
+continues to move upward. This is reflected in the layer of particles, 
+which becomes thicker from the middle position, eventually stabilizing 
+in thickness, completing one cycle. The observed patterns of two colli­
+sions match well with the simulation results. To facilitate calculation, 
+the movement of the particles in the cylindrical drum was simplified as 
+follows: the particles fall to the bottom under gravity, experience the 
+first attrition (impact attrition), then move towards the middle of the 
+cylindrical drum, where the frictional force is insufficient to support 
+them, causing relative displacement (friction attrition), before colliding 
+with the baffle for the second time (impact attrition). Finally, pushed by 
+the baffle, they move towards the top, completing a cycle. 
+As shown in Fig. 7a, the average velocity of particles in the 
+Fig. 6. One rotation cycle of the particles in the cylindrical drum: (a)-(h) 
+simulation results of attrition test and (i)-(p) rotation process. 
+D. Gan et al.                                                                                                                                                                                                                                     
+
+
+===== Page 6 =====
+
+Solar Energy 262 (2023) 111842
+6
+cylindrical drum was obtained through simulation. The first collision of 
+two collisions can be regarded as the particle falling from a height D (the 
+inner diameter of the cylindrical drum) and colliding with the cylin­
+drical wall, with the velocity increasing from 0.76 m/s to 1.87 m/s and 
+then the velocity falling back after the collision. The second collision 
+occurs when the particle collides with the baffle. When the particle 
+reaches the middle of the cylinder, it no longer continues to move up­
+ward with the cylinder, and its velocity gradually decreases from 0.76 
+m/s to 0. Subsequently, under the influence of gravity, the particle slides 
+downward and its velocity gradually increases. The velocity before 
+colliding with the baffle is 0.32 m/s. 
+As shown by two particle flow field in Fig. 7a, the angle between the 
+particle and the wall of the cylindrical drum at the first collision is about 
+55◦, and the particle is nearly perpendicular to the baffle at the second 
+collision, and the particle is hedged against the baffle, and the sum of the 
+rates of the particle and the baffle is considered to be the normal ve­
+locity. The velocities of the two collisions are 1.53 and 1.18 m/s, 
+respectively. As shown in the Fig. 7b, the collisions of the particle were 
+simulated and the cumulative dissipated energy was calculated. Analysis 
+of particle motion reveals that average impacted attrition dissipated 
+energy of the two collisions are 3.65 × 10−3 J and 2.05 × 10−3 J per 
+rotation, while average frictional attrition dissipated energy is 8.00 ×
+10−4 J per rotation. The cumulative attrition energy Esum for one hour is 
+23.4 J. The impacted volume loss per rotation Vimp is 3.74 Kimp, whereas 
+the volume loss attributed to frictional attrition Vwear is 4.30 × 10−2 Kfric. 
+4.3. Results of long-term attrition characteristic test 
+Long-term attrition characteristics were characterized via a com­
+parison of attrition rates (AR) and remaining mass ratios (MR). Expla­
+nations and calculation methods for AR and MR are provided in the 
+Supporting Information. Undoped Mn-Fe particles prepared in this study 
+exhibited a high attrition rate, with a mass loss of approximately 55.4% 
+after 120 h of attrition test in cylindrical drum apparatus. To enhance 
+the attrition resistance, three types of SiC-doped Mn-Fe particles were 
+prepared and subjected to a total of 120 h of attrition test, equivalent to 
+4.32 × 105 rotations. As shown in Fig. 8, the with 5% SiC doped particle 
+had an attrition rate of 0.0417%/h and mass loss of 3.26% after 120 h. 
+Although 0.5% SiC doped exhibited a higher attrition rate during the 
+initial 8 h, the attrition rate decreased significantly after 20 h test, with a 
+final attrition rate of 0.0281%/h and mass loss of 5.00% after 120 h test. 
+The attrition characteristics of 1% SiC doped particles was further 
+improved, with an attrition rate of 0.0156%/h and mass loss of 1.87% at 
+120 h. SiC-doped Mn-Fe particles showed a significant improvement in 
+attrition resistance compared to the original Mn-Fe particles. 
+4.4. Analysis of the reinforcement mechanism for SiC-doped particles 
+During attrition test, particles are susceptible to fracture due to the 
+impact of attrition mechanisms, resulting in the formation of several 
+sub-particles of similar size to the parent particle, or delamination wear, 
+in which surface edges, protrusions, depressions, and other features are 
+gradually worn down or chipped away, forming small particles and 
+particle fines [50]. The attrition process is the gradual breaking of 
+particles or detachment of surface layers, and their attrition resistance is 
+not related to their hardness, but rather depends on their material 
+toughness [37]. When the SiC doping ratio was increased from 0.5 wt% 
+to 1 wt%, its attrition resistance was enhanced. Based on Fig. 9(a)-(b), 
+Fig. 7. (a) Average velocity of particles in the cylindrical drum. (b) The cumulative dissipated energy.  
+Fig. 8. Attrition rate and remaining mass ratio of (a) all Mn-Fe particles and (b) SiC-doped Mn-Fe particles.  
+D. Gan et al.                                                                                                                                                                                                                                     
+
+
+===== Page 7 =====
+
+Solar Energy 262 (2023) 111842
+7
+the reason for this can be analyzed: the distribution density of SiC in Mn- 
+Fe particles gradually increases, and since SiC has a high Peierls stress, it 
+can resist lattice distortion, while SiC crystal grains can offset cracks 
+during the fracture process, impeding crack development and improving 
+the attrition resistance of Mn-Fe particles. However, when the SiC ratio 
+was increased from 1 wt% to 5 wt%, based on Fig. 9(b)-(c), the reason 
+for the decrease in attrition resistance can be analyzed. Due to the higher 
+activity of SiC, excessive doping may cause aggregation during powder 
+preparation, resulting in flocculation in particles, leading to the for­
+mation of defects such as pores, dislocations, and stress concentration, 
+providing a path for crack propagation and reducing particle attrition 
+resistance [37]. This is also consistent with the results of attrition tests, 
+as the initial attrition rate for 5 wt% particles was slower than for 0.5 wt 
+% particles. As attrition proceeded and cracks developed, the attrition 
+rate for 5 wt% particles became faster than for 0.5 wt% particles. 
+4.5. Results of particle size distribution of long-term attrition 
+characteristic test 
+During attrition characteristic tests, the average size of particles 
+gradually decreases due to attrition. Some particles become too small to 
+flow when their size decreases below the mesh size, rendering them 
+unsuitable for use. Therefore, the attrition characteristic test is based on 
+changes in particle size distribution. There exists a close relationship 
+between changes in particle size distribution and attrition characteris­
+tics, highlighting the need for further research on particle size 
+distribution. 
+As shown in Fig. 10, this study examined the particle size distribution 
+of 0.5 wt% SiC-doped Mn-Fe particles after attrition tests. The particles 
+had a wide particle size distribution with a median particle size of 805 
+μm and were divided into 16 particle size intervals, each characterized 
+by its midpoint. After 120 h of attrition testing, the median particle size 
+was 748 μm. The smallest size interval is composed of particles sieved. 
+At the beginning of attrition, the transition from large particle size in­
+tervals (1199–1741 μm) to intermediate (623–1198 μm) and small 
+particle size intervals (<622 μm) was dominant, resulting in an increase 
+in the proportion of particles in the intermediate and small particle size 
+intervals. As attrition continued, the transition from intermediate par­
+ticle size intervals to small particle size intervals and even the sieving 
+interval became dominant, resulting in a gradual decrease in the pro­
+portion of particles in the intermediate particle size interval. The par­
+ticle size intervals that dominated the transition in the particle size 
+distribution were different, resulting in the change in the distribution 
+pattern not remaining constant over time. 
+The results of particle size distribution indicate that the highest 
+proportion of 0.5 wt% SiC-doped Mn-Fe particles’ transformation occurs 
+in the size range of 568–750 µm. This suggests that the attrition mech­
+anism of the particles during the long-term attrition test is mainly 
+dominated by fragmentation. 
+5. Reaction performance 
+5.1. Reaction characterization of different SiC-doped ratio 
+The XRD patterns of different SiC-doped Mn-Fe particles are shown 
+in Fig. 11(a). All synthesized samples exhibit distinct reflections of (Mn, 
+Fe)2O3 (bixbyite, ICCD 00-041-1442), indicating a uniform formation of 
+the continuous solid solution. The XRD patterns of SiC-doped samples 
+show peak of SiC (Synthetic, ICCD 97-002-4217). Due to the low content 
+of SiC, its peak is not very significant, as further demonstrated in Fig. 11 
+(b)-(c). 
+To investigate the effect of SiC doping on the reaction performance of 
+Mn-Fe particles, the reduction and oxidation reaction performance of 
+Mn-Fe particles doped with different ratio of SiC were compared in the 
+first cycle, as shown in Fig. 12. As the SiC doping proportion increased, 
+the particles maintained a relatively fast reaction rate, achieving rapid 
+oxidation and reduction. However, the conversion of the strength par­
+ticles gradually decreased, with maximum conversion of 95.7%, 90.4%, 
+and 33.7% for 0.5%, 1%, and 5% SiC doping, respectively. The particles 
+doped with 0.5% and 1% SiC showed better reaction performance than 
+those doped with 5% SiC. All strength particles exhibited good re- 
+oxidation ability, with almost complete re-oxidation of the reduced 
+portion. 
+Fig. 9. SEM images and corresponding EDS elemental mappings of (a) 0.5 wt%, (b) 1 wt%, (c) 5 wt%.  
+Fig. 10. 0.5 wt% SiC-doped particle size distribution of different attrition test.  
+D. Gan et al.                                                                                                                                                                                                                                     
+
+
+===== Page 8 =====
+
+Solar Energy 262 (2023) 111842
+8
+5.2. Results of cycling performance 
+To investigate the evolution in reaction cycling performance of Mn- 
+Fe particles doped with 0%, 0.5%, and 1% SiC after long-term cycling, 
+800 cycles were performed. The XRD patterns of different SiC-doped 
+Mn-Fe particles after cycling test are presented in Figs. S1–S3 of the 
+Supporting Information. The results demonstrate that SiC can exist 
+stably in Mn-Fe particles during long-term cycling processes. The 
+undoped Mn-Fe particles and those doped with 0.5% and 1% SiC showed 
+a decrease of the oxidation conversion after the 800th cycle, to 87.4%, 
+91.7%, and 82.3%, respectively. As power generation and heat release 
+are directly related, the evolution of the oxidation performance during 
+the cycles was further fitted, as shown in Fig. 13(d). The long-term 
+cycling of all three types of particles exhibited a trend of initially fast 
+and then slow deterioration in oxidative reactivity. 
+6. Replenishment model for CSP plants 
+6.1. Models of replenishment strategy for CSP plants 
+In CSP plants, the gradual decrease in mass of Mn-Fe particles due to 
+fine particle sieving, coupled with their deteriorating redox reaction 
+performance over time, results in a decline in heat storage capacity. 
+Thus, the particle replenishing is necessary. Furthermore, for particles 
+strengthen through doping, although their attrition resistance perfor­
+mance improves, their reaction performance gradually decreases. 
+Selecting the appropriate particle type presents a challenge, necessi­
+tating the introduction of a new indicator for comprehensive evaluation. 
+The total replenishment mass over long-term operation can provide an 
+intuitive reference for particle type selection. Moreover, due to non- 
+uniform deterioration rates of mass loss and reaction performance, 
+replenished particles will be at different stages of evolution, resulting in 
+varying loss rates. This further complicates the periodic replenishment 
+process, underscoring the need to develop effective replenishment 
+strategies. 
+The remaining heat storage capacity of particles before the nt 
+replenishment can be calculated using Eq. (5) as follows: 
+Hremain,t = H0 ˆA⋅
+∑nt−1
+i=0 αm,i,t ˆA⋅αh,i,t
+(5) 
+Here, H0 is the initial heat storage capacity of particles, nt represents 
+the tth replenishments, αm,i,t and αh,i,t represents the remaining mass ratio 
+and the remaining heat storage capacity ratio of the ith replenishment 
+particles before the nt replenishment. When i = 0, it corresponds to the 
+addition of original particles into the system. 
+The calculation of αh is as follows: 
+αh = HTCE + HSH,0
+HTCE,0 + HSH,0
+(6) 
+Here, HTCE is the current heat storage capacity of the thermochemical 
+reaction, which is proportional to the conversion of the oxidation. HTCE,0 
+is the original thermochemical heat storage density (oxidation reaction 
+enthalpy), set as 202 kJ/kg. And HSH,0 is the original sensible heat 
+storage density, set as 525 kJ/kg (400–1000 ◦C). 
+To maintain the system’s heat storage capacity at the design value by 
+replenishing particles, the required replenishment mass corresponds to 
+the heat storage capacity ΔHnt as shown in Eq. (7). 
+ΔHnt = H0 −Hremain,nt
+(7) 
+The heat storage replenishment ratio compared to the original heat 
+storage capacity kH,nt is calculated as Eq. (8). 
+kH,nt = ΔHnt
+H0
+(8) 
+The calculation of the replenishment mass of particles Δmnt is as Eq. 
+(9). 
+Δmnt =
+ΔHnt
+HTCE,0 + HSH,0
+(9) 
+Fig. 11. XRD patterns of Mn-Fe particles doped with different ratios of SiC. (a) 10o-80o, (b) 35◦−36.5o, (c) 58◦−62o.  
+Fig. 12. Reaction performance comparison of different SiC-doped Mn- 
+Fe particles. 
+D. Gan et al.                                                                                                                                                                                                                                     
+
+
+===== Page 9 =====
+
+Solar Energy 262 (2023) 111842
+9
+The total mass of particles in the system after replenishment mnt is as 
+follows, 
+mnt = mremain,nt + Δmnt
+(10) 
+Here, mremain,nt is the remaining particle mass before the ntth 
+replenishment. 
+The replenishment mass ratio km,nt compared to the original mass is 
+calculated as Eq. (11). 
+km,nt = Δmnt
+m0
+(11) 
+Here, m0 is the original total mass. 
+The total replenishment mass ratio in the system ksum m,nt is 
+expressed as Eq. (12). 
+ksum m,nt =
+∑nt
+i=1km,nt
+(12) 
+The average annual replenishment rates krep,annu is calculated as 
+follow, 
+krep,annu = ksum m,nt
+nyear
+(13) 
+Here, nyear is operation year. 
+6.2. Models of attrition conversion factor of CSP plants 
+To further analyze particle attrition in CSP plants and obtain dissi­
+pated energy of attrition, it is necessary to calculate the energy dissi­
+pation processes of particles in each device [4,12,19]. Circulating 
+particles flow through the particle receiver, hot particle storage, heat 
+exchanger, cold particle storage, particle elevator, and interconnecting 
+pipelines. As particle attrition differs among devices, their attrition 
+processes must be analyzed separately. The analysis of particle flow and 
+reaction processes, as well as the calculation of dissipated energy in CSP 
+plants, are presented in the Supporting Information. The sum of attrition 
+for all devices represents the accumulated attrition. 
+To establish a correlation between attrition characteristics obtained 
+from the cylindrical drum attrition characteristic test apparatus and 
+attrition processes in CSP plants, this study proposes an attrition con­
+version factor R by analyzing the energy dissipation of both attrition 
+processes. With coefficient R, attrition process of particles in CSP plants 
+can be predict based on long-term attrition test from cylindrical drum 
+attrition characteristic test apparatus. R is defined as the ratio of attri­
+tion time of particles between the CSP plant and the cylindrical drum 
+attrition characteristic test apparatus, which can also be defined as the 
+ratio of dissipated energy of attrition, as shown in Eq. (14). 
+R =
+˙ECSP
+˙Ecyl
+==
+˙VCSP
+˙Vcyl
+(14) 
+Here, ˙Ecsp is the total dissipated energy of particle attrition of CSP 
+plant, and ˙Ecyl is of cylindrical drum, ˙Vcsp is the total volume loss of 
+particle attrition of CSP plant, and ˙Vcyl is of cylindrical drum. 
+To analyze the attrition of Mn-Fe particles in CSP plants, this study 
+focused on the 125 MWe CSP plant designed by Buck et al. [12]. The 
+dissipated energy and volume loss of each equipment were calculated 
+based on the its geometric parameters of and the flow process of parti­
+cles. The total dissipated energy of attrition of the CSP plant and the 
+conversion factor R were obtained. 
+For the 125 MWe CSP system, a multi-tower configuration consisting 
+of 14 solar tower modules is used. The storage capacity of a single 
+module is 249 MWh, and the designed power of the absorber is 50 MWth 
+[12]. The system also includes a heliostat field (869 heliostats), heat 
+exchanger, and storage and transport system. The geometric parameters, 
+attrition volume loss, and attrition dissipated energy are listed in 
+Table S1, Supporting Information. The attrition conversion factor of 125 
+Fig. 13. Long-term reaction performance test of SiC-doped Mn-Fe particles. (a) 0 wt% (b) 0.5% wt.% (c) 1%, (d) fitting curve.  
+D. Gan et al.                                                                                                                                                                                                                                     
+
+
+===== Page 10 =====
+
+Solar Energy 262 (2023) 111842
+10
+MWe system R125MW is 0.0780. 
+6.3. Replenishment strategy for 125 MW CSP plants 
+To ensure that the heat storage capacity of particles in the system 
+meets operational requirements, this study analyzed particle replen­
+ishment strategies, including particle replenishment rates and total 
+replenishment mass ratio, for undoped, 0.5% SiC-doped, and 1% SiC- 
+doped Mn-Fe particles in 125 MWe CSP systems. The analysis relied 
+on a attrition conversion factor R, particle reaction performance evo­
+lution, and attrition characteristic evolution, all integrated into a par­
+ticle replenishment model. The original particle storage corresponds to a 
+12-hour storage capacity [12], and the particles undergo one flow cycle 
+and one reaction cycle per day in the system, with daily replenishment. 
+The total operating time is 25 years [12]. The calculation results are 
+presented in Fig. 14. 
+As shown in Fig. 14(a) and (b), for the 125 MWe CSP system, the 
+particle replenishment rates of particles gradually decrease and even­
+tually stabilize, while the total replenishment mass ratio initially in­
+creases rapidly and gradually tends to linear growth. The particle 
+replenishment rates for undoped, 0.5% SiC-doped, and 1% SiC-doped 
+Mn-Fe particles stabilize at 3.04 × 10−4, 2.87 × 10−5, and 1.69 × 10−5 
+per day, respectively. And the total replenishment mass ratio over the 
+25-year are 3.56 times, 0.316 times, and 0.248 times the original total 
+particle mass (excluding the original total particle mass), with average 
+annual replenishment rates krep,annu [19] of 1.43 × 10−1, 1.26 × 10−2, 
+and 9.94 × 10−3, respectively. 
+It can be observed that the SiC-doped Mn-Fe particles show a sig­
+nificant decrease in particle replenishment rates and total replenishment 
+mass ratio, both of which decrease by approximately one order of 
+magnitude after SiC doping reinforcement. This is beneficial for 
+reducing the cost of particle inventory and improving the LCOE of the 
+system [9,12,23]. Since this study focuses on the replenishment strategy, 
+and the influence of SiC doping on storage capacity is relatively small, 
+the analysis mainly revolves around the amount of replenishment. If the 
+worn particles are sieved and recycled to regenerate new particles, the 
+cost of replenishment can be further reduced. Assuming that the cost of 
+Mn-Fe particle fabrication is 10% of the material cost, and based on the 
+research of Buck et al. [12], the break-even prices were further corrected 
+to 1.606, 1.221 and 1.213 €/kg for undoped, 0.5% SiC-doped, and 1% 
+SiC-doped Mn-Fe particles of 125 MWe CSP system. It can be seen that 
+compared with undoped particles, adopting strengthen particle can 
+significantly reduce the cost of particle inventory. 
+6.4. Further research based on replenishment model 
+To further analyzing the influence of different factors on particle 
+replenishment of CSP plants, this study focuses on three key parameters: 
+reaction cycling performance, attrition characteristic, and reaction 
+enthalpy. With the superior properties of 0.5 wt% and 1 wt% SiC-doped 
+Mn-Fe particles as shown above, the replenishment process of both 
+particles under different parameters was analyzed and compared based 
+on 125 MW CSP plant. 
+6.4.1. Reaction cycling performance deterioration rate 
+Based on the reaction cycling performance of SiC-doped particles, 
+eight groups of deterioration rates ranging from 0.1× to 10× were set up 
+for comparison. Here, 10× represents a deterioration rate where the 
+deterioration ratio of reaction cycling performance after one redox re­
+action is equivalent to that of ten times the original reaction (Mn-Fe 
+particles), indicating an accelerated deterioration based on time, rather 
+than a simple ten times loss ratio. Similarly, 0.1× represents a deterio­
+ration ratio where the deterioration ratio of ten reactions is equivalent to 
+that of one single original reaction (Mn-Fe particles). 
+As shown in Fig. 15, the total replenishment mass ratio of both 
+particles will gradually increase as the deterioration rate of reaction 
+cycling performance increases from 0.1× to 10×. This is easily under­
+standable since, as the deterioration rate of reaction cycling perfor­
+mance accelerates, the system’s heat storage capacity also decreases 
+faster, resulting in an increasing need for replenishment. Furthermore, 
+at different deteriorate rates, the total replenishment mass ratio of 1 wt 
+% SiC-doped particle is always lower than that of 0.5 wt%. 
+6.4.2. Attrition characteristic 
+Based on the attrition characteristic of SiC-doped particles, eight 
+groups of attrition rates ranging from 0.1× to 10×were compared. The 
+meaning of attrition rate is similar to deteriorate rate mentioned above. 
+As shown in Fig. 16, as the attrition rate increases from 0.1× to 10×, the 
+total replenishment mass ratio of both particles gradually increases 
+similarly to the previous section. However, when the deteriorate rate is 
+relatively small, the total replenishment mass ratio of 0.5 wt% SiC- 
+doped particles is lower than that of 1 wt%, as the reaction perfor­
+mance deterioration plays the dominant impact when the attrition rate 
+slows down. In this case, the reaction cycling performance of 0.5 wt% 
+particles were superior to that of the 1 wt%, leading to less particle 
+replenishment. As the attrition rate accelerates, attrition characteristic 
+predominates, and thus the total replenishment mass ratio of 1 wt% 
+particles become relatively less. 
+6.4.3. Reaction enthalpy 
+As a key parameter of TCES materials, it is necessary to analyze the 
+impact of reaction enthalpy on the replenishment process. As shown in 
+Fig. 17(a)–(c), the total replenishment mass ratio is calculated based on 
+the initial particles adding into the system. It can be seen that as the 
+Fig. 14. Particle replenishment of (a) all Mn-Fe particles of 125 MW CSP system, (b) SiC-doped Mn-Fe particles of 125 MW CSP system.  
+D. Gan et al.                                                                                                                                                                                                                                     
+
+
+===== Page 11 =====
+
+Solar Energy 262 (2023) 111842
+11
+Fig. 15. Total replenishment mass ratio under different reaction cycling performance deteriorate rates. (a) 0.5 wt%, (b) 1 wt%, (c) Comparison.  
+Fig. 16. Total replenishment mass ratio under different attrition characteristic. (a) 0.5 wt%, (b) 1 wt%, (c) Comparison.  
+D. Gan et al.                                                                                                                                                                                                                                     
+
+
+===== Page 12 =====
+
+Solar Energy 262 (2023) 111842
+12
+reaction enthalpy increases, the proportion of replenishment relative to 
+the initial particle mass gradually increases. This is because the higher 
+the reaction enthalpy, the higher its proportion in thermal energy 
+storage density. Under the same reaction cycling performance deterio­
+ration rate, the loss of system’s heat storage capacity is also greater, and 
+the required particle supplementation is also correspondingly higher. 
+Based on Fig. 17(c), it can be seen that when the reaction enthalpy is 
+relatively low (<420 kJ/kg), 1 wt% SiC-doped particles have an 
+advantage. As the reaction enthalpy further increases, 0.5 wt% SiC- 
+doped particles are more advantageous. The total replenishment mass 
+ratio in Fig. 17(d)–(e) is calculated based on the initial mass of Mn-Fe 
+particles in the system. Referring to Fig. 17(e), similarly, when the 
+reaction enthalpy is relatively low, 1 wt% SiC-doped particles have an 
+advantage. After further increasing the reaction enthalpy, 0.5 wt% SiC- 
+doped particles are more advantageous. However, the total replenish­
+ment curve is not monotonically increasing, showing a trend of first 
+increasing and then decreasing. This is because when the reaction 
+enthalpy is relatively low, the increase in energy density results in a 
+smaller proportion of decrease in the total particle mass, while the 
+growth rate of particle replenishment due to the loss of reaction per­
+formance is faster. As the reaction enthalpy keeps increasing and reaches 
+the peak of total replenishment mass ratio, the increase in energy den­
+sity results in a higher proportion of decrease in the total replenishment 
+mass, while the corresponding proportion of particle replenishment due 
+Fig. 17. Total replenishment mass ratio under different reaction enthalpy. Based on the initial particles, (a) 0.5 wt%, (b) 1 wt%, (c) Comparison. Based on the initial 
+mass of Mn-Fe particles, (d) 0.5 wt%, (e) 1 wt%, (f) Comparison. 
+D. Gan et al.                                                                                                                                                                                                                                     
+
+
+===== Page 13 =====
+
+Solar Energy 262 (2023) 111842
+13
+to the loss of reaction performance decreases, resulting in a changing 
+trend as shown in Fig. 17(e). 
+7. Conclusion 
+SiC-doped Mn-Fe particles with varying doping ratios demonstrated 
+improved attrition resistance and long-term reaction cycle characteris­
+tics, which are advantageous for the long-term stable operation and 
+economic improvement of CSP systems. Doping at 0.5 wt%, 1 wt%, and 
+5 wt% resulted in mass loss ratios of 5.00%, 1.87%, and 3.26% (120 h 
+test), respectively, compared to the undoped Mn-Fe particle’s mass loss 
+of 53.5% (96 h test). Additionally, undoped and 0.5% and 1% SiC-doped 
+particles exhibited good cycle performance, with oxidation conversion 
+of 87.4%, 91.7%, and 82.3%, respectively, after 800 cycles. However, 
+increased strength through doping led to decreased reaction perfor­
+mance, posing a challenge for selecting particles in CSP systems. To 
+address this issue, a new indicator was proposed: the total replenishment 
+mass ratio. Correlation analysis between attrition testing and CSP sys­
+tem flow process underpins the replenishment strategies required to 
+maintain heat storage capacity. Simulation-based studies on attrition 
+volume loss and energy dissipation provided insights into the relation­
+ship between attrition characteristics and the CSP system operation. 
+Based on replenishment strategy, strengthened Mn-Fe particles showed 
+reduced replenishment rates by one order of magnitude relative to 
+undoped particles. Specifically, the average annual replenishment rates 
+were 14.3%, 1.26%, and 0.994% for undoped and 0.5 wt% and 1 wt% 
+SiC-doped Mn-Fe particles, respectively, in a 125 MWe CSP system over 
+a 25-year operation period. This reduction in particle replenishment 
+rates can significantly reduce particle inventory and break-even prices, 
+contributing to a lowered CSP system LCOE and promoting wider use of 
+renewable energy sources. 
+This study provides crucial insights into the development of ther­
+mochemical energy storage, facilitating more extensive utilization of 
+solar energy to meet future energy needs. Improved attrition resistance 
+achieved by SiC-doped Mn-Fe particles can reduce particle fines, ensure 
+continuous particle flow, and lower system replenishment rates, thereby 
+contributing to the wider adoption of renewable energy sources. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgements 
+The authors gratefully acknowledge the support from the National 
+Natural Science Foundation of China (No. 52176207), Key R&D Pro­
+gram of Zhejiang (NO. 2022C01043) and the Fundamental Research 
+Funds for the Central Universities (2022ZFJH004). 
+References 
+[1] Abad, A., Mendiara, T., Izquierdo, M.T., de Diego, L.F., García-Labiano, F., 
+Gay´an, P., Ad´anez, J., 2021. Evaluation of the redox capability of manganese- 
+titanium mixed oxides for thermochemical energy storage and chemical looping 
+processes. Fuel Process. Technol. 211, 106579 https://doi.org/10.1016/j. 
+fuproc.2020.106579. 
+[2] Agrafiotis, C., Block, T., Senholdt, M., Tescari, S., Roeb, M., Sattler, C., 2017. 
+Exploitation of thermochemical cycles based on solid oxide redox systems for 
+thermochemical storage of solar heat. Part 6: Testing of Mn-based combined oxides 
+and porous structures. Sol. Energy 149, 227–244. https://doi.org/10.1016/j. 
+solener.2017.03.083. 
+[3] Al-Shankiti, I.A., Ehrhart, B.D., Ward, B.J., Bayon, A., Wallace, M.A., Bader, R., 
+Kreider, P., Weimer, A.W., 2019. Particle design and oxidation kinetics of iron- 
+manganese oxide redox materials for thermochemical energy storage. Sol. Energy 
+183, 17–29. https://doi.org/10.1016/j.solener.2019.02.071. 
+[4] Almendros-Ib´a˜nez, J.A., Fern´andez-Torrijos, M., Díaz-Heras, M., Belmonte, J.F., 
+Sobrino, C., 2019. A review of solar thermal energy storage in beds of particles: 
+Packed and fluidized beds. Sol. Energy 192, 193–237. https://doi.org/10.1016/j. 
+solener.2018.05.047. 
+[5] J.F. Archard Research Laboratory, Associated Electrical Industries Limited, 
+Aldermaston, Berkshire, England Contact and Rubbing of Flat Surfaces Journal of 
+Applied Physics 24 8 1953 1953 981 988. 
+[6] Azimi, G., Leion, H., Mattisson, T., Ryd´en, M., Snijkers, F., Lyngfelt, A., 2014. 
+Mn–Fe oxides with support of MgAl 2 O 4 , CeO 2 , ZrO 2 and Y 2 O 3 –ZrO 2 for 
+chemical-looping combustion and chemical-looping with oxygen uncoupling. Ind. 
+Eng. Chem. Res. 53 (25), 10358–10365. 
+[7] Azimi, G., Mattisson, T., Leion, H., Ryd´en, M., Lyngfelt, A., 2015. Comprehensive 
+study of Mn–Fe–Al oxygen-carriers for chemical-looping with oxygen uncoupling 
+(CLOU). Int. J. Greenhouse Gas Control 34, 12–24. https://doi.org/10.1016/j. 
+ijggc.2014.12.022. 
+[8] Bagepalli, M.V., Jeong, S.Y., Brooks, J.D., Zhang, Z.M., Ranjan, D., Loutzenhiser, P. 
+G., 2022. Experimental characterization of extreme temperature granular flows for 
+solar thermal energy transport and storage. Sol. Energy Mater. Sol. Cells 248, 
+112020. https://doi.org/10.1016/j.solmat.2022.112020. 
+[9] Bayon, A., Bader, R., Jafarian, M., Fedunik-Hofman, L., Sun, Y., Hinkley, J., 
+Miller, S., Lipi´nski, W., 2018. Techno-economic assessment of solid–gas 
+thermochemical energy storage systems for solar thermal power applications. 
+Energy 149, 473–484. https://doi.org/10.1016/j.energy.2017.11.084. 
+[10] Bielsa, D., Oregui, M., Arias, P.L., 2022. New insights into Mn2O3 based metal 
+oxide granulation technique with enhanced chemical and mechanical stability for 
+thermochemical energy storage in packed bed reactors. Sol. Energy 241, 248–261. 
+https://doi.org/10.1016/j.solener.2022.06.010. 
+[11] Bielsa, D., Zaki, A., Arias, P.L., Faik, A., 2020. Improving the redox performance of 
+Mn2O3/Mn3O4 pair by Si doping to be used as thermochemical energy storage for 
+concentrated solar power plants. Sol. Energy 204, 144–154. https://doi.org/ 
+10.1016/j.solener.2020.04.073. 
+[12] Buck, R., Agrafiotis, C., Tescari, S., Neumann, N., Schmücker, M., 2021. Techno- 
+economic analysis of candidate oxide materials for thermochemical storage in 
+concentrating solar power systems. Front. Energy Res. 9 https://doi.org/10.3389/ 
+fenrg.2021.694248. 
+[13] Carrillo, A.J., Chinchilla, L.E., Iglesias-Juez, A., Guti´errez-Rubio, S., Sastre, D., 
+Pizarro, P., Hungría, A.B., Coronado, J.M., 2021. Determining the role of Fe-doping 
+on promoting the thermochemical energy storage performance of (Mn1−xFex)3O4 
+spinels. Small Methods 5 (10), 2100550. https://doi.org/10.1002/ 
+smtd.202100550. 
+[14] Carrillo, A.J., Gonz´alez-Aguilar, J., Romero, M., Coronado, J.M., 2019. Solar 
+Energy on demand: a review on high temperature thermochemical heat storage 
+systems and materials. Chem. Rev. 119 (7), 4777–4816. https://doi.org/10.1021/ 
+acs.chemrev.8b00315. 
+[15] Carrillo, A.J., Serrano, D.P., Pizarro, P., Coronado, J.M., 2016. Understanding 
+redox kinetics of iron-doped manganese oxides for high temperature 
+thermochemical energy storage. J. Phys. Chem. C 120 (49), 27800–27812. https:// 
+doi.org/10.1021/acs.jpcc.6b08708. 
+[16] Dizaji, H.B., Hosseini, H., 2018. A review of material screening in pure and mixed- 
+metal oxide thermochemical energy storage (TCES) systems for concentrated solar 
+power (CSP) applications. Renew. Sustain. Energy Rev. 98, 9–26. https://doi.org/ 
+10.1016/j.rser.2018.09.004. 
+[17] Fouvry, S., Kapsa, P., Vincent, L., 1996. Quantification of fretting damage. Wear 
+200 (1), 186–205. https://doi.org/10.1016/S0043-1648(96)07306-1. 
+[18] Ghadiri, M., Zhang, Z., 2002. Impact attrition of particulate solids. Part 1: A 
+theoretical model of chipping. Chem. Eng. Sci. 57 (17), 3659–3669. https://doi. 
+org/10.1016/S0009-2509(02)00240-3. 
+[19] Gorman, B.T., Lanzarini-Lopes, M., Johnson, N.G., Miller, J.E., Stechel, E.B., 2021. 
+Techno-economic analysis of a concentrating solar power plant using redox-active 
+metal oxides as heat transfer fluid and storage media. Front. Energy Res. 9. 
+[20] Guo, R., Takasu, H., Funayama, S., Shinoda, Y., Tajika, M., Harada, T., Kato, Y., 
+2022. Mechanical stability and heat transfer improvement of CaO-based composite 
+pellets for thermochemical energy storage. Chem. Eng. Sci. 255, 117674 https:// 
+doi.org/10.1016/j.ces.2022.117674. 
+[21] Hamidi, M., Wheeler, V.M., Gao, X., Pye, J., Catchpole, K., Weimer, A.W., 2020. 
+Reduction of iron–manganese oxide particles in a lab-scale packed-bed reactor for 
+thermochemical energy storage. Chem. Eng. Sci. 221, 115700 https://doi.org/ 
+10.1016/j.ces.2020.115700. 
+[22] Han, X., Wang, L., Ling, H., Ge, Z., Lin, X., Dai, X., Chen, H., 2022. Critical review 
+of thermochemical energy storage systems based on cobalt, manganese, and copper 
+oxides. Renew. Sustain. Energy Rev. 158, 112076 https://doi.org/10.1016/j. 
+rser.2022.112076. 
+[23] Heller, L., Glos, S., Buck, R., 2022. Techno-economic selection and initial 
+evaluation of supercritical CO2 cycles for particle technology-based concentrating 
+solar power plants. Renew. Energy 181, 833–842. https://doi.org/10.1016/j. 
+renene.2021.09.007. 
+[24] Hu, Y.-Z., Ma, T.-B., Wang, H., 2013. Energy dissipation in atomic-scale friction. 
+Friction 1 (1), 24–40. 
+[25] Huq, M.Z., Celis, J.P., 1997. Reproducibility of friction and wear results in ball-on- 
+disc unidirectional sliding tests of TiN-alumina pairings. Wear 212 (2), 151–159. 
+https://doi.org/10.1016/S0043-1648(97)00167-1. 
+[26] Huq, M.Z., Celis, J.P., 2002. Expressing wear rate in sliding contacts based on 
+dissipated energy. Wear 252 (5), 375–383. https://doi.org/10.1016/S0043-1648 
+(01)00867-5. 
+[27] Imran Khan, M., Asfand, F., Al-Ghamdi, S.G., 2023. Progress in research and 
+technological advancements of commercial concentrated solar thermal power 
+plants. Sol. Energy 249, 183–226. https://doi.org/10.1016/j.solener.2022.10.041. 
+D. Gan et al.                                                                                                                                                                                                                                     
+
+
+===== Page 14 =====
+
+Solar Energy 262 (2023) 111842
+14
+[28] Khosa, A.A., Xu, T., Xia, B.Q., Yan, J., Zhao, C.Y., 2019. Technological challenges 
+and industrial applications of CaCO3/CaO based thermal energy storage system – A 
+review. Sol. Energy 193, 618–636. https://doi.org/10.1016/j. 
+solener.2019.10.003. 
+[29] Lawn, B.R., Swain, M.V., 1975. Microfracture beneath point indentations in brittle 
+solids. J. Mater. Sci. 10 (1), 113–122. https://doi.org/10.1007/BF00541038. 
+[30] Li, B., Li, Y., Dou, Y., Wang, Y., Zhao, J., Wang, T., 2021. SiC/Mn co-doped CaO 
+pellets with enhanced optical and thermal properties for calcium looping 
+thermochemical heat storage. Chem. Eng. J. 423, 130305 https://doi.org/ 
+10.1016/j.cej.2021.130305. 
+[31] Liu, F., Song, C., Zhu, D., Li, C., Ai, L., Xin, C., Zeng, X., Zeng, L., Huang, N., 
+Yang, L., 2023. Attrition and attrition-resistance of oxygen carrier in chemical 
+looping process – A comprehensive review. Fuel 333, 126304. https://doi.org/ 
+10.1016/j.fuel.2022.126304. 
+[32] Mahroug, I., Doppiu, S., Dauvergne, J.-L., Palomo del Barrio, E., 2022. Li4(OH) 
+3Br/MgO shape stabilized composite as novel high temperature thermal energy 
+storage material. J. Storage Mater. 52, 104921 https://doi.org/10.1016/j. 
+est.2022.104921. 
+[33] Mohrbacher, H., Celis, J.P., Roos, J.R., 1995. Laboratory testing of displacement 
+and load induced fretting. Tribol. Int. 28 (5), 269–278. https://doi.org/10.1016/ 
+0301-679X(95)00005-O. 
+[34] Moya, J., Marug´an, J., Orfila, M., Díaz-P´erez, M.A., Serrano-Ruiz, J.C., 2021. 
+Improved thermochemical energy storage behavior of manganese oxide by 
+molybdenum doping. Molecules 26 (3), 583. 
+[35] Pardo, P., Deydier, A., Anxionnaz-Minvielle, Z., Roug´e, S., Cabassud, M., 
+Cognet, P., 2014. A review on high temperature thermochemical heat energy 
+storage. Renew. Sustain. Energy Rev. 32, 591–610. https://doi.org/10.1016/j. 
+rser.2013.12.014. 
+[36] Peterson, S.B., Konya, G., Clayton, C.K., Lewis, R.J., Wilde, B.R., Eyring, E.M., 
+Whitty, K.J., 2013. Characteristics and CLOU performance of a novel SiO2- 
+supported oxygen carrier prepared from CuO and β-SiC. Energy Fuel 27 (10), 
+6040–6047. https://doi.org/10.1021/ef401365h. 
+[37] Ping, X., Jianjun, Z., Yunlong, A., Wen, H., Bingliang, L., Weihua, C., 2019. 
+Vacuum sintering and performance of SiC doped WC-10Ni cemented carbide. Rare 
+Metal Mater. Eng. 48 (2), 566–572. 
+[38] Powell, M.S., Weerasekara, N.S., Cole, S., LaRoche, R.D., Favier, J., 2011. DEM 
+modelling of liner evolution and its influence on grinding rate in ball mills. Miner. 
+Eng. 24 (3), 341–351. https://doi.org/10.1016/j.mineng.2010.12.012. 
+[39] Preisner, N.C., Block, T., Linder, M., Leion, H., 2018. Stabilizing particles of 
+manganese-iron oxide with additives for thermochemical energy storage. Energ. 
+Technol. 6 (11), 2154–2165. https://doi.org/10.1002/ente.201800211. 
+[40] Project, S., 2011. Thermochemical heat storage for concentrated solar power. 
+United States. 
+[41] Schrader, A.J., Schieber, G.L., Ambrosini, A., Loutzenhiser, P.G., 2020. 
+Experimental demonstration of a 5 kWth granular-flow reactor for solar 
+thermochemical energy storage with aluminum-doped calcium manganite 
+particles. Appl. Therm. Eng. 173, 115257 https://doi.org/10.1016/j. 
+applthermaleng.2020.115257. 
+[42] Sunku Prasad, J., Muthukumar, P., Desai, F., Basu, D.N., Rahman, M.M., 2019. 
+A critical review of high-temperature reversible thermochemical energy storage 
+systems. Appl. Energy 254, 113733. https://doi.org/10.1016/j. 
+apenergy.2019.113733. 
+[43] Thommes, M., Kleinebudde, P., 2017. The science and practice of extrusion- 
+spheronization. In: Rajabi-Siahboomi, A.R. (Ed.), Multiparticulate Drug Delivery: 
+Formulation, Processing and Manufacturing. Springer, New York, New York, NY, 
+pp. 37–63. 
+[44] Wang, B., Wang, Z., Dou, B., Ma, Y., Liang, Y., 2021. Effects of TiO2 doping on the 
+performance of thermochemical energy storage based on Mn2O3/Mn3O4 redox 
+materials. RSC Adv. 11 (53), 33744–33758. https://doi.org/10.1039/ 
+D1RA05472D. 
+[45] Wang, N., Lu, H., Xu, J., Guo, X., Liu, H., 2019. Granular flows of binary mixtures 
+down an inclined channel. Int. J. Multiph. Flow 120, 103097. https://doi.org/ 
+10.1016/j.ijmultiphaseflow.2019.103097. 
+[46] Wokon, M., Block, T., Nicolai, S., Linder, M., Schmücker, M., 2017. 
+Thermodynamic and kinetic investigation of a technical grade manganese-iron 
+binary oxide for thermochemical energy storage. Sol. Energy 153, 471–485. 
+https://doi.org/10.1016/j.solener.2017.05.045. 
+[47] Wokon, M., Kohzer, A., Linder, M., 2017. Investigations on thermochemical energy 
+storage based on technical grade manganese-iron oxide in a lab-scale packed bed 
+reactor. Sol. Energy 153, 200–214. https://doi.org/10.1016/j. 
+solener.2017.05.034. 
+[48] Wong, B., Brown, L., Schaube, F., Tamme, R., Sattler, C., 2010. Oxide Based 
+Thermochemical Heat Storage. SolarPACES, Perpignan, France.  
+[49] Xiang, D., Gu, C., Xu, H., Xiao, G., 2021. Self-Assembled Structure Evolution of Mn 
+Fe Oxides for High Temperature Thermochemical Energy Storage. Small 17 (29), 
+2101524. https://doi.org/10.1002/smll.202101524. 
+[50] Xiao, G., Grace, J.R., Lim, C.J., 2011. Attrition characteristics and mechanisms for 
+limestone particles in an air-jet apparatus. Powder Technol. 207 (1), 183–191. 
+https://doi.org/10.1016/j.powtec.2010.10.028. 
+[51] Yarrington, J.D., Bagepalli, M.V., Pathikonda, G., Schrader, A.J., Zhang, Z.M., 
+Ranjan, D., Loutzenhiser, P.G., 2021. Numerical analyses of high temperature 
+dense, granular flows coupled to high temperature flow property measurements for 
+solar thermal energy storage. Sol. Energy 213, 350–360. https://doi.org/10.1016/ 
+j.solener.2020.10.085. 
+[52] Yilmaz, D., Darwish, E., Leion, H., 2020. Investigation of the combined Mn-Si oxide 
+system for thermochemical energy storage applications. J. Storage Mater. 28, 
+101180 https://doi.org/10.1016/j.est.2019.101180. 
+D. Gan et al.                                                                                                                                                                                                                                     

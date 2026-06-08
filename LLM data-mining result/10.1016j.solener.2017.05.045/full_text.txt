@@ -1,0 +1,1886 @@
+
+
+===== Page 1 =====
+
+Thermodynamic and kinetic investigation of a technical grade
+manganese-iron binary oxide for thermochemical energy storage
+Michael Wokon a,⇑, Tina Block b, Sven Nicolai c, Marc Linder d, Martin Schmücker b
+a German Aerospace Center (DLR e.V.), Institute of Engineering Thermodynamics, Linder Höhe, 51147 Cologne, Germany
+b German Aerospace Center (DLR e.V.), Institute of Materials Research, Linder Höhe, 51147 Cologne, Germany
+c VITO – Flemish Institute for Technological Research NV, Boeretang 200, 2400 Mol, Belgium
+d German Aerospace Center (DLR e.V.), Institute of Engineering Thermodynamics, Pfaffenwaldring 38-40, 70569 Stuttgart, Germany
+a r t i c l e
+i n f o
+Article history:
+Received 27 January 2017
+Received in revised form 1 May 2017
+Accepted 12 May 2017
+Keywords:
+Thermochemical energy storage
+Redox reaction
+Manganese-iron oxide
+Thermodynamic equilibrium
+Thermal hysteresis
+Gas-solid reaction kinetics
+a b s t r a c t
+Thermochemical energy storage (TCS) based on gas-solid reactions constitutes a promising concept to
+exploit reaction enthalpies for thermal energy storage. This concept facilitates the development of efﬁ-
+cient storage solutions with higher energy densities compared to widely investigated sensible and latent
+thermal energy storage systems. Multivalent metal oxides are capable of undergoing a reversible redox
+reaction at high temperatures, which is why those storage materials are considered particularly suitable
+for the operating temperature range of concentrated solar power plants with central receiver systems to
+increase the total plant efﬁciency and ensure dispatchability of electricity.
+In the scope of this work a granular manganese-iron oxide with a Fe/Mn molar ratio of 1:3 has been
+selected as a potentially suitable storage material, which is non-toxic, abundant and economical. For this
+reason a preparation route from technical grade raw materials has been chosen. The reversible redox
+reaction is investigated with respect to the thermodynamic and kinetic characteristics by means of simul-
+taneous thermal analysis in dynamic and isothermal series of measurements. Those revealed that the
+observed presence of a strong divergence of the reactive temperature range from the actual thermody-
+namic equilibrium can mainly be attributed to kinetic limitations. Expressions for the effective reaction
+rates are deduced from experimental data for the reduction and oxidation step, describing the depen-
+dence of the reaction rate on temperature and oxygen partial pressure, respectively. The expressions
+are valid for the temperature ranges in proximity to the equilibrium, which are relevant for the targeted
+operating conditions of the storage reactor in air. The storage material provides good cycling stability in
+terms of reversibility and widely maintained reactivity throughout 100 redox cycles in air. Future work
+comprises material modiﬁcations, which are expected to further enhance the mechanical stability of the
+particles. Overall, the manganese-iron oxide of the chosen composition exhibits a redox reactivity prac-
+tical for regenerator-type storage systems combining a high temperature TCS zone and a lower temper-
+ature non-reactive zone merely used for sensible thermal energy storage.
+ 2017 Elsevier Ltd. All rights reserved.
+1. Introduction
+The development of sustainable energy systems based on
+renewable energy sources is important to decrease the dependence
+on fossil fuels and reduce CO2 emissions. Concentrated solar power
+(CSP) plants constitute a promising alternative technology for elec-
+tricity generation in regions with high solar irradiation (Pfenninger
+et al., 2014). The integration of a high temperature thermal energy
+storage (TES) system into a CSP plant is one of the most important
+aspects, since it increases the plant’s dispatchability and efﬁciency
+of the electricity generation. The storage of thermal energy on a
+large scale allows to mitigate short ﬂuctuations in solar irradiation,
+bridge short-term deﬁciencies during cloud passage and extend
+electricity production into the nighttime hours (Liu et al., 2016).
+In general, research on the identiﬁcation and improvement of
+materials as well as on the design of reactor concepts for thermo-
+chemical energy storage (TCS) is still at an early stage (Pardo et al.,
+2014). Current investigations for high temperature storage applica-
+tions from 600 C up to even 1100 C are focused on redox
+cycles employing multivalent metal oxides, which have the poten-
+tial to undergo reversible redox reactions to store thermal energy
+in form of the reaction enthalpy (DRH) according to the following
+pathway:
+http://dx.doi.org/10.1016/j.solener.2017.05.045
+0038-092X/ 2017 Elsevier Ltd. All rights reserved.
+⇑Corresponding author.
+E-mail address: michael.wokon@dlr.de (M. Wokon).
+Solar Energy 153 (2017) 471–485
+Contents lists available at ScienceDirect
+Solar Energy
+journal homepage: www.elsevier.com/locate/solener
+
+
+===== Page 2 =====
+
+Charging :
+2 MexOyðsÞ þ DRH ! 2 MexOy1ðsÞ þ O2ðgÞ
+ð1Þ
+Discharging :
+2 MexOy1ðsÞ þ O2ðgÞ ! 2 MexOyðsÞ þ DRH
+ð2Þ
+Some metal oxides possess the intrinsic advantage to react
+reversibly with oxygen (O2) at high temperatures. Hence, the con-
+cept provides the possibility to utilize ambient air simultaneously
+as carrier of the reaction gas O2 and heat transfer ﬂuid (HTF). This
+approach facilitates a direct contact heat transfer between the gas
+(air) and the solid storage material (metal oxide). An additional
+high temperature heat exchanger is therefore not necessary.
+The thermal charging process is achieved by means of the
+endothermic reduction step driven by solar thermal energy under
+the release of O2 (1), which process can be either performed
+directly in the solar central receiver or indirectly in a TCS reactor
+using the HTF air. The reduction step is accompanied by the advan-
+tage of a facile separation of the gaseous product from the reduced
+solid in order to prevent re-oxidation for the period of storage. The
+recombination of the reduced metal oxide and O2 (from ambient
+air) leads to the exothermic oxidation step, representing the ther-
+mal discharging process by the complete recovery of thermal
+energy via the release of the heat of reaction (2). This storage con-
+cept based on metal oxides offers process-technological advan-
+tages compared to the use of other TCS materials, since there is
+no necessity for intermediate storage of the reactant gas. Conse-
+quently, a storage reactor could potentially be implemented into
+a CSP plant in the form of an open-loop system. The use of air as
+HTF allows to work with high HTF temperatures up to and even
+beyond 1000 C, which renders TCS reactors based on metal oxides
+speciﬁcally interesting for solar tower CSP plants with a future
+generation of central receiver technology (Ávila-Marín, 2011; Ho,
+2017).
+The high degree of thermal energy stored as sensible heat due
+to the elevated working temperatures – temperatures above the
+reduction temperature in the charging stage – can be regarded as
+one of the most important intrinsic aspects and also challenges
+of high temperature TCS based on metal oxides. On this account
+hybrid storage concepts using sensible and thermochemical energy
+storage simultaneously in one single storage unit have been sug-
+gested to enhance the overall energy storage density. In view of a
+packed bed storage unit, this concept would facilitate an increase
+in volumetric and gravimetric energy storage densities of the solid
+inventory due to a high temperature TCS zone as well as cost sav-
+ings due to a low temperature non-reacting cooling section
+employing low cost inert materials as sensible storage media
+(Ströhle et al., 2016). As indicated in Fig. 1, the reactive material
+would only be positioned in the upper part of the packed bed stor-
+age, where operating conditions during charging allow the reduc-
+tion to take place. The operating method is comparable to high
+temperature regenerator-type storage systems, so called passive
+dual media TES systems with gaseous heat transfer medium and
+solid storage medium. During the charging stage hot air from the
+solar ﬁeld enters the storage at the top and ﬂows downward, form-
+ing a characteristic transient temperature proﬁle along the axis of
+the solid inventory (Fig. 1(a)). The direction of the ﬂow is subse-
+quently reversed in the discharging stage, cold air entering at the
+bottom of the storage (Fig. 1(b)). In this way an axial thermal strat-
+iﬁcation inside the packed bed can be maintained, when thermal
+energy
+is
+transferred
+to
+and
+extracted
+from
+the
+storage
+(Zanganeh et al., 2012; Zunft et al., 2011).
+In this work, we performed the examinations with regard to the
+envisaged technical application of a hybrid regenerator-type stor-
+age with direct contact heat transfer between the HTF and the solid
+inventory in the form of a packed bed conﬁguration. Therefore, a
+Nomenclature
+Abbreviations
+B
+cubic bixbyite phase (Mn,Fe)2O3
+CLOU
+chemical-looping with oxygen uncoupling
+CSP
+concentrated solar power
+DSC
+differential scanning calorimetry
+g
+gaseous
+HTF
+heat transfer ﬂuid
+N2
+nitrogen
+O2
+oxygen
+redox reaction reduction-oxidation reaction
+s
+solid
+S
+cubic spinel phase b-(Mn,Fe)3O4
+SEM
+scanning electron microscopy
+STA
+simultaneous thermal analysis
+T
+tetragonal spinel phase a-(Mn,Fe)3O4
+TCS
+thermochemical energy storage
+TES
+thermal energy storage
+TGA
+thermogravimetric analysis
+XRD
+X-ray diffraction
+XRF
+X-ray ﬂuorescence
+Symbols
+A
+pre-exponential factor (1/s)
+b
+heating rate or cooling rate (K/min)
+DRH
+molar reaction enthalpy (kJ/mol)
+DRh
+speciﬁc reaction enthalpy (kJ/kg)
+DRG
+Gibbs free energy of reaction (kJ/mol)
+DRS
+molar reaction entropy (J/(molK))
+Ea
+activation energy (kJ/mol)
+f(X)
+reaction model, reaction mechanism (–)
+g(X)
+integral form of the reaction model (–)
+h(pO2, pO2,eq) pressure-dependent function, pressure term (–)
+k(T)
+rate constant (1/s)
+Keq
+equilibrium constant (–)
+m
+mass (g)
+m
+exponent of pressure term (–)
+n
+parameter of reaction model (–)
+mO2
+stoichiometric coefﬁcient of oxygen (–)
+pambient
+atmospheric pressure (Pa)
+pO2
+oxygen partial pressure (Pa)
+pO2,eq
+oxygen partial pressure at equilibrium (Pa)
+t
+time (s)
+t0
+delay period (s)
+T
+temperature (K)
+X
+reaction conversion (g/g)
+yO2
+molar fraction of oxygen (–)
+Constants
+R
+molar gas constant (J/(molK))
+Subscripts
+c
+charging
+d
+discharging
+eq
+equilibrium
+Ox
+oxidation
+Red
+reduction
+472
+M. Wokon et al. / Solar Energy 153 (2017) 471–485
+
+
+===== Page 3 =====
+
+detailed knowledge of the reactive temperature ranges, which can
+be covered by the redox reaction to exploit the heat of reaction in
+addition to the sensible heat, is crucial for this speciﬁc case of
+application. This usable temperature range is mainly predeter-
+mined by the material characteristics, such as the equilibrium
+position, temperature- and pressure-dependent reaction rates as
+well as the possible occurrence of kinetic limitations. Even though
+it is important to keep in mind, that thermodynamic and kinetic
+material characteristics will be further superimposed with heat
+and mass transfer phenomena in an actual working storage reactor,
+these material speciﬁc investigations form the basis for any further
+analysis.
+Metal oxide storage materials – as well as TCS materials in gen-
+eral – are assessed and selected according to certain material
+requirements, such as high speciﬁc reaction enthalpies implicating
+a high speciﬁc storage capacity, chemical reversibility, high reac-
+tion rates and long-term cycling stability (Block and Schmücker,
+2016; Schaube et al., 2012; Wentworth and Chen, 1976). It is par-
+ticularly important, that the redox reactions are thermodynami-
+cally favored at the relevant temperature and pressure levels
+suitable for storage operation (dependent on process parameters).
+Potential redox reactions for TCS application could be narrowed
+down to the redox couples BaO2/BaO, Co3O4/CoO, Mn2O3/Mn3O4
+and CuO/Cu2O in the temperature range of 700–1100 C at ambient
+pressure (Agraﬁotis et al., 2014, 2016; André et al., 2016; Block and
+Schmücker, 2016; Wong, 2011; Wong et al., 2010). Pure man-
+ganese oxide, exhibiting an energy density of 202 J/g Mn2O3,
+has been suggested as a promising TCS material by several authors,
+as it is nonhazardous, abundant in nature and low-priced in con-
+trast to other metal oxides such as cobalt oxide (Carrillo et al.,
+2014; Wong, 2011). On the one hand, the equilibrium temperature
+of about 902 C in air (Barin and Platzki, 1995) is in the appropriate
+temperature range for the envisaged application. On the other
+hand, the redox reaction of Mn2O3/Mn3O4 exhibits a pronounced
+thermal hysteresis, decoupling the forward and reverse reaction,
+which is characteristic for manganese oxide (Carrillo et al., 2015).
+Moreover, pure manganese oxide suffers severely from slow re-
+oxidation kinetics, spiraling downward upon cycling, which illus-
+trates the poor cyclability of the material (Block and Schmücker,
+2016; Carrillo et al., 2014; Wong, 2011).
+In recent studies some binary metal oxides offered improved
+material properties in comparison to pure oxides, essentially per-
+taining to enhanced reaction rates and increased microstructural
+stability, which in turn potentially provokes increased long-term
+cycling stability (Block and Schmücker, 2016; Carrillo et al.,
+2015; Wong, 2011). In this way, upon the incorporation of iron
+as secondary cations into manganese oxide signiﬁcantly higher
+re-oxidation rates, better long-term cycling stability as well as a
+narrowed thermal hysteresis of the redox couple Mn2O3/Mn3O4
+have been reported, overall maintaining the energy storage density
+(Block and Schmücker, 2016; Carrillo et al., 2015, 2016b; Wong,
+2011). On this account manganese-iron oxide is in the focus of
+the current work. Based on thermal analysis Carrillo et al. sug-
+gested a molar ratio Fe/Mn of 1:4 with a reduction onset temper-
+ature of 995 C and an enthalpy of 219 J/g measured at a heating
+rate of 5 K/min in air (Carrillo et al., 2015). Block and Schmücker
+highlighted a molar ratio Fe/Mn of 1:2 with a reduction onset tem-
+perature of 999 C and an enthalpy of 233 J/g measured at a heat-
+ing
+rate
+of
+10 K/min
+in
+air
+(Block
+and
+Schmücker,
+2016).
+Remarkably, re-oxidation rates of such Fe-doped manganese oxi-
+des can be signiﬁcantly increased in comparison to the correspond-
+ing transition from pure Mn3O4 to Mn2O3. For fundamental
+examinations in this work a manganese-iron oxide with a Fe/Mn
+molar ratio of 1:3 has been selected as a potentially suitable stor-
+age material. A spray-dried material of the same composition has
+previously been analyzed regarding oxygen carrier properties in
+the research ﬁeld of chemical-looping with oxygen uncoupling,
+shortly referred to as CLOU hereinafter (Azimi et al., 2013). Diverse
+literature studies have concentrated on the thermodynamic assess-
+ment of the manganese oxide – iron oxide system, which comprise
+experimental determinations of the phase evolution as well as cal-
+culations of the prevailing phase equilibria (Crum et al., 2009;
+Kjellqvist and Selleby, 2010; Wickham, 1969). The corresponding
+phase diagrams for air indicate the presence of the cubic bixbyite
+phase (Mn,Fe)2O3 (B) at low temperatures (e.g. 750 C) and the
+cubic spinel phase b-(Mn,Fe)3O4 (S) at high temperatures (e.g.
+1060 C) for the selected composition in this work. Consequently,
+the following redox reaction is expected, when the temperature
+is increased:
+6 ðMn0:75Fe0:25Þ2O3ðsÞ þ DRh  4 ðMn0:75Fe0:25Þ3O4ðsÞ þ O2
+ð3Þ
+The reaction proceeds via one or several two-phase regions at
+intermediate temperatures in air. Inconsistent results have been
+published regarding the nature of these two-phase regions for
+the atomic ratio Fe/Mn of 1:3 analyzed in this work. This might
+be attributed to the complexity of the Mn-Fe-O system, as man-
+ganese and iron occur in multiple oxidation states, and sample
+preparation as well as examination methods vary. Some reports
+illustrate that the tetragonal spinel a-(Mn,Fe)3O4 (T), also known
+as hausmannite phase, forms as intermediate. In this case the reac-
+tion of the examined composition proceeds via the two-phase
+ﬁelds ‘‘T + B” and ‘‘S + T” with rising temperature in air (Crum
+et al., 2009; Muan and Somiya, 1962). In other phase diagrams,
+though, the phase boundaries of those two-phase regions are
+shifted further towards Mn-rich compositions, such that the con-
+templated reaction proceeds via the two-phase region ‘‘B + S”
+(Kjellqvist and Selleby, 2010; Weiland, 2002; Wickham, 1969).
+Previous work has focused on the preparation of high-purity
+manganese-iron oxides (ﬁne powders) with different Fe contents
+by a modiﬁed sol-gel based Pechini method, accompanied by a
+general assessment of the reactivity and its overall potential as
+thermochemical storage material (Block and Schmücker, 2016;
+Carrillo et al., 2015). In this regard Carrillo et al. targeted a detailed
+understanding
+of
+the
+redox
+kinetics
+of
+the
+redox
+couple
+(Mn0.8Fe0.2)2O3/(Mn0.8Fe0.2)3O4 for a future deployment in CSP
+plants. The stability of the material has been demonstrated over
+Fig. 1. Schematic description of a potential regenerator-type storage with thermo-
+chemical storage material, allowing to exploit the sensible heat and heat of reaction
+due to a temperature stratiﬁcation along the bed height: storage charging (a) and
+storage discharging (b). The potential dimensions of the TCS zone in the top part
+(dark gray) and the non-reactive zone with inert material in the lower part (light
+gray) are marked for exempliﬁcation.
+M. Wokon et al. / Solar Energy 153 (2017) 471–485
+473
+
+
+===== Page 4 =====
+
+75 redox cycles in this work. On the one hand, rate law models
+based on a nucleation and growth mechanism have been proposed
+for both the reduction and oxidation reaction. However, the depen-
+dence of those reaction rates on the oxygen partial pressure, which
+inclusion would be important for reactor modeling and future
+reactor development, has not been taken into account. On the
+other hand, the authors focused on scrutinizing the arising crystal-
+lographic transformations and the role of Fe incorporation on the
+oxidation rate improvement. The latter was hypothesized to be
+attributed to an enlargement of Mn-O bond lengths of Mn2+ cations
+induced by the Fe incorporation, facilitating the mobility of oxygen
+anions through the lattice during oxidation (Carrillo et al., 2016b).
+Although manganese-iron based oxides prepared from techni-
+cal grade raw material have been investigated in the ﬁeld of CLOU,
+the operating methods of CLOU-reactors differ signiﬁcantly from
+the methods relevant for thermochemical storage reactors. Conse-
+quently, the redox reaction of the storage material has to fulﬁll dif-
+ferent requirements in comparison to CLOU. Up to date little work
+has been done on a comprehensive, systematic examination of
+metal oxide redox cycles for thermochemical energy storage in
+order to concentrate qualitative and quantitative material proper-
+ties data with respect to the thermodynamic, kinetic and cycling
+stability behavior. In the current publication the identiﬁcation of
+the reactive temperature ranges of the manganese-iron oxide
+under study as well as the effective reaction rates to be expected
+will be addressed with regard to the envisaged technical applica-
+tion of a hybrid regenerator-type storage. Granules of technical
+grade raw materials are applied in this work, as the utilization of
+ﬁne powders on a larger scale potentially causes sintering, particle
+agglomeration as well as enhanced pressure losses and would
+therefore not allow a storage operation with direct contact heat
+exchange between the gas and solid phase.
+In the ﬁrst part of the present paper, dynamic experiments are
+performed by means of simultaneous thermal analysis in order to
+derive the oxygen partial pressure (pO2) dependent reaction tem-
+peratures of the reduction and oxidation step. Special emphasis
+is placed on the technically relevant material reactivity, taking
+the presence of a thermal hysteresis into account. The knowledge
+of the pO2-T dependency is fundamental, as a rise/drop of the oxy-
+gen partial pressure owing to the release/uptake of O2 during the
+charging/discharging step or even due to storage operating meth-
+ods using pressurization/pressure reduction directly affects the
+reaction temperature. In the second part, simpliﬁed kinetic equa-
+tions for the reduction and oxidation – valid for different oxygen
+partial pressures – are derived from experimental data of the
+examined material, which equations have not been reported so
+far for manganese-iron oxide. The equations describe the depen-
+dence of the effective reaction rates on temperature and oxygen
+partial pressure, respectively. Thereafter, the model equations
+can be employed for reactor models to describe the behavior of a
+thermochemical storage reactor, additionally taking heat and mass
+transfer phenomena into account. For an evaluation of the cycling
+behavior the technical grade redox material under investigation is
+cycled 100 times in air.
+2. Experimental section
+2.1. Material preparation and characterization
+Granular manganese-iron oxide used in this study was prepared
+by means of a build-up granulation technique, which was per-
+formed by VITO (Mol, Belgium). In the process technical grade
+powders of Fe2O3 (CAS No. 1309-37-1, 98% from Alfa Aesar) and
+Mn3O4 (CAS No. 1317-35-7, TRIMANOX electronic grade, supplied
+by Chemalloy) were mixed with a Fe/Mn molar ratio of 1:3, which
+corresponds to a Fe2O3/Mn3O4 mass ratio of 25.9:74.1. An Eirich
+Mixer with a capacity of 5 liters as shown in Fig. 2 (left) was used
+for the granulation of the TCS material, based on the principle of
+intensive mixing by rotation of an inclined mixing pan and appli-
+cation of a rotating micro-granulator mixing tool (middle).
+The powders were combined in the dry state and immediately
+treated in the Eirich mixer. There was no need to use organic addi-
+tives and binders. A total mass fraction of 18% deionized water
+was added to the dry components to obtain an optimal granulated
+material in a narrow size range. This was done by adding a mass
+fraction of 12.5% deionized water at the start and additional
+1.25% every 5 min. The rotating speed of the pan, which is an
+important parameter to receive fairly spherical granules, was set
+to 42 rpm. The rotor speed of the mixing tool inﬂuencing the gran-
+ule size (together with the residence time) was set to 283 rpm over
+a period of 5 min after each addition of water. The strength of the
+granulated material after 1 h of drying at 105 C was high enough
+for sieving. The mixed material was sieved in the dry state in order
+to separate a particle size fraction from 1.15 mm to 3.15 mm prior
+to calcination. This fraction was sintered in aluminum oxide cru-
+cibles, 4 h at 1025 C and 4 h at 1050 C in air, yielding the targeted
+combined manganese-iron oxide, which oxidized during cooling.
+Due to shrinkage of the granulated particles upon heat treatment
+a particle size range of approximately 1 mm to 3 mm was obtained
+for experimental studies (Fig. 2, right).
+The crystalline phase composition of the raw material in the
+oxidized state was determined by X-ray powder diffractometry
+(XRD) on a Bruker D8 Advance instrument using Cu-Ka1,2 radia-
+tion. The background subtracted XRD pattern in Fig. 3 shows a
+cubic Mn2O3 crystal phase (bixbyite phase; ICDD PDF-2, #41-
+1442) with the crystal space group Ia3, which is consistent with
+the discussed phase diagrams above. The subtraction of the back-
+ground does not distort the data, as the raw data without back-
+ground subtraction gave no indication of the presence of an
+amorphous fraction. Moreover, a Ka2 correction has not been con-
+ducted, so the peak width in Fig. 3 has not been altered. It has to be
+mentioned, that the cubic FeMnO3 crystal structure (bimetallic bix-
+byite phase; ICDD PDF-2, #75-0894; space group Ia3) exhibits vir-
+tually the same peak positions with a peak displacement by only
+0.02 (2H). Thus, a differentiation between the bixbyite phase
+Mn2O3 and bixbyite structure (Mn,Fe)2O3 only based on the lattice
+parameters is not feasible.
+X-ray ﬂuorescence spectroscopy (XRF) was applied for an accu-
+rate determination of the cation ratios in the sample. The XRF anal-
+ysis revealed the average elemental composition of the granules,
+giving mass fractions of 52.0% Mn, 17.7% Fe, 0.32% Si, 0.31% Al,
+0.04% Ca, 0.05% Mg and 29.6% O. Thus, a Fe/Mn molar ratio of 1:3
+could be veriﬁed. Consequently, for the sake of simplicity the pre-
+pared raw material will be denoted (Mn0.75Fe0.25)2O3 throughout
+this work.
+2.2. Apparatus and experimental procedure
+The measurements of the redox reaction were carried out in a
+simultaneous thermal analyzer from Netzsch (STA 449 F3 Jupiter),
+coupling thermogravimetric analysis (TGA) and differential scan-
+ning calorimetry (DSC). A dry ﬂow of nitrogen 5.0 was used as
+purge and protective gas, oxygen 5.0 was utilized as purge gas.
+The latter was mixed with nitrogen to adjust the desired oxygen
+volume fractions. The overall gas ﬂow rate surrounding the sample
+was set to 100 mL(STP)/min, with the balance being protected by a
+nitrogen ﬂow of 30 mL(STP)/min. Fresh starting material of
+manganese-iron oxide in the oxidized form was used for each sin-
+gle measurement. Two granules with an average overall weight of
+typically 30 mg were placed in the middle of a Pt/Rh-crucible with
+474
+M. Wokon et al. / Solar Energy 153 (2017) 471–485
+
+
+===== Page 5 =====
+
+a volume of 85 lL throughout all measurement series. In order to
+ensure comparability, two granules of approximately the same
+weight were chosen, respectively. Crucibles were always utilized
+without a lid to enable sufﬁcient O2 exchange between the sample
+and the surrounding gas atmosphere, which is crucial for thermo-
+dynamic and kinetic analyses in this work. A separate baseline
+measurement was carried out for correction of each single sample
+measurement.
+A reference cycle was always performed as material pre-
+treatment prior to the actual redox cycle used for data evaluation,
+so that equal starting conditions could be provided for each sample
+measurement. The reference cycle was conducted in air, adjusting
+a gas ﬂow of 20 ml(STP)/min oxygen and 80 ml(STP)/min nitrogen:
+Initially the sample is heated up to 200 C and held for 30 min.
+Then the material undergoes a redox cycle during heating at a rate
+of 10 K/min up to 1060 C (reduction) and cooling at a rate of 10 K/
+min down to 750 C (oxidation), followed by an isothermal period
+of 30 min. Within the scope of subsequent experiments performed
+at different oxygen atmospheres the gas ﬂow is switched to the
+desired oxygen fraction in the middle of this isothermal period at
+750 C (after 15 min). The procedure for the redox cycles to be fur-
+ther analyzed is explained in the following. Based on reported
+phase diagrams a temperature of 1060 C in air should be adequate
+for the formation of the cubic spinel phase b-(Mn,Fe)3O4 (Crum
+et al., 2009; Kjellqvist and Selleby, 2010; Wickham, 1969).
+Dynamic measurements at different heating and cooling rates
+were performed in various O2 atmospheres to identify experimen-
+tal pO2-T conditions for the reaction onsets and determine the tem-
+perature regions, where the material still exhibits a technically
+relevant reactivity. Heating and cooling rates of 0.5, 1, 2, 5 and
+10 K/min were chosen for the reduction and corresponding oxida-
+tion step. The absolute pressure inside the reaction chamber is
+equal to the measured atmospheric pressure pambient (Lufft hand-
+held measuring device XA1000 with integrated air pressure sensor,
+accuracy of 0.05 kPa at 25 C and 101.325 kPa). The pO2 – relevant
+for thermodynamic estimations and kinetic analyses – was deter-
+mined based on the product of the employed oxygen volume frac-
+tion of the gas ﬂow (which equals the molar fraction yO2) and
+pambient in the laboratory to account for natural ﬂuctuations. Aver-
+age oxygen partial pressures of 5.1 ± 0.017 kPa, 10.1 ± 0.106 kPa,
+20.4 ± 0.271 kPa, 40.4 ± 0.132 kPa and 71.1 ± 0.114 kPa were real-
+ized for the respective series of dynamic measurements. The
+adjustment of a pO2 > 70 kPa is not possible due to the experi-
+mental setup, as the balance is ﬂushed with 30 ml(STP)/min N2 at
+all times. The pO2 is assumed to be constant throughout each
+experimental run owing to the small amount of sample as well
+as relatively low heating and cooling rates.
+For isothermal oxidation measurements in different O2 atmo-
+spheres, the material was again reduced at a heating rate of
+10 K/min up to 1060 C and subsequently cooled down to 980 C
+in air, after the reference cycle respectively. Further cooling down
+to the desired temperature for oxidation was performed in pure N2
+in order to prevent a premature re-oxidation. After a holding time
+of 10 min to wait for a steady sample temperature, the oxidation
+was initiated by switching to the desired O2 atmosphere. The latter
+was adjusted by means of the required fractions of the correspond-
+ing O2 and N2 volume ﬂow rate at an overall ﬂow rate of 100 mL
+(STP)/min.
+Fig. 2. Eirich Mixer (left) and micro-granulator rotor type (middle) used for the build-up granulation of the storage material; prepared manganese-iron oxide granulate after
+heat treatment in air (right).
+Fig. 3. X-ray diffraction pattern of the manganese-iron oxide raw material in the oxidized state.
+M. Wokon et al. / Solar Energy 153 (2017) 471–485
+475
+
+
+===== Page 6 =====
+
+The recorded DSC signal was chosen for the calculation of the
+extrapolated peak onset temperatures of the redox reaction at dif-
+ferent heating and cooling rates, respectively. This data evaluation
+was performed using the software Netzsch Proteus 6.1 through-
+out this study. It is important to note that the determination of
+extrapolated peak onset temperatures represents an approxima-
+tion, as those temperatures per se do not reﬂect the actual begin-
+ning of the reaction, which is apparently registered prior to that.
+The actual reaction start turns out to be quite difﬁcult to assess
+in a reproducible way. On this account the chosen approach stands
+for a reproducible evaluation methodology. Hereinafter the abbre-
+viated term ‘‘onset temperature” always refers to the ‘‘extrapolated
+peak onset temperature”. In this work the reaction time is esti-
+mated according to the changes of the ﬁrst derivative of the ther-
+mogravimetric curve, indicating the beginning and the end of the
+mass change owing to the respective redox reaction.
+2.3. Thermodynamic equilibrium and kinetic modeling of gas-solid
+reactions
+Derived from the expression for the standard Gibbs energy of
+reversible reactions DRG0 = RTln(Keq) (with Keq being the equilib-
+rium constant; Keq(T) = (pO2/p0)mO2 according to Eq. (3)) and the
+deﬁnition DRG0 = DRH0  T DRS0 in terms of the standard enthalpy
+and entropy changes of reactions at a given temperature T, the
+following equation describes the correlation between the oxygen
+partial
+pressure
+and
+the
+temperature
+at
+thermodynamic
+equilibrium:
+lnðKeqÞ ¼ ln
+peq
+p0
+
+
+¼  DRH0
+RTeq
+þ DRS0
+R
+or in particular ln
+pO2
+p0
+
+
+¼  DRH0
+mO2RTeq
+þ DRS0
+mO2R
+ð4Þ
+with the pressure p0 of 100 kPa at standard conditions. The partial
+derivative of expression (4) with respect to the variable Teq at con-
+stant pressure yields the so called van ’t Hoff equation. It becomes
+apparent, that in the storage process both charging and discharg-
+ing temperatures depend on the partial pressure of the gaseous
+reactant – oxygen in the case of the redox reaction of metal oxi-
+des, as shown on the right-hand side of Eq. (4). Plotting the loga-
+rithmic partial pressures against the reciprocal temperatures at
+thermodynamic equilibrium gives a linear relationship, which
+slope is proportional to the standard reaction enthalpy. The stan-
+dard reaction entropy is obtained from the constant ordinate
+intercept.
+Thermogravimetric measurements provide the basis for a
+kinetic analysis of the redox reaction (Vyazovkin et al., 2014).
+The general differential form of the reaction rate of a single-step
+process represents a widely accepted empirical expression for
+heterogeneous gas-solid reactions (Vyazovkin et al., 2011):
+dX
+dt ¼ kðTÞ  fðXÞ  hðpO2; pO2;eqðTÞÞ
+ð5Þ
+This parameterization of the reaction rate is applied for the
+kinetic analyses in the current work in order to establish a mathe-
+matical relationship between the conversion rate and temperature,
+extent of conversion, pressure of the reaction gas as well as ther-
+modynamic equilibrium for the respective reaction steps (reduc-
+tion and oxidation). The approach to separate and identify the
+temperature-, conversion- and pressure-dependent terms of the
+expression (5) varies for the reduction and oxidation, depending
+on the chosen measurement methodology (Vyazovkin et al.,
+2011). The temperature dependence of the reaction rate – repre-
+sented by the rate constant k(T) – is empirically described based
+on the exponential Arrhenius equation:
+kðTÞ ¼ A  exp
+ Ea
+R  T
+
+
+ð6Þ
+The Arrhenius temperature dependence includes the pre-
+exponential factor A as a measure for the collision rate of the reac-
+tants, the activation energy Ea and the universal gas constant R. The
+dependence of the reaction rate on the extent of conversion can be
+described by a variety of available kinetic models f(X), generally
+representing different reaction mechanisms (Galwey and Brown,
+1999). The standardized extent of conversion for the reduction XRed
+and oxidation XOx, ranging from 0 to 1, is deﬁned as:
+XRed ¼
+minitial  mt
+minitial  mfinal
+and
+XOx ¼
+mt  minitial
+mfinal  minitial
+ð7Þ
+with the initial weight prior to reaction (mintial) and the ﬁnal weight
+after reaction (mﬁnal) of the corresponding redox step, mt denotes
+the current sample weight at time t. The pre-exponential factor A,
+the activation energy Ea and the reaction mechanism f(X) represent
+the so called kinetic triplet of the investigated process step
+(Vyazovkin et al., 2011). Although the pressure term h(pO2,peq(T))
+is often neglected in kinetic computations, it can exert a strong
+inﬂuence on kinetic processes (Vyazovkin et al., 2011). Especially
+in reversible gas-solid reactions the pressure dependence gains
+importance, commonly specifying the dependence of the reaction
+rate on the applied partial pressure of the reaction gas (pO2) and
+the corresponding pressure of the gas at thermodynamic equilib-
+rium (pO2,eq(T)). The term can also be referred to as the ‘‘driving for-
+ce” for the reaction and reﬂects the reversible character of the
+reaction. h(pO2,peq(T)) can potentially adopt different mathematical
+expressions (Ron, 1999), such as the following, illustrated for the
+reduction step:
+1 
+pO2
+pO2;eqðTÞ
+ 
+!m
+ðpO2;eqðTÞ  pO2Þm
+ln
+pO2;eqðTÞ
+pO2
+
+
+
+m
+pOm
+2
+ð8Þ
+The exponent m constitutes the order of the pressure depen-
+dence, which is used to adapt the suitable pressure term to the
+experimental data. The term on the very left hand side stands for
+the most common approach for reversible solid-state decomposi-
+tion reactions (Vyazovkin et al., 2011). Expressions for the corre-
+sponding oxidation step can be phrased vice versa.
+The mathematical equations of the reaction rates, describing
+the temperature and pressure dependence of the respective reac-
+tion, form the basis for transient reactor models used for the sim-
+ulation of thermochemical storage reactors. It has to be noted, that
+the mathematical models evolved in this work reﬂect an approxi-
+mation of empirical data without claiming a profound interpreta-
+tion of the underlying physical processes of the reaction. The
+models represent effective reaction rates for the reduction and oxi-
+dation, comprising apparent values for the pre-exponential factor,
+the activation energy and the reaction mechanism.
+3. Results and discussion
+3.1. Redox cycle and reaction enthalpy
+A standard redox cycle with a heating and cooling rate of
+10 K/min in air is illustrated in Fig. 4. The change of the DSC signal
+is related to the absorption and release of thermal energy, thus
+indicating the reaction enthalpy of the endothermic reduction
+and exothermic oxidation step. The small drift of the DSC signal
+can be attributed to the measurement conditions, as crucibles
+without a covering lid are applied.
+The beginning of the reduction (onset temperature) is identiﬁed
+at approximately 988.6 C in the heating step, whereas the oxida-
+476
+M. Wokon et al. / Solar Energy 153 (2017) 471–485
+
+
+===== Page 7 =====
+
+tion is setting in at about 895.0 C in the subsequent cooling step.
+Complete reversibility of the redox reaction is given. As reduction
+and oxidation set in at different temperature levels, the presence of
+a thermal hysteresis becomes apparent, decoupling the two redox
+reactions. Generally, a pronounced hysteresis is unfavorable for a
+thermochemical storage system, where it is crucial to release ther-
+mal energy at a high temperature level. This characteristic behav-
+ior of materials based on manganese oxide eventually implicates a
+loss of exergy. In contrast to pure manganese oxide the reaction
+time for complete oxidation of the manganese-iron oxide amounts
+to 6.4 min and is therefore in the same range as the time for com-
+plete reduction with 6.2 min. Consequently, the current observa-
+tions applying technical grade material corroborate the ﬁndings of
+previous studies on hysteresis (Carrillo et al., 2015) as well as on
+enhanced oxidation rates (Block and Schmücker, 2016; Carrillo
+et al., 2015; Wong et al., 2010).
+For the calculation of the theoretical mass change the Fe frac-
+tion is taken into account. The average weight loss of the reduction
+step amounts to about 3.18% throughout the experiments con-
+ducted in this work, which is lower than the expected weight loss
+of 3.37% given by the stoichiometry of the reaction in Eq. (3). Based
+on this observation about 94.4% of the technical grade redox mate-
+rial is considered reactive, the remaining 5.6% inert. Consequently,
+in subsequent examinations a weight loss of 3.18% is adopted as
+complete conversion of the reaction.
+The shape of the DSC peaks in Fig. 4 does not indicate the exis-
+tence of a two-phase region in the process of the redox reaction,
+which would be expected according to various reports on the
+phase diagram of the Mn-Fe-O system (Kjellqvist and Selleby,
+2010; Wickham, 1969; Crum et al., 2009). However, the absence
+of its indication might be attributed to the relatively small temper-
+ature range of the two-phase region along with the dynamic mea-
+suring conditions.
+In this work a speciﬁc reaction enthalpy of about 271 J/g
+(Mn0.75Fe0.25)2O3 was measured by means of differential scanning
+calorimetry, using a pierced lid for the reference and sample cru-
+cible throughout the calibration and measurement runs in this
+case. The enthalpy value corresponds to about 273 kJ/mol O2,
+which has been calculated based on assumed full stoichiometric
+reaction conversion. A similar value (254 kJ/mol O2) was speciﬁed
+for the redox reaction of a binary oxide with a Fe/Mn molar ratio of
+1:4 (Rydén et al., 2014). However, the determined enthalpy of reac-
+tion in the current work turns out to be higher than the previously
+reported experimentally obtained values for similar compositions
+(Block and Schmücker, 2016; Carrillo et al., 2015).
+3.2. Thermodynamic examinations
+According to the described passive dual media storage concept
+(compare regenerator-type storage in Fig. 1) the envisaged TCS
+reactor will be operated using air as HTF in direct contact with
+the storage material during charging and discharging. The coupling
+of the HTF and reaction gas supply has a direct inﬂuence on the
+reaction temperature due to the correlation between oxygen par-
+tial pressure and temperature, as oxygen is released and taken
+up during a storage cycle. Consequently, the knowledge of the
+position of the thermodynamic equilibrium for different oxygen
+partial pressures is essential to identify the relevant temperature
+ranges for reduction and oxidation as well as to specify the operat-
+ing boundary conditions of the reactor. In this work simultaneous
+thermal analysis measurements were carried out to identify exper-
+imental pO2-T conditions for the redox process (reduction and oxi-
+dation step) and reveal potentially occurring limitations, which
+knowledge is highly relevant from a technical point of view.
+In general the difference between the measured onset temper-
+ature and the equilibrium temperature of a phase transition
+decreases with diminishing heating and cooling rates. The German
+Society for Thermal Analysis (GEFTA) has suggested a procedure to
+approach the thermodynamic equilibrium temperature by an
+extrapolation of determined onset temperatures for different tem-
+perature ramps to a heating and cooling rate of zero (Hemminger
+and Cammenga, 1989; Höhne et al., 1990). In order to study the
+temperature ramp dependency of the reaction onset and test this
+procedure in the present examination of manganese-iron oxide,
+measurements at different temperature ramps were performed
+as described in chapter 2.2. The lowest temperature ramps applied
+(0.5 K/min) are considered sufﬁcient for the current characteriza-
+tion with respect to a technical application of the material.
+Fig. 5 shows the dependence of the onset temperatures at var-
+ious oxygen fractions under atmospheric pressure on different
+heating rates for the reduction (positive x-coordinate) as well as
+on the respective cooling rates for the oxidation (negative x-
+coordinate). Generally, higher onset temperatures were measured
+for the transition of (Mn0.75Fe0.25)2O3/(Mn0.75Fe0.25)3O4 compared
+to pure Mn2O3/Mn3O4, which is in accordance with reported phase
+diagrams for air as well as previous ﬁndings for similar composi-
+Fig. 4. Excerpt of dynamic redox cycle of manganese-iron oxide with a Fe/Mn molar ratio of 1:3, applying a heating rate of 10 K/min up to 1060 C and a cooling rate of 10 K/
+min down to 750 C in air.
+M. Wokon et al. / Solar Energy 153 (2017) 471–485
+477
+
+
+===== Page 8 =====
+
+tions of manganese-iron oxide (Block and Schmücker, 2016;
+Carrillo et al., 2015; Crum et al., 2009; Kjellqvist and Selleby,
+2010; Wickham, 1969).
+The progress of the determined onset temperatures of the
+reduction and oxidation can be represented adequately by means
+of an exponential function. Reduction onset temperatures for 5 K/
+min and 10 K/min at a pO2 of 40.4 kPa differed from the exponen-
+tial trend and were not included in the respective exponential ﬁt
+for the sake of simplicity (points marked by boxes). An extrapola-
+tion of the onset temperatures to a heating and cooling rate of 0 K/
+min would generally lead to the equilibrium state of the reaction.
+This is obviously not the case for the illustrated trend in Fig. 5, as
+the determined onset temperatures are still far away from the
+actual equilibrium, even for the lowest temperature ramp of
+0.5 K/min. At least for the oxidation step the thermodynamic equi-
+librium could not even nearly be approached, which characteristic
+oxidation behavior will be elaborately discussed below (see Figs. 6
+and 7). It is important to note, that the progress of the exponential
+trend towards the thermodynamic equilibrium cannot be discov-
+ered by means of the available data, as the trend is presumed to
+be more pronounced for heating and cooling rates lower than the
+adjusted 0.5 K/min. As we will see later, the oxidation proceeds
+extremely slow closer to the equilibrium (Fig. 7), which is why
+considerably lower temperature ramps would be necessary. The
+setting of lower temperature ramps, however, is limited due to a
+loss of instrument sensitivity, rendering the analysis of the DSC sig-
+nal difﬁcult. Furthermore, lower ramps are not relevant from an
+application-oriented point of view. On this account the prolonga-
+tion of the exponential trend for heating and cooling rates lower
+than 0.5 K/min is only displayed by a dotted curve, respectively
+(Fig. 5). The values obtained for heating and cooling rates of
+0 K/min at different oxygen partial pressures do not represent
+equilibrium conditions in the current work and are therefore
+deﬁned as technically relevant temperature threshold values,
+beyond which the reactions do not become visually evident in
+the presented dynamic measurements.
+The experimentally determined temperature thresholds and
+corresponding oxygen partial pressures are summarized in a lin-
+earized van’t Hoff plot (Fig. 6), plotting the average pO2 on a loga-
+rithmic
+scale
+versus
+the
+reciprocal
+temperature
+threshold,
+respectively. A linear correlation (pO2-T) between the pO2 and
+the temperature thresholds can be derived for the reduction and
+oxidation step, as marked in the diagram. In addition, Fig. 6 also
+illustrates the equilibrium partial pressure of oxygen (pO2,eq) as a
+function of the temperature, calculated with the thermochemical
+software FactSage using the FToxid database. Due to the presence
+of the small two-phase ﬁeld, where the bixbyite and spinel phase
+coexist, two equilibrium conditions are deduced according to Eq.
+(4), referred to as phase boundary lines below. Only the partial
+pressure range which exhibits a linear relationship between partial
+pressure and temperature is represented in the van’t Hoff plot
+(from 2.6 kPa to 100 kPa). Below 2.6 kPa the additional two-
+phase ﬁeld ‘‘T + B” begins, which is out of the envisaged operating
+range of a TCS reactor and will therefore not be addressed in this
+work. The presence of the illustrated two-phase ﬁeld ‘‘B + S” is in
+accordance
+with
+phase
+diagrams
+reported
+in
+the
+literature
+(Kjellqvist and Selleby, 2010; Weiland, 2002; Wickham, 1969). As
+expected we can assert, that the intrinsic thermodynamic equilib-
+ria are located between the experimentally determined pO2-T con-
+ditions. However, the deviation of the oxidation conditions from
+equilibrium is clearly larger. The crosses marked in the diagram
+indicate the measurement conditions for isothermal oxidations,
+which are explained below (see Fig. 7).
+The linear correlations for the experimentally determined data
+and equilibrium data in Fig. 6 can be rearranged to yield expres-
+sions according to Eq. (4), derived from the van’t Hoff equation.
+The corresponding linear approximations with the corresponding
+slope (S) and y-intercept (Y) are summarized in Table 1:
+ln
+pO2
+105Pa
+
+
+¼ S 
+1000
+TRedjOx=K þ Y
+ð9Þ
+For atmospheric air at 101.325 kPa with a pO2 of 21.228 kPa a tem-
+perature threshold of 981.8 C can be calculated for the reduction
+and 920.4 C for the oxidation based on the experimentally deter-
+mined pO2-T correlations, respectively. The equilibrium correlations
+pO2,eq-Teq derived from FactSage data yield temperatures of
+968.5 C (phase boundary line of ‘‘B” – ‘‘B + S”) and 973.8 C (phase
+boundary line of ‘‘B + S” – ‘‘S”) in air. Based on the average of both
+equilibrium lines (eqI and eqII in Table 1) for the phase boundaries,
+a molar standard reaction enthalpy of 287.1 kJ/mol O2 can be eval-
+-10
+-8
+-6
+-4
+-2
+0
+2
+4
+6
+8
+10
+815
+830
+845
+860
+875
+890
+905
+920
+935
+950
+965
+980
+995
+1010
+1025
+1040
+1055
+Oxidation
+O2 partial pressure
+71.1 kPa
+40.4 kPa
+20.4 kPa
+10.1 kPa
+5.1 kPa
+Exponential trend
+Onset-Temperature / °C
+Cooling Rate Heating Rate / (K/min)
+Reduction
+Fig. 5. Extrapolated peak onset temperatures of the reduction and oxidation for
+various oxygen partial pressures plotted against different heating (positive x-
+coordinate) and cooling (negative x-coordinate) rates; onset temperatures deter-
+mined on the basis of the measured DSC signal.
+Fig. 6. Correlation between oxygen partial pressures and temperature threshold
+values (derived from Fig. 5) for the reduction of (Mn0.75Fe0.25)2O3 to (Mn0.75Fe0.25)3O4
+and oxidation of (Mn0.75Fe0.25)3O4 to (Mn0.75Fe0.25)2O3; equilibrium conditions for
+manganese-iron oxide with a Fe/Mn molar ratio of 1:3 calculated by means of the
+thermochemical software FactSage is displayed for comparison (dashed lines);
+predominant phases: ‘‘B” = cubic bixbyite, ‘‘S” = cubic spinel and ‘‘B + S” = two-
+phase area of bixbyite and spinel.
+478
+M. Wokon et al. / Solar Energy 153 (2017) 471–485
+
+
+===== Page 9 =====
+
+uated for the redox reaction from the linear slope according to Eq.
+(4). The measured enthalpy value based on DSC deviates by around
+5% (273 kJ/mol O2).
+Fig. 6 accentuates the presence of a large thermal hysteresis
+under the prevailing experimental conditions, thermally decou-
+pling the reduction and oxidation step. The thermal hysteresis
+implies the occurrence of a ”passive‘‘ temperature range close to
+equilibrium, where the driving force of the reaction is low and
+hence the reaction – especially the oxidation step, showing an
+asymmetrical behavior – takes a long time to be initiated and to
+proceed. This is why this range has no technical relevance and can-
+not be exploited for a TCS operation in this manganese-iron oxide
+reaction system. The hysteresis can therefore also be referred to as
+‘‘technical hysteresis”. We can ascertain from Fig. 5 and Fig. 6 that
+the hysteresis extends over a broader temperature range at lower
+oxygen partial pressures, whereas the region becomes smaller at
+higher oxygen partial pressures (despite the inverse plotting of
+the temperature). Moreover, Carrillo et al. reported a narrowing
+of the thermal hysteresis loop of manganese-iron oxide with
+increasing degree of Fe doping compared to pure manganese oxide
+(Carrillo et al., 2015), which allows to accomplish higher discharg-
+ing temperatures. This ﬁnding could be conﬁrmed for the compo-
+sition in the current study.
+The redox reaction cannot proceed at the equilibrium tempera-
+ture. A comparison of the experimentally determined pO2-T depen-
+dencies (thresholds) and the calculated equilibrium conditions in
+Fig. 6 reveals, that different degrees of overheating and undercool-
+ing DT are required to initiate the corresponding phase transition
+of the reduction or oxidation. Only a low degree of overheating
+DT is necessary for the reduction to set in, as the increase of the
+thermodynamic driving force DG as well as the general increase
+of the reaction rate with rising temperature both favor the reduc-
+tion. In contrast, the initiation of the oxidation requires a large
+degree of undercooling DT to overcome the activation energy bar-
+rier DG⁄ for the formation of a cluster (nuclei) with a critical radius
+by statistical thermal ﬂuctuations. Hence, the oxidation step is pri-
+marily subjected to kinetic limitations during cooling.
+Fig. 7 illustrates isothermal oxidation measurements within the
+experimentally determined hysteresis loop. These clearly demon-
+strate, why the methodology to extrapolate the onset temperatures
+for different temperature ramps to a respective rate of 0 K/min
+does not necessarily lead to the identiﬁcation of the thermody-
+namic equilibrium on the basis of the underlying data set (lowest
+ramp of merely 0.5 K/min, compare Fig. 5) – especially in the case
+of the present severe kinetic limitations. However, since these sev-
+ere kinetic limitations hinder a technical application, this chosen
+methodology gives a ﬁrst idea of technically relevant operation
+conditions and allows to determine the described temperature
+thresholds for different oxygen partial pressures.
+Fig. 7 reveals that the oxidation reaction actually proceeds at
+temperatures within the experimentally determined hysteresis
+range, verifying the assumption of underlying kinetic limitations
+closer to the equilibrium in the oxidation step. While at a temper-
+ature of 916.5 C – below the aforesaid temperature threshold of
+920.4 C in air – only a short induction period could be observed,
+a fairly long induction period of over 30 min is discovered for a
+temperature of 926.6 C exceeding the temperature threshold
+marked in Fig. 6. Overall, we have to differentiate between the
+temperature range below and above the experimentally deter-
+mined pO2-T threshold condition for the oxidation step, as for
+the latter the reaction progress changes drastically. Even though
+the required reaction rate might depend on the application, this
+temperature range can be excluded as potential operating condi-
+tion, if a complete conversion cannot even be reached within a per-
+iod of 8 h of oxidation.
+Overall, we arrive at the conclusion, that the knowledge of the
+actual equilibrium state is not sufﬁcient for the description of the
+reactive temperature range. The presented dynamic measurement
+methodology, however, allows a good approximation of the tem-
+perature thresholds at different oxygen partial pressures, beyond
+which thresholds – from a technical point of view – the redox reac-
+tions proceed in a reasonable period of time upon further heating
+in the reduction or cooling in the oxidation step. While the pO2-T
+threshold conditions for the reduction are closer to the equilibrium
+conditions, the corresponding pO2-T threshold conditions for the
+oxidation are far-off, mainly attributed to prevailing kinetic
+limitations.
+3.3. Effective reaction rate of the reduction
+The pressure term h(pO2,pO2,eqII(TRed)) corresponding to Eq. (5)
+generally exerts an inﬂuence on the reaction rate within the scope
+of the determination of the rate constant k(TRed) of the reaction,
+which is due to the temperature dependence of the equilibrium
+pressure pO2,eqII(TRed). Consequently, dynamic measurements at
+different heating rates (0.5, 1.0, 2.0, 5.0 and 10.0 K/min) are per-
+formed in pure N2 atmosphere at ﬁrst, in order to exclude the inﬂu-
+ence of the pressure term on the reaction. In the process the partial
+pressure of O2 released during the reaction is neglected.
+Based on the reaction rate in terms of the time derivative of
+experimental conversion data, a parameterization according to
+Eq. (5) yields the following effective reaction rate for the reduction
+step:
+Table 1
+Experimentally determined correlations between pO2 and temperature threshold
+value for the reduction and oxidation onset of the considered redox reaction as well
+as pO2 as a function of the temperature at equilibrium (see phase boundary lines eqI
+and eqII, calculated on the basis of FactSage data for an oxide composition with a
+Fe/Mn molar ratio of 1:3) according to Eq. (9).
+Reaction step | Phase boundary (FactSage)
+S (slope)
+Y (y-intercept)
+pO2-T correlation for reduction threshold
+(this work)
+36.874
+27.833
+pO2-T correlation for oxidation threshold
+(this work)
+27.159
+21.205
+Phase boundary line of ‘‘bixbyite” –
+‘‘bixbyite + spinel” (eqI)
+34.538
+26.265
+Phase boundary line of ‘‘bixbyite + spinel” –
+‘‘spinel” (eqII)
+34.522
+26.134
+Fig. 7. Isothermal oxidation of (Mn0.75Fe0.25)3O4 in air at different temperatures
+within the experimentally determined thermal hysteresis range (apart from the
+measurement at 916.5 C).
+M. Wokon et al. / Solar Energy 153 (2017) 471–485
+479
+
+
+===== Page 10 =====
+
+dXRed
+dt
+¼ 2:74  1013 1
+s exp
+ 355:72 kJ
+mol
+RTRed
+ 
+!
+ 1:95ð1
+ XRedÞ½ lnð1  XRedÞ
+1 1
+1:95
+ð
+Þ 
+1 
+pO2
+pO2;eqIIðTRedÞ
+ 
+!4:55
+ð10Þ
+The developed model for the effective reaction rate is valid for
+temperatures up to about 1085 C and oxygen partial pressures
+between 5 kPa and 70 kPa. For the reactivity beyond the given
+ranges the model serves only as a rough estimation. The evaluation
+procedure for the evolution of the reaction model is summarized
+below.
+Fig. 8 illustrates the corresponding experimental conversion
+curves in N2 (symbols), which show a strong dependence of the
+onset and offset temperatures of the reaction on the applied heat-
+ing rate. The onset temperatures of the reaction shift to higher val-
+ues with increasing heating rate. All curves reveal a rather long
+drawn-out progress of the reaction onset. This characteristic curve
+progression has also been observed in the reduction of pure Mn2O3
+to Mn3O4 in N2 or Ar (Alonso et al., 2013; Botas et al., 2012).
+Generally, the reduction temperature can be signiﬁcantly
+decreased due to the prevailing N2 atmosphere, as Fig. 8 indicates.
+The experiments illustrate the heat transfer limited nature of the
+reduction step, implying that an enhancement of the heating rate
+entails higher reaction rates, which has also been stated by
+Carrillo et al. (2014, 2015). Thus, the reaction rate obeys the tem-
+perature dependence described by the Arrhenius term in Eq. (6).
+An in situ XRD analysis of the reduction of manganese-iron oxide
+with a similar composition (molar ratio Fe/Mn of 1:4) at 10 K/
+min in argon by Carrillo et al. revealed the presence of two poly-
+morphic spinel phases at a temperature of 900 C, namely the cubic
+spinel b-(Mn,Fe)3O4 as the main phase and the tetragonal spinel a-
+(Mn,Fe)3O4 to a minor extent. It was found, that in the absence of
+O2 several reactions seem to proceed successively with increasing
+temperature. The formation of the tetragonal spinel took place at
+lower temperatures, whereas the prevailing formation of the cubic
+spinel was identiﬁed at higher temperatures, where higher reac-
+tion conversions (XRed > 0.5) have been reached (Carrillo et al.,
+2016b).
+The identiﬁcation of the kinetic triplet A, Ea and f(XRed) poses an
+interlinked problem in dynamic measurements, as the reaction
+rate depends on k(TRed) and f(XRed) at any given time. Therefore,
+the apparent activation energy Ea is assessed by means of an
+Arrhenius-type plot, plotting the logarithmic conversion rate at
+constant conversion of 50% over the corresponding reciprocal tem-
+perature for different heating rates, respectively, which is called a
+differential isoconversional method (Friedman, 1964; Vyazovkin
+et al., 2011). The slope of the linear regression is proportional to
+the
+apparent
+activation
+energy
+Ea,
+for
+which
+a
+value
+of
+355.72 kJ/mol can be calculated. Similarly, Carrillo et al. carried
+out the reduction of (Mn0.8Fe0.2)2O3 at different heating rates in
+argon and reported an average value of 371.2 kJ/mol also deter-
+mined based on the Friedman method (Carrillo et al., 2016b).
+Subsequently, the reaction mechanism f(XRed) and the pre-
+exponential factor A are simultaneously quantiﬁed by plotting
+the product y(XRed) of the experimental conversion rate and the
+exponential part of the Arrhenius term against the conversion XRed
+for each heating rate bi, respectively, following a common master
+plot approach (Vyazovkin et al., 2011). A conversion step size of
+1% is selected. A comparison of the shape of the experimental with
+theoretical master plots leads to the most suitable kinetic model.
+The conversion curves in N2 exhibit a sigmoidal shape, which is
+why the empirical kinetic model f(XRed) of Avrami-Erofeev is cho-
+sen. The parameter n of the corresponding model function along
+with the pre-exponential factor A is determined by numerical
+curve ﬁtting based on a minimization of the sum of error squares.
+Fig. 8 shows the model prediction (dashed lines), with the pressure
+term equal to unity.
+In the ﬁnal step the dependence of the reaction rate on the gas
+pressure is identiﬁed on the basis of dynamic measurements in dif-
+ferent oxygen atmospheres, whereat measurements at 10 K/min
+are used for the assessment in this work. The calculation is based
+on the logarithm of Eq. (5), ln(dXRed/dt)-ln(A)+[Ea/(RTRed)]-ln[f
+(XRed)] = ln[h(pO2,pO2,eqII(TRed))],
+applying
+the
+isoconversional
+method (XRed = 0.5). The phase boundary line ‘‘bixbyite + spinel” -
+‘‘spinel” – denoted ‘‘eqII” in Table 1 – is applied as the equilibrium
+pressure pO2,eqII(TRed) in the model equation of the reduction step,
+with the equilibrium partial pressure of oxygen being calculated
+according to the respective temperature at 50% conversion. Exper-
+imental data are suitably represented by the pressure expression
+[1  (pO2/pO2,eqII(TRed))]m. The slope of the linear relationship in
+the double-logarithmic plot corresponds to the empirical exponent
+m of the pressure term, giving a value of 4.55.
+Fig. 9 displays the comparison of the model prediction against
+the experimental conversion proﬁles of the reduction at various
+O2 atmospheres and a heating rate of 2 K/min. All conversion
+curves point out a similar progress of reaction, with a shift of the
+curves according to the experimentally determined pO2-T depen-
+Fig. 8. Reduction of (Mn0.75Fe0.25)2O3 at different heating rates in N2: symbols
+correspond to experimental data, dashed lines to the prediction by the model for
+the effective reaction rate; the pressure term equals unity in this case.
+Fig. 9. Reduction of (Mn0.75Fe0.25)2O3 at a heating rate of 2 K/min in different O2
+atmospheres: symbols correspond to experimental data, dashed lines to the
+prediction by the model for the effective reaction rate according to Eq. (10).
+480
+M. Wokon et al. / Solar Energy 153 (2017) 471–485
+
+
+===== Page 11 =====
+
+dency. Overall, in comparison to the measurement at 2 K/min in
+N2, the onset of the reactions becomes sharper and the reaction
+progress turns out to be steeper in different O2 atmospheres at
+2 K/min, indicating higher reaction rates. These are essentially
+evoked by higher reaction temperatures with rising pO2.
+In summary, the reaction rate of the reduction increases with
+rising temperature and falling oxygen partial pressure, which
+corresponds to an increment of the temperature driving force
+TRed  TeqII(pO2) as well as an increment of the pressure driving
+force pO2,eqII(TRed)  pO2 for the reaction.
+3.4. Effective reaction rate of the oxidation
+Isothermal measurements are performed for the oxidation step
+at different temperatures and oxygen partial pressures to demon-
+strate the temperature and partial pressure dependence of the
+reaction rate as well as to overcome the kinetic limitations
+revealed in the section pertaining to thermodynamic investiga-
+tions. The reactions are initiated by switching the gas atmosphere
+from pure nitrogen to the desired oxygen content, imposing a sud-
+den change of the pO2. Conversion and conversion rate of the trans-
+formation to cubic bixbyite can be clearly attributed to the chosen
+temperature and pO2 as a function of time, respectively.
+As a result of the systematic parameterization of the reaction
+rate using Eq. (5), the following effective reaction rate has been
+deduced for the oxidation step:
+dXOx
+dt
+¼ 1:78  1016 1
+s exp
+ 463:53 kJ
+mol
+RTOx
+ 
+!
+ 1:38ð1
+ XOxÞ½ lnð1  XOxÞ
+1 1
+1:38
+ð
+Þ 
+ln
+pO2
+pO2;eqIðTOxÞ
+ 
+!7:06
+ð11Þ
+The developed model for the effective reaction rate is speciﬁ-
+cally valid for temperatures above 800 C and oxygen partial pres-
+sures between 15 kPa and 40 kPa. For the reactivity beyond the
+given ranges the model serves only as a rough estimation.
+A brief description of the derivation procedure for the evolution
+of the reaction model is given below. At ﬁrst the pO2 was varied at
+an isothermal temperature of 886.2 C in order to identify the pres-
+sure dependence of the oxidation rate. The temperature was cho-
+sen from a technological point of view in close-range of the
+determined temperature threshold value for the oxidation in air,
+as the storage material is essentially intended for utilization in
+air. On this account the oxidation takes place during the cooling
+process of the storage in air (discharging stage). The onset of the
+dominant rate process in the experiments is deferred by a delay
+period t0, which originates from the latency caused by switching
+from N2 to the desired O2 atmosphere as well as from an induction
+period required for the generation of growth nuclei before onset of
+the acceleratory period (Galwey and Brown, 1999; Muroyama
+et al., 2015). This induction period is highly dependent on the tem-
+perature. The magnitude of t0 can be obtained from the intercept
+on the t-axis of a g(XOx)-time plot, g(XOx) = k(TOx)t being the inte-
+gral form of the suitable reaction model (determination see below).
+In Fig. 10, the dependence of the oxidation rate on the prevalent
+pO2 – and on the state of equilibrium accordingly – is shown. An
+increment of the pO2 from 15 kPa to 40 kPa at constant temper-
+ature, respectively, results in a signiﬁcant increase of the reaction
+rate, emphasizing a strong impact of the oxygen partial pressure.
+A rise of the partial pressure in this region implicates a stronger
+driving pressure difference pO2  pO2,eqI(TOx) as well as tempera-
+ture difference TeqI(pO2)  TOx to the equilibrium state at a con-
+stant temperature of 886.2 C, shifting the reaction towards the
+oxidized phase more rapidly. In general, the deviation of the cur-
+rent state (pO2,TOx) from the equilibrium state (pO2,eqI,TeqI), also
+known as the so called ‘‘equilibrium drop” (Shao et al., 2013), is
+incremented accordingly.
+A plot of the logarithm of the conversion rate ln(dXOx/dt) at 50%
+conversion – according to the isoconversional method (Friedman,
+1964; Vyazovkin et al., 2011) – against the logarithm of various
+pressure terms (see also Eq. (8)), taking all measurements at differ-
+ent oxygen partial pressures but constant temperature into
+account, yields the best linear approximation for the logarithmic
+function [ln(pO2/pO2,eqI(TOx))]m. The slope with a value of 7.06 cor-
+responds to the empirical exponent m of this pressure term. The
+phase boundary line ‘‘bixbyite” - ‘‘bixbyite + spinel” – denoted
+‘‘eqI” in Table 1 – is applied as the equilibrium oxygen partial pres-
+sure pO2,eqI(TOx) in the model equation of the oxidation step. Fig. 10
+illustrates the model predictions based on expression (11) in com-
+parison to the measurements, taking the corresponding delay peri-
+ods t0 into account. The model clearly represents the effect of the
+pressure dependency of the reaction rate.
+A sigmoidal function on the basis of the Avrami-Erofeev mech-
+anism has been chosen for the measurements at 855.8 C, 886.2 C
+and 891.2 C in air, as well as for 886.2 C at 25.2 kPa and 40.7 kPa
+O2. The corresponding parameter n of the kinetic model has been
+ﬁtted to these experimental data, applying a typical master plot
+method based on the differential form of the kinetic Eq. (5)
+(Gotor et al., 2000). It follows a value of 1.38. We can also assert
+that the reaction follows different mechanisms depending on the
+temperature and pressure region.
+The variation of the isothermal oxidation temperature in air
+(Fig. 11) demonstrates a dependence of the reaction rate on the
+equilibrium state similar to the pressure dependence described
+above. As expected, the lowest reaction rates appear closer to the
+thermodynamic equilibrium. Therefore, a temperature decrease
+down to about 800 C results in an increase of the reaction rate
+due to an enhancement of the driving temperature difference
+TeqI(pO2)  TOx as well as pressure difference pO2  pO2,eqI(TOx) to
+the equilibrium state.
+The highest reaction rate in air is achieved between 750 C and
+800 C, as indicated in Figs. 11 and 12. The most rapid reaction
+takes place at temperatures close to 850 C, reaching complete
+conversion within 10 min upon switching from N2 to air. The
+observed deceleration of the reaction rate with rising temperature
+closer to the equilibrium – T  800 C in the present case – has
+also been reported for other metal oxide oxidations, such as for
+the redox couples CuO/Cu2O (Clayton et al., 2014) and BaO2/BaO
+0
+600
+1200
+1800
+2400
+3000
+3600
+4200
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+   pO2 at 886.2 °C  
+  40.7 kPa  
+  25.2 kPa  
+  20.3 kPa  
+  17.3 kPa  
+  15.2 kPa  
+  Model 
+Conversion XOx / -
+Time (t - t0) / s
+Fig. 10. Oxidation of (Mn0.75Fe0.25)3O4 at 886.2 C close to equilibrium applying
+different oxygen partial pressures: symbols correspond to experimental data,
+dashed lines to the prediction by the model for the effective reaction rate according
+to Eq. (11).
+M. Wokon et al. / Solar Energy 153 (2017) 471–485
+481
+
+
+===== Page 12 =====
+
+(Carrillo et al., 2016a), and is characteristic not only for reversible
+gas-solid reactions.
+In the ﬁnal step the temperature dependent term of the reaction
+rate is derived from an Arrhenius-type plot at a conversion of 50%.
+Therefor ln(dXOx/dt)-ln[h(pO2/pO2,eqI(TOx))]ln[f(XOx)] is plotted
+versus the reciprocal temperature 1000/TOx for different isother-
+mal measurements, taking the already identiﬁed parameters of
+the pressure term and kinetic model into account. The modiﬁed
+Arrhenius plot reveals a linear relationship for the temperature
+range between 805.2 C and 891.2 C, with the slope giving an
+apparent activation energy Ea of 463.53 kJ/mol. A pre-exponential
+factor A of 1.781016 1/s can be calculated based on the y-
+intercept. With temperatures below 805.2 C the slope and thus
+the apparent activation energy decreases somewhat. Fig. 11 illus-
+trates, that the evolved model (dashed lines) is in accordance with
+the experimental curves (symbols).
+Fig. 12 shows the conversion curves for temperatures far from
+equilibrium. In this region the reaction rate clearly rises with
+increasing temperature, as the temperature dependence of the
+reaction rate corresponding to the Arrhenius term of Eq. (6)
+constitutes the dominating factor on the rate. The inﬂuence of
+the pressure driving force is only of minor importance in this tem-
+perature region.
+At temperatures far from equilibrium (T  800 C) the shape
+of the conversion curves reveal distinctively, that the reaction pro-
+ceeds via a different reaction mechanism. This is also the reason
+why the reactions take a long time to reach full conversion. In
+order to map the effective reaction rate far from equilibrium, a dif-
+ferent kinetic model, the relevant apparent activation energy and
+pre-exponential factor as well as a suitable pressure term – which
+requires to measure the dependence of the reaction rate on the
+oxygen partial pressure in this temperature range – have to be
+deduced along the modeling procedure. In summary we can state,
+that varying reaction mechanisms and dependencies on tempera-
+ture and partial pressure make it difﬁcult to evolve a single reac-
+tion rate expression valid for a broad temperature and pressure
+range.
+As a ﬁrst approximation it can be assumed that the representa-
+tion of the empirical oxidation rate between the equilibrium tem-
+perature down to 800 C in air works sufﬁciently for the simulation
+of a thermochemical storage reactor in the case of the envisaged
+technical application of a regenerator-type storage. When the stor-
+age material is cooled down to extract thermal energy in the dis-
+charging period, a rapid release of the heat of reaction is
+expected as soon as the experimentally determined temperature
+threshold of the oxidation (920 C in air) is exceeded, maintain-
+ing particle temperatures close to this temperature (depending
+on the operating conditions). This predicted behavior is due to an
+increase of the reaction rate with declining temperature down to
+800 C, which in turn leads to a raise of the heat release.
+3.5. Test of cycling stability
+Long-term cycling stability constitutes a crucial requirement for
+a thermochemical storage material and implies the progress of a
+reversible redox reaction over numerous cycles without slowdown
+of the reaction rates due to microstructural changes, which could
+be caused by phase changes or sintering effects. Exemplarily, a
+sample was subjected to a test over 100 dynamic cycles in air
+atmosphere. One cycle consists of heating at a rate of 10 K/min
+up to 1060 C and subsequent cooling down at a rate of 10 K/min
+to 750 C (no isothermal period).
+Fig. 13 shows the conversion curves for different cycles of
+manganese-iron oxide in air. The reduction step reveals good sta-
+bility with only minor changes over the progression of 100 cycles
+Fig. 11. Time evolution of the (Mn0.75Fe0.25)3O4 oxidation in air at different
+temperatures closer to equilibrium: symbols correspond to experimental data,
+dashed lines to the prediction by the model for the effective reaction rate according
+to Eq. (11).
+Fig. 12. Time evolution of the (Mn0.75Fe0.25)3O4 oxidation in air at different
+temperatures far from equilibrium: experimental results.
+780
+805
+830
+855
+880
+905
+950
+975
+1000 1025 1050
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+Reduction
+Cycle
+1st
+5th
+10th
+20th
+40th
+60th
+80th
+100th
+Oxidation
+Conversion XOx / -
+Temperature / °C
+1.0
+0.9
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0.0
+Conversion XRed / -
+Fig. 13. Non-standardized conversion curves versus temperature of 100 redox
+cycles with a heating rate of 10 K/min up to 1060 C and a cooling rate of 10 K/min
+down to 750 C in air (20 mL/min O2, 80 mL/min N2), only relevant temperature
+range shown.
+482
+M. Wokon et al. / Solar Energy 153 (2017) 471–485
+
+
+===== Page 13 =====
+
+and is basically unaffected by cycling. It always proceeds sufﬁ-
+ciently fast within approximately 6 min. Moreover, the cycles indi-
+cate stable onset temperatures for the subsequent oxidation step,
+respectively. Only a small increase of the reaction time is observed
+over the ﬁrst 40 cycles, which is why in this range the material can
+be considered fairly stable in reactivity. In the course of consecu-
+tive cycling, though, longer reaction times occur in the oxidation
+step, which is indicated by a shift of the end of the reaction to
+lower temperatures during cooling. The oxidation still proceeds
+completely during all cycles until the preset lower temperature
+limit of 750 C is reached.
+It has to be noted, however, that the granular particles exhibit a
+so called ‘‘swelling effect” over the course of 100 redox cycles, such
+that the particle density decreased and particles gained approxi-
+mately double the initial size. Images of the granular raw material
+in comparison to the swollen granules after 100 cycles are pre-
+sented as insets in Fig. 14 (b) and (d), respectively. A similar swel-
+ling behavior has previously been described for pure iron oxide
+particles of 400600 lm over the course of repeated Fe2O3-Fe3O4
+cycling in the ﬁeld of chemical-looping combustion. The authors
+pointed out that the increased porosity results in more fragile par-
+ticles, unable to withstand impacts and more susceptible to frag-
+mentation (Brown et al., 2012). An increase in the porosity over
+the course of 41 consecutive reduction-oxidation cycles has also
+been reported for manganese-iron oxide particles of 125–180 lm
+(80/20 wt.% Mn3O4/Fe2O3) in the research ﬁeld of CLOU (Shulman
+et al., 2009). This ‘‘swelling effect” is critical for a future TCS appli-
+cation of the material and needs to be further addressed. The addi-
+tion of inert additives could be a potential solution, which in turn
+reduces the speciﬁc energy density of the material though. For
+instance, Azimi et al. added inert ZrO2 as a promising support
+material for a manganese-iron oxide in CLOU, also utilizing a Fe/
+Mn molar ratio of 1:3. The authors were able to prove an increase
+of the mechanical stability of the material (Azimi et al., 2014).
+The interrelation between the redox reactivity and the mor-
+phology of the metal oxide particles before and after thermal
+cycling are of particular interest, as morphology alterations due
+to sintering processes belong to the most critical factors for the
+perpetuation of the redox durability over innumerous cycles. Scan-
+ning electron microscopy (SEM) images were taken with a Zeiss
+Ultra 55 scanning electron microscope in order to examine the
+microstructure of the material. Fig. 14 (a) and (c) show the topview
+of a granule, respectively. While the starting material features
+irregularly shaped grains of various sizes having an angular and
+sharp structure to some extent (see Fig. 14a), the SEM image of
+the material cycled 100 times in the scope of the experimental
+study clearly reveals larger, coherent bulk structures with sinter
+neck formation between individual grains (see Fig. 14c). Those sin-
+tering processes are evoked by the severe high-temperature condi-
+tions up to 1060 C and might be responsible for the discovered
+slight decrease in the re-oxidation rate over continuous cycling.
+Representative SEM images of polished granule cross sections
+are also shown in Fig. 14 to compare the porosity of the raw mate-
+rial (b) and the material cycled 100 times (d). The granular parti-
+cles were inﬁltrated with epoxy glue to stabilize the structure.
+Dark areas (epoxy glue) represent the voidage of the particles.
+Although the material is affected by sintering phenomena due to
+the exposition to temperatures up to 1060 C, pore sizes and total
+pore volume (porosity) of the structure increase signiﬁcantly over
+the period of the cycling procedure in comparison to the raw mate-
+rial, as the SEM image of the cycled material clearly shows less
+solid fraction (grey areas) per image section. The particle density
+decreases accordingly. This can be attributed to the swelling of
+the granules and is therefore in accordance with the visual obser-
+vation
+of
+the
+immense
+growth
+in
+granule
+size
+(insets
+in
+Fig. 14b and d). Due to those structural alterations of the material,
+the mechanical properties and structural integrity of the granules
+could not be thoroughly sustained.
+As the binary oxide serves as a reference material, the durability
+of the material to keep up the redox reactivity over numerous con-
+secutive cycles can be considered sufﬁcient for the fundamental
+examinations within the presented study as well as for an upscal-
+ing to laboratory-scale experiments, in order to derive the main
+inﬂuencing factors on the TCS concept based on metal oxide redox
+Fig. 14. Scanning electron micrographs: Granulate surface and microsection of manganese-iron oxide as prepared (a and b) as well as after 100 cycles (c and d), both
+materials being in the oxidized state; SEM images (b) and (d) show polished cross sections of granules with epoxy glue (dark areas) and solid particle fraction (grey areas);
+working distance: 8.0 mm; acceleration voltage: 5.0 kV; pictures of the granules are shown as insets (b and d).
+M. Wokon et al. / Solar Energy 153 (2017) 471–485
+483
+
+
+===== Page 14 =====
+
+reactions. The observed ‘‘swelling effect” as well as the slight
+decline of the re-oxidation rate deﬁnitely need to be tackled and
+inhibited in potential future large scale applications. Therefore, fur-
+ther material modiﬁcations by means of the addition of inert sup-
+port materials to enhance the mechanical stability and inhibit the
+‘‘swelling” of the granules upon cycling is currently under
+examination.
+4. Conclusions
+Metal oxides are predestined for thermochemical energy stor-
+age in high temperature processes such as central tower CSP
+plants. The main focus is directed on using air simultaneously as
+HTF and source of the reactant oxygen, allowing an open loop stor-
+age operation with direct solid-gas heat transfer. Due to the high
+degree of thermal energy stored as sensible heat a hybrid storage
+concept in the form of a regenerator-type storage system with a
+reactive TCS zone in the upper part and a non-reactive zone in
+the lower part, merely used for sensible thermal energy storage,
+is envisaged. In the present paper the reversible redox reaction of
+a granular manganese-iron oxide with a Fe/Mn molar ratio of 1:3
+has been systematically investigated by simultaneous thermal
+analysis with regard to thermochemical energy storage, arriving
+at the following conclusions:
+ The material was prepared from technical grade raw materials
+and therefore meets the requirements on the material proper-
+ties to be economical and non-toxic in handling. A speciﬁc reac-
+tion enthalpy of 271 J/g (Mn0.75Fe0.25)2O3 storage material was
+obtained in this work, which is higher than the energy density
+of the system Mn2O3-Mn3O4-O2.
+ The investigations revealed the presence of a large thermal hys-
+teresis under the chosen dynamic measurement conditions,
+thermally decoupling the reduction and oxidation step. The
+thermal hysteresis can mainly be attributed to the occurrence
+of severe kinetic limitations in the oxidation reaction close to
+equilibrium. Corresponding pO2-T correlations for the reduction
+and oxidation step, specifying technically relevant temperature
+threshold conditions for the reactivity of the storage material at
+different oxygen partial pressures, have been experimentally
+determined.
+ The redox reactivity of the reduction and oxidation has been
+examined in a wide temperature and partial pressure range to
+get a better understanding of the material behavior, which is
+crucial for the operation of the TCS reactor. Overall, kinetic
+and thermodynamic inﬂuences on the reaction rates were
+derived. The effective reaction rate models developed for the
+reduction
+and
+oxidation
+step
+(oxidation
+model
+valid
+for
+T  800 C, closer to equilibrium) adequately describe the
+experimental data.
+ The cycling stability of the material could be fairly maintained
+in terms of the reversibility and reactivity of the material
+throughout 100 dynamic redox cycles in air, verifying its good
+potential for the use as TCS material. However, the morphology
+of the particles changes in the course of 100 cycles.
+Additionally, the general scientiﬁc ﬁndings obtained as well as
+the general methodology pursued in the current study can be
+equally implemented for similar cases of TCS applications.
+References
+Agraﬁotis, C., Roeb, M., Sattler, C., 2016. Exploitation of thermochemical cycles
+based on solid oxide redox systems for thermochemical storage of solar heat.
+Part 4: Screening of oxides for use in cascaded thermochemical storage
+concepts. Sol. Energy 139, 695–710.
+Agraﬁotis,
+C.,
+Roeb,
+M.,
+Schmücker,
+M.,
+Sattler,
+C.,
+2014.
+Exploitation
+ofthermochemical
+cycles
+based
+on
+solid
+oxide
+redox
+systems
+for
+thermochemical storage of solar heat. Part 1: testing of cobalt oxide-based
+powders. Sol. Energy 102, 189–211.
+Alonso, E., Hutter, C., Romero, M., Steinfeld, A., Gonzalez-Aguilar, J., 2013. Kinetics of
+Mn2O3–Mn3O4
+and
+Mn3O4–MnO
+redox
+reactions
+performed
+under
+concentrated thermal radiative ﬂux. Energy Fuels 27, 4884–4890.
+André, L., Abanades, S., Flamant, G., 2016. Screening of thermochemical systems
+based on solid-gas reversible reactions for high temperature solar thermal
+energy storage. Renew. Sustain. Energy Rev. 64, 703–715.
+Ávila-Marín, A.L., 2011. Volumetric receivers in solar thermal power plants with
+central receiver system technology: a review. Sol. Energy 85, 891–910.
+Azimi, G., Leion, H., Mattisson, T., Rydén, M., Snijkers, F., Lyngfelt, A., 2014. Mn-Fe
+oxides with support of MgAl2O4, CeO2, ZrO2 and Y2O3-ZrO2 for chemical-looping
+combustion and chemical-looping with oxygen uncoupling. Ind. Eng. Chem.
+Res. 53, 10358–10365.
+Azimi, G., Leion, H., Rydén, M., Mattisson, T., Lyngfelt, A., 2013. Investigation of
+different Mn-Fe oxides as oxygen carrier for chemical-looping with oxygen
+uncoupling (CLOU). Energy Fuels 27, 367–377.
+Barin, I., Platzki, G., 1995. Thermochemical Data of Pure Substances, third ed., VCH
+Verlagsgesellschaft mbH, Weinheim.
+Block, T., Schmücker, M., 2016. Metal oxides for thermochemical energy storage: a
+comparison of several metal oxide systems. Sol. Energy 126, 195–207.
+Botas, J.A., Marugán, J., Molina, R., Herradón, C., 2012. Kinetic modelling of the ﬁrst
+step of Mn2O3/MnO thermochemical cycle for solar hydrogen production. Int. J.
+Hydrogen Energy 37, 18661–18671.
+Brown, T.A., Scala, F., Scott, S.A., Dennis, J.S., Salatino, P., 2012. The attrition
+behaviour of oxygen-carriers under inert and reacting conditions. Chem. Eng.
+Sci. 71, 449–467.
+Carrillo, A.J., Sastre, D., Serrano, D.P., Pizarro, P., Coronado, J.M., 2016a. Revisiting the
+BaO2/BaO redox cycle for solar thermochemical energy storage. Phys. Chem.
+Chem. Phys. 18, 8039–8048.
+Carrillo, A.J., Serrano, D.P., Pizarro, P., Coronado, J.M., 2014. Thermochemical heat
+storage based on the Mn2O3/Mn3O4 redox couple: inﬂuence of the initial
+particle size on the morphological evolution and cyclability. J. Mater. Chem. A 2,
+19435–19443.
+Carrillo, A.J., Serrano, D.P., Pizarro, P., Coronado, J.M., 2015. Improving the
+thermochemical energy storage performance of the Mn2O3/Mn3O4 redox
+couple by the incorporation of iron. Chemsuschem 8, 1947–1954.
+Carrillo, A.J., Serrano, D.P., Pizarro, P., Coronado, J.M., 2016b. Understanding redox
+kinetics of iron-doped manganese oxides for high temperature thermochemical
+energy storage. J. Phys. Chem. C 120, 27800–27812.
+Clayton, C.K., Sohn, H.Y., Whitty, K.J., 2014. Oxidation kinetics of Cu2O in oxygen
+carriers for chemical looping with oxygen uncoupling. Ind. Eng. Chem. Res. 53,
+2976–2986.
+Crum, J.V., Riley, B.J., Vienna, J.D., 2009. Binary phase diagram of the manganese
+oxide–iron oxide system. J. Am. Ceram. Soc. 92, 2378–2384.
+Friedman, H.L., 1964. Kinetics of thermal degradation of char-forming plastics from
+thermogravimetry. Application to a phenolic plastic. J. Polym. Sci. Part C: Polym.
+Symp. 6, 183–195.
+Galwey, A., Brown, M., 1999. Thermal Decomposition of Ionic Solids, ﬁrst ed.,
+Elsevier Science B.V, Amsterdam.
+Gotor, F.J., Criado, J.M., Malek, J., Koga, N., 2000. Kinetic analysis of solid-state
+reactions: the universality of master plots for analyzing isothermal and
+nonisothermal experiments. J. Phys. Chem. A 104, 10777–10782.
+Hemminger, W.F., Cammenga, H.K., 1989. Methoden der Thermischen Analyse.
+Springer-Verlag, Heidelberg.
+Ho, C.K., 2017. Advances in central receivers for concentrating solar applications.
+Sol. Energy. http://dx.doi.org/10.1016/j.solener.2017.03.048 (in press, corrected
+proof).
+Höhne, G.W.H., Cammenga, H.K., Eysel, W., Gmelin, E., Hemminger, W., 1990. The
+temperature calibration of scanning calorimeters. Thermochim. Acta 160, 1–12.
+Kjellqvist, L., Selleby, M., 2010. Thermodynamic assessment of the Fe-Mn-O system.
+J. Phase Equilibr. Diffus. 31, 113–134.
+Liu, M., Steven Tay, N.H., Bell, S., Belusko, M., Jacob, R., Will, G., Saman, W., Bruno, F.,
+2016. Review on concentrating solar power plants and new developments in
+high temperature thermal energy storage technologies. Renew. Sustain. Energy
+Rev. 53, 1411–1432.
+Muan, A., Somiya, S., 1962. The system iron oxide-manganese oxide in air. Am. J. Sci.
+260, 230–240.
+Muroyama, A.P., Schrader, A.J., Loutzenhiser, P.G., 2015. Solar electricity via an Air
+Brayton cycle with an integrated two-step thermochemical cycle for heat
+storage based on Co3O4/CoO redox reactions II: Kinetic analyses. Sol. Energy
+122, 409–418.
+Pardo, P., Deydier, A., Anxionnaz-Minvielle, Z., Rougé, S., Cabassud, M., Cognet, P.,
+2014. A review on high temperature thermochemical heat energy storage.
+Renew. Sustain. Energy Rev. 32, 591–610.
+Pfenninger, S., Gauche, P., Lilliestam, J., Damerau, K., Wagner, F., Patt, A., 2014.
+Potential for concentrating solar power to provide baseload and dispatchable
+power. Nat. Clim. Change 4, 689–692.
+Ron, M., 1999. The normalized pressure dependence method for the evaluation of
+kinetic rates of metal hydride formation/decomposition. J. Alloys Compd. 283,
+178–191.
+Rydén, M., Leion, H., Mattisson, T., Lyngfelt, A., 2014. Combined oxides as oxygen-
+carrier material for chemical-looping with oxygen uncoupling. Appl. Energy
+113, 1924–1932.
+484
+M. Wokon et al. / Solar Energy 153 (2017) 471–485
+
+
+===== Page 15 =====
+
+Schaube, F., Koch, L., Wörner, A., Müller-Steinhagen, H., 2012. A thermodynamic and
+kinetic
+study
+of
+the
+de-
+and
+rehydration
+of
+Ca(OH)2
+at
+high
+H2O
+partial pressures for thermo-chemical heat storage. Thermochim. Acta 538, 9–
+20.
+Shao, H., Nagel, T., Roßkopf, C., Linder, M., Wörner, A., Kolditz, O., 2013. Non-
+equilibrium thermo-chemical heat storage in porous media: Part 2 – a 1D
+computational model for a calcium hydroxide reaction system. Energy 60, 271–
+282.
+Shulman, A., Cleverstam, E., Mattisson, T., Lyngfelt, A., 2009. Manganese/iron,
+manganese/nickel, and manganese/silicon oxides used in chemical-looping
+with oxygen uncoupling (CLOU) for combustion of methane. Energy Fuels 23,
+5269–5275.
+Ströhle, S., Haselbacher, A., Jovanovic, Z.R., Steinfeld, A., 2016. The effect of the gas-
+solid contacting pattern in a high-temperature thermochemical energy storage
+on the performance of a concentrated solar power plant. Energy Environ. Sci. 9,
+1375–1389.
+Vyazovkin, S., Burnham, A.K., Criado, J.M., Pérez-Maqueda, L.A., Popescu, C.,
+Sbirrazzuoli,
+N.,
+2011.
+ICTAC
+Kinetics
+Committee
+recommendations
+for
+performing kinetic computations on thermal analysis data. Thermochim. Acta
+520, 1–19.
+Vyazovkin, S., Chrissaﬁs, K., Di Lorenzo, M.L., Koga, N., Pijolat, M., Roduit, B.,
+Sbirrazzuoli, N., Suñol, J.J., 2014. ICTAC Kinetics Committee recommendations
+for collecting experimental thermal analysis data for kinetic computations.
+Thermochim. Acta 590, 1–23.
+Weiland, R., 2002. Untersuchung zur Thermodynamik oxidischer Lösungsphasen im
+System Co-Fe-Mn-O Dissertation. Faculty of Chemistry, University of Stuttgart,
+Stuttgart.
+Wentworth, W.E., Chen, E., 1976. Simple thermal decomposition reactions for
+storage of solar thermal energy. Sol. Energy 18, 205–214.
+Wickham, D.G., 1969. The chemical composition of spinels in the system Fe3O4-
+Mn3O4. J. Inorg. Nucl. Chem. 31, 313–320.
+Wong, B., 2011. Thermochemical heat storage for concentrated solar power: Phase
+II Final Report GA-C27137 prepared for the U.S. Department of Energy. General
+Atomics, San Diego, CA, USA.
+Wong, B., Brown, L., Schaube, F., Tamme, R., Sattler, C., Oxide based thermochemical
+heat storage, 16th SolarPACES Conference, Perpignan, France, 2010.
+Zanganeh, G., Pedretti, A., Zavattoni, S., Barbato, M., Steinfeld, A., 2012. Packed-bed
+thermal storage for concentrated solar power – pilot-scale demonstration and
+industrial-scale design. Sol. Energy 86, 3084–3098.
+Zunft, S., Hänel, M., Krüger, M., Dreißigacker, V., Göhring, F., Wahl, E., 2011. Jülich
+solar power tower – experimental evaluation of the storage subsystem and
+performance calculation. J. Sol.Energy Eng. 133, 031019-1–031019-5.
+M. Wokon et al. / Solar Energy 153 (2017) 471–485
+485

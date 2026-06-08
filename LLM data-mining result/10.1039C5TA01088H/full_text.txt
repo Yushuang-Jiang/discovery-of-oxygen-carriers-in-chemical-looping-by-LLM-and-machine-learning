@@ -1,0 +1,638 @@
+
+
+===== Page 1 =====
+
+CuO promoted Mn2O3-based materials for solid
+fuel combustion with inherent CO2 capture†
+D. Hosseini,a Q. Imtiaz,a P. M. Abdala,a S. Yoon,b A. M. Kierzkowska,a A. Weidenkaﬀc
+and C. R. M¨uller*a
+We experimentally demonstrate the promising redox and oxygen release characteristics of a novel
+bimetallic Cu–Mn oxygen carrier for chemical-looping with oxygen uncoupling (CLOU) based CO2
+capture. The new material was prepared via a co-precipitation technique and showed a higher oxygen
+partial pressure than pure CuO and a higher oxygen carrying capacity than Mn2O3, thus, synergistically
+combining the advantages of the individual metal oxides. The promising CLOU characteristics of the new
+material were demonstrated further by combusting charcoal fully in a ﬂuidized bed and producing a
+pure stream of CO2.
+Introduction
+According to the Intergovernmental Panel on Climate Change
+(IPCC), the implementation of carbon dioxide capture and
+storage (CCS) technologies could reduce the total global,
+anthropogenic
+CO2
+emissions
+by
+approximately
+20%.1–3
+However, the rst generation CO2 capture technology i.e. amine
+scrubbing is possibly prohibitively expensive.4 Nonetheless,
+emerging second and third-generation CCS technologies such
+as calcium looping and chemical looping combustion (CLC)
+have the potential to reduce substantially the costs of CO2
+capture.5,7 In CLC oxygen is transferred from air to a hydro-
+carbonaceous fuel via a solid oxygen carrier, typically a transi-
+tion metal oxide (MexOy).6 In the so-called fuel reactor, the fuel
+is oxidised and the oxygen carrier is reduced. The oﬀ-gas of the
+fuel reactor comprises a mixture of CO2 and H2O (reaction (1)):
+CnH2m + (2n + m)MexOy / nCO2 + mH2O
++ (2n + m)MexO(y1)
+(1)
+Aer the condensation of steam, a pure stream of CO2 is
+obtained. To close the redox cycle, the reduced oxygen carrier is
+re-oxidized with air (reaction (2)):
+MexO(y2) + O2 / MexOy
+(2)
+Initially CLC was considered for gaseous fuels only.7
+However, since coal is substantially more carbon dioxide
+intensive than methane, substantial research eﬀorts have been
+directed towards the development of CLC schemes that allow
+the use of solid fuels.
+Here, one possible process option is the prior gasication of the
+solid fuel to yield a synthesis gas.8,9 However, gasication is a
+comparatively slow process since the main gasication products
+act as poisons to the gasication reaction.10 An alternative strategy
+is chemical-looping with oxygen uncoupling (CLOU).11 Here,
+molecular oxygen is released from the lattice of an oxygen carrier.
+The combustion reaction of the solid fuel with the molecular
+oxygen released is very fast when compared to the gasication
+reaction. Conceptually, CLOU is similar to the CLC process, but
+involves three steps. In the rst step, molecular oxygen is released
+via the decomposition of the oxygen carrier according to
+MexOy / MexO(y2) + O2
+(3)
+Subsequently, the solid fuel reacts with the oxygen released
+to produce, aer the condensation of steam, a pure stream of
+CO2:
+CnH2m + (n + m/2)O2 / nCO2 + mH2O
+(4)
+Finally, the oxygen carrier is transferred back to its initial
+oxidation state by using air (reaction (2)). However, the addi-
+tional requirement to release molecular oxygen at typical
+operating temperatures reduces the number of suitable oxygen
+carriers for CLOU. An appropriate oxygen carrier for CLOU must
+possess the following characteristics: (i) a high oxygen carrying
+capacity, (ii) suﬃciently high oxygen partial pressure at typical
+operating temperatures (800–1100 C), (iii) thermal stability and
+(iv) fast decomposition kinetics. In addition, resistance to
+attrition and agglomeration, cost and environmental impact
+aLaboratory of Energy Science and Engineering, ETH Z¨urich, Leonhardstrasse 21, 8092,
+Z¨urich, Switzerland. E-mail: muelchri@ethz.ch
+bLaboratory for Energy Conversion Materials, Empa-Swiss Federal Laboratories for
+Materials
+Science
+and
+Technology,
+Ueberlandstrasse
+129,
+8600,
+D¨ubendorf,
+Switzerland
+cInstitute for Materials Science, University of Stuttgart, Heisenbergstrasse 3, 70569,
+Stuttgart, Germany
+† Electronic
+supplementary
+information
+(ESI)
+available.
+See
+DOI:
+10.1039/c5ta01088h
+Cite this: J. Mater. Chem. A, 2015, 3,
+10545
+Received 9th February 2015
+Accepted 10th April 2015
+DOI: 10.1039/c5ta01088h
+www.rsc.org/MaterialsA
+This journal is © The Royal Society of Chemistry 2015
+J. Mater. Chem. A, 2015, 3, 10545–10550 | 10545
+Journal of
+Materials Chemistry A
+PAPER
+Published on 13 April 2015. Downloaded by UNIVERSITY OF NEW ORLEANS on 30/05/2015 11:30:01. 
+View Article Online
+View Journal | View Issue
+
+
+===== Page 2 =====
+
+have to be considered. With regard to equilibrium thermody-
+namics CuO and Mn2O3 are arguably the most attractive oxygen
+carriers for CLOU.12 However, both materials have some draw-
+backs. In the case of pure CuO, sintering and a comparatively
+low oxygen partial pressure at temperatures below 900
+C
+(Fig. 1) are the main disadvantages. The Mn2O3/Mn3O4 system
+has a low oxygen carrying capacity when compared to CuO/
+Cu2O (0.03 g O2/g for Mn2O3 versus 0.1 g O2/g for CuO),12 but, on
+the other hand, a comparatively high partial pressure of O2.
+A successful strategy to reduce particle growth and agglom-
+eration due to sintering has been the stabilization of the active
+metal by a high Tammann temperature support such as Al2O3,
+TiO2, SiO2, MgO or ZrO2.13–17 Additionally, to further improve
+the performance of the oxygen carriers the use of bimetallic
+materials has been proposed.18 For example, Azad et al.19
+studied the oxygen uncoupling characteristics of CuxMn3xO4
+(0.1 # x # 2.5) in a uidized bed (temperature range 800–850 C)
+using CH4 as a fuel. The oxygen carriers were prepared by
+physically mixing the metal oxides, followed by extrusion. The
+materials developed showed a high reactivity with CH4 and,
+irrespective of the value of x, no agglomeration was observed.
+However, the cyclic stability of the new materials was not
+assessed. In a subsequent study, Mohammad Pour et al.20
+reported the CLOU properties of Cu–Mn oxides prepared by
+freeze granulation. The synthesized oxygen carriers released O2
+at 750 C. However, again the cyclic stability of the materials was
+not investigated. Generally, physical synthesis methods such as
+mechanical mixing or freeze granulation do not allow the mix-
+ing of the active components on a molecular or atomic level,
+thus typically resulting in materials that show poor resistance
+towards sintering when tested over repeated redox cycles.17 On
+the other hand, wet-chemical synthesis approaches such as co-
+precipitation could improve the level of mixing between the
+active compound(s) and the support. For example, Imtiaz
+et al.21,22 reported the synthesis of MgAl2O4- or Al2O3-stabilized,
+Cu-rich oxygen carriers by using a co-precipitation technique.
+The oxygen carriers developed possessed excellent mechanical
+properties and a stable redox performance over multiple cycles.
+In this work we report the development of bimetallic copper–
+manganese oxygen carriers for CLOU with the aim to overcome
+the drawbacks of the individual metal oxides. The inuence of
+the ratio of Cu to Mn on the cyclic redox performance and oxygen
+uncoupling capacity was systematically studied over multiple
+cycles. The oxygen carriers were characterized in detail to quan-
+tify the synergistic eﬀect of combining Cu and Mn, i.e. the release
+of a large quantity of molecular oxygen at a comparatively low
+temperature. We also demonstrate the excellent CLOU capability
+of the novel materials under practically relevant conditions, i.e. in
+a uidized bed at 800 C using a solid fuel viz. charcoal (Fig. S1†).
+The details of the synthesis procedure, the characterization tools
+used and the experimental set-up of the chemical-looping
+experiments are provided in ESI.†
+Results and discussion
+X-ray diﬀraction (XRD) measurements were performed to
+determine the composition of the calcined oxygen carriers
+(Fig. S2†). In all oxygen carriers that contained both Cu and Mn,
+a spinel phase (CuMn2O4) was observed. Depending on the
+mass ratio of Cu to Mn, also CuO or Mn3O4 were identied. For
+example, the X-ray diﬀractograms of 75Cu–25Mn and 50Cu–
+50Mn revealed the presence of CuO and CuMn2O4. The oxygen
+carrier with a ratio of CuO to Mn2O3 of 25 : 75 wt% contained
+Mn3O4 and CuMn2O4.
+The surface morphology of the calcined oxygen carriers was
+characterized by scanning electron microscopy (SEM, Fig. 2). Pure
+CuO (Fig. 2(A)) is irregularly shaped with very few faceted surfaces.
+On the other hand, pure Mn2O3 (Fig. 2(F)) is composed of
+agglomerated nanoparticles with an average size of 230  30 nm.
+As seen in Fig. 2(B–E), the surface of CuMn2O4 containing oxygen
+carriers is composed of cuboidal or polyhedral structures. The
+sharpness of the edges of the polyhedron seems to be highest for
+the Mn- and Cu richest materials. Furthermore, the surface
+morphology of 34Cu–66Mn, i.e. the oxygen carrier that is almost
+pure CuMn2O4, was found to be similar to that of CuO. These
+observations indicate that the surface morphology of the spinel
+phase is aﬀected by excess CuO or Mn3O4. In general, the micro-
+graphs of Cu containing materials show a comparatively dense
+Fig. 1
+Equilibrium oxygen partial pressure as a function of tempera-
+ture, (——) Mn2O3, (C) CuMn2O4, (———) CuO and (.) CuAl2O4. The
+thermodynamic data for the pure metal oxides, i.e. CuO and Mn2O3,
+CuMn2O4 and CuAl2O4 were taken from Barin and Knacke,23 Schenck
+and Kurzen24 and Jacob and Alcock25 respectively.
+Fig. 2
+SEM images of the calcined oxygen carriers: (A) CuO, (B) 75Cu–
+25Mn, (C) 50Cu–50Mn, (D) 34Cu–66Mn, (E) 25Cu–75Mn, (F) Mn2O3.
+The scale bar is 2 mm.
+10546 | J. Mater. Chem. A, 2015, 3, 10545–10550
+This journal is © The Royal Society of Chemistry 2015
+Journal of Materials Chemistry A
+Paper
+Published on 13 April 2015. Downloaded by UNIVERSITY OF NEW ORLEANS on 30/05/2015 11:30:01. 
+View Article Online
+
+
+===== Page 3 =====
+
+surface structure with very little porosity. This is possibly due to
+rapid grain growth at high calcination temperatures (900 C).
+H2-temperature programmed reduction (TPR) experiments
+were carried out to investigate the eﬀect of the ratio of Cu to Mn
+on the reducibility of the materials (Fig. 3). The quantities of H2
+consumed, as calculated from the H2-TPR experiments, are
+summarized in Table S1.† Pure CuO has a broad, single H2
+consumption peak centred at 335 C. On the other hand, the
+reduction of Mn2O3 occurred in two main steps: rst Mn2O3 is
+reduced to Mn3O4 at 370 C followed by the reduction of
+Mn3O4 to MnO at 455 C. This two-step reduction mechanism
+is in good agreement with a previous report.26 The XRD
+measurements of reduced Mn2O3 conrms the presence of
+MnO. Furthermore, the total quantity of H2 consumed was
+12.3 mmol g1 and 6.25 mmol g1 for CuO and Mn2O3,
+respectively. These values are very close to the theoretically
+expected values of, respectively, 12.5 mmol g1 and 6.3 mmol
+g1. From Fig. 3 it is clear that in the bimetallic oxygen carriers
+the reduction characteristics of the pure phases were altered.
+Importantly, the reduction of the bimetallic oxygen carriers
+started at signicantly lower temperatures when compared to
+the pure CuO and pure Mn2O3 phases. This observation could
+be explained by the fact that CuMn2O4 contains Mn4+ which is
+reduced at a lower temperature than Mn3+.27,28 Deconvolution of
+the overlapping peaks in the H2-TPR proles of the bimetallic
+oxygen carriers revealed the presence of two reduction steps.
+Reduction at the lower temperature (290 C) is attributed to
+the reduction of Cu2+. On the other hand, the peak at 320 C is
+due to the reduction of Mn3+ and Mn4+ to Mn2+. XRD
+measurements of the reduced bimetallic materials revealed
+only the presence of metallic copper and MnO (Fig. S3†). Fig. 3
+also conrms that an increasing Mn content in the bimetallic
+oxygen carriers shis the reduction temperature of manganese
+oxide to lower temperatures. Furthermore, the H2 consumption
+decreases with an increasing Mn content. The total H2
+consumption of bimetallic Cu–Mn is higher than the theoreti-
+cally expected value, most likely due to the presence of Mn4+ in
+the spinel as conrmed subsequently by X-ray absorption
+spectroscopy. The theoretical H2 consumption was calculated
+using the given Cu to Mn ratio and assuming a reduction of
+Mn2O3 to MnO and CuO to Cu.
+To investigate the oxidation states of Cu and Mn in the spinel
+system, near edge X-ray absorption spectroscopy (XANES)
+studies were performed at the Cu and Mn K-edges. In order to
+study the Cu oxidation state in the spinel, an oxygen carrier
+without CuO phase was selected. Similarly, for the Mn oxidation
+state an oxygen carrier without excess of Mn3O4 phase was
+chosen. This is based on the information extracted from the
+XRD data shown in Fig. S2.† Fig. 4 (Top) shows the Cu K-edge
+XANES spectra of 25Cu–75Mn and the references CuO and
+Cu2O. The edge position of the spinel is close to CuO, indicating
+an oxidation state close to Cu2+. Fig. 4 (Bottom) shows the Mn K-
+edge XANES spectra of 50Cu–50Mn and the references MnO,
+Mn3O4, Mn2O3 and MnO2. The edge in the bimetallic sample
+lies between those of MnO2 and Mn2O3, suggesting an average
+valence state between Mn3+ and Mn4+ in the oxygen carrier.
+To study the eﬀect of the ratio of Cu to Mn on the decom-
+position characteristics, temperature programmed decomposi-
+tion (TPD) experiments were performed. In Fig. 5, the
+normalized mass loss is plotted as a function of temperature.
+Fig. 5 shows that pure CuO decomposes in a single step (in the
+temperature range 770–970
+C) to Cu2O. The single step
+decomposition of Mn2O3 to Mn3O4 occurred, as expected from
+equilibrium thermodynamics, at much lower temperatures, viz.
+in the temperature range 730–850 C. Furthermore, the TPD
+Fig. 3
+H2-TPR proﬁles of the calcined oxygen carriers.
+Fig. 4
+Top: Cu K-edge XANES data of 25Cu–75Mn, CuO and Cu2O.
+Bottom: Mn K-edge XANES of 50Cu–50Mn, MnO2 and Mn2O3.
+This journal is © The Royal Society of Chemistry 2015
+J. Mater. Chem. A, 2015, 3, 10545–10550 | 10547
+Paper
+Journal of Materials Chemistry A
+Published on 13 April 2015. Downloaded by UNIVERSITY OF NEW ORLEANS on 30/05/2015 11:30:01. 
+View Article Online
+
+
+===== Page 4 =====
+
+experiments also reveal a single-step decomposition mecha-
+nism for 25Cu–75Mn and 34Cu–66Mn according to:
+3CuMn2O4 / 3CuMnO2 + Mn3O4 + O2
+(5)
+As conrmed by XRD (Fig. S2†), 25Cu–75Mn contains
+CuMn2O4 spinel and Mn3O4. It should be noted that the
+conditions used in the TPD experiments do not allow the
+decomposition of Mn3O4 to MnO. Thus, a single decomposition
+step is observed for CuMn2O4 (decomposition to CuMnO2).
+Increasing the CuO content above 50 wt% in the oxygen carrier
+resulted in a two-step decomposition mechanism (Fig. 5). XRD
+measurements of partially and fully decomposed 50Cu–50Mn
+and 75Cu–25Mn conrm that in the rst step CuMn2O4 is
+decomposed to CuMnO2 and in the second step excess CuO
+decomposes to Cu2O. Thus, the overall decomposition reaction
+for Cu-rich oxygen carriers can be written as:
+CuMn2O4 + 3CuO / 2CuMnO2 + Cu2O + O2
+(6)
+As shown in the inset of Fig. 5 the decomposition of the
+bimetallic oxygen carriers started at 650
+C. Thus, the
+decomposition of the bimetallic oxygen carriers occurs at a
+lower temperature when compared to the pure oxides, i.e. CuO
+and Mn2O3. Importantly, combining the oxides of Mn and Cu
+also increased the quantity of oxygen released compared to pure
+Mn2O3. Hence, the new bimetallic materials possess very
+promising CLOU characteristics. The oxygen release capacity
+and the decomposition temperature of the synthesized oxygen
+carriers are summarized in Table 1.
+Equilibrium thermodynamic calculations show that the
+equilibrium O2 partial pressure of CuMn2O4 is higher than that
+of CuO (Fig. 1). In order to determine the equilibrium O2 partial
+pressure of the diﬀerent bimetallic oxygen carriers, the
+decomposition reaction was conducted in a packed bed reactor
+in a N2 atmosphere. Fig. S4† plots the O2 partial pressure at 800 C
+for the synthesized bimetallic oxygen carriers, pure Mn3O4 and
+the state-of-the-art reference material CuAl (the CuAl oxygen
+carrier contained 70 wt% CuO and 30 wt% Al2O3). Under the
+conditions studied here, Mn3O4 could not be decomposed to
+MnO. From Fig. 1 it is expected that at 800 C CuO has a very low
+oxygen partial pressure. This is conrmed by the low oxygen
+partial pressure of CuAl (Fig. S4†). All bimetallic oxygen carriers
+showed very high O2 partial pressures that substantially excee-
+ded the values of the references CuAl and Mn3O4.
+The cyclic oxygen uncoupling capacity of the bimetallic oxygen
+carriers was evaluated in a TGA at 850 C. The oxygen carriers
+were subjected to ten CLOU cycles. The amount of O2 released is
+plotted in Fig. S5(a).† The oxygen carrier 75Cu–25Mn possessed a
+high but continuously decreasing O2 carrying capacity. This
+observation could be explained by a decreasing decomposition
+rate with cycle number. Fig. S5(b)† shows that within the xed
+decomposition time chosen (75 min), 75Cu–25Mn decomposes
+completely in the 2nd CLOU cycle, but incompletely in the 10th
+CLOU cycle. The decreasing decomposition rate is most likely
+due to sintering and agglomeration decreasing the eﬀective
+surface area and porosity of the material (Fig. S5(c)†). Similarly,
+50Cu–50Mn also showed a gradual, albeit much slower, decay in
+the oxygen uncoupling capacity with cycle number. For Cu-rich
+oxygen carriers, the decay in the cyclic oxygen release was found
+to decrease with decreasing CuO content. This is in agreement
+with the TPD measurements (Fig. 5), which show that the oxygen
+carriers with a lower CuO content possess faster apparent
+decomposition rates. The CLOU performance of 34Cu–66Mn
+showed a 12% decrease in the quantity of oxygen released as
+determined over the ten cycle experiment. On the other hand,
+25Cu–75Mn possessed a stable oxygen release capacity over the
+10 CLOU cycles tested. The experimentally determined cyclic
+oxygen release, viz. 1.4 mmol g1 oxygen carrier was close to its
+theoretically expected value of 1.53 mmol g1 oxygen carrier.
+To assess the attrition resistance of the oxygen carriers
+synthesized, additional CLOU experiments were performed in a
+uidised bed at 850 C and 950 C. The decomposition reaction
+was performed in a N2 atmosphere, whereas a mixture of 10.5
+vol% O2 and 89.5 vol% N2 was used for re-oxidation. Fig. 6 plots
+the cyclic O2 release of the bimetallic oxygen carriers at 850 and
+950 C. The oxygen carrier 75Cu–25Mn shows a low cyclic O2
+release at 850 C. This is due to the fact that the CuO–Cu2O
+couple has a low equilibrium oxygen partial pressure at 850 C.
+Thus, the O2 released is predominantly due to the decomposi-
+tion of the spinel phase that is, however, only present in a
+comparatively small quantity in 75Cu–25Mn. Furthermore,
+Fig. 5
+TPD proﬁles of the calcined oxygen carriers in N2: (a) Mn2O3, (b)
+25Cu–75Mn, (c) 34Cu–66Mn, (d) 50Cu–50Mn, (e) 75Cu–25Mn, (f) CuO.
+Table
+1
+Quantity
+of
+oxygen
+released
+and
+the
+decomposition
+temperature as determined from the acquired TPD proﬁles
+Oxygen carrier
+Decomposition
+temperature
+range (C)
+Oxygen release capacity
+(g O2/g oxygen carrier)
+Starta
+Endb
+CuO
+785
+970
+0.097
+75Cu–25Mn
+660
+950
+0.085
+50Cu–50Mn
+630
+995
+0.064
+34Cu–66Mn
+665
+1025
+0.051
+25Cu–75Mn
+655
+1010
+0.045
+Mn2O3
+720
+930
+0.034
+a Dened as a 1% weight change. b Dened as a 98% weight change.
+10548 | J. Mater. Chem. A, 2015, 3, 10545–10550
+This journal is © The Royal Society of Chemistry 2015
+Journal of Materials Chemistry A
+Paper
+Published on 13 April 2015. Downloaded by UNIVERSITY OF NEW ORLEANS on 30/05/2015 11:30:01. 
+View Article Online
+
+
+===== Page 5 =====
+
+75Cu–25Mn exhibits a high, but continuously decreasing
+oxygen release at 950 C. The decreasing quantity of oxygen
+released is due to sintering and/or agglomeration. At 850 C
+50Cu–50Mn also shows a continuously decreasing oxygen
+release over the rst 10 cycles. Despite its stable oxygen release
+over the second 10 cycles, 50Cu–50Mn shows again a decrease
+over the last 5 cycles.
+To understand better the origin of the decreasing oxygen
+release, oxidised 50Cu–50Mn that has undergone 25 redox
+cycles was analysed further by SEM (Fig. S6†). The sintering of
+individual particles can be clearly observed. On the other hand,
+50Cu–50Mn possessed a stable O2 release when tested at 950 C.
+However, the quantity of oxygen released was 60% lower than
+the theoretically expected value of 2.1 mmol g1 oxygen carrier.
+A possible explanation for the low oxygen release capacity is a
+rapid decrease in surface area owing to sintering under the
+operating conditions studied here (uidised bed at 950 C). A
+similar observation was made for 34Cu–66Mn (Fig. 6(b)). The
+oxygen carrier 34Cu–66Mn releases only 18% of the theoreti-
+cally expected quantity of 1.67 mmol g1 oxygen carrier at 950 C.
+At 850 C, the quantity of O2 released by 34Cu–66Mn continu-
+ously decreased with cycle number owing to sintering and
+agglomeration. For Al2O3-stabilised Cu (CuAl), the quantity of
+O2 released started to decrease aer 15 cycles. Under the
+conditions studied, the decomposition of CuAl2O4 is not fully
+reversible22 resulting in a lower quantity of oxygen released than
+the theoretically expected value of 2.2 mmol g1. A very stable
+cyclic oxygen release, and close to the theoretically expected
+value of 1.53 mmol g1, was observed for 25Cu–75Mn (both at
+850 C and 950 C). The oxygen carrier 25Cu–75Mn contains
+CuMn2O4 and excess Mn3O4. Furthermore, no agglomeration
+was observed during the 25-cycle experiment. A size analysis of
+cycled 25Cu–75Mn (1 g) detected only a small quantity (15 mg)
+of particles with dp < 300 mm, indicative a high attrition resis-
+tance of the material. The stable O2 release of 25Cu–75Mn is
+attributed to the presence of excess Mn3O4 (subsequently
+conrmed via in situ XRD) which has a high Tammann
+temperature (644 C) when compared to Mn2O3 (334 C) and
+CuO (526 C). Thus, excess Mn3O4 in 25Cu–75Mn eﬀectively
+stabilized CuMn2O4 against sintering and agglomeration.
+To investigate the phase changes occurring during decom-
+position and re-oxidation, in situ XRD measurements were
+performed over three CLOU cycles at 850 C. The X-ray dif-
+fractograms of Mn-rich (25Cu–75Mn) and Cu-rich (50Cu–50Mn)
+oxygen carriers are given in Fig. 7(a) and (b), respectively. Fig. 7
+shows that independent of the Cu to Mn ratio, the spinel
+CuMn2O4 decomposed to CuMnO2. In situ XRD also conrms
+that the excess phase in 50Cu–50Mn, i.e. CuO, is reversibly
+decomposed to Cu2O (Fig. 5(b)), whereas in 25Cu–75Mn
+(Fig. 7(a)) the excess phase, i.e. Mn3O4, is not decomposed
+under the conditions studied here. The stable CLOU charac-
+teristics of 25Cu–75Mn are attributed to the presence of high
+Tammann temperature Mn3O4 in both the decomposed and
+oxidized oxygen carriers.
+Based on the TGA and uidised bed experiments, 25Cu–
+75Mn was chosen as the most promising oxygen carrier to be
+assessed further in a CLOU experiment using a solid fuel. In a
+uidized bed, 10 CLOU cycles using charcoal as a fuel were
+performed at 800 C. The concentration proles of O2 and CO2
+in the oﬀ-gas of the uidized bed are plotted in Fig. 8. Fig. 8(a)
+convincingly demonstrates that 25Cu–75Mn fully combusts the
+charcoal added. Indeed, no CO2 could be detected in the re-
+oxidation step which conrms that the fuel was completely
+burnt by the molecular oxygen released by the oxygen carrier.
+During combustion the concentration of CO was below the
+detection limit of the analyser (0.01 vol% CO). The decompo-
+sition kinetics were fast, as demonstrated by the fact that the
+combustion was completed within 5 min. Furthermore, no
+agglomeration was observed aer the 10-cycle experiment. On
+the other hand, Fig. 8(b) shows that the charcoal added to a bed
+Fig. 6
+Cyclic CLOU characteristics of the oxygen carriers synthesized
+as determined in a ﬂuidised bed at (a) 850 C and (b) 950 C. The
+theoretically expected values for Mn3O4, 25Cu–75Mn, 34Cu–66Mn,
+50Cu–50Mn, 75Cu–25Mn, CuO and CuAl are 0, 1.53, 1.67, 2.1, 2.6, 3.14
+and 2.20 mmol g1, respectively.
+Fig. 7
+In situ XRD of (a) 25Cu–75Mn and (b) 50Cu–50Mn: (-)
+CuMn2O4, (:) CuMnO2, (C) Mn3O4, (B) CuO, (+) Cu2O. The blue line
+and red line correspond to air and N2, respectively.
+This journal is © The Royal Society of Chemistry 2015
+J. Mater. Chem. A, 2015, 3, 10545–10550 | 10549
+Paper
+Journal of Materials Chemistry A
+Published on 13 April 2015. Downloaded by UNIVERSITY OF NEW ORLEANS on 30/05/2015 11:30:01. 
+View Article Online
+
+
+===== Page 6 =====
+
+of CuAl was not fully burnt, not even aer 10 min. This is
+conrmed by the detection of CO2 in the re-oxidation step.
+Conclusions
+In this study bimetallic Cu–Mn oxygen carries were synthesized
+via a co-precipitation technique. Using XANES we could conrm
+experimentally the presence of Cu2+ and Mn4+ in the spinel
+system. TPD and H2-TPR conrm that the bimetallic oxygen
+carriers possess improved decomposition and redox character-
+istics when compared to the individual metal oxides. However,
+cyclic CLOU experiments revealed that Cu-rich oxygen carriers
+have a high but continuously decreasing oxygen release due to
+the slow (and decreasing) decomposition kinetics of CuO. On the
+other hand, the formation of a spinel markedly enhanced the O2
+equilibrium partial pressure at 800 C when compared to pure
+CuO. Fluidised bed experiments revealed a cyclically stable
+oxygen release over 25 cycles for 25Cu–75Mn, an oxygen carrier
+that contains CuMn2O4 and Mn3O4. Finally, it was demonstrated
+that the best bimetallic oxygen carrier synthesized (25Cu–75Mn)
+is able to fully oxy-combust a solid fuel at 800 C over 10 CLOU
+cycles. The oxygen carrier 25Cu–75Mn possessed a high resis-
+tance to agglomeration, a high oxygen carrying capacity, a high
+solid fuel conversion rate and a high cyclic oxygen release over
+multiple cycles when compared to the individual metal oxides.
+These favorable characteristics make the newly developed
+bimetallic Cu–Mn oxygen carrier a promising material for CLOU.
+Acknowledgements
+We are grateful to the Swiss national science foundation (SNF)
+for nancial support (Project IZERZ0_141976/1). We also thank
+Mrs Lydia Zender for her help with the XRD analysis, and
+Scientic Center for Optical and Electron Microscopy (ScopeM)
+at ETH Zurich for providing access to and training on scanning
+electron microscopes. The Swiss–Norwegian Beamline (ESRF,
+Grenoble, France) is gratefully acknowledged for the provision
+of beamtime at the synchrotron.
+References
+1 IPCC, Special report on Carbon Dioxide Capture and Storage,
+2005, http://www.ipcc.ch.
+2 K. Yu, I. Curcic, J. Gabriel and S. Tsang, ChemSusChem, 2008,
+1, 893–899.
+3 R. S. Haszeldine, Science, 2009, 325, 1647–1652.
+4 N. MacDowell, N. Florin, A. Buchard, J. Hallett, A. Galindo,
+G. Jackson, et al., Energy Environ. Sci., 2010, 3, 1645–1669.
+5 A. M. Kierzkowska and C. R. M¨uller, Energy Environ. Sci.,
+2012, 5, 6061–6065.
+6 H. J. Ritcher and K. F. Knoche, Reversibility of combustion
+processes, Eﬃciency and costing, second law analysis of
+process, ed. R. A. Gaggioli, American Chemical Society,
+Washington D.C., 1983, pp. 71–85.
+7 M. M. Hossain and H. I. de Lasa, Chem. Eng. Sci., 2008, 63,
+4433–4451.
+8 Y. Cao and W. P. Pan, Energy Fuels, 2006, 20, 57–68.
+9 H. Leion, T. Mattisson and A. Lyngfelt, Fuel, 2007, 86, 1947–
+1958.
+10 H. Leiona, T. Mattisson and A. Lyngfelt, Int. J. Greenhouse
+Gas Control, 2008, 2, 180–193.
+11 T. Mattisson, A. Lyngfelt and H. Leion, Int. J. Greenhouse Gas
+Control, 2009, 3, 11–19.
+12 J. Adanez, A. Abad, F. Garcia-Labiano, P. Gayan and L. F. de
+Diego, Prog. Energy Combust. Sci., 2012, 38, 215–282.
+13 Q. Imtiaz, A. M. Kierzkowska, M. Broda and C. R. M¨uller,
+Environ. Sci. Technol., 2012, 46, 3561–3566.
+14 G. Azimi, H. Leion, M. Ryd´en, T. Mattisson and A. Lyngfelt,
+Energy Fuels, 2013, 27, 367–377.
+15 M. Ryd´en, M. Johansson, A. Lyngfelt and T. Mattisson,
+Energy Environ. Sci., 2009, 2, 970–981.
+16 J. Adanez, L. F. Diego, F. G. Labiano, P. Gayan and P. Abad,
+Energy Fuels, 2004, 18, 371–377.
+17 Q. Imtiaz, D. Hosseini and C. R. M¨uller, Energy Technol.,
+2013, 1, 633–647.
+18 M. Ryd´en, H. Leion, T. Mattisson and A. Lyngfelt, Appl.
+Energy, 2014, 113, 1924–1932.
+19 A.-M.
+Azad,
+A.
+Hedayati,
+M.
+Ryd´en,
+H.
+Leion
+and
+T. Mattisson, Energy Technol., 2013, 1, 59–69.
+20 N. Mohammad Pour, H. Leion, M. Ryd´en and T. Mattisson,
+Energy Fuels, 2013, 27, 6031–6039.
+21 Q.
+Imtiaz,
+A.
+M.
+Kierzkowska
+and
+C.
+R.
+M¨uller,
+ChemSusChem, 2012, 5, 1610–1618.
+22 Q. Imtiaz, M. Broda and C. R. M¨uller, Appl. Energy, 2014, 119,
+557–565.
+23 I. Barin and O. Knacke, Thermochemical properties of
+inorganic substances, Springer-Verlag, Berlin, 1973.
+24 R. Schenck and F. Kurzen, Z. Anorg. Allg. Chem., 1937, 235,
+97–109.
+25 K. T. Jacob and C. B. Alcock, J. Am. Ceram. Soc., 1975, 58, 192–
+195.
+26 Y. Tanaka, T. Utaka, R. Kikuchi, T. Takeguchi, K. Sasaki and
+K. Eguchi, J. Catal., 2003, 215, 271–278.
+27 B. Gillot, S. Buguet and E. Kester, J. Mater. Chem., 1997, 7,
+2513.
+28 M. R. Morales, B. P. Barbero and L. E. Cadus, Appl. Catal., B,
+2006, 67, 229–236.
+Fig. 8
+The gas composition of the oﬀ-gas leaving the ﬂuidized bed.
+Charcoal (50 mg) was used as the solid fuel and (a) 25Cu–75Mn or (b)
+CuAl were used as the oxygen carrier at 800 C: (—) O2, (—) CO2.
+10550 | J. Mater. Chem. A, 2015, 3, 10545–10550
+This journal is © The Royal Society of Chemistry 2015
+Journal of Materials Chemistry A
+Paper
+Published on 13 April 2015. Downloaded by UNIVERSITY OF NEW ORLEANS on 30/05/2015 11:30:01. 
+View Article Online

@@ -1,0 +1,1021 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Fuel Processing Technology
+journal homepage: www.elsevier.com/locate/fuproc
+Research article
+O2 uncoupling behaviour of ilmenite and manganese-modiﬁed ilmenite as
+oxygen carriers
+Zhenkun Suna, Dennis Y. Lua,⁎, Robin W. Hughesa, Dimitrios Filippoub
+a Natural Resources Canada, CanmetENERGY-Ottawa, 1 Haanel Drive, Ottawa, Ontario K1A 1M1, Canada
+b Rio Tinto Iron & Titanium, Technology Department, 1625 route Marie-Victorin, Sorel-Tracy, Québec J3R 1M6, Canada
+A R T I C L E I N F O
+Keywords:
+Chemical looping combustion
+O2 uncoupling
+Oxygen carriers
+Ilmenite
+Manganese
+A B S T R A C T
+In this study, naturally occurring ilmenite and manganese-modiﬁed ilmenite were evaluated as oxygen carriers
+with respect to their O2 uncoupling behaviour. The eﬀects of temperature and pre-treatment on the O2 un-
+coupling properties of manganese-modiﬁed ilmenite were also investigated. The experimental results indicated
+that both calcined ilmenite and manganese-modiﬁed ilmenite were capable of releasing gas-phase O2 at certain
+temperatures with the amount of O2 released by the manganese-modiﬁed ilmenite being much more than that of
+the calcined ilmenite. When the manganese-modiﬁed ilmenite was pre-treated by subjecting it to several cycles
+of chemical looping combustion with CH4 as reductant, the Mn2O3 might react with iron species that had mi-
+grated outwardly, resulting in the formation of a ferrimanganic oxide which exhibits favourable thermo-
+dynamics for the oxidation reaction for the reduced oxygen carrier. As a result, the reduced pre-treated oxygen
+carrier could be easily re-oxidized and more O2 could be released by the pre-treated oxygen carrier during every
+uncoupling steps than that by the untreated one. More gas-phase O2 was released by the manganese-modiﬁed
+ilmenite when more redox cycles were performed during pre-treatment. The temperature of isothermal un-
+coupling-oxidation cycling showed a signiﬁcant inﬂuence on the O2 uncoupling behaviour for manganese-
+modiﬁed ilmenite. When temperatures were either higher or lower than 900 °C, less O2 was released from
+manganese-modiﬁed ilmenite. 30%-Mn2O3/ilmenite released more O2 than 15%-Mn2O3/ilmenite when the
+temperature was below 950 °C while the same amount of O2 was released when the temperature was 1000 °C.
+1. Introduction
+Chemical looping combustion (CLC) is an emerging combustion
+technology which has been gaining considerable attention over the last
+two decades due to its high-eﬃciency in converting fuels to heat with
+inherent CO2 separation [1,2]. CLC processes can be realized in dual-
+reactor systems consisting of an air reactor (AR) and a fuel reactor (FR).
+A metal oxide acting as an oxygen carrier (OC) is employed to transfer
+oxygen from the AR to the FR, thereby avoiding direct contact between
+fuel and air. As a result, CO2 and H2O are kept separated from the other
+ﬂue gas components, and the costly and energy consuming separation
+of CO2 is eliminated. For industrial applications, CLC processes depend
+on the availability of OCs with suitable chemical and physical proper-
+ties [3]. The selection of OCs with high performance is a critical part of
+developing CLC technology. A suitable OC for CLC processes should be
+highly stable under repeated redox cycles at high temperatures, re-
+sistant to attrition and agglomeration, low-cost, environmentally
+friendly, and highly reactive with the selected fuel and oxidant [3,4].
+During CLC processes, the full conversion of the fuels can be limited
+due to inadequate gas-solid contacting or due to thermodynamic limits
+related to reaction between fuels and the lattice oxygen in OCs [5,6]. As
+a result, the ﬂue gas produced from the FR will contain unconverted
+gases such as H2, CO, and CH4. The concentration of unconverted
+combustible gases in the ﬂue gas must be limited in order to meet CO2
+pipeline speciﬁcations and to avoid wasting the fuel. There are several
+approaches that can be taken to achieve complete combustion. These
+include 1) the separation of unconverted gases including H2, CO, and
+CH4 from the CO2 followed by the recirculation of these gases to the
+fuel reactor, and 2) the introduction of pure O2 downstream of the FR to
+oxidize the remaining unconverted gases (oxygen polishing) [7]. Un-
+fortunately, both of these measures are high-cost and energy-intensive
+due to the necessary gas separation unit operation. Another strategy to
+improve fuel conversion in the FR is the generation of gas-phase O2 in
+the FR during the combustion of the fuels [7]. An alternative chemical
+looping concept, chemical looping with oxygen uncoupling (CLOU),
+provides a strategy to supply gaseous O2 to the FR [8–10]. The CLOU
+approach can be regarded as an improvement of conventional CLC
+processes. The signiﬁcant diﬀerence between CLOU and conventional
+http://dx.doi.org/10.1016/j.fuproc.2017.08.025
+Received 14 June 2017; Received in revised form 17 August 2017; Accepted 18 August 2017
+⁎ Corresponding author.
+E-mail address: Dennis.Lu@canada.ca (D.Y. Lu).
+Fuel Processing Technology 169 (2018) 15–23
+Available online 20 September 2017
+0378-3820/ Crown Copyright © 2017 Published by Elsevier B.V. All rights reserved.
+MARK
+
+
+===== Page 2 =====
+
+CLC processes is the mechanisms for oxidation of fuels in the FR. CLOU
+utilizes an OC that releases gas-phase O2 under reducing conditions,
+and the fuels in the FR are oxidized by released O2 via gas-gas (for
+gaseous fuels) or gas-solid (for solid fuels) reactions. In the AR, the OC
+is reoxidized by air, which is exactly the same as in conventional CLC
+processes. It has been observed that the rate of combustion by using
+OCs with O2 uncoupling with CH4 is signiﬁcantly higher than in con-
+ventional CLC processes [3]. Thus, for a given fuel ﬁring rate, the CLC
+processes using O2-uncoupling materials require smaller solids in-
+ventory, which in turn leads to smaller fuel reactors [11].
+A series of studies has shown that oxidation and combustion of
+gaseous fuels, e.g. CH4, can proceed more completely when Fe-, Mn- or
+perovskite-based OCs exhibit an O2 uncoupling property. Kallen et al.
+[12] prepared perovskite material CaMn0.9Mg0.1O3 −δ with O2 un-
+coupling properties and examined its performance as an OC for CLC
+with CH4. They found that complete combustion of CH4 was achieved
+with an oxygen concentration in the outlet stream from the fuel reactor
+of > 1 vol%, which suggests that a substantial part of the fuel is con-
+verted by gaseous O2 released from the particles promoting the fuel
+conversion [12]. Given such high oxygen concentrations it should be
+noted that prior to CO2 transport, any remaining O2 present in the CO2
+produced by CLC systems with O2 uncoupling will need to be removed
+to a concentration less than about 10 vppm in order to meet pipeline
+speciﬁcations that are in place to avoid pipeline corrosion [13]. This
+can be done through a number of methods including cryogenic se-
+paration and catalytic combustion. Shulman et al. developed a series of
+Mn/Fe composite OCs with O2 release characteristics selected for CLC
+of CH4. They observed low CO formation during combustion which they
+attributed to O2 uncoupling from the OCs [14]. Shulman et al. [15] also
+investigated O2 uncoupling properties and reaction rates for CH4
+combustion in a ﬂuidized bed reactor with various OC particles, pro-
+duced from mixtures of Mn- and Mg-based oxides. They concluded that
+OC particles with enhanced O2 release showed superior methane
+combustion properties achieving nearly complete conversion of the
+fuel. They believed O2 uncoupling in commercial operations could fa-
+cilitate very high or complete conversion of methane-rich fuels [15].
+Although the CLOU approach largely relies on existing CLC tech-
+nology conﬁgurations, the strategy presents the need for material de-
+velopment. A suitable OC for CLOU should be thermodynamically
+capable of releasing gas-phase O2 at an appropriate temperature under
+relevant O2 partial pressures in the FR (lower than 1.0 × 10−5 atm
+when considering the O2 limit in CO2 pipelines would be required to
+avoid oxygen removal in the CO2 puriﬁcation unit), and should exhibit
+a high enough oxygen releasing capacity to eﬀectively oxidize the fuel
+gas. At the same time, the oxygen carrier's reduced form must be oxi-
+dized easily in the AR. Similar to conventional CLC processes, OCs for
+CLOU have to be mechanically stable, low-cost and environmentally
+acceptable. Thermodynamic analysis concludes that the most com-
+monly proposed OCs formed with monometallic oxides based on Fe2O3
+and NiO are incapable of releasing gas-phase O2 at typical ﬂuidized bed
+combustion (FBC) conditions [11]. OCs based on metal oxides such as
+CuO, Mn2O3, and Co3O4 with appropriate equilibrium partial pressures
+of O2 in the temperature range of 800 to 1200 °C are promising [11].
+However, Co3O4 has not been widely considered as an OC due to its
+high cost and high toxicity [11,16]. CuO and Cu2O are the most thor-
+oughly examined oxide pair for CLOU and appears to be promising
+technically, but the fairly high cost of CuO and high possibility of sin-
+tering prompt us to look for alternates [17,18]. Mn2O3 is an abundant
+and inexpensive metallic oxide with a relatively low decomposition
+temperature favouring the release of gas-phase O2. However, assuming
+that the reduced oxygen carrier is regenerated with air, the decom-
+position temperature for Mn2O3 at 876 °C imposes a relatively low
+thermodynamic maximum temperature for the AR [11,19]. In other
+words, Mn2O3 will decompose into Mn3O4 when O2 partial pressure is
+lower than or equal to 0.21 atm at atmospheric pressure. Therefore, at
+atmospheric pressure the maximum operation temperature of the AR
+would need to be lower than 876 °C in practice to achieve rapid oxi-
+dation of Mn3O4 to Mn2O3. As a result, directly using pure Mn2O3 or
+manganese ores as OCs for CLOU is unfavourable and impractical since
+excessively low AR operating temperatures result in low overall system
+eﬃciency.
+Recent studies indicate that the temperature at which Mn3O4 oxi-
+dation proceeds can be increased by combining Mn species with other
+materials such as iron, nickel, silicon, magnesium and calcium resulting
+in mixed oxides with improved thermodynamic properties [19–22]. The
+most frequently investigated combinations are Fe2O3/Mn2O3 mixed
+oxides which exhibit superior O2 uncoupling characteristics to Mn2O3
+soley during reduction. The formation of bixbyite (MnxFe1 −x)O3
+crystal phase enables the Mn species to be oxidized in the AR at high
+temperature and low oxygen partial pressure [23–25]. OCs containing
+Fe2O3/Mn2O3 mixed oxides employed in the majority of current studies
+are fully synthetic materials which show superior O2 release capacity
+and improved oxidation behaviour. However, the mechanical integrity
+and attrition resistance of these synthetic particles are often un-
+satisfactory in continuous operation, which need a carefully design on
+the preparation method to improve their performance [26–29]. From
+an economic point of view, the use of these synthetic particles in
+practice, at current stage, is likely to be cost prohibitive even if the
+attrition resistance becomes comparable to the naturally occurring
+materials. This is due to the high cost of their precursors and their
+complicated production processes; as a result, an extreme high opera-
+tional cost will be imposed even a low attrition rate is achieved. On the
+contrary, the lower cost of the naturally occurring materials can oﬀset
+this operational cost when a reasonable attrition rate is achieved.
+Therefore, we believe that looking for OCs with suitable O2 uncoupling
+behaviour based on low cost materials such as naturally occurring
+metal ores or minerals is still well worth considering.
+Iron ores (e.g. hematite, mainly composed of Fe2O3) and titaniu-
+m‑iron ores (e.g. ilmenite ore, mainly composed of FeTiO3) are two
+series of natural materials which have been extensively examined to act
+as low-cost OCs in various chemical looping processes. However, both
+pure oxides Fe2O3 and Fe2TiO5 (FeTiO3 in oxidized form) should not be
+capable of releasing gas-phase O2 during CLC-relevant temperatures
+below 1050 °C according to one thermodynamic study [30]. To enable
+O2 uncoupling to proceed with iron ore, Haider et al. immobilized
+Mn2O3 on a Canadian iron ore resulting in a composite Fe2O3/Mn2O3
+oxygen carrier [31]. They found that the impregnated iron ore ex-
+hibited signiﬁcant O2 uncoupling in an inert atmosphere and showed
+favourable oxidation kinetics in air. They concluded that the im-
+pregnated iron ore OC should facilitate eﬃcient use of fuels for CLOU
+processes.
+Ilmenite ore (titanium‑iron) has been extensively investigated as an
+OC for CLC. Ilmenite is considered a highly promising OC for chemical
+looping applications due to its desirable thermodynamic properties,
+demonstrated attrition resistance, low-cost and its potential 100%
+combustion eﬃciency [32–37]. A recent study reported by Rydén et al.
+has shown that ilmenite is capable of releasing small amounts of gas-
+phase O2 during chemical-looping combustion experiments at a tem-
+perature of ~950 °C [38]. They postulated that the reason for the O2
+release was due to the presence of small amounts of manganese in the
+sample or interactions between impurities and iron or titanium oxides
+[38]. Unfortunately, there is little else reported in the literature on the
+O2 release behaviour of titanium‑iron ore. The present research aims to
+understand the mechanism of O2 uncoupling from ilmenite and to
+promote O2 release.
+In this paper, we report on an experimental investigation in which
+an ilmenite ore was modiﬁed by manganese species via an impregnation
+method. Evaluation of this manganese-modiﬁed ilmenite at relevant
+CLC conditions was performed in a thermogravimetric analyzer (TGA).
+In this study we sought to evaluate this material's O2 uncoupling
+properties by measuring gas-phase O2 release in an inert environment
+and by determining its feasibility during oxidation in air at diﬀerent
+Z. Sun et al.
+Fuel Processing Technology 169 (2018) 15–23
+16
+
+
+===== Page 3 =====
+
+temperatures. We hypothesized that the manganese-modiﬁed ilmenite
+ore would display an improved O2 uncoupling behaviour when man-
+ganese was present within the surface layer of ilmenite particles and
+interacted with iron-species there.
+2. Experiment
+2.1. Chemicals and materials
+Ilmenite ore used in this work is pre-calcined ilmenite concentrate
+supplied by Rio Tinto Iron & Titanium, Québec, Canada. Table 1 shows
+the chemical composition of this ilmenite (in fully oxidized form)
+measured by X-ray ﬂuorescence (XRF) analysis following the ASTM
+D4326 method. The ilmenite sample was crushed and sieved to the
+particle size of interest (in the range of 212–300 μm), and then calcined
+once more in a muﬄe furnace at 900 °C for 2 h in air for the following
+use.
+Chemicals including manganese (II) nitrate tetrahydrate (Mn
+(NO3)2·4H2O), anhydrous methanol and concentrated ammonia solu-
+tion (28 wt%) were purchased from Aldrich and used as received.
+2.2. Oxygen carrier preparation
+Manganese-modiﬁed ilmenites were prepared by impregnating the
+double calcined ilmenite particles (shown in Table 1) with Mn2O3 by
+using Mn(NO3)2 as the precursor [39]. The precursor was dissolved in
+100 mL of methanol to give a 2 M solution. The calcined ilmenite, as
+described in Section 2.1, was immersed in this precursor solution. The
+mixture of precursor and calcined ilmenite was further dispersed by the
+addition of 10 mL of methanol and stirred in an uncovered beaker
+overnight at ambient temperature. After a wet paste had been obtained,
+3 mL of 1 M ammonia solution was dropwise added to the paste while
+stirring to facilitate the hydrolysis of the metal precursor and achieve a
+uniform coating. Finally, the obtained composite was dried in air at
+60 °C and then calcined at 900 °C for 2 h in air with a temperature ramp
+rate of 10 °C/min. The mass ratio of the Mn2O3 to ilmenite was con-
+trolled during preparation by applying the stoichiometric amount of
+precursors to the ilmenite particles. Oxygen carriers containing Mn2O3:
+ilmenite mass ratios of 15 wt% and 30 wt% were produced. The ﬁnal
+products are denoted here as N %-Mn2O3/ilmenite, where N indicates
+the loading mass ratio of the Mn2O3 with respect to the weight of cal-
+cined ilmenite. Although Mn(NO3)2 with a lower Mn(II) valence was
+employed as a precursor, Maneva et al. have shown that the dis-
+proportionated decomposition of such a metal source ﬁrst results in the
+generation of MnO2 with Mn (IV) valence (taking place at around
+300 °C), which subsequently decomposes to Mn2O3 above 500 °C [40].
+2.3. Reaction characterization
+The temperature-programmed desorption (TPD) technique was
+employed using a ﬁxed-bed reactor, which allowed the determination
+of the O2 release temperature from the O2 evolution proﬁle. In a typical
+test, approximately 1.5 g of sample was placed in a quartz glass reactor
+coupled with a Pfeiﬀer Omnistar 320C mass spectrometer (MS)
+(Detection threshold < 1 ppm). During continuous ﬂow TPD tests, an
+inlet ﬂow of He (Linde, Grade 4.7, 99.997% N2, O2 ≤5 ppm) was
+maintained at a total ﬂow rate of 60 cm3/min over the oxygen carrier at
+atmospheric pressure while heating from 25 to 200 °C over 5 min. The
+sample was subsequently degassed at 200 °C for 30 min under He to
+remove surface contaminates. Then the reactor tube was heated from
+200 to 1050 °C at a heating rate of 50 °C/min. After reaching 1050 °C,
+the reactor temperature was maintained at 1050 °C for 10 min before
+cooling. The reactor eﬄuent passed through a water trap and was then
+monitored for molecular ion responses corresponding to O2 (m/z = 32).
+TGA tests were conducted in a Thermo Cahn Instruments TherMax
+700 thermogravimetric analyzer. The samples were placed in a 5-mm
+deep and 10 mm diameter quartz crucible. Approximately 60 mg of OC
+was heated in this quartz crucible from ambient temperature to desired
+temperatures in the range of 750–1000 °C with a heating rate set at
+30 °C/min under air at a ﬂow rate of 100 cm3/min. The sample tem-
+perature was maintained isothermal for 20 min before O2 release and
+oxidation cycles were initiated. The gas stream used during the O2 re-
+lease steps was N2 (Linde, Grade 5.0, 99.999% N2, O2 ≤2 ppm)
+ﬂowing at 50 cm3/min. Air at a total ﬂow rate of 100 cm3/min was
+used during oxidation steps.
+The oxygen transport capacity (OTC) of the OCs is deﬁned here as:
+=
+−
+×
+OTC
+m
+m
+m
+100%
+ox
+red
+ox
+(1)
+where mox is the mass of a modiﬁed ilmenite OC in its oxidized state and
+mred is the mass in its reduced state. It is worth noting that in all ex-
+periments conducted in this work, the samples were left to cool down
+gradually inside the TGA analyzer under air.
+For samples undergoing pre-treatment, the OC was subjected to 3 to
+15 cycles of CLC with CH4 at 800 °C before the cyclic uncoupling-oxi-
+dation test. During pre-treatment, the OC was ﬁrst heated in a quartz
+crucible from ambient temperature to 800 °C with a heating rate set at
+30 °C/min under air at a ﬂow rate of 100 cm3/min. The sample tem-
+perature was maintained at 800 °C for 20 min before the reduction and
+oxidation cycles were initiated. The reaction gas used during reduction
+was composed of 3.5 vol% CH4 and 7.0 vol% CO2 with the balance being
+N2 and was injected at a total ﬂow rate of 50 cm3/min. Air was injected
+at a total ﬂow rate of 100 cm3/min during oxidation.
+2.4. Oxygen carrier characterization
+Wide-angle powder X-ray diﬀraction (XRD) measurements were
+performed at room temperature to analyze and identify the crystal
+phase of OCs before and after cycling using a Rigaku Ultima IV X-ray
+diﬀractometer. For XRD analysis, the sample was ground and put on a
+silicon zero-background sample stage. The XRD instrument was set to
+operate at 40 kV and 40 mA over a scanning range (2 Theta) between
+15° and 100° at a scanning rate of 0.02°/min. The morphology of OCs
+before cycling was observed by a Nikon SMZ18 optical microscope
+mounted with a 1× objective lens. Digital photograph acquisition was
+performed using a Lumenera INFINITY 2-1RC 1/2 inch CCD colour
+camera. The surface of particles was further examined using a scanning
+electron microscope (SEM, Hitachi S-3400 N). For SEM characteriza-
+tion, the samples were coated with a thin layer of carbon (~2 nm).
+Table 1
+XRF composition analysis of the UKTO ilmenite ore [33].
+Component
+Average (wt%)
+SiO2 (wt%)
+< 0.10
+Al2O3 (wt%)
+0.36
+Fe2O3 (wt%)
+60.90
+TiO2 (wt%)
+36.50
+P2O5 (wt%)
+< 0.03
+CaO (wt%)
+< 0.05
+MgO (wt%)
+1.72
+SO3 (wt%)
+< 0.10
+Na2O (wt%)
+< 0.20
+K2O (wt%)
+< 0.02
+Barium (ppm)
+1927
+Strontium (ppm)
+< 50
+Vanadium (ppm)
+1350
+Nickel (ppm)
+302
+Manganese (ppm)
+985
+Chromium (ppm)
+752
+Copper (ppm)
+164
+Zinc (ppm)
+71
+Loss on fusion
+0.00
+Z. Sun et al.
+Fuel Processing Technology 169 (2018) 15–23
+17
+
+
+===== Page 4 =====
+
+2.5. Thermodynamic equilibrium predictions
+For thermodynamic equilibrium predictions in this study, the
+FactSage 6.4 Reaction, Equilib and Phase Diagram modules were uti-
+lized with FToxid databases [41]. FactSage software predicts equili-
+brium solid–liquid–gas phases and compositions based on Gibbs free
+energy minimization. Gibbs free energy is calculated from optimized
+models with parameters based on empirical data with various compo-
+sitions, temperatures, and pressures. This information is contained
+within compound and solution databases. All gas, liquid and solid
+compounds were considered.
+3. Results and discussion
+3.1. Characterization of calcined ilmenite and manganese-modiﬁed ilmenite
+Fig. 1 shows the digital optical photographs and SEM images of the
+calcined ilmenite and 15%-Mn2O3/ilmenite prior to CLC cycling taken
+at diﬀerent magniﬁcations. It can be seen from the optical photograph
+that the surface of the calcined ilmenite (Fig. 1a) appears relatively
+smooth and exhibits a brown colour with reﬂective metallic luster,
+which is in accordance with the previous observations indicating an
+iron-rich surface after calcination [33,42]. After the introduction of
+Mn2O3 onto the surface of ilmenite particles, the colour of the particles
+turns from brown to black with increased metallic luster (Fig. 1b). SEM
+images of calcined ilmenite (Fig. 1c and d) show that the surface of the
+particle is composed of compactly arranged small grains with a size
+below 5 μm, which is consistent with a previous study [33]. After
+modiﬁcation by manganese species (Fig. 1e and f) the particle surface
+becomes rougher, with large polycrystals of manganese species visible
+which are distributed unevenly on the particle surface. The original
+ilmenite surface can be seen to be exposed in some regions as indicated
+by white arrows in Fig. 1f. The grain size of manganese phases for the
+15%-Mn2O3/ilmenite sample was smaller when compared to the sur-
+face grains of the calcined ilmenite. The colour variation and the sur-
+face morphology change demonstrate introduction of manganese spe-
+cies onto ilmenite particles and reveal the morphology of these guest
+species.
+Wide-angle XRD patterns of calcined ilmenite and 15%-Mn2O3/il-
+menite samples are shown in Fig. 2. Patterns of both samples display
+multiple resolved diﬀraction peaks (Fig. 2a and b), which can be as-
+signed to the reﬂections of pseudobrookite phase (Fe2TiO5) (JCPDS
+Card Number 70-2728), the alpha‑iron oxide phase (α-Fe2O3) (JCPDS
+Card Number 80-2377) and rutile phase (TiO2) (JCPDS Card Number
+84-1284). Since both samples were calcined at 900 °C in air, there are
+no resolved peaks corresponding to the crystal phase of ilmenite
+(FeTiO3) shown in the XRD patterns. This observation agrees well with
+thermodynamic equilibrium predictions from our previous study [33].
+Besides peaks related to iron oxide and pseudobrookite, characteristic
+diﬀraction peaks indexed to cubic bixbyite Mn2O3 (JCPDS Card
+Number 89-4836) (Fig. 2b) are clearly observed indicating the de-
+position of Mn2O3 onto the ilmenite particles.
+Fig. 1. Digital optical photographs (a and b) and SEM
+images (c–f) of the calcined ilmenite particles (a, c and e)
+and of the 15%-Mn2O3/ilmenite particles (b, d and f) prior
+to CLC cycling. (For interpretation of the references to
+colour in this ﬁgure, the reader is referred to the web ver-
+sion of this article.)
+Z. Sun et al.
+Fuel Processing Technology 169 (2018) 15–23
+18
+
+
+===== Page 5 =====
+
+3.2. O2 release temperature by TPD
+Fig. 3 presents the TPD proﬁles of the calcined ilmenite (red line)
+and 15%-Mn2O3/ilmenite (black line). It can be seen that both samples
+exhibit O2 uncoupling behaviour when the temperature is elevated. The
+15%-Mn2O3/ilmenite sample started to release gas-phase O2 when the
+temperature reached ~690 °C, while the initial temperature of O2 un-
+coupling for the calcined ilmenite sample was ~850 °C. When com-
+paring the amount of O2 released qualitatively, it can be seen that the
+15%-Mn2O3/ilmenite sample released much more gas-phase O2 than
+the calcined ilmenite sample.
+A recent study reported by Rydén et al. showed that ilmenite used as
+an OC is capable of releasing a small amount of gas-phase O2 during
+chemical-looping
+combustion
+experiments
+at
+a
+temperature
+of
+~950 °C; however, the exact reason for this oxygen release of ilmenite
+has not been unequivocally determined [38]. Previous thermodynamic
+studies indicate that Fe2TiO5 crystals should not demonstrate O2 un-
+coupling at temperatures below 1050 °C with O2 partial pressures
+higher than 10−5.7 atm [22,30]. According to the purity of reactive and
+inert gases used in our study, O2 partial pressures below 10−5.7 atm
+were not expected either during the TPD test or the TGA measurements
+presented in later sections.
+Fig. 4 presents an XRD pattern of the calcined ilmenite sample after
+TPD at a maximum temperature of 1050 °C. Since ilmenite ore is
+composed of mixed oxides doped with other impurities, it is quite dif-
+ﬁcult to identify in detail the XRD peaks of several compounds that are
+close and overlapped. However, when comparing the XRD patterns of
+ilmenite before (Fig. 2a) and after (Fig. 4) TPD, it can be clearly seen
+that an XRD peak at ~60.2° has split into two peaks that are centered at
+~59.9° and 60.2°, respectively. The peak at ~59.9° coupled with the
+one at ~58.6° looks very similar to the fourth strongest peak of
+iron‑titanium oxide Fe3Ti3O10 (JCPDS Card Number 43-1011) whose
+ﬁrst three strongest XRD peaks are overlapped with Fe2TiO5. If this is
+the case, the O2 uncoupling of calcined ilmenite might happen due to
+the phase transfer between Fe3Ti3O10 and Fe2TiO5. It should be noted
+that the ilmenite employed in this study contained 1.72% MgO
+(Table 1), and so the peak centered at ~59.9° might also be due to the
+formation of armalcolite ((Mg0.5Fe0.5)Ti2O5) (JCPDS Card Number 74-
+1507) since both armalcolite and Fe3Ti3O10 display a similar peak
+centered at ~59.9° in their XRD pattern. If this is the case, the phase
+transformation between Fe2TiO5 and armalcolite still results in O2 re-
+lease because the latter is also composed of iron species (Fe2+) with
+lower valence. Further investigations should be carried out to establish
+which oxygen uncoupling mechanism is occurring.
+3.3. Cyclic performance of OCs at various conditions
+The cyclic performance of the calcined ilmenite and 15%-Mn2O3/
+ilmenite measured via TGA over three cycles of isothermal O2 un-
+coupling and oxidation at 850 °C is presented in Fig. 5. It can be seen
+that both OCs exhibit weight loss during each uncoupling step due to
+the release of gas-phase O2 and a weight increase during each oxidation
+step. Calcined ilmenite exhibits a tiny weight loss of 0.02%, which is
+identical during each cycle (Fig. 5a). After each step of O2 release, the
+sample weight of calcined ilmenite returns to its initial mass during the
+oxidation step. The 15%-Mn2O3/ilmenite sample exhibits a larger
+weight loss of 0.23% caused by gas-phase O2 release during the ﬁrst
+uncoupling process; however, the sample weight does not return to its
+initial mass after the subsequent 20 min oxidation step (Fig. 5b). After
+the ﬁrst oxidation process, the total weight of the 15%-Mn2O3/ilmenite
+sample is 99.86% of its initial mass. During the second cycle, 15%-
+Mn2O3/ilmenite shows a 0.10% weight loss during the O2 uncoupling
+Fig. 2. Wide-angle XRD patterns of cal-
+cined ilmenite (a) and 15%-Mn2O3/ilme-
+nite (b) samples.
+Fig. 3. The ion current evolution of O2 at the outlet of the ﬁxed-bed reactor during the
+TPD process for 15%-Mn2O3/ilmenite (black) and calcined ilmenite (red) samples. (For
+interpretation of the references to colour in this ﬁgure legend, the reader is referred to the
+web version of this article.)
+Fig. 4. Wide-angle XRD patterns of the calcined ilmenite sample after TPD.
+Z. Sun et al.
+Fuel Processing Technology 169 (2018) 15–23
+19
+
+
+===== Page 6 =====
+
+step resulting in a total weight of 99.76% of initial mass, which is si-
+milar to that obtained in the ﬁrst cycle. Then the sample weight returns
+again to 99.87% of its initial mass after the subsequent 20 min oxida-
+tion. The 15%-Mn2O3/ilmenite sample exhibits the same behaviour in
+the third uncoupling-oxidation cycle as in the second one. The amount
+of O2 released from the 15%-Mn2O3/ilmenite sample is relatively
+steady and is higher than the calcined ilmenite.
+The Mn2O3 present in the samples is a metallic oxide with bixbyite
+crystal phase that is prone to phase transformation at high temperature
+and under low O2 partial pressure resulting in Mn3O4 formation with a
+spinel structure and lower valence state [43,44] than Mn2O3. As a re-
+sult, the 15%-Mn2O3/ilmenite sample shows a relatively large weight
+loss at 850 °C once the inert N2 ﬂow is introduced to the reactor during
+the ﬁrst cycle. Since 850 °C is not a high enough temperature for Mn2O3
+to decompose into Mn3O4 promptly and completely, the TGA curve
+doesn't reach a steady value within 20 min. The re-oxidation tempera-
+ture of 850 °C is close to the thermodynamic transition temperature
+between Mn2O3 and Mn3O4 in air. At this temperature in air, the
+driving force for oxidation to a higher manganese valence (from Mn2+/
+3+ to Mn3+) is too small for reaction to proceed quickly [44]. As a
+result, the Mn species are only partially re-oxidized to Mn3+ species
+which are involved in the subsequent redox cycles after the ﬁrst oxi-
+dation step. Therefore, 15%-Mn2O3/ilmenite only exhibits a 0.10%
+weight loss at the second and third cycles.
+It has been widely reported that that the combination of Mn2O3 and
+Fe2O3 in high-temperature (above 500 °C) results in generation of fer-
+rimanganic
+oxide
+((Fe1 −xMnx)2O3)
+with
+bixbyite
+crystals
+[14,24,45,46]. The re-oxidation of the reduced form ((Fe1 −xMnx)3O4)
+of ferrimanganic oxide to Mn3+ is thermodynamically favoured at a
+higher temperature when compared to pure Mn2O3. It is known that
+iron species in ilmenite particles migrate outwards even after only
+single high-temperature calcination, resulting in an iron-rich particle
+surface [33]. When Mn2O3 is present on the surface of ilmenite parti-
+cles, there might be a portion of the Mn2O3 that reacts with Fe2O3 and
+transforms into (Fe1 −xMnx)2O3, while the rest maintains its original
+form and composition. Thus, the unreacted Mn2O3 maintains its O2
+uncoupling behaviour as displayed in the ﬁrst cycle; but the sample
+exhibits repeatable O2 release during the second and third cycles, which
+might be due to the existence of newly generated ferrimanganic oxide
+((Fe1 −xMnx)2O3) crystals. This ferrimanganic oxide is supposed to
+improve the O2 uncoupling behaviour, resulting in the fact that more O2
+can be released from the overall OC particles during uncoupling pro-
+cesses. After the ﬁrst cycle during the above test, the 15%-Mn2O3/il-
+menite sampled reached a relatively stable performance and exhibited
+identical O2 uncoupling behaviour in the second and third cycles. In
+order to facilitate the comparison of diﬀerent tests in the following
+work, oxygen transport capacity (OTC) of each OC is calculated from
+the weight change during the third cycle.
+3.4. O2 uncoupling behaviour at diﬀerent temperatures
+Fig. 6 presents the oxygen transport capacities of 15%-Mn2O3/
+ilmenite samples during the uncoupling process within the third un-
+coupling-oxidation cycle at diﬀerent temperatures measured iso-
+thermally via TGA. The corresponding values of OTC are summarized in
+Table 2.
+It can be seen that 15%-Mn2O3/ilmenite can release a small amount
+of O2 even at a low temperature of 750 °C; while, the O2 release rate at
+750 °C is slow throughout the whole 20 min uncoupling process. When
+increasing the temperature from 750 to 950 °C with an interval of 50 °C,
+the O2 release becomes faster and faster. The OTC measured at the end
+of each 20 min uncoupling process increases continuously from 0.033
+to 0.232% when the temperature is increased from 750 to 950 °C
+(Table 2). However, a further increase in temperature from 950 to
+1000 °C results in a slightly lower OTC of 0.229% (Table 2). To explain
+this result, a binary phase diagram of the (Fe1 −xMnx)yOz system has
+been calculated with FactSage software using the FToxid database.
+Fig. 7 shows the binary phase diagram of (Fe1 −xMnx)yOz in an
+atmosphere with an O2 partial pressure of 0.21 atm, which reveals the
+phase states during the oxidation-relevant condition. It can be seen that
+hematite and bixbyite (Fe1 −xMnx)2O3 which are favoured at low
+temperature, are the fully oxidized states in an atmosphere with an O2
+partial
+pressure
+of
+0.21 atm,
+while
+reduced
+phases
+of
+spinel
+(Fe1 −xMnx)3O4
+and
+tetragonal
+spinel
+are
+preferred
+at
+higher
+Fig. 5. Cyclic performance of the calcined ilmenite (a) and 15%-Mn2O3/ilmenite (b) measured via TGA over three cycles of isothermal uncoupling-oxidation at 850 °C.
+Fig. 6. Oxygen transport capacities of 15%-Mn2O3/ilmenite samples during the un-
+coupling process within the third uncoupling-oxidation cycle at diﬀerent temperatures.
+Oxidation: air at a total ﬂow rate of 100 cm3/min; O2 uncoupling: N2 at a total ﬂow rate
+of 50 cm3/min.
+Table 2
+Oxygen transport capacities of calcined and Mn bearing ilmenite at diﬀerent tempera-
+tures.
+Sample
+OTC/%
+750 °C
+OTC/%
+800 °C
+OTC/%
+850 °C
+OTC/%
+900 °C
+OTC/%
+950 °C
+OTC/%
+1000 °C
+Calcined ilmenite
+< 0.010
+0.014
+0.017
+0.032
+0.048
+0.075
+15%-Mn2O3/
+ilmenite
+0.033
+0.070
+0.098
+0.200
+0.232
+0.229
+Z. Sun et al.
+Fuel Processing Technology 169 (2018) 15–23
+20
+
+
+===== Page 7 =====
+
+temperatures. When increasing the ratio of Fe dissolved in the Mn2O3
+bixbyite phase, the threshold temperature for the phase transition from
+bixbyite (I) to spinel (III) increases. The most promising phase trans-
+formation
+for
+O2
+uncoupling
+is
+the
+decomposition
+of
+bixbyite
+(Fe1 −xMnx)2O3 to spinel (Fe1 −xMnx)3O4, which can be triggered by
+increasing the temperature or more practicably by altering the O2
+partial pressure. In practical applications, the diﬀerence in O2 partial
+pressure between the AR and the FR can induce the reversible transition
+between bixbyite and spinel. As a result, gas-phase O2 can be released
+in the FR and the OC in the reduced state can be reoxidized in the AR. In
+our TGA tests, when the isothermal temperature was increased to
+1000 °C, the thermodynamic driving force for oxidation of the com-
+ponent (Fe1 −xMnx)3O4 in the 15%-Mn2O3/ilmenite sample decreased
+since 1000 °C is close to the temperature for the transition between
+(Fe1 −xMnx)2O3 and (Fe1 −xMnx)3O4 in air. Therefore, full oxidation of
+(Fe1 −xMnx)3O4 becomes diﬃcult at 1000 °C, which proceeded to only
+a limited extent during the 20 min oxidation process. As a result, the
+amount of O2 which was released by the 15%-Mn2O3/ilmenite during
+the uncoupling step decreased and the OTC of this OC stopped in-
+creasing at temperatures over 950 °C. Accordingly, it can be concluded
+that not only was O2 release accelerated, but also more gas-phase O2
+was generated for both calcined ilmenite and 15%-Mn2O3/ilmenite at
+higher temperatures. When the temperature was as high as 1000 °C,
+however, the positive eﬀect of increasing temperature for 15%-Mn2O3/
+ilmenite samples was diminished.
+3.5. O2 uncoupling behaviour after a pretreatment
+Since the generation of ferrimanganic oxide can alter the thermo-
+dynamic properties of manganese oxides, resulting in an increase of the
+temperature threshold for the oxidation of Mn species with low valence
+state, the reversibility of O2 release from 15%-Mn2O3/ilmenite samples
+should be improved if more ferrimanganic oxide is generated. Many
+studies have shown that when ilmenite is used after CLC cycles, the iron
+species start to migrate outwards resulting in a titanium rich core
+composed of a TiO2 and FeTiO3 phase and an outer shell composed of
+pure Fe2O3 which is identical to the hematite crystal [47,48]. We as-
+sume that more ferrimanganic oxide can be generated in manganese-
+modiﬁed ilmenite if more iron species migrate outwards and accumu-
+late at the boundary between the ilmenite and Mn2O3 layer. If this is the
+case, reversibility of O2 release for manganese-modiﬁed ilmenite can be
+maintained during repeated uncoupling-oxidation cycles.
+In the following study, 15%-Mn2O3/ilmenite OC is subjected to
+several cycles of CLC with methane at 800 °C as a pre-treatment in
+order to increase the accumulation of iron species at the boundary and
+promote the generation of ferrimanganic oxide (the pre-treatment is
+denoted as Z-Pre-CLC, where Z indicates the number of CLC cycles). The
+OC was tested afterward for its O2 release characteristics to reveal the
+impact of iron migration on the O2 uncoupling behaviour of manga-
+nese-modiﬁed ilmenite.
+Fig. 8 shows the cyclic performance of 15%-Mn2O3/ilmenite sam-
+ples with and without the pre-treatment measured at 850 °C over three
+cycles of isothermal uncoupling-oxidation. It can be seen that the 15%-
+Mn2O3/ilmenite sample after 15 cycles of pre-treatment exhibited an
+enhanced O2 uncoupling behaviour compared to the sample without
+the pre-treatment. During the uncoupling process during the ﬁrst cycle,
+the 15-Pre-CLC sample shows a similar weight loss when compared to
+the OC without the pre-treatment. However, the total weight of the 15-
+Pre-CLC sample returned to its initial mass during the ﬁrst oxidation
+step, which is signiﬁcantly diﬀerent from the OC without the pre-
+treatment. The reversible uncoupling-oxidation behaviour of the 15-
+Pre-CLC sample was maintained during the subsequent two cycles. It is
+in accordance with our initial assumption that the reversibility might be
+attributed to outwards migration of the iron species during the pre-
+treatment, which react with the Mn2O3 present on the surface of the
+ilmenite particles, resulting in the generation of more ferrimanganic
+oxide.
+To further investigate the inﬂuence of pre-treatment on the cyclic
+performance of manganese-modiﬁed ilmenite, diﬀerent cycles of Pre-
+CLC were applied to 15%-Mn2O3/ilmenite samples, and their O2 un-
+coupling behaviours were evaluated at various temperatures.
+Fig. 9 presents the oxygen transport capacities of calcined ilmenite,
+15%-Mn2O3/ilmenite,
+pre-treated
+ilmenite
+and
+pre-treated
+15%-
+Mn2O3/ilmenite samples during the uncoupling step within the third
+uncoupling-oxidation cycle at diﬀerent temperatures measured iso-
+thermally via TGA. It can be seen that OTCs of all of the OCs at 750 °C
+Fig. 7. Binary phase diagram of (Fe1 −xMnx)yOz in an atmosphere with an O2 partial
+pressure of 0.21 atm.
+Fig. 8. Cyclic performance of 15%-Mn2O3/ilmenite samples with and without pre-treat-
+ment measured at 850 °C via TGA over three cycles of isothermal uncoupling-oxidation
+processes.
+Fig. 9. OTCs of OCs without pre-treatment, and pre-treated ilmenite and Mn2O3-modiﬁed
+ilmenite.
+Z. Sun et al.
+Fuel Processing Technology 169 (2018) 15–23
+21
+
+
+===== Page 8 =====
+
+are below 0.04%. For ilmenite samples without manganese modiﬁca-
+tion, OTCs increase with the elevation of temperature. When ilmenite is
+modiﬁed by Mn2O3, its OTC is always higher than the ilmenite without
+modiﬁcation, and the pre-treatment with CLC cycles make its OTC even
+higher.
+If assuming that both Mn2O3 and ilmenite can achieve full reduction
+at 900 °C during the combustion of CH4, it means that Mn3+ (Mn2O3) is
+converted to Mn2+ (MnO) resulting in 10.0% of oxygen from Mn2O3
+being consumed by CH4, and that Fe3+ is converted to Fe2+ resulting
+in 6.09% of oxygen from calcined ilmenite (the percentage of Fe2O3 in
+calcined ilmenite is 60.9% measured by XRF) being consumed by CH4.
+Thus the theoretical OTC of the 15%-Mn2O3/ilmenite sample (mMn2O3/
+milmenite = 0.15) should be around 6.60%. It can be found from Fig. 9
+that 0.30% of oxygen can be released from 15%-Mn2O3/ilmenite at
+900 °C indicating that 6.30% of oxygen is in the lattice of 15%-Mn2O3/
+ilmenite and 0.30% of oxygen can be released as gaseous O2. Here, we
+assume that the O2 release and the solid-gas reaction between fuel and
+lattice oxygen happen in sequence in a well-designed FR. From a re-
+action stoichiometry perspective if the conversion of CH4 in the FR
+reaches 95.45% at 900 °C through reaction with an OC with an eﬀective
+OTC of 6.30% but without O2 uncoupling properties, then nearly full
+combustion can be achieved by using 15%-Mn2O3/ilmenite as OC since
+0.30% of gaseous O2 released from the material can burn at least the
+4.5% unconverted CH4 through the kinetically-favoured gas-gas reac-
+tion.
+In a number of previous studies, it has been observed that ilmenite
+as an OC exhibits an activation process during CLC of gaseous fuels,
+dominated by changes in morphologies with respect to the evolution of
+pore structures, crystal growth and the migration of iron ions [49,50].
+Here, the higher OTC for the calcined ilmenite after 15 cycles of pre-
+treatment might be due to the morphology change imposed by the CLC
+process that may have decreased the energy barrier to O2 release and
+crystal phase transformation. The contribution to the increase in OTC
+imposed by 15 cycles of pre-treatment for calcined ilmenite was lim-
+ited; however, the OTC change for the manganese-modiﬁed ilmenite
+sample imposed by pre-treatment was signiﬁcant. The 15%-Mn2O3/il-
+menite sample treated by several cycles of Pre-CLC exhibited higher
+OTC than the untreated one independent of temperature. Furthermore,
+15%-Mn2O3/ilmenite showed an increased OTC when increasing the
+number of pre-treatment cycles at all the tested temperatures, which
+indicates that more O2 can be released by manganese-modiﬁed ilmenite
+when this OC is treated by more cycles of pre-treatment. When in-
+creasing the cycles of pre-treatment, more iron species migrate out-
+wards from the interior of the particles to the surface. As a result, more
+ferrimanganic oxide, which favours reversible O2 uncoupling, is gen-
+erated. Samples of 15%-Mn2O3/ilmenite after pre-treatment show an
+OTC decrease when the temperature is elevated above 950 °C. As dis-
+cussed in Section 3.4, 950 °C is too close to the thermodynamic tran-
+sition temperature between (Fe1 −xMnx)2O3 and (Fe1 −xMnx)3O4 in
+air,
+and
+the
+driving
+force
+for
+oxidation
+of
+the
+component
+(Fe1 −xMnx)3O4 in reduced samples is too small at elevated tempera-
+tures. Therefore, the full oxidation of (Fe1 −xMnx)3O4 becomes diﬃcult
+at a temperature above 900 °C and the reduced sample cannot be re-
+oxidized to its initial stage at high temperature. In consequence, the
+amount of O2 that is released in the subsequent uncoupling process
+decreases.
+Given a desired OTC value of OCs in a CLC system, improving the
+reduction reactivity of the OC would provide the opportunity to lower
+the operational temperature of the FR, as a beneﬁt, the AR could con-
+sequently be operated at a lower temperature. Operation at lower but
+reasonable temperatures would decrease the capital cost of both the AR
+and FR since lowering the operational temperature would allow the use
+of lower-cost materials for reactor construction. On the other hand,
+achieving suﬃcient circulation rates of solids could be a challenge in a
+practical CLC system. If the reduction reactivity of OCs could be in-
+creased while maintaining the OTC, it would be possible to reduce the
+circulation rate of OCs. In our previous study, it was found that the
+addition of Mn2O3 improves the reduction reactivity of ilmenite to-
+wards CH4 during multiple cycles [39]. When the O2 uncoupling per-
+formance of the OCs is improved, the reduction reactivity of the OCs
+can be increased further since the released O2 could proceed via
+homogeneous reaction with gaseous fuels, which is much faster than
+the heterogeneous reduction according to previous studies [11,15].
+After 15 cycles of pre-treatment the 15%-Mn2O3/ilmenite OC demon-
+strated improved O2 uncoupling performance when the temperature
+was near optimal at the 900 °C investigated here. We believe that this
+improved O2 uncoupling property along with the improved reduction
+reactivity due to the combination of Mn2O3 and ilmenite could provide
+the opportunity of lowering the operational temperature of the FR
+while resulting in improved gaseous fuel conversion and reduced FR
+size. While the FR design should be well considered to suit the fuel
+combustion since the homogeneous reaction between fuel and released
+O2 mostly happens in the upper part of the reactor.
+The inﬂuence of the Mn2O3 loading on the cyclic performance of
+manganese-modiﬁed ilmenite was investigated with results as shown in
+Fig. 10. Both samples were pre-treated by subjecting them to 15 cycles
+of Pre-CLC before the uncoupling-oxidation test.
+The 30%-Mn2O3/ilmenite sample, with higher loading of Mn2O3,
+showed a slightly higher OTC from 750 to 950 °C compared to the 15%-
+Mn2O3/ilmenite sample. However, the 30%-Mn2O3/ilmenite sample
+exhibited the same amount of O2 release as that of 15%-Mn2O3/ilme-
+nite at 1000 °C, which is due to the thermodynamic limit for the oxi-
+dation of manganese ion as discussed previously (Section 3.4). At
+1000 °C, the compound Mn2O3 doesn't contribute to the OTC during the
+uncoupling step since Mn2O3 cannot exist stably at such high tem-
+perature and it would have already decomposed into Mn3O4 during the
+oxidation step before uncoupling. Only the transformation between
+(Fe1 −xMnx)2O3 and (Fe1 −xMnx)3O4 contributes to the overall OTC.
+However, the thermodynamic driving force for oxidation of the com-
+ponent (Fe1 −xMnx)3O4 in manganese-modiﬁed ilmenite samples de-
+creases when the temperature increases. Therefore, the full oxidation of
+(Fe1 −xMnx)3O4 might be kinetically limited at high temperature
+within 20 min of the uncoupling step. As a consequence, the OTCs of
+both 15%-Mn2O3/ilmenite and 30%-Mn2O3/ilmenite start to decrease
+when the temperature is above 900 °C. Since the ferrimanganic oxide
+can only be formed possibly at the interface between Mn2O3 shell and
+the ilmenite core. Thus, the amounts of ferrimanganic oxide generated
+at this interface for samples 15%- and 30%-Mn2O3/ilmenite are similar
+no matter how much Mn2O3 are introduced in the shell. As a result,
+15%- and 30%-Mn2O3/ilmenite show similar OTCs at a very high
+temperature (1000 °C).
+Fig. 10. OTCs of the pre-treated ilmenite and Mn2O3-modiﬁed ilmenite.
+Z. Sun et al.
+Fuel Processing Technology 169 (2018) 15–23
+22
+
+
+===== Page 9 =====
+
+4. Conclusions
+In this study, composite ilmenite-based OCs modiﬁed with 15–30 wt
+% Mn2O3 were prepared by using Mn(NO3)2 as an additive precursor.
+The O2 uncoupling behaviour of manganese-modiﬁed ilmenite samples
+were, for the ﬁrst time, investigated in a ﬁxed-bed reactor through the
+use of the TPD technique, and the cyclic performance of the samples
+during multiple uncoupling-oxidation cycles was investigated using a
+TGA instrument.
+The O2 uncoupling behaviour of calcined ilmenite was promoted
+successfully by the introduction of Mn2O3. The results indicated that
+both calcined ilmenite and manganese-modiﬁed ilmenite were capable
+of releasing gas-phase O2 at high temperature, and the manganese
+modiﬁcation increased the amount of O2 released. Ilmenite ore after a
+high-temperature calcination exhibited O2 uncoupling behaviour,
+which is in accordance with a previous study carried out by Ryden et al.
+[38]. However, the intrinsic reason for this O2 release by ilmenite ore
+should be further examined. Calcined ilmenite started to release gas-
+phase O2 under an inert condition when the temperature reached
+~850 °C; while the initial O2 uncoupling temperature for the manga-
+nese-modiﬁed ilmenite sample was ~690 °C. The lower O2 uncoupling
+temperature was attributed to the presence of Mn2O3. Several cycles of
+chemical looping combustion with CH4 were carried out as a pre-
+treatment for both the calcined ilmenite and manganese-modiﬁed il-
+menite samples. After pre-treatment, the amount of O2 released by both
+calcined ilmenite and manganese-modiﬁed ilmenite increased. A large
+amount of O2 could be released during each uncoupling-oxidation cycle
+by the pre-treated Mn2O3/ilmenite. The improvement in the reversi-
+bility of oxygen release of manganese-modiﬁed ilmenite was attributed
+to the reaction between Mn2O3 and the outward migrated iron species
+during pre-treatment, resulting in the formation of ferrimanganic oxide
+which exhibits favourable thermodynamics for the oxidation reaction
+for the reduced oxygen carrier. More cycles of pre-treatment were
+performed resulting in larger amounts of gas-phase O2 release by the
+manganese-modiﬁed ilmenite samples. Ilmenite modiﬁed with 30%
+Mn2O3 showed a larger amount of O2 release than the 15%-Mn2O3/
+ilmenite sample in the temperature range of 750–900 °C. However, a
+temperature above 900 °C led to a lesser amount of O2 release by
+manganese-modiﬁed ilmenite due to the thermodynamic limit of the
+materials during the oxidation step. It is expected that this manganese
+modiﬁcation strategy can be further improved to enhance the O2 re-
+lease behaviours and increase the reactivity of OCs so as to facilitate the
+development of chemical looping technologies.
+Acknowledgement
+This research work was sponsored and funded by the PERD
+(Program for Energy Research and Development: 1A00.002) program of
+Natural Resources Canada, Government of Canada. We also acknowl-
+edge Drs. M. Duchesne, R. Symonds, and Y. Tan for providing useful
+discussions and various suggestions. Ilmenite ore samples were kindly
+supplied by Rio Tinto Iron & Titanium.
+References
+[1] M.M. Hossain, H.I. de Lasa, Chem. Eng. Sci. 63 (2008) 4433–4451.
+[2] P.C. Chiu, Y. Ku, Aerosol Air Qual. Res. 12 (2012) 1421–1432.
+[3] A. Lyngfelt, Oil Gas Sci. Technol. 66 (2011) 161–172.
+[4] L. Zeng, S. Luo, D. Sridhar, L.S. Fan, Rev. Chem. Eng. 28 (2012) 1–42.
+[5] J. Adanez, A. Abad, F. Garcia-Labiano, P. Gayan, L.F. de Diego, Prog. Energy
+Combust. Sci. 38 (2012) 215–282.
+[6] V.S. Batra, H.P. Li, Curr. Opin. Chem. Eng. 15 (2017) 44–48.
+[7] C. Linderholm, A. Lyngfelt, 14 - Chemical-looping combustion of solid fuels,
+Calcium and Chemical Looping Technology for Power Generation and Carbon
+Dioxide (CO2) Capture, Woodhead Publishing, 2015, pp. 299–326.
+[8] T. Mattisson, A. Lyngfelt, H. Leion, Int. J. Greenhouse Gas Control 3 (2009) 11–19.
+[9] L.S. Fan, L. Zeng, W. Wang, S. Luo, Energy Environ. Sci. 5 (2012) 7254–7280.
+[10] T. Mendiara, I. Adánez-Rubio, P. Gayán, A. Abad, L.F. de Diego, F. García-Labiano,
+J. Adánez, Energ. Technol. 4 (2016) 1130–1136.
+[11] Q. Imtiaz, D. Hosseini, C.R. Mueller, Energ. Technol. 1 (2013) 633–647.
+[12] M. Kallen, M. Ryden, C. Dueso, T. Mattisson, A. Lyngfelt, Ind. Eng. Chem. Res. 52
+(2013) 6923–6932.
+[13] D. Richard, P. Andrew, C. David, D. John, H. Chris, K. Olav, O. Masahiko,
+A. Michael, Chapter 4. Transport of CO2, in: B. Metz (Ed.), Carbon Dioxide Capture
+and Storage: Special Report of the Intergovernmental Panel on Climate Change,
+Cambridge University Press, 2005.
+[14] A. Shulman, E. Cleverstam, T. Mattisson, A. Lyngfelt, Energy Fuel 23 (2009)
+5269–5275.
+[15] A. Shulman, E. Cleverstam, T. Mattisson, A. Lyngfelt, Fuel 90 (2011) 941–950.
+[16] K. Li, H. Wang, Y. Wei, J. Chem. (2013), http://dx.doi.org/10.1155/2013/294817.
+[17] P. Gayan, I. Adanez-Rubio, A. Abad, L.F. de Diego, F. Garcia-Labiano, J. Adanez,
+Fuel 96 (2012) 226–238.
+[18] M. Ryden, D. Jing, M. Kallen, H. Leion, A. Lyngfelt, T. Mattisson, Ind. Eng. Chem.
+Res. 53 (2014) 6255–6267.
+[19] G. Azimi, T. Mattisson, H. Leion, M. Ryden, A. Lyngfelt, Int. J. Greenhouse Gas
+Control 34 (2015) 12–24.
+[20] A. Shaﬁefarhood, A. Stewart, F. Li, Fuel 139 (2015) 1–10.
+[21] Y. Larring, C. Braley, M. Pishahang, K.A. Andreassen, R. Bredesen, Energy Fuel 29
+(2015) 3438–3445.
+[22] M. Rydén, M. Källén, D. Jing, A. Hedayati, T. Mattisson, A. Lyngfelt, Energy
+Procedia 51 (2014) 85–98.
+[23] G. Azimi, M. Ryden, H. Leion, T. Mattisson, A. Lyngfelt, AICHE J. 59 (2013)
+582–588.
+[24] G. Azimi, H. Leion, M. Ryden, T. Mattisson, A. Lyngfelt, Energy Fuel 27 (2013)
+367–377.
+[25] G. Azimi, H. Leion, T. Mattisson, A. Lyngfelt, Energy Procedia 4 (2011) 370–377.
+[26] M. Arjmand, V. Frick, M. Rydén, H. Leion, T. Mattisson, A. Lyngfelt, Energy Fuel 29
+(2015) 1868–1880.
+[27] M. Källén, M. Rydén, T. Mattisson, A. Lyngfelt, Energy Procedia 63 (2014) 131–139.
+[28] M. Källén, M. Rydén, A. Lyngfelt, T. Mattisson, Appl. Energy 157 (2015) 330–337.
+[29] M. Rydén, A. Lyngfelt, T. Mattisson, Energy Procedia 4 (2011) 341–348.
+[30] P. den Hoed, A. Luckos, Oil Gas Sci. Technol. 66 (2011) 249–263.
+[31] S.K. Haider, G. Azimi, L. Duan, E.J. Anthony, K. Patchigolla, J.E. Oakey, H. Leion,
+T. Mattisson, A. Lyngfelt, Appl. Energy 163 (2016) 41–50.
+[32] G.L. Schwebel, D. Filippou, G. Hudon, M. Tworkowski, A. Gipperich, W. Krumm,
+Appl. Energy 113 (2014) 1902–1908.
+[33] F.N. Ridha, M.A. Duchesne, X. Lu, D.Y. Lu, D. Filippou, R.W. Hughes, Appl. Energy
+163 (2016) 323–333.
+[34] E. Ksepko, M. Sciazko, P. Babinski, Appl. Energy 115 (2014) 374–383.
+[35] F. Mayer, A.R. Bidwe, A. Schopf, K. Taheri, M. Zieba, G. Scheﬀknecht, Appl. Energy
+113 (2014) 1863–1868.
+[36] A. Thon, M. Kramp, E.U. Hartge, S. Heinrich, J. Werther, Appl. Energy 118 (2014)
+309–317.
+[37] P. Moldenhauer, M. Ryden, T. Mattisson, M. Younes, A. Lyngfelt, Appl. Energy 113
+(2014) 1846–1854.
+[38] M. Rydén, C. Linderholm, P. Markström, A. Lyngfelt, Chem. Eng. Technol. 35
+(2012) 1968–1972.
+[39] Z. Sun, D.Y. Lu, F.N. Ridha, R.W. Hughes, D. Filippou, Appl. Energy 195 (2017)
+303–315.
+[40] M. Maneva, N. Petroﬀ, J. Therm. Anal. 36 (1990) 2511–2520.
+[41] FactSage, http://www.factsage.com/.
+[42] P. Robinson, R.J. Harrison, S.A. McEnroe, R.B. Hargraves, Nature 418 (2002)
+517–520.
+[43] J.V. Crum, B.J. Riley, J.D. Vienna, J. Am. Ceram. Soc. 92 (2009) 2378–2384.
+[44] E.R. Stobbe, B.A. de Boer, J.W. Geus, Catal. Today 47 (1999) 161–167.
+[45] M. Ryden, H. Leion, T. Mattisson, A. Lyngfelt, Appl. Energy 113 (2014) 1924–1932.
+[46] M. Stoia, C. Păcurariu, R. Istratie, P. Barvinschi, C. Locovei, J. Therm. Anal.
+Calorim. 125 (2016) 1249–1263.
+[47] H. Leion, A. Lyngfelt, M. Johansson, E. Jerndal, T. Mattisson, Chem. Eng. Res. Des.
+86 (2008) 1017–1026.
+[48] H. Leion, T. Mattisson, A. Lyngfelt, Int. J. Greenhouse Gas Control 2 (2008)
+180–193.
+[49] J. Bao, Z. Li, H. Sun, N. Cai, Combust. Flame 160 (2013) 808–817.
+[50] J. Adanez, A. Cuadrat, A. Abad, P. Gayan, L.F. de Diego, F. Garcia-Labiano, Energy
+Fuel 24 (2010) 1402–1413.
+Z. Sun et al.
+Fuel Processing Technology 169 (2018) 15–23
+23

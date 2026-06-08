@@ -1,0 +1,1261 @@
+
+
+===== Page 1 =====
+
+Chemical Engineering Journal 485 (2024) 149540
+Available online 17 February 2024
+1385-8947/© 2024 Elsevier B.V. All rights reserved.
+Development of redox-type thermochemical energy storage module: A 
+support-free porous foam made of CuMn2O4/CuMnO2 redox couple 
+Xiaoyu Chen a, Mitsuhiro Kubota a,*, Noriyuki Kobayashi a, Shusen Lin b, Lisheng Deng b, Jun Li b, 
+Seiji Yamashita c, Hideki Kita a 
+a Department of Chemical Systems Engineering, Graduate School of Engineering, Nagoya University, Nagoya 4648603, Japan 
+b Guangzhou Institute of Energy Conversion, Chinese Academy of Sciences, Guangzhou 510640, China 
+c Department of Materials Process Engineering, Graduate School of Engineering, Nagoya University, Nagoya 4648603, Japan   
+A R T I C L E  I N F O   
+Keywords: 
+Redox-type thermochemical energy storage 
+Porous foam structure 
+Cu-Mn complex oxides 
+Co-precipitation 
+A B S T R A C T   
+In this study, we developed a CuMn2O4/CuMnO2-based porous foam thermochemical energy storage (TCES) 
+module, which is free from any supporting materials. The raw material of CuMn2O4/CuMnO2 was synthesized 
+using co-precipitation method which is different with the Pechini method we have used in the previous study, 
+aiming to a large-scale synthesis. The porous foam modules were prepared using polyurethane (PU) foam replica 
+method. We investigated the sintering temperature and holding time as critical parameters affecting the mod­
+ule’s mechanical strength, chemical reactivity, and durability. The optimal condition for CuMn2O4/CuMnO2- 
+based porous foam TCES module were identified as 1100 ℃ and 6 h. Our findings suggests that these modules are 
+promising for the fixed-bed reactors in redox-type TCES systems.   
+1. Introduction 
+Thermal energy storage (TES) technology can be broadly classified 
+into three types: sensible, latent, and thermochemical energy storage 
+(TCES). Among them, TCES has emerged as a hotspot in TES research 
+and application, attributed to its high energy storage density, wide 
+operating temperature range, and theoretically unlimited transportation 
+distance [1]. TCES technology can be sub-divided into open system and 
+closed systems based on the natures of their reaction mechanisms. 
+Compared with the closed TCES systems of metal carbonate, metal 
+hydroxide, metal sulfate, and metal hydride, the open system based on 
+redox reaction of metal oxide attracts much attention because the gas 
+reactant (oxygen) can be obtained directly from the surrounding at­
+mosphere without any additional gas storage tanks (Eq. (1)). In this case, 
+the oxygen or air not only serves as the reactant in these redox reactions 
+but also functions as the heat transfer fluid (HTF). Consequently, the 
+thermal energy storage and release process can be efficiently regulated 
+by manipulating the HTF’s flow rate, temperature, and oxygen partial 
+pressure. However, owing to the complexity of chemical reactions and 
+heat/mass transfer phenomena involved in TCES (including redox-type 
+TCES) systems, much of the current research is still focused on devel­
+oping new materials and conducing kinetic analysis. Practical 
+applications, such as the design and demonstration of laboratory-scale 
+reactor, are comparatively fewer. 
+MOoxidizedstate + ΔHr⇌MOreducedstate + O2
+(1)  
+To address the intermittent of renewable energy due to weather condi­
+tions, the redox-type TCES technology is primarily utilized for managing 
+the fluctuations in renewable electricity generation, especially in the 
+field of concentrated solar power (CSP) plant. The energy conversion 
+efficiency from thermal to power (T2P) necessitates that most redox- 
+type TCES systems designed for CSP applications operate at a high 
+temperature of 1000 ℃ approximately. Recently, some researchers 
+successfully modulate the redox temperature of traditional redox couple 
+(Co3O4/CoO, CuO/Cu2O, Mn2O3/Mn3O4, Mn-Fe oxides, etc.) through 
+elemental doping. This advancement broadens the applications in me­
+dium- to high-temperature thermal energy storage, such as waste heat 
+recovery in the steel and non-ferrous metal industries, contributing to 
+the carbon neutrality goals of these traditional sectors. For instance, 
+doping Co3O4/CoO with elements like Cu [2], Ni [3–5], and Mg [6,7] 
+has led to the formation of a (CuxCo1–x)O spinel phase or some special 
+solid solution. Currently, the most promising material appears to be 
+Co2.8Mg0.2O4, with an onset temperature of approximately 775.6 ℃ [7]. 
+However, the high cost of cobalt as a raw material presents challenges 
+* Corresponding author. 
+E-mail address: kubota.mitsuhiro@material.nagoya-u.ac.jp (M. Kubota).  
+Contents lists available at ScienceDirect 
+Chemical Engineering Journal 
+journal homepage: www.elsevier.com/locate/cej 
+https://doi.org/10.1016/j.cej.2024.149540 
+Received 28 November 2023; Received in revised form 25 January 2024; Accepted 8 February 2024   
+
+
+===== Page 2 =====
+
+Chemical Engineering Journal 485 (2024) 149540
+2
+for its use in large-scale energy storage applications. 
+In our previous research of new materials development for medium- 
+to high-temperature (500–1000 ℃) TCES, we explored Sr-based 
+perovskite/brownmillerite redox couples [8] (e.g., SrCoO3-δ, SrFeO3-δ) 
+which undergo non-stoichiometric reactions, and Cu-based spinel/ 
+delafossite redox couples [9] (e.g., CuMn2O4/CuMnO2, CuFe2O4/ 
+CuFeO2) that undergo primarily stoichiometric reactions. Notably, the 
+Sr-based perovskite/brownmillerite couples did not exhibit a fixed re­
+action equilibrium temperature in our investigation, which allowed for 
+continuous thermal storage (reduction) over a wide temperature range 
+(400–1000 ℃). Furthermore, the reduced material can re-oxidize and 
+release heat from the chemical reaction again at approximately 400℃. 
+However, the absence of significant phase transitions in these perov­
+skite/brownmillerite redox couples limits their heat storage density for 
+practical applications, as demonstrated by a maximum heat storage 
+density of only about 81.7 ± 3.4 kJ/kg for SrFeO3-δ. 
+Subsequently, our research shifted the focus to Cu-based spinel/ 
+delafossite redox couples, where we found that the CuMn2O4/CuMnO2 
+redox couple not only satisfies the requirement for short-term thermal 
+energy storage, but also meets the requirements for seasonal or long- 
+term thermal energy storage. This is because of the reduced state 
+CuMnO2 can re-oxidize at 466 ℃, which implies that only a minimal 
+amount of energy is needed to “trigger” the re-oxidation reaction to 
+release the stored thermal energy. However, such a feature cannot be 
+observed in other traditional stoichiometry-type redox couple. We 
+further enhanced this system by doping Cr on the B-sites of CuMn2O4/ 
+CuMnO2 redox couple and found that their re-oxidation can occur at a 
+lower temperature of 421 ℃, and this temperature even closer to the re- 
+oxidation temperature of Sr-based perovskite/brownmillerite redox 
+couples [10,11]. Impressively, CuCr0.3Mn0.7O2 exhibited a heat storage 
+density of 305.61 ± 16.45 kJ/kg, surpassing that of pure CuMnO2 by 
+69.6 kJ/kg. Currently, we are working on modularizing our developed 
+redox couple to align with practical engineering application re­
+quirements. However, given the challenges in synthesizing Cu-Cr-Mn 
+ternary oxides in large quantities with high purity at the laboratory 
+level, we selected to use the CuMn2O4/CuMnO2 redox couple as the 
+material for the next step of TCES module design. 
+Over the last decade, various module designs for the redox-type TCES 
+systems have been proposed by researchers (Fig. 1), including granules 
+[12–16], honeycomb [17–21], and porous foam structures [22,23]. The 
+granules are advantageous due to its cost-effectiveness and the ability to 
+be produced in large quantities quickly using standard granulation 
+equipment. However, the traditional packed bed reactor using granules 
+face a significant pressure drop because of agglomeration after cycling, 
+which can lead to a reduced flow rate of the HTF at the outlet of reactor, 
+especially in a long-size reactor. Additionally, the granules are typically 
+small spheres or cylinders with dense surfaces and low porosity. While 
+this structure may benefit mechanical properties, it can hinder the 
+diffusion rate of O2, a crucial reactant in redox-type TCES systems, 
+thereby impacting on the overall performance of systems. 
+The honeycomb-type TCES modules offer an effective solution to the 
+pressure drop issue encountered in the packed bed reactors. It can adapt 
+a very high flow rate of HTF, meeting the rapid requirements for heat 
+storage and release. There are two sub-types of honeycomb TCES 
+modules: material-coated and material-based honeycomb. The former 
+involves coating redox-type TCES materials onto the surface of common 
+cordierite or SiC honeycomb ceramic matrices [24]. However, this 
+approach is limited by a lower heat storage density, as the thickness of 
+the coating layer is always not sufficient. The latter approach involves 
+directly synthesizing honeycomb structures from redox-type TCES ma­
+terials, addressing the issue of low heat storage density. Nevertheless, 
+this method requires specialized extrusion molding devices and molds, 
+posing challenges for prototype preparation at the laboratory level. 
+In 2015, Agrafiotis et al. pioneered the concept of porous foam TCES 
+Fig. 1. Various type of redox-type TCES module of (a): granules [16]; (b): material-coated honeycomb [18]; (c): material-based honeycombs [21]; (d): porous 
+foams [22]. 
+X. Chen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 3 =====
+
+Chemical Engineering Journal 485 (2024) 149540
+3
+modules. They investigated Co3O4-coated and Co3O4-based porous foam 
+modules as a part of their comprehensive study on Co3O4 [23]. During 
+the experiment of Co3O4-based porous foam modules, they utilized foam 
+with 30 and 45 PPI (pore per inch) to prepare the modules of approxi­
+mately 0.75 cm3 using the PU foam replica method. They claimed that 
+the Co3O4-based porous foam module retained a good integrity and 
+reactivity after 30 thermal cycling tests in TGA. However, the irregular 
+shape of the as-prepared modules made it difficult to observe volume 
+changes before and after the cycling tests. Additionally, they did not 
+assess the specific mechanical properties of these modules. Later, Pein 
+et al. developed a porous cylindrical foam module using the perovskite- 
+structure material CaMnO3 with a maximum size of φ20 × 20 mm [22]. 
+The redox behavior of the CaMnO3-based porous foam module was 
+consistent with that of the powder sample over five TGA cycles, which 
+might be attributed to the non-stoichiometric reaction of perovskite do 
+not exhibit noticeable phase transitions. Subsequently, they conducted 
+two compressive strength tests on the as-prepared modules, revealing 
+the strength of 87.5 and 132.4 kPa. Impressively, the cylindrical integ­
+rity of the modules was well preserved after 46 cycles. 
+In this study, we synthesized a large quantity of the CuMn2O4/ 
+CuMnO2 redox couple using the co-precipitation method. With an eye on 
+the current research trends in TCES modules, our goal is to develop a 
+CuMn2O4/CuMnO2-based porous TCES module with low pressure drop 
+and high reactivity. First, we characterized the samples prepared by the 
+co-precipitation method using conventional materials science analysis 
+techniques. PU foam replica method was used to prepare the CuMn2O4/ 
+CuMnO2-based porous TCES module. We then focused on the effect of 
+preparation conditions (e.g., sintering temperature and holding time) on 
+the mechanical properties (compressive strength), reactivity (redox 
+behavior) and durability of the porous modules and selected the optimal 
+preparation conditions based on the CuMn2O4/CuMnO2 properties. 
+2. Experimental approach 
+2.1. Synthesis and characterization of powder material 
+For efficient larger-scale synthesis, CuMn2O4 (oxidized state of 
+CuMn2O4/CuMnO2 redox couple) was synthesized using a co- 
+precipitation method (Fig. 2) instead of the modified Pechini method 
+we usually used in the previous research. The raw materials were cor­
+responding metal nitrates (Cu(NO3)2⋅3H2O (FUJIFILM Wako Pure 
+Chemical Corp.), Mn(NO3)2⋅6H2O (FUJIFILM Wako Pure Chemical 
+Corp.) and precipitant (Na2CO3 (FUJIFILM Wako Pure Chemical Corp.)). 
+The metal nitrates in the molar ratio of 1: 1 were dissolved in several 
+beakers using the ion-exchange water (IEW, hereinafter referred to as 
+“water”) with the concentration of 0.5 mol/L, and the metal nitrates 
+solution was thoroughly mixed with a powerful stirrer at 700 rpm for a 
+few minutes, resulting in a solution with a pH value of 2.0 approximately 
+after stirring. 
+For the co-precipitation reactions, a high concentration of Na2CO3 
+solution (2 mol/L) was introduced as a pH regulator and precipitant. The 
+Na2CO3 solution was carefully added dropwise into the metal nitrates 
+solution while maintaining a constant stirring rate of 1000 rpm. By the 
+addition of Na2CO3 precipitant, a bright green precipitate was formed, 
+accompanied by the generation of numerous bubbles. The addition of 
+Na2CO3 should be stopped when the pH of the solution changed from 
+acidic to weakly basic, approximately pH of 7.5. The precipitated so­
+lution was set aside for aging at room temperature for 12 h. After the 
+aging treatment, the solution clearly separated into two distinct layers: 
+an upper clarified liquid layer and a lower precipitate layer. The pre­
+cipitate was filtered out using vacuum filtration, and the resulting filter 
+cake was washed three times using water. The filter cake was moved into 
+a vacuum drying oven and dried at 100 ℃ for 12 h. The dried filter cake 
+was crushed and placed in a crucible and heated to 1000 ℃ using a 
+muffle furnace under air atmosphere for 6 h to obtain the crude sample. 
+The crude sample was crushed with a ball mill set (desktop pot mill 
+rotating stand (PM-001, AS ONE Corp.); zirconia balls (φ 20 mm, NIK­
+KATO Corp.); mill pot (BP-2, AS ONE Corp.)). Both the crude sample and 
+the zirconia balls filled one-third of the pot’s internal space. During the 
+ball milling process, the rotation speed of the mill pot was maintained at 
+220 rpm for a duration of 12 h. The resulting powder was sieved through 
+a metal mesh screen (with a pore size of ≤75 µm). This process yielded a 
+final powder sample weighing approximately 7.5 kg. 
+The powder sample was sampled randomly from different batches 
+for physiochemical characterization. The particle size analysis was 
+conducted using a scattering particle size distribution analyzer (LA-920, 
+HORIBA Ltd.) with an ultrasonic dispersion with 1 min. The phase 
+composition of the oxidized state and reduced state powder sample 
+synthesized by co-precipitation method was investigated using X-ray 
+diffraction analysis (XRD) (SmartLab, Rigaku Corp.) with a scanning 
+speed of 5◦/min in 2θ range of 15–90◦. The phase composition of each 
+sample was analyzed using PDXL2 (Rigaku Data Analysis Software). For 
+morphology observations, the oxidized state sample was selected as the 
+representative, and the elemental ratios of Cu and Mn in the system was 
+investigated using scanning electron microscope equipped with energy 
+dispersive spectroscopy (SEM-EDS) (JSM-7500F, JEOL Ltd.). The redox 
+behavior of the powder sample was investigated using TGA (STA7300, 
+HITACHI High-Tech Science Corp.).The heat storage density was 
+measured using thermogravimetry and differential scanning calorimetry 
+(TG-DSC) (STA 449F3, NETZSCH; TGA/DSC 3+, METTLER TOLEDO). 
+Fig. 2. Synthesis schematic of CuMn2O4/CuMnO2 using co-precipitation method.  
+X. Chen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 4 =====
+
+Chemical Engineering Journal 485 (2024) 149540
+4
+2.2. Preparation of porous TCES modules 
+A series of porous TCES modules made entirely of CuMn2O4 material 
+was prepared using the PU foam replica method or so-called sacrificial 
+sponge foam template method. Commercially available open-porous 20 
+× 20 × 20 mm3 cubic polyurethane (PU) foam (Yuanshengxing elec­
+tronic material Co.) with a cell size of 13 ± 2 PPI was used as the tem­
+plate. A PU foam with a larger 13 PPI pore size was selected as the 
+template for better understand the wall formation process in the PU 
+foam replica method and observe the macro-morphology changes after 
+durability tests. 
+The CuMn2O4 slurry was prepared by referring to the literature on 
+porous Al2O3 [25,26,27] and perovskite-type CaMnO3 heat storage 
+structures [22]. The slurry was prepared with 80 wt% CuMn2O4 powder, 
+17 wt% water, and 3 wt% Dolapix CE 64® (Zschimmer & Schwarz 
+Chemie GmbH, Lahnstein, Germany). The Dolapix CE 64® was 
+employed as a dispersant and thickener. The solid component of the 
+slurry constituted approximately 67.5 vol%, with the liquid component 
+accounting for 32.5 vol%. The slurry exhibited a high viscosity (similar 
+to that of mayonnaise), surpassing the maximum test range of 198 Pa⋅s 
+of our laboratory’s equipment during the viscosity measurement. 
+The PU foam was immersed in the slurry and squeezed three times to 
+ensure complete absorption of the slurry. Subsequently, the coated 
+foams were placed on Kimwipes® (Nippon Paper Crecia Co., Ltd.) and 
+any excess slurry was promptly squeezed out. This step primarily aims to 
+prevent the pores on the PU foam’s surface from getting clogged with 
+excess slurry, which could potentially reduce the performance of porous 
+TCES module. 
+After coating, the PU foams were dried at room temperature under 
+air atmosphere for 24 h and then transferred to a muffle furnace (ROP- 
+003H, AS ONE Corp.) for sintering process. 
+The sintering temperatures should be lie between the service tem­
+perature of the TCES module and the melting point of TCES materials. In 
+our previous work [9], we referenced the findings of Driessens et al. [28] 
+that the melting point of Cu-Mn-O system is approximately 1150 ℃ 
+when x(Cu) = 0.5. Considering that the material sample was prepared 
+using the co-precipitation method, potential impurities might decrease 
+its melting point. Therefore, we selected 1100 ℃, slightly lower than the 
+melting point, as the maximum sintering temperature, and set 1000 ℃ 
+as the minimum. The sintering holing time also affects the module’s 
+mechanical and heat storage performance. A short holding time could 
+lead to inadequate sintering, resulting in weak mechanical properties, 
+while an extended holding time might cause the module’s surface to 
+become overly dense, influencing the oxygen diffusion and the heat 
+storage performance. Typically, the sintering holding time of porous 
+materials that prepared by the PU foam replica method is often reported 
+to be between 1 and 3 h [22,25,26,27]. 
+Hence, three different maximum sintering temperatures (1000 ℃, 
+1050 ℃, and 1100 ℃) and three holding times (1.5 h, 3 h, and 6 h) were 
+selected, and the sintering process was carried out at a heating rate of 1 
+℃/min and a cooling rate of 2 ℃/min. Eventually, we obtained nine 
+kinds of module samples sintered under different conditions. The indi­
+vidual samples were named using a combination of sintering tempera­
+ture and holding time. For example, the module sample sintered at 1000 
+℃ for 1.5 h was labeled as “1000–1.5 h”. 
+2.3. Measurement of physical parameters and compressive strength of 
+module samples 
+An electronic balance (GR-202, A&D Co., Ltd.) was used to measure 
+the weight of each module sample. Apparent volume (AV, cm3) and 
+apparent density (AD, g/cm3) were calculated after measuring their 
+lengths, widths, and heights. However, there is a measurement error 
+since the sponge templates used in this study were manually cut. For 
+convenience, the longest side was defined as length (L), followed by the 
+width (W), and lastly the height (H). 
+For true density (TD, g/cm3) measurement, we used a high-precision 
+gas and vapor adsorption analyzer (BELSORP MAX II, MicrotracBEL 
+Corp.) with gas (helium) displacement method. The volume of the 
+chamber (Vchamber) inside the instrument and the volume of the sample 
+cell (Vsample cell) are known parameters before the measurement. After 
+placing the sample in the sample cell, the sample cell and the chamber 
+were vacuumed. The valve between the sample cell and the chamber 
+was then closed. Subsequently, the chamber was filled with a specific 
+amount of helium gas, and the pressure was recorded as P1. Upon 
+opening the valve, the pressure was recorded as P2 after the helium gas 
+was allowed to enter the sample cell. The true volume of the sample can 
+be calculated using Eq. (2). Once we know the TD, the ratio of the AD to 
+this true density can be used to estimate the voidage (%) for each 
+module sample. 
+Vsample = Vsample cell −(P1 −P2) • Vchamber
+P2
+(2) 
+Apparent volumetric heat storage density (AVHSD, kJ/L) was 
+calculated by multiplying the heat storage density (kJ/kg) with the AD 
+(g/cm3). In this study, we used a non-isothermal method to measure the 
+heat storage density, which differs from the isothermal method used in 
+previous studies [9,10]. This difference in measurement approach could 
+influence the values of the AVHSD. Therefore, the range of AVHSD was 
+established using the heat storage densities obtained through two 
+methods. 
+A tensile and compression testing machine (SDW-2000, IMADA Co., 
+Ltd.) was used to test the mechanical compression strength of the nine 
+as-prepared module samples prepared under various sintering temper­
+atures and holding time conditions. 
+It is widely acknowledged that these TCES modules must exhibit a 
+certain level of structural strength to meet the requirements of trans­
+portation and high flow rate of heat transfer fluid without experiencing 
+significant deformation that may affect their heat storage performance. 
+However, the discussion regarding the mechanical strengths of TCES 
+modules (such as honeycombs or granules) have yet to be quantified, 
+possibly because they seem to exhibit a satisfactory strength visually. So 
+far, only Bielsa et al. have made a specific discussion about this aspect, 
+reporting a crushing strength ranging from 0.126 to 0.166 N for 
+Mn0.98Si0.02O3 granules [16]. However, they did not provide a specific 
+compressive strength may because of the absence of a precise definition 
+for the granule’s pressure force area and the specialized testing equip­
+ment. For the porous foam module, Pein et al. tested compressive 
+strength of CaMnO3 porous ceramic foam (φ20 × 10 mm), reporting the 
+maximum values of 132.4 kPa [22]. For comparison, the compressive 
+strength of the Al2O3 porous ceramic foam developed for non-TCES 
+purposes ranged between 1.15 and 1.30 MPa [25,26,27]. 
+In our experiment, a maximum range of 500 N was chosen, and the 
+cross-sectional area of each module sample was measured. The module 
+sample was placed horizontally on the testing bench, and the pressure 
+sensor was manually adjusted to ensure a snug fit against the sample 
+before testing. The testing process involved the pressure sensor gradu­
+ally approaching and pressing the module sample at a rate of 0.08 mm/s. 
+The maximum pressure peak observed within 150 s was recorded as the 
+compressive strength of each module sample. 
+2.4. Evaluation of heat storage performance of module samples 
+2.4.1. Redox behavior 
+Due to the volume constraints within the sample cell of the TGA 
+experimental equipment, it was not feasible to directly observe and 
+measure the comprehensive redox behavior of the TCES module via 
+TGA. As a result, we indirectly investigated the overall redox behavior 
+by using fragments of the module sample, which were obtained by 
+gently crushing the module sample while retaining its porous structure. 
+In this experiment, a heating/cooling TGA temperature programs was 
+used to investigate the redox behavior of the fragments obtained from 
+X. Chen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 5 =====
+
+Chemical Engineering Journal 485 (2024) 149540
+5
+each module sample. The program included heating from 100 ℃ to 
+1000 ℃ at a rate of 20 ℃/min under a synthetic air flow (200 mL/min). 
+After maintaining 1000 ℃ for 30 min, the temperature was gradually 
+decreased at the same rate. 
+Considering that the fragments originated from various sections of 
+individual module samples, each experiment was repeated three times 
+to ensure that the characteristics of the fragments were representative of 
+the entire module sample. 
+2.4.2. Evaluation of durability of module samples 
+A small muffle furnace (ROP-003H, AS ONE Corp.) was used to 
+conduct a durability test directly on TCES modules prepared under nine 
+different conditions, subjecting them to 50 cycles. The modules samples 
+were positioned horizontally on an alumina sintering plate (AS ONE 
+Corp.). The sintering plate was then placed at the center of the muffle 
+furnace and heated from room temperature to 1000 ℃ at a rate of 10 
+℃/min and held for 60 min. Subsequently, the module samples were 
+gradually cooled down to 600 ℃ at a rate of 10 ℃/min, completing a 
+heating–cooling cycling test (the rate of 10 ℃/min was selected due to 
+the limitations of the muffle furnace’s performance). After every five 
+cycles, the module samples were removed from the muffle furnace, and 
+their shape and apparent morphology changes were recorded by pho­
+tographs. Following 50 cycles, the redox behavior of the module samples 
+was re-evaluated using TGA, utilizing the same method as described in 
+Section 2.4.1 to obtain fragments. Additionally, SEM was employed to 
+observe the morphological alterations on the surface of each module 
+sample’s fragments before and after 50 cycles. 
+3. Results and discussion 
+3.1. Characterization of powder material synthesized using co- 
+precipitation method 
+The powder sample synthesized using the co-precipitation method 
+(hereinafter referred to as the Co-pre sample) was tested for the particle 
+size distribution using the scattering particle size distribution analyzer 
+with 1-minute ultrasonic treatment. Fig. S1 presents a representative 
+particle size distribution and the powder sample exhibited particle size 
+sizes smaller than 30 µm the crushing and sieving process. The average 
+d50 (median diameter) is 3.06 ± 0.13 µm, showing a smaller size than 
+the pore size of the screen mesh (75 µm). 
+The XRD pattern of the oxidized and reduced states of the Co-pre 
+powder sample are shown in Fig. 3a and b. For a convenient compari­
+son, the corresponding XRD patterns for the Pechini powder samples are 
+also included. As observed in Fig. 3, the Co-pre powder sample exhibits 
+characteristic peaks matching those of CuMn2O4 (#01-074-1919, 2θ =
+30.48◦, 35.95◦, 57.70◦, 63.43◦) and CuMnO2 (#03-065-2308, 2θ =
+31.31◦, 32.97◦, 37.02◦), similar to the Pechini powder sample. However, 
+small amounts of Na-Mn oxides are also detected in the XRD patterns of 
+the Co-pre powder samples in both the oxidized and reduced states, 
+including Na2MnO7 (#78-0193, 2θ = 15.87◦, 25.28◦) in the oxidized 
+state and NaMnO2 (#73-0156, 2θ = 16.66◦, 37.62◦, 42.75◦) in the 
+reduced state. The presence of Na-Mn oxides is likely related to the use 
+of highly concentrated (2 mol/L) Na2CO3 precipitant during the syn­
+thesis of the Co-pre sample. Interestingly, it appears that Mn forms 
+compounds with Na rather than Cu, resulting in the retention of Cu and 
+the formation of more CuO. This is also the reason why stronger char­
+acteristic peaks of CuO (#01-080-1916, 2θ = 35.52◦, 38.70◦, 48.70◦) 
+and Cu2O (#01-073-6371, 2θ = 36.48◦, 42.35◦, 61.43◦) can be observed 
+Fig. 3. XRD patterns of the Co-pre and Pechini sample in (a): oxidized state and (b): reduced state; (c): SEM image of the Co-pre sample; (d): SEM-EDS elemental 
+ratio analysis. 
+X. Chen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 6 =====
+
+Chemical Engineering Journal 485 (2024) 149540
+6
+in the XRD patterns of the Co-pre powder samples. In addition, the Zr- or 
+Al-oxides are not observed in the XRD pattern, suggesting that the 
+samples remained uncontaminated throughout the ball milling process. 
+SEM was used to investigate the microscopic morphology of the Co- 
+pre powder sample. The representative SEM image of the Co-pre powder 
+sample (Fig. 3c) reveals most of the particles lie between 2 and 3 µm, 
+consistent with the results mentioned in the particle size distribution 
+experiment described earlier. Furthermore, we conducted a metal 
+elemental ratio analysis using EDS. As discussed in the previous XRD 
+analysis, it was evident that the Co-pre powder sample contains a small 
+amount of Na-Mn oxide impurities. Therefore, the elemental ratio of Na 
+is also considered. As shown in Fig. 3d, the ratio of Cu in both the Co-pre 
+and Pechini powder samples consistently shows slightly lower than that 
+of Mn. This discrepancy may be attributed to the sensitivity of EDS to 
+specific elements’ wavelengths. Additionally, during the synthesis of the 
+Co-pre powder sample, a highly concentrated Na2CO3 precipitant with 
+strong alkalinity was used. This may have led to the formation of some 
+soluble complexes from the former precipitated Cu(OH)2 under local­
+ized strong alkaline conditions because Cu(OH)2 is also dissoluble in the 
+strong alkali [29] such as NaOH or NH3⋅H2O, resulting in a worse pre­
+cipitation of Cu2+. This could also account for why the elemental ratio of 
+Cu in the Co-pre powder sample remains lower than that in the Pechini 
+sample even after neglecting the Na content in the Co-pre powder 
+sample (Fig. 3d). 
+Furthermore, the two types of powder samples were tested using 
+TGA and TG-DSC. Fig. 4a presents the redox behavior of the Co-pre and 
+Pechini powder samples. Both the Co-pre and Pechini powder samples 
+exhibits two reduction steps. The first reduction is a non-stoichiometric 
+reaction, as discussed in our previous study [10]. The second reduction 
+involves a phase transition reaction, significantly contributing to the 
+heat storage density, specifically the phase transition of Cu-Mn oxides 
+from spinel to delafossite structure. It is noteworthy that the Co-pre 
+powder sample initiated its first reduction at a much lower tempera­
+ture compared to the Pechini powder sample (100 ℃ vs. 500 ℃), and the 
+former exhibits a larger weight loss during the first reduction (2.53 % vs. 
+1.20 %). Additionally, the Co-pre powder sample only returned to 98.14 
+% of its initial weight during oxidation, while the Pechini sample could 
+reach 99.52 %. This phenomenon suggests that the first reduction of the 
+Co-pre powder sample included a partial decomposition reaction of Na- 
+Mn oxides, possibly explaining the presence of Na-Mn oxides in different 
+forms in the XRD pattern of Co-pre powder sample’s reduced state. 
+Interestingly, based on the TGA results, it shows challenging for Na-Mn 
+to re-oxidize within a short period once they decomposed completely. 
+However, the decomposition reaction equation of Na-Mn oxides remains 
+unclear at present. When we exclude the effect by the decomposition of 
+Na-Mn oxides, the Co-pre and Pechini powder samples demonstrate 
+nearly identical redox behavior, as evidenced the maximum weight 
+changes by using the weight gain of oxidation during cooling process 
+(Co-pre: 4.01 ± 0.06 %; Pechini: 4.26 ± 0.05 %). 
+A typical DSC curve is shown in Fig. 4b. The Co-pre powder sample 
+exhibits a reduction enthalpy of 144.78 ± 36.81 kJ/kg and oxidation 
+enthalpy of 128.81 ± 10.01 kJ/kg, which are close to the reduction 
+enthalpy of 144.78 ± 12.50 kJ/kg and oxidation enthalpy of 141.04 ±
+33.96 kJ/kg demonstrated by the Pechini powder sample. Considering 
+the heat loss during the measurement of oxidation enthalpy, the 
+enthalpy of reduction was used as the representative value for the heat 
+storage density of the power sample ultimately. These findings are very 
+close to the values of 144 kJ/kg reported by Hlongwa et al. [30] in their 
+investigation of CuMn2O4 heat storage materials and the 145 kJ/kg 
+reported by Andr´e et al. [31]. However, it remains lower than the heat 
+storage density of 236.11 ± 5.40 kJ/kg measured through the 
+isothermal DSC method in our prior study [9–11]. The reason for this 
+divergence lies in the fact that we utilized a completely reduced state 
+(synthesized at 1000 ℃ under an Ar atmosphere) during the isothermal 
+DSC measurement, which potentially results in a larger reduction depth 
+(maximum weight change of approximately 6 %) compared to samples 
+reduced at 1000 ◦C under atmospheric air conditions. 
+In summary, aside from the presence of some Na-Mn oxide impu­
+rities, there are no significant differences in phase composition, redox 
+behavior, and heat storage density between the Co-pre and Pechini 
+powder samples. Consequently, we chose to proceed with the Co-pre 
+powder sample for the further preparation of the TCES module. 
+3.2. Appearance, parameter, and mechanical strength of module samples 
+The appearance of the individual TCES module samples prepared 
+under different conditions is depicted in Fig. 5a and b. In these figures, 
+these module samples are organized in a specific pattern. From left to 
+right, the first to third rows represent the samples sintered at 1000 ℃, 
+1050 ℃, and 1100 ℃, respectively. Similarly, from up to down, the first 
+to third columns represent the samples with holding times of 1.5 h, 3 h, 
+and 6 h, respectively. 
+The sintered module samples effectively retain the porous structure 
+of the PU foam, and their pores remain unblocked despite the use of 
+viscous slurry. The physical parameters of the prepared module samples 
+are listed in Table 1. It is worth noting that the module samples sintered 
+at various temperatures show different levels of volumetric shrinkage. 
+The sample sintered at 1100 ℃ for 6 h exhibits the highest AD of 0.65 ±
+0.09 g/cm3, while the sample sintered at 1000 ℃ for 1.5 h shows a 
+significantly lower AD of 0.35 ± 0.03 g/cm3. When compared to the 
+initial volume of the PU foam temperature (20 × 20 × 20 mm3), the 
+sample sintered at 1000 ℃, 1050 ℃, and 1100 ℃ exhibits volumetric 
+shrinkage ranging from 16.13 to 29.38 %, 43.00 to 46.50 %, and 46.00 
+to 50.50 %, respectively. The trend in TD closely reflects that of the AD, 
+both increasing with a higher sintering temperature. However, it should 
+be noted that although density varied with sintering temperature and 
+holding time, the voidage of the module samples consistently remains 
+within a narrow range of 83.16 % to 88.60 %, showing a minimal 
+fluctuation trend. By using the heat storage densities determined 
+through both non-isothermal and isothermal methods, it is easy to know 
+Fig. 4. (a): Redox behavior of the Co-pre and Pechini powder sample; (b): DSC curve of the Co-pre and Pechini powder sample.  
+X. Chen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 7 =====
+
+Chemical Engineering Journal 485 (2024) 149540
+7
+the apparent volumetric heat storage densities of the prepared module 
+sample. Specifically, the sample sintered at 1100 ℃ for 6 h shows the 
+highest heat storage density of 152.65 kJ/L. 
+Furthermore, the module samples exhibit varying colors depending 
+on the sintering temperature. The 1000 ℃ samples display an earthy 
+yellow color, while the 1050 ℃ and 1100 ℃ samples appear dark gray. 
+These differences in color may be closely associated with the degree of 
+sintering, where darker colors suggest a denser surface for the samples. 
+We performed the compressive strength tests on the TCES modules 
+using a tensile and compression machine. In the before-and-after com­
+parison graph (Fig. 5c) for a representative 1050–3 h sample, it is 
+evident that the sample did not collapse entirely during the 3-minute 
+compression test. Instead, it gradually fractures along the upper and 
+lower contact surfaces. This phenomenon is also observable in the 
+pressure-versus-time graph (Fig. S2): in most cases, the samples tend to 
+break gradually rather than abruptly as the pressure is gradually 
+increased, as indicates by the absence of sudden pressure change. Fig. 5d 
+shows that the compressive strength of modules gradually increases with 
+rising sintering temperature. This trend can be attributed to higher 
+temperatures facilitating the densification of the pore wall surfaces on 
+the modules during the sintering process. Impressively, the 1100–6 h 
+module sample exhibits the highest compressive strength of 105.00 ±
+10.08 kPa. The impact of holding time on compressive strength is 
+obviously evident in module sample sintered at 1100 ℃. However, at 
+lower sintering temperatures of 1050 ℃ or 1000 ℃, extending the 
+holding time results in only a slight improvement in compressive 
+strength. 
+Fig. 6 illustrates the sintering mechanism of the porous module 
+sample prepared by the PU foam replica method. Initially, the PU foam 
+template (Fig. 6a) is immersed in slurry and thoroughly dried, causing 
+solid particles to adhere to the foam pore walls (Fig. 6b). The PU foam 
+gradually decomposes when heating in a muffle furnace, causing the 
+Fig. 5. (a): Appearance of module samples (View #1); (b): Appearance of module samples (View #2); (c): Before-and-after comparison of compressive strength test 
+for a representative 1050–3 h sample; (d): Compressive strength for each module sample. 
+Table 1 
+Various physical parameters of prepared module samples.  
+Sample 
+Weight (g) 
+Length (mm) 
+AV (cm3) 
+AD (g/cm3) 
+TD (g/cm3) 
+Voidage (%) 
+AVHSD(kJ/L) 
+L 
+W 
+H 
+1000–1.5 h 
+2.32 ± 0.29 
+19.9 ± 0.2 
+18.9 ± 0.2 
+17.9 ± 0.2 
+6.71 ± 0.15 
+0.35 ± 0.03 
+3.05 ± 0.43 
+88.66 ± 1.94 
+50.09–81.69 
+1000–3 h 
+2.51 ± 0.25 
+19.3 ± 0.4 
+18.4 ± 0.4 
+17.0 ± 0.0 
+6.01 ± 0.13 
+0.42 ± 0.04 
+3.31 ± 0.50 
+87.39 ± 2.27 
+60.42–98.53 
+1000–6 h 
+2.57 ± 0.27 
+18.5 ± 0.9 
+17.5 ± 0.5 
+17.5 ± 0.9 
+5.65 ± 0.16 
+0.46 ± 0.05 
+3.36 ± 0.48 
+86.45 ± 2.42 
+65.91–107.48 
+1050–1.5 h 
+2.33 ± 0.18 
+17.0 ± 0.0 
+16.4 ± 0.4 
+15.4 ± 0.2 
+4.28 ± 0.15 
+0.54 ± 0.03 
+3.23 ± 0.46 
+83.16 ± 2.62 
+78.66–128.29 
+1050–3 h 
+2.50 ± 0.22 
+18.0 ± 0.0 
+16.8 ± 0.4 
+15.1 ± 0.7 
+4.56 ± 0.33 
+0.55 ± 0.04 
+3.61 ± 0.58 
+84.81 ± 1.08 
+79.36–129.43 
+1050–6 h 
+2.60 ± 0.17 
+17.7 ± 0.5 
+17.0 ± 0.8 
+15.3 ± 1.2 
+4.60 ± 0.46 
+0.57 ± 0.02 
+3.88 ± 0.66 
+85.40 ± 2.57 
+82.04–133.79 
+1100–1.5 h 
+2.41 ± 0.15 
+17.7 ± 0.5 
+16.5 ± 0.4 
+14.2 ± 0.5 
+4.13 ± 0.23 
+0.59 ± 0.07 
+4.04 ± 0.73 
+85.50 ± 3.10 
+84.89–138.44 
+1100–3 h 
+2.58 ± 0.12 
+17.0 ± 0.7 
+16.0 ± 0.7 
+15.3 ± 0.4 
+4.15 ± 0.28 
+0.62 ± 0.03 
+4.31 ± 0.82 
+85.52 ± 2.86 
+90.29–147.25 
+1100–6 h 
+2.59 ± 0.25 
+17.3 ± 0.9 
+15.7 ± 0.5 
+14.8 ± 0.2 
+4.03 ± 0.25 
+0.65 ± 0.09 
+4.65 ± 0.72 
+86.09 ± 3.35 
+93.60–152.65  
+X. Chen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 8 =====
+
+Chemical Engineering Journal 485 (2024) 149540
+8
+adhered particles to coalesce (Fig. 6c). With further temperature in­
+crease, these particles continue to sinter and interconnect, resulting in 
+grain growth and a gradual reduction in voids, forming a dense pore wall 
+surface (Fig. 6d). 
+3.3. Redox behavior of module samples 
+TGA was used to investigate the redox behavior of each module 
+sample under an air atmosphere within the temperature range of 100 to 
+1000 ℃. In Fig. 7a, the module samples sintered at 1000 ℃ with 
+different holding times exhibits small variations in their redox behavior. 
+Notably, the TGA tests conducted on these module samples did not 
+reveal an obvious decomposition of the Na-Mn oxides. The impact of 
+holding time on the redox behavior of the module samples is evident in 
+the samples sintered at 1050 ℃, as shown in Fig. 7b. For example, the 
+1050–6 h sample fails to achieve a satisfactory reduction depth during 
+TGA tests when held at 1000 ℃ for 30 min. This phenomenon is even 
+more observable in the 1100 ℃ sample. Additionally, it is noteworthy 
+that the 1100 ℃ sample exhibits a special weight gain during the heating 
+process in the TGA test, as shown in Fig. 7c. This weight gain may be 
+attributed to the fact that the cooling process of the 1100 ℃-sintered 
+module sample is unable to ensure complete transformation from the 
+high-temperature-reduced state to the room-temperature-oxidized state, 
+even with a slow cooling rate of 2 ◦C/min. Consequently, the 1100 ℃ 
+sample retains a portion of the reduced state, and when the module 
+sample is reheated, oxidation reactions occurred preferentially before 
+reaching the phase equilibrium temperature, resulting in the observed 
+weight gain. 
+To eliminate the influence of impurities on the redox behavior 
+analysis of each sample, the weight gain during the cooling process was 
+used as maximum weight change for relative comparison. As shown in 
+Fig. 7d, the 1000 ◦C sample exhibits a maximum weight change very 
+close to that of the Co-pre and Pechini powder samples. However, as the 
+sintering temperature is increased and the sintering holding time is 
+extended, the maximum weight change decreases, indicating a degra­
+dation in the redox and thermal storage properties of the module 
+samples. 
+3.4. Durability of module samples 
+The durability of each module sample was tested by 50 cycles of 
+heating and cooling using a small muffle furnace. Photographs of the 
+module sample after 0, 1, 5, 10, 20, 30, 40, and 50 cycles were selected 
+for representative analysis (Fig. 8) and their positions remained un­
+changed throughout the experiment. After 50 cycles, all samples retain 
+their porous structure, but it should be noted that they also exhibit some 
+degree of volume expansion. Accurately quantifying the volumetric 
+expansion of the module samples during the cycling test is a challenge 
+because they also experienced some irregular distortion. The 1000 ℃ 
+sample exhibits more noticeable distortion, however, the 1100 ℃ 
+Fig. 6. (a): PU foam pore wall (gray area) before immersed into slurry; (b): PU 
+foam pore wall adhered by CuMn2O4/CuO particles (purple balls); (c): 
+Decomposition of PU foam and coalescence of particles; (d): Sintering and 
+interconnection of particles, resulting in dense pore wall surface. 
+Fig. 7. Redox behavior under an air atmosphere in 100–1000 ℃ for (a) 1000 ℃ module sample; (b) 1050 ℃ module sample, (c) 1100 ℃ module sample; (d): 
+Maximum weight gain for each sample. 
+X. Chen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 9 =====
+
+Chemical Engineering Journal 485 (2024) 149540
+9
+sample only exhibits a minor change. For instance, the surface of the 
+1000–1.5 h sample shows a tendency to concave inward after 50 cycles. 
+This is attributed to the fact that the particles in the porous walls of the 
+1000 ℃ module samples are not densely packed, resulting in gradual 
+deformation during the heating and cooling cycles. In addition, there are 
+observable color differences among the module samples. The 1000 ℃ 
+module sample deepened its earthy yellow color after just one cycle and 
+transformed to the same dark gray color as the fresh 1050 ℃ and 1100 
+Fig. 8. Photographs of each module sample after 0, 1, 5, 10, 20, 30, 40 and 50 cycles.  
+Fig. 9. Redox behavior under an air atmosphere in 100–1000 ℃ for (a) 1000 ℃ module sample after 50 cycles, (b) 1050 ℃ module sample after 50 cycles, (c) 1100 
+℃ module sample after 50 cycles; (d): Maximum weight gain for each sample after 50 cycles. 
+X. Chen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 10 =====
+
+Chemical Engineering Journal 485 (2024) 149540
+10
+℃ samples after five cycles. Interestingly, the 1050 ℃ and 1100 ℃ 
+module samples also exhibit a slight change in color, transforming from 
+dark gray to a brighter gray. This suggests that the surface morphology 
+of the module samples may have changed. 
+It can be roughly inferred from visual and tactile inspections that the 
+compressive strength of the module sample has changed after 50 cycles 
+durability test. The module samples sintered at 1000 ℃ exhibits an 
+enhanced strength, while the 1050 ℃ and 1100 ℃ module samples are 
+slightly weakened. Efforts were initiated to measure the compressive 
+strength of each module sample after 50 cycles using the same tensile 
+and compression machine. However, the precise quantification of their 
+compressive strength was challenging due to the irregular distortion 
+generated by cycling test. The distortion obstructed the module samples 
+from satisfying the flatness criterion for the ordinary compressive 
+strength measurement, as the force application area could not be 
+delineated accurately. 
+The redox behavior of the module samples after 50 cycles was further 
+investigated, and the results are shown in Fig. 9. Surprisingly, the redox 
+activities of each module sample exhibit a degree of recovery after 
+cycling, which can be distinguished from an increase in the maximum 
+Fig. 10. (a): SEM image of as-prepared 1100–6 h module sample’s fragment; (b): Surface morphology of as-prepared 1100–6 h module sample; (c): SEM image of 
+1100–6 h module sample’s fragment after 50 cycles; (d): Surface morphology of 1100–6 h module sample’s fragment after 50 cycles; (e): A specific rod-like crystallite 
+within the 1100–1.5 h sample; (f): Continuous EDS point-scan analysis for the rod-like crystallite. 
+X. Chen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 11 =====
+
+Chemical Engineering Journal 485 (2024) 149540
+11
+weight loss and a decrease in the reduction onset temperature. The 
+performance of the 1000 ℃ module sample exhibits no change after 
+cycling, while the 1050 ℃ module sample shows a slight improvement. 
+Notably, the 1100 ℃ module sample, which previously had difficulty 
+experience redox reactions, now exhibits TGA curves similar to those of 
+the 1000 ℃ and 1050 ℃ samples. 
+To explore how the reactivity of the module samples changes with an 
+increasing number of cycles, we specifically chose 1100-6h module 
+sample as a typical representative one. The reactivity after 0, 1, 5, 10, 
+20, 30, 40, and 50 cycles were investigated with detail. Fig. S3 indicates 
+that the reactivity of 1100–6 h module sample progressively recovers as 
+the number of cycles increases. Although the reactivity of the 1100–6 h 
+sample exhibits some fluctuations during the cycling process, a certain 
+degree of linearity in these changes can still be observed. 
+This phenomenon may be linked to the changes in microscopic 
+morphology of the module sample surfaces. For further exploration, 
+SEM observation was performed to investigate the microscopic 
+morphology of each sample before and after cycling. 
+SEM images of representative 1100–6 h module samples before and 
+after 50 cycles are presented in Fig. 10a–d. Before the cycling test, the 
+surface of the as-prepared 1100–6 h module sample appeared dense, 
+with no obvious pore structure (Fig. 10b). However, after 50 cycles, 
+pores of several-micron-pores in size had formed on the sample’s surface 
+(Fig. 10d). This pore structure increases the surface area exposed to 
+oxygen, facilitating the apparent diffusion rate of oxygen on the sam­
+ple’s surface. This is the primary reason for the performance recovery 
+observed in the module sample’s TGA test after cycling. 
+The formation of these pores appears to be linked to the reduction 
+process of the module samples. During the high-temperature reduction 
+process, oxygen releases from the samples and expands small pre- 
+existing surface pores, turning them into larger openings. Simulta­
+neously, the sintering of particles at high temperatures and the 
+decreasing of grain boundaries resulted in a shrinkage in the volume 
+fraction of solids, preserving the pore structures. Subsequently, we 
+performed a quantitative analysis of the changes in pore size before and 
+after cycling for each module samples. This was achieved by using SEM 
+images (Figs. S4, S5, and S6) and analyzing them with ImageJ software. 
+The results are listed in Table S1. According to the table, the pore size of 
+the module samples sintered at 1000 ℃ increase from approximately 3 
+µm to 11 µm. Interestingly, the samples sintered at 1050 ℃ and 1100 ℃ 
+develope a pore structure with sizes ranging from approximately 6 µm to 
+13 µm after 50 cycles. However, it appears that there is no distinct 
+correlation between the size of the pore structure formed and the sin­
+tering conditions. It is also worth noting that the presence of pores can 
+also damage the macroscopic mechanical strength of the module sam­
+ples while the formation of pores enhances reactivity. 
+Expect for the 1100–3 h and 1100–6 h module samples, we observed 
+needle-like crystallites in nearly all as-prepared module samples, which 
+significantly differ from the typical CuMn2O4 morphology. Additionally, 
+more robustly grown rod-like crystallites exist in the 1050–6 h and 
+1100–1.5 h module samples. To identify the composition of a specific 
+rod-like crystallite within the 1100–1.5 h sample (Fig. 10e), we per­
+formed a continuous EDS point-scan analysis. These results indicate that 
+it is primary constitute by Cu and O element (Fig. 10f). Based on this, it is 
+reasonable to deduce that the crystallite is composed of CuO, and it has 
+been previously reported in the literature that CuO is readily to form 
+nanowire or nanorod structures during some specific conditions 
+[32,33,34]. 
+In fact, the presence of CuO nanowires or nanorods is unfavorable for 
+the reaction system in this study. This is because CuO is one of the re­
+actants in the reaction system, as shown in equation (Eq. (3)) below. 
+When CuO agglomerates to form larger crystals, it reduces the contact 
+area with CuMn2O4 crystals. Consequently, the reaction may deviate 
+from equation (Eq. (3)) and follow another equation (Eq. (4)) instead. In 
+this case, less oxygen is released during the decomposition of 1 mol of 
+CuMn2O4, directly affecting the heat storage density due to the reduced 
+formation of CuMnO2. 
+CuMn2O4 + CuO ⇔2CuMnO2 + 1
+2O2
+(3)  
+CuMn2O4 ⇔CuMnO2 + 1
+3Mn3O4 + 1
+3O2
+(4) 
+While most of the CuO nanowires on the surface nearly disappeared 
+after cycling, by chance, a significant amount of CuO nanowires was still 
+present in the 1050–6 h module samples. This observation may clarify 
+why, despite the performance (maximum weight gain) has recovered 
+after cycling, the 1050–6 h module samples still exhibit poor perfor­
+mance compared to the 1050–1.5 h and 1050–3 h module samples that 
+sintered at the same temperature. Additionally, the data of 1050–6 h 
+module sample (Fig. 9d) exhibits a large deviation, indicating a more 
+pronounced accumulation of CuO nanowires occurred in this situation. 
+3.5. Optimal preparation conditions and comparison with literatures 
+From the perspective of practical application, we identified the 
+optimal preparation conditions for CuMn2O4/CuMnO2-based porous 
+TCES modules as a sintering temperature of 1100 ℃ and a holding time 
+of 6 h. Although the initial redox of the module samples prepared under 
+this condition was limited by oxygen diffusion, their redox behavior 
+recovered to a satisfactory level after cycling test which is almost close to 
+that of other module samples. Notably, these module samples exhibited 
+good mechanical strength, less distortion, and excellent structural 
+integrity after 50 cycles. Additionally, we have summarized the pa­
+rameters of currently reported porous foam TCES modules in Table 2 for 
+Table 2 
+Comparison between currently reported porous foam modules for redox-type 
+TCES.  
+Module type 
+Porous foams 
+Material-coated 
+Material-based 
+Material* 
+Co3O4-SiC, Al2O3, 
+ZrO2, Cordierite, 
+SiC, SiSiC, etc  
+[24]. 
+Co3O4  
+[23] 
+CaMnO3  
+[22] 
+CuMn2O4 
+(this work) 
+Heat storage 
+density of pure 
+material** 
+Aver. 480 kJ/kg [35] 
+272 kJ/kg 
+145–236 
+kJ/kg 
+(94–153 
+kJ/L) 
+Material loading 
+wt% 
+13.5–33.4 % 
+100 % 
+100 % 
+100 % 
+Best redox 
+performance*** 
+42.2 % 
+~92.0 
+% 
+~100 % 
+89.5 % 
+Max. durability 
+tested 
+100 cycles 
+100 
+cycles 
+46 cycles 
+50 cycles 
+Mechanical 
+strength 
+Same as supports 
+/ 
+87.5–132.4 
+kPa 
+105.0 kPa 
+PU foam used and 
+sintering 
+conditions 
+30 PPI (supports); 
+800 ℃, 4 h 
+30, 45 
+PPI; 
+800 ℃, 
+4 h 
+30 PPI; 
+1350 ℃, 3 h 
+13 PPI; 
+1100 ℃, 
+6 h 
+Experimental 
+results 
++ Simple 
+preparation and 
+low cost 
++ Adaptable for a 
+high flow rate of 
+HTF 
++ Good 
+mechanical and 
+chemical stability 
+- Limited heat 
+storage density due 
+to low loading rate 
++ Simple preparation and low cost 
++ Adaptable for a high flow rate of HTF 
++ Heat storage density, porosity, and 
+shape can be adjusted by PU foam 
+template 
+- Weak mechanical strength 
+- Difficult to prepare a larger size in 
+monolith 
+* Materials are presented in their oxidized forms. 
+** Only the values of chemical reaction heat measured by DSC are included. 
+*** By comparing weight change of modules/weight change of powder at first 
+cycle. 
+X. Chen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 12 =====
+
+Chemical Engineering Journal 485 (2024) 149540
+12
+comprehensive comparison. 
+As highlighted in the introduction, the porous foam modules possess 
+a crucial feature: the adaptability of large HTF flow rates. This feature is 
+essential for rapid heat storage and release, a characteristic that also 
+shares with the honeycomb module. However, the porous foam modules 
+do not involve in complicated and high-cost preparation. Unlike the 
+material-coated modules based on Al2O3 or ZrO2 porous foam supports, 
+this study utilizes the PU form replica method to prepare porous foam 
+modules directly from CuMn2O4/CuMnO2, which was named as 
+material-based modules. Theoretically, this method is expected to 
+enhance the heat storage density compared to the former one when the 
+same heat storage material is used. 
+Table 2 shows that the similarity between the CuMn2O4/CuMnO2- 
+based modules developed in this study and the literature-reported 
+CaMnO3-based porous modules on reactivity, heat storage densities, 
+and durability. However, the mechanical properties of the former are 
+slightly lower, mainly due to differences in voidage and -porosity since 
+different PU foam template and various sintering temperatures were 
+used. Although the PU foams of 30 PPI were used as templates in most of 
+the prior studies, we chose a cubic PU foam with a larger 13 PPI pore size 
+to better understand the wall formation process in the PU foam replica 
+method and observe the macro-morphology changes during durability 
+tests. Additionally, the perovskite-type CaMnO3 material requires 
+different sintering temperatures as it does not undergo significant phase 
+transitions. This phenomenon causes its oxygen uptake and release be­
+haviors are different from those of CuMn2O4, which typically experi­
+ences larger weight change. 
+In general, the performance of material-based porous foam modules 
+prepared from the same material is related to two key factors: voidage 
+and porosity. Higher voidage results in lower pressure drops and faster 
+heat storage and release rates but reduces heat storage density. 
+Conversely, smaller voidage increases heat storage density but may 
+cause larger pressure drops. Porosity affects reactivity and mechanical 
+strength; larger porosity enhances reactivity but diminishes mechanical 
+strength, and vice versa. 
+While the material-coated porous foam modules have superior me­
+chanical strength (primarily dependent on the support’s strength), the 
+material-based modules possess higher heat storage densities, which 
+offer a promising modularization concept for fixed-bed thermochemical 
+reactors without frequent equipment transportation needs. However, 
+the PU foam replica method might face issues like deformation or 
+collapse with larger size modules, suggesting the use of multiple smaller- 
+sized modules for stacking will be a wise choice. 
+4. Conclusions 
+In this study, we developed CuMn2O4/CuMnO2-based porous foam 
+TCES modules that are adaptable to various HTF flow rates and exhibit 
+high reaction activity. Initially, we used the co-precipitation method to 
+produce CuMn2O4/CuMnO2 in large quantities. We then performed 
+XRD, TG, and DSC analysis to compare the materials synthesized by both 
+the co-precipitation method and the Pechini method we used in previous 
+study. The findings revealed that there are no significant differences 
+between the material synthesized by the two different methods, expect 
+for the presence of a small amount of Na-Mn oxide impurities in the co- 
+precipitation sample. Subsequently, we employed the co-precipitation 
+material to prepare CuMn2O4/CuMnO2-based porous foam modules 
+using the PU foam replica method with a size of 20 × 20 × 20 mm3 and 
+pore sizes of 13 PPI. The focus of this study is to investigate how various 
+preparation conditions, specifically sintering temperature and holding 
+time, influence the mechanical properties, reactivity, and durability of 
+these module samples. The results indicate that the modules’ compres­
+sive strength improves with higher sintering temperature and extended 
+holding time. This improvement is likely due to the densification of 
+particles within the module walls under these conditions. However, we 
+also noticed a deterioration in redox behavior during TG heating and 
+cooling tests as the sintering temperature and holding time increased. A 
+durability test of 50 cycles was then conducted on monolithic module 
+samples using a small muffle furnace. After 50 cycles, the modules 
+maintained their integrity but exhibited variations in volume expansion 
+and color changes. Further investigation on the redox behavior of the 
+after-cycling samples through TG revealed a surprising recovery in 
+reactivity, particularly in samples sintered at 1050 ◦C and 1100 ◦C. SEM 
+observations of the module samples’ fragments, both before and after 
+cycling, showed that a dense surface formed pores of about several-µm 
+after 50 cycles, which likely contributed to the reactivity’s recovery. 
+Additionally, the formation of nanowire CuO on the surface of some 
+samples was observed and we believe this formation is unfavorable to 
+the reaction. Although the exact mechanism remains unclear, interest­
+ingly, this phenomenon diminished with an increase in the number of 
+cycles. 
+After evaluating the material characteristics, mechanical properties, 
+reactivity, and durability, we determined that the optimal preparation 
+conditions for CuMn2O4/CuMnO2-based porous foam TCES modules are 
+a sintering temperature of 1100 ◦C and a holding time of 6 h. Addi­
+tionally, our comparison with current research trends in various porous 
+foam TCES modules leads us to conclude that the material-based porous 
+foam modules are a promising option for designing fixed-bed reactors in 
+redox-type TCES systems. However, it is important to acknowledge the 
+current limitations, particularly the weak mechanical strength of these 
+modules and the challenges in fabricating larger sizes, which should be 
+further investigated in future studies. 
+Declaration of Generative AI and AI-assisted technologies in the 
+writing process 
+During the preparation of this work the author(s) used ChatGPT in 
+order to improve language and readability. After using this tool/service, 
+the author(s) reviewed and edited the content as needed and take(s) full 
+responsibility for the content of the publication. 
+CRediT authorship contribution statement 
+Xiaoyu Chen: Writing – review & editing, Writing – original draft, 
+Visualization, Validation, Software, Project administration, Methodol­
+ogy, Investigation, Funding acquisition, Formal analysis, Data curation, 
+Conceptualization. Mitsuhiro Kubota: Writing – review & editing, 
+Writing – original draft, Validation, Supervision, Project administration, 
+Methodology, Investigation, Funding acquisition, Conceptualization. 
+Noriyuki Kobayashi: Supervision, Project administration, Funding 
+acquisition, Conceptualization. Shusen Lin: Writing – review & editing, 
+Investigation, Formal analysis, Data curation. Lisheng Deng: Writing – 
+review & editing, Investigation, Formal analysis, Data curation. Jun Li: 
+Writing – review & editing, Investigation, Formal analysis, Data cura­
+tion. Seiji Yamashita: Writing – review & editing, Writing – original 
+draft, Methodology, Investigation, Formal analysis, Data curation. 
+Hideki Kita: Writing – review & editing, Supervision, Project adminis­
+tration, Funding acquisition, Conceptualization. 
+Declaration of competing interest 
+The authors declare the following financial interests/personal re­
+lationships which may be considered as potential competing interests: 
+Mitsuhiro Kubota reports financial support was provided by Iketani 
+Science and Technology Foundation, Grant Number 0341185-A. Xiaoyu 
+Chen reports financial support was provided by Grant-in-Aid for JSPS 
+Fellows, Grant Number 23KJ1071. Xiaoyu Chen reports financial sup­
+port was provided by JST SPRING, Grant Number JPMJSP2125. If there 
+are other authors, they declare that they have no known competing 
+financial interests or personal relationships that could have appeared to 
+influence the work reported in this paper. 
+X. Chen et al.                                                                                                                                                                                                                                    
+
+
+===== Page 13 =====
+
+Chemical Engineering Journal 485 (2024) 149540
+13
+Data availability 
+Data will be made available on request. 
+Acknowledgments 
+This work was financially supported by Iketani Science and Tech­
+nology Foundation (Grant Number: 0341185-A) and JST SPRING (Grant 
+Number JPMJSP2125). The author (Initial) would like to take this op­
+portunity to thank the “Interdisciplinary Frontier Next-Generation 
+Researcher Program of the Tokai Higher Education and Research Sys­
+tem”. This work was also supported by Grant-in-Aid for JSPS Fellows, 
+Grant Number 23KJ1071. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.cej.2024.149540. 
+References 
+[1] A.J. Carrillo, J. Gonz´alez-Aguilar, M. Romero, J.M. Coronado, Solar energy on 
+demand: a review on high temperature thermochemical heat storage systems and 
+materials, Chem. Rev. 119 (7) (2019) 4777–4816. 
+[2] T. Block, M. Schmücker, Metal oxides for thermochemical energy storage: a 
+comparison of several metal oxide systems, Sol. Energy 126 (2016) 195–207. 
+[3] Y. Portilla-Nieto, A. Zaki, K. Vidal, M. Hernaiz, E. Aranzabe, S. Doppiu, A. Faik, 
+Development of Co3-XNixO4 materials for thermochemical energy storage at lower 
+red-ox temperature, Sol. Energy Mater. Sol. Cells 2021 (230) (November 2020) 
+111194. 
+[4] Y. Portilla-Nieto, D. Bielsa, J.-L. Dauvergne, M. Hernaiz, E. Aranzabe, S. Doppiu, 
+E. Palomo del Barrio, Development of a kinetic model for the redox reactions of 
+Co2.4Ni0.6O4 and SiO2/Co2.4Ni0.6O4 Oxides for thermochemical energy storage, 
+Materials (basel) 15 (10) (2022) 3695. 
+[5] Y. Portilla-Nieto, K. Vidal, M. Hernaiz, E. Aranzabe, S. Doppiu, E. Palomo del 
+Barrio, Development and stabilization of Co2.4Ni0.6O4 material for long-term 
+thermochemical energy storage, J. Energy Storage 52 (PB) (2022) 104876. 
+[6] L. Liu, Z. Zhou, X.E. Cao, Y. Zhou, D. Peng, Y. Liu, X. Liu, M. Xu, Screening of 
+optimal dopants on cobalt-based ceramics for high-temperature thermochemical 
+energy storage, Ceram. Int. 49 (2) (2023) 2329–2339. 
+[7] L. Liu, Z. Zhou, Y. Zhou, D. Peng, X. Liu, M. Xu, Co2.8Mg0.2O4 as a promising 
+thermochemical energy storage material with lower reduction onset temperature 
+and higher energy density, J. Energy Storage 55 (PB) (2022) 105594. 
+[8] X. Chen, M. Kubota, S. Yamashita, H. Kita, Investigation of Sr-based perovskites for 
+redox-type thermochemical energy storage media at medium-high temperature, 
+J. Energy Storage 2021 (38) (November 2020) 102501. 
+[9] X. Chen, M. Kubota, S. Yamashita, H. Kita, Exploring Cu-based spinel/delafossite 
+couples for thermochemical energy storage at medium-high temperature, ACS 
+Appl. Energy Mater. 4 (7) (2021) 7242–7249. 
+[10] X. Chen, M. Kubota, N. Kobayashi, S. Yamashita, H. Kita, Effect of Cr addition on 
+Cu-Mn spinel/delafossite redox couples for medium-high temperature 
+thermochemical energy storage, ACS Appl. Energy Mater. 5 (5) (2022) 5811–5821. 
+[11] X. Chen, M. Kubota, N. Kobayashi, S. Yamashita, H. Kita, An in-depth oxidation 
+kinetic study of CuCrxMn1-xO2 (x = 0, 0.1, 0.3) for thermochemical energy storage 
+at medium-high temperature, Sol. Energy Mater. Sol. Cells 260 (2023) 112495. 
+[12] M. Wokon, A. Kohzer, M. Linder, Investigations on thermochemical energy storage 
+based on technical grade manganese-iron oxide in a lab-scale packed bed reactor, 
+Sol. Energy 153 (2017) 200–214. 
+[13] A.J. Schrader, G.L. Schieber, A. Ambrosini, P.G. Loutzenhiser, Experimental 
+demonstration of a 5 KWth granular-flow reactor for solar thermochemical energy 
+storage with aluminum-doped calcium manganite particles, Appl. Therm. Eng. 173 
+(March) (2020) 115257. 
+[14] M. Hamidi, V.M. Wheeler, X. Gao, J. Pye, K. Catchpole, A.W. Weimer, Reduction of 
+iron-manganese oxide particles in a lab-scale packed-bed reactor for 
+thermochemical energy storage, Chem. Eng. Sci. 221 (2020) 115700. 
+[15] M. Gigantino, S.S. Brunser, A. Steinfeld, High-temperature thermochemical heat 
+storage via the CuO/Cu2O redox cycle: from material synthesis to packed-bed 
+reactor engineering and cyclic operation, Energy and Fuels 34 (12) (2020) 
+16772–16782. 
+[16] D. Bielsa, M. Oregui, P.L. Arias, New insights into Mn2O3 based metal oxide 
+granulation technique with enhanced chemical and mechanical stability for 
+thermochemical energy storage in packed bed reactors, Sol. Energy 241 (June) 
+(2022) 248–261. 
+[17] C. Pagkoura, G. Karagiannakis, A. Zygogianni, S. Lorentzou, M. Kostoglou, A. 
+G. Konstandopoulos, M. Rattenburry, J.W. Woodhead, Cobalt oxide based 
+structured bodies as redox thermochemical heat storage medium for future CSP 
+plants, Sol. Energy 108 (2014) 146–163. 
+[18] A. Singh, S. Tescari, G. Lantin, C. Agrafiotis, M. Roeb, C. Sattler, Solar 
+thermochemical heat storage via the Co3O4/CoO looping cycle: storage reactor 
+modelling and experimental validation, Sol. Energy 144 (2017) 453–465. 
+[19] S. Tescari, A. Singh, C. Agrafiotis, L. de Oliveira, S. Breuer, B. Schl¨ogl-Knothe, 
+M. Roeb, C. Sattler, Experimental evaluation of a pilot-scale thermochemical 
+storage system for a concentrated solar power plant, Appl. Energy 189 (2017) 
+66–75. 
+[20] M. Ebadi, M. Mehrpooya, A.H. Kani, Sensitivity analysis and optimization of 
+geometric and operational parameters in a thermochemical heat storage redox 
+reactor used for concentrated solar power plants, J. Therm. Anal. Calorim. 147 (11) 
+(2022) 6415–6435. 
+[21] G. Xiao, Z. Wang, D. Ni, P. Zhu, Kinetics and structural optimization of cobalt-oxide 
+honeycomb structures based on thermochemical heat storage, Energies 16 (7) 
+(2023). 
+[22] M. Pein, L. Matzel, L. de Oliveira, G. Alkan, A. Francke, P. Mechnich, C. Agrafiotis, 
+M. Roeb, C. Sattler, Reticulated porous perovskite structures for thermochemical 
+solar energy storage, Adv. Energy Mater. 12 (10) (2022) 1–17. 
+[23] C. Agrafiotis, S. Tescari, M. Roeb, M. Schmücker, C. Sattler, Exploitation of 
+thermochemical cycles based on solid oxide redox systems for thermochemical 
+storage of solar heat. Part 3: cobalt oxide monolithic porous structures as 
+integrated thermochemical reactors/heat exchangers, Sol. Energy 114 (2015) 
+459–475. 
+[24] C. Agrafiotis, M. Roeb, M. Schmücker, C. Sattler, Exploitation of thermochemical 
+cycles based on solid oxide redox systems for thermochemical storage of solar heat. 
+Part 2: redox oxide-coated porous ceramic structures as integrated thermochemical 
+reactors/heat exchangers, Sol. Energy 114 (2015) 440–458. 
+[25] K. Schelm, K. Dammler, U. Betke, M. Scheffler, Tailoring of the wetting behavior of 
+alumina dispersions on polymer foams by methylcellulose addition: a route toward 
+mechanically stable ceramic replica foams, Adv. Eng. Mater. 21 (12) (2019) 1–12. 
+[26] C.Y. Lee, S. Lee, J.H. Ha, J. Lee, I.H. Song, K.S. Moon, Effect of the processing 
+conditions of reticulated porous alumina on the compressive strength, J. Korean 
+Ceram. Soc. 58 (4) (2021) 495–506. 
+[27] F. Guo, F. Wu, J. Li, L. Liu, Y. Huang, A facile approach for preparing Al2O3 
+reticulated porous ceramics with optimized closed-cell struts and excellent 
+mechanical properties, Ceram. Int. 49 (13) (2023) 22054–22061. 
+[28] F.C.M. Driessens, Phase equilibria in the system Cu-Mn-O, Zeitschrift Für Anorg. 
+Und Allg. Chemie 351 (1–2) (1967) 48–62. 
+[29] Glemser, O.; Sauer, H. Section 19 - Copper, Silver, Gold. In Handbook of 
+Preparative Inorganic Chemistry (Second Edition); BRAUER, G., Ed.; Academic 
+Press, 1965; pp 1003–1066. 
+[30] N.W. Hlongwa, D. Sastre, E. Iwuoha, A.J. Carrillo, C. Ikpo, D.P. Serrano, P. Pizarro, 
+J.M. Coronado, Exploring the thermochemical heat storage capacity of AMn2O4 (A 
+= Li or Cu) spinels, Solid State Ionics 320 (2018) 316–324. 
+[31] L. Andr´e, S. Abanades, L. Cassayre, Experimental investigation of Co-Cu, Mn-Co, 
+and Mn-Cu redox materials applied to solar thermochemical energy storage, ACS 
+Appl. Energy Mater. 1 (7) (2018) 3385–3395. 
+[32] A.S. Ethiraj, D.J. Kang, Synthesis and characterization of CuO nanowires by a 
+simple wet chemical method, Nanoscale Res. Lett. 7 (5 M) (2012) 1–5. 
+[33] G. Fritz-Popovski, F. Sosada-Ludwikowska, A. K¨ock, J. Keckes, G.A. Maier, Study of 
+CuO nanowire growth on different copper surfaces, Sci. Rep. 9 (1) (2019) 1–13. 
+[34] M. Koˇsiˇcek, J. Zavaˇsnik, O. Baranov, B. ˇSetina Batiˇc, U. Cvelbar, Understanding the 
+growth of copper oxide nanowires and layers by thermal oxidation over a broad 
+temperature range at atmospheric pressure, Cryst. Growth Des. 22 (11) (2022) 
+6656–6666. 
+[35] C. Agrafiotis, M. Roeb, M. Schmücker, C. Sattler, Exploitation of thermochemical 
+cycles based on solid oxide redox systems for thermochemical storage of solar heat. 
+Part 1: testing of cobalt oxide-based powders, Sol. Energy 102 (2014) 189–211. 
+X. Chen et al.                                                                                                                                                                                                                                    

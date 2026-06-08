@@ -1,0 +1,898 @@
+
+
+===== Page 1 =====
+
+Journal of the Taiwan Institute of Chemical Engineers 136 (2022) 104406
+Available online 10 June 2022
+1876-1070/© 2022 Published by Elsevier B.V. on behalf of Taiwan Institute of Chemical Engineers.
+The investigation of SrCoO3-δ perovskite doping cobalt oxide 
+thermochemical energy storage system 
+Boyan Wang a,b, Zhiyuan Wang a,b,*, Binlin Dou a,b, Yan Ma a,b, Yijing Liang a,b 
+a School of Energy and Power Engineering, University of Shanghai for Science and Technology, Shanghai 200093, China 
+b Shanghai Key Laboratory of Multiphase Flow and Heat Transfer in Power Engineering, Shanghai 200093, China   
+A R T I C L E  I N F O   
+Keywords: 
+Thermochemical energy storage 
+Cobalt oxide 
+Perovskite 
+Doping 
+A B S T R A C T   
+Background: The current research of doping for metal oxide thermochemical energy storage (TCES) systems 
+mainly focuses on the mutual doping among traditional metal oxides. However, it is too one-sided to solve the 
+problem. In this work, SrCoO3-δ perovskite material is novelly doped into the cobalt oxide material system to 
+solve the dehiscent problem of honeycombs, while compensating the energy storage density of materials system. 
+Methods: Simultaneous thermal analysis (STA) is used to assess energy storage density, reaction kinetics, stability 
+of materials. Thermo-mechanical stability assessment and thermal expansion tests are conducted to analyze the 
+anti-crack performance of honeycombs. XRD, SEM, and XPS methods are used to analyze the characteristics of 
+materials. 
+Significant findings: The mass ratio of doping of 30% exhibits the best comprehensive performance. Based on this, 
+the attenuation of energy storage density of SrCoO3-δ doping is narrowed from 27.1% to 22.9% at least compared 
+with Al2O3 doping for anti-crack, and SrCoO3-δ doping has no negative effects on reaction kinetics of original 
+cobalt oxide and a better stability. Beyond that, the SrCoO3-δ doping method of this work exhibits a better 
+balance among various performance indicators of TCES than traditional doping methods based on improving 
+TCES performance.   
+1. Introduction 
+Compared with traditional power generation technology, concen­
+trated solar power (CSP) plants have great advantages in sustainability 
+and environmental friendliness. But its power generation is affected by 
+climate, seasons, and many other factors, which restrict its development. 
+So, the energy storage system is considered as the key technology for 
+CSP plants, which can improve the utilized level of solar energy [1]. 
+Energy storage systems used for CSP can be divided into latent energy 
+storage, sensible energy storage, and thermochemical energy storage 
+(TCES). Compared with TCES, the sensible energy storage system ex­
+hibits extremely low energy storage density. Although the latent energy 
+storage technology has a higher energy storage density than the latent 
+energy storage system, it is still lower than that of TCES, and latent 
+energy storage system has disadvantages of corrosivity, needing heat 
+preservation equipment, difficult heat and mass transfer performance 
+[2]. TCES systems can be further divided into metal hydride, carbonate, 
+metal oxide, hydroxide, and salt hydrate systems. Metal hydride energy 
+storage is difficult to achieve due to the difficulty of hydrogen storage, 
+carbonate systems have serious performance degradation problems, the 
+temperature ranges of hydroxide systems is too low to completely satisfy 
+the requirement of generators, and salt hydrated has flaws of heat and 
+mass transfer performance. Compared with other materials systems, 
+metal oxide systems have advantages of no need for gas storage, the air 
+is used as the heat transfer fluid and the reactant, fast kinetic, and the 
+heat can be stored at room temperature [1–3]. In the metal oxide TCES 
+system, the heat is stored by the reduction process, and released by the 
+oxidation process, the air is the heat transfer fluid and reactant. Among 
+metal oxide TCES systems, cobalt oxide has faster reaction kinetics, 
+better stability, and higher energy storage density than manganese 
+oxide, barium oxide, and copper oxide [4,5]. The reversible reaction 
+between Co3O4 and CoO during TCES processes is as follows [6].  
+Co3O4 + ΔH ↔ 3CoO+0.5O2 ΔH=800 kJ/kg                                           
+At present, doping the metal oxide TCES materials with some active 
+materials is research-focused, which can adjust the reaction kinetics, 
+energy storage density, and stability. At present, the doping method for 
+* Corresponding author at: School of Energy and Power Engineering, University of Shanghai for Science and Technology, Shanghai 200093, China. 
+E-mail address: wzy_1983@163.com (Z. Wang).  
+Contents lists available at ScienceDirect 
+Journal of the Taiwan Institute of Chemical Engineers 
+journal homepage: www.journals.elsevier.com/journal-of-the-taiwan-institute-of-chemical-engineers 
+https://doi.org/10.1016/j.jtice.2022.104406 
+Received 20 December 2021; Received in revised form 30 April 2022; Accepted 2 June 2022   
+
+
+===== Page 2 =====
+
+Journal of the Taiwan Institute of Chemical Engineers 136 (2022) 104406
+2
+metal oxide TCES materials system mainly focuses on the mutual doping 
+among traditional metal oxides, such as Mn2O3/Mn3O4 doped with 
+Fe2O3, Mn2O3/Mn3O4 doped with SiO2, CoO/Co3O4 doped with Al2O3, 
+CoO/Co3O4 doped with Fe2O3, or else. Among them, cobalt oxide system 
+exhibits the best comprehensive performance. However, these tradi­
+tional doping methods are too one-sided to solve the problem or has 
+serious side effects. Beyond that, the metal oxide powder always is 
+pressed into the honeycomb or pellets which can improve the heat and 
+mass transfer performance of the materials system, and decrease the 
+pressure drop of the fluid channel, to enhance the reaction processes [6, 
+8,15–17]. However, this craft may cause the dehiscent problem of 
+honeycomb, especially for the cobalt oxide system. Because of the great 
+coefficient of thermal expansion of the cobalt oxide under high tem­
+perature, using pure cobalt oxide to form the honeycomb or porous 
+modules will cause the dehiscent phenomenon under the condition of 
+repeated heating and cooling [18]. To overcome this problem, re­
+searchers have proposed two solutions. Agrafiotis et al. use metal foam 
+as the support to load the cobalt oxide, and they find that it can 
+accommodate the thermal expansion of the materials to maintain the 
+structural integrity during the TCES processes [19]. However, this 
+method will result in the extra cost and the amount of cobalt oxide 
+loaded by the carrier is not high. On the other hand, because Al2O3 and 
+cobalt oxide can form CoAl2O4 spinel at a high temperature which is an 
+inert and stable material [20]. Therefore, Pagkoura et al. add Al2O3 into 
+the cobalt oxide TCES system, and the formation of the stable CoAl2O4 
+can alleviate the thermal expansion performance under high tempera­
+tures. So, the integrity of the honeycombs will be preserved. However, 
+the existence of CoAl2O4 in the materials system will influence the mass 
+transfer performance which results in a decrease in the reactivity of 
+materials [21,22]. Moreover, the addition of Al2O3 into the cobalt oxide 
+will decline the energy storage density by the reaction between Al2O3 
+and Co3O4 [23]. To sum up, although there has been some methods to 
+solve the dehiscent problem of cobalt oxide modulars, they will lead 
+performance of energy storage density, reaction kinetics or cost deteri­
+orative sharply [7–14]. Therefore, it is necessary to develop a better 
+method to resist cracking while avoiding the decrease in reactivity and 
+energy storage density. 
+Due to the excellent stability and reactivity during the TCES process, 
+metal oxide perovskite has been widely considered as a TCES material 
+recent years. Nobuyuki et al. and Sean et al. explore the TCES perfor­
+mance of the LaxSr1-xCoyM1-yO3-δ and BaxSr1-xCoO3-δ perovskites. They 
+find that the Co used in the B-site of the perovskite can make the ma­
+terials have a better energy storage density than Fe and Mn elements, 
+and the Sr and La elements used in the A-site exhibit a good reactivity 
+under some specific proportion. Beyond that, due to the high tempera­
+ture of preparation (>1000 ◦C), the perovskite materials used in the 
+TCES process have excellent cyclic stability [24,25]. Besides, the TCES 
+performance of SrCoO3-δ perovskite also is demonstrated [26]. 
+More than that, perovskite materials are widely used as the oxygen 
+carrier in the chemical looping technology or the materials for the ox­
+ygen permeable membrane, such as SrFeO3 and SrCoO3-δ perovskite [27, 
+28]. Therefore, if some certain perovskites which have excellent per­
+formance of oxygen transport performance were added into the tradi­
+tional metal oxide TCES materials system, it may not decrease the 
+reactivity of the TCES material. Beyond that, the change of crystal 
+structure for SrCoO3-δ makes it exhibit special thermal expansion char­
+acteristics between the room temperature and 1000 ◦C. Calle et al. 
+investigate the crystal structures transition of SrCoO2.5 from the room 
+temperature to 1000 ◦C, it is expounded that it will exhibit three 
+different crystal structures and the thermal expansion performance be 
+changed with crystal structure transition, the coefficient of thermal 
+expansion of SrCoO2.5 is increased firstly and then decreased dramati­
+cally when the temperature exceeds about 700 ◦C [29]. Therefore, it is 
+possible to alleviate the thermal expansion performance of the cobalt 
+oxide honeycomb at high temperatures by doping SrCoO3-δ perovskite. 
+Moreover, because SrCoO3-δ perovskite has some oxygen transport 
+performance and energy storage density, the disadvantages of 
+decreasing reactivity and energy storage density greatly may be avoided 
+simultaneously compared with the addition of Al2O3 into the cobalt 
+oxide. Furthermore, the cobalt oxide TCES system always has a degra­
+dation problem after long-term service [30]. Because the SrCoO3-δ has 
+excellent stability during TCES processes, the addition of it into the 
+cobalt oxide TCES system may have a positive influence on the sintering 
+of the materials. For example, Bagherisereshki et al. introduce the per­
+formance of CaSO4 and Sr3(PO4)2 as the physical barrier in the 
+SrO/SrCO3 TCES system to improve the sintering of the materials [31]. 
+Overall, the addition of SrCoO3-δ may adjust the thermal expansion 
+characteristic of the cobalt oxide TCES system, while maintaining the 
+energy storage density and fast reaction kinetics of the materials to some 
+extent. So, in this work, the structural stability of the honeycomb for the 
+cobalt oxide/ SrCoO3-δmaterials system is tested firstly, then further 
+investigating the energy storage density, reaction kinetics, and sintering 
+after 30 cycles of the composite system. We hope this work can open up a 
+new collocation route of the materials system in the field of metal oxide 
+thermochemical energy storage systems, and promoting the develop­
+ment of this technology. 
+2. Experiment 
+2.1. Materials preparation 
+SrCoO3-δ and cobalt oxide are used as the raw materials in this work. 
+The SrCoO3-δ 
+powder is synthesized by a combined ethyl­
+enediaminetetraacetic (EDTA) acid and citric acid method [28]. Stoi­
+chiometric amounts of the EDTA and citric acid are dissolved in the 
+deionized water, then Sr(NO3)2 and Co(NO3)2⋅6H2O are dissolved in the 
+solution. The molar ratio of the metal ions: EDTA: critic acid is 1: 1: 1.5. 
+The pH value of the solution is adjusted to 9 by NH3⋅H2O. Then the 
+solution is evaporated at 100 ◦C on a magnetic heating agitator to form a 
+dark purple gel. Then the gel is transferred into a drying oven and heated 
+to self-combustion under 250 ◦C to get the precursor. Finally, the pre­
+cursor is calcined at 600 ◦C for 1 h and 1000 ◦C for 5 h, respectively to 
+obtain the SrCoO3-δ powder. The cobalt oxide is bought from the com­
+mercial company (>99.9%, Co3O4, Shanghai st-nano science, and 
+technology Co., Ltd). The honeycomb is prepared by pressing the 
+mixture of materials in a die directly as Fig. 2 shows. Firstly, the cobalt 
+oxide and SrCoO3-δ powder are mixed in a ball mill for 30 min to obtain 
+the dual materials system. 2% PVA solution is used as the binder. The 
+material is mixed with the binder to obtain the mixture. Then, the 
+mixture is transferred into the die and pressed in a hydraulic machine 
+under 20 MPa to obtain the honeycomb. Finally, the honeycomb is 
+calcined at 700 ◦C for 2 h to remove the organic matter. The flow chart of 
+preparation for honeycombs is shown in Fig. S1. Each resulting honey­
+comb weighed about 10 g, the diameter is 3 cm, the height is around 1 
+cm. Each honeycomb will be evenly arranged with 5 holes with a 
+diameter of 5 mm. 
+2.2. Performance test 
+The crack test of the honeycombs is conducted in a tubular furnace at 
+a airflow rate of 1 L/min. The temperature range is 700–1000 ◦C , the 
+heating and cooling rate is 15 ◦C/min. The sketch map of the equipment 
+is shown in Fig. S2. 
+Experimental data of thermochemical energy storage performance 
+concerning transition temperatures during the redox process, reaction 
+enthalpies, and oxygen storage capacity are obtained by thermogravi­
+metric (TGA) and differential scanning calorimetry (DSC) analysis. The 
+relevant experiments are conducted in a Netzsch STA 449 C System. 
+2.3. Characterization 
+The phase of powders is characterized by X-ray diffraction (XRD) 
+B. Wang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 3 =====
+
+Journal of the Taiwan Institute of Chemical Engineers 136 (2022) 104406
+3
+analysis in a Bruker D8 Advance from 10o to 80o. Thermal expansion tests 
+are conducted in a Netzsh DIL 402 Expedis Classic which is used to detect 
+the change of thermal expansion properties of the doped materials sys­
+tem from room temperature to 1050 ◦C. The change of microstructures 
+of the materials before and after the test is obtained by a Zeiss Ultra 55 
+Scanning Electron Microscope (SEM). 
+3. Results and discussion 
+3.1. Thermo-mechanical stability assessment 
+Because our main target is improving the dehiscent phenomenon of 
+the honeycombs for cobalt oxide TCES materials system by doping 
+SrCoO3-δ perovskite in this work. Therefore, the thermo-mechanical 
+stability assessment is conducted firstly in this section. The mass ratio 
+of SrCoO3-δ doping is 0.1, 0.2, 0.3, 0.4, and 0.5, respectively, and the 
+mass ratio of materials for each sample is shown in Table S1. Fig. 1 in­
+dicates the XRD patterns for each fresh sample, the obvious diffraction 
+peaks for cobalt oxide and Sr6Co5O15 oxide are identified. From the 
+previous research, the SrCoO3-δ oxide existed as Sr6Co5O15 phase at 
+room temperature, and the perovskite structure is formed when the 
+temperature exceeds about 920 ◦C [26,29]. Beyond that, the thermal 
+expansion test and TGA-DSC test also can verify the formation of 
+SrCoO3-δ in this section and Section 3.2. 
+During the crack test, the temperature range is 700–1000 ◦C, a total 
+of 10 cycles is conducted, and the heating and cooling rate is 15 ◦C/min. 
+22 Fig. 2 indicates the structural integrity of honeycombs before and 
+after being tested. After the test, honeycombs of Co and SC0.1 still 
+exhibit obvious cracking, but the dehiscent phenomenon of the honey­
+comb of SC0.2 is significantly alleviated after the test. Moreover, the 
+cracking of honeycombs is well inhibited when the mass ratio of doping 
+reaches and exceeds 30%. 
+Previous studies suggest that the cracking of honeycombs for cobalt 
+oxide TCES materials system is mainly caused by the “chemically”- 
+induced stresses due to the redox reaction of cobalt oxide [19,22]. To 
+further explore the reason of SrCoO3-δ doping on improving the cracking 
+of honeycombs, the thermal expansion test is conducted. Fig. 3 indicates 
+the elongation of workpieces of SC0.3, Co, and SC (SrCoO3-δ) from room 
+temperature to 1050 ◦C. As Fig. 3 shows, the degree of thermal expan­
+sion of cobalt oxide is lower than that of SC below 750 ◦C, but it will 
+increase dramatically when the temperature exceeds about 816.9 ◦C and 
+reaches the maximum at about 900 ◦C, and the cracking of honeycombs 
+mainly appeared in this stage. Moreover, because the onset temperature 
+of the reduction reaction of cobalt oxide is about 920 ◦C, so, it can be 
+seen that the violent thermal expansion phenomenon of cobalt oxide is 
+not led by the reduction reaction itself but the lattice expansion before 
+reduction begins. Sequentially, as the reduction reaction continues, 
+oxygen species are removed, and the degree of thermal expansion de­
+creases sharply. As for SC, the thermal expansion of SrCoO3-δ exhibits 
+three stages and the trend is similar to the curve in previous studies, and 
+the crystal structure of SrCoO3-δ is marked from the room temperature to 
+1050 ◦C in Fig. 3 [29,32,33]. This also can verify the formation of 
+SrCoO3-δ. The thermal expansion property of SrCoO3-δ is decreased in 
+the hexagonal phase which is coincided with the temperature range at 
+which cobalt oxide expands violently, and when the temperature ex­
+ceeds 896 ◦C, the thermal expansion of the SrCoO3-δ also will increase 
+until the temperature reaches about 922 ◦C. 
+Synthesizing the thermal expansion performance of SC and Co, it is 
+demonstrated that the thermal expansion property of Co at high tem­
+peratures is much larger than that of SC. Beyond that, there is a severe 
+thermal expansion phenomenon of Co from 816.9 to 900 ◦C. However, 
+because of the crystal transition, the thermal expansion property of SC is 
+declined between 700 and 900 ◦C. Moreover, although the thermal 
+expansion of SC will increase between 900 and 920 ◦C, it still stays at a 
+lower level compared with Co, and the thermal expansion property of Co 
+also decreases in this stage. Therefore, the thermal expansion of SC0.3 is 
+improved significantly between 700 and 1000 ◦C, and this is the reason 
+why the cracking of the SC0.3 honeycomb is inhibited after the test. 
+Fig. 4 displays the mechanism of adding SrCoO3-δ into cobalt oxide 
+TCES materials to maintain the integrity of honeycombs. As Fig. 4 
+shows, SrCoO3-δ particles has lower thermal expansion property at high 
+temperature. Therefore, adding SrCoO3-δ into cobalt oxide can offer 
+more space to alleviate the internal stress caused by thermal expansion 
+among cobalt oxide particles in honeycombs at high temperatures, so as 
+Fig. 1. XRD patterns of each fresh sample.  
+B. Wang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 4 =====
+
+Journal of the Taiwan Institute of Chemical Engineers 136 (2022) 104406
+4
+to solve the dehiscent problem of honeycombs at high temperatures. 
+3.2. Redox performance 
+The effects of SrCoO3-δ doping on compensating the energy storage 
+density and reactivity for the original cobalt oxide are focused on in this 
+section. TGA-DSC test is conducted for each sample between 100 and 
+1000 ◦C to analyze their TCES properties with a heating or cooling rate 
+of 15 ◦C/min. Further, the onset temperatures and duration of redox 
+processes are identified to explore the effects of doping SrCoO3-δ on the 
+reactivity of cobalt oxide. 
+Fig. 5 exhibits the TGA-DSC curves of all samples. Simultaneous 
+thermal analysis (STA) is mainly used to analyze the conversion of 
+materials and the corresponding heat absorption/heat release during the 
+TCES processes. However, because the DSC data of simultaneous ther­
+mal analysis is not accurate at high temperatures, the DSC data 
+measured can only be used for comparison among experimental groups. 
+The actual enthalpies of cobalt oxide are calculated from the conversion 
+rate exhibited by the TGA data. As Fig. 5(a) shows, the TGA data 
+indicates an almost complete conversion between Co3O4 and CoO (the 
+conversion of 91.78%), which corresponds to the theoretical enthalpy of 
+734.2 J/g. But the enthalpies measured of cobalt oxide during redox 
+processes are 126 J/g and 160 J/g, respectively. These errors are caused 
+by the measurement and calculation errors of the DSC method in heating 
+and cooling processes, respectively, especially for the conditions of high 
+temperatures. However, our objectives are verifying effects of perovskite 
+doping on performance TCES rather than standardization, so it will not 
+affect the analysis and experiments, and this is a common problem in 
+this industry. 
+For SrCoO3-δ, due to the change of crystal structure, the endothermic 
+and exothermic processes of it proceed unsteadily as Fig. 5(b) shows. In 
+the previous research, the enthalpies of SrCoO3-δ have been reported 
+based on an isothermal process test which is different from the actual 
+condition [26]. However, by synthesizing the thermal expansion anal­
+ysis and crystal structure of SrCoO3-δ, the enthalpies measured by the 
+DSC method under the condition of variable temperature are not accu­
+rate, and the DSC peaks only appear when the crystal structure is 
+changed [34]. Therefore, the actual enthalpies of SrCoO3-δ are still 
+needed to be further explored. In Fig. 5(b), there are two obvious DSC 
+peaks in the oxidation process which corresponded to two transitions of 
+crystal structure, but there is only one peak in the reduction process 
+which indicates that the crystal structure transition from brownmillerite 
+to the hexagonal structure will not cause an obvious endothermic peak. 
+Therefore, the obvious DSC peaks captured in heating and cooling 
+processes only reflect the enthalpies of crystal structure transformation. 
+However, according to the TG curve of Fig. 5(b), in addition to crystal 
+structure transformation, another process also has continuous unstable 
+weight changes which is corresponding to the heat absorb/release to 
+some extent. Therefore, the enthalpies statistical will be lower than the 
+actual values and they only can be used to assess whether the SrCoO3-δ 
+has TCES performance in the cobalt oxide system in this work. 
+Fig. 6(a–e) indicate the TGA-DSC curves of doped samples. Among 
+them, except for the SC0.1, an obvious DSC peak is recognized at about 
+440 ◦C during the cooling process. As Figs. 5 and 6 show, the temper­
+ature ranges of DSC peaks appearing for Co and SC are coincident during 
+the heating process, but there are two distinguishable DSC peaks of Co 
+and SC in the oxidation process at about 800 ◦C. On this basis, the 
+change of energy storage density of single cobalt oxide can be discerned 
+from doped materials systems. Therefore, the enthalpy calculated from 
+the DSC data during the heating process is recognized as the total energy 
+storage density which is used to assess the change of energy storage 
+density of materials system after adding SrCoO3-δ. It should be noted 
+Fig. 2. The comparison diagram of the dehiscent degree of honeycombs before and after tests under the different mass ratios of doping.  
+Fig. 3. Thermal expansion curves of SC, SC0.3, and Co from the room tem­
+perature to 1050 ◦C. 
+B. Wang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 5 =====
+
+Journal of the Taiwan Institute of Chemical Engineers 136 (2022) 104406
+5
+that the total energy storage density of the doped materials system 
+calculated by this method will be lower than the actual value, so it only 
+can be used to discuss whether SrCoO3-δ has a compensation effect on 
+energy storage density in cobalt oxide TCES system in this work. On the 
+other hand, because the temperature range at which cobalt oxide is 
+oxidized is different from that of SrCoO3-δ, so the enthalpy of oxidation 
+reaction for original cobalt oxide is calculated during cooling processes, 
+to assess the effects of SrCoO3-δ doping on the energy storage density of 
+original cobalt oxide. To discuss the effects of SrCoO3-δ doping on the 
+reaction kinetics of original cobalt oxide, the duration and onset tem­
+perature of the redox reaction of cobalt oxide are analysed. The relevant 
+values from TGA-DSC tests are listed in Table 1. 
+It can be seen from Table 1 that the heat absorption of each sample 
+does not decrease in proportion with the decrease of cobalt oxide con­
+tent, and the heat absorption is higher than that of the corresponding 
+cobalt oxide content with the increase of the mass ratio of doping. This 
+means that the endothermic reaction of the SC also occurred during the 
+heating process in the cobalt oxide materials system. This is particularly 
+evident during the cooling process. During the cooling process, in 
+addition to the oxidation temperature range of cobalt oxide, two obvious 
+endothermic peaks also appear at about 800 ◦C and 400 ◦C. Beyond that, 
+SrCoO3-δ doping has no obvious effects on the onset temperature, 
+duration of the redox reaction, and energy storage density of the original 
+cobalt oxide. So, the SrCoO3-δ doping has no negative effects on the TCES 
+performance of original cobalt oxide under different doping ratios, 
+which is better than the Al2O3 doping. 
+Because the SrCoO3-δ doping is mainly used to resist the crack of 
+honeycombs which is the same as Al2O3 doping, the comprehensive 
+performance of Al2O3 doping and SrCoO3-δ doping is further compared. 
+In the previous research, doping Al2O3 into cobalt oxide will decrease 
+the energy storage density and reaction kinetics, and the doping ratio of 
+10% exhibited an acceptable performance of anti-crack [21,22]. On this 
+basis, the energy storage density, and relevant parameters of the reac­
+tion of the two methods are further compared in Table 1. 
+It can be seen from Table 1, the enthalpies measured of SrCoO3-δ are 
+lower than that of cobalt oxide, so the energy storage density is still 
+decreased with the increase of doping ratio of SrCoO3-δ. However, 
+SrCoO3-δ has an obvious compensation effect on energy storage density 
+in the cobalt oxide system, and it does not have negative effects on the 
+TCES performance of original cobalt oxide. Synthesizing the results of 
+the thermo-mechanical stability assessment, the SC0.3 exhibits the best 
+comprehensive TCES performance from viewpoints of energy storage 
+density, reaction kinetic, and anti-crack performance. Hence, the 
+attenuation of energy storage density of SrCoO3-δ doping is lower than 
+that of the Al2O3 doping under the same anti-crack performance, the 
+attenuation of energy storage density is narrowed from 27.1 to 22.9% at 
+least. Moreover, because of the limitation of the DSC method, the actual 
+attenuation of energy storage density of materials system doped with the 
+SrCoO3-δ may be further narrowed. 
+In conclusion, compared with Al2O3 doping, SrCoO3-δ doping can 
+maintain the material system with a higher energy storage density based 
+on the same anti-crack performance and has no obvious side-effects. 
+Fig. 4. The mechanism of adding SrCoO3-δ into cobalt oxide TCES materials to improve anti-crack performance.  
+Fig. 5. TGA-DSC curves of two raw materials from 100 ◦C to 1000 ◦C. (a) Co. (b) SC.  
+B. Wang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 6 =====
+
+Journal of the Taiwan Institute of Chemical Engineers 136 (2022) 104406
+6
+3.3. Cyclic performance 
+To comprehensively analyze the performance of cobalt oxide/ 
+SrCoO3-δ TCES materials system, the cyclic test is necessary. A total of 30 
+cycles is conducted in this work, and the scanning electron microscope, 
+XRD analysis, and XPS analysis are conducted for the fresh and used 
+samples. SEM images at different magnifications are taken for the 
+samples after 10 and 30 cycles, respectively. By synthesizing the results 
+in Sections 3.1 and 3.2, the SC0.3 is chosen to take the cyclic test due to 
+the best comprehensive TCES performance from the viewpoints of anti- 
+crack property and energy storage density. Beyond that, the SC0.5 is 
+tested to further discuss the effects of extra SrCoO3-δ doping on the 
+stability, and pure cobalt oxide is chosen as the control group in this 
+section. The attenuation of TCES performance for the cobalt oxide sys­
+tem is mainly caused by the sintering of the particles under high 
+temperatures. The sintering can be divided into liquid-phase and solid- 
+phase sintering. Liquid-phase sintering is mainly caused by the uneven 
+temperature field and the low melting point of materials under TCES 
+processes, while solid-phase sintering is mainly caused by the mass 
+transport on the boundary of grains which is influenced by the elements, 
+size, and structure of grains [35]. Because of the high melting points of 
+cobalt oxide and SrCoO3-δ, the sintering of materials is mainly attributed 
+to solid-phase sintering in this work. Solid-phase sintering of materials 
+can be represented as coarsening and agglomeration. Coarsening refers 
+to the phagocytosis of small particles by large particles, agglomeration 
+mainly occurs in systems with small particle sizes. 
+Fig. 7 indicates the TGA curves of three samples in 30 cycles. The 
+weight gain and loss are used to represent heat absorption and heat 
+release. As the figure shows, the amplitude of mass change decreased 
+with increasing the number of cycles. The attenuation of each sample is 
+Fig. 6. TGA-DSC curves of doped samples from 100 ◦C to 1000 ◦C. (a) Sc0.1. (b) SC0.2. (c) SC0.3. (d) SC0.4. (e) SC0.5.  
+B. Wang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 7 =====
+
+Journal of the Taiwan Institute of Chemical Engineers 136 (2022) 104406
+7
+shown in Table 2. The attenuation of weight gain is used as the evalu­
+ation index and the weight gain of the last full cycle is used as the final 
+value. As listed in Table 2, compared with the other two samples, Co 
+shows the largest attenuation, reaching 22.6%. The attenuation of SC0.3 
+and SC0.5 is 17.1% and 17.7%, respectively. 
+Fig. 8 exhibits the SEM images of samples in the fresh state, after tests 
+of 10 and 30 cycles, respectively, and materials exhibit a more serious 
+phenomenon of coarsening after doping SrCoO3-δ. Fig. 8 shows the XRD 
+patterns of Co, SC0.3, and SC0.5. It can be seen that the phase of ma­
+terials is not changed after the cyclic test, but the intensity of the 
+diffraction peaks is enhanced by comparing Figs. 1 and 9 which 
+reflecting the growth of grain size. Especially for peaks of the Sr6Co5O15 
+phase in SC0.3 and SC0.5. However, the single SrCoO3-δ is stable during 
+the TCES processes, so coarsening of particles is caused by the coexis­
+tence of SrCoO3-δ and cobalt oxide [26]. By synthesizing the previous 
+research about the analysis of the crystal structure of SrCoO3-δ, the 
+coarsening can be attributed to the specific crystal transition of SrCoO3-δ 
+from room temperature to 1000 ◦C. When SrCoO3-δ exhibits hexagonal 
+structure, the stoichiometric ratio of Sr: Co: O is 2:3:3, and some cobalt 
+oxide will be merged into the Sr-Co-O phase [27]. Then some cobalt 
+oxide will be isolated under other crystal structures again. Because of the 
+existence of this process in the materials system, the bonding of cobalt 
+oxide and SrCoO3-δ is enhanced, and this is the reason of SC0.3 and 
+SC0.5 sinter more severely. However, the coarsening of SC0.3 and SC0.5 
+is more serious, but the attenuation of energy storage density is lower. 
+This can be attributed to the oxygen transport performance of SrCoO3-δ 
+and the better stability of SrCoO3-δ itself. Because the oxygen transport 
+performance of SrCoO3-δ will be enhanced under higher temperature 
+during the heating process, so the reoxidation of SC0.3 and SC0.5 can be 
+enhanced during the heating process and there will be an obvious step 
+during the heating processes for SC0.3 and SC0.5 in Fig. 7 [28]. 
+Beyond that, the XPS is conducted for SC0.3 before and after the 
+cyclic test. The elements in different species can correspond to different 
+bonding energy. At first, it is verified that the formation of phase in the 
+composite materials system is not changed from viewpoints of valences 
+of elements as Figs. 10 and 11 show [38,39]. However, Fig. 9 indicates 
+four decoupled peaks for Sr 3d3/2 and Sr 3d5/2 which means the Sr 
+element locates in two species on the surface of the material. The one 
+existed in the lattice of Sr6Co5O15 (Srlattice), the other one existed in the 
+surface of Sr6Co5O15(Srsurface). This also is caused by the crystal transi­
+tion of SrCoO3-δ which will make some Sr element separated from the 
+SrCoO3-δ in room temperatures. Moreover, the area ratio of Srsurface: 
+Srlattice can represent the relative amounts of Srsurface and Srlattice, the 
+proportion of Srsurface: Srlattice is decreased from 0.626 to 0.31 after the 
+cyclic test [40,41]. This means some Sr elements move inside the 
+materials. 
+Because cobalt oxide has different microstructures, and the existence 
+of the doping agent can affect the surface energy of the crystal for cobalt 
+oxide, so its microstructures can be changed after being doped [36,37]. 
+Table 1 
+Effects of Al2O3 and  SrCoO3-δ doping on performance of Co3O4/CoO TCES 
+system.  
+Sample 
+Mass 
+ratio 
+Enthalpy for 
+cobalt oxide/ 
+the total (J/g) 
+Reduction/ 
+oxidation onset 
+temperature (◦C) 
+Reduction/ 
+oxidation 
+duration 
+(minute) 
+Co3O4 
+21.22 
+– 
+549 
+– 
+– 
+Co3O4/ 
+Al2O3 
+21,22 
+95/5 
+513 
+– 
+– 
+Co3O4/ 
+Al2O3 
+21,22 
+90/10 
+400 
+– 
+– 
+Co3O4 
+– 
+160/126 
+920.9/876.8 
+2.2/3.8 
+Co3O4/ 
+SrCoO3- 
+δ 
+90/10 
+146/115 
+921.2/880.5 
+2.1/3.7 
+Co3O4/ 
+SrCoO3- 
+δ 
+80/20 
+135/119 
+924.6/863.9 
+1.6/4.4 
+Co3O4/ 
+SrCoO3- 
+δ 
+70/30 
+111/97.2 
+919.4/873.2 
+2.2/4.4 
+Co3O4/ 
+SrCoO3- 
+δ 
+60/40 
+89.2/83.1 
+921.1/864.4 
+2.2/3.6 
+Co3O4/ 
+SrCoO3- 
+δ 
+50/50 
+72/85 
+921.4/862.0 
+1.9/4.1  
+Fig. 7. The TGA curves of Co, SC0.3, SC0.5 during 30 cyclic tests.  
+Table 2 
+The attenuation percentage of TCES performance for each sample after 30 
+cycles.  
+Sample 
+Initial weight gain 
+Final weight gain 
+Attenuation 
+Co 
+6.28% 
+4.86% 
+22.6% 
+SC0.3 
+4.57% 
+3.79% 
+17.1% 
+SC0.5 
+3.47% 
+2.89% 
+17.7%  
+B. Wang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 8 =====
+
+Journal of the Taiwan Institute of Chemical Engineers 136 (2022) 104406
+8
+Therefore, in addition to the coarsening, the grains of SC0.3 and SC0.5 
+consisted of terraced crystal planes resulting in a step-shaped 
+morphology as the previous research reported [19]. Even though, 
+SC0.3 and SC0.5 still show better stability after 30 cycles. In the previous 
+research, researchers also suggested that the change of microstructure of 
+cobalt oxide has no effects on TCES performance [19,24]. 
+To sum up, extra SrCoO3-δ doping is not necessary based on the 
+doping ratio of 30%. Because of the good oxygen transport performance 
+of SrCoO3-δ, SC0.3 shows better stability than that of Co. After the test of 
+30 cycles, the phase of SC0.3 is not changed. 
+3.4. Comparison among doping methods 
+By synthesizing characteristics of SrCoO3-δ doping and other doping 
+methods in previous research, the difference between perovskite doping 
+method of this work and other metal oxide doping methods (Mn-Fe, Mn- 
+Si, Co-Al, Co-Fe, Mn-Ti.) on various performance indicators (Kinetics, 
+energy storage density, stability, integration of honeycombs) of metal 
+oxide TCES system is listed in Table 3. In Table 3, ‘→’ means ‘No effects’, 
+‘↑’ means ‘Positive effects’, ‘↓’ means ‘Negative effects’, ‘-’ means ‘No 
+study’, and the ‘Negative effect’ on energy storage density means the 
+addition of a doping agent will reduce the energy storage density of 
+original TCES materials. As Table 3 shows, the perovskite doping 
+method of this work improves the energy storage density, stability, and 
+anti-crack of honeycombs based on maintaining the fast reaction ki­
+netics, but other methods are too one-sided to solve problems or has 
+serious side effects. Therefore, the SrCoO3-δ doping method of this work 
+exhibits a good balance among various performance indicators of TCES 
+based on the improvement of TCES performance. 
+Fig. 8. SEM images of powder samples in the fresh state, after 10 and 30 cycle testing, respectively. (a) x10000. (b) x160000.  
+Fig. 9. XRD patterns of Co, SC0.3, and SC0.5 after cyclic tests.  
+B. Wang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 9 =====
+
+Journal of the Taiwan Institute of Chemical Engineers 136 (2022) 104406
+9
+4. Conclusion 
+In the high-temperature thermochemical energy storage applica­
+tions, the metal oxide doping in the energy storage materials is research 
+focus. However, current researches are still limited to the doping of 
+traditional metal oxides. In this work, SrCoO3-δ perovskite is doped into 
+the cobalt oxide TCES system to solve the dehiscent problem of 
+honeycombs, while maintaining the energy storage density and reaction 
+kinetics of the material system as much as possible. 
+According to the thermo-mechanical assessment, doping SrCoO3-δ 
+into Co3O4/CoO TCES materials system can significantly mitigate the 
+cracking of honeycombs when the doping mass ratio reaches and ex­
+ceeds 30%. Through simultaneous thermal analysis of the doped system, 
+SrCoO3-δ doping has obvious compensating effect on the energy storage 
+density of the doped system and no negative effects on reaction kinetics, 
+which shows great advantages compared with Al2O3 doping and using 
+metal foam as the support. Especially, due to the good oxygen transport 
+performance of SrCoO3-δ, the SC0.3 shows lower attenuation than Co 
+after 30 cyclic tests. Overall, the SC0.3 exhibits the optimal compre­
+hensive performance from viewpoints of TCES and anti-crack perfor­
+mance. Moreover, SrCoO3-δ 
+doping method balances various 
+performance indicators of TCES by a comprehensive assessment of other 
+doping methods. 
+As the properties of perovskite materials can be flexibly adjusted by 
+selecting and collocating A-site and B-site elements, perovskite doping 
+method for metal oxide TCES systems deserves further investigation. 
+CRediT authorship contribution statement 
+Boyan Wang: Conceptualization, Data curation, Formal analysis, 
+Validation, Investigation, Methodology, Writing – original draft, Writing 
+– review & editing. Zhiyuan Wang: Conceptualization, Resources, 
+Software, Project administration, Writing – review & editing, Funding 
+acquisition. Binlin Dou: Project administration, Resources, Conceptu­
+alization. Yan Ma: Visualization, Investigation, Validation. Yijing 
+Liang: Visualization, Validation. 
+Declaration of Competing Interest 
+There are no conflicts to declare. 
+Acknowledgment 
+This work was supported by the National Natural Science Foundation 
+of China (Grant No. 21706159). 
+Supplementary materials 
+Supplementary material associated with this article can be found, in 
+the online version, at doi:10.1016/j.jtice.2022.104406. 
+Fig. 10. XPS spectrums of SC0.3 for Sr element. (a) Before the cyclic test. (b) After the cyclic test.  
+Fig. 11. XPS spectrums of SC0.3 before and after the cyclic tests for 
+Co element. 
+Table 3 
+Difference between traditional metal oxide doping methods and the perovskite 
+doping method of this work on various performance indicators of TCES.  
+Name 
+Reaction 
+kinetics 
+Energy 
+storage 
+density 
+Stability 
+Integration of 
+honeycombs 
+Mn-Fe [9,17] 
+↑ 
+→ 
+→ 
+→ 
+Mn-Si [14] 
+↑ 
+↓ 
+↑ 
+– 
+Co-Al [22] 
+↓ 
+↓ 
+↑ 
+↑ 
+Co-Fe [9,12] 
+→ 
+↓ 
+↑ 
+– 
+Mn-Ti [42] 
+↑ 
+↓ 
+→ 
+– 
+Mn-Cr [43] 
+→ 
+↓ 
+↑ 
+– 
+Ba-Mg [44] 
+↑ 
+↓ 
+↑ 
+– 
+Co-SrCoO3- 
+δ(This work) 
+→ 
+↑ 
+↑ 
+↑  
+B. Wang et al.                                                                                                                                                                                                                                   
+
+
+===== Page 10 =====
+
+Journal of the Taiwan Institute of Chemical Engineers 136 (2022) 104406
+10
+References 
+[1] Dizajia HB, Hosseini H. A review of material screening in pure and mixed-metal 
+oxide thermochemical energy storage (TCES) systems for concentrated solar power 
+(CSP) applications. Renew Sustain Energy Rev 2018;98:9–26. 
+[2] Yana YL, Wanga K, Clougha PT, Anthonya EJ. Developments in calcium/chemical 
+looping and metal oxide redox cycles for high-temperature thermochemical energy 
+storage: a review. Fuel Process Technol 2020;199:106280. 
+[3] Carrillo AJ, Gonzalez-Aguilar J, Romero M, Coronado JM. Solar energy on demand: 
+a review on high temperature thermochemical heat storage systems and materials. 
+Chem Rev 2019;119:4777–816. 
+[4] Miller JE, Ambrosini A, Babiniec SM, Coker EN, Ho CK, Al-Ansary H, et al. High- 
+performance reduction/oxidation metal oxides for thermochemical energy storage 
+(PROMOTES). In: Proceedings of the ASME 2016 international conference on 
+energy sustainability collocated with the ASME 2016 power conference and the 
+ASME 2016 international conference on fuel cell science, engineering and 
+technology. The American Society of Mechanical Engineers; 2016. 
+[5] Wu SK, Zhou C, Doroodchi E, Nellore R, Moghtaderi B. A review on high 
+temperature thermochemical energy storage based on metal oxides redox cycle. 
+Energy Convers Manag 2018;168:421–53. 
+[6] Agrafifiotis C, Roeb M, Sattler C. Exploitation of thermochemical cycles based on 
+solid oxide redox systems for thermochemical storage of solar heat. Part 4: 
+screening of oxides for use in cascaded thermochemical storage concepts. Sol 
+Energy 2016;139:695–710. 
+[7] Pagkouraa C, Karagiannakisa G, Zygogiannia A, Lorentzoua S, 
+Konstandopoulos AG. Cobalt oxide-based honeycombs as reactors/heat exchangers 
+for redox thermochemical heat storage in future CSP plants. Energy Procedia 2015; 
+69:978–87. 
+[8] Agrafifiotis C, Roeb M, Schmucker M, Sattler C. Exploitation of thermochemical 
+cycles based on solid oxide redox systems for thermochemical storage of solar heat. 
+Part 2: redox oxide-coated porous ceramic structures as integrated thermochemical 
+reactors/heat exchangers. Sol Energy 2015;114:440–58. 
+[9] Andr´ea L, Abanadesa S, Cassayre L. High-temperature thermochemical energy 
+storage based on redox reactions using Co-Fe and Mn-Fe mixed metal oxides. 
+J Solid State Chem 2017;253:6–14. 
+[10] Carrillo AJ, Moya J, Bay´on A, Jana P, de la Pe˜na O’Shea VA, Romero M, Gonzalez- 
+Aguilar J, Serrano DP, Pizarro P, Coronado JM. Thermochemical energy storage at 
+high temperature via redox cycles of Mn and Co oxides: pure oxides versus mixed 
+ones. Sol Energy Mater Sol Cells 2014;123:47–57. 
+[11] Silakhori M, Jafarian M, Arjomandi M, Nathan GJ. Thermogravimetric analysis of 
+Cu, Mn, Co, and Pb oxides for thermochemical energy storage. J Energy Storage 
+2019;23:138–47. 
+[12] Block T, Knoblauch N, Schmücker M. The cobalt-oxide/iron-oxide binary system 
+for use as high temperature thermochemical energy storage material. Thermochim 
+Acta 2014;577:25–32. 
+[13] Yang GW, Yang TF, Xiao G, Ni MJ, Cen KF. Kinetics analysis on thermal 
+characteristics of Co3O4/CoO Redox System. Acta Eenergiae Solaris Sin 2020;41: 
+302–10. 
+[14] Yilmaz D, Darwish E, Leion H. Investigation of the combined Mn-Si oxide system 
+for thermochemical energy storage applications. J Energy Storage 2020;28: 
+101180. 
+[15] Singh A, Tescari S, Lantin G, Agrafifiotis C, Roeb M, Sattler C. Solar 
+thermochemical heat storage via the Co3O4/CoO looping cycle: storage reactor 
+modelling and experimental validation. Sol Energy 2017;144:453–65. 
+[16] Tescari S, Singh A, Agrafifiotis C, de Oliveira L, Breuer S, Schl¨ogl-Knothe B, 
+Roeb M, Sattler C. Experimental evaluation of a pilot-scale thermochemical storage 
+system for a concentrated solar power plant. Appl Energy 2017;189:66–75. 
+[17] Shao N. Research on physical and chemical characteristic of solar energy storage 
+materials based on Mn2O3/Mn3O4 system. Zhejiang University; 2019. 
+[18] Pagkouraa C, Karagiannakisa G, Zygogiannia A, Lorentzoua S, 
+Konstandopoulos AG. Cobalt oxide based honeycombs as reactors/heat exchangers 
+for redox thermochemical heat storage in future CSP plants. Energy Procedia 2015; 
+69:978–87. 
+[19] Agrafifiotis C, Tescari S, Roeb M, Schmucker M, Sattler C. Exploitation of 
+thermochemical cycles based on solid oxide redox systems for thermochemical 
+storage of solar heat. Part 3: cobalt oxide monolithic porous structures as 
+integrated thermochemical reactors/heat exchangers. Sol Energy 2015;114: 
+459–75. 
+[20] Song H, Shah K, Doroodchi E, Wall T, Moghtaderi B. Reactivity of Al2O3- or SiO2- 
+supported Cu-, Mn-, and Co-based oxygen carriers for chemical looping air 
+separation. Energy Fuels 2014;28:1284–94. 
+[21] Karagiannakis G, Pagkouraa C, Zygogiannia A, Lorentzoua S, Konstandopoulos AG. 
+Monolithic ceramic redox materials for thermochemical heat storage applications 
+in CSP plants. Energy Procedia 2014;49:820–9. 
+[22] Pagkoura C, Karagiannakis G, Zygogianni A, Lorentzou S, Kostoglou M, 
+Konstandopoulos AG, Rattenburry M, Woodhead JW. Cobalt oxide based 
+structured bodies as redox thermochemical heat storage medium for future CSP 
+plants. Sol Energy 2014;108:146–63. 
+[23] Wang B. Thermochemical heat storage for concentrated solar power. US 
+Department of Energy; 2011. Final Report for the. 
+[24] Babiniec SM, Coker EN, Miller JE, Ambrosini A. Investigation of LaxSr1-xCoyM1- 
+yO3d (M = Mn, Fe) perovskite materials as thermochemical energy storage media. 
+Sol Energy 2015;118:451–9. 
+[25] Gokon N, Yawata T, Bellan S, Kodama T, Cho HS. Thermochemical behavior of 
+perovskite oxides based on LaxSr1-x(Mn, Fe, Co)O3-d and BaySr1-yCoO3-d redox 
+system for thermochemical energy storage at high temperatures. Energy 2019;171: 
+971–80. 
+[26] Chen XY, Kubota M, Yamashita S, Kita H. Investigation of Sr-based perovskites for 
+redox-type thermochemical energy storage media at medium-high temperature. 
+J Energy Storage 2021;38:102501. 
+[27] Gabra S, Marek EJ, Poulston S, Williams G, Dennis JS. The use of strontium ferrite 
+perovskite as an oxygen carrier in the chemical looping epoxidation of ethylene. 
+Appl Catal B 2021;286:119821. 
+[28] Liu Y, Zhu XF, Yang WS. Stability of sulfate doped SrCoO3-δ MIEC membrane. 
+J Membr Sci 2016;501:53–9. 
+[29] de la Calle C, Aguadero A, Alonso JA, Fernandez-Diaz MT. Correlation between 
+reconstructive phase transitions and transport properties from SrCoO2.5 
+brownmillerite: a neutron diffraction study. Solid State Sci 2008;10:1924–35. 
+[30] Agrafifiotis C, Roeb M, Schmucker M, Sattler C. Exploitation of thermochemical 
+cycles based on solid oxide redox systems for thermochemical storage of solar heat. 
+Part 1: testing of cobalt oxide-based powders. Sol Energy 2014;102:189–211. 
+[31] Bagherisereshki E, Tran J, Lei FQ, AuYeung N. Investigation into SrO/SrCO3 for 
+high temperature thermochemical energy storage. Sol Energy 2018;160:85–93. 
+[32] Xiong MW. Study on the performance of cobalt-based cathode materials with 
+perovskite structure in intermediate temperature solid oxide fuels cells. Shanghai 
+Jiao Tong University; 2013. 
+[33] Lindberg F, Istomin SYa, Berastegui P, Svensson G, Kazakov SM, Antipov EV. 
+Synthesis and structural studies of Sr2Co2- xGaxO5, 0.3≤x≤0.8. J Solid State Chem 
+2003;173:395–406. 
+[34] Azcondo MT, Orfila M, Linares M, Molina R, Marug´an J, Amador U, Boulahya K, ´A. 
+Botas J, Sanz ́ R. Thermochemical energy storage using the phase transitions 
+brownmillerite -2H perovskite - cubic perovskite in the CaxSr1−xCoO3−δ (x = 0 and 
+0.5) system. Appl Energy Mater 2021;4:7870–81. 
+[35] German RM. Coarsening in sintering: grain shape distribution, grain size 
+distribution, and grain growth kinetics in solid-pore systems. Crit Rev Solid State 
+Mater Sci 2010;35:263–305. 
+[36] Berkovitch-Yellin Z, van Mil J, Addadi L, Idelson M, Lahav M, Leiserowitz L. 
+Crystal morphology engineering by “Tailor-Made” inhibitors: a new probe to fine 
+intermolecular interactions. J Am Chem Soc 1985;107:3111–22. 
+[37] Yang JH, Sasaki T. Morphological control of single crystalline Co3O4 polyhedrons: 
+selective and nonselective growth of crystal planes directed by differently charged 
+surfactants and solvents. Cryst Growth Des 2010;10:1233–6. 
+[38] Onrubia-Calvo JA, Pereda-Ayo B, De-La-Torre U, Gonz´alez-Velasco JR. Key factors 
+in Sr-doped LaBO3 (B = Co or Mn) perovskites for NO oxidation in efficient diesel 
+exhaust purification. Appl Catal B 2017;213:198–210. 
+[39] Kim JG, Pugmire DL, Battaglia D, Langell MA. Analysis of the NiCo2O4 spinel 
+surface with Auger and X-ray photoelectron spectroscopy. Appl Surf Sci 2000;165: 
+70–84. 
+[40] Li D, Zhang XB, Liang CY, Jin YM, Fu MY, Yuan JL, Xiong YP. Study on durability 
+of novel core-shell-structured La0.8Sr0.2Co0.2Fe0.8O3-δ@Gd0.2Ce0.8O1.9 composite 
+materials for solid oxide fuel cell cathodes. Int J Hydrog Energy 2021;46: 
+28221–31. 
+[41] Cai ZH, Kubicek M, Fleig J, Yildiz B. Chemical heterogeneities on La0.6Sr0.4CoO3−δ 
+thin films correlations to cathode surface activity and stability. Chem Mater 2012; 
+24:1116–27. 
+[42] Carrillo AJ, Pizarro P, Coronado JYM. Assessing Cr incorporation in Mn2O3/Mn3O4 
+redox materials for thermochemical heat storage applications. J Energy Storage 
+2021;33:102028. 
+[43] Wang BY, Wang ZY, Dou BL, Ma Y, Liang YJ. Effects of TiO2 doping on the 
+performance of thermochemical energy storage based on Mn2O3/Mn3O4 redox 
+materials. RSC Adv 2021;11:33744–58. 
+[44] Lei FQ, Dyall A, AuYeung N. An in-depth investigation of BaO2/BaO redox oxides 
+for reversible solar thermochemical energy storage. Sol Energy Mater Sol Cells 
+2021;223:110957. 
+B. Wang et al.                                                                                                                                                                                                                                   

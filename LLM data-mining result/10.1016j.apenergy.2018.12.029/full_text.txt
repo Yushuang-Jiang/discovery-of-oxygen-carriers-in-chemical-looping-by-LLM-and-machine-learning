@@ -1,0 +1,1568 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Applied Energy
+journal homepage: www.elsevier.com/locate/apenergy
+Phase interactions in Ni-Cu-Al2O3 mixed oxide oxygen carriers for chemical
+looping applications
+Jijiang Huanga, Wen Liua,⁎, Wenting Hub, Ian Metcalfeb, Yanhui Yangc,⁎, Bin Liua,⁎
+a School of Chemical and Biomedical Engineering, Nanyang Technological University, Singapore 637459, Singapore
+b School of Engineering, Newcastle University, Merz Court, Newcastle upon Tyne NE1 7RU, United Kingdom
+c Institute of Advanced Synthesis, School of Chemistry and Molecular Engineering, Jiangsu National Synergetic Innovation Center for Advanced Materials, Nanjing Tech
+University, Nanjing 211816, China
+H I G H L I G H T S
+• Ni-Cu-Al2O3
+oxygen
+carriers
+with
+stable performance over 100 redox
+cycles.
+• Fully characterized phase interactions
+in Ni-Cu-Al2O3 oxygen carriers.
+• CuO-NiO interaction promotes lattice
+oxygen activity.
+• Ni1-xCuxAl2O4 spinel solid solution is
+resistant against carbon deposition.
+G R A P H I C A L A B S T R A C T
+NixCu1-xAl2O4 spinel solution suppresses carbon deposition during the chemical looping oxidation of CH4 by Ni-
+Cu-Al2O3 oxygen carriers. The Ni-Cu-Al2O3 oxygen carriers also contain highly active redox-active lattice oxygen
+compared to a single metal oxide (CuO or NiO) supported on Al2O3.
+A R T I C L E I N F O
+Keywords:
+Oxygen carriers
+Chemical looping combustion
+Methane conversion
+Phase interactions
+A B S T R A C T
+Chemical looping processes present great potentials to achieve carbon capture and fuel conversion with high
+thermodynamic efficiencies. Well-known applications of chemical looping include combustion and methane
+reforming, where phase interactions in oxygen carriers play important roles in determining the process per-
+formance. In this study, we systematically investigate the interactions between various phases in Ni-Cu-Al2O3
+mixed oxides oxygen carriers, which were prepared from layered double hydroxides precursors, synthesized
+hydrothermally using urea and metal nitrates. It appears that the addition of 32–45 wt% Al2O3 was sufficient to
+prevent sintering effects over 100 redox cycles at 800 °C, 1 atm, using methane as the fuel. The oxide phases and
+their compositions were determined using a set of complementary analytical techniques, allowing us to establish
+relationships between (i) the compositions of the mixed oxides, (ii) the chemical activity of the various types of
+lattice oxygen present and (iii) the distributions of gaseous products of chemical looping methane oxidation. We
+found that the mutual doping between NiO and CuO leads to enhanced lattice oxygen activities, whilst the solid
+solution of NiAl2O4 and CuAl2O4 leads to reduced lattice oxygen activity in the spinel phase, which also turns out
+to be particularly resistant to carbon deposition. The generality of the composition – activity - performance
+relationship is demonstrated by the successful prediction of the product distributions of methane oxidation based
+on solely the elemental compositions of the oxygen carriers. These findings enable the rational formulation of Ni-
+Cu-Al2O3 oxygen carriers for methane conversion with precise control of product selectivity.
+https://doi.org/10.1016/j.apenergy.2018.12.029
+Received 14 September 2018; Received in revised form 4 December 2018; Accepted 5 December 2018
+⁎ Corresponding authors.
+E-mail addresses: wenliu@ntu.edu.sg (W. Liu), yhyang@njtech.edu.cn (Y. Yang), liubin@ntu.edu.sg (B. Liu).
+Applied Energy 236 (2019) 635–647
+Available online 11 December 2018
+0306-2619/ © 2018 Elsevier Ltd. All rights reserved.
+T
+
+
+===== Page 2 =====
+
+1. Introduction
+The term chemical looping represents a class of processes that un-
+couple conventionally homogeneous reactions into multiple steps,
+which may be carried out in separate reactors, using heterogeneous
+carriers to transfer the key species (e.g. oxygen) between the reactors.
+By doing so, the homogeneous reactants are never mixed, so that the
+products are in separate streams instead of a homogeneous mixture.
+Thus, the need for product separation is inherently absent [1], together
+with the associated high economic and environmental burdens [2].
+Over the past two decades, chemical looping has been shown as a
+promising low carbon footprint alternative to conventional combustion
+[3], methane reforming [4] and water splitting processes [5]. In recent
+years, there have also been successes in demonstrating novel chemical
+looping applications in air separation [6], oxidative dehydrogenation of
+ethane [7] and epoxidation of ethylene [8].
+Most known chemical looping applications involve redox reactions
+that exploit the chemical properties of the oxides of first row transition
+metals, e.g. Mn, Fe, Co, Ni and Cu [9]. The performance of a chemical
+looping process may be characterized by its efficiency in converting the
+feedstocks and the selectivity towards the desired products, e.g. CO2
+and H2O for combustion, CO and H2 for reforming, etc. At a given
+temperature, a single oxide can only supply lattice oxygen (i.e. oxygen
+that is part of the metal oxide lattice rather than in the gas phase or
+some adsorbed forms) at specific pO2 values, as mapped by Luo et al.
+[10], limiting it to a specific application with a constrained operation
+regimes. To overcome this limitation, researchers turned to mixed oxide
+oxygen carriers, the lattice oxygen activity of which can be tuned by
+their compositions.
+A commercially viable oxygen carry must retain its reactivity over
+large numbers of redox cycles above 800 °C. However, redox active
+single oxides generally have strong tendencies to sinter and are prone to
+attrition. These shortcomings significant shorten the lifetimes of single
+oxide oxygen carriers. Hence, there is a generic need to introduce an
+secondary phase, typically oxides with higher melting points and at-
+trition strength, to stabilize the oxygen carriers. Thus, oxygen carriers
+are almost always in the form of mixed oxides. Here, the term “mixed
+oxide oxygen carriers” broadly include three types of systems, viz. (i)
+physical mixtures (ii) solid solutions and (iii) ternary oxide compounds.
+Physical mixtures correspond to composites in the absence of any
+bulk chemical interaction between the constituent oxides. The syner-
+getic effects in physical mixtures typically arise from the multi-
+functional nature of the composites. Examples include CaO-CuO car-
+riers for an integrated chemical looping combustion – calcium looping
+process [11], Cu modified Fe2O3 for methane reforming with minimal
+carbon deposition [12], and Fe2O3-ZrO2 for chemical looping water
+splitting with enhanced lattice oxygen diffusion [13].
+In a solid solution system, two or more iso-structural oxides form a
+single phase, in which the occupancies of the cationic sites are de-
+termined by the bulk cationic composition. The activity of the lattice
+oxygen in the solid solutions can be fine-tuned by the occupancies of
+the cationic sites. Examples of solid solution systems exploited for
+chemical looping processes include the Mn-Fe-O system for tuning the
+operating temperature of chemical looping with oxygen uncoupling
+(CLOU) [14] and the Mg-Ni-O system for enhanced sintering resistance
+over chemical looping combustion cycles [15].
+Ternary compounds, such as spinel [16,17], perovskite [18,19], and
+brownmillerite [20] structured materials, can be produced by mixing
+metal oxides of specific oxidation states and cationic radii. Phase
+changes in the ternary oxide compounds often lead to drastic changes to
+the activity of the lattice oxygen [21]. For example, perovskite struc-
+tured oxides are often capable of supplying highly active lattice oxygen
+[22], whereas the brownmillerite structured compounds give rise to
+chemically stable lattice oxygen [23,24].
+As discussed above, the activity of the lattice oxygen strongly de-
+pends on the chemical nature of the mixed oxides systems. Therefore,
+one needs to thoroughly understand the interactions within the mix-
+tures in order to efficiently optimize the formation of high performance
+oxygen carriers for chemical looping applications.
+Amongst all single metal oxygen carriers, NiO and CuO have the
+highest oxygen carrying capacities, which are 21 and 20 wt%, respec-
+tively. NiO is an excellent oxygen carrier for methane reforming, but
+performs poorly in chemical looping methane combustion owing to the
+metallic Ni’s catalysis of carbon deposition [25]. CuO provides the most
+active lattice oxygen for combustion amongst all binary candidates
+[26]. However, CuO suffers from severe sintering owing to the low
+Tammann temperatures of CuO, Cu2O and Cu [27]. Attempts to utilize
+CuO-NiO mixtures as oxygen carriers were made by Adánez and co-
+workers, who prepared the mixed oxides by impregnating CuO and NiO
+on α-Al2O3 or γ-Al2O3 supports [28,29]. The researchers concluded that
+NiO and NiAl2O4 could provide additional sintering resistance to CuO.
+However, these earlier studies regarded the various components in the
+mixed oxides as distinct phases (e.g. CuAl2O4, NiAl2O4, etc.), over-
+looking any possible phase interaction that may arise from the mixing
+(e.g. of CuAl2O4 and NiAl2O4) and the associated chemical con-
+sequences. Other researchers have reported synergetic effects between
+metallic Ni and Cu, when their mixtures are used for catalytic methane
+decomposition [30,31]. To date, the phase interactions in mixtures of
+NiO and CuO, in the presence of Al2O3, and the implications of these
+interactions in chemical looping processes, have not been addressed in
+the literature. This knowledge gap presents risks of misinterpretations
+and miscalculations of experimental measurements, especially those
+taken from large-scale chemical looping systems. Accordingly, the focus
+of this work is to systematically investigate the phase interactions in a
+series of nickel-copper-alumina mixed oxides over chemical looping
+cycles. By understanding the chemistry and the redox properties of the
+Ni-Cu-Al2O3 system, we can propose formulations of oxygen carriers
+that may benefit specific chemical looping applications such as me-
+thane combustion and methane reforming.
+2. Experimental
+2.1. Preparation of oxygen carriers
+NiO-CuO-Al2O3 were synthesized from Ni2+, Cu2+ and Al3+ con-
+taining layered double hydroxide (LDH) precursors, which facilitates
+the formation of equilibrium compositions upon calcination, owing to
+the atomic-level dispersion of Ni2+, Cu2+ and Al3+ ions in the brucite
+layers. The Ni/Cu/Al LDH precursors were prepared by hydrothermal
+syntheses, adapted from the procedure outlined by He et al. [32]. In a
+Notations
+CLC
+chemical looping combustion
+CLOU
+chemical looping with oxygen uncoupling
+DTG
+differential thermogravimetry
+I.D.
+inner diameter
+LDH
+layered double hydroxides
+NTP
+standard conditions for temperature and pressure, viz.
+20 °C, 1 atm.
+OTC
+oxygen transfer capacity
+RALO
+redox-active lattice oxygen
+SEM
+scanning electron microscopy
+SXRD
+synchrotron X-ray powder diffraction
+TGA
+thermogravimetric analysis
+TPR
+temperature programmed reduction
+XRD
+X-ray diffraction
+J. Huang et al.
+Applied Energy 236 (2019) 635–647
+636
+
+
+===== Page 3 =====
+
+typical
+synthesis,
+stoichiometric
+amount
+of
+Ni(NO3)2·6H2O,
+Cu
+(NO3)2·3H2O, Al(NO3)3·9H2O and urea (the exact amount can be found
+in Appendix Table A1) were dissolved in 50 mL of deionized water in a
+100 mL Teflon-lined stainless steel autoclave reactor. The concentration
+ratio of divalent cations (Cu2+ and Ni2+) to trivalent cations (Al3+) in
+the mixed solution was fixed at 3:1. The concentration of urea was
+0.2 M. After hydrothermal reactions at 120 °C for 24 h, the resulting
+precipitates were extracted by centrifugation, washed with deionized
+water three times, and dried in air at 65 °C overnight. The dried pre-
+cipitates were ground into powders for characterization and further
+processing. The mixed-oxide oxygen carriers were prepared by cal-
+cining the LDH precursors in a muffle furnace at 1000 °C (heating rate
+of 2 °C/min) for 6 h in air.
+2.2. Characterization
+The structure of the LDH precursors was studied by powder X-ray
+diffraction (XRD) in a Bruker AXS D8 diffractometer with filtered Cu Kα
+radiation (λ = 1.5406 Å) at 40 kV and 40 mA under ambient condition.
+The morphological information of the LDH precursors and the fresh
+oxygen carriers was examined by a field emission scanning electron
+microscopy (JEOL JSM 6700F). To study the phase compositions of the
+oxygen carrier samples before and after CLC cycles, synchrotron X-ray
+powder diffraction (SXRD) was performed on beamline ID22 at the
+European Synchrotron Radiation Facility (ESRF), Grenoble, France. The
+SXRD was undertaken in transmission geometry with an X-ray energy of
+35.0 keV. Diffractograms were collected using a 9-channel Si 111 multi-
+analyzer stage detector at a scan rate of 0.8° min−1.
+2.3. Thermogravimetric analysis
+The bulk compositions of the oxygen carrier samples were de-
+termined by thermogravimetric analysis (TGA/DSC2, Mettler Toledo),
+exploiting the fact that lattice oxygen associated with Cu2+, Ni2+ and
+Al3+ have drastically different activities even in the presence of phase
+interactions. In a typical analysis, ∼10 mg of fresh oxide sample was
+first degassed by heating in N2 from 50 °C at a rate of 10 °C/min to
+700 °C, and then held isothermally for 120 min, followed by a tem-
+perature ramp to 1100 °C in N2 at a rate of 10 °C/min and a dwell of
+60 min, allowing all Cu(II) species (including those in CuO and
+CuAl2O4) to decompose to Cu (I) species (Cu2O and CuAlO2). The
+sample was subsequently exposed to 5 vol% H2 in N2 at 900 °C for
+180 min, to reduce all Cu(I) and Ni(II) (including those in NiO and
+NiAl2O4) to their corresponding metallic forms plus the residual Al2O3.
+Thus, the weight losses during the Cu(II) decomposition stage and the
+H2 reduction stage can be used to deduce the mole fraction of Cu2+ and
+Ni2+ (according to Eqs. (A1) & (A2)), respectively. Lastly, the mole
+fraction of Al3+ is determined by oxygen balance.
+The qualitative analysis of the activities of the lattice oxygen were
+performed by temperature programmed reduction (TPR) using the same
+TGA with the following program: (i) oxidation in air at 800 °C for
+60 min, (ii) an isotherm in N2 at 100 °C for 10 min, and (iii) temperature
+ramp from 100 °C to 1000 °C at a rate of 5 °C/min in 5 vol% H2 in N2.
+The TPR analysis was performed on the oxygen carrier samples before
+and after 100 redox cycles.
+2.4. Chemical looping oxidation of methane
+The activity of the lattice oxygen of the oxygen carriers over che-
+mical looping cycles were characterized by the products of methane
+oxidation in an atmospheric pressure fixed-bed reactor, as shown
+schematically in Fig. 1. The apparatus has been described in the pre-
+vious works by Huang et al. [15,33]. For each chemical looping ex-
+periment, 0.1 g of oxygen carrier was packed in a recrystallized alumina
+tube (99% purity) of I.D = 9 mm and wall thickness of ∼1 mm. The
+packing arrangement, from top to bottom, is as follows: 8.8 g of white
+Al2O3 sand (1400–1700 μm), 0.1 g of oxygen carrier powder, 2.0 g of
+white
+Al2O3
+sand
+(300–425 μm),
+5.8 g
+of
+white
+Al2O3
+sand
+(1400–1700 μm) and a plug of silica wool. The packed bed reactor was
+externally heated by a tubular furnace (MTF 10/15/130, Carbolite) and
+positioned such that the active bed (the oxygen carriers) was aligned to
+the center of the furnace’s heating zone. The length of the active bed
+(∼1 mm) is one order of magnitude shorter than the length of the iso-
+temperature zone of the furnace (∼3 cm), eliminating any axial tem-
+perature gradient across the active bed. Such a short bed is also ex-
+pected to behave close to a differential reactor with minimal heat ef-
+fects. The temperatures of the active bed were calibrated against the set
+point temperatures of the furnace under steady state operation prior to
+the chemical looping experiments. In each redox cycle, the feed gases
+were, consecutively: 1 min of N2 (purge), 5 min of 5 vol% CH4/N2 (re-
+duction), 1 min of N2 (purge), and 5 min of 5 vol% O2/N2 (oxidation).
+The times chosen allow the complete purge, reduction and oxidation of
+the active bed. The experiments were conducted isothermally at 800 °C
+for 100 redox cycles, whilst the gas flow rates were maintained at
+225 mL/min (NTP) at all times by digital mass flow controllers (CS200-
+A, Sevenstar). The compositions of the effluent gases were measured
+using online gas analyzers (Caldos27, Uras26 and Magnos208, EL3020
+series, ABB) at a sampling frequency of 1 Hz.
+3. Results and discussion
+3.1. Characterization of the LDH precursors
+Fig. 2(a)–(e) show that all synthesized precursors exhibit flower-like
+morphologies with platelet assemblies (higher magnification images
+shown in Fig. A1). The SEM images also suggest that the sizes of the
+LDH crystallites increase with Cu content. The XRD patterns of the
+precursors, as shown in Fig. 2(f), confirm the successful synthesis of
+LDH, showing the characteristic (0 0 3) and (0 0 6) reflections at ca. 10°
+and 20°, respectively. For samples (1)–(4), LDH is the only detectable
+crystalline phase in the precipitates. For sample (5), the additional
+peaks at ∼12.9° and ∼25.8° (Fig. A2) can be assigned to Cu2(NO3)
+(OH)3 (PDF number 45-0594).
+3.2. Characterization of the fresh oxygen carriers
+The elemental compositions of the oxide samples were estimated by
+isothermal thermogravimetric analyses (TGA). Fig. 3(a) shows the
+normalized weight loss curves, from which the compositions are
+quantified and presented in Table 1. From Table 1, it is apparent that
+the ratios of divalent cations to trivalent cations in the mixed oxides are
+less than the originally intended 3:1. Thus, the oxygen carriers, calcined
+Fig. 1. Schematic of the fixed-bed for chemical looping study.
+J. Huang et al.
+Applied Energy 236 (2019) 635–647
+637
+
+
+===== Page 4 =====
+
+from the LDH precursors (1)–(5), are named based on the compositions
+determined
+by
+TGA,
+viz.
+Ni1.32Al,
+Ni0.94Cu0.46Al,
+Ni0.32Cu0.90Al,
+Ni0.12Cu0.71Al and Cu0.80Al, respectively. Indeed, the measured com-
+positions are lower in Ni2+ and Cu2+ than what one would expect
+based on Table A1, viz. N3Al, Ni2.5Cu0.5Al, NiCu2Al, Cu2NiAl and Cu3Al,
+respectively. The discrepancy between the expectation and the mea-
+surements is attributed to the incomplete precipitation during the hy-
+drothermal reactions. The total weight losses in TGA are taken to be the
+theoretical maximum oxygen transfer capacities (OTC), also shown in
+Table 1.
+During the N2 decomposition (Fig. 3b), two differential thermo-
+gravimetry (DTG, i.e. the first time derivative of a weight loss curve)
+peaks can be seen. These two peaks correspond to the decomposition of
+CuO to Cu2O and CuAl2O4 to CuAlO2, respectively [34]. The DTG peak
+corresponding to CuAl2O4 decomposition decreases in size with in-
+creasing Ni content. Specifically, the CuAl2O4 content in the five sam-
+ples
+can
+be
+ranked
+as
+Ni1.32Al < Ni0.94Cu0.46Al <
+Ni0.32Cu0.90Al < Ni0.12Cu0.71Al < Cu0.80Al. This trend suggests that
+the measured amount of CuAl2O4 can be approximated by nAl – 2nNi or
+zero, whichever is larger, where ni corresponds to the stoichiometry in
+the samples’ names. In other words, Al2O3 reacts with NiO in preference
+to CuO to form NiAl2O4; any residual Al2O3 would then react with CuO
+to form CuAl2O4. Accordingly, the nominal chemical compositions of
+the oxygen carriers, not accounting for the formation of solid solutions,
+are calculated and shown in Table 1.
+Fig. 4(a)–(e) depicts the morphologies of the freshly calcined
+oxygen carriers. It can be seen that the flower-like platelet morpholo-
+gies of the LDH precursors persist after calcination. The SEM images
+Fig. 2. SEM images (a–e) and XRD patterns (f) of the as-prepared Ni/Cu/Al LDHs with varying Ni/Cu/Al ratios. The molar ratio of (Ni2++Cu2+):Al3+ was fixed at
+3:1, whereas the ratios of Ni2+:Cu2+ were (a) 3:0, (b) 2.5:0.5, (c) 2:1, (d) 1:2 and (e) 0:3, respectively. The diffraction patterns (i)–(v) correspond to the samples
+depicted in (a)–(e), respectively.
+10000
+15000
+20000
+25000
+30000
+86
+88
+90
+92
+94
+96
+98
+100
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+0.0
+-0.2
+-0.4
+-0.6
+-0.8
+-1.0
+b)
+Mass (%)
+Time (s)
+ Ni1.32Al
+ Ni0.94Cu0.46Al
+ Ni0.32Cu0.90Al
+ Ni0.12Cu0.71Al
+ Cu0.80Al
+700
+800
+900
+1000
+1100
+Temperature (
+oC)
+First-order derivative of mass (μg s
+-1)
+Time (s)
+ Ni1.32Al
+ Ni0.94Cu0.46Al
+ Ni0.32Cu0.90Al
+ Ni0.12Cu0.71Al
+ Cu0.80Al
+a)
+700
+800
+900
+1000
+1100
+Temperature (
+oC)
+Fig. 3. (a) Normalized sample mass as a function of time during N2 decom-
+position and H2 reduction. (b) First-order derivative of sample mass as a
+function of time. The black dash lines show the temperature profiles over time.
+Table 1
+The composition of various metal oxide samples, calculated from thermogravimetric analysis involving Cu(II) decomposition and Cu(I) and Ni(II) reduction.
+Oxygen carrier
+Oxide basis (wt.%)
+OTC mmol O/g
+Nominal composition (mol.%)*
+NiO
+CuO
+Al2O3
+NiAl2O4
+CuAl2O4
+NiO
+CuO
+Ni1.32Al
+66
+0
+34
+8.84
+38
+–
+62
+–
+Ni0.94Cu0.46Al
+44
+23
+32
+8.87
+36
+–
+31
+33
+Ni0.32Cu0.90Al
+16
+49
+35
+8.33
+26
+15
+–
+59
+Ni0.12Cu0.71Al
+8
+48
+44
+7.12
+15
+46
+–
+40
+Cu0.80Al
+0
+55
+45
+6.95
+–
+63
+–
+37
+* The calculation assumes (i) Al2O3 reacts preferentially with NiO to form NiAl2O4 and (ii) following (i), any residual Al2O3 reacts with CuO to form CuAl2O4.
+J. Huang et al.
+Applied Energy 236 (2019) 635–647
+638
+
+
+===== Page 5 =====
+
+also reveal signs of agglomeration and fracture of the platelets, prob-
+ably as results of sintering and thermal stress during the calcination.
+Fig. 4(f) shows the SXRD patterns of the freshly prepared oxygen car-
+riers. All diffraction peaks can be fully indexed by Rietveld refinement.
+The key refinement results are summarized in Table 2, listing the major
+phases present: NiO (halite structure), alumina spinel (NixCu1-xAl2O4,
+with 0 ≤x ≤1) and CuO (tenorite structure). In Ni0.32Cu0.90Al and
+Ni0.12Cu0.71Al, the NiO diffraction peaks are absent, suggesting that the
+majority of the Ni2+ should be present in the form of NiAl2O4. The
+lattice parameters calculated from the refined diffraction patterns in-
+dicate that the NiO lattice expands in the presence of CuO, whilst the
+CuO lattice shrinks in the presence of NiO. These changes show that the
+NiO and CuO in the oxygen carriers are substitutionally doped by one
+another [35]. However, the relatively low mutual solubility between
+NiO and CuO means that the halite phase and the tenorite phase could
+still be chemically represented by NiO and CuO, respectively. It should
+be noted that, in the present oxides system, the NiO phase may also be
+doped by Al3+ (as discussed in Section 3.4 below), making it practically
+impossible to quantify the composition of the individual phases using
+Vegard’s law.
+TPR in 5% H2 (balanced by N2) was performed by TGA to char-
+acterize the redox-active lattice oxygen (RALO) in the samples. Fig. 5
+shows the weight loss curves during the TPR, normalized based on the
+initial mass, and the corresponding DTG curves. For Ni1.32Al, the DTG
+peaks at 441, 562 and 816 °C can be assigned to the loss of RALO from
+NiO with weak NiO-Al2O3 interaction, NiO with intermediate NiO-
+Al2O3 interaction, and NiAl2O4, respectively [36]. It appears, as dis-
+cussed
+in
+Section
+3.4
+below,
+that
+the
+intermediate
+NiO-Al2O3
+interaction is associated with the substitutional doping of Al3+ in NiO,
+which is inherently different from the “strong interaction” between NiO
+and Al2O3 to form NiAl2O4. In the case of Cu0.80Al, the two peaks at 272
+and 432 °C can be explained by the loss of RALO from CuO and
+CuAl2O4, respectively. Based on the reference cases above, the DTG
+peaks for the mixed oxide samples (viz. Ni0.94Cu0.46Al, Ni0.32Cu0.90Al
+and
+Ni0.12Cu0.71Al)
+are
+be
+assigned
+to
+the
+reduction
+of
+CuO
+(243–265 °C),
+CuAl2O4
+(∼510 °C),
+NiO
+(335 °C)
+and
+NiAl2O4
+(> 800 °C). The compositions identified by the TPR experiments are in
+Fig. 4. SEM images of the fresh oxygen carriers, namely (a) Ni1.32Al, (b) Ni0.94Cu0.46Al, (c) Ni0.32Cu0.90Al, (d) Ni0.12Cu0.71Al, and (e) Cu0.80Al. (f) SXRD diffraction
+patterns of the fresh oxygen carriers, incident beam energy = 35 keV.
+Table 2
+Key parameters for the refinement of the SXRD patterns of the fresh oxygen
+carriers.
+Sample
+Phase
+Lattice parameters
+a (Å)
+b (Å)
+c (Å)
+β (°)
+Ni1.32Al
+NiO
+8.3541
+8.3541
+8.3541
+NiAl2O4
+8.0539
+8.0539
+8.0539
+Ni0.94Cu0.46Al
+NiO
+8.3766
+8.3766
+8.3766
+NiAl2O4
+8.0567
+8.0567
+8.0567
+CuO
+4.6767
+3.4339
+5.1316
+99.254
+Ni0.32Cu0.90Al
+CuO
+4.6775
+3.4330
+5.1317
+99.293
+(Ni,Cu)Al2O4
+8.0598
+8.0598
+8.0598
+Ni0.12Cu0.71Al
+CuO
+4.6867
+3.4240
+5.1321
+99.438
+(Ni,Cu)Al2O4
+8.0721
+8.0721
+8.0721
+Cu0.80Al
+CuO
+4.6888
+3.4224
+5.1324
+99.44
+CuAl2O4
+8.0799
+8.0799
+8.0799
+J. Huang et al.
+Applied Energy 236 (2019) 635–647
+639
+
+
+===== Page 6 =====
+
+agreement with the results of the isothermal TGA and SXRD, confirming
+the preferred formation of NiAl2O4.
+From Fig. 5, we observe that the DTG peaks associated with the
+reduction of CuO shift to lower temperatures with increasing Ni2+
+content. The same shifts are seen for the DTG peaks of NiO in the
+presence of increasing Cu2+ content. It is generally expected that a TPR
+peak at low temperature corresponds to high RALO activity and vice
+versa. Therefore, the shifts of the CuO and NiO DTG peaks suggest that
+the RALO in both phases becomes more active owing to mutual doping.
+On the other hand, the DTG peaks corresponding to the reduction of the
+spinel compounds (CuAl2O4 and NiAl2O4) in the mixed oxide samples
+shifted to higher temperatures compared to that of the unmixed ones
+(Ni1.32Al
+and
+Cu0.80Al),
+suggesting
+that
+the
+formation
+of
+the
+NixCu1-xAl2O4 solution reduces the activity of the RALO in the re-
+spective spinel compounds. The same effect can be seen in the results
+reported by Gayán et al. [29], although the authors did not address the
+shift of the DTG peaks.
+The characterizations so far suggest that mixing NiO and CuO pro-
+motes the activities of RALO in CuO and NiO, whereas mixing NiAl2O4
+and CuAl2O4 hinders the RALO activities in CuAl2O4 and NiAl2O4. In
+addition, the A sites in the AB2O4 spinel phase appear to be pre-
+ferentially occupied by Ni2+. The practical implications of these phase
+interactions are discussed in the next section.
+3.3. Chemical looping oxidation of CH4
+The oxidation of methane is chosen as the benchmark process to
+characterize the activity of the various types of RALO under chemical
+looping conditions. In the present experimental design, three regimes
+exist during the reaction between methane and the oxygen carriers: (i)
+combustion to CO2 and H2O, (ii) reforming to CO and H2 and (iii) direct
+decomposition to carbon and H2. The three regimes correspond to the
+availability of high activity RALO, low activity RALO and no RALO,
+respectively
+[37].
+When
+combustion
+and
+reforming
+take
+place
+simultaneously, the product mixture may also undergo the water–gas-
+shift reaction: CO + H2O ⇌CO2 + H2 [38].
+Fig. 6 shows the product composition profiles over time during the
+reactions with methane in the 2nd and 100th redox cycles. The steam
+mole fractions in the product were estimated based on hydrogen bal-
+ance, knowing the mole fractions of CH4 and H2 in the product. In
+Fig. 6, the three reaction regimes are manifested by (i) a CO2 peak and a
+H2O peak with similar profile and twice the magnitude, (ii) a CO peak
+and a H2 peak with similar profile and twice the magnitude (with the
+exception of Ni1.32Al and Ni0.94Cu0.46Al (Fig. 6a and b) where the ratio
+of pH2:pCO exceeds 2 owing to an early onset of carbon deposition), and
+(iii) a tail of H2 in the absence of other gaseous products, respectively.
+The gradual and successive transitions between the regimes suggest
+that more active RALOs are consumed first, in agreement with the
+observation by Adánez et al. [28]. A notable feature in Fig. 6(c) is the
+second CO2 peak, which is succeeded by a CO peak. This second CO2
+peak corresponds to the combustion of the CO produced from methane
+reforming, as discussed by Cabello et al. [39]. Fig. 6 also shows that the
+product composition profiles of Ni0.94Cu0.46Al, Ni0.12Cu0.71Al and
+Cu0.80Al remain largely unchanged after 100 redox cycles, i.e. the phase
+changes due to redox reactions are reversible. In contrast, Ni1.32Al and
+Ni0.32Cu0.90Al produce significantly different product compositions
+between the second cycle and the 100th cycle; these variations are
+further discussed in the next section.
+The overall product distribution of methane oxidation in each cycle
+are represented by the conversion of methane and the yields of CO, CO2
+and carbon, as plotted in Fig. 7, which confirms the stable performance
+85
+88
+91
+94
+97
+100
+200
+400
+600
+800
+1000
+0
+-2
+-4
+-6
+-8
+Mass (%)
+ Ni1.32Al
+ Ni0.94Cu0.46Al
+ Ni0.32Cu0.90Al
+ Ni0.12Cu0.71Al
+ Cu0.80Al
+887
+432
+272
+807
+510
+265
+261
+243
+335
+934
+852
+816
+562
+First-order derivative of mass (μg s
+-1)
+Temperature (
+oC)
+441
+Fig. 5. Normalized weight loss curves and their first-order time derivatives for
+temperature programmed reduction of the fresh oxygen carriers.
+0
+2
+4
+6
+0
+2
+4
+6
+0
+2
+4
+6
+0
+2
+4
+6
+0
+100
+200
+0
+2
+4
+6
+0
+100
+200
+300
+c)
+b)
+100
+th reduction
+ CH4
+ CO2
+ CO     
+ H2
+ H2O
+2
+nd reduction
+a)
+Gas mole fraction (%)
+e)
+d)
+Time (s)
+Fig. 6. Mole fraction of gaseous products during chemical looping CH4 con-
+version with 5% CH4/N2 at 800 °C at the 2nd and 100th cycle. (a) Ni1.32Al, (b)
+Ni0.94Cu0.46Al, (c) Ni0.32Cu0.90Al, (d) Ni0.12Cu0.71Al and (e) Cu0.80Al.
+J. Huang et al.
+Applied Energy 236 (2019) 635–647
+640
+
+
+===== Page 7 =====
+
+of Ni0.94Cu0.46Al, Ni0.12Cu0.71Al and Cu0.80Al over 100 cycles. Mean-
+while, the redox cycles have made Ni1.32Al more selective towards CO
+with reduced yields of CO2 and carbon. Ni0.32Cu0.90Al appears to be
+self-activating, producing more CO2, CO and carbon over cycles.
+A few correlations between the nominal chemical compositions of
+the oxygen carriers (as shown in Table 1) and their initial performance
+can be observed. Firstly, samples containing halite structured NiO (viz.
+Ni1.32Al and Ni0.94Cu0.46Al) yield significantly more carbon and convert
+more methane than ones without NiO. This is owing to the fact that the
+reduced Ni catalyzes the direct decomposition of CH4 to carbon and H2
+[40]. Secondly, samples with higher Cu contents are more selective
+towards CO2. Amongst the samples tested, Cu0.80Al is the best for
+complete combustion, producing CO2 close to 97% of the theoretical
+maximum yield (3.14 mmol/gCuO) with negligible CO byproduct. This is
+in agreement with the general consensus that CuO is the most reactive
+oxygen carrier for chemical looping combustion of methane [41].
+Thirdly, the samples with higher NiAl2O4 content (as estimated in
+Table 1) are associated with higher CO yield and lower CO2 yield,
+meaning that the RALO in NiAl2O4 favors methane reforming. Lastly,
+the presence of Ni1-xCuxAl2O4 seems to suppress carbon deposition in
+Ni0.12Cu0.71Al, resulting in even lower carbon yield than the benchmark
+formulation of Cu0.80Al. The low carbon yield could be attributed to the
+resilient RALO in Ni1-xCuxAl2O4, which oxidized any deposited carbon
+until all spinel phases are decomposed by reduction. Analogous carbon
+inhibition effect by FeAl2O4 has been discussed by Bao et al. [42].
+The total availability of RALO under chemical looping conditions is
+characterized by solid conversion (according to Eq. (A3)), for which
+unity corresponds to the case that all RALO participates in redox re-
+actions. The evolution of solid conversion versus time curves for the
+five oxygen carriers at selected cycles are plotted in Fig. 8(a)–(e), re-
+spectively. Fig. 8(f) shows the total solid conversion achieved by the
+end of each methane oxidation over 100 redox cycles. In Fig. 8(f), it can
+be seen that > 80% solid conversion is achieved for all five samples,
+indicating high oxygen carrying capacities and the absence of any bulk
+deactivation phenomenon (e.g. sintering). For Ni0.32Cu0.90Al, the total
+solid conversion increases cyclically; this may be explained by the
+changes in RALO activity, as discussed in the next section.
+Based on the results above, an attempt is made to correlate the
+chemical compositions of the samples (as shown in Table 1) to the
+product distributions (as shown in Fig. 7). We crudely postulate that all
+CuO, CuAl2O4 and NiO can fully oxidize CH4 to CO2 and H2O, whereas
+NiAl2O4 only partially oxidizes CH4 to CO and H2. The amount of RALO
+participating in the methane oxidation is estimated based on the solid
+conversion reported in Fig. 8(f). Additionally, the yield of carbon is
+assumed to be proportional to the amount of NiO present. The product
+yields of the freshly calcined oxygen carriers, estimated based on the
+assumptions above, are compared to the measured values in Fig. 9(a),
+which shows that the proposed correlation can roughly predict the
+product compositions. Notable discrepancies in Fig. 9(a) include the
+overestimated CO2 yields and the underestimated CO yields, both
+suggesting that some of the CuAl2O4 and NiO participated in methane
+reforming instead of combustion. The experimental observations so far
+are be summarized by the schematic depicted in Fig. 9(b).
+In the present chemical looping experiments, the effect of RALO
+promotion by the mutual doping between CuO and NiO, as suggested
+by the TPR results, is not apparent. This is probably because the re-
+duction of CuO and NiO during the looping cycles at 800 °C are too fast
+to
+be
+rate
+limiting.
+However,
+this
+promotion
+effect
+presents
+0
+20
+40
+60
+80
+100
+0.05
+0.10
+0.15
+0.20
+0.25
+0.30
+0.35
+0
+20
+40
+60
+80
+100
+1.6
+2.0
+2.4
+2.8
+3.2
+0
+20
+40
+60
+80
+100
+0
+1
+2
+3
+4
+5
+6
+0
+20
+40
+60
+80
+100
+0.0
+0.2
+0.4
+1
+2
+3
+4
+5
+6
+ Ni1.32Al
+  
+ Ni0.94Cu0.46Al
+ Ni0.32Cu0.90Al
+ Ni0.12Cu0.71Al
+ Cu0.80Al
+CH4 conversion
+Cycle number
+CO2 yield (mmol g(Ni,Cu)O
+-1)
+Cycle number
+d)
+c)
+b)
+CO yield (mmol g(Ni,Cu)O
+-1)
+Cycle number
+a)
+C deposition (mmol g(Ni,Cu)O
+-1)
+Cycle number
+Fig. 7. (a) CH4 conversion, (b) CO2 yield, (c) CO yield and (d) carbon deposition on different NiO-CuO-Al2O3 oxygen carriers during 100 chemical looping redox
+cycles. The yields in (b)–(d) are calculated based on the total mass of active oxides (CuO and NiO).
+J. Huang et al.
+Applied Energy 236 (2019) 635–647
+641
+
+
+===== Page 8 =====
+
+0
+20
+40
+60
+80
+100
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+0
+50
+100
+150
+200
+250
+300
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Xreduction of Ni1.32Al
+Time (s)
+a)
+0
+50
+100
+150
+200
+250
+300
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Xreduction of Ni0.94Cu0.46Al
+Time (s)
+0
+50
+100
+150
+200
+250
+300
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Xreduction of Ni0.32Cu0.90Al
+Time (s)
+0
+50
+100
+150
+200
+250
+300
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Xreduction of Ni0.12Cu0.71Al
+Time (s)
+0
+50
+100
+150
+200
+250
+300
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Xreduction of Cu0.80Al
+Time (s)
+ 2
+nd
+ 10
+th
+ 20
+th
+ 50
+th
+ 100
+th
+f)
+e)
+d)
+c)
+b)
+ Ni1.32Al
+ Ni0.94Cu0.46Al
+ Ni0.32Cu0.90Al
+ Ni0.12Cu0.71Al
+ Cu0.80Al
+Solid conversion, Xreduction
+Cycle number
+Fig. 8. (a–e) The reduction curves of different NiO-CuO-Al2O3 oxygen carriers in selected cycles: 2nd, 10th, 20th, 50th and 100th and (f) solid conversion during
+reduction with 5% CH4/N2.
+Fig. 9. (a) Measured product yields in the second cycle versus the product yields predicted based on the compositions of the fresh oxygen carriers. The yields are
+calculated based on the total mass of active oxides (CuO and NiO). The diagonal line corresponds to exactly accurate prediction. (b) A schematic diagram of the
+reaction sequence.
+J. Huang et al.
+Applied Energy 236 (2019) 635–647
+642
+
+
+===== Page 9 =====
+
+opportunities for exploitation for low temperature chemical looping
+applications, such as exhaust gas oxidation [43] and membrane assisted
+steam methane reforming [44]. Another major phase interaction ob-
+served in the mixed oxide system is the solid solution of CuAl2O4 and
+NiAl2O4, which gave rise to RALO with high selectivity towards me-
+thane reforming and high resistance against carbon deposition.
+Last but not least, it should be noted that the cycling experiments
+were performed under considerably dilute gas environments (viz. 5%
+CH4 and 5% O2 for reduction and oxidation, respectively) and in che-
+mically short beds, as opposed to the ∼100% CH4 and air fed to the
+circulating fluidized beds systems that would be used in commercial-
+scale chemical looping systems. The chosen experimental conditions
+result in prolonged reactions periods in the absence of strong heat and
+mass transfer effects, enabling the measurements of key kinetic features
+(e.g. the three regimes of methane oxidation) as the lattice oxygen
+depletes over time. These measurements are critical to reactor model-
+ling but cannot be achieved in a large-scale continuous system, which
+typically operates under equilibrium limited or mass transfer limited
+reaction regimes. On the other hand, the bench-scale set up is not useful
+in evaluating certain physical properties of the oxygen carriers, such as
+attrition and fluidization behaviors, which are also crucial to the pro-
+cess scale-up.
+3.4. Phase compositions after chemical looping cycles
+The oxygen carriers after 100 redox cycles were recovered and ex-
+amined by SXRD and TPR. The SXRD patterns, as shown in Fig. A4)
+confirm that the phase compositions of Ni0.94Cu0.46Al, Ni0.12Cu0.71Al
+and Cu0.80Al remain roughly the same after 100 redox cycles; this ex-
+plains their stable performance. The SXRD patterns for Ni1.32Al and
+Ni0.32Cu0.90Al, however, suggest changes in phase compositions, which
+should be responsible for the variation of their behavior over cycling.
+Fig. 10(a) compares the SXRD and TPR results of Ni1.32Al before and
+after 100 redox cycles. Fig. 10(a) shows that, the SXRD peaks of the
+post-cycling NiO shift to lower angles, whereas those of NiAl2O4 shift to
+higher angles. This may be explained by a net transfer of dopant Al3+
+from the NiO phase to the NiAl2O4 phase, as discussed by Elrefaie and
+Smeltzer [45]. Fig. 10(b) shows changes of the low temperature
+(< 450 °C) and intermediate temperature (> 530 °C) DTG peaks, which
+correspond to the reduction of NiO with weak (α-type) and inter-
+mediate (β-type) interaction with Al2O3, respectively. The enlargement
+of the α peak and the reduction of the β peak indicate that the inter-
+action between NiO and Al2O3 is weakened; this could be correlated to
+the precipitation of Al3+ dopant from the NiO phase, as suggested by
+the SXRD results. The changes are also accompanied by a shift of the
+NiAl2O4 DTG peak from 816 to 871 °C. In chemical looping systems,
+Al3+ doping usually leads to lower RALO activity [46]. Thus, the DTG
+peak shifts, in conjunction with the SXRD results, indicate that a por-
+tion of the substitutional dopant Al3+ precipitated from the NiO phase
+during cycling. Furthermore, the reduction in the carbon yield (shown
+in Fig. 7d) suggests that some of the precipitated Al2O3 reacted with
+NiO, forming additional NiAl2O4, which also gave rise to the reduced
+CO2 yield and the increased CO yield, as shown in Fig. 7(b) and (c).
+Fig. 10(c) compares the SXRD and TPR results of Ni0.32Cu0.90Al
+before and after chemical looping cycles. In Fig. 10(c), the NiO SXRD
+peaks of the cycled sample indicate the precipitation of NiO from the
+originally halite-free Ni0.32Cu0.90Al. It should be noted that the sharp
+Al2O3 peak seen in Fig. 10(c) comes from the contamination by the inert
+packing material (alumina sand) used in the chemical looping experi-
+ments and should be regarded as an experimental artifact. In Fig. 10(d),
+the shift of the CuO DTG peak from 261 to 275 °C also suggests the
+precipitation of dopant NiO from CuO over redox cycles. The observed
+Fig. 10. SXRD patterns (a & c) and TPR curves (b & d) of the fresh and spent Ni1.32Al and Ni0.32Cu0.90Al.
+J. Huang et al.
+Applied Energy 236 (2019) 635–647
+643
+
+
+===== Page 10 =====
+
+precipitations are in line with the phenomena described by Huang et al.
+[40], who validated the effect of fast redox cycles on irreversible phase
+segregations of mixed oxides. The precipitated NiO in Ni0.32Cu0.90Al,
+albeit little, facilitated the increases in CH4 conversion, CO2 yield, CO
+yield and carbon yield, as shown in Fig. 7. In a commercial chemical
+looping process where more concentrated feedstocks (e.g. almost 100%
+methane) are used, the reaction time scales (i.e. the time taken for the
+oxygen carrier to go through one redox cycle) would be even shorter,
+meaning that the issue of phase segregation may become more severe.
+4. Conclusions
+In this investigation, the layered double hydroxides-derived mixed
+oxides contain between 32 and 45 wt% Al2O3 (prior to the formation of
+spinel), which provide the oxygen carriers with sufficient sintering re-
+sistance to maintain high oxygen carrying capacity (> 80% of the
+theoretical maximum) over 100 redox cycles at 800 °C. However, there
+are substantial differences between their methane oxidation behaviors.
+For example, Ni1.32Al shows selectivities towards CO2 and CO of < 20%
+and > 60%, respectively, with severe carbon deposition; whereas
+Cu0.80Al shows CO2 and CO selectivities of ∼90% and < 10%, re-
+spectively, with little carbon deposition (as shown in Fig A.3). The
+drastic differences in the selectivities and the product distributions can
+be explained by the differences in phase compositions.
+In the Ni-Cu-Al-O mixed oxide system, three phases are present, viz.
+a halite phase (predominately NiO), a tenorite phase (predominately
+CuO) and a spinel phase (a solid solution of CuAl2O4 and NiAl2O4). In
+the spinel phase, NiAl2O4 is more stable than CuAl2O4. Therefore, in the
+case
+when
+Al2O3
+is
+stoichiometrically
+limited,
+it
+would
+react
+preferentially with NiO. The mutual doping between NiO and CuO is
+also observed; this phenomenon gives rise to increased lattice oxygen
+activity in both phases. However, the formation of the spinel phase
+solid solution reduces the lattice oxygen activity. At 800 °C, the lattice
+oxygen in CuO, CuAl2O4 and NiO are sufficiently active for the com-
+plete combustion of methane, whereas NiAl2O4 is highly selective to-
+wards methane reforming. On the other hand, the low activity of the
+lattice oxygen in NiAl2O4 makes it resistant to carbon deposition.
+The correlation between the phase compositions and the product
+selectivities provides a convenient rule-of-thumb for predicting the
+product yields based on solely the elemental compositions of the
+oxygen carriers. This also means that the selectivity of the chemical
+looping process can be tuned by the chemical compositions of the Ni-
+Cu-Al-O mixed oxides. Based on our findings, we postulate that a highly
+reactive oxygen carrier for chemical looping combustion should consist
+of Ni2+ doped CuO supported on Cu2+ doped NiAl2O4, whereas a
+highly selective oxygen carrier for chemical looping reforming should
+consist of Cu2+ doped NiAl2O4, possibly also promoted by small
+amount of CH4 activation catalysts.
+Acknowledgements
+This work is funded by the National Research Foundation (NRF),
+Prime Minister’s Office, Singapore under its Campus for Research
+Excellence and Technological Enterprise (CREATE) programme. The
+synchrotron experiments were performed on beamline ID22 at the
+European Synchrotron Radiation Facility (ESRF), Grenoble, France. The
+authors are grateful to Catherine Dejoie at the ESRF for providing as-
+sistance in using beamline ID22.
+Appendix A. Data analysis and supporting data
+The composition of the NiO-CuO-Al2O3 oxygen carriers were studied using TGA, and the CuO and NiO mass fractions were calculated by the
+following equations:
+Fig. A1. High magnification SEM images of the as-prepared Ni/Cu/Al LDHs for samples 2#-5#.
+J. Huang et al.
+Applied Energy 236 (2019) 635–647
+644
+
+
+===== Page 11 =====
+
+=
+x
+(wt%)
+(m
+m
+)
+M
+2
+M
+m
+100
+CuO
+max
+min,OU
+CuO
+O
+max
+(A1)
+=
+x
+(wt%)
+((m
+m
+)
+2
+(m
+m
+))
+M
+M
+m
+100
+NiO
+max
+min,re
+max
+min,OU
+NiO
+O
+max
+(A2)
+where mmax is the sample mass after stabilization at 700 oC under N2 for 120 min; mmin,OU and mmin,re are the sample mass at the end of the Cu(II)
+decomposition and H2 reduction of Cu(I) and Ni(II); MO, MCuO and MNiO are the corresponding molar mass, respectively.
+The oxygen carrier conversion during reduction with 5 vol.% CH4 in N2 was calculated by:
+=
++
+X
+N
+N
+M
+m x
+(
+4
+)
+reduction
+CO
+CO
+MeO
+0 MeO
+2
+(A3)
+10
+15
+20
+25
+30
+ 5# Ni:Cu:Al=0:3:1
+Intensity (a.u.)
+2 Theta (degree)
+Cu2(NO3)(OH)3
+Fig. A2. Enlarged XRD pattern of the as-prepared Cu/Al LDH with 0.2 M urea as the precipitant via hydrothermal synthesis at 120 oC for 24 h.
+0
+20
+40
+60
+80
+100
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+0
+20
+40
+60
+80
+100
+0.0
+0.2
+0.4
+0.6
+0
+20
+40
+60
+80
+100
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+0
+20
+40
+60
+80
+100
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+d)
+c)
+b)
+ Ni1.32Al
+ Ni0.94Cu0.46Al
+ Ni0.32Cu0.90Al
+ Ni0.12Cu0.71Al
+ Cu0.80Al
+Selectivity of carbon
+Cycle number
+a)
+Selectivity of CO
+Cycle number
+Selectivity of CO2
+Cycle number
+Selectivity of H2
+Cycle number
+Fig. A3. Selectivity of CO2, CO, carbon and H2 during oxygen carrier reduction with 5% CH4 in 100 chemical looping cycles.
+J. Huang et al.
+Applied Energy 236 (2019) 635–647
+645
+
+
+===== Page 12 =====
+
+where NCO2 and NCO are the amount of CO2 and CO out of the reactive bed; m0 is the sample mass; xMeO (mass fraction of Ni/Cu oxides) was
+calculated from the fraction of NiO and CuO determined by TGA; and MMeO (average molar mass) is the arithmetic average of MNiO and MCuO
+considering their mole fraction in the oxygen carrier.
+Appendix B. Supplementary material
+Supplementary data to this article can be found online at https://doi.org/10.1016/j.apenergy.2018.12.029.
+References
+[1] Hossain MM, de Lasa HI. Chemical-looping combustion (CLC) for inherent separ-
+ations—a review. Chem Eng Sci 2008;63:4433–51. https://doi.org/10.1016/j.ces.
+2008.05.028.
+[2] Fan L-S, Zeng L, Wang W, Luo S. Chemical looping processes for CO2 capture and
+carbonaceous fuel conversion – prospect and opportunity. Energy Environ Sci
+2012;5:7254–80. https://doi.org/10.1039/C2EE03198A.
+[3] Lyngfelt A. Chemical-looping combustion of solid fuels – status of development.
+Appl Energy 2014;113:1869–73. https://doi.org/10.1016/j.apenergy.2013.05.043.
+[4] Tang M, Xu L, Fan M. Progress in oxygen carrier development of methane-based
+chemical-looping reforming: a review. Appl Energy 2015;151:143–56. https://doi.
+org/10.1016/j.apenergy.2015.04.017.
+[5] Luo M, Yi Y, Wang S, Wang Z, Du M, Pan J, et al. Review of hydrogen production
+using chemical-looping technology. Renew Sustain Energy Rev 2018;81:3186–214.
+https://doi.org/10.1016/j.rser.2017.07.007.
+[6] Görke RH, Hu W, Dunstan MT, Dennis JS, Scott SA. Exploration of the material
+property space for chemical looping air separation applied to carbon capture and
+storage. Appl Energy 2018;212:478–88. https://doi.org/10.1016/j.apenergy.2017.
+11.083.
+[7] Neal LM, Yusuf S, Sofranko JA, Li F. Oxidative dehydrogenation of ethane: A che-
+mical looping approach. Energy Technol 2016;4:1200–8. https://doi.org/10.1002/
+ente.201600074.
+[8] Chan MSC, Marek E, Scott SA, Dennis JS. Chemical looping epoxidation. J Catal
+2018;359:1–7. https://doi.org/10.1016/j.jcat.2017.12.030.
+[9] Adánez J, de Diego LF, García-Labiano F, Gayán P, Abad A, Palacios JM. Selection of
+oxygen carriers for chemical-looping combustion. Energy Fuels 2004;18:371–7.
+https://doi.org/10.1021/ef0301452.
+[10] Luo S, Zeng L, Fan L-S. Chemical looping technology: oxygen carrier characteristics.
+Annu Rev Chem Biomol Eng 2015;6:53–75. https://doi.org/10.1146/annurev-
+chembioeng-060713-040334.
+[11] Kierzkowska AM, Müller CR. Sol–gel-derived, calcium-based, copper-functionalised
+CO2 sorbents for an integrated chemical looping combustion-calcium looping CO2
+capture process. ChemPlusChem 2013;78:92–100. https://doi.org/10.1002/cplu.
+201200232.
+[12] Imtiaz Q, Yüzbasi NS, Abdala PM, Kierzkowska AM, van Beek W, Broda M, et al.
+Development of MgAl2O4-stabilized, Cu-doped, Fe2O3-based oxygen carriers for
+thermochemical water-splitting. J Mater Chem A 2015;4:113–23. https://doi.org/
+10.1039/C5TA06753G.
+[13] Liu W, Dennis JS, Scott SA. The effect of addition of ZrO2 to Fe2O3 for hydrogen
+production by chemical looping. Ind Eng Chem Res 2012;51:16597–609. https://
+doi.org/10.1021/ie302626x.
+[14] Azimi G, Leion H, Rydén M, Mattisson T, Lyngfelt A. Investigation of different
+Mn–Fe oxides as oxygen carrier for Chemical-Looping with Oxygen Uncoupling
+(CLOU). Energy Fuels 2013;27:367–77. https://doi.org/10.1021/ef301120r.
+[15] Huang J, Liu W, Yang Y. Phase interactions in Mg-Ni-Al-O oxygen carriers for
+chemical looping applications. Chem Eng J 2017;326:470–6. https://doi.org/10.
+1016/j.cej.2017.05.176.
+[16] Peña JA, Lorente E, Romero E, Herguido J. Kinetic study of the redox process for
+storing hydrogen: Reduction stage. Catal Today 2006;116:439–44. https://doi.org/
+10.1016/j.cattod.2006.05.068.
+[17] Dharanipragada NVRA, Galvita VV, Poelman H, Buelens LC, Detavernier C, Marin
+GB. Bifunctional Co- and Ni- ferrites for catalyst-assisted chemical looping with
+alcohols. Appl Catal B Environ 2018;222:59–72. https://doi.org/10.1016/j.apcatb.
+2017.09.067.
+[18] Rydén M, Leion H, Mattisson T, Lyngfelt A. Combined oxides as oxygen-carrier
+material for chemical-looping with oxygen uncoupling. Appl Energy
+2014;113:1924–32. https://doi.org/10.1016/j.apenergy.2013.06.016.
+[19] Murugan A, Thursfield A, Metcalfe IS. A chemical looping process for hydrogen
+production using iron-containing perovskites. Energy Environ Sci 2011;4:4639–49.
+https://doi.org/10.1039/C1EE02142G.
+[20] Chan MSC, Liu W, Ismail M, Yang Y, Scott SA, Dennis JS. Improving hydrogen
+yields, and hydrogen:steam ratio in the chemical looping production of hydrogen
+using Ca2Fe2O5. Chem Eng J 2016;296:406–11. https://doi.org/10.1016/j.cej.
+2016.03.132.
+5
+10
+15
+20
+25
+Cu0.80Al
+Ni0.12Cu0.71Al
+Ni0.32Cu0.90Al
+Ni0.94Cu0.46Al
+Ni1.32Al
+Intensity (a.u.)
+2 Theta (degree)
+Fig. A4. SXRD patterns of different spent NiO-CuO-Al2O3 oxygen carriers.
+Table A1
+The preparation recipe (mmol) for the Ni/Cu/Al LDHs.
+S/N
+Ni(NO3)2
+Cu(NO3)2
+Al(NO3)3
+urea
+Oxygen carrier notation
+1
+15
+0
+5
+10
+Ni1.32Al
+2
+12.5
+2.5
+5
+10
+Ni0.94Cu0.46Al
+3
+10
+5
+5
+10
+Ni0.32Cu0.90Al
+4
+5
+10
+5
+10
+Ni0.12Cu0.71Al
+5
+0
+15
+5
+10
+Cu0.80Al
+J. Huang et al.
+Applied Energy 236 (2019) 635–647
+646
+
+
+===== Page 13 =====
+
+[21] Liu W, Ismail M, Dunstan MT, Hu W, Zhang Z, Fennell PS, et al. Inhibiting the
+interaction between FeO and Al2O3 during chemical looping production of hy-
+drogen. RSC Adv 2014;5:1759–71. https://doi.org/10.1039/C4RA11891J.
+[22] Lau CY, Dunstan MT, Hu W, Grey CP, Scott SA. Large scale in silico screening of
+materials for carbon capture through chemical looping. Energy Environ Sci
+2017;10:818–31. https://doi.org/10.1039/C6EE02763F.
+[23] Ismail M, Liu W, Dunstan MT, Scott SA. Development and performance of iron
+based oxygen carriers containing calcium ferrites for chemical looping combustion
+and production of hydrogen. Int J Hydrog Energy 2016;41:4073–84. https://doi.
+org/10.1016/j.ijhydene.2015.11.066.
+[24] Ismail M, Liu W, Scott SA. The performance of Fe2O3-CaO oxygen carriers and the
+interaction of iron oxides with CaO during chemical looping combustion and H2
+production. Energy Procedia 2014;63:87–97. https://doi.org/10.1016/j.egypro.
+2014.11.010.
+[25] Cho P, Mattisson T, Lyngfelt A. Carbon formation on nickel and iron oxide-con-
+taining oxygen carriers for chemical-looping combustion. Ind Eng Chem Res
+2005;44:668–76. https://doi.org/10.1021/ie049420d.
+[26] Li J, Zhang H, Gao Z, Fu J, Ao W, Dai J. CO2 capture with chemical looping
+combustion of gaseous fuels: an overview. Energy Fuels 2017;31:3475–524.
+https://doi.org/10.1021/acs.energyfuels.6b03204.
+[27] Imtiaz Q, Kurlov A, Rupp JLM, Müller CR. Highly efficient oxygen-storage material
+with intrinsic coke resistance for chemical looping combustion-based CO2 capture.
+ChemSusChem 2015;8:2055–65. https://doi.org/10.1002/cssc.201403426.
+[28] Adánez J, García-Labiano F, de Diego LF, Gayán P, Celaya J, Abad A.
+Nickel−copper oxygen carriers to reach zero CO and H2 emissions in chemical-
+looping combustion. Ind Eng Chem Res 2006;45:2617–25. https://doi.org/10.
+1021/ie050558l.
+[29] Gayán P, Forero CR, Abad A, de Diego LF, García-Labiano F, Adánez J. Effect of
+support on the behavior of Cu-based oxygen carriers during long-term CLC opera-
+tion at temperatures above 1073 K. Energy Fuels 2011;25:1316–26. https://doi.
+org/10.1021/ef101583w.
+[30] Chai S-P, Zein SHS, Mohamed AR. COx-free hydrogen and carbon nanofibers pro-
+duced from direct decomposition of methane on nickel-based catalysts. J Nat Gas
+Chem 2006;15:253–8. https://doi.org/10.1016/S1003-9953(07)60002-4.
+[31] Qian W, Liu T, Wei F, Wang Z, Li Y. Enhanced production of carbon nanotubes:
+combination of catalyst reduction and methane decomposition. Appl Catal Gen
+2004;258:121–4. https://doi.org/10.1016/j.apcata.2003.08.017.
+[32] He J, Wei M, Li B, Kang Y, Evans DG, Duan X. Preparation of layered double hy-
+droxides. In: Duan X, Evans DG, editors. Layer Double Hydroxides Berlin,
+Heidelberg: Springer Berlin Heidelberg; 2006. p. 89–119. https://doi.org/10.1007/
+430_006.
+[33] Huang J, Liu W, Yang Y, Liu B. High-performance Ni–Fe redox catalysts for selective
+CH4 to syngas conversion via chemical looping. ACS Catal 2018:1748–56. https://
+doi.org/10.1021/acscatal.7b03964.
+[34] Hu W, Donat F, Scott SA, Dennis JS. The interaction between CuO and Al2O3 and
+the reactivity of copper aluminates below 1000 °C and their implication on the use
+of the Cu–Al–O system for oxygen storage and production. RSC Adv
+2016;6:113016–24. https://doi.org/10.1039/C6RA22712K.
+[35] Eric H, Timuçin M. Equilibrium relations in the system nickel oxide-copper oxide.
+Metall Trans B 1979;10:561–3. https://doi.org/10.1007/BF02662558.
+[36] Liu Y, Gao J, Liu Q, Gu F, Lu X, Jia L, et al. Preparation of high-surface-area Ni/α-
+Al2O3 catalysts for improved CO methanation. RSC Adv 2015;5:7539–46. https://
+doi.org/10.1039/C4RA13634A.
+[37] Mihai O, Chen D, Holmen A. Chemical looping methane partial oxidation: the effect
+of the crystal size and O content of LaFeO3. J Catal 2012;293:175–85. https://doi.
+org/10.1016/j.jcat.2012.06.022.
+[38] Rydén M, Lyngfelt A, Mattisson T. Synthesis gas generation by chemical-looping
+reforming in a continuously operating laboratory reactor. Fuel 2006;85:1631–41.
+https://doi.org/10.1016/j.fuel.2006.02.004.
+[39] Cabello A, Gayán P, García-Labiano F, de Diego LF, Abad A, Izquierdo MT, et al.
+Relevance of the catalytic activity on the performance of a NiO/CaAl2O4 oxygen
+carrier in a CLC process. Appl Catal B Environ 2014;147:980–7. https://doi.org/10.
+1016/j.apcatb.2013.10.034.
+[40] Wei J, Iglesia E. Isotopic and kinetic assessment of the mechanism of reactions of
+CH4 with CO2 or H2O to form synthesis gas and carbon on nickel catalysts. J Catal
+2004;224:370–83. https://doi.org/10.1016/j.jcat.2004.02.032.
+[41] Song Q, Liu W, Bohn CD, Harper RN, Sivaniah E, Scott SA, et al. A high performance
+oxygen storage material for chemical looping processes with CO2 capture. Energy
+Environ Sci 2012;6:288–98. https://doi.org/10.1039/C2EE22801G.
+[42] Bao J, Liu W, Cleeton JPE, Scott SA, Dennis JS, Li Z, et al. Interaction between Fe-
+based oxygen carriers and n-heptane during chemical looping combustion. Proc
+Combust Inst 2013;34:2839–46. https://doi.org/10.1016/j.proci.2012.07.079.
+[43] Xu L, Li Z, Sun H, Bao J, Cai N. Low-temperature chemical looping combustion for
+removing unburnt gaseous components with a cement-supported CuO oxygen car-
+rier. Energy Fuels 2013;27:6872–9. https://doi.org/10.1021/ef401035b.
+[44] Medrano JA, Hamers HP, Williams G, van Sint Annaland M, Gallucci F. NiO/
+CaAl2O4 as active oxygen carrier for low temperature chemical looping applica-
+tions. Appl Energy 2015;158:86–96. https://doi.org/10.1016/j.apenergy.2015.08.
+078.
+[45] Elrefaie FA, Smeltzer WW. Phase equilibria in the subsolidus region of the NiO-α-
+Al2O3 system between 1000 and 1920°C. Oxid Met 1981;15:495–500. https://doi.
+org/10.1007/BF00603540.
+[46] Kidambi PR, Cleeton JPE, Scott SA, Dennis JS, Bohn CD. Interaction of iron oxide
+with alumina in a composite oxygen carrier during the production of hydrogen by
+chemical looping. Energy Fuels 2012;26:603–17. https://doi.org/10.1021/
+ef200859d.
+J. Huang et al.
+Applied Energy 236 (2019) 635–647
+647

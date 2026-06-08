@@ -1,0 +1,550 @@
+
+
+===== Page 1 =====
+
+This is an Accepted Manuscript, which has been through the 
+Royal Society of Chemistry peer review process and has been 
+accepted for publication.
+Accepted Manuscripts are published online shortly after 
+acceptance, before technical editing, formatting and proof reading. 
+Using this free service, authors can make their results available 
+to the community, in citable form, before we publish the edited 
+article. We will replace this Accepted Manuscript with the edited 
+and formatted Advance Article as soon as it is available.
+You can find more information about Accepted Manuscripts in the 
+Information for Authors.
+Please note that technical editing may introduce minor changes 
+to the text and/or graphics, which may alter content. The journal’s 
+standard Terms & Conditions and the Ethical guidelines still 
+apply. In no event shall the Royal Society of Chemistry be held 
+responsible for any errors or omissions in this Accepted Manuscript 
+or any consequences arising from the use of any information it 
+contains. 
+Accepted Manuscript
+Dalton
+ Transactions
+www.rsc.org/dalton
+View Article Online
+View Journal
+This article can be cited before page numbers have been issued, to do this please use:  S. Dey, B. S. Naidu
+and C. N. R. Rao, Dalton Trans., 2016, DOI: 10.1039/C5DT04822B.
+
+
+===== Page 2 =====
+
+Journal Name 
+ 
+COMMUNICATION 
+This journal is © The Royal Society of Chemistry 20xx 
+J. Name., 2013, 00, 1-3 | 1 
+Please do not adjust margins 
+Please do not adjust margins 
+* E-mail: cnrrao@jncasr.ac.in  
+Received 00th January 20xx, 
+Accepted 00th January 20xx 
+DOI: 10.1039/x0xx00000x 
+www.rsc.org/ 
+Beneficial effects of substituting trivalent ions in the B-site of 
+La0.5Sr0.5Mn1-xAxO3 (A=Al, Ga, Sc) on the thermochemical 
+generation of CO and H2 from CO2 and H2O 
+Sunita Dey,a B. S. Naidua and C. N. R. Raoa,
+The effect of substitution of Al3+, Ga3+ and Sc3+ ions in the Mn3+ site 
+of La0.5Sr0.5MnO3 on the thermochemical splitting of CO2 to 
+generate CO has been studied in detail. Both La0.5Sr0.5Mn1-xGaxO3 
+and La0.5Sr0.5Mn1-xScxO3 give high yields of O2 and generate CO 
+more 
+efficiently 
+than 
+La0.5Sr0.5Mn1-xAlxO3 
+or 
+the 
+parent 
+La0.5Sr0.5MnO3. Substitution of even 5% Sc3+ (x=0.5) results in a 
+remarkable 
+improvement 
+on 
+performance. 
+Thus 
+La0.5Sr0.5Mn0.95Sc0.05O3 produces 417 µmol/g of O2 and 545 µmol/g 
+of CO respectively, i.e. 2 and 1.7 times more O2 and CO than 
+La0.5Sr0.5MnO3. This manganite also generates H2 satisfactorily by 
+the thermochemical splitting of H2O. 
+Solar-thermochemical splitting of H2O and CO2 to generate H2 
+and CO has excellent scope for improving solar- to-fuel 
+conversion efficiency and is a potential alternative to satisfy 
+the present day energy and environmental needs.1-3 
+Thermochemical splitting of CO2 and H2O involving a two-step 
+process using metal oxides (MOn) is of special interest in this 
+context. The basic reactions are as follows, 
+ 
+                               
+⁄         ( ) 
+                                      
+                                                         ( )  
+Ideally, oxides which lose oxygen on heating (reduction, step 
+1) and reoxidize reversibly on interaction with H2O or CO2 
+(oxidation, 
+step 
+2) 
+can 
+best 
+serve 
+the 
+purpose. 
+Nonstoichiometric oxides such as ferrites, 4-6 CeO2 
+7, 8 and 
+doped CeO2
+9-11
+ have been examined for the purpose. Doping 
+CeO2 with isovalent Zr4+and Hf4+ has given some promising 
+results in fuel production.10-13 Perovskite oxides, La1-xSrxMnO3 
+(LSM) involving Mn3+/ Mn4+ redox active ions have recently 
+emerged to be superior candidates to split CO2 and H2O.14 
+Further improvement has been achieved with La1-xCaxMnO3 
+perovskites.15 Decreasing the size of the lanthanides improves 
+the fuel production substantially, with the highest CO 
+production obtained with Y0.5Sr0.5MnO3.16 B-site substituted 
+perovskites involving combinations of Mn, Co, Fe, Cr, Al, Mg 
+have yielded some encouraging results.17-26 Remarkable 
+improvement in the production of H2 (CO) by Sr- and Al- doped 
+LaMnO3 in comparison with CeO2 has been reported by 
+McDaniel et al.17 Aluminium doping appears to enhance fuel 
+production of La1-xSrxMnO3 significantly.27 28 Deml et al. 29 have 
+presented a material design strategy for two-step cycles based 
+on DFT calculations as well as experimental results on the La1-
+xSrxMn1-yAlyO3 perovskites. LaGaO3 is known as an ionic 
+conductor and introduction of transition metal ions in its 
+lattice results in mixed ionic electronic conductors leading to 
+as solid oxide fuel cell (SOFC) electrodes.30, 31 Ga3+ doping in La-
+Sr-Fe 
+based 
+perovskites 
+increases 
+the 
+oxygen 
+nonstoichiometry32-34 while Sc3+ increases the oxygen ion 
+mobility in LSM perovskites and can be employed for the 
+oxygen reduction reaction and in SOFC cathode.32, 
+35-37 
+Considering the properties of derivatives of LaGaO3 and of Sc3+ 
+substituted of LSM perovskites, Ga3+ and Sc3+ substituted oxide 
+perovskites would be expected to be good candidates for the 
+thermochemical generation of CO and H2. We have 
+investigated the effect of substitution of Ga3+ and Sc3+ in the B 
+site of La0.5Sr0.5MnO3 (LSM50) in comparison with the effect of 
+Al3+ substitution.17,27 We have observed highly improved 
+performance of Ga3+ and Sc3+ substituted LSMs, with the Sc3+ 
+derivative giving  remarkable fuel yield. 
+La0.5Sr0.5MnO3 (LSM50) substituted with different proportions 
+of Al3+, Ga3+ and Sc3+. La0.5Sr0.5Mn1-xAxO3 (A=Al, Ga and Sc) were 
+prepared by the sol-gel method starting with metal nitrates. 
+The gels were heated upto 1400°C to obtain the oxides with 
+particle sizes in the micrometer regime (details of synthesis 
+condition and characterization techniques are in ESI, section S-
+A and Table S1). We have prepared the Al3+ substituted LSMs 
+upto x=0.5, while in the case of Ga3+ and Sc3+, the compositions 
+were limited upto x=0.35 (secondary phases precipitates for 
+Page 1 of 4
+Dalton Transactions
+Dalton Transactions Accepted Manuscript
+Published on 06 January 2016. Downloaded by New Mexico State University on 12/01/2016 20:02:22. 
+View Article Online
+DOI: 10.1039/C5DT04822B
+
+
+===== Page 3 =====
+
+Journal Name 
+COMMUNICATION 
+This journal is © The Royal Society of Chemistry 20xx 
+J. Name., 2013, 00, 1-3 | 2 
+Please do not adjust margins 
+Please do not adjust margins 
+x>0.35) and x=0.1 (Sc2O3 segregates 37 for x>0.1) respectively 
+(Fig. S1 and Fig. S2). All the perovskite oxides crystallize in the 
+R-3c space group, as observed by the PXRD patterns in Figs. S3-
+S5 (Table S2, ESI). The tolerance factor of the perovskite 
+increases with x in the Al3+ and Ga3+ derivatives but decreases 
+with x in the case of Sc3+ derivatives, as the size of Sc3+ is larger 
+than Mn3+ (Table S2, Eqn. S6 in section S-C, ESI). FESEM images 
+and energy dispersive X-ray (EDX) mapping reveal that the as-
+synthesized oxides comprise of micron-sized particles and 
+confirms the homogenous distribution of metal cations as 
+shown in Figs. S6 and S7. The BET surface area is of around 1-2 
+m2/g. Reduction of the oxide and splitting of CO2 accompanied 
+by the formation of CO was studied by thermogravimetric 
+analysis (TGA). Splitting of H2O was studied by using a locally 
+fabricated set-up incorporating a gas chromatograph-TCD (see 
+section 
+S-A-3, 
+ESI).15 
+The 
+reduction 
+and 
+oxidation 
+temperatures in CO2 (or H2O) splitting studies were 1400°C and 
+1100°C respectively. 
+In Fig. 1, we show representative TGA curves of 
+La0.5Sr0.5Mn1-xAlxO3 
+along 
+with 
+the 
+histogram 
+of 
+thermochemical splitting of CO2 for x=0.25-0.5. The amount of 
+O2 and CO produced increases with Al3+ content giving the 
+highest values of O2 and CO produced when x=0.5. Thus, the 
+quantities of O2 and CO produced by the x=0.5 composition 
+are 322 and 388 µmol/g respectively. La0.5Sr0.5Mn0.5Al0.5O3 was 
+also subjected to multiple cycling (Fig. S8) in the temperature 
+range of 1400-1100°C, and 370 µmol/g of CO on average was 
+obtained during three successive cycles without significant 
+deviation in activity. The structures and compositions of the 
+oxides remained the same after multiple cycling (Fig. S9, Table 
+S3). 
+Fig. 1. (a) Representative TGA and (b) corresponding histogram of thermochemical CO2 
+splitting of La0.5Sr0.5Mn1-xAlxO3 (x= 0.25, 0.35 and 0.5). Reduction and oxidation 
+temperatures are 1400 C and 1100C respectively. 
+ 
+La0.5Sr0.5Mn1-xGaxO3 behaves somewhat similar to the Al3+ 
+substituted perovskites. The amount of O2 evolved increases 
+with x (Fig. 2). For, x=0.35, O2 evolved 323 µmol/g (δ=0.2; % 
+Xred=57), higher than x=0.25 (δ=0.18; % Xred=54) (Fig. S10; Eqn. 
+S1-S5 in section S-B, ESI). In earlier reports, doping of Ga3+ in 
+the B site of La-Sr-Fe perovskite has been reported to decrease  
+the 
+Fe-O 
+bond 
+covalency 
+and 
+increase 
+in 
+oxygen 
+nonstoichiometry. 32-34, 38, 39 Ga3+ substitution is reported to 
+decrease the enthalpy and increase the entropy of oxygen 
+vacancy formation in La0.3Sr0.7FeO3 and also induce local lattice 
+inhomogeneties.33  
+Fig. 2. (a) Representative TGA and (b) corresponding histogram of thermochemical CO2 
+splitting of La0.5Sr0.5Mn1-xGaxO3 (x= 0.25, 0.35). Reduction and oxidation temperatures 
+are 1400 C and 1100C respectively. 
+We have investigated the thermochemical splitting of CO2 by 
+La0.5Sr0.5Mn1-xGaxO3 (x=0.25, 0.35) by injecting CO2 (Fig. 2) at 
+1100°C. Ga3+ substituted perovskites yield a much higher 
+quantity of CO (447 µmol/g) even for x=0.35 as shown in Fig. 2. 
+The quantity of CO obtained with x=0.25 is higher (480 
+µmol/g). The reoxidation yield (%α) of x=0.25 is 42%, higher 
+than x=0.35 (40%) (Fig. S10).    
+We could substitute Sc3+ in the B site of LSM only upto 
+x=0.1 (Fig. S2).37 However, even with x=0.05, the yield of O2 
+and subsequently CO are both high, the values being 417 
+µmol/g (δ=0.21; % Xred=72) and 545 µmol/g respectively (Figs. 
+3 and S11). Increasing the Sc3+ content to x=0.1 does not 
+improve O2 production (426 µmol/g, δ=0.21; % Xred=73%) as 
+well as CO production (491 µmol/g). The reoxidation yields are 
+65% and 58% respectively for x=0.05 and x=0.1 in the Sc3+ 
+derivatives (Fig. S11).  
+Fig. 3. (a) Representative TGA and (b) corresponding histogram of thermochemical CO2 
+splitting of (a) La0.5Sr0.5Mn1-xScxO3 (x= 0.05, 0.1). Reduction and oxidation temperatures 
+are 1400 C and 1100C respectively. 
+Sc3+ doping (5-10%) is reported to enhance the performance of 
+La0.8Sr0.2MnO3 (LSM20) as a SOFC cathode and in methane 
+oxidation. 35, 37 This is because of the higher oxygen vacancy 
+ratio and enhanced oxygen mobility related to the bigger size 
+of Sc3+.  35-37, 40, 41 Over doping of Sc3+ (>10%) in LSM20 acts as 
+an anion vacancy trapping centre through the association of 
+Sc3+ with oxygen vacancy and is reported to deteriorate the 
+oxygen conductivity in SOFC cathodes. This may be the reason 
+why no further increment in O2 evolution occurs beyond 
+x=0.05.36, 37 
+Page 2 of 4
+Dalton Transactions
+Dalton Transactions Accepted Manuscript
+Published on 06 January 2016. Downloaded by New Mexico State University on 12/01/2016 20:02:22. 
+View Article Online
+DOI: 10.1039/C5DT04822B
+
+
+===== Page 4 =====
+
+Journal Name 
+COMMUNICATION 
+This journal is © The Royal Society of Chemistry 20xx 
+J. Name., 2013, 00, 1-3 | 3 
+Please do not adjust margins 
+Please do not adjust margins 
+0
+20
+40
+60
+80
+100
+120
+0.00
+0.02
+0.04
+0.06
+0.08
+Time (min)
+ H2 evolved (ml/min/g)
+(b)
+(a)
+900
+1000
+1100
+1200
+1300
+1400
+0
+20
+40
+60
+80
+100
+120
+0.0
+0.1
+0.2
+0.3
+Time (min)
+O2 produced (ml/min/g)
+Temperature (C)
+Time vs Temp
+Fig. 4. Comparative study of (a) O2 (Tred=1400°C) and (b) CO (Toxd=1100°C) evolution 
+with amount of Mn site substituent of La0.5Sr0.5Mn1-xAxO3 perovskites (A=Al, Ga, Sc; 
+100x= % of substituent) 
+In Fig. 4 we compare the relative performance of the Al3+, 
+Ga3+ and Sc3+ substituted LSMs. All these derivatives show 
+better performance than the parent LSM. Clearly the effect of 
+the valent ions varies as Sc>Ga>Al. For the same proportions of 
+the trivalent ion (25%), yield of O2 is 1.4 times higher in the Ga 
+derivative compared to the Al derivative. Increase in O2 yield is 
+more remarkable in Sc derivative where the x=0.05 
+composition produces 1.9 times and 1.3 times O2 compared to 
+the x=0.25 and x=0.5 composite with Al (Fig. 4a). CO yield of 
+Ga derivative is of 1.5 times higher than Al derivative for 
+similar proportions of x=0.25 (Fig. 4b). The increase in CO yield 
+due to 5% Sc substitution is 1.7 times and 1.4 times of x=0.25 
+and x=0.5 composite with Al respectively (Fig. 4b). Notably, the 
+CO production of x=0.25 Ga substitution and x=0.05 Sc 
+substitution is of 1.5 times and 1.7 times of parent LSMs 
+respectively. 
+We have examined the fuel production by the Ga (25%) and Sc 
+(5%) substituted LSMs over three cycles in the 1400˚C-1100˚C 
+temperature range (Figs. S12 and S13). The yields of O2 and CO 
+are affected marginally, the decrease after the third cycle less 
+than 
+15-20%. 
+The 
+amount 
+of 
+CO 
+produced 
+by 
+La0.5Sr0.5Mn0.75Ga0.25O3 during the 1st, 2nd and 3rd cycles are 
+515, 437 and 429 µmol/g respectively while the CO produced 
+by La0.5Sr0.5Mn0.95Sc0.05O3 during the 1st, 2nd and 3rd cycles are 
+547, 496 and 476 µmol/g respectively. Decrease in fuel yield 
+during multiple cycling is observed for most of the perovskites 
+due to the sluggish kinetics or sintering.17, 18, 23 Nonetheless, 
+the CO produced in both Ga (25%) and Sc (5%) substituted 
+perovskites even after the third cycle is higher than that found 
+with parent LSM (316 µmol/g) or with x=0.5 substitution of Al 
+(366 µmol/g). The structures and compositions of perovskites 
+remain unaltered after TGA cycling as observed in PXRD (Fig. 
+S14) and EDS analysis (Figs. S15-S16, Tables S4 and S5) 
+although sintering of the particles is revealed by FESEM images 
+(Fig. S15). 
+The increase in the weight of the nonstoichiometric oxide on 
+passing CO2 could partly arise from carbonate formation 
+instead of oxidation alone. 42 Substitution of Al in LSM lattice 
+has shown to diminish the carbonate formation by Galvez et 
+al.42 However, the carbonates are decomposes well below 
+1000˚C, while the CO2 decomposition temperature is 1100˚C in 
+all our experiments. We also ensured no further gain in weight 
+occurs at high temperature due to carbonate formation as well 
+by performing separate TG experiments on Ga and Sc 
+substituted perovskites (experimental details at section S-A-
+3(ii), ESI).42 La0.5Sr0.5Mn0.75Ga0.25O3 shows no weight loss 
+corresponding to low temp decomposition (940°C) of 
+carbonate, while expose to CO2 (Fig. S17a).  No extra weight 
+gain is obtained during the oxidation under 850°C in compare 
+to regular oxidation of 1100°C (Fig. S17b), further reconfirms 
+the weight gain is due to the CO2 splitting. Similar conclusion 
+has been obtained with La0.5Sr0.5Mn0.95Sc0.05O3 (Fig. S18). The 
+slow rate of oxidation can be due to kinetic barriers, as the 
+oxidation is performed at a significantly lower temperature 
+(700°C/850°C). The onset of mass loss remains the same 
+during reduction under Ar as shown by the vertical lines in 
+Figs. S17b and S18b. Interestingly, few earlier reports 
+suggested that Sc3+ doping on LSMs suppress the SrO 
+segregation, which actually promotes carbonate formation by 
+CO2 adsorption.35, 36 It further strengthens our observation and 
+highlighted the advantages of Sc3+and Ga3+ doping. 
+ 
+ 
+Fig. 5. (a) O2 and (b) H2 evolution profile of La0.5Sr0.5Mn0.95Sc0.05O3. Reduction and H2O 
+splitting temperatures are 1400 C and 1100C respectively. 
+ 
+La0.5Sr0.5Mn0.95Sc0.05O3 gave superior performance with high 
+CO productivity even during multiple cycling; we have 
+employed it for water splitting (see section S-A-3(iii), ESI). 
+Production of O2 and H2 was detected by gas chromatograph, 
+shown in Fig. 5. The O2 production starts at 900°C and 
+completes within 40 mins after reaching 1400°C. The total 
+amount of O2 produced is 390 µmol/g, close to the yield during 
+TG measurements. H2 is detected immediately after the 
+entrance of H2O in the gas stream (Toxd=1100˚C), and the 
+quantities reaches a maximum and decreases thereafter (Fig. 
+5b). The amount of H2 produced in a span of 100 mins is 
+approximately 250 µmol/g. H2 evolution has not been 
+completed even after 100 mins. The kinetic behaviour of H2O 
+splitting of La0.5Sr0.5Mn0.95Sc0.05O3 is comparable to that of CO2 
+splitting (Fig.  S19 and Table S6). H2 is produced in the initial 
+100mins of the reaction in the fast kinetic regime (yellow 
+region, step 1, Fig. S19), followed by a slower kinetic regime 
+(grey region, step 2, Fig. S19).  
+ 
+Conclusions 
+In conclusion, Ga and Sc substituted LSM based perovskites 
+have been exploited for the first time for thermochemical CO2 
+and H2O splitting and these oxides show superior performance 
+Page 3 of 4
+Dalton Transactions
+Dalton Transactions Accepted Manuscript
+Published on 06 January 2016. Downloaded by New Mexico State University on 12/01/2016 20:02:22. 
+View Article Online
+DOI: 10.1039/C5DT04822B
+
+
+===== Page 5 =====
+
+Journal Name 
+COMMUNICATION 
+This journal is © The Royal Society of Chemistry 20xx 
+J. Name., 2013, 00, 1-3 | 4 
+Please do not adjust margins 
+Please do not adjust margins 
+in comparison with Al substituted LSMs or the parent LSM. It is 
+noteworthy that the oxidation state of Ga and Sc remain +3 
+throughout and the effect of the trivalent cations varies in the 
+order, Sc>Ga>Al. For the same proportion of the trivalent ion 
+(25%), the yields of O2 and CO are 1.4 and 1.5 times higher in 
+the Ga derivative compared to the Al derivative. The 
+performance 
+obtained 
+with 
+substitution 
+of 
+5% 
+Sc3+ 
+(La0.5Sr0.5Mn0.95Sc0.05O3) is remarkable with O2 and CO yields of 
+almost 2 and 1.7 times more than the parent LSM. Carbonate 
+formation has not observed to contribute in weight gain during 
+oxidation. Furthermore, 250 µmol/g of H2 is produced with 
+La0.5Sr0.5Mn0.95Sc0.05O3 at 1100˚C. Incorporation of Ga3+ and 
+Sc3+ in the LSM50 perovskite is beneficial in the two-step fuel 
+production process and can be employed for high temperature 
+syngas production and other applications. 
+ 
+Acknowledgements 
+SD thanks CSIR for fellowship. 
+ 
+References 
+1 T. Kodama and N. Gokon, Chem. Rev., 2007, 107, 4048-4077. 
+2 J. E. Miller, A. Ambrosini, E. N. Coker, M. D. Allendorf and A. 
+H. McDaniel, Energy Procedia, 2014, 49, 2019-2026. 
+3 M. Roeb, M. Neises, N. Monnerie, F. Call, H. Simon, C. 
+Sattler, M. Schmucker and R. Pitz-Paal, Materials, 2012, 5, 2015-
+2054. 
+4 Y. Tamaura, A. Steinfeld, P. Kuhn and K. Ehrensberger, 
+Energy, 1995, 20, 325-330. 
+5 F. He and F. Li, Energy Environ. Sci., 2015, 8, 535-539. 
+6 C. L. Muhich, B. D. Ehrhart, V. A. Witte, S. L. Miller, E. N. 
+Coker, C. B. Musgrave and A. W. Weimer, Energy Environ. Sci., 
+2015, 8, 3687-3699. 
+7 S. Abanades and G. Flamant, Sol. Energy, 2006, 80, 1611-
+1623. 
+8 W. C. Chueh, C. Falter, M. Abbott, D. Scipio, P. Furler, S. M. 
+Haile and A. Steinfeld, Science, 2010, 330, 1797-1801. 
+9 A. Le Gal and S. Abanades, J. Phys. Chem. C, 2012, 116, 
+13516-13523. 
+10 J. R. Scheffe, R. Jacot, G. R. Patzke and A. Steinfeld, J. Phys. 
+Chem. C 2013, 117, 24104-24114. 
+11 Y. Hao, C.-K. Yang and S. M. Haile, Chem. Mater., 2014, 26, 
+6073-6082. 
+12 M. Kang, J. Zhang, C. Wang, F. Wang, N. Zhao, F. Xiao, W. 
+Wei and Y. Sun, RSC Adv., 2013, 3, 18878-18885. 
+13 E. V. Ramos-Fernandez, N. R. Shiju and G. Rothenberg, RSC 
+Adv., 2014, 4, 16456-16463. 
+14 J. R. Scheffe, D. Weibel and A. Steinfeld, Energy Fuels, 2013, 
+27, 4250-4257. 
+15 S. Dey, B. S. Naidu, A. Govindaraj and C. N. R. Rao, Phys. 
+Chem. Chem. Phys., 2015, 17, 122-125. 
+16 S. Dey, B. S. Naidu and C. N. R. Rao, Chem. Eur. J., 2015, 21, 
+7077-7081. 
+17 A. H. McDaniel, E. C. Miller, D. Arifin, A. Ambrosini, E. N. 
+Coker, R. O'Hayre, W. C. Chueh and J. Tong, Energy Environ. Sci., 
+2013, 6, 2424-2428. 
+18 A. Demont and S. Abanades, J. Mater. Chem. A, 2015, 3, 
+3536-3546. 
+19 A. Demont and S. Abanades, RSC Adv., 2014, 4, 54885-54891. 
+20 A. H. Bork, M. Kubicek, M. Struzik and J. L. M. Rupp, J. Mater. 
+Chem. A, 2015, 3, 15546-15557. 
+21 C.-K. Yang, Y. Yamazaki, A. Aydin and S. M. Haile, J. Mater. 
+Chem. A, 2014, 2, 13612-13623. 
+22 Q. Jiang, J. Tong, G. Zhou, Z. Jiang, Z. Li and C. Li, Sol. Energy, 
+2014, 103, 425-437. 
+23 A. Demont, S. Abanades and E. Beche, J. Phys. Chem. C, 2014, 
+118, 12682-12692. 
+24 L. Nalbandian, A. Evdou and V. Zaspalis, Int. J. Hydrogen 
+Energy, 2009, 34, 7162-7172. 
+25 A. A. Leontiou, A. K. Ladavos, A. E. Giannakas, T. V. Bakas and 
+P. J. Pomonis, J. Catal., 2007, 251, 103-112. 
+26 A. A. Leontiou, A. K. Ladavos, T. V. Bakas, T. C. Vaimakis and 
+P. J. Pomonis, Appl. Catal. A: Gen., 2003, 241, 143-154. 
+27 T. Cooper, J. R. Scheffe, M. E. Galvez, R. Jacot, G. Patzke and 
+A. Steinfeld, Energy Technology, 2015, 3, 1130-1142. 
+28 M. Takacs, M. Hoes, M. Caduff, T. Cooper, J. R. Scheffe and A. 
+Steinfeld, Acta Materialia, 2016, 103, 700-710. 
+29 A. M. Deml, V. Stevanovic, A. M. Holder, M. Sanders, R. 
+O'Hayre and C. B. Musgrave, Chem. Mater., 2014, 26, 6595-
+6602. 
+30 S. J. Skinner and J. A. Kilner, Materials Today, 2003, 6, 30-37. 
+31 F. Chen and M. Liu, J. Solid State Electrochem., 1998, 3, 7-14. 
+32 V. V. Kharton, M. V. Patrakeev, J. C. Waerenborgh, V. A. 
+Sobyanin, S. A. Veniaminov, A. A. Yaremchenko, P. Gaczynski, V. 
+D. Belyaev, G. L. Semin and J. R. Frade, Solid State Sciences, 
+2005, 7, 1344-1352. 
+33 M. V. Patrakeev, E. B. Mitberg, A. A. Lakhtin, I. A. Leonidov, 
+V. L. Kozhevnikov, V. V. Kharton, M. Avdeev and F. M. B. 
+Marques, J. Solid State Chem,, 2002, 167, 203-213. 
+34 E. N. Naumovich, M. V. Patrakeev, V. V. Kharton, M. S. Islam, 
+A. A. Yaremchenko, J. R. Frade and F. M. B. Marques, Solid State 
+Ionics, 2006, 177, 457-470. 
+35 C. Zhang, Y. Zheng, Y. Lin, R. Ran, Z. Shao and D. Farrusseng, 
+J. Power Sources, 2009, 191, 225-232. 
+36 H. Gu, Y. Zheng, R. Ran, Z. Shao, W. Jin, N. Xu and J. Ahn, J. 
+Power Sources, 2008, 183, 471-478. 
+37 X. Yue, A. Yan, M. Zhang, L. Liu, Y. Dong and M. Cheng, J. 
+Power Sources, 2008, 185, 691-697. 
+38 V. V. Kharton, E. V. Tsipis, A. A. Yaremchenko, I. P. Marozau, 
+A. P. Viskup, J. R. Frade and E. N. Naumovich, Materials Science 
+and Engineering: B, 2006, 134, 80-88. 
+39 M. V. Patrakeev, V. V. Kharton, Y. A. Bakhteeva, A. L. Shaula, 
+I. A. Leonidov, V. L. Kozhevnikov, E. N. Naumovich, A. A. 
+Yaremchenko and F. M. B. Marques, Solid State Sciences, 2006, 
+8, 476-487. 
+40 D. Lybye, F. W. Poulsen and M. Mogensen, Solid State Ionics, 
+2000, 128, 91-103. 
+41 H. Ullmann and N. Trofimenko, Solid State Ionics, 1999, 119, 
+1-8. 
+42 M. E. Galvez, R. Jacot, J. Scheffe, T. Cooper, G. Patzke and A. 
+Steinfeld, Phys. Chem. Chem. Phys., 2015, 17, 6629-6634. 
+ 
+ 
+Page 4 of 4
+Dalton Transactions
+Dalton Transactions Accepted Manuscript
+Published on 06 January 2016. Downloaded by New Mexico State University on 12/01/2016 20:02:22. 
+View Article Online
+DOI: 10.1039/C5DT04822B

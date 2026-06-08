@@ -1,0 +1,937 @@
+
+
+===== Page 1 =====
+
+Powder Technology 426 (2023) 118668
+Available online 19 May 2023
+0032-5910/© 2023 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-
+nc-nd/4.0/).
+Performance of a kaolin-doped, magnetic Cu-based oxygen carrier in 
+biomass combustion 
+I˜naki Ad´anez-Rubio a,*, Amirhossein Filsouf a, Merve Durmaz b, Teresa Mendiara a, Pilar Gay´an a, 
+Juan Ad´anez a 
+a Instituto de Carboquímica (ICB-CSIC), Miguel Luesma Cast´an, 4, 50018 Zaragoza, Spain 
+b Çankırı Karatekin University, Chemical Engineering Department, 18200 Uluyazı/Çankırı, Turkey   
+H I G H L I G H T S  
+G R A P H I C A L  A B S T R A C T  
+• CuO magnetic oxygen carrier combus­
+tion performance in a 1.5 kWth CLOU 
+unit was done. 
+• CO2 capture efficiency of 97.5% at 
+950 ◦C during the combustion of pine 
+sawdust. 
+• Complete combustion of all three bio­
+masses even in the low temperature of 
+800 ◦C. 
+• CLOU Combustion performance of three 
+different biomasses was investigated. 
+• After 80 h oxygen carrier magnetic 
+properties maintained allowing recov­
+ery from ashes.  
+A R T I C L E  I N F O   
+Keywords: 
+CLOU, Cu-based oxygen carrier 
+Magnetic 
+Biomass 
+A B S T R A C T   
+Chemical looping combustion with oxygen uncoupling (CLOU) enables solid fuel combustion with CO2 capture at 
+low cost due to the capacity of the oxygen carrier to release molecular oxygen. The present study is focused on 
+testing the performance of a magnetic Cu-based oxygen carrier with reinforced mechanical properties owing to 
+the addition of kaolin via the combustion of three types of biomass in a 1.5 kWth continuous CLOU unit. The 
+effect of the main operating variables on process performance parameters was studied. Complete combustion of 
+the different biomass types was achieved. Higher CO2 capture efficiencies were observed at 800–950 ◦C 
+compared to the previous work done with this oxygen carrier without kaolin doping. The highest value of 97.5% 
+CO2 capture efficiency was obtained at 950 ◦C during the combustion of pine sawdust. Moreover, the oxygen 
+carrier retained its magnetic properties without any agglomeration problems after 80 h of hot circulation 
+operation.   
+* Corresponding author. 
+E-mail address: iadanez@icb.csic.es (I. Ad´anez-Rubio).  
+Contents lists available at ScienceDirect 
+Powder Technology 
+journal homepage: www.journals.elsevier.com/powder-technology 
+https://doi.org/10.1016/j.powtec.2023.118668 
+Received 13 January 2023; Received in revised form 25 April 2023; Accepted 16 May 2023   
+
+
+===== Page 2 =====
+
+Powder Technology 426 (2023) 118668
+2
+1. Introduction 
+CO2 emissions are at their highest historical levels, with a value of 
+420 ppm recorded in November 2022, which is approximately 49% 
+higher than the peak of 280 ppm achieved in the preindustrial period 
+[1]. The latest IPCC report shows that if there is a continuing trend of 
+increasing CO2 and other greenhouse gas emissions, global warming will 
+exceed 1.5 ◦C and there will be irreversible impacts for humanity [2]. 
+The aim of the Paris Agreement was to lead the way to disrupting global 
+warming by inhibiting the CO2 released into the atmosphere [3]. Carbon 
+capture and storage (CCS) is one of the technologies being developed to 
+meet this goal, particularly bioenergy with carbon capture and storage 
+(BECCS), which is accepted as a promising method in terms of processes 
+producing negative CO2 emissions. Chemical looping combustion (CLC) 
+technologies stand out as having the most potential of all BECCS 
+methods [4–6]. 
+CLC defines a system consisting of two interconnected fluidized bed 
+reactors with a solid oxygen carrier (OC) circulating between them. 
+Combustion takes place in the fuel reactor with oxygen provided by the 
+OC. The depleted OC is subsequently circulated to the air reactor and 
+reoxidized. This process yields CO2 and steam are as combustion prod­
+ucts in the fuel reactor. Thus, once the steam is condensed, a highly 
+concentrated stream of CO2 is effortlessly achieved that can be stored 
+without the extra costs incurred by gas separation. Given that CO2 
+capture is inherent to CLC processes, these technologies have a very low 
+global energy penalty [7–9]. 
+CLC technologies were initially developed for use with gaseous fuels, 
+with later developments enabling it to be applied to different solid fuels 
+[4–7,10]. When solid fuels are used, there are two possible combustion 
+modes, in-situ gasification chemical looping (iG-CLC) and chemical 
+looping with oxygen uncoupling (CLOU). In iG-CLC mode, volatile 
+matter is generated during the devolatilization of the solid fuel with the 
+OC during gasification of the char with CO2 or steam for conversion to 
+CO and H2, which further react with the OC. In CLOU mode, char and 
+volatiles react directly with the gaseous O2 released by the OC, see Fig. 1 
+[7]. Since the oxidation rate is higher in CLOU mode than in iG-CLC 
+mode, the fuel conversion rate is also higher in CLOU mode [7]. In recent 
+research, numerical simulation of a 150 kWth chemical looping 
+combustion plant of numerically was performed for biomass fuel com­
+bustion [11]. Comparison of the obtained results with experimental data 
+showed good accuracy for predictions in terms of instantaneous and 
+local behaviour inside the fluidized bed system. Moreover, Reinking and 
+et al. [12] presented various computational fluid dynamic (CFD) simu­
+lations of the performance of copper OCs in a fluidized bed system. They 
+found that a reduction in the OC inventory caused the fuel reactor 
+temperature to increase. It was also mentioned that changing the fuel 
+feed from 200 kW to 100 kW led to a lower amount of OC being needed. 
+A number of studies have been conducted on different Cu-based OCs 
+[13]. One of these studies [14] considered the effects of adding different 
+components of varying composition to them. Therefore, four Cu-based 
+OCs were reinforced with 20 wt% manganese oxide, 60 wt% iron 
+oxide, 40 wt% cobalt oxide and 40 wt% nickel oxide by the sol gel 
+method. All the OCs presented a decline in reaction rates during the test 
+cycles. Agglomeration, sintering, ash deposition and transformation of 
+active components cause the deterioration in reactivity. Therefore, it is 
+essential to improve the reactivity and mechanical stability of OCs. Cu, 
+Mn and Co-based OCs, Cu–Mn mixed oxides, Ca–Mn perovskites and 
+other mixed oxides containing Ti, Ca, Mg, Fe and Mn are preferred in 
+CLOU mode owing to their capacity to release O2 gas [15–20]. Gayan et 
+el. [15] prepared OCs based on copper oxide doped with SiO2, ZrO2, 
+Al2O3, MgAl2O4, MgO and TiO2 using different methods of impregnation 
+and mechanical mixing. As a result, Cu-based OCs including Al2O3 
+showed low reactivity and surface reduction after redox cycles. The 
+application of MgAl2O4, ZrO2 by the preparation method of mechanical 
+mixing followed by palletization showed a positive effect on mechanical 
+strength. 
+In another study, the modification of a CuO-based OC with chryso­
+lite, limestone and iron ore were investigated [21]. As a result of 
+applying these three ores, it was found that chrysolite could be applied 
+as a support to increase the rate of oxygen release, and limestone could 
+be utilized to enhance the oxidization rate. In all cases this modification 
+improved the stability of the Cu-oxide OC at high temperature. Imtiaz 
+et al. [22] considered the agglomeration behaviour of six different 
+synthesized Cu-based OCs containing 60 wt% CuO. Among them, the 
+MgO support showed the highest agglomeration resistance during 
+evaluation in a fluidized bed reactor. Yan et al. [23] boosted chemical 
+looping combustion performance of red mud by adding copper oxide. 
+Although improvement in performance was observed, deterioration still 
+occurred during the redox cycles caused by particle agglomeration and 
+sintering. Therefore, further studies are necessary to improve thermal 
+resistance of OCs. OCs based on geopolymer and metal oxides are an 
+alternative for increasing their mechanical and thermal properties [24]. 
+A. Natali Murri et al. [25] investigated three different geopolymer-based 
+OCs containing copper oxide, copper and manganese oxide, manganese 
+oxide and iron oxide. Results of the batch tests of the geopolymer OC 
+containing copper oxide showed that this new type of OC could be a 
+suitable alternative for the CLOU process. 
+Recent studies have focused on Cu-based and Cu–Mn OCs for 
+biomass combustion due to their fast-redox kinetics and high oxygen 
+transport capacity [26–29]. Given the good performance of CuO and 
+Cu–Mn OCs for the combustion of biomass and coal, efforts are being 
+focused on these materials to improve the properties that show the 
+greatest interest. 
+During solid fuel combustion, ashes are generated and may accu­
+mulate in the CLC system, causing operational problems. Ash draining 
+should then be considered, although this step could also lead to loss of 
+the OC. To prevent this problem, the use of OCs with magnetic prop­
+erties was proposed because they can easily be separated from the ash 
+and OC mixture and reutilized [29]. OC separation from ashes is of 
+special interest in the case of synthetic OCs, such as those developed for 
+CLOU, which are often more expensive than low-cost materials such as 
+industrial residues or minerals. Mn-Fe-based OCs with magnetic prop­
+erties retain their magnetic properties throughout the process [30] This 
+type of OC demonstrated magnetism at calcining temperatures higher 
+Char
+Fig. 1. Schematic showing solid fuel combustion in the CLOU process [7].  
+I. Ad´anez-Rubio et al.                                                                                                                                                                                                                          
+
+
+===== Page 3 =====
+
+Powder Technology 426 (2023) 118668
+3
+than 1000 ◦C regardless of the molar ratio of the manganese oxide and 
+iron oxide. The formation of spinel, i.e. (MnxFe1-x)3O4, by Mn–Fe mixed 
+oxides after the calcination step is responsible for the magnetic prop­
+erties of the OC [31,32]. 
+Ad´anez -Rubio et al. investigated the effect of CuO concentration, 
+preparation method and calcination temperature on the performance of 
+magnetic OCs. A magnetic Cu-based OC containing 30 wt% CuO showed 
+high reactivity for gaseous oxygen release and retained its magnetic 
+properties after reaction [18]. Experiments were performed in a 1.5 
+kWth unit in CLOU mode with one of these magnetic OCs 
+(Cu30FeMn_Mag) in combustion with three types of biomass and two 
+different coals. A combustion efficiency value of 100% was obtained. In 
+term of mechanical properties, crushing strength of the OC during the 
+combustion operation was almost constant, although the air jet index 
+(AJI) value increased from 0.6 to 3.4% [29]. 
+Following on from our previous work [33], improvements in reac­
+tivity and mechanical strength were observed in the present study when 
+kaolin was added. The OCs were also tested in the batch fluidized bed 
+unit with no observed agglomeration of particles and achieving 
+acceptable results with regard to reactivity, mechanical strength and 
+magnetic permeability. One improved OC was selected and tested. It was 
+synthesized in a granulator with the addition of kaolin to the previous 
+formulation to improve its mechanical strength, but maintaining the 
+same ratio of CuO, Mn3O4, and Fe2O3. In this study, the effects of tem­
+perature, excess air and OC-to-fuel ratio on process performance were 
+investigated in a 1.5 kWth continuous unit under CLOU conditions 
+during the combustion of three types of biomass. 
+2. Experimental section 
+2.1. OC preparation 
+The OC tested in the present work was prepared in a spouted fluid­
+ized bed spray granulator (Glatt W51530 + OPP1) using CuO (Panreac), 
+Mn3O4 (Micromax, Elkem), Fe2O3 (Acros Organics) and kaolin (Sumi­
+tomo Seika) as raw materials. Different additives, including PEO-1 
+(Sumitomo), were also used in the granulation process. The OC con­
+tained 30 wt% CuO, 30.55 wt% Mn3O4, 31.95 wt% Fe2O3 and 7.5 wt% 
+kaolin. The obtained granules were calcined at 1050 ◦C for 4 h. After 
+calcination, particles were sieved to the desired range of 100–300 μm. 
+This OC will subsequently be denoted as Cu30MnFekao7.5. Table 1 
+presents the main properties of the OC. The value for magnetic perme­
+ability (μ) shown in the table was calculated from the magnetic volu­
+metric susceptibility value χv (m3/kg), as measured in a Bartington 
+single frequency MS2G sensor connected to a magnetic susceptibility 
+MS3 meter: 
+μ ( −) = 1 + χv ρreal
+(1) 
+According to the OC density shown in Table 1, particle size 
+(100–300 μm) and average gas density in the experimental conditions 
+used, the minimum fluidization velocity and terminal velocity of the OC 
+particles were estimated at 2.9 and 175 cm/s, respectively. In addition, 
+the Cu30MnFekao7.5 particles could be placed in group B according to 
+the Geldart classification. 
+2.2. Biomass 
+Three types of biomass were used as fuel during the experiments: 
+pine sawdust (Pinus sylvestris), olive stones (Olea europaea) and almond 
+shells (Prunus dulcis), with a particle size of +500-–2000 μm. Properties 
+of the three types of biomass are shown in Table 2. 
+2.3. Experimental set-up 
+Combustion experiments were performed in a 1.5 kWth continuous 
+CLOU unit with a duration of 42 h of combustion operation and 80 h of 
+hot fluidization. The CLOU unit was loaded with 2.8 kg of OC. As 
+observed in Fig. 2, the unit consisted of two interconnected fluidized 
+beds acting as fuel and air reactors, with a loop seal to prevent gas 
+mixing between the fuel and air reactors; one cyclone; and one solid 
+control valve. The reactors were heated by electrical furnaces, and gas 
+flow rates were controlled by mass flow. An air-N2 mixture was used in 
+the air reactor (2100 LN/h). N2 was used in fuel reactor and loop seal at 
+180 LN/h and 100 LN/h, respectively. 
+Test temperatures were varied between 800 and 950 ◦C for three 
+types of biomass used as fuel to assess the effect of this variable on the 
+process performance. The effects of changes in the circulation rate be­
+tween reactors (20–28 kg/h) and the air excess ratio (λ) changing from 1 
+to 2.1 were studied with pine sawdust, see Table 3. 
+Thermal input was between 625 and 850 Wth for any biomass used: 
+pine sawdust, almond shells and olive stones. 
+The OC-to-fuel ratio (ϕ) and air excess ratio (λ) parameters included 
+in the table were defined as follows: 
+ϕ =
+Oxygen supply by the oxygen carrier
+Oxygen required by the fuel for full combustion
+(2)  
+λ =
+Oxygen fed into the air reactor
+Oxygen required by the fuel for full combustion
+(3)  
+2.4. Data evaluation 
+Combustion efficiency was defined by the amount of oxygen neces­
+sary to burn unburnt gases from fuel reactor, and the oxygen required for 
+complete combustion of solid fuel in the fuel reactor, as follows: 
+ɳcomb,FR = 1 −
+oxygen required by unburnt gases
+oxygen required by solid fuel converted in fuel reactor
+(4) 
+CO2 capture efficiency, ɳcc, was defined as the ratio of CO2 exiting 
+from the fuel reactor and the carbon exiting as CO2 at the fuel and air 
+reactor outlets. 
+Table 1 
+Properties of fresh and used Cu30MnFekao7.5.   
+Fresh 
+Used 
+CuO content (wt%) 
+30 
+30 
+Oxygen transport capacity, ROC (wt%) 
+2.3 
+2.5 
+Conversion (−) 
+77 
+83 
+(rO2)⋅103 (kgO2/s⋅kgOC) 
+0.16 
+0.27 
+Crushing strength 
+1.8 
+1.1 
+Magnetic permeability μ (−) 
+3.6 
+1.6 
+Skeletal density (kg/m3) 
+4720 
+4624 
+Porosity (%) 
+29.5 
+35 
+AJI (%) 
+0.2 
+2.6 
+Specific surface area, BET (m2/g) 
+0.0025 
+<0.5  
+Table 2 
+Properties of the three types of biomass used.   
+Pine sawdust 
+Almond shells 
+Olive stones 
+Proximate Analysis (wt%) 
+Moisture 
+4.2 
+2.3 
+9.4 
+Volatile matter 
+81.0 
+76.6 
+72.5 
+Fixed carbon 
+14.4 
+20.0 
+17.3 
+Ash 
+0.4 
+1.1 
+0.8  
+Ultimate Analysis (wt%) 
+C 
+51.3 
+50.2 
+46.5 
+H 
+6.0 
+5.7 
+4.8 
+N 
+0.3 
+0.2 
+0.2 
+S 
+0.0 
+0.0 
+0.0 
+O* 
+37.8 
+40.5 
+38.3 
+LHV (kJ/kg) 
+19,158 
+18,071 
+17,807  
+* By difference. 
+I. Ad´anez-Rubio et al.                                                                                                                                                                                                                          
+
+
+===== Page 4 =====
+
+Powder Technology 426 (2023) 118668
+4
+ɳCC =
+CO2 in gases from fuel reactor
+carbon in gases from fuel and air reactors
+(5) 
+CO2 capture efficiency is dependent on char conversion, defined as 
+follows: 
+Xchar = Cfix −CoutAR −Celut
+Cfix −Celut
+(6) 
+Attrition rate, A, is calculated using Eq. (7), where mf is defined as 
+the total amount of fines considering particles with the size lower than 
+40 μm, and mt is the total amount of OC loaded into the system. Δt is the 
+operation time. 
+A = mf
+mt Δt
+x100
+(7) 
+Extrapolated life time can be defined from the attrition rate, as 
+follows: 
+LT (h) = 100
+A
+(8)  
+3. Results 
+3.1. Biomass combustion 
+Fig. 3 shows a typical experiment with pine sawdust as an example of 
+operation. Once biomass feeding started, the CO2 concentration in the 
+fuel reactor increased. As the temperature increased inside the fuel 
+reactor, higher CO2 concentration values were observed. However, no 
+oxygen was observed at the outlet of fuel rector after fuel feeding. 
+Moreover, the concentrations of CH4, CO and H2 were zero at each of the 
+Fig. 2. CLC unit of 1.5 kWth at Instituto de Carboquímica (ICB-CSIC).  
+Table 3 
+Main data for experimental test in the 1.5kWth CLOU unit with biomasses.  
+Fuel 
+T 
+(◦C) 
+Circulation 
+rate(kg/h) 
+Fuel 
+feed 
+(g/h) 
+ϕ 
+λ 
+Power 
+(Wth) 
+Solids 
+inventory 
+(kg/MWth) 
+Pine 
+800 
+28 
+117 
+4.1 
+1.4 
+625 
+1060 
+Pine 
+850 
+28 
+117 
+3.9 
+1.4 
+625 
+1060 
+Pine 
+850 
+20 
+117 
+2.9 
+1.3 
+625 
+1000 
+Pine 
+850 
+20 
+117 
+2.9 
+2.1 
+625 
+1060 
+Pine 
+850 
+22 
+117 
+3.1 
+1.4 
+625 
+1000 
+Pine 
+850 
+26 
+117 
+4.0 
+1.4 
+625 
+1000 
+Pine 
+900 
+28 
+117 
+3.9 
+1.4 
+625 
+1060 
+Pine 
+950 
+28 
+117 
+3.8 
+1.4 
+625 
+1060 
+Olive 
+800 
+25 
+165 
+4.2 
+1.1 
+835 
+830 
+Olive 
+850 
+25 
+165 
+3.9 
+1.1 
+835 
+800 
+Olive 
+900 
+25 
+165 
+3.7 
+1.1 
+835 
+800 
+Olive 
+950 
+25 
+165 
+2.9 
+1.0 
+835 
+830 
+Almond 
+800 
+25 
+150 
+4.0 
+1.1 
+750 
+950 
+Almond 
+850 
+25 
+150 
+3.7 
+1.1 
+750 
+915 
+Almond 
+900 
+25 
+150 
+3.9 
+1.1 
+750 
+900 
+Almond 
+950 
+25 
+150 
+3.6 
+1.1 
+750 
+900  
+Fig. 3. Evolution of gas concentration on a dry basis during heating up as pine 
+sawdust was fed into the fuel reactor diluted with nitrogen. 
+I. Ad´anez-Rubio et al.                                                                                                                                                                                                                          
+
+
+===== Page 5 =====
+
+Powder Technology 426 (2023) 118668
+5
+test temperatures. 
+3.1.1. Effect of temperature in the fuel reactor 
+The effect of the temperature on ɳcc and char conversion, as well as 
+on combustion during operation with pine saw dust, almond shells and 
+olive stones are plotted in Fig. 4. It should also be mentioned that a 
+negligible amount of elutriated carbon was found for all the biomass 
+types. 
+In all experiments, even at the lowest temperature of 800 ◦C, com­
+plete combustion of combustion gases was achieved, see Fig. 4(a). This 
+result represents an advantage since there would be no need for a post- 
+treatment step to complete the combustion, such as oxygen polishing 
+[34]. In all cases, ɳcc increased as the temperature in the fuel reactor rose 
+[35]. Therefore, the highest ɳcc values were achieved for all three types 
+of biomass at the highest temperature of 950 ◦C, reaching values close to 
+97.4% for pine sawdust. The increase found in ɳcc was related to the rise 
+in the char conversion in the fuel reactor, see Fig. 4 [31], which shows 
+char conversion for the different fuel reactor temperatures. As can also 
+be seen in Fig. 4, char reactivity increases from olive stone to pine 
+sawdust. The highest char conversion was obtained at 950 ◦C for pine 
+sawdust (90%, corresponding to the highest CO2 capture efficiency 
+value of 97.4%). As char conversion increased, lower amounts of un­
+burnt char were transported to the air reactor, causing ɳcc to increase. 
+The biomass with highest volatile content can also be considered to have 
+the highest combustion rate, resulting in the highest ɳcc. The highest ɳcc 
+value was achieved with pine sawdust, which has the highest level of 
+volatile matter of the three types of biomass tested. 
+3.1.2. Effect of solids circulation rate and air excess ratio 
+Furthermore, the effect of the circulation rate (ɸ) and the air excess 
+ratio (λ) was studied during pine sawdust combustion at a constant 
+temperature of 850 ◦C in the fuel reactor. In all cases, thermal input was 
+625 Wth. The results are plotted in Fig. 5. 
+Fig. 5(a) illustrates the effect of excess air on the CO2 capture, 
+combustion efficiency and char conversion at 850 ◦C. By changing λ 
+from 1.3 to 2.1, CO2 capture, combustion efficiency and char conversion 
+were almost constant, with values of 92, 100 and 69% respectively. This 
+clearly indicates the complete regeneration of the OC in the air reactor 
+for all the λ values used. 
+Moreover, in order to consider the effect of ɸ on the same parame­
+ters, the circulation rate was changed from 20 to 28 kg/h, leading to ɸ 
+values between 2.9 and 4. CO2 capture, combustion efficiency and char 
+conversion were not significantly affected, as shown in Fig. 5. Com­
+bustion efficiencies >99.9% were observed in all cases for all the 
+different ɸ values. Moreover, ɳcc was constant for all the oxygen-to-fuel 
+ratios analysed. This means that OC reactivity was high enough to burn 
+the solid fuel in the fuel reactor and be regenerated in the air reactor 
+within the studied interval. 
+3.2. OC characterization after reaction 
+Characterization was performed on Cu30MnFekao7.5 after 80 h of 
+hot circulation and 42 h of combustion, see Table 1. Oxygen transport 
+capacity and the reactivity were studied by multiple redox cycles in 
+thermogravimetric analysis (TGA) using 100% N2 as the reduction gas 
+and air as the oxidation gas, with the results considered for comparison 
+being those of the third redox cycle. In order to explore the evolution of 
+mechanical resistance, the crushing strength of particles extracted at 
+different times of operation was measured using a Shimpo FGN-5×
+apparatus. A decrease was found with a final value of 1.1 N, slightly 
+higher than the 1 N that was considered an acceptable value for oper­
+ation in a fluidized bed [36]. 
+The reactivity of Cu30MnFekao7.5 was slightly higher after previous 
+use in the unit. Fig. 6 demonstrates this activation of the particles, as 
+solids conversion after 20 min of reaction increased from 0.77 in the 
+fresh material to 0.83 for the used OC. 
+Table 1 also shows that there was one important increase in the 
+oxygen release rate, confirming the activation of the OC during reaction 
+in the continuous unit. This increase can be correlated to the increase in 
+the particle porosity and oxygen transport capacity of the particles. The 
+evolution of the magnetic permeability of the particles was also 
+considered and is shown in Fig. 7. A decrease was observed from 3.6 to 
+1.6, the latter value being acceptable to allow separation from ashes. In 
+order to roughly estimate the efficiency of OC separation from ashes, 
+fines were collected from the fuel reactor and air reactor filters after 80 h 
+of operation in the continuous unit. Using a simple magnet, 99.3% of OC 
+particles were able to be separated from the ashes, indicating that it 
+would be possible to utilize Cu30MnFekao7.5 on an industrial scale with 
+easy separation and regranulation of its fines. 
+In order to ascertain attrition performance, the AJI [37] of the fresh 
+and the used OC was measured. The AJI of the OC increased from 0.2 to 
+2.6%, although the latter value was considered adequate since it was 
+still below the 5% limit set for fluidized bed operation. 
+Finally, the morphological changes in the used particles were 
+investigated by scanning electron microscopy (SEM). As can be observed 
+in Fig. 8, the SEM images show a more porous structure after 80 h of 
+fluidization operation. The increase in porosity combined with a 
+reduction in crushing strength led to the higher AJI value of AJI than 
+that of the fresh OC, see Table 1. Energy-dispersive X-ray spectroscopy 
+(EDX) analysis was also performed on the used particles to look for 
+possible changes in the distribution of elements. Cu, Mn, and Fe were 
+found to be homogeneously distributed throughout the particles. The 
+Fig. 4. Effect of fuel reactor temperature on a) combustion and CO2 capture efficiency b) char conversion during combustion of the three different types of biomass. 
+TAR = 850 ◦C, ɸ = 2.9–4, thermal power = 622–865 Wth. 
+I. Ad´anez-Rubio et al.                                                                                                                                                                                                                          
+
+
+===== Page 6 =====
+
+Powder Technology 426 (2023) 118668
+6
+effect on OC particles of possible interactions with the elements in the 
+biomass ash (mainly K and Ca) was also assessed by EDX, but no clear 
+interactions were observed. 
+3.3. Discussion 
+The present paper investigates the improvement in performance 
+achieved with the kaolin doping of a previously developed Cu/Mn/Fe- 
+based OC with magnetic properties [29]. A comparison between the 
+results found in this work with those found with a similar OC without the 
+addition of kaolin is plotted in Fig. 9. The results obtained in the current 
+work showed an improvement in ɳcc for all fuels and different temper­
+atures with respect to those found with the previously studied OC. The 
+addition of kaolin to the OC led to increased combustion, in turn leading 
+to a reduction in the amount of char transferred to the air reactor and 
+increasing ɳcc. Combustion efficiency was always 100%, similar to that 
+found in the OC without kaolin [29]. 
+For olive stones at 900 ◦C, the ɳcc value improved from 80 to 88% for 
+the newly developed kaolin-doped OC. Additionally, a rise in ɳcc to 95% 
+was observed at the same temperature during the combustion of pine 
+sawdust for the newly developed OC compared to the previous work. By 
+introducing kaolin to the OC, operation temperature in the fuel reactor 
+was able to be increased up to 950 ◦C, which meant that ɳcc increased 
+when compared to 900 ◦C for both the new and previously studied OCs. 
+Fig. 9 shows higher char conversion for the new kaolin-doped OC 
+against that of the previous OC without kaolin, which was restricted 
+from use at temperatures higher than 900 ◦C. 
+A comparison was made with other Cu-based OCs tested for the 
+combustion of biomass in the continuous unit under CLOU conditions. 
+Fig. 10 shows the effect of fuel reactor temperature on ɳcc during the 
+combustion of pine sawdust with three OCs: Cu60MgAl OC [29] with 
+60% CuO in its composition, Cu–Mn OC [28] with 34 wt% copper 
+oxide, and kaolin-doped Cu30MnFekao7.5 with 30% CuO. 
+The three OCs present different significantly different behaviours, 
+particularly with regard to the range of operating temperatures in the 
+fuel reactor and ɳcc. Cu60MgAl has the lowest range of operating tem­
+peratures, achieving a very high ɳcc value of 98% during the combustion 
+of pine sawdust at 900 ◦C [26,29]. Cu–Mn OC [28] showed a limited 
+range of operating temperatures that starts at a low 770 ◦C, with its use 
+restricted to temperatures lower than 900 ◦C due to agglomeration 
+problems. However, a high ɳcc value of 98.7% was reached at 850 ◦C. 
+The Cu30MnFekao7.5 material presented a broad range of operating 
+temperatures, between 800 and 950 ◦C, although the ɳcc values for pine 
+sawdust combustion were 91 and 95% at 850 and 900 ◦C, respectively. 
+The different range of operating temperatures can be attributed to the 
+different concentration profiles of the oxygen released. For Cu60MgAl, 
+the oxygen concentration corresponds to the equilibrium of the CuO/ 
+Cu2O redox system, while for Cu–Mn, the oxygen concentration is be­
+tween that corresponding to CuO/Cu2O and to Mn2O3/Mn3O4 [17]. For 
+Cu30MnFekao7.5, the concentration of oxygen released corresponds to 
+a system of mixed Cu, Fe and Mn oxides. The oxygen concentration 
+profiles of these redox systems are shown in Fig. 11. Differences in ɳcc 
+values are associated with the rate of oxygen released and its 
+Fig. 5. Effect of a) air excess ratio (λ) in the air reactor and b) effect of ɸ used during the combustion of pine sawdust on combustion efficiency, CO2 capture ef­
+ficiency and char conversion. TFR = 850 ◦C, TAR = 850 ◦C, thermal power = 625 Wth. 
+Fig. 6. OC conversion obtained in the 3rd cycle of TGA test with fresh and used 
+Cu30MnFekao7.5 after 80 h of operation in the 1.5 kWth continuous unit. 
+Reduction: N2, T = 950 ◦C. 
+Fig. 7. Changes in magnetic permeability of Cu30MnFekao7.5 as a function of 
+operation time. 
+I. Ad´anez-Rubio et al.                                                                                                                                                                                                                          
+
+
+===== Page 7 =====
+
+Powder Technology 426 (2023) 118668
+7
+concentration, and char combustion reactivity at the considered tem­
+perature. The oxygen release rate is most likely dependent on the CuO 
+concentration present in each OC. The combination of the three afore­
+mentioned variables can be considered to be responsible for the ob­
+tained results. 
+Although the ɳcc found with Cu30MnFekao7.5 was lower than in 
+previous studies, this fact could be attributed to the lower amount of 
+copper oxide (30 wt%) it contained compared to that of the two previous 
+OCs developed for the CLOU process. Cu30MnFekao7.5 has the advan­
+tage of being magnetic, allowing fines and OC particles to be separated 
+from the ashes. Fines can be reused to produce new granules for feeding 
+Fresh
+Used
+Fig. 8. SEM images of fresh (left) and used (right) Cu30MnFekao7.5 particles after 80 h of combustion with three types of biomass in CLOU unit.  
+Fig. 9. Effect of fuel reactor temperature on CO2 capture efficiency as a func­
+tion of the OC utilized in the current and previous works on magnetic OCs. 
+Fig. 10. Fuel reactor temperature effect on CO2 capture efficiency as a function 
+of the Cu-based OC used. 
+I. Ad´anez-Rubio et al.                                                                                                                                                                                                                          
+
+
+===== Page 8 =====
+
+Powder Technology 426 (2023) 118668
+8
+into the CLC fluidized bed system. 
+On the whole, Cu30MnFekao7.5 showed good performance in terms 
+of reactivity, Cu utilization for the CLOU reaction and process perfor­
+mance in the combustion of different types of biomass. Nevertheless, a 
+reduction in the mechanical strength and a rise in the AJI index indi­
+cated some kind of particle damage after 80 h of hot fluidization with 42 
+h of combustion. However, the magnetic properties were retained to 
+make Cu30MnFekao7.5 easily separable from the ashes. Furthermore, 
+this OC uses less copper oxide rather than previous OCs developed for 
+CLOU, and it is possible to operate in a wide temperature window be­
+tween 800 and 950 ◦C in the fuel reactor without any problems of 
+fluidization and agglomeration. Long-term experiments are needed to 
+provide a more realistic lifetime when operating under low chemical 
+stress conditions (with low ΔX) in order to reduce damage in the 
+particles. 
+4. Conclusions 
+Combustion of three types of biomass was carried out in a 1.5 kWth 
+continuous CLOU unit using Cu30MnFekao7.5 OC. The performance of 
+this magnetic Cu-based OC at various temperatures ranging between 
+800 and 950 ◦C was evaluated, including the effects of air excess and the 
+solids circulation rate. Complete combustion of gases was achieved 
+when all the types of biomass were burnt, even at the lowest tempera­
+ture of 800 ◦C. A newly developed OC, Cu30MnFekao7.5, showed good 
+results for ɳcc for all the types of biomass tested. The presence of kaolin 
+in the OC increased the ɳcc found with respect to the same OC without 
+kaolin. By increasing the temperature, ɳcc increased due to higher char 
+conversion at higher temperature. At 950 ◦C, the highest ɳcc of 97.4% 
+was obtained during combustion of pine sawdust. Due to the high 
+reactivity of the OC, effects of air excess and solids circulation rate on 
+the performance of Cu30MnFekao7.5 were found to be negligible. After 
+80 h of operation without any agglomeration problems, Cu30MnFe­
+kao7.5 retained its magnetic properties, which made it easy to separate 
+from ashes for reuse in the plant. 
+CRediT authorship contribution statement 
+I˜naki Ad´anez-Rubio: Conceptualization, Investigation, Methodol­
+ogy, Data curation, Validation, Writing – review & editing. Amirhos­
+sein Filsouf: Investigation, Data curation, Writing – original draft. 
+Merve Durmaz: Investigation, Data curation, Writing – original draft. 
+Teresa Mendiara: Validation, Writing – review & editing. Pilar Gay´an: 
+Resources, Writing – review & editing, Funding acquisition. Juan 
+Ad´anez: Resources, Writing – review & editing, Supervision, Funding 
+acquisition. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Data availability 
+Data will be made available on request. 
+Acknowledgements 
+This work was supported by the SWINELOOP project, Grant 
+PID2019-106441RB-I00 
+funded 
+by 
+MICIN/AEI/10.13039/ 
+501100011033 and the Gobierno de Arag´on – Dpto. de Ciencia, Uni­
+versidad y Sociedad del Conocimiento - Project LMP166_21. I. Ad´anez- 
+Rubio acknowledges the “Juan de la Cierva” programme (Grant 
+IJC2019-038987-I funded by MCIN/AEI/10.13039/501100011033). A. 
+Filsouf is grateful to the Combusti´on y Gasificaci´on Group T05_20R for 
+the funding received. Merve Durmaz acknowledges the grant provided 
+by the Erasmus+ Student Mobility for Traineeships programme (2019-1- 
+TR01-KA103-067410). The authors thank SUMITOMO SEIKA EUROPE 
+for providing the PEO-1 binder. 
+References 
+[1] NASA's Jet Propulsion Laboratory, Global Climate Change Vital Signs of the Planet. 
+https://climate.nasa.gov/vital-signs/carbon-dioxide/, 2022 (accessed 23 
+December 2022). 
+[2] Working Group II contribution to the Sixth Assessment Report of the IPCC, 
+Intergovernmental Panel on Climate Change (IPCC) Climate Change 2022, Impacts, 
+Adaptation and Vulnerability, Summary for Policymakers, 2022. 
+[3] United Nations Framework Convention for Climate Change, The Paris Aggrement, 
+ONU, Paris (France), 2015. 
+[4] T. Mattisson, A. Lyngfelt, H. Leion, Chemical-looping with oxygen uncoupling for 
+combustion of solid fuels, Int. J. Greenh. Gas Con. 3 (2009) 11–19, https://doi.org/ 
+10.1016/j.ijggc.2008.06.002. 
+[5] A. Abad, I. Ad´anez-Rubio, P. Gay´an, F. García-Labiano, L. de Diego, J. Ad´anez, 
+Demonstration of chemical-looping with oxygen uncoupling (CLOU) process in a 
+1.5 kWth continuously operating unit using a Cu-based oxygen-carrier, Int. J. 
+Greenh. Gas Con. 6 (2012) 189–200, https://doi.org/10.1016/j. 
+egypro.2013.05.140. 
+[6] J. Adanez, A. Abad, F. Garcia-Labiano, P. Gayan, L. de Diego, Progress in chemical- 
+looping combustion and reforming technologies, Prog. Energ. Combust. 38 (2012) 
+215–282, https://doi.org/10.1016/j.pecs.2011.09.001. 
+[7] J. Ad´anez, A. Abad, T. Mendiara, P. Gay´an, L.F. de Diego, F. García-Labiano, 
+Chemical looping combustion of solid fuels, Prog. Energ. Combust. 65 (2018) 6–66, 
+https://doi.org/10.1016/j.pecs.2017.07.005. 
+[8] Y. De Vos, M. Jacobs, P. Van Der Voort, I. Van Driessche, F. Snijkers, 
+A. Verberckmoes, Development of stable oxygen carrier materials for chemical 
+looping processes-a review, Catalysts 10 (2020) 926, https://doi.org/10.3390/ 
+catal10080926. 
+[9] S. Daneshmand-Jahromi, M. Hashem Sedghkerdar, N. Mahinpey, A review of 
+chemical looping combustion technology: fundamentals, and development of 
+natural, industrial waste, and synthetic oxygen carriers, Fuel 341 (2023) 127626, 
+https://doi.org/10.1016/j.fuel.2023.127626. 
+[10] I. Gogolev, T. Pikkarainen, J. Kauppinen, M. Hurskainen, A. Lyngfelt, Alkali 
+emissions characterization in chemical looping combustion of wood, wood char, 
+and straw fuels, Fuel Process. Technol. 237 (2022), 107447, https://doi.org/ 
+10.1016/j.fuproc.2022.107447. 
+[11] L. Sun, E. Masi, O. Simonin, Ø. Langørgen, I. Saanum, N.E.L. Haugen, Three- 
+dimensional unsteady numerical simulation of a 150 kWth full-loop chemical 
+looping combustion pilot with biomass as fuel: a hydrodynamic investigation, 
+Chem. Eng. Sci. 260 (2022), 117835, https://doi.org/10.1016/j.ces.2022.117835. 
+[12] Z. Reinking, K.J. Whitty, J.S. Lighty, A simulation-based parametric study of CLOU 
+chemical looping reactor performance, Fuel Process. Technol. 215 (2021), 106755, 
+https://doi.org/10.1016/j.fuproc.2021.106755. 
+[13] A. Abdalla, M. Mohamedali, N. Mahinpey, Recent progress in the development of 
+synthetic oxygen carriers for chemical looping combustion applications, Catal. 
+Today 407 (2023) 21–51, https://doi.org/10.1016/j.cattod.2022.05.046. 
+[14] J. Yan, X. Chu, H. Jiao, S. Kang, Z. Lei, Z. Li, Z. Wang, S. Ren, H. Shui, Preparation 
+and performance of Cu-based bimetallic oxygen carriers in chemical looping 
+combustion with gaseous and solid fuels, Fuel Process. Technol. 205 (2020), 
+106463, https://doi.org/10.1016/j.fuproc.2020.106463. 
+Fig. 11. Oxygen Pseudo-equilibrium concentration of Cu30MnFekao7.5 in 
+comparison with the reference oxygen carrier, Cu1.5Mn1.5O4 [17], CuO/Cu2O, 
+Mn2O3/ Mn3O4 as a function of temperature. 
+I. Ad´anez-Rubio et al.                                                                                                                                                                                                                          
+
+
+===== Page 9 =====
+
+Powder Technology 426 (2023) 118668
+9
+[15] P. Gay´an, I. Ad´anez-Rubio, A. Abad, L.F. de Diego, F. García Labiano, J. Ad´anez, 
+Development of Cu-based oxygen carriers for chemical-looping with oxygen 
+uncoupling (CLOU) process, Fuel. 96 (2012) 226–238, https://doi.org/10.1016/j. 
+fuel.2012.01.021. 
+[16] I. Ad´anez-Rubio, A. Abad, P. Gay´an, I. Ad´anez, L.F. de Diego, F. García-Labiano, 
+J. Ad´anez, Use of hopcalite-derived Cu-Mn mixed oxide as oxygen carrier for 
+chemical looping with oxygen uncoupling process, Energy Fuel 30 (2016) 
+5953–5963, https://doi.org/10.1021/acs.energyfuels.6b00552. 
+[17] I. Ad´anez-Rubio, M.T. Izquierdo, A. Abad, P. Gayan, L.F. de Diego, J. Ad´anez, 
+Spray granulated Cu-Mn oxygen carrier for chemical looping with oxygen 
+uncoupling (CLOU) process, Int. J. Greenh. Gas Con. 65 (2017) 76–85, https://doi. 
+org/10.1016/j.ijggc.2017.08.021. 
+[18] I. Ad´anez-Rubio, H. Bautista, M.T. Izquierdo, P. Gay´an, A. Abad, J. Ad´anez, 
+Development of a magnetic Cu-based oxygen carrier for the chemical looping with 
+oxygen uncoupling (CLOU) process, Fuel Process. Technol. 218 (2021), 106836, 
+https://doi.org/10.1016/j.fuproc.2021.106836. 
+[19] P. Moldenhauer, P. Hallberg, M. Biermann, F. Snijkers, K. Albertsen, T. Mattisson, 
+A. Lyngfelt, Oxygen-carrier development of calcium manganite–based materials 
+with perovskite structure for chemical-looping combustion of methane, Energy 
+Technol. 8 (2020) 2000069, https://doi.org/10.1002/ente.202000069. 
+[20] T. Mattisson, D. Jing, A. Lyngfelt, M. Ryd´en, Experimental investigation of binary 
+and ternary combined manganese oxides for chemical-looping with oxygen 
+uncoupling (CLOU), Fuel 164 (2016) 228–236, https://doi.org/10.1016/j. 
+fuel.2015.09.053. 
+[21] C. Kuang, S. Wang, M. Luo, J. Zhao, Reactivity study and kinetic evaluation of 
+CuO-based oxygen carriers modified by three different ores in chemical looping 
+with oxygen uncoupling (CLOU) process, Chin. J. Chem. Eng. 37 (2021) 54–63, 
+https://doi.org/10.1016/j.cjche.2020.12.027. 
+[22] Q. Imtiaz, A. Armutlulu, F. Donat, M.A. Naeem, C.R. Müller, Preventing 
+agglomeration of CuO-based oxygen carriers for chemical looping applications, 
+ACS Sustain. Chem. Eng. 9 (2021) 5972–5980, https://doi.org/10.1021/ 
+acssuschemeng.1c00560. 
+[23] J. Yan, L. Zhang, J. He, M. Liu, Z. Lei, Z. Li, Z. Wang, S. Ren, H. Shui, Boosting 
+chemical looping combustion performances of red mud with transition metal 
+oxides, Carbon Resour. Convers. 5 (2022) 119–130, https://doi.org/10.1016/j. 
+crcon.2022.03.003. 
+[24] I. Ad´anez-Rubio, A. Abad, P. Gay´an, L.F. de Diego, F. García-Labiano, J. Ad´anez, 
+Biomass combustion with CO2 capture by chemical looping with oxygen 
+uncoupling (CLOU), Fuel Process. Technol. 124 (2014) 104–114, https://doi.org/ 
+10.1016/j.fuproc.2014.02.019. 
+[25] F. Miccio, A. Natali Murri, E. Landi, Synthesis and characterization of geopolymer 
+oxygen carriers for chemical looping combustion, Appl. Energy 194 (2017) 
+136–147, https://doi.org/10.1016/j.apenergy.2017.03.005. 
+[26] A. Natali Murri, F. Miccio, V. Medri, E. Landi, Geopolymer-composites with 
+thermomechanical stability as oxygen carriers for fluidized bed chemical looping 
+combustion with oxygen uncoupling, J. Chem. Eng. 393 (2020), 124756, https:// 
+doi.org/10.1016/j.cej.2020.124756. 
+[27] I. Ad´anez-Rubio, A. P´erez-Astray, A. Abad, P. Gay´an, L.F. De Diego, J. Ad´anez, 
+Chemical looping with oxygen uncoupling: an advanced biomass combustion 
+technology to avoid CO2 emissions, Mitig. Adapt. Strat. Gl 7 (2019) 1293–1306, 
+https://doi.org/10.1007/s11027-019-9840-5. 
+[28] I. Ad´anez- Rubio, A. P´erez-Astray, T. Mendiara, M.T. Izquierda, A. Abad, P. Gay´an, 
+L.F. De Diego, Chemical looping combustion of biomass: CLOU experiments with a 
+Cu-Mn mixed oxide, Fuel Process. Technol. 172 (2018) 179–186, https://doi.org/ 
+10.1016/j.fuproc.2017.12.010. 
+[29] I. Ad´anez-Rubio, I. Sampr´on, M.T. Izquierdo, A. Abad, P. Gay´an, J. Ad´anez, Coal 
+and biomass combustion with CO2 capture by CLOU process using a magnetic Fe- 
+Mn-supported CuO oxygen carrier, Fuel 314 (2022), 122742, https://doi.org/ 
+10.1016/j.fuel.2021.122742. 
+[30] A. Abad, R. P´erez-Vega, M.T. Izquierda, P. Gay´an, F. García-Labiano, L.F. De Diego, 
+J. Ad´anez, Novel magnetic manganese-iron materials for separation of solids used 
+in high-temperature processes: application to oxygen carriers for chemical looping 
+combustion, Fuel 320 (2022), 123901, https://doi.org/10.1016/j. 
+fuel.2022.123901. 
+[31] P.P. Bakare, M.P. Gupta, S.K. Date, A.P.B. Sinha, Structural, magnetic and 
+M6ssbauer studies on MnxFe3-xO4 0<x<1, Proc. Indian Acad. Sci. 93 (1984) 
+1349–1359. 
+[32] Z.J. Zhang, Z.L. Wang, B.C. Chakoumakos, J.S. Yin, Temperature dependence of 
+cation distribution and oxidation state in magnetic Mn−Fe ferrite nanocrystals, 
+J. Am. Chem. Soc. 120 (1998) 1800–1804, https://doi.org/10.1021/ja973085l. 
+[33] A. Filsouf, I. Ad´anez-Rubio, T. Mendiara, A. Abad, J. Ad´anez, Developing magnetic, 
+durable, agglomeration resistant and reactive copper-based oxygen carrier 
+particles by promoting a kaolin-reinforced, manganese-iron mixed oxide support, 
+Fuel Process. Technol. 241 (2023), 107616, https://doi.org/10.1016/j. 
+fuproc.2022.107616. 
+[34] D. Mei, C. Linderholm, A. Lyngfelt, Performance of an oxy-polishing step in the 
+100 kWth chemical looping combustion prototype, Chem. Eng. J. 409 (2021), 
+128202, https://doi.org/10.1016/j.cej.2020.128202. 
+[35] D. Mei, A.H. Soleimanisalim, C. Linderholm, A. Lyngfelt, T. Mattisson, Reactivity 
+and lifetime assessment of an oxygen releasable manganese ore with biomass fuels 
+in a 10 kWth pilot rig for chemical looping combustion, Fuel Process. Technol. 215 
+(2021), 106743, https://doi.org/10.1016/j.fuproc.2021.106743. 
+[36] M. Johansson, T. Mattisson, A. Lyngfelt, Investigation of Fe2O3 with MgAl2O4 for 
+chemical-looping combustion, Ind. Eng. Chem. Res. 43 (2004) 6978–6987, https:// 
+doi.org/10.1021/ie049813c. 
+[37] ASME, D5757–95: Standard Test Method for Determination of Attrition and 
+Abrasion of Powdered Catalysts by Air Jets, ASME, Philadelphia, 1995. 
+I. Ad´anez-Rubio et al.                                                                                                                                                                                                                          

@@ -1,0 +1,1339 @@
+
+
+===== Page 1 =====
+
+Vol.:(0123456789)
+1 3
+Journal of Thermal Analysis and Calorimetry (2021) 146:1833–1843 
+https://doi.org/10.1007/s10973-020-10163-6
+Cyclic reactivity of the sol–gel and graphite impregnation‑derived 
+Cu‑based oxygen carriers for chemical looping with oxygen 
+uncoupling
+Yang Cao1   · Boshu He1,2 · Linbo Yan1
+Received: 14 March 2019 / Accepted: 4 August 2020 / Published online: 18 August 2020 
+© Akadémiai Kiadó, Budapest, Hungary 2020
+Abstract
+Chemical looping with oxygen uncoupling (CLOU) is a promising technology to be used in combination with the oxy-fuel 
+combustion/gasification processes for carbon capture and sequestration in that it reduces the energy penalty for ­O2 genera-
+tion; hence, much attention has been focused on the production of proper oxygen carriers. In this work, four oxygen carrier 
+candidates for CLOU made of 90% CuO and 10% ­ZrO2 or ­Y2O3 are first prepared with the sol–gel and graphite impregna-
+tion methods. The reduction reactivity of the prepared oxygen carriers is investigated at 900, 950, and 1000 °C in the ­CO2 
+atmosphere, and the redox stability is evaluated through ten sequential cycles using the thermogravimetric analyzer. It is 
+found that the Avrami–Erofeev random nucleation and subsequence growth model (A2) describes the reduction process 
+very well. CuO/ZrO2 prepared by the graphite impregnation performs better reactivity and stability than the others. The 
+agglomeration and sintering of the oxygen carriers at high temperatures are found to be the main cause of the low reactivity 
+over the repeated cycles.
+Keywords  Cu-based oxygen carriers · Chemical looping with oxygen uncoupling · Kinetics · Thermogravimetric analysis · 
+CO2 capture
+Introduction
+Excessive emission of carbon dioxide ­(CO2) has led to 
+global climate change and ecological disruption. Reduction 
+in the greenhouse gas emission by the carbon capture and 
+storage (CCS) technology offers one promising solution to 
+this anthropogenic problem. Among the proposed CCS sce-
+narios, the chemical looping combustion (CLC) is believed 
+to be more feasible and efficient compared with the others 
+[1–3]. This is because CLC utilizes the lattice rather than 
+the gaseous ­O2 as the oxidation agent so as to greatly lower 
+the energy penalty caused by a traditional air separation unit 
+[4–7]. To date, the CLC technology has been demonstrated 
+in several power generation units of different capacities from 
+0.3 kW to 3 MW [8–10].
+In CLC, the solid fuel needs to be firstly converted to 
+syngas which subsequently reacts with the oxygen carriers 
+[11]. The reactions between syngas and the oxygen carri-
+ers are usually very fast at high temperatures, and hence, 
+the slow gasification process determines the final solid fuel 
+conversion [12]. In comparison, the chemical looping with 
+oxygen uncoupling (CLOU) technology proposed by Mattis-
+son et al. [13] can avoid the slow gasification process. With 
+the CLOU technology, the solid fuel burns directly with oxy-
+gen released from the oxygen carriers, which performs faster 
+solid fuel conversion [14, 15]. The CLOU process includes 
+three steps in two reactors, as illustrated in Fig. 1. In the fuel 
+reactor, the oxygen carrier, ­MexOy, releases oxygen and is 
+reduced to ­MexOy−2, as indicated by reaction (1). Then, the 
+released oxygen reacts with the solid fuel as indicated by 
+reaction (2). The reduced oxygen carrier, ­MexOy−2 is then 
+Electronic supplementary material  The online version of this 
+article (https​://doi.org/10.1007/s1097​3-020-10163​-6) contains 
+supplementary material, which is available to authorized users.
+ *	 Boshu He 
+	
+hebs@bjtu.edu.cn
+1	
+Institute of Combustion and Thermal Systems, School 
+of Mechanical, Electronic and Control Engineering, Beijing 
+Jiaotong University, Beijing 100044, China
+2	
+Department of Mechanical and Electrical Engineering, 
+Haibin College of Beijing Jiaotong University, 
+Huanghua 061199, Hebei Province, China
+
+
+===== Page 2 =====
+
+1834
+	
+Y. Cao et al.
+1 3
+regenerated in the air reactor, as indicated by reaction (3). 
+If the oxygen carrier is CuO, reactions (1) and (3) then boil 
+down to reactions (4) and (5), respectively.
+Producing proper oxygen carriers for the CLOU process 
+is challenging. The criteria for excellent oxygen carrier 
+production include high reactivity, high re-oxidation rate, 
+good mechanical durability and stability, low cost, and envi-
+ronmental friendliness [16, 17]. Among the oxygen carrier 
+candidates, CuO/Cu2O, ­Mn2O3/Mn3O4, and ­Co3O4/CoO 
+are found prospective for CLOU through thermodynamic 
+assessment [13]. Among the three promising oxygen car-
+riers for the CLOU process, the Cu-based oxygen carriers 
+have been extensively studied due to the high reactivity, high 
+oxygen transport capacity, and relatively low cost [18–20]. 
+However, practical utilization of the Cu-based oxygen car-
+riers still face some issues such as low melting point, low 
+mechanical strength and serious agglomeration [21, 22].
+To overcome these drawbacks, efforts have been put on 
+seeking proper support materials and the corresponding 
+preparation methods for oxygen carriers. It is found from 
+the literature that the Cu-based oxygen carriers prepared 
+by the impregnation method with ­SiO2, ­TiO2 or γ-Al2O3 as 
+the support material [23–25], the spray drying method with 
+(1)
+MexOy →MexOy−2 + O2
+(2)
+(n + m/2)O2 + CnH2m →nCO2 + mH2O
+(3)
+MexOy−2 + O2 →MexOy
+(4)
+4CuO →2Cu2O + O2
+(5)
+2Cu2O + O2 →4CuO
+­ZrO2 or ­MgAl2O4 [26, 27] as the support material, or the co-
+precipitation method with ­Al2O3 [28] as the support mate-
+rial perform better chemical stability and greater mechani-
+cal strength based on multicycle redox investigation. As is 
+known, the preparation methods, like sol–gel, co-precipita-
+tion, impregnation, freeze granulation, mechanical mixing, 
+and spray drying, have great impact on the performance of 
+the oxygen carriers. The sol–gel method has an advantage 
+over the co-precipitation and mechanical mixing ones in that 
+it allows for the homogeneous mixing of components almost 
+at the molecular level and the easy control of pore structure 
+[29–31]. The oxygen carriers prepared by impregnation are 
+found to have lower attrition rate and higher mechanical 
+strength, maintaining a long lifetime [32, 33]. In addition, 
+the impregnation method is highly economical compared 
+with the others.
+Till now, only the effect of different inert support materi-
+als on the reactivity and stability of the copper-based oxygen 
+carriers is investigated by researchers. The synthetic effect 
+of the carriers and the preparation methods are, however, 
+rarely reported. In this work, the synthetic effect of two 
+different inert support materials including ­ZrO2 and ­Y2O3 
+and two different preparation methods including the sol–gel 
+and graphite impregnation methods on the reactivity and 
+stability of the Cu-based oxygen carriers are investigated 
+and comprehensively analyzed. The reactivity and kinet-
+ics of all oxygen carriers were evaluated during reduction 
+process through the thermogravimetric analyzer (TGA) at 
+900–1000 °C. The stability of oxygen carriers was tested by 
+10 sequential redox cycles. Moreover, insights are also taken 
+into the physical characteristics of fresh and tested oxygen 
+carriers, such as morphology features, specific surface area, 
+and crushing strength. These physical characteristics were 
+analyzed by the scanning electron microscope (SEM) and 
+the Brunauer–Emmett–Teller (BET) for the particles after 
+consecutive redox cycles.
+Experimental
+Preparation of oxygen carriers
+Two synthesis methods, the sol–gel (SG) and the graph-
+ite impregnation (GI), were used to prepare the CuO/ZrO2 
+and CuO/Y2O3 oxygen carriers which were composed of 
+N2, O2
+CO2, H2O
+Air
+Fuel
+Air Reactor
+Fuel Reactor
+MexOy
+MexOy-2
+–2
+2
+Me O
++ O
+Me O
+x
+y
+x
+y
+→
+–2
+2
+Me O
+Me O
++ O
+x
+y
+x
+y
+→
+2
+2
+2
+2
+(  + 
+/2)O + C H
+CO + H O
+n
+m
+n
+m
+n
+m
+→
+Fig. 1   Principal of chemical looping with oxygen uncoupling
+
+
+===== Page 3 =====
+
+1835
+Cyclic reactivity of the sol–gel and graphite impregnation‑derived Cu‑based oxygen carriers…
+1 3
+90 mass% of CuO as the active material and 10% ­ZrO2 or 
+10% ­Y2O3 as the inert support. The primary chemicals used 
+in the experiments are listed in Table 1.
+As far as the sol–gel method is concerned, two Cu-based 
+oxygen carriers were prepared by this method at the ambi-
+ent temperature using ­ZrO2 and ­Y2O3 as supports, respec-
+tively. In this producing process, copper nitrate and zirco-
+nium nitrate (or yttrium nitrate) were added to water that 
+had been purified by reverse osmosis. Then, dilute citric 
+acid was added slowly to the blended aqueous solution and 
+stirred to form the wet gel at 100 °C by the constant tem-
+perature magnetic stirrer. The wet gel was dried for 6 h at 
+120 °C and then calcined in an electric muffle furnace for 
+5 h at 500 °C. The produced sample was sintered for 6 h at 
+800 °C to increase the mechanical strength of the particles. 
+Finally, CuO/ZrO2 and CuO/Y2O3 sized 300–500 μm were 
+sieved for subsequent experimental studies.
+As far as the graphite impregnation is concerned, the 
+support material was obtained by using graphite (15 mass% 
+of support material) as the pore-forming agent and using 
+the metal nitrate as the metal oxide precursor. The metal 
+nitrate was first dissolved in the deionized water, and then 
+the graphite was added to the metal nitrate solution. The 
+resulted wet samples were dried for 6 h at 120 °C and then 
+calcined for 3 h at 1000 °C. Thereafter, the stoichiomet-
+ric amount of copper nitrate was dissolved in the deionized 
+water, and then the obtained support material was added to 
+the copper nitrate solution. The wet samples were stirred 
+by a thermostatic electromagnetic stirrer at 80 °C to form 
+paste. The resultant paste was dried for 6 h at 110 °C and 
+calcined in a muffle furnace for 5 h at 500 °C. The samples 
+obtained were further sintered for 6 h at 800 °C to improve 
+the mechanical strength. Finally, the oxygen carrier samples 
+in the size range of 300–500 μm were sieved for utilization.
+Thermogravimetric analysis
+The reduction reactivity and stability over repeated cycles 
+were carried out for all the prepared oxygen carriers in a 
+TGA/SDTA851e from Mettler-Toledo, Swiss. During the 
+experiment, the crucible was kept as shallow as 2 mm in 
+depth to mitigate the effect of the gas diffusion over the 
+wall of the container [34]. The reductively experiment was 
+conducted at 900–1000 °C with 15 mg oxygen carrier. The 
+­CO2 flow rate was controlled to be 100 mL min−1 for all 
+experiments. The repeated reduction–oxidation cycles of 
+the oxygen carriers were carried out by switching the inlet 
+gas between the reducing atmosphere and air. During the 
+reduction process, ­CO2 was used as the reducing atmosphere 
+instead of ­N2. The reactivity of the oxygen carriers does not 
+change under different inert reducing atmospheres, which 
+is verified by experiments presented in Fig. S1 of supple-
+mentary material. The reduction time was kept for 5 min 
+at 1000 °C and the oxidation time was kept for 10 min at 
+800 °C. The sample was heated or cooled to the expected 
+temperature at the rate of 20 °C min−1.
+Characterization methods
+The surface morphology of the oxygen carriers before and 
+after the experiments was detected via a Japan JSM-6301F 
+SEM to observe the clustering, scattering, and agglomera-
+tion phenomena. Furthermore, the specific surface area of 
+the samples was calculated from the ­N2 adsorption method 
+(JW-BK112 from China) using the BET model, and the 
+crushing strength for oxygen carries was determined by a 
+digital-display dynamometer (FGJ-5).
+Reaction mechanism analysis
+The sample conversion during the reduction reaction is 
+determined by:
+(6)
+훼= mo −mt
+mo −m∞
+Table 1   Chemicals used for preparation of oxygen carriers
+Material
+Formula
+Purity/%
+Manufacturer
+Copper nitrate
+Cu(NO3)2·3H2O
+≥ 99.0
+Sinopharm Co., 
+China
+Zirconium nitrate
+Zr(NO3)4·5H2O
+≥ 99.0
+Sinopharm Co., 
+China
+Yttrium nitrate
+Y(NO3)3·6H2O
+≥ 99.0
+Sinopharm Co., 
+China
+Citric acid
+C6H8O7·H2O
+≥ 99.8
+Sinopharm Co., 
+China
+Graphite
+C
+≥ 99.85
+Sinopharm Co., 
+China
+
+
+===== Page 4 =====
+
+1836
+	
+Y. Cao et al.
+1 3
+where α denotes the sample conversion; mo denotes the mass 
+of the fully oxidized sample; m∞ denotes the mass of the 
+sample at the fully reduced state; mt denotes the instantane-
+ous mass.
+The apparent reaction rate is generally represented by:
+(7)
+d훼
+dt = kf(훼)(C −Ceq)n
+where t denotes the reaction time; k denotes the reaction rate 
+constant and can be obtained by the Arrhenius equation as 
+shown in Eq. (8); f(α) represents the reaction mechanism; 
+n denotes the reaction order; C denotes the actual oxygen 
+concentration during the oxidation process; Ceq denotes the 
+equilibrium oxygen concentration at the tested temperatures 
+and can be determined by the Gibbs function minimization 
+method.
+Table 2   Different reaction 
+mechanisms for solid-state 
+reactions
+Mechanism
+G(훼)
+Symbol
+One-dimensional diffusion
+훼2
+D1
+Two-dimensional diffusion
+(1 −훼) ln(1 −훼) + 훼
+D2
+Three-dimensional diffusion (Jandar function)
+[1 −(1 −훼)1∕3]2
+D3
+Three-dimensional diffusion (G–B function)
+1 −2훼∕3 −(1 −훼)2∕3
+D4
+First-order chemical reaction
+−ln(1 −훼)
+C1
+Second-order chemical reaction
+(1 −훼)−1 −1
+C2
+Avrami–Erofeev random nucleation and subsequence growth (n = 2)
+[−ln(1 −훼)]1∕2
+A2
+Avrami–Erofeev random nucleation and subsequence growth (n = 3)
+[−ln(1 −훼)]1∕3
+A3
+Phase boundary reaction (n = 2)
+1 −(1 −훼)1∕2
+R2
+Phase boundary reaction (n = 3)
+1 −(1 −훼)1∕3
+R3
+Mampel power law (n = 1)
+훼
+P1
+Mampel power law (n = 2)
+훼1∕2
+P2
+Mampel power law (n = 3)
+훼1∕3
+P3
+Mampel power law (n = 4)
+훼1∕4
+P4
+0
+5
+10
+15
+20
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+α
+Time/min
+ CuO/ZrO2 (SG) 900 °C
+ CuO/Y2O3(SG) 900 °C
+ CuO/ZrO2 (SG) 950 °C
+ CuO/Y2O3(SG) 950 °C
+ CuO/ZrO2 (SG) 1000 °C
+ CuO/Y2O3 (SG) 1000 °C
+0
+5
+10
+15
+20
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+α
+Time/min
+ CuO/ZrO2 (GI) 900 °C
+ CuO/Y2O3 (GI) 900 °C
+ CuO/ZrO2(GI) 950 °C
+ CuO/Y2O3 (GI) 950 °C
+ CuO/ZrO2 (GI) 1000 °C
+ CuO/Y2O3 (GI) 1000 °C
+(a) sol–gel (SG)
+(b)graphite impregnation (GI)
+Fig. 2   Oxygen carrier conversion during reduction at 900, 950, and 1000 °C versus time for oxygen carrier CuO/ZrO2 and CuO/Y2O3 prepared 
+by a sol–gel (SG) and b graphite impregnation (GI)
+
+
+===== Page 5 =====
+
+1837
+Cyclic reactivity of the sol–gel and graphite impregnation‑derived Cu‑based oxygen carriers…
+1 3
+where A, E, R and T denote the pre-exponential factor, the 
+activation energy, the gas constant and the reaction tempera-
+ture, respectively.
+For the reduction reaction, the value of n is zero due to 
+the thermal decomposition of oxygen carrier [35]. Thus, 
+(C–Ceq)n in Eq. (7) becomes 1 and the integral form of 
+Eq. (7) can be cast into
+To find out the most probable reaction mechanism, the 
+common different reaction mechanisms for the isother-
+mal solid-state reactions as listed in Table 2 are evaluated 
+[36–38].
+Results and discussion
+The inert carrier does not react with the active material dur-
+ing the preparation of the oxygen carrier, and the addition of 
+graphite has no effect on the phase composition of the oxy-
+gen carrier, as shown in Fig. S2 of supplementary material. 
+The sample conversions during the reduction for CuO/ZrO2 
+and CuO/Y2O3 at temperatures of 900, 950, and 1000 °C 
+are calculated and depicted in Fig. 2. The reduction rate 
+increases significantly with the increment of the reaction 
+temperature. Interestingly, no matter the SG or GI method 
+is chosen to prepare the oxygen carrier, the reduction rates 
+of CuO/ZrO2 are always slightly higher than those of CuO/
+Y2O3 at 900, 950, and 1000 °C. For the oxygen carriers 
+prepared by SG (Fig. 2a), the reduction rates at α = 50% are 
+measured at around 0.091, 0.385, and 0.833 min−1 for CuO/
+ZrO2, while they are 0.083, 0.357, and 0.714 min−1 for CuO/
+Y2O3. For the oxygen carriers prepared by GI (Fig. 2b), the 
+reduction rates at α = 50% are 0.093, 0.417, and 0.980 min−1 
+for CuO/ZrO2 while they are 0.082, 0.362, and 0.847 min−1 
+for CuO/Y2O3. The results indicate that CuO with ­ZrO2 as 
+support exhibits better reactivity than that with ­Y2O3. More-
+over, it can be found that the reduction rate of the GI-pre-
+pared oxygen carrier is higher than that of the SG-prepared.
+As aforementioned, Eq. (9) is derived to analyze the 
+reduction kinetics. The linear regression of the G(α) function 
+is used to test the various gas–solid reaction mechanisms 
+listed in Table 2, and the correlation coefficients ­(R2) for all 
+reaction mechanisms in the temperature from 900 to 1000 °C 
+are summarized in Table 3.
+(8)
+k = A exp
+(
+−E
+RT
+)
+(9)
+G(훼) = ∫
+훼
+0
+1
+f(훼)d훼= ∫
+t
+0
+kdt = kt
+(n = 0)
+Table 3   R2 values for fitting different reaction mechanisms based on the oxygen carrier conversion during reduction at the temperature of 900, 950, and 1000 °C
+T/°C
+D1
+D2
+D3
+D4
+C1
+C2
+A2
+A3
+R2
+R3
+P1
+P2
+P3
+P4
+CuO/ZrO2(SG)
+900
+0.9184
+0.9064
+0.8929
+0.9020
+0.9921
+0.9811
+0.9919
+0.9359
+0.9953
+0.9947
+0.9974
+0.9672
+0.9254
+0.8947
+950
+0.9465
+0.9065
+0.8218
+0.8818
+0.9274
+0.6263
+0.9987
+0.9810
+0.9859
+0.9695
+0.9905
+0.9701
+0.9369
+0.9109
+1000
+0.8894
+0.8355
+0.7377
+0.8055
+0.8838
+0.5903
+0.9983
+0.9936
+0.9516
+0.9179
+0.9818
+0.9880
+0.9657
+0.9434
+CuO/Y2O3(SG)
+900
+0.8901
+0.8792
+0.8673
+0.8753
+0.9856
+0.9747
+0.9897
+0.9355
+0.9897
+0.9884
+0.9927
+0.9673
+0.9266
+0.8970
+950
+0.9459
+0.8945
+0.7446
+0.8547
+0.8261
+0.3055
+0.9978
+0.9880
+0.9756
+0.9481
+0.9958
+0.9698
+0.9360
+0.9096
+1000
+0.9322
+0.9012
+0.8433
+0.8835
+0.9293
+0.7529
+0.9889
+0.9896
+0.9709
+0.9611
+0.8934
+0.9767
+0.9559
+0.9361
+CuO/ZrO2(GI)
+900
+0.8922
+0.8797
+0.8660
+0.8752
+0.9855
+0.9712
+0.9939
+0.9373
+0.9905
+0.9890
+0.9942
+0.9704
+0.9269
+0.8951
+950
+0.9572
+0.9156
+0.8035
+0.8849
+0.8898
+0.4583
+0.9962
+0.9847
+0.9851
+0.9672
+0.9951
+0.9633
+0.9291
+0.9032
+1000
+0.9362
+0.8908
+0.7916
+0.8621
+0.9121
+0.5762
+0.9961
+0.9860
+0.9782
+0.9640
+0.9921
+0.9752
+0.9462
+0.9217
+CuO/Y2O3(GI)
+900
+0.9017
+0.8910
+0.8792
+0.8871
+0.9906
+0.9803
+0.9945
+0.9324
+0.9941
+0.9931
+0.9966
+0.9671
+0.9332
+0.8916
+950
+0.9477
+0.9045
+0.8117
+0.8776
+0.9303
+0.6041
+0.9956
+0.9763
+0.9871
+0.9750
+0.9971
+0.9686
+0.9343
+0.9080
+1000
+0.8567
+0.8067
+0.7259
+0.7812
+0.8745
+0.6505
+0.9962
+0.9970
+0.9347
+0.9187
+0.9634
+0.9900
+0.9788
+0.9621
+
+
+===== Page 6 =====
+
+1838
+	
+Y. Cao et al.
+1 3
+Table 4   AVE and SD of R2 
+values under different reaction 
+mechanisms (A2, R2, and P1)
+Oxygen carrier
+A2
+R2
+P1
+AVE
+SD
+AVE
+SD
+AVE
+SD
+CuO/ZrO2(SG)
+0.9963
+0.0032
+0.9776
+0.0188
+0.9899
+0.0227
+CuO/Y2O3(SG)
+0.9921
+0.0040
+0.9787
+0.0078
+0.9606
+0.0476
+CuO/ZrO2(GI)
+0.9954
+0.0021
+0.9846
+0.0087
+0.9938
+0.0022
+CuO/Y2O3(GI)
+0.9954
+0.0012
+0.9720
+0.0459
+0.9857
+0.0273
+0
+100
+200
+300
+400
+500
+600
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+t/s
+y =  0.0229t
+R
+2 = 0.9983
+y = 0.0024t
+R
+2 =  0.9919
+y = 0.0110t
+R
+2= 0.9987
+900°C
+950°C
+1000°C
+y = [–ln(1–α)]
+1/2
+0
+100
+200
+300
+400
+500
+600
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+y =  0.0023t
+R
+2 =  0.9897
+y =  0.0103t
+R
+2 =  0.9978
+y =  0.0182t
+R
+2=  0.9889
+ 900°C
+ 950°C
+ 1000°C
+y = [–ln(1–α)]
+1/2
+y = [–ln(1–α)]
+1/2
+y = [–ln(1–α)]
+1/2
+t/s
+(a)CuO/ZrO2(SG)
+(b)CuO/Y2O3(SG)
+0
+100
+200
+300
+400
+500
+600
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+y =  0.0249t
+R
+2 =  0.9961
+y =  0.0121t
+R
+2 =  0.9962
+y =  0.0025t
+R
+2 =  0.9939
+ 900°C
+ 950°C
+ 1000°C
+t/s
+0
+100
+200
+300
+400
+500
+600
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+y = 0.0216t
+R
+2 =  0.9962
+y = 0.0010t
+R
+2 =  0.9956
+y = 0.0023t
+R
+2 =  0.9945
+ 900°C
+ 950°C
+ 1000°C
+t/s
+(c) CuO/ZrO2(GI)
+(d)CuO/Y2O3(GI)
+Fig. 3   Plots for the reaction rate constant k determination from Avrami–Erofeev random nucleation and subsequence growth model (A2) for the 
+reduction in oxygen carriers
+
+
+===== Page 7 =====
+
+1839
+Cyclic reactivity of the sol–gel and graphite impregnation‑derived Cu‑based oxygen carriers…
+1 3
+From Table 3, the A2, R2, and P1 mechanisms are found 
+to be the most suitable reaction mechanisms according to 
+the values of R2. The three models are evaluated further in 
+detail because their R2 values are very close. To determine 
+the most probable mechanism, the average (AVE) and the 
+standard deviation (SD) values of the R2 are obtained and 
+are listed in Table 4 for different oxygen carriers. Because 
+the A2 mechanism is found having the maximum AVE and 
+the minimum SD among the models, the A2 model is finally 
+selected to predict the reduction kinetics. The same method 
+for determining the most probable reaction mechanism has 
+been reported in some other literatures [39, 40].
+The fitting history of the A2 model against the corre-
+sponding experimental data for the experiments performed 
+at 900, 950, and 1000 °C are shown in Fig. 3 for the CuO/
+ZrO2(SG), CuO/Y2O3(SG), CuO/ZrO2(GI), and CuO/
+Y2O3(GI) oxygen carriers. The Arrhenius plots for all oxy-
+gen carriers are drawn and shown in Fig. 4. No obvious 
+change in the line trend is observed in the concerned tem-
+perature range. Therefore, the activation energies and pre-
+exponential factors are calculated based on the slopes and 
+intercepts of the Arrhenius plots, and the calculated kinetic 
+parameters are listed in Table 5.
+Interestingly, the reported activation energy of pure CuO 
+sized around 10 μm is 322 kJ mol−1 at temperatures from 
+760 to 910 °C [41], while the activation energies of four 
+oxygen carriers are found a bit lower at 900–1000 °C in the 
+present work. This is because the reaction is mainly diffu-
+sion controlled at lower temperature. When the temperature 
+rises from 900 to 1000 °C, the equilibrium oxygen partial 
+pressure increases from 1.51 to 12.39%. Compared to high 
+temperatures, the equilibrium partial pressure of oxygen 
+is easily achieved at low temperatures, and the reduction 
+rate is dramatically reduced once the equilibrium state is 
+reached. On the other hand, agglomeration and sintering can 
+occur at high temperatures, leading to the increase in oxy-
+gen diffusion resistance and further influence the activation 
+energy. Thus, the comprehensive effects of equilibrium ­O2 
+partial pressure and structural change should be responsi-
+ble for the reduction in activation energy at temperatures 
+over 900 °C. In the present work, the activation energies 
+for the decomposition of CuO/ZrO2 prepared by SG and GI 
+are 281.29 kJ mol−1 and 286.74 kJ mol−1 at temperatures 
+ranging from 900 to 1000 °C, respectively, very close to the 
+reported activation energy of 280 kJ mol−1 obtained by Sahir 
+et al. [42] for the decomposition of a freeze-granulated CuO/
+ZrO2 oxygen carrier in the temperature range 900–985 °C.
+To determine the stability, 10 sequential redox cycles 
+were conducted on CuO, CuO/ZrO2(SG), CuO/Y2O3(SG), 
+CuO/ZrO2(GI), and CuO/Y2O3(GI) oxygen carriers in TGA. 
+The mass fractions of the oxygen carriers over consecu-
+tive 10 reduction–oxidation cycles are shown in Fig. 5. As 
+illustrated in Fig. 5a, the oxygen release of CuO is approxi-
+mately 8.33% in the first cycle. A decreasing trend of oxygen 
+0.00078
+0.00080
+0.00082
+0.00084
+0.00086
+–6
+–5
+–4
+–3
+ CuO/ZrO2(SG)
+ CuO/Y2O3(SG)
+ CuO/ZrO2(GI)
+ CuO/Y2O3(GI)
+lnk/s–1
+T –1/K–1
+Fig. 4   Arrhenius plots for the reduction reaction of oxygen carrier 
+CuO/ZrO2(SG), CuO/Y2O3(SG), CuO/ZrO2(GI), and CuO/Y2O3(GI)
+Table 5   Kinetic parameters
+Oxygen carrier
+E/kJ ­mol−1
+A/s−1
+R2
+CuO/ZrO2 (SG)
+281.29
+9.00 × 109
+0.9389
+CuO/Y2O3 (SG)
+258.29
+8.33 × 108
+0.8957
+CuO/ZrO2 (GI)
+286.74
+1.65 × 1010
+0.9301
+CuO/Y2O3 (GI)
+279.17
+6.82 × 109
+0.9525
+
+
+===== Page 8 =====
+
+1840
+	
+Y. Cao et al.
+1 3
+0
+90
+92
+94
+96
+98
+100
+CuO
+Mass/%
+Time/min
+(a) CuO
+0
+90
+92
+94
+96
+98
+100
+CuO/ZrO2(SG)
+Mass/%
+Time/min
+0
+90
+92
+94
+96
+98
+100
+CuO,Y2O3 (SG)
+Mass/%
+Time/min
+(b) CuO/ZrO2(SG)
+(c) CuO/Y2O3(SG)
+0
+90
+92
+94
+96
+98
+100
+CuO/ZrO2 (GI)
+Mass/%
+Time/min
+0
+50
+100
+150
+200
+250
+300
+50
+100
+150
+200
+250
+300
+50
+100
+150
+200
+250
+300
+50
+100
+150
+200
+250
+300
+50
+100
+150
+200
+250
+300
+90
+92
+94
+96
+98
+100
+CuO,Y2O3 (GI)
+Mass/%
+Time/min
+(d) CuO/ZrO2(GI)
+(e) CuO/Y2O3(GI)
+Fig. 5   Mass fractions during 10 sequential redox cycle tests for the oxygen carriers (reduction at 1000 °C, oxidation at 800 °C). The horizontal 
+lines represent the mass fractions 100% and 92%
+
+
+===== Page 9 =====
+
+1841
+Cyclic reactivity of the sol–gel and graphite impregnation‑derived Cu‑based oxygen carriers…
+1 3
+yield is detected with the increment of cycle number. In the 
+tenth cycle, the oxygen release decreases to 7.04%. From 
+Fig. 5b–e, the oxygen releases of CuO/ZrO2(SG), CuO/
+Y2O3(SG), CuO/ZrO2(GI), and CuO/Y2O3(GI) oxygen car-
+riers can achieve 8.87% in the first cycle and are basically 
+consistent with the theoretical result of 9%. However, in 
+the 10th cycle, the oxygen release of CuO/ZrO2(SG), CuO/
+Y2O3(SG), CuO/ZrO2(GI), and CuO/Y2O3(GI) is 8.31, 7.72, 
+8.90, and 6.89%, respectively. Compared with the other oxy-
+gen carriers, the CuO/ZrO2(GI) exerts better recyclability.
+In order to determine the underlying cause of the 
+decrease in the oxygen yield with the increase in cycle 
+number, the surface morphologies of the fresh and tested 
+samples were analyzed through SEM, and the results are 
+shown in Fig. 6. As can be seen, the surface of the fresh 
+oxygen carrier samples is granular and compact. How-
+ever, after 10 cycles, the large holes and cracks appear. 
+Compared with CuO/ZrO2(GI), other tested oxygen carri-
+ers suffer more serious agglomeration and sintering, lead-
+ing to the reduction in the specific surface area and con-
+sequently the reduction in the reactivity of oxygen carrier 
+particles. Thus, the agglomeration and sintering should 
+be responsible for the decrease in the oxygen release for 
+all oxygen carriers. Also, it is clear from Fig. 6 that the 
+oxygen carrier particles prepared by GI have the large 
+cavity which is beneficial for the oxygen transport.
+The specific surface area and the crushing strength 
+of the fresh and tested oxygen carrier particles were 
+obtained to further corroborate the SEM characteriza-
+tion observations, and the results are listed in Table 6. It 
+can be seen that the specific surface areas of all oxygen 
+carriers did decrease after 10 cycles. Pure CuO has the 
+lowest specific surface area and crushing strength, which 
+is not suitable for the CLOU process. Different crushing 
+strengths are also detected for the fresh oxygen carriers. 
+It can be seen that the supports and preparation methods 
+have great impacts on the crushing strength. The crushing 
+strength of the used oxygen carrier particles is lower than 
+that of fresh oxygen carrier particles.
+(a) Fresh CuO/ZrO2(SG)
+(b)Tested CuO/ZrO2(SG)
+(c) Fresh CuO/Y2O3(SG)
+(d) Tested CuO/Y2O3(SG)
+(e)Fresh CuO/ZrO2(GI)
+(f)Tested CuO/ZrO2(GI)
+(g) Fresh CuO/Y2O3(GI)
+(h)Tested CuO/Y2O3(GI)
+Fig. 6   SEM images of the fresh (left) and the tested (right) particles 
+after ten sequential redox cycles
+Table 6   Characterization of the 
+fresh and tested oxygen carrier 
+particles
+Oxygen carrier
+Preparation method
+Surface area/m2 g−1
+Crushing strength/N
+Fresh
+Tested
+Fresh
+Tested
+CuO
+–
+0.8253
+0.6223
+0.8 ± 0.3
+0.5 ± 0.3
+CuO/ZrO2
+Sol–gel
+1.0855
+0.8755
+1.5 ± 0.3
+1.0 ± 0.3
+CuO/Y2O3
+Sol–gel
+1.0211
+0.9322
+2.2 ± 0.4
+2.0 ± 0.4
+CuO/ZrO2
+Graphite impregnation
+1.1677
+1.0023
+1.8 ± 0.3
+1.3 ± 0.3
+CuO/Y2O3
+Graphite impregnation
+1.0324
+0.8521
+2.4 ± 0.5
+2.0 ± 0.3
+
+
+===== Page 10 =====
+
+1842
+	
+Y. Cao et al.
+1 3
+Conclusions
+In this work, four Cu-based oxygen carriers supported 
+by ­ZrO2 or ­Y2O3 are prepared by the sol–gel and graph-
+ite impregnation methods, respectively. The most prob-
+able reaction mechanisms are identified for the reduction 
+in CuO/ZrO2(SG), CuO/Y2O3(SG), CuO/ZrO2(GI), and 
+CuO/Y2O3(GI) oxygen carriers, and the Avrami–Erofeev 
+random nucleation and subsequence growth A2 is found 
+to be the most suitable one for the reduction process. For 
+CuO/ZrO2(SG), CuO/Y2O3(SG), CuO/ZrO2(GI), and 
+CuO/Y2O3(GI) oxygen carriers, the activation energies 
+are determined as 281.29 kJ mol−1, 258.29 kJ mol−1, 
+286.74 kJ mol−1, and 279.17 kJ mol−1, respectively, and 
+the pre-exponential factors are found to be 9.00 × 109 s−1, 
+8.33 × 108 s−1, 1.65 × 1010 s−1, and 6.82 × 109 s−1, respec-
+tively. Also, the reactivity and stability of oxygen carrier 
+are evaluated through 10 sequential redox cycles using 
+TGA. Among all the studied carriers, GI-prepared CuO/
+ZrO2 shows excellent reactivity and stability. The insta-
+bility of the cycle is caused by the agglomeration and 
+sintering of oxygen carrier particles.
+Acknowledgements  The authors gratefully acknowledge financial sup-
+port from the National Natural Science Foundation of China (NSFC, 
+51576014).
+References
+	 1.	 Gayán P, Adánez-Rubio I, Abad A, de Diego LF, García-Labi-
+ano F, Adánez J. Development of Cu-based oxygen carriers for 
+chemical-looping with oxygen uncoupling (CLOU) process. Fuel. 
+2012;96:226–38.
+	 2.	 Sun J, Yang Y, Liu W. Evaluating redox reactivity of CuO-based 
+oxygen carriers synthesized with organometallic precursors. J 
+Therm Anal Calorim. 2020;139:885–93.
+	 3.	 Nascimento RAB, Medeiros RLBA, Costa TR, Oliveira AAS, 
+Macedo HP, Melo MAF, Melo DMA. Mn/MgAl2O4 oxygen car-
+riers for chemical looping combustion using coal: influence of the 
+thermal treatment on the structure and reactivity. J Therm Anal 
+Calorim. 2020;140:2673–85.
+	 4.	 Adánez J, Abad A, García-Labiano F, Gayán P, de Diego LF. 
+Progress in chemical-looping combustion and reforming technolo-
+gies. Prog Energy Combust Sci. 2012;38:215–82.
+	 5.	 Alalwan HA, Cwiertny DM, Grassian VH. ­Co3O4 nanoparticles 
+as oxygen carriers for chemical looping combustion: a materials 
+characterization approach to understanding oxygen carrier perfor-
+mance. Chem Eng J. 2017;319:279–87.
+	 6.	 Kwak BS, Park NK, Ryu HJ, Baek JI, Kang M. Reduction and oxi-
+dation performance evaluation of manganese-based iron, cobalt, 
+nickel, and copper bimetallic oxide oxygen carriers for chemical-
+looping combustion. Appl Therm Eng. 2018;128:1273–81.
+	 7.	 Moghtaderi B. Review of the recent chemical looping process 
+developments for novel energy and fuel applications. Energy 
+Fuels. 2011;26:15–40.
+	 8.	 Cabello A, Gayán P, Abad A, de Diego LF, García-Labiano F, 
+Izquierdo MT, Scullard A, Williams G, Adánez J. Long-lasting 
+Cu-based oxygen carrier material for industrial scale in chemical 
+looping combustion. Int J Greenh Gas Control. 2016;52:120–9.
+	 9.	 Moldenhauer P, Rydén M, Mattisson T, Jamal A, Lyngfelt A. 
+Chemical-looping combustion with heavy liquid fuels in a 10 
+kW pilot plant. Fuel Process Technol. 2017;156:124–37.
+	10.	 Serrano A, García-Labiano F, de Diego LF, Gayán P, Abad A, 
+Adánez J. Chemical looping combustion of liquid fossil fuels in a 
+1 kWth unit using a Fe-based oxygen carrier. Fuel Process Tech-
+nol. 2017;160:47–544.
+	11.	 Adánez J, Abad A, Mendiara T, Gayán P, de Diego LF, García-
+Labiano F. Chemical looping combustion of solid fuels. Prog 
+Energy Combust Sci. 2018;65:6–66.
+	12.	 Abad A, Mattisson T, Lyngfelt A, Rydén M. Chemical looping 
+combustion in a 300W continuously operating reactor system 
+using a manganese-based oxygen carrier. Fuel. 2006;85:1174–85.
+	13.	 Mattisson T, Lyngfelt A, Leion H. Chemical-looping with oxygen 
+uncoupling for combustion of solid fuels. Int J Greenh Gas Con-
+trol. 2009;3:11–9.
+	14.	 Abad A, Adánez-Rubio I, Gayán P, García-Labiano F, de Diego 
+LF, Adánez J. Demonstration of chemical-looping combustion 
+with oxygen uncoupling (CLOU) process in a 1.5kWth continu-
+ously operating unit using a Cu-based oxygen carrier. Int J Greenh 
+Gas Control. 2012;6:189–200.
+	15.	 Cormos C-C. Chemical looping with oxygen uncoupling (CLOU) 
+concepts for high energy efficient power generation with near total 
+fuel decarbonisation. Appl Therm Eng. 2017;112:924–31.
+	16.	 Ksepko E, Klimontko J, Kwiecinska A. Industrial wastewater 
+treatment wastes used as oxygen carriers in energy generation 
+processes. J Therm Anal Calorim. 2019;138:4247–60.
+	17.	 Wang W, Yu Q, Zuo Z, Hou L, Qin Q. Redox performance of 
+Cu-based oxygen carrier used in chemical looping air separation 
+combined oxy-fuel combustion technology. Appl Therm Eng. 
+2016;98:440–8.
+	18.	 Wu T, Yu Q, Hou L, Duan W, Wang K, Qin Q. Selecting suitable 
+oxygen carriers for chemical looping oxidative dehydrogenation 
+of propane by thermodynamic method. J Therm Anal Calorim. 
+2020;140:1837–43.
+	19.	 Guo L, Zhao H, Wang K, Mei D, Ma Z, Zheng C. Reduction kinet-
+ics analysis of sol–gel-derived CuO/CuAl2O4 oxygen carrier for 
+chemical looping with oxygen uncoupling. J Therm Anal Calorim. 
+2016;123:745–56.
+	20.	 Azimi G, Rydén M, Leion H, Mattisson T, Lyngfelt A. 
+­(MnzFe1−z)yOx combined oxides as oxygen carrier for chemical-
+looping with oxygen uncoupling. AIChE J. 2013;59:582–8.
+	21.	 Adánez-Rubio I, Abad A, Gayán P, de Diego LF, García-Labiano 
+F, Adánez J. Identification of operational regions in the chemical-
+looping with oxygen uncoupling (CLOU) process with a Cu-based 
+oxygen carrier. Fuel. 2012;102:634–45.
+	22.	 Cui Y, Cao Y, Pan W. Preparation of copper-based oxygen car-
+rier supported by titanium dioxide. J Therm Anal Calorim. 
+2013;114:1089–97.
+	23.	 de Diego LF, García-Labiano F, Adánez J, Gayán P, Abad A, Cor-
+bella BM, Palacio JM. Development of Cu-based oxygen carriers 
+for chemical-looping combustion. Fuel. 2014;83:1749–57.
+	24.	 Mattisson T, Järdnäs A, Lyngfelt A. Reactivity of some metal 
+oxides supported on alumina with alternating methane and oxy-
+gen-application for chemical-looping combustion. Energy Fuels. 
+2003;17:643–51.
+	25.	 Song H, Shah K, Doroodchi E, Wall T, Moghtaderi B. Reactiv-
+ity of ­Al2O3
+− or ­SiO2
+− supported Cu-, Mn-, and Co-based oxy-
+gen carriers for chemical looping air separation. Energy Fuels. 
+2014;28:1284–94.
+	26.	 Adánez-Rubio I, Gayán P, Abad A, de Diego LF, García-Labi-
+ano F, Adánez J. Evaluation of a spray-dried CuO/MgAl2O4 
+oxygen carrier for the chemical looping with oxygen uncoupling 
+process. Energy Fuels. 2012;26:3069–81.
+
+
+===== Page 11 =====
+
+1843
+Cyclic reactivity of the sol–gel and graphite impregnation‑derived Cu‑based oxygen carriers…
+1 3
+	27.	 Moldenhauer P, Rydén M, Mattisson T, Lyngfelt A. Chemical-
+looping combustion and chemical-looping with oxygen uncou-
+pling of kerosene with Mn- and Cu-based oxygen carriers in a 
+circulating fluidized-bed 300 W laboratory reactor. Fuel Process 
+Technol. 2012;104:378–89.
+	28.	 Chuang SY, Dennis JS, Hayhurst AN, Scott SA. Development 
+and performance of Cu-based oxygen carriers for chemical-
+looping combustion. Combust Flame. 2008;154:109–21.
+	29.	 Brinker CJ, Scherer GW. Sol–gel science. New York: Academic 
+Press; 1990.
+	30.	 Ertl G, Knözinger H, Weitkamp J. Preparation of solid catalysts. 
+New York: Wiley; 1999.
+	31.	 Gaidamavičienė G, Janulevičius G, Venslauskaitė E, Žalga A. 
+Aqueous sol–gel synthesis, thermoanalytical study and lumines-
+cent properties of ­M0.05Eu0.05Ca0.9MoO4 (M=Li, Na, K, Rb, Cs) 
+nanocrystallites. J Therm Anal Calorim. 2020;140:2185–201.
+	32.	 de Diego LF, Gayán P, García-Labiano F, Celaya J, Abad M, 
+Adánez J. Impregnated CuO/Al2O3 oxygen carriers for chemi-
+cal looping combustion: avoiding fluidized bed agglomeration. 
+Energy Fuels. 2005;19:1850–6.
+	33.	 Gayán P, Forero CR, Abad A, de Diego LF, García-Labiano F, 
+Adánez J. Effect of support on the behavior of Cu-based oxygen 
+carriers during long-term CLC operation at temperatures above 
+1073 K. Energy Fuels. 2011;25:1316–26.
+	34.	 Ollero P, Serrera A, Arjona R, Alcantarilla S. Diffusional effects 
+in TGA gasification experiments for kinetic determination. Fuel. 
+2002;81:1989–2000.
+	35.	 Song H, Shah K, Doroodchi E, Wall T, Moghtaderi B. Analysis 
+on chemical reaction kinetics of CuO/SiO2 oxygen carriers for 
+chemical looping air separation. Energy Fuels. 2014;28:173–82.
+	36.	 Hancock JD, Sharp JH. Method of comparing solid-state kinetic 
+data and its application to the decomposition of Kaolinite, Bru-
+cite and BaCO. J Am Ceram Soc. 1971;55:74–7.
+	37.	 Yan L, Lim CJ, Yue G, Fang B, He B, Grace JR. Insights into 
+the redox reactivity of an inexpensive Fe-based oxygen carrier. 
+Thermochim Acta. 2017;648:52–61.
+	38.	 Singh A, Sharma TC, Singh V, Mukherjee N. Studies on the 
+thermal stability and kinetic parameters of naturally aged 
+Octol formulation. J Therm Anal Calorim. 2020. https​://doi.
+org/10.1007/s1097​3-020-09750​-4.
+	39.	 Botas JA, Marugán J, Molina R, Herradón C. Kinetic mod-
+elling of the first step of ­Mn2O3/MnO thermochemical 
+cycle for solar hydrogen production. Int J Hydrogen Energy. 
+2012;37:18661–71.
+	40.	 Mei D, Zhao H, Ma Z, Yang W, Fang Y, Zheng C. Oxygen release 
+kinetics and mechanism study on Cu-, Co-, Mn-based oxygen 
+carriers. J Fuel Chem Technol. 2013;41:235–42.
+	41.	 Chadda D, Ford JD, Fahim MA. Chemical energy storage by the 
+reaction cycle CuO/Cu2O. Int J Energ Res. 1989;13:63–73.
+	42.	 Sahir A, Sohn H, Leion H, Lighty J. Rate analysis of chemical-
+looping with oxygen uncoupling (CLOU) for solid fuels. Energy 
+Fuels. 2012;26:4395–404.
+Publisher’s Note  Springer Nature remains neutral with regard to 
+jurisdictional claims in published maps and institutional affiliations.

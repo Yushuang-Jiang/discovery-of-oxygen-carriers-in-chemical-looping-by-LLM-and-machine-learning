@@ -1,0 +1,908 @@
+
+
+===== Page 1 =====
+
+Fuel 285 (2021) 119154
+Available online 25 September 2020
+0016-2361/© 2020 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+Full Length Article 
+Thermochemical splitting of CO2 using solution combustion synthesized 
+lanthanum–strontium–manganese perovskites 
+Gorakshnath Takalkar a, Rahul R. Bhosale a,*, Fares AlMomani a, Suliman Rashid a, 
+Hazim Qiblawey a, Mohammed Ali Saleh Saad a, Majeda Khraisheh a, Gopalakrishnan Kumar b, 
+Ram B. Gupta c, Rajesh V. Shende d 
+a Department of Chemical Engineering, College of Engineering, Qatar University, P. O. Box – 2713, Doha, Qatar 
+b Institute of Chemistry, Bioscience and Environmental Engineering, Faculty of Science and Technology, University of Stavanger, Box 8600 Forus, 4036 Stavanger, 
+Norway 
+c Department of Chemical and Life Science Engineering, Virginia Commonwealth University, Richmond, VA 23284, United States 
+d Department of Chemical and Biological Engineering, South Dakota School of Mines and Technology, Rapid City, SD 57701-3995, United States   
+A R T I C L E  I N F O   
+Keywords: 
+LSM perovskites 
+CO2 splitting 
+Solar energy 
+Thermochemical cycles 
+Solution combustion synthesis 
+Thermogravimetric analysis 
+A B S T R A C T   
+Redox reactivity of La(1-x)SrxMnO3 (LSM) perovskites towards a solar thermochemical CO2 splitting (CS) cycle is 
+investigated. The LSM perovskites are synthesized via a solution combustion synthesis (SCS) method using 
+glycine as the reducing agent. Multiple analytical techniques are used for the structural characterization of the 
+LSM perovskites. Thermogravimetric thermal reduction (TR) and CS cycles (in three sets: one, three and ten 
+cycles) are conducted to estimate the amounts of O2 released (nO2) and CO produced (nCO) by each LSM 
+perovskite. Higher nO2 by each LSM perovskite, as compared to the nCO during the first cycle. The nO2 is 
+decreased, and the re-oxidation capacity of each LSM perovskite is improved from cycle one to three. In terms of 
+the average nO2 and nCO from cycle 2 to cycle 10, the La0.60Sr0.41Mn0.99O2.993 (214.8 μmol of O2/g⋅cycle) and 
+La0.30Sr0.70Mn0.99O2.982 perovskites (342.1 μmol of CO/g⋅cycle) are observed to have the uppermost redox 
+reactivity. The redox reactivity of all the LSM perovskites (except for La0.88Sr0.11Mn1.00O2.980) is recorded to be 
+higher than that of the widely studied CeO2 material.   
+1. Introduction 
+Meeting the ever-increasing worldwide demand for energy by using 
+solar fuels produced via H2O (WS)/CO2 splitting (CS) reactions is one of 
+the feasible approaches for harnessing the renewable and profusely 
+available solar energy [1,2]. This process exploits the concentrated solar 
+power to drive the high-temperature thermal reduction (TR) of metal 
+oxides (MOs) [3]. Effectively, by applying this technology, the storage of 
+solar energy in the form of chemical energy is possible [4,5]. This stored 
+chemical energy is preferred as it can be transported and stockpiled for a 
+long time without any degradation. Recently, Marxer et al. [6] devel­
+oped a first of its kind pilot-scale set up for the production of 700 L of 
+solar syngas via 291 stable redox cycles. 
+According to the studies so far, the process efficiency of the ther­
+mochemical WS/CS process heavily depends on the redox properties of 
+the MOs [7]. The desirable characteristics of a good MO include high 
+H2/CO yield, faster TR and re-oxidation (RO) kinetics, lower cycle time, 
+higher thermal stability over multiple cycles, elevated O2 diffusion rates 
+from the surface to the bulk of the MO, and a smaller temperature dif­
+ference between the TR and RO steps. The redox materials investigated 
+for both WS and CS reactions include volatile MOs such as zinc oxide 
+[8–10] and tin oxide [11,12], and non-volatile MOs for instance, iron 
+oxide [13–15], ferrites [16–19], doped ceria [20–23], and hercynite 
+[24,25]. Among these, ceria and doped ceria appears to be a beneficial 
+choice, as these oxides possess the anticipated material properties. 
+In recent years, perovskite-based oxides [26–28] were investigated 
+for thermochemical WS/CS reactions with an assumption that they will 
+outperform ceria. Among these perovskites, the La-Sr-Mn-based (LSM) 
+perovskites were inspected for the production of both H2 and CO via WS 
+and CS cycles. For the TR temperature range of 1523 to 1923 K, the 
+La0.7Sr0.3MnO3 (LSM30) and La0.6Sr0.4MnO3 (LSM40) perovskites 
+showed higher TR yield as compared to ceria [29]. According to Yang 
+* Corresponding author. 
+E-mail address: rahul.bhosale@qu.edu.qa (R.R. Bhosale).  
+Contents lists available at ScienceDirect 
+Fuel 
+journal homepage: www.elsevier.com/locate/fuel 
+https://doi.org/10.1016/j.fuel.2020.119154 
+Received 4 May 2020; Received in revised form 7 July 2020; Accepted 28 August 2020   
+
+
+===== Page 2 =====
+
+Fuel 285 (2021) 119154
+2
+et al. [30], the La1-xSrxMnO3 materials (x = 0 to 0.5) represented a 
+higher TR yield as a function of an increase in the atomic concentration 
+of Sr. Demont and Abanades [31] synthesized and tested the 
+La0.35Sr0.65MnO3-δ, 
+La0.5Sr0.5MnO3-δ, 
+La0.65Sr0.35MnO3-δ, 
+and 
+La0.8Sr0.2MnO3-δ towards the CS reactions (in one cycle) and reported 
+La0.5Sr0.5MnO3-δ as the best choice for producing a maximum amount of 
+O2 (nO2 = 195 μmol/g⋅cycle) and CO (nCO = 242 μmol/g⋅cycle). Dey and 
+Rao [32] studied the La1–xSrxMnO3 (x = 0.3, 0.4, and 0.5) towards 
+splitting of CO2 at isothermal operating conditions and observed high 
+CO production (nCO = 134 μmol/g⋅cycle) by La0.5Sr0.5MnO3 at 1400 ◦C 
+(partial pressure of O2 = 10-5 atm and partial pressure of CO2 = 1 atm). 
+Dey and Rao [32] further reported that the La0.5Sr0.5MnO3 was capable 
+of producing ~three times higher CO than the CeO2 at 1500 ◦C. As per 
+the several studies, the rise in the Sr content was responsible for an in­
+crease in the reduction extent and decreased in the re-oxidation yield 
+[29,31,33–38]. 
+As per the literature review, selected LSM compositions were 
+investigated for solar thermochemical fuel production. It is essential to 
+find the finest combination of LSM perovskite, which is capable of 
+producing the maximum amount of solar fuel in multiple thermo­
+chemical cycles. In this regard, this work concentrates on the explora­
+tion of the TR and RO behavior of the LSM perovskites, i.e., La(1- 
+x)SrxMnO3 (where x = 0.1 to 0.9) in multiple CS cycles (Fig. 1). This 
+study will assist in improving the understanding and rational design for 
+the application of LSM perovskites for WS/CS reactions and in 
+comparing them with the CeO2. 
+2. Experimental sections 
+2.1. Chemicals 
+La(NO3)3⋅6H2O (99.99% trace metal basis), Mn(NO3)2⋅4H2O (purum 
+p.a., ≥97.0%), and Sr(NO3)2 (ACS reagent, ≥99.0%) were obtained from 
+Sigma Aldrich, USA, and used as received. De-ionized water (ultrapure 
+Type 1 from Direct-Q system, Millipore, France) was consumed for the 
+preparation of the solution containing metal precursors and glycine. 
+Ultra-high pure Ar and CO2-Ar (50:50) were obtained from Buzwair 
+Gases, Qatar. 
+2.2. Synthesis of LSM perovskites 
+Synthesis of the LSM perovskites was carried out via a glycine based 
+solution combustion synthesis (SCS) method. In a typical recipe, 
+calculated amounts of precursors (to prepare 1 g of the LSM perovskites) 
+[39] were dissolved in 50 ml of deionized water along with the glycine 
+(fuel to precursor ratio = 1). As-prepared solution was then pre-heated 
+up to 300 ◦C (exposed to air) by using a temperature-controlled hot 
+plate. A viscous gel comprised of the precursors and glycine was ob­
+tained after complete evaporation of the water. The combustion reaction 
+was propagated as the temperature of the gel was increased up to the 
+auto-ignition temperature. As-synthesized powder of the LSM perov­
+skites was crushed using pestle and mortar and further calcined up to 
+1000 ◦C in the air for 4 h using a muffle furnace. Table 1 reports the 
+abbreviations assigned to each LSM perovskite derived via the SCS 
+method. By using the powder X-ray diffractometer (PXRD, PANalytical 
+XPert MPD/DY636), the phase composition of the LSM perovskites was 
+determined. The scanning electron microscope (SEM, Nova Nano 450, 
+FEI, 200kx) equipped with the energy-dispersive X-ray spectroscopy 
+(EDS) was utilized to identify the elemental composition and material 
+morphology. 
+2.3. CO2 splitting experiments 
+Multiple thermochemical experiments were conducted by using a 
+high-temperature SETSYS Evolution TGA (Setaram Instruments, France) 
+(Fig. 2). Details allied with the TGA set-up were already reported else­
+where [40]. A platinum pan was placed inside the furnace (surrounded 
+by an alumina tube) to support the reference and the sample alumina 
+(100 µl) crucibles. The flowrates of the gases were monitored and 
+controlled by using mass flow controllers, and the temperature was 
+regulated by using a Pt–Rh type-B thermocouple. Thermogravimetric CS 
+experiments were carried out by using approximately 50 mg of the LSM 
+perovskite powder. The drift in the mass of the LSM perovskite during 
+the TR (at 1400 ◦C for 60 min, 100 ml/min Ar), and CS (1000 ◦C for 30 
+min, 100 ml/min of 50% CO2/Ar mixture) steps were recorded by using 
+the Calisto software. Based on the variation in the mass during both 
+steps and following equations, the amounts O2 released (nO2) and CO 
+produced (nO2) by each LSM perovskite were estimated. 
+nO2 =
+Δmloss
+(MO2 × mLSM)
+(1)  
+nCO =
+Δmgain
+(MO × mLSM)
+(2) 
+In the above equations, the Δmloss and Δmgain represents the loss and 
+gain in the mass of the LSM perovskites during the TR and CS steps. The 
+molecular weights of the O and O2 are represented as MO and MO2. 
+Likewise, the amount of LSM perovskite used during the TGA experi­
+ments is presented as MLSM. TGA blank runs (performed by using empty 
+crucible) were subtracted from the TGA actual experiments (conducted 
+by using the LSM perovskites) to avoid the effect of the thermal 
+buoyancy. 
+Fig. 1. Schematic of LSM based solar thermochemical fuel production process.  
+Table 1 
+Abbreviations assigned and the chemical composition of the LSM perovskites 
+(prepared via SCS and calcined at 1000 ◦C in the air for 4 h).  
+Abbreviation 
+La/Sr/Mn (as- 
+prepared) 
+La/Sr/Mn 
+(from EDS) 
+Composition 
+LSM10 
+0.90/0.10/1.00 
+0.88/0.11/1.00 
+La0.88Sr0.11Mn1.00O2.98 
+LSM20 
+0.80/0.20/1.00 
+0.81/0.21/1.01 
+La0.81Sr0.21Mn1.01O3.04 
+LSM30 
+0.70/0.30/1.00 
+0.68/0.30/1.01 
+La0.68Sr0.30Mn1.01O2.98 
+LSM40 
+0.60/0.40/1.00 
+0.60/0.41/0.99 
+La0.60Sr0.41Mn0.99O2.99 
+LSM50 
+0.50/0.50/1.00 
+0.52/0.49/1.00 
+La0.52Sr0.49Mn1.00O3.02 
+LSM60 
+0.40/0.60/1.00 
+0.41/0.59/0.98 
+La0.41Sr0.59Mn0.98O2.97 
+LSM70 
+0.30/0.70/1.00 
+0.30/0.70/0.99 
+La0.30Sr0.70Mn0.99O2.98 
+LSM80 
+0.20/0.80/1.00 
+0.21/0.78/1.01 
+La0.21Sr0.78Mn1.01O3.01 
+LSM90 
+0.10/0.90/1.00 
+0.09/0.91/1.00 
+La0.09Sr0.91Mn1.00O2.99  
+G. Takalkar et al.                                                                                                                                                                                                                               
+
+
+===== Page 3 =====
+
+Fuel 285 (2021) 119154
+3
+3. Results and discussion 
+The phase composition of the SCS synthesized LSM perovskites were 
+identified by performing the PXRD analysis. The PXRD peaks, presented 
+in Fig. 3, shows nominally phase pure LSM perovskites with no evidence 
+of any impurities such as La-, Mn-, Sr-based individual oxides, or La, Sr, 
+Mn metals. As the crystal ionic radii of Sr (132 pm) is higher than that of 
+La (117.2 pm), the increase in the atomic concentration of the Sr 
+resulted in a shift in the PXRD peaks towards higher 2θ angle. This 
+observation provided further confirmation of the successful synthesis of 
+LSM perovskites via the SCS method. The PXRD peaks reported in Fig. 3 
+matched very well with the PXRD findings reported in previous studies 
+[41]. By employing the Scherrer formula, the average crystallite size of 
+all LSM perovskites was estimated to be in the range of 50 to 70 nm. 
+In addition to the PXRD, by using the SEM/EDS instrument, the 
+elemental composition of each LSM perovskite was verified. The EDS 
+results were observed to be consistent with the findings reported by the 
+PXRD analysis. The EDS patterns associated with the LSM20, LSM40, 
+LSM60, and LSM80 perovskites (exemplified) are presented in Fig. 4. 
+Besides, the atomic concentrations of La, Sr, and Mn, and the chemical 
+composition of each LSM perovskite identified by using the EDS patterns 
+are reported in Table 1. 
+In order to examine the microstructural morphology of the LSM 
+perovskites, SEM analysis was conducted. The representative images 
+obtained for LSM20, LSM40, LSM60, and LSM80 perovskites are shown 
+in Fig. 5. The drift in the La and Sr atomic concentrations had an 
+insignificant effect on the LSM morphology. However, as the images 
+were taken at different locations (for each LSM), we cannot wholly 
+neglect the chances of having dissimilar/disordered images. The SEM 
+analysis showed that all the LSM perovskites possess a porous 
+Fig. 2. Experimental set-up used for the evaluation of the LSM perovskites.  
+Fig. 3. PXRD patterns of LSM perovskites, a) 2θ = 20◦to 80◦and b) 2θ = 31◦to 34◦(prepared via SCS and calcined at 1000 ◦C in the air for 4 h).  
+G. Takalkar et al.                                                                                                                                                                                                                               
+
+
+===== Page 4 =====
+
+Fuel 285 (2021) 119154
+4
+morphology. 
+We have first tested the redox performance of the SCS synthesized 
+LSM perovskites in one thermochemical CS cycle. In thermochemical 
+cycles, the mass of a MO decreases during the TR step due to the release 
+of lattice O2. In contrast, due to the gain of O2, the mass of the MO in­
+creases during the re-oxidation step. The mass of each LSM perovskite 
+was decreased as a function of the increase in the TR temperature (TH) 
+and the reaction time during the TR step (Fig. 6). In terms of the mass 
+loss, the LSM50 perovskite reached its plateau after attaining the TR 
+temperature of 1400 ◦C. In contrast, the remaining LSM perovskites 
+continued to lose weight throughout the entire TR step. By considering 
+that the TR starts at 800 ◦C, the kinetics was quickest for LSM90 and the 
+slowest for the LSM10 perovskite. Furthermore, from 800 ◦C to 1400 ◦C 
+(dwell time equal to 60 min), the %Δmloss was highest for LSM90 
+perovskite (~6.8%) and lowest in the case of the LSM10 perovskite 
+(~0.65%). 
+The TGA profiles obtained in case of each LSM perovskite (during the 
+TR step) were translated into the nO2 by using Eq. (1). The numbers 
+reported in Fig. 7 indicate that the nO2 by the LSM90 perovskite was the 
+greatest as compared to other LSM perovskites. For instance, the nO2 by 
+LSM90 perovskite (1476.6 μmol/g) was higher by 1298.7, 1243.5, 
+1003.5, 932.0, 885.9, 866.7, 828.3, and 675.0 μmol/g when compared 
+to the LSM10, LSM20, LSM30, LSM40, LSM50, LSM60, LSM70, and 
+LSM80 perovskites, respectively. The inclusion of Sr+2 as a partial sub­
+stitute for La+3 on A-site (from x = 0.1 to 0.9) results into a deviation in 
+the oxidation state of Mn from +3 to +4. Because of this drift, the LSM 
+perovskites (with higher Sr content) seems to be favorable towards TR 
+reaction as compared to the LSM perovskites with the lower Sr content. 
+The thermally decomposed LSM perovskites were further examined 
+towards CS step at 1000 ◦C for 30 min. Fig. 8 represents the TGA profiles 
+associated with the first CS step. As mentioned earlier, it was expected 
+that the mass of the MO would rise due to the re-oxidation. As per the 
+expectation, as shown in Fig. 8, the mass of each LSM perovskite was 
+increased during the CS step. Close inspection of these TGA profiles 
+indicates that the LSM70 and LSM50 perovskites exhibited the quickest 
+RO rates. At the same time, the LSM90 perovskite showed the slowest 
+RO kinetics. Obtained results further show that the LSM70 perovskite 
+attained the maximum mass gain, and the LSM90 perovskite indicated 
+the lowest increase in the mass during the first CS step. With the help of 
+the obtained TGA profiles and Eq. (2), the calculated nCO by each LSM 
+perovskite is presented in Fig. 9. The LSM70 perovskite displayed the 
+highest CO production (424.0 μmol/g), and the LSM90 displayed the 
+lowest nCO (64.7 μmol/g) in cycle 1. The LSM40, LSM60, and LSM80 
+perovskites indicated approximately identical nCO in the range of 285.7 
+to 309.5 μmol/g. Likewise, the LSM20 and LSM30 perovskites produced 
+~162.0 μmol of CO/g in cycle 1. The authors would like to admit that it 
+is difficult to know the exact reason for such results as the TGA set-up 
+only provides the information related to the mass variations. 
+The overall analysis of the 1st thermochemical cycle indicate that the 
+nCO produced by the LSM perovskites were lower than the nO2. The 
+probable reasons for such trends are a) all the LSM perovskites were 
+freshly prepared and never underwent any thermal cycling before per­
+forming the first TR step, and b) all the LSM perovskites have not 
+reached their thermal stability during cycle 1. It was highly essential to 
+know if the LSM perovskites show a similar trend in additional cycles. 
+Hence, these redox materials were further scrutinized by performing 
+three consecutive cycles (Fig. 10). 
+Table 2 report the calculated nO2 and nCO by each LSM perovskite 
+during three cycles. The numbers listed shows that the nO2 by all LSM 
+perovskites decreased considerably in cycle 2. For example, the nO2 by 
+LSM10, LSM30, LSM50, LSM70, and LSM90 was reduced by 117.6, 
+292.1, 465.4, 402.5, and 1133.4 μmol/g in cycle 2 as compared to cycle 
+1. The results reported in Table 2 further shows that, except for LSM30, 
+LSM80, and LSM90 perovskites, most of the LSM perovskites underwent 
+a drop in the CO production capacity in cycle 2. The nCO by LSM10, 
+LSM20, LSM40, LSM50, LSM60, and LSM80 diminished by 19.1, 34.9, 
+Fig. 4. EDS patterns of LSM20, LSM40, LSM60, and LSM80 (prepared via SCS 
+and calcined at 1000 ◦C in the air for 4 h). 
+G. Takalkar et al.                                                                                                                                                                                                                               
+
+
+===== Page 5 =====
+
+Fuel 285 (2021) 119154
+5
+17.9, 100.7, 17.9, and 61.5 μmol/g, individually in cycle 2 as compared 
+to the first cycle. In case of the LSM60 and LSM80 perovskites, the nCO 
+during cycle 2 enhanced by 40.9 and 19.2 μmol/g (as compared to cycle 
+1), whereas in the case of LSM50 perovskite, nCO remained steady during 
+both cycles. A higher nCO/nO2 ratio accomplished by all the LSM pe­
+rovskites during cycle 2. For instance, the nCO/nO2 ratio for LSM10, 
+LSM20, LSM30, LSM40, LSM50, LSM60, LSM70, LSM80, and LSM90 
+upsurged by 0.936, 0.569, 0.783, 0.371, 1.324, 1.433, 0.821, 1.198, and 
+0.201 in cycle 2 when compared with the nCO/nO2attained in cycle 1. 
+Cycle 3 marked a further reduction in the TR capacity of all the LSM 
+Fig. 5. SEM images of LSM20, LSM40, LSM60, and LSM80 (prepared via SCS and calcined at 1000 ◦C in the air for 4 h).  
+Fig. 6. LSM perovskites: TGA profiles of the first TR step (1400 ◦C for 60 min, 
+heating/cooling rate = 25 ◦C/min). 
+Fig. 7. nO2 by LSM perovskites during 1st TR step (1400 ◦C for 60 min, heating/ 
+cooling rate = 25 ◦C/min). 
+G. Takalkar et al.                                                                                                                                                                                                                               
+
+
+===== Page 6 =====
+
+Fuel 285 (2021) 119154
+6
+perovskites (except for LSM50). The nO2 decreased by 26.3%, 37.0%, 
+17.7%, 25.4%, 8.9%, 25.9%, 22.9%, and 42.5% in cycle 3 for LSM10, 
+LSM20, LSM30, LSM40, LSM60, LSM70, LSM80, and LSM90, individu­
+ally in comparison to the nO2 in cycle 2. Likewise, the CS ability of 
+LSM10, LSM20, and LSM60 perovskites reduced by 13.3%, 6.9%, and 
+7.1% in cycle 3 as compared to cycle 2. In contrast, the nCO by LSM50, 
+LSM70, and LSM80 perovskites remained stable and the nCO by LSM30, 
+LSM40, and LSM90 perovskites increased by 17.1%, 5.0%, and 79.4%, 
+respectively, in cycle 3, when paralleled with cycle 2. Overall, the nCO/
+nO2 ratio for LSM10, LSM20, LSM30, LSM40, LSM50, LSM60, LSM70, 
+LSM80, and LSM90 upsurged by 0.28, 0.60, 0.48, 0.36, 0.01, 0.04, 0.48, 
+0.43, and 0.52, respectively in 3rd cycle when matched to the nCO/nO2 
+ratios reported for the 2nd cycle. 
+The results obtained during three consecutive cycles indicate a 
+reduction in the nO2 by all the LSM perovskites. In contrast, an upsurge in 
+the nCO/nO2 ratio was noticed for all the LSM perovskites from cycle 1 to 
+cycle 3. The probable reason for these results is the transformation of the 
+redox reactivity of the selected LSM perovskites from an unstable zone 
+(cycle 1) to a more stable zone (cycle 3). This probably happened as the 
+LSM perovskites underwent three thermal cyclings. After the 3rd cycle, 
+it is believed that some of the LSM perovskites have improved their 
+thermal stability and redox reactivity towards the TR and CS reactions. 
+To determine the worthiest combination of the LSM perovskite, 
+which can attain a stable production of CO for a longer duration, this 
+study was further extended towards performing ten successive thermo­
+chemical cycles. Fig. 11 presents the TGA profiles obtained (experi­
+mental time ~22 h) during ten thermochemical CS cycles. As each LSM 
+perovskite has behaved differently towards the multiple TR and CS 
+steps, the TGA profiles reported for all LSM perovskites (Fig. 11) look 
+different than each other. To avoid the misrepresentation of the data, the 
+average nO2, nCO, and nCO/nO2 ratio was hereafter calculated by 
+excluding the first cycle (which is deemed as the most unstable zone). 
+Similar to the previous sections, the TR (Fig. 12) and CS (Fig. 13) ca­
+pacity of all the LSM perovskites, from cycle 2 to cycle 10, estimated by 
+using Eqs. (1) and (2). 
+According to Fig. 12, the nO2 by LSM10, LSM30, LSM40, and LSM90 
+perovskites reduced from cycle 2 to cycle 9, whereas the TR capacity of 
+the LSM80 perovskite was inconsistent. In contrast, a stable nO2 by 
+LSM20, LSM50, LSM60, and LSM70 perovskites from cycle 2 to cycle 10. 
+In terms of numbers, the average nO2 by each LSM perovskite can be 
+arranged as: LSM40 (214.8 μmol/g⋅cycle) > LSM70 (187.9 μmol/ 
+g⋅cycle) > LSM90 (152.6 μmol/g⋅cycle) > LSM80 (140.5 μmol/g⋅cycle) 
+> LSM60 (139.4 μmol/g⋅cycle) > LSM50 (126.9 μmol/g⋅cycle) > LSM30 
+(123.7 μmol/g⋅cycle) > LSM20 (66.6 μmol/g⋅cycle) > LSM10 (43.4 
+μmol/g⋅cycle). These results confirmed that the redox reacitivity of the 
+LSM20, LSM50, LSM60, and LSM70 was much better towards the TR 
+step as compared to the remaining LSM perovskites. 
+According to the data reported in Fig. 13, the LSM20, LSM50, 
+LSM60, and LSM70 perovskites exhibited stable production of CO from 
+cycle 2 to cycle 10. Remaining perovskites showed varying amounts of 
+CO production and especially in case of the LSM10 the nCO decreased 
+with an increase in the number of cycles. LSM perovskites can be 
+organized, based on the average nCO from cycle 2 to cycle 10, as: LSM70 
+(342.1 μmol/g⋅cycle) > LSM40 (294.6 μmol/g⋅cycle) > LSM60 (272.9 
+μmol/g⋅cycle) > LSM80 (267.4 μmol/g⋅cycle) > LSM50 (228.7 μmol/ 
+g⋅cycle) > LSM30 (209.4 μmol/g⋅cycle) > LSM90 (118.0 μmol/g⋅cycle) 
+> LSM20 (116.7 μmol/g⋅cycle) > LSM10 (71.0 μmol/g⋅cycle). The listed 
+numbers indicate that the CS ability of the LSM perovskites does not 
+follow any specific trend. Interestingly, LSM40 perovskite again showed 
+a higher redox potential towards producing 294.6 μmol of CO/g⋅cycle 
+(the second-highest among all the LSM perovskites investigated). 
+The LSM perovskites were further compared with each other based 
+on their average nCO/nO2 ratio from cycle 2 to cycle 10. As per the ob­
+tained data, the average nCO/nO2 ratio in the case of LSM60 and LSM80 
+Fig. 8. LSM perovskites: TGA profiles obtained during the first CS step (1000 ◦C 
+for 30 min, heating/cooling rate = 25 ◦C/min). 
+Fig. 9. nCO by LSM perovskites during the 1st CS step (1000 ◦C for 30 min, 
+heating/cooling rate = 25 ◦C/min). 
+Fig. 10. LSM perovskites: TGA profiles obtained during three cycles (TR at 
+1400 ◦C for 60 min, CS at 1000 ◦C for 30 min, and heating/cooling rate =
+25 ◦C/min). 
+G. Takalkar et al.                                                                                                                                                                                                                               
+
+
+===== Page 7 =====
+
+Fuel 285 (2021) 119154
+7
+perovskites was the highest as compared to the other LSM perovskites. 
+For most of the LSM perovskites (except for LSM40 and LSM90) the 
+average nCO/nO2 ratio was higher than 1.6. The average nCO/nO2 ratio >
+1.6 indicates that the re-oxidation capacity of the LSM perovskites is 
+reduced, and further work needs to be done for its improvement. A 
+possible option is to improve the ion mobility of the LSM perovskites via 
+the inclusion of one or more suitable dopants in the crystal structure. 
+Overall, the LSM perovskites, based on their average nCO/nO2 ratio, can 
+be organized as: LSM60 > LSM80 > LSM70 > LSM50 > LSM20 >
+LSM30 > LSM10 > LSM40 > LSM90. 
+Table 3 reports the comparison between the LSM perovskites and 
+CeO2 (experiments conducted at identical operating conditions). The 
+data listed indicate that, except for LSM10 perovskite, all the LSM pe­
+rovskites produced higher nO2 and nCO than CeO2. In contrast, CeO2 
+exhibited higher average nCO/nO2 ratio than most of the LSM perov­
+skites. The elevated average nCO/nO2 ratio indicates that the RO 
+Table 2 
+LSM perovskites: nO2, nCO, and nCO/nO2 ratio in three cycles (TR at 1400 ◦C for 60 min, CS at 1000 ◦C for 30 min, and heating/cooling rate = 25 ◦C/min).  
+LSM 
+Cycle 1 
+Cycle 2 
+Cycle 3 
+nO2 (μmol/g)  
+nCO(μmol/g)  
+nCO
+nO2  
+nO2 (μmol/g)  
+nCO(μmol/g)  
+nCO
+nO2  
+nO2 (μmol/g)  
+nCO(μmol/g)  
+nCO
+nO2  
+LSM10  
+177.9  
+114.4  
+0.63  
+60.4  
+95.3  
+1.58  
+44.5  
+82.6  
+1.85 
+LSM20  
+233.2  
+161.3  
+0.69  
+100.2  
+126.4  
+1.26  
+63.2  
+117.7  
+1.86 
+LSM30  
+473.1  
+163.6  
+0.35  
+181.1  
+204.4  
+1.13  
+148.9  
+239.5  
+1.61 
+LSM40  
+544.6  
+285.7  
+0.53  
+299.1  
+267.9  
+0.90  
+223.2  
+281.3  
+1.26 
+LSM50  
+590.8  
+338.7  
+0.57  
+125.4  
+238.0  
+1.90  
+123.3  
+226.1  
+1.83 
+LSM60  
+610.0  
+309.5  
+0.51  
+150.3  
+291.7  
+1.94  
+136.9  
+270.8  
+1.98 
+LSM70  
+648.4  
+424.0  
+0.65  
+245.8  
+362.6  
+1.48  
+182.1  
+355.6  
+1.95 
+LSM80  
+801.7  
+295.2  
+0.37  
+188.5  
+295.2  
+1.57  
+145.3  
+289.8  
+1.99 
+LSM90  
+1476.7  
+64.7  
+0.05  
+343.3  
+83.9  
+0.25  
+197.5  
+150.5  
+0.76  
+Fig. 11. LSM perovskites: TGA profiles obtained during ten cycles (TR at 
+1400 ◦C for 60 min, CS at 1000 ◦C for 30 min, and heating/cooling rate =
+25 ◦C/min). 
+Fig. 12. nO2 by LSM perovskites from cycle 2 to cycle 10 (TR at 1400 ◦C for 60 
+min, CS at 1000 ◦C for 30 min, and heating/cooling rate = 25 ◦C/min). 
+Fig. 13. nCO by LSM perovskites from cycle 2 to cycle 10 (TR at 1400 ◦C for 60 
+min, CS at 1000 ◦C for 30 min, and heating/cooling rate = 25 ◦C/min). 
+Table 3 
+Comparison between the results recorded in this study and the findings reported 
+by Bhosale and Takalkar [40], Dey and Rao [32] and Yang et al. [30].  
+Materials 
+TR Temp 
+(◦C) 
+CS Temp 
+(◦C) 
+nO2 (μmol/ 
+g⋅cycle)  
+nCO(μmol/ 
+g⋅cycle)  
+CeO2 [40] 
+1400 
+1000  
+47.6  
+95.6 
+LSM10 
+1400 
+1000  
+43.4  
+71.0 
+LSM20 
+1400 
+1000  
+66.6  
+116.7 
+LSM30 
+1400 
+1000  
+123.7  
+209.4 
+LSM40 
+1400 
+1000  
+214.8  
+294.6 
+LSM50 
+1400 
+1000  
+126.9  
+228.7 
+LSM60 
+1400 
+1000  
+139.4  
+272.9 
+LSM70 
+1400 
+1000  
+187.9  
+342.1 
+LSM80 
+1400 
+1000  
+140.5  
+267.4 
+LSM90 
+1400 
+1000  
+152.6  
+118.0 
+LSM30  
+[32] 
+1400 
+1400  
+37.9  
+75.9 
+LSM40  
+[32] 
+1400 
+1400  
+48.9  
+98.2 
+LSM50  
+[32] 
+1400 
+1400  
+69.5  
+134.8 
+LSM10  
+[30] 
+1400 
+–  
+24.5  
+– 
+LSM20  
+[30] 
+1400 
+–  
+61.6  
+– 
+LSM30  
+[30] 
+1400 
+–  
+145.6  
+– 
+LSM40  
+[30] 
+1400 
+–  
+203.8  
+–  
+G. Takalkar et al.                                                                                                                                                                                                                               
+
+
+===== Page 8 =====
+
+Fuel 285 (2021) 119154
+8
+potential of CeO2 is superior to the LSM perovskites. We believe that the 
+CS temperature (1000 ◦C) and re-oxidation time (30 min) used were 
+appropriate for the CeO2 material to re-oxidized completely. However, 
+the experimental conditions employed were insufficient for the LSM 
+perovskites to regain their oxidized state. 
+In addition to CeO2, the LSM perovskites investigated in this study 
+were also compared with LSM perovskites studied by Dey and Rao [32] 
+and Yang et al. [30]. Dey and Rao [32] tested LSM30, LSM40, and 
+LSM50 perovskites for the thermochemical splitting of CO2 at isothermal 
+experimental conditions (1673 K). The amounts of O2 released and CO 
+produced by the LSM30, LSM40, and LSM50 perovskites investigated by 
+us were considerably higher than the similar perovskites examined by 
+Dey and Rao [32]. The probable reason for this lower amount of fuel 
+production reported by Dey and Rao [32] is the lesser time (15 min) 
+permitted for the TR step. 
+Yang et al. [30] examined LSM10, LSM20, LSM30, and LSM40 pe­
+rovskites for the thermochemical splitting of H2O (TR at 1400 ◦C and re- 
+oxidation at 800 ◦C). As the aim of the presented investigation was to 
+split the CO2, only the results associated with the TR step (O2 release) 
+were compared. As the time allowed for the TR step by us and by Yang 
+et al. [30] were comparable (especially for LSM30 and LSM40), the 
+amount of O2 released by LSM10, LSM20, LSM30, and LSM40 in this 
+study was approximately identical to the TR ability of the similar pe­
+rovskites reported by Yang et al. [30]. Based on the comparison with 
+published literature, presently, we are investigating the effect of tem­
+perature and dwell time allied with both TR and CS steps to understand 
+the long-term redox reactivity of the LSM perovskites. 
+4. Summary and conclusions 
+In this investigation, La(1-x)SrxMnO3 (where x = 0.1 to 0.9) i.e., LSM 
+perovskites were examined towards thermochemical CS cycles. A solu­
+tion combustion synthesis approach was utilized for the synthesis of LSM 
+perovskites. Derived LSM perovskites were further characterized using 
+PXRD, EDS, and SEM techniques. Formation of nominally phase pure 
+LSM perovskites with no evidence of any impurities such as La-, Mn-, Sr- 
+based individual oxides or La, Sr, Mn metals was confirmed from the 
+PXRD and EDS analysis. The average crystallite size of all LSM perov­
+skites was estimated to be in the range of 50 to 70 nm. The SEM analysis 
+verified the insignificant effect of the variation in the La and Sr atomic 
+concentrations on the porous morphology of the LSM perovskites. The 
+CS ability of each LSM perovskite was examined by performing one, 
+three, and ten thermochemical cycles (at a fixed TH = 1400 ◦C and TL =
+1000 ◦C). Obtained results indicate that the rise in the Sr molar con­
+centration is favorable to improve the TR yield of the LSM perovskites. 
+As the number of cycles increased from two to ten, most of the LSM 
+perovskites reached their thermal stability and produced roughly stable 
+amounts of O2 and CO. The long term thermal cycling (from cycle 2 to 
+cycle 10) shows that the LSM40 perovskite was the best choice in terms 
+of nO2 = 214.8 μmol/g⋅cycle, whereas LSM70 showed the highest ac­
+tivity towards CS reaction (nCO = 342.1 μmol/g⋅cycle). In terms of the 
+re-oxidation ability (nCO/nO2 ratio), the LSM60 was observed to be the 
+most promising choice as it is capable of attaining the highest nCO/nO2 
+ratio = 1.96. All the LSM perovskites (except LSM10) exhibited higher 
+amount of O2 release and CO production when compared with the ceria 
+material. The improved fuel production capacity of the LSM perovskite 
+will result into a higher solar-to-fuel-energy conversion efficiency. 
+CRediT authorship contribution statement 
+Gorakshnath Takalkar: Methodology, Investigation, Data curation, 
+Writing - original draft. Rahul R. Bhosale: Conceptualization, Valida­
+tion, Data curation, Writing - original draft, Writing - review & editing, 
+Project administration, Funding acquisition. Fares AlMomani: Valida­
+tion, Data curation, Writing - original draft, Writing - review & editing. 
+Suliman Rashid: Methodology, Investigation. Hazim Qiblawey: Data 
+curation, Writing - review & editing. Mohammed Ali Saleh Saad: 
+Writing - review & editing. Majeda Khraisheh: Writing - review & 
+editing. Gopalakrishnan Kumar: Writing - original draft. Ram B. 
+Gupta: Writing - original draft. Rajesh V. Shende: Writing - original 
+draft. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgments 
+Open Access funding provided by the Qatar National Library. This 
+publication was made possible by the NPRP grant (NPRP8-370-2-154) 
+from the Qatar National Research Fund (a member of Qatar Founda­
+tion). The statements made herein are solely the responsibility of author 
+(s). 
+References 
+[1] Carrillo RJ, Scheffe JR. Advances and trends in redox materials for solar 
+thermochemical fuel production. Sol Energy 2017;156:3–20. https://doi.org/ 
+10.1016/j.solener.2017.05.032. 
+[2] Bhosale RR, Takalkar G, Sutar P, Kumar A, AlMomani F, Khraisheh M. A decade of 
+ceria based solar thermochemical H2O/CO2 splitting cycle. Int J Hydrogen Energy 
+2019:34–60. https://doi.org/10.1016/j.ijhydene.2018.04.080. 
+[3] Dry ME. The Fischer-Tropsch process: 1950–2000. Catal. Today 2002;71:227–41. 
+https://doi.org/10.1016/S0920-5861(01)00453-9. 
+[4] Bhosale R, Kumar A, Almomani F. Solar thermochemical hydrogen production via 
+terbium oxide based redox reactions. Int J Photoenergy 2016. https://doi.org/ 
+10.1155/2016/9727895. 
+[5] Agrafiotis C, Roeb M, Sattler C. A review on solar thermal syngas production via 
+redox pair-based water/carbon dioxide splitting thermochemical cycles. Renew 
+Sustain Energy Rev 2015;42:254–85. https://doi.org/10.1016/j.rser.2014.09.039. 
+[6] Marxer D, Furler P, Scheffe J, Geerlings H, Falter C, Batteiger V, et al. 
+Demonstration of the entire production chain to renewable kerosene via solar 
+thermochemical splitting of H2O and CO2. Energy Fuels 2015;29:3241–50. 
+https://doi.org/10.1021/acs.energyfuels.5b00351. 
+[7] Koepf E, Alxneit I, Wieckert C, Meier A. A review of high temperature solar driven 
+reactor technology: 25 years of experience in research and development at the Paul 
+Scherrer Institute. Appl Energy 2017. https://doi.org/10.1016/j. 
+apenergy.2016.11.088. 
+[8] Steinfeld A. Solar hydrogen production via a two-step water-splitting 
+thermochemical cycle based on Zn/ZnO redox reactions. Int J Hydrogen Energy 
+2002;27:611–9. https://doi.org/10.1016/S0360-3199(01)00177-X. 
+[9] Bhosale RR. Thermodynamic efficiency analysis of zinc oxide based solar driven 
+thermochemical H2O splitting cycle: Effect of partial pressure of O2, thermal 
+reduction and H2O splitting temperatures. Int J Hydrogen Energy 2018;43: 
+14915–24. https://doi.org/10.1016/j.ijhydene.2018.06.074. 
+[10] Bhosale R, Kumar A, AlMomani F, Gupta RB. Solar thermochemical ZnO/ZnSO4 
+water splitting cycle for hydrogen production. Int J Hydrogen Energy 2017;42: 
+23474–83. https://doi.org/10.1016/j.ijhydene.2017.02.190. 
+[11] Abanades S, Villafan-Vidales HI. CO2 and H2O conversion to solar fuels via two- 
+step solar thermochemical looping using iron oxide redox pair. Chem Eng J 2011; 
+175:368–75. https://doi.org/10.1016/j.cej.2011.09.124. 
+[12] Bhosale RR, Kumar A, Sutar P. Thermodynamic analysis of solar driven SnO2/SnO 
+based thermochemical water splitting cycle. Energy Convers Manag 2017;135: 
+226–35. https://doi.org/10.1016/j.enconman.2016.12.067. 
+[13] Charvin P, Abanades S, Flamant G, Lemort F. Two-step water splitting 
+thermochemical cycle based on iron oxide redox pair for solar hydrogen 
+production. Energy 2007;32:1124–33. https://doi.org/10.1016/j. 
+energy.2006.07.023. 
+[14] Bhosale RR, Kumar A, Van Den Broeke LJP, Gharbia S, Dardor D, Jilani M, et al. 
+Solar hydrogen production via thermochemical iron oxide-iron sulfate water 
+splitting cycle. Int J Hydrogen Energy 2015;40:1639–50. https://doi.org/10.1016/ 
+j.ijhydene.2014.11.118. 
+[15] G´alvez ME, Loutzenhiser PG, Hischier I, Steinfeld A. CO2 splitting via two-step 
+solar thermochemical cycles with Zn/ZnO and FeO/Fe3O4 redox reactions: 
+thermodynamic analysis. Energy Fuels 2008;22:3544–50. https://doi.org/ 
+10.1021/ef800230b. 
+[16] Amar VS, Puszynski JA, Shende RV. H2 generation from thermochemical water- 
+splitting using yttria stabilized NiFe2O4 core-shell nanoparticles. J Renew Sustain 
+Energy 2015;7. https://doi.org/10.1063/1.4915312. 
+[17] Bhosale RR, Alxneit I, Van Den Broeke LLP, Kumar A, Jilani M, Gharbia SS, et al. 
+Sol-gel synthesis of nanocrystalline Ni-ferrite and Co-ferrite redox materials for the 
+rmoche mical production of solar fuels. Mater. Res. Soc. Symp. Proc. 2014;1675: 
+203–8. https://doi.org/10.1557/opl.2014.866. 
+G. Takalkar et al.                                                                                                                                                                                                                               
+
+
+===== Page 9 =====
+
+Fuel 285 (2021) 119154
+9
+[18] Scheffe JR, Li J, Weimer AW. A spinel ferrite/hercynite water-splitting redox cycle. 
+Int J Hydrogen Energy 2010;35:3333–40. https://doi.org/10.1016/j. 
+ijhydene.2010.01.140. 
+[19] Bhosale RR. Thermodynamic analysis of Ni-ferrite based solar thermochemical H 2 
+O splitting cycle for H 2 production. Int J Hydrogen Energy 2019:61–71. https:// 
+doi.org/10.1016/j.ijhydene.2018.03.145. 
+[20] Scheffe JR, Jacot R, Patzke GR, Steinfeld A. Synthesis, characterization, and 
+thermochemical redox performance of Hf4+, Zr4+, and Sc3+ doped ceria for 
+splitting CO2. J Phys Chem C 2013;117:24104–10. https://doi.org/10.1021/ 
+jp4050572. 
+[21] Takalkar GDD, Bhosale RRR, Kumar A, AlMomani F, Khraisheh M, Shakoor RAA, 
+et al. Transition metal doped ceria for solar thermochemical fuel production. Sol 
+Energy 2018. https://doi.org/10.1016/j.solener.2018.03.022. 
+[22] Le Gal A, Abanades S. Catalytic investigation of ceria-zirconia solid solutions for 
+solar hydrogen production. Int J Hydrogen Energy 2011;36:4739–48. https://doi. 
+org/10.1016/j.ijhydene.2011.01.078. 
+[23] Ehrhart BD, Muhich CL, Al-Shankiti I, Weimer AW. System efficiency for two-step 
+metal oxide solar thermochemical hydrogen production – Part 1: Thermodynamic 
+model and impact of oxidation kinetics. Int J Hydrogen Energy 2016;41:19881–93. 
+https://doi.org/10.1016/j.ijhydene.2016.07.109. 
+[24] Muhich CL, Evanko BW, Weston KC, Lichty P, Liang X, Martinek J, et al. Efficient 
+generation of H2 by splitting water with an isothermal redox cycle. Science (80-) 
+2013;341:540–2. doi: 10.1126/science.1239454. 
+[25] Muhich CL, Ehrhart BD, Witte VA, Miller SL, Coker EN, Musgrave CB, et al. 
+Predicting the solar thermochemical water splitting ability and reaction 
+mechanism of metal oxides: A case study of the hercynite family of water splitting 
+cycles. Energy Environ Sci 2015;8:3687–99. https://doi.org/10.1039/c5ee01979f. 
+[26] Dey S, Naidu BS, Rao CNR. Beneficial effects of substituting trivalent ions in the B- 
+site of La0.5Sr0.5Mn1-xAxO3 (A = Al, Ga, Sc) on the thermochemical generation of 
+CO and H2 from CO2 and H2O. Dalt Trans 2016;45:2430–5. https://doi.org/ 
+10.1039/c5dt04822b. 
+[27] Nair MM, Abanades S. Experimental screening of perovskite oxides as efficient 
+redox materials for solar thermochemical CO 2 conversion. Sustain Energy Fuels 
+2018;2:843–54. https://doi.org/10.1039/c7se00516d. 
+[28] Cooper T, Scheffe JR, Galvez ME, Jacot R, Patzke G, Steinfeld A. Lanthanum 
+Manganite Perovskites with Ca/Sr A-site and Al B-site Doping as Effective Oxygen 
+Exchange Materials for Solar Thermochemical Fuel Production. Energy Technol 
+2015;3:1130–42. https://doi.org/10.1002/ente.201500226. 
+[29] Scheffe JR, Weibel D, Steinfeld A. Lanthanum-strontium-manganese perovskites as 
+redox materials for solar thermochemical splitting of H2O and CO2. Energy Fuels 
+2013;27:4250–7. https://doi.org/10.1021/ef301923h. 
+[30] Yang CK, Yamazaki Y, Aydin A, Haile SM. Thermodynamic and kinetic assessments 
+of strontium-doped lanthanum manganite perovskites for two-step thermochemical 
+water splitting. J Mater Chem A 2014;2:13612–23. https://doi.org/10.1039/ 
+c4ta02694b. 
+[31] Demont A, Abanades S. High redox activity of Sr-substituted lanthanum manganite 
+perovskites for two-step thermochemical dissociation of CO2. RSC Adv 2014;4: 
+54885–91. https://doi.org/10.1039/c4ra10578h. 
+[32] Dey S, Rao CNR. Splitting of CO2 by Manganite Perovskites to Generate CO by 
+Solar Isothermal Redox Cycling. ACS Energy Lett 2016;1:237–43. https://doi.org/ 
+10.1021/acsenergylett.6b00122. 
+[33] Dey S, Naidu BS, Rao CNR. Ln0.5A0.5MnO3 (Ln=Lanthanide, A= Ca, Sr) 
+perovskites exhibiting remarkable performance in the thermochemical generation 
+of CO and H2 from CO2 and H2O. Chem - A Eur J 2015;21:7077–81. doi: 10.1002/ 
+chem.201500442. 
+[34] Demont A, Abanades S, Beche E. Investigation of perovskite structures as oxygen- 
+exchange redox materials for hydrogen production from thermochemical two-step 
+water-splitting cycles. J Phys Chem C 2014;118:12682–92. https://doi.org/ 
+10.1021/jp5034849. 
+[35] Bork AH, Povoden-Karadeniz E, Rupp JLM. Modeling Thermochemical Solar-to- 
+Fuel Conversion: CALPHAD for Thermodynamic Assessment Studies of Perovskites, 
+Exemplified for (La, Sr)MnO3. Adv Energy Mater 2017;7. https://doi.org/ 
+10.1002/aenm.201601086. 
+[36] Kuo JH, Anderson HU, Sparlin DM. Oxidation-reduction behavior of undoped and 
+Sr-doped LaMnO3 nonstoichiometry and defect structure. J Solid State Chem 1989; 
+83:52–60. https://doi.org/10.1016/0022-4596(89)90053-4. 
+[37] Mizusaki J, Mori N, Takai H, Yonemura Y, Minamiue H, Tagawa H, et al. Oxygen 
+nonstoichiometry and defect equilibrium in the perovskite-type oxides La1- 
+xSrxMnO3+d. Solid State Ionics 2000;129:163–77. https://doi.org/10.1016/ 
+S0167-2738(99)00323-9. 
+[38] Takalkar G, Bhosale R, AlMomani F. Combustion synthesized A0.5Sr0.5MnO3-δ 
+perovskites (where, A = La, Nd, Sm, Gd, Tb, Pr, Dy, and Y) as redox materials for 
+thermochemical splitting of CO2. Appl Surf Sci 2019;489:80–91. doi: 10.1016/j. 
+apsusc.2019.05.284. 
+[39] Ashok A, Kumar A, Bhosale RR, Almomani F, Saleh Saad MAH, Suslov S, et al. 
+Influence of fuel ratio on the performance of combustion synthesized bifunctional 
+cobalt oxide catalysts for fuel cell application. Int J Hydrogen Energy 2019. 
+https://doi.org/10.1016/j.ijhydene.2018.02.111. 
+[40] Bhosale RR, Takalkar GD. Nanostructured co-precipitated Ce0.9Ln0.1O2 (Ln = La, 
+Pr, Sm, Nd, Gd, Tb, Dy, or Er) for thermochemical conversion of CO2. Ceram Int 
+2018;44:16688–97. doi: 10.1016/j.ceramint.2018.06.096. 
+[41] G´alvez ME, Jacot R, Scheffe J, Cooper T, Patzke G, Steinfeld A. Physico-chemical 
+changes in Ca, Sr and Al-doped La-Mn-O perovskites upon thermochemical 
+splitting of CO2 via redox cycling. Phys Chem Chem Phys 2015;17:6629–34. 
+https://doi.org/10.1039/c4cp05898d. 
+G. Takalkar et al.                                                                                                                                                                                                                               

@@ -1,0 +1,993 @@
+
+
+===== Page 1 =====
+
+ADVANCED NANO MATERIALS
+Co-precipitation synthesized nanostructured
+Ce0.9Ln0.05Ag0.05O22d materials for solar
+thermochemical conversion of CO2 into fuels
+Gorakshnath Takalkar1, Rahul R. Bhosale1,*
+, Fares AlMomani1, and Suliman Rashid1
+1Department of Chemical Engineering, College of Engineering, Qatar University, P. O. Box 2713, Doha, Qatar
+Received: 14 January 2020
+Accepted: 13 March 2020
+Published online:
+27 March 2020
+ The Author(s) 2020
+ABSTRACT
+Synthesis, characterization, and application of Ce0.9Ln0.05Ag0.05O2-d materials
+(where, Ln = La, Pr, Nd, Sm, Gd, Tb, Dy, Er) for the thermochemical conversion
+of CO2 reported in this paper. The Ce0.9Ln0.05Ag0.05O2-d materials were syn-
+thesized by using an ammonium hydroxide-driven co-precipitation method.
+The derived Ce0.9Ln0.05Ag0.05O2-d materials were characterized via powder
+X-ray diffraction, scanning electron microscope, and electron diffraction spec-
+troscopy. The characterization results indicate the formation of spherically
+shaped
+Ce0.9Ln0.05Ag0.05O2-d
+nanostructured
+particles.
+As-prepared
+Ce0.9-
+Ln0.05Ag0.05O2-d materials were further tested toward multiple CO2 splitting
+cycles by utilizing a thermogravimetric analyzer. The results obtained indicate
+that all the Ce0.9Ln0.05Ag0.05O2-d materials produced higher quantities of O2 and
+CO than the previously studied pure CeO2 and lanthanide-doped ceria mate-
+rials. Overall, the Ce0.911La0.053Ag0.047O1.925 showed the maximum redox reac-
+tivity
+in
+terms
+of
+O2
+release
+(72.2 lmol/g cycle)
+and
+CO
+production
+(136.6 lmol/g cycle).
+List of symbols
+nO2
+Moles of O2 (lmol/g)
+nCO
+Moles of CO (lmol/g)
+Dmloss
+Amount of loss in the mass (mg)
+Dmgain
+Amount of gain in the mass (mg)
+MO2
+Molecular weight of O2 (g/mol)
+MO
+Molecular weight of O (g/mol)
+mCe0:9Ln0:05Ag0:05O2d
+Mass of the Ce0:9Ln0:05Ag0:05O2d
+materials (mg)
+Introduction
+The worldwide human population is rising at a quick
+pace, which inherently demands a large amount of
+energy for consumption [1]. Current energy produc-
+tion largely depends on the utilization of fossil fuels.
+The excessive use of petroleum-based resources
+results in a continuous CO2 discharge [2, 3]. This
+constant release of CO2 is considered as one of the
+Address correspondence to E-mail: rahul.bhosale@qu.edu.qa; rrbhosle@yahoo.com
+https://doi.org/10.1007/s10853-020-04567-w
+J Mater Sci (2020) 55:9748–9761
+Advanced Nano Materials
+
+
+===== Page 2 =====
+
+primary reasons for the variation in the climate
+parameters [4]. The environmental distress occurring
+due to increases in CO2 emission generated more
+interest in the conversion of CO2 into value-added
+products.
+One of the possible options for CO2 utilization is to
+convert the captured CO2 into fuels. Solar thermo-
+chemical cycles driven based on the metal oxide
+(MO)-based redox reactions can split CO2 into CO
+(Fig. 1) [5, 6]. The solar CO produced can be com-
+bined with the solar H2 (produced via solar thermo-
+chemical splitting of water) for the manufacturing of
+the solar syngas, which can be further utilized in the
+catalytic Fischer–Tropsch process [7].
+The MO-based solar-driven thermochemical con-
+version of CO2 is a two-phase process. In the ﬁrst
+phase, the MO is reduced with the help of concentrated
+solar power, and in phase 2, the reduced MO is re-
+oxidized again via a CO2 splitting reaction. Zinc oxide
+[8, 9], tin oxide [10, 11], iron oxide [12, 13], CeO2
+[14–16], doped ceria [17–20], ferrites [21–24], per-
+ovskites [25–28], and others [29–32] have been utilized
+for the solar thermochemical conversion of H2O and
+CO2. Among all these, the phase pure CeO2 is consid-
+ered as one of the promising options due to its faster
+reaction kinetics and better thermal stability. Although
+the CeO2 is beneﬁcial for the thermochemical conver-
+sion of H2O and CO2, a lower fuel production capacity
+is one of the major limitations associated with this MO.
+Recently, Bhosale and Takalkar [33] reported that
+the doping of lanthanides such as La, Pr, Nd, Sm, Gd,
+Tb, Dy, and Er into CeO2 ﬂuorite cubic crystal
+structure
+improved
+the
+thermal
+reduction
+(TR)
+capacity of the CeO2. It was also reported that
+although the TR capability of CeO2 was improved,
+only Ce0.9La0.1O2 was capable of producing higher
+quantities of CO than CeO2 via CO2 splitting reaction.
+In another investigation, Takalkar et al. [19] reported
+that the inclusion of Ag in the transition metal-doped
+ceria considerably improved the TR as well as CO2
+splitting (CDS) capacity.
+Based on the results reported in our previous
+investigations, in this study, the synthesis, charac-
+terization, and application of Ce0.9Ln0.05Ag0.05O2-d
+materials (where, Ln = La, Pr, Nd, Sm, Gd, Tb, Dy,
+Er) for the thermochemical conversion of CO2 is
+reported.
+Synthesis
+of
+the
+Ce0.9Ln0.05Ag0.05O2-d
+materials is achieved via a co-precipitation method.
+The derived materials are further tested for multiple
+thermochemical CDS cycles by utilizing a thermo-
+gravimetric analyzer (TGA) setup. The TR and CDS
+capacity of the Ce0.9Ln0.05Ag0.05O2-d materials was
+estimated and compared with the previously studied
+phase
+pure
+CeO2
+and
+lanthanide-doped
+ceria
+materials.
+Experimental
+Preparation and characterization
+of Ce0.9Ln0.05Ag0.05O22d
+Nitrate-based precursors of ceria, silver, and all lan-
+thanides were acquired from Sigma-Aldrich, USA.
+Figure 1 Overall process of production of liquid fuels by using solar syngas generated via MO-based solar thermochemical H2O/CO2
+splitting cycle.
+J Mater Sci (2020) 55:9748–9761
+9749
+
+
+===== Page 3 =====
+
+Aqueous 28% NH3OH as a precipitating agent was
+procured from the same supplier. Ultrapure deion-
+ized (DI) water (produced through Direct-Q system,
+Millipore, France) was utilized for the preparation of
+nitrate solution. An ultrapure grade Ar gas (purity
+99.999%) and 50% CO2 ? 50% Ar gas mixture are
+ordered from the Buzwair Scientiﬁc and Technical
+Gases, Doha, Qatar.
+The
+synthesis
+of
+redox
+Ce0.9Ln0.05Ag0.05O2-d
+materials was achieved via co-precipitation of the
+hydroxide method. As shown in Fig. 2, an aqueous
+mixture of selected metal precursors was prepared by
+dissolving them in 300 ml of deionized water. To this
+mixture, aqueous ammonium hydroxide (28%) was
+added to attain a pH approximately equal to 10. The
+mixture further stirred for 24 h with a maintained
+pH * 10. Once the stirring was stopped, the pre-
+cipitate of Ce0.9Ln0.05Ag0.05O2-d material was allowed
+to settle via gravity (mixture kept undisturbed over-
+night). The next morning, the supernatant liquid was
+decanted, and the obtained precipitate was washed
+several times by deionized water with the help of a
+vacuum ﬁltration unit. The obtained ﬁltered cake of
+Ce0.9Ln0.05Ag0.05O2-d was dried (120 C, 5 h), cru-
+shed, and annealed (Nabertherm Furnace) up to
+1000 C for 4 h in the presence of air. The obtained
+annealed powder was analyzed for the determination
+of the phase/elemental composition and morphology
+by
+using
+Panalytical
+XPert
+powder
+X-ray
+diffractometer (PXRD) and scanning electron micro-
+scope (SEM, Nova Nano 450, FEI) equipped with the
+electron diffraction spectroscopy (EDS).
+CO2 splitting experiments
+The
+Ce0.9Ln0.05Ag0.05O2-d
+materials
+were
+experi-
+mentally tested in a TGA setup (Setaram Instru-
+mentation, France), which is shown in Fig. 3. The
+experimental parameters utilized to perform the
+thermochemical
+cycles
+are
+given
+in
+Table 1.
+Approximately, 50 mg of the calcined Ce0.9Ln0.05-
+Ag0.05O2-d powder was charged in an alumina
+(100 ll) crucible, and then placed inside the heating
+furnace of the TGA. Before performing the TGA
+experiments, the residual air ﬁlling the hollow space
+near to the furnace was evacuated by applying a
+vacuum followed by sweeping by the inert Ar.
+Chilled water (generated by Julabo FC 1600T) was
+utilized to decrease the exiting gas stream tempera-
+ture. Additional details related to the TGA setup and
+the experimental procedure are already described in
+our previous studies [23, 29]. Multiple TR and CDS
+steps were performed by considering the operating
+parameters given in Table 1.
+The mass variations allied with the Ce0.9Ln0.05-
+Ag0.05O2-d materials during the TR and CDS steps
+were documented after subtracting the blank TGA
+experimental data from the actual TGA experimental
+Figure 2 Synthesis of Ce0.9Ln0.05Ag0.05O2-d materials via the co-precipitation method.
+9750
+J Mater Sci (2020) 55:9748–9761
+
+
+===== Page 4 =====
+
+data. The amount of O2 liberated (lmol/g) during the
+TR step and the quantity of CO produced during the
+CDS step are calculated by utilizing Eqs. (1) and (2).
+nO2 ¼
+Dmloss
+MO2  mCe0:9Ln0:05Ag0:05O2d
+
+
+ð1Þ
+nCO ¼
+Dmgain
+MO  mCe0:9Ln0:05Ag0:05O2d
+
+
+ð2Þ
+Results and discussion
+After synthesizing the Ce0.9Ln0.05Ag0.05O2-d materi-
+als, the next important step was to determine the
+phase composition of the derived materials. PXRD
+proﬁles of the calcined Ce0.9Ln0.05Ag0.05O2-d materi-
+als are shown in Fig. 4a, b. The presented patterns
+indicate a cubic ﬂuorite crystal structure of the
+Ce0.9Ln0.05Ag0.05O2-d materials, similar to the one
+reported in the case of CeO2 [23]. The PXRD proﬁles
+shown in Fig. 4a further indicates the absence of the
+formation of any metal or metal oxide impurities. As
+shown in Fig. 4b, the Ce0.9Ln0.05Ag0.05O2-d material
+peaks shift toward either lower or higher 2h angle
+(based on the crystal ionic radii of the dopants). This
+shift in the peaks further conﬁrmed the successful
+incorporation of the dopants inside the ceria ﬂuorite
+crystal structure. The formation of nominally phase
+pure Ce0.9Ln0.05Ag0.05O2-d materials was also assured
+via EDS analysis (results given in Table 2).
+In order to determine the crystallite size, a widely
+used Scherrer equation and the PXRD data associated
+with the Ce0.9Ln0.05Ag0.05O2-d materials were utilized.
+Figure 3 TGA experimental setup.
+Table 1 Experimental conditions used for the TGA experiments
+Parameters
+Value
+Carrier gas
+Ultrapure inert Ar
+Feed gas mixture
+50% CO2 ? 50% Ar
+Flowrate of carrier and feed gas mixture
+100 ml/min
+TR and CDS temperature
+1400 C and 1000 C
+Heating and cooling rate
+25 K/min
+Reaction time for TR and CDS
+60 min and 30 min
+J Mater Sci (2020) 55:9748–9761
+9751
+
+
+===== Page 5 =====
+
+Table 2 indicates that the variation in the crystallite
+size of the Ce0.9Ln0.05Ag0.05O2-d materials does not
+follow any speciﬁc trend. As per the obtained results,
+the Ce0.9Ln0.05Ag0.05O2-d materials can be arranged as
+follows based on their average crystallite size: La5-
+Ag5Ce [ Dy5Ag5Ce [ Sm5Ag5Ce [ Pr5Ag5Ce [ Tb5-
+Ag5Ce [ Gd5Ag5Ce [ Er5Ag5 Ce [ Nd5Ag5Ce.
+After estimating the composition and crystallite
+size of each Ce0.9Ln0.05Ag0.05O2-d material, the mor-
+phology was scrutinized by performing the SEM
+analysis. The SEM images obtained looks very similar
+to each other and indicate the formation of roughly
+spherical
+particles
+of
+Ce0.9Ln0.05Ag0.05O2-d.
+The
+microscopic SEM analysis further conﬁrmed that the
+particles were agglomerated. It was also observed
+that the average particle size was very close to the
+crystallite sizes given in Table 2. The representative
+SEM images of Pr5Ag5Ce, Tb5Ag5Ce, Gd5Ag5Ce, and
+Er5Ag5Ce are shown in Fig. 5.
+The redox performance of the Ce0.9Ln0.05Ag0.05O2-d
+materials is estimated by performing the thermo-
+chemical CDS experiments using the TGA setup.
+Ce0.9Ln0.05Ag0.05O2-d materials thermally reduced at
+1400 C (10 K/min) for 60 min in the presence of the
+inert
+Ar
+(100 ml/min)
+and
+then
+re-oxidized
+at
+1000 C by using a feed gas mixture containing 50%
+CO2 ? 50% Ar (100 ml/min). As an example, Fig. 6
+represents a TGA proﬁle of La5Ag5Ce material
+obtained during the ﬁrst CDS cycle. As shown in
+Fig. 6, during the TR step, the mass of the La5Ag5Ce
+material reduced by 0.511 mg, and during the CDS
+step, the weight of the La5Ag5Ce material increased
+by 0.126 mg. These mass variations further converted
+into respective redox performances in terms of nO2
+released
+(320.2 lmol/g)
+and
+nCO
+produced
+(157.8 lmol/g) by using Eqs. (1) and (2).
+The mass variations associated with the Ce0.9-
+Ln0.05Ag0.05O2-d materials recorded during the ﬁrst
+cycle are shown in Fig. 7a, b. The nO2 released and
+nCO produced by each Ce0.9Ln0.05Ag0.05O2-d material
+was computed based on the obtained TGA proﬁles
+and given in Table 3. The data given in Table 3 show
+that the Pr5Ag5Ce was capable of releasing a higher
+amount of O2 at 1400 C than the other Ce0.9Ln0.05-
+Ag0.05O2-d materials. Likewise, the CO production
+aptitude of La5Ag5Ce was the uppermost when
+compared with the remaining Ce0.9Ln0.05Ag0.05O2-d
+materials. The numbers listed in the nCO=nO2 ratio
+column shows that the re-oxidation ability of the
+Figure 4 PXRD patterns of the Ce0.9Ln0.05Ag0.05O2-d materials.
+9752
+J Mater Sci (2020) 55:9748–9761
+
+
+===== Page 6 =====
+
+Nd5Ag5Ce was better than the other Ce0.9Ln0.05-
+Ag0.05O2-d materials.
+Interesting to note that the nCO produced by each
+Ce0.9Ln0.05Ag0.05O2-d
+material
+was
+considerably
+lower than the nO2 released during the ﬁrst cycle. The
+two probable reasons for these results are (a) poor re-
+oxidation
+ability
+of
+the
+Ce0.9Ln0.05Ag0.05O2-d
+materials or (b) additional mass loss during the ﬁrst
+TR reduction due to the release of volatile chemicals
+from
+the
+Ce0.9Ln0.05Ag0.05O2-d
+materials
+(which
+remained unburnt during the calcination step). For
+further investigation of this matter, the Ce0.9Ln0.05-
+Ag0.05O2-d materials were tested for three cycles (by
+maintaining the same operating conditions utilized in
+Table 2 Abbreviations, chemical composition, crystallite size, and cell parameter of each Ce0.9Ln0.05Ag0.05O2-d material
+Abbreviations
+Ce0.9Ln0.05Ag0.05O2-d composition (via EDS)
+Crystallite size (nm)
+Cell parameter (A˚ )
+La5Ag5Ce
+Ce0.911La0.053Ag0.047O1.925
+63.1
+5.434
+Pr5Ag5Ce
+Ce0.892Pr0.051Ag0.051O1.886
+46.6
+5.411
+Nd5Ag5Ce
+Ce0.921Nd0.049Ag0.050O1.940
+32.3
+5.417
+Sm5Ag5Ce
+Ce0.896Sm0.048Ag0.053O1.890
+60.2
+5.421
+Gd5Ag5Ce
+Ce0.889Gd0.054Ag0.050O1.884
+39.4
+5.389
+Tb5Ag5Ce
+Ce0.905Tb0.051Ag0.046O1.909
+41.3
+5.410
+Dy5Ag5Ce
+Ce0.910Dy0.053Ag0.048O1.923
+61.5
+5.411
+Er5Ag5Ce
+Ce0.899Er0.050Ag0.055O1.900
+38.1
+5.411
+Figure 5 SEM images of
+Pr5Ag5Ce, Tb5Ag5Ce,
+Gd5Ag5Ce, and Er5Ag5Ce.
+J Mater Sci (2020) 55:9748–9761
+9753
+
+
+===== Page 7 =====
+
+the case of the ﬁrst cycle). Figure 8 shows the varia-
+tions in the mass of the Ce0.9Ln0.05Ag0.05O2-d mate-
+rials during the successive three thermochemical
+cycles. Besides, Fig. 9a and b compares the nO2
+released and nCO
+produced by each Ce0.9Ln0.05-
+Ag0.05O2-d material from cycle 1 to cycle 3.
+Figures 8 and 9 show that the nO2 released by all
+the Ce0.9Ln0.05Ag0.05O2-d materials during cycle 1
+was considerably higher than cycle 2. For example,
+the nO2 released by La5Ag5Ce, Nd5Ag5Ce, Gd5Ag5Ce,
+and Dy5Ag5Ce in cycle 2 was lower by 77.9%, 64.6%,
+76.6%, and 80.0% as compared to cycle 1. The com-
+parison between cycle 2 and cycle 3 shows a different
+story. The nO2 released by all the Ce0.9Ln0.05Ag0.05-
+O2-d materials in cycle 3 was slightly less when
+compared to cycle 2. For instance, the nO2 released by
+La5Ag5Ce, Nd5Ag5Ce, Gd5Ag5Ce, and Dy5Ag5Ce in
+cycle 3 was lower by 2.0%, 0.0%, 14.8%, and 1.8%
+than cycle 2. Based on the results given in Figs. 8 and
+9, it can be concluded that the prime reason for the
+more substantial O2 evolution in cycle 1 was the
+additional loss in the mass of the Ce0.9Ln0.05Ag0.05-
+O2-d
+materials
+due
+to
+the
+release
+of
+volatile
+chemicals.
+In the case of the CDS step, the nCO produced by
+each Ce0.9Ln0.05Ag0.05O2-d material ﬁrst decreased in
+cycle 2 (compared to cycle 1) and remained approx-
+imately stable in cycle 3 (compared to cycle 2). For
+example, the nCO produced by La5Ag5Ce, Nd5Ag5Ce,
+Gd5Ag5Ce, and Dy5Ag5Ce in cycle 2 was 11.1%,
+20.0%, 7.4%, and 24.5% lower than cycle 1. In con-
+trast, the %decrease in the nCO produced by La5Ag5-
+Ce, Nd5Ag5Ce, Gd5Ag5Ce, and Dy5Ag5Ce in cycle 3
+was dropped to 1.1%, 0.5%, 0.9%, and 1.2% when
+compared with the cycle 2 data. The nCO=nO2 ratio of
+all the Ce0.9Ln0.05Ag0.05O2-d materials increased sig-
+niﬁcantly in cycle 2 when compared with cycle 1. For
+instance, the nCO=nO2 ratio of La5Ag5Ce, Nd5Ag5Ce,
+Figure 6 Exempliﬁed TGA
+proﬁle of La5Ag5Ce material
+during the ﬁrst CDS cycle.
+9754
+J Mater Sci (2020) 55:9748–9761
+
+
+===== Page 8 =====
+
+Gd5Ag5Ce, and Dy5Ag5Ce increased by 1.49, 1.01,
+1.13, and 1.09 in cycle 2 when compared with cycle 1.
+The nCO=nO2 ratio of all the Ce0.9Ln0.05Ag0.05O2-d
+materials in cycle 2 and cycle 3 were almost identical.
+The results obtained during cycle 3 indicate that
+most of the Ce0.9Ln0.05Ag0.05O2-d materials are mov-
+ing toward achieving a stable redox reactivity. For
+attaining further conﬁrmation about the stable redox
+reactivity, the Ce0.9Ln0.05Ag0.05O2-d materials were
+tested for ten successive cycles. The TGA proﬁles
+associated with the ten cycles are shown in Fig. 10. It
+was already conﬁrmed that the data obtained in cycle
+1 is misleading, and hence the TGA analysis was
+more focused on the remaining nine cycles. The nO2
+Figure 7 TGA proﬁles obtained for Ce0.9Ln0.05Ag0.05O2-d materials during a ﬁrst TR step and b ﬁrst CDS step.
+Table 3 Redox performance
+of Ce0.9Ln0.05Ag0.05O2-d
+materials during the ﬁrst cycle
+Ce0.9Ln0.05Ag0.05O2-d
+nO2 released (lmol/g)
+nCO produced (lmol/g)
+nCO=nO2 ratio
+La5Ag5Ce
+320.0
+157.8
+0.49
+Pr5Ag5Ce
+548.6
+152.7
+0.28
+Nd5Ag5Ce
+191.0
+153.5
+0.80
+Sm5Ag5Ce
+195.3
+125.9
+0.64
+Gd5Ag5Ce
+326.5
+125.0
+0.38
+Tb5Ag5Ce
+212.3
+139.7
+0.66
+Dy5Ag5Ce
+365.8
+143.9
+0.39
+Er5Ag5Ce
+415.4
+134.1
+0.32
+J Mater Sci (2020) 55:9748–9761
+9755
+
+
+===== Page 9 =====
+
+released and nCO
+produced by each Ce0.9Ln0.05-
+Ag0.05O2-d material from cycle 2 to cycle 10 are
+shown in Figs. 11 and 12.
+As per the data given in Fig. 11, the La5Ag5Ce,
+Pr5Ag5Ce, and Nd5Ag5Ce shows a stable release of
+O2 from cycle 2 to cycle 10. The Gd5Ag5Ce indicates
+redox stability in terms of constant O2 release from
+cycle 3 to cycle 10. For the rest of the Ce0.9Ln0.05-
+Ag0.05O2-d
+materials,
+i.e.,
+Sm5Ag5Ce,
+Tb5Ag5Ce,
+Dy5Ag5Ce, and Er5Ag5Ce, a steady nO2 evolution was
+realized after cycle 5 or cycle 6. In terms of average
+nO2 released from cycle 2 to cycle 10, La5Ag5Ce
+(72.2 lmol of O2/g cycle) and Tb5Ag5Ce (60.2 lmol
+of O2/g cycle) were observed to be the best and worst
+among all the Ce0.9Ln0.05Ag0.05O2-d materials.
+As shown in Fig. 12, the La5Ag5Ce, Pr5Ag5Ce,
+Nd5Ag5Ce, Gd5Ag5Ce, and Dy5Ag5Ce showed a
+stable production of CO from cycle 2 to cycle 10. In
+contrast, a constant nCO production in the case of
+Sm5Ag5Ce, Tb5Ag5Ce, and Er5Ag5Ce was noticed
+from cycle 6 to cycle 10. In terms of the average nCO
+produced from cycle 2 to cycle 10, the Ce0.9Ln0.05
+Ag0.05O2-d materials can be arranged as: La5Ag5
+Ce [ Nd5Ag5Ce * Pr5Ag5Ce [ Gd5Ag5Ce [ Tb5Ag5
+Ce [ Sm5Ag5Ce * Er5Ag5Ce [ Dy5Ag5Ce.
+According to the data given in Fig. 13, the re-oxida-
+tion ability (average nCO / nO2 ratio) of the La5Ag5Ce
+and Tb5Ag5Ce was the highest as compared to the
+rest of the Ce0.9Ln0.05Ag0.05O2-d materials. Based on
+nO2 released and nCO produced from cycle 2 to cycle
+10, the La5Ag5Ce appears to be the most excellent
+candidate among all the Ce0.9Ln0.05Ag0.05O2-d mate-
+rials investigated in this study.
+Table 4 reports the comparison of Ce0.9Ln0.05-
+Ag0.05O2-d materials with the CeO2 and Ce0.9Ln0.1O2
+materials. The results given in Table 4 shows that all
+the Ce0.9Ln0.05Ag0.05O2-d materials were capable of
+higher nO2 release (except for Sm5Ag5Ce) and nCO
+production
+than
+CeO2
+and
+their
+corresponding
+Ce0.9Ln0.1O2 materials. For instance, the nO2 released
+by La5Ag5Ce, Pr5Ag5Ce, Nd5Ag5Ce, Gd5Ag5Ce, Tb5-
+Ag5Ce, Dy5Ag5Ce, and Er5Ag5Ce was higher by
+21.8 lmol of O2/g cycle, 23.1 lmol of O2/g cycle,
+23.0 lmol of O2/g cycle, 18.6 lmol of O2/g cycle,
+0.20 lmol of O2/g cycle, 12.1 lmol of O2/g cycle,
+and 8.50 lmol of O2/g cycle as compared to Ce0.9-
+La0.1O2,
+Ce0.9Pr0.1O2,
+Ce0.9Nd0.1O2,
+Ce0.9Gd0.1O2,
+Ce0.9Tb0.1O2, Ce0.9Dy0.1O2, and Ce0.9Er0.1O2, respec-
+tively. Similarly, the La5Ag5Ce, Pr5Ag5Ce, Nd5Ag5Ce,
+Sm5Ag5Ce, Gd5Ag5Ce, Tb5Ag5Ce, Dy5Ag5Ce, and
+Figure 8 TGA proﬁles
+obtained for
+Ce0.9Ln0.05Ag0.05O2-d
+materials during three cycles.
+9756
+J Mater Sci (2020) 55:9748–9761
+
+
+===== Page 10 =====
+
+Er5Ag5Ce produced 1.39, 1.44, 1.52, 1.32, 1.49, 1.43,
+1.29, and 1.37 times higher CO when compared with
+the Ce0.9La0.1O2, Ce0.9Pr0.1O2, Ce0.9Nd0.1O2, Ce0.9-
+Sm0.1O2, Ce0.9Gd0.1O2, Ce0.9Tb0.1O2, Ce0.9Dy0.1O2, and
+Ce0.9Er0.1O2, respectively. The overall results of this
+investigation indicate that the incorporation of Ag in
+the Ln-doped ceria was beneﬁcial to improve the
+redox
+performance
+of
+Ce0.9Ln0.05Ag0.05O2-d
+materials.
+Summary and conclusions
+The PXRD and EDS analysis have conﬁrmed the
+formation of nominally phase pure Ce0.9Ln0.05Ag0.05-
+O2-d materials via co-precipitation of the hydroxide
+method. The average crystallite size of the derived
+Ce0.9Ln0.05Ag0.05O2-d materials was in the range of
+32–64 nm. The SEM analysis further established a
+Figure 9 a nO2 released and
+b nCO produced by
+Ce0.9Ln0.05Ag0.05O2-d
+materials during three cycles.
+J Mater Sci (2020) 55:9748–9761
+9757
+
+
+===== Page 11 =====
+
+spherical nanostructured particle morphology of the
+Ce0.9Ln0.05Ag0.05O2-d materials. The SEM analysis
+also indicates that the doping of the lanthanides and
+silver does not have any signiﬁcant effect on the
+morphology of Ce0.9Ln0.05Ag0.05O2-d materials. Based
+on the results associated with the TGA analysis, the
+redox reactivity of the Ce0.9Ln0.05Ag0.05O2-d materials
+can
+be
+ranked
+as:
+Ce0.911La0.053Ag0.047O1.925
+[ Ce0.921Nd0.049Ag0.050O1.940 * Ce0.892Pr0.051Ag0.051
+O1.886 [ Ce0.889Gd0.054Ag0.050O1.884 [ Ce0.905Tb0.051
+Figure 10 TGA proﬁles
+obtained during ten successive
+cycles performed using
+Ce0.9Ln0.05Ag0.05O2-d
+materials.
+Figure 11 nO2 released by
+Ce0.9Ln0.05Ag0.05O2-d
+materials during ten successive
+cycles.
+9758
+J Mater Sci (2020) 55:9748–9761
+
+
+===== Page 12 =====
+
+Ag0.046O1.909 [ Ce0.896Sm0.048Ag0.053O1.890 * Ce0.899
+Er0.050Ag0.055O1.900 [ Ce0.910Dy0.053Ag0.048O1.923.
+The
+TGA results also indicate that the Ce0.911La0.053
+Ag0.047O1.925 and Ce0.905Tb0.051Ag0.046O1.909 possess
+the highest re-oxidation ability as compared to the
+rest of the Ce0.9Ln0.05Ag0.05O2-d materials. The over-
+all results of this investigation indicate that the
+inclusion of Ag into the Ln-doped ceria considerably
+improved the O2 releasing and CO production
+capability of the Ce0.9Ln0.05Ag0.05O2-d materials as
+compared to the phase pure CeO2 and Ce0.9Ln0.1O2
+materials.
+After
+estimating
+the
+CO
+production
+capacity, our research team is currently focused on
+the production of H2 by using the Ce0.9Ln0.05Ag0.05
+O2-d materials.
+Figure 12 nCO produced by
+Ce0.9Ln0.05Ag0.05O2-d
+materials during ten successive
+cycles.
+Figure 13 Average nCO=nO2
+ratio of the
+Ce0.9Ln0.05Ag0.05O2-d
+materials.
+J Mater Sci (2020) 55:9748–9761
+9759
+
+
+===== Page 13 =====
+
+Acknowledgments
+Open Access funding provided by the Qatar National
+Library. This publication was made possible by the
+NPRP
+Grant
+(NPRP8-370-2-154)
+from
+the
+Qatar
+National Research Fund (a member of Qatar Foun-
+dation). The statements made herein are solely the
+responsibility of author(s). The authors also grate-
+fully acknowledge the Center of Advances Materials
+(CAM) at Qatar University for carrying out XRD
+analysis and the Central Laboratory Unit (CLU) for
+services related to scanning electron microscopy.
+Compliance with ethical standards
+Conﬂict of interest
+The authors declare that they
+have no conﬂict of interest.
+Open Access
+This article is licensed under a Crea-
+tive Commons Attribution 4.0 International License,
+which permits use, sharing, adaptation, distribution
+and reproduction in any medium or format, as long
+as
+you
+give
+appropriate
+credit
+to
+the
+original
+author(s) and the source, provide a link to the Crea-
+tive Commons licence, and indicate if changes were
+made. The images or other third party material in this
+article are included in the article’s Creative Commons
+licence, unless indicated otherwise in a credit line to
+the material. If material is not included in the article’s
+Creative Commons licence and your intended use is
+not permitted by statutory regulation or exceeds the
+permitted use, you will need to obtain permission
+directly from the copyright holder. To view a copy of
+this licence, visit http://creativecommons.org/licen
+ses/by/4.0/.
+References
+[1]
+Varghese OK, Paulose M, LaTempa TJ, Grimes CA (2009)
+High-rate solar photocatalytic conversion of CO2 and water
+vapor to hydrocarbon fuels. Nano Lett 9:731–737
+[2]
+Patil GN, Vaidya PD, Kenig EY (2011) Reaction kinetics of
+CO2 in aqueous methyl-and dimethylmonoethanolamine
+solutions. Ind Eng Chem Res 51:1592–1600
+[3]
+Bhosale RR, Mahajani VV (2013) Kinetics of thermal
+degradation of renewably prepared amines useful for ﬂue gas
+treatment. J Renew Sustain Energy 5:063110
+[4]
+Anderson TR, Hawkins E, Jones PD (2016) CO2, the
+greenhouse effect and global warming: from the pioneering
+work of Arrhenius and Callendar to today’s Earth System
+Models. Endeavour 40:178–187
+[5]
+Carrillo RJ, Scheffe JR (2017) Advances and trends in redox
+materials for solar thermochemical fuel production. Sol
+Energy 156:3–20
+[6]
+Koepf E, Alxneit I, Wieckert C, Meier A (2017) A review of
+high temperature solar driven reactor technology: 25 years of
+experience in research and development at the Paul Scherrer
+Institute. Appl Energy 188:620–651
+[7]
+Dry ME (2002) The ﬁscher–tropsch process: 1950–2000.
+Catal Today 71:227–241
+Table 4 Comparison between
+the pure CeO2-d,
+Ce0.9Ln0.1O2-d, and
+Ce0.9Ln0.05Ag0.05O2-d [19,33]
+Materials
+nO2 released (lmol/g cycle)
+nCO produced (lmol/g cycle)
+CeO2
+47.7
+94.9
+La5Ag5Ce
+72.2
+136.6
+Ce0.9La0.1O2
+50.4
+98.0
+Pr5Ag5Ce
+69.7
+124.3
+Ce0.9Pr0.1O2
+46.6
+86.2
+Nd5Ag5Ce
+66.5
+124.5
+Ce0.9Nd0.1O2
+43.5
+82.1
+Sm5Ag5Ce
+61.8
+113.3
+Ce0.9Sm0.1O2
+69.9
+85.8
+Gd5Ag5Ce
+65.3
+115.4
+Ce0.9Gd0.1O2
+46.7
+77.2
+Tb5Ag5Ce
+60.2
+114.0
+Ce0.9Tb0.1O2
+60.0
+80.0
+Dy5Ag5Ce
+65.3
+112.6
+Ce0.9Dy0.1O2
+53.2
+87.3
+Er5Ag5Ce
+70.5
+113.3
+Ce0.9Er0.1O2
+62.0
+82.5
+9760
+J Mater Sci (2020) 55:9748–9761
+
+
+===== Page 14 =====
+
+[8]
+Bhosale RR (2018) Thermodynamic efﬁciency analysis of
+zinc oxide based solar driven thermochemical H2O splitting
+cycle: effect of partial pressure of O2, thermal reduction and
+H2O
+splitting
+temperatures.
+Int
+J
+Hydrog
+Energy
+43:14915–14924
+[9]
+Abanades S, Charvin P, Flamant G (2007) Design and sim-
+ulation of a solar chemical reactor for the thermal reduction
+of metal oxides: case study of zinc oxide dissociation. Chem
+Eng Sci 62:6323–6333
+[10] Bhosale RR, Kumar A, Sutar P (2017) Thermodynamic
+analysis of solar driven SnO2/SnO based thermochemical
+water splitting cycle. Energy Convers Manag 135:226–235
+[11] Chambon M, Abanades S, Flamant G (2011) Thermal dis-
+sociation of compressed ZnO and SnO2 powders in a mov-
+ing-front
+solar
+thermochemical
+reactor.
+AIChE
+J
+57:2264–2273
+[12] Scheffe JR et al (2011) Hydrogen production via chemical
+looping redox cycles using atomic layer deposition-synthe-
+sized
+iron
+oxide
+and
+cobalt
+ferrites.
+Chem
+Mater
+23:2030–2038
+[13] Cho WC et al (2012) Reactivity of iron oxide as an oxygen
+carrier for chemical-looping hydrogen production. Int J
+Hydrog Energy 37:16852–16863
+[14] Chueh WC, Haile SM (2010) A thermochemical study of
+ceria: exploiting an old material for new modes of energy
+conversion and CO2 mitigation. Philos Trans A Math Phys
+Eng Sci 368:3269–3294
+[15] Bhosale RR et al (2019) A decade of ceria based solar
+thermochemical H2O/CO2 splitting cycle. Int J Hydrog
+Energy 44:34–60
+[16] Ackermann S, Scheffe JR, Steinfeld A (2014) Diffusion of
+oxygen in ceria at elevated temperatures and its application
+to H2O/CO2 splitting thermochemical redox cycles. J Phys
+Chem C 118:5216–5225
+[17] Scheffe JR, Jacot R, Patzke GR, Steinfeld A (2013) Syn-
+thesis, characterization, and thermochemical redox perfor-
+mance of Hf4, Zr4, and Sc3 doped ceria for splitting CO2.
+J Phys Chem C 117:24104–24114
+[18] Le Gal A, Abanades S (2011) Catalytic investigation of
+ceria-zirconia solid solutions for solar hydrogen production.
+Int J Hydrog Energy 36:4739–4748
+[19] Takalkar G et al (2018) Transition metal doped ceria for solar
+thermochemical fuel production. Sol Energy 172:204–211
+[20] Muhich CL et al (2013) Efﬁcient generation of H2 by
+splitting water with an isothermal redox cycle. Science
+341:540–542
+[21] Shende RV, Puszynski JA, Opoku MK, Bhosale RR (2009)
+Synthesis of novel ferrite foam material for water-splitting
+application. In: Proceedings of NSTIdNanotech conference
+& expo., ISBN, 2009
+[22] Bhosale RR, Shende RV, Puszynski JA (2012) Sol-gel
+derived NiFe2O4 modiﬁed with ZrO2 for hydrogen genera-
+tion from solar thermochemical water-splitting reaction. In:
+MRS online proceedings library archive, vol 1387
+[23] Agraﬁotis C, Zygogianni A, Pagkoura C, Kostoglou M,
+Konstandopoulos AG (2013) Hydrogen production via solar-
+aided water splitting thermochemical cycles with nickel
+ferrite: experiments and modeling. AIChE J 59:1213–1225
+[24] Scheffe JR, Li J, Weimer AW (2010) A spinel ferrite/her-
+cynite water-splitting redox cycle. Int J Hydrog Energy
+35:3333–3340
+[25] Scheffe JR, Weibel D, Steinfeld A (2013) Lanthanum–
+strontium–manganese perovskites as redox materials for
+solar thermochemical splitting of H2O and CO2. Energy
+Fuels 27:4250–4257
+[26] Dey S, Naidu B, Govindaraj A, Rao C (2015) Noteworthy
+performance of La1–x Cax MnO3 perovskites in generating
+H2 and CO by the thermochemical splitting of H2 O and
+CO2. Phys Chem Chem Phys 17:122–125
+[27] Bhosale RR et al (2017) La-based perovskites as oxygen-
+exchange redox materials for solar syngas production. MRS
+Adv 2:3365–3370
+[28] Ga´lvez M et al (2015) Physico-chemical changes in Ca, Sr
+and Al-doped La–Mn–O perovskites upon thermochemical
+splitting of CO2 via redox cycling. Phys Chem Chem Phys
+17:6629–6634
+[29] Bhosale RR, Kumar A, AlMomani F, Ghosh U, Khraisheh
+M
+(2017)
+A
+comparative
+thermodynamic
+analysis
+of
+samarium and erbium oxide based solar thermochemical
+water splitting cycles. Int J Hydrog Energy 42:23416–23426
+[30] Bhosale R et al (2016) Solar hydrogen production via a
+samarium oxide-based thermochemical water splitting cycle.
+Energies 9:316
+[31] Bhosale RR et al (2016) Solar hydrogen production via
+erbium oxide based thermochemical water splitting cycle.
+J Renew Sustain Energy 8:034702
+[32] Bhosale R, Kumar A, AlMomani F (2016) Solar thermo-
+chemical hydrogen production via terbium oxide based
+redox reactions. Int J Photoenergy. https://doi.org/10.1155/
+2016/9727895
+[33] Bhosale R, Takalkar G (2018) Nanostructured co-precipi-
+tated Ce0.9Ln0.1O2 (Ln = La, Pr, Sm, Nd, Gd, Tb, Dy, or Er)
+for
+thermochemical
+conversion
+of
+CO2.
+Ceram
+Int
+44:16688–16697
+Publisher’s Note
+Springer Nature remains neutral with
+regard to jurisdictional claims in published maps and
+institutional afﬁliations.
+J Mater Sci (2020) 55:9748–9761
+9761

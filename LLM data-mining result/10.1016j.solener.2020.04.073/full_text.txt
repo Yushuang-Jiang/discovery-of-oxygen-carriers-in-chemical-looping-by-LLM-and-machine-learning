@@ -1,0 +1,967 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Solar Energy
+journal homepage: www.elsevier.com/locate/solener
+Improving the redox performance of Mn2O3/Mn3O4 pair by Si doping to be
+used as thermochemical energy storage for concentrated solar power plants
+Daniel Bielsaa,b,⁎, Abdelali Zakia, Pedro L. Ariasb, Abdessamand Faika,⁎
+a CIC Energigune, Albert Einstein 48, 01510 Miñano, Álava, Spain
+b University of the Basque Country (UPV/EHU), calle Alameda Urquijo s/n, 48013 Bilbao, Spain
+A R T I C L E I N F O
+Keywords:
+Thermochemical energy storage
+Doped metal oxides
+Redox reaction
+Concentrated solar power plant
+Sintering inhibition
+A B S T R A C T
+Thermal energy storage plays a signiﬁcant role in concentrated solar power plants. Particularly, thermochemical
+energy storage has been proposed as a promising future candidate due to its high energy density. One of the most
+studied thermochemical reactions for this application are redox reactions using metallic oxides. The simplicity of
+using air as heat transfer ﬂuid and reactant comprises important advantages. Among the studied materials,
+Mn2O3 has been deeply investigated due to its low cost and toxicity, although its reversibility has been shown to
+be highly deteriorated when exposed to high temperatures. The main negative eﬀects found in the material are
+grain growth and densiﬁcation, known as sintering, causing cyclability loss. Doping of ceramic materials has
+been proven to be an eﬀective technique to control the sintering eﬀects caused by high temperatures, especially
+in the production of metallurgical products. In this work, the eﬀect of doping Mn2O3 with Si4+ as a sintering
+inhibitor for thermochemical energy storage has been studied deeply for the ﬁrst time. The capacity to withstand
+40 redox cycles with diﬀerent quantities of dopant using two diﬀerent synthesis routes was tested by TGA
+analysis. As a main result, dopant segregation on the grain boundaries caused a noticeable reduction of the grain
+growth and particle shrinkage. Additionally, all the doped samples presented a re-oxidation rate improvement.
+These two eﬀects worked in a synergetic way providing a noticeable improvement on the cycling behavior of the
+material, which was particularly improved for low Si content (x = 0.02) using sol-gel synthesis method.
+1. Introduction
+Due to continuous population growth and environmental concern,
+renewable energy sources have become of main interest for clean en-
+ergy production in recent years. Among these technologies, con-
+centrated solar power (CSP) plants transform sunlight into electrical
+energy in a two-step process, which involves sunlight to heat and heat
+to electricity. One of the main advantages of this process is the possi-
+bility of storing great amounts of heat at a reasonable cost, enabling
+energy storage to be used after sunset. Taking into account that in the
+coming years, renewable energy sources will represent the majority of
+energy sources and they cannot be managed, energy storage becomes
+one of the most important issues that must be adequately resolved.
+Thermochemical energy storage (TCES) is in the early stages of
+development and still presents unresolved issues, but nevertheless, its
+high energy density has aroused the interest of the scientiﬁc commu-
+nity, which is making great eﬀorts to overcome the deﬁciencies of this
+technology. With respect to CSP applications, there is a great interest on
+materials for working temperatures beyond the molten salt degradation
+temperature (≈600 °C), which would allow to increase the overall ef-
+ﬁciency of the heat to electricity conversion. Diﬀerent types of re-
+versible reactions have been considered where the solid-gas reactions
+were extensively investigated due to some additional advantages. The
+main ones are an easy separation of the reactants and the possibility of
+adjusting the equilibrium reaction temperature controlling the partial
+pressure of the gas involved in the reaction (Chen et al., 2018). Among
+them, reduction-oxidation reversible reactions (redox) of metal oxides
+have been considered as one of the best candidates. Their main ad-
+vantage is that they can work in open conditions, using natural air as
+both the heat transfer ﬂuid and as the reactant and consequently, de-
+creasing the complexity and the overall cost of the system. Wong et al.
+carried out a complete screening of redox materials to ﬁnd those cap-
+able of overcoming the main barrier to date, which was the poor re-
+oxidation kinetics of the materials (Wong, 2010). Among several can-
+didates, the authors investigated the redox improvement of Mn2O3 (Eq.
+(1)), which was one of the most studied materials.
+↔
++
+Mn O
+Mn O
+O
+6
+4
+2
+3
+3
+4
+2
+(1)
+https://doi.org/10.1016/j.solener.2020.04.073
+Received 17 July 2019; Received in revised form 11 November 2019; Accepted 22 April 2020
+⁎ Corresponding authors at: CIC Energigune, Albert Einstein 48, 01510 Miñano, Álava, Spain (D. Bielsa).
+E-mail addresses: dbielsa@cicenergigune.com (D. Bielsa), afaik@cicenergigune.com (A. Faik).
+Solar Energy 204 (2020) 144–154
+Available online 29 April 2020
+0038-092X/ © 2020 International Solar Energy Society. Published by Elsevier Ltd. All rights reserved.
+T
+
+
+===== Page 2 =====
+
+In the same study, it was found that this pure material presented
+only a re-oxidation of 6% and the resulting structure was dense and
+highly sintered (Wong, 2010). However, Wong et al. demonstrated that
+10–15% of iron addition may improve the redox performance of the
+oxide, obtaining lower sintering degree and maintaining almost 90% of
+the TES capacity after a 500 cycles test (Wong, 2010). Considering the
+lower cost and toxicity compared to other redox candidates, Mn2O3 was
+further investigated by other authors, following the iron addition ap-
+proach to improve the oxidation rate, considered as a key factor to
+ensure long-term viability. In this regard, A. J. Carrillo et al. studied the
+cycling performance of several samples with diﬀerent quantities of iron,
+ranging from 0 to 40%, ﬁnding a similar improvement in the cycling
+response. However, it was observed that the reaction onset temperature
+increases with iron addition, from 948 °C to 1008 °C for an iron content
+of 40%. In general, the samples showed a slight oxidation rate decay
+during cycling, which was attributed to the high degree of sintering,
+counteracted at some extent by the iron addition (Carrillo et al.,
+2015a,b). In a following work, the same authors attributed this oxida-
+tion rate improvement to an enlargement and weakening of the Mn-O
+bonds, due to lattice distortion caused by the smaller Fe2+ radius
+(Carrillo et al., 2016). The cycling improvement and the reaction
+temperature increase due to iron addition were also conﬁrmed later by
+Block and Schmücker (2016), André et al. (2017) and Wokon et al.
+(2017), identifying materials with diﬀerent iron contents in each work
+as the best candidates by assessing the reaction enthalpy and reversi-
+bility. These diﬀerences might be caused by using diﬀerent testing in-
+struments and temperature programs. Another promising approach was
+reported by F. Varsano et al. consisting in using lithium manganese
+oxides, which presented a remaining 90% TES capacity after 45 redox
+cycles with a slight increase on the reaction temperatures, but with no
+substantial changes in the structural morphology of the grains (Varsano
+et al., 2016).
+In this work, the development of a new material for TCES applica-
+tions via cation doping in the role of sintering inhibitor is proposed for
+the ﬁrst time. In particular, the eﬀects of doping Mn2O3 with Si4+ have
+been assessed. In comparison with the mentioned mixed metal oxides,
+Mn2O3 is cheap and no toxic and silicon is one of the two most abun-
+dant elements in Earth’s crust, so it is also cheap and easily available.
+The reversible reaction of manganese silicon oxides has been in-
+vestigated for chemical looping and CO2 capture at slightly higher
+temperatures than the ones studied in this work (Shulman et al., 2009).
+D. Jing et al. obtained promising results for Si concentrations above
+50% under nitrogen at 900 °C, but no reduction of the samples was
+found with lower Si concentrations, arguing that the available phase
+diagrams of Mn-Si-O system present some unclear diﬀerences, espe-
+cially for low Si content (Jing et al., 2012). For high Si contents, the
+expected phase is braunite Mn7SiO12, which decomposes to rhodonite
+MnSiO3, releasing oxygen at temperatures above 1000 °C under air
+atmosphere (Robie et al., 1995). Nevertheless, for Si with molar con-
+centrations below 0.14, Rydén et al. found that the system behaves
+similarly to the pure Mn2O3 system, forming a solid solution with no
+variation in solubility limits between the oxidized and reduced form
+and releasing oxygen at temperatures below 1000 °C, although no ex-
+perimental data were provided (Rydén et al., 2014).
+In view of these results, we have investigated the eﬀects of doping
+Mn2O3 with small quantities of Si, in order to determine the optimal
+doping content that provides the best material behavior for CSP ap-
+plication. At the same time, in order to ﬁnd out an appropriate synthesis
+method, two diﬀerent synthesis routes have been evaluated. In the ﬁrst
+part of the work, the Si doping eﬀects on the redox cycle have been
+investigated, and compared to pure Mn2O3, as the starting point for the
+proposed application. Subsequently, the material behavior in a 40th
+redox cycling test has been studied in a thermo-balance, in order to
+evaluate the capacity of the doped material to withstand the cycling
+conditions required for TCES in CSP. Finally, an explanation of the
+positive eﬀect and improvement found in the reaction kinetics and
+cycling performance is proposed, opening new possibilities using the
+cation doping approach to improve the behavior not only of Mn2O3
+material but other redox materials as well.
+2. Experimental
+2.1. Material preparation
+Manganese oxide powder was synthesized by the modiﬁed Pechini
+process, following the process described by Sunde et al. (2016) and
+Jana et al. (2010). For that purpose, a solution of Mn(NO3)2·1H2O
+(98%, Sigma Aldrich) was mixed with citric acid in a solution at a molar
+ratio 1:5. Afterwards, to promote the polymerization into a resin,
+ethylene glycol (99.8%, Sigma Aldrich) was used in a molar ratio EG:CA
+of 2:3. After the drying process, the sample was calcined at 700 °C for
+6 h with a heating/cooling rate of 2 °C/min in air atmosphere, aimed to
+get complete crystallization of the sample with small particle size.
+Manganese Si-doped samples were synthesized using two diﬀerent
+methods. The ﬁrst one was a dry method and the second one was a wet
+method. For the dry method, as received amorphous SiO2 nanoparticles
+of 12 nm (99.8%, Sigma Aldrich) were used as doping agent. An
+amorphous structure as well as nanosized particles have been proven to
+provide higher reactivity than crystalline or microsized particles, due to
+their higher surface to volume ratio (Bertolini and Rousset, 2008).
+Aiming to obtain an homogeneous mixture, the corresponding amounts
+of synthesized Mn2O3 and as-received SiO2 nanoparticles were placed
+in an aluminium bottle and then physically mixed for 15 min by means
+of milling equipment (Prep 8000-series High-Energy Shaker Mill). For
+the wet method, the doped samples were synthesized by sol–gel
+method, which allows the preparation of porous materials with a
+homogeneous distribution of components on the atomic scale (Esposito,
+2019).
+Manganese
+precursor
+was
+prepared
+by
+dissolving
+Mn
+(NO3)2·1H2O (98%, Sigma Aldrich) and citric acid (99+%, Alfa Aesar)
+at a molar ratio 1:5 in a solution of 20 ml of deionized water and
+ethanol (96%, Scharlau). After stirring the solution for 10 min, the
+corresponding amount of Si(C8H20O4) (98%, Sigma Aldrich) was added
+and kept stirring for 2 h. Then, the solution was dried and the obtained
+powder was calcined using the same temperature program used for the
+dry method samples, aiming to avoid diﬀerences on the materials redox
+behaviour derived from the use of diﬀerent calcination programs.
+2.2. Characterization techniques
+A structural analysis of the material was carried out by X-ray
+powder diﬀraction (XRD) using a Bruker D8 Discover X-ray dif-
+fractometer equipped with a LYNXEYE detector using CuKα1 radiation
+(λ = 1.5406 Å) and θ–2θ geometry. The data were collected at room
+temperature between 10° and 110° in 2θ with a step size of 0.02° and a
+counting time of 67 s per step. The Diﬀract. EVA v4.2.1 software was
+used to determine the phase composition of the material.
+The prepared samples were imaged by means of a Quanta 200 FEG
+scanning electron microscope (SEM) operated in high vacuum mode at
+30 kV and with a back scattered electron detector (BSED). In addition,
+energy-dispersive X-ray spectroscopy (EDX) analysis was carried out to
+obtain chemical composition maps of the diﬀerent observed sample
+zones. In order to get images at nanosized scale, transmission electron
+microscopy (TEM) measurement was realized by using a FEI Tecnai F20
+transmission electron microscope operating at 200 kV. For TEM mea-
+surement, samples were grained and dispersed in ethanol and soni-
+cated. The resulting solution was transferred onto a holey carbon ﬁlm
+ﬁxed on a 3 mm copper grid (200 mesh).
+Thermogravimetric analysis (TGA) measurements were performed
+with the vacuum-tight thermo-microbalance TG209 F1 Libra (Netzsch).
+In cyclability studies, samples of 20 mg were placed into 85 µl open
+alumina crucibles (Netzsch) and subjected to charging and discharging
+cycles under air atmosphere. After the experiments, the sample and
+D. Bielsa, et al.
+Solar Energy 204 (2020) 144–154
+145
+
+
+===== Page 3 =====
+
+crucible were analyzed, where no evidence of reaction was observed.
+The dimensional changes of materials versus temperature were de-
+termined in a NETZSCH DIL 402 C/4/G dilatometer by placing pellets
+with the diﬀerent compositions, with a length of 6.5 mm and a diameter
+of 4 mm, inside an alumina holder in air atmosphere with a heating rate
+of 20 °C/min.
+3. Results and discussion
+3.1. Inﬂuence of the synthesis method on the composition of the samples
+The composition and crystalline properties of the samples are
+summarized in Table 1. The expected composition of the samples was
+unclear, based in the aforementioned uncertainty related to the avail-
+able Mn-Si-O phase diagrams. For the low concentrations of Si used in
+this work (< 0.14 %mol), preliminary studies in air reported the pre-
+sence of a single phase below 877 °C corresponding to a Mn2-xSixO3
+solid solution (Muan, 1959). According to a recent study by Rydén
+et al., bixbyite (Mn2O3) and braunite (Mn7SiO12) are expected below
+800 °C at pO2 of 0.05 atm (Rydén et al., 2014). Even though it has been
+reported the redox reversibility of all these phases, the presence of
+diﬀerent phases is not desirable, as they present diﬀerent reaction
+parameters.
+The X-Ray powder diﬀraction (XRD) patterns of the synthetized
+samples are plotted in Fig. 1. The analysis of the diﬀractograms shows
+diﬀerent compositions depending on the synthesis method used. The
+samples using SiO2 nanoparticles (1Mc and 5Mc) show the presence of a
+single phase, corresponding to Mn2O3 cubic structure, with a slight shift
+of the peaks to higher 2θ angles compared to the un-doped sample. This
+shift is related to the slight reduction in the lattice parameters, as in-
+dicated in Table 1, attributed to the smaller ionic radius of Si4+ (0.4 Å)
+in six-fold coordination, compared to the Mn3+ ionic radius (0.645 Å)
+(Shannon, 1976). On the other hand, the samples synthesized using the
+sol-gel method (1Ms and 5Ms) presented two phases corresponding to
+Mn2O3 cubic structure and small amount of Mn3O4 tetragonal structure
+(Fig. 3S). The Mn2O3 cubic structure presented lower lattice parameters
+than the samples obtained by the dry method, conﬁrming the in-
+corporation of more Si4+ atoms within its structure. It is worth to
+mention that the amorphous nature of the SiO2 nanoparticles might
+hinder their detection by XRD technique. However, SEM and TEM
+techniques were used to study the morphology of the obtained mate-
+rials and to detect the un-reacted nanoparticles. As an example, Fig. 2
+shows the SEM and TEM micrographs obtained for 5Mc and 5Ms ma-
+terials. On the ﬁrst hand, it can be clearly seen in TEM micrographs
+(Fig. 2a and b) the presence of un-reacted nanoparticles in the case of
+5Mc material, while no evidence of their presence was observed in the
+case of 5Ms sample. This result agrees with the XRD analysis that in the
+case of the sol-gel method a better diﬀusion of Si4+ within Mn2O3
+structure was obtained compared to the case of ceramic method, where
+partial diﬀusion of Si4+ was observed.
+SEM micrographs of the samples before being subjected to any cy-
+cling measurement show the formation of micro clusters of irregular
+particles. The particle size distribution presented in Fig. 2e and f has
+been calculated from SEM images using an image processing program
+(ImageJ). The average particle size of the samples presents diﬀerent
+values depending on the synthesis route used, being in the range of
+123–128 nm for the dry method and 78–81 nm for the wet method.
+3.2. The eﬀect of Si doping in the thermochemical cycle
+The redox reversible reaction of Mn2O3 involves two steps: charge
+and discharge. In the ﬁrst step, the sample is heated above the equili-
+brium temperature, which has been identiﬁed in the range from 940 °C
+to 1000 °C (Carrillo et al. 2014), triggering the endothermic reduction
+Table 1
+Material identiﬁcation, doping composition, composition of the synthesized samples, average particle size (d) and lattice parameter (a).
+Sample
+Material
+Doping method
+Si (at%)*
+Composition
+daverage (nm)
+Mn2O3 a (Å)
+0M
+Mn2O3
+–
+0
+Mn2O3
+128
+9.430(1)
+1Mc
+Mn2O3-1%Si
+Ceramic
+1
+Mn2O3/Amorphous SiO2
+123
+9.416(1)
+1Ms
+Mn2O3-1%Si
+Sol-gel
+1
+Mn2O3/Mn3O4
+78
+9.410(1)
+5Mc
+Mn2O3-5%Si
+Ceramic
+5
+Mn2O3/Amorphous SiO2
+123
+9.415(1)
+5Ms
+Mn2O3-5%Si
+Sol-gel
+5
+Mn2O3/Mn3O4
+81
+9.408(1)
+* Si (at%) = n(Si)/[n(Si) + n(Mn)] * 100.
+Fig. 1. (a) XRD patterns of the samples in the oxidized state, (b) details of XRD patterns showing the evolution of the peak in 32–34° region.
+D. Bielsa, et al.
+Solar Energy 204 (2020) 144–154
+146
+
+
+===== Page 4 =====
+
+reaction with a theoretical stoichiometry mass loss of 3.38%. The
+second step corresponds to the exothermic reaction, in which the re-
+duced form is oxidized when the temperature is decreased below
+840 °C, releasing heat corresponding to the reaction enthalpy, with a
+theoretical value of 202 kJ/kg (Agraﬁotis et al., 2016). The expected
+redox reaction in the studied samples is as follows (Eq. (2)):
+↔
++
+−
+−
+Mn
+Si O
+s
+Mn
+Si O s
+O
+g
+6
+( )
+4
+( )
+( )
+x
+x
+x
+x
+2
+3
+3
+4
+2
+(2)
+where x corresponds to 0, 0.02 (Si 1 at%) and 0.1 (Si 5 at%).
+The thermogravimetric analysis of the reduction and oxidation re-
+actions of the studied samples is reported in Fig. 3 and Table 2. To avoid
+the possible eﬀect of impurities, present in the samples due to exposure
+to the atmosphere, the analysis corresponds to the last cycle of a three
+redox cycles program. Additionally, in order to avoid buoyancy eﬀects,
+all the curves shown are blank curve corrected. The redox cycle starts
+with a heating step up to 1050 °C, provided that it has been identiﬁed as
+the required temperature to reach complete reduction of Mn2O3
+[Fig. 1S]. After the temperature peak is reached, the sample is cooled
+down to 700 °C and kept under isothermal conditions for 20 min, to
+Fig. 2. TEM (a and b) and SEM (c and d) images and particle size distribution (e and f) of as-synthetized 5Mc (a, c and e) and 5Ms (b, d and f) samples.
+Fig. 3. Thermogravimetric curves of the diﬀerent samples, reduction at 20 °C/
+min and oxidation at 700 °C isothermal in air atmosphere (60 ml/min).
+D. Bielsa, et al.
+Solar Energy 204 (2020) 144–154
+147
+
+
+===== Page 5 =====
+
+complete the re-oxidation reaction.
+The reaction onset temperatures of the doped samples presented a
+slight variation compared to pure Mn2O3, falling in the range
+941–954 °C for the reduction reaction and 767–797 °C for the oxidation
+reaction. This diﬀerence between reduction and oxidation onset tem-
+peratures, characteristic of this redox couple, has been observed in
+previous works (Carrillo et al., 2015a,b) and presents an average tem-
+perature diﬀerence of 160 °C, with slight changes due to Si doping.
+Nevertheless, the mass loss of the doped samples decreases compared to
+the pure Mn2O3, which might be attributed to both the presence of
+thermodynamically-stable
+secondary
+phases
+and
+oxygen
+partially
+trapped by the Si dopant inside the structure, and will be further ana-
+lysed during cycling measurements. The main diﬀerence between the
+behaviour of pure Mn2O3 and the doped samples is the faster re-oxi-
+dation reaction kinetics of the doped samples, provided that the re-
+duction reaction kinetics remains similar. This behaviour is similar to
+the eﬀect identiﬁed by other authors with the addition of iron as do-
+pant. In that case, the hypothesis stated that this eﬀect may be attri-
+butable to an enlargement and weakening of Mn2+-O bonds, being the
+main species involved in the re-oxidation process, due to the smaller
+radius of Fe2+ atoms (0.63 Å) compared to Mn2+ (0.66 Å) in fourfold
+coordination (Carrillo et al., 2016). This hypothesis might be valid for
+the case of Si doping, taking into consideration that the ionic radius of
+Si4+ (0.4 Å) is even smaller.
+Additionally, signiﬁcant diﬀerences have been observed in the
+shrinking state of the diﬀerent samples after the temperature cycle
+programs, while 0M sample changed from a dispersed powder to a
+compact pellet-shape sample, all the doped samples maintain their in-
+itial form (Fig. 2S). Considering that mass transfer diﬃculties within
+the powder has been identiﬁed as the main reason of the oxidation
+reaction deterioration (Carrillo et al., 2014), the shrinkage degree
+might also have a signiﬁcant eﬀect in the oxidation kinetics improve-
+ment or deterioration. This shrinkage eﬀect is temperature dependent
+(Chaim et al., 2008) and thus, it will be much more severe when sub-
+jected to several redox cycles. For that reason, the shrinkage eﬀect will
+be further addressed in the following section.
+3.3. Eﬀect of Si doping on the cycling behaviour
+In most applications, the TCES system is subjected to a great number
+of charging and discharging cycles during its lifetime. Therefore, its
+ability to maintain a high degree of reversibility under these severe
+conditions must be satisfactorily fulﬁlled. It has been reported diﬀerent
+behaviors of pure Mn2O3 when subjected to a relevant number of re-
+duction and oxidation cycles. There is a common agreement regarding
+the high tendency of this material to sinter, causing mainly a slowdown
+of the oxidation reaction which leads to a certain reversibility dete-
+rioration in a long-term use (Carrillo et al., 2014). A. J. Carrillo et al.
+have shown that iron addition helps to improve the oxidation rate, al-
+though the sintering eﬀects could not be avoided and the oxidation rate
+decreased in most of the samples (Carrillo et al., 2015a,b).
+This sintering eﬀect is caused by the high temperatures used to
+conduct the redox reactions, which in most of the works reached
+1000 °C and it is shown even from the ﬁrst cycle. In this work, the
+reduction reaction of synthesized Mn2O3 powder was not completed
+until 1040 °C is reached [Fig. S1]. So, in order to evaluate the cycling
+stability, the samples were subjected to 40 cycles in a thermobalance
+between 1050 °C and 700 °C, with a heating/cooling rate of 20 °C/min
+followed by a dwelling at 700 °C for 20 min, in order to get a complete
+re-oxidation of the samples. The measurements were made using a TGA
+software from Netzsch which includes a mathematical procedure (TGA-
+BeFlat®) allowing for the removal from TGA measurement of the con-
+tribution of buoyancy eﬀects and friction force from the vertically
+moving gas.
+The weight change in all the samples over 40 redox cycles is plotted
+in Fig. 4a, c, e, g and i. It should be pointed out that during the ﬁrst 5
+cycles, there is an irreversible mass loss which was not recovered in the
+subsequent cycles. Taking into consideration that no evidences of MnO2
+was observed and that the oxidation of Mn2O3 under ambient condi-
+tions is not favoured (Wong, 2010), this mass loss was attributable to
+some impurities present in the samples due to exposure to the atmo-
+sphere. The same observation was also reported by Carrillo et al.
+(2014). In order to provide a clear evolution of the oxidation rate over
+the cycles, the weight of the sample at the beginning of the 5th cycle
+was set to 100% and the mass change during the subsequent 35 cycles
+was overlapped and plotted in Fig. 4b, d, f, h and j.
+In agreement with previous works, the pure Mn2O3 sample suﬀered
+a noticeable slowdown in the oxidation reaction kinetics from the ﬁrst
+cycle to the end of the temperature program. The 3.38% mass loss
+corresponding to the stoichiometry value was only maintained during
+the ﬁrst three cycles, decreasing gradually in each cycle. Additionally,
+the slowdown of the oxidation reaction rate led to insuﬃcient time
+within the temperature range in which the oxidation reaction is fa-
+vored, and from the 20th cycle, the recovered mass suﬀered a more
+intense decrease, being reduced to 1.94% at the end of the 40 cycles
+program. The 1Mc and 5Mc samples exhibited better behavior than
+pure Mn2O3 sample, reaching 3.05% recovered mass in 1Mc and 2.03%
+in 5Mc, after the 40th cycle. Taking into account the mass loss observed
+in the ﬁrst cycle, the remaining reversibility at the end of the cycling
+program corresponds to 93.39% and 77.07% for 1Mc and 5Mc, re-
+spectively. The evolution of the re-oxidation kinetics remains faster
+than the one showed by the 0M sample during the whole program,
+although it shows a slight and gradual slowdown at the end of each re-
+oxidation cycle, which becomes greater in the case of 5Mc sample and
+represents the main cause of the observed reversibility deterioration.
+In the SEM images of Fig. 5, the samples present a non-uniform
+morphological evolution of the grains, where part of the grains remains
+stable and others present some degree of sintering. This fact might
+explain the faster re-oxidation of the non-sintered grains at the starting
+of the re-oxidation reaction, while the sinterable grains presents slower
+kinetics, being oxidized at the end of the cycle, becoming worse each
+cycle, as they are continuously aﬀected by sintering. Taking into ac-
+count that Si doping has been proven to improve the re-oxidation ki-
+netics of Mn3O4, these results might conﬁrm that SiO2 nanoparticles
+have not completely reacted with all Mn2O3 particles, due to an in-
+eﬀective synthesis method. In order to explain this behavior, the phase
+composition of the samples after cycling was determined by XRD
+(Fig. 6). All samples conﬁrm the presence of small amounts of
+Mn7SiO12, which is stable in the temperature range of the measure-
+ments (Rydén et al., 2014) and contributes to decrease the mass loss
+Table 2
+Reduction and oxidation reaction onset temperatures, reaction duration, thermal hysteresis, mass loss and theoretical stored heat of the studied samples.
+Sample
+Tred [°C]
+Timered [min]
+Tox [°C]
+Timeox [min]
+ΔT [°C]
+Mass loss [%]
+Theoretical stored heat [kJ/kg)*
+0M
+940 ± 1
+11
+793 ± 5
+23.5
+147
+3.36
+200.8
+1Mc
+941 ± 1
+11
+767 ± 5
+10
+174
+3.33
+199.01
+5Mc
+943 ± 1
+12
+787 ± 5
+15
+156
+2.778
+166.02
+1Ms
+948 ± 1
+11
+782 ± 5
+7
+166
+2.858
+170.80
+5Ms
+954 ± 1
+12
+797 ± 5
+13
+158
+2.46
+147.02
+* This value is calculated based on the mass loss compared to the stoichiometry value.
+D. Bielsa, et al.
+Solar Energy 204 (2020) 144–154
+148
+
+
+===== Page 6 =====
+
+Fig. 4. Weight change curves during TGA 40 cycles program between 1050 °C and 700 °C: 0M (a and b), 1Mc (c and d), 5Mc (e and f), 1Ms (g and h) and 5Ms (i and j).
+D. Bielsa, et al.
+Solar Energy 204 (2020) 144–154
+149
+
+
+===== Page 7 =====
+
+capacity of the samples after each redox cycle. The reduction extent at
+the end of the 40th cycle did not reach a stable value, meaning that the
+new phase formation may continue in subsequent redox cycles.
+On the other hand, the re-oxidation kinetics of 1Ms and 5Ms sam-
+ples remains stable over the 40 cycles, reaching a re-oxidation of
+99.93% and 99.74% after the 40th cycle for 1Ms and 5Ms, respectively.
+The main explanation of this behavior might be attributed to the sin-
+tering eﬀects found in those samples, which are much less intense
+compared to the other samples, being almost negligible in the 5Ms
+sample (Fig. 5). In this case, the particles do not show the characteristic
+coral-like array caused by sintering, instead the particles remain ag-
+glomerated maintaining approximately the starting particle size, which
+can be distinguished in the center of the picture of Fig. 5. In 1Ms and
+5Ms samples, the particle size distribution is much more uniform
+compared to 1Mc and 5Mc samples, meaning that the sintering in-
+hibition is more eﬀective. Nevertheless, the XRD analysis presented in
+Fig. 6a shows traces of stable Mn7SiO12 after the 40 redox cycles, while
+Fig. 6b shows a slight displacement of the peaks to higher 2θ angles,
+meaning that the solid solution is still forming during the redox cycles.
+These facts contribute to decrease the mass loss to 2.85% and 2.46%
+(for 1Ms and 5Ms), respectively. Additionally, the 5Ms sample present a
+slight decay in the reduction reaction extent during cycling, due to an
+excess of dopant which led to the formation of this undesirable phase
+Mn7SiO12 found, while the 1Ms sample present a stable behavior during
+the 40 cycles and no more secondary phase is expected if the cycling
+program is extended.
+Taking into account these results, where all the doped samples
+present lower sintering degree than pure sample, it can be concluded
+that Si doping is an eﬀective technique to inhibit grain growth in
+Mn2O3.
+3.4. The role of Si doping in the cycling improvement
+The sintering phenomenon in metal oxides for TES was already
+identiﬁed by B. Wong as the main reason of cyclability loss, stating a
+relationship between the grain growth and the decrease in the re-oxi-
+dation fraction over cycling, in most of the investigated pure oxides
+(Wong, 2010). In regard to Mn2O3 material, A.J. Carrillo et al. studied
+the eﬀect of the initial particle size on the cyclability, obtaining in-
+complete re-oxidation of the samples with the smallest particle sizes,
+while the largest ones presented complete cyclability during 30 redox
+cycles. Nevertheless, all the samples presented some re-oxidation
+Fig. 5. SEM images of samples after 40 cycles in TGA between 1050 °C and 700 °C.
+D. Bielsa, et al.
+Solar Energy 204 (2020) 144–154
+150
+
+
+===== Page 8 =====
+
+kinetics deterioration over cycling. This deterioration was greater in the
+case of the smallest particles, having higher surface energy. This energy
+promotes mass diﬀusivity among grains which causes higher densiﬁ-
+cation degree. This densiﬁcation was presented as the main reason of
+the observed cyclability loss, representing a physical barrier which
+hinders the diﬀusion of O2 into Mn3O4 molecules during the re-oxida-
+tion reaction (Carrillo et al., 2014).
+Sintering is a well-known process in the manufacturing of me-
+tallurgical products to produce density-controlled materials. Sintering
+processes can be divided into two diﬀerent sintering types: solid state
+sintering and liquid phase sintering. During solid state sintering two
+basic phenomena can be identiﬁed: densiﬁcation and grain growth.
+Densiﬁcation involves reducing the porosity of the powder, depending
+on mass transport along the grain boundaries between contacting par-
+ticles. Whereas grain growth, also known as coarsening, involves that
+the smaller grains are consumed by the larger ones, depending on mass
+transport across the grain boundaries (German, 2010). Both processes
+are competitive and depend on grain size and temperature but the laws
+that govern both of them are interrelated and not clear for certain.
+Nevertheless, one can conclude that the grain boundary becomes a
+critical factor to control the sintering eﬀects, as it is the main mass
+diﬀusion path involved in both processes of solid state sintering. Liquid
+phase sintering occurs when a liquid phase is present in one or more
+components during sintering. In the case of Mn2O3 material, several
+chemical products manufacturers provide 940 °C as the melting point of
+the material and in that case, partial melting might occur during the
+temperature range used to complete the reduction reaction. This fact
+should be justiﬁed by an additional enthalpy due to the phase change of
+the non reduced part of the material. The enthalpy measurement of
+Mn2O3 has been reported in previous works by other researchers (Block
+and Schmücker, 2016; Carrillo et al, 2014; Agraﬁotis et al., 2016),
+presenting diﬃculties in obtaining accurate and reliable values. These
+results provide, in general, lower values than the theoretical 202 kJ/kg,
+obtained by S. Fritsch and A. Navrotski using transposed temperature
+drop calorimetry (Fritsch and Navrotsky, 1996). Furthermore, a much
+lower and even no measurable signal for the oxidation reaction en-
+thalpy has been reported by the mentioned authors. In our work, we
+also obtained enthalpy values below the theoretical ones, but it was not
+possible to obtain accurate and stable enthalpy measurements by STA
+to support this statement. A ﬁrst conclusion based on these ﬁndings is
+that melting of Mn2O3 is not likely to occur in the conditions assayed in
+this work, which was in agreement with the phase diagram provided by
+A. Cheraghi using FactSage 7.0 software (Cheraghi et al., 2019) and
+thus, liquid sintering was not considered. Secondly, we found that re-
+action enthalpies measurement via DSC is strongly dependent on the
+experimental conditions and special attention must be paid to ﬁnd out
+the appropriate conditions that provide accurate results, which will be
+presented in our upcoming research work.
+A representation of the mass transport paths and the sintering ef-
+fects between contacting particles can be observed in Fig. 7.
+Doping of ceramic materials have been proven to be an eﬀective
+technique to modify the grain growth and particle shrinkage in man-
+ufacturing of metallurgical products. When the amount of doping agent
+is higher than the bulk solubility limit, the excess cations may segregate
+Fig. 6. (a) XRD patterns of the Si doped Mn2O3 samples in the oxidized state after 40 redox cycles program and (b) details of XRD patterns showing the evolution of
+the peak in 32–34° region before and after the 40 redox cycles.
+Fig. 7. Basic material transport paths and eﬀects during solid state sintering: (a) grain growth via mass transport across grain boundaries and (b) densiﬁcation via
+mass transport along the grain boundaries.
+D. Bielsa, et al.
+Solar Energy 204 (2020) 144–154
+151
+
+
+===== Page 9 =====
+
+forming dopant-rich phases at the grain boundaries (Fig. 8), con-
+tributing to change the grain boundary diﬀusivity and thus, the sin-
+tering conditions. In this work, segregation is a word that refers to an
+enrichment of molecules at a microscopic region. S. J. L. Kang stated
+that the sintering mechanism in most ceramic materials, particularly
+ionic compounds, is governed by ion diﬀusivity along and across the
+grain boundaries, being governed by the slowest moving species (Kang,
+2005). These ions diﬀuse by an interstitial mechanism that can be en-
+hanced by the presence of oxygen vacancies. When cations of lower
+valence than the major component (acceptor dopants) are segregated at
+the grain boundaries, oxygen vacancies are created to maintain elec-
+trical neutrality providing faster ion diﬀusion pathways. On the other
+hand, when cations of higher valence than the major component (donor
+dopants) are segregated at the grain boundaries, oxygen interstitials
+inside the structure are created hindering the ion diﬀusion mechanisms.
+Most of this research has been focus on getting high dense materials
+with a ﬁne grain structure for metallurgical applications, which are not
+desirable for TCES application.
+Nevertheless, Pei-Lin Chen and I-Wei Chen found in their study of
+grain growth in CeO2 (Chen and Chen, 1994) and Y2O3 (Chen and Chen,
+1996a,b), that an adequate selection of the dopant might contribute as
+well to decrease the sintering eﬀects. In particular, they found a re-
+markable suppression in grain boundary mobility using Y3+ as a dopant
+in CeO2 and Zr4+ in Y2O3. At the same time, the strengthening or
+weakening of ionic bonds, due to the greater or smaller dopant radius,
+respectively, might play a signiﬁcant eﬀect on diﬀusion mechanisms,
+even turning it into the governing diﬀusion mechanism. P. L. Chen et al.
+showed a diﬀusion increase with the addition of Nb5+ in CeO2, even
+though it is expected to act as a donor hindering ion diﬀusion, the eﬀect
+on lattice distortion found, caused by the smaller Nb5+ radius, was
+greater (Chen and Chen, 1996a,b). Finally, L. Lallemant et al. showed
+that an excess of dopant in alumina, caused a precipitation of a new
+phase in the grain boundaries, which contributes as well to disturb the
+grain mobility and reach even lower grain growth and densiﬁcation
+rates (Lallemant et al. 2014). A similar approach was recently proposed
+by E. Bagherisereshki et al., where SrO was doped with an inert ma-
+terial, ﬁnding some degree of sintering inhibition (Bagherisereshki
+et al., 2018). Conﬁrming these ﬁndings, during the last years the eﬀect
+of a numerous quantity of dopants and co-dopants have been reported,
+mainly in Al2O3 (Lallemant et al. 2014) and Y2O3 (Kim et al., 2019). In
+general, doping of ceramics materials involves complex changes in
+grain boundaries and lattice diﬀusivity, grain boundary energy, surface
+energy and grain boundary mobility and it is often evaluated empiri-
+cally.
+The Si4+ doping agent used in this work presents a higher valence
+than Mn3+
+,
+so in case of segregation on the grain boundaries, it is ex-
+pected to act as a donor hindering the sintering eﬀects. On the contrary,
+the Si4+ radius (0.4 Å) is smaller than the Mn3+ radius (0.645 Å) and
+thus, it may contribute to promote ion diﬀusion within the particles,
+counteracting the charge eﬀects of the dopant. TEM images in all the
+doped samples investigated in this work, showed the presence of two
+diﬀerent contrast areas (Fig. 9). The contrast between two adjacent
+areas in a TEM image can be attributed to diﬀerences in amplitude
+contrast, due to either thickness or crystallographic diﬀerences. In the
+surface of the grains of both types of synthesized samples, it can be
+observed a more brightness area, which corresponds to the same con-
+trast of SiO2 nanoparticles shown for 1Mc sample in Fig. 9. Therefore, it
+may indicate the presence of a Si4+-rich solid solution on the surface of
+Fig. 8. Diﬀerent grain microstructures with the addition of dopants: (a) dopant-rich phase segregated at the grain boundary and (b) additional secondary new phase
+segregated at the grain boundary.
+Fig. 9. TEM images of the doped samples after cycling: 1Mc (left) and 1Ms (middle) and EDX analysis of 1Ms (right).
+D. Bielsa, et al.
+Solar Energy 204 (2020) 144–154
+152
+
+
+===== Page 10 =====
+
+the particles, which comes to mean that the amount of Si4+ cation used
+is beyond the bulk solubility limit and diﬀerent amounts of segregated
+cations are present on the grain boundaries.
+In order to identify the Si dopant eﬀect in the densiﬁcation phe-
+nomenon, the samples were subjected to dilatometry measurements.
+Pellets of 8 mm × 6.5 mm (diameter × width) of the samples, were
+prepared by uniaxial compression, applying a force of 100 N. The
+pellets were placed in a dilatometer and subjected to a pressureless
+heating program consisting of 4 cycles between 1050 °C and 700 °C,
+with a heating/cooling rate of 20 °C/min, under air atmosphere. During
+the ﬁrst heating step, all the samples suﬀered a strong shrinkage, at-
+tributable to particle rearrangement, likely due to insuﬃcient pre-
+paration pressure and it was not taken into account for the present
+analysis.
+In order to compare the behaviour of the samples when subjected to
+high temperature, the curves corresponding with the second heating
+step are plotted in Fig. 10. The 0M sample presented a deviation from
+the linear expansion approximately at 850 °C, which can be considered
+as the sintering onset temperature. The sample presented a subsequent
+decrease on the slope of the expansion curve at approximately 950 °C,
+which corresponds to the reduction reaction onset temperature. The
+reduced material density is higher than the oxidized form, 4.86 g/cm3
+compared to 4.5 g/cm3, but taking into account the oxygen release
+during the reduction reaction, the observed shrinkage may be attribu-
+table to both structure change and sintering. Nevertheless, all the doped
+samples presented no deviation from the linear expansion until 950 °C
+is reached, delaying the sintering eﬀects to higher temperatures. The
+total length’s variation of the samples during the 4 cycles program is
+shown in Fig. 11. In all samples, the ﬁnal length at the end of each
+cooling down step are shorter than the corresponding length at the
+same temperature level of the previous cycle. This means that all the
+samples suﬀered some degree of shrinkage when subjected to redox
+cycles. The 0M sample presented the highest dimensional change, being
+4.7 · 10-3% at the end of the temperature program. However, all the
+doped samples presented lower values at the end of the program, being
+2.47 · 10-3% for 1Mc, 1 · 10-3% for 5Mc, 1.86 · 10-3% for 1Ms and
+3.4 · 10-3% for 5Ms. The 1Ms sample provides the best performance
+among all the samples, presenting not only the lowest shrinkage value
+at the end of the program, but also the lowest shrinkage rate. Based on
+these results, it is suggested that the low densiﬁcation degree found in
+1Ms sample is the main reason of the cyclability improvement found in
+the TGA measurements (Fig. 4h). Summarizing, these results show the
+positive eﬀect of Si doping on reducing the densiﬁcation eﬀect on
+Mn2O3, in which the sintering protection eﬀect of the Si4+ dopant
+charge counteracts the diﬀusion enhancement induced by the smaller
+size eﬀect.
+It should be noted that the dopant eﬀects found in the re-oxidation
+kinetics and sintering improvement are competitive and the amount of
+dopant might vary the equilibrium of the governing eﬀect. According to
+Fig. 3, samples doped with 1% Si present faster re-oxidation kinetics
+than samples doped with 5% Si, whereas the latter may present lower
+degree of sintering and might be more reliable in a long-term use.
+Therefore, the selection of the appropriate amount of dopant for the
+given application should be selected carefully.
+4. Conclusions
+It has been observed that doping Mn2O3 with Si cations signiﬁcantly
+improves the redox performance of this material for thermochemical
+energy storage applications. Compare to iron addition, it has been
+shown that Si doping presents a stable re-oxidation reaction rate and no
+increase in the reaction temperatures. It has been conﬁrmed under a 40
+redox cycles program that Mn2O3 material behaviour is highly aﬀected
+by sintering, presenting a slow oxidation reaction kinetics and a con-
+tinuous decrease in the re-oxidation rate. We observed that the sin-
+tering rate in Mn2O3 is controlled by ion grain boundary diﬀusivity,
+which can be hindered by Si4+ dopant segregation at the grain
+boundaries. Nevertheless, doping eﬀects on the material behaviour
+depend on the charge, size and amount of dopant, so it must be taken
+into account when selecting the appropriate dopant. In the case of Si4+
+dopant, its smaller size, compared to that of Mn3+, contributes to im-
+prove the re-oxidation kinetics, while the higher valence contributes to
+decrease the sintering eﬀects. This synergistic eﬀect provides a constant
+energy storage capacity over a 40 redox cycles test in a TGA experi-
+ment. It is worth noting that increasing the quantity of Si4+ dopant
+decreases the sintering eﬀects but at the same time, presents slower
+oxidation reaction kinetics. Therefore, selecting the appropriate amount
+of dopant becomes critical to obtain the best material performance.
+Additionally, it was also observed that in order to get an eﬀective
+doping of the material, an appropriate synthesis method shall be ap-
+plied. In this work, doping Mn2O3 with low Si content (x = 0.02) via
+sol-gel method obtained the TCES material with the fastest oxidation
+reaction rate and complete reversibility, over 40 redox cycles, pre-
+senting a slight increase on the particle size and low degree of densi-
+ﬁcation. The combination of these two improvements, namely, in-
+creased cycle stability and enhanced re-oxidation kinetics, together
+with the low cost of Mn2O3 and Si dopant, render such a material an
+attractive option for further study and implementation in a thermo-
+chemical energy storage system.
+Fig. 10. Dilatometry results for all the samples during the 2nd heating step of a
+4 cycles redox program from 700 °C to 1050 °C, with 20 °C/min in air.
+Fig. 11. Dilatometry results for all the samples during a pressureless 4 cycles
+program between 1050 °C and 700 °C, with 20 °C/min, in air atmosphere (1st
+cycle is not included).
+D. Bielsa, et al.
+Solar Energy 204 (2020) 144–154
+153
+
+
+===== Page 11 =====
+
+Declaration of Competing Interest
+The authors declare that they have no known competing ﬁnancial
+interests or personal relationships that could have appeared to inﬂu-
+ence the work reported in this paper.
+Acknowledgements
+This work has been supported by the Department of Economic
+Development and Infrastructures of the Basque government, through
+the funding of the ELKARTEK CIC Energigune-2017 research program.
+The authors express their sincere thanks to Cristina Luengo, Leticia
+Martínez and Yagmur Polat for their technical support.
+Appendix A. Supplementary material
+Supplementary data to this article can be found online at https://
+doi.org/10.1016/j.solener.2020.04.073.
+References
+Chen, X., Zhang, Z., Qi, C., Ling, X., Peng, H., 2018. State of the art on the high-tem-
+perature thermochemical energy storage systems. Energy Convers. Manage. 177,
+792–815.
+Wong, B., 2010. Thermochemical heat storage for concentrated solar power. Final Report
+for the U.S. Department of Energy. In: http://www.osti.gov/scitech/, Berlin.
+Carrillo, A.J., Serrano, D.P., Pizarro, P., Coronado, J.M., 2015a. Improving the thermo-
+chemical energy storage performance of the Mn2O3/Mn3O4 redox couple by the
+incorporation of iron. ChemSusChem 8, 1947–1954.
+Carrillo, A.J., Serrano, D.P., Pizarro, P., Coronado, J.M., 2016. Understanding redox ki-
+netics of iron-doped manganese oxides for high temperature thermochemical energy
+storage. J. Phys. Chem. C 120 (49), 27800–27812.
+Block, T., Schmücker, M., 2016. Metal oxides for thermochemical energy storage: A
+comparison of several metal oxide systems. Sol. Energy 126, 195–207.
+André, L., Abanades, S., Cassayre, L., 2017. High-temperature thermochemical energy
+storage based on redox reactions using Co-Fe and Mn-Fe mixed metal oxides. J. Solid
+State Chem. 253, 6–14.
+Wokon, M., Block, T., Nicolai, S., Linder, M., Schmücker, M., 2017. Thermodynamic and
+kinetic investigation of a technical grade manganese-iron binary oxide for thermo-
+chemical energy storage. Sol. Energy 153, 471–485.
+Varsano, F., Alvani, C., Barbera, A.L., Masi, A., Padella, F., 2016. Lithium manganese
+oxides as high-temperature thermal energy storage system. Thermochim. Acta 640,
+26–35.
+Shulman, A., Cleverstam, E., Mattisson, T., Lyngfelt, A., 2009. Manganese/iron, manga-
+nese/nickel, and manganese/silicon oxides used in chemical-looping with oxygen
+uncoupling (CLOU) for combustion of methane. Energy Fuels 23, 5269–5275.
+Jing, D., Hermans, E. Y.S.I.M., Leion, H., Rydén, M., Mattisson, T., Van Noyen, J.,
+Lyngfelt, A., 2012. Manganese-silica combined oxides as oxygen carrier for chemical-
+looping combustion. In: 2nd International Conference on Chemical Looping,
+Darmstadt, Germany, 26-28 September 2012.
+Robie, R.A., Huebner, J.S., Hemingway, B.S., 1995. Heat capacities and thermodynamic
+properties of braunite (Mn 7 SiO 12) and rhodonite (MnSiO 3). Am. Mineral. 80,
+560–575.
+Rydén, M., Leion, H., Mattisson, T., Lyngfelt, A., 2014. Combined oxides as oxygen-carrier
+material for chemical-looping with oxygen uncoupling. Appl. Energy 113,
+1924–1932.
+Sunde, T.O.L., Grande, T., Einarsrud, M.A., 2016. Modiﬁed Pechini synthesis of oxide
+powders and thin ﬁlms. In: Handbook of Sol-Gel Science and Technology,
+Switzerland. Springer, pp. 1–30.
+Jana, P., de la Peña O’Shea, V.A., Coronado, J.M., Serrano, D.P., 2010. Cobalt based
+catalysts prepared by Pechini method for CO2-free hydrogen production by methane
+decomposition. Int. J. Hydrogen Energy 35, 10285–10294.
+Bertolini, J.C., Rousset, J.L., 2008. Reactivity of Metal Nanoparticles. Springer, Berlin,
+Heidelberg.
+Esposito, S., 2019. “Traditional” Sol-Gel Chemistry as a Powerful Tool for the Preparation
+of Supported Metal and Metal Oxide Catalysts. Materials 12(668).
+Muan, A., 1959. Phase equilibria in the system manganese oxide-SiO2 in air. Am. J. Sci.
+252, 297–315.
+Shannon, R.D., 1976. Revised eﬀective ionic radii and systematic studies of interatomie
+distances in halides and chaleogenides. Acta Cryst. A32, 751–767.
+Carrillo, A.J., Serrano, D.P., Pizarro, P., Coronado, J.M., 2014. Thermochemical heat
+storage based on the Mn2O3/Mn3O4 redox couple: inﬂuence of the initial particle
+size on the morphological evolution and cyclability. J. Mater. Chem. A 2,
+19435–19443.
+Agraﬁotis, C., Roeb, M., Sattler, C., 2016. Exploitation of thermochemical cycles based on
+solid oxide redox systems for thermochemical storage of solar heat. Part 4: Screening
+of oxides for use in cascaded thermochemical storage concepts. Sol. Energy 139,
+695–710.
+Carrillo, A.J., Serrano, D.P., Pizarro, P., Coronado, J.M., 2015b. Thermochemical heat
+storage at high temperatures using Mn2O3/Mn3O4 system: narrowing the redox
+hysteresis by metal co-doping. Energy Procedia 73, 263–271.
+Chaim, R., Levin, M., Shlayer, A., Estournes, C., 2008. Sintering and densiﬁcation of
+nanocrystalline ceramic oxide powders: a review. Adv. Appl. Ceram. 107 (3),
+159–169.
+German, R.M., 2010. Coarsening in sintering: grain shape distribution, grain size dis-
+tribution, and grain growth kinetics in solid-pore systems. Crit. Rev. Solid State
+Mater. Sci. 35, 263–305.
+Kang, S.J.L., 2005. Sintering: Densiﬁcation, Grain Growth & Microstructure. Butterworth-
+Heinemann.
+Chen, P.L., Chen, I.W., 1994. The role of defect interaction in boundary mobility and
+cation diﬀusivity of CeO2. J. Am. Ceram. Soc. 7 (9), 2289–2297.
+Chen, P.L., Chen, I.W., 1996a. Grain boundary mobility in Y2O3: Defect mechanism and
+dopant eﬀects. J. Am. Ceram. Soc. 79 (7), 1801–1809.
+Chen, P.L., Chen, I.W., 1996b. Grain growth in CeO2: dopant eﬀects, defect mechanism,
+and solute drag. J. Am. Ceram. Soc. 79 (7), 1793–1800.
+Lallemant, L., Roussel, N., Fantozzi, G., Garnier, V., Bonnefont, G., Douillard, T., Durand,
+B., Guillemet-Fritsch, S., Chane-Ching, J.Y., Garcia-Gutierez, D., Aguilar-Garib, J.,
+2014. Eﬀect of amount of doping agent on sintering, microstructure and optical
+properties of Zr- and La-doped alumina sintered by SPS. J. Eur. Ceram. Soc. 34 (5),
+1279–1288.
+Bagherisereshki, E., Tran, J., Lei, F., AuYeung, N., 2018. Investigation into SrO/SrCO3 for
+high temperature thermochemical energy storage. Sol. Energy 160, 85–93.
+Kim, C., Lee, D., Lee, J.A., Lee, J.H., Heo, Y.W., Kim, J.J., 2019. Eﬀect of ZnO and TiO2
+doping on the sintering behavior of Y2O3 ceramics. Ceram. Int.
+Fritsch, S., Navrotsky, A., 1996. Thermodynamic properties of manganese oxides. J. Am.
+Ceram. Soc. 79, 1761–1768.
+Cheraghi, A., Yoozbashizadeh, H., Safarian, J., 2019. Gaseous reduction of manganese
+ores: a review and theoretical insight. Miner. Process. Extr. Metall. Rev. https://doi.
+org/10.1080/08827508.2019.1604523.
+D. Bielsa, et al.
+Solar Energy 204 (2020) 144–154
+154

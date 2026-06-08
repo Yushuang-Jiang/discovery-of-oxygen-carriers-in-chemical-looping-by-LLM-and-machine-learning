@@ -1,0 +1,910 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Journal of Solid State Chemistry
+journal homepage: www.elsevier.com/locate/jssc
+High-temperature thermochemical energy storage based on redox reactions
+using Co-Fe and Mn-Fe mixed metal oxides
+Laurie Andréa, Stéphane Abanadesa,⁎, Laurent Cassayreb
+a Processes, Materials, and Solar Energy Laboratory, PROMES-CNRS, 7 Rue du Four Solaire, 66120 Font-Romeu, France
+b Laboratoire de Génie Chimique, Université de Toulouse, CNRS, INPT, UPS, Toulouse, France
+A R T I C L E I N F O
+Keywords:
+Metal oxide
+Thermal heat storage
+Solid-gas reaction
+Reduction
+Oxidation
+Thermodynamic equilibrium calculations
+A B S T R A C T
+Metal oxides are potential materials for thermochemical heat storage via reversible endothermal/exothermal
+redox reactions, and among them, cobalt oxide and manganese oxide are attracting attention. The synthesis of
+mixed oxides is considered as a way to answer the drawbacks of pure metal oxides, such as slow reaction
+kinetics, loss-in-capacity over cycles or sintering issues, and the materials potential for thermochemical heat
+storage application needs to be assessed. This work proposes a study combining thermodynamic calculations
+and experimental measurements by simultaneous thermogravimetric analysis and calorimetry, in order to
+identify the impact of iron oxide addition to Co and Mn-based oxides. Fe addition decreased the redox activity
+and energy storage capacity of Co3O4/CoO, whereas the reaction rate, reversibility and cycling stability of
+Mn2O3/Mn3O4 was signiﬁcantly enhanced with added Fe amounts above ~15 mol%, and the energy storage
+capacity was slightly improved. The formation of a reactive cubic spinel explained the improved re-oxidation
+yield of Mn-based oxides that could be cycled between bixbyite and cubic spinel phases, whereas a low reactive
+tetragonal spinel phase showing poor re-oxidation was formed below 15 mol% Fe. Thermodynamic equilibrium
+calculations predict accurately the behavior of both systems. The possibility to identify other suitable mixed
+oxides becomes conceivable, by enabling the selection of transition metal additives for tuning the redox
+properties of mixed metal oxides destined for thermochemical energy storage applications.
+1. Introduction
+The purpose of thermal energy storage (TES) in solar thermal
+power plants is to store solar heat in the form of sensible, latent or
+chemical energy during on-sun hours and then to use it during oﬀ-sun
+hours in order to match a variable electricity demand with an
+intermittent energy source supply, thus enabling energy production
+according to needs and enhancing energy generation dispatchability
+[1]. This study focuses on thermochemical heat storage, which shows
+advantages over latent and sensible heat storage, including higher
+energy storage densities, possible heat storage at room temperature in
+the form of stable solid materials, and long term storage in a broad
+temperature range (400–1200 °C) with heat released at a constant
+restitution
+temperature
+deﬁned
+by
+the
+reaction
+equilibrium.
+Concentrated solar power (CSP) provides the heat source required
+for endothermal/exothermal reversible reactions involved in thermo-
+chemical energy storage (Eqs. (1) and (2)) in order to store solar energy
+in the form of chemical bonds. When combined with CSP systems, the
+continuous production of electricity in thermal power plants becomes
+possible. The reaction enthalpy is stored in the reaction products
+during the heat charge (Eq. (1)), and can be released by reversing the
+reaction during the discharge (Eq. (2)).
+MO(ox) + Heat →MO(red) + α O2(g)
+(1)
+MO(red)+ α O2(g) →MO(ox) + Heat
+(2)
+An advantage of using metal oxides as TES materials is the use of
+air as the heat transfer ﬂuid that can be processed in an open-loop
+system. Such thermochemical systems are suitable for application in
+high-temperature solar power plants based on central air receiver
+(pressurized air-based solar tower receivers for power generation via
+gas turbines). Cobalt oxide (Co3O4) and manganese oxide (Mn2O3),
+which reduce into CoO and Mn3O4 respectively, are among the most
+studied metal oxides considered as promising materials for thermo-
+chemical energy storage. Experiments showed that Co3O4 is the most
+suited raw material given the fast reaction kinetics, complete reaction
+reversibility and cycling stability with a measured gravimetric energy
+storage density of 576 kJ/kg [2] (while reported theoretical enthalpy is
+http://dx.doi.org/10.1016/j.jssc.2017.05.015
+Received 3 March 2017; Received in revised form 9 May 2017; Accepted 13 May 2017
+⁎ Corresponding author.
+E-mail address: stephane.abanades@promes.cnrs.fr (S. Abanades).
+Journal of Solid State Chemistry 253 (2017) 6–14
+Available online 18 May 2017
+0022-4596/ © 2017 Elsevier Inc. All rights reserved.
+MARK
+
+
+===== Page 2 =====
+
+844 kJ/kg [3–6]). However, the cost and potential toxicity of cobalt
+oxide may require the development of other alternative materials. The
+reduction step of Mn2O3 was observed in the range of 920–1000 °C,
+with notably slow re-oxidation in the range of 850–500 °C, with a
+reported gravimetric energy storage density of 110–160 kJ/kg [7,8]
+and a theoretical enthalpy of 202 kJ/kg [8]. The re-oxidation usually
+happens in two steps, the ﬁrst one being during the cooling and in
+between 700 °C and 500 °C and the second one being during the re-
+heating and in the range of 500–850 °C [9] because of strong kinetic
+limitations. In order to complete the slow re-oxidation during the
+cooling step, it needs to last long enough by decreasing drastically the
+cooling rate.
+Optimization of materials reactivity is generally required for metal
+oxide species by using e.g. doping strategies, controlled synthesis
+techniques for tailored morphology, or stabilization with inert materi-
+als to alleviate sintering eﬀects. Improvement of materials properties
+and ﬂexibility such as reaction kinetics and reaction temperature
+tuning can be obtained by the addition of dopants. In the speciﬁc case
+of the Mn2O3/Mn3O4 cycle, the doping with transition metals is an
+option to relieve the slow re-oxidation issue [2,4].
+The present study aims at investigating the eﬀect of Fe addition on
+the performances of Co and Mn metal oxides, which have been
+identiﬁed as interesting candidates for TES [10]. The optimal mixed
+metal oxide composition to reach the highest performances for TES is
+addressed, encompassing high reaction enthalpy, stability upon cy-
+cling, low temperature gap between reduction and re-oxidation, and
+reaction in a temperature range adapted to CSP. The addition of
+transition metals is investigated as a way to answer the drawbacks of
+simple metal oxides, including slow reaction kinetics [5], sintering
+[11], loss-in-capacity over cycles [8], etc. Block et al. [2] reported that
+both addition of iron to cobalt oxide or addition of cobalt to iron oxide
+results in lower enthalpies of reaction compared to those of the pure
+oxides. However, they estimated that cobalt oxide doped with 10% of
+iron possesses higher reduction/oxidation reversibility than pure
+cobalt oxide and still shows high enthalpy of reaction. Pagkoura et al.
+[9] showed that cobalt oxide with 10–20 wt% of iron shows good
+thermo-mechanical stability over ten redox cycles. Carrillo et al. [11]
+showed that the addition of iron does not allow avoiding the sintering
+encountered with Mn2O3 but helps to increase the heat storage density
+of the material. Furthermore, the addition of iron helped to stabilize
+and enhance the oxidation rate of manganese oxide over thirty redox
+cycles. According to their study, the fastest and most stable oxidation
+reaction was obtained for Mn2O3 doped with 20 mol% Fe. In another
+study, the authors also considered Fe-Cu co-doping in manganese
+oxide and showed that the incorporation of Cu diminished the
+reduction temperature, whereas the incorporation of Fe increased the
+oxidation temperature [12].
+Recent models provide thermodynamic descriptions of the Co-Fe-O
+[13,14] and Mn-Fe-O [15,16] systems, based on exhaustive studies of
+available experimental data. In the present work, some of these models
+were used to calculate the nature and composition of solid phases at
+equilibrium, the oxygen storage capacity (equal to the mass loss during
+reduction), the transition temperature, and the reaction enthalpy of Co-
+Fe and Mn-Fe mixed oxides, with Fe content up to 50 mol%.
+Equilibrium calculations were compared to experimental (thermogra-
+vimetric and calorimetric) measurements carried out with various
+oxide compositions, under 20%O2/Ar atmosphere, in the 750–
+1050 °C temperature range. The combination of experimental data
+and thermodynamics aims at providing a better understanding of the
+behavior of the mixed oxides and deﬁning the optimal composition.
+2. Materials and methods
+2.1. Synthesis and characterization
+Pure Co3O4 and cobalt oxide mixed with 5, 10, 25, and 40 mol% Fe
+as well as pure Mn2O3 and manganese oxide mixed with 10, 15, 20, 30,
+40 and 50 mol% Fe were synthesized. In the following, the oxides
+compositions are either noted x(Fe) or mol% Fe, referring to the molar
+content of Fe on metal basis (based on a Fe/(Fe+Co) and Fe/(Fe+Mn)
+mole ratio). All the powders were synthesized via a modiﬁed Pechini
+method [2], using metal nitrates ( > 98% purity), citric acid ( > 99%
+purity) and ethylene glycol ( > 99% purity) in aqueous solution. The
+solution was heated up until obtaining a viscous solution. The powders
+were then calcined in air at 200 °C for 2 h and at 750 °C for 4 h in order
+to fully eliminate the organic fraction and residues of the synthesis, and
+to stabilize the structure. Higher calcination temperatures were not
+considered to avoid the reduction of the materials during the synthesis.
+Fig. 1. XRD analysis of fresh synthetic Co3O4 with (a) 40 mol% Fe, (b) 25 mol% Fe, (c) 10 mol% Fe, and (d) 5 mol% Fe.
+L. André et al.
+Journal of Solid State Chemistry 253 (2017) 6–14
+7
+
+
+===== Page 3 =====
+
+The powders were characterized by X-ray diﬀraction (XRD) before
+being studied in redox cycles. XRD analysis was performed (Figs. 1 and
+2, SI1, SI2) at room temperature using a PANalytical XPert Pro
+diﬀractometer (CuKα radiation, λ = 0.15418 nm). X-ray diﬀraction
+measurements of θ-θ symmetrical scans were made over an angular
+range of 10–80°. The step size and the time per step were ﬁxed at 0.01°
+and 20 s, respectively. The contribution from Kα2 was removed and the
+X-ray diﬀractograms were recorded and studied using the PANalytical
+software. The instrumental function was determined using a reference
+material (SRM 660, lanthanum hexaboride, LaB6 polycrystalline
+sample) and can be expressed by a polynomial function [17]. The
+synthesized oxide phases were corresponding to the structures of (i) a
+cubic spinel solution (Co1−xFex)3O4 (Fig. 1) and (ii) a bixbyite solution
+(Mn1−xFex)2O3 [18] (Fig. 2), with traces of iron oxide only detected for
+the materials containing the largest amount of iron (Figs. 1a and b, and
+2a). Above 20 mol% Fe added to Co3O4, the material is no longer a
+single spinel phase but a mixture of two spinels.
+The morphology of the synthesized (Mn1−xFex)2O3 phase was also
+characterized (Fig. SI3) by SEM (FESEM, HITACHI S4800). The very
+porous structure obtained with the Pechini method can be observed in
+Mn2O3 samples synthesized with no iron (Fig. SI3a and b). The porous
+structure is still present with the addition of iron during the synthesis;
+however, the porosity reduces with increasing iron content. The sample
+with 10 mol% Fe (Fig. SI3c and d) still resembles the pure Mn2O3
+sample, while the sample with 50 mol% Fe appears diﬀerent (Fig. SI3e
+and f), with thicker necks forming the pore walls. This change in
+morphology does not alter the reactivity, as evidenced in the experi-
+mental section.
+2.2. Experimental procedure for thermochemical redox cycling
+Experimental data concerning transition temperatures during re-
+dox process, oxygen storage capacity and reaction enthalpies were
+obtained by coupled thermogravimetric analysis (TGA) and diﬀerential
+scanning calorimetry (DSC), using a Netzsch STA 449 F3 System.
+About 50 mg of powder was placed into an alumina crucible and then
+subjected to simultaneous thermal analysis (STA) consisting of TGA
+coupled with DSC.
+Reduction-oxidation cycles were performed in a 20% O2/Ar atmo-
+sphere (10 N mL/min O2 and 40 N mL/min Ar), between 800 °C and
+1050 °C for cobalt based oxides and between 750 °C and 1050 °C for
+manganese based oxides. Each run also included a last reduction step
+under Ar (99.999% purity), in order to get information about the
+reduction temperature of the material under inert atmosphere. The
+heating rate was 20 °C/min for the reduction step, and the cooling rate
+was 10 °C/min for the re-oxidation step. For some runs with cobalt
+based oxides, the temperature was maintained for 15 min at 1050 °C
+and at 800 °C for achieving the state of reaction equilibrium. For all the
+materials, a series of three cycles was performed for each studied
+formulation in order to determine their suitability for achieving
+reversible reactions and to assess a possible chemical deactivation of
+the materials as a result of a loss of redox stability during thermal
+treatment.
+2.3. Thermodynamic calculations
+Equilibrium calculations were performed with the FactSage 7.0
+software [19] and the FToxid database, which includes models of the
+thermochemical properties of the oxide phases in Fe-Co-O [13] and Fe-
+Mn-O [15] systems. For calculations in the Fe-Co-O system, the
+following solid phases were considered: the Fe2O3 compound, the
+cubic spinel solution (Co1−xFex)3O4 (C-Spin) and the monoxide solu-
+tion (Co1−xFex)O1+y (Monoxide). For the Fe-Mn-O systems, four phases
+were considered: two spinel solutions (Mn1−xFex)3O4, one with cubic
+structure (C-Spin) and the other with tetragonal structure (T-Spin), the
+bixbyite solution (Mn1−xFex)2O3 (Bixb) and the corundum solution
+(Fe1−xMnx)2O3 (Cor). The monoxide and spinel solid solutions were
+described within the framework of the Compound Energy Formalism
+[20], with two and three ionic sublattices, respectively (see [13,15] for
+more details). The bixbyite and corundum phases were modelled as a
+random mixture of the two end-members (Fe2O3 and Mn2O3), with no
+interaction parameter [15]. Two gaseous components, O2 and Ar, were
+taken into account, with ideal mixing properties. The total pressure was
+always 1 atm.
+For both systems, two kinds of calculations were carried out: (i) plot
+of phase diagrams, (ii) system equilibrium at various compositions and
+temperatures, providing, for each composition and at each temperature
+step, the phase assemblage and the cationic distribution in each
+solution phases, as well as the total enthalpy of the system.
+The second type of calculations gives access to the theoretical mass
+loss (i.e. oxygen storage capacity), Δm, as deﬁned by (Eq. (3)). This
+quantity is directly comparable to the mass change measured by TGA.
+m
+mass of solid at T
+mass of solid at T
+mass of solid at T
+∆
+(%) = 100.
+−
+max
+min
+min
+(3)
+where Tmin and Tmax are referring to the minimal and maximal
+temperature of the thermochemical cycle.
+The enthalpy of the reduction reaction (Eq. (1)), ΔrH, was
+Fig. 2. XRD analysis of fresh synthetic Mn2O3 with (a) 50 mol% Fe, (b) 40 mol% Fe, (c) 30 mol% Fe, (d) 20 mol% Fe, and (e) 10 mol% Fe.
+L. André et al.
+Journal of Solid State Chemistry 253 (2017) 6–14
+8
+
+
+===== Page 4 =====
+
+calculated according to (Eq. (4)). This quantity is compared to the heat
+of reaction determined by DSC analysis. For reactions occurring on a
+large temperature range (see Section 3), this calculation includes a
+contribution due to the caloriﬁc capacity of the compounds (sensible
+heat), which leads to an overestimation of the enthalpy strictly related
+to the reaction.
+H
+of s
+m
+m H
+T
+m H
+T
+m
+H
+T
+H
+T
+∆
+(kJ/kg
+) =
+1 [
+(
+)+
+(
+)+
+(
+)]
+−
+(
+)
+r
+s
+s
+s
+end
+s
+s
+end
+O
+O
+end
+s
+beg
+0
+2
+2
+0
+1
+1
+2
+2
+0
+(4)
+where Tend is the temperature (°C) at the end of the phase transition or
+the maximal temperature of the cycle; Tbeg is the temperature (°C) at
+the beginning of the phase transition; mS
+0 is the mass (kg) of the solid
+phase at Tmin; mS
+1 and mS
+2 are the mass (kg) of the solid phases at
+Tend; mO2 is the mass (kg) of dioxygen at Tend; Hx(T) is the enthalpy
+(kJ/kg) of the compound x at the temperature T.
+3. Results and discussion
+3.1. Cobalt-based mixed oxides
+The calculated Co-Fe-O phase diagram for pO2 = 0.20 atm is
+presented in Fig. 3a. It shows that, at equilibrium, the iron content
+greatly inﬂuences the composition and the amount of the monoxide
+phase formed at 1050 °C when heating the spinel phase from 800 °C.
+For small Fe additions (0 < x(Fe) < 0.1), the spinel phase is fully
+converted into the monoxide phase. At very high Fe content (x(Fe) >
+0.6), there is no phase transition achievable below 1200 °C, which is
+the upper temperature limit usually considered for TES applications.
+For intermediate Fe content (0.1 < x(Fe) < 0.6), an increasing
+proportion of spinel phase is not converted into monoxide. As an
+example, Fig. 3b presents the inﬂuence of the temperature on the
+phases amount for x(Fe) = 0.25. A temperature of about 1460 °C is
+required to fully convert the spinel phase into the monoxide phase.
+Furthermore, as illustrated in Fig. 3c for x(Fe) = 0.25, the monoxide
+phase (Co1−xFex)O1+y presents a noticeable over-stoichiometry (y) in
+oxygen, which increases with temperature.
+The TGAs of cobalt-based oxides are presented in Figs. 4 and 5 with
+diﬀerent temperature programs. A ﬁrst observation is that a noticeable
+change in the re-oxidation onset temperature (Fig. SI4) is measured
+between the samples with 0–10 mol% Fe (Figs. 4b–c, 5c–e) and with
+25–40 mol% Fe (Figs. 4a, 5a–b). Indeed, the re-oxidation step starts at
+the beginning of the temperature decrease (i.e. 1050 °C) for the
+samples containing 25 mol% Fe and 40 mol% Fe, which is in line with
+the phase diagram (Fig. 3a) since the two-phase equilibrium strongly
+depends on the temperature. The Co-Fe samples were kept in a reduced
+state after TGA (ﬁnal cooling step in Ar to avoid re-oxidation in Fig. 5)
+and analysed via XRD (Fig. SI1). Phase identiﬁcation conﬁrmed the
+presence of the single monoxide phase for low Fe contents (0 and 5 mol
+%), whereas the samples consisted of a mixture of monoxide and spinel
+phases for higher Fe contents (10–40 mol%), in agreement with the
+calculated phase diagram.
+The inﬂuence of Fe incorporation on reaction temperatures is
+reported in Fig. 6 (Fig. SI4 compares data under Ar and 20%O2/Ar
+atmosphere). Both temperatures at peak reaction rate (i.e. tempera-
+tures at which the reaction kinetics reached its maximum, Fig. 6) and
+onset temperatures (Fig. SI4) were measured. The measured onset
+temperature for reduction of Co3O4 to CoO is about 920 °C, which is in
+good accordance with previous studies carried out in air atmosphere,
+reporting temperatures ranging from 880 to 930 °C [6,7,9,21]. A
+gradual increase of the reduction and oxidation temperatures is
+observed with increasing amount of iron in the material, which is
+consistent with the phase diagram (Fig. 3a). An eﬀect of Fe addition on
+the temperature gap between reduction and oxidation is also evi-
+denced. Indeed, as both temperatures rise with Fe addition, it can be
+noticed that the gap between the reduction and oxidation temperatures
+reduces. For 40 mol% Fe, the onset temperature for reduction has
+increased by 50 °C compared to pure Co3O4, while the onset tempera-
+ture for oxidation has increased by 90 °C. The reduction of this
+temperature gap is an asset for large-scale applications since it reduces
+the amount of energy spent for the heating and cooling of the system
+between the charge and the discharge steps. However, an increase in
+the oxidation temperature may also be a disadvantage if the system
+must be externally heated to initiate the oxidation (in case the material
+is stored in reduced form at room temperature).
+In Fig. 7 are reported, along with the calculated equilibrium values,
+Fig. 3. (a) Calculated Co-Fe-O phase diagram at pO2 = 0.20 atm, (b) calculated
+temperature evolution of the mass of solid phases for x(Fe) = 0.25, (c) calculated
+temperature evolution of oxygen over-stoichiometry (y) in the monoxide phase
+(Co0.75Fe0.25)O1+y.
+L. André et al.
+Journal of Solid State Chemistry 253 (2017) 6–14
+9
+
+
+===== Page 5 =====
+
+the maximum values of Δm measured for each oxide composition,
+which means the highest amount of O2 released during reduction, and
+the average Δm for the three redox cycles. The hypothetic case of a full
+conversion of the initial spinel into a stoichiometric monoxide,
+calculated according to (Eq. (5)), is also plotted in Fig. 7.
+(Co
+Fe ) O
+= 3 (Co
+Fe )O
++ 0.5 O (g)
+x
+s
+x
+s
+1−
+x 3
+4( )
+1−
+x
+( )
+2
+(5)
+Measurements of the Δm values clearly show that increasing the
+amount of iron in the material reduces the amount of O2 it is able to
+release at a given temperature. Furthermore, the maximum Δm values
+are in excellent accordance with equilibrium calculations, which
+implies that a full conversion has been reached.
+According to the thermodynamic model, the decrease in O2 storage
+capacity with increasing Fe content is due to a combination of two
+factors. First, as evidenced by the phase diagram and the temperature
+proﬁle for x(Fe) = 0.25 (Fig. 3b), the upper temperature limit of
+1050 °C does not lead to a full conversion of the spinel phase when
+x(Fe) > 0.10. This contribution is represented as C1 in Fig. 7. It does
+not account for the decrease in Δm evidenced for x(Fe) = 0.05 and 0.10
+(C2 in Fig. 7), which should be closer to the mass loss calculated
+according to (Eq. (5)) since a full conversion into monoxide occurs.
+This second factor is linked with the fact that the monoxide solid
+solution becomes non stoichiometric with the incorporation of Fe
+(Fig. 3c). This leads to a residual storage of oxygen in the monoxide
+phase, according to (Eq. (6)):
+(Co
+Fe ) O
+= 3 (Co
+Fe )O
++ (1−3y)/2 O (g)
+x
+s
+x
+y s
+1−
+x 3
+4( )
+1−
+x
+1+ ( )
+2
+(6)
+where y is the over-stoichiometry of oxygen in the monoxide phase.
+As illustrated in Fig. 7, the calculated contribution of the oxygen
+over-stoichiometry in the monoxide phase at 1050 °C accounts for a
+loss of storage capacity of about 1% per unit mass of spinel when x(Fe)
+> 0.10, as compared to a maximum capacity of 6.6% for pure cobalt
+oxide.
+As for the cycling stability, for pure Co3O4, the average Δm is the
+same as both the theoretical value and the maximum value measured
+experimentally. This means that the amount of O2 released and
+regained did not change, conﬁrming the good material cycling stability
+over three cycles, as already reported by several authors [2–7]. For the
+samples containing 5 and 10 mol% iron, since the average Δm falls
+slightly below the theoretical and maximum value, a minor loss in O2
+exchange capacity upon cycling is evidenced. Conversely, the amount of
+O2 exchanged remains stable over cycles for larger Fe contents (x(Fe)
+> 0.10) at the expense of a decreased oxygen storage capacity. Thus,
+the cycling stability of cobalt oxide does not suﬀer from the addition of
+iron, as the re-oxidation conversion rate is not signiﬁcantly decreasing
+over multiple cycles for Co-Fe mixed oxides, similarly to pure Co3O4.
+An additional cycling test was performed with a Co-Fe mixed oxide (10
+mol% Fe) subjected to multiple consecutive cycles (12 cycles) in order
+to demonstrate the stability of the material regarding both oxygen
+storage capacities and energy storage densities (Fig. SI5). This conﬁrms
+the robustness of the active redox materials and the ability to cycle
+without deactivation.
+Regarding the eﬀect of the gas ﬂow composition, the measured Δm
+due to the reduction under pure Ar was not signiﬁcantly diﬀerent from
+the one measured with 20% O2/80% Ar. However, as illustrated by Fig.
+SI4, the reduction onset temperature under Ar was decreased by 60–
+80 °C, to reach a value of about 860 °C, almost independent of x(Fe).
+These data are rather diﬀerent from the equilibrium state calculated
+with the thermodynamic model (Fig. SI6). Indeed, under pure Ar, the
+Fig. 4. TGA of Co3O4/CoO with addition of (a) 25 mol% Fe, (b) 10 mol% Fe, (c) 5 mol%
+Fe, including a ﬁnal re-oxidation step under 20% O2/Ar at the end.
+Fig. 5. TGA of Co3O4/CoO with addition of (a) 40 mol% Fe, (b) 25 mol% Fe, (c) 10 mol%
+Fe, (d) 5 mol% Fe, (e) no Fe added, ending on a ﬁnal reduction step under Ar.
+Fig. 6. Experimental temperatures at peak reaction rate for cobalt-based oxides in 20%
+O2/Ar and comparison with the calculated temperature of the C-Spin/Monoxide
+transition.
+Fig. 7. Average and maximal experimental mass loss (Δm in %) of the Co-Fe mixed
+oxide between 800 °C and 1050 °C compared to Δm at thermodynamic equilibrium.
+L. André et al.
+Journal of Solid State Chemistry 253 (2017) 6–14
+10
+
+
+===== Page 6 =====
+
+experimental oxygen partial pressure should be around 10−5 atm
+(10 ppm O2), which corresponds to a transition temperature of about
+650–700 °C but it increases with a higher pO2. Furthermore, the
+calculated transition temperature depends noticeably on the composi-
+tion of the system. It is thus concluded that, with a heating rate of
+20 °C/min, the system does not reach equilibrium at low temperature,
+most likely because of solid-state diﬀusion limitations. Independently
+of the system composition, a minimum temperature threshold of about
+850 °C is required to achieve the phase transition.
+The eﬀect of applying a higher temperature limit than 1050 °C was
+also estimated, both with experimental measurements and calcula-
+tions. Cycles with a maximal temperature of 1150 °C were carried out
+on Co3O4 with 5 mol% Fe (Fig. SI7). While this sample behaved well
+with a maximum temperature set at 1050 °C, the heating up to 1150 °C
+clearly aﬀected its reactivity. Indeed, the sample did not regain the
+whole mass on cooling (67% average instead of 86% when heating at
+1050 °C) and was sintered at the end of the run.
+Furthermore, equilibrium calculations show that applying a tem-
+perature limit higher than 1050 °C will not increase drastically the
+oxygen storage capacity of mixed Co-Fe oxides, as illustrated by Fig. 8.
+Indeed, for Fe contents between 0% and 10%, the oxygen storage
+capacity is almost constant with temperature, because the non-
+stoichiometry of the monoxide is stable. For higher Fe contents
+(0.10 < x(Fe) < 0.40), a small increase of the storage capacity is
+evidenced at high temperature, due to a higher conversion rate of the
+spinel phase (Fig. 3b), but Fe addition is still detrimental for the total
+storage capacity.
+As reported in Fig. 9, the measured reaction enthalpies are
+decreasing with increasing amount of Fe: the highest measured
+enthalpy is 597 kJ/kg for pure Co3O4, while the lowest is 50.7 kJ/kg
+for x(Fe) = 0.40. It should be noted that the DSC peaks for x(Fe) = 0.40
+are very small, which makes them diﬃcult to analyze. For pure Co3O4,
+our data is close to the value of 576 kJ/kg obtained by [2] with a similar
+experimental procedure. As recently discussed in details by Block et al.
+[22], this kind of DSC measurements, operated in an open reactor at a
+rather fast heating rate, is not able to reproduce the tabulated enthalpy
+value, which is commonly reported as 844 kJ/kg [3–6]. To explain the
+large discrepancy, the authors state that the contribution of a Co3+
+spin-state change, associated with an enthalpy of about 222 kJ/kg, is
+not measured by dynamic techniques.
+The thermodynamic model used in this study [13], which takes into
+account the heat capacity anomaly due to spin-state transition of Co3+,
+leads to an enthalpy of reaction of 749 kJ/kg for x(Fe) = 0. This is
+noticeably lower than the commonly admitted value of 827 kJ/mol
+[2,22]. For higher Fe contents, the calculations reproduce well the
+general trend (decrease of ΔrH) with a systematic gap of about 180 kJ/
+kg.
+In TES application, the enthalpy of the reaction is related to the
+oxygen storage capacity of the material (the energy stored/released
+during the reduction/oxidation is related to the reaction extent that
+corresponds to the quantity of O2 released/captured). As evidenced by
+measurements and calculations, the gravimetric energy storage density
+of mixed oxides is decreased when compared with pure Co3O4,
+resulting in less storage capacity per gram of material. This observation
+is in accordance with the work of Block et al. [2], who stated that both
+pure Co3O4 and Fe2O3 show higher enthalpies of reaction than any
+mixture of the two.
+In summary, while the Co3O4/CoO redox pair shows very good
+cycling stability, the addition of iron is shown to slightly aﬀect it and to
+decrease drastically the overall oxygen storage capacity. According to
+equilibrium calculations in the Co-Fe-O system, the addition of iron to
+Co3O4 results in a lower amount of O2 exchanged during cycles and a
+loss of the reduction reaction enthalpy, due to an incomplete conver-
+sion of the spinel phase at 1050 °C and to the formation of a non-
+stoichiometric monoxide. The addition of iron also increases the
+reduction and oxidation temperatures, while slightly decreasing the
+gap in temperature between the reduction and the oxidation step.
+3.2. Manganese-based mixed oxides
+The calculated Mn-Fe-O phase diagram is presented in Fig. 10, for
+pO2 = 0.20 atm. Again, the expected behavior of the mixed oxides is
+strongly dependent on the system composition. At Fe contents above
+50%, the requested temperature to reach a full conversion of the initial
+oxide into a spinel phase is above 1100 °C. At very low Fe contents (0
+< x(Fe) < 0 .05), the stable phase at 1050 °C is the tetragonal spinel.
+For 0.05 < x(Fe) < 0.15, the transition of bixbyite to cubic spinel goes
+Fig. 8. Temperature evolution of the amount (kg) of O2(g) released per kg of cobalt-
+based spinel containing various amounts of Fe.
+Fig. 9. Experimental and calculated enthalpies of reaction for the Co-Fe and Mn-Fe
+mixed oxides.
+Fig. 10. Calculated Mn-Fe-O phase diagram at pO2 = 0.20 atm.
+L. André et al.
+Journal of Solid State Chemistry 253 (2017) 6–14
+11
+
+
+===== Page 7 =====
+
+through two consecutive two-phase zones (T-Spin+Bixb and T-Spin+C-
+Spin). Finally, above about 20 mol% Fe, the material transforms almost
+directly from the bixbyite phase to the cubic spinel.
+According to the model [15], the non-stoichiometry of the oxide
+phases should not play a signiﬁcant role regarding oxygen storage
+capacity. Indeed, the bixbyite phase (Mn1−xFex)2O3 is considered as
+fully stoichiometric. For the spinel phases T-Spin and C-Spin, a cationic
+non-stoichiometry is considered in the model, with the presence of
+cationic vacancies. However, as shown in Fig. SI8, the vacancies
+concentration at 1050 °C is at the most 1.4×10−4 mol per mol of Mn
++Fe, which leads to a negligible impact on the oxygen storage capacity.
+In the composition range 0 < x(Fe) < 0.5 considered in this study, the
+redox cycle is thus represented by:
+(Mn
+Fe ) O
+= 2/3 (Mn
+Fe ) O
++ 1/6 O (g)
+x
+s
+x
+s
+1−
+x 2
+3( )
+1−
+x 3
+4( )
+2
+(7)
+At equilibrium, according to the model, the theoretical amount of
+O2 exchanged between 750 °C and 1050 °C remains thus the same in
+the 0 < x(Fe) < 0.5 composition range.
+The TGA, presented in Fig. 11, shows that the sample with the
+composition x(Fe) = 0.10 is unable to regain its full mass during
+oxidation, as the mass lost during the ﬁrst reduction step is not
+recovered during the re-oxidation step, similarly to the case of pure
+Mn2O3 (TGA shown in Fig. SI9). Conversely, the other compositions,
+from 15 mol% Fe to 50 mol% Fe, are regaining their lost mass in a
+complete reversible way. XRD analysis of Mn-Fe samples after TGA
+was performed (Fig. SI2). The XRD pattern of Mn2O3 with 10 mol% Fe
+is identiﬁed as a mixture of tetragonal spinel structure and Fe2O3 (Fig.
+SI2e), which conﬁrms the poor re-oxidation yield of the cycled
+material. Conversely, the XRD pattern of Mn2O3 with 20, 30, 40 and
+50 mol% Fe after TGA is identiﬁed as (Mn1−xFex)2O3 (Fig. SI2a–d) with
+Fe2O3 visible on the sample with the highest amount of Fe added (Fig.
+SI2a), which denotes the complete re-oxidation of the samples after
+TGA. SEM characterization of the cycled materials compared with the
+fresh ones reveals sintering regardless of the amount of Fe (Fig. SI10),
+which does not alter the cycling ability of Mn-Fe mixed oxides.
+Sintering is thus not the cause of the reactivity loss in the case of pure
+Mn2O3 and Mn2O3 mixed with 10 mol% Fe.
+Experimental and theoretical mass variations, Δm, were compared.
+As illustrated in Fig. 12a, all the samples feature the same Δm during
+the ﬁrst reduction, in good accordance with the equilibrium calcula-
+tions summarized by (Eq. (7)). However, pure Mn2O3 shows cycling
+stability issues as already evidenced by [8]. This phenomenon is
+reﬂected by the drop of the experimental Δm during 2nd and 3rd
+cycles, showing a decrease of redox activity with redox cycling.
+Similarly, Mn2O3 mixed with 10 mol% Fe also loses cycling stability,
+regaining only 31% of its lost mass (Fig. 11f). From x(Fe) = 0.15 to
+0.50, a great improvement is evidenced, since the experimental Δm
+value for each cycle remains close both to the maximum Δm value and
+to the equilibrium value, which denotes negligible deactivation during
+redox cycling. The addition of iron to Mn2O3 thus increases the re-
+oxidation yield of the material and enhances the cycling stability, as
+recently observed by Carrillo et al. [11].
+Experimental measurements clearly indicate that the minimum Fe
+content necessary to improve the TES properties of mixed Mn-Fe
+oxides lies between 10 and 15 mol% Fe. The phase diagram indicates
+that this corresponds to the formation of the cubic spinel phase only,
+compared to lower Fe contents, where the tetragonal spinel cannot be
+reversibly oxidized during cooling. The addition of 20 mol% Fe in
+Mn2O3 was previously mentioned as the optimal composition for
+obtaining the highest enthalpy and most stable re-oxidation yields
+[11]. However, the authors also obtained full conversion for all their
+tested samples regardless of the Fe content (especially below 10% Fe),
+which contrasts sharply with the results of the present study in which
+pure Mn2O3 and Mn2O3 sample with 10 mol% Fe were not able to fully
+recover the O2 lost mass. More recently, an in-depth kinetic and
+mechanistic study focused on the 20 mol% Fe composition was carried
+out by the same group [23]. It is stated that the cationic distribution in
+the spinel structures (cubic and tetragonal) might be suﬃciently
+diﬀerent to explain the strong variation in the kinetics of the oxidation
+reaction. The use of the thermodynamic model proposed by Kang and
+Jung [15] brings support to this explanation. Indeed, as illustrated in
+Fig. 13a, the calculated cationic distribution evidences that the amount
+of Mn2+ on octahedral sites of the spinel strongly increases in the cubic
+spinel. Furthermore, it has been shown that Mn2+ on octahedral sites is
+easier to oxidize than Mn2+ on tetragonal sites [24]. This diﬀerence
+might very well explain the reason why the cycling properties of the
+cubic spinel are much better than those of the tetragonal spinel.
+Another diﬀerence between the two spinel structures is that, in the
+Fig. 11. TGA of Mn2O3/Mn3O4 with addition of (a) 50 mol% Fe, (b) 40 mol% Fe, (c)
+30 mol% Fe, (d) 20 mol% Fe, (e) 15 mol% Fe, and (f) 10 mol% Fe.
+Fig. 12. (a) Evolution of experimental Δm (%) during reduction compared to theoretical
+Δm (pO2 = 0.20 atm), (b) Experimental temperatures at peak reaction rate for
+manganese-based oxides in 20% O2/Ar and comparison with the calculated temperature
+of the Bixb/Spinel transition.
+L. André et al.
+Journal of Solid State Chemistry 253 (2017) 6–14
+12
+
+
+===== Page 8 =====
+
+cubic spinel, a disproportionation reaction takes place according to
+Mn3+= 1/2 Mn4++ 1/2 Mn2+, as illustrated in Fig. 13b. The increased
+amount of Mn2+ in the cubic spinel, which can be more easily oxidized
+than Mn3+ thanks to the favored thermodynamic driving force, may
+also explain the enhanced re-oxidation ability of the cubic spinel. This
+result means that pure Mn2O3 (that reduces into pure tetragonal
+spinel) and mixed Mn-Fe oxides with Fe content below 15% cannot
+be suitable candidates for achieving reversible reactions because of the
+poor re-oxidation ability of the tetragonal spinel formed upon reduc-
+tion.
+As for the inﬂuence of Fe incorporation in Mn2O3 on the reaction
+temperatures, a similar tendency as with cobalt oxide is observed. The
+reduction and oxidation temperatures of Mn2O3 softly increase with
+increasing amount of added iron (Fig. 12b). According to TGA, an
+increase of 60 °C is noted between the onset temperatures for reduction
+(Fig.
+SI11)
+of
+pure
+Mn2O3
+and
+Mn2O3
+with
+50 mol%
+Fe.
+Concomitantly, a temperature increase of 160 °C is observed for
+oxidation of Mn2O3 with 50 mol% Fe when compared to Mn2O3 alone.
+This way, the reaction temperature can be tuned. On top of an increase
+of the reaction temperature, addition of iron also reduces the tem-
+perature gap between the reduction and the oxidation step. A tem-
+perature increase was also reported by [11], with 60 °C diﬀerence
+between 0 and 40 mol% Fe added for the reduction, and 236 °C for the
+oxidation.
+Regarding the eﬀect of the gaseous atmosphere composition, the
+experimental and theoretical Δm values for the reduction in pure Ar
+atmosphere were found stable with the addition of Fe to manganese
+oxide and similar to the Δm measured with 20% O2. Again, the
+reduction temperature increases with the O2 partial pressure (Fig.
+SI11). The onset temperature for reduction under inert atmosphere
+rises with the amount of Fe added to manganese oxide, from about
+800 °C for pure Mn2O3 up to 903 °C for x(Fe) = 0.5 (Fig. SI11). As
+illustrated by the phase diagram (Fig. SI12) calculated at low pO2
+(10−5 atm), decreasing the oxygen content results in enhancing the
+tetragonal spinel stability, which is likely to be detrimental to the
+cycling stability of the materials.
+As for the energy storage density, the measured enthalpy for the
+ﬁrst reduction step with full conversion of pure Mn2O3 (148 kJ/kg) is
+smaller than theoretical estimations of 190.1 kJ/kg at turning tem-
+perature (ΔG° = 0) of 915 °C [10]. An average of 187.7 kJ/kg is
+measured for the samples with compositions between 20 and 50 mol%
+Fe. Increasing the amount of Fe thus slightly improves the energy
+storage capacity of the material at low Fe contents while it remains
+unchanged above ~20 mol% Fe (Fig. 9). Accordingly, the thermody-
+namic calculations indicate that an increase of ΔrH is expected when
+the Fe content increases from 0 mol% (207 kJ/kg) to 20 mol% (300 kJ/
+kg), and is stable for higher Fe contents.
+In summary, the addition of iron to manganese oxide enhances
+considerably the cycling stability of the material by improving the re-
+oxidation yield thanks to the formation of a reactive cubic spinel phase.
+Also, the higher the amount of Fe added to Mn2O3, the higher the
+reaction temperatures. In addition, the gap in temperature between the
+reduction and the oxidation decreases with higher iron content. The
+low re-oxidation yield observed for pure Mn2O3 and Mn2O3 with
+10 mol% Fe is attributed to the low reactivity of the tetragonal spinel
+phase. The addition of Fe to Mn2O3 becomes eﬀective for the
+enhancement of the cycling stability above ~15 mol% Fe, with the
+suppression of any transition involving this tetragonal spinel phase.
+The markedly improved reactivity of the cubic spinel featuring
+reversible reactions is attributed to the increased amount of Mn2+
+cations (resulting from Mn3+ disproportionation) on octahedral sites of
+the spinel.
+4. Conclusion
+The eﬀect of Fe addition in Co and Mn-based oxides was studied
+experimentally and results were compared with thermodynamic calcu-
+lations. The calculations were shown to be pertinent since equilibrium
+is reached at least on the ﬁrst reduction step of all materials considered
+in this study. The addition of Fe to Mn2O3 was shown to be beneﬁcial to
+tune the temperature of redox reactions, to reduce the gap in
+temperature hysteresis between the reduction and the oxidation step,
+as well as to enhance the re-oxidation kinetics and cycling stability of
+the
+material
+by
+countering
+the
+deactivation
+issue
+of
+Mn2O3.
+Furthermore, a Fe content of ~15 mol% added to Mn2O3 was identiﬁed
+as a minimum threshold for avoiding the formation of a low reactive
+Mn3O4 tetragonal spinel phase during reduction, which is detrimental
+to the reaction reversibility because of poor oxidation rate and yield.
+Noticeably, the Mn2O3 compounds with Fe content in the range 15–
+50 mol% could be cycled between bixbyite and cubic spinel phases
+without any reactivity losses during redox reactions. Conversely, the
+incorporation of Fe to Co3O4 shows adverse eﬀect on the redox
+performances since both the maximum amount of O2 exchanged and
+the reaction enthalpy are lowered when the amount of iron added is
+increased. The increasing amount of iron added to Co3O4 reduces the
+maximum oxygen exchange capacity during a redox cycle. The addition
+of iron to Co and Mn-based oxides also results in an increase of the
+reaction temperatures, while slightly lowering the gap in temperature
+between the reduction and oxidation step, which thereby reduces the
+sensible energy losses during the heating and cooling stages. The
+comparison of the obtained experimental data with thermodynamic
+modelling proves that equilibrium calculations bring a strong support
+for predicting the behavior of mixed oxides since it results in consistent
+Fig. 13. (a) Evolution of the amount of Mn2+ on octahedral sites of the spinel phases
+with Fe content, at 1050 °C. (b) Evolution of the oxidation number of Mn cations in the
+spinel phases with Fe content, at 1050 °C.
+L. André et al.
+Journal of Solid State Chemistry 253 (2017) 6–14
+13
+
+
+===== Page 9 =====
+
+phase transition temperatures and reliable oxygen storage capacities. It
+further provided new physical insights into the role of Fe incorporation
+on the oxidation improvement of Co and Mn-based oxides related to
+the crystallographic transformations that take place during such redox
+process depending on Fe content. With the development of new models
+covering large multi-components systems, it could be further used for
+selecting other transition metals to enhance the properties of mixed
+metal oxides for thermochemical energy storage application.
+Acknowledgments
+This study was performed in the framework of the STAGE-STE
+European Project (FP7, Project no. 609837). Philippe Tailhades is
+warmly thanked for the fruitful discussion on spinel properties.
+Appendix A. Supplementary material
+Supplementary data associated with this article can be found in the
+online version at doi:10.1016/j.jssc.2017.05.015.
+References
+[1] A.H. Abedin, M.A. Rosen, A critical review of thermochemical energy storage
+systems, Open Renew. Energy J. 4 (2011) 42–46.
+[2] T. Block, N. Knoblauch, M. Shmücker, The cobalt-oxide/iron-oxide binary system
+for use as high temperature thermochemical energy storage material, Thermochim.
+Acta 577 (2014) 25–32.
+[3] C. Agraﬁotis, M. Roeb, M. Schücker, C. Sattler, Exploitation of thermochemical
+cycles based on solid oxide redox systems for thermochemical storage of solar heat.
+Part 2: redox oxide-coated porous ceramic structures as integrated thermochemical
+reactors/heat exchangers, Sol. Energy 114 (2015) 440–458.
+[4] C. Agraﬁotis, S. Tescari, M. Roeb, M. Schücker, C. Sattler, Exploitation of
+thermochemical cycles based on solid oxide redox systems for thermochemical
+storage of solar heat. Part 3: cobalt oxide monolithic porous structures as integrated
+thermochemical reactors/heat exchanger, Sol. Energy 114 (2015) 459–475.
+[5] M. Neises, S. Tescari, L. De Oliveira, M. Roeb, C. Sattler, B. Wong, Solar-heated
+rotary kiln for thermochemical energy storage, Sol. Energy 86 (2012) 3040–3048.
+[6] S. Tescari, C. Agraﬁotis, S. Breuer, L. De Oliveira, M. Nieses-von Puttkamer,
+M. Roeb, C. Sattler, Thermochemical solar energy storage via redox oxides:
+materials and reactor/heat exchanger concepts, Energy Procedia 49 (2014)
+1034–1043.
+[7] G. Karagiannakis, C. Pagkoura, A. Zygogianni, S. Lorentzou, A.G. Konstandopoulos,
+Monolithic ceramic redox materials for thermochemical heat storage applications
+in CSP plants, Energy Procedia 49 (2014) 820–829.
+[8] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Improving the thermo-
+chemical energy storage performance of the Mn2O3/Mn3O4 redox couple by the
+incorporation of iron, ChemSusChem 8 (2015) 1947–1954.
+[9] C. Pagkoura, G. Karagiannakis, A. Zygogianni, S. Lorentzou, M. Kostoglou,
+A.G. Konstandopoulos, M. Rattenburry, W.J. Woodhead, Cobalt oxide based
+structured bodies as redox thermochemical heat storage medium for future CSP
+plants, Sol. Energy 108 (2014) 146–163.
+[10] L. André, S. Abanades, G. Flamant, Screening of thermochemical systems based on
+solid-gas reversible reactions for high temperature solar thermal energy storage,
+Renew. Sustain. Energy Rev. 64 (2016) 703–715.
+[11] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Thermochemical heat
+storage based on the Mn2O3/Mn3O4 redox couple: inﬂuence of the initial particle
+size on the morphological evolution and cyclability, J. Mater. Chem. A 2 (2014)
+19435–19443.
+[12] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Manganese oxide-based
+thermochemical energy storage: modulating temperatures of redox cycles by Fe-Cu
+Co-doping, J. Energy Storage 5 (2016) 169–176.
+[13] I.H. Jung, S.A. Decterov, A.D. Pelton, H.M. Kim, Y.B. Kang, Thermodynamic
+evaluation and modeling of the Fe-Co-O system, Acta Mater. 52 (2004) 507–519.
+[14] W.-W. Zhang, M. Chen, Thermodynamic modeling of the Co–Fe–O system,
+Calphad 41 (2013) 76–88.
+[15] Y.B. Kang, I.H. Jung, Thermodynamic modeling of oxide phases in the Fe-Mn-O
+system, J. Phys. Chem. Solids 98 (2016) 237–246.
+[16] L. Kjellqvist, M. Selleby, Thermodynamic assessment of the Fe-Mn-O system, J.
+Phase Equilib. Diﬀus. 31 (2010) 113–134.
+[17] E. Beche, G. Peraudeau, V. Flaud, D. Perarnau, XPS unvestigation of (La2O3)1−x
+(CeO2)2x (ZrO2)2 compounds elaborated by solar energy, Surf. Interface Anal. 44
+(2012) 1045–1050.
+[18] J.i. Lai, K.V.P.M. Shaﬁ, A. Ulman, N.-L. Yang, M.-H. Cui, T. Vogt, C. Estournès,
+Mixed iron-manganese oxide nanoparticles, Nanopart. Chem. Soc. Div. Fuel Chem.
+48 (2) (2003) 729–730.
+[19] C.W. Bale, E. Bélisle, P. Chartrand, S.A. Decterov, G. Eriksson, A.E. Gheribi,
+K. Hack, I.H. Jung, Y.B. Kang, J. Melançon, A.D. Pelton, S. Petersen, C. Robelin,
+J. Sangster, P. Spencer, M.A. Van Ende, FactSage thermochemical software and
+databases, 2010–2016, Calphad 54 (2016) 35–53.
+[20] M. Hillert, The compound energy formalism, J. Alloy. Compd. 320 (2) (2001)
+161–176.
+[21] B. Ehrhart, E. Coker, N. Siegel, A. Weimer, Thermochemical cycle of a mixed oxide
+for augmentation of thermal energy storage in solid particles, Energy Procedia 49
+(2014) 762–771.
+[22] T. Block, M. Schmucker, Metal oxides for thermochemical energy storage: a
+comparison of several metal oxide systems, Sol. Energy 126 (2016) 195–207.
+[23] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Understanding redox
+kinetics of iron-doped manganese oxides for high temperature thermochemical
+energy storage, J. Phys. Chem. C 120 (2016) 27800–27812.
+[24] F. Agnoli, B. Albouy, P. Tailhades, A. Rousset, Manganites de Fer de Structure
+Spinelle Déformée à Très Fort Champ Coercitif. Exemple de l′Oxyde Lacunaire
+Mixte Mn1.7Fe1.3O4+δ, C. R. Acad. Sci. 2 (1999) 525–530.
+L. André et al.
+Journal of Solid State Chemistry 253 (2017) 6–14
+14

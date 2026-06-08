@@ -1,0 +1,1647 @@
+
+
+===== Page 1 =====
+
+Chemical Engineering Journal 407 (2021) 127093
+Available online 23 September 2020
+1385-8947/© 2020 Published by Elsevier B.V.
+Co-precipitated Cu-Mn mixed metal oxides as oxygen carriers for chemical 
+looping processes 
+Clemens F. Patzschke, Matthew E. Boot-Handford, Qilei Song, Paul S. Fennell * 
+Department of Chemical Engineering, Imperial College London, South Kensington Campus, London SW7 2AZ, United Kingdom   
+A R T I C L E  I N F O   
+Keywords: 
+Chemical looping combustion (CLC) 
+Chemical looping with oxygen uncoupling 
+(CLOU) 
+Chemical looping air separation (CLAS) 
+Copper manganese oxides 
+CO2 capture 
+Oxy-fuel combustion 
+A B S T R A C T   
+Chemical looping with oxygen uncoupling (CLOU) and chemical looping air separation (CLAS) are novel and 
+potentially promising processes for the combustion of solid fuels (e.g. biomass) for power generation with 
+inherent CO2 capture. Redox-experiments at 850–950 ◦C confirmed that copper manganese spinel oxides are 
+promising oxygen carriers for these processes, as they combine a relatively high O2 release capacity and fast O2 
+release kinetics. Furthermore, this work presents a novel method to calculate the O2 partial pressure equilibrium 
+and the heat of O2 release from observed rates of reaction. To demonstrate this method, oxygen carriers were 
+prepared via mechanical mixing and co-precipitation with varying molar Cu:Mn ratios and synthesis conditions, 
+thereby tuning material properties and the pore structure. The precursors and calcined materials were charac­
+terised, and the crystalline phases were determined using X-ray diffraction. The insights from the post cycling 
+analysis of the oxygen carriers and the experimentally obtained O2 release capacities were combined to elucidate 
+the redox-reactions relevant for the two processes. It was found that the presence of a higher partial pressure of 
+O2 during the O2 release results in the formation of different (perovskite-like) phases than those occurring during 
+the decomposition in an O2-free environment. The oxygen carriers demonstrated excellent stability at CLOU and 
+CLAS process conditions during extended redox cycling (100 cycles in a thermo-gravimetric analyser and 50 
+cycles in a fluidised bed reactor), showing no significant loss of reactivity or O2 release capacity and a high 
+resistance towards attrition and agglomeration. The degree of degradation after 100 cycles was in the order: 
+temperature swing (CLAS) < O2 partial pressure swing (CLOU) < reduction with CH4 (chemical looping 
+combustion).   
+1. Introduction 
+The development and wide-scale deployment of carbon capture and 
+storage (CCS) technologies such as chemical looping combustion (CLC) 
+is an essential and lowest-cost component of the portfolio of options for 
+decarbonising the global economy and avoiding disastrous anthropo­
+genic climate change [1]. The most commonly proposed chemical- 
+looping reactor designs involve the continuous circulation of an oxy­
+gen carrier material between two interconnected fluidised bed (or 
+entrained flow) reactors – the air reactor and the fuel reactor [2]. 
+Oxygen carrier containing transition metal oxides facilitate oxygen 
+transport from the air reactor to the fuel reactor. In the fuel reactor, the 
+oxygen from the oxygen carriers reacts with the fuel. For chemical 
+looping combustion (and its variants – CLOU and CLAS), the transition 
+metal (oxides) of the oxygen carriers’ active phases are typically selected 
+to produce primarily CO2 and H2O during the combustion of the fuel at 
+the conditions prevailing in the reactor (though for other chemical 
+looping variants, such as chemical looping reforming, redox-pairs might 
+be selected to facilitate only partial combustion of the fuel, thus pro­
+ducing an off-gas stream that may contain large fractions of CO, CH4 and 
+other hydrocarbons) [3]. Condensation of the water in the off-gas stream 
+produces an almost pure CO2 stream for sequestration or utilization [4]. 
+1.1. Chemical looping with oxygen uncoupling (CLOU) 
+When combusting solid fuels in a CLC process, the use of oxygen 
+carrier materials with the ability to release gaseous O2 (e.g. those con­
+taining Cu, Mn or Co oxides) is typically preferred, as this allows for a 
+faster gas–solid reaction. This variant is known as chemical looping 
+combustion with oxygen uncoupling (CLOU) and is illustrated in Fig. 1a 
+[5]. 
+The primary reaction in the air reactor of the CLOU process is the 
+oxidation of a metal oxide according to: 
+* Corresponding author. 
+E-mail address: p.fennell@imperial.ac.uk (P.S. Fennell).  
+Contents lists available at ScienceDirect 
+Chemical Engineering Journal 
+journal homepage: www.elsevier.com/locate/cej 
+https://doi.org/10.1016/j.cej.2020.127093 
+Received 29 July 2020; Received in revised form 17 September 2020; Accepted 18 September 2020   
+
+
+===== Page 2 =====
+
+Chemical Engineering Journal 407 (2021) 127093
+2
+MexOy−2 + O2 ↔MexOy
+(R1) 
+In the fuel reactor, the metal oxide releases gaseous O2: 
+MexOy ↔MexOy−2 + O2
+(R2) 
+The gas-phase O2 combusts in-situ a fuel according to: 
+CaHbOc +
+(
+a + b
+4 −c
+2
+)
+O2 ↔aCO2 + b
+2H2O
+(R3) 
+A minor fraction of the lattice oxygen might also react directly with 
+the solid fuel. 
+1.2. Chemical looping air separation (CLAS) with oxy-fuel combustion 
+In chemical looping air separation (CLAS) the ability of the afore­
+mentioned materials to release gaseous O2 is used to enrich CO2 with O2. 
+In this case, only the reaction shown in R2 takes place in the reducer. 
+The mixture of O2 and CO2 is then used in a downstream oxy-fuel 
+combustion process, to combust a solid fuel to produce mainly CO2 
+and water vapour (R3). The water is removed during cooling and 
+compression of the flue gases, providing a near-pure, dense-phase 
+stream of CO2 for transport and geological sequestration. In addition to 
+electricity production, oxy-fuel CO2 capture has been piloted for 
+capturing process emissions from carbon-intensive industries such as 
+lime and cement [9], and iron and steel production [10]. Convention­
+ally, cryogenic air separation (instead of CLAS) is suggested for the 
+supply of O2. However, the high energy requirements of this air sepa­
+ration technology (resulting in an energy penalty of about 9%-points on 
+the thermal efficiency of the electricity production) [11] is a major 
+barrier to commercialisation. CLAS has been proposed as a more effi­
+cient alternative to conventional cryogenic air separation [12]. The 
+combination of the CLAS and the oxy-fuel process is illustrated in Fig. 1b 
+[12]. A synergetic advantage of combining the processes is that the CO2- 
+rich stream from the oxy-fuel combustor can be used as the fluidisation 
+medium for the oxygen carriers in the CLAS process. Furthermore, the 
+CLAS process is especially promising when considering the processing of 
+solid fuels that are associated with detrimental interactions involving 
+solid fuel-derived contaminants such as ash, tar and sulphur-containing 
+gases, as the direct contact between the oxygen carriers and the fuel is 
+avoided. This would contribute to improved oxygen carrier lifetimes 
+compared with an analogous CLOU process. As the oxygen carrier 
+reduction (O2 release) and the combustion of the fuel takes place in two 
+separate reactors, each can be operated at their individual optimal 
+conditions: The reducer would be operated at temperatures well below 
+the melting point of the metal oxides, but yet sufficiently high to achieve 
+acceptable rates of O2 release (e.g. > 990 ◦C for the redox pair CuO/ 
+Cu2O) [12]. The oxy-fuel combustor can be operated at temperatures 
+optimal for the combustion (e.g. with an adiabatic flame temperature of 
+ca. 1550 ◦C at 28 vol% O2/CO2, which would match the flame charac­
+teristics of the combustion of fuel in air) [13]. However, the additional 
+capital expenses for a third reactor and the higher operating tempera­
+tures required for the O2 uncoupling are disadvantages of the process in 
+comparison to CLOU [14]. 
+For efficient oxy-fuel combustion, a stream of 25–35 vol% O2 in CO2 
+is required [13,15–17]. Although the Cu-Mn oxides would allow 
+uncoupling of O2 at this volume fraction (above the corresponding O2 
+equilibrium temperatures of 960–974 ◦C), it is not advantageous from a 
+heat integration standpoint to operate the reducer and oxidiser with 
+such a large temperature difference [18]. 
+Using steam as an inert dilutant inside the reducer (injected together 
+with the CO2) would allow operation at lower temperatures while 
+achieving the desired O2 concentration after downstream condensation 
+of the steam. 
+A dilution of the CO2 with steam in a molar steam-to-CO2 ratio of 2:1 
+and 10 vol% O2 at the reducer outlet (the volume fraction of O2 inside 
+the reactor would be identical if it was well-mixed) would increase to ca. 
+30 vol% O2 after condensation. We therefore used a 10 vol% O2/CO2 
+mixture for the CLAS relevant O2 release experiments at 850–950 ◦C in 
+this work. It shall be mentioned that experiments with a decomposition 
+under pure CO2 (and pO2 ~ zero) were not carried out. During a 
+decomposition of oxides in pure CO2 (instead of O2/CO2) the equilib­
+rium is shifted towards the formation of carbonates, which could hinder 
+the release of O2. However, for Cu and Mn oxides, carbonates are not 
+thermodynamically stable in the studied temperature, carbonate for­
+mation is thus unlikely for the materials in this work, and it is also 
+(arguably) impossible to operate the reducer of the CLAS process with 
+Nomenclature 
+CO2 
+Concentration of O2 [mol(O2)/m3] 
+CO2,eq 
+Equilibrium concentration of O2 [mol(O2)/m3] 
+D(O2 in N2)
+Molar diffusion of O2 in N2 [cm2 s-1] 
+Hθ
+T 
+Enthalpy of reaction [kJ mol]. 
+kg 
+External mass transfer coefficient [m/s]. 
+MWi 
+Relative molecular mass of i [g mol-1] 
+mox 
+Mass of the fully oxidised oxygen carrier [g] 
+mred 
+Mass of the fully reduced oxygen carrier [g] 
+msample 
+Mass of the sample [g] 
+n 
+order of the reaction 
+Nr 
+Molar diffusional flux [mol s-1 m-2] 
+pO2 
+Partial pressure of O2 [kPa] 
+P 
+Total pressure [kPa] 
+pO2,eq 
+O2 equilibrium partial pressure [kPa] 
+R 
+Universal gas constant (R = 8.314 J mol−1K−1) 
+r 
+Observed rate of reaction per unit of oxygen carrier mass 
+[mol(O2)g−1s−1] 
+(Σv)i 
+Diffusion coefficients of species i 
+Sθ
+r 
+Entropy of reaction [J K-1 mol-1] 
+T 
+Temperature [◦C] 
+t 
+Time [s, min or h] 
+Teq 
+Equilibrium temperature,T at which pO2 = pO2,eq [◦C] 
+Vm 
+Molar volume [m3 mol-1] 
+˙vg,in 
+Volumetric flow rate of the gas leaving the fluidised bed 
+reactor [cm3 min-1] 
+˙vg,out 
+Volumetric flow rate of the gas leaving the fluidised bed 
+reactor [cm3 min-1] 
+Xox 
+Degree of conversion during the oxidation reaction (i = ox) 
+and the reduction or O2 release reaction (i = red) [-] 
+yO2 
+Molar fraction of O2 [mol mol-1] 
+Greek letters 
+ρp 
+Particle or envelope density [g cm-3] 
+ρsk 
+Skeletal density determined by He pycnometry [g cm-3] 
+(Σv)i 
+Diffusion coefficient for gas molecules of species i [-] 
+σ 
+Electrical conductance [µS] 
+σCS 
+Average crushing force calculated from single particle tests 
+[N] 
+Abbreviations 
+BET 
+Brunner-Emmett-Teller 
+BJH 
+Barrett-Joyner-Halenda 
+FBR 
+fluidised bed reactor 
+LCOE 
+levelised cost of electricity 
+TGA 
+thermo-gravimetric analyser  
+C.F. Patzschke et al.                                                                                                                                                                                                                            
+
+
+===== Page 3 =====
+
+Chemical Engineering Journal 407 (2021) 127093
+3
+pO2 ~ zero. 
+1.3. Process efficiencies and economics 
+The CLOU and the CLAS processes are also promising from an eco­
+nomic standpoint, as their relatively low energy penalties for gas sepa­
+ration allow them to have higher thermal efficiencies than most other 
+CCS processes: The U.S. Department of Energy’s NETL estimated that a 
+coal-fired in situ gasification CLC power plant (i.e. the CLOU process) has 
+a lower heating value (LHV) efficiency and a levelised cost of electricity 
+(LCOE) of 36.4% and 115 $2011/MWhe, respectively [19]. The same 
+study estimate for a pulverised coal plant with a post combustion CO2 
+capture using amine scrubbing a LHV efficiency and LCOE of 29.5% and 
+137 $2011/MWhe, respectively [19]. 
+For the CLAS process, a study assessed the economics for retrofitting 
+eight existing coal-fired power plants in Australia with oxy-fuel com­
+bustion systems [20]. The LCOE were calculated for each plant with 
+three different configurations for the O2 production: (i) cryogenic air 
+separation (113–131 AU$2014/MWh ~ 101–117 US$2014/MWh), chem­
+ical looping air separation with reduction of the Cu-based oxygen car­
+riers (ii) in steam (101–114 AU$2014/MWh ~ 91–103 US$2014/MWh) or 
+(iii) in recycled-flue gas (92–103 AU$2014/MWh ~ 83–93 US$2014/ 
+MWh) [19]. It has been shown that the CLC processes could reduce the 
+cost of electricity systems thereby adding significant value to them [21]. 
+The utilisation of biomass in CL-processes allows for net negative CO2 
+emissions (a net removal of CO2 from the atmosphere) and could thus be 
+vital for achieving the countries’ CO2 emission reduction targets [21]. 
+Furthermore, niche applications tailored to local circumstances may be 
+lucrative as well. For example, the novel ideas for CLAS processes 
+include a system in which the enthalpy for the reducer is provided by 
+concentrated solar power, while the oxy-fuel combustor utilises olive 
+tree pruning. This process is particularly interesting, as it uses cheap and 
+abundant energy carriers (solar energy and agricultural residues) for a 
+net removal of CO2 from the atmosphere [22]. However, the investors’ 
+perception of excessive risks, costs and inefficiencies of CLC and its 
+variants continues to be a main barrier for commercialisation [21]. 
+1.4. Oxygen carrier material selection 
+For the CLOU and the CLAS processes, careful selection of the ma­
+terials and the design of the synthesis procedures, for the oxygen carriers 
+is essential for optimal process performance [23]. Conventional methods 
+for preparing oxygen carrier materials include the co-precipitation of 
+metal salts [24,25], impregnation of an active metal on an inert support 
+material [26,27] and the mechanical mixing of metal oxide powders 
+[25]. 
+The CuO/Cu2O pair is the most widely investigated metal oxide 
+system for the CLOU and CLAS processes owing to the materials fast 
+rates of the redox reaction at relevant temperatures (ca. 800–900 ◦C for 
+the CLOU [28–30] process, and 850–1050 ◦C for the CLAS process [12]) 
+and a high theoretical O2 release capacity (10.1 wt%).[12,31–33] In 
+comparison, the redox-pair Fe2O3/Fe3O4, which has widely been 
+Fig. 1. Simplified schematic diagram of (a) the chemical looping combustion with oxygen uncoupling (CLOU) process with reactor temperatures used for pilot plant 
+experiments [6–8] and (b) the chemical looping air separation (CLAS) in combination with oxy-fuel combustion process with temperatures suggested in this work. 
+C.F. Patzschke et al.                                                                                                                                                                                                                            
+
+
+===== Page 4 =====
+
+Chemical Engineering Journal 407 (2021) 127093
+4
+suggested as promising for the O2 transport in a CLC process which 
+oxidises a fuel directly whilst reducing the oxygen carrier, has only an 
+oxygen storage capacity of 3.3 wt%. A comparison of theoretical O2 
+capacities of other commonly suggested redox-pairs is presented in 
+Table S7 in the Electronic Supplementary Material (ESM)†. However, 
+CuO-based oxygen carriers are known to exhibit poor mechanical and 
+thermal stabilities, as they are prone to agglomeration, solid-state re­
+action with the supporting phase, and attrition at process conditions 
+[34]. 
+Mn2O3/Mn3O4 has also been considered for CLOU and CLAS appli­
+cations [12–14]. Mn2O3/Mn3O4 is less prone to agglomeration during 
+redox-reaction in a fluidised bed than the CuO/Cu2O and releases O2 at 
+lower temperatures, however, the O2 storage capacity is relatively low 
+(3.4 wt%) [12–14]. 
+The use of Cu-Mn oxides combines the advantages of both materials. 
+These materials have been tested for their chemical looping perfor­
+mance with gaseous fuels [35,39], such as CH4 [35] and syngas [39], 
+and with solid fuels [6–8,35–41], such as pine sawdust [7], almond 
+shells [7], olive stones [7], lignite coal [6], sub-bituminous coal [6–8], 
+bituminous coal [36,37] (and its pyrolytically obtained char [37]), 
+wood char [40] and charcoal [41]. The authors used for these experi­
+ments a fixed bed reactor [35], a 1.5 kWth continuous CLC rig [6–8] 
+(consisting of two interconnected fluidised bed reactors), or a batch 
+fluidised bed reactor [36,37,40,41]. A high crushing strength, a low 
+attrition rate and stable oxidation and O2 release rates have been re­
+ported [8,36]. 
+However, to our best knowledge, Cu-Mn oxides have not yet been 
+investigated as oxygen carriers for the CLAS process. In this study, we 
+compare the performance of Cu-Mn oxides during experiments at CLOU 
+conditions with those at CLAS conditions. We elucidate the relevant 
+reactions and present as well as apply a novel approach for estimating 
+the equilibrium O2 partial pressure and heat of reaction (which can also 
+be used for other combined metal oxide systems). The oxygen carriers 
+were prepared by an optimised co-precipitation procedure to achieve a 
+high degree of Cu and Mn dispersion. 
+2. Materials and methods 
+2.1. Preparation of the oxygen carriers via co-precipitation 
+For the co-precipitation of the oxygen carrier precursors, Cu 
+(NO3)2⋅2.5H2O (99.99%, Sigma) and Mn(NO2)3⋅4H2O (97.5%, Sigma) 
+were weighed out in the desired molar Cu:Mn ratios and dissolved in de- 
+ionised water (DI water) to obtain 200 cm3 solutions with a total ion 
+concentration of 1 M. Alkaline solutions with [Na+] = 2 M were pre­
+pared by dissolving Na2CO3 (99.6%, Acros) or mixtures of Na2CO3 and 
+NaOH (Sigma-Aldrich) in DI water for controlling the pH value during 
+the co-precipitation. 
+A co-precipitation rig (illustrated in Fig. S3 in the ESM†) was used for 
+the synthesis: After priming the reaction vessel with a small amount of 
+DI water (30 ± 1 cm3), Masterflex L/S (Cole-Parmer) pumps were used 
+to pump the acidic and the alkaline solutions into the reaction vessel. 
+The liquid phase in the reaction vessel was continuously stirred 
+(300 rpm) by a magnetic stirrer, and the temperature was kept constant 
+at 25 ± 1 ◦C. The flow rate of the acidic solution (containing the metal 
+nitrates) was set to 10 cm3 min−1, while the flow rate of the alkaline 
+solution was controlled by a programme written on VEE (Agilent) to 
+maintain the target pH value (±0.2). After complete mixing of the so­
+lutions, the mixture was allowed to age for 30 min without further 
+stirring. The precipitate was then washed in DI water, which was then 
+separated by centrifugation at 3000 rpm for 2 min. This step was 
+repeated until the measured conductivity of the liquid phase was σ < 50 
+µS. The precipitate was dried overnight at 60 ◦C in a well-ventilated 
+oven and then calcined for 2 h at 900 ◦C in an airflow of 16.67 cm3 
+s−1 at ca. 20 ◦C and 101.325 kPa, i.e. at normal temperature and pressure 
+(NTP). For the calcination, a heating rate of 15 ◦C min−1 was used. 
+The first series of samples was prepared with varying molar Cu:Mn 
+ratios (i.e. 1:2, 1:1, and 2:1) using only Na2CO3 as the co-precipitation 
+agent. These samples were designated 1Cu-2Mn-CP, 1Cu-1Mn-CP and 
+2Cu-1Mn-CP, respectively. A second series of samples was prepared 
+using a molar Cu-Mn ratio of 1:1 and [Na+] in the alkaline solution of 
+2 M, but partially substituting the Na2CO3 with NaOH. The samples in 
+which the Na+ was contributed from Na2CO3 and NaOH in molar ratios 
+of 1:2 and 2:1 were named 1Cu-1Mn-CP-H and 1Cu-1Mn-CP-HH, 
+respectively. Materials with only NaOH in the alkaline solution were 
+not co-precipitated, as no pH value at NTP allowed co-precipitation of a 
+solid manganese species without simultaneous formation of CuO (which 
+is undesirable as it inhibits the formation of Cu-Mn oxides during 
+calcination as later shown). The theoretical molar fractions of the metal 
+species during co-precipitation were calculated based on their reaction 
+enthalpies (the equilibrium plots are presented in the ESM† as Fig. S1 
+and Fig. S2). This calculation was used to select a pH value, which was as 
+high as possible, but still within the pH range to precipitate the desired 
+product. We have also prepared numerous materials at a lower pH value 
+and report their material characterisation results in the ESM†. Further­
+more, a batch of mechanically mixed oxygen carrier (1Cu-1Mn-MM) was 
+prepared as a benchmark: This was done by mixing 0.2 mol of CuO and 
+0.2 mol of MnO with 30 cm3 of DI water. The slurry was loaded into a 
+planetary ball mill (PM 400, RETSCH) together with steel balls and 
+milled for 6 h at 250 rpm. X-ray fluorescence spectroscopy (XRF) 
+showed no traces of iron, confirming that no contamination of attrited 
+fines from the steel balls had occurred. The samples were dried for 12 h 
+at 60 ◦C in a well-ventilated oven and then calcined for 6 h at 950 ◦C 
+under air (16.67 cm3 s−1 at NTP) using a heating rate of 15 ◦C min−1. 
+Compared to the co-precipitated oxygen carriers, a longer calcination 
+time (6 h instead of 2 h) and a higher temperature (950 ◦C instead of 
+900 ◦C) was used for the calcination of the mechanically mixed oxygen 
+carriers to obtain a comparable conversion to the bimetallic copper 
+manganese oxide. The freshly calcined samples prepared via co- 
+precipitation or mechanical mixing were carefully crushed with a 
+mortar and pestle and then sieved into the desired size fractions. 
+2.2. Characterisation of the oxygen carriers 
+N2 adsorption analysis at 77 K was carried out in a Micromeritics 
+ASAP 2000 gas adsorption analyser. The data were used to calculate the 
+specific surface area and the cumulative pore volume according to the 
+BET method [42] and BJH model [43], respectively. 
+An AccuPyc II 1340 (Micromeritics) was used for He displacement 
+pycnometry (He-pyc.) to measure the skeletal density, ρsk. Mercury 
+intrusion porosimetry (MIP) was carried out in an AutoPore IV (Micro­
+meritics) to obtain the cumulative intrusion, ΣVI, in the range between 
+5 nm and 10 µm. The intrusion in larger pores than 10 µm was not 
+considered, to avoid overstated results due to concave features in the 
+external surface of the particles and inter-particle voids. The porosity, ε, 
+and the particle density, ρp, were calculated iteratively from ρsk (from 
+He-pyc.) and ΣVI (from MIP) by ε = ΣVI⋅ρp and ρp = (1- ε)⋅ρsk. 
+X-ray fluorescence (XRF) was carried out in an Epsilon 3XLE spec­
+trometer (PANalytical) to determine the molar Cu:Mn ratio of the 
+calcined oxygen carriers. Cu-Mn oxides with five different molar Cu:Mn 
+ratios prepared via mechanical mixing were used for the calibration of 
+the XRF measurements. 
+Scanning electron microscopy (SEM) was performed using a LEO 
+Gemini 1525 at 10 kV to visualise the surface morphology of the fresh 
+and the redox-cycled particles. The particles were loaded onto an SEM 
+stub using double-sided carbon tape and sputter-coated with gold for 
+30 s at 20 mA to improve their conductivity (resulting in a ca. 5 nm gold 
+film). SEM was also used to conduct electron-dispersive spectroscopy 
+(EDS) to examine the ion dispersion by elemental mapping and point 
+analysis. Powder X-ray diffraction (XRD) analysis was carried out in an 
+X’Pert PRO (PANalytical) spectrometer using Cu-Kα radiation with 
+λ = 0.1541 nm at 40 kV and 20 mA. During all XRD experiments, a 2θ- 
+C.F. Patzschke et al.                                                                                                                                                                                                                            
+
+
+===== Page 5 =====
+
+Chemical Engineering Journal 407 (2021) 127093
+5
+range between 5◦and 85◦was scanned using a step size of 0.015◦and a 
+time per step of 0.25 s. 
+2.3. Measurement of the crushing strength 
+The crushing strength of the oxygen carrier was measured using a 
+50 N force gauge (Mark-10). The average crushing strength (σCS) was 
+determined by averaging twelve subsequent measurements of the 
+crushing of single oxygen carrier particles sieved into a diameter size 
+range of 300–425 µm. A typical force-versus-time plot during the 
+crushing of an oxygen carrier particle is shown in Fig. S10 in the ESM†. 
+The value for the uncertainty of the average crushing strength within a 
+95% confidence interval was taken as two times the standard deviation 
+of the results from three of these experiments for each sample. In the 
+ESM† we report also the standard deviation across all 36 measurements 
+for each sample, which (in contrast to the uncertainty of the average 
+crushing strength) also contains information about distribution of the 
+strength of the individual particles. 
+2.4. Thermo-gravimetric analysis 
+A thermo-gravimetric analyser (TGA) model Q5000 (TA In­
+struments) was used for thermo-gravimetric analysis of the oxygen 
+carriers in the temperature range 850–950 ◦C. The set-up of the system is 
+illustrated in the ESM† (Fig. S4). The experimental O2 release capacity 
+(ORCexp), as well as the O2 release and oxidation rate, were determined 
+by isothermal redox-cycling at 850 ◦C, and during temperature swing 
+experiments between 850 ◦C and 950 ◦C. During all TGA experiments, 
+oxygen carriers in a size range of 90 – 150 µm were used (low enough to 
+ensure negligible intra-particle diffusion limitations). The total gas flow 
+rate was kept constant at 200 cm3 min−1 at NTP. A platinum crucible (h: 
+1.5 mm, d: 9.8 mm) was used to hold a single layer of oxygen carrier 
+particles. The oxygen carriers were redox-cycled by temperature swing 
+(T swing), O2 partial pressure swing (pO2 swing), and using CH4 as the 
+reducing gas. The T swing experiments were carried out using 10 vol% 
+O2, which was balanced with N2 during the oxidation at 850 ◦C. For the 
+decomposition, the gas was switched to 10 vol% O2/CO2 and the tem­
+perature was increased to 950 ◦C with a maximum heating rate of 
+300 ◦C min−1. Additionally, T swing experiments with decomposition in 
+O2/N2 (instead of O2/CO2) and oxidation in O2/CO2 (instead of O2/N2) 
+were conducted to study the effect of substituting N2 with CO2 on the 
+redox-behaviour of the oxygen carriers. 
+The pO2 swing experiments were conducted isothermally at 850 ◦C 
+using 10 vol% O2/N2 during the oxidation, and pure N2 during the 
+decomposition. Since the focus of this article is the nature of the O2 
+release, the temperatures were selected so that the O2 release during the 
+two different O2-uncoupling modes (T swing and pO2 swing) occurred at 
+practically the same temperature (850 ◦C). 
+The experiments with CH4 were carried out at 700 ◦C using 5 vol% 
+CH4/N2 during the reduction and 10 vol% O2/N2 during the oxidation. 
+The lower temperature was selected, as the CH4-CLC process is typically 
+operated at temperatures lower than those common for the CLOU pro­
+cess, possibly providing here an advantage with regard to the oxygen 
+carrier lifetime. 
+The redox experiments were carried out twice: at a higher sample 
+mass (70 ± 2 mg) which allowed determination of the crystalline phases 
+of the cycled oxygen carriers by means of XRD (a significantly lower 
+sample mass would have compromised the quality of the analysis) and 
+for the reporting of O2 release rates at a lower sample mass (2 ± 0.6 mg), 
+a compromise between maintaining a high signal-to-noise ratio while 
+minimising the depletion or enrichment of O2 in the gas phase inside the 
+TGA furnace during oxidation and decomposition, respectively. During 
+the experiments for the determination of the O2 partial equilibrium 
+pressure, the samples were oxidised in 10 vol% O2 and decomposed in a 
+mixture of O2 and N2 with varying [O2]. The maximum rate of external 
+mass transfer during the O2 release was determined by calculating the 
+molar flow of the O2 gas phase diffusion from the oxygen carrier to the 
+bulk inside the TGA furnace, Nr, by [44], 
+Nr = CD
+lc
+ln
+(
+1 −yr,b
+1 −yr,s
+)
+,
+(1) 
+where C is the molar gas concentration, D the diffusivity of O2 in CO2 
+or N2, and lc the height of the crucible, and yr,b and yr,s is the molar 
+fraction of O2 in the bulk inside the TGA’s furnace and at the particle 
+surface, respectively. This relationship is illustrated in Fig. 2. 
+In equation (1), C is calculated using the ideal gas law, 
+C = P
+RT,
+(2) 
+where P is the absolute pressure (contrary to the partial pressure, pi , 
+elsewhere used in this work), R is the ideal gas constant and T is the 
+temperature in the TGA. The diffusivity in equation (1) is calculated 
+using the empirical correlation proposed for simple molecules by Fuller, 
+Schettler and Gidding, where D(O2inN2) is calculated by [45,46]: 
+D(O2 in N2) = 0.00143T1.75(1/MWO2 + 1/MWN2)1/2
+patm
+[
+(Σv)1/3
+O2 +(Σv)1/3
+N2
+]2
+,
+(3) 
+where MWO2 = 32 g mol−1 and MWN2 = 28 g mol−1 are the relative 
+molecular masses, here, patm is the pressure in atmospheres (atm), and 
+(Σv)O2 = 16.3 and (Σv)N2 = 18.5 are the diffusion coefficients for O2 and 
+N2, respectively. The molar fraction of O2 in the bulk, yr,b, was assumed 
+to be equal to the molar fraction of O2 at the inlet of the TGA. That this 
+holds true was confirmed by varying the molar flow rate into the TGA. At 
+lower flowrates (e.g. below 120 cm3 min−1) the observed rate of O2 
+release increased significantly with an increase in the gas flowrate, while 
+at higher flow rates (e.g. 200 cm3 min−1) the change of the observed rate 
+of O2 release with an increase in the gas flow rate was close to zero, as 
+shown by the polynomial fit in Fig. S21 in the ESM†. 
+The O2 release was assumed to be pseudo-steady-state and the partial 
+pressure of O2 at the surface of the particle was thus assumed to equal 
+the equilibrium O2 partial pressure (pO2,eq). A correlation for pO2,eq was 
+developed using the results from isothermal TGA experiments, as 
+described in the following sections of this paper. The values for the 
+crucible radius and height were 4.9 × 10-3 m and 1.5 × 10-3 m, 
+Fig. 2. Drawing of the TGA cross-section and illustration of the gas flow and 
+diffusion of gas from the oxygen carrier, adapted from [44]. 
+C.F. Patzschke et al.                                                                                                                                                                                                                            
+
+
+===== Page 6 =====
+
+Chemical Engineering Journal 407 (2021) 127093
+6
+respectively. 
+At 800 ◦C, the calculated values of the total gas concentration and 
+diffusivity were 11.356 mol m−3 and 1.936 × 10-8 m2 s−1, respectively. 
+The conversion of the oxygen carrier during decomposition,Xred, and 
+during oxidation, Xox, was determined by [47]: 
+Xred = mox −mt
+mox −mred
+,
+(4) 
+and, 
+Xox = mox −mt
+mox −mred
+,
+(5) 
+where mox is the measured mass of the oxygen carrier in its fully 
+oxidised state, mt is the measured mass during the experiment and mred is 
+the theoretical mass of the fully reduced oxygen carrier calculated by, 
+mred = mox
+( ∑wox,i MWox,i
+∑wred,i MWred,i
+)
+,
+(6) 
+where MWox,i and MWred,i are the relative molar masses of component 
+i of the oxidised and reduced phases, respectively, and wox,i and wred,i are 
+their mass fractions, calculated assuming the highest possible mass 
+fraction of CuMnO2 in the fully reduced state. The observed rate of re­
+action, r, was calculated by, 
+r = −dm
+dt
+1
+mox
+1
+MWO2
+(7) 
+The rate was found to be first order with respect to the difference of 
+the actual O2 concentration and the O2 equilibrium concentration (c.f. 
+section 3.3): 
+r = koverall
+(
+CO2 −CO2,eq
+)
+(8) 
+For a kinetic controlled rate, koverall would be a function of a rate 
+constant (ks), the activation energy (EA), the temperature (T) and the 
+real gas constant (R), so that the rate expression becomes, 
+r = ksexp
+(EA
+RT
+)(
+CO2 −CO2,eq
+)n
+(9) 
+where n is the reaction order with respect to difference of O2 con­
+centrations. Besides TGA experiments, the oxygen carriers were tested in 
+the fluidised bed. 
+2.5. Long-term redox-cycling in a fluidised bed 
+The long-term cycling performances of the oxygen carriers were also 
+studied in a fluidised bed reactor (FBR). The set-up of this reactor is 
+illustrated in the ESM† (Fig. S7). In contrast to the TGA experiments, the 
+oxygen carriers in the fluidised bed are also exposed to mild mechanical 
+stresses (due to interparticle collisions and collisions with the reactor 
+walls) in addition to thermo-chemical stresses. As bulk bed material 35 g 
+of quartz sand were used in addition to the oxygen carriers to provide an 
+isothermal well fluidised bed and minimise temperature variations 
+caused by the reaction enthalpies. The size range of the oxygen carrier 
+and the quartz sand was 300–425 µm. Before the oxygen carriers were 
+loaded, the O2 volume fraction of the gas leaving the reactor was 
+measured (yO2,inert) during experiments in which the inert bed (con­
+taining only the sand) was exposed to the alternating reducing (N2) and 
+oxidising conditions (10 vol% O2/N2). Then, 700 mg of the oxygen 
+carriers was added to the bed and the particles were cycled for 50 redox- 
+cycles at 850 ◦C. The O2 volume fraction at the outlet during the redox 
+cycling of the oxygen carriers (yO2,sample) was measured and the reaction 
+rates were calculated according to equation (10), 
+r =
+(
+yO2,inert −yO2,sample
+) ˙vg,out
+msampleVm
+,
+(10) 
+where ˙vg,out is the volumetric flow rate of the gas leaving the reactor 
+(at NTP), msample is the mass of oxygen carrier loaded into the reactor and 
+Vm is the molar volume of the gas (at NTP). The value for ˙vg,out in 
+equation (10) was calculated from the gas flow rate into reactor by the 
+relationship ˙vg,out = ˙vg,in/(1 −yO2,sample). The oxygen release capacity 
+(ORCexp) was calculated by, 
+ORCexp =
+∫t
+t0
+rMW(O2),
+(11) 
+where MW(O2) is the molar mass of O2. The oxygen carriers from the 
+fluidised bed as well as fines collected in the elutriation trap were 
+recovered 
+after 
+the redox 
+cycling 
+experiments 
+for 
+material 
+characterisation. 
+3. Results and discussion 
+3.1. The structure of the precursors and calcined samples and the effect of 
+variations in preparation conditions 
+The precursors of the co-precipitated samples were studied using 
+XRD. The diffraction patterns together with the identified phases are 
+presented in the ESM† (Fig. S15). In the precursors of the samples 1Cu- 
+2Mn-CP, 1Cu-1Mn-CP, 1Cu-1Mn-CP-H, and 2Cu-1Mn-CP, MnCO3, 
+(JCPDS 
+00–044-1472) 
+and 
+potentially 
+traces 
+of 
+malachite 
+(Cu2CO3(OH)2, JCPDS 00–001-0959) were identified. The precursors of 
+the first series of samples (the Cu:Mn ratio variation) were mixed with 
+10 wt% CeO2 as an internal standard, and the relative intensity ratios to 
+corundum of MnCO3, Cu2CO3(OH)2 and CeO2 were used to calculate the 
+mass fractions of the crystalline phases [48]. This calculation, which is 
+detailed in section 2.7 in the ESM†, revealed that only 12 ± 6 wt%, 
+5 ± 2 wt%, and 2 ± 1 wt% of the samples 1Cu-2Mn-CP, 1Cu-1Mn-CP, 
+and 2Cu-1Mn-CP, respectively, is crystalline. Though most of the peaks 
+of malachite and MnCO3 overlap, it is likely that most of the crystalline 
+material is MnCO3, owing to the absence of a reflection at 2θ = 17.4◦for 
+malachite (c.f. Fig. S15 in the ESM†), and the decrease in the crystallinity 
+of the samples with a decrease in its manganese content (c.f. Fig. S16 in 
+the ESM†). These calculations indicate that the larger mass fraction of 
+the samples consisted of amorphous Cu and Mn, which allows for a 
+better dispersion of the two types of metal ions, and hence aids the 
+formation of copper manganese oxide (as indicated by the XRD results). 
+The substitution of Na2CO3 with NaOH during the co-precipitation 
+resulted in an increase in precursors’ crystallinity as Cu precipitated 
+predominantly as Cu2(OH)3⋅NO3 (JCPDS 00–003-0061). This was also 
+correctly predicted by the equilibrium diagrams for the precipitated 
+solution (ESM†, Fig. S1 and Fig. S2). Precursors with a high mass fraction 
+of a crystalline phase containing only one of the metal species (like Cu 
+hydroxide nitrate in the sample Cu-Mn-CP-HH) are not ideal, as the lack 
+of mixing of Cu and Mn inhibits the formation of copper manganese 
+oxide (as confirmed by a high mass fraction of single metal oxides 
+detected by XRD in the calcined samples). 
+In all three calcined samples synthesised for which Na2CO3 was used 
+as the sole co-precipitation agent, the primary phase exhibited a face- 
+centred cubic cell structure belonging to the Fd3m space group. The 
+corresponding diffraction patterns matched best with copper manganese 
+spinel oxides with the structure A2+
+8 B+3
+16 O−2
+32 . In this work, the structural 
+formula is referred to in its simplified form AB2O4, where A is Cu2+or 
+Mn2+ and B is Mn3+. Furthermore, the oxides of Cu and Mn were 
+identified as minor phases. 
+In detail, the phases identified in the calcined sample 1Cu-2Mn-CP, 
+were CuMn2O4, (JCPDS 01–071-1143) and minor amounts of Mn3O4 
+(JCPDS 00–024-0734). In 1Cu-1Mn-CP, the main phase is Cu1.5Mn1.5O4 
+(JCPDS 01–070-0262) and small amounts of CuO (JCPDS 00–045-0937) 
+were detected. In 2Cu-1Mn-CP, Cu1.5Mn1.5O4 (JCPDS 01–070-0262) and 
+CuO (JCPDS 00–045-0937) were identified as the main phases. 
+Furthermore, the precursors and freshly calcined oxygen carriers 
+C.F. Patzschke et al.                                                                                                                                                                                                                            
+
+
+===== Page 7 =====
+
+Chemical Engineering Journal 407 (2021) 127093
+7
+have been characterised by BET and MIP (c.f. Table 1). 
+For the samples co-precipitated with sodium carbonate, the BET 
+surface area decreased slightly when increasing the molar Cu:Mn ratio 
+from 1:2 (0.9 ± 0.1 m2 g−1) to 1:1 (0.7 ± 0.1 m2 g−1), and then increased 
+significantly when increasing the molar Cu:Mn ratio to 2:1 (1.4 ± 0.1 m2 
+g−1), while the porosity remained in the range 0.44 – 0.63. Further 
+analysis of the MIP intrusion data (c.f. Fig. S9 in the ESM†) suggests that 
+this was caused by a shift from larger to smaller pores when increasing 
+the molar Cu:Mn ratio (in the sample with a molar ratio of 1Cu:2Mn, the 
+ratio of the volume intruded in pores ≥1 µm to the volume intruded in 
+pores < 1 µm was 99%:1%, while for the samples with 1Cu:1Mn and 
+2Cu:1Mn, this ratio decreased to 28%:72% and 4%:96%, respectively. 
+The shift to smaller pores and a widening of the pore size distribution 
+with an increase in the molar Cu:Mn ratio can be explained with a 
+decrease in the mass fraction of the crystalline phase (which is likely to 
+be mainly MnCO3, c.f. Fig. S16 in the ESM†), and an increase in the mass 
+fraction of amorphous Cu and Mn species (as a lower crystallinity and 
+smaller mean crystallite sizes result in a higher degree of dispersion of 
+the carbonate groups forming smaller pores). In general, the 
+morphology of the calcined samples was found to be very sensitive to a 
+change in the synthesis conditions. We have presented the full results of 
+the material characterisation of the twelve different co-precipitated 
+samples in Table S1-S3 in the ESM†, which could be used to further 
+examine the relationship between the oxygen carriers’ morphology and 
+the co-precipitation conditions. Here, this has not been done, as it was 
+not the focus of this work. 
+In addition to the sample 1Cu-1Mn-CP (precipitated using an 1 M 
+Na2CO3 solution), two variants with the same nominal molar Cu:Mn 
+ratio were prepared, for which the co-precipitation agent contained 
+either 0.66 M Na2CO3 + 0.66 M NaOH (1Cu-1Mn-CP-H) or 0.33 M 
+Na2CO3 + 1.33 M NaOH (1Cu-1Mn-CP-HH). For this increase in sodium 
+hydroxide, the amount of sodium carbonate was decreased to always 
+maintain a [Na+] of 2 M in the alkaline solution used for the co- 
+precipitation. In sample 1Cu-1Mn-CP-H, Cu1.5Mn1.5O4 
+(JCPDS 
+01–070-0262) and CuO (JCPDS 00–045-0937) were detected as the 
+main phases, and in sample 1Cu-1Mn-CP-HH minor amounts of the 
+copper manganese oxide Cu1.5Mn1.5O4 (JCPDS 01–070-0262) and sig­
+nificant amounts of CuO (JCPDS 00–045-0937) and Mn3O4 (JCPDS 
+00–024-0734) were identified. The increasing substitution of Na2CO3 
+with NaOH, and the required decrease of the pH value (to prevent the 
+formation of CuO in the precursor), resulted in a decrease in the fraction 
+of copper manganese oxide, and an increase in the fractions of the single 
+metal oxides. The increase in [NaOH]:[Na2CO3] and the adjustment of 
+the pH value resulted in a decrease in the BET surface area from 0.7 m2/g 
+(1Cu:1Mn-CP) to 0.1 m2/g (1Cu:1Mn-CP-HH) and a decrease in porosity 
+from 0.21 to zero. This decrease in porosity and surface area could be 
+explained by a denser packing of the species in the precursors upon co- 
+precipitation, as a higher mass fraction of highly crystalline phases form. 
+Again, it would be reasonable to carry out a (semi-)factorial experiment, 
+in which the molar Cu:Mn ratio, the pH value of the co-precipitation, and 
+the composition of the co-precipitation agent are varied separately to 
+elucidate how each of those variables is affecting the precursor and the 
+calcined material. This was not the focus of this study, and fewer vari­
+ations of the synthesis conditions were studied only to demonstrate the 
+importance of the selection of the correct co-precipitation agent and pH 
+range (ESM†, Fig. S1 and Fig. S2), as well as to show that a crystalline 
+precursor can inhibit the formation of a combined metal oxide. 
+As a benchmark, a mechanically mixed sample (1Cu-1Mn-MM) was 
+prepared, and XRD analysis identified Cu1.5Mn1.5O4 (JCPDS 01–070- 
+0262) as the main phase and CuO (JCPDS 00–045-0937) and Mn3O4 
+(JCPDS 00–024-0734) as the minor phases. SE micrographs of samples 
+with a molar Cu:Mn ratio of 1:1 prepared by co-precipitation and me­
+chanical mixing are shown in Fig. 3C. In this figure, the decrease in 
+porosity with an increase in [NaOH]:[Na2CO3] can be seen 
+(Fig. 3Ca → b → c). Furthermore, it can be seen in Fig. 3Cd that the 
+sample prepared via mechanical mixing has a higher variation in the 
+pore size and more irregular pore shapes. In Fig. 3C, it can be observed 
+that the porosity decreases with an increased substitution of Na2CO3 
+with NaOH in the alkaline solution used for co-precipitation, and the 
+size and shape of the pores of the mechanically mixed sample (d) are 
+more irregular than those of the co-precipitated samples (a, b, c). 
+The crushing strength, σCS, of all oxygen carriers with a molar 
+1Cu:1Mn ratio was tested (c.f. Table 1), and the results show that the co- 
+precipitation agent and pH value had a large impact on the mechanical 
+stability of the oxygen carrier. The values for σCS increased significantly 
+with increasing substitution of Na2CO3 by NaOH (in the investigated 
+range from 3.1 ± 0.7 N – 10.7 ± 0.6 N, c.f. Table 1). This increase in the 
+crushing strength (caused by a reduction in the porosity) indicate that 
+the co-precipitation conditions have a larger effect on the initial me­
+chanical stability of the oxygen carriers than the molar Cu-Mn ratio or 
+the calcination conditions. For the latter, only a small increase was 
+measured as the calcination time was increased from 2 h to 6 h (from 
+3.1 ± 0.3 N to 3.3 ± 0.3 N), an increase in the temperature (to 950 ◦C for 
+6 h) increased the crushing strength further to 3.4 ± 0.3 N (all crushing 
+strength results and crystalline phases for the varied synthesis and 
+calcination conditions are listed in Table S3 in the ESM†). This indicates 
+Table 1 
+Properties and crystalline phases of the precursors and the freshly calcined oxygen carriers. For the co-precipitation of all samples, the molar concentration of Na+ in 
+the alkaline solution was 2 M.  
+Sample 
+designation a 
+pH valueb 
+Alkaline solution [Na2CO3]: 
+[NaOH] c 
+SBET [m2/ 
+g] 
+porosity, 
+ε 
+crushing strength, 
+σCS [N] 
+composition of the material determined by XRD (minor 
+phases in brackets) 
+uncalcined (precursor) 
+calcined 
+1Cu-2Mn-CP 
+8.5 ± 0.1 
+1 M : 0 M 
+0.9 ± 0.1  
+0.63 
+n.d. 
+amorphous, (MnCO3, 
+malachite) 
+CuMn2O4, Mn3O4 
+1Cu-1Mn-CP 
+8.3 ± 0.1 
+1 M : 0 M 
+0.7 ± 0.1  
+0.44 
+3.1 ± 0.7 d 
+amorphous, (MnCO3, 
+malachite) 
+Cu1.5Mn1.5O4, (CuO) 
+2Cu-1Mn-CP 
+8.5 ± 0.1 
+1 M : 0 M 
+1.4 ± 0.1  
+0.58 
+n.d. 
+amorphous, (MnCO3, 
+malachite) 
+Cu1.5Mn1.5O4, CuO 
+1Cu-1Mn-CP-H 
+7.2 ± 0.1 
+0.66 M : 0.66 M 
+0.2 ± 0.1  
+0.01 
+8.5 ± 0.6 
+amorphous, (MnCO3, 
+malachite) 
+Cu1.5Mn1.5O4, CuO 
+1Cu-1Mn-CP-HH 
+6.0 ± 0.1 
+0.33 M : 1.33 M 
+0.1 ± 0.1  
+0.00 
+10.7 ± 0.6 
+Cu2(OH)3⋅NO3, (MnCO3) 
+CuO, Mn3O4, 
+(Cu1.5Mn1.5O4) 
+1Cu:1Mn-MM 
+n.a. 
+n.a. 
+0.3 ± 0.1  
+0.49 
+1.7 ± 0.7 
+CuO, MnO 
+Cu1.5Mn1.5O4, (CuO, 
+Mn3O4)  
+a the sample notation refers to the molar Cu:Mn ratio and the synthesis method (CP = co-precipitated with 1 M Na2CO3, CP-H = co-precipitated with 0.66 M 
+Na2CO3 + 0.66 M NaOH, CP-HH = co-precipitated with 0.33 M Na2CO3 + 1.33 M NaOH, MM = mechanically mixed); b the measured pH value during the co- 
+precipitation, c this column lists the molar concentration of precipitation agents in the alkaline solution used for co-precipitation. The alkaline solution used for 
+the co-precipitation contained for all samples an [Na+] of 2 M; d additionally samples calcined at 900 ◦C for 6 h and 950 ◦C for 6 h were prepared. For these samples, the 
+measured crushing strength was 3.3 ± 0.7 N and 3.4 ± 0.6 respectively; n.a. = not applicable. 
+C.F. Patzschke et al.                                                                                                                                                                                                                            
+
+
+===== Page 8 =====
+
+Chemical Engineering Journal 407 (2021) 127093
+8
+that an optimisation of the co-precipitation procedure may have a larger 
+impact on the mechanical stability of the calcined materials than other 
+parameters, such as the calcination duration. These findings may be of 
+potential interest when considering large-scale oxygen carrier produc­
+tion. The mechanically mixed oxygen carriers have the lowest crushing 
+strength, even though the porosity of some co-precipitated samples is 
+higher. A larger variation in the pore sizes and irregular pore shapes 
+(Fig. 3Bd) are likely to be the reason for the low crushing strength. 
+3.2. Redox-cycling by O2 partial pressure swing and temperature swing 
+As the three samples 1Cu-2Mn-CP, 1Cu-1Mn-CP and 2Cu-1Mn-CP 
+had copper manganese oxide mass fractions close to unity as well as a 
+relatively high porosity (less resistance to intra-particle diffusion), these 
+oxygen carriers were selected for the detailed redox-experiments 
+described in this section. The samples were repeatedly decomposed 
+and oxidised by isothermal O2 partial pressure swing (pO2 swing), and by 
+non-isothermal temperature swing (T swing). Some further experiments 
+with varying gas compositions were carried out as well. The results of 
+Fig. 3. Crystal structure and morphology of the oxygen carriers: (A) XRD patterns of the oxygen carriers of this study calcined at 900 ◦C for 2 h in air using a flow rate 
+of 16.67 cm3 s−1 at NTP with sample designation on plot area; (B) XRD patterns of redox-cycled oxygen carriers (a-c) 1Cu-2Mn-CP, (d-f) 1Cu-1Mn-CP, and (g-i) 2Cu- 
+1Mn-CP recovered at the end of the seventh oxidation period (a, d, g), the seventh decomposition period under pure N2 (b, e, h), and decomposition period under 
+10 vol% O2/CO2 (c, f, i); (C) Scanning electron micrographs of the freshly calcined oxygen carriers at 30 k magnification. The samples are: (a) 1Cu-1Mn-CP, (b) 1Cu- 
+1Mn-CP-H, (c) 1Cu-1Mn-CP-HH, and (d) 1Cu-1Mn-MM. 
+C.F. Patzschke et al.                                                                                                                                                                                                                            
+
+
+===== Page 9 =====
+
+Chemical Engineering Journal 407 (2021) 127093
+9
+these experiments are shown in Fig. 4a-f. The relative weight change of 
+the pO2 swing and T swing experiments for 1Cu-2Mn-CP is shown in 
+Fig. 4a and Fig. 4d, respectively. 
+The weight change of all three samples during the seventh decom­
+position of the pO2 swing and T swing experiments is shown in Fig. 4b 
+and Fig. 4e, respectively. 
+The weight change of 1Cu-2Mn-CP during the seventh redox-cycle of 
+the pO2 swing and T swing experiments are compared in Fig. 4c. Initially, 
+the weight change profiles are identical. However, around m/m0 = 0.98 
+the slope of the mass change curve of the experiment with 10 vol% O2/ 
+N2 diverges to zero, while the mass change of the experiment with 0 vol 
+% O2/N2 continues to decrease steadily until m/m0 = 0.957. The cause 
+will be elucidated in detail later in this section together with the eval­
+uation of the phases identified by XRD. The weight change during the 
+7th redox-cycle of 1Cu-2Mn-CP with T swing using 10 vol% O2/CO2 
+during the decomposition and 10 vol% O2/N2 during the oxidation is 
+compared with the decomposition and oxidation in 10 vol% O2/N2 (8th 
+redox-cycle) and the decomposition and oxidation in 10 vol% O2/CO2 
+for (9th redox-cycle) in Fig. 5f. An identical weight change profile 
+demonstrates that the substitution of N2 with CO2 during the oxidation 
+and decomposition does not affect the redox-behaviour notably. 
+From the experiments shown in Fig. 4a-f, the O2 release capacity, 
+ORCexp, was calculated as described in section 2.4. At the end of the 
+decomposition period of the 7th redox-cycle, the sample was recovered 
+and studied by XRD. Subsequently, the sample was loaded back into the 
+TGA and re-oxidised using the same conditions as the previous seven 
+cycles. The measured O2 release capacities and the phases identified by 
+XRD are presented in Table 2, and the XRD patterns are plotted in 
+Fig. 3C. 
+In the 1Cu-2Mn-CP oxygen carriers recovered after the seventh 
+oxidation period from pO2 and T swing experiments CuMn2O4 (JCPDS 
+01–071-1143) and Cu1.5Mn1.5O4 (JCPDS 01–070-0262) were the main 
+phases identified, with minor amounts of Mn2O3 (JCPDS 00–041-1442; 
+Fig. 3Ca). The absence of significant amounts of the single metal oxides 
+indicates that copper manganese oxide is stable during both chemical 
+looping modes – pO2 and T swing. After the seventh decomposition under 
+pure N2 during the pO2 swing experiments, crednerite (CuMnO2, JCPDS 
+04–017-1231) and hausmannite (Mn3O4, JCPDS 00–024-0734) were 
+identified as the main phases (Fig. 3Cb), together with small amounts of 
+Mn2O3 (JCPDS 00–041-1442) and Cu4O3 (JCPDS 00–033-0480). The 
+sample recovered at the end of the seventh decomposition cycle from T 
+swing experiments contained according to the XRD analysis (Fig. 3Cc) 
+CuMnO2 (JCPDS 04–017-1231) and Mn2O3 (JCPDS 00–041-1442). 
+Based on these results and the reaction stoichiometry of the main phases 
+identified, we propose that the overall redox-reaction during pO2 and T 
+swing experiments proceeds via reaction R(4) and R(5), respectively. 
+3CuMn2O4 ↔3CuMnO2 + Mn3O4 + O2,
+(R4)  
+4CuMn2O4 ↔(4 −n)CuMnO2 + nCuMn2O4 +
+(
+2 −n
+4
+)
+Mn2O3 +
+(
+1 −n
+4
+)
+O2,
+(R5) 
+From reaction R(4), the theoretical O2 transport capacity (ORCth) 
+during pO2 swing experiments is 4.49 wt%, which is close to the exper­
+imentally obtained value of 4.31 wt%. Reaction R(5) has an indefinite 
+number of solutions with n being any value between zero and four. The 
+ORCexp measured during T swing was 2.01 wt%, and the rate of weight 
+change at the end of the decomposition period is zero (Fig. 4c), indi­
+cating full conversion. For ORCth = ORCexp, n has to be 1.61. This shows 
+that both the oxidised and the reduced form of the copper manganese 
+oxide co-exists in significant quantities. 
+In the 1Cu-1Mn-CP oxygen carriers recovered after the seventh 
+redox-cycle CuMn2O4 (JCPDS 01–071-1143) was identified as the main 
+phase and CuO (JCPDS 00–045-0937) as the minor phase (Fig. 3Cd). 
+XRD of the fresh sample (Fig. 3b) identified the copper manganese oxide 
+as Cu1.5Mn1.5O4, which might suggest that during repeated cycling 
+Fig. 4. The relative weight change, m/m0, measured during redox-cycling experiments with 70 mg of the oxygen carriers over seven redox-cycles (a, b) by pO2,eq 
+swing at 850 ◦C using 10 vol% O2/N2 during the oxidation and pure N2 during the decomposition, and (d, e) by T swing between 850 ◦C (for the oxidation) and 
+950 ◦C (for the decomposition) under 10 vol% O2/N2 and 10 vol% O2/CO2, respectively; (a, d) the m/m0 of 1Cu-2Mn-CP; (b, e) the m/m0 of different oxygen carriers 
+measured during the seventh redox-cycle; (c) a comparison of the decompositions during the seventh redox-cycle of 1Cu-2Mn-CP with cycling by T swing and pO2 
+swing; and (f) the seventh, eighth and ninth redox-cycle of 1Cu-2Mn-CP with oxidation and decomposition with different gas mixtures. The total flowrate during all 
+experiments was kept constant at 170 cm3 min−1 (at NTP). 
+C.F. Patzschke et al.                                                                                                                                                                                                                            
+
+
+===== Page 10 =====
+
+Chemical Engineering Journal 407 (2021) 127093
+10
+Cu1.5Mn1.5O4 transforms to CuMn2O4 and CuO, but the diffraction peaks 
+of the copper manganese oxides are too similar to say this with certainty. 
+In the decomposed samples recovered from the pO2 swing experiment 
+crednerite (CuMnO2, JCPDS 04–017-1231) was the only phase detected 
+by XRD (Fig. 3Cf). In the cycled sample decomposed during T swing 
+experiments CuMnO2 (JCPDS 04–017-1231) and a defective perovskite- 
+like copper manganese oxide with the structural formula Cu2Mn2O5 
+(JCPDS 00–010-0364) were identified (Fig. 3Cg). The results suggest 
+that the overall reaction during pO2 and T swing experiments proceeds 
+via reaction R(6) and R(7), respectively. 
+2CuMn2O4 + 2CuO ↔4CuMnO2 + O2
+(R6)  
+2CuMn2O4 + 2CuO ↔nCuMnO2 + 4 −n
+2
+Cu2Mn2O5 + n
+4O2
+(R7) 
+The theoretical O2 storage capacity of the reaction for the pO2 swing 
+experiments, which is shown in reaction R(6), is 5.05 wt%. This is close 
+to the experimentally obtained value of 4.81 wt% (Table 2). Reaction R 
+(7) has an infinite number of solutions with n being any number in the 
+range 0 ≤n ≤4. To match the ORCexp of 4.08 wt%, n must assume a 
+value of 3.28, which demonstrates that the samples contain mainly 
+crednerite. 
+In the 2Cu-1Mn-CP oxygen carriers recovered at the end of the sev­
+enth oxidation period from T swing experiments, CuMn2O4 (JCPDS 
+01–071-1143) and CuO (JCPDS 00–045-0937) were identified 
+(Fig. 3Ch). Similar to the findings from the pre- and post-cycling XRD 
+analysis of 1Cu-1Mn-CP, the presence of CuMn2O4 indicates that this 
+form is thermodynamically more favourable than Cu1.5Mn1.5O4. In the 
+decomposed sample recovered from the pO2 swing experiments CuMnO2 
+(JCPDS 01–071-1143) and Cu2O (JCPDS 00–005-0667) were identified 
+by XRD (Fig. 3Ci). The decomposed samples from the T swing experi­
+ment contained CuMnO2 (JCPDS 04–017-1231) and CuO (JCPDS 
+00–045-0937), as shown in Fig. 3Cj. We therefore suggest that the 
+overall reaction of the main phases during pO2 and T swing proceeds 
+Fig. 5. Results of the thermodynamic measurements 
+for 1Cu-1Mn-CP in the TGA: (A) a plot of the 
+maximum rate of O2 release against the O2 partial 
+pressure that was set during the decomposition of 
+1Cu-1Mn-CP, at: 800 ◦C (△), 825 ◦C (○), 850 ◦C (⋄) 
+and 875 ◦C (□); (B) The O2 equilibrium pressure as a 
+function of temperature: ○, experimental results for 
+1Cu-1Mn-CP using the ’max-rate’ method, and the 
+exponential best fit (dotted line); □, experimental 
+results for CuO powder to validate this method and 
+computed functions (dashed lines) for the systems 
+CuO/Cu2O and Mn2O3/Mn3O4 based on FactSage 
+data; (C) plots of the calculated maximum molar flow 
+rate of the external mass transfer (white markers) 
+and the apparent molar flow rate (black markers) 
+during the O2 release experiments in the TGA at, 
+▴△, 800 ◦C, ○● 825 ◦C, ⋄◆, 850 ◦C and, □■, 
+875 ◦C. (D) a Van’t Hoff plot computed with the data 
+from Fig. 5b to extract the parameters for an Antoine 
+type equation as well as the entropy and enthalpy of 
+O2 release. The data points are experimentally ob­
+tained using the ‘max-rate’ method (□), and ’onset 
+of decomposition’ method under O2/N2 (△) and O2/ 
+CO2 (✱).   
+Table 2 
+Oxygen release capacities determined at 101.325 kPa during isothermal redox-cycling at 850 ◦C and temperature swing (850–950 ◦C) in the TGA as well as the phases 
+identified by XRD of the cycled oxygen carriers recovered from these experiments.  
+sample 
+molar Cu:Mn ratio by 
+XRF 
+ORCexp
+a (wt%)  
+identified phases by XRD (minor phases in brackets) 
+pO2 swing (at 
+850 ◦C)  
+T swing (850- 
+950 ◦C) 
+oxidised in 10 vol% 
+O2 + N2
+b 
+decomposed under pure 
+N2 
+decomposed in 10 vol% O2/ 
+CO2 
+1Cu-2Mn- 
+CP 
+1.02:1.98  
+4.31  
+2.01 
+CuMn2O4, (Mn2O3) 
+CuMnO2, Mn3O4, 
+(Mn2O3) 
+CuMnO2, Mn2O3, (CuMn2O4) 
+1Cu-1Mn- 
+CP 
+1.47:1.53  
+4.81  
+4.08 
+CuMn2O4, CuO 
+CuMnO2, Mn2O3 
+CuMnO2, Cu2Mn2O5 
+2Cu-1Mn- 
+CP 
+2.04:0.96  
+6.55  
+3.17 
+CuO, CuMn2O4 
+CuMnO2, Cu2O 
+CuMnO2, CuO 
+Footnotes: a the experimentally obtained oxygen release capacities, ORCexp, was calculated as (mox-mred)/mox, where mox and mred is the average mass measured 
+during the last 30 sec of the oxidation and decomposition period, respectively, in cycle 4–7 of the TGA experiments; b the same phases were identified by XRD in the 
+oxidised samples recovered from T swing and from pO2 swing experiments. 
+C.F. Patzschke et al.                                                                                                                                                                                                                            
+
+
+===== Page 11 =====
+
+Chemical Engineering Journal 407 (2021) 127093
+11
+according to reaction R8 and R9, respectively. 
+CuMn2O4 + 3CuO ↔2CuMnO2 + Cu2O + O2
+(R8)  
+2CuMn2O4 + 6CuO ↔4CuMnO2 + 4CuO + O2
+(R9) 
+The theoretical maximum O2 release capacity during pO2 swing and T 
+swing is 6.72 wt% and 3.36 wt%, respectively. This is close to the 
+experimentally obtained values obtained during pO2 swing and T swing 
+experiments, which was 6.55 wt% and 3.17 wt%, respectively. 
+When considering the reactions shown in reactions R(4), R6, R8 and 
+R9, the ORCth is on average just 4.4% higher than the experimentally 
+obtained values, which is within the experimental error of the O2 release 
+capacity measurements. The reactions R(5) and R(7) have an indefinite 
+number of solutions and the ORCexp is significantly lower than the ORCth 
+for the case where n = 0. The validity of the suggested reactions (R4–R9) 
+was confirmed by comparison of the theoretical mass fractions from R4- 
+R9 with the corresponding mass fractions calculated from the XRD data 
+shown in Fig. 3B by using the relative intensity ratio method [48]. The 
+results are reported in Fig. S18 in the ESM†. The finding that the O2 
+release capacity of (Cu-Mn oxide) oxygen carriers during a decomposi­
+tion in the presence of O2 can result in the formation of phases which are 
+not always predicted by equilibrium calculators such as FactSage 
+(Termfact, GGT-Technologies). These phases alter the thermodynamic 
+equilibrium and can have a significantly impact on the process eco­
+nomics: Significantly lower O2 release capacities than predicted would 
+require significantly higher solid circulation rates, which may ultimately 
+lead to higher heat transfer requirements and a higher oxygen carrier 
+replacement rate. It may be useful for future screenings of oxygen carrier 
+materials for the CLAS process to couple theoretical calculations with O2 
+release capacity experiments. During a further series of experiments the 
+decomposition and oxidation of 1Cu-1Mn-CP was stopped prior to full 
+reaction by rapidly cooling the TGA furnace (300 ◦C min−1), and the 
+XRD analysis of the recovered samples showed that the phase transition 
+during neither oxidation nor decomposition proceeds via formation of 
+single metal oxides as intermediates (c.f. Fig. S18 in the ESM†). 
+3.3. Determination of the O2 release rate and the oxygen partial pressure 
+equilibrium function in the TGA 
+A series of experiments was conducted following the procedure 
+described in section 2.4 to determine the O2 equilibrium as a function of 
+temperature for sample 1Cu-1Mn-CP. The sample was selected owing to 
+the high Cu-Mn oxide mass fraction (almost unity) and the relatively 
+high porosity, which minimises the impact of the intra-particle mass 
+transfer resistance on the overall rate (further details and results of a 
+kinetic screening are provided in ESM†, c.f. Fig. S21). During the ex­
+periments at atmospheric pressure, the O2 volume fraction was set 0.05 – 
+0.005 above the expected equilibrium O2 volume fraction for any given 
+temperature. The maximum rates of the O2 release were plotted as a 
+function of O2 partial pressure for a range of temperatures. Lines of best 
+fit were constructed for each temperature series and extrapolated back 
+to the x-axis (i.e. where the rate of O2 release is equal to zero); thus 
+revealing the equilibrium O2 partial pressure for the oxygen carrier 
+system. The measured rates of cycles 3 to 5 were averaged (the data of 
+cycles 1 and 2 was discarded, as activation during initial cycles may 
+vary). The maximum rate was determined and plotted against the partial 
+O2 pressure. The proposed method was validated by comparing the 
+measured equilibrium O2 partial pressure data for the well-known CuO 
+system with the predicted values generated using the thermodynamic 
+modelling software FactSage (Termfact and GGT-Technologies). This 
+validation is illustrated in Fig. S5 in the ESM†. 
+This method was then applied to sample 1Cu-1Mn-CP, as shown in 
+Fig. 5. The maximum rates plotted in Fig. 5a are based on reaction rate 
+profiles (rate against time), which are presented in Fig. S20 in the ESM†. 
+The linear fit demonstrates that the O2 release reaction from the 
+copper manganese oxides is of first order with respect to the difference 
+of CO2 and CO2,eq. The x-axis intercept of the linear fit is the equilibrium 
+pressure at a given temperature. Plotting those intercepts against tem­
+perature results in the pressure equilibrium curve, as shown in Fig. 5b. 
+The relationship is often correlated using polynomial equations for 
+CLOU materials [49]. However, the advantage of using an Antoine type 
+equation, 
+ln
+(
+pO2
+)
+= A −
+B
+T
+K + C
+(12) 
+is that the coefficients A and B can be found by plotting the logarithm 
+of the equilibrium pressure versus the inverse of the temperature. This 
+yields the following, 
+ln
+(
+pO2/kPa
+)
+= 21.76 −22907/(T/K)
+(13) 
+The average absolute relative deviation, ΔAARD, between the exper­
+imental values (xexp) and the correlated values (xmodel) of the pO2,eq was 
+calculated by 1/N ∑(|x,exp – x,model|)/x,exp and its value is 6%. The 
+maximum absolute relative deviation is 11%. To achieve a better fit, the 
+equation can be expanded with a third parameter, as shown in equation 
+(12). This Antoine type equation can be used in process simulation 
+software, such as ASPEN Plus, to determine the values of pO2,eq, which 
+allows researchers to use the parameters from equation (13) without 
+further processing. 
+3.4. Quantification of the external mass transfer during the O2 release 
+experiments 
+In the section above, the apparent rate of O2 release was plotted 
+against the O2 partial pressure to obtain the equilibrium pressure 
+through extrapolation to the x-axis (Fig. 5). It is only correct to use the 
+apparent rate if there is either no external mass transfer resistance or the 
+mass transfer affects each observed rate to the same extent (the latter is 
+also true if the external mass transfer remains dominant across the entire 
+condition range). Note that it was demonstrated earlier that the intra- 
+particle diffusion resistance is negligible, otherwise this would have to 
+be considered additionally. 
+The external mass transfer in the TGA during the O2 release was 
+calculated from equation (1) – (3) and 13. At 800 ◦C and 101.325 kPa, 
+the value of pO2,eq is 1.82 kPa (yr,s = 0.018; c.f. equation (13) or Fig. 5b). 
+As this condition the maximum molar flux of mass transfer, Nr, was 
+calculated to be 1.19 × 10-6 mol m−2 s−1. Multiplying this value with the 
+area of the crucible (Ac = 7.543 × 10-5 m−2) yields the maximum rate of 
+mass transfer, which is equal to 8.9 × 10-8 mol s−1. The apparent molar 
+flow rate of O2 release from the bed of the crucible measured in the TGA 
+at this temperature is 8.7 × 10-8 mol s−1. The difference between the 
+maximum rate of mass transfer and the apparent rate of O2 release is 2%, 
+which is within the experimental error. Therefore, in this case, the 
+apparent rate is almost equal to the mass transfer and the effectiveness 
+factor is zero. This is also the case for all other conditions used in this 
+study, as shown in Fig. 5c. 
+This demonstrates that at low values for (pO2,eq–pO2) and typical CLAS 
+conditions the rate of O2 release is approximately equal to the rate of 
+external mass transfer – at least for copper manganese oxides and when 
+using a fixed bed reactor / TGA. This in turn shows, that there is a need 
+for novel reactor designs in which the rate of external mass transfer is 
+enhanced by the removal of the produced O2, as this increases the 
+concentration gradient between the particle surface and the bulk and 
+thus the driving force of the gas phase diffusion (c.f. equation (1)). For 
+example, a reactor, in which the oxygen carriers fall counter-current to 
+the recycled flue gas might be very suitable, as it would result in the 
+particles moving along a path of a declining O2 concentration, thereby 
+replacing the gas around the particles with low O2 gas, thus enhancing 
+the mass transfer of O2. Furthermore, it shows that TGA experiments for 
+the determination of the intrinsic kinetics of (these) CLAS materials are 
+not suitable. Finally, we have demonstrated that the procedure to 
+C.F. Patzschke et al.                                                                                                                                                                                                                            
+
+
+===== Page 12 =====
+
+Chemical Engineering Journal 407 (2021) 127093
+12
+determine the O2 equilibria is accurate and the correlation in equation 
+(13) does indeed corresponds to the actual pO2,eq. 
+3.5. The entropy and enthalpy of O2 release 
+As mentioned previously, the heat of O2 release is arguably one of the 
+most important parameters to design the CLAS process. Its value can be 
+calculated using the calculated values of the O2 equilibrium: The change 
+of energy during the O2 release is the sum of the entropy change (ΔSr,T) 
+of the material due to the removal of lattice oxygen from the crystal 
+structure and of the heat that is thereby released (ΔHr,T). This energy 
+must balance the kinetic energy of one mole of O2 at the equilibrium 
+point. The kinetic energy of one mole of O2 can be approximated with 
+the ideal gas law as ~RT, with R being 8.314 kJ/mol(O2)/K. Thus, 
+dividing the gradient and the y-axis interception of the lines in Fig. 5d by 
+8.314 kJ/mol(O2) yields the values for ΔHr,T, and ΔSr,T, respectively. An 
+additional scale for ΔGr,T is shown in Fig. 5d to illustrate this relation. 
+The fundamental thermodynamic relation can be expressed in terms of 
+the Gibbs free energy as [50]: 
+dG = −SdT + VdP
+(14) 
+where G, is the Gibbs free energy, S is the entropy, V is the volume 
+and P is the pressure. Assuming an isothermal O2 release (dT = 0) and 
+integrating both sides, equation 20 becomes: 
+ΔG = Gθ +
+∫P
+Pθ
+Vmdp
+(15) 
+Assuming an ideal gas, the molar volume in eq. (15) can be replaced 
+by RT/p. 
+ΔG = Gθ + RT
+∫P
+Pθ
+dp = RTln
+( P
+Pθ
+)
+,
+(16) 
+where p is the pressure at which the O2 release occurs, thus being 
+equal to pO2,eq, and Pθ is the reference pressure, here 0.1 MPa. At the 
+equilibrium, the Gibbs free energy is zero, and the Gibbs free energy is a 
+function of the entropy and the enthalpy, 
+ΔGθ = ΔHθ −TΔSθ.
+(17) 
+Combining eq.(16) with eq.(17) yields, 
+TΔSθ −ΔHθ = RTln
+(pO2,eq
+Pθ
+)
+(18) 
+At 0.1 MPa the equation can be written as: 
+ΔSθ
+R −ΔHθ
+R
+1
+T = ln
+( pO2,eq
+0.1 MPa
+)
+(19) 
+Thus, when plotting ln
+(
+pO2,eq/Pθ)
+against 1/T (a van’t Hoff plot) the 
+intercept is equal to ΔSθ
+R and the slope is equal to ΔHθ
+R . 
+From the validation experiment with CuO powder, the calculation 
+yielded for the release of one mole of O2 from cupric oxide 
+ΔHr,800◦C = 264.0 kJ and ΔSr,800◦C = 189.3 J/mol/K, which is in very 
+good 
+agreement 
+with 
+correlated 
+values 
+using 
+FactSage 
+(ΔHr,800◦C = 264.7 kJ and ΔSr,800◦C = 190.2 J/mol/K); thus validating 
+this method. The calculated values for the release of one mole of O2 from 
+2 mol of the co-precipitated copper manganese oxide (1Cu-1Mn-CP-H) 
+are ΔHr,800◦C = 199.7 kJ and ΔSr,800◦C = 151.4 J/mol/K. In the CLAS 
+process, the value of the heat of reaction equals the energy that need to 
+be provided to the reducer to maintain the temperature during the 
+endothermic reaction. Using a theoretical molar mass of 241.74 g/mol 
+for the fully oxidised 1Cu-1Mn oxygen carriers, the energy required to 
+off-set the endothermic reaction in the reducer is 413.1 kJ/kg(fully 
+oxidised OC). This is between the values for Mn2O3/Mn3O4 (203.8 kJ/kg 
+(Mn2O3)) and CuO/Cu2O (829.7 kJ/kg(CuO)). The values for the 
+enthalpies per mole of O2 released are as follows: Mn2O3/Mn3O4: 
+193.0 kJ/mol(O2)), 1Cu-1Mn-CP ox/red: 199.7 kJ/mol(O2) and CuO/ 
+Cu2O: 264.7 kJ/mol(O2)). This demonstrates that copper manganese 
+oxide offers a promising compromise between the heat of reaction and 
+the O2 release capacity. 
+3.6. Long-term redox-cycling performance in the TGA and FBR 
+The performance over a high number of redox-cycles was assessed in 
+the TGA and the FBR. The tests in the TGA showed that the samples had 
+a high thermo-chemical resistance over 100 cycles with no significant 
+loss of reactivity or O2 release capacity, as shown in Fig. 6Aa. 
+Additionally, the long-term cycling performance was tested in the 
+fluidised bed reactor over 50 redox-cycles. The results are illustrated in 
+Fig. 6Ab. In the FBR, the oxygen carrier particles are exposed to me­
+chanical stresses owing to the collision with other particles and with the 
+reactor wall in addition to the chemical stresses. The tests in the FBR 
+demonstrated stable redox-reaction rates and oxygen release capacities. 
+No fines were recovered from the elutriate filter and no agglomeration 
+occurred. Further to pO2 swing redox-cycling, the oxygen carriers were 
+also redox-cycled 100 times by T swing and with a reduction with CH4, 
+for comparison. SE micrographs of the recovered materials are showing 
+in Fig. 6B. 
+The oxygen carriers recovered from T swing experiments appear 
+spherical and dense. Contrarily, the oxygen carriers cycled by pO2 swing 
+appear highly porous, and those redox-cycled with CH4 had dis­
+integrated. This indicates that the chemical looping mode has a large 
+effect on the evolution of the particle morphology, and the degree of 
+degradation after the 100 cycles follows the order (from lowest to 
+highest): T swing < pO2swing < redox-cycling with CH4. The change in 
+mass of lattice-O2 between the oxidised and reduced state (i.e. the values 
+of the O2 capacities) follows the same order (13.4 wt% for the reduction 
+with CH4, c.f. Fig. S23 in the ESM†), and is possibly the main reason for 
+the differences in the degree of degradation. Furthermore, the harsher 
+conditions during the T swing cycling (i.e. a higher temperature during 
+the O2 release) may have enhanced the sintering and thus resulted in a 
+densification of the particle that is shown in Fig. 6Ba. This finding re­
+sembles findings from calcium/carbonate looping (Ca-looping) 
+research, where higher temperature and partial pressure of the gaseous 
+reagent (i.e. CO2 in the Ca-looping process) was reported to influence the 
+degree of densification of limestone particles [51,52]. Manovic et al. 
+[51] demonstrated with data from N2 adsorption and MIP experiments 
+of fresh and cycled limestone that a higher reactor temperature and a 
+higher partial pressures of the gaseous reagent increases the rate of 
+sintering, and thus the rate of densification of the particles over an 
+increasing cycle number. Wu et al. [52] reported similar findings for 
+limestone particles in the Ca-process. They observed a reduction in the 
+normalised equivalent diameter and porosity with an increase in cycle 
+number at high temperatures. These findings and the finding of this 
+work confirm that when studying the degradation of particles in high 
+temperature looping processes (such as the CLAS process) it is similarly 
+of great importance to consider that the change of particle morphology 
+may depend significantly on the cycling conditions, such as temperature 
+and partial pressure of the reagents. 
+Furthermore, the long-term cycling tests in the TGA and FBR 
+demonstrate that the unsupported copper manganese oxide oxygen 
+carriers can survive the thermo-chemical (TGA) and mechanical stresses 
+(FBR) during repeated O2 release and re-oxidation, and thus are 
+potentially suitable oxygen carrier materials for the CLAS process. 
+Though, further attrition tests with gas velocities of an industrial-scale 
+process, preferably at high temperatures (those relevant for the CLAS 
+processes) and in a reactive environment would be required to deter­
+mine if the rate of degradation is sufficiently low for these materials to 
+be economically viable and environmentally benign in an industrial- 
+scale CLAS process. 
+C.F. Patzschke et al.                                                                                                                                                                                                                            
+
+
+===== Page 13 =====
+
+Chemical Engineering Journal 407 (2021) 127093
+13
+4. Conclusions 
+We report the synthesis of Cu-Mn oxides via co-precipitation as ox­
+ygen carriers for chemical looping processes and demonstrate how their 
+properties (crushing strength, surface area and porosity) can be tailored 
+by tuning the precursor composition and the precipitation conditions. 
+We have then compared the oxygen carriers’ performance during con­
+ditions relevant for the CLAS process with those relevant for the CLOU 
+process: The O2 release capacities during redox-cycling at CLAS condi­
+tions (decomposition by T swing in the presence of O2) were signifi­
+cantly lower than those during CLOU conditions (decomposition by pO2 
+swing in the absence of O2). The reason was elucidated by detailing the 
+differences in the reaction pathways. This newly identified drawback for 
+the CLAS process has significant implications for the economics and the 
+design of this process. 
+A method to determine the O2 equilibria and heat of reaction for the 
+oxygen carriers (both important process design parameters) was devel­
+oped, validated, applied and the results reported. Furthermore, long- 
+term cycling experiments in the TGA and a fluidised bed were con­
+ducted, during which the oxygen carriers showed stable O2 capacities, 
+rapid reaction rates and a high resistance to chemical and mechanical 
+stresses, making them promising candidates for oxygen carriers in the 
+CLOU and CLAS process. 
+The protocols applied in this study can be used in the future to assess 
+the characteristic and equilibria of more complex metal oxide systems as 
+oxygen carriers for the CLC processes. It allows the calculation of 
+apparent equilibria and heat of reactions of complex multi-phase sys­
+tems such as synthesis mixed metal oxides and ores. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgements 
+This work was funded by the EPSRC as part of the RCUK Energy 
+Programme under EP/P026214/1. The authors thank the Department of 
+Chemical Engineering at Imperial College London for the funding of a 
+PhD scholarship in support of this project. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.cej.2020.127093. 
+References 
+[1] Intergovernmental Panel on Climate Change (IPCC). Synthesis Report. 
+Contribution of Working Groups I, II and III to the Fifth Assessment Report of the 
+Intergovernmental Panel on Climate Change, Geneva, Switzerland, 2014, https:// 
+www.ipcc.ch. 
+[2] A. Lyngfelt, B. Leckner, T. Mattisson, A fluidized-bed combustion process with 
+inherent CO2 separation, application of chemical-looping combustion, Chem. Eng. 
+Sci. 56 (2001) 3101–3113. 
+[3] S.M. Nazir, O. Bolland, S. Amini, Full Plant Scale Analysis of Natural Gas Fired 
+Power Plants with Pre-Combustion CO2 Capture and Chemical Looping Reforming 
+(CLR), Energy Procedia 114 (2017) 2146–2155. 
+[4] Z. Zhang, T.P. Hills, S.A. Scott, P.S. Fennell, Spouted bed reactor for kinetic 
+measurements of reduction of Fe2O3 in a CO2/CO atmosphere Part I: Atmospheric 
+pressure measurements and equipment commissioning, Chem. Eng. Res. Des. 114 
+(2016) 307–320. 
+Fig. 6. (A) The maximum rate of O2 release and O2 release storage capacity of 1Cu-1Mn-CP-H, (a) measured in the TGA using a sample mass of 2 mg, and (b) 
+measured in the fluidised bed using a sample mass of 700 mg. Oxidation and decomposition occurred at 850 ◦C in 10 vol% O2/N2 and pure N2, respectively. The total 
+gas flow rate during TGA experiments was 170 cm3 min−1 (at NTP), and during FBR experiments was 2540 cm3 min−1 (at NTP). (B) SE micrographs of 1Cu-1Mn-CP-H 
+oxygen carriers recovered from TGA experiments after 100 redox-cycles (a, b) by T swing with decomposition at 850 ◦C in 10 vol% O2/CO2 and oxidation at 950 ◦C in 
+10 vol% O2/CO2, (c, d) by isothermal pO2 swing at 850 ◦C with decomposition under pure N2 and oxidation in 10 vol% O2/N2, and (e, f) with reduction in 5 vol% 
+CH4/N2 and oxidation in 10 vol% O2/N2 at 850 ◦C. 
+C.F. Patzschke et al.                                                                                                                                                                                                                            
+
+
+===== Page 14 =====
+
+Chemical Engineering Journal 407 (2021) 127093
+14
+[5] T. Mattisson, A. Lyngfelt, H. Leion, Chemical-looping oxygen uncoupling for 
+combustion of solid fuels, Int. J. Greenh. Gas Control. 3 (2009) 11–19. 
+[6] I. Ad´anez-Rubio, A. Abad, P. Gay´an, L.F. de Diego, J. Ad´anez, CLOU process 
+performance with a Cu-Mn oxygen carrier in the combustion of different types of 
+coal with CO2 capture, Fuel 212 (2018) 605–612. 
+[7] I. Ad´anez-Rubio, A. P´erez-Astray, T. Mendiara, M.T. Izquierdo, A. Abad, P. Gay´an, 
+L.F. de Diego, F. García-Labiano, J. Ad´anez, Chemical looping combustion of 
+biomass: CLOU experiments with a Cu-Mn mixed oxide, Fuel Process. Technol. 172 
+(2018) 179–186. 
+[8] I. Ad´anez-Rubio, A. Abad, P. Gay´an, F. García-Labiano, L.F. de Diego, J. Ad´anez, 
+Coal combustion with a spray granulated Cu-Mn mixed oxide for the Chemical 
+Looping with Oxygen Uncoupling (CLOU) process, Appl. Energy 208 (2017) 
+561–570. 
+[9] F. Carrasco-Maldonado, R. Sp¨orl, K. Fleiger, V. Hoenig, J. Maier, G. Scheffknecht, 
+Oxy-fuel combustion technology for cement production – State of the art research 
+and technology development, Int. J. Greenh. Gas Control. 45 (2016) 189–199. 
+[10] J.V. Sch´eele, Oxyfuel Combustion in the Steel Industry: Energy Efficiency and 
+Decrease of CO2 Emissions, Energy Efficiency. Jenny Palm (Ed.) (2010). 
+[11] K. Andersson, F. Johnsson, Process evaluation of an 865 MWe lignite fired O2/CO2 
+power plant, Energy Convers. Manag. 47 (2006) 3487–3498. 
+[12] B. Moghtaderi, Application of Chemical Looping Concept for Air Separation at 
+High Temperatures, Energy Fuels 24 (2010) 190–198. 
+[13] T. Wall, Y. Liu, C. Spero, L. Elliott, S. Khare, R. Rathnam, F. Zeenathal, 
+B. Moghtaderi, B. Buhre, C. Sheng, R. Gupta, T. Yamada, K. Makino, J. Yu, An 
+overview on oxyfuel coal combustion – State of the art research and technology 
+development, Chem. Eng. Res. Des 87 (2009) 1003–1016. 
+[14] J. Ad´anez, A. Abad, T. Mendiara, P. Gay´an, L.F. de Diego, F. García-Labiano, 
+Chemical looping combustion of solid fuels, Prog. Energ. Combust. 65 (2018) 6–66. 
+[15] F. Sher, M.A. Pans, C. Sun, C. Snape, H. Liu, Oxy-fuel combustion study of biomass 
+fuels in a 20 kWth fluidized bed combustor, Fuel 215 (2018) 778–786. 
+[16] M.T. Mansouri, S.M. Mousavian, Exergy-based analysis of conventional coal-fired 
+power plant retrofitted with oxy-fuel and post-combustion CO2 capture systems, 
+Proceedings of the Institution of Mechanical Engineers, Part A: Journal of Power 
+and Energy 226 (2012) 989–1002. 
+[17] R. Ben-Mansour, M.A. Habib, M.A. Nemitallah, M. Rajhi, K.A. Suara, 
+Characteristics of Oxyfuel and Air-Fuel Combustion in an Industrial Water Tube 
+Boiler, Heat Transfer Eng. 35 (2014) 1394–1404. 
+[18] C.F. Patzschke, Copper manganese oxides as oxygen carriers for chemical looping 
+air separation for near-zero emission power generation, PhD Thesis, Imperial 
+College London, London, UK (2019) https://doi.org/10.25560/78664. 
+[19] D. Keairns, N. Kuehn, R. Newby, V. Shah, Guidance for NETL’s Oxycombustion 
+R&D Program: Chemical Looping Combustion Reference Plant Designs and 
+Sensitivity Studies, National Energy Technology Laboratory United States (2014), 
+https://doi.org/10.2172/1480856. 
+[20] C. Zhou, K. Shah, B. Moghtaderi, Techno-Economic Assessment of Integrated 
+Chemical Looping Air Separation for Oxy-Fuel Combustion: An Australian Case 
+Study, Energy Fuels 29 (2015) 2074–2088. 
+[21] M.A. Schnellmann, C.F. Heuberger, S.A. Scott, J.S. Dennis, N. Mac Dowell, 
+Quantifying the role and value of chemical looping combustion in future electricity 
+systems via a retrosynthetic approach, Int. J. Greenh. Gas Control 73 (2018) 1–15. 
+[22] C.F. Patzschke, H. Bahzad, M.E. Boot-Handford, P.S. Fennell, Simulation of a 100- 
+MW solar-powered thermo-chemical air separation system combined with an oxy- 
+fuel power plant for bio-energy with carbon capture and storage (BECCS), Mitig. 
+Adapt. Strateg. Glob. Change 25 (2020) 539–557. 
+[23] T. Niass, J. Kislear, M. Buchanan, J. Svalestuen, A. Park, D. DePaolo, J. Powell, 
+Accelerating Breakthrough Innovation in Carbon Capture, Utilization, and Storage, 
+Report of the Mission Innovation Carbon Capture, Utilizsation, and Storage 
+Experts’ Workshop, Houston, USA, 2017. 
+[24] L.F. de Diego, F. Garcı́a-Labiano, J. Ad´anez, P. Gay´an, A. Abad, B.M. Corbella, 
+J. Marı́a Palacios, Development of Cu-based oxygen carriers for chemical-looping 
+combustion, Fuel 83 (2004) 1749–1757. 
+[25] S. Chuang, J. Dennis, A. Hayhurst, S. Scott, Development and performance of Cu- 
+based oxygen carriers for chemical-looping combustion, Combust. Flame 154 
+(2008) 109–121. 
+[26] L.F. de Diego, P. Gay´an, F. García-Labiano, J. Celaya, A. Abad, J. Ad´anez, 
+Impregnated CuO/Al2O3 Oxygen Carriers for Chemical-Looping Combustion: 
+Avoiding Fluidized Bed Agglomeration, Energy Fuels 19 (2005) 1850–1856. 
+[27] P. Gay´an, C.R. Forero, A. Abad, L.F. de Diego, F. García-Labiano, J. Ad´anez, Effect 
+of Support on the Behavior of Cu-Based Oxygen Carriers during Long-Term CLC 
+Operation at Temperatures above 1073 K, Energy Fuels 25 (2011) 1316–1326. 
+[28] J. Ad´anez, P. Gay´an, J. Celaya, L.F. de Diego, F. García-Labiano, A. Abad, Chemical 
+Looping Combustion in a 10 kWth Prototype Using a CuO/Al2O3 Oxygen Carrier: 
+Effect of Operating Conditions on Methane Combustion, Ind. Eng. Chem. Res 45 
+(2006) 6075–6080. 
+[29] I. Ad´anez-Rubio, P. Gay´an, A. Abad, L.F. de Diego, F. García-Labiano, J. Ad´anez, 
+Evaluation of a Spray-Dried CuO/MgAl2O4 Oxygen Carrier for the Chemical 
+Looping with Oxygen Uncoupling Process, Energy Fuels 26 (2012) 3069–3081. 
+[30] L.F. de Diego, F. García-Labiano, P. Gay´an, J. Celaya, J.M. Palacios, J. Ad´anez, 
+Operation of a 10kWth chemical-looping combustor during 200h with a CuO–Al2O3 
+oxygen carrier, Fuel 86 (2007) 1036–1045. 
+[31] I. Ad´anez-Rubio, P. Gay´an, F. García-Labiano, L.F. de Diego, J. Ad´anez, A. Abad, 
+Development of CuO-based oxygen-carrier materials suitable for Chemical-Looping 
+with Oxygen Uncoupling (CLOU) process, Energy Procedia 4 (2011) 417–424. 
+[32] M. Arjmand, M. Keller, H. Leion, T. Mattisson, A. Lyngfelt, Oxygen Release and 
+Oxidation Rates of MgAl2O4-Supported CuO Oxygen Carrier for Chemical-Looping 
+Combustion with Oxygen Uncoupling (CLOU), Energy Fuels 26 (2012) 6528–6539. 
+[33] K. Shah, B. Moghtaderi, T. Wall, Selection of Suitable Oxygen Carriers for Chemical 
+Looping Air Separation: A Thermodynamic Approach, Energy Fuels 26 (2012) 
+2038–2045. 
+[34] P. Cho, T. Mattisson, A. Lyngfelt, Comparison of iron-, nickel-, copper- and 
+manganese-based oxygen carriers for chemical-looping combustion, Fuel 83 (2004) 
+1215–1225. 
+[35] P. Mungse, G. Saravanan, T. Uchiyama, M. Nishibori, Y. Teraoka, S. Rayalu, 
+N. Labhsetwar, Copper-manganese mixed oxides: CO2-selectivity, stable, and cyclic 
+performance for chemical looping combustion of methane, Phys Chem Chem Phys 
+16 (2014) 19634–19642. 
+[36] I. Ad´anez-Rubio, M.T. Izquierdo, A. Abad, P. Gay´an, L.F. de Diego, J. Ad´anez, 
+Spray granulated Cu-Mn oxygen carrier for chemical looping with oxygen 
+uncoupling (CLOU) process, Int. J. Greenh. Gas Control. 65 (2017) 76–85. 
+[37] I. Ad´anez-Rubio, A. Abad, P. Gay´an, I. Ad´anez, L.F. de Diego, F. García-Labiano, 
+J. Ad´anez, Use of Hopcalite-Derived Cu-Mn Mixed Oxide as Oxygen Carrier for 
+Chemical Looping with Oxygen Uncoupling Process, Energy Fuels 30 (2016) 
+5953–5963. 
+[38] M. Ryd´en, H. Leion, T. Mattisson, A. Lyngfelt, Combined oxides as oxygen-carrier 
+material for chemical-looping with oxygen uncoupling, Appl. Energy 113 (2014) 
+1924–1932. 
+[39] S. Sajen, S.K. Singh, P. Mungse, S. Rayalu, K. Watanabe, G. Saravanan, 
+N. Labhasetwar, Mechanically Stable Mixed Metal Oxide of Cu and Mn as Oxygen 
+Carrier for Chemical Looping Syngas Combustion, Energy Fuels 30 (2016) 
+7596–7603. 
+[40] N. Mohammad Pour, H. Leion, M. Ryd´en, T. Mattisson, Combined Cu/Mn Oxides as 
+an Oxygen Carrier in Chemical Looping with Oxygen Uncoupling (CLOU), Energy 
+Fuels 27 (2013) 6031–6039. 
+[41] D. Hosseini, Q. Imtiaz, P.M. Abdala, S. Yoon, A.M. Kierzkowska, A. Weidenkaff, C. 
+R. Müller, CuO promoted Mn2O3-based materials for solid fuel combustion with 
+inherent CO2 capture, J. Mater. Chem. A 3 (2015) 10545–10550. 
+[42] S. Brunauer, P.H. Emmett, E. Teller, Adsorption of Gases in Multimolecular Layers, 
+J. Am. Chem. Soc. 60 (1938) 309–319. 
+[43] E.P. Barrett, L.G. Joyner, P.P. Halenda, The determination of pore volume and area 
+distributions in porous substances. I. Computations from nitrogen isotherms, 
+J. Am. Chem. Soc. 73 (1951) 373–380. 
+[44] W. Hu, F. Donat, S.A. Scott, J.S. Dennis, Kinetics of oxygen uncoupling of a copper 
+based oxygen carrier, Appl. Energy 161 (2016) 92–100. 
+[45] J. Szekely, J.W. Evans, H.Y. Sohn, Gas-Solid Reactions, Academic Press, 1976. 
+[46] M. Kleiber, R. Joh, D1 Calculation Methods for Thermophysical Properties, VDI 
+Heat Atlas (2010) 119–152. 
+[47] H. Song, K. Shah, E. Doroodchi, T. Wall, B. Moghtaderi, Analysis on Chemical 
+Reaction Kinetics of CuO/SiO2 Oxygen Carriers for Chemical Looping Air 
+Separation, Energy Fuels 28 (2014) 173–182. 
+[48] F.H. Chung, Quantitative interpretation of X-ray diffraction patterns of mixtures. 
+III. Simultaneous determination of a set of reference intensities, J. Appl. 
+Crystallogr. 8 (1975) 17–19. 
+[49] C.K. Clayton, K.J. Whitty, Measurement and modeling of decomposition kinetics 
+for copper oxide-based chemical looping with oxygen uncoupling, Appl. Energy 
+116 (2014) 416–423. 
+[50] P. Atkins, J. de Paula, Atkins’ Physical Chemistry, 8th ed., W. H. Freeman and 
+Company, New York, 2006. 
+[51] V. Manovic, J.-P. Charland, J. Blamey, P.S. Fennell, D.Y. Lu, E.J. Anthony, 
+Influence of calcination conditions on carrying capacity of CaO-based sorbent in 
+CO2 looping cycles, Fuel 88 (2009) 1893–1900. 
+[52] Y. Wu, J. Blamey, E.J. Anthony, P.S. Fennell, Morphological Changes of Limestone 
+Sorbent Particles during Carbonation/Calcination Looping Cycles in a 
+Thermogravimetric Analyzer (TGA) and Reactivation with Steam, Energy Fuels 24 
+(2010) 2768–2776. 
+C.F. Patzschke et al.                                                                                                                                                                                                                            

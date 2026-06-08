@@ -1,0 +1,790 @@
+
+
+===== Page 1 =====
+
+化
+工
+进
+展
+CHEMICAL INDUSTRY AND ENGINEERING PROGRESS
+2019 年第38 卷第12 期
+开放科学（资源服务）标识码（OSID）：
+高铝耐火砖负载CuO氧载体的化学链氧解耦特性实验
+刘沛聪
+1，2，梅道锋
+1，2，晏水平
+1，2
+（1农业农村部长江中下游农业装备重点实验室，湖北武汉430070；2华中农业大学工学院，湖北武汉430070）
+摘要：耐火砖常用作高温炉膛材料，具有较高的破碎强度和较强的抗烧结性能。以耐火砖颗粒为惰性载体，采用
+连续浸渍法制备CuO质量分数为10%～30%的Cu10RefBri、Cu25RefBri和Cu30RefBri氧载体样品，并在热重分析
+仪（TGA）和批次进料流化床反应器中900～950℃下进行了化学链氧解耦燃烧过程氧载体的释氧-吸氧循环实验
+测试。结果显示，在上述氧载体样品中Cu25RefBri的释氧速率最高，可达9×10−5kgO2/(s∙kgOC)，流化床中稳定的
+O2体积分数可达1.1%。然而，随着循环次数增加，Cu25RefBri的释氧速率逐渐降低至2.0×10−5kgO2/(s∙kgOC)，同
+时流化床尾气中O2体积分数降低至0.7%，该值远低于对应温度下的平衡O2浓度值。氧浓度和释氧速率降低的主
+要原因在于：循环过程氧载体中形成的低释氧活性的CuAl2O4尖晶石含量逐渐增加，导致氧载体总体活性下降。
+此外，在950℃流化床实验过程，还检测到氧载体颗粒的烧结现象。
+关键词：化学链氧解耦；铜基氧载体；团聚；流化床；失活
+中图分类号：TQ534
+文献标志码：A
+文章编号：1000-6613 （2019）12-5351-09
+Characteristics tests of a high-alumina refractory supported CuO
+oxygen carrier during chemical looping with oxygen uncoupling
+LIU Peicong
+1，2，MEI Daofeng
+1，2，YAN Shuiping
+1，2
+(1Key Laboratory of Agricultural Equipment in Mid-lower Yangtze River, Ministry of Agriculture and Rural Affairs, Wuhan
+430070, Hubei, China; 2College of Engineering, Huazhong Agricultural University, Wuhan 430070, Hubei, China)
+Abstract: Refractory brick which is usually used as high-temperature furnace material has high crushing
+strength and high agglomeration resistance. In this work, a type of high-alumina refractory brick particles
+were used as support material for Cu-based oxygen carrier preparation. Three samples containing 10%—30%
+of CuO, denoted as Cu10RefBri, Cu25RefBri and Cu30RefBri, were prepared with successive
+impregnation method and then subjected to the tests in TGA and fluidized bed reactor under 900—950℃
+to explore their characteristics on oxygen release and uptake. The Cu25RefBri sample showed the highest
+rate of oxygen release in TGA tests (as high as 9×10
+−5kgO2/(s∙kgOC)), thus presented a stable O2 volume
+fraction of 1.1%. However, as the number of cycles increased , the rate of oxygen release decreased to as
+low as 2.0×10
+−5kgO2/(s∙kgOC), meanwhile the O2 volume fraction reduced to 0.7%, which is much lower
+than that for equilibrium case. The main reason for the decrease of oxygen release activity could be the
+formation of low-reactive crystalline CuAl2O4, the concentration of which increased as a function of cycles.
+􀤕􀤕􀤕􀤕􀦕
+􀤕􀦕
+􀤕􀤕􀤕􀤕􀦕
+􀤕􀦕
+研究开发
+DOI：10.16085/j.issn.1000-6613.2019-0425
+收稿日期：2019-03-21；修改稿日期：2019-05-26。
+基金项目：国家重点研发计划（2018YFB0605402）；湖北省自然科学基金（2018CFB376）；国家自然科学基金（51676080）；中央高校基本科研业务
+费专项基金（2662016QD043）。
+第一作者：刘沛聪（1991—），男，本科，专业方向为能源与动力工程、参与化学链氧解耦研究。E-mail：576826447@qq.com。
+通信作者：梅道锋，讲师，硕士生导师，研究方向为化学链技术。E-mail：dmei@mail.hzau.edu.cn。
+引用本文：刘沛聪, 梅道锋, 晏水平. 高铝耐火砖负载CuO氧载体的化学链氧解耦特性实验[J]. 化工进展, 2019, 38(12): 5351-5359.
+Citation：LIU Peicong, MEI Daofeng, YAN Shuiping. Characteristics tests of a high-alumina refractory supported CuO oxygen carrier during chemical looping
+with oxygen uncoupling[J]. Chemical Industry and Engineering Progress, 2019, 38(12): 5351-5359.
+·
+· 5351
+
+
+===== Page 2 =====
+
+化
+工
+进
+展
+2019 年第38 卷
+Moreover, agglomeration of Cu25RefBri was noticed at a temperature of 950℃in the fluidized bed reactor.
+Keywords: chemical looping with oxygen uncoupling; Cu-base oxygen carrier; agglomeration; fluidized
+bed; deactivated
+化学链氧解耦（chemical looping with oxygen
+uncoupling，CLOU）燃烧技术采用固态氧载体为燃
+烧过程提供气态氧气，进而提高固体燃料的燃烧速
+率，是一种高效率、低能耗的煤燃烧CO2捕集技
+术
+[1-3]。典型的CLOU 过程如图1 所示，该技术将常
+规燃烧分为两个步骤：燃料反应器（FR）中燃料
+的燃烧和空气反应器（AR）中氧载体的再生
+[1-2,4]，
+从而避免了燃料和空气的直接接触。在FR 中，氧
+载体MeOx首先由反应式(1)分解产生气态O2，其次
+煤（coal）与气态O2之间发生燃烧反应[式(2)]被转
+化为CO2、H2O 和灰分（ash）。FR 中氧载体由高氧
+势态的MeOx转变为低氧势态的MeOx−1，后者随后
+进入AR与通入的氧气发生反应[式(3)]，被重新氧化
+成高氧势的氧载体MeOx用于下一循环。燃料反应器
+的出口气流中仅含有CO2和H2O蒸气，其中CO2可在
+冷凝器中通过能耗较低的H2O冷凝实现分离。
+MeOx ¾ ®
+¾
+¾
+MeOx - 1 + 1/2O2 (g )
+(1)
+Coal + O2 (g ) ¾ ®
+¾
+¾
+CO2 (g ) + H2O(g ) + ash
+(2)
+MeOx - 1 + 1/2O2 (g ) ¾ ®
+¾
+¾
+MeOx
+(3)
+CLOU 技术可实现CO2低能耗捕集，该技术的
+关键之一是具有较强释氧能力的氧载体
+[5]。目前，
+研究较多的氧载体大致可分为：金属氧化物氧载
+体、钙钛矿型氧载体和硫酸盐氧载体
+[6]。Mattisson
+等
+[1] 根据热力学计算发现，CuO/Cu2O、Mn2O3/
+Mn3O4、Co3O4/CoO 等金属氧化物可以满足所述要
+求。文圆圆等
+[7]对钴基氧载体Co3O4/CoO 的吸氧-释
+氧性能进行了动力学和热力学分析。结果显示，温
+度越高，钴基氧载体的氧平衡分压越大，并且钴基
+氧载体的吸氧温度为680～860℃，较为适中。王坤
+等
+[8]对Co3O4氧载体进行了释氧性能研究，结果表明
+800～1000℃下氧载体能够释放足够的O2，在950℃
+反应环境中O2浓度可高达24.5%。与Mn2O3/Mn3O4
+和Co3O4/CoO 体系相比，CuO/Cu2O体系具有最高的
+载氧率（10%，质量分数），且Cu基材料无毒、价
+格较为低廉。因此，Cu基氧载体得到广泛关注
+[6,9]。
+实际上，CuO/Cu2O 体系在不同温度下释氧的极限
+值（即O2平衡浓度）存在差异，如图2 所示。可
+见，随着温度的升高，O2平衡浓度逐渐增加，例
+如，温度由900 升高到950℃，O2平衡浓度的值由
+1.25% （体积分数）增加到4.5% （体积分数），该
+O2浓度值足够固体燃料煤的充分燃烧。Leion 等
+[10]
+在流化床反应器中对冷冻干燥法制备的CuO/ZrO2
+氧载体与多种固体燃料的CLOU性能进行测试，发
+现所测试的固体燃料转化率均较高，而且可实现
+100%的燃料转化。Adanez-Rubio 等
+[11]发展了一种由
+MgAl2O4负载的CuO 氧载体，并在1.5kWth串行流化
+床中成功地进行了示范实验
+[12]。王坤等
+[13]对机械混
+合法制备的铜-锆氧载体CuO/ZrO2的组成、比表面
+积等方面进行表征和研究，发现该氧载体在制备过
+程中表面未出现烧结现象、物相稳定，且随着惰性
+载体ZrO2添加比例的增加，氧载体完全转化的时间
+缩短。梅道锋等
+[14]利用小型流化床反应器对溶胶-
+凝胶法制备的CuO/CuAl2O4在CLOU中的反应特性进
+行了研究，发现在1000℃以下，温度越高该氧载体
+的释氧速率越快，而最佳的吸氧温度为800~950℃。
+随后，梅道锋等
+[15]采用3 种中国典型煤开展CLOU
+燃烧测试，结果表明该氧载体能较好地用于该技
+术，然而需要严格地将操作温度控制在1000℃以
+图2
+不同温度时CuO/Cu2O体系的O2平衡浓度
+图1
+化学链氧解耦（CLOU）燃烧示意图
+·
+· 5352
+
+
+===== Page 3 =====
+
+第12 期
+刘沛聪等：高铝耐火砖负载CuO氧载体的化学链氧解耦特性实验
+下，以防氧载体烧结。为了避免Cu-Al系列氧载体
+中CuAl2O4晶体的出现，魏义杰等
+[16]提出一种核壳
+结构的铜基氧载体，在循环制氧实验中反应器出口
+处气体平均O2体积分数高于15%。虽然铜基矿石
+材料由于价格低廉
+[17]，具有较大优势，但是合成氧
+载体材料具有更高的反应活性，因此，近些年人工
+合成的CLOU 氧载体仍然得到一定发展。Adanez-
+Rubio 等
+[18]采用喷雾造粒法制得Cu-Mn 氧载体，并
+在1.5kW 级流化床中成功测试其与煤反应性能
+[19]。
+Wang 等
+[20]以橄榄石作为惰性载体，成功负载CuO，
+并获得循环性能优秀的CLOU 氧载体材料。罗明
+等
+[21]通过间歇式小型流化床实验研究铜基氧载体
+CuO/SiO2在煤的CLOU中的性能，煤表现出燃烧快、
+转化速率高、CuO/SiO2的释氧速率高等特性，但发
+现反应温度升高时，铜基氧载体出现烧结现象。刘
+轩
+[22]利用热重分析（TGA）、X 射线衍射仪（XRD）
+等仪器测试了溶胶-凝胶法和石墨成粒浸渍法制备
+的铜基氧载体CuO/ZrO2和CuO/Y2O3的释氧反应性
+能和循环稳定性，结果显示溶胶-凝胶法制备的
+CuO/ZrO2具有最快的释氧反应速率，而石墨成粒法
+制备的CuO/ZrO2在循环中显现出最好的稳定性和
+释氧性能稳定性，并且惰性载体ZrO2和Y2O3能够
+阻碍铜基氧载体有效成分的烧结。已有CLOU的研
+究对氧载体的发展较为重视，采用多种惰性载体、
+多种制备方法得到Cu 基氧载体并进行多方面的性
+能测试，研究结果具有较大的意义和价值。
+耐火砖作为高温炉膛常用的耐高温材料，其机
+械强度和耐高温性能较好，满足用于氧载体惰性载
+体的基本要求。本文采用连续浸渍法，以高铝耐火
+砖颗粒为惰性载体制备了CuO 含量不同的氧载体
+材料，并开展了反应性能和物理性能测试。首先，
+采用TGA对循环过程氧载体的载氧率、释氧-吸氧
+速率、热量变化进行研究。通过比较TGA 测试过
+程氧载体的主要活性参数，优选出反应活性较高的
+氧载体材料用于流化床测试。随后，在自制的批次
+进料流化床中模拟CLOU 释氧-吸氧气氛，对25次
+循环过程中氧载体的反应性能、流化特性、磨损率
+以及烧结性能等特性进行研究。最后，借助XRD、
+扫描电镜-能谱（SEM-EDS）、破碎强度测试等手
+段对循环过程中氧载体的理化性能进行分析。
+1
+实验材料和方法
+1.1
+氧载体制备
+以高铝耐火砖颗粒为惰性载体，采用浸渍法制
+备CuO 基氧载体。所使用的高铝耐火砖原产地为
+山东淄博，主要组成为α-Al2O3、Al2SiO5。首先，
+将耐火砖进行破碎和筛分，得到粒径为106～
+300μm的颗粒。随后，将一定体积的Cu(NO3)2溶液
+（国药集团化学试剂有限公司）滴定至耐火砖颗
+粒，并迅速搅拌使Cu(NO3)2溶液分布均匀。其次，
+在80℃恒温环境搅拌2h，干燥得到含有Cu(NO3)2的
+耐火砖颗粒。将上述颗粒送入550℃的马弗炉中煅
+烧2h，以除去NO3
+−、将Cu(NO3)2转化为难溶于水的
+氧化物状态。随后，再次用Cu(NO3)2溶液进行浸
+渍，达到预定的浸渍次数后停止浸渍操作。最后，
+将负载Cu元素的耐火砖颗粒送入800℃马弗炉，在
+空气气氛下煅烧6h。待颗粒自然冷却至室温后，
+经筛分得到粒径为106～300μm的氧载体颗粒，用
+于本文的实验测试。
+对不同CuO 含量的氧载体颗粒分别标记为
+Cu10RefBri、Cu25RefBri 和Cu30RefBri，其中数字
+代表CuO的质量分数，而RefBri代表耐火砖。各样
+品的主要特性如表1 所示，其中载氧率ROC是通过
+TGA 实验，并结合数据处理部分的计算方法得到。
+各氧载体的载氧率分布于ROC=1.0%～2.0% 范围，
+该值低于制备过程的预先设计值，其原因在于制备
+过程产生的误差以及煅烧过程部分CuO 与耐火砖
+中的α-Al2O3发生反应，生成不具备释氧能力的
+CuAl2O4而失活。氧载体颗粒的堆积密度按照世界
+卫生组织（WHO）制定的标准方法
+[23]测试得到，
+其值分布于ρs=1.81～2.51g/cm
+3，属于Geldart B 类
+颗粒
+[24]。该类颗粒的氧载体在化学链技术中的可用
+性，已经通过实验和流体动力学模拟
+[25]得到证实。
+氧载体颗粒的破碎强度采用力新宝FGJ-5型数码测
+力仪进行测定。以随机选取的20 个氧载体颗粒的
+平均破碎力作为氧载体颗粒的破碎强度，其值介于
+1.41～1.91N之间，满足流化床的使用要求
+[26-27]。氧
+载体的物相组成由布鲁克AXS D8ADVANCE 型Cu
+靶X 射线衍射仪测定，使用的最大管压为40kV、
+最大管流为30mA，扫描范围2θ＝10°～80°。XRD
+测试结果显示，3 种氧载体颗粒的主要晶相为
+表1
+氧载体样品的主要特性
+样品
+Cu10RefBri
+Cu25RefBri
+Cu30RefBri
+载氧率ROC
+/%
+1.0
+1.9
+2.0
+堆积密度ρs
+/g·cm−3
+1.81
+2.49
+2.51
+破碎强度
+/N
+1.83
+1.41
+1.91
+XRD主要晶相
+CuO，α-Al2O3
+CuAl2O4
+Al2SiO5
+注：载氧率为质量分数；CuAl2O4为含量较少的晶相。
+·
+· 5353
+
+
+===== Page 4 =====
+
+化
+工
+进
+展
+2019 年第38 卷
+CuO、α-Al2O3 和Al2SiO7 以及少量的CuAl2O4 尖晶
+石，这表明煅烧过程CuO 和Al2O3发生固-固反应。
+氧载体颗粒的微观结构特性采用Hitachi 公司的
+SU8010 型高分辨扫描电子显微镜（SEM）获取，
+用于分析颗粒间的烧结情况。
+1.2
+热重实验
+采用TAQ600 型热重分析仪（TGA，美国TA
+公司）对3 种氧载体材料进行释氧-吸氧反应性能
+测试。首先，为了定量氧载体的载氧能力，在
+100% （体积分数，下同）N2氛围下对样品进行程
+序升温分解（TPD）测试，通过分析样品失重曲
+线，经计算得到表1 中的载氧率ROC值。此外，在
+900℃和950℃等温度条件下，交替使用100% N2和
+100% 空气作为反应气氛对氧载体颗粒的反应活性
+和循环性能进行测试。在各温度下，对每一种样品
+进行20 次循环实验。同时，该TGA 还可实时监测
+氧载体释氧-吸氧过程中的热流/温度的变化，用于
+分析反应过程的吸热和放热特性。
+1.3
+流化床实验
+批次进料型流化床反应器的示意如图3 所示，
+该流化床用于流化状态下氧载体的化学链氧解耦特
+性的测试。在10cm/s 的流化气体作用下，流化床
+反应管被划分为密相区和稀相区
+[28]，如图3 所示。
+在密相区，氧载体颗粒处于最小流化状态，气体主
+要以气泡的形式存在，而在稀相区气泡破裂
+[28-29]。
+反应管由310s 材质的耐高温材料制成，其内径为
+54mm、长度为800mm，反应温度由反应管周围的
+加热炉进行控制。距离反应管底部入口300mm 处
+布置有孔径为1mm的布风板，以支撑氧载体颗粒，
+并为反应管内部提供均匀的气体分布。实验过程采
+用300g 氧载体颗粒作为床料。在释氧测试阶段用
+100% N2作为流化气体，释氧结束后将流化气体切
+换为100% 空气，开始氧化阶段的氧载体吸氧性能
+测试。在反应器下游设置两个相同的过滤器，以收
+集气流中的细小颗粒，用以评估氧载体的磨损率，
+同时避免对后置的气体分析仪造成影响。反应管尾
+气首先被通入这两个过滤器，随后被通入冷却器以
+冷凝可能产生的水蒸气并降低气流温度。在冷却器
+出口，气体被气体分析仪抽取进行成分检测或被排
+放至大气环境。实验过程中，100 N2气氛下释氧测
+试持续时间为25min，氧化过程吸氧测试时长为
+10min，以确保氧载体完全释放和吸收O2。氧载体
+在900～950℃下，持续进行25次释氧-吸氧循环测
+试。在实验所有阶段，采用气体分析仪
+（Gasboard-3100 型，武汉四方光电科技有限公司）
+实时监测燃料反应器出口处的O2浓度，并通过计
+算机以5s 的时间间隔记录实验数据。为了更好地
+掌握氧载体颗粒的性能演变，每24h从反应管中收
+集一定量的样品，用于理化性能表征。
+2
+数据处理
+氧载体的载氧率ROC表示氧载体中活性氧的质
+量占比，采用式(4)进行计算。对于CLOU 技术，
+ROC可以反映氧载体释放或吸收O2的最大能力。
+ROC = (mox - mred)/mox × 100%
+(4)
+式中，mox是完全氧化状态下氧载体的质量，
+g；mred是完全还原状态下氧载体的质量，g。
+质量变化率ω 表示氧载体在TPD 和释氧-吸氧
+循环过程中的实时质量变化特性，采用式(5)进行
+计算。
+ω = m/mox
+(5)
+式中，m 为氧载体的瞬时质量，g；ω 为质量
+变化率，%。
+TGA 实验中还可对氧载体的吸热和放热特性
+进行监测，通过样品托盘的温度Ts和参比托盘的温
+度Tr差值ΔT 可以反映氧载体的吸热（ΔT＞0）和
+放热过程（ΔT＜0），如式(6)所示。
+ΔT = Ts - Tr
+(6)
+氧载体的固体转化率X表示氧载体中活性气态
+O2的转化程度，可用于辨识实验过程中的不同反应
+阶段，如式(7)所示。
+X = (mox - m )/(mox - mred)
+(7)
+由式(4)和式(7)可得氧载体的释氧速率ς的表达
+式，见式(8)，由此可比较不同氧载体的释氧速率，
+优选最佳的CuO负载率。
+图3
+批次进料流化床反应器示意
+·
+· 5354
+
+
+===== Page 5 =====
+
+第12 期
+刘沛聪等：高铝耐火砖负载CuO氧载体的化学链氧解耦特性实验
+ς = ROC
+dX
+dt
+(8)
+流化床中，氧载体在流化过程中与反应管壁面
+会发生摩擦、碰撞，产生磨损现象。氧载体磨损后
+粒径和质量减小，磨损留下的细小颗粒在过滤器中
+被收集，从而进行进一步研究。假设粒径小于
+40μm 的氧载体不可直接回收而被再次利用，则可
+根据式(9)得到氧载体磨损率A。
+A = mf/(mt ⋅Δt )⋅3600 × 100%
+(9)
+式中，mf为∆t 时间内收集到的粒径小于40μm
+的细小氧载体颗粒质量，g；mt为反应管中氧载体
+总质量，g。
+3
+结果与讨论
+3.1
+氧载体的载氧率
+图4展示了从室温以25℃/min升温速率加热到
+900℃，Cu25RefBri 在TPD （100% N2环境）过程中
+质量变化ω和温度T随反应时间的变化。当温度达
+到600℃时，ω 开始降低，表明Cu25RefBri 氧载体
+中活性氧开始以O2 的形式释放，释氧温度为
+600℃。随后，随着反应温度的继续升高，氧载体
+释氧速率升高，导致其ω 值迅速降低。最终，在
+900℃时ω≈0.981 且不随温度的继续升高而变化，
+因此Cu25RefBri 的载氧率为ROC≈1.9%。改变氧载
+体，采用同样的实验程序，经计算得到Cu10RefBri
+和Cu30RefBri 载氧率分别为ROC=1.0% 和2.0%，并
+汇总于表1。对于所有的氧载体样品，载氧率均低
+于预设值，导致这种现象的原因在于煅烧过程氧载
+体中形成了低活性的CuAl2O4相，如表1所示。
+3.2
+氧载体循环性能
+图5 展示了900℃和950℃时，Cu25RefBri 在
+N2-空气循环气氛中循环吸氧-释氧过程中氧载体
+的质量变化率ω 与温度差ΔT 随时间的变化。氧载
+体不断地进行吸氧-释氧循环，其质量变化和温度
+差也随着循环的进行而不断变化。明显可见，吸氧
+过程为放热反应，导致ΔT＞0，而在释氧阶段氧载
+体吸热（ΔT＜0）。质量变化ω 的值在最初几次循
+环过程较高，但在10次循环后逐渐降低至稳定值，
+ΔT 随循环次数变化表现出类似的趋势。产生该现
+象的主要原因在于：氧载体中CuO 与耐火砖中的
+Al2O3反应生成低活性的CuAl2O4，进而降低了氧载
+体的活性。对比两个不同的反应温度，在900℃时
+ω和ΔT的变化幅度远高于950℃的结果，这说明较
+高温度不利于氧载体活性的稳定。
+图6(a)和(b)分别显示了900℃和950℃时，TGA
+等温循环过程中Cu10RefBri、Cu25RefBri 和
+Cu30RefBri的释氧速率ς随循环次数的变化。900℃
+的操作温度下，在所有氧载体中可达到的最高释氧
+速率为ς=6.04×10
+−5kgO2/(kgOC)。而经过20 次循环
+后，氧载体的释氧速率逐渐降至ς=1.79×10
+−5kgO2/
+(kgOC)。在950℃时，释氧速率下降的程度更为明
+显，第1 次循环中ς=9.0×10
+−5kgO2/(s∙kgOC)，而第
+10次循环时ς<2.0×10
+−5kgO2/(s∙kgOC)。两种温度下，
+氧载体释氧速率逐渐降低的原因在于氧载体中形成
+了CuAl2O4尖晶石，降低了材料的活性。在所测试
+的3种氧载体中，Cu25RefBri 的分解速率最高，而
+Cu10RefBri和Cu30RefBri速率较低且几乎相等，这
+说明Cu25RefBri 材料在所有循环中反应活性最高。
+因此，将Cu25RefBri氧载体用于后续的流化床实验
+测试。
+3.3
+流化床中典型的反应过程
+在流化床实验期间，对反应器温度T、反应管
+压降ΔP 和O2浓度进行实时监测。如图7(a)所示，
+将气体从100% 空气切换到100% N2以进行释氧测
+图4
+TPD测试过程Cu25RefBri的质量变化ω和
+温度T随反应时间的变化
+图5
+900和950℃时TGA中吸氧-释氧20次循环过程ω与
+ΔT随反应时间的变化情况
+·
+· 5355
+
+
+===== Page 6 =====
+
+化
+工
+进
+展
+2019 年第38 卷
+试时，由于气流的暂停，检测到ΔP 向下的峰值。
+同样，在向吸氧气氛切换过程也出现了ΔP骤降的
+现象。当气流状态稳定后，在释氧和吸氧过程可以
+看到ΔP较为稳定，这说明反应管内具有良好的流
+化状态。氧载体Cu25RefBri 的释氧持续时长约
+5min，稳定的氧浓度为1.3% 左右，该值与对应温
+度下的平衡值较为接近（1.5%，见图2）。释氧结
+束后，切换为吸氧气氛，氧载体Cu25RefBri可以快
+速地完成氧化再生。在氧化的最后阶段，O2浓度迅
+速上升至21%，与空气中的O2浓度一致，说明氧
+载体完全氧化。虽然在TGA 测试中显示，氧载体
+的氧化阶段为放热过程，但是图7(a)中并未观察到
+强烈的温度变化。出现这种现象的原因在于该材料
+中CuO 含量较低，在流化状态下不能够较好的显
+示放热特性。如图7(b)所示，在第25次循环时，尽
+管采用了950℃的较高温度，但在分解过程中O2浓
+度比第2次循环时下降得更快。该现象再次表明循
+环过程氧载体反应活性的降低。此外，在图7(b)的
+释氧过程，反应管压降ΔP 和温度T 较为稳定。然
+而，随后的氧化阶段反应管的压降突然降低，在整
+个氧化期间低至近400Pa。结合反应器冷却后观察
+到的硬的氧载体颗粒结块，反应管压差的突然降低
+证实了反应器内氧载体颗粒的烧结。床料的烧结可
+归因于较高的操作温度（950℃），该温度时在
+100%空气介质下氧载体氧化阶段的温度高于Cu的
+熔点，使颗粒发生烧结。由于氧载体发生烧结，实
+验测试在第25 个循环被迫终止，随后温度逐渐降
+低到室温，如图7(b)中30min后所示。
+3.4
+流化床中循环释氧特性
+图8显示了1～12次循环过程释氧阶段的O2浓
+度变化情况。如图8(a)所示，在第1～6 次循环中，
+O2浓度曲线由较高O2浓度和较低O2浓度两个阶段
+组成。在第一阶段，大约5～10min 时，稳定O2浓
+度约为1.1%。然而，在第二阶段12～20min时，稳
+定的O2浓度降低至0.5% 以下。产生这种现象的主
+要原因可归结于：循环过程中氧载体内部/外部结
+构发生变化、固-固反应导致活性相减少以及慢速
+团聚/烧结等因素。如图8(b)所示，与第1～6 次循
+环不同，在第7～12次循环过程未见到明显的O2浓
+度曲线分阶段的情况。但是，在图8(b)中将流化气
+体切换至100% N2后，O2体积分数从21%急剧下降
+到0.8% 左右。在5～18min 之间，每个循环的初始
+O2浓度几乎相同。随后，随着循环次数的变化，O2
+浓度呈现不同的下降趋势。对于第7次循环，释氧
+测试结束时O2体积分数仍然可以达到0.7%。然而，
+图6
+不同反应温度下氧载体Cu10RefBri、Cu25RefBri和
+Cu30RefBri的释氧速率随循环次数演变
+图7
+Cu25RefBri分解和氧化反应过程
+·
+· 5356
+
+
+===== Page 7 =====
+
+第12 期
+刘沛聪等：高铝耐火砖负载CuO氧载体的化学链氧解耦特性实验
+在第8～12 个循环中的18～25min 时O2气浓度有所
+下降，第12个循环结束时，O2体积分数低至0.2%。
+在图8所示的所有12个循环中，未检测到长期
+持续的高O2浓度。同时，氧载体的循环次数越多，
+O2浓度下降得越快，该现象与前文所讨论的TGA
+实验结果一致。这进一步表明循环过程中氧载体的
+载氧率和反应活性逐渐降低，在流化床中该氧载体
+也存在失活现象。
+3.5
+氧载体物理性能演化
+3.5.1
+晶相组成演变
+在流化床反应器的循环实验期间，Cu25RefBri
+氧载体的组成发生了变化，如图9所示。新鲜煅烧
+的氧载体由CuO、Al2O3、Al2SiO5和少量CuAl2O4组
+成，其中CuAl2O4来源于CuO 与耐火砖的固-固反
+应。CuAl2O4尖晶石的形成，也在已有的研究中得
+到证实
+[11,15,30]。与新鲜煅烧样品不同，在流化床中
+进行12次循环后，氧载体中检测到的CuAl2O4尖晶
+石相强度增加。在25 次循环后，也观测到与第12
+次循环结束后相同的晶相，即CuO、Al2O3、
+CuAl2O4和Al2SiO5。这表明在流化床中释氧-氧化测
+试时最多经历12 次循环后能够形成上述稳定的组
+分。然而，新形成的CuAl2O4尖晶石相却不能够很
+大程度地释放或吸收气态O2
+[30]。
+此外，根据Rietveld 方法对上述样品进行定量
+分析，得到第12次循环后CuAl2O4尖晶石质量分数
+为5.7%，而第25 次循环后其质量分数升高至
+18.7%。具有较低活性的CuAl2O4含量随循环次数的
+增加而升高。因此，在流化床释氧-吸氧循环过程
+尾气中的O2浓度逐渐降低。
+3.5.2
+磨损率变化
+通过收集过滤器中的细小颗粒，得到
+Cu25ReBri 氧载体颗粒的磨损率随反应时间的变化
+关系，如图10所示。在高温流化床中进行的33h测
+试中，氧载体颗粒的磨损率在0.01～0.04%/h范围内
+变化。在第1~17 次循环中，氧载体的磨损率较为
+稳定，约为0.01%/h。随后，磨损率从0.01%/h 缓
+慢增加到0.04%/h，然后再迅速降低到约0.01%/h。
+其中，磨损率的增加表明颗粒的磨损程度随着循环
+次数的增加而更加恶化。最后，在25～30h 时间
+段，磨损率减少的原因在于氧载体颗粒间的烧结。
+虽然在流化床测试初期，Cu25RefBri的平均寿命约
+为7000h，但是较高温度（如950℃）下，氧载体
+的烧结以及低反应活性限制了Cu25RefBri用于长周
+期的CLOU过程。
+图8
+900℃下流化床中Cu25RefBri的分解过程的氧气浓度
+图9
+新鲜煅烧后、循环12次、循环25次的氧载体的
+XRD分析结果
+图10
+流化床反应器内Cu25RefBri的颗粒磨损率
+随实验时间的变化
+·
+· 5357
+
+
+===== Page 8 =====
+
+化
+工
+进
+展
+2019 年第38 卷
+3.5.3
+氧载体颗粒的烧结现象
+如前文所述，在950℃时第25次氧化阶段反应
+管压差迅速降低，表明氧载体颗粒产生烧结。为了
+更好地描述氧载体颗粒的烧结，图11 展示了新鲜
+煅烧后、第12 次循环后和第25 次循环后颗粒的
+SEM 图像。在煅烧后和第12 次循环后的样品中，
+颗粒之间未发现烧结，如图11(a)和(b)所示。然而，
+第25 次循环后，可以明显观察到颗粒之间的黏结
+现象，如图11(c)中线框所示，这进一步表明在经
+过950℃氧化后氧载体出现烧结。氧载体颗粒间的
+烧结还体现为样品的结块，这与在第25次循环后，
+对反应管进行冷却后发现大的样品硬块一致。
+4
+结论
+本文采用一种耐火砖颗粒作为惰性载体，以浸
+渍法合成Cu10RefBri、Cu25RefBri 和Cu30RefBri 这
+3种CuO基氧载体材料，并进行TGA和流化床的吸
+氧和释氧性能测试。其中，Cu25RefBri表现出最高
+的释氧反应活性，释氧速率达ς=6.04×10
+−5kgO2/
+(kgOC)。然而，由于CuO 和耐火砖中的Al2O3发生
+反应，生成较低活性的CuAl2O4尖晶石，使得各氧
+载体的反应活性逐渐降低。TGA 中20 个循环后，
+该材料的稳定分解速率降至ς =2.0×10
+−5kgO2/(s ∙
+kgOC)。在流化床反应器对该材料进行测试时，该
+氧载体也表现出失活的现象，随着循环次数的增
+加，氧浓度逐渐降低，同时稳定的O2浓度持续时
+间极短。在900℃时，第12次循环的稳定O2体积分
+数降低至0.8% 左右。在流化床测试期间，氧载体
+颗粒在950℃时发生烧结。因此，需对该氧载体开
+展提质、抗烧结性能提升等方面的研究，以满足
+CLOU技术的要求。
+参考文献
+[1] MATTISSON T, LYNGFELT A, LEION H. Chemical-looping with
+oxygen uncoupling for combustion of solid fuels[J]. International
+Journal of Greenhouse Gas Control, 2009, 3(1):11-19.
+[2] ADANEZ J, ABAD A, MENDIARA T, et al. Chemical looping
+combustion of solid fuels[J]. Progress in Energy and Combustion
+Science, 2018, 65:6-66.
+[3] IPCC. IPCC special report on carbon dioxide capture and storage, in:
+METZ B, DAVIDSON O, de Coninck H, et al. (eds.). Working group
+Ⅲof the intergovernmental panel on climate change[M]. Cambridge:
+Cambridge University Press, 2005:129-139.
+[4] ADANEZ J, ABAD A, GARCIA-LABIANO F, et al. Progress in
+chemical-looping combustion and reforming technologies[J]. Progress
+in Energy and Combustion Science, 2012, 38(2):215-282.
+[5] BREAULT R W. Handbook of chemical looping technology[M].
+Weinheim: Wiley, 2019: 93-122.
+[6] IMTIAZ Q, HOSSEINI D, MÜLLER C R. Review of oxygen carriers for
+chemical looping with oxygen uncoupling (CLOU): thermodynamics,
+material development, and synthesis[J]. Energy Technology, 2013, 1
+(11):633-647.
+[7] 文圆圆, 李振山, 张腾, 等.
+基载氧剂制取O2-CO2混合气体的流
+化床实验[J]. 工程热物理学报, 2010, 31(3): 527-530.
+WEN Y Y, LI Z S, ZHANG T, et al. Experiments of O2-CO2 gas
+mixture production in a fluidized bed reactor with Co-based oxygen
+carrier[J].
+Journal
+of
+Engineering
+Thermophysics,
+2010,
+31(3):
+527-530.
+[8] 王坤, 王鸿洁, 魏佳, 等. 基于化学链制氧的加热炉富氧燃烧系统构
+建及分析[J]. 东北大学学报(自然科学版), 2018, 39(10): 43-47.
+WANG K, WANG H J, WEI J, et al. Construction and analysis of
+heating furnace oxy-fuel combustion system based on chemical
+looping oxygen production[J]. Journal of Northeastern University
+(Natural Science), 2018, 39(10): 43-47.
+[9] MATTISSON
+T.
+Materials
+for
+chemical-looping
+with
+oxygen
+uncoupling[J]. ISRN Chemical Engineering, 2013, 2013:1-19.
+[10] LEION H, MATTISSON T, LYNGFELT A. Using chemical-looping
+with oxygen uncoupling (CLOU) for combustion of six different solid
+fuels[J]. Energy Procedia, 2009, 1(1): 447-453.
+[11] GAYAN P, INAKI A, ABAD A, et al. Development of Cu-based
+oxygen carriers for chemical-looping with oxygen uncoupling (CLOU)
+图11
+新鲜煅烧后、12次循环后和25次循环后Cu25RefBri
+氧载体颗粒的SEM形貌
+·
+· 5358
+
+
+===== Page 9 =====
+
+第12 期
+刘沛聪等：高铝耐火砖负载CuO氧载体的化学链氧解耦特性实验
+process[J]. Fuel, 2011, 90(7):226-238.
+[12] ABAD A, ADANEZ-RUBIOI, GAYAN P, et al. Demonstration of
+chemical-looping with oxygen uncoupling (CLOU) process in a
+1.5kWth continuously operating unit using a Cu-based oxygen-carrier
+[J]. International Journal of Greenhouse Gas Control, 2012, 6:189-200.
+[13] 王坤, 于庆波, 秦勤, 等. 化学链制氧技术中铜-锆氧载体的动力学
+分析[J]. 无机材料学报, 2014, 29(3):301-308.
+WANG K, YU Q B, QIN Q, et al. Kinetics analysis of Cu-Zr oxygen
+carrier for chemical looping oxygen production[J]. Journal of Inorganic
+Materials, 2014, 29(3):301-308.
+[14] 梅道锋, 赵海波, 马兆军, 等. 铜基氧载体化学链氧解耦的流化床实
+验研究[J]. 燃烧科学与技术, 2013, 19(1):15-20.
+MEI D F, ZHAO H B, MA Z J, et al. Fluidized bed reactor
+investigation of copper-based oxygen carrier in chemical looping with
+oxygen uncoupling[J]. Journal of Combustion Science and Technology,
+2013,19(1):15-20.
+[15] MEI D F, ZHAO H B, MA Z J, et al. Using the sol-gel-derived CuO/
+CuAl2O4 oxygen carrier in chemical looping with oxygen uncoupling for
+three typical coals[J]. Energy & Fuels, 2013, 27(5): 2723-2731.
+[16] 魏义杰, 徐祖伟, 赵海波. 核壳结构铜基氧载体的化学链制氧[J]. 燃
+烧科学与技术, 2016, 22(6): 494-498.
+WEI Y J, XU Z W, ZHAO H B. Chemical looping air separation using
+a Cu-based oxygen carrier with core-shell structure[J]. Journal of
+Combustion Science and Technology, 2016, 22(6): 494-498.
+[17] ZHAO H B, WANG K, FANG Y F, et al. Characterization of natural
+copper ore as oxygen carrier in chemical-looping with oxygen
+uncoupling of anthracite[J]. International Journal of Greenhouse Gas
+Control, 2014, 22:154-164.
+[18] ADANEZ-RUBIO I, MARIA T, IZQUIERDO, et al. Spray granulated
+Cu-Mn oxygen carrier for chemical looping with oxygen uncoupling
+(CLOU) process[J]. International Journal of Greenhouse Gas Control,
+2017, 65: 76-85.
+[19] ADANEZ-RUBIO I, ABAD A, GAYAN P, et al. CLOU process
+performance with a Cu-Mn oxygen carrier in the combustion of
+different types of coal with CO2 capture[J]. Fuel, 2018, 212: 605-612.
+[20] WANG X, XU T T, JIN X Y, et al. CuO supported on olivine as an
+oxygen carrier in chemical looping processes with pine sawdust used
+as fuel[J]. Chemical Engineering Journal, 2017, 330: 480-490.
+[21] 罗明, 易旸, 刘科, 等. 基于CuO/SiO2载氧体的化学链氧解耦燃烧实
+验研究[J]. 煤炭技术, 2017, 36(12): 274-276.
+LUO M, YI Y, LIU K, et al. Experimental investigation of chemical-
+looping with oxygenuncoupling of coal based on CuO/SiO2 oxygen
+carrier[J]. Coal Technology, 2017, 36(12): 274-276.
+[22] 刘轩. 铜基载氧体氧解耦性能与燃烧特性分析[D]. 北京: 北京交通
+大学,2016.
+LIU X. Oxygen uncoupling and combustion reactive properties of Cu-
+based oxygen carriers[D]. Beijing: Beijing Jiaotong University, 2016.
+[23] World Hearth Organization. S.3.6. bulk density and tapped density of
+powders, final text for addition to the international pharmacopoeia:
+QAS/11.450[S]. Geneva: World Hearth Organization, 2012.
+[24] GELDART D.Types of gas fluidization[J]. Powder Technology, 1973, 7
+(5): 285-292.
+[25] WANG S, WANG Q, CHEN J H, et al. Extension of cluster-structure
+dependent drag model to simulation of riser with Geldart B particles[J].
+Advanced Powder Technology, 2016, 27(1): 57-63.
+[26] JOHANSSON M, MATTISSON T, LYNGFELT A. Investigation of
+Fe2O3 with MgAl2O4 for chemical-looping combustion[J]. Industrial &
+Engineering Chemistry Research, 2004, 43(22): 6978-6987.
+[27] MEI D F, MENDIARA T, ABAD A, et al. Evaluation of manganese
+minerals for chemical looping combustion[J]. Energy & Fuels, 2015,29
+(10): 6605-6615.
+[28] 梅道锋, 赵海波, 晏水平, 等. 模型辅助的合成气化学链燃烧操作优
+化[J]. 燃烧科学与技术, 2018, 24(4): 323-330.
+MEI D F, ZHAO H B, YAN S P, et al. Model-assisted operation
+optimization of syngas-chemicallooping combustion[J]. Journal of
+Combustion Science and Technology, 2018, 24(4): 323-330.
+[29] MEI D F, ABAD A, ZHAO H B, et al. Extension and evaluation of a
+macroscopic model for syngas-fueled chemical looping combustion[J].
+Chemical Engineering and Processing-Process Intensification, 2018,
+133:106-116.
+[30] MEI D F, ABAD A, ZHAO H B, et al. Characterization of a sol-gel
+derived CuO/CuAl2O4 oxygen carrier for chemical looping combustion
+(CLC) of gaseous fuels: relevance of gas-solid and oxygen uncoupling
+reactions[J]. Fuel Processing Technology, 2015, 133:210-219.
+·
+· 5359

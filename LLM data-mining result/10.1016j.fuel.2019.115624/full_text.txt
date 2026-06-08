@@ -1,0 +1,1061 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Fuel
+journal homepage: www.elsevier.com/locate/fuel
+Full Length Article
+Solar thermocatalytic conversion of CO2 using PrxSr(1−x)MnO3−δ
+perovskites
+Gorakshnath Takalkar, Rahul R. Bhosale⁎
+Department of Chemical Engineering, College of Engineering, Qatar University, P. O. Box – 2713, Doha, Qatar
+A R T I C L E I N F O
+Keywords:
+PrxSr(1−x)MnO3−δ
+CO2 conversion
+Combustion synthesis
+Perovskites
+Solar thermochemical
+Thermogravimetric analyzer
+A B S T R A C T
+The prime aim of this study was to examine the thermal reduction (TR) and CO2 splitting (CS) capacity of each
+PrxSr(1−x)MnO3−δ (PSM) perovskite. A solution combustion synthesis (SCS) approach was applied for the
+synthesis of PSM perovskites wherein glycine was utilized as the fuel. As-synthesized PSM perovskites were first
+annealed up to 1000 °C in air and the calcined powder obtained was further analyzed using multiple char-
+acterization techniques. A high-temperature experimental set-up consisting of a Setaram SETSYS Evolution
+thermogravimetric analyzer (TGA) was developed and utilized for the examination of the SCS derived PSM
+perovskites towards thermochemical CO2 splitting reactions. The obtained results indicate that the lower Pr and
+higher Sr atomic concentrations are beneficial to achieve the maximum amounts of O2 released (nO2) and CO
+produced () in each thermochemical cycle. Based on the average nO2 and , the Pr0.18Sr0.80Mn0.99O2.951 (PSM2)
+and Pr0.39Sr0.63Mn0.98O2.979 (PSM4) were identified as the best choices for the solar thermochemical conversion
+of CO2. When compared with the CeO2 material (which is considered as a yardstick), the average nO2 and by all
+the PSM perovskites was considerably higher for each cycle.
+1. Introduction
+Exploration of the methodologies such as solar-driven metal oxide
+(MO) based splitting of H2O/CO2 is essential for the production of
+carbon free alternative fuels. In this process, the solar radiations are
+concentrated at one location to generate the temperature required to
+convert the thermodynamically stable H2O/CO2 molecules into H2 or
+syngas. The H2 can be used directly as a fuel and the produced syngas
+can be converted into the value added chemicals and fuels via catalytic
+Fisher Tropshe (FT) technology [1]. This way of utilization of the solar
+energy will help to reduce the usage and dependence on the non-
+renewable fossil fuels. Solar fuels produced from this process provides a
+promising option to fulfill the constantly rising demand of energy [2].
+The productivity of the solar thermochemical fuel production pro-
+cesses mainly depends upon the redox reactivity (RR) of the employed
+MOs. Therefore, until now, several volatile and non-volatile MOs were
+securitized for both H2O and CO2 splitting reactions which includes zinc
+oxide [3–7], tin oxide [8–11], iron oxide [12–15], ceria and doped ceria
+[16,17,26,18–25],
+ferrites
+[27,28,37,38,29–36]
+and
+other
+MOs
+[39–44]. Among all the MOs listed above, ceria based redox materials
+are considered as the most promising candidates for thermochemical
+H2O/CO2 splitting due their faster surface kinetics, reduced cyclic
+period, high oxygen storage capacity, long term material stability, and
+high O2 diffusion rates as compared to other MOs. In contrast, the ceria
+based materials possess the limitation allied to the requirement of
+elevated thermal reduction (TR) temperatures for the liberation of
+sufficient amount of O2 [24].
+The findings reported in the recent investigations shows that the
+perovskite based oxides (ABO3) can be utilized as an alternative to the
+ceria based redox materials as the temperatures needed to drive the TR
+of perovskites is considerably lower as compared to ceria based redox
+materials. The two-step TR and H2O (WS) and CO2 splitting (CS) re-
+actions associated with the perovskite oxides are shown below:
++
+ABO
+ABO
+O
+g
+1
+2
+( )
+x
+y
+3
+3
+2
+(1)
++
++
+ABO
+H O
+ABO
+H g( )
+y
+x
+3
+2
+3
+2
+(2)
++
++
+ABO
+CO
+ABO
+CO g( )
+y
+x
+3
+2
+3
+(3)
+Table 1 lists the various perovskite-based oxides investigated until
+now for the thermochemical splitting of H2O/CO2.
+The data listed in Table 1 evidently shows that most of the in-
+vestigations were focused on the partial replacement of Sr by La i.e. La-
+Sr-based perovskite oxides. We believe that, in addition to the La, other
+lanthanides also needs to be explored as the potential candidate for the
+partial replacement of Sr in the perovskite oxides. In this regard, this
+https://doi.org/10.1016/j.fuel.2019.115624
+Received 18 March 2019; Received in revised form 11 May 2019; Accepted 9 June 2019
+⁎ Corresponding author.
+E-mail address: rahul.bhosale@qu.edu.qa (R.R. Bhosale).
+Fuel 254 (2019) 115624
+Available online 19 June 2019
+0016-2361/ © 2019 Elsevier Ltd. All rights reserved.
+T
+
+
+===== Page 2 =====
+
+paper reports the utilization of Pr-Sr-Mn-based perovskite oxides i.e.,
+PrxSr(1−x)MnO3−δ (PSM) for the thermochemical conversion of CO2. As
+per our understanding and the literature review, this study will be the
+first ever attempt to explore the PSM perovskites (with a variety of
+compositions) towards thermochemical conversion of CO2.
+The PSM perovskites were synthesized using solution combustion
+synthesis (SCS) approach and further tested in a high-temperature
+thermogravimetric analyzer (TGA). By performing consecutive multiple
+thermochemical CS steps, the RR of each PSM perovskite was validated
+in terms of the amounts of O2 released (nO2) and CO produced (nCO) in
+each TR and CS step and the re-oxidation yield (n
+n
+/
+CO
+O2) over the entire
+period of operation. The obtained findings were compared with CeO2
+material. The overall scheme of the PrxSr(1−x)MnO3−δ (PSM) based
+solar thermochemical splitting of H2O/CO2 is presented in Fig. 1. Si-
+milar to the Eqs. (1)–(3), following equations represents the two-step
+TR and WS and CS reactions associated with the PSM perovskites:
+PrxSr(1−x)MnO3−δ
++
+Pr Sr
+MnO
+Pr Sr
+MnO
+O
+g
+1
+2
+( )
+x
+x
+x
+x
+x
+y
+(1
+)
+3
+(1
+)
+3
+2
+(4)
++
++
+Pr Sr
+MnO
+H O
+Pr Sr
+MnO
+H g( )
+x
+x
+y
+x
+x
+x
+(1
+)
+3
+2
+(1
+)
+3
+2
+(5)
++
++
+Pr Sr
+MnO
+CO
+Pr Sr
+MnO
+CO g( )
+x
+x
+y
+x
+x
+x
+(1
+)
+3
+2
+(1
+)
+3
+(6)
+2. Experimental
+2.1. Chemicals
+The precursors i.e., praseodymium (III) nitrate hexahydrate, man-
+ganese (II) nitrate tetrahydrate, and strontium nitrate acquired from
+Sigma Aldrich, USA were used directly without any further treatment.
+An aqueous solution of metal precursors and glycine were prepared by
+using deionized water prepared by using the reverse osmosis set-up
+procured from Millipore, France. Gas cylinders containing a) inert Ar
+and b) mixture of 50% CO2 in Ar were purchased from Buzwair Gases,
+Qatar.
+2.2. Synthesis of PSM perovskites
+The PSM perovskites were synthesized by using the SCS approach.
+Various combinations of the PSM perovskites were derived by varying
+the atomic concentration of Pr in the range of 0.1 to 0.9 (Table 2). In
+the SCS method, the glycine was used as a fuel (with a stoichiometric
+ratio = 1). All the steps involved in the synthesis of PSM perovskites via
+SCS approach are listed in Fig. 2. To start with, the amount of metal
+precursors needed for the production of 1 g of the PSM perovskites were
+computed. The calculated amounts of metal precursors and the corre-
+sponding amount of glycine (estimated based on the summation of
+oxidation states of metal cations) were dissolved in the deionized water
+(around 50 ml). After dissolution, preheating of the precursor solution
+up to 300 °C was attained by using a temperature-controlled hot plate.
+Due to this preheating, the water from the precursor solution was
+evaporated and a thick viscous gel containing the metal precursors and
+glycine was developed. After achieving the formation of the think vis-
+cous gel, the temperature of the gel was further increased up to the
+auto-ignition temperature. After reaching the auto-ignition tempera-
+ture, a sudden rise in the sample temperature was observed (e.g.,
+around 640 K as per Fig. 2c) due to the exothermic heat generated
+during the propagation of the combustion reaction and formation of
+PSM powder was achieved. The obtained PSM powder was further
+calcined up to 1000 °C for 3 h by using a muffle furnace (air environ-
+ment). The calcined powder after after annealing experiment was fur-
+ther stored in a dry place before undergoing any characterization of
+TGA analysis.
+Table 1
+List of the perovskite based oxides investigated until now for
+thermochemical splitting of H2O/CO2.
+Perovskite based oxides
+References
+LaSrMnO3−δ
+[45–50]
+YSrMnO3−δ
+[50,51]
+LaMnCoO3−δ
+[50]
+LaFeCoO3−δ
+[50]
+LaSrFeO3−δ
+[50]
+LaSrCoO3−δ
+[50]
+LaCaMnO3−δ
+[50,51]
+BaSrFeO3−δ
+[50]
+BaSrFeCoO3−δ
+[50]
+LaSrCoFeO3−δ
+[50]
+LaSrFeMnO3−δ
+[51]
+LaBaMnO3−δ
+[51]
+LaSrMnAlO3−δ
+[51,52]
+LaSrCrCoO3−δ
+[53]
+Fig. 1. General scheme for the PSM based solar thermochemical WS/CS redox
+cycle.
+Table 2
+Chemical composition, Pr/Sr/Mn molar ratio (as-prepared and from EDS), and
+the abbreviations assigned to each SCS derived PSM perovskite.
+Abbreviation
+Pr/Sr/Mn (as-
+prepared)
+Pr/Sr/Mn (from
+EDS)
+Composition
+PSM1
+0.10/0.90/1.00
+0.09/0.91/0.98
+Pr0.09Sr0.91Mn0.98O2.956
+PSM2
+0.20/0.80/1.00
+0.18/0.80/0.99
+Pr 0.18Sr0.80Mn0.99O2.951
+PSM3
+0.30/0.70/1.00
+0.31/0.70/1.00
+Pr 0.31Sr0.70Mn1.00O3.015
+PSM4
+0.40/0.60/1.00
+0.39/0.63/0.98
+Pr0.39Sr0.63Mn0.98O2.979
+PSM5
+0.50/0.50/1.00
+0.49/0.49/0.99
+Pr0.49Sr0.49Mn0.99O2.958
+PSM6
+0.60/0.40/1.00
+0.60/0.40/0.98
+Pr0.60Sr0.40Mn0.98O2.966
+PSM7
+0.70/0.30/1.00
+0.71/0.27/1.01
+Pr0.71Sr0.27Mn1.01O3.001
+PSM8
+0.80/0.20/1.00
+0.80/0.18/1.02
+Pr0.80Sr0.18Mn1.02O3.012
+PSM9
+0.90/0.10/1.00
+0.91/0.09/1.00
+Pr0.91Sr0.09Mn1.00O3.005
+G. Takalkar and R.R. Bhosale
+Fuel 254 (2019) 115624
+2
+
+
+===== Page 3 =====
+
+2.3. Characterization of PSM perovskites
+The phase composition of the PSM perovskites derived vis SCS
+method was analyzed using a powder X-ray diffractometer (PXRD,
+PANalytical XPert MPD/DY636). The elemental composition and the
+surface material morphology of each PSM perovskite was further
+scrutinized using a scanning electron microscope (SEM, Nova Nano
+450, FEI, 200kx) equipped with the energy dispersive X-ray spectro-
+scopy (EDS).
+2.4. TGA experiments
+A high temperature set-up consisting of a SETSYS Evolution TGA
+(Setaram Instruments, France) was utilized for the evaluation of the TR
+and CS ability of the PSM perovskites (Fig. 3). The major components of
+the TGA set-up are: a graphite furnace, a gas control panel equipped
+with multiple mass flow controllers, a vertical hanging down balance,
+gas cylinders, double stage vacuum pump, quenching water chiller, and
+Calisto software for data recording/processing. The reference and
+sample alumina crucibles were stationed on a platinum pan. The sample
+placed in the crucible was heated by using the graphite-heating furnace
+consisting of an alumina tube and multiple thermocouples. The flow-
+rates of an inert Ar and feed CO2/Ar gas mixture was monitored and
+regulated by using two mass flow controllers. The reaction temperature
+was controlled by using a Pt–Rh type-B thermocouple located at the
+bottom of the crucible holding platinum pan. The influence of thermal
+buoyancy on the findings associated with the TR and CS steps was
+nullified by subtracting the TGA profiles obtained during a blank run
+(conducted by using empty crucible) from the actual TGA experiment
+(conducted by using PSM perovskites) [22,26]. Multiple CS cycles were
+conducted by using approximately 70 mg of the PSM perovskite powder
+situated precisely on the TGA balance with the help of the alumina
+crucible. The Calisto software was utilized to monitor and record the
+variation in the mass of the PSM perovskite during each TR (performed
+at 1400 °C for 60 min, 100 ml/min Ar) and CS (conducted at 1000 °C for
+30 min, 100 ml/min CO2/Ar mixture) step. By using Eqs. (7) and (8),
+the variation in the mass recorded during each TR and CS step was
+converted into nO2 and nCO by each PSM perovskite.
+=
+×
+n
+m
+M
+m
+(
+)
+O
+loss
+O
+PSM
+2
+2
+(7)
+=
+×
+n
+m
+M
+m
+(
+)
+CO
+gain
+O
+PSM
+(8)
+In the above listed expressions, the
+mloss and
+mgain represents the
+mass loss observed during TR and mass gain noticed during the CS
+steps. Furthermore, the MO and MO2 are the molecular weights of O and
+O2 and MPSM is the amount of PSM perovskite used during the TGA
+experiments.
+3. Results and discussion
+3.1. Characterization of SCS synthesized PSM perovskites
+PXRD analysis was conducted to identify the crystallite phase
+composition of each SCS derived PSM perovskite (2θ = 20–60°). The
+PXRD profiles reported in Fig. 4 confirms the production of composi-
+tionally phase pure PSM perovskites with absence of any metal i.e., Pr,
+Sr, Mn, or metal oxide i.e., Pr-, Sr-, Mn-based oxide impurities. The
+PXRD profiles shown in the Fig. 4 (2θ = 32–34°) further indicate a shift
+in the peaks associated with the PSM perovskite towards the lower 2θ
+angle, with the rise in the Pr and drop in the Sr atomic concentrations.
+For instance, the 2θ angle of the peak associated with the PSM9 was
+0.3° lower as compared to that of the PSM1 perovskite. The reason for
+this shift of the 2θ angle towards the lower value with the rise in the Pr
+and drop in the Sr atomic concentrations is the lesser crystal ionic radii
+of Pr (113 pm) as compared to that of the Sr (132 pm). This shift in the
+2θ angle also provided the confirmation that the Pr is successfully in-
+corporated (partially in place of Sr) in the PSM perovskites. In addition
+to the phase composition, the average crystallite size of each PSM
+perovskite was also determined using the findings obtained in the PXRD
+analysis and by applying the Scherrer formula [54]. In terms of num-
+bers, the average crystallite size of each PSM perovskite was observed
+to be less than 100 nm and there was no fixed trend associated with the
+Fig. 2. a) Steps associated with the synthesis of PSM perovskites via SCS method, b) an exemplified picture of the combustion reaction, c) variation of the combustion
+temperature with respect to the reaction time during the synthesis of PSM6 perovskite (as an example).
+G. Takalkar and R.R. Bhosale
+Fuel 254 (2019) 115624
+3
+
+
+===== Page 4 =====
+
+variation in the crystallite size of each PSM perovskite.
+The compositions identified by the PXRD analysis were further va-
+lidated by performing the EDS analysis. The results obtained via the
+EDS analysis shows successful inclusion of Pr in place of Sr and for-
+mation of PSM perovskites via SCS synthesis approach. Table 2 reports
+the atomic concentration of Pr, Sr, Mn obtained via the EDS analysis
+and the final chemical composition of the each PSM perovskite
+determined based on the atomic concentration of each species.
+After determining the phase composition and average crystallite
+size, the particle morphology of each PSM perovskite was scrutinized by
+performing the SEM analysis. The SEM images obtained unveils a
+homogenous and porous material morphology in case of each PSM
+perovskite with a minor variation in the particle size. The images ob-
+tained for all the PSM perovskites are very similar to each other, which
+Fig. 3. A high temperature TGA-based experimental set-up.
+Fig. 4. PXRD patterns of PSM perovskites, a) 2θ = 20°–60° and b) 2θ = 32°–34°.
+G. Takalkar and R.R. Bhosale
+Fuel 254 (2019) 115624
+4
+
+
+===== Page 5 =====
+
+further confirms insignificant influence of increase in the Pr and de-
+crease in the Sr atomic concentration on the particle morphology. The
+demonstrative SEM images for PSM2, PSM4, PSM6, and PSM8 per-
+ovskites are reported in Fig. 5.
+3.2. Thermochemical CO2 splitting ability of SCS synthesized PSM
+perovskites
+Previous studies associated with the solar thermochemical WS/CS
+using perovskite based oxides were focused only on one or two ther-
+mochemical cycles. Therefore, to be on the same page and to compare
+with the formerly studied perovskite based oxides, we have initiated
+this study by testing the PSM perovskites in one thermochemical CS
+cycle. The TR and CS steps were carried out at 1400 °C (for 60 min) and
+at 1000 °C (for 30 min), respectively and the TGA profiles obtained for
+PSM2, PSM4, PSM6, and PSM8 (as an example) during the first CS cycle
+are presented in Fig. 6.
+The TGA profiles obtained during the first TR step were utilized to
+identify the amount of mass reduced by all the PSM perovskites. This
+drift in the mass was directly transformed into the nO2 by each PSM
+perovskite during first TR step and the obtained numbers are reported
+in Fig. 7. Among all the PSM perovskites, the PSM1 was observed to be
+capable of releasing the highest nO2 = 1062.8 μmol/g. It was further
+noticed that the nO2 by the PSM perovskites decreased as the atomic
+concentration of Pr was increased (Table 3). The only exception for this
+observation was the PSM5 perovskite as it released higher nO2 as
+compared to the PSM4 perovskite. In terms of numbers, the nO2 by
+PSM1 perovskite (1062.8 μmol/g) was higher than PSM2, PSM3, PSM4,
+PSM5, PSM6, PSM7, PSM8, and PSM9 by a factor of 1.27, 1.60, 2.82.
+2.20, 3.72, 4.14, 4.37, and 5.15, respectively.
+As expected, gain in the mass of the PSM perovskites was recorded
+with the help of the TGA profiles obtained during the CS step. The nCO
+by each PSM perovskite was estimated by using Eq. (2) and the numbers
+obtained are presented in Fig. 7. Opposite to the TR step, it was un-
+derstood that the re-oxidation of the PSM perovskites does not follow
+any specific trend. The maximum nCO was noticed in case of PSM2
+(637.6 μmol/g) and PSM4 (573.1 μmol/g) perovskites, whereas the
+PSM9 perovskite showed the minimum CO production (272.3 μmol/g)
+as compared to the other PSM perovskites investigated (Table 3). From
+PSM1 to PSM5, the CS ability of the PSM perovskites was uneven.
+However, from PSM6 to PSM9, the nCO by each PSM perovskite was
+decreased with the rise in the Pr atomic concentration. The obtained
+results further indicate that the n
+n
+/
+CO
+O2 ratio for PSM1–PSM5 (except
+for PSM4) was lower than 1.0. In contrast, the re-oxidation ability of
+PSM6, PSM7, PSM8, and PSM9 (in the range of 1.23–1.32) seems to be
+better than PSM1, PSM2, PSM3, and PSM5 (in the range of 0.3–0.76).
+Overall, the highest n
+n
+/
+CO
+O2 ratio = 1.52 was recorded in case of PSM4
+(Table 3).
+The investigation of the RR of each SCS synthesized PSM perovskite
+towards thermochemical CS reactions was continued by performing
+three consecutive thermochemical cycles (experimental conditions
+identical to the first cycle). Exemplified TGA profiles obtained for the
+PSM2, PSM4, PSM6, and PSM8 perovskites during three successive CS
+cycles are presented in Fig. 8. The nO2 and nCO by each PSM perovskite
+in three cycles was calculated by using Eqs. (1) and (2) and the data
+obtained is reported in Table 3.
+When compared with cycle 1, the nO2 by each PSM perovskite was
+reduced considerably in cycle 2. In the 2nd CS cycle, the nO2 was
+Fig. 5. SEM images of PSM2, PSM4, PSM6, and PSM8 perovskites.
+G. Takalkar and R.R. Bhosale
+Fuel 254 (2019) 115624
+5
+
+
+===== Page 6 =====
+
+decreased by 80.2%, 69.6%, 51.6%, 41.5%, 69.3%, 45.9%, 51.0%,
+51.5%, and 52.7% for PSM1, PSM2, PSM3, PSM4, PSM5, PSM6, PSM7,
+PSM8, and PSM9 perovskites, correspondingly. Alike TR aptitude, the
+CS capability of all the PSM perovskites was also dropped in the second
+cycle. In terms of numbers, the nCO by PSM1, PSM2, PSM3, PSM4,
+PSM5, PSM6, PSM7, PSM8, and PSM9 perovskites was reduced by
+66.7 μmol/g, 270.8 μmol/g, 34.7 μmol/g, 267.1 μmol/g, 38.3 μmol/g,
+69.4 μmol/g,
+115.6 μmol/g,
+94.2 μmol/g,
+and
+143.9 μmol/g,
+in-
+dividually in the second cycle as compared to cycle 1. In contrast to
+both nO2 and nCO, the n
+n
+/
+CO
+O2 ratio for most of the PSM perovskites
+(except for PSM4 and PSM9) was improved in cycle 2 in comparison to
+the cycle 1. For instance, the n
+n
+/
+CO
+O2 ratio for PSM1, PSM2, PSM3,
+PSM5, PSM6, PSM7, and PSM8 perovskites in cycle 2 was enhanced by
+0.88, 0.68, 0.48, 1.14, 0.63, 0.45, and 0.51, respectively than the 1st CS
+cycle.
+When compared with the findings obtained in cycle 2, the TR ap-
+titude of each PSM perovskite was observed to be decreased further
+during cycle 3. For instance, 4.8%, 5.5%, 15.1%, 12.6%, 7.1%, 10.0%
+3.0%, 3.2% and 14.3% decrease in the nO2 by PSM1, PSM2, PSM3,
+PSM4, PSM5, PSM6, PSM7, PSM8, and PSM9 perovskites was recorded
+in the 3rd CS cycle in comparison to that of the cycle 2. Although the O2
+releasing capacity of each PSM perovskite was reduced in cycle 3 as
+Fig. 6. PSM perovskites: TGA profiles obtained during a) first TR step and b) first CS step.
+Fig. 7. nO2, , and n
+n
+/
+CO
+O2 for PSM perovskites during first thermochemical
+cycle.
+Table 3
+PSM perovskites: nO2, , and n
+n
+/
+CO
+O2 ratio in three consecutive cycles.
+PSM
+Cycle 1
+Cycle 2
+Cycle 3
+nO2
+(μmol/
+g)
+nCO
+(μmol/
+g)
+nCO
+nO2
+nO2
+(μmol/
+g)
+nCO
+(μmol/
+g)
+nCO
+nO2
+nO2
+(μmol/
+g)
+nCO
+(μmol/
+g)
+nCO
+nO2
+PSM1
+1062.8
+314.2
+0.30
+210.6
+247.4
+1.17
+200.6
+218.6
+1.09
+PSM2
+838.5
+637.6
+0.76
+255.0
+366.8
+1.44
+240.9
+323.2
+1.34
+PSM3
+665.9
+367.6
+0.55
+322.6
+333.0
+1.03
+274.0
+353.8
+1.29
+PSM4
+376.4
+573.0
+1.52
+220.3
+305.9
+1.39
+192.4
+335.1
+1.74
+PSM5
+482.1
+299.4
+0.62
+148.0
+261.1
+1.76
+137.5
+243.7
+1.77
+PSM6
+285.5
+362.6
+1.27
+154.3
+293.2
+1.90
+138.9
+223.0
+1.61
+PSM7
+256.9
+336.4
+1.31
+125.8
+220.8
+1.75
+122.0
+208.3
+1.71
+PSM8
+243.4
+299.2
+1.23
+118.2
+205.0
+1.73
+114.4
+161.8
+1.41
+PSM9
+206.5
+272.3
+1.32
+97.7
+128.4
+1.32
+83.7
+94.9
+1.13
+Fig. 8. PSM perovskites: TGA profiles obtained during three consecutive ther-
+mochemical cycles.
+G. Takalkar and R.R. Bhosale
+Fuel 254 (2019) 115624
+6
+
+
+===== Page 7 =====
+
+compared to that of the cycle 2, the magnitude of drop in the nO2 was
+lower than the one observed in the cycle 2 when compared with the
+cycle 1.
+The CS ability of most of the PSM perovskites was also diminished in
+cycle 3 when compared with the cycle 2, except for PSM3 and PSM4
+perovskites. The nCO
+was reduced by 28.8 μmol/g, 43.7 μmol/g,
+17.4 μmol/g, 70.2 μmol/g, 12.5 μmol/g, 43.2 μmol/g, and 33.5 μmol/g,
+in case of PSM1, PSM2, PSM5, PSM6, PSM7, PSM8, and PSM9 during
+3rd CS cycle as compared to the 2nd one. Contrasting to this, the nCO by
+PSM3 and PSM4 perovskites was enhanced by 20.8 μmol/g and
+29.1 μmol/g in cycle 3 when compared with the nCO by these per-
+ovskites in cycle 2. The re-oxidation capacity of PSM1, PSM2, PSM6,
+PSM7, PSM8, and PSM9 was noticed to be higher by 0.09, 0.10, 0.29.
+0.05, 0.32, and 0.18 in cycle 3. Opposite to this, the n
+n
+/
+CO
+O2 ratio for
+PSM3, PSM4, and PSM5 was decreased by 0.26, 0.35, and 0.01, re-
+spectively in the 3rd cycle when matched with the 2nd cycle.
+The findings obtained in case of three successive thermochemical
+cycles does not yield into any significant conclusion regarding the best
+choice of PSM perovskite for the CS application. The numbers listed in
+Table 3 clearly shows that both TR and CS ability of all the PSM per-
+ovskites was not stabilized even after conducting three cycles. There-
+fore, to draw a meaningful conclusion for this investigation and to find
+the best suitable PSM perovskite for the thermochemical conversion of
+CO2, this study was extended to 10 consecutive CS cycles. As the nO2 by
+each PSM perovskite was extremely high, to avoid inaccurate portrayal,
+the average TR and CS aptitude of each PSM perovskite was calculated
+by considering the TGA data obtained from cycle 2 to cycle 10. These
+10 CS cycles (experimental time around 22 h) were conducted by
+keeping the same experimental conditions employed during the three
+consecutive cycles. The exemplified TGA profiles obtained for PSM2,
+PSM4, PSM6, and PSM8 perovskites during the 10 successive thermo-
+chemical CS cycles are presented in Fig. 9. The mass variation recorded
+during the TGA experiments was converted into the nO2 and nCO by each
+PSM perovskite from cycle 2 to cycle 10 and the numbers obtained after
+computations are represented in Figs. 10 and 11.
+The data reported in Fig. 10 shows that the nO2 by PSM1, PSM3, and
+PSM6 was decreased as the number of thermochemical cycles were
+increased from cycle 2 to cycle 10. In case of PSM1, the nO2 was reduced
+from 210.6 μmol/g to 155.5 μmol/g from cycle 2 to cycle 7 and for the
+remaining cycles the nO2 remained constant. The nO2 by the PSM3 was
+stable initially from cycle 3 to cycle 5 and it was diminished by
+43.2 μmol/g from cycle 5 to cycle 10. For PSM6 perovskite, the TR
+aptitude was dropped from cycle 2 to cycle 6 by 35.4 μmol/g and fur-
+ther increase in the number of cycles does not yield any fall in the nO2.
+The nO2 by PSM4 was inconsistent for all the cycles, however it is im-
+portant to note that it was not diminished below 187.3 μmol/g for any
+cycle. PSM2, PSM5, PSM7, PSM8, and PSM9 showed roughly stable
+amounts of O2 release during each thermochemical cycle. Overall, the
+PSM perovskites can be arranged in the following order based on the
+average nO2 from cycle 2 to cycle 10: PSM3 (261.2 μmol/g·cycle) >
+PSM2
+(240.9 μmol/g·cycle) > PSM4
+(207.5 μmol/g·cycle) > PSM1
+(172.8 μmol/g·cycle) > PSM5 (140.5 μmol/g·cycle) > PSM6 (125.6
+μmol/g·cycle) > PSM7
+(118.7 μmol/g·cycle) > PSM8
+(113.0 μmol/
+g·cycle) > PSM9 (82.5 μmol/g·cycle).
+Fig. 11 shows the variation of the nCO by each PSM perovskite as a
+function of the number of thermochemical cycles. The obtained results
+indicate that PSM8 is the only PSM perovskite, which lost its TR apti-
+tude in a continuous manner as the number of cycle’s increases from
+cycle 2 to cycle 10. PSM1 and PSM7 perovskites showed initial drop of
+about 38.9 μmol/g and 71.9 μmol/g in the nCO from cycle 2 to cycle 5,
+however as the number of cycles were upsurged from five to ten, both
+PSM1 and PSM7 indicated stable production of CO (in each cycle).
+PSM6 and PSM9 perovskites indicated constant nCO from cycle 3 to
+cycle 10, however these amounts were lower as compared to the nCO in
+cycle 2. The remaining PSM perovskites i.e., PSM2, PSM3, PSM4, and
+PSM5 represented approximately steady CO production in each cycle.
+The average nCO by each PSM perovskite (from cycle 2 to cycle 10) are
+as
+follows:
+PSM2
+(360.1 μmol/g·cycle) > PSM3
+(345.9 μmol/
+g·cycle) > PSM4
+(331.8 μmol/g·cycle) > PSM5
+(249.8 μmol/
+g·cycle) > PSM1
+(230.6 μmol/g·cycle) > PSM6
+(209.4 μmol/
+g·cycle) > PSM7
+(163.9 μmol/g·cycle) > PSM8
+(151.5 μmol/
+g·cycle) > PSM9 (100.0 μmol/g·cycle).
+Based on the nO2 and nCO from cycle 2 to cycle 10, the PSM per-
+ovskites were further compared based on the average n
+n
+/
+CO
+O2 ratio
+(Fig. 12). The maximum and minimum n
+n
+/
+CO
+O2 ratio was observed in
+case of PSM5 and PSM9 perovskites, respectively. For PSM2, PSM4,
+PSM5, and PSM6 perovskites, the average n
+n
+/
+CO
+O2 ratio was higher than
+1.50. For the remaining PSM perovskites, the average n
+n
+/
+CO
+O2 ratio was
+Fig. 9. PSM perovskites: TGA profiles obtained during ten consecutive ther-
+mochemical cycles for PSM2, PSM4, PSM6, and PSM8 (as an example).
+Fig. 10. nO2 by PSM perovskites from cycle 2 to cycle 10.
+Fig. 11. by PSM perovskites from cycle 2 to cycle 10.
+G. Takalkar and R.R. Bhosale
+Fuel 254 (2019) 115624
+7
+
+
+===== Page 8 =====
+
+observed to be in the range of 1.21 to 1.38.
+4. Summary and conclusions
+Solution combustion synthesis approach was successfully utilized
+for the development of PSM perovskites. The annealing performed at
+1000 °C in air for multiple hours also assisted the production of all the
+PSM perovskites. The composition purity of each SCS synthesized PSM
+perovskite was determined by performing PXRD analysis. EDS analysis
+was also applied to verify the findings obtained via PXRD analysis. The
+material morphology of each PSM perovskite was scrutinized by using
+SEM and the images obtained for each PSM perovskite were noticed to
+be very similar to each other (average particle size less than 100 nm).
+By utilizing a high temperature TGA set-up, the redox reactivity of SCS
+derived PSM perovskites was estimated. Multiple thermochemical TR
+and CS steps were conducted in the temperature range of 1000 to
+1400 °C. The findings associated with the cycle 1 indicated tremendous
+amount of O2 release by each PSM perovskite as compared to the re-
+maining cycles (cycle 2 to cycle 10). Most of the PSM perovskites at-
+tained the constant level of O2 release and CO production as the number
+of thermochemical cycles were increased from cycle 1 to cycle 10. In
+terms of numbers, PSM2 and PSM3 perovskites were noticed to the best
+choice for the thermochemical CS cycles as these perovskites produced
+the highest level of O2 and CO in multiple cycles. However, in terms of
+re-oxidation ability (based on the average n
+n
+/
+CO
+O2 ratio), the PSM5
+perovskite was observed to the top material. Overall results of this in-
+vestigation indicate that the lower atomic concentration or Pr (from 0.2
+to 0.4) and higher atomic concentration of Sr (from 0.6 to 0.8) were
+more suitable to attain the maximum redox reactivity in case of the
+PSM perovskites towards thermochemical CS reaction. Our research
+team is currently focused towards exploring the reaction kinetics, long-
+term redox reactivity and thermal stability of the PSM perovskites.
+Acknowledgments
+This publication was made possible by the NPRP grant (NPRP8-370-
+2-154) from the Qatar National Research Fund (a member of Qatar
+Foundation). The statements made herein are solely the responsibility
+of author(s).
+References
+[1] Dry ME. The Fischer-Tropsch process: 1950–2000. Catal Today 2002;71:227–41.
+https://doi.org/10.1016/S0920-5861(01)00453-9.
+[2] Mallapragada DS, Singh NR, Curteanu V, Agrawal R. Sun-to-fuel assessment of
+routes for fixing CO2 as liquid fuel. Ind Eng Chem Res 2013;52:5136–44. https://
+doi.org/10.1021/ie301125c.
+[3] Loutzenhiser PG, Meier A, Steinfeld A. Review of the Two-Step H2O/CO2-Splitting
+solar thermochemical cycle based on Zn/ZnO redox reactions. Materials (Basel)
+2010;3:4922–38. https://doi.org/10.3390/ma3114922.
+[4] Steinfeld A. Solar thermochemical production of hydrogen––a review. Sol Energy
+2005;78:603–15. https://doi.org/10.1016/j.solener.2003.12.012.
+[5] Bhosale R, Kumar A, AlMomani F, Gupta RB. Solar thermochemical ZnO/
+ZnSO < inf > 4 < /inf > water splitting cycle for hydrogen production. Int J
+Hydrogen Energy 2016. https://doi.org/10.1016/j.ijhydene.2017.02.190.
+[6] Statnatiou A, Loutzenhiser PG, Steinfeld A. Solar syngas production via H2O/CO2-
+splitting thermochemical cycles with Zn/ZnO and FeO/Fe3O4 redox reactions.
+Chem Mater 2010. https://doi.org/10.1021/cm9016529.
+[7] Bhosale RR. Thermodynamic efficiency analysis of zinc oxide based solar driven
+thermochemical H2O splitting cycle: effect of partial pressure of O2, thermal re-
+duction and H2O splitting temperatures. Int J Hydrogen Energy 2018. https://doi.
+org/10.1016/j.ijhydene.2018.06.074.
+[8] Abanades S, Charvin P, Lemont F, Flamant G. Novel two-step SnO2/SnO water-
+splitting cycle for solar thermochemical production of hydrogen. Int J Hydrogen
+Energy 2008;33:6021–30. https://doi.org/10.1016/j.ijhydene.2008.05.042.
+[9] Bhosale RR, Kumar A, Sutar P. Thermodynamic analysis of solar driven SnO2/SnO
+based thermochemical water splitting cycle. Energy Convers Manage
+2017;135:226–35. https://doi.org/10.1016/j.enconman.2016.12.067.
+[10] Chambon M, Abanades S, Flamant G. Thermal dissociation of compressed ZnO and
+SnO2 powders in a moving-front solar thermochemical reactor. AIChE J 2011.
+https://doi.org/10.1002/aic.12432.
+[11] Abanades S. CO2and H2O reduction by solar thermochemical looping using SnO2/
+SnO redox reactions: thermogravimetric analysis. Int J Hydrogen Energy 2012.
+https://doi.org/10.1016/j.ijhydene.2012.02.158.
+[12] Diver RB, Miller JE, Allendorf MD, Siegel NP, Hogan RE. Solar thermochemical
+water-splitting ferrite-cycle heat engines. J Sol Energy Eng 2008. https://doi.org/
+10.1115/1.2969781.
+[13] Bhosale RR, Kumar A, Van Den Broeke LJP, Gharbia S, Dardor D, Jilani M, et al.
+Solar hydrogen production via thermochemical iron oxide-iron sulfate water split-
+ting cycle. Int J Hydrogen Energy 2015;40:1639–50. https://doi.org/10.1016/j.
+ijhydene.2014.11.118.
+[14] Scheffe JR, Allendorf MD, Coker EN, Jacobs BW, McDaniel AH, Weimer AW.
+Hydrogen production via chemical looping redox cycles using atomic layer de-
+position-synthesized iron oxide and cobalt ferrites. Chem Mater 2011;23:2030–8.
+https://doi.org/10.1021/cm103622e.
+[15] Gokon N, Hasegawa T, Takahashi S, Kodama T. Thermochemical two-step water-
+splitting for hydrogen production using Fe-YSZ particles and a ceramic foam device.
+Energy 2008. https://doi.org/10.1016/j.energy.2008.04.011.
+[16] Scheffe JR, Steinfeld A. Thermodynamic analysis of cerium-based oxides for solar
+thermochemical fuel production. Energy Fuels 2012;26:1928–36. https://doi.org/
+10.1021/ef201875v.
+[17] Abanades S, Le Gal A. CO2 splitting by thermo-chemical looping based on
+ZrxCe1−xO2 oxygen carriers for synthetic fuel generation. Fuel 2012;102:180–6.
+https://doi.org/10.1016/j.fuel.2012.06.068.
+[18] Bhosale RR, Kumar A, AlMomani F, Alxneit I. Sol-gel derived CeO2-Fe2O3 nano-
+particles: synthesis, characterization and solar thermochemical application. Ceram
+Int 2015. https://doi.org/10.1016/j.ceramint.2016.01.042.
+[19] Chueh WC, Falter C, Abbott M, Scipio D, Furler P, Haile SM, et al. High-flux solar-
+driven thermochemical dissociation of CO2 and H2O using nonstoichiometric ceria.
+Science (80-) 2010;330:1797–801. https://doi.org/10.1126/science.1197834.
+[20] Bhosale RR, Kumar A, Almomani F, Ghosh U, Al-Muhtaseb S, Gupta R, et al.
+Assessment of CexZryHfzO2 based oxides as potential solar thermochemical CO2
+splitting materials. Ceram Int 2016;42:9354–62. https://doi.org/10.1016/j.
+ceramint.2016.02.100.
+[21] Ackermann S, Takacs M, Scheffe J, Steinfeld A. Reticulated porous ceria undergoing
+thermochemical reduction with high-flux irradiation. Int J Heat Mass Transfer
+2017;107:439–49. https://doi.org/10.1016/j.ijheatmasstransfer.2016.11.032.
+[22] Takalkar GD, Bhosale RR, Kumar A, AlMomani F, Khraisheh M, Shakoor RA, et al.
+Transition metal doped ceria for solar thermochemical fuel production. Sol Energy
+2018. https://doi.org/10.1016/j.solener.2018.03.022.
+[23] Scheffe J, Welte M, Steinfeld A. Reduction of cerium dioxide in an aerosol tubular
+reactor for the thermal dissociation of CO 2 and H 2 O two-step solar thermo-
+chemical cycle. Ind Eng Chem Res 2014;53:2175–82.
+[24] Bhosale RR, Takalkar G, Sutar P, Kumar A, AlMomani F, Khraisheh M. A decade of
+ceria based solar thermochemical H2O/CO2splitting cycle. Int J Hydrogen Energy
+2018. https://doi.org/10.1016/j.ijhydene.2018.04.080.
+[25] Venstrom LJ, De Smith RM, Hao Y, Haile SM, Davidson JH. Efficient splitting of
+CO2in an isothermal redox cycle based on ceria. Energy Fuels 2014. https://doi.
+org/10.1021/ef402492e.
+[26] Bhosale RR, Takalkar GD. Nanostructured co-precipitated Ce0.9Ln0.1O2(Ln = La,
+Pr, Sm, Nd, Gd, Tb, Dy, or Er) for thermochemical conversion of CO2. Ceram Int
+2018. https://doi.org/10.1016/j.ceramint.2018.06.096.
+[27] Muhich CL, Aston VJ, Trottier RM, Weimer AW, Musgrave CB. First-principles
+analysis of cation diffusion in mixed metal ferrite spinels. Chem Mater
+2016;28:214–26. https://doi.org/10.1021/acs.chemmater.5b03911.
+[28] Scheffe JR, McDaniel AH, Allendorf MD, Weimer AW. Kinetics and mechanism of
+solar-thermochemical H2 production by oxidation of a cobalt ferrite–zirconia
+composite. Energy Environ Sci 2013;6:963. https://doi.org/10.1039/c3ee23568h.
+[29] Arifin D, Aston VJ, Liang X, McDaniel AH, Weimer AW. CoFe 2O 4 on a porous Al
+2O 3 nanostructure for solar thermochemical CO 2 splitting. Energy Environ Sci
+2012. https://doi.org/10.1039/c2ee22090c.
+[30] Scheffe JR, Li J, Weimer AW. A spinel ferrite/hercynite water-splitting redox cycle.
+Int J Hydrogen Energy 2010;35:3333–40. https://doi.org/10.1016/j.ijhydene.
+Fig. 12. Average n
+n
+/
+CO
+O2 ratio for each PSM perovskites (from cycle 2 to cycle
+10).
+G. Takalkar and R.R. Bhosale
+Fuel 254 (2019) 115624
+8
+
+
+===== Page 9 =====
+
+2010.01.140.
+[31] Shende R, Puszynski J, Opoku M, Bhosale R. Synthesis of novel ferrite foam material
+for water-splitting application. NSTI-Nanotech; 2009.
+[32] Bhosale RR, Pasala X, Yelakanti S, Puszynski JA, Shende RV. Solar thermochemical
+water-splitting for H < inf > 2 < /inf > generation using sol-gel derived ferrite
+nanomaterials. Tech. Proc. 2012 NSTI Nanotechnol. Conf. Expo. NSTI-Nanotech;
+2012.
+[33] Bhosale RR, Shende RV, Puszynski JA. Thermochemical water-splitting for
+H < inf > 2 < /inf > generation using sol-gel derived Mn-ferrite in a packed bed
+reactor. Int J Hydrogen Energy 2012:37. https://doi.org/10.1016/j.ijhydene.2011.
+03.010.
+[34] Bhosale RR, Kumar A, AlMomani F, Ghosh U, Sutar P, Takalkar G, et al.
+Effectiveness of Ni incorporation in iron oxide crystal structure towards thermo-
+chemical CO2 splitting reaction. Ceram Int 2017;43:5150–5. https://doi.org/10.
+1016/j.ceramint.2017.01.034.
+[35] Agrafiotis C, Zygogianni A, Pagkoura C, Kostoglou M, Konstandopoulos AG.
+Hydrogen production via solar-aided water splitting thermochemical cycles with
+nickel ferrite: experiments and modeling. AIChE J 2013;59:1213–25. https://doi.
+org/10.1002/aic.13882.
+[36] Lorentzou S, Agrafiotis CC, Konstandopoulos AG. Aerosol spray pyrolysis synthesis
+of water-splitting ferrites for solar hydrogen production. Granul Matter 2008.
+https://doi.org/10.1007/s10035-007-0069-8.
+[37] Roeb M, Gathmann N, Neises M, Sattler C, Pitz-Paal R. Thermodynamic analysis of
+two-step solar water splitting with mixed iron oxides. Int J Energy Res 2009.
+https://doi.org/10.1002/er.1513.
+[38] Bhosale RR. Thermodynamic analysis of Ni-ferrite based solar thermochemical H2O
+splitting cycle for H2 production. Int J Hydrogen Energy 2018:1–11. https://doi.
+org/10.1016/j.ijhydene.2018.03.145.
+[39] Bhosale RR. Thermochemical H2 production via solar driven hybrid SrO/
+SrSO4water splitting cycle. Int J Hydrogen Energy 2018. https://doi.org/10.1016/
+j.ijhydene.2018.02.053.
+[40] Bhosale RR, Kumar A, AlMomani F, Ghosh U, Khraisheh M. A comparative ther-
+modynamic analysis of samarium and erbium oxide based solar thermochemical
+water splitting cycles. Int J Hydrogen Energy 2017. https://doi.org/10.1016/j.
+ijhydene.2017.03.172.
+[41] Bhosale RR, Sutar P, Kumar A, Almomani F, Ali MH, Ghosh U, et al. Solar hydrogen
+production via erbium oxide based thermochemical water splitting cycle. J Renew
+Sustain Energy 2016. https://doi.org/10.1063/1.4953166.
+[42] Bhosale RR, Kumar A, Almomani F, Ghosh U, Dardor D, Bouabidi Z, et al. Solar co-
+production of samarium and syngas via methanothermal reduction of samarium
+sesquioxide. Energy Convers Manage 2016;112:413–22. https://doi.org/10.1016/j.
+enconman.2016.01.032.
+[43] Bhosale R, Kumar A, AlMomani F, Ghosh U, Anis MS, Kakosimos K, et al. Solar
+hydrogen production via a samarium oxide-based thermochemical water splitting
+cycle. Energies 2016. https://doi.org/10.3390/en9050316.
+[44] Bhosale R, Kumar A, Almomani F. Solar thermochemical hydrogen production via
+terbium oxide based redox reactions. Int J Photoenergy 2016. https://doi.org/10.
+1155/2016/9727895.
+[45] Yang CK, Yamazaki Y, Aydin A, Haile SM. Thermodynamic and kinetic assessments
+of strontium-doped lanthanum manganite perovskites for two-step thermochemical
+water splitting. J Mater Chem A 2014. https://doi.org/10.1039/c4ta02694b.
+[46] Demont A, Abanades S. High redox activity of Sr-substituted lanthanum manganite
+perovskites for two-step thermochemical dissociation of CO2. RSC Adv 2014.
+https://doi.org/10.1039/c4ra10578h.
+[47] Dey S, Naidu BS, Govindaraj A, Rao CNR. Noteworthy performance of La1-
+xCaxMnO3 perovskites in generating H2 and CO by the thermochemical splitting of
+H2O and CO2. Phys Chem Chem Phys 2015. https://doi.org/10.1039/c4cp04578e.
+[48] Demont A, Abanades S, Beche E. Investigation of perovskite structures as oxygen-
+exchange redox materials for hydrogen production from thermochemical two-step
+water-splitting cycles. J Phys Chem C 2014. https://doi.org/10.1021/jp5034849.
+[49] Scheffe JR, Weibel D, Steinfeld A. Lanthanum-strontium-manganese perovskites as
+redox materials for solar thermochemical splitting of H2O and CO2. Energy Fuels
+2013. https://doi.org/10.1021/ef301923h.
+[50] Nair MM, Abanades S. Experimental screening of perovskite oxides as efficient
+redox materials for solar thermochemical CO 2 conversion. Sustain Energy Fuels
+2018. https://doi.org/10.1039/C7SE00516D.
+[51] Nair MM, Abanades S. Insights into the redox performance of non–stoichiometric
+lanthanum manganite perovskites for solar thermochemical CO2 splitting.
+ChemistrySelect 2016. https://doi.org/10.1002/slct.201601171.
+[52] McDaniel AH, Miller EC, Arifin D, Ambrosini A, Coker EN, O’Hayre R, et al. Sr- and
+Mn-doped LaAlO3-δ for solar thermochemical H 2 and CO production. Energy
+Environ Sci 2013. https://doi.org/10.1039/c3ee41372a.
+[53] Bork AH, Kubicek M, Struzik M, Rupp JLM. Perovskite La0.6Sr0.4Cr1−xCoxO3−δ
+solid solutions for solar-thermochemical fuel production: strategies to lower the
+operation temperature. J Mater Chem A 2015. https://doi.org/10.1039/
+C5TA02519B.
+[54] Patterson AL. The scherrer formula for X-ray particle size determination. Phys Rev
+1939;56:978–82. https://doi.org/10.1103/PhysRev. 56.978.
+G. Takalkar and R.R. Bhosale
+Fuel 254 (2019) 115624
+9

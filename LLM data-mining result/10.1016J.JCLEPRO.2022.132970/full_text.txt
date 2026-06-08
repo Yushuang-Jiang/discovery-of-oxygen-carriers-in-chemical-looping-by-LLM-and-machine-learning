@@ -1,0 +1,878 @@
+
+
+===== Page 1 =====
+
+Journal of Cleaner Production 366 (2022) 132970
+Available online 2 July 2022
+0959-6526/© 2022 Elsevier Ltd. All rights reserved.
+Effect of alkali earth metal doping on the CuO/Al2O3 oxygen carrier 
+agglomeration resistance during chemical looping combustion 
+Guicai Liu a,*, Chia Chyi Chang b, Ya Zhao a, Andrei Veksha a, Apostolos Giannis c, Teik 
+Thye Lim a,b, Grzegorz Lisak a,b,** 
+a Residues and Resource Reclamation Centre, Nanyang Environment and Water Research Institute, Nanyang Technological University, 637141, Singapore 
+b School of Civil and Environmental Engineering, Nanyang Technological University, 639798, Singapore 
+c School of Chemical and Environmental Engineering, Technical University of Crete (TUC), University Campus, 73100, Chania, Greece   
+A R T I C L E  I N F O   
+Handling editor; Zhen Leng  
+Keywords: 
+Chemical looping 
+Oxygen carrier 
+Syngas 
+Alkali earth metal 
+Agglomeration 
+Copper oxide 
+A B S T R A C T   
+The influence of alkali earth metals (AEMs, including Ca, Sr and Ba) doping on the performance of CuO/Al2O3 
+oxygen carrier (OC) in chemical looping combustion (CLC) was investigated. The OCs using solid-state synthesis 
+method were evaluated in a fluidized bed reactor using municipal solid waste (MSW) syngas as fuel for 50 redox 
+cycles. It was found that the doping of AEMs enhanced the CLC performance on CuO/Al2O3. XRD character­
+ization and TGA analysis showed that aluminates of AEMs were formed in the doped OCs leading to the 
+segregation of CuO from CuAl2O4 spinel, thereby promoting the redox kinetics. The OCs doped with AEMs 
+exhibited enhanced stability and agglomeration resistance throughout multiple redox cycles in the fluidized bed 
+experiments. CuO/Al2O3 containing 40 wt% CuO suffered from severe agglomeration and deactivation during 
+initial 5 cycles, while the OCs with Ba, Sr and Ca doping respectively deferred the agglomeration to 15-20th, 20- 
+25th and >50th cycle. 5–10 wt% Ca-doping content exhibited great stability without deactivation or agglom­
+eration issues during 50 cycles, but excess Ca doping (≥20 wt%) showed severe agglomeration. The agglom­
+eration was attributed to the outward migration of Cu/CuO, leading to the segregation from CuAl2O4 and surface 
+enrichment. The enhanced agglomeration resistance with AEM doping was mainly attributed to outward 
+migration of AEM species and inward migration of Cu species during the synthesis process.   
+1. Introduction 
+With the urgent need to address global warming and climate change, 
+carbon capture, utilization and storage (CCUS) technologies are 
+attracting intense attention to achieve carbon-neutral economies (Bae 
+et al., 2020; Ma et al., 2020a; Sunny et al., 2020). Chemical looping 
+combustion (CLC) is a promising technology to pre-concentrate CO2 
+from carbonaceous fuel combustion in order to ease its capture and 
+storage (Buelens et al., 2019; Ishida and Jin, 1997; Zhu et al., 2020). CLC 
+separates the combustion process into two reactions in fuel reactor (FR) 
+and air reactor (AR), between which an oxygen carrier (OC) used as 
+oxygen medium is circulated. Without the need of using oxygen from air 
+for combustion of fuel, the carbonaceous fuels can be oxidized into 
+N2-free flue gas in FR, thereby producing pure CO2 stream after water 
+condensation. Moreover, as compared with the conventional oxy- and 
+post-combustion carbon capture processes, CLC has a lower cost and 
+footprint for achieving CO2 capture (Lyngfelt, 2020). 
+The selection of solid OC is one of the cornerstones of CLC, in which 
+excellent redox activity, stability and mechanical strength are required, 
+especially for fluidized-bed operation. Oxides of transition metals, 
+including Fe, Ni, Co, Cu and Mn (Adanez et al., 2012; Lin et al., 2020; 
+Man et al., 2020), have been widely applied to CLC process. Cu-based 
+OCs are attractive candidates owing to their excellent redox activity, 
+high oxygen transport capacity and exothermic reaction with fuels 
+making it easier for auto-thermal operation (Imtiaz et al., 2013). 
+Furthermore, Cu-based OCs can release gaseous oxygen at >700 ◦C 
+making them possible to achieve high combustion performance for solid 
+fuels (Gay´an et al., 2012; Imtiaz et al., 2014). Nevertheless, the 
+* Corresponding author.. Residues and Resource Reclamation Centre, Nanyang Environment and Water Research Institute, Nanyang Technological University, 1 
+Cleantech Loop, Clean Tech One, 637141, Singapore. 
+** Corresponding author.. Residues and Resource Reclamation Centre, Nanyang Environment and Water Research Institute, Nanyang Technological University, 1 
+Cleantech Loop, Clean Tech One, 637141, Singapore. 
+E-mail addresses: guicai.liu91@gmail.com, garner.liu@ntu.edu.sg (G. Liu), g.lisak@ntu.edu.sg (G. Lisak).  
+Contents lists available at ScienceDirect 
+Journal of Cleaner Production 
+journal homepage: www.elsevier.com/locate/jclepro 
+https://doi.org/10.1016/j.jclepro.2022.132970 
+Received 15 March 2022; Received in revised form 2 June 2022; Accepted 29 June 2022   
+
+
+===== Page 2 =====
+
+Journal of Cleaner Production 366 (2022) 132970
+2
+challenge of Cu-based OCs is the low Tammann temperature of CuO and 
+Cu, leading to severe agglomeration, deactivation, and even fluidization 
+failure of OC particles. Therefore, homogenous mixing with an inert 
+support (including Al2O3, MgAl2O4, SiO2 and ZrO2, etc. (Imtiaz et al., 
+2021; Miao et al., 2022)) is required to minimize the growth and binding 
+of Cu/CuO grains thereby avoiding the sintering issues. Al2O3 is the most 
+widely-used support for Cu-based OCs due to its abundance and rela­
+tively low cost. Al2O3-supported CuO OCs have also been successfully 
+prepared in industrial scale, which were used in the pilot-scale inter­
+connected fluidized bed CLC units (Cabello et al., 2016; Luis et al., 
+2007). 
+Regarding the type of fuels, municipal solid waste (MSW) and 
+biomass derived gaseous fuels generally contain acidic gases (i.e., HCl 
+and H2S), which could cause corrosion of the heat recovery system 
+(Chen et al., 2019; Ma et al., 2020b) and additional costs for the 
+downstream gas cleaning equipment. Efforts have been made on the 
+removal of acidic gases through loading alkali and alkaline earth metals 
+(AAEMs) on OCs. Fe2O3/Al2O3 loading with K2O, Na2O and CaO can be 
+used as OC and HCl sorbent for simultaneous CLC and dechlorination, 
+while the loaded AAEMs also promoted the CLC process (Wang and 
+Zhao, 2015). More recent studies have shown that the loading of alka­
+line earth metals (AEMs, including Ca, Sr and Ba) on iron ore not only 
+effectively absorbed HCl (Liu et al., 2021a; Wang et al., 2020a, 2020b) 
+and H2S (Wang et al., 2021) from MSW syngas or flue gas, but also 
+enhanced the reactivity of iron ore with syngas through the electron 
+donation effect. The HCl removal ability and the reactivity enhancement 
+of AEMs followed the order of Ba > Sr > Ca (Liu et al., 2021b). More 
+recently, it was found that the Ba and Sr addition on CuO/MgAl2O4 
+caused the formation of Cu2MgO3 slightly reducing the redox activity of 
+OC, but exhibited negligible effects on their reactivity with MSW syngas 
+(Liu et al., 2022). In short, AAEMs facilitated effective removal of acidic 
+gases, and exhibited positive effects on the reactivity of Fe-based OCs 
+with fuels by acting as electron donors (Aika et al., 1990), but they might 
+affect the Cu-based OCs indirectly depending on the type of supports. 
+In case of the widely-used CuO/Al2O3 OCs, there are few studies 
+focusing on the effects of AAEMs on their reactivity. It was evidenced 
+that the doping of Na + could prevent the formation of CuAl2O4 spinel by 
+the reaction between CuO and Al2O3 during synthesis, leading to its 
+better reactivity with fuels (Imtiaz et al., 2016). K+ incorporation in 
+CuO/Al2O3 could also reduce the propensity of coke deposition (Imtiaz 
+et al., 2012a). However, alkali metals are not ideal sorbents for 
+high-temperature acidic gas removal due to the volatilization of pro­
+duced NaCl and KCl (Ge et al., 2019), whereas the effect of AEMs on the 
+reactivity and stability of CuO/Al2O3 OCs is still unknown. In addition, 
+the aluminates of AEMs can also be formed during high-temperature 
+calcination (Garc´es et al., 2012; Sathaporn and Sutham, 2012; Shiri 
+et al., 2014) in synthesis process, meaning that AEMs can possibly have 
+similar effects on CuO/Al2O3 as alkali metals, avoiding the formation of 
+CuAl2O4 spinel. Therefore, this study aims to investigate the effect of 
+AEMs doping on the reactivity and stability CuO/Al2O3 OCs during cy­
+clic CLC process. CuO/Al2O3 OCs with and without the loading of Ca, Sr 
+and Ba were prepared by solid-state synthesis, and their reactivity and 
+stability in the CLC of syngas were evaluated by thermogravimetric 
+analysis (TGA) and fluidized bed tests. The morphology and phase 
+evolution of OCs and possible mechanism of AEMs during CLC process 
+were discussed by analyzing their physiochemical characteristics. 
+2. Materials and methods 
+The OCs were prepared by solid state synthesis. The feedstock CuO 
+(Sigma, <10 μm), γ-Al2O3 (commercial catalyst support) and AEM car­
+bonates (i.e., CaCO3, SrCO3 and BaCO3) in certain ratios were mixed in a 
+beaker, then the mixtures were further mixed with deionized water 
+(solid:water = 5 g:1 ml) and ground in a planetary ball mill (Retsch 
+PM100) for 30 min. The generated paste was dried and calcined at 
+950 ◦C for 5 h. Subsequently, the calcined materials were crushed and 
+sieved to 150–350 μm. OCs with 40 wt%, 30 wt% CuO and different Ca 
+contents were prepared. The prepared OCs with labels are listed in 
+Table 1. 
+The redox activity and stability of the OCs during CLC were evalu­
+ated in a fluidized bed reactor equipped with a gas switching system 
+(Fig. 1). The reactor was a quartz tube with the inner diameter of 11 mm. 
+The gas reactants were controlled by a group of mass flow controllers 
+(MFCs), followed by pre-heating to 100 ◦C, and the gas products were 
+analyzed in a gas analyzer (SICK, GME 810) after filtration and 
+condensation. In each run, 5 g of OC was loaded in the reactor, and 
+heated to 850 ◦C in air atmosphere to avoid the decomposition of Cu 
+species (e.g., 4CuO → 2Cu2O + O2). The reduction stage lasted for 5 min, 
+and the gas reactant (total flow 375 ml/min) was a simulated syngas 
+stream containing 13.3 vol% CO, 13.3 vol% H2, 13.3 vol% CO2, 3.2 vol% 
+CH4 and 56.8 vol% N2. The OC was oxidized by 400 ml/min air for 10 
+min. Between reduction and oxidation stage, the reactor was purged 
+with 300 ml/min N2 for 3 min. After multiple-cycle reaction, the OC was 
+cooled down at air atmosphere to avoid its decomposition. 
+Average gas concentration (xi) and CO2 selectivity (ϒCO2) were 
+calculated to compare OCs’ reactivity with syngas: 
+xi =
+∫
+xidt
+tred
+× 100%
+(1)  
+ϒCO2 =
+xCO2
+xCO + xCO2 + xCH4
+(2)  
+where xi is the concentrations of gas component i (i = CO, H2, CO2 or 
+CH4), %; tred is the reduction duration, 300 s. Since the gas concentration 
+tailed after reduction stage caused by the dilution of N2, the integration 
+with time was extended to the end of the purge stage after reduction. 
+The OCs before and after multiple-cycle reaction were characterized 
+with several methods, including XRD (X-ray diffraction, Bruker D8 
+Advanced), FESEM-EDS (field-emission scanning electron microscopy 
+with energy dispersive spectroscopy, JSM-7200F, JEOL), N2 adsorption 
+(Micromeritics ASAP-2460) and TGA (thermogravimetric analysis, 
+NETZSCH F3). 
+TGA analysis was conducted at isothermal and non-isothermal con­
+ditions. In the isothermal condition, 20 ± 0.1 mg of OC was loaded at the 
+crucible and heated to 850 ◦C with the heating rate of 30 ◦C/min in 250 
+ml/min air atmosphere. Subsequently, the gas switching program was: 
+air (250 ml/min, 5 min) → N2 (250 ml/min, 40 min) → air (250 ml/min, 
+5 min) → N2 (250 ml/min, 5 min) → CO/N2 (10 ml/min CO and 250 ml/ 
+min N2, 25 min) → N2 (250 ml/min, 5 min) → air (250 ml/min, 5min) → 
+N2 (250 ml/min, 5min). The mass loss at the N2 atmosphere was defined 
+as oxygen uncoupling capacity (OUC), representing the capacity of OC 
+to release gaseous oxygen under inert condition. The mass loss during 
+CO/N2 atmosphere was defined as total oxygen capacity (TOC), repre­
+senting the total oxygen transport capacity of OC while reacting with 
+fuel. OUC and TOC were calculated as: 
+OUC = m0,N2 −m∞,N2
+m0,N2
+× 100%
+(3)  
+TOC = m0,red −m∞,red
+m0,red
+× 100%
+(4)  
+where m0,N2 and m∞,N2 were the initial and final masses of OC during the 
+stage with N2 atmosphere, %; m0,red and m∞,red were the initial and final 
+masses of OC during the reduction stage with CO/N2 atmosphere, %. 
+In the non-isothermal TGA analysis, a temperature programed 
+reduction at CO/N2 atmosphere (CO-TPR, 10 ml/min CO and 250 ml/ 
+min N2) was carried out. The temperature was raised from 100 ◦C to 
+920 ◦C with the rate of 5 ◦C/min. The results are presented as the de­
+rivatives of mass loss (%/min) as the function of temperature. 
+G. Liu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 3 =====
+
+Journal of Cleaner Production 366 (2022) 132970
+3
+Table 1 
+Labels and feedstock mass ratios of prepared OCs.   
+CuO:Al2O3:carbonates  
+CuO:Al2O3:carbonates  
+CuO:Al2O3:carbonates 
+4Cu6Al 
+4:6:0 
+3Cu7Al 
+3:7 
+4Cu55Al05Ca 
+4:5.5:0.5 
+4Cu5Al1Ca 
+4:5:1 
+3Cu6Al1Ca 
+3:6:1 
+4Cu4Al2Ca 
+4:4:2 
+4Cu5Al1Sr 
+4:5:1 
+3Cu6Al1Sr 
+3:6:1 
+4Cu3Al3Ca 
+4:3:3 
+4Cu5Al1Ba 
+4:5:1 
+3Cu6Al1Ba 
+3:6:1    
+Fig. 1. Fluidized bed reactor for reactivity tests.  
+Fig. 2. XRD patterns (a) and CO-TPR profiles (b) of fresh OCs.  
+G. Liu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 4 =====
+
+Journal of Cleaner Production 366 (2022) 132970
+4
+3. Results and discussion 
+In this section, the findings on the effects of AEMs on CuO/Al2O3 OC 
+were discussed through material characterizations and reactivity tests, 
+and the mechanism of this effect was further discussed. 
+3.1. Characterizations of fresh OCs 
+The crystalline phase composition of the fresh OCs is shown in 
+Fig. 2a. 4Cu6Al was mainly composed of CuAl2O4 (PDF #33–0448), 
+while CuO and Al2O3 were not observed. With the loading of Ca, Ca–Al 
+mixed oxide CaAl4O7 (PDF #23–1037) was formed, and the Cu species 
+included CuO (PDF #45–1548) and CuAl2O4. Similarly, the doping of Sr 
+and Ba resulted in the formation of Sr–Al oxide SrAl2O4 (PDF 
+#34–03479) and Ba–Al oxide BaAl12O19 (PDF #26–0135). Therefore, 
+the formation of the aluminates inhibited the formation of CuAl2O4 
+spinel from CuO. 
+Fig. 2b shows the CO-TPR profiles of the fresh OCs. The reduction 
+peaks of 4Cu6Al were located at 560 ◦C and 680 ◦C. With the loading of 
+AEMs, a reduction peak at 200–300 ◦C was observed, besides the 
+reduction peak at >500 ◦C. According to the reported reduction tem­
+perature of CuO by CO (160–240 ◦C) (Jin and Datye, 2000; Lee and 
+Huang, 2014; Li et al., 2009) and XRD patterns, the reduction peaks at 
+low-temperature (200–300 ◦C) and high-temperature (>500 ◦C) were 
+respectively attributed to the reduction of CuO and CuAl2O4 to Cu0. 
+Therefore, the doping of AEMs enhanced the redox activity of OCs by 
+inhibiting CuO converting into CuAl2O4. In addition, compared with 
+4Cu5Al1Ba and 4Cu5Al1Ca, 4Cu5Al1Sr had a smaller reduction peak at 
+200–300 ◦C, and the intensity ratio CuO/CuAl2O4 was lower corre­
+spondingly. Due to the formation of aluminates with different AEM/Al 
+molar ratios (Ca:Al = 1:4, Sr:Al = 1:2, Ba:Al = 1:12), the CuO amount of 
+OCs followed the order of 4Cu5Al1Ba > 4Cu5Al1Ca > 4Cu5Al1Sr. 
+3.2. Effect of AEM on the reactivity of OC in fluidized bed 
+The evolved gas products using 4Cu6Al, 4Cu5Al1Ca, 4Cu5Al1Sr and 
+4Cu5Al1Ba from selected cycles are shown in Fig. 3. CH4 was selected to 
+present the reactivity due to much higher activation energy than CO and 
+H2 during combustion (Monazam et al., 2013, 2015). At the 1st cycle, 
+CO2 concentrations did not decline until the input gas switched to N2, 
+suggesting that nearly all the combustible gases were converted to CO2 
+and H2O. CH4 concentration started to increase after several minutes of 
+reduction stage due to the consumption of high-activity lattice oxygen in 
+OCs. At the 5th cycle, CO2 concentration started to decrease before the 
+end of reduction stage when 4Cu6Al was used, indicating that the ox­
+ygen capacity of 4Cu6Al had an obvious decline. In the meantime, CH4 
+concentration started to increase at the early reduction stage, suggesting 
+the activity of 4Cu6Al decreased significantly. The decrease of CH4 
+concentration at late reduction stage could be attributed to the reaction 
+temperature increase causing by the exothermic nature of Cu-based OC 
+reduction, which facilitated the conversion of CH4 to CO2 in kinetics 
+(CO2 concentration started to decrease after ~50 s). In addition, the O2 
+concentration started to increase earlier than that with other OCs during 
+oxidation stage, although its reduction level was almost the same as 
+other OCs (same CO2 profile as other OCs), suggesting the reactivity of 
+reduced 4Cu6Al with O2 also declined. Nevertheless, the gas profiles 
+using other OCs were still similar to those at the 1st cycle. At the 20th 
+cycle, the variations of CO2, O2 and CH4 concentrations using 4Cu6Al 
+and 4Cu5Al1Ba were similar. Thus, 4Cu5Al1Ba was also encountering 
+the deactivation issue. Correspondingly, the 4Cu6Al and 4Cu5Al1Ba 
+exhibited sticking behavior between particles according to pictures in 
+Fig. S1. Therefore, the deactivation of OCs was attributed to the 
+agglomeration of particles. During 30–50 cycles, 4Cu5Al1Sr gradually 
+deactivated according to CH4 concentrations variation at reduction 
+stage. The particle bridging did not appear after 20 cycles but was 
+obvious after 50 cycles (Fig. S1). For 4Cu5Al1Ca, the redox activity was 
+Fig. 3. Profiles of gas products using 4Cu6Al, 4Cu5Al1Ca, 4Cu5Al1Sr and 4Cu5Al1Ba during 50-cycle CLC (reduction: syngas, 5 min; oxidation: air, 10 min).  
+G. Liu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 5 =====
+
+Journal of Cleaner Production 366 (2022) 132970
+5
+maintained and a high activity towards CH4 conversion was observed 
+during 50 cycles. According to the picture in Fig. S1, only 4Cu5Al1Ca 
+did not have the defluidization issue after 50 redox cycles. According to 
+these results, the AEMs were able to mitigate the agglomeration and 
+deactivation of CuO/Al2O3 OC, and the effectiveness followed the order 
+of Ca > Sr > Ba. 
+The average CH4 concentrations and CO2 selectivities during 
+reduction stage using different OCs are shown in Fig. 4. Due to the 
+agglomeration and deactivation of 4Cu6Al, the unconverted CH4 
+amounts rapidly increased at the initial 5 cycles. Correspondingly, the 
+CO2 selectivity declined sharply from ~99% to ~84% at 1-5th cycle, due 
+to the decreased CO conversion degree (according to the higher average 
+CO concentrations in Fig. S2), and remained almost unchanged during 
+the remaining cycles. For the OCs with Ba and Sr, CH4 concentrations 
+gradually decreased during the initial 15 cycles, then sharply increased 
+due to the agglomeration. The variations of CH4 amounts and CO2 se­
+lectivities exhibited that 4Cu5Al1Sr and 4Cu5Al1Ba started to agglom­
+erate at 20-25th and 15-20th cycle, respectively. After getting 
+agglomerated, their CO2 selectivities and unconverted CH4 amounts 
+were stable and comparable. The CO2 selectivities of both OCs were 
+around 90–95%. Regarding 4Cu5Al1Ca, CH4 average concentrations did 
+not present any remarkable increase during 50 cycles, and the CO2 se­
+lectivities were ~99.5%. In summary, 4Cu6Al, 4Cu5Al1Ba, 4Cu5Al1Sr 
+and 4Cu5Al1Ca started to deactivate at 1-5th, 15-20th, 20-25th and >50 
+cycles, respectively, which agrees well with increasing defluidization 
+resistance discussed above. 
+To discuss the effect of alkali earth metal addition on agglomerated- 
+free OCs, the OCs with lower CuO (30 wt%) content were evaluated. As 
+can be seen in Fig. S3, CH4 concentrations were not observed at the early 
+reduction stage, indicating that the OCs did not suffer any deactivation 
+resulted from agglomeration. Among different OCs, there was no sig­
+nificant difference for the variations of CO2, CH4 and O2 concentrations. 
+Fig. 4c illustrates that all the OCs had comparable unconverted CH4 
+amounts during 50 cycles, indicating the negligible influence of AEMs 
+on the redox activity. According to Figure 4d, 3Cu7Al, 3Cu6Al1Ca and 
+3Cu6Al1Sr had comparable CO2 selectivities, while 3Cu6Al1Ba had 
+slightly lower CO2 selectivities than other OCs, suggesting its lower 
+oxygen capacity for syngas combustion. Therefore, except Ba, AEMs had 
+negligible influence on the reactivity with syngas for agglomeration-free 
+CuO/Al2O3 OC. It is remarkable that although the CO2 selectivities were 
+lower than those in Fig. 4b due to lower Cu content, the unconverted 
+CH4 amounts were comparable to the free-agglomerated cases in Fig. 4a. 
+This suggests that low CuO content mainly influenced the oxygen 
+transport capacity, instead of the reactivity with CH4. 
+Considering the above results, Ca doping had the best anti- 
+agglomeration effect on CuO/Al2O3 OC, thus the Ca loading content 
+was further studied. According to Fig. 4e, the unconverted CH4 content 
+using OCs with different Ca contents followed the order of 4Cu3Al3Ca >
+4Cu4Al2Ca > 4Cu5Al1Ca ≈4Cu55Al05Ca, and 4Cu3Al3Ca and 
+4Cu4Al2Ca had a sharp increase during 5-10th cycle. From the 
+perspective of gas concentration variation (in Fig. S4), 4Cu3Al3Ca and 
+4Cu4Al2Ca also exhibited the relatively lower reactivity with CH4. CH4 
+signal gradually shifted to earlier reduction stage for 4Cu3Al3Ca and 
+4Cu4Al2Ca at the initial 30 and 20 cycles, respectively. Correspond­
+ingly, the 4Cu3Al3Ca suffered from serve sintering issues after 20 or 50 
+cycles (see Fig. S1). Therefore, high Ca loading amount resulted in 
+agglomeration and deactivation issues for CuO/Al2O3 OC. It also led to 
+the lower CO2 selectivities (Fig. 4f) of 4Cu3Al3Ca and 4Cu4Al2Ca, 
+which were both 98–99% during 50 cycles. The worse performance of 
+4Cu3Al3Ca and 4Cu4Al2Ca was due to the insufficient Al2O3 support for 
+Cu-based OCs with lower porosity, and CaO/CaCO3 was not an effective 
+support for Cu-based OCs. 
+It is noted that the unconverted CH4 amounts had a slight decrease 
+with the cycle number, except at the stage that the OCs were getting 
+sintered. Other studies also exhibited increasing reduction rate of Al2O3/ 
+CuO with cycle number (Imtiaz et al., 2012b). One possible reason is 
+that the gradual segregation of CuO from CuAl2O4 enhanced the kinetics 
+of reduction, though the segregation could lead to the surface CuO 
+enrichment forming the dense surface thereby weakening its contact 
+with gas reactants. 
+According to the reactivity tests, although AEM species are not 
+common supports for OCs due to lower Tammann temperature, the 
+substitution of small amounts of Al2O3 with AEMs could enhance the 
+stability of CuO-based OCs and alleviate the defluidization during 
+multiple redox cycles. 
+Fig. 4. Average CH4 concentrations (a, c, e) and CO2 selectivities (b, d, f) during reduction stage using different OCs.  
+G. Liu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 6 =====
+
+Journal of Cleaner Production 366 (2022) 132970
+6
+3.3. TGA analysis on the reactivity of OCs 
+Isothermal TGA was applied to investigate the effect of AEM on CuO/ 
+Al2O3 redox activity through analyzing the oxygen capacity and reaction 
+rate, and the results are shown in Fig. 5 and Table 2. In N2 atmosphere, 
+4Cu6Al and 3Cu7Al had a slight mass loss owing to the low kinetics of 
+CuAl2O4 decomposition into Cu + -containing compounds and release of 
+gaseous oxygen. The oxygen uncoupling capacities of OCs with AEMs 
+were much higher than that of 4Cu6Al and 3Cu7Al, due to the presence 
+of CuO according to the XRD results (Fig. 2). At CO/N2 atmosphere, the 
+mass loss rate curves showed that there was an additional peak at the 
+early stage of reduction after AEM loading. This suggests that the for­
+mation of CuO also accelerated the reaction between OCs and CO, 
+indicating the enhancement of redox activity of OCs. Comparing 
+different AEMs loading, the oxygen uncoupling capacities of Sr-doped 
+OCs were significantly lower than those with Ca and Ba doping. It was 
+resulted from the weaker interaction of Sr with CuO/Al2O3, according to 
+the discussion in the XRD and TPR results (Fig. 2). 
+For the OCs with different Ca doping amounts shown in Fig. 5, higher 
+Ca doping led to the larger oxygen uncoupling capacity and total oxygen 
+capacity. It was attributed to the higher relative Cu weight fraction since 
+more CaCO3 decomposed during calcination process. In addition, higher 
+Ca loading amount led to OUC/TOC ratio close to 1:2, suggesting CuO 
+was gradually becoming the main redox active phase instead of 
+CuAl2O4. This is consistent with the XRD patterns (Fig. S7), where the 
+diffraction peaks of CuAl2O4 gradually disappeared with the higher Ca 
+content. 
+3.4. Physicochemical property variations of OCs 
+Fig. 6 illustrates the surface morphologies of different OCs after 50 
+redox cycles. The surface of 4Cu6Al particles was covered by a dense 
+layer mainly composed by Cu species according to the EDS mapping. 
+Compared to the fresh 4Cu6Al OC (see Fig. S5) in which Cu and Al were 
+almost evenly distributed, the Cu species tended to aggregate on the 
+particle surface, acting as sticking bridges between particles, thereby 
+leading to agglomeration and defluidization during redox cycles. With 
+the doping of Ca (shown in Fig. 6b), the surface did not exhibit the dense 
+structure composed by Cu species. This indicates that Ca doping effec­
+tively alleviated the enrichment of Cu/CuO on the particle surface thus 
+avoiding the agglomeration and defluidization. With Sr doping, “lumps” 
+with sizes 2–4 μm formed by CuO were generated on the surface, and a 
+significant segregation of CuO and Al2O3 grains was observed in EDS 
+mapping. It still faced defluidization issues (see Fig. S1) although the 
+CuO agglomeration seemed not severe as 4Cu6Al. The surface of 
+4Cu5Al1Ba particles was also covered by CuO, suggesting the agglom­
+eration after 50 redox cycles. Similarly, significant CuO segregation and 
+enrichment were observed on the 4Cu3Al3Ca surface. The surface 
+morphologies of cycled OCs further suggest that the AEMs had the 
+function of alleviating the agglomeration of CuO/Al2O3 OC during redox 
+cycles. 
+Fig. 6f shows the surface areas and pore volumes of fresh and used 
+OCs. The doping by AEMs significantly decreased the surface area and 
+pore volume of OCs compared to 4Cu6Al. This was due to the substi­
+tution of the high-porosity Al2O3 by the AEMs. Nevertheless, the 
+porosity of 4Cu6Al declined sharply after some redox cycles, with the 
+surface area decrement of 69.3% after 20 cycles. With the doping by 
+AEMs, the surface areas were decreased by 53.0%, 34.1% and 48.5% for 
+4Cu5Al1Ca, 4Cu5Al1Sr and 4Cu5Al1Ba, respectively. However, the 
+surface area and pore volume of 4Cu6Al were still higher than those of 
+AEM-doped OCs after 50 cycles, although it exhibited more severe 
+agglomeration on the surface morphology. The possible reason was that 
+the physical adsorption (in N2 adsorption characterization) was domi­
+nated by Al2O3 support due to its high porosity as feedstock, and there 
+Fig. 5. Isothermal TGA analysis on fresh OCs at 850 ◦C.  
+G. Liu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 7 =====
+
+Journal of Cleaner Production 366 (2022) 132970
+7
+were few pores on the agglomerated Cu/CuO surface (in Fig. 6), hence 
+the surface area of the overall OC particles was less influenced by Cu/ 
+CuO agglomeration. 
+The comparison between the crystalline phases of fresh and used OCs 
+is shown in Fig. 7. For 4Cu6Al, after 20 or 50 cycles, the diffraction peaks 
+of CuO and Al2O3 (PDF #10–1073) were observed, suggesting that CuO 
+and Al2O3 tended to separate from CuAl2O4 spinel. For AEM-doped OCs, 
+during 50 cycles, Al2O3 diffraction peaks were gradually visible, and the 
+intensity ratio CuO/CuAl2O4 was also continuously increased. The CO- 
+TPR profiles shown in Fig. 8 also exhibit similar behaviors. The low- 
+temperature (200–300 ◦C) reduction peak appeared after 20 or 50 cy­
+cles for 4Cu6Al, and the intensities of high-temperature reduction peaks 
+were getting weaker. Similarly, the AEM-doped OCs had lower high- 
+temperature reduction peaks than the fresh ones. This indicates that 
+CuO tended to segregate from CuAl2O4 spinel for all the OCs. The 
+variation of XRD patterns (Fig. S6) and CO-TPR profiles for 3Cu7Al, 
+3Cu6Al1Ca, 3Cu6Al1Sr and 3Cu6Al1Ba also exhibited similar behavior 
+during redox cycles, confirming the segregation tendency of CuO/Al2O3 
+during redox cycles. Regarding to the OCs with different Ca amounts 
+shown in Fig. S7, 4Cu55Al05Ca also exhibited the segregation of CuO 
+and Al2O3, according to the higher CuO/CuAl2O4 ratio and the presence 
+of Al2O3 after 50 cycles. The OCs with higher Ca doping amounts did not 
+show the significant CuO segregation behavior due to the small amount 
+of CuAl2O4 in the fresh OCs. 
+According to the conversion of CuAl2O4 to CuO concluded by the 
+XRD and CO-TPR characterizations, the deactivation of OCs was 
+attributed to the increase of mass transfer resistance when agglomerates 
+formed, affecting the apparent kinetics instead of intrinsic kinetics. 
+Fig. 9 compares the reactivity of OCs before and after redox cycles 
+with isothermal TGA. At N2 atmosphere, all the used OCs exhibited 
+larger mass loss than the fresh ones, and followed the order: 50 cycles 
+>20 cycles > fresh. This suggests that the segregation of CuO from 
+CuAl2O4 continuously occurred during redox cycles, which agree with 
+the XRD (Fig. 7) and CO-TPR results (Fig. 8). It is noted that 4Cu3Al3Ca 
+and 4Cu4Al2Ca exhibited negligible increase of OUC but significantly 
+higher decomposition rates after redox cycles. It could be related to the 
+enrichment of CuO on the particle surface after redox cycles. The 
+reduction at CO/N2 atmosphere shows that the TOCs did not decrease 
+Table 2 
+Oxygen uncoupling capacities (OUC) and total oxygen capacities of (TOC) of fresh OCs.   
+OUC 
+TOC  
+OUC 
+TOC  
+OUC 
+TOC 
+4Cu6Al 
+0.59 
+8.16 
+3Cu7Al 
+0.61 
+6.19 
+4Cu55Al05Ca 
+1.51 
+8.46 
+4Cu5Al1Ca 
+2.62 
+8.66 
+3Cu6Al1Ca 
+1.02 
+6.56 
+4Cu4Al2Ca 
+4.17 
+9.25 
+4Cu5Al1Sr 
+2.06 
+8.45 
+3Cu6Al1Sr 
+0.69 
+6.30 
+4Cu3Al3Ca 
+4.54 
+9.63 
+4Cu5Al1Ba 
+2.73 
+7.76 
+3Cu6Al1Ba 
+1.17 
+5.60     
+Fig. 6. FESEM images and EDS mapping of OCs after 50 cycles.  
+G. Liu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 8 =====
+
+Journal of Cleaner Production 366 (2022) 132970
+8
+after 20 or 50 cycles, even though for the OCs suffering from the sin­
+tering and defluidization. This shows different behavior from the results 
+in fluidized bed reaction, which exhibited decline of reactivity towards 
+CO, especially for the agglomerated OCs. It could be due to the higher 
+gas velocity in the fluidized bed reactor leading to higher activity 
+requirements. 
+3.5. The anti-agglomeration mechanism 
+For the Cu-based OCs, the agglomeration tendency during multiple 
+redox cycles is relevant to the Kirkendall effect (Mishra and Li, 2018; 
+Smigelskas, 1947). During redox reaction, metal atoms/cations tend to 
+diffuse outward to contact with reducing gas or oxygen, if the structure 
+has a relatively high energy barrier for the diffusion of oxygen anion, 
+Fig. 7. XRD patterns of fresh and used OCs after 20 and 50 redox cycles.  
+Fig. 8. CO-TPR profiles of OCs with different AEMs before (fresh) and after 20 and 50 redox cycles.  
+G. Liu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 9 =====
+
+Journal of Cleaner Production 366 (2022) 132970
+9
+and this diffusion effect is greatly influenced by the support (Fan, 2017). 
+In supported Cu-based OCs, due to the difference of diffusion rates be­
+tween Cu2+/Cu0 and the support, Cu species tend to migrate outward 
+during both reduction and oxidation stage, resulting in Cu/CuO 
+enrichment on the surface and even the formation of sintered bridges 
+between particles (Donat et al., 2018; Imtiaz et al., 2021). In the current 
+study, the EDS mapping (Fig. 6) exhibited the accumulation of Cu spe­
+cies (without Al) on the surface of particles, confirming the outward 
+diffusion mechanism of the OC agglomeration. However, it is difficult to 
+compare the migration degree of Cu/CuO with and without the doping 
+of AEMs, and conclude whether AEMs alleviated the agglomeration by 
+inhibiting Cu/CuO migration, two methods were used to quantify the 
+Cu/CuO migration degree of the OCs.  
+(1) Since Cu/CuO migration led to the enrichment of Cu element on 
+the particle surface, the migration degree can be quantified by its 
+enrichment degree (ED), which is evaluated by comparing CuO 
+content (wt.%) on the OC surface before and after redox cycles: 
+ED = R50,CuO −R0,CuO
+(6)  
+where R0,CuO and R50,CuO are the CuO contents of OCs on the surface 
+before and after 50 cycles, and obtained from EDS results of the whole 
+OC particles, wt.%. Due to the large errors in EDS results, 6 particles 
+were sampled to measure the elemental compositions on the surface 
+(~1000 nm penetration depth under 20 kV electron acceleration 
+voltage).  
+(2) The outward migration of Cu2+/Cu0 during reduction (CuAl2O4 
++ fuel → Cu0 + Al2O3 + CO2 + H2O; CuO + fuel → Cu0 + CO2 +
+H2O) and oxidation (Cu0 + Al2O3 + O2 → CuAl2O4; Cu0 + O2 → 
+CuO) stage led to the uneven distribution of Cu2+ and Al2O3, 
+hence CuAl2O4 was unable to be regenerated completely after 
+oxidation stage. This resulted in the segregation of CuO from 
+CuAl2O4 spinel. The segregation behavior was observed in XRD 
+patterns (Fig. 7), TPR (Fig. 8) and isothermal TGA results (Fig. 9). 
+Since CuO segregation from CuAl2O4 is caused by the migration 
+of Cu/CuO, the migration degree can be evaluated by comparing 
+the amount of CuO segregated from CuAl2O4 before and after 
+redox cycles: 
+SD = m1,CuO −m0,CuO
+m0,CuAl2O4
+× 100%
+(5)  
+where SD is the segregation degree, %; m0,CuAl2O4 and m0,CuO are the mass 
+of CuAl2O4 and CuO in fresh OCs, %; m1,CuO is the mass of CuO after 
+redox cycles, %. Due to the extremely low conversion of CuAl2O4 
+decomposition releasing O2, the mass of CuO and CuAl2O4 are respec­
+tively calculated as the OUC and the difference between TOC and OUC. 
+Both quantification methods have disadvantages in evaluating the 
+Cu/CuO migration degree. The segregation degree did not describe the 
+migration of free CuO, and the enrichment degree only described the 
+migration of individual particles. Therefore, both methods were com­
+bined to explain the effect of AEMs on the Cu/CuO outward migration. 
+Fig. 10 compares the segregation and enrichment degrees of different 
+OCs during redox cycles. With the cycle number, the CuO segregation 
+gradually slow down. Ca-doped OCs exhibited lower CuO segregation 
+degree than CuO/Al2O3 during 50 redox cycles, while Sr and Ba-doped 
+OCs had higher segregation degrees after 50 cycles. The order of 
+segregation degrees (4Cu5Al1Ca < 4Cu6Al < 4Cu5Al1Ba < 4Cu5Al1Sr) 
+was consistent with that of surface enrichment degree (exactly, the 
+enrichment degrees of OCs were comparable while considering the large 
+errors). Therefore, AEM-doped OCs did not illustrate significantly lower 
+Cu/CuO outward migration degree than CuO/Al2O3. The agglomeration 
+resistance was not mainly attributed to the inhibition of AEMs on Cu 
+outward migration. 
+According to Fig. 10a, the surface CuO content of fresh 4Cu6Al was 
+close to theoretical value (40 wt%, calculated by the feedstock compo­
+sition of OCs), while that of fresh AEM-doped OCs was much lower than 
+the theoretical values, as well as that of 4Cu6Al. At the same time, the 
+surface AEM content was much higher than the theoretical values. This 
+suggests that the calcination in the synthesis process drove the outward 
+migration of AEM species and inward migration of Cu species, which 
+eliminated the surface contact of Cu between OC particles thereby 
+preventing the OCs from agglomeration and sintering during redox cy­
+cles. The behavior is described in Fig. 11. The directional migration 
+might be driven by the minimization of the surface energy of the whole 
+system (Li et al., 2013). However, due to the deficiency of surface energy 
+data of Cu and Ca species (i.e. CuO, CuAl2O4, AEM carbonates/ox­
+ides/aluminates), the insight of the elemental directional diffusion need 
+Fig. 9. Isothermal TGA profiles of fresh OCs and OCs after 20 and 50 redox cycles.  
+G. Liu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 10 =====
+
+Journal of Cleaner Production 366 (2022) 132970
+10
+to be further studied. Similar behavior was found in (Imtiaz et al., 2021), 
+in which the CuO enrichment of freshly calcined OCs was in the order of 
+CuO/Al2O3 > CuO/MgAl2O4, and the CuO enrichment of fresh OCs 
+correlated directly with the agglomeration degree of cycled OCs in the 
+comparison of CuO OCs supported by Al2O3, MgO, MgAl2O4, TiO2, ZrO2 
+and CeO2. 
+The difference between various AEM-doped OCs was attributed to 
+the different effects on Cu/CuO migration according to the segregation 
+degrees in Fig. 10a. After 20 cycles, 4Cu5Al1Ba had higher Cu/CuO 
+migration degree than 4Cu5Al1Sr and 4Cu5Al1Ca, which was consistent 
+with the lower agglomeration resistance (starting to sinter at 15-20th 
+cycle). During 20-50th cycle, the Cu/CuO migration degree of 
+4Cu5Al1Sr increased rapidly, thus it got sintered subsequently at 20- 
+25th cycle. 4Cu5Al1Ca maintained at low level of Cu/CuO migration, 
+thereby did not suffer from the agglomeration issue. In addition, the 
+substitution of Al2O3 support with AEMs could lower the surface area of 
+OCs, hence the OCs with excess Ca content (4Cu4Al2Ca and 4Cu3Al3Ca) 
+exhibited severe agglomeration issue. 
+4. Conclusion 
+The effect of AEMs (Ca, Sr and Ba) on the performance of CuO/Al2O3 
+OCs on CLC process was investigated. The doping of AEMs on CuO/ 
+Al2O3 exhibited improvement of redox activity, stability and agglom­
+eration resistance. XRD and TGA analysis showed that AEMs doping on 
+CuO/Al2O3 led to the formation of aluminates of AEMs, thereby 
+improved the redox kinetics by inhibiting CuO converting into CuAl2O4 
+spinel. Fluidized bed test illustrated that AEMs doping enhanced the 
+stability and alleviated the agglomeration issues of CuO/Al2O3 during 
+multiple redox cycles. 4Cu6Al faced severe agglomeration and defluid­
+ization issues at the initial 5 cycles, while the OCs with Ba, Sr and Ca 
+doping delayed the agglomeration to 15-20th, 20-25th and >50th cycle, 
+Fig. 10. Segregation and enrichment degrees of Cu/CuO in different OCs.  
+Fig. 11. Anti-agglomeration mechanism of AEM doping on CuO/Al2O3.  
+G. Liu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 11 =====
+
+Journal of Cleaner Production 366 (2022) 132970
+11
+respectively. 5–10 wt% Ca-doping content exhibited great stability 
+without deactivation or agglomeration issues during 50 cycles, but 
+excess Ca doping (≥20 wt%) showed severe agglomeration. The miti­
+gation of agglomeration with AEM doping was mainly attributed to 
+outward migration of AEM species and inward migration of Cu species 
+during synthesis process, rather than the inhibition of Cu/CuO outward 
+diffusion during redox cycles. In practice, the existence of AEM sorbents 
+helps to improve the agglomeration resistance of CuO/Al2O3 OC leading 
+to better reactivity and stability. 
+CRediT authorship contribution statement 
+Guicai Liu: Conceptualization, Methodology, Investigation, Writing 
+– original draft, Writing – review & editing. Chia Chyi Chang: Inves­
+tigation, Writing – review & editing. Ya Zhao: Investigation, Writing – 
+review & editing. Andrei Veksha: Methodology, Validation, Project 
+administration, Funding acquisition, Writing – review & editing. 
+Apostolos Giannis: Methodology, Project administration, Funding 
+acquisition, Writing – review & editing. Teik Thye Lim: Conceptuali­
+zation, Supervision, Funding acquisition, Writing – review & editing. 
+Grzegorz Lisak: Conceptualization, Supervision, Funding acquisition, 
+Writing – review & editing. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgement 
+This work is supported by the National Environment Agency, Min­
+istry of Sustainability and Environment, Singapore, under the Waste-to- 
+Energy Competitive Research Programme (WTE CRP 1701 105). The 
+authors also acknowledge the management of Nanyang Environment 
+and Water Research Institute and Economic Development Board, 
+Singapore for the support. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.jclepro.2022.132970. 
+References 
+Adanez, J., Abad, A., Garcia-Labiano, F., Gayan, P., Luis, F., 2012. Progress in chemical- 
+looping combustion and reforming technologies. Prog. Energy Combust. Sci. 38 (2), 
+215–282. 
+Aika, K.-i., Kawahara, T., Murata, S., Onishi, T., 1990. Promoter effect of alkali metal 
+oxides and alkali earth metal oxides on active carbon-supported ruthenium catalyst 
+for ammonia synthesis. Bull. Chem. Soc. Jpn. 63 (4), 1221–1225. 
+Bae, J., Chung, Y., Lee, J., Seo, H., 2020. Knowledge spillover efficiency of carbon 
+capture, utilization, and storage technology: a comparison among countries. 
+J. Clean. Prod. 246, 119003. 
+Buelens, L.C., Poelman, H., Marin, G.B., Galvita, V.V., 2019. 110th anniversary: carbon 
+dioxide and chemical looping: current research trends. Ind. Eng. Chem. Res. 58 (36), 
+16235–16257. 
+Cabello, A., Gay´an, P., Abad, A., de Diego, L., García-Labiano, F., Izquierdo, M., 
+Scullard, A., Williams, G., Ad´anez, J., 2016. Long-lasting Cu-based oxygen carrier 
+material for industrial scale in Chemical Looping Combustion. Int. J. Greenh. Gas 
+Control 52, 120–129. 
+Chen, G., Wenga, T., Ma, W., Lin, F., 2019. Theoretical and experimental study of gas- 
+phase corrosion attack of Fe under simulated municipal solid waste combustion: 
+influence of KCl, SO2, HCl, and H2O vapour. Appl. Energy 247, 630–642. 
+Donat, F., Imtiaz, Q., Armutlulu, A., Müller, C.R., 2018. Preventing Agglomeration of Cu- 
+Based Oxygen Carriers for High-Temperature Chemical Looping Applications, 5th 
+International Conference on Chemical Looping (Chemical Looping 2018). ETH 
+Zurich, Institute of Energy and Process Engineering (IEPE). 
+Fan, L.-S., 2017. Chemical Looping Partial Oxidation: Gasification, Reforming, and 
+Chemical Syntheses. Cambridge University Press, United Kingdom.  
+Garc´es, R.S., Torres, J.T., Vald´es, A.F., 2012. Synthesis of SrAl2O4 and Sr3Al2O6 at high 
+temperature, starting from mechanically activated SrCO3 and Al2O3 in blends of 3: 
+1 molar ratio. Ceram. Int. 38 (2), 889–894. 
+Gay´an, P., Ad´anez-Rubio, I., Abad, A., de Diego, L.F., García-Labiano, F., Ad´anez, J., 
+2012. Development of Cu-based oxygen carriers for chemical-looping with oxygen 
+uncoupling (CLOU) process. Fuel 96, 226–238. 
+Ge, H., Shen, L., Song, T., Yin, S., 2019. Study on the migration characteristics of sodium 
+and chlorine in chemical looping process of ZhunDong coal with hematite oxygen 
+carrier. Energy Fuel. 33 (2), 1489–1500. 
+Imtiaz, Q., Abdala, P.M., Kierzkowska, A.M., Van Beek, W., Schweiger, S., Rupp, J.L., 
+Müller, C.R., 2016. Na+ doping induced changes in the reduction and charge 
+transport characteristics of Al 2 O 3-stabilized, CuO-based materials for CO 2 
+capture. Phys. Chem. Chem. Phys. 18 (17), 12278–12288. 
+Imtiaz, Q., Armutlulu, A., Donat, F., Naeem, M.A., Müller, C.R., 2021. Preventing 
+agglomeration of CuO-based oxygen carriers for chemical looping applications. ACS 
+Sustainable Chem. Eng. 9 (17), 5972–5980. 
+Imtiaz, Q., Broda, M., Müller, C.R., 2014. Structure–property relationship of co- 
+precipitated Cu-rich, Al2O3-or MgAl2O4-stabilized oxygen carriers for chemical 
+looping with oxygen uncoupling (CLOU). Appl. Energy 119, 557–565. 
+Imtiaz, Q., Hosseini, D., Müller, C.R., 2013. Review of oxygen carriers for chemical 
+looping with oxygen uncoupling (CLOU): thermodynamics, material development, 
+and synthesis. Energy Technol. 1 (11), 633–647. 
+Imtiaz, Q., Kierzkowska, A.M., Broda, M., Muller, C.R., 2012a. Synthesis of Cu-rich, 
+Al2O3-stabilized oxygen carriers using a coprecipitation technique: redox and 
+carbon formation characteristics. Environ. Sci. Technol. 46 (6), 3561–3566. 
+Imtiaz, Q., Kierzkowska, A.M., Müller, C.R., 2012b. Coprecipitated, copper-based, 
+alumina-stabilized materials for carbon dioxide capture by chemical looping 
+combustion. ChemSusChem 5 (8), 1610–1618. 
+Ishida, M., Jin, H., 1997. CO2 recovery in a power plant with chemical looping 
+combustion. Energy Convers. Manag. 38, S187–S192. 
+Jin, Y., Datye, A.K., 2000. Phase transformations in iron Fischer–Tropsch catalysts during 
+temperature-programmed reduction. J. Catal. 196 (1), 8–17. 
+Lee, K.-Y., Huang, Y.-J., 2014. Low CO generation on tunable oxygen vacancies of non- 
+precious metallic Cu/ZnO catalysts for partial oxidation of methanol reaction. Appl. 
+Catal., B 150–151, 506–514. 
+Li, D., Liu, X., Zhang, Q., Wang, Y., Wan, H., 2009. Cobalt and copper composite oxides 
+as efficient catalysts for preferential oxidation of CO in H 2-rich stream. Catal. Lett. 
+127 (3), 377–385. 
+Li, Z., Liu, Y., Cai, N., 2013. Understanding the effect of inert support on the reactivity 
+stabilization for synthetic calcium based sorbents. Chem. Eng. Sci. 89, 235–243. 
+Lin, Y., Wang, H., Wang, Y., Huo, R., Huang, Z., Liu, M., Wei, G., Zhao, Z., Li, H., 
+Fang, Y., 2020. Review of biomass chemical looping gasification in China. Energy 
+Fuel. 34 (7), 7847–7862. 
+Liu, G., Wang, H., Deplazes, S., Veksha, A., Wirz-T¨ondury, C., Giannis, A., Lim, T.T., 
+Lisak, G., 2021a. Ba–Al-decorated iron ore as bifunctional oxygen carrier and HCl 
+sorbent for chemical looping combustion of syngas. Combust. Flame 223, 230–242. 
+Liu, G., Wang, H., Veksha, A., Giannis, A., Lim, T.T., Lisak, G., 2021b. Chemical looping 
+combustion-adsorption of HCl-containing syngas using alkaline-earth coated iron ore 
+composites for simultaneous purification and combustion enhancement. Chem. Eng. 
+J. 417, 129226. 
+Liu, G., Wu, X., Zhao, Y., Veksha, A., Giannis, A., Lim, T.T., Lisak, G., 2022. Thermal 
+behavior of Cu-Mg-Al-Ba/Sr bifunctional composites during chemical looping 
+combustion and HCl adsorption of MSW syngas. Chem. Eng. J. 430, 132871. 
+Luis, F., Garcı, F., Gay´an, P., Celaya, J., Palacios, J.M., Ad´anez, J., 2007. Operation of a 
+10 kWth chemical-looping combustor during 200 h with a CuO–Al2O3 oxygen 
+carrier. Fuel 86 (7–8), 1036–1045. 
+Lyngfelt, A., 2020. Chemical looping combustion: status and development challenges. 
+Energy Fuel. 34 (8), 9077–9093. 
+Ma, M., Ma, X., Cai, W., Cai, W., 2020a. Low carbon roadmap of residential building 
+sector in China: historical mitigation and prospective peak. Appl. Energy 273, 
+115247. 
+Ma, W., Wenga, T., Frandsen, F.J., Yan, B., Chen, G., 2020b. The fate of chlorine during 
+MSW incineration: vaporization, transformation, deposition, corrosion and 
+remedies. Prog. Energy Combust. Sci. 76, 100789. 
+Man, Y., Hu, S., Gao, J., Li, J., Hong, M., 2020. Integrated chemical looping combustion 
+in pulp mill for high energy efficiency and low carbon emission. J. Clean. Prod. 275, 
+122979. 
+Miao, Z., Jiang, E., Hu, Z., 2022. Review of agglomeration in biomass chemical looping 
+technology. Fuel 309, 122199. 
+Mishra, A., Li, F., 2018. Chemical looping at the nanoscale—challenges and 
+opportunities. Curr. Opin. Chem. Eng. 20, 143–150. 
+Monazam, E.R., Breault, R.W., Siriwardane, R., Richards, G., Carpenter, S., 2013. 
+Kinetics of the reduction of hematite (Fe2O3) by methane (CH4) during chemical 
+looping combustion: a global mechanism. Chem. Eng. J. 232, 478–487. 
+Monazam, E.R., Breault, R.W., Tian, H., Siriwardane, R., 2015. Reaction kinetics of 
+mixed CuO–Fe2O3 with methane as oxygen carriers for chemical looping 
+combustion. Ind. Eng. Chem. Res. 54 (48), 11966–11974. 
+Sathaporn, T., Sutham, N., 2012. Optimization of Rare Earth Dope on MAl2O4 (M= Ba, 
+Sr) by Self-Propagating High Temperature Synthesis, Advanced Materials Research. 
+Trans Tech Publ, pp. 442–446. 
+Shiri, S., Abbasi, M., Monshi, A., Karimzadeh, F., 2014. Synthesis of the CaAl2O4 
+nanoceramic compound using high-energy ball milling with subsequent annealing. 
+Adv. Powder Technol. 25 (1), 338–341. 
+Smigelskas, A., 1947. Zinc diffusion in alpha brass. Trans. Aime 171, 130–142. 
+Sunny, N., Mac Dowell, N., Shah, N., 2020. What is needed to deliver carbon-neutral heat 
+using hydrogen and CCS? Energy Environ. Sci. 13 (11), 4204–4224. 
+G. Liu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 12 =====
+
+Journal of Cleaner Production 366 (2022) 132970
+12
+Wang, H., Liu, G., Boon, Y.Z., Veksha, A., Giannis, A., Lim, T.T., Lisak, G., 2020a. Dual- 
+functional witherite in improving chemical looping performance of iron ore and 
+simultaneous adsorption of HCl in syngas at high temperature. Chem. Eng. J., 
+127538 
+Wang, H., Liu, G., Veksha, A., Dou, X., Giannis, A., Lim, T.T., Lisak, G., 2020b. Iron ore 
+modified with alkaline earth metals for the chemical looping combustion of 
+municipal solid waste derived syngas. J. Clean. Prod., 124467 
+Wang, H., Liu, G., Veksha, A., Giannis, A., Lim, T.-T., Lisak, G., 2021. Effective H2S 
+control during chemical looping combustion by iron ore modified with alkaline earth 
+metal oxides. Energy 218, 119548. 
+Wang, J., Zhao, H., 2015. Chemical looping dechlorination through adsorbent-decorated 
+Fe2O3/Al2O3 oxygen carriers. Combust. Flame 162 (10), 3503–3515. 
+Zhu, X., Imtiaz, Q., Donat, F., Müller, C.R., Li, F., 2020. Chemical looping beyond 
+combustion–a perspective. Energy Environ. Sci. 13 (3), 772–804. 
+G. Liu et al.                                                                                                                                                                                                                                      

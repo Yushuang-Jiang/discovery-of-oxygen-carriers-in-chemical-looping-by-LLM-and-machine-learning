@@ -1,0 +1,973 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Fuel Processing Technology
+journal homepage: www.elsevier.com/locate/fuproc
+Preparation and performance of Cu-based bimetallic oxygen carriers in
+chemical looping combustion with gaseous and solid fuels
+Jingchong Yan⁎, Xiaogang Chu, Hanren Jiao, Shigang Kang⁎, Zhiping Lei, Zhanku Li,
+Zhicai Wang, Shibiao Ren, Hengfu Shui⁎
+School of Chemistry & Chemical Engineering, Anhui Province Key Laboratory of Coal Clean Conversion and High Valued Utilization, Anhui University of Technology,
+Maanshan, 243002, China
+A R T I C L E I N F O
+Keywords:
+CLOU
+CLC
+Oxygen carriers
+Reactivity
+Stability
+A B S T R A C T
+Chemical looping with oxygen uncoupling (CLOU) is promising for carbon capture in fossil fuel combustion.
+Oxygen carriers (OC) are the key aspect for the development of CLOU technology. Four Cu-based bimetallic OC
+(80Cu20Mn, 40Cu60Fe, 60Cu40Co and 60Cu40Ni) were prepared by sol-gel method in this work. The oxygen
+release and adsorption behavior of the OC were examined in alternating Ar and air. Chemical looping com-
+bustion (CLC) with both gaseous and char were conducted to investigate the performance of the OC. The oxygen
+transport capacity remained stable in 20 cycles for 80Cu20Mn, 40Cu60Fe and 60Cu40Ni, but a remarkable
+decrease was observed for 60Cu40Co. For the CLC tests with gaseous fuel, only 80Cu20Mn exhibited stable CO
+conversion (XCO), while the other three OC showed reducing XCO in the redox cycles. Both 60Cu40Co and
+60Cu40Ni were sintered, and insufficient oxidation was confirmed after CLC with 11.3%CO/N2. In CLC with coal
+char, all the OC significantly enhanced carbon conversion (XCO), reaction rate(γC) as well as CO2 selectivity
+(YCO2). However, γC decreased prominently in cycling tests indicating reduced reactivity. Agglomeration, sin-
+tering and transformation of active components into composite salts such as CuFe2O4 and CuMnO2 were re-
+sponsible for the deteriorated performance of the Cu-based bimetallic OC.
+1. Introduction
+With the increasing concern of global warming and rising atmo-
+spheric CO2 concentration caused by the fossil fuel (especially coal)
+combustion, the demand of effective and efficient carbon capture and
+storage (CCS) technologies is becoming more stringent than ever before
+[1]. Chemical looping combustion (CLC) has arisen as a promising and
+innovative combustion technology recently due to its inherent CO2
+separation without any energy penalty [2,3]. The working principle of
+CLC is illustrated in Fig. 1, where fuel is fully oxidized in a fuel reactor
+(FR) with oxygen provided by the solid oxygen carriers (OC, MexOy),
+and the reduced OC (MexOy-1) are then oxidized and recovered with air
+in an air reactor (AR). Following this scheme, the combustion of fuel is
+divided into one reduction and one oxidation reaction that occur in
+different reactors, thus direct contact of fuel and air is avoided. After
+the reaction only CO2 and H2O (steam) are produced, and pure CO2 is
+obtained after condensation of steam [4]. The OC used in CLC are
+mostly metal oxides, and it can be envisioned that the contact between
+OC and fuel, especially solid fuel such as coal, is significant for efficient
+conversion. The concept of CLC was firstly proposed with gaseous fuels
+(natural gas, H2, etc.), and then extended to solid fuels such as coal,
+biomass, solid wastes, etc., while CLC using coal as fuel is undoubtedly
+the most noticeable [5–8].
+For the CLC with coal, which is also known as in-situ gasification
+chemical looping combustion (iG-CLC), several types of reactions are
+involved as described in Fig. 2 by Adanez et al. [6]. When coal is fed
+into the FR, pyrolysis reactions first take place and produce steam,
+volatiles and char. Volatiles are directly oxidized by OC into CO2 and
+H2O, while char is first gasified with the gasifying agent (steam or CO2),
+and the gasification intermediates (CO and H2) are then oxidized into
+CO2 and H2O by OC. The direct reactions between OC and char are
+negligible. The used OC restore their oxygen transport capacity by air in
+AR and reused in the next cycle. An important technical challenge for
+iG-CLC is the rate enhancement of coal gasification, as it is the rate-
+controlling step and much slower than the OC oxidation [9,10]. This
+slow coal gasification significantly lowers the efficiency and limits the
+application of the technology. Common practices for addressing the
+issue are to use reactive or catalytic OC that can accelerate coal gasi-
+fication. For instance, Gu et al. used K2CO3-decorated iron ores in iG-
+CLC with anthracite, and they found that coal gasification and water-
+https://doi.org/10.1016/j.fuproc.2020.106463
+Received 8 January 2020; Received in revised form 1 April 2020; Accepted 28 April 2020
+⁎ Corresponding authors.
+E-mail addresses: yjcagd@ahut.edu.cn (J. Yan), kangshigang@ahut.edu.cn (S. Kang), shhf@ahut.edu.cn (H. Shui).
+Fuel Processing Technology 205 (2020) 106463
+Available online 11 May 2020
+0378-3820/ © 2020 Elsevier B.V. All rights reserved.
+T
+
+
+===== Page 2 =====
+
+gas-shift reaction were significantly accelerated after K2CO3 modifica-
+tion of the iron ore, which was used as OC in their work [2]. Yu et al.
+also found that adding K2CO3 into Fe2O3 could increase reaction rate of
+CLC with Shenmu coal char [11]. Even so, the coal gasification is still
+the slowest step that results the mis-matching rates of OC oxidation and
+reduction.
+It is well recognized that OC are the crucial factor for the devel-
+opment of iG-CLC as they are the carriers for both oxygen and heat to
+fuel (coal) by circulating between FR and AR. Because of the different
+temperatures and atmospheres in FR and AR, several important prop-
+erties are required for OC including sufficient oxygen transport capa-
+city, favorable thermodynamic property for oxidation fuel into CO2 and
+H2O, high reactivity in both oxidation and reduction, resistant to at-
+trition, agglomeration, carbon deposition, limited cost and environ-
+mental friendly [12]. In the past decades, numerous studies have been
+performed to explore efficient and cost-effective OC. It is reported that
+more than 700 materials based on Fe, Co, Ni, Mn, Cu, and low cost
+materials (natural ores, red mud, perovskites etc.) have been tested to
+verify their feasibility [6]. Among the tested OC, the Cu-based OC are
+particularly remarkable as they could release gaseous oxygen in FR,
+thus saving the rate-controlling coal gasification step and effectively
+enhancing reaction rate [13]. This process is also known as chemical
+looping with oxygen uncoupling (CLOU), and the reaction paths of
+CLOU are also illustrated in Fig. 2. In the CLOU process, several reac-
+tions occur simultaneously in FR, that is,
++
+Me O
+Me O
+O
+2
+2
+x
+y
+x
+y
+1
+2
++
++ H O
+Coal
+char
+volatile
+2
++ O
+CO
+Char (mainly C)
+2
+2
++
++
+O
+CO
+H O
+Volatile
+2
+2
+2
+OC are decomposed to produce gaseous oxygen while coal is pyr-
+olyzed into volatiles and char. Then gaseous oxygen reacts with the
+pyrolysis products (volatiles and char) similar to the conventional coal
+combustion. After releasing oxygen, the reduced OC are oxidized and
+recovered in AR so as to be reused in successive cycles. Due to the
+avoidance of coal gasification step, the rate of CLOU was reported to be
+50 times greater than that of iG-CLC [13]. More importantly, CO2 can
+be used as gasifying agent in CLOU process to further enhance reaction
+rate, which is conductive to reduce the duty of steam generation or
+energy penalty. Besides, thanks to the enhanced reaction rate, reduced
+FR size and smaller OC inventory are required.
+Despite of the aforementioned merits, CLOU process is less mature
+than CLC due to its higher requirements of OC. Up to now only several
+metal oxides (CuO/Cu2O, Mn2O3/Mn3O4, Co3O4/CoO) were proved to
+be potential for the CLOU process at 800-1200°C. Among these candi-
+dates, the oxygen transport capacity of Mn2O3/Mn3O4 is too small (only
+0.033), while Co3O4/CoO is too expensive for practical use. CuO/Cu2O
+has higher oxygen transport capacity than Mn2O3/Mn3O4 and Co3O4/
+CoO and it is relative cheaper, but it tend to be deactivated due to
+sintering, agglomeration or ash deposition when using coal as fuel. It
+was reported that CuO was highly reactive towards reduction but
+substantial deactivation was observed after redox cycles [14,15]. Be-
+cause of the low melting point of Cu (1089°C), CuO tend to be sintered
+or agglomerated, thus modification of CuO are necessary to improve its
+performance. Introducing inert materials such as SiO2, Al2O3, ZrO2,
+TiO2 could effectively improve sintering resistance of CuO [16], but the
+oxygen transport capacity of the modified CuO was also reduced. This
+can be overcome by combining two CLOU metal oxides such as CuO
+with Mn2O3 or Co3O4. Alternatively, One can combine one CLOU metal
+Fig. 1. General scheme of CLC process derived from Adanez et al. [6].
+Fig. 2. Main processes in FR proposed for iG-CLC and CLOU [6].
+J. Yan, et al.
+Fuel Processing Technology 205 (2020) 106463
+2
+
+
+===== Page 3 =====
+
+oxide (e.g. CuO) with another non-CLOU metal oxide such as NiO or
+Fe2O3. Both NiO or Fe2O3 are frequently in CLC with various fuels by
+providing lattice oxygen. Although neither could release gaseous
+oxygen, NiO is highly reactive and significantly improves reaction rate
+in CLC. Despite of moderate reactivity towards fuel conversion, Fe2O3
+has favorable thermodynamic property and good mechanical strength,
+moreover, it is inexpensive and abundant [4,17–19]. By this means, the
+combined metal oxides can be promising OC with the merits of the
+individual components, i.e., both gaseous and lattice oxygen are
+available thus potentially improve carbon conversion and reaction rate
+of CLC. For instance, Jiang et al. combined natural hematite with CuO
+by mechanical mixing and tested the performance of the manufactured
+OC on CLC with both methane and coal. The resultant bimetallic OC
+were proved to be competitive and promising as their chemical com-
+positions remain unchanged in the CLC cycles [20]. Shafiefarhood et al.
+investigated the CLOU property of FeeCo and FeeMn bimetallic oxides.
+The initial decomposition temperature of OC was found to decrease
+with increasing amount of Co or Mn. Besides, addition of perovskite
+could enhance the CLOU property of FeeCo oxides [21].
+Based on the above considerations, this work aims to verify the
+feasibility of combining different metal oxides that could provide gas-
+eous or lattice oxygen to prepare potential OC with high performance in
+CLC tests. Four Cu-based bimetallic OC were prepared by combining
+CuO with other metal oxides (Mn2O3, Co3O4, Fe2O3 and NiO) using the
+sol-gel method. The CLC performance of the Cu-based bimetallic OC
+with both gaseous and solid fuels was investigated. Cycling CLC tests
+were conducted with different fuels to examine the reactivity, stability
+and recyclability of the OC with indexes including carbon conversion,
+reaction rate and CO2 selectivity. The fresh and used OC were char-
+acterized by SEM-EDS and XRD to reveal the mineralogical and mor-
+phological characteristics and interpret the deactivation of the OC. The
+relevant results and information are expected to provide useful re-
+ference for the preparation of efficient Cu-based OC that are potential
+for practical CLC processes with both gaseous and solid fuels.
+2. Experimental
+2.1. Materials
+In this work, Cu-based OC were prepared with the sol-gel method by
+using different nitrates precursors including Cu(NO3)2•3H2O, Mn
+(NO3)2•4H2O, Fe(NO3)3•9H2O, Co(NO3)2•6H2O and Ni(NO3)2•6H2O.
+The procedures for preparation of 30g of targeted OC were briefly in-
+troduced here. Cu(NO3)2•3H2O and another nitrate with the pre-cal-
+culated mass (shown in Table 1) were mixed and dissolved in de-io-
+nized water, and then added with equimolar amount of critic acid. The
+mixture was kept standing in a water bath of 80°C while stirring to
+evaporate water, and the dehydrated wet gel was then dried at 120°C in
+an oven overnight to obtain a completely dehydrated xerogel. The
+xerogel was calcinated in air at 500°C for 5h and then 800°C for 1h. The
+solid products were used as OC after crushing and grounding to a
+particle size 450–1000μm. Images of the OC were shown in Fig. 3. The
+resultant Cu-based OC were denoted as xCuyM, where x and y indicate
+the weight percentage of CuO and another metal oxide (Mn2O3, Fe2O3,
+Co3O4 or NiO). The four Cu-based OC thus prepared were denoted as
+80Cu20Mn, 40Cu60Fe, 60Cu40Co and 60Cu40Ni, respectively. As can
+be seen from Fig. 3 that there were no obvious agglomerations for the
+OC after calcination.
+A gaseous fuel (11.3%CO/N2) and a Shenhua (SH) bituminous coal
+with a particle size 2–3mm were used to evaluate the performance of
+the Cu-based OC. To eliminate the interference of volatile matter on
+coal gasification and iG-CLC reaction, pyrolysis was conducted at 950°C
+for 2h beforehand to remove the volatile matter and the resultant char
+was used as the feeding material for the iG-CLC tests. The proximate
+and ultimate analyses of SH coal and its char were listed in Table 2, and
+the ash compositions of SH coal were shown in Table 3.
+2.2. Oxygen release and adsorption behavior of the OC
+To investigate the oxygen release and adsorption stability of the OC,
+redox cycling tests were conducted in alternating Ar and air with a
+thermo-gravimetric analyzer (TGA,STA449F3, Netzsch, Germany). In
+each run 20mg OC was heated in air from ambient temperature to
+950°C at 10°C/min. When the temperature stabilized, the atmosphere
+was switched to Ar and the OC started to release oxygen. After releasing
+oxygen, the atmosphere was switched to air for the oxidation of OC thus
+completing a redox cycle. Both oxygen release and adsorption were set
+to be 10min by a preliminary experiment. 20 redox cycles were con-
+ducted to examine the stability of the OC. The oxygen transport capa-
+city (Ro) of the OC was calculated with Eq. (1).
+=
+R
+m
+m
+m
+o
+O
+R
+O
+(1)
+where mO and mR was the mass of the oxidized and reduced OC, re-
+spectively.
+2.3. Performance of the OC in CLC with gaseous fuel
+The CLC performance with gaseous fuel (11.3%CO/N2) of the OC
+was evaluated with a fixed bed reactor as shown in Fig. 4. The quartz
+tube was 28mm (I.D.) and 760mm in length with a porous quartz plate
+in the middle. In each run, 5g OC was charged into the reactor and
+heated to 950°C in air. After the temperature stabilized, N2 was used to
+replace air for 40s before switching to 11.3%CO/N2 to initiate CLC
+reactions. The produced gases from the reaction were examined with a
+gas analyzer (VARIOplus, MRU, Germany). The dominant gas compo-
+nents were CO, CO2, H2, and CH4. When the content of CO2 decreased
+to below detection limit, air was used to regenerate the reduced OC.
+CLC tests were conducted for 10 cycles by successively switching Air,
+N2 and 11.3%CO/N2 at 950°C and the gas compositions at the outlet
+were continuously analyzed. To evaluate the performance of the OC,
+the conversion of CO (XCO) during CLC was calculated with Eq. (2).
+=
+X
+dt
+t
+X
+11.3%
+t
+gas
+CO
+CO
+0
+2
+(2)
+where νgas was the flow rate of gaseous fuel (11.3%CO/N2), XCO2 was
+the concentration of CO2 in the flue gas, and t was the duration of re-
+duction in one redox cycle.
+Table 1
+Mass of precursors used for preparation of 30g of target OC.
+OC
+Mass of precursor(g)
+Cu(NO3)2•3H2O
+Mn(NO3)2•4H2O
+Fe(NO3)3•9H2O
+Co(NO3)2•6H2O
+Ni(NO3)2•6H2O
+80Cu20Mn
+72.4
+19.0
+40Cu60Fe
+36.3
+90.9
+60Cu40Co
+54.4
+43.7
+60Cu40Ni
+54.4
+36.8
+J. Yan, et al.
+Fuel Processing Technology 205 (2020) 106463
+3
+
+
+===== Page 4 =====
+
+2.4. Performance of the OC in iG-CLC with char
+The same fixed bed reactor was used to conduct iG-CLC tests with
+SH char and the four Cu-based OC. In each run 0.2g of char was charged
+into the reactor through the hopper at the top of the tube, while the OC
+with the theoretical masses (6.1, 8.9, 10.3 and 3.7g for 80Cu20Mn,
+40Cu60Fe, 60Cu40Co and 60Cu40Ni, respectively) for complete com-
+bustion of the char were placed on the plate of the tube, and the tube
+was maintained at 950°C in air beforehand. Then N2 (1.2L/min) and
+steam (1.0mL/min) were mixed in a pre-heater and introduced into the
+reactor to initiate the iG-CLC reaction, and the gaseous products were
+analyzed with the gas analyzer online. When the reaction was com-
+pleted with no more CO and CO2 detected, the mixed atmosphere was
+switched to air to regenerate the OC. Afterwards, another cycle was
+started following the same procedures. The iG-CLC tests were also
+conducted for 10 cycles before cooling the reactor and collecting the
+used OC samples for characterization. For comparison, SiO2 was used to
+replace Cu-based OC in the iG-CLC test. The flow rate (ν) at the outlet
+was calculated with Eq. (3).
+Fig. 3. Images of the fresh Cu-based OC before use.
+Table 2
+Proximate and ultimate analyses of SH coal and char.
+Sample
+Proximate analysis (db, wt%)
+Ultimate analysis (daf, wt%)
+Ash
+VM
+FC
+C
+H
+N
+Oa
+S
+SH Coal
+5.9
+32.9
+61.2
+76.58
+3.81
+0.79
+18.36
+0.46
+SH Char
+15.0
+3.9
+81.1
+95.81
+0.41
+0.82
+2.08
+0.88
+VM, volatile matter; FC, fixed carbon; db, dry basis; daf, dry and ash-free basis.
+a By difference.
+Table 3
+Ash composition(wt%) SH coal.
+SiO2
+Al2O3
+Fe2O3
+CaO
+MgO
+SO3
+TiO2
+K2O
+Na2O
+P2O5
+Others
+42.26
+14.52
+11.07
+18.44
+1.13
+6.15
+0.61
+1.38
+1.47
+0.11
+2.86
+Fig. 4. Schematic diagram of the experimental device.
+J. Yan, et al.
+Fuel Processing Technology 205 (2020) 106463
+4
+
+
+===== Page 5 =====
+
+=
+X
+X
+X
+X
+1
+N
+CO
+H
+CO
+CH
+2
+2
+2
+4
+(3)
+where νN2 was the flow rate of N2, Xi(i = CO2,H2,CH4 and CO) was the
+concentration of each gas detected by the gas analyzer.
+The carbon conversion (Xc) in the iG-CLC was calculated with Eq.
+(4).
+=
++
++
+XC
+X
+X
+X
+dt
+wt
+C db
+12
+(
+)
+22.4
+0.2
+% ( ,
+)
+t
+CO
+CO
+CH
+0
+2
+4
+=
++
++
+X
+X
+X
+X
+dt
+wt
+C db
+12
+(
+)
+22.4
+0.2
+%( ,
+)
+C
+t
+CO
+CO
+CH
+0
+2
+4
+(4)
+where wt % (C,db) was the weight percentage of carbon on dry basis of
+char. The rate of conversion (γc) was obtained by differentiation of Xc
+with time, as expressed in Eq. (5).
+= dX
+dt
+c
+c
+(5)
+The selectivity of CO2 (YCO2) in iG-CLC was calculated with Eq. (6)
+=
++
++
+Y
+X
+dt
+X
+X
+X
+dt
+(
+)
+CO
+t
+CO
+t
+CO
+CO
+CH
+0
+0
+2
+2
+2
+4
+(6)
+2.5. Characterization of the Cu-based OC
+The crystalline phases of the fresh and the used OC were char-
+acterized
+with
+an
+X-Ray
+diffractometer
+(D8
+ADVANCE, Bruker,
+Germany) with Cu Kα radiation (40kV, 40mA, Kα1 = 0.15408nm). The
+OC particles were grounded to less than 75μm before subjected to XRD
+tests. The samples were scanned with a step size of 0.02o at a speed of
+5o(2θ)/min over 10-90o. The morphology of the fresh and used OC was
+analyzed with scanning electron microscopy (JSM-6490LV, JEOL,
+Japan).
+3. Results and discussion
+3.1. Oxygen release and adsorption behavior during redox cycles
+From the XRD patterns of the fresh Cu-based OC (Fig. 5), the
+dominant components are CuO, CoO and NiO, while the Fe2O3 and
+Mn2O3 phases cannot be observed. Based on the literature [6], the
+oxygen release of the OC is a reversible process, and the reactions are as
+follows.
++
+=
+C
+O
+O
+g
+R
+4CuO
+2 u
+( )
+0.1
+O
+2
+2
++
+=
+M
+O
+M
+O
+O
+g
+R
+6
+n
+4
+n
+( )
+0.033
+O
+2
+3
+3
+4
+2
++
+=
+Co O
+CoO
+O
+g
+R
+2
+6
+( )
+0.066
+O
+3
+4
+2
+The oxygen release and adsorption lead to the weight change during
+TGA test as shown in Fig. 6. Obviously, the weight decrease is caused by
+the oxygen release in Ar while the weight increase is due to the oxygen
+adsorption in air. It is clear that the weight changes of 80Cu20Mn and
+40Cu60Fe are stable, while that of 60Cu40Ni slightly decreases and that
+of 60Cu40Co remarkably reduces during redox cycles. The samples
+with the maximum and minimum weight correspond to the oxidized
+and reduced form of the OC, thus the oxygen transport capacity (Ro) can
+be calculated according to Eq. (1). As shown in Fig. 7, The Ro of the OC
+decrease in the order 80Cu20Mn > 60Cu40Co > 60Cu40Ni >
+40Cu60Fe. The Ro remarkably decreases for 60Cu40Co and that of
+60Cu40Ni show slight reduces while the Ro of 80Cu20Mn and
+40Cu60Fe remain stable in the cycling. This is consistent with the mass
+changes in oxygen release and adsorption of Fig. 6.
+As the cycling tests of oxygen release and adsorption were con-
+ducted in alternating Ar and Air, the possible factors responsible for the
+reduced weight loss of the OC are sintering or agglomeration, or the
+transition of crystal phases. Whatever factors, the reducing Ro is adverse
+to their usage in long-term CLC operations. In the following section, the
+performances of the OC in CLC with both gaseous and solid fuels are
+discussed to examine their feasibility to be used as OC in smooth and
+stable CLC operations.
+3.2. CLC performance of the Cu-based OC in CLC with gaseous fuel
+Fig. 8 shows the gas concentration and CO conversion in CLC cycles
+with gaseous fuel. The concentrations of gases (mainly O2, CO and CO2)
+are very close in repeated cycles, but the CO conversion (XCO) differs
+remarkably. Specifically, the XCO of 80Cu20Mn remains stable but those
+of the other OC reduces obviously, especially in the first two or three
+cycles.
+These
+results
+indicate
+that
+the
+reactivity
+of
+40Cu60Fe,
+60Cu40Co and 60Cu40Ni rapidly reduce at the initial stage, and then
+gradually decrease in the following cycles. The reasons for the decrease
+of reactivity are examined by XRD and SEM analyses as discussed
+below.
+It is noteworthy that variations of XCO are clearly different from
+those of Ro in Fig. 7. Both Ro and XCO remain stable for 80Cu20Mn,
+while Ro stabilizes but XCO reduces for 60Cu40Ni in CLC cycles with
+gaseous fuel. These discrepancies can be ascribed to the different re-
+actions that occur under Ar and 11.3%CO/N2. Specifically, only CuO
+participates in the oxygen releasing in Ar through reaction 4CuO ↔
+2Cu2O + O2(g) while NiO cannot [6]. However, both CuO and NiO in
+60Cu40Ni
+react
+with
+11.3%CO/N2
+following
+the
+reactions
+4CuO + 2CO →2Cu2O + 2CO2 and NiO + CO →Ni + CO2. Both
+reactions are exothermic that may cause rapid temperature rise of
+60Cu40Ni, thus sintering or agglomeration possibly occur and lead to
+decrease of XCO. This is also the case for 40Cu60Fe. In addition, the
+phase transformations of the OC also probably take place, which is
+verified by XRD analysis.
+Fig. 9 shows the XRD patterns of the used OC after CLC cycles with
+11.3%CO/N2. Here the used OC is actually the re-oxidized ones after
+completing 10 reduction-oxidation cycles. Comparing with those of the
+fresh OC (Fig. 5), most CuO are reduced to Cu2O for 60Cu40Co and
+80Cu20Mn after CLC. It can be expected that the RO for the reduced OC
+is negligible due to the depletion of available oxygen in combustion.
+The significant peaks of Ni for the used 60Cu40Ni are possibly derived
+from the limited contact with air in the re-oxidation, and this is also the
+case for the appearance of Cu2O in 60Cu40Co and 80Cu20Mn. The SEM
+images of the fresh and the used OC are shown in Fig. 10, from which
+the morphological characters are observed clearly. The surface changes
+little for 80Cu20Mn and 40Cu60Fe, while 60Cu40Co and 60Cu40Ni are
+Fig. 5. XRD patterns of the fresh Cu-based OC.
+J. Yan, et al.
+Fuel Processing Technology 205 (2020) 106463
+5
+
+
+===== Page 6 =====
+
+obviously sintered after CLC. This can be used to interpret the varia-
+tions in reactivity or XCO shown in Fig. 8. When the surface is sintered
+the contact between active components (e.g. Cu2O) and air is limited
+and the OC cannot be fully recovered, thus resulting in the reduced RO
+and decreased reactivity in CLC with 11.3%CO/N2. From the above
+analyses, it can be seen that the transformation of active components
+and sintering are the two primary factors responsible for the weakening
+reactivity of the Cu-based OC.
+3.3. Performance of the Cu-based OC in iG-CLC with char
+The iG-CLC performance of the Cu-based OC was examined with SH
+char. The reaction paths for the iG-CLC are different from that of CLC
+with gaseous fuel. Steam was introduced into the reactor as gasifying
+agent, thus the following reactions including gasification of char to
+produce syngas (CO and H2), oxygen release from the CLOU metal
+oxides (CuO, Mn2O3 and Co3O4), combustion of syngas and solid char
+with gaseous oxygen and lattice oxygen from Fe2O3 and NiO occur
+Fig. 6. Oxygen release and adsorption during redox cycling at 950 °C.
+Fig. 7. RO of Cu-based OC during redox cycling.
+J. Yan, et al.
+Fuel Processing Technology 205 (2020) 106463
+6
+
+
+===== Page 7 =====
+
+simultaneously and competitively. From the previous study, the com-
+bustion rate of fuels with gaseous oxygen was much larger than that
+with lattice oxygen, but the active components were easily lost due to
+sintering, agglomeration or phase transformation [22]. Meanwhile, the
+ash components in char also potentially affect the stability and re-
+activity of the OC as discussed herein. For comparison, iG-CLC was also
+conducted using SiO2, which is inert thus this process is actually char
+gasification.
+Fig. 11 shows the carbon conversion (XC), reaction rate (γc) and CO2
+selectivity (YCO2) during iG-CLC with SH char in the first cycle. Clearly,
+all the Cu-based OC enhance both XC and γc of SH char in iG-CLC
+compared with SiO2. XC is only about 0.8 in iG-CLC with SiO2 at 950°C
+for 30min, while it reaches almost 1.0 at 13min when 60Cu40Co is
+used. The γc with 60Cu40Co is about five times greater than that with
+SiO2. The values of γc with other OC are also much larger than that with
+SiO2. This is expected as coal gasification is the rate limiting step for iG-
+CLC. When Cu-based OC are presented, they release gaseous oxygen
+and convert the C-H2O into CeO2 reaction therefore significantly en-
+hance γc. High YCO2 is desired for iG-CLC as concentrated CO2 can be
+readily captured. It is shown in Fig. 11 that YCO2 rapidly rises to 0.98
+within 1min, indicating complete oxidation at the initial stage. This is
+due to the relatively higher concentration of oxygen released at this
+stage. As the iG-CLC reactions progress, because of the less gaseous
+oxygen available and the reduced OC reactivity caused by the sintering
+and transitions of crystalline phase (as discussed later in this section),
+both γc and YCO2 gradually deminish after the peak values. As expected,
+the YCO2 of SiO2 is very small (about 0.3) and changes little with time
+extending, as the dominant gaseous products are CO and H2 rather than
+CO2 in char gasification with steam, and the rate of non-catalytic ga-
+sification is much smaller than that of the iG-CLC.
+Cycling tests of iG-CLC were conducted to examine the stability of
+the Cu-based OC. Fig. 12 shows the maximum reaction rate in 10 cycles.
+The γc of 60Cu40Co is greater than those of the other OC in all the runs,
+which is consistent with the result of Fig. 11. Furthermore, the γc for all
+the OC keep reducing with increase of cycle number, which is in ac-
+cordant with the results of CLC with gaseous fuel. The reasons for the
+decrease of γc are discussed from the aspect of morphology and mi-
+neralogy in the following section.
+Fig. 13 shows the images of the used Cu-based OC after iG-CLC
+cycles with SH char. Clearly, the particle sizes of the OC are increased
+Fig. 8. Gas concentration and CO conversion in CLC cycles with 11.3%CO/N2.
+Fig. 9. XRD patterns of the used OC after CLC cycles with 11.3%CO/N2.
+J. Yan, et al.
+Fuel Processing Technology 205 (2020) 106463
+7
+
+
+===== Page 8 =====
+
+Fig. 10. SEM of the fresh and used OC after CLC cycles with 11.3%CO/N2.
+J. Yan, et al.
+Fuel Processing Technology 205 (2020) 106463
+8
+
+
+===== Page 9 =====
+
+as labeled in the red ellipse. It should be pointed out that the agglom-
+erated particles are not SH char, as the char particles are completely
+combusted with either OC(in the OC reduction stage) or Air (in the OC
+oxidation stage), thus the cumulated particles are virtually OC particles.
+This indicates the agglomeration of OC particles in iG-CLC, which is
+probably attributed to the migration of species with low melting points
+from the bulk to the surface thus leading to the agglomeration of se-
+parated particles. In addition, the accumulation and deposition of ash
+on OC particles are observed as denoted with the yellow ellipse. Ash in
+char is bound to remain in the bed material because there is no ash
+separation and removal in the current iG-CLC tests. The agglomeration
+Fig. 11. Carbon conversion, reaction rate and CO2 selectivity during iG-CLC.
+Fig. 12. Reaction rate of the OC during iG-CLC cycles.
+Fig. 13. Images of the used Cu-based OC after iG-CLC cycles.
+Fig. 14. XRD patterns of the used OC after iG-CLC.
+J. Yan, et al.
+Fuel Processing Technology 205 (2020) 106463
+9
+
+
+===== Page 10 =====
+
+Fig. 15. SEM-EDS images of Fresh and used 80Cu20Mn in iG-CLC cycles.
+Fig. 16. SEM-EDS images of Fresh and used 40Cu60Fe in iG-CLC cycles.
+J. Yan, et al.
+Fuel Processing Technology 205 (2020) 106463
+10
+
+
+===== Page 11 =====
+
+Fig. 17. SEM-EDS images of Fresh and used 60Cu40Co in iG-CLC cycles.
+Fig. 18. SEM-EDS images of Fresh and used 60Cu40Ni in iG-CLC cycles.
+J. Yan, et al.
+Fuel Processing Technology 205 (2020) 106463
+11
+
+
+===== Page 12 =====
+
+and ash deposition are further confirmed with the following XRD and
+SEM-EDS analyses.
+3.4. Characterization of the Cu-based OC before and after CLC cycling tests
+Fig. 14 shows the XRD patterns of the used OC after 10 cycles of iG-
+CLC with SH char. Compared with the XRD patterns of the fresh OC,
+more peaks are observed for the used OC. For instance, CuMnO2 and
+CuFe2O4 are observed for the used 80Cu20Mn and 40Cu60Fe, respec-
+tively. These composites are not presented in the fresh OC or in the used
+OC derived from CLC cycles with 11.3%CO/N2. In addition, TiO2 is
+observed in the used 60Cu40Ni due to the ash deposition, which is
+consistent with the ash composition of SH coal (shown in Table 3). The
+deposition of ash and agglomeration/sintering of the OC are visible in
+the SEM-EDS images shown in Figs. 15–18. Apparently, the particle
+sizes of all the OC grow with varying degrees, confirming the occur-
+rence of agglomeration during iG-CLC with char. Moreover, the particle
+surfaces of 80Cu20Mn and 60Cu40Ni become more smooth after cy-
+cling tests compared with the other two OC. The sintering and ag-
+glomeration inhibit the contact between OC particles and the gases,
+that is, gasification intermediates in OC reduction or air in OC oxida-
+tion, thus the reactivity of the OC are reduced. This is the reason why γc
+and YCO2 are reduced in the iG-CLC cycles.
+Furthermore, the fresh OC show only the active components, while
+the used OC present noticeable elements such as Si, Al and Ca, which is
+consistent with the ash composition of SH coal in Table 3. Combining
+the EDS and XRD analyses, it is reasonable to speculate that ash de-
+posited on the OC during iG-CLC would react with the active compo-
+sitions (such as CuO) to produce composite salts with reduced oxygen
+uncoupling capacity.
+These results could interpret the decreasing γc in the repeated cycles
+of iG-CLC. On the one hand, the transformations of active components
+into composite salts (CuO + Fe2O3 →CuFe2O4, CuO + Mn2O3 →
+CuMnO2) potentially reduced the reactivity of the OC [23]. On the
+other hand, the ash deposited on the OC surfaces further accelerates
+sintering, thus deteriorating the oxygen supply to the char and reducing
+conversion rate [24]. This implies the necessity for introduction of
+supporting components that could resist sintering and ash deposition in
+the design and preparation of Cu-based OC, so as to achieve high per-
+formance in iG-CLC process.
+Therefore, it can be summarized that the OC used in this work are
+still less satisfying in resisting sintering and maintaining high reactivity
+and stability in CLC cycling tests, whatever type of fuels (gaseous or
+solid) are used. Modifications of the Cu-based OC are required to im-
+prove their performance before they can be potential OC candidates for
+practical chemical-looping processes.
+4. Conclusions
+In this work, four Cu-based OC including 80Cu20Mn, 40Cu60Fe,
+60Cu40Co and 60Cu40Ni were prepared by sol-gel method, and their
+performance in oxygen release and adsorption, CLC with gaseous fuel
+(11.3%CO/N2) and iG-CLC with SH char were evaluated. The main
+conclusions are summarized as follows.
+(1) The oxygen transport capacity of 80Cu20Mn, 40Cu60Fe and
+60Cu40Ni remained stable in 20 cycles of oxygen release and ad-
+sorption, while that of 60Cu40Co deceased rapidly. This result in-
+dicates the higher stability of the former three OC in transporting
+oxygen from air to fuels.
+(2) In the CLC with gaseous fuel (11.3%CO/N2), the CO conversion
+(XCO) of 80Cu20Mn remained relatively stable while that of
+40Cu60Fe, 60Cu40Co and 60Cu40Ni decreased remarkably in the
+cycling tests. Insufficient oxidation and sintering of 60Cu40Co and
+60Cu40Ni surfaces were confirmed from the XRD and SEM ana-
+lyses, and the sintering was responsible for the reducing XCO in CLC
+with gaseous fuel.
+(3) In the iG-CLC with SH char, all the Cu-based OC accelerated the
+reaction rate (γc) and improved carbon conversion (XC) of char,
+especially 60Cu40Co. The CO2 selectivity (YCO2) was very high at
+the initial stage but gradually reduced with the reduction duration.
+All the OC exhibited decreasing γc in the cycling tests. The ash
+deposition, agglomeration and sintering, as well as the transfor-
+mation of active components into composite salts were confirmed
+to be responsible for the deterioration of reactivity.
+All the above results indicate that the Cu-based OC are potential
+oxygen carriers for CLC reactions, but further modifications such as
+introducing support or adding other elements are required to improve
+their resistance of ash fouling, and to maintain high and stable re-
+activity in practical chemical-looping processes.
+CRediT author statement
+Jingchong
+Yan,
+Writing-original
+manuscript;
+Xiaogang
+Chu,
+Investigation; Hanren Jiao, Writing-review & editing; Shigang Kang,
+Methodology; Zhiping Lei, Resources; Zhanku Li, Validation; Zhicai
+Wang, Conceptualization; Shibiao Ren, Supervision; Hengfu Shui,
+Funding acquisition;
+Declaration of competing interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influ-
+ence the work reported in this paper.
+Acknowledgements
+This
+work
+was
+supported
+by
+the
+National
+Natural
+Science
+Foundation
+of
+China
+(Grants
+21776001,
+21808002,
+U1710114,
+21878001), Anhui Province Key Laboratory of Coal Clean Conversion
+and High Valued Utilization, Anhui University of Technology (No.
+CHV19-03) and Natural Science Foundation of Anhui Provincial
+Education Department (Grants KJ2018A0058 and KJ2018A0064).
+References
+[1] B. Moghtaderi, Review of the recent chemical looping process developments for
+novel energy and fuel applications, Energy Fuels 26 (2012) 15–40.
+[2] H. Gu, L. Shen, J. Xiao, S. Zhang, T. Song, D. Chen, Iron ore as oxygen carrier
+improved with potassium for chemical looping combustion of anthracite coal,
+Combust Flame 159 (2012) 2480–2490.
+[3] J. Wang, E.J. Anthony, Clean combustion of solid fuels, Appl Energ 85 (2008)
+73–79.
+[4] L. Shen, J. Wu, J. Xiao, Experiments on chemical looping combustion of coal with a
+NiO based oxygen carrier, Combust Flame 156 (2009) 721–728.
+[5] A. Lyngfelt, A. Brink, Ø. Langørgen, T. Mattisson, M. Rydén, 11,000 h of chemical-
+looping combustion operation—Where are we and where do we want to go? Int J
+Greenh Gas Con 88 (2019) 38–56.
+[6] J. Adanez, A. Abad, F. Garcia-Labiano, P. Gayan, d.L.F. Diego, Progress in chemical-
+looping combustion and reforming technologies, Prog Energ Combust 38 (2012)
+215–282.
+[7] F. Li, L.-S. Fan, Clean coal conversion processes–progress and challenges, Energ
+Environ Sci 1 (2008) 248–267.
+[8] A. Lyngfelt, C. Linderholm, Chemical-looping combustion of solid fuels – status and
+recent progress, Energy Procedia 114 (2017) 371–386.
+[9] F. Li, L. Zeng, L.-S. Fan, Biomass direct chemical looping process: Process simula-
+tion, Fuel 89 (2010) 3773–3784.
+[10] B. Moghtaderi, J. Zanganeh, Kalpit Shah, H. Wu. Application of concrete and de-
+molition waste as CO2 sorbent in chemical looping gasification of biomass, Energy
+Fuels 26 (2012) 2046–2057.
+[11] Z. Yu, C. Li, Y. Fang, J. Huang, Z. Wang, Reduction rate enhancements for coal
+direct chemical looping combustion with an iron oxide oxygen carrier, Energy Fuels
+26 (2012) 2505–2511.
+[12] Q. Guo, Y. Cheng, Y. Liu, W. Jia, H.-J. Ryu, Coal chemical looping gasification for
+syngas generation using an iron-based oxygen carrier, Ind Eng Chem Fundam 53
+(2014) 78–86.
+[13] T. Mattisson, A. Lyngfelt, H. Leion, Chemical-looping with oxygen uncoupling for
+combustion of solid fuels, Int J Greenh Gas Con 3 (2009) 11–19.
+J. Yan, et al.
+Fuel Processing Technology 205 (2020) 106463
+12
+
+
+===== Page 13 =====
+
+[14] T. Mattisson, A. Järdnäs, Reactivity of some metal oxides supported on alumina
+with alternating methane and oxygen–Application for chemical-looping combus-
+tion, Energy Fuels 17 (2003) 643–651.
+[15] d.L.F. Diego, F. Garcı́a-Labiano, J. Adánez, P. Gayán, A. Abad, B.M. Corbella,
+J.M. Palacios, Development of Cu-based oxygen carriers for chemical-looping
+combustion, Fuel 83 (2004) 1749–1757.
+[16] J. Adánez, d.L.F. Diego, F. García-Labiano, P. Gayán, A. Abad, Selection of oxygen
+carriers for chemical-looping combustion, Energy Fuels 18 (2004) 371–377.
+[17] H. Zhao, L. Liu, B. Wang, D. Xu, L. Jiang, C. Zheng, Sol–gel-derived NiO/NiAl2O4
+oxygen carriers for chemical-looping combustion by coal char, Energy Fuels 22
+(2008) 898–905.
+[18] H. Leion, T. Mattisson, A. Lyngfelt, The use of petroleum coke as fuel in chemical-
+looping combustion, Fuel 86 (2007) 1947–1958.
+[19] H. Leion, T. Mattisson, A. Lyngfelt, Solid fuels in chemical-looping combustion, Int J
+Greenh Gas Con 2 (2008) 180–193.
+[20] S. Jiang, L. Shen, J. Wu, J. Yan, T. Song, The investigations of hematite-CuO oxygen
+carrier in chemical looping combustion, Chem Eng J 317 (2017) 132–142.
+[21] A. Shafiefarhood, A. Stewart, F. Li, Iron-containing mixed-oxide composites as
+oxygen carriers for chemical looping with oxygen uncoupling (CLOU), Fuel 139
+(2015) 1–10.
+[22] P. Wang, N. Means, B.H. Howard, D. Shekhawat, D. Berry, The reactivity of CuO
+oxygen carrier and coal in chemical-looping with oxygen uncoupled (CLOU) and in-
+situ gasification chemical-looping combustion (iG-CLC), Fuel 217 (2018) 642–649.
+[23] B. Wang, Q. Ma, W. Wang, C. Zhang, D. Mei, H. Zhao, C. Zheng, Effect of reaction
+temperature on the chemical looping combustion of coal with CuFe2O4 combined
+oxygen carrier, Energy Fuels 31 (2017) 5233–5245.
+[24] T. Song, E.-U. Hartge, S. Heinrich, L. Shen, J. Werther, Chemical looping combus-
+tion of high sodium lignite in the fluidized bed: Combustion performance and so-
+dium transfer, Int J Greenh Gas Con 2018 (2018) 22–31.
+J. Yan, et al.
+Fuel Processing Technology 205 (2020) 106463
+13

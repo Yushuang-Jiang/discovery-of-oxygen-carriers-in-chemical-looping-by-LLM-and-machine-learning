@@ -1,0 +1,11456 @@
+
+
+===== Page 1 =====
+
+International
+ Journal
+ of
+ Greenhouse
+ Gas
+ Control
+ 6
+ (2012)
+ 189–200
+Contents
+ lists
+ available
+ at
+ SciVerse
+ ScienceDirect
+International
+ Journal
+ of
+ Greenhouse
+ Gas
+ Control
+j ourna
+ l ho
+ mepage:
+ www.elsevier.com/locate/ijggc
+Demonstration
+ of
+ chemical-looping
+ with
+ oxygen
+ uncoupling
+ (CLOU)
+ process
+ in
+ a
+1.5
+ kWth continuously
+ operating
+ unit
+ using
+ a
+ Cu-based
+ oxygen-carrier
+Alberto
+ Abad ∗,  I˜naki
+ Adánez-Rubio,
+ Pilar
+ Gayán,
+ Francisco
+ García-Labiano,
+ Luis
+ F.
+ de  Diego,
+ Juan
+ Adánez
+Instituto
+ de
+ Carboquímica
+ (ICB-CSIC),
+ Dept.
+ of
+ Energy
+ &
+ Environment,
+ Miguel
+ Luesma
+ Castán,
+ 4,
+ Zaragoza,
+ 50018,
+ Spain
+a  r  t  i c  l  e  
+i  n
+ f  o
+Article
+ history:
+Received
+ 30
+ June
+ 2011
+Received
+ in
+ revised
+ form
+ 10
+ October
+ 2011
+Accepted
+ 28
+ October
+ 2011
+Available
+ online
+ 8
+ January
+ 2012
+Keywords:
+CLOU
+Copper
+ oxide
+Carbon
+ capture
+Coal
+Combustion
+CLC
+a
+ b  s  t  r  a  c  t
+Chemical-looping
+ with  oxygen
+ uncoupling
+ (CLOU)  process
+ is a chemical-looping
+ combustion
+ (CLC) tech-
+nology
+ that  allows  the  combustion
+ of  solid  fuels
+ with
+ inherent
+ CO2 separation.
+ As in the  CLC technology,
+in  the  CLOU
+ process
+ the  oxygen
+ necessary
+ for  the  fuel  combustion
+ is  supplied
+ by
+ a  solid  oxygen-carrier,
+which
+ contains
+ a metal  oxide.
+ The
+ CLOU  technology
+ uses  the  property
+ of the  copper
+ oxide
+ which  can  gen-
+erate
+ gaseous
+ oxygen
+ at high
+ temperatures.
+ The  oxygen
+ generated
+ by  the  oxygen-carrier
+ reacts
+ directly
+with
+ the  solid  fuel,  which
+ is  mixed  with  the  oxygen-carrier
+ in  the  fuel-reactor.
+ The
+ reduced  oxygen-
+carrier
+ is  transported
+ to  the  air-reactor
+ where
+ it is oxidized
+ by  air. The  ﬂue  gases  from
+ the fuel-reactor
+are
+ only  CO2 and  H2O,  since
+ fuel is not  mixed  with
+ air.  This  work  demonstrates
+ the  proof
+ of  the  concept
+of
+ the  CLOU  technology
+ burning
+ coal  in  a 1.5  kWth continuously
+ operated
+ unit  consisting
+ of  two
+ inter-
+connected
+ ﬂuidized-bed
+ reactors.
+ A bituminous
+ coal  was  used  as  fuel.  An  oxygen-carrier
+ prepared
+ by
+spray
+ drying  containing
+ 60  wt.%  CuO  and  MgAl2O4 as  supporting
+ material
+ was  used as oxygen-carrier.
+The
+ effects of fuel-reactor
+ temperature,
+ coal  feeding
+ rate,  and  solids
+ circulation
+ ﬂow  rate
+ on
+ the  com-
+bustion
+ and  on  the  CO2 capture  efﬁciencies
+ were  investigated.
+ Fast  reaction
+ rates
+ of oxygen
+ generation
+were
+ observed
+ with  the oxygen-carrier
+ and  full  combustion
+ of coal  was  attained
+ in  the  plant  using  a
+solids
+ inventory
+ ≈ 235  kg/MWth in  the  fuel-reactor.
+ In  addition,
+ values
+ close  to
+ 100%  in carbon
+ capture
+efﬁciency
+ were  obtained
+ at  960 ◦C. Results
+ obtained
+ are  analyzed
+ and  discussed
+ in order  to
+ be  useful  for
+the
+ scale-up
+ of a  CLOU  process
+ fuelled
+ with  coal.
+©
+ 2011  Elsevier
+ Ltd.  All  rights  reserved.
+1.
+ Introduction
+According
+ to
+ the
+ IPCC
+ report
+ on
+ mitigation
+ of
+ climate
+ change
+(IPCC,
+ 2005),
+ carbon
+ capture
+ and
+ storage
+ (CCS)
+ would
+ contribute
+with
+ 15–55%
+ to
+ the
+ cumulative
+ mitigation
+ effort
+ worldwide
+ until
+2100
+ in
+ order
+ to
+ stabilize
+ CO2 concentration
+ in
+ the
+ atmosphere.
+ CCS
+is
+ a
+ process
+ involving
+ the
+ separation
+ of
+ CO2 emitted
+ by
+ industry
+and
+ energy-related
+ sources,
+ and
+ its
+ storage
+ for
+ isolation
+ from
+ the
+atmosphere
+ over
+ a
+ long
+ term.
+ Chemical-looping
+ combustion
+ pro-
+cess
+ (CLC)
+ has
+ been
+ suggested
+ among
+ the
+ best
+ alternatives
+ to
+ reduce
+the
+ economic
+ cost
+ of
+ CO2 capture
+ using
+ fuel
+ gas
+ (Kerr,
+ 2005)
+ and
+ to
+reduce
+ energy
+ penalty
+ compared
+ with
+ other
+ CO2 capture
+ process
+(Kvamsdal
+ et
+ al.,
+ 2007).
+ In
+ this
+ process,
+ CO2 is
+ inherently
+ separated
+from
+ other
+ combustion
+ products,
+ N2 and
+ unused
+ O2, through
+ the
+use
+ of
+ a
+ solid
+ oxygen-carrier
+ and
+ thus
+ no
+ energy
+ is
+ expended
+ for
+its
+ separation.
+ A
+ CLC
+ system
+ usually
+ consists
+ of
+ two
+ interconnected
+ﬂuidized-bed
+ reactors,
+ designated
+ as
+ air-reactor
+ and
+ fuel-reactor,
+with
+ the
+ oxygen-carrier
+ circulating
+ between
+ them.
+ The
+ CLC
+ pro-
+cess
+ has
+ been
+ demonstrated
+ for
+ gaseous
+ fuel
+ combustion
+ such
+ as
+∗Corresponding
+ author.
+ Tel.:
+ +34
+ 976
+ 733977;
+ fax:
+ +34
+ 976
+ 733318.
+E-mail
+ address:
+ abad@icb.csic.es
+ (A.
+ Abad).
+natural
+ gas
+ and
+ syngas
+ in
+ 10–140
+ kWth units
+ using
+ oxygen-carrier
+materials
+ based
+ on
+ Ni
+ (Linderholm
+ et
+ al.,
+ 2009;
+ Kolbitsch
+ et
+ al.,
+2009),
+ Cu
+ (Adánez
+ et
+ al.,
+ 2006)
+ and
+ Fe
+ (Lyngfelt
+ and
+ Thunman,
+ 2005;
+Pröll
+ et
+ al.,
+ 2009).
+ All
+ these
+ oxygen-carriers
+ have
+ been
+ reviewed
+ by
+Adánez
+ et
+ al.
+ (2011).
+The
+ use
+ of
+ the
+ CLC
+ concept
+ for
+ energy
+ generation
+ by
+ coal
+ com-
+bustion
+ is
+ more
+ relevant
+ for
+ solid
+ fuels,
+ due
+ to
+ coal
+ is
+ considerably
+more
+ abundant
+ and
+ less
+ expensive
+ than
+ natural
+ gas.
+ It
+ would
+ be
+highly
+ advantageous
+ if
+ the
+ CLC
+ process
+ could
+ be
+ adapted
+ to
+ coal,
+ as
+well
+ as
+ other
+ kind
+ of
+ solid
+ fuels.
+ The
+ ﬁrst
+ option
+ to
+ use
+ solid
+ fuels
+ in
+ a
+CLC
+ process
+ was
+ to
+ use
+ syngas
+ in
+ the
+ fuel-reactor
+ coming
+ from
+ a
+ pre-
+vious
+ gasifying
+ step.
+ However
+ it
+ is
+ necessary
+ to
+ use
+ pure
+ oxygen
+ for
+gasiﬁcation
+ of
+ the
+ solid
+ fuel
+ to
+ apply
+ this
+ technology.
+ This
+ step
+ has
+an
+ important
+ energy
+ penalty
+ due
+ to
+ the
+ oxygen
+ separation
+ from
+ the
+air.
+ The
+ second
+ option
+ of
+ development
+ is
+ the
+ chemical-looping
+ solid
+fuel
+ combustion,
+ where
+ the
+ solid
+ fuel
+ is
+ directly
+ introduced
+ to
+ the
+fuel-reactor
+ which
+ is
+ ﬂuidized
+ by
+ a
+ gasifying
+ agent,
+ e.g.
+ H2O
+ or
+ CO2.
+Because
+ of
+ the
+ slow
+ gasiﬁcation
+ reaction
+ rate,
+ a
+ carbon
+ stripper
+ is
+necessary
+ to
+ separate
+ the
+ unreacted
+ char
+ particles
+ from
+ the
+ oxygen-
+carrier,
+ before
+ it
+ is
+ regenerated
+ with
+ air,
+ to
+ avoid
+ CO2 emissions
+ in
+this
+ reactor
+ (Berguerand
+ and
+ Lyngfelt,
+ 2008;
+ Cao
+ and
+ Pan,
+ 2006).
+To
+ increase
+ the
+ gasiﬁcation
+ rate,
+ temperatures
+ higher
+ than
+ 1000 ◦C
+have
+ been
+ proposed
+ to
+ be
+ used
+ in
+ the
+ fuel-reactor
+ (Berguerand
+ and
+1750-5836/$
+ –
+ see
+ front
+ matter
+ ©
+ 2011
+ Elsevier
+ Ltd.
+ All
+ rights
+ reserved.
+doi:10.1016/j.ijggc.2011.10.016
+
+
+===== Page 2 =====
+
+190
+ 
+A.
+ Abad
+ et
+ al.
+ / International
+ Journal
+ of
+ Greenhouse
+ Gas
+ Control
+ 6 (2012)
+ 189–200
+Nomenclature
+fC,ﬁx
+carbon
+ fraction
+ as
+ ﬁxed
+ carbon
+ in
+ the
+ coal
+fC
+carbon
+ fraction
+ in
+ the
+ coal
+Fi
+molar
+ ﬂow
+ of
+ compound
+ i (mol/s)
+Fin,FR
+dry
+ basis
+ gas
+ ﬂow
+ introduced
+ in
+ the
+ fuel-reactor
+(mol/s)
+fi
+mass
+ fraction
+ in
+ coal
+ of
+ element
+ or
+ compound
+ i
+Fout,AR
+dry
+ basis
+ exiting
+ gas
+ ﬂow
+ in
+ the
+ air-reactor
+ (mol/s)
+Fout,FR
+dry
+ basis
+ gas
+ ﬂow
+ exiting
+ from
+ the
+ fuel-reactor
+(mol/s)
+˙mcoal
+mass-based
+ ﬂow
+ of
+ coal
+ fed-in
+ to
+ the
+ fuel-reactor
+(kg/s)
+˙mC,vol
+mass
+ ﬂow
+ of
+ carbon
+ contained
+ in
+ the
+ volatile
+ matter
+(kg/s)
+Mi
+molecular
+ weight
+ of
+ compound
+ i
+ (kg/mol)
+˙ms
+solids
+ circulation
+ rate
+ (kg/s)
+ms,FR
+mass
+ of
+ solids
+ in
+ the
+ fuel-reactor
+ (kg)
+(−rC) 
+fractional
+ conversion
+ rate
+ of
+ char
+ (%/s)
+rO2
+rate
+ of
+ oxygen
+ generation
+ (kg
+ O2/s
+ per
+ kg
+ of
+ OC)
+Xchar
+conversion
+ of
+ char
+ in
+ the
+ fuel-reactor
+yi
+molar
+ fraction
+ in
+ dry
+ basis
+ of
+ the
+ i
+ product
+Greek
+ letters
+Hr
+enthalpy
+ of
+ reaction
+ (kJ/mol)
+XOC
+difference
+ of
+ oxygen-carrier
+ conversion
+ in
+ the
+ air-
+and
+ fuel-reactors
+CC
+carbon
+ capture
+ efﬁciency
+ (%)
+comb
+combustion
+ efﬁciency
+ in
+ the
+ fuel-reactor
+ (%)
+
+ 
+stoichiometric
+ air
+ ratio
+FR
+mean
+ residence
+ time
+ of
+ solids
+ in
+ the
+ fuel-reactor
+ (s)
+
+ 
+oxygen-carrier
+ to
+ fuel
+ ratio
+˝coal
+stoichiometric
+ moles
+ of
+ O2 to
+ convert
+ 1
+ kg
+ of
+ coal
+(mol/kg)
+Acronyms
+AR
+ 
+air-reactor
+CLC
+ 
+chemical-looping
+ combustion
+CLOU
+ 
+chemical-looping
+ with
+ oxygen
+ uncoupling
+FR
+ 
+fuel-reactor
+in
+ 
+inlet
+IPCC
+ 
+intergovernmental
+ panel
+ on
+ climate
+ change
+OC
+ 
+oxygen-carrier
+out
+ 
+outlet
+Lyngfelt,
+ 2009).
+ Moreover,
+ there
+ is
+ a
+ partial
+ loss
+ of
+ oxygen-carrier
+in
+ the
+ purge
+ stream
+ of
+ ash
+ particles
+ and
+ low
+ cost
+ materials
+ are
+ pre-
+ferred
+ in
+ this
+ CLC
+ option,
+ e.g.
+ ilmenite,
+ hematite
+ or
+ anhydrite
+ (Leion
+et
+ al.,
+ 2008,
+ 2009a;
+ Shen
+ et
+ al.,
+ 2009;
+ Wang
+ and
+ Anthony,
+ 2008).
+An
+ alternative
+ process,
+ chemical-looping
+ with
+ oxygen
+ uncou-
+pling
+ (CLOU),
+ was
+ recently
+ proposed
+ (Mattisson
+ et
+ al.,
+ 2009a)  to
+overcome
+ the
+ low
+ reactivity
+ of
+ the
+ char
+ gasiﬁcation
+ stage
+ in
+ the
+direct
+ solid
+ fuelled
+ chemical-looping
+ combustion.
+ Mattisson
+ and
+co-workers
+ (Mattisson
+ et
+ al.,
+ 2009a)
+ made
+ use
+ of
+ the
+ idea
+ ﬁrst
+ pro-
+posed
+ by
+ Lewis
+ and
+ Gilliland
+ (1954)
+ to
+ produce
+ CO2 from
+ solid
+carbonaceous
+ fuels
+ by
+ using
+ gaseous
+ oxygen
+ produced
+ by
+ the
+decomposition
+ of
+ CuO.
+Chemical-looping
+ with
+ oxygen
+ uncoupling
+ (CLOU)
+ process
+ is
+based
+ on
+ the
+ strategy
+ of
+ using
+ oxygen-carrier
+ materials
+ which
+release
+ gaseous
+ oxygen
+ in
+ the
+ fuel-reactor
+ and
+ thereby
+ allowing
+ the
+solid
+ fuel
+ to
+ burn
+ with
+ gas
+ phase
+ oxygen.
+ These
+ materials
+ can
+ be
+ also
+regenerated
+ at
+ high
+ temperatures.
+ In
+ this
+ way,
+ the
+ slow
+ gasiﬁcation
+step
+ in
+ the
+ chemical-looping
+ combustion
+ with
+ solid
+ fuels
+ is
+ avoided,
+giving
+ a
+ much
+ faster
+ solid
+ conversion
+ (Mattisson
+ et
+ al.,
+ 2009b).  In
+CO2 + H
+ 
+2O
+N 2 (+O2)
+MexOy
+H 2O(l)
+CO2
+MexOy-1
+Condenser
+Air
+Air
+Reactor
+Fuel
+Reactor
+Coal
+Ash
+CO2
+CO2
+Fig.
+ 1.
+ Schematic
+ diagram
+ of
+ the
+ CLOU
+ process.
+CLOU
+ process,
+ ﬂuidization
+ gas
+ can
+ be
+ recycled
+ CO2, reducing
+ in
+ this
+way
+ the
+ steam
+ duty
+ of
+ units
+ in
+ which
+ steam
+ is
+ used
+ to
+ accelerate
+gasiﬁcation
+ kinetics.
+Fig.
+ 1
+ shows
+ a
+ schematic
+ diagram
+ of
+ a
+ CLOU
+ system.
+ In
+ the
+ fuel-
+reactor
+ CO2 and
+ H2O
+ are
+ produced
+ by
+ different
+ reactions.
+ First
+ the
+oxygen-carrier
+ releases
+ oxygen
+ according
+ to:
+2MexOy ↔
+ 2MexOy −1 +
+ O2
+(1)
+and
+ the
+ solid
+ fuel
+ begins
+ devolatilization
+ producing
+ a
+ solid
+ residue
+(char)
+ and
+ volatile
+ matter
+ as
+ gas
+ product:
+Coal
+ →
+ volatile
+ matter
+ +
+ char
+ 
+(2)
+Then,
+ char
+ and
+ volatiles
+ are
+ burnt
+ as
+ in
+ usual
+ combustion
+ according
+to
+ reactions
+ (3)
+ and
+ (4):
+Char
+ (mainly
+ C)
+ +
+ O2 →
+ CO2
+(3)
+Volatile
+ matter
+ (mainly
+ H2,
+ CO, CH4)
+ +
+ O2 →
+ CO2 +
+ H2O
+ 
+(4)
+After
+ steam
+ condensation,
+ a
+ pure
+ CO2 stream
+ can
+ be
+ obtained
+ in
+the
+ fuel-reactor.
+ The
+ reduced
+ oxygen-carrier
+ is
+ transported
+ to
+ the
+air-reactor,
+ where
+ the
+ oxygen-carrier
+ is
+ regenerated
+ to
+ the
+ initial
+oxidation
+ stage
+ by
+ reverse
+ reaction
+ (1)
+ with
+ the
+ oxygen
+ of
+ the
+ air,
+and
+ being
+ ready
+ for
+ a
+ new
+ cycle.
+ The
+ exit
+ stream
+ of
+ the
+ air-reactor
+contains
+ only
+ N2 and
+ unreacted
+ O2.
+ Therefore,
+ CLOU
+ process
+ such
+as
+ CLC
+ technology
+ has
+ a
+ low
+ energy
+ penalty
+ for
+ CO2 separation
+ and
+low
+ CO2 capture
+ costs
+ would
+ be
+ expected.
+ The
+ heat
+ release
+ over
+ the
+fuel-
+ and
+ air-reactors
+ is
+ the
+ same
+ as
+ for
+ conventional
+ combustion.
+A
+ special
+ requirement
+ is
+ needed
+ for
+ the
+ oxygen-carrier
+ to
+ be
+used
+ in
+ the
+ CLOU
+ process
+ in
+ comparison
+ to
+ oxygen-carriers
+ for
+ nor-
+mal
+ CLC,
+ where
+ the
+ fuel
+ must
+ be
+ able
+ to
+ react
+ directly
+ with
+ the
+oxygen-carrier
+ without
+ any
+ release
+ of
+ gas
+ phase
+ oxygen.
+ Only
+ those
+metal
+ oxides
+ that
+ have
+ a
+ suitable
+ equilibrium
+ partial
+ pressure
+ of
+oxygen
+ at
+ temperatures
+ of
+ interest
+ for
+ combustion
+ (800–1200 ◦C)
+can
+ be
+ used
+ as
+ CLOU
+ oxygen-carriers
+ for
+ solid
+ fuel
+ combustion.
+CuO/Cu2O,
+ Mn2O3/Mn3O4, and
+ Co3O4/CoO
+ have
+ been
+ identiﬁed
+ as
+redox
+ pairs
+ with
+ capacity
+ to
+ evolve
+ oxygen
+ at
+ those
+ temperatures
+(Mattisson
+ et
+ al.,
+ 2009a).  Copper,
+ manganese
+ and
+ cobalt
+ oxides
+ have
+an
+ oxygen
+ transport
+ capacity
+ of
+ 10,
+ 3
+ and
+ 6.6
+ g
+ O2 per
+ 100
+ g
+ of
+ metal
+oxide,
+ respectively.
+In
+ the
+ CLOU
+ process,
+ the
+ O2 release
+ (reaction
+ (1))  must
+ be
+reversible
+ in
+ order
+ to
+ oxidize
+ the
+ oxygen-carrier
+ in
+ the
+ air-reactor
+and
+ regenerate
+ the
+ material,
+ which
+ depends
+ on
+ the
+ thermodynamic
+of
+ the
+ metal
+ oxide
+ used.
+ Fig.
+ 2
+ shows
+ the
+ partial
+ pressure
+ of
+ oxy-
+gen
+ as
+ a
+ function
+ of
+ the
+ temperature
+ for
+ the
+ systems
+ CuO/Cu2O,
+Mn2O3/Mn3O4, and
+ Co3O4/CoO,
+ calculated
+ using
+ HSC
+ software
+(HSC
+ Chemistry
+ 6.1,
+ 2008).
+ The
+ respective
+ reactions
+ are
+ endother-
+mic
+ for
+ the
+ three
+ metal
+ oxides,
+ as
+ it
+ is
+ shown
+ in
+ reactions
+ (5)–(7).
+Operating
+ conditions
+ in
+ the
+ air-reactor
+ and
+ fuel-reactor
+ would
+ be
+determined
+ by
+ the
+ thermodynamics
+ of
+ reaction
+ (1)
+ with
+ the
+ speciﬁc
+oxygen-carrier.
+ On
+ the
+ one
+ hand,
+ the
+ partial
+ pressure
+ of
+ O2 at
+ equi-
+librium
+ conditions
+ must
+ be
+ low
+ (4
+ kPa
+ or
+ lower)
+ at
+ the
+ air-reactor
+temperature,
+ in
+ order
+ to
+ have
+ a
+ high
+ use
+ of
+ the
+ oxygen
+ in
+ air.
+ On
+the
+ other
+ hand,
+ the
+ equilibrium
+ concentration
+ of
+ oxygen
+ in
+ the
+ fuel-
+reactor
+ will
+ be
+ given
+ by
+ the
+ temperature
+ in
+ the
+ reactor
+ determined
+
+
+===== Page 3 =====
+
+A.
+ Abad
+ et
+ al.
+ / International
+ Journal
+ of
+ Greenhouse
+ Gas
+ Control
+ 6
+ (2012)
+ 189–200
+ 
+191
+Temperature (ºC)
+1100
+1000
+900
+800
+700
+O2 equilibrium (vol%)
+0
+10
+20
+30
+40
+50
+Fig.
+ 2.
+ Equilibrium
+ oxygen
+ concentration
+ over
+ the
+ CuO/Cu2O
+ (—),
+ Mn2O3/Mn3O4
+(·
+ · ·) and
+ Co3O4/CoO
+ (-
+ -
+ -)
+ systems
+ as
+ a
+ function
+ of
+ temperature.
+by
+ the
+ energy
+ balance
+ to
+ CLOU
+ system.
+ A
+ high
+ equilibrium
+ partial
+pressure
+ of
+ oxygen
+ together
+ with
+ a
+ very
+ reactive
+ oxygen-carrier
+ will
+promote
+ the
+ overall
+ conversion
+ rate
+ of
+ the
+ solid
+ fuel
+ in
+ the
+ fuel-
+reactor.
+ In
+ addition,
+ the
+ combustion
+ of
+ the
+ fuel
+ will
+ decrease
+ the
+oxygen
+ concentration
+ in
+ the
+ reactor
+ and
+ can
+ improve
+ the
+ decom-
+position
+ reaction
+ of
+ the
+ metal
+ oxide
+ particles.
+ The
+ temperature
+at
+ which
+ the
+ air-
+ and
+ fuel-reactor
+ will
+ operate
+ is
+ determined
+ by
+the
+ temperature
+ of
+ the
+ incoming
+ particles,
+ the
+ circulation
+ rate
+ and
+energy
+ extraction,
+ as
+ well
+ as
+ the
+ heat
+ of
+ reaction
+ in
+ both
+ reactors,
+as
+ it
+ was
+ analyzed
+ by
+ Eyring
+ et
+ al.
+ (2011)
+ for
+ a
+ CLOU
+ process.
+4CuO
+ ↔
+ 2Cu2O
+ +
+ O2
+H900 ◦C
+r
+=
+ 262.1
+ kJ/mol
+ O2
+(5)
+6Mn2O3 ↔
+ 4Mn3O4 +
+ O2
+H900 ◦C
+r
+=
+ 193.1
+ kJ/mol
+ O2
+(6)
+2Co3O4 ↔
+ 6CoO
+ +
+ O2
+H900 ◦C
+r
+=
+ 406.7
+ kJ/mol
+ O2
+(7)
+In
+ the
+ case
+ of
+ copper
+ and
+ manganese
+ oxides,
+ the
+ overall
+ reaction
+with
+ carbon
+ is
+ exothermic
+ in
+ the
+ fuel-reactor,
+ as
+ it
+ is
+ shown
+ in
+reactions
+ (8)
+ and
+ (9).  Thus
+ it
+ is
+ possible
+ to
+ have
+ a
+ temperature
+increase
+ in
+ the
+ fuel-reactor,
+ which
+ results
+ in
+ a
+ signiﬁcantly
+ higher
+partial
+ pressure
+ of
+ O2 at
+ equilibrium
+ conditions.
+ In
+ addition
+ to
+ heat
+release,
+ overall
+ heat
+ balances
+ to
+ include
+ heat
+ losses
+ (or
+ heat
+ inputs)
+and
+ heat
+ withdrawals
+ (either
+ in
+ oxygen-carrier
+ or
+ ﬂuidizing
+ gas)
+are
+ needed
+ to
+ obtain
+ the
+ temperatures
+ in
+ the
+ reactors.
+ In
+ the
+other
+ hand
+ the
+ reaction
+ of
+ the
+ cobalt
+ oxide
+ with
+ carbon
+ is
+ an
+endothermic
+ reaction,
+ see
+ reaction
+ (10).
+4CuO
+ +
+ C
+ →
+ 2Cu2O
+ +
+ CO2
+H900 ◦C
+r
+=
+ −132.9
+ kJ/mol
+ O2
+(8)
+6Mn2O3 +
+ C
+ →
+ 4Mn3O4 +
+ CO2
+H900 ◦C
+r
+=
+ −201.9
+ kJ/mol
+ O2 (9)
+2Co3O4 +
+ C
+ →
+ 6CoO
+ +
+ CO2
+H900 ◦C
+r
+=
+ 11.7 kJ/mol
+ O2
+(10)
+There
+ are
+ only
+ a
+ small
+ number
+ of
+ works
+ in
+ the
+ literature
+ for
+ CLOU
+process
+ dealing
+ with
+ the
+ use
+ of
+ Cu-,
+ Mn-,
+ and
+ Co-based
+ based
+materials.
+Regarding
+ the
+ use
+ of
+ manganese
+ oxides
+ for
+ CLOU
+ process,
+ sev-
+eral
+ Mn-based
+ particles
+ supported
+ on
+ Fe2O3, NiO,
+ SiO2 or
+ MgO
+ have
+been
+ tested
+ in
+ a
+ batch
+ ﬂuidized
+ bed
+ at
+ Chalmers
+ University
+ of
+ Tech-
+nology
+ (Azimi
+ et
+ al.,
+ 2011;
+ Rydén
+ et
+ al.,
+ 2011b;
+ Shulman
+ et
+ al.,
+ 2009,
+2011).
+ Good
+ oxygen
+ uncoupling
+ and
+ mechanical
+ properties,
+ as
+ well
+as
+ high
+ reactivity
+ with
+ methane
+ were
+ showed
+ for
+ a
+ Mn/Fe
+ material
+after
+ repeated
+ redox
+ cycles
+ (Shulman
+ et
+ al.,
+ 2009).
+ The
+ formation
+of
+ the
+ FexMn1 −xO3 iron
+ manganate
+ improves
+ the
+ oxygen
+ uncou-
+pling
+ properties
+ with
+ respect
+ to
+ the
+ manganese
+ oxides.
+ Later,
+ the
+optimum
+ molar
+ ratio
+ Fe:Mn
+ was
+ determined
+ to
+ be
+ 2:1
+ (Azimi
+ et
+ al.,
+2011).
+ Tests
+ in
+ a
+ batch
+ ﬂuidized
+ bed
+ with
+ coal
+ or
+ petcoke
+ as
+ fuel
+revealed
+ a
+ high
+ conversion
+ of
+ char,
+ although
+ the
+ oxygen
+ released
+was
+ found
+ to
+ be
+ around
+ 0.5%
+ of
+ the
+ mass.
+ This
+ material
+ has
+ also
+been
+ tested
+ in
+ a
+ continuous
+ facility
+ with
+ methane
+ as
+ fuel
+ (Rydén
+et
+ al.,
+ 2011b), showing
+ much
+ better
+ oxygen
+ uncoupling
+ properties
+than
+ a
+ manganese
+ ore.
+ However,
+ the
+ authors
+ pointed
+ out
+ that
+ much
+of
+ the
+ synthetic
+ particles
+ turned
+ into
+ a
+ ﬁne
+ dust
+ after
+ 4
+ h
+ of
+ opera-
+tion
+ and
+ collapsed
+ material
+ formed
+ very
+ soft
+ agglomerations
+ in
+ the
+fuel-reactor.
+Physical
+ mixing
+ of
+ oxygen-carriers
+ with
+ Mn2O3 and
+ Co3O4
+(60
+ wt.%)
+ supported
+ on
+ three
+ different
+ binders
+ (yttria-stabilized
+zirconia
+ (YSZ;
+ 92
+ wt.%
+ ZrO2 and
+ 8
+ wt.%
+ Y2O3),
+ Al2O3 and
+ TiO2)
+were
+ investigated
+ with
+ promising
+ results
+ on
+ oxygen
+ release
+ rate
+(Moghtaderi,
+ 2010).
+ However,
+ these
+ materials
+ were
+ proposed
+ for
+oxygen
+ production
+ in
+ the
+ chemical-looping
+ air
+ separation
+ process
+(CLAS),
+ where
+ coal
+ is
+ not
+ mixed
+ with
+ the
+ oxygen-carrier.
+Perovskite
+ 
+type
+ 
+materials
+ 
+based
+ 
+on
+ 
+Mn
+ 
+and
+ 
+Ca
+ 
+oxides
+(CaMnxTi1 − xO3)
+ has
+ also
+ been
+ tested
+ in
+ a
+ batch
+ ﬂuidized
+ facility
+(Leion
+ et
+ al.,
+ 2009c;
+ Rydén
+ et
+ al.,
+ 2011a).  The
+ oxygen
+ uncoupling
+properties
+ of
+ perovskite
+ type
+ materials
+ caused
+ a
+ fast
+ conver-
+sion
+ of
+ petcoke
+ (Leion
+ et
+ al.,
+ 2009c).  The
+ perovskite
+ material
+CaMn0.875Ti0.125O3 was
+ later
+ examined
+ for
+ 70
+ h
+ in
+ a small
+ circu-
+lating
+ ﬂuidized-bed
+ reactor
+ using
+ natural
+ gas
+ as
+ fuel
+ (Rydén
+ et
+ al.,
+2011a).
+ Particles
+ retained
+ most
+ of
+ their
+ physical
+ properties
+ and
+reactivity
+ over
+ the
+ course
+ of
+ the
+ experiments.
+ In
+ addition,
+ high
+ reac-
+tivity
+ with
+ CH4 was
+ found,
+ although
+ complete
+ conversion
+ of
+ natural
+gas
+ was
+ not
+ obtained
+ during
+ the
+ experimental
+ tests.
+In
+ general,
+ Cu-based
+ materials
+ have
+ faster
+ release
+ of
+ oxygen
+than
+ Mn-based
+ particles
+ (Leion
+ et
+ al.,
+ 2009c).  Preliminary
+ experi-
+ments
+ were
+ conducted
+ using
+ Al2O3 or
+ ZrO2 as
+ supporting
+ materials
+(Leion
+ et
+ al.,
+ 2009b;
+ Mattisson
+ et
+ al.,
+ 2009a,b).
+ The
+ results
+ showed
+the
+ relevance
+ of
+ the
+ oxygen
+ uncoupling
+ properties
+ on
+ increasing
+the
+ char
+ conversion,
+ which
+ was
+ the
+ starting
+ point
+ for
+ the
+ pro-
+posal
+ of
+ the
+ CLOU
+ process.
+ These
+ experiments
+ were
+ done
+ in
+ a
+ batch
+ﬂuidized-bed
+ reactor,
+ and
+ a
+ high
+ rate
+ of
+ char
+ conversion
+ was
+ found
+for
+ several
+ carbonaceous
+ materials,
+ including
+ petcoke,
+ coal,
+ and
+biomass
+ (Leion
+ et
+ al.,
+ 2009b).  It
+ was
+ found
+ a
+ 50
+ times
+ increase
+in
+ the
+ conversion
+ rate
+ of
+ petroleum
+ coke
+ at
+ CLOU
+ conditions
+ with
+CuO
+ relative
+ to
+ those
+ measured
+ with
+ Fe-based
+ oxygen-carrier
+ in
+ a
+CLC
+ system
+ with
+ solid
+ fuels
+ (Mattisson
+ et
+ al.,
+ 2009a). It
+ is
+ note-
+worthy
+ that
+ Fe-based
+ materials
+ do
+ not
+ have
+ oxygen
+ uncoupling
+properties.
+ A
+ solids
+ inventory
+ between
+ 120
+ and
+ 200
+ kg/MWth was
+estimated
+ for
+ CLOU
+ process
+ using
+ Cu-based
+ particles
+ (Mattisson
+et
+ al.,
+ 2009a;
+ Eyring
+ et
+ al.,
+ 2011),
+ which
+ was
+ much
+ lower
+ than
+the
+ amount
+ of
+ solids
+ required
+ in
+ a
+ CLC
+ system
+ 2000
+ kg/MWth for
+Fe-based
+ particles
+ (Leion
+ et
+ al.,
+ 2007;
+ Mattisson
+ et
+ al.,
+ 2009b). How-
+ever,
+ they
+ found
+ some
+ deﬂuidization
+ phenomena
+ with
+ Cu-based
+particles
+ during
+ some
+ parts
+ of
+ the
+ experiments
+ (Mattisson
+ et
+ al.,
+2009b).
+Avoiding
+ agglomeration
+ with
+ Cu-based
+ oxygen-carriers
+ has
+been
+ a
+ major
+ concern
+ in
+ the
+ past.
+ Thus,
+ for
+ CLC
+ conditions
+ where
+CuO
+ can
+ be
+ reduced
+ to
+ Cu
+ agglomeration
+ is
+ avoided
+ by
+ using
+ CuO
+fractions
+ lower
+ than
+ 20
+ wt.%
+ in
+ the
+ particle
+ (de
+ Diego
+ et
+ al.,
+ 2005).
+However,
+ the
+ condition
+ is
+ different
+ for
+ CLOU,
+ where
+ CuO
+ is
+ reduced
+to
+ Cu2O.
+ In
+ the
+ research
+ group
+ of
+ ICB-CSIC
+ (Adánez-Rubio
+ et
+ al.,
+2011;
+ Gayán
+ et
+ al.,
+ submitted
+ for
+ publication),
+ a
+ screening
+ study
+considering
+ 25
+ different
+ Cu-based
+ oxygen-carriers
+ was
+ done
+ to
+select
+ appropriate
+ materials
+ for
+ CLOU
+ process.
+ Particles
+ prepared
+by
+ different
+ methods
+ and
+ using
+ several
+ CuO
+ contents
+ and
+ support-
+ing
+ materials
+ were
+ tested.
+ Reactivity
+ of
+ materials
+ was
+ analyzed
+ in
+ a
+TGA,
+ whereas
+ mechanical
+ stability
+ and
+ ﬂuidization
+ properties
+ were
+studied
+ in
+ a
+ batch
+ ﬂuidized
+ bed.
+ Two
+ promising
+ Cu-based
+ oxygen-
+carriers
+ prepared
+ by
+ pelletizing
+ by
+ pressure
+ (60
+ wt.%
+ CuO
+ supported
+on
+ MgAl2O4, and
+ 40
+ wt.%
+ CuO
+ supported
+ on
+ ZrO2)
+ were
+ selected
+according
+ to
+ their
+ high
+ reactivity,
+ low
+ attrition
+ rate
+ and
+ avoidance
+
+
+===== Page 4 =====
+
+192
+ 
+A.
+ Abad
+ et
+ al.
+ / International
+ Journal
+ of
+ Greenhouse
+ Gas
+ Control
+ 6 (2012)
+ 189–200
+Table 1
+Properties
+ of
+ the
+ oxygen-carrier
+ Cu60MgAl.
+CuO
+ content
+ (wt.%)
+ 
+60
+Oxygen
+ transport
+ capacity,
+ ROC (wt.%)
+ 
+6
+Crushing
+ strength
+ (N)
+ 
+2.4
+Real
+ density
+ (kg/m3) 
+4600
+Porosity
+ (%)
+ 
+16.1
+Speciﬁc
+ surface
+ area,
+ BET
+ (m2/g)
+ 
+<0.5
+XRD
+ main
+ phases
+ 
+CuO,
+ MgAl2O4
+of
+ agglomeration
+ during
+ successive
+ redox
+ cycles
+ by
+ alternating
+nitrogen
+ and
+ air.
+To
+ summarize,
+ some
+ works
+ using
+ oxygen-carriers
+ with
+ oxygen
+uncoupling
+ properties
+ have
+ been
+ done
+ mainly
+ in
+ batch
+ operation
+mode.
+ The
+ oxygen
+ uncoupling
+ properties
+ of
+ carrier
+ materials
+ were
+determined
+ by
+ analyzing
+ the
+ break
+ off
+ of
+ oxygen
+ in
+ nitrogen
+ and
+the
+ conversion
+ of
+ CH4 or
+ solid
+ fuels
+ (petcoke,
+ coal,
+ biomass).
+ How-
+ever,
+ the
+ CLOU
+ concept
+ is
+ based
+ on
+ the
+ use
+ of
+ two
+ interconnected
+ﬂuidized
+ beds,
+ the
+ oxygen-carrier
+ being
+ continuously
+ circulating
+between
+ them.
+ In
+ continuously
+ operated
+ units,
+ only
+ limited
+ infor-
+mation
+ about
+ the
+ oxygen
+ uncoupling
+ properties
+ of
+ two
+ Mn-based
+materials
+ using
+ a
+ gaseous
+ fuel
+ (CH4)
+ in
+ the
+ fuel-reactor
+ can
+ be
+ found
+(Rydén
+ et
+ al.,
+ 2011a,b).
+ Up
+ to
+ the
+ present,
+ no
+ experimental
+ evidence
+has
+ been
+ found
+ in
+ the
+ literature
+ about
+ the
+ CLOU
+ concept
+ with
+ solid
+fuels
+ in
+ continuously
+ operated
+ systems.
+The
+ aim
+ of
+ this
+ work
+ was
+ to
+ investigate
+ the
+ proof
+ of
+ the
+ con-
+cept
+ of
+ the
+ CLOU
+ process
+ in
+ a
+ continuously
+ operated
+ CLOU
+ plant
+using
+ coal
+ as
+ fuel.
+ In
+ this
+ work,
+ particles
+ prepared
+ by
+ spray
+ drying
+containing
+ 60
+ wt.%
+ CuO
+ and
+ using
+ MgAl2O4 as
+ supporting
+ mate-
+rial
+ were
+ used
+ as
+ oxygen-carrier
+ for
+ the
+ CLOU
+ process.
+ This
+ is
+ the
+ﬁrst
+ time
+ that
+ the
+ CLOU
+ concept
+ is
+ demonstrated
+ in
+ a
+ system
+ com-
+posed
+ by
+ two
+ interconnected
+ ﬂuidized-bed
+ reactors
+ using
+ a
+ solid
+fuel
+ (bituminous
+ coal).
+ The
+ effect
+ of
+ operating
+ conditions
+ –
+ such
+as
+ temperature
+ of
+ the
+ fuel-reactor,
+ the
+ solids
+ circulation
+ rate
+ and
+the
+ coal
+ feeding
+ rate
+ –
+ on
+ the
+ combustion
+ and
+ CO2 capture
+ efﬁ-
+ciencies
+ were
+ investigated.
+ The
+ results
+ obtained
+ were
+ analyzed
+ and
+discussed
+ in
+ order
+ to
+ be
+ useful
+ for
+ the
+ scale-up
+ of
+ a
+ CLOU
+ process
+fuelled
+ with
+ coal.
+2.
+ Experimental
+2.1.
+ Oxygen-carrier
+ material
+The
+ oxygen-carrier
+ was
+ a
+ Cu-based
+ material
+ prepared
+ by
+spray
+ drying.
+ Oxygen-carrier
+ particles
+ were
+ manufactured
+ by
+VITO
+ (Flemish
+ Institute
+ for
+ Technological
+ Research,
+ Belgium)
+ using
+MgAl2O4 spinel
+ (Baikowski,
+ S30CR)
+ and
+ CuO
+ (PANREAC,
+ PRS)
+ as
+ raw
+materials.
+ The
+ CuO
+ content
+ was
+ 60
+ wt.%.
+ The
+ particles
+ were
+ calcined
+24
+ h
+ at
+ 1100 ◦C.
+ The
+ particle
+ size
+ of
+ the
+ oxygen-carrier
+ was
+ +0.1
+ to
+0.2
+ mm.
+ From
+ now
+ on,
+ the
+ oxygen-carrier
+ was
+ named
+ as
+ Cu60MgAl.
+Table
+ 1
+ shows
+ the
+ main
+ properties
+ of
+ this
+ material.
+The
+ mechanical
+ strength,
+ determined
+ using
+ a
+ Shimpo
+ FGN-5X
+crushing
+ strength
+ apparatus,
+ was
+ taken
+ as
+ the
+ average
+ value
+ of
+ 20
+measurements
+ of
+ the
+ force
+ needed
+ to
+ fracture
+ a
+ particle.
+ The
+ sur-
+face
+ area
+ of
+ the
+ oxygen-carrier
+ particles
+ was
+ determined
+ by
+ the
+Brunauer–Emmett–Teller
+ (BET)
+ method
+ in
+ a
+ Micromeritics
+ ASAP-
+2020,
+ whereas
+ the
+ pore
+ volume
+ was
+ measured
+ by
+ Hg
+ intrusion
+ in
+a
+ Quantachrome
+ PoreMaster
+ 33.
+ The
+ identiﬁcation
+ of
+ crystalline
+chemical
+ species
+ was
+ carried
+ out
+ by
+ powder
+ X-ray
+ diffractometer
+Bruker
+ AXS
+ graphite
+ monochromator.
+The
+ fresh
+ material
+ has
+ a
+ very
+ low
+ porosity
+ and
+ a
+ very
+ low
+ super-
+ﬁcial
+ area.
+ The
+ mechanical
+ strength
+ of
+ the
+ particles
+ after
+ 24
+ h
+ of
+calcination
+ was
+ adequate
+ for
+ its
+ use
+ in
+ a
+ ﬂuidized
+ bed.
+ The
+ crys-
+talline
+ phases
+ found
+ by
+ XRD
+ analysis
+ were
+ only
+ CuO
+ and
+ MgAl2O4.
+The
+ oxygen
+ transport
+ capability,
+ ROC, was
+ calculated
+ in
+ a
+ TGA
+ as
+ROC =
+ 1
+ −
+ mred/mox, mox being
+ the
+ mass
+ of
+ fully
+ oxidized
+ particles
+Table
+ 2
+Properties
+ of
+ fresh
+ and
+ pre-treated
+ “El
+ Cerrejón”
+ coal.
+El
+ Cerrejón
+Fresh
+ 
+Pre-treated
+Proximate
+ analysis
+ (wt.%)
+Moisture
+ 
+7.5%
+ 
+2.3%
+Volatile
+ matter
+34.0%
+ 
+33.0%
+Fixed
+ carbon
+49.9%
+ 
+55.9%
+Ash
+8.6%
+ 
+8.8%
+Ultimate
+ analysis
+ (wt.%)
+C
+ 
+70.8%
+ 
+65.8%
+H
+ 
+3.9%
+ 
+3.3%
+N
+1.7%
+ 
+1.6%
+S
+0.5%
+ 
+0.6%
+LHV
+ (kJ/kg)
+ 
+25,880
+ 
+21,899
+and
+ mred in
+ the
+ reduced
+ form,
+ i.e.
+ when
+ all
+ CuO
+ has
+ been
+ reduced
+to
+ Cu2O.
+Preliminary
+ results
+ showed
+ that
+ similar
+ material
+ prepared
+ by
+mechanical
+ mixing
+ has
+ adequate
+ values
+ of
+ reactivity
+ and
+ oxygen
+transport
+ capacity,
+ high
+ attrition
+ resistance
+ and
+ does
+ not
+ have
+tendency
+ to
+ agglomerate
+ during
+ operation
+ in
+ a
+ ﬂuidized-bed
+reactor
+ (Adánez-Rubio
+ et
+ al.,
+ submitted
+ for
+ publication-a).
+2.2.
+ Coal
+ fuel
+The
+ fuel
+ was
+ a
+ bituminous
+ Colombian
+ coal
+ “El
+ Cerrejón”.
+ Prox-
+imate
+ and
+ ultimate
+ analysis
+ and
+ the
+ low
+ heating
+ value
+ of
+ this
+ coal
+were
+ determined.
+ The
+ properties
+ of
+ this
+ coal
+ are
+ shown
+ in
+ Table
+ 2.
+The
+ coal
+ particle
+ size
+ used
+ for
+ this
+ study
+ was
+ +200
+ to
+ 300
+ m.
+Bed
+ agglomeration
+ problems
+ with
+ pipes
+ clogging
+ were
+ found
+when
+ “El
+ Cerrejón”
+ coal
+ was
+ fed
+ into
+ the
+ system
+ because
+ this
+coal
+ showed
+ a
+ high
+ swelling
+ behaviour.
+ In
+ order
+ to
+ avoid
+ coal
+swelling
+ and
+ bed
+ agglomeration,
+ the
+ coal
+ was
+ subjected
+ to
+ a
+ ther-
+mal
+ pre-treatment
+ for
+ pre-oxidation.
+ Coal
+ was
+ heated
+ at
+ 180 ◦C
+in
+ air
+ atmosphere
+ for
+ 28
+ h
+ (Pis
+ et
+ al.,
+ 1996).
+ Proximate
+ and
+ ulti-
+mate
+ analyses
+ of
+ the
+ pre-treated
+ coal
+ are
+ shown
+ in
+ Table
+ 2.
+ The
+pre-oxidation
+ causes
+ an
+ increase
+ in
+ the
+ oxygen
+ content
+ from
+ 7.2
+ to
+17.6%
+ and
+ a
+ decrease
+ in
+ the
+ heating
+ value.
+ Despite
+ the
+ decrease
+in
+ the
+ heating
+ value,
+ the
+ swelling
+ properties
+ of
+ this
+ coal
+ were
+eliminated
+ and
+ agglomeration
+ problems
+ were
+ not
+ observed
+ in
+ any
+experiment
+ carried
+ out
+ with
+ this
+ pre-treated
+ coal.
+2.3.
+ Experimental
+ set-up
+ ICB-CSIC-s1
+A
+ schematic
+ view
+ of
+ the
+ experimental
+ set-up
+ used
+ is
+ shown
+ in
+Fig.
+ 3.
+ The
+ set-up
+ was
+ basically
+ composed
+ of
+ two
+ interconnected
+ﬂuidized-bed
+ reactors
+ –
+ the
+ air-
+ and
+ fuel-reactors
+ –
+ joined
+ by
+ a
+ loop
+seal
+ and
+ a
+ riser
+ for
+ solids
+ transport
+ from
+ the
+ air-reactor
+ to
+ the
+ fuel-
+reactor,
+ a
+ cyclone
+ and
+ a
+ solids
+ valve
+ to
+ control
+ the
+ solids
+ circulation
+ﬂow
+ rate
+ in
+ the
+ system.
+ The
+ reactors
+ operate
+ slightly
+ higher
+ than
+atmospheric
+ pressure,
+ taking
+ into
+ consideration
+ the
+ pressure
+ drops
+in
+ the
+ bed
+ and
+ pipes
+ to
+ stack.
+ The
+ fuel-reactor
+ (1)
+ consisted
+ of
+ a
+bubbling
+ ﬂuidized
+ bed
+ with
+ 50
+ mm of
+ inner
+ diameter
+ and
+ 200
+ mm
+bed
+ height.
+ N2 or
+ CO2 can
+ be
+ used
+ as
+ ﬂuidizing
+ gas.
+ The
+ gas
+ ﬂow
+was
+ 186
+ LN/h,
+ corresponding
+ to
+ a
+ gas
+ velocity
+ of
+ 0.11
+ m/s
+ at
+ 900 ◦C.
+The
+ minimum
+ ﬂuidizing
+ velocities
+ of
+ the
+ oxygen-carrier
+ particles
+are
+ 0.006
+ m/s
+ for
+ the
+ smallest
+ particle
+ size
+ and
+ 0.023
+ m/s
+ for
+ the
+biggest
+ one.
+ The
+ terminal
+ velocities
+ of
+ the
+ oxygen-carrier
+ particles
+are
+ 0.40
+ m/s
+ and
+ 1.45
+ m/s,
+ for
+ the
+ smallest
+ and
+ biggest
+ particles,
+respectively.
+Coal
+ (9)
+ was
+ fed
+ in
+ by
+ a
+ screw
+ feeder
+ (10)
+ at
+ the
+ bottom
+ of
+the
+ bed
+ just
+ above
+ the
+ fuel-reactor
+ distributor
+ plate
+ in
+ order
+ to
+maximize
+ the
+ time
+ that
+ the
+ fuel
+ and
+ volatile
+ matter
+ are
+ in
+ con-
+tact
+ with
+ the
+ bed
+ material.
+ The
+ screw
+ feeder
+ has
+ two
+ stages:
+ the
+
+
+===== Page 5 =====
+
+A.
+ Abad
+ et
+ al.
+ / International
+ Journal
+ of
+ Greenhouse
+ Gas
+ Control
+ 6
+ (2012)
+ 189–200
+ 
+193
+Fig.
+ 3.
+ Schematic
+ view
+ of
+ the
+ ICB-CSIC-s1
+ unit
+ for
+ CLOU
+ (1.5
+ kWth).
+ﬁrst
+ one
+ with
+ variable
+ speed
+ to
+ control
+ the
+ coal
+ ﬂow
+ rate,
+ and
+the
+ second
+ one
+ has
+ high
+ rotating
+ velocity
+ to
+ avoid
+ coal
+ pyrolysis
+inside
+ the
+ screw.
+ A
+ small
+ N2 ﬂow
+ (24
+ LN/h)
+ is
+ introduced
+ at
+ the
+beginning
+ of
+ the
+ screw
+ feeder
+ to
+ avoid
+ any
+ possible
+ volatile
+ reverse
+ﬂow.
+The
+ oxygen-carrier
+ is
+ decomposed
+ in
+ the
+ fuel-reactor,
+ evolv-
+ing
+ gaseous
+ oxygen
+ to
+ the
+ surroundings.
+ The
+ oxygen
+ burns
+ the
+volatiles
+ and
+ char
+ proceeding
+ from
+ coal
+ pyrolysis
+ in
+ the
+ fuel-
+reactor.
+ Reduced
+ oxygen-carrier
+ particles
+ overﬂowed
+ into
+ the
+air-reactor
+ through
+ a
+ U-shaped
+ ﬂuidized
+ bed
+ loop
+ seal
+ (2)
+ with
+30
+ mm of
+ inner
+ diameter,
+ to
+ avoid
+ gas
+ mixing
+ between
+ fuel
+ and
+ air.
+A
+ N2 ﬂow
+ of
+ 60
+ LN/h
+ was
+ introduced
+ in
+ the
+ loop
+ seal.
+ Preliminary
+experiments
+ were
+ carried
+ out
+ to
+ observe
+ the
+ distribution
+ of
+ gas
+ fed
+to
+ the
+ loop
+ seal.
+ In
+ experimental
+ conditions
+ used
+ in
+ this
+ work,
+ the
+gas
+ in
+ the
+ loop-seal
+ was
+ distributed
+ approximated
+ at
+ 50%
+ in
+ each
+reactor
+ (air-
+ and
+ fuel-reactor).
+The
+ oxidation
+ of
+ the
+ carrier
+ took
+ place
+ in
+ the
+ air-reactor
+ (3),  con-
+sisting
+ of
+ a
+ bubbling
+ ﬂuidized
+ bed
+ with
+ 80
+ mm of
+ inner
+ diameter
+and
+ 100
+ mm bed
+ height,
+ and
+ followed
+ by
+ a
+ riser
+ with
+ 30
+ mm
+ of
+inner
+ diameter.
+ The
+ air
+ ﬂow
+ was
+ 1740
+ LN/h
+ (ug =
+ 0.40
+ m/s).
+ In
+ addi-
+tion,
+ a
+ secondary
+ air
+ ﬂow
+ (240
+ LN/h)
+ was
+ introduced
+ at
+ the
+ top
+ of
+the
+ bubbling
+ bed
+ to
+ help
+ particle
+ entrainment
+ through
+ a
+ riser
+ (4).
+N2 and
+ unreacted
+ O2 left
+ the
+ air-reactor
+ passing
+ through
+ a
+ high-
+efﬁciency
+ cyclone
+ (5)
+ and
+ a
+ ﬁlter
+ before
+ the
+ stack.
+ The
+ oxidized
+solid
+ particles
+ recovered
+ by
+ the
+ cyclone
+ were
+ sent
+ to
+ a
+ solids
+ reser-
+voir
+ (7),  setting
+ the
+ oxygen-carrier
+ ready
+ to
+ start
+ a
+ new
+ cycle.
+ The
+regenerated
+ oxygen-carrier
+ particles
+ returned
+ to
+ the
+ fuel-reactor
+by
+ gravity
+ from
+ the
+ solids
+ reservoir
+ through
+ a
+ solids
+ valve
+ (8)
+ which
+controls
+ the
+ ﬂow
+ rates
+ of
+ solids
+ entering
+ to
+ the
+ fuel-reactor.
+ A
+diverting
+ solids
+ valve
+ (6)
+ located
+ below
+ the
+ cyclone
+ allowed
+ the
+measurement
+ of
+ the
+ solids
+ ﬂow
+ rates
+ at
+ any
+ time.
+ Therefore,
+ this
+design
+ allows
+ to
+ control
+ and
+ measure
+ the
+ solids
+ circulation
+ ﬂow
+rate
+ between
+ both
+ reactors.
+ The
+ ash
+ particles
+ from
+ char
+ combus-
+tion
+ were
+ not
+ recovered
+ by
+ the
+ cyclone
+ and
+ were
+ collected
+ in
+ a
+ﬁlter
+ down-stream.
+ Thus,
+ ash
+ particles
+ were
+ not
+ accumulated
+ in
+the
+ system.
+ Finally,
+ it
+ is
+ worthy
+ of
+ consideration
+ that
+ leakage
+ of
+ gas
+between
+ both
+ reactors
+ was
+ avoided
+ by
+ the
+ presence
+ of
+ the
+ U-shaped
+loop
+ seal
+ (2)
+ and
+ the
+ solids
+ reservoir
+ (7).
+ Thus,
+ the
+ presence
+ of
+ oxy-
+gen
+ in
+ the
+ fuel-reactor
+ solely
+ should
+ come
+ from
+ oxygen
+ released
+ by
+reaction
+ (5).
+The
+ total
+ oxygen-carrier
+ inventory
+ in
+ the
+ system
+ was
+ around
+2.0
+ kg,
+ being
+ about
+ 0.4
+ kg
+ in
+ the
+ fuel-reactor.
+ The
+ exact
+ amount
+ of
+solids
+ in
+ the
+ fuel-reactor
+ was
+ calculated
+ from
+ pressure
+ drop
+ mea-
+surements
+ in
+ the
+ reactor
+ for
+ each
+ test.
+CO2, CO,
+ H2, CH4, and
+ O2 were
+ analyzed
+ at
+ the
+ outlet
+ stream
+from
+ fuel-reactor,
+ whereas
+ CO2, CO
+ and
+ O2 were
+ analyzed
+ from
+the
+ ﬂue
+ gases
+ of
+ the
+ air-reactor.
+ Non-dispersive
+ infrared
+ (NDIR)
+analyzers
+ (Maihak
+ S710/UNOR)
+ were
+ used
+ for
+ CO,
+ CO2, and
+ CH4
+concentration
+ determination;
+ a
+ paramagnetic
+ analyzer
+ (Maihak
+S710/OXOR-P)
+ was
+ used
+ to
+ determine
+ O2 concentration;
+ and
+ a
+ ther-
+mal
+ conductivity
+ detector
+ (Maihak
+ S710/THERMOR)
+ was
+ used
+ for
+H2 concentration
+ determination.
+ In
+ some
+ selected
+ experiments,
+ the
+tar
+ amount
+ present
+ in
+ fuel-reactor
+ product
+ gas
+ was
+ determined
+following
+ the
+ tar
+ protocol
+ (Simell
+ et
+ al.,
+ 2000),
+ as
+ well
+ as
+ higher
+C2–C4 hydrocarbons
+ were
+ analyzed
+ off-line
+ by
+ a
+ gas
+ chromatograph
+(HP5890
+ Serie
+ II).
+Because
+ of
+ heat
+ losses,
+ the
+ system
+ is
+ not
+ auto-thermal
+ and
+ is
+heated
+ up
+ by
+ means
+ of
+ various
+ independent
+ ovens
+ to
+ get
+ inde-
+pendent
+ temperature
+ control
+ of
+ the
+ air-reactor,
+ fuel-reactor,
+ and
+freeboard
+ above
+ the
+ bed
+ in
+ the
+ fuel-reactor.
+ During
+ operation,
+ tem-
+peratures
+ in
+ the
+ bed
+ and
+ freeboard
+ of
+ the
+ fuel-reactor,
+ air-reactor
+bed
+ and
+ riser
+ were
+ monitored
+ as
+ well
+ as
+ the
+ pressure
+ drops
+ in
+important
+ locations
+ of
+ the
+ system,
+ such
+ as
+ the
+ fuel-reactor
+ bed,
+ the
+air-reactor
+ bed
+ and
+ the
+ loop
+ seal.
+
+
+===== Page 6 =====
+
+194
+ 
+A.
+ Abad
+ et
+ al.
+ / International
+ Journal
+ of
+ Greenhouse
+ Gas
+ Control
+ 6 (2012)
+ 189–200
+Table 3
+Main
+ data
+ for
+ experimental
+ tests
+ in
+ the
+ continuous
+ CLOU
+ prototype
+ ICB-CSIC-s1
+ (bold
+ values
+ correspond
+ to
+ the
+ variable
+ changed
+ in
+ every
+ test
+ series).
+Test
+ 
+TFR (◦C)
+ 
+
+ 
+
+˙ms (kg/h)
+˙mcoal (g/h)
+ 
+Power
+ (W)
+ 
+ms,FR (g)
+ 
+m∗
+s,FR (kg/MWth)
+CLOU01
+ 
+903
+ 
+1.2
+ 
+2.8
+ 
+4.2
+ 
+112
+ 
+681
+ 
+412
+ 
+605
+CLOU02
+917
+ 
+1.2
+ 
+2.8
+ 
+4.2
+ 
+112
+ 
+681
+ 
+412
+ 
+605
+CLOU03
+ 
+941
+ 
+1.2
+ 
+2.8
+ 
+4.2
+ 
+112
+ 
+681
+ 
+373
+ 
+547
+CLOU04
+ 
+960
+ 
+1.2
+ 
+2.8
+ 
+4.2
+ 
+112
+ 
+681
+ 
+393
+ 
+577
+CLOU05
+ 
+924
+ 
+4.3
+ 
+4.7
+ 
+9.0
+ 
+67
+ 
+410
+ 
+471
+ 
+1150
+CLOU06
+929
+3.2
+ 
+3.5
+ 
+9.0
+ 
+89
+541
+452
+ 
+835
+CLOU07
+917
+2.6
+ 
+2.8
+ 
+9.0
+ 
+112
+ 
+681
+ 
+412
+ 
+605
+CLOU08
+920
+ 
+2.1
+ 
+2.3
+ 
+9.0
+ 
+135
+ 
+821
+ 
+373
+ 
+454
+CLOU09
+ 
+925
+ 
+1.1
+ 
+1.2
+ 
+9.0
+ 
+256
+ 
+1560
+ 
+368
+ 
+235
+CLOU10
+ 
+901
+ 
+1.1
+ 
+2.8
+ 
+3.7
+ 
+112
+ 
+681
+ 
+452
+ 
+663
+CLOU11
+ 
+901
+ 
+2.0
+ 
+2.8
+ 
+7.0
+ 
+112
+ 
+681
+ 
+452
+ 
+663
+CLOU12
+898
+4.0
+ 
+2.8
+ 
+13.9
+ 
+112
+681
+491
+721
+2.4.
+ Experimental
+ planning
+Three
+ different
+ experimental
+ test
+ series
+ were
+ carried
+ out
+ using
+the
+ same
+ batch
+ of
+ oxygen-carrier
+ particles.
+ Table
+ 3
+ shows
+ a
+ com-
+pilation
+ of
+ the
+ main
+ variables
+ used
+ in
+ each
+ test.
+ Oxygen-carrier
+particles
+ were
+ used
+ during
+ 30
+ h
+ of
+ hot
+ ﬂuidization
+ conditions,
+whereof
+ 18
+ h
+ corresponded
+ to
+ coal
+ combustion.
+The
+ fuel-reactor
+ temperature
+ (CLOU01–CLOU04),
+ the
+ coal
+ feed-
+ing
+ rate
+ (CLOU05–CLOU09)
+ and
+ the
+ solid
+ circulation
+ ﬂow
+ rate
+(CLOU01
+ and
+ CLOU10–CLOU12)
+ were
+ varied
+ during
+ experimental
+work
+ using
+ “El
+ Cerrejón”
+ coal.
+ The
+ temperature
+ in
+ the
+ freeboard
+was
+ maintained
+ at
+ 900 ◦C
+ in
+ all
+ cases.
+ The
+ coal
+ fed
+ in
+ was
+ varied
+from
+ 67
+ to
+ 256
+ g/h,
+ which
+ corresponded
+ to
+ a
+ thermal
+ power
+ of
+410–1560
+ Wth. N2 was
+ used
+ as
+ ﬂuidizing
+ gas
+ in
+ the
+ fuel-reactor
+ in
+order
+ to
+ improve
+ the
+ evaluation
+ of
+ experimental
+ results.
+ A
+ param-
+eter
+ 
+ was
+ deﬁned
+ to
+ calculate
+ the
+ stoichiometric
+ solid
+ circulation
+rate
+ needed
+ for
+ combustion
+ of
+ each
+ coal
+ feeding
+ rate.
+ A
+ value
+ of
+
+ =
+ 1
+ corresponds
+ to
+ the
+ stoichiometric
+ ﬂow
+ of
+ CuO
+ to
+ fully
+ con-
+vert
+ coal
+ to
+ CO2 and
+ H2O
+ through
+ reactions
+ (1)–(4),
+ being
+ the
+ CuO
+reduced
+ to
+ Cu2O.
+ The
+ oxygen-carrier
+ to
+ fuel
+ ratio
+ ()
+ was
+ deﬁned
+by
+ the
+ following
+ equation:
+
+ = 0.25FCuO
+˝coal ˙mcoal
+(11)
+FCuO being
+ the
+ molar
+ ﬂow
+ rate
+ of
+ CuO
+ and ˙mcoal the
+ mass-based
+ﬂow
+ of
+ coal
+ fed-in
+ to
+ the
+ reactor.
+ ˝coal is
+ the
+ stoichiometric
+ mols
+of
+ oxygen,
+ as
+ O2, needed
+ to
+ convert
+ 1
+ kg
+ of
+ coal
+ to
+ CO2 and
+ H2O,
+as
+ well
+ as
+ NO
+ and
+ SO2. This
+ value
+ was
+ calculated
+ from
+ the
+ proxi-
+mate
+ and
+ ultimate
+ analysis
+ of
+ coal,
+ see
+ Table
+ 2,
+ yielding
+ a
+ value
+ of
+˝coal =
+ 59
+ mol
+ O2 per
+ kg
+ of
+ coal.
+˝coal = fC
+MC
++
+ 0.25 fH
+MH
++
+ 0.5 fN
+MN
++ fS
+MS
+−
+ 0.5 fO
+MO
+(12)
+The
+ temperature
+ in
+ the
+ air-reactor
+ was
+ maintained
+ at
+ 900 ◦C.
+ Air
+ﬂow
+ into
+ the
+ air-reactor
+ was
+ maintained
+ constant
+ for
+ all
+ tests,
+always
+ remaining
+ in
+ excess
+ over
+ the
+ stoichiometric
+ oxygen
+ demand
+of
+ the
+ fuel.
+ The
+ stoichiometric
+ air
+ ratio,
+ ,
+ was
+ deﬁned
+ by
+ Eq.
+ (13).
+Depending
+ on
+ the
+ fuel
+ ﬂow,
+ the
+ value
+ of
+ 
+ ranged
+ from
+ 1.2
+ to
+ 4.7.
+
+ = oxygen
+ ﬂow
+ in
+ air
+oxygen
+ demand
+=
+0.21Fair
+˝coal ˙mcoal
+(13)
+2.5.
+ Data
+ evaluation
+To
+ analyze
+ the
+ conﬁdence
+ of
+ the
+ results,
+ a
+ mass
+ balance
+ to
+ oxy-
+gen
+ and
+ carbon
+ was
+ carried
+ out
+ using
+ the
+ measurements
+ of
+ the
+analyzers
+ from
+ the
+ air-
+ and
+ fuel-reactors.
+ The
+ dry
+ basis
+ product
+ gas
+ﬂow
+ in
+ the
+ fuel-reactor,
+ Fout,FR, was
+ calculated
+ as
+Fout,FR =
+Fin,FR
+1
+ −
+ (yCO2,out,FR +
+ yCO,out,FR +
+ yH2,out,FR +
+ yCH4,out,FR)
+(14)
+yi,out,FR being
+ the
+ concentration
+ in
+ dry
+ basis
+ exiting
+ from
+ the
+ fuel-
+reactor,
+ where
+ i can
+ be:
+ CO2, CO,
+ H2 or
+ CH4.
+The
+ outlet
+ air-reactor
+ gas
+ ﬂow,
+ Fout,AR, was
+ calculated
+ through
+the
+ introduced
+ N2, FN2,AR.
+Fout,AR =
+FN2,AR
+1
+ −
+ (yO2,out,AR +
+ yCO2,out,AR)
+(15)
+Thus,
+ the
+ exiting
+ ﬂows
+ of
+ O2 and
+ CO2 from
+ the
+ air-
+ and
+ fuel-reactors
+can
+ be
+ easily
+ calculated
+ using
+ the
+ actual
+ concentration
+ of
+ every
+ gas
+i.
+Fi,out =
+ yi,outFout
+(16)
+Notice
+ that
+ nitrogen
+ is
+ used
+ as
+ ﬂuidizing
+ agent
+ in
+ the
+ fuel-reactor
+during
+ experimental
+ work,
+ thus
+ CO2 comes
+ uniquely
+ from
+ the
+ coal
+combustion.
+ The
+ mass
+ balances
+ for
+ oxygen
+ and
+ carbon
+ were
+ found
+to
+ be
+ accurate
+ by
+ using
+ the
+ measurements
+ of
+ the
+ analyzers
+ from
+the
+ air-
+ and
+ fuel-reactors.
+ The
+ mass
+ balance
+ to
+ carbon
+ can
+ be
+ done
+as:
+fC · ˙mcoal =
+ fC,ﬁx · ˙mcoal + ˙mC,vol
+=
+ MC(FCO2,out,FR +
+ FCO,out,FR +
+ FCH4,out,FR +
+ FCO2,out,AR)
+(17)
+fC,ﬁx being
+ the
+ carbon
+ fraction
+ as
+ ﬁxed
+ carbon
+ in
+ the
+ coal,
+ and ˙mC,vol
+the
+ mass
+ ﬂow
+ of
+ carbon
+ contained
+ in
+ the
+ volatile
+ matter
+ calculated
+as
+˙mC,vol =
+ (fC −
+ fC,ﬁx) ˙mcoal
+(18)
+Eq.
+ (18)
+ assumes
+ that
+ the
+ volatiles
+ evolved
+ in
+ the
+ fuel-reactor
+ are
+the
+ same
+ as
+ in
+ a
+ proximate
+ analysis
+ measurement.
+ The
+ elutriation
+of
+ char
+ particles
+ from
+ the
+ fuel-reactor
+ was
+ negligible
+ regarding
+ the
+carbon
+ balance
+ in
+ the
+ system.
+From
+ the
+ ﬂow
+ of
+ CO2 and
+ O2 exiting
+ from
+ the
+ fuel-reactor,
+ the
+rate
+ of
+ oxygen
+ generation
+ per
+ unit
+ of
+ mass
+ of
+ solid
+ in
+ the
+ fuel-
+reactor
+ can
+ be
+ calculated
+ as:
+rO2 =
+(FCO2,out,FR +
+ FO2,out,FR +
+ 0.5(FCO,out,FR +
+ FH2O,out,FR)
+−
+ 0.5 ˙mcoal((fH2O/MH2O) +
+ (fO/MO)))MO2
+ms,FR
+(19)
+The
+ variation
+ of
+ the
+ oxygen-carrier
+ conversion
+ in
+ the
+ fuel-reactor
+was
+ calculated
+ as:
+XOC =
+rO2 ·
+ ms,FR
+0.25FCuO
+(20)
+The
+ evaluation
+ of
+ the
+ CLOU
+ performance
+ was
+ carried
+ out
+ by
+ study-
+ing
+ the
+ effect
+ of
+ the
+ operational
+ variables
+ on
+ the
+ carbon
+ capture
+efﬁciency,
+ the
+ char
+ conversion
+ and
+ the
+ combustion
+ efﬁciency
+ in
+the
+ fuel-reactor.
+The
+ carbon
+ capture
+ efﬁciency,
+ CC, was
+ deﬁned
+ as
+ the
+ fraction
+of
+ carbon
+ initially
+ present
+ in
+ the
+ coal
+ fed
+ in
+ which
+ is
+ actually
+ at
+ the
+
+
+===== Page 7 =====
+
+A.
+ Abad
+ et
+ al.
+ / International
+ Journal
+ of
+ Greenhouse
+ Gas
+ Control
+ 6
+ (2012)
+ 189–200
+ 
+195
+outlet
+ of
+ fuel-reactor
+ as
+ CO2.
+ This
+ is
+ the
+ actual
+ CO2 captured
+ in
+ the
+CLOU
+ system,
+ the
+ remaining
+ is
+ CO2 exiting
+ together
+ with
+ nitrogen
+from
+ the
+ air-reactor.
+CC =
+MCFCO2,out,FR
+fC · ˙mcoal
+(21)
+The
+ carbon
+ capture
+ efﬁciency
+ depends
+ on
+ the
+ conversion
+ of
+ char
+ in
+the
+ fuel-reactor.
+ The
+ conversion
+ of
+ char
+ in
+ the
+ fuel-reactor,
+ Xchar,
+was
+ calculated
+ considering
+ the
+ carbon
+ contained
+ in
+ the
+ coal
+ fed
+remaining
+ in
+ the
+ char,
+ i.e.
+ ﬁxed
+ carbon,
+ and
+ the
+ carbon
+ not
+ con-
+verted
+ in
+ the
+ fuel-reactor,
+ which
+ exits
+ as
+ CO2 from
+ the
+ air-reactor.
+Xchar =
+fC,ﬁx · ˙mcoal −
+ MC · FCO2,out,AR
+fC,ﬁx · ˙mcoal
+(22)
+The
+ conversion
+ of
+ char
+ in
+ the
+ fuel-reactor
+ was
+ related
+ to
+ the
+ tem-
+perature
+ and
+ the
+ mean
+ residence
+ time
+ of
+ solids
+ in
+ the
+ fuel-reactor,
+FR. FR is
+ calculated
+ by
+ the
+ following
+ equation:
+FR = ms,FR
+˙ms
+(23)
+ms,FR being
+ the
+ mass
+ of
+ solids
+ in
+ the
+ fuel-reactor
+ and ˙ms the
+ solids
+circulation
+ rate
+ between
+ the
+ air-
+ and
+ fuel-reactors.
+Finally,
+ the
+ combustion
+ efﬁciency
+ in
+ the
+ fuel-reactor,
+ comb,
+evaluates
+ the
+ combustion
+ degree
+ of
+ coal
+ only
+ converted
+ in
+ the
+fuel-reactor.
+ The
+ combustion
+ efﬁciency
+ in
+ the
+ fuel-reactor
+ was
+ cal-
+culated
+ through
+ the
+ quotient
+ between
+ the
+ oxygen
+ required
+ to
+ fully
+burn
+ uncorverted
+ gases
+ (CH4, CO
+ and
+ H2)
+ and
+ the
+ oxygen
+ demanded
+by
+ coal
+ converted
+ to
+ gas
+ only
+ in
+ the
+ fuel-reactor.
+ Therefore,
+ the
+combustion
+ efﬁciency
+ in
+ the
+ fuel-reactor
+ was
+ calculated
+ as:
+comb,FR =
+ 1
+ −
+4FCO4,out,FR +
+ FCO,out,FR +
+ FH2,out,FR
+(˝coal/MO) ˙mcoal −
+ 2FCO2,out,AR
+(24)
+3.
+ Results
+To
+ demonstrate
+ the
+ proof
+ of
+ the
+ concept
+ of
+ the
+ CLOU
+ process,
+several
+ tests
+ under
+ continuous
+ operation
+ were
+ carried
+ out
+ in
+ the
+ICB-CSIC-s1
+ experimental
+ unit
+ using
+ coal
+ as
+ fuel.
+ A
+ Cu-based
+ mate-
+rial
+ (Cu60MgAl)
+ was
+ used
+ as
+ oxygen-carrier.
+ Although
+ CO2 should
+be
+ the
+ ﬂuidizing
+ gas
+ in
+ a
+ CLOU
+ unit,
+ in
+ this
+ work
+ N2 was
+ fed
+ to
+ the
+fuel-reactor
+ to
+ use
+ measurements
+ of
+ CO2 concentration
+ to
+ carry
+out
+ the
+ carbon
+ balance.
+ In
+ other
+ work,
+ it
+ was
+ determined
+ that
+the
+ ﬂuidization
+ agent
+ does
+ not
+ have
+ any
+ inﬂuence
+ on
+ the
+ oxygen
+uncoupling
+ behaviour
+ of
+ a
+ Cu-based
+ oxygen-carrier
+ (Gayán
+ et
+ al.,
+submitted
+ for
+ publication).
+Different
+ fuel-reactor
+ temperatures,
+ coal
+ feeding
+ rates
+ and
+ solid
+circulation
+ ﬂow
+ rates
+ were
+ used,
+ see
+ Table
+ 3.
+ The
+ CLOU
+ prototype
+was
+ easy
+ to
+ operate
+ and
+ control,
+ and
+ steady
+ state
+ for
+ each
+ operating
+condition
+ was
+ maintained
+ for
+ at
+ least
+ 60
+ min.
+ Around
+ of
+ 30
+ h
+ of
+continuous
+ hot
+ CLOU
+ operation
+ were
+ accomplished.
+ Agglomeration
+or
+ deﬂuidization
+ was
+ never
+ detected
+ with
+ this
+ Cu-based
+ oxygen-
+carrier,
+ even
+ though
+ the
+ fuel-reactor
+ temperature
+ was
+ as
+ high
+ as
+960 ◦C.
+The
+ exit
+ gas
+ compositions
+ of
+ fuel-
+ and
+ air-reactors
+ exit
+ gases
+were
+ analyzed.
+ As
+ an
+ example,
+ Fig.
+ 4
+ shows
+ the
+ concentration
+ of
+gases
+ (dry
+ basis)
+ measured
+ as
+ a
+ function
+ of
+ the
+ operating
+ time
+ for
+test
+ series
+ CLOU01–CLOU04
+ where
+ the
+ fuel-reactor
+ temperature
+was
+ varied
+ from
+ 900 ◦C
+ to
+ 960 ◦C.
+ The
+ solids
+ circulation
+ rate
+ was
+maintained
+ at
+ a
+ mean
+ value
+ of
+ 4.2
+ kg/h,
+ whereas
+ the
+ coal
+ feeding
+rate
+ was
+ 0.11
+ kg/h,
+ corresponding
+ to
+ a
+ oxygen-carrier
+ to
+ fuel
+ ratio,
+,
+ of
+ 1.2,
+ as
+ deﬁned
+ by
+ Eq.
+ (11).
+ Carbon
+ feeding
+ started
+ at
+ t =
+ 17
+ min.
+Before
+ carbon
+ feeding,
+ the
+ oxygen
+ concentration
+ in
+ the
+ fuel-reactor
+was
+ at
+ equilibrium
+ conditions
+ at
+ the
+ reactor
+ temperature.
+ Thus,
+ the
+oxygen
+ uncoupling
+ effect
+ of
+ the
+ oxygen-carrier
+ is
+ showed.
+ After
+ car-
+bon
+ feeding,
+ a
+ short
+ transitional
+ period
+ it
+ is
+ shown
+ until
+ steady
+ state
+is
+ reached.
+ At
+ steady
+ state,
+ the
+ gas
+ outlet
+ concentration
+ and
+ tem-
+perature
+ were
+ maintained
+ uniform
+ during
+ the
+ whole
+ combustion
+Temperature (ºC)
+860
+880
+900
+920
+940
+960
+980
+Gas concentration (vol.% )
+0
+10
+20
+30
+40
+50
+time (min)
+300
+250
+200
+150
+100
+50
+0
+860
+880
+900
+920
+940
+0
+10
+20
+FR
+AR
+CO2
+O2
+T
+O2
+CO2
+T
+CH4, CO, H
+ 
+2 (0%)
+Fig.
+ 4.
+ Evolution
+ of
+ the
+ gas
+ composition
+ in
+ the
+ air-
+ and
+ fuel-reactor
+ at
+ different
+ fuel-
+reactor
+ temperatures.
+ Experimental
+ tests
+ CLOU01–CLOU04. ˙ms =
+ 4.2
+ kg/h;
+ 
+ = 1.2.
+Fuel
+ feeding
+ to
+ the
+ system
+ after
+ vertical
+ line,
+ t =
+ 17
+ min.
+time.
+ When
+ temperature
+ was
+ varied,
+ a
+ transition
+ period
+ appeared
+and
+ stable
+ combustion
+ was
+ reached
+ usually
+ in
+ less
+ than
+ 10
+ min.
+In
+ all
+ cases,
+ no
+ CH4, CO
+ or
+ H2 were
+ detected
+ in
+ the
+ outlet
+ gas
+stream
+ of
+ the
+ fuel-reactor.
+ The
+ possible
+ presence
+ of
+ tars
+ or
+ light
+hydrocarbons
+ (C2–C4) was
+ also
+ analyzed.
+ For
+ some
+ experiments,
+tar
+ measurements
+ were
+ done
+ using
+ tar
+ protocol
+ (Simell
+ et
+ al.,
+ 2000)
+at
+ the
+ fuel-reactor
+ outlet
+ stream.
+ Tar
+ was
+ not
+ detected
+ in
+ the
+ fuel-
+reactor
+ outlet
+ ﬂow,
+ that
+ is,
+ no
+ hydrocarbons
+ heavier
+ than
+ C5. In
+addition,
+ gas
+ from
+ the
+ fuel-reactor
+ outlet
+ stream
+ was
+ collected
+ in
+bags
+ and
+ analyzed
+ off
+ line
+ using
+ a
+ gas
+ chromatograph.
+ The
+ anal-
+ysis
+ showed
+ that
+ there
+ were
+ no
+ C2–C4 hydrocarbons
+ in
+ the
+ gases.
+Thus,
+ CO2, H2O
+ and
+ O2 were
+ the
+ only
+ gases
+ at
+ the
+ fuel-reactor
+ outlet
+together
+ with
+ the
+ N2 introduced
+ as
+ ﬂuidizing
+ gas.
+ It
+ must
+ be
+ pointed
+out
+ that
+ small
+ amounts
+ of
+ SO2 and
+ NOX were
+ also
+ present
+ at
+ the
+fuel-reactor
+ gas
+ stream,
+ but
+ these
+ components
+ were
+ not
+ evaluated
+in
+ this
+ work.
+ Therefore,
+ volatiles
+ were
+ fully
+ converted
+ into
+ CO2 and
+H2O
+ in
+ the
+ fuel-reactor
+ by
+ reaction
+ with
+ the
+ oxygen
+ released
+ from
+the
+ CuO
+ decomposition.
+ In
+ addition,
+ the
+ oxygen
+ release
+ rate
+ was
+high
+ enough
+ to
+ supply
+ an
+ excess
+ of
+ gaseous
+ oxygen
+ (O2) exiting
+together
+ with
+ the
+ combustion
+ gases.
+ In
+ the
+ air-reactor
+ the
+ CO2 and
+O2 concentration
+ decreased
+ when
+ the
+ temperature
+ increased
+ in
+ the
+fuel-reactor.
+The
+ corresponding
+ performance
+ parameters
+ (i.e.
+ combustion
+efﬁciency,
+ carbon
+ capture
+ efﬁciency
+ and
+ char
+ conversion)
+ to
+ the
+tests
+ shown
+ in
+ Table
+ 3
+ are
+ summarized
+ in
+ Table
+ 4.
+ Fig.
+ 5(a)–(c)
+shows
+ the
+ O2 and
+ CO2 concentration
+ (dry
+ basis)
+ exiting
+ from
+ the
+fuel-
+ and
+ air-reactors
+ as
+ a
+ function
+ of
+ the
+ fuel-reactor
+ temperature,
+the
+ coal
+ feeding
+ rate
+ and
+ the
+ solids
+ circulation
+ ﬂow
+ rate,
+ respec-
+tively.
+The
+ effect
+ of
+ the
+ fuel-reactor
+ temperature
+ on
+ the
+ CO2 and
+ O2
+concentration
+ in
+ the
+ air-
+ and
+ fuel-reactors
+ are
+ shown
+ in
+ Fig.
+ 5(a).
+ On
+the
+ one
+ hand,
+ both
+ O2 and
+ CO2 concentrations
+ from
+ the
+ fuel-reactor
+slightly
+ increased
+ with
+ the
+ temperature.
+ The
+ oxygen
+ concentration
+Table
+ 4
+Main
+ results
+ for
+ experimental
+ tests
+ in
+ the
+ continuous
+ CLOU
+ prototype
+ ICB-CSIC-s1.
+Test
+ 
+Combustion
+ efﬁciency
+ 
+Carbon
+ capture
+ efﬁciency
+CLOU01
+ 
+100
+ 
+96.0
+CLOU02
+ 
+100
+ 
+97.3
+CLOU03
+ 
+100
+ 
+99.1
+CLOU04
+ 
+100
+ 
+99.3
+CLOU05
+100
+ 
+97.8
+CLOU06
+ 
+100
+ 
+97.9
+CLOU07
+ 
+100
+ 
+97.8
+CLOU08
+ 
+100
+ 
+98.1
+CLOU09
+100
+ 
+97.5
+CLOU10
+100
+ 
+97.5
+CLOU11
+100
+ 
+97.1
+CLOU12
+ 
+100
+ 
+94.7
+
+
+===== Page 8 =====
+
+196
+ 
+A.
+ Abad
+ et
+ al.
+ / International
+ Journal
+ of
+ Greenhouse
+ Gas
+ Control
+ 6 (2012)
+ 189–200
+Solids flow rate (kg/h)
+16
+14
+12
+10
+8
+6
+4
+2
+0
+O2 (vol.% dry)
+0
+5
+10
+15
+20
+Coal feeding rate (g/h)
+250
+200
+150
+100
+50
+0
+Temperature (ºC)
+960
+940
+920
+900
+CO2 (vol.% dry)
+0.0
+0.3
+0.6
+0.9
+1.2
+CO2 (vol.%  dry)
+0
+10
+20
+30
+40
+50
+60
+70
+O2 (vol.% dry)
+0
+5
+10
+15
+(b)
+(a)
+(c)
+Fuel-Reactor
+Air-Reactor
+CO2
+CO2
+CO2
+CO2
+CO2
+CO2
+O2
+O2
+O2
+O2
+O2
+O2
+Fig.
+ 5.
+ CO2 and
+ O2 concentration
+ from
+ the
+ fuel-
+ and
+ air-reactors
+ obtained
+ at
+ different
+ (a)
+ fuel-reactor
+ temperatures,
+ (b)
+ coal
+ feeding
+ rates,
+ and
+ (c)
+ solids
+ circulation
+ ﬂow
+ rate.
+Fuel-reactor:
+ CO2 (⃝) and
+ O2 ().
+ Air-reactor:
+ CO2 (△)
+ and
+ O2 (▲).
+ Oxygen
+ concentration
+ at
+ equilibrium
+ in
+ the
+ fuel-reactor
+ (——).
+was
+ slightly
+ lower
+ than
+ the
+ equilibrium
+ concentration,
+ likely
+ due
+to
+ O2 reaction
+ in
+ the
+ freeboard
+ with
+ char
+ particles
+ or
+ un-burnt
+gases.
+ This
+ fact
+ was
+ in
+ contrast
+ to
+ the
+ O2 equilibrium
+ concentra-
+tion
+ observed
+ when
+ coal
+ was
+ not
+ fed
+ to
+ the
+ reactor
+ (t
+ <
+ 17
+ min).
+ On
+the
+ other
+ hand,
+ CO2 concentration
+ in
+ the
+ air-reactor
+ decreased
+ as
+the
+ fuel-reactor
+ temperature
+ increased.
+ This
+ fact
+ indicates
+ that
+ the
+amount
+ of
+ char
+ transferred
+ to
+ the
+ air-reactor
+ decreased
+ with
+ the
+fuel-reactor
+ temperature
+ because
+ of
+ the
+ higher
+ char
+ combustion
+rates
+ present
+ in
+ fuel-reactor.
+ However,
+ the
+ oxygen
+ concentration
+ in
+the
+ air-reactor
+ decreased
+ with
+ the
+ fuel-reactor
+ temperature.
+ This
+fact
+ is
+ evident
+ if
+ it
+ is
+ considered
+ that
+ in
+ addition
+ to
+ the
+ oxygen
+ used
+to
+ burn
+ coal,
+ which
+ is
+ constant,
+ also
+ oxygen
+ is
+ released
+ from
+ the
+fuel-reactor.
+ The
+ decrease
+ observed
+ in
+ O2 concentration
+ from
+ the
+air-reactor
+ was
+ due
+ to
+ a
+ higher
+ CuO
+ conversion
+ in
+ the
+ fuel-reactor
+when
+ increasing
+ the
+ fuel-reactor
+ temperature,
+ as
+ more
+ gaseous
+oxygen
+ is
+ released.
+The
+ effects
+ of
+ the
+ coal
+ feeding
+ rate
+ on
+ the
+ concentration
+ of
+ gases
+are
+ shown
+ in
+ Fig.
+ 5(b).
+ In
+ this
+ case,
+ it
+ is
+ observed
+ an
+ important
+ CO2
+concentration
+ increase
+ in
+ fuel-reactor
+ with
+ the
+ coal
+ feeding
+ rate,
+and
+ the
+ oxygen
+ concentration
+ in
+ the
+ air-reactor
+ decreases
+ corre-
+spondingly
+ to
+ the
+ increase
+ in
+ the
+ oxygen
+ demanded
+ by
+ the
+ coal
+fed.
+ The
+ oxygen
+ concentration
+ in
+ the
+ fuel-reactor
+ decreases
+ as
+ the
+coal
+ feeding
+ rate
+ increases.
+ Nevertheless,
+ the
+ oxygen-carrier
+ shows
+high
+ enough
+ rate
+ of
+ oxygen
+ generation
+ to
+ burn
+ all
+ the
+ coal
+ in
+ all
+cases
+ and
+ still
+ gives
+ an
+ excess
+ of
+ gaseous
+ oxygen.
+ Thus,
+ the
+ oxygen-
+carrier
+ reactivity
+ did
+ not
+ limit
+ the
+ O2 concentration
+ release.
+ Likely,
+the
+ decrease
+ in
+ the
+ oxygen
+ concentration
+ observed
+ was
+ due
+ to
+ a
+higher
+ amount
+ of
+ oxygen
+ reacting
+ in
+ the
+ freeboard.
+ If
+ the
+ oxygen
+concentration
+ at
+ the
+ fuel-reactor
+ outlet
+ was
+ constrained
+ by
+ the
+rate
+ of
+ oxygen
+ generation
+ of
+ the
+ oxygen-carrier,
+ a
+ sharp
+ decrease
+in
+ the
+ oxygen
+ concentration
+ until
+ values
+ close
+ to
+ zero
+ should
+ be
+observed
+ as
+ the
+ coal
+ feeding
+ rate
+ was
+ increased
+ (Adánez-Rubio
+et
+ al.,
+ submitted
+ for
+ publication-b).
+In  the
+ last
+ series
+ of
+ experiments,
+ it
+ was
+ studied
+ the
+ effect
+ of
+the
+ solids
+ circulation
+ ﬂow
+ rate
+ on
+ the
+ process
+ performance.
+ Solids
+circulation
+ ﬂow
+ rates
+ from
+ 3.7
+ to
+ 13.9
+ kg/h
+ were
+ used,
+ correspond-
+ing
+ to
+ 
+ values
+ from
+ 1.1
+ to
+ 4.0,
+ and
+ the
+ fuel-reactor
+ temperature
+was
+ 900 ◦C.
+ The
+ stoichiometric
+ ﬂow
+ of
+ solids
+ to
+ supply
+ the
+ oxygen
+needed
+ to
+ burn
+ the
+ coal
+ was
+ 3.5
+ kg/h.
+ Thus
+ the
+ solids
+ circulation
+ rate
+was
+ maintained
+ above
+ the
+ stoichiometric
+ ﬂow
+ of
+ solids,
+ although
+values
+ close
+ to
+ the
+ stoichiometric
+ ﬂow
+ were
+ used
+ in
+ test
+ CLOU10,
+where
+ the
+ oxygen-carrier
+ to
+ fuel
+ ratio
+ was
+ 1.1.
+ Fig.
+ 5(c)
+ shows
+ the
+O2 and
+ CO2 concentration
+ obtained
+ in
+ the
+ fuel-
+ and
+ air-reactors
+with
+ different
+ solids
+ circulation
+ ﬂow
+ rates.
+ CO2 concentration
+ in
+the
+ fuel-reactor
+ decreased
+ with
+ the
+ circulation
+ rate
+ with
+ the
+ cor-
+responding
+ increase
+ in
+ the
+ CO2 concentration
+ in
+ the
+ air-reactor.
+ In
+spite
+ of
+ the
+ low
+ 
+ ratio
+ used
+ in
+ this
+ experiment,
+ no
+ unburnt
+ gases
+were
+ detected.
+ In
+ all
+ cases,
+ H2O,
+ CO2 and
+ O2 were
+ observed
+ as
+ the
+only
+ product
+ gases
+ from
+ the
+ fuel-reactor.
+ Minor
+ variation
+ in
+ the
+concentration
+ of
+ gases
+ was
+ observed
+ when
+ the
+ oxygen-carrier
+ ﬂow
+rates
+ change.
+Fig.
+ 6(a)–(c)
+ shows
+ the
+ variation
+ of
+ solids
+ conversion
+ as
+ a
+ func-
+tion
+ of
+ the
+ fuel-reactor
+ temperature,
+ coal
+ feeding
+ rate
+ and
+ solids
+circulation
+ ﬂow
+ rate,
+ respectively.
+ The
+ molar
+ ﬂow
+ of
+ CO2 exiting
+from
+ the
+ fuel-reactor
+ is
+ also
+ shown
+ in
+ these
+ Figures.
+Fig.
+ 6(a)
+ shows
+ that
+ the
+ increase
+ in
+ the
+ fuel-reactor
+ temper-
+ature
+ produced
+ an
+ increase
+ in
+ the
+ CO2 ﬂow
+ at
+ the
+ outlet
+ of
+ the
+fuel-reactor.
+ Moreover,
+ as
+ higher
+ is
+ O2 concentration
+ and
+ more
+char
+ is
+ burning
+ in
+ the
+ fuel-reactor,
+ the
+ variation
+ of
+ solids
+ conver-
+sion
+ slightly
+ increases
+ with
+ fuel-reactor
+ temperature.
+ Although,
+ the
+variation
+ of
+ solids
+ conversion
+ in
+ the
+ fuel-reactor
+ was
+ very
+ high,
+≈80%
+ in
+ all
+ cases,
+ there
+ were
+ not
+ problems
+ with
+ the
+ ﬂuidization
+behaviour.
+Fig.
+ 6(b)
+ shows
+ the
+ CO2 molar
+ ﬂow
+ from
+ the
+ fuel-reactor
+ and
+the
+ oxygen-carrier
+ conversion
+ as
+ a
+ function
+ of
+ coal
+ feeding
+ rate.
+ In
+all
+ cases
+ the
+ ratio
+ of
+ oxygen-carrier
+ to
+ fuel
+ is
+ above
+ the
+ stoichio-
+metric
+ value.
+ At
+ these
+ conditions,
+ there
+ was
+ an
+ excess
+ of
+ oxygen
+in
+ the
+ circulating
+ solids
+ and
+ the
+ coal
+ combustion
+ was
+ not
+ limited
+by
+ the
+ availability
+ of
+ reactant.
+ As
+ expected,
+ the
+ CO2 ﬂow
+ from
+ fuel-
+reactor
+ increased
+ with
+ the
+ coal
+ feeding
+ rate
+ because
+ more
+ fuel
+ is
+burnt.
+ Also,
+ more
+ oxygen
+ is
+ transferred
+ between
+ the
+ two
+ reactors,
+as
+ it
+ is
+ indicated
+ by
+ the
+ increase
+ of
+ the
+ variation
+ of
+ solids
+ conver-
+sion
+ between
+ 23
+ and
+ 90%.
+ The
+ highest
+ coal
+ feeding
+ rate
+ tested
+ was
+0.256
+ kg/h
+ (test
+ CLOU09).
+ The
+ solids
+ inventory
+ in
+ the
+ fuel-reactor
+ at
+
+
+===== Page 9 =====
+
+A.
+ Abad
+ et
+ al.
+ / International
+ Journal
+ of
+ Greenhouse
+ Gas
+ Control
+ 6
+ (2012)
+ 189–200
+ 
+197
+Temperature (ºC)
+900 
+920 
+940 
+960
+ΔXOC (-)
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Coal  feeding rate (g/h)
+0 
+50 
+100 150 200 250
+Solids flow rate (kg/h)
+0 
+2
+4
+6
+ 
+8 10 12 14 16
+CO2 flow from FR (mol/h)
+0
+5
+10
+15
+)
+c
+(
+)
+b
+(
+)
+a
+(
+Fig.
+ 6.
+ Variation
+ of
+ the
+ oxygen-carrier
+ conversion
+ (△)
+ and
+ ﬂow
+ of
+ CO2 exiting
+ from
+ the
+ fuel-reactor
+ ()
+ at
+ different
+ (a)
+ fuel-reactor
+ temperatures,
+ (b)
+ coal
+ feeding
+ rates,
+ and
+(c)
+ solids
+ circulation
+ ﬂow
+ rate.
+this
+ condition
+ was
+ 235
+ kg/MWth.
+ At
+ this
+ condition,
+ oxygen-carrier
+particles
+ were
+ elutriated
+ from
+ the
+ fuel-reactor
+ because
+ the
+ high
+amount
+ of
+ gases
+ generated
+ in
+ the
+ bed.
+ Nevertheless,
+ during
+ the
+short
+ time
+ of
+ stable
+ operation
+ (about
+ 15
+ min)
+ full
+ conversion
+ of
+ coal
+to
+ CO2 and
+ H2O
+ was
+ observed,
+ unburnt
+ gases
+ were
+ not
+ detected
+ and
+there
+ was
+ an
+ excess
+ of
+ O2 present.
+ Unfortunately,
+ the
+ growth
+ up
+ of
+gas
+ velocity
+ in
+ the
+ bed
+ prevented
+ to
+ work
+ with
+ larger
+ coal
+ feed-
+ing
+ rates,
+ although
+ the
+ Cu60MgAl
+ oxygen-carrier
+ would
+ be
+ able
+ to
+supply
+ the
+ oxygen
+ demanded
+ by
+ coal.
+Fig.
+ 7
+ shows
+ the
+ rate
+ of
+ oxygen
+ generation,
+ deﬁned
+ in
+ Eq.
+ (19),
+by
+ Cu60MgAl
+ oxygen-carrier
+ as
+ a
+ function
+ of
+ the
+ coal
+ feeding
+ rate,
+corresponding
+ to
+ the
+ ﬂows
+ of
+ CO2, H2O
+ and
+ O2 exiting
+ from
+ the
+fuel-reactor.
+ It
+ can
+ be
+ seen
+ that
+ the
+ oxygen
+ transferred
+ increases
+proportionally
+ to
+ the
+ increase
+ in
+ the
+ coal
+ feeding
+ rate.
+ The
+ upper
+limit
+ for
+ the
+ oxygen
+ generation
+ rate
+ using
+ Cu60MgAl
+ oxygen-
+carrier
+ was
+ not
+ reached
+ in
+ the
+ CLOU
+ facility,
+ although
+ a
+ low
+ solid
+inventory
+ was
+ used
+ (235
+ kg/MWth).
+ This
+ conﬁrms
+ the
+ statement
+made
+ that
+ in
+ this
+ system
+ the
+ oxygen
+ evolved
+ in
+ the
+ fuel-reactor
+is
+ not
+ limited
+ by
+ the
+ reaction
+ rate
+ of
+ oxygen-carrier,
+ but
+ for
+ the
+demand
+ of
+ oxygen
+ by
+ coal.
+As
+ a
+ consequence,
+ limited
+ effect
+ on
+ the
+ oxygen
+ generation
+rate,
+ i.e.
+ the
+ sum
+ of
+ O2 and
+ CO2 ﬂows,
+ was
+ observed
+ when
+ the
+temperature
+ or
+ the
+ solids
+ circulation
+ ﬂow
+ rate
+ (Fig.
+ 6(c))
+ was
+varied,
+ even
+ though
+ the
+ variation
+ of
+ the
+ solids
+ conversion
+ was
+ as
+Coal feeding rate (g/h)
+300
+250
+200
+150
+100
+50
+0
+(-rO2) (kg O2/s per kg of OC)
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+240
+600
+1200
+(kg/MW
+OC inventory
+th
+ 
+)
+Fig.
+ 7.
+ Rate
+ of
+ oxygen
+ transferred
+ by
+ Cu60MgAl
+ oxygen-carrier
+ as
+ a
+ function
+ of
+ the
+coal
+ feeding
+ rate
+ and
+ the
+ oxygen-carrier
+ inventory.
+high
+ as
+ 0.92.
+ Thus,
+ high
+ reactivity
+ of
+ the
+ oxygen-carrier
+ was
+ found
+in
+ a
+ wide
+ range
+ of
+ variation
+ of
+ the
+ solids
+ conversion.
+Fig.
+ 8(a)–(c)
+ shows
+ the
+ carbon
+ capture
+ efﬁciency,
+ char
+ conver-
+sion
+ and
+ the
+ combustion
+ efﬁciency
+ as
+ a
+ function
+ of
+ the
+ fuel-reactor
+temperature,
+ the
+ coal
+ feeding
+ rate
+ and
+ the
+ solids
+ circulation
+ ﬂow
+rate.
+ Complete
+ combustion
+ to
+ CO2 and
+ H2O
+ of
+ the
+ coal
+ was
+ observed
+either
+ in
+ the
+ fuel-reactor
+ or
+ the
+ air-reactor,
+ i.e.
+ comb =
+ 100%.
+ How-
+ever,
+ the
+ char
+ conversion
+ in
+ the
+ fuel-reactor
+ determines
+ the
+ carbon
+capture
+ efﬁciency
+ in
+ the
+ CLOU
+ system
+ by
+ the
+ undesirable
+ CO2 emis-
+sions
+ in
+ the
+ air-reactor
+ outlet.
+It
+ can
+ be
+ seen
+ that
+ high
+ values
+ of
+ CO2 capture
+ efﬁciency
+ were
+obtained
+ in
+ all
+ cases.
+ It
+ is
+ noteworthy
+ the
+ positive
+ effect
+ of
+ fuel-
+reactor
+ temperature
+ on
+ the
+ CO2 capture
+ efﬁciency,
+ see
+ Fig.
+ 8(a).
+Thus,
+ when
+ the
+ fuel-reactor
+ temperature
+ was
+ 960 ◦C,
+ 99%
+ of
+ carbon
+in
+ coal
+ is
+ captured,
+ i.e.
+ only
+ 1%
+ of
+ carbon
+ is
+ exiting
+ in
+ the
+ air-reactor
+outlet
+ gas
+ stream.
+ The
+ reason
+ for
+ this
+ high
+ CO2 capture
+ efﬁciency
+ is
+a
+ fast
+ conversion
+ of
+ char
+ in
+ the
+ fuel-reactor
+ by
+ combustion
+ with
+gaseous
+ oxygen.
+ Fig.
+ 8(a)
+ also
+ shows
+ values
+ of
+ char
+ conversion
+above
+ 96%,
+ which
+ increases
+ with
+ the
+ temperature.
+ In
+ that
+ sense,
+the
+ CO2 ﬂow
+ from
+ the
+ air-reactor
+ decreased
+ with
+ the
+ fuel-reactor
+temperature
+ because
+ more
+ char
+ is
+ burned
+ in
+ the
+ fuel-reactor.
+ There
+is
+ a
+ lower
+ char
+ concentration
+ in
+ fuel-reactor
+ due
+ to
+ the
+ higher
+ char
+combustion
+ rates
+ and
+ a
+ lower
+ amount
+ of
+ carbon
+ is
+ transferred
+ to
+the
+ air-reactor.
+The
+ fuel
+ load
+ had
+ no
+ relevant
+ effect
+ on
+ the
+ CO2 capture
+ efﬁ-
+ciency;
+ see
+ Fig.
+ 8(b).
+ Since
+ the
+ circulation
+ rate
+ and
+ the
+ temperature
+are
+ kept
+ constant
+ and
+ there
+ is
+ an
+ oxygen
+ excess
+ in
+ all
+ cases,
+ the
+resulting
+ CO2 capture
+ efﬁciency
+ for
+ the
+ different
+ coal
+ feeding
+ rates
+does
+ not
+ change
+ substantially.
+ Thus,
+ at
+ the
+ conditions
+ used
+ in
+ the
+CLOU
+ system,
+ the
+ oxygen
+ generated
+ in
+ the
+ fuel-reactor
+ was
+ not
+ lim-
+ited
+ by
+ the
+ reactivity
+ of
+ this
+ oxygen-carrier,
+ i.e.
+ the
+ more
+ oxygen
+ is
+demanded,
+ more
+ oxygen
+ is
+ supplied.
+Finally,
+ Fig.
+ 8(c)
+ shows
+ that
+ an
+ increase
+ in
+ the
+ solids
+ circulation
+ﬂow
+ causes
+ a
+ decrease
+ in
+ the
+ char
+ conversion
+ and
+ in
+ the
+ CO2 cap-
+ture
+ efﬁciency.
+ This
+ result
+ for
+ CLOU
+ with
+ solid
+ fuels
+ is
+ opposite
+ to
+the
+ trend
+ found
+ for
+ CLC
+ with
+ gaseous
+ fuels,
+ for
+ which
+ it
+ was
+ found
+that
+ higher
+ solids
+ circulation
+ rate
+ leads
+ to
+ better
+ performance
+ of
+the
+ system
+ (Adánez
+ et
+ al.,
+ 2011).
+ For
+ gaseous
+ fuels
+ the
+ determining
+factor
+ is
+ to
+ have
+ oxygen
+ available
+ to
+ fully
+ oxidize
+ the
+ fuel,
+ whereas
+for
+ solid
+ fuels
+ more
+ factors
+ come
+ into
+ consideration.
+ The
+ fact
+ that
+there
+ must
+ be
+ enough
+ residence
+ time
+ for
+ char
+ combustion
+ deter-
+mines
+ this
+ resulting
+ trend
+ for
+ solid
+ fuels
+ in
+ this
+ facility.
+ Therefore,
+the
+ negative
+ effect
+ of
+ the
+ solids
+ circulation
+ rate
+ on
+ the
+ char
+ conver-
+sion
+ was
+ due
+ to
+ the
+ decrease
+ in
+ the
+ residence
+ time
+ of
+ solids
+ in
+ the
+fuel-reactor.
+Both
+ char
+ and
+ oxygen-carrier
+ conversions
+ were
+ plotted
+ in
+ Fig.
+ 9
+against
+ mean
+ residence
+ time
+ in
+ the
+ fuel-reactor.
+ Obviously,
+ the
+greater
+ is
+ the
+ residence
+ time
+ in
+ the
+ fuel-reactor,
+ which
+ is
+ inversely
+
+
+===== Page 10 =====
+
+198
+ 
+A.
+ Abad
+ et
+ al.
+ / International
+ Journal
+ of
+ Greenhouse
+ Gas
+ Control
+ 6 (2012)
+ 189–200
+Temperature (ºC)
+960
+940
+920
+900
+Efficiency (%)
+90
+92
+94
+96
+98
+100
+Coal feeding rate (g/h)
+250
+200
+150
+100
+50
+0
+Solids flow rate (kg/h)
+16
+14
+12
+10
+ 
+8
+6
+4
+2
+0
+Xchar (-)
+0.90
+0.92
+0.94
+0.96
+0.98
+1.00
+(c)
+(b)
+(a)
+Fig.
+ 8.
+ Carbon
+ capture
+ efﬁciency
+ (),
+ char
+ conversion
+ (△)
+ and
+ combustion
+ efﬁciency
+ (▲)
+ at
+ different
+ (a)
+ fuel-reactor
+ temperatures,
+ (b)
+ coal
+ feeding
+ rates,
+ and
+ (c)
+ solids
+circulation
+ ﬂow
+ rate.
+Mean residence time (s)
+600
+500
+400
+300
+200
+100
+0
+ΔXOX (-)
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Xchar (-)
+0.80
+0.85
+0.90
+0.95
+1.00
+3.7
+7.0
+13.9
+4.2
+S
+m (kg/h)
+Fig.
+ 9.
+ Variation
+ of
+ the
+ oxygen-carrier
+ conversion
+ ()
+ and
+ char
+ conversion
+ (△)
+ as
+ a
+function
+ of
+ the
+ mean
+ residence
+ time
+ of
+ solids
+ in
+ the
+ fuel-reactor.
+ Experimental
+ test
+series
+ CLOU01
+ and
+ CLOU10–CLOU12.
+ TFR =
+ 900 ◦C.
+proportional
+ to
+ the
+ solids
+ circulation
+ ﬂow
+ rate,
+ the
+ higher
+ are
+ the
+oxygen-carrier
+ and
+ char
+ conversion.
+ A
+ residence
+ time
+ above
+ 300
+ s
+ is
+needed
+ to
+ get
+ a
+ char
+ conversion
+ about
+ 97%
+ at
+ 900 ◦C
+ with
+ this
+ coal.
+Notice
+ that
+ the
+ mean
+ residence
+ time
+ to
+ convert
+ a
+ certain
+ fraction
+of
+ char
+ will
+ decrease
+ when
+ the
+ fuel-reactor
+ temperature
+ increases.
+Thus,
+ a
+ char
+ conversion
+ of
+ 99%
+ was
+ obtained
+ of
+ 960 ◦C
+ with
+ a
+ resi-
+dence
+ time
+ of
+ 470
+ s.
+4.
+ Discussion
+4.1.
+ Operating
+ temperature
+ in
+ the
+ reactors
+The
+ operating
+ temperature
+ in
+ each
+ reactor
+ is
+ a
+ key
+ parameter
+ in
+the
+ CLOU
+ process,
+ since
+ the
+ oxygen
+ concentration
+ at
+ equilibrium
+condition
+ is
+ highly
+ dependent
+ on
+ temperature.
+When
+ fuel-reactor
+ temperature
+ increases,
+ carbon
+ capture
+ and
+char
+ conversion
+ also
+ increase.
+ This
+ is
+ due
+ to
+ a
+ faster
+ combus-
+tion
+ rate
+ of
+ char
+ at
+ higher
+ temperatures
+ together
+ with
+ a
+ high
+equilibrium
+ partial
+ pressure
+ of
+ oxygen
+ by
+ oxygen-carrier.
+ Thus,
+an
+ equilibrium
+ concentration
+ of
+ 1.5
+ vol%
+ O2 can
+ be
+ reached
+ in
+the
+ fuel-reactor
+ at
+ 900 ◦C
+ for
+ CuO/Cu2O
+ system,
+ whereas
+ the
+equilibrium
+ concentration
+ increases
+ up
+ to
+ 12.4
+ vol%
+ at
+ 1000 ◦C.
+ In
+addition,
+ the
+ consumption
+ of
+ oxygen
+ by
+ combustion
+ of
+ the
+ fuel
+improves
+ the
+ decomposition
+ reaction
+ of
+ the
+ metal
+ oxide
+ particles.
+In
+ order
+ to
+ optimize
+ the
+ power
+ plant
+ efﬁciency
+ it
+ is
+ important
+to
+ keep
+ the
+ outlet
+ partial
+ pressure
+ of
+ O2 from
+ the
+ air-reactor
+ as
+ low
+as
+ possible
+ while
+ combustion
+ products
+ are
+ only
+ CO2 and
+ H2O.
+ This
+concentration
+ will
+ depend
+ on
+ the
+ oxygen-carrier
+ reactivity
+ for
+ oxi-
+dation
+ reaction
+ and
+ the
+ O2 equilibrium
+ concentration
+ with
+ CuO
+ at
+the
+ actual
+ air-reactor
+ temperature.
+ In
+ the
+ air-reactor,
+ CuO
+ is
+ stable
+below
+ 950 ◦C
+ if
+ the
+ maximum
+ oxygen
+ concentration
+ from
+ the
+ air-
+reactor
+ is
+ 4.5
+ vol%,
+ whereas
+ will
+ be
+ stable
+ below
+ 900 ◦C
+ at
+ 1.5
+ vol%.
+Thus,
+ the
+ use
+ of
+ O2 in
+ air
+ is
+ higher
+ as
+ the
+ temperature
+ is
+ lower.
+ This
+is
+ the
+ reason
+ for
+ ﬁxing
+ the
+ air-reactor
+ temperature
+ at
+ 900 ◦C
+ during
+the
+ experimental
+ work.
+It is
+ clear
+ that
+ the
+ air-
+ and
+ fuel-reactor
+ temperatures
+ in
+ the
+process
+ must
+ be
+ adjusted
+ according
+ with
+ the
+ thermodynamic
+ equi-
+librium
+ and
+ reaction
+ kinetics
+ in
+ order
+ to
+ optimize
+ the
+ process.
+ In
+fact,
+ reaction
+ kinetics
+ of
+ CuO
+ decomposition
+ (reaction
+ (5))  could
+be
+ more
+ relevant
+ than
+ the
+ oxygen
+ concentration
+ at
+ equilibrium
+conditions
+ in
+ the
+ fuel-reactor.
+The
+ high
+ temperature
+ dependency
+ of
+ the
+ oxygen
+ concentra-
+tion
+ in
+ the
+ CLOU
+ process
+ makes
+ the
+ thermal
+ integration
+ between
+fuel-reactor
+ and
+ air-reactor
+ a
+ key
+ aspect
+ in
+ the
+ development
+ of
+ the
+technology.
+ According
+ to
+ the
+ energy
+ balance
+ to
+ the
+ CLOU
+ system,
+it
+ was
+ thought
+ that
+ to
+ reach
+ the
+ thermal
+ integration
+ in
+ the
+ CLOU
+system,
+ the
+ fuel-reactor
+ temperature
+ should
+ be
+ higher
+ than
+ air-
+reactor
+ temperature
+ (Eyring
+ et
+ al.,
+ 2011;
+ Mattisson
+ et
+ al.,
+ 2009a).
+As
+ example,
+ Eyring
+ et
+ al.
+ (2011)
+ showed
+ a
+ design
+ of
+ a
+ CLOU
+ sys-
+tem
+ where
+ the
+ air-reactor
+ was
+ at
+ 850 ◦C
+ and
+ the
+ fuel-reactor
+ was
+at
+ 950 ◦C.
+ Thus,
+ high
+ temperatures,
+ near
+ 950 ◦C,
+ in
+ the
+ fuel-reactor
+allow
+ a
+ better
+ combustion
+ and
+ an
+ increase
+ in
+ the
+ carbon
+ capture
+efﬁciency,
+ because
+ there
+ is
+ more
+ oxygen
+ to
+ burn
+ the
+ fuel.
+ A
+ lower
+temperature
+ in
+ the
+ air-reactor
+ allows
+ a
+ high
+ oxidation
+ reaction
+ rate.
+This
+ is
+ due
+ to
+ the
+ oxidation
+ reaction
+ rate
+ is
+ carried
+ out
+ with
+ the
+ driv-
+ing
+ force
+ of
+ the
+ difference
+ between
+ the
+ inlet
+ oxygen
+ concentration
+(21
+ vol%
+ in
+ this
+ case)
+ and
+ the
+ oxygen
+ concentration
+ at
+ equilibrium
+(1.5
+ vol%
+ at
+ 900 ◦C).
+ Nevertheless,
+ in
+ this
+ work
+ it
+ has
+ been
+ shown
+that
+ it
+ is
+ possible
+ to
+ work
+ with
+ both
+ fuel-
+ and
+ air-reactors,
+ at
+ the
+same
+ temperature
+ (900 ◦C),
+ keeping
+ fuel
+ combustion
+ in
+ the
+ CLOU
+system.
+ Even
+ uncoupling
+ behaviour
+ was
+ demonstrated
+ to
+ work
+at
+ fuel-reactor
+ temperature
+ lower
+ than
+ air-reactor
+ temperature
+(Adánez-Rubio
+ et
+ al.,
+ submitted
+ for
+ publication-a).
+ This
+ fact
+ permits
+to
+ increase
+ the
+ degree
+ of
+ freedom
+ in
+ the
+ design
+ of
+ a
+ CLOU
+ sys-
+tem.
+ For
+ example,
+ the
+ required
+ energy
+ extraction
+ from
+ the
+ air-
+ and
+fuel-reactors
+ can
+ be
+ ﬁtted
+ to
+ obtain
+ desired
+ temperatures
+ in
+ both
+reactors
+ (Eyring
+ et
+ al.,
+ 2011).
+4.2.
+ Performance
+ of
+ the
+ CLOU
+ system
+From
+ results
+ showed
+ in
+ this
+ work
+ during
+ CLOU
+ operation,
+ char
+conversions
+ from
+ 96
+ to
+ 99%
+ were
+ obtained
+ in
+ the
+ fuel-reactor
+with
+ losses
+ from
+ 4
+ to
+ 1%
+ of
+ carbon
+ in
+ the
+ air-reactor
+ as
+ CO2. No
+un-burnt
+ gases
+ were
+ observed,
+ being
+ the
+ combustion
+ efﬁciency
+
+
+===== Page 11 =====
+
+A.
+ Abad
+ et
+ al.
+ / International
+ Journal
+ of
+ Greenhouse
+ Gas
+ Control
+ 6
+ (2012)
+ 189–200
+ 
+199
+in
+ the
+ fuel-reactor
+ 100%
+ using
+ Cu60MgAl
+ as
+ oxygen-carrier.
+ In
+ all
+CLOU
+ tests,
+ coal
+ was
+ fully
+ converted
+ either
+ or
+ in
+ the
+ fuel-reactor
+or
+ in
+ the
+ air-reactor.
+ A
+ carbon
+ capture
+ of
+ 97.5%
+ was
+ reached
+ using
+an
+ oxygen-carrier
+ inventory
+ in
+ the
+ fuel-reactor
+ of
+ ≈235
+ kg/MWth.
+Likely,
+ a
+ lower
+ inventory
+ of
+ solids
+ could
+ be
+ used
+ in
+ the
+ plant
+ reach-
+ing
+ also
+ full
+ conversion
+ of
+ fuel
+ to
+ CO2 and
+ H2O.
+ However,
+ at
+ the
+highest
+ coal
+ load,
+ the
+ gases
+ generated
+ during
+ combustion
+ in
+ the
+fuel-reactor
+ caused
+ an
+ increase
+ in
+ the
+ gas
+ velocity
+ (3–4
+ times
+ the
+inlet
+ velocity),
+ which
+ was
+ responsible
+ of
+ particle
+ elutriation
+ from
+the
+ bed.
+ To
+ make
+ possible
+ to
+ operate
+ at
+ high
+ velocity
+ a
+ design
+ of
+ the
+fuel-reactor
+ as
+ a
+ circulating
+ ﬂuidized
+ bed
+ itself
+ can
+ be
+ used.
+Some
+ gas
+ phase
+ oxygen
+ was
+ present
+ together
+ with
+ the
+ CO2
+stream,
+ which
+ should
+ be
+ treated
+ in
+ a
+ similar
+ way
+ that
+ in
+ the
+ exhaust
+gases
+ in
+ an
+ oxyfuel
+ system.
+ It
+ should
+ be
+ desirable
+ to
+ get
+ low
+ con-
+centration
+ of
+ oxygen
+ from
+ the
+ fuel-reactor
+ in
+ order
+ to
+ obtain
+ a
+high
+ purity
+ CO2 stream.
+ It
+ must
+ be
+ considered
+ in
+ the
+ CLOU
+ process
+that
+ two
+ different
+ reactions
+ take
+ place
+ in
+ the
+ fuel-reactor,
+ namely
+the
+ reaction
+ rate
+ of
+ oxygen
+ release
+ by
+ the
+ oxygen-carrier
+ and
+ the
+combustion
+ rate
+ of
+ the
+ fuel,
+ and
+ the
+ relation
+ between
+ must
+ be
+ con-
+sidered.
+ Thus,
+ the
+ CLOU
+ system
+ must
+ be
+ designed
+ having
+ enough
+amount
+ of
+ oxygen-carrier
+ to
+ release
+ oxygen
+ to
+ burn
+ the
+ fuel,
+ and
+high
+ enough
+ amount
+ of
+ solid
+ fuel
+ to
+ avoid
+ an
+ excess
+ of
+ oxygen
+ in
+the
+ outlet
+ stream
+ from
+ the
+ fuel-reactor.
+ The
+ optimum
+ oxygen
+ con-
+centration
+ in
+ the
+ fuel-reactor
+ will
+ be
+ a
+ compromise
+ between
+ the
+O2 generation
+ by
+ the
+ oxygen-carrier
+ and
+ the
+ oxygen
+ consumption
+by
+ the
+ fuel.
+ Thus,
+ it
+ has
+ been
+ showed
+ in
+ this
+ work
+ that
+ increasing
+the
+ coal
+ feeding
+ the
+ oxygen
+ concentration
+ approach
+ to
+ zero,
+ while
+the
+ good
+ performance
+ of
+ the
+ system
+ is
+ not
+ modiﬁed.
+ This
+ situation
+can
+ be
+ beneﬁcial
+ in
+ order
+ to
+ obtain
+ a
+ CO2 stream
+ with
+ low
+ oxygen
+concentration.
+A
+ comparison
+ between
+ the
+ CLOU
+ process
+ and
+ the
+ CLC
+ with
+ coal
+using
+ Fe-based
+ oxygen-carrier
+ can
+ be
+ done.
+ In
+ the
+ CLC
+ with
+ coal,
+char
+ is
+ gasiﬁed
+ by
+ steam
+ and/or
+ CO2 in
+ the
+ fuel-reactor.
+ Cuadrat
+et
+ al.
+ (2011)
+ showed
+ that
+ in
+ the
+ same
+ ICB-CSIC-s1
+ facility
+ a
+ char
+ con-
+version
+ of
+ 80%
+ and
+ a
+ combustion
+ efﬁciency
+ of
+ 96%
+ were
+ obtained
+with
+ ilmenite
+ inventory
+ of
+ about
+ 1800
+ kg/MWth at
+ temperature
+ of
+950 ◦C.
+ The
+ fuel
+ was
+ the
+ same
+ Colombian
+ coal,
+ but
+ ilmenite
+ does
+not
+ have
+ oxygen
+ uncoupling
+ properties.
+ So,
+ the
+ char
+ was
+ converted
+by
+ steam
+ gasiﬁcation
+ in
+ the
+ fuel-reactor.
+ An
+ oxygen
+ polishing
+ step
+has
+ been
+ proposed
+ (Berguerand
+ and
+ Lyngfelt,
+ 2008,
+ 2009)
+ to
+ con-
+vert
+ the
+ un-burnt
+ gases
+ in
+ the
+ fuel-reactor
+ outlet
+ stream,
+ which
+demands
+ from
+ 5
+ to
+ 10%
+ of
+ total
+ oxygen
+ required
+ for
+ coal
+ combus-
+tion.
+Rates
+ of
+ char
+ conversion
+ per
+ unit
+ of
+ carbon
+ mass
+ in
+ char
+ can
+ be
+used
+ to
+ carry
+ out
+ a
+ comparison
+ between
+ both
+ CLC
+ options
+ with
+ solid
+fuels.
+ The
+ fractional
+ conversion
+ rate
+ of
+ the
+ char,
+ (−rC),
+ depends
+ on
+the
+ char
+ conversion
+ in
+ the
+ fuel-rector
+ and
+ the
+ mean
+ residence
+ time
+of
+ char
+ particles
+ in
+ this
+ reactor,
+ char. The
+ rate
+ of
+ char
+ conversion
+was
+ calculated
+ as
+ follow:
+(−rC)
+ = Xchar
+char
+(25)
+char is
+ related
+ with
+ the
+ mean
+ residence
+ time
+ of
+ solids
+ in
+ the
+ fuel-
+reactor
+ with
+ the
+ following
+ equation:
+char =
+ FR · (1
+ −
+ Xchar)
+ 
+(26)
+The
+ ﬂow
+ of
+ carbon
+ exiting
+ from
+ the
+ fuel-reactor
+ is
+ equal
+ to
+ carbon
+entering
+ to
+ air-reactor,
+ which
+ is
+ emitted
+ as
+ CO2 in
+ the
+ air-reactor.
+Fig.
+ 10
+ shows
+ the
+ fractional
+ conversion
+ rate
+ of
+ the
+ char
+ calcu-
+lated
+ with
+ this
+ simpliﬁed
+ model
+ as
+ a
+ function
+ of
+ the
+ fuel-reactor
+temperature
+ with
+ CLOU
+ process.
+ As
+ expected,
+ it
+ can
+ be
+ seen
+ that
+char
+ conversion
+ rate
+ increases
+ with
+ temperature.
+ Char
+ conversion
+rates
+ are
+ 60
+ times
+ faster
+ than
+ those
+ obtained
+ by
+ Cuadrat
+ et
+ al.
+ (2011)
+using
+ ilmenite
+ for
+ chemical-looping
+ combustion
+ of
+ coal
+ were
+ found.
+Experiments
+ carried
+ out
+ at
+ 900 ◦C
+ showed
+ that
+ the
+ char
+ conversion
+Tem
+ 
+peratu
+ re (ºC)
+900
+92
+ 
+0 
+940 
+960
+98
+ 
+0
+(-rC) (%/s)
+0
+5
+10
+15
+20
+25
+30
+35
+40
+Fig.
+ 10.
+ Fractional
+ conversion
+ rate
+ of
+ char
+ for
+ Cu60MgAl
+ ()
+ and
+ ilmenite
+ (△)
+ as
+a
+ function
+ of
+ fuel-reactor
+ temperature.
+ Data
+ obtained
+ with
+ ilmenite
+ taken
+ from
+(Cuadrat
+ et
+ al.,
+ 2011).
+rate
+ remained
+ constant
+ with
+ increasing
+ mean
+ residence
+ times
+ of
+the
+ char
+ in
+ the
+ fuel-reactor.
+The
+ main
+ reason
+ for
+ this
+ important
+ difference
+ in
+ the
+ carbon
+ cap-
+ture
+ performance
+ between
+ CLC
+ with
+ coal
+ and
+ CLOU
+ is
+ the
+ different
+way
+ which
+ char
+ is
+ converted.
+ In
+ CLC
+ with
+ coal,
+ char
+ is
+ converted
+through
+ gasiﬁcation
+ by
+ H2O
+ and/or
+ CO2 which
+ is
+ slower
+ than
+combustion
+ with
+ O2 happening
+ in
+ the
+ CLOU
+ process.
+ As
+ the
+ char
+conversion
+ is
+ fast
+ for
+ the
+ CLOU
+ process,
+ the
+ carbon
+ capture
+ efﬁ-
+ciency
+ was
+ high
+ with
+ the
+ Colombia
+ “El
+ Cerrejón”
+ coal:
+ above
+ 97%
+ in
+all
+ cases,
+ and
+ reached
+ 99%
+ at
+ the
+ higher
+ temperature
+ tested
+ (960 ◦C).
+Nevertheless,
+ values
+ somewhat
+ lower
+ could
+ be
+ obtained
+ if
+ less
+ reac-
+tive
+ coals
+ were
+ used
+ as
+ fuel.
+ If
+ required,
+ a
+ system
+ to
+ separate
+ chars
+from
+ oxygen-carrier
+ particles
+ in
+ the
+ exiting
+ stream
+ of
+ solids
+ from
+the
+ fuel-reactor
+ could
+ be
+ used,
+ e.g.
+ a
+ carbon
+ stripper.
+ Nevertheless,
+the
+ amount
+ of
+ unconverted
+ char
+ recovered
+ by
+ the
+ carbon
+ stripper
+in
+ the
+ CLOU
+ will
+ be
+ always
+ lower
+ than
+ in
+ CLC
+ with
+ coal.
+The
+ combustion
+ efﬁciency
+ in
+ CLOU
+ and
+ CLC
+ process
+ could
+ be
+inﬂuenced
+ by
+ the
+ differences
+ in
+ contact
+ between
+ the
+ volatiles
+evolved
+ from
+ the
+ solid
+ fuel
+ and
+ the
+ oxygen
+ in
+ the
+ form
+ of
+ gaseous
+O2 in
+ CLOU
+ or
+ metal
+ oxide
+ in
+ CLC.
+ Thus,
+ volatiles
+ must
+ diffuse
+ to
+emulsion
+ phase
+ to
+ react
+ with
+ the
+ oxygen-carrier
+ in
+ the
+ CLC
+ with
+solids
+ fuels.
+ In
+ this
+ case,
+ the
+ gas–solid
+ contact
+ efﬁciency
+ is
+ low.
+ On
+the
+ contrary,
+ in
+ the
+ CLOU
+ process,
+ gaseous
+ oxygen
+ is
+ evolved
+ in
+emulsion,
+ and
+ must
+ mix
+ with
+ volatiles
+ as
+ in
+ common
+ ﬂuidized
+ bed
+combustion.
+ It
+ seems
+ that
+ this
+ process
+ is
+ more
+ effective
+ oxidizing
+volatile
+ compounds.
+In
+ short,
+ very
+ good
+ behaviour
+ during
+ coal
+ combustion
+ has
+ been
+showed
+ by
+ the
+ CLOU
+ process.
+ Carbon
+ capture
+ efﬁciency
+ can
+ be
+ close
+to
+ 100%
+ and
+ full
+ combustion
+ of
+ fuel
+ to
+ CO2 and
+ H2O
+ was
+ obtained,
+which
+ avoids
+ the
+ need
+ of
+ an
+ oxygen
+ polishing
+ step
+ downstream.
+5.
+ Conclusions
+Coal
+ Combustion
+ in
+ a
+ continuous
+ 1.5
+ kWth CLOU
+ unit
+ system
+was
+ carried
+ out
+ during
+ 18
+ h
+ with
+ combustion
+ of
+ coal
+ and
+ 30
+ h
+ of
+ hot
+ﬂuidization
+ operation,
+ using
+ an
+ oxygen-carrier
+ prepared
+ by
+ spray
+drying
+ with
+ 60
+ wt.%
+ of
+ CuO
+ and
+ MgAl2O4 as
+ inert.
+ The
+ effect
+ of
+ oper-
+ating
+ conditions
+ –
+ such
+ as
+ temperature
+ of
+ the
+ fuel-reactor,
+ solids
+circulation
+ rate
+ and
+ the
+ coal
+ feeding
+ rate
+ –
+ on
+ the
+ carbon
+ capture
+efﬁciency,
+ and
+ the
+ combustion
+ efﬁciency
+ were
+ investigated.
+It
+ was
+ stated
+ that
+ no
+ special
+ measures
+ must
+ be
+ taken
+ because
+the
+ complete
+ combustion
+ of
+ fuel
+ and
+ high
+ carbon
+ capture
+ efﬁciency
+measured.
+ In
+ all
+ cases,
+ unburnt
+ compounds
+ were
+ not
+ present
+ in
+ the
+
+
+===== Page 12 =====
+
+200
+ 
+A.
+ Abad
+ et
+ al.
+ / International
+ Journal
+ of
+ Greenhouse
+ Gas
+ Control
+ 6 (2012)
+ 189–200
+fuel-reactor
+ outlet,
+ being
+ CO2 and
+ H2O
+ the
+ only
+ products
+ of
+ com-
+bustion
+ even
+ if
+ the
+ oxygen-carrier
+ particles
+ were
+ highly
+ converted.
+Thus,
+ the
+ CLOU
+ process
+ should
+ not
+ require
+ special
+ measures
+ such
+as
+ an
+ oxygen
+ polishing
+ step.
+ In
+ all
+ cases,
+ oxygen
+ was
+ found
+ together
+with
+ CO2 in
+ the
+ gaseous
+ stream
+ from
+ the
+ fuel-reactor.
+ The
+ oxygen
+concentration
+ from
+ the
+ fuel-reactor
+ increased
+ with
+ the
+ tempera-
+ture
+ of
+ the
+ fuel-reactor.
+ At
+ higher
+ fuel-reactor
+ temperatures,
+ the
+capability
+ of
+ Cu60MgAl
+ particles
+ to
+ release
+ oxygen
+ is
+ enhanced
+by
+ increases
+ in
+ the
+ temperature
+ of
+ the
+ fuel-reactor
+ because
+ the
+increase
+ of
+ the
+ oxygen
+ concentration
+ at
+ equilibrium
+ conditions.
+ To
+decrease
+ the
+ fraction
+ of
+ O2 in
+ the
+ CO2 stream
+ the
+ solid
+ inventory
+must
+ be
+ optimized.
+ The
+ carbon
+ capture
+ efﬁciency
+ depended
+ of
+ the
+fuel-reactor
+ temperature
+ ranging
+ form
+ 97%
+ at
+ 900 ◦C
+ to
+ 99.3%
+ at
+960 ◦C.
+ Fast
+ conversion
+ of
+ char
+ was
+ evidenced
+ and
+ increased
+ with
+temperature.
+ The
+ rate
+ of
+ char
+ conversion
+ was
+ as
+ high
+ as
+ 33%/s
+ at
+960 ◦C.
+Not
+ signiﬁcant
+ effect
+ on
+ the
+ CO2 capture
+ efﬁciency
+ was
+ observed
+varying
+ the
+ carbon
+ feeding
+ rate,
+ which
+ affects
+ the
+ calculated
+ solid
+inventory.
+ Even,
+ at
+ the
+ lowest
+ solids
+ inventory
+ in
+ the
+ fuel-reactor
+(240
+ kg/MWth)
+ full
+ combustion
+ of
+ coal
+ was
+ observed.
+ The
+ maxi-
+mum
+ capability
+ of
+ the
+ oxygen-carrier
+ to
+ produce
+ oxygen
+ was
+ not
+reached
+ during
+ operation.
+ Therefore,
+ lower
+ solid
+ inventories
+ would
+be
+ needed
+ to
+ obtain
+ full
+ conversion
+ of
+ fuel.
+An
+ increase
+ of
+ solid
+ circulation
+ rate
+ produced
+ a
+ decrease
+ in
+ the
+mean
+ residence
+ time
+ of
+ solids
+ in
+ the
+ fuel-reactor,
+ which
+ slightly
+decreased
+ the
+ char
+ conversion
+ and
+ the
+ efﬁciency
+ of
+ carbon
+ capture.
+A
+ residence
+ time
+ above
+ 300
+ s
+ is
+ needed
+ to
+ get
+ a
+ char
+ conversion
+ of
+about
+ 97%
+ at
+ 900 ◦C
+ with
+ this
+ coal.
+The
+ results
+ obtained
+ in
+ this
+ work
+ demonstrated
+ the
+ proof
+ of
+the
+ concept
+ of
+ CLOU
+ process
+ for
+ coal
+ combustion
+ using
+ a
+ Cu-based
+oxygen-carrier
+ and
+ important
+ conclusions
+ for
+ the
+ scale-up
+ of
+ the
+CLOU
+ process
+ were
+ obtained.
+Acknowledgements
+This
+ work
+ was
+ partially
+ supported
+ by
+ the
+ European
+ Commission,
+under
+ the
+ RFCS
+ program
+ (ECLAIR
+ Project,
+ Contract
+ RFCP-CT-2008-
+0008),
+ ALSTOM
+ Power
+ Boilers
+ (France)
+ and
+ by
+ the
+ Spanish
+ Ministry
+of
+ Science
+ and
+ Innovation
+ (Project
+ ENE2010-19550).
+ I.
+ Adánez-
+Rubio
+ thanks
+ CSIC
+ for
+ the
+ JAE
+ fellowship.
+References
+Adánez,
+ J.,
+ Gayán,
+ P.,
+ Celaya,
+ J.,
+ de
+ Diego,
+ L.F.,
+ García-Labiano,
+ F.,
+ Abad,
+ A.,
+ 2006.
+Chemical
+ looping
+ combustion
+ in
+ a
+ 10
+ kWth prototype
+ using
+ a CuO/Al2O3 oxygen
+carrier:
+ effect
+ of
+ operating
+ conditions
+ on
+ methane
+ combustion.
+ Ind.
+ Eng.
+ Chem.
+Res.  45
+ (17),
+ 75–80.
+Adánez,
+ J.,
+ Abad,
+ A.,
+ García-Labiano,
+ F.,
+ Gayán,
+ P.,
+ de
+ Diego,
+ L.F.,
+ 2011.
+ Progress
+ in
+chemical-looping
+ combustion
+ and
+ reforming
+ technologies:
+ a
+ review.
+ Prog.
+ Eng.
+Comb.
+ Sci.,
+ doi:10.1016/j.pecs.2011.09.001.
+Adánez-Rubio,
+ I.,
+ Gayán,
+ P.,
+ García-Labiano,
+ F.,
+ de
+ Diego,
+ L.F.,
+ Adánez,
+ J.,
+ Abad,
+A., 2011.
+ Development
+ of
+ CuO-based
+ oxygen
+ carrier
+ materials
+ suitable
+for chemical-looping
+ with
+ oxygen
+ uncoupling
+ (CLOU).
+ Energy
+ Procedia
+ 4,
+417–424.
+Adánez-Rubio,
+ I.,
+ Gayan,
+ P.,
+ Abad,
+ A.,
+ de
+ Diego,
+ L.F.,
+ Garcia-Labiano,
+ F.,
+ Adanez,
+ J.
+Evaluation
+ of
+ a
+ spry
+ dried
+ CuO/MgAl2O4 oxygen-carrier
+ for
+ CLOU,
+ submitted
+ for
+publication-a.
+Adánez-Rubio,
+ I.,
+ Abad,
+ A.,
+ Gayán,
+ P.
+ de
+ Diego,
+ L.F.,
+ García-Labiano,
+ F.,
+ Adánez,
+J.
+ Identiﬁcation
+ of
+ operational
+ regions
+ in
+ the
+ chemical-looping
+ with
+ oxygen
+uncoupling
+ (CLOU)
+ process
+ with
+ a
+ Cu-based
+ oxygen-carrier,
+ submitted
+ for
+publication-b.
+Azimi,
+ G.,
+ Leion,
+ H.,
+ Mattisson,
+ T.,
+ Lyngfelt,
+ A.,
+ 2011.
+ Chemical-looping
+ with
+ oxygen
+uncoupling
+ using
+ combined
+ Mn–Fe
+ oxides,
+ testing
+ in
+ batch
+ ﬂuidized
+ bed.
+ Energy
+Procedia
+ 4,
+ 370–377.
+Berguerand,
+ N.,
+ Lyngfelt,
+ A.,
+ 2008.
+ Design
+ and
+ operation
+ of
+ a
+ 10
+ kWth chemical-
+looping
+ combustor
+ for
+ solid
+ fuels—testing
+ with
+ South
+ African
+ coal.
+ Fuel
+ 87,
+2713–2726.
+Berguerand,
+ N.,
+ Lyngfelt,
+ A.,
+ 2009.
+ Chemical-looping
+ combustion
+ of
+ petroleum
+ coke
+using
+ ilmenite
+ in
+ a
+ 10
+ kWth unit-high-temperature
+ operation.
+ Energy
+ Fuels
+ 23,
+57–68.
+Cao,
+ Y.,
+ Pan,
+ W.P.,
+ 2006.
+ Investigation
+ of
+ chemical
+ looping
+ combustion
+ by
+ solid
+ fuels.
+1.
+ Process
+ analysis.
+ Energy
+ Fuels
+ 20,
+ 57–68.
+Cuadrat,
+ A.,
+ Abad,
+ A.,
+ Adánez,
+ J.,
+ de
+ Diego,
+ L.F.,
+ García-Labiano,
+ F.,
+ Gayan,
+ P.,
+ 2011.
+ CO2
+capture
+ by
+ chemical-looping
+ coal
+ combustion
+ using
+ Ilmenite
+ as
+ oxygen
+ carrier
+in
+ a
+ 500Wth unit.
+ In:
+ Proceedings
+ of
+ the
+ 5th
+ International
+ Conference
+ on
+ Clean
+Coal  Technologies
+ (CCT2011),
+ Zaragoza,
+ Spain.
+de Diego,
+ L.F.,
+ Gayán,
+ P.,
+ García-Labiano,
+ F.,
+ Celaya,
+ J.,
+ Abad,
+ A.,
+ Adánez,
+ J.,
+ 2005.
+Impregnated
+ CuO/Al2O3 oxygen
+ carriers
+ for
+ chemical-looping
+ combustion:
+avoiding
+ ﬂuidizing
+ bed
+ agglomeration.
+ Energy
+ Fuels
+ 19,
+ 1850–1856.
+Eyring,
+ E.,
+ Konya,
+ G.,
+ Lighty,
+ J.,
+ Sahir,
+ A.,
+ Saroﬁm,
+ A.,
+ Whitty,
+ K.,
+ 2011.
+ Chemical
+ loop-
+ing  with
+ copper
+ oxide
+ as
+ carrier
+ and
+ coal
+ as
+ fuel.
+ Oil
+ Gas
+ Sci.
+ Technol.—Rev.
+ IFP
+Nouvelles
+ Technologies
+ 2,
+ 209–221.
+Gayán,
+ P.,
+ Adánez-Rubio,
+ I.,
+ Abad,
+ A.,
+ de
+ Diego,
+ L.F.,
+ García-Labiano,
+ F.,
+ Adánez,
+J.
+ Development
+ of
+ CuO-based
+ oxygen-carrier
+ materials
+ suitable
+ for
+ chemical-
+looping
+ with
+ oxygen
+ uncoupling
+ (CLOU)
+ process,
+ submitted
+ for
+ publication.
+HSC
+ Chemistry
+ 6.1® 2008.
+ Chemical
+ Reaction
+ and
+ Equilibrium
+ Software
+ with
+ Ther-
+mochemical
+ Database
+ and
+ Simulation
+ Module.
+ Oututec
+ Research
+ Oy.
+IPCC,
+ 2005.
+ IPCC
+ special
+ report
+ on
+ carbon
+ dioxide
+ capture
+ and
+ storage.
+ In:
+ Metz,
+ B.,
+Davidson,
+ O.,
+ de
+ Coninck,
+ H.C.,
+ Loos,
+ M.,
+ Meyer,
+ L.A.
+ (Eds.),
+ Working
+ Group
+ III
+ of
+the  Intergovernmental
+ Panel
+ on
+ Climate
+ Change.
+ Cambridge
+ University.
+Kerr,
+ H.R.,
+ 2005.
+ Capture
+ and
+ Separation
+ Technology
+ Gaps
+ and
+ Priority
+ Research
+Needs.
+ Carbon
+ Dioxide
+ Capture
+ for
+ Storage
+ in
+ Deep
+ Geologic
+ Formations.
+ Elsevier
+Science,
+ Amsterdam,
+ pp.
+ 655–660.
+Kolbitsch,
+ P.,
+ Bolhàr-Nordenkampf,
+ J.,
+ Pröll,
+ T.,
+ Hofbauer,
+ H.,
+ 2009.
+ Comparison
+ of
+two
+ Ni-based
+ oxygen
+ carriers
+ for
+ chemical
+ looping
+ combustion
+ of
+ natural
+ gas
+ in
+140  kW
+ continuous
+ looping
+ operation.
+ Ind.
+ Eng.
+ Chem.
+ Res.
+ 48
+ (11),
+ 42–47.
+Kvamsdal,
+ H.M.,
+ Jordal,
+ K.,
+ Bolland,
+ O.,
+ 2007.
+ A
+ quantitative
+ comparison
+ of
+ gas
+ turbine
+cycles
+ with
+ CO2 capture.
+ Energy
+ 32
+ (1),
+ 10–24.
+Leion,
+ H.,
+ Mattissson,
+ T.,
+ Lyngfelt,
+ A.,
+ 2007.
+ The
+ use
+ of
+ petroleum
+ coke
+ as
+ fuel
+ in
+chemical-looping
+ combustion.
+ Fuel
+ 86,
+ 1947–1958.
+Leion,
+ H.,
+ Lyngfelt,
+ A.,
+ Johansson,
+ M.,
+ Jerndal,
+ E.,
+ Mattisson,
+ T.,
+ 2008.
+ The
+ use
+ of
+ilmenite
+ as
+ an
+ oxygen
+ carrier
+ in
+ chemical-looping
+ combustion.
+ Chem.
+ Eng.
+ Res.
+Des.
+ 86,
+ 1017–1026.
+Leion,
+ H.,
+ Mattissson,
+ T.,
+ Lyngfelt,
+ A.,
+ 2009a.
+ Use
+ of
+ ores
+ and
+ industrial
+ products
+ as
+oxygen
+ carriers
+ in
+ chemical-looping
+ combustion.
+ Energy
+ Fuels
+ 23,
+ 2307–2315.
+Leion,
+ H.,
+ Mattisson,
+ T.,
+ Lyngfelt,
+ A.,
+ 2009b.
+ Using
+ chemical-looping
+ with
+ oxygen
+uncoupling
+ (CLOU)
+ for
+ combustion
+ of
+ six
+ different
+ solid
+ fuels.
+ Energy
+ Procedia
+1,
+ 447–453.
+Leion,
+ H.,
+ Larring,
+ Y.,
+ Bakken,
+ E.,
+ Bredesen,
+ R.,
+ Mattissson,
+ T.,
+ Lyngfelt,
+ A.,
+ 2009c.
+Use
+ of
+ CaMn0.875Ti0.125O3 as
+ oxygen
+ carrier
+ in
+ chemical
+ looping
+ with
+ oxygen
+uncoupling.
+ Energy
+ Fuels
+ 23,
+ 5276–5283.
+Lewis,
+ W.K.,
+ Gilliland,
+ E.R.,
+ 1954.
+ Production
+ of
+ pure
+ carbon
+ dioxide.
+ Patent
+2,665,972.
+Linderholm,
+ C.,
+ Mattisson,
+ T.,
+ Lyngfelt,
+ A.,
+ 2009.
+ Long-term
+ integrity
+ testing
+ of
+ spray-
+dried particles
+ in
+ a 10
+ kW
+ chemical-looping
+ combustor
+ using
+ natural
+ gas
+ as
+ fuel.
+Fuel
+ 88,
+ 2083–2096.
+Lyngfelt,
+ A.,
+ Thunman,
+ H.,
+ 2005.
+ Construction
+ and
+ 100
+ h
+ of
+ operational
+ experience
+of
+ a
+ 10-kW
+ chemical-looping
+ combustor.
+ In:
+ Thomas,
+ D.C.,
+ Benson,
+ S.M.
+ (Eds.),
+Carbon
+ Dioxide
+ Capture
+ for
+ Storage
+ in
+ Deep
+ Geologic
+ Formations—Results
+ from
+the
+ CO2 Capture
+ Project,
+ vol.
+ 1.
+ Elsevier,
+ Oxford,
+ UK,
+ Chapter
+ 36.
+Mattisson,
+ T.,
+ Lyngfelt,
+ A.,
+ Leion,
+ H.,
+ 2009a.
+ Chemical-looping
+ oxygen
+ uncoupling
+ for
+combustion
+ of
+ solid
+ fuels.
+ Int.
+ J.
+ Greenhouse
+ Gas
+ Control
+ 3,
+ 11–19.
+Mattisson,
+ T.,
+ Leion,
+ H.,
+ Lyngfelt,
+ A.,
+ 2009b.
+ Chemical-looping
+ with
+ oxygen
+ uncou-
+pling
+ using
+ CuO/ZrO2 with
+ petroleum
+ coke.
+ Fuel
+ 88,
+ 683–690.
+Moghtaderi,
+ B.,
+ 2010.
+ Application
+ of
+ chemical
+ looping
+ concept
+ for
+ air
+ separation
+ at
+high temperatures.
+ Energy
+ Fuels
+ 24,
+ 190–198.
+Pis,
+ J.J.,
+ Centeno,
+ T.A.,
+ Mahamund,
+ M.,
+ Fuertes,
+ A.B.,
+ Parra,
+ J.B.,
+ Pajares,
+ J.A.,
+ Bansal,
+R.C., 1996.
+ Preparation
+ of
+ active
+ carbons
+ from
+ coal
+ part
+ I.
+ Oxidation
+ of
+ coal.
+ Fuel
+Process.
+ Technol.
+ 47,
+ 19–38.
+Pröll,
+ T.,
+ Mayer,
+ K.,
+ Bolhàr-Nordenkampf,
+ J.,
+ Kolbitsch,
+ P.,
+ Mattisson,
+ T.,
+ Lyngfelt,
+ A.,
+Hofbauer,
+ H.,
+ 2009.
+ Natural
+ minerals
+ as
+ oxygen
+ carriers
+ for
+ chemical
+ looping
+combustion
+ in
+ a
+ dual
+ circulating
+ ﬂuidized
+ bed
+ system.
+ Energy
+ Procedia
+ 1,
+ 27–34.
+Rydén,
+ M.,
+ Lyngfelt,
+ A.,
+ Mattisson,
+ T.,
+ 2011a.
+ CaMn0.875Ti0.125O3 as
+ oxygen
+ carrier
+ for
+chemical
+ oxygen
+ combustion
+ with
+ oxygen
+ uncoupling
+ (CLOU)—experiments
+ in
+a
+ continuously
+ operating
+ ﬂuidized-bed
+ reactor
+ system.
+ Int.
+ J.
+ Greenhouse
+ Gas
+Control
+ 5,
+ 356–366.
+Rydén,
+ M.,
+ Lyngfelt,
+ A.,
+ Mattisson,
+ T.,
+ 2011b.
+ Combined
+ manganese/iron
+ oxides
+as
+ oxygen
+ carrier
+ for
+ chemical-looping
+ combustion
+ with
+ oxygen
+ uncoupling
+(CLOU)
+ in
+ a
+ circulating
+ ﬂuidized
+ bed
+ reactor
+ system.
+ Energy
+ Procedia
+ 4,
+ 341–348.
+Shen,
+ L.,
+ Wu,
+ J.,
+ Xiao,
+ J.,
+ Song,
+ Q.,
+ Xiao,
+ R.,
+ 2009.
+ Chemical-looping
+ combustion
+ of
+biomass
+ in
+ a
+ 10
+ kW
+ reactor
+ with
+ iron
+ oxide
+ as
+ an
+ oxygen
+ carrier.
+ Energy
+ Fuels
+23, 2498–2505.
+Shulman,
+ A.,
+ Cleverstam,
+ E.,
+ Mattisson,
+ T.,
+ Lyngfelt,
+ A.,
+ 2009.
+ Manganese/iron,
+manganese/nickel,
+ and
+ manganese/silicon
+ oxides
+ used
+ in
+ chemical
+ looping
+with oxygen
+ uncoupling
+ (CLOU)
+ for
+ combustion
+ of
+ methane.
+ Energy
+ Fuels
+ 23,
+5269–5275.
+Shulman,
+ A.,
+ Cleverstam,
+ E.,
+ Mattisson,
+ T.,
+ Lyngfelt,
+ A.,
+ 2011.
+ Chemical-looping
+ with
+oxygen
+ uncoupling
+ using
+ Mn/Mg-based
+ oxygen-carriers—oxygen
+ release
+ and
+reactivity
+ with
+ methane.
+ Fuel
+ 90,
+ 941–950.
+Simell,
+ P.,
+ Stahlberg,
+ P.,
+ Kurkela,
+ E.,
+ Albretch,
+ J.,
+ Deutch,
+ S.,
+ Sjostrom,
+ K.,
+ 2000.
+ Provi-
+sional
+ protocol
+ for
+ the
+ sampling
+ and
+ analysis
+ of
+ tar
+ and
+ particles
+ in
+ the
+ gas
+ from
+large-scale
+ biomass
+ gasiﬁers.
+ Biomass
+ Bioenergy
+ 18,
+ 19–38.
+Wang,
+ J.,
+ Anthony,
+ E.J.,
+ 2008.
+ Clean
+ combustion
+ of
+ solid
+ fuels.
+ Appl.
+ Energy
+ 85,
+ 73–79.

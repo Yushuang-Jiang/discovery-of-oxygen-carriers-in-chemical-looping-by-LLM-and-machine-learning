@@ -1,0 +1,1540 @@
+
+
+===== Page 1 =====
+
+Redox kinetics of CaMg0.1Ti0.125Mn0.775O2.9d for Chemical Looping
+Combustion (CLC) and Chemical Looping with Oxygen Uncoupling
+(CLOU)
+A. Abad ⇑, F. García-Labiano, P. Gayán, L.F. de Diego, J. Adánez
+Instituto de Carboquímica (ICB-CSIC), Department of Energy and Environment, Miguel Luesma Castán 4, Zaragoza 50018, Spain
+h i g h l i g h t s
+ The reduction and oxidation kinetics
+of CaMg0.1Ti0.125Mn0.775O2.9d was
+determined by TGA.
+ The presence of titanium improved
+the stability of the material during
+redox cycles.
+ Oxygen transport via oxygen
+uncoupling was 1.4 wt.%; it was
+constant during redox cycles.
+ Grain model with chemical reaction
+and diffusion through the product
+layer was suitable.
+ Minimum solids in fuel reactor was
+144 and 31 kg/MWCH4 for fresh and
+activated particles.
+g r a p h i c a l a b s t r a c t
+Schematic processes in air and fuel reactors (
+) considered for redox kinetics of CaMg0.1Ti0.125Mn0.775
+O2.9d, including common CLC and CLOU with gaseous fuels.
+a r t i c l e
+i n f o
+Article history:
+Received 17 December 2014
+Received in revised form 9 January 2015
+Accepted 10 January 2015
+Available online 30 January 2015
+Keywords:
+Chemical Looping Combustion (CLC)
+Chemical Looping with Oxygen Uncoupling
+(CLOU)
+Oxygen carrier
+Manganese
+Perovskite
+Reaction kinetic
+a b s t r a c t
+The objective of this study was to establish the kinetic of reactions involved in redox cycles of an oxygen
+carrier material based on a perovskite type structure with the formula CaMg0.1Ti0.125Mn0.775O2.9d. The
+oxygen transport capacity and reactivity of this material during reduction with gaseous fuels (CH4, H2
+and CO) and the subsequent oxidation with oxygen are studied in a TGA apparatus. Besides, the oxygen
+uncoupling properties of this material are analysed. Thus, kinetics for relevant reactions involved in
+Chemical Looping Combustion (CLC) and Chemical Looping with Oxygen Uncoupling (CLOU) were
+determined.
+CaMg0.1Ti0.125Mn0.775O2.9d reactivity increased with the number of redox cycles, whereas the total
+oxygen transport capacity decreased from 8.5 to 8.0 wt.%. Particles that reached the maximum reactivity
+were denoted as ‘‘activated’’ material. Kinetics for both fresh and ‘‘activated’’ particles was determined.
+Conversion vs. time curves at different temperatures (973–1273 K), and reacting gas concentration (5–
+60 vol.% for CH4, H2 or CO; 5–21 vol.% for O2) were obtained for both fresh and ‘‘activated’’ material.
+For kinetics determination, the shrinking core model with control by chemical reaction and diffusion
+through the product layer was used to obtain the kinetic parameters.
+ 2015 Elsevier B.V. All rights reserved.
+http://dx.doi.org/10.1016/j.cej.2015.01.033
+1385-8947/ 2015 Elsevier B.V. All rights reserved.
+⇑Corresponding author. Tel.: +34 976 733 977; fax: +34 976 733 318.
+E-mail address: abad@icb.csic.es (A. Abad).
+Chemical Engineering Journal 269 (2015) 67–81
+Contents lists available at ScienceDirect
+Chemical Engineering Journal
+journal homepage: www.elsevier.com/locate/cej
+
+
+===== Page 2 =====
+
+1. Introduction
+CO2 capture and sequestration in fuel combustion processes is a
+relevant option in order to decrease the CO2 emissions to the atmo-
+sphere [1]. Chemical Looping Combustion (CLC) has been identiﬁed
+as an interesting option in order to minimize the energy penalty
+related to the CO2 capture process [2]. In CLC, a solid oxygen carrier
+transfer oxygen from the air to the fuel; so the combustion is
+carried out at absence of nitrogen. Therefore, the combustion
+process is shared in two steps, commonly carried out in two inter-
+connected ﬂuidized bed reactors; see Fig. 1. In the fuel reactor, the
+oxidation of the fuel happens and a highly CO2 concentrated
+stream is obtained. Then, the oxygen carrier is reduced due to its
+oxygen lost; see reaction (1). Subsequently, the oxygen in air is
+taken from the reduced oxygen carrier in the air reactor; see reac-
+tion (2). The oxygen carrier is continuously circulating between the
+two reactors in order to supply a continuous ﬂow of oxygen to
+support the fuel combustion.
+ð2n þ m=2Þ MxOy þ CnHm ! ð2n þ m=2Þ MxOy1 þ nCO2 þ m=2 H2O
+ð1Þ
+2MxOy1 þ O2 ! 2MxOy
+ð2Þ
+Most of materials developed to be used as oxygen carrier are
+based on particulate matter composed by a metal oxide, which acts
+as the oxygen donor, mixed with an inert material, which improves
+the mechanical performance of particles [3]. Recently, metal oxides
+with the capability to evolve gaseous oxygen at the fuel reactor
+conditions has been proposed as a way to improve the combustion
+rate of solid fuels in the so-called Chemical Looping with Oxygen
+Uncoupling (CLOU) process [4]. Materials based on copper and
+manganese have been proposed for CLOU [3–7]. It was demon-
+strated that the oxygen uncoupling property of CuO is of great
+importance in order to reach full combustion and high CO2 capture
+rates in combustion of coal and biomass [8–11].
+In addition, the oxygen uncoupling property could be of rele-
+vance to facilitate the complete combustion of gaseous fuels
+[12,13]. In this case, the oxygen carrier is reduced by decomposing
+in oxygen following reaction (3). Subsequently, the fuel is oxidized
+by the gaseous oxygen such as the homogeneous combustion with
+air; see reaction (4). However, for gaseous fuels both heterogeneous
+gas–solid reactions and oxygen uncoupling followed by homogenous
+oxidation of the fuel can be relevant as oxygen transference
+mechanism during fuel oxidation [14]. The relative relevance of
+every mechanism can depend on the experimental conditions,
+e.g. the fuel gas concentration or the relative reactivity of material
+in oxygen uncoupling and gas–solid reactions. The gaseous oxygen
+evolution from the oxygen carrier can be relevant when the fuel
+gas concentration is low or for low reactive materials with CH4.
+In this case, the oxygen uncoupling property can be critical in order
+reach complete fuel combustion [15].
+MxOy ! MxOy1 þ 1=2 O2
+ð3Þ
+CnHm þ ðn þ m=2Þ O2 ! nCO2 þ m=2 H2O
+ð4Þ
+Apart from metal oxide based particles, perovskite materials
+have also been identiﬁed as suitable materials as oxygen carriers
+considering the reversibility of the oxygen mobility in its structure
+[16,17]. Perovskite materials based on cheap metals have received
+recently attention for fuel gas combustion in CLOU [18], e.g. man-
+ganese-calcium materials [19–20]. In this case, the addition of
+some metals, e.g. Mg or Ti, into the CaMnO3d material improved
+the reactivity with a fuel gas [21]. Although this kind of materials
+are sulphur sensitive because of the presence of calcium [22], they
+can be suitable for combustion of clean gases, e.g. sweet natural
+gas. Recent results obtained with materials based on the CaMnO3d
+perovskite are encouraging. Thus, the complete combustion of
+methane was obtained using a material with the stoichiometry
+CaMn0.9Mg0.1O2.9d in different CLC units ranging from 0.5 to
+140 kWth [22–24], which improves results previously shown by
+Ni-based materials with high nickel content [25,26]. To get com-
+plete fuel combustion, the solids circulation ﬂow-rate should be
+at least 10 times the minimum circulation value to supply the stoi-
+chiometric oxygen [22]. In fact, simulations performed with a the-
+oretical model of the fuel reactor considering CaMn0.9Mg0.1O2.9d
+as oxygen carrier showed that the oxygen uncoupling property of
+this perovskite was useful to improve the fuel conversion [15].
+Theoretical model included kinetics of relevant reactions happen-
+ing in the fuel reactor [27]. Thus, to take advantage of the oxygen
+uncoupling property, the fraction of oxygen released via oxygen
+uncoupling must prevail over oxygen transferred via gas–solid
+reaction. It is worth noting that the oxygen transport capacity of
+Nomenclature
+Ci
+reacting concentration of gas i (mol/m3)
+Dpl
+effective product layer diffusivity (m3n moln s1)
+Dpl,0
+pre-exponential
+factor
+for
+effective
+product
+layer
+diffusivity (m3n moln s1)
+Ei
+activation energy of the process i (J/mol)
+ks
+chemical kinetic constant (m3n moln s1)
+ks,0
+pre-exponential factor for chemical kinetic constant
+(m3n moln s1)
+kX
+decay constant for the product layer diffusivity
+m
+instantaneous mass of oxygen carrier (kg)
+mo
+mass of the oxidized form of the oxygen carrier (kg)
+mr
+mass of the reduced form of the oxygen carrier (kg)
+n
+reaction order for chemical reaction
+n0
+exponential constant for gas concentration in the
+product layer diffusion process
+Rg
+constant for ideal gases (Rg = 8.314 J mol1 K1)
+ROC
+oxygen transport capacity
+ROC,ou
+oxygen
+transport
+capacity
+for
+oxygen
+uncoupling
+process
+ROC,t
+total oxygen transport capacity with a fuel gas
+t
+time (s)
+T
+temperature (K)
+X
+conversion of solids
+Greek symbols
+c
+parameter in subscript for oxygen in the reduced state
+d
+parameter in subscript for oxygen in the oxidized state
+si
+time for complete conversion when the reaction is
+controlled by the process i (s)
+x
+normalized mass-loss variation
+Subscripts
+ch
+chemical reaction
+eq
+equilibrium
+o
+oxidation
+ou
+oxygen uncoupling
+pl
+product layer
+r
+reduction
+68
+A. Abad et al. / Chemical Engineering Journal 269 (2015) 67–81
+
+
+===== Page 3 =====
+
+this material by oxygen uncoupling is ROC,ou = 1.1 wt.%, which is ten
+times lower than the total oxygen transport capacity when the
+material reacted with a fuel gas, which is ROC,t = 10.5 wt.% [27].
+Recently, a similar material, i.e. CaMn0.775Mg0.1Ti0.125O2.9d has
+been proposed as an alternative to CaMn0.9Mg0.1O2.9d [28].
+CaMn0.775Mg0.1Ti0.125O2.9d showed improved performance in CLC
+units compared to CaMn0.9Mg0.1O2.9d when ﬂuidization behav-
+iour, perovskite stability during repeated redox cycles and CH4
+conversion is considered [24,29].
+Modelling of a CLC unit with CaMnO3d based materials has
+shown to be a power tool in order to identify the most relevant
+processes converting fuel [15], i.e. via oxygen uncoupling or gas–
+solid reaction. The use of proper kinetics data for oxygen carrier
+reduction with reducing gases is required to predict the fuel reac-
+tor performance by mathematical modelling. Moreover, the oxida-
+tion kinetics is relevant in order to evaluate the oxidation degree
+reached in the air reactor.
+The objective of this study was to determine the kinetics of both
+reduction and oxidation reactions taking place in the CLC process
+with
+the
+promising
+CaMn0.775Mg0.1Ti0.125O2.9d
+particles.
+The
+selected material was studied in a thermogravimetric analyser
+(TGA) apparatus analysing its reactivity with CH4, H2 or CO as
+reducing gases and O2 for the oxidation reaction. The effect of tem-
+perature and gas concentration over the reaction rate was exam-
+ined. In addition, the oxygen uncoupling kinetics was determined
+in a N2 environment.
+2. Experimental
+2.1. Material
+CaMn0.775Mg0.1Ti0.125O2.9d particles were manufactured by
+VITO (Flemish Institute for Technological Research, Belgium) using
+the spray drying method [28]. Particles prepared by spray drying
+were subsequently sintered at 1623 K for 4 h. The temperature of
+interest in the chemical looping process is in the 1150–1300 K
+interval. So, reacting temperature does not exceed the sintering
+temperature, and major modiﬁcation into the solids due to a
+thermal process is not expected during normal CLC operation. Size
+fraction from 125 to 200 lm was used for kinetic determination.
+More information about this material can be found elsewhere [29].
+2.2. Experimental setup
+The
+reactivity
+and
+the
+oxygen
+transport
+capacity
+of
+CaMn0.775Mg0.1Ti0.125O2.9d material were determined in a TGA CI
+Electronics Ltd. Every experimental condition was evaluated
+starting with a new fresh sample. About 50 mg of oxygen carrier
+particles were loaded on a platinum holder, and a gas ﬂow of
+25 L/h (STP) was fed. The sample holder is a wire mesh platinum
+basket in order to minimize diffusional effect on the measured
+reaction rate. More information about the TGA set-up and
+procedure can be found elsewhere [30–32].
+Reduction with CH4, H2 and CO, and oxidation with O2 of the
+oxygen carrier were carried out by exposing the sample to CH4,
+H2, CO or O2 diluted in nitrogen. 20 vol.% H2O and 20 vol.% CO2
+was used during reduction with CH4 and CO, respectively, in order
+to avoid carbon formation. Oxygen–nitrogen mixtures are used
+during the oxidation period. Also, the oxygen release rate -as gas-
+eous O2- of fully oxidized material was studied in an inert environ-
+ment using high purity N2. Experiments both at a programmed
+temperature and at a ﬁxed temperature were carried out.
+2.2.1. Temperature programmed experiments
+The oxygen carrier sample was heated to 573 K in air atmo-
+sphere. No reaction occurred during this pre-heating step. After
+reaching this temperature the desired gas composition was intro-
+duced to the reactor and the temperature was increased up to
+1273 K at a constant rate of 20 K/min. The weight loss was
+recorded
+in
+three
+different
+environments:
+highly
+pure
+N2,
+15 vol.% H2 and 15 vol.% CH4.
+2.2.2. Fixed temperature experiments
+For experiments at ﬁxed temperature, the oxygen carrier sam-
+ple was heated to the desired temperature in air atmosphere. After
+reaching the set temperature, the experiment started by exposing
+the
+oxygen
+carrier
+to
+alternating
+reducing
+and
+oxidizing
+conditions.
+To evaluate the stability of perovskite structure with the redox
+cycle number, three series of ten redox cycles each were carried
+out at 1173 K. The redox cycles were carried out alternating N2,
+reducing gas and air. Every redox cycle starts with the oxygen car-
+rier fully oxidized. The ﬁrst step of the redox cycle consists in gas-
+eous oxygen release in nitrogen environment for 300 s. After that,
+the reduction period with 15 vol.% H2 or CH4 started. The time for
+the reducing period was different in each series (20, 90 or 600 s),
+thus reaching different conversion of solids. In order to prevent
+the fuel and air mixing, a nitrogen ﬂow was passed after reducing
+processes for 150 s. Finally, the sample was completely oxidized by
+air for 180 s. and further was reduced in 15 vol.% H2 before the sub-
+sequent oxidation period. Thus, the conversion degree in the sec-
+ond experimental series was higher than that in the ﬁrst one.
+To obtain the conversion vs. time curves necessary for the
+kinetic determination, ﬁve redox cycles were carried out alternat-
+ing reducing and oxidising conditions. The inert period before
+reduction period was 10 s in order to minimize the decomposition
+of the oxygen carrier before the reaction with the fuel gas. A vari-
+ation of reactivity with redox cycles was observed. Thus, the data
+corresponding to the ﬁrst cycle were used to determine the kinet-
+ics of fresh particles, whereas data corresponding to the ﬁfth cycle
+were considered for the kinetics determination of ‘‘activated’’
+particles.
+Fig. 1. Reactor scheme of the CLC process.
+A. Abad et al. / Chemical Engineering Journal 269 (2015) 67–81
+69
+
+
+===== Page 4 =====
+
+To analyse the effect of the fuel gas concentration (CH4, CO or
+H2) on the reduction reaction rate four different concentrations
+are used: 5, 15, 30 and 60 vol.%. To determine the oxidation kinet-
+ics, oxygen concentrations of 5, 10, 15 or 21 vol.% were used. These
+oxidation experiments were carried out using 15 vol.% H2 during
+the reduction step. All these experiments were carried out at
+1073 K. To observe the effect of temperature on the reaction rate,
+the reduction and oxidation reactions were carried out at the fol-
+lowing temperatures: 973, 1023, 1073, 1123, 1173, 1223 and
+1273 K. The fuel gas concentration during these experiments was
+15 vol.%, whereas the oxygen concentration was 10 vol.%.
+Besides, the oxygen release in nitrogen atmosphere was
+analysed at temperatures in the same temperature interval. In this
+case, the redox cycle consisted only of one oxidation period and
+one inert period in N2.
+3. Results
+The oxygen transport capacity and reactivity with several react-
+ing gases (CH4, H2, CO and O2) as well as the oxygen uncoupling
+properties of the CaMn0.775Mg0.1Ti0.125O2.9d material were ana-
+lysed in a TGA apparatus. In addition, the evolution of these prop-
+erties with the cycle number was determined. From the evolution
+of solids conversion with time, at different operating conditions
+(temperature and gas concentration), the kinetics of reduction
+and oxidation reactions of the solid particles was obtained.
+3.1. Oxygen transport capacity
+The oxygen transport capacity of a perovskite type material,
+such as CaMg0.1Ti0.125Mn0.775O2.9d, depends on the stoichiometric
+amount of oxygen in the oxidised and reduced material, i.e. the
+value of 2.9d. The general formula of the fully oxidized material
+is
+CaMg0.1Ti0.125Mn0.775O2.9,
+corresponding
+to
+the
+mixture
+(CaO)0.225(MgO)0.1(TiO2)0.125(CaMnO3)0.775. In presence of a reducing
+gas, e.g. CH4, CO or H2, CaMnO3 can be reduced to CaMnO2. This
+means
+that
+the
+reduced
+state
+is
+CaMg0.1Ti0.125Mn0.775O2.125,
+However, the oxygen uncoupling property is available while the
+perovskite structure is maintained. For example, reduction to
+CaMnO2.81 could be reached at 1273 K [33]. If more oxygen is
+removed from the solid crystal, the perovskite structure changes
+to the formation of CaMn2O4 or Ca2MnO4.
+Taken H2 as example, the oxygen transferred by the presence of
+a reducing gas corresponds to the following reaction:
+CaMg0:1Ti0:125Mn0:775O2:9 þ 0:9 H2
+! CaMn0:9Ti0:125Mg0:1O2 þ 0:9 H2O
+ð5Þ
+The
+oxygen
+uncoupling
+reaction
+is
+considered
+only
+for
+the
+perovskite structure:
+CaMg0:1Ti0:125Mn0:775O2:9 ! CaMn0:9Ti0:125Mg0:1O2:75 þ 0:075 O2
+ð6Þ
+The mass difference between the oxidized and the reduced
+forms deﬁnes the oxygen transport capacity of the oxygen carrier,
+ROC, which is calculated as:
+ROC ¼ mo  mr
+mo
+ð7Þ
+mo and mr being the masses of the oxidized and reduced forms of
+the material, respectively. Two different oxygen transport capacity
+deﬁnitions are used in this work:
+(1) The total oxygen transport capacity, ROC,t, describes the total
+fraction of oxygen which can be transferred to a fuel, e.g.
+CH4, H2 or CO corresponding to oxidized and reduced
+forms in Eq. (5). The total oxygen transport capacity of
+CaMn0.775Mg0.1Ti0.125O2.9d is ROC,t = 9.0 wt.%.
+(2) The oxygen transport capacity for the oxygen uncoupling,
+ROC,ou, describes the maximum oxygen available in solid for
+the oxygen uncoupling reaction; see Eq. (6). This reaction
+can happen without the presence of a reducing gas, and
+the maximum value for ROC,ou is 1.7 wt.%, corresponding to
+the oxygen loss given by Eq. (6).
+Temperature programmed reduction (TPR) experiments were
+conducted in the TGA to determine the mass oxygen transport
+capacity of the perovskite material under nitrogen or reducing
+atmosphere. The oxidized state was considered to be fresh parti-
+cles as received after calcination in air. Thus, the mass loaded in
+the sample holder of the TGA was considered to be mo as
+CaMg0.1Ti0.125Mn0.775O2.9.
+Fig. 2 shows the normalized mass-loss variation, x, during TPR
+experiments in N2, H2 or CH4. The parameter x represents the frac-
+tion of mass lost during reduction of fully oxidized oxygen carrier,
+and it was calculated as
+x ¼ m
+mo
+ð8Þ
+The oxygen transport capacity can be calculated as
+ROC ¼ 1  xr
+ð9Þ
+xr being the normalized mass-loss when the sample was fully
+reduced.
+When only N2 was fed to the reactor, the oxygen generation
+started at a temperature of 1020 K and it slowly continued at the
+maximum temperature of 1273 K. In addition, the maximum nor-
+malized mass-loss variation corresponded to an oxygen transport
+capacity for the oxygen uncoupling property of ROC,ou = 1.4 wt.%.
+The oxygen released was slightly lower than that required to
+induce a change in the perovskite structure, which is 1.7 wt.%;
+see Eq. (6). After that, the reaction rate was slow due to the low
+driving force under this condition, i.e. the extremely low oxygen
+concentration at equilibrium conditions [27,33].
+TPR tests were also carried out with 15 vol.% CH4 or H2; see
+Fig. 2. Here, the oxygen transport capacity in a reducing environ-
+ment was determined. In both cases, the reaction started at
+640 K. However, the reaction rate with H2 was faster than with
+CH4. In fact, reduction with H2 was near ﬁnished when the reaction
+temperature was 1000 K, whereas reduction with CH4 proceeds
+until temperature was 1250 K. Nevertheless, the normalized
+mass-loss of the fully reduced sample was the same in both cases
+(xr = 0.915). This fact indicates that the total oxygen transport
+capacity was the same regardless of the reducing gas used. The
+oxygen transport capacity of the material to oxidize a fuel gas
+was ROC,t = 8.5 wt.%. This value is some lower than the correlated
+for the theoretical reduction from CaMg0.1Ti0.125Mn0.775O2.9 to
+CaMg0.1Ti0.125Mn0.775O2.
+3.2. Evolution of the redox properties with the cycle number
+Three series of ten reduction–oxidation cycles each series were
+carried out in the TGA at 1173 K to analyse the variation of oxygen
+transport capacity and reactivity of the oxygen carrier with the
+cycle number. Every cycle consisted of an inert period (300 s in
+N2) followed by a reduction step with 15 vol.% CH4 and oxidation
+by air. The time of reduction period was different in each series.
+Times of 20 s, 90 s, and 600 s were used. The oxidation period
+70
+A. Abad et al. / Chemical Engineering Journal 269 (2015) 67–81
+
+
+===== Page 5 =====
+
+following the reduction with CH4 lasted 180 s in all cases, assuring
+the maximum oxidation degree possible in every cycle.
+3.2.1. Oxygen transport capacity
+Fig. 3(a–c) show the normalized mass variation during each ser-
+ies of 10 cycles, with the only difference of the length of the reduc-
+tion period. Obviously, the reduction period was longer, the
+reduction degree in every cycle was higher. In all cases, the oxygen
+carrier was not oxidized up to the same initial level. In fact, the
+degree of oxidation was decreasing with the cycle number, and it
+was more marked as the reduction period was increased. This fact
+indicates that the effective oxygen transport capacity decreases
+with the cycle number at these conditions. The initial oxygen
+transport capacity was ROC,t = 8.5 wt.%, but the ﬁnal oxygen trans-
+port capacity was evaluated by the complete reduction of the sam-
+ple after the 10th redox cycle, being ROC,t = 8.0 wt.%.
+Relevant is the fact that the oxygen uncoupling property of the
+CaMg0.1Ti0.125Mn0.775O2.9d material was maintained with the
+cycle number. The mass lost during 300 s in N2 was about
+0.8 wt.%, and it was maintained constant during the redox cycles.
+The oxygen transport capacity could be affected by some formation
+of a compound with a lower oxidation state for manganese, e.g.
+CaMn2O4. Nevertheless, the intensity of CaMn2O4 formation would
+be low during consecutive redox cycles.
+Some differences can be highlighted with respect the a
+previously tested material, i.e. CaMg0.1Mn0.9O2.9d [27]. The oxygen
+transport capacity of CaMg0.1Mn0.9O2.9d was higher (ROC,t = 10
+wt.%), but it was decreased with the redox cycles during the activa-
+tion period up to stabilize in ROC,t = 7.5 wt.%, which is lower than
+that for activated CaMg0.1Ti0.125Mn0.775O2.9. Also, the oxygen
+uncoupling property was mostly lost for CaMg0.1Mn0.9O2.9d,
+whereas the CaMg0.1Ti0.125Mn0.775O2.9d material maintains its
+oxygen uncoupling property, even when the oxygen carrier was
+highly reduced; see Fig. 3(c). Likely, the presence of Ti in the solid
+could stabilize the perovskite structure.
+3.2.2. Reactivity
+In any case, complete reduction with CH4 was not reached
+during the ﬁrst cycle, and a longer time than 600 s would be
+required. But the reduction degree increased with the cycle num-
+ber, indicating an activation process during consecutive redox
+cycles. The activation process happens even when the reduction
+period was very short (20 s), which is different than that found
+for CaMg0.1Mn0.9O2.9d, which maintained constant the reduction
+degree through the redox cycles when the reduction degree was
+low, i.e. activation was not found in this case. This fact agrees to
+results found during continuous operation, where CaMg0.1Mn0.9
+O2.9d particles were not activated when the solids circulation
+was very high, i.e. the variation in solids conversion was low
+[22]. However, it can be advised that CaMg0.1Ti0.125Mn0.775O2.9d
+will be activated regardless the operating conditions in a CLC unit.
+In addition, the reactivity of CaMg0.1Ti0.125Mn0.775O2.9d with CH4
+at 1173 K is higher than that showed by CaMg0.1Mn0.9O2.9d.
+The changes observed in reactivity were more intensive when
+the reduction was increased. This is a common ﬁnding with oxygen
+carrier materials prone to an activation process, e.g. a similar
+perovskite type material (CaMn0.9Mg0.1O2.9d) [22] or ilmenite
+[34]. However, there are not evidences for the ultimate reason of
+the reactivity increase in this case or other cases, but it was spec-
+ulated that the increase of the porosity and/or a higher mobility of
+oxygen in the solid with the redox cycles could affect to the
+reactivity.
+Thus, in the case of the longer reduction period (600 s) the reac-
+tivity increased up to the 2th-3th cycle and then stabilized. After
+that, complete reduction is reached in every cycle, see Fig. 3(c),
+and the time required for complete reduction was 150 s; but if
+reduction period was ﬁxed to 150 s then more than 3 cycles would
+be necessary to get activation of particles due to the reduction
+degree affected to the velocity of the activation process. For exam-
+ple, 6–7 cycles was required to activate the material when the
+reduction period was lasted for 90 s; see Fig. 3(b).
+Thus, it can be considered that the material has achieved a max-
+imum conversion rate in reduction reaction from 3th cycle. Similar
+redox cycles were carried out using H2 or CO as reducing agent
+with reduction periods of 600 s, and similar results were found that
+those showed in Fig. 3(c).
+In addition, the mass loss during the inert period was barely
+affected by the redox cycle, which suggests that the reactivity of
+the oxygen uncoupling mechanism was not affected by consecu-
+tives reduction and oxidation steps. This fact is a relevant issue,
+considering that a signiﬁcant fraction of oxygen must be trans-
+ferred to the fuel via oxygen uncoupling mechanism in order to
+get complete combustion with this kind of perovskite materials
+[15]. Again, CaMg0.1Ti0.125Mn0.775O2.9d improves the performance
+time (s)
+0
+500
+1000
+1500
+2000
+2500
+3000
+ω = 100*(m/mo)   (%)
+90
+92
+94
+96
+98
+100
+Temperature (K)
+400
+600
+800
+1000
+1200
+1400
+N2
+CH4
+H2
+T
+Fig. 2. Normalized mass-loss proﬁles for TPR (20 K/min) in TGA in (
+) 100 vol.% high purity N2, (
+) 15 vol.% CH4 and (
+) 15 vol.% H2, as well
+as temperature evolution (
+).
+A. Abad et al. / Chemical Engineering Journal 269 (2015) 67–81
+71
+
+
+===== Page 6 =====
+
+of the CaMg0.1Mn0.9O2.9d material, which lost most of oxygen
+uncoupling capacity after the activation process [27].
+3.3. Kinetics determination for fresh and activated material
+The reactivity and oxygen transport capacity of CaMg0.1Ti0.125
+Mn0.775O2.9d particles is different depending on the operating con-
+ditions and the number of redox cycles. Thus, the reaction rate of
+fresh and activated material is obtained under different tempera-
+tures (973–1273 K) and gas concentrations (5–60 vol.%). These
+results are presented as conversion vs. time curves and are used
+to determine the kinetic parameters of the reduction and oxidation
+reactions.
+The
+conversion
+values
+are
+obtained
+from
+the
+following
+equations:
+Xr ¼ mo  m
+ROCmo
+ð10Þ
+Xo ¼ m  mr
+ROCmo
+ð11Þ
+for the reduction and oxidation reaction, respectively. The oxygen
+transport capacity corresponding to the reaction considered and
+reacting temperature must be used. When reduction by a fuel gas
+is considered, ROC,t averaged a value of 8.5 wt.% for fresh material,
+whereas for activated particles the ROC,t value is 8.0 wt.%. For the
+time (s)
+0
+2000
+4000
+6000
+8000
+10000
+ω = 100*(m/mo)   (%)
+90
+92
+94
+96
+98
+100
+ω = 100*(m/mo)   (%)
+90
+92
+94
+96
+98
+100
+ω = 100*(m/mo)   (%)
+90
+92
+94
+96
+98
+100
+(a) Reduction period: 20 s
+(c) Reduction period: 600 s
+(b) Reduction period: 90 s
+Fig. 3. Normalized mass variations during reduction–oxidation cycles in TGA starting from fresh particles. Reduction environment:100 vol.% N2 for 300 s, followed by
+reduction with 15 vol.% CH4 + 20 vol.% H2O, and oxidation by air for 180 s. The reduction period with CH4 in each ﬁgure was (a) 20 s, (b) 90 s and (c) 600 s. T = 1173 K.
+72
+A. Abad et al. / Chemical Engineering Journal 269 (2015) 67–81
+
+
+===== Page 7 =====
+
+oxygen uncoupling reaction, the ROC,ou value was 1.4 wt.%. Conver-
+sion values ranged from 0 to 1 in all cases.
+3.3.1. Effect of fuel type
+Common reducing gases during fuel combustion in a CLC sys-
+tem are CH4, H2 and CO. So, the reactivity with these gases was
+evaluated. To compare the oxygen carrier reactivity with these
+gases, Fig. 4 show the conversion vs. time curves for the different
+reducing gases. Conversion vs. time curves for activated material
+was taken from the 5th redox cycle. The reactivity followed the
+order H2 > CO > CH4 for fresh particles, whereas it was H2 > CH4 >
+CO for activated particles. It is necessary to activate the particles
+time (s)
+0
+50
+100
+150
+200
+250
+300
+Conversion (-)
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+N2
+CH4
+H2
+O2
+CO
+(a) Fresh particles
+time (s)
+0
+20
+40
+60
+80
+100
+Conversion (-)
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+N2
+CH4
+H2
+O2
+CO
+(b) Activated particles
+Fig. 4. Conversion vs. time curves during reduction period with CH4, H2 or CO and oxidation period by O2 for (a) fresh particles and (b) activated particles. T = 1173 K; fuel:
+15 vol.%; O2: 10 vol.%.
+time (s)
+0
+500
+1000
+1500
+2000
+2500
+Conversion (-)
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+(a) CH4
+5 %
+15 %
+30 %
+60 %
+time (s)
+0
+50
+100
+150
+200
+250
+Conversion (-)
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+(b) H2
+5 %
+15 %
+30 %
+60 %
+time (s)
+0
+100
+200
+300
+400
+500
+600
+Conversion (-)
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+(c) CO
+5 %
+15 %
+30 %
+60 %
+time (s)
+0
+20
+40
+60
+80
+100
+120
+Conversion (-)
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+(d) O2
+5 %
+10 %
+15 %
+21 %
+Fig. 5. Effect of gas concentration on the reaction rate of fresh particles with (a) CH4; (b) H2; (c) CO; and (d) O2. T = 1073 K. Symbols: experimental curve. Continuous line:
+model predictions.
+A. Abad et al. / Chemical Engineering Journal 269 (2015) 67–81
+73
+
+
+===== Page 8 =====
+
+to found a high reactivity with methane. During the activation pro-
+cess, the reactivity increased by 2 with CH4, by 1.5 with H2 and by
+1.2 with CO. However, reactivity for oxidation reaction was
+unchanged. Moreover, the oxidation rate was not dependent on
+the fuel gas used in the previous reduction stage.
+Nevertheless, the oxygen transport capacity was decreased dur-
+ing activation. Thus, a value of ROC,t = 8.5 wt.% was taken for fresh
+particles and ROC,t = 8.0 wt.% for activated particles. This decrease
+was due to the oxygen carrier was not able to recover the initial
+oxidation state.
+Moreover, the conversion vs. time curves obtained in pure N2
+are also showed in Fig. 4 for fresh and activated material. No major
+differences are found between oxygen uncoupling reactivity of
+fresh and activated particles. It was found that the reaction rate
+of the oxygen uncoupling mechanism is lower than the reduction
+rate by 15 vol.% of any fuel gas. However, the oxygen uncoupling
+mechanism could be relevant when the fuel concentration around
+particles was low in the fuel reactor.
+3.3.2. Effect of gas concentration
+To determine the effect of the gas concentration on the kinetics
+of the reduction reaction, several experiments at 1073 K with dif-
+ferent gas concentrations were carried out. The conversion vs. time
+curves obtained with CH4, H2, CO or O2 as reacting gases are shown
+in Figs. 5 and 6 for fresh and activated particles, respectively. There
+was a direct relationship between the fuel concentration and the
+reaction rate. As expected, an increase in the fuel gas concentration
+produced an increase in the reaction rate.
+3.3.3. Effect of reacting temperature
+The effect of temperature on the reaction rate was investigated
+in the interval 973–1273 K. Fig. 7(a–d) show the conversion vs.
+time curves for the reduction of fresh material with CH4, H2 and
+CO, as well as the oxidation with O2. Similarly, Fig. 8(a–d) show
+the conversion vs. time curves for activated particles. In all cases,
+the reaction rate was affected by the temperature. An increase of
+temperature produced an increase in the reduction rate, although
+this effect was rather low for oxidation.
+It was observed a decrease of the reaction rate with the conver-
+sion of solids, especially for fresh particles and reaction with CH4 or
+CO at low temperature. This fact can indicate a change in the con-
+trolling mechanism of the reaction, likely from a chemical reaction
+control to a control by the diffusion in the product layer of the
+grains at high conversion values. The decrease of the reaction rate
+with conversion was less relevant at high temperatures (P1223 K)
+or for activated material, suggesting that the diffusion in the prod-
+uct layer had lower importance at these conditions. To predict the
+experimental results, both chemical reaction and diffusion in the
+product layer should be taken into account when the kinetic model
+was formulated.
+Fig. 6. Effect of gas concentration on the reaction rate of activated particles with (a) CH4; (b) H2; (c) CO; and (d) O2. T = 1073 K. Symbols: experimental curve. Continuous line:
+model predictions.
+74
+A. Abad et al. / Chemical Engineering Journal 269 (2015) 67–81
+
+
+===== Page 9 =====
+
+The effect of temperature on the oxygen uncoupling rate of
+fresh and activated particles was also analysed. Fig. 9 shows the
+conversion vs. time curves obtained during reaction in pure N2. It
+can be observed the necessity of high temperatures to reach high
+oxygen uncoupling reaction rates. Also it is highlighted that the
+oxygen uncoupling rate is higher for activated particles at low tem-
+perature, whereas it is the contrary at high temperatures.
+4. Kinetic model
+The grain model was considered for reduction and oxidation
+reactions. The particle was assumed to be formed by a certain
+amount of spherical grains, each following the shrinking core
+model (SCM) during reduction or oxidation [35]. Some information
+on the controlling mechanism can be extracted from the shape of
+the conversion vs. time curves. It was observed that reduction with
+a fuel gas or oxidation by oxygen showed a linear dependence with
+the reacting time at low conversion values, and the reaction rate
+decreased with time at higher conversion of solids. In fact, there
+was a sharp decrease of the reaction rate in some cases. The linear
+dependence of conversion with time can be attributed to reaction
+in the gas–solid interphase with chemical reaction control onto the
+gas–solid interphase. Besides, the decrease of the reaction rate at
+higher conversion values was attributed to a change in the control-
+ling mechanism from chemical reaction to diffusion through the
+product layer around the grains.
+With all above considerations, and considering negligible the
+resistances to gas ﬁlm mass transfer and the diffusion inside the par-
+ticle, the equations that describe this model are the following [36]:
+t ¼ schX þ spl
+1  3ð1  XÞ2=3 þ 2ð1  XÞ
+
+
+ð12Þ
+where
+sch ¼
+1
+ksCn
+i
+ð13Þ
+ks ¼ ks;0eEch=RgT
+ð14Þ
+and
+spl ¼
+1
+DplCn’
+i
+ð15Þ
+Dpl ¼ Dpl;0eEpl=RgTkXX
+ð16Þ
+In this case, the parameter kX is included to consider the sharp
+decrease in the reaction rate with time.
+In the case of the oxygen uncoupling reaction, the oxygen con-
+centration at equilibrium was considered. Only chemical reaction
+control was considered, and the evolution of conversion with time
+was deﬁned by the following equation:
+t ¼
+1
+ksðCn
+O2;eq  Cn
+O2Þ X
+ð17Þ
+Fig. 7. Effect of temperature on the reaction rate of fresh particles with (a) CH4; (b) H2; (c) CO; and (d) O2. 15 vol.% reducing agent or 10 vol.% O2. Symbols: experimental
+curve. Continuous line: model predictions.
+A. Abad et al. / Chemical Engineering Journal 269 (2015) 67–81
+75
+
+
+===== Page 10 =====
+
+The oxygen concentration at equilibrium conditions depends on
+temperature and sharply decreases with solids conversion, and it
+was calculated as previously reported [27].
+5. Determination of kinetic parameters
+5.1. Reduction and oxidation reactions
+The kinetic model described in Section 4 was used to determine
+the kinetic parameters for the reduction reaction with CH4, H2 and
+CO and oxidation with O2. The kinetic parameters of the chemical
+reaction for the reactions considered were obtained from an anal-
+ysis of sch values obtained for different gas concentrations and
+temperatures. Fig. 10(a) and (b) show a plot of ln(1/sch) vs. ln(Ci)
+for reaction with CH4, H2, CO or O2 for fresh and activated particles,
+respectively. The reaction order, n, was obtained from the slope of
+the ﬁgure, being ln(ks) the intercept. The chemical reaction kinetic
+constant, ks, as a function of the temperature was obtained from
+experiments carried out at different temperatures.
+Fig. 11(a) and (b) show the Arrhenius plot of ln(ks) values as a
+function of 1/T for fresh and activated particles. The slope of the
+curves is Ech/Rg, whereas the intercept value is ln(ks,0). The calcu-
+lated kinetic parameters for each reaction are shown in Tables 1
+and 2.
+Once
+the
+kinetic parameters
+for
+chemical
+reaction were
+obtained, the kinetic parameters for diffusion through the product
+layer were obtained by ﬁtting the conversion curves obtained at
+different gas concentrations and temperatures. It was found that
+the diffusion mechanism was dependent on the reacting gas con-
+centration in both reduction and oxidation reactions. The value
+of the exponent n0 ranged between 0.7 and 1. This result suggests
+that the main limiting process was the diffusion of reacting com-
+pounds throughout the product layer, which agrees with the for-
+mulation of the kinetic model.
+Values of the initial effective diffusivity in the product layer, Dpl,
+(i.e. for X = 0) were obtained at each temperature in order to ﬁt the
+conversion vs. time curves. The value of Dpl decreased as the solids
+conversion increased by the use of the decay constant, kX; see Eq.
+(16). A constant value for kX with temperature was obtained for
+every reaction. To obtain the activation energy of the diffusion in
+the product layer, Epl, the values of Dpl at zero conversion were
+used. Thus, assuming the Arrhenius dependence for Dpl with the
+temperature, the values of the corresponding pre-exponential fac-
+tor, and the activation energies were obtained from Fig. 12(a) and
+(b) and they are showed in Tables 1 and 2 for fresh and activated
+solid.
+5.2. Oxygen uncoupling reaction
+In this case, a sch value was not adequate to describe the reac-
+tion progress because the oxygen concentration at equilibrium
+conditions changes with the solids conversion. So, a value of ks
+Fig. 8. Effect of temperature on the reaction rate of activated particles with (a) CH4; (b) H2; (c) CO; and (d) O2. 15 vol.% reducing agent or 10 vol.% O2. Symbols: experimental
+curve. Continuous line: model predictions.
+76
+A. Abad et al. / Chemical Engineering Journal 269 (2015) 67–81
+
+
+===== Page 11 =====
+
+Fig. 9. Effect of temperature on the oxygen uncoupling reaction rate of (a) fresh and (b) activated particles in pure N2. Symbols: experimental curve. Continuous line: model
+predictions.
+Fig. 10. Plot to obtain the reaction order with respect to CH4, H2, CO and O2 for (a) fresh and (b) activated particles. T = 1073 K.
+Fig. 11. Arrhenius plot for the kinetic constant ks for the reaction of CH4, H2, CO and O2 for (a) fresh and (b) activated particles. The kinetic constant values for oxygen
+uncoupling reaction in N2 for fresh particles are also included.
+A. Abad et al. / Chemical Engineering Journal 269 (2015) 67–81
+77
+
+
+===== Page 12 =====
+
+was determined for every temperature by ﬁtting experimental
+conversion vs. time curves by Eq. (17). The reaction order affected
+to the curvature of the conversion vs. time lines. So, reaction order
+was also determined by the ﬁtting method of lines. The depen-
+dence of ks values with temperature for the oxygen uncoupling
+reaction is shown for fresh and activated material in Fig. 11(a)
+and (b), and the kinetic parameters are shown in Tables 1 and 2.
+It is interesting to note the negative value for the activation energy
+for activated particles. From conversion vs. time curves in Fig. 9(a)
+and (b) is evident that the activation energy for fresh particles
+must be higher than for activated particles. But a negative value
+for the activation energy has not sense. The problem can be related
+to the assumption that determination of oxygen concentration at
+equilibrium conditions for activated material is equal than for fresh
+particles. An erroneous calculation of the oxygen concentration at
+equilibrium in Eq. (17) can give an unexpected variation of ks with
+temperature. Future work to determine thermodynamic properties
+of fresh and activated CaMg0.1Ti0.125Mn0.775O2.9d material should
+be done in order to conﬁrm this hypothesis and to ﬁnd adequate
+values for the equilibrium concentration of the activated material.
+Nevertheless, the reaction model with kinetic parameters calcu-
+lated in this work can be used with conﬁdence in a reactor model
+in the temperature interval considered in this work, i.e. 973–
+1273 K.
+The conversion vs time curves predicted by the reaction model
+with the kinetic parameters obtained are shown in Figs. 5–9. As it
+can be seen, the conversion curves are well predicted in all range of
+operating conditions studied, i.e. gas concentration, temperature or
+reaction type.
+6. Evaluation of oxygen carrier reactivity
+To evaluate the oxygen carrier reactivity, as a basis for compar-
+ison with other oxygen carrier materials, a method previously pro-
+posed is used [37]. So, the minimum solids inventory in fuel or air
+reactor is calculated using kinetics determined in this work with
+the following equations:
+mFR;min ¼ 2 d MO
+ROCDH0
+c
+1
+½dXr=dtXr!0
+ð18Þ
+Table 1
+Kinetic parameters for reaction of fresh CaMg0.1Ti0.125Mn0.775O2.9d particles with CH4, CO, H2 and O2, and oxygen uncoupling in N2.
+Units
+CH4
+H2
+CO
+O2
+N2
+n
+Order of the reaction
+–
+1
+0.8
+0.8
+1
+0.7
+ks,0
+Pre-exponential factor of ks
+m3n moln s1
+1.2  104
+4.6
+2.1  101
+1.8  102
+1.8
+Ech
+Activation energy for ks
+kJ/mol
+140.2
+55.2
+30.5
+2.0
+47.4
+n0
+Order of diffusion
+–
+0.7
+1
+0.8
+1
+–
+Dpl,0
+Pre-exponential factor of Dpl
+m3m moln s1
+8.7  109
+7.2  108
+6.7  105
+5.0  101
+–
+Epl
+Activation energy for Dpl
+kJ/mol
+291.9
+228.8
+179.4
+41.1
+–
+kx,0
+Pre-exponential factor of kX
+–
+2.0
+1.0
+2.0
+0
+–
+Table 2
+Kinetic parameters for reaction of activated CaMg0.1Ti0.125Mn0.775O2.9d particles with CH4, CO, H2 and O2, and oxygen uncoupling in N2.
+Units
+CH4
+H2
+CO
+O2
+N2
+n
+Order of the reaction
+–
+0.4
+0.8
+0.8
+1
+1
+ks,0
+Pre-exponential factor of ks
+m3n moln s1
+6.1  102
+2.0  101
+9.8  102
+2.0  102
+1.2  106
+Ech
+Activation energy for ks
+kJ/mol
+101.2
+21.2
+21.9
+2.0
+101.5
+n0
+Order of diffussion
+–
+0.7
+1
+1
+1
+–
+Dpl,0
+Pre-exponential factor of Dpl
+m3m moln s1
+6.4  1014
+2.3  105
+1.8  105
+5.0  101
+–
+Epl
+Activation energy for Dpl
+kJ/mol
+375.7
+118.0
+152.3
+41.1
+–
+kx,0
+Pre-exponential factor of kX
+–
+2.0
+5.0
+2.0
+0
+–
+Fig. 12. Arrhenius plot for the effective diffusivity in the product layer Dpl for the reaction of CH4, H2, CO and O2 for (a) fresh and (b) activated particles.
+78
+A. Abad et al. / Chemical Engineering Journal 269 (2015) 67–81
+
+
+===== Page 13 =====
+
+mAR;min ¼ 2 d MO
+ROCDH0
+c
+1
+½dXo=dtXo!0
+ð19Þ
+Note that the oxygen transport capacity with a fuel gas ROC,t,
+was higher than the oxygen transport capacity for oxygen uncou-
+pling reaction, ROC,ou.
+The minimum oxygen carrier inventory in the fuel and air
+reactor is a suitable parameter to compare the performance of a
+material as oxygen carrier regarding the fuel combustion and
+regeneration in fuel and air reactors, respectively. Ideally, the min-
+imum solids inventory is calculated for values of DX ? 0, where the
+reaction is only controlled by chemical reaction. Thus, the chemical
+reaction control was assumed to be the controlling mechanism to
+calculate the reaction rates. Moreover, the reaction rates were
+calculated for an average gas concentration calculated by:
+Ci ¼
+DXg  Cn
+i;0
+R Xg;out
+Xg;in
+1þegXg
+1Xg
+h
+in
+dXg
+ð20Þ
+eg represents the expansion of volume as a result of the chemical
+reaction and it takes values of 2 for CH4, 0 for CO and H2, and
+0.21 for oxygen in air [37]. The calculated average gas concentra-
+tion for a fuel conversion of 99.9% depends on the reaction order,
+being: 19.2 vol.% for H2 and CO or 11.1 vol.% O2 in all cases; and
+5.3 vol.% CH4 or 13.3 vol.% CH4 for fresh and activated particles,
+respectively. In the case of the oxygen uncoupling rate, it was an
+1
+10
+100
+1000
+CH4
+H2
+CO
+CH4
+H2
+CO
+CH4
+H2
+CO
+Minimum solids inventory (kg/MWth)
+Fuel Reactor
+Gas-Solid reacon
+Fuel Reactor
+Ox. uncoupling reacon
+Air Reactor
+Oxidaon
+(a) Fresh parcles
+CaMg0.1Ti0.125Mn0.775O2.9
+CaMg0.1Mn0.9O2.9
+1
+10
+100
+1000
+CH4
+H2
+CO
+CH4
+H2
+CO
+CH4
+H2
+CO
+Minimum solids inventory (kg/MWth)
+Fuel Reactor
+Gas-Solid reacon
+Fuel Reactor
+Ox. uncoupling reacon
+Air Reactor
+Oxidaon
+(b) Acvated parcles
+CaMg0.1Ti0.125Mn0.775O2.9
+CaMg0.1Mn0.9O2.9
+Fig. 13. Minimum solids inventory in the fuel and air reactors for CaMg0.1Ti0.125Mn0.775O2.9d following the method proposed in [37]. Values obtained for CaMg0.1Mn0.9O2.9d
+are also presented for comparison purposes [27].
+A. Abad et al. / Chemical Engineering Journal 269 (2015) 67–81
+79
+
+
+===== Page 14 =====
+
+average oxygen concentration in order to maximize the reaction
+rate; the oxygen concentration at equilibrium was given by the
+maximum oxidation state in the air reactor, i.e. it was assumed
+4 vol.% O2 [27].
+Fig. 13 shows the minimum solids inventory in the fuel and air
+reactor for fresh and activated particles. The values obtained for
+the CaMg0.1Mn0.9O2.9d material previously tested is also included
+for comparison purposes. The solids inventory values for perov-
+skite materials are values are lower than calculated for other
+Mn-based materials [3,38]. In general, solids inventory for CaMg0.1
+Ti0.125Mn0.775O2.9d is lower than for CaMg0.1Mn0.9O2.9d when H2
+or CO is considered the fuel, as well as for the oxygen uncoupling
+reaction is relevant; the opposite is observed for CH4 combustion
+and oxidation in the air reactor. It is relevant the fact that the
+CaMg0.1Ti0.125Mn0.775O2.9d material retains the oxygen uncoupling
+property in activated particles, which was lost in CaMg0.1Mn0.9
+O2.9d [27]. Also, the addition of Ti to the perovskite improved
+the reactivity for oxygen uncoupling.
+Solids inventory follows the reactivity order with different
+gases, i.e. more reactive is the gas, lower inventory is required.
+Also, fresh particles required a higher amount of solids in the fuel
+reactor than activated particles owing to the lower reactivity of
+fresh particles; however the solids inventory in the air reactor
+was roughly the same for fresh and activated particle because oxi-
+dation rate was unaffected by redox cycles.
+For the oxygen uncoupling mechanism, the calculated amount
+of solids in the fuel reactor was higher than those calculated for
+the gas–solid reaction between fuel and oxygen carrier, mainly
+due to ROC,ou < ROC,t. Nevertheless, it was determined that oxygen
+uncoupling can be relevant to get complete combustion of meth-
+ane with CaMnO3d-based materials [15]. In this way, the solids
+inventory values in the fuel reactor calculated for CH4, H2 and CO
+were equal to those given for oxygen uncoupling in Fig. 13 when
+the fuel gas concentration was 1.2 vol.% CH4, 0.38 vol.% H2, or
+0.85 vol.% CO for fresh particles; and 0.01 vol.% CH4, 0.38 vol.%
+H2, or 1 vol.% CO for activated particles. This suggest that the oxy-
+gen uncoupling mechanism would be relevant in order to fully
+convert the fuel gas in the upper part of the ﬂuidized bed reactor,
+i.e. when the fuel gas concentration is low. Note that the oxygen
+transferred via oxygen uncoupling is less prone to diffusional
+restrictions than gas–solid reactions, which makes the oxygen
+uncoupling a good complement to gas–solid reactions during fuel
+conversion in the fuel reactor [8,10,15].
+7. Conclusions
+The oxygen transport capacity and reactivity of CaMg0.1Ti0.125-
+Mn0.775O2.9d material for the reduction and oxidation reactions
+were determined by thermogravimetric analysis using CH4, H2,
+CO or O2 as reacting gases. Besides, the oxygen uncoupling prop-
+erty of this material was analysed. These reactions correspond to
+processes happening in Chemical Looping Combustion (CLC) and
+Chemical Looping with Oxygen Uncoupling (CLOU) processes.
+This material showed an activation process for reduction
+reaction with the redox cycles. During the activation process the
+reactivity with fuel gases was increased. Moreover, the oxygen
+transport capacity decreased from ROC,t = 8.5 wt.% to ROC,t = 8.0 -
+wt.%. Nevertheless, the oxygen uncoupling property was main-
+tained during redox cycles, with an oxygen loss of 1.4 wt.% at
+1273 K in N2. The oxidation reactivity was not affected by the cycle
+number.
+The grain model, assuming mixed control by the chemical
+reaction and the diffusion through the product layer, was able to
+predict the experimental results under different gas concentration,
+temperature or reaction type. Reaction kinetic for reduction, oxida-
+tion and oxygen uncoupling process for fresh and activated parti-
+cles were determined. The kinetic data obtained in this work will
+be useful to be included in mathematical models of CLC reactors
+with CaMg0.1Ti0.125Mn0.775O2.9d material as oxygen carrier. The
+choice of the kinetic parameters must be suited to the characteris-
+tics of the particles used, i.e. fresh or activated particles. Moreover,
+oxygen uncoupling process can be relevant and this mechanism
+should be considered in fuel reactor modelling.
+Acknowledgments
+This
+paper
+is
+based
+on
+the
+work
+produced
+within
+the
+framework of the INNOCUOUS (Innovative Oxygen Carriers Uplift-
+ing Chemical Looping Combustion) Project, funded by the Euro-
+pean Commission under the Seventh Framework Programme
+(Contract 241401). The authors thank Frans Snijkers from VITO
+and Prof. Anders Lyngfelt from Chalmers University of Technology
+for supplying the CaMg0.1Ti0.125Mn0.775O2.9d material.
+References
+[1] IPCC, 2005. Special report on carbon dioxide capture and storage. Working
+group II of the intergovernmental panel on climate change, in: B. Metz, O.
+Davidson, H. de Coninck, M. Loos, L. Meyer (Eds.), Cambridge University Press,
+Cambridge, UK and New York, NY, USA, 2005.
+[2] L.I. Eide, M. Anheden, A. Lyngfelt, C. Abanades, M. Younes, D. Clodic, Novel
+capture processes, Oil Gas Sci. Technol. 60 (2005) 497–508.
+[3] J. Adanez, A. Abad, F. Garcia-Labiano, P. Gayan, L.F. de Diego, Progress in
+chemical-looping combustion and reforming technologies, Prog. Eng. Combust.
+Sci. 38 (2012) 215–282.
+[4] T. Mattisson, A. Lyngfelt, H. Leion, Chemical-looping with oxygen uncoupling
+for combustion of solid fuels, Int. J. Greenhouse Gas Control 3 (2009) 11–19.
+[5] T. Mattisson, Materials for Chemical-Looping with Oxygen Uncoupling, ISRN
+Chemical Engineering 2013 (2013) Article ID 526375.
+[6] Q. Imtiaz, D. Hosseini, C.R. Müller, Review of oxygen carriers for Chemical
+Looping with Oxygen Uncoupling (CLOU): thermodynamics, Mater. Dev. Synth.
+Energy Technol. 1 (2013) 633–647.
+[7] M. Rydén, H. Leion, T. Mattisson, A. Lyngfelt, Combined oxides as oxygen
+carrier material for chemical looping with oxygen uncoupling, in: Proc. 2nd Int.
+Conf. Chemical Looping, Darmstadt, Germany, 2012.
+[8] A. Abad, I. Adánez-Rubio, P. Gayán, F. García-Labiano, L.F. de Diego, J. Adánez,
+Demonstration of chemical-looping with oxygen uncoupling (CLOU) process in
+a 1.5 kWth continuously operating unit using a Cu-based oxygen-carrier, Int. J.
+Greenhouse Gas Control 6 (2012) 189–200.
+[9] I. Adánez-Rubio, A. Abad, P. Gayán, L.F. de Diego, F. García-Labiano, J. Adánez,
+Performance of CLOU process in the combustion of different types of coal with
+CO2 capture, Int. J. Greenhouse Gas Control 12 (2013) 430–440.
+[10] I. Adánez-Rubio, A. Abad, P. Gayán, L.F. de Diego, F. García-Labiano, J. Adánez,
+Biomass combustion with CO2 capture by chemical looping with oxygen
+uncoupling (CLOU), Fuel Proc. Tech. 124 (2014) 104–114.
+[11] I. Adánez-Rubio, A. Abad, P. Gayán, F. García-Labiano, L.F. de Diego, J. Adánez,
+The fate of sulphur in the Cu-based Chemical Looping with Oxygen Uncoupling
+(CLOU) process, Appl. Energy 113 (2014) 1855–1862.
+[12] A. Shulman, E. Cleverstam, T. Mattisson, A. Lyngfelt, Chemical-looping with
+oxygen uncoupling using Mn/Mg-based oxygen carriers – oxygen release and
+reactivity with methane, Fuel 90 (2011) 941–950.
+[13] I. Adánez-Rubio, A. Abad, P. Gayán, L.F. de Diego, F. García-Labiano, J. Adánez,
+Identiﬁcation of operational regions in the Chemical-Looping with Oxygen
+Uncoupling (CLOU) process with a Cu-based oxygen carrier, Fuel 102 (2012)
+634–645.
+[14] D. Mei, A. Abad, H. Zhao, J. Adánez, Characterization of a Sol-gel Derived CuO/
+CuAl2O4 Oxygen Carrier for Chemical Looping Combustion (CLC) and Chemical
+Looping with Oxygen Uncoupling (CLOU) of Gaseous Fuels, Submitted for
+publication (2014).
+[15] A. Abad, P. Gayán, L.F. de Diego, F. García-Labiano, J. Adánez, K. Mayer, S.
+Penthor, Modelling a CLC process improved by CLOU and validation in a
+120 kW unit, in: Proc. 11th Int. Conf. Fluidized Bed Technology (CFB-11),
+Beijing, China, 2014.
+[16] J.E. Readman, A. Olafsen, Y. Larring, R. Blom, La0.8Sr0.2Co0.2Fe0.8O3d as a
+potential oxygen carrier in a chemical looping type reactor, an in-situ powder
+X-ray diffraction study, J. Mater. Chem. 15 (2005) 1931–1937.
+[17] M. Rydén, A. Lyngfelt, T. Mattisson, D. Chen, A. Holmen, E. Bjørgum, Novel
+oxygen-carrier materials for chemical-looping combustion and chemical-
+looping reforming; LaxSr1xFeyCo1yO3d perovskites and mixed-metal oxides
+of NiO, Fe2O3 and Mn3O4, Int. J. Greenhouse Gas Control 2 (2008) 21–36.
+[18] A. Fossdal, E. Bakken, B.A. Øye, C. Schøning, I. Kaus, T. Mokkelbost, Y. Larring,
+Study of inexpensive oxygen carriers for chemical looping combustion, Int. J.
+Greenhouse Gas Control 5 (2011) 483–488.
+80
+A. Abad et al. / Chemical Engineering Journal 269 (2015) 67–81
+
+
+===== Page 15 =====
+
+[19] H. Leion, Y. Larring, E. Bakken, R. Bredesen, T. Mattisson, A. Lyngfelt, Use of
+CaMn0.875Ti0.125O3
+as
+oxygen
+carrier
+in
+chemical-looping
+with
+oxygen
+uncoupling, Energy Fuels 23 (2009) 5276–5283.
+[20] M. Rydén, A. Lyngfelt, T. Mattisson, CaMn0.875Ti0.125O3 as oxygen carrier for
+Chemical-Looping
+Combustion
+with
+Oxygen
+Uncoupling
+(CLOU)
+–
+experiments in a continuously operating ﬂuidized-bed reactor system, Int. J.
+Greenhouse Gas Control 5 (2011) 356–366.
+[21] P. Hallberg, D. Jing, M. Rydén, T. Mattisson, A. Lyngfelt, Chemical looping
+combustion and chemical looping with oxygen uncoupling experiments in a
+batch reactor using spray-dried CaMn1xMxO3d (M = Ti, Fe, Mg) particles as
+oxygen carriers, Energy Fuels 27 (2013) 1473–1481.
+[22] A. Cabello, A. Abad, P. Gayán, L.F. de Diego, F. García-Labiano, J. Adánez, Effect
+of
+operating
+conditions
+and
+H2S
+presence
+on
+the
+performance
+of
+CaMg0.1Mn0.9O3d perovskite material in Chemical Looping Combustion
+(CLC), Energy Fuels 28 (2014) 1262–1274.
+[23] M. Källén, M. Rydén, C. Dueso, T. Mattisson, A. Lyngfelt, CaMn0.9Mg0.1O3d as
+oxygen carrier in a gas-ﬁred 10 kWth chemical-looping combustion unit, Ind.
+Eng. Chem. Res. 52 (2013) 6923–6932.
+[24] K. Mayer, T. Pröll, H. Hofbauer, Pilot plant testing of Fe- and Mn-based oxygen
+carriers for chemical looping combustion, in: 5th High Temperature Solid
+Looping Network Meeting, Cambridge, UK, 2013.
+[25] C. Linderholm, A. Abad, T. Mattisson, A. Lyngfelt, 160 h of chemical-looping
+combustion in a 10 kW reactor system with a NiO-based oxygen carrier, Int. J.
+Greenhouse Gas Control 2 (2008) 520–530.
+[26] P. Kolbitsch, J. Bolhàr-Nordenkampf, T. Pröll, H. Hofbauer, Comparison of two
+Ni-based oxygen carriers for chemical looping combustion of natural gas in
+140 kW continuous looping operation, Ind. Eng. Chem. Res. 48 (2009) 5542–
+5547.
+[27] L.F. de Diego, A. Abad, A. Cabello, P. Gayán, F. García-Labiano, J. Adánez,
+Reduction and oxidation kinetics of a CaMn0.9Mg0.1O3d oxygen carrier for
+chemical-looping combustion, Ind. Eng. Chem. Res. 53 (2014) 87–103.
+[28] F. Snijkers, D. Jing, J. van Noyen, T. Mattisson, M. Jacobs, A. Lyngfelt,
+Preparation and properties of perovskite Mn-based oxygen carriers for
+Chemical Looping Combustion by industrial spray drying method, in: Proc.
+3rd Int. Conf. Chemical Looping, Göteborg, Sweden, 2014.
+[30] P. Hallberg, M. Källén, D. Jing, F. Snijkers, J. van Noyen, M. Rydén, A. Lyngfelt,
+Experimental investigation of CaMnO3d based oxygen carriers used in
+continuous chemical-looping combustion, Int. J. Chem. Eng. (2014). Article
+ID 412517.
+[30] C. Dueso, M. Ortiz, A. Abad, F. García-Labiano, L.F. de Diego, P. Gayán, J. Adánez,
+Reduction and oxidation kinetics of nickel-based oxygen-carriers for chemical-
+looping combustion and chemical-looping reforming, Chem. Eng. J. 188 (2012)
+142–154.
+[31] A. Cabello, A. Abad, F. García-Labiano, P. Gayán, L.F. de Diego, J. Adánez, Kinetic
+determination of a highly reactive impregnated Fe2O3/Al2O3 oxygen carrier for
+use in gas-fueled chemical looping combustion, Chem. Eng. J. 258 (2014) 265–
+280.
+[32] I. Adanez-Rubio, P. Gayan, A. Abad, F. Garcia-Labiano, L.F. de Diego, J. Adanez,
+Kinetic analysis of a Cu-based oxygen carrier: relevance of temperature and
+oxygen partial pressure on reduction and oxidation reactions rates in Chemical
+Looping with Oxygen Uncoupling (CLOU), Chem. Eng. J. 256 (2014) 69–84.
+[33] E.I. Leonidova, I.A. Leonidov, M.V. Patrakeev, V.L. Kozhevnikov, Oxygen non-
+stoichiometry, high-temperature properties, and phase diagram of CaMnO3d,
+J. Solid State Electrochem. 15 (2011) 1071–1075.
+[34] J. Adánez, A. Cuadrat, A. Abad, P. Gayán, L.F. de Diego, F. García-Labiano,
+Ilmenite activation during consecutive redox cycles in chemical-looping
+combustion, Energy Fuels 24 (2010) 1402–1413.
+[35] J. Szekely, J.W. Evans, A structural model for gas-solid reactions with a moving
+boundary, Chem. Eng. Sci. 25 (1970) 1091.
+[36] O. Levenspiel, Chemical Reaction Engineering, John Wiley and Sons, New York,
+1981.
+[37] A. Abad, J. Adánez, F. García-Labiano, L.F. de Diego, P. Gayán, J. Celaya,
+Mapping of the range of operational conditions for Cu-, Fe-, and Ni-based
+oxygen carriers in chemical-looping combustion, Chem. Eng. Sci. 62 (2007)
+533–549.
+[38] Q. Zafar, A. Abad, T. Mattisson, B. Gevert, M. Strand, Reduction and oxidation
+kinetics of Mn3O4/Mg-ZrO2 oxygen carrier particles for chemical-looping
+combustion, Chem. Eng. Sci. 62 (2007) 6556.
+A. Abad et al. / Chemical Engineering Journal 269 (2015) 67–81
+81

@@ -1,0 +1,1290 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Fuel
+journal homepage: www.elsevier.com/locate/fuel
+Investigation of reactivities of bimetallic Cu-Fe oxygen carriers with coal in
+high temperature in-situ gasification chemical-looping combustion (iG-CLC)
+and chemical-looping with oxygen uncoupling (CLOU) using a fixed bed
+reactor
+Ping Wanga,⁎, Bret Howarda, Nicholas Meansb
+a Department of Energy (DOE), National Energy Technology Laboratory (NETL), 626 Cochrans Mill Road, Pittsburgh, PA 15236, USA
+b Leidos Research Support Team, 626 Cochrans Mill Road, P.O. Box 10940, Pittsburgh, PA 15236, USA
+A R T I C L E I N F O
+Keywords:
+Chemical looping
+Coal
+Cu-based oxygen carrier
+Fe-based oxygen carrier
+Bimetallic oxygen carrier
+Reactivity
+A B S T R A C T
+Bimetallic Fe-Cu oxygen carriers (OCs) with SiO2 as a support are attractive materials for coal chemical-looping
+combustion (CLC) based on their availability from naturally occurring, low cost materials. The objectives of this
+study are to investigate reduction reactivities and CO2 conversion efficiency of synthesized Fe-Cu-Si OCs for both
+in-situ gasification CLC (iG-CLC) and Chemical-Looping with Oxygen Uncoupling (CLOU) at high temperatures
+(950 to 1100 °C) with varying ratios of OC to coal char (ϕ) using a fixed bed reactor-quadrupole mass spec-
+trometer system. Two Cu-Fe-Si OCs with high iron content (40% Fe2O3 + 20%CuO by wt.) (Fe40Cu20) and high
+copper content (Fe20Cu40) were prepared using a pressure pelletizing method. Oxygen uncoupling efficiency
+and rate for the Fe40Cu20 OC were lower than the Fe20Cu40 OC due to their CuFe2O4 and CuO composition
+difference from XRD analysis. For Fe40Cu20 OC with ϕ = 80 in iG-CLC, the carbon conversion rate increased
+37% from 950 °C to 1000 °C but only increased 5.4% from 1000 °C to 1100 °C. As the ratios ϕ dropped (80, 40
+and 24), the CO2 conversion efficiencies decreased and the content of metallic Cu in the reduced OC residues
+increased. So, the optimum ratio ϕ is important to avoid agglomeration caused by Cu at high temperature. The
+Fe20Cu40 OC with ϕ = 67 in CLOU had higher the carbon conversion rate (dXc/dt = 0.0083 s−1) and CO2
+conversion efficiency (Sco2 = 0.96) compared to the Fe40Cu20 OC with ϕ = 80 in iG-CLC (dXc/dt = 0.0037 s−1
+and Sco2 = 0.88).
+1. Introduction
+Coal chemical-looping combustion (CLC) is a promising alternative
+technology for CO2 capture in coal power plants because CLC generates
+a higher purity CO2 product stream that minimizes the energy penalty
+of CO2 capture [1,2]. Reducing CO2 emissions in coal power generation
+would have a positive effect on climate change and is critical to keep
+coal in the future energy mix. Research on coal CLC has been the focus
+of oxygen carrier (OC) studies and CLC processes during the last
+decade. Two main proposed processes for coal CLC are in-situ Gasifi-
+cation Chemical-Looping Combustion (iG-CLC) and Chemical-Looping
+with Oxygen Uncoupling (CLOU) [3]. Both processes have been suc-
+cessfully demonstrated at pilot scale in the range of 1 kWth to 1 MWth
+and their results proved the concept of coal CLC [2]. For iG-CLC, a 1
+MWth CLC unit combusted bituminous/hard coals with Fe-based oxygen
+carriers
+made
+from
+natural
+ilmenite
+ore
+(FeTiO3)
+using
+two
+interconnected circulating fluidized bed reactors (CFB) (fuel reactor
+and air reactor) [4–6]. The 250 kWth pilot unit of a moving bed fuel
+reactor coupled with a combined bubbling bed/entrained-flow air re-
+actor was tested using synthetic Fe-based metal oxide particles with
+sub-bituminous and bituminous coals. Additionally, a large 10 MWe
+unit, including four 2.5 MWe modules, is being designed [7]. Fluidized
+bed fuel reactors are commonly used in solid fuel CLC tests [2] but the
+moving bed fuel reactor is unique and attractive due to maximizing
+solids conversion and maintaining complete fuel conversion [7–10]. For
+CLOU, Cu-based oxygen carriers (e.g. 60% CuO on a MgAl2O4 support)
+were tested to combust coal (e.g. lignite, bituminous, and anthracite) in
+a 1.5 kWth CFB [11–14].
+In the iG-CLC process, the coal is first gasified to produce syngas
+(mainly CO and H2) under H2O and/or CO2 and then the syngas reacts
+with the OC (syngas CLC) [3]. This method is used to improve the slow
+solid–solid reaction of coal and the OC in the fuel reactor. Fe-based OCs
+https://doi.org/10.1016/j.fuel.2020.119012
+Received 7 March 2020; Received in revised form 12 August 2020; Accepted 15 August 2020
+⁎ Corresponding author.
+E-mail address: ping.wang@netl.doe.gov (P. Wang).
+Fuel 285 (2021) 119012
+Available online 06 September 2020
+0016-2361/ Published by Elsevier Ltd.
+T
+
+
+===== Page 2 =====
+
+in iG-CLC have mainly been investigated for coal CLC because the Fe-
+based OCs are relatively cheap and available from natural ores (e.g.
+ilmenite and iron ore) and industrial waste. Also, inexpensive OCs are
+preferable since OC losses may occur with coal ash that is purged out of
+the fuel reactor to avoid accumulation in the system [3]. From the pilot
+plant tests using fluidized bed fuel reactors, lowering the unburnt coal/
+char transferred with the OC to the air reactor and improving the CO2
+gas quality exiting the fuel reactor are still some of the major challenges
+[2]. To increase the CO2 capture efficiency, research has aimed to im-
+prove the OC activity and study operating conditions like temperature
+and the amounts of OC and fuel present in the fuel reactor [2]. This
+study focuses on that goal. Additionally, proposed process improve-
+ments include the addition of a carbon stripper (separating the unburnt
+carbon from the OC before the air reactor), conducting an oxygen
+polishing step at the outlet of the fuel reactor (high concentration O2 to
+oxidize the unburnt gaseous compounds), and use of a moving bed fuel
+reactor instead of the fluidized bed fuel reactor to increase gas–solid OC
+contact [2]. The pilot test, using the moving bed fuel reactor, reached
+near complete coal conversion (95%) and produced high purity CO2
+(∼97%) [7]. However, the addition of carbon stripping and oxygen
+polishing steps will increase capital and operation costs.
+In the CLOU process, coal is burned with gaseous oxygen released
+by the OC in the fuel-reactor, similar to conventional coal combustion
+[3]. CLOU has higher fuel conversion rates and fuel combustion effi-
+ciency compared to iG-CLC because it avoids the slow char gasification
+step in the iG-CLC and the fuel is combusted with gaseous oxygen [15].
+Cu-based oxygen carriers have been the focus of CLOU development
+because CuO has a fast oxygen release rate, high oxygen transport ca-
+pacity and favorable combustion thermodynamics that completely
+convert fuel to CO2 and H2O [3,16,17]. CLOU with Cu-based OCs have
+shown high CO2 capture efficiency and combustion efficiency without
+the carbon stripper used in the pilot scale tests [2]. Further materials
+development for CLOU to improve the OC lifetime is a still an important
+research area based on pilot plant tests [18].
+This study investigated bimetallic copper-iron oxygen carriers (Cu-
+Fe OC) for coal iG-CLC and CLOU to improve the performance as
+compared to monometallic Fe-based and Cu-based OCs. For iG-CLC, the
+addition CuO to the monometallic Fe-based OC may increase the CO2
+capture efficiency due to favorable combustion thermodynamics of
+CuO. The phase transformations of Fe2O3 reduction are Fe2O3 →
+Fe3O4 →FeO →Fe. When Fe2O3 is reduced to Fe3O4, it completely
+converts CO and H2 to CO2 and H2O based on thermodynamics but it
+has low oxygen transport capacity (Ro = 3.3%) [2]. The Ro is defined
+as Ro = (mo-mr)/mo, the mass fraction of the oxygen transport between
+the fully oxidized mo, and reduced mr, oxygen carrier [3]. The phase
+transformations of CuO reduction are CuO →Cu2O →Cu. CuO is re-
+duced to Cu2O by releasing gaseous oxygen (R1) and has higher oxygen
+transport capacity (Ro = 10%) [3]. The
+CuO(s) ↔2Cu2O(s) + O2(g)
+(R1)
+additional oxygen released by CuO may increase oxygen transport
+capability of the monometallic Fe-based OC and allow for a lower
+OC:fuel ratio (ϕ) to be used. In addition, Cu2O has a higher melting
+temperature 1235 °C than Cu 1083 °C [19] so iG-CLC could be operated
+at higher temperature. Bimetallic Cu-Fe OCs with coal iG-CLC at low
+temperature (≤900 °C) were studied by Jiang et al. [20] and Yang et al.
+[21] and the results showed good long-term reactivity of the OCs. The
+OCs were prepared by mechanical mixing CuO (≤20 wt% CuO) with
+natural hematite (mainly Fe2O3) [20] and wet impregnation of CuO
+(≤12 wt% CuO) on natural hematite [21]. Jiang et al. reported that the
+CO2 conversion rate for coal at 900 °C was much higher than at 860°C,
+830°C and 800 °C due to acceleration of coal gasification by increased
+reaction temperatures. This result suggests that higher temperature,
+above 900 °C, is needed for fast coal conversion [20]. In this study,
+bimetallic Cu-Fe OCs with coal iG-CLC at high temperatures (950 °C to
+1100 °C) will be investigated. The high temperature oxygen carriers
+may be beneficial for coal CLC processes because these higher tem-
+peratures improve the efficiency of power generation. For CLOU, ad-
+dition of Fe2O3 to monometallic Cu-based OCs may improve the me-
+chanical
+strength
+and
+reaction
+stability
+of
+the
+Cu-based
+OCs.
+Siriwardane et al. reported that the Cu-Fe OC (60% CuO, 20% Fe2O3
+and 20% Al2O3 by wt.) had no agglomeration after multiple coal CLC
+cycles compared to pure CuO or 60% CuO/bentonite, both of which had
+significant agglomeration [22]. The CuO and Fe2O3 interreacted to
+form CuFe2O4. Oxygen carrier testing with coal was conducted at
+800 °C and the CuO in the OC was reduced to Cu. This study will in-
+vestigate CLOU using Cu-Fe OC with coal at high temperature (up
+to1100°C). CuO will be reduced only to Cu2O avoiding Cu which may
+melt at high temperature and cause agglomeration. The synergetic ef-
+fects of CuFe2O4 will also be discussed.
+The future of coal CLC technology development is further process
+scale up and industrial validation [2,23]. Therefore, low cost OCs are in
+demand and studies on OC preparation using simple methods and low-
+cost materials are necessary. Natural Fe ore and Cu ore are relatively
+cheap and may be modified to make Cu-Fe OCs. These ores can have
+complex compositions so, to simplify analysis of the experimental re-
+sults, Cu-Fe OCs were synthesized for this study using pure compounds
+and a simple preparation method. In this study, silicon dioxide was
+selected as an inert support (designated Cu-Fe-Si) because Cu-Fe-Si is
+commercially available and derived from naturally occurring materials
+with low cost (e.g. chalcopyrite [24]). The main factors that impact the
+CO2 capture efficiency are the type of OC, the temperature in the fuel
+reactor, the OC:fuel ratio, and the type of solid fuel [2]. Study of pure
+CuO reactivity in coal iG-CLC and CLOU showed that CuO oxygen un-
+coupling took place in both processes and the primary reactions
+changed with the OC:coal ratio and gas environments (such as Ar or
+Ar + H2O) [19]. The objectives of this study are to investigate the re-
+activity and CO2 capture efficiency of coal char with Cu-Fe OCs at high
+temperature (up to 1100 °C) with different ratios of OC to coal char and
+to investigate the primary reactions taking place in iG-CLC and CLOU as
+well as the gas product distributions using a fixed bed reactor (FBR)-
+quadrupole mass spectrometer (QMS) system. The results will provide
+valuable information for OC development and the design and operation
+of chemical-looping processes at large scale.
+2. Materials and methods
+2.1. Coal char sample preparation and characterization
+Coal char was used as the fuel sample and prepared by pyrolysis in
+this study. The coal was a Powder River Basin (PRB) sub-bituminous
+coal obtained from the U.S. Department of Energy's National Carbon
+Capture Center (NCCC) managed by Southern Company. The coal was
+first sieved to a particle size of 106–180 μm to avoid mass and heat
+transfer limitations during the char reaction. Pyrolysis was conducted
+in a preheated fixed bed reactor at 1000 °C for 1 hr under flowing ni-
+trogen to remove volatiles in the coal. Table 1 lists the proximate and
+ultimate analysis results of the coal and the coal char on a dry basis
+[19]. The moisture content of the char and coal were 1.20 wt% and
+Table 1
+Proximate and ultimate analysis of the Powder River basin (PRB) sub-bitumi-
+nous coal and char [19].
+Sample
+Proximate analysis (% dry
+basis)
+Ultimate analysis (% dry basis)
+Fixed
+carbon
+Volatile
+matter
+Ash
+C
+H
+N
+S
+O (diff.)
+PRB Char
+85.60
+1.98
+12.42
+85.60
+0.23
+1.12
+0.53
+0.10
+PRB Coal
+47.66
+45.08
+7.26
+65.44
+4.39
+0.72
+0.48
+21.71
+P. Wang, et al.
+Fuel 285 (2021) 119012
+2
+
+
+===== Page 3 =====
+
+12.29 wt%, respectively.
+2.2. Bimetallic Cu-Fe-Si OCs preparations and characterization
+Bimetallic Cu-Fe OCs were synthesized using mechanical mixing
+followed by pressure pelletizing [25–27]. The starting materials were
+active metal oxides of cupric oxide (CuO) (powder, 99.99% trace me-
+tals) and ferric oxide (Fe2O3) (powder, 99% assay) with an inert silicon
+dioxide support (SiO2) (analytical reagent, quartz from XRD analysis)
+from Sigma-Aldrich. The SiO2 support was used to inhibit the OCs fast
+deactivation via agglomeration and improve the mechanical stability
+(e.g. attrition).
+A mixture containing 60 wt% CuO and Fe2O3 with 40 wt% SiO2
+support was prepared. A water slurry was formed by adding distilled
+water to the mixture and stirring intensively. The slurry was dried at
+110 °C in an oven under N2 to obtain a suitable mixture for pelletiza-
+tion. Cylindrical pellets (13 mm in diameter and 3 mm high) were
+pressed (pressing pressure ∼7538 kg/cm2) in a laboratory hydraulic
+press. The pellets were calcined at high temperature (1000°C or
+1100 °C) under flowing air in a furnace for 2 h in order to enhance OC
+mechanical resistance. After calcination, the pellets were ground with a
+mortar and pestle and sieved untill particle sizes were less than 180 µm.
+The particle sizes of the OCs (Fe60, Fe40Cu20 and Fe20Cu40) were
+small and similar with an average particle size of about 100 µm from
+sieve analysis (90, 106, 125, 150, and 180 µm screens).
+The Cu-Fe OCs with four different ratios of CuO to Fe2O3 (20/40,
+40/20, 50/10 and 60/0 wt%) were prepared. The Cu-Fe OCs that con-
+tained high CuO content (50 and 60 wt%) exhibited significant sin-
+tering at both calcination temperatures; 1000°C and 1100°C. Sintering
+was also observed for the Cu40 (40% CuO, 20% Fe2O3 and 40% SiO2)
+OC calcined at 1100°C. Adanez et al. also reported the sintering pro-
+blem for OCs containing ≥40 wt% CuO with a SiO2 support prepared
+using a similar method and calcined at ≥1100 °C [28]. Because of this,
+two Cu-Fe OCs were prepared and calcined at 1000 °C: Fe40Cu20 (40%
+Fe2O3, 20% CuO and 40% SiO2) and Fe20Cu40 (Table 2). A reference
+OC, Fe60 (60% Fe2O3 and 40% SiO2), was also prepared by the same
+method as the Cu-Fe OCs to study the impact of CuO addition on the Cu-
+Fe OC reactivity (Table 2).
+For the Fe40Cu20 OC, the molar ratio of CuO to Fe2O3 was 1:1.
+During the calcination process, CuO reacted with Fe2O3 forming copper
+ferrite (CuFe2O4). The reaction could be described by R2 [20,29].
+CuO(s) + Fe2O3(s) →CuFe2O4 (CuOFe2O3)(s)
+(R2)
+The X-ray diffraction (XRD) results of the Fe40Cu20 OC showed that
+the active phase was mainly CuFe2O4 (mixture of tetragonal and cubic)
+with trace amount of CuO (Table 2). This was in agreement with phase
+equilibria as a function of oxygen partial pressure in the system for Cu-
+Fe-O at 1000 °C [30,31]. For the Fe40Cu20 OC, which contained a
+metal mole fraction nFe/(nFe + nCu) = 0.67, in air (21% O2) the stable
+compounds were spinel CuxFe3-xO4 (X = 1) + CuO and/or Fe2O3. This
+occurred because the composition was close to the line dividing the two
+phases of CuxFe3-xO4 (X = 1) + CuO and CuxFe3-xO4 (X = 1) + Fe2O3.
+Ristić et al. studied the solid state reaction between CuO and α- Fe2O3
+at the initial molar ratio of 1:1 at 800°C, 1000 °C and 1100 °C for 1hr
+[32]. They found that the products at 1000 °C contained mostly cu-
+prospinel (CuFe2O4, cubic) with a trace amount of tenorite (CuO). The
+Fe40Cu20 OC phase composition was mostly in agreement with their
+results.
+For the Fe20Cu40 OC, the molar ratio of CuO to Fe2O3 was 4:1. A
+portion of the CuO reacted with Fe2O3 and formed CuFe2O4 according
+to R2 but the remaining CuO was a separate phase. The active phase of
+Fe20Cu40 OC was mainly CuO and CuFe2O4 (tetragonal and cubic)
+from the XRD analysis (Table 2). This was in agreement with phase
+equilibria as a function of oxygen partial pressure for Cu-Fe-O at
+1000 °C [30,31]. For the Fe20Cu40 OC, which contained a metal mole
+fraction nFe/(nFe + nCu) = 0.2, in air (21% O2) the stable compounds
+were spinel CuxFe3-xO4 (X = 1) + CuO. The reference Fe60 OC con-
+sisted of Fe2O3 (hematite) from the XRD analysis (Table 2).
+2.3. Experimental set-up and analysis of the Cu-Fe OCs
+A schematic of the FBR-QMS (Pfeiffer Ominstar GSD 301) system
+used in this study is shown in Fig. 1. The quartz reactor tube had a
+22 mm I.D. and a length of about 600 mm. The reactor tube was posi-
+tioned inside a horizontal tube furnace (ThermoScientific Lindberg/
+Blue
+M
+TF55030A-1).
+The
+test
+sample
+(for
+example10
+mg
+char + 800 mg OC) was placed into a CoorsTek porcelain combustion
+boat in the middle of the tube. The sample was a thin layer at the
+bottom of the boat (70 mm L × 14 mm W × 10 mm H with a 2 mm wall
+thickness) to reduce mass and heat transfer resistances. The length of
+the particle bed was about 66 mm. The loaded system was purged with
+Ar to remove air and monitored by the QMS. For reduction in the
+Ar + H2O environment (iG-CLC), the gases, Ar or 22.4% O2/Ar were
+fed to the FBR at ∼120 ml/min by mass flow controllers (MFCs) for the
+purging or oxidization. Water vapor (H2O + Ar), from another gas line,
+was fed to the system after the sample was preheated to 200 °C. Pre-
+heating was done to avoid water condensation in the cold sample and to
+shorten the heating time to the desired final test temperature. The
+water vapor was produced using a water vapor/relative humidity
+generator (L&C Science and Technology HG-100), in which Ar
+(∼50 mL/min by the MFC) flowed through a heated water tank at
+80 °C. To prevent water condensation in the transfer line, a line heater
+was used to maintain a temperature of 165 °C. The total gas flow of
+Ar + H2O in the reactor was 170 mL/min. For the reduction in Ar en-
+vironment (CLOU), the Ar flow was ∼170 mL/min. The superficial gas
+velocity of the reactor was ∼7.5 mm/s and gas solid contact time was
+∼8.8 s. Following that, the sample was heated to the final test tem-
+perature at a heating rate of ∼65 °C/min and then held until the re-
+action finished. The test temperature was measured using a K-type
+thermocouple placed next to the sample. The sample was placed in the
+constant temperature range of the tube furnace. The gas flow rates and
+test temperatures were recorded every second using LabVIEW software.
+The product gas compositions were analyzed on-line by QMS at one
+second intervals until the reaction ceased. The QMS was calibrated to
+quantitatively measure Ar, CO, CO2, CH4, H2, and H2O. The crystalline
+phase composition of solid residue remaining after each test was ana-
+lyzed using XRD (PANalytical X’Pert PRO).
+To understand the reactions taking place in coal CLC with the Cu-Fe
+OCs (OC oxygen uncoupling, OC reduction with char and OC re-oxi-
+dation in iG-CLC and CLOU), test conditions such as temperature, OC/
+char ratio (ϕ) and gas environment (Ar or Ar + H2O) were investigated.
+The uncoupling properties of the Fe40Cu20 and Fe20Cu40 OCs (ap-
+proximately 0.2 g) were tested under Ar at 1000˚C (Table 3). For the
+Fe40Cu20 OC, iG-CLC was considered based on the low oxygen un-
+coupling of the OC. The Fe40Cu20 OC with char at ϕ = 80 was tested
+under Ar + H2O for reduction and 22.4%O2/Ar for re-oxidation. The
+Table 2
+Types of Cu-Fe oxygen carriers, related process, its chemical compositions in
+preparation and main active phase compounds in fresh prepared OCs from XRD
+analysis.
+OC Name
+Process
+Concentration (wt.%)
+Main active phases
+CuO
+Fe2O3
+SiO2
+Fe60 (reference)
+iG-CLC
+0
+60
+40
+Fe2O3 (hematite)
+Fe40Cu20
+iG-CLC
+20
+40
+40
+CuFe2O4 (tetragonal,
+cubic)
+CuO (trace)
+Fe20Cu40
+CLOU
+40
+20
+40
+CuO
+CuFe2O4 (tetragonal,
+cubic)
+P. Wang, et al.
+Fuel 285 (2021) 119012
+3
+
+
+===== Page 4 =====
+
+OC/char ratio ϕ = 80 was selected assuming the CuO and Fe2O3 added
+in the OC were ideally reduced to Cu2O (R3) and Fe3O4 (R4), respec-
+tively.
+4CuO(s) + C(s) →2Cu2O(s) + CO2(g)
+(R3)
+6Fe2O3(s) + C(s) →4Fe3O4(s) + CO2(g)
+(R4)
+To understand the addition of CuO on Fe-based iG-CLC, Fe60 OC
+with char at ϕ = 135 was tested at 950°C. Assuming the Fe2O3 added in
+the OC was ideally reduced to Fe3O4, an OC/char ϕ = 114 (R4) was
+required. The higher OC/char ratio ϕ = 135 was selected to maximize
+char to CO2 conversion. The influence of temperature on the OC re-
+duction activity with char at ϕ = 80 was investigated at 950°C, 1000°C
+and 1100°C. Char gasification was also studied at these conditions be-
+cause gasification is the controlling step for reduction in iG-CLC. Char
+gasification was conducted at the ratio of char to SiO2 of 80 (char/
+SiO2 = 80) to be comparable to the OC with char tests. The impact of
+OC/char ratio (ϕ = 80, 40 and 24) on the reaction reactivities was also
+studied.
+For the Fe20Cu40 OC, CLOU was considered based on the high
+oxygen uncoupling of the OC. The ratio of OC to coal ϕ = 67 was se-
+lected assuming CuO added in the OC was ideally reduced to Cu2O
+(R3). The Fe20Cu40 OC with char at ϕ = 67 was tested at 1000°C under
+Ar for reduction and 22.4%O2/Ar for re-oxidation. A similar test was
+also done using Ar + H2O to study the influence of water on the re-
+activity of the OC with char in CLOU to simulate steam as the fluidizing
+gas. The impact of OC/char ratio on the reactivities were investigated at
+ϕ = 67 and 18 under Ar + H2O.
+2.4. Data analysis
+For the Cu-Fe OC oxygen uncoupling, the CuO alone or in CuFe2O4
+(CuOFe2O3) released gaseous O2 and reduced to cuprous oxide (Cu2O)
+upon heating. This is explained in section 3.1. The OC uncoupling re-
+activity was quantified in terms of oxygen uncoupling, Xo and oxygen
+uncoupling rate, dXo/dt. Xo was calculated as:
+=
+Xo
+n
+nmax
+(1)
+where n is the moles of accumulated gaseous oxygen generated over the
+reaction time (t) and nmax is the moles of the gaseous oxygen generated
+from the CuO in the OC for the Fe40Cu20 and Fe20Cu40 OCs and
+calculated based on the reaction R1. In addition, the OC oxygen
+transport capacity by oxygen uncoupling (Roc = mO2/mc) was also
+calculated from the total amount of generated gaseous O2 measured
+using QMS mO2 over the initial mass of the OC mc. It was derived from
+the traditional oxygen transport capability Ro.
+During CLOU and iG-CLC in the fuel reactor, the char was converted
+by the OC reduction and primarily generated CO2, CO, H2 and H2O. The
+reactivities were quantified in term of the carbon conversion efficiency
+(Xc) and carbon conversion rate, dXc/dt. Xc was defined as:
+=
+=
++
+= F
+Xc
+n
+n
+(y
+y
+)
+n
+t
+t
+CO
+CO
+c
+0
+0
+2
+0
+(2)
+where nc is the moles of accumulated carbon in carbon containing
+product gases over the reaction time (t). This was calculated based on
+the volumetric concentrations of the carbon containing gases CO2 and
+CO (yi) and the gas flow rate (F). The parameter no is the moles of the
+carbon in the initial coal char sample and calculated based on the char
+proximate and ultimate analysis results (Table 1).
+The goals of coal CLC are to completely convert coal to CO2 and H2O
+in the fuel reactor and to fully capture CO2 after H2O condensation in
+coal power plants. The CLC performance of OC reduction with coal was
+quantified in terms of the CO2 conversion efficiency (Sco2) [24]. Sco2 is
+defined as:
+=
+Sco
+n
+n
+CO
+t
+2
+2
+(3)
+where co
+n
+2 and nt are the total moles of accumulated carbon in CO2 and
+in carbon containing gases (CO2 and CO) in the outlet stream during the
+Fig. 1. Schematic of the experimental FBR-QMS setup used in this study.
+Table 3
+Oxygen transport capacity Roc, final oxygen uncoupling Xo, maximum oxygen uncoupling rates dXo/dt, temperatures, and main active phases of the uncoupled OCs
+from XRD analysis for Fe40Cu20 and Fe20Cu40 OCs in Ar at 1000 °C and CuO* (*from reference [19]).
+Type of OC
+T (°C)
+Oxygen uncoupling reactivities
+Main active phases in uncoupled OCs from XRD analysis
+Roc
+Xo
+Tmax (°C)
+dXo/dt (s−1)
+Fe40Cu20 OC
+1000
+0.016
+0.78
+960
+0.0031
+CuFeO2 (rhombohedral)
+CuxFe3-xO4 (x = 0.67, cubic)
+Fe20Cu40 OC
+1000
+0.04
+0.98
+975
+0.0077
+Cu2O (cuprite)
+CuFeO2 (rhombohedral)
+CuO*
+850
+0.1
+1
+850
+0.0015
+Cu2O (cuprite)
+950
+0.1
+1
+922
+0.0077
+Cu2O (cuprite)
+P. Wang, et al.
+Fuel 285 (2021) 119012
+4
+
+
+===== Page 5 =====
+
+test, respectively.
+3. Results and discussion
+3.1. Oxygen uncoupling of Fe40Cu20 OC and Fe20Cu40 OC
+In the oxygen uncoupling tests of Fe40Cu20 OC and Fe20Cu40 OC,
+gaseous O2 was generated (above 738 °C for the Fe40Cu20 OC and
+832 °C for the Fe20Cu40 OC) and detected by the QMS in the product
+gas. Fig. 2 shows the oxygen uncoupling (Xo), oxygen uncoupling rates
+(dXo/dt) and measured sample temperatures of the Fe40Cu20 OC and
+Fe20Cu40 OC. For the Fe40Cu20 OC, the final oxygen uncoupling was
+Xo = 0.78 (Table 3), which meant that part of the CuO added during
+the Fe40Cu20 OC preparation was decomposed to Cu2O and released
+O2 based on the Xo definition (Eq. (1)). The oxygen uncoupling curve
+had one peak with the maximum oxygen uncoupling rate dXo/
+dt = 0.0031 s−1 at the temperature Tmax = 960 °C.
+The oxygen uncoupling behavior of the Fe20Cu40 OC was different
+than the Fe40Cu20 OC. Most of the CuO added in the Fe20Cu40 OC
+preparation was converted with the final oxygen uncoupling Xo = 0.98
+(Table 3). The maximum oxygen uncoupling rate of the Fe20Cu40 OC
+was dXo/dt = 0.0077 s−1 at the temperature Tmax = 975 °C. This was
+2.5 times faster than the Fe40Cu20 OC. Compared to the oxygen un-
+coupling of pure CuO, measured with a similar method at 850 (dXo/
+dt = 0.0015 s−1)
+and
+950 °C
+(dXo/dt = 0.0077 s−1)
+[19],
+the
+Fe20Cu40 OC results were similar to CuO at 950 °C (Table 4). From the
+uncoupling tests, CuFe2O4 released less gaseous O2 than CuO, which
+was in agreement with the results from the Cu-ore (containing CuO and
+CuFe2O4) study [33]. Overall, the different compositions of the
+Fe40Cu20 and Fe20Cu40 OCs and the oxygen uncoupling behaviors of
+active compounds (CuO and CuFe2O4) are all reasons for the higher Xo
+and dXo/dt of Fe20Cu40 OC compared to Fe40Cu20 OC.
+The maximum temperatures for the Fe40Cu20 OC and Fe20Cu40
+OC were different because the Fe20Cu40 OC was heated more quickly
+to 1000 °C than the Fe40Cu20 OC due to differences in their heat ca-
+pacity (Fig. 2). The molar heat capacity of CuFe2O4 in the Fe40Cu20 OC
+was 205.62 J/(mol K) and this was 3.5 times higher than CuO (58.10 J/
+(mol K)), the main component of the Fe20Cu40 OC. These values were
+estimated using HSC Chemistry 9 software.
+XRD results indicated that CuFeO2 (rhombohedral) and CuxFe3-xO4
+(x = 0.67) (cubic) were generated without Fe2O3 in the residue of the
+Fe40Cu20 OC uncoupling tests (Table 3). This agreed with the phase
+equilibria as a function of oxygen partial pressure in the Cu-Fe-O system
+at 1000 °C [30,31]. For the Fe40Cu20 OC, with nFe/(nFe + nCu) = 0.67
+at the maximum O2 pressures PO2 = 0.00084 atm, the stable com-
+pounds were CuFeO2 and CuxFe(3-x)O4. This was different than reported
+for CuFe2O4 uncoupling at lower temperatures ≤900 °C [24,34].
+CuFe2O4 released O2 and generated CuFeO2 and Fe2O3 (Reaction R5).
+This also indicated that CuO in the CuFe2O4 (CuOFe2O3) mainly re-
+leased gaseous O2 and reduced to cuprous oxide (Cu2O) in CuFeO2
+(Cu2OFe2O3). The reason for this difference is because the phase
+equilibria of the Cu-Fe-O system is also impacted by temperature along
+with the oxygen partial pressure [35]. At an O2 pressure of 0.01 atm,
+the
+stable compounds Fe2O3 + CuxFe(3-x)O4
+at low
+temperatures
+(≤1080 °C) changed to CuxFe(3-x)O4 at high temperature. Therefore, the
+CuFe2O4 uncoupling at high temperature released gaseous O2 and re-
+duced to CuFeO2 (rhombohedral) and CuxFe3-xO4 (x = 0.67) (cubic).
+This was further confirmed by XRD analysis of the Fe20Cu40 OC un-
+coupling residue that mainly contained Cu2O from CuO, CuFeO2
+(rhombohedral) and CuxFe3-xO4 (x = 0.67) (cubic) from CuFe2O4
+(Table 3).
+2CuFe2O4 (CuOFe2O3)(s) ↔2CuFeO2 (Cu2OFe2O3)(s) + Fe2O3(s) +
+1/2O2(g)
+(R5)
+The major active compounds of the Fe20Cu40 and Fe40Cu20 OCs
+were CuO and/or CuFe2O4 (Table 2). CuO released gaseous O2 and was
+reduced to Cu2O during heating (Reaction R1) [15]. The oxygen
+transport capacity of pure CuO from oxygen uncoupling is Ro = 0.1
+based on simple stoichiometric calculations (R1) [3]. The Roc of
+Fe40Cu20 OC, calculated from the uncoupling test, was 0.016 and this
+was lower than the ideal Ro = 0.02 based on 20% CuO added during
+the
+OC
+preparation
+(Table
+2).
+This
+occurred
+because
+CuFe2O4
+(CuOFe2O3) was formed from the CuO and Fe2O3 reaction (R2) and
+only part of the CuO in CuFe2O4 was reduced to Cu2O (Table 3). The
+Roc of Fe20Cu40 OC, calculated from the uncoupling test, was 0.040
+which was close to the ideal Ro = 0.04 based on 40% CuO added in the
+OC preparation (Table 2). These values were in better agreement be-
+cause CuO was the major active compound in the OC (Table 3).
+3.2. Fe40Cu20 OC with coal char in iG-CLC
+3.2.1. Reactivities and possible reactions of the Fe40Cu20 OC and char
+during iG-CLC
+The reactivity of the Fe40Cu20 OC with the char at ϕ = 80 was
+tested at 1000 °C in Ar + H2O. The product gas was mainly CO2 with
+small amounts of CO and H2 (Fig. 3). The final carbon conversion ef-
+ficiency of the char was Xc = 0.96 (Table 4). This was close to the
+theoretical carbon conversion efficiency (Xc theo = 1) and indicated that
+the chars were nearly completely converted. The carbon conversion
+curve had one peak with the maximum carbon conversion rate dXc/
+dt = 0.0039 s−1 at the temperature Tmax = 956 °C.
+To understand the reaction of the Fe40Cu20 OC with char, char
+gasification with SiO2 only (same ratio as used with OC experiments)
+was tested. Fig. 3 shows the gas concentrations versus carbon conver-
+sions for (a) the char reactions with Fe40Cu20 OC at ϕ = 80 and (b)
+char gasification at 1000 °C in Ar + H2O. The CO2 conversion efficiency
+Fig. 2. The reaction temperatures, oxygen uncoupling (Xo) (a) and oxygen
+uncoupling rates (dXo/dt) (b) vs. time of Fe40Cu20 OC and Fe20Cu40 OC at
+1000 °C in Ar.
+P. Wang, et al.
+Fuel 285 (2021) 119012
+5
+
+
+===== Page 6 =====
+
+Sco2 = 0.88 of the Fe40Cu20 OC was higher than the char gasification,
+Sco2 = 0.54 (Table 4). The char gasification generated syngas con-
+sisting primarily of H2, CO and CO2 (Fig. 3) through the possible re-
+actions: water gas reaction (R6), boudouard reaction (R7) and water
+gas shift reaction (R8) [36]. In the reaction of the Fe40Cu20 OC with
+char, H2 and CO from gasification might react with the active phase
+CuFe2O4 in the Fe40Cu20 OC and convert to H2O and CO2.
+Water gas reaction C(s) + H2O(g) ↔CO(g) + H2(g) + 131 MJ/kmol
+(R6)
+Boudouard reaction C(s) + CO2(g) ↔2CO(g) + 172 MJ/kmol
+(R7)
+Water gas shift reaction CO(g) + H2O(g) ↔CO2(g) + H2(g) −41 MJ/
+kmol
+(R8)
+The Fe40Cu20 OC released gaseous O2 from the OC oxygen un-
+coupling test in section 3.1. The char reacted with the O2 to produce
+CO2, similar to conventional combustion. The uncoupling/combustion
+reactions mainly occurred at the beginning of the OC reduction with
+char (Fig. 3). This may have occurred because the Fe40Cu20 OC oxygen
+uncoupling took place at a lower temperature (Tmax = 960 °C) than the
+char gasification (Tmax = 986 °C). Fig. 3 (a) also showed higher CO2
+concentration at low Xc (Xc < 0.1) during reduction compared to the
+total amount of CO2 and CO (if it was converted to CO2) from char
+gasification (Fig. 3 (b)). A study of pure CuO with coal char, tested in
+Ar + H2O at 950 °C, also reported that uncoupling/combustion was the
+main reaction at beginning of the test instead of gasification/syngas
+reduction [19]. At the same time, CO and H2 from char gasification may
+react with the O2 to produce CO2 and H2O. Based on the oxygen
+transport capacity of the Fe40Cu20 OC from oxygen uncoupling
+(Roc = 0.016), the released O2 ideally combusts 57% of the char to CO2
+at ϕ = 80. Therefore, char combustion, char gasification and syngas
+reduction took place with the Fe40Cu20 OC and char.
+From XRD analysis, the residue of the Fe40Cu20 OC and char at
+ϕ = 80 contained mainly CuFeO2 (rhombohedral) and CuxFe3-xO4
+(x = 0.67) (cubic) with trace amounts of Cu (Table 4). The primary
+phases, CuFeO2 and CuxFe3-xO4 (x = 0.67), were the same as the un-
+coupling test (Table 3). This was expected but the amounts might not be
+the same. Quantitative estimates were not attempted due to the com-
+plexity of the XRD patterns. The trace Cu present in the sample might be
+generated from the CuO in the fresh Fe40Cu20 OC. After re-oxidation of
+the reduced Fe40Cu20 OC in 22.4%O2/Ar, the phases present were
+CuFe2O4 (tetragonal, cubic) with trace CuO. This was the same as the
+fresh Fe40Cu20 OC (Table 2). So, after one cycle, the Fe40Cu20 OC did
+not change its phases and may be used for multiple cycles. This will be
+investigated in the future.
+3.2.2. Addition of CuO in Fe-based OC: influences on the reactivities of Fe-
+based OC and coal char iG-CLC
+To study the impact of CuO addition on Fe-based OC reactivity with
+char, the Fe40Cu20 OC with coal char at ϕ = 80 and the Fe60 OC at
+ϕ = 135 were tested at 950 °C in Ar + H2O. Product gases from both
+tests were mainly CO2 with small amounts of CO and H2 (Fig. 4). The
+CO2 conversion efficiency of the Fe40Cu20 OC Sco2 = 0.83 was higher
+than the Fe60 OC Sco2 = 0.78 (Table 4). In the Fe60 OC with char, char
+gasification and syngas reduction took place similar to Fe40Cu20 OC
+with char but without carbon combustion. Based on thermal analysis of
+Fe2O3 reduction using CO and H2 as fuels at 800°C and 1000 °C, only
+Fe2O3 to Fe3O4 may completely combust CO and H2 to CO2 and H2O
+(R9). Further reduction to FeO or Fe would increase CO and H2 equi-
+librium concentrations in the outlet gas from the fuel reactor [37]. In
+this study, ϕ = 135 was higher than the value required to reduce Fe2O3
+to Fe3O4 (ϕ = 114) but the product gas still had not completely con-
+verted CO and H2 during the test (Fig. 4). At this OC/char ratio (ϕ), the
+Fe2O3 could combust more carbon than the carbon present in the char
+during the test. As a result, the char should be completely converted by
+the excess Fe2O3 in the test. XRD analysis indicated that the test
+Table 4
+Final carbon conversion efficiencies, CO2 conversion efficiencies, maximum conversion rates and temperatures for the Fe40Cu20 OC with char at ϕ = 80 and char/
+SiO2 in Ar + H2O at 950, 1000 and 1100 °C.
+Sample
+T (°C)
+Carbon conversion in reduction
+Main active phases in reduced OCs from XRD analysis
+Xc
+Sco2
+Rmax (s−1)
+Tmax (°C)
+Fe60 OC/char
+ϕ = 135
+950
+0.99
+0.78
+0.0031
+935
+Fe3O4 (magnetite)
+Fe2O3 (hematite)
+Fe40Cu20/char
+ϕ = 80
+950
+0.94
+0.82
+0.0027
+930
+CuxFe3-xO4 (x = 0.67)
+CuFeO2, Cu (trace)
+1000
+0.96
+0.88
+0.0037
+966
+1100
+0.99
+0.69
+0.0039
+972
+SiO2/char
+950
+0.94
+0.65
+0.0025
+950
+NA
+1000
+0.99
+0.54
+0.0036
+986
+1100
+0.97
+0.47
+0.004
+1026
+Fig. 3. The gas concentrations vs carbon conversions for (a) the char reactions with Fe40Cu20 OC at ϕ = 80 and (b) the char gasification with SiO2 (same amount as
+the OC) at 1000 °C in Ar + H2O.
+P. Wang, et al.
+Fuel 285 (2021) 119012
+6
+
+
+===== Page 7 =====
+
+residues contained Fe3O4 (magnetite) with some unconverted Fe2O3
+(hematite), as expected (Table 4). The addition of CuO to the Fe-based
+OC slightly increased CO2 conversion efficiency and reduced CO and H2
+in the product gas.
+6Fe2O3 (s) + CO (g) + H2 (g) →4Fe3O4 (s) + CO2 (g) + H2O (g)
+(R9)
+The final carbon conversion efficiencies of the Fe40Cu20 OC
+(Xc = 0.94) and Fe60 OC (Xc = 0.99) were similar (Table 4). The
+maximum
+carbon
+conversion
+rate
+of
+Fe40Cu20
+OC
+dXc/
+dt = 0.0027 s−1 at the temperature Tmax = 930 °C was slightly lower
+than Fe60 OC dXc/dt = 0.0031 s−1 at Tmax = 935 °C. This may be due
+to the char combustion at the beginning of the Fe40Cu20 OC and char
+reaction. It resulted in less char in the following char gasification/
+syngas reduction of Fe40Cu20 OC with char compared to Fe60 OC with
+char. The rate of Fe2O3 being reduced to Fe3O4 by CO increased with
+increasing CO concentration [38].
+3.2.3. Impact of reaction temperatures on the reactivity of Fe40Cu20 OC
+and coal char
+To study the impact of reaction temperatures on the Fe40Cu20 OC
+reactivity with coal char, the Fe40Cu20 OC was tested at ϕ = 80 at
+950°C, 1000°C and 1100 °C in Ar + H2O. Char gasification with SiO2
+(same ratio as used with OC experiments) was also performed at the
+same conditions because char gasification is the controlling step in iG-
+CLC [1]. Based on the results listed in Table 4, both the reduction and
+gasification rates increased as temperatures increased but the rate in-
+crease was not linear with the temperature. The reduction rate was up
+37% from 950 °C to 1000 °C and this was much higher than the rate
+increase (5.4%) from 1000 °C to 1100 °C. This was mainly due to the
+increased gasification rate from 950 °C to 1000 °C (44%) and was higher
+than the rate increase from 1000 °C to 1100 °C (11.1%). The reduction
+rates were slightly higher or similar to the gasification rates at all test
+temperatures because the reduction of the OC with syngas (mainly
+CO + H2) generated from gasification sped up the gasification reaction.
+The increasing gasification rate by the OC also resulted in a lower
+maximum
+temperature
+during
+reduction
+than
+char
+gasification
+(Table 4). During the test at 1100 °C, the maximum temperature
+Tmax = 972 °C was below 1000 °C.
+The CO2 conversion efficiencies of reduction were higher than char
+gasification at the same temperature for all three test temperatures
+(Table 4). During reduction, the char was first gasified to syngas then
+the syngas (mainly CO and H2) was oxidized to CO2 and H2O by the OC.
+The CO2 conversion efficiencies of reduction at 1100 °C were lower
+than at 1000 °C and 950 °C (Table 4). For char gasification, the CO2
+conversion efficiencies decreased as temperature increased from 950°C
+to 1100 °C, which indicated that more CO was in the syngas at high
+temperature. As the char gasification temperature increased, more CO
+was generated from the water gas reaction (R6) because this reaction is
+endothermic and thermodynamically favored at higher temperature.
+On the other hand, less CO was converted to CO2 through the water gas
+shift reaction (R8) because the reaction is exothermic and thermo-
+dynamically favored at lower temperature. This resulted in more CO in
+the syngas from high temperature char gasification. CO is not desired in
+the product gas and may require an oxygen polishing step to be con-
+verted to CO2. Therefore, the Fe40Cu20 OC in coal iG-CLC at tem-
+perature ≥1100 °C did not show any benefit based on the CO2 con-
+version efficiency and the rate.
+3.2.4. Impact of OC to char ratios (ϕ) on CO2 conversion efficiency Sco2
+and OC phase changes
+The Fe40Cu20 OC with char at different ratios ϕ = 24, 40 and 80
+was tested at 1000 °C in Ar + H2O. The final carbon conversion effi-
+ciencies, maximum conversion rates and temperatures were similar for
+all three tested ratios. The CO2 conversion efficiencies reduced as the
+ratio of OC to char decreased (Table 5). The low Sco2 indicated that
+there was more CO in the product gas, but this was still higher than the
+char gasification results at the same condition (Sco2 = 0.54) (Tables 4
+and 5). In addition, the higher H2 concentrations in the product gas
+were related to the lower OC to char ratios (Fig. 5). Compared to char
+gasification, the reductions at ϕ = 80, 40 and 24 converted 94%, 92%
+and 60% of H2 produced from gasification, respectively. H2 and CO in
+Fig. 4. The gas concentrations vs carbon conversions for the reactions of coal
+char with the Fe40Cu20 OC at ϕ = 80 and the Fe60OC at ϕ = 135 at 950 °C in
+Ar + H2O.
+Table 5
+The CO2 conversion efficiencies, the reduced Fe40Cu20 OC and Fe20Cu40 OC
+phase changes at different ratios of the OC to char ϕ in Ar + H2O at 1000 °C.
+OC/char ϕ
+Process (gas)
+Sco2
+Reduced OC phase changes
+CuO
+CuFeO2
+CuxFe3-xO4
+Cu
+Fe40Cu20 OC
+80
+IG-CLC
+(Ar + H2O)
+0.88
+NA
+major
+major
+trace
+40
+0.8
+NA
+minor/trace
+major
+minor
+24
+0.76
+NA
+NA
+major
+minor
+Fe20Cu40 OC
+67
+CLOU (Ar)
+0.96
+major
+major
+trace
+NA
+CLOU
+(Ar + H2O)
+0.96
+major
+major
+trace
+NA
+18
+IG-CLC
+(Ar + H2O)
+0.76
+NA
+NA
+major
+major
+Fig. 5. The H2 concentrations vs carbon conversions for coal char reactions
+with Fe40Cu20 OC at ϕ = 80, 40 and 24 and coal char gasification with SiO2
+(same amount as the OC) at 1000 °C in Ar + H2O.
+P. Wang, et al.
+Fuel 285 (2021) 119012
+7
+
+
+===== Page 8 =====
+
+the product gas will require further treatment (such as oxygen pol-
+ishing) to obtain high purity CO2 for CO2 sequestration.
+To understand the phase changes of active metal oxides in the OC
+during reduction with char, the residues of the reduced Fe40Cu20 OC at
+ϕ = 80, 40 and 24 were analyzed by XRD. For the Fe40Cu20 OC at
+ϕ = 80, CuFeO2 (rhombohedral) (major) and CuxFe3-xO4 (x = 0.67)
+(cubic) (major) with trace amounts of Cu were detected (Table 5). The
+trace Cu might be generated from the CuO in the fresh Fe40Cu20 OC.
+The residue of the Fe40Cu20 OC at ϕ = 40 had CuFeO2 (rhombohedral)
+(minor or trace), CuxFe3-xO4 (x = 0.67) (cubic) (major) and Cu (minor)
+(Table 5). Partial CuFeO2 was further reduced to Cu and CuxFe3-xO4.
+For the OC at ϕ = 24, CuxFe3-xO4 (x = 0.67) (cubic) (major) and Cu
+(minor) were present in the residue (Table 5). All of the CuFeO2 was
+further reduced to Cu and CuxFe3-xO4. As ϕ decreased, the active metal
+oxides were further reduced and the phase changes were:
+CuFe2O4 (CuxFe3-xO4 X= 1 or CuOFe2O3) →
+CuFeO2(Cu2OFe2O3) + CuxFe3-xO4 (X = 0.67 or 0.86) (ϕ = 80) →
+CuFeO2(Cu2OFe2O3) + CuxFe3-xO4 (X = 0.67 or 0.86) + Cu (ϕ = 40)
+→
+CuxFe3-xO4 (X = 0.67 or 0.86) + Cu (ϕ = 24)
+So, CuO in the CuFe2O4 was more active and easily reduced from CuO/
+Cu2O/Cu compared to Fe2O3 from Fe2O3/Fe3O4/FeO/Fe. This was in
+agreement with the phase equilibrium in the system Cu-Fe-O at 1000 °C
+as a function of oxygen partial pressure [30,31]. As the oxygen partial
+pressure decreased (Log PO2 0 to −15), the phases in the Fe40Cu20 OC,
+with nFe/(nFe + nCu) = 0.67 were:
+CuxFe3-xO4/CuFeO2 + CuxFe3-xO4/CuxFe3-xO4 + Cu/
+FeO + Cu/
+Fe + Cu
+Therefore, reducing Fe2O3 to FeO and Fe were more difficult compare
+to CuO to Cu. So, for the Cu-Fe OC in iG-CLC, the optimum ratio of OC
+to coal is important to avoid agglomeration caused by Cu at high
+temperature.
+3.3. Fe20Cu40 OC with coal char in CLOU
+3.3.1. Reactivity of Fe20Cu40 OC and coal char with ϕ 67 at 1000 °C in Ar
+The reactivity of the OC with the coal char was tested at 1000 °C in
+Ar. The final carbon conversion efficiency of char was Xc = 1.0 at
+1000 °C. This was close to the theoretical carbon conversion efficiency
+(1) and indicated that the chars were completely converted. Based on
+the oxygen transport capacity, Ro = 0.04 g O2/g OC (Table 4), 670 mg
+of Fe20Cu40 OC releases 26.8 mg gaseous O2 that ideally combusts
+10.05 mg carbon, which is more carbon than present in the char
+(8.46 mg). Therefore, the char should be completely combusted by the
+O2 released from the Fe20Cu40 OC and generate mainly CO2 and a
+small amount of O2 in the product gas.
+The QMS detected mainly CO2 with small amounts of O2 and CO in
+the product gases during the test (Fig. 6). The O2 was mainly generated
+at the end of the test (temperatures above 949 °C, Xc > 0.8) as ex-
+pected less carbon and excess O2 in the system. Little CO was produced
+at the beginning of the test because the released O2 was relatively small
+at the lower temperature and carbon partial oxidation took place.
+Therefore, Fe20Cu40 OC uncoupling and char combustion were the
+main reactions and char partial combustion was a minor reaction. The
+reactions were further supported by XRD phase analysis of the residues
+of reduced Fe20Cu40 OC with char. CuO and CuFe2O4 in the Fe20Cu40
+OC were reduced to Cu2O and CuFeO2 (Cu2OFe2O3) respectively, which
+was the same as the Fe20Cu40 OC oxygen uncoupling. In addition, after
+re-oxidation of the reduced Fe20Cu40 OC in 22.4% O2/Ar, the phases
+were CuO and CuFe2O4 (tetragonal, cubic) and were the same as the
+fresh Fe20Cu40 OC (Table 2). So, after one cycle, the Fe20Cu40 OC did
+not change its phases and may be used for multi-cycle testing in the
+future.
+The carbon conversion rate had a maximum dXc/dt = 0.0083 s−1 at
+Tmax = 942 °C. This was lower than the carbon conversion rate of pure
+CuO with char at ϕ = 26 and 950 °C, dXc/dt = 0.012 s−1 [19]. It is due
+to lower uncoupling rate of the Fe20Cu40 OC compared to CuO
+(Table 3). The maximum reduction rate of the Fe20Cu40 OC with char
+was slightly faster than the oxygen uncoupling rate of Fe20Cu40 OC. It
+also occurred at a lower temperature Tmax than the Fe20Cu40 OC
+oxygen uncoupling Tmax (Table 3). This was because the oxygen gen-
+erated from uncoupling was consumed by the char and the char com-
+bustion increased the rate of oxygen uncoupling. Compared to the
+Fe40Cu20 OC with char in iG-CLC at 1000 °C (Table 4), the carbon
+conversion rate of Fe20Cu40 OC with char in CLOU was about two
+times faster. In addition, the CO2 conversion efficiency of the Fe20Cu40
+OC in CLOU (Sco2 = 0.97) was higher than the Fe40Cu20 OC in iG-CLC
+(Sco2 = 0.88) (Table 5).
+3.3.2. Impact of water on the Fe20Cu40 OC and coal char reactions
+The Fe20Cu40 OC with char at ϕ = 67 was also tested at 1000 °C in
+Ar + H2O to study the impact of water on its reactivity. The carbon
+conversion efficiency Xc = 0.98 was similar to the test at the same ϕ in
+Ar. There was a slight difference in the carbon conversion rate and
+compositions of the product gas between in Ar + H2O and Ar. In
+Ar + H2O, the maximum rate dXc/dt = 0.0088 s−1 at Tmax = 938 °C
+was slightly higher due to char gasification and syngas combustion by
+O2 released from the OC along with the char combustion with O2.
+Syngas combustion is usually faster than direct char combustion. H2
+was detected along with CO but the amount of CO was smaller com-
+pared to the test with Ar only. This may have occurred due to the water
+gas shift reaction at relatively low temperatures as the sample heated to
+the test temperature. The XRD phase analysis results of the reduced
+Fe20Cu40 OC residue with char in Ar + H2O were the same as the test
+in Ar. Therefore, Fe20Cu40 OC uncoupling and char combustion were
+the main reactions for the Fe20Cu40 OC with char at ϕ = 67 in
+Ar + H2O. Additional char gasification and syngas combustion were
+minor reactions.
+3.3.3. Impact of the Fe20Cu40 OC to char ratio on reactivity and the OC
+phase changes
+The Fe20Cu40 OC with char at ϕ = 18 was tested at 1000 °C in
+Ar + H2O to study the impact of Fe20Cu40 OC to char ratio on re-
+activity and the OC phase changes. The final carbon conversion effi-
+ciency, maximum rate and CO2 conversion efficiency were Xc = 0.97,
+dXc/dt = 0.0031 s−1 at Tmax = 960 °C, and Sco2 = 0.76, respectively.
+The reaction generated mainly CO2 with small amounts of CO and H2
+(Fig. 7). The remaining sample contained Cu and CuxFe3-xO4 (X = 0.67)
+from XRD analysis (Table 5). These reactivity results were different
+than the test of Fe20Cu40 OC with char at ϕ = 67 in Ar and Ar + H2O
+Fig. 6. The gas concentrations vs carbon conversion efficiencies of the coal char
+reactions with Fe20Cu40 OC/char ratios ϕ = 67 at 1000 °C in Ar.
+P. Wang, et al.
+Fuel 285 (2021) 119012
+8
+
+
+===== Page 9 =====
+
+(CLOU) but similar to the test of Fe40Cu20 OC and char at ϕ = 24 in
+Ar + H2O (IG-CLC). Based on the oxygen transport capacity of the
+Fe20Cu40 OC from oxygen uncoupling (Ro = 0.04) (Table 3), the re-
+leased O2 ideally combusts 32% of the char to CO2 at ϕ = 18. There-
+fore, char gasification and syngas reduction took place with char
+combustion in the test with Fe20Cu40 OC and char. This was the same
+as iG-CLC and agreed with the reported study using pure CuO with char
+at ϕ = 8, at 850 °C and 950 °C in Ar + H2O [19]. When pure CuO re-
+acted with char in Ar at the same conditions, the carbon conversion
+efficiencies were Xc = 0.34 at 850 °C and 0.67 at 950 °C [19]. This
+indicated that the carbon was not completely converted. This was also
+the reason that Fe20Cu40 OC with char at ϕ = 18 in Ar was not tested.
+To achieve a high CO2 conversion efficiency with CLOU, selecting a
+suitable ratio of OC to coal is necessary.
+4. Conclusions
+Bimetallic Cu-Fe oxygen carriers (OC) with SiO2 as a support (Cu-
+Fe-Si) have the potential for low cost since they can be derived from
+naturally
+occurring
+materials.
+Two
+Cu-Fe
+OCs:
+40%
+Fe2O3 + 20%CuO + 40%SiO2
+(by
+weight)
+(Fe40Cu20)
+and
+40%CuO + 20%Fe2O3 + 40%SiO2 (by weight) (Fe20Cu40) were pre-
+pared using a pressure pelletizing method. From XRD analysis, the
+Fe40Cu20 OC contained mostly CuFe2O4, but the Fe20Cu40 OC had
+mostly CuO along with CuFe2O4. During the preparation, CuO and
+Fe2O3 reacted and formed CuFe2O4 (CuOFe2O3). Both the Fe40Cu20
+and Fe20Cu40 OCs released gaseous O2 but the uncoupling rate of the
+Fe20Cu40 OC was 2.5 times higher than that of Fe40Cu20 OC.
+Reactivities of the prepared Cu-Fe OCs were investigated at high
+temperatures in coal iG-CLC and CLOU. For the Fe40Cu20 OC in coal
+char iG-CLC with a ratio of OC to char ϕ = 80 at 950 °C, 1000 °C and
+1100 °C in Ar + H2O, the reduction rate increased by 37% from 950 °C
+to 1000 °C. This was much higher than the rate increase (5.4%) from
+1000 °C to 1100 °C due to the char gasification rate increasing. The CO2
+conversion efficiency at 1100 °C was lower than at 1000 °C and 950 °C.
+Therefore, the Fe40Cu20 OC in coal iG-CLC at temperatures ≥1100 °C
+did not have an obvious benefit. The CuO in Cu-Fe OC improved the
+CO2 conversion efficiency (Sco2) compared to the monometallic Fe-
+based OC at the maximum Sco2 (excess Fe2O3 to Fe3O4). To achieve this
+advantage, the optimum ratio of OC to coal (like ϕ = 80) is important
+to avoid agglomeration caused by Cu at high temperature. The contents
+of Cu in the reduced Fe40Cu20 OC increased as the ratio of OC to char
+descended from ϕ = 80, 40 and 24. This maybe be a result of easily
+reduced Cu oxides compared to Fe oxides. In addition, the CO2 con-
+version efficiencies reduced as the ratio decreased.
+For the Fe20Cu40 OC in coal char CLOU with ϕ = 67 tested with
+Ar + H2O, the primary reactions and reactivities were similar to those
+with Ar. As the ratio of OC to char decreased ϕ = 18, the reactions and
+reactivities were similar to iG-CLC with Fe40Cu20 OC and char at
+ϕ = 24 in Ar + H2O. At lower ϕ = 18, Cu was generated and may cause
+agglomeration at high temperature. To prevent this, the optimum ratio
+of OC to coal in CLOU is very important, especially in a coal gasification
+gas environment (e.g. steam).
+For the Fe40Cu20 OC in coal iG-CLC with ϕ = 80 at 1000 °C, the
+carbon conversion rate was dXc/dt = 0.0037 s−1 and CO2 conversion
+efficiency Sco2 = 0.88. The carbon conversion rate of Fe20Cu40 OC in
+coal CLOU with ϕ = 67 was dXc/dt = 0.0083 s−1 and about two times
+faster than the Fe40Cu20 OC in coal iG-CLC. In addition, the CO2
+conversion efficiency of the Fe20Cu40 OC was Sco2 = 0.96 and higher
+than the Fe40Cu20 OC. Overall, Cu-Fe-Si has potential as a competitive
+oxygen carrier in the high temperature coal chemical looping com-
+bustion process.
+CRediT authorship contribution statement
+Ping Wang: Conceptualization, Data curation, Formal analysis,
+Investigation, Methodology, Writing - original draft, Writing - review &
+editing. Bret Howard: Data curation, Formal analysis, Methodology,
+Writing
+-
+review
+&
+editing.
+Nicholas
+Means:
+Data
+curation,
+Methodology, Resources, Software, Writing - review & editing.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influ-
+ence the work reported in this paper.
+Acknowledgments
+This report was prepared as an account of work sponsored by the
+Department of Energy, National Energy Technology Laboratory, an
+agency of the United States Government. Neither the United States
+Government nor any agency thereof, nor any of their employees, makes
+any warranty, expressed or implied, or assumes any legal liability or
+responsibility for the accuracy, completeness, or usefulness of any in-
+formation, apparatus, product, or process disclosed, or represents that
+its use would not infringe privately owned rights. Reference herein to
+any specific commercial product, process, or service by trade name,
+trademark, manufacturer, or otherwise, does not necessarily constitute
+or imply its endorsement, recommendation, or favoring by the United
+States Government or any agency thereof. The views and opinions of
+authors expressed herein do not necessarily state or reflect those of the
+United States Government or any agency thereof.
+References
+[1] Wang P, Means N, Shekhawat D, Berry D, Massoudi M. Chemical-looping com-
+bustion and gasification of coals and oxygen carrier development: a brief review.
+Energies 2015;8:10605–35.
+[2] Adanez J, Abad A, Mendiara T, Gayan P, de Diego LF, Garcia-Labiano F. Chemical
+looping combustion of solid fuels. Prog Energy Combust Sci 2018;65:6–66.
+[3] Adanez J, Abad A, Garcia-Labiano F, Gayan P, de Diego LF. Progress in chemical-
+looping combustion and reforming technologies. Prog Energy Combust Sci
+2012;38:215–82.
+[4] Ströhle J, Orth M, Epple B. Design and operation of a 1 MWth chemical looping
+plant. Appl Energy 2014;113:1490–5.
+[5] Ohlemüller P, Ströhle J, Epple B. Chemical looping combustion of hard coal and
+torrefied biomass in a 1 MWth pilot plant. Int J Greenhouse Gas Control
+2017;65:149–59.
+[6] Ströhle J, Orth M, Epple B. Chemical looping combustion of hard coal in a 1 MWth
+pilot plant using ilmenite as oxygen carrier. Appl Energy 2015;157:288–94.
+[7] Flynn TJ, Velazquez-Vargas, Luis G., Bao, Jinhua, Zhang, Yitao, Tong, Andrew, and
+Fan, Liang-Shih. 250 kWt Pilot Testing in Support of a 10 MWe Coal-Direct
+Chemical Looping Demonstration Feasibility Study. 2019 Clean Energy Conference.
+Clearwater, Florida: https://www.osti.gov/servlets/purl/1542914; 2019.
+[8] Bayham S, McGiveron O, Tong A, Chung E, Kathe M, Wang D, et al. Parametric and
+dynamic studies of an iron-based 25-kW(th) coal direct chemical looping unit using
+sub-bituminous coal. Appl Energy 2015;145:354–63.
+[9] Tong A, Bayham S, Kathe MV, Zeng L, Luo S, Fan L-S. Iron-based syngas chemical
+looping process and coal-direct chemical looping process development at Ohio State
+Fig. 7. The gas concentrations vs carbon conversion efficiencies of the coal char
+reactions with Fe20Cu40 OC/char ratio ϕ = 18 at 1000 °C in Ar + H2O.
+P. Wang, et al.
+Fuel 285 (2021) 119012
+9
+
+
+===== Page 10 =====
+
+University. Appl Energy 2014;113:1836–45.
+[10] Tong A, Kathe MV, Wang D, Fan LS. The moving bed fuel reactor process. In:
+Breault RW, editor. Handbook of chemical looping technology. Wiley; 2018.
+[11] Abad A, Adanez-Rubio I, Gayan P, Garcia-Labiano F, de Diego LF, Adanez J.
+Demonstration of chemical-looping with oxygen uncoupling (CLOU) process in a
+1.5 kW(th) continuously operating unit using a Cu-based oxygen-carrier. Int J
+Greenhouse Gas Control 2012;6:189–200.
+[12] Adanez-Rubio I, Abad A, Gayan P, de Diego LF, Garcia-Labiano F, Adanez J.
+Performance of CLOU process in the combustion of different types of coal with CO2
+capture. Int J Greenhouse Gas Control 2013;12:430–40.
+[13] Adánez-Rubio I, Abad A, Gayán P, García-Labiano F, Luis F, Adánez J. Coal com-
+bustion with a spray granulated Cu-Mn mixed oxide for the Chemical Looping with
+Oxygen Uncoupling (CLOU) process. Appl Energy 2017;208:561–70.
+[14] Pérez-Vega R, Adánez-Rubio I, Gayán P, Izquierdo MT, Abad A, García-Labiano F,
+et al. Sulphur, nitrogen and mercury emissions from coal combustion with CO2
+capture in chemical looping with oxygen uncoupling (CLOU). Int J Greenhouse Gas
+Control 2016;46:28–38.
+[15] Mattisson T, Lyngfelt A, Leion H. Chemical-looping with oxygen uncoupling for
+combustion of solid fuels. Int J Greenhouse Gas Control 2009;3:11–9.
+[16] Adanez-Rubio I, Arjmand M, Leion H, Gayan P, Abad A, Mattisson T, et al.
+Investigation of combined supports for Cu-based oxygen carriers for chemical-
+looping with oxygen uncoupling (CLOU). Energy Fuels 2013;27:3918–27.
+[17] Adanez-Rubio I, Gayan P, Abad A, de Diego LF, Garcia-Labiano F, Adanez J.
+Evaluation of a spray-dried CuO/MgAl2O4 oxygen carrier for the chemical looping
+with oxygen uncoupling process. Energy Fuels 2012;26:3069–81.
+[18] Adanez J, Abad A. Chemical-looping combustion: status and research needs. Proc
+Combust Inst 2019;37:4303–17.
+[19] Wang P, Means N, Howard BH, Shekhawat D, Berry D. The reactivity of CuO oxygen
+carrier and coal in chemical-looping with oxygen uncoupled (CLOU) and in-situ
+gasification chemical-looping combustion (iG-CLC). Fuel 2018;217:642–9.
+[20] Jiang SX, Shen LH, Wu J, Yan JC, Song T. The investigations of hematite-CuO
+oxygen carrier in chemical looping combustion. Chem Eng J 2017;317:132–42.
+[21] Yang W, Zhao H, Ma J, Mei D, Zheng C. Copper-decorated hematite as an oxygen
+carrier for in situ gasification chemical looping combustion of coal. Energy Fuels
+2014;28:3970–81.
+[22] Siriwardane R, Tian HJ, Simonyi T, Poston J. Synergetic effects of mixed copper-
+iron oxides oxygen carriers in chemical looping combustion. Fuel
+2013;108:319–33.
+[23] Gauthier T, Yazdanpanah M, Forret A, Amblard B, Lambert A, Bertholin S. CLC, a
+promising concept with challenging development issues. Powder Technol
+2017;316:3–17.
+[24] Wang P, Howard B, Means N, Shekhawat D, Berry D. Coal chemical-looping with
+oxygen uncoupling (CLOU) using a cu-based oxygen carrier derived from natural
+minerals. Energies 2019;12:1453.
+[25] Chuang SY, Dennis JS, Hayhurst AN, Scott SA. Development and performance of Cu-
+based oxygen carriers for chemical-looping combustion. Combust Flame
+2008;154:109–21.
+[26] Tian X, Zhao HB, Ma JC. Cement bonded fine hematite and copper ore particles as
+oxygen carrier in chemical looping combustion. Appl Energy 2017;204:242–53.
+[27] Gayan P, Adanez-Rubio I, Abad A, de Diego LF, Garcia-Labiano F, Adanez J.
+Development of Cu-based oxygen carriers for Chemical-Looping with Oxygen
+Uncoupling (CLOU) process. Fuel 2012;96:226–38.
+[28] Adanez J, de Diego LF, Garcia-Labiano F, Gayan P, Abad A, Palacios JM. Selection
+of oxygen carriers for chemical-looping combustion. Energy Fuels 2004;18:371–7.
+[29] Bhavsar S, Tackett B, Veser G. Evaluation of iron- and manganese-based mono- and
+mixed-metallic oxygen carriers for chemical looping combustion. Fuel
+2014;136:268–79.
+[30] Katkov AE, Lykasov AA. Spinel phase relations in the Fe3O4-CuFe2O4 system. Inorg
+Mater 2003;39:171–4.
+[31] Jacob K, Fitzner K, Alcock C. Activities in the spinel solid solution, phase equilibria
+and thermodynamic properties of ternary phases in the system Cu-Fe-0. Metall
+Trans B 1977;8:451–60.
+[32] Ristic M, Hannoyer B, Popovic S, Music S, Bajraktaraj N. Ferritization of copper ions
+in the Cu-Fe-O system. Mater Sci Eng B-Solid State Mater Adv Technol
+2000;77:73–82.
+[33] Zhao HB, Wang K, Fang YF, Ma JC, Mei DF, Zheng CG. Characterization of natural
+copper ore as oxygen carrier in chemical-looping with oxygen uncoupling of an-
+thracite. Int J Greenhouse Gas Control 2014;22:154–64.
+[34] Wang B, Yan R, Zhao H, Zheng Y, Liu Z, Zheng C. Investigation of chemical looping
+combustion of coal with CuFe2O4 oxygen carrier. Energy Fuels 2011;25:3344–54.
+[35] Khvan AV, Fabrichnaya OB, Savinykh G, Adam R, Seifert HJ. Thermodynamic as-
+sessment of the Cu-Fe-O system. J Phase Equilib Diffus 2011;32:498–511.
+[36] Higman C, van der Burgt M. Gasification. 2nd ed. New York: Elsevier; 2008.
+[37] Jerndal E, Mattisson T, Lyngfelt A. Thermal analysis of chemical-looping combus-
+tion. Chem Eng Res Des 2006;84:795–806.
+[38] Chen H, Zheng Z, Chen Z, Bi XT. Reduction of hematite (Fe2O3) to metallic iron
+(Fe) by CO in a micro fluidized bed reaction analyzer: a multistep kinetics study.
+Powder Technol 2017;316:410–20.
+P. Wang, et al.
+Fuel 285 (2021) 119012
+10

@@ -1,0 +1,926 @@
+
+
+===== Page 1 =====
+
+Solar Energy Materials & Solar Cells 253 (2023) 112211
+Available online 2 February 2023
+0927-0248/© 2023 Elsevier B.V. All rights reserved.
+Influence of CuO doping on cobalt oxide for thermochemical energy storage 
+Rongjun Wu a, Hongyu Huang b, Lisheng Deng b, Mitsuhiro Kubota a, Noriyuki Kobayashi a,* 
+a Department of Chemical Systems Engineering, Graduate School of Engineering, Nagoya University, Furo-cho, Chikusa-ku, Nagoya-shi, Aichi, 464-8603, Japan 
+b Guangzhou Institute of Energy Conversion, Chinese Academy of Sciences, No. 2 Nengyuan Road, Wushan, Tianhe District, Guangzhou, 510640, China   
+A R T I C L E  I N F O   
+Keywords: 
+Thermochemical energy storage 
+Cobalt oxide 
+CuO doping 
+Reduction/re-oxidation behavior 
+Repeatability performance 
+A B S T R A C T   
+Thermochemical energy storage (TCS) was considered as a promising candidate for renewable energy utilization 
+and energy efficient utilization. Particularly, metal oxide-based TCS has attracted increasing attention due to its 
+operation possibility with air. In this work, CuO-doped cobalt oxide composite was prepared by a simple me­
+chanical mixing process and explored for TCS application. The influences of CuO doping on the redox behavior, 
+repeatability and the optical absorption property of cobalt oxide were investigated. Doping with CuO signifi­
+cantly decreased the onset temperature of reduction by 60 ◦C compared to pure cobalt oxide. Meanwhile, the 
+result verifies that the onset temperature of re-oxidation could be tuned in the range from 825 to 890 ◦C by 
+altering the doping amount of CuO. The reason for the tunable onset temperature was examined from the 
+viewpoint of the structural transformation of the composite during the reduction/re-oxidation process. It was 
+presumed that the doping amount of Cu species in CoO might relate to the onset temperature of re-oxidation. The 
+repeatability of the composite was highly affected by the doping amount of CuO. Moreover, CuO with relatively 
+small particle size exhibited a positive effect on improving the repeatability of CuO-doped cobalt oxide com­
+posite. Additionally, the absorption spectra demonstrate that CuO doping would affect the optical absorption 
+property of the composite, enhancing the absorption of visible light. Hence, the results obtained in this work 
+indicate that doping with CuO could be a promising method to extend the applicability of cobalt oxide-based 
+system for TCS application.   
+1. Introduction 
+As fossil fuel energy consumption and CO2 emission are mounting up 
+year by year, renewable energy utilization and energy efficient utiliza­
+tion are increasingly becoming vital subjects in the world. Solar energy, 
+as an abundant and clean renewable energy, is expected to play a sig­
+nificant role in the further. A crucial challenge for solar energy utiliza­
+tion now is how to store the solar energy [1,2]. Typically, solar thermal 
+energy which is a major form of harnessing solar energy can be stored by 
+means of sensible heat storage, latent heat storage and thermochemical 
+energy storage technologies [2,3]. Thermochemical energy storage 
+(TCS) technology, which can store and release thermal energy by 
+reversible chemical reactions, possesses the following prominent ad­
+vantages [2,4]: high thermal energy storage capacity, large working 
+temperature range, long-term storage period and long transport possi­
+bility in comparison with the other two thermal energy storage tech­
+nologies. There are several types of TCS systems based on different 
+chemical reactions such as hydration/dehydration system [5–7] (e.g. 
+LiOH/LiOH⋅H2O, 
+CaO/Ca(OH)2 
+and 
+MgO/Mg(OH)2), 
+carbo­
+nation/decarbonation system [8,9] (e.g. CaO/CaCO3, SrO/SrCO3), 
+reduction/oxidation system [10] (e.g. Co3O4/CoO and Mn2O3/Mn3O4) 
+and so on. In recent years, metal oxide-based TCS system, which is based 
+on reduction and oxidation of metal oxides, has attracted increasing 
+attention in concentrating solar power plants due to its high working 
+temperature and convenient operation with air. High temperature air 
+heated by solar radiation can be used to trigger the reduction of metal 
+oxide, simultaneously partial thermal energy will be stored in the 
+reduced metal oxide. In the off-sun period, the thermal energy can be 
+released by oxidizing the metal oxide with air. Air is utilized as oxygen 
+source and heat transfer fluid. Theoretically, this system can be per­
+formed in an open-loop system that there are no technical requirements 
+for gas separation and gas storage [2,10,11]. 
+Currently, researches on metal oxide-based TCS system were mainly 
+at lab-scale. A research focus was the development of suitable energy 
+storage materials. Several conventional metal oxides were studied and 
+discussed. BaO/Ba2O [12,13], Mn2O3/Mn3O4 [14], Co3O4/CoO [15] 
+* Corresponding author. Nagoya University, Furo-cho, Chikusa-ku, Nagoya-shi, Aichi, 464-8603, Japan. 
+E-mail address: kobayashi.noriyuki@material.nagoya-u.ac.jp (N. Kobayashi).  
+Contents lists available at ScienceDirect 
+Solar Energy Materials and Solar Cells 
+journal homepage: www.elsevier.com/locate/solmat 
+https://doi.org/10.1016/j.solmat.2023.112211 
+Received 2 September 2022; Received in revised form 14 January 2023; Accepted 28 January 2023   
+
+
+===== Page 2 =====
+
+Solar Energy Materials and Solar Cells 253 (2023) 112211
+2
+and CuO/Cu2O [16] were proposed as the promising candidates for 
+metal oxide-based TCS application. Additionally, novel materials like 
+perovskite oxides [17–19] and many multi-metal oxides like iron-doped 
+manganese oxides, lithium-manganese oxides, copper-manganese ox­
+ides [20–22] were synthesized and assessed. Meanwhile, gram-scale 
+[23,24] and kilogram-scale [25,26] experiments for metal oxide-based 
+TCS system were growing faster with the advances on materials. Co­
+balt oxide (i.e. Co3O4/CoO) was considered as the most attractive 
+candidate for metal oxide-based TCS application owing to its remarkable 
+reaction repeatability and high energy storage density (844 kJ/kg) [10, 
+15,27]. The relevant redox reaction equation is shown below:  
+2Co3O4(s) ⇌ 6CoO(s) + O2(g)                                                          
+(1) 
+Masses of researches based on cobalt oxide were developed. Pure 
+cobalt oxide has been further explored on maximizing the amount and 
+optimizing the shape for the exploitation in various reactor concepts 
+[28,29]. Significantly, cobalt oxide system has been tested at pilot-plant 
+scale (90 kg) in Solar Tower Julich (Germany) [25]. Meanwhile, due to 
+the high reaction temperature of cobalt oxide (~900 ◦C), which will 
+limit the possible applications not only in concentrating solar power 
+plants but also in other applications such as industrial waste heat re­
+covery, cobalt oxide was modified by doping with several metal com­
+ponents (e.g. Fe, Mn, Ni, Cu and Mg) to improve the chemical 
+parameters 
+and 
+lower 
+the 
+working 
+temperature 
+[15,30–34]. 
+Portilla-Nieto et al. [34] synthesized Co3-xNixO4 materials by means of 
+sol-gel method. They reported that doping with Ni significantly 
+decreased the reduction and oxidation temperatures. Similarly, Block 
+et al. [32] prepared copper oxide/cobalt oxide systems by sol-gel 
+method. The result revealed a decreased working temperature by 
+doping with Cu. In addition, they reported that the cobalt-rich compo­
+sitions with 0.1 ≤x ≤0.33 (x was the molar ratio of Cu/(Cu + Co)) 
+showed fast kinetics. While Agrafiotis et al. [15] proposed that CuCo2O4 
+in which the molar ratio of Cu/(Cu + Co) was 0.33 showed a slow 
+re-oxidation rate in the first cycle. The different repeatability behaviors 
+of Cu-doped cobalt oxide systems in literatures appeared to need a 
+deeper investigation. It was found that the morphological changes might 
+affect the oxygen mass transfer in re-oxidation process [10]. Also, Car­
+rillo et al. [14] have reported that the morphological change influenced 
+the repeatability of Mn2O3/Mn3O4 pairs. They concluded that different 
+sintering mechanisms, which depended on the particle size of the ma­
+terial in that work, induced different morphological evolutions. Similar 
+to Mn2O3/Mn3O4 system, Cu-doped cobalt oxide system also underwent 
+a thermal sintering process at high temperature during the 
+reduction-oxidation processes [32]. Hence, the investigation of the ef­
+fect of morphology evolution on the repeatability performance of 
+Cu-doped cobalt oxide is of great interest. 
+The aim of this work is to extend more possibility of cobalt oxide- 
+based materials for TCS application. In this work, copper component 
+was also considered as the dopant for cobalt oxide-based TCS system. We 
+proposed a copper oxide (CuO)-doped cobalt oxide composite. The 
+composite was prepared by mechanically mixing CuO and Co3O4 pow­
+ders at room temperature. An in-depth investigation on the influences of 
+CuO doping on the redox behavior and the repeatability performance of 
+cobalt oxide-based TCS system was proceeded. In addition, the effect of 
+the particle size of CuO on the repeatability performance was also 
+explored. In view of the results reported in literatures, different particle 
+sizes of metal oxides (e.g. Mn2O3 and ZrO2) were prepared by precipi­
+tation method with different precursor concentrations [14,35]. Precip­
+itation method was also utilized as a facile way to obtain CuO 
+nanoparticles [36]. Thereby, precipitation method using different cop­
+per nitrate concentrations was employed in the present work to syn­
+thesize CuO with different particle sizes. 
+2. Experimental section 
+2.1. Materials preparation 
+2.1.1. Preparation of CuO 
+Precipitation method was employed to synthesize CuO powder [36]. 
+Precursor solutions of Cu(NO3)2⋅2H2O (99.9%, Kanto Chemical CO., 
+INC.) were prepared with deionized water. The concentrations of the 
+copper nitrate solution were varied in the range between 0.025 and 0.5 
+M. After stirring at room temperature for 30 min, 1 M sodium hydroxide 
+(97.0%, Kanto Chemical CO., INC.) was added drop-wise with constant 
+stirring. The addition of sodium hydroxide was finished when the so­
+lution was in excess to a pH of 11 ± 1. The resulting precipitate was aged 
+and stirred for 24 h. Then, the obtained precipitate was filtered and 
+washed with deionized water seven times and dried at 80 ◦C overnight. 
+Afterwards, the solid was calcined at 700 ◦C for 4 h with a heating rate of 
+2 ◦C/min. The obtained CuO samples prepared with copper nitrate 
+concentration of 0.025 M, 0.05 M, 0.1 M and 0.5 M were labeled as CuO 
+(0.025 M), CuO (0.05 M), CuO (0.1 M) and CuO (0.5 M), respectively. 
+2.1.2. Preparation of CuO-doped cobalt oxide composite 
+Co3O4 powder (99.99%, Kanto Chemical CO., INC.) was used as 
+received. Certain amount of Co3O4 and CuO were weighed and put in a 
+mortar. To avoid the deviation generated in the milling process, the total 
+weight of each sample was weighed in ~1000 mg. Materials were 
+carefully mixed by hand, grinding with a speed of ~2 laps per second for 
+20 min. In the present work, composites doped with different CuO 
+contents were prepared. The CuO content, x, is defined as, 
+x =
+mCuO/MCuO
+mCuO/MCuO + mCo3O4/MCo3O4
+(2)  
+where mCuO is the weight of CuO, MCuO is the molar mass of CuO, mCo3O4 
+is the weight of Co3O4, and MCo3O4 is the molar mass of Co3O4. 
+2.2. Materials characterization 
+X-ray diffraction (XRD; Rigaku Ultima IV) with Cu Kα radiation (40 
+kV/30 mA) was employed to identify the crystal phases of samples. The 
+cell parameters of CoO phases of samples were derived from (111) (200) 
+(220) facets, basing on Bragg’s law. 
+Scanning electron microscope (SEM; JEOL JSM-7500FA) was 
+exploited to appreciate the morphologies of samples. ImageJ software 
+was used in this study to obtain the particle size distributions of samples 
+by statistical analysis of SEM image. More than 300 particles were 
+analyzed for each sample. 
+Surface area and pore size distribution analyzer (BELSORP MAX II) 
+with the multi-point BET method was utilized to obtain the specific 
+surface area (SBET) values of CuO samples. 
+In-situ X-ray diffraction (in-situ XRD; Rigaku SmartLab 3 kW) with 
+Cu Kα radiation (40 kV/40 mA) was operated to detect the structural 
+transformations of samples during the reduction/re-oxidation steps. 
+Samples were detected in a heating-cooling cycle between 30 ◦C and 
+950 ◦C under air atmosphere. 
+Thermogravimetric analyzer (TGA; HITACHI STA7300) was carried 
+out with samples weight of ~10 mg. Typically, the temperature program 
+for one reduction-oxidation cycle consisted of a heating step from 700 ◦C 
+to 1000 ◦C with dwell time of 5 min and a cooling step from 1000 ◦C to 
+700 ◦C with dwell time of 5 min. Each sample was tested at a heating/ 
+cooling rate of 10 ◦C/min under air atmosphere with a constant flow of 
+200 mL/min. During the reduction process, oxygen released, leading to a 
+weight loss for the sample. During re-oxidation process, oxygen uptake 
+occurred, leading to a weight gain for the sample. The weight change, α 
+(%), is defined as, 
+α = mi −mt
+mi
+× 100
+(3) 
+R. Wu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 3 =====
+
+Solar Energy Materials and Solar Cells 253 (2023) 112211
+3
+where mi is the initial weight of sample, and mt is the weight at time t. 
+Due to the possible impurities existed in samples, initial weight of the 
+second cycle was determined as the initial weight for each sample. 
+Moreover, the conversion ratio of reduction/re-oxidation, β, is 
+defined as, 
+β =
+⃒⃒⃒⃒
+m0 −mt
+mi −mf
+⃒⃒⃒⃒
+(4)  
+where m0 is the weight of sample at the beginning of the reduction/re- 
+oxidation process, mt is the weight at time t, and mf is the final weight 
+of sample after the reduction in the second cycle. 
+Fig. 1. SEM images of samples: (a) CuO (0.5 M), (b) CuO (0.1 M), (c) CuO (0.05 M), (d) CuO (0.025 M), and (e) pure Co3O4.  
+Fig. 2. Particle size distribution histograms of samples: (a) CuO (0.5 M), (b) CuO (0.1 M), (c) CuO (0.05 M), (d) CuO (0.025 M) and (e) pure Co3O4.  
+Table 1 
+Specific surface area (SBET) values of CuO samples prepared with different 
+copper nitrate concentrations.  
+Sample name 
+Concentration (M) 
+SBET (m2/g) 
+CuO (0.5 M) 
+0.5 
+2.01 
+CuO (0.1 M) 
+0.1 
+2.58 
+CuO (0.05 M) 
+0.05 
+2.71 
+CuO (0.025 M) 
+0.025 
+6.08  
+R. Wu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 4 =====
+
+Solar Energy Materials and Solar Cells 253 (2023) 112211
+4
+Fig. 3. XRD patterns of pure Co3O4, pure CuO (0.5 M) and composites doped 
+with different CuO (0.5 M) contents (x). 
+Fig. 4. TGA curves of pure Co3O4, pure CuO (0.5 M) and composites with 
+different CuO (0.5 M) contents (x). 
+Table 2 
+Onset temperature of reduction/re-oxidation, weight loss (α), reaction time and charging/discharging heat for pure cobalt oxide and composites doped with different 
+CuO contents (x).  
+Sample 
+a, bTonset red 
+(◦C) 
+a, bTonset oxi 
+(◦C) 
+aWeight loss 
+(%) 
+aReduction time 
+(min) 
+aRe-oxidation time 
+(min) 
+aCharging heat (kJ/ 
+kg) 
+aDischarging heat (kJ/ 
+kg) 
+CuO (0.5 M), x = 0 
+925 
+890 
+6.5 
+3.3 
+11.2 
+541 
+494 
+CuO (0.5 M), x = 0.1 
+865 
+885 
+6.4 
+8.1 
+9.0 
+527 
+472 
+CuO (0.5 M), x = 0.2 
+865 
+870 
+6.2 
+7.6 
+7.6 
+505 
+457 
+CuO (0.5 M), x = 0.3 
+865 
+858 
+6.0 
+6.7 
+6.3 
+501 
+422 
+CuO (0.5 M), x = 0.4 
+865 
+840 
+5.6 
+5.8 
+5.6 
+446 
+436 
+CuO (0.5 M), x = 0.5 
+865 
+830 
+5.1 
+5.0 
+5.1 
+423 
+403 
+CuO (0.5 M), x = 0.6 
+865 
+825 
+4.5 
+3.4 
+4.6 
+346 
+317 
+CuO (0.5 M), x = 0.7 
+865 
+825 
+3.8 
+3.4 
+5.2 
+317 
+289 
+CuO (0.1 M), x = 0.6 
+865 
+825 
+4.6 
+3.5 
+4.6 
+350 
+328 
+CuO (0.05 M), x =
+0.6 
+865 
+825 
+4.5 
+3.4 
+4.5 
+349 
+316 
+CuO (0.025 M), x =
+0.6 
+865 
+825 
+4.5 
+3.4 
+4.6 
+345 
+323  
+a The data was based on the second cycle. 
+b The onset temperature in this work corresponds to the start temperature of sharp weight change under the configured temperature program. 
+Fig. 5. Evolutions of reduction conversion for Co3O4 and composites with 
+different CuO (0.5 M) contents (x). 
+Fig. 6. (a) Evolutions of re-oxidation conversion for cobalt oxide and com­
+posites with different CuO (0.5 M) contents (x) and (b) Evolution of the onset 
+re-oxidation temperature as a function of CuO content (x). 
+R. Wu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 5 =====
+
+Solar Energy Materials and Solar Cells 253 (2023) 112211
+5
+The charging-discharging heat values of samples during the 
+reduction-oxidation processes were collected by a simultaneous TGA- 
+DSC thermal analysis system (TGA/DSC; METTLER TOLEDO TGA/DSC 
+3+). Samples were tested under air atmosphere with a constant flow of 
+100 mL/min. The heating and cooling steps were proceeded under the 
+ramping rates of ±10 ◦C/min. 
+In addition, the optical absorption properties of samples were 
+measured by a UV-Visible-NIR-Spectrophotometer (PerkinElmer 
+Lambda 750) in the wavelength range from 300 to 2000 nm. 
+3. Results and discussion 
+The XRD result shown in Fig. S1 illustrates that all the CuO samples 
+prepared by precipitation method presented the characteristic re­
+flections of CuO phase (PDF#01-080-1268). Fig. 1a-d show the SEM 
+images of the CuO samples prepared with different copper nitrate con­
+centrations. As we can observe, all the CuO samples presented 
+agglomerate morphologies which were formed by similar irregular 
+shape particles. Meanwhile, it is possible to appreciate that the CuO 
+samples prepared with different copper nitrate concentrations exhibited 
+different particle sizes. The CuO sample prepared with a lower 
+concentration presented a relatively small particle size. This fact can be 
+observed more clearly by the particle size distributions shown in Fig. 2. 
+By lowering the copper nitrate concentration, the particle size distri­
+bution of the as-prepared CuO sample narrowed and shifted toward 
+smaller diameter. Moreover, the SBET values (Table 1) of the CuO sam­
+ples increased from 2.01 m2/g to 6.08 m2/g when the copper nitrate 
+concentrations decreased from 0.5 M to 0.025 M. In short, the results 
+indicate that the concentration of copper nitrate solution affected the 
+particle size of as-prepared CuO powder. In addition, the morphology 
+and the particle size distribution of pure Co3O4 were displayed in the 
+Figs. 1e and 2e, respectively. Pure Co3O4 also presented an agglomerate 
+morphology, which is the common characteristic of metal oxide pow­
+ders. Moreover, pure Co3O4 exhibited a relatively large particle size 
+distribution by comparing with the CuO samples. 
+Fig. 3 displays the XRD patterns of pure Co3O4, pure CuO (0.5 M), 
+and CuO-doped cobalt oxide composites with different CuO (0.5 M) 
+contents (x). The result confirms that each composite exhibited Co3O4 
+phase (PDF#00-043-1003) and CuO phase (PDF#01-080-1268). 
+Furthermore, the higher the CuO content doped in the composite was, 
+the more intense the CuO diffractions presented. 
+The redox behaviors of samples were performed by TGA in five 
+reduction-oxidation cycles between 700 ◦C and 1000 ◦C. CuO (0.5 M) 
+was used as the dopant to prepare the CuO-doped cobalt oxide com­
+posite. The effect of CuO doping on the redox behavior of cobalt oxide 
+was explored. For comparison, pure Co3O4 and pure CuO (0.5 M) were 
+also tested under the same condition. As shown in Fig. 4, there was a 
+continuous weight loss in the first heating step for each sample, which 
+may be caused by the removal of some adsorbed compounds like water 
+and CO2 [14,31]. Afterwards, there was no sharp weight loss and weight 
+gain occurred for pure CuO (0.5 M) between 700 ◦C and 1000 ◦C. As 
+described in the introduction, CuO/Cu2O was also considered as a 
+promising candidate for metal oxide-based TCS application. However, 
+the onset reduction temperature of CuO to Cu2O was higher than 
+1000 ◦C [16], which accounts for the result shown in Fig. 4. Conversely, 
+rapid weight loss in the heating step which was attributed to the 
+reduction process and rapid weight recovery in the subsequent cooling 
+step which was attributed to the re-oxidation process can be observed 
+for pure Co3O4 and the composites doped with CuO (0.5 M). Addition­
+ally, with an increase in CuO (0.5 M) content (x), there was a decrease in 
+the weight change (Table 2). The reason is that the reactive component 
+(i.e. cobalt oxide) content in the composite decreased as the CuO content 
+increased, resulting in a decrease in the oxygen release/uptake amount 
+during the reduction/oxidation process. It should be noted that this fact 
+would affect the heat storage and release capacities of the composites 
+Fig. 7. In-situ XRD patterns of composite with CuO (0.5 M) content of x = 0.6: (A) In the heating step. The dashed-line zone was showed in the right panel. (B) In the 
+cooling step. 
+Fig. 8. XRD patterns of reduced pure cobalt oxide and composites with 
+different CuO (0.5 M) contents (x). 
+R. Wu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 6 =====
+
+Solar Energy Materials and Solar Cells 253 (2023) 112211
+6
+Fig. 9. TGA curves and evolutions of re-oxidation conversion in 30 reduction-oxidation cycles for composites doped with different CuO (0.5 M) contents (x): (a and 
+e) x = 0.3, (b and f) x = 0.4, (c and g) x = 0.5, and (d and h) x = 0.6. 
+R. Wu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 7 =====
+
+Solar Energy Materials and Solar Cells 253 (2023) 112211
+7
+[33]. 
+The 
+charging-discharging 
+heat 
+values 
+during 
+the 
+reduction-oxidation processes for the samples were collected by DSC. A 
+typical TGA-DSC analysis is displayed in Fig. S2. As shown in Table 2, 
+the charging/discharging heat decreased with the increasing content of 
+CuO, which is in accordance with the work of Block et al. [32]. Mean­
+while, the discharging heat was lower than the corresponding charging 
+heat, which might be due to the relatively slow re-oxidation rate as well 
+as the heat loss caused by using the open alumina crucibles in DSC. 
+Fig. 5 displays the evolutions of reduction conversion in the second 
+cycle for pure Co3O4 and the composites with different CuO (0.5 M) 
+contents (x). With the increasing of temperature, the conversion ratio of 
+each sample increased. As we can see, doping with CuO shifted the onset 
+reduction temperature from 925 ◦C for pure Co3O4 to 865 ◦C for the 
+CuO-doped composites. All the composites exhibited the same onset 
+reduction temperature while presented different reduction rates. As 
+shown in Table 2, pure Co3O4 took ~3.3 min to complete the reduction, 
+Fig. 10. SEM images taken before and after 30 cycles for composites doped with different CuO (0.5 M) contents (x): (a and e) x = 0.3, (b and f) x = 0.4, (c and g) x =
+0.5, and (d and h) x = 0.6. 
+R. Wu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 8 =====
+
+Solar Energy Materials and Solar Cells 253 (2023) 112211
+8
+whereas the composite doped with CuO (0.5 M) content of x = 0.1 
+finished the reduction in ~8.1 min. It can be observed that increasing 
+the CuO (0.5 M) content (x) from 0.1 to 0.6 improved the reduction rate 
+gradually. Eventually, the curves for the composites doped with CuO 
+(0.5 M) content of x ≥0.6 were nearly identical. It took ~3.4 min to 
+obtain complete reduction. 
+Fig. 6a describes the evolutions of re-oxidation conversion in the 
+second cycle for pure cobalt oxide and the composites with different 
+CuO (0.5 M) contents (x). As shown in Fig. 6a, doping with CuO lowered 
+the re-oxidation temperature apparently. Furthermore, increasing CuO 
+content linearly decreased the onset re-oxidation temperature from 
+890 ◦C for pure cobalt oxide to 825 ◦C for the composite doped with CuO 
+(0.5 M) content of x = 0.6 (Fig. 6b). When the CuO (0.5 M) content (x) 
+exceeded 0.6, there was no significant shift for the onset temperature of 
+re-oxidation. In addition, the composites doped with different CuO (0.5 
+M) contents (x) exhibited an increase in the re-oxidation rate in the 
+second cycle, as shown in Table 2. In a word, doping with CuO dimin­
+ished the onset temperatures of reduction and re-oxidation of cobalt 
+oxide. Moreover, it is possible to tune the onset re-oxidation tempera­
+ture in the range from 825 ◦C to 890 ◦C by adjusting the CuO content in 
+the composite. 
+To study the reduction/re-oxidation process of CuO-doped cobalt 
+oxide composite, the structural transformation under a heating-cooling 
+cycle for the composite doped with CuO (0.5 M) content of x = 0.6 was 
+detected by in-situ XRD. As shown in Fig. 7A, the characteristic 
+diffraction patterns of Co3O4 phase (PDF#00-043-1003) and CuO phase 
+(PDF#01-080-1268) can be observed for the composite at room tem­
+perature. As the temperature increased, there was a slight shift in the 
+diffraction peaks toward smaller angle, which might be caused by the 
+thermal expansion [37]. Meanwhile, the intensities of Co3O4 and CuO 
+patterns decreased. Eventually, no Co3O4 phase and CuO phase were 
+detected at 950 ◦C while a single phase of CoO (PDF#00-043-1004) 
+presented, attributing to the reduction process. Afterwards, as shown in 
+Fig. 7B, Co3O4 phase and CuO phase reappeared while CoO phase dis­
+appeared as the temperature decreased to room temperature in the 
+cooling step, attributing to the re-oxidation process. The result confirms 
+the 
+structural 
+transformation 
+of 
+cobalt 
+oxide 
+during 
+the 
+reduction/re-oxidation process. Significantly, it was found that CuO was 
+involved in the process. Cu species might dope into CoO structure during 
+the reduction process and separate out during the re-oxidation process. 
+Moreover, Fig. 8 displays the XRD patterns of reduced pure cobalt 
+oxide and the composites with different CuO (0.5 M) contents (x). These 
+reduced samples were obtained by heating the samples to 1000 ◦C in air 
+and then cooling the samples from 1000 ◦C to room temperature under 
+nitrogen atmosphere. The result confirms the presence of CoO (PDF#00- 
+043-1004) in all the samples, which was produced by the reduction of 
+Co3O4. It is worth noting that a secondary phase corresponding to CuO 
+(PDF#01-080-1268) was detected for the composites with CuO (0.5 M) 
+content of x ≥0.6. However, no CuO phase was detected for the com­
+posite with x = 0.6 at 950 ◦C (as shown in Fig. 7). The cell parameters of 
+these two CoO phases were calculated, basing on Bragg’s law. The result 
+shows that the cell parameter of CoO phase for the composite with x =
+0.6 at 950 ◦C was 4.31 Å while the cell parameter of the CoO phase at 
+room temperature was 4.26 Å. Thus, the expanded CoO crystal caused 
+by thermal expansion at high temperature might allow more Cu species 
+to dope into CoO crystal, leading to no CuO phase detected by XRD. In 
+short, the result indicates that the doping amount of Cu species in CoO 
+crystal was limited. This might explain the result illustrated in Fig. 6 that 
+the onset temperature of re-oxidation decreased gradually with the 
+increasing amount of Cu species in CoO crystal. We presumed the Cu 
+species doped in CoO was beneficial to decrease the onset temperature 
+of re-oxidation. However, a deeper investigation is necessary and 
+needed in the future. 
+The repeatability and stability of energy storage materials are of 
+particular importance for TCS application. Hence, CuO (0.5 M)-doped 
+cobalt oxide composites and pure cobalt oxide were subjected to 30 
+reduction-oxidation cycles with a heating/cooling rate of 10 ◦C/min. 
+Consistent with the results reported in literatures [10,15,27], pure co­
+balt oxide exhibited a stable repeatability behavior (Fig. S3). Fig. 9 
+shows the TGA curves and the evolutions of re-oxidation conversion in 
+30 cycles for the composites doped with different CuO (0.5 M) contents 
+(x). As we can see clearly, when the CuO (0.5 M) content was x = 0.3 and 
+0.4, the composites presented stable repeatability performances in 30 
+reduction-oxidation cycles, reaching a complete re-oxidation conversion 
+in each cycle. In addition, as the reduction-oxidation cycle proceeded, 
+the re-oxidation rate improved slightly. However, in the case of the 
+composites with x ≥0.5, the weight change decreased gradually during 
+the cycles. Apparently, the composite with CuO (0.5 M) content of x ≥
+0.5 suffered a decline of re-oxidation rate in the 30 cycles, resulting in an 
+insufficient re-oxidation time. The weight loss for the composite with x 
+= 0.5 did not recover completely in the cooling step from the 12th cycle. 
+Ultimately, β = 0.89 of re-oxidation conversion obtained after the 
+temperature decreased from 950 ◦C to 700 ◦C in the 30th cycle. Like­
+wise, incomplete re-oxidation in the cooling step took place from the 
+10th cycle for the composite with CuO (0.5 M) content of x = 0.6, 
+resulting in a re-oxidation conversion of β = 0.75 after the cooling step 
+of the 30th cycle. These results clarify that the CuO content was asso­
+ciated with the repeatability performance of the CuO-doped cobalt oxide 
+system. 
+Fig. 10 shows the SEM images taken before and after the 30 cycles for 
+the composites doped with different CuO (0.5 M) contents (x). The 
+particle size of the employed Co3O4 was relatively large compared to the 
+CuO particles in this work. Thus, it is possible to observe from the SEM 
+images of the fresh composites that CuO particles dispersed on the 
+surface of Co3O4 particles. Also, agglomerate morphologies could be 
+appreciated for all the fresh composites. While the morphologies 
+changed dramatically after the 30 cycles owing to sintering effect. 
+Typical necks were formed between inter-particles for all the composites 
+after the 30 cycles. It can be appreciated that the composites with CuO 
+(0.5 M) content of x = 0.3 and 0.4 presented coral-like array morphol­
+ogies with large open pores, which were similar to the morphology of 
+pure cobalt oxide after the 30 cycles (Fig. S3). Furthermore, no CuO 
+particles could be distinguished from the bulk. For the composites with 
+CuO (0.5 M) content of x ≥0.5, non-uniform morphologies with less 
+voids were exhibited. Meanwhile, several particles still could be 
+appreciated on the surface of the bulk after the 30 cycles. B. Wong et al. 
+have pointed out that the decreasing of re-oxidation conversion over 
+cycling might relate to the morphological changes which affected the 
+oxygen mass transfer [10]. Thereby, the different morphologies of the 
+composites shown in Fig. 10 might explain the different repeatability 
+performances of the composites. The large pores in the composites with 
+Fig. 11. Schematic of two possible phenomena during solid state sintering 
+process [14]. 
+R. Wu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 9 =====
+
+Solar Energy Materials and Solar Cells 253 (2023) 112211
+9
+CuO (0.5 M) content of x = 0.3 and 0.4 were beneficial for the oxygen 
+diffusion, leading to the stable re-oxidation rate and the excellent 
+repeatability. Whereas the relatively dense morphologies presented in 
+the composites with CuO (0.5 M) content of x ≥0.5 hindered the oxygen 
+diffusion, leading to the low re-oxidation rate and the deterioration in 
+repeatability. It is reasonable to infer that CuO doping somehow affected 
+the sintering process of cobalt oxide which caused different morpho­
+logical changes, leading to different reduction-oxidation repeatability 
+behaviors. 
+It is generally well known that solid state sintering is accompanied by 
+coarsening and densification phenomena (Fig. 11). These two phe­
+nomena are usually in competition. When the sintering process is 
+dominated by densification, the voids among contacting particles 
+become smaller and disappear and the material shrinks, whereas when 
+the sintering process is dominated by coarsening, the particles grow by 
+consuming the neighboring particles and the voids among particles 
+become larger [38–40]. Accordingly, as shown in Fig. 10, the increasing 
+content of CuO might promote the densification process, contributing to 
+the elimination of voids among particles. 
+To further investigate the effect of CuO doping on the morphology 
+evolution and the repeatability behavior of cobalt oxide-based system. 
+CuO powders with different particle sizes (i.e. CuO (0.01 M), CuO (0.05 
+M), and CuO (0.025 M)) were utilized to prepare CuO-doped cobalt 
+oxide composites. The CuO content doped in the composite was 
+Fig. 12. TGA curves and evolutions of re-oxidation conversion in 30 reduction-oxidation cycles for composites doped with CuO content of x = 0.6: (a and d) CuO 
+(0.1 M)-doped composite, (b and e) CuO (0.05 M)-doped composite and (c and f) CuO (0.025 M)-doped composite. 
+R. Wu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 10 =====
+
+Solar Energy Materials and Solar Cells 253 (2023) 112211
+10
+determined as x = 0.6. It is possible to appreciate the different particle 
+sizes of the CuO particles from the SEM images of the fresh composites 
+(Fig. 13(a–c)). In addition, the values corresponding to the redox be­
+haviors of these composites were summarized in Table 2. The compos­
+ites were tested in 30 reduction-oxidation cycles by TGA with a heating/ 
+cooling rate of 10 ◦C/min. Fig. 12 displays the TGA curves and the 
+evolutions of re-oxidation conversion in 30 cycles for the composites. It 
+can be observed that doping with smaller particle sizes of CuO improved 
+the repeatability by comparing with the performance of the composite 
+doped with CuO (0.5 M) shown in Fig. 9 (d and h). The composites 
+doped with CuO (0.1 M) and CuO (0.05 M) suffered a decrease in the re- 
+oxidation rate, leading to an incomplete re-oxidation in the cooling step 
+from the 14th cycle for the composite doped with CuO (0.1 M) and from 
+the 17th cycle for the composite doped with CuO (0.05 M). Ultimately, β 
+= 0.85 and β = 0.91 were obtained after the cooling step of the 30th 
+cycle for the composites doped with CuO (0.1 M) and CuO (0.05 M), 
+respectively. In contrast, the composite doped with CuO (0.025 M) 
+which presented the relatively small particle size of CuO exhibited a 
+stable repeatability performance, reaching a complete re-oxidation in 
+each cooling step. Moreover, the composite with CuO (0.025 M) content 
+of x = 0.6 was subjected to a more extreme cycling experiment. As 
+shown in Fig. S4, the composite still presented an excellent repeatability 
+behavior in 50 cycles. 
+The SEM images taken after 30 reduction-oxidation cycles for the 
+composites doped with different particle sizes of CuO are shown in 
+Fig. 13. By comparing, the composites with CuO (0.1 M) and CuO (0.05 
+M) exhibited relatively high densification after the 30 cycles that there 
+were less pores presented, whereas the composite doped with CuO 
+(0.025 M) exhibited more pores after the 30 cycles. Moreover, the 
+composite still presented several open pores after 50 reduction- 
+oxidation cycles (Fig. S4). Particles could be observed hardly from the 
+surface of the bulk for the composite doped with CuO (0.025 M), which 
+might be due to the high degree of coarsening. The result indicates that 
+doping with CuO that presented relatively small particle size might be 
+beneficial for following a coarsening-favorable sintering process, lead­
+ing to a positive effect on the repeatability performance for CuO-doped 
+cobalt oxide composite. 
+To date, several directly irradiated solar reactors for metal oxide- 
+Fig. 13. SEM images taken before and after 30 cycles for composites doped with CuO content of x = 0.6: (a and d) CuO (0.1 M)-doped composite, (b and e) CuO 
+(0.05 M)-doped composite and (c and f) CuO (0.025 M)-doped composite. 
+R. Wu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 11 =====
+
+Solar Energy Materials and Solar Cells 253 (2023) 112211
+11
+based TCS system have been proposed [23,41]. In this case, the optical 
+absorption properties of the energy storage materials are significant. 
+Thus, the composites doped with CuO (0.025 M), which exhibited the 
+best 
+performance 
+in 
+this 
+work 
+were 
+tested 
+by 
+a 
+UV-Visible-NIR-Spectrophotometer. As displayed in Fig. 14, all the 
+composites presented increased absorbance in the wavelength range 
+from 300 nm to 750 nm compared to pure cobalt oxide, revealing that 
+the CuO doping enhanced the absorption of visible light. Moreover, with 
+an increase in CuO doping amount, the absorbance increased slightly. In 
+the wavelength range from 750 nm to 2000 nm, all samples exhibited 
+fluctuating curves which might be related to the relatively large particle 
+size of Co3O4. Meanwhile, pure cobalt oxide and the composites with x 
+≤0.4 showed similar absorbance values, whereas the composites with x 
+≥0.5 exhibited decreased absorbance in NIR region. Nonetheless, the 
+result demonstrates that the CuO-doped cobalt oxide was feasible for the 
+direct solar radiation absorption. 
+4. Conclusion 
+In this work, CuO-doped cobalt oxide composite was prepared by a 
+simple mechanical mixing process for TCS application. Meanwhile, a 
+series of CuO powders with different particle sizes were synthesized by 
+means of precipitation method using different copper nitrate 
+concentrations. 
+The influence of CuO doping on the redox behavior of cobalt oxide 
+was investigated. Doping with CuO significantly decreased the onset 
+temperature of reduction by 60 ◦C compared to pure cobalt oxide. 
+Meanwhile, the result verifies that the onset temperature of re-oxidation 
+could be tuned in the range from 825 ◦C to 890 ◦C by altering the doping 
+amount of CuO. The structural transformation of CuO-doped cobalt 
+oxide composite during reduction/re-oxidation process was confirmed 
+by in-situ XRD. Moreover, it was found that CuO was involved in the 
+reduction/re-oxidation process of cobalt oxide. Cu species was doped in 
+the CoO structure during the reduction process and separated out during 
+the re-oxidation process. It was presumed that the doping amount of Cu 
+species in CoO might be related to the onset temperature of re-oxidation 
+for the composite. 
+The effect of CuO doping on the repeatability performance of cobalt 
+oxide was also explored. The result under 30 reduction-oxidation cycles 
+demonstrates that the repeatability of the composite was highly affected 
+by the doping amount of CuO. Deterioration in the repeatability per­
+formance was observed with the increase of CuO doping amount. 
+However, it was found that CuO with relatively small particle size 
+exhibited a positive effect on improving the repeatability of CuO-doped 
+cobalt oxide composite. 
+Additionally, the absorption spectra demonstrate that CuO doping 
+would affect the optical absorption property of the composite, 
+enhancing the absorption of visible light. 
+Hence, the results obtained in this work indicate that doping with 
+CuO could extend the applicability of cobalt oxide-based system for 
+thermochemical energy storage application. 
+CRediT authorship contribution statement 
+Rongjun Wu: Writing – original draft, Methodology, Investigation, 
+Conceptualization. Hongyu Huang: Writing – review & editing, Re­
+sources. Lisheng Deng: Investigation. Mitsuhiro Kubota: Investiga­
+tion. Noriyuki Kobayashi: Supervision, Project administration, 
+Funding acquisition. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Data availability 
+Data will be made available on request. 
+Acknowledgements 
+This work was partially supported by “Knowledge Hub Aichi”, Pri­
+ority Research Project from Aichi Prefectural Government, Japan and 
+the National Natural Science Foundation of China (No.52176091). 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.solmat.2023.112211. 
+References 
+[1] N. Kannan, D. Vakeesan, Solar energy for future world: - a review, Renew. Sustain. 
+Energy Rev. 62 (2016) 1092–1105. 
+[2] A.J. Carrillo, J. Gonzalez-Aguilar, M. Romero, J.M. Coronado, Solar energy on 
+demand: a review on high temperature thermochemical heat storage systems and 
+materials, Chem. Rev. 119 (2019) 4777–4816. 
+[3] S. Kuravi, J. Trahan, D.Y. Goswami, M.M. Rahman, E.K. Stefanakos, Thermal 
+energy storage technologies and systems for concentrating solar power plants, 
+Prog. Energy Combust. Sci. 39 (2013) 285–319. 
+[4] L. Andre, S. Abanades, G. Flamant, Screening of thermochemical systems based on 
+solid-gas reversible reactions for high temperature solar thermal energy storage, 
+Renew. Sustain. Energy Rev. 64 (2016) 703–715. 
+[5] S. Li, H. Huang, X. Yang, Y. Bai, J. Li, N. Kobayashi, M. Kubota, Hydrophilic 
+substance assisted low temperature LiOH⋅H2O based composite thermochemical 
+materials for thermal energy storage, Appl. Therm. Eng. 128 (2018) 706–711. 
+[6] A. Shkatulov, Y. Aristov, Modification of magnesium and calcium hydroxides with 
+salts: an efficient way to advanced materials for storage of middle-temperature 
+heat, Energy 85 (2015) 667–676. 
+[7] T. Wang, C.Y. Zhao, J. Yan, Investigation on the Ca(OH)2/CaO thermochemical 
+energy storage system with potassium nitrate addition, Sol. Energy Mater. Sol. Cell. 
+215 (2020), 110646. 
+[8] C. Ortiz C, J.M. Valverde, R. Chacartegui, L.A. Perez-Maqueda, P. Gimenez, The 
+calcium-looping (CaCO3/CaO) process for thermochemical energy storage in 
+concentrating solar power plants, Renew. Sustain. Energy Rev. 113 (2019), 
+109252. 
+[9] N. Amghar, C. Ortiz, A. Perejon, J.M. Valverde, L.P. Maqueda, P.E.S. Jimenez, The 
+SrCO3/SrO system for thermochemical energy storage at ultra-high temperature, 
+Sol. Energy Mater. Sol. Cell. 238 (2022), 111632. 
+[10] B. Wong, Thermochemical Heat Storage for Concentrated Solar Power, Final 
+Report for the U.S. Department of Energy, United States, 2011, pp. 10–31. 
+[11] A. Bayon, R. Bader, M. Jafarian, L. Fedunik-Hofman, Y. Sun, J. Hinkley, S. Miller, 
+W. Lipinski, Techno-economic assessment of solid-gas thermochemical energy 
+storage systems for solar thermal power applications, Energy 149 (2018) 473–484. 
+[12] A.J. Carrillo, D. Sastre, D.P. Serrano, P. Pizarro, J.M. Coronado, Revisiting the 
+BaO2/BaO redox cycle for solar thermochemical energy storage, Phys. Chem. 
+Chem. Phys. 18 (2016) 8039–8048. 
+Fig. 14. Absorption spectra of pure cobalt oxide and composite doped with 
+different CuO (0.025 M) contents (x). 
+R. Wu et al.                                                                                                                                                                                                                                      
+
+
+===== Page 12 =====
+
+Solar Energy Materials and Solar Cells 253 (2023) 112211
+12
+[13] F. Lei, A. Dyall, N. AuYeung, An in-depth investigation of BaO2/BaO redox oxides 
+for reversible solar thermochemical energy storage, Sol. Energy Mater. Sol. Cell. 
+223 (2021), 110957. 
+[14] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Thermochemical heat 
+storage based on the Mn2O3/Mn3O4 redox couple: influence of the initial particle 
+size on the morphological evolution and cyclability, J. Mater. Chem. 2 (2014) 
+19435–19443. 
+[15] C. Agrafiotis, M. Roeb, M. Schmucker, C. Sattler, Exploitation of thermochemical 
+cycles based on solid oxide redox systems for thermochemical storage of solar heat. 
+Part 1: testing of cobalt oxide-based powders, Sol. Energy 102 (2014) 189–211. 
+[16] E. Alonso, C. Perez-Pabago, J. Licurgo, E. Fuentealba, C.A. Estrada, First 
+experimental studies of solar redox reactions of copper oxides for the 
+thermochemical energy storage, Sol. Energy 115 (2015) 297–305. 
+[17] K.J. Albrecht, G.S. Jackson, R.J. Braun, Thermodynamically consistent modeling of 
+redox-stable perovskite oxides for thermochemical energy conversion and storage, 
+Appl. Energy 165 (2016) 285–296. 
+[18] Z. Zhang, L. Andre, S. Abanades, Experimental assessment of oxygen exchange 
+capacity and thermochemical redox cycle behavior of Ba and Sr series perovskites 
+for solar energy storage, Sol. Energy 134 (2016) 494–502. 
+[19] N. Gokon, T. Yawata, S. Bellan, T. Kodama, H.S. Cho, Thermochemical behavior of 
+perovskite oxides based on LaxSr1-x(Mn, Fe, Co)O3-δ and BaySr1-yCoO3-δ redox 
+system for thermochemical energy storage at high temperature, Energy 171 (2019) 
+971–980. 
+[20] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Understanding redox kinetics 
+of iron-doped manganese oxides for high temperature thermochemical energy 
+storage, J. Phys. Chem. 120 (2016) 27800–27812. 
+[21] F. Varsano, C. Alvani, A.L. Barbera, A. Masi, F. Padella, Lithium manganese oxides 
+as high-temperature thermal energy storage system, Thermochim. Acta 640 (2016) 
+26–35. 
+[22] N.W. Hlongwa, D. Sastre, E. Iwuoha, A.J. Carrillo, C. Ikpo, D.P. Serrano, P. Pizarro, 
+J.M. Coronado, Exploring the thermochemical heat storage capacity of AMn2O4 (A 
+= Li or Cu) Spinels, Solid State Ionics 320 (2018) 316–324. 
+[23] M. Neises, S. Tescari, L. de Oliveira, M. Roeb, C. Sattler, B. Wong, Solar-heated 
+rotary kiln for thermochemical energy storage, Sol. Energy 86 (2012) 3040–3048. 
+[24] M. Wokon, A. Kohzer, M. Linder, Investigations on thermochemical energy storage 
+based on technical grade manganese-iron oxide in a lab-scale packed bed reactor, 
+Sol. Energy 153 (2017) 200–214. 
+[25] S. Tescari, A. Singh, C. Agrafiotis, L. de Oliveira, S. Breuer, B. Schl¨ogl-Knothe, 
+M. Roeb, C. Sattler, Experimental evaluation of a pilot-scale thermochemical 
+storage system for a concentrated solar power plant, Appl. Energy 189 (2017) 
+66–75. 
+[26] S. ´Alvarez de Miguel, J. Gonzalez-Aguilar, M. Romero, 100-Wh multi-purpose 
+particle reactor for thermochemical heat storage in concentrating solar power 
+plants, Energy Proc. 49 (2014) 676–683. 
+[27] K.N. Hutchings, M. Wilson, P.A. Larsen, R.A. Cutler, Kinetic and thermodynamic 
+considerations for oxygen absorption/desorption using cobalt oxide, Solid State 
+Ionics 177 (2006) 45–51. 
+[28] C. Agrafiotis, M. Roeb, M. Schmucker, C. Sattler, Exploitation of thermochemical 
+cycles based on solid oxide redox systems for thermochemical storage of solar heat. 
+Part 2: redox oxide-coated porous ceramic structures as integrated thermochemical 
+reactors/heat exchangers, Sol. Energy 114 (2015) 440–458. 
+[29] C. Agrafiotis, S. Tescari, M. Roeb, M. Schmucker, C. Sattler, Exploitation of 
+thermochemical cycles based on solid oxide redox systems for thermochemical 
+storage of solar heat. Part 3: cobalt oxide monolithic porous structures as 
+integrated thermochemical reactors/heat exchangers, Sol. Energy 114 (2015) 
+459–475. 
+[30] T. Block, N. Knoblauch, M. Schmucker, The cobalt-oxide/iron-oxide binary system 
+for use as high temperature thermochemical energy storage materials, 
+Thermochim. Acta 577 (2014) 25–32. 
+[31] A.J. Carrillo, J. Moya, A. Bayon, P. Jana, V.A. de la Pena O’Shea, M. Romero, 
+J. Gonzalez-Aguilar, D.P. Serrano, P. Pizarro, J.M. Coronado, Thermochemical 
+energy storage at high temperature via redox cycles of Mn and Co oxides: pure 
+oxides versus mixed ones, Sol. Energy Mater. Sol. Cell. 123 (2014) 47–57. 
+[32] T. Block, M. Schmucker, Metal oxides for thermochemical energy storage: a 
+comparison of several metal oxide systems, Sol. Energy 126 (2016) 195–207. 
+[33] L. Andre, S. Abanades, L. Cassayre, High-temperature thermochemical energy 
+storage based on redox reactions using Co-Fe and Mn-Fe mixed metal oxides, 
+J. Solid State Chem. 253 (2017) 6–14. 
+[34] Y. Portilla-Nieto, A. Zaki, K. Vidal, M. Hernaiz, E. Aranzabe, S. Doppiu, A. Faik, 
+Development of Co3-xNixO4 materials for thermochemical energy storage at lower 
+red-ox temperature, Sol. Energy Mater. Sol. Cell. 230 (2021), 111194. 
+[35] W. Stichert, F. Schuth, Influence of crystallite size on the properties of zirconia, 
+Chem. Mater. 10 (1998) 2020–2026. 
+[36] K. Phiwdang, S. Suphankij, W. Mekprasart, W. Pecharapa, Synthesis of CuO 
+nanoparticles by precipitation method using different precursors, Energy Proc. 34 
+(2013) 740–745. 
+[37] M.W. Hussain, M.Y.H. Ansari, Significance and importance of thermal expansion, 
+IOSR J. Appl. Phys. 9 (2017) 68–73. 
+[38] Z.Z. Fang, H. Wang, V. Kumar, Coarsening, densification, and grain growth during 
+sintering of nano-sized powders – a perspective, Int. J. Refract. Metals Hard Mater. 
+62 (2017) 110–117. 
+[39] X. Wang, A. Atkinson, Combining densification and coarsening in a Cellular 
+Automata-Monte-Carlo simulation of sintering: Methodology and calibration, 
+Comput. Mater. Sci. 143 (2018) 338–349. 
+[40] R.M. German, Coarsening in sintering: grain shape distribution, grain size 
+distribution, and grain growth kinetics in solid-pore systems, Crit. Rev. Solid State 
+Mater. Sci. 35 (2010) 263–305. 
+[41] E. Alonso, C. P´erez-R´abago, J. Licurgo, A. Gallo, E. Fuentealba, C.A. Estrada, 
+Experimental aspects of CuO reduction in solar-driven reactors: comparative 
+performance of a rotary kiln and a packed-bed, Renew. Energy 105 (2017) 
+665–673. 
+R. Wu et al.                                                                                                                                                                                                                                      

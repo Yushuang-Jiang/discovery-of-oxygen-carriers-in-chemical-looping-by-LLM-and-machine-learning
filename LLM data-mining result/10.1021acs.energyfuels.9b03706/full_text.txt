@@ -1,0 +1,918 @@
+
+
+===== Page 1 =====
+
+Improvement of the Oxygen Uncoupling Properties of Copper-
+Based Composite Oxygen Carriers for Chemical Looping Air
+Separation
+Kun Wang,* Qingbo Yu, Martin van Sint Annaland, Tianwei Wu, and Qin Qin
+Cite This: Energy Fuels 2020, 34, 3449−3457
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+ABSTRACT: To increase the oxygen concentration in the product gas of a chemical looping air separation (CLAS) system, it is
+important to reduce the oxygen uncoupling temperature of the oxygen carrier (OC). In this paper, it is investigated whether and to
+what extent the addition of Mn2O3, Co3O4, Pb3O4, and Cr2O3, all of which have oxygen uncoupling propensity according to
+thermodynamics, to CuO improves the oxygen uncoupling behavior of the mixed-oxide OC at lower temperatures. Using
+thermogravimetric analyses, it is shown that the oxygen uncoupling temperature of a Cu−Mn composite OC is decreased by
+approximately 200 °C relative to a Cu OC. In addition, the oxygen transport capacity of this composite OC can reach up to 0.056 g
+O2/g OC. Density functional theory calculations have been carried out to analyze the changes in reactivity and stability of the mixed-
+oxide OC. When a Mn3O4(001) surface adsorbs a Cu4O4 cluster, the average bond length of Cu−O in the Cu4O4 cluster increases
+from 1.983 to 2.047 Å and the charge is transferred from Cu4O4 to Mn3O4(001). Chemical reaction between the cluster and the
+surface occurs, and Cu−Mn composite oxides are formed after adsorption. Moreover, the adsorption energy is −3.749 eV, which is
+higher than that of Cu4O4 on a CuO(111) surface (−2.92 eV), and the composite OC has better stability and sintering resistance
+than the Cu OC. The stability of the composite OC was also investigated at 900 °C under reducing conditions and at 700 °C under
+oxidizing conditions. The results show that the Cu−Mn/Zr composite OC remains stable over 15 consecutive cycles. Moreover, the
+Cu−Mn composite does not only reduce the oxygen uncoupling temperature of CuO but it also overcomes thermodynamic
+limitations of the oxidation of Mn3O4 to Mn2O3, where the redox reaction of the Cu−Mn composite OC can be expressed as
+follows: CuxMn3−xO4 ⇋CuxMn2−x + O2(g). From the results, it can be concluded that Mn2O3 is the most suitable composite oxide
+to improve the oxygen uncoupling properties of a Cu OC for oxygen uncoupling in the CLAS system.
+1. INTRODUCTION
+Oxygen is widely applied in chemical industries, and the
+demand for oxygen has grown signiﬁcantly in recent years.1
+However, the current oxygen production technologies, viz.
+cryogenic distillation, swing adsorption, and membrane
+separation, are complex, expensive, and energy-intensive.
+Chemical looping air separation (CLAS) is a novel technology
+to produce high-purity oxygen or oxygen-enriched gases based
+on the chemical looping concept. The introduction of the
+concept of chemical looping for the production of oxygen can
+be dated back to as early as 1811, with the development of the
+Brin process. In this process, BaO/Ba2O is used to produce
+oxygen. However, the formation of BaCO3 during the
+production process poses the biggest problem for this process.2
+In 2000, the ceramic autothermal recovery (CAR) technology
+was proposed by the BOC Company, where perovskite oxides,
+such as LSCF, SCCF, LBCF, BSCF, and SCF, are used to
+produce oxygen-enriched gases.3−5 In 2010, the feasibility of
+the CLAS technology using metal oxides as oxygen carriers was
+ascertained by Moghtaderi to produce pure oxygen or oxygen-
+enriched gases.6 Figure 1 shows the oxygen production
+principle of the CLAS.
+In the CLAS system, the separation of oxygen from air is
+achieved by the cyclic reduction−oxidation of a solid oxygen
+carrier (OC). The system includes two separated reactors. In
+the reduction reactor, the oxidized OC releases oxygen into a
+Received:
+October 24, 2019
+Revised:
+February 12, 2020
+Published: February 19, 2020
+Figure 1. Oxygen production principle of the CLAS.
+Article
+pubs.acs.org/EF
+© 2020 American Chemical Society
+3449
+https://dx.doi.org/10.1021/acs.energyfuels.9b03706
+Energy Fuels 2020, 34, 3449−3457
+Downloaded via KAROLINSKA INST on July 18, 2020 at 10:52:32 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+
+===== Page 2 =====
+
+ﬂow of inert gas. Subsequently, the reduced OC returns to its
+initial form by absorbing oxygen from air in the air reactor.7,8
+The oxidation of the OC is exothermic, which can provide the
+heat necessary for the reduction process. The advantages of the
+CLAS system are its energy savings, being relatively simple,
+and ease of operation when compared to the cryogenic air
+separation system.6,9
+A good performance of the OC is key in the development of
+the CLAS process. In addition to the usual properties of OCs
+for all CL technologies, such as a high oxygen transport
+capability, antisintering ability, high reactivity, low cost, and
+environmental friendliness, the OC for the CLAS system must
+also have the capability to release oxygen into an atmosphere
+of inert gases, such as steam and CO2.10−12 Thus, the
+development of an eﬀective OC for CLAS is most important.
+Many research studies have been performed on the selection of
+a suitable OC for CLAS through thermodynamics and
+experimental studies. Wang et al. carried out a thermodynamic
+study for the selection of a suitable OC by analyzing the Gibbs
+free energy changes of the reduction reactions of the metal
+oxides.13 The results showed that CrO3, Pb3O4, SrO2, Mn2O3,
+Co3O4, and CuO all possess the capacities of releasing oxygen
+at suitable temperatures and oxygen partial pressures.
+However, despite their thermodynamic feasibility, the metal
+oxides of CrO3, Pb3O4, and SrO2 face kinetic problems with
+low reaction rates. CuO/Cu2O, Mn2O3/Mn3O4, and Co3O4/
+CoO have been identiﬁed as redox pairs with the ability to
+release oxygen at temperatures of 800−1200 °C,14−16 and
+oxygen carriers with CuO, Mn2O3, and Co3O4 as the active
+phases have been widely investigated for chemical looping with
+oxygen uncoupling (CLOU).17,18 The reduction reactions of
+these three oxides can be expressed as follows
+⇋
++
+Δ
+=
+°
+H
+4CuO
+2Cu O
+O (g),
+262.1 kJ/mol O
+2
+2
+900 C
+2
+(1)
+⇋
++
+Δ
+=
+°
+H
+6Mn O
+4Mn O
+O (g),
+180.3 kJ/mol O
+2
+3
+3
+4
+2
+900 C
+2
+(2)
+⇋
++
+Δ
+=
+°
+H
+2Co O
+6CoO
+O (g),
+396.2 kJ/mol O
+3
+4
+2
+900 C
+2
+(3)
+Of the three oxygen carriers indicated above, the oxygen
+transport capability of CuO is the largest, achieving 0.1 g O2/g
+CuO. Although the transport capacity of Co3O4 is relatively
+high (0.066 g O2/g Co3O4), the large endothermicity of the
+reduction reaction makes it diﬃcult to maintain high
+temperatures in the reduction reactor. The transport capacity
+of Mn2O3 is the smallest (0.033 g O2/g Mn2O3). More
+importantly, the oxidation of Mn3O4 to Mn2O3 is restricted
+due to the thermodynamic limitations of manganese
+oxides.19,20 Based on the above analysis, CuO/Cu2O seems
+to be the most suitable metal oxide system for CLAS
+technology. However, CuO used as OC for CLAS suﬀers
+from some restrictive issues that should be solved. First, the
+oxygen uncoupling temperature is high, usually above 850 °C
+in inert atmospheres, and the operating temperature should
+even be as high as 1025 °C to obtain a product gas with an
+oxygen concentration of 20.0%.13 The high oxygen uncoupling
+temperature complicates the operation of the system. More-
+over, agglomeration issues of Cu-based OCs at these very high
+temperatures are very serious, caused by the low melting points
+of copper oxides (1450 °C for CuO, 1235 °C for Cu2O, and
+1075 °C for CuO−Cu2O).21
+At present, most investigations are focused on the
+improvement of the antisintering properties of CuO, and the
+most common method is the addition of binders in the
+preparation of the Cu-based OC. Adánez-Rubio et al.
+evaluated the stability of an OC consisting of CuO with 40
+wt % MgAl2O4 for a CLOU process. Constant reactivity was
+observed at 950 °C in a batch ﬂuidized-bed reactor for six
+consecutive redox periods, and no agglomeration problems
+were encountered during 40 h of continuous operation.22
+Arjmand et al. also found that the OC with MgAl2O4 as
+support exhibited a stable oxygen-releasing behavior.23
+Mattisson et al. investigated the stability of the CuO/ZrO2
+OC by exposing it to petroleum coke and oxygen alternately in
+a laboratory ﬂuidized-bed reactor. Neither deﬂuidization nor
+agglomeration was observed during the experiments.24 Song et
+al. found that the OC with SiO2 as binder showed the highest
+redox stability in their thermogravimetric analysis (TGA)
+experiments.25 Moreover, when MgO was added, the stability
+of the Cu/Si OC was further improved.26 In our previous
+studies, we also found that the redox reactivity of a Cu-based
+OC remained stable at 1000 °C when 60 wt % ZrO2 or 50 wt
+% MgAl2O4 was added.27,28
+From the above investigations, it can be concluded that the
+agglomeration tendency of copper oxides can be greatly
+reduced by the addition of binders. However, the high binder
+addition ratio decreases the oxygen transport capacity and
+increases the OC inventory in the reactor, while also the power
+consumption for OC cycling between the reduction and
+oxidation reactors is increased. Even though binders can
+increase the reaction rates to some extent, the required redox
+temperatures of the Cu-based OC are still very high.29,30
+Unlike chemical looping with oxygen uncoupling (CLOU) and
+chemical looping combustion (CLC) technologies, the
+purpose of CLAS is to produce oxygen, and it is desired to
+maintain the temperatures of the reduction and oxidation
+reactors at a relatively low level. Based on our previous
+research, the oxidation rates of the Cu-based OC remain high,
+within the oxidation temperature range of 500−800 °C.31
+Thus, reducing the oxygen uncoupling temperature is key and
+is the focus of this study. In addition, agglomeration issues of
+copper-based OCs can be avoided when operating at low
+temperatures.
+Elemental composition or substitution is an eﬀective method
+to improve the thermodynamic properties of oxides, and this
+method has been commonly used to overcome thermodynamic
+restrictions in the oxidation of Mn3O4 to Mn2O3 and to
+improve the redox properties of perovskite oxides.32−34 Azimi
+et al. conﬁrmed the feasibility of Mn−Fe OC in CLOU. At 850
+°C, the oxygen concentration in an inert atmosphere was
+around 0.2−0.5% in a ﬂuidized-bed reactor, and the oxygen
+transport capacity was 0.032−0.033 g/g (Mn, Fe)2O3;35
+Mattisson et al. investigated six combined manganese oxide
+systems and found that MnyMgOx particles likely release
+oxygen through Mg2MnO4;36 Hou et al. investigated the
+feasibility of YBaCo4O7+δ as OC and found that the δ value can
+be increased using the Dy element to substitute the Y element.
+The oxygen transport capacity reached up to 0.027 g/g
+YxDy1−xBaCo4O7+δ.37 In this study, the oxygen uncoupling
+property of the Cu-based OC was improved by the
+composition method. Due to the high oxygen transport
+capacity of CuO/Cu2O, the composite Cu-based OCs may
+retain this property. Mn2O3, Co3O4, Pb3O4, and Cr2O3 were
+selected as candidate materials to prepare the copper
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://dx.doi.org/10.1021/acs.energyfuels.9b03706
+Energy Fuels 2020, 34, 3449−3457
+3450
+
+
+===== Page 3 =====
+
+composite OC. The oxygen uncoupling temperature of these
+composite oxides was experimentally investigated using
+thermogravimetric analysis, and density functional theory
+(DFT) calculations were used to help in understanding the
+changes in oxygen uncoupling temperature. In addition, the
+stability of the composite oxygen carriers was evaluated with
+tests involving 15 consecutive redox cycles. The OC is also
+characterized by XRD and SEM to determine the active phases
+and element distribution on the surface of the composite
+oxygen carrier.
+2. METHODS
+2.1. Preparation of the Composite OC. Mechanical mixing is a
+simple, low-cost, and high-yield method for the preparation of OCs,
+and it was also used to prepare the composite Cu-based OCs in this
+paper. Commercial CuO, Mn2O3 (Co3O4, Pb3O4, Cr2O3), and ZrO2
+obtained from the Sinopharm Chemical Reagent Company were used
+as raw materials. ZrO2, as a binder in all of the samples, was used to
+increase the antisintering properties of OCs. Graphite (10 wt %) was
+added as a pore-forming agent during the mixing process. Using
+graphite, the mechanical strength of the prepared OCs was also
+improved.27 The preparation process was as follows: the powders of
+the raw materials were mixed thoroughly in an agate mortar; distilled
+water was added to form a paste; the paste was dried at 80 °C for 12 h
+in a dryer, and then calcined at 950 °C for 6 h in a furnace in an air
+atmosphere. Finally, the samples were ground up and sieved to obtain
+particles within a size range of 150−180 μm.
+2.2. Characterization of the Composite OC. When binders,
+such as MgAl2O4, ZrO2, and SiO2, are added to CuO, the phases of
+CuO and binders remain stable during the preparation proc-
+ess,17−21,27,28 and the thermodynamic properties of CuO do not
+change. However, when doping oxides are added to CuO, these will
+react with CuO and form new phases, thereby potentially modifying
+the oxygen uncoupling property of CuO. Therefore, X-ray
+diﬀractometer (XRD) (PANalytical, PW 3040/60) measurements
+were carried out to determine the phases of the four prepared types of
+composite OCs.
+In addition, stability is very important for the composite copper
+OCs, where agglomeration is considered to be the main cause for a
+decrease in the stability of the oxygen carrier. The morphology and
+surface microstructure of the prepared OCs after consecutive redox
+cycles were investigated by scanning electron microscopy (SEM)
+(ZEISS, ULTRA 55). Whether in a ﬂuidized bed or a ﬁxed bed, good
+mechanical strength is necessary to avoid attrition of the OC.37 The
+mechanical strength was measured using a press apparatus (SHIMPO,
+FGV-50). The Brunauer−Emmett−Teller (BET) surface area and
+Barrett−Joyner−Halenda (BJH) pore volume of the prepared sample
+were also measured (QUANTACHROME, NOVA 1200e).
+2.3. Experimental Set-Up. Experiments were performed in a
+thermal analyzer (Netzsch, Model STA409PC). Temperature-
+programmed TGA experiments (room temperature to 1000 °C with
+a heating rate of 15 °C/min) were used to determine the starting
+oxygen uncoupling temperature as well as the oxygen transfer capacity
+of the OC prepared. Subsequently, isothermal TGA experiments were
+used to investigate the reactivity and stability of the OCs at constant
+reduction−oxidation temperatures. In all experiments, nitrogen was
+used as the carrier gas in the reduction step and air was used to
+oxidize the reduced oxygen carrier. All of the samples, about 10 mg
+for each experiment, were loaded in a crucible (6.8 mm diameter and
+4 mm height).
+2.4. Data Processing. Reactivity data were obtained by analyzing
+the weight changes during the reduction and oxidation steps. The
+weight of the OC after complete oxidation and reduction is deﬁned as
+mox and mred. The mass of oxygen released per unit mass of OC is
+deﬁned as the oxygen transport capacity (Ro), and it can be calculated
+using eq 4
+=
+−
+−
+R
+m
+m
+m
+w
+/(100
+)/100
+o
+ox
+red
+ox
+ZrO2
+i
+k
+jjjjj
+y
+{
+zzzzz
+(4)
+where wZrO2 is the fraction (in mass %) of ZrO2 in the OC particle.
+2.5. DFT Analyses. DFT calculations were performed using the
+DMol3 module. First, the Cu4O4 cluster and the Mn3O4(001) surface
+were optimized. Subsequently, the Cu4O4 cluster was loaded onto the
+Mn3O4 model. In the calculations, the generalized gradient
+approximation (GGA) method with Perdew−Burk−Ernzerhof
+(PBE) was used, having selected the double numeric with polarization
+(DNP) basic set and eﬀective core potentials (ECP). Electron spin
+was always considered due to the special properties of the transition
+metal. The convergence tolerance for energy, force, maximum
+displacement, and self-consistent ﬁeld (SCF) were set as 1.0 × 10−5
+Ha, 0.002 Ha/Å, 0.005 Å, and 1.0 × 10−6, respectively.
+3. RESULTS AND DISCUSSION
+3.1. Determination of Suitable Composite Oxide. In
+this paper, Cu−Mn/Zr, Cu−Co/Zr, Cu−Pb/Zr, and Cu−Cr/
+Zr composite OCs were prepared. The oxygen uncoupling
+properties of the four types of OCs measured in the TGA are
+presented in Figure 2. The ﬁgure shows that Cu−Cr/Zr hardly
+exhibits any oxygen uncoupling ability, whereas Cu−Mn/Zr,
+Cu−Co/Zr, and Cu−Pb/Zr all present oxygen uncoupling
+activity. Among these three OCs, the initial oxygen uncoupling
+temperature (Tred) of Cu−Mn/Zr is the lowest. Compared to
+Cu/Zr, Tred of the Cu−Mn composite OC decreases by about
+200 °C.21 The result corresponds to the result in the literature.
+Driessens and Rieck suggested that a Cu/Mn composite
+oxygen carrier could reduce the oxygen-releasing temperature
+and improve the oxidative regeneration ability of a pure Mn-
+based oxygen carrier.38 Azad et al. found that the spinel Cu−
+Mn−O system could release O2 in an inert atmosphere at the
+tested temperature range of 800−850 °C.39 The Cu−Co/Zr
+also presents good oxygen uncoupling activity. For this OC,
+the oxygen uncoupling process can be divided into two steps:
+the ﬁrst step takes place in the temperature range of 750−820
+°C and the second step between 820 and 910 °C, which is
+attributed to two diﬀerent active phases in the Cu−Co/Zr OC
+with diﬀerent reduction temperatures. For the Cu−Pb
+composite OC, the value of Tred is the highest and this value
+is almost the same as for the Cu-based OC.
+The oxygen uncoupling characteristics depend greatly on the
+composition compared to the Cu-based OC, and the diﬀerent
+Figure 2. Mass loss and oxygen uncoupling temperature of OCs
+(mole ratio of CuO/dopant/ZrO2 is 1.5:1:1).
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://dx.doi.org/10.1021/acs.energyfuels.9b03706
+Energy Fuels 2020, 34, 3449−3457
+3451
+
+
+===== Page 4 =====
+
+composite OCs show diﬀerent characteristics, which are
+related to the diﬀerent reactions of CuO and the
+corresponding composite oxides during the preparation
+process. Figure 3 shows the chemical species in the samples
+as prepared. For Cu−Mn/Zr, the reaction of the active phases
+of CuO and Mn2O3 results in the formation of new active
+phases of CuxMn3−xO4, including Cu1.4Mn1.6O4, Cu1.5Mn1.5O4,
+and CuMn2O4. These new phases exhibit excellent oxygen
+uncoupling characteristics. ZrO2 still acts as binder and does
+not react with CuO or Mn2O3 or CuxMn3−xO4. Similar to
+Mn2O3, Cr2O3 also reacts with CuO to form CuCrO2. Excess
+of Cr2O3 and binder ZrO2 are also present in the sample.
+However, neither CuCrO2 nor Cr2O3 shows oxygen
+uncoupling activity. Unlike with Mn2O3 and Cr2O3, Pb3O4
+does react with ZrO2 and new phases of PbZrO3 and PbO are
+formed. However, CuO does not participate in any reaction
+during its preparation. According to the reduction curve, it can
+be concluded that the active phase of Cu−Pb/Zr is CuO. The
+new phases of PbZrO3 and PbO have the same eﬀect as ZrO2,
+and they act as binders in this OC. For Cu−Co/Zr, the raw
+materials of CuO, Co3O4, and ZrO2 do not react with each
+other and they all present in the sample. Both CuO and Co3O4
+have oxygen uncoupling activity, and the oxygen uncoupling
+temperature of Co3O4 is lower than that of CuO.15 Thus, two
+reaction steps are shown in the oxygen uncoupling process.
+Table 1 summarizes the composition characteristics of the
+four OCs. The eﬀects of composite oxides can be divided into
+three types: (i) reaction with CuO to form a new phase with or
+without oxygen uncoupling activity, where the oxygen
+uncoupling activity of the Cu-based oxygen carrier is enhanced
+greatly if the new phase shows oxygen uncoupling activity; (ii)
+reaction with the binder forming a new binder phase; and (iii)
+no reaction occurs and the active phases are CuO and the
+added composite oxide. It should be pointed out that only
+oxides with thermodynamic potential for oxygen release have
+been selected in this study to combine with the copper oxide.
+Other oxides such as Fe2O3, NiO, CeO2, etc. will be
+investigated in a future study. The oxygen transport capacity
+of Cu−Co/Zr was found to be the largest. The reason is that
+both Co3O4 and CuO have the ability to releasing oxygen. The
+value of Ro of Cu−Mn/Zr is also high. On the other hand, the
+Ro of Cu−Pb/Zr is the lowest due to the low CuO mass ratio.
+Despite the high value of Ro, the thermodynamic properties of
+Co3O4 and CuO remain unaltered. This type of oxygen carrier
+is thus only the mixing of active phases.
+Based on the analysis of the oxygen uncoupling activity of
+the four types of OCs, the oxygen uncoupling temperature of
+the Cu−Mn composite OC is about 200 °C lower than the
+copper OC (referring to Figure 2), while the oxygen transport
+capacity can reach up to 0.056 g O2/g AP. According to the
+focus of this study, Mn2O3 is the most suitable oxide to
+improve the oxygen uncoupling properties of a composite OC
+with CuO, and the active phase in the Cu−Mn OC is
+determined as CuxMn3−xO4.
+Subsequently, the addition ratio of Mn2O3 to CuO on the
+oxygen uncoupling activity of the Cu−Mn/Zr composite OC
+was investigated. Four diﬀerent Mn2O3 adding ratios (in the
+molar ratio CuO/Mn2O3 of 0.5:1, 1:1, 1.5:1, and 2:1) were
+used in the preparation of the composite OCs. Figure 4 shows
+the chemical species presented in the OCs with diﬀerent
+Mn2O3 addition ratios. Within the tested range, the
+CuxMn3−xO4 phase is formed and the main phases are
+CuxMn3−xO4 and ZrO2 in all of the samples. The reason is
+that the value of x in CuxMn3−xO4 is variable. When the molar
+ratio of CuO/Mn2O3 is 0.5:1, Mn3O4 is presented in this
+sample. The preparation conditions are thus easy to control,
+which is important to decrease the cost of the OC in CL
+technologies.
+Figure 3. Chemical species in the four types of samples prepared.
+Table 1. Composition Characteristics of the Four OCs
+OC
+reaction in preparation
+active phase (AP)
+binder
+Ro (g O2/g AP)
+Cu−Mn/Zr
+CuO + Mn2O3 ⇋CuMn2O4
+CuxMn3−xO4
+ZrO2
+0.056
+Cu−Cr/Zr
+4CuO + 2Cr2O3 ⇋4CuCrO2 + O2(g)
+ZrO2
+∼0
+Cu−Pb/Zr
+2Pb3O4 + ZrO2 ⇋PbZrO3 + 5PbO + O2(g)
+CuO
+PbZrO3, PbO
+0.0076
+Cu−Co/Zr
+CuO, Co3O4
+ZrO2
+0.073
+Figure 4. Chemical species in the composite Cu−Mn/Zr OCs with
+diﬀerent mole ratios of CuO:Mn2O3/ZrO2.
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://dx.doi.org/10.1021/acs.energyfuels.9b03706
+Energy Fuels 2020, 34, 3449−3457
+3452
+
+
+===== Page 5 =====
+
+Figure 5 shows the mass changes and the initial oxygen
+uncoupling temperature during the reduction process. It can be
+seen that all of the Tred of the Cu−Mn/Zr composite OCs are
+lower than 645 °C, and the oxygen uncoupling activity of CuO
+has been greatly improved. The value of Tred decreases with the
+increasing CuO content, and the Tred of Cu2Mn OC is as low
+as 616 °C. Among the four addition ratios (ranging from 0.5:1
+to 1:2) investigated, the reduction mass change of the Cu1.5Mn
+OC is the largest. With lower CuO content, the mass changes
+are less. Compared to the Cu1.5Mn OC, the mass changes of
+Cu0.5Mn and CuMn decrease by 46.0 and 39.4%, respectively.
+The mass change of the Cu2Mn OC is also reasonably high,
+and the value only decreases by 18.7%. The reason is that the
+active phase of CuxMn3−xO4 is mainly composed of
+Cu1.4Mn1.6O4, Cu1.5Mn1.5O4 CuMn2O4. When the molar
+ratio of CuO:Mn2O3 is diﬀerent, the contents of
+Cu1.4Mn1.6O4, Cu1.5Mn1.5O4 CuMn2O4 will be changed in
+diﬀerent samples, which causes the diﬀerences of mass changes
+and initial oxygen uncoupling temperature among the four
+samples. Considering the values of Tred and Ro, the optimal
+mole ratio of CuO and Mn2O3 can be estimated at 1.5−2 for
+the preparation of the Cu−Mn composite OC.
+3.2. DFT Analysis. DFT calculations, also known as ﬁrst-
+principle calculations, were used in CL technologies to reveal
+the interaction of phases in the OC particle and the
+microscopic mechanism of the redox reaction in recent
+years.40−44 In this study, the Cu4O4 cluster was loaded on
+the Mn3O4 models, and the adsorption energy was calculated.
+The reactivity and stability of the composite model were also
+analyzed.
+Mn3O4 is a typical Jahn−Teller twisted spinel compound.
+The space group is 141/AMD, and the ionic structure is
+Mn2+(Mn3+)2O4, where Mn2+ is located at the center of the
+tetrahedron and Mn3+ is located at the center of the
+octahedron. Mn3O4 is also an antiferromagnetic substance
+with a spin direction of ↑↓↑↓↑↓.45 Figure 6a shows the
+structure diagram of the Mn3O4 unit cell. The theoretical
+calculation of the optimized cell parameters is a = b = 5.762 Å,
+c = 9.439 Å, which is close to the experimental value (a = b =
+5.76 Å, c = 9.46 Å).46 The surface of Mn3O4 belongs to the
+polar surface, and the surface structure of Mn3O4(001) is the
+most stable.47 Figure 6b,c shows the surface structure of
+Mn3O4(001). The surface atoms are repeatedly arranged in
+eight layers as one cycle in the Z-direction. Thus, an 8-layer (2
+× 1) Mn3O4(001) surface structure with a total of 81 atoms
+was constructed. To eliminate the interaction between the
+layers, the thickness of the vacuum gap was set at 20 Å.
+Surface meshing K-points are important parameters to
+ensure the accuracy of the calculation results. In this study, a
+convergence test was carried out ﬁrst and the results are
+summarized in Figure 7. The total energy tends to be stable
+when the K-point value is 5 × 4 × 1, so this is used in the
+following calculations. At this condition, the total energy is
+−133 715.1513 eV.
+The optimized Cu4O4 cluster was placed on top of a
+Mn3O4(001) surface (seen from Figure 8a). O and Cu atoms
+Figure 5. Mass changes and the initial oxygen uncoupling
+temperature of OCs.
+Figure 6. Structure diagram of the Mn3O4 cell ((a) cell model; (b) main view of Mn3O4(001) surface structure; (c) top view of the Mn3O4(001)
+surface structure).
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://dx.doi.org/10.1021/acs.energyfuels.9b03706
+Energy Fuels 2020, 34, 3449−3457
+3453
+
+
+===== Page 6 =====
+
+in the cluster are located at the top of Mn and O atoms in the
+surface model, respectively. Figure 8b shows the structure of
+the Mn3O4(001) surface adsorption of the Cu4O4 cluster. The
+surface and cluster models do not change signiﬁcantly before
+and after optimization. The O and Cu in the bottom of the
+cluster bond with Mn and O atoms, respectively. Among them,
+the O−Mn bond length is 1.821 Å and the Cu−O bond length
+is 1.962 Å. The calculated adsorption energy is −3.749 eV and
+it is more negative than that of Cu4O4 on the CuO(111)
+surface (−2.92 eV), which indicates that the composite OC
+has better stability and sintering resistance than copper OC.40
+The Mulliken charge and bond length of the Cu4O4 cluster
+before and after adsorption on the Mn3O4(001) surface were
+also analyzed. The results are shown in Table 2. The average
+bond length of Cu−O in the Cu4O4 cluster extends from 1.983
+to 2.047 Å, indicating that the cluster has been activated. In a
+free Cu4O4 cluster, the charge numbers of Cu and O atoms are
+0.547 and −0.547, respectively, while the charge numbers of
+each atom after adsorption are 0.504, 0.504, 0.503, 0.503,
+−0.502, −0.502, −0.468, and −0.468, respectively. The total
+charge number also changes from 0 to 0.074, which indicates
+that the charge of atoms in the Cu4O4 cluster has been
+transferred to Mn3O4(001). A chemical reaction between the
+cluster and the surface occurs, and a Cu−Mn composite OC is
+obtained. After adsorption, the electrons are redistributed, in
+which the O atom loses part of the electrons and carries less
+negative charges, which is more conducive to the oxygen
+uncoupling reaction in the CLAS system.
+3.3. Stability Tests. In accordance with the results from
+the DFT calculations, a chemical reaction between copper and
+manganese oxides to form the Cu−Mn composite oxides had
+already been conﬁrmed. Moreover, the DFT calculation results
+indicate that the composite oxide has better stability and
+sintering resistance than copper oxides due to the high
+adsorption energy. In this section, the stability of the Cu−Mn
+composite OC was investigated experimentally. Cyclic redox
+experiments were carried out in alternate N2 and air
+atmospheres at 900 °C reduction and 700 °C oxidation
+temperatures, where 15 complete cycles were performed.
+Figure 9 shows the mass changes of Cu−Mn/Zr OC during
+the 15 cycles. In each cycle, the amount of oxygen released and
+absorbed by the OC is basically the same. The reduced OC
+can be completely reoxidized. The composite of Cu−Mn not
+only reduces the oxygen uncoupling temperature of CuO but
+also overcomes thermodynamic limitations in the oxidation of
+Mn3O4 to Mn2O3. Moreover, the oxygen transport capacity
+and reaction rates have changed very little over the consecutive
+cycles. This type of OC retains its high stability when
+employed at high temperatures.
+The chemical species in the OCs before and after cycles
+were also determined by XRD. Figure 10 shows the XRD
+phases of the fresh, reduced, and oxidized OCs. In the fresh
+and oxidized samples, the peaks have good correspondence,
+which reﬂects that the reduced state can be completely
+converted back to the oxidized state in an air atmosphere.
+Figure 7. K-point convergence test of the Mn3O4(001) surface.
+Figure 8. Structure of the Mn3O4(001) surface adsorption Cu4O4
+cluster ((a) initial state; (b) optimized).
+Table 2. Changes of Mulliken Atom Charge and Bond Length before and after Adsorption
+Cu4O4
+Cu(1)
+Cu(2)
+Cu(3)
+Cu(4)
+O(1)
+O(2)
+O(3)
+O(4)
+O average charge
+total charge
+Cu−O (Å)
+free
+0.547
+0.547
+0.547
+0.547
+−0.547
+−0.547
+−0.547
+−0.547
+−0.547
+0
+1.983
+adsorption
+0.504
+0.504
+0.503
+0.503
+−0.502
+−0.502
+−0.468
+−0.468
+−0.485
+0.074
+2.047
+Figure 9. Designed temperature program mass changes of Cu−Mn/
+Zr OC during 15 cycles.
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://dx.doi.org/10.1021/acs.energyfuels.9b03706
+Energy Fuels 2020, 34, 3449−3457
+3454
+
+
+===== Page 7 =====
+
+Moreover, no new phase is generated after several cycles and
+the chemical species in the OC remain stable. Through analysis
+of the XRD peaks of the reduced sample, the active phase of
+the reduced state has been determined as CuMn2−xO2. The
+oxidized phase of CuxMn3−xO4 does not decompose to copper
+oxides or manganese oxides during the oxygen uncoupling
+process. The Cu−Mn composite oxides are stable once
+formed. This result corresponds to the DFT results. The
+redox reaction of the Cu−Mn composite OC can be expressed
+as
+⇋
++
+−
+−
+Cu Mn
+O
+Cu Mn
+O
+O (g)
+x
+x
+x
+x
+3
+4
+2
+2
+2
+(5)
+Finally, Figure 11 shows the surface morphology of the Cu−
+Mn composite oxygen carrier before and after consecutive
+redox cycles. After the reaction of copper and manganese
+oxides, the structure of the OC surface is modiﬁed, and the
+surface is smooth.48 Both the fresh and cycled samples present
+a porous structure that provides channels for oxygen diﬀusion,
+which is important for the redox reaction rates. The BET
+surface area is 0.215 m2/g. The BJH cumulative volume of
+pores is 0.0028 cm3/g. BJH average pore radius is 9.05 nm.
+The surface area is small but typical for OC. Compared to the
+fresh sample, the surface morphology of the cycled sample
+presents a more loose structure with more holes on the surface,
+probably explained by continuous oxygen diﬀusion from the
+inside to the surface and vice versa. There are no clear signs of
+sintering after the consecutive redox cycles. This type of OC
+thus shows high antisintering stability. The mechanical
+strength of the OC refers to the maximum pressure that can
+be sustained before the particles break, and this was also
+measured for samples before and after the cyclic test. The
+mechanical strength of the fresh sample is higher than 24 N.
+There is a slight decrease in mechanical strength for the cycled
+sample, and the value is 22−23 N. In most applications, a
+mechanical strength below 1 N is considered too soft,23 and
+the mechanical strength of this composite OC is deemed
+suﬃciently high.
+4. CONCLUSIONS
+In this paper, Mn2O3, Co3O4, Pb3O4, and Cr2O3 were added to
+CuO to construct a copper composite OC to reduce the
+oxygen uncoupling temperature of CuO. The main results
+obtained can be summarized as follows:
+Figure 10. Chemical species in the fresh, reduced, and oxidized OCs.
+Figure 11. Surface morphology of the Cu−Mn composite oxygen carrier ((a, b) fresh sample; (c, d) cycled sample).
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://dx.doi.org/10.1021/acs.energyfuels.9b03706
+Energy Fuels 2020, 34, 3449−3457
+3455
+
+
+===== Page 8 =====
+
+(1) Cu−Cr composite OC does not exhibit any oxygen
+uncoupling activity due to the formation of CuCrO2
+oxide. The Cu−Pb composite OC retains the same
+oxygen uncoupling temperature as the Cu-based OC.
+No reaction occurs during the preparation process when
+CuO and Co3O4 are combined, and this type of OC
+retains the oxygen uncoupling properties of CuO and
+Co3O4. However, the oxygen uncoupling temperature of
+a Cu−Mn composite OC decreases by about 200 °C
+compared with the copper OC. The active phase
+CuxMn3−xO4 is formed during the preparation process.
+(2) DFT calculations were carried out to analyze changes in
+the reactivity and stability of the composite OC. When a
+Mn3O4(001) surface adsorbs a Cu4O4 cluster, the O−
+Mn bond length is 1.821 Å and the Cu−O bond length
+is 1.962 Å, and the charge transfers from Cu4O4 to
+Mn3O4(001), which indicates a chemical reaction
+between the cluster and the surface, forming a Cu−
+Mn composite oxide. Moreover, the adsorption energy is
+−3.749 eV, which is higher than that of Cu4O4 on the
+CuO(111) surface (−2.92 eV), which indicates that the
+composite OC has better stability and sintering
+resistance than the copper OC.
+(3) The Cu−Mn/Zr composite OC remains stable during
+15 redox cycles and the composite of Cu−Mn not only
+reduces the oxygen uncoupling temperature of CuO but
+also overcomes thermodynamic limitations in the
+oxidation of Mn3O4 to Mn2O3, where the redox reaction
+of the Cu−Mn composite OC can be expressed as
+CuxMn3−xO4 ⇋CuxMn2−xO2 + O2(g).
+■AUTHOR INFORMATION
+Corresponding Author
+Kun Wang −School of Metallurgy, State Environmental
+Protection Key Laboratory of Eco-Industry, Northeastern
+University, Shenyang 110819, China; Chemical Process
+Intensiﬁcation, Department of Chemical Engineering and
+Chemistry, Eindhoven University of Technology, Eindhoven
+5600 MB, The Netherlands;
+orcid.org/0000-0003-3196-
+3160; Email: wangkun@mail.neu.edu.cn, k.wang@tue.nl
+Authors
+Qingbo Yu −School of Metallurgy, State Environmental
+Protection Key Laboratory of Eco-Industry, Northeastern
+University, Shenyang 110819, China
+Martin van Sint Annaland −Chemical Process Intensiﬁcation,
+Department of Chemical Engineering and Chemistry, Eindhoven
+University of Technology, Eindhoven 5600 MB, The
+Netherlands;
+orcid.org/0000-0002-2903-7443
+Tianwei Wu −School of Metallurgy, State Environmental
+Protection Key Laboratory of Eco-Industry, Northeastern
+University, Shenyang 110819, China; Chemical Process
+Intensiﬁcation, Department of Chemical Engineering and
+Chemistry, Eindhoven University of Technology, Eindhoven
+5600 MB, The Netherlands
+Qin Qin −School of Metallurgy, State Environmental Protection
+Key Laboratory of Eco-Industry, Northeastern University,
+Shenyang 110819, China
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acs.energyfuels.9b03706
+Notes
+The authors declare no competing ﬁnancial interest.
+■ACKNOWLEDGMENTS
+This research was ﬁnancially supported by the National
+Natural Science Foundation of China (51604078, 51576035)
+and Fundamental Research Funds for the Central Universities
+(N182504011, N172502006).
+■REFERENCES
+(1) Smith, A. R.; Klosek, J. Fuel Process. Technol. 2001, 70, 115−134.
+(2) Jensen, W. B. J. Chem. Educ. 2009, 86, 1266−1267.
+(3) Yang, Z. H.; Lin, Y. S.; Zeng, Y. Ind. Eng. Chem. Res. 2002, 41,
+2775−2784.
+(4) Rui, Z. B.; Ding, J. J.; Li, Y. D.; Lin, Y. S. Fuel 2010, 89, 1429−
+1434.
+(5) Michalik, J. M.; De Teresa, J. M.; Blasco, J.; Ritter, C.; Algarabel,
+P. A.; Ibarra, M. R.; Kapusta, C. Solid State Sci. 2010, 12, 1121−1230.
+(6) Moghtaderi, B. Energy Fuels 2010, 24, 190−198.
+(7) Chen, S. Y.; Hu, J.; Xiang, W. G. Appl. Therm. Eng. 2018, 132,
+8−17.
+(8) Ku, Y.; Wu, H. C.; Chang, C. W.; Shiu, S. H. Int. J. Greenhouse
+Gas Control 2018, 70, 225−235.
+(9) Wang, K.; Yu, Q. B.; Zuo, Z. L.; Hou, L. M.; Qin, Q. Appl.
+Therm. Eng. 2016, 98, 440−448.
+(10) Shah, K.; Moghtaderi, B.; Wall, T. Fuel 2013, 103, 932−942.
+(11) Li, Z.; Zhang, T.; Cai, N. Ind. Eng. Chem. Res. 2008, 47, 7147−
+7153.
+(12) Görke, R. H.; Hu, W.; Dunstan, M. T.; Dennis, J. S.; Scott, S. A.
+Appl. Energy 2018, 212, 478−488.
+(13) Wang, K.; Yu, Q. B.; Qin, Q. J. Therm. Anal. Calorim. 2013,
+112, 747−753.
+(14) Cheng, Z.; Qin, L.; Fan, J. A.; Fan, L. S. Engineering 2018, 4,
+343−351.
+(15) Shah, K.; Moghtaderi, B.; Wall, T. Energy Fuels 2012, 26,
+2038−2045.
+(16) Wang, K.; Yu, Q. B.; Qin, Q.; Duan, W. J. Chem. Eng. Technol.
+2014, 37, 1500−1506.
+(17) De Diego, L. F.; García-Labiano, F.; Adánez, J.; et al. Fuel 2004,
+83, 1749−1757.
+(18) Wang, P.; Howard, B.; Means, N.; Shekhawat, D.; Berry, D.
+Energies 2019, 12, 1−13.
+(19) Adánez-Rubio, I.; Arjmand, M.; Leion, H.; Gaya′n, P.; Abad,
+A.; Mattisson, T.; Lyngfelt, A. Energy Fuels 2013, 27, 3918−3927.
+(20) Pour, N. M.; Leion, H.; Ryde′n, M.; Mattisson, T. Energy Fuels
+2013, 27, 6031−6039.
+(21) Wang, K.; Yu, Q. B.; Qin, Q. Energy Fuels 2013, 27, 5466−
+5474.
+(22) Abad, A.; Adánez-Rubio, I.; Gayán, P.; García-Labiano, F.; De
+Diego, L. F.; Adánez, J. Int. J. Greenhouse Gas Control 2012, 6, 189−
+200.
+(23) Arjmand, M.; Azad, A.; Leion, H.; Lyngfelt, A.; Mattisson, T.
+Energy Fuels 2011, 25, 5493−5502.
+(24) Mattisson, T.; Leion, H.; Lyngfelt, A. Fuel 2009, 88, 683−690.
+(25) Song, H.; Shah, K.; Doroodchi, E.; Wall, T.; Moghtaderi, B.
+Energy Fuels 2014, 28, 1284−1294.
+(26) Song, H.; Shah, K.; Doroodchi, E.; Moghtaderi, B. Energy Fuels
+2014, 28, 163−172.
+(27) Wang, K.; Yu, Q. B.; Qin, Q.; Zuo, Z. L.; Wu, T. W. Chem. Eng.
+J. 2016, 287, 292−301.
+(28) Wang, K.; Yu, Q. B. Powder Technol. 2019, 343, 40−48.
+(29) Imtiaz, Q.; Broda, M.; Müller, C. R. Appl. Energy 2014, 119,
+557−565.
+(30) Xu, L.; Wang, J.; Li, Z. S.; Cai, N. S. Energy Fuels 2013, 27,
+1522−1530.
+(31) Wang, K.; Yu, Q. B.; Qin, Q.; Duan, W. J.; Wu, T. W. J. Therm.
+Anal. Calorim. 2015, 120, 1627−1633.
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://dx.doi.org/10.1021/acs.energyfuels.9b03706
+Energy Fuels 2020, 34, 3449−3457
+3456
+
+
+===== Page 9 =====
+
+(32) Hosseini, D.; Imtiaz, Q.; Abdala, P. M.; et al. J. Mater. Chem. A
+2015, 3, 10545−10550.
+(33) Qin, W.; Chen, Q. L.; Wang, Y.; et al. Appl. Surf. Sci. 2013, 266,
+350−354.
+(34) Haider, S. K.; Azimi, G.; Duan, L.; Anthony, E. J.; Patchigolla,
+K.; Oakey, J. E.; Leion, H.; Mattisson, T.; Lyngfelt, A. Appl. Energy
+2016, 163, 41−50.
+(35) Azimi, G.; Leion, H.; Mattisson, T.; Rydén, M.; Snijkers, F.;
+Lyngfelt, A. Ind. Eng. Chem. Res. 2014, 53, 10358−10365.
+(36) Mattisson, T.; Jing, D. Z.; Lyngfelt, A.; Rydén, M. Fuel 2016,
+164, 228−236.
+(37) Hou, L. M.; Yu, Q. B.; Wang, K.; Yang, F.; Wu, T. W. J. Therm.
+Anal. Calorim. 2018, 134, 2213−2221.
+(38) Driessens, F. C. M.; Rieck, G. D. Z. Anorg. Allg. Chem. 1967,
+351, 48−55.
+(39) Azad, A. M.; Hedayati, A.; Ryden, M.; Leion, H.; Mattisson, T.
+Energy Technol. 2013, 1, 59−69.
+(40) Zhang, Y. L.; Zhao, H. B.; Guo, L.; Zheng, C. G. Combust.
+Flame 2015, 162, 1265−1274.
+(41) Dong, C. Q.; Sheng, S. H.; Qin, W.; Lu, Q.; Zhao, Y.; Wang, X.
+Q.; Zhang, J. J. Appl. Surf. Sci. 2011, 257, 8647−8652.
+(42) Xue, P. Y.; Fu, Z. M.; Chu, X. L.; Zhang, Y. X.; Yang, Z. X. Appl.
+Surf. Sci. 2014, 317, 752−759.
+(43) Cai, X.; Wang, X. H.; Guo, X.; Zheng, C. G. Chem. Eng. J. 2014,
+244, 464−472.
+(44) Wang, M. J.; Liu, J.; Shen, F. H.; Cheng, H.; Dai, J. X.; Long, Y.
+Appl. Surf. Sci. 2016, 367, 485−492.
+(45) Ribeiro, R. A. P.; Lazaro, S. R. D.; Pianaro, S. A. J. Magn. Magn.
+Mater. 2015, 391, 166−171.
+(46) Wyckoﬀ, W. Crystal Structures; Wiley: New York, 1963; pp
+125−126.
+(47) Bayer, V.; Podloucky, R.; Franchini, C.; et al. Phys. Rev. B 2007,
+76, No. 165428.
+(48) Sajen, S.; Singh, S. K.; Mungse, P.; Rayalu, S.; Watanabe, K.;
+Saravanan, G.; Labhasetwar, N. Energy Fuels 2016, 30, 7596−7603.
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://dx.doi.org/10.1021/acs.energyfuels.9b03706
+Energy Fuels 2020, 34, 3449−3457
+3457

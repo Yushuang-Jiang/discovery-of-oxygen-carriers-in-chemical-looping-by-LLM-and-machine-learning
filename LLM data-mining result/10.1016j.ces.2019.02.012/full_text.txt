@@ -1,0 +1,939 @@
+
+
+===== Page 1 =====
+
+Reduction kinetics for large spherical 2:1 iron–manganese oxide redox
+materials for thermochemical energy storage
+Marziyeh Hamidi a, Alicia Bayon b,⇑, Vincent M. Wheeler a, Peter Kreider a, Mark A. Wallace c,
+Takuya Tsuzuki a, Kylie Catchpole a, Alan W. Weimer a,c,⇑
+a Research School of Engineering, The Australian National University, Acton, ACT 2401, Australia
+b CSIRO Energy, PO Box 330, Newcastle, NSW 2300, Australia
+c Department of Chemical and Biological Engineering, University of Colorado, Boulder, CO 80309, USA
+h i g h l i g h t s
+ 2:1 iron–manganese oxide for solar
+thermochemical energy storage.
+ DSC analysis under argon and air
+atmospheres.
+ Thermodynamic and kinetic studies
+of the thermal reduction of the
+material.
+ Shrinking core model coupled with
+non-linear regression for kinetic
+modelling.
+g r a p h i c a l a b s t r a c t
+a r t i c l e
+i n f o
+Article history:
+Received 21 September 2018
+Received in revised form 28 January 2019
+Accepted 9 February 2019
+Available online 26 February 2019
+Keywords:
+Thermochemical energy storage
+Iron-manganese oxide
+Redox reaction
+Reaction kinetic modelling
+Shrinking core model
+Non-linear regression
+a b s t r a c t
+Spherical 0.5–1 mm iron–manganese oxide with the Fe/Mn molar ratio of 2:1 (Fe67) was studied for ther-
+mochemical energy storage (TCES) system. Iron and manganese oxide are abundant, low-cost, and non-
+toxic; three ideal materials characteristics for TCES applications. Fe67 was reduced in both argon and air
+environments. A thermogravimetric analyser (TGA) and differential scanning calorimeter (DSC) were
+used to investigate reaction kinetics and the enthalpy of reduction. A shrinking core model ﬁt the non-
+isothermal kinetic data obtained from four heating rates. It is hypothesized that thermal reduction of
+Fe67 is controlled by oxygen internal diffusion for an inert atmosphere, while oxygen internal diffusion
+followed by oxygen external diffusion control the process in an air environment. A reduction reaction rate
+expression was derived and is useful for reactor design. This is the ﬁrst kinetics investigation for Fe67
+active redox material and its ﬁrst consideration for TCES applications.
+Crown Copyright  2019 Published by Elsevier Ltd. All rights reserved.
+1. Introduction
+The increased demand for electricity coupled with rising green-
+house gas emissions has prompted greater interest in renewable
+power. Concentrated solar power (CSP) incorporated with a ther-
+mal energy storage (TES) system has great potential to achieve
+the targeted objective of clean electricity generation. The integra-
+tion of TES systems extends the operation of a solar power plant
+and provides more versatility and dispatchable operation to the
+plant (Prieto et al., 2016; Powell and Edgar, 2012).
+Thermochemical energy storage (TCES) employs a reversible
+chemical reaction allowing reduced active materials to provide
+chemical energy when oxidized, as well as providing sensible heat.
+TCES systems are less developed and more complex compared to
+conventional TES systems. TCES has high operational ﬂexibility
+https://doi.org/10.1016/j.ces.2019.02.012
+0009-2509/Crown Copyright  2019 Published by Elsevier Ltd. All rights reserved.
+⇑Corresponding authors at: Research School of Engineering, The Australian
+National University, Acton, ACT 2401, Australia (A. W. Weimer). CSIRO Energy,
+Newcastle, NSW 2300, Australia (A. Bayon).
+Chemical Engineering Science 201 (2019) 74–81
+Contents lists available at ScienceDirect
+Chemical Engineering Science
+journal homepage: www.elsevier.com/locate/ces
+
+
+===== Page 2 =====
+
+with numerous reversible reactions available operating over a
+wide range of temperatures. Utilizing an active metal oxide that
+can be reduced and oxidized with air is particularly attractive for
+large-scale commercial solar thermal power plants since inert
+gas will not be needed and an open system approach can be used
+(Bayon et al., 2018). Air is used both as a heat transfer ﬂuid for
+the reduction and as a reactant for the oxidation, thus eliminating
+the expensive separation of oxygen from recycled inert gas that
+more
+conventional
+redox
+(reduction/oxidation)
+processing
+requires (Agraﬁotis et al., 2016).
+For thermochemical energy storage using a metal oxide redox
+material, concentrated sunlight can reduce the metal oxide which
+is then stored in a reduced form at high temperature:
+MxOyþzðsÞ þ Hr ! MxOyðsÞ þ z=2O2ðgÞ
+ð1Þ
+To discharge the stored energy off-sun, the reduced metal oxide
+is re-oxidized in air and heat is released,
+MxOyðsÞ þ z=2O2ðgÞ ! MxOyþzðsÞ þ Hr
+ð2Þ
+Drivers for selecting TCES materials are material cost, redox
+temperatures, storage feasibility, cycle robustness, and health
+and safety issues. Redox reactions should provide complete
+reversibility, fast reaction kinetics, high reaction enthalpy, and
+suitable reaction temperature and pressure (Prieto et al., 2016;
+Block and Schmücker, 2016). A number of metal oxide systems
+have been investigated including BaO2=BaO; (Agraﬁotis et al.,
+2016; Fahim and Ford, 1983; Carrillo et al., 2016a) Co3O4=CoO;
+(Agraﬁotis et al., 2014; Agraﬁotis et al., 2015a,b; Block et al.,
+2014; Pagkoura et al., 2014; Karagiannakis et al., 2016; Schrader
+et
+al.,
+2015;
+Karagiannakis
+et
+al.,
+2014)
+Mn2O3=Mn3O4;
+(Karagiannakis et al., 2014; Carrillo et al., 2014a,b; 2016c;
+Carrillo et al., 2015; Droege et al., 2015) Fe2O3=Fe3O4; (Block and
+Schmücker, 2016; Wong, 2011) CuO=Cu2O (Agraﬁotis et al.,
+2016; Alonso et al., 2015) and perovskite-based (Babiniec et al.,
+2016; Babiniec et al., 2015; Imponenti et al., 2016; Zhang et al.,
+2016) systems. However, none of these systems is ideal. For
+instance, manganese oxide (Mn2O3=Mn3O4) is an inexpensive
+material, reacts at 948 C and has a moderate reaction enthalpy
+of 184 J g1 (Carrillo et al., 2015) (under air atmosphere with total
+pressure of 1 bar), but its re-oxidation reaction is slow (Block and
+Schmücker, 2016). On the other hand, iron oxide (Fe2O3=Fe3O4)
+with a relatively high reaction enthalpy of 560 J g1 (Chase,
+1998) (under air atmosphere with total pressure of 1 bar) and fast
+reaction kinetics, has a considerably higher reduction temperature
+(1392 C) and deactivates due to sintering (Block and Schmücker,
+2016).
+Fe/Mn binary metal oxide systems have been proposed to
+improve on the performance of pure Fe and Mn metal oxides, pro-
+viding for more efﬁcient active redox materials. Block and
+Schmücker identiﬁed an iron–manganese oxide system as a high
+potential active material for thermochemical energy storage
+(Block and Schmücker, 2016). Furthermore, the effect of incorpora-
+tion of Fe into manganese oxide on the redox reaction has been
+explored by Carrillo et al. (Carrillo et al., 2015) Based on their ther-
+mal analysis, doping manganese oxide with 20% Fe had the most
+rapid oxidation reaction and highest enthalpy among the rest of
+the Fe/Mn ratios that they investigated. In another work, they pro-
+posed rate law models for reduction and oxidation reactions of that
+iron– manganese oxide system (Carrillo et al., 2016b). In 2017,
+Wokon et al. selected iron–manganese oxide with Fe/Mn ratio of
+1:3 as a suitable material for their thermochemical storage reactor
+(Wokon et al., 2017a,b). Recently, the effect of Fe addition to Mn-
+based oxide was studied by simultaneous thermogravimetric anal-
+ysis and calorimetry. The results showed that adding more than
+15% Fe increased the reversibility and cyclability of the mixture
+(André et al., 2017).
+The binary system of iron–manganese oxide with the molar
+ratio of Fe/Mn 2:1 (Fe67) forms the reactive and stable cubic spinel
+of MnFe2O4 upon reduction. Fe67 has been investigated for
+chemical-looping combustion (CLC) applications because of its
+capability to release considerable amounts of oxygen (Bayon
+et al., 2018; Rydén et al., 2014; Azimi et al., 2011). It has also been
+considered an active material in water splitting to produce hydro-
+gen (Go et al., 2008). However, Fe67 has not been investigated as a
+potential TCES material. The thermodynamic and kinetic analysis
+of this mixture as a potential TCES material is investigated ﬁrst
+in this work. For the iron–manganese oxide binary system, the
+thermodynamic
+phase
+diagrams
+indicate
+the
+presence
+of
+ðMn; FeÞ2O3 at low temperatures and ðMn; FeÞ3O4 at high tempera-
+tures. Therefore, the redox reaction of the proposed mixture stores
+and releases energy based on the following reaction.
+6(Mn0:33 + Fe0:67)2O3(s) + DHr $ 4(Mn0:33Fe0:67)3O4(s) + O2(g)
+ð3Þ
+where (Mn0.33Fe0.67)2O3 is the fully oxidized material and (Mn0.33-
+Fe0.67)3O4 is the fully reduced material which is the cubic spinel
+of MnFe2O4.
+First, equilibrium composition analysis is performed to investi-
+gate the effect of reaction conditions, such as temperature and par-
+tial pressure of oxygen, on the phase diagram of the Mn-Fe-O
+system. Second, the reduction reaction of Mn0.33Fe0.67 is studied
+under non-isothermal conditions using a thermogravimetric ana-
+lyzer (TGA). Both argon and air are used as the reducing gas envi-
+ronment. Finally, a shrinking core model is hypothesized for the
+thermal reduction of particles and non-linear regression is used
+to investigate the reaction kinetics. The model itself is of theoreti-
+cal interest as it allows for better understanding of the role of oxy-
+gen diffusion in iron–manganese oxide particles during the
+thermal reduction. The resulting reaction rate expression is useful
+for future use in reactor development.
+2. Experimental methods
+2.1. Material preparation
+Granular (Mn0.33Fe0.67)2O3 powder was synthesized by mixing
+Mn3O4 (US Research Nanomaterials) and Fe2O3 (Sigma Aldrich)
+powders (both < 30 lm particle diameter) with a Fe/Mn molar
+ratio of 2:1 (Fe67), together in an Eirich intensive mixer, using corn
+starch, for 1.5 min at a mixer rotor speed of 7.5 m s1 and a mixer
+pan speed of 30 Hz. Subsequently, 50 wt% maltodextrin solution
+organic binder was added at the same mixer rotation settings,
+and the contents were allowed to mix for 1 additional minute after
+liquid addition was complete. Following liquid addition and mix-
+ing, the mixer rotor speed was increased to 25 m s1 and held for
+1 min, facilitating the granulation of the particles. Particles were
+then recovered from the mixer and dried over a kiln vent for
+24 h. After drying, the particles were calcined in air in a clamshell
+furnace at 850 C for 12 h to burn away organic binders. After cal-
+cination, particles were sieved to gain a cut of 0.5–1 mm. The pre-
+pared particles as well as a scanning electron micrograph (SEM)
+showing the shape and size of a single particle are shown in Fig. 1.
+2.2. Material characterization
+The particles were characterized in both oxidized and reduced
+forms. Powder X-ray diffraction (XRD) characterization employed
+a Bruker system (XRD, D2 Phaser diffractometer) using CuKa radi-
+ation k ¼ 1:54178 _A at a scanning rate of 0.2 s1. The elemental
+M. Hamidi et al. / Chemical Engineering Science 201 (2019) 74–81
+75
+
+
+===== Page 3 =====
+
+analysis used a Varian Vista Pro Axial ICP-AES (Inductively-
+Coupled Plasma Atomic Emission Spectrometer) to investigate
+the ratio of Fe and Mn in the granules. The speciﬁc surface area
+was determined by nitrogen absorption-desorption analysis at
+196 C using the multi-point Brunauer–Emmett–Teller (BET)
+method with a surface and porosity analyzer (TriStar II 3020,
+Micromeritics). Samples were degassed at 350 C under vacuum
+for 4 h before the measurement. The total pore volume was esti-
+mated using the t-plot method. Scanning electron microscopy
+(SEM) was conducted using an FEI Quanta microscope with sec-
+ondary electron imaging operating at 5 kV accelerating voltage.
+To obtain the reduced form of the mixed metal oxide, particles
+were reduced in a tube furnace at 1200 C for 8 h under a nitrogen
+atmosphere (BOC, 99.5%). Then, the reduced particles were oxi-
+dized in a box furnace under atmospheric conditions for 8 h at
+750 C to obtain the fully oxidized form of the particles. Both the
+reduced and oxidized particles were ground into powder using
+mortar and pestle before XRD analysis.
+The cyclability of the Fe67 was demonstrated (Fig. S1) with 10
+redox cycles using an air atmosphere. It can be observed that the
+synthesized Fe67 particles are robust and can reversibly cycle
+between reduction and oxidation.
+2.3. Experimental procedure
+The thermal reduction of (Mn0.33Fe0.67)2O3 was studied by
+thermogravimetric
+analysis
+(TGA)
+using
+a
+SETSYS
+Evolution
+1750
+(Setaram)
+machine.
+In
+each
+experiment,
+30 mg
+of
+(Mn0.33Fe0.67)2O3 with the particle size of 0.5–1 mm was placed
+in a 90 lL alumina crucible.
+The TGA samples were ﬁrst heated to 150 C and held for
+30 min to remove any moisture. Then, the sample was heated to
+1350 C at different heating rates of 2.5, 5, 10, and 20 C min1 fol-
+lowed by an isothermal period of 10 min. The samples were
+reduced under ultra-high purity Argon (BOC, 99.999%) and then
+oxidized with synthetic air (BOC, industrial grade). A gas ﬂowrate
+of 100 ml min1 was maintained. Blanks were run for each gas ﬂow
+and heating rate and used as a baseline to mitigate the effects of
+buoyancy and momentum due to changing temperatures.
+Furthermore, differential scanning calorimetry (DSC) was done
+under similar conditions using an equivalent amount of the Fe67
+material as for TGA analysis. CALISTO processing software was
+used to analyse the DSC signal. The reaction enthalpy was deter-
+mined for the reduction reactions under both argon and air
+atmospheres.
+3. Results and discussion
+3.1. Equilibrium composition
+FactSage (Bale et al., 2002) thermochemical software was used
+to identify the effects of temperature and partial pressure of oxy-
+gen on the equilibrium composition of the mixed metal oxide.
+The FactPs and FTmisc databases were used, along with the FToxid
+database for oxides and solid solutions. Fig. 2 shows the calculated
+phase diagram for the Mn-Fe-O system under inert and air atmo-
+spheres. The total pressure is 1 atm for both cases. Four solid
+phases are considered in this system; cubic spinel (Fe,Mn)3O4,
+tetragonal spinel (Mn,Fe)3O4, corundum (Fe,Mn)2O3 and bixbyite
+(Mn,Fe)2O3. The slag (molten oxide) phases were included in calcu-
+lations but are not discussed here since they appear at tempera-
+tures much higher than our operational temperatures. As can be
+seen, the behaviour of the mixed oxide strongly depends on the
+system composition. The ratio of Fe/Mn in the proposed mixture
+is 2–1 (Fe67), therefore Mn/(Mn + Fe) is equal to 0.33. The vertical
+dashed lines on the ﬁgures identify this ratio.
+In the proposed mixture, bixbyite and corundum phases are
+favoured at lower temperatures for both inert and air atmospheres.
+Upon increasing the temperature, the bixbyite phase (Mn3+,
+Fe3+)2O3 that has a higher amount of Mn compared to the corun-
+dum
+phase,
+becomes
+a
+spinel
+solution
+(Mn2+,
+Fe2+)
+(Mn3+,
+Fig. 1. Prepared iron–manganese oxide particles with the diameter size between
+0.5 and 1 mm.
+Fig. 2. Mn-Fe-O phase diagram in (a) inert and (b) air atmosphere at 1 atm.
+76
+M. Hamidi et al. / Chemical Engineering Science 201 (2019) 74–81
+
+
+===== Page 4 =====
+
+Fe3+)3O4. Further increasing the temperature, the corundum phase
+(Fe3+, Mn3+)2O3 (Fe2O3 dissolving Mn3+) also becomes a spinel solu-
+tion. The reason that the bixbyite phase reduces to the spinel
+before the corundum phase is due to the manganese oxide having
+a lower reduction temperature than that of iron oxide. The transi-
+tion temperatures differ for different atmospheres. Under the inert
+atmosphere, bixbyite and corundum become spinel at 800 C and
+950 C,
+respectively.
+The
+ﬁrst
+phase
+transition
+occurs
+at
+1000 C and the second one completes at 1140 C for the air
+atmosphere.
+3.2. Experimental results
+XRD results
+The crystalline phase composition of the material when reduced
+and oxidized is presented in Fig. 3. The XRD patterns show a bix-
+byite phase (cubic Mn2O3; PDF#41-1442) for the oxidized sample,
+and a spinel jacobsite phase (cubic MnFe2O4; PDF#74-2403) for the
+reduced sample. It should be mentioned that the differentiation
+between the bixbyite Mn2O3 and bixbyite (Fe,Mn)2O3 structures
+is not possible based only on XRD because of the very close atomic
+size of Mn and Fe. Therefore, Inductively Coupled Plasma Atomic
+Emission Spectroscopy (ICP-AES) conﬁrmed the presence of Fe in
+the oxidized form of the sample. The ICP-AES analysis revealed
+the presence of Mn and Fe elements at atomic ratio of Fe:Mn
+1.99:1, verifying the target molar ratio of 2:1 (Fe67). Based on
+the Fe-Mn-O phase diagram, the oxidized form of the material
+should also have a corundum phase. This phase is not seen in the
+XRD results. It is likely that rapid cooling of the sample after the
+oxidation reaction led to a non-equilibrium state at the low
+temperature.
+Reduction reaction (TGA results)
+The non-isothermal experimental mass change curves at four
+different heating rates obtained from TGA measurements are
+shown in Fig. 4 for both argon and air atmospheres. According to
+the stoichiometry of reaction (3), theoretical mass loss for com-
+plete conversion of (Mn0.33Fe0.67)2O3 to (Mn0.33Fe0.67)3O4 is 3.35%.
+Based on the experimental data, all samples under the four heating
+rates and two atmospheres (argon and air) reached complete
+conversion.
+The reduction reaction starts at 800 C in argon and 1000 C
+in air, in agreement with the thermodynamic phase diagrams
+found in Fig. 2. The reaction temperature is higher in air due to
+the higher partial pressure of oxygen in the atmosphere, and the
+reaction proceeds faster in the air atmosphere than in argon
+because of the higher reaction temperature. This effect of partial
+pressure of oxygen on the reaction temperature and reaction rate
+has been seen before in a prior work (Wokon et al., 2017a). The
+onset temperature of reaction clearly increases with the heating
+rate for the argon case as well as the air case but is less prominent
+in the latter. The thermal reduction of the active redox particles
+seems to occur in a single step in an argon atmosphere while a
+two-step mechanism is apparent in an air atmosphere. The two-
+step reduction reaction has not been observed for other mixtures
+of iron–manganese (Carrillo et al., 2016b; Wokon et al., 2017a).
+These mechanisms will be further explored in a later section.
+Reaction enthalpy (DSC results)
+The heat storage during the reduction reaction in argon and air
+was measured using DSC. Results are shown in Fig. 5. As expected,
+the heat ﬂow curves show endothermic peaks during the heating
+for both reactions.
+For the reduction reaction in argon, the onset of endothermic
+reaction in the DSC curve is at 840 C which corresponds to the
+start of reaction, i.e. mass loss. This temperature is slightly higher
+than the reaction temperature from the equilibrium phase diagram
+(Fig. 2a). The reason for this difference is the high heating rate used
+in this experiment (10 C min1). High heating rates lead to delay
+in the reaction, as the 0.5 to 1 mm particles need more time to
+reach the setpoint temperature. The offset of endothermic reaction
+in the DSC curve is where the mass change stops.
+Two separate endothermic peaks can be seen for the reduction
+in air. The onset of the second endothermic reduction reaction in
+the DSC signal is recorded at 1120 C, and that is where the trend
+of the TG signal starts to vary. The reaction at temperatures higher
+than 1120 C is slow compared to the initial lower temperature
+reduction, and the enthalpy associated with this region of reduc-
+tion is also relatively small. Therefore, it is recommended to oper-
+ate
+below
+1120 C
+for
+the
+reduction
+reaction
+in
+air
+for
+thermochemical energy storage.
+By integrating the DSC peaks over time, it is possible to calcu-
+late the stored particle energy. The area below the endothermic
+peaks is determined by tangential-sigmoidal integration. The cal-
+culated reduction enthalpy for the particles is 200.0 ± 8.3 J g1
+and 199.6 ± 14.2 J g1 for the reactions under argon and air atmo-
+spheres, respectively. Note that DSC measurements were carried
+out in open crucibles which may lead to some heat losses due to
+the open system. The calculated reduction enthalpy is slightly
+higher than the reported enthalpy of pure manganese oxide
+(184 J g1) (Carrillo et al., 2015) and lower than the reduction reac-
+Fig. 3. X-ray diffraction patterns of the iron–manganese oxide in the oxidized and
+reduced forms.
+Fig. 4. Experimental TGA curves of the thermal reduction of (Mn0.33Fe0.67)2O3 at
+different heating rates in argon and air.
+M. Hamidi et al. / Chemical Engineering Science 201 (2019) 74–81
+77
+
+
+===== Page 5 =====
+
+tion enthalpy of pure iron oxide (560 J g1) (Chase, 1998). The
+determined enthalpy values are also in agreement with the
+reported enthalpy values for iron–manganese oxide mixtures in
+recent papers. For instance, Andre et al. showed an average
+enthalpy of 187.7 J g1 for mixtures with 20–50% iron in man-
+ganese oxide (André et al., 2017).
+3.3. Kinetic modelling
+Thermogravimetric analysis (TGA) is the most extensively used
+technique for identifying potential reaction mechanisms and
+obtaining the reaction rate for solid-state reactions. For a gravimet-
+ric measurement, conversion (also called extent of reaction) is
+deﬁned by,
+a ¼ mi  mt
+mi  mf
+ð4Þ
+where mi, mt, and mf are initial sample mass, sample mass at time t,
+and sample mass at the completion of the reaction, respectively.
+For gas-solid reactions, the reaction rate can generally be
+expressed by (Vyazovkin et al., 2011).
+da
+dt ¼ fðaÞkðTÞhðPÞ
+ð5Þ
+where t is time, T is temperature and a is conversion. The above
+mentioned reaction rate is assumed to be the product of three func-
+tions: the kinetic rate constant kðTÞ which depends only on temper-
+ature, the reaction model fðaÞ which depends only on conversion,
+and the pressure dependence hðPÞ (Vyazovkin et al., 2011). We con-
+sider the Arrhenius equation as the kinetic constant in this work,
+k T
+ð Þ ¼ Aexp  E
+RT
+
+
+ð6Þ
+where A is the pre-exponential factor (also called frequency factor),
+E is the activation energy, and R is the universal gas constant. The
+pre-exponential factor and activation energy are usually called
+Arrhenius parameters (Zhu et al., 2018). Although the pressure term
+is usually neglected in kinetics studies, it can have a strong effect on
+the kinetic process. This term can adopt different mathematical
+expressions. For reversible solid-gas reactions, it is usually pre-
+sented by partial pressure of the reaction gas and the corresponding
+pressure of the gas at thermodynamic equilibrium (Vyazovkin et al.,
+2011). The pressure dependence term considered in this work is,
+hðPÞ ¼
+1  Po2
+Po2;eq
+
+m
+ð7Þ
+m is the order of pressure dependence which adjusts a suitable
+pressure term with the experimental data. The correlation between
+oxygen partial pressure (PO2) and oxygen partial pressure at equilib-
+rium (PO2;eq) has been calculated by means of the FactSage thermo-
+chemical software
+ln PO2;eq
+Pt
+
+
+¼ 34:54 1000
+T
+þ 26:27
+ð8Þ
+where Pt is the total pressure and T is temperature in Kelvin.
+Replacing equations and into equation gives,
+da
+dt ¼ Aexp  E
+RT
+
+
+f a
+ð Þ 1  Po2
+Po2;eq
+
+m
+ð9Þ
+To describe the reaction progress, the reaction mechanism, the
+Arrhenius parameters and the order of pressure dependence need
+to be determined. The experimentally calculated Arrhenius param-
+eters calculated here are not necessarily the intrinsic reaction
+parameters. Therefore, we term the parameters calculated in this
+section as ‘‘effective” or ‘‘apparent”.
+Solid state reactions in particle systems can follow a volumetric
+or a shrinking core model. A volumetric model is used when the
+intrinsic reaction rate is relatively slow compared to the internal
+mass diffusion. For solid reactants that are nonporous or have a
+low porosity, the diffusion rate can be slower than the intrinsic
+reaction rate. In that case, the shrinking core model is often used
+(Amiri et al., 2015). When the overall size of the particles remains
+constant during the reaction and just the size of the unreacted core
+decreases, the shrinking core model is also called unreacted shrink-
+ing core model (Levenspiel, 1999; Khawam and Flanagan, 2006).
+The synthesized iron–manganese particles have a low BET sur-
+face area (0.3880 m2 g1) and a low pore volume (0.001 cm3 g1),
+suggesting a very low porosity (less than 0.1%). Therefore, the
+shrinking core model is used to describe the reaction of these
+spherical 0.5–1 mm particles. Considering this model (Levenspiel,
+1999), thermal reduction of iron–manganese oxide particles occurs
+via three steps (processes) as there is no gaseous reactant involved
+in the reaction (Amiri et al., 2015). First, the chemical reaction
+occurs on the surface of the unreacted core in the particle. During
+this step, (Mn0.33Fe0.67)2O3 converts to (Mn0.33Fe0.67)3O4 and oxy-
+gen is produced. Then, the produced oxygen diffuses through the
+reacted zone of particle and reaches the surface. After that, the
+oxygen molecules on the particle surface diffuse through the gas-
+eous layer surrounding the particle. Depending on the characteris-
+tics of particles and the reaction conditions, one of these steps is
+the slowest and controls the rate of the reaction process.
+To investigate which one of these three mechanisms (chemical
+reaction, internal diffusion, and external diffusion) is the control-
+ling step for the reaction, each mechanism was ﬁtted to the exper-
+imental data separately. By using this technique, not only are we
+able to verify the best ﬁt, but it also enables us to obtain a unique
+set of Arrhenius parameters corresponding to each mechanism.
+Non-linear regression has been employed here as the ﬁtting tool
+Fig. 5. DSC and TGA curves for iron–manganese oxide reduction reaction under
+heating rate of 10 C min1 in (a) argon and (b) air.
+78
+M. Hamidi et al. / Chemical Engineering Science 201 (2019) 74–81
+
+
+===== Page 6 =====
+
+to determine the model parameters. The residual sum of squares, S,
+is used as the objective function,
+S ¼
+X
+n
+i¼1
+ðyi  ^yiÞ
+2 ¼ min
+ð10Þ
+where n is the number of data points, yi is an experimental data
+point, and ^yi is a predictor data point.
+The ﬁtting is done for conversions between 0.05 < < 0.95 for
+argon and air atmospheres. The ﬁtting results show that 3D inter-
+nal diffusion (Jander diffusion) (Khawam and Flanagan, 2006) pre-
+dicts the reaction in an argon atmosphere better than chemical
+reaction and external diffusion mechanisms. For the reaction in
+air, the internal diffusion ﬁts best up to 70–80% conversion
+(depending on the heating rate). The effective reaction rate for
+the reduction of (Mn0.33Fe0.67)2O3 along with the calculated E, A
+and m parameters is
+Equation is valid for the reaction in argon between conversions
+0.05 < a < 0.95 and reaction in air in the conversion range of
+0.05 < a < 0.8. Partial pressure of oxygen is considered to be zero
+and 21 kPa for argon and air atmospheres, respectively. The effect
+of partial pressure of the produced oxygen is neglected in this
+work. For the reduction reaction in air at higher conversions
+(0.8 < a < 0.95), our modelling results showed that external diffu-
+sion is the rate limiting mechanism.
+The predicted conversion values versus the experimental data
+for thermal reduction of iron–manganese oxide (Fe67) under argon
+atmosphere are shown in Fig. 6. The small deviation of the pre-
+dicted values from the experimental data can be explained by
+the fact that chemical reaction and external diffusion are also
+occurring during the process.
+The model prediction for the reduction reaction in air is shown
+in Fig. 7. Similar to the reaction in argon, the small deviation from
+the experimental data in the ﬁrst part of the reaction might be due
+to the chemical reaction and external diffusion occurring simulta-
+neously with the internal diffusion. For the second part of the reac-
+tion where the external diffusion ﬁts the best amongst the other
+steps, the process is not affected by the heating rate. For that rea-
+son, the model is independent of the heating rate and shows one
+single curve for different heating rates. Further explanation of
+the physics of the external diffusion will be discussed later.
+Based on the shrinking core model considered for the thermal
+reduction of spherical 0.5 to 1 mm diameter iron–manganese oxide
+(Fe67) particles and the results from the model ﬁtting, we propose
+the following reaction mechanism:
+For the reduction reaction in an argon atmosphere, the internal
+diffusion of oxygen through the reacted zone of the particle is the
+controlling step for the entire reaction (Jander diffusion). In air,
+however, the oxygen internal diffusion controls the process up to
+70–80% conversion. Subsequently, external diffusion becomes the
+controlling step of the reaction and the reaction rate becomes
+slower. High partial pressure of oxygen in the gaseous layer around
+the particles is most likely the reason of this change in reaction
+behaviour. From the modelling results, we can suggest that, at
+the start of the reaction, the difference between the concentration
+of oxygen on the surface of the particles and in the gaseous layer is
+high, which means the driving force for external diffusion is high.
+Therefore, the external diffusion is fast compared to other steps.
+As the reaction proceeds, more and more oxygen is produced. This
+oxygen diffuses through the reacted zone of the particle, reaches
+the surface and diffuses through the gaseous layer. The concentra-
+tion of oxygen in the gaseous layer becomes high at higher conver-
+sions while the concentration of oxygen on the particle surface
+remains constant, thereby reducing the transport of oxygen out
+of the particle and limiting the reaction.
+Comparing the results of our kinetic modelling with the reac-
+tion kinetics reported in literature for other mixtures of iron–man-
+ganese oxide is not an easy task. The reason is that the material
+properties such as morphology, particle size and surface area affect
+the reaction behaviour of these materials (Carrillo et al., 2014;
+André et al., 2017). Different synthesis methods also affect the
+reaction kinetics since they lead to variation in the obtained phys-
+ical properties of the material. For instance, Wokon et al. (Wokon
+et al., 2017a) investigated the redox reaction of manganese–iron
+da
+dT ¼ ð8:85  0:00Þ1015
+b
+exp  426:13  0:04
+RT
+
+
+3 1  a
+ð
+Þ2=3
+2 1  1  a
+ð
+Þ1=3
+h
+i
+1  PO2
+PO2;eq
+
+25:01
+ð11Þ
+Fig. 6. Modelling result for the reduction reaction in argon.
+Fig. 7. Modelling result for the reduction reaction in air.
+M. Hamidi et al. / Chemical Engineering Science 201 (2019) 74–81
+79
+
+
+===== Page 7 =====
+
+oxide particles with Fe/Mn molar ratio of 1:3, prepared using a
+build-up granulation technique. They chose an empirical kinetic
+model of Avrami–Erofeev for the reduction reaction of their parti-
+cles. In another work, Botas et al. (Botas et al., 2012) investigated
+the kinetics of the reduction reaction of commercial pure man-
+ganese oxide. They stated that the reduction reaction can be ﬁrst
+order or follow a contraction mechanism. The reaction models sug-
+gested in other studies for thermal reduction of iron–manganese
+oxide mixtures have also been tested here with our experimental
+TG data. Previous reaction models were less accurate than the cur-
+rent shrinking core model presented here (see Table S1).
+Previous studies have found that the activation energy for the
+reduction reaction of iron–manganese oxide systems increases
+with iron content (254.14 kJ mol1 for a mixture with 0% iron
+(Botas et al., 2012) and 355.72 kJ mol1 for a mixture with 25% iron
+(Wokon et al., 2017a). The activation energy calculated here is
+426.13 kJ mol1 for the mixture with 67 mol% iron (Fe67), which
+agrees with this trend.
+4. Conclusion
+Large spherical iron–manganese oxide (Fe67) with the particle
+size of 0.5–1 mm was investigated for solar thermochemical
+energy storage. The particles were prepared from inexpensive
+and non-toxic iron oxide and manganese oxide using the intensive
+mixing technique. The results from thermal analysis showed that
+the reduction reaction of this material is complete under both inert
+and air atmospheres with the reaction enthalpy of 200 J g1,
+which is higher than the reaction enthalpy of pure manganese
+oxide. A three-step shrinking core model was used to study effec-
+tive kinetics of this reduction reaction. Our modelling results show
+that the oxygen internal diffusion is the controlling step of the
+reaction in an argon atmosphere. In air, internal diffusion controls
+the reaction only up to 80% conversion. After that, the reaction rate
+is controlled by the external diffusion of oxygen in the gas ﬁlm sur-
+rounding the particle.
+Conﬂict of interest
+The author declares that there is no conﬂict of interest.
+Acknowledgement
+The authors gratefully acknowledge the Australian Renewable
+Energy Agency (ARENA) for sponsoring this research. The work
+was supported via Grant 2014/RND005. This work was a collabora-
+tion between the Australian National University, the University of
+Colorado Boulder and the Commonwealth Scientiﬁc and Industrial
+Research Organisation (CSIRO). The authors would like to thank
+Prof. Wojciech Lipinski for the use of his laboratories. The authors
+also thank Dr. John Pye and Dr. Charles-Alexis Asselineau for their
+valuable advice, Dr. Xiang Gao for BET surface area measurement
+and Linda McMorrow for ICP analysis. The authors acknowledge
+the facilities, and the scientiﬁc and technical assistance of the Aus-
+tralian Microscopy & Microanalysis Research Facility at the Centre
+of Advanced Microscopy, the Australian National University.
+Appendix A. Supplementary material
+Supplementary data to this article can be found online at
+https://doi.org/10.1016/j.ces.2019.02.012.
+References
+Agraﬁotis,
+C.,
+Roeb,
+M.,
+Schmücker,
+M.,
+Sattler,
+C.,
+2014.
+Exploitation
+of
+thermochemical
+cycles
+based
+on
+solid
+oxide
+redox
+systems
+for
+thermochemical storage of solar heat. Part 1: testing of cobalt oxide-based
+powders. Sol. Energy 102, 189–211.
+Agraﬁotis, C., Tescari, S., Roeb, M., Schmücker, M., Sattler, C., 2015a. Exploitation of
+thermochemical cycles based on solid oxide redox systems for thermochemical
+storage of solar heat. Part 3: cobalt oxide monolithic porous structures as
+integrated thermochemical reactors/heat exchangers. Sol. Energy 114, 459–475.
+Agraﬁotis,
+C.,
+Roeb,
+M.,
+Schmücker,
+M.,
+Sattler,
+C.,
+2015b.
+Exploitation
+of
+thermochemical
+cycles
+based
+on
+solid
+oxide
+redox
+systems
+for
+thermochemical storage of solar heat. Part 2: redox oxide-coated porous
+ceramic structures as integrated thermochemical reactors/heat exchangers. Sol.
+Energy 114, 440–458.
+Agraﬁotis, C., Roeb, M., Sattler, C., 2016. Exploitation of thermochemical cycles
+based on solid oxide redox systems for thermochemical storage of solar heat.
+Part 4: screening of oxides for use in cascaded thermochemical storage
+concepts. Sol. Energy 139, 695–710.
+Alonso, E., Pérez-Rábago, C., Licurgo, J., Fuentealba, E., Estrada, C.A., 2015. First
+experimental
+studies
+of
+solar
+redox
+reactions
+of
+copper
+oxides
+for
+thermochemical energy storage. Sol. Energy 115, 297–305.
+Amiri, A., Ingram, G.D., Maynard, N.E., Livk, I., Bekker, A.V., 2015. An unreacted
+shrinking core model for calcination and similar solid-to-gas reactions. Chem.
+Eng. Commun. 202 (9), 1161–1175.
+André, L., Abanades, S., Cassayre, L., 2017. High-temperature thermochemical
+energy storage based on redox reactions using Co-Fe and Mn-Fe mixed metal
+oxides. J. Solid State Chem. 253, 6–14.
+Azimi, G., Leion, H., Mattisson, T., Lyngfelt, A., 2011. Chemical-looping with oxygen
+uncoupling using combined Mn-Fe oxides, testing in batch ﬂuidized bed. Energy
+Proc. 4, 370–377.
+Babiniec, S.M., Coker, E.N., Miller, J.E., Ambrosini, A., 2015. Investigation of
+LaxSr1xCoyM1yO3d (M = Mn, Fe) perovskite materials as thermochemical
+energy storage media. Sol. Energy 118, 451–459.
+Babiniec, S.M., Coker, E.N., Miller, J.E., Ambrosini, A., 2016. Doped calcium
+manganites for advanced high-temperature thermochemical energy storage.
+Int. J. Energy Res. 40 (2), 280–284.
+Bale, C.W., Chartrand, P., Degterov, S.A., Eriksson, G., Hack, K., Ben Mahfoud, R.,
+Melançon, J., Pelton, A.D., Petersen, S., 2002. FactSage thermochemical software
+and databases. Calphad 26 (2), 189–228.
+Bayon, A., Bader, R., Jafarian, M., Fedunik-Hofman, L., Sun, Y., Hinkley, J., Miller, S.,
+Lipin´ ski, W., 2018. Techno-economic assessment of solid–gas thermochemical
+energy storage systems for solar thermal power applications. Energy 149, 473–
+484.
+Block, T., Knoblauch, N., Schmücker, M., 2014. The cobalt-oxide/iron-oxide binary
+system for use as high temperature thermochemical energy storage material.
+Thermochim Acta 577, 25–32.
+Block, T., Schmücker, M., 2016. Metal oxides for thermochemical energy storage: a
+comparison of several metal oxide systems. Sol. Energy 126, 195–207.
+Botas, J.A., Marugán, J., Molina, R., Herradón, C., 2012. Kinetic modelling of the ﬁrst
+step of Mn2O3/MnO thermochemical cycle for solar hydrogen production. Int. J.
+Hydr. Energy 37 (24), 18661–18671.
+Carrillo, A.J., Moya, J., Bayón, A., Jana, P., de la Peña O’Shea, V.A., Romero, M., Gonzalez-
+Aguilar, J., Serrano, D.P., Pizarro, P., Coronado, J.M., 2014a. Thermochemical
+energy storage at high temperature via redox cycles of Mn and Co oxides: pure
+oxides versus mixed ones. Sol. Energy Mater. Sol. Cells 123, 47–57.
+Carrillo, A.J., Serrano, D.P., Pizarro, P., Coronado, J.M., 2014b. Thermochemical heat
+storage based on the Mn2O3/Mn3O4 redox couple: inﬂuence of the initial
+particle size on the morphological evolution and cyclability. J. Mater. Chem. A 2
+(45), 19435–19443.
+Carrillo, A.J., Serrano, D.P., Pizarro, P., Coronado, J.M., 2015. Improving the
+thermochemical energy storage performance of the Mn2O3/Mn3O4 redox
+couple by the incorporation of iron. ChemSusChem 8 (11), 1947–1954.
+Carrillo, A.J., Sastre, D., Serrano, D.P., Pizarro, P., Coronado, J.M., 2016a. Revisiting the
+BaO2/BaO redox cycle for solar thermochemical energy storage. PCCP 18 (11),
+8039–8048.
+Carrillo, A.J., Serrano, D.P., Pizarro, P., Coronado, J.M., 2016b. Understanding redox
+kinetics of iron-doped manganese oxides for high temperature thermochemical
+energy storage. J. Phys. Chem. C 120 (49), 27800–27812.
+Carrillo, A.J., Serrano, D.P., Pizarro, P., Coronado, J.M., 2016c. Manganese oxide-based
+thermochemical energy storage: Modulating temperatures of redox cycles by
+Fe–Cu co-doping. J. Storage Mater. 5, 169–176.
+M.W. Chase, 1998, NIST-JANAF thermochemical tables, 4th ed.
+Droege, P., Carrillo, A.J., Serrano, D.P., Pizarro, P., Coronado, J.M., 2015. 9th
+international
+renewable
+energy
+storage
+conference,
+IRES
+2015Thermochemical heat storage at high temperatures using Mn2O3/Mn3O4
+System: narrowing the redox hysteresis by metal Co-doping. Energy Proc. 73,
+263–271.
+Fahim, M.A., Ford, J.D., 1983. Energy storage using the BaO2 BaO reaction cycle.
+Chem. Eng. J. 27 (1), 21–28.
+Go, K.S., Son, S.R., Kim, S.D., 2008. Reaction kinetics of reduction and oxidation of
+metal oxides for hydrogen production. Int. J. Hydr. Energy 33 (21), 5986–5995.
+Imponenti,
+L.,
+Albrecht,
+K.J.,
+Braun,
+R.J.,
+Jackson,
+G.S.,
+2016.
+Measuring
+thermochemical energy storage capacity with redox cycles of doped-CaMnO3.
+ECS Trans. 2016, 11–22.
+Karagiannakis, G., Pagkoura, C., Zygogianni, A., Lorentzou, S., Konstandopoulos, A.G.,
+2014. Monolithic ceramic redox materials for thermochemical heat storage
+applications in CSP plants. Energy Proc. 49, 820–829.
+Karagiannakis, G., Pagkoura, C., Halevas, E., Baltzopoulou, P., Konstandopoulos, A.G.,
+2016. Cobalt/cobaltous oxide based honeycombs for thermochemical heat
+80
+M. Hamidi et al. / Chemical Engineering Science 201 (2019) 74–81
+
+
+===== Page 8 =====
+
+storage
+in
+future
+concentrated
+solar
+power
+installations:
+multi-cyclic
+assessment and semi-quantitative heat effects estimations. Sol. Energy 133,
+394–407.
+Khawam,
+A.,
+Flanagan,
+D.R.,
+2006.
+Solid-state
+kinetic
+models:
+basics
+and
+mathematical fundamentals. J. Phys. Chem. B 110 (35), 17315–17328.
+Levenspiel, O., 1999. Chemical Reaction Engineering. Wiley, New York.
+Pagkoura, C., Karagiannakis, G., Zygogianni, A., Lorentzou, S., Kostoglou, M.,
+Konstandopoulos, A.G., Rattenburry, M., Woodhead, J.W., 2014. Cobalt oxide
+based structured bodies as redox thermochemical heat storage medium for
+future CSP plants. Sol. Energy 108, 146–163.
+Powell, K.M., Edgar, T.F., 2012. Modeling and control of a solar thermal power plant
+with thermal energy storage. Chem. Eng. Sci. 71, 138–145.
+Prieto, C., Cooper, P., Fernández, A.I., Cabeza, L.F., 2016. Review of technology:
+thermochemical energy storage for concentrated solar power plants. Renew.
+Sustain. Energy Rev. 60, 909–929.
+Rydén, M., Leion, H., Mattisson, T., Lyngfelt, A., 2014. Combined oxides as oxygen-
+carrier material for chemical-looping with oxygen uncoupling. Appl. Energy
+113, 1924–1932.
+Schrader, A.J., Muroyama, A.P., Loutzenhiser, P.G., 2015. Solar electricity via an Air
+Brayton cycle with an integrated two-step thermochemical cycle for heat
+storage based on Co3O4/CoO redox reactions: thermodynamic analysis. Sol.
+Energy 118, 485–495.
+Vyazovkin, S., Burnham, A.K., Criado, J.M., Pérez-Maqueda, L.A., Popescu, C.,
+Sbirrazzuoli,
+N.,
+2011.
+ICTAC
+Kinetics
+Committee
+recommendations
+for
+performing kinetic computations on thermal analysis data. Thermochim Acta
+520 (1–2), 1–19.
+Wokon, M., Block, T., Nicolai, S., Linder, M., Schmücker, M., 2017a. Thermodynamic
+and kinetic investigation of a technical grade manganese-iron binary oxide for
+thermochemical energy storage. Sol. Energy 153, 471–485.
+Wokon, M., Kohzer, A., Linder, M., 2017b. Investigations on thermochemical energy
+storage based on technical grade manganese-iron oxide in a lab-scale packed
+bed reactor. Sol. Energy 153, 200–214.
+Wong, B., 2011. Thermochemical heat storage for concentrated solar power. Final
+Report for the US Department of Energy, San Diego, CA, USA.
+Zhang, Z., Andre, L., Abanades, S., 2016. Experimental assessment of oxygen
+exchange capacity and thermochemical redox cycle behavior of Ba and Sr series
+perovskites for solar energy storage. Sol. Energy 134, 494–502.
+Zhu, Y., Al-ebbinni, N., Henney, R., Yi, C., Barat, R., 2018. Extension to multiple
+temperatures
+of
+a
+three-reaction
+global
+kinetic
+model
+for
+methane
+dehydroaromatization. Chem. Eng. Sci. 177, 132–138.
+M. Hamidi et al. / Chemical Engineering Science 201 (2019) 74–81
+81

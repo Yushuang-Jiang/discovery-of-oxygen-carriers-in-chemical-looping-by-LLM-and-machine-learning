@@ -1,0 +1,632 @@
+
+
+===== Page 1 =====
+
+& Energy Conversion |Hot Paper|
+Ln0.5A0.5MnO3 (Ln=Lanthanide, A= Ca, Sr) Perovskites Exhibiting
+Remarkable Performance in the Thermochemical Generation of
+CO and H2 from CO2 and H2O
+Sunita Dey, B. S. Naidu, and C. N. R. Rao*[a]
+Abstract: Perovskite oxides of the Ln0.5A0.5MnO3 (Ln=lan-
+thanide, A=Sr, Ca) family have been investigated for the
+thermochemical splitting of H2O and CO2 to produce H2
+and CO respectively. The amounts of O2 and CO produced
+strongly depend on the size of the rare earth ions and al-
+kaline earth ions. The manganite with the smallest rare
+earth possessing the highest distortion and size disorder
+as well as the smallest tolerance factor, gives out the max-
+imum amount of O2, and, hence, the maximum amount of
+CO. Thus, the best results are found with Y0.5Sr0.5MnO3,
+which possesses the highest distortion and size disorder.
+Y0.5Sr0.5MnO3 shows remarkable fuel production activity
+even at the reduction and oxidation temperatures as low
+as 12008C and 9008C, respectively.
+The solar thermal method of splitting H2O and CO2 to generate
+H2 and CO provides an important alternative route to generate
+H2 and CO, which are of great relevance to our energy and en-
+vironmental needs. The two-step thermochemical treatment to
+split H2O and CO2 by using oxide materials has been of interest
+in this context.[1,2] The basic reactions involved in the thermo-
+chemical splitting of CO2 and H2O are the following endother-
+mal (reduction) and exothermal (oxidation) reactions of the
+oxide.
+Endothermal step : MOn ! MOn¢d þ d
+2 O2
+ð1Þ
+Exothermal step : MOn¢d þ dCO2 ! MOn þ dCO
+MOn¢d þ dH2O ! MOn þ dH2
+ð2Þ
+Oxides that readily lose oxygen on heating (reduction) and
+get reoxidized reversibly on reaction with H2O and CO2 (oxida-
+tion) are ideally suited for such a process.[3] An important oxide
+that has been investigated for this purpose is CeO2.[4,5] Howev-
+er, the amounts of CO or H2 produced by the thermochemical
+process using ceria have not been satisfactory. Thus, CeO2 pro-
+duces about 105 mmolg¢1 of CO and 144 mmolg¢1 of H2 at the
+reduction and oxidation temperatures of 1400 and 10008C, re-
+spectively.[6]
+Recently,
+perovskite
+oxides
+of
+the
+type
+La1¢xSrxMnO3 and La1¢xSrxFeO3 are reported to give rise to im-
+proved generation of CO and H2 and the results are encourag-
+ing.[7–11] McDaniel et al.[12] have found an improved production
+of fuel using Sr- and Al-doped LaMnO3 in comparison with
+CeO2. Further improvement has been obtained by using
+the
+La1¢xCaxMnO3
+family
+of
+perovskites.[13]
+For
+example,
+La0.5Ca0.5MnO3
+shows
+much
+superior
+performance
+than
+La0.5Sr0.5MnO3 and CeO2, producing 525 mmolg¢1 of CO at the
+reduction and oxidation temperatures of 1400 and 11008C, re-
+spectively. Since the properties of the rare earth manganites
+(Ln0.5A0.5MnO3, Ln=lanthanide, A=Sr, Ca) are strongly depend
+on the size of the rare earth ion,[14,15] we considered it is impor-
+tant to investigate the performance of various members of the
+rare earth manganites family, by varying the size of the rare
+earth ion. With this purpose, we have employed two series of
+perovskite oxides, Ln0.5Sr0.5MnO3 and Ln0.5Ca0.5MnO3 (Ln=La,
+Nd, Sm, Gd, Dy, and Y) and find that the amount of O2 evolved
+and the amount of CO produced depends strongly on the size
+of the rare earth ion. The manganite containing the smallest
+rare earth ion, such as yttrium, shows the highest distortion
+and size disorder having smallest tolerance factor, gives out
+the maximum amount of O2 and, hence, the maximum
+amount of CO. Furthermore, the reaction temperature can be
+substantially reduced by using the smaller lanthanide ion for
+producing CO and H2 from CO2 and H2O. Thus, Y0.5Sr0.5MnO3
+shows remarkable fuel production activity even at reduction
+and oxidation temperatures of 1200 and 9008C, respectively.
+Ln0.5Sr0.5MnO3 (LnSM50) and Ln0.5Ca0.5MnO3 (LnCM50) perov-
+skites crystallize in the orthorhombic structure except LaSM50
+which adopts the rhombohedral structure (Figure S1 in the
+Supporting Information). The Bragg peaks shift to higher
+angles as the size of the rare earth ion decreases (Figure S2 in
+the Supporting Information). The morphology and composi-
+tions of the manganites were also checked by field emission
+scanning electron microscopy (FESEM) and energy-dispersive
+X-ray spectroscopy (EDS) analysis, respectively, as shown in the
+case of YSM50 and YCM50 in Figure S3 and Table S1 in the
+Supporting Information. The as-synthesized materials are com-
+posed of micron-sized particles, as observed from FESEM
+images. The BET surface areas of the samples are less than
+1 m2g¢1.
+[a] S. Dey, Dr. B. S. Naidu, Prof. C. N. R. Rao
+Chemistry and Physics of Materials Unit, New Chemistry Unit
+Sheikh Saqr Laboratory, International Centre for Materials Science (ICMS)
+and CSIR Centre of Excellence in Chemistry
+Jawaharlal Nehru Centre for Advanced Scientific Research
+Jakkur P.O. Bangalore-560064 (India)
+E-mail: cnrrao@jncasr.ac.in
+Supporting information for this article is available on the WWW under
+http://dx.doi.org/10.1002/chem.201500442.
+Chem. Eur. J. 2015, 21, 7077 – 7081
+Ó 2015 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+7077
+Communication
+DOI: 10.1002/chem.201500442
+
+
+===== Page 2 =====
+
+The O2 evolution profiles of LnSM50 and LnCM50 with differ-
+ent rare earth ions are shown in Figure 1a and b, respectively.
+The weight loss due to reduction starts at a lower temperature
+and nearly reaches a plateau after 14008C for LnSM50 compo-
+sitions, unlike some members of LnCM50, which continue to
+lose weight even after 45 min of reaching the peak tempera-
+ture. The observed weight loss increases with decreasing size
+of the rare earth ion. In Figure 1c and d, we present the total
+amount of O2 produced by the reduction of LnSM50 and
+LnCM50 at 14008C, respectively. The yttrium derivative shows
+the highest O2 production. The O2 released by YCM50 and
+YSM50 is 573 and 481 mmolg¢1, respectively. The quantity of
+O2 produced (mmolg¢1) and the percentages of reduction
+(%Xred) are listed in Table S2 in the Supporting Information for
+the reduction temperature of 14008C (Tred). Notably, %Xred in-
+creases from 34 to 74% as we go from LaSM50 to YSM50 in
+the LnSM50 series, whereas the value is even larger (77%) for
+YCM (Table S2 and Equation (S1)–(S3) in the Supporting Infor-
+mation).
+The relation of the O2 production to structural aspects of
+LnSM50 and LnCM50 is depicted in Figure 2a and b. Figure 2a
+shows that the O2 production of LnSM50 increases with de-
+creasing tolerance factor (t), which in turn decreases with the
+decrease in the radius of the rare earth ion (Equation (S6) and
+Table S3 in the Supporting Information). Decrease in t indicates
+an increase in the tilting of the MnO6 octahedra, accompanied
+by an increase in the lattice distortion,[15,16] which would help
+in the removal of oxide ions. It
+should be noted that the site
+disorder (s2) arising from size
+mismatch also increases with de-
+crease in t (Equation (S7) and
+Table S3 in the Supporting Infor-
+mation).[17] A decrease in t de-
+creases
+the
+Mn-O-Mn
+bond
+angles
+significantly,
+which
+in
+turn reduces the spatial overlap
+of Mn eg and O 2ps orbitals.[16]
+This would favor O2 evolution.
+Furthermore,
+Figure 2a
+illus-
+trates how the decrease in t
+favors oxygen removal, resulting
+in highly nonstoichiometric per-
+ovskites as products after reduc-
+tion. Thus, the final oxygen stoi-
+chiometry achieved for YSM50
+and YCM50 is 2.81 and 2.8, re-
+spectively, after 45 min of reduc-
+tion at 14008C. Figure 2b shows
+similar conclusions of O2 evolu-
+tion in case of LnCM50.
+Figure 3 shows the percent-
+age of weight loss of LnSM50 as
+a function of
+temperature.
+It
+shows that as the size of the
+rare earth ion decreases, the O2
+evolution temperature gradually
+Figure 1. Thermogravimetric reduction profiles of a) Ln0.5Sr0.5MnO3 and b) Ln0.5Ca0.5MnO3 (Ln=lanthanides) for
+Ln=La (1), Nd (2), Sm (3), Gd (4), Dy (5), and Y (6). The reduction temperature is 14008C. The histograms quantify
+the amount of O2 produced by c) Ln0.5Sr0.5MnO3 and d) Ln0.5Ca0.5MnO3 at 14008C.
+Figure 2. Variation of total amount of O2 produced and the final oxygen
+content with the tolerance factor of the perovskites compositions of
+a) Ln0.5Sr0.5MnO3 and b) Ln0.5Ca0.5MnO3.
+Chem. Eur. J. 2015, 21, 7077 – 7081
+www.chemeurj.org
+Ó 2015 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+7078
+Communication
+ 15213765, 2015, 19, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/chem.201500442 by Southeast University, Wiley Online Library on [27/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 3 =====
+
+shifts towards lower temperatures. Thus, O2 loss starts around
+8608C in the case of YSM50. For LnCM50, the change in reduc-
+tion temperature is not as significant, and the reduction of
+YCM50 starts at around 9708C (Figure S4 in the Supporting In-
+formation). This can be explained based on the role of the size
+variance factor (s2) and the tolerance factor (t). High disorder
+resulting from the mismatch between the radii of Ln and A
+cations in Ln0.5A0.5MnO3 perovskites (Equation (S7) and Table S3
+in the Supporting Information) signifies the greater displace-
+ment of the oxygens from the mean position, which can act
+as the driving force to remove oxygens easily.[17] Notably,
+s2 is higher for LnSM50 derivatives (Table S3 in the Sup-
+porting Information) and highest
+for YSM50. To investigate the
+impact of s2 alone, O2 evolu-
+tion
+was
+measured
+with
+Nd0.43Sm0.07Sr0.15Ca0.35MnO3
+and
+DySM50, both having the same
+t value (t=0.967) but signifi-
+cantly different s2 values (s2=
+0.0038 and 0.014, respectively).
+The one with higher s2 value
+starts reduction at a lower tem-
+perature
+than
+the
+one
+with
+a lower s2 value (Figure S5 in
+the Supporting Information). It,
+therefore, appears that the re-
+duction
+characteristics
+of
+the
+manganites
+are
+clearly
+deter-
+mined by both t and s2.
+Thermochemical CO2 splitting
+activity of LnSM50 and LnCM50
+has been investigated by inject-
+ing CO2 at 11008C (Figure 4). The
+total amount of CO produced is
+presented in Figure 4b for the
+LnSM50
+series,
+showing
+the
+highest
+value
+for
+YSM50
+(571 mmolg¢1).
+CO
+production
+seems to be governed by the in-
+itial gain occurring within a few
+minutes, followed by the slow
+gain due to diffusion. Similar kinetics are also observed for the
+LnCM50 derivatives (Figure 4c). The maximum amount of CO
+produced by YCM50 (671 mmolg¢1) is even higher than that
+with YSM50 (Figure 4d).
+The oxidation yield (%a1100) of LaSM50, NdSM50, and
+SmSM50 are 93%, 84%, and 87%, respectively, which implies
+reversible mass gain (Table S2 and Equation (S5) in the Sup-
+porting Information). A decrease in oxidation yield is found
+fromGdSM50 onwards and it becomes quite significant for
+YSM50 (59%). We have carried out CO2 splitting at 9008C as
+well
+(Figure S6
+in
+the
+Supporting
+Information).
+GdSM50,
+DySM50, and YSM50 compositions show an improvement in
+the oxidation yield at 9008C (a900) in comparison with that one
+at 11008C (a1100). Strikingly, the highest improvement is ob-
+served for YSM50, which achieves an oxidation yield close to
+80% at 9008C, compared to 59% at 11008C (Table S4 in the
+Supporting Information). The reason for this may lie in the fact
+that the equilibrium driving force for the reverse reduction re-
+action is less significant at low temperatures.[18]
+In the case of the LnCM50 series, the oxidation yield (a1100) is
+in the range of 78–85%, except for DyCM50 and YCM50,
+which show a sharp decline to 58% (Table S2 in the Support-
+ing
+Information).
+Although
+oxidation
+thermodynamics
+is
+known to be favored at lower temperatures,[19] no such im-
+provement is apparent in the oxidation of YCM50 composition
+at 9008C (Figure S6d and Table S4 in the Supporting Informa-
+tion). This may be due to the increase in diffusion lengths re-
+Figure 3. Representative mass loss profiles of Ln0.5Sr0.5MnO3, for Ln=La (1),
+Nd (2), Sm (3), Gd (4), Dy (5), and Y (6), with respect to temperature during
+thermal reduction under Ar.
+Figure 4. Representative TGA curves for the thermochemical splitting of CO2 a) by Ln0.5Sr0.5MnO3 and c) by
+Ln0.5Ca0.5MnO3 for Ln=La (1), Nd (2), Sm (3), Gd (4), Dy (5), and Y (6). Figure (b) and (d) represent the total
+amount of O2 (dashed bar) and CO (filled bar) produced by Ln0.5Sr0.5MnO3 and Ln0.5Ca0.5MnO3, respectively. Reduc-
+tion and oxidation temperatures are 1400 and 11008C, respectively.
+Chem. Eur. J. 2015, 21, 7077 – 7081
+www.chemeurj.org
+Ó 2015 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+7079
+Communication
+ 15213765, 2015, 19, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/chem.201500442 by Southeast University, Wiley Online Library on [27/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 4 =====
+
+sulting from sintering or slower kinetics at lower tempera-
+ture.[20]
+As YSM50 starts to produce O2 at a comparatively low reduc-
+tion temperature and can also split CO2 effectively even at
+9008C, we explored CO2 splitting activity at reduction tempera-
+tures (Tred) of 1200 and 13008C, followed by the oxidation at
+9008C (Figure 5). YSM50 evolves 389 mmolg¢1 of O2 and
+624 mmolg¢1 of CO for the reduction/oxidation temperatures
+of 1300/9008C (Figure 5 and Table 1). To the best of our knowl-
+edge, the performance of YSM50 with the reduction/oxidation
+temperatures of 1300/9008C is superior not only to ceria but
+to all other perovskite catalysts reported in the literature so far
+(Table 1). Furthermore, on reducing at 12008C, YSM50 produ-
+ces
+258 mmolg¢1
+of
+O2
+followed
+by
+the
+production
+of
+418 mmolg¢1 of CO at 9008C (Figure 5). Notably, the O2 pro-
+duction activity of YSM50 at 12008C is comparable to that of
+LaSM50 reduced at 14008C (Table 1); the subsequent CO pro-
+duction activity of YSM50 at 9008C is also considerably superi-
+or. Decrease in the reduction and oxidation temperatures
+along with the enhancement of fuel production activity is ben-
+eficial for energy applications. We have further tested the per-
+formance of YSM50 during three successive CO2 splitting
+cycles for the reduction and oxidation temperature of 1200
+and 9008C, respectively (Figure S7 in the Supporting Informa-
+tion), and observed reversibility in both O2 evolution and CO
+production. No significant change in crystal structure and mor-
+phology is observed for YSM50 after multiple cycling (Fig-
+ure S8 in the Supporting Information), which defines the stabil-
+ity of the material for practical applications.
+As YSM50 and YCM50 show superior CO production activity,
+we have investigated the water splitting of these materials.
+The O2 as well as the H2 evolution kinetics of YSM50 and
+YCM50 were measured using a gas chromatograph. The
+amount of O2 produced by YSM50 and YCM50 is 481 and
+593 mmolg¢1, respectively, comparable to the values obtained
+from TGA measurements (details are in Figure S9 in the Sup-
+porting Information). The H2O splitting activity was tested at
+11008C by introducing steam in a continuous N2 flow. YSM50
+and YCM50 show different kinetics of H2 production by H2O
+splitting from LaCM50 (Figure 6).[13]
+Thus, the production of H2 starts immediately after the entry
+of H2O in the gas stream, reaching a peak, and then decreasing
+slowly, resulting in a plateau after 40 min. The production of
+H2 continues even after 140 min. The H2 obtained for YSM50
+and YCM50 in a span of 140 min is 320 and 310 mmolg¢1, re-
+spectively (Figure 6). However, by extending the time to 250–
+300 min, much higher H2 yields can be obtained. The kinetic
+behavior of H2O splitting is similar to that of CO2 splitting (Fig-
+ure S10 and Table S5 in the Supporting Information). The yield
+of H2 of YSM50 (YCM50) during the first 140 min of reaction
+arises from the fast kinetic regime (as in yellow region, step 1,
+Figure S10
+in
+the
+Supporting
+Information),
+followed
+by
+a slower regime (as in grey region, step 2, Figure S10 in the
+Supporting Information), where diffusion plays a role.[11b,20]
+In conclusion, Ln0.5Sr0.5MnO3 and Ln0.5Ca0.5MnO3 families of
+perovskite oxides show excellent performance in the thermo-
+chemical reduction of CO2 and H2O. Enhancement of oxygen
+production and, hence, CO production is observed as the size
+of the rare earth ion decreases, resulting in the highest activity
+for yttrium derivatives. Furthermore, a significant decrease in
+Figure 5. a) Thermochemical CO2 splitting profile and b) the corresponding
+histogram for Y0.5Sr0.5MnO3 (YSM50) derived from TG analysis. Reduction
+temperature is in the range of 1400–12008C; (1) 1200, (2) 1300, and
+(3) 14008C. CO2 splitting was performed at 9008C in all three cases.
+Table 1. Comparison of thermochemical CO and/or H2 evolution results
+of the present study with those reported for similar systems in the litera-
+ture.
+Material
+Tred
+[8C]
+O2
+evolved
+[mmolg¢1]
+Tox
+[8C]
+CO (H2)
+evolved
+[mmolg¢1]
+References
+Y0.5Sr0.5MnO3
+1400
+483
+900
+757[a]
+Present work
+Y0.5Sr0.5MnO3
+1300
+389
+900
+624[a]
+Present work
+Y0.5Sr0.5MnO3
+1200
+258
+900
+418[a]
+Present work
+Y0.5Ca0.5MnO3
+1400
+575
+1100
+671[a]
+Present work
+La0.5Ca0.5MnO3
+1400
+315
+1100
+525[a]
+13
+La0.5Sr0.5MnO3
+1400
+201
+1100
+325[a]
+13
+La0.5Sr0.5MnO3
+1400
+298
+1000
+298[b]
+8
+La0.5Sr0.5MnO3
+1400
+236
+900
+224[a]
+10
+La0.6Sr0.4MnO3
+1400
+205[a]
+800
+397[c]
+9
+La0.6Sr0.4Al0.6Mn0.4O3
+1350
+120
+1000
+247[a]
+12
+LaSrCoO4
+1300
+268
+800
+161[b]
+8
+CeO2
+1400
+53
+1000
+105[a]
+6
+Ce0.75Zr0.25O2
+1400
+193
+1000
+241[a,d]
+6
+Ce0.75Zr0.25O2
+1400
+179
+1050
+323.9[b,d]
+4b
+[a] CO2 splitting was investigated using TG analysis. [b] H2O splitting was
+investigated using TG analysis. [c] H2O splitting was investigated in an
+alumina tube reactor using an infrared furnace with a heating rate of
+5008Cmin¢1. [d] Nanoparticles were used to perform the investigation.
+Chem. Eur. J. 2015, 21, 7077 – 7081
+www.chemeurj.org
+Ó 2015 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+7080
+Communication
+ 15213765, 2015, 19, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/chem.201500442 by Southeast University, Wiley Online Library on [27/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 5 =====
+
+the reduction and oxidation temperatures is achieved with the
+manganites of small rare earth ions. Thus, the temperature of
+oxidation can be brought down to as low as 9008C with
+Y0.5Sr0.5MnO3, producing the highest amount of O2 and CO at
+1300 and 9008C, respectively, superior to all the perovskite
+oxides reported so far (Table 1). The remarkable fuel produc-
+tion activity with reduction/oxidation carried out at 1200/
+9008C using Y0.5Sr0.5MnO3 is indeed noteworthy. These results
+could be of direct benefit for syngas production and other ap-
+plications.
+Experimental Section
+Synthesis and characterizations: All the LnSM50 compounds
+were synthesized by solid-state reactions of a mixture of stoichio-
+metric quantities of Ln2O3, SrCO3, and MnO2. Ln2O3 was heated at
+9508C for 12 h prior to weighing. These precursors were mixed,
+ground well, and the powders transferred in an alumina crucible
+and heated at 10008C for 2 h and 14508C for 8 h. Intermediate
+grinding was carried out after every 4 h of heating. CaCO3 was
+used as a precursor instead of SrCO3 to synthesize LnCM50, keep-
+ing the other reaction conditions the same. Phase identification
+was performed by powder X-ray diffraction (PXRD) analysis with
+a Bruker D8 Advance diffractometer using Cu Ka radiation. FEI
+Nova Nanosem 600 was used to perform the Energy Dispersive X-
+Ray analysis (EDAX). BET measurements were carried out in
+Quanta-chrome Autosorb instrument at 77 K from N2 absorption.
+Reactivity tests: Thermal reduction and CO2 splitting experiments
+were performed by thermogravimetric analysis (TGA) with a Perki-
+nElmer Pyris1 instrument. About 100 mg sample was introduced in
+a platinum crucible and kept inside the furnace chamber. The
+sample was heated to 14008C at a constant heating rate of
+208Cmin¢1 under continuous Ar (99.9999% grade) flow of 40 sccm
+and maintained for 45 min. To perform CO2 splitting, 40% CO2
+mixed with Ar was injected inside the furnace chamber after cool-
+ing the temperature down to11008C. The quantification of O2 and
+CO produced was done by calculating the change in mass (Equa-
+tion (S1) and (S4) in the Supporting Information). The water split-
+ting activity of YSM 50 and YCM 50 was investigated using an ex-
+perimental set up described previously.[13] About 500 mg of the
+sample was placed in an alumina crucible and pushed inside a tub-
+ular furnace. The sample temperature was ramped up to 14008C
+(rate 108Cmin¢1) and maintained under inert atmosphere until the
+reduction was complete . The furnace was cooled down to 11008C
+and steam injected along with continuous flow of inert gas to per-
+form the H2 generation step. The detection and measurement of
+evolved gases were carried out with a gas chromatograph (Perki-
+nElmer Clarus ARNEL 580) equipped with a thermal conductivity
+detector (TCD). Numerical integration of molar flow rate-time
+curves gives the total amount of O2 evolved, whereas the total
+amount of H2 was calculated by the water displacement method.
+Acknowledgements
+S.D. thanks the CSIR for a fellowship. B.S.N. acknowledges the
+DST for a fellowship. S.D. and B.S.N. acknowledge Mr. Vasudeva
+for his help with the TGA measurements.
+Keywords: energy
+conversion
+·
+perovskite
+manganites
+·
+syngas · thermochemical CO2 splitting · water splitting
+[1] a) A. Steinfeld, Sol. Energy 2005, 78, 603–615; b) T. Kodama, N. Gokon,
+Chem. Rev. 2007, 107, 4048–4077; c) J. E. Miller, A. H. McDaniel, M. D. Al-
+lendorf, Adv. Energy Mater. 2014, 4, 1300469.
+[2] a) Y. Tamaura, A. Steinfeld, P. Kuhn, K. Ehrensberger, Energy 1995, 20,
+325–330; b) J. R. Scheffe, M. D. Allendorf, E. N. Coker, B. W. Jacobs, A. H.
+McDaniel, A. W. Weimer, Chem. Mater. 2011, 23, 2030–2038; c) R. Mi-
+chalsky, V. Botu, C. M. Hargus, A. A. Peterson, A. Steinfeld, Adv. Energy
+Mater. 2014, 4, 1401082 ; d) S. Abanades, P. Charvin, F. Lemont, G. Flam-
+ant, Int. J. Hydrogen Energy 2008, 33, 6021–6030; e) M. D. Allendorf,
+R. B. Diver, N. P. Siegel, J. E. Miller, Energy Fuels 2008, 22, 4115–4124.
+[3] J. R. Scheffe, A. Steinfeld, Materials Today 2014, 17, 341–348.
+[4] a) W. C. Chueh, C. Falter, M. Abbott, D. Scipio, P. Furler, S. M. Haile, A.
+Steinfeld, Science 2010, 330, 1797–1801; b) A. Le Gal, S. Abanades, J.
+Phys. Chem. C 2012, 116, 13516–13523; c) S. Abanades, G. Flamant, Sol.
+Energy 2006, 80, 1611–1623; d) H. Kaneko, T. Miura, H. Ishihara, S. Taku,
+T. Yokoyama, H. Nakajima, Y. Tamaura, Energy 2007, 32, 656–663.
+[5] a) S. G. Rudisill, L. J. Venstrom, N. D. Petkovich, T. Quan, N. Hein, D. B.
+Boman, J. H. Davidson, A. Stein, J. Phys. Chem. C 2013, 117, 1692–1700;
+b) P. Furler, J. Scheffe, D. Marxer, M. Gorbar, A. Bonk, U. Vogt, A. Stein-
+feld, Phys. Chem. Chem. Phys. 2014, 16, 10503–10511.
+[6] A. Le Gal, S. Abanades, G. Flamant, Energy Fuels 2011, 25, 4836–4845.
+[7] J. R. Scheffe, D. Weibel, A. Steinfeld, Energy Fuels 2013, 27, 4250–4257.
+[8] A. Demont, S. Abanades, E. Beche, J. Phys. Chem. C 2014, 118, 12682–
+12692.
+[9] C. K. Yang, Y. Yamazaki, A. Aydin, S. M. Haile, J. Mater. Chem. A 2014, 2,
+13612–13623.
+[10] A. Demont, S. Abanades, RSC Adv. 2014, 4, 54885–54891.
+[11] a) Q. Jiang, J. Tong, G. Zhou, Z. Jiang, Z. Li, C. Li, Sol. Energy 2014, 103,
+425–437; b) A. H. McDaniel, A. Ambrosini, E. N. Coker, J. E. Miller, W. C.
+Chueh, R. O’Hayre, J. Tong, Energy Procedia 2014, 49, 2009–2018.
+[12] A. H. McDaniel, E. C. Miller, D. Arifin, A. Ambrosini, E. N. Coker, R. O.
+Hayre, W. C. Chueh, J. H. Tong, Energy Environ. Sci. 2013, 6, 2424–2428.
+[13] S. Dey, B. S. Naidu, A. Govindaraj, C. N. R. Rao, Phys. Chem. Chem. Phys.
+2015, 17, 122–125.
+[14] a) T. Terai, T. Sasaki, T. Kakeshita, T. Fukuda, T. Saburi, H. Kitagawa, K.
+Kindo, M. Honda, Phys. Rev. B 2000, 61, 3488–3493; b) C. N. R. Rao, J.
+Phys. Chem. B 2000, 104, 5877–5889.
+[15] A. Arulraj, P N. Santhosh, R. S. Gopalan, A. Guha, A. K. Raychaudhuri, N.
+Kumar, C. N. R. Rao, J. Phys. Condens. Matter 1998, 10, 8497–8504.
+[16] P. M. Woodward, T. Vogt, D. E. Cox, A. Arulraj, C. N. R. Rao, P. Karen, A. K.
+Cheetham, Chem. Mater. 1998, 10, 3652–3665.
+[17] J. P. Attfield, Chem. Mater. 1998, 10, 3239–3248.
+[18] J. R. Scheffe, A. Steinfeld, Energy Fuels 2012, 26, 1928–1936.
+[19] W. C. Chueh, S. M. Haile, ChemSusChem 2009, 2, 735–739.
+[20] J. R. Scheffe, R. Jacot, G. R. Patzke, A. Steinfeld, J. Phys. Chem. C 2013,
+117, 24104–24114.
+Received: February 3, 2015
+Published online on March 25, 2015
+Figure 6. Hydrogen evolution profiles of Y0.5A0.5MnO3 for A=Sr (1) and Ca
+(2). The H2O splitting temperature is 11008C.
+Chem. Eur. J. 2015, 21, 7077 – 7081
+www.chemeurj.org
+Ó 2015 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+7081
+Communication
+ 15213765, 2015, 19, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/chem.201500442 by Southeast University, Wiley Online Library on [27/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

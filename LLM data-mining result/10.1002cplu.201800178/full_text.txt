@@ -1,0 +1,491 @@
+
+
+===== Page 1 =====
+
+Enhanced Thermochemical Water Splitting through
+Formation of Oxygen Vacancy in La0.6Sr0.4BO3@d (B=Cr, Mn,
+Fe, Co, and Ni) Perovskites
+Lulu Wang,[a] Mohammad Al-Mamun,*[a] Yu Lin Zhong,*[a] Porun Liu,[a] Yun Wang,[a]
+Hua Gui Yang,[b] and Huijun Zhao*[a]
+Oxygen vacancies in catalyst systems play a crucial role in ma-
+nipulating pivotal redox properties that are strongly depen-
+dent on the composition of the material. Herein, for the first
+time, experimental evidence of a linear correlation between
+the extent of oxygen vacancy formation in the La0.6Sr0.4BO3
+(B=Cr, Mn, Fe, Co, and Ni) perovskite series and H2 generation
+in two-step thermochemical water splitting is reported, with
+detailed materials characterization by means of thermogravi-
+metric analysis, XRD, SEM, TEM, and energy-dispersive X-ray
+spectroscopy.
+Noteworthy
+O2
+(718 mmolg@1)
+and
+H2
+(514 mmolg@1) production was achieved by the La0.6Sr0.4CoO3
+perovskite in the thermochemical water-splitting process con-
+ducted between 1300 and 9008C.
+Oxygen deficiencies in metal oxides result in the formation of
+oxygen vacancies (VO), which can greatly affect the behavior of
+materials, such as ionic and electronic conductivity, optical
+properties, and catalytic activity.[1,2] Recently, redox catalysts
+operating through the VO mechanism have attracted significant
+attention for a solar-driven, two-step, thermochemical water-
+splitting reaction, which is one of the most efficient routes to
+convert concentrated solar power into clean and renewable
+chemical fuels, namely, H2. Unlike traditional stoichiometric
+redox pairs, such as ZnO/Zn,[3,4] Fe3O4/FeO,[5,6] and CeO2/
+Ce2O3,[7] which
+have distinct structural compositions and
+phases in the reduced and oxidized states, off-stoichiometric
+oxygen catalysts conduct their thermochemical catalytic activi-
+ties through the formation of VO within the crystal structure.
+This permits maintenance of a constant phase during the ther-
+mochemical water-splitting process, which leads to simple op-
+erational requirements and rapid reaction kinetics. In a VO
+mechanism based, two-step, thermochemical water-splitting
+process, oxygen vacancies in a metal oxide (MOx) are first
+formed through a high-temperature endothermic reduction re-
+action [Eq. (1)], which leads to an off-stoichiometric oxygen
+state (MOx@d). Subsequently, MOx@d can be recovered to the
+original MOx through an exothermal oxidation reaction with
+water [Eq. (2)], which produces hydrogen. Therefore, the over-
+all thermochemical performance strongly depends on the
+extent of VO formation (d) and the redox properties in the cata-
+lysts, which determine the theoretical solar fuel production ca-
+pacity.
+MOxþconcentrated solar power ! MOx@dþd=2 O2
+ð1Þ
+MOx@dþd H2O ! MOxþd H2
+ð2Þ
+As a classical type of off-stoichiometric oxygen catalyst, the
+La1@xSrxBO3 (LSB; B=Cr, Mn, Fe, Co, Ni) perovskite series have
+been widely exploited in various catalytic fields, for example,
+fuel cells,[8–10] electrocatalysis,[11–15] and chemical sensors[16–18],
+owing to their structural tunability, rapid ion mobility, and re-
+markable VO formation ability. Recently, some LSB perovskite
+oxides with a Sr doping content of 0.4, such as La0.6Sr0.4MnO3
+[19]
+and La0.6Sr0.4FeO3,[20] were proposed as promising alternative
+catalysts for thermochemical water-splitting applications, with
+impressive VO formation and solar H2 production performances
+at low temperature. As such, the thermochemical catalytic
+properties of LSB-type catalysts are strongly related to their
+material compositions. DFT calculation results reported by
+O’Hayre et al. revealed that the LSB perovskite series displayed
+different VO formation energies with the incorporation of vari-
+ous transition-metal ions into the B site, which differed in the
+extent of VO formation under the same conditions.[21] To date,
+however, the experimental validation of the VO formation per-
+formances of LSB perovskites in two-step thermochemical
+water-splitting cycles can rarely be found. Therefore, to further
+develop advanced redox catalysts, it is important to draw an
+experimental relationship between VO formation during ther-
+mal reduction and H2 production in the subsequent water-
+splitting step.
+Herein, we systematically investigated the VO formation be-
+havior of the LSB perovskite series with different transition-
+[a] Dr. L. Wang, Dr. M. Al-Mamun, Dr. Y. L. Zhong, Dr. P. Liu, Dr. Y. Wang,
+Prof. H. Zhao
+Centre for Clean Environment and Energy
+Griffith School of Environment and Science
+Griffith University, Gold Coast Campus
+Southport, QLD 4222 (Australia)
+E-mail: m.al-mamun@griffith.edu.au
+y.zhong@griffith.edu.au
+h.zhao@griffith.edu.au
+[b] Prof. H. G. Yang
+Key Laboratory for Ultrafine Materials of Ministry of Education
+School of Materials Science and Engineering
+East China University of Science and Technology
+Shanghai 200237 (P. R. China)
+Supporting information (containing detailed experimental procedures,
+and XRD, SEM, water-splitting performance, and stability data) and the
+ORCID identification number(s) for the author(s) of this article can be
+found under: https://doi.org/10.1002/cplu.201800178.
+This article is part of a Special Issue on “Future Energy Technology”. To
+view the complete issue, visit: https://doi.org/10.1002/cplu.v83.10.
+ChemPlusChem 2018, 83, 924 – 928
+T 2018 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+924
+Communications
+DOI: 10.1002/cplu.201800178
+
+
+===== Page 2 =====
+
+metal ions (Cr, Mn, Fe, Co, and Ni; labeled as LSCr, LSMn, LSFe,
+LSCo, and LSNi, respectively) introduced into the B site for the
+two-step thermochemical water-splitting process. Consistent
+with reported theoretical calculations,[22] the experimentally
+observed VO formation performances of the LSB perovskite
+series produced a series converse to that of the required VO
+formation energies from high to low, that is, LSCo>LSNi>
+LSFe>LSCr>LSMn. More importantly, the observed VO forma-
+tion extents of the LSB perovskite series during the thermal re-
+duction step can be considered as a valuable descriptor for
+the preliminary assessment of the catalyst activity for water
+splitting. Our result indicates that the overall H2 production
+yields followed the same trend as that of the extent of VO for-
+mation in the perovskites.
+To perform the two-step thermochemical water-splitting in-
+vestigation, a modified Pechini method was employed to pre-
+pare the required LSB perovskite series (details can be found in
+the Supporting Information).[23,24] As shown in Figure 1a, the
+XRD pattern of the LSB perovskites (LSCo is presented here as
+a representative sample; the other samples are shown in Fig-
+ure S1 in the Supporting Information) represent a typical per-
+ovskite crystal structure with no impure phases. The surface
+morphology of La0.6Sr0.4CoO3 was observed by SEM and a hier-
+archical porous structure composed of small particles was ob-
+served (Figure 1b). From the inset in Figure 1b, we can clearly
+observe abundant pores that are formed by the interconnect-
+ed nanosized particles (<100 nm). Similar surface morpholo-
+gies were also observed in the other LSB perovskites (Figure S2
+in the Supporting Information). Owing to the similar structural
+morphologies of all perovskites prepared in this study, the sole
+impact of chemical composition on the overall water-splitting
+performances could be evaluated and compared.
+The interconnected porous structure and particle sizes of
+LSCo were further confirmed by means of TEM. As shown in
+Figure 1c, the as-synthesized perovskite showed high crystal-
+linity, with particle sizes ranging from 50 to 80 nm. The HRTEM
+result (Figure 1c, inset) showed a lattice fringe distance of
+0.27 nm, which was consistent with the (110) plane, as evi-
+denced from the peak observed in the XRD pattern (Figure 1a).
+The elemental distribution of LSB perovskites was also mea-
+sured by means of EDX mapping. As shown in Figure 1d, a ho-
+mogeneous distribution of the corresponding metal cations
+(La, Sr, and Co) in the LSCo sample was detected. Thus, based
+on XRD, SEM, TEM, and EDX results, it is evident that the LSB
+perovskite series with different transition-metal ions (Cr, Mn,
+Fe, Co, and Ni) introduced into the B site had been successfully
+synthesized.
+Considering the critical role played by VO in the thermo-
+chemical solar fuel production process, the VO formation and
+oxygen evolution behaviors of the LSB perovskites were care-
+fully analyzed by means of thermogravimetric analysis (TGA)
+and in a temperature-programmed tubular furnace based
+fixed-bed reactor.[25] TGA was first introduced to detect the VO
+formation of LSB perovskites from the measured weight loss
+during the high-temperature reduction step. As shown in Fig-
+ure 2a, the weight of LSB perovskites started to decrease with
+increasing temperature. The TGA curves revealed a rapid loss
+once the temperature reached 13008C, and finally stabilized
+after being held at 13008C for 1 h. LSMn and LSCr showed the
+smallest weight losses, LSFe and LSNi were in the middle, and
+the largest weight loss was observed for the LSCo sample. The
+different weight-loss profiles in the TGA measurements indi-
+cate different extents of VO (d) within the tested LSB perov-
+skites and can be calculated from Equation (3):
+Figure 1. a) XRD pattern; b) SEM images (inset shows a high-magnification SEM image); c) TEM and high-resolution (HR) TEM (inset) images; and d) energy-
+dispersive X-ray spectroscopy (EDX) elemental mapping of La, Sr, and Co distributions of the LSCo perovskite.
+ChemPlusChem 2018, 83, 924 – 928
+www.chempluschem.org
+T 2018 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+925
+Communications
+ 21926506, 2018, 10, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cplu.201800178 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 3 =====
+
+d ¼ DmðMLSB=MOÞ
+ð3Þ
+in which Dm is the weight loss of LSB perovskites (Figure 2a)
+during TGA measurements; MLSB and MO are the molar masses
+of LSB perovskites and oxygen atoms, respectively.
+After converting the weight-loss results into the correspond-
+ing extents of VO formation in LSB perovskites, the following
+trend of extents of VO formation was found: LSCo (0.33)>LSNi
+(0.20)>LSFe (0.17)>LSCr (0.072)>LSMn (0.058; Figure 2b).
+Hence, the experimental VO formation results displayed in this
+study strongly concur with theoretical predictions.[21] According
+to DFT calculations, the introduction of different B-site transi-
+tion-metal ions (B=Cr, Mn, Fe, Co, and Ni) in LSB perovskites
+led to various strengths of the B@O bond and thermal reduc-
+tion enthalpy, which collectively determined the overall VO for-
+mation energies. The perovskites of LSCo, LSNi, and LSFe had
+significantly lower VO formation energetics than those of LSCr
+and LSMn, which could greatly promote the extent of VO for-
+mation under the same experimental conditions. From the
+thermochemical catalysis perspective, the greater extent of VO
+formation in redox catalysts results in higher amounts of solar
+fuel production, which leads to a higher solar energy conver-
+sion efficiency.[21,25,26]
+To investigate the VO formation performances in different
+perovskite compositions, the LSB perovskites were thermally
+reduced in a temperature-programmed tubular furnace up to
+13008C, with a slow heating ramp (108Cmin@1). Evolved O2
+was instantaneously recorded by a mass spectrometer gas ana-
+lyzer connected to the tubular furnace.[27–33] Figure 3a shows
+the O2 evolution profiles of different LSB perovskites under the
+same experimental conditions. LSB perovskites with Fe, Ni, or
+Co on the B site had significantly increased O2 evolution per-
+formances than those with Mn and Cr, owing to higher oxygen
+formation energies.
+This can be further demonstrated by analyzing the onset
+temperature required to initiate oxygen evolution, which can
+be clearly seen by enlarging the initial O2 evolution curves of
+the La0.6Sr0.4BO3 perovskite series (Figure 3a, inset). LSB perov-
+skites with lower VO formation energies start to release O2 at a
+lower heating temperature, that is, the onset temperature of
+LSCo (&9008C) is much lower than that required by LSMn
+(&10208C). Furthermore, the final oxygen evolution amounts
+of LSB perovskites, which are summarized in Figure 3b, exhibit
+the same sequence as that of the aforementioned TGA results,
+namely,
+LSCo
+(718 mmolg@1)>LSNi
+(437 mmolg@1)>LSFe
+(375 mmolg@1)>LSCr (166 mmolg@1)>LSMn (131 mmolg@1). No-
+tably, the amount of oxygen released from each perovskite
+sample in the fixed-bed reactor system is almost consistent
+with the weight loss obtained in the TGA experiments. The
+cross-matching of experimental results from both techniques
+indicates that no additional gaseous species, apart from O2, are
+emitted during the thermal reduction step. Based on the com-
+bined TGA and oxygen evolution results, we can conclude that
+the thermal reduction behavior of LSB perovskites is strongly
+dependent on the transition-metal ions incorporated into the
+B site, because of different VO formation energies. Thus, a
+lower VO formation energy led to significantly increased
+oxygen evolution and a higher extent of VO formation. More
+Figure 2. a) TGA results for the LSB perovskite series with different transition-metal ions incorporated into the B site (B=Cr, Mn, Fe, Co, Ni). b) The trend of
+final VO formation extents corresponding to various B-site metal-ion doping.
+Figure 3. a) O2 evolution curves of LSB perovskite series with different transition-metal ions incorporated into the B site (B=Cr, Mn, Fe, Co, Ni). b) The trend of
+final O2 evolution amounts correspond to doping with various B-site metal ions.
+ChemPlusChem 2018, 83, 924 – 928
+www.chempluschem.org
+T 2018 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+926
+Communications
+ 21926506, 2018, 10, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cplu.201800178 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 4 =====
+
+importantly, the oxygen evolution and VO formation perform-
+ances could determine the theoretical solar H2 production of
+the redox catalysts, and thus, could be an effective descriptor
+to evaluate the subsequent water-splitting reaction.
+To establish the relationship between the H2 production per-
+formance and the extent of VO formation, water-splitting reac-
+tions were performed once the temperature was decreased to
+9008C by introducing a mixture of steam/Ar (v/v 40%) gas into
+a homemade fixed-bed reactor system (Figure S3 in the Sup-
+porting Information). The H2 production signal was immediate-
+ly detected through water splitting by the off-stoichiometric
+oxygen LSB perovskite series. As shown in Figure 4a, the H2
+production profiles reached the maximum rate within approxi-
+mately 10 min followed by a slow decrease. As expected, LSCo
+showed the best H2 production; this H2 production trend is
+presented in Figure 4b, and correlates well with the VO forma-
+tion and O2 evolution trends in the thermal reduction step. We
+further compared the extent of oxygen vacancy and H2 pro-
+duction of our studied catalysts with those reported for other
+thermochemical water-splitting perovskite catalysts, including
+ceria[34] (see Table S1 in the Supporting Information). From the
+results in Table S1 in the Supporting Information, there is a
+clear linear relationship between the extent of oxygen vacan-
+cies (d) and H2 generation, which is consistent with our find-
+ings. Therefore, VO can be considered as an indicator in the
+search for efficient perovskite-based thermochemical water-
+splitting catalysts.
+Moreover, to the best of our knowledge, the H2 production
+performance of LSCo achieved in our study is superior to that
+of all other perovskite-type redox catalysts reported to date
+(Table 1). The cyclic stability of the La0.6Sr0.4CoO3 sample was
+also assessed by measuring the O2 and H2 evolution responses
+over five consecutive cycles. Stable O2 and H2 production (Fig-
+ure S5 in the Supporting Information) was observed from the
+second cycle onward, whereas a low reoxidation yield was wit-
+nessed in the first cycle. Low recovery in the first cycle is possi-
+bly related to structural deformation (Figure S6 in the Support-
+ing Information) and chemical decomposition (Figure S7 in the
+Supporting Information) to form CoO in the high-temperature
+thermal reduction step. As indicated, stable O2 and H2 produc-
+tion was recorded from the second cycle; this indicated a con-
+stant extent of recovery. This observation is coherent with the
+results obtained for other cobalt-based catalysts reported for
+the thermochemical water-splitting reaction.[20,38,39] Further-
+more, the thermochemical performances of the investigated
+LSB perovskites could be further improved by optimising the
+operating factors during the two-step thermochemical H2O
+splitting process, such as the reduction and reoxidation tem-
+peratures, dopant composition, and the water vapor percent-
+age.
+In summary, a series of La0.6Sr0.4BO3 perovskites doped with
+various transition-metal ions (Cr, Mn, Fe, Co, and Ni) in the B
+site were experimentally investigated, for the first time, and re-
+sulted in different extents of VO formation. Higher extents of
+VO formation and oxygen evolution were achieved by the LSB
+perovskites with lower VO formation energies, in the order of
+LSCo>LSNi>LSFe>LSCr>LSMn. More importantly, the subse-
+quent water-splitting performances of the LSB perovskites
+were shown to be dependent on the VO formation trends in
+the thermal reduction step. Specifically, the maximum O2
+(718 mmolg@1) and H2 production (514 mmolg@1) values ach-
+ieved by LSCo are highly promising and superior to those of
+previously reported perovskite-type redox catalysts tested for
+two-step thermochemical water-splitting processes. In a broad-
+er context, this initial screening of the extent of VO formation
+in perovskite oxides can be a very useful indicator to identify
+high-performance candidates for solar thermochemical fuel
+production.
+Figure 4. a) H2 evolution curves and b) a summary of H2 production amounts of the LSB perovskite series with the incorporation of different transition-metal
+ions into the B site (B=Cr, Mn, Fe, Co, Ni).
+Table 1. A comparison of thermochemical H2 production performances
+with various perovskites.
+Redox material
+Processing Thigh
+[8C]
+O2
+[mmolg@1]
+H2
+[mmolg@1]
+La0.6Sr0.4CoO3 (this study) 1300
+718
+514
+La0.6Sr0.4MnO3
+[19]
+1400
+219
+397
+La0.5Ca0.5MnO3
+[35]
+1400
+272
+407
+Y0.5Sr0.5MnO3
+[25]
+1400
+481
+320
+Y0.5Ca0.5MnO3
+[25]
+1400
+593
+310
+La0.6Sr0.4Cr0.8Co0.2O3
+[26]
+1200
+154
+50
+La0.5Sr0.5Mn0.95Sc0.05O3
+[36]
+1400
+390
+250
+La0.6Sr0.4Mn0.4Al0.6O3
+[37]
+1350
+120
+220
+ChemPlusChem 2018, 83, 924 – 928
+www.chempluschem.org
+T 2018 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+927
+Communications
+ 21926506, 2018, 10, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cplu.201800178 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 5 =====
+
+Acknowledgements
+This study was financially supported by the Australian Research
+Council (ARC), the National Natural Science Foundation of China
+(grant nos. 51372248, 51432009), and Griffith University New Re-
+searcher Grant (grant no. CEE2551).
+Conflict of interest
+The authors declare no conflict of interest.
+Keywords: oxygen
+vacancy
+·
+perovskite
+phases
+·
+redox
+chemistry · transition metals · water splitting
+[1] M. V. Ganduglia-Pirovano, A. Hofmann, J. Sauer, Surf. Sci. Rep. 2007, 62,
+219–270.
+[2] C. T. Campbell, C. H. Peden, Science 2005, 309, 713–714.
+[3] J. E. Trancik, S. C. Barton, J. Hone, Nano Lett. 2008, 8, 982–987.
+[4] R. Meller, A. Steinfeld, Chem. Eng. Sci. 2008, 63, 217–227.
+[5] N. Gokon, S. Sagawa, T. Kodama, Int. J. Hydrogen Energy 2013, 38,
+14402–14414.
+[6] N. Gokon, T. Mataga, N. Kondo, T. Kodama, Int. J. Hydrogen Energy 2011,
+36, 4757–4767.
+[7] S. Abanades, G. Flamant, Sol. Energy 2006, 80, 1611–1623.
+[8] A. Mai, V. A. Haanappel, S. Uhlenbruck, F. Tietz, D. Stçver, Solid State
+Ionics 2005, 176, 1341–1350.
+[9] A. Petric, P. Huang, F. Tietz, Solid State Ionics 2000, 135, 719–725.
+[10] O. Yamamoto, Y. Takeda, R. Kanno, M. Noda, Solid State Ionics 1987, 22,
+241–246.
+[11] H. C. Yu, K. Z. Fung, T. C. Guo, W. L. Chang, Electrochim. Acta 2004, 50,
+811–816.
+[12] J. J. Xu, D. Xu, Z. L. Wang, H. G. Wang, L. L. Zhang, X. B. Zhang, Angew.
+Chem. Int. Ed. 2013, 52, 3887–3890; Angew. Chem. 2013, 125, 3979–
+3982.
+[13] M. Al-Mamun, X. Su, H. Zhang, H. Yin, P. Liu, H. Yang, D. Wang, Z. Tang,
+Y. Wang, H. Zhao, Small 2016, 12, 2866–2871.
+[14] N. Danilovic, A. Vincent, J. L. Luo, K. T. Chuang, R. Hui, A. R. Sanger,
+Chem. Mater. 2010, 22, 957–965.
+[15] Y. Wang, X. Liu, J. Liu, M. Al-Mamun, A. W.-C. Liew, H. Yin, W. Wen, Y. L.
+Zhong, P. Liu, H. Zhao, ACS Appl. Energy Mater. 2018, 1, 1688–1694.
+[16] D. T. Anh, W. Olthuis, P. Bergveld, Sens. Actuators B 2004, 103, 165–168.
+[17] M. L. Grilli, E. Di Bartolomeo, E. Traversa, J. Electrochem. Soc. 2001, 148,
+H98–H102.
+[18] P. Song, H. Zhang, D. Han, J. Li, Z. Yang, Q. Wang, Sens. Actuators B
+2014, 196, 140–146.
+[19] G. Kron, T. Egerter, J. H. Werner, U. Rau, J. Phys. Chem. B 2003, 107,
+3556–3564.
+[20] A. Demont, S. Abanades, E. Beche, J. Phys. Chem. C 2014, 118, 12682–
+12692.
+[21] A. M. Deml, V. Stevanovic, C. L. Muhich, C. B. Musgrave, R. O’Hayre,
+Energy Environ. Sci. 2014, 7, 1996–2004.
+[22] M. A. Ibrahem, W. C. Huang, T. W. Lan, K. M. Boopathi, Y. C. Hsiao, C. H.
+Chen, W. Budiawan, Y. Y. Chen, C. S. Chang, L. J. Li, C. H. Tsai, C. W. Chu,
+J. Mater. Chem. A 2014, 2, 11382–11390.
+[23] M. Galceran, M. Pujol, M. Aguilj, F. D&az, J. Sol-Gel Sci. Technol. 2007, 42,
+79–88.
+[24] S. Wang, F. Zhao, L. Zhang, F. Chen, Solid State Ionics 2012, 213, 29–35.
+[25] S. Dey, B. S. Naidu, C. N. R. Rao, Chem. Eur. J. 2015, 21, 7077–7081.
+[26] A. H. Bork, M. Kubicek, M. Struzik, J. L. M. Rupp, J. Mater. Chem. A 2015,
+3, 15546–15557.
+[27] L. Wang, M. Al-Mamun, Y. L. Zhong, L. Jiang, P. Liu, Y. Wang, H. G. Yang,
+H. Zhao, Sustainable Energy Fuels 2017, 1, 1013–1017.
+[28] M. Al-Mamun, Y. Wang, P. Liu, Y. L. Zhong, H. Yin, X. Su, H. Zhang, H.
+Yang, D. Wang, Z. Tang, H. Zhao, J. Mater. Chem. A 2016, 4, 18314–
+18321.
+[29] L. Wang, M. Al-Mamun, P. Liu, Y. Wang, H. G. Yang, H. Zhao, Chin. J.
+Catal. 2017, 38, 1079–1086.
+[30] M. Al-Mamun, Z. Zhu, H. Yin, X. Su, H. Zhang, P. Liu, H. Yang, D. Wang,
+Z. Tang, Y. Wang, H. Zhao, Chem. Commun. 2016, 52, 9450–9453.
+[31] L. Wang, M. Al-Mamun, P. Liu, Y. Wang, H. G. Yang, H. Zhao, J. Mater. Sci.
+2018, 53, 6796–6806.
+[32] M. Al-Mamun, H. Yin, P. Liu, X. Su, H. Zhang, H. Yang, D. Wang, Z. Tang,
+Y. Wang, H. Zhao, Nano Res. 2017, 10, 3522–3533.
+[33] L. Wang, M. Al-Mamun, P. Liu, Y. L. Zhong, Y. Wang, H. G. Yang, H. Zhao,
+Acta Metall. Sin. (Engl. Lett.) 2018, 31, 431–439.
+[34] W. C. Chueh, C. Falter, M. Abbott, D. Scipio, P. Furler, S. M. Haile, A.
+Steinfeld, Science 2010, 330, 1797–1801.
+[35] S. Dey, B. S. Naidu, A. Govindaraj, C. N. R. Rao, Phys. Chem. Chem. Phys.
+2015, 17, 122–125.
+[36] S. Dey, B. S. Naidu, C. N. R. Rao, Dalton Trans. 2016, 45, 2430–2435.
+[37] J. Burschka, N. Pellet, S. J. Moon, R. H. Baker, P. Gao, M. K. Nazeeruddin,
+M. Gr-tzel, Nature 2013, 499, 316–319.
+[38] M. Orfila, M. Linares, R. Molina, J. ]. Botas, J. Marug#n, R. Sanz, Int. J. Hy-
+drogen Energy 2017, 42, 13532–13543.
+[39] M. Orfila, M. Linares, R. Molina, J. ]. Botas, R. Sanz, J. Marug#n, Int. J. Hy-
+drogen Energy 2016, 41, 19329–19338.
+Manuscript received: April 11, 2018
+Revised manuscript received: June 27, 2018
+Accepted manuscript online: June 29, 2018
+Version of record online: July 10, 2018
+ChemPlusChem 2018, 83, 924 – 928
+www.chempluschem.org
+T 2018 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+928
+Communications
+ 21926506, 2018, 10, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cplu.201800178 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

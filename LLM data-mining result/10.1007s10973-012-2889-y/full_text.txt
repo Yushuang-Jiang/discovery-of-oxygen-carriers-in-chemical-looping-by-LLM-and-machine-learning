@@ -1,0 +1,561 @@
+
+
+===== Page 1 =====
+
+Study on modiﬁcation of Cu-based oxygen carrier for chemical
+looping combustion
+Hou-yin Zhao • Yan Cao • William Orndorff •
+Wei-ping Pan
+Received: 30 September 2012 / Accepted: 11 December 2012 / Published online: 23 December 2012
+ Akade´miai Kiado´, Budapest, Hungary 2012
+Abstract
+Chemical looping combustion (CLC) is a prom-
+ising technology for segregation of carbon dioxide. CLC
+uses a metal oxide as an oxygen carrier, which transfers
+oxygen from the air to the fuel avoiding direct contact
+between them, thus separating the carbon dioxide and
+nitrogen. Cu-based oxygen carriers are excellent mediums
+due to high reactivity, environmental friendliness, and
+favorable thermodynamics. However, there are agglomera-
+tion issues due to low melting point of Cu. To solve this issue,
+a new preparation method as well as a dispersion reagent and
+a thermal durability-enhanced reagent were applied simul-
+taneously to the oxygen carrier. The carriers were synthe-
+sized using both wet and dry impregnation methods. Based
+on the initial oxygen loading capability tests, the dry
+impregnation method received additional investigation. The
+characterizations of the oxygen carriers were evaluated using
+thermogravimetric analyzer (TG), X-ray diffraction (XRD),
+scanning electron microscopy (SEM), and surface area
+analyzer. TG results demonstrate that the enhanced dry
+impregnation was an effective preparation method, where
+the mass loss of the oxygen carrier was typically 3.4 %,
+correlating to almost 17 % loaded CuO. XRD results indi-
+cate a new phase, CuAl2O4 spinel, formed after the ﬁrst few
+redox cycles, which is responsible for promoting the thermal
+stability of the oxygen carriers. SEM results show that the
+addition of the dispersants decreased the agglomeration and
+the enhanced reagent chemicals greatly improved the
+strength of the carriers. However, the surface area of the
+oxygen carriers decreased with the addition of the additives.
+In addition, with the increasing redox cycles, the surface area
+also decreased while the pore size increased, indicating that
+small pores were crushed, but the reactivity of the oxygen
+carriers did not decrease. In conclusion, the oxygen carriers
+produced in this manner are suitable for multi-cycle tests,
+and a major hurdle toward reducing greenhouse gases has
+been achieved.
+Keywords
+Modiﬁed Cu-based oxygen carrier  TG 
+SEM  XRD  Surface area
+Introduction
+The increasing concentration of carbon dioxide has added to
+the greenhouse gas effect. Carbon dioxide capture and
+sequestration (CCS) technology has been pursued to reduce
+greenhouse gases. Chemical looping combustion (CLC) is
+one of the most promising CCS technologies with inherent
+separation of carbon dioxide and nitrogen [1–7]. CLC is
+carried out by cyclic reduction and oxidation of a metallic
+oxide, which acts as an oxygen carrier that is exchanged
+between two interconnected reactors [3]. In the fuel reactor,
+the oxygen carrier is reduced by the fuel, and in the air
+reactor, the oxygen carrier is oxidized by the air. With this
+system, there is no direct contact between fuel and air [1–5].
+The exit gas from the fuel reactor contains CO2 and H2O. If
+the water is condensed, concentrated CO2 streams can be
+obtained with little energy lost for component separation,
+thus making CLC systems pivotal in the sequestration of
+CO2. During the reduction–oxidation cycles, the oxygen
+carrier plays a signiﬁcant role, which needs high oxygen-
+transfer capacity, reactivity, and favorable thermodynamics
+[1–10]. Many different metal-based oxides have been tested
+H. Zhao  Y. Cao  W. Orndorff  W. Pan (&)
+Institute for Combustion Science & Environmental Technology,
+Western Kentucky University, Bowling Green, KY 42101, USA
+e-mail: Wei-ping.pan@wku.edu
+H. Zhao
+e-mail: Hou-yin.zhao@wku.edu
+123
+J Therm Anal Calorim (2013) 113:1123–1128
+DOI 10.1007/s10973-012-2889-y
+
+
+===== Page 2 =====
+
+in the literature as potential candidates for CLC systems, for
+example, NiO, CuO, Fe2O3, and MnO, which are supported
+on different inert materials, such as Al2O3, SiO2, yttrium
+stabilized zirconia (YSZ) or TiO2 [1–8]. These supporting
+materials not only provide high surface area but also act as a
+binder for increasing mechanical strength and attrition
+resistance [1, 5]. Different metal oxides, substrates, and
+preparation methods signiﬁcantly inﬂuence the character-
+ization of the oxygen carriers. Among these metal oxides,
+copper oxide has been chosen because of high reactivity and
+favorable thermodynamic behavior [8–10]. In addition,
+c-Al2O3 is used as the substrate due to its good ﬂuidization
+properties and thermal stability [11]. Many preparation
+methods, such as mechanical mixing [1, 5], precipitation
+[12], spray drying [13, 14], freeze granulation [2, 4],
+impregnation [1, 7, 11, 15–17], and sol–gel [18, 19] have
+been used to prepare the oxygen carriers. Research shows
+that the impregnation method is one of the best methods for
+preparing the Cu-based oxygen carriers [1, 15, 16]. In this
+method, the metal oxide is evenly dispersed on the sup-
+porting material, which enabled the oxygen carrier to exhibit
+high reactivity [1, 15, 16]. However, the copper-based oxy-
+gen carrier still faces the problem of a low melting point,
+which may cause agglomeration and accumulative thermal
+sintering problems after multi-cycle tests [8–10]. Hence,
+solving these issues is an important step for widespread
+usage of Cu-based oxygen carriers. The addition of a dis-
+persant agent and a thermal durability-enhanced reagent is
+necessary, which will reduce the agglomeration and enhance
+the thermal durability. In this paper, the dispersant reagent
+and thermal durability-enhanced reagent were added to the
+copper-based oxygen carrier during preparation and the
+characterization of the modiﬁed oxygen carrier, such as
+enhanced as well as used, were evaluated using TG, XRD,
+SEM, and surface area analyzer for determination of suitable
+in a CLC system.
+Experimental
+Oxygen carrier preparation
+The oxygen carriers were prepared from c-Al2O3 (Puralox
+NWa-155 Sasol Germany GmbH) and Cu(NO3)2 (Acros,
+USA). The effective method for preparing oxygen carriers is
+impregnation, including dry impregnation and wet impreg-
+nation [1]. For the wet impregnation method, the substrate
+c-Al2O3 was immersed in a saturated solution of Cu(NO3)2
+for 12 h, rinsed with DI water, and dried in an oven at 150 C
+for 2 h. These procedures were followed by calcination at
+500 C in the oven for 5 h to assure the loaded copper
+compound was copper oxide (CuO). In the dry impregnation
+method, a solution of saturated Cu(NO3)2and a small amount
+of thermal durability-enhanced reagent (lanthanum nitrate)
+and dispersant (citric acid) are mixed in a special ratio by
+mass for 12 h. Following mixing, the solution is applied to
+the substrate c-Al2O3 until fully wetted, which took
+approximately 1 h. Then ethanol was continuously applied
+to the oxygen carrier for roughly 30 min and dried in the
+oven at 150 C for 2 h. After removing from the oven, the
+oxygen carrier was treated again with the saturated
+Cu(NO3)2 solution followed by the ethanol treatment and 2
+more hours at 150 C. Subsequently, the oxygen carrier was
+calcinated in the oven at 500 C for 5 h. The major differ-
+ence between ‘‘wet’’ and ‘‘dry’’ methods is removal of
+moisture occupied inside the pore structure of supporting
+materials prior to doping procedures. In our process, ethanol
+was used to facilitate the removal of the moisture.
+This study involved three types of oxygen carriers that
+were prepared according to the wet and dry impregnation
+methods. Based on the outcome of initial tests, a more
+complete analysis was performed on the dry impregnation
+method. The ﬁrst type oxygen carrier labeled as CW was
+prepared using the wet method. The second type oxygen
+carrier labeled as CD was prepared using the dry method,
+without any additives. The third type oxygen carrier
+labeled as CD-en is prepared with the dry method, but is
+also augmented with enhanced reagents and dispersants.
+Characterization
+The amount of loaded CuO and the thermal stability of the
+modiﬁed oxygen carriers were performed on a TG (TA 2950,
+US). A 20 mg of sample was placed in a platinum pan and
+heated to 800 C in nitrogen ﬂow, and then exposed in a
+cyclic manner to a reducing gas of 10 % H2 for the reduction
+period and to air for the oxidation period. The temperature
+was kept at 800 C during both reduction and oxidation
+periods, which were 300 s, respectively. N2 was introduced
+for 600 s between periods to avoid mixing between H2 and
+O2. The total ﬂow of the gas into the furnace was
+100 mL min-1 and a 10 % portion of the total gas ﬂow, i.e.,
+10 mL min-1 purge N2 was introduced from the head of TG
+to keep the balance parts from any corrosive gas. The speciﬁc
+surface area and the pore size distribution of the oxygen
+carriers were obtained from a Micromeritics ASAP 2020
+(Micromeritics Instruments Inc.), where the surface area was
+evaluated by BET equation in the relative pressure range of
+0.05–0.35. The pore size and the pore size distribution were
+determined by BJH and DFT methods, respectively. The
+crystalline structures of the oxygen carriers were identiﬁed
+by a SCINTAG X’TRA AA85516 (ThermoARL) X-ray
+diffractometer equipped with a Peltier-cooled Si solid
+detector. Monochromatized Cu Ka (0.154 nm) was used
+as the radiation source. Diffraction patterns were collected
+at 45 kV–40 mA over 5–90 (2h) at a step scan rate of
+1124
+H. Zhao et al.
+123
+
+
+===== Page 3 =====
+
+1.20 min-1. The microstructure of the oxygen carrier was
+determined by a JEOL JSM 5400-LV scanning electron
+microscope. The copper distribution in the cross-section was
+also determined by embedding the particle in resin, polishing
+to reveal cross-section, and then analysis by SEM.
+Results and discussion
+TG results
+From Figs. 1, 2, and 3, it can be seen that the mass losses of
+CW, CD, and CD-en were 1.1, 3.8, and 3.4 %, respec-
+tively, which correlates to loaded CuO amount of 5.5, 19,
+and 17 %. Based on the threefold difference in oxygen
+carrying capacities, the rest of our studies were fully
+devoted to the dry impregnation method. The CuO content
+in CD was higher than that of CD-en, suggesting greater
+oxygen-transfer capacity. However, higher CuO content
+will lead to agglomeration issues [15]. The typical CuO
+amount was 17 % for CD-en. After 20 redox cycles of CD
+and 30 redox cycles of CD-en, both demonstrated good
+thermal stability, i.e., no further thermal degradation.
+However, there were small compositional differences
+between the CD and CD-en oxygen carriers after the multi-
+cycle tests. The original CD and CD-en oxygen carriers
+were both composed of CuO and c-Al2O3; however, after
+the ﬁrst few redox cycles, a new phase, CuAl2O4 spinel,
+formed (Fig. 4), which promoted the thermal stability of
+the oxygen carrier [1, 15]. In addition, in CD oxygen car-
+rier, another new phase was also formed, Cu2O. This is
+probably because there were no dispersant reagents, and
+parts of the Cu agglomerated and emitted large amounts of
+100
+99
+98
+97
+96
+0
+1
+2
+3
+1.1%
+CW
+Time/min
+Mass/%
+Fig. 1 TG curves for the CW oxygen carrier
+100
+99
+98
+97
+96
+0
+100
+200
+300
+400
+500
+3.8 %
+CD
+Time/min
+Mass/%
+Fig. 2 TG curves for CD oxygen carrier
+100
+99
+98
+97
+96
+0
+100
+200
+300
+400
+500
+600
+700
+800
+CD–en
+3.4 %
+Time/min
+Mass/%
+Fig. 3 TG curve for the CD-en oxygen carrier
+8000
+7000
+6000
+5000
+4000
+3000
+2000
+1000
+0
+20
+40
+60
+80
+CD
+CD 20th oxidation
+CD–en 20th oxidation
+CD–en
+CD–en 30th reduction
+CuO;
+Al2O3;
+CuAl2O4;
+Cu2O;
+Cu
+2θ/°
+Intensity
+Fig. 4 XRD spectrum for the oxygen carriers of CD and CD-en
+Study on modiﬁcation of Cu-based oxygen carrier
+1125
+123
+
+
+===== Page 4 =====
+
+heat when reacted, which accelerated the decomposition of
+CuO (Fig. 4). Moreover, the reduction of the oxygen car-
+rier was an exothermic process, as a result, the temperature
+increased and CuO decomposed to Cu2O. In the reduction
+process, even after 30 redox cycles, the product was only
+Cu, indicating that not only CuO but also CuAl2O4 were
+completely reduced by H2.
+SEM results
+The morphology change and the element distribution of the
+oxygen carrier were studied by SEM. It can be seen that the
+particle sizes were\10 lm, and there were many holes on
+the surface of the oxygen carrier, indicating a higher surface
+area for the CD and CD-en (Fig. 5a–g). For the CD oxygen
+carrier, after 20 redox cycles, there was clear agglomeration
+on the surface of Al2O3, which is exhibited by the dark spots
+(Fig. 5b). This further explains the compositional difference
+between CD and CD-en after 20 redox cycles. Based on the
+agglomeration problem for CD with\20 redox cycles fur-
+ther redox cycles were not attempted. For the CD-en carrier,
+the agglomeration decreased and the CuO particles were
+evenly distributed on the surface of the Al2O3 (Fig. 5c, d).
+After 30 reduction cycles, the copper was evenly distributed
+on the surface of Al2O3 (Fig. 5e). The images of the cross-
+section of the original CD-en and CD-en after 20 redox
+cycles were shown in Fig. 5f and g. It is noted that most of the
+CuO formed an outer layer on the surface of the Al2O3 and a
+small amount of CuO migrated into the center of the Al2O3.
+After 20 redox cycles, the outer layer of the CuO attenuated,
+moreover, more CuO transferred into the pores of Al2O3.
+This may be due in part to a chemical reaction or thermal
+displacement [18]. However, even after 20 redox cycles, the
+holes can still be observed, indicating that the oxygen carrier
+was still porous and the reactivity of the oxygen carrier did
+not decrease even when there was some agglomeration.
+Surface area results
+The surface area and pore size also inﬂuence the reactivity
+of the oxygen carrier. After redox cycles, not only the
+surface area but also the pore size changed. Table 1 shows
+that
+the
+surface
+area
+of
+the
+original
+c-Al2O3
+was
+150 m2 g-1, and original CD and CD-en were 116 and
+105 m2 g-1, respectively, demonstrating that with the
+addition of additives, the surface area decreased. Moreover,
+with increasing redox cycles, the surface area of CD and
+CD-en both further decreased from 116 to 42 and 105 to
+Fig. 5 SEM image for CD and CD-en samples. a CD; b CD after 20 redox cycles-oxidation; c CD-en; d CD-en after 20 redox cycles-oxidation;
+e CD-en after 30 redox cycles-reduction; f cross section of CD-en; g cross section of CD-en after 20 redox cycles-oxidation
+1126
+H. Zhao et al.
+123
+
+
+===== Page 5 =====
+
+42 m2 g-1, respectively. But, the average pore size of CD
+and CD-en increased from 9.0 nm to 17.7 and 18.8 nm,
+respectively, after 20 redox cycles, implying that some
+smaller pores were crushed, which may be due to thermal
+displacement or reactions [18]. As a consequence, pore
+volume decreased. However, the decreased surface area
+and increased pore size did not inﬂuence the reactivity of
+the oxygen carrier, which is conﬁrmed by the TG results,
+Figs. 2, 3 refer. Actually, the pore size has a close rela-
+tionship with the reactivity of the oxygen carrier. The pore
+size controls molecular diffusion, which contributes to
+the reactivity of the carriers. Large pore size promotes the
+diffusion of molecules to improve the reactivity of the
+oxygen carrier, but decreases the surface area. Thus, it
+reduces availability of active sites to reaction and decreases
+reactivity. So, there is a threshold for the pore size, where
+the pore size cannot be too large or small. This needs to be
+further studied. Figure 6a shows that the pore size distri-
+bution of both CD and CD-en shifted to the larger pore
+range. The pore size of CD and CD-en was initially dis-
+tributed in 2–50 nm. However, after 20 redox cycles, the
+pore size of both carriers was shifted to 12–50 nm, further
+conﬁrming that the micropores were crushed. Nevertheless,
+these pores were still in the mesopore size range, which
+may be attributed to the oxygen carrier’s long lasting good
+reactivity. After 30 reduction cycles, the average pore size
+was 192 nm because of the reduction of copper oxide to
+Cu. Figure 6b also shows that in the reduction process, the
+pore size distribution was mainly in 130–500 nm, which is
+attributed to Cu.
+Conclusions
+The preparations of Cu-based oxygen carriers were com-
+pared using dry and wet impregnation methods. The
+characterizations of the modiﬁed oxygen carriers were
+evaluated using TG, XRD, SEM, and surface area analyzer.
+TG results show that enhanced dry impregnation was an
+effective preparation method, where the loaded CuO
+amount could reach up to 17 %. Moreover, even after 20
+redox multi-cycles, the CD and CD-en demonstrated good
+thermal stability. XRD results exhibit the formation of a
+new phase, CuAl2O4 spinel, which promoted the thermal
+stability of the oxygen carrier. However, in the CD carrier,
+Cu2O was formed, which may be due in part to a deﬁciency
+of dispersant reagents. In the reduction process, the oxygen
+carriers were completely reduced to Cu. SEM results
+conﬁrm that the deﬁciency of dispersant additives led to the
+agglomeration of the oxygen carriers. BET results point out
+that with the addition of the enhancers, the surface area of
+the oxygen carriers decreased. With increasing redox
+cycles, the surface area of the oxygen carrier decreased but
+the pore size increased, indicating that the small pores were
+crushed. The pore size distribution of the CD and CD-en
+both shifted from 2–50 to 12–50 nm after 20 redox cycles.
+However, the reactivity of the carriers did not decrease. In
+conclusion, CD-en is a good oxygen carrier that is suitable
+for multi-cycle tests.
+Table 1 Summarized surface area results for CD and CD-en oxygen
+carriers
+Sample ID
+Surface
+area/m2 g-1
+Pore
+size/nm
+Pore volume/
+cm3 g-1
+c-Al2O3
+150
+8.9
+0.41
+CD
+116
+8.9
+0.30
+CD 20th oxidation
+42
+17.7
+0.20
+CD-en
+105
+9.4
+0.30
+CD-en 20th oxidation
+42
+18.8
+0.19
+CD-en 30th reduction
+42
+192
+0.18
+0.8
+a
+b
+0.6
+0.4
+0.2
+0.0
+1
+10
+100
+r–Al2O3
+CD
+CD 20th oxidation
+CD–en 20th oxidation
+CD–en 30th reduction
+CD–en
+0.8
+0.6
+0.4
+0.2
+0.0
+10
+100
+Pore width/nm
+Pore width/nm
+Differential pore volume/cm3 g–1 nm
+Differential pore volume/cm3 g–1 nm–1
+Fig. 6 Pore size distribution of CD and CD-en carriers
+Study on modiﬁcation of Cu-based oxygen carrier
+1127
+123
+
+
+===== Page 6 =====
+
+Acknowledgements
+We gratefully acknowledge ﬁnancial supports
+through projects by Cenovus, Canada and the United State Depart-
+ment of Energy (DE-FC26-FE0001808).
+References
+1. de Diego LF, Garcia-babiano F, Adanez J, Gayan P, Abad A,
+Corbella BM, Palacios JM. Development of Cu-based oxygen
+carriers for chemical-looping combustion. Fuel. 2004;83:1749–57.
+2. Zafar Q, Abad A, Mattisson T, Gevert B. Reaction kinetics of
+freeze-granulated NiO/MgAl2O4 oxygen carrier particles for
+chemical-looping combustion. Energy Fuels. 2007;21:610–8.
+3. Moghtaderi B, Song H. Reduction properties of physically mixed
+metallic oxide oxygen carriers in chemical looping combustion.
+Energy Fuels. 2010;24:5359–68.
+4. Cho P, Mattisson T, Lyngfelt A. Comparison of iron-, nickel-,
+copper- and manganese-based oxygen carriers for chemical-
+looping combustion. Fuel. 2004;3:1215–25.
+5. Adanez J, de Diego LF, Garcia-labiano F, Gayan P, Abad A.
+Selection of oxygen carriers for chemical-looping combustion.
+Energy Fuels. 2004;18:371–7.
+6. Gu H, Shen LH, Xiao J, Zhang SW, Song T. Chemical looping
+combustion of biomass/coal with natural iron ore as oxygen
+carrier in a continuous reactor. Energy Fuels. 2011;25:446–55.
+7. Mattisson T, Jardnas A, Lyngfelt A. Reactivity of some metal
+oxides supported on alumina with alternating methane and oxy-
+gen-application of chemical-looping combustion. Energy Fuels.
+2003;17:643–51.
+8. Cao Y, Pan WP. Investigation of chemical looping combustion by
+solid fuels. 1. Process analysis. Energy Fuels. 2006;20:1836–44.
+9. Cao Y, Casenas B, Pan WP. Investigation of chemical looping
+combustion by solid fuels. 2. Redox reaction kinetics and product
+characterization with coal, biomass, and solid waste as solid fuels
+and CuO as an oxygen carrier. Energy Fuels. 2006;20:1845–54.
+10. Cao Y, Li B, Zhao HY, Lin CW, Sit SP, Pan WP. Investigation
+of asphalt (bitumen)-fuelled chemical looping combustion using
+durable copper-based oxygen carrier. Energy Procedia. 2011;4:
+457–64.
+11. Dueso C, Aba A, Garci-labiano F, Diego LF, Gayan P, Adanez J,
+Lyngfelt A. Reactivity of a NiO/Al2O3 oxygen carrier prepared
+by impregnation for chemical-looping combustion. Fuel. 2010;
+89:3399–409.
+12. Gayan P, Dueso C, Aba A, Adanez J, Diego L, Garcia-labiano F.
+NiO/Al2O3 oxygen carriers for chemical-looping combustion
+prepared by impregnation and deposition–precipitation methods.
+Fuel. 2009;88:1016–23.
+13. Moldenhauer P, Ryden M, Mattisson T, Lyngfelt A. Chemical-
+looping combustion and chemical-looping with oxygen uncou-
+pling of kerosene with Mn- and Cu-based oxygen carriers in a
+circulating ﬂuidized-bed 300 W laboratory reactor. Fuel Process
+Technol. 2012;104:378–89.
+14. Jernadl E, Mattisson T, Thijs I, Snijkers F, Lyngfelt A. NiO
+particles with Ca and Mg based additives produced by spray-
+drying as oxygen carriers for chemical-looping combustion.
+Energy Procedia. 2009;1:479–86.
+15. Diego LF, Gayan P, Garacia-Labiano F, Celaya J, Abad A,
+Adanez J. Impregnated CuO/Al2O3 oxygen carriers for chemical-
+looping combustion: avoiding ﬂuidizing be agglomeration. Energy
+Fuels. 2005;19:1850–6.
+16. Dennis JS, Muller CR, Scott SA. In situ gasiﬁcation and CO2
+separation using chemical looping with a Cu-based oxygen car-
+rier: performance with bituminous coals. Fuel. 2010;89:2353–64.
+17. Zhao HY, Cao Y, Kang ZZ, Wang YB, Pan WP. Thermal
+characteristics of Cu-based oxygen carriers. J Therm Anal Cal-
+orim. 2012;109:1105–9.
+18. Zhao HB, Liu LM, Xu D, Zheng CG, Liu GJ, Jiang LL. NiO/
+NiAl2O4 oxygen carriers prepared by sol–gel for chemical-looping
+combustion fueled by gas. J Fuel Chem Technol. 2008;36:261–6.
+19. Wang BW, Zhao HB, Zheng Y, Liu ZH, Yan R, Zheng CG.
+Chemical looping combustion of a Chinese anthracite with Fe2O3-
+based and CuO-based oxygen carriers. Fuel Process Technol.
+2012;96:104–15.
+1128
+H. Zhao et al.
+123

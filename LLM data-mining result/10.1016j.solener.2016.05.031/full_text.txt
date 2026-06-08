@@ -1,0 +1,1462 @@
+
+
+===== Page 1 =====
+
+Experimental assessment of oxygen exchange capacity and
+thermochemical redox cycle behavior of Ba and Sr series perovskites for
+solar energy storage
+Zekai Zhang a,b, Laurie Andre a, Stéphane Abanades a,⇑
+a Processes, Materials, and Solar Energy Laboratory, PROMES-CNRS (UPR 8521), 7 Rue du Four Solaire, 66120 Font-Romeu, France
+b Department of Energy Chemical Engineering, College of Chemical Engineering, Zhejiang University of Technology, Chaowang Road 18, 310014 Hangzhou, China
+a r t i c l e
+i n f o
+Article history:
+Received 22 March 2016
+Received in revised form 18 May 2016
+Accepted 19 May 2016
+Available online 26 May 2016
+Keywords:
+Thermochemical
+Solar energy storage
+Perovskites
+Redox pair
+Oxygen storage capacity
+a b s t r a c t
+Thermochemical redox processes involving novel oxygen ion conducting materials with perovskites
+structure are studied to evaluate their application potential for solar energy storage in concentrated solar
+power plants. A series of Ba and Sr containing perovskites was synthesized via modiﬁed Pechini method
+and their crystal structure was characterized by XRD. The thermochemical reduction–oxidation steps of
+the redox cycle and oxygen exchange capacity of the perovskites were investigated by thermogravimetric
+(TG) analysis. The results revealed that Co-based perovskites are the most promising candidates for solar
+thermochemical energy storage application. The O2 release/absorption of Co-based perovskites is com-
+pleted in a reversible way when reaching a given temperature. BaCoO3 reduction occurs promptly when
+the temperature reaches 900 C in Ar atmosphere (pO2 = 106 atm), and the oxidation proceeds com-
+pletely as soon as the gas is switched from Ar to 20% O2 at 600 C. In these conditions, the amount of
+monatomic oxygen released/captured reaches 0.47/0.49 mol per mol BaCoO3. Part substitution in A-
+site improves the O2 exchange capacity of Ba0.5Sr0.5FeO3d but not Ba0.5Sr0.5CoO3d, while part substitu-
+tion in B-site improves the O2 exchange capacity of SrCo0.8Fe0.2O3d and SrCo0.2Fe0.8O3d. Part substitution
+together
+in A-site and B-site of perovskites
+does not improve
+the O2 exchange capacity of
+Ba0.5Sr0.5Co0.8Fe0.2O3d and Ba0.5Sr0.5Co0.2Fe0.8O3d. The Fe-based perovskites generally exhibit continu-
+ous non-stoichiometry changes according to the temperature change suggesting continuous topotactic
+evolution, while the non-stoichiometry of Mn-based systems is almost not changed at the considered
+temperatures. Ba containing systems (BaCoO3, BaFeO3 and Ba0.5Sr0.5CoO3) show the largest oxygen
+release ability under inert (pO2 = 106 atm) or oxidizing atmosphere (pO2 = 0.2 atm) up to 1050 C, while
+only BaCoO3 can be fully re-oxidized at 600 C in a 20% O2 atmosphere, with an energy storage capacity of
+292 J/g.
+ 2016 Elsevier Ltd. All rights reserved.
+1. Introduction
+Solar energy is considered to be an abundant, clean and renew-
+able energy. Due to the low energy density and intermittent sup-
+ply, concentrating and subsequent storage of solar energy is
+thereby an attractive procedure for solar energy utilization, such
+as photon to voltage, solar to thermal and solar to fuel conversion.
+The latter procedure can be realized through electrochemical, pho-
+tochemical, or thermochemical splitting of H2O and CO2 (Scheffe
+and Steinfeld, 2014; Petrovic et al., 2015). Among these processes,
+thermochemical splitting of CO2 and H2O attracts much interest
+because it utilizes the entire spectrum of solar light to generate
+CO and H2. The syngas mixture H2/CO can be further processed
+to liquid hydrocarbon fuels via Fischer–Tropsch and other catalytic
+processes.
+A typical procedure for thermochemical redox processes often
+consists of two-step cycles using reversible metal oxide redox reac-
+tions (redox pair) (Agraﬁotis et al., 2015). In the ﬁrst step, the metal
+oxide is heated by concentrated solar energy and thermal reduc-
+tion releases O2 during temperature increase; in the second step,
+the reduced metal oxide is re-oxidized by re-incorporating into
+the lattice oxygen from CO2 and H2O, which produces CO and H2.
+Alternatively, the stored energy during the endothermal reduc-
+tion step can be recovered during the reversible exothermal oxida-
+tion reaction with air. In this case, the exploitation of the endo/
+exothermal effects of the reactions is favored over the production
+http://dx.doi.org/10.1016/j.solener.2016.05.031
+0038-092X/ 2016 Elsevier Ltd. All rights reserved.
+⇑Corresponding author.
+E-mail address: stephane.abanades@promes.cnrs.fr (S. Abanades).
+Solar Energy 134 (2016) 494–502
+Contents lists available at ScienceDirect
+Solar Energy
+journal homepage: www.elsevier.com/locate/solener
+
+
+===== Page 2 =====
+
+of chemical fuels and the materials are used as thermochemical
+energy storage media (Pagkoura et al., 2014):
+MOreduced state þ O2 $ MOoxidized state þ heat
+ðEnergy storageÞ
+ð1Þ
+As the thermochemical redox processes are all realized via the
+oxygen exchange properties of redox materials, the redox pair sys-
+tem has to be carefully chosen, and the oxygen exchange capacity
+thereby becomes one of the important factors. Till now, different
+single metal oxides such as ZnO/Zn, CdO/Cd, SnO2/SnO, GeO2/
+GeO (volatile), and mixed metal oxides based on ceria, ferrites,
+and
+hercynite
+(non-volatile)
+have
+been
+extensively
+studied
+(Pardo et al., 2014; Levêque and Abanades, 2014; Alonso et al.,
+2015; Loutzenhiser and Steinfeld, 2011; Koepf et al., 2012). The
+volatile systems often meet the recombination problem of the
+decomposition products, while the non-volatile systems such as
+CeO2 and Fe3O4 may face the strong and non-ﬂexible binding
+energy between metal and oxygen, which leads to low yields of
+the either reduction or oxidation step. Mixed metal oxides systems
+can then be considered in order to adjust the oxygen exchange
+capacity and working temperature.
+Among the mixed metal oxides redox materials, perovskites
+with ABO3 formula may represent good candidates with high
+potential for the solar thermochemical application. Due to high tol-
+erance of distort structure, the materials can still keep the per-
+ovskites crystal structure even after losing much oxygen ions,
+yielding non-stoichiometric compounds (Royer et al., 2014). Per-
+ovskites structure can be substituted in A or B sites via different
+elements to obtain a large class of candidate redox systems with
+ﬂexible metal–oxygen binding energies, which is favorable for
+the adjustment of the oxygen exchange capacity and working tem-
+peratures. Thermal reduction proceeds via the formation of oxygen
+vacancies and the release of gaseous O2, resulting in the change in
+materials stoichiometry.
+Several studies have focused on the thermochemical behavior
+of perovskites (Jiang et al., 2014; Demont et al., 2014; Babiniec
+et al., 2015). The group of ETH/PSI investigated LaxSr1xMnO3 for
+both H2O and CO2 splitting, which is a classic system with per-
+ovskite structure (Scheffe et al., 2013). The results corroborated
+the higher O2 yield of perovskites compared to that of ceria. Yang
+et al. provided a quantitative assessment of the thermodynamic
+and kinetic properties of La1xSrxMnO3d perovskites. Sr-doping
+into lanthanum manganite increases the thermodynamic fuel pro-
+duction capacity, which reaches 9 Nml g1 H2 with La0.6Sr0.4-
+MnO3d for a thermochemical cycle operated between 1400 C in
+Ar (containing 10 ppm O2) and 800 C (pH2O = 0.20 atm) (Yang
+et al., 2014). A subsequent study of LaxSr1xMnyAl1yO3 on H2O
+and CO2 splitting showed that this material exhibited much higher
+reduction extent than ceria, achieved in addition at about 300 C
+lower temperature, as well as multi-cyclic capability between
+1400 C and 1000 C (McDaniel et al., 2013). A combination of
+ab initio and experimental study based on SrxLa1xMnyAl1yO3 sys-
+tem also demonstrated that the binding energy of metal–oxygen in
+perovskite materials can be optimized through compositional tun-
+ing (Deml et al., 2014). Dey et al. (2015) studied the Ln0.5A0.5MnO3
+(Ln = lanthanide, A = Sr, Ca) systems for the thermochemical split-
+ting of H2O and CO2 respectively and suggest that the amounts of
+O2 and CO produced strongly depend on the size of the rare earth
+and alkaline earth cations in A-site. Bork et al. (2015) then tuned
+the B-site of La0.6Sr0.4Cr1xCoxO3d system and found that La0.6-
+Sr0.4Cr0.8Co0.2O3d splits 25 times more CO2 compared to ceria for
+two-step cycling between 1200 C in Ar and 800 C in 50% CO2.
+Gálvez et al. (2015) studied the effect of A-site and B-site substitu-
+tion (Ca, Sr and Al) on the LaMnO3 perovskites, and found that the
+stability of LaMnO3 is detrimentally affected by sintering and by
+the formation and eventual segregation of a carbonate phase dur-
+ing oxidation by CO2. Carbonation of the Ca and Sr phase was
+diminished by Al-substitution in the B-site.
+Design principles of perovskites were then proposed by Ezbiri
+and Michalsky et al., using electronic structure calculations and
+thermogravimetric analysis (Ezbiri et al., 2015; Michalsky et al.,
+2015). Furthermore, potential perovskites systems without lan-
+thanum in A-site such as SrCoO3d, BaCoO3d and BaMnO3d were
+introduced and SrCoO3d reached an oxygen exchange capacity of
+44 mmolO2/mol SrCoO3d with speciﬁed pO2 (reduction at 900 K
+and 20 vol% O2 and oxidation at 600 K and 3.5 vol% O2). The results
+should be beneﬁcial for the application of perovskites in solar ther-
+mochemical ﬁelds, as previous studies showed that the presence of
+lanthanum in perovskites seems to be not favorable for its oxygen
+exchange capacity (Babiniec et al., 2015).
+The objective of this paper is to study the potential of per-
+ovskites with Ba and/or Sr without La in A-site in solar thermo-
+chemical
+processes
+for
+energy
+storage
+application.
+The
+composition in materials oxygen content (non-stoichiometry) is
+modiﬁed as a function of the temperature because of the ability
+of the crystal structure to sustain large topotactic oxygen disincor-
+poration. The study aimed to identify the materials that exhibit the
+largest amounts of oxygen that can be produced over the course of
+such topotactic reductions, and that can at the same time reincor-
+porate the same amount of oxygen in a complete reversible way.
+The reversibility of reduction and oxidation reactions is investi-
+gated to screen the most attractive materials.
+2. Experimental
+The perovskite based materials with different compositions
+considered
+in
+this
+study
+are
+SrMnO3d,
+SrCoO3d,
+SrFeO3d,
+BaCoO3d, BaFeO3d, BaMnO3d, SrCo0.8Fe0.2O3d, SrCo0.2Fe0.8O3d,
+Ba0.5Sr0.5CoO3d,
+Ba0.5Sr0.5FeO3d,
+Ba0.5Sr0.5Co0.8Fe0.2O3d
+and
+Table 1
+Main crystal phase of different perovskites samples by ICDD.
+Samples
+Abbrev.
+Ref. code
+Crystal system
+Main crystal phase
+SrMnO3d
+00-024-1213
+Hexagonal
+SrMnO3
+SrCoO3d
+00-040-1018
+Hexagonal
+SrCoO2.52
+SrFeO3d
+00-040-0905
+Cubic
+SrFeO2.97
+BaCoO3d
+01-074-9199
+Hexagonal
+Ba5Co5O14
+BaFeO3d
+00-020-0131
+Rhombohedral
+BaFeO2.64
+BaMnO3d
+00-014-0228
+Hexagonal
+BaMnO3
+SrCo0.8Fe0.2O3d
+SCF-82
+00-040-1018
+Cubic
+SrCoO2.52
+SrCo0.2Fe0.8O3d
+SCF-28
+00-040-0905
+Cubic
+SrFeO2.97
+Ba0.5Sr0.5CoO3d
+BSC-55
+00-040-1018
+Hexagonal
+SrCoO2.52
+Ba0.5Sr0.5FeO3d
+BSF-55
+00-020-0127
+Cubic
+BaFeO2.88
+Ba0.5Sr0.5Co0.8
+BSCF-5582
+00-055-0563
+Cubic
+Ba0.5Sr0.5Co0.8
+Fe0.2O3d
+Fe0.2O2.55
+Ba0.5Sr0.5Co0.2
+BSCF-5528
+00-055-0563
+Cubic
+Ba0.5Sr0.5Co0.8
+Fe0.8O3d
+Fe0.2O2.55
+Z. Zhang et al. / Solar Energy 134 (2016) 494–502
+495
+
+
+===== Page 3 =====
+
+Ba0.5Sr0.5Co0.2Fe0.8O3d. For convenience, the substituted samples
+are written in abbreviation, as listed in Table 1. The concerned pre-
+cursors are Ba(NO3)2 (Sigma–Aldrich), Sr(NO3)2 (Sigma–Aldrich),
+Mn(NO3)2 (Acros Organics), Fe(NO3)36H2O (Acros Organics), Co
+(NO3)26H2O (Acros Organics) and glycine (Acros Organics). The
+preparation procedure follows an improved Pechini method. For
+each sample, certain molar ratio of the metal precursors were dis-
+solved together with a certain amount of glycine in the de-ionized
+water containing several drops of nitric acid (65%). The solution
+was heated and stirred with an electromagnetic stirrer till it was
+converted into a resin. Then the resin was removed into a mufﬂe
+and heated from room temperature to 300 C in static air with a
+heating rate of about 2 C/min to remove the organic compounds.
+The powder was cooled and heated at 1000 C in static air for
+20 h with intermediate ball milling to form and stabilize the crystal
+structure. The weight of every sample was kept at about 2 g.
+XRD patterns were collected with an X’Pert Pro PANalytical
+diffractometer equipped with an X’celerator detector and working
+with Cu Ka1 and Ka2 radiations. The measurements of symmetri-
+cal scans were carried out in the range of 2h = 10–100 with a step
+size of 0.01.
+Thermogravimetric (TG) data were collected using a NETZSCH
+STA449 apparatus, with sample masses of approximately 67 mg
+placed in an Al2O3 crucible. In general, the thermal reduction and
+oxidation steps were performed at atmospheric pressure under a
+gas ﬂow mixture of 40 Nml min1 Ar (O2 content below 2 ppm)
+and 10 Nml min1 O2 (gas ﬂow rates given at normal conditions:
+0 C, 1 atm). The detailed temperature and gas composition pro-
+gram can be seen in Fig. 1. All heating and cooling steps were per-
+formed with ramping rates of 20 C/min. Simultaneous differential
+scanning calorimetry (DSC) was also performed. After a ﬁrst reduc-
+tion step in Ar, an oxidation step was carried out at a given temper-
+ature of 600 C by switching the gas ﬂow from Ar to 20% O2/Ar in
+order to quantify the energy released during this exothermal oxi-
+dation step. This method was used to measure an energy storage
+capacity. This energy delivered during oxidation in isothermal con-
+ditions is speciﬁed in Table 2.
+3. Results and discussion
+The XRD patterns of perovskites with different compositions are
+shown in Fig. 2. The main peaks observed in all diffractograms can
+be attributed to the characteristic perovskite structure. The main
+reﬂection difference can also be observed, which may be originated
+from the distortions of the ideal cubic perovskites. SrFeO3d shows
+the strongest intensity, while the BaFeO3d is the weakest among
+all the samples. The weak peak at about 2h = 18.3 is reﬂection of
+(100) surface, and the peaks at 2h = 32.8, 40.5, 47.1, 53.1,
+58.6, 68.8, 78.3, 83.7, and 96.8 reﬂect (110), (111), (200),
+(210), (211), (220), (310), (311) and (321) crystal surface of
+SrFeO2.97 with cubic structure respectively. On the pattern of
+SrCoO3d, the peak appearing at 2h = 28.5 is reﬂection of (101)
+surface; 2h = 32.8 is reﬂection of (110) surface; 2h = 43.8 is
+reﬂection of (201) surface; and the peak at 55.6 is from (112)
+of SrCoO2.52 with hexagonal crystal structure. The peaks of SrMnO3
+and BaMnO3 are somewhat complicated, but it still can be identi-
+ﬁed as SrMnO3 and BaMnO3 with hexagonal structure. The other
+samples are analyzed with the same procedure. Main crystal sys-
+tem and crystal phase of these materials have been determined
+from the PXRD diagram databases of ICDD, as listed in Table 1.
+Thermochemical redox behavior of all the perovskites samples
+was measured using thermogravimetric analysis (TGA) after data
+correction using a blank run. The whole experimental process con-
+sisted of two redox cycles. In the ﬁrst redox cycle, the sample was
+ﬁrst heated to 950 C, and then kept at 950 C for 10 min in the Ar
+ﬂow (reduction step). In the following oxidation step, the sample
+was ﬁrst cooled down to 600 C in Ar ﬂow (pO2 = 106 atm), and
+then kept at 600 C in 20 vol% O2/80 vol% Ar ﬂow for 30 min, at last,
+it was further cooled down to 300 C in the same O2/Ar ﬂow. In the
+second cycle, the sample was heated from 300 C to 1050 C and
+kept at 1050 C for 10 min (reduction step), then it was directly
+cooled down to 300 C. The whole second cycle was carried out
+in the 20 vol% O2/80 vol% Ar ﬂow, and all the cycles were carried
+out at atmospheric pressure. The different gas atmospheres were
+chosen to determine the effect of the oxygen partial pressure
+(pO2) on the materials redox capacity. Reducing in Ar allows quan-
+tifying the maximum amount of oxygen able to be exchanged at a
+given temperature and further allows performing oxidation in
+isothermal conditions (here 600 C) by simply switching the gas
+atmosphere. The second cycle is performed to quantify the contin-
+uous non-stoichiometry changes of the materials and to check if
+the process is totally reversible or not. In this study, the maximum
+temperature was limited to 1050 C to avoid materials sintering
+and coarsening. Given the relatively low temperature of the pro-
+cess, we assume that materials that exhibit completely reversible
+reactions (i.e. the amount of oxygen released can be replenished
+completely) could be cycled because the stability is usually lost
+in the ﬁrst cycle. So we did not focus the study on the redox stabil-
+ity during extensive cycling.
+Perovskite
+oxides
+usually
+exhibit
+continuous
+non-
+stoichiometric changes during reduction. Continuous topotactic
+evolution involves weak energy supply during the reduction
+because the crystallographic structure of the materials remains
+unchanged. In this case, oxide ion departure from the crystal lattice
+is not governed by a single energy threshold. For this reason, mea-
+surement of the enthalpy change of the reduction with thermal
+analysis technique is not straightforward, as it could be in the case
+of
+stoichiometric
+oxides
+that
+show
+phase
+transitions
+(thus
+enthalpy changes) at a given temperature. The DSC peak during
+Fig. 1. Temperature and gas composition program of TG analysis (pO2 = 106 atm
+when pure Ar is used, pO2 = 0.2 atm when O2/Ar mixture is used).
+Table 2
+Reaction enthalpies measured by DSC during oxidation of different perovskites at
+600 C.
+Samples
+Reaction enthalpy (J/g)
+Samples
+Reaction enthalpy (J/g)
+SrMnO3d
+17.4
+BSC-55
+172.6
+SrCoO3d
+39.6
+BSF-55
+21.4
+SrFeO3d
+53.3
+SCF-82
+45.4
+BaMnO3d
+–
+SCF-28
+24.0
+BaFeO3d
+–
+BSCF-5528
+21.2
+BaCoO3d
+292.1
+BSCF-5582
+46.5
+496
+Z. Zhang et al. / Solar Energy 134 (2016) 494–502
+
+
+===== Page 4 =====
+
+reduction (corresponding to heat charge) or during oxidation (heat
+discharge) in air atmosphere is thus not observable. This study was
+therefore not focused directly on the measurement of the energy
+density of the materials but on the oxygen storage capacity at high
+temperatures for solar energy storage application.
+Fig. 3 shows the redox behavior of SrBO3d (B = Fe, Co, and Mn)
+perovskites in the two cycles. It can be clearly seen that both the
+redox pattern and oxygen exchange capacity of the three samples
+are different from each other. SrCoO3d shows the most complex
+redox pattern and the largest O2 exchange capacity. During the
+two reduction steps, SrCoO3d releases about 2.79 and 1.82 mass
+% of O2, respectively. The reduction pattern of SrCoO3d contains
+three mass losses (attributed to the O2 release) stages in the ﬁrst
+redox cycle. In the ﬁrst reduction stage (100 C to about 800 C),
+the mass of SrCoO3d gradually decreases with temperature
+increase; then it decreases sharply and quickly at about 800 C
+and 900 C in sequence. If the differential method is used to obtain
+the mass variation rate shown in Fig. 4, the reduction rate of the
+three stages can be obtained as 0.13%/min, 0.21%/min and 0.19%/
+min, respectively. In the reduction step of the second redox cycle,
+the sharp mass loss at 800 C disappears; while the sharp mass loss
+happens at 900 C again. The reduction rate reaches the maximum
+of 0.34%/min. The disappearance of sharp mass loss at 800 C may
+indicate the inﬂuence of the reduction atmosphere. The presence of
+O2 in the ﬂow may suppress the O2 release of SrCoO3d in the sec-
+ond redox cycle. At the same time, the sharp mass loss at 900 C in
+the reduction step suggests that SrCoO3d shows at least two dif-
+ferent O2 release mechanisms below and above 900 C. Below
+900 C, it releases O2 at a steady rate, while after the temperature
+reaches 900 C, it releases all the remaining exchangeable O2, and
+does not release more O2 even if the temperature continually
+increases.
+In Fig. 3, the oxidation pattern of SrCoO3d is also distinct. In the
+ﬁrst redox cycle, the reduced SrCoO3d captures a large amount of
+O2 (1.72 mass%) as soon as the atmosphere is switched from pure
+Ar to 20% O2 at 600 C. The oxidation rate in Fig. 4 reaches 1.30%/
+min. It only further captures very little amount of O2 in the left
+time. When the temperature further decreases from 600 C to
+300 C, it captures 0.31 mass% of O2, but the oxidation process is
+ﬁnished at about 400 C.
+Next, SrFeO3d shows simple redox pattern but high O2
+exchange capacity. The reduction step only contains one stage. It
+releases 2.04 mass% O2 with a slow but steady rate of 0.07%/min
+in the ﬁrst redox cycle. It captures about 1.33 mass% O2 as soon
+as the atmosphere is switched from Ar to 20% O2 at 600 C. The oxi-
+dation rate reaches 1.89%/min, which is higher than for SrCoO3d.
+When the temperature decreases from 600 C to 300 C, it captures
+more O2 (0.69 mass%), and the mass variation is corresponding to
+the temperature decrease with a rate of about 0.046%/min. In the
+second redox cycle, SrFeO3d keeps a relative stable O2 exchange
+rate with the temperature increase/decrease. More importantly,
+the O2 exchange capacity of SrFeO3d is perfectly reversible. It
+releases 2.04 mass% O2 and captures 2.03 mass% O2 in the ﬁrst
+Fig. 2. XRD patterns of non-substituted perovskites samples.
+0
+50
+100
+150
+200
+0
+200
+400
+600
+800
+1000
+Mass (%)
+Temperature (
+oC)
+Time (min)
+97
+98
+99
+100
+101
+ SrCoO3-δ
+ SrFeO3-δ
+ SrMnO3-δ
+Fig. 3. Redox behavior of SrBO3d (B = Fe, Co and Mn) perovskites.
+0
+50
+100
+150
+200
+0
+200
+400
+600
+800
+1000
+mass%/min
+Temperature (
+oC)
+Time (min)
+-0.5
+0.0
+0.5
+1.0
+1.5
+2
+nd oxidation
+2
+nd reduction
+1
+st reduction
+1
+st oxidation
+Fig. 4. O2 exchange rate of SrCoO3d during the process.
+Z. Zhang et al. / Solar Energy 134 (2016) 494–502
+497
+
+
+===== Page 5 =====
+
+redox cycle, and 1.45 mass% O2/1.45 mass% O2 in the second cycle.
+Besides, this is normal that the mass lost (O2 release) during sec-
+ond cycle in 20% O2 is lower than the mass lost in Ar during ﬁrst
+cycle, because reduction is favored in inert gas at low pO2. Finally,
+SrFeO3d
+displays
+typical
+behavior
+of
+continuous
+non-
+stoichiometric changes. As the second cycle is performed by main-
+taining constant the O2 at 20% in both reduction and oxidation
+steps, there is an equilibrium established for each temperature
+concerning the oxygen non-stoichiometry (the temperature ﬁxes
+the non-stoichiometry at given pO2). The heating up to 1050 C
+and cooling steps were implemented to check the reversibility of
+the process. The immediate oxidation (mass uptake) when just
+starting the cooling is normal, since oxygen is immediately recov-
+ered in the lattice when the process is perfectly reversible. The
+reaction reversibility (oxygen released and absorbed must be
+equal) is one of the key characteristics that materials must exhibit
+for energy storage application.
+As for SrMnO3d, in the ﬁrst redox cycle, it keeps stable till
+about 900 C and then only releases about 0.38 mass% O2. Though
+about 0.11 mass% O2 is captured at 600 C, it cannot release or cap-
+ture O2 again even when the temperature decreases to 300 C. The
+poor redox behavior is probably caused by the well crystallized
+structure, as shown in Fig. 2, which requires even higher tempera-
+ture to reduce. The limited reduction inﬂuences its subsequent oxi-
+dation. To conﬁrm this hypothesis, the reduction temperature of
+SrMnO3d was heightened to 1150 C (Fig. S6). The material
+released up to 1.88 mass% O2 in Ar (pO2 = 106 atm) at 1150 C
+and it seems that the reduction process was not ﬁnished yet. In
+contrast, reduction in 20% O2 at 1150 C remained weak because
+the temperature was still not high enough for a favored reduction
+at high pO2 (0.2 atm). The oxidation in 20% O2 was complete at
+600 C, which means the process is reversible.
+In general, SrCoO3d shows the largest O2 exchange capacity
+and SrFeO3d shows the best reversible performance among all
+the three samples. The results show that SrFeO3d and SrCoO3d
+can be good candidates for oxygen exchange during solar thermo-
+chemical conversion while SrMnO3d is not suitable for tempera-
+tures below 1050 C.
+Thermochemical redox behaviors of the BaBO3 series per-
+ovskites are then discussed. Fig. 5 shows the O2 exchange pattern
+and capacity of BaBO3d perovskites that were measured by TGA.
+The BaCoO3d shows similar redox pattern but even better O2
+exchange capacity than SrCoO3d. In the ﬁrst redox cycle, the
+reduction step contains two stages. It does not release O2 until
+the temperature increases to 400 C. In the range of 400–900 C,
+it begins to release O2 with a rate of 0.15%/min, as shown in
+Fig. 6. At 900 C, similar to SrCoO3d, a sharp mass loss suddenly
+appears. The reduction rate yields to 0.50%/min. The total mass loss
+reaches 3.13% and it can be almost fully oxidized as soon as the
+atmosphere is switched from Ar to 20% O2 at 600 C. The oxidation
+rate reaches 3.19%/min. Reasonably, little part (0.13 mass%) is fur-
+ther oxidized when the temperature decreases to 300 C. In the
+second redox cycle, the two stages of reduction step and one stage
+of oxidation step appear again; while the oxidation degree and rate
+are both decreased.
+Next, interestingly, BaFeO3d shows more complex redox pat-
+tern and larger O2 release ability than SrFeO3d in the ﬁrst redox
+cycle; while it shows very poor O2 capture ability in the oxidation
+step. In the ﬁrst redox cycle, four stages in the range of 130–300 C,
+400–550 C, 550–900 C and at 900 C, appear during the reduction
+step. The total O2 release reaches about 3.0 mass%, which makes
+BaFeO3d a good candidate for reduction. Unfortunately, it shows
+very poor oxidation ability and this restrains its potential. It only
+captures 0.11 mass% O2 as soon as the atmosphere is switched
+from Ar to 20% O2 at 600 C and keeps stable afterward. Only when
+the temperature decreases from 600 C to 300 C, it captures some
+more O2 (0.82 mass%). In the second cycle, the previously captured
+O2 is lost again to reach the same ﬁnal reduction extent and the
+same mass is subsequently recovered during oxidation upon cool-
+ing in 20% O2.
+Similar to SrMnO3, the BaMnO3d shows poor redox behavior
+under the same reaction conditions. It seems that it cannot be
+reduced or oxidized during the course of the temperature-
+programmed experiment, and higher temperatures than 1050 C
+may be required in order to favor reduction, as for the case of
+SrMnO3d. The results thus indicate that Co-based perovskites are
+the best candidates for oxygen exchange applied to solar thermo-
+chemical energy storage, which is consistent with the prediction
+of Ezbiri et al. (2015).
+Besides, on the basis of BaBO3d and SrBO3d series results, it
+can be observed that BaCoO3d and SrFeO3d exhibit good reversi-
+ble redox property, while SrCoO3d and BaFeO3d show complex
+reduction pattern with several stages. The complex reduction pat-
+tern seems to be not favorable for the O2 capture ability during oxi-
+dation. The different stages may be originated from the transition
+of perovskites phases with different non-stoichiometry and crystal
+structures (Fjellvåg et al., 1995). While SrFeO3d and BaCoO3d
+might undergo less phase transitions, they are easier to be re-
+oxidized.
+Due to the high tolerance ability of ABO3 structure, a common
+method
+consists
+in
+tuning
+the
+O2
+exchange
+capacity
+of
+perovskite-based materials by part substitution of A or B sites with
+other elements and changing the ABO3 formula into (A,A0)BO3 or A
+(B,B0)O3. As the BaFeO3d, BaCoO3d, SrFeO3d and SrCoO3d show
+better O2 exchange capacity among the tested perovskites materi-
+als, they are chosen as the reference systems for substitution. Half
+of Ba in the BaFeO3d and BaCoO3d was substituted by Sr in the A-
+site, Ba0.5Sr0.5FeO3d and Ba0.5Sr0.5CoO3d samples were thereby
+obtained. Similarly, part substitution in the B-site brings the
+SrCo0.8Fe0.2O3d and SrCo0.2Fe0.8O3d. Their XRD patterns are pre-
+sented in Fig. 7. According to ICDD database, the crystal system
+and main crystal phase are also determined and listed in Table 1.
+Fig. 8 displays the TGA results of A or B site substituted samples.
+In Fig. 8A, the substitution of Sr does not change the redox pattern
+of Ba0.5Sr0.5CoO3d and Ba0.5Sr0.5FeO3d but inﬂuences the O2
+exchange
+capacity
+as
+expected.
+Ba0.5Sr0.5CoO3d
+releases
+3.49 mass% O2 in the reduction step of the ﬁrst redox cycle, which
+is higher than for BaCoO3d and SrCoO3d. Probably due to the
+sharp mass loss at 900 C, it does not capture enough O2 in the next
+oxidation step. Only 2.47 mass% is recovered at 600 C, which is
+larger than SrCoO3d but smaller than BaCoO3d. In the second
+cycle,
+Ba0.5Sr0.5CoO3d
+releases
+2.09 mass%
+O2
+and
+captures
+0
+50
+100
+150
+200
+0
+200
+400
+600
+800
+1000
+Mass (%)
+Temperature (
+oC)
+Time (min)
+97
+98
+99
+100
+101
+ BaCoO3-δ
+ BaFeO3-δ
+ BaMnO3-δ
+Fig. 5. Redox behavior of BaBO3d (B = Fe, Co and Mn) perovskites.
+498
+Z. Zhang et al. / Solar Energy 134 (2016) 494–502
+
+
+===== Page 6 =====
+
+1.90 mass% O2. It means that the O2 exchange reversibility is
+improved in the second cycle. For Ba0.5Sr0.5FeO3d, it releases
+2.05 mass% O2 in the ﬁrst redox cycle, which is close to SrFeO3d
+but smaller than BaFeO3d. Then, 1.90 mass% O2 is captured when
+the temperature decreases to 300 C, which is close to SrFeO3d but
+much higher than BaFeO3d. Further, in the second cycle, it releases
+1.77 mass% O2 in the reduction step and captures 1.86 mass% O2 in
+the oxidation step. It means that its reversible oxygen exchange
+property is also improved. In general, the coexistence of Ba and
+Sr has positive effect on the O2 exchange capacity of Ba0.5Sr0.5-
+CoO3d and Ba0.5Sr0.5FeO3d, especially for the reversibility.
+Next, partial substitution of SrCoO3d by iron leads to a change
+in the redox pattern of SrCo0.8Fe0.2O3d and SrCo0.2Fe0.8O3d
+(Fig. 8B). The different reduction stages of SrCo0.8Fe0.2O3d appear
+in the range of 100–250 C, 250–350 C, 350–580 C and 580–
+950 C, respectively (Fig. S4). The reduction rate is maximum
+(0.41%/min) in the range of 350–580 C. At high temperature, the
+sharp mass loss is diminished and the reduction rate is limited to
+0.06%/min. The oxidation pattern is also shifted to resemble the
+SrFeO3d pattern. It is ﬁrst partially oxidized at 600 C with an
+equilibrium reached rapidly, and then further oxidized with a con-
+stant rate when the temperature decreases from 600 C to 300 C.
+Similarly in the second cycle, both the oxidation and reduction
+steps are realized with constant rates following the temperature
+variation proﬁle, which highlights the rapid equilibrium reached
+for each temperature. As for SrCo0.2Fe0.8O3d, probably due to the
+presence of iron as the main element in B-site, a similar redox pat-
+tern as SrFeO3d is observed. The inﬂuence of iron on the redox pat-
+tern of SrCo0.8Fe0.2O3d and SrCo0.2Fe0.8O3d is thus evidenced.
+Then, we partially substituted the A and B sites of ABO3 per-
+ovskites at the same time, and obtained Ba0.5Sr0.5Co0.8Fe0.2O3d
+and Ba0.5Sr0.5Co0.2Fe0.8O3d, which are well known anode materials
+for the applications in fuel cells. The XRD patterns are presented in
+Fig. 9, which is consistent with the previous studies (Arnold et al.,
+2008). The TGA results are presented in Fig. 10. The redox behavior
+of the two samples follows the characteristics of SrCoO3d and
+SrFeO3d. In the ﬁrst redox cycle, the oxidation step follows the
+0
+50
+100
+150
+200
+0
+200
+400
+600
+800
+1000
+Mass%/min
+Temperature (
+oC)
+Time (min)
+-1
+0
+1
+2
+3
+2
+nd oxidation
+1
+st oxidation
+2
+nd reduction
+1
+st reduction
+0
+50
+100
+150
+200
+0
+200
+400
+600
+800
+1000
+Mass%/min
+Temperature (
+oC)
+Time (min)
+-0.2
+-0.1
+0.0
+0.1
+0.2
+0.3
+2
+nd oxidation
+1
+st oxidation
+2
+nd reduction
+1
+st reduction
+Fig. 6. O2 exchange rate of BaCoO3d (left) and BaFeO3d (right) during the process.
+Fig. 7. XRD patterns of A site or B site substituted perovskites.
+0
+50
+100
+150
+200
+0
+200
+400
+600
+800
+1000
+Mass (%)
+Temperature (
+oC)
+Time (min)
+97
+98
+99
+100
+101
+ BSC-55
+ BSF-55
+(A)
+0
+50
+100
+150
+200
+0
+200
+400
+600
+800
+1000
+Mass (%)
+Temperature (
+oC)
+Time (min)
+97
+98
+99
+100
+101
+ SCF-28
+ SCF-82
+(B)
+Fig. 8. Redox behavior of A-site or B-site substituted perovskites: (A) Ba0.5Sr0.5-
+FeO3d and Ba0.5Sr0.5CoO3d (A-site substituted); (B) SrCo0.8Fe0.2O3d and SrCo0.2-
+Fe0.8O3d (B-site substituted).
+Z. Zhang et al. / Solar Energy 134 (2016) 494–502
+499
+
+
+===== Page 7 =====
+
+characteristic of SrFeO3d. While in the second redox cycle, it
+shows a combined effect of SrCoO3d and SrFeO3d. It releases O2
+with a quasi-constant rate during the temperature increase, and
+ﬁnally captures O2 with a quasi-constant rate during the tempera-
+ture decrease. The phenomenon is more pronounced on the proﬁle
+of Ba0.5Sr0.5Co0.8Fe0.2O3d, which contains more cobalt. Unfortu-
+nately, this phenomenon does not help for the redox ability of
+Ba0.5Sr0.5Co0.8Fe0.2O3d and Ba0.5Sr0.5Co0.2Fe0.8O3d. In fact, the O2
+exchange capacities of the two samples have been restrained
+greatly. In the ﬁrst redox cycle, Ba0.5Sr0.5Co0.2Fe0.8O3d only
+releases 1.81 mass% O2 in the reduction step and captures 1.57%
+in the oxidation step; Ba0.5Sr0.5Co0.8Fe0.2O3d releases 1.95 mass%
+O2 in the reduction step and captures 1.80% in the oxidation step.
+All these values are much lower than those of samples without
+substitution under the same conditions. The results may indicate
+that substitution of A and B sites of perovskite-based materials
+does not always favor the O2 exchange capacity.
+Besides the O2 exchange capacity, the amount of heat absorbed
+and released is the ﬁnal criterion for assessing the use of such
+materials for thermochemical energy storage application. How-
+ever,
+perovskites
+commonly
+exhibit
+continuous
+non-
+stoichiometric changes during reduction and oxidation steps, as
+could be seen in Figs. 3 and 8. Thus quantiﬁcation of the heat
+exchanged is awkward for topotactic reactions. That is the reason
+why an oxidation step at constant temperature (600 C) was per-
+formed in the ﬁrst cycle by switching the gas atmosphere (from
+Ar to 20% O2). By this way, it was possible to quantify by DSC the
+amount of heat released (reaction enthalpy) during oxidation.
+The reaction enthalpies are listed in Table 2. The Co-based materi-
+als show higher reaction enthalpy than others, and the highest
+amount of energy released during oxidation at 600 C (292.1 J/
+g) is obtained for BaCoO3 because the reaction is complete in this
+case.
+In general, Co-based and Fe-based perovskites show high O2
+exchange capacity here; while their redox patterns are clearly dif-
+ferent from each other. The O2 release and capture of Co-based per-
+ovskites is rapid and seems like that there is a ‘‘switch” when
+reaching a given temperature (900 C); while the oxygen non-
+stoichiometry of Fe-based perovskites is gradually changed accord-
+ing to the equilibrium following the temperature proﬁle. Reduction
+is usually continuous in non-stoichiometric materials based on
+topotactic transformations. When not the case, it can be most
+probably due to crystal phase transitions and this is generally
+not reversible. To better understand the redox behavior of these
+different perovskites materials, the mole values of oxygen atom
+lost per mol perovskites during different steps are calculated,
+which reﬂects the non-stoichiometry variation of perovskites dur-
+ing the redox process. The results are listed in Table 3. It can be
+seen that in the ﬁrst redox cycle, the three Co-based samples
+(SrCoO3d,
+BaCoO3d
+and
+Ba0.5Sr0.5CoO3d)
+release
+0.33 mol,
+0.47 mol and 0.45 mol monatomic oxygen, and then capture
+0.21 mol, 0.49 mol and 0.26 mol monatomic oxygen per mol sam-
+ples as soon as the atmosphere is switched from Ar to 20% O2 at
+600 C, while only 0.03 mol, 0.02 mol and 0.03 mol monatomic
+oxygen are further captured when the temperature decreases from
+600 C to 300 C. It means that the oxidation step is mainly ﬁnished
+20
+40
+60
+80
+100
+0
+1000
+2000
+3000
+4000
+5000
+♥
+♥
+♥
+♥
+♥
+♥
+♥
+♥
+♥
+♥
+♥
+♥:Ba0.5Sr0.5Co0.8Fe0.2O2.55
+Intensity (a.u.)
+2θ (
+o)
+ BSCF-5582
+ BSCF-5528
+Fig. 9. XRD patterns of Ba0.5Sr0.5Co0.8Fe0.2O3d and Ba0.5Sr0.5Co0.2Fe0.8O3d.
+0
+50
+100
+150
+200
+0
+200
+400
+600
+800
+1000
+Mass (%)
+Temperature (
+oC)
+Time (min)
+97
+98
+99
+100
+101
+ BSCF-5528
+ BSCF-5582
+Fig. 10. Redox behavior of Ba0.5Sr0.5Co0.8Fe0.2O3d and Ba0.5Sr0.5Co0.2Fe0.8O3d
+perovskites.
+Table 3
+O2 exchange capacity and difference in non-stoichiometry of different perovskites samples (mol O/mol perovskites).
+Samples
+Main crystal phase (by ICDD)
+1st cycle
+2nd cycle
+Red.
+1st step oxid. (600 C)
+2nd step oxid.
+Red.
+Oxid.
+SrMnO3d
+SrMnO3
+0.06
+0.03
+0.00
+–
+–
+SrCoO3d
+SrCoO2.52
+0.33
+0.21
+0.03
+0.18
+0.17
+SrFeO3d
+SrFeO2.97
+0.24
+0.16
+0.08
+0.19
+0.18
+BaMnO3d
+BaMnO3
+0.11
+0.00
+0.00
+–
+–
+BaCoO3d
+Ba5Co5O14
+0.47
+0.49
+0.02
+0.49
+0.37
+BaFeO3d
+BaFeO2.64
+0.45
+0.02
+0.12
+0.14
+0.12
+SCF-82
+SrCoO2.52
+0.37
+0.14
+0.10
+0.19
+0.19
+SCF-28
+SrFeO2.97
+0.36
+0.17
+0.10
+0.23
+0.21
+BSC-55
+SrCoO2.52
+0.45
+0.26
+0.03
+0.29
+0.22
+BSF-55
+BaFeO2.88
+0.27
+0.12
+0.12
+0.24
+0.24
+BSCF-5582
+Ba0.5Sr0.5Co0.8Fe0.2O2.55
+0.23
+0.11
+0.10
+0.18
+0.20
+BSCF-5528
+Ba0.5Sr0.5Co0.8Fe0.2O2.55
+0.26
+0.15
+0.09
+0.19
+0.20
+500
+Z. Zhang et al. / Solar Energy 134 (2016) 494–502
+
+
+===== Page 8 =====
+
+at certain temperature (600 C). As for the three Fe-based samples
+(SrFeO3d, BaFeO3d and Ba0.5Sr0.5FeO3d), the monatomic oxygen
+captured during the two oxidation steps in the ﬁrst redox cycle
+are 0.16:0.08, 0.02:0.12 and 0.12:0.12, respectively. The second
+oxidation step (from 600 C to 300 C) clearly plays a more impor-
+tant role. Further, between Fe and Co, it is the Fe that determines
+the oxidation pattern. All the perovskites follow the pattern of
+SrFeO3d as long as the Fe exists in the sample.
+Besides, substitution effects of A or B sites on the O2 exchange
+capacity can also be seen from Table 3. Partial substitution of
+SrCoO3d by Fe only slightly improves the O2 exchange capacity
+of SrCo0.8Fe0.2O3d. In contrast, partial substitution of SrFeO3d by
+Co has signiﬁcant effect on the SrCo0.2Fe0.8O3d. The coexistence
+of Fe and Co is beneﬁcial for the O2 exchange capacity of Co-
+based and Fe-based perovskites. For A site substituted Ba0.5Sr0.5-
+CoO3d and Ba0.5Sr0.5FeO3d, it depends on the point of view. If
+we treat them as SrBO3 substituted by Ba, we get better results
+than non-substituted samples. If we treat them as BaBO3 substi-
+tuted by Sr, worse results are obtained. In general, it can be con-
+cluded that existence of Ba is beneﬁcial for the O2 exchange
+capacity.
+According to the main crystal phase determined by XRD data-
+bases of ICDD and the monatomic oxygen release per mol of sam-
+ples in Table 3, the redox reaction equation can be written as
+follows (taking SrCoO3d as example):
+SrCoO2:52 ! SrCoO2:19 þ 0:33
+2
+O2
+Reduction
+SrCoO2:19 þ 0:24
+2
+O2 ! SrCoO2:43
+Oxidation
+The redox equations of the other samples have also been writ-
+ten with the same procedure and listed in Table 4. For convenience,
+only the variation of oxygen stoichiometry of the different samples
+is indicated.
+The changes of oxygen stoichiometry may reﬂect the distortion
+tolerance of the perovskites crystal structure. Among all the sam-
+ples, the crystal structure of SrFeO3d, SrCo0.2Fe0.8O3d, BaCoO3d,
+Ba0.5Sr0.5FeO3d, Ba0.5Sr0.5Co0.8Fe0.2O3d and Ba0.5Sr0.5Co0.2Fe0.8O3d
+can be fully restored in the oxidation step; while the other four
+samples (SrCoO3d, BaFeO3d, SrCo0.8Fe0.2O3d and Ba0.5Sr0.5CoO3-
+d) cannot, as the reaction seems to be not fully reversible, or their
+crystal structures have been inﬂuenced. For the fully restored sam-
+ples, the minimum oxygen number of the main crystal phase dur-
+ing reduction is 2.29 (Ba0.5Sr0.5Co0.2Fe0.8O3d); while the maximum
+oxygen number of the main crystal phase after reduction in the lat-
+ter four samples is 2.19 (SrCoO3d and BaFeO3d). The range of
+2.19–2.29 seems to be the threshold for these samples. Below oxy-
+gen number 2.19, the perovskites crystal structure may have been
+altered and it cannot be fully recovered under these conditions. In
+fact, this phenomenon was previously pointed out in previous
+studies, as the formula of ABO2+e was used to indicate this varia-
+tion, which may indicate a different crystal structure from per-
+ovskites (Mueller et al., 2012). Compared to Fe-based systems, it
+seems that the crystal structure of Co-based systems such as
+SrCoO3d, SrCo0.8Fe0.2O3d and Ba0.5Sr0.5CoO3d is easier to be
+altered. Further, as can be seen from the results of SrCoO3d and
+BaCoO3d, the steep mass loss often appears at 900 C and the
+sharp mass increment happens at 600 C. Within its distortion tol-
+erance range, the phase change of some perovskites is inclined to
+jump from one stable crystal structure to another under given con-
+ditions, which greatly inﬂuences the oxygen exchange capacity.
+The main non-stoichiometry formulas observed during redox pro-
+cess are SrCoO2.8, SrCoO2.52±0.03, SrCoO2.33±0.03 (Co-based systems),
+and
+SrFeO2.97,
+SrFeO2.88,
+SrFeO2.64±0.03
+(Fe-based
+systems),
+respectively.
+The reversibility or the stability of the perovskites can be par-
+tially disclosed by the room temperature XRD analysis of samples
+after thermal cycles. The variation of the intensity and the position
+of characteristic peaks can be used to highlight the stability or
+modiﬁcation of the crystal structure. Therefore, the XRD patterns
+of the different samples after TG have been recorded under room
+temperature, as shown in Fig. 11. Compared to the patterns of fresh
+samples in Figs. 2, 7 and 9, the position and intensity of character-
+istic peaks of SrFeO3d, SrCo0.2Fe0.8O3d, SrCo0.8Fe0.2O3d, Ba0.5Sr0.5-
+FeO3d and Ba0.5Sr0.5Co0.8Fe0.2O3d do not change signiﬁcantly,
+which indicates that their crystal structures have not been altered
+during reversible reaction. In contrast, the intensity and position of
+Table 4
+Crystal phase variation of different samples during redox cycle.
+Sample
+Variation of crystal phase during 1st redox cycle
+No.
+SrCoO3d
+SrCoO2:52 ! SrCoO2:19 ! SrCoO2:43
+(6)
+SrFeO3d
+SrFeO2:97 ! SrFeO2:73 ! SrFeO2:97
+(7)
+BaCoO3d
+BaCoO2:8 ! BaCoO2:33 ! BaCoO2:82
+(8)
+BaFeO3d
+BaFeO2:64 ! BaFeO2:19 ! BaFeO2:33
+(9)
+SCF-82
+SrCoO2:52 ! SrCoO2:15 ! SrCoO2:39
+(10)
+SCF-28
+SrFeO2:97 ! SrFeO2:61 ! SrFeO2:88
+(11)
+BSC-55
+SrCoO2:52 ! SrCoO2:07 ! SrCoO2:36
+(12)
+BSF-55
+BaFeO2:88 ! BaFeO2:61 ! BaFeO2:87
+(13)
+BSCF-5582
+Ba0:5Sr0:5Co0:8Fe0:2O2:55 ! Ba0:5Sr0:5Co0:8Fe0:2O2:32
+! Ba0:5Sr0:5Co0:8Fe0:2O2:53
+(14)
+BSCF-5528
+Ba0:5Sr0:5Co0:8Fe0:2O2:55 ! Ba0:5Sr0:5Co0:8Fe0:2O2:29
+! Ba0:5Sr0:5Co0:8Fe0:2O2:53
+(15)
+Note: variation for SrMnO3 and BaMnO3 are not listed due to their poor redox
+ability.
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+2000
+4000
+6000
+8000
+Intensity (a.u.)
+2θ (o)
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+2θ (o)
+ BaCoO3
+ BaFeO3
+ SrCoO3
+ SrFeO3
+0
+2000
+4000
+6000
+8000
+Intensity (a.u.)
+ SCF-28
+ SCF-82
+ BSCF-5582
+ BSCF-5528
+ BSC
+ BSF
+Fig. 11. XRD patterns of different samples after TG analysis.
+Z. Zhang et al. / Solar Energy 134 (2016) 494–502
+501
+
+
+===== Page 9 =====
+
+characteristic peaks of BaCoO3d, BaFeO3d, Ba0.5Sr0.5CoO3d and
+Ba0.5Sr0.5Co0.2Fe0.8O3d are clearly inﬂuenced. Their crystal struc-
+ture should thus have been modiﬁed. The stability of the above
+materials shall be further improved in the future.
+4. Conclusions
+A series of Ba or Sr perovskites with Fe, Co and Mn incorporated
+on the B-site have been prepared by modiﬁed Pechini method and
+their crystal structures characterized by XRD. The different per-
+ovskite compositions have been considered to identify the most
+attractive ones regarding oxygen storage capacity and reaction
+reversibility. TG analysis reveals that the Ba induced systems show
+enhanced O2 exchange capacity compared with Sr induced sys-
+tems, and Co-based systems show the highest O2 exchange capac-
+ity and reaction enthalpies among all the samples. The redox
+patterns of Fe-, Co- and Mn-based systems are clearly different
+from each other. The O2 exchange of Co-based perovskites is rapid
+and seems like there is a transition in the oxidation state when
+reaching a given temperature. In contrast, the O2 exchange rate
+of Fe-based perovskites is corresponding to the temperature varia-
+tion, which points out the rapid kinetics as the equilibrium state is
+reached for each temperature of the non-isothermal proﬁle.
+Finally, the Mn-based systems are nearly not changed during the
+course of the redox cycles in the considered temperature range,
+which denotes their high stability and unsuitability for thermo-
+chemical redox cycling under the reaction conditions. Moreover,
+according to the O2 exchange capacity, it seems that within the dis-
+tortion tolerance range, the phase change of some perovskites is
+still inclined to transform from one stable crystal structure to
+another, which determines the O2 exchange capacity under certain
+conditions.
+Conﬂict of interest
+None declared.
+Acknowledgment
+The authors thank E. Beche and D. Perarnau for technical sup-
+port in XRD analysis.
+Appendix A. Supplementary material
+Supplementary data associated with this article can be found, in
+the online version, at http://dx.doi.org/10.1016/j.solener.2016.05.
+031.
+References
+Agraﬁotis, C., Roeb, M., Sattler, C., 2015. A review on solar thermal syngas
+production
+via
+redox
+pair-based
+water/carbon
+dioxide
+splitting
+thermochemical cycles. Renew. Sustain. Energy Rev. 42, 254–285.
+Alonso, E., Pérez-Rábago, C., Licurgo, J., Fuentealba, E., Estrada, C.A., 2015. First
+experimental
+studies
+of
+solar
+redox
+reactions
+of
+copper
+oxides
+for
+thermochemical energy storage. Sol. Energy 115, 297–305.
+Arnold, M., Gesing, T.M., Martynczuk, J., Feldhoff, A., 2008. Correlation of the
+formation
+and
+the
+decomposition
+process
+of
+the
+BSCF
+perovskite
+at
+intermediate temperatures. Chem. Mater. 20, 5851–5858.
+Babiniec, S.M., Coker, E.N., Miller, J.E., Ambrosini, A., 2015. Investigation of
+LaxSr1xCoyM1yO3d (M = Mn, Fe) perovskite materials as thermochemical
+energy storage media. Sol. Energy 118, 451–459.
+Bork,
+A.H.,
+Kubicek,
+M.,
+Struzika,
+M.,
+Rupp,
+J.L.M.,
+2015.
+Perovskite
+La0.6Sr0.4Cr1xCoxO3d
+solid
+solutions
+for
+solar-thermochemical
+fuel
+production: strategies to lower the operation temperature. J. Mater. Chem. A
+3, 15546–15557 (Paper).
+Deml, A.M., Stevanovic´, V., Holder, A.M., Sanders, M., O’Hayre, R., Musgrave, C.B.,
+2014. Tunable oxygen vacancy formation energetics in the complex perovskite
+oxide SrxLa1xMnyAl1yO3. Chem. Mater. 26, 6595–6602.
+Demont, A., Abanades, S., Beche, E., 2014. Investigation of perovskite structures as
+oxygen-exchange
+redox
+materials
+for
+hydrogen
+production
+from
+thermochemical two-step water-splitting cycles. J. Phys. Chem. C 118, 12682–
+12692.
+Dey, S., Naidu, B.S., Rao, C.N.R., 2015. Ln0.5A0.5MnO3 (Ln = Lanthanide, A = Ca, Sr)
+perovskites
+exhibiting
+remarkable
+performance
+in
+the
+thermochemical
+generation of CO and H2 from CO2 and H2O. Chem. – A Euro. J. 21, 7077–7081.
+Ezbiri, M., Allen, K.M., Gàlvez, M.E., Michalsky, R., Steinfeld, A., 2015. Design
+principles of perovskites for thermochemical oxygen separation. ChemSusChem
+8, 1966–1971.
+Fjellvåg, H., Hansteen, O.H., Tilset, B.G., Olafsen, A., Sakai, N., Seim, H., 1995. Thermal
+analysis as an aid in the synthesis of non-stoichiometric perovskite type oxides.
+Thermochim. Acta 256, 75–89.
+Gálvez, M.E., Jacot, R., Scheffe, J., Cooper, T., Patzkeb, G., Steinfeld, A., 2015. Physico-
+chemical
+changes
+in
+Ca,
+Sr
+and
+Al-doped
+La–Mn–O
+perovskites
+upon
+thermochemical splitting of CO2 via redox cycling. Phys. Chem. Chem. Phys.
+17, 6629–6634.
+Jiang, Q., Tong, J., Zhou, G., Jiang, Z., Li, Z., Li, C., 2014. Thermochemical CO2 splitting
+reaction with supported LaxA1xFeyB1yO3 (A = Sr, Ce, B = Co, Mn) perovskite
+oxides. Sol. Energy 103, 425–437.
+Koepf, E., Advani, S.G., Steinfeld, A., Prasad, A.K., 2012. A novel beam-down, gravity-
+fed,
+solar
+thermochemical
+receiver/reactor
+for
+direct
+solid
+particle
+decomposition: design, modeling, and experimentation. Int. J. Hydrogen
+Energy 37, 16871–16887.
+Levêque,
+G.,
+Abanades,
+S.,
+2014.
+Design
+and
+operation
+of
+a
+solar-driven
+thermogravimeter
+for
+high
+temperature
+kinetic
+analysis
+of
+solid–gas
+thermochemicalreactions in controlled atmosphere. Sol. Energy 105, 225–235.
+Loutzenhiser, P.G., Steinfeld, A., 2011. Solar syngas production from CO2 and H2O in
+a two-step thermochemical cycle via Zn/ZnO redox reactions: thermodynamic
+cycle analysis. Int. J. Hydrogen Energy 36, 12141–12147.
+McDaniel, A.H., Miller, E.C., Ariﬁn, D., Ambrosini, A., Coker, E.N., O’Hayre, R., 2013. Sr
+and Mn-doped LaAlO3d for solar thermochemical H2 and CO production.
+Energy Environ. Sci. 6, 2424–2428.
+Michalsky, R., Botu, V., Hargus, C.M., Peterson, A.A., Steinfeld, A., 2015. Design
+principles for metal oxide redox materials for solar-driven isothermal fuel
+production. Adv. Energy Mater. 5, 1401082–1401092.
+Mueller, D.N., De Souza, R.A., Yoo, H.I., Manfred, M., 2012. Phase stability and
+oxygen nonstoichiometry of highly oxygen deﬁcient perovskite-type oxides: a
+case study of (Ba,Sr)(Co,Fe)O3d. Chem. Mater. 24, 269–274.
+Pagkoura, C., Karagiannakis, G., Zygogianni, A., Lorentzou, S., Kostoglou, M.,
+Konstandopoulos, A.G., Rattenburry, M., Woodhead, J.W., 2014. Cobalt oxide
+based structured bodies as redox thermochemical, heat storage medium for
+future CSP plants. Sol. Energy 108, 146–163.
+Pardo, P., Deydier, A., Anxionnaz-Minvielle, Z., Rougé, S., Cabassud, M., Cognet, P.,
+2014. A review on high temperature thermochemical heat energy storage.
+Renew. Sustain. Energy Rev. 32, 591–610.
+Petrovic, M., Chellappan, V., Ramakrishna, S., 2015. Perovskites: solar cells &
+engineering applications – materials and device developments. Sol. Energy 122,
+678–699.
+Royer, S., Duprez, D., Can, F., Courtois, X., Batiot-Dupeyrat, C., Laassiri, S., Alamdari,
+H., 2014. Perovskites as substitutes of noble metals for heterogeneous catalysis:
+dream or reality. Chem. Rev. 114, 10292–10368.
+Scheffe,
+J.R.,
+Steinfeld,
+A.,
+2014.
+Oxygen
+exchange
+materials
+for
+solar
+thermochemical splitting of H2O and CO2: a review. Mater. Today 17, 341–348.
+Scheffe, J.R., Weibel, D., Steinfeld, A., 2013. Lanthanum–strontium–manganese
+perovskites as redox materials for solar thermochemical splitting of H2O and
+CO2. Energy Fuels 27, 4250–4257.
+Yang, C.K., Yamazaki, Y., Aydina, A., Haile, S.M., 2014. Thermodynamic and kinetic
+assessments of strontium-doped lanthanum manganite perovskites for two-
+step thermochemical water splitting. J. Mater. Chem. A 2, 13612–13623.
+502
+Z. Zhang et al. / Solar Energy 134 (2016) 494–502

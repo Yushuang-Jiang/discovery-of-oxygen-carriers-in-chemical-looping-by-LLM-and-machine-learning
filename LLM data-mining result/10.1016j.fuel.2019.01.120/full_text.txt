@@ -1,0 +1,673 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Fuel
+journal homepage: www.elsevier.com/locate/fuel
+Full Length Article
+Experimental study of Cu-modiﬁed manganese ore for O2 production in the
+CLC + CLOU scheme
+Lei Xu, Siyuan Chen, Hongming Sun, Zhenshan Li⁎, Ningsheng Cai
+Key Laboratory for Thermal Science and Power Engineering of Ministry of Education, Department of Energy and Power Engineering, Tsinghua University, Beijing 100084,
+People’s Republic of China
+A R T I C L E I N F O
+Keywords:
+Chemical looping
+Manganese ore
+Oxygen carrier
+A B S T R A C T
+In chemical looping combustion (CLC), a necessary oxygen polishing step exerted an additional cost to the
+technology due to an extra demand of pure O2. However, the additional cost can be lowered if the oxygen
+carriers can produce gaseous oxygen, i.e. has a chemical looping with oxygen uncoupling (CLOU) property. A
+CLC + CLOU scheme is proposed in the study. Production of gaseous O2 using a manganese ore and the Cu-
+modiﬁed manganese ore as oxygen carriers were investigated. The reaction kinetics of the two oxygen carriers
+were studied by thermogravimetric analysis (TGA). Multiple O2 uptake and release cycles were carried out to
+demonstrate the good stability of the oxygen carriers. Continuous tests with both oxygen carriers were carried
+out in a dual ﬂuidized bed. Results showed that both oxygen carriers could be ﬂuidized well in the continuous
+run and a stream of O2 could be obtained stably. The Cu-modiﬁed manganese ore showed higher oxidation rate
+and oxygen transport capacity than the original manganese ore. Both materials have advantage economically
+and could be promising for O2 production in the CLC + CLOU scheme.
+1. Introduction
+CO2 emission into atmosphere has been considered to contribute a
+large part of the greenhouse eﬀect causing global warming [1]. Carbon
+capture and sequestration (CCS) is a set of technologies aiming at
+capturing waste CO2 from large point sources such as fossil fuel power
+plants and depositing the CO2 into a storage site. The estimated costs
+for CO2 transportation (USD 1–3/ton/100 km) [2] and sequestration
+(USD 4–8/ton-CO2) [3] are small compared to that for CO2 capture,
+estimated at USD 35–55/ton-CO2 [4]. Therefore, reducing the cost in
+capturing CO2 is crucial to make CCS more economically attractive.
+Chemical looping combustion (CLC) is one of the promising tech-
+niques to obtain pure CO2 from a power plant allowing for CO2 se-
+questration [5]. The main advantage of CLC compared to other CCS
+technologies is its lower cost due to the inherent separation of CO2
+without nitrogen dilution.
+However, in CLC experiments with solid fuels [6–9], a complete
+combustion can hardly be achieved due to the low reactivity of oxygen
+carriers and/or coal segregation eﬀect [10,11]. Due to coal segregation,
+part of the syngas from char gasiﬁcation is released in the upper regions
+of the fuel reactor and therefore has insuﬃcient contact with the bed
+material, which results an incompleted combustion. For example, in the
+experiments conducted by Cuadrat et al. [8], 17 vol% syngas (CO and
+H2) was found in the oﬀgas for the 125–200 μm coal and 49 vol% for
+the 74–125 μm coal. The fuel conversion was also low in the test by
+Chalmers on a 100 kWth unit with solid fuels, with the concentration of
+unburnt gases (mainly H2, CO, and CH4) in the oﬀgas up to 32 vol% [6].
+In order to achieve a complete or very high fuel conversion, an
+oxygen polishing step is considered a necessary step [12]. In the oxygen
+polishing step, pure oxygen is injected into a chamber to burn out the
+unconverted gases, as shown in Fig. 1.
+However, the oxygen polishing step would increase the cost of CLC
+due to the extra demand of pure oxygen. In the operation of the 1 MWth
+CLC plant in Darmstadt, an extra 26–38% oxygen demand was required
+[13]. The cost of oxygen polishing step is estimated as 4–9 €/ton-CO2,
+accounting for one third of the total cost of CLC [14].
+If the oxygen carriers can release gaseous oxygen in the fuel reactor,
+the total demand of O2 in the oxygen polishing step can be reduced.
+Therefore, a CLC + CLOU scheme is proposed here, as shown in Fig. 2.
+In this scheme, solid fuels react with the oxygen carriers at the lower
+region of the fuel reactor in a normal CLC condition. At the upper re-
+gion, the unburnt gases, including mainly H2, CO, CH4, react with
+gaseous oxygen released by the oxygen carriers. Hopefully, a large part
+of the unburnt gases can be burn out and thus minimize the demand of
+pure O2 in the following oxygen polishing step. The reaction condition
+at the upper region is slightly diﬀerent from that in the normal CLOU
+https://doi.org/10.1016/j.fuel.2019.01.120
+Received 13 October 2015; Received in revised form 31 October 2018; Accepted 22 January 2019
+⁎ Corresponding author.
+E-mail address: lizs@mail.tsinghua.edu.cn (Z. Li).
+Fuel 244 (2019) 69–75
+Available online 06 February 2019
+0016-2361/ © 2019 Elsevier Ltd. All rights reserved.
+T
+
+
+===== Page 2 =====
+
+condition. The normal chemical looping with oxygen uncoupling
+(CLOU) process, ﬁrst proposed by Lyngfelt and his coworkers [15], was
+based on the use of an oxygen carrier which releases gaseous O2 in the
+fuel reactor allowing the solid fuel to burn with gaseous O2. In the
+CLC + CLOU scheme, the gaseous O2 mainly react with unburnt gases
+from coal gasiﬁcation rather than coal directly, aiming at reducing the
+demand of pure oxygen in the following oxygen polishing step.
+For the lower region of the scheme, a lot of oxygen carriers, such as
+ilmenite, ores, artiﬁcial oxides, has been studied [16]. For the upper
+region in the scheme, only copper, manganese and cobalt oxides are
+capable of releasing oxygen. Copper oxide has a high tendency for
+agglomeration and a high price. Cobalt oxide is more expensive and not
+environmentally friendly. Manganese oxide is relatively cheap and do
+much less harm to the environment but has a relatively low reactivity.
+Research on improving the performance of manganese oxide was
+usually carried out by adding diﬀerent inert materials. Mn-based
+oxygen carriers with ZrO2 as an inert material stabilized by MgO, CaO,
+or CeO2 showed high reactivity and avoidance of agglomeration [17].
+Azad et al. examined an oxygen carrier made by mixing, extruding, and
+calcining a 1:1 M mixture of CuO and Mn2O3 for CLOU, and the
+Mn–Cu–O spinel system shows good performance [18]. However, the
+manufacture procedure of synthetic oxygen carriers is usually complex,
+and use of the large amount of copper oxide in most cases increases the
+cost.
+In this study, two materials were prepared as oxygen carriers. One is
+the manganese ore. The other is manganese ore impregnated by copper.
+The Cu-modiﬁed manganese ore has been examined with CO in a pre-
+vious study [19] and showed a 6 times reactivity enhancement after
+copper impregnation. This study will focus on the oxygen uptake and
+release properties of the manganese ore before and after the copper
+impregnation. Results showed that the Cu-modiﬁed manganese ore has
+higher oxidation rate and oxygen capacity than the original manganese
+ore. Both two materials showed good stability in the TGA test. Con-
+tinuous test in the dual ﬂuidized bed reactor showed that the materials
+presents no agglomeration or other ﬂuidization problems and these
+materials could be suitable for use in the CLC + CLOU scheme as
+oxygen carriers.
+2. Experiments
+2.1. Preparation and characterization of materials
+The natural manganese ore (denoted as Mn) was provided by Mugui
+Manganese Ore Company from Guangxi Province in China. The ore
+particles were ﬁrst calcined in air for 4 h at 950 °C and then sieved to
+125–300 μm. The Cu-modiﬁed oxygen carriers (denoted as CuMn) were
+prepared by impregnation of Cu(NO3)2·3H2O solution. The natural
+manganese ore particles were soaked in the solution for 6 h at ambient
+temperature and calcined in air for 2 h at 500 °C. After cooling down, all
+of the particles were resieved to 125–300 μm. For every 50 g of man-
+ganese ore, solid Cu(NO3)2·3H2O (3.8 g) was used as a precursor and
+was dissolved in water (15 ml) to give the solution. The composition of
+the manganese ore was analyzed by X-ray ﬂuorescence (XRF) and
+summarized in Table 1. The BET (Brunauer, Emmett and Teller) surface
+area and BJH (Barrett, Joyner and Halenda) pore volume of the parti-
+cles were measured with a Micromeritics micropore analyzer (Auto-
+sorb-iQ2-MP, NOVA4000). Furthermore, the crushing strength of the
+particles was determined using an HP-10 digital force gauge. The value
+given is the average force in N from 30 individual measurements
+needed to crush a particle in the size fraction of 125–300 µm. The bulk
+density, BET surface area, BJH pore volume and crushing strength of
+Mn and CuMn are also listed in Table 1.
+Pure oxides were prepared to illustrate the copper addition to the
+manganese oxide. Manganese oxide (Mn2O3) was prepared by calcining
+solution of Mn(NO3)2 (50 wt%) in air for 3 h at 800 °C. Cu-Mn oxides
+was prepared by calcining the mixture solution of Mn(NO3)2 and Cu
+(NO3)2. Mixed oxides with diﬀerent mass ratios of copper to manganese
+were prepared and denoted as Cu5%, Cu10%, Cu20% and Cu30%.
+2.2. Oxidation (oxygen uptake) and reduction (oxygen release) test in TGA
+Five redox cycles were carried out for each oxygen carrier in a TGA
+(TA Instrument, SDT Q600). The desired mass of oxygen carriers
+(∼20 mg) was loaded in a ceramic sample holder (6.5 mm diameter
+Fig. 1. Schematic diagram of CLC with oxygen polishing.
+Fig. 2. Schematic diagram of CLC + CLOU process.
+Table 1
+Chemical analysis and physical properties of Mn and CuMn.
+Chemical Analysis wt%
+MnO
+Fe2O3
+SiO2
+Al2O3
+BaO
+K2O
+P2O5
+MgO
+CaO
+Mn
+40.45
+7.36
+44.09
+1.68
+4.71
+0.23
+0.44
+0.18
+0.36
+Physical Properties
+Bulk density (g/cm3)
+BET surface area (m2/g)
+BJHPore volume (cm3/g)
+Crushing Strength (N)
+Mn/CuMn
+1.67/1.69
+2.34/3.42
+0.013/0.012
+1.9/1.9
+L. Xu et al.
+Fuel 244 (2019) 69–75
+70
+
+
+===== Page 3 =====
+
+and 4 mm height) in TGA oven. The sample was heated to the set op-
+erating temperature (950 °C) in pure N2 ﬂow for decomposition. After
+stabilization, multicycle tests were performed by exposing the sample
+to alternating oxidizing and inert conditions. The oxidation reaction of
+Mn-based oxygen carrier in air reactor is exothermic, while the de-
+composition reaction of Mn-based oxygen carrier in fuel reactor is en-
+dothermic; therefore, the average temperature of air reactor will be
+higher than that of fuel reactor in order to satisfy the heat balance.
+However, the air entering into air reactor is low temperature and this
+inlet air has to be heated up to a high temperature by the heat released
+from the exothermic oxidation reaction of Mn-based oxygen carrier,
+and therefore there is a temperature rise step. From the chemical
+equilibrium analysis, the oxidation of Mn-based oxygen carrier could be
+enhanced at 750 °C and this value is selected as the experimental
+temperature to simulate the temperature rise step occurring in air re-
+actor. The oxygen release temperature was 950 °C in pure N2 with the
+same ﬂow rate. The oxidation time was 60 min and the oxygen release
+time was 90 min in each cycle. The heating and cooling rate between
+800 and 950 °C was 10 °C/min.
+2.3. Continuous test in the dual ﬂuidized bed reactor
+The continuous test was performed in a dual ﬂuidized bed reactor,
+as illustrated in Fig. 3. Basically, the system consisted of an air reactor
+(AR), a fuel reactor (FR), a riser, a cyclone and two loop seals (LS). The
+riser was used to transport oxygen carriers from the air reactor to the
+fuel reactor. The solid circulation rate was controlled by the lower loop
+seal. The fuel reactor was a bubbling ﬂuidized bed with a length of
+1.3 m. The inner diameters of both the air reactor and the fuel reactor
+were 50 mm. The inner diameter of the riser was 20 mm. The height of
+the riser was 3.3 m. The secondary air was introduced at the lower part
+of the riser to assist particle entrainment. The air and fuel reactors were
+heated by electric furnaces. K-type thermocouples were used to monitor
+the temperature. Fine particles from both reactors were collected by
+ﬁlters. O1–O8 and I0–I2 were pressure measurement points used to
+monitor the solid circulation of the entire loop. The system has been
+used for a continuous test of ilmenite and cement-supported CuO
+oxygen carriers, and more details about the reactor system can be found
+in the previous publications [20,21]. Two continuous tests were con-
+ducted in the dual ﬂuidized bed reactor. Each run lasted for about
+400 min. The initial solid inventory of the system for both tests were
+3500 g. N2 was used as ﬂuidizing gas for the fuel reactor (FR) and loop
+seals. Air was used as ﬂuidizing gas for the air reactor (AR). The fuel
+reactor was maintained at 950 °C and the air reactor was maintained at
+750 °C.
+The eﬀect of copper content on the performance was studied in TGA
+and it was found that the copper content of 5% can still accelerate the
+reaction kinetics, therefore this kind of oxygen carrier was used for dual
+ﬂuidized bed study.
+3. Results and discussion
+3.1. Oxygen carrier reactivity in TGA
+TGA experiments give the information about the reactivity of
+oxygen carriers in the absence of complex ﬂuidizing factors. Reactivity
+information, including the oxidation rate, the oxygen release rate and
+the oxygen transport capacity, were obtained from the weight varia-
+tions during the redox cycles as a function of time. The solid conversion
+of the oxygen carrier during oxidation, Xox, is calculated according to
+Eq. (1).
+=
+−
+−
+×
+X
+m
+m
+m
+m
+100%
+oX
+t
+red
+ox
+red
+(1)
+The solid conversion of the oxygen carrier during oxygen release,
+Xred, is calculated according to Eq. (2).
+=
+−
+−
+×
+X
+m
+m
+m
+m
+100%
+oX
+ox
+t
+ox
+red
+(2)
+where mox is the mass of sample at its fully oxidized state in each redox
+cycle, mred is the mass of the sample at its fully reduced state, mt is the
+mass of the sample at time t.
+Five redox cycles were carried out for Mn and CuMn, as shown in
+Fig. 4. As the temperature increased from room temperature to 950 °C,
+the weight of both samples decreased due to O2 is released. The weight
+loss of CuMn for the ﬁrst cycle is 3.3%, a little higher than 2.9% of Mn.
+This suggested that impregnation of copper increased the amount of O2
+released and lowered the O2 releasing temperature. Both materials
+failed to get back to the original state after 60 min’ oxidation during the
+successive redox cycles and this is because the original material con-
+tains lots of MnO2, and this high valence state cannot be recovered from
+other relatively lower valence state even after very long oxidation time
+as shown in Fig. 4.
+Fig. 5 presented the oxygen release rate of both oxygen carriers as a
+function of temperature for the ﬁrst cycle. It is noteworthy that addition
+of copper to the manganese ore reduced the decomposition temperature
+of the material. Therefore, O2 was released at a lower temperature for
+the Cu-modiﬁed manganese ore. As the temperature increased from the
+room temperature to 950 °C, CuMn started to release O2 earlier than the
+Mn. CuMn showed higher oxygen release rate than Mn when the tem-
+perature is lower than 920 °C.
+The weight loss in each cycle maintained at around 0.72% for Mn
+and 0.82% for CuMn in the successive oxygen uptake and release cy-
+cles, as shown in Fig. 6. Both materials showed good stability during the
+ﬁve redox cycles. In conclusion, the copper addition contributes to a
+higher oxygen transport capacity of the manganese ore.
+Fig. 7 showed the oxygen uptake and release rates of both materials
+in the third cycle. The conversion curve for both materials showed si-
+milar proﬁles. However, the proﬁle of the oxidation rate curve is quite
+diﬀerent from the oxygen release one. During reduction, the conversion
+curve includes a very fast stage and a slow stage. Whereas the oxidation
+rate was relatively slow throughout. Therefore, it is necessary to in-
+crease the oxidation rate to match the oxygen release rate. Addition of
+copper to the manganese ore improved the oxidation rate dramatically,
+Fig. 3. Schematic diagram of the dual ﬂuidized bed reactor for CLC.
+L. Xu et al.
+Fuel 244 (2019) 69–75
+71
+
+
+===== Page 4 =====
+
+especially in the starting 20 min. For the manganese ore, the oxidation
+conversion was only 0.11 after ﬁve minutes exposing to the air ﬂow
+whereas the Cu-modiﬁed manganese ore reached a conversion of 0.22
+after ﬁve minutes. However, addition of copper did not contribute to
+the oxygen release rate. As can be seen in Fig. 5, the reaction rate was
+actually a little lowered by addition of copper.
+One
+possible
+contribution
+of
+copper
+to
+the
+oxidation
+rate
+enhancement could be due to the fact that it increased the surface area
+of particles. The other contribution could be the due to interaction of
+copper with the active components in the manganese ore. To in-
+vestigate this chemical contribution, TGA experiments of pure oxides
+were performed. Manganese oxide and Cu-Mn mixed oxides with dif-
+ferent copper contents were investigated. Fig. 8 summarizes the TG
+curves of diﬀerent oxides.
+All the oxides were calcined at 800 °C. The phase of manganese
+oxide after calcination was Mn2O3. After heated in nitrogen, the weight
+loss of the pure manganese oxide (Mn2O3) was 3.4%, which demon-
+strated that the reduced phase was Mn3O4. After the air was introduced,
+the weight curve did not rise, which meant the pure Mn3O4 was unable
+to absorb O2 at ambient pressure in air. However, Cu-Mn oxides could
+absorb O2 at the same condition. The weight gain increased with a
+higher copper content. The weight gain was 0.63% when 5% copper
+was added. The weight gain was 2.55% when 20% copper was added.
+Fig. 9 shows the oxygen release rates of diﬀerent oxides as a function of
+temperature. It can be seen that O2 was also released at a lower tem-
+perature after copper addition, which was a similar phenomena found
+with ore materials.
+XRD analysis was carried out on samples to investigate if the phase
+is transformed, as shown in Fig. 10. From Fig. 10, it can be seen that the
+main phase was Mn2O3 when the copper content is lower than 10%.
+However, when the copper content is lower than 10%, characteristic
+peaks for copper-containing phases are not detected in these XRD pat-
+terns, which suggests that either the amount of copper is too small to
+make a distinct signal or the copper-containing phase is highly dis-
+persed in manganese ore. When the copper content is higher than 20%,
+a new phase of Cu1.5Mn1.5O4 was detected as shown in Fig. 10, and this
+new phase Cu1.5Mn1.5O4 is believed to enhance the performance of
+manganese ore. Azad et al. [18] and Mohammad et al. [22] found a
+similar phase in their studies and suggested that the new phase con-
+tribute to a higher amount of O2 released.
+3.2. Dual ﬂuidized test
+The detailed operation conditions were summarized in Table 2. In
+operation, the solid circulation rate was controlled by the gas ﬂow rate
+of the lower LS. The solid circulation rate increased with the ﬂow rate
+of the lower LS. As the gas ﬂowrate of lower LS was 2.4 L/min, the solid
+circulation rate was about 67 kg/m2/s, calculated according to the
+method in a previous work [20]. To determine the extent of dilution,
+the N2 ﬂow rate was altered from 3 L/min to 6 L/min (stage 3, 4, 5)
+while keeping the ﬂow rate of both loop seals unchanged. Assuming the
+nitrogen ﬂows from both loop seals into the outlet stream remained
+constant from stage 3–5, the extent of dilution can be estimated. The
+portion of nitrogen ﬂow from loop seal were estimated as 3.2–4 L/min.
+The O2 concentration in the fuel reactor without dilution was therefore
+Fig. 4. TGA proﬁles of manganese ore and Cu-modiﬁed manganese ore.
+Fig. 5. The initial oxygen release rate of manganese ore and Cu-modiﬁed
+manganese ore as a function of temperature.
+Fig. 6. Weight loss of manganese ore and Cu-modiﬁed manganese ore in ﬁve
+redox cycles.
+L. Xu et al.
+Fuel 244 (2019) 69–75
+72
+
+
+===== Page 5 =====
+
+estimated as 6.7 vol%–7.5 vol%.
+The manganese ore particles were ﬁrst used to produce O2 in the
+continuous test. Fig. 11 shows the gas concentration at the outlet of the
+fuel reactor. The 400 min’ operation included ﬁve stages. Diﬀerent ﬂow
+rates were used in each stage, as summarized in Table 2. The tem-
+perature of fuel reactor was altered from 850 °C, 900 °C, to 950 °C in
+stage 1 and were kept constant at 950 °C from stage 2–5. It can be seen
+from stage 1 that higher temperature in the fuel reactor resulted in
+higher O2 concentration. At 850 °C, the O2 concentration was 3.4 vol%.
+At 950 °C, the O2 concentration was 4.6 vol%. It should be noted that
+the O2 concentration in Figs. 11 and 12 had been diluted by the N2 ﬂow
+from the two loop seals. Therefore, as the ﬂow rate of upper LS in-
+creased from 0.8 L/min to 1.8 L/min (from stage 1 to stage 2), the O2
+concentration decreased from 4.6 vol% to 3.9 vol%. As the ﬂow rate of
+lower LS increased from 1.3 L/min to 2.4 L/min (from stage 1 to stage
+2), the O2 concentration decreased from 3.9 vol% to 3.2 vol%.
+Fig. 12 shows the O2 concentration at the outlet using the Cu-
+modiﬁed manganese ore as the oxygen carrier in the same experimental
+conditions. The Cu-modiﬁed manganese ore produced more O2 than the
+unimpregnated manganese ore at each stage, as shown in Table 2. For
+example, at 950 °C, the O2 concentration was 3.9 vol%, higher than
+3.2 vol% of the unimpregnated manganese ore.
+In order to investigate the eﬀect of operational conditions on the
+oxygen content, the ﬂowrates of nitrogen for lower loopseal and fuel
+Fig. 7. Solid conversion as a function of time during (a) oxygen uptake and (b) oxygen release in the 3rd cycle.
+Fig. 8. TGA proﬁles of the manganese oxide and Cu-Mn oxides.
+Fig. 9. Solid conversion of diﬀerent oxides as a function of temperature.
+Fig. 10. XRD of Cu-Mn oxides.
+Table 2
+Operation conditions in Figs. 11 and 12.
+1
+2
+3
+4
+5
+Temperature (oC)
+820
+880
+950
+950
+950
+950
+950
+Upper LS (L/min)
+0.8
+1.8
+1.8
+1.8
+1.8
+Lower LS (L/min)
+1.8
+1.3
+2.4
+2.4
+2.4
+FR (L/min)
+2.8
+3
+4
+6
+3
+AR (L/min)
+3.8
+4
+4
+4
+4
+Secondary Air (L/min)
+4.8
+35
+35
+35
+35
+O2 Concentration (vol%) of Mn
+3.4
+4
+4.6
+3.9
+2.8
+2.2
+3.2
+O2 Concentration (vol%) of CuMn
+4.5
+5.1
+5.5
+4.8
+3.5
+2.7
+3.9
+L. Xu et al.
+Fuel 244 (2019) 69–75
+73
+
+
+===== Page 6 =====
+
+reactor were changed from stage 2 to stage 5, while other ﬂowrates
+were kept unchanged, as shown in Table 2. For example, the ﬂowrate of
+nitogen for lower loopseal was changed to 2.4 L/min for stage 3–5, the
+ﬂowrate of nitogen for fuel reactor was changed to 4 L/min in stage 3
+and 6 L/min in stage 4 from 3 L/min in stage 2 and then it was adjusted
+back to 3 L/min again in stage 5. For stage 3, 4 and 5, only the gas
+velocity in fuel reactor was diﬀerent, and therefore the eﬀect of gas
+velocity of fuel reactor on oxygen release from CLOU can be evaluated,
+as shown in Figs. 11 and 12. It can be seen clearly from Figs. 11 and 12
+that the oxygen content decreases with the increasing of gas velocity in
+fuel reacor for both manganese ore and Cu-modiﬁed manganese ore,
+and this indicated that the oxygen release rate is the controlled step and
+the released oxygen will be diluted when more nitogen is introduced
+into fuel reactor.
+3.3. Agglomeration and attrition behaviour of oxygen carrier particles
+Particle agglomeration should be avoided since it has a negative
+eﬀect on gas solid contact and can lead to deﬂuidization. Particles
+impregnated by copper should be taken special care because copper
+oxide has a high tendency for agglomeration. In this study, both the
+manganese ore and the Cu-modiﬁed manganese ore showed no signs of
+agglomeration during the dual ﬂuidized bed tests. Particles are con-
+tinuously lost in the reactor due to abrasive wear; or attrition and
+fragmentation resulting from particle-particle interactions and particle-
+wall interactions. Resistance to attrition and fragmentation is an im-
+portant property of particles used as oxygen carriers. The crushing
+strength was tested to evaluate the mechanical property of the material.
+A crushing strength larger than 2 N is considered suﬃciently hard ac-
+cording to a study by Ryden et al. [23]. The crushing strengths of both
+materials are 1.9 N. The mass balance of the reactor system was also
+established and summarized in Table 3. Actually, establishing exact
+mass balance for the dual ﬂuidized bed reaction system turned out to be
+diﬃcult. The total mass of particles collected after the test was less than
+the amount added before the test. For Mn, 95 g was missing. For CuMn,
+125 g was missing. This was partly due to the phase transformation of
+the ore material (Mn2O3 →Mn3O4). Another reason should be that
+some ﬁnes were stuck inside the loop seals or tubes where cleaning was
+Fig. 11. Proﬁles of O2 concentration at the outlet of the fuel reactor and the temperature in the fuel reactor (bed material: manganese ore).
+Fig. 12. Proﬁles of O2 concentration at the outlet of the fuel reactor and the temperature in the fuel reactor (bed material: Cu-modiﬁed manganese ore).
+L. Xu et al.
+Fuel 244 (2019) 69–75
+74
+
+
+===== Page 7 =====
+
+diﬃcult. In spite of this, some information could still be obtained from
+the mass balance data in Table 3. It can be seen that the mass of the
+particles collected in the AR ﬁlter was much greater than that in the FR
+ﬁlter. Moreover, the amount of particles with size of < 125 μm in the
+AR ﬁlter was much greater than that in the FR ﬁlter. This suggests that
+attrition and fragmentation of particles mainly occurred in the riser and
+cyclone rather than the other parts of the reactor system, such as the air
+reactor and the fuel reactor. This is reasonable because the much higher
+gas velocity in the riser due to the introduction of secondary air and the
+swirling ﬂow inside the cyclone would lead to ﬁercer collisions between
+particles and impacts of particles against the reactor wall. In conclu-
+sion, the loss of ﬁnes is estimated as 133 g for Mn and 138 g for CuMn,
+which translates to an attrition rate of 0.58%/h and 0.61%/h. The at-
+trition rate is high according to the estimation. However, the attrition
+rate was expected to decrease if operation had continued for a longer
+time, as has been observed for other oxygen carriers [24].
+4. Conclusions
+In this work, both the manganese ore and copper impregnated
+manganese ore were tested in a TGA and a dual ﬂuidized bed as oxygen
+carriers for their oxygen release and uptake properties. The oxidation
+rate is much lower than the oxygen release rate for the manganese ore.
+Impregnation the manganese ore with copper nitrite solution enhanced
+the oxidation rate and oxygen transport capacity. The reaction rate and
+oxygen transport capacity kept stable in redox cycles. The oxygen re-
+lease temperature of manganese ore could be lowered by copper ad-
+dition. The similar phenomena was also observed in the TGA test of
+manganese oxide and Cu–Mn oxides. Two continuous tests were per-
+formed in the dual ﬂuidized bed reactor. Oxygen was produced con-
+tinuously and stably in two 6.5 h tests. The amount of O2 produced
+increased with the temperature in the fuel reactor. No agglomeration
+was found. Mechanical property was judged by the crushing strength
+(1.9 N) and the mass balance of the reactor system.
+Acknowledgement
+This work was supported by the National Key Research and
+Development Program of China (2016YFB0600802-A).
+References
+[1] Houghton JT, Meira Filho LG, Callander BA, Harris N, Kattenberg A, Maskell K,
+editors. Climate change 1995: the science of climate change, contribution of
+working group I to the second assessment report of the intergo vernmental panel on
+climate change. Cambridge, UK: Cambridge University Press; 1996.
+[2] Freund P. Making deep reductions in CO2 emissions from coal-red power plant using
+capture and storage of CO2. Proc Inst Mech Eng 2003;217:1–7.
+[3] Lyngfelt A, Leckner B, Mattisson T. A ﬂuidized-bed combustion process with in-
+herent CO2 separation: application of chemical-looping combustion. Chem Eng Sci
+2001;56:3101–13.
+[4] Singh D, Croiset E, Douglas PL, Douglas MA. Techno-economic study of CO2 capture
+from an existing coal-ﬁred power plant: MEA scrubbing vs. O2/CO2 recycle com-
+bustion. Energy Convers Manage 2003;44:3073–91.
+[5] Ishida M, Jin H, Okamoto T. Kinetic behaviour of solid particle in chemical-looping
+combustion: suppressing carbon deposition in reduction. Energy Fuels
+1998;12:223–9.
+[6] Markstrom P, Lyngfelt A, Linderholm C. Chemical-looping combustion in a 100 kW
+unit for solid fuels. 21st international conference on ﬂuidized bed combustion,
+Naples. 2012.
+[7] Gu H, Shen L, Xiao J. Chemical looping combustion of biomass/coal with natural
+iron ore as oxygen carrier in a continuous reactor. Energy Fuels 2011;25:446–55.
+[8] Cuadrat A, Abad A, Garcia-Labiano F, Gayan P, de Diego LF, Adanez J. Ilmenite as
+oxygen carrier in chemical looping combustion system with coal. Energy Proc
+2011;4:362–9.
+[9] Berguerand N, Lyngfelt A. Batch test of solid fuels with ilmenite in a 10 kWth che-
+mical-looping combustor. Fuel 2010;89:1749–62.
+[10] Bao J, Li Z, Cai N. Experiments of char particle segregation eﬀect on the gas con-
+version behavior in the fuel reactor for chemical looping combustion. Appl Energy
+2014;113:1874–82.
+[11] Das M, Banerjee M, Saha RK. Segregation and mixing eﬀects in the riser of a cir-
+culating ﬂuidized bed. Powder Technol 2007;178:179–86.
+[12] Cuadrat A, Abad A, Garcia-Labiano F, Gayan P, de Diego LF, Adanez J. Eﬀect of
+operating conditions in chemical-looping combustion of coal in a 500 Wth unit. Int J
+Greenhouse Gas Control 2012;6:153–63.
+[13] Strohle J, Orth M, Epple B. Design and operation of a 1 MWth chemical looping
+plant. Appl Energy 2014;113:1490–5.
+[14] Lyngfelt A. Chemical-looping combustion of solid fuels–status of development. Appl
+Energy 2014;113:1869–73.
+[15] Mattisson T, Lyngfelt A, Leion H. Chemical-looping with oxygen uncoupling for
+combustion of solid fuels. Int J Greenhouse Gas Control 2009;3:11–9.
+[16] Adanez J, Abad A, Garcia-Labiano F. Progress in chemical-looping combustion and
+reforming technologies. Prog Energy Combust Sci 2012;38:215–82.
+[17] Johansson M, Mattisson T, Lyngfelt A. Investigation of Mn3O4 with stabilized ZrO2
+for chemical-looping combustion. Chem Eng Res Des 2006;84:807–18.
+[18] Azad AM, Hedayati A, Ryden M, Leion H, Mattisson T. Examining the Cu–Mn–O
+spinel system as an oxygen carrier in chemical looping combustion. Energy Technol
+2013;1:59–69.
+[19] Xu L, Edland R, Li Z, Leion H, Zhao D, Cai N. Cu-modiﬁed manganese ore as an
+oxygen carrier for chemical looping combustion. Energy Fuels 2014;28:7085–92.
+[20] Bao J, Li Z, Sun H, Cai N. Continuous test of ilmenite-based oxygen carriers for
+chemical looping combustion in a dual ﬂuidized bed reactor system. Ind Eng Chem
+Res 2013;52:14817–27.
+[21] Xu L, Li Z, Sun H, Bao J, Cai N. Low-temperature chemical looping combustion for
+removing unburnt gaseous components with a cement-supported CuO oxygen car-
+rier. Energy Fuels 2013;27:6872–9.
+[22] Mohammad PN, Leion H, Ryden M, Mattisson T. Combined Cu/Mn oxides as an
+oxygen carrier in chemical looping with oxygen uncoupling (CLOU). Energy Fuels
+2013;27:6031–9.
+[23] Rydén M, Leion H, Mattisson T, Lyngfelt A. Combined oxides as oxygen carrier
+material for chemical-looping combustion with oxygen uncoupling. Appl Energy
+2014;113:1924–32.
+[24] Linderholm C, Mattisson T, Lyngfelt A. Long-term integrity testing of spray-dried
+particles in a 10 kW chemical-looping combustor using natural gas as fuel. Fuel
+2009;88:2083–96.
+Table 3
+Mass balance of the reactor system after the two continuous tests.
+Reactor (g)
+FR ﬁlter (g)
+AR ﬁlter (g)
+Collector (g)
+Total (g)
+< 125 μm
+> 125 μm
+< 125 μm
+> 125 μm
+Mn
+3185
+2
+35
+119
+52
+12
+3405
+CuMn
+3157
+2
+31
+123
+49
+13
+3375
+L. Xu et al.
+Fuel 244 (2019) 69–75
+75

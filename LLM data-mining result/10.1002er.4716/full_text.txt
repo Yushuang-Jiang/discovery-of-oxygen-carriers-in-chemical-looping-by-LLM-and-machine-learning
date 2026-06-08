@@ -1,0 +1,1019 @@
+
+
+===== Page 1 =====
+
+R E S E A R C H A R T I C L E
+Thermochemical CO2 splitting using a sol‐gel–synthesized
+Mg‐ferrite–based redox system
+Gorakshnath Takalkar
+| Rahul R. Bhosale
+Department of Chemical Engineering,
+College of Engineering, Qatar University,
+P. O. Box 2713, Doha, Qatar
+Correspondence
+Rahul Bhosale, Department of Chemical
+Engineering, College of Engineering,
+Qatar University, P. O. Box 2713, Doha,
+Qatar.
+Email: rahul.bhosale@qu.edu.qa;
+rrbhosale1985@gmail.com
+Funding information
+Qatar National Research Fund, Grant/
+Award Number: NPRP8‐370‐2‐154
+Summary
+The synthesis, characterization, and application of the MgxFe3−xO4 (MF) redox
+materials towards conversion of CO2 via thermochemical redox reactions are
+reported. Sol‐gel method was utilized for the synthesis of MF materials. The
+derived MF materials were characterized to determine the physicochemical
+properties using various analytical techniques. PXRD results authorized the
+phase pure composition, and the SEM analysis designated nanoparticulated
+morphology of all the synthesized MF materials. The MF materials were fur-
+ther tested to estimate their O2 releasing and CO production ability in multiple
+thermochemical cycles using a high‐temperature thermogravimetric analyzer
+(TGA). Attained outcomes specify that the MgFe2O4 (MF10) was superior in
+terms of the thermal reduction and CO2 splitting capacity as compared with
+the other MF materials. For instance, MF10 liberated 58.7 μmol of O2/g·cycle
+and produced 79.6 μmol of CO/g·cycle with an average O2 recovery of 67.7%/
+cycle in nine thermochemical cycles.
+KEYWORDS
+CO2 splitting, Mg‐ferrite, sol‐gel, solar energy, thermochemical
+1 |
+INTRODUCTION
+CO2 is believed as one of the foremost greenhouse
+gases,1,2 and its persistent release largely from the chem-
+ical and power plants3 results into a prerequisite of a sus-
+tainable technology that will reutilize the CO2. One of the
+routes for the utilization of the CO2 is to convert it into
+synthesis gas (syngas) via solar‐driven two‐step thermo-
+chemical H2O/CO2 splitting cycle (using metal oxides).4
+Solar syngas yielded by this cycle can be transformed into
+gasoline, kerosene, and others by employing the catalytic
+Fischer‐Tropsch process.5 Eventually, the solar fuels pro-
+duced by utilizing the metal oxide–based thermochemical
+splitting of H2O and CO2 offer an alternative sustainable
+energy resource to fulfill the future fuel requirement.
+Among the several metal oxides assessed for the solar
+thermochemical H2O/CO2 splitting cycle,6-15 the ferrite‐
+based redox materials are studied by numerous research
+groups.16-20 For instance, Ni‐ferrite,21-23 Zn‐ferrite,24-26
+Co‐ferrite,27-29 Sn‐ferrite,30 Mn‐ferrite,31-33 and others34,35
+are some of the ferrites investigated. Table 1 reports the
+key features of the previous investigations associated with
+the ferrite‐based H2O/CO2 splitting cycle. In addition to
+these studies, Randhir et al36 examined the blend of
+MgFe2O4 and MgO towards the thermochemical conver-
+sion of H2O/CO2. Results attained in this study indicated
+that the MgFe2O4/MgO mixture produced higher sums of
+fuel at lower reduction temperature as compared with the
+CeO2. Nonetheless, the cyclability and the reaction kinet-
+ics are the major issues in the case of the MgFe2O4/MgO
+mixture that needs to be explored in detail. Moreover, we
+believe that the finest combination of the Mg‐based fer-
+rite, ie, MgxFe3 −xO4 (where x = 0.2 to 1), needs to be rec-
+ognized to accomplish maximum fuel production.
+Received: 20 November 2018
+Revised: 14 June 2019
+Accepted: 14 June 2019
+DOI: 10.1002/er.4716
+Int J Energy Res. 2019;43:6983–6993.
+© 2019 John Wiley & Sons, Ltd.
+wileyonlinelibrary.com/journal/er
+6983
+
+
+===== Page 2 =====
+
+TABLE 1
+Studies associated with the ferrite‐based solar thermochemical H2O/CO2 splitting cycle
+Type of Ferrites
+Detailed Composition Study Details and Outcomes
+Ni‐ferrite16
+NiFe2O4/m‐ZrO2/MPSZ
+foam device
+Studied H2O splitting into H2.
+An average H2 generation rate of 1.1‐4.6 cc/g was found for ceramic foam device in 20
+cycles.
+Attained maximum ferrite conversion of 60%.
+Ni‐ferrite17
+NiFe2O4
+Fixed bed reactor considered for H2O splitting study.
+H2 production via H2O splitting was observed to be more favorable at oxidation
+temperature of 1100°C rather than 800°C.
+Identification of more O2 storage sites in the spinel structure of NiFe2O4.
+Co‐ferrite18
+Hercynite (CoFe2O4 +
+Al2O3)
+Experimental study on H2O splitting.
+Thermodynamic modelling of the process.
+H2 production possible at lower reduction temperatures of 1200°C
+Ni‐ferrite19-22
+NiFe2O4 + ZrO2
+Studied H2O splitting with reduction temperature at 1400°C and oxidation temperature of
+1000°C.
+Sintering effect was reduced with improved stability by using 10%‐30% mZrO2 as the
+support for ferrites.
+Ni‐ferrite23
+NixFe2 −xO4
+Five types of Ni‐ferrite (x = 0.2‐1) compositions were synthesized using sol‐gel and utilized
+for thermochemical study.
+CO2 splitting into CO was examined by using TGA.
+NiFe2O for x = 1 showed better performance per g of loaded material (221.9 μmol of lattice
+O2 at 1400°C and 375.0 μmol of CO at 1000°C).
+Zn‐ferrite24
+ZnFe2O4 + ZnO +
+Fe3O4
+Demonstrated one water splitting cycle.
+Thermal reduction attained at 1800 K in the presence of air and H2 production at 1100 K.
+MFe2O4 (M: Ni, Co,
+Zn, Fe)25
+Mixed metal ferrites
+Thermodynamic analysis of water splitting reaction was performed by using mixed metal
+ferrites MFe2O4 (M: Ni, Co, Zn, Fe).
+Zn‐ferrite was found to be less favorable due to high vapor pressure of Zn.
+Efficient oxidation is thermodynamically feasible for all ferrites.
+MFe2O4 (M: Ni, Zn,
+Fe)26
+Mixed metal ferrites
+Aerosol spray pyrolysis (ASP) was applied to synthesize ferrites.
+The obtained results indicate that the extent of the H2O splitting depends on dopant and
+stoichiometry of the ferrite.
+Co‐ferrite27
+CoFe2O4 + ZrO2
+Studied reaction kinetics of Co‐ferrite–based H2O splitting reaction.
+ZrO2 support was utilized to reduce the sintering effect and to improve the thermal
+stability.
+Stagnation flow reactor was applied for H2O splitting reaction, and it was operated at
+various oxidation temperature from 900°C to 1400°C.
+Co‐ferrite28
+CoFe2O4 + YSZ
+A combination of Co‐ferrite and 8%YSZ was scrutinized.
+The YSZ was helpful to reduce the temperature required for thermal reduction and to
+enhance the redox reactivity.
+Long‐term redox reactivity of Co‐ferrite/YSZ was investigated by performing 50
+thermochemical cycles.
+Co‐Fe2O4
+29
+CoFe2O4 and FeAl2O4
+CO2 splitting performance of Co‐ferrite was found to be similar with the CeO2
+Performed six continuous CO2 splitting cycle at 1000°C.
+Mn‐ferritie33
+MnFe2O4
+Sol gel synthesized Mn‐ferrite was used for H2 production via H2O splitting.
+Used packed bed reactor to perform thermochemical water splitting cycles.
+Commercial mixed
+ferrites34,35
+Ni, Zn, and Cu‐ferrites
+Experimented three mixed ferrites towards H2O conversion.
+The H2 production trends are like NiFe2O4 > Ni0.5Zn0.5Fe2O4 > ZnFe2O4 > Cu0.5Zn0.5Fe2O4
+> CuFe2O4
+Mg‐ferrite36
+MgFe2O4 + MgO
+Magnatoferrites (20%Fe2O4 and MgO) was capable of generating high H2 (6.12 cc/g) at
+thermal reduction at 1450°C and water splitting at 1200°C using TGA and solar reactor
+setup.
+Better H2/O2 ratio of 1.99 was found for optimized magnatoferrite.
+Materials showed better redox performance than CeO2 for identical experimental conditions.
+TAKALKAR AND BHOSALE
+6984
+ 1099114x, 2019, 13, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/er.4716 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 3 =====
+
+The date reported in Table 1 indicates that only one
+study has been reported in the case of Mg‐ferrites. Fur-
+thermore, this study was focused towards H2O splitting;
+however for the formation of high‐quality syngas, the
+exploration of the CO2 splitting ability of the ferrites is
+also essential. In this viewpoint, in this study, our aim is
+to optimize the Mg incorporation into ferrite structure
+in terms of redox performances over large number of
+multiple cycles in order to evaluate long‐term feasibility
+in
+comparison
+with
+CeO2.
+Accordingly,
+we
+have
+attempted to synthesize MgxFe3 −xO4 (MF) nanoparticles
+via a sol‐gel method and examined these materials
+towards thermochemical CO2 splitting reactions in multi-
+ple cycles. Resulting MF materials were characterized
+using different analytical techniques to determine the
+composition purity, crystallite size, and material mor-
+phology. The redox capacity of the sol‐gel–synthesized
+MF materials towards thermal dissociation (in step 1)
+and reoxidation via CO2 splitting (in step 2) were scruti-
+nized by performing multiple thermochemical cycles
+using a high‐temperature thermogravimetric analyzer
+(TGA).
+2 |
+EXPERIMENTAL SECTION
+2.1 | Synthesis of MF using a sol‐gel
+approach
+The sol‐gel methodology utilized for the development of
+MF materials is presented in Figure 1. The sol‐gel synthe-
+sis
+primarily
+comprises
+molecular
+and
+atomic‐level
+involvement
+and
+interacting
+of
+chemical
+specified
+towards chemical homogeneity, stoichiometry, phase
+purity, and powder characteristics, for instance, ultrafine
+powder, narrow particle size distribution, and higher spe-
+cific surface area (SSA). The MgxFe3 −xO4 (MF) materials
+were synthesized by varying the x in the range of 0.2 to 1.
+For instance, following MF materials were prepared in
+this investigation: Mg0.2Fe2.8O4 (MF2), Mg
+0.4Fe2.6O4
+(MF4),
+Mg0.5Fe2.5O4
+(MF5),
+Mg0.6Fe2.4O4
+(MF6),
+Mg0.8Fe2.2O4 (MF8), and MgFe2O4 (MF10). In the begin-
+ning, the nitrate precursors of magnesium and iron
+[purchased from Sigma Aldrich, Mg (NO3)2·6H2O and
+Fe (NO3)3·9H2O] were absolutely dissolved in 20 mL of
+ethanol using an ultrasonic bath. Propylene oxide was
+added to this solution (dropwise 15‐20 drop per min for
+2‐4 min approximately) for the development of MF gel.
+Synthesized gels were aged for 24 hours at ambient tem-
+perature, then dried at 100°C for 2 hours (using a
+temperature‐controlled hot plate), and in the end cal-
+cined at 800°C for 2 hours (heating rate 10°C/min) in
+the presence of atmospheric air (by using a muffle
+furnace Nabertherm model RT 50‐250/11/P 330). The cal-
+cined crystalline nanopowders of MF materials were
+stored in a dry place and further characterized using mul-
+tiple analytical techniques.
+2.2 | Characterization of MgxFe3 −xO4
+The crystallographic analysis of the derived MF materials
+was performed using Panalytical XPert MPD/DY636 pow-
+der X‐ray diffractometer. The microstructural morphol-
+ogy and elemental composition of the MF materials
+were analyzed using a scanning electron microscope
+(SEM, Nova Nano 450, FEI) coupled with energy‐
+dispersive X‐ray spectroscopy (EDX).
+2.3 | Thermochemical experiments
+A high‐temperature
+TGA (Figure
+2) from Setaram
+(Setsys, TGS‐DSC) was utilized to examine the redox
+reactivity of the MF materials. Inert Ar was circulated
+through this TGA as a protective gas to circumvent the
+oxidation of the graphite tube. The temperature of the
+heating furnace and exhaust gas stream exiting the TGA
+was maintained with the help of the continuous flow of
+the chilled water. To prevent the oxidation and contami-
+nation from the volatile vapors exiting from the sample
+under investigation, an inert Ar was expended as a sweep
+(carrier) gas (directed from top to down direction). A
+pressure transducer was applied to gauge and control
+the pressures of the protective and sweep gases. Mass
+flow controllers were installed to monitor and control
+the flow rates of the sweep and reactive gases. Likewise,
+FIGURE 1
+Sol‐gel synthesis of MgxFe3 −xO4 (where, x = 0.2 to 1) [Colour figure can be viewed at wileyonlinelibrary.com]
+TAKALKAR AND BHOSALE
+6985
+ 1099114x, 2019, 13, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/er.4716 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 4 =====
+
+the sample temperature was measured and controlled by
+placing a Pt‐Rh thermocouple (type B) at the bottom of
+the crucible holder.
+The alumina crucible (containing approximately 75
+mg of MF powder) was placed, very precisely, on the
+hanging TGA balance. The O2 releasing and CO produc-
+tion aptitude of the MF materials was estimated by exe-
+cuting several thermochemical cycles. The MF materials
+were decomposed thermally by applying the following
+experimental conditions: temperature = 1400°C, reduc-
+tion time = 60 minutes, Ar flow rate = 100 mL/min.
+The amount of O2 released by each MF material was
+calculated by considering the mass loss observed in the
+temperature range of 1000°C to 1400°C. Similarly, the
+TGA was operated as per following conditions for the
+reoxidation of reduced MF materials via splitting of
+CO2: temperature = 1000°C, reoxidation time = 30
+minutes, CO2 concentration = 50% CO2 in Ar, flow rate
+= 100 mL/min. To nullify the consequence of the buoy-
+ancy effect on the TGA profiles, a reference TGA profile
+(acquired by performing blank experiments at operating
+conditions identical to the actual experiment and by
+using empty alumina crucible) was deducted from the
+TGA profiles acquired during an actual CO2 splitting
+experiment (performed by placing the MF material in
+the alumina crucible). The quantities of O2 released and
+CO produced were computed by converting the loss
+(due to thermal reduction) and gain (because of the CO2
+splitting) in the mass of the MF samples by using the fol-
+lowing equations.
+nO2 ¼ mloss= MO2:mMF
+ð
+Þ
+(1)
+nCO ¼ mgain= MO:mMF
+ð
+Þ
+(2)
+where mloss = mass loss observed during the thermal
+reduction step, mgain = mass gain observed during CO2
+splitting step, nO2 = amount of O2 released during the
+thermal reduction step, nCO = amount of CO produced
+during CO2 splitting step, mMF = mass of MF used in
+the thermogravimetric experiments, MO2 = molecular
+weight of O2, and MO = molecular weight of O.
+Furthermore, the O2 recovery associated with each MF
+materials was calculated as
+FIGURE 2
+High‐temperature
+thermogravimetric analyzer from Setaram
+(Setsys, TGS‐DSC)42 [Colour figure can be
+viewed at wileyonlinelibrary.com]
+TAKALKAR AND BHOSALE
+6986
+ 1099114x, 2019, 13, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/er.4716 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 5 =====
+
+%O2 recovery ¼
+Δmgain
+Δmloss
+
+
+× 100
+(3)
+3 |
+RESULTS AND DISCUSSION
+PXRD patterns allied with the sol‐gel–derived MF mate-
+rials are displayed in Figure 3. PXRD examination verified
+that all the peaks are linked to the respective MF material
+(spinel phase), and the strong reflections further approved
+the crystalline nature of each MF sample. As the peaks
+associated with the individual metal oxides (MgO and
+Fe3O4) and metals (Mg and Fe) are absent, it can be con-
+cluded that the Mg+2 was absolutely encompassed in the
+iron oxide crystal structure. The results obtained via EDX
+analysis corroborates this conclusion.
+Table 2 reports the crystallite sizes of the sol‐gel–
+derived MF materials, computed using Scherrer equation.
+The numbers stated in Table 2 designate that, as the
+molar concentration of Mg+2 increased, crystallite size
+decreased. For example, as the molar concentration of
+Mg+2 upsurges from 0.2 to 1.0, the crystallite size was
+reduced from 85.5 to 79.2 nm.
+SEM
+analysis
+was
+conducted
+to
+determine
+the
+microstructural morphology of the MF materials. For all
+MF
+samples,
+the
+SEM
+examination
+confirmed
+nanoparticulated morphology (particle size = 50 to
+100 nm). Figure 4 shows the illustrative SEM image of
+the MF8 material. Identical SEM images were acquired in
+case of all other MF materials (hence not included in the
+paper).
+After determining the physical properties, the redox
+reactivity
+of
+the
+MF
+materials
+was
+estimated
+by
+conducting the thermogravimetric experiments (proce-
+dure already explained in Section 3). To start with, the
+MF materials were compared with each other based on
+their reactivity towards thermal dissociation at 1400°C
+(for 60 min) and splitting of CO2 at 1000°C (for 30 min)
+in one thermochemical cycle. As expected, O2 was
+released during the thermal reduction of MF (O2 vacan-
+cies were created), and hence, the decrease in the sample
+mass was observed (Figure 5). Contrasting to this,
+Figure 6 shows increase in the sample mass during the
+splitting of CO2 (resulting into CO production) as the
+O2 was picked up by the reduced MF (reoxidation step).
+By using Equations (1) and (2), the change in the mass
+observed during both steps was transformed into sums
+of O2 released and CO produced.
+Figure 7 reports the quantities of O2, and CO exited
+the TGA during the first thermochemical cycle for all
+MF materials. The data presented in Figure 7A show that
+FIGURE 3
+Sol‐gel–derived MF materials: PXRD results [Colour
+figure can be viewed at wileyonlinelibrary.com]
+TABLE 2
+Crystallite size of each MF material determined after
+annealing at 800°C in air
+MF Materials
+Crystallite Size, nm
+MF2
+85.8
+MF4
+84.4
+MF5
+82.8
+MF6
+81.9
+MF8
+81.1
+MF10
+79.2
+FIGURE 4
+SEM image of the MF8 material synthesized via sol‐
+gel method
+TAKALKAR AND BHOSALE
+6987
+ 1099114x, 2019, 13, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/er.4716 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 6 =====
+
+as the molar concentration of Mg+2 augmented, the
+extent of O2 liberated diminished. For example, the
+amount of O2 released by MF2 was higher than MF10
+by 617.8 μmol/g. By considering the obtained TGA
+results, the overall amounts of O2 released by each MF
+material were as follows: MF2 (829.6 μmol/g) > MF4
+(630.4 μmol/g) > MF5 (496.6 μmol/g) > MF6 (437.3
+μmol/g) > MF8 (243.0 μmol/g) > MF10 (211.8 μmol/g).
+The
+results
+obtained
+during
+the
+reoxidation
+step
+(Figure 7B) indicate that the ability of the MF materials
+to split CO2 into CO enhanced as a function of the esca-
+lation in the Mg+2 concentration. For instance, the CO
+production capacity of MF10 material was higher by a
+factor of 5.64 in comparison with the MF2 material.
+Based on the overall CO production potential, the MF
+materials can be organized as MF2 (18.7 μmol/g) <
+MF4 (23.7 μmol/g) < MF5 (27.7 μmol/g) < MF6 (31.0
+μmol/g) < MF8 (57.9 μmol/g) < MF10 (105.2 μmol/g).
+The outcomes attained during the first cycle displayed
+that MF2 material possesses better O2 liberation capacity,
+and the MF10 material is superior in terms of the CO pro-
+duction aptitude. Nevertheless, we believed that it was
+too early to foresee the redox reactivity of any metal oxide
+FIGURE 5
+TGA profiles obtained during the thermal reduction
+of MF materials at 1400°C (for 60 min) [Colour figure can be
+viewed at wileyonlinelibrary.com]
+FIGURE 6
+TGA profiles obtained during the reoxidation of MF
+materials (1000°C for 30 min) [Colour figure can be viewed at
+wileyonlinelibrary.com]
+FIGURE 7
+Sums of A, O2 liberated and B, CO produced by the
+MF materials in first thermochemical cycle [Colour figure can be
+viewed at wileyonlinelibrary.com]
+TAKALKAR AND BHOSALE
+6988
+ 1099114x, 2019, 13, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/er.4716 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 7 =====
+
+purely based on one thermochemical cycle. Therefore, to
+further assess the redox reactivity of MF materials, three
+uninterrupted thermochemical cycles were carried out
+(temperatures
+identical
+to
+the
+first
+thermochemical
+cycle).
+Table 3 reports the sums of O2 liberated and CO pro-
+duced by each MF material in three thermochemical
+cycle. These numbers indicate that the thermal reduction
+potential of all the MF materials decreased considerably
+in the second thermochemical cycle. For instance, the
+O2 released by MF2, MF4, MF5, MF6, MF8, and MF10
+reduced by 813.8, 616.5, 483.9, 424.9, 215.8, and 151.6
+μmol/g, respectively, in the second cycle as compared
+with the first one. The results obtained in case of the third
+thermochemical cycle showed that the O2 released by
+each MF material was equivalent with the O2 liberated
+in the second cycle. It is noteworthy that, in the second
+and third thermochemical cycles, the amount of O2
+released by MF10 was the highest.
+Table 3 also testifies the amounts of CO produced by
+all the MF materials in three consecutive thermochemical
+cycles. The presented data verify that there was decay in
+the CO produced by all the MF materials in the second
+thermochemical cycle. The amount of CO produced by
+MF2, MF4, MF5, MF6, MF8, and MF10 diminished by
+13.9%, 21.5%, 36.5%, 45.8%, 49.1%, and 24.8%, exclusively
+in the second cycle as compared with the first cycle. In
+the third thermochemical cycle, the descent in the CO
+produced by the MF materials was minor than that of
+the second thermochemical cycle. For instance, the
+amounts of CO produced by the MF2, MF4, MF5, MF6,
+MF8, and MF10 materials were reduced by 8.7%, 12.3%,
+4.6%, 3.6%, 1.4%, and 0.8%, respectively, in the third cycle.
+Again, the MF10 was observed to be the superior material
+in terms of its CO2 splitting potential.
+The results acquired by performing three consecutive
+thermochemical cycles (Table 3) authenticate that the
+MF10 material holds better redox reactivity. Yet, it is very
+vital to recognize the potential of any redox material
+towards thermal dissociation and splitting of CO2 for a
+lengthy period. Thus, the O2 releasing and CO production
+ability of all the MF materials was further examined in
+ten sequential thermochemical cycles (experimental con-
+ditions matching to the three thermochemical cycles). As
+an example, the TGA profiles obtained in the case of the
+MF10 material (10 cycles) are reported in Figure 8.
+The mass variation detected from the ten TGA cycles
+specified that the O2 releasing aptitude of all the MF
+materials was tremendously high in the first cycle. This
+drift was anticipated as the MF materials tested in first
+cycle were not once inspected for the high‐temperature
+thermochemical cycles. To avoid the deceitful depiction,
+the data gained in the first thermochemical cycle were
+not considered to determine the overall redox reactivity
+of the MF materials.
+The numbers quantified in Figure 9 undoubtedly show
+that from cycle 2 to cycle 9, all the MF materials released
+consistent amounts of O2 (with a minor variation) at
+1400°C for 60 minutes. For instance, the MF6 material
+released 12.4, 12.7, 12.3, and 12.3 μmol/g of O2 in cycles
+2, 4, 6, and 8, respectively. It was evident from Figure 9
+that MF10 has the best promise to get thermally reduced
+at the employed experimental conditions. On the whole,
+the potential of the MF materials towards getting
+TABLE 3
+Redox reactivity of MF materials in three consecutive
+thermochemical cycles (thermal reduction at 1400°C for 60 min and
+the CO2 splitting at 1000°C for 30 min)
+MF
+O2 Released, μmol/g
+CO Generated, μmol/g
+First
+TR
+Second
+TR
+Third
+TR
+First
+CS
+Second
+CS
+Third
+CS
+MF2
+829.6
+15.8
+14.3
+18.7
+16.1
+14.7
+MF4
+630.4
+13.9
+13.4
+23.7
+18.6
+16.3
+MF5
+496.6
+12.7
+12.4
+27.7
+17.6
+16.8
+MF6
+437.3
+12.4
+12.3
+31.0
+16.8
+16.2
+MF8
+243.0
+27.2
+26.2
+57.9
+29.5
+29.1
+MF10 211.8
+60.2
+59.2
+105.2
+79.1
+78.5
+Abbreviations: TR, thermal reduction; CS, CO2 splitting.
+FIGURE 8
+TGA profiles obtained for
+10 thermochemical cycles conducted in
+the case of the MF10 material (thermal
+reduction at 1400°C for 60 min and the
+CO2 splitting at 1000°C for 30 min)
+[Colour figure can be viewed at
+wileyonlinelibrary.com]
+TAKALKAR AND BHOSALE
+6989
+ 1099114x, 2019, 13, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/er.4716 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 8 =====
+
+dissociated thermally (amount of O2 released) at 1400°C
+for 60 minutes was as follows: MF10 (58.7 μmol/g·cycle)
+> MF8 (27.0 μmol/g·cycle) > MF2 (14.1 μmol/g·cycle) >
+MF4 (13.1 μmol/g·cycle) > MF6 (12.6 μmol/g·cycle) >
+MF5 (12.3 μmol/g·cycle).
+The data exhibited in Figure 10 verified that the CO
+production ability of MF8 and MF10 was substantially
+higher as compared with MF2, MF4, MF5, and MF6. It
+was also ascertained that the sums of CO produced in
+the case of MF2, MF4, MF5, and MF6 decreases as the
+number of thermochemical cycles upsurges. Conflicting
+to this, the reactivity of the MF8 and MF10 towards split-
+ting of CO2 was roughly steady for all nine thermochem-
+ical cycles. The ability of the MF materials to split CO2
+(producing CO) at 1000°C (for 30 min) was as follows:
+MF10 (79.6 μmol/g·cycle) > MF8 (28.4 μmol/g·cycle) >
+MF6 (14.2 μmol/g·cycle) > MF5 (13.7 μmol/g·cycle) >
+MF4 (12.7 μmol/g·cycle) > MF2 (10.2 μmol/g·cycle).
+These findings proved that the rise in the Mg+2 molar
+concentration in the iron oxide crystal structure resulted
+in an upsurge in the CO production. For instance, as
+the Mg+2 molar concentration increased from 0.6 to 0.8,
+the CO production surged by a factor of 2.0. Equally,
+the CO yield increased by a factor of 2.8 when the Mg+2
+molar concentration enhanced from 0.8 to 1.0.
+The outcomes stated in previous sections clearly
+showed that, in all MF materials, the MF10 material is
+the superior choice to split CO2 thermochemically. We
+have further assessed the CO/O2 molar ratio and % O2
+recovery for MF10 material, and the numbers obtained
+are presented in Figure 11. The CO/O2 molar ratio and
+% O2 recovery for the MF10 material were observed to
+be in the range of 1.3 to 1.4 and 65% to 70% for all nine
+thermochemical cycles.
+By considering identical experimental conditions, the
+MF10 material was compared with the CeO2 investigated
+by our group in recent time.37,38 In terms of the average
+O2 released in nine thermochemical cycles, the MF10
+FIGURE 9
+Quantities of O2 released by
+MF materials in nine thermochemical
+cycles [Colour figure can be viewed at
+wileyonlinelibrary.com]
+FIGURE 10
+Extents of CO produced by
+MF materials in nine thermochemical
+cycles [Colour figure can be viewed at
+wileyonlinelibrary.com]
+TAKALKAR AND BHOSALE
+6990
+ 1099114x, 2019, 13, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/er.4716 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 9 =====
+
+material (58.7 μmol of O2/g·cycle) appeared to be better
+as compared with the CeO2 (47.6 μmol of O2/g·cycle).
+However, the aptitude of CeO2 towards splitting CO2
+(95.6 μmol of O2/g·cycle) is higher as compared with
+the MF10 material (79.6 μmol of CO/g·cycle). Based on
+the literature survey and the knowledge we have in the
+area of solar thermochemical cycles, to advance the
+H2O/CO2 splitting ability of the MF10 material, our
+research group is presently occupied towards synthesiz-
+ing and utilizing transition metal doped Mg‐ferrites for
+thermochemical splitting of H2O/CO2.
+4 |
+SUMMARY AND CONCLUSIONS
+MgxFe3−xO4 (MF) materials, ie, Mg0.2Fe2.8O4 (MF2),
+Mg0.4Fe2.6O4 (MF4), Mg0.5Fe2.5O4 (MF5), Mg0.6Fe2.4O4
+(MF6), Mg0.8Fe2.2O4 (MF8), and MgFe2O4 (MF10), were
+derived
+using
+the
+propylene
+oxide–assisted
+sol‐gel
+approach. The PXRD peaks obtained approved phase pure
+composition of the MF materials with no traces of individ-
+ual metal or metal oxides such as Mg, Fe, MgO, and others.
+As expected, the crystallite size of MF materials was
+observed to be reduced from 85.8 to 79.2 nm as the molar
+concentration of Mg+2 in the iron oxide crystal structure
+increased from 0.2 to 1. The SEM images obtained for all
+the MF materials sanctioned nanoparticulated morphol-
+ogy. Multiple CO2 splitting cycles were conducted to esti-
+mate the redox reactivity of the derived MF materials.
+The obtained results indicated that the MF10 material is
+the best choice (among the MF materials investigated in
+this study) in terms of the O2 releasing and CO2 splitting
+capability. The overall results also concluded that the
+incorporation of Mg+2 in the iron oxide crystal structure
+was beneficial to improve the O2 releasing and CO produc-
+tion competence of iron oxide. As the CO/O2 ratio is less
+than 2, it clearly indicates that the reoxidation ability of
+MF materials is poor. We are currently working towards
+synthesizing ternary and quaternary ferrite materials
+including Mg to improve the CO/O2 molar ratio. Likewise,
+we are
+also
+involved
+towards
+the
+investigation
+of
+cyclability and reaction kinetics associated with the
+MF10‐based H2O/CO2 splitting reactions.
+ACKNOWLEDGEMENTS
+This publication was made possible by the NPRP grant
+(NPRP8‐370‐2‐154) from the Qatar National Research
+Fund (a member of Qatar Foundation). The statements
+made herein are solely the responsibility of author(s).
+ORCID
+Gorakshnath Takalkar
+https://orcid.org/0000-0002-0730-
+0845
+Rahul R. Bhosale
+https://orcid.org/0000-0002-2697-8141
+REFERENCES
+1. Vaidya PD, Kenig EY. CO2‐alkanolamine reaction kinetics: a
+review of recent studies. Chem Eng Technol. 2007;30(11):
+1467‐1474.
+2. Bhosale RR, Mahajani VV. Kinetics of thermal degradation of
+renewably prepared amines useful for flue gas treatment. J
+Renew Sustain Energy. 2013;5(6):063110.
+3. Soltani R, Rosen MA, Dincer I. Assessment of CO2 capture
+options from various points in steam methane reforming for
+hydrogen production. Int J Hydrogen Energy. 2014;39(35):
+20266‐20275.
+FIGURE 11
+% O2 recovery and CO2/O2
+molar ratio associated with the MF10
+material for nine consecutive
+thermochemical cycles (thermal reduction
+at 1400°C for 60 min and the CO2 splitting
+at 1000°C for 30 min) [Colour figure can
+be viewed at wileyonlinelibrary.com]
+TAKALKAR AND BHOSALE
+6991
+ 1099114x, 2019, 13, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/er.4716 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 10 =====
+
+4. Scheffe JR, Steinfeld A. Oxygen exchange materials for solar
+thermochemical splitting of H2O and CO2: a review. Mater
+Today. 2014;17(7):341‐348.
+5. Dry ME. The Fischer‐Tropsch process: 1950‐2000. Catal Today.
+2002;71(3‐4):227‐241.
+6. Koepf E, Villasmil W, Meier A. Pilot‐scale solar reactor opera-
+tion and characterization for fuel production via the Zn/ZnO
+thermochemical
+cycle.
+Appl
+Energy.
+2016;165:1004‐1023.
+https://doi.org/10.1016/j.apenergy.2015.12.106
+7. Bhosale R, Kumar A, Almomani F. Solar thermochemical
+hydrogen production via terbium oxide based redox reactions.
+Int J Photoenergy. 2016;2016:1‐9.
+8. Muhich CL, Blaser S, Hoes MC, Steinfeld A. Comparing the
+solar‐to‐fuel energy conversion efficiency of ceria and perovskite
+based thermochemical redox cycles for splitting H2O and CO2.
+Int J Hydrogen Energy. 2018;43(41):18814‐18831. https://doi.
+org/10.1016/j.ijhydene.2018.08.137
+9. Abanades S. CO2 and H2O reduction by solar thermochemical
+looping using SnO2/SnO redox reactions: thermogravimetric
+analysis. Int J Hydrogen Energy. 2012;37(10):8223‐8231. https://
+doi.org/10.1016/j.ijhydene.2012.02.158
+10. Gokon N, Hasegawa T, Takahashi S, Kodama T. Thermochemi-
+cal two‐step water‐splitting for hydrogen production using Fe‐
+YSZ particles and a ceramic foam device. Energy. 2008;33(9):
+1407‐1416. https://doi.org/10.1016/j.energy.2008.04.011
+11. Cooper T, Scheffe JR, Galvez ME, Jacot R, Patzke G, Steinfeld A.
+Lanthanum manganite perovskites with Ca/Sr A‐site and Al B‐
+site doping as effective oxygen exchange materials for solar ther-
+mochemical
+fuel
+production.
+Energ
+Technol.
+2015;3(11):
+1130‐1142.
+12. Furler P, Scheffe JR, Steinfeld A. Syngas production by simulta-
+neous splitting of H2O and CO2 via ceria redox reactions in a
+high‐temperature
+solar
+reactor.
+Energ
+Environ
+Sci.
+2012;5(3):6098‐6103.
+13. Bader R, Venstrom LJ, Davidson JH, Lipiński W. Thermody-
+namic analysis of isothermal redox cycling of ceria for solar
+fuel production. Energy Fuel. 2013;27(9):5533‐5544.
+14. Chueh WC, Falter C, Abbott M, et al. High‐flux solar‐driven
+thermochemical
+dissociation
+of
+CO2
+and
+H2O
+using
+nonstoichiometric ceria. Science. 2010;330(6012):1797‐1801.
+15. Bhosale RR, Kumar A, Almomani F, Gupta RB. Solar thermo-
+chemical
+ZnO/ZnSO4
+water
+splitting
+cycle
+for
+hydrogen
+production. Int J Hydrogen Energy. 2017;42(37):23474‐23483.
+16. Gokon N, Kodama T, Imaizumi N, Umeda J, Seo T. Ferrite/zir-
+conia‐coated foam device prepared by spin coating for solar
+demonstration of thermochemical water‐splitting. Int J Hydro-
+gen Energy. 2011;36(3):2014‐2028.
+17. Agrafiotis
+C,
+Zygogianni
+A,
+Pagkoura
+C,
+Kostoglou
+M,
+Konstandopoulos AG. Hydrogen production via solar‐aided
+water splitting thermochemical cycles with nickel ferrite: exper-
+iments and modeling. AIChE J. 2013;59(4):1213‐1225.
+18. Scheffe JR, Li J, Weimer AW. A spinel ferrite/hercynite water‐
+splitting
+redox
+cycle.
+Int
+J
+Hydrogen
+Energy.
+2010;35(8):
+3333‐3340.
+19. Bhosale RR, Shende RV, Puszynski JA. Sol‐gel derived NiFe2O4
+modified
+with
+ZrO2
+for
+hydrogen generation
+from
+solar
+thermochemical water‐splitting reaction. In Materials Research
+Society Symposium Proceedings. 2011. doi:10.1557/opl.2012.
+772, 1387
+20. Shende R, Puszynski J, Opoku M, Bhosale R. Synthesis of novel
+ferrite foam material for water‐splitting application. NSTI‐
+Nanotech. 2009.
+21. Kodama T, Gokon N, Yamamoto R. Thermochemical two‐step
+water splitting by ZrO2‐supported NixFe3‐xO4 for solar hydro-
+gen production. Sol Energy. 2008;82(1):73‐79. https://doi.org/
+10.1016/j.solener.2007.03.005
+22. Teknetzi I, Nessi P, Zaspalis V, Nalbandian L. Ni‐ferrite with
+structural stability for solar thermochemical H2O/CO2 splitting.
+Int J Hydrogen Energy. 2017;42(42):26231‐26242.
+23. Bhosale RR, Kumar A, AlMomani F, et al. Effectiveness of Ni
+incorporation in iron oxide crystal structure towards thermo-
+chemical
+CO2
+splitting
+reaction.
+Ceram
+Int.
+2017;43(6):
+5150‐5155.
+24. Tamaura Y, Kaneko H. Oxygen‐releasing step of ZnFe2O4/(ZnO
++ Fe3O4)‐system in air using concentrated solar energy for solar
+hydrogen production. Sol Energy. 2005;78(5):616‐622. https://
+doi.org/10.1016/j.solener.2004.10.012
+25. Allendorf MD, Diver RB, Siegel NP, Miller JE. Two‐step water
+splitting using mixed‐metal ferrites: thermodynamic analysis
+and characterization of synthesized materials. Energy Fuel.
+2008;22(6):4115‐4124.
+26. Lorentzou S, Agrafiotis CC, Konstandopoulos AG. Aerosol spray
+pyrolysis synthesis of water‐splitting ferrites for solar hydrogen
+production. Granul Matter. 2008;10(2):113‐122. https://doi.org/
+10.1007/s10035‐007‐0069‐8
+27. Scheffe JR, McDaniel AH, Allendorf MD, Weimer AW. Kinetics
+and mechanism of solar‐thermochemical H2 production by oxi-
+dation of a cobalt ferrite‐zirconia composite. Energ Environ Sci.
+2013;6(3):963. https://doi.org/10.1039/c3ee23568h
+28. Allen KM, Coker EN, Auyeung N, Klausner JF. Cobalt ferrite in
+YSZ for use as reactive material in solar thermochemical water
+and carbon dioxide splitting, Part I: Material characterization.
+JOM.
+2013;65(12):1670‐1681.
+https://doi.org/10.1007/s11837‐
+013‐0704‐2
+29. Arifin D, Aston VJ, Liang X, McDaniel AH, Weimer AW.
+CoFe2O4 on a porous Al2O3 nanostructure for solar thermo-
+chemical CO2 splitting. Energ Environ Sci. 2012;5(11):9438.
+https://doi.org/10.1039/c2ee22090c
+30. Bhosale R, Khadka R, Puszynski J, Shende R. H2 generation
+from two‐step thermochemical water‐splitting reaction using
+sol‐gel derived SnxFeyOz. J Renew Sustain Energy. 2011;3(6).
+https://doi.org/10.1063/1.3659684
+31. Inoue M, Hasegawa N, Uehara R, Gokon N, Kaneko H,
+Tamaura
+Y.
+Solar
+hydrogen
+generation
+with
+H2O/ZnO/
+MnFe2O4 system. Sol Energy. 2004;76(1‐3):309‐315. https://doi.
+org/10.1016/j.solener.2003.08.033
+32. Ishihara H, Hasegawa N, Aoki H, Kaneko H, Suzuki A,
+Tamaura Y. Two‐step water splitting for solar H2 production
+with ZnII‐MnII,III‐FeIII spinel structure using concentrated
+solar heat. Solid State Ion. 2004;172(1‐4):117‐119. https://doi.
+org/10.1016/j.ssi.2004.03.016
+33. Bhosale RR, Shende RV, Puszynski JA. Thermochemical water‐
+splitting for H2O generation using sol‐gel derived Mn‐ferrite in a
+TAKALKAR AND BHOSALE
+6992
+ 1099114x, 2019, 13, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/er.4716 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 11 =====
+
+packed
+bed
+reactor.
+Int
+J
+Hydrogen
+Energy.
+2012;37(3):
+2924‐2934.
+34. Fresno F, Fernández‐Saavedra R, Belén Gómez‐Mancebo M,
+et al. Solar hydrogen production by two‐step thermochemical
+cycles: evaluation of the activity of commercial ferrites. Int J
+Hydrogen
+Energy.
+2009;34(7):2918‐2924.
+https://doi.org/
+10.1016/j.ijhydene.2009.02.020
+35. Fernández‐Saavedra R, Gómez‐Mancebo MB, Caravaca C,
+Sánchez M, Quejido AJ, Vidal A. Hydrogen production by two‐
+step thermochemical cycles based on commercial nickel ferrite:
+kinetic and structural study. Int J Hydrogen Energy. 2014;39(13):
+6819‐6826. https://doi.org/10.1016/j.ijhydene.2014.02.076
+36. Randhir K, Rhodes NR, Li L, et al. Magnesioferrites for solar
+thermochemical fuel production. Sol Energy. 2018;163:1‐15.
+https://doi.org/10.1016/j.solener.2017.12.006
+37. Takalkar GD, Bhosale RR, Kumar A, et al. Transition metal
+doped ceria for solar thermochemical fuel production. Sol
+Energy.
+2018;172:204‐211.
+https://doi.org/10.1016/j.solener.
+2018.03.022
+38. Bhosale RR, Takalkar GD. Nanostructured co‐precipitated
+Ce0.9Ln0.1O2(Ln = La, Pr, Sm, Nd, Gd, Tb, Dy, or Er) for thermo-
+chemical
+conversion
+of
+CO2.
+Ceram
+Int.
+2018;44(14):
+16688‐16697. https://doi.org/10.1016/j.ceramint.2018.06.096
+How to cite this article: Takalkar G, Bhosale RR.
+Thermochemical CO2 splitting using a sol‐gel–
+synthesized Mg‐ferrite–based redox system. Int J
+Energy Res.2019;43:6983–6993.https://doi.org/10.
+1002/er.4716
+TAKALKAR AND BHOSALE
+6993
+ 1099114x, 2019, 13, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/er.4716 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

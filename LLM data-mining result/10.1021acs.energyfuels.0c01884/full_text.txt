@@ -1,0 +1,1120 @@
+
+
+===== Page 1 =====
+
+Scalable Preparation of Bimetallic Cu/Ni-Based Oxygen Carriers for
+Chemical Looping
+Kyle O’Malley,* Felix Donat, Kevin J. Whitty, and Hong Yong Sohn
+Cite This: https://dx.doi.org/10.1021/acs.energyfuels.0c01884
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+ABSTRACT: Chemical looping is a promising combustion technology utilizing the cyclic oxidation and reduction of a metal oxide
+to transport oxygen for a variety of applications related to carbon capture and storage (CCS). The scalable manufacture of a suitable
+oxygen carrier is a pivotal aspect of this research ﬁeld. This work surveys the experimental preparation of CuO and CuO/NiO on
+SiC and SiO2 substrates for chemical looping with oxygen uncoupling (CLOU) applications. A novel impregnation method that
+enhances the metal−support interaction to increase dispersion and reduce CuO sintering has been developed in this work. Particles
+prepared using this method, termed “selective adsorption wet coimpregnation”, exhibited agglomeration resistance and high
+reactivity over many regeneration cycles. CuO/NiO@SiO2 oxygen carrier (33 wt % CuO, 1 mol of Ni/99 mol of Cu) showed no
+signs of agglomeration up to 975 °C in ﬂuidized bed testing, cycling between CuO and Cu2O. Thermogravimetric analysis showed
+no loss in oxygen transport capacity or decrease in kinetics over 100 cycles.
+1. INTRODUCTION
+Carbon capture and sequestration (CCS) is a proposed
+technology to capture CO2 emissions from fossil fuel
+combustion, allowing power generation without contributing
+to anthropogenic climate change. In 2018, fossil fuel combustion
+constituted over 86% of global carbon emissions, including 35%
+alone attributed to coal combustion for power generation.1 The
+U.S. Energy Information Administration projects global coal use
+to remain steady over the next 20 years.2 CCS technologies
+allow the capture and long-term storage of CO2 and the
+mitigation of undesirable climate impacts. The technologies
+include precombustion, postcombustion, and oxy-fuel combus-
+tion, which have been extensively reviewed.3 Each technology
+produces a concentrated stream of CO2 ready for sequestration.
+Oxy-fuel technologies operate by separating the oxygen in air
+from N2 prior to combustion, thus reducing the cost and
+complexity of isolating CO2. Chemical looping combustion
+(CLC) is considered an oxy-fuel technology in which the fuel is
+oxidized by reaction with a solid metal oxide oxygen carrier.
+Chemical looping with oxygen uncoupling (CLOU) is an
+innovation to conventional CLC adapted for solid fuel
+processing.4 All CLOU materials are also capable of operating
+as oxygen carriers in chemical looping with air separation
+(CLAS) for any oxy-fuel application.5 Compared to oxy-fuel
+technologies that utilize cryogenic air separation, chemical
+looping has a far lower energy penalty.6,7
+Figure 1 illustrates the CLOU process, with CuO as an
+exemplary metal oxide oxygen carrier (OC) entering the fuel
+reactor, initially at a fully oxidized state. Decomposition to Cu2O
+and release of gaseous O2 occur spontaneously in the low O2
+partial pressure environment of the fuel reactor. Gaseous O2
+reacts quickly with the solid carbonaceous fuel, relative to in situ
+gasiﬁcation CLC, which requires that the fuel be ﬁrst gasiﬁed to
+produce CO and H2 that then react with lattice oxygen on the
+OC. Large scale chemical looping demonstrations have been
+limited to this method, typically performed with the Fe−Ti-
+based oxide ilmenite.8,9 In the CLOU process, the Cu2O in the
+OC is reoxidized to CuO in the air reactor. Suitable
+monometallic metal oxides for CLOU are limited to Mn2O3,
+Co3O4, and CuO, which exhibit favorable thermodynamic
+characteristics in the narrow range of combustion temperatures
+(∼700−950 °C).4
+Received:
+June 10, 2020
+Revised:
+July 25, 2020
+Published: August 11, 2020
+Figure 1. Schematic of chemical looping combustion with CuO as the
+oxygen carrier.
+Article
+pubs.acs.org/EF
+© XXXX American Chemical Society
+A
+https://dx.doi.org/10.1021/acs.energyfuels.0c01884
+Energy Fuels XXXX, XXX, XXX−XXX
+Downloaded via CORNELL UNIV on September 9, 2020 at 18:07:22 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+
+===== Page 2 =====
+
+One of the more signiﬁcant challenges to chemical looping
+processing of solid fuels is the manufacture of a suitable OC bed
+material.10 Candidates tend to have trade-oﬀs among reactivity,
+degradation resistance (due to agglomeration or attrition), and
+cost. For example, Mn ore is an inexpensive OC for CLOU
+applications, but it suﬀers from a high attrition rate.11 Other
+groups have shown deactivation of Mn-based materials prepared
+by impregnation, which was attributed to incomplete
+oxidation.12 Promising results have been reported for in situ
+gasiﬁcation CLC with solid fuels using ilmenite as the OC.
+However, the Fe−Ti ore has been shown to a have low
+conversion rate, as well as rapid loss of oxygen-carrying capacity
+due to Fe migration to the external surface and attrition.13 Ca−
+Mn-based perovskites with doping (Mg, Ti) are promising
+candidates as well, with good stability and reaction rates which
+have been shown to increase with cycling.14−16 The drawbacks
+of these perovskites are deactivation from sulfur impurities and
+low oxygen transport capacities of <0.01 g of O2/g of OC.17
+CuO has been selected in the present study for the following
+qualities:18
+1. CuO has a high oxygen transport capacity (OTC) of 0.1 g of
+O2/g of CuO (see eq 2) requiring lower solid transport rates.
+2. CuO has high reactivity, also reducing solids inventory.
+3. There are exothermic air and fuel reactors for various types
+of fuel, unique to CuO.
+4. CuO reduction is favored thermodynamically to completely
+convert gaseous hydrocarbons.
+5. CuO is of low cost relative to other active CLC metals.
+The decomposition and oxidation reactions for CuO as a
+CLOU carrier are shown in eq 1 as the forward and reverse
+reactions, respectively. The chief disadvantage for copper oxide
+is the low melting point (mp), as shown in Table 1. The
+Tammann temperature (half the melting temperature on an
+absolute basis) indicates the temperature at which materials
+begin to sinter. Sintering and agglomeration risk damaging
+process equipment and a reduced reaction rate. In particular,
+complete reduction to elemental Cu at operating temperatures
+around 950 °C poses a high risk. Attrition also degrades the OC
+particle and reduces oxygen transport. Due to these risks, Cu-
+based OCs must be synthesized on a stabilizing support. In order
+for chemical looping technologies to be successful long term, the
+synthesized oxygen carrier must be resistant to sintering and
+attrition over thousands of reaction cycles.19 Operation is
+limited to circulating ﬂuidized beds due to the copper sintering
+challenge. Synthesized CuO OCs with improved resistance to
+sintering would allow for more ﬂexible and cost-eﬀective designs
+such as moving beds, rotary reactors, and ﬁxed (packed)
+beds.20−26
+Scale-up of Cu-based oxygen carriers has focused on
+impregnation and mechanical mixing followed by spray drying.
+OCs prepared via impregnation have high reactivity over many
+cycles and high mechanical strength, but they have have
+demonstrated agglomeration problems at high CuO content.27
+Fluidized bed testing at 800 °C, with a reduction in 25 vol %
+CH4 and oxidation in 8 vol % O2 atmosphere, showed Cu-based
+OCs on γ-Al2O3 with loadings of >17 wt % CuO agglomerated.28
+Pilot scale demonstrations of industrially available <15 wt %
+CuO content material have been performed in 0.5, 10, 25, 120,
+and 150 kW beds. The loss of oxygen transport capacity due to
+sintering or attrition is an ongoing challenge, with observations
+of over 35% drop in OTC.29−34 Carriers with high CuO content
+(40−60 wt %) have been demonstrated using freeze granulation
+and mechanical mixing with granulation or spray drying. These
+OCs exhibited low mechanical strength in ﬂuidized bed testing,
+and subsequent bed loss.35−37 To prevent bed loss through
+elutriation in ﬂuidized beds, increasing the particle size to the
+range 200−600 μm has been suggested.38 Cu-based OCs have
+shown promising results in moving and ﬁxed beds, which exhibit
+less mechanical stress than ﬂuidized beds.39
+To increase the CuO loading, methods such as self-assembly
+template combustion synthesis40 and impregnation on nano-
+scale inert supports have been developed recently.41 Song et al.
+reviewed the state of Cu preparation and deemed the key
+challenge of Cu sintering stems from poor dispersion of the
+active metal across the support.42 They noted conventional
+impregnation and mechanical mixing techniques do not stabilize
+CuO to the support suﬃciently. In order to achieve mixing at the
+molecular level, they prepared CuO@Al2O3 layered double
+hydroxides by coprecipitation. Fluidization experiments of
+material with 60 wt % CuO loading showed minimal sintering
+and no agglomeration over 121 redox cycles. The results suggest
+that improved CuO dispersion leads to less sintering.
+One key challenge to scaling up oxygen carrier production via
+impregnation is maintaining a high resistance to agglomeration.
+Peterson and coauthors43 have reported 40 wt % CuO content
+on SiO2 that did not agglomerate in 0.5 kW reactor testing.
+However, an extended heat treatment step at 980 °C was
+required, which is not feasible at the scale of this study (several
+kilograms). Without this high temperature calcination step,
+good dispersion is crucial to preventing agglomeration. One
+consideration for preventing poor dispersion on the external
+surface is precursor migration during the drying stage.44 When
+the porous particle is heated externally, the precursor evaporates
+at the surface and capillary forces promote solution migration
+out of the porous matrix. One approach to address this is
+microwave drying, which heats the particles uniformly
+throughout the internal matrix.45
+For impregnation, dispersion can also be improved by
+increasing the aﬃnity of Cu cation to the support surface by
+careful selection of the Cu precursor. The rational synthesis
+method known as strong electrostatic adsorption or simply
+selective adsorption (SA) has been demonstrated to evenly
+deposit small CuO particles on a variety of substrates.46−48 The
+SA method exploits tunable surface hydroxyl groups (OH) on
+the metal oxide surface.45 When the pH is greater than the point
+of zero charge (PZC), the hydroxyl groups are deprotonated and
+the surface becomes negatively charged (Figure 2). Conversely,
+when the pH is less than the PZC, the anionic metal species is
+preferentially attracted. The Cu metal cation is attracted to the
+surface by nonspeciﬁc, Coulombic, and electrostatic forces.
+Tetraamine copper nitrate precursor has been used previously
+for impregnation on SiO2, a cationic adsorbent with a PZC of
+2.49−51
+↔
++
+4CuO
+2Cu O
+O
+2
+2
+(1)
+Table 1. Melting Points and Sintering Temperatures for
+Copper and Its Oxides
+material
+Tammann temp (°C)
+mp (°C)
+Cu
+405
+1085
+Cu2O
+481
+1230
+CuO
+526
+1330
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://dx.doi.org/10.1021/acs.energyfuels.0c01884
+Energy Fuels XXXX, XXX, XXX−XXX
+B
+
+
+===== Page 3 =====
+
+The literature suggests that sintering reduces reactivity, in
+particular reoxidation after complete reduction to elemental
+Cu.52 Previous work by Zhu et al.53−55 determined nonporous
+Cu2O scales oxidize very slowly through outward diﬀusion of Cu
+atoms. To increase the conversion rate in this regime, they added
+metallic impurities such as Ni to lower the copper purity to 99.5
+wt %. The rate was observed to increase due to increased grain
+boundary diﬀusion as a result of smaller grain size. Modeling
+work by Goldstein and co-workers56 suggests the copper
+subparticle size must be <1 μm for the Cu2O-to-CuO oxidation
+rate to be suﬃciently fast for chemical looping applications.
+This work investigated impregnation methods for the
+manufacture of Cu-based OC on SiC and SiO2 supports. SiC
+was selected as a high-strength, relatively low-cost substrate,
+while SiO2 was selected to achieve better CuO metal dispersion.
+Capillary migration during drying, metal−support interaction,
+and alloying with <1 wt % NiO were all investigated to meet the
+requirements of a high-quality oxygen carrier material. Particles
+were characterized using N2 sorption tests and SEM, and they
+were screened based on TGA and ﬂuidized bed performance.
+Samples that exhibited good reactivity and agglomeration
+resistance were examined with crush strength testing, XRD,
+and multicycle TGA tests.
+2. EXPERIMENTAL SECTION
+2.1. Preparation of Oxygen Carriers. 2.1.1. Raw Materials. Two
+support raw materials were investigated: a nonporous, relatively
+inexpensive SiC and porous SiO2 (Cariact Q-10C from Fuji Silysia).
+The properties of these two materials are summarized in Table 2. The
+SiC support was examined with up to 20 wt % CuO content. The
+following two copper precursors were used in this study: (i) Copper
+nitrate trihydrate (Sigma-Aldrich, 99%) was used to prepare copper
+nitrate solution with deionized water. (ii) Tetraamine copper nitrate
+(TACN) was prepared with the addition of excess ammonia (99%)
+until all copper hydroxide precipitate had dissolved, followed by
+dilution with deionized water. For coimpregnation of CuO and NiO,
+nickel nitrate hexahydrate (Sigma-Aldrich, 99%) was dissolved into
+solution, and then excess ammonia was added to produce tetraamine
+nickel nitrate (TANN), again followed by dilution. An aliquot of this
+solution was added to TACN to produce TACN/TANN for
+coimpregnation on SiO2.
+2.1.2. Oxygen Carrier on SiC. CuO supported on SiC OCs were
+prepared via wet (WI) or dry (DI) impregnation. Lab scale WI was
+investigated in a rotary vaporizer (RV) and a rotary kiln (RK-1).
+Samples consisted of approximately 50 g of OC with 20 wt % CuO. All
+batches were prepared by wetting the support with excess Cu precursor
+solution, drying, nitrate decomposition, and oxidation to CuO at 350
+°C. Wetting was performed with copper nitrate and vigorous stirring. In
+both reactors, drying was performed at ambient pressure at 85 °C.
+Drying and decomposition were carried out in a heating mantle without
+stirring. Four additions, which included wetting, drying, and nitrate
+decomposition steps, were performed to reach the desired value of 20
+wt % CuO.
+2.1.3. Oxygen Carrier on SiO2. OC particles of 20 wt % CuO
+supported on SiO2 were prepared by DI, following the same steps as
+those for the SiC support. A novel drying method was examined by
+preparing CuO on SiO2 supports via wet impregnation with ﬁltration
+and microwave drying (WIFM). The high pore volume of SiO2 allowed
+high precursor retention after ﬁltration, in contrast to SiC. Microwave
+drying was used to reduce copper precursor migration. Copper nitrate
+precursor was added slowly to the SiO2 support in a Büchner funnel
+with stirring until excess volume was observed, to ensure homogeneous
+wetting. The funnel was then ﬁltered of excess precursor and dried via
+microwave, followed by nitrate decomposition and oxidation at 350 °C
+in the heating mantle. A total of three additions of wetting, drying, and
+decomposition was required for the desired 20 wt % CuO material.
+Novel selective adsorption methods with the copper precursor
+TACN were also explored for the SiO2 support. Cu-based OCs with 25
+wt % CuO were prepared via the selective adsorption wet impregnation
+(SAWI) method by wetting ∼20 g of SiO2 with 4.7 mL of 0.45 M
+TACN/g of SiO2, drying in the RV over several hours in a 120 °C oil
+bath, followed by washing with deionized water and nitrate
+decomposition at 350 °C. OCs consisting of bimetallic CuO/NiO
+with 33.3 wt % CuO on SiO2 were prepared via selective adsorption wet
+coimpregnation (SAWCI). The same procedure as SAWI was used, but
+the precursor solution contained a minor amount of TANN, for a molar
+ratio of 1 mol of Ni/99 mol of Cu. For 33.3 wt % CuO, a precursor
+volume of 4.7 mL/g of SiO2 was used for three additions. SAWI and
+SAWCI preparation methods produced free-ﬂowing particles after the
+drying stage, in contrast to impregnation with copper nitrate. A
+summary of the materials examined in this study is shown in Table 3.
+One pilot scale batch (3 kg) was produced using the SAWCI
+technique with a rotary kiln (40 cm diameter, 1.8 m long). The surface
+of the kiln was externally heated with natural gas burners, and NO2 was
+captured in a NaOH absorbing column. Bimetallic OC with 12 wt %
+CuO and 1 mol of Ni/99 mol of Cu was produced over one addition.
+Drying was performed at 120 °C at 3 rpm over 2 h. Free-ﬂowing
+Figure 2. Schematic of molecular interactions for selective adsorption,
+showing regimes for anionic and cationic metallic species.
+Table 2. Measured Characteristics of the Support Materials
+support
+SiC
+SiO2
+cost ($/kg, August 2018)
+3
+95
+size range (μm)
+106−250
+295−425
+crush strength (MPa)
+408
+22.3
+BET surf. area (m2/g)
+0.1
+330
+bulk density (g/mL)
+1.4
+0.5
+Table 3. Summary of Prepared Oxygen Carriersa
+code
+desired CuO
+loading (wt %)
+precursor
+phase
+separation
+addns
+WI-20-SiC
+20
+copper nitrate
+no
+4
+DI-20-SiC
+20
+copper nitrate
+no
+4
+DI-20-SiO2
+20
+copper nitrate
+no
+2
+WIFM-20-SiO2
+20
+copper nitrate
+ﬁltration
+3
+SAWI-25-SiO2
+25
+TACN
+no
+2
+SAWI-40-SiO2
+40
+TACN
+no
+4
+SAWCI-12-SiO2
+12
+TACN/NN
+no
+1
+SAWCI-25-SiO2
+25
+TACN/NN
+no
+2
+SAWCI-33-SiO2
+33
+TACN/NN
+no
+3
+SAWCI-40-SiO2
+40
+TACN/NN
+no
+4
+aW = wet; D = dry; I = impregnation; F = ﬁltration; M = microwave
+dry; SA = selective adsorption; CI = coimpregnation; NN = nickel
+nitrate; TACN = tetraamine copper nitrate.
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://dx.doi.org/10.1021/acs.energyfuels.0c01884
+Energy Fuels XXXX, XXX, XXX−XXX
+C
+
+
+===== Page 4 =====
+
+particles were then retrieved, washed with tap water, and loaded into
+the kiln for nitrate decomposition and oxidation at 350 °C.
+2.2. Particle Characterization. To measure the quality of
+produced materials and screen for impregnation methods with
+potential for scale-up, particle size distribution (weight percent) was
+analyzed by sieving. CuO loading was determined by TGA cycling (see
+below) and in some cases conﬁrmed by ICP-MS elemental analysis.
+The crush strength of individual particles was analyzed with a Shimpo
+FGE-5X with 25 replicates. The crush force was normalized to crush
+pressure by dividing by the average cross-sectional area of the particles,
+resulting in units of megapascals. Bulk density was determined by
+performance of the tapped bulk density test for powders. Surface area
+and pore volume were examined with a Micromeritics Tristar II surface
+area and porosity analyzer using N2 physisorption at 77 K.
+Surface morphology, in particular CuO crystallite size and
+dispersion, was analyzed with an FEI Quanta 600 SEM with elemental
+composition analysis by energy dispersive X-ray spectroscopy (EDS).
+To examine penetration to the interior of the pore structure of the
+support, particles were set in epoxy, polished, and examined with
+SEM−EDS map scans. X-ray powder diﬀraction (XRD) was used to
+determine the crystalline phases, with the use of a DT Bruker
+instrument.
+2.3. Fluidized Bed Testing. A screening test was performed to
+identify OCs with good resistance to sintering using a quartz ﬂuidized
+bed. As shown in Figure 3, the reactor consisted of the following zones:
+(1) inlet; (2) bed, supported by a sintered quartz frit; (3) freeboard
+expansion zone; and (4) outlet. The bed inside diameter was 2.54 cm,
+and the superﬁcial gas velocity was 0.15 m/s, approximately 3 times the
+minimum ﬂuidization velocity. The OC bed volume was 20 cm3 for
+each test, and the bed was heated by a Carbolite VST 12/600 clamshell
+furnace. Agglomeration temperature was measured for each prepared
+sample. The onset of deﬂuidization was detected by a sharp decrease in
+the pressure drop variation, and agglomeration was conﬁrmed by visual
+observation. Particles were heated to 850 °C in air at 30 °C/min, and
+then CLOU cycling was initiated. One cycle was 5 min of
+decomposition in N2 followed by 5 min of oxidation in air (21 vol %
+O2). If no deﬂuidization was detected after ﬁve cycles, the temperature
+was ramped up 25 °C in air to 875 °C and the ﬁve-cycle test was
+repeated. The maximum temperature tested, due to quartz reactor
+suitability, was 975 °C. If agglomeration was detected below 950 °C, the
+impregnation method for that sample was not examined further.
+Attrition was analyzed with downstream ﬁlters, but the amount
+collected was too small to be accurately studied.
+2.4. Thermogravimetric Analysis. The ability to maintain a high
+reaction rate over many regeneration cycles, or cyclability, was assessed
+by operation in TA Instruments Q-500 TGA at CLOU reactor
+temperatures (900−950 °C). Multicycle tests analyzed the OTC for up
+to 100 cycles by switching between oxidizing and inert environments.
+The atmospheres were air and nitrogen for the oxidation and
+decomposition reactions, respectively. Cycles ranged from 5 to 15
+min to allow full conversion, as the rate was highly dependent on the
+CuO loading and impregnation method. OC samples of 8−15 mg were
+placed as monolayers on platinum pans and ramped at 30 °C/min to
+the desired temperature. Preliminary tests were performed to control
+for external mass transfer eﬀects, which were deemed negligible at 120
+mL/min gas ﬂow rate.
+The OTC was estimated by examining the fully oxidized (mox) and
+reduced (mred) masses for an individual cycle, shown by eq 2. The ﬁfth
+cycle was selected for analysis. Equation 3 shows the experimental CuO
+loading, which was estimated from the OTC and the theoretical oxygen
+capacity for pure CuO from eq 2. This measured value was compared
+with the desired CuO loading to assess the quality of impregnation
+batches. For clarity, the normalized weight percent change is reported,
+deﬁned as the instantaneous mass divided by the mass at the start of the
+ﬁrst cycle prior to decomposition. For a 20 wt % CuO content OC,
+decomposition would proceed from 100 to 98% over the ﬁrst cycle,
+corresponding to an OTC of 2%. Figure 6 shows that occasionally
+oxidation never reached full conversion. Since tests indicated that
+complete conversion in such cases was not reached even after 1 h, 15
+min was selected as the cycle time to estimate a reasonable OTC in a
+real chemical looping reactor. Conversion over time was examined for
+both oxidation and decomposition reactions using eqs 4 and 5,
+respectively.
+=
+−
+m
+m
+m
+OTC
+ox
+red
+ox
+(2)
+=
+·
+CuO loading
+9.94 g of CuO
+g of O
+OTC
+2
+(3)
+=
+−
+−
+x
+t
+m t
+m
+m
+m
+( )
+( )
+ox
+red
+ox
+red
+(4)
+=
+−
+−
+x
+t
+m
+m t
+m
+m
+( )
+( )
+dec
+ox
+ox
+red
+(5)
+3. RESULTS AND DISCUSSION
+3.1. Screening of Impregnation Methods. 3.1.1. WI vs
+DI. Two wet impregnation reactor types were tested for 20 wt %
+CuO on SiC support. Regardless of the reactor, rotary kiln or
+rotary vaporizer, the desired CuO content was not reached due
+to uneven deposition. The measured CuO loading was
+approximately 50% of the expected value within the range
+106−250 μm. This indicates that a signiﬁcant fraction of CuO
+did not bind to the support surface. A sizable portion of ﬁnes was
+Figure 3. Schematic for quartz ﬂuidized bed setup.
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://dx.doi.org/10.1021/acs.energyfuels.0c01884
+Energy Fuels XXXX, XXX, XXX−XXX
+D
+
+
+===== Page 5 =====
+
+observed below the initial size range (106 μm) of the support
+material SiC. TGA analysis indicated that the ﬁnes were
+composed of nearly 100% CuO, and this was conﬁrmed visually
+by SEM micrographs (Figure 4a). On the other hand, DI
+samples were identiﬁed to deposit over 90% of the desired CuO
+onto SiC, and thus DI was explored further.
+For DI samples, CuO was almost entirely located on the
+external surface, due to the low surface area of the SiC support.
+Figure 4c shows a thick, uneven shell of CuO attached to SiC.
+The poorly stabilized CuO is undesirable due to the high risk of
+sintering and associated problems. Fluidization tests indicated
+high agglomeration risk for DI particles, and regardless of the
+method of preparation (number of additions, copper nitrate
+concentration), particles always agglomerated below 900 °C.
+Agglomeration was detected soon after the ﬁrst gas switch to air,
+indicating that the temperature rise associated with the
+exothermic oxidation led to particle sintering. SiC supported
+OC material was very diﬃcult to retrieve from the reactor due to
+the severity of agglomeration. Table 4 summarizes the measured
+BET surface area and agglomeration temperatures of the OC
+materials investigated in this work.
+3.1.2. SiC vs SiO2. The results of DI with SiO2 support were
+compared with those with SiC support. The greater voidage of
+SiO2 support allowed for higher precursor volume, so fewer
+additions were required to reach 20 wt % CuO content. The
+surface area after deposition and calcination at 350 °C of CuO
+typically dropped from roughly 300 to 200 m2/g for SiO2.
+Typical SEM images comparing the supports SiC and SiO2 are
+shown in Figures 4 and 5a, respectively. The brightly shaded
+CuO crystallites were relatively large (∼10−20 μm) and
+unevenly dispersed on the SiO2 surface. TGA cycling tests are
+shown in Figure 6a,b. SiC supported OC exhibited fast and
+complete reactions. In contrast, SiO2 supported OC showed
+only partial reoxidation. Fluidization testing indicated a slight
+improvement over the SiC supported material. The particles
+could be ﬂuidized at a higher temperature and the agglomerated
+material could easily be broken apart, signaling less severe
+agglomeration. Agglomeration was still detected at 925 °C (see
+Table 4), again during the oxidation stage.
+3.1.3. Novel Impregnation Methods on SiO2. SEM images of
+sample WIFM-20 in Figure 5 indicate that microwave drying
+improved CuO dispersion. The CuO crystallite size on the
+Figure 4. SEM micrographs of fresh OC samples (a) WI-20-SiC, (b)
+DI-20-SiC, and (c) DI-20-SiC set in epoxy and polished showing
+internal matrix.
+Table 4. BET Surface Area of Fresh Samples, Agglomeration
+Temperatures Determined in Fluidized Bed Testing, and
+OTC Estimated with TGA Cycling
+code
+BET surf. area
+(m2/g)
+Tagglomeration
+(°C)
+OTC
+(g of O2/g of OC)
+WI-20-SiC
+0.1
+900
+0.009
+DI-20-SiC
+0.1
+900
+0.019
+DI-20-SiO2
+200
+925
+0.020
+WIFM-20-SiO2
+276
+950
+0.018
+SAWI-25-SiO2
+300
+>975
+0.001
+SAWCI-33-SiO2
+320
+>975
+0.033
+Figure 5. SEM micrographs: (a) DI-20-SiO2, (b) WIFM-20 (higher
+magniﬁcation), (c) WIFM-20 (lower magniﬁcation), (d) SAWI-25
+with no wash step, (e) SAWI-25 CuO subparticles with no wash step,
+and (f) SAWI-25 with wash step, fewer visible CuO subparticles.
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://dx.doi.org/10.1021/acs.energyfuels.0c01884
+Energy Fuels XXXX, XXX, XXX−XXX
+E
+
+
+===== Page 6 =====
+
+external surface was also notably smaller. Agglomeration testing
+showed good ﬂuidization up to 950 °C, at which point
+agglomeration occurred. The aggregates were easily fragmented,
+indicating less severe agglomeration than the SiC supported
+material. The images and agglomeration temperature can be
+contrasted with the dry impregnation sample, DI-SiC-SiO2,
+which was dried in the heating mantle. SEM micrographs in
+Figure 5 contrast the external CuO subparticle dispersion and
+particle size between diﬀerent drying methods. The microwave
+dried sample showed greater dispersion and smaller crystallite
+size than the heating mantle dried sample (Figure 5, part a vs
+part b).
+An alternate copper precursor, TACN, was investigated to
+improve CuO dispersion via improved metal−support inter-
+action for the batch SAWI-25-SiO2. Improved aﬃnity of Cu to
+the SiO2 surface was qualitatively observed during preparation,
+as the support material turned dark blue. After decomposition at
+350 °C, the BET surface area was still very high, 300 m2/g. As
+the SEM micrograph in Figure 5e shows, the CuO crystallites
+were very small when the wash step was not incorporated. The
+maximum observed crystallite size was 1−2 μm. With the wash
+step, external CuO crystallites could not be identiﬁed on the
+particle surface.
+The dispersion across the internal matrix of the particle
+(SAWI-25-SiO2) was analyzed using SEM/EDS of particles set
+in epoxy and polished. Figure 7 shows even distribution of Cu
+and Si throughout the particle, indicating full penetration into
+the center of the particle. These results demonstrate that
+homogeneous deposition of CuO subparticles is feasible with
+this technique. The ﬂuidization tests showed no signs of
+agglomeration for all temperatures tested, up to 975 °C.
+TGA reactivity was poor at 900 °C for SAWI-25 OC. CuO/
+Cu2O cycling with air and nitrogen environment resulted in
+large initial decomposition but incomplete reoxidation, as
+shown in Figure 6c. This was observed for many samples,
+regardless of calcination, particle size, and oxidation time. In
+order to clarify the reactions taking place, kinetic analysis was
+then performed with a reducing gas. Figure 6d shows Cu/CuO
+cycling in air and 4% H2/N2 environment, which resulted in
+large weight loss signaling the reduction reaction. After the gas
+switch to air, the weight gained ∼50% of the original mass,
+Figure 6. TGA proﬁles for CuO loading estimate, 15 min cycles at 900 °C, CuO/Cu2O cycling unless noted. Shaded regions are N2 or reducing
+atmosphere. Y-axis is the weight percent change from the oxidized mass at the start of the ﬁrst cycle. Clockwise from top left: (a) DI-20-SiC, (b) DI-20-
+SiO2 (c) SAWI-25, and (d) SAWI-25 Cu/CuO cycling.
+Figure 7. SEM−EDS elemental analysis map of SAWI-25-SiO2, set in
+epoxy and polished: (a) SEM/EDS image, (b) Cu elemental map, and
+(c) Si elemental map.
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://dx.doi.org/10.1021/acs.energyfuels.0c01884
+Energy Fuels XXXX, XXX, XXX−XXX
+F
+
+
+===== Page 7 =====
+
+indicating the sample was partially oxidized to Cu2O. The stable
+weight after partial reoxidation indicated no diﬀusion or kinetic
+limitations for the oxidation reaction to CuO. ICP-MS was used
+to conﬁrm the presence of elemental Cu. The measured Cu
+content corresponded to the initial TGA weight drop from
+decomposition. Poor reoxidation was observed over the relevant
+temperature range of 900−950 °C. The likely cause for this is
+inhibited diﬀusion through the product layer and pore blockage,
+as is discussed in greater detail below. Incomplete oxidation of
+Cu2O to CuO is unacceptable for CLOU processes, and thus the
+SAWI method was not examined further.
+The bimetallic Cu/Ni OC, SAWCI-33, was prepared using a
+mixed TACN/TANN precursor with 1 mol % Ni content. This
+batch demonstrated excellent reactivity, as shown by the TGA
+curve at 950 °C in Figure 8. The instrument-induced drift above
+100% normalized weight was observed frequently over the ﬁrst
+few cycles and showed no dependence on oxygen carrier sample
+and preparation method. The oxidation and decomposition
+reactions were fast and complete. Fluidization tests conﬁrmed
+excellent agglomeration resistance. No particle aggregation or
+sintering eﬀects were observed at 975 °C, the maximum
+temperature tested. One batch of the same composition was
+manufactured in a pilot scale rotary kiln to test the feasibility of
+scaling this method. Approximately 3 kg of 12 wt % CuO/NiO@
+SiO2 was successfully prepared over one addition in a large
+rotary kiln for pilot scale demonstration. No unattached CuO
+ﬁnes or particle aggregates were identiﬁed after the 350 °C
+calcination step, indicating similar quality material to the lab
+scale synthesis.
+3.2. Characterization and Discussion. The internal
+surface area of SAWCI-33 was high prior to high temperature
+ﬂuidization or calcination. Material calcined below 350 °C had a
+surface area of 480 m2/g, about 50% greater than the uncoated
+SiO2 support material. This increase could stem from the
+roughness added by small CuO islands within the porous
+structure of the SiO2, but it needs to be examined further. Crush
+strength increased with CuO content, to 40 MPa (±11) for
+SAWCI-12 and up to 62 MPa (±20) for SAWCI-33. For the 12
+wt % CuO sample, this value dropped after ﬂuidized bed testing
+with CO reducing gas to 24.5 MPa (±6.4). XRD analysis was
+performed on SAWI-25 and SAWCI-25 samples, and the results
+are shown in Figure 9. CuO phases were identiﬁed in both
+samples, whereas crystalline α-SiO2 was only seen for the
+SAWCI samples with NiO present. It was not observed for the
+monometallic samples. This indicates that the presence of NiO
+aﬀected the crystallization of the initially amorphous SiO2,
+which occurred at lower temperature for the SAWCI samples
+than for the SAWI samples.
+The eﬀect of doping with NiO was examined using N2
+sorption measurements. For the samples with 40 wt % CuO,
+the monometallic sample SAWI-40 demonstrated a much higher
+surface area compared to the bimetallic sample SAWCI-40
+(Table 5). The average pore diameter was slightly greater for the
+bimetallic sample. Heat treatment was demonstrated to have a
+far greater inﬂuence on the porous structure, with a decrease in
+surface area from 300 to 10.7 m2/g after 1000 °C calcination in
+air environment. Fluidized bed operation at 950 °C, cycling
+between air and hydrogen reducing atmosphere, further reduced
+the surface area, but it made no change in the average pore
+diameter.
+The poor oxidation of Cu2O to CuO, as shown in Figure 6,
+has several possible explanations, but no deﬁnitive conclusions
+are available at this point. The literature suggests oxidation can
+be inhibited by slow diﬀusion caused by large CuO grain size.53
+However, Figure 10 shows no visible CuO crystallites, regardless
+of heat treatment, CuO loading, and ﬂuidized bed testing, which
+suggests CuO subparticles are <1 μm. At this size, solid state
+Figure 8. TGA proﬁle of SAWCI-33, CuO/Cu2O cycling, 8 min cycles
+for both decomposition in inert N2 atmosphere and oxidation in air at
+950 °C.
+Figure 9. XRD patterns of the oxygen carrier after impregnation and calcination at 1000 °C. Top, bimetallic SAWCI-25; bottom, monometallic SAWI-
+25. ▲, CuO; ○, α-quartz (SiO2); ●, α-cristobalite (SiO2).
+Table 5. Measured BET Surface Areas and BJH Pore
+Diameters of 12 and 40 wt % CuO Samples Prepared by
+SAWI and SAWCI Methods
+sample
+BET surf. area
+(m2/g)
+av pore diam
+(nm)
+SAWCI-40-SiO2
+321
+3.9
+SAWI-40-SiO2 (monometallic)
+482
+3.1
+SAWCI-12-SiO2
+307
+4.1
+SAWCI-12-SiO2 1000 °C calcine
+10.7
+0.5
+SAWCI-12-SiO2 after 950 °C FBR
+5.3
+0.5
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://dx.doi.org/10.1021/acs.energyfuels.0c01884
+Energy Fuels XXXX, XXX, XXX−XXX
+G
+
+
+===== Page 8 =====
+
+diﬀusion eﬀects should be negligible. Pore size data does not
+conclusively explain the diﬀerence either, though the bimetallic
+sample was observed to have a larger pore diameter by about 1
+nm. Analysis of SiO2 substrates with varying pore size could
+clarify if pore blocking plays a role. The presence of NiO clearly
+is a signiﬁcant factor and could contribute by lowering the
+activation energy for adsorption or oxidation. Further
+investigation is required to better explain the role of NiO in
+the Cu2O to CuO oxidation reaction.
+3.3. Thermogravimetric Analysis. TGA was used to
+analyze the reactivity of the OC SAWCI-33 over 100 redox
+cycles. Figure 11 shows excellent cyclability over the 100-cycle
+test (Cu2O/CuO cycling) with no apparent deactivation. The
+OC material exhibited fast and complete decomposition and
+oxidation during the entire 16 h of TGA operation. Comparing
+conversion rates over the multihour test indicates kinetics
+increase with time (i.e., cycle number). Conversion curves in
+Figure 11 show a fast oxidation rate, with complete conversion
+reached in ∼40 s, observed over the entire test. The
+decomposition rate was slower than oxidation but increased
+substantially with cycling. Near-complete conversion was
+reached under 2 min after 16 h of cycling at 950 °C. The
+minor increase in OTC over time is caused by the increasing
+decomposition rate. The longevity of the SAWCI-33 indicates it
+is a promising material for chemical looping applications.
+4. CONCLUSION
+A survey of several impregnation methods has been performed
+in order to identify the most promising methods for scalable
+preparation of CuO-based oxygen carriers for chemical looping
+technologies. Commercially available SiC and SiO2 support
+materials were investigated. For the purposes of pilot scale
+Figure 10. SEM micrographs performed at ETH Zürich. (a) SAWCI-
+33 after impregnation and NO2 decomposition at 350 °C, (b) SAWCI-
+12 after calcination at 1000 °C, and (c) SAWCI-12 after ﬂuidized bed
+testing at 975 °C with CO reducing gas.
+Figure 11. TGA conversion curves for SAWCI-33 OC over 100 cycles at 950 °C. (a) Recorded TGA weight change over the entire experiment, (b)
+decomposition and oxidation at selected cycles, (c) decomposition conversion plot at selected cycles, and (d) oxidation conversion plot at selected
+cycles.
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://dx.doi.org/10.1021/acs.energyfuels.0c01884
+Energy Fuels XXXX, XXX, XXX−XXX
+H
+
+
+===== Page 9 =====
+
+manufacture of Cu-based oxygen carriers, the selective
+adsorption wet coimpregnation (SAWCI) method was identi-
+ﬁed to have the greatest potential and was explored further.
+Coimpregnation with NiO promoted the oxidation of Cu2O to
+CuO. Selective adsorption increased the metal−support
+interaction between Cu and the SiO2 support, resulting in a
+reduced crystallite size. SEM/EDS analysis has shown good
+dispersion, and small CuO crystallites throughout the porous
+SiO2 sphere allowed high resistance to sintering. For 33 wt %
+CuO on SiO2 support, ﬂuidization tests cycling between Cu2O
+and CuO did not show any signs of agglomeration, even at 975
+°C. Long TGA cycling has shown increasing reaction rates and
+no drop in oxygen transport capacity over 100 cycles.
+■AUTHOR INFORMATION
+Corresponding Author
+Kyle O’Malley −Department of Chemical Engineering, University
+of Utah, Salt Lake City, Utah 84112, United States;
+orcid.org/0000-0003-4666-4278; Email: komalley200@
+gmail.com
+Authors
+Felix Donat −Laboratory of Energy Science and Engineering,
+Department of Mechanical & Process Engineering, ETH Zürich,
+8092 Zürich, Switzerland;
+orcid.org/0000-0002-3940-9183
+Kevin J. Whitty −Department of Chemical Engineering,
+University of Utah, Salt Lake City, Utah 84112, United States
+Hong Yong Sohn −Department of Materials Science &
+Engineering, University of Utah, Salt Lake City, Utah 84112,
+United States
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acs.energyfuels.0c01884
+Notes
+The authors declare no competing ﬁnancial interest.
+■ACKNOWLEDGMENTS
+This material is based upon work supported by the U.S.
+Department of Energy under Award Nos. DE-FE0025076 and
+DE-FE0029160. The views and opinions of authors expressed
+herein do not necessarily state or reﬂect those of the U.S.
+Government or any agency thereof. The authors thank Amaron
+Energy Inc., Dana Overacker, Shakar Bradost, R. J. Peterson, and
+Daniel Wakeham for their contributions to this work. Addition-
+ally, we thank Dr. Agnieszka Kierzkowska for assisting with the
+microscope work and the Scientiﬁc Centre for Optical and
+Electron Microscopy (ScopeM) at ETH Zürich for providing
+training on and access to electron microscopes. Finally, this work
+made use of University of Utah shared facilities of the Micron
+Technology Foundation Inc. Microscopy Suite sponsored by
+the College of Engineering, Health Sciences Center, Oﬃce of
+the Vice President for Research, and the Utah Science
+Technology and Research (USTAR) initiative of the State of
+Utah.
+■ABBREVIATIONS
+CCS = carbon capture and sequestration
+CLOU = chemical looping with oxygen uncoupling
+DI = dry impregnation
+EDS = energy dispersive X-ray spectroscopy
+mred = mass of fully decomposed OC, Cu2O
+mox = mass of fully oxidized OC, CuO
+MS = mass spectroscopy
+ICP = inductively coupled plasma
+OC = oxygen carrier
+OTC = oxygen transfer capacity
+SAWCI = selective adsorption wet coimpregnation
+SAWI = selective adsorption wet impregnation
+SEM = scanning electron microscope
+TACN = tetraamine copper nitrate
+TANN = tetraamine nickel nitrate
+TGA = thermogravimetric analyzer
+XRD = X-ray powder diﬀraction
+WI = wet impregnation
+WIFM = wet impregnation with ﬁltration and microwave
+drying
+■REFERENCES
+(1) Friedlingstein, P.; et al. Research Collection,. Earth Syst. Sci. Data
+2019, 11 (4), 1783−1838.
+(2) EIA. EIA International Energy Outlook 2017; No. IEO2017; U.S.
+Energy Information Administration: 2017; p 143.
+(3) Herzog, H.; Golomb, D. A. N. Carbon Capture and Storage from
+Fossil Fuel Use. Encycl. Energy 2004, 277−287.
+(4) Mattisson, T.; Lyngfelt, A.; Leion, H. Chemical-looping with
+oxygen uncoupling for combustion of solid fuels. Int. J. Greenhouse Gas
+Control 2009, 3 (1), 11−19.
+(5) Song, H.; Shah, K.; Doroodchi, E.; Wall, T.; Moghtaderi, B.
+Analysis on Chemical Reaction Kinetics of CuO/SiO2 Oxygen Carriers
+for Chemical Looping Air Separation. Energy Fuels 2014, 28, 173−182.
+(6) Zhou, C.; Shah, K.; Song, H.; Zanganeh, J.; Doroodchi, E.;
+Moghtaderi, B. Integration Options and Economic Analysis of an
+Integrated Chemical Looping Air Separation Process for Oxy-fuel
+Combustion. Energy Fuels 2016, 30, 1741−1755.
+(7) Cormos, C. Assessment of copper-based chemical looping air
+separation system for energy efficiency improvements of oxy-
+combustion and gasification power plants Assessment of copper-
+based chemical looping air separation system for energy efficiency
+improvements of ox. Appl. Therm. Eng. 2018, 130, 120−126.
+(8) Lyngfelt, A.; Leckner, B. A 1000 MW th boiler for chemical-
+looping combustion of solid fuels - Discussion of design and costs. Appl.
+Energy 2015, 157, 475−487.
+(9) Ströhle, J.; Orth, M.; Epple, B. Chemical looping combustion of
+hard coal in a 1 MW th pilot plant using ilmenite as oxygen carrier. Appl.
+Energy 2015, 157, 288−294.
+(10) de Diego, L. F.; García-Labiano, F.; Gayán, P.; Celaya, J.;
+Palacios, J. M.; Adánez, J. Operation of a 10 kWth chemical-looping
+combustor during 200 h with a CuO-Al2O3 oxygen carrier. Fuel 2007,
+86 (7−8), 1036−1045.
+(11) Linderholm, C.; Lyngfelt, A.; Cuadrat, A.; Jerndal, E. Chemical-
+looping combustion of solid fuels - Operation in a 10 kW unit with two
+fuels, above-bed and in-bed fuel feed and two oxygen carriers,
+manganese ore and ilmenite. Fuel 2012, 102, 808−822.
+(12) Costa, T. R.; et al. Mn-based oxygen carriers prepared by
+impregnation for Chemical Looping Combustion with diverse fuels,.
+Fuel Process. Technol. 2018, 178, 236−250.
+(13) Adanez, J.; Abad, A.; Mendiara, T.; Gayan, P.; de Diego, L.;
+Garcia-Labiano, F. Chemical looping combustion of solid fuels,. Prog.
+Energy Combust. Sci. 2018, 65, 6−66.
+(14) Pachler, R. F.; Penthor, S.; Mayer, K.; Hofbauer, H. Fate of sulfur
+in chemical looping combustion of gaseous fuels using a Perovskite
+oxygen carrier. Fuel 2019, 241, 432−441.
+(15) Larring, Y.; et al. Fabrication process parameters significantly
+affect the perovskite oxygen carriers materials (OCM) performance in
+chemical looping with oxygen uncoupling (CLOU). J. Therm. Anal.
+Calorim. 2020, 140 (2), 577−589.
+(16) Abad, A.; Cabello, A.; Gayán, P.; de Diego, L. F.; Mendiara, T.;
+Adánez, J.; Garcia-Labiano, F. Kinetics of CaMn0.775Ti0.125M-
+g0.1O2.9-δ perovskite prepared at industrial scale and its implication on
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://dx.doi.org/10.1021/acs.energyfuels.0c01884
+Energy Fuels XXXX, XXX, XXX−XXX
+I
+
+
+===== Page 10 =====
+
+the performance of chemical looping combustion of methane. Chem.
+Eng. J. 2020, 394, 124863.
+(17) Imtiaz, Q.; Hosseini, D.; Müller, C. R. Review of Oxygen Carriers
+for Chemical Looping with Oxygen Uncoupling (CLOU): Thermody-
+namics, Material Development, and Synthesis. Energy Technol. 2013, 1
+(11), 633−647.
+(18) Fang, H.; Haibin, L.; Zengli, Z. Advancements in development of
+chemical-looping combustion: A review. Int. J. Chem. Eng. 2009, 2009,
+710515.
+(19) Fan, L.-S. Chemical Looping Systems for Fossil Energy Conversions;
+Wiley: Hoboken, NJ, 2010.
+(20) Tong, A.; Bayham, S.; Kathe, M. V.; Zeng, L.; Luo, S.; Fan, L.
+Iron-based syngas chemical looping process and coal-direct chemical
+looping process development at Ohio State University. Appl. Energy
+2014, 113, 1836−1845.
+(21) Sandvik, P.; Wang, W.; Kathe, M.; Kong, F.; Fan, L. Operating
+Strategy of Chemical Looping Systems with Varied Reducer and
+Combustor Pressures. Ind. Eng. Chem. Res. 2019, 58, 5228−5235.
+(22) Hakonsen, S. F.; Blom, R. Chemical Looping Combustion in a
+Rotating Bed Reactor À Finding Optimal Process Conditions for
+Prototype Reactor. Environ. Sci. Technol. 2011, 45 (22), 9619−9626.
+(23) Zhao, Z.; Iloeje, C. O.; Chen, T.; Ghoniem, A. F. Design of a
+rotary reactor for chemical-looping combustion. Part 1: Fundamentals
+and design methodology. Fuel 2014, 121, 327−343.
+(24) Iloeje, C. O.; Zhao, Z.; Ghoniem, A. F. Design and techno-
+economic optimization of a rotary chemical looping combustion power
+plant with CO 2 capture. Appl. Energy 2018, 231, 1179−1190.
+(25) Noorman, S.; Gallucci, F.; van Sint Annaland, M.; Kuipers, J. A.
+M. Experimental Investigation of Chemical-Looping Combustion in
+Packed Beds: A Parametric Study. Ind. Eng. Chem. Res. 2011, 50, 1968−
+1980.
+(26) Han, L.; Bollas, G. M. Chemical-looping combustion in a reverse-
+flow fixed bed reactor. Energy 2016, 102, 669−681.
+(27) Adanez, J.; de Diego, L. F.; Garcia-Labiano, F.; Gayan, P.; Abad,
+A.; Palacios, J. M. Selection of Oxygen Carriers for Chemical-Looping
+Combustion. Energy Fuels 2004, 18 (3), 371−377.
+(28) de Diego, L. F.; et al. Impregnated CuO/Al2O3 Oxygen Carriers
+for Chemical-Looping Combustion: Avoiding Fluidized Bed Agglom-
+eration. Energy Fuels 2005, 19, 1850−1856.
+(29) Cabello, A.; et al. Long-lasting Cu-based oxygen carrier material
+for industrial scale in Chemical Looping Combustion,. Int. J. Greenhouse
+Gas Control 2016, 52, 120−129.
+(30) Lambert, A.; et al. Performance and degradation mechanisms of
+CLC particles produced by industrial methods,. Fuel 2018, 216, 71−82.
+(31) Haus, J.; Lyu, K.; Hartge, E.; Heinrich, S.; Werther, J. Analysis of
+a Two-Stage Fuel Reactor System for the Chemical-Looping
+Combustion of Lignite and Bituminous Coal. Energy Technol. 2016,
+4, 1263−1273.
+(32) Haus, J.; Hartge, E.; Heinrich, S.; Werther, J. Dynamic flowsheet
+simulation for chemical looping combustion of methane. Int. J.
+Greenhouse Gas Control 2018, 72, 26−37.
+(33) Penthor, S.; Zerobin, F.; Mayer, K.; Pröll, T.; Hofbauer, H.
+Investigation of the performance of a copper based oxygen carrier for
+chemical looping combustion in a 120 kW pilot plant for gaseous fuels.
+Appl. Energy 2015, 145, 52−59.
+(34) Langørgen, O.; Saanum, I.; Haugen, N. E. L. Chemical looping
+combustion of methane using a copper-based oxygen carrier in a 150
+kW reactor system. Energy Procedia 2017, 114 (1876), 352−360.
+(35) Ryden, M.; Jing, D.; Kallen, M.; Leion, H.; Lyngfelt, A.;
+Mattisson, T. CuO-Based Oxygen-Carrier Particles for Chemical-
+Looping with Oxygen Uncoupling - Experiments in Batch Reactor and
+in Continuous Operation. Ind. Eng. Chem. Res. 2014, 53, 6255−6267.
+(36) Adánez-Rubio, I.; Abad, A.; de Diego, L. F.; García-Labiano, F.;
+Adánez, J.; Gayan, P. Development of Cu-based oxygen carriers for
+Chemical-Looping with Oxygen Uncoupling (CLOU) process. Fuel
+2012, 102, 634−645.
+(37) Adánez-Rubio, I.; Gayán, P.; Garcıa-Labiano, F.; de Diego, L. F.;
+Adánez, J.; Abad, A. Development of CuO-based oxygen-carrier
+materials suitable for Chemical-Looping with Oxygen Uncoupling
+(CLOU) process. Energy Procedia 2011, 4, 417−424.
+(38) Siriwardane, R.; et al. 50-kWth methane/air chemical looping
+combustion tests with commercially prepared CuO-Fe 2 O 3 -alumina
+oxygen carrier with two different techniques,. Appl. Energy 2018, 213,
+92−99.
+(39) Ku, Y.; Wu, H.; Chang, C.; Shiu, S. Chemical looping with air
+separation (CLAS) in a moving bed reactor with CuO/ZrO 2 oxygen
+carriers. Int. J. Greenhouse Gas Control 2018, 70, 225−235.
+(40) Tian, X.; Wei, Y.; Zhao, H. Using a hierarchically-structured CuO
+@ TiO2 -Al2O3 oxygen carrier for chemical looping air separation in a
+paralleled fl uidized bed reactor. Chem. Eng. J. 2018, 334, 611−618.
+(41) Wang, H.; Lee, H.; Chang, M.; Wan, H.; Cheng, J.; Wu, T. The
+Effect of the Support Structure and Size of Cu-based Oxygen Carriers
+on the Performance of Chemical Looping Air Separation. Aerosol Air
+Qual. Res. 2020, 20, 544−556.
+(42) Song, Q.; et al. A high performance oxygen storage material for
+chemical looping processes with CO2 capture,. Energy Environ. Sci.
+2013, 6, 288−298.
+(43) Peterson, S. B.; et al. Characteristics and CLOU performance of a
+novel SiO2-supported oxygen carrier prepared from CuO and β-SiC,.
+Energy Fuels 2013, 27 (10), 6040−6047.
+(44) Munnik, P.; de Jongh, P. E.; de Jong, K. P. Recent Developments
+in the Synthesis of Supported Catalysts. Chem. Rev. 2015, 115 (14),
+6687−6718.
+(45) Regalbuto, J. Catalyst Preparation: Science and Engineering; CRC
+Press: 2016.
+(46) Lambert, J.-F.; Che, M. Dynamic Phenomena at the Oxide/
+Water Interface: the interplay of surface charge formation, metal
+complex adsorption, and dissolution/reprecipitation. Stud. Surf. Sci.
+Catal. 1997, 109, 91−110.
+(47) Wong, A.; Liu, Q.; Griffin, S.; Nicholls, A.; Regalbuto, J. R.
+Synthesis of ultrasmall, homogeneously alloyed, bimetallic nano-
+particles on silica supports. Science (Washington, DC, U. S.) 2017, 358
+(6369), 1427−1430.
+(48) Ding, K.; et al. A general synthesis approach for supported
+bimetallic nanoparticles via surface inorganometallic chemistry. Science
+(Washington, DC, U. S.) 2018, 362, 560−564.
+(49) Zhu, X.; Cho, H. R.; Pasupong, M.; Regalbuto, J. R. Charge-
+enhanced dry impregnation: A simple way to improve the preparation
+of supported metal catalysts. ACS Catal. 2013, 3 (4), 625−630.
+(50) Toupance, T.; Kermarec, M.; Lambert, J. F.; Louis, C.
+Conditions of formation of copper phyllosilicates in silica-supported
+copper catalysts prepared by selective adsorption. J. Phys. Chem. B 2002,
+106 (9), 2277−2286.
+(51) Toupance, T.; Kermarec, M.; Louis, C. Metal Particle Size in
+Silica-Supported Copper Catalysts. Influence of the Conditions of
+Preparation and of Thermal Pretreatments. J. Phys. Chem. B 2000, 104
+(5), 965−972.
+(52) de Diego, L. F.; et al. Development of Cu-based oxygen carriers
+for chemical-looping combustion,. Fuel 2004, 83 (13), 1749−1757.
+(53) Zhu, Y.; Mimura, K.; Lim, J.-W.; Isshiki, M.; Jiang, Q. Brief review
+of oxidation kinetics of copper at 350C to 1050C. Metall. Mater. Trans.
+A 2006, 37 (4), 1231−1237.
+(54) Zhu, Y.; Mimura, K.; Isshiki, M. Oxidation Mechanism of Cu2O
+to CuO at 600−1050 °C. Oxid. Met. 2004, 62, 207−222.
+(55) Zhu, Y.; Mimura, K.; Isshiki, M. Influence of Small Amounts of
+Impurities on Copper Oxidation at 600−1050°C. Oxid. Met. 2003, 59,
+575−590.
+(56) Goldstein, E. A.; Gür, T. M.; Mitchell, R. E. Modeling defect
+transport during Cu oxidation. Corros. Sci. 2015, 99, 53−65.
+Energy & Fuels
+pubs.acs.org/EF
+Article
+https://dx.doi.org/10.1021/acs.energyfuels.0c01884
+Energy Fuels XXXX, XXX, XXX−XXX
+J

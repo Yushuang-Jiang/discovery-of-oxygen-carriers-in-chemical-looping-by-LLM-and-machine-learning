@@ -1,0 +1,1045 @@
+
+
+===== Page 1 =====
+
+Decomposition mechanisms of Cu-based oxygen carriers for chemical
+looping with oxygen uncoupling based on density functional theory
+calculations
+Yongliang Zhang, Haibo Zhao ⇑, Lei Guo, Chuguang Zheng
+State Key Laboratory of Coal Combustion, Huazhong University of Science and Technology, Wuhan 430074, PR China
+a r t i c l e
+i n f o
+Article history:
+Received 29 May 2014
+Received in revised form 25 October 2014
+Accepted 27 October 2014
+Available online 24 November 2014
+Keywords:
+Density functional theory
+Oxygen release mechanisms
+Sintering resistance
+Reactivity
+Cu-based oxygen carriers
+Chemical looping with oxygen uncoupling
+a b s t r a c t
+A clear understanding of the oxygen release mechanisms of Cu-based oxygen carriers with or without
+supports can help rationalize the design of high performance oxygen carriers (OC) for chemical looping
+with oxygen uncoupling (CLOU). Using periodical density functional theory (DFT) calculations and ther-
+mogravimetric analysis (TGA) experiments, this research investigated the decomposition mechanisms of
+CuO, CuAl2O4 and CuO/CuAl2O4 and the effects of adding supports on the Cu-based OC performance. First,
+the most likely oxygen release pathway was investigated for the CuO(111) surface at different oxygen
+release stages (O2 formation, O2 desorption and O anion diffusion in slab). Atomic-level details regarding
+the release of oxygen from CuO in CLOU are provided. The formation and desorption of O2 were the rate-
+limiting steps from both DFT calculation and experimental results, with energy barriers of 3.0 and 2.7 eV,
+respectively. Second, CuAl2O4 presented different oxygen release features. In this case, the O anion diffu-
+sion is largely endothermic (2.53 eV) and much greater than that of CuO (0.88 eV). Thus, the required
+decomposition temperature increases and the decomposition rate of CuAl2O4 decreases. Next, the sinter-
+ing inhibition mechanisms of CuAl2O4 that support active CuO were clariﬁed, and strong interactions
+between the Al sites and CuO clusters were observed. The Al bound to O in the CuO clusters had a shorter
+bond length (1.874 Å) and the adsorption of Cu4O4 on CuAl2O4 had a greater absorption energy
+(4.25 eV), which prevented the agglomeration and growth of CuO nanoclusters. Finally, the effects of
+CuAl2O4 addition on CuO reactivity were studied. The interactions of CuO and CuAl2O4 resulted in the
+redistribution of electrons in CuO, which favored the resistance of CuO to sintering but not its reactivity.
+ 2014 The Combustion Institute. Published by Elsevier Inc. All rights reserved.
+1. Introduction
+Recently, attention has been given to CO2 emissions from fossil
+fuel combustion due to its contribution to global warming. Chem-
+ical-looping combustion (CLC) is a highly promising approach that
+allows for the inherent separation of CO2 with low cost and energy
+penalties [1]. In a typical CLC process, fuel combustion is divided
+into two steps, the reduction of a solid oxygen carrier (OC) by
+the fuels and the re-oxidation of the OC by the air. This two-step
+reaction process avoids direct contact between the fuel and air,
+producing CO2 and H2O without N2. However, it is difﬁcult to use
+solid fuels in the conventional CLC process due to the rate-limiting
+gasiﬁcation step of the solid fuels (e.g., coal). Recently, a novel CLC
+process was proposed to overcome this issue [2]. This process is
+called chemical looping with oxygen uncoupling (CLOU). The CLOU
+process takes advantage of the properties of some metal oxides
+that release gaseous O2 at high temperatures (800–1000 C). The
+CLOU process is divided into three reaction steps and proceeds in
+two interconnected ﬂuidized bed reactors, a fuel reactor (FR) and
+an air reactor (AR). In the FR, gaseous O2 is generated from the
+decomposition of OC and is used for fuel combustion. The reduced
+OC is sent to the AR and is re-oxidized by the air. The dominant
+reaction equations within the FR and the AR are shown below.
+2MeOx ! 2MeOx1 þ O2
+ðFuel reactorÞ
+ð1Þ
+Fuel þ O2 ! CO2 þ H2O
+ðFuel reactorÞ
+ð2Þ
+2MeOx1 þ O2 ! 2MeOx
+ðAir reactorÞ
+ð3Þ
+In the CLOU process, the gaseous oxygen released due to OC
+substantially facilitates a much faster conversion rate of solid fuels
+at the combustion temperatures of interest (800–1000 C). To date,
+many materials suitable for CLOU or CLC have been tested, such as
+http://dx.doi.org/10.1016/j.combustﬂame.2014.10.018
+0010-2180/ 2014 The Combustion Institute. Published by Elsevier Inc. All rights reserved.
+⇑Corresponding author. Fax: +86 27 8754 5526.
+E-mail address: klinsmannzhb@163.com (H. Zhao).
+Combustion and Flame 162 (2015) 1265–1274
+Contents lists available at ScienceDirect
+Combustion and Flame
+journal homepage: www.elsevier.com/locate/combustﬂame
+
+
+===== Page 2 =====
+
+CuO/Cu2O, Mn2O3/Mn3O4, perovskite-type oxides, copper ore [3]
+and synthetic materials [4–7]. Among the ﬁnite metal complexes
+suitable for CLOU, copper-based OC has drawn signiﬁcant attention
+because of its high reactivity and oxygen transport capacity.
+Despite being the most favorable, CuO faces challenges due to its
+low mechanical strength and high sintering tendency, which may
+lead to deﬂuidization and low reactivity in CLOU systems. Gener-
+ally, CuO is supported by inert support materials, such as TiO2,
+ZrO2, Al2O3 and MgAl2O4 [1,5,8], which are thermally stable with
+a high melting point. These support materials can withstand higher
+temperatures (900–1000 C). In addition, Al2O3 has been widely
+used because of its low cost and abundant reserve. Cyclic redox
+performance studies of Al2O3 stabilized Cu-based OC indicate that
+Al2O3 can substantially improve the mechanical strength of OC and
+limit its sintering/agglomeration [9,10]. However, when the tem-
+perature is greater than 700 C, Al2O3 tends to interact with CuO
+to form CuAl2O4 [11]. Previous studies [5,6] have found that CuAl2
+O4 possesses slow oxygen release kinetics at 950–1050 C and
+inﬂuences the decomposition rate of the bulk CuO by decreasing
+the OC activity. Song et al. [12] reported that the presence of
+sodium-containing species could inhibit the formation of CuAl2O4.
+Similarly, Quddus et al. [13] reported that Co minimized the forma-
+tion of irreducible bulk nickel aluminate in NiO/Al2O3. Along with
+these authors, a study by Chuang et al. [9] suggested that the high
+performance of the OCs was associated with a high degree of dis-
+persion during the stabilizing activity phase.
+Although some high performance OCs have been obtained in
+massive trial-and-error experiments, a fundamental understanding
+of the oxygen release characteristics of the OC is rare. For example,
+the following characteristics are not understood: (i) the oxygen
+release pathways and corresponding activation energy barriers,
+which are related to the mechanisms of OC decomposition, and
+(ii) the electronic properties of the supported OC and the interac-
+tions between different species, which naturally determine the
+OC sintering resistance and reactivity. A clear understanding of
+these mechanisms and atomic level behaviors is useful for rational
+design or for optimizing the OC particles. Because the required
+information is rarely obtained from experiments, a density func-
+tional theory (DFT) calculation was used to investigate the chemi-
+cal and physical properties of the OC at a molecular level and
+atomic level in this study.
+DFT calculations have been successfully used to (i) determine
+the microscopic reaction kinetics of metal compounds, such as
+the hydrogen absorption/desorption features of hydrogen storage
+materials [14,15] and the effects of the addition of transition met-
+als on these features [16,17], and to (ii) determine the properties
+(both physical and chemical) of the supported catalyst, such as
+the speciﬁc roles of the Alp sites in Pt/PtO sintering over a c-
+Al2O3 support [18] and the interactions of different catalyst species
+for catalytic ozonation [19]. In addition, several studies have been
+performed to detect the electronic properties and the atomic level
+behaviors of OC for CLC using DFT calculations. Li et al. [20] found
+that the improved reactivity of TiO2 supported iron oxide particles
+that most likely resulted from the signiﬁcantly enhanced O2 diffu-
+sivity in the presence of support. This ﬁnding was veriﬁed by the Pt
+marker experiment. Accordingly, these researchers [21] suggested
+that the mixed ionic–electronic conductive (MIEC) supported OC
+was more effective for CLC because it enabled fast solid state
+O2 and electron/hole exchange between the iron oxide nanocrys-
+tallites and the OC particle surface. Previously, Siriwardane et al.
+[22] investigated the molecular orbital interactions between car-
+bon (C6) and CuO (Cu2O2) using the DFT method. These authors
+found that when carbon approached the CuO molecules, the Cu–
+O bond was elongated and contributed to breaking the Cu–O bond,
+which was prone to the CLC reaction. Qin et al. [23] studied the
+synergetic effects of Al2O3, ZrO2 and MgO on Fe2O3 for the CLC of
+CO. These authors demonstrated that these supports could activate
+Fe2O3 for oxidizing CO into CO2 and reduce the barrier energy in
+the
+following
+order:
+Fe2O3 > Fe2O3/Al2O3 > Fe2O3/MgO > Fe2O3/
+ZrO2. However, the underlying mechanisms of CuO decomposition,
+the sintering inhibition mechanisms of the supports and the effects
+of the supports on the reactivity of Cu-based OC have not been
+comprehensively studied.
+In this study, we investigated the CuO and CuAl2O4 decomposi-
+tion mechanisms to identify the rate-limiting steps of oxygen
+release and to explore the oxygen release features. Next, the inter-
+actions between the CuAl2O4 and the CuO nanoclusters were stud-
+ied to clarify the role of the supports in determining the sintering
+resistance and reactivity of CuO. Both temperature programmed
+decomposition (TPD) and isothermal oxygen release experiments
+of sol–gel Cu-based OCs were conducted in a thermogravimetric
+analyzer (TGA) to relate the DFT calculation with experimental
+observations. The calculated predictions agreed with the experi-
+mental results very well and gave an insight on the Cu-based OC
+decomposition features. A brief discussion of the effects of prepara-
+tion method and support addition on the reactivity of the OC was
+also given. These results may motivate researchers to understand
+the O2 release features of Cu-based OC in CLOU and prompt rational
+OC design or optimization.
+2. Experimental and computational details
+OC preparation methods mainly include impregnation, mechan-
+ical mixing, spray drying, and so on [1]. To date, only spray drying
+material has been successfully tested in a CLOU unit [24,25]. How-
+ever, the distribution of CuO is non-uniform and the strength
+between CuO and support is not very high in the OC particles pre-
+pared by these methods, which is disadvantageous for increasing
+the content of CuO or the integrity of the particle. The OCs used
+in this study were prepared by the sol–gel method [26,27]. The clo-
+sely mixed of CuO and support at molecular level can be reached in
+this technique, ensuring the fully contact between CuO phase and
+CuAl2O4 phase. The characteristic is consistent with the DFT model
+using in this work, in which the CuO/CuAl2O4 model is periodic and
+the components are fully in contact with each other.
+A detailed description of the sol–gel preparation steps of the
+method has been discussed previously [28,29]. Aluminum isoprop-
+oxide (Al(OC3H7)3) and Cu(NO3)26H2O were used as precursors.
+After stepwise drying in air at 100–600 C, the samples were cal-
+cined at 1050 C. After crushed and screened, three OCs with sizes
+of 125–180 lm were obtained, including pure CuO, CuO/CuAl2O4
+(wt. 30%/70%) and CuAl2O4, with stoichiometrically molar Cu and
+Al ratios.
+To study the reactivity and oxygen release characteristic of
+these OCs, TPD and isothermal experiments were performed using
+thermogravimetric analysis (TGA). The samples were fully oxidized
+at relatively lower temperature in air before using. In TPD experi-
+ments, thirty milligrams of OC were heated from room tempera-
+ture to 1000 C under a N2 ﬂow of 100 mL/min and at a heating
+rate of 10 C/min. In isothermal experiments, thirty milligrams of
+OC were ﬁrst heated from room temperature to 900 C and
+1000 C under an air ﬂow of 100 mL/min, respectively. When the
+temperature was stable, the atmosphere was switched to a N2 ﬂow
+of 100 mL/min. Oxygen release and uptake of CuO/Cu2O for 20
+cycles was also conducted. It was performed at 900 C under a N2
+atmosphere in oxygen release period and under an air atmosphere
+in oxygen uptake period. The sample weight and the reaction tem-
+perature were recorded continuously during the TGA experiment.
+The fresh and used OCs were analyzed using a powder X-ray
+diffraction instrument (Shimadzu, XRD-7000) with Cu Ka radiation
+and 2h = 10–90. For this instrument, the maximum tube voltage
+1266
+Y. Zhang et al. / Combustion and Flame 162 (2015) 1265–1274
+
+
+===== Page 3 =====
+
+was 40 kV and the maximum current was 30 mA. The phase anal-
+yses of the fresh and used OCs are listed in Table 1. These results
+revealed the presence of small concentrations of CuO and Al2O3
+in the fresh CuAl2O4 OC, which indicated that some of the CuO
+and Al2O3 did not convert to CuAl2O4. Furthermore, no Al2O3 was
+found in the fresh CuO/CuAl2O4 OC due to the excess CuO in this
+OC. The results also revealed that the conversion of CuO to Cu2O
+and the conversion of CuAl2O4 to CuAlO2 or Al2O3 occurred in the
+oxygen release process. Small amounts of CuAl2O4 existed in the
+used OCs due to the incomplete decomposition.
+The DFT calculations were performed using the nonlocal gener-
+alized gradient approximation (GGA) function by employing the
+Perdew–Wang (PW91) [30,31] correlation functional in CASTEP
+(Cambridge Serial Total Energy Package) [32]. The CuO unit cell
+adopts a monoclinic structure (C2/c space group) [33], in which
+each Cu atom bonds with four O atoms (see Fig. 1a) and the CuAl2
+O4 unit cell adopts a cubic structure (Fd/3m space group) [34], as
+shown in Fig. 1d. A cubic Cu4O4 nanocluster (see Fig. 1b) was built
+to simulate the active phase that adhered to the support. Periodic
+boundary conditions were applied to these unit cells across all
+three dimensions. The CuO cluster was optimized in a large cubic
+box of 20 Å  20 Å  20 Å to eliminate the periodicity effects.
+The Brillouin zone integrations were performed using Monk-
+horst–Pack type mesh [35], and an antiferromagnetic spin ordering
+was used for the CuO unit cell [33,36]. Before structure optimiza-
+tion, convergence tests of the energy cutoff (4 points from 300 to
+450 eV) and the k-points separation (4 points from 0.06 to
+0.03 Å1) were performed. An energy cutoff of 400 eV and a
+k-points separation of 0.04 resulted in well-converged total struc-
+ture energies that were within 0.02 eV of each other and could be
+neglected. To accurately describe the strong electron correlations
+in transition-metals, the Hubbard parameter (U) was introduced
+for the Cu 3d orbitals according to the well-known GGA + U
+method [37]. We tested the DFT + U with U from 0 to 9 eV and
+found that using U = 7.5 eV for the Cu 3d orbitals provided reason-
+able results. In addition, this value was suggested by previous
+researchers [33,38]. Thus, we applied U = 7.5 eV to the Cu 3d orbi-
+tals throughout this paper. The calculated Cu–O bond lengths of
+the CuO cluster (1.952 Å) and the CuO unit cell (1.956 Å) agreed
+with the experimental data (1.95 Å) [39]. In addition, the calcu-
+lated lattice parameter for the CuAl2O4 was a = b = c = 8.158058 Å,
+which was comparable to other calculation [34] and experimental
+results [40].
+The CuO(111) surface was used to study the oxygen release
+characteristics of CuO. This surface was selected because it is the
+most stable low-index CuO surface that contains compact Cu–O
+layers under ambient conditions, as discussed by [33] and [36].
+Similarly, CuAl2O4(100) [41] was selected for this study. The
+CuO(111) (see Fig. 1c) and CuAl2O4(100) surfaces (see Fig. 1e)
+were cleaved from the CuO and CuAl2O4 unit cell, respectively.
+Three-layer (2  2) CuO(111) (containing 48 atoms) and (1  2)
+CuAl2O4(100) slabs (containing 42 atoms) were built, which con-
+verged to a surface energy of within 0.005 and 0.018 J/m2. A vac-
+uum gap of 20 Å was used above the surface to prevent slab–slab
+interactions.
+Subsequently,
+the
+CuO(111)
+and
+CuAl2O4(100)
+surfaces were fully relaxed until the threshold values of energy,
+displacement and force were reached (0.01 meV, 0.001 Å and
+0.03 eV/Å, respectively) when the bottom layer was ﬁxed. These
+convergence criteria were used throughout the paper. The calcu-
+lated surface energy of the CuO(111) was 0.71 J/m2, which was
+comparable to the earlier calculation results of 0.72 J/m2 [36] and
+0.74 J/m2 [33].
+The CuO nanoclusters that were supported on the surface sys-
+tems were calculated using the periodic supercell of the CuAl2O4
+support slab and the same calculation setup to ensure consistency
+between the calculations. The adsorption energy (Ead) of the CuO
+nanoclusters on the supports is deﬁned as
+Ead ¼ EðCu4O4=CuAlÞ  ½EðCuAlÞ þ EðCu4O4Þ
+ð4Þ
+where E(CuAl) and E(Cu4O4) are the total energies of the bare
+CuAl2O4 surface and the free Cu4O4 cluster and E(Cu4O4/CuAl) is
+the total energy of the Cu4O4 cluster supported on the CuAl2O4 sur-
+face. Ead reﬂects the stability of the cluster supported on the surface.
+A negative adsorption energy indicates that the structure is more
+stable than a separated cluster and surface [42].
+In this study, the complete LST/QST approach (linear/quadratic
+synchronous transit) [43] was used to ﬁnd transition state (TS)
+structures and to determine the energy barriers (Eb) of different
+oxygen release steps. The value of Eb was calculated as follows:
+Eb ¼ EðTSÞ  EðISÞ
+ð5Þ
+where E(TS) and E(IS) are the energies of the TS and the initial states
+(IS), respectively.
+3. Oxygen release mechanisms of CuO
+3.1. OC decomposition behavior by experiments
+Before conducting detailed DFT calculations, we have per-
+formed OC decomposition experiments at isothermal conditions.
+Decomposition rate at different conversion of OC were obtained
+from the experiments. The experimental observations help to out-
+line the decomposition mechanism.
+The TG curves of CuO decomposition in different CLOU cycles at
+900 C were shown in Fig. 2. It was found that the mass loss of CuO
+after the reaction was about 10%, suggesting the CuO had been
+fully converted to Cu2O. Figure 3 showed that the CuO can be also
+fully converted to Cu2O at different isothermal conditions (900 C
+and 1000 C). The oxygen release rates of these particles as a func-
+tion of OC conversion were presented in Fig. 4. Factually, the XRD
+results showed that only Cu2O phase was detected in the used CuO
+OC, as shown in Table 1. Thus, not only the O anions in the outer
+layers of the CuO, but also the O anions in the internal layer of
+Table 1
+Compositions of the fresh and the used OCs.
+Fresh
+After oxygen release
+CuO
+CuO
+Cu2O
+CuO/CuAl2O4
+CuO and CuAl2O4
+Cu2O, CuAlO2, Al2O3 and CuAl2O4
+m
+CuAl2O4
+CuAl2O4, Al2O3
+m and CuOm
+CuAlO2, Al2O3 and CuAl2O4
+m
+m = Minor phase.
+Fig. 1. (a) CuO unit cell, (b) Cu4O4 cluster, and (c) CuO(111) slab with different
+types of Cu and O atoms, (d) CuAl2O4 unit cell, and (e) CuAl2O4(100) slab with
+different types of Cu and O atoms.
+Y. Zhang et al. / Combustion and Flame 162 (2015) 1265–1274
+1267
+
+
+===== Page 4 =====
+
+the CuO participate in the oxygen release. Therefore, it is reason-
+ably deduced that the O2 release of CuO is related to the internal
+O anion diffusion and the O2 formation and desorption. Previous
+study showed that the decomposition process of H2 storage
+materials [15,44,45] or ‘‘hercynite cycle’’ active materials [46]
+included similar steps, such as gas formation, desorption and anion
+diffusion. It is a reasonable simpliﬁed assumption that O2 forma-
+tion, O2 desorption and O anion diffusion steps are included in
+the oxygen release of CuO.
+The effect of CuO particle structure (which will determine the
+outward diffusion of desorbed O2 molecule from the micropores
+within the OC particles) on the oxygen release rate of the CuO
+was examined. After cyclic oxygen release and uptake processes,
+the BET surface and pore volumes of the CuO will be reduced
+because of slight sintering. However, from Fig. 2, it was found that
+the oxygen release rate had little changes after 10 and 20 cycles.
+This suggested that the O2 molecule diffusion outside from the
+pores has little effect on the oxygen release rate, compared to
+the CuO decomposition reaction (including of O2 formation, O2
+desorption and O anion diffusion). Therefore, only steps of O2 for-
+mation (S1), O2 desorption (S2) and O anion diffusion (S3) were
+considered in the work.
+The details of the isolate steps in the CuO decomposition pro-
+cess help to gain insight on CuO decomposition mechanism, which
+is hardly detected by experiments. To further elaborate on the key
+features of OC decomposition and identify the rate limiting steps,
+DFT was used to investigate the oxygen release details of the
+CuO(111) surface model. We ﬁrst focused on the most reasonable
+pathways for O2 formation and desorption on the CuO surface and
+investigated the diffusivity of the subsurface O anion.
+3.2. The formation and desorption of oxygen on the CuO(111) surface
+Figure 1c showed the relaxed atomic structure of a pure
+CuO(111) surface. On the surface, four chemically distinguishable
+types of surface atoms were labeled, Cu3f as the three fold-coordi-
+nated Cu atoms, Cu4f as the four fold-coordinated Cu atoms, O3f as
+the three fold-coordinated O atoms and O4f as the four fold-coordi-
+nated O atoms. The O3f were more exposed on the surface relative
+to the O4f, which were coordinated with a Cu3f atom and two Cu4f
+atoms. In addition, the O4f atoms were coordinated with three sur-
+face Cu atoms and a subsurface Cu atom, which limited their
+migration. Thus, in high temperature environments, the O3f atoms
+can migrate more easily than the O4f atoms.
+To determine the possible O2 formation process (S1), an O3f
+atom was removed and reintroduced to bond with four adjacent
+O atoms, including O3f2, O4f1, O4f2 and O4f3 (see Fig. 1c). Next,
+these structures were optimized. The O3f atoms cannot bond with
+the O4f2 and O4f3 atoms. Instead, the O3f atoms form bonds with
+the O3f2 and O4f1 atoms (with bond lengths of 1.523 and 1.429 Å,
+respectively). These bond lengths were slightly longer than the
+bond lengths of the free O2 molecules (1.225 Å), which indicated
+that an O2 complex was formed in the two structures. Furthermore,
+the reconstructed structures with O3f1–O3f2 and O3f1–O4f1
+complexes on the surfaces had lower surface energies, which
+implied that they were thermodynamic stable and easily formed.
+Thus, the O2 formation processes of O3f1–O3f2 and O3f1–O4f1
+were investigated and denoted by P1 and P2, respectively. Figure
+5 shows the two investigated pathways, beginning with the perfect
+CuO(111) surface (initial state, donated by IS) and ending with the
+CuO(111) surface with the formation of O2 complexes (intermedi-
+ate state, donated by IM). Next, a TS (transition-state) search calcu-
+lation was performed to identify the TS structure and the
+corresponding energy barrier (see Fig. 6). These results showed
+that the energy barrier was 2.3 eV for P1–S1 and 3.0 eV for P2–
+S1. In addition, the reaction energies were 2.1 eV and 2.5 eV,
+respectively. These ﬁndings suggested that bonding was more
+likely between O3f1 and O3f2. Next, we continued the calculation
+to investigate the S2 process.
+Fig. 2. Mass loss of the CuO in different CLOU cycles at 900 C in N2 ﬂow as a
+function of time.
+Fig. 3. Mass loss of CuO and CuAl2O4 in N2 ﬂow at 900 C and 1000 C as a function
+of time, respectively, 95.6% meaning that CuAl2O4 has been fully decomposed to
+CuAlO2, and 90% meaning that CuO has been fully decomposed to Cu2O.
+Fig. 4. Oxygen release rate (conversion rate) of CuO and CuAl2O4 decomposition at
+900 C and 1000 C as a function of conversion.
+1268
+Y. Zhang et al. / Combustion and Flame 162 (2015) 1265–1274
+
+
+===== Page 5 =====
+
+O3f1–O4f and O3f1–O3f2 (in the IM of P1 and P2) were
+removed from the surface before placing at a distance of 6 Å from
+the CuO(111) surface. Next, the structures were optimized and
+denoted by the FS (ﬁnal state) of P1 and P2 (see Fig. 5). There,
+the IS can be labeled as (CuO)x, and the FS can be labeled as O2(a
+free molecule) + CuxOx2(reduced CuO). After this step, a TS search
+calculation was performed to obtain the energy barrier from the IM
+to the FS. We observed that the energy barriers were nearly equal
+to the reaction energies and that the values are high for the P1–S2
+and P2–S2 processes (3.9 eV for P1–S2 and 2.7 eV for P2–S2). Once
+an O2 complex was formed on the surface, a high thermodynamic
+driving force was required for it to enter the gas phase.
+The potential energy diagram suggested that (as shown in
+Fig. 6) the P1 and P2 processes were largely endothermic, which
+implied that oxygen release only occurs at high temperatures
+(greater than 800 C according to the thermodynamic calculation
+[2]). In addition, the highest energy barrier of P2 was 3.0 eV, which
+was much lower than that of P1 (3.9 eV). Moreover, the FS of P2
+was more thermodynamically stable than that of P1 due to its
+lower total energy. Therefore, P2 was regarded as the most favor-
+able pathway for the formation of O2 and for the desorption on
+the CuO(111) surface. In the P2 process, two bonds between the
+O3f1 and Cu4f atoms break and the O3f1 migrates from the initial
+site to the top of the Cu3f (see the TS of P2 in Fig. 5) before binding
+to the O4f1. Meanwhile the Cu3f atom binds to the two adjacent
+Cu4f atoms and the energy barrier is 3.0 eV. After an O2 complex
+is formed on the surface, a desorption energy of 2.7 eV is required
+to rupture the Cu–O bond and allow the O2 to enter the gas phase.
+In the FS of P2, the O2 has a bond length of 1.247 Å, which is similar
+to the bond lengths in free O2 molecules (1.225 Å).
+To understand the key state of the P2 process, we determined
+the electronic structures of the free O2 molecules and the O3f1
+and O4f atoms in the IS, IM and FS. The local density of states
+(LDOS) of these structures are plotted in Fig. 7. In the IS, a large
+delocalization of the p orbitals occurs for the two O atoms, which
+resulted from the strong Cu–O bonds in the CuO. In the IM, a clear
+splitting of the O3f1 and O4f s orbitals was observed. Two small
+peaks appeared in the energy region of 23 eV and 16 eV, which
+indicated that the formation of O–O complexes occurred in the IM.
+Meanwhile, the p orbitals near 0 eV became slightly small, which
+indicated that the O–O complex transferred some electrons to
+the surface and still had strong interactions with the surface. In
+the FS, the two small peaks were split in the energy region of
+26 eV and 14 eV, which indicated that the O–O bond became
+stronger. Meanwhile, the p orbitals decreased to large spikes, indi-
+cating that the O–O complex transferred some electrons to the sur-
+face again and the interactions between the O–O complex and the
+surface was much weak. The LDOS of the O2 in the FS corresponded
+with that of the free O2 molecules, which indicated that free molec-
+ular O2 was formed.
+3.3. The diffusion of the O anion from lattice to surface in the CuO slab
+CuO decomposition depends on the formation (S1) and desorp-
+tion (S2) of the surface O2 and on the outward diffusion of the O
+anion in the CuO slab (S3). The diffusivity mechanism of the O
+anion in the CuO slab after the S1 and S2 processes was further
+investigated.
+For this calculation, we used the CuO(111) structure with a sur-
+face O3f vacancy (denoted as VO3f) of IS and the CuO(111) structure
+with a subsurface Osub vacancy (denoted as VOsub) of FS. In addi-
+tion, Osub was the nearest O atom to O3f. The IS and FS structures
+were optimized before performing the calculation. Figure 8 shows
+the TS search results and the corresponding energy barrier of the
+S3 process. As shown in Fig. 8, when beginning with a surface
+vacancy in the IS, the Osub atom migrates from the initial site to
+the middle position between the surface and subsurface O vacan-
+cies. In addition, the Osub–Cu bond in the subsurface is gradually
+ruptured (see TS in Fig. 8). Next, the Osub atom binds to the surface
+Cu atoms before occupying the VO3f (see FS in Fig. 8). The reaction
+energy of the S3 process is negative (0.70 eV), which indicates
+that the process is exothermic and energetically favorable. The cal-
+culated energy barrier of the S3 process is 0.88 eV, which is signif-
+icantly lower than that of the S1 (3.0 eV) and S2 (2.7 eV) processes.
+This energy barrier occurs because only one Cu–O bond in the S3
+Fig. 5. The initial state (IS), transition state (TS), intermediate state (IM) and ﬁnal
+state (FS) structures for the O2 formation (S1) and O2 desorption (S2) processes in
+different pathways (P1 and P2) on the CuO(111) surface. The IM-side and IM-front
+are the side and front views of the IM structure, respectively. The FS-side and FS-
+front are the side and front views of the FS structure, respectively. The highlighted
+blue O atoms are the same atoms in the IS structures for P1 and P2, respectively. The
+bond lengths are presented in Å. (For interpretation of the references to color in this
+ﬁgure legend, the reader is referred to the web version of this article.)
+Fig. 6. Potential energy diagram for the O2 formation and O2 desorption processes
+following different pathways (P1 and P2) and on the CuO(111) surface.
+Fig. 7. Local density of states for the O3f1 and O4f atoms in the IS, IM and FS during
+the O2 formation (S1) and O2 desorption (S2) processes and the local density of
+states for the free O2 molecules.
+Y. Zhang et al. / Combustion and Flame 162 (2015) 1265–1274
+1269
+
+
+===== Page 6 =====
+
+process is broken from the IS to the TS. However, in the S1 and S2
+processes, at least two Cu–O bonds must be broken. The diffusion
+energy barriers of the deeper layer O anions are also relatively low
+due to the diffusion features of the deeper layer O anions are sim-
+ilar to those of the subsurface O anion, where only one Cu–O bond
+is broken from the IS to TS.
+Based on our calculations, we determined the most favorable
+oxygen release pathway. First, the surface O atom migrates and
+forms O2 complexes at the surface with an energy barrier of
+3.0 eV. Next, the O2 complex is desorbed from the surface and
+enters the gas phase with an energy barrier of 2.7 eV. As O vacan-
+cies are created in the surface, the subsurface O anions migrate
+outward to ﬁll the vacancies with a relatively low energy barrier
+of 0.88 eV. The O anions migrate from the deeper slab layer to pro-
+vide surface O atoms for the following oxygen release steps. The
+driving force results from the high temperature and low partial
+pressure of oxygen. Figure 9 shows a schematic representation
+for the CuO oxygen release system, in which the formation (S1 pro-
+cess) and desorption (S2 process) of O2 leaves some O vacancies at
+the CuO surface. These O vacancies facilitate the migration of the O
+anion from the subsurface to the surface (S3 process).
+In the oxygen release process, the formation and desorption of
+O2 are more rate-limiting than the anion diffusion of O inside the
+CuO slab due to their higher energy barriers. CuO decomposition
+experiments also supported the DFT results. Figure 4 shows the
+oxygen release rates (conversion rates) of CuO at 900 C and
+1000 C. It was found that the oxygen release rate was about
+0.1%/s at 900 C and about 1.0%/s at 1000 C, where the oxygen
+release rates had little changes at different conversion. It means
+that sufﬁcient O anions always exist in the CuO crystal surface at
+different conversion to supply the O2 formation and desorption.
+If the O anion diffusion is a rate limiting step for the CuO decom-
+position, the oxygen release rate will be signiﬁcantly reduced,
+because the mobility distance of O anion from internal lattice to
+the surface is longer and the O anion diffusion occurs more fre-
+quently at a higher conversion. Therefore, the O anion diffusion
+may be not a rate limiting rate for oxygen release of CuO. This is
+consistent with the calculation prediction. In addition, the activa-
+tion energies of CuO oxygen release that were measured in previ-
+ous studies [47,48] were 322.2 kJ/mol (3.34 eV) and 327 kJ/mol
+(3.39 eV) for particle sizes of 10 lm and between 1 and 10 lm,
+respectively. The calculated energy barriers for O2 formation
+(3.0 eV) and desorption (2.7 eV) are comparable to the experimen-
+tal activation energies. The experimental data reﬂect the entire
+oxygen release process of CuO, including the formation of O2 at
+the surface, the desorption of O2 from the surface and the diffusion
+of O anion in the CuO slab. Thus, a difference exists between the
+energy barrier and the experimental activation energy. However,
+the experiment provides a baseline for the calculation.
+It is interesting to ﬁnd ways to improve the reactivity and sta-
+bility of OC. The energy barriers have a close relationship with
+the reactivity of OC. Thus, one method for improving the reactivity
+is to reduce these energy barriers for different steps, especially for
+the S1 and S2 steps, to facilitate oxygen release. Another method is
+to increase the surface area of the active CuO to provide more sites
+for the formation and desorption of O2 while decreasing the dis-
+tance of O diffusion. For the OC of CuO, several support materials
+(such as CuAl2O4) have been used to limit sintering and maintain
+the surface area. However, previous experiments [6] have shown
+that Cu-based OCs with different supports present various reactiv-
+ities at similar surface areas and pore volumes. This result suggests
+that the support addition inﬂuences the surface area of the CuO
+and the oxygen release features of the CuO, such as the energy bar-
+riers of O2 formation, O2 desorption or O anion diffusion. A clear
+understanding of the interaction mechanisms of the CuO with
+the support is highly desirable for rationalizing the design of high
+performance OC.
+4. Interactions between the support and the CuO
+4.1. Oxygen release characteristics of CuAl2O4 by experiments
+Previous studies [5,6] have reported that the CuAl2O4 does not
+release oxygen in an inert atmosphere at 900–925 C. However,
+when the temperature is greater than 950 C, CuAl2O4 follows a
+slow decomposition mechanism. The oxygen release characteris-
+tics of CuAl2O4 were investigated before using it as the CuO sup-
+port.
+First,
+OC
+decomposition
+experiments
+at
+isothermal
+conditions (900 C and 1000 C) were carried out and the results
+were shown in Figs. 3 and 4.
+In Fig. 3, for the CuAl2O4 material, the mass loss is 1.6% at 900 C
+and about 4.5% at 1000 C, suggesting at 900 C, only the CuO phase
+in the CuAl2O4 material participates in decomposition, but at
+1000 C, both the CuAl2O4 and CuO phases participate in decompo-
+sition, at a relatively higher temperature. Figure 4 shows the con-
+version rate at different conversion of the CuAl2O4 and CuO, and it
+can be seen clearly that the CuO phase is decomposed much faster
+than CuAl2O4 phase at 1000 C. In addition, as noticed, the conver-
+sion rate of CuAl2O4 is obviously reduced in higher conversion peri-
+ods, which is different from that of CuO, indicating the CuAl2O4 has
+different decomposition features with CuO.
+We also performed a TPD experiment to determine the different
+oxygen release features of CuO and CuAl2O4. Figure 10 shows the
+mass loss as a function of temperature in the TGA for CuO, CuO/
+CuAl2O4 and CuAl2O4. The pure CuO is rapidly decomposed in
+one step, and the decomposition begins at approximately 800 C.
+However, CuO/CuAl2O4 and CuAl2O4 are decomposed in two steps.
+The small concentration of CuO species that exist in the fresh
+CuAl2O4 OC and the large concentrations of CuO that exist in the
+fresh
+CuO/CuAl2O4
+OC
+result
+in
+rapid
+conversion
+rates
+at
+Fig. 8. The structures of the initial states (IS), transition states (TS) and ﬁnal states
+(FS) for O anion diffusion in the CuO slab and the corresponding potential energy
+diagram.
+Fig. 9. A schematic representation for the CuO oxygen release mechanism. The
+arrows indicate the trends of the various species.
+1270
+Y. Zhang et al. / Combustion and Flame 162 (2015) 1265–1274
+
+
+===== Page 7 =====
+
+temperature lower than 925 C. When the temperature reaches
+more than 925 C, a very slow conversion rate occurs for CuO/
+CuAl2O4 and CuAl2O4, which results from the CuAl2O4 phase
+decomposition. The TPD results also indicate that the CuAl2O4
+has a higher decomposition temperature and a slower conversion
+rate, which is consistent with the isothermal experiments and
+the previous experiment results [5,49].
+4.2. Detailed oxygen release mechanism of CuAl2O4
+Next, DFT calculation was performed to further elaborate the
+oxygen release features of the CuAl2O4. In this calculation, different
+oxygen release pathways were tested. The pathway with the low-
+est energy barriers was discussed here. As shown in Fig. 11, in the
+O2 formation process (S1), the threefold coordinated O atoms (O3f)
+that bind with the fourfold coordinated Cu atoms (Cu4f) break the
+two Al–O bonds and make bond with another O3f at the other Cu
+sites. The bond length of the O–O bond in the IM structure
+(Fig. 11c) is 1.499 Å. In the O2 desorption process (S2), the resulting
+O2 complex breaks the bonds with the surface to escape into the
+gas phase with a bond length of 1.254 Å. The S1 and S2 processes
+lead to the reconstruction of the surface. When the O2 has been
+desorbed, the surface is made of Cu–O–Al rings (Fig. 11d). In the
+O diffusion process (S3) from the IS to the TS, as shown in
+Fig. 11e and f, the subsurface O breaks one of the Cu–O bonds
+and two of the Al–O bonds to bind with the surface Cu and Al
+atoms.
+The calculated reaction energy of S3 (from IS to FS) equals the
+energy barrier (from IS to TS), which reaches up to 2.53 eV. Thus,
+this process is largely endothermic and is ascribed to the compact
+structure of the CuAl2O4. This process is signiﬁcantly different from
+the diffusion of the O anion in CuO, which is exothermic with reac-
+tion energy of 0.70 eV. According to thermodynamics, the diffu-
+sion of O from CuAl2O4 is more difﬁcult and requires a higher
+oxygen release temperature. The energy barriers of the oxygen
+release steps for CuAl2O4 and CuO are plotted in Fig. 12. Although
+the energy barriers of S1 and S2 are comparable between the two
+materials, the energy barriers for CuAl2O4 in S3 were much higher
+than for CuO and the value is close to the energy barriers of S1 and
+S2. This difference indicates that S3 is also a rate limiting steps for
+CuAl2O4 decomposition besides S1 and S2, and it will reduce the
+oxygen release rate (conversion rate) of CuAl2O4. These DFT calcu-
+lation results agree well the isothermal and TPD experiments
+shown in Figs. 3, 4 and 10, which suggest that CuAl2O4 has a higher
+decomposition temperature and a slower conversion rate. In
+higher conversion periods of CuAl2O4, S3 occurs frequently and will
+become the dominant step for oxygen release. Therefore, the DFT
+calculation explains the reason why CuAl2O4 shows different oxy-
+gen release features with CuO.
+4.3. Sintering inhibition mechanism of CuAl2O4 in the Cu-based OC
+CuO sintering diminishes the surface area for the formation and
+desorption of O2 and elongates the diffusion pathway of the O
+anion, which deteriorates the OC reactivity. Previous studies
+[5,6,9,10,12,29] have indicated that CuAl2O4 can efﬁciently limit
+CuO sintering and have suggested that the stable reactivity of the
+OCs is associated with a high degree of CuO dispersion in the par-
+ticle. The actual OC particles with a high degree of CuO dispersion
+can be simpliﬁed as the adhesion of the CuO nanocluster to the
+CuAl2O4 grain. We used a model of Cu4O4 nanoclusters supported
+Fig. 10. TPD proﬁles of pure CuO, CuAl2O4 and CuO/CuAl2O4 (wt. 30%/70%). The
+solid vertical line corresponds to the temperatures at which the weight loss has a
+signiﬁcant change.
+Fig. 11. The structures of the (a) IS – initial states, (b) TS – transition states, (c) IM – intermediate states, and (d) FS – ﬁnal states for the S1 – O2 formation process and the S2 –
+O2 desorption process on the CuAl2O4(100) surface. In addition, the structures of (e) IS – initial states, (f) TS – transition states and (g) FS – ﬁnal states for the S3 – O anion
+formation process. The highlighted blue O atoms are the same atoms represented in the IS structures for P1 and P2, respectively. The bond lengths are presented in Å. (For
+interpretation of the references to color in this ﬁgure legend, the reader is referred to the web version of this article.)
+Y. Zhang et al. / Combustion and Flame 162 (2015) 1265–1274
+1271
+
+
+===== Page 8 =====
+
+on the CuAl2O4 surface to perform this calculation. The CuO and
+CuAl2O4 are fully in contact with each other in the periodic model
+structure and the model can describe the structures of sol–gel OC
+particles.
+First, the Cu4O4 nanocluster was added to the CuAl2O4(100)
+surface and then was optimized. Figure 13a shows the atomic
+structure of the Cu4O4 supported on CuAl2O4(100), where four
+new bonds are formed between the cluster and the surface. Two
+Cu atoms from the cluster make bonds with the two surface O
+atoms, and the two O atoms from the cluster bind with the two
+surface Al atoms, while the Cu4O4 maintains its cubic structure.
+In addition, we have determined that the Cu4O4 nanoclusters are
+supported on the CuO surface (see Fig. 13d). Five new bonds were
+formed between the cluster and the CuO(111) surfaces, but the
+structure of the Cu4O4 tends to be disordered. The lengths of the
+new bonds between the surface and cluster are listed in Table 2.
+From
+Table
+2,
+the
+Als–Oc
+has
+much
+shorter
+bond
+lengths
+(1.874 Å) relative to the new Cu–O bonds in both models. From
+the difference electron densities of the CuO/CuAl2O4 structures
+(see Fig. 10b and c), we observed a distinct charge accumulation
+between the surface Al and the cluster of O atoms, which indicated
+that a strong interaction occurred between them. This strong inter-
+action can limit the migration of the CuO nanocluster, which
+implies that the Al sites on the CuAl2O4 surface play important
+roles in the interactions of CuO and CuAl2O4.
+The adsorption energies of the Cu4O4 nanoclusters on the
+CuAl2O4
+and
+CuO
+surfaces
+were
+calculated
+(4.25 eV
+and
+2.92 eV, respectively). Compared to the pure CuO surface, the
+CuAl2O4 as a support resulted in more negative adsorption energy.
+This ﬁnding mainly resulted from the effects of the Al sites on the
+CuAl2O4 surface. In addition, the disorder of the CuO cluster struc-
+ture on the CuO surface (see Fig. 13d) reduce the adsorption energy
+of the pure CuO surface by increasing the energy of the cluster/
+CuO(111). Regarding the pure CuO surface, aggregation and
+growth of small CuO nanoclusters may occur on the surface and
+lead to CuO sintering. However, the aggregation of these clusters
+was prevented when using CuAl2O4 because the more negative
+adsorption energy of the CuAl2O4 surface limited the migration
+of the CuO nanoclusters and provided them with stability. This
+result was conﬁrmed by the experimental results [50,51], which
+indicated that pure CuO became compact after multiple CLC or
+CLOU cycles due to sintering, however, which was not observed
+when CuAl2O4 was added. Thus, we can use the adsorption energy
+of the active phase to assess the sintering resistance characteristics
+of the support and to select suitable supports for different OCs. In
+addition, it can be deduced that sufﬁcient CuO contact with the
+supports favors the role of the support. Thus, a high degree of
+CuO dispersion or supports is required for high performance OCs.
+In addition, Xu et al. [52] used the surface energy of support mate-
+rials to access the interactions of the active CuO and support. The
+lowest calculated surface energies of the CuAl2O4 and CuO were
+1.38 and 0.71 J/m2, respectively. The CuAl2O4 had a higher surface
+energy than the TiO2 (0.86 J/m2), Al2O3 (0.90 J/m2) and MgO (0.87 J/
+m2) [52]. Thus, the CuAl2O4 provides a higher resistance to CuO
+sintering than other supports.
+4.4. The effect of CuAl2O4 on CuO reactivity
+From Fig. 13b and c, the support causes signiﬁcant electron
+redistribution in the CuO nanocluster, which affects the oxygen
+release features of the CuO. In addition, the TPD results in Fig. 10
+show that the reactivity of the CuO species decreased in the CuO/
+CuAl2O4 OC and was more distinct for the CuO in the CuAl2O4
+OC. In addition, previous studies [8] have found that high MgAl2O4
+or CuAl2O4 concentrations reduce the reactivity of CuO. The sup-
+port addition generally shortens the diffusion pathway of O anion
+in the CuO slab, which can enhance the diffusivity of the O anions.
+Thus, the reactivity deterioration is more likely related to the
+Fig. 12. Energy barriers of the different oxygen release steps (the S1 – O2 formation
+process, S2 – O2 desorption process and S3 – O anion formation process) for CuO
+and CuAl2O4.
+Fig. 13. The atomic structures of (a) the Cu4O4 supported on CuAl2O4(100) and (d) the Cu4O4 supported on CuO(111). Front view (b) and side view (c) of the calculated
+electron density difference for the Cu4O4 supported on CuAl2O4(100). The blue and yellow isosurfaces represent the charge gain and depletion, respectively, with an electron
+density difference of 0.05 e/Å3. (For interpretation of the references to color in this ﬁgure legend, the reader is referred to the web version of this article.)
+Table 2
+The bond lengths of the newly formed bonds in the Cu4O4 supported
+on
+CuAl2O4(100) and the Cu4O4 supported on CuO(111). Oc and Cuc correspond to the
+O and Cu atoms in the CuO cluster. Als, Cus and Os are the corresponding atoms at the
+CuO and CuAl2O4 surfaces.
+CuO/CuAl2O4(100)
+CuO/CuO(111)
+Oc–Als/Cus (Å)
+1.874/1.874
+2.165/1.950/1.950
+Cuc–Os (Å)
+1.899/1.900
+1.898/1.897
+1272
+Y. Zhang et al. / Combustion and Flame 162 (2015) 1265–1274
+
+
+===== Page 9 =====
+
+effects of the CuAl2O4 support on the O2 formation (S1) and desorp-
+tion (S2) processes during oxygen release. The oxygen release fea-
+tures of the CuO nanoclusters on the CuAl2O4 surface were
+investigated.
+Figure 14 shows the O2 formation and desorption processes of
+the CuAl2O4 supported CuO. Starting from the CuO/CuAl2O4 struc-
+ture, the two exposed O atoms of the Cu4O4 cluster (Os1 and Os2)
+break two Cu–O bonds with an energy barrier of 2.21 eV and
+approach each other (see the TS structure in Fig. 14). The chemi-
+sorbed O2 complex is formed. Next in S2 process, the O2 complex
+escapes the cluster gradually and remains a Cu4O2 cluster at the
+surface with an energy barrier of 3.28 eV. The energy barriers of
+O2 formation (S1) and desorption (S2) for CuAl2O4 supported CuO
+are compared to that of the free Cu4O4 cluster and pure CuO sur-
+face, as shown in Fig. 15.
+Figure 15 shows that the free CuO nanoclusters presents differ-
+ent oxygen release features than the CuO surface. In S1, the Cu4O4
+has a much lower energy barrier of O2 formation, mainly because
+the O anions in the nanocluster can migrate more easily than the
+compact CuO crystal surface. In S2, the Cu4O4 has a relatively
+higher energy barrier. Thus, for the CuO nanoclusters, the O2
+desorption is the rate-limiting step. The energy barrier of O2 forma-
+tion for Cu4O4 increases when CuAl2O4 is used as support. This
+increase results from the electron redistribution and structural
+changes of the CuO nanoclusters at the CuAl2O4 surface. The bro-
+ken Cu–O bonds in Cu4O4/CuAl2O4 are only 1.866 Å, which are
+much shorter than those of Cu4O4 (1.952 Å). Meanwhile, the
+energy barrier of O2 desorption is comparable to that of the free
+Cu4O4 and is much higher than that of the CuO surface. Thus, the
+CuAl2O4 supported CuO shows unfavorable oxygen release features
+relative to the free CuO nanoclusters and the CuO surface. This
+ﬁnding is consistent with the experimental results, which indicates
+that CuO has a relatively slower oxygen release rate, as shown in
+Fig. 10. The distinct reduced reactivity of OC with a high CuAl2O4
+content occurred because there were less bulk CuO phases or free
+CuO nanoclusters in it. This result suggests that the support con-
+tent in the OC particles should be maintained at a relative low level
+to ensure the reactivity of the OC.
+As known, particles prepared by spray drying, impregnation, or
+other methods may have different CuO distribution on the support,
+resulting in different reactivities of the OC. For instance, in impreg-
+nated OC particles, the CuO component covers the support material
+and the CuO crystallite size is larger. Although the CuAl2O4 phase is
+possibly formed in the outer layer of the support, it is difﬁcult to
+reach the uniform distribution of CuO and CuAl2O4 in the particles,
+which makes the contacts of CuO and CuAl2O4 insufﬁcient. Thus,
+the effects of CuAl2O4 in impregnated materials on the CuO is rel-
+atively weak compared to the sol–gel materials. Because, as
+revealed by the DFT calculations, the unsupported CuO is more
+reactive when compared with the supported one, it can be reason-
+ably deduced that the impregnated materials will be more reactive
+than sol–gel material. For spray drying materials, it possesses uni-
+form structure with CuO and support being separately distributed.
+The binding strength between CuO and support could be not very
+high, which also favors the reactivity but is disadvantageous for the
+integrity of the particle. To summarize, the reactivity and the sin-
+tering resistance of the OC depend on the OC structures, including
+CuO crystallite size, distribution and its interaction strength with
+the support. Suitable preparation method could give favorable
+CLOU performance of OC. It should be noted that Although the
+addition of CuAl2O4 and fully mixed of CuO and CuAl2O4 could
+reduce the reactivity of CuO, it maintains the reactivity of CuO in
+multiple CLOU cycles by preventing sintering. Different supports
+can result in different CuO oxygen release features and provide
+an opportunity for us to optimize OC in terms of reactivity mainte-
+nance and sintering inhibition.
+5. Conclusions
+A comprehensive study of the characteristics of Cu-based OC
+was performed in this study using the DFT method and TGA exper-
+iments. The CuO decomposition mechanism, the sintering inhibi-
+tion mechanism of supports and the effects of the supports on
+the Cu-based OC reactivity were investigated at an atomic level.
+The major results are summarized as follows.
+(i) Oxygen release mechanisms were explored at an atomic
+level and the most likely oxygen release pathway for the
+CuO(111) surface was obtained. The formation and desorp-
+tion processes of O2 were the rate-limiting steps for CuO
+decomposition, which is agreement with the experimental
+results.
+Fig. 14. The structures of the IS – initial states, TS – transition states, IM – intermediate states and FS – ﬁnal states for the O2 formation and O2 desorption processes of
+CuAl2O4 supported CuO.
+Fig. 15. Energy barriers of O2 formation (S1) and O2 desorption (S2) for the free
+Cu4O4 cluster, pure CuO surface and CuAl2O4 supported CuO.
+Y. Zhang et al. / Combustion and Flame 162 (2015) 1265–1274
+1273
+
+
+===== Page 10 =====
+
+(ii) Isothermal and TPD experiments showed that CuAl2O4 had
+different oxygen release features with the CuO. The DFT
+results suggested that the energy barrier of O anion diffusion
+in the CuAl2O4 was signiﬁcant higher than that in CuO and
+the process was largely endothermic, which decreased the
+oxygen release rates and increased the required oxygen
+release temperature of CuAl2O4.
+(iii) The sites of Al at the CuAl2O4 surface played important roles
+in limiting the sintering of CuO. The adsorption energy of
+Cu4O4 on CuAl2O4 was 4.25 eV higher than that of Cu4O4
+on the pure CuO (2.92 eV). The adsorption energy can be
+used to assess the interactions of different species in OC
+particles and the sintering inhibition characteristics of the
+supports.
+(iv) The desorption of O2 is the only rate-limiting step for oxygen
+release from the CuO nanoclusters, which is different from
+the oxygen release features of the CuO surface. The interac-
+tions of CuO and CuAl2O4 result in electron redistribution at
+the CuO supported on CuAl2O4 surfaces, which does not
+favor CuO reactivity. The CuAl2O4 content in the OC should
+be maintained at a relatively low level while ensuring the
+sintering inhibition of the OC.
+In conclusion, good agreement was obtained between the DFT
+calculations and the oxygen release experiments of sol–gel OCs.
+And these results will help us elucidate the characteristics of
+Cu-based OC. Additional research is required to optimize the
+CuO/CuAl2O4 OC and to select OCs with higher performance.
+Acknowledgments
+This research was funded by the ‘‘National Natural Science
+Foundation
+of
+China
+(51390494)’’
+and
+‘‘National
+Key
+Basic
+Research and Development Program’’ (2011CB707300).
+References
+[1] J. Adanez, A. Abad, F. Garcia-Labiano, P. Gayan, L.F. de Diego, Prog. Energy
+Combust. Sci. 38 (2) (2012) 215–282.
+[2] T. Mattisson, A. Lyngfelt, H. Leion, Int. J. Greenhouse Gas Control 3 (1) (2009)
+11–19.
+[3] H. Zhao, K. Wang, Y. Fang, J. Ma, D. Mei, C. Zheng, Int. J. Greenhouse Gas Control
+22 (2014) 154–164.
+[4] W. Yang, H. Zhao, J. Ma, D. Mei, C. Zheng, Energy Fuels 28 (2014) 3970–3981.
+[5] M. Arjmand, A.-M. Azad, H. Leion, A. Lyngfelt, T. Mattisson, Energy Fuels 25
+(11) (2011) 5493–5502.
+[6] Q. Imtiaz, M. Broda, C.R. Müller, Appl. Energy 119 (C) (2014) 557–565.
+[7] W. Yang, H. Zhao, K. Wang, C. Zheng, Proc. Combust. Inst. (2014), http://
+dx.doi.org/10.1016/j.proci.2014.07.010.
+[8] P. Gayán, I. Adánez-Rubio, A. Abad, L.F. de Diego, F. García-Labiano, J. Adánez,
+Fuel 96 (2012) 226–238.
+[9] S. Chuang, J. Dennis, A. Hayhurst, S. Scott, Combust. Flame 154 (1) (2008)
+109–121.
+[10] Q. Imtiaz, A.M. Kierzkowska, M. Broda, C.R. Müller, Environ. Sci. Technol. 46 (6)
+(2012) 3561–3566.
+[11] M.-F. Luo, P. Fang, M. He, Y.-L. Xie, J. Mol. Catal. A: Chem. 239 (1–2) (2005)
+243–248.
+[12] Q. Song, W. Liu, C.D. Bohn, R.N. Harper, E. Sivaniah, S.A. Scott, J.S. Dennis,
+Energy Environ. Sci. 6 (1) (2013) 288–298.
+[13] M.R. Quddus, M.M. Hossain, H.I. de Lasa, Catal. Today 210 (2013) 124–134.
+[14] R.W. Wagemans, J.H. van Lenthe, P.E. de Jongh, A.J. van Dillen, K.P. de Jong, J.
+Am. Chem. Soc. 127 (47) (2005) 16675–16680.
+[15] A. Du, S.C. Smith, X. Yao, G. Lu, Surf. Sci. 600 (9) (2006) 1854–1859.
+[16] A. Du, S.C. Smith, X. Yao, G. Lu, J. Am. Chem. Soc. 129 (33) (2007) 10201–10204.
+[17] L.-L. Wang, D.D. Johnson, J. Phys. Chem. C 116 (14) (2012) 7874–7878.
+[18] D. Mei, J.H. Kwak, J. Hu, S.J. Cho, J. Szanyi, L.F. Allard, C.H. Peden, J. Phys. Chem.
+Lett. 1 (18) (2010) 2688–2691.
+[19] W. Qin, X. Li, J. Qi, Langmuir 25 (14) (2009) 8001–8011.
+[20] F. Li, S. Luo, Z. Sun, X. Bao, L.-S. Fan, Energy Environ. Sci. 4 (9) (2011) 3661–
+3667.
+[21] N.L. Galinsky, Y. Huang, A. Shaﬁefarhood, F. Li, ACS Sustain. Chem. Eng. 1 (3)
+(2013) 364–373.
+[22] R. Siriwardane, H. Tian, D. Miller, G. Richards, T. Simonyi, J. Poston, Combust.
+Flame 157 (11) (2010) 2198–2208.
+[23] W. Qin, Y. Wang, C. Dong, J. Zhang, Q. Chen, Y. Yang, Appl. Surf. Sci. 282 (2013)
+718–723.
+[24] A. Abad, I. Adánez-Rubio, P. Gayán, F. García-Labiano, L.F. de Diego, J. Adánez,
+Int. J. Greenhouse Gas Control 6 (2012) 189–200.
+[25] I. Adánez-Rubio, A. Abad, P. Gayán, L. de Diego, F. García-Labiano, J. Adánez, Int.
+J. Greenhouse Gas Control 12 (2013) 430–440.
+[26] C.J. Brinker, G.W. Scherer, Sol-Gel Science: The Physics and Chemistry of Sol-
+Gel Processing, Academic Press, 1990.
+[27] D. Mei, A. Abad, H. Zhao, J. Adanez, C. Zheng, Energy Fuels (2014), http://
+dx.doi.org/10.1021/ef501981g.
+[28] H. Zhao, L. Liu, B. Wang, D. Xu, L. Jiang, C. Zheng, Energy Fuels 22 (2) (2008)
+898–905.
+[29] D. Mei, H. Zhao, Z. Ma, C. Zheng, Energy Fuels 27 (5) (2013) 2723–2731.
+[30] J.P. Perdew, J. Chevary, S. Vosko, K.A. Jackson, M.R. Pederson, D. Singh, C.
+Fiolhais, Phys. Rev. B 46 (11) (1992) 6671.
+[31] J.P. Perdew, K. Burke, M. Ernzerhof, Phys. Rev. Lett. 77 (18) (1996) 3865.
+[32] M. Segall, P.J. Lindan, M. Probert, C. Pickard, P. Hasnip, S. Clark, M. Payne, J.
+Phys.: Condens. Matter 14 (11) (2002) 2717.
+[33] J. Hu, D. Li, J.G. Lu, R. Wu, J. Phys. Chem. C 114 (40) (2010) 17120–17126.
+[34] Q.-J. Liu, Z.-T. Liu, Appl. Phys. Lett. 99 (9) (2011) 091902.
+[35] H.J. Monkhorst, J.D. Pack, Phys. Rev. B 13 (12) (1976) 5188–5192.
+[36] Y. Maimaiti, M. Nolan, S.D. Elliott, Phys. Chem. Chem. Phys. 16 (7) (2014)
+3036–3046.
+[37] V.I. Anisimov, J. Zaanen, O.K. Andersen, Phys. Rev. B 44 (3) (1991) 943.
+[38] D. Wu, Q. Zhang, M. Tao, Phys. Rev. B 73 (23) (2006) 235206.
+[39] V. Massarotti, D. Capsoni, M. Bini, A. Altomare, A. Moliterni, Z. Kristallogr. 213
+(5) (1998) 259–265.
+[40] R.F. Cooley, J.S. Reed, J. Am. Ceram. Soc. 55 (8) (1972) 395–398.
+[41] X. Yin, H. Han, M. Kubo, A. Miyamoto, Theor. Chem. Acc. 109 (4) (2003) 190–
+194.
+[42] A. Iwaszuk, M. Nolan, Q. Jin, M. Fujishima, H. Tada, J. Phys. Chem. C 117 (6)
+(2013) 2709–2718.
+[43] T.A. Halgren, W.N. Lipscomb, Chem. Phys. Lett. 49 (2) (1977) 225–232.
+[44] K.-C. Chou, Q. Li, Q. Lin, L.-J. Jiang, K.-D. Xu, Int. J. Hydrogen Energy 30 (3)
+(2005) 301–309.
+[45] A. Du, S.C. Smith, G. Lu, J. Phys. Chem. C 111 (23) (2007) 8360–8365.
+[46] C.L. Muhich, B.W. Evanko, K.C. Weston, P. Lichty, X. Liang, J. Martinek, C.B.
+Musgrave, A.W. Weimer, Science 341 (6145) (2013) 540–542.
+[47] D. Chadda, J.D. Ford, M. Fahim, Int. J. Energy Res. 13 (1) (1989) 63–73.
+[48] E. Eyring, G. Konya, J. Lighty, A. Sahir, A. Saroﬁm, K. Whitty, Oil Gas Sci.
+Technol. – Rev. d’IFP Energies nouvelles 66 (2) (2011) 209–221.
+[49] M. Arjmand, A.-M. Azad, H. Leion, T. Mattisson, A. Lyngfelt, Ind. Eng. Chem. Res.
+51 (43) (2012) 13924–13934.
+[50] L.F. de Diego, F. Garcı´a-Labiano, J. Adánez, P. Gayán, A. Abad, B.M. Corbella, J.
+Marı´ a Palacios, Fuel 83 (13) (2004) 1749–1757.
+[51] M. Alipour, J.A. Nychka, R. Gupta, Energy Fuels (2013).
+[52] L. Xu, J. Wang, Z. Li, N. Cai, Energy Fuels 27 (3) (2013) 1522–1530.
+1274
+Y. Zhang et al. / Combustion and Flame 162 (2015) 1265–1274

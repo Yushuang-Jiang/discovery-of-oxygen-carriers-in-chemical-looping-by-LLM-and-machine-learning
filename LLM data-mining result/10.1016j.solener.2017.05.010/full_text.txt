@@ -1,0 +1,1634 @@
+
+
+===== Page 1 =====
+
+Thermochemical energy storage in strontium-doped calcium
+manganites for concentrating solar power applications
+Luca Imponenti a, Kevin J. Albrecht a, Jake W. Wands b, Michael D. Sanders b, Gregory S. Jackson a,⇑
+a Mechanical Engineering, Colorado School of Mines, Golden, CO 80401, USA
+b Metallurgical and Materials Engineering, Colorado School of Mines, Golden, CO 80401, USA
+a r t i c l e
+i n f o
+Article history:
+Received 28 February 2017
+Received in revised form 29 April 2017
+Accepted 3 May 2017
+Available online 12 May 2017
+Keywords:
+Thermochemical energy storage
+Perovskites
+Calcium manganite
+Concentrating solar power
+a b s t r a c t
+Thermochemical energy storage (TCES) using redox cycles of reducible perovskite oxides can potentially
+provide higher speciﬁc energy capacities and storage temperatures than molten-salt systems for large-
+scale energy storage in concentrating solar power (CSP) and other applications. Perovskites from earth
+abundant cations, such as CaMnO3, are needed for cost-effective solutions, but such materials must
+demonstrate favorable thermodynamics for high speciﬁc TCES (chemical + sensible) and favorable kinet-
+ics for heat-driven reduction and exothermic re-oxidation in the redox cycle. This paper explores the
+thermodynamics and kinetics of Ca1xSrxMnO3d ðx ¼ 0:05 and 0:1Þ particles for TCES redox cycles where
+the particles are heated and reduced in N2 (PO2  104 bar) to high temperatures TH up to 1000 C in a
+solid-particle solar receiver. Chemical and sensible energy stored in the reduced perovskite particles is
+released as needed to a power cycle via re-oxidation and cooling of the material. Variation of oxygen
+non-stoichiometry (d) of Ca1xSrxMnO3d with temperature and PO2 is measured via thermogravimetric
+analysis. Reaction enthalpy for reduction and re-oxidation is determined by ﬁtting the variation of d with
+temperature and PO2 to a two-reaction point defect model. The ﬁts compare favorably to differential scan-
+ning calorimetry with overall reaction enthalpies varying signiﬁcantly with d. For CSP applications, lim-
+ited time in the solar receiver for perovskite reduction requires fast kinetics to achieve high speciﬁc TCES.
+Once the material is characterized thermodynamically, kinetic measurements for particle reduction and
+re-oxidation are performed in a packed-bed reactor to assess rates of O2 release and uptake at various
+temperatures and PO2 with particles of diameter between250 and 425 lm. Packed-bed experiments indi-
+cate that the low values of A-site Sr-doping stabilize the CaMnO3d structure and allow large d at high
+temperatures
+and
+PO2  104 bar.
+In
+these
+time-limited
+redox
+cycling
+experiments
+between
+500 and 900 C, mass-transfer limited kinetics allows the Ca0:95Sr0:05MnO3d to reach a speciﬁc TCES of
+620 kJ kg1, which is 78% of the equilibrium limit of 791 kJ kg1. X-ray diffraction after 1000 redox cycles
+showed that the Ca1xSrxMnO3d particles have excellent phase stability for the desired redox conditions.
+ 2017 Elsevier Ltd. All rights reserved.
+1. Introduction
+As energy demands worldwide continue to increase, high pene-
+tration of renewable energy resources for power generation
+becomes an increasingly compelling approach to reduce global
+greenhouse gas emissions. However, studies show that the inter-
+mittent and non-dispatchable nature of solar and wind resources
+limits the degree of penetration of these technologies without inte-
+gration of massive storage facilities on the order of GW h (Denholm
+and Hand, 2011; Evans et al., 2012). Concentrating solar power
+(CSP) has the potential of utilizing large-scale, cost effective ther-
+mal energy storage to provide dispatchable power from renewable
+energy (Kuravi et al., 2013). Thermal energy storage using molten
+salts for CSP has been incorporated into many new CSP facilities
+with projects at various stages of completion worldwide (Dunn
+et al., 2012b; Liu et al., 2016; Prieto et al., 2016). The molten salt
+storage systems in current-day, large-scale CSP applications, based
+on nitrate salt mixtures, have limitations with maximum storage
+temperatures below 600 C and minimum storage temperatures
+due to freezing well above 100 C (Bauer et al., 2013; Fernandez
+et al., 2015). Over a typical operating temperature range, these
+nitrate-salt mixtures can provide speciﬁc energy storage of about
+500 kJ kg1, but they can only drive low-temperature (i.e., low-
+efﬁciency) conventional Rankine cycles.
+The temperature and speciﬁc energy limitations of current-day
+molten nitrate salts have driven research and development to
+explore
+alternative
+thermal
+storage
+media
+including
+http://dx.doi.org/10.1016/j.solener.2017.05.010
+0038-092X/ 2017 Elsevier Ltd. All rights reserved.
+⇑Corresponding author.
+E-mail address: gsjackso@mines.edu (G.S. Jackson).
+Solar Energy 151 (2017) 1–13
+Contents lists available at ScienceDirect
+Solar Energy
+journal homepage: www.elsevier.com/locate/solener
+
+
+===== Page 2 =====
+
+higher-temperature chloride salts (Vignarooban et al., 2015), inert
+solid particles (Khare et al., 2013; Siegel et al., 2014), and thermo-
+chemical energy storage of various types (Babiniec et al., 2015).
+Chloride salt mixtures have the promise of operating to tempera-
+tures as high as 900 C, but corrosion-resistant structural materials
+for chloride-salt containment remain a signiﬁcant challenge for
+using these salts at temperatures above 700 C (Vignarooban et al.,
+2015). Inert particulate media can offer even higher temperatures
+but are limited to  100 kJ kg1 for every 100 C in temperature rise
+(Khare et al., 2013). Thermochemical energy storage (TCES) systems,
+which can combine chemical with sensible energy storage, for large-
+scale storage in CSP have the potential to provide similarly high tem-
+peratures and higher speciﬁc storage capacity at the expense of sys-
+tem complexity. Researchers have been developing TCES systems
+based on carbonate decomposition (Edwards and Materic, 2012),
+reversible hydrides (Ward et al., 2015), ammonia decomposition
+(Dunn et al., 2012a) and sulfur dioxide disproportionation (Wong
+et al., 2015). Most of these TCES systems require storage of gaseous
+products and/or reactants in one form or another and as such, pre-
+sent system design challenges that increase costs and reduce effec-
+tive speciﬁc storage capacities (Cot-Gores et al., 2012). An
+alternative TCES approach that motivates the current study uses
+reducible oxide materials where the gaseous product/reactant O2
+can be recovered from air without necessary storage. Various oxide
+particles including simple oxides with multivalent bonds (General
+Atomics, 2011; Carrillo et al., 2014; Agraﬁotis et al., 2015;
+Agraﬁotis et al., 2016b) and mixed oxides such as perovskites
+(Babiniec et al., 2015; Albrecht et al., 2016) have been explored to
+provide chemical as well as sensible energy storage with total speci-
+ﬁc storage densities that exceed molten salts and with peak storage
+temperatures over 900 C. By enabling higher storage densities and
+temperatures, the reducible oxide TCES systems as shown in Fig. 1
+can enable the integration of storage with more efﬁcient power
+cycles, such as air-Brayton cycles or supercritical CO2 cycles, for
+CSP applications (Stekli et al., 2013).
+Previous studies on TCES using redox cycles of simple oxides
+with multivalent cations such as Co3O4/CoO or Mn2O3/Mn3O4 have
+shown thus far, that these oxides may have limited applicability for
+large-scale CSP storage applications because of either high costs or
+poor reversibility due to inadequate re-oxidation kinetics (General
+Atomics, 2011; Carrillo et al., 2014). To improve the reversibility of
+these oxides, researchers have explored doped or mixed oxides
+(General Atomics, 2011; Carrillo et al., 2015; Agraﬁotis et al.,
+2016b; Block and Schmücker, 2016; Karagiannakis et al., 2016;
+Varsano et al., 2016). While Co3O4/CoO has shown much better
+promise for full system implementation (Schrader et al., 2015;
+Karagiannakis et al., 2016) than the MnOx and other single-
+cation redox couples, Co3O4/CoO has not yet demonstrated the
+long-term cyclability necessary for large-scale CSP applications.
+While cyclability of the cobalt oxide redox can be improved by
+lowering the extent of Co3O4 reduction and thus speciﬁc TCES
+(Karagiannakis et al., 2016; Agraﬁotis et al., 2016b), the high cost
+of cobalt oxide also raises questions about its applicability at the
+utility scale. Recent studies have begun to explore perovskite oxide
+structures of the form ABO3d where A and B are primarily earth-
+abundant cations for cost-effective storage (Babiniec et al., 2015;
+Albrecht et al., 2016; Babiniec et al., 2016). Perovskite composi-
+tions with multivalent cations like Mn, Co, or Fe on the B-site,
+can permit large swings in O non-stoichiometry d as high as 0.3
+without irreversible phase transitions. Such compositions have
+been widely explored for applications such as chemical looping
+combustion (Arjmand et al., 2013; Hallberg et al., 2013; Ksepko,
+2014; Pishahang et al., 2014) where low-cost and good redox
+cyclability are also important. The chemical looping studies have
+largely targeted doped calcium manganites CaMnO3d or doped
+strontium manganites SrMnO3d where the dopant displaces a
+small fraction of the Mn on the B-site to reduce the tendency for
+irreversible phase transitions observed in reduction of undoped
+CaMnO3d (Bakken et al., 2005b; Leonidova et al., 2011). Variations
+on
+these
+compositions
+with
+A-site
+La-doping
+have
+shown
+improved stability for high-temperature, solar-driven water split-
+ting (McDaniel et al., 2013) and thermochemical energy storage
+in air-Brayton power plants (Babiniec et al., 2015; Babiniec et al.,
+2016) with solar receiver operating temperatures above 1100 C
+for oxide reduction. These compositions are tailored for high
+enthalpies of reduction and good high-temperature stability and
+thus sustain substantial reduction and chemical energy storage at
+very high temperatures above 1100 C.
+The current paper builds on earlier studies to explore the use of
+doped CaMnO3d for high-temperature TCES with oxide reduction
+below 1100 C (Albrecht et al., 2016). This temperature range is
+motivated by the desire to integrate TCES with high-efﬁciency
+supercritical CO2 cycles which have cycle ﬁring temperatures
+approaching 750 C (Iverson et al., 2013; Turchi et al., 2013). Exer-
+getically efﬁcient integration of supercritical CO2 cycles with high-
+temperature TCES as highlighted in Fig. 1 suggests the need for
+storage at hot cycle temperatures, TH, between 800 C and
+1000 C. As such, this study identiﬁed alternative compositions
+that had lower enthalpies of reduction and higher reducibility than
+other perovskites recently studied (Babiniec et al., 2016) to provide
+high speciﬁc TCES at the relevant storage temperatures. After
+extensive exploration of B-site doped CaMnO3d compositions
+(Kharait, 2015), experimental thermodynamic characterization
+with
+thermogravimetric
+analysis
+and
+differential
+scanning
+calorimetry revealed that A-site doped Ca1xSrxMnO3d
+with
+x 6 0:1 has promising thermodynamics for high speciﬁc TCES at
+the desired conditions for integration with supercritical CO2 cycles.
+Effective TCES redox cycles require not only appropriate thermody-
+namics, but fast reduction and oxidation kinetics and good
+reversibility for stable redox cycles. Experimental characterization
+of Ca1xSrxMnO3d with x = 0.05 and 0.1 assesses the thermody-
+namic limits of speciﬁc TCES and relevant kinetics and cyclability
+for these materials in particulate form to serve as a TCES storage
+media for supercritical CO2 cycles. The paper presents thermo-
+gravimetric data for ﬁtting a point-defect reaction model as a basis
+for quantitative assessment of these compositions for speciﬁc TCES
+with redox cycles over a range of operating temperatures T for
+Fig. 1. Schematic of a TCES sub-system using reducible perovskites and integrated
+with a concentrating solar receiver to drive perovskite heating and reduction. The
+hot, reduced particles are stored for subsequent re-oxidation in an air-fed ﬂuidized
+bed reactor for heat release to a power cycles such as supercritical CO2 shown here.
+2
+L. Imponenti et al. / Solar Energy 151 (2017) 1–13
+
+
+===== Page 3 =====
+
+reduction O2 partial pressures PO2 down to 104. The results show
+that these perovskites from earth-abundant cations have potential
+to provide higher speciﬁc energy storage than molten salts and the
+most effective inert media over similar temperature ranges.
+2. Experimental procedure
+2.1. Synthesis and characterization
+All perovskite materials were synthesized using a solid-state
+reaction (SSR) approach reported in the literature (Tong et al.,
+2010; Nikodemski et al., 2013). Stoichiometric amounts of precur-
+sor powders: manganese dioxide (MnO2 purity P 99.9%), calcium
+carbonate (CaCO3 P 99.5%), and strontium carbonate (SrCO3 -
+P 99.9%) were mixed in isopropyl alcohol and ball-milled for
+48 h. The solution was subsequently dried, and the resulting slurry
+calcined twice at 1200 C for 10 h without the use of any sintering
+agents. The sintered material, Ca1xSrxMnO3d with x = 0.0, 0.05, or
+0.1, was ground to particles after each calcination cycle.
+To assess the extent of non-perovskite phases in undoped and
+Sr-doped CaMnO3d samples, X-ray diffraction (XRD) scans were
+performed on a PANalytical X’pert PRO MRD using Cu  Ka radia-
+tion. Fig. 2 shows a comparison of the room-temperature diffrac-
+tograms for the solid-state reactive sintered Sr-doped CaMnO3d
+and for a reference of undoped CaMnO3d (Jorge et al., 2001). The
+comparison shows good major peak agreement for the orthorhom-
+bic phase for CaMnO3d (Goldyreva et al., 2012) with only minor
+shifts due to lattice strain in the A-site-doped Ca0:95Sr0:05MnO3d
+and
+Ca0:9Sr0:1MnO3d.
+Indication
+of
+a
+minor
+presence
+of
+a
+Ruddelsden-Popper phase, Ca3Mn2O7 can be seen in the reactively
+sintered Sr-doped samples in Fig. 2 (Guiblin et al., 2002). Samples
+produced in the lab were determined to be above 90% phase pure.
+Calcination at lower temperatures (notably 1100 C) for the Sr-
+doped CaMnO3d showed increased presence of other phases,
+which led to the higher calcination temperature of 1200 C.
+2.2. Thermodynamic measurements
+Thermogravimetric analysis (TGA) and differential scanning
+calorimetry (DSC) measurements were carried out on a Setaram
+Labsys TGA/DSC instrument using approximately 40 mg of pow-
+dered sample. O2 partial pressure, PO2, in the TGA/DSC chamber
+was controlled by ﬂowing a combination of UHP N2 (with O2 mole
+fraction XO2  104), dry air (XO2 ¼ 0:209), and 5% O2 in N2. A Bosch
+LSU4.2 sensor with a Innovate Motorsports LC-2 controller mea-
+sured the sweep gas ﬂow PO2 after leaving the TGA, and with the
+UHP N2 maintained an average PO2 = 104 bar. The sweep gas ﬂow
+rate was maintained at 100 standard mL min1 for all TGA/DSC
+experiments.
+TGA experiments provided a measure of the oxygen non-
+stoichiometry, d, of the perovskites as a function of T and PO2. To
+obtain standard enthalpies and entropies of oxidation, DHox and
+DS
+
+ox
+respectively,
+equilibrium
+values
+of
+oxygen
+non-
+stoichiometry deq were found by allowing the perovskites to
+approach equilibrium over ranges of T from 500 to 1000 C and
+of PO2 from 104 to 0.17 bar. The deq were measured in multi-
+hour steps with sequentially lower PO2 for reduction and sequen-
+tially increasing PO2 for re-oxidation. The deq as a function of T
+and PO2 were ﬁt to a two-reaction point defect model, which pro-
+vided a basis for assessing the variation of DHO and DS
+
+O with d
+(Albrecht et al., 2016); the ﬁtting approach is reviewed below in
+the results discussion. To obtain deq, perovskite samples are heated
+in the TGA furnace in air to 500 C and the mass signal is allowed to
+equilibrate. At this condition, the CaMnO3d compositions are
+essentially fully oxidized, and this measurement becomes the
+baseline for subsequent d calculations. The perovskite samples
+are heated from this baseline condition to a ﬁxed T and PO2 is var-
+ied in steps from air down to 104 bar. Re-oxidation is also per-
+formed in steps to approach deq from both directions and gain
+conﬁdence in the mass measurements.
+To support the thermodynamic property ﬁts of the TGA deq mea-
+surements, DSC measurements with small steps in re-oxidation of
+the doped CaMnO3d allowed for approximate measurements of
+DHO as a function of T. The relatively small steps in PO2 allow the
+DSC to assess DHO as a function of d, as suggested in Fig. 3, where
+both heat ﬂow and mass change data for two different oxidation
+steps at different d are illustrated. Increasing PO2 in incremental
+steps provided a means to assess the variation of the overall heat
+of reaction with respect to d. The faster kinetics for re-oxidation
+in comparison to reduction provide much sharper peaks for reli-
+able integration of the DSC peaks, and thus the re-oxidation steps
+were used for the DSC measurements.
+2.3. Kinetic measurements
+Kinetic measurements of the reduction and re-oxidation of the
+Sr-doped CaMnO3d were performed in an annular packed bed
+reactor. Approximately 1 g of perovskite particles with particle
+diameters between 250 and 425 lm were packed into an annular
+bed 20 mm long. The packed bed was pressed up against a quartz
+frit in a 10.2 mm inner diameter quartz tube. Along the central axis
+of the quartz tube was an alumina tube (6.2 mm outer diameter)
+with grooves cut into its surface. The grooves held three K-type
+thermocouples, which provided temperatures at the bed inlet,
+midpoint, and outlet. The quartz tube with the packed bed was
+heated inside a near-IR radiant furnace (Ulvac Riko VHT-44), which
+focused radiant energy along a 10-cm long heated zone to permit
+rapid heating of the bed. An upstream region of packed quartz
+wool and the downstream quartz frit provided conﬁnement for
+the reactive particles and thermal equilibration of the gases before
+they reached the reactive bed.
+Fig. 4 shows a diagram of the packed-bed experimental set-up.
+Multiple Brooks 5850E mass ﬂow controllers maintain gas ﬂow
+through the packed bed as mixtures of UHP N2 and dry air that pro-
+vide ranges of PO2. The total ﬂow is kept constant at 500 stan-
+dard mL min1, and switching between oxidizing and reducing
+Fig. 2. XRD scans of Ca1xSrxMnO3d plotted with a reference calcium manganite
+diffraction pattern; Miller indices have been identiﬁed for major peaks of the
+primary phase. Comparison of doped samples to CaMnO3d shows the structure
+remains relatively unchanged, with location and relative intensity of all major
+peaks showing good agreement, and only minor presence of a secondary Ruddles-
+den-Popper phase is seen in the Sr-doped samples.
+L. Imponenti et al. / Solar Energy 151 (2017) 1–13
+3
+
+
+===== Page 4 =====
+
+ﬂows at different PO2 is accomplished with three-way pneumatic
+valves with both ﬂows being kept constant to avoid disruptions
+in total ﬂow when switching gases. PO2 at the reactor exhaust is
+measured using an electrochemical O2 sensor from CoorsTek made
+with a proprietary YSZ-based oxide-ion conducting ceramic coated
+with platinum electrodes. Reactor exhaust pressure is measured
+using an Omegadyne pressure transducer upstream of the electro-
+chemical O2 sensor.
+To eliminate the impact of the electrochemical O2 sensor
+response time on the kinetic measurements, an essentially inert
+bed of Carbo-Accucast ID50 particles were tested with the same
+switching between oxidizing and reducing ﬂows to provide a back-
+ground exhaust PO2 signal to subtract from the reactive perovskite
+bed PO2 data. The corrected signal from the reactive perovskite par-
+ticle beds determined the O2 uptake and release based on an O
+molar balance. Experimental data are collected with Dataforth sig-
+nal conditioners providing ampliﬁed signals to a 16-bit National
+Instruments 6201 PCI-E data acquisition board that communicates
+with a LabView program. The same LabView program provides
+control signals for the electronic mass ﬂow controllers and the
+gas switching valves.
+The relatively large particle diameters (between 250 and
+425 lm) were chosen to simulate particle sizes needed for ade-
+quate transport in a large-scale redox cycle with a central solar
+receiver for particle heating. This range of relatively large diame-
+ters can cause bulk oxide-ion diffusion to impact kinetic rates.
+The impacts of bulk diffusion are not discussed here in detail, but
+kinetic modeling of the packed bed experiments with and without
+bulk oxide-ion diffusion indicated that bulk diffusion is primarily
+important only for reduction at the lower temperatures in this
+study (Albrecht, 2016). These modeling studies, not reported in
+this paper, further indicated that the packed bed measurements
+can be ﬁtted well to axially discretized reacting ﬂow models, and
+thereby provide a valuable tool for assessing kinetic parameters.
+However, the results from the packed bed experiment due not rep-
+resent general kinetic limits on the achievable degree of reduction
+or speciﬁc TCES in a full-scale system, but rather provide a mea-
+sured limit tied to the speciﬁc geometry and ﬂow conﬁgurations
+of this reactor.
+2.4. Redox cycling performance
+Cyclic durability testing of the Sr-doped CaMnO3d was per-
+formed on the same experimental setup as the isothermal kinetic
+experiments. The cyclic redox testing for phase durability involved
+reduction
+of
+the
+perovskite
+packed
+bed
+in
+the
+UHP
+N2
+(PO2  104 bar) with an initial 30 s hold at 500 C before heating
+from 500 to 900 C at 100 C/min and a subsequent hold at
+900 C for 150 s. Re-oxidation of the perovskite bed then followed
+with an instantaneous switch to dry air at 900 C for 30 s and a
+subsequent cooling down to 500 C at 100 C/min and a hold in
+air at 500 C for 150 s. The redox cycling tests for each composition
+involved 1000 redox cycles in 100 cycle increments to allow for
+intermittent visual assessment of bed degradation or discoloration
+during testing. Fig. 5 shows examples of the cyclic evolution of
+oxygen non-stoichiometry with temperature cycling during the
+redox experiments of Ca0:9Sr0:1MnO3d for a representative 10
+Fig. 3. Speciﬁc heat ﬂow and mass change data for two separate isothermal DSC
+experiments for PO2 steps from (a) 0.002 to 0.01 bar, and (b) 0.01 to 0.17 bar. The
+material is oxidized in incremental steps to measure the partial molar enthalpy of
+the total oxidation reaction as a function of d.
+Fig. 4. Diagram of the packed bed experimental set up for testing the oxidation and reduction kinetics of the Sr-doped CaMnO3d.
+4
+L. Imponenti et al. / Solar Energy 151 (2017) 1–13
+
+
+===== Page 5 =====
+
+cycles. The cyclic plot in Fig. 5 shows a signiﬁcant transient gradi-
+ent for d for this composition even after a 150 s hold at 900 C. This
+implies that Ca0:9Sr0:1MnO3d does not reach its equilibrium d even
+after this length of exposure to PO2  104 bar. On the other hand,
+re-oxidation at 500 C does reach an equilibrium state where d is
+essentially zero.
+To test for phase and morphological stability of the perovskite
+particles after 1000 redox cycles, XRD scans and particle surface
+area measurements (with a Microtrac S3500 laser diffraction parti-
+cle analyzer) were performed. The resulting diffractograms and
+particle-size distribution measurements were compared with
+those taken on the same particles before redox cycling. These anal-
+yses were performed after static redox cycling tests and as such do
+not capture the impact of possible particle attrition associated with
+active particle transport at high temperatures as reported in previ-
+ous studies of similar compositions for chemical looping (Arjmand
+et al., 2013). The effects of particle attrition which are impacted by
+both composition and particle structure, are saved for a subse-
+quent study.
+3. Results & discussion
+3.1. Thermodynamic measurements and modeling
+Initial TGA screening tests provided an evaluation of the
+undoped and Sr-doped CaMnO3d redox potential under cycling
+conditions targeted for a large-scale TCES system in a CSP plant
+with an advanced supercritical-CO2 power cycle. For such a TCES
+system, the representative operating cycle conditions involve par-
+ticle reduction for energy storage at temperatures TH, from 800 C
+up to 1000 C. The lower TH is near the minimum needed for heat
+input to supercritical-CO2 power cycles with ﬁring temperatures of
+P700 C (Turchi et al., 2013). The upper limit represents a TH
+above which exergy losses for the heat release to the power cycle
+become signiﬁcant due to unreasonably high heat recovery
+approach temperatures (Padilla et al., 2015). To improve the extent
+of reduction at TH in an industrial-scale TCES system for a CSP
+plant, a reduced PO2 using a pressure-swing absorption (PSA) sys-
+tem can increase d and thus speciﬁc TCES for the perovskite
+(Albrecht et al., 2016). For large scale PSA, PO2 ¼ 104 bar provides
+an approximate limit for commercially viable PO2 for reduction
+(Shirley and Lemcoff, 1997), and this value was set as the baseline
+PO2 for high-temperature reduction in this study.
+For perovskite composition screening tests, material samples
+were cycled from a fully-oxidized state at 500–900 C in a
+PO2;red ¼ 104 and then re-oxidized in air while cooling, as shown
+in Fig. 6. The evolution of d in Fig. 6 shows large degrees of rever-
+sible reduction (d  0:2) for the two Ca1xSrxMnO3d compositions
+for these cycle conditions. These tests thus provide a good indica-
+tor of the effectiveness of speciﬁc perovskites as a TCES media.
+Sample TGA screening plots in Fig. 6 show that the A-site Sr-
+doped CaMnO3d demonstrate signiﬁcantly higher extent of reduc-
+tion than the undoped CaMnO3d over the 3.5 h of exposure to N2.
+These results were repeatable over several samples and show that
+the Sr-doped CaMnO3d demonstrates reversibility of the redox
+cycle in the TGA (shown for only 2 cycles in Fig. 6) unlike the
+undoped CaMnO3d, which fails to re-oxidize fully upon exposure
+to air and subsequent cooling for the temperature and times allot-
+ted in the screening cycle. Hysteresis with delayed re-oxidation in
+redox cycling at 1000 C of undoped CaMnO3d has been attributed
+to partial decomposition of the high-temperature cubic perovskite
+structure
+into
+a
+CaMn2O4d
+spinel
+phase
+and
+a
+secondary
+Ruddledsen-Popper Ca2MnO4d
+phase (Bakken et
+al., 2005b;
+Leonidova et al., 2011). This decomposition slows the reduction
+process
+and
+even
+more
+so,
+re-oxidation
+for
+the
+undoped
+CaMnO3d. The phase decomposition results in both less overall
+reduction
+and
+incomplete
+re-oxidation
+under
+the
+screening
+conditions.
+The small amount of Sr-doping on the A-site appears to sup-
+press the CaMnO3d phase decomposition under the TGA screening
+conditions allowing for more rapid reduction and complete re-
+oxidation. The results are consistent with observations for larger
+amounts of Sr doping (x = 0.25) from a recent study (Galinsky
+et al., 2015). Another recent study showed that 10 per cent Pr-
+doping on the A-site of CaMnO3d expands the stability of the cubic
+perovskite phase to allow higher d without phase decomposition
+(Leonidov et al., 2016). The improved redox cycling of the two
+Ca1xSrxMnO3d compositions has profound signiﬁcance on their
+applicability as a potential material for TCES, but as seen in
+Fig. 6, the screening does not necessarily reach equilibrium states
+that are critical for building thermochemical models of the
+material.
+To properly characterize the Sr-doped compositions for thermo-
+chemical energy storage, equilibrium oxygen non-stoichiometry
+deq was determined as a function of T and PO2 in a similar approach
+as presented for undoped CaMnO3d (Leonidova et al., 2011). Vary-
+ing the PO2 in slow small steps for both reduction and re-oxidation
+at isothermal conditions in the TGA enabled the perovskites to
+reach deq for a broad range of conditions. These tests were veriﬁed
+by comparing measurements for a Ca0:6Sr0:4MnO3d sample with
+recently published data obtained using coulometric titration
+Fig. 5. Absolute d and temperature proﬁle shown for a sample 10 redox cycles
+between 500 C in air and 900 C in PO2  104 bar for durability testing of
+Ca0:95Sr0:05MnO3d.
+Fig. 6. Screening thermogravimetric test for Ca1xSrxMnO3d with (a) x ¼ 0, (b)
+x ¼ 0:05 and (c) x ¼ 0:1. The cycle conditions are chosen to represent a redox cycle
+for TCES with reduction at PO2 ¼ 104 bar while heating from 500 to 900 C and re-
+oxidation in air during cooling back to 500 C. Undoped CaMnO3d does not show
+reversibility under these redox conditions.
+L. Imponenti et al. / Solar Energy 151 (2017) 1–13
+5
+
+
+===== Page 6 =====
+
+(Goldyreva et al., 2015). Measuring deq vs. PO2 over a range of T, as
+shown in Fig. 7, provided valuable equilibrium data to build a ther-
+mochemical model to assess speciﬁc TCES for both doped per-
+ovskites, Ca0:9Sr0:1MnO3d and Ca0:95Sr0:05MnO3d.
+To ﬁt the measured non-stoichiometry of the two Sr-doped
+CaMnO3d compositions, reduction and oxidation are modeled
+using a two-reaction point defect reaction mechanism in line with
+previous references (Goldyreva et al., 2012; Albrecht et al., 2016).
+The two reactions written below using Kröger-Vink notation,
+include the oxidation and Mn disproportionation reactions.
+1
+2 O2ðgÞ þ V
+O þ 2Mn0
+Mn  O
+O þ 2Mn
+Mn
+ð1Þ
+2Mn
+Mn  Mn0
+Mn þ Mn
+Mn
+ð2Þ
+Thermodynamic parameters for the above reactions, notably
+enthalpy and standard entropy, i.e., DH
+
+ox; DS
+
+ox; DH
+
+dis, and DS
+
+dis,
+are ﬁt to match deq, yielding oxygen non-stoichiometry isotherms
+as a function of PO2. Calculated deq are ﬁt to the experimental
+TGA measurements in the same manner described in a previous
+reference (Albrecht et al., 2016). The equations for thermodynamic
+equilibrium,
+O-site
+balance,
+Mn-site
+balance,
+and
+electro-
+neutrality, as shown in Eqs. (3)–(7), provide a basis for calculating
+the equilibrium point defect site concentrations at each T and PO2.
+Site concentrations for oxide ions ½O
+OL, oxide vacancies ½V
+OL (= d),
+and for all three of the Mn oxidation states are signiﬁed by the
+same notation presented in previous references (Kee et al., 2013;
+Albrecht et al., 2016).
+Kp;oxðTÞ ¼ exp
+DHox þ TDSox
+RT
+
+
+¼
+½O
+OL½Mn
+Mn
+2
+L
+½V
+OL½Mn0
+Mn
+2
+LP1=2
+O2
+ð3Þ
+Kp;disðTÞ ¼ exp
+DH
+dis þ TDS
+dis
+RT
+
+
+¼ ½Mn0
+Mn
+2
+L½Mn
+MnL
+½Mn
+Mn
+2
+L
+ð4Þ
+3 ¼ ½V
+OL þ ½O
+OL
+ð5Þ
+1 ¼ ½Mn
+MnL þ ½Mn
+MnL þ ½Mn0
+MnL
+ð6Þ
+2½V
+OL þ ½Mn
+MnL ¼ ½Mn0
+MnL
+ð7Þ
+The four reaction thermodynamic parameters in Eqs. (3) and (4)
+are simultaneously solved with all of the site concentrations at each
+T and PO2 by least-squares ﬁts to minimize the difference between
+calculatedandmeasuredvaluesfordeq. Theresultingconstantvalues
+for DH
+ox; DS
+ox; DH
+dis, and DS
+dis presume that any variation in the
+total enthalpy of oxidation DHO with respect to d can be captured
+by the variation in the extent of Mn disproportionation with changes
+in d. While the energetics of the individual point-defect reactions
+may depend on d, previous analysis of similar perovskites showed
+thatassuming constantreactionenergeticsforthe point-defect reac-
+tions works well to capture the variation of DHO with respect to
+deq; T, and PO2 (Goldyreva et al., 2012; Leonidov et al., 2016).
+The measured deq
+and the ﬁt-calculated values for both
+Ca1xSrxMnO3d compositions are presented in Fig. 7 for various
+isotherms as a function of PO2. Fig. 7 also shows how the thermo-
+dynamic ﬁts predict increased reduction at all PO2 at 1100 C, but
+experiments were not performed there due to concerns about
+reversibility of reduction at the lower PO2 at that high T. Table 1
+provides the ﬁt values for standard enthalpy and entropy for (1)
+and (2). The uncertainty values provided for these thermodynamic
+parameters are calculated via uncertainty propagation through the
+point defect Eqs. (3)–(7), this analysis was most sensitive to ambi-
+ent conditions namely temperature and PO2. Fig. 7 shows excellent
+agreement for the ﬁts with experimental data, capturing the
+increase in deq as T increases, even in air. This suggests that a TCES
+system based on these materials can store some amount of chem-
+ical energy without any need to provide for a reduced PO2. While
+this could simplify system design and operation without the para-
+sitics associated with a PSA for extracting O2 from the air, results
+show that a reduced PO2 provides signiﬁcantly more reduction
+and as such, more chemical energy storage at a given T.
+During the TGA experiments to measure deq, the reduction steps
+down in PO2 and the subsequent re-oxidation steps back up in PO2
+were taken over multiple hours at constant T. In almost all cases
+for both Sr-doped CaMnO3d, minimal hysteresis was observed as
+depicted for the Ca0:9Sr0:1MnO3d at 1000 C in Fig. 8. On the other
+hand,
+hysteresis
+was
+observed
+during
+re-oxidation
+of
+Ca0:95Sr0:05MnO3d only at this high T as shown in Fig. 8. Even with
+the hysteresis, Ca0:95Sr0:05MnO3d still returns to its oxidized state
+at 1000 C after isothermal re-oxidation in air for 10 h. This
+hysteresis
+has
+been
+observed
+in
+re-oxidation
+of
+undoped
+Fig. 7. Oxygen non-stoichiometry as a function of PO2 at various temperatures for
+Ca1xSrxMnO3d with (a) x ¼ 0:05 and (b) x ¼ 0:1. Experimental data is ﬁt to the
+point-defect thermodynamic model. Signiﬁcant reduction occurs as the lower PO2 at
+or above 800 C.
+Table 1
+Thermodynamic parameters of Mn disproportionation and O incorporation reaction derived from ﬁts to measured deq.
+DHo
+dis
+DSo
+dis
+DHo
+ox
+DSo
+ox
+Material
+[kJ-mol1]
+[J-mol1-K1]
+[kJ-mol1]
+[J-mol1-K1]
+Ca0:9Sr0:1MnO3d
+71.3 ± 1.2
+104.3 ± 0.8
+168.4 ± 1.7
+79.7 ± 1.3
+Ca0:95Sr0:05MnO3d
+76.2 ± 1.1
+102.9 ± 0.8
+183.2 ± 1.8
+94.3 ± 1.4
+6
+L. Imponenti et al. / Solar Energy 151 (2017) 1–13
+
+
+===== Page 7 =====
+
+CaMnO3d (Bakken et al., 2005a; Zhou and Kennedy, 2006; Tichy and
+Goodenough, 2002), and is attributedto partial decompositionof the
+perovskite cubic phase. However, long exposure in air at 1000 C
+appears to recover the cubic perovskite phase such that it can follow
+a similar reduction curve in subsequent cycles. While repeatable
+redox cycles for the lower Sr doping are possible, the slow re-
+oxidation suggests that the lower Sr-doping does not provide ade-
+quate phase stability for fast re-oxidation kinetics at high-
+temperatures. As such, this would limit its effectiveness for a
+large-scale TCES system in a TCES plant. These results suggest a
+trade-off between increased Sr-doping and increased cost per kJ
+stored due to the relative expense of Sr over Ca. Furthermore, these
+results suggest the importance of kinetic studies to assess the feasi-
+bilityofdifferentperovskitecompositionsforlarge-scaleTCESinCSP
+and other applications.
+With the ﬁtted values for DH
+ox and DH
+dis and the known varia-
+tion in oxide and Mn defect concentrations as a function of PO2 ant
+T, the partial molar enthalpy, DHO, of the global reduction reaction
+can be derived. The constant values of enthalpy and standard
+entropy for each reaction in Table 1 can be combined to yield an
+expression for DHO. Since Mn disproportionation increases as a
+function of d and T, the value for DHO varies with both d and T
+(Albrecht et al., 2016).
+DHO ¼ DH
+ox  @ Mn:
+Mn
+
+
+L
+@ V::
+O
+
+
+L
+DH
+dis
+ð8Þ
+As formulated in Eq. (8), the variation in DHO is entirely due to
+the partial derivative term, which represents the rate of dispropor-
+tionation of Mn4+ with respect to oxygen vacancies in the bulk lat-
+tice created during reduction. The resulting variation of DHO as a
+function of d is plotted in the curves for different T in Fig. 9 for both
+Ca0:95Sr0:05MnO3d and Ca0:9Sr0:1MnO3d. Both compositions show
+that DHO decreases in magnitude by about 70–80 kJ mol1 as d
+increases from 0 to 0.2, but Fig. 9 shows that Ca0:95Sr0:05MnO3d
+has larger values of DHO by  20 kJ mol1 across this range of d.
+To calibrate the calculated DHO curves from the point-defect
+model, DSC experiments were performed as described above with
+incremental re-oxidation steps. In order to experimentally deter-
+mine DHO as a function of both temperature and d, one must mea-
+sure simultaneously heat ﬂow and mass change of the sample. The
+mass signal meant it was not possible to measure the heat of reac-
+tion using a Calvet calorimeter or drop solution calorimetry, the
+preferred methods for metal oxides. In differential scanning
+calorimetry, these measurements are challenged by the heat trans-
+fer characteristics of metal oxides, which are not duplicated in
+standard DSC calibration involving melting metals (Block and
+Schmücker, 2016; Navrotsky, 1997). For this reason, alternative
+calibration based on the decarbonation of BaCO3 and CaCO3
+(Flamant et al., 1980) was used to provide a more accurate calibra-
+tion for the reduction and re-oxidation over a narrow temperature
+range between 800 and 900 C. Fig. 9 plots the experimental data
+at various steps of d to compare with the calculated curves of
+DHO. The horizontal ‘‘error” bars in Fig. 9 represent the range of
+change in d to obtain the DSC at that average d, while the vertical
+lines measure the inherent uncertainty in the peak integration
+and calibration for the actual measurement. Although DSC mea-
+surements have signiﬁcant uncertainty and do not provide rigor-
+ous model validation, the DHO values and variation with d
+compare very favorably with the model ﬁts derived from the TGA
+measurements, providing conﬁdence in the quantitative thermo-
+dynamics of the point-defect model for assessing TCES capacity
+of these materials for CSP applications.
+With the material thermodynamics from ﬁtting the point-
+defect model to the equilibrium TGA data, the thermodynamic lim-
+its of speciﬁc TCES (chemical + sensible) between two redox cycle
+endpoints can be calculated from the functional relationship of
+DHO with T and d. For the application considered here of coupling
+a perovskite-based TCES system to a supercritical CO2 cycle, the
+fully oxidized, low-temperature state was ﬁxed at 500 C in air.
+The calculated speciﬁc storage capacity (chemical + sensible) of
+the Sr-doped CaMnO3d are listed in Table 2 for a range of high
+temperatures TH up to 1000 C at a ﬁxed reducing PO2 ¼ 104 bar.
+Table 2 also calls out the amount of the speciﬁc energy stored in
+the chemical reduction at the thermodynamic limit, which is larger
+than the sensible energy stored for both compositions.
+Fig.
+8. Oxygen
+non-stoichiometry
+as
+a
+function
+of
+PO2
+at
+1000 C
+for
+Ca0:9Sr0:1MnO3d and Ca0:95Sr0:05MnO3d. The latter shows signiﬁcant hysteresis
+during re-oxidation.
+Fig. 9. Enthalpy of oxidation DHO as a function of oxygen non-stoichiometry for
+Ca1xSrxMnO3d with (a) x ¼ 0:05 and (b) x ¼ 0:1. The curves represent the
+functions derived from the ﬁtted thermochemical models. The points show DHO
+values derived from DSC measurements with the horizontal bars representing the
+range of d for a given measurement and the vertical bar representing the
+uncertainty in DHO from the peak integration.
+L. Imponenti et al. / Solar Energy 151 (2017) 1–13
+7
+
+
+===== Page 8 =====
+
+The speciﬁc TCES values of the Sr-doped CaMnO3d are com-
+pared in Table 2 to values for Co3O4, one of the most studied simple
+metal oxides with high speciﬁc TCES (General Atomics, 2011;
+Agraﬁotis et al., 2016b; Block and Schmücker, 2016). Co3O4 reduces
+to 3CoO in air at 885 C but at TH below 750 C in PO2 ¼ 104 bar
+(Block and Schmücker, 2016). Co3O4, like all single-cation, reduci-
+ble oxides, undergoes chemical reduction at a single temperature
+for a given PO2 unlike perovskites which undergo reduction over
+a temperature range. Thus, for consistency, Co3O4 reduction in
+Table 2 was assumed to occur before all TH at PO2 ¼ 104, and thus,
+its Dhchem appears for all TH given. Co3O4, with its very high
+Dhchem ¼ 844 kJ kg1, outperforms the perovskite materials, but
+its very high cost and limited redox stability when fully reduced
+(General Atomics, 2011) raise questions about its viability for
+utility-scale CSP storage. Recent progress on improving cyclability
+of the Co3O4/3CoO redox (Agraﬁotis et al., 2016b; Agraﬁotis et al.,
+2016a) suggests that this system might have applicability for smal-
+ler systems where higher storage costs may be tolerated. Long-
+term cyclability as demonstrated below for the perovskites has
+yet to be substantiated for Co3O4 TCES. Alternative reducible sim-
+ple metal oxides, notably MnO2 an BaO2 are not shown in Table 2
+because of the inability to show viable cyclability (Carrillo et al.,
+2014; General Atomics, 2011).
+To show the value of perovskite-based speciﬁc TCES in compar-
+ison to more common inert storage media, Table 2 also shows the
+speciﬁc sensible storage of inert Al2O3 particles (Khare et al., 2013)
+and of LiNaK carbonate salts up to their approximate stability limit
+in CO2 environments (850 C) (Vignarooban et al., 2015). Table 2
+clearly shows that additional chemical energy storage gives doped
+CaMnO3d as well as Co3O4 the potential to store substantially
+more energy per kg at higher TH compared to the molten salts;
+while cobalt oxide offers signiﬁcantly more energy density that
+these perovskite. Notably, Ca0:95Sr0:05MnO3d provides speciﬁc TCES
+1000 kJ kg1 for TH ¼ 1000 C, and 800 kJ kg1 for TH ¼ 900 C
+where re-oxidation kinetics are not compromised by possible par-
+tial phase decomposition. These values are  12% higher than
+Ca0:9Sr0:1MnO3d at the same TH, which shows more reversible re-
+oxidation at the highest temperatures. With the high thermody-
+namic limits for speciﬁc TCES, the question remained as to how
+close these limits could be approached in a real TCES system par-
+ticularly for CSP where the heat addition would likely be provided
+in a particle receiver with limited residence time. This question
+motivated
+extensive
+studies
+on
+the
+kinetics
+of
+Sr-doped
+CaMnO3d reduction as well as re-oxidation to offer a more thor-
+ough assessment of TCES capacity of these materials.
+3.2. Kinetic measurements
+For large-scale commercial applications, the time to reduce,
+heat, and therefore store energy in materials may be limited by
+various factors. In a CSP plant, A central solar receiver for reactive
+materials may likely involve a falling particle stream (Oles and
+Jackson, 2015) or a limited on-sun time for a ﬁxed bed reactor
+(Agraﬁotis et al., 2016a). Thus, it is critical for the receiver to effec-
+tively transfer solar radiation to the material and maintaining a
+low oxygen environment (Prieto et al., 2016). For these reasons,
+understanding redox kinetics of these perovskites will be essential
+for receiver design.
+Isothermal kinetic tests are useful for extracting kinetic and
+bulk diffusion parameters at various temperatures. These tests
+are accomplished by allowing the packed bed to approach equilib-
+rium at a speciﬁed T in air and switching in 300 s intervals between
+reducing and oxidizing gas compositions, as described previously
+in the experimental section. Fig. 10 shows the evolution of d and
+speciﬁc chemical energy stored for reduction at PO2  104 bar
+and re-oxidation in air. Each curve is the average of 10 isothermal
+cycles. The change in d increases monotonically with T for both
+materials, and in particular Ca0:95Sr0:05MnO3d shows signiﬁcantly
+more reduction for T P 1000 C. On the other hand, the 10% Sr
+doped sample actually shows greater reducibility compared to 5%
+Sr doping at lower T 6 800 C.
+Time scales for reduction are much slower than re-oxidation in
+all cases and after 300 s reduction, neither composition reached its
+deq at any of the tested T in Fig. 10. Typically the d obtained in these
+cyclic reductions for each T ranged from 60 to 80% of the equilib-
+rium value. Interestingly, for the higher 10% Sr-doping, reduction
+was faster at T 6 900 C and re-oxidation was faster at all T tested.
+However, because Ca0:95Sr0:05MnO3d shows higher d in air at
+1000 C, it has a higher maximum d of  0.3 after 300 s of
+reduction.
+The chemical energy stored (relative to the fully-oxidized state)
+in these isothermal redox cycles is less than the thermodynamic
+limits provided in Table 2. As illustrated by the values at the very
+beginning of the re-oxidation shown in Fig. 10(d), Dhchem after
+300 s of reduction is around 65–85% of the equilibrium values at
+PO2 = 104 bar. The sensible energy is principally a function of DT,
+and thus does not change from the thermodynamic values derived
+from Table 2. Thus, adding sensible energy to the maximum chem-
+ical energy stored in the cycles, a kinetically limited speciﬁc TCES
+values based on the 300 s reduction in this reactor conﬁguration
+are calculated. Cycle-limited speciﬁc TCES values at 800, 900, and
+1000 C are 450, 580, and 770 kJ kg1 for Ca0:9Sr0:1MnO3d respec-
+tively and 440, 620, and 880 kJ kg1 for Ca0:95Sr0:05MnO3d respec-
+tively.
+Even
+though
+these
+values
+are
+lower
+than
+the
+thermodynamic limits in Table 2, they are still signiﬁcantly higher
+than the inert Al2O3 values at the same temperature, and the
+advantage of the additional chemical storage grows signiﬁcantly
+with increasing T.
+The inability for reduction to approach thermodynamic limits
+after 300 s is partly impacted by the packed bed arrangement
+which exposes the downstream portion of the bed to O2 released
+Table 2
+Speciﬁc energy storage based on thermodynamic limits for Ca1xSrxMnO3d and other high-temperature energy storage materials for a low-temperature of 500 C in air. Chemical
+storage for the perovskites and Co3O4 assumes reduction at given TH in PO2 ¼ 104 bar.
+Material
+TH [C]
+800
+850
+900
+950
+1000
+Ca0:9Sr0:1MnO3d
+Dhchem [kJ/kg]
+275
+325
+371
+414
+455
+Dhtot [kJ/kg]
+524
+616
+706
+792
+877
+Ca0:95Sr0:05MnO3d
+Dhchem [kJ/kg]
+320
+389
+450
+505
+555
+Dhtot [kJ/kg]
+574
+686
+791
+890
+985
+Co3O4
+Dhchem [kJ/kg]
+844
+844
+844
+844
+844
+Dhtot [kJ/kg]
+1084
+1122
+1161
+1199
+1238
+Al2O3
+Dhtot [kJ/kg]
+366
+428
+492
+555
+619
+LiNaK-CO3
+Dhtot [kJ/kg]
+435
+508
+–
+–
+–
+8
+L. Imponenti et al. / Solar Energy 151 (2017) 1–13
+
+
+===== Page 9 =====
+
+upstream in the bed. However, the high gas ﬂow rates and low gas
+residence times in the bed suggest that this is not signiﬁcant after
+the ﬁrst 30 s when O2 generation has signiﬁcantly slowed down.
+Furthermore, re-oxidation kinetics are quite fast with both materi-
+als returning to their equilibrium state in air in 620 s for both
+materials at all T. At the moderately low PO2’s tested, the reduction
+process is likely limited by dissociative adsorption at the surface,
+as postulated for other perovskite compositions (Adler et al.,
+2007). The slow reduction suggests challenges in designing a solar
+receiver because of the need for adequate time on-sun for these
+perovskites to provide high reduction and thus high speciﬁc TCES.
+On the other hand, rapid re-oxidation kinetics observed for these
+materials suggest that chemical heat release in a large-scale re-
+oxidation reactor can be controlled by air ﬂow since the reaction
+will likely be mass-transport limited. This could be advantageous
+for providing heat-on demand in a large-scale TCES system.
+3.3. Redox cycling performance
+The durability of the Sr-doped CaMnO3d in terms of morpho-
+logical structure and phase purity was evaluated in the same
+packed bed experimental setup with 1000 non-isothermal redox
+cycles. The non-isothermal redox cycles, as illustrated earlier in
+Fig. 5, simulated conditions expected in a CSP plant with a
+supercritical-CO2 cycle with reduction during rapid heating from
+500 to 900 C and re-oxidation in air during cooling back to
+500 C. Near-IR quartz lamps with focusing gold-plated mirrors
+provided packed bed heating rates of 100 C per min for these tests.
+Faster ramp rates may be attained in a solar receiver which could
+effect the transient partitioning of energy into chemical and sensi-
+ble components, but the effect of heating rates was reserved for
+future studies.
+Fig. 11 shows the variation in d (averaged over 100 cycles) as a
+function of time for both Ca1xSrxMnO3d compositions during the
+heating and reduction. The consistency in the curves over 1000
+cycles is evident for both compositions, although more so for the
+10% Sr-doped composition with a standard deviation in maximum
+d for the cycles of 0.0025 (1.6%). The 5% Sr-doped composition
+shows an increased standard deviation for maximum d of 0.0056
+(2.9%). The increased variation is largely due to lower reduction
+in the ﬁrst few hundred cycles. This may indicate slow equilibra-
+tion of partial phase transitions as observed in undoped CaMnO3
+(Leonidov et al., 2016), and the lower Sr-doping may be less effec-
+tive at suppressing these transitions. However. after 400 cycles the
+variation in d has stabilized such that its maximum is consistently
+around 0.20. This corresponds to a speciﬁc Dhchem of 275 kJ kg1
+and a total speciﬁc TCES of 620 kJ kg1. These values are about
+20% lower than the thermodynamic limits in Table 2, since the
+reduction reaction does not reach equilibrium during the time on
+steam in the low PO2 ﬂow for these speciﬁc cycling experiments.
+Faster reduction might be achieved with smaller particles or a
+shorter bed, but those parameter variations were not explored in
+this study. In general, the higher 10% Sr-doped CaMnO3 provided
+less maximum d ( 0:16) in the time limitations of the redox cycle
+and this corresponded to a speciﬁc Dhchem of 235 kJ kg1 a total
+speciﬁc TCES of 570 kJ kg1. For both perovskite compositions,
+the speciﬁc packed bed conﬁgurations achieved just over 60% of
+the thermodynamic limits for chemical energy stored and close
+to 80% of the equilibrium limit of total TCES (chemical + sensible
+energy).
+The evolution of d during heating in the reducing environment
+for both samples in Fig. 11 reveals that substantial oxygen release
+begins when the perovskites reach around 600 C. Ca0:9Sr0:1MnO3d
+show
+more
+reduction
+at
+the
+lower
+temperatures
+than
+Fig. 10. Cumulative d during (a) reduction and (b) re-oxidation, as well as chemical energy (c) stored during reduction and (d) released with re-oxidation for Ca0:9Sr0:1MnO3d
+and Ca0:95Sr0:05MnO3d at various temperatures with reduction at PO2 ¼ 104 bar and re-oxidation in air. Both materials exhibit relatively slow reduction followed by much
+faster re-oxidation.
+L. Imponenti et al. / Solar Energy 151 (2017) 1–13
+9
+
+
+===== Page 10 =====
+
+Ca0:95Sr0:05MnO3d, but as T increases and reduction rates increase,
+Ca0:95Sr0:05MnO3d begins to show faster reduction rates and higher
+maximum d. Based on particle-size distribution and approximate
+surface area of the packed bed, the maximum surface area speciﬁc
+reduction rates reach as high as 0.001 mol-O2 m2 s1 at 900 C.
+These rates may be partially limited by the packed bed arrange-
+ment and the relatively large particle diameters increasing internal
+particle diffusion resistance. The effects of particle size and the
+packed bed arrangement on reduction rates are reserved for a sub-
+sequent study.
+At TH ¼ 900 C, reduction continues for the entire 150 s at TH for
+both Ca0:95Sr0:05MnO3d and Ca0:9Sr0:1MnO3d indicating that the
+particles still have capacity to store more chemical energy and
+reach their full equilibrium limits. However, the rate of energy
+uptake reduces with time and it is unclear that a solar receiver
+or high-temperature heat exchanger could be designed to hold par-
+ticle temperature at a desired limit. Furthermore, the rate of reduc-
+tion and thus energy capture decreases signiﬁcantly as d increases
+at TH. The possibility of both gas-phase and solid-phase diffusion
+processes limiting chemical energy storage suggests that design
+of solar receivers for these materials facilitate particle–particle
+and gas-particle separation. Such design studies remain critical
+for the future feasibility of these perovskites as the basis for
+large-scale TCES in CSP plants and other applications.
+Although
+not
+shown
+in
+Fig.
+11,
+re-oxidation
+of
+both
+Ca0:95Sr0:05MnO3d and Ca0:9Sr0:1MnO3d occurs rapidly for the
+1000 cycles with the material reaching deq for air at TH ¼ 900 C
+within 30 s. The compositions stay close to equilibrium values as
+heat is removed during cool down to 500 C. The rapid re-
+oxidation of these perovskites suggests the potential for designing
+a mass-transfer limited heat recovery re-oxidation reactor where
+control of O2 ﬂows allows for controlled heat release tailored for
+optimal heat recovery.
+After the 1000 redox cycles, samples from both perovskite
+compositions were scanned by room-temperature XRD and tested
+for particle size distribution to assess phase and morphological
+stability. The packed bed experiments do not provide a good mea-
+sure of particle attrition, but they provide excellent insight to the
+chemical stability of the perovskite structure. XRD scans shown in
+Fig. 12 suggests the phase purity of the sample remained virtually
+unaltered through cycling. The major peaks for the cycled mate-
+rial compare very well to those of the material for testing.
+Although phase transitions likely occur at the high T and lower
+PO2 of the redox cycling, these phase transitions are reversible
+and the orthorhombic room-temperature phase is recovered upon
+cooling. Particle size analysis also indicated that under the packed
+bed conditions particle surface area was not lost due to sintering
+with particle size distribution maintaining a median diameter
+close to 300 lm after the 1000 cycles. These results suggest that
+these materials have interesting potential to provide a stable,
+high speciﬁc TCES alternative for CSP and other large-scale
+applications.
+Fig. 11. 100 cycle averages of cumulative Dd and temperature proﬁle during reduction over 1000 cycles reducing while heating from 500 to 900 C for Ca1xSrxMnO3d with
+(a) x ¼ 0:05 and (b) x ¼ 0:1.
+10
+L. Imponenti et al. / Solar Energy 151 (2017) 1–13
+
+
+===== Page 11 =====
+
+3.4. System considerations
+The reversible redox cycling experiments demonstrated 1000
+cycles for both Sr-doped CaMnO3d compositions suggests that
+these perovskites have the potential to provide a relatively simple
+oxide-based TCES system for CSP applications, in particular with
+supercritical
+CO2
+power
+cycles.
+Like
+other
+proposed
+high-
+temperature TCES systems based on reducible oxides, the simplic-
+ity of heat recovery by re-oxidation in air provides cost-effective,
+ﬂexible heat recovery without the need for gas storage. The packed
+bed cycling tests in this study with the speciﬁc reactor conﬁgura-
+tion provided only about 60% of the thermodynamic potential for
+chemical energy storage (listed in Table 2). Higher percentages of
+the chemical energy limit may be achieved with smaller beds or
+alternative ﬂow conﬁgurations, and thus while these tests show
+the challenge of kinetically limited receiver/reactors approaching
+the material thermodynamic limits for TCES, the cyclic test TCES
+values do not represent a general result that may be achieved in
+a well-designed full-scale receiver. Such a design effort is reserved
+for a follow-on study.
+The speciﬁc
+TCES values
+in
+the
+cyclic redox studies
+of
+Ca1xSrxMnO3d are lower than what has been demonstrated by
+Co3O4 redox cycles in kinetically limited reactors in recent studies
+(Agraﬁotis et al., 2016b; Agraﬁotis et al., 2016a; Karagiannakis
+et al., 2016). While the Co3O4 redox cycles have similarly exhibited
+between 50 and 65% of their thermodynamic limits for chemical
+energy storage, the very high speciﬁc chemical storage capacity
+of Co3O4 (Dhchem  844 kJ kg1) make it attractive as a TCES mate-
+rial (Karagiannakis et al., 2016). Furthermore, because Co3O4
+reduction to CoO occurs in air at 885 C, it does not require a
+reduced PO2 sweep gas in the receiver. The simplicity of full
+reduction-oxidation cycle in air eliminates parasitic losses required
+to generate the low PO2 sweep gas for reducing the perovskites in
+the receiver. System-level modeling of the Sr-doped CaMnO3-
+redox TCES system have shown that the penalty for producing
+the low-PO2 receiver sweep gas with realistic pressure-swing
+adsorption (PSA) units rises to 20% of the power cycle output
+for providing adequate sweep gas ﬂow at PO2 = 104 bar and
+TH = 900 C (Albrecht, 2016). Those system modeling studies show
+that PSA power requirements drop off signiﬁcantly to below 5% of
+the power cycle output if the sweep gas PO2 is raised to 102 bar at
+TH = 900 C. The higher PO2 lowers the speciﬁc chemical storage
+potential by 100 kJ kg1 but leads to slight improvements in
+overall solar-to-electric efﬁciencies (Albrecht, 2016). The compli-
+cations and energy efﬁciency penalty associated with providing
+the low PO2 sweep gas for the Sr-doped CaMnO3d reduction must
+be weighed against the substantial cost advantage of these per-
+ovskites from earth-abundant cations relative to Co3O4.
+There are additional advantages that make the Sr-doped
+CaMnO3d worthy of consideration as a potential TCES material.
+The long-term stable cyclability of the Sr-doped CaMnO3 shown
+in the current study has not to the authors’ knowledge been
+demonstrated by Co3O4 or other simple-oxide redox couples. Fur-
+thermore, the perovskite unlike single-cation oxides provide
+chemical energy storage (and similarly energy release) over a
+range of temperatures, and this offers advantages for operational
+ﬂexibility with respect to temperature for receivers and heat
+recovery reactors. Further system modeling and techno-economic
+analysis is vital for evaluating perovskites relative to Co3O4 and
+other simple oxides in full-scale TCES systems.
+4. Conclusions
+Particles of Ca1xSrxMnO3d, with x = 0.05 and 0.1, were charac-
+terized thermochemically as a viable option for large-scale ther-
+mochemical energy storage in CSP applications. TGA and DSC
+measurements provided the basis for ﬁtting the material proper-
+ties to a two-reaction point defect model that captures the varia-
+tion in speciﬁc chemical energy storage as a function of T and
+PO2. The material characterization showed that small levels of A-
+site Sr-doping eliminated phase decomposition observed for
+undoped CaMnO3d at conditions relevant for coupling a TCES sys-
+tem up to 1000 C to an advanced supercritical-CO2 cycle. Mea-
+surements of thermodynamic limits for both Ca1xSrxMnO3d
+compositions suggest signiﬁcantly higher speciﬁc energy storage
+potential compared to inert thermal energy storage materials, such
+as Al2O3 and high-temperature salts, for storage at T P 700 C.
+Ca0:95Sr0:05MnO3d shows higher speciﬁc TCES than the 10% Sr-
+doped composition, but may be more prone to phase decomposi-
+tion for TH above 1000 C. While these perovskites show lower
+speciﬁc TCES than the high values of Co3O4, the perovskites have
+demonstrated the promise of long-term stability that has yet to
+be duplicated in Co3O4, and the substantial cost advantages and
+their ﬂexible high-temperature range may make them more attrac-
+tive for coupling to supercritical-CO2 cycles.
+The perovskite-based TCES has the ability to operate at higher
+temperatures with high speciﬁc energy storage for smaller storage
+tanks than required for inert oxide materials. For the high temper-
+atures needed to integrate CSP with supercritical CO2 power cycles,
+chemical energy storage from reduction in PO2 = 104 bar can pro-
+vide more than half of the total thermodynamic limits of speciﬁc
+energy stored for the two Sr-doped CaMnO3d compositions stud-
+ied. In redox cycling studies, reduction kinetics are slower than
+re-oxidation kinetics, and the full thermodynamic limits of chem-
+ical energy storage are not reached in times scales of a few min-
+utes. The reduction process is in part controlled by mass transfer
+limiting kinetics in the packed bed conﬁguration, but reduction
+rates are fast enough to achieve  80% of the limit within 300 s
+of reduction.
+Signiﬁcant challenges remain for establishing the commercial
+feasibility of TCES storage based on Ca1xSrxMnO3d for CSP appli-
+cations. The limited residence times for solar receivers and the
+need for rapid energy capture places demands on the material
+kinetics and receiver design to ensure adequately rapid solar
+energy capture. The kinetic tests presented here, in a packed bed
+reactor with rapid switching between oxidizing and reducing envi-
+ronments, show that the reduction kinetics may require on-sun
+residence times of several minutes. Furthermore, management of
+the released gaseous O2 is critical to sustain a low PO2 around the
+particles to continue driving reduction. The provision of low PO2
+via PSA or other technology represents a system integration chal-
+Fig. 12. XRD scans of Ca1xSrxMnO3d before and after 1000 redox cycles.
+L. Imponenti et al. / Solar Energy 151 (2017) 1–13
+11
+
+
+===== Page 12 =====
+
+lenge that has only been recently addressed (Albrecht et al., 2016;
+Albrecht, 2016). Nevertheless, the stability of these particles at rel-
+evant high T and their high speciﬁc TCES capacity relative to other
+storage candidates indicates strongly the value of further studies to
+explore possible TCES system designs. The simplicity of using air
+for perovskite re-oxidation suggests the potential for a cost-
+effective, ﬂexible storage system with high capacity for CSP and
+other power generation technologies.
+Acknowledgments
+This work was funded through a grant from the Department of
+Energy Sunshot initiative ELEMENTS program (award # DE-
+EE0006537) in collaboration with the National Renewable Energy
+Laboratory (NREL). The authors would like to thank Prof. Ryan
+O’Hayre from the Colorado School of Mines for assistance with
+material identiﬁcation and synthesis and Prof. Robert Braun from
+the Colorado School of Mines for assistance on system analysis.
+In addition, the authors thank Drs. Grant Hudish and David Hook
+from Coorstek for their helpful insight into the XRD analyis. The
+authors also thank Prof. Robert Kee at the School of Mines whose
+craftsmanship produced the TCES subsystem ﬁgure.
+References
+Adler, S., Chen, X., Wilson, J., 2007. Mechanisms and rate laws for oxygen exchange
+on mixed-conducting oxide surfaces. J. Catal. 245 (1), 91–109.
+Agraﬁotis, C., Becker, A., Roeb, M., Sattler, C., 2016a. Exploitation of thermochemical
+cycles based on solid oxide redox systems for thermochemical storage of solar
+heat. Part 5: Testing of porous ceramic honeycomb and foam cascades based on
+cobalt and manganese oxides for hybrid sensible/thermochemical heat storage.
+Solar Energy 139, 676–694.
+Agraﬁotis, C., Roeb, M., Sattler, C., 2016b. Exploitation of thermochemical cycles
+based on solid oxide redox systems for thermochemical storage of solar heat.
+Part 4: Screening of oxides for use in cascaded thermochemical storage
+concepts. Solar Energy 139, 695–710.
+Agraﬁotis,
+C.,
+Roeb,
+M.,
+Schmuecker,
+M.,
+Sattler,
+C.,
+2015.
+Exploitation
+of
+thermochemical
+cycles
+based
+on
+solid
+oxide
+redox
+systems
+for
+thermochemical storage of solar heat. Part 2: Redox oxide-coated porous
+ceramic structures as integrated thermochemical reactors/heat exchangers.
+Solar Energy 114, 440–458.
+Albrecht, K., 2016. Multiscale Modeling and Experimental Interpretation of
+Perovskite
+Oxide
+Materials
+in
+Thermochemical
+Energy
+Storage
+and
+Conversion for Application in Concentrating Solar Power Ph.d. dissertation.
+Colorado School of Mines, Golden, CO.
+Albrecht, K.J., Jackson, G.S., Braun, R.J., 2016. Thermodynamically consistent
+modeling
+of
+redox-stable
+perovskite
+oxides
+for
+thermochemical
+energy
+conversion and storage. Appl. Energy 165, 285–296.
+Arjmand, M., Hedayati, A., Azad, A.-M., Leion, H., Rydén, M., Mattisson, T., 2013.
+CaxLa1xMn1yMyO3d (M = Mg, Ti, Fe, or Cu) as Oxygen Carriers for Chemical-
+Looping with Oxygen Uncoupling (CLOU). Energy Fuels 27 (8), 4097–4107.
+Babiniec, S.M., Coker, E.N., Miller, J.E., Ambrosini, A., 2015. Investigation of
+LaxSr1xCoyM1yO3d (M = Mn, Fe) perovskite materials as thermochemical
+energy storage media. Solar Energy 118, 451–459.
+Babiniec, S.M., Coker, E.N., Miller, J.E., Ambrosini, A., 2016. Doped calcium
+manganites for advanced high-temperature thermochemical energy storage.
+Int. J. Energy Res. 40 (2), 280–284.
+Bakken, E., Boerio-Goates, J., Grande, T., Hovde, B., Norby, T., Rørmark, L., Stevens, R.,
+Stølen, S., 2005a. Entropy of oxidation and redox energetics of CaMnO3d. Solid
+State Ion. 176 (29–30), 2261–2267.
+Bakken,
+E.,
+Norby,
+T.,
+Stølen,
+S.,
+2005b.
+Nonstoichiometry
+and
+reductive
+decomposition of CaMnO3d. Solid State Ion. 176 (1–2), 217–223.
+Bauer, T., Pﬂeger, N., Breidenbach, N., Eck, M., Laing, D., Kaesche, S., 2013. Material
+aspects of solar salt for sensible heat storage. Appl. Energy 111, 1114–1119.
+Block, T., Schmücker, M., 2016. Metal oxides for thermochemical energy storage: a
+comparison of several metal oxide systems. Solar Energy 126, 195–207.
+Carrillo, A.J., Moya, J., Bayon, A., Jana, P., de la Pena O’Shea, V.A., Romero, M.,
+Gonzalez-Aguilar,
+J.,
+Serrano,
+D.P.,
+Pizarro,
+P.,
+Coronado,
+J.M.,
+2014.
+Thermochemical energy storage at high temperature via redox cycles of mn
+and co oxides: pure oxides versus mixed ones. Solar Energy Mater. Solar Cells
+123, 47–57.
+Carrillo, A.J., Serrano, D.P., Pizarro, P., Coronado, J.M., 2015. Improving the
+thermochemical energy storage performance of the Mn2O3/Mn3O4 redox
+couple by the incorporation of iron. Chemsuschem 8 (11), 1947–1954.
+Cot-Gores, J., Castell, A., Cabeza, L.F., 2012. Thermochemical energy storage and
+conversion: a-state-of-the-art review of the experimental research under
+practical conditions. Renew. Sust. Energy Rev. 16 (7), 5207–5224.
+Denholm, P., Hand, M., 2011. Grid ﬂexibility and storage required to achieve very
+high penetration of variable renewable electricity. Energy Policy 39 (3), 1817–
+1830.
+Dunn,
+R.,
+Lovegrove,
+K.,
+Burgess,
+G.,
+2012a.
+A
+review
+of
+ammonia-based
+thermochemical energy storage for concentrating solar power. Proc. IEEE 100
+(2), 391–400.
+Dunn, R.I., Hearps, P.J., Wright, M.N., 2012b. Molten-salt power towers: newly
+commercial concentrating solar storage. Proc. IEEE 100 (2), 504–515.
+Edwards, S.E.B., Materic, V., 2012. Calcium looping in solar power generation plants.
+Solar Energy 86 (9), 2494–2503.
+Evans, A., Strezov, V., Evans, T.J., 2012. Assessment of utility energy storage options
+for increased renewable energy penetration. Renew. Sust. Energy Rev. 16 (6),
+4141–4147.
+Fernandez,
+A.G.,
+Galleguillos,
+H.,
+Fuentealba,
+E.,
+Perez,
+F.J.,
+2015.
+Thermal
+characterization of hitec molten salt for energy storage in solar linear
+concentrated technology. J. Therm. Anal. Calori. 122 (1), 3–9.
+Flamant, G., Hernandez, D., Bonet, C., Traverse, J.P., 1980. Experimental aspects of
+the thermochemical conversion of solar energy - decarbonation of CaCO3. Solar
+Energy 24 (4), 385–395.
+Galinsky, N.L., Shaﬁefarhood, A., Chen, Y., Neal, L., Li, F., 2015. Effect of support on
+redox stability of iron oxide for chemical looping conversion of methane. Appl.
+Catal. B-Environ. 164, 371–379.
+General Atomics, 2011. Thermochemical Heat Storage for Concentrated Solar
+Power. U.S. Department of Energy Contract Final Report DE-FG36-08GO18145.
+Goldyreva,
+E.I.,
+Leonidov,
+I.A.,
+Patrakeev,
+M.V.,
+Chukin,
+A.V.,
+Leonidov,
+I.I.,
+Kozhevnikov, V.L., 2015. nonstoichiometry and defect equilibrium in electron
+doped Ca0:6ySr0:4LayMnO3d. J. Alloys Compd. 638, 44–49.
+Goldyreva, E.I., Leonidov, I.A., Patrakeev, M.V., Kozhevnikov, V.L., 2012. Oxygen non-
+stoichiometry and defect equlibria in CaMnO3d. J. Solid State Electrochem. 16
+(3), 1187–1191.
+Guiblin, N., Grebille, D., Leligny, H., Martin, C., 2002. Ca3Mn2O7. Acta Crystallogr.
+Sect. C 58 (1), i3–i5.
+Hallberg, P., Jing, D.Z., Ryden, M., Mattisson, T., Lyngfelt, A., 2013. Chemical looping
+combustion and chemical looping with oxygen uncoupling experiments in a
+batch reactor using spray-dried CaMn1xMxO3d (M = Ti, Fe, Mg) particles as
+oxygen carriers. Energy Fuels 27 (3), 1473–1481.
+Iverson, B.D., Conboy, T.M., Pasch, J.J., Kruizenga, A.M., 2013. Supercritical CO2
+Brayton cycles for solar-thermal energy. Appl. Energy 111, 957–970.
+Jorge, M., dos Santos, A., Nunes, M., 2001. Effects of synthesis method on
+stoichiometry, structure and electrical conductivity of CaMnO3d. Int. J. Inorg.
+Mater. 3 (7), 915–921.
+Karagiannakis, G., Pagkoura, C., Halevas, E., Baltzopoulou, P., Konstandopoulos, A.G.,
+2016. Cobalt/cobaltous oxide based honeycombs for thermochemical heat
+storage
+in
+future
+concentrated
+solar
+power
+installations:
+multi-cyclic
+assessment and semi-quantitative heat effects estimations. Solar Energy 133,
+394–407.
+Kee, R.J., Zhu, H., Hildenbrand, B.W., Vøllestad, E., Sanders, M.D., O’Hayre, R.P., 2013.
+Modeling the steady-state and transient response of polarized and non-
+polarized proton-conducting doped-perovskite membranes. J. Electrochem.
+Soc. 160 (3), F290–F300.
+Kharait,
+R.,
+2015.
+Thermodynamics
+of
+Doped
+Calcium
+Manganite
+for
+Thermochemical Energy Storage in Concentrated Solar Power Plants. Colorado
+School of Mines, Golden, CO.
+Khare, S., Dell’Amico, M., Knight, C., McGarry, S., 2013. Selection of materials for
+high temperature sensible energy storage. Solar Energy Mater. Solar Cells 115,
+114–122.
+Ksepko, E., 2014. sr(mn1xnix)o3 materials and their chemical-looping oxygen
+transfer properties. Int. J. Hydrogen Energy 39 (15), 8126–8137.
+Kuravi, S., Trahan, J., Goswami, D.Y., Rahman, M.M., Stefanakos, E.K., 2013. Thermal
+energy storage technologies and systems for concentrating solar power plants.
+Prog. Energy Combust. Sci. 39 (4), 285–319.
+Leonidov, I.A., Konstantinova, E.I., Markov, A.A., Merkulov, O.V., Patrakeev, M.V.,
+Kozhevnikov, V.L., 2016. Oxygen nonstoichiometry and defect equilibrium in
+Ca1xPrxMnO3d manganites. Russian J. Phys. Chem. A 90 (8), 1682–1686.
+Leonidova, E.I., Leonidov, I.A., Patrakeev, M.V., Kozhevnikov, V.L., 2011. Oxygen non-
+stoichiometry, high-temperature properties, and phase diagram of CaMnO3d. J.
+Solid State Electrochem. 15 (5), 1071–1075.
+Liu, M., Tay, N.H.S., Bell, S., Belusko, M., Jacob, R., Will, G., Saman, W., Bruno, F., 2016.
+Review on concentrating solar power plants and new developments in high
+temperature thermal energy storage technologies. Renew. Sust. Energy Rev. 53,
+1411–1432.
+McDaniel, A.H., Miller, E.C., Ariﬁn, D., Ambrosini, A., Coker, E.N., O’Hayre, R., Chueh,
+W.C., Tong, J.H., 2013. Sr- and Mn-doped LaAlO3d for solar thermochemical H2
+and CO production. Energy Environ. Sci. 6 (8), 2424–2428.
+Navrotsky, A., 1997. Progress and new directions in high temperature calorimetry
+revisited. Phys. Chem. Min. 24 (3), 222–241.
+Nikodemski, S., Tong, J., O’Hayre, R., 2013. Solid-state reactive sintering mechanism
+for proton conducting ceramics. Solid State Ion. 253, 201–210.
+Oles, A.S., Jackson, G.S., 2015. Modeling of a concentrated-solar, falling-particle
+receiver for ceria reduction. J. Solar Energy 122, 126–147.
+Padilla, R.V., Too, Y.C.S., Benito, R., Stein, W., 2015. Exergetic analysis of supercritical
+CO2 Brayton cycles integrated with solar central receivers. Appl. Energy 148,
+348–365.
+Pishahang, M., Larring, Y., McCann, M., Bredesen, R., 2014. Ca0:9Mn0:5Ti0:5O3d: a
+suitable oxygen carrier material for ﬁxed-bed chemical looping combustion
+under syngas conditions. Ind. Eng. Chem. Res. 53 (26), 10549–10556.
+12
+L. Imponenti et al. / Solar Energy 151 (2017) 1–13
+
+
+===== Page 13 =====
+
+Prieto, C., Osuna, R., Fernandez, A.I., Cabeza, L.F., 2016. Molten salt facilities, lessons
+learnt at pilot plant scale to guarantee commercial plants; heat losses
+evaluation and correction. Renew. Energy 94, 175–185.
+Schrader, A.J., Muroyama, A.P., Loutzenhiser, P.G., 2015. Solar electricity via an air
+Brayton cycle with an integrated two-step thermochemical cycle for heat
+storage based on Co3O4/CoO redox reactions: thermodynamic analysis. Solar
+Energy 118, 485–495.
+Shirley,
+A.I.,
+Lemcoff,
+N.O.,
+1997.
+High-purity
+nitrogen
+by
+pressure-swing
+adsorption. Aiche J. 43 (2), 419–424.
+Siegel, N., Gross, M., Ho, C., Phan, T., Yuan, J., 2014. Physical properties of solid
+particle
+thermal
+energy
+storage
+media
+for
+concentrating
+solar
+power
+applications. Energy Proc. 49, 1015–1023.
+Stekli, J., Irwin, L., Pitchumani, R., 2013. Technical challenges and opportunities for
+concentrating solar power with thermal energy storage. J. Therm. Sci. Eng. Appl.
+5 (June 2013), 12.
+Tichy, R.S., Goodenough, J.B., 2002. Oxygen permeation in cubic SrMnO3d. Solid
+State Sci. 4 (5), 661–664.
+Tong, J., Clark, D., Bernau, L., Sanders, M., O’Hayre, R., 2010. Solid-state reactive
+sintering mechanism for large-grained yttrium-doped barium zirconate proton
+conducting ceramics. J. Mater. Chem. 20 (30), 6333–6341.
+Turchi, C.S., Ma, Z.W., Neises, T.W., Wagner, M.J., 2013. Thermodynamic study of
+advanced supercritical carbon dioxide power cycles for concentrating solar
+power systems. J. Solar Energy Eng. - Trans. ASME 135 (4).
+Varsano, F., Alvani, C., La Barbera, A., Masi, A., Padella, F., 2016. Lithium manganese
+oxides as high-temperature thermal energy storage system. Thermochim. Acta
+640, 26–35.
+Vignarooban, K., Xu, X., Arvay, A., Hsu, K., Kannan, A.M., 2015. Heat transfer
+ﬂuids for concentrating solar power systems – a review. Appl. Energy 146,
+383–396.
+Ward, P.A., Corgnale, C., Teprovich, Joseph A.J., Motyka, T., Hardy, B., Peters, B.,
+Zidan, R., 2015. High performance metal hydride based thermal energy storage
+systems for concentrating solar power applications. J. Alloys Compd. 645, S374–
+S378.
+Wong, B.S., Brown, L., Buckingham, R., Sweet, W., Russ, B., Gorensek, M., 2015. Sulfur
+dioxide disproportionation for sulfur based thermochemical energy storage.
+Solar Energy 118, 134–144.
+Zhou, Q., Kennedy, B.J., 2006. The nature of the orthorhombic to tetragonal phase
+transition in Sr1xCaxMnO3. J. Solid State Chem. 179 (11), 3568–3574.
+L. Imponenti et al. / Solar Energy 151 (2017) 1–13
+13

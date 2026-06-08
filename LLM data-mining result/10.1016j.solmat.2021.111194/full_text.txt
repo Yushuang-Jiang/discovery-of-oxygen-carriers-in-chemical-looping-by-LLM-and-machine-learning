@@ -1,0 +1,800 @@
+
+
+===== Page 1 =====
+
+Solar Energy Materials & Solar Cells 230 (2021) 111194
+Available online 23 May 2021
+0927-0248/© 2021 Elsevier B.V. All rights reserved.
+Development of Co3-xNixO4 materials for thermochemical energy storage at 
+lower red-ox temperature 
+Yasmina Portilla-Nieto a,b,c,*, Abdelali Zaki a, Karmele Vidal c, Marta Hernaiz c, 
+Estibaliz Aranzabe c, Stefania Doppiu a, Abdessamad Faik a,d 
+a Centre for Cooperative Research on Alternative Energies (CIC EnergiGUNE), Basque Research and Technology Alliance (BRTA), Alava Technology Park, Albert Einstein 
+48, 01510, Vitoria-Gasteiz, Spain 
+b Applied Physics II Department, Faculty of Science and Technology, University of the Basque Country (UPV/EHU), PO Box 644, 48080, Bilbao, Spain 
+c TEKNIKER, Polo Tecnol´ogico de Eibar, C/ I˜naki Goenaga, 5, 20600, Eibar, Gipuzkoa, Spain 
+d Materials Science, Energy and Nano-Engineering, Mohammed VI Polytechnic University, Lot 660-Hay Moulay Rachid, Ben Guerir, 43150, Morocco   
+A R T I C L E  I N F O   
+Keywords: 
+Thermochemical heat storage 
+Gas-solid reaction 
+Reduction/oxidation reaction 
+Cobalt nickel oxide 
+A B S T R A C T   
+Heat storage technologies are subject of great research efforts aimed at improving the energy efficiency of power 
+plants and heat recovery processes. In this context, the development of highly efficient and low-cost materials for 
+thermal energy storage is imperative for a large use of this technology. The storage of thermal energy using 
+reversible thermo-chemical reactions can provide large storage capacities especially at high temperatures. Within 
+this class of materials, the red-ox reactions have particular interest due to the low cost of the materials involved 
+(metal oxides) and the use of air both as reacting gas and heat transfer fluid. Therefore, many efforts are doing to 
+improve the efficiency and reversibility of this type of reactions. In this work the synthesis and thermal per­
+formances of a novel mixed metal oxide based on cobalt/nickel metals with spinel structure Co3-xNixO4 is re­
+ported. A deep study was carried out in order to find the best synthesis conditions and optimum relative metal 
+content in the structure with the objective of decreasing as much as possible the red-ox temperature. The study 
+allowed to determine the optimum Ni content in the oxide structure in order to minimize the reaction tem­
+perature. In particular, a linear relationship of the red-ox temperature as a function of the Ni content was 
+observed, enabling reaching red-ox temperature below 700 ◦C. These results are very promising and open the 
+perspective of using of these types of materials to a wider field of application.   
+1. Introduction 
+The world transition to a decarbonized energy system is underway, 
+radically transforming the way the energy is generated, distributed, 
+stored and consumed. This energy transition will require, among other 
+measures, that a large part of energy comes from renewable sources and 
+that industrial processes are more energy efficient. In this scenario, 
+large-scale energy storage is a key factor because it makes possible a big 
+share of renewables where their electrical production generally does not 
+correspond to the electricity demand. 
+In regard to the solar energy storage and conversion, different stra­
+tegies can be followed. 
+The sun energy is directly converted into electricity by using PV 
+technologies [1]. This is a largely developed technology having as main 
+drawback the intermittency in the electricity production due to the 
+intermittency of the energy source. In this respect many strategies are 
+being studied in order to overcome this problem exploring different 
+types of energy storage systems such as batteries [2], pumped hydro 
+(PH) energy storage system, Gravity ESS, superconducting magnetic ESS 
+[3] and compressed air energy storage (CAES) together with promising 
+hybrid systems [4]. 
+The sun energy is transformed into valuable fuels (hydrogen, hy­
+drocarbons, etc.) by using for example photoelectrochemical (PEC) H2O- 
+splitting devices for H2 production, photocatalytic processes for CO2 
+reduction or thermally driven chemical cycles [5–8]. In the last years, 
+these fuel production technologies are receiving a large impulse both 
+due to the need to decrease the amount of polluting agents introduced in 
+the atmosphere and to find alternative routes to replace fossil fuels [9]. 
+* Corresponding author. Centre for Cooperative Research on Alternative Energies (CIC EnergiGUNE), Basque Research and Technology Alliance (BRTA), Alava 
+Technology Park, Albert Einstein 48, 01510, Vitoria-Gasteiz, Spain. 
+E-mail address: yportilla@cicenergigune.com (Y. Portilla-Nieto).  
+Contents lists available at ScienceDirect 
+Solar Energy Materials and Solar Cells 
+journal homepage: www.elsevier.com/locate/solmat 
+https://doi.org/10.1016/j.solmat.2021.111194 
+Received 25 November 2020; Received in revised form 13 May 2021; Accepted 15 May 2021   
+
+
+===== Page 2 =====
+
+Solar Energy Materials and Solar Cells 230 (2021) 111194
+2
+In this respect, many challenges need still to be faced both from the 
+materials side [10,11] with the proposition of different solutions and the 
+system development side [12]. 
+Another alternative is the power to heat technology. In this case, the 
+combination of thermal energy storage (TES) systems with the use of 
+electricity, not only from solar source but also from other renewable 
+sources such as wind power, for heating purposes, provides the flexi­
+bility that the renewables need [13]. These energy storage technologies 
+will play a major role not only in the renewables integration, but also in 
+increasing energy efficiency in industrial processes by reusing stored 
+waste heat from those same processes [14,15]. 
+The most developed technologies in thermal energy storage are 
+based on sensible heat storage (SHS) and latent heat storage (LHS). In 
+the first case, the heat is stored by a temperature change of the storage 
+material; in the second case, the heat is stored by a phase change of the 
+storage material [16–18]. The less developed TES technology is ther­
+mochemical storage (TcES), which is based, in addition to the mass and 
+temperature range, on the enthalpy of reversible chemical reactions, and 
+has the highest theoretical energy storage density compared to sensible 
+and latent heat storage [19,20]. Thermochemical energy storage is 
+considered as the most promising technology due to (i) the high energy 
+storage capacity; (ii) the possibility to store the heat at room tempera­
+ture; (iii) the long-term storage without a significant heat loss and (iv) 
+the heat released at a constant temperature being adjustable by the re­
+action conditions. The endothermic chemical reaction is used to store 
+the heat when it is available and the reverse exothermic reaction is used 
+to release the heat when it is needed. 
+In this regard, among the investigated TcES systems in the literature, 
+red-ox reaction involving metal oxides have been considered as the most 
+promising candidates for high temperature TES applications. Thus, these 
+red-ox systems require suitable materials for operation in terms of 
+complete reaction reversibility, suitable reaction temperature, high 
+storage density, high reaction enthalpy, no-toxicity and good thermal 
+stability during cycling in the operation temperature range [21–23]. 
+Different research groups have investigated different materials 
+which can be suitable for thermal energy storage at high temperatures. 
+The most favored materials are metal oxides due to their high reaction 
+enthalpies and high operating temperature; longer storage periods at 
+ambient temperature and utilization of air both as reactant and as heat 
+transfer fluid [24–26]. 
+Although the list of metal oxides is huge and a lot of work has been 
+done in order to identify the most performing candidates, only a few 
+materials can fulfill the requirements, such as energy density, revers­
+ibility, kinetics and costs, in order to be considered as suitable materials 
+for TES applications. Previous research works have demonstrated that 
+the most promising metal oxides are cobalt oxide (Co3O4/CoO) and 
+manganese oxide (Mn2O3/Mn3O4) [21,24,27,28]. Nonetheless, their 
+high equilibrium reaction temperatures (higher than 850 ◦C) have been 
+considered as the main barrier for their use in different applications such 
+as concentrated solar power (CSP) and industrial waste heat recovery. 
+Looking forward to a further development of TcES technology, the 
+development of new materials with reduced red-ox temperatures which 
+are suitable for those applications is urgently needed. Recently, several 
+works proposed redox reactions of doped mixed oxides, spinel and 
+perovskite oxides, aiming to tune the reaction temperature and to shed 
+more light on the understanding of the reaction kinetics and sintering 
+effects [29,30]. 
+Co3O4 material is described as a spinel-type structure with the gen­
+eral formula of AB2O4 (A, B = Co, Zn, Ni, Fe, Cu, Mn, etc.), where A and 
+B are divalent and trivalent metal cations, respectively. The spinel 
+structure consists of a cubic close-packed array of oxide ions, in which 
+one-eighth of the tetrahedral sites and one half of the octahedral sites are 
+occupied by cations. The distribution of the cations between these two 
+sites is highly dependent upon the nature of the cations incorporated 
+into the structure. In normal spinel structures, the divalent A and 
+trivalent B cations occupy the tetrahedral and octahedral sites, 
+respectively [31–33]. 
+The main purpose of this research is to develop advanced spinel pure 
+mixed oxides with lower red-ox temperatures. Specifically, a solid so­
+lution between cobalt oxide and nickel oxide with the general formula 
+Co3-xNixO4 (0 ≤x ≤1) was developed. 
+The most studied mixed phase of cobalt-nickel has been Co2NiO4 
+[34–36]. This material has attracted the research attention in the area of 
+electrochemistry, especially in supercapacitors due to its low cost, 
+environmentally friendliness, natural abundance and high theoretical 
+capacitance. Besides, it is expected to offer more efficient redox re­
+actions, including contributions from both nickel and cobalt ions coming 
+from its mixed valence spinel structure where nickel occupies octahedral 
+sites and cobalt distributes over both octahedral and tetrahedral sites 
+[34,37–40]. It was found that the mixed phase improves both the elec­
+tronic conductivity and the electrochemical activity compared to pure 
+phases, making the material suitable for energy conversion/storage 
+systems [35]. Also, it offers rich red-ox reactions, being an interesting 
+property for both electrochemical and thermochemical storage 
+applications. 
+In the present work, five pure nickel-cobalt mixed oxides, i.e. 
+Co2.8Ni0.2O4, Co2.6Ni0.4O4, Co2.4Ni0.6O4, Co2.2Ni0.8O4 and Co2NiO4, 
+were successfully synthesized by sol-gel method. The substitution of Co 
+atoms by Ni atoms leads to a significant decrease in the red-ox tem­
+perature where Co2.4Ni0.6O4 shows the lowest temperature of 685 ◦C 
+(being 906 ◦C the one for Co3O4), which implies a significant decrease in 
+the state-of-the-art red-ox temperature (by more than 220 ◦C). In addi­
+tion, the thermal cyclability and stability of these materials was 
+confirmed by thermogravimetric analysis (TGA) up to 100 reduction/ 
+oxidation cycles. 
+2. Materials and methods 
+2.1. Materials 
+The materials used during this research were: nickel nitrate hexa­
+hydrate extra-pure from Scharlab, cobalt nitrate hexahydrate from Fisher 
+Scientific with a purity of 98+ %, citric acid from Fisher Scientific with a 
+purity of 99+% and ethylene glycol anhydrous from Sigma-Aldrich with 
+a purity of 99.8%. 
+2.2. Synthesis methods 
+There are three methods that can be used to synthetize Co–Ni mixed 
+metal oxides: sol-gel method, hydrothermal route and coprecipitation 
+and thermal decomposition of the precursors [36,41–43]. Compared in 
+terms of production cost, purity of the final material, simplicity and 
+process sustainability, sol-gel method seems to be the best option for 
+eventual large-scale production:  
+• Production costs: the production cost is related to the raw material 
+cost, but also to the different steps involved in the different synthesis 
+routes. Concerning the precursor materials, sol-gel and hydrothermal 
+routes use nitrates as main precursors [36], while most research 
+works describe coprecipitation route using acetates as the main raw 
+materials [41]. Cobalt acetate cost is 10% higher than the nitrate and 
+nickel acetate is 50% higher than the nitrate precursor, so from the 
+materials cost point of view sol-gel or hydrothermal routes seem to 
+be the more appropriate. Regarding the process cost, main differ­
+ences are in the washing step (only needed for the hydrothermal and 
+coprecipitation routes) [36,41] and in the reaction conditions (very 
+similar in terms of temperature for the three synthesis, but with 
+notable differences in terms of pressure for the hydrothermal pro­
+cess). High pressure processes associated to the hydrothermal route 
+make this process more expensive than the other routes.  
+• Purity: the production of high purity materials with hydrothermal 
+and coprecipitation synthesis approaches requires adding a washing 
+Y. Portilla-Nieto et al.                                                                                                                                                                                                                          
+
+
+===== Page 3 =====
+
+Solar Energy Materials and Solar Cells 230 (2021) 111194
+3
+step [42]. Contrary, the sol-gel route obtains a high purity material 
+(98–100%). 
+• Route complexity: as already explained, hydrothermal route in­
+volves high pressure in the reaction step and both coprecipitation 
+and hydrothermal include a washing step in the process, while sol- 
+gel has no washing step associated. It must also be considered that 
+a reflux step is used in the coprecipitation route.  
+• Process sustainability: the three methods involve similar energy 
+consumption mainly associated to the calcination steps. However, 
+washing steps included in the coprecipitation and hydrothermal 
+methods involve the use of large quantities of solvents. That is why 
+the sol-gel method is considered more environmentally friendly. 
+Accordingly, the technique used in this work to synthesize Co–Ni 
+mixed metal oxides is the sol-gel method following the Pechini’s route. 
+The appropriate quantities of Co(NO3)2⋅6H2O and Ni(NO3)2⋅6H2O ni­
+trates were used for the preparation of 2 g of each material, following the 
+general formula Co3-xNixO4. Initially, the primary precursors were dis­
+solved in 10 mL ethylene glycol under gentle magnetic stirring to afford 
+a homogeneous solution. Subsequently, stoichiometric citric acid, acting 
+as a chelating ligand, was added into the reaction mixture under 
+vigorous magnetic stirring for 60 min. The reaction mixture was dried 
+overnight at 180 ◦C. The obtained powders were grinded in an agate 
+mortar to increase their homogeneity and then calcined in air at 400 ◦C 
+for 10 h to obtain the final product with the right stoichiometry. 
+2.3. Characterization methods 
+The analytical techniques used for the characterization of the 
+different synthesized materials are described below. 
+X-ray diffraction (XRD). A Bruker D8 Advance diffractometer 
+equipped with a LYNXEYE detector using Cu Kα1 radiation (λ = 1.5418 
+Å) and θ-2θ geometry was used for XRD analysis. Data were collected at 
+room temperature between 10◦and 80◦with a step size of 0.02◦and a 
+counting time of 8 s per step. The EVA software was used to determine 
+the phase composition of the material. In order to confirm the presence 
+of pure single structure for each material, the Rietveld refinement [44] 
+of the structural models was performed using the WinPlotr/FullProf 
+package [45]. The refined parameters were: background coefficients, 
+scale factor, lattice constants, atomic positions, isotropic independent 
+atomic displacement parameters, zero shift, peak profile and asymmetry 
+parameters. 
+Insitu X-ray diffraction (in-situ XRD). XRD data were collected on a 
+Bruker D8 Advance diffractometer operating at 30 kV and 20 mA, 
+equipped with a Cu tube (λ = 1.5418 Å), a Vantec-1 PSD detector and an 
+Anton Parr HTK2000 high-temperature furnace. The powder patterns 
+were recorded in 2q steps of 0.04◦in the 15 ≤2q ≤85 range, counting 
+for 1.4 s per step (total time for each temperature 42 min). Data sets 
+were recorded at different temperatures using 0.166 ◦C s−1 heating rate. 
+Scanning electron microscopy (SEM). The samples were imaged by 
+means of a scanning electron microscope Quanta 200 FEG operated in 
+high vacuum mode at 30 kV featured with a backscattered electron 
+detector (BSED) and Everhart-Thornley Detector (ETD). In addition, 
+energy-dispersive X-ray spectroscopy (EDX) analyses were carried out 
+for elemental mapping. For the evaluation of the pore size distribution of 
+the obtained samples, SEM images were statistically examined. At least 
+200 measurements were collected for each sample using ImageJ 
+software. 
+Thermogravimetric analysis (TGA). Two samples of each material 
+were analyzed in a NETZSCH/TG 209 F1 Libra instrument in the tem­
+perature range from 600 ◦C to 950 ◦C with a heating/cooling rate of 
+10 ◦C/min in air atmosphere and a flow rate of 60 mL/min. The 
+experimental error supplied by the brand of the equipment is ±2%. To 
+ensure the quality of the measurements a calibration was carried out 
+obtaining an error of 1.27% for the mass and 1.04% for the temperature 
+values. 
+3. Results and discussion 
+The prepared mixed oxides of the present work are characterized by 
+XRD, SEM, TGA analysis and in-situ XRD, and the results are shown 
+below. 
+Fig. 1 shows the room temperature X-ray powder diffraction patterns 
+obtained for the various compositions of Co3-xNixO4 (0 ≤x ≤1) in the 
+2ϴ range of 15◦– 70◦. Based on the analysis of the obtained X-ray dif­
+fractograms, similar patterns were observed for Co3O4, Co2.8Ni0.2O4, 
+Co2.6Ni0.4O4 and Co2.4Ni0.6O4 materials, with continuous changes in the 
+form of the peaks and their positions while increasing the amount of 
+nickel in the structure. On the contrary, for the materials with x equal to 
+or higher than 0.8, peaks showing an increasing of the amount of a 
+secondary phase were observed (0.8 and 1 at. % Ni). This could suggest 
+that following the Pechini’s route of synthesis, 0.6 is the maximum 
+amount of Ni that can dissolve in the structure of Co3O4 and above this 
+value the separation of CoO⋅NiO occurs. 
+The identification of the secondary phase obtained in the diffraction 
+patterns of Co2.2Ni0.8O4 and Co2NiO4 was done by analyzing the cell 
+parameters of the peaks obtained. The cell parameter of the secondary 
+phase is 4.2028 ± 10−4 Å, while the cell parameters of CoO and NiO are 
+4.263 Å and 4.178 Å, respectively [46], so in base of the cell parameter 
+values obtained the secondary phase should correspond to a mixed 
+CoO⋅NiO phase. 
+Fig. 2 shows the results of the quantitative Rietveld refinements for 
+the Co2.4Ni0.6O4 (x = 0.6) material after synthesis, where a good 
+agreement between the experimental and the calculated diffraction 
+profiles was obtained. The pattern shows peaks at 43◦and 63◦which 
+belong to CoO⋅NiO phase, being the quantity of this phase lower than 5 
+wt%. 
+Table 1 summarizes the space group, room-temperature unit-cell 
+parameters and unit-cell volume obtained by the Rietveld’s refinement 
+analysis, for the theoretical compositions: Co3O4, Co2.8Ni0.2O4, 
+Co2.6Ni0.4O4, Co2.4Ni0.6O4, Co2.2Ni0.8O4 and Co2NiO4. The obtained 
+values for unit-cell parameters and unit-cell volume increase linearly 
+with the increase of the Ni amount, which is considered as a clear evi­
+dence that the Vegard’s law [47] holds for this solid solution Co3-xNixO4 
+with x value from 0 to 0.6. 
+In order to assess the morphological properties of the prepared 
+samples, the SEM images obtained for Co3O4, Co2.8Ni0.2O4, Co2.6Ni0.4O4, 
+Co2.4Ni0.6O4, Co2.2Ni0.8O4 and Co2NiO4 materials are shown in Fig. 3. As 
+it can be seen in the Figure, Co3O4, Co2.8Ni0.2O4, Co2.2Ni0.8O4 and 
+Co2NiO4 materials show similar agglomerate morphologies made of 
+particles with size around 0.80 μm. Meanwhile, Co2.6Ni0.4O4 and 
+Co2.4Ni0.6O4 materials exhibit different morphologies having the first 
+Fig. 1. Evolution of X-ray powder diffraction patterns of Co3-xNixO4 (0 ≤x ≤1) 
+with x = 0, 0.2, 0.4, 0.6, 0.8, 1. The bullet (*) indicates the peaks corresponded 
+to CoO⋅NiO phase. 
+Y. Portilla-Nieto et al.                                                                                                                                                                                                                          
+
+
+===== Page 4 =====
+
+Solar Energy Materials and Solar Cells 230 (2021) 111194
+4
+one a foamy appearance and the second one a dense structure. This fact 
+should be taken in consideration when analyzing the thermal properties 
+of the materials. 
+Thermogravimetric analyses have been done in order to study the 
+thermal behavior of the prepared mixed metal oxides and to determine 
+the red-ox temperatures, reaction reversibility and stability of the 
+samples. Fig. 4a shows the STA (simultaneous thermal analysis) reduc­
+tion curves obtained for Co3O4, Co2.8Ni0.2O4, Co2.6Ni0.4O4, Co2.4Ni0.6O4, 
+Co2.2Ni0.8O4 and Co2NiO4 theoretical compositions between 600 ◦C and 
+1000 ◦C. A different behavior was observed for each material in regard 
+to the reduction temperature, reaction kinetics and mass loss. As a 
+general observation, the incorporation of nickel in the structure leads to 
+a significant decrease in the reduction temperature. Fig. 4b shows the 
+evolution of the reduction temperature as a function of nickel content 
+(x), where an almost linear decrease of the reduction temperature was 
+obtained for materials with nickel content (x) from 0 to 0.6. The 
+reduction temperatures obtained for Co3O4, Co2.8Ni0.2O4, Co2.6Ni0.4O4, 
+Co2.4Ni0.6O4 are 906 ◦C, 852 ◦C, 735 ◦C and 685 ◦C, respectively. It is 
+worth mentioning that there are no previous references of metal oxide 
+synthesis that show such a significant decrease of the red-ox tempera­
+tures compared to the ones of Co3O4/CoO and Mn2O3/Mn3O4 couples. 
+In the case of Co2.2Ni0.8O4 (x = 0.8) and Co2NiO4 (x = 1), the reduction 
+temperature obtained is 830 ◦C, which do not follow the trend observed 
+for this system. 
+The high temperature obtained could be due to the lack of formation 
+of the correct stoichiometry of these materials since a secondary phase of 
+CoO⋅NiO was detected in their XRD diffractograms shown in Fig. 1. 
+In general, adding nickel to the cobalt oxide structure makes the 
+reduction temperature tunable, being able to decrease it from 906 ◦C to 
+685 ◦C. Table 2 summarizes the reduction temperature, mass loss and 
+reaction 
+conversion 
+ratio 
+obtained 
+for 
+Co3O4, 
+Co2.8Ni0.2O4, 
+Co2.6Ni0.4O4, Co2.4Ni0.6O4, Co2.2Ni0.8O4 and Co2NiO4 materials. 
+The behavior of the different samples upon heating was studied by 
+in-situ XRD measurements (Fig. 5). 
+These measurements allowed to follow the reduction reaction during 
+heating determining the structural transformations in the material and 
+the corresponding reduction temperature under that particular experi­
+mental conditions. This last aspect should be taken into account due to 
+the high sensitivity of this class of reactions to the pressure change that 
+can cause variations in the reaction temperature passing from one 
+analysis technique to another one. Moreover, in the case of the TGA 
+values, this is the initial reduction temperature of the samples, the point 
+where the mass loss evidences the start of the reduction reaction. In the 
+case of in-situ XRD, the reaction is detected only when the amount of 
+sample reduced is enough to be detected by the diffraction technique. 
+This is well reflected in Table 2 where the reduction temperatures, 
+for all the samples, obtained in the in-situ XRD results are in general 
+higher than the ones obtained in the thermogravimetric measurements. 
+Fig. 2. Experimental (o), calculated (−) and difference profiles for the Riet­
+veld’s refinements of Co2.4Ni0.6O4 (x = 0.6). 
+Table 1 
+Space group, room-temperature unit-cell parameters and unit-cell volume of the 
+pure mixed structures of Co–Ni system for x from 0 to 0.6.  
+Composition 
+Material 
+Space group 
+a (Å) 
+V (Å3) 
+x = 0 
+Co3O4 
+F-43m 
+8.0825 ± 10−4 
+527.99 
+x = 0.2 
+Co2.8Ni0.2O4 
+F-43m 
+8.0848 ± 10−4 
+528.45 
+x = 0.4 
+Co2.6Ni0.4O4 
+F-43m 
+8.0973 ± 10−4 
+530.90 
+x = 0.6 
+Co2.4Ni0.6O4 
+F-43m 
+8.0967 ± 10−4 
+530.79  
+Fig. 3. SEM images of the Co3O4, Co2.8Ni0.2O4, Co2.6Ni0.4O4, Co2.4Ni0.6O4, 
+Co2.2Ni0.8O4 and Co2NiO4 materials. 
+Fig. 4. a) STA experimental reduction step of the studied materials under air 
+atmosphere with a heating/cooling rate of 10 ◦C/min and b) Evolution of the 
+reduction temperature as function of nickel content. 
+Y. Portilla-Nieto et al.                                                                                                                                                                                                                          
+
+
+===== Page 5 =====
+
+Solar Energy Materials and Solar Cells 230 (2021) 111194
+5
+The reduction temperature in the in-situ studies corresponds to the 
+pattern where the oxidated phase starts to be detected (for each 
+composition in bold in Fig. 5). The in-situ measurements confirm the 
+results obtained in the STA measurements with a decrease of the 
+reduction temperature as a function of the nickel content in the host 
+structure (x), going from 0 to at least 0.6 at. In the case of the materials 
+with a nickel content (x) equal or higher than 0.8, the reduction tem­
+perature maintains at a constant value of 900 ◦C. 
+The preliminary stability of the materials upon cycling was tested by 
+performing three successive thermal cycles between 600 ◦C and 1000 ◦C 
+under air atmosphere in the STA equipment. Fig. 6 shows TGA reduc­
+tion/oxidation cycling of the studied materials between 600 ◦C and 
+1000 ◦C under air atmosphere with a heating/cooling rate of 10 ◦C/min. 
+In the case of Co3O4, Co2.8Ni0.2O4, Co2.6Ni0.4O4, Co2.4Ni0.6O4 and 
+Co2.2Ni0.8O4 materials, the TGA measurements show that, upon heating, 
+the reduction is evidenced by the sample weight loss related to oxygen 
+release and upon cooling the re-oxidation is accompanied by sample 
+weight gain. In the case of Co2.2Ni0.8O4, incomplete re-oxidation re­
+actions were observed due to the fast cooling rate (10 ◦C/min) and no- 
+dwelling step below the reduction temperature was programed. In the 
+case of Co2NiO4, TGA measurement revealed small weight losses and 
+gains (only 1%) during the three cycles, which indicates that the 
+reduction/oxidation reaction took place in only a very small fraction of 
+the material. 
+Table 2 
+Reduction temperature and mass loss obtained for Co3O4, Co2.8Ni0.2O4, 
+Co2.6Ni0.4O4, Co2.4Ni0.6O4, Co2.2Ni0.8O4 and Co2NiO4 materials.  
+Material 
+Tred, TGA 
+(◦C) 
+T red,XRDi 
+(◦C) 
+Mass loss 
+(%) 
+Conversion ratio 
+(%) 
+Co3O4 
+906 
+950 
+6.4 
+96 
+Co2.8Ni0.2O4 
+852 
+900 
+4.28 
+64 
+Co2.6Ni0.4O4 
+735 
+800 
+6.12 
+92 
+Co2.4Ni0.6O4 
+685 
+700 
+4.99 
+75 
+Co2.2Ni0.8O4 
+830 
+900 
+2.05 
+31 
+Co2NiO4 
+830 
+850 
+0.72 
+11  
+Fig. 5. In-situ XRD patterns of A) Co3O4, B) Co2.8Ni0.2O4, C) Co2.6Ni0.4O4, D) Co2.4Ni0.6O4, E) Co2.2Ni0.8O4 and F) Co2NiO4 at a temperature range of 700–1000 ◦C 
+with a heating step of 50 ◦C. For each composition, the patterns corresponding to the reduction temperature are highlighted in bold. 
+Y. Portilla-Nieto et al.                                                                                                                                                                                                                          
+
+
+===== Page 6 =====
+
+Solar Energy Materials and Solar Cells 230 (2021) 111194
+6
+The material with the best performances obtained in this study, 
+Co2.4Ni0.6O4, was subjected to a more extreme cycling experiment (up to 
+100 cycles) in order to test its stability. As shown in Fig. 7, this material 
+exhibits an adequate reversibility even after multiple cycles, having in 
+the first cycle a percentage of mass loss of 4.99% and in the last cycle a 
+3.81%. 
+It is worth to mention that the reproducibility of the materials was 
+tested by performing two similar experiments with two different ali­
+quots of the same material. Five control cycles have been analyzed in 
+terms of mass gain/loss and reduction/oxidation temperatures. The 
+largest error obtained has been of 1.79% but the average has been of 
+0.5%, which are inside the limits of the instrumental error. 
+The surface and structural morphology of Co2.4Ni0.6O4 was tested 
+after 100 cycles in TGA apparatus. The change of the morphology of the 
+material is appreciated in Fig. 8. 
+The raw material showed a dense structure while the cycled material 
+shows a porous densified structure. The thermal cycling promoted the 
+formation of channels in the material, helping the oxygen diffusion and 
+maintaining adequate activity levels. 
+The structural properties of the final material have been analyzed by 
+XRD. The results reported in Fig. 9 show similar diffraction patterns for 
+the samples before and after thermal cycling. 
+The broad signal at low angle, of the cycled sample, belongs to the 
+sample holder of the diffractometer. The main difference between the 
+two patterns is the presence of a secondary phase of CoO⋅NiO after 100 
+thermal cycles. The refinement shows that the final composition of the 
+material in weight fraction is 0.73 of Co2.4Ni0.6O4 and 0.27 of CoO⋅NiO. 
+This result is coherent with the activity loss obtained after thermal 
+cycling in the TGA. 
+The cost of high purity Co2.4Ni0.6O4 produced by sol-gel method at 
+laboratory scale is estimated to be around 129 €/kg. As shown in 
+Table 3, the reactive materials account for 38.6% of the total cost, 
+whereas labor cost and energy consumption represent 46.2% and 
+15.2%, respectively. 
+Obviously, cost is currently one the main drawback of Co2.4Ni0.6O4 
+for its final application as thermochemical material and has to be 
+strongly reduced to compete in the TES market. It is expected that 
+automation of the synthesis process (lower labor costs), whole sale 
+purchasing of the reactive materials and mass production would effi­
+ciently contribute to the necessary cost reduction. 
+Fig. 6. TGA reduction/oxidation cycles for the studied materials between 
+600 ◦C and 1000 ◦C under air atmosphere with a heating/cooling rate of 
+10 ◦C/min. 
+Fig. 7. 100 reduction/oxidation cycles for Co2.4Ni0.6O4 performed between 600 ◦C and 1000 ◦C under air atmosphere with a heating/cooling rate of 10 ◦C/min.  
+Fig. 8. SEM image of the Co2.4Ni0.6O4 material after 100 cycles in the 
+TGA apparatus. 
+Y. Portilla-Nieto et al.                                                                                                                                                                                                                          
+
+
+===== Page 7 =====
+
+Solar Energy Materials and Solar Cells 230 (2021) 111194
+7
+4. Conclusions 
+In this study, the mixed oxide Co3-xNixO4 with progressively 
+increased amount of Ni was successfully prepared via sol-gel method 
+following the Pechini’s route. 
+The investigation allowed to determine the optimum amount of Ni 
+dissolved into the cobalt oxide structure, leading to a substantial 
+decrease of the redox temperature compared to pure Co3O4. In partic­
+ular, the XRD measurements show that for a nickel content (x) higher 
+than 0.6 the presence of a secondary phase of CoO⋅NiO is observed. 
+In order to determine the reactivity and redox performance of these 
+materials, further research was carried out on the thermal behavior of all 
+the mixed structure synthesized. In general, two main point can be 
+highlighted, on one side the DSC/TGA results show that the thermal 
+behavior of each mixed oxide is different from that of pure metal oxide 
+considering the reduction temperature, oxygen loss ratio and revers­
+ibility. On the other side, it has been possible to determine the compo­
+sition with the best reactivity (with Ni content (x) equal to 0.6) allowing 
+to decrease the reduction temperature below 700 ◦C. This is an impor­
+tant achievement, opening to the possibility to use this class of reactions 
+in applications at lower temperature. 
+The combination between TG measurements and in situ-XRD mea­
+surements allowed to confirm the trend in the reduction temperature 
+even if some deviation in the absolute values of the temperature have 
+been observed. This is probably due to a slight O2 overpressure, conse­
+quent to the desorption process in the XRD chamber, causing a 
+displacement of the equilibrium temperature at slightly higher values. 
+The linear decrease of the reduction temperature with the increase of the 
+amount of nickel in the host structure, observed in TGA, was confirmed 
+by the in-situ XRD measurement. Finally, the preliminary cycling 
+stability tests of the material with the best performances (Ni = 0.6) (100 
+cycles) confirm the good reactivity upon cycling with no modification in 
+the reduction temperature. 
+The results of this work lead us to consider that this mixed oxide 
+system could be a potential future candidate fot TcES applications, 
+providing some flexibility in terms of reaction temperature. However, a 
+more in depth and prolonged study of the cyclability in a lab scale test 
+bench would be needed to confirm the thermal stability of the material. 
+CRediT authorship contribution statement 
+Yasmina Portilla-Nieto: Data curation, Methodology, Investigation, 
+Roles/Writing original, Writing-review. Abdelali Zaki: Data curation, 
+Methodology, Investigation, Writing review, Methodology. Karmele 
+Vidal: Data curation, Investigation, Supervision. Marta Hernaiz: 
+Conceptualization, Data curation, Funding acquisition, Project admin­
+istration, Supervision, Writing review. Estibaliz Aranzabe: Funding 
+acquisition, Project administration, Supervision, Writing review. Ste­
+fania Doppiu: Conceptualization, Data curation, Funding acquisition, 
+Project administration, Supervision, Writing-review. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgement 
+The Basque Government (Elkartek CICe2017, KK-2017/00066; 
+Elkartek CICe2019, KK-2019/00097) is acknowledged for the financial 
+support of this work. The authors express their sincere gratitude to 
+Leticia Martinez, Yagmur Polat and Cristina Luengo for their technical 
+support. 
+References 
+[1] S. Kim, H. Van Quy, C.W. Bark, Photovoltaic technologies for flexible solar cells: 
+beyond silicon, Mater. Today Energy. 19 (2021) 100583, https://doi.org/10.1016/ 
+j.mtener.2020.100583. 
+[2] Q. Meng, T. Liu, C. Su, H. Niu, Z. Hou, N. Ghadimi, A single-phase transformer-less 
+grid-tied inverter based on switched capacitor for PV application, J. Control. 
+Autom. Electr. Syst. 31 (2020) 257–270, https://doi.org/10.1007/s40313-019- 
+00531-5. 
+[3] L. Kong, J. Yu, G. Cai, Modeling, control and simulation of a photovoltaic/ 
+hydrogen/supercapacitor hybrid power generation system for grid-connected 
+applications, Int. J. Hydrogen Energy 44 (2019) 25129–25144, https://doi.org/ 
+10.1016/j.ijhydene.2019.05.097. 
+[4] S. Cheng, G. Zhao, M. Gao, Y. Shi, M. Huang, M. Marefati, A new hybrid solar 
+photovoltaic/phosphoric acid fuel cell and energy storage system; Energy and 
+Exergy performance, Int. J. Hydrogen Energy 46 (2021) 8048–8066, https://doi. 
+org/10.1016/j.ijhydene.2020.11.282. 
+[5] T. Inoue, A. Fujishima, S. Konishi, K. Honda, Photoelectrocatalytic reduction of 
+carbon dioxide in aqueous suspensions of semiconductor powders [3], Nature 277 
+(1979) 637–638, https://doi.org/10.1038/277637a0. 
+[6] J.C. Hemminger, R. Carr, G.A. Somorjai, The photoassisted reaction of gaseous 
+water and carbon dioxide adsorbed on the SrTiO3 (111) crystal face to form 
+methane, Chem. Phys. Lett. 57 (1978) 100–104, https://doi.org/10.1016/0009- 
+2614(78)80359-5. 
+[7] P.G. Grimes, Energy depot fuel production and utilization, SAE Tech. Pap (1965), 
+https://doi.org/10.4271/650051. 
+[8] J.E. Funk, Thermochemical hydrogen production: past and present, Int. J. 
+Hydrogen Energy 26 (2001) 185–190, https://doi.org/10.1016/S0360-3199(00) 
+00062-8. 
+[9] H.L. Tuller, Solar to fuels conversion technologies: a perspective, Mater. Renew. 
+Sustain. Energy. 6 (2017), https://doi.org/10.1007/s40243-017-0088-2. 
+[10] N. Mariotti, M. Bonomo, L. Fagiolari, N. Barbero, C. Gerbaldi, F. Bella, C. Barolo, 
+Recent advances in eco-friendly and cost-effective materials towards sustainable 
+dye-sensitized solar cells, Green Chem. 22 (2020) 7168–7218, https://doi.org/ 
+10.1039/d0gc01148g. 
+[11] M.D. Allendorf, J.E. Miller, A.H. McDaniel, Design of materials for solar-driven fuel 
+production by metal-oxide thermochemical cycles, Electrochem. Soc. Interface. 22 
+(2013) 63–68, https://doi.org/10.1149/2.F06134if. 
+Fig. 9. X-ray powder diffraction patterns of Co2.4Ni0.6O4 before and after 100 
+thermal cycles. The bullet (*) indicates the peaks corresponded to 
+CoO⋅NiO phase. 
+Table 3 
+Estimated cost of high purity Co2.4Ni0.6O4 produced by sol-gel method at labo­
+ratory scale.   
+Cost (€/kg) 
+Reactive materials 
+Cobalt nitrate hexahydrate (11.7 €/kg) 
+49.57 
+Nickel nitrate hexahydrate (4.06 €/kg) 
+Citric Acid (0.76 €/kg) 
+Ethylene glicol (1.16 €/kg) 
+Labor cost 
+2 h at 30 €/h 
+60 
+Energy 
+22 h at 0.9048 €/h 
+19.91 
+Total cost  
+129.48  
+Y. Portilla-Nieto et al.                                                                                                                                                                                                                          
+
+
+===== Page 8 =====
+
+Solar Energy Materials and Solar Cells 230 (2021) 111194
+8
+[12] R.J. Detz, J.N.H. Reek, B.C.C. Van Der Zwaan, The future of solar fuels: when could 
+they become competitive? Energy Environ. Sci. 11 (2018) 1653–1669, https://doi. 
+org/10.1039/c8ee00111a. 
+[13] A. Bloess, W.P. Schill, A. Zerrahn, Power-to-heat for renewable energy integration: 
+a review of technologies, modeling approaches, and flexibility potentials, Appl. 
+Energy 212 (2018) 1611–1626, https://doi.org/10.1016/j.apenergy.2017.12.073. 
+[14] T. Block, N. Knoblauch, M. Schmücker, The cobalt-oxide/iron-oxide binary system 
+for use as high temperature thermochemical energy storage material, Thermochim. 
+Acta 577 (2014) 25–32, https://doi.org/10.1016/j.tca.2013.11.025. 
+[15] S. Tescari, C. Agrafiotis, S. Breuer, L. De Oliveira, M. Neises-Von Puttkamer, 
+M. Roeb, C. Sattler, Thermochemical solar energy storage via redox oxides: 
+materials and reactor/heat exchanger concepts, Energy Procedia 49 (2013) 
+1034–1043, https://doi.org/10.1016/j.egypro.2014.03.111. 
+[16] H.B. Dizaji, H. Hosseini, A review of material screening in pure and mixed-metal 
+oxide thermochemical energy storage (TCES) systems for concentrated solar power 
+(CSP) applications, Renew. Sustain. Energy Rev. 98 (2018) 9–26, https://doi.org/ 
+10.1016/j.rser.2018.09.004. 
+[17] B. Ehrhart, E. Coker, N. Siegel, A. Weimer, Thermochemical cycle of a mixed metal 
+oxide for augmentation of thermal energy storage in solid particles, Energy 
+Procedia 49 (2013) 762–771, https://doi.org/10.1016/j.egypro.2014.03.082. 
+[18] F. Bruno, M. Belusko, M. Liu, N.H.S. Tay, Using Solid-Liquid Phase Change 
+Materials (PCMs) in Thermal Energy Storage Systems, Woodhead Publishing 
+Limited, 2014, https://doi.org/10.1533/9781782420965.2.201. 
+[19] S. Wu, C. Zhou, E. Doroodchi, R. Nellore, B. Moghtaderi, A review on high- 
+temperature thermochemical energy storage based on metal oxides redox cycle, 
+Energy Convers. Manag. 168 (2018) 421–453, https://doi.org/10.1016/j. 
+enconman.2018.05.017. 
+[20] M. Liu, N.H. Steven Tay, S. Bell, M. Belusko, R. Jacob, G. Will, W. Saman, F. Bruno, 
+Review on concentrating solar power plants and new developments in high 
+temperature thermal energy storage technologies, Renew. Sustain. Energy Rev. 53 
+(2016) 1411–1432, https://doi.org/10.1016/j.rser.2015.09.026. 
+[21] C. Agrafiotis, M. Roeb, M. Schmücker, C. Sattler, Exploitation of thermochemical 
+cycles based on solid oxide redox systems for thermochemical storage of solar heat. 
+Part 2: redox oxide-coated porous ceramic structures as integrated thermochemical 
+reactors/heat exchangers, Sol. Energy 114 (2015) 440–458, https://doi.org/ 
+10.1016/j.solener.2014.12.036. 
+[22] C. Agrafiotis, M. Roeb, M. Schmücker, C. Sattler, Exploitation of thermochemical 
+cycles based on solid oxide redox systems for thermochemical storage of solar heat. 
+Part 1: testing of cobalt oxide-based powders, Sol. Energy 102 (2014) 189–211, 
+https://doi.org/10.1016/j.solener.2013.12.032. 
+[23] J.H. Myung, T.H. Shin, X. Huang, G. Carins, J.T.S. Irvine, Enhancement of redox 
+stability and electrical conductivity by doping various metals on ceria, Ce1-xMxO2- 
+δ (M = Ni, Cu, Co, Mn, Ti, Zr), Int. J. Hydrogen Energy 40 (2015) 12003–12008, 
+https://doi.org/10.1016/j.ijhydene.2015.05.029. 
+[24] C. Agrafiotis, S. Tescari, M. Roeb, M. Schmücker, C. Sattler, Exploitation of 
+thermochemical cycles based on solid oxide redox systems for thermochemical 
+storage of solar heat. Part 3: cobalt oxide monolithic porous structures as 
+integrated thermochemical reactors/heat exchangers, Sol. Energy 114 (2015) 
+459–475, https://doi.org/10.1016/j.solener.2014.12.037. 
+[25] A.H. Abedin, A critical review of thermochemical energy storage systems, Open 
+Renew. Energy J. 4 (2011) 42–46, https://doi.org/10.2174/ 
+1876387101004010042. 
+[26] A.J. Carrillo, J. Moya, A. Bay´on, P. Jana, V.A. De La Pe˜na O’Shea, M. Romero, 
+J. Gonzalez-Aguilar, D.P. Serrano, P. Pizarro, J.M. Coronado, Thermochemical 
+energy storage at high temperature via redox cycles of Mn and Co oxides: pure 
+oxides versus mixed ones, Sol. Energy Mater. Sol. Cells 123 (2014) 47–57, https:// 
+doi.org/10.1016/j.solmat.2013.12.018. 
+[27] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Improving the 
+thermochemical energy storage performance of the Mn 2 O 3/Mn 3 O 4 redox 
+couple by the incorporation of iron, ChemSusChem 8 (2015) 1947–1954, https:// 
+doi.org/10.1002/cssc.201500148. 
+[28] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Thermochemical heat 
+storage at high temperatures using Mn2O3/Mn3O4 system: narrowing the redox 
+hysteresis by metal co-doping, Energy Procedia 73 (2015) 263–271, https://doi. 
+org/10.1016/j.egypro.2015.07.686. 
+[29] L. Andr´e, S. Abanades, L. Cassayre, Mixed metal oxide systems applied to 
+thermochemical storage of solar energy: benefits of secondary metal addition in Co 
+and Mn oxides and contribution of thermodynamics, Appl. Sci. 8 (2018) 2618, 
+https://doi.org/10.3390/app8122618. 
+[30] T. Block, M. Schmücker, Metal oxides for thermochemical energy storage: a 
+comparison of several metal oxide systems, Sol. Energy 126 (2016) 195–207, 
+https://doi.org/10.1016/j.solener.2015.12.032. 
+[31] R.J. Hill, J.R. Craig, G.V. Gibbs, Systematics of the spinel structure type, Phys. 
+Chem. Miner. 4 (1979) 317–339, https://doi.org/10.1007/BF00307535. 
+[32] W.J. King, A.C.C. Tseung, The reduction of oxygen on nickel-cobalt oxides—II, 
+Electrochim. Acta 19 (1974) 493–498, https://doi.org/10.1016/0013-4686(74) 
+87030-1. 
+[33] D. Klissurski, E. Uzunova, Synthesis and features of binary cobaltite spinels, 
+J. Mater. Sci. 29 (1994) 285–293, https://doi.org/10.1007/BF01162484. 
+[34] B. Cui, H. Lin, J.B. Li, X. Li, J. Yang, J. Tao, Core-ring structured NiCo2O4 
+nanoplatelets: synthesis, characterization, and electrocatalytic applications, Adv. 
+Funct. Mater. 18 (2008) 1441–1447, https://doi.org/10.1002/adfm.200700982. 
+[35] M.-C. Liu, L.-B. Kong, C. Lu, X.-M. Li, Y.-C. Luo, L. Kang, X. Li, F.C. Walsh, A sol-gel 
+process for the synthesis of NiCo 2 O 4 having improved specific capacitance and 
+cycle stability for electrochemical capacitors, J. Electrochem. Soc. 159 (2012), 
+https://doi.org/10.1149/2.057208jes. A1262–A1266. 
+[36] Z.Q. Liu, Q.Z. Xu, J.Y. Wang, N. Li, S.H. Guo, Y.Z. Su, H.J. Wang, J.H. Zhang, 
+S. Chen, Facile hydrothermal synthesis of urchin-like NiCo2O4 spheres as efficient 
+electrocatalysts for oxygen reduction reaction, Int. J. Hydrogen Energy 38 (2013) 
+6657–6662, https://doi.org/10.1016/j.ijhydene.2013.03.092. 
+[37] S. Kuboon, Y.H. Hu, Study of NiO-CoO and Co3O4-Ni3O 4 solid solutions in 
+multiphase Ni-Co-O systems, Ind. Eng. Chem. Res. 50 (2011) 2015–2020, https:// 
+doi.org/10.1021/ie101249r. 
+[38] J. Ma, E. Guo, L. Yin, Porous hierarchical spinel Mn-doped NiCo 2 O 4 nanosheet 
+architectures as high-performance anodes for lithium-ion batteries and 
+electrochemical reaction mechanism, J. Mater. Sci. Mater. Electron. (2019), 
+https://doi.org/10.1007/s10854-019-01176-5. 
+[39] J. Liu, S.Z. Qiao, H. Liu, J. Chen, A. Orpe, D. Zhao, G.Q. Lu, Extension of the st¨ober 
+method to the preparation of monodisperse resorcinol-formaldehyde resin polymer 
+and carbon spheres, Angew. Chem. Int. Ed. 50 (2011) 5947–5951, https://doi.org/ 
+10.1002/anie.201102011. 
+[40] S. Wen, Y. Liu, F. Zhu, R. Shao, W. Xu, Hierarchical MoS 2 nanowires/NiCo 2 O 4 
+nanosheets supported on Ni foam for high-performance asymmetric 
+supercapacitors, Appl. Surf. Sci. 428 (2018) 616–622, https://doi.org/10.1016/j. 
+apsusc.2017.09.189. 
+[41] J. Zhao, M. Li, J. Li, C. Wei, Y. He, Y. Huang, Q. Li, Porous Ni-Co-Mn oxides prisms 
+for high performance electrochemical energy storage, Appl. Surf. Sci. 425 (2017) 
+1158–1167, https://doi.org/10.1016/j.apsusc.2017.07.261. 
+[42] I.T. Papadas, A. Ioakeimidis, G.S. Armatas, S.A. Choulis, Low Temperature 
+Combustion Synthesis of a Spinel Nico2o4 Hole Transport Layer for Perovskite 
+Photovoltaics, ArXiv, 2018. 
+[43] D.P. Dubal, P. Gomez-Romero, B.R. Sankapal, R. Holze, Nickel cobaltite as an 
+emerging material for supercapacitors: an overview, Nanomater. Energy 11 (2015) 
+377–399, https://doi.org/10.1016/j.nanoen.2014.11.013. 
+[44] S. Petrick Casagrande, R.C. Blanco, M´etodo de Rietveld para el estudio de 
+estructuras cristalinas 2 (2004) 1–5. 
+[45] J. Rodríguez-Carvajal, Recent advances in magnetic structure determination by 
+neutron powder diffraction, Phys. B Phys. Condens. Matter. 192 (1993) 55–69, 
+https://doi.org/10.1016/0921-4526(93)90108-I. 
+[46] S. Sasaki, K. Fujino, Y. Takeuchi, Scattering factors o f their constituent atoms, Ser. 
+B. 55 (1979) 43–48. https://www.jstage.jst.go.jp/article/pjab1977/55/2/55_2_ 
+43/_pdf. 
+[47] M.N. Magomedov, On the deviation from the Vegard’s law for the solid solutions, 
+Solid State Commun. 322 (2020) 114060, https://doi.org/10.1016/j. 
+ssc.2020.114060. 
+Y. Portilla-Nieto et al.                                                                                                                                                                                                                          

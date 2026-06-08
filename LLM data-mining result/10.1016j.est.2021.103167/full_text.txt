@@ -1,0 +1,830 @@
+
+
+===== Page 1 =====
+
+Journal of Energy Storage 43 (2021) 103167
+Available online 4 September 2021
+2352-152X/© 2021 Elsevier Ltd. All rights reserved.
+Superior thermochemical energy storage performance of the Co3O4/CoO 
+redox couple with a cubic micro-nanostructure 
+Lei Liu a, Zijian Zhou a,*, Changqing Wang a, Jie Xu a, Hongqiang Xia b, Guozhang Chang b, 
+Xiaowei Liu a, Minghou Xu a 
+a State Key Laboratory of Coal Combustion, School of Power and Engineering, Huazhong University of Science and Technology, Wuhan 430074, China 
+b State Key Laboratory of High-efficiency Utilization of Coal and Green Chemical Engineering, Ningxia University, Yinchuan 750000, China   
+A R T I C L E  I N F O   
+Keywords: 
+Thermochemical energy storage 
+Solar energy 
+Special morphology 
+Cobalt oxide 
+Redox reaction 
+A B S T R A C T   
+Co3O4 has been regarded as one of the most promising materials for redox energy storage due to its high 
+theoretical conversion and complete redox reversibility. However, when undergoing charge-discharge cycles at 
+high temperature, the material becomes sintered. The reversibility of the cobaltous oxides highly deteriorates, 
+and the reoxidation reaction rate notably decreases. In addition, the obvious thermal hysteresis in the redox 
+reaction process also limits the energy storage performance of the material. In this work, Co3O4 with different 
+micro-nanostructured morphologies is synthesized to evaluate its thermochemical energy storage performance. 
+The capacity of the synthesized and commercial Co3O4 is tested by thermogravimetric analysis (TGA). The fresh 
+and recycled oxides are well characterized. Results suggest that all samples show complete reversibility, and the 
+conversion decreases slightly after 30 cycles. The synthesized samples show better performance, especially cubic 
+Co3O4. The reoxidation rate of the commercial sample is approximately 150 μmol/min/g, but that of the cubic 
+sample is approximately 300-200 μmol/min/g in the first five cycles. The oxidation rate of the cubic sample 
+decreases and finally remains at about 180 μmol/min/g from the 5th cycle to the 30th cycle. After 5 charge- 
+discharge cycles, the commercial Co3O4 is severely sintered, while the cubic oxides are only slightly sintered. 
+After 30 redox cycles, the morphology of commercial oxides completely changed, while that of the cubic oxide 
+retains the approximate shape of a cube. Moreover, the thermal hysteresis values of the commercial and cubic 
+Co3O4 are 24.7◦C and 10.1◦C, respectively, suggesting that the energy loss of cubic oxides is much smaller. The 
+higher exothermic temperature of the cubic Co3O4 redox process also indicates that it can supply high-grade 
+thermal energy.   
+1. Introduction 
+In the contexts of climate change and the dwindling availability of 
+international fossil fuels as an energy supply, the utilization of renew­
+able energy forms, which caters to this era, has quickly developed into a 
+global revolutionary wave. Concentrated solar power (CSP), considered 
+a promising renewable energy source, is the key to solving climate 
+change and the future fossil energy crisis [1,2]. With the global expan­
+sion of CSP, from 1984 to 2016, the installed capacity of solar power 
+stations in the world has increased annually [3]. Nevertheless, when 
+developing these CSP sources, there are still some drawbacks, such as 
+their intermittent nature, in which energy is unavailable during off-sun 
+periods; therefore, an efficient energy storage system is required to 
+realize electricity production through the day and night at a global scale. 
+During on-sun hours, the excess energy can be stored by the storage 
+system, and during off-sun hours, the stored energy can be released [4, 
+5]. 
+At present, there are three kinds of energy storage technologies that 
+are used for collecting excess thermal energy in solar fields: sensible 
+energy storage (SES), latent energy storage (LES) and thermochemical 
+energy storage (TCES) [6,7]. SES stores or releases heat depending on 
+the specific heat capacity of materials, and the materials are often 
+molten salts, liquid metals and organic materials [8]. In the LES charging 
+process, solar energy acts as the heat source that initiates a phase change 
+of the energy storage medium; thus, the solar energy is stored in this new 
+phase. In the discharge step, the medium changes back into its original 
+phase. The energy storage performance depends on the latent heat of the 
+medium, and ionic liquids are considered potential LES materials [9]. 
+* Corresponding author. 
+E-mail address: zhouzj2012@hust.edu.cn (Z. Zhou).  
+Contents lists available at ScienceDirect 
+Journal of Energy Storage 
+journal homepage: www.elsevier.com/locate/est 
+https://doi.org/10.1016/j.est.2021.103167 
+Received 3 May 2021; Received in revised form 2 August 2021; Accepted 25 August 2021   
+
+
+===== Page 2 =====
+
+Journal of Energy Storage 43 (2021) 103167
+2
+Even though SES and LES are recognized as useful methods for solar 
+energy storage, their energy densities are not sufficient for some appli­
+cations. In addition, the energy storage media cannot store energy at 
+ambient temperature, so it is difficult for them to store energy for a long 
+time. In long-term energy storage, energy is usually stored as heat for 
+several months [10]. Based on this requirement, in recent years, TCES 
+has been operated at higher temperatures and has demonstrated a 
+higher energy density with minimal heat loss; thus, TCES has attracted 
+the interest of many researchers [11]. The storage and release of energy 
+depends on the breaking and recombination of chemical bonds. The heat 
+storage density of TCES is 5 and 10 times that of LES and SES, respec­
+tively. In the TCES process, both the storage period and transport are 
+theoretically unlimited because there is no thermal loss during storage. 
+However, due to the complexity of TCES technology, it is still a less 
+mature technology and is currently in the experimental stage [12,13]. 
+Once such technology can be realized, it is expected to participate in 
+energy generation dispatchability [14]. 
+Salt hydrates, carbonates, hydroxides, ammonia, and organics are 
+the most typical thermochemical energy storage materials used in 
+different TCES systems [4]. In various reaction systems, such as the salt 
+hydrates and carbonate reaction system, the reverse reactions involve 
+H2O and CO2. When H2O participates in the TCES reactions, it will be 
+converted into steam, suggesting that part of the energy will be 
+consumed. CO2 storage also requires some extra energy. Therefore, 
+neither of these reactions is beneficial due to reducing the energy effi­
+ciency of the system [15]. Metal oxides do not need to consider this 
+problem, and there is no need to consume heat due to phase changes and 
+product separation. Air, which serves as the reactant in the oxidation 
+reaction, is also selected as the medium for heat transfer. The TCES of 
+metal oxides is realized by the following reversible redox reactions, 
+which consist of two steps (reduction and oxidation) and can be used to 
+directly produce electricity via the air Brayton cycle [16]: 
+Charge(on −sun)MOx + ΔH→MOx−y + y
+2O2(g)
+(1)  
+Discharge(off −sun)MOx−y + y
+2O2(g)→MOx + ΔH
+(2) 
+The reduction reaction corresponds to energy storage (heat charge), 
+and the heat required for the reduction reaction is provided by the 
+excess heat in the solar power plant. The oxidation reaction corresponds 
+to the energy release (heat discharge). When the solar energy is insuf­
+ficient, the heat is released through the oxidation reaction to achieve 
+peak regulation. 
+The redox couples of pure metal oxides, including Co3O4/CoO, 
+Mn2O3/Mn3O4, BaO2/BaO, CuO/Cu2O and Fe2O3/Fe3O4, have been 
+researched for TCES. Among them, the Co3O4/CoO pair is widely 
+regarded as a potential redox couple for TCES due to its complete 
+reversibility and high density in energy storage behavior. The redox 
+onset temperature of the Co3O4/CoO system is approximately 900◦C, 
+and the theoretical conversion rate is 6.64%, which is approximately 
+twice that of the Mn2O3/Mn3O4 redox couple. The enthalpy of the redox 
+reaction is 844 kJ/kg, which is much higher than that of other metal 
+oxides [4,17]. The reaction formula is as follows: 
+Co3O4 ↔3CoO + 1
+2O2gΔH = 844 KJ
+/
+Kg
+(3) 
+This redox reaction involves the transition between Co3O4 and CoO. 
+Co3O4 is a cubic spinel structure, and the valence states of Co are 2+ and 
+3+. CoO also has a cubic structure with Co valence states of 2+. The 
+reduction reaction rate during the charge process depends on the rate of 
+heat transfer, while the oxidation reaction rate during the discharge step 
+is influenced by the rate of oxygen diffusion. Furthermore, the sintering 
+of materials owing to the higher reaction temperature affects the reac­
+tion rate, especially the reoxidation rate. As the 32nd rarest element in 
+the Earth’s crust, Co is more difficult to obtain than other elements [5], 
+so the price and rarity of Co3O4 is the main drawback for its utilization. 
+However, it should be noted that the reoxidation rate and theoretical 
+conversion rate of CoO are much higher than those of other pure metal 
+oxides for every single cycle [18], which means that in regard to time, 
+Co3O4 can complete the oxidation reaction faster and release more 
+energy. 
+Nonetheless, after long-term charge and discharge cycling, the ma­
+terial sinters due to the high temperature. The two main processes of 
+sintering are particle densification and coarsening, which make the 
+diffusion resistance of oxygen on the material surface increases and 
+leads to the cycling stability and reoxidation rate of the materials 
+decreasing [19,20]. Thus, the key to improving the performance of en­
+ergy storage is to enhance the cycling stability and reoxidation rate [5]. 
+Agrafiotis et al. found that the porous foamed structure of Co3O4 has 
+good sintering resistance, and it could maintain its structural stability 
+and redox reversibility after 30 cycles [19]. Pagkoura et al. found that 
+the addition of CeO could improve the redox kinetics of Co3O4; however, 
+its structure would be destroyed after long-term cycling [21]. Alfonso 
+et al. compared the redox performance of microporous Mn3O4 with 
+Mn3O4 powder and found that microporous Mn3O4 had a faster reox­
+idation rate. In addition, they chemically modified the sample with 
+several metal oxides and demonstrated that doping with Fe promoted 
+the fastest redox rate and highest cycling stability [20]. For this reason, 
+more effort should be made to enhance the anti-sintering capability of 
+redox couples. 
+In addition to sintering, there is another drawback that limits the 
+application of the Co3O4/CoO redox couple. The so-called thermal 
+hysteresis is an interesting phenomenon, in which the onset tempera­
+tures of the reduction and oxidation reactions are different from each 
+other; typically, the onset temperature of the oxidation reaction is 
+usually higher than that of the reduction reaction. Thermal hysteresis is 
+one of the most remarkable characteristics of energy storage materials; 
+therefore, narrowing the redox hysteresis can improve the charge- 
+discharge efficiency [22]. However, thus far, we have not seen any 
+studies that have focused on the thermal hysteresis of the Co3O4/CoO 
+redox couple. Alfonso et al. narrowed the redox hysteresis of Mn-based 
+redox couples by Cu-Fe doping and found that 10% Fe+5% Cu had the 
+most obvious improvement and that the thermal hysteresis decreased 
+from 225◦C to 98◦C [22,23]. Even though the thermal hysteresis of the 
+Co3O4/CoO redox couple is only a few tens of degrees, it is also neces­
+sary to narrow the temperature difference to enhance the 
+charge-discharge efficiency. 
+Morphological modifications of Co3O4 have been proposed to obtain 
+complete reversibility and fast redox kinetics. Special micro- 
+nanostructured materials, such as hollow sphere Co3O4 and nanorod 
+Co3O4, have been widely used in the energy field [24,25] because 
+micro-nanostructured materials with special morphologies can inherit 
+the advantages of nanomaterials. These micro-nanostructured materials 
+with special morphologies exhibit interesting properties, such as better 
+mass transfer properties and larger surface areas and pore volumes, 
+which are called integral microstructure synergies. These properties 
+have been proven in previous studies [26–28]. Therefore, for TCES, 
+micro-nanostructured materials may also exhibit good cycling 
+performance. 
+In the present study, to improve the redox cycling stability and re­
+action rate and lower the thermal hysteresis, Co3O4, with different 
+morphologies, is synthesized by a hydrothermal method. The TCES 
+performances of the materials are evaluated by thermogravimetric 
+analysis (TGA), and the characteristics of the physical and chemical 
+properties of the fresh and recycled samples are determined by X-ray 
+diffraction (XRD), scanning electron microscopy (SEM), the Brunauer- 
+Emmett-Teller (BET), and Raman spectroscopy techniques. 
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 3 =====
+
+Journal of Energy Storage 43 (2021) 103167
+3
+2. Experimental section 
+2.1. Materials preparation 
+Co3O4, with different morphologies, was synthesized by a hydro­
+thermal method. Taking cubic Co3O4 as an example, cobalt acetate 
+tetrahydrate (2.38 g), triethanolamine (2.0 g) and CO(NH2)2 (3.00 g) 
+were dissolved in 100 mL of deionized water under continuous stirring, 
+and then a red and transparent solution was obtained. The solution was 
+placed into a Teflon autoclave and kept at 180◦C for 12 h. The product 
+was separated by centrifugation and washed several times with ethanol 
+and deionized water after cooling to room temperature. Then, the ob­
+tained precipitate was dried in an oven at 60◦C for 24 h. Last, the 
+resulting product was heated in a muffle furnace at a rate of 10 ◦C/min 
+and calcined at 500 ◦C for 10 h. A black powder was obtained by 
+grinding. The general and spindle samples were prepared by a similar 
+method. The difference in the synthesis process was that the general 
+sample was made of CO(NH2)2 (3.00 g) and CoCl2.6H2O (2.38 g), and 
+the spindle sample was made of cobalt acetate tetrahydrate (2.50 g), CO 
+(NH2)2 (3.00 g) and polyvinylpyrrolidone (2.0 g) dissolved in 100 ml of 
+a mixed solvent that consisted of a 1:9 ratio of deionized water and N- 
+butanol. The cube, general and spindle samples were named CUB, CUB- 
+G and SPI, respectively. Similarly, the precursors of CUB, CUB-G and SPI 
+were denoted as CUBp, CUB-Gp and SPIp. 
+Commercial Co3O4 with a spherical morphology was purchased from 
+Shanghai Aladdin Biochemical Technology and was named COM. 
+2.2. Characterization and experimental techniques 
+X-ray diffraction (XRD, X’pert PRO, PANalytical, Holland) was 
+performed to investigate the structural characterization of all samples, 
+and the diffraction angle range was 10-80◦. Raman spectroscopy (Lab­
+RAM HR800, Horiba JobinYvon) of the oxides was conducted with a 
+backscattering geometry. A stabilized diode-pumped solid state (DPSS) 
+laser at 532 nm was used. Scanning electron microscopy (SEM, Quanta 
+200, FEI, Holland) was conducted with all samples. The Brunauer- 
+Emmett-Teller (BET) surface area and pore size distribution were 
+determined using a Micromeritics ASAP 2020 N2 adsorption apparatus. 
+A Netzsch STA 449 F5 instrument was used for thermogravimetric 
+analysis (TGA). In the TGA tests, each sample (50 mg) was subjected to 
+30 redox cycles in an alumina crucible. Each cycle consisted of two steps 
+(heating and cooling): the heating temperature was from 700◦C to 
+1000◦C, and the cooling temperature was from 1000◦C to 700◦C. In 
+addition, both the heating and cooling rates were 10◦C/min with an air 
+flow of 100 mL/min (79 mL/min N2 and 21 mL/min O2). 
+3. Results and discussion 
+3.1. Characterization results of the energy storage materials 
+Different morphologies of the samples could be observed in the SEM 
+results. The SEM images of the Co3O4 precursor (CoCO3) [27,28] are 
+shown in Fig. 1. All precursor particles presented a special shape, and 
+the precursor particles grew into different morphologies based on the 
+addition of different organic solvents. For the CUB-Gp (Fig. 1(a) and (b)), 
+the size of the cube was about ~10 μm. It was also observed that the 
+CUB-Gp particle was formed by accumulation of dense square sheets. As 
+seen in Fig. 1(c) and (d), the particle size of CUBp was about ~12 μm, 
+and the CUBp particle was formed by accumulation of loose irregular 
+sheets. The particle size of SPIp was just about ~1 μm, and it was formed 
+Fig. 1. SEM images of the CoCO3: (a) and (b) for the general sample (CUB-Gp), (c) and (d) for the cubic sample (CUBp) and (e) and (f) for the spindle sample (SPIp).  
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 4 =====
+
+Journal of Energy Storage 43 (2021) 103167
+4
+by accumulation of smaller irregular particles (Fig. 1(e) and (f)). 
+Accordingly, compared with the results in Fig. 1, it could be observed 
+in Fig. 2(c)–(h) that the shapes of Co3O4 obtained from calcination of the 
+CoCO3 were almost unchanged. The commercial Co3O4 (denoted as 
+COM) was spherical in the present study (Fig. 2(a) and (b)). Interest­
+ingly, as shown in Fig. 2(c)–(f), both CUB-G and CUB were in the cubic 
+shape. However, the CUB-G Co3O4 seemed to be formed by the accu­
+mulation of particles while the CUB Co3O4 mainly formed by the accu­
+mulation of sheets. As shown in Fig. 2(g) and (h) the spindle Co3O4 also 
+evolved from the aggregation of smaller massive fusiform particles. This 
+phenomenon can be attributed to the increase in viscosity, which limited 
+the growth of particles. In addition, as seen in Figs. 1 and 2, the surface 
+of the precursors was denser and smoother than that of the oxides 
+because during high-temperature calcination, the CoCO3 precursors 
+decomposed to form Co3O4, which released a large amount of CO2 and 
+turned the dense surface into a porous surface [29,30]. However, such a 
+reaction did not affect the inheritance of the special morphology of the 
+precursor. 
+The BET surface area and pore volume of the samples are listed in 
+Table 1. Cubic Co3O4 showed the largest BET surface area (5.38 cm2/g). 
+The BET surface areas of commercial, general and spindle Co3O4 were 
+1.67 cm2/g, 3.98 cm2/g, and 4.00 cm2/g, respectively. The pore volume 
+of each sample was almost the same, approximately 0.017-0.018 cm3/g, 
+except for commercial Co3O4 (0.0056 cm3/g). The good pore structure 
+of the oxides may be conducive to promoting chemical reactions, sug­
+gesting that the charge and discharge reaction rate may increase at least 
+for the first cycle. As reported by previous studies [31], a higher BET 
+surface area and larger pore volume are beneficial to oxidation reaction 
+processes. When O2 diffuses to the surface, it becomes much easier to 
+release more energy due to growth along the directions of the crystal 
+[32]. The microstructures of the samples synthesized in the present 
+study were consistent with the microstructures of samples synthesized 
+Fig. 2. SEM images of the Co3O4 with different morphologies: (a) and (b) for the commercial sample (COM), (c) and (d) for the general sample (CUB-G), (e) and (f) 
+for the cubic sample (CUB) and (g) and (h) for the spindle-shape sample (SPI). 
+Table 1 
+Surface area (SBET) and pore volume of the fresh samples.  
+Sample 
+Surface area (m2/g) 
+Pore volume (cm3/g) 
+COM 
+1.67 
+0.0056 
+CUB-G 
+3.98 
+0.018 
+CUB 
+5.38 
+0.017 
+SPI 
+4.00 
+0.018  
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 5 =====
+
+Journal of Energy Storage 43 (2021) 103167
+5
+via a similar method in a previous study [27,28]. 
+The XRD results are shown in Fig. 3. Fig. 3(a) and (b) show the 
+patterns of the precursors and the calcined products, respectively. The 
+diffraction peaks of the precursors were in good agreement with the 
+standard spectrum of a hexagonal crystal (JCPDS no. 78-0209). The 
+diffraction peaks of all precursors (2θ=31.3◦, 36.9◦, 65.2◦) were narrow 
+and sharp, suggesting the high crystallinity of the samples. Regarding 
+the Co3O4 samples shown in Fig. 3(b), the precursor peaks disappeared, 
+indicating that there were no precursor impurities, and the primary 
+peaks at 2θ=31.3◦, 36.9◦, 65.2◦corresponded to the standard spectra 
+(JCPDS No. 42-1467) with a higher degree of crystallinity. 
+As presented in Fig. 4, the different structural information of Co3O4 
+could be determined from the Raman spectra. The Co3O4 crystal was a 
+typical spinel structure, and all samples exhibited the same character­
+istic Raman peaks at 191, 470, 510, 608, and 675 cm−1, which corre­
+sponded to the T2g, Eg, T2g, T2g and A1g patterns [33], respectively. No 
+peaks belonging to impurity phases, such as CoO, could be observed in 
+the Raman spectra, which indicated that the synthetic Co3O4 was pure. 
+Interestingly, the peak of cubic Co3O4 exhibited a slight deviation. Such 
+a phenomenon may be caused by the formation of lattice defects during 
+the hydrothermal synthesis, which are related to oxygen vacancies and 
+are beneficial for improving redox kinetics [34,35]. 
+3.2. Redox cycling stability of Co3O4 with different morphologies 
+In most applications, energy storage materials are subjected to a 
+large number of redox cycles in a TCES system, and the more cycles the 
+material can be subjected to, the more valuable the material is. As a 
+result, one of the most important properties is that energy storage ma­
+terials can maintain complete reversibility at high temperatures. As 
+stated in the introduction, the diffusion of oxygen on the material sur­
+face is prevented due to two processes at the particle surface: the 
+densification or porosity of the surface after several cycles. 
+Each sample was subjected to 30 charge-discharge cycles from 700◦C 
+to 1000◦C in an air flow (100 mL/min). On the one hand, during the 
+charge step, the phase of Co3O4 turned into a phase of CoO via a 
+reduction reaction and demonstrated weight loss. On the other hand, 
+during the discharge process, the phase of Co3O4 became the CoO phase 
+on account of oxygen capture during the oxidation reaction, resulting in 
+weight gain. The theoretical weight gain-loss was approximately 6.64% 
+based on the stoichiometry of Eq. (3) [4]. 
+The weight variation of each sample during redox cycling was 
+monitored by TGA, which was used to study the redox reversibility. 
+Figs. 5 and 6 show the curves for the first 30 charge-discharge cycles and 
+for 5 charge-discharge cycles, respectively. Initially, as shown in Figs. 5 
+and 6, almost no difference can be observed in the cycling behavior of all 
+samples. The weight gain-loss was almost the same as the theoretical 
+weight conversion (approximately 6.64%) for every single cycle, and 
+almost complete reversibility was also evident throughout 30 charge- 
+discharge cycles. It is worth mentioning that for all samples, the com­
+mercial, general, cubic and spindle Co3O4 showed incomplete conver­
+sion, even at the first cycle. It could be observed in Figs. 5 and 6 that, for 
+commercial, general, cubic and spindle sample, the weight gain of the 
+first cycle was about 6.60%, 6.59%, 6.43% and 6.42%, respectively. 
+Considering that no evidence can be observed of the existence of CoO. 
+The irreversible mass loss during the first redox cycle could be due to 
+adsorbed water and carbon dioxide, which were produced by exposure 
+to the atmosphere for a long time. It should be pointed out that Alfonso 
+et al. [36] and Daniel et al. [37] also reported the same conclusion. 
+Moreover, for the last cycle shown in Figs. 5 and 6, the weight gain of 
+commercial, general, cubic and spindle sample was about 6.59%, 6.50%, 
+6.37% and 6.40%, respectively. Compared to the first cycle, the weight 
+gain of the last cycle for all samples only decreased slightly. the weight 
+gain of commercial sample was 99.8% (=6.59%/6.60%) of the first 
+cycle, general sample was 98.6% (=6.50%/6.59%), cubic sample was 
+99.1% 
+(=6.37%/6.43%) 
+and 
+spindle 
+sample 
+was 
+99.7% 
+(=6.40%/6.42%), respectively. In summary, the synthesized samples 
+showed good cycling behaviors, which was a large improvement 
+compared with the results of previous studies. 
+3.3. Effect of the different morphologies on the oxidation rate 
+As mentioned above, the oxidation step was dependent on oxygen 
+Fig. 3. XRD patterns of the samples with the different morphologies: (a) for precursor (CoCO3) and (b) for calcined product (Co3O4).  
+Fig. 4. Raman spectra of the Co3O4 with the different morphologies.  
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 6 =====
+
+Journal of Energy Storage 43 (2021) 103167
+6
+diffusion, which was caused by the weight gain steps that were different 
+from each other during the redox cycles. Alfonso et al. found that the 
+reduction rate depended on heat conduction and that the oxidation rate 
+depended on oxygen diffusion [23]. With increased cycling, the reduc­
+tion rate remained stable, but the reoxidation rate decreased; this is an 
+important characteristic of TCES candidates. Fig. 7 presents the TGA 
+curves related to the reoxidation rates during the 30 charge-discharge 
+cycles of all materials. The reaction rate values were calculated by 
+Eq. (4): 
+V = Δα/100
+Δt
+× 1000000
+32
+(4)    
+• Δɑ is the weight gain/loss (%);  
+• Δt is the time of reaction (min);  
+• 32 is the molecular weight of oxygen (g/mol); and  
+• 1000000 is the conversion coefficient between mol and μmol. 
+The reoxidation rate can be observed in Fig. 7, in which the reox­
+idation initially decreased exponentially during the first 5 cycles for all 
+synthesized samples. Among the samples, cubic Co3O4 was the fastest 
+(300-220 μmol/min/g), followed by general Co3O4 (295-215 μmol/ 
+min/g) and spindle Co3O4 (295-200 μmol/min/g). The reoxidation rate 
+of the cubic sample was 1.5 to 2 times faster than that of the commercial 
+Fig. 5. Plots of weight variation versus time for thirty cycles: (a) for the 
+commercial sample, (b) for the general sample, (c) for the cubic sample and (d) 
+for the spindle-shape sample. 
+Fig. 6. Plots of weight variation versus time for the first five redox cycles: (a) for the commercial sample, (b) for the general sample, (c) for the cubic sample and (d) 
+for the spindle-shape sample. 
+Fig. 7. Cycle-to-cycle evolution of the reoxidation rate over 30 redox cycles.  
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 7 =====
+
+Journal of Energy Storage 43 (2021) 103167
+7
+sample. However, commercial Co3O4 also exhibited a stable reoxidation 
+rate (140-150 μmol/min/g) for the first 20 cycles. After 5 cycles, the 
+reoxidation rate of cubic Co3O4 and spindle Co3O4 decreased slightly, 
+whereas for the 15th-30th cycles, the reoxidation rate remained stable. 
+The reoxidation rate of cubic (CUB) sample and spindle (SPI) sample 
+initially decreased exponentially and then could maintained at a stable 
+value. This phenomenon could be attributed to the evolution of pore 
+structure. At the initial stage, the pore structure of the cobalt was loose. 
+The loose pore structure was conducive to the diffusion of oxygen. From 
+this perspective, the higher reoxidation rate at initial stage was gained. 
+However, in the subsequent cycle, the pore structure was destroyed 
+seriously due to sintering. The concepts of sintering for catalysts are 
+basic and can be quoted here to explain the pore structure changes and 
+loss of reactivity. The pore structure destroyed by sintering prevented 
+the oxygen diffusion, which resulted to the lower reoxidation rate. 
+Meanwhile, the destruction of pore structure was irreversible. The 
+irreversible pore structure became stable in the subsequent cycle, sug­
+gesting that for the subsequent cycle, the sintering had little effect on the 
+pore structure. Hence, the stable value of reoxidation rate was obtained 
+[38]. Regarding general Co3O4, the reoxidation rate always decreased, 
+indicating that the pore structure was always damaged by sintering for 
+30 cycles. 
+Furthermore, for all samples, the evolution of the morphology was 
+shown in the SEM images of all samples after 5 and 30 cycles in Figs. 8 
+and 9, respectively. As presented in Fig. 8, after 5 cycles, the morphology 
+of the sample deformed under such severe conditions and the particle 
+surface of all sample became denser. Regarding commercial Co3O4 
+observed in Fig. 8(a) and (b) and spindle Co3O4 shown in Fig. 8(g) and 
+(h) after 5 charge-discharge cycles, the special morphology changed, 
+and the surface shrunk. However, the cubic Co3O4 presented in Fig. 8(e) 
+and (f) maintained its cubic structure. As for general Co3O4 shown in 
+Fig. 8 (c) and (d), after 5 cycles, its structure was also maintained. In 
+addition, after 30 cycles, as observed in Fig. 9, the morphology com­
+mercial sample in Fig. 9(a) and (b) and the spindle sample in Fig. 9(g) 
+and (h) was further destroyed. For general Co3O4 presented in Fig. 9(c) 
+and (d), a large number of particles with a cubic structure collapsed. The 
+Fig. 8. SEM images of Co3O4 after five cycles: (a) and (b) for the commercial sample (COM), (c) and (d) for the general sample (CUB-G), (e) and (f) for the cubic 
+sample (CUB) and (g) and (h) for the spindle-shape sample (SPI). 
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 8 =====
+
+Journal of Energy Storage 43 (2021) 103167
+8
+cubic sample shown in Fig. 9(e) and (f) was still able to maintain its 
+cubic structure. The result of morphology evolution indicated that the 
+cubic structure played an important role in cyclability. In addition, the 
+cubic structure could also result to the higher surface area and pore 
+volume, which could be another reason why cubic Co3O4 had the fastest 
+reoxidation rate. As mentioned above, the pore volumes listed in Table 1 
+of the synthesized samples were 3 times that of the commercial sample, 
+and for the synthesized samples, cubic Co3O4 had the highest surface 
+area. Based on these results, the morphology and structure of the sam­
+ples influenced the redox kinetics behavior, and cubic particles (with a 
+higher surface area) had better performance. 
+3.4. Thermal hysteresis of the different samples during charge-discharge 
+cycling 
+In heat charge-discharge cycling, which is redox cycling at high 
+temperature, the onset temperature of oxidation and reduction take 
+place at different temperatures under the same oxygen partial pressure, 
+which is also one of the most significant characteristics of energy storage 
+materials [22]. Regarding the pair of Co3O4/CoO, the difference 
+between the reduction and oxidation onset temperatures has been re­
+ported by previous studies [39]. According to Andr´e et al., the theo­
+retical redox onset temperature is 935◦C, while the transition 
+temperature in air with 20% O2 is 790◦C [40]. To narrow the thermal 
+hysteresis, morphological modifications of the Co3O4/CoO pair have 
+been conducted. In this work, the micro-nanostructure of the Co3O4/­
+CoO pair after modification was investigated to observe whether it had a 
+positive effect on the kinetics behavior. This effect is shown in Fig. 10, 
+and it can be observed that the evolution of each synthesized sample was 
+recorded by TGA. It should also be pointed out that in the first heating 
+step, small amounts of water and carbon dioxide were removed, 
+resulting in an irreversible initial mass loss; thus, to avoid that, the first 
+cycle was not considered. The reaction temperature of the second cycle 
+is displayed in Table 2 and Fig. 10. 
+Regarding commercial samples, the difference between the onset 
+temperature of reduction and oxidation was 24.7◦C in Fig. 10(a) and 
+Table 2. While for the synthesized samples, the difference was less 
+(11.1◦C, 10.0◦C and 10.1◦C). This result was mainly caused by the in­
+crease in Tox, probably due to the special micromorphology. The 
+oxidation temperature of general Co3O4 presented in Fig. 10(b) 
+Fig. 9. SEM images of Co3O4 after thirty cycles: (a) and (b) for the commercial sample (COM), (c) and (d) for the general sample (CUB-G), (e) and (f) for the cubic 
+sample (CUB) and (g) and (h) for the spindle-shape sample (SPI). 
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 9 =====
+
+Journal of Energy Storage 43 (2021) 103167
+9
+increased to 898◦C, and the reduction temperature decreased to 
+909.1◦C, but from Fig. 10(c), cubic Co3O4, the oxidation and reduction 
+temperatures were 909.3◦C and 899.3◦C, respectively, showing better 
+thermal hysteresis performance. Regarding spindle Co3O4 shown in 
+Fig. 10(d), although the difference between the onset temperatures was 
+10.1◦C, which was the same as cubic Co3O4, the onset temperatures 
+were 906.6◦C and 896.5◦C, which were lower than those for cubic 
+Co3O4. Comparing the commercial sample (COM) with the synthesized 
+samples (CUB-G, CUB and SPI), the synthesized samples, especially the 
+cubic sample (Fig. 10(c)), had a higher onset temperature and narrower 
+thermal hysteresis, which were 12.3◦C higher and half as narrow as 
+commercial Co3O4 (14.7◦C narrower). These results indicated that the 
+cubic micro-nanostructure had a positive effect on increasing the onset 
+temperature of reduction and oxidation and narrowing the redox hys­
+teresis, which meant that there was less energy loss when cubic oxides 
+were used for thermal energy storage; furthermore, the higher 
+exothermic temperature also indicated that the cubic Co3O4 redox 
+process could supply high-grade thermal energy. 
+3.5. Heat storage density 
+As mentioned above, the sample showed incomplete conversion rate 
+even for the first cycle. Therefore, the second cycle was selected as the 
+initial cycle. The mass loss and theoretical heat storage are displayed in 
+Table 3. The theoretical heat storage density was calculated based on the 
+Eq. (5): 
+Qheat =
+Mass loss (2 nd)
+Mass loss (theoretical) × 844 (kJ / kg)
+(5)  
+where the Mass loss (2nd) was the weight loss of the second cycle. The 
+Mass loss (theoretical) was the theoretical weight loss from Eq. (3). The 
+844 (kJ/kg) was the reaction enthalpy of Eq. (3) for complete 
+conversion. 
+From Table 3, the weight loss of all samples was lower than theo­
+retical weight loss and the heat density was also lower than the theo­
+retical heat density. Among them, the commercial Co3O4 exhibited the 
+highest theoretical stored heat, followed by general Co3O4 and spindle 
+and cubic Co3O4; the weight losses of the above samples were 6.62%, 
+6.60%, 6.52% and 6.44%, respectively. Meanwhile, the theoretical heat 
+density was 837.64, 838.14, 817.05 and 824.68 kJ/kg, respectively. 
+Among them, the cubic Co3O4 showed the best performance during 
+redox cycling, but in terms of heat density, it was the lowest (817.05 kJ/ 
+kg). Interestingly, the cubic sample had the fast reoxidation rate and 
+narrowest thermal hysteresis, but the theoretical heat density was the 
+lowest. As a consequence of the theoretical heat density, its value was 
+related to the mass loss. There was little difference for all mass loss 
+values. The mass loss was obtained by the mass difference between the 
+beginning and end of reaction. It was difficult to gain the accurate mass 
+value for the beginning and end of reaction. Therefore, the difference for 
+mass loss values could be attributed to the measurement error. Withal, 
+according to the previous studies, the similar mass loss was also gained 
+by other researchers, which was about 6.34%-6.55% for the initial cycle 
+Fig. 10. Cycle-to-cycle weight-temperature curves for over 30 redox cycles and the thermal hysteresis of the second cycle: (a) for the commercial Co3O4, (b) for the 
+general Co3O4, (c) for the cubic Co3O4 and (d) for the spindle-shape Co3O4. 
+Table 2 
+Reduction and oxidation onset temperatures and the thermal hysteresis for the 
+second redox cycle  
+Sample name 
+Tred (◦C) 
+Tox (◦C) 
+ΔTHysteresis (◦C) 
+COM 
+911.6 
+887.0 
+24.7 
+CUB-G 
+909.1 
+898.0 
+11.1 
+CUB 
+909.3 
+899.3 
+10.0 
+SPI 
+906.6 
+896.5 
+10.1  
+Table 3 
+Energy density of the 2nd redox cycle.  
+Sample 
+Mass loss (%) 
+Theoretical stored heat (kJ/kg) 
+COM 
+6.62 
+837.64 
+CUB-G 
+6.60 
+838.14 
+CUB 
+6.44 
+817.05 
+SPI 
+6.52 
+824.68  
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 10 =====
+
+Journal of Energy Storage 43 (2021) 103167
+10
+[18,19,39,41]. The heat density of cubic sample was just less than the 
+other samples by only 7-20 kJ/kg (about 0.83%-2.37% of the theoretical 
+heat density, 844 kJ/kg). Thus, mass loss value obtained in this work 
+was normal, but the cubic sample had the better performance in reox­
+idation rate, onset reaction temperature and thermal hysteresis. 
+4. Conclusions 
+Micro-nanostructured Co3O4 materials with a cubic morphology 
+exhibited good redox performance, promoting their use in thermo­
+chemical energy storage applications. All samples demonstrated com­
+plete redox reversibility even after 30 cycles. It was confirmed over 30 
+charging-discharging cycles that the reoxidation rate decreased due to 
+sintering, but the reoxidation rate and thermal hysteresis of the syn­
+thesized samples were greatly improved compared to those of the 
+commercial sample. In particular, cubic Co3O4 showed the fastest 
+oxidation rate (300-200 μmol/min/g). The oxidation rate of cubic Co3O4 
+decreased in the first five cycles before remaining steady at 170-180 
+μmol/min/g, and in the subsequent cycles, it had a slightly decreasing 
+trend while basically remaining stable. The cubic Co3O4 also had better 
+performance in regard to reaction temperature and thermal hysteresis. 
+The thermal hysteresis was 10.0◦C, which was much lower than that of 
+commercial Co3O4 (24.7◦C). Additionally, the onset temperatures of the 
+redox reactions of cubic Co3O4 were 909.3◦C and 899.3◦C, while those 
+for commercial Co3O4 were 911.6◦C and 887.0◦C. Additionally, the 
+cubic sample had a higher exothermic temperature than the commercial 
+sample, indicating that the energy loss would be smaller when using 
+cubic oxides for thermal energy storage. In summary, cubic Co3O4 
+synthesized by a hydrothermal method demonstrated fast redox reaction 
+kinetics and a narrow thermal hysteresis, rendering it as an attractive 
+option for further study and implementation in a thermochemical en­
+ergy storage system. 
+CRediT authorship contribution statement 
+Lei Liu: Investigation, Data curation, Writing – original draft. Zijian 
+Zhou: Writing – review & editing, Investigation, Conceptualization. 
+Changqing Wang: Investigation. Jie Xu: Visualization. Hongqiang 
+Xia: Visualization. Guozhang Chang: Conceptualization. Xiaowei Liu: 
+Conceptualization, Supervision, Resources. Minghou Xu: Conceptuali­
+zation, Supervision, Resources. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgment 
+This study was supported by the National Natural Science Founda­
+tion of China (51906078 and 51922045) and the Foundation of the State 
+Key Laboratory of High-efficiency Utilization of Coal and Green Chem­
+ical Engineering (Grant No. 2021-K75). Additionally, the Analytical and 
+Testing Centers at Huazhong University of Science & Technology are 
+appreciated. 
+References 
+[1] M. Romero, J. Gonz´alez-Aguilar, Solar thermal CSP technology, Wiley Interdiscip. 
+Rev. 3 (2014) 42–59. 
+[2] R.J. Clark, A. Mehrabadi, M. Farid, State of the art on salt hydrate thermochemical 
+energy storage systems for use in building applications, J. Energy Storage 27 
+(2020), 101145. 
+[3] J. Lilliestam, M. Labordena, A. Patt, S. Pfenninger, Empirically observed learning 
+rates for concentrating solar power and their responses to regime change, Nat. 
+Energy 2 (2017) 17094. 
+[4] S. Wu, C. Zhou, E. Doroodchi, R. Nellore, B. Moghtaderi, A review on high- 
+temperature thermochemical energy storage based on metal oxides redox cycle, 
+Energy Convers. Manage. 168 (2018) 421–453. 
+[5] A.J. Carrillo, J. Gonz´alez-Aguilar, M. Romero, J.M. Coronado, Solar energy on 
+demand: a review on high temperature thermochemical heat storage systems and 
+materials, Chem. Rev. 119 (2019) 7. 
+[6] A.H. Abedin, A critical review of thermochemical energy storage systems, Open 
+Renew. Energy J. 4 (2011) 42–46. 
+[7] G. Air`o Farulla, M. Cellura, F. Guarino, M. Ferraro, A review of thermochemical 
+energy storage systems for power grid support, Appl. Sci. 10 (2020) 3142. 
+[8] P. Nicole, B. Thomas, M. Claudia, E. Markus, W.R. Antje, Thermal energy storage – 
+overview and specific insight into nitrate salts for sensible and latent heat storage, 
+Beilstein J. Nanotechnol. 6 (2015) 1487–1497. 
+[9] S.F. Ahmed, M. Khalid, W. Rashmi, A. Chan, K. Shahbaz, Recent progress in solar 
+thermal energy storage using nanomaterials, Renew. Sustain. Energy Rev. 67 
+(2017) 450–460. 
+[10] S. Koohi-Fayegh, M.A. Rosen, A review of energy storage types, applications and 
+recent developments, J. Energy Storage 27 (2020), 101047. 
+[11] B.G. Lougou, D.M. Han, H. Zhang, B.S. Jiang, J. Anees, C. Ahouannou, J.P. Zhao, 
+Y. Shuai, Numerical and experimental analysis of reactor optimum design and solar 
+thermal-chemical energy conversion for multidisciplinary applications, Energy 
+Convers. Manage. 213 (2020), 112870. 
+[12] P. Pardo, A. Deydier, Z. Anxionnaz-Minvielle, S. Rouge, M. Cabassud, P. Cognet, 
+A review on high temperature thermochemical heat energy storage, Renew. 
+Sustain. Energy Rev. 32 (2014) 591–610. 
+[13] Y.Y. Yan, K. Wang, P.T. Clough, E. Anthony, Developments in calcium/chemical 
+looping and metal oxide redox cycles for high-temperature thermochemical energy 
+storage: a review, Fuel Process. Technol. 199 (2020), 106280. 
+[14] M. Romero, A. Steinfeld, Concentrating solar thermal power and thermochemical 
+fuels, Energy Environ. Sci. 5 (2012) 9234–9245. 
+[15] J. Liu, J. Baeyens, Y.M. Deng, X.L. Wang, High temperature Mn2O3/Mn3O4 and 
+Co3O4/CoO systems for thermo-chemical energy storage - ScienceDirect, 
+J. Environ. Manage. 267 (2020), 110582. 
+[16] A.J. Schrader, H.E. Bush, D. Ranjan, P.G. Loutzenhiser, Aluminum-doped calcium 
+manganite particles for solar thermochemical energy storage: reactor design, 
+particle characterization, and heat and mass transfer modeling, Int. J. Heat Mass 
+Transf. 152 (2020), 119461. 
+[17] N. Nekokar, M. Pourabdoli, A.G. Hamidi, D. Uner, Effect of mechanical activation 
+on thermal energy storage properties of Co3O4/CoO system, Adv. Powder Technol. 
+Int. J. Soc. Powder Technol. Jpn. 29 (2018) 333–340. 
+[18] C. Agrafiotis, M. Roeb, M. Schmuecker, C. Sattler, Exploitation of thermochemical 
+cycles based on solid oxide redox systems for thermochemical storage of solar heat. 
+Part 1: testing of cobalt oxide-based powders, Sol. Energy 102 (2014) 189–211. 
+[19] C. Agrafiotis, S. Tescari, M. Roeb, M. Schmuecker, C. Sattler, Exploitation of 
+thermochemical cycles based on solid oxide redox systems for thermochemical 
+storage of solar heat. Part 3: cobalt oxide monolithic porous structures as 
+integrated thermochemical reactors/heat exchangers, Sol. Energy 114 (2015) 
+459–475. 
+[20] A.J. Carrillo, D. Serrano, P. Pizarro, J.M. Coronado, Design of efficient Mn-based 
+redox materials for thermochemical heat storage at high temperatures, AIP Conf. 
+Proc. 1734 (2016), 050009. 
+[21] C. Pagkoura, G. Karagiannakis, A. Zygogianni, S. Lorentzou, M. Kostoglou, A. 
+G. Konstandopoulos, M. Rattenburry, J.W. Woodhead, Cobalt oxide based 
+structured bodies as redox thermochemical heat storage medium for future CSP 
+plants, Sol. Energy 108 (2014) 146–163. 
+[22] A.J. Carrillo, D.P. Serrano, P. Pizarro, Thermochemical heat storage at high 
+temperatures using Mn2O3/Mn3O4 system: narrowing the redox hysteresis by metal 
+co-doping, Energy Proc. 73 (2015) 263–271. 
+[23] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Improving the 
+thermochemical energy storage performance of the Mn2O3/Mn3O4 redox couple by 
+the incorporation of iron, ChemSusChem 8 (2015) 1947–1954. 
+[24] X. Lai, J.E. Halperf, D. Wang, Recent advances in micro-/nano-structured hollow 
+spheres for energy applications: From simple to complex systems, Energy Environ. 
+Sci. 5 (2012) 5604–5618. 
+[25] L. Wang, B. Liu, S.H. Ran, H.T. Huang, X.F. Wang, B. Liang, D. Chen, G.Z. Shen, 
+Nanorod-assembled Co3O4 hexapods with enhanced electrochemical performance 
+for lithium-ion batteries, J. Mater. Chem. 22 (2012) 23541–23546. 
+[26] A.K. Rai, J. Gim, L.T. Anh, J. Kim, Partially reduced Co3O4/graphene 
+nanocomposite as an anode material for secondary lithium ion battery, 
+Electrochim. Acta 100 (2013) 63–71. 
+[27] G. Huang, S. Xu, S. Lu, L. Li, H. Sun, Micro-/nanostructured Co3O4 anode with 
+enhanced rate capability for lithium-ion batteries, ACS Appl. Mater. Interfaces 6 
+(2014) 7236–7243. 
+[28] G. Huang, S. Xu, S. Lu, L. Li, H. Sun, Porous polyhedral and fusiform Co3O4 anode 
+materials for high-performance lithium-ion batteries, Electrochim. Acta 135 (2014) 
+420–427. 
+[29] W. Du, R. Liu, Y. Jiang, Q. Lu, Y. Fan, F. Gao, Facile synthesis of hollow Co3O4 
+boxes for high capacity supercapacitor, J. Power Sources 227 (2013) 101–105. 
+[30] W.W. Yuan, D. Xie, Z.M. Dong, Q.M. Su, J. Zhang, G.H. Du, B.S. Xu, Preparation of 
+porous Co3O4 polyhedral architectures and its application as anode material in 
+lithium-ion battery, Mater. Lett. 97 (2013) 129–132. 
+[31] Z. Zhou, X. Liu, C. Li, Y. Yang, J. Xu, M. Xu, Flaming combustion and smoldering of 
+active impregnated cigarette butts: a novel method for synthesis of nanostructured 
+MnOx catalysts for NOx reduction, Fuel 277 (2020), 118230. 
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 11 =====
+
+Journal of Energy Storage 43 (2021) 103167
+11
+[32] F. Cao, D. Wang, R. Deng, J. Tang, S. Song, Y. Lei, S. Wang, S. Su, X. Yang, 
+H. Zhang, Porous Co3O4 microcubes: hydrothermal synthesis, catalytic and 
+magnetic properties, Crystengcomm 13 (2011) 2123–2129. 
+[33] M. Rashad, M. Rüsing, G. Berth, K. Lischka, A. Pawlis, CuO and Co3O4 
+nanoparticles: synthesis, characterizations, and Raman spectroscopy, 
+J. Nanomater. 2013 (2013) 82. 
+[34] X. Ma, X. Yu, M. Ge, Highly efficient catalytic oxidation of benzene over Ag assisted 
+Co3O4 catalysts, Catal. Today 376 (2020) 262–268. 
+[35] Z. Zhou, X. Liu, Z. Liao, H. Shao, M. Xu, Manganese doped CeO2-ZrO2 catalyst for 
+elemental mercury oxidation at low temperature, Fuel Process. Technol. 152 
+(2016) 285–293. 
+[36] A. Carrillo, D. Serrano, P. Pizarro, J. Coronado, Thermochemical heat storage 
+based on the Mn2O3/Mn3O4 redox couple: influence of the initial particle size on 
+the morphological evolution and cyclability, J. Mater. Chem. A 2 (2014) 
+19435–19443. 
+[37] D. Bielsa, A. Zaki, P.L. Arias, A Faik, Improving the redox performance of Mn2O3/ 
+Mn3O4 pair by Si doping to be used as thermochemical energy storage for 
+concentrated solar power plants, Sol. Energy 204 (2020) 144–154. 
+[38] S. Bai, J. Sun, Z. Zhou, C. Bu, X. Chen, Y. Yang, R. Wang, Y. Guo, C. Zhao, W. Liu, 
+Structurally improved, TiO2-incorporated, CaO-based pellets for thermochemical 
+energy storage in concentrated solar power plants, Sol. Energy Mater. Sol. Cells 
+226 (2021), 111076. 
+[39] D. Mueller, C. Knoll, W. Artner, M. Harasek, C. Gierl-Mayer, J.M. Welch, 
+A. Werner, P. Weinberger, Combining in-situ X-ray diffraction with 
+thermogravimetry and differential scanning calorimetry - an investigation of 
+CO3O4, MnO2 and PbO2 for thermochemical energy storage, Sol. Energy 153 
+(2017) 11–24. 
+[40] S.A. Laurie Andr´e, G. Flamant, Screening of thermochemical systems based on 
+solid-gas reversible reactions for high temperature solar thermal energy storage, 
+Renew. Sustain. Energy Rev. 64 (2016) 703–715. 
+[41] T. Block, N. Knoblauch, M. Schmücker, The cobalt-oxide/iron-oxide binary system 
+for use as high temperature thermochemical energy storage material, Thermochim. 
+Acta 577 (2014) 25–32. 
+L. Liu et al.                                                                                                                                                                                                                                       

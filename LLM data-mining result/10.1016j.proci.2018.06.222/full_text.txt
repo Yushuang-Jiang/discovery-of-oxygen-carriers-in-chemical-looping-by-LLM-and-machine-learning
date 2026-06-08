@@ -1,0 +1,813 @@
+
+
+===== Page 1 =====
+
+Available online at www.sciencedirect.com 
+Proceedings of the Combustion Institute 37 (2019) 4399–4408 
+www.elsevier.com/locate/proci 
+Reaction mechanism of spinel CuFe 2 O 4 with CO during 
+chemical-looping combustion: An experimental and 
+theoretical study 
+Feng Liu, Jing Liu ∗, Yingju Yang, Zhen Wang, Chuguang Zheng 
+State Key Laboratory of Coal Combustion, School of Energy and Power Engineering, Huazhong University of Science and 
+Technology, Wuhan 430074, China 
+Received 1 December 2017; accepted 27 June 2018 
+Available online 17 July 2018 
+Abstract 
+Spinel CuFe 2 O 4 is a promising oxygen carrier due to its synergistic enhanced performance. A fundamental 
+understanding of the reaction mechanism between oxygen carrier and fuels is important for a rational design 
+of highly efficient oxygen carrier. The reaction mechanism of spinel CuFe 2 O 4 with CO during chemical- 
+looping combustion (CLC) was studied based on thermogravimetric analyses (TGA) and density functional 
+theory (DFT) calculations. Two distinct reaction stages were clearly observed. CuFe 2 O 4 was mainly trans- 
+formed into Cu and Fe 3 O 4 with a rapid reaction rate in the initial stage, and then product Fe 3 O 4 was slowly 
+reduced to FeO or even to Fe. The reactivity of CuFe 2 O 4 is much higher than that of Fe 2 O 3 , which is ascribed 
+to the existence of Cu. The enhanced oxygen evolution activity of CuFe 2 O 4 at low temperature is validated 
+by both the experimental and theoretical methods. Three types of surface oxygen coordinated with different 
+metal atoms show different reactivity. Two kinds of reaction pathways are involved in CO oxidation over 
+CuFe 2 O 4 . In the one-step reaction pathway, CO directly reacts with the oxygen bonding to two octahedral 
+Cu and one octahedral Fe atoms to form a CO 2 molecule without an energy barrier, which corresponds to the 
+surface oxygen consumption observed in TGA experiments. In the possible two-step reaction pathway, CO 
+first adsorbs on the surface, and then reacts with the oxygen bound to one octahedral Cu and two octahedral 
+Fe atoms to generate CO 2 by surmounting an energy barrier of 10.84 kJ/mol, which is the most kinetically 
+and thermodynamically favorable pathway. 
+© 2018 The Combustion Institute. Published by Elsevier Inc. All rights reserved. 
+Keywords: Chemical-looping combustion; Spinel CuFe 2 O 4 ; CO oxidation; Reaction mechanism; Reaction pathway 
+∗Corresponding author. 
+E-mail address: liujing27@mail.hust.edu.cn (J. Liu). 
+1. Introduction 
+Chemical-looping combustion (CLC) is an in- 
+novative combustion technology for CO 2 capture 
+with low cost and energy penalty [1–3] . Being differ- 
+ent from the conventional combustion, fuel and air 
+https://doi.org/10.1016/j.proci.2018.06.222 
+1540-7489 © 2018 The Combustion Institute. Published by Elsevier Inc. All rights reserved. 
+
+
+===== Page 2 =====
+
+4400 
+F. Liu et al. / Proceedings of the Combustion Institute 37 (2019) 4399–4408 
+in CLC are never in direct contact. Instead, oxygen 
+carrier is circulated between a fuel reactor and an 
+air reactor to transfer oxygen for fuel combustion. 
+Consequently, oxygen carrier is the foundation of 
+CLC and is identified as one of the determining fac- 
+tors for the successful operation of CLC. 
+In recent years, a lot of efforts have been made 
+for the selection and optimization of oxygen carri- 
+ers with improved redox and mechanical properties 
+[4–10] . Compared to other potential oxygen carrier 
+materials, Fe 2 O 3 shows a lot of positive properties 
+such as low cost, high mechanical strength and en- 
+vironment friendliness. However, the redox charac- 
+teristic of Fe 2 O 3 is relatively weaker than that of 
+other metal oxides, especially for the CLC with coal 
+or methane. In addition, Fe 2 O 3 with the thermody- 
+namic limitation leads to a low oxygen transport ca- 
+pacity, because only the transformation from Fe 2 O 3 
+to Fe 3 O 4 is applicable for CLC system to produce a 
+high concentration of CO 2 [11] . On the other hand, 
+CuO is a very attractive oxygen carrier due to its 
+high redox reactivity, high oxygen transfer capacity 
+and a favorable thermodynamics for complete fuel 
+conversion [4] . Nevertheless, the main challenge of 
+CuO is its low melting point and high tendency to 
+agglomeration. As a result, a single metal oxide of 
+Fe 2 O 3 or CuO is difficult to adequately satisfy the 
+requirements of practical CLC application. 
+Recently, in order to address the disadvantages 
+of single metal oxide, bimetallic Cu/Fe oxygen car- 
+riers with synergistic effect, which takes advantages 
+of the favorable characteristics of each of them, 
+have been studied to increase the reactivity of Fe- 
+based oxides and the stability of Cu-based oxides 
+[5–7] . In the previous studies, the synergistic im- 
+provements were mainly attributed to the forma- 
+tion of new crystalline phases, such as spinels and 
+perovskites [12] . Siriwardane et al. [5,6] found that 
+the spinel CuFe 2 O 4 could be easily formed even in 
+the presence of a small amount of Fe 2 O 3 above 
+488 °C. They also suggested that the mixed oxides 
+with Cu/Fe ratio about 1:2 exhibited better reac- 
+tivity and improved physical stability as compared 
+to the corresponding single metal oxide during the 
+coal or CH 4 CLC. This indicates that the newly 
+formed CuFe 2 O 4 plays a critical role in the pro- 
+moted performance of mixed oxides. Furthermore, 
+Wang et al. [13–15] synthesized CuFe 2 O 4 using sol- 
+gel combustion synthesis method, and revealed that 
+spinel CuFe 2 O 4 had better reactivity than Fe 2 O 3 
+with coal and no agglomeration occurred at 900 °C. 
+Besides, the performance of various ferrites were 
+investigated, and it was found that bimetallic fer- 
+rites had better reactivity than pure Fe 2 O 3 , and no- 
+tably decreased the particle agglomeration during 
+the cyclic tests [7,12] . In addition, CuFe 2 O 4 with 
+spinel structure is well known to be a magnetic ma- 
+terial, which can greatly facilitate the separation of 
+oxygen carrier from the fuel ash. Therefore, spinel 
+CuFe 2 O 4 is a promising oxygen carrier candidate 
+for the application of CLC. 
+The knowledge of reaction mechanism between 
+fuel molecules and oxygen carrier is useful for un- 
+derstanding the reaction behaviors accompanying 
+with the evolution of lattice oxygen, crystalline 
+phase and microstructure, which will facilitate the 
+design and optimization of more efficient oxygen 
+carriers. Although previous studies characterized 
+the reactivity and stability of CuFe 2 O 4 during CH 4 
+or coal CLC process, no attempts have yet been 
+made to study the reactivity of spinel CuFe 2 O 4 with 
+CO as a reducing gas. Since CO is a key compo- 
+nent in the syngas. Furthermore, the reaction mech- 
+anism of CuFe 2 O 4 with CO during CLC process is 
+still unknown. 
+The objectives herein are to investigate the re- 
+activity of CuFe 2 O 4 with CO and reveal the re- 
+lated reaction mechanism. TGA experiments were 
+conducted to acquire the reduction behavior of 
+CuFe 2 O 4 by CO. Theoretical investigation based 
+on the density functional theory (DFT) calcu- 
+lations was performed to identify the oxidation 
+mechanism of CO over spinel CuFe 2 O 4 . Based on 
+the TGA, XRD, XPS and DFT analysis, the con- 
+nection between reduction behavior and reaction 
+mechanism was introduced. These results will be 
+helpful for the practical application of the com- 
+bined Cu/Fe oxygen carriers. 
+2. Experimental and computational details 
+2.1. Preparation and characterization of oxygen 
+carrier 
+The spinel CuFe 2 O 4 oxygen carrier particles 
+were prepared by sol-gel combustion method. The 
+preparation route starts from molecular precursors 
+and forms an oxide network through the inorganic 
+polymerization reactions. At first, Fe(NO 3 ) 3 ·9H 2 O, 
+Cu(NO 3 ) 2 ·3H 2 O and citric acid (C 6 H 8 O 7 ·H 2 O) in 
+stoichiometric molar ratio were mixed and dis- 
+solved in deionized water. Then, the mixed solution 
+was stirred in a water bath at 85 °C until the gel 
+formed. The achieved gel was dried in an oven at 
+100 °C for 12 h to expel residual water. After that, 
+the dried gel was calcined in a muffle furnace at 
+500 °C for 0.5 h to remove organic compounds, fol- 
+lowed by calcination at 950 °C for 6 h (with a heat- 
+ing rate of 20 °C/min). By using this preparation 
+method, the particles with good compositional ho- 
+mogeneity, high phase purity and surface activity 
+were obtained. Besides, Fe 2 O 3 was also synthetized 
+by using this method for the comparison. These 
+oxygen carrier particles were crushed and screened 
+to the size smaller than 125 μm. 
+The crystallographic phases of oxygen carrier 
+were determined by X-ray diffraction (XRD) in a 
+Shimadzu XRD-7000 diffractometer with Cu K α
+radiation ( λ = 1.5418 ˚A) in the 2 θ range of 20 ° to 
+80 ° with a step of 5 °/min operating at 40 kV and 
+30 mA. The chemical states of O, Cu and Fe ele- 
+
+
+===== Page 3 =====
+
+F. Liu et al. / Proceedings of the Combustion Institute 37 (2019) 4399–4408 
+4401 
+ment on oxygen carrier surface were recorded by 
+X-ray photoelectron spectroscopy (XPS, VG 
+Multilab 2000) with standard Al K α radiation 
+(1486.6 eV, 300 W) as an excitation source. The 
+binding energy (BE) scale was calibrated by mea- 
+suring the C 1s peak (BE = 284.6 eV) from surface 
+contamination. 
+2.2. Experimental setup and procedure 
+The experiments were conducted in a thermo- 
+gravimetric analyzer (TA SDT-Q600). A sample of 
+20 mg was heated in an alumina crucible from room 
+temperature to reaction temperature. The sweep 
+gas enters the balance room to keep it in an inert 
+environment, and then passes the reaction cham- 
+ber. The pure CO is directly introduced in the reac- 
+tion chamber. The total gas flow rate for each test 
+was set to 100 mL/min. To characterize the reduc- 
+tion behavior of CuFe 2 O 4 , CO temperature pro- 
+grammed reduction (CO-TPR) was conducted at a 
+heating rate of 20 °C/min and from 25 to 900 °C. 
+CO-TPR of Fe 2 O 3 was also conducted for the 
+comparison. To account the oxygen release prop- 
+erty of CuFe 2 O 4 , the temperature programmed de- 
+composition (TPD) of CuFe 2 O 4 in pure N 2 was 
+performed with a heating rate of 20 °C/min and 
+from 25 to 1000 °C. The duration at 1000 °C is 
+set to 20 min to ensure the sufficient conversion 
+of CuFe 2 O 4 . Isother mal and non-isother mal tests 
+were conducted to explore the effect of CO con- 
+centration, heating rate and temperature on reduc- 
+tion performance of CuFe 2 O 4 . In isothermal tests, 
+sample temperature was raised from ambient to the 
+temperatures of 700, 800 and 900 °C with a rate of 
+20 °C/min in the air atmosphere. To avoid mixing 
+the air and CO, the air was cut off for 10 min before 
+switch to CO. The reaction time is set to 50 min for 
+full conversion. In non-isothermal tests, the heat- 
+ing rate of 10, 15 and 20 °C/min are used to rise the 
+sample temperature from 25 to 900 °C in 5% CO at- 
+mosphere. CO concentrations of 3%, 5%, and 8% 
+were employed to study its effect on the reduction 
+performance of CuFe 2 O 4 . 
+2.3. DFT model and calculations 
+Spinels with the formula of AB 2 O 4 (where A 
+and B are metal ions) are usually categorized into 
+normal and inverse spinel according to the distri- 
+bution of A and B cations filling the tetrahedral 
+and octahedral sites in the face-centered cubic sub- 
+lattice of O atoms. Previous experimental studies 
+have demonstrated that CuFe 2 O 4 usually has an in- 
+verse spinel structure [16] . Besides, the magnetism 
+of spinel is primarily inferred as antiferromagnetic 
+between the magnetic ions at A and B sites [17] . 
+Accordingly, CuFe 2 O 4 with the antiferromagnetic 
+arrangement was adopted in the present study (see 
+Fig. 1 a). 
+All calculations were carried out within spin- 
+polarized density functional theory framework 
+by employing CASTEP codes [18] . The gener- 
+alized gradient approximation (GGA) functional 
+as parameterized by Perdew, Burke, and Ernz- 
+erhof (PBE) [19] was employed to account for 
+the exchange-correlation energy, as this has been 
+shown to give accurately structural and electronic 
+properties of spinels [20,21] . The Vanderbilt ultra- 
+soft pseudopotentials (USPP) [22] was adopted to 
+describe the electron-ion potential, and the valence 
+orbitals were represented by a plane-wave basis set 
+[23,24] with a cutoff energy of 340 eV. For the k- 
+points sampling of the Brillouin zone, Monkhorst- 
+Pack scheme [25] was used. A 4 × 4 × 4 set of k- 
+points for bulk optimization and a 4 × 4 × 1 set 
+for surface relaxation as well as for CO adsorption 
+were used. The self-consistent field (SCF) tolerance 
+was converged when the energy differences between 
+electronic iterations were smaller than 1.0 × 10 –6 
+eV/atom. Atomic positions were optimized by the 
+BFGS algorithm [26] , and convergence criterions 
+were: (i) an energy of 1.0 × 10 –5 eV/atom; (ii) an 
+atomic force of 0.03 eV/ ˚A; (iii) a maximum dis- 
+placement tolerance of 0.001 ˚A. 
+At first, a full optimization of the cell parame- 
+ters for bulk structure of CuFe 2 O 4 was performed. 
+The optimized structure of CuFe 2 O 4 is tetrago- 
+nal with the lattice parameters of a = b = 8.221 ˚A 
+and c = 8.903 ˚A, which is in good agreement with 
+the experimental values of a = b = 8.216 ˚A and 
+c = 8.709 ˚A [27] . CuFe 2 O 4 (100) surface is the ther- 
+modynamically stable [28] and catalytically active 
+[29] surface. Moreover, all the possible active sites, 
+for instance, Cu and Fe atoms, and the O atoms 
+with different Cu/Fe coordination are exposed on 
+this surface. Thus CuFe 2 O 4 (100) surface was em- 
+ployed in this study. Alone the (100) orientation, 
+the structure of CuFe 2 O 4 is composed alternatively 
+of a Fe atomic layer and an oxygen-bearing Cu- 
+Fe atomic layer. As a result, an eight-layer modeled 
+surface with top four layers fully relaxed was built 
+in this study, as shown in Fig. 1 b. A vacuum region 
+of 15 ˚A was used to eliminate the repulsive force 
+between adsorbates. Due to the asymmetrical force 
+near surface, atomic relaxation was taken into ac- 
+count to provide more accurate energy. 
+The adsorption energy ( E ads ) can be calculated 
+according to the following expression: 
+E ads = E ( CO −CuF e 2 O 4 ) −
+
+E CO + E CuF e 2 O 4 
+
+(1) 
+where E (CO-CuFe 2 O 4 ) , E CO , and E CuFe 2 O 4 stand 
+for the total energies of CO molecule over 
+CuFe 2 O 4 (100) surface system, free CO molecule, 
+and CuFe 2 O 4 (100) surface, respectively. Under this 
+definition, a more negative E ads value corresponds 
+to a stronger interaction. 
+To further elucidate the reaction mechanism, 
+transition state (TS) structures were determined by 
+using the complete LST/QST (linear synchronous 
+
+
+===== Page 4 =====
+
+4402 
+F. Liu et al. / Proceedings of the Combustion Institute 37 (2019) 4399–4408 
+Fig. 1. The optimized inverse spinel CuFe 2 O 4 (a), and the structure, settings and possible adsorption sites of the 
+CuFe 2 O 4 (100) surface (b). The ↑ represents up-spin directions of tetrahedral site Fe atoms, and the ↓ denotes down-spin 
+directions of octahedral site Fe and Cu atoms. 
+transit/quadratic synchronous transit) method [30] . 
+In addition, the activation energy ( E a ) is defined as 
+the energy difference between transition state and 
+intermediate. 
+3. Results and discussion 
+3.1. Reaction behaviors 
+3.1.1. TGA analysis of CuFe 2 O 4 reaction 
+The oxygen release property of CuFe 2 O 4 in N 2 , 
+and the reduction characteristics of CuFe 2 O 4 and 
+Fe 2 O 3 by CO are displayed in Fig. 2 . It can be 
+seen that the oxygen release process of CuFe 2 O 4 in- 
+cludes two stages. The first stage starts from 531 °C 
+and ends at 705 °C. A small amount of oxygen is 
+released in this stage, which is mainly attributed to 
+the surface oxygen. As the rise of temperature, 
+3 CuF e 2 O 4 = 3 CuFe O 2 + F e 3 O 4 + O 2 ( g ) 
+(2) 
+1 . 5 CuF e 2 O 4 + 2 CO ( g ) = 1 . 5 Cu + F e 3 O 4 
++2 C O 2 ( g ) 
+(3) 
+F e 3 O 4 + CO ( g ) = 3 FeO + C O 2 ( g ) 
+(4) 
+FeO + CO ( g ) = Fe + C O 2 ( g ) 
+(5) 
+the oxygen release rate reaches the maximum at 
+896 °C. The entire weight loss is to 96.51%, which 
+is in a good agreement with theoretical value 
+(to 95.54%) according to the Eq. (2) . Therefore, 
+CuFe 2 O 4 still owns the advantage of oxygen release 
+characteristics of CuO. A little amount of Fe 3 + 
+transforms into Fe 2 + due to the synergistic effect 
+of Cu. 
+For CO-TPR of Fe 2 O 3 , two CO consump- 
+tion peaks are identified at 528 and 752 °C. 
+The peaks correspond to the reducing transitions 
+of Fe 2 O 3 → Fe 3 O 4 → FeO. However, the CO-TPR 
+of CuFe 2 O 4 demonstrates three CO consumption 
+peaks. The first peak ranges from 191 °C to 312 °C, 
+which is due to the reduction of surface oxygen. 
+The second peak corresponding to the reducing 
+transition of CuFe 2 O 4 to Fe 3 O 4 and Cu centers at 
+460 °C, much lower than 528 °C for the transition 
+of Fe 2 O 3 → Fe 3 O 4 . The weight loss of this reduc- 
+tion stage is to 91.35%, which is consistent with 
+the theoretical weight loss (to 91.08%) according 
+to Eq. (3) . The third peak centered at 617 °C corre- 
+sponds to the reducing transition of Fe 3 O 4 → FeO, 
+much lower than 752 °C for the Fe 2 O 3 . None 
+of these peaks could be attributed to the tran- 
+sition peak of FeO → Fe since this peak would 
+have been observed at a temperature higher than 
+1000 °C [31] . 
+On the basis of above analysis, it can be con- 
+cluded that CuFe 2 O 4 exhibits superior reactiv- 
+ity with CO than Fe 2 O 3 . The reaction scheme 
+of CuFe 2 O 4 with CO includes: CuFe 2 O 4 → Cu, 
+Fe 3 O 4 → Cu, FeO → Cu, Fe. Fig. 2 b shows that 
+Eq. (3) has the fastest weight loss rate, but the 
+weight loss rate of Eq. (4) and ( 5 ) slows down. The 
+difference of weight loss rate in this process may 
+result from the change in reaction resistances. Im- 
+portantly, the high reactivity of surface oxygen over 
+CuFe 2 O 4 is clearly observed, which means that the 
+
+
+===== Page 5 =====
+
+F. Liu et al. / Proceedings of the Combustion Institute 37 (2019) 4399–4408 
+4403 
+Fig. 2. TGA (a) and DTG (b) data of CuFe 2 O 4 and Fe 2 O 3 during TPR with CO, as well as of oxygen release of CuFe 2 O 4 
+in N 2 . 
+surface reactivity is also improved by adding Cu 
+atom into the spinel ferrite. 
+3.1.2. Effects of CO concentration, heating rate 
+and temperature 
+To further explore the reaction performance of 
+CuFe 2 O 4 , the effect of CO concentration, heating 
+rate and temperature were considered. It is noted 
+that these factors are influential for the chemical re- 
+action behaviors [14,31] . As shown in Fig. 3 , the re- 
+duction reaction also includes two reaction stages 
+according to the weight loss (100% ∼91.35% and 
+91.35% ∼73.25%) and the abovementioned reac- 
+tion mechanism. 
+The effect of CO concentration (3%, 5% and 
+8%) on isothermal and non-isothermal reduction 
+of CuFe 2 O 4 was evaluated, as displayed in Fig. 3 a 
+and b. In the case of isothermal reduction, an in- 
+crease in the reaction rate was observed during the 
+entire reduction stage as CO concentration was in- 
+creased. At the beginning of the reduction, the re- 
+action rate was very fast especially for 5% and 8% 
+CO, then it decreased rapidly in the second stage. 
+As for non-isothermal reduction, the reaction rate 
+also revealed two stages. In both cases, the increase 
+of CO concentration only resulted in an increase of 
+reduction rate, which is applicable in practical CLC 
+process with a higher CO concentration. In addi- 
+tion, the full conversion of CuFe 2 O 4 with 3% CO 
+is hardly achieved in about 90 min. Thus low CO 
+concentration ( < 5%) is not recommended, and 5% 
+is used in the following study. The CO concentra- 
+tion can affect the reaction rate rather than reaction 
+stage, which indicates that the corresponding reac- 
+tions are controlled by two different resistances. 
+In general, the reaction time (and therefore the 
+reaction rate) is mainly dependent on the heating 
+rate. Figure 3 c shows the effect of heating rate (10, 
+15 and 20 °C/min) on the reduction behavior of 
+CuFe 2 O 4 . In the first stage, the variation in heat- 
+ing rate scarcely affects the reaction, because the 
+weight loss profiles are almost parallel. However, 
+at 10 °C/min heating rate, there is an increase in 
+reaction rate around 575 °C corresponding to the 
+reducing transition of Fe 3 O 4 → FeO in the second 
+stage. The most possible reason is that the low 
+
+
+===== Page 6 =====
+
+4404 
+F. Liu et al. / Proceedings of the Combustion Institute 37 (2019) 4399–4408 
+Fig. 3. The effect of CO concentration on (a) non-isothermal and (b) isothermal reduction of CuFe 2 O 4 . The effect of (c) 
+heating rate and (d) temperature on the reduction of CuFe 2 O 4 . 
+heating rate provides enough time for the diffusion 
+of CO molecule to arrive the reaction surface. 
+The effect of temperature (700, 800 and 900 °C) 
+on the reduction reactivity of CuFe 2 O 4 was also 
+determined, and the concentration of CO was set 
+to 5%. Figure 3 d demonstrates that the increase of 
+temperature can hardly affect the reaction rate at 
+the beginning stage. However, the increase of tem- 
+perature leads to a larger reaction rate in the second 
+stage. This implies that the conversion of CuFe 2 O 4 
+into Cu and Fe 3 O 4 is a less temperature-dependent 
+process than the conversion of Fe 3 O 4 to FeO or Fe. 
+No obvious agglomeration and sintering were 
+observed in all the reduced samples. The reason for 
+this may be ascribed to that the Cu atoms or clus- 
+ters disperse homogeneously in the compounds of 
+Fe 3 O 4 /FeO/Fe, which can prevent the agglomera- 
+tion and sintering of Cu. 
+3.1.3. Characterization of oxygen carrier 
+The XRD patterns of synthesized Fe 2 O 3 and 
+CuFe 2 O 4 , reduced and oxygen uncoupled CuFe 2 O 4 
+are shown in Fig. 4 . From Fig. 4 a and b, it can 
+be seen that all the perceptible peaks are associ- 
+ated with the phase of Fe 2 O 3 and spinel CuFe 2 O 4 , 
+respectively. No impurities are detected in both 
+samples. The narrow sharp peaks suggest that both 
+samples prepared by sol-gel combustion method 
+are highly crystalline. From Fig. 4 c, it can be seen 
+that the crystalline phases of oxygen uncoupled 
+CuFe 2 O 4 are Fe 3 O 4 and CuFeO 2 , which is con- 
+sistent with the above oxygen uncoupling analy- 
+sis. Notably, both CuFe 2 O 4 and Fe 3 O 4 are inverse 
+spinel [32] . The XRD pattern of CuFe 2 O 4 shows 
+many split peaks as compared with that of Fe 3 O 4 . 
+It may be attributed to the substitution of Fe 2 + by 
+Cu 2 + and thus Cu 2 + incorporate into the spinel lat- 
+tice. Then the Cu 2 + doping may result in the im- 
+proved reduction activity of Fe-based oxides. As 
+shown in Fig. 4 d–f, XRD analysis of the reduc- 
+tion residues of CuFe 2 O 4 by CO at different tem- 
+peratures suggested that CuFe 2 O 4 was primarily re- 
+duced to Cu and FeO. In addition, just one peak of 
+metallic Fe is observed, implying that the reduction 
+of FeO to Fe is very undesirable. 
+Furthermore, XPS analyses of the fresh, oxy- 
+gen uncoupled and reduced CuFe 2 O 4 were used to 
+check the chemical states of O, Cu and Fe. The re- 
+sults are shown in Fig. 5 . For O 1s spectra, three 
+peaks can be apparently observed in Fig. 5 a, d and 
+g. In detail, the peak at 529.4 eV (peak I) is mainly 
+due to the surface oxygen atoms bound to metals 
+
+
+===== Page 7 =====
+
+F. Liu et al. / Proceedings of the Combustion Institute 37 (2019) 4399–4408 
+4405 
+Fig. 4. XRD data of (a) synthesized Fe 2 O 3 , (b) syn- 
+thesized CuFe 2 O 4 , (c) oxygen uncoupled CuF 2 O 4 , (d) 
+reduced CuFe 2 O 4 at 900 °C, (e) reduced CuFe 2 O 4 at 
+800 °C, (f) reduced CuFe 2 O 4 at 700 °C. 
+[33] , whereas the peak at about 530.6 eV (peak II) 
+is attributed to a high number of defect sites with 
+lower oxygen coordination [34] , and the peak at 
+∼532.0 eV (peak III) is associated with surface- 
+adsorbed water molecules [33] . In the case of fresh 
+CuFe 2 O 4 , the large areas of peak I indicate large 
+amounts of surface oxygen atoms present on spinel 
+CuFe 2 O 4 surface. However, some O-vacancies also 
+present according to the areas of peak II. The O- 
+vacancies located on 40 ˚A below the top surface 
+[34] are highly beneficial for fine-tuning the sur- 
+face chemical and electronic structures thus in turn 
+their reactivity. In the case of oxygen uncoupled 
+CuFe 2 O 4 , the decrease of surface oxygen atoms 
+and the increase of O-vacancies can be seen from 
+the areas variation of peak I and peak II. In the 
+case of reduced CuFe 2 O 4 , the area of peak I largely 
+decreases and the area of peak II continues to in- 
+crease, indicating that the lattice oxygen atoms of 
+sample are largely consumed. Interestingly, the area 
+of peak III gradually increases, which might be at- 
+tributed to the enhanced adsorption of oxygen con- 
+taining species on the O-deficient surface. 
+The Cu 2p XPS patterns are displayed in 
+Fig. 5 b, e and h, suggesting the evolution of chem- 
+ical states of Cu 2 + (933.6 eV), Cu + (932.1 eV) and 
+Cu 0 (932.7 eV). The Fe 2p XPS results are also re- 
+vealed in Fig. 5 c, f and i, indicating the variation of 
+chemical states of Fe 3 + (710.0, 712.1 and 713.4 eV), 
+Fe 2 + (709.8 eV) and Fe 0 (706.4 eV). On the ba- 
+sis of above analyses, it can be concluded that (1) 
+the spinel CuFe 2 O 4 with highly active surface oxy- 
+gen is obtained; (2) the chemical states of oxygen 
+uncoupled CuFe 2 O 4 includes Cu + , Fe 3 + , Fe 2 + and 
+O 2–; (3) the chemical states of reduced CuFe 2 O 4 
+contains Cu 0 , Fe 2 + , Fe 0 and O 2–. These results are 
+in good agreement with the above reaction mecha- 
+nism discussion and XRD analysis. 
+3.2. CO adsorption and oxidation mechanism on 
+CuFe 2 O 4 (100) surface 
+3.2.1. CO adsorption on CuFe 2 O 4 (100) surface 
+To evaluate the adsorption activity of CuFe 2 O 4 
+surface, all the possible adsorption sites have been 
+examined with the CO molecular axis perpendicu- 
+lar (C-down and O-down orientations) and paral- 
+lel to the surfaces. Five distinguishable adsorption 
+sites at this surface are displayed in Fig. 1 b. The 
+coordinately unsaturated 5-fold Fe (Fe O ) and Cu 
+(Cu O ) sites, and three kinds of 3-fold O sites (O 1 , 
+O 2 and O 3 ) are exposed on the CuFe 2 O 4 (100) sur- 
+face. In detail, O 1 bonds with two Cu O and one Fe O 
+atoms, O 2 bonds with one Cu O and two Fe O atoms, 
+and O 3 bonds with one Fe O , one Fe T and one Cu O 
+atoms, respectively. After optimization, the most 
+stable configurations with adsorption energies and 
+structural parameters are given in Fig. 6 . The re- 
+sults indicate that only the C-down orientation of 
+CO has strong interaction with the surface. The 
+stability of interaction system follows the order of 
+A > B > C > D. 
+As shown in configuration A, CO interacts in- 
+tensively with the surface O 1 -site atom forming a 
+CO 2 molecule directly. A new C–O double-bond 
+forms and the bond length is 1.182 ˚A. Meanwhile, 
+the C–O triple-bond in CO is converted to double- 
+bond after adsorption and elongated to 1.186 ˚A. 
+Besides, the adsorption energy of this configuration 
+is −217.07 kJ/mol. The process of breaking two 
+Cu–O and one Fe–O bonds and complete detach- 
+ment of CO 2 molecule from surface suggest that 
+CO oxidation via surface O 1 atoms seems to have 
+proceeded without an energy barrier. 
+For the configuration B, CO interacts with the 
+Fe O - and O 2 -site atoms to form C–Fe and C–
+O bonds with the bond lengths of 1.969 ˚A and 
+1.242 ˚A, respectively. At the same time, the C–O 
+bond length of CO is elongated to 1.196 ˚A. The 
+interaction between CO and O 2 site results in the 
+breakage of one Cu–O and one Fe–O bonds and 
+the formation of a new C–O bond generating a sur- 
+face CO 2 complex. The adsorption energy for this 
+interaction system is −109.99 kJ/mol. 
+For configuration C, CO is adsorbed to the 
+bridge site of Cu O and O 3 atoms by C–Cu and C–O 
+bonding. The formed C–Cu and C–O bond lengths 
+are 1.911 ˚A and 1.300 ˚A, respectively. Meantime, 
+the C–O bond distance of CO is elongated to 
+1.208 ˚A. The adsorption energy is −60.92 kJ/mol. 
+
+
+===== Page 8 =====
+
+4406 
+F. Liu et al. / Proceedings of the Combustion Institute 37 (2019) 4399–4408 
+Fig. 5. XPS spectra of the fresh CuFe 2 O 4 , (a) O 1s, (b) Cu 2p, (c) Fe 2p, and the oxygen uncoupled CuFe 2 O 4 , (d) O 1s, 
+(e) Cu 2p, (f) Fe 2p, and the reduced CuFe 2 O 4 , (g) O 1s, (h) Cu 2p, (i) Fe 2p, respectively. 
+Fig. 6. Optimized structures of CO adsorption on the 
+CuFe 2 O 4 (100) surface. (The dash lines denote the break- 
+age of chemical bond. The bond lengths are in ˚A.) 
+In addition, this interaction system only leads to 
+the breakage of one surface Cu–O bond. 
+From configuration D, it can be seen that CO 
+binds to the Fe O and O 3 atoms. The newly formed 
+C–Fe and C–O bond lengths are 1.976 ˚A and 
+1.316 ˚A, and the C–O bond length of CO is elon- 
+gated to 1.197 ˚A. In particular, there is no occur- 
+rence of breakage of surface metal–O bonds, which 
+may be the reason that this configuration shows a 
+relatively low adsorption energy of −49.08 kJ/mol. 
+3.2.2. CO oxidation on CuFe 2 O 4 (100) surface 
+Obviously, the CO adsorption behavior study 
+suggests that there are two reaction channels for 
+CO oxidation on the CuFe 2 O 4 (100) surface. The 
+first channel is a one-step reaction, as shown in the 
+configuration A, where CO directly reacts with O 1 
+to generate a linear CO 2 . The reason for this may 
+be due to the 3-fold O coordinated with two Cu 
+atoms thus resulting in a high activity. This reac- 
+tion channel for CO oxidation could occur at low 
+temperature, which is consistent with our observa- 
+tion (191 ∼312 °C) in TGA experiments. 
+The second reaction channel is a two-step pro- 
+cess including CO adsorption and CO 2 desorp- 
+tion. The reaction pathways and energy profiles of 
+CO oxidation on the CuFe 2 O 4 (100) surface for the 
+
+
+===== Page 9 =====
+
+F. Liu et al. / Proceedings of the Combustion Institute 37 (2019) 4399–4408 
+4407 
+Fig. 7. The reaction pathways and energy profiles of CO oxidation over the CuFe 2 O 4 (100) surface. (The bond lengths are 
+in ˚A, and the energies are in kJ/mol.) 
+two-step process are depicted in Fig. 7 . Free CO 
+and the CuFe 2 O 4 (100) surface are regarded as the 
+initial state (IS). The IS, geometries of transition 
+state (TS) and final state (FS) are also involved in 
+Fig. 7 . 
+In Path 1, CO oxidation over the CuFe 2 O 4 
+surface consists of two reaction steps: adsorption 
+(IS → D) and desorption (D → TS1 → FS1). Firstly, 
+the CO binds to the bridge site between Fe O and 
+O 3 atoms, generating a surface CO 2 complex. This 
+step is exothermic by 49.08 kJ/mol. Thereafter, CO 2 
+desorption via TS1 has an activation energy of 
+47.96 kJ/mol. The desorption step is an exothermic 
+process with the reaction heat of 15.14 kJ/mol. In 
+TS1, the C–Fe distance is elongated to 2.536 ˚A, and 
+the bent CO 2 formed will break away from the sur- 
+face. A gaseous CO 2 and the O 3 -defective surface 
+are finally obtained in FS1. 
+In Path 2, the adsorption of CO at the bridge 
+site of Cu O and O 3 atoms is the first step (IS → C), 
+and the desorption of CO 2 is the second step 
+(C → TS2 → FS1). The formation of the surface 
+CO 2 complex is an exothermic process with the 
+reaction heat of 60.92 kJ/mol. The second step 
+through TS2 (see Fig. 7 ) is also an exothermic 
+process which presents an activation energy of 
+35.85 kJ/mol. 
+In Path 3, CO first chemisorbs on the bridge 
+site between Fe O and O 2 atoms to form a surface 
+CO 2 complex (IS → B), then CO 2 desorption oc- 
+curs via TS3 (B → TS3 → FS2). This process for CO 
+oxidation is exothermic by 157.50 kJ/mol, which 
+is more thermodynamically favorable as compared 
+with Path 1 and Path 2. Moreover, CO 2 desorption 
+through TS3 has a rather low activation energy of 
+10.84 kJ/mol, implying that this process is more ki- 
+netically favored [35] . It may be ascribed to the bent 
+CO 2 complex only binding to one Fe O atom. This 
+two-step reaction pathway for CO oxidation is the 
+most kinetically and thermodynamically favorable. 
+From the above discussion, it can be concluded 
+that CO oxidation on the CuFe 2 O 4 (100) surface fol- 
+lows the Mars-van Krevelen mechanism: CO first 
+interacts with the surface O, forming a CO 2 directly 
+(one-step reaction) or a surface CO 2 complex (two- 
+step reaction) which bonds to the metal atoms, then 
+CO 2 desorption occurs by surmounting an energy 
+barrier. Moreover, the kinetics of CO oxidation 
+reaction on CuFe 2 O 4 (100) surface is mainly con- 
+trolled by desorption. The surface O atom bonding 
+to the Cu atom exhibits a superior activity, which 
+can explain the high reactivity observed in the TGA 
+experiments. Further, it should be noted that H 2 
+would also be present in the CLC process, and it 
+may have the synergistic effect for CO adsorption 
+and oxidation. H 2 will compete with CO for active 
+sites on oxygen carrier surface, which may lead to 
+the change of CO oxidation pathway. Thus, more 
+
+
+===== Page 10 =====
+
+4408 
+F. Liu et al. / Proceedings of the Combustion Institute 37 (2019) 4399–4408 
+fundamental work is still required for the synergis- 
+tic effects of H 2 upon CO adsorption and oxidation 
+over CuFe 2 O 4 . 
+4. Conclusions 
+A comprehensive investigation of the reaction 
+mechanism of spinel CuFe 2 O 4 with CO in CLC 
+was performed by experiments and DFT calcula- 
+tions. XRD and XPS were employed to character- 
+ize the evolution of oxygen carrier phases during 
+the reduction. Two main reduction stages were ob- 
+served for the reaction of CO with CuFe 2 O 4 . In the 
+first stage, CuFe 2 O 4 is reduced into Cu and Fe 3 O 4 
+with a high reaction rate. Notably, this stage begins 
+with the surface oxygen consumption at low tem- 
+perature (191 °C). In the second stage, the product 
+Fe 3 O 4 is slowly transformed to FeO even to Fe. The 
+whole reaction process of CuFe 2 O 4 with CO ex- 
+hibits a superior reactivity as compared to Fe 2 O 3 , 
+implying that the existence of Cu enhanced the re- 
+activity of CuFe 2 O 4 . The CO concentration, tem- 
+perature and heating rate can hardly affect the re- 
+action stage. CO oxidation over the CuFe 2 O 4 (100) 
+surface follows the Mars-van Krevelen mechanism: 
+CO first interacts with a surface O, forming a CO 2 
+directly (one-step reaction) or a surface CO 2 com- 
+plex (two-step reaction) which bonds to the metal 
+atoms, then CO 2 desorption occurs by surmount- 
+ing an energy barrier. The kinetics of CO oxidation 
+reaction on the CuFe 2 O 4 (100) surface is controlled 
+by desorption. The surface O atom bonding to the 
+Cu atom exhibits a superior activity, which can ex- 
+plain the high reactivity observed in the TGA ex- 
+periments. 
+Acknowledgments 
+This work was supported by the National 
+Natural 
+Science 
+Foundation 
+of 
+China 
+( 51676079 , 51661145010 ), and the Foundation 
+of State Key Laboratory of Coal Combustion 
+( FSKLCCB1701 ). 
+References 
+[1] J. Adanez , A. Abad , F. Garcia-Labiano , P. Gayan , 
+F. Luis , Prog. Energy Combust. Sci. 38 (2012) 
+215–282 . 
+[2] Y. Liu , A. Kasik , N. Linneen , J. Liu , Y. Lin , Chem. 
+Eng. Sci. 118 (2014) 32–40 . 
+[3] Y. Liu , J. Liu , M. Chang , C. Zheng , Fuel 95 (2012) 
+521–527 . 
+[4] A. 
+Abad , 
+J. 
+Adánez , 
+F. 
+García-Labiano , 
+L.F.D. Diego , P. Gayán , J. Celaya , Chem. Eng. 
+Sci. 62 (2007) 533–549 . 
+[5] R. Siriwardane , H. Tian , T. Simonyi , J. Poston , Fuel 
+108 (2013) 319–333 . 
+[6] R. Siriwardane , E. Ksepko , H. Tian , J. Poston , T. Si- 
+monyi , M. Sciazko , Appl. Energy 107 (2013) 111–123 . 
+[7] Y. Fan , R. Siriwardane , Energy Fuels 28 (2014) 
+2248–2257 . 
+[8] B. Wang , H. Zhao , Y. Zhen , Z. Liu , R. Yan , 
+C. Zheng , Fuel Process. Technol. 96 (2012) 104–115 . 
+[9] M. Wang , J. Liu , J. Hu , F. Liu , Ind. Eng. Chem. Res. 
+54 (2015) 9805–9812 . 
+[10] M. Wang , J. Liu , F. Shen , H. Cheng , J. Dai , Y. Long , 
+Appl. Surf. Sci. 367 (2016) 485–492 . 
+[11] E. Jerndal , T. Mattisson , A. Lyngfelt , Chem. Eng. 
+Res. Des. 84 (2006) 795–806 . 
+[12] A. Evdou , V. Zaspalis , L. Nalbandian , Fuel 165 
+(2016) 367–378 . 
+[13] B. Wang , R. Yan , H. Zhao , Y. Zheng , Z. Liu , 
+C. Zheng , Energy Fuels 25 (2011) 3344–3354 . 
+[14] B. Wang , Q. Ma , W. Wang , et al. , Energy Fuels 31 
+(2017) 5233–5245 . 
+[15] B. Wang , W. Wang , Q. Ma , J. Lu , H. Zhao , C. Zheng , 
+Energy Fuels 30 (2016) 2285–2294 . 
+[16] A.M. Balagurov , I.A. Bobrikov , M.S. Maschenko , 
+D. Sangaa , V.G. Simkin , Crystallogr. Rep. 58 (2013) 
+710–717 . 
+[17] J.R. Huang , C. Cheng , J. Appl. Phys. 113 (2013) 
+033912 . 
+[18] M. Segall , P.J. Lindan , M.A. Probert , et al. , J. Phys. 
+Condens. Matter 14 (2002) 2717 . 
+[19] J.P. Perdew , K. Burke , M. Ernzerhof, Phys. Rev. Lett. 
+77 (1996) 3865 . 
+[20] Y. Yang , J. Liu , B. Zhang , F. Liu , J. Hazard. Mater. 
+321 (2017) 154–161 . 
+[21] C.L. 
+Muhich , 
+V.J. 
+Aston , 
+R.M. 
+Trottier , 
+A.W. Weimer , C.B. Musgrave , Chem. Mater. 28 
+(2015) 214–226 . 
+[22] D. Vanderbilt , Phys. Rev. B 41 (1990) 7892 . 
+[23] Z. Wang , J. Liu , B. Zhang , Y. Yang , Z. Zhang , 
+S. Miao , Environ. Sci. Technol. 50 (2016) 5398–5404 . 
+[24] B. Zhang , J. Liu , Y. Yang , M. Chang , Chem. Eng. J. 
+280 (2015) 354–362 . 
+[25] H.J. Monkhorst , J.D. Pack , Phys. Rev. B 13 (1976) 
+5188 . 
+[26] Y. Yang , J. Liu , F. Liu , Z. Wang , S. Miao , J. Hazard. 
+Mater. 344 (2018) 104–112 . 
+[27] S.C. Schaefer , G.L. Hundley , F.E. Block , R.A. Mc- 
+cune , R.V. Mrazek , Metall. Trans. 1 (1970) 2557 . 
+[28] F. Zasada , J. Grybo ´s , P. Indyka , W. Piskorz , J. Kacz- 
+marczyk , Z. Sojka , J. Phys. Chem. C 118 (2014) 
+19085–19097 . 
+[29] Z. Jiang , W. Zhang , W. Shangguan , Y. Teraoka , J. 
+Phys. Chem. C 115 (2011) 13035–13040 . 
+[30] N. Govind , M. Petersen , G. Fitzgerald , D. King–
+Smith , J. Andzelm , Comput. Mater. Sci. 28 (2003) 
+250–258 . 
+[31] A. Cabello , A. Abad , F. García-Labiano , P. Gayán , 
+L.F.D. Diego , J. Adánez , Chem. Eng. J. 258 (2014) 
+265–280 . 
+[32] M. Fonin , R. Pentcheva , Y.S. Dedkov , et al. , Phys. 
+Rev. B 72 (2005) 104436 . 
+[33] J. Bao , X. Zhang , B. Fan , et al. , Angew. Chem. Int. 
+Ed. 54 (2015) 7399 . 
+[34] T. Zhang , M. Wu , D. Yan , et al. , Nano Energy 43 
+(2018) 103–109 . 
+[35] Y. Yang , J. Liu , F. Shen , L. Zhao , Z. Wang , Y. Long , 
+Combust. Flame 168 (2016) 1–9 . 

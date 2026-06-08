@@ -1,0 +1,1061 @@
+
+
+===== Page 1 =====
+
+The adaptability of Cu/Zr oxides as oxygen carrier used
+for chemical looping air separation (CLAS)
+Kun Wang • Qingbo Yu • Wenjun Duan •
+Qin Qin • Huaqing Xie
+Received: 3 July 2013 / Accepted: 24 September 2013 / Published online: 22 October 2013
+ Akade´miai Kiado´, Budapest, Hungary 2013
+Abstract
+Chemical looping air separation (CLAS), based
+on the chemical looping principle, is a novel and energy-
+efﬁcient method to separate oxygen from air. The oxygen
+carriers used capture oxygen from air in an oxidation
+reactor and release oxygen in a reduction reactor. In this
+work, the adaptability of Cu/Zr oxygen carrier used for
+CLAS was investigated through thermodynamic analysis
+and experimental methods. X-ray diffraction (XRD) and
+scanning electron microscope (SEM) were used to measure
+the phases and surface morphology of oxygen carriers
+before and after experiments. The results show that CuO
+has the capability of releasing oxygen when the tempera-
+ture is higher than 725 C in the nitrogen atmosphere, and
+the minimum oxygen reduction temperatures increase with
+the increasing of oxygen concentrations. The Cu/Zr oxygen
+carrier has high oxygen reduction and oxidation rates when
+temperature is higher than a certain values. For reduction,
+the value is about 860 C. For oxidation, the value is about
+500 C. The reactivity of oxygen carrier increases signiﬁ-
+cantly with the temperature increasing. On overall, reac-
+tivity of oxygen carrier has little difference under different
+particle sizes. The oxygen carrier exhibits a stable oxygen
+reduction and oxidation behavior during reduction–oxida-
+tion cycles. XRD patterns show that the main phases in
+reduced samples are Cu2O and ZrO2. The main phases in
+fresh and oxidized samples are CuO and ZrO2. SEM
+images show that the fresh and reacted oxygen carriers are
+porous. The surface of reacted samples is smoother than
+fresh samples and no agglomeration has been found.
+Keywords
+Chemical looping air separation  CLAS 
+Oxygen carrier  Copper oxide  Adaptability
+Introduction
+Chemical looping air separation (CLAS) is a new air
+separation technology to produce oxygen. The features of
+CLAS are operation-simple, cost-effective and energy-
+extensive. The average speciﬁc power of the CLAS
+process is about 0.08 kWh m-3 O2 and it is just 26 % of
+the speciﬁc power of an advanced cryogenic air sepa-
+ration system [1]. CLAS relies on a chemical looping
+principle similar to the one used in the chemical looping
+combustion (CLC) which has been introduced as an
+effective technology to capture CO2 during combustion
+[2]. CLC has now proven to be one of the most efﬁcient
+methods for CO2 capture during combustion of gaseous
+fuels, but it has some shortcomings for combustion of
+solid fuels, especially the low reaction rate [3–8]. To
+combust the solid fuels effectively using the chemical
+looping concept, chemical looping with oxygen uncou-
+pling (CLOU) was proposed by Mattisson et al. [9] in
+2009. In contrast to CLC, the CLOU requires three steps:
+oxygen releases from the oxygen carrier, solid fuel is
+oxidized by the oxygen released in the fuel reactor and
+oxygen carrier is regenerated in the air reactor [9–11].
+CLAS was developed based on CLOU. Figure 1 illus-
+trates the schematic view of CLAS system. CLAS sys-
+tem consists of two interconnected reactors, designated
+as oxidation and reduction reactors, which are similar to
+air and fuel reactors used in CLC or CLOU.
+In the oxidation reactor, an oxygen carrier captures
+oxygen from the air (step 1):
+K. Wang  Q. Yu (&)  W. Duan  Q. Qin  H. Xie
+School of Materials and Metallurgy, Northeastern University,
+Shenyang 110819, Liaoning, China
+e-mail: yuqb@smm.neu.edu.cn
+123
+J Therm Anal Calorim (2014) 115:1163–1172
+DOI 10.1007/s10973-013-3440-5
+
+
+===== Page 2 =====
+
+Oxidation: MexOy2 þ O2ðgÞ ! MexOy:
+ð1Þ
+In the reduction reactor, an oxygen carrier releases
+oxygen to the reactor (step 2):
+Reduction: MexOy ! MexOy2 þ O2ðgÞ:
+ð2Þ
+Steam can be selected as the ﬂuidization medium
+because the mixture of steam and oxygen exiting can be
+separated easily. CO2 can also be used as the ﬂuidization
+medium and O2–CO2 mixed gas, which can be used for
+oxy-fuel combustion is produced.
+Selecting suitable oxygen carrier is the key issue to
+CLAS process. The properties of oxygen carriers for CLAS
+must include: (1) with the capability of oxygen reduction at
+suitable temperatures and oxygen partial pressures, (2)
+sufﬁcient oxygen transport capacity, (3) high reactivity and
+availability, (4) avoidance of agglomeration, (5) high
+mechanical strength and chemical stability, (6) low cost of
+the metal, (7) low environmental impact [12]. Many
+researches have been carried out to obtain suitable oxygen
+carriers for CLC or CLOU. The results indicated that Ni-,
+Cu-, Co-, Fe-, Mn-based and CaSO4 could be the optional
+oxygen carriers for CLC system [7, 13–17]. Oxides of
+CuO, Co3O4 and Mn2O3 have the capability of releasing
+oxygen at suitable temperatures and oxygen partial pres-
+sures [9, 18, 19].
+Comparing to the three oxides, copper has the highest
+oxygen transport capacity (0.1 g O2–1 g CuO compared to
+0.03 g O2–1 g Mn2O3 and 0.06 g O2–1 g Co3O4). However,
+agglomeration is the biggest issue because of its low
+melting point [20]. Adding binder to copper oxide and
+preparing them to oxygen carrier can improve the capability
+of anti-sintering. Oxygen carrier prepared is porous, which
+can provide higher surface area and increase the reactivity
+of oxygen carrier. Research on copper oxide combined with
+different binders as oxygen carrier used in CLC or CLOU
+process has been conducted in ﬂuidized or ﬁxed bed batch
+reactor and thermogravimetric (TG) analyzer [12, 13, 19].
+The oxides of ZrO2, Y2O3, Al2O3, SiO2, TiO2 and MgAl2O4
+have been investigated as binders used in CLC or CLOU.
+De Diego and colleagues [21] found that the best Cu-based
+oxygen carriers used for CLC were those prepared by
+mechanical mixing using SiO2 or TiO2 as inert, and sintered
+at 950 C. Gayan et al. [22] found that particles with 60
+mass% CuO supported on MgAl2O4 and 40 mass% CuO
+supported on ZrO2 prepared by mechanical mixing fol-
+lowing by pelletizing by pressure were identiﬁed as suitable
+materials for CLOU process. Mattisson et al. [23] studied
+the CLOU process using oxygen carrier particles of CuO/
+ZrO2 in a small quartz laboratory ﬂuidized bed reactor and
+the oxygen carrier showed high reactivity. The oxide of
+Al2O3 was found not suitable for CLOU because they lost
+the oxygen release property when CuAl2O4 is formed [24].
+The high price of Y2O3 is the limitation when used as binder
+for oxygen carrier. At present, research on CLAS is still
+scarce in literature. Only thermodynamic calculations and
+preliminary experiments were carried out on oxides of Cu
+(CuO/Cu2O) by Moghtaderi [1] to ascertain their feasibility
+for the proposed air separation method.
+In this work, oxygen carrier was prepared by mechanical
+mixing containing 60 mass% CuO and ZrO2 as support and
+the adaptabilities of oxygen carrier have been investigated
+in a TG. To investigate the capabilities of oxygen reduction
+and oxidation of Cu-based oxygen carrier, temperature
+programmed TG was used in this research. Isothermal TG
+was used to investigate the reactivity of oxygen carrier at
+different temperatures and during several reduction–oxi-
+dation cycles. Phases and surface morphology of oxygen
+carriers before and after experiments were measured by
+X-ray diffraction (XRD) and scanning electron microscope
+(SEM).
+Thermodynamics
+As discussed above, the capability of releasing oxygen is
+the most important property needed for oxygen carrier used
+in CLAS. To measure it, the Gibbs free energy change
+(DG) of the reduction reaction must be calculated. DG is a
+measure of the thermodynamic driving force that motivated
+the reaction process [19, 25]. A negative value of DG
+indicates that a reaction can proceed spontaneously without
+external energy inputs. Moreover, the more negative the
+value of DG, the more likely that the reaction towards
+positive will proceed. DG is a state function and can be
+calculated through the equation below:
+DG ¼
+X
+n
+i¼1
+CiDGproduct;i 
+X
+m
+j¼1
+CjDGreactant;j:
+ð3Þ
+Equilibrium
+partial
+pressure
+(EPP)
+of
+oxygen
+or
+equilibrium oxygen concentration (EOC) is an important
+Pure O2 or CO2+O2
+Oxidation
+Reactor
+MexOy-2
+MexOy
+Reduced Air
+Air
+Reduction
+Reactor
+Steam or CO2
+Fig. 1 The schematic view of CLAS system
+1164
+K. Wang et al.
+123
+
+
+===== Page 3 =====
+
+factor that can determine the reduction reaction towards
+positive or negative at certain temperature and oxygen
+concentration in the reactor. According to Le Chatelier’s
+principle, if the equilibrium of a reacting system is
+disturbed by changing its EPP, the system will try to
+restore equilibrium. EPP of oxygen can be calculated
+through Eqs. (4) and (5).
+Kp ¼ exp DG
+RT
+
+
+;
+ð4Þ
+PO2 ¼ Kp:
+ð5Þ
+Figure 2 shows the changes of DG and EPP of oxygen
+for reaction of CuO to Cu2O at different temperatures. The
+reaction system has the tendency of DG reduction as the
+temperature increases. It means that high temperature is
+conducive to the reduction reaction. Temperature has a
+large impact on EPP of oxygen for the reaction system.
+Through adjusting the temperature and EPP of oxygen in
+reduction and oxidation reactors, the direction of the
+reaction can be controlled. For CLAS process, the EPP of
+oxygen in the oxidation reactor must be lower than 21 %
+(partial pressure of oxygen in the air), therefore the
+temperature in the oxidation reactor must be lower than
+1,027 C. Based on the Eqs. (4) and (5), the minimum
+temperatures needed for the reduction reaction at different
+EOC could be obtained. For example, when the EOC is
+0.01 % (close to 0 %), the temperature is 725 C. In other
+words, when the temperature is approximately higher than
+725 C, pure CuO can release oxygen in steam/CO2
+atmosphere. Moreover, in the same condition as oxygen
+production, the high temperature in the reduction reactor
+means a small steam/CO2 demand.
+Experimental section
+Oxygen carrier material
+The Cu-based oxygen carrier was prepared by mechanical
+mixing. Commercial CuO powder as active phase and ZrO2
+powder as binder with mass ratio of 60/40 were mixed
+thoroughly in an agate mortar. Graphite (10 mass%) as a
+pore-forming additive was added during the mixing process
+to create a suitable macroporosity after sintering. Then dis-
+tilled water was added to the mixed powders to form a paste
+of suitable viscosity to be extruded in a syringe, obtaining
+cylinders of about 2 mm diameter. These cylinders were
+gently dried at 105 C for 12 h in a drier and sintered at
+950 C for 6 h in a mufﬂe furnace. The cylinders were
+ground and sieved to obtain the desired particle sizes
+[11, 26]. The characteristics of the oxygen carrier can be
+found in Table 1. The BET investigation was carried out
+using Micromeritics, ASAP 2020 to obtain surface area of
+the oxygen carrier. The oxygen carriers were analyzed before
+and after experiments using powder X-ray diffractometer
+250
+200
+150
+100
+50
+0
+–50
+0
+200
+400
+600
+800
+1000
+1200
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Temperature/°C
+ΔG
+EOC
+ΔG/kJ mol–1
+EOC
+Fig. 2 The changes of DG and
+EPP of oxygen for reaction of
+CuO to Cu2O at different
+temperatures
+Table 1 Oxygen carrier properties
+Items
+Values
+XRD main phases
+CuO, ZrO2
+Mass ratio of CuO/mass%
+60
+Oxygen concent ratio/g g-1
+0.12
+Oxygen transport ratio/g g-1
+0.06
+BET of oxygen carrier/m2 g-1
+1.49
+Size interval of particles/lm
+200–315
+Crushing strength/N
+1–2
+The adaptability of Cu/Zr oxides as oxygen carrier
+1165
+123
+
+
+===== Page 4 =====
+
+(Panalytical, PW 3040/60) and SEM (Superscan, SSX-550)
+to obtain the phase and surface morphologychanges. Table 1
+gives the properties of oxygen carrier. The surface area of the
+fresh sample was about 2.33 times higher than oxygen carrier
+of CuO without binders (0.64 m2 g-1), which indicate that
+the additions of ZrO2 can effectively inhibit the sintering and
+Table 2 Characteristics of reduction and oxidation reactions
+Characteristics
+Heating rates/C min-1
+10
+15
+20
+Reduction
+Oxidation
+Reduction
+Oxidation
+Reduction
+Oxidation
+Ti/C
+847.5
+435.4
+859.7
+456.1
+866.2
+461.3
+Tf/C
+918.6
+625.9
+924.1
+648.2
+936.1
+666.7
+Tmax/C
+891.8
+516.0
+901.8
+541.2
+917.1
+530.0
+Wmax/mg min-1
+-0.123
+0.031
+-0.165
+0.050
+-0.208
+0.068
+0.0
+–0.1
+–0.2
+–0.3
+–0.4
+–0.5
+–0.6
+700
+750
+800
+850
+900
+950
+1000
+Temperature/°C
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0.0
+350
+400
+450
+500
+550
+600
+650
+700
+750
+800
+Temperature/°C
+Mass gain/mg
+Mass loss/mg
+Reduction
+Oxidation
+1, 2, 3
+1
+2
+3
+1–10 °C min–1
+2–15 °C min–1
+3–20 °C min–1
+1–10 °C min–1
+2–15 °C min–1
+3–20 °C min–1
+0.00
+–0.03
+–0.06
+–0.09
+–0.12
+–0.15
+–0.18
+–0.21
+–0.24
+700
+750
+800
+850
+900
+950
+1000
+0.08
+0.07
+0.06
+0.05
+0.04
+0.03
+0.02
+0.01
+0.00
+350
+400
+450
+500
+550
+600
+650
+700
+750
+800
+3
+2
+1
+1
+2
+3
+(a)
+(b)
+Fig. 3 The TG and DTG curves
+of oxygen carrier under
+different heating rates
+1166
+K. Wang et al.
+123
+
+
+===== Page 5 =====
+
+agglomeration of Cu-based oxygen carriers. The oxygen
+carrier prepared by this method had a crushing strength of
+1–2 N and in some cases oxygen carrier with a crushing
+strength below 1 N are considered too soft [27].
+Experimental set-up
+Experiments were performed in a TG using STA409PC
+thermal analyzer. Nitrogen was used to substitute for steam
+in the reduction reactor. Air was used as the oxidizing gas
+in the oxidation reactor. The ﬂow rates of air and nitrogen
+were 30 mL min-1. To investigate the capabilities of
+oxygen reduction and oxidation of oxygen carrier, the
+temperature programmed TG was used. Isothermal TG was
+used to investigate the reactivity of oxygen carrier at dif-
+ferent temperatures and particle sizes.
+In temperature programmed TG experiments, samples
+were heated from room temperature to 700 C in air
+atmosphere. Then air was turned into nitrogen and
+samples were heated to 1,000 C with heating rates of
+10, 15 and 20 C min-1 to study the reduction reaction.
+After reduction, the samples were cooled to 200 C in
+nitrogen atmosphere and then atmosphere was turned
+into air and samples were heated to 800 C at the same
+heating rates as reduction process to study the oxidation
+reaction.
+1.0
+0.9
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0.0
+0.0
+0.2
+0.4
+0.6
+0.8
+1.2
+1.4
+1.6
+1.8
+2.0
+2.2
+2.4
+2.6
+1.0
+Time/min
+Time/min
+Conversion ratio
+1.0
+0.9
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0.0
+Conversion ratio
+0
+3
+6
+9
+12
+15
+18
+21
+24
+27
+30
+1–76∼125 μm
+2–125∼200 μm
+3–200∼315 μm
+1–76–125 μm
+2–125–200 μm
+3–200–315 μm
+3, 1, 2
+2
+1
+3
+Reduction
+(a)
+(b) Oxidation
+Fig. 4 The conversion ratio of
+oxygen carrier under different
+particle sizes
+The adaptability of Cu/Zr oxides as oxygen carrier
+1167
+123
+
+
+===== Page 6 =====
+
+In isothermal TG experiments, samples were heated to
+the set operating temperature in air atmosphere to pre-
+vent the occurrence of the reduction reaction before this
+temperature. Then turning the atmosphere to nitrogen
+and keeping this temperature for 30 min to research the
+reduction reaction. After reduction, the samples were
+cooled in nitrogen atmosphere to the set temperature of
+oxidation and then atmosphere was turned into air to
+study the oxidation reaction. In cyclic experiments, the
+reduction and oxidation processes were repeated 22
+times.
+Results and discussion
+Reactivity data were obtained through analyzing the mass
+variations of reduction and oxidation reactions. The con-
+version ratio (R) can be calculated according to Eqs. (6)
+and (7).
+For reduction: Rred ¼ mox  m
+mox  m1
+:
+ð6Þ
+For oxidation: Rox ¼ 1  mox  m
+mox  m1
+;
+ð7Þ
+1.0
+0.9
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0.0
+Conversion ratio
+1.0
+0.9
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0.0
+Conversion ratio
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+1–900 °C
+2–950 °C
+3–1000 °C
+1–600 °C
+2–650 °C
+3–700 °C
+Reduction
+(a)
+(b) Oxidation
+3
+2
+1
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+26
+28
+Time/min
+Time/min
+3
+2
+1
+Fig. 5 The conversion ratio of
+oxygen carrier under different
+temperatures
+1168
+K. Wang et al.
+123
+
+
+===== Page 7 =====
+
+where m is the mass of the sample at each time, mox the
+mass of the sample fully oxidized, m? is the mass of
+reduced sample.
+Effect of heating rate
+In this part, the characteristics related to starting tempera-
+ture (Ti), ending temperature (Tf), maximum mass loss/gain
+rate (Wmax) and the temperature where maximum mass
+loss/gain rate occured (Tmax) are exactly determined and
+their values are given in Table 2. Ti, Tf and Tmax were
+obtained using the Proteus Analysis Software. Figure 3
+shows the TG and DTG curves of reduction and oxidation
+reactions under different heating rates.
+From Table 2 and Fig. 3, it can be determined that the
+reduction reaction of Cu/Zr oxygen carrier has high reac-
+tion rate when temperature is higher than 860 C. When
+temperature is higher than 500 C, the oxidation reaction
+of Cu/Zr oxygen carrier has high reaction rate. Times for
+full conversion of both reduction and oxidation were
+shifted to higher values with increasing heating rate. The
+reason is that the heat transfer is not as effective and efﬁ-
+cient as it is at lower heating rates. At lower heating rates,
+heat transfer is more effective to the inner portions and
+among the particles [28]. The maximum mass loss rates are
+1.2
+0.9
+0.6
+0.3
+0.0
+–0.3
+–0.6
+–0.9
+0
+10000
+20000
+30000
+40000
+50000
+60000
+400
+500
+600
+700
+800
+900
+Temperature/°C
+Time/s
+Mass change/mg
+Temperature
+Mass change
+Fig. 6 Mass changes during the
+reduction and oxidation
+processes
+20
+30
+40
+50
+60
+70
+80
+90
+Cu Ka1 2θ/°
+Intensity/a.u.
+1–CuO
+2–Cu2O
+3–ZrO2
+(a)
+(b)
+(c)
+33
+3
+3
+33
+3
+33
+33
+333 3
+3
+3
+3
+1
+1
+1
+1
+1
+1,31
+3
+3
+1,3
+1,3
+1,3
+1 1
+1
+1,3
+2
+3
+3
+2,3
+3
+3
+3
+2
+1,3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+33
+3
+2
+2
+2
+2
+1
+33
+3
+3
+33
+3
+33
+1
+1
+1
+33
+333
+1,3
+1,3
+1,3
+1,3
+1,3
+1
+1
+1
+1
+3
+3
+3
+3
+1
+1
+3
+Fig. 7 XRD patterns for fresh
+and reacted samples (a) fresh
+sample, (b) reduced sample, and
+(c) oxidized sample
+The adaptability of Cu/Zr oxides as oxygen carrier
+1169
+123
+
+
+===== Page 8 =====
+
+also shifted to higher temperatures and this means that high
+temperature is beneﬁcial for both reduction and oxidation
+reactions. However, the tendency is more apparent in the
+reduction process than oxidation process. From Fig. 2 it
+can be known that the EOC of CuO to Cu2O keeps low
+level when temperature is lower than 700 C. The driving
+force is bigger enough to regenerate the reduced oxygen
+carrier, which leads to low heat transfer rate with a low
+effect on oxidation. For the reduction reaction, driving
+force increases greatly with temperature increasing and low
+heating rate means the inner portions of particles could
+reach high temperature quickly.
+Effect of particle size
+Figure 4 shows the conversion ratio of reduction and
+oxidation reactions under different particle sizes. The
+reduction and oxidation reaction temperature is 1,000 and
+600 C, respectively. From Fig. 4 it can be noted that the
+reactivity of oxygen carrier with different particle size has
+little difference. The reasons are that heat transfer is more
+effective among the small particles and the inner portions
+of particles could reach high temperature more easily.
+However, the mass transfer among the particles is limited
+when sample particle size is very small [29]. As a con-
+clusion, the Cu/Zr oxygen carrier as well as the CLAS
+process has a great applicability on different particle
+sizes.
+Effect of reaction temperature
+The effect of reaction temperature on conversion ratio of
+reduction and oxidation reactions was analyzed using iso-
+thermal TG. Figure 5 shows the experimental results
+obtained
+for
+oxygen
+carrier
+with
+particle
+size
+of
+200–315 lm at three reaction temperatures. The reduction
+temperatures were 900, 950 and 1,000 C and the oxidation
+temperatures were 600, 650 and 700 C. It can be observed
+in the Fig. 5 that the oxygen carrier conversion times both
+for reduction and oxidation decreased signiﬁcantly when
+the temperature increased. At 900 C, approximately 5 min
+is needed to reach 99 % conversion, while the corre-
+sponding conversion time at the highest set-point temper-
+ature of 1,000 C is about 1.5 min. For oxidation reaction,
+at the beginning, the effects of temperature are not obvious.
+With the reaction proceeding, the effects become big. In
+other word, high temperature is beneﬁcial to the oxidation
+reaction. In real CLAS system, reduction–oxidation cycles
+are carried out continuously and small temperature differ-
+ence between reduction and oxidation could be operated
+more easily.
+Durability and stability of oxygen carrier
+To investigate the durability and stability of oxygen carrier,
+cyclic tests were carried out. Phases and surface mor-
+phology of oxygen carriers were measured by XRD and
+Fig. 8 SEM images for fresh and reacted samples a–c for samples fresh; d–f for samples of 22 cycles (the scale bars a, d 20 lm; b, e 10 lm;
+c, f 5 lm)
+1170
+K. Wang et al.
+123
+
+
+===== Page 9 =====
+
+SEM before and after experiments. Based on the above
+research, the cyclic temperatures for reduction and oxida-
+tion were determined as 900 and 700 C. Figure 6 gives the
+mass changes during the reduction and oxidation processes.
+The relativities of oxygen reduction and oxidation keep
+high and stable during the cycles. The full conversion time
+for reduction and oxidation are all less than 8 min. It can be
+observed that the reaction rate of reduction is slower than
+that of oxidation.
+Figure 7 shows the XRD patterns of fresh and reacted
+samples, XRD patterns show that the main phases are only
+CuO and ZrO2 in both the fresh and oxidized samples.
+Cu2O and ZrO2 are the main phases in reduced samples.
+The effects of ZrO2 are only to improve the anti-sintering
+and reactivity of Cu-based oxygen carrier.
+The biggest difﬁculty of copper oxide to be used in
+CLAS is the low melting point. Fortunately, temperature
+used in CLAS is lower than that used in CLC which is
+beneﬁcial to avoidance of agglomeration. Moreover, there
+is no fuel that can be used in the reduction reactor and can
+prevent carbon stripping usually generated in CLC and
+CLOU. Some images of the surface morphology of fresh
+and reacted samples are shown in Fig. 8. Both the fresh and
+reacted samples are porous. The surface of reacted samples
+is smoother than fresh samples and no agglomeration has
+been found. The additions of ZrO2 can effectively inhibit
+the agglomeration of Cu-based oxygen carriers.
+Conclusions
+Selecting the suitable oxygen carrier is the key issue to
+CLAS. We investigated the feasibility and adaptability of
+using Cu/Zr oxygen carrier for CLAS in different tem-
+perature ranges through thermodynamic analysis and
+experimental method. Conclusions are obtained below:
+(1)
+The reaction system of CuO/Cu2O has the capability
+of releasing oxygen at suitable atmosphere and
+temperature. The minimum oxygen reduction tem-
+peratures increase with the increasing of oxygen
+concentrations.
+(2)
+When temperature is higher than 860 C, the reduction
+reaction of Cu/Zr oxygen carrier has high reaction rate.
+When temperature is higher than 500 C, the oxidation
+reaction of Cu/Zr oxygen carrier has high reaction rate.
+Ti, Tf and Tmax all shift to high temperature with the
+increasing of heating rate.
+(3)
+Reaction temperature is the most important factor on
+the oxygen reduction and oxidation reactivity. The
+reduction and oxidation reaction rates increase signif-
+icantly with the temperature increasing. The reduction
+and oxidation reaction rates under different particle
+sizes have little difference. The Cu/Zr oxygen carrier
+has a great applicability on different particle sizes.
+(4)
+The oxygen carrier exhibits a stable oxygen reduction
+and oxidation behavior during reduction–oxidation
+cycles. XRD patterns show that the phases are only
+CuO and ZrO2 in fresh and oxidized samples. Cu2O
+and ZrO2 are found in reduced samples. SEM images
+show that the fresh and reacted oxygen carriers are
+porous and no agglomeration has been found during
+the cycles.
+Acknowledgements
+This research was ﬁnancially supported by the
+National Natural Science Foundation of China (Grant No. 51274066),
+the
+Postgraduate
+Innovation
+Foundation
+of
+NEU
+(Grant
+No.
+120602004) and the Academic New Artist Ministry of Education
+Doctoral Post Graduate (Grant No. 02080020203023).
+References
+1. Moghtaderi B. Application of chemical looping concept for air
+separation at high temperatures. Energy Fuels. 2010;24(1):190–8.
+2. Erlach B, Schmidt M, Tsatsaronis G. Comparison of carbon
+capture IGCC with pre-combustion decarbonisation and with
+chemical-looping combustion. Energy. 2011;36(6):3804–15.
+3. Abad A, Ada´nez-Rubio I, Gaya´n P, Garcı´a-Labiano F, de Diego
+LF, Ada´nez J. Demonstration of chemical-looping with oxygen
+uncoupling (CLOU) process in a 1.5 kWth continuously operat-
+ing unit using a Cu-based oxygen-carrier. Int J Greenh Gas
+Control. 2012;6:189–200.
+4. Berguerand N, Lyngfelt A. Design and operation of a 10 kW(th)
+chemical-looping combustor for solid fuels—testing with South
+African coal. Fuel. 2008;87(12):2713–26.
+5. Zhang YX, Droodchi E, Moghtaderi B. Thermodynamic assess-
+ment of a novel concept for integrated gasiﬁcation chemical
+looping combustion of solid fuels. Energy Fuels. 2012;26(1):
+287–95.
+6. Keller M, Leion H, Mattisson T, Lyngfelt A. Gasiﬁcation inhi-
+bition in chemical-looping combustion with solid fuels. Combust
+Flame. 2011;158(3):393–400.
+7. Mattisson T, Johansson M, Lyngfelt A. The use of NiO as an
+oxygen carrier in chemical-looping combustion. Fuel. 2006;
+85(5–6):736–47.
+8. Chandel MK, Hoteit A, Delebarre A. Experimental investigation
+of some metal oxides for chemical looping combustion in a ﬂu-
+idized bed reactor. Fuel. 2009;88(5):898–908.
+9. Mattisson T, Lyngfelt A, Leion H. Chemical-looping with oxy-
+gen uncoupling for combustion of solid fuels. Int J Greenh Gas
+Control. 2009;3(1):11–9.
+10. Leion H, Mattisson T, Lyngfelt A. Using chemical-looping with
+oxygen uncoupling (CLOU) for combustion of six different solid
+fuels. Energy Procedia. 2009;1(1):447–53.
+11. Ada´nez-Rubio I, Gaya´n P, Garcı´a-Labiano F, de Diego LF,
+Ada´nez J, Abad A. Development of CuO-based oxygen-carrier
+materials suitable for Chemical-Looping with Oxygen Uncou-
+pling (CLOU) process. Energy Procedia. 2011;4:417–24.
+12. Fossdal A, Bakken E, Øye BA, Schøning C, Kaus I, Mokkelbost
+T, Larring Y. Study of inexpensive oxygen carriers for chemical
+looping combustion. Int J Greenh Gas Control. 2011;5(3):483–8.
+13. Moghtaderi B, Song H. Reduction properties of physically mixed
+metallic oxide oxygen carriers in chemical looping combustion.
+Energy Fuels. 2010;24:5359–68.
+The adaptability of Cu/Zr oxides as oxygen carrier
+1171
+123
+
+
+===== Page 10 =====
+
+14. Linderholm C, Abad A, Mattisson T, Lyngfelt A. 160 h of chem-
+ical-looping combustion in a 10 kW reactor system with a NiO-
+based oxygen carrier. Int J Greenh Gas Control. 2008;2(4):520–30.
+15. Johansson M, Mattisson T, Lyngfelt A. Investigation of Mn3O4
+with stabilized ZrO2 for chemical-looping combustion. Chem
+Eng Res Des. 2006;84(A9):807–18.
+16. Li YJ, Liu HL, Sun RY, Wu SM, Lu CM. Thermal analysis of
+cyclic carbonation behavior of CaO derived from carbide slag at
+high temperature. J Therm Anal Calorim. 2012;110(2):685–94.
+17. Chuang SY, Dennis JS, Hayhurst AN, Scott SA. Development
+and performance of Cu-based oxygen carriers for chemical-
+looping combustion. Combust Flame. 2008;154(1–2):109–21.
+18. Shulman A, Cleverstam E, Mattisson T, Lyngfelt A. Chemical-
+Looping with oxygen uncoupling using Mn/Mg-based oxygen
+carriers–oxygen release and reactivity with methane. Fuel. 2011;
+90(3):941–50.
+19. Wang K, Yu QB, Qin Q. The thermodynamic method for
+selecting oxygen carriers used for chemical looping air separa-
+tion. J Therm Anal Calorim. 2013;112(2):747–53.
+20. Adanez J, Alberto A, Francisco GL, Pilar G, de Diego LF. Pro-
+gress in chemical-looping combustion and reforming technolo-
+gies. Prog Energy Combust Sci. 2012;38(2):215–82.
+21. Adanez J, de Diego LF, Garcia-Labiano F, Gayan P, Abad A.
+Selection of oxygen carriers for chemical-looping combustion.
+Energy Fuels. 2004;18(2):371–7.
+22. Gayan P, Adanez-Rubio I, Abad A, de Diego LF, Garcia-Labiano
+F, Adanez J. Development of Cu-based oxygen carriers for
+Chemical-Looping with Oxygen Uncoupling (CLOU) process.
+Fuel. 2012;96(1):226–38.
+23. Mattisson T, Leion H, Lyngfelt A. Chemical-looping with oxy-
+gen uncoupling using CuO/ZrO2 with petroleum coke. Fuel.
+2009;88(4):683–90.
+24. Adanez-Rubio I, Gayan P, Abad A, de Diego LF, Garcia-Labiano
+F, Adanez J. Evaluation of a spray-dried CuO/MgAl2O4 oxygen
+carrier for the chemical looping with oxygen uncoupling process.
+Energy Fuels. 2012;26(5):3069–81.
+25. Moghtaderi B. Review of the recent chemical looping process
+developments for novel energy and fuel applications. Energy
+Fuels. 2012;26(1):15–40.
+26. Zhao HY, Cao Y, Kang ZZ, Wang YB, Pan WP. Thermal
+characteristics of Cu-based oxygen carriers. J Therm Anal Cal-
+orim. 2012;109(3):1105–9.
+27. Arjmand M, Azad AM, Leion H, Lyngfelt A, Mattisson T. Prospects
+of Al2O3 and MgAl2O4-supported CuO oxygen carriers in chemical-
+looping combustion (CLC) and chemical-looping with oxygen
+uncoupling (CLOU). Energy Fuels. 2011;25(11):5493–502.
+28. Idris SS, Rahman NA, Ismail K, Alias AB, Rashid ZA, Aris MJ.
+Investigation on thermochemical behaviour of low rank Malay-
+sian coal, oil palm biomass and their blends during pyrolysis via
+thermogravimetric analysis (TGA). Bioresour Technol. 2010;
+101(12):4584–92.
+29. Iggland M, Leion H, Mattisson T, Lyngfelt A. Effect of fuel
+particle size on reaction rate in chemical looping combustion.
+Chem Eng Sci. 2010;65(22):5841–51.
+1172
+K. Wang et al.
+123

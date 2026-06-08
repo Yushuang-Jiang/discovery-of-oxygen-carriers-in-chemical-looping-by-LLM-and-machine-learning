@@ -1,0 +1,1083 @@
+
+
+===== Page 1 =====
+
+Ceramics International 49 (2023) 2329–2339
+Available online 20 September 2022
+0272-8842/© 2022 Elsevier Ltd and Techna Group S.r.l. All rights reserved.
+Screening of optimal dopants on cobalt-based ceramics for 
+high-temperature thermochemical energy storage 
+Lei Liu a, Zijian Zhou a,*, Xiangkun Elvis Cao b, Yue Zhou a, Dejun Peng a, Ying Liu a, 
+Xiaowei Liu a, Minghou Xu a 
+a State Key Laboratory of Coal Combustion, School of Power and Engineering, Huazhong University of Science and Technology, Wuhan, 430074, China 
+b MIT Climate & Sustainability Consortium (MCSC), Massachusetts Institute of Technology, Cambridge, MA, 02139, USA   
+A R T I C L E  I N F O   
+Keywords: 
+Thermochemical energy storage 
+Cobalt oxides doping Zirconia 
+Cobalt oxides doping copper 
+Redox reaction 
+High cyclability 
+A B S T R A C T   
+To date, numerous dopants have been investigated to promote the initial heat storage performance or sintering 
+resistance of Co3O4 for thermochemical energy storage. Owing to the different synthesis methods and heat 
+storage test conditions, the performances of these materials are not comparable. In this work, nine dopants, 
+including four unreported dopants, were systematically compared and screened under the same conditions. 
+Results demonstrated that for five redox cycles, the Si- and Mg- doped sample had adverse effects on the con­
+version rate, and the others maintained the conversion rate above 0.95. Cu and Zr doping exhibited the highest 
+re-oxidation rate values, and those of the others were lower than that of pure cobalt oxide. Moreover, except for 
+Cu and Zr, all dopants adversely affected energy density. According to aforementioned heat storage properties, 
+Cu-, Zr-doped samples, and pure cobalt oxide were subjected to 100 cycles for further comparison. The Cu-doped 
+sample exhibited a higher re-oxidation rate and energy density, and the Zr-doped sample exhibited more stable 
+cyclability. Finally, by doping Cu and Zr, the micromorphology evolution was more stable than that of pure oxide 
+for multiple cycles, and X-ray photoelectron spectroscopy results revealed that the higher surface oxygen was the 
+primary reason for the superior performance facilitated by Cu and Zr. The Cu- and Zr-modified cobalt oxides 
+were the potential candidates for thermochemical energy storage.   
+1. Introduction 
+Owing to its cleanliness, abundance, and inexpensiveness, solar en­
+ergy is among the most promising renewable energy sources to over­
+come the fossil energy crisis. However, solar power production does not 
+generally fulfill the energy requirements. For instance, energy demand 
+often peaks at night, while energy generation peaks at noon [1]. For 
+continuous energy generation, the development of concentrated solar 
+power (CSP), which can enable electricity generation during the day and 
+night, with an efficient thermal energy storage system has attracted 
+significant attention [2,3]. Thus far, sensible (SES), latent (LES), and 
+thermochemical (TCES) energy storage systems are typically used en­
+ergy storage systems [4]. SES, which depends on the specific heat ca­
+pacity of the heat storage medium, has been used in a few commercial 
+CSP plants [5]. LES releases and absorbs heat during the phase transition 
+of the heat storage medium [6–8]. However, the operating temperatures 
+of SES and LES are below ~400 and ~565 ◦C, respectively, and only 
+cater to 1st and 2nd generation CSPs, respectively [9–11]. In recent 
+decades, the heat storage capacity of CSP plants has continuously 
+increased, and upcoming 3rd generation CSP plants can operate at 
+temperatures over 700 ◦C [12,13]. It is challenging to meet the large 
+tank volume and high operating temperature requirements of 3rd gen­
+eration CSP plants using SES and LES systems owing to their low energy 
+densities and operating temperatures [14,15]. TCES systems release and 
+absorb heat by breaking and recombining chemical bonds at tempera­
+tures over 700 ◦C and thus are considered to be more suitable for 3rd 
+generation CSP plants. In addition, the energy density of the TCES heat 
+storage medium is approximately 10 and 5 times higher than those of the 
+SES and LES materials, respectively [16,17]. 
+It is required to investigate materials with better performances for 
+TCES applications. Recently, hydrides [18], hydroxides [19], carbonates 
+[20], and redox oxides [21] have been attracting increasing attention for 
+their application in gas–solid TCES systems [22]. Among them, redox 
+oxides provide the possibility of an open-mode system [23]. Air can 
+* Corresponding author. 
+E-mail address: zhouzj2012@hust.edu.cn (Z. Zhou).  
+Contents lists available at ScienceDirect 
+Ceramics International 
+journal homepage: www.elsevier.com/locate/ceramint 
+https://doi.org/10.1016/j.ceramint.2022.09.201 
+Received 15 July 2022; Received in revised form 14 September 2022; Accepted 16 September 2022   
+
+
+===== Page 2 =====
+
+Ceramics International 49 (2023) 2329–2339
+2330
+directly be used as a heat transfer fluid and reactant, and no residual 
+products are produced in the redox oxide system. Studies have reported 
+the usage of the Co3O4/CoO redox system which relies on the following 
+reversible redox reaction for heat charge and discharge [24,25]: 
+Co3O4 →3CoO + 1
+2O2 ΔH = 844 kJ
+/
+kg.
+(1) 
+Eq. (1) shows that the reversible redox reaction for the Co3O4/CoO 
+system comprises two steps. The reduction reaction corresponds to the 
+heat absorption process occurring at the heating step, in which oxygen is 
+released, and high-valence metal elements are reduced to low-valence 
+species. The oxidation reaction consists of the absorption of oxygen 
+and corresponds to the heat release process occurring at the cooling step. 
+The Co3O4/CoO system has a higher energy density, superior redox 
+reversibility, and faster reaction kinetics than other redox couples. For 
+example, the theoretical energy density of Co3O4/CoO is approximately 
+844 kJ/kg whereas that of Mn2O3/Mn3O4 is merely 202 kJ/kg [26,27]. 
+The average re-oxidation rate for Co3O4/CoO is approximately 100–300 
+μmol/min/g whereas that of Mn2O3/Mn3O4 is approximately 0–20 
+μmol/min/g [26,28,29]. However, the primary drawbacks of the 
+Co3O4/CoO system are that cobalt is toxic and the 32nd rarest element 
+occurring in the crust of the earth, and thus is more expensive and 
+harmful than Mn. However, the Co3O4/CoO system remains worthy of 
+investigation owing to its favorable TCES performance. 
+The long-term cycle performance is essential to the Co3O4/CoO 
+system integrated into CSP. However, the Tamman temperature for 
+cobalt oxides is approximately 314 ◦C, which is significantly lower than 
+its redox operating temperature [30]. Cobalt oxides are prone to sin­
+tering over long-term redox cycles. The two primary processes occurring 
+in sintering are particle coarsening and densification [31–33]. For redox 
+couples, the oxidation reaction depends on oxygen diffusion, while the 
+reduction reaction is determined by heat transfer [34]. Owing to sin­
+tering, the oxygen diffusion path to the bulk material increases, conse­
+quently resulting in a considerable drop in re-oxidation activity. In this 
+regard, the key to improving the performance of cobalt oxides in TCES 
+systems is enhancing its initial redox performance and promoting sin­
+tering resistance [22,26]. From a thermodynamic point of view, it has 
+been demonstrated that doping a secondary metal element in Co3O4 is a 
+prospective method for increasing energy density and redox activity. 
+Furthermore, to retain the redox performance for long-term cycles, inert 
+materials have been used to enhance the sintering resistance of cobalt 
+oxides. 
+The effects of the doping of cobalt oxides on their TCES performances 
+as observed in previous studies are summarized in Table S1. As shown in 
+the table, the spinel structure materials (e.g., Co3−xMnxO4, Co3−xNixO4, 
+and Co3−xCuxO4) and a few mixed metal oxides (e.g., Co3O4 and CeO2, 
+Co3O4, and Fe2O3) improved the initial redox performance. For 
+Co3−xMnxO4, although Mn ions can be effectively substituted in the 
+Co3O4 lattice, they slightly deteriorated reaction kinetics and shifted the 
+redox process toward higher temperatures [35], which significantly 
+decreased the operability of the oxide. For Co3−xNixO4, while Ni doping 
+decreased the onset temperature, it reduced the reaction kinetics [36]. 
+For Co3−xCuxO4, 10% Cu doping adversely affected the energy density 
+and reaction reversibility, but a lower Cu doping was favorable as it 
+enhanced the heat release and absorption capacity [37]. Moreover, for 
+mixed metal oxides, it was observed that doping both CeO2 and Fe2O3 
+into Co3O4 can enhance reaction kinetics, particularly the oxidation 
+rate. However, it did not contribute to an increase in energy density of 
+the TCES system [24,38]. On the other hand, adding inert supports 
+prevents the particles from coarsening and reduces material sintering. 
+Al2O3, SiC, and SiO2 are commonly used refractory materials owing to 
+their high melting point [38,39]. Although the sintering resistance was 
+slightly increased, the energy density reduced owing to the formation of 
+CoAl2O4 and Co2SiO4. 
+Previous studies have demonstrated that energy density, reaction 
+reversibility, and kinetics are crucial properties [4,40–42]. However, 
+neither the doping of second metal element in Co3O4 nor using inert 
+supports concurrently promote these properties. In addition to the 
+modifications mentioned above, the addition of Mg, La, Yb, and Zr as 
+supports or promoters of catalyst materials has been explored across 
+various fields to improve their amphoteric properties and thermal sta­
+bility, which may subsequently lead to enhanced thermochemical per­
+formance of Co3O4 [43–45]. Moreover, various studies have reported 
+different effects of various elements on the thermochemical perfor­
+mance of cobalt-based systems. These differences may have arisen from 
+various experimental conditions or synthesis methods, consequently 
+leading to different physical properties (e.g., chemical and physical 
+compositions, specific surface area, and total pore volume). In this 
+aspect, although a few dopants have been extensively studied previ­
+ously, it remains unclear which dopant is optimal under identical test 
+conditions, and an efficient framework is required to evaluate the dif­
+ference in energy storage performance. 
+Therefore, nine dopants, including four previously unreported novel 
+options (i.e., Yb, Mg, La, and Zr), for Co3O4 were selected in this study. 
+All the samples used in this study were synthesized via a hydrothermal 
+method to form micro cubic morphologies [46]. In our previous work, a 
+cubic structure exhibited the optimal activity compared with those of 
+other morphologies [47]. In this study, the chemical modification of 
+Co3O4 was based on the cubic micro-nano structure. After doping with 
+different dopants, the phase composition was determined using X-ray 
+diffraction (XRD), and under the same test condition, each sample was 
+subjected to five redox cycles. The conversion rate, re-oxidation rate, 
+reaction temperature, and energy density were evaluated on the basis of 
+thermogravimetric analysis (TGA) and differential scanning calorimetry 
+(DSC) curves. Moreover, to further investigate the optimal dopant, 
+long-term redox cycles (100 cycles) were performed for pure Co3O4 as 
+well as the Zr- and Cu-doped samples. To evaluate the energy storage 
+performance of the materials, three standard evaluates (i.e., the average 
+capacity loss, theoretical cycle number, and total energy density) were 
+proposed. Moreover, the scanning electron microscopy (SEM) images 
+were investigated before and after subjecting the samples to the 
+long-term redox cycles to gain insights into morphology evolution. The 
+phase compositions of the samples were also determined after 5 and 100 
+cycles. Finally, chemical states of the fresh and used samples were 
+analyzed using X-ray photoelectron spectroscopy (XPS) to study the 
+reaction mechanism. 
+2. Experimental 
+2.1. The synthesis process of materials 
+The detailed information of raw materials and characterization 
+techniques was given in supporting information. In this work, the hy­
+drothermal method was used to synthesize the nine samples doped 
+second elements with the molar content of 15% and a pure cobalt oxide. 
+0.0085 mol cobalt acetate tetrahydrate, 0.0015 mol dopant precursor, 
+2.00 g triethanolamine, and 3.00 g CO(NH2)2 were dissolved in 100 mL 
+of deionized water under continuous stirring. After that, the transparent 
+solution was obtained. The solution was placed into a Teflon autoclave 
+and kept at 180 ◦C for 12 h. After cooling to room temperature, the 
+product was separated by centrifugation and washed several times with 
+ethanol and deionized water. Then, the obtained precipitate was dried in 
+an oven at 60 ◦C for 24 h. Last, the resulting product was heated in a 
+muffle furnace at a rate of 10 ◦C/min and calcined at 900 ◦C for 10 h. 
+Finally, the ten samples were obtained by grinding. 
+For all samples in present study, pure Co3O4 was also used to 
+compare redox performance, which was denoted as Co100 and the 
+modified samples were denoted as CoMe15 according to the element of 
+dopants, such as CoYb15, CoSi15, CoCe15, CoMg15, CoLa15, CoZr15, 
+CoCu15, CoAl15 and CoFe15, respectively. 
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 3 =====
+
+Ceramics International 49 (2023) 2329–2339
+2331
+2.2. Operation conditions 
+A Netzsch STA 449 F5 instrument was used for thermogravimetric 
+analysis (TGA). In TGA tests, each sample (about 20 mg) was subjected 
+to redox cycles in an alumina (Al2O3) crucible of 85 μL. Each cycle 
+consisted of two steps (heating and cooling): the heating temperature 
+was from 700 ◦C to 1000 ◦C, and cooling temperature was from 1000 ◦C 
+to 700 ◦C. In addition, both heating and cooling rates were 10 ◦C/min 
+with an airflow of 100 mL/min (N2: 79 mL/min; O2: 21 mL/min). Ac­
+cording to TGA curve, the conversion rate and average re-oxidation rate 
+of materials were calculated. The energy density was gained by DSC 
+curve. From long-term redox cycles and energy density, three evaluated 
+standards were proposed. 
+3. Result and discussion 
+3.1. Characterization of Co-based materials 
+The phase compositions of all the synthesized materials were 
+determined using powder XRD patterns, which are shown in Fig. 1. All 
+the PDF cards with the corresponding phases are shown in Table S2. For 
+pure Co3O4 (Co100), the main 2θ diffraction peaks observed in the 
+pattens are 19.0◦, 31.3◦, 36.9◦, 38.5◦, 44.8◦, 55.6◦, 59.3◦, and 65.2◦, 
+which agreed well with standard pattern (PDF#78–1969). After doping 
+with nine different dopants, to better distinguish the phase composition, 
+all the materials were classified into two based on their phase 
+composition: Type I and Type II. As shown in Fig. 1(a) and (b), CoYb15, 
+CoSi15, CoCe15, CoMg15, and CoLa15 were classified as Type I, for 
+which multiple phases are observed. Additional to the diffraction peaks 
+of Co3O4, the secondary diffraction peaks can be observed in Fig. 1(a) 
+and (b), and the secondary diffraction peaks belonged to Yb2O3, 
+Co2(SiO4), CeO2, MgO, and LaCoO3, respectively. Moreover, as shown in 
+Fig. 1(b), the main peaks of CoSi15 belonged to Co2SiO4. By adding Si to 
+Co3O4, Co2SiO4 formation is in good agreement with the result of pre­
+vious study [38]. Type II samples are shown in Fig. 1(c) and (d), and the 
+single phase for the Type II samples is confirmed owing to the secondary 
+diffraction peaks not being observed. However, overlapping peaks were 
+distinctly observed for Type II samples in Fig. 1(d) at approximately 
+36.9◦, indicating the presence of CoCo2O4. The space groups of CoCo2O4 
+and Co3O4 were F-43m and Fd-3m, respectively. CoCo2O4 with Co3O4 
+was isomeric and was synthesized via controlling the Co2+ concentra­
+tion [48]. CoCo2O4 formation indicates that after doping, the ratio of 
+Co3+ to Co2+ changed, which may result in a different redox activity. 
+Additionally, noticeable peaks shifted for all Type II samples owing to 
+the distinct radii of the elements incorporated in the Co crystal structure. 
+The atomic radius is also shown in Table S3. Whereas, for CoFe15 and 
+CoZr15, the peaks slightly shifted, which may be due to the low content 
+of doped oxides, or iron and zirconium oxides were highly dispersed on 
+the Co3O4 surface [43]. The dopants with larger atoms radius are not 
+going to replace cobalt in the crystal structure, but crystalize as phase 
+segregations. The dopants with lower atoms radius can well substitute 
+Co atoms in Co3O4 crystal structure to form single-phase oxides. 
+According to the XRD patterns, Fig. S1 shows the results of the 
+Rietveld refinements for all the fresh samples, and the crystallite size 
+and lattice parameter were calculated and are listed in Table 1. The 
+crystallite size was calculated using Eq. (2): 
+d = 0.89 × λ
+β⋅cosθ
+(2)  
+,where the radiation wavelength (λ) is 1.54148 Å, β is the full-width 
+half-maximum, and θ is the diffraction angle, which is the angle of the 
+most intense peak. 
+The crystallite size of pure Co3O4 (Co100) was 59.8 nm, consistent 
+with those of the samples synthesized by other researchers [49]. The 
+crystallite sizes of Yb-, Mg-, and La-doped Co3O4 was 34.1, 39.7, and 
+48.3 nm, respectively, lower than that of pure Co3O4. The crystallite 
+sizes of Si-, Ce-, Zr-, Cu-, Al-, and Fe-doped samples were 63.8, 83.2, 
+84.6, 99.9, 94.0, and 81.2 nm, respectively. All the sizes were consid­
+erably larger than that of pure Co3O4. With Si doping, the samples with 
+larger crystallite sizes belonged to Type I, and the lower ones belonged 
+to Type II. Arguably, highly dispersed dopants or eutectic doping could 
+promote Co3O4 crystal growth, but the agglomerate dopants may inhibit 
+crystal growth. 
+The lattice parameter was also calculated using Eq. (3) and Eq. (4): 
+2dh*l*ksinθ = nλ
+(3)  
+Fig. 1. (a) XRD patterns of the Type I samples, (b) the details of XRD patterns 
+for Type I samples in 36.5–37.5◦region, (c) XRD patterns of the Type II sam­
+ples, and (d) the details of XRD patterns for Type II samples in 
+36.5–37.5◦region. 
+Table 1 
+Crystallite size (d), lattice parameter (a), specific surface area of the fresh 
+samples.  
+Sample 
+Phase composition 
+d (nm) 
+a (Å) 
+SBET (m2/g) 
+CoYb15 
+Co3O4+Yb2O3 
+34.1 
+8.0929 
+7.87 
+CoSi15 
+Co3O4+Co2(SiO4) 
+63.8 
+8.0436 
+31.35 
+CoCe15 
+CoCo2O4+Co3O4+CeO2 
+83.2 
+8.0847 
+2.48 
+CoMg15 
+Mg0.38Co2.62O4+MgO 
+39.7 
+8.0847 
+0.93 
+CoLa15 
+Co3O4+LaCoO3 
+48.3 
+8.0709 
+2.80 
+CoZr15 
+Co3O4+CoCo2O4 
+84.6 
+8.0847 
+1.59 
+CoCu15 
+Co3O4+CoCo2O4 
+99.9 
+8.0792 
+1.29 
+CoAl15 
+Co3O4+CoCo2O4 
+94.0 
+8.0764 
+6.20 
+CoFe15 
+Co3O4+CoCo2O4 
+81.2 
+8.0874 
+0.29 
+Co100 
+Co3O4 
+59.8 
+8.0874 
+1.86  
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 4 =====
+
+Ceramics International 49 (2023) 2329–2339
+2332
+dh*l*k =
+a
+̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+h*2 + k*2 + l*2
+√
+(4)  
+,where dh*l*k is the crystal spacing of the crystal surface (h* k* l*), which 
+can be calculated using Eq. (4), θ is diffraction angle, which is the angle 
+of the most intense peak, and the radiation wavelength (λ) is 1.54148 Å. 
+It should be noted that owing to the typical spinel-type structure of 
+Co3O4 [49], the parameter of a, b and c for Co3O4 have the same value, 
+and the α, β and γ are 90◦. Thus, only the parameter of “a” was calcu­
+lated. The lattice parameter of pure Co3O4 was 8.0929 Å, which is in 
+accordance with the lower ionic diameter of Co3+ cations [rCo3+ =
+0.0545 nm (low spin)]. After doping, similar lattice parameter ranged 
+from 8.0436 to 8.0929 Å. Considering the lattice parameters of CoZr15, 
+CoCu15, CoAl15, and CoFe15, Vegard’s law was valid for solid solution 
+formation. The BET surface areas listed in Table 1 show the significant 
+differences for all samples, ranging from 0.29 to 31.35 m2/g. The BET 
+result indicates that the typical surface area of pure Co3O4 was easily 
+affected by eutectic doping. Notably, CoSi15 possessed a significantly 
+higher surface area than other samples, which is mainly owing to the 
+high surface area (225.06 m2/g) of silica sol, which was used as the 
+silicon source to synthesized CoSi15 (Fig. S2). 
+3.2. Redox cyclability 
+Each material was subjected to five charge/discharge cycles to test 
+its redox performance, and the mass change curves are shown in Fig. 2 
+(a). The samples were charged and discharged via a reversible redox 
+reaction. The heat was absorbed in the weight-loss step related to the 
+reduction reaction. Contrastingly, heat was released at the weight-gain 
+step related to the oxidation reaction. According to the mass change 
+curves, the conversion rate, which is among the most important prop­
+erties for thermochemical energy storage, representing the heat release 
+efficiencies of the materials in multiple charge/discharge cycles, was 
+calculated using Eq. (5), and are shown in in Fig. 2(b) and (c). 
+χr,N = Δmoxi, N
+/
+Δmtheoretical⋅ΔH
+Δmoxi,1st
+/
+Δmtheoretical⋅ΔH = Δmoxi, N
+Δmoxi,1st
+(5)  
+,where Δmoxi,N is the weight gain value, Δmoxi,1st is the weight gain in the 
+first cycle, and Δmtheoretical is the theoretical mass change. 
+As shown in Fig. 2(b), the conversion rates of CoSi15 and CoMg15 
+show a linear decline with redox cycles, indicating that samples doped 
+with 15% Si and 15% Mg exhibited the opposite effect on improving the 
+redox cyclability. The other samples maintained their conversion rates 
+above 94%. From the detailed information of other samples shown in 
+Fig. 2(c), CoYb15, CoCe15, and CoAl15 also exhibited a linear decline 
+for the five cycles, and CoYb15 exhibited the fastest decay. For CoCu15, 
+CoZr15, CoLa15, CoCe15, and Co100, the conversion rates slightly 
+decreased with cycling. Among them, Co100 exhibited the highest 
+conversion rate for the five redox cycles (about 100%), followed by 
+CoZr15 (99.3%), CoCe15 (99.1%), CoLa15 (99.0%), and CoCu15 
+(98.9%), respectively. Although for CoCu15, CoZr15, CoLa15, and 
+CoCe15, the conversion rate was lower than that of Co100, their con­
+version rates were maintained at the initial value, indicating that the 
+cycle stabilities of CoCu15, CoZr15, CoLa15, and CoCe15 were similar to 
+that of Co100. To summarize, the redox cyclability followed the 
+descending order: Co100 = CoCu15 = CoZr15 = CoLa15 = CoCe15 >
+CoAl15 > CoFe15 > CoYb15 > CoSi15 > CoMg15. 
+Fig. 2. (a) The mass change of the five redox cycles, (b) conversion rate for all samples, and (c) detail information for conversion rate.  
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 5 =====
+
+Ceramics International 49 (2023) 2329–2339
+2333
+3.3. Reoxidation reaction rate 
+For each redox cycle, the predominant change occurred during the 
+oxidation reaction. The re-oxidation rate decayed with cycling, which is 
+ascribable to sintering. The reduction step was related to heat transfer, 
+while the oxidation step depended on oxygen diffusion [34]. The pore 
+structure and morphology is destroyed owing to sintering. Thus, the 
+oxygen diffusion was resisted, and the re-oxidation rate was decreased. 
+In contrast, sintering negligibly affected heat transfer. In this respect, 
+the key to improving the material reaction kinetics was to enhance the 
+re-oxidation rate [26]. In the TCES process, the re-oxidation rate expo­
+nentially decreased at the initial cycling stage. In subsequent cycles, the 
+re-oxidation rate slightly decreased. In this study, according to the TGA 
+curves, the average reaction rate was calculated using Eq. (6): 
+Vreoxidation = Δm
+M⋅Δt (μmol / min / g)
+(6)  
+,where Δm is the value of the weight gain/loss for every cycle, Δt is the 
+reduction or oxidation reaction time, and M is the molecular mass of 
+oxygen (32 g/mol). 
+As for the re-oxidation rate shown in Fig. 3, the re-oxidation rate of 
+Co100 for the first cycle was approximately 275 μmol/min/g, and after 
+the fifth cycle, the re-oxidation rate decreased to 190 μmol/min/g. A 
+faster and more stable re-oxidation rate is preferred for the TCES pro­
+cess. This was obtained via Zr and Cu doping. CoZr15 and CoCu15 
+exhibited a higher re-oxidation rate than Co100, among which, CoCu15 
+exhibited the highest oxidation rate (351 μmol/min/g), but after five 
+cycles, its re-oxidation rate decreased to 316 μmol/min/g. Compared 
+with CoCu15, although CoZr15 exhibited a lower re-oxidation rate than 
+CoCu15, the re-oxidation rate of CoZr15 was more stable than that of 
+CoCu15, which maintained its initial value (approximately 261 μmol/ 
+min/g). For CoAl15, the oxidation rate was lower than that of Co100 and 
+exhibited a similar trend to Co100 (240–154 μmol/min/g). The results 
+for CoAl15 is attributable to the reaction between Al2O3 and CoO at a 
+high temperature [38], which was a competing process for the 
+re-oxidation of CoO. For the other samples, the re-oxidation rate was 
+lower than those of pure cobalt oxides. 
+The stable reoxidation rate change is also observed for CoSi15, 
+CoFe15, CoYb15, CoCe15, CoLa15, and CoMg15. A more stable but 
+lower re-oxidation rates for these materials indicated that Si-, Fe-, Yb-, 
+Ce-, La-, and Mg-doping had the opposite effect on cobalt oxides re- 
+oxidation, while the sintering resistance ability improved. Theoreti­
+cally, a higher surface area was conducive to oxygen diffusion; thus, a 
+higher re-oxidation rate can be obtained, but in this study, the re- 
+oxidation rate shown in Fig. 3 was not in accordance with the BET 
+specific surface areas listed in Table 2. For instance, as shown in Fig. 3 
+and Table 1, the special surface area of CoSi15 was the highest (31.35 
+m2/g). However, its oxidation rate was considerably lower than those of 
+CoCu15 and CoZr15, indicating that the chemical effect played a more 
+important role than physical effects in the re-oxidation process. To 
+summarize, the reoxidation performance of all samples followed the 
+descending order: CoZr15 > CoCu15 > Co100 > CoAl15 > CoLa15 >
+CoFe15 > CoYb15 > CoCe15 > CoSi15 > CoMg15. 
+3.4. Energy density 
+The endothermic reaction enthalpy based on Eq. (1) was defined as 
+the energy density for TCES [16], shown in Fig. 4. The enthalpy was 
+obtained by integrating DSC curves, and the DSC curves for all samples 
+are shown in Fig. S4. Notably, from 1953 to 2012, numerous researchers 
+investigated the theoretical enthalpy for Co3O4, and the theoretical 
+enthalpy ranged from 552.74 to 858.01 kJ/kg [50]. From TGA–DSC to 
+packed bed, the heat ranged from 293 to 600 kJ/kg in the TCES system 
+[27,42]. The considerably lower enthalpy (244–551 kJ/kg) was caused 
+by the Co3+ spin-state change, which was not measurable using 
+DSC–TGA. Thus, in this study, the energy density was used to compare 
+the relative enthalpies before and after doping, which does not entirely 
+reflect the actual energy density values. 
+As shown in Fig. 4, the energy densities for the 2nd–5th cycles 
+exhibited similar values, whereas the first cycle exhibited a different 
+result owing to the incomplete reaction between the dopants and cobalt 
+oxides. That is, during the synthesis process of the samples at 900 ◦C, the 
+reaction between the dopants and cobalt oxides was incomplete. 
+Meanwhile, for the first redox cycle, the highest temperature was 
+approximately 1000 ◦C, which was significantly higher than the syn­
+thesis temperature. Moreover, it has been reported that the irreversible 
+loss occurring during heating for first cycle because of the impurities. 
+Such impurities were not observed in the XRD patterns [51]. Thus, 
+additional to the heat flow of the redox reaction, extra heat flow could 
+cause different energy densities. In this aspect, the second redox cycle is 
+generally considered as the initial stage of the charge/discharge cycles. 
+As for the 2nd–5th redox cycles shown in Fig. 4, CoSi15 and CoLa15 
+exhibited the lowest energy density (approximately 190 and 245 kJ/kg), 
+owing to the formation of the inert materials, Co2(SiO4) and LaCoO3. For 
+CoCe15, the energy density was approximately 260 kJ/kg, indicating 
+that 15% CeO2 adversely affected the energy density in this study. 
+Regarding CoMg15, MgO could cause an incomplete conversion, which 
+is observed in Fig. S3. The lower energy density is ascribable to the 
+incomplete reaction at the temperature range of 700 ◦C–1000 ◦C. As for 
+CoAl15 and CoYb15, the energy densities remained lower than that of 
+pure cobalt oxides (approximately 358.8 kJ/kg). Notably, although the 
+energy density of CoFe15 was lower than that of Co100, the energy 
+density was similar to 85% of that of Co100. Additionally, the energy 
+densities for CoCu15 and CoZr15 were the highest (476 and 425 kJ/kg), 
+higher than that of Co100. The higher energy densities are ascribable to 
+the Co3+ content increasing after doping, and more energy requires to be 
+absorbed. To summarize, the energy density performance followed the 
+decreasing order below: CoCu15 > CoZr15 > Co100 > CoFe15 >
+CoYb15 > CoAl15 > CoMg15 > CoCe15 > CoSi15 > CoLa15. 
+Fig. 3. Five redox cycles re-oxidation rate average value for ten materials.  
+Table 2 
+The crystallite size and lattice parameters after 5 and 100 cycles.  
+Sample 
+d5th (nm) 
+a5th (Å) 
+d100th (nm) 
+a100th (Å) 
+Co100 
+47.94 
+8.0864 
+59.56 
+8.0918 
+CoZr15 
+46.65 
+8.0809 
+58.26 
+8.0918 
+CoCu15 
+59.65 
+8.0918 
+61.01 
+8.0918  
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 6 =====
+
+Ceramics International 49 (2023) 2329–2339
+2334
+3.5. Onset reaction temperature 
+The influence of doping different dopants at the reduction and 
+oxidation onset temperatures was analyzed. The TGA results shown in 
+Fig. 5 show the redox onset temperature for the second cycle. During the 
+heat charging and discharging process, higher reaction temperatures 
+represent greater thermal grades. Because heat released at higher tem­
+peratures is greater than that under lower temperatures; thus, for the 
+temperature range (700 ◦C-1000 ◦C) in this study, a higher onset reac­
+tion temperature was preferred. In addition, the onset temperature for 
+oxidation was generally lower than that for reduction. However, owing 
+to the overheating and undercooling phenomena required for achieving 
+the necessary driving force to complete the reduction and oxidation 
+reactions, the reduction reaction did not proceed entirely, and the 
+oxidation reaction initiated so that the onset temperature for oxidation 
+could be higher than that of reduction [22,52]. As shown in Fig. 5, the 
+samples predominantly exhibited similar behaviors. The reduction re­
+action initiated at approximately 910 ◦C except for CoCu15 and 
+CoMg15, whose onset temperature was approximately 880 ◦C. A similar 
+onset reduction temperature as those of the synthesized materials was 
+ascribavle to the similar heat conduction characteristics, because heat 
+transfer determined the reduction step. The result of the reduction onset 
+temperature experiment indicated that after doping with 15% Yb, Si, Ce, 
+La, Zr, Al, and Fe had little effect on the Co3O4 heat conduction char­
+acteristics. However, CoCu15 and CoMg15 exhibited a lower onset 
+reduction temperature. The lower onset temperature for reduction in­
+dicates that they can be used in other fields, such as the utilization of 
+industrial waste heat. Contrastingly, the oxidation onset temperature for 
+pure cobalt oxide was approximately 900 ◦C, close to its reduction onset 
+temperature, similar to CoCe15. After doping with Yb, Si, La, Zr, and Cu, 
+the oxidation onset temperature was lower than that of pure Co3O4, and 
+they exhibited a similar onset temperature. Moreover, similar results 
+were observed for CoAl15. Notably, CoMg15 exhibited a different onset 
+temperature, which was significantly lower than other samples. The 
+onset temperature for reduction and oxidation was 797.7 and 784.6 ◦C, 
+respectively. The decreasing order of the samples based on their onset 
+temperatures is as follows: CoAl15 > CoFe15 > Co100 = CoCe15 >
+CoCu15 > CoZr15 > CoLa15 > CoLa15 > CoSi15 > CoYb15. 
+3.6. Long-term cyclability 
+Co100, CoZr15, and CoCu15 exhibited the most favorable conver­
+sion rate, re-oxidation rate, and energy density. However, only five 
+redox cycles were performed in the test above; in a thermochemical 
+energy storage system, materials are generally subjected to long-term 
+charge/discharge cycles. Long-term cyclability is also an essential 
+property. Therefore, Co100, CoZr15, and CoCu15 were subjected to a 
+more extreme cycling experiment (up to 100 cycles) to test its stability. 
+The cycling was performed in air (79 mL/min N2 and 21 mL/min O2). As 
+shown in Fig. S5, all the samples showed favorable reversibilities after 
+multiple cycles. Pure cobalt oxides exhibited superior performances to 
+those of the pure cobalt oxides synthesized by others [46,47], because 
+the pure cobalt oxides in this study were synthesized with a cubic 
+structure using a hydrothermal method, and the cubic material has a 
+higher surface area and pore volume [47]. The conversion rate for 100 
+redox cycles is shown in Fig. 6. The conversion rate of Co100 exhibited a 
+moderately linear decrease, and the slope decreased from 1.00 to 0.92. 
+Whereas for CoCu15 and CoZr15, although the conversion rate was 
+lower than that of Co100 at the initial stage, it exponentially decreased 
+Fig.4. The energy density for all samples.  
+Fig. 5. Oxidation and reduction onset temperature for the second cycle.  
+Fig. 6. 100 redox cycles for Co100, CoZr15, and CoCu15, (a) mass change and 
+(b) re-oxidation conversion rate. 
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 7 =====
+
+Ceramics International 49 (2023) 2329–2339
+2335
+for the first 20 cycles. But for the 20th–100th cycles, the conversion rates 
+for CoCu15 and CoZr15 became stable. CoZr15 (0.993–0.984) exhibited 
+a slightly higher conversion rate than Zr and Cu doping, which led to a 
+significant improvement in the long-term cyclability. 
+In addition, the thermochemical energy storage performance of the 
+modified cobalt oxides reported previously in the literature is summa­
+rized in Table S4. Notably, the reported energy densities for pure cobalt 
+oxides varied, although weight was lost and gained completely, which is 
+ascribable to the use of different measuring instruments. Thus, the 
+improvement in the different energy densities reported in the literature 
+was calculated. It can be observed that the improvement in energy 
+density, re-oxidation rate, and conversion rate of cobalt oxides modified 
+via Zr doping in this study is distinctly superior. 
+3.7. Novel evaluation standards 
+The optimal materials for TCES are expected to possess high energy 
+densities and stable cyclabilities. However, based on above test, CoCu15 
+showed a higher energy density, but the stable cyclability of CoCu15 was 
+lower than that of CoZr15. Hence, to further compare the performance 
+and screen the optimum TCES material, the average loss in cyclic ca­
+pacity of a single cycle (ATheoretical), the theoretical number of cycles 
+(NTheoretical), and the total energy density (ETotal) in the lifetime of the 
+materials were determined to further evaluate the effectiveness of 
+different dopants. The related equations are as follows: 
+ATheoretical = ΔMmax
+n,
+−ΔMn
+(n, −n)⋅ΔMmax
+n,
+(7)  
+a0 =
+72kJ/kg
+maximum energy density × 100%
+(8)  
+NTheoretical = 100% −a0
+ATheoretical
+(9)  
+ETotal = NTheoretical⋅Emax
+2
+(10)  
+,where ΔMmax n’ is the mass loss with the maximum energy density, 
+ΔMn is the mass loss for the nth cycle, and n is the cycle number at which 
+material exhibited the maximum energy density. Notably, the energy 
+density is related to mass change for redox cycles; therefore, the 
+maximum energy density corresponded to maximum mass change. The 
+energy density of molten salt in CSP plants is 72 kJ/kg [40–42]. Eq. (8) 
+illustrates that the materials were considered inactivated when energy 
+density for materials decreased to 72 kJ/kg, and Emax represented the 
+maximum value of energy density. 
+The results for NTheoretical, ATheoretical, and ETotal for CoZr15, CoCu15, 
+and Co100 are shown in Fig. 8. For these evaluating standards, the 
+theoretical number of cycles (NTheoretical) and average weight loss 
+(ATheoretical) could quantify the cyclic stability. The detailed descriptions 
+for NTheoretical and ATheoretical are shown in Fig. S7, where it can be seen 
+that the theoretical mass change was linear. The material performances 
+could be evaluated directly with the three standards. In contrast, such 
+information cannot be obtained from the re-oxidation conversion rate 
+shown in Fig. 6. For instance, the conversion rate for CoZr15 and 
+CoCu15 were similar between the 50th and 100th cycles. It was chal­
+lenging to obtain the optimal TCES material. With respect to the three 
+evaluation standards shown in Fig. 7, CoZr15 exhibited the lowest 
+average weight loss (ATheoretical) at approximately 0.0076 for a single 
+cycle, and the weight losses for the CoCu15 and Co100 were 0.0165 and 
+0.0804, respectively. The theoretical numbers of cycles (NTheoretical) for 
+CoZr15, CoCu15, and Co100 were 10829.97, 5130.53, and 1013.49, 
+respectively. The total energy densities (ETotal) for CoZr15, CoCu15, and 
+Co100 were 2299.74, 1222.35, and 197.18 GJ/t, respectively. The result 
+indicated that the optimal performances of cyclability and energy den­
+sity was observed after Zr doping in cobalt oxides. Moreover, the 
+feasibility of the three evaluating standards has been further verified. 
+3.8. The evolution of physicochemical properties for redox cycles 
+The influence of Zr- and Cu-doping on the morphology was analyzed 
+utilizing SEM-EDS. Fig. 8 shows SEM-EDS micrographs of the synthe­
+sized pure cobalt, Co–Zr, and Co–Cu oxides. As shown in Fig. 8, the 
+morphology of the materials was a cubic structure and the length of each 
+cubic particle was approximately 5–8 um [46]. The final powder sam­
+ples were obtained via calcining their precursors (CoCO3). After 
+calcining, the porous structure was formed; thus, they possessed a higher 
+surface area and pore volume. According to the SEM-EDS mapping 
+result, the elements were observed to be homogeneously distributed on 
+particle surfaces as shown in Fig. 8, demonstrating the effectiveness of 
+mixing process. 
+In addition, the SEM images of the pristine material as well as the 
+materials after the 5th and 100th cycles were analyzed to obtain the 
+morphology evolution information for the redox cycles. The relatively 
+high-resolution SEM images are shown in Fig. 9, and the different res­
+olution images are also shown in Fig. S8 to Fig. S16. As shown in Fig. S8 
+to Fig. S16, all the samples exhibit a cubic structure. The aggregates of 
+the irregular particles formed the materials with a cubic structure. 
+Additionally, the surface of each sample was different. The Co100 (Fig. 9 
+(a)) surface was denser than those of CoZr15 (Fig. 9(d)) and CoCu15 
+(Fig. 9(g)). After the five cycles, the particle sizes of the three samples 
+became coarser than those of the fresh samples. After 100 cycles, the 
+particles became significantly coarser and denser. 
+The cubic structure of the particles was destroyed owing to sintering 
+after five cycles, as shown in Fig. S15. After 100 cycles, the particles 
+coarsened, and densification significantly increased. Our previous work 
+demonstrated that the cubic structure was retained after five cycles, 
+because the calcination temperature during the synthesis process was 
+only 500 ◦C [47]. However, in this study, the calcination temperature 
+was 900 ◦C, which was significantly higher. Nonetheless, for CoZr15 
+(Fig. S9) and CoCu15 (Fig. S12), the cubic structure was retained after 
+five cycles. But after 100 cycles (Fig. S10 and Fig. S13), the cubic 
+structure was destroyed. This phenomenon indicated that Zr- and Cu- 
+doping enhanced the capacity of sintering resistance, and a more stable 
+redox cycle performance was obtained, because, for Zr doping, presence 
+of unreacted Zr particles is observed in the SEM micrographs (Fig. 9(d), 
+Fig. S8, Fig. S9, and Fig. S10) but the Zr particles are not observed in the 
+XRD patterns. From the SEM images for CoZr15 in Fig. 9(a), (b)), and 
+Fig. 9(c), the Zr particle sizes increased with cycling, in which case, the 
+superior performance for CoZr15 in long-term cyclability might be 
+owing to the presence of Zr particles, which were inertia materials and 
+could effectively reduce material sintering. Moreover, for Cu doping, 
+though the Taman temperature of CuO was considerabley low, based on 
+Fig. 7. Comparison of A, N, and E for CoZr15, CoCu15, and Co100.  
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 8 =====
+
+Ceramics International 49 (2023) 2329–2339
+2336
+a previous study, the high capacity of its sintering resistance is ascrib­
+able to the formation of Cu2CoO3, which is an inert material [53]. 
+The XRD patterns of the materials before and after cycling were 
+analyzed for obtaining the phase composition change. The result is 
+shown in Fig. 10. On the one hand, the XRD results for Co100 showed 
+similar diffraction patterns before and after cycling, indicating that the 
+phase composition remained unchanged. The diffraction peak still 
+belonged to the Co3O4 phase. 
+On the other hand, Fig. S6 shows the results of the Rietveld re­
+finements for samples after 5 and 100 cycles, and the crystallite size and 
+lattice parameter were also calculated using Eq. (3) and Eq. (4), 
+respectively, and the result are listed in Table 2. As shown, after 100 
+cycles at high temperatures, the crystallite sizes and lattice parameters 
+of all the samples increased. The increase in crystallite size revealed the 
+growth of crystallinity, which was caused by sintering. Moreover, for 
+CoZr15, the diffraction peak of the secondary phase, which belonged to 
+ZrO2 (PDF#88–2390), after 100 cycles was not observed. This secondary 
+phase for pristine material and other materials after the 5th cycle was 
+not detected, indicating that few Zr elements were doped into the Co3O4 
+lattice, and others Zr elements were in ZrO2 and highly dispersed. 
+To gain more insights into the effect of dopants on redox cycles 
+performance, the change in chemical states for Co and O on the surfaces 
+before and after five cycles were investigated using XPS. Fig. 11(a) 
+shows the XPS profiles of Co 2p in Co100, CoZr15, and CoCu15. The two 
+main peaks at 795.1 and 779.9 eV observed in Co 2p for the pure cobalt 
+oxides spectra corresponded to the Co 2p1/2 and Co 2P3/2 spin-orbital 
+peaks of Co3O4 spinel [43]. Two weak satellite peaks were also 
+observed at 790.0 and 804.0 eV. Furthermore, the peaks at 781.6 and 
+797.1 eV is attributable to Co2+, and the peaks at 780.0 and 795.2 eV is 
+attributable to Co3+. The Zr- and Cu-doped materials had XPS spectra 
+similar to those of pure cobalt oxides. 
+According to Eq. (1), the Co3+ in Co3O4 transformed to Co2+ in CoO, 
+or the Co2+ in CoO transformed to the Co3+ in Co3O4 was the primary 
+process of the redox cycles. More Co3+ indicated a higher redox activity. 
+By analyzing the XPS spectra using the Gaussian peak fitting method 
+[54], the ratios of Co3+ and Co2+ as well as the O 1s core levels were 
+determined, as shown in Fig. 11(a) and (b), respectively. 
+As shown in Fig. 11(a), for fresh Co100, CoZr15, and CoCu15, the 
+molar ratios of Co3+/Co2+ were 0.63, 0.67, and 0.66, respectively. The 
+molar ratios for the three fresh materials exhibited a similar value, 
+indicating that after Zr and Cu doping, the chemical states of the Co ions 
+remained unchanged. However, after five redox cycles, the molar ratios 
+of Co100, CoZr15, and CoCu15 were 0.72, 0.57, and 0.55, respectively. 
+For pure cobalt oxides, the molar ratios increased after five cycles. 
+Increasing molar ratios indicated a lower redox activity. In contrast, 
+after five cycles, the molar ratios of CoZr15 and CoCu15 decreased. The 
+change in phase composition resulted in a different behavior, occurring 
+at high temperatures. After high-temperature redox cycles, the dopants 
+better combined with the cobalt oxides, and a more stable phase 
+composition was obtained. From this point of view, the Co3+ content 
+increased via Zr and Cu doping to improve the redox activity. 
+Fig. 8. SEM-EDS elemental mappings, (a) & (b) & (c) Co100, (d) & (e) & (f) CoZr15 and (g) & (h) & (i) CoCu15.  
+Fig. 9. The morphology evolution with cycles, (a) & (b) & (c) Co100, (d) & (e) 
+& (f) CoZr15 and (g) & (h) & (i) CoCu15. 
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 9 =====
+
+Ceramics International 49 (2023) 2329–2339
+2337
+Contrastingly, the O 1s core levels for Co100, CoZr15, and CoCu15 
+were also obtained, as shown in Fig. 11(b). Three components for the O 
+1s core levels were obtained by fitting the XPS profiles. The first peak, 
+located at binding energies of 528.8–529 eV, belonged to metal–oxygen 
+bonds, which is attributable to lattice oxygen (OI) [55]. The second peak 
+at 531.2 eV (OII) was related to the electron-rich oxygen anions on the 
+surface, which may include O2
+−, O22−, and O−[56]. The slight difference 
+in relative broadness for the third peak at 533.2 eV (OIII) may be as­
+cribable to the physical adsorption of adventitious water and/or car­
+bonates species on sample. The lattice oxygen (OI) is derived into 
+surface-adsorbed oxygen species (OII). Owing to unsaturated bonds, the 
+electrons for lattice oxygen and surface-adsorbed oxygen were more 
+tightly bonded to their nuclei. This resulted in a shift to higher binding 
+energies for this part of the oxygen species, thereby forming a new peak 
+at a higher binding energy. Among three components for O 1s core 
+levels, the surface oxygen was considered as the reactive oxygen, and it 
+has been demonstrated that surface oxygen could decrease the reaction 
+temperature and improve the redox capacities of materials [57]. This is 
+because the existence of more surface oxygen indicated that the mobility 
+of oxygen species was more robust, and its redox capacity was superior. 
+In re-oxidation processes, the gaseous oxygen is always adsorbed on the 
+solid surface, and then, the adsorbed surface oxygen reacts with the low 
+valence metal elements. The mobility of the surface oxygen to lattice 
+oxygen is significant for the oxidation process. 
+As shown in Fig. 11(b), for pure cobalt oxides (Co100), the per­
+centages of lattice, surface, and adsorption oxygen were 45.9%, 41.0%, 
+and 13.1%, respectively. The percentage of lattice oxygen was slightly 
+higher than surface oxygen, whereas for five cycles, the percentages of 
+lattice, surface, and adsorption oxygen were 70.9%, 25.7%, and 3.4%, 
+respectively. The percentage of surface oxygen significantly decreased. 
+After high-temperature redox cycles, the materials were sintered; thus, 
+the ability to adsorb oxygen to the material surface decreased, conse­
+quently resulting in a lower conversion and re-oxidation rates. Notably, 
+after Zr doping, the surface oxygen in CoZr15 decreased, which was 
+significantly lower than that in pure cobalt oxides (Co100), revealing the 
+lower redox activity for fresh CoZr15. For instance, as shown in Fig. 3(a), 
+the re-oxidation rate of CoZr15 for the 1st cycle exhibited a lower value 
+than that of Co100. However, for Cu-doped samples, the increased 
+surface oxygen led to a higher re-oxidation rate for the 1st cycle. 
+Furthermore, after five cycles, for CoZr15 and CoCu15, the surface ox­
+ygen maintained at the initial value and was higher than that of Co100. 
+Thus, a higher and more stable re-oxidation rate was obtained. 
+In general, the higher surface oxygen was considered as the driving 
+factor for the superior performances shown by CoZr15 and CoCu15. 
+That is, after Zr and Cu doping, the chemical bonds for Co–O could be 
+easily broken, and it would be more likely for lattice oxygen to diffuse 
+into the surface-active oxygen sites [58]. 
+4. Conclusion 
+In this study, nine dopants, including Yb, Ce, Si, Mg, La, Zr, Cu, Fe, 
+and Al, with a mole content of 15% were screened for optimizing dop­
+ants for cobalt-based TCES materials. There were four unreported dop­
+ants (Yb, Mg, La, and Zr), among which the Cu- and Zr-doped samples 
+exhibited the superior performances with respect to conversion rate, re- 
+oxidation rate, and energy density after five redox charging–discharging 
+cycles. The result showed that the re-oxidation rate and energy density 
+of the Cu-doped sample was 319.9 and 432.6 kJ/kg, respectively, and 
+that of the Zr-doped sample was 253.5 and 407.5 kJ/kg, which were 
+lower than those of the Cu-doped sample. Then, for testing their cycla­
+bilities, pure cobalt oxide, Cu-, and Zr-doped samples were subjected to 
+100 cycles. The result indicated that the Zr exhibited the most favorable 
+cyclability. After 100 cycles, for pure cobalt oxide, the conversion rate 
+decreased to 0.921. The conversion rates of Cu- and Zr-doped samples 
+were only from 1.00 to 0.981 and 0.993–0.983, respectively. Both Cu 
+and Zr were considered as the optimal dopants. Finally, the valence state 
+Fig. 10. XRD patterns after 0, 5 and 100 cycles, (a) Co100, (b) CoZr15 and (c) CoCu15.  
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 10 =====
+
+Ceramics International 49 (2023) 2329–2339
+2338
+and oxygen levels were analyzed using XPS results before and after 
+cycling. After Zr and Cu doping, the increased Co3+ resulted in a higher 
+energy density. More surface oxygen subsequently led to a superior 
+redox activity, and after five cycles, the surface oxygen decreased for 
+pure oxides, whereas the Zr-doped sample could maintain its initial 
+value. In summary, the superior performances of Zr- and Cu-doped 
+Co3O4 made them promising candidates for TCES systems. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgments 
+This study was supported by the National Natural Science Founda­
+tion of China (51906078) and Fundamental Research Funds for the 
+Central Universities of China (2021XXJS064). Additionally, the 
+Analytical and Testing Centers at Huazhong University of Science & 
+Technology are appreciated. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.ceramint.2022.09.201. 
+References 
+[1] S. Kuravi, J. Trahan, D.Y. Goswami, M.M. Rahman, E.K. Stefanakos, Thermal 
+energy storage technologies and systems for concentrating solar power plants, 
+Progress in Energy and Combustion ence 39 (2013) 285–319. 
+[2] M. Romero, J. Gonz´alez-Aguilar, Solar thermal CSP technology, Wiley 
+Interdisciplinary Reviews: Energy Environ. 3 (2014) 42–59. 
+[3] A. Steinfeld, M. Romero, Concentrating Solar Thermal Power and Thermochemical 
+Fuels. 
+[4] P. Pardo, A. Deydier, Z. Anxionnaz-Minvielle, S. Rouge, M. Cabassud, P. Cognet, 
+A review on high temperature thermochemical heat energy storage, Renew. 
+Sustain. Energy Rev. 32 (2014) 591–610. 
+[5] X. Peng, T.W. Root, C.T. Maravelias, Storing solar energy with chemistry: the role 
+of thermochemical storage in concentrating solar power, Green Chem. 19 (2017). 
+[6] H. Zhang, J. Baeyens, G. C´aceres, J. Degr`eve, Y. Lv, Thermal energy storage: recent 
+developments and practical aspects, Prog. Energy Combust. Sci. 53 (2016) 1–40. 
+[7] H. Li, N. Meng, W. Lyu, Z. Cheng, S. Chen, W. Zhang, Y. Liao, Solvothermal 
+synthesis of porphyrin-ferrocenyl conjugated microporous polymer nanospheres 
+for shape-stable phase change materials with improved latent heat and cyclability, 
+J. Colloid Interface Sci. 595 (2021) 178–186. 
+[8] J. Li, Z. Cheng, M. Zhu, A. Thomas, Y. Liao, Facile synthesis of nitrogen-rich porous 
+organic polymers for latent heat energy storage, ACS Appl. Energy Mater. 1 (2018) 
+6535–6540. 
+[9] M. Sarvghad, S.D. Maher, D. Collard, M. Tassan, G. Will, T.A. Steinberg, Materials 
+compatibility for the next generation of Concentrated Solar Power plants, Energy 
+Storage Mater. 14 (2018) 179–198. 
+[10] L.L. Vant-Hull, Central Tower Concentrating Solar Power (CSP) Systems, 2012. 
+[11] C. Prieto, L.F. Cabeza, Thermal energy storage with phase change materials in solar 
+power plants. Economic analysis, J.Energy .Storage 43 (2021), 103184. 
+[12] M.T. Islam, N. Huda, A.B. Abdullah, R. Saidur, A comprehensive review of state-of- 
+the-art concentrating solar power (CSP) technologies: current status and research 
+trends, Renew. Sustain. Energy Rev. 91 (2018) 987–1018. 
+[13] L. Teng, Y. Xuan, Y. Da, X. Liu, Y. Ding, Modified Ca-looping materials for directly 
+capturing solar energy and high-temperature storage, Energy Storage Mater. 25 
+(2019). 
+[14] Gil Antoni, Medrano Marc, Martorell Ingrid, Ana, State of the art on high 
+temperature thermal energy storage for power generation. Part 1—concepts, 
+materials and modellization, Renew. Sustain. Energy Rev. 14 (2010) 31–55. 
+[15] Z. Li, L. Cui, B. Li, X. Du, Mechanism exploration of the enhancement of thermal 
+energy storage in molten salt nanofluid, Phys. Chem. Chem. Phys. 23 (2021) 
+13181–13189. 
+[16] P. Pardo, A. Deydier, Z. Anxionnaz-Minvielle, S. Roug´e, M. Cabassud, P. Cognet, 
+A review on high temperature thermochemical heat energy storage, Renew. 
+Sustain. Energy Rev. 32 (2014) 591–610. 
+[17] G. Xiao, J. Zeng, J. Nie, A practical method to evaluate the thermal efficiency of 
+solar molten salt receivers, Appl. Therm. Eng. 190 (2021), 116787. 
+[18] K. Manickam, P. Mistry, G. Walker, D. Grant, C.E. Buckley, T.D. Humphries, 
+M. Paskevicius, T. Jensen, R. Albert, K. Peinecke, M. Felderhoff, Future 
+perspectives of thermal energy storage with metal hydrides, Int. J. Hydrogen 
+Energy 44 (2019) 7738–7745. 
+[19] H. Ishitobi, N. Hirao, J. Ryu, Y. Kato, Evaluation of heat output densities of lithium 
+chloride-modified magnesium hydroxide for thermochemical energy storage, Ind. 
+Eng. Chem. Res. 52 (2013) 5321–5325. 
+[20] S. Bai, J. Sun, L. Liu, Y. Da, Z. Zhou, R. Wang, Y. Guo, C. Zhao, Dolomite-derived 
+composites doped with binary ions for direct solar thermal conversion and 
+stabilized thermochemical energy storage, Sol. Energy Mater. Sol. Cell. 239 (2022), 
+111659. 
+[21] E. Alonso, C. P´erez-R´abago, J. Licurgo, E. Fuentealba, C.A. Estrada, First 
+experimental studies of solar redox reactions of copper oxides for thermochemical 
+energy storage, Sol. Energy 115 (2015) 297–305. 
+[22] B. Bulfin, J. Vieten, C. Agrafiotis, M. Roeb, C. Sattler, Applications and limitations 
+of two step metal oxide thermochemical redox cycles; a review, J. Mater. Chem.A 5 
+(2017). 
+[23] A.J. Carrillo, P. Pizarro, J.M. Coronado, Assessing Cr incorporation in Mn2O3/ 
+Mn3O4 redox materials for thermochemical heat storage applications, J. Energy 
+Storage 33 (2021), 102028. 
+[24] T. Block, N. Knoblauch, M. Schmücker, The cobalt-oxide/iron-oxide binary system 
+for use as high temperature thermochemical energy storage material, Thermochim. 
+Acta 577 (2014) 25–32. 
+[25] E. Alonso, A. Gallo, C. P´erez-R´abago, E. Fuentealba, Thermodynamic study of CuO/ 
+Cu2O and Co3O4/CoO redox pairs for solar energy thermochemical storage, in: 
+American Institute of Physics Conference Series, 2016. 
+[26] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Thermochemical heat 
+storage at high temperatures using Mn2O3/Mn3O4 system: narrowing the redox 
+hysteresis by metal Co-doping, Energy Proc. 73 (2015) 263–271. 
+[27] Alfonso J. Carrillo, David P. Serrano, P. Pizarro, Design of Efficient Mn-Based 
+Redox Materials for Thermochemical Heat Storage at High Temperatures, 2000. 
+[28] Lei Liu, Zijian Zhou, Xiaowei Liu, Ying Liu, Jie Xu, Hongqiang Xia, Minghou Xu, 
+CoOx ceramics synthesized by a facile and rapid combustion method and its 
+Fig. 11. XPS spectra for Co100, CoZr15 and CoCu15 before and after 5 cycles, 
+(a) Co 2p and (b) O 1s. 
+L. Liu et al.                                                                                                                                                                                                                                       
+
+
+===== Page 11 =====
+
+Ceramics International 49 (2023) 2329–2339
+2339
+application for thermochemical energy storage, Ceramics International 47 (2021) 
+35047–35056. 
+[29] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Understanding redox kinetics 
+of iron-doped manganese oxides for high temperature thermochemical energy 
+storage, J. Phys. Chem. C 120 (2016) 27800–27812. 
+[30] F.M. Sayler, A.J. Grano, J.-H. Smått, M. Lind´en, M.G. Bakker, Nanocasting of 
+hierarchically porous Co3O4, Co, NiO, Ni, and Ag, monoliths: impact of processing 
+conditions on fidelity of replication, Microporous Mesoporous Mater. 184 (2014) 
+141–150. 
+[31] A. Carrillo, D. Serrano, P. Pizarro, J. Coronado, Thermochemical heat storage 
+based on the Mn2O3/Mn3O4 redox couple: influence of the initial particle size on 
+the morphological evolution and cyclability, J. Mater. Chem. 2 (2014) 
+19435–19443. 
+[32] J. Sun, W. Wang, Y. Yang, S. Cheng, Y. Guo, C. Zhao, W. Liu, P. Lu, Reactivation 
+mode investigation of spent CaO-based sorbent subjected to CO2 looping cycles or 
+sulfation, Fuel 266 (2020), 117056. 
+[33] Y. Da, Y. Xuan, L. Teng, K. Zhang, X. Liu, Y. Ding, Calcium-based composites for 
+direct solar-thermal conversion and thermochemical energy storage, Chem. Eng. J. 
+382 (2020), 122815. 
+[34] A. Carrillo, D. Serrano, P. Pizarro, J. Coronado, Improving the thermochemical 
+energy storage performance of the Mn2O3/Mn3O4 redox couple by the 
+incorporation of iron, ChemSusChem 8 (2015) 1947–1954. 
+[35] A.J. Carrillo, J. Moya, A. Bay´on, P. Jana, L. De, M. Romero, J. Gonzalez-Aguilar, D. 
+P. Serrano, P. Pizarro, J.M. Coronado, Thermochemical energy storage at high 
+temperature via redox cycles of Mn and Co oxides: pure oxides versus mixed ones, 
+Sol. Energy Mater. Sol. Cells 123 (2014) 47–57. 
+[36] Y. Portilla-Nieto, A. Zaki, K. Vidal, M. Hernaiz, E. Aranzabe, S. Doppiu, A. Faik, 
+Development of Co3-xNixO4 materials for thermochemical energy storage at lower 
+red-ox temperature, Sol. Energy Mater. Sol. Cell. 230 (2021), 111194. 
+[37] C. Agrafiotis, A. Becker, M. Roeb, C. Sattler, Exploitation of thermochemical cycles 
+based on solid oxide redox systems for thermochemical storage of solar heat. Part 
+5: testing of porous ceramic honeycomb and foam cascades based on cobalt and 
+manganese oxides for hybrid sensible/thermochemical heat storage, Sol. Energy 
+139 (2016) 676–694. 
+[38] C. Pagkoura, G. Karagiannakis, A. Zygogianni, S. Lorentzou, M. Kostoglou, A. 
+G. Konstandopoulos, M. Rattenburry, J.W. Woodhead, Cobalt oxide based 
+structured bodies as redox thermochemical heat storage medium for future CSP 
+plants, Sol. Energy 108 (2014) 146–163. 
+[39] Y. Hu, W. Liu, H. Chen, Z. Zhou, W. Wang, J. Sun, X. Yang, X. Li, M. Xu, Screening 
+of inert solid supports for CaO-based sorbents for high temperature CO2 capture, 
+Fuel 181 (2016) 199–206. 
+[40] A.J. Carrillo, J. Gonz´alez-Aguilar, M. Romero, J.M. Coronado, Solar energy on 
+demand: a review on high temperature thermochemical heat storage systems and 
+materials, Chem. Rev. 119 (2019) 4777–4816. 
+[41] S. Koohi-Fayegh, M.A. Rosen, A review of energy storage types, applications and 
+recent developments, J. Energy Storage 27 (2020), 101047. 
+[42] S. Wu, C. Zhou, E. Doroodchi, R. Nellore, B. Moghtaderi, A review on high- 
+temperature thermochemical energy storage based on metal oxides redox cycle, 
+Energy Convers. Manag. 168 (2018) 421–453. 
+[43] G. Chai, W. Zhang, L.F. Liotta, M. Li, Y. Guo, A. Giroir-Fendler, Total oxidation of 
+propane over Co3O4-based catalysts: elucidating the influence of Zr dopant, Appl. 
+Catal. B Environ. 298 (2021), 120606. 
+[44] H. Wang, G. Li, A. Fakhri, Fabrication and structural of the Ag2S-MgO/graphene 
+oxide nanocomposites with high photocatalysis and antimicrobial activities, 
+J. Photochem. Photobiol. B Biol. 207 (2020), 111882. 
+[45] Y. Yu, Y.-M. Gan, C. Huang, Z.-H. Lu, X. Wang, R. Zhang, G. Feng, Ni/La2O3 and 
+Ni/MgO–La2O3 catalysts for the decomposition of NH3 into hydrogen, Int. J. 
+Hydrogen Energy 45 (2020) 16528–16539. 
+[46] G. Huang, S. Xu, S. Lu, L. Li, H. Sun, Micro-/nanostructured Co3O4 anode with 
+enhanced rate capability for lithium-ion batteries, ACS Appl. Mater. Interfaces 6 
+(2014) 7236–7243. 
+[47] L. Liu, Z. Zhou, C. Wang, J. Xu, H. Xia, G. Chang, X. Liu, M. Xu, Superior 
+thermochemical energy storage performance of the Co3O4/CoO redox couple with 
+a cubic micro-nanostructure, J. Energy Storage 43 (2021), 103167. 
+[48] L. Song, S. Zhang, B. Chen, S. Zhang, D. Sun, A facile hydrothermal route to spinel 
+CoCo2O4 nanotubes and porous nanostructures without assisted surfactants and 
+templates, Mater. Lett. 63 (2009) 1377–1380. 
+[49] P. Jana, J. Moya, A. Bay´on, M. Romero, P. Pizarro, A.J. Carrillo, D.P. Serrano, 
+О’Shea, J. Gonzalez-Aguilar, J.M. Coronado, Thermochemical energy storage at 
+high temperature via redox cycles of Mn and Co oxides: pure oxides versus mixed 
+ones, Solar Energy Materials and Solar Cells 123 (2014) 47–57. 
+[50] N.A. Mayer, D.M. Cupid, R. Adam, A. Reif, D. Rafaja, H.J. Seifert, Standard 
+enthalpy of reaction for the reduction of Co3O4 to CoO, Thermochim. Acta 652 
+(2017) 109–118. 
+[51] D. Bielsa, A. Zaki, P.L. Arias, A. Faik, Improving the redox performance of Mn2O3/ 
+Mn3O4 pair by Si doping to be used as thermochemical energy storage for 
+concentrated solar power plants, Sol. Energy 204 (2020) 144–154. 
+[52] M. Wokon, T. Block, S. Nicolai, M. Linder, M. Schmücker, Thermodynamic and 
+kinetic investigation of a technical grade manganese-iron binary oxide for 
+thermochemical energy storage, Sol. Energy 153 (2017) 471–485. 
+[53] L. Andr´e, S. Abanades, L. Cassayre, Experimental investigation of Co–Cu, Mn–Co, 
+and Mn–Cu redox materials applied to solar thermochemical energy storage, ACS 
+Appl. Energy Mater. 1 (2018) 3385–3395. 
+[54] Wang Xiuyun, Liu Yi, Zhang Tianhua, Luo Yongjin, Lan Zhixin, Geometrical-Site- 
+dependent catalytic activity of ordered mesoporous Co-based spinel for benzene 
+oxidation: in situ DRIFTS study coupled with Raman and XAFS spectroscopy, ACS 
+Catal. 7 (2017) 1626–1636. 
+[55] J. Wang, P. Zhao, Hierarchical hollow h-Co3O4/NC spheres for high-performance 
+asymmetric capacitor, Mater. Lett. 282 (2021), 128892. 
+[56] H. Chen, C. Xue, D. Cui, Y. Li, Y. Wang, W. Zhang, Triangular prism shaped Co3O4 
+as a high-performance electrode material for supercapacitors, Int. J. Electrochem. 
+Sci. 15 (2020) 966–976. 
+[57] F. Jin, C. Xu, H. Yu, X. Xia, F. Ye, X. Li, X. Du, Y. Yang, CaCo0.05Mn0.95O3−δ: a 
+promising perovskite solid solution for solar thermochemical energy storage, ACS 
+Appl. Mater. Interfaces 13 (2021) 3856–3866. 
+[58] J. Dou, E. Krzystowczyk, X. Wang, T. Robbins, L. Ma, X. Liu, F. Li, A- and B-site 
+codoped SrFeO3 oxygen sorbents for enhanced chemical looping air separation, 
+ChemSusChem 13 (2020) 385–393. 
+L. Liu et al.                                                                                                                                                                                                                                       

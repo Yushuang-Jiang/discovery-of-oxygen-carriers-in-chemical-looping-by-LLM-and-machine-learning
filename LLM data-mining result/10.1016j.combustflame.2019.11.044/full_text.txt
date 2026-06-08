@@ -1,0 +1,1551 @@
+
+
+===== Page 1 =====
+
+Combustion and Flame 213 (2020) 255–267 
+Contents lists available at ScienceDirect 
+Combustion and Flame 
+journal homepage: www.elsevier.com/locate/combustflame 
+Kinetics of redox reactions of CuO@TiO 2 –Al 2 O 3 for chemical looping 
+combustion and chemical looping with oxygen uncoupling 
+Xin Tian, Mingze Su, Haibo Zhao ∗
+State Key Laboratory of Coal Combustion, School of Energy and Power Engineering, Huazhong University of Science and Technology, Wuhan 430074, PR 
+China 
+a r t i c l e 
+i n f o 
+Article history: 
+Received 29 August 2019 
+Revised 19 November 2019 
+Accepted 28 November 2019 
+Available online 19 December 2019 
+Keywords: 
+Chemical looping 
+Cu-based oxygen carrier 
+Redox reaction kinetics 
+Solid inventory 
+a b s t r a c t 
+Cu-based materials present as promising oxygen carrier candidates in chemical looping processes, in 
+which CuO can either react directly with fuel gas via heterogeneous gas–solid reaction, or release gaseous 
+O 2 under suitable temperature and O 2 partial pressure, and then react with fuel gas (even solid fuel) via 
+combustion reactions. For comprehensive understandings of the complex reactions of the oxygen carrier 
+in chemical looping processes, as well as for chemical looping reactor design and computational ﬂuid 
+dynamic (CFD) simulation, it is necessary to acquire the reaction kinetics of the oxygen carrier involved 
+therein. This work aims to establish the redox reaction kinetics of a hieratically-structured and high- 
+performance CuO@TiO 2 –Al 2 O 3 oxygen carrier under the context of chemical looping combustion (CLC) 
+and chemical looping with oxygen uncoupling (CLOU). For the investigation, careful effort s have been 
+made to ensure that the kinetics tests were chemical reaction controlled, and theoretical analysis further 
+conﬁrmed negligible effects of gas diffusion in the tests. Well-organized isothermal tests in a thermal 
+gravimetric analyzer (TGA) were then conducted to obtain the solid conversion data needed for reaction 
+kinetics analysis. The oxygen decoupling and subsequent oxygen uptake kinetics of the CuO@TiO 2 –Al 2 O 3 
+oxygen carrier was ﬁrst studied. Afterwards, the reactivity of the oxygen carrier with respect to three 
+kinds of fuel gases, i.e. , H 2 , CO, and CH 4 was evaluated individually. Therefore, kinetics for the relevant 
+reactions of the oxygen carrier in both CLC and CLOU conditions were determined. The conversion of 
+the CuO@TiO 2 –Al 2 O 3 oxygen carrier under different reacting atmosphere was found to subject to dif- 
+ferent reaction mechanisms. The global activation energies attained for the oxygen decoupling, oxygen 
+uptake, and reduction by H 2 , CO, and CH 4 were 217.2 kJ/mol, 87.5 kJ/mol, 44.5 kJ/mol, 40.1 kJ/mol, and 
+112.2 kJ/mol, respectively. The kinetics parameters were then used to estimate the solid inventory re- 
+quired by the fuel reactor when using the CuO@TiO 2 –Al 2 O 3 as oxygen carrier in both CLC of gaseous fuels 
+and CLOU of coals. For the case of CLC, the minimum solid inventory was 16.0 kg/MW th , 23.6 kg/MW th , 
+and 39.4 kg/MW th when using H 2 , CO, and CH 4 as fuel gas, respectively. Moreover, typical low oxygen 
+carrier inventory, i.e. , 124.2 kg/MW th , was needed to fully combust a Chinese lignite at 950 °C under 
+CLOU condition. The high redox reactivity of the CuO@TiO 2 –Al 2 O 3 demonstrated the feasibility of using 
+this material as oxygen carrier in chemical looping processes. 
+© 2019 The Combustion Institute. Published by Elsevier Inc. All rights reserved. 
+1. Introduction 
+With growing concerns on CO 2 emission and the accompanying 
+global warming threat, extensive efforts have been made world- 
+wide to alleviate CO 2 emissions to the atmosphere [1–3] . Chem- 
+ical looping combustion (CLC), holding the merit of inherent CO 2 
+separation, has been identiﬁed as a promising option to capture 
+CO 2 at low cost and high eﬃciency. The chemical looping con- 
+cept was ﬁrst proposed by Lewis and Gilliland [4] in a patent in 
+∗Corresponding author. 
+E-mail address: hzhao@mail.hust.edu.cn (H. Zhao). 
+1954, mainly for the purpose of producing high-purity CO 2 stream. 
+Decades later in the 1980s, Richter and Knoche [5] further put for- 
+ward the idea of replacing the traditional air combustion process 
+by CLC, aiming to improve the exergy eﬃciency of the power plant 
+system. And this has been widely accepted as the starting point 
+of the CLC technique. Since then, the research on CLC has wit- 
+nessed a rapid development worldwide. Central to the CLC tech- 
+nique is the application of suitable oxygen carrier as well as reac- 
+tor with appropriate conﬁguration to realize the cyclic redox loop 
+involved therein [6] . Up to date, over 1200 different kinds of oxy- 
+gen carriers have been tested in literatures and dozens of chemi- 
+cal looping combustors with thermal power ranged from kW th to 
+https://doi.org/10.1016/j.combustﬂame.2019.11.044 
+0010-2180/© 2019 The Combustion Institute. Published by Elsevier Inc. All rights reserved. 
+
+
+===== Page 2 =====
+
+256 
+X. Tian, M. Su and H. Zhao / Combustion and Flame 213 (2020) 255–267 
+Fig. 1. Schematic of the CLC process. 
+MW th have been constructed and operated [7–11] . Figure 1 shows 
+a schematic view of the CLC process, in which two sequential 
+reduction–oxidation reactions are repeated in an interconnected 
+ﬂuidized bed reactor system formed by the air reactor (AR) and 
+fuel reactor (FR). 
+As it is shown in Fig. 1 , the fuel in CLC is converted by the 
+lattice oxygen donated from a solid oxygen carrier (Me x O y ), thus 
+avoids direct contact between fuel and air. To be more speciﬁc, in 
+the FR, the fuel is oxidized to generate a highly concentrated CO 2 
+stream, while the oxygen carrier is reduced due to its oxygen do- 
+nation, as reaction ( 1 ). It should be noted here that, the fuel in re- 
+action ( 1 ) is assumed to be in gas phase and it is converted via 
+the gas–solid reaction. Subsequently, the reduced oxygen carrier 
+(Me x O y −1 ) recuperates its oxygen capacity in the AR by absorbing 
+O 2 from air, see reaction ( 2 ). In this regard, the fuel combustion 
+mode in CLC is totally different from that in traditional air combus- 
+tion process, and such a change eventually leads to the following 
+advantages: (i) no dilution of combustion products by nitrogen, so 
+as to enable inherent CO 2 capture [6] ; (ii) splits the one-step con- 
+ventional combustion process into two steps, thus realizes cascade 
+utilization of energy [12] ; (iii) inhibits prompt NO x and thermal 
+NO x formation due to the N 2 -free environment in the FR and the 
+relatively low operation temperatures ( < 10 0 0 °C) [13] . 
+C m H n +M e x O y → (2 m + n )M e x O y −1 + m C O 2 + n/ 2 H 2 O 
+(1) 
+M e x O y −1 + 1 / 2 O 2 → M e x O y 
+(2) 
+Most of the oxygen carriers proposed in literatures are based 
+on composite materials, using a transition metal oxide as the oxy- 
+gen donor, and then mixed with an inert support to improve the 
+mechanical performance of the resulted particles [7] . With some 
+kinds of metal oxides, gaseous oxygen can be released under the 
+FR conditions according to the following reaction, 
+M e x O y → M e x O y −1 + 1 / 2 O 2 
+(3) 
+O 2 stream will be generated before reaction ( 3 ) reaches its 
+equilibrium. Under this circumstance, gaseous O 2 reacts directly 
+with the fuel that presents in the FR according to reaction ( 4 ), 
+via the so-called chemical looping with oxygen uncoupling (CLOU) 
+process [14] . The presence of fuel in the FR and its consumption 
+of O 2 further facilitates oxygen release of the oxygen carrier. Alter- 
+natively, if fuel is not introduced into the reactor, and H 2 O/CO 2 is 
+used as carrier gas, O 2 /CO 2 stream (even pure O 2 ) readily for the 
+oxy-fuel combustion technique can be produced at the outlet of 
+the reduction reactor, known as the chemical looping air separa- 
+tion (CLAS) process. In both cases, the reduced oxygen carrier can 
+regenerate its oxygen capacity by reacting with O 2 in air according 
+to reaction ( 2 ) in the oxidation reactor. 
+C m H n +( m + n/ 4 ) O 2 → m C O 2 + n/ 2 H 2 O 
+(4) 
+Materials based on copper oxides [15–19] , combined oxides 
+[20–25] , and some kinds of perovskite oxides [26–30] have been 
+demonstrated to exhibit oxygen uncoupling property under ap- 
+propriate reaction conditions. Owing to the high oxygen carrying 
+capacity and fast reaction kinetics, Cu-based materials have been 
+considered as one of the most promising oxygen carriers for CLOU 
+[7,19] ,. The oxygen uncoupling property of Cu-based oxygen carri- 
+ers is of great importance in CLOU of solid fuels, being critical to 
+reach complete fuel combustion and high CO 2 capture eﬃciency. 
+Moreover, for the CLOU process with gaseous fuels, both heteroge- 
+neous gas–solid reactions and oxygen uncoupling followed by ho- 
+mogeneous oxidation of fuel gas by O 2 are involved during fuel 
+conversion [31] . The competitive relevance of each reaction de- 
+pends on the fuel gas type, fuel gas concentration, reaction tem- 
+perature, as well as the reactivity of the oxygen carrier itself [32] . 
+To gain insights into the complex competitive reactions in CLOU 
+process, it is necessary to investigate the kinetics of the redox re- 
+actions therein. Also, the redox kinetics parameters of the oxygen 
+carrier are essential to the mathematical modeling as well as re- 
+actor design of chemical looping processes. During the past years, 
+most of the kinetics works conducted for oxygen carriers in chemi- 
+cal looping processes was on Fe-based materials, while the studies 
+on Cu-based oxygen carriers are less. García-Labiano et al. [33] in- 
+vestigated the reduction kinetics of CuO/Al 2 O 3 (contained 10 wt% 
+of CuO) with CH 4 , H 2 , and CO under the CLC condition. The ki- 
+netics tests were conducted at various temperatures (450–800 °C) 
+and fuel gas concentrations (5–70 vol%) in a thermal gravimetric 
+analyzer (TGA). The reactions were stated to be chemical reaction 
+controlled under these conditions, and the shrinking core model 
+(SCM) for platelike geometry of the reacting surface was adopted 
+for kinetics parameters ﬁtting. Abad et al. [34] further studied the 
+reduction kinetics of the same CuO/Al 2 O 3 oxygen carrier with syn- 
+gas, i.e. , H 2 + CO. In comparison to be reduced by H 2 and CO sep- 
+arately, the reduction rate of CuO/Al 2 O 3 with syngas was found to 
+be the addition of the individual rates for H 2 and CO. The kinetics 
+parameters attained were then used to calculate the reactor design 
+parameters for a CLC system, including the total solid inventory 
+and solid circulation rate. Chuang et al. [ 35 , 36 ] measured the re- 
+duction rate of CuO/Al 2 O 3 (with 82.5 wt% CuO) with CO, as well as 
+the oxidation rate of the reduced oxygen carrier (a mixture of Cu 
+and Al 2 O 3 ) by O 2 in a ﬂuidized bed reactor. The reduction of CuO 
+by CO was found mainly controlled by external mass transfer at 
+temperatures higher than 500 °C. Moreover, the reduction temper- 
+ature signiﬁcantly affected the reduction mechanism of CuO, which 
+at ~250 °C, CO would react with CuO directly in a one-step pro- 
+cess (CuO → Cu); however, at temperatures above ~700 °C, CuO 
+would be reduced by the shrinking core mechanism via two con- 
+secutive steps (CuO → Cu 2 O, Cu 2 O → Cu) [35] . For the oxidation 
+of Cu, complete regeneration to CuO can only be achieved at tem- 
+peratures higher than 600 °C, under which condition the reaction 
+was controlled by a considerable extent of external mass transfer, 
+and two consecutive oxidation steps were involved (Cu → Cu 2 O, 
+Cu 2 O → CuO) [36] . Goldstein and Mitchell [37] investigated the ki- 
+netics of copper oxides reduction by CO in a pressurized TGA, us- 
+ing pure CuO and Cu 2 O as the research medium. Efforts have been 
+made to ensure the reactions in TGA were chemically controlled, 
+i.e. , running at temperatures no higher than 500 °C, low CO con- 
+centrations (1.6–5 vol%), and using small particle size (75–125 μm 
+for CuO, and < 30 μm for Cu 2 O). Finally, the kinetics analysis re- 
+vealed an overall activation energy of 20 kJ/mol and 25 kJ/mol, re- 
+spectively, for the reduction of CuO and Cu 2 O to Cu. It is worth 
+noting that all these kinetics studies on Cu-based oxygen carriers 
+reviewed above were conducted under the background of CLC, in 
+which the oxygen uncoupling property of CuO was not considered. 
+Table 1 summarizes the main kinetics parameters of Cu-based oxy- 
+gen carriers attained in literatures under CLC conditions. 
+
+
+===== Page 3 =====
+
+X. Tian, M. Su and H. Zhao / Combustion and Flame 213 (2020) 255–267 
+257 
+Table 1 
+Relevant kinetics works on Cu-based oxygen carriers in CLC processes. 
+CuO content (wt%) 
+Support 
+Reaction conditions a 
+Kinetics parameters b 
+Ref. 
+CuO → Cu 
+10 
+Al 2 O 3 
+TGA, T = 450–800 °C 
+5–70 vol% CH 4 
+5–70 vol% H 2 
+5–70 vol% CO 
+SCM 
+n = 0.4, E a = 60 kJ/mol 
+n = 0.6, E a = 33 kJ/mol 
+n = 0.8, E a = 15 kJ/mol 
+[33] 
+82.5 
+Al 2 O 3 
+b-FBR, T = 250–900 °C 
+1.1–9.77 vol% CO 
+(CuO → Cu 2 O) 
+1.1–9.77 vol% CO 
+(Cu 2 O → Cu) 
+DRM 
+n = 1.0, E a = 52 kJ/mol 
+n = 1.0, E a = 28 kJ/mol 
+[35] 
+100 
+–
+p-TGA, T = 200–500 °C 
+1.6–5 vol% CO (CuO → Cu) 
+1.6–5 vol% CO (Cu 2 O → Cu) 
+DRM 
+n = 0.7, E a = 20 kJ/mol 
+n = 0.7, E a = 25 kJ/mol 
+[37] 
+82.5 
+Al 2 O 3 
+b-FBR, T = 250–900 °C 
+1.1–9.77 vol% H 2 
+(CuO → Cu 2 O) 
+1.1–9.77 vol% H 2 (Cu 2 O → Cu) 
+DRM 
+n = 1.0, E a = 58 kJ/mol 
+n = 1.0, E a = 44 kJ/mol 
+[38] 
+60 
+Al 2 O 3 
+TGA, T = 500–800 °C 
+20–70 vol% H 2 
+20–70 vol% CO 
+SCM 
+n = 0.55, E a = 30 kJ/mol 
+n = 0.8, E a = 16 kJ/mol 
+[39] 
+14 
+Al 2 O 3 
+TGA, T = 600–800 °C 
+5–70 vol% CH 4 
+5–70 vol% CO 
+5–70 vol% H 2 
+SCM 
+n = 0.5, E a = 106 kJ/mol 
+n = 0.8, E a = 11 kJ/mol 
+n = 0.5, E a = 20 kJ/mol 
+[40] 
+Cu → CuO 
+10 
+Al 2 O 3 
+TGA, T = 500–800 °C 
+5–21 vol% O 2 
+SCM 
+n = 1.0, E a = 15 kJ/mol 
+[33] 
+82.5 
+Al 2 O 3 
+b-FBR, T = 300–750 °C 
+1.22–7.5 vol% O 2 (Cu → Cu 2 O) 
+1.22–7.5 vol% O 2 
+(Cu 2 O → CuO) 
+DRM 
+n = 1.0, E a = 40 kJ/mol 
+n = 1.0, E a = 60 kJ/mol 
+[36] 
+a Notes for reaction conditions: TGA = thermal gravimetric analyzer; p-TGA = pressurized thermal gravi- 
+metric analyzer; b-FBR = batch ﬂuidized bed reactor. 
+b Notes for kinetics parameters: SCM = shrinking core model; DRM = diffusion reaction model. 
+For both the oxygen uncoupling of CuO and regeneration of 
+Cu 2 O, kinetics driving force (reaction temperature) and thermody- 
+namic driving force (difference between the O 2 concentration in 
+gas phase and the equilibrium O 2 partial pressure of the redox 
+pair) are the two factors that can signiﬁcantly affect the reaction 
+rates. Thus, separation of these two factors is necessary to correctly 
+predict the reaction rates of the CuO/Cu 2 O system in CLOU/CLAS 
+processes. Adánez-Rubio et al. [41] analyzed the relevance of tem- 
+perature and O 2 partial pressure on the oxygen uncoupling and 
+subsequent regeneration rates of the CuO/MgAl 2 O 4 (with 60 wt% 
+of CuO) oxygen carrier in CLOU. The nucleation and nuclei growth 
+model was found to well describe the evolution of solid conver- 
+sion versus time. Clayton and co-workers [ 42 , 43 ] investigated the 
+decomposition kinetics of CuO and the following oxidation kinet- 
+ics of Cu 2 O in two sequential studies, using two kinds of Cu-based 
+oxygen carriers, i.e. , 50_TiO2_MM (50 wt% of CuO supported on 
+TiO 2 via mechanical mixing) and 45_ZrO2_FG (45 wt% of CuO sup- 
+ported on ZrO 2 by freeze granulation). The kinetics analysis re- 
+sults showed that the activation energy for the CuO decomposi- 
+tion was in the range of 58–67 kJ/mol [42] . For the oxidation of 
+Cu 2 O, the average activation energy was given as 165 kJ/mol at 
+temperatures below 700 °C, while it was 71 kJ/mol at tempera- 
+tures higher than 800 °C [43] . Song et al. [44] conducted oxygen 
+uncoupling and oxidation kinetics studies on the CuO/Cu 2 O system 
+under the context of CLAS, using CuO/SiO 2 (with 18 wt% of CuO) 
+as oxygen carrier. The Avrami–Erofeev random nucleation and sub- 
+sequent growth model and phase boundary reaction model were 
+found to ﬁt well the oxygen uncoupling and oxidation experimen- 
+tal data, respectively. Nevertheless, the activation energy attained 
+for the oxidation process was 3 kJ/mol, which might indicate that 
+the reaction tests were affected by mass transfer to some extent. 
+In a study performed by Wang et al. [45] , with 60 wt% of CuO 
+supported on three different inert materials (TiO 2 , ZrO 2 , and SiO 2 ) 
+as oxygen carriers, the CuO decomposition process was shown to 
+follow the nucleation and nuclei growth model, and the activa- 
+tion energy was attained in the range of 144.9–155.0 kJ/mol. San 
+Pio et al. [46] reported an activation energy of 249.4 kJ/mol for 
+the oxygen uncoupling of the CuO/SiO 2 (with 70 wt% of CuO) oxy- 
+gen carrier. For another Cu-based oxygen carrier (with 60 wt% of 
+CuO, 23 wt% of Al 2 O 3 , and 17 wt% of CaO), Hu et al. [47] attained 
+an activation energy of 59.7 kJ/mol and the corresponding pre- 
+exponential factor of 632 m 3 /(mol s) for the decomposition of CuO 
+to Cu 2 O. Table 2 gathers the relevant kinetics works conducted on 
+Cu-based oxygen carriers under the context of CLOU/CLAS. 
+As can be seen from above literatures review, the kinetics pa- 
+rameters attained for Cu-based oxygen carriers in chemical looping 
+processes varied signiﬁcantly from author to author. Many factors 
+can be reasons for these discrepancies, including CuO loading ratio, 
+inert support type, preparation method, particle size, and testing 
+conditions (experimental facility, temperature, gas ﬂow rates, etc. ). 
+In order to attain accurate kinetics parameters, it is necessary to 
+minimize the effects of the abovementioned external experimental 
+factors as far as possible. This work aims to determine the redox 
+kinetics of the oxygen uncoupling and subsequent regeneration of 
+a CuO@TiO 2 –Al 2 O 3 oxygen carrier in CLOU/CLAS, as well as its re- 
+duction kinetics with gaseous fuels (H 2 , CO, or CH 4 ) in CLC. The 
+CuO@TiO 2 –Al 2 O 3 oxygen carrier was prepared by the self-assembly 
+template combustion synthesis (SATCS) method, and the attained 
+particles exhibited a hierarchical structure. The unique framework 
+of this composite material was tailor-made to prevent the forma- 
+tion of copper aluminate spinel (CuAl 2 O 4 ) and inhibit the sintering 
+of CuO grains at high temperatures [52] . Previous tests in CLC of 
+gaseous fuels, in CLOU of coal [53] , and in CLAS for O 2 production 
+[54] have demonstrated the superior reactivity and thermal stabil- 
+
+
+===== Page 4 =====
+
+258 
+X. Tian, M. Su and H. Zhao / Combustion and Flame 213 (2020) 255–267 
+Table 2 
+Relevant kinetics works on Cu-based oxygen carriers in CLOU/CLAS processes. 
+CuO content (wt%) 
+Support 
+Facility a 
+T ( °C) 
+Kinetics model b 
+E a (kJ/mol) 
+Ref. 
+CuO → Cu 2 O 
+60 
+MgAl 2 O 4 
+TGA 
+875–1000 
+NNGM ( N = 3/4) 
+270 
+[41] 
+45 
+ZrO 2 
+TGA 
+775–925 
+First order 
+58 
+[42] 
+50 
+TiO 2 
+TGA 
+800–900 
+First order 
+67 
+[42] 
+18 
+SiO 2 
+TGA 
+800–900 
+NNGM ( N = 2) 
+315 
+[44] 
+900–975 
+176 
+60 
+ZrO 2 
+TGA 
+Non-isothermal 
+NNGM ( N = 3) 
+153 
+[45] 
+TiO 2 
+155 
+SiO 2 
+145 
+70 
+SiO 2 
+TGA 
+700–900 
+SCM 
+249 
+[46] 
+60 
+Al 2 O 3 –CaO 
+TGA, b-FBR 
+850–950 
+SCM 
+60 
+[47] 
+40 
+ZrO 2 
+b-FBR 
+900–985 
+First order 
+281 
+[48] 
+100 
+–
+TGA 
+850–950 
+First order 
+327 
+[49] 
+60 
+CuAl 2 O 4 
+TGA 
+Non-isothermal 
+NNGM ( N = 2/3) 
+344 
+[50] 
+Cu 2 O → CuO 
+60 
+MgAl 2 O 4 
+TGA 
+850–1000 
+L-H 
+32 
+[41] 
+50 
+TiO 2 
+TGA 
+600–700 
+PBM 
+172 
+[43] 
+800–950 
+NNGM ( N = 1) 
+68 
+45 
+ZrO 2 
+TGA 
+600–700 
+PBM 
+165 
+[43] 
+800–950 
+NNGM ( N = 1) 
+71 
+18 
+SiO 2 
+TGA 
+800–900 
+SCM ( N = 2) 
+3 
+[44] 
+900–975 
+−43 
+77.5 
+TiO 2 –Al 2 O 3 
+TGA 
+540–600 
+Surface reaction 
+51 
+[51] 
+Ion diffusion 
+79 
+a Notes for facility: TGA = thermal gravimetric analyzer; b-FBR = batch ﬂuidized bed reactor. 
+b Notes for kinetics model: NNGM = nucleation and nuclei growth model; SCM = shrinking core model; L –
+H = Langmuir–Hinshelwood mechanistic model; PBM = Pore blocking model. 
+Table 3 
+Chemical and physical characteristics of the CuO@TiO 2 –Al 2 O 3 oxygen carrier. 
+XRD phases 
+CuO, TiO 2 , Al 2 O 3 
+Theoretical CuO content (wt%) 
+77.5 
+Oxygen carrying capacity (wt%) a 
+7.72 
+Particle size ( μm) 
+74–100 
+Porosity 
+0.29 
+Apparent density (kg/m 3 ) 
+4480 
+Attrition rate (wt%/h) 
+6.12 
+Speciﬁc surface area, BET (m 2 /g) 
+1.64 
+Crushing strength (N) b 
+2.2 
+a Determined by decomposition on TGA in pure N 2 at 900 °C. 
+b Average value of 30 repeated measurements. 
+ity of this material. In this paper, kinetics tests on the CuO@TiO 2 –
+Al 2 O 3 oxygen carrier by varying the reaction temperature, O 2 con- 
+centration, fuel gas type and concentration, were conducted in a 
+TGA. Temperature programed reduction (TPR) experiments were 
+conducted to determine the appropriate temperature range prior 
+to formal kinetics testing for the reduction of CuO@TiO 2 –Al 2 O 3 by 
+fuel gases. Eventually, the solid inventory required in the FR with 
+this oxygen carrier under both CLC and CLOU conditions was calcu- 
+lated based on the attained kinetics parameters, and discussion on 
+using the kinetics parameters for reactor design was also provided. 
+2. Experimental 
+2.1. Material 
+The CuO@TiO 2 –Al 2 O 3 oxygen carrier used in this work was pre- 
+pared by the self-assembly template combustion synthesis (SATCS) 
+method, which consisted of 77.5 wt% of CuO, 17.5 wt% of Al 2 O 3 , 
+and 5 wt% of TiO 2 . The particles were calcined at 1050 °C in air 
+for 2 h, and particles in the size range of 74–100 μm were used for 
+kinetics testing. Table 3 summarizes the main chemical and physi- 
+cal properties of the fresh particles attained after calcination. More 
+detailed information on the synthesis of this oxygen carrier can be 
+found elsewhere [52–54] . 
+2.2. Experimental section 
+The kinetics tests were conducted in a TGA produced by Se- 
+taram Instrumentation (SETSYS EVO16). To eliminate the effect of 
+mass transfer on the kinetics tests as far as possible, the appro- 
+priate experimental conditions were determined carefully prior to 
+the formal tests, by varying the sample weight in the range of 
+1–15 mg, particle size between 74–300 μm, and gas ﬂow rate 
+from 80 to 200 mL/min. The results showed that using a sample 
+weight lower than 5 mg and particles smaller than 125 μm was 
+able to avoid the gas diffusion control inside the particles. On the 
+other hand, the solid conversion rate was found to change little 
+when the N 2 ﬂow rate exceeded 150 mL/min. Therefore, gas ﬂow 
+rate of 160 mL/min and around 3 mg of oxygen carrier samples in 
+the diameter range of 74–100 μm were used in the formal kinet- 
+ics tests, to guarantee the minimum inﬂuence of external/internal 
+mass transfer. Moreover, for the reduction tests of the oxygen car- 
+rier by H 2 , CO, or CH 4 , temperature programed reduction (TPR) ex- 
+periments were conducted ﬁrst to determine the suitable reaction 
+temperature range for the tests with different reducing gases. For 
+the TPR tests, the samples were heated from room temperature to 
+900 °C at a ramping rate of 5 °C/min, under the atmosphere of 
+10 vol% H 2 (or 10 vol% CO, or 10 vol.% CH 4 ), balanced by N 2 . 
+Table 4 shows the experimental conditions used for the kinet- 
+ics tests of the CuO@TiO 2 –Al 2 O 3 oxygen carrier in this work, in- 
+cluding the reaction temperatures and reactive gas concentrations. 
+The oxygen uncoupling tests were conducted at ﬁve different tem- 
+peratures (810 °C, 830 °C, 850 °C, 870 °C, and 890 °C) in pure N 2 
+and three different O 2 concentrations (0, 0.5 vol%, and 1.0 vol%) 
+at 900 °C. With respect to the oxygen uptake process, the reac- 
+tion temperatures varied from 520 °C to 600 °C, and the O 2 con- 
+centrations between 5.2 and 21 vol%. For the reduction tests of 
+CuO@TiO 2 –Al 2 O 3 by H 2 , CO, and CH 4 , the temperature ranges were 
+determined as 225–325 °C, 30 0–40 0 °C, and 675–775 °C, respec- 
+tively, according to the TPR results. The investigated reducing gas 
+concentrations for H 2 and CO were both in the range of 5–35 vol%, 
+while a relatively lower gas concentration range was used for CH 4 
+(5–20 vol%) to avoid noticeable carbon deposition. In order to at- 
+
+
+===== Page 5 =====
+
+X. Tian, M. Su and H. Zhao / Combustion and Flame 213 (2020) 255–267 
+259 
+Table 4 
+Experimental conditions of the CuO@TiO 2 –Al 2 O 3 oxygen carrier in TGA. 
+1) Oxygen decoupling tests 
+Temperature ( °C) 
+O 2 concentration in N 2 (vol%) 
+810, 830, 850, 870, and 890 
+0 
+900 
+0, 0.5, and 1 
+2) Oxygen uptake tests 
+Temperature ( °C) 
+O 2 concentration in N 2 (vol%) 
+520, 540, 560, 580, and 600 
+21 
+600 
+5.2, 10.5, 14, and 21 
+3) Reduction with H 2 
+Temperature ( °C) 
+H 2 concentration in N 2 (vol%) 
+225, 250, 275, 300, and 325 
+10 
+300 
+5, 10, 15, 20, 25, 30, and 35 
+4) Reduction with CO 
+Temperature ( °C) 
+CO concentration in N 2 (vol%) 
+300, 325, 350, 375, and 400 
+10 
+350 
+5, 10, 15, 20, 25, 30, and 35 
+5) Reduction with CH 4 
+Temperature ( °C) 
+CH 4 concentration in N 2 (vol%) 
+675, 700, 725, 750, and 775 
+15 
+700 
+5, 10, 15, and 20 
+tain stable and reliable experimental data for the kinetics analysis, 
+each test has been repeated for 5 times, and the results at the 5th 
+cycle were adopted for the analysis. 
+2.3. Data analysis 
+The solid conversion of the CuO@TiO 2 –Al 2 O 3 oxygen carrier 
+during the oxygen uncoupling process, as well as the reduction 
+processes with H 2 , CO, or CH 4 can be calculated by the following 
+equation, 
+X i = m Oxi −m 
+m Oxi −m Re 
+× 100% 
+(5) 
+where X i represents the solid conversion during process i ( i can 
+be the oxygen uncoupling process and the reduction process by 
+H 2 , CO, or CH 4 , denoted as X Dec , X Re , H 2 , X Re, CO , and X Re , C H 4 , respec- 
+tively); m Oxi is the mass of samples at the fully oxidation state; 
+m Re is the sample mass at the completely oxygen decoupling (or 
+reduction) state; and m is the instantaneous weight of the samples 
+during reaction. 
+The conversion of the decomposed oxygen carrier during the 
+oxygen uptake process was calculated as, 
+X Oxi = m −m Re 
+m Oxi −m Re 
+× 100% 
+(6) 
+The conversion rate of oxygen carrier at different processes can 
+be attained from the derivative of the corresponding solid conver- 
+sion with respect to time, as, 
+d X 
+d t = | d m/ d t | 
+m Oxi −m Re 
+(7) 
+3. Results 
+3.1. Theoretical analysis on the gas diffusion effects in TG tests 
+Before the acquisition of reaction kinetics parameters, theoreti- 
+cal analysis was conducted to conﬁrm negligible effects of external 
+and internal gas diffusion effects of the redox reactions conducted 
+in this work. Here, the oxygen uptake process of the oxygen car- 
+rier was analyzed as an example to illustrate the detailed analysis 
+procedure. To be more representative, the test at the most strin- 
+gent reaction condition of the oxygen uptake process (600 °C and 
+21.0 vol% O 2 ) was chosen for the analysis. 
+The oxygen carrier samples in TG tests were assumed to be in a 
+static ﬂuid environment, thus the Sherwood number, Sh = k g d p / D G , 
+of the particle was considered to be 2 [55] . k g here is the external 
+mass transfer coeﬃcient, d p is the diameter of the oxygen carrier 
+particle, and D G is the molecular diffusivity of the reacting gas in 
+N 2 . Therefore, k g can be calculated as k g = 2 D G / d p . 
+The Damkohler number criterion, Da, was adopted to estimate 
+the external gas diffusion effect [56] , 
+Da = r p R / k g c s < 0 . 15 /n | n =1 
+(8) 
+where r p is the radius of the particle, R is the observed reaction 
+rate per unit particle volume, and it can be obtained from TGA 
+tests, c s is the reactant concentration at the external surface of the 
+particle, and n is the reaction order. 
+At 600 °C, the O 2 diffusivity in N 2 is D G = 7 . 69 × 10 −5 m 2 / s , 
+and considering the particle size as d p = 100 μm , thus k g = 
+1 . 54 m / s . The O 2 concentration at the external surface of the par- 
+ticle was c s = 2 . 92 mol / m 3 (21.0 vol% O 2 at 600 °C). Based on the 
+largest oxidation rate attained under the aforementioned reaction 
+condition, d X oxi / d t = 0 . 036 s −1 , the value of R was determined as 
+438.0 mol/(m 3 s). Accordingly, the Damkohler number was calcu- 
+lated as Da = 4 . 88 × 10 −3 , far smaller than 0.15. With the same 
+analysis method, the Damkohler number under the other reacting 
+atmosphere was also attained. Table 5 summarizes the key param- 
+eters attained for the calculation of the Damkohler number dur- 
+ing the O 2 release, O 2 uptake, and the reduction processes with 
+H 2 , CO, and CH 4 of the CuO@TiO 2 –Al 2 O 3 oxygen carrier. As can be 
+concluded, the external gas diffusion resistance was not signiﬁcant 
+in all tests. 
+For the effective diffusivity of the reactant within the internal 
+pore of the oxygen carrier, D e , is approximated as [56] , 
+1 / D e = 1 / D Ke +1 / D Ge 
+(9) 
+where D Ge = D G θp /τ is the effective molecular diffusivity; D Ke = 
+1 . 94 × 10 4  
+T /M θp 
+2 / τS I ρp is the effective Knudsen diffusivity; the 
+porosity of the particle, θp = 0 . 29 , was determined by the ratio 
+of the apparent density ( ρp = 4480 kg / m 3 ) to the skeletal den- 
+sity of the particle; the tortuosity, τ, is assumed to be 5.0; S I = 
+1640 m 2 / kg is the surface area; T is the reaction temperature and 
+M is the relative molecular weight of the reactant. 
+According to the Weise–Prater criterion, to ensure the effective- 
+ness factor higher than 0.95 ( η ≥0.95) in an isothermal spherical 
+particle, it requires [57] , 
+ = R r p 
+2 / D e c s < 1 
+(10) 
+For the oxygen uptake process of the oxygen carrier at 600 °C 
+and 21.0 vol% O 2 , the value of D Ge and D Ke was attained as D Ge = 
+4 . 46 × 10 −6 m 2 / s and D Ke = 2 . 32 × 10 −4 m 2 / s , respectively, based 
+on the above equations. Thus, D e = 4 . 38 × 10 −6 m 2 / s , and this led 
+to a  value of 8 . 57 × 10 −2 , far smaller than 1. The same analysis 
+procedure was adopted to calculate the  value under the other 
+reacting atmosphere. Table 6 gathers the key parameters attained 
+for the calculation of  during the O 2 release, O 2 uptake, and the 
+reduction processes with H 2 , CO, and CH 4 of the CuO@TiO 2 –Al 2 O 3 
+oxygen carrier. As it can be seen, the internal pore diffusion resis- 
+tance was not signiﬁcant in all tests either. 
+3.2. Oxygen decoupling and oxygen uptake kinetics determination 
+As abovementioned, for the determination of the oxygen decou- 
+pling and oxygen uptake kinetics of Cu-based oxygen carrier, the 
+equilibrium O 2 partial pressure ( P O 2 , eq) of the CuO/Cu 2 O system 
+should be both considered when analyzing the thermodynamic 
+driving force. Figure 2 shows the equilibrium O 2 partial pressure 
+of the CuO/Cu 2 O redox pair at different temperatures, which were 
+reproduced from the calculation equations shown in previous pub- 
+lications by Adánez-Rubio et al. [41] , Clayton and Whitty [42] , 
+and Wen et al. [58] , see Eqs. (11) , ( 12 ), and ( 13 ), respectively. 
+
+
+===== Page 6 =====
+
+260 
+X. Tian, M. Su and H. Zhao / Combustion and Flame 213 (2020) 255–267 
+Table 5 
+The key parameters for the calculation of Da under different reacting atmosphere. 
+T , K 
+c s , mol/m 3 
+D G , m 2 /s 
+k g , m/s 
+R , mol/(m 3 s) 
+Da 
+O 2 release 
+1173 
+0.050 
+7 . 69 × 10 −5 
+1.54 
+78.1 
+5 . 08 × 10 −2 
+O 2 uptake 
+873 
+2.92 
+7 . 69 × 10 −5 
+1.54 
+438.0 
+4 . 88 × 10 −3 
+H 2 
+573 
+7.42 
+1 . 21 × 10 −4 
+2.42 
+767.9 
+2 . 14 × 10 −3 
+CO 
+623 
+6.82 
+4 . 39 × 10 −5 
+0.89 
+1550.1 
+1 . 29 × 10 −2 
+CH 4 
+1048 
+1.74 
+1 . 11 × 10 −4 
+2.22 
+128.8 
+1 . 67 × 10 −3 
+Table 6 
+The key parameters for the calculation of  under different reacting atmosphere. 
+T , K 
+c s , mol/m 3 
+D Ge , m 2 /s 
+D Ke , m 2 /s 
+D e , m 2 /s 
+
+O 2 release 
+1173 
+0.050 
+4 . 46 × 10 −5 
+2 . 69 × 10 −4 
+4 . 39 × 10 −4 
+8 . 90 × 10 −1 
+O 2 uptake 
+873 
+2.92 
+4 . 46 × 10 −6 
+2 . 32 × 10 −4 
+4 . 38 × 10 −6 
+8 . 57 × 10 −2 
+H 2 
+573 
+7.42 
+7 . 02 × 10 −6 
+1 . 88 × 10 −4 
+6 . 77 × 10 −6 
+3 . 82 × 10 −2 
+CO 
+623 
+6.82 
+2 . 55 × 10 −6 
+1 . 96 × 10 −4 
+2 . 51 × 10 −6 
+2 . 26 × 10 −1 
+CH 4 
+1048 
+1.74 
+6 . 44 × 10 −6 
+2 . 54 × 10 −4 
+6 . 2 8 × 10 −6 
+2 . 95 × 10 −2 
+Fig. 2. Calculated equilibrium O 2 partial pressure of the CuO/Cu 2 O system at differ- 
+ent temperatures. Calculation equations collected from published papers by Adánez- 
+Rubio et al. [41] , Clayton and Whitty [42] , and Wen et al. [58] . 
+As can be seen, the calculated results based on the three differ- 
+ent equations adopted in literatures agreed quite well with each 
+other in the temperature interval of 750–950 °C. However, when 
+the temperature exceeded 975 °C, obvious discrepancy appeared 
+when compared the result of Clayton et al. with those of Adánez- 
+Rubio et al. and Wen et al. As the investigated temperature range 
+for the oxygen decoupling process was 810–900 °C in this work, 
+thus the equilibrium O 2 partial pressure of the CuO/Cu 2 O system 
+used later in the kinetics analysis was the average value of the 
+results calculated by the abovementioned three equations. More- 
+over, considering the fact that the equilibrium O 2 partial pressure 
+of the CuO/Cu 2 O system was negligible at temperatures lower than 
+750 °C, thus it was set to be 0 in the kinetics analysis during 
+the oxygen uptake process (the investigated temperature range was 
+520–600 °C). 
+P O 2 , eq(1) = exp (22 −2 . 993 · 10 4 T −1 −1 . 048 · 10 6 T −2 ) 
+(11) 
+P O 2 , eq(2) = 6 . 057 × 10 −11 e 0 . 02146 ×T 
+(12) 
+P O 2 , eq(3) = exp 
+
+−9 . 383 
+10 0 0 
+T 
+4 
++ 47 . 54 
+10 0 0 
+T 
+3 
+−86 . 30 
+10 0 0 
+T 
+2 
++ 48 . 45 
+10 0 0 
+T 
+
+−2 . 473 
+
+(13) 
+Figure 3 shows the solid conversion vs. time curves of the 
+CuO@TiO 2 –Al 2 O 3 oxygen carrier during the oxygen decoupling pro- 
+cess (CuO → Cu 2 O) at ﬁve different tem peratures in pure N 2 at- 
+mosphere ( Fig. 3 (a)) and at three different O 2 concentrations ( P O 2 ) 
+at 900 °C ( Fig. 3 (b)). It can be seen from Fig. 3 (a) that the oxy- 
+gen decoupling rate increased obviously along with the increase 
+of temperature in pure N 2 atmosphere. According to the oxygen 
+decoupling rate of Cu-based oxygen carrier given by Eq. (14) [42] , 
+the increase of oxygen decoupling rate with temperature can be 
+explained by the increase of both kinetics constant and O 2 driv- 
+ing force (P O 2 , eq −P O 2 ) . Figure 3 (b) presents the solid conversion 
+of the CuO@TiO 2 –Al 2 O 3 oxygen carrier at 900 °C during the oxy- 
+gen decoupling process, with O 2 concentrations varied from 0 to 
+0.01 atm. It can be observed that the increase of O 2 concentra- 
+tion in the gas phase at constant temperature would decrease 
+the oxygen decoupling rate signiﬁcantly, which at 900 °C (with 
+P O 2 , eq = 0 . 0148 atm ), the time required for complete oxygen release 
+of the CuO@TiO 2 –Al 2 O 3 oxygen carrier increased from 4 min at 
+P O 2 = 0 to 15 min at P O 2 = 0 . 01 atm . This result was also under- 
+standable from the respect of Eq. (14) : at constant reaction temper- 
+ature, both the kinetics constant and P O 2 , eq remained unchanged, 
+the increase of P O 2 in gas phase lowered the difference between 
+P O 2 , eq and P O 2 , thus leading to the decrease of the oxygen decou- 
+pling rate. 
+d X Dec 
+d t 
+= A exp 
+
+−E 
+RT 
+
+f(X )(P O 2 , eq −P O 2 ) n 
+(14) 
+Figure 4 depicts the conversion vs. time curves attained in TGA 
+for the oxidation of the decomposed oxygen carrier (Cu 2 O → CuO) 
+at different temperatures (520–600 °C, Fig. 4 (a)) and different P O 2 
+values (0.052–0.21 atm, Fig. 4 (b)). As it can be observed, for the 
+oxidation process of the decomposed oxygen carrier, the kinet- 
+ics tests were conducted at much lower temperature range than 
+that of the oxygen decoupling step. The relatively lower temper- 
+ature range setting adopted here was mainly for the purpose of 
+ensuring that the oxygen uptake tests were chemical reaction con- 
+trolled. Figure 4 (a) shows the oxidation conversion vs. time curves 
+of the decomposed oxygen carrier at P O 2 = 0 . 21 atm and various 
+temperatures, where experimental results are presented by sym- 
+bols and model predictions are indicated by lines. In comparison 
+to Fig. 3 (a), it can be seen that the oxygen decoupling process 
+of the CuO@TiO 2 –Al 2 O 3 oxygen carrier was much slower than the 
+oxidation process of the decomposed samples. The reaction tem- 
+perature exerted a signiﬁcant impact on the oxidation rate of the 
+decomposed oxygen carrier. To be more speciﬁc, an obvious in- 
+creasing trend can be observed at increased temperature condi- 
+tions, which the oxidation rate at 600 °C was about 3 times faster 
+
+
+===== Page 7 =====
+
+X. Tian, M. Su and H. Zhao / Combustion and Flame 213 (2020) 255–267 
+261 
+Fig. 3. The solid conversion of the CuO@TiO 2 –Al 2 O 3 oxygen carrier during the oxygen decoupling process: (a) at different temperatures in pure N 2 atmosphere, and (b) at 
+900 °C and different O 2 concentrations. Symbols, experimental data; continuous lines, model predictions. 
+Fig. 4. The solid conversion of the decomposed CuO@TiO 2 –Al 2 O 3 oxygen carrier during the oxygen uptake process: (a) at different tem peratures in a P O 
+2 = 0 . 21 atm , and (b) 
+at 600 °C and different O 2 concentrations. Symbols, experimental data; continuous lines, model predictions. 
+than that at 520 °C. This result was different from that attained by 
+Adánez-Rubio et al. [41] , where the tests were conducted at much 
+higher temperatures (850–10 0 0 °C), and the increase of tempera- 
+ture showed negative effect on the oxidation rate. The difference 
+can be explained by Eq. (14) (the oxygen concentration term in 
+this case will be (P O 2 −P O 2 , eq ) n ): with the increase of reaction tem- 
+perature (at constant P O 2 ), both the kinetics constant and P O 2 , eq 
+increased, the increase of kinetics constant improved the oxida- 
+tion rate, but the increase of P O 2 , eq would lower the value of 
+(P O 2 −P O 2 , eq ) n and thus decrease the oxidation rate. Therefore, if 
+the increase of kinetics constant was not able to compensate the 
+decrease of O 2 driving force, lower oxidation rate could be attained 
+at higher temperature condition, like the case studied by Adánez- 
+Rubio et al. [41] . While in this work, the investigated temperatures 
+were much lower, and P O 2 , eq always approached to 0, thus the 
+increase of reaction temperature showed negligible impact on the 
+O 2 driving force and an overall enhancing effect on oxidation rate 
+was obtained. Figure 4 (b) demonstrates the effect of O 2 concentra- 
+tion in gas phase on the solid conversion of the decomposed oxy- 
+gen carrier during the oxygen uptake process at 600 °C. The oxi- 
+dation rate increased with the increase of O 2 concentration in gas 
+phase, being the fastest at P O 2 = 0 . 21 atm , due to the increase in 
+the oxygen driving force. When comparing Fig. 4 (a) with (b), one 
+can notice that the oxidation process of the decomposed oxygen 
+carrier was mainly controlled by reaction kinetics (temperature), 
+while thermodynamic effect (O 2 concentration in gas phase) was 
+not very signiﬁcant. This point will be reﬂected by the reaction or- 
+der attained in the kinetics reaction rate equation later. 
+The conversion data obtained under different conditions for the 
+oxygen decoupling and oxygen uptake processes of the CuO@TiO 2 –
+Al 2 O 3 oxygen carrier was used for kinetics analysis. The model 
+ﬁtting method was used to select out the most appropriate re- 
+action mechanism. The ﬁtting results indicated that the nucle- 
+ation and nuclei growth model ( f(X) = 3(1 −X) [ −ln (1 −X)] 2 / 3 ) 
+and chemical reaction model ( f(X) = (1 −X) 3 / 2 ) can best describe 
+the oxygen decoupling process and oxygen uptake process of the 
+CuO@TiO 2 –Al 2 O 3 oxygen carrier, respectively. The conversion rate 
+of each test calculated at X = 0 . 5 was then used for linear plot 
+with ln (P O 2 , eq ) −P O 2 ) (oxygen decoupling) or ln (P O 2 , eq ) −P O 2 , eq ) 
+(oxygen uptake) to obtain the reaction order. As it can be seen 
+
+
+===== Page 8 =====
+
+262 
+X. Tian, M. Su and H. Zhao / Combustion and Flame 213 (2020) 255–267 
+Fig. 5. Arrhenius plots to calculate the kinetics parameters for the oxygen decoupling and oxygen uptake processes of the CuO@TiO 2 –Al 2 O 3 oxygen carrier: (a) reaction order, 
+and (b) pre-exponential factor and global activation energy. 
+in Fig. 5 (a), the calculated reaction order for the oxygen decou- 
+pling and oxygen uptake processes were n = 0 . 5 and n = 0 . 2 , re- 
+spectively. 
+Once the reaction order was obtained, the kinetics reaction rate 
+constant, k i , can be calculated according to the following equation, 
+k i = A exp 
+
+−E 
+RT 
+
+= d X 0 . 5 
+d t / 
+f( X 0 . 5 ) (| P O 2 , eq −P O 2 | ) n 
+(15) 
+where d X 0 . 5 
+d t is the conversion rate of the oxygen carrier at X = 0 . 5 , 
+and f ( X 0.5 ) is the value of the kinetics function at X = 0 . 5 . 
+With this in mind, the Arrhenius plot with 10 0 0/ T and lnk i , 
+i.e. , ln k i = −E 
+R · 1 
+T + ln A , at constant P O 2 and different temperature 
+conditions ( T ) was adopted to calculate the activation energy and 
+pre-exponential factor for the oxygen decoupling and oxygen up- 
+take reactions, as shown in Fig. 5 (b). The plotting results indi- 
+cated an activation energy of E = 217 . 2 kJ / mol for the oxygen de- 
+coupling process of the CuO@TiO 2 –Al 2 O 3 oxygen carrier, which is 
+comparable to the value attained by San Pio et al. [46] for an oxy- 
+gen carrier with 70 wt% CuO supported by SiO 2 (249.4 kJ/mol), 
+and Adánez-Rubio et al. [41] for a material with 60 wt% CuO 
+supported by MgAl 2 O 4 (245.0 kJ/mol). While for the oxygen up- 
+take process, a much lower activation energy of E = 87 . 5 kJ / mol 
+was attained in comparison to that of the oxygen decoupling pro- 
+cess, this result agreed well with the temperature sensitivity of 
+the two reactions as shown in Figs. 3 (a) and 4 (a). Moreover, the 
+pre-exponential factor for the oxygen decoupling and oxygen up- 
+take processes can also be derived from the Arrhenius plot, as A = 
+1 . 72 × 10 7 s −1 at m −0 . 5 and A = 8 . 54 × 10 3 s −1 at m −0 . 2 , respectively. 
+We note here that the oxygen uptake process of the CuO@TiO 2 –
+Al 2 O 3 oxygen carrier has been investigated in our previous work 
+from the microscopic mechanism and macroscopic kinetics per- 
+spective [51] . Density functional theory (DFT) calculations com- 
+bined with TGA experimental analysis revealed the activation en- 
+ergy for the two sub-steps of the overall oxygen uptake process, 
+i.e. , 50.5 kJ/mol for surface reaction step and 79.2 kJ/mol for the 
+ions diffusion step. The activation energies were attained by a sim- 
+ple mathematical model ﬁtting with unknown parameters of the 
+two sub-steps via global optimization. When comparing the re- 
+sult in ref [51] and that in this work, the global activation en- 
+ergy of E = 87 . 5 kJ / mol for the overall oxygen uptake process of 
+the CuO@TiO 2 –Al 2 O 3 oxygen carrier attained in this work can be 
+treated as a combining effect of that of the surface reaction step 
+and the ions diffusion step. 
+Based on the reaction kinetics parameters attained above, the 
+reaction rate equations for the oxygen decoupling and oxygen up- 
+take processes of the CuO@TiO 2 –Al 2 O 3 oxygen carrier can be ex- 
+pressed as, 
+d X Dec 
+d t 
+= 5 . 16 × 10 7 exp 
+	
+−217 . 2 × 10 3 
+8 . 314 · T 
+
+(1 −X ) [ −ln (1 −X ) ] 
+2 / 3 
+(P O 2 , eq −P O 2 ) 0 . 5 
+(16) 
+d X Oxi 
+d t 
+= 8 . 54 × 10 3 exp 
+	
+−87 . 5 × 10 3 
+8 . 314 · T 
+
+(1 −X ) 3 / 2 
+(P O 2 −P O 2 , eq ) 0 . 2 
+(17) 
+Figure 6 shows the conversion rate vs. conversion curves of 
+the CuO@TiO 2 –Al 2 O 3 oxygen carrier during the oxygen decoupling 
+and oxygen uptake processes, where symbols are results from TGA 
+tests and continuous lines are results calculated by model equa- 
+tions with the attained kinetics parameters. As it can be seen, the 
+maximum oxygen decoupling rate of the oxygen carrier occurred 
+at around X = 0 . 5 , while the peak value of the oxidation rate was 
+at the beginning of the oxidation process. The different evolu- 
+tion trend of the oxygen decoupling rate and oxidation rate of the 
+CuO@TiO 2 –Al 2 O 3 oxygen carrier indicated that the two reactions 
+were indeed subject to different reaction mechanism. Moreover, 
+the peak value of the oxidation rate at 600 °C (in air) was nearly 
+10 times higher than that of oxygen decoupling rate at 890 °C (in 
+pure N 2 ), which demonstrated much slower reaction kinetics of the 
+oxygen decoupling process than that of the oxygen uptake process 
+for the CuO@TiO 2 –Al 2 O 3 oxygen carrier. This result suggested the 
+different appropriate operation temperatures for the FR and AR in 
+CLOU process. 
+3.3. Reduction kinetics with H 2 , CO, or CH 4 
+As mentioned before, for the reaction of Cu-based oxygen car- 
+rier with gaseous fuels, direct gas–solid reaction between oxygen 
+carrier and fuel gas would happen in parallel with the oxygen 
+decoupling reaction of the oxygen carrier (and the following ho- 
+
+
+===== Page 9 =====
+
+X. Tian, M. Su and H. Zhao / Combustion and Flame 213 (2020) 255–267 
+263 
+Fig. 6. Conversion rate vs. conversion curves of the CuO@TiO 2 –Al 2 O 3 oxygen carrier at different tem peratures: (a) during the oxygen decoupling process in pure N 2 , and (b) 
+during the oxygen uptake process in 21 vol% O 2 (N 2 balanced). Symbols, experimental data; continuous lines, model predictions. 
+Fig. 7. Normalized mass loss of the CuO@TiO 2 –Al 2 O 3 oxygen carrier for TPR tests in 
+TGA in 10 vol% H 2 , 10 vol% CO, and 10 vol% CH 4 , as well as temperature evolution 
+(5 °C/min, with a terminal value of 900 °C). 
+mogenous reaction between fuel gas and the released O 2 ). There- 
+fore, to have a comprehensive understanding of the reactions be- 
+tween Cu-based oxygen carrier and gaseous fuels, it is necessary to 
+investigate the reduction kinetics of the oxygen carrier with fuel 
+gases directly, under the context of CLC. Prior to the formal ki- 
+netics tests, TPR tests were conducted to determine the most suit- 
+able temperature range for the kinetics tests with different reduc- 
+ing gases. In each TPR test, the oxygen carrier samples were ﬁrst 
+heated to 900 °C (20 °C/min), held there for 30 min, and then 
+cooled down to room temperate. During the whole process, an air 
+stream at 160 mL/min was continuously fed into the reactor, to en- 
+sure complete oxidation of the samples. Afterwards, the air stream 
+was switched to the desired reducing gas composition (10 vol% H 2 , 
+10 vol% CO, or 10 vol% CH 4 ), and the TGA was heated up to 900 °C 
+at a ramping rate of 5 °C/min. The mass loss of the samples during 
+the reaction was automatically recorded by the computer. 
+Figure 7 shows the normalized mass loss ratio of the samples, 
+δ = m/ m Oxi × 100% , during the TPR tests in H 2 , CO, or CH 4 , as well 
+as the temperature evolution proﬁle. As it can be seen, the reaction 
+started at different temperatures for the three fuel gases, being 
+the lowest for H 2 (150 °C), followed by CO (192 °C) and then CH 4 
+(465 °C). The reduction rates of the oxygen carrier with different 
+fuel gases also varied a lot. In fact, complete solid conversion can 
+be achieved at around 200 °C for the reaction of the CuO@TiO 2 –
+Al 2 O 3 oxygen carrier with H 2 , while it was 800 °C for the reaction 
+with CH 4 . Despite of the varied conversion rates, the normalized 
+mass loss of the oxygen carrier at complete reduction state was 
+the same for the reaction with different fuel gases ( ca. 15.4 wt%). 
+This result indicated that the total oxygen carrying capacity of the 
+CuO@TiO 2 –Al 2 O 3 oxygen carrier was the same under different re- 
+ducing atmosphere. Also, this mass loss ratio was very close to 
+the theoretical oxygen carrying capacity of the CuO@TiO 2 –Al 2 O 3 
+oxygen carrier (15.5 wt%, with all CuO content being converted to 
+Cu), which demonstrated the physicochemical stability of the CuO 
+grains in the core-shell framework. According to the TPR results, 
+the reduction of the oxygen carrier with H 2 could occur at very 
+low temperature, while much higher temperature was required for 
+the reaction with CH 4 . With these regards, the temperature range 
+selected for the formal reduction kinetics tests was 225–325 °C, 
+30 0–40 0 °C, and 675–775 °C for H 2 , CO, and CH 4 , respectively. 
+Figure 8 shows the solid conversion vs. time curves of the 
+CuO@TiO 2 –Al 2 O 3 oxygen carrier with H 2 , CO, or CH 4 at different 
+gas concentrations, as well as the linear plot for attaining the re- 
+action order with respect to different fuel gases. As indicated by 
+Fig. 8 (a)–(c), the reduction rate of the oxygen carrier was highly 
+related to the fuel gas concentration, which an increase in the fuel 
+gas concentration would accelerate the reduction of the oxygen 
+carrier to certain extents. When looking at the evolution trend of 
+the solid conversion vs. time curves, it can be seen that the reac- 
+tion of the oxygen carrier with CH 4 behaved quite differently in 
+comparison to that with H 2 or CO: Firstly, much higher temper- 
+ature and longer time were required by CH 4 to achieve complete 
+solid conversion at the same gas concentration than those of H 2 
+or CO; Secondly, a decrease of the reduction rate with the solid 
+conversion was observed for the reaction with CH 4 , while no ob- 
+vious decrease in reaction rate until the very end of the reaction 
+for that of H 2 or CO. These results indicated that the reaction of 
+CH 4 with the CuO@TiO 2 –Al 2 O 3 oxygen carrier followed different 
+reaction mechanism with that of H 2 or CO. The model ﬁtting re- 
+sults further conﬁrmed this point, which the reduction process of 
+the oxygen carrier by CO and H 2 can both be well described by 
+the shrinking core model ( G (X) = 1 −(1 −X) 3 / 4 ), while the reduc- 
+tion reaction with CH 4 was attributed to the ﬁrst order nucleation 
+and nuclei growth model ( G (X) = −ln (1 −X) ). Similar to the lin- 
+ear ﬁtting method used before, the reaction order for the reduc- 
+tion of the CuO@TiO 2 –Al 2 O 3 oxygen carrier with respect to H 2 , CO, 
+and CH 4 was attained as n = 0 . 8 , n = 1 . 0 , and n = 0 . 6 , respectively, 
+as shown in Fig. 8 (d). The variation of the reaction order with re- 
+spect to different fuel gases indicated the different sensitivity of 
+
+
+===== Page 10 =====
+
+264 
+X. Tian, M. Su and H. Zhao / Combustion and Flame 213 (2020) 255–267 
+Fig. 8. Effect of gas concentration on the reduction rate of the CuO@TiO 2 –Al 2 O 3 oxygen carrier with (a) H 2 , (b) CO, and (c) CH 4 , as well as (d) the plot to obtain the reaction 
+order with respect to H 2 , CO, or CH 4 . Symbols, experimental data; continuous lines, model predictions (a–c) or ﬁtting results (d). 
+CuO@TiO 2 –Al 2 O 3 oxygen carrier to the change of fuel gas concen- 
+tration. 
+The effect of temperature on the reduction rate of the oxy- 
+gen carrier was investigated in different tem perature interval for 
+H 2 , CO and CH 4 . Figure 9 (a)–(c) shows the conversion vs. time 
+curves for the reduction of the CuO@TiO 2 –Al 2 O 3 oxygen carrier 
+with 10 vol% H 2 , 10 vol% CO, and 15 vol% CH 4 at different temper- 
+atures. As it can be seen, the reduction rate of the oxygen carrier 
+was signiﬁcantly affected by the temperature in all cases, which an 
+increase of temperature would contribute to an obvious increase in 
+the reduction rate. Based on the conversion data of the oxygen car- 
+rier with H 2 , CO, and CH 4 at different temperatures, together with 
+the kinetics model and reaction order attained above with respect 
+to different fuel gases, the Arrhenius plot with 10 0 0/ T and lnk i at 
+constant fuel gas concentration was adopted again to calculate the 
+activation energy and pre-exponential factor for the reduction re- 
+actions with the three kinds of gas fuel, as shown in Fig. 9 (d). 
+Finally, the activation energy for the reaction of the CuO@TiO 2 –
+Al 2 O 3 oxygen carrier with H 2 , CO, and CH 4 was attained as E = 
+44 . 5 kJ / mol , E = 40 . 1 kJ / mol , and E = 112 . 2 kJ / mol , and the corre- 
+sponding pre-exponential factor was A = 3 . 50 × 10 2 at m −0 . 8 s −1 , A = 
+1 . 76 × 10 2 at m −1 s −1 , and A = 1 . 45 × 10 4 at m −0 . 6 s −1 , respectively. 
+Table 7 compiles the calculated kinetics parameters for chem- 
+ical reactions of the CuO@TiO 2 –Al 2 O 3 oxygen carrier investigated 
+in this work, including the oxygen decoupling, oxygen uptake, and 
+the reduction reactions with H 2 , CO, and CH 4 . The conversion vs. 
+time and/or the conversion rate vs. conversion curves of these re- 
+actions predicted by the reaction model with the obtained kinetics 
+parameters are shown in Figs. 5 , 6 , 8 , and 9 . As indicated by these 
+results, the solid conversion of the CuO@TiO 2 –Al 2 O 3 oxygen carrier 
+under different reacting atmospheres can be well reproduced by 
+the kinetics models in all range of the investigated operating con- 
+ditions, i.e. , different tem perature and different gas concentration. 
+We noted here that the operation temperature interval for the real- 
+istic CLC/CLOU processes would be much higher. Nevertheless, the 
+intrinsic kinetics reaction data attained in this work at relatively 
+low temperature range is still applicable in the high temperature 
+CLC/CLOU processes, by incorporation of the intrinsic reaction ki- 
+netics, the internal and external gas diffusion terms together, as 
+has been illustrated in our previous work [59] . 
+4. Discussion 
+The obtained kinetics parameters were then used to acquire the 
+design criteria for chemical looping reactors. Based on the method 
+proposed by Abad et al. [31] , the minimum solid inventory in the 
+FR when using the CuO@TiO 2 –Al 2 O 3 as oxygen carrier in CLC of 
+
+
+===== Page 11 =====
+
+X. Tian, M. Su and H. Zhao / Combustion and Flame 213 (2020) 255–267 
+265 
+Fig. 9. Effect of tem perature on the reduction rate of the CuO@TiO 2 –Al 2 O 3 oxygen carrier with (a) H 2 , (b) CO, and (c) CH 4 , as well as (d) the Arrhenius plot for the activation 
+energy and pre-exponential factor for the reaction with H 2 , CO, or CH 4 . Symbols, experimental data; continuous lines, model predictions (a–c) or ﬁtting results (d). 
+Table 7 
+Summary of the kinetics parameters for the oxygen decoupling, oxygen uptake, as well as the reduction reactions 
+with H 2 , CO, and CH 4 of the CuO@TiO 2 –Al 2 O 3 oxygen carrier. 
+Kinetics model equation 
+n (dimensionless) 
+E (kJ/mol) 
+A (atm −n s −1 ) 
+N 2 
+G (X) = [ −ln (1 −X)] 1 / 3 
+0.5 
+217.2 
+1.72 × 10 7 
+O 2 
+G (X) = 2[ (1 −X) −1 / 2 −1] 
+0.2 
+87.5 
+8.54 × 10 3 
+H 2 
+G (X) = 1 −(1 −X) 3 / 4 
+0.8 
+44.5 
+3.50 × 10 2 
+CO 
+G (X) = 1 −(1 −X) 3 / 4 
+1.0 
+40.1 
+1.76 × 10 2 
+CH 4 
+G (X) = −ln (1 −X) 
+0.6 
+112.2 
+1.45 × 10 4 
+gaseous fuel can be calculated by the following equation, 
+m FR , CLC = 2 d M O 
+R OC H 0 
+c 
+1 
+[ d X r / d t ] X r → 0 
+(18) 
+while for CLOU of solid fuel, the minimum solid inventory in the 
+FR can be calculated as [41] , 
+m FR , CLOU = 10 3 m O 
+R OC · LHV 
+1 
+[ d X Dec / d t ] max 
+(19) 
+where d is the stoichiometry for the complete oxidation between 
+oxygen and fuel gas (mole O per mole of fuel), m O is the mass 
+of oxygen required per kg of solid fuel to full combustion, M O 
+is the molar weight of oxygen, R OC is the oxygen carrying ca- 
+pacity of the CuO@TiO 2 –Al 2 O 3 oxygen carrier (7.7 wt% for CLOU, 
+and 15.5 wt% for CLC), H 0 
+c is the standard heat of combus- 
+tion of the fuel gas ( H 0 
+c , H 2 = −242 kJ / mol , H 0 
+c , CO = −283 kJ / mol , 
+and H 0 
+c , C H 4 = −802 kJ / mol ), LHV is the lower heating value of the 
+solid fuel, [ d X r / d t ] X r → 0 is the average reactivity of the oxygen car- 
+rier at the characteristic gas fuel concentration and at the solid 
+conversion of X r → 0, [d X Dec /d t ] max represents the maximum oxy- 
+gen generation rate of the oxygen carrier that can be reached at 
+speciﬁed temperature (all the O 2 released can be consumed by the 
+fuel, and the gas phase oxygen concentration was considered to be 
+0). 
+Figure 10 shows the calculated minimum solid inventory in the 
+FR when using the CuO@TiO 2 –Al 2 O 3 oxygen carrier for CLC with 
+gaseous fuels (H 2 , CO, and CH 4 ), and for CLOU with three different 
+rank coals (Shengli lignite (SL), FG bituminous (FG), and Gaoping 
+anthracite (GP)), as well as the O 2 production rate when being ap- 
+plied to CLAS process. For CLC with fuel gases, the calculation was 
+based on the typical operation temperature of 800 °C and the inlet 
+
+
+===== Page 12 =====
+
+266 
+X. Tian, M. Su and H. Zhao / Combustion and Flame 213 (2020) 255–267 
+Fig. 10. Minimum solid inventory in the FR for using the CuO@TiO 2 –Al 2 O 3 oxygen 
+carrier in CLC of gaseous fuels, in CLOU of coals, as well as the O 2 production rate 
+in CLAS process. SL, FG, and GP denote as Shengli lignite, Fugu bituminous, and 
+Gaoping anthracite, respectively. 
+reactive gas concentration of 50 vol%. For CLOU of solid fuels, the 
+characteristic reaction temperature was selected to be 950 °C, and 
+pure N 2 was used as the carrier gas. Note that, the m O value for 
+SL, FG, and GP was 1.59, 1.94, and 2.15, and the corresponding LHV 
+was 12.82 MJ/kg, 28.85 MJ/kg, and 26.17 MJ/kg, respectively [60] . 
+As it can be seen, very low solid inventory was required when us- 
+ing the CuO@TiO 2 –Al 2 O 3 as oxygen carrier in CLC of gaseous fuels, 
+as 16.0 kg/MW th , 23.6 kg/MW th , and 39.4 kg/MW th for H 2 , CO, and 
+CH 4 , respectively. These values were much lower than those re- 
+ported by García-Labiano et al. [33] , in which a kind of CuO/Al 2 O 3 
+material with 10 wt% of CuO ( vs. 77.5 wt% of CuO in this work) was 
+used as oxygen carrier. The CuO@TiO 2 –Al 2 O 3 oxygen carrier also 
+showed its superiority when being applied to CLOU of solid fuels. 
+The oxygen carrier inventory in FR was as low as 124.2 kg/MW th 
+when using a typical Chinese lignite (SL) as fuel at 950 °C, lower 
+than the amount of 160 kg/MW th required by the CuO/MgAl 2 O 4 
+oxygen carrier (containing 60 wt% of CuO) reported by Adánez- 
+Rubio et al. [41] for another lignite. By the way, when applying this 
+type of oxygen carrier to CLAS process, and considering the aver- 
+age oxygen release rate of 0.0032 s −1 at 950 °C, the O 2 production 
+rate would be 0.625 Nm 3 O 2 /(kg OC h). 
+5. Conclusion 
+The reduction reactivity of a previously investigated CuO@TiO 2 –
+Al 2 O 3 oxygen carrier with core-shell structure was determined in 
+a thermal gravimetric analyzer (TGA) using H 2 , CO, or CH 4 as re- 
+ducing gases. In addition, the oxygen decoupling and oxygen up- 
+take characteristics of this material were investigated by varying 
+the reaction temperature and O 2 concentration in gas phase. These 
+reactions are involved in chemical looping combustion (CLC) and 
+chemical looping with oxygen uncoupling (CLOU) processes. There- 
+fore, redox reaction kinetics of the oxygen carrier under the con- 
+text of CLC and CLOU were ﬁnally established based on the TG 
+data. 
+Prior to the formal kinetics tests, efforts have been made to 
+eliminate the effects of external and internal gas diffusion on 
+the reactions, and temperature programed reduction (TPR) ex- 
+periments were conducted to determine the suitable temperature 
+range for the reduction of the oxygen carrier with different fuel 
+gases. The conversion proﬁle of the CuO@TiO 2 –Al 2 O 3 oxygen car- 
+rier was found to be signiﬁcantly affected by the reacting atmo- 
+sphere, indicating the different reaction mechanism. TPR results 
+showed different onset temperatures for the reduction of this ma- 
+terial by H 2 , CO, or CH 4 , which demonstrated the varied reactivity 
+of the oxygen carrier towards different fuel gases. To be more spe- 
+ciﬁc, the oxygen decoupling and subsequent oxygen uptake pro- 
+cesses of the CuO@TiO 2 –Al 2 O 3 oxygen carrier can be described 
+by the nucleation and nuclei growth model and chemical reaction 
+model, respectively. The corresponding activation energy was at- 
+tained as 217.2 kJ/mol and 87.5 kJ/mol, and the pre-exponential 
+factor was 1 . 72 × 10 7 at m −0 . 5 s −1 and 8 . 54 × 10 3 at m −0 . 2 s −1 , re- 
+spectively. The reduction of the oxygen carrier by H 2 and CO both 
+followed the shrinking core model, with very similar activation en- 
+ergy of 44.5 kJ/mol and 40.1 kJ/mol attained. While the reduction 
+process with CH 4 was subject to the ﬁrst order nucleation and nu- 
+clei growth model, and a higher activation energy of 112.2 kJ/mol 
+was obtained. The kinetics parameters were then used to calculate 
+the minimum solid inventory in the FR when using this oxygen 
+carrier in CLC and CLOU processes. For CLC with H 2 , CO, or CH 4 as 
+fuel, the minimum oxygen carrier inventory in FR was calculated 
+as 16.0 kg/MW th , 23.6 kg/MW th , and 39.4 kg/MW th , respectively. 
+While for the CLOU process with a Chinese lignite as fuel, the solid 
+inventory was attained as low as 124.2 kg/MW th . All these results 
+suggested the superior reactivity of the CuO@TiO 2 –Al 2 O 3 oxygen 
+carrier in chemical looping processes. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing ﬁnan- 
+cial interests or personal relationships that could have appeared to 
+inﬂuence the work reported in this paper. 
+Acknowledgments 
+This work was supported by “National Key R&D Program of 
+China ( 2016YFB0600801 )”. 
+References 
+[1] T.F. Wall , Combustion processes for carbon capture, Proc. Combust. Inst. 31 
+(2007) 31–47 . 
+[2] F. Li , L.-.S. Fan , Clean coal conversion processes–progress and challenges, En- 
+ergy Environ. Sci. 1 (2008) 248–267 . 
+[3] B. Li , Y. Duan , D. Luebke , B. Morreale , Advances in CO 2 capture technology: a 
+patent review, Appl. Energy 102 (2013) 1439–1447 . 
+[4] W. Lewis, E. Gilliland, Production of Pure Carbon Dioxide. U.S. Patent No. 
+2665971; 1954. 
+[5] H.J. Richter , K.F. Knoche , Reversibility of combustion process, eﬃciency and 
+costing, second law analysis of processes, 1983 ACS Symposium Series 235, 
+Washington, DC (1983), pp. 71–85 . 
+[6] A. Lyngfelt , B. Leckner , T. Mattisson , A ﬂuidized-bed combustion process with 
+inherent CO 2 separation; application of chemical-looping combustion, Chem. 
+Eng. Sci. 56 (2001) 3101–3113 . 
+[7] J. Adanez , A. Abad , F. Garcia-Labiano , P. Gayan , F. Luis , Progress in chemi- 
+cal-looping combustion and reforming technologies, Prog. Energy Combust. Sci. 
+38 (2012) 215–282 . 
+[8] J. Adánez , A. Abad , T. Mendiara , P. Gayán , L. De Diego , F. García-Labiano , Chem- 
+ical looping combustion of solid fuels, Prog. Energy Combust. Sci. 65 (2018) 
+6–66 . 
+[9] Q. Imtiaz , D. Hosseini , C.R. Müller , Review of oxygen carriers for chemical loop- 
+ing with oxygen uncoupling (CLOU): thermodynamics, material development, 
+and synthesis, Energy Technol. 1 (2013) 633–647 . 
+[10] T. Song , L. Shen , Review of reactor for chemical looping combustion of solid 
+fuels, Int. J. Greenh. Gas. Con. 76 (2018) 92–110 . 
+[11] H. Zhao, X. Tian, J. Ma, M. Su, B. Wang, D. Mei, Development of tailor-made 
+oxygen carriers and reactors for chemical looping processes at Huazhong Uni- 
+versity of Science & Technology, Int. J. Greenh. Gas Con. 93 (2020) 102898 
+http://doi.org/10.1016/j.ijggc.2019.102898 . 
+[12] M. Ishida , J. Hongguang , A new advanced power-generation system using 
+chemical-looping combustion, Energy 19 (1994) 415–422 . 
+[13] M. Ishida , H. Jin , A novel chemical-looping combustor without NO x formation, 
+Ind. Eng. Chem. Res. 35 (1996) 2469–2472 . 
+[14] T. Mattisson , A. Lyngfelt , H. Leion , Chemical-looping with oxygen uncoupling 
+for combustion of solid fuels, Int. J. Greenh. Gas. Con. 3 (2009) 11–19 . 
+[15] T. Mattisson , H. Leion , A. Lyngfelt , Chemical-looping with oxygen uncoupling 
+using CuO/ZrO 2 with petroleum coke, Fuel 88 (2009) 683–690 . 
+[16] I. Adánez-Rubio , A. Abad , P. Gayán , F. Luis , F. García-Labiano , J. Adánez , Identiﬁ- 
+cation of operational regions in the chemical-looping with oxygen uncoupling 
+(CLOU) process with a Cu-based oxygen carrier, Fuel 102 (2012) 634–645 . 
+[17] P. Gayán , I. Adánez-Rubio , A. Abad , F. Luis , F. García-Labiano , J. Adánez , Devel- 
+opment of Cu-based oxygen carriers for chemical-looping with oxygen uncou- 
+pling (CLOU) process, Fuel 96 (2012) 226–238 . 
+
+
+===== Page 13 =====
+
+X. Tian, M. Su and H. Zhao / Combustion and Flame 213 (2020) 255–267 
+267 
+[18] L. Xu , J. Wang , Z. Li , N. Cai , Experimental study of cement-supported CuO oxy- 
+gen carriers in chemical looping with oxygen uncoupling (CLOU), Energy Fuel 
+27 (2013) 1522–1530 . 
+[19] T. Mattisson, Materials for chemical-looping with oxygen uncoupling, ISRN 
+Chem. Eng. (2013) Article ID 526375, doi: 10.1155/2013/526375 . 
+[20] A. Shulman , E. Cleverstam , T. Mattisson , A. Lyngfelt , Chemical-looping with 
+oxygen uncoupling using Mn/Mg-based oxygen carriers–oxygen release and re- 
+activity with methane, Fuel 90 (2011) 941–950 . 
+[21] G. Azimi , H. Leion , M. Rydén , T. Mattisson , A. Lyngfelt , Investigation of different 
+Mn–Fe oxides as oxygen carrier for chemical-looping with oxygen uncoupling 
+(CLOU), Energy Fuel 27 (2012) 367–377 . 
+[22] V. Frick , M. Rydén , H. Leion , T. Mattisson , A. Lyngfelt , Screening of supported 
+and unsupported Mn–Si oxygen carriers for CLOU (chemical-looping with oxy- 
+gen uncoupling), Energy 93 (2015) 544–554 . 
+[23] G. Azimi , T. Mattisson , H. Leion , M. Ryden , A. Lyngfelt , Comprehensive study 
+of Mn–Fe–Al oxygen-carriers for chemical-looping with oxygen uncoupling 
+(CLOU), Int. J. Greenh. Gas. Con. 34 (2015) 12–24 . 
+[24] A . Shaﬁefarhood , A . Stewart , F. Li , Iron-containing mixed-oxide composites as 
+oxygen carriers for chemical looping with oxygen uncoupling (CLOU), Fuel 139 
+(2015) 1–10 . 
+[25] T. Mattisson , D. Jing , A. Lyngfelt , M. Ryden , Experimental investigation of bi- 
+nary and ternary combined manganese oxides for chemical-looping with oxy- 
+gen uncoupling (CLOU), Fuel 164 (2016) 228–236 . 
+[26] H. Leion , Y. Larring , E. Bakken , R. Bredesen , T. Mattisson , A. Lyngfelt , Use of 
+CaMn 0.875 Ti 0.125 O 3 as oxygen carrier in chemical-looping with oxygen uncou- 
+pling, Energy Fuel 23 (2009) 5276–5283 . 
+[27] M. Rydén , A. Lyngfelt , T. Mattisson , CaMn 0.875 Ti 0.125 O 3 as oxygen carrier for 
+chemical-looping combustion with oxygen uncoupling (CLOU)—experiments in 
+a continuously operating ﬂuidized-bed reactor system, Int. J. Greenh. Gas. Con. 
+5 (2011) 356–366 . 
+[28] N. Galinsky , A. Mishra , J. Zhang , F. Li , CaAMnO (A = Sr and Ba) perovskite based 
+oxygen carriers for chemical looping with oxygen uncoupling (CLOU), Appl. 
+Energy 157 (2015) 358–367 . 
+[29] N. Galinsky , M. Sendi , L. Bowers , F. Li , CaMnBO (B = Al, V, Fe, Co, and Ni) per- 
+ovskite based oxygen carriers for chemical looping with oxygen uncoupling, 
+Appl. Energy 174 (2016) 80–87 . 
+[30] A. Mishra , T. Li , F. Li , E.E. Santiso , Oxygen vacancy creation energy in Mn-con- 
+taining perovskites: an effective indicator for chemical looping with oxygen 
+uncoupling, Chem. Mater. 31 (2018) 689–698 . 
+[31] A. Abad , F. García-Labiano , P. Gayán , L. de Diego , J. Adánez , Redox kinetics of 
+CaMg 0.1 Ti 0.125 Mn 0.775 O 2.9 −δ for chemical looping combustion (CLC) and chemi- 
+cal looping with oxygen uncoupling (CLOU), Chem. Eng. J. 269 (2015) 67–81 . 
+[32] D. Mei , A. Abad , H. Zhao , J. Adánez , Characterization of a sol–gel derived 
+CuO/CuAl 2 o 4 oxygen carrier for chemical looping combustion (CLC) of gaseous 
+fuels: relevance of gas–solid and oxygen uncoupling reactions, Fuel Process. 
+Technol. 133 (2015) 210–219 . 
+[33] F. García-Labiano , L.F. de Diego , J. Adánez , A. Abad , P. Gayán , Reduction and 
+oxidation kinetics of a copper-based oxygen carrier prepared by impregnation 
+for chemical-looping combustion, Ind. Eng. Chem. Res. 43 (2004) 8168–8177 . 
+[34] A. Abad , F. García-Labiano , L.F. de Diego , P. Gayán , J. Adánez , Reduction kinet- 
+ics of Cu-, Ni-, and Fe-based oxygen carriers using syngas (CO + H 2 ) for chemi- 
+cal-looping combustion, Energy Fuel 21 (2007) 1843–1853 . 
+[35] S. Chuang , J. Dennis , A. Hayhurst , S. Scott , Kinetics of the chemical looping 
+oxidation of Co by a co-precipitated mixture of CuO and Al 2 O 3 , Proc. Combust. 
+Inst. 32 (2009) 2633–2640 . 
+[36] S. Chuang , J. Dennis , A. Hayhurst , S. Scott , Kinetics of the oxidation of a Co–
+precipitated mixture of Cu and Al 2 O 3 by O 2 for chemical-looping combustion, 
+Energy Fuel 24 (2010) 3917–3927 . 
+[37] E.A. Goldstein , R.E. Mitchell , Chemical kinetics of copper oxide reduction with 
+carbon monoxide, Proc. Combust. Inst. 33 (2011) 2803–2810 . 
+[38] S.Y. Chuang , J.S. Dennis , A.N. Hayhurst , S.A. Scott , Kinetics of the chemical 
+looping oxidation of H 2 by a co-precipitated mixture of Cuo and Al 2 O 3 , Chem. 
+Eng. Res. Des. 89 (2011) 1511–1523 . 
+[39] B. Moghtaderi , H. Song , Reduction properties of physically mixed metallic ox- 
+ide oxygen carriers in chemical looping combustion, Energy Fuel 24 (2010) 
+5359–5368 . 
+[40] A. Abad , J. Adánez , F. García-Labiano , F. Luis , P. Gayán , Modeling of the chemi- 
+cal-looping combustion of methane using a Cu-based oxygen-carrier, Combust. 
+Flame 157 (2010) 602–615 . 
+[41] I. Adánez-Rubio , P. Gayán , A. Abad , F. García-Labiano , L.F. de Diego , J. Adánez , 
+Kinetic analysis of a Cu-based oxygen carrier: relevance of temperature and 
+oxygen partial pressure on reduction and oxidation reactions rates in chemical 
+looping with oxygen uncoupling (CLOU), Chem. Eng. J. 256 (2014) 69–84 . 
+[42] C.K. Clayton , K.J. Whitty , Measurement and modeling of decomposition kinet- 
+ics for copper oxide-based chemical looping with oxygen uncoupling, Appl. En- 
+ergy 116 (2014) 416–423 . 
+[43] C.K. Clayton , H. Sohn , K.J. Whitty , Oxidation kinetics of Cu 2 O in oxygen carriers 
+for chemical looping with oxygen uncoupling, Ind. Eng. Chem. Res. 53 (2014) 
+2976–2986 . 
+[44] H. Song , K. Shah , E. Doroodchi , T. Wall , B. Moghtaderi , Analysis on chemical re- 
+action kinetics of CuO/SiO 2 oxygen carriers for chemical looping air separation, 
+Energy Fuel 28 (2013) 173–182 . 
+[45] K. Wang , Q. Yu , Q. Qin , Reduction kinetics of cu-based oxygen carriers for 
+chemical looping air separation, Energy Fuel 27 (2013) 5466–5474 . 
+[46] M. San Pio , M. Martini , F. Gallucci , I. Roghair , M. van Sint Annaland , Kinetics 
+of CuO/SiO 2 and CuO/Al 2 O 3 oxygen carriers for chemical looping combustion, 
+Chem. Eng. Sci. 175 (2018) 56–71 . 
+[47] W. Hu , F. Donat , S.A. Scott , J.S. Dennis , Kinetics of oxygen uncoupling of a cop- 
+per based oxygen carrier, Appl. Energy 161 (2016) 92–100 . 
+[48] A.H. Sahir , H.Y. Sohn , H. Leion , J.S. Lighty , Rate analysis of chemical-loop- 
+ing with oxygen uncoupling (CLOU) for solid fuels, Energy Fuel 26 (2012) 
+4395–4404 . 
+[49] E. Eyring , G. Konya , J. Lighty , A . Sahir , A . Saroﬁm , K. Whitty , Chemical looping 
+with copper oxide as carrier and coal as fuel, Oil Gas Sci. Technol. – Rev. IFP 
+66 (2011) 209–221 . 
+[50] L. Guo , H. Zhao , K. Wang , D. Mei , Z. Ma , C. Zheng , Reduction kinetics analy- 
+sis of sol–gel-derived CuO/CuAl 2 O 4 oxygen carrier for chemical looping with 
+oxygen uncoupling, J. Therm. Anal. Calorim. 123 (2016) 745–756 . 
+[51] M. Su , J. Cao , X. Tian , Y. Zhang , H. Zhao , Mechanism and kinetics of Cu 2 O ox- 
+idation in chemical looping with oxygen uncoupling, Proc. Combust. Inst. 37 
+(2019) 4371–4378 . 
+[52] Z. Xu , H. Zhao , Y. Wei , C. Zheng , Self-assembly template combustion synthesis 
+of a core–shell CuO@TiO 2 –Al 2 O 3 hierarchical structure as an oxygen carrier for 
+the chemical-looping processes, Combust. Flame 162 (2015) 3030–3045 . 
+[53] X. Tian , Y. Wei , H. Zhao , Evaluation of a hierarchically-structured 
+CuO@TiO 2 –Al 2 O 3 oxygen carrier for chemical looping with oxygen uncoupling, 
+Fuel 209 (2017) 402–410 . 
+[54] X. Tian , Y. Wei , H. Zhao , Using a hierarchically-structured CuO@TiO 2 –Al 2 O 3 
+oxygen carrier for chemical looping air separation in a paralleled ﬂuidized bed 
+reactor, Chem. Eng. J. 334 (2018) 611–618 . 
+[55] M.M. Hossain , H.I. de Lasa , Reactivity and stability of Co-Ni/Al 2 O 3 oxygen car- 
+rier in multicycle CLC, AIChE J. 53 (2007) 1817–1829 . 
+[56] D.E. Mears , Tests for transport limitations in experimental catalytic reactors, 
+Ind. Eng. Chem. Process Des. Dev. 10 (1971) 541–547 . 
+[57] P. Weisz , C. Prater , Interpretation of measurements in experimental catalysis, 
+Adv. Catal. 6 (1954) 143–196 . 
+[58] Y. Wen , Z. Li , L. Xu , N. Cai , Experimental study of natural Cu ore particles as 
+oxygen carriers in chemical looping with oxygen uncoupling (CLOU), Energy 
+Fuel 26 (2012) 3919–3927 . 
+[59] M. Su , H. Zhao , X. Tian , P. Zhang , B. Du , Z. Liu , Intrinsic reduction kinetics 
+investigation on a hematite oxygen carrier by Co in chemical looping combus- 
+tion, Energy Fuel 31 (2017) 3010–3018 . 
+[60] K. Wang , H. Zhao , X. Tian , Y. Fang , J. Ma , C. Zheng , Chemical-looping with oxy- 
+gen uncoupling of different coals using copper ore as an oxygen carrier, Energy 
+Fuel 29 (2015) 6625–6635 . 

@@ -1,0 +1,1465 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Chemical Engineering Journal
+journal homepage: www.elsevier.com/locate/cej
+Thermodynamic and kinetic characteristics of a Cu-Mn composite oxygen
+carrier for low-temperature chemical-looping air separation
+Kun Wanga,b,⁎, Qingbo Yua, Tianwei Wua,b, Martin van Sint Annalandb, Qin Qina
+a School of Metallurgy, State Environmental Protection Key Laboratory of Eco-Industry, Northeastern University, Shenyang 110819, China
+b Chemical Process Intensiﬁcation, Department of Chemical Engineering and Chemistry, Eindhoven University of Technology, Eindhoven 5600 MB, Netherlands
+H I G H L I G H T S
+• The Cu-Mn composite oxygen carrier
+with relatively low reaction tempera-
+ture is constructed.
+• The reactivity and oxygen transport
+capacity of this oxygen carrier are
+determined.
+• The thermodynamic data including
+ΔG and Kp of the redox reaction are
+obtained.
+• The redox kinetic models of the Cu-Mn
+composite oxygen carrier were estab-
+lished.
+G R A P H I C A L A B S T R A C T
+A R T I C L E I N F O
+Keywords:
+Chemical-looping air separation
+Cu-Mn composite
+Oxygen carrier
+Thermodynamics
+Kinetics
+A B S T R A C T
+The further development of the chemical-looping air separation (CLAS) technology is hindered by the required
+high redox temperature. Improving the thermodynamic properties of oxides by elemental composition is an
+eﬀective way to decrease the reduction temperature of oxygen carrier. In this paper, a Cu-Mn composite oxygen
+carrier was prepared by the addition of Mn2O3 to CuO, with CuxMn3−xO4 as the active phase, and the oxygen
+uncoupling properties of the Cu-Mn/Zr composite oxygen carrier were investigated, focusing on the redox re-
+activity under diﬀerent oxygen concentrations of CuxMn3−xO4 ⇋CuxMn2−x + O2(g). The oxygen transport
+capacity of this type of oxygen carrier was determined as 0.0463 g O2/g oxygen carrier. With an increase in the
+oxygen concentration (0.001–50%) in the carrier gas, the required oxygen uncoupling temperature increases
+(625.5–921 °C). Based on relationship between initial reduction temperature and equilibrium oxygen con-
+centration,
+the
+following
+thermodynamic
+characteristics
+of
+the
+redox
+reaction
+were
+obtained:
+ΔG = –0.119 T + 150.41 kJ/mol and Kp = exp(14.31–18090.8/T). Compared to a Cu-based oxygen carrier, the
+reduction temperature is signiﬁcantly reduced and the equilibrium oxygen concentration at the same reaction
+temperature is greatly increased. The redox reactivity under diﬀerent heating rates and reaction temperatures
+were also investigated, and the results show that both the reduction and oxidation reactions are temperature
+driven at the considered temperatures. The reduction and oxidation kinetic models were established by the iso-
+conversional method. When the relative conversion X < 0.5, the reduction of the Cu-Mn oxygen carrier follows
+a shrinking core model (n = 3), and the oxidation follows a shrinking core model (n = 2). When X ≥0.5, the
+reduction proceeds according to a one-dimensional diﬀusion model, whereas the oxidation follows a shrinking
+core model (n = 3).
+https://doi.org/10.1016/j.cej.2020.124792
+Received 26 October 2019; Received in revised form 23 January 2020; Accepted 16 March 2020
+⁎ Corresponding author at: School of Metallurgy, State Environmental Protection Key Laboratory of Eco-Industry, Northeastern University, Shenyang 110819,
+China.
+E-mail addresses: wangkun@mail.neu.edu.cn, k.wang@tue.nl (K. Wang).
+Chemical Engineering Journal 393 (2020) 124792
+Available online 18 March 2020
+1385-8947/ © 2020 Elsevier B.V. All rights reserved.
+T
+
+
+===== Page 2 =====
+
+1. Introduction
+Chemical-looping (CL) uses a versatile and reversible gas–solid
+redox reaction to control the reduction–oxidation process and has been
+getting more and more attention over the last years. At present, the
+chemical looping concept has been proposed for a variety of processes,
+such as chemical-looping combustion (CLC), chemical-looping with
+oxygen uncoupling (CLOU), chemical-looping gasiﬁcation (CLG), che-
+mical-looping
+hydrogen
+generation
+(CLHG),
+chemical-looping
+re-
+forming (CLR) and chemical-looping air separation (CLAS) [1–6]. The
+use of lattice oxygen in the oxygen carrier is the common characteristic
+of the above chemical looping technologies. Certainly, the oxygen
+carrier is one of the key factors in the development of CL technologies
+and the oxygen carrier should have a high reactivity, high oxygen
+transport capacity, high stability against sintering, high mechanical
+strength, low cost, and should be environmentally friendly [7]. Cu-
+based, Mn-based, Co-based, Fe-based, Ni-based, Ce-based and per-
+ovskite oxides are common oxygen carriers used in CL technologies
+[8–12].
+In CL technologies, there are two ways to use the lattice oxygen: i)
+oxygen carriers directly react with the reactants; ii) oxygen carriers
+ﬁrstly release oxygen and subsequently the gas phase oxygen reacts
+with the reactants. For the latter, the oxygen carrier used should exhibit
+oxygen uncoupling activity, and it has an added beneﬁt of increasing
+reaction rates compared to solid–solid reactions in case solid reactants,
+such as coal or biomass, are used, and this is known as CLOU tech-
+nology [13]. A schematic of the CLOU process is shown in Fig. 1. Be-
+cause the slow gasiﬁcation reaction between solid fuel and oxygen
+carrier is replaced by the direct combustion of released oxygen and
+solid fuel, the reaction rates and thereby the solid fuel conversions are
+greatly increased. Moreover, the combustion of fuel consumes the
+oxygen released by oxygen carriers and it decreases the system oxygen
+partial pressure, increasing the oxygen uncoupling rate of oxygen car-
+riers [14,15]. However, for the current CLOU technology, the separa-
+tion of the oxygen carrier and ash, the carbon deposition on the oxygen
+carrier surface, and the power consumption of the oxygen carrier cycle
+are inevitable shortcomings. Separation of oxygen uncoupling and
+combustion reactions into two separated reactors maybe a solution of
+the above shortcomings. Fig. 2 shows a schematic of the interconnected
+CLOU system. It consists of three reactors, designated as the fuel re-
+actor, oxidation reactor and reduction reactor. The reduction and oxi-
+dation reactors can be designed as ﬁxed-bed reactors to decrease the
+power consumption circumventing the need for separating solid parti-
+cles from carrier gases. The reduction and oxidation units are also
+known as CLAS, a CL technology proposed to produce pure oxygen or
+oxygen-enriched gases with features of high energy eﬃciency, simple
+operation and relative low cost [16,17].
+Unlike the immediate consumption of the oxygen released by the
+fuel in the CLOU process, in the interconnected CLOU process, the re-
+leased oxygen is carried out of the reduction reactor by the carrier
+gases. Thus, the oxygen carrier needs to release oxygen at diﬀerent
+oxygen concentrations, since the oxygen concentration in the carrier
+gases increases gradually from bottom to top of reactor. Moreover, the
+oxygen concentration in the outlet gas should be high enough to ensure
+a high eﬃciency of the combustion in the fuel reactor [18]. An oxygen
+carrier with the oxygen uncoupling activity is the basis for the CLOU
+technology, while the oxygen releasing capability into an atmosphere of
+relatively high oxygen concentration is key for the CLAS process. CuO is
+one of the most common oxygen carriers used for CL technologies due
+to its high oxygen transport capacity (0.1 g O2/g CuO), high reactivity
+and low cost [19–21]. Above all, it has oxygen uncoupling activity,
+known as the redox reaction of copper oxides (Eq. (1)).
+⇋
++
+g
+4CuO
+2Cu O 
+O ( )
+2
+2
+(1)
+Table 1 shows the equilibrium oxygen concentration (EOC) of this
+redox reaction at diﬀerent temperatures [8]. It can be seen that the
+reduction temperatures for CuO are high. However, the sintering of Cu-
+based oxygen carriers is very serious at high temperatures due to the
+low melting points of copper oxides (1450 °C for CuO, 1235 °C for Cu2O
+and 1075 °C for CuO-Cu2O) [22]. In order to increase the anti-sintering
+property, a variety of supports had been added during the preparation
+of Cu-based oxygen carriers. Wang et al. found that Cu-based oxygen
+carriers with 60 wt% ZrO2 and 50 wt% MgAl2O4 as supports showed
+good stability against sintering at 1000 °C [15,23]. Adánez-Rubio et al.
+investigated the mechanical stability, attrition rate and oxygen un-
+coupling behaviour of Cu-based oxygen carriers using a mixture support
+and found that oxygen carriers with a mixture support of MgAl2O4/
+TiO2, MgAl2O4/SiO2 and TiO2/SiO2 all had good anti-sintering beha-
+vior at tested temperatures of 900–950 °C [24]. Cabello carried out
+long-lasting tests for a Cu14γAl oxygen carrier and found that this type
+of oxygen carrier also showed excellent anti-sintering behaviour at
+900 °C [25]. The anti-sintering property and cyclic stability of Cu-based
+oxygen carriers can be greatly improved with the addition of supports,
+and the reactivity of copper oxides was also improved after adding
+supports [26]. The supports reduce the activation energy and accelerate
+the reaction rate of the redox reaction of copper oxides. However, they
+do not change the thermodynamic characteristics of the redox reaction.
+At the highest testing temperature reported in the literature of 1000 °C,
+the EOC is only 12.39%, which is much lower than the oxygen con-
+centration in air (21%) [8]. Thus, the improvement of the thermo-
+dynamic properties of oxygen carriers, i.e. a decrease in the oxygen
+uncoupling temperature and an increase in the EOC of the redox re-
+action is key for the further development of the CLAS technology.
+The thermodynamic properties of oxides can be eﬀectively im-
+proved by elemental composition or substitution. Hou et al. used Ti and
+Dy elements to substitute the Y element in YBaCo4O7+δ, and found that
+not only the initial oxygen uncoupling temperature decreased, but also
+the oxygen transport capacity increased after substitution [27]. The
+composite oxygen carriers of Mn-Si, Mn-Ni, Mn-Fe, Mn-Ca, Mn-Cu, Mn-
+Mg were prepared to overcome the thermodynamic hindrance of the
+oxidation of Mn3O4 to Mn2O3, and by the elemental composition
+Ash
+H2O (l)
+Fuel
+Air
+Reactor
+Fuel
+Reactor
+MexOy
+MexOy-2
+N2 (+O2)
+CO2+H2O
+CO2
+Air
+CO2 (+H2O)
+CO2
+Fig. 1. Schematic view of CLOU.
+K. Wang, et al.
+Chemical Engineering Journal 393 (2020) 124792
+2
+
+
+===== Page 3 =====
+
+method, the composite Mn-based oxygen carriers exhibited satisfying
+thermodynamic properties [28–30]. Pour et al. found that combined
+CuO and Mn3O4 oxides with 5, 10, 20, 31, and 61 wt% CuO all could
+release gas-phase O2 in concentrations up to 1% at 750 °C [31].
+Moghtaderi found that Mn-Co composites changed the equilibrium
+partial pressure of oxygen in the system, and played a role in regulating
+the temperature range of the oxygen uncoupling reaction [16]. Dries-
+sens and Rieck suggested that Cu-Mn composite oxygen carriers could
+reduce the uncoupling temperature and improve the oxidative re-
+generation ability of pure Mn-based oxygen carriers through analyzing
+the redox equation of Cu-Mn oxides by phase diagram [32]. The current
+researches conﬁrmed that the Cu-Mn composite oxygen carrier could
+release oxygen at relatively low temperature. However, detailed in-
+formation on thermodynamic and kinetic characteristics of this type of
+oxygen carrier is rare in literatures. The basic thermodynamic and ki-
+netic data is signiﬁcant to design the chemical looping system and to
+determine the operation parameters.
+Thus, the main aim of this paper is to obtain the thermodynamic and
+kinetic characteristics of the Cu-Mn composite oxygen carrier. Firstly, a
+composite Cu-Mn oxygen carrier was prepared and characterized.
+Subsequently, the reduction and oxidation characteristics under dif-
+ferent oxygen concentrations, heating rates and reaction temperatures
+were investigated by experimental methods. The Cu-Mn composite
+oxygen carrier showed satisfying oxygen uncoupling properties and is
+considered as an excellent candidate for the CLAS. The reactivity as
+well as the oxygen transport capacity of this type of oxygen carrier was
+obtained. Thermodynamic data of the redox reaction, viz. the Gibbs free
+energy change (ΔG) and the equilibrium oxygen concentration (EOC) or
+equilibrium constant (Kp) were determined. The kinetic models of the
+reduction and oxidation reactions were established using the iso-
+conversional (model-free) method. This research supplies the basic
+thermodynamic and kinetic data of the Cu-Mn composite oxygen car-
+rier, which is very important for the advancement of this type of oxygen
+carrier.
+2. Experimental section
+2.1. Preparation of the composite oxygen carrier
+For all of the oxygen carriers preparation methods, ﬁrstly precursors
+were prepared, which were subsequently calcined to increase their
+strength. Mechanical mixing is one of the most commonly applied
+methods to prepare the precursor. This method is simple, low-cost with
+high yield. ZrO2 was used as the support to decrease the sintering
+propensity. Graphite was used as the pore forming agent, which was
+totally consumed during the calcination process [33]. Raw materials of
+commercial
+particles
+of
+CuO
+(≥99.0%),
+Mn2O3
+(99.9%),
+ZrO2
+(≥99.0%) with mole ratio of CuO : Mn2O3 : ZrO2 = 1.5 : 1 : 1 and
+graphite (10 wt%) were mixed fully and deionized water was added to
+the mixture to form a paste. Subsequently the paste was squeezed to the
+precursor with a cylindrical shape and dried for 12 h at 80 °C and
+calcined for 6 h at 950 °C. After sieving, particles with a size range of
+150–180 μm were obtained for the experiments.
+2.2. Characterization of the composite oxygen carrier
+The improvement of the oxygen uncoupling properties of a CuO-
+Mn2O3 composite oxygen carrier results from the formation of a new
+active phase. Thus, it is important to determine the active species in the
+oxidized and reduced samples. X-ray diﬀraction (XRD, Panalytieal PW
+3040/60) measurement was carried out to identify the crystalline
+chemical species. The XRD patterns (10–90 rad) were collected with Cu
+K-α working at 30 kV and 40 mA with steps of 0.017 rad/s. Fig. 3 shows
+the XRD patterns of the Cu-Mn composite oxygen carrier. The active
+phases
+in
+the
+oxidized
+sample
+are
+CuxMn3−xO4
+(including
+Cu1.4Mn1.6O4, Cu1.5Mn1.5O4 and CuMn2O4). After reduction, the active
+phases in the reduced sample are CuxMn2−xO2 (including CuMnO2 and
+Cu (Cu0.04Mn0.96O2)). The ZrO2 support is visible in the oxidized and
+reduced samples and it does not react with the active phases. The
+phases of CuO (Cu2O) and Mn2O3 (Mn3O4) are not found in the oxidized
+and reduced oxygen carriers, concluding that the active phases are only
+the composite oxides of copper and manganese and the redox reaction
+of the Cu-Mn composite oxygen carrier can be represented by:
+⇌
++
+−
+−
+Cu Mn
+O
+Cu Mn
+O
+O (g)
+x
+x
+3 x
+4
+2 x
+2
+2
+(2)
+Subsequent measurements of the speciﬁc surface area (BET), surface
+structure-elemental distribution (SEM-EDX) and crushing strength of
+the composite oxygen carrier were performed on Quantachrome NOVA
+1200e, ULTRA 55 and a press apparatus, respectively. Fig. 4 shows the
+SEM-EDX images of the composite oxygen carrier. The SEM images
+show that the shapes of the oxygen carrier particles are irregular, re-
+sulting from the agate mortar during the preparation. In addition,
+macrospores are observed and the surface morphology of the oxygen
+carrier shows a lose structure, which is beneﬁcial for gas diﬀusion in-
+side the oxygen carrier particles [34]. The elemental distribution of the
+oxygen carrier indicates that the Cu, Mn and O elements are distributed
+Fig. 2. Schematic view of interconnected CLOU.
+Table 1
+Equilibrium oxygen concentration at diﬀerent temperatures.
+T (°C)
+850
+875
+900
+925
+950
+975
+1000
+1025
+1050
+1075
+1100
+EOC (%)
+0.46
+0.84
+1.51
+2.65
+4.53
+7.57
+12.39
+19.87
+31.29
+48.41
+73.64
+K. Wang, et al.
+Chemical Engineering Journal 393 (2020) 124792
+3
+
+
+===== Page 4 =====
+
+uniformly. And the corresponding distribution of Cu, Mn and O ele-
+ments also indicates the formation of composite Cu-Mn-O oxides. The
+BET surface area of the composite oxygen carrier is only 0.215 m2/g
+due to the high-temperature calcination process and the formation of
+composite phases. This value of surface area is typical for oxygen car-
+rier in CL technologies [35]. On the contrary, the crushing strength of
+the composite oxygen carrier is higher than 24 N and this value is high
+enough for application in circulating ﬂuidized and packed beds [7].
+Table 2 shows the characteristics of the Cu-Mn composite oxygen car-
+rier.
+2.3. Experimental set-up
+Experiments were carried out in a thermogravimetric (TG) analyzer
+Fig. 3. Chemical compounds in reduced and oxidized Cu-Mn/Zr composite oxygen carrier.
+Fig. 4. SEM-EDX images of the Cu-Mn/Zr composite oxygen carrier.
+K. Wang, et al.
+Chemical Engineering Journal 393 (2020) 124792
+4
+
+
+===== Page 5 =====
+
+(NETZSCH, STA409 PC) and a packed-bed reactor. For TG experiments,
+in order to determine thermodynamic data, redox experiments under
+diﬀerent oxygen concentrations in the carrier gases (0%, 7%, 14%,
+21%, 33.3%, 50% for reduction and 14%, 21%, 33.3% for oxidation)
+were carried out. In order to determine the kinetic data, experiments
+under diﬀerent heating rates (10, 15, 20, 25 K/min) were carried out.
+Experiments under 900 °C reduction (N2 atmosphere) and 700 °C oxi-
+dation (air atmosphere) temperatures were also carried out to de-
+termine the oxygen transport capacity. Each TG experiment contains a
+continuous reduction–oxidation process. Fig. 5 shows a diagram of the
+temperature program for TG experiments. Packed-bed experiments
+were set-up (Fig. 6) and the outlet gas phase compositions were mea-
+sured using an online gas analyzer. The reduction (N2 atmosphere) and
+oxidation
+(air
+atmosphere)
+temperatures
+were
+determined
+as
+850–950 °C and 650–750 °C with a temperature interval of 25 °C.
+2.4. Data evaluation
+In each TG experiment, the conversion of the oxygen carrier was
+calculated by Eqs. (3) and (4):
+=
+−
+−
+X
+m
+m
+m
+m
+red
+oxi
+oxi
+red
+(3)
+=
+−
+−
+X
+m
+m
+m
+m
+oxi
+red
+oxi
+red
+(4)
+where Xred and Xoxi are the reduction and oxidation conversion; mred
+and moxi represent the sample mass of the fully reduced and oxidized
+samples, mg; and m is the actual mass at each time step during the test,
+mg.
+3. Results and discussion
+3.1. Reactivity of the composite oxygen carrier
+Isothermal TG experiments under ﬁxed reduction and oxidation
+temperatures were carried out and the mass changes and mass change
+rates are shown in Fig. 7. During the experiment, 10 mg sample was
+used with a volumetric ﬂow rate of 30 ml/min. The mass loss in re-
+duction process is almost the same as the mass gain in oxidation pro-
+cess. The reduced oxygen carrier can be fully oxidized and this type of
+oxygen carrier presents excellent reduction–oxidation property. Except
+for N2 and O2, there is no other gas composition in carrier gases. Thus,
+Table 2
+Characteristics of Cu-Mn composite oxygen carrier.
+Items
+Cu-Mn composite OC
+Particle size (μm)
+150–180
+Phase composition
+Reduced: CuxMn2−xO2, ZrO2
+Oxidized: CuxMn3−xO4, ZrO2
+Support adding ratio (wt.%)
+31
+BET surface area (m2/g)
+0.215
+Crushing strength (N)
+> 24
+Fig. 5. Temperature program during the TGA experiments to determine the
+redox kinetics.
+Fig. 6. The diagram of packed-bed system.
+K. Wang, et al.
+Chemical Engineering Journal 393 (2020) 124792
+5
+
+
+===== Page 6 =====
+
+the mass changes of samples are only caused by the redox reaction of
+oxygen carrier. These results are corresponding to the phase composi-
+tion analysis in Fig. 3. The phases of this oxygen carrier transfer be-
+tween CuxMn3−xO4 and CuxMn2−xO2 during the reduction–oxidation
+process. The maximum mass loss is −4.63% and the oxygen transport
+capacity of this type of oxygen carrier is determined as 0.0463 g O2/g
+oxygen carrier. In addition, the reduction rate is higher than oxidation
+rate due to the higher reaction temperature.
+Further, the outlet gas phase compositions in a packed-bed reactor
+were also measured to conﬁrm the oxygen released or absorbed by the
+composite oxygen carrier. Fig. 8 shows the outlet oxygen concentra-
+tions measured during the reduction–oxidation process. In the reduc-
+tion process, the outlet oxygen concentrations at diﬀerent reduction
+temperatures all have a downward trend in the initial stage of the re-
+action. However, as the reaction proceeds, the curves of the outlet
+oxygen concentration show some inﬂection points comparing to the
+comparative experiment (operating at room temperature), which in-
+dicates that the composite oxygen carrier starts releasing oxygen at
+these points. In addition, when the reaction temperature is higher, the
+oxygen concentration at the inﬂection point is higher. This is explained
+by the fact that the composite oxygen carrier starts releasing oxygen
+when the oxygen concentration around the oxygen carrier particles is
+below the equilibrium oxygen concentration, and the oxygen equili-
+brium partial pressure of the oxygen-releasing reaction increases as the
+reduction temperature increases. In the oxidation process, the oxygen
+concentrations show a creeping increase compared to the comparative
+experiment, which indicates the reduced oxygen carrier absorbs some
+oxygen from air. Moreover, at the same reaction time, the oxidation
+rates decrease with an increase in the oxidation temperature. When the
+oxygen concentration in the inlet carrier gas is constant (21.0%), a
+higher reaction temperature leads to a higher oxygen equilibrium
+partial pressure and a lower driving force for the oxidation reaction. In
+the following part, the oxygen equilibrium partial pressure or equili-
+brium oxygen concentration will be determined.
+3.2. Determination of thermodynamic characteristic
+Temperature programmed experiments under diﬀerent oxygen
+concentrations were carried out and the changes of the reduction and
+oxidation conversions with temperature are shown in Fig. 9. As the
+oxygen concentration in the carrier gas increases, the starting and
+ending temperatures of the reduction reaction increase. The explana-
+tion is that the driving force for the reduction reaction is the diﬀerence
+between the EOC and the actual oxygen concentration in the carrier
+gas. When the EOC is higher than the oxygen concentration in the
+carrier gas, the oxygen uncoupling of the oxygen carrier starts [36]. In
+each experiment, the gas ﬂow rate is large enough that the amount of
+oxygen released by the oxygen carrier does not aﬀect the local oxygen
+concentration. Thus, the EOC at the starting temperature of the re-
+duction is the same as the oxygen concentration in the carrier gas.
+Table 3 shows the corresponding relation of the starting temperature
+and the EOC. The reduction conversion curves are S-shaped, which
+indicates that the driving force goes through a slow increase followed
+by a fast increase with increasing of temperature. The eﬀects of the
+oxygen concentration on the oxidation reaction rate are small. The
+explanation is that at low reaction temperatures, the EOC is very low
+(near zero), so that for all tested oxygen concentrations, the driving
+force for oxidation is large enough. Thus, the oxidation processes under
+diﬀerent oxygen concentrations in the carrier gas are very similar.
+Based on the experimental data, the ΔG and EOC of the redox re-
+action are determined. The Gibbs free energy (G) of a matter is the state
+function and the ΔG of a reaction can be calculated by subtracting the G
+of reactants from the G of the products [8,37]:
+=
+−
+G
+G
+G
+Δ
+Δ
+Δ
+Products
+Reactants
+(5)
+∑
+∑
+∑
+∑
+=
++
++
++
++
++
++
++
++
++
+−
+G
+n g
+RT
+P
+n g
+n g
+RT
+X
+RT
+γ
+n
+g
+RT
+X
+RT
+γ
+(
+ln )
+(
+ln
+ln )
+(
+ln
+ln )
+···
+i
+i
+i
+i i
+i
+i
+i
+i
+i
+i
+i
+i
+ideal gas
+0
+pure
+condensed
+phases
+0
+solution 1
+0
+solution-2
+0
+(6)
+where ni is the number of moles of component i, mol; Pi is the
+Fig. 7. Mass changes and mass change rates during the reduction–oxidation
+process.
+Fig. 8. Outlet oxygen concentrations measured during the reduction–oxidation
+process.
+K. Wang, et al.
+Chemical Engineering Journal 393 (2020) 124792
+6
+
+
+===== Page 7 =====
+
+equilibrium partial pressure of component i in the gas, Pa; Xi is the mole
+ratio fraction of component i; γi is the activity coeﬃcient of component
+i; gi is the standard Gibbs free energy of component i, J/mol; T is the
+temperature, K; R is the universal gas constant, 8.314 J/(mol·K).
+The reduction and oxidation of the oxygen carrier is a reversible
+process and the equilibrium constant (K) at diﬀerent temperatures can
+be calculated:
+=
+−
+K
+G RT
+exp( Δ /
+)
+(7)
+For a reaction involving gases (Eq. (8)), the equilibrium constant is
+the pressure equilibrium constant (Kp) and it can be calculated by Eq.
+(9).
++
+⇋
++
+a
+g
+b
+g
+c
+g
+d
+g
+A( )
+B( )
+C( )
+D( )
+(8)
+=
+K
+P P
+P P
+P
+C
+c
+D
+d
+A
+a
+B
+b
+(9)
+where PA, PB, PC and PD are the relative pressures of components A, B, C
+and D respectively.
+For the reduction reaction of Cu-Mn composite oxygen carrier (Eq.
+(2)), Kp equals the value of equilibrium oxygen concentration (EOC).
+Thus, the relationship of ΔG and EOC can be described as follows:
+=
+=
+−
+K
+G RT
+EOC
+exp( Δ /
+)
+P
+(10)
+Yielding a direct relation of the temperature (T) and EOC.
+= −
++
+G
+T
+Δ
+0.119
+150.41, kJ/mol
+(11)
+Yielding for Kp as a function of temperature:
+=
+−
+=
+−
+K
+G RT
+T
+exp( Δ /
+)
+exp(14.31
+18090.8/ )
+p
+(12)
+Fig. 10 shows the values of ΔG and EOC of the composite Cu-Mn
+oxygen carrier as a function of temperature. Compared to a Cu-based
+oxygen carrier, the starting reduction temperature decreases, or alter-
+natively the values of the EOC at the same reaction temperature in-
+creases greatly [18,23,38]. At 1264 K, the EOC of Cu-Mn composite
+oxygen carrier is 100% and pure oxygen could be produced at this
+temperature.
+3.3. Establishment of kinetic models
+In addition to thermodynamic data, the kinetics of redox reactions
+of oxygen carrier is important for the design and optimization of the
+reactor [39,40]. Temperature programmed experiments with heating
+rates of 10, 15, 20 and 25 K/min were carried out. Fig. 11 shows the
+changes in reduction and oxidation conversions at the respective tem-
+perature under diﬀerent heating rates. For the reduction step, the
+starting temperature increases with an increase in the heating rate. This
+is due to the thermal hysteresis caused by heat transfer limitations from
+the surface to the core of the particles. However, for the oxidation, the
+diﬀerences in the starting temperatures under diﬀerent heating rates
+are somewhat smaller, which is related to the exothermicity of the
+oxidation reaction, which is beneﬁcial for heating of the oxygen carrier
+particles. For both the reduction and oxidation steps, the ending tem-
+peratures under diﬀerent heating rates are almost the same. However,
+the time required when using a higher heating rate is less. Thus, the
+average reaction rate increases with an increase in the heating rate.
+This phenomenon shows that both the reduction and oxidation reac-
+tions are temperature driven in the tested temperature range.
+Because the reduction of oxygen carrier is exothermic and the oxi-
+dation of oxygen carrier is endothermic, there is a temperature change
+of the sample during the reduction–oxidation process. Thus, the re-
+duction and oxidation kinetic models for the Cu-Mn composite oxygen
+carrier were determined based on the temperature programmed ex-
+perimental data and the isoconversional (model-free) method was used.
+In this method, the activation energy (E) is obtained without an as-
+sumption on the exact mechanism and the activation energy does not
+Fig. 9. Changes in reduction and oxidation conversions under diﬀerent oxygen
+concentrations.
+Table 3
+Starting temperatures for the oxygen uncoupling at diﬀerent EOCs.
+EOC (%)
+0.001
+7
+14
+21
+33.3
+50
+T (°C)
+625.5
+786.5
+835
+878
+897
+921
+Fig. 10. Values of ΔG and EOC of Cu-Mn and Cu oxygen carriers at diﬀerent
+temperatures.
+K. Wang, et al.
+Chemical Engineering Journal 393 (2020) 124792
+7
+
+
+===== Page 8 =====
+
+change with the heating rate. Similar as the other kinetic methods, this
+method is based on the basic gas–solid kinetic equation [36,41–43]:
+=
+dX
+dt
+K T H P f X
+( )
+( ) ( )
+(13)
+For temperature programmed conditions (using β to denote the
+constant heating rate), the temperature-controlled rate term K(T) can
+be expressed using Arrhenius equation with A as the pre-exponential
+factor:
+=
+−
+K T
+A β
+E RT
+( )
+( / )exp(
+/
+)
+(14)
+The pressure-controlled rate term H(P) can be expressed as:
+=
+−
+H P
+P
+P
+P
+Forthereductionstep:
+( )
+e
+e
+0
+(15)
+=
+−
+H P
+P
+P
+P
+Fortheoxidationstep:
+( )
+e
+0
+0
+(16)
+where P0 and Pe represent the oxygen pressure in the reactor and the
+equilibrium oxygen pressure of the redox reaction respectively, Pa.
+As mentioned before, the oxygen released by oxygen carrier does
+not aﬀect the local oxygen pressure in the reactor because of the rela-
+tively high feed ﬂow rate applied, so that during the reduction step, the
+oxygen carrier released its oxygen into a N2 atmosphere, whereas in the
+oxidation step, the oxygen carrier absorbed the oxygen in an air at-
+mosphere. Thus, both for the reduction and oxidation steps, H(P) ≈1.
+The integration of Eq. (14) over temperature yields:
+∫
+∫
+∫
+=
+−
+≈
+−
+=
+−
+=
+∞
+−
+G X
+A β
+E RT dT
+A β
+E RT dT
+AE
+βR
+e
+u
+du
+AE
+βR P u
+( )
+( / )exp(
+/
+)
+( / )exp(
+/
+)
+· ( )
+T
+T
+T
+u
+u
+0
+2
+T
+0
+(17)
+∫
+=
+−
+∞
+P u
+μ
+μ
+dμ
+( )
+exp(
+)
+μ
+2
+T
+(18)
+=
+u
+E
+RT
+(19)
+where the method by Starink provides an eﬃcient way to obtain an
+accurate approximation to the solution of the integral in Eq. (18)
+[44–46]:
+≅
+−
+−
+P μ
+μ
+μ
+( )
+exp( 1.0008
+0.312)
+1.92
+(20)
+So that Eq. (17) can be rewritten as:
+= −
++
+β
+T
+E
+RT
+C
+ln
+1.0008
+1.92
+(21)
+From Eq. (21), it can be concluded that the functional relationship
+between ln(β/T1.92) and 1/T is linear. Through linear ﬁtting of the
+experimental data of ln(β/T1.92) vs. 1/T, the activation energies were
+obtained from the slopes of the ﬁtting lines at diﬀerent conversions.
+Fig. 12 shows the ﬁtted curves for conversions ranging from 0.2 to 0.8
+Fig. 11. Changes of reduction and oxidation conversions under diﬀerent
+heating rates.
+Fig. 12. Fitting lines at conversion of 0.2 to 0.8 for the reduction and oxidation
+reactions.
+K. Wang, et al.
+Chemical Engineering Journal 393 (2020) 124792
+8
+
+
+===== Page 9 =====
+
+Table 4
+Common kinetic mechanism functions of solid–gas reaction.
+Nmuber
+Code
+Mechanism
+Diﬀerential f(X)
+Integral G(X)
+Dn
+Diﬀusion
+–
+–
+1
+D1
+1-D diﬀusion
+(1/2)X−1
+X2
+2
+D2
+2-Ddiﬀusion
+[−ln(1−X)]−1
+X+(1-X)ln(1-X)
+3
+D3
+3-D diﬀusion(cylinder)
+(3/2)[(1−X)−1/3 −1]−1
+1-(2/3)X-(1-X)2/3
+4
+D4
+3-D diﬀusion(sphere)
+(3/2) (1 −X)2/3[1 −(1 −X)1/3]−1
+[1 −(1 −X)1/3]2
+5
+D5
+3-D (Anti-Jander)
+(3/2)(1 + X)2/3[(1 + X)1/3 −1]−1
+[(1 + X)1/3 −1]2
+6
+D6
+3-D (ZLT)
+(3/2)(1 −X)4/3[(1 −X)−1/3 −1]−1
+[(1 −X)−1/3 −1]2
+7
+D7
+3-D (Jander)
+6(1 −X)2/3[1 −(1 −X)1/3]1/2
+[1 −(1 −X)1/3]1/2
+8
+D8
+2-D (Jander)
+(1 −X)1/2[1 −(1 −X)1/2]−1
+[1 −(1 −X)1/2]2
+Nn
+Nucleation and nuclei growth
+n(1 −X) [−ln(1 −X)](n−1)/n
+[−ln(1 −X)]1/n
+9
+N1
+n = 1
+1 −X
+−ln(1 −X)
+10
+N3/2
+n = 3/2
+(3/2) (1 −X)[−ln(1 −X)]1/3
+[−ln(1 −X)]2/3
+11
+N2
+n = 2
+2(1 −X)[−ln(1 −X)]1/2
+[−ln(1 −X)]1/2
+12
+N3
+n = 3
+3(1 −X)[−ln(1 −X)]2/3
+[−ln(1 −X)]1/3
+13
+N4
+n = 4
+4(1 −X)[−ln(1 −X)]3/4
+[−ln(1 −X)]1/4
+Sn
+Shrinking core
+n(1 −X)(n−1)/n
+1 −(1 −X)1/n
+14
+S1/2
+n = 1/2
+(1/2)(1 −X)−1
+1 −(1 −X)2
+15
+S1/3
+n = 1/3
+(1/3)(1 −X)−2
+1 −(1 −X)3
+16
+S1/4
+n = 1/4
+(1/4)(1 −X)−3
+1 −(1 −X)4
+17
+S2
+n = 2
+2(1 −X)1/2
+1 −(1 −X)1/2
+18
+S3
+n = 3
+3(1 −X)2/3
+1 −(1 −X)1/3
+Cn
+Chemical reaction
+(1 −X)n
+[1 −(1 −X)1−n]/(1 −n)
+19
+C3/2
+n = 3/2
+2(1 −X)3/2
+(1 −X)−1/2
+20
+C2
+n = 2
+(1 −X)2
+(1 −X)−1 −1
+21
+C3
+n = 3
+(1 −X)3
+(1/2)[(1 −X)−2 −1]
+Fig. 13. Standard and experimental curves of reduction and oxidation.
+Fig. 14. Fitting curves of pre-exponential factor (A) of reduction and oxidation.
+K. Wang, et al.
+Chemical Engineering Journal 393 (2020) 124792
+9
+
+
+===== Page 10 =====
+
+for the reduction and oxidation reactions. The results show the acti-
+vation energies diﬀer very little for conversions in the range of 0.2–0.5,
+and also for conversions in the range of 0.5–0.8. The activation energies
+are lower at lower conversions compared to those at higher conver-
+sions, because at higher conversions the temperatures increase to a
+higher level.
+Based on the results for the activation energies, it can be concluded
+that both the reduction and oxidation processes cannot be described
+accurately with a single mechanism function. The master curve method
+was applied to determine the most probable mechanism function of the
+redox reaction. Using the common gas–solid mechanism functions
+listed in Table 4, a series of standard curves of G(X)/G(X0.5) are ob-
+tained [23,36,47–51]. Based on the derived values of the activation
+energies, experimental curves of P(u)/P(u0.5) for the four diﬀerent
+heating rates are obtained. The standard and experimental curves are
+shown in Fig. 13. For the most probable mechanism function, Eq. (22)
+can be set up:
+=
+G X
+G X
+P u
+P u
+( )
+(
+)
+( )
+(
+0.5
+0.5)
+(22)
+For the reduction step, when the conversion of the oxygen carrier is
+lower than 0.5, the four experimental curves and the standard curve of
+S3 have a good correspondence, and the shrinking core model with
+reaction order of 3 can describe this process adequately. When the
+conversion of the oxygen carrier reaches values above 0.5, the four
+experimental curves and the standard curve of D1 correspond well, and
+the one-dimensional diﬀusion model can describe this process accu-
+rately. At the beginning of reduction, the oxygen is ﬁrstly released from
+the surface layer and then is released from the interior. The oxygen
+uncoupling of the oxygen carrier is exothermic and the heat was ﬁrstly
+used for the reaction and then to heat the particles, which is a shrinking
+core process. When the conversion is higher than 0.5, the oxygen re-
+leased from the inside must diﬀuse to the surface of the particle ﬁrstly,
+where the diﬀusion rate becomes rate limiting.
+For the oxidation, when the conversion of oxygen carrier is lower
+than 0.5, the four experimental curves and the standard curve of S2
+show good correspondence, and the shrinking core model with reaction
+order of 2 can describe this process accurately. When the conversion of
+oxygen carrier becomes above 0.5, the four experimental curves and the
+standard curve of S3 agree well, and the shrinking core model with
+reaction order of 3 describes this process quite adequately. For the
+oxidation step, the active phase in the oxygen carrier particles needs to
+be into contact with air to oxidize, which entails that the oxygen from
+the air is ﬁrstly absorbed by the surface layer and then followed by a
+bulk absorption process to transfer the oxygen from the surface to the
+core of the particles.
+Substitution of the calculated activation energies and the de-
+termined most probable mechanism function into Eq. (17), followed by
+linear ﬁtting of G(X) and EP(μ)/βR, the pre-exponential factors under
+the four diﬀerent heating rates can be calculated from the slopes of the
+ﬁtted curves. Fig. 14 shows the ﬁtting curves of pre-exponential factor
+(A) of the reduction and oxidation reactions of the oxygen carriers. It
+can be seen that the ﬁtting curves have a good linear correlation under
+diﬀerent heating rates. Moreover, both for the reduction and oxidation
+reactions, the ﬁtting curves, and thus the pre-exponential factors, for
+the four diﬀerent heating rates are very similar. Through the above
+analysis, the three kinetic factors of E, A and f(X) are all obtained and
+shown in Table 5. Summarizing, the kinetic models for the redox re-
+action are thus established:
+For the reduction step:
+⎜
+⎟
+<
+=
+⎛
+⎝
+−
+×
+⎞
+⎠
+−
+X
+dX
+dt
+T
+X
+0.5:
+1.26·10 exp
+2.48
+10
+(1
+)
+9
+4
+2/3
+(23)
+⎜
+⎟
+⩾
+=
+⎛
+⎝
+−
+×
+⎞
+⎠
+−
+X
+dX
+dt
+T
+X
+0.5:
+1.74·10 exp
+2.73
+10
+8
+4
+1
+(24)
+For the oxidation step:
+<
+=
+⎡
+⎣⎢
+−
+×
+⎤
+⎦⎥
+−
+X
+dX
+dt
+T
+X
+0.5:
+3.58·10 exp
+7.37
+10
+(1
+)
+2
+3
+1/2
+(25)
+⎜
+⎟
+⩾
+=
+⎛
+⎝
+−
+×
+⎞
+⎠
+−
+X
+dX
+dt
+T
+X
+0.5:
+1.36·10 exp
+8.77
+10
+(1
+)
+3
+3
+2/3
+(26)
+4. Conclusions
+In this paper, a Cu-Mn/Zr composite oxygen carrier with a relatively
+low oxygen uncoupling temperature was prepared. The active phases in
+the oxidized and reduced state are CuxMn3−xO4 and CuxMn2−xO2, re-
+spectively. The prepared oxygen carrier shows a loose structure and the
+Cu, Mn and O elements are distributed uniformly across the surface.
+The surface area is relatively small, and the crushing strength is high.
+The oxygen transport capacity is determined as 0.0463 g O2/g oxygen
+carrier.
+Compared to a Cu-based oxygen carrier, the oxygen uncoupling
+temperature is decreased and the values of equilibrium oxygen con-
+centration at the same reaction temperature is increased greatly. The
+basic thermodynamic properties, viz. ΔG and Kp of the redox reaction,
+were
+obtained:
+= −
++
+G
+T
+Δ
+0.119
+150.41
+and
+=
+Kp
+−
+T
+exp(14.31
+18090.8/ ).
+Both the reduction and oxidation reactions are temperature driven
+at the investigated temperatures. Based on the experimental data under
+the four heating rates, the reduction and oxidation kinetic models were
+established using the isoconversional method. The shrinking core
+model and diﬀusion model can adequately describe the redox reaction
+rates at diﬀerent reduction and oxidation conversions, and the activa-
+tion energies and pre-exponential factors were determined.
+Acknowledgement
+This research was ﬁnancially supported by the National Natural
+Science Foundation of China (51604078, 51576035); Fundamental
+Research
+Funds
+for
+the
+Central
+Universities
+(N182504011,
+N172502006);
+China
+Scholarship
+Council
+(201906085017,
+201806080086).
+References
+[1] J. Adánez, A. Abad, F. Garcia-Labiano, P. Gayan, L.F. de Diego, Progress in che-
+mical-looping combustion and reforming technologies, Prog. Energy Combust Sci
+38 (2) (2012) 215–282.
+[2] A.H. Sahir, H.Y. Sohn, H. Leion, J.S. Lighty, Rate analysis of chemical-looping with
+oxygen uncoupling (clou) for solid fuels, Energy Fuel 26 (2012) 4395–4404.
+Table 5
+Values of E, A and f(X).
+Step
+Reduction
+Oxidation
+X < 0.5
+X ≥0.5
+X < 0.5
+X ≥0.5
+E (kJ/mol)
+206.5 ± 7.8
+227.2 ± 8.2
+61.3 ± 2.7
+72.9 ± 4.3
+A (s−1)
+(4.21 ± 0.28)·108
+(3.47 ± 0.13)·108
+(1.79 ± 0.12)·102
+(4.52 ± 0.33)·102
+f(X)
+3(1 −X)2/3
+(1/2)X−1
+2(1 −X)1/2
+3(1 −X)2/3
+K. Wang, et al.
+Chemical Engineering Journal 393 (2020) 124792
+10
+
+
+===== Page 11 =====
+
+[3] K. Mayer, S. Piesenberger, S. Penthor, T. Pröll, H. Hofbauer, Chemical looping
+combustion using two diﬀerent perovskite based oxygen carriers: a pilot study,
+Energy Technol. 6 (12) (2018) 2333–2343.
+[4] M. Luo, Y. Yi, S.Z. Wang, Z.L. Wang, M. Du, J.F. Pan, Q. Wang, Review of hydrogen
+production using chemical-looping technology, Renew. Sustain. Energy Rev. 81 (2)
+(2018) 3186–3214.
+[5] H.R. Ding, Y.Q. Xu, C. Luo, Q.Y. Wang, C. Shen, J.X. Xu, L.Q. Zhang, A novel
+composite perovskite-based material for chemical-looping steam methane re-
+forming to hydrogen and syngas, Energy Convers. Manage. 171 (1) (2018) 12–19.
+[6] T.L. Hsieh, Y.T. Zhang, D.K. Xu, C.H. Wang, M. Pickarts, C. Chung, L.S. Fan,
+A. Tong, Chemical looping gasiﬁcation for producing high purity, h2-rich syngas in
+a cocurrent moving bed reducer with coal and methane cofeeds, Ind. Eng. Chem.
+Res. 57 (7) (2018) 2461–2475.
+[7] J. Adánez, L.F. de Diego, F. García-Labiano, P. Gayán, A. Abad, J.M. Palacios,
+Selection of oxygen carriers for chemical-looping combustion, Energy Fuel 18 (2)
+(2004) 371–377.
+[8] K. Wang, Q.B. Yu, Qin Qin, The thermodynamic method for selecting oxygen car-
+riers used for chemical looping air separation, J. Therm. Anal. Calorim 112 (2)
+(2013) 747–753.
+[9] P. Cho, T. Mattisson, A. Lyngfelt, Comparison of iron-, nickel-, copper-and man-
+ganese-based oxygen carriers for chemical-looping combustion, Fuel 83 (9) (2004)
+1215–1225.
+[10] M.M. Hossain, H.I.D. Lasa, Reduction and oxidation kinetics of Co-Ni/Al2O3,
+oxygen carrier involved in a chemical-looping combustion cycles, Chem. Eng. Sci.
+65 (1) (2010) 98–106.
+[11] F. He, Y.G. Wei, H.B. Li, H. Wang, Synthesis gas generation by chemical-looping
+reforming using ce-based oxygen carriers modiﬁed with fe, cu, and mn oxides,
+Energy Fuel 23 (4) (2009) 2095–2102.
+[12] S. Mukherjee, P. Kumar, A.D. Yang, P. Fennell, A systematic investigation of the
+performance of copper-, cobalt-, iron-, manganese- and nickel-based oxygen carriers
+for chemical looping combustion technology through simulation models, Chem.
+Eng. Sci. 130 (7) (2015) 79–91.
+[13] P. Moldenhauer, M. Rydén, T. Mattisson, A. Lyngfelt, Chemical-looping combustion
+and chemical-looping with oxygen uncoupling of kerosene with Mn- and Cu-based
+oxygen carriers in a circulating ﬂuidized-bed 300W laboratory reactor, Fuel Proc.
+Technol. 104 (2012) 378–389.
+[14] Q. Imtiaz, M. Broda, C.R. Müller, Structure–property relationship of co-precipitated
+Cu-rich, Al2O3- or MgAl2O4-stabilized oxygen carriers for chemical looping with
+oxygen uncoupling (CLOU), Appl. Energy 119 (2014) 557–565.
+[15] K. Wang, Q.B. Yu, Long-lasting investigation of the Cu-based oxygen carrier parti-
+cles in chemical looping air separation, Powder Technol. 343 (2019) 40–48.
+[16] B. Moghtaderi, Application of chemical looping concept for air separation at high
+temperatures, Energy Fuel 24 (2010) 190–198.
+[17] K. Shah, B. Moghtaderi, T. Wall, Eﬀect of ﬂue gas impurities on the performance of
+a chemical looping based air separation process for oxy-fuel combustion, Fuel 103
+(2013) 932–942.
+[18] K. Wang, Q.B. Yu, Z.L. Zuo, L.M. Hou, Q. Qin, Redox performance of Cu-based
+oxygen carrier used in chemical looping air separation combined oxy-fuel com-
+bustion technology, Appl. Therm. Eng. 98 (2016) 440–448.
+[19] L.F. Diego, F. García-Labiano, J. Adánez, Development of Cu-based oxygen carriers
+for chemical-looping combustion, Fuel 83 (13) (2004) 1749–1757.
+[20] X.M. Zheng, Q.Q. Su, W.L. Mi, study of a Cu-based oxygen carrier based on a
+chemical looping combustion process, Energy Fuel 29 (6) (2015) 3933–3943.
+[21] P. Wang, B. Howard, N. Means, D. Shekhawat, D. Berry, Coal chemical-looping with
+oxygen uncoupling (CLOU) using a Cu-based oxygen carrier derived from natural
+minerals, Energies 12 (2019) 1–13.
+[22] A. Cabello, P. Gayan, F. Garcia-Labiano, L.F. de Diego, A. Abad, J. Adánez, On the
+attrition evaluation of oxygen carriers in Chemical Looping Combustion, Fuel
+Process Technol. 148 (2016) 188–197.
+[23] K. Wang, Q.B. Yu, Q. Qin, Z.L. Zuo, T.W. Wu, Evaluation of Cu-based oxygen carrier
+for chemical looping air separation in a ﬁxed-bed reactor, Chem. Eng. J. 287 (2016)
+292–301.
+[24] I. Adánez-Rubio, M. Arjmand, H. Leion, P. Gayán, A. Abad, T. Mattisson,
+A. Lyngfelt, Investigation of combined supports for cu-based oxygen carriers for
+chemical-looping with oxygen uncoupling (CLOU), Energy Fuel 27 (2013)
+3918–3927.
+[25] A. Cabello, P. Gayán, A. Abad, L.F. de Diego, F. García-Labiano, M.T. Izquierdo,
+A. Scullard, G. Williams, J. Adánez, Long-lasting Cu-based oxygen carrier material
+for industrial scale in chemical looping combustion, Int. J. Greenh. Gas Con 52
+(2016) 120–129.
+[26] S.M. Liu, D.H. Lee, M. Liu, L.L. Li, R. Yan, Selection and application of binders for
+CaSO4 oxygen carrier in chemical-looping combustion, Energy Fuel 24 (12) (2010)
+6675–6681.
+[27] L.M. Hou, Q.B. Yu, K. Wang, F. Yang, T.Y. Wu, Oxidation and reduction kinetic of
+YBaCo4O7+δ and substituted oxygen carriers, J. Therm. Anal. Calorim. 134 (3)
+(2018) 2213–2221.
+[28] J.H. Hwang, J.I. Baek, H.J. Ryu, J.M. Sohn, K.T. Lee, Development of MgMnO3-
+delta as an oxygen carrier material for chemical looping combustion, Fuel 231
+(2018) 290–296.
+[29] A. Shulman, E. Cleverstam, T. Mattisson, A. Lyngfelt, Manganese/Iron, Manganese/
+Nickel, and Manganese/Silicon oxides used in chemical-looping with oxygen un-
+coupling (CLOU) for combustion of methane, Energy Fuel 23 (2009) 5269–5275.
+[30] G. Azimi, H. Leion, T. Mattisson, M. Rydén, F. Snijkers, A. Lyngfelt, Mn−Fe Oxides
+with support of MgAl2O4, CeO2, ZrO2 and Y2O3−ZrO2 for chemical-looping com-
+bustion and chemical-looping with oxygen uncoupling, Ind. Eng. Chem. Res. 53
+(2014) 10358–10365.
+[31] N.M. Pour, H. Leion, M. Rydén, T. Mattisson, Combined Cu/Mn Oxides as an oxygen
+carrier in chemical looping with oxygen uncoupling (CLOU), Energy Fuel 27 (2013)
+6031–6039.
+[32] F.C.M. Driessens, G.D. Rieck, Phase equilibria in the system Cu-Mn-O, Z. Anorg.
+Allg. Chem. 35 (1967) 48–55.
+[33] Z.Q. Wang, Y.Q. Liu, J.L. Wu, T. He, J.Q. Li, J.H. Wu, Preparation of large granular
+Cu-Based oxygen carriers by mechanical mixing for packed bed chemical-looping
+combustion, Energy Fuel 28 (2014) 7662–7671.
+[34] Q. Zhao, C.J. Liu, L.H. Cao, M.F. Jiang, B.K. Li, H. Saxén, R. Zevenhoven, Shear-
+force based stainless steel slag modiﬁcation for chromium immobilization, ISIJ Int.
+59 (2019) 583–589.
+[35] L.M. Neal, S. Yusuf, J.A. Sofranko, F.X. Li, Oxidative dehydrogenation of ethane: a
+chemical looping approach, Energy Technol 4 (2016) 1200–1208.
+[36] K. Wang, Q.B. Yu, Q. Qin, Reduction kinetics of Cu-based oxygen carriers for che-
+mical looping air separation, Energy Fuel 27 (9) (2013) 5466–5474.
+[37] K. Shah, B. Moghtaderi, T. Wall, Selection of suitable oxygen carriers for chemical
+looping air separation: a thermodynamic approach, Energy Fuel 26 (4) (2012)
+2038–2045.
+[38] D. Hosseini, Q. Imtiaz, P.M. Abdala, CuO promoted Mn2O3-based materials for solid
+fuel combustion with inherent CO2 capture, J. Mater. Chem. A 3 (19) (2015)
+10545–10550.
+[39] H. Wang, Z.S. Li, N.S. Cai, A multiscale model of oxidation kinetics for Cu-based
+oxygen carrier in chemical looping with oxygen uncoupling, Materials 12 (7)
+(2019) 1–18.
+[40] J.A. Medrano, I. Potdara, J. Melendez, V. Spallina, D.A. Pacheco-Tanaka, M. van
+Sint Annaland, F. Gallucci, The membrane-assisted chemical looping reforming
+concept for eﬃcient H2 production with inherent CO2 capture: Experimental de-
+monstration and model validation, Appl. Energy 215 (2018) 75–86.
+[41] C. Dueso, M. Ortiz, A. Abad, F. Garcia-Labiano, L.F. de Diego, P. Gayan, J. Adánez,
+Reduction and oxidation kinetics of nickel-based oxygen-carriers for chemical-
+looping combustion and chemical-looping reforming, Chem .Eng. J. 188 (2012)
+142–154.
+[42] S.Y. Chuang, J.S. Dennis, A.N. Hayhurst, S.A. Scott, Kinetics of the chemical looping
+oxidation of CO by a co-precipitated mixture of CuO and Al2O3, Proc. Combust. Inst.
+32 (2009) 2633–2640.
+[43] A. Abad, J. Adánez, F. García-Labiano, L.F. de Diego, P. Gayán, Modeling of the
+chemical-looping combustion of methane using a Cu-based oxygen-carrier,
+Combust Flame 157 (2010) 602–615.
+[44] J. Sestak, G. Berggren, Study of the kinetics of the mechanism of solid-state reac-
+tions at increased temperature, Thermochim. Acta 3 (1971) 1–12.
+[45] S. Vyazovkina, A.K. Burnhamb, J.M. Criadoc, A.L. Pérez-Maquedac, C. Popescud,
+N. Sbirrazzuolie, ICTAC kinetics committee recommendations for performing ki-
+netic computations on thermal analysis data, Thermochim. Acta 520 (2011) 1–19.
+[46] K. Coenen, F. Gallucci, E. Hensen, M. van Sint Annaland, Kinetic model for ad-
+sorption and desorption of H2O and CO2 on hydrotalcite-based adsorbents, Chem.
+Eng. J. 355 (2019) 520–531.
+[47] W.J. Duan, Q.B. Yu, H.Q. Xie, Q. Qin, Pyrolysis of coal by solid heat carrier-ex-
+perimental study and kinetic modeling, Energy 135 (15) (2017) 317–326.
+[48] Z.Y. Niu, G.J. Liu, H. Yin, D. Wu, C.C. Zhou, Investigation of mechanism and ki-
+netics of non-isothermal low temperature pyrolysis of perhydrous bituminous coal
+by in-situ FTIR, Fuel 172 (15) (2016) 1–10.
+[49] N.A. Rashidi, S. Yusup, B.H. Hameed, Kinetic studies on carbon dioxide capture
+using lignocellulosic based activated carbon, Energy 61 (2013) 440–446.
+[50] T. Wang, J. Liu, H. Huang, M. Fang, Z. Luo, Preparation and kinetics of a hetero-
+geneous sorbent for CO2 capture from the atmosphere, Chem. Eng. J. 284 (2016)
+679–686.
+[51] I. Adánez-Rubio, P. Gayán, A. Abad, F. García-Labiano, L.F. de Diego, J. Adánez,
+Kinetic analysis of a Cu-based oxygen carrier: Relevance of temperature and oxygen
+partial pressure on reduction and oxidation reactions rates in Chemical Looping
+with Oxygen Uncoupling (CLOU), Chem. Eng. J. 256 (2014) 69–84.
+K. Wang, et al.
+Chemical Engineering Journal 393 (2020) 124792
+11

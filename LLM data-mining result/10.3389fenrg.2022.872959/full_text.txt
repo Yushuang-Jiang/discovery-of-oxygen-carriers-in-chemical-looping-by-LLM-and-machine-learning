@@ -1,0 +1,2926 @@
+
+
+===== Page 1 =====
+
+Two-Step Thermochemical CO2
+Splitting Using Partially-Substituted
+Perovskite Oxides of
+La0.7Sr0.3Mn0.9X0.1O3 for Solar Fuel
+Production
+Hiroki Sawaguri 1, Nobuyuki Gokon 1,2*, Kosuke Hayashi 1, Yoshikazu Iwamura 1 and
+Daichi Yasuhara 2
+1Graduate School of Science and Technology, Niigata University, Niigata, Japan, 2Department of Chemistry and Chemical
+Engineering, Faculty of Engineering, Niigata University, Niigata, Japan
+We investigated, herein, the redox activity of partial substitution of the B-site in a series of
+lanthanum/strontium-manganese-based (LSM) perovskite oxide, La0.7Sr0.3Mn0.9X0.1O3
+for solar two-step thermochemical fuel production using concentrated solar radiation as an
+energy source. We systematically investigated the effects of partial substitution in
+LaSrMnO3 in terms of their kinetics behavior, oxygen/CO productivity, thermal
+reduction/oxidation
+temperatures.
+Furthermore,
+repeatability
+was
+evaluated
+and
+compared among the samples prepared using the same procedure and studied using
+the same test method. We observed and evaluated the long-term thermal stability of the
+redox activity and valence variation of the constituting ionic species of the perovskite in the
+two-step thermochemical CO2 splitting. From the perspectives of superior activity and
+long-term repeatability, Ni-, Co-, and Mg-substituted LSM perovskites are promising for
+thermochemical two-step CO2/H2O splitting to produce synthetic gas.
+Keywords:
+thermochemical
+cycle,
+CO2
+splitting,
+redox
+activity,
+perovskite
+oxides,
+X-ray
+photoelectron
+spectroscopy
+INTRODUCTION
+Research in renewable energy sources have been promoted by environmental issues caused by the
+increase in energy demand and greenhouse gas emissions (Ginley and Cahen, 2011; Lubomirsky and
+Cahen, 2012; Hussain et al., 2017). The transition from fossil fuels to green energy production is an
+essential solution to reduce emissions and secure a sustainable energy supply. Solar energy, a free,
+non-exhaustive, and easily available energy source is the largest exploitable renewable resource that is
+technically capable of fulﬁlling all the energy demands of the world.
+The combination of concentrated solar radiation as an energy source and thermochemical water/
+carbon dioxide (CO2) splitting processes for producing sustainable H2/carbon monoxide (CO)
+appear promising for converting solar energy into transportable and storable chemical fuels on
+demand owing to their high availability. A two-step thermochemical splitting process based on metal
+oxide accomplishes the splitting of water or carbon dioxide by dividing the difﬁcult thermolysis
+reaction (H2O + heat→H2 + 1/2O2) into two reactions at high temperatures and can be accomplished
+under less extreme conditions. A two-step thermochemical splitting process using a metal oxide as a
+redox pair involves the thermal reduction of a metal oxide (MxOy) that liberates oxygen from the
+Edited by:
+Cheng Xu,
+North China Electric Power University,
+China
+Reviewed by:
+Ivan Ermanoski,
+Arizona State University, United States
+Alicia Bayon,
+Arizona State University, United States
+Ellen B. Stechel,
+Arizona State University, United States
+*Correspondence:
+Nobuyuki Gokon
+ngokon@eng.niigata-u.ac.jp
+Specialty section:
+This article was submitted to
+Solar Energy,
+a section of the journal
+Frontiers in Energy Research
+Received: 10 February 2022
+Accepted: 28 April 2022
+Published: 27 May 2022
+Citation:
+Sawaguri H, Gokon N, Hayashi K,
+Iwamura Y and Yasuhara D (2022)
+Two-Step Thermochemical CO2
+Splitting Using Partially-Substituted
+Perovskite Oxides of
+La0.7Sr0.3Mn0.9X0.1O3 for Solar
+Fuel Production.
+Front. Energy Res. 10:872959.
+doi: 10.3389/fenrg.2022.872959
+Frontiers in Energy Research | www.frontiersin.org
+May 2022 | Volume 10 | Article 872959
+1
+ORIGINAL RESEARCH
+published: 27 May 2022
+doi: 10.3389/fenrg.2022.872959
+
+
+===== Page 2 =====
+
+metal oxide at a given high temperature (T1) in Equation 1,
+followed by the oxidation of the reduced metal oxide with steam
+or carbon dioxide, which yields H2 or CO and restores the metal
+oxide to its original state in Equation 2 at a relatively low
+temperature (T2).
+Thermal reduction (TR) step:
+MXOY + heat →MXOY−δ + δ2O2endothermic process, T1
+(1)
+Water or CO2 splitting (WS or CS) step:
+MXOY−δ + δCO2(H2O) →MXOY + δCO(H2)
++ heatexothermic process, T2
+(2)
+where MxOy is the corresponding metal oxide, and MxOy–δ is
+the reduced oxide. In an ideal system, these two reactions can
+be repeated cyclically and indeﬁnitely to produce O2 and H2
+(or CO) continuously under a supply of the oxidant as a
+chemical source and heat as an energy source. In addition,
+the two-step process enables the production of O2 and H2 (or
+CO) in an individual step, eliminating the risk of product
+recombination at high temperatures. The direct use of
+concentrated solar radiation as a high-temperature heat
+source
+to
+drive
+the
+two-step
+thermochemical
+process
+excludes the use of electricity required in the electrolysis
+process. Furthermore, the theoretical solar-to-fuel energy
+conversion efﬁciency is high (Kim et al., 2012) because the
+entire spectrum of solar radiation is directly converted into
+chemical fuels without any expensive catalysts such as the
+photocatalytic processes (Lange et al., 2014). Thus, using these
+to decarbonize worldwide energy production is an idea worth
+considering.
+Currently, the main research priorities are the development
+and evaluation of high performing redox pair materials in the
+thermochemical cycle to enhance the productivity of H2 (or CO),
+design, construction, and evaluation of solar reactor prototypes
+based on different heating concepts and operation modes (Bulﬁn
+et al., 2021). In this context, this study focuses on investigating a
+highly active redox material to be used in the two-step solar
+thermochemical process. As such, redox pair materials, metal
+oxide/metal systems (Schunk et al., 2008; Agraﬁotis et al., 2015),
+such as ZnO/Zn and CdO/Cd, and metal oxide/metal oxide
+systems, such as Fe3O4/FeO, Mn3O4/MnO, mixed metal oxide
+(Tamaura et al., 1995; Miller et al., 2014; Agraﬁotis et al., 2015;
+Sunarso et al., 2017; Randhir et al., 2018) have been extensively
+investigated. Recently, non-stoichiometric metal oxide systems
+such as ﬂuorite-based materials of CeO2/CeO2-δ and doped-CeO2
+(Meng et al., 2011; Jiang et al., 2014a; Gokon et al., 2015; Marxer
+et al., 2015; Bhosale and Takalkar, 2018; Lu et al., 2019), and
+perovskite-based structures of ABO3/ABO3-δ, in which the
+oxygen vacancies formed in their structure during the TR step
+absorb the oxygen from H2O or CO2 during the subsequent WS
+or CS step, resulting in the production of H2 or CO, respectively.
+The oxygen non-stoichiometry (δ) governs the productivity of
+fuel
+that
+can
+be
+produced
+by
+the
+following
+two-step
+thermochemical process using a perovskite oxide (Bayon et al.,
+2020):
+ABO3 + heat →ABO3−δ + δ2O2
+(3)
+ABO3−δ + δCO2(H2O) →ABO3 + δCO(H2) + heat
+(4)
+Here, both cationic sites (A- and B-sites) in a perovskite oxide can
+be substituted to control the oxygen non-stoichiometry, kinetics,
+and thermodynamic properties over a wider range. The
+perovskite oxide remains in the solid state during the two-step
+process.
+Their
+large
+degree
+of
+oxygen
+non-stoichiometry
+combined with their structural stability at high temperatures
+make
+them
+attractive
+redox
+materials
+for
+two-step
+thermochemical processes (Agraﬁotis et al., 2015; Lu et al., 2019).
+In previous studies of perovskite-based thermochemical
+cycles,
+the
+following
+perovskites
+have
+been
+extensively
+examined for their thermochemical cycles: (La, Sr, Ca)MnO3
+(Scheffe et al., 2013; Demont and Abanades, 2014; Demont et al.,
+2014; Dey et al., 2015a; Dey et al., 2015b; Demont and Abanades,
+2015; Nair and Abanades, 2018; Jouannaux et al., 2019; Riaz et al.,
+2019; Takalkar et al., 2021), their alumina solid solutions
+(McDaniel et al., 2013; Deml et al., 2014; Demont et al., 2014;
+Demont and Abanades, 2015; Gokon et al., 2019; Takalkar et al.,
+2021) La1-xAxMn1-yByO3 (A = Ca2+, Sr2+, Ba2+; B = Al3+ and
+Ga3+) (Liu et al., 2021), La1-xSrx (Mn, Co, Fe) O3 (Orﬁla et al.,
+2016), La0.5Sr0.5Mn1-xAxO3, (A = Al, Ga, Sc) (Dey et al., 2016),
+La0.6Sr0.4Cr1-xCoxO3 (Bork et al., 2015), La1-ySryCo1-xZrxO3
+(Wang et al., 2020), La1-xAxMn1-yByO3 (A = Ca2+, Sr2+, Ba2+;
+B = Mg and Al) (Demont and Abanades, 2015), A0.5Sr0.5MnO3 (A
+= La, Nd, Sm, Gd, Tb, Pr, Dy, and Y) (Takalkar et al., 2019), Pr1-
+xSrxMnO3 (Takalkar and Bhosale, 2019), LaMO3 (M = Co, Fe,
+Mn, Ni, Al, Cr, Sr) (Takalkar et al., 2020), La0.5A0.5Mn1-yByO3 (A
+= Ca2+ and Sr2+; B = Mg, Al, Cr and Ga) (Jouannaux et al., 2019),
+and La0.6Sr0.4Mn1-xFexO3 (Luciani et al., 2018). In an earlier
+study, McDaniel et al. (2013) studied the thermochemical two-
+step H2O and CO2 splitting process to examine the redox
+reactivity
+of
+perovskite
+oxides
+(La0.6Sr0.4Mn0.6Al0.4O3,
+La0.4Sr0.6Mn0.6Al0.4O3, and La0.6Sr0.4Mn0.4Al0.6O3) synthesized
+by the modiﬁed Pechini method. It has been reported, in
+literature,
+that
+perovskites
+demonstrated
+increased
+redox
+activity compared to ceria at the thermochemical cycle at TR
+temperatures
+of
+1,350°C–1,500°C
+and
+a
+subsequent
+WS
+temperature of 1,000°C. Demont et al. (2014) examined the
+redox performance of perovskites of LaxSr1-xMnO3(LSM) and
+BaxSr1-x(Co, Fe)O3 and parent structures [Ruddlesden-Popper
+(RP) phases] for thermochemical two-step water splitting.
+Perovskites provided larger thermal reduction extents at the
+modest
+temperatures
+than
+the
+reference
+materials
+of
+nonstoichiometric
+compounds
+such
+as
+spinel
+ferrites
+or
+ﬂuorite-structured ceria. However, the reduced sample suffered
+from hydrogen production in the steam atmosphere during the
+WS step. Scheffe et al. (2013) performed thermodynamic and
+experimental
+investigations
+of
+LSM
+perovskites
+for
+the
+thermochemical splitting of H2O and CO2. Literature has
+reported that strontium contents of x = 0.3 and 0.4 in
+La1–xSrxMnO3
+resulted
+in
+favorable
+reduction
+extents
+compared
+to
+ceria
+in
+the
+temperature
+range
+of
+Frontiers in Energy Research | www.frontiersin.org
+May 2022 | Volume 10 | Article 872959
+2
+Sawaguri et al.
+Perovskite Oxide in Thermochemical Cycle
+
+
+===== Page 3 =====
+
+TABLE 1 | List of redox performances and reaction conditions for two-step thermochemical cycles using perovskites in previous literatures.
+Remarkable
+Material
+Synthesis
+method
+Reactor
+Run
+No.
+Reduction
+temp.
+(°C)
+Re-
+oxidation
+temp.
+(°C)
+Reduction
+duration
+(min)
+Re-
+oxidation
+duration
+[min]
+Average
+O2
+productivity
+(μmol/g)
+Average
+CO (H2)
+productivity
+(μmol/g)
+CO/
+O2
+ratio
+(−)
+Reference
+Y0.5Sr0.5MnO3
+Solid-state
+TGA
+1
+1,400
+1,100
+45
+60
+481
+571
+1.19
+Dey et al. (2015a)
+La0.5Sr0.5MnO3
+Solid-state
+TGA
+1
+1,400
+1,100
+45
+60
+198
+370
+1.87
+Dey et al. (2015a)
+La0.5Sr0.5MnO3
+Solid-state
+TGA
+2
+1,400
+1,050
+45
+60
+195
+242
+1.24
+Nair and Abanades, (2018)
+La0.5Sr0.5MnO3
+Solution
+combustion
+TGA
+9
+1,400
+1,000
+60
+60
+128
+225
+1.76
+Takalkar et al. (2019)
+Y0.5Sr0.5MnO3
+Solution
+combustion
+TGA
+9
+1,400
+1,000
+60
+60
+87
+153
+1.77
+Takalkar et al. (2019)
+La0.5Sr0.5Mn0.83Mg0.17O3
+Solid-state
+TGA
+2
+1,400
+1,050
+45
+60
+170
+208
+1.22
+Demont and Abanades,
+(2015)
+La0.6Sr0.4Al0.6Mn0.4O3
+Pechini
+TGA
+2
+1,400
+1,050
+45
+60
+200
+230
+1.15
+Demont and Abanades,
+(2015)
+La0.6Sr0.4MnO3
+Pechini sol–gel
+TGA
+1
+1,350
+1,000
+20
+50
+349
+469
+1.34
+Takalkar et al. (2020)
+La0.5Sr0.5Mn0.95Sc0.05O3
+Pechini
+TGA
+3
+1,400
+1,100
+45
+45
+323
+506
+1.57
+Dey et al. (2016)
+La0.5Sr0.5Mn0.75Ga0.25O3
+Pechini
+TGA
+3
+1,400
+1,100
+45
+45
+264
+460
+1.74
+Dey et al. (2016)
+La0.5Sr0.5Mn0.9Mg0.1O3
+Pechini
+TGA
+2
+1,400
+1,050
+45
+60
+190
+215
+1.13
+Jouannaux et al. (2019)
+La0.5Sr0.5Mn0.6Al0.4O3
+Pechini
+TGA
+2
+1,400
+1,050
+45
+60
+129
+205
+1.59
+Jouannaux et al. (2019)
+La0.6Sr0.4Co0.8Cr0.2O3
+Pechini
+TGA
+3
+1,200
+800
+—
+60
+—
+169
+—
+Bork et al. (2015)
+La0.6Sr0.4Co0.8Cr0.2O3
+Pechini
+TGA
+3
+1,200
+800
+—
+60
+—
+(50)
+—
+Bork et al. (2015)
+La0.5Ca0.5Mn0.8Ga0.2O3
+Pechini
+TGA
+2
+1,400
+1,050
+45
+60
+231
+208
+0.90
+Liu et al. (2021)
+LaCoO3
+Pechini
+TGA
+3
+1,300
+800–1,300
+20
+60
+373
+123
+0.33
+Wang et al. (2020)
+LaCo0.9Zr0.1O3
+Pechini
+TGA
+3
+1,300
+800–1,300
+20
+60
+260
+164
+0.63
+Wang et al. (2020)
+LaCo0.7Zr0.3O3
+Pechini
+TGA
+3
+1,300
+800–1,300
+20
+60
+314
+224
+0.71
+Wang et al. (2020)
+Frontiers in Energy Research | www.frontiersin.org
+May 2022 | Volume 10 | Article 872959
+3
+Sawaguri et al.
+Perovskite Oxide in Thermochemical Cycle
+
+
+===== Page 4 =====
+
+1,250°C–1,650°C, but the LSM-based materials did not oxidize
+stoichiometrically during the WS and CS steps. This could be the
+reason that the thermodynamics of the LSM for oxidation are
+unfavorable at higher temperatures than other redox systems
+(Bayon et al., 2022), but reaction kinetics for oxidation is
+favorable at high temperature (Gokon et al., 2019). As stated
+above, at modest temperatures, the redox activity of LSM
+perovskites exhibited a larger thermal reduction extent than
+ceria; however, the oxidation extent of LSM perovskites has
+not been evaluated in earlier studies.
+In recent years, in order to explore efﬁcient combinations of
+cations constituting perovskite oxides, the redox activities of
+various perovskite oxides have been studied and evaluated by
+many researchers worldwide. Detail reaction conditions and
+reactivities
+of
+perovskites
+in
+the
+previous
+studies
+are
+summarized in Table 1 (Dey et al., 2015a; Nair and Abanades,
+2018; Demont and Abanades, 2015; Jouannaux et al., 2019; Liu
+et al., 2021; Dey et al., 2016; Bork et al., 2015; Wang et al., 2020;
+Takalkar et al., 2019; Takalkar et al., 2020). The impacts of A- or
+B-site substitution of Mn-based perovskite on CO and H2
+production in the thermochemical processes were studied and
+reported in this research ﬁeld. The redox activity for CO2 splitting
+was examined for partially substituted perovskites, in which Mn
+was the single reducible cation and the Mn4+/Mn3+ redox pair
+was activated in the oxygen exchange process. The structural
+evolution and thermochemical behavior are discussed. Different
+cation combinations of B-sites in La(B, B’) O3 (B and B’ = Mn, Co,
+Ni) and of the A-site in the (AA’) (BB’)O3 (A and A’ = La, Sr, Ca;
+B and B’ = Mn, Fe, Co) and partial substitution of the B-site in
+some LaMn-perovskites exhibited signiﬁcant CO productivity for
+thermochemical CO2 splitting (Nair and Abanades, 2018).
+However, the production ratio of O2/CO < 2 remained for all
+the samples tested in Table 1. Even in other perovskites with
+B-site partial substitution of low content, La0.6Sr0.4Cr0.8Co0.2O3
+(Bork et al., 2015), La0.6Ca0.4Mn0.8Ga0.2O3 (Liu et al., 2021),
+La0.5Sr0.5Mn0.95Sc0.05O3
+(Dey
+et
+al.,
+2016),
+La0.5Sr0.5Mn0.75Ga0.25O3 (Dey et al., 2016), LaCo0.9Zr0.1O3, and
+LaCo0.7Zr0.3O3 (Wang et al., 2020), they reported that the redox
+performance was improved in comparison to the non-substituted
+materials. Therefore, there is a possibility that the substitution of
+low content for B-sites in perovskite oxides is promising for
+enhancing the redox activity of the materials.
+At present, LaxSr1-xMn1-xAlxO3, LaySr1-yMnyAl1-yO3, and
+La0.7Sr0.3Mn1-zCrzO3
+series
+were
+systematically
+studied
+to
+improve the reactivity of LaMn-based perovskite in the TR
+and WS steps of a two-step thermochemical water-splitting
+cycle for hydrogen production (Gokon et al., 2019; Gokon
+et al., 2020). The effect of partial substitution of the A-site
+(La0.7A0.3Mn0.9Cr0.1O3, A = Ba, Sr, Ca) on thermochemical
+H2O/CO2
+splitting
+was
+studied
+and
+presented
+at
+the
+SolarPACES conference in 2021 (Sawaguri et al., 2021). The
+10%–20% Cr substitution at the B-site of LSM perovskites
+enhanced the kinetics of the oxidation step of the two-step
+thermochemical cycle and improved the productivity of H2 in
+comparison to the Al-substituted LSMs (Gokon et al., 2019). In
+addition, we reported that La0.7Sr0.3Mn0.9Cr0.1O3 (LSMC7391)
+has an equivalent oxidation activity for H2O and CO2 splitting
+processes in the thermochemical cycle (Sawaguri et al., 2020). The
+results indicate that partial substitution with a small content at
+the B-site is available to improve the reactivity of LSM perovskite
+for a two-step thermochemical cycle, and the CO2/H2O splitting
+process to produce syngas (a gas mixture of H2 and CO) can be
+operated
+using
+the
+redox
+material
+through
+a
+two-step
+thermochemical H2O/CO2 splitting cycle.
+According to the report of the literature as described above,
+the emerging LSM perovskite can be found by partial substitution
+by different ion species with low content incorporated into
+manganese-rich LSM perovskite. However, to the best of our
+knowledge, 1) the effects of partial substitution with a small
+content at the B-site in the LSM perovskite have not been
+evaluated, and compared at the same substitution level with
+systematic
+variation
+of
+ion
+species
+(for
+example,
+La0.7Sr0.3Mn0.9X0.1O3);
+2)
+the
+valence
+variations
+of
+the
+substituted ion species in the redox process have not been
+focused except for Mn at the B-site of LSM perovskites; 3)
+there are limited evaluations with regard to long-term redox
+activity and thermal stability of the partially substituted LSM
+(McDaniel et al., 2013; Takalkar et al., 2021). Herein, following
+this approach and under the same test conditions using a test
+equipment, the authors investigated and evaluated the oxygen
+and CO productivity and kinetics of the respective steps, the
+optimization of TR and CS step temperatures, and the
+repeatability of the two-step CO2 splitting thermochemical
+cycle based on partial substitution of the B-site with low
+content X in the LSM perovskite oxides La0.7Sr0.3Mn0.9X0.1O3
+(X = Mg, Al, Cr, Fe, Co, Ni, Cu, Ga) with various ionic species. In
+addition, the authors studied and evaluated the repeatability of
+oxygen and CO productivity and thermal stability in a long-term
+redox test. For one of the best performance samples, the valence
+variations of all ionic species constructing the partially substituted
+LSM perovskite were experimentally estimated, and the role of
+the partially substituted ion species was experimentally observed
+and elucidated for the samples that were synthesized, thermally
+reduced, and oxidized in the thermochemical cycle.
+EXPERIMENTAL SECTION
+Material Preparation
+La0.7Sr0.3Mn0.9X0.1O3 perovskite oxides were synthesized using
+the
+modiﬁed
+Pechini
+method
+(Pechini,
+1967).
+First,
+stoichiometric molar ratio of each perovskite material was
+dissolved in distilled water with metal nitrate. The reagents
+used in this study were La(NO3)3·6H2O (Wako, 99.9% purity),
+Sr(NO3)2 (Wako, ≥98.0% purity), Cr(NO3)3·9H2O (Strem
+Chemicals, 99.9% purity),
+Mn(NO3)3·6H2O(Wako, ≥98.0%
+purity),
+Mg(NO3)2·6H2O
+(Wako,
+≥98.0%
+purity),
+and
+Cu(NO3)2·3H2O
+(Wako,
+99.9%
+purity),
+Fe(NO3)3·9H2O
+(Kanto
+Chemical,
+≥99%
+purity),
+Co(NO3)2·6H2O
+(Kanto
+Chemical,
+≥98%
+purity),
+Ni(NO3)3·6H2O
+(Wako,
+99.9%
+purity), and Ga(NO3)3·8H2O (Kishida Chemical, ≥99% purity).
+Citric acid (Wako, ≥98.0% purity) and ethylene glycol (Wako,
+≥99.5% purity) were added and dissolved in an aqueous solution.
+The molar ratio of the total amount of metallic cations, citric acid,
+Frontiers in Energy Research | www.frontiersin.org
+May 2022 | Volume 10 | Article 872959
+4
+Sawaguri et al.
+Perovskite Oxide in Thermochemical Cycle
+
+
+===== Page 5 =====
+
+and ethylene glycol was 1:5:5. These solutions were stirred and
+heated at 80°C for 1-h in an oil bath to evaporate water and then
+heated at 170°C for gel formation. The obtained gel was dried at
+300°C for 5-h in an electric oven. The resulting precursor was
+pulverized using a mortar and pestle, and calcined at 1,200°C for
+8-h in a mufﬂe furnace. The following powder-like materials were
+synthesized: La0.7Sr0.3Mn0.9X0.1O3 (X = Mg, Al, Cr, Fe, Co, Ni,
+Cu, and Ga).
+Powder X-ray diffraction (XRD) was performed using a
+Bruker D2 PHASER with Cu Kα radiation (λ = 0.15418 nm,
+30 kV–10 mA) at room temperature for crystallographic phase
+identiﬁcation of the synthesized materials and materials obtained
+after thermochemical testing. Diffraction data were collected with
+an angular range of 2θ = 20°–80°, step interval of 0.02°, and
+recording time of 1 s. The crystalline phases were identiﬁed by
+comparison with standard reference databases [Inorganic Crystal
+Structure Database (ICSD) and Crystallography Open Database
+(COD)]. Rietveld reﬁnement was performed using the whole
+pattern ﬁtting (WPF) method of the FullProf package to evaluate
+the space group, crystal system, and lattice parameters of the
+synthesized materials.
+Scanning electron microscopy (SEM, JCM-6000, JEOL) with
+an acceleration voltage of 15 kV was used to observe the powder
+morphology and size before and after the redox activity test of the
+thermochemical cycle.
+X-ray
+photoelectron
+spectroscopy
+(XPS)
+analysis
+was
+performed using a Quantum 2000 (ULVAC-PHI. Inc.) with an
+aluminum anode (Al Kα, 25 W (15 kV, 1.67 mA), hv =
+1,486.6 eV) to evaluate the valence states of the elements. For
+energy calibration of the XPS spectrum, the authors used the
+adventitious carbon C1s peak at 284.8 a of binding energy. The
+Gaussian function for peak ﬁtting of the XPS spectrum, Shirley
+method (Shirley, 1972) for the baseline of the XPS spectrum, and
+the Savitzky–Golay method (Press and Teukolsky, 1990) for data
+smoothing of the XPS spectrum were used for analysis of the XPS
+spectrum.
+Redox Activity and Repeatability Tests of
+the Synthesized Perovskite Oxides
+The redox reactivity of La0.7Sr0.3Mn0.9X0.1O3 perovskite oxides
+was
+evaluated
+through
+oxygen/carbon
+monoxide
+(CO)
+productivity, kinetics, and TR/CS temperature impacts for
+two-step thermochemical CO2 splitting cycling. The redox
+activity performance was examined using a thermogravimetric
+reactor (NETZSCH STA2500 Regulus, weight resolution of
+0.03 μg, temperature resolution of 0.3 K) equipped with a type
+S thermocouple (temperature resolution of ±0.0025 × |t| °C) for
+endothermic thermal reduction (TR) and subsequent exothermic
+carbon dioxide splitting (CS) steps of the sample powder.
+In the thermogravimetric reactor used in our laboratory, O2
+gas evolved during the TR steps is quickly removed upward by gas
+ﬂow from below the balance. However, the upward stream of gas
+ﬂow is a disadvantage with regard to contacting CO2 with the
+sample during the CS step. In order to estimate the impacts on the
+rates and amounts of O2 release and CO production affected by
+gas diffusion limitations owing the sample mounting and gas ﬂow
+orientation in the reactor, before starting the present study, the
+authors examined redox reactivity using some samples with
+different amounts (heights) and different sizes of platinum
+pan in order to determine the experimental procedure. As the
+results, the authors found that the present test conditions can
+realize reversible redox reaction under the gas ﬂow orientation
+without governing diffusion limitation of CO2 supply in the
+preliminary test. In the preliminary test, a blank test without
+any sample in a Pt pan was performed in order to check general
+drift of balance in the thermogravimetric reactor under the
+experimental procedure of redox reactivity test. The weight
+change of 0.0274% was observed in the test. Thus, an
+inﬂuence of general drift owing to equipment was relatively
+small compared with weight change derived from redox reaction.
+The reactivity test was performed using the following
+procedure:
+Approximately
+50 mg
+of
+sample
+powder
+was
+packed into a platinum pan (inner diameter of 5.2 mm, height
+of 2.6 mm) and mounted on the balance in a tubular ceramic
+chamber of the reactor. To eliminate adsorptive species on the
+surface of the sample powder, such as water, CO2, and O2, the
+sample powder was ﬁrst heated at 300°C for 0.5-h at a rate of
+50 K/min using an electric furnace while passing 99.999% high-
+purity nitrogen gas through the reactor at a ﬂow rate of 100 cm3/
+min at standard state (unit of sccm). Subsequently, the sample
+powder was subjected to the TR step at 1,200°C–1,400°C for 1.5-h
+to thermally release oxygen from the sample power. The
+temperature of the sample powder was monitored using an
+S-type thermocouple in contact with the bottom of the
+platinum pan. The powder was cooled at 800°C–1,200°C at a
+rate of 20 K/min under a N2 ﬂow, as indicated above. The passing
+gas was switched into a gas mixture with a N2 ﬂow rate of 50 sccm
+and a CO2 ﬂow rate of 50 sccm to perform the CS step. The
+sample was maintained at 800°C–1,200°C for 0.5-h in the electric
+furnace of the reactor to complete the CS step. The TR and CS
+steps for the reactivity tests were repeated four times. The
+temperature impacts were evaluated by testing ﬁve times in
+sequence with the temperatures of the TR and CS steps. The
+sample powder weight changed in the reactor furnace by O2
+release during the TR step and O2 uptake from CO2 during the CS
+step. The weight change of the sample was recorded as a function
+of time to monitor the fractional extent of the reaction in the TR
+and CS steps.
+The repeatability of the redox reaction for the sample power
+was evaluated using a thermogravimetric reactor using the
+following procedure. The TR step was performed at 1,400°C at
+a N2 ﬂow rate of 100 sccm for 10 min, and subsequently, the CS
+step was conducted at 1,200°C at a gas mixture ﬂow rate of
+100 sccm (CO2 50% and N2 50%) for 15 min. The TR and CS
+steps were repeated 50 times in sequence to examine the
+repeatability of O2 release and CO production.
+O2 and CO productivity per sample weight [nO2 and nCO
+(mol/g)] were calculated using the molar weight of the oxygen
+atom [MO (g/mol)], weight change of the sample [Δm (g)], and
+sample weight at time t = 0 [ms (g)]. The weight change of the
+sample (Δm) during the TR and CS steps was calculated from the
+weight decrease and increase, respectively. The O2 and CO
+production rates per sample weight [rO2 and rCO (mol/g)]
+Frontiers in Energy Research | www.frontiersin.org
+May 2022 | Volume 10 | Article 872959
+5
+Sawaguri et al.
+Perovskite Oxide in Thermochemical Cycle
+
+
+===== Page 6 =====
+
+were calculated from the time derivative of weight m (g) at time
+t = t (dm/dt), as represented in Eqs 7, 8.
+nO2 
+Δm
+2 × MO × ms
+(5)
+nCO 
+Δm
+MO × ms
+(6)
+rO2  −
+dm dt
+2 × MO × ms
+(7)
+rCO  dm  dt
+Mo × ms
+(8)
+RESULTS AND DISCUSSION
+Thermochemical Redox Activity Test for
+La0.7Sr0.3Mn0.9X0.1O3
+Figure 1 illustrates the XRD patterns of La0.7Sr0.3Mn0.9X0.1O3 [X
+= Mn (non-substituted LSM), Co-substituted LSM, and Ce-
+substituted LSM] at room temperature in the 2θ range. The
+XRD data for the other samples are shown in Supplementary
+Figure S1. The lattice parameters and space groups of the
+synthesized La0.7Sr0.3Mn0.9X0.1O3 were determined by Rietveld
+reﬁnement. All diffraction peaks assigned to the crystalline phase
+FIGURE 1 | XRD patterns of La0.7Sr0.3Mn0.9X0.1O3 [X = (A) Mn (non-substituted LSM), (B) Co-substituted LSM, and (C) Ce-substituted LSM]. The blue and red
+vertical bars below the XRD pattern corresponded to peak positions of sample and crystalline phase in the reference, respectively. The signal pattern of dark red
+represented the relative difference of intensity between the sample and reference in the Rietveld reﬁnement.
+TABLE 2 | Substitution cation (X), space group, crystal system, and lattice parameters of reﬁned structured of X-substituted LSMs.
+substituted cation X
+Space group
+Crystal system
+Lattice pammeters (A)
+Reference
+COD data
+No. (ICSD
+code)
+a
+b
+c
+Mn (non-substitution)
+R-3c (167)
+Trigonal
+5.508(2)
+5.508(2)
+13.368(2)
+Petrov et al. (1999)
+(50717)
+Mg
+R-3c (167)
+Trigonal
+5.499(7)
+5.499(7)
+13.345(3)
+Troyanchuk et al. (2015)
+(258933)
+Al
+R-3c (167)
+Trigonal
+5.478(4)
+5.478(4)
+13.484(8)
+Mostafa et al. (2008)
+(245860)
+Cr
+R-3c (167)
+Trigonal
+5.507(3)
+5.507(3)
+13.355(9)
+El-Fadli et al. (2002)
+4002477
+Fe
+R-3c (167)
+Trigonal
+5.514(0)
+5.514(0)
+13.370(5)
+Yanchevskii et al. (2006)
+(155210)
+Co
+R-3c (167)
+Trigonal
+5.504(4)
+5.504(4)
+13.348(3)
+El-Fadli et al. (2002)
+(94794)
+Ni
+R-3c (167)
+Trigonal
+5.497(6)
+5.497(6)
+13.337(4)
+Reshmi et al. (2013)
+(188747)
+Cu
+R-3c (167)
+Trigonal
+5.503(6)
+5.503(6)
+13.342(9)
+El-Fadli et al. (2002)
+(188212)
+Ga
+R-3c(167)
+Trigonal
+5.509(8)
+5.509(8)
+13.362(5)
+El-Fadli et al. (2002)
+(94799)
+Ce
+R-3c (167)
+Trigonal
+5.500(9)
+5.500(9)
+13.377(1)
+Paiva-Santos et al. (2002)
+1532010
+—
+Fm-3m (225)
+Cubic
+5.572(4)
+5.572(4)
+5.572(4)
+Wu et al. (2014)
+(291250)
+Frontiers in Energy Research | www.frontiersin.org
+May 2022 | Volume 10 | Article 872959
+6
+Sawaguri et al.
+Perovskite Oxide in Thermochemical Cycle
+
+
+===== Page 7 =====
+
+were indexed in a trigonal unit cell [space group R- 3C (167)], and
+the lattice parameters are listed in Table 2 (Petrov et al., 1999;
+Troyanchuk et al., 2015; Mostafa et al., 2008; El-Fadli et al., 2002;
+Yanchevskii et al., 2006; Reshmi et al., 2013; Paiva-Santos et al.,
+2002; Wu et al., 2014). As seen in the XRD pattern of the non-
+substituted LSM (Figure 1A), a series of peaks (blue vertical bars)
+correspond to the crystalline phase (red vertical bars below the
+XRD pattern), as cited in (Petrov et al., 1999). In addition, no
+secondary phases were observed in the pattern. As seen in
+Figure 1B, a series of peaks for Co-substituted LSM are
+identical to the crystalline phase with the same index as the
+Co-substituted reference (red vertical bars below the XRD
+pattern). The lattice parameter of the Co-substituted LSM is
+smaller than that of the non-substituted LSM (Table 2), because
+ionic radius of Co cation (Co3+: 0.61 Å, 6 coordination by O2−
+ion) is smaller than Mn cation (Mn3+: 0.645 Å, at high spin and 6
+coordination by O2−ion) (Shannon and Prewitt, 1969). The XRD
+peaks for the Co-substituted LSM were shifted toward greater
+diffraction angles than those of the non-substituted LSM. The
+results indicate that the Co-substituted LSM was successfully
+synthesized as a solid solution of the perovskite structure without
+impurities. However, in the XRD pattern of the Ce-substituted
+LSM (Figure 1C), La0.64Sr0.36MnO3 [a trigonal unit cell, space
+group R- 3C (167)] (Paiva-Santos et al., 2002), and La2Ce2O7
+[cubic unit cell, space group Fm-3m (225)] (Wu et al., 2014) were
+observed. The result indicates that Ce cation is not incorporated
+into a perovskite structure of non-substituted LSM owing to
+relatively large ionic radius of Ce cation (Ce3+: 1.034 Å, Ce4+:
+0.87 Å in 6 co-ordination by O2−ion) compared with Mn cation
+(Mn3+: 0.645 Å at high spin and 0.58 Å at low spin in 6 co-
+ordination by O2−ion) (Shannon and Prewitt, 1969). Except for
+the Ce-substituted LSM, all sample powders were successfully
+synthesized as a single phase in a trigonal unit cell [space group R-
+3C (167)]. The XRD patterns of as-synthesized sample and
+sample obtained after the redox activity test are shown in
+lower and upper side of Supplementary Figure S1. The
+original crystalline phase was maintained for the sample
+obtained after the redox activity test, except of Cu-substituted
+sample. The XRD peak at the 2θ = 28° observed for the sample
+obtained after the redox activity test were due to glass holder
+made by Si in the XRD measurement (COD data No. 9013105)
+(Dutta, 1962).
+Figure 2 displays the TGA proﬁles of the weight change in the
+activity tests of two-step thermochemical CO2 splitting using
+La0.7Sr0.3Mn0.9X0.1O3 sample powder. The ﬁrst run of all TGA
+proﬁles was excluded from analysis and discussion of the test
+results because the result in the ﬁrst run might include non-
+reproducible effects of sample and TGA reactor preparations
+(moisture and air adsorbed on the surface of sample powder, and
+contamination in the TGA reactor). As shown in Figure 2A, the
+non-substituted LSM gradually decreased with time during the
+TR step and rapidly increased during the subsequent CS step. The
+variation in weight change was reproducibly repeated in the
+second to fourth runs. For the Cr-substituted LSM, we
+observed that the weight gain gradually increased during the
+CS step of the second to fourth runs when the run number
+increased. This result indicates that the Cr substitution into LSM
+perovskite contributes to the reaction rate of the oxidation
+FIGURE 2 | TGA proﬁles of the weight change in the activity tests of two-step thermochemical CO2 splitting using La0.7Sr0.3Mn0.9X0.1O3 sample powder [X = (A)
+Cu, Cr, and Ce-substituted LSMs, (B) Fe, Al, and Ga-substituted LSMs, and (C) Co, Ni and Mg-substituted LSMs]. For comparison, TGA proﬁle of Mn (non-substituted
+LSM) is plotted in the ﬁgure. To eliminate adsorptive species on the surface of the sample powder, the sample powder was ﬁrst heated at 300°C for 0.5-h at a rate of
+50 K/min using an electric furnace while passing 99.999% high-purity nitrogen gas through the reactor at a ﬂow rate of 100 cm3/min at standard state.
+Subsequently, the activity tests were continuously repeated four times under the same condition to evaluate the repeatability.
+Frontiers in Energy Research | www.frontiersin.org
+May 2022 | Volume 10 | Article 872959
+7
+Sawaguri et al.
+Perovskite Oxide in Thermochemical Cycle
+
+
+===== Page 8 =====
+
+reaction during the CS step. In the case of the Ce-substituted
+LSM, the behavior of the weight loss and gain during the second
+to fourth runs was repeatedly observed with similar levels of the
+non-substituted LSM. However, the Cu-substituted LSM showed
+that the weight loss during the TR step was greater than the
+weight gain during the CS step in ﬁrst to second runs. The results
+indicate that Cu-substituted LSM partially decomposed into solid
+phases, providing irreversible redox properties in cyclic activity
+tests of two-step thermochemical CO2 splitting. The XRD
+patterns of the synthesized Cu-substituted LSM and the
+material
+obtained
+after
+the
+activity
+test
+are
+shown
+in
+Supplementary Figure S2. As seen in Supplementary Figure
+S2A, the as-prepared sample is a single solid phase with a trigonal
+unit cell (space group R- 3C (167)), as listed in Table 2. After the
+activity test (Supplementary Figure S2B), the material was
+composed of a solid mixture of La0.67Sr0.33MnO3 [a trigonal
+unit cell, space group R- 3C (167), COD data No. 1533312]
+(Zhang et al., 2003) and La1.5Sr0.5Mn0.5Cu0.5O4 (a tetragonal unit
+cell, space group I4/mmm (139), COD data No. 4002411)
+(McCabe and Greaves, 2006). In previous studies, reversible or
+irreversible phase transition were observed when perovskites
+were heated at high temperatures (Vogt and Schmahl, 1993;
+Chen et al., 2014). Ideally, the molar ratio of oxygen atom in
+RP1 structure [A2BO4, oxygen/(metal cation) = 4/3] is less than
+that of the perovskite structure [ABO3, oxygen/(metal cation) = 3/
+2]. The large weight loss of Cu-substituted LSM during the TR
+step may include the irreversible phase transition of the
+perovskite structure into the PR1 and thermal reduction of
+perovskite structure. Furthermore, there is a possibility that a
+vaporization
+of
+Cu-substituted
+sample
+occurs
+at
+high
+temperature. The incomplete redox reaction of Cu-substituted
+LSM may be that the latter solid phase (La1.5Sr0.5Mn0.5Cu0.5O4)
+was not oxidized with CO2 under the present test conditions. The
+TGA proﬁles of the Al-, Fe-, and Ga-substituted LSMs are shown
+in Figure 2B, and as a reference, the results of the non-substituted
+LSM are also plotted in the ﬁgure. The loss and gain in weight
+were reproducibly observed during the second to fourth runs of
+the two-step thermochemical CO2 splitting activity tests. The
+extent of weight loss during the TR step for all samples was
+approximately the same as that of the non-substituted LSM, while
+that of the weight gain was greater than that of the non-
+substituted LSM and Cr- and Ce-substituted LSMs. Figure 2C
+illustrates the TGA proﬁles of the Mg-, Co-, and Ni-substituted
+LSMs. The weight change for all samples during the second to
+fourth runs was signiﬁcantly greater than that for the non-
+substituted LSM. In addition, the loss and gain in weight were
+reproducibly
+observed.
+These
+results
+indicate
+that
+La0.7Sr0.3Mn0.9X0.1O3 samples (except for Cu-substituted LSM)
+have high thermal stability and reactivity without degradation
+and sufﬁcient repeatability for thermochemical CO2 splitting
+under the present reaction conditions.
+Figure 3A shows the O2 and CO productivities of all samples
+during the ﬁrst to fourth runs of the two-step thermochemical
+CO2 splitting activity tests. Each value of productivity was
+calculated from the extent of the weight change in Figure 2.
+The non-substituted LSM demonstrated stable and reproducible
+O2 and CO productivities in the second to fourth runs. The
+amounts of O2 and CO produced were approximately 140 and
+250 μmol/g-material, respectively. The authors categorized them
+into three groups in order of productivity: group A = Cu, Ce, and
+Cr (low productivity); group B =Fe, Al, and Ga (middle
+productivity); group C = Co, Ni, and Mg (high productivity
+levels). In group A, the O2 and CO productivities were equivalent
+for Ce-substituted LSM or lower for Cr-substituted LSM than that
+of non-substituted LSM during the second to fourth runs. For
+group B, the O2 productivity of the substituted LSM was similar to
+that of the non-substituted LSM, while the CO productivity was
+approximately the same or slightly higher than that of the non-
+substituted LSM during the second to fourth runs. In the case of
+group C, both productivities were higher than that of the non-
+substituted LSM during the second to fourth runs.
+The average values of O2 and CO production and CO/O2 ratio
+in the second to fourth runs are shown in Figure 3B. In group A,
+O2 production decreased in the order of Cu-, Ce-, and Cr-
+substituted LSMs, while CO production and CO/O2 ratio
+increased. The average values of O2 and CO production in the
+second to fourth runs for the Cr-substituted LSM were 106 and
+248 μmol/g-material, respectively. The CO/O2 (CO/O2 = 2.33)
+value exceeded the stoichiometric ratio (CO/O2 = 2). The results
+indicate that a large extent of thermal reduction obtained at the
+FIGURE 3 | (A) O2 and CO productivities of all samples during the ﬁrst to fourth runs and (B) average values of O2 and CO production and CO/O2 ratio in the second
+to fourth runs of the two-step thermochemical CO2 splitting activity tests.
+Frontiers in Energy Research | www.frontiersin.org
+May 2022 | Volume 10 | Article 872959
+8
+Sawaguri et al.
+Perovskite Oxide in Thermochemical Cycle
+
+
+===== Page 9 =====
+
+TR step of ﬁrst run was oxidized through the CS step of the
+second to fourth runs. The CO/O2 ratios of Cu-, and Ce
+substituted LSMs were lower than the stoichiometric ratio of
+2. The results indicate that Cr substitution may improve CO
+production when the stoichiometric ratio increases as the number
+of runs increase. For group B, the average values of O2 and CO
+production in the second to fourth runs were 145–150 (143 for
+non-substituted LSM) and 258–295 (248 for non-substituted
+LSM) μmol/g-material, respectively. The CO production was
+in order of Fe < Al < Ga, and CO/O2 ratio was 1.79 (Fe-
+substitution),
+1.97
+(Al-substitution),
+and
+1.96
+(Ga-
+substitution). The results indicate that Al and Ga substitutions
+at the B-site of LSM enhanced CO production in the CS step.
+Shannon’s literature reported that Al and Ga ions normally have a
+common valence number of 3+ in 6 co-ordination by O2−ions
+(Shannon and Prewitt, 1969). The following assumption is
+considered from the above results: when the valence number
+of substitution Al and Ga ions does not vary, thereby retaining the
+valency in the LSM perovskite structure, the substitution ion may
+promote thermal reduction of Mn ions in the LSM perovskite
+structure, while it plays a role in stabilizing the crystal structure
+with oxygen vacancies formed by the TR step. Then, in the
+subsequent CS step, the low-to-high valency transition of Mn
+ions in the LSM perovskite structure can be enhanced during the
+CS step.
+In the case of group C, the O2 production level of
+188–197 μmol/g-material
+was
+the
+highest
+among
+all
+the
+samples tested in this study. The average CO production was
+347 μmol/g-material for Co substitution, 351 μmol/g-material for
+Ni substitution, and 354 μmol/g-material for Mg substitution.
+Among all the samples, these three substituted LSMs exhibited
+similar O2 and CO production levels. The CO/O2 ratio was 1.85
+(Co-substitution),
+1.87
+(Ni-substitution),
+and
+1.79
+(Mg-
+substitution). The impact of the test temperature on the O2
+and CO productivities is evaluated in the subsequent section.
+The results of group C indicate that Co, Ni, and Mg substitutions
+at the B-site of LSM enhanced both O2 production during the TR
+step and CO production during the subsequent CS step. These ion
+species have a common valence number of 2+ in 6 coordinated by
+O2−ions. In contrast, Co and Ni ions can also have valence
+numbers of 3+ and 4+ in 6 co-ordination by O2−ions (Shannon
+and Prewitt, 1969). The following supposition is made for the
+Mg-substituted LSM: the lattice volume of the Mg-substituted
+LSM is smaller than that of the non-substituted LSM (Table 2).
+This result means that an ion species smaller than the Mn ion is
+substituted into the B-site of the LSM perovskite. However, the
+ionic radius (0.720 Å) of Mg2+ in 6 coordination by O2−ion is the
+greatest among those of Mn ions with various valence numbers in
+six coordination. Thus, from the viewpoint that substitutional
+solid solution is formed in the Mg-substituted LSM perovskite
+oxide, the Mg ion has a small coordination number (<6), leading
+to a small ionic radius at retaining the Mg2+ state, or high valence
+numbers of Mn ions are induced owing to charge balance by
+Mg2+ substitution at the B-site. The variation of O2−coordination
+or high valency Mn ions may enhance the mobility of O2−ions in
+the crystal structure at high temperatures, leading to improved O2
+production during the TR step. As a result, the reduced phase
+containing oxygen vacancies in the Mg substitution of LSM
+perovskite contributes to the enhancement of CO production
+compared to the non-substituted LSM. Further investigations
+about kinetics of mobility of O2- ion during the TR step are
+required to elucidate the detailed mechanism.
+Figure 4A illustrates the O2 production proﬁles of samples
+belonging to group A during the TR step in the ﬁrst to fourth
+runs. When the temperature of the sample reached 1,400°C, the
+production rate of O2 reached a maximum in all runs. The peak
+rates
+of
+O2
+production
+for
+non-substituted
+LSM
+were
+6.5–6.7 µmol/(min·g-material) in the second to fourth runs.
+For the Cu-substituted LSM, the peak rate of O2 production in
+the ﬁrst run increased because of the irreversible decomposition
+of the solid phase. The peak rates of O2 production in the second
+to fourth runs gradually decreased in comparison with the non-
+substituted LSM. The peak rates of the Cr- [5.1–6.5 µmol/(min·g-
+material)] and Ce-substituted LSMs [6.5–6.8 µmol/(min·g-
+material)] in the second to fourth runs were similar to the
+non-substituted LSM in each run. Thus, the substitution ions
+of group A did not affect the production rate of O2 during the TR
+step of the two-step thermochemical CO2 splitting cycle.
+Figure 4A illustrates the O2 production proﬁles of samples
+belonging to group B during the TR step in the ﬁrst-fourth
+runs. The peak rates of Fe-(7.2–7.4 µmol/(min·g-material)), Al-
+(7.3–8.7 µmol/(min·g-material)),
+Ga-substituted
+LSMs
+(8.1–8.2 µmol/(min·g-material)) were higher than those of
+non-substituted LSM in second to fourth runs. The decay
+trend of O2 production after the peak rate for the samples in
+group B was similar to that of the non-substituted LSM. The
+results indicated that the substitution ions of group B enhanced
+the peak rate of O2 production during the TR step. The O2
+production proﬁles of samples belonging to group C are shown in
+Figure 4C. The peak rates of Co-(9.3–10.2 µmol/(min·g-
+material)), Ni-(9.7–10.3 µmol/(min·g-material)), Mg-substituted
+LSMs (9.6–10.1 µmol/(min·g-material)) were highest among the
+samples tested in this study. The peak rates of group C were
+1.4–1.6 times greater than those of non-substituted LSM. There
+was little difference in the decay trend of O2 production in group
+C. The results indicated that the substitution ions in group C
+contributed to the enhancement of the production rate.
+Figure 5A shows the CO production proﬁles of samples
+belonging to group A during the subsequent CS step in the ﬁrst
+to fourth runs. The CO production for all samples tested in this
+study was immediately initiated at the target temperature when the
+gas stream was switched to a gas mixture of N2 and CO2. The peak
+rates of CO production for the non-substituted LSM were
+69.8–70.8 µmol/(min·g-material) in the second to fourth runs.
+The time required for CO production was approximately
+20 min. The order of peak rates of the CO production is Cu-
+(61.4–78.0 µmol/(min·g-material)),
+Cr-(71.7–75.9 µmol/(min·g-
+material)), and Ce-substituted LSMs (80.8–82.3 µmol/(min·g-
+material)) in second to fourth runs. The peak rates of the Cr-
+and Ce-substituted LSMs were higher than those of the non-
+substituted LSM in the second to fourth runs. The results of the
+Cr substitution agreed with the previous results that the Cr
+substitution in LSM enhanced the oxidation rate of the reduced
+material during the WS step of two-step thermochemical water-
+Frontiers in Energy Research | www.frontiersin.org
+May 2022 | Volume 10 | Article 872959
+9
+Sawaguri et al.
+Perovskite Oxide in Thermochemical Cycle
+
+
+===== Page 10 =====
+
+splitting cycling (Gokon et al., 2019). Compared with the non-
+substituted LSM, the production rates of Cu- and Ce-substituted
+LSM during the CS step rapidly decayed after reaching the peak
+rate. This leads to a decrease in the amount of CO production
+compared with the non-substituted LSM (Figure 3B). In the case
+of group B (Figure 5B), the order of peak rates of the CO
+production was Fe-[64.2–65.0 µmol/(min·g-material)] < Ga-
+[66.8–68.1
+µmol/(min·g-material)]
+<
+Al-substituted
+LSMs
+[74.6–77.5 µmol/(min·g-material)] in second to fourth runs.
+The time required for CO production in the Al- and Ga-
+substituted LSMs was extended to approximately 25 min. These
+results correspond to the results that the Al- and Ga-substituted
+LSMs enhanced CO production during the CS step (Figure 3B).
+For the group C (Figure 5C), the peak rates of the CO production
+were Co-[65.6–66.5 µmol/(min·g-material)], Mg-[74.2–75.6 µmol/
+(min·g-material)], and Ni-substituted LSMs [72.9–76.1 µmol/
+(min·g-material)] in the second to fourth runs (Co < Mg  Ni).
+The period of time for CO production in group C was extended to
+approximately 30 min. These results of increased peak rate and
+prolonged CO production lead to an increase in the amount of CO
+production in group C compared to the non-substituted LSM.
+In this section, all samples of substituted and non-substituted
+LSMs were compared in terms of redox activity and reaction
+kinetics under the same test conditions. In particular, Mg-, Co-,
+and Ni-substituted LSMs in group C demonstrated higher CO
+productivity and superior reaction kinetics than the non-
+substituted LSM.
+Temperature Impacts of the TR and CS
+Steps on Redox Activity of Mg-, Co-, and
+Ni-Substituted LSMs
+In this section, in order to examine the effect of temperature on
+the redox activity of substituted LSMs in group C, the samples
+were subjected to the TR step at a temperature of 1,200°C for
+90 min. Subsequently, the CS step was performed at temperatures
+of 800°C–1,200°C for 30 min (Figure 6A). As shown in
+Figure 6B, the TR step was conducted at temperatures of
+1,200°C–1,400°C for 90 min, and subsequently the CS step was
+performed at a temperature of 1,200°C for 30 min. The TGA
+proﬁles of Mg-, Co-, Ni-substituted LSMs were displayed in
+Supplementary Figure S3. As seen in Figure 6A, Average O2
+productivity at TR temperature of 1,400°C were approximately
+similar at 183.7 µmol/(min·g-material) (standard deviation (SD)
+= 0.26) for Mg-substituted LSM, and 183.4 µmol/(min·g-
+material)
+(SD
+=
+5.19)
+for
+Co-substituted
+LSM,
+while
+194.5 µmol/(min·g-material) (SD = 2.79) for Ni-substituted
+LSM was highest among the group C. Even if the CS
+temperature decreased from 1,200°C to 800°C, the average CO
+productivity
+at
+CS
+temperature
+of
+800°C–1,200°C
+were
+344.4 µmol/(min·g-material) (SD = 5.63) for Mg-substituted
+LSM,
+347.1 µmol/(min·g-material)
+(SD
+=
+15.84)
+for
+Co-
+substituted LSM, and 349.7 µmol/(min·g-material) (SD = 5.61)
+for Ni-substituted LSM. The temperatures in the exothermic CS
+step did not inﬂuence CO productivity in the present test
+conditions.
+However,
+the
+peak
+rate
+of
+CO
+production
+FIGURE 4 | O2 production proﬁles of samples belonging to (A) group A (Cu, Cr, and Ce-substituted LSMs), (B) group B (Fe, Al, and Ga-substituted LSMs), and (C)
+group C (Co, Ni and Mg-substituted LSMs) during the TR step in the ﬁrst to fourth runs. The production proﬁles correspond to left Y-axis, while the temperature proﬁle
+corresponds to right Y-axis.
+Frontiers in Energy Research | www.frontiersin.org
+May 2022 | Volume 10 | Article 872959
+10
+Sawaguri et al.
+Perovskite Oxide in Thermochemical Cycle
+
+
+===== Page 11 =====
+
+decreased as the CS temperature decreased. Thus, the results
+indicate that the CS temperature contributes to the oxidation
+kinetics of the reduced sample during the CS step. The average
+CO/O2 ratios and test conditions are 1.79–2.10, 1.84–2.24,
+1.67–2.00
+for
+the
+Mg-,
+Co-,
+and
+Ni-substituted
+LSMs,
+respectively. On average, the stoichiometric CO/O2 ratio was
+approximately attained for the samples in group C, meaning that
+the two-step reaction proceeds stoichiometrically under test
+conditions of different CS temperatures in Figure 6A. The
+impact of the TR temperature on the redox activity is shown
+in Figure 6B. As the TR temperature decreased from 1,400°C to
+1,200°C, the productivities and peak rates of O2 and CO
+decreased. The average CO/O2 ratios were nearly equal to 2.0
+for all samples in group C. These results indicate that the samples
+FIGURE 5 | CO production proﬁles of samples belonging to (A) group A (Cu, Cr, and Ce-substituted LSMs), (B) group B (Fe, Al, and Ga-substituted LSMs), and (C)
+group C (Co, Ni and Mg-substituted LSMs) during the TR step in the ﬁrst to fourth runs. The production proﬁles correspond to left Y-axis, while the temperature proﬁle
+corresponds to right Y-axis.
+FIGURE 6 | Effects of (A) CS and (B) TR temperatures on the redox activity of substituted LSMs in group C. (A) the samples were subjected to the TR step at a
+temperature of 1,200°C for 90 min, and the subsequent CS step was performed at temperatures of 800°C–1,200°C for 30 min (B) the TR step was conducted at
+temperatures of 1,200°C–1,400°C for 90 min, and subsequently the CS step was performed at a temperature of 1,200°C for 30 min. Each temperature of TR and
+subsequent CS step shows in below the ﬁgure. The O2 and CO productivities correspond to left Y-axis, while the peak rates of production correspond to right
+Y-axis.
+Frontiers in Energy Research | www.frontiersin.org
+May 2022 | Volume 10 | Article 872959
+11
+Sawaguri et al.
+Perovskite Oxide in Thermochemical Cycle
+
+
+===== Page 12 =====
+
+maintained stoichiometric two-step reactions under different TR
+temperatures. Thus, the temperatures in the endothermic TR step
+strongly affect the redox activity and reaction kinetics in terms of
+thermodynamics and kinetics for both steps of thermochemical
+cycling.
+The effects of temperature on the redox activity of substituted
+LSMs in group C were studied in this section; whereby we
+elucidated that, the TR temperature of 1,400°C and subsequent
+CS temperatures of 800°C–1,200°C provided large O2 and CO
+productivity and reaction rates without degradation of the sample,
+while the stoichiometric redox activity and reproducible reaction
+rate were maintained during the repeated test runs. In the following
+section, the thermal durability and stability of the samples in group
+C during thermochemical two-step cycling under severe test
+conditions are examined and evaluated.
+Thermal Durability and Stability of Mg, Co,
+and Ni-Substituted LSMs in Continuous
+Multiple Cycling of Thermochemical
+Two-Step Reaction
+To prevent the decrease in the reactivity of the redox material
+owing to sintering and coagulation at high temperatures, the
+presence of thermal durability and stability of redox materials for
+thermochemical two-step CO2 splitting is necessary (Jiang et al.,
+2014b; Wang et al., 2020; Liu et al., 2021). In the previous section,
+the highest reactivity and CO production rate were observed in
+the redox cycles of Mg-, Co-, and Ni-substituted LSMs at TR and
+CS temperatures of 1,400°C and 1,200°C, respectively, while such
+high-temperature
+conditions
+may
+cause
+coagulation
+and
+sintering of the sample. Therefore, long-term continuous
+multiple cycling of the thermochemical two-step reaction was
+performed to evaluate the thermal durability of the samples. The
+TR step was performed at 1,400°C for 10 min, and the reduced
+sample was subjected to a subsequent CS step at 1,200°C for
+15 min. The as-synthesized sample before testing and the sample
+obtained after cycling were observed by SEM to evaluate the
+thermal stability of the sample at high temperature.
+Figure 7A illustrates the thermogravimetric measurements of
+the continuous TR-CS cycling of thermochemical CO2 splitting
+using the Mg-substituted LSM for long-term thermal durability.
+The proﬁles of O2 and CO production were reproducibly
+observed
+at
+the
+same
+level
+without
+degradation
+during
+continuous 50 runs. Similarly, the Co- and Ni-substituted
+LSMs exhibited stable and reproducible proﬁles of O2 and CO
+production over long-term continuous multiple cycling (Figures
+7B,C). The O2 and CO productivity at each run are plotted
+against the run number in Figure 7D. The average values of O2
+and CO productivities were 103.7 (SD = 2.19), and 208.3 (SD =
+3.76), respectively. The decreases in O2 and CO productivity were
+4.3% and 1.0% after the 50th run when the standard point for
+comparison was the second run because the result in the ﬁrst run
+might include non-reproducible effects of sample and TGA
+reactor preparations (moisture and air adsorbed on the surface
+of sample powder, and contamination in the TGA reactor). The
+slight decreases in the productivities indicate the two following
+possibilities: 1) limited spillage of the power-shaped sample
+together with a releasing/accompanying gas ﬂow and 2) low
+vaporization of the sample during the repeated runs. However,
+signiﬁcant effusion and vaporization of the sample were absent
+during the continuous runs. The results indicated that the Mg-
+substituted LSM was a durable and reproducible redox material
+during long-term thermochemical cycling at high temperatures.
+As seen in Figures 7E,F, stable and reproducible O2 and CO
+productivity over the long-term continuous multiple cycling were
+observed with the remaining stoichiometric ratio of CO/O2  2
+without degradation of redox activity for the Co- and Ni-
+substituted LSMs, as well as the Mg-substituted LSM.
+FIGURE 7 | Thermal durability and stability of redox materials for long-term thermochemical cycling. Temperature, O2 and CO production proﬁles of (A) Mg-, (B)
+Co, (C) Ni-substituted LSMs, and O2 and CO productivities and CO/O2 ratios of (D) Mg-, (E) Co, (F) Ni-substituted LSMs. The O2 and CO productivities correspond to
+left Y-axis, while the O2/CO ratio of each production correspond to right Y-axis.
+Frontiers in Energy Research | www.frontiersin.org
+May 2022 | Volume 10 | Article 872959
+12
+Sawaguri et al.
+Perovskite Oxide in Thermochemical Cycle
+
+
+===== Page 13 =====
+
+Figure 8 illustrates the secondary electron image (SEI)
+micrograph of the Mg-substituted LSM as follows: the initial
+sample (before testing) magniﬁcation of 1) 2,000 and 2) 5,000;
+after the long-term tests magniﬁcation of 3) 2,000 and 4) 5,000. A
+micrograph of the Co- and Ni-substituted LSMs is shown in
+Supplementary Figures S4, S5. As seen in the initial sample
+(Figures 8A,B), the size of particle was in the range of 0.1–0.5 µm,
+and non-porous and polygon-shaped particle were numerously
+observed. After the long-term test (Figures 8C,D), a large
+number of larger particle size 1–3 µm without variation in
+particle shape appeared in the SEI image. In addition, the
+particles appear to have coalesced as per the large particle size
+after the tests. The results indicated that the initial powder sample
+was partially sintered at high temperatures during long-term
+tests.
+However,
+as
+shown
+in
+Figure
+7D,
+the
+redox
+performances of the production rate and productivities of O2
+and CO were maintained without degradation during the long-
+term test. Thus, the results indicate that over a long reaction time,
+the Mg-substituted LSM retains thermal stability and stable redox
+performance.
+To evaluate the structural stability of the Mg-substituted LSM,
+we compared the XRD patterns of the samples before and after
+the long-term test, as shown in Supplementary Figure S6. As
+shown in Supplementary Figure S6A, all diffraction peaks
+assigned to the La0.7Sr0.3Mn0.85Mg0.15O3 reference phase (red
+vertical bars below the XRD pattern) (Troyanchuk et al., 2015)
+were indexed in a trigonal unit cell [space group R- 3C (167)], for
+which the lattice parameters are listed in Table 2. The results
+indicate that the sample was synthesized as a single phase before
+the test. The diffraction pattern of the sample obtained after the
+test did not vary. However, a series of peaks resulting from the Si
+reference phase (Dutta, 1962) (green vertical bars below the XRD
+pattern)
+were
+observed
+together
+with
+the
+La0.7Sr0.3Mn0.85Mg0.15O3 phase. This is owing to the sample
+holder made of glass for XRD measurements; no secondary
+phase occurred in the test. The XRD patterns of Co-, and Ni-
+substituted LSMs after the long-term test are displayed in
+Supplementary Figures S6B,C, respectively. No secondary
+phase was also observed in the patterns of both samples as
+well as the Mg-substituted LSM, although the XRD peaks
+derived from Si appeared. These results indicate that these
+substituted
+LSMs
+promoted
+the
+redox
+reaction
+without
+crystallographic
+dissociation
+during
+the
+long-term
+multi-
+cycling test.
+XPS Analysis of Mg-Substituted LSM
+The Mg-substituted LSM, which has the highest activity and long-
+term thermal stability among the LSM perovskites tested in the
+present study, was selected as a tentative redox material. The
+change in the valence state of all ionic species was examined for
+the synthesized sample, and samples obtained after the TR and
+subsequent CS steps of thermochemical two-step CO2 splitting by
+XPS analysis.
+Figure 9 shows the La 3d5/2 and La 3d3/2 x-ray photoelectron
+spectra with peak deconvolutions of the synthesized, reduced, and
+the oxidized samples. As seen in Figure 9A, the triplet peaks
+centered at 833.7, 835.7, and 837.9 eV for the synthesized sample
+can be assigned to the La 3d5/2 main peak and La 3d5/2 satellite
+FIGURE 8 | Secondary electron image (SEI) micrograph of the Mg-substituted LSM. The initial sample (before testing) magniﬁcation of (A) 2,000 and (B) 5,000; the
+sample obtained after the long-term tests magniﬁcation of (C) 2,000 and (D) 5,000.
+Frontiers in Energy Research | www.frontiersin.org
+May 2022 | Volume 10 | Article 872959
+13
+Sawaguri et al.
+Perovskite Oxide in Thermochemical Cycle
+
+
+===== Page 14 =====
+
+peaks. The binding energies of La 3d3/2 were located at 850.7
+(main peak), 853.0 (satellite peak), and 855.1 eV (satellite peak),
+as shown in Figure 9B. The triplet peaks of La 3d5/2 and La 3d3/2
+was observed for LaFexO3-δ perovskites with different x values
+(0.7 ≤x ≤1.3) in the previous work. The satellite peaks could be
+assigned to the antibonding and bonding components of the 3d
+state (Cao et al., 2016). These data of the present study indicate
+that lanthanum ions are present in the trivalent form for the
+synthesized sample. Negligible differences were observed in terms
+of the binding energies of the synthesized, reduced, and the
+oxidized samples, indicating that the valence state of La did
+not change during the thermochemical process.
+The results of XPS analysis for Sr 3d and O 1s spectra with peak
+deconvolutions are shown in Figure 10. As shown in Figure 10A,
+the Sr 3d spectrum of the synthesized sample was ﬁtted into two
+doublets (Sr 3d5/2 and Sr 3d3/2). The doublet peaks of Sr 3d5/2 were
+centered at 132.4 (main peak) and 133.7 eV (satellite peak), while
+those of Sr 3d3/2 were located at 134.5 (main peak) and 136.0 eV
+(satellite peak). The peaks of Sr 3d and O 1s were divided into two
+components resulting from the surface and lattice (Wang et al.,
+2017). The high binding energy component of Sr 3d3/2 corresponds
+to the position of Sr 3d3/2 in SrO segregated on the surface, while
+the low binding energy component of the Sr 3d3/2 can be attributed
+to Sr in the manganite structure (Bertacco et al., 2002). The binding
+energy of Sr 3d5/2 was approximately 2.1 eV higher than that of Sr
+3d3/2. The peak of Sr 3d5/2 located in low-binding energy region
+(131.6–132.7 eV) is regarded as lattice component owing to the
+perovskite structure on the near-surface region, on the other hand,
+that located in high-binding energy region (133.4–133.6 eV) is
+considered as component of surface termination (strontium oxide/
+strontium hydroxide/strontium carbonate) (Wang et al., 2017).
+The peak area in the lattice component of Sr 3d5/2 for the
+synthesized, reduced, and oxidized samples are 4.0, 4.9, and
+5.1 times as much as that of the surface component. The Sr 3d
+data of the present study indicate that Sr resulting from the lattice
+component is more dominant than the surface termination
+component, and the binding energies of all components for the
+synthesized, reduced, and oxidized samples exhibit negligible
+variation. Thus, the valence state of Sr varies negligibly during
+the thermochemical process.
+FIGURE 9 | (A) La 3d5/2 and (B) La 3d5/2 x-ray photoelectron spectra with peak deconvolutions of the synthesized sample (as-prepared sample), thermally-
+reduced sample obtained after the TR step, and the oxidized sample obtained after the CS step.
+FIGURE 10 | (A) Sr 3d and (B) O 1s x-ray photoelectron spectra with peak deconvolutions of the synthesized sample (as-prepared sample), thermally-reduced
+sample obtained after the TR step, and the oxidized sample obtained after the CS step.
+Frontiers in Energy Research | www.frontiersin.org
+May 2022 | Volume 10 | Article 872959
+14
+Sawaguri et al.
+Perovskite Oxide in Thermochemical Cycle
+
+
+===== Page 15 =====
+
+The Sr 3d data can be related to the results of O 1s data by
+separating the spectrum into two components: lattice and surface.
+The O 1s spectra with peak deconvolution are shown in
+Figure 10B. There are three types of oxygen: OI (528.8 eV),
+OII (531.3 eV), and OIII (534.0 eV), which represent the lattice
+oxygen, adsorbed O2
+2−/O−, and oxide (or secondary phase). In
+the O 1s data, the lattice OI and surface OII do not vary in the
+binding energies of the synthesized, reduced, and oxidized
+samples, while the surface OIII does not change after the
+thermochemical process of the TR and CS steps. The area
+ratios of OI/(OII + OIII) in the O 1s data are 0.20, 0.22, and
+0.25 for the synthesized, reduced, and oxidized samples,
+respectively. The results indicate that the oxygen resulting
+from the adsorbed and secondary phase area is predominant
+in the surface area relative to the oxygen corresponding to the
+lattice component. The O 1s located at 528.8 eV in the low-
+binding-energy region (528.7–529.7 eV) corresponds to lattice
+oxygen in the structure of perovskite oxide (McIntyre and Cook,
+1975; Vasquez, 1991; Galenda et al., 2007; Wang et al., 2016). The
+peak of O 1s located at 531.3 eV in high-binding energy region
+(531.1–531.6 eV) is regarded as a component of surface
+termination resulting from an adsorbed oxygen and carbonate
+phase (McIntyre and Cook, 1975; Uwamino et al., 1984; Norman
+and Leach, 2011; Wang et al., 2016). The peaks of O 1s located at
+533.8–534.0 eV are considered an oxygen component of adsorbed
+OH−or absorbed bulk oxygen species and metal oxide (Sakairi
+et al., 2015). The OIII (534.0 eV) could be related to the presence
+of the Mg(OH)2 species (Yao et al., 2000). Peak areas of lattice
+oxygen (sI), adsorptive species (sII), and surface oxygen (sIII) in O
+1s spectra were listed in Table 3. A lattice peak ratio (Rlattice) was
+calculated using sI and sIII data.
+Rlattice  (sl + slll)
+The value for Rlattice decreased after the TR step, and increased
+after the subsequent CS step. This change of Rlattice was in good
+agreement with the weight change obtained by thermochemical
+redox cycle with TGA.
+The Mn 3s, Mn 2p, and Mg 2p spectra with peak
+deconvolutions
+are
+shown
+in
+Figure
+11.
+As
+seen
+in
+Figure 11A, the Mn 3s spectrum for the synthesized sample
+ﬁtted doublet peaks are centered at 82.9 and 88.0 eV. The peak
+centered at 92.2 eV may correspond to La 4d satellite signals
+(Galakhov et al., 2002). It was reported that the magnitude of the
+Mn 3s splitting decreases monotonically with an increase in the
+formal valence of the manganese ions (Galakhov et al., 2002). The
+Mn valence, vMn (eV) was estimated using the following linear
+equation:
+vMn  9.67 −1.27ΔEMn3s
+where ΔEMn3s is the difference in binding energy between the Mn
+3s doublet (Beyreuther et al., 2006). The linear relationship
+between vMn and ΔEMn3s was derived for the valence range
+between +2 and +4 from XPS investigations of different bulk
+mixed-valent manganites and binary Mn oxides, respectively. The
+results of the Mn valence vMn for the synthesized, reduced, and
+oxidized samples are listed in Table 3; for which the values of
+ΔEMn3s
+were
+5.12,
+5.20,
+and
+4.94 eV,
+respectively.
+The
+corresponding valence states of Mn are 3.20, 3.07, and 3.39,
+respectively. The Mn valence vMn decreased after the TR step,
+releasing oxygen, and backwards increased after the subsequent
+CS step. The results based on Mn 3s spectra indicate that the
+valence states of Mn ions contribute to the redox reaction in the
+Mg-substituted LSM during the thermochemical two-step
+process.
+According to previous research (Zhang et al., 2014; Ilango
+et al., 2016; Xia et al., 2021), the Mn valence in perovskites can
+also be estimated from the Mn 2p spectra. The Mn 2p spectra
+with peak deconvolution are shown in Figure 11B. For the
+synthesized sample, the doublet peaks centered at 641.6 and
+653.2 eV corresponds to Mn 2p3/2 and Mn 2p5/2 of Mn3+,
+respectively, while the peaks at 644.1 and 656.1 eV represents
+Mn 2p3/2 and Mn 2p5/2 of Mn4+, respectively. According to the
+peak areas of the Mn3+ and Mn4+ curves, the corresponding Mn
+valences can be calculated; the results are shown in Table 3. The
+ratios of Mn3+/Mn4+ of the synthesized, reduced, and oxidized
+samples were 3.28, 3.33, and 3.37 for the as-synthesized samples,
+after oxygen release, and after CO2 splitting, respectively. The
+variations in the Mn valence ratio calculated from the Mn 2p
+spectra
+could
+not
+describe
+the
+redox
+reaction
+in
+the
+thermochemical two-step process. This is owing to some
+TABLE 3 | Mn valence vMn for the synthesized sample (as-prepared sample), thermally-reduced sample obtained after the TR step, and the oxidized sample obtained after
+the CS step. The values were estimated from Mn 3s, and Mn 2p x-ray photoelectron spectra.
+Sample
+Mn 3s
+Mn 2p
+O1s
+peak
+position
+E1 (eV)
+peak
+position
+E2 (eV)
+ΔE
+(eV)
+valence
+states
+of Mn
+Mn3+
+peak
+area
+(eV)
+Mn4+
+peak
+area
+(eV)
+Mn3+/
+Mn4+
+lattice
+peak
+area
+sI (eV)
+adsorptive
+peak
+area
+sII (eV)
+oxide
+peak
+area
+sIII
+(eV)
+Lattice
+peak
+ratio
+Rlattice
+(%)
+After CS
+step
+83.046
+87.987
+4.94
+3.39
+3689
+1095
+3.37
+3081
+9904
+2377
+56.4
+After TR
+step
+83.209
+88.405
+5.20
+3.07
+3685
+1105
+3.33
+2784
+10293
+2240
+55.4
+As
+synthesized
+82.884
+88.005
+5.12
+3.2
+4009
+1223
+3.28
+2652
+11619
+1565
+62.9
+Frontiers in Energy Research | www.frontiersin.org
+May 2022 | Volume 10 | Article 872959
+15
+Sawaguri et al.
+Perovskite Oxide in Thermochemical Cycle
+
+
+===== Page 16 =====
+
+valence states of Mn ions in the Mn 2p spectra in order to
+superimpose
+them
+in
+the
+limited
+binding
+energies
+of
+640.0–645.0 eV. It is known that the doublet of the Mn 2p
+spectra cannot speciﬁcally distinguish and separate Mn2+/
+Mn3+/Mn4+, indicating that complicates the estimation of the
+valence states of Mn (Biesinger et al., 2011; Polfus et al., 2015).
+According to the results in Table 3, the change of Rlattice was in
+good agreement with the results of Mn 3s spectra. Thus, in order
+to
+evaluate
+the
+variations
+in
+Mn
+valence
+during
+the
+thermochemical two-step process, we considered a secure
+result based on Mn 3s spectra to estimate the variations in
+Mn valence.
+Figure 11C shows the Mg 2p spectra with peak deconvolution.
+For the synthesized sample, the binding energies of 48.2 and
+50.7 eV correspond to Mg(OH)2 and Mg2+, respectively. Previous
+studies reported that the binding energies of Mg(OH)2 and MgO
+were centered at 48.8 and 50.2 eV (Luo et al., 2015), and that of
+Mg2+ and metal Mg were centered at 51.0 and 49.7 eV (Yao et al.,
+2000). Thus, Mg ions in the Mg-substituted LSM adsorbed
+hydroxyl groups on the surface of perovskite and existed in
+the lattice of the crystal structure, indicating that Mg ions are
+in a bivalent state without metal (zero-valent) in the synthesized
+sample. Negligible differences (48.2–48.3 eV for Mg(OH)2,
+50.7 eV for Mg2+, respectively, were observed in the binding
+energies of the synthesized, reduced, and oxidized samples,
+indicating that the valence state of Mg did not vary during the
+thermochemical process. Therefore, Mg substitution in LSM
+perovskite enhances the amount of O2 released and improves
+fuel production in order to induce variations in the Mn valence
+without changing the Mg valence during the thermochemical
+two-step process.
+Comparison of Mg, Ni, and Co-Substituted
+LSMs With Previous Literatures
+In the present study, in order to compare the redox reactivity of
+Mg, Ni, and Co-substituted LSMs the authors selected some
+literatures
+with
+regard
+to
+thermochemical
+two-step
+CO2
+splitting using LSM perovskites among the numerous previous
+reports. The main results and test conditions used in previous
+studies are listed in Table 4. It is necessary to be careful for the test
+equipment and test conditions (reaction time and temperature in
+both steps) when the results are compared. Thermogravimetric
+analysis (TGA) indirectly estimates the O2 and CO productivities
+from the weight change of the sample during the thermochemical
+two-step CO2 splitting cycle. Because the results may include
+physical gas adsorption/desorption on the surface of the sample,
+the TGA test may overestimate the productivities in comparison
+to some reactors (ﬁxed bed, stagnation ﬂow reactor et al.) directly
+measured O2 and CO gases using gas chromatography and gas
+analysis. The test temperatures of the TR and CS steps and the
+reaction time strongly affected the O2 and CO productivities.
+La0.5Sr0.5Mn0.95Sc0.05O3,
+La0.5Sr0.5Mn0.75Ga0.25O3,
+and
+La0.6Sr0.4MnO3 were reported to have high CO productivities
+(506, 460, and 469 μmol/g-material, respectively) by TGA (Dey
+et al., 2016; Luciani et al., 2018). There are two possibilities for
+La0.5Sr0.5Mn0.95Sc0.05O3
+and
+La0.5Sr0.5Mn0.75Ga0.25O3:
+1)
+a
+reaction time period of 45 min during the CS step. This may
+FIGURE 11 | (A) Mn 3s, (B) Mn 2p, and (C) Mg 2p x-ray photoelectron spectra with peak deconvolutions of the synthesized sample (as-prepared sample),
+thermally-reduced sample obtained after the TR step, and the oxidized sample obtained after the CS step.
+Frontiers in Energy Research | www.frontiersin.org
+May 2022 | Volume 10 | Article 872959
+16
+Sawaguri et al.
+Perovskite Oxide in Thermochemical Cycle
+
+
+===== Page 17 =====
+
+lead to enhanced CO productivity owing to slow kinetics of the
+oxidation reaction for the reduced LSM perovskite, if the kinetics
+predominate as a rate-determining step in the entire process; 2) a
+small amount of B site substitution into LSM perovskites may
+enhance O2 and CO productivities owing to an improvement of
+thermal stability under reductive and oxidative atmospheres
+during the thermochemical processes. However, the data for
+La0.6Sr0.4MnO3 (Luciani et al., 2018) may be overestimated
+because O2 and CO productivities were considerably high in
+comparison to the productivity levels of O2 100–215 and CO
+194–295 μmol/g-material with similar compositions of LSM
+perovskites (Nair and Abanades, 2018; Takalkar et al., 2021).
+To evaluate the small amount of substitution at the B-site of
+the LSM perovskite among the previous data, we compared the
+data
+between
+La0.5Sr0.5Mn0.9Mg0.1O3
+and
+La0.5Sr0.5MnO3
+(Demont
+and
+Abanades,
+2015;
+Jouannaux
+et
+al.,
+2019).
+TABLE 4 | Comparison of main results in the present study and previous literatures for thermochemical two-step CO2 splitting using the LSM perovskites.
+Materials
+Synthesis
+method
+Reaction
+equipment
+Run
+number
+TR
+duration
+(min)
+TR
+temp.
+(°C)
+Average
+O2
+productivity
+(μmol/
+g-material)
+Average
+CO
+productivity
+(μmol/
+g-material)
+CS
+duration
+(min)
+CS
+temp.
+(°C)
+References
+La0.7Sr0.3Mn0.9Mg0.1O3
+Pechini
+TGA
+3*
+90
+1,400
+197
+354
+30
+1,200
+This work
+La0.7Sr0.3Mn0.9Ni0.1O3
+Pechini
+TGA
+3*
+90
+1,400
+188
+351
+30
+1,200
+This work
+La0.7Sr0.3Mn0.9Co0.1O3
+Pechini
+TGA
+3*
+90
+1,400
+184
+347
+30
+1,200
+This work
+La0.7Sr0.3MnO3
+Pechini
+TGA
+3*
+90
+1,400
+143
+248
+30
+1,200
+This work
+La0.5Sr0.5Mn0.95Sc0.05O3
+Pechini
+TGA
+3
+45
+1,400
+323
+506
+45
+1,100
+Dey et al.
+(2016)
+La0.5Sr0.5Mn0.75Ga0.25O3
+Pechini
+TGA
+3
+45
+1,400
+264
+460
+45
+1,100
+Dey et al.
+(2016)
+La0.5Sr0.5Mn0.9Mg0.1O3
+Pechini
+TGA
+2
+45
+1,400
+190
+215
+60
+1,050
+Jouannaux
+et al. (2019)
+La0.65Sr0.35MnO3
+Solid-state
+TGA
+2
+45
+1,400
+100
+194
+60
+1,050
+Nair and
+Abanades,
+(2018)
+La0.5Sr0.5MnO3
+Solid-state
+TGA
+2
+45
+1,400
+195
+242
+60
+1,050
+Nair and
+Abanades,
+(2018)
+La0.6Sr0.4Mn0.5Co0.5O3
+Solid-state
+TGA
+2
+45
+1,300
+315
+139
+45
+1,050
+Nair and
+Abanades,
+(2018)
+LaMn0.5Ni0.5O3
+Solid-state
+TGA
+2
+45
+1,400
+57
+105
+45
+1,050
+Nair and
+Abanades,
+(2018)
+La0.7Sr0.3Mn0.9Cr0.1O3
+Pechini
+ﬁxed bed
+3
+30
+1,350
+98
+215
+50
+1,200
+Gokon et al.
+(2019)
+LaCo0.7Zr0.3O3
+Pechini
+TGA
+3
+20
+1,300
+314
+224
+60
+800
+Wang et al.
+(2020)
+La0.7Sr0.3MnO3
+Solution
+combustion
+TGA
+9*
+60
+1,400
+124
+209
+30
+1,000
+Takalkar et al.
+(2021)
+La0.6Sr0.4MnO3
+Solution
+combustion
+TGA
+9*
+60
+1,400
+215
+295
+30
+1,000
+Takalkar et al.
+(2021)
+La0.3Sr0.7MnO3
+Solution
+combustion
+TGA
+9*
+60
+1,400
+188
+342
+30
+1,000
+Takalkar et al.
+(2021)
+La0.6Sr0.4FeO3
+Pechini
+sol–gel
+TGA
+1
+20
+1,350
+427
+251
+50
+1,000
+Luciani et al.
+(2018)
+La0.6Sr0.4MnO3
+Pechini
+sol–gel
+TGA
+1
+20
+1,350
+349
+469
+50
+1,000
+Luciani et al.
+(2018)
+La0.6Sr0.4Mn0.8Fe0.2O3
+Pechini
+sol–gel
+TGA
+1
+20
+1,350
+286
+330
+50
+1,000
+Luciani et al.
+(2018)
+La0.6Sr0.4Cr0.8Co0.2O3
+Pechini
+TGA
+3
+40
+1,200
+-
+157
+40
+800
+Bork et al.
+(2015)
+La0.5Sr0.5Mn0.83Mg0.17O3
+Solid-state
+TGA
+2
+45
+1,400
+170
+208
+60
+1,050
+Demont and
+Abanades,
+(2015)
+La0.5Sr0.5Mn0.75Al0.25O3
+Solid-state
+TGA
+2
+45
+1,400
+194
+221
+60
+1,050
+Demont and
+Abanades,
+(2015)
+La0.6Sr0.4Mn0.6Al0.4O3
+Pechini
+Stagnation
+ﬂow reactor
+1
+-
+1,350
+-
+294
+-
+1,000
+McDaniel
+et al. (2013)
+Frontiers in Energy Research | www.frontiersin.org
+May 2022 | Volume 10 | Article 872959
+17
+Sawaguri et al.
+Perovskite Oxide in Thermochemical Cycle
+
+
+===== Page 18 =====
+
+Although the thermochemical cycle was performed under similar
+test conditions, 10% Mg substitution decreased O2 productivity
+and increased CO productivity. On the other hand, the data for
+La0.7Sr0.3MnO3 in the present study were in the middle level of O2
+and CO productivities and were in good agreement with the
+previous data listed in Table 4. Furthermore, the substitution of
+10% Mg, Ni, and Co into the LSM perovskite enhanced O2 and
+CO productivities by approximately 1.3–1.4 times. The results
+indicate that the evaluation of the redox reactivity of the
+thermochemical cycle is required such that they can be
+systematically examined using the same test equipment and
+conditions.
+SUMMARY
+All samples of substituted and non-substituted LSMs were
+compared in terms of redox activity and reaction kinetics under
+the same test conditions. Mg, Ni, and Co-substituted LSM
+perovskite oxides were proposed for the thermochemical two-
+step CO2 splitting process to produce solar fuel. Mg-, Ni-, and Co-
+substituted LSMs were successfully synthesized as a solid solution
+of the perovskite structure in a trigonal unit cell without impurities
+by modiﬁed Pechini. In comparison to the non-substituted LSM,
+the Co, Ni, and Mg substitutions at the B-site of LSM enhanced
+both O2 production during the TR step and CO production during
+the subsequent CS step. The CO/O2 ratio under the appropriate
+test conditions was 1.98 (Co-substitution, TR temperature of
+1,200°C and CS temperature of 1,200°C), 2.00 (Ni-substitution,
+TR temperature of 1,200°C and CS temperature of 1,200°C), and
+1.90 (Mg-substitution, TR temperature of 1,400°C and CS
+temperature of 1,200°C), meaning the thermochemical cycling
+proceeds at approximately the stoichiometric ratio. The peak
+rates of Co-, Ni-, and Mg-substituted LSMs were the highest
+among the samples tested in this study. The peak rates of group
+C were 1.4–1.6 times greater than those of non-substituted LSM.
+Thus, the Mg-, Co-, and Ni-substituted LSMs in group C
+demonstrated higher CO productivity and superior reaction
+kinetics than the non-substituted LSM.
+The temperature impacts on the redox activity of substituted
+LSMs in group C were studied at TR temperatures of
+1,200°C–1,400°C and CS temperatures of 800°C–1,200°C. The
+stoichiometric CO/O2 ratio at an average was approximately
+attained for the Mg-, Co-, and Ni-substituted LSMs, indicating
+that the two-step reaction can proceed stoichiometrically under
+test conditions of different TR and CS temperatures. The
+temperatures in the endothermic TR step strongly affected the
+redox activity and reaction kinetics in terms of thermodynamics
+and kinetics for both steps of thermochemical cycling.
+We examined and evaluated the thermal durability and stability
+of the redox material for thermochemical two-step CO2 splitting for
+the Mg-, Co-, and Ni-substituted LSMs in group C. For all samples,
+reproducible proﬁles of O2 and CO production were observed at the
+same level without degradation during the continuous 50 runs of
+thermochemical cycling. The O2 and CO productivity over the long-
+term continuous multiple cycling were observed with the remaining
+stoichiometric ratio of CO/O2  2 without degradation of redox
+activity for the Co- and Ni-substituted LSMs as well as the Mg-
+substituted LSM. Thus, the results indicate that the Mg- Co- and Ni-
+substituted LSMs retained thermal stability and stable redox
+performance over a long reaction time.
+The change in the valence state of all ionic species for the Mg-
+substituted LSM was examined for the synthesized sample, and
+the samples obtained after the TR and subsequent CS steps of
+thermochemical two-step CO2 splitting by XPS analysis. The
+valence states of Mn were estimated to be 3.20, 3.07, and 3.39,
+respectively. The Mn valence vMn decreased after the TR step,
+releasing oxygen, and backwards increased after the subsequent
+CS step. The XPS analysis based on Mn 3s spectra indicates that
+the valence states of Mn ions contribute to the redox reaction in
+the Mg-substituted LSM during the thermochemical two-step
+process. We did not observe the valance changes of La, Sr, and Mg
+in the perovskite oxide in each step of the thermochemical two-
+step reaction.
+The redox reactivity of Mg-, Ni-, and Co-substituted LSMs in the
+present study were compared with numerous previous reports. In
+comparing results, it is necessary to be careful with regard to the test
+equipment and test conditions (reaction time and temperature in
+both steps). The data for La0.7Sr0.3MnO3 in the present study were in
+the middle level of O2 and CO productivities and were in good
+agreement with the previous data listed in Table 4. Furthermore, the
+substitution of 10% Mg, Ni, and Co into the LSM perovskite
+enhanced O2 and CO productivities by approximately 1.3–1.4
+times. The results indicate that the evaluation of the redox
+reactivity of the thermochemical cycle is required such that they
+can be systematically examined using the same test equipment and
+conditions.
+DATA AVAILABILITY STATEMENT
+The
+data
+presented
+in
+the
+study
+are
+deposited
+in
+the
+Crystallography Open Database repository, accession numbers
+of 300371, 300372, 300373, 300374, 300386, 300387, 300388,
+300389, 1521156, and 1532010.
+AUTHOR CONTRIBUTIONS
+HS contributed to conduct whole experiments and analysis,
+visualization and writing—original draft and revision; NG
+contributed
+to
+perform
+conceptualization,
+methodology,
+validation,
+formal
+analysis,
+writing—review
+and
+editing,
+supervision, project administration, funding acquisition, and
+provide software and resource; KH contributed to collaborate
+XPS analysis and visualization; YI and DY contributed to
+collaborate investigation.
+FUNDING
+This research was partially supported by the Ministry of
+Education,
+Culture,
+Sports,
+Science
+and
+Technology,
+Challenging Research (Exploratory), JSPS KAKENHI (Grant
+Frontiers in Energy Research | www.frontiersin.org
+May 2022 | Volume 10 | Article 872959
+18
+Sawaguri et al.
+Perovskite Oxide in Thermochemical Cycle
+
+
+===== Page 19 =====
+
+Number 21K18920), Grant-in-Aid for Scientiﬁc Research (B),
+JSPS KAKENHI (Grant Number 19H02658) and Grant-in-Aid
+for Scientiﬁc Research (C), JSPS KAKENHI (Grant Number
+20K05398).
+ACKNOWLEDGMENTS
+The authors gratefully acknowledge Naoki Ito at ENEOS
+Corporation
+for
+very
+helpful
+discussion,
+technical
+staff
+(Katsutoshi Iwafune) at Niigata University for supporting the
+XRD measurement, technical staff (Takahiro Nomoto) at Niigata
+University for supporting the SEM measurement.
+SUPPLEMENTARY MATERIAL
+The Supplementary Material for this article can be found online at:
+https://www.frontiersin.org/articles/10.3389/fenrg.2022.872959/
+full#supplementary-material
+REFERENCES
+Agraﬁotis, C., Roeb, M., and Sattler, C. (2015). A Review on Solar Thermal Syngas
+Production
+via
+Redox
+Pair-Based
+Water/carbon
+Dioxide
+Splitting
+Thermochemical Cycles. Renew. Sustain. Energy Rev. 42, 254–285. doi:10.
+1016/j.rser.2014.09.039
+Bayon, A., de la Calle, A., Ghose, K. K., Page, A., and McNaughton, R. (2020).
+Experimental,
+Computational
+and
+Thermodynamic
+Studies
+in
+Perovskites Metal Oxides for Thermochemical Fuel Production: A
+Review.
+Int.
+J.
+Hydrogen
+Energy
+45,
+12653–12679.
+doi:10.1016/j.
+ijhydene.2020.02.126
+Bayon, A., de la Calle, A., Stechel, E. B., and Muhich, C. (2022). Operational Limits
+of Redox Metal Oxides Performing Thermochemical Water Splitting. Energy
+Tech. 10, 2100222. doi:10.1002/ente.202100222
+Bertacco, R., Contour, J. P., Barthélemy, A., and Olivier, J. (2002). Evidence for
+Strontium Segregation in La 0.7 Sr 0.3 MnO 3 Thin Films Grown by Pulsed
+Laser Deposition: Consequences for Tunnelling Junctions. Surf. Sci. 511,
+366–372. doi:10.1016/s0039-6028(02)01546-7
+Beyreuther, E., Grafström, S., Eng, L. M., Thiele, C., and Dörr, K. (2006). XPS
+Investigation of Mn Valence in Lanthanum Manganite Thin Films under
+Variation of Oxygen Content. Phys. Rev. B 73, 155425. doi:10.1103/
+physrevb.73.155425
+Bhosale, R. R., and Takalkar, G. D. (2018). Nanostructured Co-precipitated
+Ce0.9Ln0.1O2
+(Ln
+=
+La,
+Pr,
+Sm,
+Nd,
+Gd,
+Tb,
+Dy,
+or
+Er)
+for
+Thermochemical Conversion of CO2. Ceram. Int. 44, 16688–16697. doi:10.
+1016/j.ceramint.2018.06.096
+Biesinger, M. C., Payne, B. P., Grosvenor, A. P., Lau, L. W. M., Gerson, A. R.,
+Smart, R. S. C., et al. (2011). Resolving Surface Chemical States in XPS
+Analysis of First Row Transition Metals, Oxides and Hydroxides: Cr, Mn,
+Fe, Co and Ni. Appl. Surf. Sci. 257, 2717–2730. doi:10.1016/j.apsusc.2010.
+10.051
+Bork, A. H., Kubicek, M., Struzik, M., and Rupp, J. L. M. (2015). Perovskite
+La0.6Sr0.4Cr1−xCoxO3−δ Solid Solutions for Solar-Thermochemical Fuel
+Production: Strategies to Lower the Operation Temperature. J. Mat. Chem.
+A 3, 15546–15557. doi:10.1039/c5ta02519b
+Bulﬁn, B., Miranda, M., and Steinfeld, A. (2021). Performance Indicators for
+Benchmarking Solar Thermochemical Fuel Processes and Reactors. Front.
+Energy Res. 9, 677980. doi:10.3389/fenrg.2021.677980
+Cao, K., Cao, E., Zhang, Y., Hao, W., Sun, L., and Peng, H. (2016). The Inﬂuence of
+Nonstoichiometry on Electrical Transport and Ethanol Sensing Characteristics
+for Nanocrystalline LaFe O3−Sensors. Sensors Actuators B Chem. 230,
+592–599. doi:10.1016/j.snb.2016.02.096
+Chen, Y., Yang, L., Ren, F., and An, K. (2014). Visualizing the Structural Evolution
+of LSM/xYSZ Composite Cathodes for SOFC by in-situ Neutron Diffraction.
+Sci. Rep. 4, 5179. doi:10.1038/srep05179
+Deml, A. M., Stevanović, V., Holder, A. M., Sanders, M., O’Hayre, R., and
+Musgrave, C. B. (2014). Tunable Oxygen Vacancy Formation Energetics in
+the Complex Perovskite Oxide SrxLa1-xMnyAl1-yO3. Chem. Mat. 26,
+6595–6602. doi:10.1021/cm5033755
+Demont, A., Abanades, S., and Beche, E. (2014). Investigation of Perovskite
+Structures as Oxygen-Exchange Redox Materials for Hydrogen Production
+from Thermochemical Two-step Water-Splitting Cycles. J. Phys. Chem. C 118,
+12682–12692. doi:10.1021/jp5034849
+Demont, A., and Abanades, S. (2014). High Redox Activity of Sr-Substituted
+Lanthanum Manganite Perovskites for Two-step Thermochemical Dissociation
+of CO2. RSC Adv. 4, 54885–54891. doi:10.1039/c4ra10578h
+Demont, A., and Abanades, S. (2015). Solar Thermochemical Conversion of CO2
+into Fuel via Two-step Redox Cycling of Non-stoichiometric Mn-Containing
+Perovskite Oxides. J. Mat. Chem. A 3, 3536–3546. doi:10.1039/c4ta06655c
+Dey, S., Naidu, B. S., Govindaraj, A., and Rao, C. N. R. (2015). Noteworthy
+Performance of La1−xCaxMnO3 Perovskites in Generating H2 and CO by the
+Thermochemical Splitting of H2O and CO2. Phys. Chem. Chem. Phys. 17,
+122–125. doi:10.1039/c4cp04578e
+Dey, S., Naidu, B. S., and Rao, C. N. R. (2016). Beneﬁcial Effects of Substituting
+Trivalent Ions in the B-Site of La0.5Sr0.5Mn1−xAxO3 (A = Al, Ga, Sc) on the
+Thermochemical Generation of CO and H2 from CO2 and H2O. Dalton Trans.
+45, 2430–2435. doi:10.1039/c5dt04822b
+Dey, S., Naidu, B. S., and Rao, C. N. R. (2015). Ln0.5A0.5MnO3(Ln=Lanthanide,
+A=
+Ca,
+Sr)
+Perovskites
+Exhibiting
+Remarkable
+Performance
+in
+the
+Thermochemical Generation of CO and H2from CO2and H2O. Chem. Eur.
+J. 21, 7077–7081. doi:10.1002/chem.201500442
+Dutta, B. N. (1962). Lattice Constants and Thermal Expansion of Silicon up to
+900 °C by X-Ray Method. Phys. Stat. Sol. (b) 2, 984–987. doi:10.1002/pssb.
+19620020803
+El-Fadli, Z., Redouane Metni, M., Sapiña, F., Martinez, E., José-Vicente Folgado,
+and, A., and Beltrán, A. (2002). Electronic Properties of Mixed-Valence
+Manganates: The Role of Mn Substitutional Defects. Chem. Mat. 14,
+688–696. doi:10.1021/cm010655e
+Galakhov, V. R., Demeter, M., Bartkowski, S., Neumann, M., Ovechkina, N. A.,
+Kurmaev, E. Z., et al. (2002). Mn3sexchange Splitting in Mixed-Valence
+Manganites. Phys. Rev. B 65, 113102. doi:10.1103/physrevb.65.113102
+Galenda, A., Natile, M. M., Krishnan, V., Bertagnolli, H., and Glisenti, A. (2007).
+LaSrCoFeO and Fe2O3/LaSrCoFeO Powders: Synthesis and Characterization.
+Chem. Mat. 19, 2796–2808. doi:10.1021/cm062742i
+Ginley, D. S., and Cahen, D. (2011). Fundamentals of Materials for Energy and
+Environmental Sustainability. Cambridge University Press.
+Gokon, N., Hara, K., Ito, N., Sawaguri, H., Bellan, S., Kodama, T., et al. (2020).
+Thermochemical H2O Splitting Using LaSrMnCrO3 of Perovskite Oxides for
+Solar Hydrogen Production. AIP Conf. Proc. 2303, 170007.
+Gokon, N., Hara, K., Sugiyama, Y., Bellan, S., Kodama, T., and Hyun-seok, C.
+(2019). Thermochemical Two-step Water Splitting Cycle Using Perovskite
+Oxides Based on LaSrMnO3 Redox System for Solar H2 Production.
+Thermochim. Acta 680, 178374. doi:10.1016/j.tca.2019.178374
+Gokon, N., Suda, T., and Kodama, T. (2015). Oxygen and Hydrogen Productivities
+and Repeatable Reactivity of 30-Mol%-Fe-, Co-, Ni-, Mn-Doped CeO2-δ for
+Thermochemical Two-step Water-Splitting Cycle. Energy 90, 1280–1289.
+Hussain, A., Arif, S. M., and Aslam, M. (2017). Emerging Renewable and
+Sustainable Energy Technologies: State of the Art. Renew. Sustain. Energy
+Rev. 71, 12–28. doi:10.1016/j.rser.2016.12.033
+Ilango, P. R., Prasanna, K., Do, S. J., Jo, Y. N., and Lee, C. W. (2016). Eco-friendly
+Nitrogen-Containing Carbon Encapsulated LiMn2O4 Cathodes to Enhance the
+Electrochemical Properties in Rechargeable Li-Ion Batteries. Sci. Rep. 6, 29826.
+doi:10.1038/srep29826
+Jiang, Q., Tong, J., Zhou, G., Jiang, Z., Li, Z., and Li, C. (2014). Thermochemical
+CO2 Splitting Reaction with Supported LaxA1−xFeyB1−yO3 (A=Sr, Ce, B=Co,
+Mn; 0#x, Y#1) Perovskite Oxides. Sol. Energy 103, 425–437. doi:10.1016/j.
+solener.2014.02.033
+Frontiers in Energy Research | www.frontiersin.org
+May 2022 | Volume 10 | Article 872959
+19
+Sawaguri et al.
+Perovskite Oxide in Thermochemical Cycle
+
+
+===== Page 20 =====
+
+Jiang, Q., Zhou, G., Jiang, Z., and Li, C. (2014). Thermochemical CO2 Splitting
+Reaction with CexM1−xO2−δ (M=Ti4+, Sn4+, Hf4+, Zr4+, La3+, Y3+ and
+Sm3+) Solid Solutions. Sol. Energy 99, 55–66. doi:10.1016/j.solener.2013.10.021
+Jouannaux, J., Haeussler, A., Drobek, M., Ayral, A., Abanades, S., and Julbe, A.
+(2019). Lanthanum Manganite Perovskite Ceramic Powders for CO2 Splitting:
+Inﬂuence of Pechini Synthesis Parameters on Sinterability and Reactivity.
+Ceram. Int. 45, 15636–15648. doi:10.1016/j.ceramint.2019.05.075
+Kim, J., Johnson, T. A., Miller, J. E., Stechel, E. B., and Maravelias, C. T. (2012). Fuel
+Production from CO2 Using Solar-Thermal Energy: System Level Analysis.
+Energy Environ. Sci. 5, 8417–8429. doi:10.1039/c2ee21798h
+Lange, M., Roeb, M., Sattler, C., and Pitz-Paal, R. (2014). T-S Diagram Efﬁciency
+Analysis of Two-step Thermochemical Cycles for Solar Water Splitting under
+Various Process Conditions. Energy 67, 298–308. doi:10.1016/j.energy.2014.
+01.112
+Liu, X., Wang, T., Gao, K., Meng, X., Song, C., Zhu, Z., et al. (2021). Ca- and Ga-
+Doped LaMnO3 for Solar Thermochemical CO2 Splitting with High Fuel Yield
+and Cycle Stability. ACS Appl. Energy Mat. 4, 9000–90129012. doi:10.1021/
+acsaem.1c01274
+Lu, Y., Zhu, L., Agraﬁotis, C., Vieten, J., Roeb, M., and Sattler, C. (2019). Solar Fuels
+Production: Two-step Thermochemical Cycles with Cerium-Based Oxides.
+Prog. Energy Combust. Sci. 75, 100785. doi:10.1016/j.pecs.2019.100785
+Lubomirsky, I., and Cahen, D. (2012). Energy Limitations on Materials
+Availability. MRS Bull. 37, 412–416. doi:10.1557/mrs.2012.56
+Luciani, G., Landi, G., Aronne, A., and Di Benedetto, A. (2018). Partial Substitution
+of B Cation in La0.6Sr0.4MnO3 Perovskites: A Promising Strategy to Improve
+the Redox Properties Useful for Solar Thermochemical Water and Carbon
+Dioxide Splitting. Sol. Energy 171, 1–7. doi:10.1016/j.solener.2018.06.058
+Luo, Y., Sun, Y., Lv, J., WangWang, X. J., Li, J., and Wang, F. (2015). Transition of
+Interface Oxide Layer from Porous Mg(OH)2 to Dense MgO Induced by
+Polyaniline and Corrosion Resistance of Mg Alloy Therefrom. Appl. Surf. Sci.
+328, 247–254. doi:10.1016/j.apsusc.2014.11.177
+Marxer, D., Furler, P., Scheffe, J., Geerlings, H., Falter, C., Batteiger, V., et al. (2015).
+Demonstration of the Entire Production Chain to Renewable Kerosene via Solar
+Thermochemical Splitting of H2O and CO2. Energy fuels. 29, 3241–3250.
+doi:10.1021/acs.energyfuels.5b00351
+McCabe, E. E., and Greaves, C. (2006). Synthesis and Structural and Magnetic
+Characterization of Mixed Manganese-Copper N = 1 Ruddlesden-Popper
+Phases. Mater. Sci. Eng. B 98, 5774–5781. doi:10.1016/s0921-5107(02)00758-4
+McDaniel, A. H., Miller, E. C., Ariﬁn, D., Ambrosini, A., Coker, E. N., O’Hayre, R.,
+et al. (2013). Sr- and Mn-Doped LaAlO3−δ for Solar Thermochemical H2 and
+CO Production. Energy Environ. Sci. 6, 2424–2428. doi:10.1039/c3ee41372a
+McIntyre, N. S., and Cook, M. G. (1975). X-ray Photoelectron Studies on Some
+Oxides and Hydroxides of Cobalt, Nickel, and Copper. Anal. Chem. 47,
+2208–2213. doi:10.1021/ac60363a034
+Meng, Q.-L., Lee, C.-i., Ishihara, T., Kaneko, H., and Tamaura, Y. (2011). Reactivity
+of CeO2-Based Ceramics for Solar Hydrogen Production via a Two-step Water-
+Splitting Cycle with Concentrated Solar Energy. Int. J. Hydrogen Energy 36,
+13435–13441. doi:10.1016/j.ijhydene.2011.07.089
+Miller, J. E., McDaniel, A. H., and Allendorf, M. D. (2014). Considerations in the
+Design of Materials for Solar-Driven Fuel Production Using Metal-Oxide
+Thermochemical Cycles. Adv. Energy Mat. 4, 1300469. doi:10.1002/aenm.
+201300469
+Mostafa, M. F., Ata-Allah, S. S., and Refai, H. S. (2008). Synthesis, Structure and
+Electric Studies for La0.7A0.3Mn0.96(InxAl(1−x))0.04O3; A=Ca and Sr
+Perovskites. J. Solid State Chem. 181, 1056–1069. doi:10.1016/j.jssc.2008.01.038
+Nair, M. M., and Abanades, S. (2018). Experimental Screening of Perovskite Oxides
+as Efﬁcient Redox Materials for Solar Thermochemical CO2 Conversion.
+Sustain. Energy Fuels 2, 843–854. doi:10.1039/c7se00516d
+Norman, C., and Leach, C. (2011). In Situ high Temperature X-Ray Photoelectron
+Spectroscopy Study of Barium Strontium Iron Cobalt Oxide. J. Membr. Sci. 382,
+158–165. doi:10.1016/j.memsci.2011.08.006
+Orﬁla, M., Linares, M., Molina, R., Botas, J., Sanz, R., and Marugán, J. (2016).
+Perovskite Materials for Hydrogen Production by Thermochemical Water
+Splitting. Int. J. Hydrogen Energy 41, 19329–19338. doi:10.1016/j.ijhydene.
+2016.07.041
+Paiva-Santos, C. O., Marques, R. F. C., Jafelicci, M., and Varanda, L. C. (2002).
+X-ray Powder Data and Bond Valence of La0.65Sr0.35MnO3 after Rietveld
+Reﬁnement. Powder Diffr. 17, 149–152. doi:10.1154/1.1481522
+Pechini, M. P. (1967). U. S. Pat. 3, 330697.
+Petrov, A. N., Voronin, V. I., Norby, T., and Kofstad, P. (1999). Crystal Structure of
+the Mixed Oxides La0.7Sr0.3Co1−zMnzO3±y(0≤z≤1). J. Solid State Chem. 143,
+52–57. doi:10.1006/jssc.1998.8073
+Polfus, J. M., Xing, W., Sunding, M. F., Hanetho, S. M., Dahl, P. I., Larring, Y., et al.
+(2015). Doping Strategies for Increased Oxygen Permeability of CaTiO3 Based
+Membranes. J. Membr. Sci. 482, 137–143. doi:10.1016/j.memsci.2015.02.036
+Press, W. H., and Teukolsky, S. A. (1990). Savitzky-Golay Smoothing Filters.
+Comput. Phys. 4, 669. doi:10.1063/1.4822961
+Randhir, K., Rhodes, N. R., Li, L., AuYeung, N., Hahn, D. W., Mei, R., et al. (2018).
+Magnesioferrites for Solar Thermochemical Fuel Production. Sol. Energy 163,
+1–15. doi:10.1016/j.solener.2017.12.006
+Reshmi, C. P., Savitha Pillai, S., Suresh, K. G., and Varma, M. R. (2013). Room
+Temperature Magnetocaloric Properties of Ni Substituted La0.67Sr0.33MnO3.
+Solid State Sci. 19, 130–135. doi:10.1016/j.solidstatesciences.2013.02.019
+Riaz, A., Kreider, P., Kremer, F., Tabassum, H., Yeoh, J. S., Lipinski, W., et al.
+(2019). Electrospun
+Manganese-Based
+Perovskites
+as Efﬁcient
+Oxygen
+Exchange Redox Materials for Improved Solar Thermochemical CO2
+Splitting. ACS Appl. Energy Mater. 2, 2495–2505. doi:10.1021/acsaem.8b01994
+Sakairi, M., Sasaki, R., and Suzuki, K. (2015). Surface Analysis of Al Alloys with
+X-Ray Photoelectron and Auger Electron Spectroscopies. Zakaep 64, 281–284.
+doi:10.3323/jcorr.64.281
+Sawaguri, H., Gokon, N., Cho, H., and Kodama, T. (2021). Selvan Bellan,
+Temperature Impacts on Reactivity of La0.7A0.3Mn0.9Cr0.1O3-δ of Perovskite
+Oxides in a Thermochemical Two-step H2O/CO2 Splitting. SolarPACES.
+Online, September 27 – October 1, 2021.
+Sawaguri, H., Gokon, N., Ito, N., Bellan, S., Kodama, T., and Cho, H. (2020).
+Thermochemical Two-step CO2 Splitting Using La0.7Sr0.3Mn0.9Cr0.1O3 of
+Perovskite Oxide for Solar Fuel Production. AIP Conf. Proc. 2303, 170013.
+Scheffe, J. R., Weibel, D., and Steinfeld, A. (2013). Lanthanum-Strontium-
+Manganese Perovskites as Redox Materials for Solar Thermochemical
+Splitting of H2O and CO2. Energy fuels. 27, 4250–4257. doi:10.1021/
+ef301923h
+Schunk, L. O., Haeberling, P., Wepf, S., Wuillemin, D., Meier, A., and Steinfeld, A.
+(2008). A Receiver-Reactor for the Solar Thermal Dissociation of Zinc Oxide.
+J. Sol. Energy Eng. 2, 130. doi:10.1115/1.2840576
+Shannon, R. D., and Prewitt, C. T. (1969). Effective Ionic Radii in Oxides and
+Fluorides.
+Acta
+Crystallogr.
+Sect.
+B
+25,
+925–946.
+doi:10.1107/
+s0567740869003220
+Shirley, D. A. (1972). High-Resolution X-Ray Photoemission Spectrum of the
+Valence Bands of Gold. Phys. Rev. B 5, 4709–4714. doi:10.1103/physrevb.5.
+4709
+Sunarso, J., Hashim, S. S., Zhu, N., and Zhou, W. (2017). Perovskite Oxides
+Applications in High Temperature Oxygen Separation, Solid Oxide Fuel Cell
+and Membrane Reactor: A Review. Prog. Energy Combust. Sci. 61, 57–77. doi:10.
+1016/j.pecs.2017.03.003
+Takalkar, G., Bhosale, R., and AlMomani, F. (2019). Combustion Synthesized
+A0.5Sr0.5MnO3-δ Perovskites (Where, A = La, Nd, Sm, Gd, Tb, Pr, Dy, and Y)
+as Redox Materials for Thermochemical Splitting of CO2. Appl. Surf. Sci. 489,
+80–91. doi:10.1016/j.apsusc.2019.05.284
+Takalkar, G., Bhosale, R. R., AlMomani, F., Kumar, A., Banu, A., Ashok, A., et al.
+(2020). Thermochemical Splitting of CO2 Using Solution Combustion
+Synthesized LaMO3 (Where, M = Co, Fe, Mn, Ni, Al, Cr, Sr). Appl. Surf.
+Sci. 509, 144908. doi:10.1016/j.apsusc.2019.144908
+Takalkar, G., Bhosale, R. R., AlMomani, F., Rashid, S., Qiblawey, H., Saleh Saad, M.
+A., et al. (2021). Thermochemical Splitting of CO2 Using Solution Combustion
+Synthesized Lanthanum-Strontium-Manganese Perovskites. Fuel 285, 119154.
+doi:10.1016/j.fuel.2020.119154
+Takalkar, G., and Bhosale, R. R. (2019). Solar Thermocatalytic Conversion of CO2
+Using PrxSr(1−x)MnO3−δ Perovskites. Fuel 254, 115624. doi:10.1016/j.fuel.
+2019.115624
+Tamaura, Y., Steinfeld, A., Kuhn, P., and Ehrensberger, K. (1995). Production of
+Solar Hydrogen by a Novel, 2-step, Water-Splitting Thermochemical Cycle.
+Energy 20, 325–330. doi:10.1016/0360-5442(94)00099-o
+Troyanchuk, I. O., Bushinsky, M. V., Eﬁmov, V., Schorr, S., Ritter, C., and
+Sikolenko,
+V.
+(2015).
+Ferromagnetic
+Ordering
+in
+La0.7Sr0.3Mn3+0.85Nb5+0.15O3
+Manganite.
+Powder
+Diffr.
+30
+(S1),
+S97–S100. doi:10.1017/s0885715615000032
+Frontiers in Energy Research | www.frontiersin.org
+May 2022 | Volume 10 | Article 872959
+20
+Sawaguri et al.
+Perovskite Oxide in Thermochemical Cycle
+
+
+===== Page 21 =====
+
+Uwamino, Y., Ishizuka, T., and Yamatera, H. (1984). X-ray Photoelectron
+Spectroscopy
+of
+Rare-Earth
+Compounds.
+J.
+Electron
+Spectrosc.
+Relat.
+Phenom. 34, 67–78. doi:10.1016/0368-2048(84)80060-2
+Vasquez, R. P. (1991). X-ray Photoelectron Spectroscopy Study of Sr and Ba
+Compounds. J. Electron Spectrosc. Relat. Phenom. 56, 217–240. doi:10.1016/
+0368-2048(91)85005-e
+Vogt, T., and Schmahl, W. W. (1993). The High-Temperature Phase Transition in
+Perovskite. Europhys. Lett. 24, 281–285. doi:10.1209/0295-5075/24/4/008
+Wang, L., Ma, T., Dai, S., Ren, T., Chang, Z., Dou, L., et al. (2020). Experimental
+Study on the High Performance of Zr Doped LaCoO3 for Solar Thermochemical
+CO Production. Chem. Eng. J. 389, 124426. doi:10.1016/j.cej.2020.124426
+Wang, W., Yuan, F., Niu, X., and Zhu, Y. (2016). Preparation of Pd Supported on La(Sr)-
+Mn-O Perovskite by Microwave Irradiation Method and its Catalytic Performances
+for the Methane Combustion. Sci. Rep. 6, 19511. doi:10.1038/srep19511
+Wang, X., Huang, K., Qian, J., Cong, Y., Ge, C., and Feng, S. (2017). Enhanced CO
+Catalytic Oxidation by Sr Reconstruction on the Surface of La X Sr 1−X CoO 3−
+δ. Sci. Bull. 62, 658–664. doi:10.1016/j.scib.2017.03.017
+Wu, H., Lei, X., Zhang, J., Yu, J., and Zhang, S. (2014). Lattice Thermal Expansion
+of the Solid Solutions (La1−xSmx)2Ce2O7. Mater. Res. Bull. 57, 320–324.
+doi:10.1016/j.materresbull.2014.06.016
+Xia, W., Leng, K., Tang, Q., Yang, L., Xie, Y., Wu, Z., et al. (2021). Structural
+Characterization, Magnetic and Optical Properties of Perovskite (La1−xLnx)
+0.67Ca0.33MnO3 (Ln = Nd and Sm; X = 0.0-0.5) Nanoparticles Synthesized via
+the Sol-Gel Process. J. Alloys Compd. 867, 158808. doi:10.1016/j.jallcom.2021.158808
+Yanchevskii, O. Z., V’yunov, O. I., Belous, A. G., and Tovstolytkin, A. I. (2006).
+Crystallographic,
+Electrical,
+and
+Magnetic
+Properties
+of
+the
+System
+La0.7Sr0.3Mn1−xFexO3. Low. Temp. Phys. 32, 134–138. doi:10.1063/1.2171513
+Yao, H. B., Li, Y., and Wee, A. T. S. (2000). An XPS Investigation of the Oxidation/
+corrosion of Melt-Spun Mg. Appl. Surf. Sci. 158, 112–119. doi:10.1016/s0169-
+4332(99)00593-0
+Zhang, Y. B., Li, S., Sun., C. Q., and Gao, W. (2003). Possible Origin of Magnetic
+Transition Ordering in La2/3A1/3MnO3 Oxides (2003), 54–59.
+Zhang,
+B.,
+Chang,
+A.,
+Zhao,
+Q.,
+Ye,
+H.,
+and
+Wu,
+Y.
+(2014).
+Synthesis and Thermoelectric Properties of Yb-Doped Ca0.9−x Yb X
+La0.1MnO3
+Ceramics.
+J.
+Elec
+Materi
+43,
+4048–4055.
+doi:10.1007/
+s11664-014-3326-8
+Conﬂict of Interest: The authors declare that the research was conducted in the
+absence of any commercial or ﬁnancial relationships that could be construed as a
+potential conﬂict of interest.
+Publisher’s Note: All claims expressed in this article are solely those of the authors
+and do not necessarily represent those of their afﬁliated organizations, or those of
+the publisher, the editors and the reviewers. Any product that may be evaluated in
+this article, or claim that may be made by its manufacturer, is not guaranteed or
+endorsed by the publisher.
+Copyright © 2022 Sawaguri, Gokon, Hayashi, Iwamura and Yasuhara. This is an
+open-access article distributed under the terms of the Creative Commons Attribution
+License (CC BY). The use, distribution or reproduction in other forums is permitted,
+provided the original author(s) and the copyright owner(s) are credited and that the
+original publication in this journal is cited, in accordance with accepted academic
+practice. No use, distribution or reproduction is permitted which does not comply
+with these terms.
+Frontiers in Energy Research | www.frontiersin.org
+May 2022 | Volume 10 | Article 872959
+21
+Sawaguri et al.
+Perovskite Oxide in Thermochemical Cycle

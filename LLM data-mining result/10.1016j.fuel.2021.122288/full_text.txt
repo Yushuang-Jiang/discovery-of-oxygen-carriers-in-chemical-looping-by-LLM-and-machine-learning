@@ -1,0 +1,960 @@
+
+
+===== Page 1 =====
+
+Fuel 310 (2022) 122288
+Available online 25 October 2021
+0016-2361/© 2021 Elsevier Ltd. All rights reserved.
+CuO/ZrO2 modified by WO3 oxygen carriers for chemical looping with 
+oxygen uncoupling 
+Amr Abdalla , Mohanned Mohamedali , Nader Mahinpey * 
+Department of Chemical and Petroleum Engineering, Schulich School of Engineering, University of Calgary, Calgary, AB T2N 1N4, Canada   
+A R T I C L E  I N F O   
+Keywords: 
+Chemical looping with oxygen uncoupling 
+Cu-based oxygen carriers 
+WO3 modification 
+Mixed metal oxides 
+Oxygen carrying capacity 
+A B S T R A C T   
+The use of mixed metal oxides as oxygen carriers for chemical looping with oxygen uncoupling (CLOU) appli­
+cations has shown great potential compared to single metal oxide-based oxygen carriers. In this work, the effects 
+of adding WO3 to CuO/ZrO2 oxygen carriers on the oxygen capacity and rate indices for CLOU applications are 
+investigated using nitrogen gas environment. Two synthesis methods were used to prepare the CuO-WO3/ZrO2 
+oxygen carriers, namely the coimpregnation and sequential impregnation, to evaluate the role of the oxygen 
+carriers’ preparation method. The resulting oxygen carriers were thoroughly characterized using XRD, ICP-OES, 
+SEM-EDS and H2-TPR characterization techniques to evaluate the physicochemical properties of the mixed oxide 
+oxygen carriers. The oxygen transport capacity was found to significantly increase for the WO3-modified oxygen 
+carriers compared with the single metal oxide CuO/ZrO2 which was due to the formation of a Cu-W intermediate 
+phases that was found to enhance the redox characteristics of the oxygen carriers. Moreover, the sample syn­
+thesized via coimpregnation method displayed higher oxygen release capacity than the sequentially impregnated 
+sample. This was ascribed to the formation a Cu-rich intermediate phase (Cu3WO6) possessing higher Cu/W ratio 
+on the coimpregnated sample compared with a CuWO4-x phase with lower Cu/W ratio and larger crystallite 
+structure formed on the sequentially impregnated oxygen carrier. The mixed metal oxide oxygen carriers also 
+showed a stable redox performance which highlights the potential of WO3 as a modifier to Cu-based oxygen 
+carriers to enhance the oxygen capacity and subsequently decrease the solids inventory. The proposed WO3- 
+based promotors offer significant trait to synthesize Cu-based oxygen carriers with excellent properties for CLOU 
+applications.   
+1. Introduction 
+Chemical-looping with oxygen uncoupling (CLOU) is a CO2 capture 
+technology in which the fuel is oxidized using oxygen provided by solid 
+materials called oxygen carriers (OCs) without the need of direct contact 
+with air [1]. The OCs are circulated between an air reactor and a fuel 
+reactor to transport oxygen from air to fuel. Moreover, the OCs used in 
+CLOU process should have the ability to release gaseous oxygen in the 
+fuel reactor, so that the fuel can directly react with oxygen in the gas 
+phase and form CO2 and H2O when completely combusted [2]. The 
+reactions that can typically occur in CLOU fuel reactor are oxygen 
+release and fuel complete combustion and can be represented by Re­
+actions (R1) and (R2), respectively. While the oxidation of the reduced 
+OC transferred to the air reactor can be represented by Reaction (R3) 
+[1,2]. The reaction mechanism of CLOU is different from that of con­
+ventional chemical looping combustion (CLC) in a sense that no direct 
+reaction between the fuel and the OCs occurs, which is beneficial when 
+using solid fuels since the slow gasification reaction can be avoided [3]. 
+Reactions in fuel reactor: 
+MyOx→2MyOx−I + O2
+(R1)  
+CmH2n +
+(
+m + n
+2
+)
+O2→mCO2 + nH2O
+(R2) 
+Reaction in air reactor: 
+2MyOx−1(Reduced OC) + O2(from air)→MyOx(Oxidized OC) + air(N2
++ depleted O2)
+(R3) 
+The OCs used for CLOU should possess similar properties to those 
+used for CLC, and these properties include high reactivity, mechanical 
+and thermal stability, and low cost. Moreover, the OCs designed for 
+* Corresponding author. 
+E-mail address: nader.mahinpey@ucalgary.ca (N. Mahinpey).  
+Contents lists available at ScienceDirect 
+Fuel 
+journal homepage: www.elsevier.com/locate/fuel 
+https://doi.org/10.1016/j.fuel.2021.122288 
+Received 17 August 2021; Received in revised form 8 October 2021; Accepted 12 October 2021   
+
+
+===== Page 2 =====
+
+Fuel 310 (2022) 122288
+2
+CLOU should be thermodynamically able to release the required oxygen 
+for complete fuel combustion in the fuel reactor and to be oxidizable by 
+air in the air reactor. CuO-based OCs are amongst the most promising 
+OCs suggested for chemical looping applications due to their attractive 
+properties [1]. Nonetheless, one of the main issues associated with the 
+use of Cu-based OCs is the low melting point of Cu (1085 ◦C) which 
+limits their use in CLC applications. However, under an inert atmosphere 
+(N2) CuO is reduced to Cu2O which has relatively higher melting points 
+compared with Cu. 
+Previous studies [4–6] have demonstrated that Cu-based OCs can 
+display high CLOU activities with complete combustion and high CO2 
+capture efficiencies for different fuels. Also, literature review on OCs has 
+demonstrated that addition of supports and modifiers possesing high 
+Tammann temperatures has positive impacts on the sintering resistance 
+of CuO-based oxygen carriers. For instance, the use of MgO, which has 
+high Tammann temperature compared to SiO2, helped to constrain 
+particle growth and inhibits agglomeration of CuO particles, which 
+resulted in higher oxygen capacity of CuO/MgO OC [7]. In another 
+investigation, TiO2, CuAl2O4, MgAl2O4 and ZrO2 were used to support 
+CuO for nirogen (N2) CLOU, and it was found that ZrO2, which also has 
+high Tamman temperature (1494 K), displayed the highest sintering 
+resistance among the tested supports [8]. Gay´an et al. [9] studied several 
+OCs for CLOU by varying metal oxide loadings, supports and preparation 
+methods. Amongst the tested OCs, it was found that the sample with 40 
+wt% CuO loading supported over ZrO2 has good CLOU properties, such 
+as high reactivity, stability, sintering resistance, and fluidization 
+characteristics. 
+In order to further improve the properties of Cu-based OCs for CLOU 
+applications, the use of combined metal oxides has also been proposed to 
+benefit from the synergism between the individual metal oxides [10]. 
+Cu-Mn mixed oxides were evaluated for CLOU using solid fuels which 
+shown significantly improved redox properties with complete fuel 
+combustion and efficient CO2 capture [11–13]. Moreover, Cu-Mn-Fe 
+mixed oxides were also tested for CLOU, and the OCs prepared exhibi­
+ted high reactivity and stability without agglomeration issues [14]. 
+Additionally, Mn-Fe combined oxides were investigated by Azimi and 
+co-workers [15], and it was concluded that a high oxygen release could 
+be achieved during the reduction of bixbyite (Fe,Mn)2O3 phase into (Fe, 
+Mn)3O4 spinel. This demonstrates the advantages of forming mixed 
+metal oxide phases which can release oxygen upon their reduction. 
+WO3 is another promising metal oxide with high Tammann tem­
+perature and distinctive structural and physicochemical properties that 
+can form intermediate phases with CuO and should be considered as a 
+promising candidate for the preparation of combined metal oxides in 
+CLOU [16–18]. However, its low reactivity and poor reducibility 
+obstructed its use in CLC and CLOU applications. Previous H2-reduction 
+investigations were performed on Cu-W oxide mixtures [19,20], and it 
+was found that the reduction of WO3 can occur at relatively lower 
+temperatures in the presence of CuO due to the formation of Cu-W in­
+termediate phases. Moreover, the samples prepared with higher CuO 
+content resulted in more homogeneous particels with smaller sizes [20]. 
+The disticntive structural properties and thermal stability of WO3, makes 
+it a promising modifier for CuO-based oxygen carriers in CLOU appli­
+cations. However, to the best of our knowledge there is no studies re­
+ported to the date this investigation is performed for the preparation and 
+evaluation of CuO-WO3 mixed metal oxide in the context of chemical 
+looping applications. This study reveals the promotional effects of WO3 
+to CuO/ZrO2 Oxygen carriers in CLOU applications to enhance the redox 
+cyclic performance and oxygen carrying capacity. 
+In this work, we studied the preparation of WO3 modifed CuO/ZrO2 
+OCs using coimpregnation and sequential impregnation and assess their 
+performance in CLOU applicaions using N2. Moroever, the propsoed 
+study eluicdate how the addition of WO3 could influence the structuaral 
+properties of the OCs and their redox properties, oxygen transport ca­
+pacity, and kinetics. Detailed charcterizations of the prepared samples 
+are perfromed to get an understanding of the effects of the structural 
+properties on the CLOU perfromance. This study offers great insights 
+into the promotional effects of WO3 on improving the oxygen uncou­
+pling characteristics of CuO-based materials. The proposed promotional 
+scheme using WO3 will help addressing a major obstacle limiting the 
+large-scale use of Cu-based oxygen carriers In CLOU process, which is 
+the low oxygen carrying capacity. This is significantly important from 
+process performance point of view in large-scale apllications as it can 
+considerably decrease the solid make-up and circulation rate between 
+the two reactors. 
+2. Materials and methods 
+2.1. Materials 
+Zirconium oxide (ZrO2), copper(II) nitrate trihydrate (Cu 
+(NO3)2⋅3H2O) and ammonium metatungstate ((NH4)6(H2W12O40)) were 
+obtained from Sigma Aldrich, Canada. 
+2.2. Preparation of the oxygen carriers 
+Oxygen carriers used in this study were prepared using impregnation 
+methods. The Cu-based single metal oxide OC was prepared by dis­
+solving zirconium oxide in distilled water, followed by the dissolution of 
+the active metal precursor (Cu(NO3)2⋅3H2O). The solution was mixed for 
+6 h, after which heating to 80 ◦C was performed to evaporate the water. 
+The obtained powder was further dried at 120 ◦C for 12 h, and calcined 
+at 800 ◦C for 8 h with 2 ◦C/ minute heating rate. The final sample named 
+CuO(40%)/ZrO2. For the coimpregnated dual metal oxide oxygen car­
+rier (CuO(40%)-WO3(20%)/ZrO2), the required metal precursors 
+amounts of (Cu(NO3)2⋅3H2O) and ((NH4)6(H2W12O40)) were added to 
+the dissolved zirconia. Similar steps were followed to obtain final 
+powderd 
+sample 
+designated 
+as 
+CuO(40%)-WO3(20%)/ZrO2- 
+Coimpregnation. 
+The oxygen carrier designated as CuO(40%)/WO3(20%)-ZrO2- 
+Sequential impregnation was prepared by firstly impregnating WO3 over 
+ZrO2 to form WO3(33.33%)/ZrO2, by following the same steps stated 
+above. WO3(33.33%)/ZrO2 was used as a support to be impregnated 
+with CuO. Similar impregantion steps were followed again, to end with 
+an oxygen carrier with a nominal compisition of 40% CuO, 20% WO3 
+and 40% ZrO2. 
+2.3. Characterizations 
+Analysis of metallic elements incorporated within the OCs was per­
+formed using Inductively Coupled Plasma- Optical Emission Spectros­
+copy (ICP-OES) using Agilent’s 5110 ICP-OES. Before analysis, the 
+samples were digested using Anton Paar’s Multiwave 5000 microwave 
+digestion system by dissolving 50 mg of the OCs in 5 ml of total acid (1 
+ml HNO3, 3 ml HCL and 1 ml HF) for 30 min using 900 W power. After 
+digestion, samples and standards for metals were diluted to 1–100 ppm 
+range before introduction to analysis system. 
+X-ray Powder Diffraction (XRD) was performed using Rigaku X-ray 
+Diffractometer (Multiflux 2 kW Copper target), using a Cu K-alpha ra­
+diation with a wavelength of 1.5406 Å source. XRD was performed for 
+both oxidized and reduced OCs. The analysis was performed using two- 
+theta from 5 to 80◦, 0.02-degree step, and scanning rate of 2◦/minute. 
+The equipment was operated at 40 kV voltage and 40 mA current. XRD 
+patterns were obtained and analyzed using Jade XRD MDI library. 
+Scanning Electron Microscopy-Energy-Dispersive X-ray Spectros­
+copy (SEM-EDS) was conducted on FEI Quanta 250 FEG microscope 
+fitted with backscattered electron detector (BSE) for BSE imaging and 
+Bruker Quantax 5030 Silicon Drift detector for EDS mapping. 
+Fourier Transform Infrared Spectra (FTIR) were collected using 
+PerkinElmer Spectrum Two FTIR Spectrometer. The samples were pre­
+pared for analysis using KBr pellet technique. The analysis was per­
+formed at room temperature with 450–4000 cm−1 spectral range using 
+A. Abdalla et al.                                                                                                                                                                                                                                
+
+
+===== Page 3 =====
+
+Fuel 310 (2022) 122288
+3
+4 cm−1 resolution. 
+Hydrogen temperature programmed reduction (H2-TPR) was per­
+formed on an automated flow chemisorption and reactivity analyzer 
+(ChemBET Pulsar). OCs were heated up to 120 ◦C for 2 h under Ar before 
+the start of the analysis. During Analysis, 5 vol% H2 in Ar at 30 ml/ 
+minute flowrate was used while heating up from 150 ◦C to 950 ◦C at 
+10 ◦C/minute ramping rate. 
+2.4. Cyclic Reduction-Oxidation (Redox) Experiments and Stability Tests 
+Thermogravimetric Analyzer (PerkinElmer 8000 TGA) was used to 
+perform CLOU experiments using 10 mg of the samples. The TGA tem­
+perature program started by heating the chamber to 1000 ◦C with 20 ◦C 
+per minute heating rate under 27 ml/minute air purge flow rate and 40 
+ml/minute system N2 flow to ensure the samples are still oxidized at the 
+test temperature. The temperature was kept at 1000 ◦C under air flow for 
+3 min before changing the purge gas into N2 for 30 min which resulted in 
+reduction of the tested samples. Purge gas was changed back to air and 
+temperature was lowered to 800 ◦C with 20 ◦C/minute rate, and the 
+samples were kept at 800 ◦C for 10 min before heating again to 1000 ◦C 
+with the same heating rate to start the samples reduction afterwards 
+using N2 for the following cycle. Ten CLOU cycles were performed for 
+each sample to test the OCs’ CLOU performance and redox ability. 
+Moreover, to investigate the phases present in the reduced OCs, 
+0.3–0.4 g of each sample was loaded in a 0.5-inch quarts fixed bed 
+reactor and reduced using 40 ml/minute N2. The reactor temperature 
+was raised from room temperature to 1000 ◦C under air. Then, the inlet 
+gas was changed to N2 to perform reduction of the samples for 30 min at 
+1000 ◦C, after which the reactor was cooled down under N2 flow to room 
+temperature and the samples were collected to perform XRD and FTIR 
+analyses. 
+The weight changes over TGA were recorded and used to calculate 
+the CLOU oxygen transport capacity of the OC, which is the amount of 
+oxygen that can be transferred by the OC in CLOU process, and it is 
+defined in kg of oxygen/ kg of OC as [21]: 
+R0 = mox −mred
+mFOX
+(1)  
+where R0 is the oxygen carrying capacity, mox is the mass of the oxidized 
+sample, mred is the mass of the reduced sample, and mFOX is the mass of 
+fully oxidized sample. With the knowledge of the above values, the 
+conversions during reduction and oxidation steps can be defined as [21]: 
+Xred = mox −m
+R0mFOX
+(2)  
+Xox = m −mred
+R0mFOX
+(3)  
+where m is the mass of the sample at the point of interest. Another 
+parameter that can be calculated and can give an indication about the 
+kinetics in CLOU process is the rate of oxygen transport per unit mass of 
+the OC rO2, which is the rate of oxygen transport per unit mass of the OC. 
+Moreover, the CLOU rate index in % per minute can be calculated as 
+[21]: 
+rO2 = R0
+dX
+dt × 100%
+(4)  
+3. Results and discussion 
+3.1. Inductively Coupled Plasma-Optical Emission Spectroscopy (ICP- 
+OES) Elemental Analysis 
+The actual composition of metals in the OCs was quantified using 
+ICP-OES and the actual composition of the metal oxides are shown in 
+Table 1. The equipment provided information based on metal 
+composition that is assumed to be completely converted into their 
+respective metal oxides without incorporation of other intermediate 
+phases in their structure. This assumption was made here in order to 
+compare nominal compositions of the OCs with actual loadings. It can 
+obviously be seen that the actual CuO compositions in the OCs are close 
+to their nominal values (within 3.5% maximum of their nominal 
+composition). However, CuO composition was slightly lower than the 
+nominal values in the three Cu-containing samples, and it was to some 
+extent lower in the coimpregnated mixed oxide (36.79 wt%) compared 
+with the single metal oxide sample (38.74%) and the sequentially 
+impregnated sample (38.92%). Moreover, WO3 and ZrO2 actual com­
+positions were proximate to their nominal values, within 0–2% differ­
+ence. Measuring the actual composition of OCs is vital in order to find 
+the theoretical oxygen capacity of the materials to be compared with the 
+experimental oxygen release. 
+3.2. Phases Identification 
+The various crystalline phases that exist on the samples before and 
+after reduction are shown in Fig. 1. The identification of the phases 
+presented was based on the Figure of Merits (FOM) provided by MDI 
+Jade software. The estimation of crystallite sizes of the various phases 
+existing in the oxidized OCs along with the phases quantification are 
+displayed in supplemental file Tables S1 and S2, respectively. 
+The XRD patterns of the OCs in their oxidized form (after calcination 
+in air) with the following nominal composition: CuO(40%)/ZrO2, 
+WO3(33.33%)/ZrO2, CuO(40%)-WO3(20%)/ZrO2-Coimpregnation, and 
+CuO(40%)/WO3(20%)-ZrO2-Sequential impregnation are shown in 
+Fig. 1 (A). CuO supported over ZrO2 displayed characteristic peaks of a 
+baddeleyite monoclinic phase (PDF 37–1484) reflected from the sup­
+port, while the active CuO showed tenorite monoclinic characteristic 
+peaks (PDF 48–1548). Similarly, the formation of baddeleyite mono­
+clinic phase for ZrO2 in WO3/ZrO2 was evident while WO3 exhibited 
+XRD pattern corresponding to a monoclinic tungsten oxide phase (PDF 
+43–1035). It is also noted that there is no interaction between the sup­
+port and the active metal oxides for both single oxide OCs which is 
+similar to previous reported remarks in literature [22,23]. However, the 
+combined OCs prepared with both methods displayed characteristic 
+peaks of intermediate phases that contain both Cu and W. For the case of 
+CuO(40%)-WO3(20%)/ZrO2 prepared by the coimpregnation method, 
+characteristic reflections were detected for a baddeleyite phase (ZrO2), 
+tenorite phase (CuO), and cubic copper tungsten oxide phase Cu3WO6 
+(PDF 22–0254) with major characteristic peaks around 2θ of (20.258◦, 
+32.902◦, 34.182◦, 50.107) [24,25]. While the CuO(40%)/WO3(20%)- 
+ZrO2 prepared via the sequential impregnation route exhibited XRD 
+pattern corresponding to a baddeleyite phase, tenorite phase, and 
+CuWO4-x triclinic copper tungsten oxide phase (PDF 21–0307) with 
+major characteristic peaks around 2θ of (19.092◦, 28.860◦, 36.867◦) 
+[26,27]. The possible reactions for the formation of these two interme­
+diate phases during synthesis is suggested to occur according to:  
+Coimpregnation: 3 CuO + WO3 → Cu3WO6                                      
+(R4)  
+Sequential impregnation: CuO + WO3 → CuWO4-x                            
+(R5) 
+The formation of these intermediates is also supported by SEM/EDS 
+analysis (Figs. 2 and 3) and FTIR (Fig. 4) which indicated that there is no 
+Table 1 
+Metal oxide composition of the OCs calculated from ICP-OES results.  
+Sample description with nominal composition 
+CuO wt 
+% 
+WO3 wt 
+% 
+ZrO2 wt 
+% 
+CuO(40%)/ZrO2 
+38.74 
+N/A  
+61.26 
+WO3(33.33%)/ZrO2 
+N/A 
+32.37  
+67.63 
+CuO(40%)-WO3(20%)/ZrO2-Coimpregnation 
+36.79 
+21.41  
+41.80 
+CuO(40%)/WO3(20%)-ZrO2-Sequential 
+impregnation 
+38.92 
+20.25  
+40.83  
+A. Abdalla et al.                                                                                                                                                                                                                                
+
+
+===== Page 4 =====
+
+Fuel 310 (2022) 122288
+4
+existence of separated WO3 phase, but rather an occurrence of both Cu 
+and W together in both samples shown by the EDS mapping results and 
+FTIR Spectra. Furthermore, the existence of CuO phase was also 
+confirmed from SEM-EDS results (Fig. 2 and Fig. 3) which is in 
+accordance with XRD results. This dictates that the amount of Cu used is 
+in excess of what is needed for the formation of the Cu-W intermediate 
+phase (Reactions R4 and R5) and that WO3 is almost completely 
+consumed to form Cu3WO6 and CuWO4-x for the coimpregnated and 
+Fig. 1. XRD phase identification of (A) oxidized oxygen carriers (B) reduced oxygen carriers.  
+Fig. 2. SEM BSE images with EDS elemental mapping of CuO(40%)-WO3(20%)/ZrO2-Coimpregnation.  
+Fig. 3. SEM BSE images with EDS elemental mapping of CuO(40%)/WO3(20%)-ZrO2-Sequential impregnation.  
+A. Abdalla et al.                                                                                                                                                                                                                                
+
+
+===== Page 5 =====
+
+Fuel 310 (2022) 122288
+5
+sequentially impregnated samples, respectively. Moreover, it was 
+observed that the tenorite (CuO) peaks are more pronounced in the 
+sequentially impregnated OC than in the coimpregnated sample (see 
+Table S2 in supplemental file showing phases quantification). This can 
+be attributed to the amount of free CuO consumed for the formation of 
+the intermediate phases, as three times the amount of CuO is consumed 
+for the formation of Cu3WO6 in the coimpregnated sample compared 
+with that consumed for CuWO4-x formation. The distinct phases for­
+mation is considered to occur because of the different techniques used in 
+the preparation of the two samples due to the different impregnation 
+and interaction rates of Cu species with W within the two preparation 
+techniques. For the coimpregnation route, the Cu and W precursors are 
+allowed to form solid solutions during the calcination step where most of 
+the W used is consumed to form the Cu3WO6 phase. On the other hand, 
+for the sequentially impregnated sample the first calcination step leads 
+to the formation of a stable WO3 phase and when the Cu precursor was 
+added in the second step, the extent of reaction between Cu and W was 
+limited leading to less incorporation extent of Cu into the intermediate 
+phase. Consequently, the Cu/W ratio is different in the two intermediate 
+phases, and the CuWO4-x is understood to be oxygen deficient compared 
+to the Cu3WO6 phase formed on the coimpregnated OC. This is expected 
+to have significant consequences on the CLOU performance of these two 
+samples. 
+The XRD patterns for the samples after reduction using N2 at 1000 ◦C 
+in a fixed bed reactor are shown in Fig. 1 (B). Generally, ZrO2 support 
+used for all the samples (reflecting baddeleyite phase) did not show any 
+reduction at the testing conditions. Moreover, WO3/ZrO2 did not show 
+any major change in their XRD patterns after reduction, which was also 
+confirmed from CLOU testing results showing no oxygen release from W- 
+based OC. For CuO/ZrO2, the coimpregnated and sequentially impreg­
+nated samples containing tenorite phase (CuO), the reduced OCs re­
+flected Cu2O cubic cuprite phase (PDF 05–0667) with major peaks at 
+(36.418◦, 42.297◦, 61.344◦, 73.626◦), which is the expected reduced 
+phase for CuO-based OCs in CLOU processes. In addition to the char­
+acteristic reflections of the ZrO2 and the Cu2O phases, the two WO3- 
+modified samples displayed characteristic reflections corresponding to 
+Cu2WO4 triclinic copper tungsten oxide phase (PDF 41-0948) [28]. 
+Despite the distinctively different Cu-W intermediate phases formed for 
+the two synthesis methods, the reduced samples showed the same Cu-W 
+phase (Cu2WO4). The reduction mechanism of CuO single metal oxide 
+phase and the intermediate phases will be further discussed in the 
+following sections. 
+3.3. Scanning electron microscopy/Energy-dispersive X-ray spectroscopy 
+(SEM/EDS) 
+SEM/EDS was used to investigate the oxidized OCs topography and 
+elemental composition of their surfaces. The surface structural features 
+of single metal oxides were investigated and their backscattered electron 
+(BSE) images with EDS mapping are displayed in the supplemental file in 
+Figs. S1 and S2. SEM BSE images of the impregnated CuO(40%)/ZrO2 
+have shown that CuO was present in the sample as small nanosized 
+agglomerated particles that spilled over the large particles of ZrO2 
+support. On the other hand, the images of the WO3(33.33%) impreg­
+nated over ZrO2 revealed that WO3 was present in a multifaceted crys­
+talline structure surrounded by small ZrO2 nanoparticles. Unlike for the 
+case of CuO/ZrO2 sample, it is understood that the existence of large 
+WO3 crystals impeded the formation of large ZrO2 crystalline structure. 
+The SEM BSE images together with the EDS elemental mapping of 
+the combined OCs are shown in Figs. 2 and 3 for the coimpregnated and 
+sequentially impregnated samples, respectively. EDS elemental mapping 
+for the WO3-modified OCs confirmed the existence of Cu-W mixed oxide 
+phases on both samples which was in accordance with XRD results 
+shown in Fig. 1 and FTIR spectra in Fig. 4. The EDS mapping shown in 
+Fig. 2 and Fig. 3 shows clearly that in addition to the distinctive Cu phase 
+(shown in blue) and the ZrO2 support (green), that no stand-alone W 
+species could be seen, and the W is always present together with Cu. In 
+general, the morphology of the crystal structures of the Cu-W interme­
+diate phase for both synthesis methods were similar to that of WO3 
+supported over ZrO2. However, Cu-W intermediate phase formed on the 
+coimpregnated sample is made of relatively smaller crystals (7–10 µm) 
+compared to that of the sequentially impregnated OC. Interestingly, the 
+CuO phase on the coimpregnated sample was made of bundles of smaller 
+crystals whereas the CuO crystal sizes for the sequentially impregnated 
+sample were significantly larger in size. One reason for having smaller 
+CuO crystals for the coimpregnated OCs could be since large amount of 
+CuO was consumed to form the Cu3WO6 phase and the remaining CuO is 
+then grown onto the support. Our hypothesis is that the intermediate 
+phase is firstly formed then the excess Cu is oxidized to form CuO at later 
+stages of the calcination step, hence their crystal sizes were smaller. In 
+addition, the Cu3WO6 might also hindered the growth of the CuO 
+crystals during the calcination process. In contrast, for the sequentially 
+impregnated sample less Cu has interacted with the W phase and CuO 
+crystals grew with the progress of the calcination step. 
+These observations were also confirmed from the crystallite size es­
+timations obtained from the XRD results (Table S1) which shown that 
+Fig. 4. FTIR spectra of (A) oxidized oxygen carriers (B) reduced oxygen carriers.  
+A. Abdalla et al.                                                                                                                                                                                                                                
+
+
+===== Page 6 =====
+
+Fuel 310 (2022) 122288
+6
+both CuO and the Cu-W phase for the coimpregnated sample (Cu3WO6) 
+have smaller crystallite sizes in contrast to the sequentially impregnated 
+OC (CuWO4-x). The smaller grain sizes were reported to affect the CLOU 
+properties as the OCs with smaller grains can provide higher conversions 
+with the same reaction times compared with OCs with larger grains 
+[29]. This was ascribed to the ability of OCs with smaller grain sizes to 
+provide higher specific reaction surface areas and therefore, improved 
+oxygen transport rate. Therefore, this difference is projected to also play 
+a role in defining the CLOU performance of these two OCs. Furthermore, 
+it can also be observed that in both WO3-modified samples, the ZrO2 
+support was present in small nanosized structures agglomerated into 
+larger particles. 
+3.4. Fourier-Transform Infrared Spectroscopy (FTIR) 
+FTIR spectra were collected to identify the bonds between the metal 
+oxides in the samples and to understand the characteristics differences in 
+the samples before and after reduction. FTIR spectra of the oxidized OCs 
+are shown in Fig. 4 (A) and the spectra for the reduced samples are 
+shown in Fig. 4 (B). 
+All the spectra exhibited weak absorption peaks near 1630 cm−1 and 
+3450 cm−1 due to presence of moisture in air [30]. Moreover, the 
+analyzed OCs, both oxidized and reduced, reflected peaks around 514 
+cm -1, 580 cm−1 and 752 cm−1 ascribed to the Zr-O bond and confirming 
+the existence of ZrO2 support, which is in line with previously reported 
+investigations [31–33]. Characteristic CuO absorption band ranges were 
+displayed by the oxidized Cu-containing samples (Fig. 4 (A)). However, 
+these characteristic bands were overlapping with other peaks present in 
+the spectra, especially with ZrO2 peaks [34,35]. WO3/ZrO2 oxidized 
+sample showed typical peaks at 820 cm−1 and 1050 cm−1 which 
+ascertained the formation of WO3 [36,37]. The sequentially impreg­
+nated sample exhibited distinctive transmittance at 903 cm−1 corre­
+sponding to the vibrational bands of CuWO4 [38], which confirms the 
+SEM (Fig. 3) and XRD (Fig. 2) results and verifies the formation of the 
+CuWO4 intermediate phase. On the other hand, the coimpregnated 
+sample reflected distinctive absorption peaks around 630 cm−1
+, 800 
+cm−1 and 875 cm−1 that were assigned to Cu3WO6 intermediate phase. 
+ZrO2 and moisture transmittance bands were also present in all 
+reduced samples (Fig. 4 (B)). Also, WO3(33.33%)/ZrO2-Reduced did not 
+show any critical change in terms of transmittance bands positions 
+compared with the oxidized OC, which is also explained by the TGA 
+outcomes that verified the sample did not exhibit major reduction ac­
+tivity when tested under N2 environment. However, CuO(40%)/ZrO2- 
+Reduced displayed absorption peak corresponding to Cu2O compound at 
+624 cm−1, supporting XRD results that indicated reduction of CuO phase 
+into Cu2O [39]. Furthermore, both mixed OCs exhibited absorption 
+peaks of Cu2O phase similar to the reduced CuO/ZrO2 OC together with 
+comparable peaks at 800 cm−1, 870, 907 cm−1, and 940 cm−1 that were 
+assigned to Cu2WO4 compound. 
+FT-IR characterization confirmed the results obtained using other 
+techniques such as XRD and SEM. For example, the formation of inter­
+mediate phases on the mixed OCs was verified, and the reduction of 
+WO3/ZrO2 did not significantly affect its properties. While the reduction 
+of the CuO phase in the other OCs resulted in Cu2O peaks, whereas 
+Cu3WO6 and CuWO4 phases were reduced to Cu2WO4 phase. 
+3.5. Hydrogen Temperature Programmed Reduction (H2-TPR) 
+H2-TPR analysis was performed to study the redox properties of the 
+OCs in H2 reducing environment and the results are shown in Figs. 5 and 
+6. From previous studies it was found that ZrO2 does not exhibit any 
+reduction activity with H2 in the testing temperature range (150 ◦C to 
+950 ◦C) [23,40], and the peaks appearing in TPR profiles have been 
+assigned to the reduction of the active metal oxides, i.e. CuO and WO3, 
+or their intermediate phases. From Fig. 5, WO3/ZrO2 sample showed 
+high temperature reduction with H2 with the first peak summiting 
+around 816.4 ◦C, which can be ascribed to the partial reduction of W+6 
+to W+5. Whereas the second peak appearing after 900 ◦C can be ascribed 
+to the reduction of W+6 and W+5 to W+4 [41]. The other single metal 
+oxide, i.e., CuO/ZrO2, showed lower reduction temperatures compared 
+with WO3/ZrO2. The profile of Cu-based OC shows a shoulder peak at 
+lower temperature (309.8 ◦C) that can be attributed to reduction of 
+highly dispersed CuO, while the second peak occurring at higher tem­
+perature (364.3 ◦C) is assigned to reduction of bulk CuO which is more 
+difficult to reduce compared with the dispersed species [42,43]. H2-TPR 
+profiles of the mixed metal oxide OCs have shown similar trends in terms 
+of number of peaks. Hence, it is suggested that both samples follow 
+similar H2-reduction mechanisms. Previous reports have shown that the 
+H2 reduction of Cu-W intermediate phase may occur in three steps; 
+firstly the decomposition of the intermediate phase into CuO and WO3 
+and reduction of CuO into metallic Cu, and the other two steps are 
+related to WO3 reduction into lower oxidation states [19,20]. Here, 
+similar claims can be made about the decomposition of the intermediate 
+phases into separated CuO and WO3, and the first reduction peak 
+(405.4 ◦C for the coimpregnated sample and 371.12 ◦C for the sequen­
+tially impregnated sample) can be assigned to CuO (Cu+2) reduction into 
+metallic Cu0. These peaks appear at higher temperatures than that ob­
+tained from CuO/ZrO OC, which suggests that CuO present with WO3 is 
+more stable and requires higher temperatures for reduction [20]. Whilst 
+the second reduction peak can be attributed to the to the partial 
+reduction of W+6 to W+5, followed by the partial reduction of W+6 and 
+W+5 to W+5 and W+4. The last existing peak can be attributed to the 
+reduction of W+4 to metallic W [19,20]. 
+Quantitative H2 consumption during reduction of the OCs used in 
+this study is shown in Fig. 6. WO3/ZrO2 consumed about 4.26 mmol/g of 
+H2 during the tests. Primarily, this amount was recorded at temperatures 
+above 750 ◦C as the sample was left in the apparatus for 1 h after the 
+final temperature was reached (950 ◦C). Unmodified CuO/ZrO2 con­
+sumption of H2 reached 4.82 mmol/g, most of which was consumed at 
+low temperatures (below 430 ◦C). Cu-W/ZrO2 mixed OCs exhausted 
+larger H2 amounts compared with the single metal oxide OCs, i.e., CuO/ 
+ZrO2 and WO3/ZrO2. However, the CuO(40%)-WO3(20%)/ZrO2-Coim­
+pregnation recorded higher H2-consumption than the sequentially 
+impregnated sample. Higher H2-uptake statistics generally indicate the 
+amount of oxygen available in the OC to be used for reduction, and the 
+higher uptake of the coimpregnated OC can be attributed to the synergy 
+between the metal oxides together with the type of phase present in the 
+OC, Cu3WO6, compared with that present in the sequentially impreg­
+nated OC, CuWO4-x, which is known to be oxygen deficient phase. The 
+formation Cu species in the initial stages of reduction is suggested to 
+Fig. 5. H2-TPR profiles from 150 ◦C to 950 ◦C.  
+A. Abdalla et al.                                                                                                                                                                                                                                
+
+
+===== Page 7 =====
+
+Fuel 310 (2022) 122288
+7
+have catalytic behavior enhancing the reduction characteristics of WO3 
+existing in the Cu-W mixed OCs [20]. Since reduction peaks of WO3 in 
+the mixed OCs is shifted towards lower temperatures compared with 
+those of pristine WO3/ZrO2, it was found that the Cu addition to WO3/ 
+ZrO2 improved its H2 reduction activity and facilitated its reduction into 
+lower oxidation states. This was found to be in line with previous 
+literature work about Cu-W mixed phase reduction [44]. Moreover, the 
+synergism between the OC constituents, structure and type of phases 
+formed are also important to obtain better OC reduction properties. 
+3.6. CLOU Redox and Stability Testing 
+CLOU cycling was performed in a TGA using N2 as inert environment 
+for the OCs to release oxygen, and air as oxidizing agent for 10 cycles. 
+The oxygen transport capacity (R0) of the different samples was 
+measured. The CLOU oxygen carrying capacities (R0) of the OCs and 
+their respective rate indices are shown in Table 2, together with the 
+capacity of a reference CuO(40)%ZrO2 that was studied in a previous 
+report [3]. While the cyclic performances are shown in Figs. S3–S5 in 
+supplemental file. The reactions revealing the redox mechanism of the 
+samples (Reactions R6-R9) were used to evaluate the theoretical oxygen 
+carrying capacity. 
+Mattission et al. previously tested CuO(40%)/ZrO2 for CLOU with 
+petroleum coke [3]. In their report, Cu-based sample showed better 
+performance than Co– and Mn-based OCs. Moreover, CuO(40%)/ZrO2 in 
+that investigation exhibited an oxygen carrying capacity of 4.00%. The 
+OC with similar nominal composition was prepared for this study using 
+impregnation technique, and it showed a slightly higher oxygen carrying 
+capacity of 4.17%. WO3(33.33%)/ZrO2 sample is not displayed with the 
+other OCs as it did not exhibit any significant CLOU activity within the 
+testing conditions. This is also supported by XRD and FTIR analyses 
+(Figs. 1 and 4) as the reduced W-based sample did not show any change 
+in the phases and spectra reflected before and after reduction. The other 
+single metal oxide OC CuO(40%)/ZrO2 showed an average CLOU oxy­
+gen transport capacity of 4.17% for the ten cycles. The phase change for 
+this sample was from oxidized CuO into reduced Cu2O (See Figs. 1 and 
+4), which are the expected redox pair for Cu-based CLOU process. The 
+reduction and oxidation indices of this OC were the highest amongst the 
+tested samples as shown in Table 2 and conversion profiles displayed in 
+Figs. S6 and S7 in supplemental file. The coimpregnated OC showed an 
+average CLOU capacity of 6.66%, which is the highest oxygen transport 
+capacity obtained from the OCs studied in this work. This OC provided 
+average rates indices for both reduction and oxidation steps. With the 
+knowledge of the existing phases on both oxidized and reduced samples 
+(from Figs. 1 and 4), it is suggested that the redox of the coimpregnated 
+sample during CLOU with N2/air to occur through the following 
+reactions:  
+4 CuO ↔ 2 Cu2O + O2                                                                  
+(R6)  
+4 Cu3WO6 ↔ 4 Cu2WO4 + 2 Cu2O + 3 O2                                       
+(R7) 
+Hence, it is suggested that CuO phase will release oxygen through its 
+transformation into Cu2O, and Cu3WO6 will generate oxygen via 
+dissociation into Cu2WO4 and Cu2O. The presence of Cu3WO6 and its 
+reduction/oxidation through the above mechanism together with the 
+smaller grain sizes are suggested to be part of the causes of the 
+enhancement CLOU capacity and kinetics of the coimpregnated sample 
+as this intermediate phase improved the redox properties of WO3 which 
+is not reducible in CLOU process when used as single metal oxide OC. 
+While the sequentially impregnated sample showed an average 
+4.45% CLOU capacity, which is higher than the capacity of the single 
+metal oxide OC (CuO/ZrO2) but lower than that obtained by the coim­
+pregnated OC. However, the sequentially impregnated sample exhibited 
+the slowest reduction and oxidation rate indices compared with the 
+other samples. The redox reactions of the sequentially impregnated 
+sample based on its XRD and FTIR analyses before and after reduction 
+are suggested to occur as:  
+4 CuO ↔ 2 Cu2O + O2                                                                  
+(R8)  
+2 CuWO4-x + 2 CuO ↔ Cu2WO4 + O2                                            
+(R9) 
+It can be seen that the presence of CuO tenorite phase in larger 
+amount in the sequentially impregnated sample (as can be seen in 
+Table S2 in supplemental file) was suggested to either be directly 
+reduced to Cu2O cuprite phase or it will react with the oxygen deficient 
+CuWO4 and generate oxygen and Cu2WO4 phase. The reaction between 
+CuWO4-x and CuO is expected to be slow, which resulted in small rate 
+indices. Furthermore, the existence of oxygen deficient CuWO4-x and the 
+large grain sizes of the sequentially impregnated sample (as revealed by 
+SEM BSE in Fig. 3 and crystal size estimation in Table S1 in supplemental 
+file) hindered the oxygen release from this OC resulting in smaller CLOU 
+capacity compared with the coimpregnated sample. 
+The formation of Cu-W combined oxide phases in the mixed OCs is 
+Fig. 6. Quantitative H2 consumption on the differnt samples in mmol/g.  
+Table 2 
+CLOU oxygen carrying capacity of the OCs using N2 at 1000 ◦C and air at 800 ◦C averaged for 10 cycles, and rate indices:  
+Oxygen Carrier 
+CLOU Oxygen Transport 
+Capacity (%) 
+Theoretical CLOU Capacity 
+(%) 
+rO2 for CLOU 
+reduction*  
+rO2 for CLOU 
+oxidation*  
+Reference 
+CuO(40%)/ZrO2  
+4.00  
+4.33 
+N/A 
+N/A 
+[3] 
+CuO(40%)/ZrO2  
+4.17  
+4.33 
+72.67 
+38.59 
+This study 
+CuO(40%)-WO3(20%)/ZrO2-Coimpregnation  
+6.66  
+7.395 
+17.05 
+24.22 
+This study 
+CuO(40%)/WO3(20%)-ZrO2-Sequential 
+impregnation  
+4.45  
+7.819 
+10.81 
+17.41 
+This study 
+*Values were estimated for the fifth cycle (in % per minute). 
+A. Abdalla et al.                                                                                                                                                                                                                                
+
+
+===== Page 8 =====
+
+Fuel 310 (2022) 122288
+8
+expected improve CuO dispersion in the samples which hinders the 
+movement of CuO molecules to the surface of particles during CLOU 
+process resulting in enhanced resistance to sintering and agglomeration. 
+This can lead to enhanced oxygen release during the CLOU testing [45]. 
+However, the composition of these intermediate phase can also affect 
+the CLOU performance of the OCs; as Cu3WO6 formed on the coim­
+pregnated sample resulted in higher oxygen transport capacity 
+compared with the sequentially impregnated sample on which CuWO4-x 
+was found. Nevertheless, these intermediate phases led to slower 
+reduction and oxidation kinetics in the mixed OCs compared with the 
+single metal oxide OC (CuO/ZrO2). Yet, the kinetics of coimpregnated 
+sample was faster than that of the sequentially impregnated sample as 
+this can be due to the different suggested mechanisms on the mixed OCs 
+and the smaller grain sizes of the species available for reaction. 
+4. Conclusions 
+Coimpregnation and sequential impregnation synthesis techniques 
+were used to prepare mixed metal oxides oxygen carriers (CuO-WO3/ 
+ZrO2). CLOU testing under an inert N2 environment showed that the 
+coimpregnated oxygen carrier exhibited better CLOU performance in 
+terms of higher oxygen release capacity together with better reduction 
+and oxidation rate indices when compared with the sequentially 
+impregnated sample. Both mixed metal oxide oxygen carriers (CuO- 
+WO3/ZrO) displayed higher oxygen release capacities in contrast with 
+the un-modified CuO/ZrO2 due to the formation of intermediate Cu-W 
+phases on both mixed oxygen carriers. Consequently, theses interme­
+diate phases resulted in enhanced redox properties as was shown by H2- 
+TPR. However, further increase in the oxygen carrying capacity and 
+higher rate indices of the coimpregnated sample over the sequentially 
+impregnated sample was attributed to the formation of Cu rich inter­
+mediate phase formed this sample (Cu3WO6) with more compact 
+structure and smaller crystallite size as was confirmed by XRD and SEM 
+characterization techniques. On the other hand, oxygen deficient 
+CuWO4 phase was formed on the sequentially impregnated sample that 
+has more elongated structure with larger crystallite size. These two in­
+termediate phases are suggested to have different reduction mechanisms 
+that can result in different CLOU performances. It is believed that the 
+insertion of W into the lattice structure of CuO forming these two solid 
+solutions is responsible for the improved performance due to the 
+increased distribution of CuO in the mixed oxide which also inhibits the 
+diffusion of CuO to the surface during redox cycles. Consequently, this 
+has reduced the sintering and agglomeration on the WO3-modified ox­
+ygen carriers leading to enhanced oxygen release properties. This work 
+reveals the potential for W-based modifications of Cu-based oxygen 
+carriers that can result in higher CLOU oxygen carrying capacity without 
+drastically compromising the kinetics, which leads to the development 
+of efficient oxygen carriers for CLOU process with lower solids in­
+ventory. Insitu characterization of the Cu(40%)-WO3(20%)/ZrO2- 
+Coimpregnation sample is recommended for future study to confirm the 
+suggested redox mechanism for this sample. Although, the present study 
+is valuable toward understanding sintering and agglomeration resis­
+tance of WO3-modified Cu-based oxygen carriers, other aspects still 
+needs to be evaluated such as the mechanical stability and attrition 
+resiatance which should be further tested using fluidized bed setup. 
+Furthermore, this work opens new avenues for addressing agglomera­
+tion and sintering resistance in catalysis and chemical looping applica­
+tions using WO3 promotion. Future work on addressing coke formation 
+in Ni-based oxygen carriers using WO3 as a promotor are currently being 
+developed. The ability of WO3 to form solid solutions with Cu and 
+potentially Ni is interesting which can help in enhancing Ni dispersion 
+and hence reduce carbon formation. 
+CRediT authorship contribution statement 
+Amr Abdalla: Conceptualization, Methodology, Validation, Formal 
+analysis, Investigation, Writing – original draft, Visualization. Mohan­
+ned Mohamedali: Conceptualization, Methodology, Formal analysis, 
+Writing – review & editing. Nader Mahinpey: Conceptualization, 
+Methodology, Validation, Resources, Supervision, Writing – review & 
+editing, Project administration, Funding acquisition. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgements 
+The authors would like to acknowledge the financial support from 
+the Natural Sciences and Engineering Research Council (NSERC) of 
+Canada, through its Industrial Research Chairs (IRC) program. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.fuel.2021.122288. 
+References 
+[1] Mattisson T. Materials for chemical-looping with oxygen uncoupling. ISRN Chem 
+Eng 2013;2013:1–19. https://doi.org/10.1155/2013/526375. 
+[2] Mattisson T, Lyngfelt A, Leion H. Chemical-looping with oxygen uncoupling for 
+combustion of solid fuels. Int J Greenh Gas Control 2009;3(1):11–9. https://doi. 
+org/10.1016/j.ijggc.2008.06.002. 
+[3] Mattisson T, Leion H, Lyngfelt A. Chemical-looping with oxygen uncoupling using 
+CuO/ZrO2 with petroleum coke. Fuel 2009;88(4):683–90. https://doi.org/ 
+10.1016/j.fuel.2008.09.016. 
+[4] Abad A, Ad´anez-Rubio I, Gay´an P, García-Labiano F, de Diego LF, Ad´anez J. 
+Demonstration of chemical-looping with oxygen uncoupling (CLOU) process in a 
+1.5kW th continuously operating unit using a Cu-based oxygen-carrier. Int J 
+Greenh Gas Control 2012;6:189–200. https://doi.org/10.1016/j. 
+ijggc.2011.10.016. 
+[5] Ad´anez-Rubio I, Abad A, Gay´an P, de Diego LF, García-Labiano F, Ad´anez J. 
+Performance of CLOU process in the combustion of different types of coal with CO2 
+capture. Int J Greenh Gas Control 2013;12:430–40. https://doi.org/10.1016/j. 
+ijggc.2012.11.025. 
+[6] Ad´anez-Rubio I, Abad A, Gay´an P, De Diego LF, García-Labiano F, Ad´anez J. 
+Biomass combustion with CO2 capture by chemical looping with oxygen 
+uncoupling (CLOU). Fuel Process Technol 2014;124:104–14. https://doi.org/ 
+10.1016/j.fuproc.2014.02.019. 
+[7] Sun J, Yang Y, Liu W. Evaluating redox reactivity of CuO-based oxygen carriers 
+synthesized with organometallic precursors. J Therm Anal Calorim 2020;139(2): 
+885–93. https://doi.org/10.1007/s10973-019-08492-2. 
+[8] Zhao H, Zhang Y, Wei Y, Gui J. Understanding CuO-support interaction in Cu-based 
+oxygen carriers at a microcosmic level. Proc. Combust. Inst., vol. 36, Elsevier Inc.; 
+2017, p. 4069–77. doi: 10.1016/j.proci.2016.06.195. 
+[9] Gay´an P, Ad´anez-Rubio I, Abad A, De Diego LF, García-Labiano F, Ad´anez J. 
+Development of Cu-based oxygen carriers for Chemical-Looping with Oxygen 
+Uncoupling (CLOU) process. Fuel 2012;96:226–38. https://doi.org/10.1016/j. 
+fuel.2012.01.021. 
+[10] Fang H, Haibin L, Zengli Z. Advancements in development of chemical-looping 
+combustion: a review. Int J Chem Eng 2009:1–16. https://doi.org/10.1155/2009/ 
+710515. 
+[11] Ad´anez-Rubio I, Abad A, Gay´an P, de Diego LF, Ad´anez J. CLOU process 
+performance with a Cu-Mn oxygen carrier in the combustion of different types of 
+coal with CO2 capture. Fuel 2018;212:605–12. https://doi.org/10.1016/j. 
+fuel.2017.10.065. 
+[12] Ad´anez-Rubio I, P´erez-Astray A, Abad A, Gay´an P, De Diego LF, Ad´anez J. 
+Chemical looping with oxygen uncoupling: an advanced biomass combustion 
+technology to avoid CO2 emissions. Mitig Adapt Strateg Glob Chang 2019;24(7): 
+1293–306. https://doi.org/10.1007/s11027-019-9840-5. 
+[13] Ad´anez-Rubio I, P´erez-Astray A, Mendiara T, Izquierdo MT, Abad A, Gay´an P, et al. 
+Chemical looping combustion of biomass: CLOU experiments with a Cu-Mn mixed 
+oxide. Fuel Process Technol 2018;172:179–86. https://doi.org/10.1016/j. 
+fuproc.2017.12.010. 
+[14] Ad´anez-Rubio I, Bautista H, Izquierdo MT, Gay´an P, Abad A, Ad´anez J. 
+Development of a magnetic Cu-based oxygen carrier for the chemical looping with 
+oxygen uncoupling (CLOU) process. Fuel Process Technol 2021;218:1–12. https:// 
+doi.org/10.1016/j.fuproc.2021.106836. 
+[15] Azimi G, Leion H, Ryd´en M, Mattisson T, Lyngfelt A. Investigation of different Mn- 
+Fe oxides as oxygen carrier for chemical-looping with oxygen uncoupling (CLOU). 
+Energy Fuels 2013;27(1):367–77. https://doi.org/10.1021/ef301120r. 
+A. Abdalla et al.                                                                                                                                                                                                                                
+
+
+===== Page 9 =====
+
+Fuel 310 (2022) 122288
+9
+[16] Mattisson T, Johansson M, Lyngfelt A. The use of NiO as an oxygen carrier in 
+chemical-looping combustion. Fuel 2006;85(5-6):736–47. https://doi.org/ 
+10.1016/j.fuel.2005.07.021. 
+[17] Song J, Huang Z-F, Pan L, Zou J-J, Zhang X, Wang Li. Oxygen-deficient Tungsten 
+oxide as versatile and efficient hydrogenation catalyst. ACS Catal 2015;5(11): 
+6594–9. https://doi.org/10.1021/acscatal.5b01522. 
+[18] Huang Z-F, Song J, Pan L, Zhang X, Wang Li, Zou J-J. Tungsten oxides for 
+photocatalysis, electrochemistry, and phototherapy. Adv Mater 2015;27(36): 
+5309–27. https://doi.org/10.1002/adma.201501217. 
+[19] Ardestani M, Arabi H, Razavizadeh H, Rezaie HR, Jankovic B, Mentus S. An 
+investigation about the activation energies of the reduction transitions of fine 
+dispersed CuWO4-x/WO3-x oxide powders. Int J Refract Met Hard Mater 2010;28 
+(3):383–7. https://doi.org/10.1016/j.ijrmhm.2009.12.003. 
+[20] Jeli´c D, Zeljkovi´c S, ˇSkundri´c B, Mentus S. Thermogravimetric study of the 
+reduction of CuO–WO3 oxide mixtures in the entire range of molar ratios. J Therm 
+Anal Calorim 2018;132(1):77–90. https://doi.org/10.1007/s10973-017-6921-0. 
+[21] Abad A, Mendiara T, Izquierdo MT, de Diego LF, García-Labiano F, Gay´an P, et al. 
+Evaluation of the redox capability of manganese-titanium mixed oxides for 
+thermochemical energy storage and chemical looping processes. Fuel Process 
+Technol 2021;211:106579. https://doi.org/10.1016/j.fuproc.2020.106579. 
+[22] Sakthivel R, Prescott H, Kemnitz E. WO3/ZrO2: a potential catalyst for the 
+acetylation of anisole. J Mol Catal A Chem 2004;223(1-2):137–42. https://doi.org/ 
+10.1016/j.molcata.2003.11.040. 
+[23] Basahel SN, Mokhtar M, Alsharaeh EH, Ali TT, Mahmoud HA, Narasimharao K. 
+Physico-chemical and catalytic properties of mesoporous CuO-ZrO2 catalysts. 
+Catalysts 2016;6:1–20. https://doi.org/10.3390/catal6040057. 
+[24] Gebert E, Kihlborg L, Rasmussen SE, Smidsrød O, Lindberg AA, Jansen G, et al. The 
+crystal structure of a new copper wolfram oxide, Cu3WO6. Acta Chem Scand 1969; 
+23:221–31. https://doi.org/10.3891/acta.chem.scand.23-0221. 
+[25] Kol’tsova T, Nipan G. System CuO-WO3. Inorg Mater 1999;35:383–4. 
+[26] Kihlborg L, Gebert E. CuWO4, a distorted Wolframite-type structure. Acta 
+Crystallogr Sect B Struct Crystallogr Cryst Chem 1970;B 26(7):1020–6. https://doi. 
+org/10.1107/S0567740870003515. 
+[27] Bao X, Wang X, Li X, Qin L, Han S, Kang SZ. CuWO4-x nanoparticles incorporated 
+brookite TiO2 porous nanospheres: Preparation and dramatic photocatalytic 
+activity for light driven H2 generation. Mater Res Bull 2021;136:1–10. https://doi. 
+org/10.1016/j.materresbull.2020.111171. 
+[28] Marinder B-O, Wang P-L, Werner P-E, Westdahl M, Andresen AF, Lou¨er D. Powder 
+diffraction studies of Cu2WO4. Acta Chem Scand 1987;41a:152–7. https://doi.org/ 
+10.3891/acta.chem.scand.41a-0152. 
+[29] Wang H, Li Z, Cai N. A multiscale model of oxidation kinetics for Cu-based oxygen 
+carrier in chemical looping with Oxygen Uncoupling. Materials (Basel) 2019;12: 
+1–18. https://doi.org/10.3390/ma12071170. 
+[30] Allabar A, Nowak M. High spatial resolution analysis of H2O in silicate glass using 
+attenuated total reflection FTIR spectroscopy coupled with a focal plane array 
+detector. Chem Geol 2020;556:119833. https://doi.org/10.1016/j. 
+chemgeo.2020.119833. 
+[31] Vivekanandhan S, Venkateswarlu M, Rawls HR, Satyanarayana N. Acrylamide 
+assisted polymeric citrate route for the synthesis of nanocrystalline ZrO2 powder. 
+Mater Chem Phys 2010;120(1):148–54. https://doi.org/10.1016/j. 
+matchemphys.2009.10.038. 
+[32] Kaur Sidhu G, Kumar R. Study the Structural and Optical behaviour of Conducting 
+Polymer based nanocomposites: ZrO2-Polypyrrole Nanocomposites. IOP Conf Ser 
+Mater Sci Eng 2018;360:012038. https://doi.org/10.1088/1757-899X/360/1/ 
+012038. 
+[33] Devikala S, Kamaraj P, Arthanareeswari M. Corrosion resistance behavior of PVDF/ 
+ZrO2 composite in 3.5% NaCl. Mater. Today Proc., vol. 14, Elsevier Ltd; 2019, p. 
+279–87. doi: 10.1016/j.matpr.2019.04.148. 
+[34] Kannaki K, Ramesh PS, Geetha D. Hydrothermal synthesis of CuO nanostructure 
+and their characterizations. Int J Sci Eng Res 2012;3:1–4. 
+[35] Rao MP, Sathishkumar P, Mangalaraja RV, Asiri AM, Sivashanmugam P, 
+Anandan S. Simple and low-cost synthesis of CuO nanosheets for visible-light- 
+driven photocatalytic degradation of textile dyes. J Environ Chem Eng 2018;6(2): 
+2003–10. https://doi.org/10.1016/j.jece:2018.03.008. 
+[36] El Arrouji I, Chen C, Toyir J, Larabi C, Szeto KC, de Mallmann A, et al. NH3- 
+selective catalytic reduction of NOx to N2 over ceria supported WOx based 
+catalysts: Influence of tungsten content. Catalysts 2021;11(8):950. https://doi.org/ 
+10.3390/catal11080950. 
+[37] Azmat S, Jan T, Ilyas SZ, Hassan A, Habib I, Mahmood Q, et al. Solar light triggered 
+photocatalytic performance of WO3 nanostructures; Waste water treatment. Mater 
+Res Express 2018;5(11):115025. https://doi.org/10.1088/2053-1591/aadf0a. 
+[38] Pourmortazavi SM, Rahimi-Nasrabadi M, Khalilian-Shalamzari M, Ghaeni HR, 
+Hajimirsadeghi SS. Facile chemical synthesis and characterization of copper 
+tungstate nanoparticles. J Inorg Organomet Polym Mater 2014;24(2):333–9. 
+https://doi.org/10.1007/s10904-013-9970-2. 
+[39] Balık M, Bulut V, Erdogan IY. Optical, structural and phase transition properties of 
+Cu2O, CuO and Cu2O/CuO: Their photoelectrochemical sensor applications. Int J 
+Hydrogen Energy 2019;44(34):18744–55. https://doi.org/10.1016/j. 
+ijhydene.2018.08.159. 
+[40] Tijani MM, Aqsha A, Yu N, Mahinpey N. Determination of redox pathways of 
+supported bimetallic oxygen carriers in a methane fuelled chemical looping 
+combustion system. Fuel 2018;233:133–45. https://doi.org/10.1016/j. 
+fuel.2018.06.017. 
+[41] Li N, Zheng Y, Wei L, Teng H, Zhou J. Metal nanoparticles supported on WO3 
+nanosheets for highly selective hydrogenolysis of cellulose to ethylene glycol. 
+Green Chem 2017;19(3):682–91. https://doi.org/10.1039/C6GC01327A. 
+[42] Zhuang HD, Bai SF, Liu XM, Yan ZF. Structure and performance of Cu/ZrO2 
+catalyst for the synthesis of methanol from CO2 hydrogenation. J Fuel Chem 
+Technol 2010;38(4):462–7. https://doi.org/10.1016/S1872-5813(10)60041-2. 
+[43] Chary KVR, Seela KK, Naresh D, Ramakanth P. Characterization and reductive 
+amination of cyclohexanol and cyclohexanone over Cu/ZrO2 catalysts. Catal 
+Commun 2008;9(1):75–81. https://doi.org/10.1016/j.catcom.2007.05.016. 
+[44] Chu D, Zhao C. Reduced oxygen-deficient CuWO4 with Ni catalyzed selective 
+hydrogenolysis of cellulose to ethylene glycol. Catal Today 2020;351:125–32. 
+https://doi.org/10.1016/j.cattod.2018.10.006. 
+[45] Imtiaz Q, Armutlulu A, Donat F, Naeem MA, Müller CR. Preventing agglomeration 
+of CuO-based oxygen carriers for chemical looping applications. ACS Sustain Chem 
+Eng 2021;9(17):5972–80. https://doi.org/10.1021/ 
+acssuschemeng.1c0056010.1021/acssuschemeng.1c00560.s001. 
+A. Abdalla et al.                                                                                                                                                                                                                                

@@ -1,0 +1,1018 @@
+
+
+===== Page 1 =====
+
+Highly Efficient Oxygen-Storage Material with Intrinsic
+Coke Resistance for Chemical Looping Combustion-Based
+CO2 Capture
+Qasim Imtiaz,[a] Alexey Kurlov,[a] Jennifer Lilia Marguerite Rupp,[b] and
+Christoph Rìdiger Mìller*[a]
+Introduction
+According to the Intergovernmental Panel on Climate Change
+(IPCC), global warming and climate change are most likely be-
+cause of the increasing concentration of CO2 in the atmos-
+phere.[1] In this context, the implementation of CO2 capture
+and storage (CCS) technologies is considered as a mid-term so-
+lution to stabilize or even reduce the concentration of CO2 in
+the atmosphere.[2,3] Among the different CCS technologies,
+chemical looping combustion (CLC), conceptually linked to
+oxy-fuel combustion, is arguably the most promising approach
+with regards to economics and environmental impact.[4] In
+CLC, a hydrocarbon is oxidized by lattice oxygen provided by
+a so-called oxygen carrier (typically a transition metal oxide)
+according to Equation (1):
+ð2 nþmÞMexOy ðsÞþCnH2 m !
+ð2 nþmÞMexOy¢1 ðsÞþn CO2 ðgÞþm H2O ðgÞ
+ð1Þ
+After the condensation of steam, a pure stream of CO2 is
+produced. To close the cycle, the reduced oxygen carrier is re-
+oxidized with air [Eq. (2)]:
+2 MexOy¢1 ðsÞþO2 ðgÞ ! 2 MexOy ðsÞ
+ð2Þ
+A schematic diagram of the CLC process is shown in
+Figure 1. A modification of the CLC concept is chemical loop-
+ing with oxygen uncoupling (CLOU). In CLOU, a hydrocarbon
+reacts with molecular oxygen [Eq. (3)] that is released by
+a redox reaction of the oxygen carrier [Eq. (4)]:
+CnH2 mþðnþm=2ÞO2 ðgÞ ! n CO2 ðgÞþm H2O ðgÞ
+ð3Þ
+2 MexOy ðsÞ ! MexOy¢1 ðsÞþO2 ðgÞ
+ð4Þ
+The advantage of CLOU over CLC is its faster rate of com-
+bustion, and it is, therefore, particularly attractive for solid
+fuels. CLC for solid fuels, for example, coal or biomass, first re-
+quires a slow gasification step to convert the solid fuel into
+a synthesis gas, whereas the solid fuel can react directly with
+the molecular oxygen released by the oxygen carrier in CLOU.
+However, CLOU puts additional thermodynamic constraints on
+the oxygen carrier such as a sufficiently high oxygen partial
+pressure at typical operating temperatures, which thus further
+limits the number of suitable transition metal oxides.
+Chemical looping combustion (CLC) and chemical looping with
+oxygen uncoupling (CLOU) are emerging thermochemical CO2
+capture cycles that allow the capture of CO2 with a small
+energy penalty. Here, the development of suitable oxygen car-
+rier materials is a key aspect to transfer these promising con-
+cepts to practical installations. CuO is an attractive material for
+CLC and CLOU because of its high oxygen-storage capacity
+(20 wt%), fast reaction kinetics, and high equilibrium partial
+pressure of oxygen at typical operating temperatures (850–
+10008C). However, despite its promising characteristics, its low
+Tammann temperature requires the development of new strat-
+egies to phase-stabilize CuO-based oxygen carriers. In this
+work, we report a strategy based on stabilization by co-precipi-
+tated ceria (CeO2¢x), which allowed us to increase the oxygen
+capacity, coke resistance, and redox stability of CuO-based
+oxygen carriers substantially. The performance of the new
+oxygen carriers was evaluated in detail and compared to the
+current state-of-the-art materials, that is, Al2O3-stabilized CuO
+with similar CuO loadings. We also demonstrate that the
+higher intrinsic oxygen uptake, release, and mobility in CeO2¢x-
+stabilized CuO leads to a three times higher carbon deposition
+resistance compared to that of Al2O3-stabilized CuO. Moreover,
+we report a high cyclic stability without phase intermixing for
+CeO2¢x-supported CuO. This was accompanied by a lower re-
+duction temperature compared to state-of-the-art Al2O3-sup-
+ported CuO. As a result of its high resistance towards carbon
+deposition and fast oxygen uncoupling kinetics, CeO2¢x-stabi-
+lized CuO is identified as a very promising material for CLC-
+and CLOU-based CO2 capture architectures.
+[a] Q. Imtiaz, A. Kurlov, Prof. Dr. C. R. Mìller
+Laboratory of Energy Science and Technology
+ETH Zurich
+Leonhardstrasse 27, 8092 Zurich (Switzerland)
+E-mail: muelchri@ethz.ch
+[b] Prof. Dr. J. L. M. Rupp
+Electrochemical Materials
+ETH Zurich
+Hçnggerbergring 64, 8093 Zurich (Switzerland)
+Supporting Information for this article is available on the WWW under
+http://dx.doi.org/10.1002/cssc.201403426.
+ChemSusChem 2015, 8, 2055 – 2065
+Ó 2015 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+2055
+Full Papers
+DOI: 10.1002/cssc.201403426
+
+
+===== Page 2 =====
+
+Oxygen carriers used commonly for CLC include the oxides
+of Ni, Mn, Fe, and Cu. In addition, a number of naturally occur-
+ring materials, for example, illmenite and manganese ores,
+have also received some attention.[5] However, as a result of
+the additional thermodynamic constraints, CLOU materials
+have been limited essentially to CuO-, Mn2O3-, and perovskite-
+based oxygen carriers.[6] CuO is particularly attractive for CLC
+because of its (i) high oxygen carrying capacity (0.2 gO2gCuO
+¢1),
+(ii) high reactivity with hydrocarbons, (iii) exothermic reduction
+reactions, and (iv) low tendency for carbon deposition. In addi-
+tion, CuO is a suitable candidate for CLOU as it is able to re-
+lease oxygen at the typical operating temperatures of 850–
+10008C. However, the quantity of oxygen released is reduced
+to 0.1 gO2gCuO
+¢1 under CLOU conditions because of its intrinsi-
+cally limited stoichiometric oxygen change (to Cu2O) in the
+temperature range of 850–10008C. In this paper, the reduction
+of CuO to Cu2O in an inert atmosphere is referred to as decom-
+position. Nonetheless, the main challenge associated with the
+use of CuO for CLC and CLOU is its structural instability with
+successive redox cycles as its low Tammann temperature over-
+laps with the operating temperature of the CLC and CLOU pro-
+cesses. The Tammann temperature, defined empirically as
+0.5Tm (Tm in K), indicates the onset of sintering. The Tammann
+temperatures of CuO, Cu2O, and Cu are 526, 481, and 4058C,
+respectively. Thus, irreversible microstructural changes are to
+be expected for CuO-based oxygen carriers during CLC and
+CLOU operation as the cationic diffusion of the material is acti-
+vated at high operating temperatures and sintering and ag-
+glomeration will proceed continuously. A strategy to phase-sta-
+bilize the material is the use of so-called cermets that are com-
+posed of a metallic and a ceramic phase. Examples of cermets
+are mixtures of CuO/Cu and a ceramic support such as Al2O3,
+MgAl2O4, sepiolite (Mg2Si6O15(OH)2·6H2O), SiO2, TiO2, MgO, or
+ZrO2.[7] The ceramic support structure may be also used to ma-
+nipulate the redox characteristics of the material and the activ-
+ity of its surface and may, indeed, even contribute to the over-
+all oxygen carrying/uncoupling capacity of the material. Impor-
+tantly, a large number of the cermets tested so far have re-
+vealed unfavorable reactions between the metal oxide and the
+ceramic phases which, in turn, often result in compounds that
+show significantly reduced redox kinetics and oxygen release
+such as CuAl2O4
+[8,9] and Cu2MgO3.[10] As a result of its low ten-
+dency to intermix with metallic phases, we believe that ceria-
+based cermets have a high potential for chemical looping. Fur-
+thermore, ceria-based cermets can contribute to the storage
+and release of oxygen by a nonstoichiometric redox reaction.
+The binary oxide ceria, CeO2¢x, is a mixed ionic-electronic con-
+ducting material for which the Ce4+/Ce3+ oxidation states are
+balanced
+by
+its
+oxygen
+nonstoichiometry.[11,12]
+Ceria
+has
+a simple cubic structure,[13] possesses a high Tammann temper-
+ature (10648C),[14,15] and shows no intermixing in the CuO-
+CeO2¢x system.[16,17]
+Very recently, Hedayati et al.[18] reported promising CO2 cap-
+ture capacities for ceria and gadolinia-doped ceria-copper
+oxide cermets. Defect thermodynamics, given in Brouwer dia-
+grams, show that doping (such as gadolinia-doped (10 mol%)
+ceria) shifts the electrolytic domain boundary of the oxide by
+orders of magnitude towards higher oxygen partial pres-
+sures[11,19] (for typical CLC and CLOU operation temperatures).
+This has serious consequences for chemical looping applica-
+tions as the uptake and release of oxygen from Gd-doped
+CeO2¢x is strongly decreased for oxygen partial pressures that
+are typically encountered during the reduction step in chemi-
+cal looping. Hence, in this work we only study copper-ceria
+cermets with pristine ceria supports as a new class of materials
+for CLC and CLOU.
+In this work we replace the current state-of-the-art cermet
+for CLC and CLOU (i.e., Al2O3-stabilized CuO) with CeO2¢x-sup-
+ported CuO. To this end, we develop and determine unequivo-
+cally the potential of undoped, CeO2¢x-supported CuO cermets
+for CLC and CLOU. The cyclic redox stability (using CH4 as
+a fuel) and oxygen release capacity are investigated in detail
+and discussed in light of the microstructure and the phase
+characteristics of the cermets. The materials were synthesized
+using a co-precipitation technique, and we focus on cermets
+that contain up to 60 wt% CuO. The performance of the new
+CeO2¢x-based cermets is compared to state-of-the-art Al2O3-sta-
+bilized CuO. We are able to demonstrate that a rational choice
+of the support can substantially increase the resistance of the
+oxygen carrier towards unfavorable carbon deposition and in-
+crease both the oxygen capacity and release rates for CLC and
+CLOU-based CO2 capture applications.
+Results and Discussion
+Characterization of freshly calcined oxygen carriers
+The chemical phases of the calcined oxygen carriers were de-
+termined using XRD. The XRD patterns of CeO2¢x-stabilized
+CuO (50 and 60 wt%) and the reference material, Al2O3-stabi-
+lized CuO (50 wt%), are plotted in Figure 2. In the oxidized
+state, the CuO-CeO2¢x oxygen carriers are composed of the tar-
+geted monoclinic and cubic fluorite structure of CuO and
+CeO2¢x, respectively. The diffractograms show only peaks for
+ceria[11,20] and copper(II) oxide.[21] The presence of additional in-
+termixed phases between CuO (or Cu) and CeO2¢x was not ob-
+served, which confirms the high chemical stability of these ma-
+terials. For comparison, the diffractogram of the state-of-the-
+art Al2O3-stabilized CuO-based oxygen carrier (50 wt% CuO) is
+Figure 1. Schematic diagram of CLC.
+ChemSusChem 2015, 8, 2055 – 2065
+www.chemsuschem.org
+Ó 2015 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+2056
+Full Papers
+ 1864564x, 2015, 12, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.201403426 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 3 =====
+
+plotted in Figure 2c. XRD reveals the formation of spinel
+CuAl2O4 (cubic structure)[22] in addition to the presence of CuO.
+Notably, the formation of intermixed phases may affect the
+redox kinetics of the material, however, this will be assessed in
+more detail later. Peaks characteristic of Al2O3 were not ob-
+served in the freshly calcined material.
+The average crystallite sizes of CuO, CeO2¢x, and CuAl2O4 in
+the oxygen carriers are given in Table 1 along with the values
+for the surface area, pore volume, and crushing strength of the
+materials. It can be seen that the crystallite size of CuO is very
+similar in all the oxygen carriers synthesized. N2 adsorption
+measurements confirm that the high calcination temperature
+of 10008C resulted in cermets with a low surface area and
+pore volume. Previous studies indicated that a low surface
+area and pore volume do not have a detrimental effect on the
+redox characteristics of CuO-based oxygen carriers.[23] Finally,
+the crushing strength of all of the oxygen carriers was in the
+range of 10.9–12.9 N. The obtained crushing strengths are suf-
+ficiently high to allow the CLC and CLOU performance of the
+materials to be assessed in a fluidized bed. This high mechani-
+cal strength of the material synthesized is of significant rele-
+vance for practical applications.
+SEM was used to analyze the surface morphology of the cal-
+cined oxygen carriers. Figure 3a and b show that the surface
+of Cu50Ce and Cu60Ce was composed of tightly packed poly-
+hedrons. For Cu60Ce, small grains decorated the surface of the
+larger polyhedrons. Energy-dispersive X-ray (EDX) analysis of
+Cu50Ce showed that CuO and CeO2¢x were distributed uni-
+formly in the cermet (Figure 4). For Cu60Ce, the large poly-
+hedrons comprised only CuO, whereas the comparatively
+smooth grains contained only CeO2¢x (Figure 4). For compari-
+son, the surface morphologies of pure, that is, unsupported,
+CuO and CeO2¢x were also studied. High-resolution scanning
+electron micrographs of CuO and CeO2¢x are shown in Fig-
+ure S1. Pure CuO possessed a very smooth and nonporous sur-
+face, whereas the surface of pure CeO2¢x comprised nano-sized
+grains with an average size of 9624 nm. For the CuO-Al2O3
+cermets, the surface of Cu50Al was fairly smooth and com-
+posed (partly) of very small grains (Figure 3c). The average size
+of the grains was 14224 nm. EDX mapping of the surface re-
+vealed that the small grains are composed mainly of CuO,
+whereas the smooth structures contained both CuO and Al2O3
+(Figure S2). The nonhomogeneous distribution of CuAl2O4 in
+Cu50Al may limit the suitability of this material for CLC and
+CLOU applications.
+Temperature-programmed decomposition and reduction
+To investigate the oxygen release (uncoupling) characteristics
+of
+the
+freshly
+calcined
+oxygen
+carriers,
+temperature-pro-
+grammed decomposition (TPD) experiments were performed.
+For comparison, the TPD characteristics of unsupported CuO
+and CeO2¢x were also determined. Plots of the normalized
+weight change as a function of temperature are shown in
+Figure 5. The onset of the decomposition reaction was defined
+as the temperature at which the oxygen carrier had lost 2% of
+Figure 2. X-ray diffractograms of the freshly calcined oxygen carriers:
+a) Cu50Ce, b) Cu60Ce, and c) Cu50Al. The following compounds were identi-
+fied: (*) CuO, (^) CeO2¢x, and (&) CuAl2O4.
+Table 1. Surface area, pore volume, crushing strength, and average crys-
+tallite sizes of CuO, CeO2¢x, and CuAl2O4 in the synthesized oxygen carri-
+ers.
+Property
+Material
+Cu50Ce
+Cu60Ce
+Cu50Al
+surface area [m2g¢1]
+<0.5
+pore volume [cm3g¢1]
+<0.05
+crushing strength [N]
+12.91.6
+10.91.9
+12.32.8
+CuO(200) [nm]
+30
+32
+33
+CeO2¢x,(111) [nm]
+52
+59
+–
+CuAl2O4,(311) [nm]
+–
+–
+49
+Figure 3. Scanning electron micrographs of the oxygen carriers calcined at 10008C: a) Cu50Ce, b) Cu60Ce, and c) Cu50Al.
+ChemSusChem 2015, 8, 2055 – 2065
+www.chemsuschem.org
+Ó 2015 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+2057
+Full Papers
+ 1864564x, 2015, 12, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.201403426 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 4 =====
+
+the total weight loss. Similarly, the decomposition reaction was
+considered complete once 98% of the total weight loss had
+been reached. The decomposition of CuO (4CuO (s)!2Cu2O
+(s)+O2 (g)) in N2 started at ~7378C and was completed at
+~9468C. However, CeO2¢x did not decompose in the tempera-
+ture range studied here. For the synthesized oxygen carriers,
+the decomposition of CeO2¢x-stabilized CuO started at a slightly
+higher temperature (~7758C) but was completed at an appre-
+ciably lower temperature of ~8958C compared to that of un-
+supported CuO. A decrease of the loading of CuO in CuO-
+CeO2¢x cermets led to a further decrease of the decomposition
+temperature: a very favorable behavior for CLOU applications.
+Notably, detailed XRD analysis of the decomposed materials
+confirmed that the CuO-CeO2¢x oxygen carriers possessed
+a stable cermet structure that did not show any intermixing in
+the temperature range studied here (Figure S3). In contrast,
+the decomposition of phase-intermixed Cu50Al started at
+a substantially higher temperature (~8278C) compared to that
+of CeO2¢x-stabilized CuO and pure CuO. The decomposition of
+Cu50Al was only completed when the holding period at
+10008C was reached. The shift of the decomposition tempera-
+ture of Cu50Al to higher temperatures can be explained by the
+presence of CuAl2O4 that decom-
+poses according to Equation (5):
+4 CuAl2O4 ðsÞ ! 4 CuAlO2 ðsÞ
+þ2 Al2O3 ðsÞþO2 ðgÞ
+ð5Þ
+XRD analysis of decomposed
+Cu50Al (Figure S3) confirmed the
+presence of CuAlO2 and Al2O3.
+Thus,
+CeO2¢x-stabilized
+CuO-
+based oxygen carriers are superi-
+or to Al2O3-stabilized CuO be-
+cause of their high chemical sta-
+bility (i.e., no phase intermixing)
+and, in turn, reduced decompo-
+sition
+temperature.
+The
+CuO
+content
+of
+the
+synthesized
+oxygen
+carriers,
+determined
+from the weight loss during decomposition, is given in Table 2.
+For all oxygen carriers, the CuO content determined by TPD is
+close to the theoretically expected values.
+CH4 temperature-programmed reduction (TPR) and Raman
+spectroscopy of CeO2¢x- and Al2O3-supported CuO, pure CuO,
+and pure CeO2¢x were performed to determine their reduction
+characteristics and pathways and the extent of carbon deposi-
+tion. The CH4-TPR profiles of the oxygen carriers (Figure 6)
+show that the reduction of unsupported CuO occurred in the
+temperature range 535–8958C by an apparently single-step re-
+action [Eq. (6)]:
+4 CuO ðsÞþCH4 ðgÞ ! 4 Cu ðsÞþCO2 ðgÞþ2 H2O ðgÞ
+ð6Þ
+Figure 4. EDX maps of freshly calcined a) Cu50Ce and b) Cu60Ce.
+Figure 5. TPD profiles of the synthesized oxygen carriers: (d) CuO, (c)
+Cu50Ce, (g) Cu60Ce, (a) Cu50Al, and (b) CeO2¢x.
+Table 2. CuO content of the oxygen carriers as determined from TPD.
+Property
+Material
+Cu50Ce
+Cu60Ce
+Cu50Al
+CuO content [wt%]
+52
+60
+51
+Figure 6. CH4-TPR profiles of the synthesized oxygen carriers: (d) CuO,
+(c) Cu50Ce, (g) Cu60Ce, (a) Cu50Al, and (b) CeO2¢x.
+ChemSusChem 2015, 8, 2055 – 2065
+www.chemsuschem.org
+Ó 2015 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+2058
+Full Papers
+ 1864564x, 2015, 12, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.201403426 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 5 =====
+
+Once CuO was fully reduced to metallic Cu, no further in-
+crease in sample weight (because of carbon deposition) was
+observed. Nonetheless, the Raman spectrum of the reduced
+material showed minor peaks at n˜ =1360 and 1582 cm¢1,
+which are characteristic for graphite (Figure S4). Raman spec-
+troscopy is expected to have a higher sensitivity to carbon
+deposition than thermogravimetry. The peak at n˜ =1360 cm¢1
+originates from defects in the graphite structure, whereas the
+peak located at n˜ =1582 cm¢1 corresponds to the deformation
+of carbon bonds in the basal planes of the hexagonal structure
+of graphite. Thus, the Raman measurements indicate that un-
+supported Cu has a small tendency for carbon deposition by
+the reaction shown in Equation (7):
+CH4 ðgÞ ! C ðsÞþ2 H2 ðgÞ
+ð7Þ
+The TPR experiments also showed that the slow reduction
+of CeO2¢x to Ce2O3 (using CH4) started at ~7658C but was not
+completed within the measurement time (even for a holding
+time of 30 min at 10008C). Both Ce2O3 and CeO2¢x were identi-
+fied in the X-ray diffractogram of the reduced material (Fig-
+ure S5). Furthermore, no carbon is deposited on pure CeO2¢x
+(Figure S4). For CeO2¢x-stabilized CuO, reduction started at
+~4908C, that is, at a lower temperature compared to pure
+CuO, and progressed by a two-step mechanism. The first re-
+duction step occurred in the temperature range 490–7358C,
+which is followed by a second reduction step in the tempera-
+ture range 850–9858C. Once the reduction of Cu50Ce and
+Cu60Ce was complete, a slow increase in sample weight was
+observed, indicative of carbon deposition by the reaction
+shown in Equation (7). To elucidate the reduction mechanism
+of CeO2¢x-stabilized CuO, the TPR experiment was stopped at
+the temperatures marked in Figure 6. Subsequently, the partial-
+ly reduced oxygen carriers were analyzed by XRD and Raman
+spectroscopy. The X-ray diffractograms of Cu50Ce revealed
+that in the first reduction step only CuO was reduced to Cu
+(Figure 7a). In the second reduction step CeO2¢x is partially re-
+duced to Ce2O3. The Raman spectra allowed us to elucidate
+further
+the
+prevailing
+near-order
+cationic-anionic
+lattice
+changes during reduction (Figure 7b). As a result of its cubic
+symmetry, CeO2¢x shows a single, characteristic Raman F2g
+stretching mode for the cationic-oxygen anionic vibrations
+(peak at around n˜ =463.3 cm¢1 for 7008C). This is in agreement
+with values reported previously.[13,14,24,25] A more detailed analy-
+sis of the changes of the bulk cationic-anionic bond strength
+of the CeO2¢x constituent in the oxygen carrier as a function of
+the reduction temperature was performed by assessing the
+shift in the F2g peak position carefully (insets in Figure 7b and
+Figure S6). We observed a significant blueshift and decrease of
+the F2g stretching mode wavenumber (by ¢1.8 cm¢1) with in-
+creasing reduction temperature (+3008C). This near-order che-
+momechanical change of CeO2¢x is in agreement with previous
+reports.[26] The blueshift in the CeO2¢x-based cermet structure
+is indicative of an expansion of the bulk CeO2¢x lattice as
+a result of the reaction of the lattice oxygen of CeO2¢x with
+carbon (or carbon precursors).[27,28] Consequently, carbon depo-
+sition was not observed after the completion of the first reduc-
+tion step, which confirms the high potential of ceria-based cer-
+mets for CLC and CLOU. Furthermore, the Raman measure-
+ments allowed us to conclude that CeO2¢x is also reduced
+during the first reduction step.
+In the CH4-TPR profile of Cu50Al, we observe a first weight
+loss in the temperature range 550–8108C. This is followed by
+an increase in weight in the temperature range 810–8608C
+and a second weight loss in the temperature range 860–
+9708C. Towards the end of the TPR experiment, an increase in
+sample weight was observed. To better understand the TPR
+profile of Cu50Al, XRD and Raman spectroscopy were per-
+formed at the temperatures marked in Figure 6. At both 810
+and 8608C, Cu and CuAl2O4 were identified in the X-ray diffrac-
+tograms (Figure 8a) of partially reduced Cu50Al. The intensity
+of the CuAl2O4 peaks decreased with increasing temperature.
+However, Raman spectroscopy confirmed that graphite was al-
+ready present on the surface of partially reduced Cu50Al (810
+and 8608C; Figure 8b). The Raman spectrum shows an in-
+crease in the intensity of the graphite peaks with increasing
+temperature (Figure 8b). This confirms that Cu50Al has a high
+tendency for carbon formation. If we combine the XRD, Raman
+spectroscopy, and TPR results for Cu50Al we can conclude that
+the rate of carbon deposition was higher than the rate of re-
+Figure 7. a) X-ray diffractograms of (partially) reduced Cu50Ce. The following
+compounds were identified: (*) Cu, (^) CeO2¢x, and (~) Ce2O3. b) Raman
+spectra of (partially) reduced Cu50Ce: (c) T=7358C, (b) T=8508C, and
+(g) T=10008C, 30 min.
+ChemSusChem 2015, 8, 2055 – 2065
+www.chemsuschem.org
+Ó 2015 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+2059
+Full Papers
+ 1864564x, 2015, 12, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.201403426 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 6 =====
+
+duction in the temperature range 810–8608C. Intriguingly, be-
+tween 860 and 9708C, only a slight increase in the intensity of
+the graphite peaks (Figure 8b) was observed, which indicates
+that the quantity of carbon deposited did not change signifi-
+cantly in this temperature range. The decrease in weight in the
+temperature range 860–9708C is, therefore, caused by the very
+slow reduction of CuAl2O4. This reduction step was completed
+at ~9708C. The X-ray diffractogram of Cu50Al sampled at 970
+or 10008C (after a holding time of 30 min) showed only peaks
+for Cu and Al2O3. Finally, the increase in weight from 9708C
+until the end of the TPR experiment was because of additional
+carbon deposition, as confirmed by Raman spectroscopy.
+CLC and CLOU performance
+The cyclic oxygen release (uncoupling) capacity and the partial
+pressure of the oxygen released were determined for the dif-
+ferent materials in a fluidized bed at 9508C. Plots of the quan-
+tity of O2 released by the decomposition of 1 g of oxygen carri-
+er as a function of cycle number are shown in Figure 9. For
+Cu50Ce and Cu60Ce, the amount of O2 released during the
+first cycle was lower than the theoretically expected value be-
+cause Cu50Ce and Cu60Ce were not fully decomposed during
+the first cycle (a fixed decomposition time of 120 s was used).
+This is confirmed by the composition profile of the sampled
+off-gas (Figure S7). Nonetheless, the rate of O2 release in-
+creased with cycle number to result in a gradual increase in
+the amount of O2 released over the first six cycles. From the
+sixth cycle, the rate of O2 release was sufficiently high to ach-
+ieve the full decomposition of the oxygen carriers within 120 s
+to yield an oxygen release very close to the theoretically ex-
+pected value (Figure 9). To elucidate the reason for the increas-
+ing decomposition rate with cycle number, the BET surface
+area of the cycled oxygen carriers was measured and found to
+be <0.5 m2g¢1. Therefore, changes in the surface area cannot
+be responsible for the increase in the rate of O2 release with
+cycle number. However, scanning electron micrographs of the
+cycled oxygen carriers revealed changes in their surface mor-
+phology (Figure S8). The surface of the cycled oxygen carriers
+is composed of CuO and CeO2¢x grains with steps and edges.
+Moreover, the crystallite size of CuO and CeO2¢x increased
+during cycling (Table S1). Thus, the increasing rate of the de-
+composition reaction with cycle number may be attributed to
+structural changes in the material that facilitate the release
+and transport of O2.
+Cu50Al possessed a stable but very low oxygen uncoupling
+capacity of only 0.18 mmolO2gcarrier
+¢1, that is, ~88% lower than
+the theoretically expected value of 1.6 mmolO2gcarrier
+¢1. The low
+oxygen uncoupling capacity of Cu50Al is because of the slow
+decomposition of CuAl2O4 as observed previously in the TPD
+experiments.
+The partial pressure of O2 released by Cu50Al and Cu50Ce
+during the 10th CLOU cycle is plotted in Figure 10. The decom-
+position of Cu50Ce started once the oxygen concentration in
+the fluidized bed reached ~6 molm¢3. This somewhat higher
+than theoretically expected oxygen partial pressure (at 9508C)
+can be explained by the fact that the previous exothermic oxi-
+dation step caused an increase in the bed temperature by
+~158C. The continuous decrease in the O2 concentration
+shown in Figure 10 is because only 1 g of oxygen carrier was
+used in the fluidized bed experiments. Nonetheless, the data
+shown in Figure 10 demonstrate that CeO2¢x-stabilized CuO
+Figure 8. a) X-ray diffractograms of (partially) reduced Cu50Al. The following
+compounds were identified: (*) Cu, (&) CuAl2O4, and (&) Al2O3. b) Raman
+spectra of (partially) reduced Cu50Al: (c) T=8108C, (b) T=8508C,
+(g) T=9708C, and (d) T=10008C, 30 min.
+Figure 9. Quantity of oxygen released by the different oxygen carriers deter-
+mined in a fluidized bed at 9508C: (*) Cu50Ce, (~) Cu60Ce, and
+(&) Cu50Al. The duration of the decomposition and reoxidation reactions
+was fixed to 120 and 180 s, respectively. The dashed and dotted horizontal
+lines indicate the theoretical oxygen uncoupling capacity of oxygen carriers
+that contain, respectively, 50 and 60 wt% CuO.
+ChemSusChem 2015, 8, 2055 – 2065
+www.chemsuschem.org
+Ó 2015 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+2060
+Full Papers
+ 1864564x, 2015, 12, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.201403426 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 7 =====
+
+can provide an O2 atmosphere very close to the theoretically
+expected equilibrium concentration. For Cu50Al, the O2 con-
+centration decreased in a very similar manner to the blank ex-
+periment (fluidized bed without any oxygen carrier) because of
+the slow rate of O2 release of CuAl2O4.
+The cyclic redox characteristics of the synthesized oxygen
+carriers were assessed in a fluidized bed at 9008C using meth-
+ane for reduction (10 vol% CH4 and 90 vol% N2). The composi-
+tion of the off-gas during the 10th redox cycle is plotted in Fig-
+ure 11a and b for Cu50Ce and Cu50Al, respectively. From the
+plot shown in Figure 11a it can be seen that when the atmos-
+phere was switched from air to N2, the mole fraction of O2 sta-
+bilized at ~0.012 because of the spontaneous decomposition
+of CuO to Cu2O. The partial pressure of O2 is close to the ther-
+modynamically
+predicted
+equilibrium
+partial
+pressure
+of
+oxygen at 9008C of 0.014. After we switched from N2 to a CH4
+atmosphere, a sharp increase in the mole fraction of CH4 oc-
+curred. An induction period for the reduction of partially de-
+composed Cu50Ce with CH4 can be seen clearly (Figure 11a,
+inset). After the induction period, the mole fraction of CH4 de-
+creased because of the reaction of CH4 with CeO2¢x-stabilized
+CuO to produce CO2, H2O, and metallic Cu. The formation of
+CO is caused by the partial oxidation of CH4 by CeO2¢x. The iso-
+thermal reduction of Ce50Ce, as observed in the fluidized bed,
+is in agreement with the CH4-TPR results. A small CO2 peak at
+the start of the oxidation step is indicative of carbon deposi-
+tion by the reaction shown in Equation (7), albeit to a very
+small extent. The deposition of carbon on the cermet is most
+likely to occur during the partial oxidation of CH4.
+For Cu50Al, the concentration of O2 was found to decrease
+continuously when the inlet gas was switched from air to N2
+(Figure 11b). This behavior can be explained by the slow re-
+lease of oxygen by CuAl2O4, as noted previously (Figure 10).
+After switching to a CH4 atmosphere, the mole fraction of CO2
+increased rapidly. Cu50Al reacts instantaneously with CH4, that
+is, an induction period as seen for CeO2¢x-stabilized CuO was
+not observed (Figure 11b, inset). Again, the CO2 peak is fol-
+lowed by a CO peak that is most likely caused by the partial
+oxidation of CH4 by “oxygen-depleted” Cu50Al.[8] Compared to
+Cu50Ce, a large peak of CO2 was observed during the reoxida-
+tion of Cu50Al in air, which indicates that a high quantity of
+carbon is deposited on Cu50Al. If we assume the complete oxi-
+dation of CH4 to CO2, the normalized yield of CO2 is defined as
+[Eq. (8)]:
+Figure 10. Concentration profile of O2 released during the
+10th decomposition step for a) Cu50Ce and b) Cu50Al. The experiment was
+performed at 9508C in a fluidized bed. The dotted line (g) plots the
+oxygen concentration during a blank experiment, whereas the horizontal
+dashed lines (b) correspond to the equilibrium oxygen concentration at
+950 and 9658C.
+Figure 11. Off-gas composition for the 10th redox cycle performed at 9008C
+for a) Cu50Ce and b) Cu50Al: (c) CH4, (g) CO2, (—) CO, and (b) O2. A
+mixture of 10 vol% CH4 in N2 was used to reduce the oxygen carrier. The re-
+duction time was fixed to 180 s.
+ChemSusChem 2015, 8, 2055 – 2065
+www.chemsuschem.org
+Ó 2015 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+2061
+Full Papers
+ 1864564x, 2015, 12, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.201403426 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 8 =====
+
+Normalized yield of CO2 ¼
+molCO2 measured
+molCO2 produced theoretically
+ð8Þ
+The normalized yield of CO2 is plotted for each oxygen carri-
+er studied as a function of cycle number in Figure 12. The nor-
+malized yield of CO2 for Cu50Ce is stable and ~0.85 over the
+25 redox cycles tested. Normalized yields less than 1 can be ex-
+plained by the fact that the oxygen carrier was partially de-
+composed during the N2 purge segment, as shown in Fig-
+ure 11a. For Cu60Ce, the average normalized yield of CO2 re-
+mained close to 0.95 over the 25 cycles tested. However, this
+oxygen carrier showed agglomeration over the 25 redox cycles
+test. Agglomeration of the oxygen carrier is a serious concern
+as it can lead to defluidization. A possible explanation for the
+agglomeration tendency of Cu60Ce is the phase separation of
+CuO and CeO2¢x during calcination (Figure 4b). No agglomera-
+tion was observed for the material with the lowest Cu loading
+(Cu50Ce). This observation confirms that the structure of the
+oxygen carrier is directly related to its performance. Notably,
+the three redox cycles performed by Hedayati et al.[18] are in-
+sufficient to assess the agglomeration characteristics of CeO2¢x-
+supported CuO-based oxygen carriers that contain 60 wt%
+CuO. Thus, the maximal loading of CuO that allowed a stable
+operation was ~50 wt%. However, for Cu50Al the average nor-
+malized yield of CO2 remained stable at ~0.85 during the
+25 redox cycles tested. The low yield of CO2 for Cu50Al can be
+explained by the partial oxidation of CH4 during the end of the
+reduction step (Figure 11b).
+Plots of the quantity of carbon deposited during CH4 reduc-
+tion are shown in Figure 13. Cu50Ce showed a comparatively
+low tendency for carbon deposition, whereas the quantity of
+carbon deposited on Cu60Ce increased with cycle number. The
+consistently low quantity of carbon deposited on Cu50Ce can
+be explained by the ability of surface oxygen of CeO2¢x to
+react with carbonaceous species according to Equation (9):[29,30]
+n CþCeO2¢x ! CeO2¢x¢nþn CO
+ð9Þ
+However, the quantity of carbon deposited on Cu60Ce in-
+creased with cycle number. A possible explanation might be
+that the inhomogeneous intermixing of CuO and CeO2¢x
+phases in Cu60Ce results in agglomeration, which thereby re-
+duces the availability of surface oxygen required for the re-
+moval of carbonaceous species. For Cu50Al, an approximately
+three times higher quantity of carbon was deposited com-
+pared Cu50Ce. As discussed above, for Cu50Al the decomposi-
+tion of CH4 starts during CuO reduction. Thus, a high (and
+somewhat fluctuating) quantity of carbon is expected.
+The high CO selectivity of CeO2¢x-supported CuO-based
+oxygen carriers during reduction would reduce the efficiency
+of the CLC process. In addition, carbon deposition would result
+in the release of CO2 in the air reactor, which thus limits the
+overall CO2 capture efficiency of the process. It can be seen for
+Cu50Ce that the formation of CO and the deposition of carbon
+can be avoided by a judicious choice of the reduction time
+(Figure 11a). If the duration of the reduction segment was re-
+duced from 180 to 30 s, CO and carbon deposits were not ob-
+served (Figure 14). Plots of the amount of CO2 produced if the
+reduction time was set to 30 s are shown in Figure 15. Initially,
+the amount of CO2 produced increased over the first 10 cycles
+but subsequently stabilized at an average value of 1.43 mmol
+CO2. Notably, the average amount of CO2 produced is very
+close to the theoretically expected value of 1.57 mmol CO2
+under CLOU conditions. Furthermore, the evolution of CO2
+with cycle number is similar to the trend observed for the re-
+lease of O2 (Figure 9). This indicates that CH4 was primarily oxi-
+dized by the molecular oxygen released. The increasing rate of
+reduction with cycle number is most likely linked to changes
+in the morphology and the crystallite size of CuO in the
+oxygen carrier (Table S1 and Figure S9).
+Conclusions
+We demonstrated that CeO2¢x-stabilized CuO-based oxygen
+carriers possess a high and stable oxygen release under chemi-
+cal looping combustion (CLC) and chemical looping with
+oxygen uncoupling (CLOU) conditions. At the same time the
+Figure 12. Normalized yield of CO2 as a function of cycle number deter-
+mined from the CLC experiments performed in a fluidized bed at 9008C:
+(*) Cu50Ce, (~) Cu60Ce, and (&) Cu50Al. The duration of the reduction re-
+action was fixed to 180 s.
+Figure 13. Amount of carbon [mol] deposited by CH4 decomposition during
+CLC operation in a fluidized bed at 9008C as a function of cycle number:
+(*) Cu50Ce, (&) Cu50Al, and (~) Cu60Ce. The duration of the reduction re-
+action was fixed to 180 s.
+ChemSusChem 2015, 8, 2055 – 2065
+www.chemsuschem.org
+Ó 2015 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+2062
+Full Papers
+ 1864564x, 2015, 12, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.201403426 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 9 =====
+
+cermet structure is maintained. We confirmed that convention-
+al Al2O3-stabilized CuO-based structures show an intermixing
+of phases that results in the formation of CuAl2O4, which has
+unfavorable material characteristics for the CLC and CLOU pro-
+cesses. Furthermore, the new class of material benefits from its
+intrinsic nonstoichiometric oxygen changes and its capability
+to effectively remove carbon precursors, which thus minimizes
+carbon deposition. XRD analysis confirmed that no unfavorable
+intermixed phases were formed for CuO-CeO2¢x cermets. Tem-
+perature-programmed decomposition and CH4 temperature-
+programmed reduction experiments revealed that the rate of
+O2 release and reduction was higher for CeO2¢x-stabilized CuO
+than unsupported CuO and Al2O3-stabilized CuO. CeO2¢x-stabi-
+lized CuO was reduced by a two-step mechanism. In the first
+step, CuO and CeO2¢x were reduced simultaneously, whereas
+in the second step only CeO2¢x was partially reduced to
+CeO2¢x/Ce2O3. Importantly, carbon deposition did not occur
+during CuO reduction with CH4. Raman-based near-order bulk
+analysis of the anionic-cationic bonding of ceria revealed clear-
+ly that the oxygen nonstoichiometry increased and that lattice
+oxygen (released by CeO2¢x) contributes to the increased re-
+sistance to carbon formation of these cermets. In contrast,
+state-of-the-art, Al2O3-stabilized CuO was reduced in a single
+step and significant carbon deposition was observed, which in-
+dicates an enhanced CH4 decomposition activity for this mate-
+rial.
+Cyclic CLOU experiments performed in a fluidized bed at
+9508C revealed that CeO2¢x-stabilized CuO released oxygen
+very close to the theoretically expected equilibrium oxygen
+partial pressure. The cyclic O2 release of CeO2¢x-stabilized CuO
+was initially low but increased with cycle number to reach the
+theoretically expected value after five cycles. However, Al2O3-
+stabilized CuO showed a very low cyclic O2 release because of
+the slow rate of CuAl2O4 decomposition. Under CLC conditions,
+all of the oxygen carriers synthesized showed stable CO2
+yields. However, CeO2¢x-stabilized CuO that contained 60 wt%
+CuO was found to agglomerate most likely because of phase
+separation between CuO and CeO2¢x. Importantly, CeO2¢x-stabi-
+lized CuO showed an approximately three times lower quantity
+of carbon deposited compared to Al2O3-stabilized CuO. With
+the use of Raman spectroscopy, we confirmed that the oxida-
+tion of deposited carbon occurred by the lattice oxygen of
+CeO2¢x. As a result of their high and stable O2 release, high
+equilibrium partial pressure of O2, and high resistance to
+carbon deposition and agglomeration, CeO2¢x-stabilized CuO-
+based cermets that contain 50 wt% CuO were identified as
+highly promising materials for CLC- and CLOU-based CO2 cap-
+ture architectures.
+Experimental Section
+Oxygen carrier synthesis
+CeO2¢x-supported CuO-based oxygen carriers that contain 50 or
+60 wt% CuO were prepared using a co-precipitation technique.
+Typically,
+appropriate
+amounts
+of
+Cu(NO3)2·2.5H2O
+and
+Ce(NO3)3·6H2O were dissolved in reverse-osmosis water (100 mL,
+15 MWcm at 258C). Subsequently, a 2m NaOH solution was fed
+dropwise into the nitrate solution under magnetic stirring until
+a pH value of 10.0 was reached. The resulting precipitate was aged
+for 150 min at RT and subsequently washed several times with re-
+verse-osmosis water to remove excess Na+ and nitrate ions. Once
+the electrical conductivity of the filtrate was ~150 mScm¢1, the
+cake of washed precipitate was dried at 1008C for 24 h. The dried
+material was calcined in a muffle furnace at 10008C for 2 h using
+a heating rate of 58Cmin¢1. Finally, the calcined oxygen carrier was
+crushed and sieved into the size ranges 53–106 and 300–425 mm.
+For comparison, an Al2O3-supported CuO-based oxygen carrier that
+contained 50 wt% CuO was synthesized using a similar protocol
+(co-precipitation was performed at pH 8.5, and Al(NO3)3·9H2O was
+used as the Al precursor). The following nomenclature is used to
+describe the oxygen carriers: the symbol Cu is followed by the
+weight percentage of CuO and an abbreviation of the support (i.e.,
+Ce or Al). For example, Cu60Ce is a CeO2¢x-stabilized cermet/
+oxygen carrier that contains 60 wt% CuO.
+Oxygen carrier characterization
+The composition of the calcined, reduced, and cycled oxygen carri-
+ers was determined by XRD (Bruker D8 Advance). The diffractome-
+ter was mounted with a Lynx eye super speed detector and oper-
+ated at 40 kV and 40 mA using CuKa radiation. The X-ray diffracto-
+grams were acquired within the range of 2q=20–808 with a step
+Figure 14. Composition of the off-gases during the 10th redox cycle at 9008C
+for Cu50Ce: (c) CH4, (g) CO2, (—) CO, and (b) O2. A mixture of
+10 vol% CH4 in N2 was used to reduce the oxygen carrier. The reduction
+time was fixed to 30 s.
+Figure 15. Amount of CO2 [mol] produced as a function of cycle number
+(Cu50Ce at 9008C). The reduction time was fixed to 30 s.
+ChemSusChem 2015, 8, 2055 – 2065
+www.chemsuschem.org
+Ó 2015 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+2063
+Full Papers
+ 1864564x, 2015, 12, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.201403426 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 10 =====
+
+size of 0.02758 per second. The average crystallite sizes of CuO,
+CeO2¢x, and CuAl2O4 in the oxygen carriers were estimated using
+Scherrer’s equation.[31]
+N2 physisorption isotherms of the calcined and cycled oxygen carri-
+ers were acquired at ¢1968C by using a Quantachrome NOVA
+4000e analyzer. Before the acquisition of the isotherms, the oxygen
+carriers were degassed at 3008C for at least 2 h. The BET[32] and
+Barrett–Joyner–Halenda (BJH)[33] models were used to calculate the
+surface area and pore volume from the N2 isotherms, respectively.
+The crushing strength of the oxygen carriers was obtained by
+measuring the force required to break the oxygen carrier particles
+by using a Shimpo force gauge. Here, 20 measurements were aver-
+aged to determine the mean crushing strength of the oxygen carri-
+ers.
+A Leo Gemini 1530 SEM was used to characterize the surface mor-
+phology of the freshly calcined and cycled oxygen carriers. Double-
+sided carbon tape was used to attach the oxygen carriers to an
+aluminum holder. The oxygen carriers were sputter-coated with Pt
+before imaging. EDX mapping was performed to analyze the sur-
+face composition of the synthesized materials.
+TPD and TPR experiments were performed by using a thermogravi-
+metric analyzer (TGA, Mettler Toledo TGA/DSC 1) to determine, re-
+spectively, the decomposition and reduction characteristics of the
+synthesized oxygen carriers. Typically, a small quantity (~20 mg) of
+the oxygen carrier (53–106 mm) was heated from RT to 10008C at
+a rate of 108Cmin¢1 under a flow of N2 or 10 vol% CH4 in N2
+(25 mLmin¢1). Subsequently, the sample was kept at 10008C for
+30 min. In all experiments, a constant N2 flow of 25 mLmin¢1 was
+used as a purge flow over the microbalance. The reduced oxygen
+carriers
+were
+further
+characterized
+by
+Raman
+spectroscopy
+(Thermo Scientific DXR Raman microscope). The materials were ex-
+cited with a 480 nm laser. For every material, three spectra were
+taken and averaged.
+Cyclic redox and oxygen release performance
+The cyclic CLC and CLOU performance of the synthesized oxygen
+carriers was evaluated by using a fluidized-bed reactor at 900 and
+9508C, respectively. A schematic diagram of the experimental set-
+up is given in Figure S10. Typically, Al2O3 was fluidized by N2 at
+a flow rate of 2 Lmin¢1 (258C, 1 bar) and heated either to 900 or
+9508C. Once the temperature in the fluidized bed stabilized, the
+oxygen carrier (1 g, 300–425 mm) was added to the fluidized bed
+and 25 CLC or CLOU cycles were performed. The flow rate of the
+inlet gas was set to 2 Lmin¢1 (258C, 1 bar) in each segment of
+a cycle. The duration of the oxygen release (decomposition), reduc-
+tion, and reoxidation reactions were fixed to 120, 180, and 180 s,
+respectively. The reactor was purged for 30 s with N2 after each re-
+action segment. The oxygen uncoupling reaction was performed
+in a N2 atmosphere, whereas a mixture of 10 vol% CH4 in N2 was
+used for reduction. The oxygen carriers were oxidized using
+10.5 vol% O2 in N2 and air for CLOU and CLC, respectively. The
+amount of O2, CO2, and CO produced during the CLOU and CLC re-
+actions was calculated according to Equations (10)–(12):
+NO2 ¼ VN2  
+Z
+yO2
+1 ¢ yO2
+dt
+ð10Þ
+NCO2 ¼ VCH4=N2  
+Z
+yCO2dt
+ð11Þ
+NCO ¼ VCH4=N2  
+Z
+yCOdt
+ð12Þ
+In which NO2, NCO2, and NCO are, respectively, the number of moles
+of O2, CO2, and CO produced in each cycle, VN2 and VCH4/N2 are the
+molar flow rates of N2 and 10 vol% CH4 in N2, and yO2, yCO2, and yCO
+are, respectively, the mole fractions of O2, CO2, and CO in the dried
+off-gases.
+Acknowledgements
+We are grateful to the Swiss National Science Foundation (SNF)
+(Project 406640_13670011) for financial support. We would also
+like to thank Lydia Zender for her help with the XRD analysis and
+the
+Scientific
+Center
+for
+Optical
+and
+Electron
+Microscopy
+(ScopeM) of the ETH Zurich for providing access and training for
+scanning electron microscopes.
+Keywords: carbon
+dioxide
+capture
+·
+cerium
+·
+chemical
+looping · copper · materials science
+[1] IPCC Special Report on Carbon Dioxide Capture and Storage (Eds.: B.
+Metz, O. Davidson, H. de Coninck, M. Loos, L. A. Meyer), Cambridge Uni-
+versity Press, Cambridge, 2005, pp. 282.
+[2] Energy Technology Perspectives, International Energy Agency, Paris,
+2008.
+[3] Technology Roadmap: Carbon Capture and Storage, International Energy
+Agency, Paris, 2013.
+[4] J. D. Figueroa, T. Fout, S. Plasynski, H. McIlvried, R. D. Srivastava, Int. J.
+Greenhouse Gas Control 2008, 2, 9.
+[5] J. Adanez, A. Abad, F. Garcia-Labiano, P. Gayan, L. F. de Diego, Prog.
+Energy Combust. Sci. 2012, 38, 215.
+[6] Q. Imtiaz, D. Hosseini, C. R. Mìller, Energy Technol. 2013, 1, 633.
+[7] H. Leion, Y. Larring, E. Bakken, R. Bredesen, T. Mattisson, A. Lyngfelt,
+Energy Fuels 2009, 23, 5276.
+[8] Q. Imtiaz, A. M. Kierzkowska, C. R. Mìller, ChemSusChem 2012, 5, 1610.
+[9] Q. Imtiaz, M. Broda, C. R. Mìller, Appl. Energy 2014, 119, 557.
+[10] P. Gayn, I. Adnez-Rubio, A. Abad, L. F. de Diego, F. Garca-Labiano, J.
+Adnez, Fuel 2012, 96, 226.
+[11] M. Mogensen, N. M. Sammes, G. A. Tompsett, Solid State Ionics 2000,
+129, 63.
+[12] J. L. M. Rupp, L. J. Gauckler, Solid State Ionics 2006, 177, 2513.
+[13] J. L. Rupp, B. Scherrer, L. J. Gauckler, Phys. Chem. Chem. Phys. 2010, 12,
+11114.
+[14] W. C. Chueh, C. Falter, M. Abbott, D. Scipio, P. Furler, S. M. Haile, A.
+Steinfeld, Science 2010, 330, 1797.
+[15] W. C. Chueh, S. M. Haile, Philos. Trans. R. Soc. London Ser. A 2010, 368,
+3269.
+[16] S. Park, J. M. Vohs, R. J. Gorte, Nature 2000, 404, 265.
+[17] S. McIntosh, J. M. Vohs, R. J. Gorte, J. Electrochem. Soc. 2003, 150, A470.
+[18] A. Hedayati, A. M. Azad, M. Ryd¦n, H. Leion, T. Mattisson, Ind. Eng.
+Chem. Res. 2012, 51, 12796.
+[19] J. L. M. Rupp, A. Infortuna, L. J. Gauckler, J. Am. Ceram. Soc. 2007, 90,
+1792.
+[20] S. Saitzek, J. F. Blach, S. Villain, J. R. Gavarri, Phys. Status Solidi A 2008,
+205, 1534.
+[21] G. Qiu, S. Dharmarathna, Y. Zhang, N. Opembe, H. Huang, S. L. Suib, J.
+Phys. Chem. C 2012, 116, 468.
+[22] M. Salavati-Niasari, F. Davar, M. Farhadi, J. Sol-Gel Sci. Technol. 2009, 51,
+48.
+[23] Q. Imtiaz, A. M. Kierzkowska, M. Broda, C. R. Mìller, Environ. Sci. Technol.
+2012, 46, 3561.
+[24] W. H. Weber, K. C. Hass, J. R. McBride, Phys. Rev. B 1993, 48, 178.
+[25] J. R. McBride, K. C. Hass, B. D. Poindexter, W. H. Weber, J. Appl. Phys.
+1994, 76, 2435.
+ChemSusChem 2015, 8, 2055 – 2065
+www.chemsuschem.org
+Ó 2015 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+2064
+Full Papers
+ 1864564x, 2015, 12, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.201403426 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+===== Page 11 =====
+
+[26] R. Korobko, C.-T. Chen, S. Kim, S. R. Cohen, E. Wachtel, N. Yavo, I. Lubo-
+mirsky, Scr. Mater. 2012, 66, 155.
+[27] A. P. E. York, T. Xiao, M. L. H. Green, J. B. Claridge, Catal. Rev. 2007, 49,
+511.
+[28] W. Wang, S. M. Stagg-Williams, F. B. Noronha, L. V. Mattos, F. B. Passos,
+Catal. Today 2004, 98, 553.
+[29] T. Kayama, K. Yamazaki, H. Shinjoh, J. Am. Chem. Soc. 2010, 132, 13154.
+[30] E. Aneggi, J. Llorca, C. de Leitenburg, G. Dolcetti, A. Trovarelli, Appl.
+Catal. B 2009, 91, 489.
+[31] A. L. Patterson, Phys. Rev. 1939, 56, 978.
+[32] S. Brunauer, P. H. Emmett, E. Teller, J. Am. Chem. Soc. 1938, 60, 309.
+[33] E. P. Barrett, L. G. Joyner, P. P. Halenda, J. Am. Chem. Soc. 1951, 73, 373.
+Received: December 17, 2014
+Published online on April 27, 2015
+ChemSusChem 2015, 8, 2055 – 2065
+www.chemsuschem.org
+Ó 2015 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+2065
+Full Papers
+ 1864564x, 2015, 12, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.201403426 by Southeast University, Wiley Online Library on [18/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

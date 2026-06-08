@@ -1,0 +1,1642 @@
+
+
+===== Page 1 =====
+
+Solar Energy Materials & Solar Cells 260 (2023) 112475
+Available online 2 August 2023
+0927-0248/© 2023 Published by Elsevier B.V.
+Al- and Cr-doped Co3O4/CoO redox materials for thermochemical energy 
+storage in concentrated solar power plants 
+Xiangyu Han a,b, Liang Wang a,b,c, Zhiwei Ge a,b,c, Xipeng Lin a,b,c, Yu Liu a, Shuang Zhang a,c, 
+Zhitao Zuo d, Haisheng Chen a,b,c,* 
+a Institute of Engineering Thermophysics, Chinese Academy of Sciences, Beijing, 100190, China 
+b University of Chinese Academy of Sciences, Beijing, 100049, China 
+c Dalian National Laboratory for Clean Energy, Chinese Academy of Sciences, Dalian, 116023, China 
+d National Energy Large Scale Physical Energy Storage Technologies R&D Center of Bijie High-tech Industrial Development Zone, Bijie, 551712, China   
+A R T I C L E  I N F O   
+Keywords: 
+Thermochemical energy storage 
+Redox reaction 
+Mixed metal oxides 
+Thermal hysteresis 
+Sintering inhibition 
+A B S T R A C T   
+The redox system of Co3O4/CoO is very promising for the thermochemical energy storage systems coupled to 
+concentrated solar power plants because of its high energy storage density and reversibility. Nevertheless, the 
+practical application of Co3O4/CoO system is limited by thermal hysteresis of the redox reaction and material 
+sintering. Here, we synthesized Co-based metal oxides doped with Al and Cr, and studied the influence of the 
+doping of these two metal elements on the thermochemical properties and sintering resistance of the pure Co3O4/ 
+CoO system. Both Al and Cr doping narrows the thermal hysteresis of the Co3O4/CoO system. In particular, when 
+the molar doping rate of Al is 10%, the thermal hysteresis of Co–Al oxides is only 4.02 ◦C, which is much 
+narrower than that of pure Co3O4, and the increase of its oxidation temperature also means that a higher level of 
+thermal energy can be released during oxidation. In the redox cycle, the addition of Al inhibits material sintering 
+and the formation of a loose porous structure facilitates the oxidation, ensuring the reversibility of the redox 
+reaction. The 10% Al–Co honeycomb shows stable conversion behavior with an average conversion of 77.75% in 
+15 redox cycles. Co–Al oxides exhibit excellent oxidative exothermic characteristics and long-term cycle stability, 
+making them suitable for efficient thermochemical energy-storage processes.   
+1. Introduction 
+Currently, owing to environmental concerns and the rapid depletion 
+of fossil fuel resources, renewable energy sources have attracted 
+tremendous interest for energy production. Solar power is one of the 
+most promising renewables, owing to its low cost and wide availability 
+[1]. However, the intermittency and low efficiency of solar power makes 
+the incorporation of energy storage systems crucial for large-scale ap­
+plications. Among the various energy storage technologies, thermal 
+energy storage (TES) is characterized by low cost and high efficiency, 
+making it suitable for concentrated solar power (CSP) plants. TES can 
+store excess energy during idle operation and release it during off-sun 
+hours, thus ensuring continuous operation of the CSP [2,3]. Solar 
+power tower plants equipped with molten salt (a type of TES) can in­
+crease the annual solar energy utilization from 25% to 65% [4]. 
+Based on the heat-storage mechanism, TES can be divided into sen­
+sible heat storage (SHS), latent heat storage (LHS), and thermochemical 
+energy storage (TCES) [5]. SHS stores or releases energy by changing the 
+temperature of a liquid or solid storage medium. LHS uses the 
+solid-liquid phase change process of phase change materials (PCM) to 
+store and release energy under near-isothermal conditions. TCES stores 
+energy through reversible chemical reactions and is technically complex 
+and less mature than SHS and LHS. Nevertheless, it exhibits the highest 
+energy storage density (five and fifteen times higher than those of LHS 
+and SHS systems, respectively [6]) and an infinite storage period at 
+ambient temperature and heat-pumping capability, which makes it a 
+promising candidate for high-temperature energy storage [7]. 
+Among the various TCES systems, metal oxide systems use air as the 
+reactant and heat transfer fluid, avoiding the need for gas storage and 
+management systems and high-temperature heat exchangers (e.g., metal 
+carbonate systems or metal hydroxide systems [8,9]), and their oper­
+ating temperatures are compatible with those of CSP plants. Therefore, 
+metal oxide systems are perfectly suited to the operating conditions of 
+CSP plants with volumetric air central receivers [10]. 
+* Corresponding author. Institute of Engineering Thermophysics, Chinese Academy of Sciences, Beijing, 100190, China. 
+E-mail address: chen_hs@iet.cn (H. Chen).  
+Contents lists available at ScienceDirect 
+Solar Energy Materials and Solar Cells 
+journal homepage: www.elsevier.com/locate/solmat 
+https://doi.org/10.1016/j.solmat.2023.112475 
+Received 17 January 2023; Received in revised form 21 June 2023; Accepted 18 July 2023   
+
+
+===== Page 2 =====
+
+Solar Energy Materials and Solar Cells 260 (2023) 112475
+2
+Metal oxide systems store and release energy via the following steps 
+[11]:  
+Charge (on-sun): MxOy + z + ΔH→MxOy + z/2O2                                       
+Discharge (off-sun): MxOy + z/2O2→MxOy + z + ΔH                                 
+Pure metal oxide systems have been intensively investigated, the 
+feasibility of 74 pure solid oxide systems for thermochemical heat 
+storage was investigated by Wong et al. Only 16 pure metal oxides 
+exhibit redox transformation behavior, which can be used to store and 
+release heat within their corresponding temperature ranges. Consid­
+ering the material cost, energy density, reaction temperature, and 
+cycling stability, the three metal oxide systems of Co3O4/CoO, Mn2O3/ 
+Mn3O4, and BaO2/BaO exhibit potential for TCES [12]. Among them, 
+Co3O4/CoO system has the highest energy storage density (844 kJ/kg) 
+and complete reaction reversibility [13]. The Co3O4/CoO redox reaction 
+can be expressed as follows [11]: 
+2Co3O4 + ΔH ↔6CoO + O2 ΔH = 844 kJ/kg
+(1) 
+However, some inherent characteristics of the Co3O4/CoO system 
+hinder its usability without further modification. First, it exhibits poor 
+structural stability. At the microstructural level, when the thermal cycle 
+temperature rises to 1100 ◦C, severe sintering occurs during the redox 
+reaction, which reduces the surface area, porosity and increases the 
+grain size [14,15]. Redox reaction kinetics are limited by different 
+transport phenomena. Reduction rate is influenced by heat transport, 
+whereas oxidation rate is limited by the oxygen diffusion rate and thus 
+sintering causes a gradual decay of the oxidation rate [1]. Wong et al. 
+[12] suggested that the re-oxidation kinetics of pure Co3O4/CoO system 
+needs to be improved to ensure a complete redox reaction, and thus the 
+structural stability of the material is a key factor in the long-term stable 
+operation of TCES. Secondly, the reduction and oxidation reactions of 
+the Co3O4/CoO system theoretically occur at the same temperature. 
+However, in practice, the onset temperature of oxidation is slightly 
+lower than that of reduction due to kinetic difficulties encountered 
+during the oxidation step, which is referred to as thermal hysteresis [15, 
+16]. More specifically, the thermal hysteresis of the Co3O4/CoO redox 
+systems reported in previous studies ranges from 33 to 50 ◦C [10,17,18]. 
+Narrowing the thermal hysteresis of the Co3O4/CoO system means that 
+heat can be stored and released in a closer temperature range, thus 
+improving energy efficiency of charge/discharge and promoting system 
+integration. 
+Doping with other oxides has proven to be an effective method to 
+Table 1 
+A brief summary of various mixed oxide systems.   
+Doping ratio 
+Energy storage 
+density (kJ/kg) 
+Mass change (%) 
+Reaction temperature 
+(◦C) 
+Reaction time (min) 
+Cycle 
+life 
+References 
+Reduction 
+Oxidation 
+Reduction 
+Oxidation 
+Reduction 
+Oxidation   
+Co3O4/CoO 
+– 
+576 
+6.4 
+6.2 
+914.6 
+879.7 
+5.8 
+12.2 
+– 
+[18] 
+600.8 
+– 
+– 
+896 
+863 
+5.4 
+5.1 
+– 
+[10] 
+362.5 
+6.44 
+Fraction: 
+97% 
+909.3 
+899.3 
+– 
+– 
+– 
+[26,29] 
+541 
+6.5 
+6.3 
+925 
+890 
+3.3 
+11.2 
+– 
+[24,27] 
+– 
+5.98 
+– 
+– 
+– 
+– 
+– 
+>100 
+[30] 
+(honeycomb) 
+461 
+Fraction: 57.80% 
+915 
+877 
+– 
+– 
+– 
+[28] 
+Co–Fe 
+13% Fe 
+433 
+5.4 
+5.4 
+927.7 
+916.5 
+9.0 
+7.9 
+>40 
+[18] 
+Co–Cu 
+10% Cu 
+457 
+6.1 
+6.1 
+865.8 
+859.5 
+6.9 
+7.5 
+>40 
+[18] 
+33.3% Cu 
+345 
+4.5 
+– 
+865 
+825 
+3.4 
+4.6 
+>50 
+[24] 
+Co–Ni 
+20% Ni 
+– 
+1st cycle: 
+4.99 
+– 
+685 
+– 
+– 
+– 
+– 
+[20,25] 
+25th cycle: 
+4.18 
+50th cycle: 
+3.95 
+4000th cycle: 
+2.55 
+Co–Ni– 
+SiO2 
+20% Ni+ 0.5 wt% SiO2 
+– 
+25th cycle: 
+4.27 
+– 
+– 
+– 
+– 
+– 
+– 
+50th cycle: 
+3.99 
+4000th cycle: 
+3.26 
+Co–Al 
+5 wt% Al2O3 
+– 
+1st cycle: 3.4 
+Fraction: 
+100% 
+– 
+– 
+– 
+– 
+>500 
+[12] 
+500th cycle: 
+4.7 
+5 wt% Al2O3 (honeycomb) 
+513 J/g Co3O4 
+Fraction: 65% 
+915 
+905 
+15.7 
+18.6 
+<10 
+[13] 
+10 wt% Al2O3 
+(honeycomb) 
+422 J/g Co3O4 
+Fraction: 52.99% 
+943 
+927 
+– 
+– 
+>104 
+[28] 
+10 wt% Al2O3 (perforated 
+cylindrical body) 
+390 J/g Co3O4 
+Fraction: 49.08% 
+– 
+– 
+21 
+25 
+>10 
+[31] 
+Co–Cr 
+5.6 wt% Cr2O3 
+– 
+– 
+Fraction: 
+84% 
+– 
+– 
+– 
+– 
+– 
+[12] 
+Co–Mg 
+6.67% Mg 
+398.8 
+– 
+Fraction: 
+95% 
+775.6 
+– 
+– 
+– 
+– 
+[26] 
+Co3O4+
+LiCoO2 
+17.7% Li 
+568.9 
+5.2 
+5.1 
+875 
+825 
+3 
+~6 
+>30 
+[27] 
+Mn2O3/ 
+Mn3O4 
+– 
+231 
+3.3 
+3.4 
+942.3 
+– 
+6.1 
+71.6 
+– 
+[18] 
+161.69 
+– 
+– 
+928 
+768 
+6.1 
+12.1 
+– 
+[10] 
+184 
+– 
+– 
+948 
+667 
+– 
+– 
+– 
+[32] 
+Mn–Fe 
+33% Fe 
+233 
+3.4 
+3.3 
+999.2 
+895.2 
+7.0 
+8.7 
+– 
+[18] 
+Mn–Si 
+1% Si 
+170.8 
+2.858 
+– 
+948 
+782 
+12 
+13 
+>40 
+[33] 
+Mn–Cr 
+5% Cr 
+159.7 
+3.4 
+– 
+972 
+785 
+– 
+– 
+>30 
+[34] 
+BaO2/BaO 
+– 
+390 
+– 
+– 
+714 
+704 
+– 
+30 
+>30 
+[35]  
+X. Han et al.                                                                                                                                                                                                                                     
+
+
+===== Page 3 =====
+
+Solar Energy Materials and Solar Cells 260 (2023) 112475
+3
+overcome the limitations of pure metal oxide systems and to expand the 
+range of materials suitable for TCES. For example, adjusting the redox 
+temperature of pure oxides [19,20], limiting the grain growth to reduce 
+the sintering effect [14,21] and enhancing the reaction kinetics [22,23]. 
+A brief summary of various mixed oxide systems is shown in Table 1. 
+Block et al. [14,18] showed that both addition of Fe2O3 (13% mol Fe) 
+and CuO (10% mol Cu) to the Co3O4/CoO system results in higher 
+microstructural stability compared to pure Co3O4 in high-temperature 
+cycles (>1100 ◦C). This may be due to the effective grain boundary 
+barrier mechanism formed by the existence of two-phase components at 
+high temperatures. In addition, the deceleration of the reduction reac­
+tion of Co–Fe and Co–Cu mixed oxides in long-term cycles is less pro­
+nounced than that of pure Co3O4. Wu et al. [24] reported that the 
+addition of CuO with relatively small particle size can improve the 
+reversibility of cobalt oxide. Carrillo et al. [19] narrowed the thermal 
+hysteresis of the Mn2O3/Mn3O4 redox system from 225 to 80 ◦C by 
+doping with 20 mol% Fe and 5 mol% Cu. Portilla-Nieto et al. [20,25] 
+used nickel oxide doping to lower the reduction onset temperature of the 
+Co3O4/CoO system to below 700 ◦C, broadening the application tem­
+perature range of the Co-based oxide systems. And they improved the 
+cyclability and reduced the densification of Co–Ni oxide by adding 5 wt 
+% SiO2. Moreover, the addition of Mg was also used to reduce the 
+reduction onset temperature of the Co3O4/CoO system [26]. Wu et al. 
+[27] found that the addition of LiCoO2 could improve the redox rate of 
+the Co3O4/CoO system and increase its discharging heat. Wong et al. 
+[12] reported that the addition of Al2O3 and Cr2O3 can improve the 
+re-oxidation rate of the Co3O4/CoO system. Specifically, the doping of 5 
+at% Al2O3 and 5.6 at% Cr2O3 can improve the re-oxidation rate from 
+36% of the pure Co3O4/CoO system at a cooling rate of 30 ◦C/min to 
+100% and 84%, respectively. In addition, the conversion of Co3O4 -5% 
+Al2O3 sample increased after cycling. Karagiannakis et al. [28] reported 
+that Co3O4-based honeycomb with 10 wt% Al2O3 demonstrated excel­
+lent structural stability in 104 cycles. Al2O3 and Cr2O3 are promising 
+doping materials to enhance the reaction properties of cobalt oxide. 
+However, the kinetic characteristics of the redox reaction of Co–Al and 
+Co–Cr oxides and the conversion performance of metal oxide honey­
+combs need to be further investigated. 
+In this work, the effects of Al and Cr doping on the redox reaction 
+temperature (thermal hysteresis) and anti-sintering properties of the 
+Co3O4/CoO system were investigated with special attention to the 
+possible improvement of the cycling stability. And the redox kinetics of 
+Co–Al and Co–Cr oxides were analyzed to add more insight into the role 
+of Al and Cr incorporation. Finally, the material with the best energy 
+storage characteristics was selected to prepared Co3O4-based 
+honeycomb. 
+Co–Al and Co–Cr mixed oxides with different doping ratios were 
+successfully synthesized by modifying the Pechini method. The ther­
+mochemical properties and cycling stability of these oxides were eval­
+uated by thermogravimetric analysis (TGA) and differential scanning 
+calorimetry (DSC), and their structural and morphological evolutions 
+before and after redox cycling were characterized by X-ray diffraction 
+(XRD) and scanning electron microscopy (SEM). The redox perfor­
+mances of Co3O4-based honeycomb were evaluated using a TCES 
+system. 
+2. Experimental 
+2.1. Material preparation 
+Pure Co3O4, Co–Al, and Co–Cr oxides with different molar doping 
+rates x (i.e., Al/(Al + Co)) were synthesized by modifying the Pechini 
+method [36]. 
+Certain amounts of metal (Me) precursors and citric acid (CA, AR, 
+Sinopharm) were dissolved in deionized water (10 mL) in a beaker and 
+stirred at 70 ◦C for 1.5 h. The following Me precursors were used for 
+synthesis: Co(NO3)2⋅6H2O (99.99%, Aladdin), Al(NO3)3⋅9H2O (99.99%, 
+Aladdin), and Cr(NO3)3⋅9H2O (99.99%, Aladdin). Subsequently, the 
+temperature of the solution was increased to 95 ◦C and ethylene glycol 
+(EG, 99.5%, Sinopharm) was added. The resulting solution was stirred at 
+95 ◦C for more than 2 h to remove excess solvent, and the obtained resin 
+Fig. 1. Schematic diagram of the TCES system.  
+X. Han et al.                                                                                                                                                                                                                                     
+
+
+===== Page 4 =====
+
+Solar Energy Materials and Solar Cells 260 (2023) 112475
+4
+was subsequently dried in a tubular furnace at 200 ◦C for 3 h and then 
+calcined at 500 ◦C for 4 h in air. Finally, the solid foam obtained after 
+calcination was ground into a fine powder using an agate mortar and 
+further calcined in static air at 1100 ◦C for 1.5 h at a heating rate of 2 ◦C/ 
+min. 
+In the above synthesis experiments, the molar ratio of CA: EG: Me 
+was 15:10:4. 
+2.2. Redox cycle analysis 
+TGA and DSC experiments were performed using a simultaneous 
+thermal analyzer (STA) 449 F3 Jupiter instrument (Netzsch, Germany) 
+Fig. 2. TGA redox cycles for the Co–Al (a) and Co–Cr (b) mixed metal oxides 
+between 750 and 1100 ◦C under synthetic air flow (100 mL/min) with a 
+heating/cooling rate of 10 ◦C/min 
+Table 2 
+Mass loss and gain of Co–Al and Co–Cr mixed oxides in the second redox cycle.   
+Mass loss (%) 
+Mass gain (%) 
+Co3O4 
+6.48 
+6.36 
+5% Al–Co 
+5.8 
+5.65 
+10% Al–Co 
+4.55 
+4.53 
+20% Al–Co 
+3.21 
+3.17 
+30% Al–Co 
+2.04 
+2 
+5% Cr–Co 
+4.15 
+3.51 
+10% Cr–Co 
+4.63 
+4.33 
+20% Cr–Co 
+2.66 
+2.29 
+30% Cr–Co 
+1.5 
+1.33  
+Fig. 3. DSC redox cycles for the Co–Al (a) and Co–Cr (b) mixed metal oxides 
+between 750 and 1100 ◦C under synthetic air flow (100 mL/min) with a 
+heating/cooling rate of 10 ◦C/min. 
+Fig. 4. DSC curve of the reduction and oxidation reactions of Co3O4 in the 
+second redox cycle. 
+X. Han et al.                                                                                                                                                                                                                                     
+
+
+===== Page 5 =====
+
+Solar Energy Materials and Solar Cells 260 (2023) 112475
+5
+with a SiC furnace (RT–1550 ◦C). The melting point and enthalpy of 
+several pure metal standard samples (e.g., In, Sn, Zn, and Al) measured 
+by DSC were compared with the standard values, and the corresponding 
+temperature and sensitivity calibration files were generated to calibrate 
+the DSC. 
+In the STA tests, ~15 mg of Co–Al and Co–Cr mixed metal oxide 
+samples with different doping ratios were placed in 85 μl alumina cru­
+cibles. Each thermal cycle comprised a heating step from 750 ◦C to 
+1100 ◦C and a cooling step from 1100 ◦C to 750 ◦C, with a heating/ 
+cooling rate of 10 ◦C/min and a gas flow of 80 mL/min argon and 20 
+mL/min oxygen. Each heating/cooling step was followed by an 
+isothermal step (5 min). Before the last cooling step, the gas flow was 
+switched to 100 mL/min pure argon to prevent the sample from 
+oxidizing and obtain the high-temperature reduced material for the 
+subsequent microstructure stability study. Five thermal cycles were 
+conducted in a tubular muffle furnace under dynamic air flow to obtain 
+sufficient material for the subsequent XRD analysis. The first redox cycle 
+was influenced by the drift effects and was not used for subsequent data 
+analysis [37]. 
+2.3. Reaction kinetic analysis 
+Similar to the redox cycle analysis, the reaction kinetic analysis was 
+performed using a STA 449 F3 Jupiter instrument. In order to avoid the 
+reduction of materials before reaching a constant temperature, the 
+reduction kinetics was analyzed at three different heating rates (5, 10 
+and 20 ◦C/min). And the reduction was conducted under Ar atmosphere 
+to eliminate any possible effect of oxidation. In the oxidation kinetic 
+analysis, materials were firstly reduced by heating them up to 1100 ◦C to 
+generate the reduced phase. The reduced materials were then cooled to a 
+certain temperature under Ar atmosphere, and then subjected to 
+isothermal oxidation under a synthetic air flow (80 mL/min Ar and 20 
+mL/min O2). Some authors [22] have pointed out that high-temperature 
+oxidation may be decelerated due to the effect of inverse reaction. 
+Therefore, we measured the oxidation rate of cobalt oxide at different 
+temperatures to select the appropriate temperature for the oxidation 
+kinetic analysis. 
+Generally, the reaction rate of solid-gas reaction can be expressed by 
+the reaction rate equation shown in Eq. (2) [38]: 
+dα
+dt = k(T)f(α) = A exp
+(
+−Ea
+RT
+)
+f(α)
+(2)  
+Where α is the conversion fraction, k(T) = A exp(−Ea /RT) is the 
+Arrhenius equation, A is the pre-exponential factor, Ea is the activation 
+energy, R is the gas constant, R = 8.314 J/(K⋅mol), f(α) is the reaction 
+model. The commonly used solid-state kinetic mechanism models are 
+shown in Table S1 [39]. The Arrhenius equation represents the imped­
+ance that must be overcome to achieve a new thermodynamically 
+favorable arrangement in the solid state. And the exponent represents 
+the statistical probability that the energy barrier will be exceeded when 
+the system undergoes an effort with sufficient activation energy [40]. 
+The conversion fraction α can be expressed as follow: 
+α = m0 −mt
+m0 −mf
+(3)  
+Where m0 is initial mass, mt is mass at time t and mf is final mass. 
+When the experiment is conducted under non-isothermal conditions, 
+Eq. (2) can be converted into non-isothermal rate expression, and the 
+reaction rate can be described as a function of temperature at a constant 
+heating rate, as shown below: 
+dα
+dT = dα
+dt
+dt
+dT
+(4)  
+Fig. 5. Redox reaction enthalpy and reaction temperature range of the Co–Al 
+(a) and Co–Cr (b) mixed metal oxides. 
+Table 3 
+Redox reaction onset temperature and thermal hysteresis of the Co–Al and Co–Cr 
+mixed metal oxides.  
+Sample 
+Reaction onset temperature (◦C) 
+Thermal hysteresis (◦C) 
+Reduction 
+Oxidation 
+Co3O4/CoO 
+915.17 
+861.05 
+54.12 
+5% Al–Co 
+911.07 
+886.36 
+24.71 
+10% Al–Co 
+904.18 
+900.16 
+4.02 
+20% Al–Co 
+906.45 
+905.15 
+1.30 
+30% Al–Co 
+908.89 
+904.17 
+4.72 
+5% Cr–Co 
+932.68 
+894.18 
+38.5 
+10% Cr–Co 
+936.50 
+892.58 
+43.92 
+20% Cr–Co 
+940.79 
+896.6 
+44.19 
+30% Cr–Co 
+936.46 
+894.11 
+42.35  
+Table 4 
+Activation energy of Co3O4/CoO, 5% Al–Co and 5% Cr–Co mixed oxides.  
+Sample 
+Activation energy (kJ/mol) 
+Reduction 
+Oxidation 
+Co3O4/CoO 
+397.63 ± 10.60 
+93.25 ± 15.31 
+5% Al–Co 
+390.20 ± 36.42 
+55.60 ± 7.63 
+5% Cr–Co 
+422.07 ± 71.94 
+47.60 ± 8.89  
+X. Han et al.                                                                                                                                                                                                                                     
+
+
+===== Page 6 =====
+
+Solar Energy Materials and Solar Cells 260 (2023) 112475
+6
+dα
+dT = A
+β exp
+(
+−Ea
+RT
+)
+f(α)
+(5)  
+Where β = dT/dt is the heating rate. 
+The activation energy of the redox reaction is calculated using the 
+isoconversional method. Friedman method [41] can obtain accurate 
+activation energy value [42] and has wide applicability [43], which can 
+be written as, Eq. (6)(7). 
+ln
+(dα
+dt
+)
+= ln A + ln f(α) −
+Ea
+RT
+(6)  
+ln
+(
+β dα
+dT
+)
+= ln A + ln f(α) −
+Ea
+RT
+(7) 
+It is assumed that f(α) is a constant for constant values of α. This 
+corresponds to be the assumption that the redox reaction process does 
+not depend on temperature, but only on the instantaneous mass of the 
+material. The values of α were taken at equal intervals between 0.2 and 
+0.8. Values of dα/dt or βdα/dT and T were determined for each α for each 
+TGA experiment. ln(dα/dt) or ln(βdα/dT) versus 1/T are plotted for each 
+value of α, and the slope of each line obtained is -Ea/R. 
+The kinetic model of the reduction and oxidation reaction was ob­
+tained by plotting f(α)/f(0.5) versus α and comparing it with the theo­
+retical master plot [44] (Eqs. (8) and (9)) curves. 
+f(α)
+f(0.5) =
+dα/dt
+(dα/dt)α=0.5
+exp(Ea/RT)
+exp(Ea/RT0.5)
+(8)  
+f(α)
+f(0.5) =
+βdα/dT
+(βdα/dT)α=0.5
+exp(Ea/RT)
+exp(Ea/RT0.5)
+(9)  
+Where T0.5 is the reaction temperature at α = 0.5. 
+2.4. Preparation and characterization of Co3O4-based honeycomb 
+Co3O4-based honeycombs were prepared with the help of a 
+Fig. 6. Master plot analyses for (a) Co3O4, (b) 5% Al–Co, (c) 5% Cr–Co at 10 ◦C/min.  
+Fig. 7. Oxidation kinetics curves of CoO at four different temperatures 700, 
+740, 780, 820 ◦C. 
+X. Han et al.                                                                                                                                                                                                                                     
+
+
+===== Page 7 =====
+
+Solar Energy Materials and Solar Cells 260 (2023) 112475
+7
+laboratory-scale piston extruder. The preparation of Co3O4-based hon­
+eycomb including the following steps: First, ~30 g of mixed metal oxide 
+and 5 wt% methyl cellulose were mixed, and the powder mixture was 
+continuously stirred and sprayed with about 15 mL of deionized water to 
+form a wet paste. Then, the wet paste was extruded through a 30 mm 
+diameter die with seven 5 mm channels. The resulting honeycomb was 
+air dried for 48 h, followed by drying in a blast drying oven at 80 ◦C for 6 
+h. Finally, the dried honeycomb was calcined at 850 ◦C for 1 h in a tube 
+furnace to harden the structure. 
+The redox performances of Co3O4-based honeycombs were evaluated 
+using a TCES system, as depicted in Fig. 1. The TCES system was 
+composed of a preheating furnace, a reaction chamber, an oxygen 
+analyzer (Signal, Model 8000 M), and a data collector. The reaction 
+chamber had a stainless-steel tube with an inner diameter of 50 mm. The 
+preheating furnace was operated at a steady temperature of 700 ◦C to 
+facilitate the preheating of the gas flow, consisting of 800 mL/min N2 
+and 200 mL/min O2. The reaction chamber was firstly heated from room 
+temperature to 750 ◦C with a heating rate of 10 ◦C/min. Then, fifteen 
+thermal cycles were performed in the reaction chamber between 750 
+and 1100 ◦C, using a consistent heating/cooling rate of 10 ◦C/min. And 
+the dwell time at 750 and 1100 ◦C was set to 30 and 15 min, respec­
+tively. The reaction conversion X(N) was calculated as follows: 
+˙qO2,released(t) + 200
+˙qO2,released(t) + 1000 = c(t)
+(10)  
+nO2,released =
+∫tf
+0 ˙qO2,released(t)dt
+22.4
+(11)  
+X(N) = nO2,released(N)
+nO2,Theoretical
+(12)  
+Where t is reduction time, min; ˙qO2,released(t) is O2 released by reduction 
+at t min, ml/min. c(t) is O2 concentration at t min, %(vol); nO2, released is 
+the total amount of O2 released during the reduction, mol, which cor­
+responds to that of free Co3O4 included in the honeycomb, that is, the 
+quantity of Co3O4 after considering the high-temperature stoichiometric 
+reaction of cobaltous oxide and alumina or chromium oxide [28]; tf is 
+the reduction completion time, min; N represents number of energy 
+storage cycles; X(N) represents the conversion of the honeycomb during 
+the Nth cycle. 
+2.5. Structural characterization 
+Structural analysis of the cobalt-based oxides before and after cycles 
+was conducted by wide-angle powder XRD using a Rigaku SmartLab 
+diffractometer with Cu Kα1 radiation (λ = 1.5406 Å) and θ–2θ geometry. 
+The data were collected at RT between 10◦and 80◦in 2θ, with a step size 
+of 0.02◦. 
+The microstructures of the samples were imaged using a SU8020 
+SEM. Prior to the microscopic study, the samples were sputtered with 
+gold to avoid charge effects. The particle size distribution was obtained 
+by statistical analysis of SEM micrographs with the image processing 
+software Nano Measurer. Around 50 particles were analyzed for each 
+sample. 
+The morphology of the honeycomb before and after the cycling tests 
+was measured by a GP-660V optical microscope. Digital photograph 
+acquisition was performed using a CCD industrial camera. The honey­
+comb was cut off in the height direction to obtain its cross-sectional 
+view. 
+Fig. 8. Master plot analyses for (a) CoO, (b) 5% Al–Co, (c) 5% Cr–Co at 740 ◦C.  
+X. Han et al.                                                                                                                                                                                                                                     
+
+
+===== Page 8 =====
+
+Solar Energy Materials and Solar Cells 260 (2023) 112475
+8
+3. Results and discussion 
+3.1. Thermochemical properties of Co–Al and Co–Cr mixed oxides 
+The thermochemical properties of each sample were studied by 
+performing three successive thermal cycles between 750 and 1100 ◦C 
+under synthetic air flow in the STA instrument. The redox reaction of Co- 
+based mixed oxides involves two steps. Considering the redox process of 
+pure Co3O4 (Eq. (1)) as an example, in the heating steps, Co3O4 is 
+endothermically reduced to CoO, O2 is released, and the final theoretical 
+mass loss is 6.64%. In the cooling steps, CoO reacts with O2 to form 
+Co3O4 and releases heat, whereas the previous mass loss is recovered. 
+The mass change in the reduction and oxidation reactions of each 
+sample can be easily monitored by TGA. Fig. 2 shows the TGA redox 
+curves of the Co–Al and Co–Cr mixed oxides. The mass change data for 
+the second redox cycle are presented in Table 2. Pure Co3O4 exhibited 
+the largest mass loss of 6.48% in the second cycle, resulting in a 97.6% 
+conversion (6.48%/6.64%) from Co3O4 to CoO. Among the Co–Al mixed 
+oxides, the 5% Al–Co sample exhibited the largest mass loss of 5.8%, and 
+the mass loss of the Co–Al mixed oxides decreased with increasing Al 
+doping (Fig. 1a). Among the Co–Cr oxides (Fig. 1b), the 10% Cr–Co 
+sample exhibited the largest mass loss of 4.63%. The 30% Cr–Co sample 
+demonstrated the smallest mass loss (1.44%) of all samples, indicating 
+that only a small fraction of the active material was involved in the redox 
+reaction. In addition, the further reduction of the Co–Cr mixed oxides 
+may be limited by the upper temperature limit. Therefore, we increased 
+the upper reaction temperature limit of the reaction to 1500 ◦C for the 
+10% Cr–Co sample. This sample reacted completely below 1100 ◦C, 
+which also justified the choice of the temperature range of 750–1100 ◦C. 
+Notably, the mass gain in the oxidation reaction was smaller than the 
+mass loss in the reduction reaction for all samples (Table 2), which 
+implies incomplete oxidation reactions. More specifically, the 10% 
+Al–Co sample exhibited the most complete oxidation reaction among all 
+the samples, with a mass gain of 99.56% (4.53%/4.55%), whereas only 
+84.57% (3.51%/4.15%) of the mass loss of the 5% Cr–Co sample in the 
+heating step was recovered in the subsequent cooling step. This can be 
+attributed to the reactivity loss owing to sintering and the fast-cooling 
+rate in the oxidation reaction temperature range [12], which prevents 
+the oxidation reaction from proceeding completely in the cooling step. 
+As shown in Fig. 1, the Co–Al and Co–Cr mixed oxides have different 
+degrees of mass gain before the start of the third reduction reaction, 
+which enables mass loss in the previous redox step to be recovered. The 
+mass of the 5% Cr–Co sample increased by 0.4% before the start of the 
+third reduction reaction. In the first heating step, the increased mass of 
+the Co–Al and Co–Cr mixed oxides may have been caused by partial 
+reduction of the synthetic samples during the calcination process. 
+The thermal storage and release of the Co–Al and Co–Cr mixed metal 
+oxides were evaluated by DSC (Fig. 3ab). In the heating stage, an 
+endothermic peak appeared in the DSC curve, which corresponded to 
+the reduction reaction of metal oxides. In contrast, during the cooling 
+stage, an exothermic peak appeared, corresponding to the oxidation 
+reaction of the reduced metal oxides. Fig. 4 depicts the endothermic and 
+exothermic peaks for the second cycle of pure Co3O4, and the enthalpy of 
+the reduction and oxidation reactions was determined by integrating the 
+endothermic and exothermic peak areas, respectively, using the 
+tangential method. The reduction and oxidation reaction enthalpies and 
+reaction temperature ranges of the Co–Al and Co–Cr mixed metal oxides 
+are depicted in Fig. 5. Similar to the variation pattern of mass loss in the 
+reduction reaction, pure Co3O4 exhibited the highest reduction enthalpy 
+of 533.85 kJ/kg. Among the Co–Al mixed metal oxides, the 5% Al–Co 
+sample showed the highest reduction enthalpy of 499.08 kJ/kg, while 
+the 30% Al–Co sample revealed the lowest reaction enthalpy of 146.07 
+kJ/kg. Compared with Co–Al mixed metal oxides with the same doping 
+ratio, the reaction enthalpy of Co–Cr mixed metal oxides was slightly 
+lower, and the 30% Cr–Co sample showed the lowest reduction enthalpy 
+of 94.66 kJ/kg. Notably, the enthalpy of the reduction reaction of pure 
+Co3O4 was much lower than the theoretical value (844 kJ/kg) reported 
+in the literature. This large discrepancy is primarily due to the change in 
+enthalpy of 221.8 ± 16 kJ/kg resulting from the change in the Co3+ spin 
+state, which could not be determined by DSC [45]. As shown in Fig. 5, 
+the enthalpy of the oxidation reaction is higher than that of the reduc­
+tion reaction, except for the 5% and 20% Cr–Co samples. We speculate 
+that the low thermal conductivity of the alumina crucible and oxide 
+materials may cause nonuniform temperature distribution within the 
+materials, resulting in a deviation in the measured reaction enthalpy. 
+Several researchers have proposed similar ideas [46]. 
+The reduction and oxidation reaction onset temperature and thermal 
+hysteresis of the Co–Al and Co–Cr mixed metal oxides are shown in 
+Fig. 5 and Table 3. For pure cobalt oxide, the difference between the 
+onset temperature of reduction and oxidation was 54.12 ◦C. When 
+doped with different rates of Al, the oxidation onset temperature 
+increased from 861.05 ◦C to >886.36 ◦C, whereas the reduction onset 
+temperature decreased slightly. As shown in Fig. 5a and Table 3, the 
+thermal hysteresis of the Co–Al mixed oxides was much narrower than 
+that of pure cobalt oxide. The 20% Al–Co sample exhibited the nar­
+rowest thermal hysteresis of 1.3 ◦C. As shown in Table 3, the reduction 
+onset temperature of Co–Cr mixed metal oxides was more than 15 ◦C 
+Fig. 9. Cyclic performance of Co–Al (a) and Co–Cr (b) mixed metal oxides 
+measured via TGA over 15 consecutive redox cycles between 750 and 1100 ◦C 
+at heating/cooling rates of 10 ◦C/min in synthetic air flow. 
+X. Han et al.                                                                                                                                                                                                                                     
+
+
+===== Page 9 =====
+
+Solar Energy Materials and Solar Cells 260 (2023) 112475
+9
+higher than that of pure cobalt oxide, and their oxidation onset tem­
+perature was increased by more than 30 ◦C compared to that of pure 
+cobalt oxide. Consequently, the thermal hysteresis was narrowed to 
+<44.19 ◦C by doping with Cr. Among the Co–Cr mixed oxides, the 5% 
+Cr–Co sample exhibited the narrowest thermal hysteresis of 38.5 ◦C. 
+To further understand the role of Al and Cr doping on the redox ki­
+netics, isoconversional kinetics studies were conducted. As mentioned 
+earlier, the doping of Al slightly reduced the reduction onset tempera­
+ture of Co3O4/CoO, and greatly increased its oxidation onset tempera­
+ture. And the doping of Cr greatly increased the reduction and oxidation 
+onset temperature. Since different Al and Cr doping amounts exhibited 
+similar effect on the reduction and oxidation onset temperature, 
+respectively, the reduction and oxidation kinetics of Co3O4/CoO, 5% 
+Al–Co and 5% Cr–Co samples was analyzed in this study. 
+Three runs at different heating rates (β) were carried out to obtain 
+reduction activation energy under Ar atmosphere. The reduction acti­
+vation energy of Co3O4, 5% Al–Co and 5% Cr–Co samples were calcu­
+lated by Friedman method. An example of a Friedman plots for the 
+reduction of Co3O4 at α = 0.3, 0.5 and 0.7 is shown in Fig. S1. Table S2 
+collects the activation energy values and correlation coefficients 
+Fig. 10. Reduction and oxidation enthalpy for the 15 redox cycles of (a) Co3O4, (b) 5% Al–Co, (c) 10% Al–Co, (d) 20% Al–Co, (e) 30% Al–Co, (f) 5% Cr–Co, (g) 10% 
+Cr–Co, (h) 20% Cr–Co, and (i) 30% Cr–Co. 
+Fig. 11. Forty-five redox cycles for the 10% Al–Co sample between 750 and 1100 ◦C under synthetic air flow with a heating/cooling rate of 10 ◦C/min, (a) mass, (b) 
+mass change. 
+X. Han et al.                                                                                                                                                                                                                                     
+
+
+===== Page 10 =====
+
+Solar Energy Materials and Solar Cells 260 (2023) 112475
+10
+calculated from the Friedman method. The reduction activation energy 
+of Co3O4, 5% Al–Co and 5% Cr–Co samples increased with the increase 
+of conversion. The average reduction activation energy of Co3O4, 5% 
+Al–Co and 5% Cr–Co samples are collected in Table 4. The average 
+activation energy of Co3O4 is 397.63 ± 10.60 kJ/mol, which is slightly 
+higher than that of the 5% Al–Co sample (390.20 ± 36.42 kJ/mol), 
+implying that the doping of Al reduces the energy barrier of the Co3O4 
+reduction. On the other hand, the activation energy of the 5% Cr–Co 
+sample (422.07 ± 71.94 kJ/mol) is higher than that of Co3O4, which 
+indicates that a higher driving force is required to carry out the reduc­
+tion reaction of Co–Cr mixed oxides compared with Co3O4. The above 
+results explain the changes in the reduction onset temperature of Co3O4 
+after doping with Al and Cr. 
+The reaction mechanism of Co3O4, 5% Al–Co and 5% Cr–Co samples 
+was analyzed by applying the master plots. Fig. 6 shows master plots and 
+the experimental data extracted from the runs conducted at 10 ◦C/min. 
+It can be observed that the experimental data of these three samples fit 
+well with the first-order model (F1) in the α range of 0.2–1, which 
+suggested that the reduction rate is proportional to fraction remaining of 
+reactant and that the doping of Al and Cr does not affect the reduction 
+reaction mechanism of Co3O4. 
+Oxidation kinetics curves of CoO at four different constant temper­
+atures are shown in Fig. 7. From 700 to 780 ◦C, the oxidation rate 
+increased with temperature, following an Arrhenius behavior. However, 
+when the temperature raised to 820 ◦C, the oxidation rate decreased due 
+to the influence of reverse reaction. Therefore, the oxidation kinetics 
+was analyzed at 700, 740 and 780 ◦C. 
+It should be noted that the experimental data of the 5% Cr–Co sample 
+exhibited a poor fit at the selected temperature, so its oxidation kinetics 
+were analyzed at 660, 740 and 820 ◦C. The activation energy values and 
+correlation coefficients calculated from the Friedman method are 
+collected in Table S3. The average oxidation activation energy of the 
+CoO, 5% Al–Co and 5% Cr–Co samples are shown in Table 4. The 
+oxidation activation energy was all much lower than those of reduction, 
+which is due to a weaker dependence of oxidation on temperature [47]. 
+CoO exhibited the highest oxidation activation energy 93.25 ± 15.31 
+kJ/mol. The 5% Al–Co and 5% Cr–Co samples showed the reduced 
+activation energy of 55.60 ± 7.63 and 47.60 ± 8.89 kJ/mol, respec­
+tively, which implies that the doping of Al and Cr reduces the kinetic 
+difficulties in the oxidation process. As shown in Table 3, the oxidation 
+reaction of the 5% Al–Co and 5% Cr–Co samples started at higher 
+temperature than that of CoO, which corresponds to an earlier time in 
+the cooling process. 
+In contrast to the reduction reaction kinetics, the doping of Al and Cr 
+changed the oxidation reaction mechanism of CoO (Fig. 8). As shown in 
+Fig. 8a, the oxidation of CoO is closest to nucleation and growth 
+mechanisms in the α range of 0–0.5, and the oxidation could be 
+described by the third-order model (F3) when α > 0.5. In the case of the 
+5% Al–Co sample (Fig. 8b), its first half of the oxidation can be described 
+by Avrami-Erofeyev (A4) model, while at high conversion (α > 0.65) the 
+oxidation showing an intermediate behavior between the 3-D diffusion 
+(D3) and the third-order model (F3) models. As can be seen in Fig. 8c, 
+the experimental data for the 5% Cr–Co sample exhibits severe fluctu­
+ations in the first half of the oxidation, which implies a non-uniform 
+oxidation. At a glance, its oxidation can be approximately described 
+by the 3-D diffusion (D3) model. 
+These findings indicate that doping with Al and Cr can narrow the 
+thermal hysteresis, which is beneficial for the application of Co-based 
+metal oxide reactors. The narrowing of thermal hysteresis can reduce 
+the energy consumption of the heating and cooling steps of the TCES 
+system, which will improve the charge/discharging energy efficiency. In 
+addition, when the oxidation temperature increases, a higher level of 
+heat energy is released during the oxidation process. 
+3.2. Cycling stability 
+The cyclic performance of the Co–Al and Co–Cr mixed metal oxides 
+was measured via TGA over 15 redox cycles, heating to 1100 ◦C and 
+Table 5 
+Comparison of redox parameters of Co3O4-based oxides at the milligram scale.   
+Reaction temperature (◦C) 
+Hysteresis (◦C) 
+Mass change (%) 
+References 
+Reduction 
+Oxidation 
+Reduction 
+Oxidation 
+Co3O4/CoO 
+914.6 
+879.7 
+34.9 
+6.4 
+6.2 
+[18] 
+13% Fe–Co 
+927.7 
+916.5 
+11.2 
+5.4 
+5.4 
+[18] 
+10% Cu–Co 
+865.8 
+859.5 
+6.3 
+6.1 
+6.1 
+[18] 
+20% Ni–Co 
+685 
+– 
+– 
+1st cycle: 4.99 
+– 
+[20,25] 
+25th cycle: 4.18 
+50th cycle: 3.95 
+4000th cycle: 2.55 
+20% Ni–Co + 0.5 wt% SiO2 
+– 
+– 
+– 
+25th cycle: 4.27 
+– 
+50th cycle: 3.99 
+4000th cycle: 3.26 
+5 wt% Al2O3+95 wt% Co3O4 
+– 
+– 
+– 
+1st cycle: 3.4 
+Fraction: 100% 
+[12] 
+500th cycle: 4.7 
+5.6 wt% Cr2O3+94.4% Co3O4 
+– 
+– 
+– 
+– 
+Fraction: 84% 
+[12] 
+6.67% Mg–Co 
+775.6 
+– 
+– 
+– 
+Fraction: 95% 
+[26] 
+17.7% Li–Co 
+875 
+825 
+50 
+5.2 
+5.1 
+[27] 
+10% Al–Co in this work 
+904.18 
+900.16 
+4.02 
+2nd cycle: 4.55 
+2nd cycle: 4.53 
+– 
+45th cycle: 4.86 
+45th cycle: 4.76  
+Fig. 12. Oxygen concentration evolution profile of 10% Al–Co honeycomb in 
+15 redox cycles. 
+X. Han et al.                                                                                                                                                                                                                                     
+
+
+===== Page 11 =====
+
+Solar Energy Materials and Solar Cells 260 (2023) 112475
+11
+cooling to 750 ◦C. The mass change curves for the 15 cycles are depicted 
+in Fig. 9. None of the Co–Al and Co–Cr mixed metal oxides exhibited 
+significant cyclic loss over 15 thermal cycles. However, the mass re­
+covery of the oxidation processes of pure Co3O4, 5% Al–Co, and Co–Cr 
+mixed oxides was completed in two steps, as described in Section 3.1. 
+Fig. 10 illustrates the mass change and reduction and oxidation re­
+action enthalpies of the Co–Al and Co–Cr mixed metal oxides corre­
+sponding to 15 redox cycles. In Fig. 10, the dotted line graphs show the 
+mass change of reduction and oxidation steps, and the histograms show 
+the enthalpy of reduction oxidation steps. Pure Co3O4 exhibited the 
+largest mass change, whereas its redox reaction enthalpy decreased 
+slightly with the redox cycles. In particular, after 15 consecutive cycles, 
+the mass loss and gain were approximately 6.46% and 6.35%, respec­
+tively, and the reduction and oxidation reaction enthalpies were reduced 
+by 9.73 and 28.72 kJ/kg, respectively. Among the Co–Al mixed oxides, 
+the 5% Al–Co sample exhibited an unstable mass change, and its mass 
+loss and gain decreased as the redox cycle proceeded. Correspondingly, 
+the reduction enthalpy decreased from 499.08 kJ/kg in the second cycle 
+to 413.68 kJ/kg in the fifteenth cycle, the oxidation enthalpy decreased 
+from 550.19 kJ/kg to 405.51 kJ/kg. Interestingly, the 10% Al–Co, 20% 
+Al–Co, and 30% Al–Co samples exhibited excellent transformation 
+performance, and their mass gains and losses were almost the same and 
+increased as the redox cycle progressed. This may be due to the fact that 
+the microstructure becomes more conducive to the reaction with the 
+progress of the cycle, thus increasing the conversion [34] (see Section 
+3.3 for more details). Among these three samples, the 10% Al–Co sample 
+exhibited the highest reduction and oxidation reaction enthalpies, 
+which increased from 350.64 to 446.01 kJ/kg in the second cycle to 
+373.43 and 469.26 kJ/kg in the last cycle, respectively. We can 
+reasonably speculate that the redox reaction enthalpies of this sample 
+will continue to increase during cycling, and finally tend to two stable 
+values. Among the Co–Cr mixed metal oxides, the mass change and 
+redox reaction enthalpies of the 5% Cr–Co and 20% Cr–Co samples 
+decreased slightly during the 15 redox cycles. In contrast, the change in 
+mass of the 10% Cr–Co sample increased slightly during the 15 redox 
+cycles, and the sample exhibited the highest redox enthalpies (323.48 
+and 343.35 kJ/kg) in the fifteenth cycle. Nevertheless, the mass gain of 
+the 10% Cr–Co sample was lower than the mass loss, indicating 
+incomplete oxidation during the cooling step. 
+Among the Co–Al and Co–Cr mixed metal oxides, the 10% Al–Co 
+sample exhibited the best cycling stability and was subjected to a longer 
+cycle of cyclic experiments (up to 45 cycles). As shown in Fig. 11 (a), the 
+sample exhibited complete cyclability after multiple cycles. Fig. 11 (b) 
+shows the mass change curves obtained for the 10% Al–Co sample 
+during 45 redox cycles. As can be seen in this figure, the sample 
+exhibited a significant increase in mass loss and gain during cycling, 
+which proves that its reaction characteristics were optimized as the 
+redox progressed. 
+Furthermore, the analysis presented in Table 5 revealed that the 10% 
+Al–Co sample in this study exhibited the narrowest thermal hysteresis, 
+measuring 4.02 ◦C, in comparison to other Co-based oxides mentioned 
+in the references [18,27]. Given its outstanding cycling stability and 
+narrow thermal hysteresis, the 10% Al–Co sample was selected as the 
+optimal candidate for the preparation of the Co3O4-based honeycomb 
+structure. 
+The cyclic thermal performance of the 10% Al–Co honeycomb was 
+studied with a TCES test system. Fig. 12 shows the oxygen concentration 
+evolution profile of the 10% Al–Co honeycomb at the temperature 
+ranging from 750 to 1100 ◦C in 15 redox cycles. The redox reaction of 
+the 10% Al–Co honeycomb shows great cycle repeatability. Fig. 13a 
+displays the conversion of the 10% Al–Co honeycomb in 15 consecutive 
+redox cycles, and the conversion remained stable during the 2nd-15th 
+cycles. The conversion presented in Fig. 13a were determined by tak­
+ing into account the quantity of free cobalt oxide, considering the high- 
+temperature stoichiometric reaction between cobalt oxide and alumina. 
+Prior to the 1st cycle, the reaction between cobalt oxide and alumina 
+was incomplete, resulting in a larger amount of cobalt oxide partici­
+pating in the reaction during the 1st cycle compared to the final amount 
+of free cobalt oxide. This discrepancy introduced a calculation error. 
+After the 1st cycle, the composition and structure of the honeycomb 
+reached a stable state. Therefore, the experimental results from the 2nd 
+Fig. 13. The conversion of 10% Al–Co honeycomb during 15 consecutive cy­
+cles (a), and the comparison in conversion of Co3O4-based monolithic 
+bodies (b). 
+Table 6 
+Comparison in average values of measured redox parameters of Co3O4-based 
+monolithic bodies.  
+Sample 
+Average O2 released 
+(μmol/g Co3O4) 
+Conversion 
+(%) 
+10% Al–Co honeycomb 
+1614 
+77.75% 
+Co3O4/Al2O3 95/5 wt% honeycomb 
+1342 [13] 
+64.64% [13] 
+Co3O4/Al2O3 90/10 wt% honeycomb 
+1050 [13] 
+50.58% [13] 
+1100 [28] 
+52.99% [28] 
+Co3O4/Al2O3 90/10 wt% perforated 
+cylindrical body 
+1019 [31] 
+49.08% [31]  
+X. Han et al.                                                                                                                                                                                                                                     
+
+
+===== Page 12 =====
+
+Solar Energy Materials and Solar Cells 260 (2023) 112475
+12
+to 15th cycles were selected for analysis to ensure more accurate and 
+reliable data. The average conversion of the 10% Al–Co honeycomb 
+during the 2nd-15th cycles was 77.75%. When considering only free 
+Co3O4 present in the powder, the average conversion of the 10% Al–Co 
+powder in the 2nd-15th cycles was 81.68%. The conversion of both the 
+powder and the honeycomb are below 100% as a result of the Al doping, 
+which partially reduces their redox activity. Furthermore, the conver­
+sion of the honeycomb is slightly lower than that of the powder due to 
+the obstacles encountered in the heat and mass transfer processes after 
+the powder is extruded into the honeycomb structure. Fig. 13b and 
+Table 6 present the conversion of Co3O4-based monolithic bodies, 
+honeycomb and perforated cylindrical body, between this study and the 
+references. 
+In summary, Al doping improved the cyclic performance of pure 
+Co3O4. When the molar doping rate of Al was ≥10%, Co–Al mixed metal 
+oxides showed a complete redox reaction, and their conversion and re­
+action enthalpy gradually increased with the redox cycle. When scaling 
+up the cobalt oxide, the 10% Al–Co honeycomb exhibited a high con­
+version, corresponding to high energy storage density. 
+3.3. Characterization of Co–Al and Co–Cr mixed oxides 
+The four Co–Al and Co–Cr mixed metal oxides with better perfor­
+mances were characterized by XRD and SEM; the results are shown 
+below. 
+Fig. 14a and b shows the wide-angle XRD patterns of pure Co3O4 in 
+the 2θ range of 10–80◦before and after five redox cycles. In Fig. 14a, the 
+resolved diffraction peaks of pure Co3O4 correspond to the standard 
+spectrum (JCPDS Card Number 42–1467). After five redox cycles, the 
+CoO phase (JCPDS Card Number 48–1719) was detected (Fig. 14b). This 
+confirms the results presented in Section 3.1 that the oxidation reaction 
+of the Co3O4/CoO system cannot be completed in a single thermal cycle, 
+and these incompletely oxidized CoO were oxidized before the next 
+reduction reaction, thus enabling an increase in sample mass. 
+Figs. 15 and 16 compare the XRD patterns of the 5% Al–Co and 10% 
+Al–Co samples before and after multiple redox cycles, respectively. In 
+addition to the cobalt oxide phase, the mixed spinel-phase CoAl2O4 
+(JCPSD Card Number 44–0160) was detected. This chemically inert 
+CoAl2O4 phase does not participate in redox reactions. On the one hand, 
+CoAl2O4 forms a coating shell on the Co3O4 surface [31,48], which 
+partially reduces its redox activity. On the other hand, CoAl2O4 can be 
+used as an inert support to improve the microstructural stability of 
+Co3O4. After 5 redox cycles, the CoO phase appeared in the 5% Al–Co 
+sample, as detected by XRD (Fig. 15b). On the other hand, the 10% 
+Al–Co sample showed similar diffraction patterns before and after 45 
+redox cycles (Fig. 16a, c), and CoO was not detected, which confirmed 
+the complete redox reaction of this sample. In addition, according to the 
+high-temperature phase diagram of Co–Al–O system [49] (Fig. 17), 
+there is only a transition from Co3O4 to CoO in the redox process of the 
+5% Al–Co and 10% Al–Co oxides, without the participation of other 
+Fig. 14. Wide-angle XRD patterns of pure Co3O4 before (a) and after five redox cycles (b).  
+Fig. 15. Wide-angle XRD patterns of the 5% Al–Co sample before (a) and after 5 redox cycles (b).  
+X. Han et al.                                                                                                                                                                                                                                     
+
+
+===== Page 13 =====
+
+Solar Energy Materials and Solar Cells 260 (2023) 112475
+13
+phases. 
+Similar to the 5% and 10% Co–Al samples, the main diffraction peak 
+in the 10% Cr–Co sample (Fig. 18) was Co3O4 (JCPDS Card Number 
+43–1003). The doped Cr existed in the form of a Co2CrO4 phase (JCPDS 
+Card Number 24–0324), which caused a decay in the Co3O4 thermo­
+chemical properties. In addition, the CoO phase (JCPDS Card Number 
+44–0160) was observed in the fresh sample, which could explain the 
+increase in mass before the first reduction reaction of the Co–Cr oxides, 
+as described previously. 
+The crystal structural information of the 10% Al–Co and 10% Cr–Co 
+samples were detected by XRD and analyzed by Rietveld refinement, the 
+results are displayed in Fig. 19. For the 10% Al–Co sample, it displays a 
+high crystallinity and cubic structure with space group of Fd-3m, and 
+both the Co2+ and Co3+ in Co3O4 spinel oxide are partially replaced by 
+Al3+. For the 10% Cr–Co sample, it displays the same symmetric system 
+as the 10% Al–Co sample, and both the Co2+ and Co3+ sites are found 
+partially replaced by Cr2+. Based on the XRD refinement results, in the 
+10% Al–Co sample, Co3O4 and CoAl2O4 accounted for 93.16% and 
+6.84%, respectively, while in the 10% Cr–Co sample, Co3O4 and 
+Co2CrO4 were presented in 92.31% and 7.69%, respectively. Although 
+XRD analysis detected the presence of CoO, its content was too low to be 
+determined by calculation. 
+The SEM images obtained for the pure Co3O4, 5% Al–Co, 10% Al–Co, 
+and 10% Cr–Co samples are shown in Fig. 20. The SEM images shown in 
+the left column of Fig. 20 reveal that the as-synthesized pure Co3O4, 5% 
+Al–Co, and 10% Al–Co samples exhibit similar agglomerated morphol­
+ogies formed by nanoscale primary particles. In contrast, the 10% Cr–Co 
+sample exhibited a dense lamellar structure. The right column of Fig. 20 
+shows the morphologies of the CoO, 5% Al–Co, 10% Al–Co, and 10% 
+Cr–Co samples after 15 redox cycles. Pure Co3O4 exhibited significant 
+grain growth and underwent strong intergranular sintering, which 
+greatly reduced its surface area and porosity. The incorporation of Al 
+inhibited the sintering of CoO, although the Co–Al mixed oxides 
+exhibited a larger initial particle size. Compared with CoO, the 5% 
+Al–Co sample partially maintained its particle morphology. When the 
+doping rate increased, the initial morphology of the 10% Al–Co sample 
+changed only slightly over 15 redox cycles. The particle size distribution 
+was obtained using Nano Measurer software, as shown in Fig. 20. Co3O4 
+exhibited the smallest initial average particle size 329.67 ± 63.96 nm. 
+However, after 15 redox cycles, CoO showed huge grain growth, and 
+resulted in particle sizes of 2041.44 ± 361.23 nm. 10% Cr–Co sample 
+Fig. 16. Wide-angle XRD patterns of the10% Al–Co sample: fresh (a), after 5 (b) and 45 redox cycles (c).  
+Fig. 17. Phase diagram of the Co–Al–O-system [49].  
+X. Han et al.                                                                                                                                                                                                                                     
+
+
+===== Page 14 =====
+
+Solar Energy Materials and Solar Cells 260 (2023) 112475
+14
+showed the biggest initial average particle size 2601.39 ± 132.15 nm, 
+and the particle size increased slightly during 15 redox cycles. After 15 
+cycles, the particle size of the 5% Al–Co and 10% Al–Co samples was 
+750.68 ± 314.03 and 662.5 ± 158.86 nm, respectively. The 10% Al–Co 
+sample maintained a loose and porous coral-like structure which facil­
+itated the diffusion of oxygen and promoted the oxidation. As mentioned 
+in Section 3.2, the 10% Al–Co sample exhibited a complete redox re­
+action and an increased conversion as the cycle proceeded. In addition, 
+the 10% Al–Co sample showed good resistance to sintering during 45 
+cycles (Fig. 21) with an average particle size of 739.81 ± 177.62 nm. 
+Combining the particle size distribution results and the cyclic redox 
+performance mentioned in section 3.2, a schematic diagram of the 
+evolution of the cyclic properties of Al-doped cobalt oxide was pre­
+sented, as shown in Fig. 22. Pure cobalt oxide has a smaller initial 
+particle size (Fig. 22a), and its structural evolution in high-temperature 
+thermal cycling is suffered from a high degree of densification (Fig. 22b) 
+[1]. The voids between particles in contact gradually decrease until they 
+disappear during thermal cycling, forming a dense layered structure. 
+The oxide doped with Al has a larger initial particle size (Fig. 22c), in 
+which the coarsening mechanism plays a major role. In addition, the 
+presence of CoAl2O4 inhibits the sintering of the material. Therefore, 
+Co–Al oxide gradually forms an open structure with uniform particle 
+size during thermal cycling (Fig. 22d), leading to an increase in con­
+version. On the other hand, severe sintering of the Co–Cr oxides has 
+occurred before the start of the cyclic reaction. 
+Digital optical photographs of the honeycomb before and after the 
+cycling tests were shown in Fig. 23. The honeycomb showed good 
+structural stability before and after thermal cycling. After thermal 
+cycling, there was no change in the overall size of the honeycomb 
+structure, with a diameter of 29 mm both before and after thermal 
+cycling. After thermal cycling, the diameter of the honeycomb channel 
+was measured to be 6.67 mm, which is 1.6% smaller than that of fresh 
+honeycomb (6.78 mm). 
+In summary, the XRD results reveal that only the 10% Al–Co sample 
+exhibited similar diffraction patterns before and after long-term cycling, 
+whereas the CoO phase appears in the other three samples after thermal 
+cycling, which implies an incomplete oxidation reaction. The doping of 
+Al acted as an inhibitor of material sintering. In contrast to the densified 
+sintering of CoO, the porous microstructure of the 10% Al–Co sample is 
+more favorable for the redox reaction. In addition, the 10% Al–Co 
+honeycomb showed good structural stability during 15 thermal cycles. 
+4. Conclusions 
+In this study, Co–Al and Co–Cr mixed oxides with different doping 
+ratios were successfully prepared via a modified Pechini method. From 
+the perspective of the application of high-temperature TCES, the redox 
+reactions of these oxides were studied using TGA, DSC, XRD, and SEM, 
+paying special attention to the thermochemical reaction properties and 
+microstructural stability. The conclusions of this study are summarized 
+Fig. 18. Wide-angle XRD patterns of the 10% Cr–Co sample before (a) and after five redox cycles (b).  
+Fig. 19. Observed, calculated and difference profiles for the Rietveld’s refinements of the 10% Al–Co and 10% Cr–Co samples.  
+X. Han et al.                                                                                                                                                                                                                                     
+
+
+===== Page 15 =====
+
+Solar Energy Materials and Solar Cells 260 (2023) 112475
+15
+Fig. 20. SEM micrographs of the Co–Al and Co–Cr oxides before (left column) and after cyclic STA experiments (right column). A particle size distribution histogram 
+is depicted on the top-right part of each SEM micrograph. 
+X. Han et al.                                                                                                                                                                                                                                     
+
+
+===== Page 16 =====
+
+Solar Energy Materials and Solar Cells 260 (2023) 112475
+16
+as follows. 
+(1) Pure Co3O4 exhibited the highest conversion and reduction re­
+action enthalpy (533.85 kJ/kg) among the Co–Al and Co–Cr 
+mixed metal oxides. However, the oxidation reaction could not be 
+completed in a single thermal cycle. Its wide thermal hysteresis 
+(54.12 ◦C) was detrimental to the high-efficiency redox reaction. 
+Additionally, its microstructure underwent severe sintering after 
+several thermal cycles.  
+(2) The addition of Al can significantly narrow the thermal hysteresis 
+of Co3O4/CoO by increasing its oxidation temperature and 
+reducing its reduction temperature. Moreover, Co–Al oxides 
+exhibit a more stable microstructure during the thermal cycling 
+than that of Co3O4/CoO. The 10% Al–Co oxide is the most 
+promising material due to its great reactivity (mass change of 
+4.86% in the 45th cycle) and narrow thermal hysteresis as low as 
+4.02 ◦C. The addition of other dopants is suggested to enhance 
+reaction conversion in future studies.  
+(3) The results of the metal oxide honeycomb experiment indicate 
+that the 10% Al–Co honeycomb exhibits stable conversion 
+behavior with an average conversion of 77.75% and good struc­
+tural stability in 15 consecutive redox cycles. And the incorpo­
+ration of pore-forming agents is proposed as a means to optimize 
+the pore structure within the honeycomb, thereby enhancing the 
+energy storage performances.  
+(4) Co–Cr oxides display an unstable microstructure and incomplete 
+oxidation. For instance, the 5% Cr–Co sample exhibited a mere 
+84.57% mass recovery rate during the oxidation reaction in the 
+2nd cycle. These drawbacks make Co–Cr oxides unsuitable as 
+TCES materials. Although these materials exhibit a narrower 
+thermal hysteresis and a higher operational temperature than 
+those of Co3O4/CoO. 
+CRediT authorship contribution statement 
+Xiangyu Han: Writing – original draft, Methodology, Investigation, 
+Formal analysis, Conceptualization. Liang Wang: Writing – review & 
+editing, Resources, Methodology, Investigation. Zhiwei Ge: Investiga­
+tion, Formal analysis, Resources. Xipeng Lin: Investigation, Validation. 
+Yu Liu: Formal analysis, Investigation, Validation. Shuang Zhang: 
+Investigation, Resources, Validation. Zhitao Zuo: Investigation. 
+Haisheng Chen: Project administration, Resources, Supervision, 
+Writing – review & editing. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Data availability 
+Data will be made available on request. 
+Fig. 21. SEM micrographs of the 10% Al–Co oxide after 45 redox cycles.  
+Fig. 22. Schematic diagram of the structural enhancement of cobalt oxide by 
+Al doping. 
+Fig. 23. Digital optical photographs of the honeycomb before and after 15 
+thermal cycles. 
+X. Han et al.                                                                                                                                                                                                                                     
+
+
+===== Page 17 =====
+
+Solar Energy Materials and Solar Cells 260 (2023) 112475
+17
+Acknowledgements 
+The authors would like to thank the support from the National 
+Natural Science Foundation of China (No. 52176210), the DNL Coop­
+eration Fund, CAS (DNL202017), and the Science and Technology 
+Foundation of Guizhou Province (No. [2019]1442). 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.solmat.2023.112475. 
+References 
+[1] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Thermochemical heat 
+storage based on the Mn2O3/Mn3O4 redox couple: influence of the initial particle 
+size on the morphological evolution and cyclability, J. Mater. Chem. A. 2 (2014) 
+19435–19443, https://doi.org/10.1039/C4TA03409K. 
+[2] H. Guo, Y.J. Xu, C. Guo, H.S. Chen, Y.F. Wang, Z. Yang, Y. Huang, B.B. Dou, 
+Thermodynamic analysis of packed bed thermal energy storage system, J. Therm. 
+Sci. 29 (2020) 445–456, https://doi.org/10.1007/s11630-019-1115-7. 
+[3] A.J. Schrader, A.P. Muroyama, P.G. Loutzenhiser, Solar electricity via an Air 
+Brayton cycle with an integrated two-step thermochemical cycle for heat storage 
+based on Co3O4/CoO redox reactions: thermodynamic analysis, Sol. Energy 118 
+(2015) 485–495, https://doi.org/10.1016/j.solener.2015.05.045. 
+[4] X.Y. Chen, Z. Zhang, C.G. Qi, X. Ling, H. Peng, State of the art on the high- 
+temperature thermochemical energy storage systems, Energy Convers. Manag. 177 
+(2018) 792–815, https://doi.org/10.1016/j.enconman.2018.10.011. 
+[5] R. Lugolole, A. Mawire, K.A. Lentswe, D. Okello, K. Nyeinga, Thermal performance 
+comparison of three sensible heat thermal energy storage systems during charging 
+cycles, Sustain. Energy Technol. Assessments 30 (2018) 37–51, https://doi.org/ 
+10.1016/j.seta.2018.09.002. 
+[6] A.H. Abedin, M.A. Rosen, A critical review of thermochemical energy storage 
+systems, open, Renew. Energy J. 4 (1) (2011) 42–46, https://doi.org/10.2174/ 
+1876387101004010042. 
+[7] A. Gil, M. Medrano, I. Martorell, A. L´azaro, P. Dolado, B. Zalba, L.F. Cabeza, State 
+of the art on high temperature thermal energy storage for power generation. Part 
+1—concepts, materials and modellization, Renew. Sustain. Energy Rev. 14 (1) 
+(2010) 31–55, https://doi.org/10.1016/j.rser.2009.07.035. 
+[8] J. Sunku Prasad, P. Muthukumar, F. Desai, D.N. Basu, M.M. Rahman, A critical 
+review of high-temperature reversible thermochemical energy storage systems, 
+Appl. Energy 254 (2019), 113733, https://doi.org/10.1016/j. 
+apenergy.2019.113733. 
+[9] P. Pardo, A. Deydier, Z. Anxionnaz-Minvielle, S. Roug´e, M. Cabassud, P. Cognet, 
+A review on high temperature thermochemical heat energy storage, Renew. 
+Sustain. Energy Rev. 32 (2014) 591–610, https://doi.org/10.1016/j. 
+rser.2013.12.014. 
+[10] A.J. Carrillo, J. Moya, A. Bay´on, P. Jana, V.A. de la Pe˜na O’Shea, M. Romero, 
+J. Gonzalez-Aguilar, D.P. Serrano, P. Pizarro, J.M. Coronado, Thermochemical 
+energy storage at high temperature via redox cycles of Mn and Co oxides: pure 
+oxides versus mixed ones, Sol. Energy Mater. Sol. Cells 123 (2014) 47–57, https:// 
+doi.org/10.1016/j.solmat.2013.12.018. 
+[11] M. Neises, S. Tescari, L. de Oliveira, M. Roeb, C. Sattler, B. Wong, Solar-heated 
+rotary kiln for thermochemical energy storage, Sol. Energy 86 (10) (2012) 
+3040–3048, https://doi.org/10.1016/j.solener.2012.07.012. 
+[12] B. Wong, Thermochemical Heat Storage for Concentrated Solar Power, Final 
+Report for the US Department of Energy, 2011. 
+[13] C. Pagkoura, G. Karagiannakis, A. Zygogianni, S. Lorentzou, A.G. Konstandopoulos, 
+Cobalt oxide based honeycombs as reactors/heat exchangers for redox 
+thermochemical heat storage in future CSP plants, Energy Proc. 69 (2015) 
+978–987, https://doi.org/10.1016/j.egypro.2015.03.183. 
+[14] T. Block, N. Knoblauch, M. Schmücker, The cobalt-oxide/iron-oxide binary system 
+for use as high temperature thermochemical energy storage material, Thermochim. 
+Acta 577 (2014) 25–32, https://doi.org/10.1016/j.tca.2013.11.025. 
+[15] C. Agrafiotis, M. Roeb, M. Schmücker, C. Sattler, Exploitation of thermochemical 
+cycles based on solid oxide redox systems for thermochemical storage of solar heat. 
+Part 1: testing of cobalt oxide-based powders, Sol. Energy 102 (2014) 189–211, 
+https://doi.org/10.1016/j.solener.2013.12.032. 
+[16] F. Varsano, C. Alvani, A.L. Barbera, A. Masi, F. Padella, Lithium manganese oxides 
+as high-temperature thermal energy storage system, Thermochim. Acta 640 (2016) 
+26–35, https://doi.org/10.1016/j.tca.2016.07.018. 
+[17] G. Karagiannakis, C. Pagkoura, A. Zygogianni, S. Lorentzou, A.G. Konstandopoulos, 
+Monolithic ceramic redox materials for thermochemical heat storage applications 
+in CSP plants, energy, SAVE Proc. 49 (2014) 820–829, https://doi.org/10.1016/j. 
+egypro.2014.03.089. 
+[18] T. Block, M. Schmücker, Metal oxides for thermochemical energy storage: a 
+comparison of several metal oxide systems, Sol. Energy 126 (2016) 195–207, 
+https://doi.org/10.1016/j.solener.2015.12.032. 
+[19] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Manganese oxide-based 
+thermochemical energy storage: modulating temperatures of redox cycles by Fe–Cu 
+co-doping, J. Energy Storage 5 (2016) 169–176, https://doi.org/10.1016/j. 
+est.2015.12.005. 
+[20] Y. Portilla-Nieto, A. Zaki, K. Vidal, M. Hernaiz, E. Aranzabe, S. Doppiu, A. Faik, 
+Development of Co3-xNixO4 materials for thermochemical energy storage at lower 
+red-ox temperature, Sol. Energy Mater Sol. 230 (2021), 111194, https://doi.org/ 
+10.1016/j.solmat.2021.111194. 
+[21] D. Yilmaz, E. Darwish, H. Leion, Investigation of the combined Mn-Si oxide system 
+for thermochemical energy storage applications, J. Energy Storage 28 (2020), 
+101180, https://doi.org/10.1016/j.est.2019.101180. 
+[22] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Understanding redox kinetics 
+of iron-doped manganese oxides for high temperature thermochemical energy 
+storage, J. Phys. Chem. C 120 (49) (2016) 27800–27812, https://doi.org/10.1021/ 
+acs.jpcc.6b08708. 
+[23] D. Xiang, C.D. Gu, H.R. Xu, G. Xiao, Thermochemical energy storage: self- 
+assembled structure evolution of Mn-Fe oxides for high temperature 
+thermochemical energy storage, Small 17 (29) (2021), 2170149, https://doi.org/ 
+10.1002/smll.202170149. 
+[24] R.J. Wu, H.Y. Huang, L.S. Deng, M. Kubota, N. Kobayashi, Influence of CuO doping 
+on cobalt oxide for thermochemical energy storage, Sol. Energy Mater. Sol. Cell. 
+253 (2023), 112211, https://doi.org/10.1016/j.solmat.2023.112211. 
+[25] Y. Portilla-Nieto, K. Vidal, M. Hernaiz, E. Aranzabe, S. Doppiu, E.P.D. Barrio, 
+Development and stabilization of Co2.4Ni0.6O4 material for long-term 
+thermochemical energy storage, J. Energy Storage 52 (2022), 104876, https://doi. 
+org/10.1016/j.est.2022.104876. 
+[26] L. Liu, Z.J. Zhou, Y. Zhou, D.J. Peng, X. W Liu, M.H. Xu, Co2.8Mg0.2O4 as a 
+promising thermochemical energy storage material with lower reduction onset 
+temperature and higher energy density, J. Energy Storage 55 (2022), 105594, 
+https://doi.org/10.1016/j.est.2022.105594. 
+[27] R.J. Wu, L.S. Deng, H.Y. Huang, M. Kubota, N. Kobayashi, Exploration of LiCoO2- 
+doped cobalt oxide composite for thermochemical energy storage at high 
+temperature, J. Energy Storage 55 (2022), 105774, https://doi.org/10.1016/j. 
+est.2022.105774. 
+[28] G. Karagiannakis, C. Pagkoura, E. Halevas, P. Baltzopoulou, A.G. Konstandopoulos, 
+Cobalt/cobaltous oxide based honeycombs for thermochemical heat storage in 
+future concentrated solar power installations: multi-cyclic assessment and semi- 
+quantitative heat effects estimations, Sol. Energy 133 (2016) 394–407, https://doi. 
+org/10.1016/j.solener.2016.04.032. 
+[29] L. Liu, Z.J. Zhou, C.Q. Wang, J. Xu, H.Q. Xia, G.Z. Chang, X.W. Liu, M.H. Xu, 
+Superior thermochemical energy storage performance of the Co3O4/CoO redox 
+couple with a cubic micro-nanostructure, J. Energy Storage 43 (2021), 103167, 
+https://doi.org/10.1016/j.est.2021.103167. 
+[30] K.N. Hutchings, M. Wilson, P.A. Larsen, R.A. Cutler, Kinetic and thermodynamic 
+considerations for oxygen absorption/desorption using cobalt oxide, Solid State 
+Ionics 177 (1–2) (2006) 45–51, https://doi.org/10.1016/j.ssi.2005.10.005. 
+[31] C. Pagkoura, G. Karagiannakis, A. Zygogianni, S. Lorentzou, M. Kostoglou, A. 
+G. Konstandopoulos, M. Rattenburry, J.W. Woodhead, Cobalt oxide based 
+structured bodies as redox thermochemical heat storage medium for future CSP 
+plants, Sol. Energy 108 (2014) 146–163, https://doi.org/10.1016/j. 
+solener.2014.06.034. 
+[32] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Improving the 
+thermochemical energy storage performance of the Mn2O3/Mn3O4 redox couple 
+by the incorporation of iron, ChemSusChem 8 (11) (2015) 1947–1954, https://doi. 
+org/10.1002/cssc.201500148. 
+[33] D. Bielsa, A. Zaki, P.L. Arias, A. Faik, Improving the redox performance of Mn2O3/ 
+Mn3O4 pair by Si doping to be used as thermochemical energy storage for 
+concentrated solar power plants, Sol. Energy 204 (2020) 144–154, https://doi.org/ 
+10.1016/j.solener.2020.04.073. 
+[34] A.J. Carrillo, P. Pizarro, J.M. Coronado, Assessing Cr incorporation in Mn2O3/ 
+Mn3O4 redox materials for thermochemical heat storage applications, J. Energy 
+Storage 33 (2021), 102028, https://doi.org/10.1016/j.est.2020.102028. 
+[35] A.J. Carrillo, D. Sastre, D.P. Serrano, P. Pizarro, J.M. Coronado, Revisiting the 
+BaO2/BaO redox cycle for solar thermochemical energy storage, Phys. Chem. 
+Chem. Phys. 18 (11) (2016) 8039–8048, https://doi.org/10.1039/C5CP07777J. 
+[36] P. Jana, V.A. de la Pe˜na O’Shea, J.M. Coronado, D.P. Serrano, Cobalt based 
+catalysts prepared by Pechini method for CO2-free hydrogen production by 
+methane decomposition, Int. J. Hydrogen Energy 35 (19) (2010) 10285–10294, 
+https://doi.org/10.1016/j.ijhydene.2010.07.125. 
+[37] R. Subramanian, S. Tinkler, R. Dieckmann, Defects and transport in the solid 
+solution (Co,Fe)1−Δ O at 1200◦C⋅I. Nonstoichiometry, J. Phys. Chem. Solid. 55 (3) 
+(1994) 273–286, https://doi.org/10.1016/0022-3697(94)90142-2. 
+[38] S. Vyazovkin, A.K. Burnham, J.M. Criado, L.A. P´erez-Maqueda, C. Popescu, 
+N. Sbirrazzuoli, ICTAC Kinetics Committee recommendations for performing 
+kinetic computations on thermal analysis data, Thermochim. Acta 520 (1–2) 
+(2011) 1–19, https://doi.org/10.1016/j.tca.2011.03.034. 
+[39] A. Khawam, D.R. Flanagan, Solid-state kinetic models: basics and mathematical 
+fundamentals, J. Phys. Chem. B 110 (2006) 17315–17328, https://doi.org/ 
+10.1021/jp062746a. 
+[40] J. ˇSest´ak, G. Berggren, Study of the kinetics of the mechanism of solid-state 
+reactions at increasing temperatures, Thermochim. Acta 3 (1) (1971) 1–12, 
+https://doi.org/10.1016/0040-6031(71)85051-7. 
+[41] H.L. Friedman, Kinetics of thermal degradation of char-forming plastics from 
+thermogravimetry, J. Polym. Sci., Part C: Polym. Symp. 6 (1) (1964) 183–195, 
+https://doi.org/10.1002/polc.5070060121. 
+[42] J.M. Criado, P.E. S´anchez-Jim´enez, L.A. P´erez-Maqueda, Critical study of the 
+isoconversional methods of kinetic analysis, J. Therm. Anal. Calorim. 92 (2008) 
+199–203, https://doi.org/10.1007/s10973-007-8763-7. 
+[43] T. Ozawa, Applicability of friedman plot, J. Therm. Anal. 31 (1986) 547–551, 
+https://doi.org/10.1007/BF01914230. 
+X. Han et al.                                                                                                                                                                                                                                     
+
+
+===== Page 18 =====
+
+Solar Energy Materials and Solar Cells 260 (2023) 112475
+18
+[44] F.J. Gotor, J.M. Criado, J. Malek, N. Koga, Kinetic analysis of solid-state reactions: 
+the universality of master plots for analyzing isothermal and nonisothermal 
+experiments, J. Phys. Chem. 104 (2000) 10777–10782, https://doi.org/10.1021/ 
+jp0022205. 
+[45] HStC. O’Neill, Thermodynamics of Co3O4: a possible electron spin unpairing 
+transition in Co3+, Phys. Chem. Miner. 12 (1985) 149–154, https://doi.org/ 
+10.1007/BF00308208. 
+[46] K. King, K. Randhir, J. Klausner, Calorimetric method for determining the 
+thermochemical energy storage capacities of redox metal oxides, Thermochim. 
+Acta 673 (2019) 105–118, https://doi.org/10.1016/j.tca.2019.01.008. 
+[47] A.P. Muroyama, A.J. Schrader, P.G. Loutzenhiser, Solar electricity via an Air 
+Brayton cycle with an integrated two-step thermochemical cycle for heat storage 
+based on Co3O4/CoO redox reactions II: kinetic analyses, Sol. Energy 122 (2015) 
+409–418, https://doi.org/10.1016/j.solener.2015.08.038. 
+[48] L. Ji, J. Lin, H.C. Zeng, Metal-support interactions in Co/Al2O3 catalysts: a 
+comparative study on reactivity of support, J. Phys. Chem. B 104 (8) (2000) 
+1783–1790, https://doi.org/10.1021/jp993400l. 
+[49] J. Azurdia, J. Marchal, R.M. Laine, Synthesis and characterization of mixed-metal 
+oxide nanopowders along the CoOx–Al2O3 tie line using liquid-feed flame spray 
+pyrolysis, J. Am. Ceram. Soc. 89 (9) (2006) 2749–2756, https://doi.org/10.1111/ 
+j.1551-2916.2006.01155.x. 
+X. Han et al.                                                                                                                                                                                                                                     

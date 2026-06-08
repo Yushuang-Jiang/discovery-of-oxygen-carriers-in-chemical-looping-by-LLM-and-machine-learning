@@ -1,0 +1,723 @@
+
+
+===== Page 1 =====
+
+Applied Surface Science 561 (2021) 150065
+Available online 13 May 2021
+0169-4332/© 2021 Elsevier B.V. All rights reserved.
+Full Length Article 
+Experimental and theoretical insights into the reaction mechanism of spinel 
+CuMn2O4 with CO in chemical-looping combustion 
+Ruixue Fang , Feng Liu , Jing Liu *, Yu Li 
+State Key Laboratory of Coal Combustion, School of Energy and Power Engineering, Huazhong University of Science and Technology, Wuhan 430074, China   
+A R T I C L E  I N F O   
+Keywords: 
+Chemical-looing combustion 
+Oxygen carrier 
+Spinel CuMn2O4 
+Density functional theory 
+Reaction mechanism 
+A B S T R A C T   
+Chemical-looping combustion has been regarded as a promising technology to realize low-cost CO2 separation. 
+CuMn2O4 homogeneously combining Cu and Mn into spinel matrix is a potential oxygen carrier owing to the 
+synergistically improved performance. The involved reaction mechanism of spinel CuMn2O4 with CO was sys­
+tematically studied by experiments and theoretical calculations. Thermo-gravimetric analysis results suggested 
+that CuMn2O4 can be reduced into Cu and MnO. The reactivity of CuMn2O4 is superior than that of Mn2O3 due to 
+the existence of Cu. To further understand the improved reactivity of CuMn2O4, the interaction between CO and 
+spinel CuMn2O4 was studied by density functional theory calculations. The results indicated that CO prefers to 
+chemisorb at Mn site. The oxidation of CO on CuMn2O4 surface is found to be a three-step reaction including CO 
+adsorption, CO diffusion and CO2 desorption. CO oxidation on CuMn2O4 surface is an exothermic reaction mainly 
+limited by the CO diffusion step. The activation energy for oxidizing CO upon Mn-terminated surface is 64.59 kJ/ 
+mol. However, the rate-limiting-step possesses a lower activation energy (58.83 kJ/mol) over Cu-terminated 
+surface due to the high reactivity of Cu. The calculated results can well explain the improved reactivity of 
+spinel CuMn2O4 observed in the experiments.   
+1. Introduction 
+Chemical-looping combustion (CLC) has been regarded as a prom­
+ising combustion technology that can realize the efficient fuel utilization 
+and reduce the CO2 separation cost [1]. In the CLC process, metal oxides 
+function as the oxygen carrier to provide lattice oxygen for the fuel 
+combustion instead of air [2,3]. Generally, fuel is oxidized to CO2 and 
+H2O by oxygen carrier in the fuel reactor, and then the reduced oxygen 
+carrier interacts with air in the air reactor to regain its lattice oxygen. 
+The oxygen carrier is continuously circulated between fuel reactor and 
+air reactor to deliver lattice oxygen for fuel conversion [4]. Compared 
+with the conventional combustion, fuel and air in CLC are indirect 
+contact, therefore avoiding the dilution of CO2 and lowering the for­
+mation of NOx. 
+In the CLC system, oxygen carrier not only transfers the lattice ox­
+ygen and reaction heat, but also acts as the catalyst for fuel conversion 
+[5]. Therefore, oxygen carrier with high performance is the key for the 
+successful deployment of CLC [6–9]. In the past few years, many studies 
+have focused on the screening and development of oxygen carriers with 
+the improved redox and mechanical performance. Many researches have 
+been conducted using various materials based on Mn, Ni, Cu and Fe as 
+well as other mixed-metal oxides [10–18]. Among these materials, Mn- 
+based oxygen carriers exhibit a number of advantages such as low cost, 
+good thermodynamic properties and less toxicity [19–22]. Moreover, 
+Mn-based oxygen carrier can release oxygen at high temperature, which 
+is suitable for the chemical-looping with oxygen uncoupling process 
+[23,24]. Nevertheless, Mn-based oxygen carrier shows low fuel con­
+version rates and easily react with the support oxides. On the other 
+hand, CuO exhibits superior redox reactivity and high oxygen carrying 
+capacity, but it tends to agglomeration at high temperature as compared 
+to other metal oxides [25]. 
+Each Mn- and Cu-based oxygen carrier shows some disadvantages. 
+However, bimetallic Mn-Cu oxygen carriers have better performance 
+because of its synergistic effect which utilizes the favorable character­
+istics of respective metal oxides. Xu et al. found that the reactivity of the 
+manganese ore could be greatly improved by copper impregnation [26]. 
+Further, Wang et al. reported that CuMn2O4 showed superior reactivity 
+and desirable cyclic redox performance with biochar as compared with 
+the single metal oxides of Mn2O3 and CuO [27]. Sandra et al. found that 
+90% of the oxygen carrying capacity of CuMn2O4 can be used for syngas 
+* Corresponding author. 
+E-mail address: liujing27@mail.hust.edu.cn (J. Liu).  
+Contents lists available at ScienceDirect 
+Applied Surface Science 
+journal homepage: www.elsevier.com/locate/apsusc 
+https://doi.org/10.1016/j.apsusc.2021.150065 
+Received 7 January 2021; Received in revised form 29 April 2021; Accepted 6 May 2021   
+
+
+===== Page 2 =====
+
+Applied Surface Science 561 (2021) 150065
+2
+oxidation with almost 100% conversion efficiency in a packed bed 
+reactor [28]. Moreover, Pallavi et al. showed that the average oxygen 
+carrying capacity of CuMn2O4 oxygen carrier was rose to 114 mg/g and 
+had slight change as the redox cycle numbers increased [29]. Hence, 
+CuMn2O4 shows a great potential as oxygen carrier superior than its 
+corresponding individual oxygen carrier used in CLC process. 
+The knowledge of the reaction mechanism of CuMn2O4 with various 
+fuels and the activity of sites on spinel CuMn2O4 oxygen carrier surface 
+is closely associated with the fuel conversion efficiency. To date, some 
+researches have been conducted to identify the reaction characteristics 
+of CuMn2O4 under CH4 or syngas (CO + H2) atmosphere in CLC process 
+[28,30]. However, no attempts have been made to reveal the synergis­
+tically improved reactivity of CuMn2O4 with fuel gas such as CO. 
+Furthermore, the specific reaction mechanism of CO oxidation upon the 
+CuMn2O4 surface is still unknown. In view of inadequate existing in­
+vestigations, a systematically experimental and theoretical investigation 
+about the reaction mechanism of CuMn2O4 oxygen carrier with CO as 
+fuel gas is necessary. 
+In this work, the reactivity of CuMn2O4 with CO and the reaction 
+mechanism of CO oxidation on CuMn2O4 surface were studied by ex­
+periments and theoretical calculations. The reduction behavior of 
+CuMn2O4 with CO was determined by thermogravimetric analysis 
+(TGA). Furthermore, the possible reaction pathways for the CO oxida­
+tion upon CuMn2O4 surface were identified by density functional theory 
+(DFT) calculations. The results of this study can be beneficial to 
+comprehensively understand the reaction mechanism of CuMn2O4 ox­
+ygen carrier with CO, and thus guiding the development of highly effi­
+cient Cu-Mn oxygen carrier in CLC process. 
+2. Material and methods 
+2.1. Sample synthesis and characterization 
+Oxygen carriers (CuMn2O4 and Mn2O3) were synthesized using the 
+sol–gel combustion method. At first, the Cu(NO3)2⋅3H2O, 50 wt% Mn 
+(NO3)2 solution and citric acid (C6H8O7⋅H2O) were dissolved in deion­
+ized water, and the molar ratio was set to 1: 4: 1 so as to obtain the aimed 
+spinel CuMn2O4. Afterward the mixture solution was stirred at 90 ◦C for 
+6 h to obtain sol–gel. Then, the sol–gel was dried at 100 ◦C until the 
+remaining water was evaporated. Thereafter the dried gel was calcined 
+in a muffle furnace at 450 ◦C for about 1 h, followed by calcination at 
+950 ◦C for 5 h. The selection of temperature program is based on the 
+knowledge that the precursor starts to convert into spinel-type crystal­
+line structure at about 400 ◦C and the crystallization degree of spinel 
+structure increases with the increasing calcination temperature. Finally, 
+oxygen carriers were ground to smaller than 125 µm. 
+X-ray diffraction (XRD, Shimadzu XRD-7000) analysis was per­
+formed to measure the crystalline phase composition of the oxygen 
+carriers [31–34]. The XRD patterns were recorded in the range of 10◦to 
+80◦with Cu Kα radiation (λ = 1.5418 Å) operating at 40 kV and 30 mA. 
+The scanning rate was 5 ◦/min. The XRD results can display the crys­
+tallographic phases and crystal plane of fresh, oxygen uncoupling and 
+reduced oxygen carriers. X-ray photoelectron spectroscopy (XPS, 
+Thermo Fisher Escalab 250Xi) was used to characterize the chemical 
+state of O, Cu and Mn elements on oxygen carrier surface, which was 
+equipped with standard Al Kα excitation source and operated at 15 kV. 
+The binding energy (BE) scale was calibrated using C 1 s peak at 284.6 
+eV. The surface morphology of CuMn2O4 of fresh and reduced oxygen 
+carriers were investigated using scanning electron microscopy (SEM, 
+SU8010). 
+2.2. Thermogravimetric experiments 
+Thermogravimetric experiment can analyze the weight loss rate at a 
+certain temperature [31,35,36]. The reaction behavior of CuMn2O4 in 
+CO or N2 atmosphere were performed under atmospheric pressure using 
+a TGA instrument (TA-SDT-Q600). It mainly consists of several parts 
+such as thermal balance, furnace, program temperature control device, 
+recording instrument and balance supporter. The sweep gas enters the 
+balance room to keep it in an inert environment, and CO is introduced 
+into the furnace body from the reactive gas channel of the instrument. At 
+first, about 20 mg of the CuMn2O4 material was loaded to an alumina 
+pan. Then, the CO-N2 (N2 serves as balance) gas mixture with a total 
+flow rate of 100 mL/min was introduced into the reaction chamber. CO 
+temperature programmed reduction was carried out with a heating rate 
+of 20 ◦C/min and from the room temperature to 900 ◦C to study the 
+reduction behavior of CuMn2O4 and Mn2O3. For consideration of the 
+oxygen uncoupling property of CuMn2O4, the temperature programmed 
+decomposition test was carried out in a pure N2 atmosphere. The tem­
+perature was heated from the room temperature to 1000 ◦C with a 
+heating rate of 20 ◦C/min. The effects of CO concentration and heating 
+rate on the reduction performance of CuMn2O4 were also studied. The 
+CO concentrations of 6%, 9%, 12% and the heating rate of 10, 20, 30 ◦C/ 
+min were considered in this investigation. 
+2.3. Models and calculated details 
+All the calculations were performed by using the CASTEP codes [37]. 
+The generalized gradient approximation (GGA) with Perdew-Burke- 
+Ernzerhoff (PBE) functional was selected to describe the exchan­
+ge–correlation potential. The plane-wave kinetic cutoff energy was set to 
+be 340 eV. A grid of 3 × 3 × 3 for k-point sampling was used for bulk 
+optimization and a 3 × 3 × 1 was chosen for the surface as well as for CO 
+adsorption [38]. The convergence criteria for the self-consistent field 
+(SCF), energy, force, and maximum displacement were 1.0 × 10–6 eV/ 
+atom, 1.0 × 10–5 eV/atom, 0.03 eV/Å, and 0.001 Å, respectively. 
+CuMn2O4 is known as having a normal spinel structure, where the 
+tetrahedral interstices are occupied by the Cu2+ cations and the octa­
+hedral interstices are occupied by the Mn3+ cations. Fig. 1a presents the 
+unit cell structure of CuMn2O4 which is used in our calculations. The 
+optimized lattice constants of CuMn2O4 are a = b = c = 8.317 Å, which is 
+well consistence with the experimental values of a = b = c = 8.327 Å 
+[39]. The results suggest that the calculations in this study are 
+dependable. 
+The CuMn2O4 (100) surface is a catalytically active and the most 
+thermodynamically stable low-index surface, which easily exposes to 
+ambient atmosphere [40]. The representative low-index surface of 
+CuMn2O4 (100) was adopted to investigate the reaction mechanism of 
+CuMn2O4 oxygen carrier with CO. Two modeled slabs, labeled as Mn- 
+terminated surface and Cu-terminated surface, were constructed (see 
+Fig. 1b). 
+The adsorption energy (Eads) of CO molecule on CuMn2O4 surface is 
+defined as follows: 
+Eads = E(CO−CuMn2O4) −
+(ECO + ECuMn2O4)
+(1) 
+where E(CO-CuMn2O4), ECO, and ECuMn2O4 represent the total energies of 
+adsorption system, single CO molecule, and optimized CuMn2O4(100) 
+surface, respectively. A more negative Eads value suggests that the sys­
+tem experiences stronger adsorption. 
+The activation energy barrier (Ea) is defined as following equation: 
+Ea = ETS −
+EIM
+(2) 
+where ETS and EIM denote the total energies of transition state (TS) 
+and intermediate (IM), respectively. 
+3. Results and discussion 
+3.1. Reaction behaviors 
+The oxygen release characteristics and reduction behaviors of 
+CuMn2O4 are shown in Fig. 2. In N2 atmosphere, the oxygen release 
+R. Fang et al.                                                                                                                                                                                                                                    
+
+
+===== Page 3 =====
+
+Applied Surface Science 561 (2021) 150065
+3
+reaction consists of two phases. The first phase starts from 476 ◦C and 
+ends at 626 ◦C, which may correspond to the surface oxygen release. 
+Another phase starts from 626 ◦C and ends at 900 ◦C, and the peak of 
+oxygen release rate centers at 804 ◦C. The weight loss in this phase is 
+about 4.61%, which agrees very well with the theoretical value of 4.49% 
+according to the equation of 3CuMn2O4 → 3CuMnO2 + Mn3O4 + O2. The 
+detailed TGA and DTG data of Fig. 2 are provided in Table S1 and 
+Table S2 of supplementary material. 
+For the reduction of Mn2O3 by 9% CO, it can be observed that there is 
+only one CO consumption peak at about 480 ◦C, which corresponds to 
+the reduction of Mn2O3 to MnO. The weight loss during this reduction is 
+about 9.78%. Meanwhile, the reduction of CuMn2O4 by 9% CO shows 
+that only a CO consumption peak is identified at 430 ◦C, and the weight 
+loss of this reduction is about 14.97%. This reaction stage corresponds to 
+the reduction of CuMn2O4 to Cu and MnO. Compared with Mn2O3, the 
+weight loss rate of CuMn2O4 is faster and the temperature related to the 
+maximum weight loss rate is lower. In view of above analysis, CuMn2O4 
+shows superior reactivity with CO than that Mn2O3, which implies that 
+the existence of Cu element on oxygen carrier can significantly promotes 
+reactivity. 
+3.2. Influences of CO concentration and heating rate 
+The influences of gas concentration and heating rate were considered 
+to further study the reaction characteristics of CuMn2O4. As shown in 
+Fig. 3, the influence of CO concentration (6%, 9% and 12%) on reduc­
+tion characteristics was analyzed. It can be observed an increase of 
+reduction rate as the CO concentration increasing. The weight loss of 
+CuMn2O4 that starts at 339 ◦C and ends at 700 ◦C is about 13.66% when 
+the CO concentration is 6%. However, the temperature range of weight 
+loss shift to a lower temperature range for the CO concentration of 9% 
+(from 293 to 555 ◦C) and 12% (from 293 to 512 ◦C). For the CO con­
+centration of 9% and 12%, the weight loss of CuMn2O4 are 14.7% and 
+14.9%, respectively. It should be noticed that the weight loss peak shifts 
+from 568 ◦C to 442 ◦C as the CO concentration increases from 6% to 9% 
+or 12%. It primarily because the higher CO concentration corresponds to 
+more efficient molecular collision, so CO can react with CuMn2O4 at the 
+relative low temperature as the CO concentration increasing. It can be 
+concluded that the CO concentrations have apparent influence on the 
+reaction rate. In particular, low CO concentration (less than6%) is not 
+recommended in practical application of CLC process. 
+Generally, the reaction time is primarily relied on the heating rate. 
+Fig. 4 illustrates the influence of heating rate (10, 20 and 30 ◦C/min) on 
+the reduction of CuMn2O4 by 9% CO. It is noted that the temperature of 
+Fig. 1. (a) Crystal structure of the normal spinel CuMn2O4. (b) The settings and possible adsorption sites of Mn-terminated surface and Cu-terminated surface.  
+Fig. 2. TGA (a) and DTG (b) data of CuMn2O4 and Mn2O3 with 9% CO, as well as of oxygen release of CuMn2O4 in N2.  
+R. Fang et al.                                                                                                                                                                                                                                    
+
+
+===== Page 4 =====
+
+Applied Surface Science 561 (2021) 150065
+4
+CO consumption peak is closely related to the heating rate. As the rise of 
+heating rate, the reaction time is shortened and the temperature of 
+weight loss rate peak shift to a higher temperature. The initial reaction 
+temperature increases with the heating rate increasing. The reason for 
+this may be that the high heating rate cannot offer enough time for CO 
+molecule to diffuse to the reaction surface. 
+3.3. Characterization analysis of oxygen carrier 
+Fig. 5 displays the XRD patterns of fresh, oxygen uncoupled and 
+reduced CuMn2O4. For the fresh oxygen carrier, as shown in Fig. 5a, the 
+diffraction peaks verify that the spinel CuMn2O4 (JCPDS No. 84–0543) is 
+detected. The sharp peaks imply that the CuMn2O4 prepared by sol–gel 
+combustion method are well crystalline. As observed in Fig. 5b, the 
+chemical compositions of oxygen uncoupled CuMn2O4 mainly consist of 
+Mn3O4 (JCPDS No. 80–0382) and CuMnO2 (JCPDS No. 75–1010), which 
+is in good agreement with the TGA results. As shown in Fig. 5c, XRD 
+patterns of the reduction residues of sample suggest that CuMn2O4 is 
+reduced to Cu (JCPDS No. 85–1326) and MnO (JCPDS No. 78–0424). 
+There is no phase of Mn, indicating that the transformation of MnO to 
+Mn is hard to occur in the CLC process. 
+XPS analysis was carried out to measure the chemical states of O, Cu 
+and Mn on oxygen carrier surface. As revealed in Fig. 6a, the XPS spectra 
+of O 1 s are deconvoluted into three peaks, which suggests that three 
+kinds of oxygen species coexist on fresh CuMn2O4 surface. In detail, the 
+peak at 529.5 eV is attributed to lattice oxygen (Oα) that bounds to 
+metals. The peak with higher bind energy of 530.7 eV is assigned to the 
+defect sites (Oβ) with lower oxygen coordination. The existence of O- 
+vacancies facilitates the migration of lattice oxygen from the bulk phase 
+to the surface. For the peak at 532.4 eV, it can be ascribed to water 
+molecules (Oγ) that absorbed on the CuMn2O4 surface. The percentage 
+of three oxygen peak area are 46.12%, 36.67% and 17.21%, respec­
+tively. Fig. 6d presents the XPS spectra of O 1 s of reduced CuMn2O4. It 
+Fig. 3. TGA (a) and DTG (b) data of the effect of CO concentration on the reduction of CuMn2O4.  
+Fig. 4. TGA (a) and DTG (b) data of the effect of heating rate on the reduction of CuMn2O4.  
+Fig. 5. XRD data of (a) reduced CuMn2O4 at 900 ◦C, (b) oxygen uncoupled 
+CuMn2O4, (c) fresh oxygen carrier of spinel CuMn2O4. 
+R. Fang et al.                                                                                                                                                                                                                                    
+
+
+===== Page 5 =====
+
+Applied Surface Science 561 (2021) 150065
+5
+can be seen that the area of Oα decreases and the area of Oβ increases. 
+The percentage of three oxygen peak area are 38.18%, 57.91% and 
+3.91%, respectively. The result indicates that the lattice oxygen atoms 
+on CuMn2O4 surface are largely consumed by CO. Meanwhile, oxygen 
+vacancies are formed on the surface due to the loss of lattice oxygen. 
+As illustrated in Fig. 6b, XPS spectra of Cu 2p exhibits Cu 2p1/2 and 
+Cu 2p3/2 contributions. The peaks at 933.4, and 953.5 eV are assigned to 
+the Cu2+ of CuMn2O4. Furthermore, the peak located at 930.5 eV and 
+950.4 eV, which correspond to Cu+ [41]. The existence of Cu+ might be 
+caused by the oxygen uncoupling during the preparation of CuMn2O4. 
+For the reduced oxygen carrier, it can be seen in Fig. 6e that Cu0 with 
+binding energy of 932.1 eV and 952.4 eV appear in the Cu 2p XPS 
+spectra [42–44]. It suggests that the Cu2+ in CuMn2O4 can be reduced to 
+Cu0 by CO. 
+As shown in Fig. 6c, the Mn 2p XPS spectra of CuMn2O4 is composed 
+of Mn 2p3/2 and Mn 2p1/2. Mn 2p3/2 exhibits two peaks (641.3 and 
+642.5 eV, respectively), which are assigned to Mn3+ at the octahedral 
+site in CuMn2O4. For the reduced CuMn2O4, it can be seen in Fig. 6f that 
+the Mn 2p3/2 region is mainly occupied by Mn2+, which is located at 
+640.1 eV. 
+According to the above analyses, it can be concluded that the 
+CuMn2O4 prepared by the sol–gel combustion method has high active 
+surface oxygen and CuMn2O4 was reduced into Cu and MnO by CO, 
+which is in a good agreement with the TGA analysis. 
+Furthermore, the SEM micrographs of fresh and reduced CuMn2O4 
+are illustrated in Fig. 7. The magnifications of the upper row and the 
+bottom row are 5,000 × and 40,000×, respectively. It can be seen that 
+the fresh CuMn2O4 shows homogeneous granular structure. The particle 
+size is relatively uniform and less than 20 μm. The surface of fresh 
+CuMn2O4 is loose and porous, which is conducive to the CO adsorption 
+on the surface and the reaction with CuMn2O4. Compared to fresh 
+CuMn2O4, the particle size of reduced CuMn2O4 shows no obvious 
+change. However, the surface becomes looser than fresh CuMn2O4 
+owing to the formation of many macro-pores. This is mainly because the 
+active oxygen was consumed by CO to form CO2. These pore structures 
+are beneficial to the entry of CO into CuMn2O4, and thus promote deep 
+reduction. Meanwhile, it is also the evidence that the CuMn2O4 has 
+plenty of surface oxygen. 
+3.4. CO adsorption behavior on CuMn2O4 (100) surface 
+3.4.1. CO adsorption behavior on Mn-terminated surface 
+Heterogeneous reactions start with the adsorption of gas phase re­
+actants on the solid phase surface. The possible active sites on Mn- 
+terminated surface are revealed in Fig. 1b, which involves five-fold 
+Mn site (Mna), two kinds of three-fold O sites (Oa and Ob), as well as 
+the four-fold Cu site (Cua). The difference between Oa and Ob sites is 
+primarily lied on the type of coordination atoms. All possible active sites 
+Fig. 6. XPS spectra of fresh CuMn2O4, (a) O 1 s, (b) Cu 2p, (c) Mn 2p, and the reduced CuMn2O4, (d) O 1 s, (e) Cu 2p, (f) Mn 2p, respectively.  
+Fig. 7. SEM images of fresh and reduced CuMn2O4.  
+R. Fang et al.                                                                                                                                                                                                                                    
+
+
+===== Page 6 =====
+
+Applied Surface Science 561 (2021) 150065
+6
+(top, bridge, and hollow) and CO adsorption modes (C-down, O-down 
+and parallel) were taken into account. The stable adsorption configu­
+rations and adsorption energies are shown in Fig. 8. It can be seen that 
+CO molecule is strongly adsorbed on this surface with C-down mode. 
+In configuration 1A, a C−Mn bond with an equilibrium distance of 
+1.954 Å is formed during CO adsorption at Mna site. The adsorption 
+energy for this configuration is −97.16 kJ/mol. The C−O bond distance 
+in CO molecule was stretched to 1.159 Å. This configuration owns the 
+lowest adsorption energy upon the Mn-terminated surface, which in­
+dicates that Mna atom is the strongest site for CO molecule adsorption. It 
+can be inferred that the interaction between Mn-terminated surface and 
+CO is closely associated with the formation of C−Mn bond. 
+Configuration 1B reveals the equilibrium geometry describing the 
+interaction between CO and Mna−Oa bridge site. The CO molecule reacts 
+with the Oa atom forming a surface CO2 species adsorbed at Mna site. 
+The C atom in CO is bonded with surface Mna and Oa atoms forming two 
+bonds of C−Mn and C−O. The newly formed bond distances of Mna−C 
+and C−Oa are 2.024 and 1.329 Å, respectively. Meantime, the C−O bond 
+length in CO is lengthened to 1.203 Å. The reaction of CO with the Oa 
+atom leads to a breakage of the Mn−Oa bond (the bond of Oa with the 
+third layer Mn atom). The adsorption energy of this case is −74.36 kJ/ 
+mol, suggesting that Oa atom is active for CO oxidation. 
+In the case of 1C, the C atom of CO reacts with the Mna−Ob bridge 
+site forming C−Mna and C−Ob bonds and causes the breakage of Cu−Ob 
+bonds. This configuration owns an adsorbed energy of about −85.90 kJ/ 
+mol, which is relatively higher than that on Mna−Oa bridge site. In our 
+previous work, the O coordinated with the tetrahedral metal atom 
+showed lower adsorption activity [10]. However, the Ob site coordi­
+nated with two octahedral Mn and one tetrahedral Cu atoms exhibits 
+higher activity than the Oa site which bonds with three octahedral Mn 
+atom. The high reactivity for this O may be due to the existence of Cu, 
+albeit it lies in the tetrahedral site. The calculated result is in good 
+agreement with the experimental observation that the existence of Cu in 
+spinel CuMn2O4 improves the reactivity of Mn2O3. 
+3.4.2. CO adsorption behavior on Cu-terminated surface 
+Fig. 1c demonstrates the possible active adsorption sites of Cu- 
+terminated surface, which includes the five-fold Mn site (Mnb), two- 
+fold Cu site (Cub), three-fold O site (Oc) and coordinately saturated O 
+site (Od). The calculated adsorption energies and the corresponding 
+structural parameters for CO molecule adsorbed on the Cu-terminated 
+surface are shown in Fig. 9. The adsorption stability based on the Eads 
+for CO molecule on this surface follows the order of 2A > 2B > 2C. 
+For configuration 2A, CO strongly chemisorbs at Cub site with the C 
+atom upon surface Cu atom, producing an adsorbed energy of −163.56 
+kJ/mol. The new C−Cub bond during CO adsorption having an equi­
+librium distance of 1.788 Å. The C−O bond length of CO is elongated to 
+1.163 Å. 
+For configuration 2B, the CO adsorbs on Mnb site having an adsorbed 
+energy of −83.88 kJ/mol. As compared to configuration 1A, the 
+adsorption strength of configuration 2B exhibits lower stability. The 
+newly generated C−Mnb bond distance is 1.891 Å and the C−O bond 
+length of CO is stretched to 1.166 Å. 
+As displayed in configuration 2C, CO molecule adsorbed on the 
+Mnb−Oc bridge site generating a O−C−Mn geometry. This configuration 
+has an adsorbed energy of −76.56 kJ/mol. The generated C−Oc and 
+C−Mnb bonds showing the distances of 1.326 and 2.022 Å, respectively. 
+3.5. CO oxidation mechanism on CuMn2O4 (100) surface 
+In view of the CO adsorption behavior over CuMn2O4 (100) surface, 
+the CO oxidation pathways were proposed in this section. Obviously, the 
+free CO molecule and CuMn2O4 surface can be taken as an initial state 
+(IS), as well as the O-defective surface with the departed CO2 molecule 
+are regarded as a final state (FS). It should be noted that the formation of 
+CO2 species via CO adsorption on the bridge site is an important inter­
+mediate (IM) for CO oxidation revealing the reaction between CO and 
+lattice O. Afterward, the transition states (TSs) between IS and IM, as 
+well as IM and FS were located. The energy diagram and optimized 
+geometries for CO oxidation over both Mn- and Cu-terminated surfaces 
+are presented in Fig. 10 and Fig. 11, respectively. It can be seen that the 
+CO2 can be formed from CO oxidation over CuMn2O4 surface via the 
+following possible elementary reaction steps: CO adsorption, CO diffu­
+sion and CO2 desorption. 
+As revealed in Fig. 8, there were two possible reaction pathways on 
+Mn-terminated surface, which can be distinguished based on the 
+different activities of O atom. CO adsorbs on the Mna top site is the first 
+step (IS→1A) for both pathways. The CO adsorption step is exothermic 
+by 97.16 kJ/mol. 
+For path1, the second step is that adsorbed CO tilts to the adjacent Oa 
+atom via TS1 (Ea =
+64.59 kJ/mol) forming a CO2 species 
+(1A→TS1→1B), which is an endothermic reaction with a reaction heat 
+of 22.80 kJ/mol. Meantime, the C−Mna bond distance is lengthened 
+from 1.954 Å to 1.973 Å in TS1. Subsequently, CO2 desorption via TS2 
+(1B→TS2→FS1) shows an activated energy of 43.70 kJ/mol with reac­
+tion energy of −13.07 kJ/mol. TS2 yields a structure with a virtually 
+broken C−Mna bond of 2.495 Å and generates a CO2 molecule departs 
+Fig. 8. Adsorption energies and geometric parameters of the configuration of 
+CO adsorption on Mn-terminated surface. 
+Fig. 9. Adsorption energies and geometric parameters of the configuration of 
+CO adsorption on Mn-terminated surface. 
+R. Fang et al.                                                                                                                                                                                                                                    
+
+
+===== Page 7 =====
+
+Applied Surface Science 561 (2021) 150065
+7
+from the surface with the C−Oa bond of 1.238 Å. The activated energy of 
+TS1 is higher than that of TS2, showing that the combination of CO 
+molecule and surface O atom is regarded to be the rate-limiting-step for 
+CO oxidation process in this pathway. 
+In path2, the adsorbed CO at Mna site gradually leans to the Ob atom 
+(1A→TS3→1C) forming 1C, in which the equilibrium bond distance of 
+C−Mna and C−Ob are 2.023 and 1.329 Å, respectively. In the TS3, the 
+bond distance of C−Mna and C−Ob are 1.962 Å and 1.771 Å, respec­
+tively. The distance of C−Ob continues to decrease after going through 
+the TS3 to form a Mn−C−O geometry. The activated energy for sur­
+mounting TS3 is 48.96 kJ/mol and this step is endothermic with a re­
+action heat of 11.26 kJ/mol. CO2 desorption step from the surface 
+(1C→TS4→FS2) is endothermic with a reaction energy of 31.52 kJ/mol. 
+TS4 displays a structure with a breakage of C−Mna bond and the dis­
+tance of C atom and Mna atom is elongated to 2.780 Å. The activated 
+energy for this elementary step is 100.10 kJ/mol, higher than the acti­
+vated energy of TS3. Therefore, CO2 desorption, in path2, from the 
+surface is identified as the rate-limiting-step. 
+The energy profile of CO2 formation pathway on Cu-terminated 
+surface is shown in Fig. 11. In the first step, CO molecule chemisorbs 
+on a Mnb site (IS→2B), yielding a reaction energy of 83.88 kJ/mol. The 
+second step through TS5 (2B→TS5→2C) is endothermic owning a re­
+action heat of 7.32 kJ/mol. The activated energy for this step is 53.83 
+kJ/mol. For the TS5, the equilibrium distance of C−Oc is 1.795 Å and the 
+bond distance of C−Mn is 2.006 Å. The CO2 desorption process 
+(2C→TS6→FS3) through TS6 requires an activated energy of 29.60 kJ/ 
+Fig. 10. The reaction pathways and energy profiles for CO oxidation over the Mn-terminated surface.  
+Fig. 11. The reaction pathways and energy profiles for CO oxidation over the Cu-terminated surface.  
+R. Fang et al.                                                                                                                                                                                                                                    
+
+
+===== Page 8 =====
+
+Applied Surface Science 561 (2021) 150065
+8
+mol. For TS6, the distance of C−Oc bond is 1.233 Å and distance of 
+C−Mnb bond is 2.383 Å. According to these analyses, CO diffusion can 
+be found to be the rate-limiting-step on Cu-terminated surface. 
+From above analysis, it can be seen that the surface Mn ion is the 
+active center for CO adsorption. CO is oxidized by the lattice O upon 
+CuMn2O4 surface through Mars van Krevelen pathways. Firstly, CO 
+chemisorbs on the surface Mn atom site. Afterward, the adsorbed CO 
+tilts to a neighboring O atom to form a surface CO2 species with a bent 
+equilibrium geometry. Eventually, CO2 molecule departs from the sur­
+face by surmounting an energy barrier. 
+It is worth noting that the metal atomic layer on surface shows steric 
+hindrance for the interaction of CO molecule with surface O atom [11]. 
+Nevertheless, CO oxidation upon the Cu-terminated surface is more 
+kinetically and thermodynamically favorable than that upon the Mn- 
+terminated surface in this investigation. This is caused by the differ­
+ence in oxygen activity that are directly related with the coordinated 
+metal atoms. The Oc (on Cu-terminated surface) coordinated with two 5- 
+fold Mn and one 4-fold Cu exhibits superior reactivity than the Oa (on 
+Mn-terminated surface) coordinated with three 5-fold Mn. This can 
+explain the higher reactivity of CuMn2O4 than that of Mn2O3 observed in 
+the TGA experiments. 
+In our previous works, the reactivity of Fe-based composite oxygen 
+carriers (CuFe2O4, MnFe2O4 and CoFe2O4) and the related reaction 
+mechanism with CO have been studied [10,11,45]. Compared with 
+CuMn2O4, the energy barrier of the minimum energy path for the re­
+action of CuFe2O4, CoFe2O4, and MnFe2O4 with CO is 10.84, 69.47, and 
+90.19 kJ/mol, respectively. It suggested that the order of surface oxygen 
+activity of these four composite oxygen carriers is: CuFe2O4 > CuMn2O4 
+> CoFe2O4 > MnFe2O4. Meanwhile, the reactivity of single metal oxy­
+gen carriers is promoted by the existence of Cu, Co and Mn elements, and 
+the existence of Cu shows the highest improvement in the reactivity. By 
+comparing the coordination of active oxygen on the surface of these 
+composite oxygen carriers, it can be found that the synergistic effect is 
+closely associated with the coordination between oxygen and metal 
+atoms. The surface oxygen coordinated with tetrahedral metal atoms 
+shows the lowest reactivity. 
+4. Conclusion 
+The reaction mechanism between CuMn2O4 oxygen carrier and CO 
+during CLC was investigated via TGA experiments and DFT calculations. 
+XRD was performed to characterize the phases of fresh, oxygen release 
+and reduced oxygen carriers. CuMn2O4 shows oxygen release property, 
+and the oxygen release temperature is in the range from 626 to 900 ◦C. 
+The transformation of CuMn2O4 into CuMnO2 and Mn3O4 accompanies 
+the oxygen release. CuMn2O4 can be reduced into Cu and MnO by CO. 
+The reduction of CuMn2O4 shows a higher reactivity as compared to 
+Mn2O3, suggesting that the existence of Cu can enhance the reactivity of 
+Mn2O3. The CO concentration and heating rate show influence on the 
+reaction rate. Mn atom on the surface is identified as the active center for 
+CO adsorption. CO oxidation over the CuMn2O4 surface proceeds by 
+Mars van Krevelen pathway: CO initially chemisorbs on the Mn site, it 
+then moves to an adjacent O atom forming a surface CO2 species which 
+still adsorbs at Mn site, CO2 molecule finally departs from the surface by 
+overcoming an energy barrier. It can be found that the CO oxidation on 
+spinel CuMn2O4 surface is exothermic. The reaction is limited by CO 
+diffusion on the Mn-terminated surface with an activation energy of 
+64.59 kJ/mol, while on the Cu-terminated surface shows lower activa­
+tion energy (58.83 kJ/mol) because of the high reactivity of Cu. The 
+calculated results show good agreements with the experimental anal­
+ysis. These results provide a fundamental understanding for the 
+improved reactivity of spinel CuMn2O4 due to the existence of Cu. 
+CRediT authorship contribution statement 
+Ruixue Fang: Methodology, Software. Feng Liu: Investigation, Data 
+curation, Validation. Jing Liu: Supervision. Yu Li: Visualization, 
+Software. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgments 
+This work was supported by National Natural Science Foundation of 
+China (51976071), Fundamental Research Funds for the Central Uni­
+versities (2019kfyRCPY021), and the authors also thank the Analytical 
+and Testing Center in Huazhong University of Science and Technology 
+for the measurement.. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.apsusc.2021.150065. 
+References 
+[1] M. Wang, J. Liu, F. Shen, H. Cheng, J. Dai, Y. Long, Theoretical study of stability 
+and reaction mechanism of CuO supported on ZrO2 during chemical looping 
+combustion, Appl. Surf. Sci. 367 (2016) 485–492. 
+[2] A. Nandy, C. Loha, S. Gu, P. Sarkar, M.K. Karmakar, P.K. Chatterjee, Present status 
+and overview of chemical looping combustion technology, Renew. Sust. Energ. 
+Rev. 59 (2016) 597–619. 
+[3] L. Zeng, Z. Cheng, J.A. Fan, L.-S. Fan, J. Gong, Metal oxide redox chemistry for 
+chemical looping processes, Nat. Rev. Chem. 2 (2018) 349–364. 
+[4] A. Cuadrat, A. Abad, F. García-Labiano, P. Gay´an, L. De Diego, J.J.C.e.j. Ad´anez, 
+Relevance of the coal rank on the performance of the in situ gasification chemical- 
+looping combustion, Chem. Eng. J. 195 (2012) 91–102. 
+[5] S. Alam, J.P. Kumar, K.Y. Rani, C. Sumana, Comparative assessment of 
+performances of different oxygen carriers in a chemical looping combustion 
+coupled intensified reforming process through simulation study, J. Clean. Prod. 
+262 (2020), 121146. 
+[6] F. Liu, F. Wu, J. Liu, Y. Li, Y. Yang, Experimental and theoretical insights into the 
+mechanism of spinel CoFe2O4 reduction in CO chemical looping combustion, Fuel 
+293 (2021), 120473. 
+[7] K. Yin, H. Wang, A. Veksha, X. Dou, D. Khairunnisa Binte Mohamed, S. Heberlein, 
+G. Liu, W. Chen, G. Lisak, Oxygen carriers from incineration bottom ash for 
+chemical looping combustion of syngas: Effect of composition on combustion 
+efficiency, Chem. Eng. J. 405 (2021) 127068. 
+[8] K. Idziak, T. Czakiert, J. Krzywanski, A. Zylka, M. Kozlowska, W. Nowak, Safety 
+and environmental reasons for the use of Ni-, Co-, Cu-, Mn- and Fe-based oxygen 
+carriers in CLC/CLOU applications: An overview, Fuel 268 (2020), 117245. 
+[9] A. Abad, T. Mendiara, L.F. de Diego, F. García-Labiano, P. Gay´an, J. Ad´anez, 
+A simple model for comparative evaluation of different oxygen carriers and solid 
+fuels in iG-CLC processes, Fuel Process. Technol. 179 (2018) 444–454. 
+[10] F. Liu, J. Dai, J. Liu, Y. Yang, R. Fang, Density Functional Theory Study on the 
+Reaction Mechanism of Spinel CoFe2O4 with CO during Chemical-Looping 
+Combustion, J. Phys. Chem. C 123 (2019) 17335–17342. 
+[11] F. Liu, J. Liu, Y. Yang, X. Wang, A mechanistic study of CO oxidation over spinel 
+MnFe2O4 surface during chemical-looping combustion, Fuel 230 (2018) 410–417. 
+[12] S. Bhavsar, B. Tackett, G. Veser, Evaluation of iron- and manganese-based mono- 
+and mixed-metallic oxygen carriers for chemical looping combustion, Fuel 136 
+(2014) 268–279. 
+[13] Z. Ou, J. Ran, J. Niu, Z. Zhang, T. Deng, Z. He, C. Qin, Effect of active site and 
+charge transfer on methane dehydrogenation over different Co doped Ni surfaces 
+by density functional theory, Int. J. Hydrog. Energy 45 (2020) 31849–31862. 
+[14] B. Wang, H. Li, W. Wang, C. Luo, D. Mei, H. Zhao, Reaction characteristic 
+investigation of the combined template-method-made CaSO4–Mn3O4 mixed oxygen 
+carrier with lignite, Energy Fuels 33 (2019) 8954–8966. 
+[15] F. Liu, X. Wu, L. Yang, H. Bu, X. Zhang, Evaluation of a bauxite cement-bonded Fe- 
+based oxygen carrier during a hundred of cycles under coal-fueled chemical 
+looping combustion conditions, Fuel Process. Technol. 199 (2020), 106267. 
+[16] Z. Deng, Z. Huang, F. He, A. Zheng, G. Wei, J. Meng, Z. Zhao, H. Li, Evaluation of 
+calcined copper slag as an oxygen carrier for chemical looping gasification of 
+sewage sludge, Int. J. Hydrog. Energy 44 (2019) 17823–17834. 
+[17] S. Lin, Z. Gu, X. Zhu, Y. Wei, Y. Long, K. Yang, F. He, H. Wang, K. Li, Synergy of red 
+mud oxygen carrier with MgO and NiO for enhanced chemical-looping 
+combustion, Energy 197 (2020), 117202. 
+[18] V. Frick, M. Ryd´en, H. Leion, Investigation of Cu–Fe and Mn–Ni oxides as oxygen 
+carriers for chemical-looping combustion, Fuel Process. Technol. 150 (2016) 
+30–40. 
+R. Fang et al.                                                                                                                                                                                                                                    
+
+
+===== Page 9 =====
+
+Applied Surface Science 561 (2021) 150065
+9
+[19] D.D. Miller, M. Smith, D. Shekhawat, Interaction of manganese with 
+aluminosilicate support during high temperature (1100 ◦C) chemical looping 
+combustion of the Fe-Mn-based oxygen carrier, Fuel 263 (2020), 116738. 
+[20] F. Güleç, W. Meredith, C.-G. Sun, C.E. Snape, Selective low temperature chemical 
+looping combustion of higher alkanes with Cu- and Mn- oxides, Energy 173 (2019) 
+658–666. 
+[21] T.R. Costa, P. Gay´an, A. Abad, F. García-Labiano, L.F. de Diego, D.M.A. Melo, 
+J. Ad´anez, Mn-based oxygen carriers prepared by impregnation for Chemical 
+Looping Combustion with diverse fuels, Fuel Process. Technol. 178 (2018) 
+236–250. 
+[22] P. Moldenhauer, M. Ryd´en, T. Mattisson, A. Lyngfelt, Chemical-looping 
+combustion and chemical-looping with oxygen uncoupling of kerosene with Mn- 
+and Cu-based oxygen carriers in a circulating fluidized-bed 300W laboratory 
+reactor, Fuel Process. Technol. 104 (2012) 378–389. 
+[23] T. Mattisson, A. Lyngfelt, H. Leion, Chemical-looping with oxygen uncoupling for 
+combustion of solid fuels, Int. J. Greenhouse Gas Control 3 (2009) 11–19. 
+[24] I. Ad´anez-Rubio, A. P´erez-Astray, T. Mendiara, M.T. Izquierdo, A. Abad, P. Gay´an, 
+L.F. de Diego, F. García-Labiano, J. Ad´anez, Chemical looping combustion of 
+biomass: CLOU experiments with a Cu-Mn mixed oxide, Fuel Process. Technol. 172 
+(2018) 179–186. 
+[25] A. Abad, J. Ad´anez, F. García-Labiano, L.F.D. Diego, P. Gay´an, J. Celaya, Mapping 
+of the range of operational conditions for Cu-, Fe-, and Ni-based oxygen carriers in 
+chemical-looping combustion, Chem. Eng. Sci. 62 (2007) 533–549. 
+[26] L. Xu, R. Edland, Z. Li, H. Leion, D. Zhao, N. Cai, Cu-modified manganese ore as an 
+oxygen carrier for chemical looping combustion, Energy Fuels 28 (2014) 
+7085–7092. 
+[27] K. Wang, Q. Yu, M. van Sint Annaland, T. Wu, Q. Qin, Improvement of the oxygen 
+uncoupling properties of copper-based composite oxygen carriers for chemical 
+looping air separation, Energy Fuels 34 (2020) 3449–3457. 
+[28] S. Sajen, S.K. Singh, P. Mungse, S. Rayalu, K. Watanabe, G. Saravanan, 
+N. Labhasetwar, Mechanically stable mixed metal oxide of Cu and Mn as oxygen 
+carrier for chemical looping syngas combustion, Energy Fuels 30 (2016) 
+7596–7603. 
+[29] P. Mungse, G. Saravanan, T. Uchiyama, M. Nishibori, Y. Teraoka, S. Rayalu, 
+N. Labhsetwar, Copper–manganese mixed oxides: CO2-selectivity, stable, and 
+cyclic performance for chemical looping combustion of methane, Phys. Chem. 
+Chem. Phys. 16 (2014) 19634–19642. 
+[30] P.B. Mungse, G. Saravanan, M. Nishibori, J. Subrt, N.K. Labhsetwar, Solvent-free, 
+improved synthesis of pure bixbyite phase of iron and manganese mixed oxides as 
+low-cost, potential oxygen carrier for chemical looping with oxygen uncoupling, 
+Pure Appl. Chem. 89 (2017) 511–521. 
+[31] S. Xu, J. Li, Q. Ye, L. Shen, H. Lin, Flame-retardant ethylene vinyl acetate 
+composite materials by combining additions of aluminum hydroxide and melamine 
+cyanurate: Preparation and characteristic evaluations, J. Colloid Interface Sci. 589 
+(2021) 525–531. 
+[32] Y. Liu, L. Shen, H. Lin, W. Yu, Y. Xu, R. Li, T. Sun, Y. He, A novel strategy based on 
+magnetic field assisted preparation of magnetic and photocatalytic membranes 
+with improved performance, J. Membr. Sci. 612 (2020), 118378. 
+[33] M. Wu, Y. Chen, H. Lin, L. Zhao, L. Shen, R. Li, Y. Xu, H. Hong, Y. He, Membrane 
+fouling caused by biological foams in a submerged membrane bioreactor: 
+Mechanism insights, Water Res. 181 (2020), 115932. 
+[34] Z. Huang, J. Liu, Y. Liu, Y. Xu, R. Li, H. Hong, L. Shen, H. Lin, B.-Q. Liao, Enhanced 
+permeability and antifouling performance of polyether sulfone (PES) membrane 
+via elevating magnetic Ni@MXene nanoparticles to upper layer in phase inversion 
+process, J. Membr. Sci. 623 (2021), 119080. 
+[35] T. Sun, Y. Liu, L. Shen, Y. Xu, R. Li, L. Huang, H. Lin, Magnetic field assisted 
+arrangement of photocatalytic TiO2 particles on membrane surface to enhance 
+membrane antifouling performance for water treatment, J. Colloid Interface Sci. 
+570 (2020) 273–285. 
+[36] Q. Zeng, Y. Liu, L. Shen, H. Lin, W. Yu, Y. Xu, R. Li, L.J.J.o.C. Huang, I. Science, 
+Facile preparation of recyclable magnetic Ni@ filter paper composite materials for 
+efficient photocatalytic degradation of methyl orange, J. Colloid Interface Sci. 582 
+(2021) 291–300. 
+[37] M. Segall, P.J. Lindan, M.a. Probert, C. Pickard, P. Hasnip, S. Clark, M. Payne, First- 
+principles simulation: ideas, illustrations and the CASTEP code, J. Phys. Condens. 
+Matter, 14 (2002) 2717. 
+[38] H.J. Monkhorst, J.D. Pack, Special points for Brillouin-zone integrations, Phys. 
+Rev. B 13 (1976) 5188. 
+[39] A. Waskowska, L. Gerward, J.S. Olsen, S. Steenstrup, E. Talik, CuMn2O4: properties 
+and the high-pressure induced Jahn-Teller phase transition, J. Phys. Condens. 
+Matter 13 (2001) 2549–2562. 
+[40] A. Waskowska, L. Gerward, J.S. Olsen, S. Steenstrup, E.J.J.o.P.C.M. Talik, 
+CuMn2O4: properties and the high-pressure induced Jahn-Teller phase transition, 
+J. Phys. Condens. Matter, 13 (2001) 2549. 
+[41] M.C. Biesinger, L.W. Lau, A.R. Gerson, R.S.C. Smart, Resolving surface chemical 
+states in XPS analysis of first row transition metals, oxides and hydroxides: Sc, Ti, 
+V, Cu and Zn, Appl. Surf. Sci 257 (2010) 887–898. 
+[42] C. Qin, M. Zhang, B. Li, Y. Li, Z. Wang, Ag particles modified CuxO (x=1, 2) 
+nanowires on nanoporous Cu-Ag bimetal network for antibacterial applications, 
+Mater. Lett 258 (2020), 126823. 
+[43] M. Li, Z. Wang, Q. Zhang, C. Qin, A. Inoue, W. Guo, Formation and evolution of 
+ultrathin Cu2O nanowires on NPC ribbon by anodizing for photocatalytic 
+degradation, Appl. Surf. Sci 506 (2020), 144819. 
+[44] C. Qin, W. Zhang, Q. Zhang, K. Asami, A. Inoue, Chemical characteristics of the 
+passive surface films formed on newly developed Cu–Zr–Ag–Al bulk metallic 
+glasses, J. Mater. Res 23 (2008) 2092. 
+[45] F. Liu, J. Liu, Y. Yang, Z. Wang, C. Zheng, Reaction mechanism of spinel CuFe2O4 
+with CO during chemical-looping combustion: An experimental and theoretical 
+study, Proc. Combust. Inst. 37 (2019) 4399–4408. 
+R. Fang et al.                                                                                                                                                                                                                                    

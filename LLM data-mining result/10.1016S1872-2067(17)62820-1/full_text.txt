@@ -1,0 +1,572 @@
+
+
+===== Page 1 =====
+
+Chinese Journal of Catalysis 38 (2017) 1079–1086 
+    
+    
+ 
+a v a i l a b l e   a t   w w w . s c i e n c e d i r e c t . c o m  
+ 
+j o u r n a l   h o m e p a g e :   w w w . e l s e v i e r . c o m / l o c a t e / c h n j c  
+ 
+Article (Special Issue on Nanoscience and Catalysis) 
+La1‐xCaxMn1‐yAlyO3 perovskites as efficient catalysts for two‐step 
+thermochemical water splitting in conjunction with exceptional  
+hydrogen yields 
+Lulu Wang a, Mohammad Al‐Mamun a, Porun Liu a, Yun Wang a, Hua Gui Yang b , Huijun Zhao a,c,* 
+a Centre for Clean Environment and Energy, Griffith University, Gold Coast Campus, QLD 4222, Australia 
+b Key Laboratory for Ultrafine Materials of Ministry of Education, School of Materials Science and Engineering, East China University of Science and 
+Technology, Shanghai 200237, China 
+c Centre for Environmental and Energy Nanomaterials, Institute of Solid State Physics, Chinese Academy of Sciences, Hefei 230031, Anhui, China 
+A R T I C L E  I N F O  
+ 
+A B S T R A C T  
+Article history: 
+Received 17 February 2017 
+Accepted 19 March 2017 
+Published 5 June 2017 
+ 
+Solar‐driven thermochemical water splitting represents one efficient route to the generation of H2
+as a clean and renewable fuel. Due to their outstanding catalytic abilities and promising solar fuel 
+production capacities, perovskite‐type redox catalysts have attracted significant attention in this 
+regard. In the present study, the perovskite series La1‐xCaxMn1‐yAlyO3 (x, y = 0.2, 0.4, 0.6, or 0.8) was 
+fabricated using a modified Pechini method and comprehensively investigated to determine the 
+applicability of these materials to solar H2 production via two‐step thermochemical water splitting. 
+The thermochemical redox behaviors of these perovskites were optimized by doping at either the A 
+(Ca) or B (Al) sites over a broad range of substitution values, from 0.2 to 0.8. Through this doping, a 
+highly efficient perovskite (La0.6Ca0.4Mn0.6Al0.4O3) was developed, which yielded a remarkable H2
+production rate of 429 μmol/g during two‐step thermochemical H2O splitting, going between 1400 
+and 1000 °C. Moreover, the performance of the optimized perovskite was found to be eight times 
+higher than that of the benchmark catalyst CeO2 under the same experimental conditions. Further‐
+more, these perovskites also showed impressive catalytic stability during two‐step thermochemical 
+cycling tests. These newly developed La1‐xCaxMn1‐yAlyO3 redox catalysts appear to have great poten‐
+tial for future practical applications in thermochemical solar fuel production. 
+© 2017, Dalian Institute of Chemical Physics, Chinese Academy of Sciences.
+Published by Elsevier B.V. All rights reserved.
+Keywords: 
+Two‐step thermochemical route 
+Water splitting 
+Solar fuel 
+Perovskite‐type redox catalyst 
+Hydrogen production 
+ 
+ 
+1.  Introduction 
+Concerns regarding fossil fuel depletion and climate change 
+have resulted in the development of alternative renewable and 
+clean energy solutions, such as solar energy technologies. One 
+viable means of converting concentrated solar power into clean 
+energy sources such as hydrogen (H2) is via thermochemical 
+water splitting [1,2]. Compared with various other solar‐based 
+H2 generation methods, including photochemical and photoe‐
+lectrochemical water splitting [3,4], the thermochemical water 
+splitting route is capable of utilizing the entire solar spectrum 
+and thereby results in higher solar energy conversion efficiency 
+[5–7]. Since direct water thermolysis [8] requires very high 
+temperatures (>4000 °C) that are not practical, thermochemi‐
+cal water splitting is typically divided into two separate steps 
+utilizing a metal oxide as a redox catalyst. As shown in Fig. 1, 
+ 
+* Corresponding author. Tel: +61‐7‐55528261; Fax: +61‐7‐55528067; E‐mail: h.zhao@griffith.edu.au 
+This work was supported by the Australian Research Council (FT120100913) and the National Natural Science Foundation of China (51372248, 
+51432009). 
+DOI: 10.1016/S1872‐2067(17)62820‐1 | http://www.sciencedirect.com/science/journal/18722067 | Chin. J. Catal., Vol. 38, No. 6, June 2017   
+
+
+===== Page 2 =====
+
+1080 
+Lulu Wang et al. / Chinese Journal of Catalysis 38 (2017) 1079–1086 
+the 
+metal 
+oxide 
+(MOx) 
+is 
+initially 
+subjected 
+to 
+a 
+high‐temperature endothermic thermal reduction step to re‐
+lease part (or all) of its oxygen atoms, to generate oxy‐
+gen‐deficient MOx‐δ (Eq. (1)). Subsequently, through a 
+low‐temperature exothermic water splitting step, the oxy‐
+gen‐deficient MOx‐δ is re‐oxidized to the original MOx with the 
+simultaneous production of H2 (Eq. (2)). 
+Thermal reduction step: 
+MOx + concentrated solar energy → MOx‐δ + δ/2 O2    (1) 
+Water splitting step: 
+MOx‐δ + δ H2O → MOx + δ H2          (2) 
+Over the past several decades, numerous metal oxides have 
+been assessed for this purpose, although only a few, such as 
+ZnO [9–11], Fe3O4 [12–14], various ferrites [15–17], CeO2 and 
+doped CeO2 [18–23], have been found to exhibit sufficient 
+thermochemical water splitting activity. Among these, 
+non‐stoichiometric CeO2 is generally recognized as the bench‐
+mark catalyst due to its favorable reaction kinetics and superi‐
+or catalytic stability. However, the high processing tempera‐
+tures required when using this material (>1500 °C) and its 
+relatively low solar fuel production capacity limit the practical 
+applications of CeO2 in this field.  
+Perovskite‐type metal oxides with the general formula ABO3 
+have been widely studied in applications such as solid oxide 
+fuel cells [24], electrocatalysts [25], and sensors [26]. Due to 
+the unique structures of these compounds and their oxygen 
+exchange properties, perovskite oxides may also have signifi‐
+cant potential for thermochemical solar fuel production. Re‐
+cently, La1‐xSrxMnO3 perovskites were investigated for the first 
+time as thermochemical catalysts, and demonstrated promising 
+oxygen exchange capacities and high theoretical energy con‐
+version efficiencies [27–29]. McDaniel et al. [30,31] also re‐
+ported an advanced perovskite system, La1‐xSrxMn1‐yAlyO3, that 
+exhibits fast water splitting kinetics and significant hydrogen 
+yields. Furthermore, several other perovskites, including 
+La1‐yCayMnO3 [32], La0.6Sr0.4Cr1‐yCoyO3 [33], Y0.5Sr0.5MnO3 [34] 
+and La0.6Sr0.4Mn1‐yScyO3 [35], have also been studied for ther‐
+mochemical applications. However, none of these are ideal for 
+practical thermochemical applications due to challenges asso‐
+ciated with their solar fuel production capacities and long‐term 
+catalytic stabilities. Considering the vast range of compositions 
+possible with these compounds, the discovery of new and ad‐
+vanced perovskite‐type redox catalysts for two‐step thermo‐
+chemical water splitting is of significant interest. 
+Recently, members of the La1‐xCaxMn1‐yAlyO3 (LCMA) perov‐
+skite series were extensively studied for two‐step thermo‐
+chemical CO2 splitting to produce CO, a similar process to 
+thermochemical H2O splitting [36,37]. Based on the outstand‐
+ing oxygen exchange capacities and promising catalytic behav‐
+ior observed during these previous trials, it is considered that 
+LCMA perovskites may be applicable to two‐step thermochem‐
+ical water splitting to produce H2. However, until now, no such 
+investigations have been performed. The present work repre‐
+sents the first‐ever systematic investigation of LCMA perov‐
+skites as efficient catalysts for two‐step thermochemical H2O 
+splitting, and demonstrates remarkable H2 yields using these 
+materials. 
+2.  Experimental 
+2.1.  Chemicals 
+La(NO3)3·6H2O, Ca(NO3)2·4H2O, Mn(NO3)2·xH2O, Al(NO3)3· 
+9H2O, ceria, citric acid and ethylene glycol were all purchased 
+from Sigma‐Aldrich. All chemicals were used as received with‐
+out any further purification. 
+2.2.  Perovskites synthesis 
+All the LCMA perovskite oxides were synthesized using a 
+modified Pechini method [38]. In a typical synthesis, the nec‐
+essary metal nitrates were first dissolved in deionized (DI) 
+water in the appropriate amounts. Citric acid was then added 
+to the solution at a molar ratio of 1.5:1 with respect to the total 
+metal cations, after which the mixture was heated to 70 °C with 
+stirring. After approximately 10 min, ethylene glycol was added 
+to the solution at a molar ratio of 1:1 relative to the citric acid. 
+The solution was then held at 90 °C until a brownish gel was 
+obtained, which was transferred to an electric oven and heated 
+at 120 °C for 12 h to obtain a resin. The resin was carefully col‐
+lected and ground using a mortar and pestle. Finally, the resin 
+was calcined in a tubular furnace (1300 °C for 6 h) to remove 
+any remaining organics or nitrates, to prepare the final perov‐
+skite sample. 
+2.3.  Characterizations 
+X‐ray diffraction (XRD) patterns of the perovskite samples 
+were acquired with a Bruker D8 X‐ray diffractometer operating 
+at 40 kV with a current of 25 mA using Cu Kα radiation. The 
+XRD measurements were carried out over the 2θ range of 
+20°–80° with a step size of 0.02° and a scanning rate of 2°/min. 
+The results were compared with the standard Inorganic Crystal 
+Structure Database (ICSD) to identify phases. The surface 
+structures and particles sizes of the prepared perovskites were 
+Fig. 1. Schematic illustration of the two‐step thermochemical water
+splitting process. In the first step, the metal oxide, MOx, is thermally
+reduced to MOx‐δ via a high‐temperature treatment to release O2. In the 
+second step, the oxygen deficient MOx‐δ is re‐oxidized by splitting H2O to 
+produce H2. 
+
+
+===== Page 3 =====
+
+ 
+Lulu Wang et al. / Chinese Journal of Catalysis 38 (2017) 1079–1086 
+1081 
+confirmed by scanning electron microscopy (SEM, JSM‐7100) 
+and transmission electron microscopy (TEM, Tecnai F20). En‐
+ergy dispersive X‐ray (EDX, JSM‐7100) mapping was also used 
+to characterize the surface morphologies and elemental distri‐
+butions within the samples. 
+2.4.  Thermochemical H2O splitting tests 
+The two‐step thermochemical H2O splitting activity of each 
+specimen was investigated using a laboratory‐scale fixed‐bed 
+reactor. To facilitate effective testing, each freshly prepared 
+perovskite sample (approximately 0.5 g) was made into a solid 
+porous monolithic structure by mixing with a suitable quantity 
+of isopropanol and heating at 1300 °C for 6 h in air [28,39]. The 
+resulting redox sample was placed in the center of a tubular 
+alumina reactor within a high temperature programmable 
+electric furnace (MTI, KSL‐1800X‐S60). Ar (ultra‐high purity; 
+approximately 99.99%) was used as the carrier gas, with its 
+flow rate determined by a mass flow controller (Alicat Scien‐
+tific). Thermal reduction was carried out by heating the perov‐
+skite sample to 1400 °C and holding at that temperature for 1 h 
+under an Ar flow of 200 sccm (with an oxygen partial pressure 
+of approximately 20 ppm). The temperature was subsequently 
+decreased to 1000 °C for H2O splitting. Both the temperature 
+increase and decrease rates were fixed at 10 °C/min. Water 
+was introduced into the reaction chamber by a water pump 
+(Easypump, BT100N) at a set rate, whereupon it vaporized and 
+mixed with the Ar gas (such that the volume percentage of wa‐
+ter vapor in the mixture was on the order of 40%). The H2O 
+splitting reaction was performed for 1 h to complete the 
+re‐oxidation process. During the thermal reduction and H2O 
+splitting process, the amounts of O2 and H2 produced were 
+quantified using a mass spectrometer (MS, Omni Star GSD 320) 
+that had been previously calibrated using O2 and H2 gas stand‐
+ards.  
+The re‐oxidation yield (α) of each thermochemical H2O 
+splitting test trial was calculated as α = (nH2/2nO2)  100%, 
+where nO2 and nH2 represent the total moles of O2 and H2 
+evolved during two‐step thermochemical H2O splitting. 
+3.  Results and discussion 
+3.1.  Structural characteristics 
+The XRD pattern of a typical as‐synthesized LCMA perov‐
+skite (La0.6Ca0.4Mn0.6Al0.4O3 or LCMA‐C0.4A0.4) is displayed in 
+Fig. 2(a), with the remainder of the XRD results shown in Figs. 3 
+and 4. In keeping with results in the literature [36,40], the ob‐
+served diffraction peaks indicate a typical orthorhombic per‐
+ovskite structure (Pnma group) without impurity phases, 
+demonstrating the successful preparation of perovskite struc‐
+tured oxides. During the high‐temperature treatment, all the 
+LCMA perovskites fabricated in this work were found to main‐
+tain a stable crystal structure without any phase changes. The 
+surface morphologies of these perovskites were also observed 
+by SEM. As shown in Fig. 2(b), the representative 
+LCMA‐C0.4A0.4 perovskite had a hierarchical porous structure 
+composed of interconnected small particles. Similar surface 
+microstructures were also observed for the other LCMA sam‐
+Fig. 2. (a) XRD pattern, (b) SEM image, (c) TEM image, and (d) EDX 
+elemental mapping of Ca, Mn and Al distributions for the 
+LCMA‐C0.4A0.4 perovskite. The inset in (c) shows a high magnification 
+local TEM image. 
+Fig. 3. XRD patterns of La1‐xCaxMn0.6Al0.4O3 perovskites with Ca doping 
+levels of 0.2, 0.4, 0.6 and 0.8. 
+Fig. 4. XRD patterns of La0.6Ca0.4Mn1‐yAlyO3 perovskites with Al doping 
+levels of 0.2, 0.4, 0.6 and 0.8. 
+
+
+===== Page 4 =====
+
+1082 
+Lulu Wang et al. / Chinese Journal of Catalysis 38 (2017) 1079–1086 
+ples having different doping levels. TEM was also performed to 
+further confirm the structure and particle size of the 
+LCMA‐C0.4A0.4. In keeping with the SEM results, a porous sur‐
+face 
+structure 
+was 
+observed 
+(Fig. 
+2(c)). 
+The 
+local 
+high‐resolution TEM image include as an inset in Fig. 2(c) 
+shows that the particle size of the LCMA‐C0.4A0.4 was less than 
+50 nm. EDX mapping was employed to determine the elemental 
+distributions in the LCMA perovskites. As shown in Fig. 2(d), 
+homogeneous distributions of the metal cations (Ca, Mn and Al) 
+were evident in the LCMA‐C0.4A0.4 sample. Based on these 
+results, it is apparent that LCMA perovskites with different Ca 
+and Al doping levels were successfully synthesized. 
+3.2.  Thermochemical activity tests 
+The catalytic performance of a perovskite is strongly de‐
+pendent on its composition. Thus, to optimize the catalytic be‐
+havior of these LCMA perovskites during the thermochemical 
+H2O splitting process, we systematically investigated the effects 
+of both the A site dopant Ca and the B site dopant Al through 
+varying their levels over a broad doping range. 
+3.2.1.  Effect of the Ca doping level 
+We first examined the two‐step thermochemical H2O split‐
+ting performance of these materials while varying the Ca dop‐
+ing level from 0.2 to 0.8 at the A sites (samples LCMA‐C0.2A0.4, 
+LCMA‐C0.4A0.4, LCMA‐C0.6A0.4 and LCMA‐C0.8A0.4). During 
+these trials, the Al level at the B sites was fixed at 0.4 based on 
+previously reported results [30]. As shown in Fig. 5(a), differ‐
+ent O2 evolution profiles were obtained during the high tem‐
+perature thermal reduction process (T = 1400 °C). Clearly, in‐
+creasing the Ca doping level improved the O2 evolution per‐
+formance of the LCMA perovskite. As an example, compared 
+with LCMA‐C0.2A0.4, LCMA‐C0.8A0.4 exhibited a lower onset 
+temperature for O2 evolution and showed a significantly higher 
+peak production rate. In these trials, the H2O splitting reaction 
+was carried out at a relatively low temperature of 1000 °C upon 
+introducing the steam/Ar mixture to the reactor system. In 
+contrast to the O2 evolution rate, which increased in proportion 
+to the increases in the Ca doping level, the specimens exhibited 
+different H2 production behaviors during the H2O splitting 
+process. Fig. 5(b) demonstrates that the H2 production profiles 
+of the LCMA perovskites were initially improved as the Ca 
+doping level increased from 0.2 to 0.4. However, further in‐
+creases above 0.6 resulted in reduced H2 generation.  
+The different O2 and H2 evolution characteristics resulting 
+from the thermal reduction and re‐oxidation processes are 
+evident from the final amounts summarized in Fig. 5(c). The O2 
+evolution shows a linear increase as the Ca level increases. 
+Thus, the maximum O2 evolution (419 μmol/g) was achieved 
+using LCMA‐C0.8A0.4, which gave a value much higher than 
+those obtained from the other LCMA perovskites (176, 231, and 
+280 
+μmol/g 
+for 
+LCMA‐C0.2A0.4, 
+LCMA‐C0.4A0.4 
+and 
+LCMA‐C0.6A0.4, respectively). These data demonstrate that 
+ 
+Fig. 5. (a) O2 and (b) H2 production curves, (c) final O2 and H2 production amounts, and (d) re‐oxidation yields of LCMA perovskites with Ca doping 
+levels from 0.2 to 0.8 in a two‐step thermochemical H2O splitting cycle carried out between 1400 and 1000 °C. 
+
+
+===== Page 5 =====
+
+ 
+Lulu Wang et al. / Chinese Journal of Catalysis 38 (2017) 1079–1086 
+1083 
+increasing the extent of Ca doping significantly promotes the O2 
+evolution reaction during the thermal reduction process. In 
+contrast, the H2 production exhibits a different trend, with a 
+parabolic shape. The LCMA‐C0.4A0.4 showed the highest H2 
+production rate (429 μmol/g) relative to those achieved with 
+the LCMA‐C0.2A0.4 (334 μmol/g), LCMA‐C0.6A0.4 (364 
+μmol/g), and LCMA‐C0.8A0.4 (260 μmol/g). To further clarify 
+this anomalous behavior, the re‐oxidation yields of LCMA per‐
+ovskites were calculated based on the extent of O2 recovered 
+after the overall thermochemical H2O splitting cycle. As shown 
+in Fig. 5(d), at Ca doping levels less than 0.4, the O2 evolved 
+during the thermal reduction process could be almost fully 
+recovered. However, the re‐oxidation yields decreased rapidly 
+above this concentration, such that only 30% of the O2 was 
+recovered in the case of LCMA‐C0.8A0.4 after the thermochem‐
+ical H2O splitting. This result explains the poor water splitting 
+reaction thermodynamics observed at doping levels of 0.6 and 
+0.8.  
+Based on the above results, it is evident that higher levels of 
+A site Ca doping within the LCMA perovskites greatly promotes 
+O2 evolution. At the same time, elevated levels of Ca are also 
+significantly detrimental to the reaction thermodynamics of the 
+H2O splitting process, leading to reduced levels of O2 recovery 
+and lower H2 yields. Therefore, a Ca doping level of 0.4 was 
+determined to be the most suitable. 
+3.2.2.  Effect of the Al doping level 
+The extent of Al doping at the B sites in the LCMA may also 
+have a pronounced effect on the thermochemical water split‐
+ting results. Therefore, after determining the optimal A site 
+doping level, the thermochemical behaviors of LCMA perov‐
+skites with Al substitution at the B sites ranging from 0.2 to 0.8 
+(LCMA‐C0.4A0.2, 
+LCMA‐C0.4A0.4, 
+LCMA‐C0.4A0.6 
+and 
+LCMA‐C0.4A0.8, respectively) were systematically investigated. 
+As can be seen from the oxygen release curves presented in Fig. 
+6(a), in contrast to the data obtained when varying the Ca con‐
+tent of the A sites, the O2 evolution of the perovskites is initially 
+improved with increases in the Al doping content, up to a level 
+of 0.4, and then starts to decrease. Similar H2 production pro‐
+files (Fig. 6(b)) were found during the subsequent water split‐
+ting process. According to previous reports, specific Al doping 
+levels at the B sites of perovskites can lower the thermal reduc‐
+tion enthalpy and thus improve the thermochemical perfor‐
+mance [35,36]. However, in the case of LCMA perovskites, Mn is 
+the only element with a variable valence, such that the transi‐
+tion between Mn3+ and Mn4+ is critical to the thermochemical 
+catalytic process. Therefore, the proper tuning of the ratio be‐
+tween Al and Mn at the B sites of the LCMA is important. This 
+can be seen by assessing the overall O2 and H2 production 
+amounts. As shown in Fig. 6(c), both the O2 and H2 rates exhib‐
+ited exactly the same production trend and LCMA‐C0.4A0.4 
+Fig. 6. (a) O2 and (b) H2 production curves, (c) the overall O2 and H2 production amounts, and (d) re‐oxidation yields of La0.6Ca0.4Mn1‐yAlyO3 perov‐
+skites with Al doping levels from 0.2 to 0.8 in a two‐step thermochemical H2O splitting cycle conducted between 1400 and 1000 °C. 
+
+
+===== Page 6 =====
+
+1084 
+Lulu Wang et al. / Chinese Journal of Catalysis 38 (2017) 1079–1086 
+showed the best thermochemical performance (231 μmol/g O2 
+and 429 μmol/g H2), which was much higher than that shown 
+by the other samples (201 and 374, 186 and 349, 126 and 239 
+μmol/g O2 and H2 for LCMA‐C0.4A0.2, LCMA‐C0.4A0.6 and 
+LCMA‐C0.4A0.8, respectively). Furthermore, all the specimens 
+with varied Al doping levels gave high re‐oxidation yields (Fig. 
+6(d)). These data demonstrate that the variation of Al at the B 
+sites of LCMA perovskites has a slight effect on the water split‐
+ting reaction thermodynamics, and that most of the oxygen 
+vacancies are recovered after the overall thermochemical pro‐
+cess.  
+Based on these detailed investigations of the two‐step 
+thermochemical water splitting performances of LCMA perov‐
+skites while tuning both the Ca and Al doping levels at the A 
+and B sites, LCMA‐C0.4A0.4 was confirmed as the most suitable 
+composition. This material exhibited remarkable thermochem‐
+ical solar H2 performance (429 μmol/g). A simple comparison 
+test was carried out between our LCMA‐C0.4A0.4 sample and 
+the current benchmark material CeO2 under the same experi‐
+mental conditions. The H2 production of LCMA‐C0.4A0.4 was 
+found to be almost eight times higher than that achieved by the 
+CeO2 (56 μmol/g, Fig. 7). More importantly, the performance of 
+the LCMA‐C0.4A0.4 was also superior to that of other 
+state‐of‐the‐art perovskite‐type redox catalysts, such as 
+La0.6Sr0.4MnO3 [28] (397 μmol/g) and La0.6Sr0.4Mn0.6Al0.4O3 [30] 
+(307 μmol/g). 
+3.3.  Catalytic stability tests 
+Stability is another critical factor used to assess the 
+long‐term application of redox catalysts to thermochemical 
+solar fuel production. Thus, multiple thermochemical H2O split‐
+ting trials were performed with the same LCMA‐C0.4A0.4 sam‐
+ple between 1400 and 1000 °C. As shown in Fig. 8(a), steady O2 
+and H2 production rates were observed during five consecutive 
+thermochemical cycles. This stability is also evident from the 
+summarized O2 and H2 production amounts per cycle (Fig. 
+8(b)). Moreover, the molar ratio of H2 to O2 throughout these 
+trials was reasonably to the theoretical value of 2:1, indicating 
+that almost all the oxygen vacancies generated during the 
+thermal reduction process were recovered during the 
+re‐oxidation. The XRD and SEM assessments also demonstrate 
+Fig. 7. (a) O2 evolution and (b) H2 production curves, and (c) summary of 
+the results obtained with CeO2 during two‐step thermochemical H2O split‐
+ting between 1400 and 1000 °C. 
+Fig. 8. (a) Five consecutive O2 and H2 production profiles obtained from 
+LCMA‐C0.4A0.4 and (b) O2 and H2 yields and their corresponding ratios
+as functions of cycle number. 
+
+
+===== Page 7 =====
+
+ 
+Lulu Wang et al. / Chinese Journal of Catalysis 38 (2017) 1079–1086 
+1085 
+that no significant changes in the crystal structure or surface 
+morphology (Fig. 9) took place during the thermochemical 
+cycling. Thus, we can conclude that LCMA‐C0.4A0.4 maintains 
+its superior catalytic stability throughout thermochemical cy‐
+cling and therefore has significant potential for practical appli‐
+cations in thermochemical solar fuel production. 
+4.  Conclusions 
+A systematic investigation of La1‐xCaxMn1‐yAlyO3 perovskites 
+with regard to their thermochemical H2O splitting performance 
+was carried out at temperatures of 1400 and 1000 °C. To opti‐
+mize the thermochemical redox behavior of these materials, the 
+substitutions of both the A site dopant Ca and the B site dopant 
+Al were varied over a broad range (from 0.2 to 0.8). 
+La0.6Ca0.4Mn0.6Al0.4O3 was recognized as the optimal composi‐
+tion among the various perovskites, and generated a H2 pro‐
+duction rate (429 μmol/g) that was significantly higher (by 
+approximately eight times) than that of a CeO2 catalysts under 
+the same experimental conditions. This same material showed 
+outstanding cyclic stability during replicate thermochemical 
+H2O splitting trials and thus is anticipated to have future 
+long‐term practical applications. 
+References 
+[1] A. Steinfeld, Sol. Energy, 2005, 78, 603–615. 
+[2] J. Turner, G. Sverdrup, M. K. Mann, P. C. Maness, B. Kroposki, M. 
+Ghirardi, R. J. Evans, D. Blake, Int. J. Energy Res., 2008, 32, 
+379–407. 
+[3] H. Q. Zheng, X. B. Wang, J. Y. Hu, J. A. Zhao, C. X. Du, Y. T. Fan, H. W. 
+Hou, Sol. Energy, 2016, 132, 373–385. 
+[4] J. Zhang, H. P. Ma and Z. F. Liu, Appl. Catal. B, 2017, 201, 84–91. 
+[5] S. Z. Baykara, Int. J. Hydrogen Energy, 2004, 29, 1451–1458. 
+[6] Y. Tamaura, A. Steinfeld, P. Kuhn, K. Ehrensberger, Energy, 1995, 
+20, 325–330. 
+[7] T. Kodama, N. Gokon, Chem. Rev., 2007, 107, 4048–4077. 
+ 
+Graphical Abstract 
+Chin. J. Catal., 2017, 38: 1079–1086   doi: 10.1016/S1872‐2067(17)62820‐1
+La1‐xCaxMn1‐yAlyO3 perovskites as efficient catalysts for two‐step thermochemical water splitting in conjunction with exceptional 
+hydrogen yields 
+Lulu Wang, Mohammad Al‐Mamun, Porun Liu, Yun Wang, Huagui Yang, Huijun Zhao * 
+Griffith University, Australia; East China University of Science and Technology, China; Institute of Solid State Physics, CAS, China 
+ 
+Remarkable H2 yields were obtained when using the La1‐xCaxMn1‐yAlyO3 perovskite series as efficient thermochemical water splitting cat‐
+alysts following optimization of the A and B site doping levels. 
+ 
+Fig. 9. (a) XRD pattern and (b) SEM image of LCMA‐C0.4A0.4 after two‐step thermochemical H2O splitting cycling between 1400 and 1000 °C. 
+
+
+===== Page 8 =====
+
+1086 
+Lulu Wang et al. / Chinese Journal of Catalysis 38 (2017) 1079–1086 
+[8] J. E. Miller, A. H. McDaniel and M. D. Allendorf, Adv. Energy Mater., 
+2014, 4, 1300469/1–1300469/19. 
+[9] A. Steinfeld, Int. J. Hydrogen Energy, 2002, 27, 611–619. 
+[10] K. Wegner, H. C. Ly, R. J. Weiss, S. E. Pratsinis, A. Steinfeld, Int. J. 
+Hydrogen Energy, 2006, 31, 55–61. 
+[11] P. G. Loutzenhiser, A. Meier, A. Steinfeld, Materials, 2010, 3, 
+4922–4938. 
+[12] T. Kodama, Y. Nakamuro, T. Mizuno, J. Sol. Energy Eng., 2006, 128, 
+3–7. 
+[13] P. Charvin, S. Abanades, G. Flamant, F. Lemort, Energy, 2007, 32, 
+1124–1133. 
+[14] M. E. Gálvez, P. G. Loutzenhiser, I. Hischier, A. Steinfeld, Energy 
+Fuels, 2008, 22, 3544–3550. 
+[15] N. Gokon, S. Takahashi, H. Yamamoto, T. Kodama, Int. J. Hydrogen 
+Energy, 2008, 33, 2189–2199. 
+[16] N. Gokon, H. Murayama, A. Nagasaki, T. Kodama, Sol. Energy, 
+2009, 83, 527–537. 
+[17] T. Kodama, N. Gokon, R. Yamamoto, Sol. Energy, 2008, 82, 73–79. 
+[18] W. C. Chueh, C. Falter, M. Abbott, D. Scipio, P. Furler, S. M. Haile, A. 
+Steinfeld, Science, 2010, 330, 1797–1801. 
+[19] P. Furler, J. Scheffe, M. Gorbar, L. Moes, U. Vogt, A. Steinfeld, Energy 
+Fuels, 2012, 26, 7051–7059. 
+[20] W. C. Chueh, S. M. Haile, ChemSusChem, 2009, 2, 735–739. 
+[21] J. R. Scheffe, R. Jacot, G. R. Patzke, A. Steinfeld, J. Phys. Chem. C, 
+2013, 117, 24104–24114. 
+[22] A. Le Gal, S. Abanades, J. Phys. Chem. C, 2012, 116, 13516–13523. 
+[23] A. Le Gal, S. Abanades, N. Bion, T. Le Mercier, V. Harlé, Energy 
+Fuels, 2013, 27, 6068–6078. 
+[24] V. Y. Zenou, D. E. Fowler, R. Gautier, S. A. Barnett, K. R. Poep‐
+pelmeier, L. D. Marks, Solid State Ion., 2016, 296, 90–105. 
+[25] X. M. Xu, Y. B. Chen, W. Zhou, Z. H. Zhu, C. Su, M. L. Liu, Z. P. Shao, 
+Adv. Mater., 2016, 28, 6442–6448. 
+[26] L. L. Gu, M. M. Tavakoli, D. Q. Zhang, Q. P. Zhang, A. Waleed, Y. Q. 
+Xiao, K. H. Tsui, Y. J. Lin, L. Liao, J. N. Wang, Z. Y. Fan, Adv. Mater., 
+2016, 28, 9657–9657. 
+[27] J. R. Scheffe, D. Weibel, A. Steinfeld, Energy & Fuels, 2013, 27, 
+4250–4257. 
+[28] C. K. Yang, Y. Yamazaki, A. Aydin, S. M. Haile, J. Mater. Chem. A, 
+2014, 2, 13612–13623. 
+[29] A. Demont, S. Abanades, RSC Adv., 2014, 4, 54885–54891. 
+[30] A. H. McDaniel, E. C. Miller, D. Arifin, A. Ambrosini, E. N. Coker, R. 
+O'Hayre, W. C. Chueh, J. H. Tong, Energy Environ. Sci., 2013, 6, 
+2424–2428. 
+[31] A. H. McDaniel, A. Ambrosini, E. N. Coker, J. E. Miller, W. C. Chueh, 
+R. O’Hayre, J. H. Tong, Energy Proc., 2014, 49, 2009–2018. 
+[32] S. Dey, B. S. Naidu, A. Govindaraj, C. N. R. Rao, Phys. Chem. Chem. 
+Phys., 2015, 17, 122–125. 
+[33] A. H. Bork, M. Kubicek, M. Struzik, J. L. M. Rupp, J. Mater. Chem. A, 
+2015, 3, 15546–15557. 
+[34] S. Dey, B. S. Naidu, C. N. R. Rao, Chem. Eur. J., 2015, 21, 7077–7081. 
+[35] S. Dey, B. S. Naidu, C. N. R. Rao, Dalton Trans., 2016, 45, 
+2430–2435. 
+[36] M. E. Galvez, R. Jacot, J. Scheffe, T. Cooper, G. Patzke, A. Steinfeld, 
+Phys. Chem. Chem. Phys., 2015, 17, 6629–6634. 
+[37] T. Cooper, J. R. Scheffe, M. E. Galvez, R. Jacot, G. Patzke, A. Steinfeld, 
+Energy Technol., 2015, 3, 1130–1142. 
+[38] Y. S. Han, H. G. Kim, J. Power Sources, 2000, 88, 161–168. 
+[39] Y. Hao, C. K. Yang, S. M. Haile, Chem. Mater., 2014, 26, 6073–6082. 
+[40] M. Takacs, M. Hoes, M. Caduff, T. Cooper, J. R. Scheffe, A. Steinfeld, 
+Acta Mater., 2016, 103, 700–710.
+钙铝掺杂镧锰钙钛矿高效催化剂用于两步法热化学分解水取得出色产氢表现 
+王路路a, Mohammad AL-MAMUN a, 刘珀润a, 王  云a, 杨化桂b, 赵惠军a,c,* 
+a格里菲斯大学清洁环境和能源中心, 昆士兰4222, 澳大利亚 
+b华东理工大学材料科学与工程学院, 上海200237, 中国 
+c中国科学院合肥固体物理研究所, 安徽合肥230031, 中国 
+摘要: 太阳能热化学分解水是一种高效生产清洁和可再生氢能源的方法.  由于出色的催化活性和太阳能燃料生产能力, 钙
+钛矿型的催化剂在热化学领域引起了强烈关注.  我们采用改良的Pechini法合成了一系列钙铝掺杂的镧锰钙钛矿并系统考
+察了其在两步法热化学分解水中的产氢表现.  为了优化热化学催化性能, 我们进行了镧锰钙钛矿A, B位上钙和铝的掺杂量
+(从0.2到0.8)的详细考察.  通过调整掺杂比例, 得到了一种极其高效的钙钛矿催化剂La0.6Ca0.4Mn0.6Al0.4O3.  当两步法热化学
+分解水在1400和1000 °C之间, La0.6Ca0.4Mn0.6Al0.4O3取得了429 μmol/g的出色产氢表现, 比同等条件下基准催化剂氧化铈产
+氢结果高出8倍.  与此同时, 钙铝掺杂镧锰钙钛矿在两步法热化学循环测试中展现出极其稳定的催化活性.  因此, 这种新颖
+的钙铝掺杂镧锰钙钛矿具备巨大的潜质用于未来热化学太阳能燃料的实际生产.  
+关键词: 两步法热化学; 水分解; 太阳能燃料; 钙钛矿型氧化还原催化剂; 产氢 
+收稿日期: 2017-02-17. 接受日期: 2017-03-19. 出版日期: 2017-06-05. 
+*通讯联系人. 电话: +61-7-55528261; 传真: +61-7-55528067; 电子信箱: h.zhao@griffith.edu.au 
+基金来源: 澳大利亚科学研究基金(FT120100913); 国家自然科学基金(51372248, 51432009). 
+本文的英文电子版由Elsevier出版社在ScienceDirect上出版(http://www.sciencedirect.com/science/journal/18722067).  
+ 

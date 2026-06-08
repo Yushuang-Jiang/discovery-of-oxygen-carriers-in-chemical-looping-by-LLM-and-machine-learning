@@ -1,0 +1,1174 @@
+
+
+===== Page 1 =====
+
+ENERGY MATERIALS
+Notable hydrogen production on LaxCa12xCoO3
+perovskites via two-step thermochemical water
+splitting
+Lulu Wang1
+, Mohammad Al-Mamun1
+, Porun Liu1
+, Yun Wang1
+, Hua Gui Yang2
+,
+and Huijun Zhao1,3,*
+1Centre for Clean Environment and Energy, Gold Coast Campus, Grifﬁth University, Southport, QLD 4222, Australia
+2Key Laboratory for Ultraﬁne Materials of Ministry of Education, School of Materials Science and Engineering, East China University
+of Science and Technology, Shanghai 200237, China
+3Centre for Environmental and Energy Nanomaterials, Institute of Solid State Physics, Chinese Academy of Sciences, Hefei 230031,
+China
+Received: 24 October 2017
+Accepted: 4 January 2018
+Published online:
+16 January 2018
+ Springer Science+Business
+Media, LLC, part of Springer
+Nature 2018
+ABSTRACT
+High-performance thermochemical water splitting catalyst is the key in solar-dri-
+ven H2 production for the development of sustainable and clean energy technology.
+Perovskite oxides have been considered promising redox catalysts for two-step
+thermochemical H2O splitting cycles due to their remarkable oxygen exchange
+capacity at low thermal heating temperatures. This study is the ﬁrst to investigate
+perovskite series of La1-xCaxCoO3 for two-step thermochemical H2O splitting
+cycles. The Ca doping contents in La1-xCaxCoO3 perovskites showed a signiﬁcant
+effect on the O2 and H2 production performances. Increasing the Ca doping content
+has greatly increased O2 evolution during the thermal reduction process. However,
+high Ca dopant content signiﬁcantly weakened the reaction thermodynamics of the
+subsequent H2O splitting and led to lower re-oxidation yields. After tuning the Ca
+doping level from 0.2 to 0.8, La0.6Ca0.4CoO3 was identiﬁed as the best trade-off
+among the tested La1-xCaxCoO3 perovskites. The thermal reduction and water
+splitting temperatures were also systematically investigated to optimize the ther-
+mochemical operational conditions. La0.6Ca0.4CoO3 showed maximum H2 pro-
+duction of 587 lmol g-1 when the two-step thermochemical H2O splitting carried
+out between 1300 and 900 C, eighteen times higher than that of CeO2 under the
+same experimental condition. More importantly, La0.6Ca0.4CoO3 also exhibited
+fairly good catalytic stability during the thermochemical cycling test and has strong
+potential for long-term applications.
+Lulu Wang and Mohammad Al-Mamun have contributed equally to this work.
+Address correspondence to E-mail: h.zhao@grifﬁth.edu.au
+https://doi.org/10.1007/s10853-018-2004-2
+J Mater Sci (2018) 53:6796–6806
+Energy materials
+
+
+===== Page 2 =====
+
+Introduction
+Developing clean and sustainable carbon–neutral
+energy sources is critical to resolving the global
+energy crisis and environmental pollution. Hydrogen
+(H2) has been considering as a promising carbon–
+neutral alternative fuel due to its high energy density
+and the cleanliness of the by-product (H2O) [1, 2]. The
+current primary routes to produce H2, e.g., steam
+reforming method [3, 4], however, are not green
+processes, and carbon dioxide (CO2) is also generated
+as a by-product. Therefore, signiﬁcant effort has been
+devoted in developing alternative technologies to
+satisfy the growing demand for clean and cost-efﬁ-
+cient H2 sources. Among the variety of clean and
+renewable H2 production options, such as electrolysis
+[5–8] and photocatalysis [9, 10], the solar-driven
+thermochemical route has attracted signiﬁcant atten-
+tion due to its potentially high solar energy conver-
+sion efﬁciency [11, 12]. This approach is based on a
+two-step mechanism utilizing a metal oxide (MOx)-
+type catalyst to dissociate H2O into H2. As shown in
+Fig. 1, the ﬁrst step is a high-temperature endother-
+mic thermal reduction step through which the MOx
+releases some of its lattice oxygen atoms and trans-
+forms
+into
+oxygen-deﬁcient
+species
+denoted
+as
+MOx-d.
+The
+second
+step
+is
+a
+low-temperature
+exothermic
+re-oxidation
+step
+where
+the
+MOx-d
+recovers to its original saturated state denoted as
+MOx by reacting with H2O molecules and producing
+H2.
+So far, numerous metal oxides were studied as
+active catalysts for two-step thermochemical solar H2
+production, which generally being divided into stoi-
+chiometric
+and
+nonstoichiometric
+categories.
+Stoichiometric type of catalysts such as ZnO [13, 14],
+SnO2 [15, 16] and Fe3O4 [17, 18] generally experience
+distinct
+compounds
+with
+stoichiometric
+formula
+units during the thermal reduction and re-oxidation
+steps, resulting in high O2 exchange capacity and
+theoretical energy conversion efﬁciency. However,
+due to the phase change and physical state during the
+thermochemical process, these stoichiometric-type
+catalysts suffer from serious sintering and slow
+reaction kinetics issues [19, 20]. In contrast, nonstoi-
+chiometric-type catalysts such as CeO2 [21, 22] utilize
+an oxygen vacancy formation mechanism where the
+oxygen content varies continuously between the
+thermal reduction and re-oxidation steps and thus
+avoid the phase change during the whole thermo-
+chemical process [23, 24]. As a result, several bene-
+ﬁcial aspects including the ease of thermochemical
+operation, rapid reaction kinetics and stable catalytic
+activity are obtained. However, the high thermal
+heating temperature ([ 1500 C) and relatively small
+oxygen exchange capacity strongly limit the further
+application of the state-of-the-art CeO2 catalyst in the
+ﬁeld
+of
+thermochemical
+solar
+fuel
+production.
+Therefore, the searching of novel nonstoichiometric-
+type catalysts with higher oxygen exchange capacity
+at low thermal heating temperature is of primary
+interest in developing highly efﬁcient catalyst for
+two-step thermochemical water splitting.
+Perovskite oxides (ABO3) are a promising class of
+catalysts possessing unique thermal stability, good
+ion conductivity, redox capacity and have been
+widely employed in the ﬁelds like solid oxide fuel
+cells and electrolysis [25, 26]. Considering the tunable
+structural ﬂexibility and the wide range of cationic
+substitutions, perovskite oxides have been proposed
+as promising alternatives to CeO2 with the potential
+of achieving better oxygen exchange capacity at rel-
+atively low temperature. The ﬁrst perovskite series of
+LaxSr1-xMnO3 was investigated for two-step ther-
+mochemical
+water
+splitting
+purpose,
+exhibiting
+higher oxygen exchange capacity, and the theoretical
+energy conversion efﬁciency was comparable with
+that of the state-of-the-art CeO2 [27]. Further detailed
+thermodynamic
+and kinetic assessments on Lax
+Sr1-xMnO3 perovskites showed that the solar H2
+yields can be increased monotonically with the Sr
+doping content from the range of 0.1–0.4 [28]. As a
+result, a remarkable H2 production of 9 mL g-1 was
+achieved by La0.6Sr0.4MnO3 when the thermochemi-
+cal process was operated between 1400 and 800 C.
+Figure 1 Schematic illustration of a two-step thermochemical
+water splitting process including a high-temperature endothermic
+thermal reduction step and a low-temperature exothermic re-
+oxidation step.
+J Mater Sci (2018) 53:6796–6806
+6797
+
+
+===== Page 3 =====
+
+Another perovskite series LaxSr1-xMn1-yAlyO3 also
+showed
+efﬁcient
+thermochemical
+water
+splitting
+ability with fast reaction kinetics and remarkable
+solar fuel production yields [29, 30]. With the help of
+density
+functional
+theory
+(DFT)
+calculation,
+the
+reduction
+enthalpy
+of
+LaxSr1-xMn1-yAlyO3
+per-
+ovskites was proven to be properly tuned through
+the Ca dopant level and follow into the suitable range
+of efﬁcient thermochemical catalysts [31]. Later on,
+some other perovskites including La1-xCaxMnO3
+[32, 33], La0.6Sr0.4Cr0.8Co0.2O3 [34], Y0.5Sr0.5MnO3 [35]
+and La0.6Sr0.4Mn0.95Sc0.05O3 [36] also exhibited the
+feasibility for being effective catalysts in thermo-
+chemical solar fuel production.
+Currently, the developed perovskite-type thermo-
+chemical catalysts mainly focused on the Mn-con-
+tained perovskites. As another important perovskite
+analogy, Co-contained perovskites such as La1-x
+CaxCoO3 also proved impressive oxygen conductiv-
+ity and exchange capacity [37, 38]. However, the
+employment of La1-xCaxCoO3 perovskites for two-
+step thermochemical water splitting cycles has not
+been conducted in the past. In this study, we pre-
+pared a series of La1-xCaxCoO3 perovskites through a
+modiﬁed Pechini method and used as redox catalysts
+for thermochemical solar H2 production for the ﬁrst
+time. To optimize the catalytic behavior, the Ca
+doping content, thermal reduction temperatures and
+re-oxidation
+temperatures
+were
+systematically
+investigated. Consequently, La0.6Ca0.4CoO3 showed
+remarkable and stable H2 production capacity with
+two-step thermochemical water splitting operating
+between 1300 and 900 C.
+Materials and methods
+Chemicals
+La(NO3)36H2O,
+Ca(NO3)24H2O,
+Co(NO3)26H2O,
+CeO2, citric acid and ethylene glycol were purchased
+from Sigma-Aldrich. All chemicals were used as
+received without any further puriﬁcation.
+Perovskite oxides synthesis
+The La0.6Ca0.4CoO3 perovskite oxides were synthe-
+sized by a modiﬁed Pechini method [39, 40]. Stoi-
+chiometric amounts of nitrate precursors, including
+La(NO3)36H2O,
+Ca(NO3)24H2O
+and
+Co(NO3)2
+6H2O, were dissolved in deionized water and heated
+at 70 C with continuous stirring. Citric acid (citric
+acid: the metal cations molar ratio = 1:1.5) was then
+added to the solution, and the molar ratio of citric
+acid to all metal cations was 1.5:1. After 10 min,
+ethylene glycol (ethylene glycol/citric acid molar
+ratio = 1:1) was added to the above mixture and
+heated at 90 C until a brownish gel was formed. The
+collected gel was transferred to an electric oven and
+kept for 12 h at 200 C to obtain a resin. The resin was
+then ground evenly with a mortar and pestle. The
+ﬁnal La0.6Ca0.4CoO3 perovskite oxides were prepared
+through calcining the resin at 1300 C for 12 h to
+remove any remaining organics or nitrates.
+Characterization
+To observe the bulk crystal structure, X-ray diffrac-
+tion (XRD) patterns of the samples were collected
+with a Bruker D8 X-ray diffractometer operated at
+40 kV with the current of 25 mA using a Cu Ka
+radiation. The measurements of 2h symmetrical scans
+were carried out in the range of 20–80 with a step
+size of 0.02 and a scanning rate of 2 min-1,
+respectively. Phase identiﬁcation was conducted by
+comparing
+with
+the
+standard
+Inorganic
+Crystal
+Structure Database (ICSD). The secondary electron
+microscopy (SEM) measurements of the prepared
+perovskite samples were investigated by JSM-7100F.
+The voltage and current of the electron beam were
+5 kV and 10 mA, respectively. The energy-dispersive
+X-ray spectroscopy (EDX) measurements were also
+conducted using JSM-7100F under an electron beam
+voltage and current of 15 kV and 20 mA, respec-
+tively. The transmission electron microscope (TEM)
+observations were conducted using Philips Tecnai
+F20 with an accelerating voltage of 200 kV.
+Two-step thermochemical H2O splitting test
+The two-step thermochemical H2O splitting test was
+carried out in a home-made ﬁxed bed reactor [41, 42].
+The prepared redox sample was then packed at the
+center of an alumina tubular reactor coupled within a
+high-temperature
+programmable
+electric
+furnace
+(MTI,
+KSL-1800X-S60).
+Ar
+(ultra-high
+pur-
+ity * 99.99%) was used as the carrier gas, and the
+ﬂow rate was controlled by a mass ﬂow controller
+(Alicat Scientiﬁc). The thermal reduction step was
+6798
+J Mater Sci (2018) 53:6796–6806
+
+
+===== Page 4 =====
+
+carried out by heating the perovskite sample to a
+certain high temperature (1300–1600 C) and held at
+that temperature for 1 h under continuous Ar ﬂow
+(200 sccm, oxygen partial pressure was * 20 ppm).
+The temperature was then allowed to decrease to a
+ﬁxed value (700–1100 C) for H2O splitting. The
+temperature decrease and increase rates were ﬁxed at
+10 C min-1. The water was introduced into the
+chamber by a water pump (Easypump, BT100N),
+then vaporized and mixed with Ar gas. Various
+water vapor concentrations ranging from 20 to 50%
+were introduced into the re-oxidation chamber to
+realize the effect of water vapor concentration on re-
+oxidation performance of LCC perovskite sample. As
+shown in Fig. S1 [Electronic supplementary material
+(ESM)], the H2 production was found to be signiﬁ-
+cantly increased when the water concentrations were
+raised from 20 to 40%. However, a decreased H2
+production was observed at the water vapor con-
+centration of 50%. Based on this observation, 40%
+water vapor concentration was chosen throughout
+the all experiments conducted in this study. The
+whole H2O splitting process was conducted for 1 h to
+complete the re-oxidation process. During the ther-
+mal reduction and H2O splitting processes, the pro-
+duced O2 and H2 were detected by the online mass
+spectrometer (MS, Omni Star GSD 320). For quanti-
+tative measurement of evolved gas, the ion current
+signal of the MS result was calibrated by the standard
+O2 and H2 gases.
+Results and discussion
+Structural characteristics
+At ﬁrst, La1-xCaxCoO3 (LCC-x) perovskite series with
+various Ca doping content (x = 0.2, 0.4, 0.6, 0.8;
+labeled as LCC-0.2, LCC-0.4, LCC-0.6, LCC-0.8) were
+synthesized through a modiﬁed Pechini method. The
+crystal structure, surface morphology and cation
+distribution of fabricated LCC-x perovskites were
+comprehensively analyzed by XRD, SEM, TEM and
+EDX techniques.
+XRD
+patterns
+of
+the
+freshly
+prepared
+LCC-
+x (x = 0.2, 0.4, 0.6, 0.8) perovskites are displayed in
+Fig. 2a. Consistent with the literature [43, 44], this set
+of Ca doped lanthanum cobalt catalysts adopts a
+typical rhombohedral perovskite structure (JCPDS-
+36-1389) and no impurities were detected. The main
+peak (110) at about 33 is magniﬁed in Fig. 2b. Upon
+increasing the doping content of Ca in LCC-x per-
+ovskites, a noticeable shift of the main peak toward
+higher 2h angles was observed, in line with the
+expected decrease in lattice parameters due to the
+partial replacement of La3? (ion radii 1.36 A˚ ) with a
+smaller Ca2? (ion radii 1.34 A˚ ).
+The surface morphology of LCC-x perovskites was
+observed by scanning electron microscopy (SEM). As
+shown in Fig. 3a, an irregular porous structure
+arranged with many small particles was observed for
+the representative sample LCC-0.4. Under high res-
+olution (Fig. 3b), we can determine that the particle
+sizes were ca. 50–80 nm and numerous pore arrays
+were formed within the nanostructure. Similar sur-
+face structures were observed in the other LCC-
+x based perovskite samples (Fig. S2 in the ESM). The
+porous structure and nano-sized particles of LCC-
+x perovskites might be beneﬁcial for the gas–solid
+reaction during the thermochemical solar fuel pro-
+duction process, leading to rapid reactants trans-
+portation and fast reaction kinetics. Figure 3c shows
+the TEM image of LCC-0.4, which further conﬁrms
+the porous structure formed with nano-sized parti-
+cles. The elemental distribution within LCC-0.4 was
+measured by EDX mapping (Fig. 3d) which demon-
+strates the homogeneous cationic distributions of La,
+Ca and Co in LCMO-0.4 perovskite sample.
+Two-step thermochemical H2O splitting
+activity test
+The thermochemical activity test of LCC-x per-
+ovskites was carried out using a home-made ﬁxed
+30
+32
+34
+20
+30
+40
+50
+60
+70
+80
+(310)
+(300)
+(220)
+(211)
+(210)
+(200)
+(111)
+(110)
+LCC-0.2
+LCC-0.4
+LCC-0.6
+LCC-0.8
+Intensity (a.u.)
+2 Theta (degree)
+(100)
+(a) 
+(b)
+Figure 2 a XRD patterns of LCC-x (x = 0.2, 0.4, 0.6, 0.8)
+perovskites; b magniﬁed view of the narrow 2h region (30–35)
+shows a signiﬁcant shift of main diffraction peak due to the
+distinct radii of doped Ca ions.
+J Mater Sci (2018) 53:6796–6806
+6799
+
+
+===== Page 5 =====
+
+bed reactor. To optimize the catalytic behavior during
+the thermochemical process, several critical factors,
+such as Ca doping content, thermal reduction tem-
+perature and re-oxidation temperature, were sys-
+tematically investigated.
+Effect of Ca doping content
+The contents of doped cations in perovskite oxides
+can be tuned within a wide range and permit sig-
+niﬁcant structural ﬂexibility. In particular, the doping
+content of cations on the A site of perovskite oxides
+played an essential role in modifying the catalytic
+activity [45, 46]. Other recent reports further conﬁrm
+the importance of A site cation doping content in
+perovskite-type catalysts for thermochemical solar
+fuel production performance [28, 33, 47]. Therefore,
+our study examined the thermochemical perfor-
+mances of LCC-x perovskites with A site dopant Ca
+varying from 0.2 to 0.8.
+LCC-x perovskites were thermally reduced at
+1300 C and held for 1 h to check the O2 evolution
+behavior. As shown in Fig. 4a, improved O2 evolu-
+tion proﬁles were achieved with increasing Ca dop-
+ing content in the LCC-x perovskites. As the Ca
+doping content increases from 0.2 to 0.8 in LCC-
+x perovskites, it becomes easier to initiate O2 evolu-
+tion at lower onset temperature, while the O2 evolu-
+tion peak rate showed an obvious rising trend.
+Therefore,
+the
+ﬁnal
+summarized
+O2
+evolution
+amounts signiﬁcantly increased from 715 lmol g-1
+with
+LCC-0.2
+to
+1213 lmol g-1
+with
+LCC-0.8
+(Fig. 4c). However, the H2 production performances
+of LCC-x perovskites in the second H2O splitting step
+were not consistent with the O2 evolution trend in the
+ﬁrst thermal reduction step. As shown in Fig. 4b, the
+H2 production rate of LCC-x perovskites improved
+with Ca doping content increase from 0.2 to 0.4 and
+then decreased rapidly at higher Ca levels. Conse-
+quently,
+as
+summarized
+in
+Fig. 4c,
+LCC-0.4
+(587 lmol g-1) had the highest H2 production among
+the tested LCC-x perovskites, much higher than that
+of LCC-0.2 (496 lmol g-1), LCC-0.6 (472 lmol g-1)
+and LCC-0.8 (204 lmol g-1). In short, increasing the
+Ca doping content of LCC perovskites signiﬁcantly
+increases the O2 evolution performance; however, the
+excessive Ca doping content weakened the reaction
+kinetics of H2O splitting and resulted in decreased H2
+production. To gain further insight into this anoma-
+lous behavior, we calculated the re-oxidation yield (in
+Figure 3 a, b SEM images; c TEM image and d EDX elemental mapping of La, Ca and Co distribution of the LCC-0.4 perovskite
+sample.
+6800
+J Mater Sci (2018) 53:6796–6806
+
+
+===== Page 6 =====
+
+percentage) of LCC-x perovskites based on the
+recovery extent of O2 after two-step thermochemical
+H2O splitting cycle. As shown in Fig. 4d, the re-oxi-
+dation yield showed a slightly increasing trend when
+Ca doping content increased from 0.2 to 0.4 and then
+decreased rapidly. The lower re-oxidation yield of
+LCC-x perovskites with high Ca doping content (0.6
+and 0.8) suggests undesired reaction pathways for H2
+production. Therefore, based on the Ca doping con-
+tent investigation, LCC-0.4 is recognized as the best
+trade-off among the tested LCC-x perovskites for
+two-step thermochemical H2O splitting cycles.
+Effect of thermal reduction temperature
+The thermochemical performances of the redox cat-
+alysts are critically dependent on the applied thermal
+reduction temperatures [48]. After optimizing the Ca
+doping content in LCC-x perovskites, the thermal
+reduction temperature was investigated to optimize
+the operational conditions for LCC-0.4 perovskite
+samples. Figure 5a shows the O2 evolution proﬁles of
+LCC-0.4 thermally treated at various thermal reduc-
+tion temperatures. The O2 evolution performance
+improved rapidly when the temperature increased
+from 1100 to 1400 C during the thermal reduction
+process. As summarized in Fig. 5c, the ﬁnal O2 evo-
+lution
+amounts
+of
+LCC-0.4
+are
+501 lmol g-1
+(1100 C),
+658 lmol g-1
+(1200 C),
+824 lmol g-1
+(1300 C) and 1082 lmol g-1 (1400 C), respectively.
+The subsequent H2O splitting reaction of LCC-0.4
+perovskite sample thermally reduced at various
+temperatures was carried out at 900 C. As shown in
+Fig. 5b, the H2 production performances show a
+similar trend to the O2 evolution performances of
+LCC-0.4 when the thermal reduction temperature
+increased from 1100 to 1300 C. However, the H2
+production of LCC-0.4 shows a signiﬁcant decreasing
+trend
+when
+the
+thermal
+reduction
+temperature
+reached 1400 C.
+The surface morphology of LCC-0.4 after thermal
+reduction at different temperatures of 1100–1400 C
+was also observed by SEM. As shown in Fig. 6, LCC-
+0.4 retains its porous structure with the increase in
+0
+1000
+2000
+3000
+0.0
+0.2
+0.4
+0.6
+ LCC-0.2
+ LCC-0.4
+ LCC-0.6
+ LCC-0.8
+H2 production rate (μmol g
+-1 s
+-1)
+Time (s)
+0
+1000
+2000
+3000
+4000
+5000
+6000
+800
+900
+1000
+1100
+1200
+1300
+O2 evolution rate (μmol g
+-1 s
+-1)
+Temperature (°C)
+Time (s)
+ LCC-0.2
+ LCC-0.4
+ LCC-0.6
+ LCC-0.8
+0.0
+0.3
+0.6
+0.9
+1.2
+0.2
+0.4
+0.6
+0.8
+0
+10
+20
+30
+40
+Re-oxidation yield (%)
+Ca doping level
+0.2
+0.4
+0.6
+0.8
+300
+600
+900
+1200
+O2 and H2 production (μmol g
+-1)
+ O2
+ H2
+Ca doping level
+(a) 
+(b)
+(c) 
+(d)
+Figure 4 a O2 evolution; b H2 production curves; c summarized
+O2 and H2 production amounts and d re-oxidation yields of LCC-
+x perovskites with the Ca doping content varying from 0.2 to 0.8 in
+two-step thermochemical H2O splitting operated between 1300
+and 900 C.
+J Mater Sci (2018) 53:6796–6806
+6801
+
+
+===== Page 7 =====
+
+thermal reduction temperature up to 1300 C. How-
+ever, above 1300 C, LCC-0.4 suffered serious sin-
+tering and aggregation, consistent with the sluggish
+and signiﬁcantly decreased rate of H2 production
+(Fig. 5b). Therefore, 1300 C was selected as the most
+suitable thermal reduction temperature for LCC-0.4.
+Effect of re-oxidation temperature
+Re-oxidation temperature is another critical factor for
+two-step thermochemical H2O splitting cycles. A
+series of thermochemical measurements with differ-
+ent re-oxidation temperatures (700–1000 C) were
+carried out to ensure a reasonable gap between the
+applied thermal reduction temperature (1300 C) and
+the re-oxidation temperature and maintain compa-
+rable H2O splitting reaction kinetics. The various H2
+production curves (Fig. 7a) and summarized pro-
+duction amounts of LCC-0.4 are presented in Fig. 7b.
+The H2 production trend showed a typical convex
+parabolic shape with the increase in re-oxidation
+temperature (Fig. 7b). The maximum H2 production
+amount with a steep rate was observed at the re-ox-
+idation temperature of 900 C. Thus, we can conclude
+that 900 C is the most suitable re-oxidation temper-
+ature for LCC-0.4 to carry out water splitting under
+the experimental conditions. More importantly, the
+H2 production of LCC-0.4 (587 lmol g-1) is 18 times
+higher than that of CeO2 (32 lmol g-1, Fig. S3 in the
+ESM) when the thermochemical splitting cycle oper-
+ated between 1300 and 900 C.
+Catalytic stability test
+To test the running stability of LCC-0.4, ﬁve consec-
+utive H2O splitting cycles were conducted between
+1300 and 900 C. As shown in Fig. 8a, a limited re-
+oxidation yield of LCC-0.4 was detected at the end of
+the ﬁrst cycle, which may be due to structural
+decomposition during the thermochemical process.
+As shown in Fig. S4 in the ESM, some CoO impurities
+were
+detected
+in
+the
+XRD
+result
+of
+LCC-0.4.
+0
+1000
+2000
+3000
+4000
+5000
+6000
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+O2 evolution rate (μmol g
+-1 s
+-1)
+Time (s)
+ 1100 °C 
+ 1200 °C 
+ 1300 °C 
+ 1400 °C 
+0
+500
+1000
+1500
+2000
+2500
+3000
+3500
+0.0
+0.2
+0.4
+0.6
+ 1100 °C 
+ 1200 °C 
+ 1300 °C 
+ 1400 °C 
+H2 production rate (μmol g
+-1 s
+-1)
+Time (s)
+300
+600
+900
+1200
+1400
+1300
+1200
+O2 and H2 production (μmol g
+-1)
+ O2
+ H2
+Thermal reduction temperature (°C)
+1100
+10
+20
+30
+40
+1400
+1300
+1200
+1100
+Thermal reduction temperature (°C)
+Re-oxidation yield (%)
+(a) 
+(b)
+(c) 
+(d)
+Figure 5 a O2 evolution; b H2 production curves; c summarized O2 and H2 production results and d re-oxidation yield of LCC-0.4
+perovskite sample that thermally reduced at 1100–1400 C and re-oxidized at 900 C.
+6802
+J Mater Sci (2018) 53:6796–6806
+
+
+===== Page 8 =====
+
+However, LCC-0.4 showed stable O2 and H2 pro-
+ductions from the second cycle onwards which sug-
+gest the effects of decomposition could be negligible
+after the ﬁrst cycle. Further comparison on the mor-
+phology and crystal structure of the samples after
+ﬁrst thermal reduction step and 5 consecutive cycles
+test were conducted (Fig. S5, S6 in the ESM). No
+signiﬁcant change in the nanostructural properties
+was observed, whereas a change in crystal structure
+related to the formation of CoO was observed (Fig. S6
+in the ESM). The calculated re-oxidation yield for
+each cycle (Fig. 8b) conﬁrmed this result and LCC-0.4
+can be almost fully recovered from the second cycle.
+Therefore, LCC-0.4 has great potential for the long-
+term
+running
+of
+two-step
+thermochemical
+H2O
+splitting cycles.
+1100 °C 
+1200 °C
+1300 °C 
+1400 °C
+1 μm
+1 μm
+1 μm
+1 μm
+(a)
+(b)
+(c)
+(d)
+Figure 6 SEM images of LCC-0.4 after thermal reduction at a 1100 C; b 1200 C; c 1300 C; and d 1400 C.
+0
+1000
+2000
+3000
+0.0
+0.2
+0.4
+0.6
+H2 production rate (μmol g
+-1 s
+-1)
+ 700 °C
+ 800 °C
+ 900 °C
+ 1000 °C
+Time (s)
+0
+200
+400
+600
+900°C 
+800°C 
+1000°C 
+H2 production amount (μmol g
+-1)
+389
+467
+504
+587
+700°C 
+(a) 
+(b)
+Figure 7 a H2 production curves and b summarized H2 production amounts of LCC-0.4 perovskite sample at different re-oxidation
+temperatures.
+J Mater Sci (2018) 53:6796–6806
+6803
+
+
+===== Page 9 =====
+
+Conclusion
+A series of La1-xCaxCoO3 perovskites were system-
+atically studied for two-step thermochemical H2O
+splitting cycles. The Ca dopant content has a great
+effect on both the thermal reduction step and the H2O
+splitting step. The O2 evolution of La1-xCaxCoO3
+perovskites signiﬁcantly improved with increasing
+Ca doping content. However, the increased Ca also
+weakened the reaction thermodynamic of H2O split-
+ting and led to low re-oxidation yields. La0.6Ca0.4
+CoO3 was recognized as the best composition among
+the perovskites studied in this work. To further
+improve the thermochemical solar fuel production
+performance, a range of thermal reduction and re-
+oxidation temperatures were also investigated. The
+most suitable thermochemical operational condition
+for La0.6Ca0.4CoO3 was between 1300 C (thermal
+reduction
+temperature)
+and
+900 C
+(re-oxidation
+temperature), producing a remarkable H2 yield of
+587 lmol g-1. The hydrogen production yield is
+more than 18 times higher than that produced by
+CeO2 under the same experimental conditions. Fur-
+thermore, La0.6Ca0.4CoO3 also exhibited comparable
+H2 production stability during the cycling test and
+has the potential for further practical long-term
+application.
+Acknowledgements
+This work was ﬁnancially supported by the Aus-
+tralian Research Council (ARC) and the National
+Natural Science Foundation of China (Grant Nos.
+51372248, 51432009).
+Compliance with ethical standards
+Conﬂict of interest
+The authors declare that they
+have no conﬂict of interest.
+Electronic
+supplementary
+material:
+The
+online
+version
+of
+this
+article
+(https://doi.org/10.1007/
+s10853-018-2004-2) contains supplementary material,
+which is available to authorized users.
+References
+[1]
+Hosseini SE, Wahid MA (2016) Hydrogen production from
+renewable and sustainable energy resources: promising green
+energy carrier for clean development. Renew Sustain Energy
+Rev 57:850–866
+[2]
+Wen M, Cui Y, Kuwahara Y, Mori K, Yamashita H (2016)
+Non-noble-metal nanoparticle supported on metal–organic
+framework as an efﬁcient and durable catalyst for promoting
+H2 production from ammonia borane under visible light
+irradiation. ACS Appl Mater Interfaces 8:21278–21284
+[3]
+Zhu L, Fan J (2015) Thermodynamic analysis of H2 pro-
+duction
+from
+CaO
+sorption-enhanced
+methane
+steam
+reforming thermally coupled with chemical looping com-
+bustion as a novel technology. Int J Renew Energy Res
+39:356–369
+[4]
+Gil MV, Esteban-Dı´ez G, Pevida C, Chen D, Rubiera F
+(2014) H2 production by steam reforming with in situ CO2
+capture
+of
+biomass-derived
+bio-oil.
+Energy
+Procedia
+63:6815–6823
+[5]
+Al-Mamun M, Wang Y, Liu P et al (2016) One-step solid
+phase synthesis of a highly efﬁcient and robust cobalt
+0
+10000
+20000
+30000
+40000
+50000
+60000
+-300
+0
+300
+600
+900
+1200
+Temperature (°C)
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+O2 and H2 production rate (μmol g
+-1 s
+-1)
+Time (s)
+O2
+H2
+1
+2
+3
+4
+5
+0
+200
+400
+600
+800
+1000
+Cycles
+O2 and H2 production rate (μmol g
+-1 s
+-1)
+O2
+H2
+(b)
+(a)
+Figure 8 a ﬁve consecutive O2 and H2 production proﬁles and b O2 and H2 yields of LCC-0.4 as a function of cycle number.
+6804
+J Mater Sci (2018) 53:6796–6806
+
+
+===== Page 10 =====
+
+pentlandite electrocatalyst for the oxygen evolution reaction.
+J Mater Chem A 4:18314–18321
+[6]
+Al-Mamun M, Su X, Zhang H et al (2016) Strongly coupled
+CoCr2O4/carbon nanosheets as high performance electro-
+catalysts for oxygen evolution reaction. Small 12:2866–2871
+[7]
+Al-Mamun M, Yin H, Liu P et al (2017) Carbon-encapsu-
+lated heazlewoodite nanoparticles as highly efﬁcient and
+durable electrocatalysts for oxygen evolution reactions.
+Nano Res 10:3522–3533
+[8]
+Al-Mamun M, Zhu Z, Yin H et al (2016) The surface sulfur
+doping induced enhanced performance of cobalt catalysts in
+oxygen evolution reactions. Chem Commun 52:9450–9453
+[9]
+Ulloa OA, Huynh MT, Richers CP, Bertke JA, Nilges MJ,
+Hammes-Schiffer S, Rauchfuss TB (2016) Mechanism of H2
+production by models for the [NiFe]-hydrogenases: role of
+reduced hydrides. J Am Chem Soc 138:9234–9245
+[10] Zhang J, Qi L, Ran J, Yu J, Qiao SZ (2014) Ternary NiS/
+ZnxCd1-xS/reduced graphene oxide nanocomposites for
+enhanced solar photocatalytic H2-production activity. Adv
+Energy Mater 4:1301925–1301930
+[11] Steinfeld A (2005) Solar thermochemical production of
+hydrogen: a review. Sol Energy 78:603–615
+[12] Loutzenhiser PG, Meier A, Steinfeld A (2010) Review of the
+two-step H2O/CO2-splitting solar thermochemical cycle
+based on Zn/ZnO redox reactions. Materials 3:4922–4938
+[13] Weibel D, Jovanovic ZR, Galvez E, Steinfeld A (2014)
+Mechanism of Zn particle oxidation by H2O and CO2 in the
+presence of ZnO. Chem Mater 26:6486–6495
+[14] Stamatiou A, Loutzenhiser PG, Steinfeld A (2010) Solar
+syngas production via H2O/CO2 splitting thermochemical
+cycles with Zn/ZnO and FeO/Fe3O4 redox reactions. Chem
+Mater 22:851–859
+[15] Leveque G, Abanades S (2015) Investigation of thermal and
+carbothermal reduction of volatile oxides (ZnO, SnO2,
+GeO2, and MgO) via solar-driven vacuum thermogravimetry
+for thermochemical production of solar fuels. Thermochim
+Acta 605:86–94
+[16] Leveque G, Abanades S (2013) Kinetic analysis of high-
+temperature solid–gas reactions by an inverse method
+applied to ZnO and SnO2 solar thermal dissociation. Chem
+Eng J 217:139–149
+[17] Gokon N, Mataga T, Kondo N, Kodama T (2011) Thermo-
+chemical two-step water splitting by internally circulating
+ﬂuidized bed of NiFe2O4 particles: successive reaction of
+thermal-reduction and water-decomposition steps. Int J
+Hydrogen Energy 36:4757–4767
+[18] Kodama T, Gokon N, Yamamoto R (2008) Thermochemical
+two-step water splitting by ZrO2-supported NixFe3-xO4 for
+solar hydrogen production. Sol Energy 82:73–79
+[19] Miller JE, McDaniel AH, Allendorf MD (2014) Considera-
+tions in the design of materials for solar-driven fuel pro-
+duction using metal oxide thermochemical cycles. Adv
+Energy Mater 4:1300469–1300488
+[20] Roeb M, Neises M, Monnerie N et al (2012) Materials-re-
+lated aspects of thermochemical water and carbon dioxide
+splitting: a review. Materials 5:2015–2054
+[21] Takacs M, Scheffe JR, Steinfeld A (2015) Oxygen nonstoi-
+chiometry and thermodynamic characterization of Zr doped
+ceria in the 1573–1773 K temperature range. Phys Chem
+Chem Phys 17:7813–7822
+[22] Scheffe JR, Welte M, Steinfeld A (2014) Thermal reduction
+of ceria within an aerosol reactor for H2O and CO2 splitting.
+Ind Eng Chem Res 53:2175–2182
+[23] Cooper T, Scheffe JR, Galvez ME, Jacot R, Patzke G, Ste-
+infeld A (2015) Lanthanum manganite perovskites with Ca/
+Sr A-site and Al B-site doping as effective oxygen exchange
+materials for solar thermochemical fuel production. Energy
+Technol 3:1130–1142
+[24] Muhich CL, Ehrhart BD, Al-Shankiti I, Ward BJ, Musgrave
+CB, Weimer AW (2016) A review and perspective of efﬁ-
+cient hydrogen generation via solar thermal water splitting.
+Wiley Interdiscip Rev Energy Environ 5:261–287
+[25] Tao S, Irvine JT (2003) A redox-stable efﬁcient anode for
+solid-oxide fuel cells. Nat Mater 2:320–323
+[26] Petric A, Huang P, Tietz F (2000) Evaluation of La–Sr–Co–
+Fe–O perovskites for solid oxide fuel cells and gas separa-
+tion membranes. Solid State Ion 135:719–725
+[27] Scheffe JR, Weibel D, Steinfeld A (2013) Lanthanum–
+strontium–manganese perovskites as redox materials for
+solar thermochemical splitting of H2O and CO2. Energy
+Fuels 27:4250–4257
+[28] Yang CK, Yamazaki Y, Aydin A, Haile SM (2014) Ther-
+modynamic and kinetic assessments of strontium-doped
+lanthanum manganite perovskites for two-step thermo-
+chemical water splitting. J Mater Chem A 2:13612–13623
+[29] McDaniel AH, Miller EC, Ariﬁn D et al (2013) Sr- and Mn-
+doped LaAlO3-delta for solar thermochemical H2 and CO
+production. Energy Environ Sci 6:2424–2428
+[30] McDaniel A, Ambrosini A, Coker E, Miller J, Chueh W,
+O’Hayre R, Tong J (2014) Nonstoichiometric perovskite
+oxides for solar thermochemical H2 and CO Production.
+Energy Procedia 49:2009–2018
+[31] Deml AM, Stevanovic´ V, Holder AM, Sanders M, O’Hayre
+R, Musgrave CB (2014) Tunable oxygen vacancy formation
+energetics in the complex perovskite oxide SrxLa1-xMny-
+Al1-yO3. Chem Mater 26:6595–6602
+[32] Galvez ME, Jacot R, Scheffe J, Cooper T, Patzke G, Stein-
+feld A (2015) Physico-chemical changes in Ca, Sr and Al
+doped LaMnO perovskites upon thermochemical splitting of
+J Mater Sci (2018) 53:6796–6806
+6805
+
+
+===== Page 11 =====
+
+CO2
+via
+redox
+cycling.
+Phys
+Chem
+Chem
+Phys
+17:6629–6634
+[33] Dey S, Naidu BS, Govindaraj A, Rao CNR (2015) Note-
+worthy performance of La1-xCaxMnO3 perovskites in gen-
+erating H2 and CO by the thermochemical splitting of H2O
+and CO2. Phys Chem Chem Phys 17:122–125
+[34] Bork AH, Kubicek M, Struzik M, Rupp JLM (2015) Per-
+ovskite La0.6Sr0.4Cr1-xCoxO3 solid solutions for solar-ther-
+mochemical
+fuel
+production:
+strategies
+to
+lower
+the
+operation temperature. J Mater Chem A 3:15546–15557
+[35] Dey S, Naidu BS, Rao CNR (2015) Ln0.5A0.5MnO3
+(Ln = Lanthanide,
+A = Ca,
+Sr)
+perovskites
+exhibiting
+remarkable performance in the thermochemical generation of
+CO and H2 from CO2 and H2O. Chem Eur J 21:7077–7081
+[36] Dey S, Naidu BS, Rao CNR (2016) Beneﬁcial effects of
+substituting trivalent ions in the B-site of La0.5Sr0.5Mn1-x
+AxO3 (A = Al, Ga, Sc) on the thermochemical generation of
+CO and H2 from CO2 and H2O. Dalton Trans 45:2430–2435
+[37] Gerasimov E, Kulikovskaya N, Chuvilin A, Isupova L,
+Tsybulya S (2016) Microstructural changes in La1-xCax
+CoO3-d solid solutions under the inﬂuence of catalytic
+reaction of methane combustion. Top Catal 59:1354–1360
+[38] Murai K-I, Nagai K, Takahashi M, Takakusa S, Moriga T
+(2015) Study of thermoelectric properties of Ca-doped
+LaCoO3. Mod Phys Lett B 29:1540026–1540030
+[39] Dueso C, Thompson C, Metcalfe I (2015) High-stability,
+high-capacity oxygen carriers: iron oxide-perovskite com-
+posite materials for hydrogen production by chemical loop-
+ing. Appl Energy 157:382–390
+[40] Oumezzine M, Amaral J, Mompean F, Herna´ndez MG,
+Oumezzine M (2016) Structural, magnetic, magneto-trans-
+port properties and Bean-Rodbell model simulation of dis-
+order
+effects
+in
+Cr3?
+substituted
+La0.67Ba0.33MnO3
+nanocrystalline synthesized by modiﬁed Pechini method.
+RSC Adv 6:32193–32201
+[41] Wang L, Al-Mamun M, Zhong YL et al (2017) Ca2? and
+Ga3? doped LaMnO3 perovskite as a highly efﬁcient and
+stable catalyst for two-step thermochemical water splitting.
+Sustain Energy Fuels 1:1013–1017
+[42] Wang L, Al-Mamun M, Liu P, Wang Y, Yang HG, Zhao H
+(2017) La1-xCaxMn1-yAlyO3 perovskites as efﬁcient cata-
+lysts for two-step thermochemical water splitting in con-
+junction with exceptional hydrogen yields. Chin J Catal
+38:1079–1086
+[43] Kumar DA, Selvasekarapandian S, Nithya H, Leiro J,
+Masuda Y, Kim S-D, Woo S-K (2013) Effect of calcium
+doping on LaCoO3 prepared by Pechini method. Powder
+Technol 235:140–147
+[44] Melo D, Vieira F, Costa T et al (2013) Lanthanum cobaltite
+black pigments with perovskite structure. Dyes Pigment
+98:459–463
+[45] Zhu H, Zhang P, Dai S (2015) Recent advances of lan-
+thanum-based perovskite oxides for catalysis. ACS Catal
+5:6370–6385
+[46] Athayde DD, Souza DF, Silva AMA, Vasconcelos D, Nunes
+EHM, Diniz da Costa JC, Vasconcelos WL (2016) Review
+of perovskite ceramic synthesis and membrane preparation
+methods. Ceram Int 42:6555–6571
+[47] Demont A, Abanades S (2015) Solar thermochemical con-
+version of CO2 into fuel via two-step redox cycling of non-
+stoichiometric Mn-containing perovskite oxides. J Mater
+Chem A 3:3536–3546
+[48] Gokon N, Sagawa S, Kodama T (2013) Comparative study
+of activity of cerium oxide at thermal reduction temperatures
+of 1300–1550 C for solar thermochemical two-step water-
+splitting cycle. Int J Hydrogen Energy 38:14402–14414
+6806
+J Mater Sci (2018) 53:6796–6806

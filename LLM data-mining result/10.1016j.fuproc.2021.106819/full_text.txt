@@ -1,0 +1,1997 @@
+
+
+===== Page 1 =====
+
+Fuel Processing Technology 217 (2021) 106819
+Available online 23 March 2021
+0378-3820/©
+2021
+The
+Authors.
+Published
+by
+Elsevier
+B.V.
+This
+is
+an
+open
+access
+article
+under
+the
+CC
+BY-NC-ND
+license
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Cu-Mn oxygen carrier with improved mechanical resistance: Analyzing 
+performance under CLC and CLOU environments 
+I˜naki Ad´anez-Rubio a,*, Amanda Nilsson b, María Teresa Izquierdo a, Teresa Mendiara a, 
+Alberto Abad a, Juan Ad´anez a 
+a Instituto de Carboquímica (ICB-CSIC), Dept. of Energy & Environment, Miguel Luesma Cast´an, 4, Zaragoza 50018, Spain 
+b Department of Chemical and Biological Engineering, Division of Environmental Inorganic Chemistry, Chalmers University of Technology, SE-412 96 G¨oteborg, Sweden   
+A R T I C L E  I N F O   
+Keywords: 
+CO2 capture 
+CLOU 
+Copper 
+Solid fuels 
+Manganese 
+Kaolin 
+A B S T R A C T   
+Chemical Looping Combustion process allows combustion of gaseous, liquid or solid fuels with CO2 capture. The 
+oxygen necessary for combustion can be supplied using lattice oxygen (CLC) or oxygen uncoupling (CLOU) 
+mechanisms. The present work studies the effects of kaolin addition on Cu–Mn oxygen carrier behavior for CLC 
+and CLOU processes. Cu–Mn oxygen carrier was prepared by granulation with a composition: 27.2 wt% CuO, 
+52.8 wt% Mn3O4 and 20 wt% kaolin. Oxygen release rates and fluidization behavior were analyzed by TGA and 
+batch fluidized bed reactor. The oxygen carrier was studied for CH4 and synthetic biogas combustion in a 500 
+Wth CLC continuous unit for 50 h of combustion at temperatures up to 930 ◦C. No agglomeration problems were 
+observed. Results found during biogas combustion were similar to methane combustion. The addition of 20 wt% 
+kaolin changed the mixed oxide chemical composition generating Cu1.2Mn1.8O4 and improved significantly the 
+oxygen carrier mechanical resistance, increasing the extrapolated lifetime to 19,000 h, 3.6 times over the value 
+found for any Cu based oxygen carrier in CLC. However, the oxygen carrier reactivity had an important decrease 
+with respect to a similar oxygen carrier without kaolin addition, whose fraction in oxygen carrier must be 
+optimized.   
+1. Introduction 
+The growing increase of CO2 concentration in the atmosphere as a 
+consequence of the anthropogenic CO2 emissions coming for fossil fuel 
+use in energy production is favoring the increase of the natural green­
+house effect. One important part of the 33.1 GtCO2 released in 2018 
+came from energy generation sector [1]. In fact, fossil fuels represent 
+around 80% of the world primary energy demand. There is a general 
+agreement on the need to reduce CO2 emissions to the atmosphere that 
+was reflected in the Paris Agreement, which aims to limit the global 
+temperature increase to less than 2 ◦C by 2100 [2]. Different actions 
+such as improvement in energy efficiency, deployment of renewable 
+energy and implementation of Carbon Capture and Storage (CCS) 
+technologies should be taken to reach that objective. Moreover, Bio 
+Energy with Carbon Capture and Storage (BECCS), which combined the 
+use of biofuels together CCS, would contribute to reach negative CO2 
+emissions that are needed to meet the Paris Agreement objective. 
+From both technical and economic point of view, Chemical Looping 
+Combustion (CLC) is considered as one of the most efficient ways for the 
+CO2 capture needed in CCS technologies. The process is commonly 
+carried out in two interconnected reactors (Fig. 1). Combustion oxygen 
+is transferred to the fuel by means of a metal oxide (MexOy) without 
+contact with the air. Fuel is oxidized to CO2 and H2O while the metal 
+oxide is reduced in the fuel reactor (r1). The reduced metal oxide 
+(MexOy-1) is regenerated with air in the air reactor (r2). The global 
+enthalpy is the same as the conventional combustion with no inherent 
+energy penalty for the process (r3). After steam condensation a highly 
+concentrated CO2 stream is ready for storage. This technology is highly 
+promising for power plants due to its inherent CO2 capture with very low 
+global energy penalty. 
+(2n + m −p)MxOy + CnH2mOp→(2n + m −p)MxOy−1 + nCO2 + mH2O ΔHr
+(r1)  
+(2n + m −p)MxOy−1 +
+(
+n + m
+/
+2 −p
+/
+2
+)
+O2→(2n + m −p)MxOy ΔHo
+(r2)  
+* Corresponding author. 
+E-mail address: iadanez@icb.csic.es (I. Ad´anez-Rubio).  
+Contents lists available at ScienceDirect 
+Fuel Processing Technology 
+journal homepage: www.elsevier.com/locate/fuproc 
+https://doi.org/10.1016/j.fuproc.2021.106819 
+Received 24 November 2020; Received in revised form 15 February 2021; Accepted 11 March 2021   
+
+
+===== Page 2 =====
+
+Fuel Processing Technology 217 (2021) 106819
+2
+(2n + m −p)MxOy +
+(
+n + m
+/
+2 −p
+/
+2
+)
+O2→nCO2 + mH2O ΔHc = ΔHr + ΔHo
+(r3) 
+CLC was initially developed for gaseous fuels and afterwards adapted 
+for solid fuels. An overview of the CLC process can be found in some 
+review papers from Hossain et al. [3], Lyngfelt et al. [4,5], Fan [6], Zhao 
+et al. [7] and Ad´anez et al. [8]. A specific review for solid fuels CLC can 
+be found in Ad´anez et al. [9]. The performance of the oxygen carrier 
+material is the cornerstone of the Chemical Looping technology. 
+Different types of oxygen carriers have been proposed in the literature as 
+synthetic materials, prepared using the active metal oxides (NiO, CuO, 
+Fe2O3, Mn2O3) supported on different inert materials, mixed oxides 
+containing in their structures Fe, Cu, Mn and Ca oxides, and ores of iron 
+and manganese or metal oxide wastes (red mud, LD slag). Some authors 
+also developed models for CLC of solids fuels [10,11]. 
+Copper based oxygen carriers have demonstrated to have suitable 
+properties for Chemical Looping Combustion of gaseous and solid fuels 
+[8] both supplying lattice oxygen (CLC) [12] or gaseous oxygen [13,14] 
+by Chemical Looping with Oxygen Uncoupling (CLOU). The supply of 
+lattice oxygen is the most common reaction mechanism present in 
+Chemical Looping processes. However, some CuO and Mn3O4 based 
+oxygen carriers can release gaseous oxygen at high temperatures 
+depending on its composition and operating conditions. CuO based ox­
+ygen carriers and some mixed oxides [15] allow complete combustion to 
+CO2 and H2O by both mechanisms burning gaseous [8] or solid fuels 
+[16,17]. Attention has to be paid to CuO carriers in gaseous fuels com­
+bustion in order to avoid agglomeration problems that appear with high 
+CuO fractions and high reaction temperatures originated by the low 
+melting point of Cu (1083 ◦C). De Diego et al. [18] found that impreg­
+nated CuO/Al2O3 oxygen carriers with a CuO content greater than 20 wt 
+% always agglomerated during CH4 combustion in batch fluidized bed 
+cycles. For CuO contents from 15 to 17 wt% CuO the agglomeration 
+behavior depended on the calcination temperature, while for lower CuO 
+fractions agglomeration was not observed. Cu-based oxygen carriers 
+prepared by dry impregnation using γ-Al2O3 as support were evaluated 
+during the combustion of CH4, in CLC pilot units, reaching a good per­
+formance in terms of combustion efficiency [12,19–21] at low oxygen 
+carrier to fuel ratios operating at 800 ◦C. Moreover, the lifetime esti­
+mated from attrition data during combustion in a continuous unit 
+depended on the support properties. Lifetimes of 2500 h [19] and 5000 h 
+[22] were found for two different γ-Al2O3 supports. 
+Moreover, CuO based oxygen carriers were developed and used to 
+demonstrate the proof of the concept for CLOU combustion for coal and 
+biomass [16,23–25] showing excellent performance regarding CO2 
+capture and reaching always a complete combustion of fuel reactor 
+gases, avoiding the need of use of one oxygen polishing step [9], usually 
+needed if the mechanism for oxygen transfer is based on lattice oxygen. 
+However, these oxygen carriers need lifetime improvement and CuO 
+content reduction in order to reduce carrier costs. 
+Cu–Mn mixed oxides were investigated with the objective to reduce 
+the drawbacks of the individual parent oxides. Driessens et al. [26] 
+investigated the system Cu-Mn-O at different metal molar ratios and 
+temperatures finding mixed oxides with different crystalline structures 
+and variable compositions. Azad et al. [27] investigated mixed oxides 
+CuxMn3-xO4, prepared with a ratio Cu:Mn 1:1 calcined at two tempera­
+tures and analyzed their capability for burning CH4 and for releasing 
+gaseous oxygen by CLOU. At the same time, a detailed analysis of fresh, 
+reduced and oxidized active phases was developed. Hosseini et al. [28] 
+carried out the characterization and determined the oxygen release 
+capability of Cu–Mn mixed oxides with different Cu/Mn ratios, finding 
+the excellent CLOU capability under relevant conditions in a fluidized 
+bed at 800 ◦C burning coal char. Ad´anez-Rubio et al. [29] investigated 
+the mixed oxide Cu1.5Mn1.5O4 prepared by calcination of hopcalite at 
+950 ◦C for CLOU process. CLOU behavior was investigated by TGA and 
+in batch fluidized bed burning char and its parent coal. High oxygen 
+release rates with char were found reaching a maximum value of 
+0.62.10−3 kg O2/ s. kg oxygen carrier, showing the capability of this 
+mixed oxide for solid fuel combustion by this process. Ad´anez-Rubio 
+et al. developed and tested the combustion of coal [30–32] and biomass 
+[24,25,33] with one mixed oxide Cu1.5Mn1.5O4 prepared by fluidized 
+bed granulation with a 34% CuO and 66% Mn3O4 and calcined two 
+hours at 1125 ◦C. Cu1.5Mn1.5O4 showed high reactivity and oxygen 
+carrying capacity. For CLC using lattice oxygen, the Cu–Mn mixed 
+oxide was reduced to Cu and MnO as well as during oxidation at oper­
+ating conditions the mixed oxide structure Cu1.5Mn1.5O4 was recovered. 
+This mixed oxide was reduced and oxidized according to reactions [r4] 
+and [r5]. 
+8Cu1.5Mn1.5O4 + 5CH4→12Cu + 12MnO + 5CO2 + 10H2O
+(r4)  
+6Cu + 6MnO + 5O2→4Cu1.5Mn1.5O4
+(r5) 
+Depending on the operating temperature and O2 concentration in the 
+gas, Cu1.5Mn1.5O4 can be decomposed releasing gaseous oxygen allow­
+ing CLOU process with direct reaction between fuel and gaseous oxygen 
+[31] (r6). 
+2Cu1.5Mn1.5O4 ↔3CuMnO2 + O2
+(r6) 
+Excellent results were found reaching complete combustion of fuel 
+reactor gases and high CO2 capture efficiencies with this oxygen carrier 
+burning different solids fuels at CLOU conditions. After 50 h of com­
+bustion of coal and biomass the oxygen carrier showed an increase in the 
+fines generation indicating that the material started to be destroyed. 
+Attrition behavior was also followed considering the Attrition Jet Index 
+(AJI) of the fresh oxygen carrier calculated as 3.0. After 30 h of 
+continuous operation burning coal at ϕ values lower than 3, AJI value 
+suffered a moderate increased reaching a value of 16.0 [28] indicating 
+that particle integrity started to be reduced. 
+Thus, a considerable number of oxygen carriers with high reactivity 
+in CLC and CLOU, some of them based on Cu–Mn mixed oxides with 
+excellent combustion results, have been developed. However, the 
+number of oxygen carrier materials with stable mechanical performance 
+after long-term operation in a CLC unit is very limited. This is a limi­
+tation for the scale-up of the CLC process. It is imperative to find ma­
+terials that maintain their mechanical properties during CLC operation. 
+In order to enhance the mechanical integrity of a material based on 
+Cu–Mn mixed oxide, the use of one ceramic binder as kaolin has been 
+examined in this work to know the oxygen carrier performance for CLC/ 
+CLOU processes. 
+The aim of this investigation was to develop Cu–Mn mixed oxide 
+oxygen carriers with CLOU/CLC properties with enhanced mechanical 
+resistance to improve its lifetime. Capability of gaseous oxygen release 
+and lattice oxygen supply was evaluated together the mechanical 
+resistance in order to consider its use for CLOU/CLC combustion in a 
+continuous unit of two interconnected fluidized beds burning CH4 and 
+Fuel 
+Reactor
+Air
+Reactor
+Air
+Fuel
+MeyOx-1
+MeyOx
+N2, O2
+CO2 + H2O
+Condenser
+H2O (l)
+CO2
+Fig. 1. Chemical looping combustion diagram.  
+I. Ad´anez-Rubio et al.                                                                                                                                                                                                                          
+
+
+===== Page 3 =====
+
+Fuel Processing Technology 217 (2021) 106819
+3
+synthetic biogas. 
+2. Experimental section 
+2.1. Materials 
+A mixed oxide of Cu and Mn with similar composition to the previ­
+ously developed [31] was prepared with the addition of a ceramic 
+binder as kaolin in order to improve its mechanical resistance. Particles 
+were prepared by fluidized bed granulation in a spouted fluidized bed 
+system, Procell LabSystem Glatt. As raw materials CuO (Chem-Lab), 
+Mn3O4 (Micromax ELMAX) and kaolin (SICA S.L) were used. A solid 
+suspension containing about 80% of solids and different additives was 
+prepared for granulation. A physical mixture of powders was prepared 
+containing 27.2 wt% CuO, 52.8 wt% Mn3O4 and 20% kaolin. After 
+granulation particles were calcined at 1025 ◦C for 2 h. The oxygen 
+carrier prepared was named as CuMn80-Kao20 based in the weight 
+percent distribution. Particles were sieved to a particle size +100–300 
+μm for fluidization. 
+2.2. Oxygen carrier characterization 
+Chemical and physical characteristics of the oxygen carrier were 
+determined by different methods. Crushing strength, jet attrition test 
+index, particle size, pore volume, density, specific surface area and 
+crystalline phases were analyzed. Oxygen transport capacity for CLC 
+(ROC) was determined through the weight loss obtained in TGA by 
+reduction with H2 at 800 ◦C, while the oxygen transport capacity for 
+CLOU (RCLOU) was measured in N2 atmosphere at 900 ◦C. Table 1 shows 
+the main physical and chemical characteristics of the oxygen carrier 
+particles. 
+The crushing strength of the carrier particles was determined in a 
+Shimpo FGN-5× crushing strength apparatus as an average value of 20 
+measurements, with particles sized +0.1–0.3 mm. A three-hole air jet 
+attrition equipment ATTRI-AS (Ma. Tec. Materials Technologies Snc) 
+configured according to the ASTM-D-5757 standard [34] was used to 
+determine the low temperature attrition resistance. The Attrition Jet 
+Index value (AJI) was calculated considering the weight of fine particles 
+recovered in the filter after 5 h of testing by this equation. 
+AJI = m5h
+ms
+(1)  
+where m5h is the mass collected of fines after 5 h from the attrition tester, 
+and ms is the mass of sample loaded into the system (nominally 50 g). 
+He picnometry was used to determine the skeletal density of the 
+oxygen carrier particles by a Micromeritics AccuPyc II 1340. BET spe­
+cific surface area was determined by Brunauer-Emmett-Teller (BET) 
+method based on nitrogen adsorption/desorption at 77 K in a Micro­
+meritics ASAP-2020 instrument (Micromeritics Instruments Inc.). Pore 
+volume was measured by Hg intrusion using a Quantachrome 
+PoreMaster 33 porosimeter. Crystalline chemical species were identified 
+by X-ray diffraction (XRD), with XRD patterns collected by a Bruker D8 
+Advance X-ray powder diffractometer equipped with an X-ray source 
+with a Cu anode working at 40 kV and 40 mA, and an energy-dispersive 
+one-dimensional detector. The diffraction pattern was obtained over the 
+2θ range of 10◦to 80◦with a step of 0.019◦. The oxygen carrier particles 
+were also analyzed by scanning electron microscopy (SEM) using an 
+SEM-EDX Hitachi S-3400 N with analyzer EDX R¨ontec XFlash de Si(Li). 
+2.3. Experimental installations 
+2.3.1. TGA 
+To know the oxygen transport capacity of the oxygen carrier both for 
+CLC and CLOU and its reactivity, multiple redox cycles were carried out 
+in a TGA, CI Electronics type, previously described [35]. TGA reactivity 
+of the oxygen carrier was measured for CLC through the weight changes 
+with time with 15% CH4 and 20% H2O and oxidation in air, in the third 
+cycle for fresh particles and used particles. The ROC value was calculated 
+in the third reduction cycle with 15% H2 and 20% H2O and oxidation in 
+air. CLOU reactivity was measured in N2 atmosphere during third 
+reduction redox cycle in N2/air at temperatures from 800 to 900 ◦C 
+using 50 mg samples. First cycle reactivity measurement was made to 
+know the reactivity of used particles and to allow the comparison with 
+values found for fresh material. All the TGA experiments were carried 
+out under conditions to ensure chemical reaction control as described in 
+[35]. 
+2.3.2. Batch fluidized bed reactor 
+The oxygen carrier behavior was investigated in a fluidized batch 
+reactor with multiple redox cycles of oxygen release in N2 and with 
+methane combustion under similar conditions to that of CLOU/CLC 
+processes. Moreover, the attrition during redox cycles and the agglom­
+eration trends were determined. One batch fluidized bed reactor setup 
+[36] with a 54 mm inner diameter reactor was used. A batch of 300 g of 
+oxygen carrier particles was used as the bed material. The gas feeding 
+system have different mass flow controllers for different gases and a 
+peristaltic pump for water supply. Attrition rate calculation was made 
+from the recovered elutriated solids from the bed in a heated filter 
+during the successive reduction–oxidation cycles. Tests were carried out 
+with an inlet superficial gas velocity of 0.15 m/s. Gas composition 
+during reduction was 100 vol% N2 or 25 vol% CH4 with 20 vol% H2O in 
+N2. During oxidation different oxygen concentrations were used ranging 
+Table 1 
+Properties of the oxygen carrier particles.   
+Fresh 
+Used 50 h 
+Oxygen transport 
+capacity, ROC (wt%) 
+12.5 
+13.1 
+Oxygen transport 
+capacity CLOU, RCLOU 
+Crushing strength (N) 
+4.1 
+2.4 
+4.1 
+2.1 
+Skeletal density of 
+particles (kg/m3) 
+4241 
+4366 
+AJI (%) 
+0.9 
+11.2 
+Porosity (%) 
+8.5 
+44.3 
+Specific surface area, 
+BET (m2/g) 
+0.1 
+1.4 
+Main species 
+Cu1.2Mn1.8O4, 
+Mn3O4, Mn2O3 
+Cu1.2Mn1.8O4, CuMnO2, Cu2O, 
+Cu, MnO, Mn2SiO4  
+N2
+N2
+Air
+Sec.
+Air
+Gas Analysis 
+O2, CO, CO2 
+7
+Gas Analysis 
+O2, CH4, CO2, CO, H2 
+2
+4
+5
+6
+9
+3
+Stack
+1
+9
+AIR
+REACTOR
+Stack
+FUEL
+REACTOR 
+CH4
+1.- Fuel Reactor
+2.- Loop seal 
+3.- Air Reactor
+4.- Riser
+5.- Cyclone
+6.- Divesification valve
+7.- Solids Deposit
+8.- Solid control valve
+9.- Furnace
+10.- Filter
+10
+10
+8
+N2
+CO2
+Fig. 2. Diagram of the 500-Wth continuous CLC system.  
+I. Ad´anez-Rubio et al.                                                                                                                                                                                                                          
+
+
+===== Page 4 =====
+
+Fuel Processing Technology 217 (2021) 106819
+4
+from 5 to 21 vol% O2 in N2. 
+The gas outlet from the fluidized bed reactor was connected to two 
+parallel hot filters with one of them always connected and open towards 
+the gas analyzer system. The outlet concentrations of CH4, CO and CO2 
+were measured by a Non-Dispersive Infra-Red (NDIR) analyzer (Maihak 
+S710/UNOR) and the concentration of H2 was measured by a Thermal 
+Conductivity Detector (TCD), (MaihakS710/THERMOR). A para- 
+magnetic gas analyzer (Siemens Oxymat 5E) measured the O2 concen­
+tration evolution with time. 
+2.3.3. 500 Wth continuous unit 
+The performance of CuMn80-Kao20 in the combustion of CH4 or 
+synthetic biogas as fuel was studied in a 500 Wth CLC pilot plant at 
+temperatures from 800 to 900 ◦C. Fig. 2 provides a schematic diagram of 
+the continuous unit. The CLC unit consists of two bubbling fluidized bed 
+reactors, the fuel reactor and the air reactor, connected by a loop seal; a 
+riser for solids transport to a cyclone; a solids valve to control the solids 
+circulation rate between both reactors; a diverting solids valve to take 
+samples from the air reactor; a small deposit to take samples from the 
+fuel reactor; and two filters to collect the elutriated fines during the 
+process. Composition of the two outlet streams was analyzed with 
+continuous analyzers. CO, CO2, and CH4 were analyzed by nondispersive 
+infrared (NDIR) analyzers (Maihak S710/UNOR and Siemens Ultramat 
+23); O2 by paramagnetic analyzer (Oxymat 6 and Siemens Ultramat 23); 
+H2 was measured using a thermal conductivity detector (Maihak S710/ 
+THERMOR). A more detailed description of the unit can be found in 
+[37]. The total solids inventory in the continuous unit was 2.1 kg. 
+Different CH4 flows and two different bed heights of the fuel reactor 
+were used to have different oxygen carrier inventories in the fuel 
+reactor: from ca. 660 to 1400 kg/MWth. Table 2 shows the main 
+experimental conditions used in the tests. 
+The fuel reactor temperature was changed from 775 to 925 ◦C during 
+the 50 h of continuous operation, i.e. 30 h burning CH4 and 20 h burning 
+synthetic biogas. Gas velocity in the fuel reactor was 0.15 m⋅s−1 using 
+300 LN⋅h−1. The loop seal was fluidized with N2 (75 LN⋅h−1). The air 
+reactor was fluidized by a primary air of (720 LN⋅h−1) introduced from 
+the bottom of the bed, and a secondary air of 150 LN h−1 at the top of the 
+air reactor to assist oxygen carrier entrainment in the riser. Different 
+mixtures of CH4, CO2 and N2 were used as fuel to analyze the behavior of 
+CuMn80-Kao20 oxygen carrier in the combustion of natural gas and 
+biogas. N2 was used to dilute the fuel. Synthetic biogas with ratios CH4/ 
+CO2 from 0.7 to 3 were used. 
+2.4. Data evaluation 
+The conversion of the oxygen carrier was calculated as follows: 
+For reduction: 
+XRed =
+mOx −m
+mOx −mRed
+(2) 
+For oxidation: 
+XOx = 1 −
+mOx −m
+mOx −mRed
+(3)  
+where m is the sample mass at each time, mOx is the fully oxidized sample 
+mass and mRed the sample weight in the reduced state. 
+Table 2 
+Experimental conditions and main result in the CLC unit. Bold number: condition varied for comparison purposes.  
+Test – fuel 
+T FR(◦C) 
+TAR(◦C) 
+[O2]AR (%) 
+Φ 
+˙m OC.(kg/h) 
+CCH4(vol%) 
+Ratio CO2/CH4 
+Power(W) 
+˙m FR(kg/MW) 
+ηComb (%) 
+C01 −
+CH4 
+750 
+800 
+21.00 
+28.4 
+16.80 
+7 
+0 
+224 
+1378 
+24.2 
+C02 −
+CH4 
+770 
+800 
+21.00 
+27.9 
+16.80 
+7 
+0 
+226 
+1368 
+27.7 
+C03 −
+CH4 
+800 
+800 
+21.00 
+27.9 
+16.80 
+7 
+0 
+217 
+1423 
+34.2 
+C04 −
+CH4 
+800 
+800 
+21.00 
+15.9 
+9.50 
+7 
+0 
+228 
+1372 
+31.7 
+C05 −
+CH4 
+800 
+800 
+21.00 
+15.6 
+13.30 
+11 
+0 
+318 
+971 
+34.5 
+C06 −
+CH4 
+800 
+800 
+21.00 
+14.4 
+17.20 
+15 
+0 
+460 
+671 
+36.9 
+C07 −
+CH4 
+815 
+800 
+21.00 
+11.7 
+13.95 
+15 
+0 
+462 
+668 
+43.0 
+C08 −
+CH4 
+815 
+800 
+18.34 
+11.7 
+13.95 
+15 
+0 
+461 
+669 
+40.5 
+C09 −
+CH4 
+815 
+800 
+16.30 
+11.7 
+13.95 
+15 
+0 
+458 
+674 
+40.8 
+C10 −
+CH4 
+815 
+800 
+13.14 
+11.7 
+13.95 
+15 
+0 
+455 
+678 
+40.9 
+C11 −
+CH4 
+850 
+810 
+21.00 
+12 
+14.35 
+15 
+0 
+468 
+659 
+55.0 
+C12 −
+CH4 
+875 
+810 
+21.00 
+12 
+14.35 
+15 
+0 
+461 
+669 
+55.3 
+C13 −
+CH4 
+885 
+810 
+21.00 
+12 
+14.35 
+15 
+0 
+458 
+674 
+57.1 
+C14 −
+CH4 
+895 
+810 
+21.00 
+12 
+14.35 
+15 
+0 
+456 
+677 
+60.5 
+C15 −
+CH4 
+775 
+810 
+21.00 
+9 
+13.10 
+15 
+0 
+516 
+1153 
+54.6 
+C16 −
+CH4 
+800 
+810 
+21.00 
+9 
+13.10 
+15 
+0 
+512 
+1162 
+60.4 
+C17 −
+CH4 
+830 
+810 
+21.00 
+9 
+13.10 
+15 
+0 
+516 
+1152 
+66.8 
+C18 −
+CH4 
+850 
+810 
+21.00 
+9 
+13.10 
+15 
+0 
+537 
+1108 
+74.5 
+C19 −
+CH4 
+900 
+810 
+21.00 
+9 
+13.10 
+15 
+0 
+543 
+1095 
+89.0 
+C20 −
+CH4 
+925 
+810 
+21.00 
+9 
+13.10 
+15 
+0 
+544 
+1093 
+91.9 
+C01 −
+Bio 
+800 
+810 
+21.00 
+9.3 
+14.70 
+20 
+2 
+622 
+955 
+65.7 
+C02 −
+Bio 
+800 
+810 
+21.00 
+9.3 
+14.70 
+20 
+1.5 
+622 
+955 
+62.9 
+C03 −
+Bio 
+800 
+810 
+21.00 
+9.3 
+14.70 
+20 
+1 
+622 
+955 
+63.7 
+C04 −
+Bio 
+800 
+810 
+21.00 
+9.3 
+14.70 
+20 
+0.7 
+622 
+955 
+64.8 
+C05 −
+Bio 
+800 
+810 
+21.00 
+9.3 
+14.70 
+20 
+3 
+622 
+955 
+64.5 
+C06 −
+Bio 
+825 
+810 
+21.00 
+9.9 
+15.95 
+20 
+1.5 
+642 
+927 
+71.3 
+C07 −
+Bio 
+850 
+810 
+21.00 
+9.9 
+15.95 
+20 
+1.5 
+642 
+927 
+77.7 
+C08 −
+Bio 
+875 
+810 
+21.00 
+9.9 
+15.95 
+20 
+1.5 
+642 
+927 
+82.9 
+C09 −
+Bio 
+900 
+810 
+21.00 
+9.9 
+15.95 
+20 
+1.5 
+642 
+927 
+87.4 
+C10 −
+Bio 
+850 
+825 
+21.00 
+9.6 
+15.00 
+20 
+1.5 
+653 
+911 
+87.0 
+C11 −
+Bio 
+850 
+850 
+21.00 
+9.6 
+15.00 
+20 
+1.5 
+653 
+911 
+87.7 
+C12 −
+Bio 
+920 
+810 
+21.00 
+9.6 
+15.00 
+20 
+1.5 
+653 
+911 
+90.4 
+C13 −
+Bio 
+850 
+810 
+18.29 
+9.6 
+15.00 
+20 
+1.5 
+653 
+911 
+75.5 
+C14 −
+Bio 
+850 
+810 
+17.86 
+9.6 
+15.00 
+20 
+1.5 
+653 
+911 
+76.1 
+C15 −
+Bio 
+850 
+810 
+21.00 
+12 
+19.00 
+20 
+1.5 
+642 
+926 
+75.3 
+C16 −
+Bio 
+850 
+810 
+21.00 
+6 
+9.00 
+20 
+1.5 
+642 
+926 
+74.5 
+C17 −
+Bio 
+850 
+810 
+21.00 
+4.5 
+7.00 
+20 
+1.5 
+642 
+926 
+75.4 
+where ˙m FR is the specific carrier inventory given in kg/MW. 
+Bold numbers for comparison purposes between experiments. 
+I. Ad´anez-Rubio et al.                                                                                                                                                                                                                          
+
+
+===== Page 5 =====
+
+Fuel Processing Technology 217 (2021) 106819
+5
+The oxygen carrier-to-fuel ratio, ϕ, in the 500 Wth CLC unit is defined 
+as the ratio between the flow of oxygen supplied by the oxygen carrier 
+and the stoichiometric oxygen needed to fully burn the fuel, which is 
+calculated as follows: 
+ϕ = xCu1.2Mn1.8O4Fsolids
+FCH4MCu1.2Mn1.8O4
+(4)  
+where xCu1.2Mn1.8O4 is mass fraction of Cu1.2Mn1.8O4 in the oxygen car­
+rier; Fsolids is the mass-based oxygen carrier circulation rate inside the 
+CLC unit and FCH4 is the inlet molar flow of the CH4 fed to the fuel 
+reactor. 
+The combustion efficiency (ηComb) was calculated (5) by knowing the 
+fraction of oxygen needed for complete combustion of unconverted 
+gases over the total oxygen for fuel conversion to CO2 and H2O. 
+ηComb = 100 −(xCO + xH2 + 4⋅xCH4)out⋅Fout
+(4⋅xCH4)in⋅Fin
+(5)  
+where xi is the molar fraction of i gas compound. Fin and Fout are the 
+molar flows of the input and output gases. 
+The accuracy of the results was measured through the oxygen and 
+carbon mass balances considering the measurements of gas analyzers 
+from the fuel and air reactors in the overall unit; these balances closed 
+always over 95%. 
+Table 2 shows the experimental conditions and main data results for 
+the experimental campaigns performed in the 500 Wth continuous CLC 
+unit burning CH4 and synthetic biogas. In the 30 first hours of operation, 
+the effect of fuel reactor temperature, the oxygen carrier to fuel ratio, 
+CH4 concentration in the fuel reactor and the air excess (related with the 
+O2 concentration fed to the air reactor, [O2,AR]) in the air reactor on the 
+combustion efficiency and the attrition rates were investigated using 
+mixtures CH4-N2. 
+2.5. Attrition evaluation 
+The attrition resistance of the oxygen carrier was evaluated by two 
+methods: (1) Air Jet Attrition index (AJI) determined in an ATTRI-AS 
+equipment using ASTM-D-5757 standard; and (2) attrition rate 
+measured in the continuous unit. Attrition rate was calculated as a 
+function of the weight of particles collected in the filters of fuel and air 
+reactors with size lower than 45 μm. The attrition rate, A (%/h), was 
+calculated by 
+A = mf
+mt∆t⋅100
+(6)  
+where mf is the mass of the elutriated particles with a size lower than 45 
+μm recovered during Δt (hours), and mt is the total mass of solids in the 
+continuous CLC unit. With the attrition rate value obtained the extrap­
+olated lifetime can be calculated by the following equation 
+LT (h) = 100
+A
+(7)  
+3. Results 
+3.1. Results from oxygen carrier characterization 
+Physical and chemical properties of the oxygen carrier were deter­
+mined for the fresh oxygen carrier. As expected both specific surface 
+area (BET) and porosity showed low values and the crushing strength 
+had a value of 2.4 N that is acceptable for its use in CLC fluidized beds 
+[38]. Attrition Jet Index (AJI) that indicates the physical attrition 
+resistance in fluidized bed reactor had a quite low value (0.9) indicating 
+the initial suitability of the material for CLC, see Table 1. 
+XRD diffractograms of fresh and used oxygen carrier particles are 
+shown in Fig. 3a and b, respectively. Analyzing the profiles with DIF­
+FRAC.EVA software the phases that could be identified in fresh oxygen 
+carrier were Cu1.2Mn1.8O4, and some Mn2O3 and Mn3O4 remaining in 
+the stabilized particles. No crystal phases containing Al or Si from the 
+kaolinite were detected, indicating that they should be in the amorphous 
+phase, and thus, it cannot be detected by XRD technique. The temper­
+ature of calcination of the oxygen carrier (1025 ◦C) exceeded tempera­
+ture for dehydroxylation reaction of kaolinite at which amorphous 
+background phase is only registered by XRD [39]. 
+The content of different species in the crystalline phase of fresh 
+sample was determined after calcination by Rietveld refinement and 
+further the composition was corrected considering the 20% kaolin that 
+was not detected by XRD after calcination. The composition of the ox­
+ygen carrier particles was the following: 75.1 wt% of Cu1.2Mn1.8O4, 0.7 
+wt% of Mn2O3, 4.2 wt% of Mn3O4 and 20 wt% of kaolin. Although the 
+same Cu:Mn ratio than the previous work was originally used in the 
+preparation [31], the main mixed oxide generated was Cu1.2Mn1.8O4 but 
+not Cu1.5Mn1.5O4. The only difference between both Cu–Mn samples 
+was the calcination temperature (1150 ◦C originally and 1025 ◦C in this 
+work) now. It is necessary to indicate that according with Driessens [26] 
+diagram, differences in chemical and crystalline structures should not be 
+found. XRD patterns of reduced sample extracted from fuel reactor 
+(Fig. 3b). It can be seen that the main phases are Cu1.2Mn1.8O4, CuMnO2, 
+Cu2O, Cu, MnO and Mn2SiO4. In order to understand the phases that can 
+be appeared in function of CLC or CLOU reactions, several experiments 
+were carried out in the TGA with N2 and CH4. After reduction in N2 the 
+reduced compounds found were CuMnO2, Mn3O4 and Cu2O, the pres­
+ence of Cu2O and Mn3O4 together could be explained by simultaneous 
+release of O2 by reactions (r7) and (r8) for CLOU. In addition, a new 
+Fig. 3. XRD difractogram of fresh oxygen carrier sample (a) and reduced used 
+oxygen carrier sample (b) main crystal phase marked. 
+I. Ad´anez-Rubio et al.                                                                                                                                                                                                                          
+
+
+===== Page 6 =====
+
+Fuel Processing Technology 217 (2021) 106819
+6
+mixed oxide of Mn and Si (rodonite) appeared, MnSiO3, which may 
+come from interaction of Mn with Si in Kaolin. Rodonite comes from the 
+reduction with CH4, CO and H2, of Mn7SiO12 being its reactivity the 
+lowest one with CH4 [40] thus its contribution to the reduction would be 
+negligible. 
+5Cu1.2Mn1.8O4 ↔6CuMnO2 + Mn3O4 + 2O2
+(r7)  
+5Cu1.2Mn1.8O4 ↔3Cu2O + 3Mn3O4 + 5
+2O2
+(r8) 
+While after reduction with CH4, MnO and Cu appeared as main 
+reduced species following (r9) for CLC. Then, (r10) shows the oxidation 
+reaction. 
+5Cu1.2Mn1.8O4 + 5CH4→6Cu + 9MnO + 5CO2 + 10H2O
+(r9)  
+6Cu + 9MnO + 11
+2 O2→5Cu1.2Mn1.8O4
+(r10) 
+Table 1 shows the oxygen carrier chemical composition indicating 
+that the main compounds active for CLC and CLOU were Cu1.2Mn1.8O4 
+and Mn3O4. However, the presence of Mn3O4 reduced the oxygen 
+transport capacity for CLOU because oxidation of Mn3O4 to Mn2O3 is 
+very slow at 800 ◦C under the operating conditions, by thermodynamic 
+limitations and hence, generally not giving O2 by CLOU. 
+Oxygen transport capacity for CLC took a value of 12.5% that is 
+slightly higher than the corresponding to the theoretical one for the 
+reduction to MnO and Cu that is 11.1% taking into account the 
+composition obtained by XRD and not pure compounds. It is possible 
+that the remaining Mn3O4 and Mn2O3 in the particles increased the 
+oxygen transport capacity of the oxygen carrier particles. For CLOU it 
+was found a value of 4.1 wt%. The theoretical value for CLOU oxygen 
+transport capacity taking into account the composition obtained by XRD 
+and not pure compounds, varied between 4.0 wt% (r7) and 5.0 wt% (r8) 
+as a function of the oxygen release dominant reaction. With the exper­
+imental value obtained in the TGA it could be proposed that the reaction 
+r9 rules the oxygen release, with a small contribution of reaction r10. 
+This fact was also corroborated with the low amount of Cu2O found by 
+XRD (3.8 wt%) after the reduction of the oxygen carrier in the TGA with 
+N2. Also, some of the original Cu1.2Mn1.8O4 compound remained after 
+reaction in N2, suggesting that the reaction was not complete. 
+SEM analysis indicated that the inner of the particle was not 
+completely smooth and had different crystalline structures, see Fig. 4. 
+Some inclusions on the surface can be detected forming clusters. It can 
+be observed two different surfaces; one rich in Cu–Mn mixed oxide 
+formed by crystals of different size and a dark surface kaolin rich. 
+The EDX mapping confirmed some areas of differences in general, 
+Cu–Mn in light crystals and Al and Si in dark networks. EDX analysis 
+Fig. 4. (a) SEM scan of cross section; and (b) EDX mapping; of fresh CuMn80-Kao20 particles.  
+Time (min)
+0
+1
+2
+3
+4
+5
+)-(
+n
+o
+i
+s
+r
+e
+v
+n
+o
+c
+d
+il
+o
+S
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+H2 800 ºC 
+CH4 800ºC 
+CH4 900 ºC 
+Time (min)
+0
+5
+10
+15
+20
+25
+30
+)-(
+n
+o
+i
+s
+r
+e
+v
+n
+o
+c
+d
+il
+o
+S
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Cu1.2Mn1.8O4_N2 900ºC 
+Cu1.5Mn1.5O4_N2 900ºC [31]
+(a)
+(b)
+Fig. 5. Reduction conversion curves with: (a) H2, CH4; and (b) N2 for the CuMn80-Kao20 and Cu1.5Mn1.5O4 oxygen carrier from Ad´anez-Rubio et al. [31] at 950 ◦C.  
+I. Ad´anez-Rubio et al.                                                                                                                                                                                                                          
+
+
+===== Page 7 =====
+
+Fuel Processing Technology 217 (2021) 106819
+7
+performed on big area showed a good distribution throughout the par­
+ticles of Cu–Mn mixed oxide and kaolin, both in the surface and in the 
+inner of the particles. 
+3.2. Reactivity of oxygen carrier 
+Reactivity of the oxygen carrier was investigated in multiple redox 
+cycles in N2/air and CH4 or H2/air atmospheres at temperatures ranging 
+from 800 to 950 ◦C in N2 and at 800 to 900 ◦C in CH4. Reactivity 
+measured during reduction with CH4 or H2 gave one indication of the 
+capacity of the oxygen carrier to supply lattice oxygen. Fig. 5a shows the 
+evolution of the oxygen carrier conversion with CH4, H2 and N2 at two 
+different temperatures. Reduction with H2 was very fast with a time for 
+complete conversion lower than 1 min at 800 ◦C. With CH4, complete 
+conversion was reached in less than 2 min at 900 ◦C. For CLOU process, 
+decomposition in N2 was complete at reaction times lower than 30 min. 
+A comparison with the CLOU reactivity found with Cu1.5Mn1.5O4 oxygen 
+carrier prepared with the same metal oxide composition although 
+without kaolin is shown in Fig. 5b. The effect of kaolin can be clearly 
+appreciated. Moreover, the change in the active compound from 
+Cu1.5Mn1.5O4 to Cu1.2Mn1.8O4 could cause the important decrease in the 
+reactivity increasing the complete conversion time from 10 to 30 min. 
+Thus the effect of 20% kaolin reduced significantly the CLOU reactivity 
+and the type of mixed oxide generated. 
+3.3. Batch fluidized bed reactor tests 
+In the batch fluidized bed reactor several redox cycles were carried 
+out, in order to analyze the behavior of the oxygen carrier for O2 release, 
+the oxygen concentration used during oxidation step and the CH4 
+combustion in a fluidized bed. To investigate the oxygen release in 
+CLOU mode, three redox cycle experiments of 30 min were made in N2/ 
+air atmospheres at temperatures from 800 to 900 ◦C. 
+The effect of the reaction temperature on the O2 concentration 
+released at pseudo equilibrium was investigated. Fig. 6 shows the oxy­
+gen concentration and the solid conversion profiles during the third 
+cycle of reduction in N2 in the temperature interval 800–900 ◦C with a 
+step size of 25 ◦C. 
+Temperatures lower 900 ◦C in the fuel reactor would not signifi­
+cantly affect the purity of the CO2–steam outlet mixture by presence of 
+O2 compared to the same temperature interval with free‑copper oxide 
+and manganese oxide, which showed higher O2 partial pressure at 
+equilibrium conditions. Solid conversion (Fig. 6b) increased with the 
+temperature although small conversions were found in the temperature 
+window plotted. 
+The thermodynamics of the oxygen release by the oxygen carrier was 
+used to determine the operating conditions for the air and fuel reactor in 
+the continuous unit. To maximize the use of oxygen from air, the air 
+reactor should work at temperatures below 850 ◦C. At these conditions 
+the oxygen concentration in the air reactor exit would reach a maximum 
+of 1.37 vol%. To analyze the effect of the oxygen concentration on the 
+oxidation reaction, different experiments were made with four different 
+oxygen concentrations ranging from 5 to 21% in the reactor. Fig. 7 
+shows the evolution of the solid conversion during the oxidation reac­
+tion at 850 ◦C. Previous reduction was made in 100% N2 until during 30 
+min. 
+As shown in Fig. 7, there was a clear trend of decreasing the oxida­
+tion reaction rate with oxygen concentration decrease. This fact can be 
+explained by the increase in the driving force for the oxidation by the 
+difference between concentration at pseudo-equilibrium (1.37 vol% at 
+850 ◦C) and the inlet oxygen concentration. In the case of the oxidation 
+carried out with 5 vol% O2 it was necessary more than 30 min to reach 
+Time (s)
+0
+50
+100
+150
+200
+O2 concentration (vol%)
+0
+1
+2
+3
+4
+5
+800 ºC 
+825 ºC 
+850 ºC 
+875 ºC 
+900 ºC 
+Time (s)
+0
+200
+400
+600
+800
+Xred,CLOU (-)
+0.00
+0.02
+0.04
+0.06
+0.08
+0.10
+800 ºC 
+825 ºC 
+850 ºC 
+875 ºC 
+900 ºC 
+(a)
+(b)
+Fig. 6. (a) Oxygen concentration and (b) solid conversion profiles during the 3rd reduction cycle in N2 at temperature from 800 to 900 ◦C.  
+Time (s)
+0
+500
+1000
+1500
+2000
+XOx (-)
+0.00
+0.02
+0.04
+0.06
+0.08
+0.10
+21 vol% O2
+15 vol% O2
+11 vol% O2
+5 vol% O2
+Fig. 7. Effect of the oxygen concentration in the oxygen carrier conversion 
+during the oxidation at 850 ◦C at the batch fluidized bed reactor. 
+I. Ad´anez-Rubio et al.                                                                                                                                                                                                                          
+
+
+===== Page 8 =====
+
+Fuel Processing Technology 217 (2021) 106819
+8
+the same oxidation than in the previous cycles. For similar oxidation 
+profiles it has been shown by TGA that the higher the oxygen concen­
+tration, the higher the oxidation reaction rate. 
+Once it was determined that the O2 release by CLOU reaction took 
+place without any agglomeration problem, the CH4 combustion by the 
+oxygen carrier was investigated at temperatures from 800 to 900 ◦C. 
+The experiments were carried out with 25 vol% CH4, 20 vol% steam 
+and 55 vol% N2 at 750 and 800 ◦C. Fig. 8 shows a comparison of the 
+oxygen carrier conversion with N2 (CLOU) and with CH4 (CLC). The 
+solid conversion observed was much higher when the combustion 
+mechanism was controlled by lattice oxygen (CLC) instead of CLOU, 
+being 36 times higher for the same operation time. 
+These differences agree upon the results found by TGA indicating 
+that the reactivity of this oxygen carrier to supply oxygen by CLOU 
+mechanism was much lower than for CH4 combustion. However, it was 
+necessary to consider the driving force. The presence of CH4 make that 
+the driving force for the CLC mechanism was much higher than for the 
+CLOU mechanism, obtaining a faster reaction of combustion against of 
+oxygen release. Therefore, the oxygen carrier was tested in the 500 Wth 
+unit using methane as main fuel. 
+3.4. Combustion in the 500 Wth CLC continuous unit 
+The oxygen carrier was evaluated for combustion of CH4 and syn­
+thetic biogas (CO2 + CH4) in one 500 Wth CLC unit [41]. The effect of 
+some operating variables on the combustion efficiency was evaluated. 
+During all the experiments CO2 never appeared at the air reactor outlet, 
+indicating that there was not carbon bypass to this reactor and thus CO2 
+capture was always 100%. 
+Experiments were performed to know the feasibility of using this 
+oxygen carrier for CH4 combustion, operating at high solid circulation 
+rates; under these conditions low oxygen carrier conversion was ob­
+tained, because materials with high CuO concentration were known to 
+suffer from agglomeration when they are reduced to Cu. Initial experi­
+ment with 7 vol% CH4 using an oxygen carrier to fuel ratio of 28 
+operating at temperatures from 750 to 800 ◦C was carried out (tests C01 
+to C03 CH4 in Table 2). After good fluidization without agglomeration, 
+experiments continued to examine CH4 concentration impact on the 
+combustion efficiency using three different CH4 concentrations (7, 11 
+and 15 vol%,) changing the solid circulation flowrate to maintain a near 
+constant ϕ value of 15 (tests C04 to C06 CH4 in Table 2). Combustion 
+efficiency showed low values and increased with CH4 concentration 
+from 31.7 to 36.9 vol% using one oxygen carrier inventory of 670 kg/ 
+MWth. This increase was considered due to the increase in the medium 
+gas concentration in the reactor that increases reaction rates and also the 
+combustion efficiency as concluded by [42]. 
+The effect of the fuel reactor temperature on the combustion effi­
+ciency was investigated at temperatures from 775 to 925 ◦C using ϕ 
+values between 9 and 11.7 (tests C07 to C20 CH4 in Table 2). Moreover, 
+this effect was investigated for two different oxygen carrier inventories 
+of 670 and 1125 kg/MWth, approximately. These different oxygen car­
+rier inventories were obtained modifying the bed height using two 
+different preheater/distributor plates for the fuel reactor. Fig. 9 shows 
+the evolution of the combustion efficiency with temperature for both 
+bed inventories. Efficiency increased significantly with the fuel reactor 
+temperature, being more important for the higher inventory of oxygen 
+carrier. Moreover, the important effect of the increase of the oxygen 
+carrier inventory can be observed. Thus, to obtain high CH4 combustion 
+efficiencies with the CuMn80-Kao20 it was necessary to use high oxygen 
+carrier inventories (higher than 1200 kg/MW) and fuel reactor tem­
+peratures as higher as 925 ◦C. 
+The regeneration is dependent of the air excess used in the air reactor 
+for Cu–Mn oxygen carriers [30]. This fact was attributed to the increase 
+in the CLOU contribution to the overall fuel conversion reaction. By this 
+reason, the effect of the carrier oxidation in the air reactor on the 
+combustion efficiency in the fuel reactor was also investigated (tests C07 
+to C10 CH4 in Table 2). The effect of the air excess on the combustion 
+efficiency was investigated using air excesses from 25 to 100% (thus [O2, 
+AR] varied from 17.86 to 21 vol%) at 800 ◦C. In this range of air excess 
+the combustion efficiencies were similar, indicating that the oxidation is 
+fast enough with common oxygen excess. Thus, the CH4 combustion was 
+mainly carried out by CLC reactions using lattice oxygen. The combus­
+tion efficiency should decrease when the air excess decreases under 
+CLOU mechanism due to the high dependence of the oxygen concen­
+tration in the mixed oxides regeneration [30]. 
+To confirm this assumption, experiments in the TGA with different 
+H2 and CH4 concentrations were carried out in order to evaluate the 
+concentrations in which combustion follow CLC or CLOU mechanisms. 
+Fig. 10(a) depicts the effect of the H2 concentration in the mass varia­
+tion, ω, as a function of time for the reduction with different concen­
+trations of H2, from 1 to 15 vol% at 800 ◦C and for N2 at 900 ◦C. In this 
+case, the reaction mechanism was by lattice oxygen CLC. In order to 
+compare with the CLOU reactivity obtained with pure N2, Fig. 10(b) 
+shows a logarithmic plot for the reaction rate as a function of the H2 
+concentration. It is noteworthy that a linear relation existed between ln 
+(−rred,CLC) and ln[H2] when the concentration of H2 varied between 
+Time (s)
+0
+200
+400
+600
+800
+Xred,CLOU (-)
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+CLOU
+CLC with CH4 
+CH4 fed
+Fig. 8. Solid conversion based on CLOU oxygen transport capacity profiles 
+during the 3rd reduction cycle with N2 (CLOU) and with CH4 (CLC) at 800 ◦C in 
+the batch fluidized bed reactor. 
+Temperature (ºC)
+750
+800
+850
+900
+950
+comb (%)
+0
+20
+40
+60
+80
+100
+1125 kg/MWth
+670 kg/MWth
+Fig. 9. Effect of the fuel reactor temperature on the combustion efficiency for 
+to two oxygen carrier inventories used. TAR = 810 ◦C. ϕ = 3–4. CH4 = 15 vol%. 
+N2 to balance. 
+I. Ad´anez-Rubio et al.                                                                                                                                                                                                                          
+
+
+===== Page 9 =====
+
+Fuel Processing Technology 217 (2021) 106819
+9
+values corresponding to 15 and 1 vol%. The reaction rates were higher 
+than that found with N2 at any H2 concentration. This behavior was 
+different to that found by Mei et al. with Cu/CuAl2O4 [43] and also 
+studied by Su et al. [44] in which the CLC mechanism was faster than the 
+CLOU mechanism at H2 concentrations higher than 1 vol%. 
+The same analysis was done using CH4 as fuel, because it was the fuel 
+used in the continuous unit. Thus, it was possible to observe that also the 
+reaction rate decrease when the CH4 concentration decrease. However, 
+when the CH4 concentration decreased below 0.5 vol%, i.e. ln [CH4] =
+−1.5, a reduction rate of 0.08 × 10−3 kgO2/(s⋅kgOC) was observed, 
+which is equal to the oxygen release rate by CLOU, as it can be seen in 
+Fig. 10(b). As a consequence, the oxygen uncoupling reaction was faster 
+than the gas–solid reaction (lattice oxygen) at low CH4 concentrations, 
+and therefore the oxygen transference rate was dominated by oxygen 
+uncoupling mechanism. 
+As a conclusion, when CH4 was used as fuel at concentrations higher 
+than 0.5 vol%, the combustion mechanism can be considered controlled 
+by lattice oxygen transference via gas-solid reaction, and the reaction 
+rate increases with the fuel concentration. On the contrary, oxygen 
+uncoupling dominated the combustion of CH4 at concentrations lower 
+than 0.5 vol%, which means that the oxygen transference rate was 
+dominated by the rate of oxygen release, whereas CH4 concentration 
+contributed little to the reduction of Cu1.2Mn1.8O4 to CuMnO2. Thus, in 
+the upper part of a fuel reactor when low CH4 concentrations were 
+present, CLOU mechanism of oxygen supply would be responsible of 
+reaching complete CH4 combustion. 
+3.5. Synthetic biogas combustion 
+One option of interest is to use this oxygen carrier in Chemical 
+Looping Combustion of biogas. Biogas is generated mainly by waste 
+digestion and contains important amounts of CO2. Typical biogas con­
+tains one CO2/CH4 ratio of 1.5 and variable amounts of sulphur com­
+pounds. To check the suitability of CLC with the developed oxygen 
+carrier, one experimental campaign was developed in the continuous 
+unit using synthetic biogas. Experiments were performed in the 500 Wth 
+CLC unit burning synthetic biogas with different ratios CO2/CH4 from 
+0.7 to 3 at temperatures from 775 to 920 ◦C and oxygen carrier to fuel 
+ratios from 4.5 to 12 (tests C01 to C17 BIO in Table 2). CO2 never 
+appeared at the air reactor outlet, indicating also in this case there was 
+no carbon bypass to this reactor and thus CO2 capture was 100%. 
+3.5.1. Effect of the CO2/CH4 concentration ratio 
+Biogas with five CO2/CH4 concentration ratios from 0.7 to 3 was 
+used for the combustion in the 500Wth continuous unit at 800 ◦C using a 
+ϕ value of 9.3. It can be seen that the ratio CO2/CH4 did not affect the 
+combustion efficiency as can be observed in Table 2 (tests C01 to C05 
+Bio), with a value around 65% in all the interval of CO2/CH4 ratio 
+studied. 
+3.5.2. Effect of the fuel reactor temperature 
+The effect of the fuel reactor temperature on the combustion effi­
+ciency is shown in Fig. 11. As expected, efficiency showed an important 
+increase with temperature, although the same value of 20% CH4 was 
+used in the different CO2/CH4 mixtures. For comparison purposes, the 
+line corresponding to 15% CH4 combustion with the same solid 
+Time (min)
+0
+5
+10
+15
+20
+25
+30
+=m/mox (-)
+0.90
+0.95
+1.00
+15 vol% H2
+5 vol% H2
+4 vol% H2
+3 vol% H2
+2 vol% H2 
+1 vol% H2
+100 vol% N2 
+ln Cred,gas (-)
+-3
+-2
+-1
+0
+1
+2
+3
+ln (-rred,CLC) (kg O2/(s·kgOC))
+-11
+-10
+-9
+-8
+-7
+-6
+-5
+H2 
+CH4 
+N2 
+(a)
+(b)
+CLOU
+CLC
+Fig. 10. (a) Effects of H2 concentration on the reduction of the Cu1.2Mn1.8O4 oxygen carrier; temperature: 800 (H2) and 950 ◦C (N2). (b) Reduction rates of 
+Cu1.2Mn1.8O4 as a function of the H2 and CH4 concentration. 
+Temperature (ºC)
+760
+780
+800
+820
+840
+860
+880
+900
+920
+940
+comb (%)
+50
+60
+70
+80
+90
+100
+Synthetic Biogas
+Methane
+Fig. 11. Combustion efficiency profile for fuel reactor temperature burning 
+synthetic biogas (full line) with CO2/CH4 ratio of 1.5 and ϕ around 3.1. Com­
+bustion efficiency profile for fuel reactor temperature burning 15% CH4 (−⋅⋅-), 
+ϕ = 3.1. 
+I. Ad´anez-Rubio et al.                                                                                                                                                                                                                          
+
+
+===== Page 10 =====
+
+Fuel Processing Technology 217 (2021) 106819
+10
+inventory (1125 kg/MWth) has also been included. Some differences 
+were observed especially at temperatures lower than 890 ◦C that can be 
+attributed to the higher CH4 concentration used. So, it can be said that 
+the possible CH4 dry reforming by the CO2 with the biogas fed in the fuel 
+reactor did not significantly affect the CLC combustion process using 
+CuMn80-Kao20 as oxygen carrier. 
+3.5.3. Effect of the oxygen carrier to fuel ratio 
+The oxygen carrier circulation rate is directly correlated to the ox­
+ygen carrier/fuel ratio (ϕ) which should impact on the reaction rates. 
+Experiments with oxygen carrier to fuel ratios from 4.5 to 12 at 850 ◦C 
+and CO2/CH4 ratio of 1.5 were done to analyze the effect of this variable 
+on the combustion efficiency. Low ϕ ratios, from 1 to 3, are usually 
+sufficient to reach complete combustion with Cu based oxygen carriers. 
+In the present study low ratios were not used to avoid the risk of 
+agglomeration when an oxygen carrier with more than 20% CuO [18] is 
+used as in this case. Combustion efficiencies as a function of ϕ are 
+indicated in Table 2 (tests C06 and C15 to C17 Bio). Low combustion 
+efficiencies were found for all the ϕ values, showing the low reactivity of 
+this material with respect to other Cu based oxygen carriers when oxy­
+gen carrier inventories of 930 kg/MWth were used. A non-significant 
+tendency between the combustion efficiency and ϕ was observed with 
+values around 75%. This behavior corresponds to the last part, with very 
+low slope, in the combustion efficiency versus ϕ plots found for all the 
+oxygen carriers, although for this temperature and one oxygen carrier 
+inventory of 930 kg/MWth was placed at low combustion efficiencies 
+(75%) [45]. Thus, to reach complete combustion of CH4 or synthetic 
+biogas the use of higher inventories with the high ϕ values used was 
+necessary. 
+The effect of the air excess was also tested during biogas combustion 
+at air excess ranging from 20 to 50% at 850 ◦C. Also in this case, the 
+effect on the combustion efficiency was not significantly affected, con­
+firming the results found for the CH4 combustion. Thus, the oxygen 
+supply for the combustion can be considered coming from lattice oxy­
+gen. It can be concluded that the biogas combustion was carried out by 
+lattice oxygen supply mechanism, as when CH4 was used as fuel. Taking 
+into account the above results, for this low reactivity oxygen carrier, the 
+main operating variables were found the fuel reactor temperature and 
+the oxygen carrier inventory, when the process was carried out at high ϕ 
+values in order to avoid agglomeration in the bed. 
+3.6. Attrition behavior 
+Oxygen carriers undergo attrition during fluidized bed CLC reaction; 
+this fact determines the lifetime of the material and the needs of 
+replacement of the material lost during reaction. Attrition was measured 
+during 26 h of redox cycles in the batch reactor. Values measured during 
+CLOU operation with redox cycles N2/air were 5.10−5 wt%/h while 
+combustion cycles burning CH4 showed higher values of 1.3. 10−3 wt 
+%/h. These values indicated a good mechanical stability of the oxygen 
+carrier. The mixed oxide Cu1.5Mn1.5O4 developed by Adanez-Rubio et al. 
+[31] prepared without kaolin showed an attrition rate of 5. 10−3 wt%/h 
+after 35 h cycles in N2/air. A comparison between these two oxygen 
+carriers indicated a 100 times lower attrition rate for the oxygen carrier 
+prepared with the addition of kaolin. 
+In the continuous unit, the attrition rate was calculated from the fines 
+of size lower than 45 μm recovered after each 5 h of operation. This 
+evaluation was considered as the nearest to the real behavior of the 
+oxygen carrier in an industrial unit. Fig. 12 plots the attrition rate as a 
+function of the operation time. In the first 10 h of continuous operation, 
+it can be observed a decrease in the attrition rate. This is attributed to 
+rounding effects of the particles and to the loses of possible fines stuck to 
+the particles. After this minimum, the increase of the attrition rate is 
+related with new fines formed during the redox cycles. The first 26.5 h 
+results were obtained during CH4 combustion, while points from 26.5 h 
+to 50 h corresponded to synthetic biogas combustion. The initial values 
+increased with the combustion time reaching a value of 5.3 10−3 wt%/h. 
+From this attrition rate a lifetime of the oxygen was extrapolated to be 
+19,000 h. 
+It can be said that this oxygen carrier exhibited the highest lifetime 
+found for a Cu based oxygen carrier. Up to now the highest value for a Cu 
+oxygen carrier impregnated on γ-Al2O3 was 5000 h [22]. This fact 
+clearly showed the strong effect of the presence of 20% kaolin on its 
+composition on the lifetime although at the same time, there was an 
+important decrease in the reactivity and performance for CLC combus­
+tion. Thus, in order to optimize this oxygen carrier, it is necessary to 
+meet a compromise between lifetime and reactivity and likely lower 
+fractions of kaolin would be used on its composition. Table 3 shows the 
+attrition rate and extrapolated lifetime for several CLC oxygen carriers 
+using methane as fuel in a continuous unit found in the literature. It can 
+Operation time (h)
+0
+10
+20
+30
+40
+50
+60
+Attrition rate (%/h)
+0.000
+0.002
+0.004
+0.006
+0.008
+0.010
+Fig. 12. Attrition rate in the continuous unit measured during 50 h of com­
+bustion in steps of about 5 h. 
+Table 3 
+Relevant information on the use of oxygen-carrier in CLC units for natural gas.  
+Oxygen carrier 
+Unit size (kWth) 
+Operation time (h) 
+Temp. (◦C) 
+Attrition rate (%/h) 
+Lifetime (h) 
+Ref. 
+FR 
+AR 
+NiO/Al2O3 
+10 
+100 
+≈900 
+1000 
+0.0023 
+40,000 
+[46] 
+NiO/NiAl2O4+ MgAl2O4 
+10 
+1016 
+≈940 
+1000 
+0.003 
+33,000 
+[47] 
+NiO/NiAl2O4 
+10 
+160 
+≈940 
+1000 
+0.022 
+4500 
+[48] 
+NiO/α-Al2O3 
+0.5 
+70 
+880 
+950 
+0.01 
+10,000 
+[49] 
+CuO/γ-Al2O3 
+10 
+100 
+800 
+800 
+0.04 
+2400 
+[12] 
+CuO/γ-Al2O3 
+0.5 
+60 
+800 
+900 
+0.09 
+1100 
+[50] 
+CuO14/γAl2O3 Commercial 
+0.5 
+60 
+800 
+850 
+0.02 
+5000 
+[22] 
+Ca0.9Mg0.1Mn0.9O3-δ 
+0.5 
+54 
+900 
+900 
+0.09 
+1100 
+[51] 
+Fe2O3/Al2O3 
+0.5 
+46 
+950 
+950 
+0.09 
+1100 
+[52] 
+CuMn80-Kao20 
+0.5 
+50 
+800–900 
+800–850 
+0.0053 
+19,000 
+Present work  
+I. Ad´anez-Rubio et al.                                                                                                                                                                                                                          
+
+
+===== Page 11 =====
+
+Fuel Processing Technology 217 (2021) 106819
+11
+be observed that the CuMn80-Kao20 has the lowest attrition rate of the 
+Cu-based oxygen carriers for methane combustion, and is in the same 
+order than the Ni-based oxygen carriers. 
+3.7. Oxygen carrier characterization after use 
+The chemical and physical properties of the oxygen carrier after 95 h 
+of hot fluidization with around 50 h of combustion were analyzed. Main 
+results are shown in Table 1. The oxygen transport capacity increased 
+from 12.5 to 13.1% and the porosity increased up to 44% as a conse­
+quence of the 50 h of the CLC combustion. The crushing strength of 
+particles slightly decreased to 2.1 N, while the attrition jet index (AJI) 
+showed one increase from 0.9 to 11.2 indicating the reduction of the 
+particle mechanical integrity although the attrition rates found were 
+very low (5.3 10−3 wt%/h). 
+Oxygen carrier reactivity with CH4 was maintained stable after 50 h 
+of operation in the 500 Wth continuous unit burning CH4 and synthetic 
+biogas as it can be observed in Fig. 13. 
+In order to answer the final question of the oxygen carrier compo­
+sition over time, XRD patterns on particles after 50 h combustion from 
+both reactors were obtained. The phases that could be identified were 
+Cu1.2Mn1.8O4, CuMnO2, Mn3O4, Cu2O and Cu. In the air reactor sample, 
+the same compounds were found with different intensities with the 
+exception of Cu. 
+A sample of used particles taken from the fuel reactor after 50 h of 
+combustion was characterized by SEM-EDX. Particles showed a super­
+ficial and internal porosity, see Fig. 14. The inspection of the surface 
+(Fig. 14 a and b) suggested a good distribution of Cu–Mn mixed oxides 
+without any darker area rich in kaolin. With EDX mapping a low amount 
+of copper is detected on the surface. From the cross section analysis in 
+Fig. 14 c and d, larger differences of element distribution were observed, 
+with more silicon and aluminum towards the edges of the particles and 
+copper in larger extent in the core of the particles (lighter areas). 
+4. Conclusions 
+The effect of the addition of kaolin as ceramic binder on the char­
+acteristics as oxygen carrier of a Cu–Mn mixed oxide were examined 
+from the chemical, mechanical and redox points of view. 
+Addition of 20% kaolin changed the chemical composition of the 
+mixed oxide obtaining Cu1.2Mn1.8O4 and significantly improving the 
+mechanical resistance of the oxygen carrier. 
+Reactivity of the oxygen carrier for oxygen release by CLOU process 
+underwent an important decrease with respect to the similar oxygen 
+carrier prepared without kaolin. 
+The material was first evaluated in a batch fluidized bed reactor. The 
+pseudo equilibrium O2 release was reached between the solid phases 
+Time (min)
+0
+2
+4
+6
+8
+10
+12
+14
+XRed (-)
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Used particles
+Fresh particles
+Fig. 13. Results from TGA at CH4 800 ◦C for fresh and used oxygen carrier.  
+(a) 
+(b) 
+(c) 
+(d) 
+Fig. 14. SEM images of CuMn80-Kao20 collected from the fuel reactor after 50 h of continuous combustion (a) Surface of used particle(b). EDX mapping of the 
+surface for Cu Mn Si and Al (c, d). Cross of used particle. 
+I. Ad´anez-Rubio et al.                                                                                                                                                                                                                          
+
+
+===== Page 12 =====
+
+Fuel Processing Technology 217 (2021) 106819
+12
+between Cu1.2Mn1.8O4 and CuO, with 1.1 vol% at 800 ◦C and 2.2 vol% at 
+900 ◦C. Although O2 concentration was enough for solid fuel combustion 
+by CLOU process its reactivity was low for its use in this type of process. 
+The oxygen carrier was used for CH4 combustion in a CLC continuous 
+unit for 50 h at temperatures up to 925 ◦C and no agglomeration 
+problems were observed during the continuous operation at oxygen 
+carrier to fuel ratios higher than 3. 
+To reach complete methane or synthetic biogas combustion to CO2 
+and H2O oxygen carrier inventories higher than 1200 kg/MWth and fuel 
+reactor temperatures of 925 ◦C were needed. Results found during 
+biogas combustion were similar to that found during methane 
+combustion. 
+During gaseous fuel combustion, the mechanism of oxygen supply 
+was by lattice oxygen in the main part of reactor height, being CLOU 
+mechanism only significant if CH4 concentrations were lower than 0.5%. 
+Presence of kaolin increases the extrapolated lifetime of the oxygen 
+carrier to a value of 19,000 h that is over 3.6 times to the value for a Cu 
+based oxygen carrier in CLC. 
+Addition of kaolin had one important effect on the attrition resis­
+tance of the oxygen carrier although the reactivity decreases both for 
+CLOU and CLC reactions. Thus, it is necessary to optimize the kaolin 
+content in order to obtain a tradeoff between attrition resistance and 
+oxygen carrier reactivity. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgment 
+The work presented in this article is partially funded by the Spanish 
+Research Council (CSIC) through the Intramural Project (201980E043), 
+and by the European Regional Development Fund (ERDF) under the 
+program “Programa Operativo FEDER Arag´on 2014-2020 - Con­
+struyendo Europa desde Arag´on. Project BiosinCO2 (LMP180_18). 
+References 
+[1] IEA, Global Energy & CO2 Status Report 2019, IEA, Paris (France), 2019. 
+[2] ONU, United Nations Framework Convention for Climate Change, The Paris 
+Agreement, ONU, Paris (France), 2015. 
+[3] M.M. Hossain, H.I. de Lasa, Chemical-looping combustion (CLC) for inherent CO2 
+separations—a review, Chem. Eng. Sci. 63 (2008) 4433–4451. 
+[4] A. Lyngfelt, A. Brink, Ø. Langørgen, T. Mattisson, M. Ryd´en, C. Linderholm, 11,000 
+h of chemical-looping combustion operation—where are we and where do we want 
+to go? Int. J. Greenh Gas Control 88 (2019) 38–56. 
+[5] A. Lyngfelt, Chemical looping combustion: status and development challenges, 
+Energy Fuel 34 (2020) 9077–9093. 
+[6] L.S. Fan, Chemical Looping Systems for Fossil Energy Conversions, 2010. 
+[7] H. Zhao, X. Tian, J. Ma, M. Su, B. Wang, D. Mei, Development of tailor-made 
+oxygen carriers and reactors for chemical looping processes at Huazhong 
+University of Science & Technology, Int. J. Greenh Gas Control 93 (2020). 
+[8] J. Adanez, A. Abad, F. Garcia-Labiano, P. Gayan, L. de Diego, Progress in chemical- 
+looping combustion and reforming technologies, Prog. Energy Combust. Sci. 38 
+(2012) 215–282. 
+[9] J. Ad´anez, A. Abad, T. Mendiara, P. Gay´an, L.F. de Diego, F. García-Labiano, 
+Chemical looping combustion of solid fuels, Prog. Energy Combust. Sci. 65 (2018) 
+6–66. 
+[10] A. Zylka, J. Krzywanski, T. Czakiert, K. Idziak, M. Sosnowski, K. Grabowska, 
+T. Prauzner, W. Nowak, The 4th Generation of CeSFaMB in numerical simulations 
+for CuO-based oxygen carrier in CLC system, Fuel 255 (2019). 
+[11] A. Zylka, J. Krzywanski, T. Czakiert, K. Idziak, M. Sosnowski, M.L. de Souza- 
+Santos, K. Sztekler, W. Nowak, Modeling of the chemical looping combustion of 
+hard coal and biomass using ilmenite as the oxygen carrier, Energies 13 (2020). 
+[12] L.F. de Diego, F. García-Labiano, P. Gay´an, J. Celaya, J.M. Palacios, J. Ad´anez, 
+Operation of a 10kWth chemical-looping combustor during 200h with a CuO–Al2O3 
+oxygen carrier, Fuel 86 (2007) 1036–1045. 
+[13] T. Mattisson, A. Lyngfelt, H. Leion, Chemical-looping with oxygen uncoupling for 
+combustion of solid fuels, Int. J. Greenh Gas Control 3 (2009) 11–19. 
+[14] P. Gay´an, I. Ad´anez-Rubio, A. Abad, L.F. de Diego, F. García Labiano, J. Ad´anez, 
+Development of Cu-based oxygen carriers for Chemical-Looping with Oxygen 
+Uncoupling (CLOU) process, Fuel 96 (2012) 226–238. 
+[15] M. Ryd´en, H. Leion, T. Mattisson, A. Lyngfelt, Combined oxides as oxygen-carrier 
+material for chemical-looping with oxygen uncoupling, Appl. Energy 113 (2014) 
+1924–1932. 
+[16] A. Abad, I. Ad´anez-Rubio, P. Gay´an, F. García-Labiano, L. de Diego, J. Ad´anez, 
+Demonstration of chemical-looping with oxygen uncoupling (CLOU) process in a 
+1.5 kWth continuously operating unit using a Cu-based oxygen-carrier, Int. J. 
+Greenh Gas Control 6 (2012) 189–200. 
+[17] K.M. Merrett, K.J. Whitty, Evaluation of coal conversion pathways in fluidized bed 
+chemical looping combustion with oxygen uncoupling (CLOU), Fuel 258 (2019). 
+[18] L.F. de Diego, F. Garcia-Labiano, J. Ad´anez, P. Gay´an, A. Abad, B.M. Corbella, J. 
+Maria Palacios, Development of Cu-based oxygen carriers for chemical-looping 
+combustion, Fuel 83 (2004) (1749-1757). 
+[19] J. Ad´anez, P. Gay´an, J. Celaya, L.F. de Diego, F. García-Labiano, A. Abad, Chemical 
+looping combustion in a 10 kWth prototype using a CuO/Al2O3 oxygen carrier: 
+effect of operating conditions on methane combustion, Ind. Eng. Chem. Res. 45 
+(2006) 6075–6080. 
+[20] O. Langørgen, I. Saanum, N.E.L. Haugen, Chemical looping combustion of methane 
+using a copper-based oxygen carrier in a 150 kW reactor system, Energy Procedia 
+114 (2017) 352–360. 
+[21] R.F. Pachler, S. Penthor, K. Mayer, H. Hofbauer, Investigation of the fate of 
+nitrogen in chemical looping combustion of gaseous fuels using two different 
+oxygen carriers, Energy 195 (2020). 
+[22] A. Cabello, P. Gay´an, A. Abad, L.F. de Diego, F. García-Labiano, M.T. Izquierdo, 
+A. Scullard, G. Williams, J. Ad´anez, Long-lasting Cu-based oxygen carrier material 
+for industrial scale in chemical looping combustion, Int. J. Greenh Gas Control 52 
+(2016) 120–129. 
+[23] I. Ad´anez-Rubio, A. Abad, P. Gay´an, L.F. de Diego, F. García-Labiano, J. Ad´anez, 
+Biomass combustion with CO2 capture by chemical looping with oxygen 
+uncoupling (CLOU), Fuel Process. Technol. 124 (2014) 104–114. 
+[24] I. Ad´anez-Rubio, A. P´erez-Astray, T. Mendiara, M.T. Izquierdo, A. Abad, P. Gay´an, 
+L.F. de Diego, F. García-Labiano, J. Ad´anez, Chemical looping combustion of 
+biomass: CLOU experiments with a Cu-Mn mixed oxide, Fuel Process. Technol. 172 
+(2018) 179–186. 
+[25] I. Ad´anez-Rubio, A. P´erez-Astray, A. Abad, P. Gay´an, L.F. De Diego, J. Ad´anez, 
+Chemical looping with oxygen uncoupling: an advanced biomass combustion 
+technology to avoid CO2 emissions, Mitig. Adapt. Strateg. Glob. Chang. 24 (2019). 
+[26] F.C.M. Driessens, G.D. Rieck, Phase equilibria in the system Cu-Mn-O, Zeitschrift 
+fuer Anorganische und Allgemeine Chemie 351 (1967). 
+[27] A.-M. Azad, A. Hedayati, M. Ryd´en, H. Leion, T. Mattisson, Examining the 
+Cu–Mn–O spinel system as an oxygen carrier in chemical looping combustion, 
+Energ. Technol. 1 (2013) 59–69. 
+[28] D. Hosseini, Q. Imtiaz, P.M. Abdala, S. Yoon, A.M. Kierzkowska, A. Weidenkaff, C. 
+R. Müller, CuO promoted Mn2O3-based materials for solid fuel combustion with 
+inherent CO2 capture, J. Mater. Chem. A 3 (2015) 10545–10550. 
+[29] I. Ad´anez-Rubio, A. Abad, P. Gay´an, I. Ad´anez, L.F. De Diego, F. García-Labiano, 
+J. Ad´anez, Use of hopcalite-derived Cu-Mn mixed oxide as oxygen carrier for 
+chemical looping with oxygen uncoupling process, Energy Fuel 30 (2016) 
+5953–5963. 
+[30] I. Ad´anez-Rubio, P. Gayan, A. Abad, L.F. de Diego, F. García-Labiano, J. Ad´anez, 
+Coal combustion by a spray granulated Cu-Mn mixed oxide for CLOU process, 
+Appl. Energy 208 (2017) 561–570. 
+[31] I. Ad´anez-Rubio, M.T. Izquierdo, A. Abad, P. Gayan, L.F. de Diego, J. Ad´anez, 
+Spray granulated Cu-Mn oxygen carrier for chemical looping with oxygen 
+uncoupling (CLOU) process, Int. J. Greenh Gas Control 65 (2017) 76–85. 
+[32] I. Ad´anez-Rubio, A. Abad, P. Gayan, L.F. de Diego, J. Ad´anez, CLOU process 
+performance with a Cu-Mn oxygen carrier in the combustion of different types of 
+coal with CO2 capture, Fuel 212 (2018) 605–612. 
+[33] A. P´erez-Astray, I. Ad´anez-Rubio, T. Mendiara, M.T. Izquierdo, A. Abad, P. Gay´an, 
+L.F. de Diego, F. García-Labiano, J. Ad´anez, Comparative study of fuel-N and tar 
+evolution in chemical looping combustion of biomass under both iG-CLC and CLOU 
+modes, Fuel 236 (2019) 598–607. 
+[34] ASTM, Standard Test Method for Determination of Attrition of FCC Catalyst by Air 
+Jets. ASTM D5757–11., Standard Test Method for Determination of Attrition of 
+FCC Catalyst by Air Jets, 2006. 
+[35] J. Ad´anez, L.F. de Diego, F. García-Labiano, P. Gay´an, A. Abad, J.M. Palacios, 
+Selection of oxygen carriers for chemical-looping combustion, Energy Fuel 18 
+(2004) 371–377. 
+[36] I. Ad´anez-Rubio, P. Gay´an, A. Abad, L.F. de Diego, F. García-Labiano, J. Ad´anez, 
+Evaluation of a spray-dried CuO/MgAl2O4Oxygen carrier for the chemical looping 
+with oxygen uncoupling process, Energy Fuel 26 (2012) 3069–3081. 
+[37] C.R. Forero, P. Gay´an, L.F. de Diego, A. Abad, F. García Labiano, J. Ad´anez, Syngas 
+combustion in a 500 Wth chemical-looping combustion system using an 
+impregnated Cu-based oxygen carrier, Fuel Process. Technol. 90 (2009) 
+1471–1479. 
+[38] M. Johansson, T. Mattisson, A. Lyngfelt, Investigation of Fe2O3 with MgAl2O4 for 
+chemical-looping combustion, Ind. Eng. Chem. Res. 43 (2004) 6978–6987. 
+[39] L.T. Drzal, J.P. Rynd, T. Fort Jr., Effects of calcination on the surface properties of 
+kaolinite, J. Colloid Interface Sci. 93 (1983) 126–139. 
+[40] F.J. Velasco-Sarria, C.R. Forero, I. Ad´anez-Rubio, A. Abad, J. Ad´anez, Assessment 
+of low-cost oxygen carrier in South-western Colombia, and its use in the in-situ 
+gasification chemical looping combustion technology, Fuel 218 (2018) 417–424. 
+[41] A. Nilsson, Performance of a new Cu-based oxygen carrier in a 500 W continuous 
+Chemical Looping Combustion unit for gaseous fuels, in: Chemistry and Chemical 
+Engineering, Division of Environmental Inorganic Chemistry Chalmers University 
+of Technology, Gothenburg, Sweden, 2020. 
+I. Ad´anez-Rubio et al.                                                                                                                                                                                                                          
+
+
+===== Page 13 =====
+
+Fuel Processing Technology 217 (2021) 106819
+13
+[42] A. Abad, J. Ad´anez, F. García-Labiano, L. de Diego, P. Gay´an, J. Celaya, Mapping of 
+the range of operational conditions for Cu-, Fe-, and Ni-based oxygen carriers in 
+chemical-looping combustion, Chem. Eng. Sci. 62 (2007) 533–549. 
+[43] D. Mei, A. Abad, H. Zhao, J. Ad´anez, Characterization of a sol-gel derived CuO/ 
+CuAl2O4 oxygen carrier for chemical looping combustion (CLC) of gaseous fuels: 
+relevance of gas-solid and oxygen uncoupling reactions, Fuel Process. Technol. 133 
+(2015) 210–219. 
+[44] M. Su, H. Zhao, X. Tian, The competition between direct gas–solid reduction and 
+oxygen uncoupling of CuO oxygen carrier in chemical looping with oxygen 
+uncoupling: a single particle simulation study, Combust. Flame 221 (2020) 
+219–227. 
+[45] I. Ad´anez-Rubio, S.T. Bararpour, A. Abad, P. Gay´an, G. Williams, A. Scullard, 
+N. Mahinpey, J. Ad´anez, Performance Evaluation of a Cu-based oxygen carrier 
+impregnated onto ZrO2 for chemical-looping combustion (CLC), Ind. Eng. Chem. 
+Res. 59 (2020) 7255–7266. 
+[46] A. Lyngfelt, H. Thunman, Construction and 100 h of operational experience of A 
+10-kW chemical-looping combustor, in: Carbon Dioxide Capture for Storage in 
+Deep Geologic Formations, 2005, pp. 625–645. 
+[47] C. Linderholm, T. Mattisson, A. Lyngfelt, Long-term integrity testing of spray-dried 
+particles in a 10-kW chemical-looping combustor using natural gas as fuel, Fuel 88 
+(2009) 2083–2096. 
+[48] C. Linderholm, A. Abad, T. Mattisson, A. Lyngfelt, 160 h of chemical-looping 
+combustion in a 10 kW reactor system with a NiO-based oxygen carrier, Int. J. 
+Greenh Gas Control 2 (2008) 520–530. 
+[49] J. Ad´anez, C. Dueso, L.F. de Diego, F. García-Labiano, P. Gay´an, A. Abad, Methane 
+combustion in a 500 Wth chemical-looping combustion system using an 
+impregnated ni-based oxygen carrier, Energy Fuel 23 (2009) 130–142. 
+[50] C.R. Forero, P. Gay´an, F. García-Labiano, L.F. de Diego, A. Abad, J. Ad´anez, High 
+temperature behaviour of a CuO/γAl2O3 oxygen carrier for chemical-looping 
+combustion, Int. J. Greenh Gas Control 5 (2011) 659–667. 
+[51] A. Cabello, A. Abad, P. Gay´an, L.F. de Diego, F. García-Labiano, J. Ad´anez, Effect of 
+operating conditions and H2S presence on the performance of CaMg0.1Mn0.9O3-δ 
+perovskite material in chemical looping combustion (CLC), Energy Fuel 28 (2014) 
+1262–1274. 
+[52] P. Gay´an, M.A. Pans, M. Ortiz, A. Abad, L.F. De Diego, F. García-Labiano, 
+J. Ad´anez, Testing of a highly reactive impregnated Fe2O3/Al2O3 oxygen carrier for 
+a SR-CLC system in a continuous CLC unit, Fuel Process. Technol. 96 (2012) 37–47. 
+I. Ad´anez-Rubio et al.                                                                                                                                                                                                                          

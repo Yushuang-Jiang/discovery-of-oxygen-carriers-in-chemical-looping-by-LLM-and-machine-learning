@@ -1,0 +1,12 @@
+| DOI | XRD figure present | XRD in which figure | TGA/TG/DTG/TPD/O2 evolution figure present | TGA/TG/DTG/TPD/O2 evolution in which figure |
+|---|---|---|---|---|
+| 10.1016/j.matchemphys.2021.125358 | No | - | Yes | Figure 1, Figure 2, Figure 5, Figure 6, Figure 7, Figure 8, Figure 9, Figure 13 |
+
+XRD compound/material identification:
+La0.5A0.5Mn0.6Al0.4O3, La0.5A0.5Mn0.6Cr0.4O3, La0.5A0.5Mn0.6Al0.2Cr0.2O3, La0.5A0.5Mn0.8Ga0.2O3, La0.5A0.5Mn0.9Mg0.1O3, La0.5Sr0.5MnO3, La0.5Ca0.5MnO3, Sm0.75Sr0.25MnO3, Sm0.5Sr0.5MnO3, Pr0.75Sr0.25MnO3, Pr0.5Sr0.5MnO3, Pr0.25Sr0.75MnO3, La0.5Sr0.5CoO3, LaMn0.5Co0.5O3, Y0.97La0.03MnO3, Y0.9Ce0.1MnO3, Y0.87Sr0.1La0.03MnO3, Y0.9Sr0.1MnO3, BaCe0.5Mn0.5O3, Ce0.85Zr0.15O2, Ce0.63Zr0.37O2, Ce0.63Zr0.27Al0.1O2, CeO2, Ca0.5Sr0.5Mn0.5Fe0.5O3
+
+TGA/TG/DTG/TPD/O2 evolution compound/material identification:
+La0.5A0.5Mn0.6Al0.4O3, La0.5A0.5Mn0.6Cr0.4O3, La0.5A0.5Mn0.6Al0.2Cr0.2O3, La0.5A0.5Mn0.8Ga0.2O3, La0.5A0.5Mn0.9Mg0.1O3, La0.5Sr0.5MnO3, La0.5Ca0.5MnO3, Sm0.75Sr0.25MnO3, Sm0.5Sr0.5MnO3, Pr0.75Sr0.25MnO3, Pr0.5Sr0.5MnO3, Pr0.25Sr0.75MnO3, La0.5Sr0.5CoO3, LaMn0.5Co0.5O3, Y0.97La0.03MnO3, Y0.9Ce0.1MnO3, Y0.87Sr0.1La0.03MnO3, Y0.9Sr0.1MnO3, BaCe0.5Mn0.5O3, Ce0.85Zr0.15O2, Ce0.63Zr0.37O2, Ce0.63Zr0.27Al0.1O2, CeO2, Ca0.5Sr0.5MnO3, Ca0.5Sr0.5Mn0.5Fe0.5O3, LSMMg-P1
+
+Evidence:
+The paper explicitly states in Section 2.2 that redox behavior was studied via thermogravimetric analysis (TGA) and that O2 and CO production yields were calculated. Figure 1 displays O2 and CO production yields for Ca and Sr-based perovskites. Figure 2 shows O2 and H2 production rates for LSMMg-P1. Figures 5, 6, and 7 present TGA profiles and associated O2/CO yields for Sr-based, Y-based, and ceria-based materials respectively. Figures 8 and 9 show TGA data used for thermodynamic studies (mass variation under different pO2). Figure 13 shows mass variation during TGA for kinetic analysis. The text consistently refers to "O2 production yield", "O2 release", and "mass variation due to oxygen release" in the context of these figures. XRD patterns are mentioned as being present in the Supplementary Material (Section 2.2) and referenced in the text (e.g., "XRD patterns... are shown in Fig. S8"), but no XRD patterns are displayed in the main figures (Figures 1-14) of the provided text.

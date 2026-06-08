@@ -1,0 +1,1195 @@
+
+
+===== Page 1 =====
+
+Chemical Engineering Journal 446 (2022) 137086
+Available online 21 May 2022
+1385-8947/© 2022 Elsevier B.V. All rights reserved.
+Mn-doped Ca2Fe2O5 oxygen carrier for chemical looping gasification of 
+biogas residue: Effect of oxygen uncoupling 
+Beibei Yan a,b, Zibiao Liu a, Jian Wang a, Yadong Ge c, Junyu Tao c,*, Zhanjun Cheng a,*, 
+Guanyi Chen c,d 
+a School of Environmental Science and Engineering, Tianjin University, Tianjin 300350, China 
+b Tianjin Key Lab of Biomass Wastes Utilization, Tianjin 300350, China 
+c School of Mechanical Engineering, Tianjin University of Commerce, Tianjin 300134, China 
+d Preparation Office of Georgia Tech Tianjin University Shenzhen Institute, Shenzhen 518071, China   
+A R T I C L E  I N F O   
+Keywords: 
+Chemical looping gasification 
+Oxygen uncoupling 
+Oxygen carrier 
+Biogas residue 
+A B S T R A C T   
+Anaerobic digestion is an important approach to treat and utilize kitchen waste, while kitchen waste derived 
+biogas residue (BR) disposal remains a serious problem in this process. This study investigated the feasibility of 
+chemical looping gasification (CLG) as an efficient way to treat and generate syngas from BR. Besides, Mn-doped 
+Ca2Fe2O5 (MCF) as a novel oxygen carrier with mild oxygen uncoupling capability was developed, and its 
+performance against traditional Ca2Fe2O5 (CF) oxygen carrier was compared. Results indicated that, significant 
+oxygen release capability was observed on the prepared MCF oxygen carrier. In the gasification tests, CLG with 
+MCF at 800 ℃ showed optimal total gas yield, carbon conversion, and cold gas efficiency, which increased 0.08 
+Nm3/kg, 17.22%, and 13.37% compared to CF, respectively. According to the XPS, H2-TPR and XRD charac­
+terization results, the optimal performance of MCF could be attributed to the oxygen uncoupling characteristic 
+brought by Mn addition. The formation of the oxygen uncoupling capability of MCF could be explained by three 
+reasons: (1) Mn in MCF mainly existed in form of Mn3+ and Mn4+, which resulted in the extremely strong 
+oxidability at a temperature as low as 250 ℃. (2) The higher Fe3+/Fe2+ ratio of 1.55 in MCF than CF caused by 
+Mn addition led to greater oxidability of Fe ions. (3) MCF had a higher lattice oxygen amount than CF at about 
+3.86%, and the lattice oxygen in its crystal structure had been transformed into active lattice oxygen species, 
+which were between lattice oxygen (O2–) and atomic adsorbed oxygen (O−). As a result, this paper investigated 
+the potential of CLG to treat and utilized BR, and the superiority of CLG with oxygen uncoupling (CLGOU) on 
+MCF was highlighted. It’s hoped that this study could provide a fundamental knowledge on CLG and CLGOU of 
+BR, and benefit to better downstream process design of anaerobic digestion industry.   
+1. Introduction 
+Anaerobic digestion is a promising biomass utilization technology, 
+which converts organic solid wastes (especially kitchen waste and 
+livestock manure) into biogas[1]. Biogas had great application potential 
+in heating, combined heat and power generation, transportation fuel, 
+upgraded to natural gas quality, and so on[2]. The emerging installation 
+of biogas plants has led to a growing concern for the disposal of its solid 
+by-product, namely biogas residue. A number of studies have indicated 
+that biogas residue could work as an organic fertilizer or used on soilless 
+culture[3–4]. However, due to its high transportation cost and less 
+satisfying dosage controllability, it’s usually not applicable in large scale 
+utilization. Thus, it’s urgent to develop a suitable method to treat and 
+utilize biogas residue. 
+The gasification technology can make good use of the organic matter 
+in the biogas residue to produce syngas, which is widely used in 
+chemical industry, petrochemical industry, and so on. Besides, some 
+elements such as K in biogas residue have a positive catalytic effect on 
+gasification[5–6]. But biogas residue also contains a large amount of 
+nitrogen (approximately 1.53% to 5.79%)[7], and the conventional 
+gasification method could have serious NOx emission problem. The 
+recently developed chemical looping gasification (CLG) method is thus 
+potentially promising to treat biogas residue with significantly lower 
+NOx emission. CLG uses the lattice oxygen contained in solid oxygen 
+* Corresponding authors. 
+E-mail addresses: taojunyu@tjcu.edu.cn (J. Tao), zjcheng@tju.edu.cn (Z. Cheng).  
+Contents lists available at ScienceDirect 
+Chemical Engineering Journal 
+journal homepage: www.elsevier.com/locate/cej 
+https://doi.org/10.1016/j.cej.2022.137086 
+Received 29 December 2021; Received in revised form 2 April 2022; Accepted 17 May 2022   
+
+
+===== Page 2 =====
+
+Chemical Engineering Journal 446 (2022) 137086
+2
+carriers to replace the conventional gasification agents, namely O2, H2O, 
+and air. At the same time, CLG can easily control the amount of oxygen 
+released to increase hydrogen production and promote tar cracking[8]. 
+Through the oxidation of oxygen carriers with oxygen in the air reactor, 
+nitrogen-free gasification (compared to air gasification) in the fuel 
+reactor is realized while reducing energy consumption and costs 
+(compared to O2 gasification). 
+Oxygen carriers play an important role in the chemical looping 
+process. Its performance is the key factor affecting the CLG reaction 
+process[9]. Among various oxygen carriers, Ca-Fe-based oxygen carriers 
+is a promising one[10–15] due to the following facts. On the one hand, 
+Fe-based oxygen carriers have the following advantages[10]: (1) Satis­
+factory reactivity and recyclability. (2) Better environmental friendli­
+ness. (3) Low cost. Therefore, it is favored by a wide range of 
+researchers. On the other hand, Ca-based oxygen carrier also has many 
+advantages [13]: (1) Reducing the CO2 of synthesis gas and increasing 
+the purity of H2. (2) Reducing the output of tar. (3) As an alkaline 
+catalyst. Hu et al[15] demonstrated that a simple one-step reduction and 
+oxidation for Ca2Fe2O5 could benefit the hydrogen production through 
+the re-oxidation started from Fe by steam. Li et al [12] find that Ca-Fe- 
+based oxygen carriers are more conducive to CO production through the 
+basic research on the reduction behavior and kinetics of CaO⋅Fe2O3 and 
+Fe2O3 oxygen carriers. But Ca-Fe based oxygen carriers also have many 
+shortcomings such as general performance. Although Ca addition can 
+enhance the reusability of Fe-based oxygen carrier, but it is still not 
+satisfactory enough for industrial application. Besides, the complex 
+reduction intermediates of Ca-Fe-based oxygen carriers will result in the 
+poor diffusion condition of lattice oxygen and gas products[12]. 
+Therefore, it is necessary to optimize the performance of Ca-Fe-based 
+oxygen carriers. 
+Considering the oxygen uncoupling effect widely reported in CLC 
+field[16–17], a hypothesis of this work is that, pruning the Ca-Fe-based 
+oxygen carriers with oxygen uncoupling capability could be an effective 
+method to enhance its performance in CLG. Unlike the generalized sol­
+id–solid reaction between gasification feedstock and oxygen carriers in 
+CLG, oxygen carriers with oxygen uncoupling capability can achieve 
+oxygen release at a certain temperature and oxygen partial pressure. The 
+released oxygen from oxygen carriers would react with the gasification 
+feedstock, achieving CLG with oxygen uncoupling (CLGOU), which 
+features in the generalized gas–solid reaction (reaction between mo­
+lecular oxygen and feedstock). Under this circumstance, the gas–gas 
+reactions of H2, CO, CH4 etc. are in fact included in generalized gas–solid 
+reactions [18]. CLGOU is believed to have superior performance than 
+CLG because generalized gas–solid reaction between the gasification 
+feedstock and the molecular oxygen is supposed to be faster than the 
+generalized solid–solid reaction between the gasification feedstock and 
+the lattice oxygen[19]. 
+Plenty of metals (e.g. Cu, Mn, and Co) based oxygen carriers have 
+been reported to have oxygen uncoupling characteristics[17,20], which 
+is illustrated in the Ellingham diagram[21]. In terms of chemical looping 
+technology with oxygen uncoupling, Cu-based oxygen carriers have 
+been widely used in chemical looping combustion (CLC) due to their 
+high-temperature oxygen release characteristics. Zhou et al[19] indi­
+cated that the reaction is dominated by the CLC reaction and converted 
+to the chemical looping with oxygen uncoupling (CLOU) reaction as the 
+temperature in the reactor increases. Cu-based oxygen carriers have also 
+been investigated in CLGOU, and its increased syngas yield indicates the 
+feasibility of using oxygen carriers with oxygen uncoupling capability in 
+CLG[22]. Worthwhile, the oxygen release temperature of Mn is much 
+lower than that of Cu, and the appropriate reaction temperature of CLG 
+is usually lower than that of CLC[21]. Besides, the use of Co-based ox­
+ygen carriers will make the fuel reactor have the disadvantage of overall 
+heat absorption[20]. Therefore, it is inferred that Mn may have great 
+potential in CLGOU, just as its extensively studied strengths in CLOU 
+[23–25]. Additionally, the benefits of Mn also include strong response 
+performance, mechanical strength, environmental friendliness, natural 
+abundance, and low cost [26–27]. Besides, utilizing Ca2Fe2O5 could 
+regulate the lattice oxygen’s activity and mobility, achieving the ho­
+mogenous release of the oxygen. Therefore, doping Mn into Ca2Fe2O5 
+may be a promising way to prepare an oxygen uncoupling oxygen car­
+rier, which is suitable for CLG. 
+Accordingly, this study developed a novel Mn-doped Ca2Fe2O5 
+(MCF) oxygen carrier to overcome the shortcomings of the traditional 
+Ca2Fe2O5 (CF) oxygen carrier. Both CLG (using CF) and CLGOU (using 
+MCF) of BR were conducted to validate their feasibility towards treat­
+ment and utilization of BR. With help of a series of characterizations 
+including XPS, H2-TPR, and XRD, the role of oxygen uncoupling during 
+CLGOU was also comprehensively discussed. It’s hoped that this study 
+could provide a fundamental knowledge on CLG and CLGOU of BR, and 
+benefit to better downstream process design of anaerobic digestion 
+industry. 
+2. Materials and methods 
+2.1. Materials 
+The BR feedstock was sourced from a biogas plant in Beijing, China, 
+using kitchen waste as the feedstock. The BR feedstock was dried at 105 
+℃ for 24 h and sieved to fine powders with particle size under 0.200 
+mm. The ultimate analysis, proximate analysis, and lower heat value 
+(LHV) results of the BR feedstock are shown in Table 1. 
+2.2. Synthesis of oxygen carriers 
+The (OCs) were prepared by the sol–gel method. Firstly, Fe 
+(NO3)3⋅9H2O, Ca(NO3)2⋅4H2O, and Mn(NO3)2⋅4H2O were dissolved in 
+deionized water. The molar ratio of metal cations of Mn: Fe: Ca were 
+1:1:1 (MCF) and 0:1:1 (CF) respectively. Citric acid was added as a 
+complexing agent and the molar ratio of citric acid to metal cations was 
+1:1. Next, the solution was stirred and adjust its pH to 2.0 ± 0.1 with 
+ammonia. Then the solution was heated at 70 ℃ and continued to be 
+stirred until the viscous gel forms in a magnetic stirrer. Afterward, the 
+resulting precipitate was dried in an oven at 105 ℃ for 24 h. Next, the 
+precursors were calcined in a tube furnace from room temperature to 
+500 ℃ at a heating rate of 10 ℃/min in an air atmosphere, and then the 
+temperature was held at 500 ℃ for one hour. Then, the temperature of 
+the tube furnace was raised to 900 ℃ at a heating rate of 10 ℃/min and 
+maintained temperature for two hours. Finally, the calcined sample was 
+ground and sieved to fine powders with particle size under 0.200 mm. 
+2.3. Experiments 
+To simplify the reaction between feedstock and oxygen carriers in 
+dual fluidized bed, a tube furnace reactor was used in a different at­
+mosphere to realize the reaction in Fuel Reactor and Air Reactor, as 
+shown in Fig. 1. The main reasons were that, in this study, only the 
+component optimization, comparison of gasification effect and reaction 
+mechanism for the oxygen carriers were focused. And the fixed-bed 
+reaction experimental conditions were easier to carry out in the labo­
+ratory stage than the fluidized bed reactor due to the difficult to stabilize 
+in fluidized state. The gaseous products were collected in gas sampling 
+bags. Before the reduction stage, nitrogen was introduced into the tube 
+furnace with the flow rate at 200 mL/min for 10 min ensuring the inert 
+atmosphere. Meanwhile, the tube furnace was heated up to the target 
+reaction temperature (600–1000 ℃) and kept it stable. The mixture 
+samples of biogas residue (1 g) and oxygen carriers (0.5 g) were filled in 
+a porcelain boat. Next, it was pushed into the tube furnace quickly and 
+started to gasify. The gasification reaction time was set at 30 min and the 
+collected gaseous products were transferred into gas sampling bags. 
+When the reduction stage finished, the atmosphere of the tube furnace 
+was converted to air with the flow rate at 200 mL/min and the oxidation 
+stage lasted for 30 min at 800 ℃. After oxidation, biogas residue (1 g) 
+B. Yan et al.                                                                                                                                                                                                                                     
+
+
+===== Page 3 =====
+
+Chemical Engineering Journal 446 (2022) 137086
+3
+was directly added into the porcelain boat and mixed with reaction 
+residue for the next redox cycle. 
+2.4. Date evaluation 
+In this paper, the gas yield of each component Gi (Nm3 /kg) refers to 
+the volume of dry gas products (including H2, CO, CO2, CH4, and C2Hm) 
+generated from per unit mass of biogas residue. It is calculated by: 
+Gi = V
+mxi 
+where V (L) is the total gas volume that has been collected, and m (g) 
+is the mass of biogas residue, and xi (%) is the gas concentration of 
+component i. 
+The total gas yield G (Nm3 /kg) is calculated by: 
+G =
+∑
+Gi 
+The synthesis gas transformation performance of CLG is presented by 
+cold gas efficiency (η) which is calculated by: 
+η = LHV ∑Gi
+Qnet
+× 100%  
+where Qnet (kJ/kg) is the lower heating value of biogas residue. 
+The conversion of biogas residue is evaluated by carbon conversion 
+efficiency (ηc) which is calculated by: 
+ηc = 12(GCO + GCO2 + GCH4 + 2GC2Hm)
+22.4Gb
+× 100%  
+where Gb is the weight percentage of carbon in biogas residue is gained 
+by ultimate analysis. 
+2.5. Characterization methods 
+The composition of outlet gas collected in the gas sampling bag was 
+analyzed by Gas chromatography (GC, Agilent 7890A, 6 Ft 1/8 2 mm 
+Molsieve 5A). 
+Thermogravimetric Analysis (TG, Netzsch STA 449 F3) was con­
+ducted to study the oxygen release capability of oxygen carriers, and 
+then oxygen carriers were oxidized to realize the circulation. Firstly, 5 
+mg of oxygen carriers sample was placed in the crucible. Next, oxygen 
+carriers were heated from 50 ℃ to 800 ℃ at a heating rate of 25 K/min 
+under a pure argon atmosphere, and the temperature was maintained for 
+10 min when it reached 800 ℃. Then, the atmosphere was switched 
+from argon to air (21% O2 and 79% Ar) and the temperature was also 
+maintained for 10 min. The flow rates of argon and air were both 50 mL/ 
+min. 
+X-ray photoelectron spectroscopy (XPS, Thermo Fisher Scientific 
+ESCALAB 250Xi) was employed with the X-ray source of Al Kα. And 
+binding energies (BE) of the sample were corrected by the C1 s peak 
+value of 284.6 eV. 
+Temperature programmed reduction by hydrogen (H2-TPR) of oxy­
+gen carriers was performed using an Automated Catalyst Characteriza­
+tion System (Micromeritics AutoChem II 2920). For each text, 100 mg of 
+sample was pretreated at 200 ℃ for 60 min under argon. Then the 
+temperature was cooled down to 50 ℃ and maintained for 60 min. Later 
+on, the treated sample was hearted from 50 ℃ to 1000 ℃ with a hearting 
+rate of 10 ℃/min under 10 % H2/Ar with a flow rate of 50 mL/min. 
+X-ray diffraction (XRD) patterns were collected by using Bruker D8 
+Advance with Cu Kα radiation (λ = 1.5418 Å) in the range of 5-90◦with 
+a scan rate of 5◦/min. 
+3. Results and discussion 
+3.1. Characterization of oxygen carriers 
+3.1.1. Oxygen uncoupling capability evaluation via TG 
+TG can be used to prove the oxygen uncoupling ability of oxygen 
+carriers and its cyclic stability. Because, compared with a non-oxygen 
+uncoupling oxygen carrier, an oxygen uncoupling oxygen carrier can 
+release oxygen at a certain temperature and oxygen partial pressure. As 
+shown in Fig. 2, the mass changes with time of two oxygen carriers 
+during the five isothermal cycles of reduction (argon atmosphere) and 
+oxidation (air atmosphere: 21% oxygen and 79% argon) at 800 ℃ were 
+compared. With the increase of time, CF maintained its weight stable 
+within certain fluctuations, and its weight didn’t show periodic changes 
+with the different gas atmosphere. Therefore, it can be proved that CF 
+didn’t have oxygen uncoupling characteristics. But the mass corre­
+sponding to the MCF had periodic changes. MCF completed the first 
+cycle from 0 to 50 min, and the weight change during this period can be 
+divided into three stages. For stage 1, both oxygen carriers showed the 
+weight loss at 0–10 min corresponding to the temperature rise from 50 
+℃ to 300 ℃, which may be related to the loss of adsorbed components 
+such as adsorbed oxygen of the oxygen carriers during the preparation 
+and storage process. This is a negligible effect because the curves cor­
+responding to the two oxygen carriers are overlapped[28]. Stage 2 was 
+Table 1 
+The properties of BR feedstock.  
+Proximate Analysis (wt%) 
+Ultimate Analysis (wt%) 
+Lower heating value/(MJ⋅kg−1) 
+Moisture 
+Ash 
+Volatile 
+Fixed carbon 
+C 
+H 
+O 
+N 
+S  
+12.70  
+33.87  
+47.36  
+6.07  
+25.36  
+3.265  
+22.802  
+2.96  
+0.494  
+8.92  
+Fig. 1. Experimental system of CLG for BR (1-Value; 2-Mass flow controller; 3-Porcelain boat; 4-Reactor; 5-Condenser; 6-Filter and Drier; 7-Gas sampling bag).  
+B. Yan et al.                                                                                                                                                                                                                                     
+
+
+===== Page 4 =====
+
+Chemical Engineering Journal 446 (2022) 137086
+4
+in the time range from 10 to 40 min. MCF started to appear weight loss 
+and release oxygen at around 510 ℃. According to the report, oxygen 
+uncoupling of Mn2O3 occurred when the temperature reached 600 ℃ 
+under an inert gas atmosphere, and (Mn, Fe)2O3 had a higher oxygen 
+uncoupling temperature. It was speculated that the change of electronic 
+structure due to the doping of Mn in the MCF led to the existence of 
+Mn4+, which caused lower oxygen uncoupling temperature. What’s 
+more, the slope for the front part of the TG curve was much lower than 
+the latter part. Oxygen uncoupling and oxidation rates of MCF were 
+shown in Fig. 3. Two mass loss peaks can be observed for each cycle, and 
+may correspond to the oxygen uncoupling caused by the exist of Mn4+
+and Mn3+, respectively. It can also find that the first DTG mass loss peak 
+had higher peak intensities. According to the study, the oxygen uncou­
+pling rate of Cu-based oxygen carriers were faster than regeneration rate 
+[29]. However, MCF had slower oxygen uncoupling rate, which was 
+suitable for the better control of CLG. 
+The oxygen released at this time may correspond to the reduction of 
+Mn4+ in the MCF. This verified the previous guess and was further 
+proved in the later XPS, H2-TPR and XRD characterization. Stage 3 
+corresponded to the time range of 40–50 min, and the temperature was 
+still maintained at 800℃ with air atmosphere. At the moment, MCF had 
+the reoxidation ability due to the reduction of metal ions and generation 
+of oxygen vacancies during stage 2, and the oxidation process was 
+realized under the synergistic effect of oxygen concentration and 
+temperature. 
+The results of the TG experiment in the subsequent four redox cycles 
+were the same as the obtained from the first redox experiment. However, 
+their mass loss was slightly smaller than that of the first cycle. The 
+reason was that the reduction time of MCF in the next four cycles was 
+shorter than the first cycle, which led to the incomplete release of lattice 
+oxygen. It was worth noting that the mass loss of MCF was almost equal 
+to the mass gain of regeneration, and the oxygen absorption rate was 
+much higher than the oxygen uncoupling rate. Therefore, the oxygen 
+release performance and its satisfactory recyclability of MCF indicated 
+that it was a suitable oxygen carrier for chemical looping gasification. 
+3.1.2. Oxygen uncoupling reasons analysis 
+3.1.2.1. Xps. XPS is an effective way to determine the elemental 
+composition and chemical states on the surface of oxygen carriers[30]. 
+The binding energy of MCF and CF were both calibrated based on the 
+extraneous polluted carbon (284.8 eV). The XPS survey spectra of two 
+samples were shown in Fig. 4. The main elements in the two oxygen 
+carriers can be easily distinguished in the XPS survey spectra due to the 
+large difference in their binding energies. In addition, the amounts of the 
+component elements on the surfaces of two oxygen carriers were shown 
+in Table 2. Unlike the CF, Mn 2p peaks can be observed in the XPS survey 
+spectra of MCF, and the amounts of Ca and Fe are reduced due to the 
+addition of Mn. These results indicated that Mn was successfully 
+incorporated into the crystal structure of the CF to obtain the MCF ox­
+ygen carrier. Due to the different environments of the atoms, even for 
+the same element, the binding energy of these atoms will be different. 
+Therefore, XPS narrow energy window scans of C 1 s, O 1 s, Ca 2p, Fe 2p, 
+and Mn 2p were carried out for further analysis of oxygen uncoupling 
+Table 3. 
+As shown in Fig. 5(a), three peaks (C1, C2, and C3) were observed 
+from the C 1 s spectra. The presence of these peaks was caused by the 
+contamination of the surface by foreign carbon during the preparation 
+and storage of the oxygen carriers. The region at approximately 288.8 
+eV was caused by the formation of CaCO3 on the surface of oxygen 
+carriers. The peak at 286 eV was assigned to the C-O bond and 284.8 eV 
+attributed to C = C, C–C or C–H bonds[31–32]. From Table 2, we can 
+also find that the amount of carbon of MCF is much smaller than that of 
+the CF due to the addition of Mn, and the percentages of C1 and C3 of 
+MCF were also less than that of CF. The reason was that CF had a large 
+number of oxygen defects resulting in a more open crystal structure, 
+which made it easier to adsorb carbon[33]. The percentage of C2 of the 
+MCF was more than that of CF, so there were more C-O bonds on the 
+MCF surface. It may be caused by the more amount of oxygen which was 
+Fig. 2. TG patterns of CF and MCF over 5 cycles of reduction and oxidation.  
+Fig. 3. Oxygen uncoupling and oxidation rates of MCF.  
+Fig. 4. XPS survey spectra of MCF and CF.  
+B. Yan et al.                                                                                                                                                                                                                                     
+
+
+===== Page 5 =====
+
+Chemical Engineering Journal 446 (2022) 137086
+5
+44.75% than the 40.55% of FC oxygen carrier. 
+The oxygen elements in the oxygen carriers can generally be divided 
+into lattice oxygen (labeled Olat) and surface adsorbed oxygen (labeled 
+Oad). As shown in Fig. 5(b), the O 1 s spectra was divided into three 
+peaks (O1, O2 and O3), which respectively corresponded to molecular 
+absorbed oxygen, atomic absorbed oxygen and lattice oxygen[34–35]. 
+O1 included weakly bonded oxygen species and CaCO3, which proved to 
+exist in the C 1 s spectra [36]. Both O1 and O2 belonged to the category 
+of Oad. The addition of Mn in MCF led to the change of the chemical 
+environment of the O atoms, which enabled it to have the ability of 
+oxygen uncoupling. For adsorbed oxygen, the binding energy of the O1 
+peak was 533.3 eV. The peaks of O2 of the MCF and CF were observed at 
+binding energies of 531.4 eV and 531.2 eV, respectively. The difference 
+of binding energies wasn’t enough to illustrate the generation of sig­
+nificant electron transfer of adsorbed oxygen[37]. Besides, MCF had 
+more amount of oxygen, but CF had more amount of Oad than MCF. 
+There was the same reason for the high amount of carbon, which was 
+that a more open crystal structure caused by oxygen defects was 
+conducive to the adsorption of oxygen. Although there was more 
+adsorbed oxygen on the surface of CF, it didn’t show the mass reduction 
+of oxygen carrier under an inert atmosphere in the thermogravimetric 
+experiment, which meant that Oad wasn’t the reason for oxygen 
+uncoupling of oxygen carriers. As for the lattice oxygen, MCF displayed 
+a shift of 0.6 eV towards higher binding energy, which reveal that MCF 
+had more high-charge oxygen anions than CF[38]. It meant that the 
+addition of Mn caused part of the lattice oxygen (O2–) in the CF losing 
+electrons, but its binding energy was still less than atomic absorbed 
+oxygen (O−). Therefore, this part of oxygen (Oδ−) became a kind of 
+active lattice oxygen between O2– and O−. Compared with the lattice 
+oxygen in the CF oxygen carrier, Oδ−was more likely to transfer elec­
+trons to metal ions under the action of oxygen partial pressure to become 
+O2. In addition, unlike surface adsorbed oxygen, lattice oxygen not only 
+existed on the surface of the oxygen carriers but also in large quantities 
+inside. MCF had a higher amount of lattice oxygen on the surface so that 
+the overall oxygen concentration of the oxygen carrier was much higher 
+than that of the CF. For MCF, after oxygen vacancies were generated by 
+the uncoupling of the oxygen on the surface and the subsurface, there 
+will be a large number of a natural concentration gradient of oxygen 
+vacancies, which provided pathways and energy for the lattice oxygen 
+inside the oxygen carriers diffusing to the surface and continuing with 
+oxygen uncoupling[39]. In general, the high-charge lattice oxygen that 
+was easily converted to molecular oxygen, and the higher lattice oxygen 
+concentration of the MCF may cause the phenomenon of oxygen 
+uncoupling, which explained the decrease of the mass in the thermog­
+ravimetric experiment. 
+High-resolution Ca 2p spectra had been shown in Fig. 5(c), and its 
+peaks were divided into four sub-peaks (Ca1, Ca2, Ca3 and Ca4). Among 
+them, Ca1 and Ca3 were respectively assigned to CaCO3 2p1/2 and 
+CaCO3 2p3/2, which was also reflected in the C1 peak of the C 1 s 
+spectra. And the production of CaCO3 can be interpreted as carbonation 
+conversion on the surface of the oxygen carriers (For Ca2Fe2O5, 
+Ca2Fe2O5 + CO2 → CaCO3 + Fe2O3)[40]. For example, calcined the 
+precursor of oxygen carriers in tube furnace under air atmosphere, 
+which contained CO2, could lead to the form of CaCO3. Ca2 and Ca4 
+corresponded to Ca2Fe2O5 2p1/2 and Ca2Fe2O5 2p3/2 for CF and Mn/ 
+Ca2Fe2O5 2p1/2 and Mn/Ca2Fe2O5 2p3/2 for MCF[41]. From the Ca 2p 
+spectra, there was almost no difference in the binding energy of the two 
+oxygen carriers, so the addition of Mn in the CF didn’t cause the electron 
+transfer and change the valence of Ca[37]. Besides, Ca2+ in the Ca-Fe- 
+based oxygen carriers didn’t undergo the reduction process (Ca2Fe2O5 
++ 6e−→2CaO + 2Fe + 3O2–)[12,15]. Therefore, Ca was considered to 
+the inactive component and showed no effect on the oxygen uncoupling 
+performance of oxygen carriers. 
+In the XPS spectra of the Fe 2p region which was shown in Fig. 5(d), 
+due to the spin–orbit splitting, the peaks of Fe 2p spectra were divided 
+into Fe 2p1/2 peaks and Fe 2p3/2 peaks. Sat1 and Sat2 which repre­
+sented 2p1/2 and 2p3/2 satellite peaks respectively can be observed 
+because conventional X-ray sources are not monochromatic. Fe3+ and 
+Fe2+ were proved to exist in two oxygen carriers and there were no Fe0 
+from the Fe 2p spectra. For ferric iron ions, Fe2 and Fe3 corresponded to 
+Fe3+ 2p1/2 and Fe6 and Fe7 belonged to Fe3+ 2p3/2. And for divalent 
+iron ions, Fe4 and Fe8 were respectively assigned to Fe2+ 2p1/2 and 
+Fe2+ 2p3/2[42–43]. Due to the addition of Mn, the amount of Fe on the 
+surface of MCF was 5.12% which was less than 8.28% of CF. It meant 
+that MCF oxygen carrier had higher Fe3+/Fe2+ ratio than CF oxygen 
+carrier. One of the reasons may be that the addition of Mn changed the 
+electronic structure of part of Fe2+, leading to the form of Fe3+ by 
+valence state changed. Another reason was that the presence of Fe2+ is 
+related to oxygen defects. The production of each defect site of the 
+Table 2 
+Elemental composition on the surface of oxygen carriers obtained from XPS.  
+Items  
+O 
+C 
+Ca 
+Fe 
+Mn 
+Amount (mol %) 
+MCF  
+44.75  
+35.27  
+7.87  
+5.12  
+6.99  
+CF  
+40.55  
+41.12  
+10.05  
+8.28  
+—  
+Table 3 
+Summary of the XPS analysis results.  
+Items  
+MCF   
+CF     
+Binding energy 
+(eV) 
+Percentage of own 
+element (%) 
+Percentage of total 
+element (%) 
+Binding energy 
+(eV) 
+Percentage of own 
+element (%) 
+Percentage of total 
+element (%) 
+C 1 s 
+C1 
+288.8  
+14.75  
+5.20 
+288.9  
+14.46  
+5.95  
+C2 
+286  
+12.87  
+4.54 
+286  
+8.38  
+34.44  
+C3 
+284.8  
+72.38  
+25.53 
+284.8  
+77.16  
+31.73 
+O 1 s 
+O1 
+533.3  
+2.47  
+1.11 
+533.3  
+2.85  
+1.15  
+O2 
+531.4  
+44.44  
+19.89 
+531.2  
+51.32  
+20.81  
+O3 
+529.6  
+53.09  
+23.75 
+529  
+45.83  
+18.59 
+Ca 2p 
+Ca1 
+350.6  
+36.84  
+2.90 
+350.5  
+29.47  
+2.96  
+Ca3 
+347.1   
+347    
+Ca2 
+349.3  
+63.16  
+4.97 
+349.16  
+70.53  
+7.09  
+Ca4 
+345.8   
+345.66   
+Fe 2p 
+Fe1 
+727.2  
+83.38  
+4.27 
+726.6  
+77.61  
+6.43  
+Fe2 
+724.9   
+724.4    
+Fe4 
+713.6   
+713    
+Fe5 
+711.2   
+710.8    
+Fe3 
+723.8  
+16.62  
+0.85 
+723.4  
+22.39  
+1.85  
+Fe6 
+710.2   
+709.8   
+Mn 2p3/ 
+2 
+Mn1 
+642.99  
+31.47  
+2.20 
+—  
+—  
+—  
+Mn2 
+641.86  
+68.53  
+4.79 
+—  
+—  
+—  
+B. Yan et al.                                                                                                                                                                                                                                     
+
+
+===== Page 6 =====
+
+Chemical Engineering Journal 446 (2022) 137086
+6
+oxygen atom will leave two electrons leading to the reduction of Fe3+ to 
+Fe2+[44]. And CF had more oxygen defects on the surface so that it 
+possessed more Fe2+ than that of MCF. What’s more, the sub-peaks of Fe 
+2p spectra all shifted to high binding energy at least 0.4 eV, which also 
+indicated that the addition of Mn made the MCF have more high-charge 
+Fe cations than the CF. 
+From the XPS spectra of Mn 2p3/2 of MCF, as shown in Fig. 6, the 
+peaks of its binding energies at 642.99 eV and 641.86 eV were respec­
+tively ascribed to Mn4+ and Mn3+[45–47]. Due to the high-charge of 
+metal ions and the high-charge of lattice oxygen in XPS analysis, to 
+achieve the charge balance of the oxygen carriers, metal ions can be 
+combined with more oxygen. This can also explain that MCF oxygen 
+carrier contained more lattice oxygen compared to CF, which could 
+contribute to the oxygen uncoupling progress. 
+3.1.2.2. H2-Tpr. H2-TPR had been used to experimentally test the 
+reduction activity of MCF and CF, and combined XPS to comprehen­
+sively explain oxygen uncoupling performance. The hydrogen con­
+sumption peaks of synthetic MCF and CF oxygen carriers were closely 
+related to the valence evolution of their active metal elements. From the 
+results, which as shown in Fig. 7, the reduction of MCF started at 250 ℃, 
+and then the hydrogen consumption peaks appeared at 380, 440, 480, 
+580 and 760 ℃ respectively. The reduction peaks at 380, 480, and 580 
+℃ were caused by the valence evolution of Mn in the oxygen carrier and 
+can be attributed to the stepwise reduction of Mn4+→Mn3+, 
+Fig. 5. XPS spectra of (a) C 1 s, (b) O 1 s, (c) Ca 2p and (d) Fe 2p for MCF and CF.  
+Fig. 6. XPS spectra of Mn 2p2/3 for MCF.  
+B. Yan et al.                                                                                                                                                                                                                                     
+
+
+===== Page 7 =====
+
+Chemical Engineering Journal 446 (2022) 137086
+7
+Mn3+→Mn2.66+ and Mn2.66+→Mn2+ respectively. The reduction peaks 
+at 440 and 580 ℃ were caused by the valence evolution of Fe in the MCF 
+and 
+corresponded 
+to 
+the 
+reductions 
+of 
+Fe3+→Fe2.66+
+and 
+Fe2.66+→Fe2+→Fe0. For CF, the appearance of its peaks at 460 and 840 
+℃ also corresponded to the valence evolution of Fe and corresponded to 
+the same as the stepwise reduction in MCF[48–51]. By comparing the 
+temperatures of hydrogen consumption peaks, it can be found that the 
+addition of Mn for MCF reduced the reduction temperatures of Fe ions in 
+CF which was consistent with the increased binding energy of iron 
+cations in XPS analysis. Besides, the addition of Mn significantly reduced 
+the intensity of the hydrogen reduction peak in the high temperature 
+section (correspond to the reduction of low valence Fe). It could further 
+confirm the conclusion about Fe+3/Fe+2 ratios by XPS. Due to the ex­
+istence of Mn4+ and Mn3+, MCF began to occur hydrogen consumption 
+when the reduction temperature reached 250 ℃, and there were high- 
+intensity reduction peaks in the low-temperature range of 250–500 ℃. 
+It suggested that the lower reduction temperature with higher intensity 
+peaks of MCF resulted in its excellent reduction activity among the two 
+oxygen carriers, which caused oxygen uncoupling ability. 
+From the previous analysis of XPS, we knew that the oxygen species 
+in oxygen carriers included surface adsorbed oxygen and lattice oxygen, 
+and surface adsorbed oxygen showed higher binding energy in O 1 s 
+spectra. Meanwhile, adsorbed oxygen had a lower reduction tempera­
+ture than lattice oxygen in H2-TPR[52–54]. CF had more surface 
+adsorbed oxygen than MCF but the hydrogen consumption rate of the CF 
+in the low-temperature region was much lower than that of the MCF. It 
+proved the speculation in XPS analysis that surface adsorbed oxygen 
+content was extremely small and not the factor of oxygen uncoupling. 
+Compared with CF, MCF had lower reduction temperature with higher 
+intensity peaks in H2-TPR corresponding to the higher binding energy of 
+lattice oxygen, which illustrated that the lattice oxygen of MCF had 
+excellent oxidability. For lattice oxygen, the lattice oxygen on the sur­
+face of the oxygen carriers was usually in a lower reduction temperature 
+region than the lattice oxygen inside. The reason was that the oxygen 
+located within the subsurface and inside of oxygen carriers can migrate 
+to the surface when the lattice oxygen on the surface was consumed. The 
+process of migration needed to overcome the diffusion energy barrier 
+which was a key factor in determining the migration of oxygen anions 
+[39,55–56]. However, it was one-sided to explain the hydrogen con­
+sumption peak in H2-TPR only by the oxygen type. The difference of 
+metal ions related to oxygen determined the chemical environment of 
+oxygen partly. According to a previous publication[34], the multiple 
+reduction peaks in H2-TPR revealed that there were various bonding 
+structures of oxygen elements in oxygen carriers. 
+3.1.2.3. Xrd. As shown in Fig. 8, XRD was carried out to detect the 
+phase structures of MCF and CF. The observed diffraction peaks of CF 
+were perfectly indexed with those of Ca2Fe2O5 (JCPDS Card no 
+71–2264) and it was assigned to orthorhombic structure with pnma 
+space group. However, trace impurities of CaFe2O4 (JCPDS Card no 
+72–1199) and CaO (JCPDS Card no 98–5171) existed because minimal 
+cations didn’t enter the crystal lattice to form crystals[34]. Although 
+there was no JCPDS Card which perfectly fit to MCF, the diffraction 
+peaks of MCF were closely associated with the Ca3Fe1.5Mn1.5O8 (JCPDS 
+Card no 51–1885), which meant that the Mn was successfully incorpo­
+rated into the crystal structure of CF. Due to the manganese doping, it 
+was noted that the diffraction peaks of MCF were wider than those of CF. 
+This may be caused by the change of the lattice constant according to the 
+Scherrer equation, and the decreased crystallinity was also the possible 
+cause. Besides, the diffraction peaks of MCF moved to a large diffraction 
+degree, which was caused by the change of lattice constant by referring 
+to the Bragg equation. It was further proved that the doping of manga­
+nese caused a smaller crystallite size. The reason may be that the 
+effective ionic radius of Mn4+ (0.53 Å) and Mn3+ (high spin 0.645 Å, low 
+spin 0.58 Å) was similar to the ionic radius of Fe3+ (high spin 0.645 Å, 
+low spin 0.55 Å) and Fe2+ (high spin 0.78 Å, low spin 0.61 Å), but their 
+ionic radius was much smaller than that of Ca2+ (1 Å)[57–58]. The 
+smaller crystallite size is also related to the high valence state of Mn. 
+Their addition caused an electronic unbalance in the lattice that was 
+compensated by reducing the formation of oxygen vacancies (VO
+2+)[59]. 
+This also verified the previous analysis that MCF had a more compact 
+crystal structure and thus showed a higher lattice oxygen concentration. 
+What’s more, the increase of average valence state of metal ions due to 
+manganese doping improved the structural stability by inhibiting the 
+effect of deformation of the coordination polyhedron caused by the 
+mutual repulsion of electrons (Jahn-Teller effect)[57]. 
+In summary, it was known from TG analysis that MCF can release 
+oxygen at a suitable temperature and oxygen partial pressure. The 
+probable reasons were shown as follows. H2-TPR proved that the pres­
+ence of Mn4+ and Mn3+ made MCF exhibit strong oxidability at lower 
+temperature regions. Therefore, the part of the oxygen released was 
+likely to belong to the lattice oxygen which was closely related to the 
+high-valence manganese ions in the crystal structure of MCF. And the 
+higher Fe3+/Fe2+ ratio of MCF may also cause the oxygen uncoupling 
+from the perspective of metal cations. For oxygen anions, the higher 
+binding energy of lattice oxygen caused by the addition of manganese in 
+MCF led to the form of high-charge active lattice oxygen species, which 
+was easy to convert to adsorbed oxygen and then further uncoupled to 
+release molecular oxygen. What’s more, the higher concentration of 
+lattice oxygen of MCF was also an important reason for oxygen 
+Fig. 7. H2-TPR profiles of MCF and CF.  
+Fig. 8. XRD patterns of MCF and CF.  
+B. Yan et al.                                                                                                                                                                                                                                     
+
+
+===== Page 8 =====
+
+Chemical Engineering Journal 446 (2022) 137086
+8
+uncoupling. 
+3.2. Gasification performance 
+By the previous analysis, MCF had a certain oxygen uncoupling 
+ability and the reasons had been studied for the better design of oxygen 
+carriers. Therefore, whether CLGOU of MCF can improve the gasifica­
+tion effect to effectively treat biogas residue should be further studied. 
+The reaction temperature is a vital parameter that affects the perfor­
+mance of gasification. This section compared the reactions of two oxy­
+gen carriers at different reaction temperatures. And the main reactions 
+involved during the CLG of biogas residue were shown in Table 4. 
+As shown in Fig. 9, the gas yield of CLG with MCF and CF increased 
+with the temperature in the range of 600–800 ℃. This can be attributed 
+that high temperature is helpful to enhance the pyrolysis of biogas res­
+idue, tar cracking and char gasification[60]. In addition, the water–gas 
+shift reaction (WGS), Boudouard reaction, methane steam reforming 
+and methane dry reforming were all endothermic reactions. The high 
+temperature was conducive to push the balance to the right hand leading 
+to the higher gas yield. The opposite trend appeared within the range of 
+800–1000 ℃. According to the literature, when temperature was higher 
+than 850 ℃, agglomeration and sintering would occur on Fe-based ox­
+ygen carriers. Therefore, the opposite trend of gas yield was caused by 
+the agglomeration and sintering of oxygen carriers, which inhibited the 
+release of lattice oxygen and adverse for gasification[10,61]. By 
+comparing of two oxygen carriers, it can be found that the gasification of 
+MCF basically had a higher gas yield after 700 ℃. This could be 
+attributed to the formation of new phases by Mn doping, such as 
+Ca3Fe1.5Mn1.5O8. The formation of these new phases made the oxygen 
+carrier possess oxygen uncoupling characteristics, which have been re­
+ported to be effective for increasing gas yield in previous publications 
+[22]. And its total gas yield at 800 ℃ can reach 0.56 Nm3/kg. 
+For further research, Fig. 9 also showed the gas yield of each 
+component in CLG with different oxygen carriers. The gas yield of each 
+component corresponding to the gasification of two oxygen carriers 
+showed an upward trend in the range of 600–700 ℃, which had the 
+same reason for the increase in total gas yield. The yield of CO2 showed a 
+downward trend with the increase of reaction temperature from 700 ℃ 
+to 1000 ℃. This could be attributed to that the increased temperature 
+would strongly enhance the char gasification rate and further react with 
+CO2 (CO2 + C → CO), leading to the reduction of CO2 yield[62]. And 
+previous analysis proved that CF had more CaCO3, which can explain 
+that the highest CO yield of CF corresponded to the reaction temperature 
+of 900 ℃, which was higher than 800 ℃ of MCF. What’s more, the re­
+action of CO and lattice oxygen of oxygen carriers or molecular oxygen 
+was exothermic, which will also inhibit the production of CO2. 
+Compared with CF, when the temperature was higher than 700 ℃, the 
+gasification of MCF had higher CO yield due to its extreme oxidability 
+caused by oxygen uncoupling. However, MCF had less CO2 production. 
+It indicated that the surface sites of MCF may have a catalytic effect on 
+the conversion of CO2. As for hydrogen, the low H2 selectivity and CH4 
+conversion of Fe-based oxygen carriers made the H2 yield of CF gasifi­
+cation increase firstly with the increase of reaction temperature, and 
+then remain stable[63]. But for MCF, its H2 yield increased with the 
+increase of reaction temperature. And when the temperature was higher 
+than 800 ℃, its hydrogen production was higher than that of CF. The 
+reason could be that the addition of Mn promoted the rupture of hy­
+droxyl (C-OH) at higher temperature. And the breaking of C-OH bond is 
+the precursor reaction of the water–gas shift reaction, which can pro­
+mote the generation of hydrogen. Therefore, the doping of Mn had great 
+potential in improving the hydrogen production performance of Fe- 
+based oxygen carriers. 
+As shown in Fig. 10, cold gas efficiency and carbon conversion effi­
+ciency increased firstly and peaked at 800 ℃, then decreased with 
+Table 4 
+The main reactions involved in CLG with MCF and CF.  
+Name of 
+reaction 
+Chemical equation 
+Biomass 
+pyrolysis 
+Biogas residue→Char + Tar + Gases(H2 + CO + CO2 + CnHm)
+Tar cracking 
+Tar→H2 + CO + CO2 + CnHm 
+Char 
+gasification 
+Char + H2O/CO2→H2 + CO + CnHm 
+Oxygen carrier 
+reaction 
+MCF 
+CF 
+OCs→OCsVo + O2C +
+1
+2O2→COCO +
+1
+2O2→CO2H2 +
+1
+2O2→H2OCH4 +
+1
+2O2→CO +
+2H2 
+C + [O]→COCO +
+[O]→CO2H2 +
+[O]→H2OCH4 +
+[O]→CO + 2H2 
+Water-gas shift 
+reaction 
+CO + H2O→H2 + CO2 
+Boudouard 
+reaction 
+C + CO2→2CO 
+Methanation 
+C + 2H2→CH4 
+Methane steam 
+reforming 
+CH4 + H2O→3H2 + CO 
+Methane dry 
+reforming 
+CH4 + CO2→2H2 + 2CO  
+Fig. 9. The effect of temperature on gas yield of gasification with MCF and CF.  
+Fig. 10. The effect of temperature on cold gas efficiency and carbon conversion 
+efficiency of gasification with MCF and CF. 
+B. Yan et al.                                                                                                                                                                                                                                     
+
+
+===== Page 9 =====
+
+Chemical Engineering Journal 446 (2022) 137086
+9
+further elevating temperature. Through the previous analysis, the yield 
+of the syngas also reached the maximum at 800 ℃. And under this re­
+action temperature, the cold gas efficiency of the gasification of MCF 
+and CF can reach 68.42% and 55.05%, and the carbon conversion rate 
+can reach 98.56% and 81.34%, respectively. According to the study, 
+with the introduction of CaO into Fe2O3, the gas yield of each compo­
+nents had a significant improvement[64]. And the cold gas efficiency of 
+MCF is 13.37% higher than CF. As synthetic oxygen carriers, although 
+the preparation cost may be higher, MCF had higher conversion effi­
+ciency than natural ores from the current research results. It indicated 
+that the high cost of synthetic MCF oxygen carrier can be offset by its 
+high performance compared to natural ores. Besides, synthetic oxygen 
+carriers were more homogeneous and easier to interpret their mecha­
+nisms. If natural ores were used, the mechanism may be more difficult to 
+elucidate due to the presence of impurities. Besides, it can be concluded 
+that the Mn-doped oxygen carriers with oxygen uncoupling capability 
+made chemical looping gasification have higher cold gas efficiency and 
+carbon conversion rate. 
+Therefore, MCF has a better ability to provide oxygen to participate 
+in the reaction in the fuel reactor of the CLG, which leads to the great 
+oxidability of the oxygen carrier, and biogas residue will be better 
+gasified[29]. It meant that making use of oxygen uncoupling property to 
+improve the performance of oxygen carriers had great potential. How­
+ever, large amounts of CO2 led to a lower LHV. Therefore, adjusting the 
+ratio of Mn doping of the oxygen carrier and seeking more suitable re­
+action conditions to optimize CLGOU should be further investigated. 
+3.3. Reaction mechanism 
+The reaction of the oxygen carriers in chemical looping gasification 
+includes three steps[21]: (1) Generation of oxygen vacancies. (2) 
+Diffusion of ions. (3) Reaction of oxygen on the surface. And the reaction 
+models of MCF and CF oxygen carriers are shown in Scheme. 1. The 
+oxygen vacancy generation and ion diffusion of MCF and CF are the 
+same. In the fuel reactor, oxygen carriers undergo a reduction reaction. 
+The oxygen carriers generate oxygen vacancies and movable oxygen 
+ions after absorbing the energy required to form oxygen vacancies 
+(△Evac). Because of the different positions of the lattice oxygen, there 
+are different situations about diffusion. Oxygen ions on the surface of the 
+oxygen carriers directly participate in the surface reaction. The oxygen 
+ions inside or on the surface of oxygen carriers should diffuse to the 
+surface of oxygen carriers under the chemical potential gradient of 
+oxygen, and then participate in the reaction. At this time, the charge 
+balance is achieved by the reverse flow of electrons relative to oxygen 
+ions. These electrons are fed back to the metal cation-oxygen network 
+causing the change in the valence of the metal cations. As for the surface 
+reaction, MCF and CF have different reaction patterns. For CF, the lattice 
+oxygen on the surface reacts directly with the products after the pyrol­
+ysis of biogas residue. For MCF, from the XPS results, the existence of 
+high valance Mn (Mn4+ and Mn3+) and higher Fe3+/Fe2+ ratio led to the 
+higher lattice oxygen amount and convert its lattice oxygen (O2–) to 
+active lattice oxygen species (Oδ−). H2-TPR and XRD characterization 
+also supported this conclusion. Therefore, MCF could provide molecular 
+oxygen by the uncoupling of active lattice oxygen species at certain 
+temperatures and oxygen partial pressure. Then, the molecular oxygen 
+reacts with the pyrolysis products of biogas residue to produce the 
+syngas with more CO yield and efficiency. In an air reactor, oxygen 
+carriers undergo an oxidation reaction and both of the oxygen carriers 
+have the same pattern: Oxygen is incorporated into the crystal lattice of 
+oxygen carriers, and then oxygen ions diffuse into their interior and 
+subsurface and combine with oxygen vacancies. 
+4. Conclusions 
+In this work, CF and MCF oxygen carriers were prepared by sol–gel 
+method, and the oxygen uncoupling characteristics of MCF were verified 
+by thermogravimetric analysis. XPS, H2-TPR and XRD were used to 
+analyze the possible causes of oxygen uncoupling caused by Mn doping. 
+Finally, CLG experiments on CF and MCF were conducted in a tube 
+furnace reactor to validate its feasibility towards BR treatment and 
+utilization. The primary conclusions from the studies were summarized 
+as follows: 
+(1) The oxygen uncoupling capability of MCF was validated, which 
+could be attributed to two reasons. For metal cations, the doped Mn in 
+phases of Mn3+ and Mn4+ led to higher Fe3+/Fe2+ ratio, and gave CF the 
+oxygen uncoupling capability. For oxygen anions, Mn doping led to a 
+higher lattice oxygen amount of MCF, and its lattice oxygen was thus 
+transformed into active lattice oxygen species between lattice oxygen 
+(O2–) and atomic adsorbed oxygen (O−). Both of them could enhance the 
+oxygen uncoupling capability. 
+(2) The potential of CLG to treat and utilized BR was investigated, 
+and the superiority of CLG with oxygen uncoupling (CLGOU) on MCF 
+was highlighted. CLG of BR on MCF showed optimal total gas yield, 
+carbon conversion, and cold gas efficiency at 800 ℃, which increased 
+Scheme 1. Reaction mechanism of MCF and CF for CLGOU of BR.  
+B. Yan et al.                                                                                                                                                                                                                                     
+
+
+===== Page 10 =====
+
+Chemical Engineering Journal 446 (2022) 137086
+10
+0.08 Nm3/kg, 17.22%, and 13.37% compared to CF, respectively. It 
+meant that making use of oxygen carriers with oxygen uncoupling 
+ability for CLG was an effective way to treat BR. 
+(3) The superiority of oxygen uncoupling characteristic during CLG 
+could be attributed to that, MCF can release oxygen and has a stronger 
+oxidizing property, making the CLG process produce more CO. Besides, 
+Mn doping can also improve the hydrogen production performance of 
+CF oxygen carrier. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgments 
+This work is financially supported by the Ministry of Science and 
+Technology of the People’s Republic of China (No. 2018YFE0111000) 
+and National Natural Science Foundation of China (No. 51878557). 
+References 
+[1] L. Appels, J. Lauwers, J. Degr`eve, L. Helsen, B. Lievens, K. Willems, J.V. Impe, 
+R. Dewil, Anaerobic digestion in global bio-energy production: Potentialand 
+research challenges, Renew. Sustain. Energy Rev. 15 (2011) 4295–4301. 
+[2] K.C. Surendra, D. Takara, A.G. Hashimoto, S.K. Khanal, Biogas as a sustainable 
+energy source for developing countries: Opportunities and challenges, Renew. 
+Sustain. Energy Rev. 31 (2014) 846–859. 
+[3] V. Arthurson, Closing the global energy and nutrient cycles through application of 
+biogas residue to agricultural land – potential benefits and drawbacks, Energies. 2 
+(2009) 226–242. 
+[4] W. Wang, S.D. Zhu, L.Y. Yuan, X.J. Hao, R.J. Li, J. Long, Application of biogas 
+liquid and biogas residue in soilless culture of pepper, Journal of Anhui Agri Sci. 37 
+(2009) 11499–11500. 
+[5] L.L. Wang, L.H. Shen, S.X. Jiang, T. Song, Chemical looping gasification with 
+potassium-catalyzed petroleum coke for enhanced production of H2 and H2S, 
+Chem. Eng. J. 379 (2020), 122346. 
+[6] H. Z¨ohrer, F. Vogel, Hydrothermal catalytic gasification of fermentation residues 
+from a biogas plant, Biomass Bioenergy 53 (2013) 138–148. 
+[7] J.T. Ding, P.Y. Zhang, G.L. Hua, H.B. Meng, Y.J. Shen, Running status of large and 
+medium scale biogas project and physical, chemical and biological characteristics 
+of materials before and after fermentation in winter of Beijing, Transactions of the 
+Chinese Society of, Agricultural Engineering. 34 (2018) 213–220. 
+[8] X. Zhao, H. Zhou, V.S. Sikarwar, M. Zhao, A.H.A. Park, P.S. Fennell, L.H. Shen, L. 
+S. Fan, Biomass-based chemical looping technologies: the good, the bad and the 
+future, Energy Environ. Sci. 10 (2017) 1885. 
+[9] B.B. Yan, Z.Y. Li, J. Li, B. Liu, G.Y. Chen, Research progress of oxygen carrier in 
+biomass chemical looping gasification, Chemical Industry and Engineering 
+Progress. 39 (10) (2020) 3956–3965. 
+[10] X.N. Huang, J.W. Wu, M.F. Wang, X.Q. Ma, E.C. Jiang, Z.F. Hu, Syngas production 
+by chemical looping gasification of rice husk using Fe-based oxygen carrier, 
+J. Energy Inst. 93 (2020) 1261–1270. 
+[11] G.C. Liu, Y.F. Liao, Y.T. Wu, X.Q. Ma, Enhancement of Ca2Fe2O5 oxygen carrier 
+through Mg/Al/Zn oxide support for biomass chemical looping gasification, Energy 
+Convers. Manage. 195 (2019) 262–273. 
+[12] G. Li, X.W. Lv, C.Y. Ding, X.G. Zhou, D.P. Zhong, G.B. Qiu, Non-isothermal 
+carbothermic reduction kinetics of calcium ferrite and hematite as oxygen carriers 
+for chemical looping gasification applications, Appl. Energy 262 (2020), 114604. 
+[13] J. Udomsirichakorn, P.A. Salam, Review of hydrogen-enriched gas production from 
+steam gasification of biomass: The prospect of CaO-based chemical looping 
+gasification, Renew. Sustain. Energy Rev. 30 (2014) 565–579. 
+[14] Z. Sun, Z. Chen, S. Toan, Z.Q. Sun, Chemical looping deoxygenated gasification: An 
+implication for efficient biomass utilization with high-quality syngas modulation 
+and CO2 reduction, Energy Convers. Manage. 215 (2020), 112913. 
+[15] Q. Hu, Y. Shen, J.W. Chew, T.S. Ge, C.H. Wang, Chemical looping gasification of 
+biomass with Fe2O3/CaO as the oxygen carrier for hydrogen-enriched syngas 
+production, Chem. Eng. J. 379 (2020), 122346. 
+[16] P. Gay´an, I. Ad´anez-Rubio, A. Abad, L.F. de Diego, F. García-Labiano, J. Ad´anez, 
+Development of Cu-based oxygen carriers for Chemical-Looping with Oxygen 
+Uncoupling (CLOU) process, Fuel 96 (2012) 226–238. 
+[17] M. Ryd´en, H. Leion, T. Mattisson, A. Lyngfelt, Combined oxides as oxygen-carrier 
+material for chemical-looping with oxygen uncoupling, Appl. Energy 113 (2014) 
+1924–1932. 
+[18] K.M. Merrett, K.J. Whitty, Evaluation of coal conversion pathways in fluidized bed 
+chemical looping combustion with oxygen uncoupling (CLOU), Fuel 258 (2019), 
+116157. 
+[19] Z.Q. Zhou, L. Han, O. Nordness, G.M. Bollas, Continuous regime of chemical- 
+looping combustion (CLC) and chemical-looping with oxygen uncoupling (CLOU) 
+reactivity of CuO oxygen carriers, Appl. Catal. B 166–167 (2015) 132–144. 
+[20] T. Mattisson, A. Lyngfelt, H. Leion, Chemical-looping with oxygen uncoupling for 
+combustion of solid fuels, Int. J. Greenhouse Gas Control 3 (2009) 11–19. 
+[21] L. Zeng, Z. Cheng, J.A. Fan, L.S. Fan, J.L. Gong, Metal oxide redox chemistry for 
+chemical looping processes, Nature Reviews, Chemistry. 2 (2018) 349–364. 
+[22] J.Y. Ran, F.X. Fu, C.L. Qin, P. Zhang, L.L. Yang, W.D. Wang, L. Yang, Evaluation of 
+CuO/MgAl2O4 in Biomass Chemical Looping Gasification with Oxygen Uncoupling, 
+Bioresources. 11 (2016) 2109–2123. 
+[23] G. Azimi, H. Leion, M. Ryd´en, T. Mattisson, A. Lyngfelt, Investigation of Different 
+Mn–Fe Oxides as Oxygen Carrier for Chemical-Looping with Oxygen Uncoupling 
+(CLOU), Energy Fuels 27 (2013) 367–377. 
+[24] K. Idziak, T. Czakiert, J. Krzywanski, A. Zylka, M. Kozlowska, W. Nowak, Safety 
+and environmental reasons for the use of Ni-, Co-, Cu-, Mn- and Fe-based oxygen 
+carriers in CLC/CLOU applications: An overview, Fuel 268 (2020), 117245. 
+[25] R. P´erez-Vega, A. Abad, P. Gay´an, F. García-Labiano, M.T. Izquierdo, L.F. de Diego, 
+J. Ad´anez, Coal combustion via Chemical Looping assisted by Oxygen Uncoupling 
+with a manganese-iron mixed oxide doped with titanium, Fuel Process. Technol. 
+197 (2020), 106184. 
+[26] E. Hayashi, Y. Yamaguchi, K. Kamata, N. Tsunoda, Y. Kumagai, F. Oba, M. Hara, 
+Effect of MnO2 Crystal Structure on Aerobic Oxidation of 5-Hydroxymethylfurfural 
+to 2,5-Furandicarboxylic Acid, J. Am. Chem. Soc. 141 (2019) 890–900. 
+[27] K. Wang, Q.B. Yu, T.W. Wu, M. van Sint Annaland, Q. Qin, Thermodynamic and 
+kinetic characteristics of a Cu-Mn composite oxygen carrier for low-temperature 
+chemical-looping air separation, Chem. Eng. J. 393 (2020), 124792. 
+[28] B.B. Yan, Z.Y. Li, L.G. Jiao, J. Li, G.Y. Chen, G.X. Yang, Chemical looping 
+gasification of Chlorella: Parametric optimization, reaction mechanisms, and 
+nitrogen-containing pollutants emission, Fuel 289 (2021), 119987. 
+[29] K. Wang, F.Q. Wang, Q.B. Yu, M.S. Annaland, Z.Y. Wang, J.Z. Xi, Y.W. Zhang, 
+M. Xue, S.J. Du, Understanding of the oxygen uncoupling characteristics of Cu–Fe 
+composite oxygen carriers for chemical-looping gasification, Fuel Process. Technol. 
+218 (2021), 106844. 
+[30] L.H. Xu, J. Tian, H.Q. Wu, Z.Y. Lu, Y.H. Yang, W. Sun, Y.H. Hu, Effect of Pb2+ ions 
+on ilmenite flotation and adsorption of benzohydroxamic acid as a collector, Appl. 
+Surf. Sci. 425 (2017) 796–802. 
+[31] Z. Sun, S.Y. Chen, J. Hu, A. Chen, A.H. Rony, C.K. Russell, W.G. Xiang, M.H. Fan, 
+M.D. Dyar, E.C. Dklute, Ca2Fe2O5: A promising oxygen carrier for CO/CH4 
+conversion and almost-pure H2 production with inherent CO2 capture over a two- 
+step chemical looping hydrogen generation process, Appl. Energy 211 (2018) 
+431–442. 
+[32] Y.J. Qiang, L. Guo, H. Li, X.J. Lan, Fabrication of environmentally friendly Losartan 
+potassium film for corrosion inhibition of mild steel in HCl medium, Chem. Eng. J. 
+406 (2021), 126863. 
+[33] G.C. Liu, Y.F. Liao, Y.T. Wu, X.Q. Ma, Application of calcium ferrites as oxygen 
+carriers for microalgae chemical looping gasification, Energy Convers. Manage. 
+160 (2018) 262–272. 
+[34] S. Liu, Z.B. Dong, D. Xiang, Y. Jiang, Q.B. Tao, Y. Cao, Crossing-link of 
+experimental reducibility tests, XPS characterizations and DFT estimates on ferrite 
+oxygen carriers in CLC, Appl. Catal. B 238 (2018) 647–655. 
+[35] X.G. Yang, S.T. Liu, X.K. Ye, Y. Wu, S.S. Sheng, G.X. Xiong, X-Ray Photoelectron 
+Spectroscopy Study of LaMn1-xFexO3 (x=0-1) Oxides, Acta Phys. Chim. Sin. 11 
+(1995) 681–687. 
+[36] W. Xingyi, K. Qian, L. Dao, Catalytic combustion of chlorobenzene over 
+MnOx–CeO2 mixed oxide catalysts, Appl. Catal. B 86 (2009) 166–175. 
+[37] Z.J. Wang, H.Q. Wu, Y.B. Xu, K.Q. Shu, J. Yang, L.P. Luo, L.H. Xu, Effect of 
+dissolved fluorite and barite species on the flotation and adsorption behavior of 
+bastnaesite, Sep. Purif. Technol. 237 (2020), 116387. 
+[38] W.J. Fan, H.B. Li, F.Y. Zhao, X.J. Xiao, Y.C. Huang, H.B. Ji, Y.X. Tong, Boosting the 
+photocatalytic performance of (001) BiOI: enhancing donor density and separation 
+efficiency of photogenerated electrons and holes, Chem. Commun. 52 (2016) 
+5316–5319. 
+[39] Y.E. Zheng, K.Z. Li, H. Wang, D. Tian, Y.H. Wang, X. Zhu, Y.G. Wei, M. Zheng, Y. 
+M. Luo, Designed oxygen carriers from macroporous LaFeO3 supported CeO2 for 
+chemical-looping reforming of methane, Appl. Catal. B 202 (2017) 51–63. 
+[40] Z. Sun, X.H. Zhang, H.F. Li, T. Liu, S.E. Sang, S.Y. Chen, L.B. Duan, L. Zeng, W. 
+G. Xiang, J.L. Gong, Chemical looping oxidative steam reforming of methanol: A 
+new pathway for auto-thermal conversion, Appl. Catal. B 269 (2020), 118758. 
+[41] Z. Sun, X.D. Wu, C.K. Russell, M.D. Dyar, E.C. Sklute, S. Toan, M.H. Fan, L.B. Duan, 
+W.G. Xiang, Synergistic enhancement of chemical looping-based CO2 splitting with 
+biomass cascade utilization using cyclic stabilized Ca2Fe2O5 aerogel, J. Mater. 
+Chem. A 7 (2019) 1216. 
+[42] S.K. Sundriyal, Y. Sharma, Controlled generation and tuning the oxygen defects in 
+nanofibers of Ca2Fe2O5 toward high and stable Li-ion battery anode, Appl. Surf. 
+Sci. 560 (2021), 150055. 
+[43] S.Y. Yang, Q. Li, L. Chen, Z.S. Chen, B.W. Hu, H.H. Wang, X.K. Wang, Synergistic 
+removal and reduction of U(VI) and Cr(VI) by Fe3S4 micro-crystal, Chem. Eng. J. 
+385 (2020), 123909. 
+[44] S.K. Sundriyal, Y. Sharma, Role of Oxygen Deficiency and Microstructural Voids/ 
+Gaps in Nanostructures of Ca2Fe2O5 as an Anode Toward Next-Generation High- 
+Performance Li-Ion Batteries, ACS Applied Energy Materials. 3 (2020) 6360–6373. 
+[45] Z.M. Gong, G.B. Wang, H.H. Shi, S. Shao, M.J. Wang, K. Lu, S.X. Gao, Mn(II)-Mn 
+(III)-Mn(IV) redox cycling inhibits the removal of methylparaben and 
+acetaminophen mediated by horseradish peroxidase: New insights into the 
+mechanism, Sci. Total Environ. 788 (2021), 147788. 
+B. Yan et al.                                                                                                                                                                                                                                     
+
+
+===== Page 11 =====
+
+Chemical Engineering Journal 446 (2022) 137086
+11
+[46] H.R. Hao, Q. Zhang, Y. Qiu, M. Li, X.N. Wei, W.J. Sang, J.W. Tao, Insight into the 
+degradation of Orange G by persulfate activated with biochar modified by iron and 
+manganese oxides: Synergism between Fe and Mn, J. Water Process Eng. 37 
+(2020), 101470. 
+[47] C.H. Li, J.S. Cheng, Y. Jiang, W. Xiao, X.M. Yan, Electronic structure regulation and 
+electrocatalytic mechanism of one-dimensional mesoporous La0.8Sr0.2Mn1-xCoxO3 
+with bifunctional electrocatalysts towards Zn-air batteries, J. Power Sources 498 
+(2021), 229940. 
+[48] S.N.R. Inturi, T. Boningari, M. Suidan, P.G. Smirniotis, Visible-light-induced 
+photodegradation of gas phase acetonitrile using aerosol-made transition metal (V, 
+Cr, Fe Co, Mn, Mo, Ni, Cu, Y, Ce, and Zr) doped TiO2, Appl. Catal. B 144 (2014) 
+333–342. 
+[49] O.O. James, B. Chowdhury, S. Maity, TPR and TPD studies of effects of Cu and Ca 
+promotion on Fe–Zn-based Fischer-Tropsch catalysts, J. Chem. Sci. 125 (2013) 
+679–686. 
+[50] Y.M. Ren, L.Q. Lin, J. Ma, J. Yang, Z.J. Fan, Sulfate radicals induced from 
+peroxymonosulfate by magnetic ferrospinel MFe2O4 (M = Co, Cu, Mn, and Zn) as 
+heterogeneous catalysts in the water, Appl. Catal. B 165 (2015) 572–578. 
+[51] L.J. Liu, B.X. Shen, M. Si, P. Yuan, F.J. Lu, H.P. Gao, Y. Yao, C. Liang, H.J. Xu, Mn- 
+based catalysts supported on γ-Al2O3, TiO2 and MCM-41: a comparison for low- 
+temperature NO oxidation with low ratio of O3/NO, RSC Adv. 11 (2021) 18945. 
+[52] Q. Li, G.Z. Zhai, Y. Xu, T. Odoom-Wubah, L.S. Jia, J.L. Huang, D.H. Sun, Q.B. Li, 
+Diatomite Supported Pt Nanoparticles as Efficient Catalyst for Benzene Removal, 
+Ind. Eng. Chem. Res. 58 (2019) 14008–14015. 
+[53] C.Y. Yang, Y. Yang, C.X. Zhang, H. Yu, T.T. Wang, K.Y. Shi, Z.F. Zhang, D.J. Wang, 
+X.T. Dong, High selectivity of Ag-doped Fe2O3 hollow nanofibers in H2S detection 
+at room operating temperature, Sens. Actuators, B 341 (2021), 129919. 
+[54] T.R. Zhang, S.B. Ma, L.Q. Chen, R. Li, X.S. Leng, Y.S. Li, F.L. Yuan, X.Y. Niu, Y.J. 
+Zhu. Effect of Cu doping on the SCR activity over the CumCe0.1-mTiOx (m = 0.01, 
+0.02 and 0.03) catalysts, Applied Catalysis A-General. 570 (2019), 251-261. 
+[55] E. Poffe, H. Kaper, B. Ehrhardt, L. Gigli, D. Aubert, L. Nodari, S. Gross, S. Mascotto, 
+Understanding oxygen release from nanoporous perovskite oxides and its effect on 
+the catalytic oxidation of CH4 and CO, ACS Appl. Mater. Interfaces 13 (2021) 
+25483–25492. 
+[56] T. Jia, E.J. Popczun, J.W. Lekse, Y.H. Duan, Effective Ca2+-doping in Sr1-xCaxFeO3-δ 
+oxygen carriers for chemical looping air separation: A theoretical and experimental 
+investigation, Appl. Energy 281 (2021), 116040. 
+[57] J.Z. Ma, C.X. Wang, H. He, Transition metal doped cryptomelane-type manganese 
+oxide catalysts for ozone decomposition, Appl. Catal. B 201 (2017) 503–510. 
+[58] A. Noor, M.N. Akhtar, S.N. Khan, M.S. Nazir, M. Yousaf, Synthesis, morphological 
+and electromagnetic evaluations of Ca doped Mn spinel nanoferrites for GHz 
+regime applications, Ceram. Int. 46 (2020) 13961–13968. 
+[59] F. He, J. Chen, S.A. Liu, Z. Huang, G.Q. Wei, G.X. Wang, Y. Cao, K. Zhao, La1- 
+xSrxFeO3 perovskite-type oxides for chemical-looping steam methane reforming: 
+Identification of the surface elements and redox cyclic performance, Int. J. 
+Hydrogen Energy 44 (2019) 10265–10276. 
+[60] J.C. Yan, R. Sun, L.H. Shen, H.C. Bai, S.X. Jiang, Y. Xiao, T. Song, Hydrogen-rich 
+syngas production with tar elimination via biomass chemical looping gasification 
+(BCLG) using BaFe2O4/Al2O3 as oxygen carrier, Chem. Eng. J. 387 (2020), 124107. 
+[61] Y.N. Wang, P.J. Niu, H.B. Zhao, Chemical looping gasification of coal using calcium 
+ferrites as oxygen carrier, Fuel Process. Technol. 192 (2019) 75–86. 
+[62] J.W. Wu, Z.F. Hu, Z.W. Miao, W.C. Wu, E.C. Jiang, Effect of alkaline earth metal Ca 
+in rice husk during chemical looping gasification process, Fuel 299 (2021), 
+120902. 
+[63] Z.F. Hu, M.F. Wang, E.C. Jiang, A novel continuous reactor with shaftless spiral for 
+chemical looping gasification and the control of operating parameters, J. Energy 
+Inst. 93 (2020) 2084–2095. 
+[64] G.C. Liu, Y.F. Liao, Y.T. Wu, X.Q. Ma, Synthesis gas production from microalgae 
+gasification in the presence of Fe2O3 oxygen carrier and CaO additive, Appl. 
+Energy 212 (2018) 955–965. 
+B. Yan et al.                                                                                                                                                                                                                                     

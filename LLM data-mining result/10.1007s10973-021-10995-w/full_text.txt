@@ -1,0 +1,851 @@
+
+
+===== Page 1 =====
+
+Vol.:(0123456789)
+1 3
+Journal of Thermal Analysis and Calorimetry (2022) 147:6605–6613 
+https://doi.org/10.1007/s10973-021-10995-w
+LFO Perovskites as Oxygen Carriers for Chemical Looping Oxygen 
+Uncoupling (CLOU)
+Ali Ahmad1,2 · Md. Abdullah Al Mamun2 · Md. Al‑Mamun3 · Saiful Huque1 · Mohammad Ismail2 
+Received: 28 June 2020 / Accepted: 4 July 2021 / Published online: 30 July 2021 
+© Akadémiai Kiadó, Budapest, Hungary 2021
+ Abstract
+Alternative energy technologies at their current state cannot fully replace the existing fossil fuel-based energy production 
+that has led to a rise in the atmospheric ­CO2 concentration. ­CO2 sequestration is a compelling solution to greatly reduce 
+­CO2 emissions from sources like fossil fuel-based power plants. Chemical-looping oxygen uncoupling process releases 
+gaseous oxygen for combustion at high temperatures in the fuel reactor. The choice of oxygen carrier material (OCM) is 
+pivotal to the chemical-looping process. In this study, citrate gel technique has been used to prepare the OCMs. A total of 5 
+(five) perovskites were prepared with varying degree of substitution of general formula ­La0.6A′0.4B′1-yFeyO3 where y = (0.8, 
+0.9) including the base ­LaFeO3. Calcined OCMs were characterized with XRD, SEM and BET analysis. OCMs showed an 
+increase in surface area after oxygen release in a thermogravimetric experiment. Oxygen evolution rate ranged from 0.0043 
+to 0.0521 Kg ­O2/Kg OCM in a single cycle operation.
+Keywords  LaFeO3 · Perovskites · Carbon capture · Citrate gel · Oxygen carrier · Oxygen uncoupling
+Introduction
+It is widely believed in scientific and research community 
+that ­CO2, the staple greenhouse gas, is at the heart of climate 
+change. Fossil fuels-driven power plants have contributed 
+significantly to the increase in atmospheric ­CO2 concentra-
+tion in the last century. Coal-fired power plants are currently 
+producing 37% of global electricity worldwide [1]. In 2017, 
+coal was used to produce 36.53% of total global electric-
+ity. International Energy Agency (IEA) reported (2019) that 
+coal combustion was responsible for 45% (~ 14.535 billion 
+tons) of the world’s ­CO2 emissions in 2017 [2]. It is there-
+fore essential to mitigate the impacts of coal use and in the 
+recent years there has been a growing global desire to reduce 
+carbon emissions and greenhouse gases (GHGs) by using 
+the advanced low emission energy technologies, improving 
+the efficiency of energy use as well as by increasing the 
+use of non-fossil energy sources. One of the solution to a 
+low-carbon economy, while meeting the existing demand 
+for energy by utilizing fossil fuels, is the carbon capture 
+and storage (CCS) scheme. Among the available strategies 
+to capture ­CO2: post-combustion, pre-combustion, oxyfuel 
+combustion and chemical-looping combustion technology, 
+the initial three technologies impose a considerable penalty 
+to the overall economics of a power plant. Chemical-looping 
+combustion (CLC), on the other hand, offers the possibility 
+of combusting fossil fuels while producing a pure stream of 
+­CO2 (which is easily sequesterable) without additional cost 
+of gas separation [3].
+Chemical‑looping oxygen uncoupling
+Chemical-looping with oxygen uncoupling (CLOU), as a 
+special case of chemical-looping combustion, involves the 
+use of oxygen carriers capable of releasing gas-phase oxygen 
+at high temperatures. The three-step process of CLOU is 
+depicted in Figure 1.
+Here, the oxygen carrier is denoted by ­MexOy and 
+­MexOy-1, where ­MexOy is a metal oxide or an oxide system 
+and ­MexOy-1 is the metal oxide or oxide system with lower 
+ *	 Mohammad Ismail 
+	
+m.ismail@du.ac.bd
+1	
+Institute of Energy, University of Dhaka, Dhaka 1000, 
+Bangladesh
+2	
+Department of Applied Chemistry and Chemical 
+Engineering, University of Dhaka, Dhaka 1000, Bangladesh
+3	
+Material Science Division, Atomic Energy Centre, BAEC, 
+Dhaka 1000, Bangladesh
+
+
+===== Page 2 =====
+
+6606
+	
+A. Ahmad et al.
+1 3
+oxygen content compared to ­MexOy. ­CO2 or steam is typi-
+cally the fluidization gas[4].
+The fuel reacts directly with gaseous oxygen released 
+from the oxygen carrier, via normal combustion. The oxy-
+gen carrier, metal oxide, ­MexOy, releases oxygen through 
+reaction Step-1:
+This is followed by the usual combustion of the fuel via 
+reaction Step-2:
+The reduced oxygen carrier is transferred to the air reac-
+tor for re-oxidation (Step- 3). The net heat of reaction for 
+the CLOU processes is the same as in CLC, but the differ-
+ence lies in the way fuel accesses the oxygen required for 
+combustion reaction. In usual CLC, there is direct interac-
+tion between fuel and OCM whereas in case of CLOU, only 
+oxygen reacts with carbonaceous fuel eliminating the need 
+of flue gas handling. When using solid fuels like coal, the 
+CLOU process avoids the slow gasification step of the char 
+(primarily carbon) and instead the reaction in the fuel reac-
+tor is composed of an oxygen uncoupling reaction (as stated 
+in Step-1) and normal combustion reaction (step-2) [4]). 
+CLOU advantageous for applications involving solid fuels 
+as gaseous oxygen is able to react with both the volatile and 
+non-volatile components of the fuel directly. Oxygen carriers 
+which can release gas-phase oxygen include oxides of cop-
+per, cobalt, manganese [5] and more complex mixed oxides 
+such as spinels [6] or perovskites [7].
+(1)
+2MexOy ⇌2MexOy−1 + O2
+(2)
+CnH2m + (n + 1
+2m) O2 ⇌nCO2 + mH2O
+Perovskites are a special type of oxides has applications 
+in many areas and have managed to stir a lot of inter-
+est among researchers due to its ability to accommodate 
+significant oxygen non-stoichiometry, allowing oxidation 
+or reduction without phase changes potentially improv-
+ing cyclic stability. Perovskite, originated from ­CaTiO3, 
+is now a general name for oxides having the structural 
+formula ­ABO3 or ­A2BO4. In the ­ABO3 structure, the 
+A-site cation is 12-fold coordinated and the B-site cation 
+is 6-fold coordinated with oxygen anions [8]. Due to the 
+different valence states and radii of the cations A and B, 
+oxygen vacancies in combination with slight distortions 
+in the crystal structure are created in perovskites. These 
+vacancies facilitate the migration of oxygen ions during 
+the decomposition and re-oxidation of the material [9]. 
+Thus perovskites represent an alternative class of reduc-
+ible oxides with potential as partial oxidation catalysts. 
+The transition metals serve as both lattice oxygen carriers 
+and catalysts for activating hydrocarbons. They usually 
+exhibit excellent redox properties, high oxygen mobil-
+ity, and thermal stability, good oxygen suppliers, and the 
+high selectivity to synthesis gas instead to ­CO2 and ­H2O; 
+therefore, they are quite effective for catalytic oxidation 
+reactions including hydrogenation, CO oxidation, and 
+catalytic combustion [10]. Perovskites exhibit oxygen 
+non-stoichiometry and can release substantial amounts of 
+oxygen via CLOU [4].
+where ‘AR’ denoted Air Reactor and ‘FR’ denotes Fuel 
+Reactor.
+Partial substitution of the A or B sites in a perovskite 
+structure can modify substantially the CLOU character-
+istics of the base perovskite-type material. The CLOU 
+characteristics of the substituted perovskite-type material 
+depend strongly on the molar ratio of the B and B′ cati-
+ons. For instance, calcium manganate ­(CaMnO3-δ) system 
+exhibits a combination of high mechanical stability, good 
+fluidization properties, and well good reactivity with gas-
+eous fuels. Recently, the oxygen uncoupling effect of a 
+series of materials of general calcium manganate system 
+doped with various metals was studied and found excel-
+lent mechanical strength, CLOU properties, reactivity, and 
+fluidization properties [4]. By utilizing small enough ratios 
+of OCM/fuel, the maximum rate of oxygen release was 
+obtained as 0.0023 Kg ­O2 /Kg OCMs at a temperature of 
+approximately 980 °C from Cu-based mixed oxide sys-
+tem [11]. Arjmand et. al. also reported maximum rates of 
+uncoupling of 0.0003 – 0.0004 Kg ­O2 /Kg OCM at 850 °C 
+[12] for various Ca-based based materials. Recently a 
+(3)
+ABO(3−훿)AR ⇌ABO(3−훿)FR + 1∕2
+( 훿FR −훿AR
+)O2
+N2, unused O2
+MexOy
+CO2,H2O
+AR
+FR
+Air
+MexOy–1
+Fuel (CnH2m)
+(+CO2, H2O)
+(3) 2MexOy–1 + O2
+(1) 2MexOy
+2MexOy–1 + O2
+(2) CnH2m + (n + m/2)O2
+nCO2 + mH2O
+2MexOy
+Fig. 1   Generic layout of chemical-looping with oxygen uncoupling 
+(CLOU).
+
+
+===== Page 3 =====
+
+6607
+LFO Perovskites as Oxygen Carriers for Chemical Looping Oxygen Uncoupling (CLOU)﻿	
+1 3
+detailed study of ­CaTixMn0.9-xMg0.1O3 (CMTM) systems 
+both at laboratory scale and industrial scale reported 
+CLOU capacity of these OCMs ranging from 0.0005 to 
+0.00375 Kg ­O2 /Kg OCMs over a temperature range of 
+800 – 950 °C [13]. However, least focus was given by 
+researchers on the other perovskites especially Fe-rich 
+perovskites. In this study, base LFO and substituted LFO 
+perovskites have been tested for their oxygen-carrying 
+capacity and potential use as OCM in solid fuel e.g., coal 
+combustion.
+Experimental
+Preparation of Oxygen Carriers
+The perovskites oxides were prepared by citrate gel method. 
+Here, stoichiometric amounts of an aqueous solution of the 
+nitrates of the corresponding metals were mixed with a 10% 
+of excess in equivalent of an aqueous solution of citric acid. 
+The resulting mixture was stirred for 15 min at room temper-
+ature and evaporated on a hot plate stirrer at 80 °C until gel 
+was formed. Then, it was dried in an oven, slowly increas-
+ing the temperature up to 200 °C and maintaining it over-
+night. The resulting amorphous citrate precursor powders 
+were crushed and sieved to obtain the required particle size. 
+Finally, the solids were calcined at 900 °C in a muffle fur-
+nace for 6 h. Throughout the paper, we will use the nomen-
+clature in Table 1 to refer the oxygen carrier materials-
+It is notable that although Cobalt (Co) can be intro-
+duced to make perovskites ­(LaFe1-xCoxO3), use of iron can 
+give better performance of pervoskites e.g., Lanthanum-
+strontium-iron oxide ­(La1-xSrxFeO3) [14]. Dueso et al.[15] 
+tested perovskites composites containing 11 – 13% ­Fe2O3 
+for hydrogen production via chemical looping and found a 
+stable hydrogen yield in cycling experiments. Furthermore, 
+it was reported that Aluminum can be used to replace Lan-
+thanum some portion [16] as well as Copper can be used 
+to replace Cobalt [17] in perovskites structure. Hence, this 
+study intended to evaluate the perovskites structure by 
+doping Al in replacement of Sr and doping Fe in replace-
+ment of Co.
+Characterization of Oxygen Carriers
+The morphologies of the prepared oxygen carriers were 
+imaged by high-resolution scanning electron microscopy (HR-
+SEM) using a Thermo Fisher FEI scanning electron micro-
+scope operated at 15–20 kV. All samples were sputter-coated 
+with platinum prior to imaging. Powder X-ray diffraction 
+(XRD) analysis (PANalytical, Aeris) was conducted to deter-
+mine the crystalline phases in the synthesized oxygen carriers. 
+The diffraction patterns were acquired within the range of 2θ 
+= 10°−70° with a step size of 0.015° per second using Cu Kα 
+radiation and a power of 40 kV × 30 mA.
+Nitrogen ­(N2) gas adsorption-desorption analysis was car-
+ried out using Belsorp mini II (BEL Japan Inc) at a constant 
+temperature (−196 °C) maintained by liquid nitrogen as cool-
+ant. About 65 mg of each of the samples was used for the 
+adsorption measurement. Prior to measurements, the powdery 
+samples were pre-treated for 3 hours at 150 °C by purging 
+with flow of dry, pure N2 gas by Belprep flow II to remove any 
+surface adsorbed water vapor or other gas molecules. N2 gas 
+(cross-sectional area of N2 molecule = 13.5 Å2) was used as 
+the adsorbent for studying the adsorption-desorption behavior 
+at relative pressures, P/P0, ranging from 0.01 to 0.99 on the 
+surface of the solid samples, in order to determine surface 
+area and pore size distribution. Helium (He) gas was used to 
+measure the dead volume of the sample cells. The specific 
+surface area and total pore volume of the porous samples were 
+calculated using the Brunauer-Emmet-Teller (BET) equation. 
+The BET-specific surface area was evaluated using adsorp-
+tion data at relative pressures, P/P0, ranging from 0.1 to 0.2. 
+The total pore volume was estimated from the amount of N2 
+adsorbed at a relative pressure of about 0.99.
+Oxygen Uncoupling Capacity
+To determine the oxygen uncoupling capacity, i.e., the amount 
+of lattice oxygen released in an inert atmosphere, decomposi-
+tion of the perovskite oxygen carriers was carried out in a ­N2 
+atmosphere in a thermogravimetric analyzer (TGA-50, Shi-
+madzu, Japan). In a typical experiment, approximately 5 mg of 
+the oxygen carrier material was heated from room temperature 
+to 400 °C at a rate of 10  °C ­min−1 under a flow of ­N2 of 10 
+mL ­min−1 and held at 400 °C for 15 min to remove moisture. 
+Thermodynamic calculations showed that the partial pressure 
+of ­O2 is negligible at 400 °C. Subsequently, the temperature 
+was increased to 800 °C at a rate of 10 °C ­min−1 in a flow of ­N2 
+(10 mL ­min−1). Oxygen carriers release oxygen according to 
+various decomposition reactions and oxygen-carrying capacity 
+Table 1   List of synthesized oxygen carrier materials
+Oxygen carrier
+ID
+Size/μm
+Preparation method
+LaFeO3
+LFO
+120–230 Citrate gel
+La0.6Sr0.4Co0.1Fe0.9O3
+LSCOF-6419
+120–230 Citrate gel
+La0.6Sr0.4Co0.2Fe0.8O3
+LSCOF-6428
+120–230 Citrate gel
+La0.6Sr0.4Cu0.2Fe0.8O3
+LSCUF-6428
+120–230 Citrate gel
+La0.6Al0.4Cu0.1Fe0.9O3 LACUF-6419 120–230 Citrate gel
+
+
+===== Page 4 =====
+
+6608
+	
+A. Ahmad et al.
+1 3
+was then calculated in consonance with mass loss of the sam-
+ple in TGA after removal of moisture. The evolved gas from 
+decomposition was checked in a gas analyzer and final oxygen 
+uncoupling capacity was established after N2 correction..
+Results and Discussions
+Morphological Investigation of the Materials
+Prepared materials were scanned under electron micro-
+scope to obtain morphological information. From the 
+SEM images in Fig. 2, it was found that the perovskites, in 
+general, showed laminar-type crystal structure with open 
+pore-type surface texture. The white spots are inferred to 
+be the crystal cross and overlap. Addition of doping mate-
+rials like Cu/Co did not greatly alter the generic morpho-
+logical characteristics of LFO. Pore structures are irregular 
+and contain sharp corners and ridges. However, Al-doped 
+LACUF-6419 (e) and Co-doped LSCOF-6428 (c) showed 
+signs of particle agglomeration.
+Figure 3 shows the specific diffraction peaks with (100), 
+(110), (111), (200), (211), and (220) diffraction planes with 
+2θ of 22.71°, 32.33°, 39.84°, 46.33°, 57.60°, and 67.55° cor-
+respond to the cubic perovskite ­LaFeO3 structure, respec-
+tively[18]. These diffraction peaks of the ­LaFeO3 phase are 
+Fig. 2   SEM Micrographs of 
+prepared OCMs: a LFO, b 
+LSCOF-6419, c LSCOF-6428, 
+d LSCUF 6428, and e LACUF-
+6419
+
+
+===== Page 5 =====
+
+6609
+LFO Perovskites as Oxygen Carriers for Chemical Looping Oxygen Uncoupling (CLOU)﻿	
+1 3
+in agreement with JCPDS Card Number 75-0541. No impu-
+rities are observed, which indicates the successful synthesis 
+of perovskite ­LaFeO3 by modified sol-gel method. The sharp 
+and narrow peaks suggest the high crystallization of the pre-
+pared perovskites in all perovskites except LACUF6419. The 
+interplanar spacing of the (110) crystallographic plane at 
+32.402° matches well with base LFO structure. The crystal-
+lite sizes (D) of the ­LaFeO3 were estimated from the dif-
+fraction peaks using Scherrer’s Equation (D = Kʎ/βcosθ), 
+where the K is Scherrer constant (shape factor), ʎ is the x-ray 
+wavelength (1.5418 A˚), β is the full width at half maximum 
+(FWHM) (radians) and θ is Bragg’s angle (radians). The K 
+value depends on the crystallite shape and the crystallite size 
+distribution, and it can have values anywhere from 0.62 to 
+2.08. In this study, K = 0.9 was used. The average crystallite 
+sizes of the samples were also estimated from all diffraction 
+peaks. From XRD data and employing the Scherrer formula, 
+the average crystallite sizes of the samples were estimated. 
+Doping base LFO perovskite with ‘Al’ and ‘Sr’ resulted in 
+orthorhombic structure. The four doped perosvskites exhibit 
+diffraction peaks with (101), (121), (112), (220), (202), and 
+(240) diffraction planes with similar interplanar spacing at a 
+slightly different angle than base LFO [18]. The peaks shift 
+to a slightly higher angle than the base LFO due to the larger 
+ionic radii of ­Sr2+ (118 pm) in LSCOF-6419, LSCOF-6428 
+and LSCUF 6428 than ­La3+ (103 pm). However, the peaks 
+shift to a smaller angle in case of LACUF-6419 because of 
+the fact that the materials haves rather looks broad almost 
+half ionic radii of ­Al3+ (53 pm) than ­La3+.
+The XRD diffraction peaks of LACUF6419 sample are 
+not sharper than other samples rather looks broader which 
+means the sample is in amorphous form at 900 °C temper-
+ature. Doping of Aluminum might be the cause of amor-
+phous perovskite structure formation at high temperature. 
+The broadening of peaks of the sample LACUF6419 also 
+indicates defects in the sample e.g., dislocations & stack-
+ing faults and small crystallite size which is the smallest 
+(10.19 nm) among all other samples. The lattice parameters 
+of LACUF6419 sample show that the values are getting 
+reduced than other doped samples because of the smaller 
+ionic radii of ­Al3+ than ­La3+. The obtained values of the 
+lattice parameters are increased when the doping concentra-
+tion of Cobalt increases, but the same concentration of Cop-
+per in base samples does not change the lattice parameters 
+significantly
+10
+20
+30
+40
+50
+60
+70
+0
+200
+400
+600
+800
+1000
+1200
+1400
+1600
+Intensity
+Degree°
+LFO
+LSCOF-6419
+LSCOF-6428
+LSCUF-6428
+LACUF-6419
+Fig. 3   X-ray diffraction patterns of prepared perovskites
+Table 2   Crystallites size and lattice parameters of the synthesized 
+OCMs
+Material name
+Crystallite size 
+Nm/average
+Lattice constant
+A/nm
+b/nm
+c/nm
+LFO
+19.05
+0.3910
+0.3911
+0.3913
+LSCOF6419
+12.58
+0.5486
+0.7803
+0.5501
+LSCOF6428
+21.62
+0.5518
+0.7817
+0.5503
+LSCUF6428
+27.70
+0.5519
+0.7838
+0.5495
+LACUF6419
+10.19
+0.5405
+0.7765
+0.5445
+60
+40
+20
+0
+0
+0.5
+1
+Va/cm3(STP)g−1
+P/P0
+Fig. 4   N2 adsorption-desorption isotherm of LSCOF-6428.
+
+
+===== Page 6 =====
+
+6610
+	
+A. Ahmad et al.
+1 3
+The average crystallites sizes and lattice parameter of the 
+samples are given in Table 2. 
+The specific surface areas of the synthesized perovskite 
+samples were determined from a nitrogen adsorption-des-
+orption isotherm using the BET approach. The isotherms of 
+the samples can be classified into type III behavior as illus-
+trated in Fig. 4. The initial surface area of the synthesized 
+materials is also illustrated in Table 3.
+The specific surface area of the synthesized oxygen 
+carriers ranged from 4.3 to 8.5 ­m2 ­g−1. This is slightly 
+lower than previously reported surface area of pure phase 
+LFO using the same preparation route [19]. The perovs-
+kites were calcined at 850 °C. This might be the reason 
+behind the reduction in surface area as sintering tem-
+perature influences specific surface area [13]. In doped 
+LFO perovskites, surface area was lower than pure phase 
+LFO perovskite. Total pore volume ranged from 0.01 to 
+0.06 ­cm3 ­g−1 in line with typical values of such materials.
+Performance of the Oxygen Carriers
+The heating rate of TGA is generally slow compared to 
+a real fuel reactor. The materials are supposed to with-
+stand high temperature 800–950 °C and release oxygen 
+at a steady rate and be able to be cycled multiple times 
+without significant wear and tear. However, still the TGA 
+environment is suitable for initial screening of materials 
+by imitating near-real test conditions. Figure 5 shows the 
+normalized mass chage (i.e., oxygen release behaviour) 
+with the increase of temperature in inert environment.
+In order to compare the TGA performance of materi-
+als over the experimental temperature range, Fractional 
+conversion, α is defined as-
+훼=
+(mi −mt
+)
+total oxygen evolution
+where mi is the initial mass of the sample, mt is the tran-
+sient mass of the sample in TGA and total oxygen evolu-
+tion corresponds to the amount of oxygen released in inert 
+environment. 
+In Fig. 6, fractional conversion reveals the trend of oxy-
+gen release as higher temperatures were introduced after 
+initial moisture removal. Most of the decomposition reac-
+tions occurred between 250 and 600 °C. At around °C, 
+perovskites started to stabilize giving off little oxygen 
+thereafter. Only LFO and LSCUF-6428 continued to 
+decompose and release oxygen till 800 °C. This fact is 
+also indicated by the amount of oxygen evolved over the 
+entire temperature range. Al-substituted Cu-doped per-
+ovskite LACUF-6419 stabilized as soon as temperature 
+reached 400 °C. This shows that Al doping on the base 
+perovskite structure at ‘A’ site actually had a negative 
+impact on oxygen release capacity and less suitable for 
+CLOU operation. Cu exhibited better performance than 
+Co as B site dopant and can act as promoters with its 
+synergistic effects on fast redox reactions.
+Oxygen Uncoupling Capacity
+The oxygen uncoupling capacity of the materials is calcu-
+lated from TGA data using mass change in solids. Before 
+each analysis, initial mass of the sample was measured. 
+After the decomposition reaction in TGA, mass of the 
+sample was weighed again, and ­N2 correction was made. 
+After oxygen uncoupling, each sample was subjected to 
+BET analysis to investigate change in specific surface area 
+of the oxygen carriers.
+As listed in Table 4, LFO has the highest oxygen uncou-
+pling capacity among the prepared materials. Stoichio-
+metric calculations indicate a maximum oxygen-carrying 
+capacity of 19.77% by mass, while experimental values 
+show a maximum of 5.38% oxygen uncoupling capacity in 
+pure LFO perovskite. The lowest uncoupling rate that was 
+found is 0.43% in case of LACUF-6428. All of the perovs-
+kites showed an increase in surface area after decomposi-
+tion. Although there was no precise relationship between 
+initial surface area and oxygen release rate, the fact that 
+the decomposition increased the surface area indicates the 
+development of more porous and oxygen-deficient perovs-
+kites after the initial decomposition reaction. Final surface 
+area after TGA test ranged from 5.5 to 10.3 ­m2g−1 indicat-
+ing slight increase. However, detailed study is required to 
+find out the synergy and exact reasoning between doping 
+material and oxygen carrying capacity, which is beyond 
+the scope of this paper.
+Table 3:   Initial surface area of the prepared perovskites
+Oxygen carrier
+Surface area/m2 ­g−1
+Total pore 
+volume/cm3 
+­g−1
+LFO
+8.5
+0.06
+LSCOF-6419
+4.3
+0.02
+LSCOF-6428
+4.7
+0.02
+LSCUF-6428
+4.4
+0.01
+LACUF-6419
+5.3
+0.04
+
+
+===== Page 7 =====
+
+6611
+LFO Perovskites as Oxygen Carriers for Chemical Looping Oxygen Uncoupling (CLOU)﻿	
+1 3
+0
+100
+200
+300
+400
+500
+600
+700
+800
+900
+94
+95
+96
+97
+98
+99
+100
+101
+Normalized mass/%
+Normalized mass/%
+Normalized mass/%
+Normalized mass/%
+Normalized mass/%
+Temperature/°C
+Temperature/°C
+Temperature/°C
+Temperature/°C
+Temperature/°C
+Temperature/°C
+Normalized mass/%
+LFO
+0
+100
+200
+300
+400
+500
+600
+700
+800
+900
+98.5
+99.0
+99.5
+100.0
+Normalized mass/%
+LSCOF-6419
+(a)
+(b)
+0
+100
+200
+300
+400
+500
+600
+700
+800
+900
+97.0
+97.5
+98.0
+98.5
+99.0
+99.5
+100.0
+100.5
+Normalized mass/%
+LSCOF-6428
+0
+100
+200
+300
+400
+500
+600
+700
+800
+900
+94
+95
+96
+97
+98
+99
+100
+101
+Normalized mass/%
+LSCUF-6428
+0
+100
+200
+300
+400
+500
+600
+700
+800
+900
+99.2
+99.6
+100.0
+100.4
+100.8
+Normalized mass/%
+LSCOF-6419
+0
+100 200 300 400 500 600 700 800 900
+– 0.01
+0.00
+0.01
+0.02
+0.03
+0.04
+0.05
+0.06
+Mass of oxygen evolved, gO2/gOCM
+LFO
+LSCOF-6419
+LSCOF-6428
+LSCUF-6428
+LACUF-6419
+(c)
+(d)
+(e)
+(f)
+Fig. 5   TGA analysis of a LFO, b LSCOF-6419, c LSCOF-6428, d LSCUF 6428, e LACUF-6419, and f Oxygen Evolution Trend
+
+
+===== Page 8 =====
+
+6612
+	
+A. Ahmad et al.
+1 3
+Conclusions
+CLOU is a promising technology that eliminates some of 
+the limitations of CLC and has excellent provision for solid 
+fuels like coal. Chemical-looping oxygen uncoupling uti-
+lizing appropriate oxygen carriers can therefore facilitate 
+the clean burning of solid fuels better than CLC. Prepared 
+perovskites show potential for use in an uncoupling system 
+due to their stability and high oxygen release rate. Oxygen 
+evolution rates found in this study ranging from 0.0043 to 
+0.0538 Kg ­O2/Kg for LFO OCMs are substantially higher 
+than previously reported values for CMTM systems. ­LaFeO3 
+which has numerous applications as conductor and nano-
+catalysis had never been considered as CLOU carrier. It had 
+the highest uncoupling rate among prepared materials in 
+this study. The developed materials can be used in uncou-
+pling systems which might open new avenues of research 
+and commercialization. However, consistency of oxygen 
+uncoupling rate over multiple cycles is yet to be investigated.
+Acknowledgements  This work was supported by the Ministry of Sci-
+ence and Technology, Bangladesh special allocation project (EAS-46 
+& 67, 2017-19) and grants from The World Academy of Sciences 
+(TWAS-16-090 RG/CHE/AS_I /FR3240293331).
+Author Contributions  Mr. AA and Mr. MAAM were the M.S. research 
+students and contributed in carrying out the experiments and initial 
+draft writing, Dr. MA-M contributed in characterization of the devel-
+oped materials and editing of the manuscript, Prof. Dr. SH was co-
+supervisor of the students and supported in manuscript writing and Dr. 
+MI was the supervisor of the students and contributed in experiment 
+design, manuscript writing and final editing of the manuscript.
+References
+	 1.	 Coal-facts. Coal and Electricity. World Coal Association. 2020. 
+https://​www.​world​coal.​org/​coal-​facts/​coal-​elect​ricity. Accessed Apr. 
+08, 2021.
+	 2.	 Highlights. ­CO2 Emissions from Fuel Combustion 2019. Interna-
+tional Energy agency. 2019. https://​webst​ore.​iea.​org/​co2-​emiss​ions-​
+from-​fuel-​combu​stion-​2019. Accessed 2 December 2019.
+	 3.	 Ismail M, Liu W, Dunstan MT, Scott SA. Development and per-
+formance of iron based oxygen carriers containing calcium ferrites 
+for chemical looping combustion and production of hydrogen. Int 
+J Hydrogen Energy. 2016. https://​doi.​org/​10.​1016/j.​ijhyd​ene.​2015.​
+11.​066.
+	 4.	 Mattinson T. Materials for chemical-looping with oxygen uncou-
+pling. ISRN Chem Eng. 2013. https://​doi.​org/​10.​1155/​2013/​526375.
+	 5.	 Mattisson T, Lyngfelt A, Leion H. Chemical-looping with oxygen 
+uncoupling for combustion of solid fuels. Int J Greenhouse Gas Con-
+trol. 2009. https://​doi.​org/​10.​1016/j.​ijggc.​2008.​06.​002.
+	 6.	 Azimi G, Leion H, Mattinson T, Lyngfelt A. Chemical-looping with 
+oxygen uncoupling using combined Mn-Fe oxides, testing in batch 
+fluidized bed. Energy Procedia. 2011. https://​doi.​org/​10.​1016/j.​egy-
+pro.​2011.​01.​064.
+	 7.	 Rydén M, Lyngfelt A, Mattisson T. ­CaMn0.875Ti0.125O3 as oxygen 
+carrier for chemical-looping combustion with oxygen uncoupling 
+(CLOU)—Experiments in a continuously operating fluidized-bed 
+reactor system. Int J Greenhouse Gas Control. 2011. https://​doi.​org/​
+10.​1016/j.​ijggc.​2010.​08.​004.
+	 8.	 Pena MA, Fierro GJ. Chemical structures and performance of per-
+ovskite oxides. Chem Rev. 2011. https://​doi.​org/​10.​1021/​cr980​129f.
+	 9.	 Cherry M, Islam MS, Catlow RA. Oxygen ion migration in perovs-
+kite-type oxides. J Solid State Chem. 1995. https://​doi.​org/​10.​1006/​
+jssc.​1995.​1320.
+	10.	 O’Connell M, Norman AK, Hutterman CF, Morris MA. Catalytic 
+oxidation over lanthanum-transition metal perovskite materials. 
+Catal Today. 1999. https://​doi.​org/​10.​1016/​S0920-​5861(98)​00291-0.
+	11.	 Adánez-Rubio I, Abad A, Gayán P, de Diego LF, García-Labiano 
+F, Adánez J. Identification of operational regions in the chemical-
+looping with oxygen uncoupling (CLOU) process with a Cu-based 
+oxygen carrier. Fuel. 2012. https://​doi.​org/​10.​1016/j.​fuel.​2012.​06.​
+063.
+	12.	 Arjmand M, Keller M, Leion H, Mattinson T, Lyngfelt A. Oxygen 
+release and oxidation rates of ­MgAl2O4-supported CuO oxygen 
+carrier for chemical-looping combustion with oxygen uncoupling 
+(CLOU). Energy Fuels. 2012;26:6528–39.
+	13.	 Larring Y, Pishahang M, Tolchard J, Lind AM, Sunding MF, 
+Stensrod RE, Jacobs M, Kolk TV, Albertsen K. Fabrication pro-
+cess parameters significantly affect the perovskite oxygen carriers 
+0
+100
+200
+300
+400
+500
+600
+700
+800
+900
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Temperature/°C 
+LFO
+LSCOF-6419
+LSCOF-6428
+LSCUF-6428
+LACUF-6419
+Fractional conversion
+Fig. 6   Fractional conversion vs Temperature (°C)
+Table 4   Oxygen uncoupling capacities of the OCMs
+Oxygen carrier
+Kg ­O2/Kg OCM
+Final surface 
+area/m2g−1
+LFO
+0.0538
+10.3
+LSCOF-6419
+0.0174
+5.5
+LSCOF-6428
+0.0268
+5.7
+LSCUF-6428
+0.0494
+6.2
+LACUF-6419
+0.0043
+5.9
+
+
+===== Page 9 =====
+
+6613
+LFO Perovskites as Oxygen Carriers for Chemical Looping Oxygen Uncoupling (CLOU)﻿	
+1 3
+materials (OCM) performance in chemical looping with oxygen 
+uncoupling (CLOU). J Therm Anal Calorim. 2020. https://​doi.​org/​
+10.​1007/​s10973-​019-​08860-y.
+	14.	 He F, Li X, Kun Z, Huang Z, Wei G, Li H. The use of ­La1− xSrxFeO3 
+perovskite-type oxides as oxygen carriers in chemical-looping 
+reforming of methane. Fuel. 2013;108:465–573.
+	15.	 Dueso C, Thompson C, Metcalfe I. High-stability, high-capacity 
+oxygen carriers: Iron oxide-perovskite composite materials for 
+hydrogen production by chemical looping. Appl Energy. 2015. 
+https://​doi.​org/​10.​1016/j.​apene​rgy.​2015.​05.​062.
+	16.	 Rydén M, Lyngfelt A, Mattisson T, Chen D, Holmen A, Bjørgum 
+E. Novel oxygen-carrier materials for chemical-looping combustion 
+and chemical-looping reforming; ­LaxSr1−xFeyCo1−yO3−δ perovskites 
+and mixed-metal oxides of NiO, ­Fe2O3 and ­Mn3O4. Int J Greenh Gas 
+Control. 2008. https://​doi.​org/​10.​1016/​S1750-​5836(07)​00107-7.
+	17.	 Nalbandian L, Evdou A, Zaspalis V. ­La1-xSrxMyFe1-yO3-δ perovskites 
+as oxygen-carrier materials for chemical-looping reforming. Int J 
+Hydrogen Energ. 2011. https://​doi.​org/​10.​1016/j.​ijhyd​ene.​2011.​02.​
+146.
+	18.	 Jain A, et al. The materials project: a materials genome approach 
+to accelerating materials innovation. APL Mater. 2013;1:11002. 
+https://​doi.​org/​10.​1063/1.​48123​23.
+	19.	 Gosavi PV, Biniwale RB. Pure phase ­LaFeO3 perovskite with 
+improved surface area synthesized using different routes and its 
+characterization. Mater Chem Phys. 2010;119(1):324–9. https://​
+doi.​org/​10.​1016/j.​match​emphys.​2009.​09.​005.
+Publisher’s Note  Springer Nature remains neutral with regard to 
+jurisdictional claims in published maps and institutional affiliations.

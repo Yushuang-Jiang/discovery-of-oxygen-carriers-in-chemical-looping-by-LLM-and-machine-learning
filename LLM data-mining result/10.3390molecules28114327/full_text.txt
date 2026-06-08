@@ -1,0 +1,1227 @@
+
+
+===== Page 1 =====
+
+Citation: Le Gal, A.; Julbe, A.;
+Abanades, S. Thermochemical
+Activity of Single- and Dual-Phase
+Oxide Compounds Based on Ceria,
+Ferrites, and Perovskites for
+Two-Step Synthetic Fuel Production.
+Molecules 2023, 28, 4327.
+https://doi.org/10.3390/
+molecules28114327
+Academic Editor: Angelo Nacci
+Received: 20 April 2023
+Revised: 12 May 2023
+Accepted: 23 May 2023
+Published: 25 May 2023
+Copyright:
+© 2023 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed
+under
+the
+terms
+and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+molecules
+Article
+Thermochemical Activity of Single- and Dual-Phase Oxide
+Compounds Based on Ceria, Ferrites, and Perovskites for
+Two-Step Synthetic Fuel Production
+Alex Le Gal 1, Anne Julbe 2
+and Stéphane Abanades 1,*
+1
+Processes, Materials and Solar Energy Laboratory (PROMES-CNRS), 7 Rue du Four Solaire,
+66120 Odeillo Font-Romeu, France
+2
+Institut Européen des Membranes (IEM), CNRS, ENSCM, University of Montpellier,
+Place Eugène Bataillon, 34095 Montpellier, France
+*
+Correspondence: stephane.abanades@promes.cnrs.fr
+Abstract: This study focuses on the generation of solar thermochemical fuel (hydrogen, syngas)
+from CO2 and H2O molecules via two-step thermochemical cycles involving intermediate oxygen-
+carrier redox materials. Different classes of redox-active compounds based on ferrite, ﬂuorite,
+and perovskite oxide structures are investigated, including their synthesis and characterization
+associated with experimental performance assessment in two-step redox cycles. Their redox activity
+is investigated by focusing on their ability to perform the splitting of CO2 during thermochemical
+cycles while quantifying fuel yields, production rates, and performance stability. The shaping of
+materials as reticulated foam structures is then evaluated to highlight the effect of morphology
+on reactivity. A series of single-phase materials including spinel ferrite, ﬂuorite, and perovskite
+formulations are ﬁrst investigated and compared to state-of-the-art materials. NiFe2O4 foam exhibits
+a CO2-splitting activity similar to its powder analog after reduction at 1400 ◦C, surpassing the
+performance of ceria but with much slower oxidation kinetics. On the other hand, although identiﬁed
+as high-performing materials in other studies, Ce0.9Fe0.1O2, Ca0.5Ce0.5MnO3, Ce0.2Sr1.8MnO4, and
+Sm0.6Ca0.4Mn0.8Al0.2O3 are not found to be attractive candidates in this work (compared with
+La0.5Sr0.5Mn0.9Mg0.1O3). In the second part, characterizations and performance evaluation of dual-
+phase materials (ceria/ferrite and ceria/perovskite composites) are performed and compared to
+single-phase materials to assess a potential synergistic effect on fuel production. The ceria/ferrite
+composite does not provide any enhanced redox activity. In contrast, ceria/perovskite dual-phase
+compounds in the form of powders and foams are found to enhance the CO2-splitting performance
+compared to ceria.
+Keywords: hydrogen; water-splitting; CO2 conversion; thermochemical cycles; concentrated solar
+energy; perovskite; oxygen-carrier redox materials; solar fuels; reticulated foams; composites
+1. Introduction
+In the frame of the production of solar thermochemical fuels, two-step thermochemical
+cycles for splitting water or CO2 molecules offer several potential advantages. The ﬁrst is
+the high theoretical energy conversion efﬁciency that can be achieved through the direct use
+of concentrated solar energy without the intermediate solar heat or photons conversion to
+electricity [1]. Solar thermochemical fuel production is indeed advantageous compared to
+electrochemical or photo(electro)chemical routes because it uses the entire solar spectrum
+for splitting H2O and CO2 molecules and, as such, provides a thermodynamically favorable
+path for efﬁcient solar energy conversion and storage into fuels. Oxygen release and
+H2/CO production occur in different steps, avoiding their possible recombination and
+high-temperature gas separation. Moreover, the need for noble and costly metal catalysts
+is not required, and all the oxygen-carrier materials involved in the process are recycled.
+Molecules 2023, 28, 4327. https://doi.org/10.3390/molecules28114327
+https://www.mdpi.com/journal/molecules
+
+
+===== Page 2 =====
+
+Molecules 2023, 28, 4327
+2 of 23
+H2O and CO2 are the only inputs while concentrated solar energy is used as the high-
+temperature heat source for thermochemical reactions. Two-step thermochemical cycles
+involve a redox couple (MxOy/MxOy−δ), which allows the temperature to be reduced
+compared to the direct thermolysis of H2O or CO2 molecules. In the first step (Equation (1)),
+an oxide is thermally reduced under highly concentrated solar energy, thereby creating
+oxygen vacancies and releasing oxygen from the oxide lattice (at ~1400 ◦C). During the
+second step (Equation (2)), the activated oxide reacts with water vapor or CO2 to be
+re-oxidized and produce H2 or CO.
+MxOy →MxOy−δ + δ/2 O2
+(1)
+MxOy−δ + δH2O (or CO2) →MxOy + δ H2 (or CO)
+(2)
+Different types of relevant metal oxide redox cycles have been considered. They
+chieﬂy include volatile (such as ZnO/Zn, SnO2/SnO, MgO/Mg) or non-volatile oxides
+(such as Fe3O4/FeO and ferrites, CeO2/CeO2−δ and substituted ceria, and ABO3/ABO3−δ
+perovskites systems). The ﬁrst category involves simple oxides with discrete transitions in
+the metal oxidation state (leading to high oxygen amounts being released and recovered
+during each cycle) and thus produces high fuel amounts per mass of active material at the
+expense of recombination issues with O2 during the reduction step. The second category
+(that chieﬂy involves non-stoichiometric oxides) does not exhibit any phase change while
+O2 is released from the solid, thus limiting the recombination and avoiding the need for
+the oxide transport between steps. However, they feature a lower mass-speciﬁc fuel pro-
+ductivity than the stoichiometric oxides due to a lower amount of oxygen being exchanged
+during solid-state reactions (quantiﬁed by the magnitude of oxygen non-stoichiometry δ).
+Currently, three main classes of redox-active non-stoichiometric compounds are considered
+to act as intermediate redox materials. Ferrites, ceria, and perovskite-based oxides have the
+ability to be partially reduced and oxidized reversibly without any phase changes (solid
+state) during redox reactions, maintaining their stable crystallographic structure. They fea-
+ture a continuous redox activity over changes in temperature and oxygen partial pressure,
+thanks to the creation of oxygen vacancies that facilitate ionic diffusion. Nickel ferrites
+(NiFe2O4) were ﬁrst identiﬁed as the most promising iron-based oxides for thermochemical
+cycles [2,3]. A large reduction yield was achieved at 1400 ◦C, and a good water-splitting
+capacity of the reduced species was demonstrated. The main drawback of this oxide is
+the low thermal stability after several cycles. The material tends to sinter and in turn, the
+reactivity decreases over cycles. Several solutions have been considered to improve thermal
+stability, such as supporting Ni-ferrites on ZrO2 support [4,5] or using ferrite powder in a
+ﬂuidized bed reactor to limit particle growth and promote heat and mass transfer [6]. Ceria
+and doped ceria have also been widely investigated for use in thermochemical redox cycles
+based on an initial study in 2006 [7–10]. Pure ceria demonstrated fast redox kinetics and
+good thermal stability during cycling, but the process is limited by a relatively low fuel
+productivity per gram of material due to the low reduction extent δ. High temperatures
+and/or low partial pressures of O2 during the reduction step are additionally required to
+enhance δ. Alternatively, ceria doping with cations (such as Zr4+) can increase the reduction
+efﬁciency and fuel productivity at the expense of a decrease in oxidation kinetics [11,12].
+Another way to improve material reactivity and kinetics is to use materials with designed
+morphologies and microstructures [13], such as reticulated porous structures [14–16], 3D-
+ordered macroporous structures [17,18], ﬁbers [19,20], and porous microspheres [21]. A
+third family of oxides actively studied consists of the perovskite oxides for their capacity
+to be thermally reduced while maintaining their crystalline structure stable and to adapt
+to a large space of compositions. This great versatility permits to design and optimize
+materials with improved thermochemical performance. Manganite perovskites such as
+La0.5Sr0.5MnO3 [22,23], BaCe0.25Mn0.75O3 [24], or La0.8Sr0.2(Mn0.2Fe0.2Co0.4Al0.2)O3 [25]
+have shown attractive fuel production yields per cycle although they are still limited
+by kinetics.
+
+
+===== Page 3 =====
+
+Molecules 2023, 28, 4327
+3 of 23
+Although these materials have shown their ability to be used in two-step solar ther-
+mochemical cycles, an improvement in the overall solar-to-fuel efﬁciency is still expected.
+Improving the performance of materials is the main lever for success among the differ-
+ent possibilities such as the tuning of process conditions or the optimization of reactor
+design [26,27]. Indeed, even a small increase in material productivity will have a strong
+impact over thousands of cycles day after day.
+Most recent studies have focused on materials with spinel, perovskite, and ﬂuorite
+structures as redox catalysts (oxygen carriers) in this process [28]. To date, very little re-
+search has considered a comparison of the thermochemical performance of redox materials
+based on such structures. In addition, the activity of dual-phase compounds has been
+scarcely studied so far. For this purpose, experimental studies are required to evaluate the
+reactivity of various compounds applied to thermochemical cycles and to identify the most
+suitable compositions. In this work, different formulations of redox-active materials were
+synthesized, characterized, and tested during thermochemical cycles based on various
+structural conﬁgurations and cationic substitutions in the crystal lattice of the materials,
+with the aim of comparing their performance with state-of-the-art materials. Additionally,
+their redox activity has been studied by focusing on their ability to perform the splitting of
+CO2 or H2O molecules during thermochemical cycles while quantifying the fuel production
+yields, rates, and performance stability.
+The thermochemical activity and stability of materials with different structures and
+formulations were compared under the same cycling conditions. The evolution of the
+reactivity from one cycle to another was discussed. Different materials’ morphologies were
+also considered to show possible effects on fuel production yields.
+First, the performance of nickel ferrite and ceria shaped as reticulated porous structures
+(open-cell foams) was compared, as they represent the state-of-the-art materials for this
+application. Then, other formulations were considered based on recent studies reported
+in the literature. Previous works indeed identiﬁed different new formulations such as
+Ce0.9Fe0.1O2, Ca0.5Ce0.5MnO3, Ce0.2Sr1.8MnO4, and Sm0.6Ca0.4Mn0.8Al0.2O3 as attractive
+candidates for two-step redox cycles, but some of them reported unusual performance
+in comparison to benchmark materials, such as ceria, ferrites, or lanthanum manganite
+perovskites. It is therefore necessary to carry out additional experimental tests to check
+whether such materials are really promising. These materials were thus selected in this work
+to assess and compare their redox activity under given operating conditions commonly
+used in thermochemical cycles and which are typically required for the splitting of the CO2
+molecule. Finally, dual-phase materials consisting of ceria/ferrite and ceria/perovskite
+composites were considered to determine whether adding a phase more reducible than
+ceria can improve overall fuel production.
+2. Results and Discussion
+2.1. Ni-Ferrite (NiFe2O4) Foam
+NiFe2O4 has been widely studied for application in two-step solar thermochemical
+cycles [29–31], and this work investigates the reactivity of nickel ferrite foam in order to
+compare it to ferrite powder and ceria foam. The nickel ferrite foam was obtained by the
+replication method detailed in the Materials and Methods section. Figure 1 shows a picture
+of the foam after calcination at 1400 ◦C (before redox cycles).
+The ferrite foam was characterized by X-ray diffraction. The diffraction pattern of the
+crushed foam (before redox cycles) is shown in Figure 2. The spinel structure associated
+with the doped ferrite is observed.
+
+
+===== Page 4 =====
+
+Molecules 2023, 28, 4327
+4 of 23
+Figure 1. Picture of a pristine NiFe2O4 foam calcined at 1400 ◦C.
+20
+30
+40
+50
+60
+70
+80
+Counts (a.u.)
+2θ (°)
+spinel phase
+Figure 2. X-ray diffraction pattern of the NiFe2O4 foam after calcination at 1400 ◦C.
+The nickel ferrite foam was also characterized by thermogravimetric analysis (TGA)
+during two consecutive CO2-splitting cycles and further compared with ceria foam
+(Figure 3). The mass loss of the sample is due to the oxygen released from the mate-
+rial during the thermal reduction. The increase in mass is due to the oxygen uptake by the
+material during the supply of CO2 (oxidant). The negative value of mass loss means that
+the mass of the sample is decreased from its initial mass due to the release of oxygen. It
+was found that 201 µmol of O2 per gram of NiFe2O4 was released during the ﬁrst reduction
+step at 1400 ◦C and 172 µmol of CO per gram was produced during the ﬁrst oxidation
+step with a peak production rate of 6.2 µmolCO/min.g (measured a few seconds after CO2
+
+
+===== Page 5 =====
+
+Molecules 2023, 28, 4327
+5 of 23
+injection). The second cycle produced 106 µmol of O2 per gram during the reduction step
+and 158 µmol of CO per gram during the oxidation step with a peak production rate of
+6.2 µmolCO/min.g. These values are consistent with previously reported data [32]. Com-
+pared to the CeO2 foam yielding about 100 µmolCO/g under the same conditions, the nickel
+ferrite foam produces much more CO but a slight decrease in reactivity is observed during
+cycling, contrary to ceria. This well-known phenomenon is explained by the limitations
+due to sintering and kinetic effects for ferrites, while their shaping as a porous foam does
+not alleviate this phenomenon.
+Figure 3. Thermogravimetric analysis of two consecutive CO2-splitting cycles with nickel ferrite and
+ceria foams.
+2.2. Iron-Doped Ceria (Ce0.9Fe0.1O2)
+Iron-doped ceria powder has been investigated during CO2-splitting thermochemical
+cycles. This material was selected in this study because it was reported in the literature as
+a promising material for solar thermochemical fuel production [33,34]. Ce0.9Fe0.1O2 was
+synthesized by the coprecipitation method detailed in the Materials and Methods section.
+The powder was calcined at 1300 ◦C for 1 h (this temperature was selected to alleviate
+the effect of sintering). On leaving the oven, the powder was partially sintered and thus
+ground in a mortar. The powder was characterized by XRD (Figure 4). Two phases were
+observed after calcination at 1300 ◦C: a major phase related to the crystallographic structure
+of ceria (ﬂuorite) and a minor phase of Fe2O3. The cubic lattice parameter of the ﬂuorite
+phase was calculated from the diffraction peaks and a value of a = 5.400 (9) Å was found.
+Compared to pure ceria (a = 5.4112 Å [35]), a lower value was obtained for parameter a,
+which conﬁrms the insertion of the iron atoms in the structure due to a smaller ionic radius.
+After cycles in TGA, the structure remained unchanged.
+
+
+===== Page 6 =====
+
+Molecules 2023, 28, 4327
+6 of 23
+20
+30
+40
+50
+60
+70
+80
+counts (a.u.)
+2θ (°)
+calcined at 1300°C
+after TGA
+Ce0.9Fe0.1O2
+Fe2O3
+Figure 4. Comparison of the X-ray diffraction patterns for Ce0.9Fe0.1O2 after calcination at 1300 ◦C
+and after TGA analysis.
+Two consecutive thermochemical cycles were performed in TGA. Figure 5 shows
+the mass variation during the CO2-splitting cycles compared to pure ceria powder as a
+reference. The reduction temperature was 1300 ◦C (the same as the calcination temperature),
+and the oxidation step was carried out at 1000 ◦C. A steep mass loss was observed during
+the ﬁrst reduction step associated with the reduction of Ce0.9Fe0.1O2, corresponding to an
+O2 release of 62 µmol/g. The re-oxidation was not complete during the ﬁrst cycle with
+a CO production of only 36 µmol/g with a peak production rate of 15.1 µmolCO/min.g.
+During the second cycle, an O2 release of 40 µmol/g and a CO production of 33 µmol/g
+were measured with a peak production rate of 6.3 µmolCO/min.g. Compared to pure
+ceria, the reduction yield at 1300 ◦C was higher with faster kinetic rate, but the material
+undergoes strong sintering during thermal cycling, which leads to poor cyclability with
+a decrease in the reactivity. These results show different trends from those previously
+reported. Al-Taweel et al. [34] reported an H2 production 1.8 times greater than ceria
+after a reduction step at 1550 ◦C, while Orﬁla et al. [33] mentioned an H2 production of
+8.5 STPcm3/g (380 µmol/g) with Ce0.9Fe0.1O2 powder after a reduction step at 1300 ◦C.
+The sintering issue was not reported as limiting the overall production performance of
+the cycle, and such high production yields are unexpected given the low thermal stability
+induced by iron doping. These results are therefore very different from each other and very
+far from the values found in this study.
+
+
+===== Page 7 =====
+
+Molecules 2023, 28, 4327
+7 of 23
+Figure 5. Thermogravimetric analysis of Ce0.9Fe0.1O2 during two consecutive CO2-splitting thermo-
+chemical cycles. The TGA curve obtained for ceria is reported for comparison.
+2.3. Perovskites
+Several perovskite compositions were also synthesized and characterized during
+thermochemical cycles. Table 1 presents the synthesis method, the powder formulations,
+and their reactivity during CO2-splitting cycles. La0.5Sr0.5Mn0.9Mg0.1O3 (LSMMg) is used
+as a reference material for the performance comparison as it was previously identiﬁed
+as a promising candidate material for such an application [36]. The thermogravimetric
+analyses are presented in Figure 6. Two consecutive CO2-splitting cycles were carried out
+with a reduction temperature of 1400 ◦C (except for Ca0.5Ce0.5MnO3 which was reduced at
+1300 ◦C due to a melting issue above this temperature) and a re-oxidation temperature of
+1050 ◦C.
+Table 1. Summary of O2 release and CO production yields, along with CO peak production rates
+during two consecutive thermochemical cycles with the considered series of perovskite powders
+(note that the reduction step for Ca0.5Ce0.5MnO3 was carried out at 1300 ◦C).
+Perovskite Composition
+Synthesis Method
+1st Cycle
+2nd Cycle
+O2 Yield
+CO Yield
+CO Peak
+Production
+Rate
+O2 Yield
+CO Yield
+CO Peak
+Production
+Rate
+(µmol/g)
+(µmol/g)
+(µmol/min.g)
+(µmol/g)
+(µmol/g)
+(µmol/min.g)
+La0.5Sr0.5Mn0.9Mg0.1O3
+Pechini
+254
+246
+15.3
+203
+249
+12.7
+Ce0.2Sr1.8MnO4
+Evaporation-to-dryness
+201
+219
+-
+114
+224
+-
+Ce0.2Sr1.8MnO4
+Mecano-synthesis
+197
+184
+15.7
+121
+199
+6.9
+Ca0.5Ce0.5MnO3
+Pechini
+260 (1300 ◦C)
+53
+1.6
+48 (1300 ◦C)
+76
+2.2
+Sm0.6Ca0.4Mn0.8Al0.2O3
+Pechini
+206
+213
+25.4
+180
+212
+6.4
+
+
+===== Page 8 =====
+
+Molecules 2023, 28, 4327
+8 of 23
+Figure 6. Thermogravimetric analyses of different perovskites during two consecutive CO2-splitting
+thermochemical cycles (note that the reduction step for Ca0.5Ce0.5MnO3 was carried out at 1300 ◦C).
+LSMMg released 254 and 203 µmol/g of O2 during the reduction steps and produced
+246 and 249 µmol/g of CO during the re-oxidation steps.
+The Ruddlesden–Popper (RP) perovskite Ce0.2Sr1.8MnO4 was identiﬁed by Barcellos
+et al. from thermodynamic calculations as a good candidate for the production of synthetic
+fuel via thermochemical cycles [37]. Bergeson-Keller et al. experimentally tested this
+material during water-splitting cycles [38]. In this work, Ce0.2Sr1.8MnO4 was synthesized
+by a soft synthesis method (evaporation-to-dryness method) and a solid-state mechanical
+method both described in the Materials and Methods section. The material synthesized by
+the Pechini method produced 201 and 114 µmol/g of O2 and 219 and 224 µmol/g of CO
+from mass losses measured by TGA. XRD analysis (Figure 7) reveals the presence of a SrO
+phase that could react with CO2 to produce SrCO3 [39]. This side reaction participates in
+the mass increase during the re-oxidation step, and this is conﬁrmed during the second
+reduction step by a ﬁrst mass decrease just after the dwell at 1050 ◦C when the CO2 injection
+was stopped. This is attributed to the strontium carbonate dissociation releasing CO2. A
+second synthesis method was used to obtain the pure RP perovskite phase without a SrO
+secondary phase (solid-state synthesis), and the material was tested in the same way with
+the thermobalance. The XRD analysis conﬁrms the absence of a SrO phase (Figure 8).
+Accordingly, the mass variations were lower during TGA. The O2 release was 197 and
+121 µmol/g and the CO production was 184 and 199 µmol/g. The previous study found in
+the literature [38] reported an O2 release at 1400 ◦C of 168 and 142 µmol/g and a hydrogen
+production of 247 µmol/g at 1000 ◦C with a 40%vol steam concentration. The material
+obtained in this study thus released more O2 during the ﬁrst reduction, but the CO yield
+was hindered by kinetic limitations. Note that a longer duration for the re-oxidation step
+would result in higher fuel production, since the oxidation step with CO2 did not reach
+
+
+===== Page 9 =====
+
+Molecules 2023, 28, 4327
+9 of 23
+completion after 45 min at 1050 ◦C. This investigation also reveals the importance of the
+synthesis method on materials’ performance.
+20
+30
+40
+50
+60
+70
+80
+Counts (a.u.)
+2θ (°)
+Calcined at 1100°C
+after cycling
+Calcined at 1400°C
+RP perovskite phase
+SrO
+Figure 7. XRD pattern of Ce0.2Sr1.8MnO4 obtained from the evaporation-to-dryness method.
+20
+30
+40
+50
+60
+70
+80
+Counts (a.u.)
+2θ (°)
+RP perovskite phase
+CeO2
+SrCO3
+MnO
+Calcined at 1400°C
+precursor mix
+Figure 8. XRD patterns of Ce0.2Sr1.8MnO4 obtained at 1400 ◦C by solid-state synthesis. The starting
+mixture of precursors is reported for comparison.
+Another material formulation that was synthesized is Ca0.5Ce0.5MnO3. This perovskite
+composition was previously identiﬁed by theoretical calculations as a potential candidate
+with improved reactivity for thermochemical cycles [40]. The authors of this work men-
+tioned the ability of simultaneous reduction of Ce4+ and Mn3+. However, it was never
+tested experimentally to conﬁrm the theoretical predictions. The material was thus synthe-
+sized by the modiﬁed Pechini method (see the Materials and Methods section). The XRD
+pattern of the synthesized powder is shown in Figure 9. After calcination at 1100 ◦C, two
+main phases are observed, the ﬂuorite structure associated with CeO2 and the perovskite
+
+
+===== Page 10 =====
+
+Molecules 2023, 28, 4327
+10 of 23
+phase associated with (Ca,Ce)MnO3. A minor phase of Mn3O4 is also observed on the
+XRD pattern. This observation is consistent with a previous study on Ca0.5Ce0.5MnO3
+synthesis, where CeO2 was found to be a major phase obtained [41]. Hence, this material is
+a multi-phase material and the pure Ca0.5Ce0.5MnO3 phase was not obtained. The variation
+of mass during redox cycles from TG analysis is presented in Figure 6. Due to melting
+phenomena occurring at 1400 ◦C, the two consecutive cycles were performed with a reduc-
+tion temperature of 1300 ◦C. During redox cycling, 260 µmol/g and 48 µmol/g of O2 were
+released, while 53 µmol/g and 76 µmol/g of CO were produced, respectively. At the end of
+the thermochemical cycles, the recovered powder was strongly sintered. Such performance
+does not overpass the gas production yields of ceria during CO2-splitting cycles after a
+reduction step at 1300 ◦C. XRD analysis after thermochemical cycling is shown in Figure 9,
+which reveals the formation of a CaMn2O4 phase instead of the perovskite phase that has
+totally disappeared after thermochemical cycles.
+20
+30
+40
+50
+60
+70
+80
+Counts (a.u.)
+2θ (°)
+Calcined at 1100°C
+After cycling at 1300°C
+Fluorite (CeO2 type)
+orthorhombic perovskite
+Mn3O4
+CaMn2O4
+Figure 9. XRD patterns of Ca0.5Ce0.5MnO3 calcined at 1100 ◦C and after thermochemical cycling at
+1300 ◦C.
+Another perovskite formulation considered in this study is Sm0.6Ca0.4Mn0.8Al0.2O3.
+This material was identiﬁed as highly promising during an experimental study [42], in
+which authors reported a very high and unusual CO production yield of 580 µmol/g over
+14 consecutive cycles with a reduction step at 1350 ◦C. Thus, a complementary analysis
+of this material was performed in this work to compare results and discuss the perfor-
+mance. The material was synthesized by the modiﬁed Pechini method (see the Section 3).
+XRD analysis is shown in Figure 10. The orthorhombic perovskite phase associated with
+the Sm0.6Ca0.4Mn0.8Al0.2O3 phase was identiﬁed after calcination at 1400 ◦C. After cy-
+cling, the perovskite phase remained stable. During the two consecutive CO2-splitting
+cycles realized in the thermobalance, the O2 release was 206 and 180 µmol/g and the CO
+production yield reached 213 and 212 µmol/g. These values are thus far from those re-
+ported previously [42] and even lower than those of LSMMg used as reference formulation
+(Table 1). However, due to the slow kinetic rate, the oxidation step with CO2 did not
+reach completion after 45 min at 1050 ◦C, regardless of the considered perovskite material.
+Hence, a longer duration for the re-oxidation step would result in higher fuel production
+(the maximum CO production yield would however not exceed twice the O2 yield). Fi-
+nally, this study conﬁrms that the previously published unusual or unexpected data (e.g.,
+related to Ce0.9Fe0.1O2 [33,34], Ca0.5Ce0.5MnO3 [40], or Sm0.6Ca0.4Mn0.8Al0.2O3 [42]) are
+
+
+===== Page 11 =====
+
+Molecules 2023, 28, 4327
+11 of 23
+difﬁcult to reproduce experimentally and therefore strongly require experimental validation
+and conﬁrmation.
+20
+30
+40
+50
+60
+70
+80
+Counts (a.u.)
+2θ (°)
+Calcined at 1400°C
+After cycling
+orthorhombic perovskite
+Figure 10. XRD patterns of Sm0.6Ca0.4Mn0.8Al0.2O3 prepared at 1400 ◦C and after thermochemical
+cycling at 1400 ◦C.
+2.4. Dual-Phase Composite Materials
+Dual-phase materials were investigated to provide insights into the potential synergis-
+tic effect that may arise by mixing two redox-active materials with noticeable performance
+in thermochemical CO2-splitting cycles. The activity of dual-phase compounds has been
+scarcely studied so far. Only a few articles reported the beneﬁts of dual-phase materials
+containing ceria on the oxygen storage/exchange capacity [43–46]. In this study, the mix-
+ture of ceria with nickel ferrite was studied, as well as the mixture of ceria with a perovskite
+(LSMMg). These composite materials are expected to offer enhanced reactivity in two-step
+thermochemical cycles, compared to individual compounds.
+2.4.1. Dual-Phase CeO2/NiFe2O4
+A mixture of ceria and nickel ferrite (50/50 wt%) was obtained by grinding a com-
+mercial micrometric powder of cerium oxide (Sigma-Aldrich, St. Louis, MO, USA, 99.9%,
+<5 µm powder) with a previously synthesized nickel ferrite powder (obtained by the copre-
+cipitation of hydroxides, see the Materials and Methods section) followed by calcination of
+the blend at 1400 ◦C under static air for 1 h. This thermal treatment permits to characterize
+the stability of dual-phase materials and to observe whether they react together at the
+temperature of the reduction step. The XRD pattern of the mixture after calcination is
+shown in Figure 11. The two distinct phases of ceria (ﬂuorite) and nickel ferrite (spinel) are
+observed and no by-product has thus been formed, which conﬁrms the thermal stability in
+air at 1400 ◦C.
+
+
+===== Page 12 =====
+
+Molecules 2023, 28, 4327
+12 of 23
+Figure 11. XRD pattern of a mixture of CeO2 and NiFe2O4 (50/50 wt%) after thermal treatment in air
+at 1400 ◦C.
+The composite material was analyzed by TGA (Figure 12). During the two consecutive
+cycles, it released 226 µmol/g and 76 µmol/g of O2 during the reduction steps and pro-
+duced 85 µmol/g and 104 µmol/g of CO during the oxidation steps (Table 2). Compared
+to the pure components, the dual-phase material did not show improved performance. The
+release of O2 was better than for pure ceria but lower than for pure Ni-ferrite, and the CO
+production yield was similar to that of ceria but lower than that of Ni-ferrite.
+Figure 12. Thermogravimetric analysis of CeO2/NiFe2O4 mix (50/50 wt%) during two-consecutive
+CO2-splitting thermochemical cycles, in comparison with single phases of NiFe2O4 and CeO2.
+
+
+===== Page 13 =====
+
+Molecules 2023, 28, 4327
+13 of 23
+Table 2. O2 and CO production yields, along with CO peak production rates during two-consecutive
+thermochemical cycles with the dual-phase material CeO2/NiFe2O4 (50/50 wt%) compared to
+pristine ceria and Ni-ferrite.
+Powder Composition
+1st Cycle
+2nd Cycle
+O2 Yield
+CO Yield
+CO Peak
+Production Rate
+O2 Yield
+CO Yield
+CO Peak
+Production Rate
+(µmol/g)
+(µmol/g)
+(µmol/min.g)
+(µmol/g)
+(µmol/g)
+(µmol/min.g)
+CeO2/NiFe2O4 (50/50 wt%)
+226
+85
+7.5
+76
+104
+9.1
+CeO2
+55
+95
+39.5
+54
+98
+43.7
+NiFe2O4
+201
+172
+6.2
+106
+158
+6.2
+XRD analysis of the mixture at different temperatures under a controlled atmosphere
+is shown in Figure 13. At the bottom, the pattern was measured at room temperature.
+Going up from bottom to top, the powder was heated under a ﬂow of nitrogen up to
+1400 ◦C, with patterns acquisition at 600 ◦C, 800 ◦C, 1000 ◦C, 1200 ◦C, and 1400 ◦C. A
+plateau at 1400 ◦C for 1.5 h preceded a drop in temperature to 1000 ◦C at which pure CO2
+was swept inside the analysis chamber to react with the material. As a result, both ceria
+and Ni-ferrite phases are observed from room temperature to 1200 ◦C. The spinel phase
+corresponding to NiFe2O4 disappears at 1400 ◦C, and a new phase not identiﬁed appears
+at the end of the reduction step. This means the ferrite phase mixed with ceria is not stable
+under inert gas at 1400 ◦C, whereas the same mixture was stable during thermal treatment
+in air (Figure 11). During cooling as well as during the re-oxidation step, the spinel phase
+does not reappear. The two materials composing the mixture thus react together during
+heating at 1400 ◦C under an inert atmosphere, and the reactivity is not improved. Therefore,
+the investigations on this composite material were stopped and another composite material
+was studied.
+20
+30
+40
+50
+60
+70
+80
+Counts (a.u.)
+2θ (°)
+Ambient
+600°C
+1000°C
+1000°C
+1400°C
+1200°C
+1000°C
+800°C
+Ambient
+CeO2
+NiFe2O4
+not identified
+1400°C
+Figure 13. In situ XRD analysis of CeO2/NiFe2O4 (50/50 wt%) during a thermochemical cycle under
+a controlled atmosphere (N2 from ambient to 1400 ◦C and CO2 at 1000 ◦C).
+
+
+===== Page 14 =====
+
+Molecules 2023, 28, 4327
+14 of 23
+2.4.2. Dual-Phase CeO2/Perovskite
+Some studies have already mentioned the use of dual-phase ceria/perovskite materials
+in thermochemical cycles with expected beneﬁts on fuel production performance [43,47].
+The objective of this study on dual-phase materials is to observe whether a synergis-
+tic phenomenon can improve performance compared to single compounds, in particu-
+lar by maintaining a good reduction yield (property of perovskites) combined with in-
+creased re-oxidation kinetics (property of ceria). In order to study the redox behavior of
+ceria/perovskite dual-phase compositions, TGA was performed with ceria–perovskite
+powder mixtures (Figure 14). Five mixture compositions were studied: ceria powder
+mixed with 10 wt% of La0.5Sr0.5Mn0.9Mg0.1O3 (LSMMg), 50 wt% of LSMMg, 10 wt% of
+Ca0.5Sr0.5MnO3 (CSM), 50 wt% of CSM, and 10 wt% of Y0.5Sr0.5MnO3 (YSM as an alterna-
+tive material to CSM), abbreviated as CeO2-10% LSMMg, CeO2-50% LSMMg, CeO2-10%
+CSM, CeO2-50% CSM, and CeO2-10% YSM, respectively. The O2 production yield was
+increased for CeO2-10% YSM, CeO2-50% LSMMg, CeO2-10% CSM, and CeO2-50% CSM
+in comparison with pristine ceria (Table 3). Accordingly, CO production yield was also
+increased, highlighting the beneﬁcial impact on the redox activity of dual-phase composi-
+tions. Note that the CeO2-50%CSM material releases a large amount of O2 (652 µmol/g in
+the ﬁrst cycle) due to the large amount of CSM phase which is easily reduced (it is thus
+not represented in Figure 14). However, such a high reduction yield does not improve the
+CO production capacity of the material to a great extent because the re-oxidation step is
+not complete (151 and 168 µmol/g in the ﬁrst and second cycles, respectively). The same
+behavior is observed for the CeO2-10% CSM material.
+ 
+Figure 14. Thermogravimetric proﬁles (solid lines) along with the temperature proﬁle (black dotted
+line) during thermochemical cycling of powder mixtures: CeO2-10% CSM, CeO2-10% LSMMg,
+CeO2-10% YSM, and CeO2-50% LSMMg, in comparison with single CeO2.
+
+
+===== Page 15 =====
+
+Molecules 2023, 28, 4327
+15 of 23
+Table 3. O2 and CO production yields, along with CO peak production rates during two thermo-
+chemical cycles in TGA for a series of dual-phase powder compositions, in comparison with single
+CeO2 and LSMMg powders.
+Powder Composition
+1st Cycle
+2nd Cycle
+O2 Yield
+CO Yield
+CO Peak
+Production Rate
+O2 Yield
+CO Yield
+CO Peak
+Production Rate
+(µmol/g)
+(µmol/g)
+(µmol/min.g)
+(µmol/g)
+(µmol/g)
+(µmol/min.g)
+CeO2
+55
+95
+39.5
+54
+98
+43.7
+LSMMg
+254
+246
+15.3
+203
+249
+12.7
+CeO2-10% YSM
+117
+123
+15.0
+71
+129
+16.7
+CeO2-10% LSMMg
+45
+83
+14.1
+57
+98
+12.3
+CeO2-50% LSMMg
+120
+178
+25.7
+124
+163
+6.6
+CeO2-10% CSM
+172
+129
+13.1
+74
+137
+15.5
+CeO2-50% CSM
+652
+151
+5.1
+93
+168
+5.8
+In order to optimize the reactivity of the most interesting dual-phase material, a
+reticulated foam of CeO2/LSMMg (50/50 wt%) was prepared by the impregnation method
+after calcination of the powder mixture at 1400 ◦C in air (see the Materials and Methods
+section). Figure 15 presents the macroscopic and microscopic images of the foam. The
+foam exhibits a dark gray color due to LSMMg. The strands are highly porous and have
+a thickness of about 1 mm. Pores around grains are observed and the two materials are
+well mixed with a micrometric grain size. The foam thus exhibits a dual-scale porosity
+(millimetric cells and submicrometric pores within struts).
+ 
+Figure 15. Macroscopic and microscopic images of the CeO2/LSMMg (50/50 wt%) dual-phase foam
+after calcination at 1400 ◦C.
+Actually, the speciﬁc surface area of the synthesized materials is always low after their
+thermal treatment at 1400 ◦C (<1 m2/g), which means that this property is not the main one
+impacting the CO yield. The porous structure of the foam can be advantageous because
+the most important is to keep good access of the reactive gas (CO2) to the bulk material
+
+
+===== Page 16 =====
+
+Molecules 2023, 28, 4327
+16 of 23
+through interconnected porosity. Thus, sintering phenomena must be avoided as much as
+possible to maintain sufﬁciently high oxidation rates and thereby high CO yields.
+The EDS analysis (Figure 16) shows that the two distinct phases remain, but it also
+reveals that the magnesium has migrated from the perovskite phase to form segregated
+spots on the ceria grains.
+Figure 16. EDS analysis of CeO2/LSMMg (50/50 wt%) dual-phase foam after calcination at 1400 ◦C.
+The CeO2/LSMMg foam was analyzed by TGA during two consecutive cycles
+(Figure 17).
+The releases of oxygen during the reduction steps are 173 µmol/g and
+96 µmol/g and the CO production yields reach 176 µmol/g and 180 µmol/g. The produc-
+tion of CO with the foam is thus consistent with the production obtained with the mixture
+of powders without shaping under the same cycling conditions.
+Figure 17. TGA of CeO2/LSMMg (50/50 wt%) dual-phase foam during two consecutive CO2-
+splitting cycles.
+
+
+===== Page 17 =====
+
+Molecules 2023, 28, 4327
+17 of 23
+XRD patterns of the crushed foam calcined at 1400 ◦C and after two thermochemical
+cycles are compared in Figure 18. The two phases corresponding to CeO2 and LSMMg
+are observed without any by-product before and after the thermochemical cycles, which
+conﬁrms the stability of the material and the absence of reaction between phases.
+20
+30
+40
+50
+60
+70
+80
+90
+100
+Counts (a.u.)
+2θ (°)
+post cycling
+calcined at 1400°C under air
+perovskite
+fluorite
+Figure 18. XRD patterns of CeO2/LSMMg (50/50 wt%) dual-phase foam after calcination at 1400 ◦C
+and after two consecutive thermochemical CO2-splitting cycles.
+In situ temperature-programed XRD analysis during two thermochemical cycles was
+then performed. Figure 19a shows the superimposition of the diffraction patterns of the
+ground foam for the different temperatures. From bottom to top, the material was heated
+from room temperature to 1300 ◦C under nitrogen, then the temperature decreased to
+800 ◦C, at which CO2 was injected into the analysis chamber, followed by a similar second
+cycle. Diffraction peaks are shifted to low angles during reduction steps and to high angles
+during cooling and CO2 exposure. These peak shifts correspond to the reduction and
+oxidation of the two materials. The beneﬁcial synergistic effect described in previous work
+on La0.65Sr0.35MnO3–CeO2 composite [43] was not observed in this study. The O2 release
+and CO production yields are lower than those of pure LSMMg, and the effect of the oxygen
+diffusion channel by ceria was not observed. Indeed, Bork et al. [43] reported a shift of the
+LSM XRD peak to a lower angle upon cooling after the reduction step (corresponding to
+LSM reduction with oxygen transfer inducing simultaneous re-oxidation of ceria). They
+concluded that the ceria only played the role of oxygen diffusion channel, but this was not
+the case in this study as both phases were redox-active (Figure 19b,c).
+
+
+===== Page 18 =====
+
+Molecules 2023, 28, 4327
+18 of 23
+(a) 
+ 
+ 
+(b) 
+(c) 
+20
+30
+40
+50
+60
+70
+80
+Counts (a.u.)
+2θ (°)
+600°C
+800°C
+1000°C
+1300°C
+1300°C
+800°C
+800°C
+1000°C
+1200°C
+1300°C
+1300°C
+1200°C
+Ambient
+600°C
+800°C
+1000°C
+Ambient
+Ambient
+fluorite 
+perovskite
+27
+28
+29
+30
+30
+32
+34
+Figure 19. XRD analysis of CeO2/LSMMg (50/50 wt%) dual-phase foam during two consecutive
+CO2-splitting cycles (a), zoom on a ceria peak (b), and zoom on a perovskite peak (c).
+In summary, to conclude this section on the CeO2/LSMMg (50/50) composite material,
+no synergistic effect was observed and CO production was not enhanced compared to the
+pure LSMMg phase. However, fuel production performance was improved over pure ceria
+despite slower oxidation rates.
+3. Materials and Methods
+Several synthesis methods were employed to obtain the different oxides investigated
+in this study. Different methods were chosen mainly to compare the redox performance
+with the materials synthesized in other studies based on the same methods.
+
+
+===== Page 19 =====
+
+Molecules 2023, 28, 4327
+19 of 23
+Coprecipitation of hydroxides has been used for the synthesis of nickel ferrite and
+Ce0.9Fe0.1O2 oxides. Nitrates precursors (Ce(NO3)3.6H2O, purity 99.5%, Ni(NO3)2.6H2O,
+purity 99.5%, and Fe(NO3)3.9H2O, purity ≥98% from Sigma-Aldrich) were weighted to
+adapt to the desired stoichiometric content and dissolved in distilled water by stirring.
+Polyethylene glycol (purity ≥99%) was added to the solution under stirring to improve
+the ﬁnal powder morphology. Sodium hydroxide (NaOH) was then poured into the
+solution until the pH value reached 11. The metallic cations were hydrolyzed and formed
+a precipitate of metal hydroxides. The precipitate was ﬁltered and washed several times
+until the pH of the rinsing solution decreased to 7. The precipitate was then dried in an
+oven at 80 ◦C overnight and calcined at 1000 ◦C for 1 h. The solid was ground in a mortar
+and calcined at 1400 ◦C (or 1300 ◦C for Ce0.9Fe0.1O2 to alleviate sintering) to form the
+ﬁnal oxide.
+The second synthesis method employed was the modiﬁed Pechini synthesis described
+elsewhere [48]. Brieﬂy, metallic nitrate precursors were dissolved in distilled water by
+stirring for 10 min. The citric acid (purity ≥99.5%) was then added to the solution under
+stirring with a molar concentration twice the cations concentration (nCA= 2 × ncations).
+Ethylene glycol (purity ≥99%) was then poured into the solution with a molar concentration
+four times the cations concentration (nEG = 4 × ncations). The solution was stirred and
+heated up to 90 ◦C until gelation (brownish color). The gel was then heated in a furnace at
+250 ◦C for 2 h. The resulting powder was crushed in an agate mortar and calcined in air at
+1000 ◦C for 1 h. To avoid any sintering effect during the thermal analysis, the oxides were
+then calcined and stabilized in air for 1 h at either 1300 ◦C or 1400 ◦C corresponding to the
+maximum temperature of the thermogravimetric analysis (TGA).
+Another synthesis technique employed was the evaporation-to-dryness method used
+to synthesize Ce0.2Sr1.8MnO4 [37]. The metal nitrate precursors were dissolved in distilled
+water by stirring. The solution was then heated until complete evaporation of the water
+and the solid residue was ﬁrst calcined at 1100 ◦C for 2 h, then at 1400 ◦C for 10 h.
+The last method employed was a solid-state synthesis using a vibrating milling appa-
+ratus (mixer mill MM400 Retsch). To synthesize Ce0.2Sr1.8MnO4, the selected precursors
+were CeO2 commercial powder (99.9%, <5 µm, Sigma-Aldrich), MnO (≥99%) commercial
+powder, and SrCO3 (≥99.9%). The precursors were weighed and placed in the mixer mill
+with water (37% wt). The paste was milled for 30 min at a frequency of 30 Hz. The paste
+obtained was dried at 110 ◦C for 6 h and calcined at 1400 ◦C for 3 h.
+The reticulated foams were obtained from the corresponding powders by the replica-
+tion method already described elsewhere [49]. The oxide powders were ground together
+in the case of dual-phase materials in a mortar and used in the slurry formulation. The
+different oxides were weighed and poured into distilled water together with the porogen
+(carbon ﬁbers Sigraﬁl® M80), the dispersant (Dolapix®), and the binder (polyvinyl alcohol,
+PVA, Mowiol® 4-88). The aqueous slurry was then used to coat/impregnate a sacriﬁcial
+polyurethane (PU, Bulpren) foam (10 ppi, pore per inch) serving as a template. The PU
+foam was immersed in the slurry and dried overnight. The as-impregnated foam was then
+slowly heated up to 1000 ◦C (at 2.5 ◦C/min) to remove all the organic components from the
+material and annealed at 1400 ◦C for 3 h to achieve sintering which provides mechanical
+resistance to the ceramic foam.
+The structure and microstructure of the prepared materials were fully characterized
+with the following series of techniques.
+The crystalline structure was studied by X-ray diffraction (XRD) using a Panalyti-
+cal X’PERT PRO diffractometer with the Cu Kα radiation (αCu = 0.15406 nm, angular
+range = 20–80◦, 2θ, tube current 20 mA, potential 40 kV).
+High-temperature X-ray diffractometer (HT XRD—Empyrean Panalytical with Anton-
+Paar HTK1 chamber) equipped with Cu Kα radiation was used for in situ investigation
+of phase reactivity/transitions during redox cycling (tube current 20 mA, potential 45 kV,
+angular range = 20–80◦, 2θ, angle variation 0.02626◦/s). The powder was heated up to
+
+
+===== Page 20 =====
+
+Molecules 2023, 28, 4327
+20 of 23
+1300 or 1400 ◦C under N2 ﬂow for the reduction step and cooled down to either 1000 ◦C or
+800 ◦C for the oxidation step with CO2 injection.
+The morphology of the materials was observed with a Field Emission Scanning Elec-
+tron Microscope (FESEM–Hitachi S4800) used to examine the microstructure of foams.
+A chemical elementary cartography was realized by EDS analysis (Energy Dispersive
+X-ray Spectroscopy) to estimate the chemical composition and to observe cations distribu-
+tion (surface mapping) in the material. Analyses were performed using a Zeiss Sigma 300.
+The accelerating voltage used was 15 keV.
+To complete the materials characterization, their thermochemical activity during two-
+step CO2-splitting cycles was investigated. Thermogravimetric analysis (TGA, SETARAM
+Setsys Evo 1750) was used to measure the mass variations (amount of oxygen exchanged)
+associated with the reduction and oxidation steps of thermochemical cycles.
+About
+100 mg of material (exact mass determined with a high precision balance) was intro-
+duced in a platinum crucible hung to the microbalance with platinum suspensions and
+placed inside the furnace chamber. Residual air in the furnace chamber was eliminated by
+preliminary pumping to operate in an inert atmosphere during the reduction step with a
+low oxygen partial pressure (pO2 ~ 10−5 bar). The sample was then heated under a ﬂow of
+argon (99.999% purity, <2 ppm of O2, 20 mL/min) with a heating rate of 20 ◦C/min up to
+the selected set-point temperature, and the variation in mass was recorded continuously.
+The successive steps of the cycles were carried out at different temperatures (typically
+1400 ◦C or 1300 ◦C dwelled for 45 min during the reduction step and 1050 ◦C dwelled
+for 1 h during the CO2-splitting step), and CO2 (99.995% purity) was injected during the
+oxidation step (with a mole fraction of 50% CO2 in argon and with a CO2 ﬂowrate of
+10 mL/min). The same cycling conditions were applied for all materials for comparison
+purposes. The maximum cycle temperature was a good compromise because it was high
+enough to guarantee sufﬁcient reduction yield while maintaining the thermal stability of
+the materials. Blank run correction (using an empty crucible) was performed to correct the
+small baseline mass drift during non-isothermal heating caused by thermal gas expansion
+and buoyancy effects on the crucible.
+The mass variations associated with the temperature-programmed cycles correspond
+to the oxygen release during reduction (in the form of O2) and the oxygen uptake (in the
+form of O atoms) during CO2-splitting (equivalent to the CO produced), which allows
+calculating both the reduction yield and the CO production yield. Accordingly, the O2 and
+CO production yields (expressed in mol/goxide) are calculated as follows:
+nO2 = ∆mred/
+ MO2·moxide
+
+(3)
+nCO = ∆mox/(MO·moxide)
+(4)
+where ∆m is the sample mass variation measured during the reduction or the oxidation
+step (g), M is the molecular weight of O2 (32 g/mol) or O (16 g/mol), and moxide is the
+sample mass loaded in the crucible (g).
+4. Conclusions
+This study investigated different classes of redox-active compounds based on spinel
+ferrite, ﬂuorite, and perovskite oxide structures for the generation of synthetic solar fuels
+via two-step thermochemical cycles. The process ultimately aims to use concentrated
+solar energy as a high-temperature process heating source for thermochemical reactions.
+First, state-of-the-art redox materials consisting of Ni-ferrite and ceria were shaped as
+reticulated foams to compare their thermochemical performance during cycling with a
+reduction step temperature of 1400 ◦C and a re-oxidation step under CO2 (50% mole
+fraction) at 1050 ◦C. As expected, the NiFe2O4 foam produced more CO than its ceria
+counterpart, at the expense of slower kinetics during the oxidation step. Other single-phase
+oxides were then considered (including Ce0.9Fe0.1O2, Ca0.5Ce0.5MnO3, Ce0.2Sr1.8MnO4, and
+Sm0.6Ca0.4Mn0.8Al0.2O3) as they were previously identiﬁed in separate studies as highly
+
+
+===== Page 21 =====
+
+Molecules 2023, 28, 4327
+21 of 23
+reactive materials for CO2 splitting, with reported performance signiﬁcantly superior to
+that of the benchmark ceria or lanthanum manganite perovskites. Nevertheless, these
+results were not conﬁrmed in this work as the materials showed limited fuel production and
+lower overall redox performance in comparison with La0.5Sr0.5Mn0.9Mg0.1O3, due to sintering
+effects or kinetic limitations during oxidation which were never highlighted before.
+In order to improve the performance of materials, dual-phase composites were ﬁnally
+considered, in particular ceria/ferrite and ceria/perovskite composites. The addition of
+NiFe2O4 to ceria did not prove to be beneﬁcial in improving redox performance. Among
+the perovskites considered (La0.5Sr0.5Mn0.9Mg0.1O3, Ca0.5Sr0.5MnO3, Y0.5Sr0.5MnO3), it
+was shown that the addition of 50 wt% of La0.5Sr0.5Mn0.9Mg0.1O3 improved fuel yield at
+the expense of slower oxidation kinetics compared to pure ceria. Interestingly, the same
+composite formulation shaped as a reticulated foam with dual-scale porosity maintained
+its fuel production capacity (~180 µmol/g) without altering the reaction kinetics. However,
+no synergistic effect between the two phases was demonstrated.
+The consideration of composite materials remains a promising option to improve
+the oxygen-exchange capacity of redox materials for the production of renewable fuels.
+When mixing redox-active phases, synergistic effects resulting from bulk-to-surface oxygen
+transfer in the composite materials are expected, by which the redox properties could be
+modiﬁed and ultimately the fuel productivity could be improved. The expected bene-
+ﬁcial effects of dual-phase composites therefore deserve to be thoroughly assessed and
+further demonstrated.
+Author Contributions: Conceptualization, A.L.G. and S.A.; methodology, A.L.G. and S.A.; validation,
+S.A. and A.J.; investigation, A.L.G. and S.A.; data curation, A.L.G.; writing—original draft prepara-
+tion, A.L.G.; writing—review and editing, A.L.G., S.A. and A.J.; supervision, S.A. and A.J.; project
+administration, S.A.; funding acquisition, S.A. All authors have read and agreed to the published
+version of the manuscript.
+Funding: This research was funded by the H2VERT project led by Région Occitanie in France (Déﬁ
+clé Hydrogène Vert- Plan de relance—FEDER REACT EU—Hydrosol sub-project).
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: The data presented in this study are available on request from the
+corresponding author.
+Acknowledgments: The authors acknowledge the support from the PCM characterization platform
+(E. Beche) in PROMES-CNRS during XRD analysis, B. Rebière from the microscopy platform at IEM
+for EDS analysis, and B. Fraisse from the analysis and characterization platform of the Pole Chimie
+Balard for the temperature-programmed XRD analysis.
+Conﬂicts of Interest: The authors declare no conﬂict of interest. The funders had no role in the design
+of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript; or
+in the decision to publish the results.
+Sample Availability: Not applicable.
+References
+1.
+Funk, J.; Reinstrom, R. Energy requirements in the production of hydrogen from water. Ind. Eng. Chem. Process Des. Dev. 1966,
+5, 336–342. [CrossRef]
+2.
+Han, S.; Kang, T.; Joo, O.; Jung, K. Water splitting for hydrogen production with ferrites. Sol. Energy 2007, 81, 623. [CrossRef]
+3.
+Fresno, F.; Saaverda, R.; Gomez-Mancebo, M.; Vidal, A.; Sanchez, M.; Rucandio, I.; Quejido, A.; Romero, M. Solar hydrogen
+production by two-step thermochemical cycles: Evaluation of the activity of commercial ferrites. Int. J. Hydrogen Energy 2009, 23,
+1185–1191. [CrossRef]
+4.
+Kodama, T.; Gokon, N.; Yamamoto, R. Thermochemical two-step water splitting by ZrO2-supported NixFe3−xO4 for solar
+hydrogen production. Sol. Energy 2008, 82, 73–79. [CrossRef]
+5.
+Jung, Y.; Oh, S.; Han, G.; Chen, K.; Seo, T. Dish type solar thermal system for hydrogen production with two-step water-splitting
+reaction. In Proceedings of the Solar Paces Conference, Perpignan, France, 21–24 September 2010; Volume 179.
+
+
+===== Page 22 =====
+
+Molecules 2023, 28, 4327
+22 of 23
+6.
+Gokon, N.; Kondo, N.; Mataga, T.; Kodama, T. Internally circulating ﬂuidized bed reactor with NiFe2O4 particles for thermo-
+chemical water-splitting. In Proceedings of the Solar Paces Conference, Berlin, Germany, 15–18 September 2009; pp. 46–56.
+7.
+Abanades, S.; Flamant, G. Thermochemical hydrogen production from a two-step solar-driven water-splitting cycle based on
+cerium oxides. Sol. Energy 2006, 80, 1611–1623. [CrossRef]
+8.
+Marxer, D.; Furler, P.; Takacs, M.; Steinfeld, A. Solar thermochemical splitting of CO2 into separate streams of CO and O2 with
+high selectivity, stability, conversion, and efﬁciency. Energy Environ. Sci. 2017, 10, 1142–1149. [CrossRef]
+9.
+Schappi, R.; Rutz, D.; Dahler, F.; Muroyama, A.; Haueter, P.; Lilliestam, J.; Patt, A.; Furler, P.; Steinfeld, A. Drop-in fuels from
+sunlight and air. Nature 2022, 601, 63–68. [CrossRef]
+10.
+Chueh, W.; Falter, C.; Abbott, M.; Scipio, D.; Furler, P.; Haile, S. High ﬂux solar driven thermochemical dissociation of CO2 and
+H2O using non-stoichiometric ceria. Science 2010, 330, 1797–1801. [CrossRef]
+11.
+Le Gal, A.; Abanades, S. Catalytic investigation of ceria-zirconia solid solutions for solar hydrogen production. Int. J. Hydrogen
+Energy 2011, 36, 4739–4748. [CrossRef]
+12.
+Ariﬁn, D.; Ambrosini, A.; Wilson, S.; Mandal, B.; Muhich, C.; Weimer, A. Investigation of Zr, Gd/Zr, and Pr/Zr-doped ceria for
+the redox splitting of water. Int. J. Hydrogen Energy 2020, 45, 160–174. [CrossRef]
+13.
+Pullar, R.; Novais, R.; Caetano, A.; Barreiros, M.; Abanades, S.; Costa Oliveira, F. A review of solar thermochemical CO2 splitting
+using ceria-based ceramics with designed morphologies and microstructures. Front. Chem. 2019, 7, 601. [CrossRef] [PubMed]
+14.
+Furler, P.; Scheffe, J.; Steinfeld, A. Syngas production by simultaneous splitting of H2O and CO2 via ceria redox reaction in a
+high-temperature solar reactor powered by a high ﬂux solar simulator. Energy Environ. Sci. 2012, 5, 6098–6103. [CrossRef]
+15.
+Furler, P.; Scheffe, J.; Gorbar, M.; Moes, L.; Vogt, U.; Steinfeld, A. Solar thermochemical CO2 splitting utilizing a reticulated porous
+ceria redox system. Energy Fuels 2012, 26, 7051–7059. [CrossRef]
+16.
+Haeussler, A.; Abanades, S.; Julbe, A.; Jouannaux, J.; Drobek, M.; Ayral, A.; Cartoixa, B. Remarkable Performance of Microstruc-
+tured Ceria Foams for Thermochemical Splitting of H2O and CO2 in a Novel High–Temperature Solar Reactor. Chem. Eng. Res.
+Des. 2020, 156, 311–323. [CrossRef]
+17.
+Haeussler, A.; Abanades, S.; Costa Oliveira, F.A.; Barreiros, M.A.; Caetano, A.P.F.; Novais, R.M.; Pullar, R.C. Solar Redox Cycling
+of Ceria Structures Based on Fiber Boards, Foams, and Biomimetic Cork-Derived Ecoceramics for Two-Step Thermochemical
+H2O and CO2 Splitting. Energy Fuels 2020, 34, 9037–9049. [CrossRef]
+18.
+Venstrom, L.J.; Petkovich, N.; Rudisill, S.; Stein, A.; Davidson, J.H. The effects of morphology on the oxidation of ceria by water
+and carbon dioxide. J. Sol. Energy Eng. 2012, 134, 011005. [CrossRef]
+19.
+Abanades, S.; Haeussler, A. Two-Step Thermochemical Cycles Using Fibrous Ceria Pellets for H2 Production and CO2 Reduction
+in Packed-Bed Solar Reactors. Sustain. Mater. Technol. 2021, 29, e00328. [CrossRef]
+20.
+Gibbons, W.; Venstrom, L.; De Smith, R.; Davidson, J.; Jackson, G. Ceria-based electrospun ﬁbers for renewable fuel production
+via two-step thermal redox cycles for carbon dioxide splitting. Phys. Chem. Chem. Phys. 2014, 16, 14271–14280. [CrossRef]
+21.
+Abanades, S.; Haeussler, A.; Julbe, A. Synthesis and thermochemical redox cycling of porous ceria microspheres for renewable
+fuels production from solar-aided water-splitting and CO2 utilization. Appl. Phys. Lett. 2021, 119, 023902. [CrossRef]
+22.
+Takalkar, G.; Bhosale, R.; AlMomani, F.; Rashid, S.; Qiblawey, H.; Saad, M.; Khraisheh, M.; Kumar, G.; Gupta, R.; Shende, R.
+Thermochemical splitting of CO2 using solution combustion synthesized lanthanum-strontium-manganese perovskites. Fuel
+2021, 285, 119154. [CrossRef]
+23.
+Haeussler, A.; Julbe, A.; Abanades, S. Investigation of reactive perovskite materials for solar fuel production via two-step redox
+cycles: Thermochemical activity, thermodynamic properties and reduction kinetics. Mater. Chem. Phys. 2022, 276, 125358.
+[CrossRef]
+24.
+Barcellos, D.; Sanders, M.; Tong, J.; McDaniel, A.; O’Hayre, R. BaCe0.25Mn0.75O3—A promising perovskite type oxide for solar
+thermochemical hydrogen production. Energy Environ. Sci. 2018, 11, 3256–3265. [CrossRef]
+25.
+Zhang, D.; De Santiago, H.; Xu, B.; Liu, C.; Trindell, J.; Li, W.; Park, J.; Rodriguez, M.; Coker, E.; Sugar, J.; et al. Compositionally
+complex perovskite oxides for solar thermochemical water splitting. Chem. Mater. 2023, 35, 1901–1915. [CrossRef]
+26.
+Mao, Y.; Gao, Y.; Dong, W.; Wu, H.; Song, Z.; Zhao, X.; Sun, J.; Wang, W. Hydrogen production via two-step water splitting
+thermochemical cycle based on metal oxide—A review. Appl. Energy 2020, 267, 114860. [CrossRef]
+27.
+Abanades, S. Metal oxides applied to thermochemical water-splitting for hydrogen production using concentrated solar energy.
+Chem. Eng. 2019, 3, 63. [CrossRef]
+28.
+Abanades, S. Redox Cycles, Active Materials, and Reactors Applied to Water and Carbon Dioxide Splitting for Solar Thermo-
+chemical Fuel Production: A Review. Energies 2022, 15, 7061. [CrossRef]
+29.
+Gokon, N.; Murayama, H.; Nagasaki, A.; Kodama, T. Thermochemical two-step water-splitting cycles by monoclinic ZrO2-
+supported NiFe2O4 and Fe3O4 powders and ceramic foam devices. Sol. Energy 2009, 89, 527–537. [CrossRef]
+30.
+Gokon, N.; Takahashi, S.; Yamamoto, H.; Kodama, T. Thermochemical two-step water-splitting reactor with internally circulating
+ﬂuidized bed for thermal reduction of ferrites particles. Int. J. Hydrogen Energy 2008, 33, 2189–2199. [CrossRef]
+31.
+Allendorf, M.; Diver, R.; Siegel, N.; Miller, J. Two-step water splitting using mixed metal ferrites: Thermodynamic analysis and
+characterization of synthesized materials. Energy Fuels 2008, 22, 4115–4124. [CrossRef]
+32.
+Lorentzou, S.; Zygogianni, A.; Pagkoura, C. Hydrosol-plant: Structured redox reactors for H2 production from solar thermochem-
+ical H2O splitting. AIP Conf. Proc. 2018, 2033, 130010. [CrossRef]
+
+
+===== Page 23 =====
+
+Molecules 2023, 28, 4327
+23 of 23
+33.
+Orﬁla, M.; Sanz, D.; Linares, M.; Molina, R.; Sanz, R.; Marugan, J.; Botas, J.A. H2 production by thermochemical water splitting
+with reticulated porous structures of ceria-based mixed oxide materials. Int. J. Hydrogen Energy 2021, 46, 17458–17471. [CrossRef]
+34.
+Al-Taweel, S.; Nadeem, M.; Idriss, H. A study of CexFe1−xO2 as a reducible oxide for the thermal hydrogen production from
+water. Energy Technol. 2022, 10, 2100491. [CrossRef]
+35.
+Kümmerle, E.; Heger, G. The structures of C-Ce2O3+δ, Ce7O12, and Ce11O20. J. Solid-State Chem. 1999, 147, 485–500. [CrossRef]
+36.
+Jouannaux, J.; Haeussler, A.; Drobek, M.; Ayral, A.; Abanades, S.; Julbe, A. Lanthanum manganite perovskite ceramic powders
+for CO2 splitting: Inﬂuence of Pechini synthesis parameters on sinterability and reactivity. Ceram. Int. 2019, 45, 15636–45648.
+[CrossRef]
+37.
+Barcellos, D.; Coury, F.; Emery, A.; Sanders, M.; Tong, J.; McDaniel, A.; Wolverton, C.; Kaufman, M.; O’Hayre, R. Phase
+identiﬁcation of the layered perovskite CexSr2−xMnO4 and application for solar thermochemical water splitting. Inorg. Chem.
+2019, 58, 7705–7714. [CrossRef] [PubMed]
+38.
+Bergeson-Keller, A.; Sanders, M.; O’Hayre, R. Reduction thermodynamics of Sr1−xCexMnO3 and CexSr2−xMnO4 perovskites for
+solar thermochemical hydrogen production. Energy Technol. 2022, 10, 2100515. [CrossRef]
+39.
+Bagherisereshki, E.; Tran, J.; Lei, F.; Au Yeung, N. Investigation into SrO/SrCO3 for high temperature thermochemical energy
+storage. Sol. Energy 2018, 160, 85–93. [CrossRef]
+40.
+Gautam, G.; Stetchel, E.; Carter, E. Exploring Ca-Ce-M-O (M=3d transition metal) oxide perovskites for solar thermochemical
+applications. Chem. Mater. 2020, 32, 9964–9982. [CrossRef]
+41.
+Dukic, J.; Boscovic, S.; Matovic, B. Crystal structure of Ce-doped CaMnO3 perovskite. Ceram. Int. 2009, 35, 787–790. [CrossRef]
+42.
+Gao, K.; Liu, X.; Jiang, Z.; Zheng, H.; Song, C.; Wang, X.; Tian, C.; Dang, C.; Sun, N.; Xuan, Y. Direct solar thermochemical CO2
+splitting based on Ca- and Al-doped SmMnO3 perovskites: Ultrahigh CO yield within small temperature swing. Renew. Energy
+2022, 194, 482–494. [CrossRef]
+43.
+Bork, A.; Carrillo, A.; Hood, Z.; Yildiz, B.; Rupp, J. Oxygen exchange in dual-phase La0.66Sr0.35MnO3-CeO2 composites for solar
+thermochemical fuel production. Appl. Mater. Interfaces 2020, 12, 32622–32632. [CrossRef] [PubMed]
+44.
+Huang, X.; Ni, C.; Zhao, G.; Irvine, J. Oxygen storage capacity and thermal stability of the CuMnO2-CeO2 composite system.
+J. Mater. Chem. A 2015, 3, 12958–12964. [CrossRef]
+45.
+Zhang, D.; Kawada, T.; Yoshioka, F.; Machida, M. Oxygen gateway effect of CeO2/La2O2SO4 composite oxygen storage materials.
+ACS Omega 2016, 1, 789–798. [CrossRef]
+46.
+Machida, M.; Kawada, T.; Fujii, H.; Hinokuma, S. The role of CeO2 as a gateway for oxygen storage over CeO2 grafted Fe2O3
+composite materials. J. Phys. Chem. C 2015, 119, 24932–24941. [CrossRef]
+47.
+Haeussler, A.; Abanades, S.; Julbe, A.; Jouannaux, J.; Cartoixa, B. Two-step CO2 and H2O splitting using perovskite coated ceria
+foam for enhanced green fuel production in a porous volumetric solar reactor. J. CO2 Util. 2020, 41, 101257. [CrossRef]
+48.
+Sunde, T.; Grande, T.; Einarsrud, M. Modiﬁed Pechini synthesis of oxide powders and thin ﬁlms. In Handbook of Sol-Gel Science and
+Technology; Klein, L., Aparicio, M., Jitianu, A., Eds.; Springer International Publishing: Cham, Switzerland, 2018; pp. 1089–1118.
+[CrossRef]
+49.
+Schwartzwalder, K.; Somers, H.; Somers, V. Method of Making Porous Ceramic Articles. U.S. Patent 3090094A, 21 May 1963.
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.

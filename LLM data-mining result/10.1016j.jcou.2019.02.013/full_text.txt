@@ -1,0 +1,1169 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Journal of CO2 Utilization
+journal homepage: www.elsevier.com/locate/jcou
+Chemical insights on the activity of La1-xSrxFeO3 perovskites for chemical
+looping reforming of methane coupled with CO2-splitting
+Daniel Sastrea,b, David P. Serranoa,b, Patricia Pizarroa,b, Juan M. Coronadoa,⁎
+a Thermochemical Processes Unit, IMDEA Energy Institute, Av. Ramón de la Sagra, 3, Parque Tecnológico de Móstoles, Madrid, Spain
+b Chemical and Environmental Engineering Group, Rey Juan Carlos University, C/ Tulipán s/n, 28933, Móstoles, Madrid, Spain
+A R T I C L E I N F O
+Keywords:
+Syngas
+Redox perovskites
+Chemical looping
+CH4 decomposition
+CO2-splitting
+Boudouard reaction
+Solar fuels
+A B S T R A C T
+Coupling Chemical Looping Reforming of methane with CO2-splitting reactions represents an attractive route to
+achieve continuous syngas and CO productivities with reduced carbon footprint in a cyclic two-steps process.
+Both reactions are performed in the presence of a metal oxide, which switches from reduced to oxidized in
+successive stages. In this work, La1-xSrxFeO3 perovskites were selected, because the Sr/La ratio can be varied to
+tune the redox capacity of the system. Reactivity of these materials were tested in isothermal cycles at 850 °C
+with the aim of simultaneously maximize the conversion of CH4 and ensure the re-oxidation of the solid.
+Although the highest redox capacity is observed for the material with higher Sr-content (x = 0.9), the best
+performance is obtained for La0.9Sr0.1FeO3, which exhibits notable overall syngas yields per cycle: 12.8 mmol
+H2 g−1 and 15.9 mmol CO g−1. Analyses of the reactivity of these perovskites reveal the important contribution
+of both methane cracking and Boudouard reaction on the production of syngas, particularly for materials with
+low Sr/La ratio. These two processes operate, respectively, in the reduction and oxidation stages, in such a way
+that a signiﬁcant deactivation of the perovskites by carbon deposition is avoided. These ﬁndings highlight the
+inﬂuence of aspects other than redox properties on the high temperature reactivity of La1-xSrxFeO3 perovskites in
+cycles alternating CH4 and CO2. On the other hand, materials with high La/Sr ratio experienced signiﬁcant
+changes in the phase composition after prolonged reduction in CH4. Nevertheless, these transformations are
+reversible and, after re-oxidation, the recovered perovskite remains highly active, emphasizing the stability of
+these reactive solids.
+1. Introduction
+Currently, the production of liquid fuels for the transport sector still
+relies in more than 80% on fossil resources and, accordingly, environ-
+mental problems linked to CO2 emissions tend to increase in parallel
+with the growing millage of all kinds of vehicles [1]. Technological
+alternatives for coping with this situation are focused on obtaining
+sustainable fuels from abundant resources, in order to achieve a more
+environmentally-friendly energy system. In this way, the development
+of suitable transformation routes that can simultaneously integrate the
+use of renewable energy and the valorization of greenhouse gases
+streams are ideal for this purpose.
+Recently, signiﬁcant advances towards this goal have been achieved
+using diﬀerent metal oxides as CeO2 or perovskites, as oxygen carriers
+in thermochemical cycles for CO2 splitting powered by concentrating
+solar energy [2–5]. Although this process primarily produces CO and
+H2, liquid fuels can be obtained subsequently by feeding the obtained
+gas blend to well-established Fischer-Tropsch units [6,7]. However,
+despite the remarkable high solar-to-chemical energy yield of this
+technology, which reached 5.25% for CO2 splitting with an optimized
+4 kW solar reactor [3], the complexity of operating at temperatures as
+high as 1500 °C and applying high radiation ﬂuxes, remain as an im-
+portant hurdle for a wide commercial implementation of this route for
+solar fuels production. Alternatively, hybridization of thermochemical
+cycles with abundant hydrocarbons such as methane can provide an
+interesting trade-oﬀ, reducing the severity of the operation conditions
+and keeping the overall sustainability of the process attractive, despite
+increasing the overall carbon footprint of the process due to the in-
+troduction of this fossil feedstock.
+With this aim, the concept of chemical-looping reforming of me-
+thane (CLRM) coupled to CO2 or H2O splitting reaction in successive
+cycles has arisen as a promising route for renewable fuel production
+[2,8]. In this cyclic reaction scheme, ﬁrst methane is converted into H2
+and CO with the oxygen provided by the endothermic reduction of the
+https://doi.org/10.1016/j.jcou.2019.02.013
+Received 13 December 2018; Received in revised form 5 February 2019; Accepted 21 February 2019
+⁎ Corresponding author. Present address at: Instituto de Catálisis y Petroleoquímica, CSIC, Marie Curie, 2, Cantoblanco, 28049 Madrid, Spain.
+E-mail address: jm.coronado@csic.es (J.M. Coronado).
+Journal of CO₂ Utilization 31 (2019) 16–26
+Available online 27 February 2019
+2212-9820/ © 2019 Elsevier Ltd. All rights reserved.
+T
+
+
+===== Page 2 =====
+
+redox solid. In a second step, the reduced metal oxide is exposed to CO2
+and/or H2O at lower temperature so it is re-oxidized to its initial form
+by means of an exothermic oxidation that leads to the release of CO or
+H2, respectively, as well as to the regeneration of O2−of the solid.
+These two steps can be described by the following chemical equations:
+MOx (s) + δ CH4 (g) →MOx- δ (s) + 2δ H2 (g) + δ CO (g)
+(1)
+MOx- δ (s) + δ-y CO2 (g) + y H2O (g) →MOx (s) + δ-y CO (g) + y H2
+(2)
+where δ represents the non-stoichiometry of the reduced oxygen car-
+rier. Interestingly, while in the reduction reaction described by Eq. 1
+syngas produced has a nominal ratio of H2:CO of 2:1, in the oxidation
+step (Eq. 2) this proportion can be varied as desired by changing the
+composition of the inlet stream.
+Due to the reducing capacity of methane operation temperatures of
+this cyclic process are in the 800–900 °C range and they are sig-
+niﬁcantly milder than those required for thermochemical cycles for the
+direct CO2 and H2O splitting under concentrating solar power.
+Furthermore, in contrast to the conventional catalytic reforming of
+methane, this process is less sensitive to coke formation because cycles
+are self-regenerative. Accordingly, CLRM does not require an excess of
+oxidizer for preventing carbon deposition and avoiding the corre-
+sponding energy penalty [5,6]. Nevertheless, deactivation can still pose
+limitations in many oxide systems, not only because of incomplete coke
+removal, but also due to structural and/or morphological modiﬁcations
+induced by the thermal cycles. Therefore, the materials used as oxygen
+carriers for this process must be carefully selected to have an improved
+stability. Interestingly, solarization of the CLRM route is possible and a
+theoretical solar-to-chemical eﬃciency as high as 54% has been esti-
+mated [10]. These positive characteristics have recently boosted the
+interest of this route for solar fuel production [11].
+The principal challenges of combining CLRM with CO2 splitting are
+achieving high conversions, while maximizing H2 and CO selectivity
+and reducing carbon deposition [8]. Therefore, the development of
+adequate redox systems must be focused on oxides with elevated
+structural stability and good redox capacity, providing high oxygen
+exchange during the reactions. Crucially, these oxides must be also
+thermodynamically capable of splitting H2O and CO2 in the reduced
+state or, in other words, the ΔG of reaction (2) must be negative at
+temperatures lower than those required for the activation of reaction
+(1). Several materials, which have been also utilized in the thermo-
+chemical redox cycles for CO2 and H2O splitting [12–18], accomplish
+these characteristics and they have been tested in the CLRM process
+with promising results. These oxygen carriers include transition metal
+oxides [19,20], ceria-based oxides [9,21,22], mixed metal oxides such
+as
+NiAl2O4,
+NiO–Cr2O3–MgO
+[23,24],
+and
+diﬀerent
+perovskites
+[25–31]. These last kind of materials, which present the general com-
+position ABO3, are particularly interesting because of their chemical
+versatility and probed stability. In this respect, perovskite structure
+allows introducing a great number of metals in both A and B sites, and
+these modiﬁcations of the composition can be used to modulate its
+properties to better match the targeted application. Furthermore, it is
+worth mentioning that the temperature of reduction step (the one with
+the greatest energy demand) is more than 300 °C lower for perovskites
+such as La1-xSrxMn1-xAlxO3 than for ceria, which is currently the
+benchmark material for thermochemical cycles for solar fuels produc-
+tion [32,33].
+Interestingly, perovskites from the family La1-xSrxFeO3 (LSF) have
+shown an excellent performance for Chemical Looping Reforming of
+methane. Recently, this process has been also combined with H2O
+splitting at temperatures in the 900–1000 °C range [25,28,30,31]. LSF
+materials present high redox capacities, which has been shown in
+previous reports that can be enhanced with increasing the Sr2+content
+[34]. Using these oxides, methane reforming was studied at lab scale by
+temperature programed reduction achieving conversions up to 90%
+[35,36] and also using circulating beds for continuous operation [37].
+These assays show the high stability and elevated selective for syngas
+production [38]. Tests combining CLMR with water splitting were
+carried out in lab scale facilities using either thermogravimetric ana-
+lysis or pulse reactions. Results obtained with these tests provide a
+proof of concept, but are not ideal to achieve high syngas production.
+In this work the coupling of CLMR with CO2-splitting using La1-x
+SrxFeO3 perovskites was explored systematically using a ﬁxed-bed,
+continuous-ﬂow reactor operating isothermally at 850 °C. In this study
+particular attention has been paid to the stability of the solids and to the
+role of Sr2+ doping on the redox properties of the materials, in order to
+establish possible correlations with syngas production during CLRM
+and CO2 splitting cycles. Furthermore, the observed variations on the
+selectivity provide valuable information about the contribution of ad-
+ditional processes to syngas production, such as methane decomposi-
+tion and the disproportionation of CO (Boudouard reaction).
+2. Experimental section
+2.1. Perovskites synthesis
+A modiﬁed Pechini method [39,40] was used for the synthesis of
+perovskites with compositions La1-xSrxFeO3 (x = 0; 0.1; 0.3; 0.5; 0.7;
+0.9; 1). The procedure begins with the addition of the corresponding
+metal nitrates, La(NO3)3·6H2O (Sigma Aldrich, 99% purity), Sr(NO3)2
+(Sigma Aldrich, 99% purity) and Fe(NO3)3·9H2O (Scharlau, 98% purity)
+in a citric acid (CA) solution in distilled water in the amount required to
+obtain a molar ratio of 2:1 (CA:Metal). The solution was stirred at 70 °C
+for 3 h. After that, ethylene glycol (EG) was added to the solution in a
+3:2 ratio (CA:EG) and the mixture was stirred at 90 °C for 2 h. The re-
+sulting gel was dried at 200 °C (heating rate: 2 °C min−1) for 3 h. The
+obtained resin was ground and subsequently calcined at 1100 °C (5 °C
+min−1) for 10 h under static air. The so-obtained samples were labelled
+according to the Sr content, X, as L(10-X)SXF.
+2.2. Characterization
+Elemental analyses of the samples were carried out by Inductively
+Coupled Plasma Optical Emission Spectrometry, (ICP-OES) using a
+Perkin Elmer Optima 3300 DV equipment, after the digestion in acidic
+media of the solids, using an Anton Paar Multi-wave 3000 microwave
+oven. Speciﬁc surface area, SBET, was calculated from the N2 adsorp-
+tion-desorption at 77 K (-196 °C) using a Quantachrome QuadraSorb-S
+equipment, after degassing the samples at 250 °C for 12 h. The crys-
+talline structure was analyzed with a Philips PW 3040/00 X’Pert MPD/
+MRD X-ray diﬀractometer using Cu Kα radiation (λ = 0.154 nm) at a
+scanning rate of 0.2° s−1 in the range of 2θ = 20-80°. SEM images were
+obtained by using a XL 30 ESEM Philips microscope. Raman spectra of
+the selected solids were acquired with a Renishaw micro-Raman System
+1000, provided with a LEICA DMILM microscope with a 20× objective
+lens, using an Argon laser (514 nm) for excitation, accumulating 10
+scans with 30 s acquisition time.
+Redox capacity of the samples was studied by thermogravimetric
+analysis using a SDT Q-600 from TA Instruments, placing ˜20 mg of
+powdered sample into 90 μl alumina crucibles. The samples were he-
+ated to 1000 °C at 20 °C min−1 in an 100 ml min−1 Ar ﬂow (reduction
+step) and then cooled down to 600 °C. Then, pure air (Praxair, 99.99%)
+was injected (oxidation step). Extended 10-cycles experiments were
+performed under the same conditions.
+The reduction capacity or degree of non-stoichiometry, Δδ, of the
+perovskites was calculated using the following expression:
+=
+Δδ
+m
+m
+M
+M
+Δ
+·
+ABO
+O
+0
+3
+(3)
+where Δm is the mass diﬀerence between oxidized and reduced states,
+m0 is the initial mass of the sample and MABO3 and MO are the
+D. Sastre, et al.
+Journal of CO₂ Utilization 31 (2019) 16–26
+17
+
+
+===== Page 3 =====
+
+molecular weight of the perovskite and the atomic oxygen, respectively.
+2.3. Chemical looping reforming
+Chemical Looping Reforming and CO2-splitting cycles were per-
+formed in a setup schematically represented in Figure S1. 250 mg of the
+sample were deposited in an alumina ﬁber bed placed in the middle of a
+sintered alumina reactor and the temperature was measured with a K-
+type thermocouple placed at the top part of the sample bed.
+Experiments were carried out heating up to 850 °C at a rate of 10 °C
+min−1 and maintaining that temperature isothermally for the 30 min
+step-cycles. For the reduction step a 5% CH4 in Ar (Praxair, 99%) ﬂow
+was introduced, whereas for the oxidation step a 5% CO2 in He stream
+was delivered to the reactor (Praxair, 99%). The total ﬂow rate used for
+both steps was 50 mL min−1. The outlet gases were analyzed using a
+Quadrupole Mass Spectrometer Cirrus 2 MKS Instruments, which was
+systematically calibrated with standard gas mixtures. Gas composition
+was periodically analyzed oﬀ-line in an Agilent® CP-4900 μGC using gas
+sampling bags in order to check the accuracy of the analyses. In mass
+spectrometry some compounds, such as CO2, present secondary signals
+that interfere in the detection of others. In order to account for that
+signal overlapping, the CO contribution was calculated with the fol-
+lowing equation, which also considers the fragmentation of the CO2
+molecule:
+=
+=
+−
+=
+CO
+S m z
+S m z
+f
+[
+]
+(
+/
+28)
+(
+/
+44)*
+(4)
+where f is the relation between the signals of m/z = 28 and m/z = 44.
+In order to determine this factor, the proportion of m/z = 28 corre-
+sponding to the secondary signal due to the secondary ionization of
+CO2, was measured in the mass spectrometer by introducing a constant
+ﬂow of 5% CO2 in Ar, under conditions where no reaction is produced.
+Similar corrections of the mass spectrometer signal have been applied
+elsewhere [41]. On the other hand, methane conversion was calculated
+from the variation in the concentration according to this equation:
+=
+X
+CH
+CH
+[
+]
+[
+]
+* 100
+CH
+consumed
+injected
+4
+4
+4
+(5)
+3. Results and discussion
+3.1. Physicochemical characterization of the LSF perovskites
+Synthesized LSF perovskites were characterized by diﬀerent tech-
+niques in order to determine the eﬀect of Sr2+ introduction in their
+physicochemical properties. Composition of the LSF samples was de-
+termined by ICP-OES analyses, conﬁrming that metal proportions of the
+perovskites are very close to the targeted composition, although a slight
+excess of Fe was observed in most of the samples, as it is detailed in
+Table S1. On the other hand, the N2-isotherms revealed a very low
+adsorption capacity with BET area values lower than 1.5 m2 g−1 in all
+cases. These results are consistent with the expectations for these
+oxides, which were annealed at very high temperature.
+X-ray diﬀraction patterns of the perovskites are plotted in Fig. 1 and
+they conﬁrm the formation of pure phases, without any observable
+segregation of single metal oxides. Partial substitution of La3+ by Sr2+
+induces changes in the crystalline structure due to the diﬀerences in the
+ionic radii of these cations (0.136 nm for La3+ and 0.144 nm for Sr2+)
+[42] and, more crucially, to the diﬀerences in the oxidation state.
+Consequently, in order to maintain the electroneutrality of the lattice
+both, formation of oxygen vacancies and partial oxidation of Fe3+ to
+Fe4+ (0.0645 nm and 0.0585 nm, respectively) take place [43]. These
+changes induce structural modiﬁcations that are revealed by the dif-
+ferences in the shape of the peaks, and the displacement of the XRD
+reﬂections to higher angles with increasing Sr content, as it can be
+appreciated in the zoomed area of right panel of Fig. 1. This shift im-
+plies a progressive contraction of the perovskite lattice, which can be
+related to the increasing content of smaller size Fe4+ cation.
+The progressive distortion of the perovskite lattice caused by
+strontium-doping leads to a change of the crystalline symmetry, as it is
+summarized in Table 1. Thus, LSF perovskites with Sr content between
+x = 0-0.3 show orthorhombic structure (ICDD: 01-088-0641), while
+materials with x > 0.3 present rhombohedral symmetry (ICDD: 01-082-
+1962). Finally, SrFeO3 shows cubic structure (ICDD: 01-070-5776).
+Similar behavior has been found in previous crystallographic study of
+the La1-xSrxFeO3 system [44]. In addition, it can be observed that within
+a given symmetry, the unit cell volume of La1-xSrxFeO3 perovskites
+decreases with increasing the Sr content due to the formation of Fe4+
+and oxygen vacancies, as mentioned before. Crystallite sizes of the
+perovskites are in the 50–120 nm range as estimated by Scherrer
+equation, but they do not show any apparent correlation with La/Sr
+ratio.
+SEM images of all the materials show agglomerates of several mi-
+crons with irregular shapes, and no evident diﬀerences between them
+can be appreciated (Figure S2). Particles of some of the samples present
+channels with an average diameter of about 0.4 μm, which more likely
+are formed due to gas released during the drying and calcination steps
+of the synthesis procedure.
+3.2. Oxygen storage capacity
+As mentioned before, LSF perovskites present attractive redox ca-
+pacities due to Sr2+ incorporation, which ease the formation of large
+amount of oxygen vacancies that can favor oxygen exchange. In order
+to evaluate the oxygen storage capacity (OSC) of these samples, ther-
+mogravimetric tests under controlled conditions were performed.
+Initially, the perovskites were heated in Ar ﬂow up to 1000 °C, followed
+by an isotherm period of 30 min under the same atmosphere and ﬁnally
+cooled down to 600 °C. Subsequently, the samples were exposed to air
+ﬂow for re-oxidation. TGA results obtained for the diﬀerent LSF per-
+ovskites are displayed in Figure S3. The initial mass loss event taking
+place below 150 °C corresponds with the release of water and other
+adsorbed impurities during the storage of these materials. Eﬀective
+reduction of perovskites in inert gas stream starts above 400 °C in all
+cases, although the onset temperature progressively increases, while the
+weight loss diminishes with decreasing Sr content. In the extreme, the
+samples with lower Sr content show a rather limited oxygen storage
+capacity. For most of these materials oxygen is released continuously
+until the ﬁnal temperature of 1000 °C is reached. A slow weight gain is
+observed during the cooling down to 600 °C due to presence of O2 traces
+(pO2 ˜500 Pa or 5·10−3 bars) in the Ar ﬂow, while the re-oxidation in air
+is very quick and almost complete.
+The non-stoichiometry change, Δδ, was calculated using Eq. (3)
+from the thermogravimetric data of each sample, assuming that the
+initial mass after low temperature desorption corresponds to δ = 0.
+Results obtained for both reduction and oxidation steps are displayed in
+the bar diagram of Fig. 2.
+The amount of O2 interchanged by these perovskites during oxida-
+tion and reduction is included in Table S2. These results corroborate
+that the reduction capacity is noticeably enhanced with increasing the
+Sr2+ content. On the other hand, while re-oxidation is basically com-
+plete for all the samples within experimental error.
+According to these data, the highest oxygen storage capacity under
+these conditions correspond to the LSF perovskites with x ≥0.7, which
+present δ higher than 0.35 for L1S9F sample. These values are com-
+parable to those previously reported for LSF system [30] and sig-
+niﬁcantly higher than for other redox perovskites. Those large non-
+stoichiometry values are consistent with the charge imbalance gener-
+ated from the partial substitution of La3+ by Sr2+, which results in an
+enhancement of the oxidation capacity.
+Assays consisting in 10 cycles under the same conditions were
+performed with the materials that showed higher redox capacity in
+order to determine the long term stability of the OSC. Fig. 3 displays the
+D. Sastre, et al.
+Journal of CO₂ Utilization 31 (2019) 16–26
+18
+
+
+===== Page 4 =====
+
+results of this test for the L1S9F and SF perovskites. Despite an initial
+irreversible weight loss observed during the ﬁrst cycle, which corre-
+sponds to the release of adsorbed impurities, these materials showed an
+excellent reversibility and, accordingly, a stable oxygen storage capa-
+city.
+Following these redox cycles, XRD analyses were performed to
+check for possible structural changes of these materials. Fig. 4 shows
+the diﬀraction pattern for the L1S9F oxide after one cycle and 10 cycles,
+respectively. Pure perovskite phases are observed in both cases, with
+identical structure to that found in the fresh sample, and without any
+signiﬁcant variation in the unit cell parameter, neither in the crystallite
+size. Similarly, no signiﬁcant variation of XRD patterns of SF sample
+was observed after these redox cycles (see Fig S4). These results conﬁrm
+the good structural stability of LSF perovskites and their suitability for
+being used as oxygen carriers.
+3.3. Temperature programmed reduction with CH4
+Temperature programmed reduction allows obtaining valuable in-
+formation about the surface reactivity of the LSF perovskites. With this
+aim, the oxide samples were heated from room temperature up to
+850 °C in a ﬂow of 5% CH4 in Ar and using a lab-scale ﬁxed-bed reactor.
+The evolution of the gas composition in the outlet stream was mon-
+itored by mass spectrometry (MS). As an example of these temperature
+programmed reduction in methane ﬂow, the results corresponding to
+the L9S1F perovskite are plotted in Fig. 5a, which depicts the variation
+on the concentration of the diﬀerent gas components detected in the
+outlet ﬂow. This graph shows an initial reduction event, which starts at
+Fig. 1. X-ray diﬀraction patterns of the as-synthesized LSF perovskites. Right panel displays a zoomed view of the main reﬂection.
+Table 1
+Structural parameters of the LSF perovskites obtained from X-ray diﬀraction analyses.
+Perovskite
+Crystal Structure
+Fe/(Sr + La) (mols)
+Unit Cell Parameters (nm)
+Cell Volume (nm3)
+Crystallite size (nm)
+Space group
+a
+b
+c
+V
+dc
+LF
+Orthorhombic
+1.07
+Pnma
+0.556
+0.785
+0.555
+0.243
+61
+L9S1F
+Orthorhombic
+0.93
+Pnma
+0.555
+0.784
+0.554
+0.242
+56
+L7S3F
+Orthorhombic
+1.05
+Pnma
+0.555
+0.780
+0.551
+0.238
+66
+L5S5F
+Rhombohedral
+1.03
+R-3c
+0.551
+0.551
+1.343
+0.408
+117
+L3S7F
+Rhombohedral
+1.01
+R-3c
+0.548
+0.548
+1.341
+0.402
+86
+L1S9F
+Rhombohedral
+1.10
+R-3c
+0.547
+0.547
+1.337
+0.400
+65
+SF
+Cubic
+1.10
+Pm-3m
+0.386
+0.386
+0.386
+0.058
+115
+Fig. 2. Variation of non-stoichiometry, Δδ, of LSF perovskites obtained from
+TGA during both reduction in Ar and oxidation in air.
+Fig. 3. TGA of the L1S9F and SF perovskites during 10-cycle redox tests per-
+formed in alternating Ar and air ﬂow.
+D. Sastre, et al.
+Journal of CO₂ Utilization 31 (2019) 16–26
+19
+
+
+===== Page 5 =====
+
+approximately 450 °C and achieves a maximum rate at around 600 °C.
+This process leads to the formation of CO2 and H2O in approximately
+1:2 proportions, denoting that full combustion of methane is taking
+place. This event has been attributed to the reaction of this hydrocarbon
+with the more reactive surface oxygens. Further increment of the
+temperature results in the production of syngas (CO + H2) in a sig-
+niﬁcantly higher concentration [30]. This process of partial oxidation of
+CH4 is related to the participation of bulk O2−of the perovskite and it
+becomes predominant at high temperature, as it will be further dis-
+cussed in next section. Nevertheless, some contribution of complete
+oxidation is also evidenced by the CO2 and H2O peaks observed after a
+few minutes of treatment at 850 °C. In parallel to these events of gas
+release, CH4 signal shows a signiﬁcant decrease due to its conversion, as
+it can be appreciated in Fig. 5b. These plots indicate that while methane
+conversion at the low-temperature full oxidation event is at maximum
+10%, partial oxidation at 850 °C can reach conversions in excess of
+65%. Although correlation with the content of this alkaline-earth ele-
+ment is not perfect, materials with higher Sr content tend to have a
+more important contribution of total oxidation at low temperature and
+lower activity for high temperature partial oxidation. In this way, the
+combustion event at around 600 °C is not detected for LF neither for
+L9S1F sample. In contrast, this last sample presents the highest methane
+conversion at 850 °C.
+Krenzke et al. [8] have compared the equilibrium composition for
+the partial oxidation of methane as a function of the temperature and
+the CH4:O2 ratio in homogeneous conditions without any catalyst.
+Higher methane conversion is reached at higher temperatures and
+lower ratios (larger O2 concentration), although under those conditions
+CO2 and H2O, rather than syngas, are produced [11]. In the context of
+CLRM, the reactivity of the redox solid can modulate the selectivity to
+those processes as a consequence of the diﬀerences in the lability of the
+oxygen available in the crystalline lattice. In this regards, Dai et al.
+[35,45] found two diﬀerent types of oxygen by XPS analysis of the LSF
+perovskite. As mentioned above, the ﬁrst one is strongly reactive
+oxygen (or weakly bound oxygen), which is present in the surface and it
+is consequence of the progressive oxidation of Fe3+ to Fe4+ by Sr
+doping to compensate the charge imbalance. The second type of O2−
+corresponds to more strongly bound species of the bulk, which can only
+react when Fe3+ is further reduced. In the present case, due to the
+higher reactivity of the oxide anions generated by introducing Sr in the
+LaFeO3 lattice, the incorporation of this alkaline earth element facil-
+itates the total oxidation of methane, yielding selectively CO2 and H2O
+at the initial reduction step. Nevertheless correlation between the
+oxygen storage capacity obtained from the thermogravimetric tests and
+the intensity of the low temperature reduction in methane is not com-
+plete. This suggests than additional factors such as diﬀerences in the
+crystalline structure or surface area may also aﬀect the reactivity of LSF
+perovskites.
+3.4. Chemical looping reforming and CO2 splitting cycles
+In order to evaluate the eﬀect of Sr2+doping on syngas production,
+all the LSF samples were submitted to ﬁve redox cycles at 850 °C,
+swinging the gas composition between 5% CH4 and 5% CO2 in Ar.
+Working at isothermal conditions was preferred because it presents
+advantages from the point of view of energy eﬃciency for solar fuels
+production [12]. Previous studies have shown that methane conver-
+sions up to 90% are achieved at temperatures of 900 °C using the L9S1F
+perovskite [36], while basically full conversion can be obtained over LF
+at the same temperature depending on space velocity [31]. On the other
+hand, oxidation of the partially reduced perovskite with CO2 is rapid for
+temperatures higher than 600 °C. Accordingly, it is expected that high
+conversion for both methane and CO2 splitting can be achieved under
+the conditions selected for these tests.
+A blank test was performed without any perovskite in order to verify
+Fig. 4. Comparison of the XRD patterns corresponding to the L1S9F perovskite
+as prepared (A), after 1 redox cycle (B) and after 10 cycles in TGA (C).
+Fig. 5. Mass spectrometer monitoring of temperature programmed reduction with methane of A) the L9S1F perovskite. Methane (black) oxidation: CO2 (brown), H2O
+(blue), CO (green) and H2 (orange). B) Methane conversion during temperature programmed reduction of LSF perovskites.
+D. Sastre, et al.
+Journal of CO₂ Utilization 31 (2019) 16–26
+20
+
+
+===== Page 6 =====
+
+the possible contribution of thermal decomposition of methane at those
+temperatures. No signiﬁcant carbon deposition was observed but some
+production of H2 was detected. Accordingly, the empty reactor pre-
+sented some minor activity for methane decomposition but lower than
+7% of the production obtained when the redox oxides were loaded. In
+order to account only for the contribution of the perovskite, all these
+results have been corrected by subtracting the activity of the blank
+assay.
+Time evolution of methane conversion during the redox cycles is
+depicted in Fig. 6 for all the LSF perovskites. Redox cycles produce CO,
+H2, along with minor amounts of CO2 and H2O during the reduction of
+the perovskite in presence of methane. Following CLR of methane, CO2
+is introduced in the second step of the cycles (appearing as the intervals
+of 0% conversion in Fig. 6) to re-oxidize the perovskite and recover the
+initial state. Accordingly, additional CO is produced during the re-oxi-
+dation of the solid with CO2.
+Sharp diﬀerences are observed in the behavior of these solids, in
+such a way that those perovskites with low Sr2+ concentration show
+higher methane conversion, reaching a maximum close to 85% for
+L9S1F. In contrast, LSF samples with Sr content x ≥0.5 show a quite
+limited reactivity, with conversion of methane lower than 20%.
+Furthermore, the time evolution of methane conversion in the CLRM
+intervals is also sharply diﬀerent depending on the perovskite compo-
+sition. In this way, samples enriched in Sr show an initial maximum just
+after methane introduction and subsequently conversion levels oﬀor
+show a slight decrease, as it can be appreciated in Fig. 6B. The per-
+ovskites with x < 0.3, except L9S1F, also show an initial peak of me-
+thane conversion but, in contrast with the oxides with larger Sr content,
+they subsequently show a continuous increase of methane consump-
+tion. According to the MS analyses, the initial maximum of methane
+conversion is partially due to the complete oxidation of methane, be-
+cause it is accompanied by CO2 and H2O release. The selectivity of this
+process may reach almost 50% for a very short period.
+Diﬀerences in the behavior of the perovskites with varying Sr con-
+tent are consistent with the results of CH4-TPR, and points out to the
+existence of oxygen species with distinct reactivity. Partial oxidation of
+methane takes place by surface reaction with the oxide ions diﬀused
+thought the solid. In this respect, it appears that the presence of oxygen
+ions with moderate reactivity may increase the selectivity to syngas
+[30,37].
+Fig. 7 plots the productions of H2 and CO for the diﬀerent per-
+ovskites as a function of the successive reduction cycles in CH4. These
+graphs reveal that three perovskites stand out among the other samples,
+showing CO and H2 productions 3–6 times higher than the rest of the
+oxides: LF, L9S1 and L7S3F. The highest syngas production corresponds
+to the perovskite L9S1F, which yields up to 12.8 mmol H2 g−1 and
+4.7 mmol CO g−1 per cycle. In contrast, perovskites with elevated Sr/La
+ratio show more modest syngas productions, which reach the lowest
+rate for sample L1S9F. On the other hand, the perovskite without lan-
+thanum present an activity that is only slightly lower than that of
+L5S5F. As it is displayed in Fig. 7, generation of syngas is higher in the
+ﬁrst cycle in most of the cases.
+This behavior indicates some structural and morphological changes
+of the solid occur during the ﬁrst thermal cycle. Interestingly, per-
+ovskites with lower Sr content show a moderate increment of the syngas
+production from the second cycle onward. The reasons for that behavior
+are related to the variation in the contribution of the diﬀerent reaction
+pathways leading to CO and H2 production. In this way, the H2/CO
+ratios obtained during methane reforming vary from 2.5 to 3 for all the
+perovskites. Those values are signiﬁcantly higher than the expected
+stoichiometric value of 2. This fact suggests that additional secondary
+reactions are contributing to increase the yield of hydrogen. In this
+respect, carbon deposition by methane decomposition could account for
+these results because this process also yields hydrogen according to:
+CH4 (g) →C(s) + 2 H2 (g)
+(6)
+The relevance of methane decomposition for hydrogen production
+over LSF perovskites has been previously reported [46,47]. The con-
+tribution of this process can be estimated by considering the CO pro-
+duction due to reforming, and subtracting the stoichiometric amount of
+hydrogen simultaneous released according to Eq. (6). Fig. 8 displays an
+example of the results obtained from these calculations for the per-
+ovskite L9S1F. This graph reveals that production of hydrogen by me-
+thane decomposition is around 25% and progressively increases with
+each cycle.
+In addition, evidence of carbon deposition is also observed after
+reaction, particularly for the perovskites with lowest Sr-content, as it
+will be discussed later. As carbon can catalyze methane decomposition
+[48], building-up of these deposits can occur in successive cycles even if
+complete removal is not achieved during the CO2 stage. In contrast, for
+samples with high Sr/La ratio, the relevance of methane decomposition
+is much more limited, as it can be deduced from the H2/CO ratio closer
+to 2.
+As mentioned above, following methane reforming at 850 °C, CO2
+was introduced at the same temperature in the second step of the cyclic
+process. This molecule dissociates yielding CO and, simultaneously,
+O2−anions that leads to the perovskite re-oxidization, according to the
+reaction described in Eq. 2. For all the samples, high CO productions
+were attained in these tests, as it is shown in Fig. 9, which plots the
+concentration of that gas during both the CH4 and CO2 feeding stages.
+Fig. 6. A) Methane conversion in the 5-cycles redox reactions at 850 °C alternating CH4 and CO2 for the LSF perovskites; B) zoom on the second reduction step.
+D. Sastre, et al.
+Journal of CO₂ Utilization 31 (2019) 16–26
+21
+
+
+===== Page 7 =====
+
+As observed before, signiﬁcant diﬀerences between the behaviors of
+samples with high and low Sr content can be appreciated. Thus,
+samples with low Sr-doping show a sharp peak of CO generation few
+minutes after introducing CO2, which in about 5 min drops to cero. On
+the contrary, perovskites with x ≤0.3 not only produce a higher
+amount of CO, but also show substantial reactivity for longer periods. In
+particular, perovskite L9S1F presents a declining but still high CO
+generation during the whole CO2-splitting interval. In addition it is
+worth noting, that for those perovskite with low Sr content, the amount
+of CO released following CO2 introduction is signiﬁcantly higher than
+for CLR of CH4.
+The amount of CO produced from CO2 dissociation at 850 °C over
+the reduced perovskites is plotted in Fig. 10 as a function of the number
+of cycles.
+These results highlight the higher activity of the samples LF, L7S3F
+and L9S1F. This last perovskite is the most active for both methane
+partial oxidation and CO2 dissociation and it shows a progressive in-
+crement that results in a rate of 11.2 mmol CO g−1 in the ﬁfth re-oxi-
+dation cycle. Although this rate is somewhat smaller than that recently
+obtained with 3% Mn-CeO2, for the same process at 900 °C [2], that
+value is remarkably higher than for pure thermochemical cycles in
+absence of methane [3]. Interestingly, the CO production in this stage,
+when compared to that generated during methane partial oxidation is
+signiﬁcantly larger. These observations suggest that CO2 splitting is not
+the only reaction taking place. On this regards, contribution of the
+Fig. 7. H2 and CO production during the CH4 oxidative reforming steps of the isothermal redox cycles over the diﬀerent LSF perovskites.
+Fig. 8. H2 production over L9S1F perovskite during the successive cycles with
+CH4. Total H2 release (in red) and the estimated contribution of methane
+cracking (blue) are plotted.
+Fig. 9. A) CO production in the 5-cycles redox at 850 °C alternating CH4 and CO2 ﬂow for the LSF perovskites. B) Detail of the second cycle of oxidation in CO2
+stream.
+D. Sastre, et al.
+Journal of CO₂ Utilization 31 (2019) 16–26
+22
+
+
+===== Page 8 =====
+
+Boudouard reaction:
+CO2(g)+ C(s) →2 CO (g)
+(7)
+due to the presence of carbon deposited in the previous stage by
+methane decomposition, could explain this excess in CO production. In
+fact, this process has been recently found to be very relevant for CO
+production in chemical looping scheme using supported Fe oxides [49].
+The higher contribution of this reaction corresponds to the perovskites
+with lower Sr content because, as it was mentioned before, they accu-
+mulate more carbon after methane cycles [50]. In the case of L9S1F
+sample, Boudouard reaction represents about two thirds of the pro-
+duction of CO. Furthermore, the progressive increment of the genera-
+tion of CO in successive cycles for the samples with lower Sr content can
+be attributed to the increasing contribution of carbon deposition during
+methane feeding stage, as discussed before.
+In summary, LSF perovskites present a remarkable activity for
+producing H2 and CO by alternating CH4 and CO2 in the gas stream. In
+this work, the reduction temperature was lower in comparison to other
+literature reports, but comparable percentages of methane conversion
+were obtained [47,51]. Overall syngas productions obtained in the tests
+performed here at 850 °C are comparable to those reported for CLRM
+with subsequent oxidation of the oxygen carrier [35,47]. Although
+perovskites with high Sr content showed the best oxygen storage ca-
+pacity, the L9S1F sample presented the best CLR of CH4 and CO2-
+splitting performance, with high CO and H2 yields in the two stages.
+Overall, using L9S1F and considering the two stages a CO production
+rate of 15.9 mmol.g−1, and for each mol of CH4 converted about
+1.35 mol of CO are obtained. This can be explained because, in addition
+to the redox processes mediated by the perovskites, the contribution of
+methane decomposition and Boudouard reaction can boost the syngas
+production, especially for the samples with low Sr content. Interest-
+ingly, although some recent studies have already shown the possibility
+of re-oxidation of SF perovskite with CO2 with the simultaneous pro-
+duction of CO [52], CO2 splitting over LSF perovskites reduced in CH4
+was tested systematically for ﬁrst time here, to the best of our knowl-
+edge. These results suggest a relevant catalytic activity of these per-
+ovskites with high La/Sr ratio for both methane decomposition and
+Bouduard
+process.
+Nevertheless,
+exploitation
+of these
+additional
+transformation routes for H2 and CO generation requires a careful
+control of carbon deposition to avoid long term deactivation.
+3.5. Characterization of the perovskites after the redox cycles
+After the redox cycles at 850 °C, the solids were cooled down in CO2
+atmosphere in order to recover them in the initial oxidized state of the
+perovskite. Diﬀraction patterns of samples after 5 cycles indicate that
+the oxides with Sr content < 0.9 maintain the structure, showing dif-
+fraction patterns characteristic of pure perovskite, as shown in Fig. 11a.
+However, a more careful analysis reveals certain shift to lower 2θ an-
+gles, as shown in the detail of Fig. 11b for the case of L7S3F sample.
+This means that the perovskites have suﬀered a small increase of the
+cell parameter due to the formation of oxygen vacancies. On the other
+hand, perovskites L1S9F and SF have initially rhombohedric and cubic
+structures, respectively, while after reaction they were transformed into
+the orthorhombic brownmillerite Sr2Fe2O5 phase (ICDD: 01-071-3590).
+In the case of L1S9F, a segregated LaFeO3 perovskite is also observed.
+Nevertheless, it is important to note that despite these structural
+changes, these solids still present high redox capacity, as could be
+veriﬁed in the cycling reactions [38].
+On the other hand, SEM images of the perovskites after the cycles
+show, for most of the samples, a tendency to increase the porosity of the
+particles. An example of that morphological evolution is shown in the
+images of Fig. 12, which correspond to the L9S1 perovskite following
+the 5 cycles in CH4 and CO2 atmospheres. This material displays a foam-
+like appearance, showing a high density of channels with an average
+diameter of about 0.5 μm. These open structures are most likely formed
+due to the release of gases and they can favor a good reactivity of these
+materials.
+3.6. Exploring the reactivity of the fully reduced perovskites
+In order to further understand the structural evolution of these
+materials under reaction conditions, a long term test in CH4 ﬂow at
+850 °C was performed with sample L9S1F, with the aim of achieving the
+complete reduction of the perovskite. The evolution of the composition
+of the outlet gas stream was followed by mass spectrometer (see Figure
+S5). These results show more intense reduction event at 850 °C, which is
+evidenced by an important consumption of methane for about 40 min,
+which occurs with the simultaneous production of syngas and lower
+concentrations of CO2 and H2O. A more detailed analysis of these data
+reveals that there are at least two diﬀerentiated contributions to me-
+thane conversion. The initial one should correspond to partial oxidation
+of methane, while subsequently the H2/CO ratio increases above the
+stoichiometric value of 2. This indicates that the contribution of me-
+thane decomposition becomes progressively more important with the
+time on the CH4 stream, as previously discussed.
+In order to determine the structural changes induced by methane
+reduction, Raman and XRD analysis of the solid recovered after this
+treatment was undertaken. To avoid any possible re-oxidation, the
+sample was cooled down to room temperature in methane ﬂow. Raman
+spectra of the fresh and fully reduced perovskite are displayed in
+Fig. 13.
+Untreated perovskite shows only a broad and poorly deﬁned feature
+centered at around 1050 cm−1, which could be related to surface car-
+bonates. Following methane treatment this band becomes more intense
+and slightly shifts to 990 cm−1, while new prominent features appear at
+1340 cm−1 and 1570 cm−1, which can be assigned, respectively, to the
+D and G bands of graphite [53]. The less intense band D is characteristic
+of more disordered structures, while the higher intensity of band D
+denotes the predominance of well-ordered sp2 structures of graphite.
+Formation of these carbon deposits is consistent with methane de-
+composition, as suggested by the extensive hydrogen release and, as
+mentioned above, it can also catalyze further methane decomposition
+[44].
+Fig. 14 shows the comparison between the pattern of the sample
+L9S1F before and after reaction and the diﬀerent phases identiﬁed.
+The XRD results clearly indicate that the perovskite has been de-
+composed into La2O3, Fe3C, graphite and SrCO3. Formation of this last
+phase is most likely consequence of the secondary reaction of the CO2
+released in the process with SrO produced by decomposition of the
+perovskite. On the other hand, production of metal carbides by me-
+thane treatment at high temperature has been also reported for Mn2O3/
+YSZ [54]. Considering the catalytic properties of carbides it can be
+speculated that they play an active role in CO2 reduction [55], although
+Fig. 10. CO production during re-oxidation steps of the perovskite at 850 °C.
+D. Sastre, et al.
+Journal of CO₂ Utilization 31 (2019) 16–26
+23
+
+
+===== Page 9 =====
+
+further studies will be necessary to conﬁrm that point. Re-oxidation of
+the complex mixture of solid phases in a CO2 ﬂow take place at around
+730 °C, as it is revealed by the conspicuous CO2 consumption peak and
+the simultaneously release of CO (see Figure S5).Interestingly, per-
+ovskite is reconstructed after this treatment as shown by XRD analyses,
+as discussed below.
+In order to investigate the eﬀect of the prolonged treatment with
+methane on the reactivity of this material, the fully reduced L9S1F
+perovskite was submitted to a series of cycles alternating CO2 and CH4
+at 850 °C. In contrast with previous tests, in this case heating was car-
+ried out in Ar and the initial cycle was performed by introducing CO2 in
+order to induce the re-oxidation of the solid. As it can be appreciated in
+Fig. 15, this sample is still highly active for CO2 splitting and CLR of
+CH4, although some signiﬁcant diﬀerences with respect to the behavior
+of the initially calcined perovskite can be appreciated.
+In this way, production of CO and H2 are signiﬁcantly enhanced in
+both stages, but the H2/CO ratio during CLR of methane is higher than
+with the fresh perovskite. This indicates the more important contribu-
+tion of methane decomposition to this process, as it can be also inferred
+Fig. 11. XRD patterns of the LSF perovskites after the isothermal 5 cycles redox reactions (a) and zoomed of the L7S3F pattern in the range of 2θ = 31.5–33.5º.
+Fig. 12. SEM images of the perovskite L9S1F as prepared and after 5 isothermal cycles (AC) of redox reactions.
+Fig. 13. Raman spectra of the L9S1F perovskite as-synthesized (red line) and,
+after fully reduction in CH4 (black line) showing characteristic G and D bands of
+graphite.
+Fig. 14. XRD patterns of the L9S1F perovskite as-synthesized, after fully re-
+duction in CH4 and following 5 additional cycles in CO2-CH4.
+D. Sastre, et al.
+Journal of CO₂ Utilization 31 (2019) 16–26
+24
+
+
+===== Page 10 =====
+
+from the diﬀerent shape of CO and H2 curves in the CH4 cycles. Thus,
+the CO production in this stage peaks at about 7 min and then declines
+sharply, while the amount of H2 released continuously rises until a
+broad maximum is reached at around 22 min. These diﬀerences in the
+time evolution of the CO and H2 concentration were also observed in
+the case of the calcined perovskite, and they indicate that the initial
+partial oxidation of methane is progressively overcome by methane
+decomposition. This last process does not depend directly on the redox
+capacity of the solid, and accordingly it can proceed for longer periods
+catalyzed by the deposited carbon or even iron carbide [48]. Following
+these cycles, the L9S1F sample was recovered in oxidized state after
+cooling down in CO2 ﬂow and it was analyzed by XRD. The diﬀraction
+pattern is displayed in Fig. 14c and it shows the presence of a single
+phase LSF perovskite, basically identical to the fresh sample. These
+results point out the remarkable stability of the LSF perovskites which
+can be fully reconstructed from the segregated phases obtained by deep
+reduction by oxidation in CO2. Interestingly, the activity of this re-
+activated sample is substantially higher than that of LSF perovskite,
+although additional studies will be necessary to ascertain the reasons
+for this enhancement of the activity.
+These results show the structural instability of LSF perovskites
+under extended treatments in methane atmospheres at high tempera-
+ture, which leads to the segregation of the single oxides and iron car-
+bide, as well as to the formation of graphite. Nevertheless, an adequate
+strategy for optimizing the duration of the cycles of operation can allow
+controlling the CO/H2 ratio and, at the same time, can avoid the de-
+gradation of the LSF perovskites. In particular, under the conditions
+used on the present assays, shorter periods of about 15 min can be
+adequate to reach high and stable productions of syngas, taking full
+advantages of the redox properties of the with LSF perovskites, and
+eluding an excessive built-up of carbon deposits. Surprisingly, despite
+this structural degradation the initial perovskite is fully recovered fol-
+lowing re-oxidization at high temperature. Even more remarkable is the
+fact that activity of this reconstructed material is even higher than that
+of the original perovskite. Accordingly, the LSF system appears as really
+attractive in order to further develop a more sustainable syngas pro-
+duction based on alternative cycles of methane partial oxidation and
+CO2 splitting.
+4. Conclusions
+This work shows that perovskites of the La1-xSrxFeO3 (LSF) system
+can be synthesized as single phases by the Pechini method following
+calcination at 1100 °C. Speciﬁc surface areas of these mixed oxides
+present very low values (< 1.2 m2 g−1), as expected for materials
+synthetized at high temperature. Despite this fact, the notable redox
+capacity
+of
+the
+LSF
+perovskites
+have
+been
+demonstrated
+with
+thermogravimetric analysis, obtaining elevated reduction degrees by
+heating in Ar up to 1000 °C (Δδ = 0.37 for the L1S9F perovskite). These
+data show that incorporation of Sr2+ into the perovskites promotes the
+oxygen storage capacity of these materials. This eﬀect is proportional to
+the level of doping up to x = 0.7, but for higher Sr contents this eﬀect
+levels oﬀ. This enhancement of the redox performance can be attributed
+to the easy reduction of Fe4+ to Fe3+ in these doped perovskites.
+Furthermore, these materials preserve their structural stability fol-
+lowing the oxidation in air and, accordingly, they appear as very pro-
+mising materials for chemical looping processes.
+LSF perovskites were tested in ﬁve redox cycles for syngas pro-
+duction by alternating methane reforming with CO2-splitting reactions
+at 850 °C in isothermal conditions. The perovskites with x ≤0.3 pre-
+sented the best results, with syngas yields 3–6 times higher than the
+others, overall reaching values of 12.8 mmol H2 g−1 and 15.9 mmol CO
+g−1 for the L9S1F material. On the other hand, the selectivity to hy-
+drogen production increased with the Sr2+ content due to the im-
+portant contribution of methane decomposition, while the reverse
+Bourdouard reaction allows the removal of deposited carbon during
+CO2 splitting. These alternative reactions pathways can justify the lack
+of correlation between the redox capacity of the LSF and the syngas
+yield. Furthermore, these processes contribute to boost the performance
+of LSF perovskites with lower Sr content.
+After reactions, characterization with XRD showed that perovskites
+with x > 0.9 maintained their crystal structure, but L1S9F and SF
+samples were transformed into Brownmillerite Sr2Fe2O5, with L9S1F
+showing an additional segregated LaFeO3 phase. Further structural in-
+stabilities, leading to the segregation of the single oxides of La and Sr, as
+well as the formation of Fe carbide and graphite are found following
+prolonged reduction in methane. Remarkably, the perovskite phase can
+be recovered when reused in CH4-CO2 cycles, where the performance is
+even enhanced. Therefore, setting up cycles with higher frequency can
+be advisable for better control of the H2/CO ratio and achieving an
+improved stability of the production, but the resilience of the LSF
+perovskite facilitates reactivity recovery even following strong devia-
+tions of the optimal operation conditions.
+In summary, LSF perovskites appears as really attractive system in
+order to develop a more sustainable syngas production based on al-
+ternative cycles of methane partial oxidation and CO2 splitting.
+Acknowledgments
+The authors thank to “Ramón Areces” Foundation for ﬁnancial
+support of the project SOLARKITE. Kind assistance of Prof. Miguel
+Angel Bañares for performing Raman measurements is fully acknowl-
+edged.
+Appendix A. Supplementary data
+Supplementary material related to this article can be found, in the
+online version, at doi:https://doi.org/10.1016/j.jcou.2019.02.013.
+References
+[1] International Energy Agency, Key World Energ Statistics 2017, (2015) https://
+www.iea.org/publications/freepublications/publication/KeyWorld2017.pdf.
+[2] X. Gao, G. Liu, Y. Zhu, P. Kreider, A. Bayon, T. Gengenbach, et al., Earth-abundant
+transition metal oxides with extraordinary reversible oxygen exchange capacity for
+eﬃcient thermochemical synthesis of solar fuels, Nano Energy 50 (2018) 347–358,
+https://doi.org/10.1016/j.nanoen.2018.05.045.
+[3] D. Marxer, P. Furler, M. Takacs, A. Steinfeld, Solar thermochemical splitting of CO2
+into separate streams of CO and O2 with high selectivity, stability, conversion, and
+eﬃciency, Energy Environ. Sci. 10 (2017) 1142–1149, https://doi.org/10.1039/
+C6EE03776C.
+[4] M. Kubicek, A.H. Bork, J.L.M. Rupp, Perovskite oxides – a review on a versatile
+material class for solar-to-fuel conversion processes, J. Mater. Chem. A 5 (2017)
+11983–12000, https://doi.org/10.1039/C7TA00987A.
+[5] A. de la Calle, A. Bayon, Annual performance of a thermochemical solar syngas
+production plant based on non-stoichiometric CeO2, Int. J. Hydrogen Energy 44
+Fig. 15. CO and H2 production on CO2-CH4 cycles over L9S1F perovskite fully
+reduced in CH4.
+D. Sastre, et al.
+Journal of CO₂ Utilization 31 (2019) 16–26
+25
+
+
+===== Page 11 =====
+
+(2019) 1409–1424, https://doi.org/10.1016/j.ijhydene.2018.11.076.
+[6] D. Selvatico, A. Lanzini, M. Santarelli, Low Temperature Fischer-Tropsch fuels from
+syngas: kinetic modeling and process simulation of diﬀerent plant conﬁgurations,
+Fuel 186 (2016) 544–560, https://doi.org/10.1016/j.fuel.2016.08.093.
+[7] H. Jahangiri, J. Bennett, P. Mahjoubi, K. Wilson, S. Gu, A review of advanced
+catalyst development for Fischer–Tropsch synthesis of hydrocarbons from biomass
+derived syn-gas, Catal. Sci. Technol. 4 (2014) 2210–2229, https://doi.org/10.
+1039/C4CY00327F.
+[8] P.T. Krenzke, J.R. Fosheim, J. Zheng, J.H. Davidson, Synthesis gas production via
+the solar partial oxidation of methane-ceria redox cycle: conversion, selectivity, and
+eﬃciency, Int. J. Hydrogen Energy 41 (2016) 12799–12811, https://doi.org/10.
+1016/j.ijhydene.2016.06.095.
+[9] K. Otsuka, Y. Wang, E. Sunada, I. Yamanaka, Direct Partial Oxidation of Methane to
+Synthesis Gas by Cerium Oxide, J. Catal. 175 (1998) 152–160, https://doi.org/10.
+1006/jcat.1998.1985.
+[10] K. Otsuka, Partial oxidation of methane using the redox of cerium oxide.pDf, Chem.
+Lett. (1993) 1517–1520, https://doi.org/10.1246/cl.1993.1517.
+[11] P.T. Krenzke, J.R. Fosheim, J.H. Davidson, Solar fuels via chemical-looping re-
+forming, Sol. Energy (2017), https://doi.org/10.1016/j.solener.2017.05.095 in
+press.
+[12] C. Agraﬁotis, M. Roeb, C. Sattler, A review on solar thermal syngas production via
+redox pair-based water/carbon dioxide splitting thermochemical cycles, Renew.
+Sustain. Energy Rev. 42 (2015) 254–285, https://doi.org/10.1016/j.rser.2014.09.
+039.
+[13] A. Demont, S. Abanades, E. Beche, Investigation of perovskite structures as oxygen-
+exchange redox materials for hydrogen production from thermochemical two-step
+water-splitting cycles, J. Phys. Chem. C 118 (2014) 12682–12692, https://doi.org/
+10.1021/jp5034849.
+[14] C.L. Muhich, B.D. Ehrhart, I. Al-Shankiti, B.J. Ward, C.B. Musgrave, A.W. Weimer, A
+review and perspective of eﬃcient hydrogen generation via solar thermal water
+splitting, Wiley Interdiscip. Rev. Energy Environ. 5 (2016) 261–287, https://doi.
+org/10.1002/wene.174.
+[15] J.R. Scheﬀe, A. Steinfeld, Oxygen exchange materials for solar thermochemical
+splitting of H2O and CO2: a review, Mater. Today. 17 (2014) 341–348, https://doi.
+org/10.1016/j.mattod.2014.04.025.
+[16] A. Steinfeld, Solar thermochemical production of hydrogen - a review, Sol. Energy
+78 (2005) 603–615, https://doi.org/10.1016/j.solener.2003.12.012.
+[17] N. Serpone, D. Lawless, R. Terzian, Solar fuels: status and perspectives, Sol. Energy
+49 (1992) 221–234, https://doi.org/10.1016/0038-092X(92)90001-Q.
+[18] A. Steinfeld, R. Palumbo, Solar thermochemical process technology, Encycl. Phys.
+Sci. Technol. 15 (2001) 237–256, https://doi.org/10.1016/B0-12-227410-5/
+00698-0.
+[19] A. Steinfeld, P. Kuhn, J. Karni, High-temperature solar thermochemistry: produc-
+tion of iron and synthesis gas by Fe3O4-reduction with methane, Energy 18 (1993)
+239–249, https://doi.org/10.1016/0360-5442(93)90108-P.
+[20] T. Kodama, Thermochemical methane reforming using a reactive WO3/W redox
+system, Energy 25 (2000) 411–425, https://doi.org/10.1016/S0360-5442(99)
+00084-5.
+[21] S. Abanades, G. Flamant, Thermochemical hydrogen production from a two-step
+solar-driven water-splitting cycle based on cerium oxides, Sol. Energy 80 (2006)
+1611–1623, https://doi.org/10.1016/j.solener.2005.12.005.
+[22] K.J. Warren, J. Reim, K. Randhir, B. Greek, R. Carrillo, D.W. Hahn, et al.,
+Theoretical and experimental investigation of solar methane reforming through the
+nonstoichiometric Ceria redox cycle, Energy Technol. (2017), https://doi.org/10.
+1002/ente.201700083.
+[23] O. Nakayama, N. Ikenaga, T. Miyake, E. Yagasaki, T. Suzuki, Production of synth-
+esis gas from methane using lattice oxygen of NiO−Cr2O3−MgO complex oxide,
+Ind. Eng. Chem. Res. 49 (2010) 526–534, https://doi.org/10.1021/ie9013474.
+[24] C. Dueso, M. Ortiz, A. Abad, F. García-Labiano, L.F. De Diego, P. Gayán, et al.,
+Reduction and oxidation kinetics of nickel-based oxygen-carriers for chemical-
+looping combustion and chemical-looping reforming, Chem. Eng. J. 188 (2012)
+142–154, https://doi.org/10.1016/j.cej.2012.01.124.
+[25] A. Evdou, V. Zaspalis, L. Nalbandian, La1-xSrxFeO3-δ perovskites as redox materials
+for application in a membrane reactor for simultaneous production of pure hy-
+drogen and synthesis gas, Fuel. 89 (2010) 1265–1273, https://doi.org/10.1016/j.
+fuel.2009.09.028.
+[26] V. García, M.T. Caldes, O. Joubert, E. Gautron, F. Mondragón, A. Moreno, Methane
+oxidation by lattice oxygen of Ni/BaTi1−xInxO3−δ catalysts, Catal. Today 157
+(2010) 177–182, https://doi.org/10.1016/j.cattod.2010.01.021.
+[27] R. Michalsky, D. Neuhaus, A. Steinfeld, Carbon dioxide reforming of methane using
+an isothermal redox membrane reactor, Energy Technol. 3 (2015) 784–789,
+https://doi.org/10.1002/ente.201500065.
+[28] L. Nalbandian, A. Evdou, V. Zaspalis, La1-xSrxMO3 (M = Mn, Fe) perovskites as
+materials for thermochemical hydrogen production in conventional and membrane
+reactors, Int. J. Hydrogen Energy 34 (2009) 7162–7172, https://doi.org/10.1016/j.
+ijhydene.2009.06.076.
+[29] L. Nalbandian, A. Evdou, V. Zaspalis, La1−xSrxMyFe1−yO3−δ perovskites as oxygen-
+carrier materials for chemical-looping reforming, Int. J. Hydrogen Energy 36 (2011)
+6657–6670, https://doi.org/10.1016/j.ijhydene.2011.02.146.
+[30] Y. Zheng, K. Li, H. Wang, D. Tian, Y. Wang, X. Zhu, et al., Designed oxygen carriers
+from macroporous LaFeO3 supported CeO2 for chemical-looping reforming of me-
+thane, Appl. Catal. B Environ. 202 (2017) 51–63, https://doi.org/10.1016/j.apcatb.
+2016.08.024.
+[31] O. Mihai, D. Chen, A. Holmen, Catalytic consequence of oxygen of lanthanum
+ferrite perovskite in chemical looping reforming of methane, Ind. Eng. Chem. Res.
+50 (2011) 2613–2621, https://doi.org/10.1021/ie100651d.
+[32] D. Sastre, A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Exploring the redox
+behavior of La0.6Sr0.4Mn1−xAlxO3Perovskites for CO2-splitting in thermochemical
+cycles, Top. Catal. 60 (2017) 1108–1118, https://doi.org/10.1007/s11244-017-
+0790-4.
+[33] A.H. McDaniel, E.C. Miller, D. Ariﬁn, A. Ambrosini, E.N. Coker, R. O’Hayre, et al.,
+Sr- and Mn-doped LaAlO3−δ for solar thermochemical H2 and CO production,
+Energy Environ. Sci. 6 (2013) 2424, https://doi.org/10.1039/c3ee41372a.
+[34] F. He, X. Li, K. Zhao, Z. Huang, G. Wei, H. Li, The use of La1-xSrxFeO3 perovskite-
+type oxides as oxygen carriers in chemical-looping reforming of methane, Fuel 108
+(2013) 465–473, https://doi.org/10.1016/j.fuel.2012.11.035.
+[35] X.P. Dai, J. Cheng, Z. Li, M. Liu, Y. Ma, X. Zhang, Reduction kinetics of lanthanum
+ferrite perovskite for the production of synthesis gas by chemical-looping methane
+reforming, Chem. Eng. Sci. 153 (2016) 236–245, https://doi.org/10.1016/j.ces.
+2016.07.011.
+[36] R.-J. Li, C.-C. Yu, W.-J. Ji, S.-K. Shen, Methane oxidation to synthesis gas using
+lattice oxygen in La1−xSrxFeO3 perovskite oxides instead of molecular oxygen, Stud.
+Surf. Sci. Catal. (2004) 199–204, https://doi.org/10.1016/S0167-2991(04)
+80051-X.
+[37] X.P. Dai, J. Li, J.T. Fan, W.S. Wei, J. Xu, Synthesis gas generation by chemical-
+looping reforming in a circulating ﬂuidized bed reactor using perovskite LaFeO3-
+Based oxygen carriers, Ind. Eng. Chem. Res. 51 (2012) 11072–11082, https://doi.
+org/10.1021/ie300033e.
+[38] D.D. Taylor, N.J. Schreiber, B.D. Levitas, W. Xu, P.S. Whitﬁeld, E.E. Rodriguez,
+Oxygen storage properties of La1– xSrxFeO3−δ for chemical-looping reactions—an in
+situ neutron and synchrotron X-ray study, Chem. Mater. 28 (2016) 3951–3960,
+https://doi.org/10.1021/acs.chemmater.6b01274.
+[39] M.P. Pechini, US Patent No. 3,330,697, 1967.
+[40] P. Jana, V.a. de la Peña O’Shea, J.M. Coronado, D.P. Serrano, Co-production of
+graphene sheets and hydrogen by decomposition of methane using cobalt based
+catalysts, Energy Environ. Sci. 4 (2011) 778, https://doi.org/10.1039/c0ee00490a.
+[41] B. Xu, Y. Bhawe, M.E. Davis, Spinel metal oxide-alkali carbonate-based, low-tem-
+perature thermochemical cycles for water splitting and CO2 reduction, Chem.
+Mater. 25 (2013) 1564–1571, https://doi.org/10.1021/cm3038747.
+[42] R.D. Shannon, Revised eﬀective ionic radii and systematic studies of interatomic
+distances in halides and chalcogenides, Acta Crystallogr. Sect. A. 32 (1976)
+751–767, https://doi.org/10.1107/S0567739476001551.
+[43] G. Pecchi, P. Reyes, R. Zamora, C. Campos, L.E. Cadús, B.P. Barbero, Eﬀect of the
+preparation method on the catalytic activity of La1−xCaxFeO3 perovskite-type
+oxides, Catal. Today 133–135 (2008) 420–427, https://doi.org/10.1016/j.cattod.
+2007.11.011.
+[44] S.E. Dann, D.B. Currie, M.T. Weller, M.F. Thomas, A.D. Al-Rawwas, The eﬀect of
+oxygen stoichiometry on phase relations and structure in the system La1-xSrxFeO3-δ,
+J. Solid State Chem. 109 (1994) 134–144, https://doi.org/10.1006/jssc.1994.1083.
+[45] X.P. Dai, R.J. Li, C.C. Yu, Z.P. Hao, Unsteady-State Direct Partial Oxidation of
+Methane to Synthesis Gas in a Fixed-Bed Reactor Using AFeO3(A = La, Nd, Eu)
+Perovskite-Type Oxides as Oxygen Storage, J. Phys. Chem. B 110 (2006)
+22525–22531, https://doi.org/10.1021/jp063490b.
+[46] E. Bakken, T. Norby, S. Stølen, Redox energetics of perovskite-related oxides, J.
+Mater. Chem. 12 (2002) 317–323, https://doi.org/10.1039/b106422n.
+[47] K. Zhao, F. He, Z. Huang, G. Wei, A. Zheng, H. Li, et al., Perovskite-type oxides
+LaFe1−xCoxO3 for chemical looping steam methane reforming to syngas and hy-
+drogen co-production, Appl. Energy 168 (2016) 193–203, https://doi.org/10.1016/
+j.apenergy.2016.01.052.
+[48] A.M. Amin, E. Croiset, W. Epling, Review of methane catalytic cracking for hy-
+drogen production, Int. J. Hydrogen Energy 36 (2011) 2904–2935, https://doi.org/
+10.1016/j.ijhydene.2010.11.035.
+[49] M. Keller, Y. Matsuzaki, J. Otomo, CO2activation by methane in a dual-bed con-
+ﬁguration via methane cracking and iron oxide lattice oxygen transport – Concept
+and materials development, Chem. Eng. J. 349 (2018) 249–259, https://doi.org/10.
+1016/j.cej.2018.05.069.
+[50] M.V. Landau, N. Meiri, N. Utsis, R. Vidruk Nehemya, M. Herskowitz, Conversion of
+CO2, CO, and H2 in CO2 hydrogenation to fungible liquid fuels on Fe-Based cata-
+lysts, Ind. Eng. Chem. Res. 56 (2017) 13334–13355, https://doi.org/10.1021/acs.
+iecr.7b01817.
+[51] R. Li, C. Yu, S. Shen, Partial Oxidation of Methane to Syngas Using Lattice Oxygen
+of La1-xSrxFeO3 Perovskite Oxide Catalysts Instead of Molecular Oxygen, J. Nat. Gas
+Chem. 11 (2002) 137–144.
+[52] E. Marek, W. Hu, M. Gaultois, C.P. Grey, S.A. Scott, The use of strontium ferrite in
+chemical looping systems, Appl. Energy 223 (2018) 369–382, https://doi.org/10.
+1016/j.apenergy.2018.04.090.
+[53] G.L. Bode, M.D. McIntyre, D.M. Neuberger, R.A. Walker, B.P. Thorstensen,
+B.C. Eigenbrodt, Electrochemical and operando spectroscopic studies of
+Sr2Fe1.5Mo0.5O6- δ anode catalysts in solid oxide fuel cells operating with direct
+alcohol fuels, ChemElectroChem. 5 (2018) 3162–3168, https://doi.org/10.1002/
+celc.201800827.
+[54] A.J. Carrillo, D. Sastre, L. Zazo, D.P. Serrano, J.M. Coronado, P. Pizarro, Hydrogen
+production by methane decomposition over MnOx/YSZ catalysts, Int. J. Hydrogen
+Energy 41 (2016) 19382–19389, https://doi.org/10.1016/j.ijhydene.2016.04.138.
+[55] Y. Zhang, D. Fu, X. Liu, Z. Zhang, C. Zhang, B. Shi, et al., Operando Spectroscopic
+Study of Dynamic Structure of Iron Oxide Catalysts during CO2 Hydrogenation,
+ChemCatChem 10 (2018) 1272–1276, https://doi.org/10.1002/cctc.201701779.
+D. Sastre, et al.
+Journal of CO₂ Utilization 31 (2019) 16–26
+26

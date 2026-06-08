@@ -1,0 +1,1472 @@
+
+
+===== Page 1 =====
+
+Ca- and Ga-Doped LaMnO3 for Solar Thermochemical CO2 Splitting
+with High Fuel Yield and Cycle Stability
+Xianglei Liu, Tong Wang, Ke Gao, Xianguang Meng, Qiao Xu, Chao Song, Zhonghui Zhu,
+Hangbin Zheng, Yong Hao, and Yimin Xuan*
+Cite This: https://doi.org/10.1021/acsaem.1c01274
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+ABSTRACT: Solar thermochemical CO2 splitting to produce fuels
+is an eﬀective route to reduce carbon emission. However, it is still a
+daunting challenge to achieve a high CO yield and good cycle
+stability simultaneously at a low reaction temperature. Here, Ca-
+and Ga-doped LaMnO3 is introduced for solar thermochemical
+CO2 splitting with an ultrahigh CO yield and excellent cycle
+stability at a moderate operation temperature. The average CO
+production reaches 513 μmol/g for La0.6Ca0.4Mn0.8Ga0.2O3 when
+operating between 1350 and 1050 °C. Such a high value sets a
+record among directly measured thermochemical CO production
+in the literature with the temperature swing limited within 300 °C.
+No obvious performance deterioration over eight cycles is observed
+due to stable structures. The high CO production of
+La0.6Ca0.4Mn0.8Ga0.2O3 can be attributed to the transition of the surface reaction to internal bulk diﬀusion induced by Ca doping
+and enhanced non-stoichiometry due to Ga doping. This work provides a promising alternative for solar thermochemical CO2
+splitting with high fuel yield and cycle stability.
+KEYWORDS: solar thermochemical, solar fuel, CO2 splitting, perovskites, cycle stability
+1. INTRODUCTION
+Conventional fossil fuels can hardly meet the increasing energy
+demand in a long period of time.1 On the other hand, massive
+burning of fossil fuels has led to a prominent increase of
+atmospheric CO2 concentration and subsequent climate
+change problems. In this regard, solar energy has been
+regarded as one of the most promising energy sources to
+power the world in a low carbon way.2,3 Solar energy-driven
+CO2 reduction can not only overcome the intermittent nature
+of solar energy but also helps to close the anthropogenic
+carbon cycles by converting CO2 into green fuels.4−6 In
+particular, solar thermochemical CO2 splitting to produce CO
+via a two-step process has recently attracted much attention as
+the entire solar spectrum can be utilized, in stark contrast to
+photocatalysis7 or electrocatalysis,8,9 for which only the above-
+band-gap photons can be harvested. In general, solar
+thermochemical CO2 splitting can be represented as follows
+→
++
+−
+y
+MO
+MO
+2 O
+x
+x
+y
+2
+(1)
++
+→
++
+−
+y
+y
+MO
+CO
+MO
+CO
+x
+y
+x
+2
+(2)
+→
++
+CO
+CO
+1
+2 O
+2
+2
+(3)
+In the endothermic reduction (TR) step, metal oxides
+(MOx) lose some oxygen atoms to form non-stoichiometric
+oxides (MOx−y) under sunlight illumination. In the following
+exothermic step, the reduced metal oxides react with CO2 to
+produce CO (CDS) at a lower temperature, and MOx−y as
+intermediate products are recovered to the original state after
+the completion of one cycle. The net reaction is that CO2 splits
+into CO and O2.
+Up until now, tens of metal oxides have been investigated for
+solar thermochemical CO2 splitting, such as Fe3O4/FeO,
+ZnO/Zn,10 SnO2/SnO,11 ABO3/ABO3−δ (perovskite),12−14
+CeO2/Ce2O3,15−18 and ferrite19 catalytic systems. Stoichio-
+metric redox pairs such as ZnO/Zn and SnO2/SnO have high
+oxygen exchange capacities, but they are volatile. The non-
+volatile Fe3O4/FeO redox pair sinters easily and has poor
+thermal stability. Non-stoichiometric oxides retain their
+crystallographic structure unchanged after redox cycles, such
+Received:
+May 4, 2021
+Accepted:
+July 19, 2021
+Article
+www.acsaem.org
+© XXXX American Chemical Society
+A
+https://doi.org/10.1021/acsaem.1c01274
+ACS Appl. Energy Mater. XXXX, XXX, XXX−XXX
+Downloaded via UNIV OF GLASGOW on August 12, 2021 at 13:19:39 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+
+===== Page 2 =====
+
+as CeO2 and perovskites. Cerium-based oxides possess fast
+reaction kinetics and good thermal stability,20−24 but the
+operation temperature is higher than 1400 °C, for which the
+sensible heat loss percentage is even much larger than the
+solar-fuel eﬃciency.5,25 Besides, the fuel production and the
+oxygen storage capacity are also limited.26−28
+Perovskites have recently emerged as promising alternatives
+for thermochemical CO2 splitting due to a lower operation
+temperature and a higher CO yield.14,29−35 The general
+formula for perovskite is ABO3, wherein cation A is in 12-fold
+coordination with oxygen and cation B is in 6-fold
+coordination with oxygen, as shown in Figure 1a. The A/B
+sites of perovskite materials can be partially replaced by one or
+more elements, resulting in a highly ﬂexible elemental
+composition and a tunable two-step thermochemical CO2-
+splitting performance.12,33,36−45 Among them, Mn-based
+perovskite materials are widely studied. McDaniel et al.46
+ﬁrst found that Sr- and Al-doped LaMnO3 exhibited a
+remarkable improvement of CO production compared with
+that of CeO2 in the temperature range of 1000−1350 °C, and
+the material was not deactivated after 80 cycles. Nevertheless,
+the production of CO (247 μmol/g) is still not suﬃciently
+high. Dey et al.37 reported that Y-doped SrMnO3 exhibited
+excellent performance (757 μmol/g) in the CO2 fuel
+conversion in the redox temperature range of 900−1400 °C.
+However, the swing between the reduction and oxidation steps
+is as high as 500 °C, so that the heat loss will be too large. Nair
+and Abanades32 pointed out that the presence of Co, Fe, and
+Ni in site B helps lower the reduction temperatures to release
+more O2 (below 1300 °C) but would deteriorate the cycle
+stability. Overall, it is still a daunting challenge to develop ideal
+solar thermochemical materials, which possess high fuel
+production, good cycle stability, and moderate temperature
+swing with low heat loss.
+Considering that Ca-substituted La at site A has
+demonstrated great potential in both thermochemical CO2
+splitting and H2O splitting36,47,48 and Ga doped in site B can
+increase the non-stoichiometry δ,29,30,45 Ca- and Ga-doped
+LaMnO3, that is, La1−xCaxMn1−yGayO3 is proposed for high-
+performance thermochemical CO2 splitting. Physicochemical
+characterization is carried out to analyze the properties of
+materials. The eﬀects of diﬀerent Ca and Ga doping ratios and
+reduction and oxidation temperatures on the CO2 fuel
+conversion performance are also studied. In addition, the
+inﬂuence of diﬀerent preparation methods (sol−gel method
+and
+solid-state
+method)
+is
+discussed.
+Ga-doped
+La0.6Ca0.4MnO3 can prominently increase CO production in
+the optimal redox temperature range of 1350−1050 °C.
+La0.6Ca0.4Mn0.8Ga0.2O3 shows the best performance with an
+average CO production of 513 μmol/g and excellent stability
+over eight cycles. The reaction kinetics is calculated to analyze
+the reaction mechanism of materials.
+2. EXPERIMENTAL SECTION
+2.1. Preparation of Materials. La1−xCaxMn1−yGayO3 perovskite
+oxides are prepared by the modiﬁed sol−gel method. All the chemical
+reagents used in the experiment are of analytically pure grade, and
+they are used directly without further puriﬁcation. In a typical
+preparation procedure, stoichiometric amounts of materials of
+La(NO3)3·6H2O (purity ≥99.0%), Ca(NO3)2·4H2O (purity ≥
+99.5%), Ga(NO3)3·xH2O (purity ≥99.0%), and Mn(NO3)2 solution
+(50%) are dissolved in 50 mL of deionized water, and citric acid
+(C6H8O7) is added to the mixture with a 1:1.5 mol ratio of total metal
+cations to citric acid after stirring well. Then, the mixture solution is
+heated to 90 °C to remove excess water with continuous stirring until
+complete geliﬁcation is achieved. After that, the gel is dried at 120 °C
+for 6 h. The xerogel is ground to a powder and calcined in a muﬄe
+oven at 400 °C for 2 h to remove organic matter, then calcined in a
+high-temperature muﬄe furnace in an air atmosphere at 1300 °C for 6
+h, whose purpose is to form a stable phase structure. At last, the
+resulting powder is ground again to obtain a ﬁnely powdered sample
+for subsequent thermochemical cycling experiments.
+2.2. Characterization of Samples. Synthesized perovskite
+oxides and used samples are characterized by powder X-ray diﬀraction
+(XRD) on a Smart Lab X-ray diﬀractometer (XRD, Bruker D8A A25
+X) with Cu Kα radiation. XRD patterns are operated in the range of
+20−80° with a step size of 0.02° and a scan rate of 6° min−1.
+Microscopic morphology of samples is obtained by scanning electron
+microscopy (SEM, ZEISS Gemini 300). To obtain the valence states
+of elements, X-ray photoelectron spectroscopy (XPS) analysis is
+carried out using an XPS photoelectron spectrometer (Thermo
+Scientiﬁc K-Alpha) with an aluminum anode (Al Kα, 100 W, hv =
+1486.65 eV). EDS mapping analysis is carried out using a Hitachi
+TM-3000 for investigating the sample composition and elemental
+distribution. The absorption spectrum and reﬂection spectrum are
+collected using a ultraviolet−visible (UV−vis) spectrophotometer
+(PerkinElmer Lambda 1050+) and a Fourier transform infrared
+(FTIR) spectrometer (Thermo Scientiﬁc Nicolet iS 50 FTIR
+spectrometer), respectively.
+2.3. CO2Splitting Performance Test. The schematic of the
+experimental device is shown in Figure 1b. The test for
+thermochemical CO2 splitting is carried out in a programed horizontal
+high-temperature tubular furnace. The outer diameter of the
+corundum tube is 25 mm and the length is 600 mm. The alumina
+crucible with the sample (250 mg) is placed in the corundum tube
+and heated in the heating section. The gas ﬂow rates of CO2 and Ar
+are separately controlled by diﬀerent mass ﬂow meters; diﬀerent gases
+are mixed well in the commingler, and then ﬂown into the ﬁxed-bed
+reactor for reaction. The outlet gases O2 and CO are detected by the
+O2 detector (YF-A01-O2) and the CO detector (CH−H−CO) in real
+time, respectively. Detectors are calibrated with the standard known
+concentration gases to ensure accuracy of the experiment.
+Before the experiment, the device is swept by high-purity Ar
+(99.999%) to reduce the oxygen concentration, and the O2
+concentration in this system is about 10 ppm. The introduced Ar
+Figure 1. (a) Structure and thermochemical reaction process of perovskites; (b) experimental setup for O2-releasing and CO2-splitting reactions.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.1c01274
+ACS Appl. Energy Mater. XXXX, XXX, XXX−XXX
+B
+
+
+===== Page 3 =====
+
+gas is also used as the carrier gas to remove the released oxygen and
+produced CO. During the whole process of reduction and the
+transition from reduction to oxidation, the introduced Ar gas is
+controlled at 200 sccm. The tested sample is heated to 800 °C with a
+ramp rate of 20 °C/min from room temperature, then further heated
+to 1350 °C with a ramp rate of 10 °C/min, followed by maintaining it
+for 45 min to completely release the oxygen. After perovskite oxides
+have released oxygen and formed oxygen-deﬁcient materials, the
+reactor is cooled to a lower temperature with a ramp rate of 20 °C/
+min. In the following oxidation process, the mixture gas of Ar and
+CO2 (99.999%) is fed to the reactor, and the ﬂow rates of Ar and CO2
+are both 100 mL/min. The reduced samples maintain a lower
+oxidation temperature for 90 min to produce CO. The CO and O2
+concentrations detected in real time are integrated to obtain the
+corresponding productions during this period. The formulas applied
+are described as follows
+∫
+=
+·
+·
+n
+v
+c
+t
+V m
+d
+t
+t
+O
+O
+m
+p
+2
+1
+2
+2
+(4)
+∫
+=
+·
+·
+n
+v
+c
+t
+V m
+d
+t
+t
+CO
+CO
+m
+p
+3
+4
+(5)
+where v is the gas ﬂow velocity; c represents the concentrations of CO
+and O2; t1, t3 are the start times and t2, t4 are the ﬁnish times for O2-
+releasing and CO2-splitting reactions, and mp is the mass of
+perovskite.
+3. RESULTS AND DISCUSSION
+3.1. Materials Characterization. 3.1.1. XRD Analysis.
+Researchers have previously demonstrated that the La/Ca ratio
+of 0.6:0.4 is the optimal ratio for diﬀerent perovskites, such as
+La0.6Ca0.4Mn0.6Al0.4O3 in thermochemical CO2 splitting36 and
+La0.6Ca0.4CoO3
+48 and La0.6Ca0.4Mn0.6Al0.4O3
+47 in H2O split-
+ting. Therefore, the La/Ca ratio is temporarily ﬁxed at 0.6:0.4
+while the eﬀects of Mn/Ga ratio are ﬁrst examined in the
+thermochemical CO2 splitting. Figure 2a shows the XRD
+patterns of fresh materials of La0.6Ca0.4Mn1−yGay (y = 0, 0.1,
+0.2, and 0.3). To simplify writing, La0.6Ca0.4MnO3,
+La0.6Ca0.4Mn0.9Ga0.1O3,
+La0.6Ca0.4Mn0.8Ga0.2O3,
+and
+La0.6Ca0.4Mn0.7Ga0.3O3 are named LCM0, LCMG10,
+LCMG20, and LCMG30, respectively. The diﬀraction peaks
+of the as-synthesized samples are roughly the same as standard
+patterns of La0.6Ca0.4MnO3 (PDF# 46-0513). The crystal
+phases present in the as-prepared samples are orthorhombic
+(Pnma), and no characteristic diﬀraction peaks of Ga2O3 are
+observed, indicating that the crystal phase structures of these
+samples are uniform and stable. As the Ga doping ratio
+increases, the diﬀraction peak intensity reduces gradually,
+Figure 2. XRD patterns of (a) fresh La0.6Ca0.4Mn1−yGayO3 (y = 0−0.3); (b) enlarged area indicated in (a); (c) used La0.6Ca0.4Mn1−yGayO3 after
+two cycles (y = 0−0.3); and (d) enlarged area indicated in (c).
+Figure 3. SEM micrographs of the (a−d) as-synthesized and (e−h) used La0.6Ca0.4Mn1−yGayO3 samples. EDS mapping micrographs of the (i) as-
+synthesized and (j) used La0.6Ca0.4Mn0.8Ga0.2O3.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.1c01274
+ACS Appl. Energy Mater. XXXX, XXX, XXX−XXX
+C
+
+
+===== Page 4 =====
+
+indicating a decrease in crystallinity. In addition, the diﬀraction
+peak slightly shifts to a smaller 2θ angle (Figure 2b). The XRD
+patterns of the used samples are shown in Figure 2c; it can be
+found that the characteristic diﬀraction peaks almost do not
+change compared with those of the fresh samples, demonstrat-
+ing the stability of samples (Figure 2d).
+3.1.2. SEM and EDS Mapping Analyses. SEM micrographs
+of the as-synthesized and used La0.6Ca0.4Mn1−yGayO3 samples
+are shown in Figure 3a−h, respectively. Particles of the as-
+synthesized LCMG0 and LCMG10 samples are small, but they
+will increase prominently after cycles, as shown from the
+comparison of Figure 3a,b,e,f. When the loading ratio of Ga
+exceeds 0.2, particle sizes of the fresh samples show an obvious
+increase. Nevertheless, particles sizes do not change much after
+cycles, indicating that LCMG20 and LCMG30 have good anti-
+sintering properties. Taking LCMG20 as an example, EDS
+mapping results of the fresh and used La0.6Ca0.4Mn0.8Ga0.2O3
+samples are shown in Figure 3i,j, respectively. As can be seen
+clearly, each element has a very uniform distribution before
+and after the cycles. Also, no phase segregation is observed
+from the EDS mapping images, which is consistent with the
+XRD patterns.
+3.1.3. XPS Analysis. In order to analyze the change in the
+valence state of Mn ions during the whole thermochemical
+CO2-splitting process, the Mn 2p spectra of the fresh, reduced,
+and oxidized samples for LCMG0 and LCMG20 are detected
+by XPS (Figure 4). The spin−orbital doublets centered at
+641.3 and 652.5 eV correspond to Mn 2p3/2 and Mn 2p1/2 of
+Mn3+, respectively, and the peaks at 643.0 and 654.2 eV
+represent Mn 2p3/2 and Mn 2p1/2 of Mn4+,49,50 respectively
+(Figure 4a,b). According to the peak area of Mn3+ and Mn4+
+curves, the corresponding ion valence contents can be
+obtained, and the results are shown in Table 1. The ratios of
+Mn3+/Mn4+ of both samples increase and decrease after
+reduction and oxidation steps, respectively, as expected. For
+undoped LCMG0, the valence states of Mn ions are 3.51, 3.47,
+and 3.50 for the as-synthesized samples, after oxygen release,
+and after CO2 splitting, respectively. The corresponding
+valence states of Mn are 3.57, 3.51, and 3.57, respectively,
+for LCMG20. During the TR process, the Mn valence states of
+LCMG20 decreases more than that of LCMG0, indicating that
+LCMG20 enhances non-stoichiometry and releases more
+oxygen. Similarly, the valence states of Mn decreases more
+during the CDS process, indicating that the re-oxidation extent
+of LCMG20 is higher. Therefore, doping Ga tends to increase
+the amount of O2 release and improves fuel production, as will
+be discussed later. Figure 4c shows the Ga 2p spectra of
+LCMG20. The binding energies of Ga 2p3/2 and Ga 2p1/2 are
+located at 1116.9 and 1143.8 eV, respectively. Negligible
+diﬀerences are observed in terms of binding energies of fresh,
+reduced, and oxidized samples, meaning that the valence state
+of Ga does not change during thermochemical cycles.29,51 O 1s
+spectra of LCMG20 are shown in Figure 4d; there are three
+types of oxygen: OI, OII, and OIII located at 529.2 ± 0.1, 531 ±
+0.1, and 532.3 ± 0.1 eV, respectively, which stand for the
+lattice oxygen, absorbed O2
+2−/O−because of the presence of
+Figure 4. XPS spectra of samples (a) LCMG0 and (b) LCMG20 at fresh, reduction, and oxidation states; (c) Ga 2p and (d) O 1s XPS spectra of
+LCMG20.
+Table 1. Calculated Mn3+/Mn4+ Peak Areas and Mn Valence
+States of LCMG0 and LCMG20Prepared, after
+Reduction, and after Oxidation
+materials
+Mn3+ peak areas
+(eV)
+Mn4+ peak areas
+(eV)
+valence states of
+Mn
+LCMG0-pre
+9220
+9799
+3.51
+LCMG0-red
+10,738
+8776
+3.47
+LCMG0-ox
+7927
+8007
+3.50
+LCMG20-
+pre
+9389
+12,373
+3.57
+LCMG20-
+red
+9352
+10,254
+3.51
+LCMG20-ox
+8658
+11,581
+3.57
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.1c01274
+ACS Appl. Energy Mater. XXXX, XXX, XXX−XXX
+D
+
+
+===== Page 5 =====
+
+carbonate possibly, and hydroxyl groups or absorbed bulk
+oxygen species, such as water,13 respectively. The lattice OI
+does not change much before and after the reaction.
+3.1.4. Solar Absorption Analysis. Figure 5a shows the solar
+absorption
+characteristic
+of
+the
+as-synthesized
+La0.6Ca0.4Mn1−yGay (y = 0−0.3) samples and CeO2 in the
+wavelength range from 0 to 10 μm with a step size of 0.005
+μm. Samples are placed in the cell of the zinc selenide window
+piece, and the reﬂectivity (ρ) is obtained, which in turn gives
+the absorptivity (α) as 1 −ρ. As can be seen clearly, CeO2
+exhibits high absorptance only for the UV and IR bands, while
+La0.6Ca0.4Mn1−yGay is highly absorptive for the full solar
+spectrum. Compared with LCMG0, doping Ga helps to
+slightly improve the solar absorptance, especially for the near-
+IR spectrum. The average solar absorption of samples can be
+calculated using the following formula
+∫
+∫
+λ
+λ
+λ
+λ
+λ
+=
+A
+A
+I
+I
+( )
+( )d
+( )d
+250 nm
+2500 nm
+AM1.5
+250 nm
+2500 nm
+AM1.5
+(6)
+where λ stands for the wavelength, A(λ) is the spectral
+absorbance, and IAM1.5(λ) reﬂects the spectral irradiance under
+AM1.5 sun.52 As can be seen clearly in Figure 5b, the average
+solar absorbance values of Ga-doped samples are all over 85%,
+which is much higher than that of CeO2 (13.14%). The reason
+is that metal oxides composed of Mn3+/Mn4+ are black with
+high spectral absorptance. For solar thermochemical CO2-to-
+fuel conversion, higher solar absorptance helps to reduce light
+losses, so that it will beneﬁt the solar-to-fuel conversion
+eﬃciency. On the other hand, the high solar absorptance might
+help mitigate the strict requirement of concentration ratios to
+drive solar thermochemical reactions.
+By assuming that the inherent thermal radiative loss is the
+only energy loss channel, the minimum solar concentration
+ratio needed to drive thermochemical reactions can be
+determined by the energy conversion equation expressed as
+∫
+∫
+λ
+λ
+λ
+ε λ
+λ
+λ
+=
+∞
+C
+I
+A
+E
+T
+( ) ( )d
+( )
+( ,
+)d
+ratio
+250 nm
+2500 nm
+AM1.5
+0
+b
+(7)
+where Cratio reﬂects the concentration ratio to achieve the
+target temperature, ε(λ) is the spectral emittance, and Eb(λ,T)
+is the spectral emissive power of a blackbody. As can also be
+seen in Figure 5a, perovskite samples also possess high
+emittances from 1 to 6 μm. This wavelength range is where the
+emissive power is mainly distributed, as shown by red curves,
+when operating around 1350 °C. The minimum requirement
+of the concentration ratio can be obtained by balancing the
+solar absorption and thermal emission properties, and is given
+in Figure 5c. As can be seen clearly, LCMG20 can achieve a
+higher temperature compared with that of CeO2 at the same
+concentration ratio. Similarly, to achieve the same temperature,
+the concentration ratio needed for LCMG20 is lower. Taking
+1350 °C as an example, the minimum concentration ratio
+needed for CeO2 is 900, while only 400 is needed for
+LCMG20. This mitigated strict requirement of high concen-
+tration ratio makes solar thermochemical systems compatible
+with the current mature concentration facilities and thus helps
+promote its rapid development and deployment.
+3.2. Thermochemical CO2 Fuel Conversion Perform-
+ance. 3.2.1. Inﬂuence of the Ga Doping Ratio at the B Site.
+The inﬂuence of Ga proportion on the thermochemical CO2-
+splitting performance is given in Figure 6. The same
+experimental conditions (the reduction temperature is 1350
+°C for 45 min in Ar and the oxidation temperature is 1050 °C
+for 90 min in CO2) are applied for all samples. As shown in
+Figure 6a, the O2 release start-up temperature has a slight
+decline with doping concentration and decreases from about
+1200 to 1100 °C, as the doping concentration increases to 0.3.
+The O2 production rate is also enhanced by doping Ga with
+the peak value enhanced up to 0.175 μmol/g/s for LCMG30
+compared with 0.116 μmol/g/s of LCMG0. Figure 6c shows
+the CO production rate during the CO2-splitting process, and
+as can be seen clearly, the CO production rate of all samples
+peaks within a few minutes, followed by a slower CO-
+producing process. The peak CO production rate increases as
+the Ga dopant increases from 0 to 0.2 but decreases with
+further increase of the Ga dopant. The maximum rate reached
+is 0.464 μmol/g/s while the Ga content is 0.2. Figure 6a,d
+shows the total production yield of O2 and CO, respectively.
+The total O2 production is 200, 242, 287, and 315 μmol/g for
+Ga contents of 0, 0.1, 0.2, and 0.3, respectively. Clearly, the
+presence of Ga at the B site can increase the amount of oxygen
+released. The total CO production is also enhanced by doping
+Ga, and the highest CO production appears for LCMG20,
+which is 30% higher than that for LCMG0. It is noted that
+although LCMG30 has the highest O2 production, its CO yield
+is not as high as that of LCMG20. This may be because the
+more the immutable valence of Ga in materials is, the less the
+amount of variable valence transition metal Mn ions will be,
+which will inevitably reduce the reactivity with CO2, so the
+best Ga stoichiometric ratio is 0.2.
+3.2.2. Inﬂuence of Diﬀerent Ca Ratio Doped at Site A. The
+optimal Mn/Ga ratio has been determined as 0.8:0.2, then
+whether the previously ﬁxed La/Ca ratio of 0.6:0.4 is the best.
+Figure 5. (a) UV−vis−IR spectral absorptance for diﬀerent samples;
+the spectral emissive power of the blackbody varies with the
+wavelength at 1350 °C, where the blue, green, purple, black, and
+gray lines represent LCMG0, LCMG10, LCMG20, LCMG30, and
+CeO2, respectively, and the orange area represents the spectrum of
+solar radiation. (b) Average solar absorptance. (c) Minimum
+concentration ratio needed to reach the target temperature.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.1c01274
+ACS Appl. Energy Mater. XXXX, XXX, XXX−XXX
+E
+
+
+===== Page 6 =====
+
+Figure 7 depicts CO/O2 productions and SEM/XRD results of
+La1−xCaxMn0.8Ga0.2O3 (x = 0, 0.2, 0.4, 0.6, and 0.8) under the
+same conditions as those in Figure 6. It can be seen clearly
+from Figure 7a that no O2 is released when x = 0, so that the
+corresponding CO production is also zero, as can be conﬁrmed
+in Figure 7b. With increasing Ca ratios, both the peak O2
+production rate and the total O2 production increase
+continuously, as shown in Figure 7a,c, respectively. Never-
+theless, the CO production does not increase monotonically
+with the Ca ratio but reaches the highest value at a Ca ratio of
+0.4. As demonstrated in Figure 7b, the CO production rate of
+La0.8Ca0.2Mn0.8Ga0.2O3 quickly increases to a high value but is
+maintained only for about 3 min. As a result, the total CO
+production is only 12 μmol/g. When the Ca ratio increases to
+0.4, the peak CO production rate increases to 0.464 μmol/g/s
+and decreases relatively slowly, so that the total CO production
+achieves the highest value of 513 μmol/g. With a further
+increase of the Ca ratio to 0.6, the peak CO production rate
+decreases to 0.304 μmol/g/s, leading to a reduced total CO
+production of 421 μmol/g. Surprisingly, when the Ca ratio is
+0.8, no CO production is detected, although the O2 production
+is the highest. The underlying mechanism is attributed to
+severe sintering, as will be discussed later. XRD patterns of the
+as-prepared La1−xCaxMn0.8Ga0.2O3 (x = 0, 0.2, 0.4, 0.6, 0.8)
+samples are given in Figure 7d. Characteristic peaks of metallic
+oxides are not observed, indicating that all samples are
+synthesized with homogeneous phase structures. The
+diﬀraction peak gradually shifts to a higher 2θ angle with
+increasing Ca ratios, which indicates lattice shrinkage. It is
+expected to be due to a smaller ionic radius of Ca2+ (1.0 Å)
+compared with that of La3+ (1.03 Å). Correspondingly, grain
+sizes also decrease with increasing Ca ratios, as shown in
+Figure 7e−h for the as-prepared samples. The increase of grain
+sizes after the reaction is observed for all samples, as can be
+seen clearly in Figure 7i−l. SEM micrographs of
+La0.2Ca0.8Mn0.8Ga0.2O3 are not presented as the sintering is
+so serious that a crystalline ﬁlm is formed on the surface of the
+crucible and cannot be removed. Overall, the optimal Ca ratio
+is 0.4 as we assumed at the beginning. Smaller and higher Ca
+ratios will deteriorate the CO production due to low non-
+stoichiometry or low O2 production and severe sintering,
+respectively.
+3.2.3. Inﬂuence of Reduction and Oxidation Temper-
+atures. According to previous analysis, the best doping ratio of
+Ga and Ca is 0.2 and 0.4, respectively, for which the highest
+CO yield can be obtained. To investigate the inﬂuence of
+reduction temperature on CO yields, LCMG20 is tested at
+diﬀerent temperatures (1050, 1150, 1250, 1350, and 1400 °C)
+with other parameters kept unchanged. Figure 8a,b shows the
+performance of LCMG20 with the reduction temperature
+varying from 1050 to 1400 °C. As shown in Figure 8a, CO
+generation is not detected at 1050 °C. That is because metal
+oxygen bonds are hard to break at low temperatures, so that
+the sample does not even release oxygen in the ﬁrst reduction
+step. Increasing the reduction temperature is beneﬁcial to the
+thermal reduction reaction, which can enhance O2 production,
+hence the CO production also improved until 1350 °C.
+However, it can be found that the amount of O2 released
+decreases slightly from 287 to 281 μmol/g, while CO
+production decreases sharply from 515 to 358 μmol/g when
+the reduction temperature is further increased to 1400 °C, as
+can be seen clearly from Figure 8b. The reason is that too high
+temperatures will cause the sample to sinter severely and lead
+to a signiﬁcant decrease of the speciﬁc surface area of the
+samples. This will largely inhibit the direct contact of CO2 with
+the reduced oxide, in turn. Therefore, 1350 °C is a more
+favorable reduction temperature for LCMG20 because of the
+highest CO production.
+Figure 6. (a) Real-time O2 production rate; (b) total O2 production; (c) real-time CO production rate; (d) total CO production of
+La0.6Ca0.4Mn1−yGayO3 (y = 0−0.3) with reduction at 1350 °C and oxidation at 1050 °C, respectively.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.1c01274
+ACS Appl. Energy Mater. XXXX, XXX, XXX−XXX
+F
+
+
+===== Page 7 =====
+
+To investigate how the oxidation temperature aﬀects the CO
+production, the reduction process is performed at 1350 °C for
+45 min in Ar, while 950, 1050, 1150, 1250, and 1350 °C are
+adopted for the oxidation step under CO2 for 90 min. As can
+be seen in Figure 8c, the peak production rate of CO is the
+lowest at 950 °C (0.3 μmol/g/s), and it increases to 0.45
+μmol/g/s when the temperature is increased to 1050 °C. With
+a further increase of the oxidation temperature, the CO peak
+production rate decreases. For such high oxidation temper-
+ature conditions, it is noted that the CO concentration remains
+at a high level after 90 min, and O2 is detected concomitantly.
+A similar phenomenon has also been reported in other works
+and can be attributed to thermolysis catalyzed by alumina
+tubes, crucibles, or perovskite oxides themselves.24,49,53 The
+contribution of CO production from CO2 thermolysis and
+two-step CO2 splitting is described in Figure 8d. The total CO
+production continuously increases with the oxidation temper-
+ature. However, after subtracting the contributions of
+thermolysis, the optimal oxidation temperature to obtain the
+highest CO yield is determined to be 1050 °C. Besides, at an
+oxidation temperature of 1050 °C, O2 is not released in the
+oxidation step, thereby mitigating the otherwise requirement of
+gas separation.
+3.2.4. Inﬂuence of Diﬀerent Fabrication Methods. Pechini
+sol−gel and solid-state methods are applied to synthesize
+perovskite oxides, which are named LCMG20-P and
+LCMG20-S, respectively. In the solid-state method, stoichio-
+metric amounts of metal oxides are used as the precursors.
+They are mainly La2O3 (Aladdin, 99.9%), MnO2 (Aladdin,
+99%), CaCO3 (Aladdin, 99%), and Ga2O3 (Alfa, 99.999%).
+For details of preparation, readers are referred to refs 32 54,
+and 55. The precursor La2O3 is ﬁrst calcined at 950 °C for 12 h
+to decompose the impurity La(OH)3; then, a ball mill is used
+to grind for 60 min until the precursor La2O3 is evenly mixed
+with MnO2, CaCO3, and Ga2O3 in required proportions. The
+power mixture is calcined in a muﬄe furnace at 1000 °C for 2
+h, followed by regrinding to a full degree with a mortar and
+pestle. Later, in order to obtain the desired phase and
+structural stability, an additional higher calcination temper-
+ature of 1300 °C for 10 h and an air environment are required
+for the ﬁnished samples.
+LCMG20-S and LCMG20-P are both tested with four
+consecutive thermochemical cycles in the temperature range
+Figure 7. Real-time (a) O2 and (b) CO production rate proﬁles; (c) total O2 and CO productions; (d) XRD patterns of fresh
+La1−xCaxMn0.8Ga0.2O3; SEM micrographs of (e−h) as-synthesized La1−xCaxMn0.8Ga0.2O3 (x = 0, 0.2, 0.4, 0.6, and 0.8) samples and (i−l) used
+La1−xCaxMn0.8Ga0.2O3 samples (x = 0, 0.2, 0.4, and 0.6).
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.1c01274
+ACS Appl. Energy Mater. XXXX, XXX, XXX−XXX
+G
+
+
+===== Page 8 =====
+
+Figure 8. (a) Real-time CO production rate proﬁle and (b) total CO and O2 production proﬁles at diﬀerent reduction temperatures varying from
+1050 to 1400 °C; (c) real-time CO and O2 production rate proﬁles and (d) CO production proﬁle at diﬀerent oxidation temperatures varying from
+950 to 1350 °C. The blue and orange colors represent the contribution from the two-step CO2 splitting and thermolysis, respectively.
+Figure 9. Real-time (a) O2 and (b) CO production rate proﬁles; (c) total O2 and CO production for sol−gel and solid-state methods; (d) XRD
+patterns of fresh LCMG20-P and LCMG20-S; SEM micrographs of fresh (e) LCMG20-P and (f) LCMG20-S and of used (g) LCMG20-P and (h)
+LCMG20-S.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.1c01274
+ACS Appl. Energy Mater. XXXX, XXX, XXX−XXX
+H
+
+
+===== Page 9 =====
+
+1050−1350 °C. As shown in Figure 9a,b, LCMG20-S releases
+a lot of O2, and the maximum O2 production rate can reach
+0.35 μmol/g/s, much higher than that of LCMG20-P (0.17
+μmol/g/s) in the ﬁrst cycle. However, the O2 production
+decreases signiﬁcantly in the next three cycles and becomes
+lower than that of LCMG20-P. It can also be found that the
+CO production rate of LCMG20-P is higher than that of
+LCMG20-S in the whole four cycles. Figure 9c shows the total
+O2 and CO productions, which are consistent with the real-
+time production rates given in Figure 9a,b. The total O2
+production of four cycles are 731, 268, 243, and 236 μmol/g
+for LCMG20-S, respectively, and the total CO production
+reaches about 360 μmol/g in the last three cycles. Compared
+to LCMG20-S, the total O2 and CO production of LCMG20-P
+increases by about 25 and 40%, respectively, demonstrating the
+advantage of sol−gel fabrication methods.
+Figure 9d shows the XRD results for diﬀerent fresh samples,
+which are consistent with the standard card, regardless of
+which fabrication method is employed. The only diﬀerence is
+that the crystallinity of LCMG20-P is higher than that of
+LCMG20-S. As can be seen from the comparison between
+Figure 8e,f, particle sizes of fresh LCMG20-S are smaller,
+providing a larger speciﬁc surface area. That may explain its
+much higher O2 production in the ﬁrst cycle compared with
+that of LCMG20-P. After cycle tests, both samples exhibit
+sintering to some extent. However, the agglomeration of
+particles is more severe for LCMG20-S as compared to
+LCMG20-P, as shown in Figure 9g,h. That is why LCMG20-P
+exhibits higher CO production, especially for the last three
+cycles, as demonstrated in Figure 9c. Therefore, the Pechini
+sol−gel method is preferred over the solid-state approach for
+sample fabrication for achieving high-performance thermo-
+chemical CO2 splitting.
+3.2.5. Cycle Stability Test. Besides high fuel production,
+good cycle stability is also vital for high-performance solar
+thermochemical CO2 splitting. LCMG20 is tested at optimal
+redox temperatures: TTR = 1350 °C, tTR = 45 min, TCDS = 1050
+°C, and tCDS = 90 min for eight cycles. As shown in Figure
+10a,b, O2 and CO production rates ﬂuctuate slightly, but they
+remain generally stable for diﬀerent cycles. Total O2 and CO
+Figure 10. Real-time (a) O2 and (b) CO production rate proﬁles; (c) XRD patterns of LCMG20 samplesfresh, after two cycles, and eight cycles;
+(d) CO and O2 production proﬁles; and (e) SEM micrographs of LCMG20 samplesfresh, after two cycles, and eight cycles.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.1c01274
+ACS Appl. Energy Mater. XXXX, XXX, XXX−XXX
+I
+
+
+===== Page 10 =====
+
+productions for each cycle are shown in Figure 10d, and no
+obvious decay is observed, demonstrating the excellent stability
+of the fabricated samples. The average O2 and CO productions
+are about 307 and 513 μmol/g, respectively. Figure 10c,e
+shows the XRD patterns and SEM images of fresh samples and
+samples after two cycles and eight cycles. As can be seen
+clearly, after two cycles the particle size of the sample increases
+slightly. Nevertheless, when the cycle number increases to
+eight, particle sizes do not increase further. By comparing the
+diﬀraction patterns of samples after two cycles and those after
+eight cycles, no obvious diﬀerences are observed, indicating
+stable structures of the fabricated samples. These character-
+istics lead to stable CO production.
+3.3. Kinetic Analysis of CO2 Splitting. The CO2-splitting
+reaction is studied at a temperature of 1050 °C for reduced
+La0.6Ca0.4Mn0.8Ga0.2O3,
+La0.8Ca0.2Mn0.8Ga0.2O3,
+and
+La0.6Ca0.4MnO3 samples. The reaction fraction α can be
+deﬁned as56
+∫
+∫
+α =
+C
+t
+t
+C
+t
+t
+( )d
+( )d
+t
+t
+0
+CO
+0
+CO
+1
+(8)
+where t and t1 are the real time and the ﬁnal time of the
+reaction, respectively. CCO(t) represents the CO concentration
+at time t. Based on the Arrhenius approach, the reaction rate
+can be expressed by general laws as57
+α
+α
+=
+t
+kf
+d
+d
+( )
+(9)
+where k is the rate constant and f(α)is a function depending on
+the reaction mechanism. If the normalized rate data are in
+good agreement with the given dynamic model, eq 10 can be
+derived from eq 9 as58−60
+α
+α
+α
+=
+α=
+t
+t
+f
+f
+(d /d )/(d /d )
+( )/ (0.5)
+0.5
+(10)
+Various solid-state reaction mechanisms60 applied in this
+paper are summarized in Table 2. The curves (dα/dt)/(dα/
+dt)α=0.5 −α of diﬀerent samples at 1050 °C and solid-state
+reaction models for comparison are described in Figure 11a. As
+for La0.8Ca0.2Mn0.8Ga0.2O3, the normalized CO production
+data ﬁt well with the phase boundary reaction R3 when α <
+0.4, followed by the ﬁrst order reaction model F1 when α >
+0.4, indicating that the oxidation reaction is mainly controlled
+by the surface reaction. Compared with the Ca doping ratio of
+0.2, the experimental data of doped La0.6Ca0.4Mn0.8Ga0.2O3
+agree well with the second order reaction model F2 when α <
+0.3, following the two-dimensional diﬀusion model D2 when α
+> 0.3. Therefore, when the Ca ratio increases from 0.2 to 0.4,
+the reaction will transfer from a surface reaction (F1) to the
+bulk diﬀusion reaction (D2) for large α. Therefore, it can be
+inferred that the diﬀusion-controlled reaction continues when
+the surface reaction ﬁnishes, beneﬁting CO2 splitting,61,62
+leading to the high CO production of La0.6Ca0.4Mn0.8Ga0.2O3.
+By comparing La0.6Ca0.4MnO3 with La0.6Ca0.4Mn0.8Ga0.2O3, it
+can be found that the dopant Ga does not change the reaction
+mechanism. The enhanced CO production is based on the ease
+of forming oxygen vacancies and thus enhanced non-
+stoichiometry, as discussed earlier. Therefore, based on kinetic
+analyses, the high CO production of La0.6Ca0.4Mn0.8Ga0.2O3
+can be attributed to the transition of the surface reaction to
+internal bulk diﬀusion induced by Ca doping and enhanced
+non-stoichiometry enabled by Ga doping.
+3.4. CO Production Comparison with Literature. The
+fuel production has a heavy dependence on the redox
+temperature, but a large temperature swing between the
+reduction and oxidation steps will lead to severe apparent heat
+losses and thus low eﬃciencies. As a result, this work is only
+compared with the literature works with a temperature swing
+within 300 °C, as shown in Table 3 and Figure 11b. As for
+CeO2 and its dopant reported in the literature,63,64 the CO
+production is usually lower than that of perovskite oxides.65
+Y0.5Sr0.5MnO3
+37 and LaCo0.7Zr0.3O3
+66 are reported to have
+ultrahigh CO production (757 and 1066.6 μmol/g, respec-
+tively) via thermogravimetric analysis (TGA) tests, but the
+temperature swing is too large. Besides, some researchers also
+pointed out that indirect TGA detects only weight changes and
+is incapable of distinguishing between physical gas adsorption
+and CO2 splitting to CO, so that the real CO production may
+Table 2. Various Solid-State Reaction Mechanisms Applied
+in this Paper
+mechanism
+symbol
+diﬀerential
+form f(α)
+random nucleation, followed by an instantaneous
+growth of nuclei (Avrami−Erofeev eq n = 1)
+F1
+(1 −α)
+chemical reaction
+F2
+(1 −α)2
+one-dimensional diﬀusion
+D1
+1/(2α)
+two-dimensional diﬀusion
+D2
+1/[−ln(1
+−α)]
+phase-boundary-controlled reaction (contracting
+area)
+R2
+2(1 −α)1/2
+phase-boundary-controlled reaction (contracting
+volume)
+R3
+3(1 −α)2/3
+Figure 11. (a) Proﬁle of (dα/dt)/(dα/dt)α=0.5 −α for diﬀerent
+samples at 1050 °C; (b) CO production comparison with materials
+tested under multiple cycles with a temperature swing within 300 °C
+reported in the literature.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.1c01274
+ACS Appl. Energy Mater. XXXX, XXX, XXX−XXX
+J
+
+
+===== Page 11 =====
+
+be much less than what is predicted by TGA tests.67 Ferrite-
+and cobalt-based perovskites are also studied, and their
+production is usually below 200 μmol/g during CO2
+splitting.32,38 Sc-doped La0.5Sr0.5MnO3
+30 is demonstrated to
+possess 545 μmol/g CO in the 1100−1400 °C redox
+temperature range via TGA tests, but the cycle number is
+only once, which makes it hard to determine its cyclic stability.
+In this paper, the average CO yield is 513 μmol/g with a
+moderate redox temperature range of 1050−1350 °C
+measured directly via electrochemical sensors. This value sets
+a new record for the thermochemical CO production yield
+measured directly, making LCMG20 promising for high-
+performance solar-driven CO2 splitting.
+4. CONCLUSIONS
+In conclusion, Ga-doped La0.6Ca0.4MnO3 perovskite materials
+are proposed for the two-step thermochemical CO2 splitting.
+Compared with undoped La0.6Ca0.4MnO3, introducing Ga is
+beneﬁcial to reduce the oxygen release temperature and
+increase the CO production yield. The optimal Ga doping
+ratio is 0.2 with the total CO production yield increasing to
+513 μmol/g in the optimum redox temperature range of
+1050−1350 °C. Such a high value sets a new record for the
+thermochemical CO production yield measured directly. No
+obvious deterioration is observed for eight cycles, and the peak
+production rate is also enhanced by 80% compared with those
+of undoped counterparts. Diﬀerent fabrication methods are
+employed, and the sol−gel method demonstrates a higher CO
+production by 40% compared with that obtained by the solid-
+state approach. Reaction mechanisms of diﬀerent samples are
+evaluated and found that the high CO production of
+La0.6Ca0.4Mn0.8Ga0.2O3 can be attributed to the transition of
+the surface reaction to internal bulk diﬀusion induced by Ca
+doping and enhanced non-stoichiometry due to Ga doping.
+This work opens a new route for high-performance two-step
+solar thermochemical CO2 splitting at moderate operation
+temperatures based on Ga-doped La0.6Ca0.4MnO3 perovskite
+materials.
+■AUTHOR INFORMATION
+Corresponding Author
+Yimin Xuan −School of Energy and Power Engineering,
+Nanjing University of Aeronautics and Astronautics, Nanjing
+210016, China;
+orcid.org/0000-0001-8347-3855;
+Email: ymxuan@nuaa.edu.cn
+Authors
+Xianglei Liu −School of Energy and Power Engineering,
+Nanjing University of Aeronautics and Astronautics, Nanjing
+210016, China
+Tong Wang −School of Energy and Power Engineering,
+Nanjing University of Aeronautics and Astronautics, Nanjing
+210016, China
+Ke Gao −School of Energy and Power Engineering, Nanjing
+University of Aeronautics and Astronautics, Nanjing 210016,
+China
+Xianguang Meng −Hebei Provincial Key Laboratory
+Nonmetallic Materials, College of Materials Science and
+Engineering, North China University of Science and
+Technology, Tangshan 063210, China
+Qiao Xu −School of Energy and Power Engineering, Nanjing
+University of Aeronautics and Astronautics, Nanjing 210016,
+China
+Chao Song −School of Energy and Power Engineering,
+Nanjing University of Aeronautics and Astronautics, Nanjing
+210016, China
+Zhonghui Zhu −School of Energy and Power Engineering,
+Nanjing University of Aeronautics and Astronautics, Nanjing
+210016, China
+Hangbin Zheng −School of Energy and Power Engineering,
+Nanjing University of Aeronautics and Astronautics, Nanjing
+210016, China
+Yong Hao −Institute of Engineering Thermophysics, Chinese
+Academy of Sciences, Beijing 100190, China
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acsaem.1c01274
+Table 3. Detailed Performance Comparison Including CO Production, O2 Production, Measurement Methods, Reduction and
+Oxidation Temperatures, and Cycle Numbers with Literature Reports
+production (μmol/g)
+materials
+measurement method
+Tred (°C)
+Tox (°C)
+O2
+CO
+cycle number
+ref
+La0.6Ca0.4Mn0.8Ga0.2O3
+direct
+1350
+1050
+307
+513
+8
+this work
+La0.5Sr0.5Mn0.15Cr0.85O3
+direct
+1400
+1400
+175
+312
+15
+49
+LaFe0.7Co0.3O3−SiO2
+direct
+1300
+1100
+179
+339
+10
+58
+LaMnO3
+indirect TGA
+1000
+700
+242
+329
+4
+13
+LaMnO3
+indirect TGA
+1000
+1000
+149
+224
+3
+13
+Ba0.5Sr0.5FeO3
+indirect TGA
+1000
+1000
+582
+31
+2
+32
+SrFeO3
+indirect TGA
+1100
+1000
+782
+52
+2
+32
+La0.6Sr0.4FeO3
+indirect TGA
+1200
+1050
+337
+53
+2
+32
+La0.6Ca0.4MnO3
+indirect TGA
+1240
+1050
+85
+160
+10
+36
+La0.6Ca0.4Mn0.6Al0.4O3
+indirect TGA
+1240
+1050
+165
+260
+10
+36
+La0.6Sr0.4Mn0.6Al0.4O3
+indirect TGA
+1240
+1050
+190
+250
+10
+36
+CeO2
+indirect TGA
+1240
+1050
+15
+25
+4
+36
+SrMnO3
+indirect TGA
+1250
+1000
+301
+511
+5
+13
+La0.25Sr0.75MnO3
+indirect TGA
+1250
+1000
+188
+300
+5
+13
+LaFe0.75Co0.25O3
+indirect TGA
+1300
+1000
+59
+117
+2
+32
+La0.5Sr0.5Mn0.5Co0.5O3
+indirect TGA
+1300
+1050
+538
+152
+2
+32
+La0.5Sr0.5MnO3
+indirect TGA
+1400
+1200
+243
+245
+2
+54
+La0.5Sr0.5MnO3−MgO
+indirect TGA
+1400
+1050
+446
+362
+2
+55
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.1c01274
+ACS Appl. Energy Mater. XXXX, XXX, XXX−XXX
+K
+
+
+===== Page 12 =====
+
+Notes
+The authors declare no competing ﬁnancial interest.
+■ACKNOWLEDGMENTS
+This work was supported by the Basic Science Center Program
+for Ordered Energy Conversion of the National Natural
+Science Foundation of China (nos. 51888103 and 52076106)
+and Natural Science Foundation of Jiangsu Province
+(BK20202008).
+■REFERENCES
+(1) Conti, J.; Holtberg, P.; Doman, L.; Smith, K.; Sullivan, J.;
+Vincent, K.; Barden, J.; Martin, P.; Mellish, C.; Kearney, D.
+International Energy Outlook 2011; US Energy Information Admin-
+istration, Technical Report No. DOE/EIA-0484. 2011 Sep, 2011.
+(2) Lewis, N. S. Research opportunities to advance solar energy
+utilization. Sci 2016, 351, aad1920.
+(3) Tuller, H. L. Solar to fuels conversion technologies: a
+perspective. Mater. Renew. Sustain. Energy 2017, 6, 3.
+(4) Marxer, D.; Furler, P.; Scheffe, J.; Geerlings, H.; Falter, C.;
+Batteiger, V.; Sizmann, A.; Steinfeld, A. Demonstration of the entire
+production chain to renewable kerosene via solar thermochemical
+splitting of H2O and CO2. Energy Fuels 2015, 29, 3241−3250.
+(5) Marxer, D.; Furler, P.; Takacs, M.; Steinfeld, A. Solar
+thermochemical splitting of CO2 into separate streams of CO and
+O2 with high selectivity, stability, conversion, and efficiency. Energy
+Environ. Sci. 2017, 10, 1142−1149.
+(6) Carrillo, A. J.; Kim, K. J.; Hood, Z. D.; Bork, A. H.; Rupp, J. L.
+M. La0.6Sr0.4Cr0.8Co0.2O3 perovskite decorated with exsolved Co
+nanoparticles for stable CO2 splitting and syngas production. ACS
+Appl. Energy Mater. 2020, 3, 4569−4579.
+(7) Kumar, S.; Regue, M.; Isaacs, M. A.; Freeman, E.; Eslava, S. All-
+inorganic CsPbBr3 nanocrystals: gram-scale mechanochemical syn-
+thesis and selective photocatalytic CO2 reduction to methane. ACS
+Appl. Energy Mater. 2020, 3, 4509−4522.
+(8) Wang, J.; Saccoccio, M.; Chen, D.; Gao, Y.; Chen, C.; Ciucci, F.
+The effect of A-site and B-site substitution on BaFeO3−δ: an
+investigation as a cathode material for intermediate-temperature
+solid oxide fuel cells. J. Power Sources 2015, 297, 511−518.
+(9) Wang, J.; Lam, K. Y.; Saccoccio, M.; Gao, Y.; Chen, D.; Ciucci,
+F. Ca and In co-doped BaFeO3−δ as a cobalt-free cathode material for
+intermediate-temperature solid oxide fuel cells. J. Power Sources 2016,
+324, 224−232.
+(10) Stamatiou, A.; Loutzenhiser, P. G.; Steinfeld, A. Solar syngas
+production via H2O/CO2-splitting thermochemical cycles with Zn/
+ZnO and FeO/Fe3O4 redox reactions. Chem. Mater. 2010, 22, 851−
+859.
+(11) Abanades, S.; Chambon, M. CO2 dissociation and upgrading
+from two-step solar thermochemical processes based on ZnO/Zn and
+SnO2/SnO redox pairs. Energy Fuels 2010, 24, 6667−6674.
+(12) Dey, S.; Naidu, B. S.; Govindaraj, A.; Rao, C. N. R. Noteworthy
+performance of La1−xCaxMnO3 perovskites in generating H2 and CO
+by the thermochemical splitting of H2O and CO2. Phys. Chem. Chem.
+Phys. 2015, 17, 122−125.
+(13) Riaz, A.; Kreider, P.; Kremer, F.; Tabassum, H.; Yeoh, J. S.;
+Lipiński, W.; Lowe, A. Electrospun manganese-based perovskites as
+efficient oxygen exchange redox materials for improved solar
+thermochemical CO2 splitting. ACS Appl. Energy Mater. 2019, 2,
+2494−2505.
+(14) Vieten, J.; Bulfin, B.; Huck, P.; Horton, M.; Guban, D.; Zhu, L.;
+Lu, Y.; Persson, K. A.; Roeb, M.; Sattler, C. Materials design of
+perovskite solid solutions for thermochemical applications. Energy
+Environ. Sci. 2019, 12, 1369−1384.
+(15) Arifin, D.; Weimer, A. W. Kinetics and mechanism of solar-
+thermochemical H2 and CO production by oxidation of reduced
+CeO2. Sol. Energy 2018, 160, 178−185.
+(16) Le Gal, A.; Abanades, S.; Flamant, G. CO2 and H2O splitting
+for thermochemical production of solar fuels using nonstoichiometric
+ceria and ceria/zirconia solid solutions. Energy Fuels 2011, 25, 4836−
+4845.
+(17) Chueh, W. C.; Falter, C.; Abbott, M.; Scipio, D.; Furler, P.;
+Haile, S. M.; Steinfeld, A. High-Flux Solar-Driven Thermochemical
+Dissociation of CO2 and H2O Using Nonstoichiometric Ceria. Science
+2010, 330, 1797−1801.
+(18) Zhu, L.; Lu, Y. Reactivity and efficiency of ceria-based oxides
+for solar CO2 splitting via isothermal and near-isothermal cycles.
+Energy Fuels 2018, 32, 736−746.
+(19) Huang, J.; Fu, Y.; Li, S.; Kong, W.; Zhang, J.; Sun, Y. Cobalt-
+based ferrites as efficient redox materials for thermochemical two-step
+CO2-splitting: enhanced performance due to cation diffusion.
+Sustainable Energy Fuels 2019, 3, 975−984.
+(20) Abanades, S.; Legal, A.; Cordier, A.; Peraudeau, G.; Flamant,
+G.; Julbe, A. Investigation of reactive cerium-based oxides for H2
+production by thermochemical two-step water-splitting. J. Mater. Sci.
+2010, 45, 4163−4173.
+(21) Call, F.; Roeb, M.; Schmücker, M.; Sattler, C.; Pitz-Paal, R.
+Ceria doped with zirconium and lanthanide oxides to enhance solar
+thermochemical production of fuels. J. Phys. Chem. C 2015, 119,
+6929−6938.
+(22) Chueh, W. C.; Haile, S. M. A thermochemical study of ceria:
+exploiting an old material for new modes of energy conversion and
+CO2 mitigation. Philos. Trans. R. Soc., A 2010, 368, 3269−3294.
+(23) Muhich, C.; Hoes, M.; Steinfeld, A. Mimicking tetravalent
+dopant behavior using paired charge compensating dopants to
+improve the redox performance of ceria for thermochemically
+splitting H2O and CO2. Acta Mater. 2018, 144, 728−737.
+(24) Tou, M.; Michalsky, R.; Steinfeld, A. Solar-driven thermo-
+chemical splitting of CO2 and in situ separation of CO and O2 across
+a ceria redox membrane reactor. Joule 2017, 1, 146−154.
+(25) Kong, H.; Kong, X.; Wang, H.; Wang, J. A strategy for
+optimizing efficiencies of solar thermochemical fuel production based
+on nonstoichiometric oxides. Int. J. Hydrogen Energy 2019, 44,
+19585−19594.
+(26) Bader, R.; Venstrom, L. J.; Davidson, J. H.; Lipiński, W.
+Thermodynamic analysis of isothermal redox cycling of ceria for solar
+fuel production. Energy Fuels 2013, 27, 5533−5544.
+(27) Bhosale, R. R.; Takalkar, G.; Sutar, P.; Kumar, A.; AlMomani,
+F.; Khraisheh, M. A decade of ceria based solar thermochemical H2O/
+CO2 splitting cycle. Int. J. Hydrogen Energy 2019, 44, 34−60.
+(28) Scheffe, J. R.; Jacot, R.; Patzke, G. R.; Steinfeld, A. Synthesis,
+characterization, and thermochemical redox performance of Hf4+,
+Zr4+, and Sc3+ doped ceria for splitting CO2. J. Phys. Chem. C 2013,
+117, 24104−24114.
+(29) Chen, Z.; Jiang, Q.; Cheng, F.; Tong, J.; Yang, M.; Jiang, Z.; Li,
+C. Sr-and Co-doped LaGaO3−δ with high O2 and H2 yields in solar
+thermochemical water splitting. J. Mater. Chem. A 2019, 7, 6099−
+6112.
+(30) Dey, S.; Naidu, B. S.; Rao, C. N. R. Beneficial effects of
+substituting trivalent ions in the B-site of La0.5Sr0.5Mn1−xAxO3(A= Al,
+Ga, Sc) on the thermochemical generation of CO and H2 from CO2
+and H2O. Dalton Trans. 2016, 45, 2430−2435.
+(31) Ezbiri, M.; Takacs, M.; Stolz, B.; Lungthok, J.; Steinfeld, A.;
+Michalsky, R. Design principles of perovskites for solar-driven
+thermochemical splitting of CO2. J. Mater. Chem. A 2017, 5,
+15105−15115.
+(32) Nair, M. M.; Abanades, S. Experimental screening of perovskite
+oxides as efficient redox materials for solar thermochemical CO2
+conversion. Sustainable Energy Fuels 2018, 2, 843−854.
+(33) Scheffe, J. R.; Weibel, D.; Steinfeld, A. Lanthanum−strontium−
+manganese perovskites as redox materials for solar thermochemical
+splitting of H2O and CO2. Energy Fuels 2013, 27, 4250−4257.
+(34) Shen, Q.; Zheng, Y.; Luo, C.; Ding, N.; Zheng, C.-G.; Thern,
+M. Effect of A/B-site substitution on oxygen production performance
+of strontium cobalt based perovskites for CO2 capture application.
+RSC Adv. 2015, 5, 39785−39790.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.1c01274
+ACS Appl. Energy Mater. XXXX, XXX, XXX−XXX
+L
+
+
+===== Page 13 =====
+
+(35) Demont, A.; Abanades, S. Solar thermochemical conversion of
+CO2 into fuel via two-step redox cycling of non-stoichiometric Mn-
+containing perovskite oxides. J. Mater. Chem. A 2015, 3, 3536−3546.
+(36) Cooper, T.; Scheffe, J. R.; Galvez, M. E.; Jacot, R.; Patzke, G.;
+Steinfeld, A. Lanthanum manganite perovskites with Ca/Sr A-site and
+Al B-site doping as effective oxygen exchange materials for solar
+thermochemical fuel production. Energy Technol. 2015, 3, 1130−
+1142.
+(37) Dey, S.; Naidu, B. S.; Rao, C. N. R. Ln0.5A0.5MnO3(Ln=
+Lanthanide, A= Ca, Sr) perovskites exhibiting remarkable perform-
+ance in the thermochemical generation of CO and H2 from CO2 and
+H2O. Chem.Eur. J. 2015, 21, 7077−7081.
+(38) Bork, A. H.; Kubicek, M.; Struzik, M.; Rupp, J. L. M. Perovskite
+La0.6Sr0.4Cr1−xCoxO3−δ solid solutions for solar-thermochemical fuel
+production: strategies to lower the operation temperature. J. Mater.
+Chem. A 2015, 3, 15546−15557.
+(39) Gokon, N.; Hara, K.; Sugiyama, Y.; Bellan, S.; Kodama, T.;
+Hyun-seok, C. Thermochemical two-step water splitting cycle using
+perovskite oxides based on LaSrMnO3 redox system for solar H2
+production. Thermochim. Acta 2019, 680, 178374.
+(40) Luciani, G.; Landi, G.; Aronne, A.; Di Benedetto, A. Partial
+substitution of B cation in La0.6Sr0.4MnO3 perovskites: A promising
+strategy to improve the redox properties useful for solar
+thermochemical water and carbon dioxide splitting. Sol. Energy
+2018, 171, 1−7.
+(41) Ezbiri, M.; Becattini, V.; Hoes, M.; Michalsky, R.; Steinfeld, A.
+High Redox Capacity of Al-Doped La1−xSrxMnO3−δ Perovskites for
+Splitting CO2 and H2O at Mn-Enriched Surfaces. ChemSusChem
+2017, 10, 1517−1525.
+(42) Dey, S.; Rao, C. N. R. Splitting of CO2 by manganite
+perovskites to generate CO by solar isothermal redox cycling. ACS
+Energy Lett. 2016, 1, 237−243.
+(43) Yang, C.-K.; Yamazaki, Y.; Aydin, A.; Haile, S. M.
+Thermodynamic and kinetic assessments of strontium-doped
+lanthanum manganite perovskites for two-step thermochemical
+water splitting. J. Mater. Chem. A 2014, 2, 13612−13623.
+(44) Demont, A.; Abanades, S.; Beche, E. Investigation of perovskite
+structures as oxygen-exchange redox materials for hydrogen
+production from thermochemical two-step water-splitting cycles. J.
+Phys. Chem. C 2014, 118, 12682−12692.
+(45) Naumovich, E. N.; Patrakeev, M.; Kharton, V.; Islam, M.;
+Yaremchenko, A.; Frade, J.; Marques, F. Defect interactions in
+La0.3Sr0.7Fe(M′)O3−δ (M′= Al, Ga) perovskites: Atomistic simulations
+and analysis of p(O2)-T-δ diagrams. Solid State Ionics 2006, 177,
+457−470.
+(46) McDaniel, A. H.; Miller, E. C.; Arifin, D.; Ambrosini, A.; Coker,
+E. N.; O’Hayre, R.; Chueh, W. C.; Tong, J. Sr-and Mn-doped
+LaAlO3−δ for solar thermochemical H2 and CO production. Energy
+Environ. Sci. 2013, 6, 2424−2428.
+(47) Wang, L.; Al-Mamun, M.; Liu, P.; Wang, Y.; Gui Yang, H.;
+Zhao, H. La1‑xCaxMn1‑yAlyO3 perovskites as efficient catalysts for two-
+step thermochemical water splitting in conjunction with exceptional
+hydrogen yields. Chin. J. Catal. 2017, 38, 1079−1086.
+(48) Wang, L.; Al-Mamun, M.; Liu, P.; Wang, Y.; Yang, H. G.; Zhao,
+H. Notable hydrogen production on LaxCa1‑xCoO3 perovskites via
+two-step thermochemical water splitting. J. Mater. Sci. 2018, 53,
+6796−6806.
+(49) Carrillo, A. J.; Bork, A. H.; Moser, T.; Sediva, E.; Hood, Z. D.;
+Rupp, J. L. M. Modifying La0.6Sr0.4MnO3 Perovskites with Cr
+Incorporation for Fast Isothermal CO2-Splitting Kinetics in Solar-
+Driven Thermochemical Cycles. Adv. Energy Mater. 2019, 9, 1803886.
+(50) Wu, Q.-H.; Liu, M.; Jaegermann, W. X-ray photoelectron
+spectroscopy of La0.5Sr0.5MnO3. Mater. Lett. 2005, 59, 1980−1983.
+(51) Priyantha, W.; Radhakrishnan, G.; Droopad, R.; Passlack, M.
+In-situ XPS and RHEED study of gallium oxide on GaAs deposition
+by molecular beam epitaxy. J. Cryst. Growth 2011, 323, 103−106.
+(52) Zheng, H.; Song, C.; Bao, C.; Liu, X.; Xuan, Y.; Li, Y.; Ding, Y.
+Dark calcium carbonate particles for simultaneous full-spectrum solar
+thermal conversion and large-capacity thermochemical energy storage.
+Sol. Energy Mater. Sol. Cells 2020, 207, 110364.
+(53) Muhich, C. L.; Weston, K. C.; Arifin, D.; McDaniel, A. H.;
+Musgrave, C. B.; Weimer, A. W. Extracting kinetic information from
+complex gas−solid reaction data. Ind. Eng. Chem. Res. 2015, 54,
+4113−4122.
+(54) Demont, A.; Abanades, S. High redox activity of Sr-substituted
+lanthanum manganite perovskites for two-step thermochemical
+dissociation of CO2. RSC Adv. 2014, 4, 54885−54891.
+(55) Nair, M. M.; Abanades, S. Insights into the redox performance
+of non−stoichiometric lanthanum manganite perovskites for solar
+thermochemical CO2 splitting. ChemistrySelect 2016, 1, 4449−4457.
+(56) Ishida, T.; Gokon, N.; Hatamachi, T.; Kodama, T. Kinetics of
+thermal reduction step of thermochemical two-step water splitting
+using CeO2 particles: Master-plot method for analyzing non-
+isothermal experiments. Energy Procedia 2014, 49, 1970−1979.
+(57) Levêque, G.; Abanades, S. Thermodynamic and kinetic study of
+the carbothermal reduction of SnO2 for solar thermochemical fuel
+generation. Energy Fuels 2014, 28, 1396−1405.
+(58) Jiang, Q.; Tong, J.; Zhou, G.; Jiang, Z.; Li, Z.; Li, C.
+Thermochemical
+CO2
+splitting
+reaction
+with
+supported
+LaxA1−xFeyB1−yO3 (A= Sr, Ce, B= Co, Mn; 0⩽x, y⩽1) perovskite
+oxides. Sol. Energy 2014, 103, 425−437.
+(59) Yang, H. C.; Eun, H.; Cho, Y.; Lee, H.; Kim, I. Kinetic analysis
+of dechlorination and oxidation of PrOCl by using a non-isothermal
+TG method. Thermochim. Acta 2009, 484, 77−81.
+(60) Pérez-Maqueda, L. A.; Criado, J. M.; Gotor, F. J.; Málek, J.
+Advantages of combined kinetic analysis of experimental data
+obtained under any heating profile. J. Phys. Chem. A 2002, 106,
+2862−2868.
+(61) Huang, J.; Fu, Y.; Zhao, Y.; Zhang, J.; Li, S.; Li, S.; Li, G.; Chen,
+Z.; Sun, Y. Anti-sintering non-stoichiometric nickel ferrite for highly
+efficient and thermal-stable thermochemical CO2 splitting. Chem. Eng.
+J. 2021, 404, 127067.
+(62) Huang, J.; Fu, Y.; Li, S.; Kong, W.; Zhang, J.; Sun, Y. Enhanced
+activity of Mg-Fe-O ferrites for two-step thermochemical CO2
+splitting. J. CO2 Util. 2018, 27, 450−458.
+(63) Alifanti, M.; Baps, B.; Blangenois, N.; Naud, J.; Grange, P.;
+Delmon, B. Characterization of CeO2−ZrO2 mixed oxides. Compar-
+ison of the citrate and sol−gel preparation methods. Chem. Mater.
+2003, 15, 395−403.
+(64) Zhu, L.; Lu, Y.; Li, F. Reactivity of Ni, Cr and Zr doped ceria in
+CO2 splitting for CO production via two-step thermochemical cycle.
+Int. J. Hydrogen Energy 2018, 43, 13754−13763.
+(65) Haeussler, A.; Abanades, S.; Jouannaux, J.; Julbe, A. Non-
+stoichiometric redox active perovskite materials for solar thermo-
+chemical fuel production: a review. Catalysts 2018, 8, 611.
+(66) Wang, L.; Ma, T.; Dai, S.; Ren, T.; Chang, Z.; Dou, L.; Fu, M.;
+Li, X. Experimental study on the high performance of Zr doped
+LaCoO3 for solar thermochemical CO production. Chem. Eng. J.
+2020, 389, 124426.
+(67) Rodenbough, P. P.; Chan, S.-W. Thermal oxygen exchange
+cycles in mixed manganese perovskites. Ceram. Int. 2018, 44, 1343−
+1347.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.1c01274
+ACS Appl. Energy Mater. XXXX, XXX, XXX−XXX
+M

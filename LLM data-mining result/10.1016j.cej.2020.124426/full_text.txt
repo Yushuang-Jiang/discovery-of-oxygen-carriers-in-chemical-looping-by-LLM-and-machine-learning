@@ -1,0 +1,1197 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Chemical Engineering Journal
+journal homepage: www.elsevier.com/locate/cej
+Experimental study on the high performance of Zr doped LaCoO3 for solar
+thermochemical CO production
+Lei Wanga,b, Tianzeng Maa,b, Shaomeng Daia,b, Ting Rena, Zheshao Changa, Liguang Doua,
+Mingkai Fua,⁎, Xin Lia,b,⁎
+a Institute of Electrical Engineering, Chinese Academy of Sciences, Beijing 100190, China
+b University of Chinese Academy of Sciences, Beijing 100190, China
+H I G H L I G H T S
+• Zr doped LaCoO3 perovskite was ﬁrstly used for solar thermochemical fuel production.
+• An excellent perovskite LaCo0.7Zr0.3O3 was obtained and produced exceptional high CO.
+• Eﬀects of heating rate and redox temperatures on the thermochemical redox properties were studied.
+• Kinetics of the isothermal reduction process was studied.
+A R T I C L E I N F O
+Keywords:
+Perovskites
+Two-step thermochemical cycle
+Solar fuel
+Carbon dioxide splitting
+Carbon monoxide production
+Kinetics
+A B S T R A C T
+Solar thermochemical CO production via CO2 splitting is an eﬀective route to achieve carbon cycle and reduce
+carbon emissions. One of the most important issues for thermochemical fuel production technology is to ﬁnd a
+material with high oxygen release capacity and fuel production as well as excellent thermal stability. Due to the
+excellent oxygen releasing capacity and limited fuel production and durability of LaCoO3, the feasibility of
+elemental doping for enhancing the redox capacity were studied in detail. Novel and high eﬃcient redox ma-
+terials, Zr doped LaCoO3 perovskites obtained were ﬁrstly used for solar thermochemical CO production. Zr
+doping is beneﬁcial to improve CO yield and thermochemical redox stability. LaCo0.7Zr0.3O3, an optimum in
+doping for CO production, produced an average of 1066.6 μmol/g CO, which was an inspiring performance in
+the current perovskite based thermochemical ﬁeld. The degree of reduction of LaCo0.7Zr0.3O3 was positively
+correlated with temperature and heating rate. Kinetics study shows that the activation energy of reduction
+reaction is 107.1 kJ/mol, which is much lower than that of CeO2, and the reduction process is a ﬁrst order
+reaction. This material has better performances by comparison with CeO2 and other similar materials reported in
+literatures. The excellent CO production performance, pretty redox stability and kinetics manifested by
+LaCo0.7Zr0.3O3 provided a new approach for exploiting higher performing materials for solar thermochemical
+CO2 splitting.
+1. Introduction
+In the face of the current world energy situation, in order to solve
+the current dilemma, renewable energy research and development has
+brought dawn and hope to the world [1,2]. The solar energy-based
+renewable energy development route has attracted the attention of
+researchers all over the world because of the huge resource advantages
+[2–5]. Solar fuel production via a two-step solar thermochemical redox
+cycle is a promising alternative to the current solar-based photoelec-
+trolysis and photocatalysis due to its potentially high eﬃciency and low
+pollution characteristics [6–10]. This fascinating route, which directly
+converts solar energy into gaseous fuels and can be further processed
+into liquid fuel through existing technologies, has received the atten-
+tion of laboratories worldwide [3,11–13]. A schematic diagram of a
+typical two-step solar thermochemical fuel production redox cycle is
+illustrated in Fig. 1(a) [14–16]. In this process, a metal oxide is em-
+ployed as the reaction medium and suﬀering thermal reduction (TR) at
+a high temperature in the ﬁrst step. In the following step, the reduced
+metal oxide is reoxidized to its initial oxidation state by performing CO2
+splitting (CDS), yielding CO [14,17–23]. In the ﬁeld of two-step
+https://doi.org/10.1016/j.cej.2020.124426
+Received 29 August 2019; Received in revised form 8 February 2020; Accepted 10 February 2020
+⁎ Corresponding authors at: Institute of Electrical Engineering, Chinese Academy of Sciences, Beijing 100190, China.
+E-mail addresses: fumingkai@mail.iee.ac.cn (M. Fu), drlixin@mail.iee.ac.cn (X. Li).
+Chemical Engineering Journal 389 (2020) 124426
+Available online 11 February 2020
+1385-8947/ © 2020 Elsevier B.V. All rights reserved.
+T
+
+
+===== Page 2 =====
+
+thermochemical fuel production, CeO2 is used as the benchmark for
+rapid kinetics and excellent long term cycle stability [8,23–25]. How-
+ever, the high operation temperature [11,24–26] and limited fuel
+production [12] have impeded the practical application [26–29].
+Due to the moderate operation temperature and higher fuel pro-
+duction potential, perovskite has received extensive attention very re-
+cently [29–39]. Perovskite with ideal cubic structure and the general
+formula ABO3 was shown in Fig. 1(b). Since there are diﬀerent metal
+elements in the A and B sites, the perovskite material has a wider
+regulatory space than some simple metal oxides. We can perform ele-
+ments doping on both A and B sites to manipulate the operation tem-
+perature and thermodynamic properties [37,40,41]. Ramos, A. E. et al
+investigated the application of Co doped LaBO3, and found that Co-
+doping is favorable for the formation of oxygen vacancies [42]. Also,
+Demont A. found that Co doped La1-xSrxFeO3 was more favorable for
+the reduction than the undoped one and larger O2 produced during the
+reduction of LSC [43]. Despite the great enhancement of CO production
+induced by Co-doping, the current CO production performance is still
+insuﬃcient to meet the requirements of practical applications. More-
+over, Co-containing perovskites are easily decomposed into cobalt
+oxides [42,43], which would greatly aﬀect the cyclic stability.
+As for the improvement of material stability, element doping has
+been shown an eﬀective approach. In recent works, Zr doping favors the
+cyclic stability of CeO2 [44–50]. To our knowledge, the eﬀects of Zr
+doping on perovskite-based thermochemical cycle durability as well as
+CO production performance have not been studied.
+In this work, the solar thermochemical redox properties and kinetics
+of Zr doped LaCoO3 perovskits were detailed studied. The studied
+materials were synthesized via citrate sol–gel method. The crystal
+structure was characterized by X-ray diﬀraction, and the thermo-
+chemical cycle performances were veriﬁed by thermogravimetric ex-
+periments. The eﬀects of single doping of Sr and Zr and double doping
+of both elements in A and B sites in LaCoO3 on thermochemical cycle
+performances were studied. In order to obtain the optimal strategy for
+doped LaCoO3 series, the doping concentration was optimized to obtain
+the optimal thermochemical cycle performances of this system and the
+kinetics of optimized material was studied to provide some theoretical
+guidance and experimental reference for the application of the per-
+ovskite system in solar thermochemical fuel production.
+2. Experimental section
+2.1. Preparation of the materials
+The sol–gel method with citric acid as a complexing agent was
+employed to prepare perovskite powders based on LaCoO3. Four
+diﬀerent perovskite samples of LaCoO3, La0.9Sr0.1CoO3, LaCo0.9Zr0.1O3
+and La0.9Sr0.1Co0.9Zr0.1O3 were obtained. All the chemical reagents
+used were of analytical grade and were not subject to any processing.
+Firstly, selecting the corresponding precursors according to the desired
+synthesized products, the calculated amounts of La(NO3)3·6H2O, Zr
+(NO3)4·5H2O, Co(NO3)2·6H2O and Sr(NO3)2 were weighed according to
+the stoichiometry of the chemical formula. 50 ml of deionized water
+was added to a clean beaker. Then these materials were dissolved in the
+beaker, citric acid (C6H8O7·H2O) was added to the mixture with a
+1:1.5 mol ratio of total metal to citric acid. The mixed solution was
+allowed to evaporate the excess water at 70 °C with continuous stirring,
+about ten minutes later, ethylene glycol was added to the mixed solu-
+tion at a molar ratio of ethylene glycol (C2H6O2): citric acid = 1:1 and
+stirring was continued until a fuchsia gel was formed. After that, the
+formed gel was dried at 120 °C for 24 h and a red xerogel was obtained.
+Then, the produced xerogel was ground into powder and calcined in air
+atmosphere in a muﬄe furnace at 1300 °C for 10 h, the sample was then
+cooled to room temperature in the furnace. Finally the sample was
+pulverized ﬁnely in an agate mortar for characterization and sub-
+sequent thermochemical cycles.
+2.2. Characterizations of perovskites
+X-ray diﬀraction (XRD) patterns were recorded via the Bruker D8
+ADVANCE
+X-ray
+powder
+diﬀractometer
+with
+Cu
+Kα
+radiation
+(λ = 0.15418 nm). The operating voltage and current were 40 kV and
+40 mA, respectively. Additionally, the diﬀraction angle (2θ) from 20° to
+80° was set with a step size of 0.02° and a scan time of 0.2 s per step.
+The phase structures, chemical compositions and lattice parameters of
+these powders were obtained using Jade 6.0 software. Identiﬁcation of
+diﬀerent crystalline phases was conducted by comparing experimental
+data with the joint committee on powder diﬀraction standards (JCPDS)
+database. Moreover, the crystallographic data were obtained through
+the inorganic crystal structure database (ICSD). The surface morphol-
+ogies of the perovskites were obtained by ﬁeld emission scanning
+electron microscopy (SEM, JEOL, JSM-7001F) and the elemental com-
+positions and contents were determined by using the energy dispersive
+X-ray spectroscopy (EDS, Oxford Instruments, INCA X-Max) attached to
+SEM.
+2.3. Thermochemical conversion of CO2 to prepare CO
+After characterizing the structures and chemical compositions of the
+perovskites, the thermochemical reaction activity of the samples was
+tested via a thermogravimetric analyzer (TGA, LINSEIS STA PT 1600).
+The device was presented in Fig. 2. About the thermogravimetric
+Fig. 1. (a) Schematic diagram of a typical two-step thermochemical CDS cycle with the metal oxide redox pair as the oxygen carriers and (b) ABO3 perovskite model
+with ideal cubic structure.
+L. Wang, et al.
+Chemical Engineering Journal 389 (2020) 124426
+2
+
+
+===== Page 3 =====
+
+analyzer, the furnace was heated by silicon carbide heating element. A
+protective inert gas Ar was always used to protect the balance room.
+The weighing balance was placed at the bottom of the TGA and a
+measuring stent was attached above the balance. During the experi-
+ment, the whole stent was covered by a corundum casing in the furnace,
+and the corundum casing was wrapped by the silicon carbide heating
+element, so that the corundum pipe was evenly heated and the sample
+was further heated. The whole furnace body could be lifted and lowered
+by the lifting device. Through this function, the test samples were
+placed before the experiment and the furnace could be lowered and
+closed after that. Two platinum crucibles were placed on the stent, one
+for sample testing and the other for blank control. A thin corundum
+tube beside the stent was used to feed the reactive gas near the sample
+and ﬂowing from the top to the outlet. Mass ﬂow controllers (MFC)
+were employed to measure the ﬂow rates of the carrier and reactive
+gases. A Pt-Rh thermocouple (Type S) was placed near to the crucible to
+measure and control the temperature of the reaction. Before performing
+the thermal reduction reaction, the furnace cavity was ﬁrst evacuated
+via a vacuum pump and then purged with inert gas Ar to provide an
+inert atmosphere with low oxygen concentration. And the inert atmo-
+sphere was always maintained throughout the reduction process and
+during the process of reducing from reduction temperature to the oxi-
+dation temperature to blow the released oxygen out of the furnace in
+time. And the purged Ar was also used even during the oxidation pro-
+cess, the trace oxygen was blown out and diluted to further reduce the
+impact on CO2 splitting. The connection between the furnace and the
+balance room was cooled by circulating cooling water to prevent high-
+temperature gases from entering the balance room and aﬀecting the
+test. Power supply system and circulating cooling water system were
+shown in Fig. 2(b).
+All perovskites were tested under the same experimental conditions.
+About 100 mg sample powder was placed in the sample crucible and the
+entire upper part of the stent was placed inside the furnace chamber.
+The air in the TGA chamber was eliminated by a vacuum pump and
+then purged with high purity Ar (99.999%) for one hour to provide an
+inert environment and further reduce the oxygen partial pressure. Wait
+until the balance reached stability and start the temperature ramping
+procedure. The sample was heated in the high purity stream of Ar and
+Fig. 2. The experimental facility (a) ﬂow chart and (b) photograph used for the investigation of thermochemical CO2 splitting of the sol–gel synthesized perovskite
+materials.
+L. Wang, et al.
+Chemical Engineering Journal 389 (2020) 124426
+3
+
+
+===== Page 4 =====
+
+the weight change was continuously recorded. The weight change can
+be directly related to the oxygen release during the reduction step or
+the reoxidation of the material during the CO2 splitting step [44,51,52].
+In a typical experiment, three successive redox cycles were performed.
+The sample was heated to 1300 °C at a heating rate of 10 °C/min and
+kept at this temperature for 20 min with continuous and constant Ar
+ﬂow (PO2 ∼10−5 atm, the total Ar ﬂow rate was 80 sccm), then the
+temperature dropped to 800 °C at the same rate for oxidation reaction
+(PCO2 = 0.5 atm, the total ﬂow rate was 80 sccm). This reduction tem-
+perature was chosen in consideration of the performance degradation of
+materials that may be caused by high temperature sintering and at the
+same time this temperature was usually also a suitable choice and high
+enough
+for
+some
+perovskites
+thermochemical
+fuel
+production
+[37,53,54]. In the reoxidation step, the ﬂow rate of the purge gas Ar
+was regulated to 40 sccm and the high purity CO2 (99.999%, 40 sccm)
+was introduced into the furnace chamber to react with the oxygen-de-
+ﬁcient perovskite and produce CO. The oxidation temperature of 800 °C
+was maintained for 60 min.
+A typical thermochemical redox cycle based on perovskite can be
+exempliﬁed in the following two-step reactions:
+⎯
+→
+⎯⎯⎯⎯⎯⎯⎯⎯⎯
++
++
+−
+δ
+ABO
+ABO
+2O
+H
+δ
+3
+Δ
+,T
+3
+2
+red
+(1)
++
+⎯
+→
+⎯⎯⎯⎯⎯⎯⎯⎯⎯
++
+−
+−
+δ
+δ
+ABO
+CO
+ABO
+CO
+δ
+H
+3
+2
+Δ
+,T
+3
+oxi
+(2)
+where ABO3 represents the perovskite oxide and the non-stoichiometry
+is given by δ. In the ﬁrst step, the perovskite oxide is partly reduced at a
+higher temperature, Tred, and releasing lattice oxygen and generating
+oxygen vacancies, Eq. (1). In the second step, the reduced perovskite is
+oxidized by carbon dioxide at a lower temperature, Toxi, Eq. (2), while
+CO2 is reduced to CO.
+The weight loss of perovskite during the high temperature reduction
+step is the mass of oxygen released, so the amount of oxygen produced
+in the reduction step can be calculated according to the following
+equations [51,52,55,56].
+=
+n
+m
+M
+m
+Δ
+(
+·
+)
+O
+loss
+O
+perovskite
+2
+2
+(3)
+where Δmloss is the weight loss during the reduction step measured by
+TGA, MO2 is the molecular weight of O2 and mperovskite is the mass of
+perovskite used during the experiment.
+Similarly, the amount of CO produced in the oxidation step is cal-
+culated with:
+=
+n
+m
+m
+Δ
+(M ·
+)
+CO
+gain
+O
+perovskite
+(4)
+where Δmgain is the weight gain during the reoxidation step and MO is
+the molecular weight of oxygen atom.
+3. Results and discussion
+3.1. Inﬂuence of diﬀerent doping elements
+3.1.1. Material characterization
+Fig. 3 shows the powder X-ray diﬀractograms of fresh powders and
+after three consecutive redox cycles for the temperature range of
+800–1300 °C. The phase compositions of the samples were identiﬁed by
+comparison with standard patterns of the powder diﬀraction. As shown
+here for these four fresh samples, the pure LaCoO3 (LC), Sr doped
+La0.9Sr0.1CoO3 (LSC-91), Zr doped LaCo0.9Zr0.1O3 (LCZ-91) and Sr and
+Zr doped La0.9Sr0.1Co0.9Zr0.1O3 (LSCZ-9191). For the fresh LC and LSC-
+91, the high purity phase compositions were obtained and by com-
+paring with the standard cards (PDF #48–0123 and PDF #36–1392), it
+was found that the two samples were in good agreement with the card
+database and no other phases were observed. LC with the rhombohedral
+symmetry and the R-3c space group, a = b = 5.444 Å, c = 13.094 Å,
+V = 336.1 Å3. And LSC-91 with the hexagonal symmetry and the R-3 m
+space group, a = b = 5.444 Å, c = 13.107 Å, V = 336.4 Å3. The sec-
+ondary phase La2Zr2O7 was identiﬁed in the fresh LCZ-91 diﬀraction
+pattern, which was also detected in another study [57]. For LSCZ-9191,
+the main phase was the LaCoO3 phase, some minor peaks were also
+observed but the content was almost negligible, the phase La2CoO4 was
+conﬁrmed after identiﬁcation. After three consecutive thermochemical
+cycles, some impurity phases were observed in the four perovskite
+samples, but the perovskite phase structure was retained in all samples.
+For LSC-91, some other peaks were clearly visible in the X-ray dif-
+fraction pattern after the cycle. By comparing with the database, the
+secondary phase La2CoO4 was identiﬁed, indicating that the sample
+was partially decomposed during the experiment. This discovery was
+consistent with the literature [50]. For LCZ-91 after test, only a trace of
+La2Zr2O7 was found, but ZrO2 and La4Co3O10 phases were observed. As
+for LSCZ-9191 after the experiment, the secondary phase La2CoO4 was
+increased, similar to LSC-91, the following reaction mechanism can be
+used as an explanation:
+→
++
++
+2(La, Sr)CoO
+(La, Sr) CoO
+CoO
+1 2O
+3
+2
+4
+2
+Table 1 presents the EDS characterization results of the elemental
+compositions and contents for the freshly prepared doped LaCoO3
+powders. The results show that the compositions and proportion of the
+elements are in accordance with the expectation. And the SEM dia-
+grams of the freshly prepared doped LaCoO3 perovskite powders are
+shown in Fig. 4. As can be seen from the ﬁgure, these samples show
+irregular shapes and the dimensions were in the micron scale. The
+sample surfaces are not smooth and particles with uneven morpholo-
+gies.
+Fig. 3. (a) X-ray powder diﬀraction patterns of doped LaCoO3 before (fresh)
+and (b) after (cycled) three consecutive thermochemical cycles within the
+temperature range of 1300–800 °C.
+L. Wang, et al.
+Chemical Engineering Journal 389 (2020) 124426
+4
+
+
+===== Page 5 =====
+
+3.1.2. Thermochemical application for CO production
+The CDS thermochemical cycle reactivity of the above samples was
+investigated by TGA. Fig. 5 represents the temporal evolution of TG
+curves during three consecutive thermochemical CDS cycles performed
+between 1300 and 800 °C. The commercial CeO2 (99.9%) was used as
+the benchmark and was tested under the same conditions. It can be
+noted that a fast weight loss for all the samples is observed due to the
+thermal reduction during each cycle and since the reduction time is
+only 20 min, the reduction reaction does not reach equilibrium. The fast
+weight loss may be attributed to the fast surface reaction [44]. Com-
+pared with CeO2, much more O2 released for all perovskites, which
+conﬁrmed that the Co-containing perovskites are more favorable for
+reduction. As CO2 was injected, the weight of the reduced samples in-
+creased rapidly and then it proceeded slowly until the reaction reached
+equilibrium [52]. Similarly, the weight gain of perovskite samples was
+more pronounced than CeO2, which meant more CO was produced, this
+was also conﬁrmed in Table 2. Meanwhile, we also found that Sr doped
+in A site had the worst thermochemical redox performance among all
+tested perovskites, but still outperformed CeO2 in terms of redox ca-
+pacity.
+Table 2 shows the O2 released in the reduction step and CO pro-
+duced in the CDS step with respect to each cycle, which were calculated
+based on the weight change of the samples during three successive
+thermochemical cycles. It can be found that the O2 evolution in the
+reduction step was much higher for all perovskites during the three
+cycles than that of CeO2, the same was true for the subsequent CDS to
+produce CO. The undoped LaCoO3 released the most O2, Sr doped in A
+site and/or Zr doped in B site separately and/or simultaneously de-
+creased the oxygen release capacity more or less. Comparing Sr doped
+LC with the undoped one, the oxygen evolution was slightly decreased.
+After three successive thermochemical CDS processes, the yields of CO
+for LC and LSC-91 decreased from 205.0 to 76.9 μmol/g and 108.8 to
+74.8 μmol/g, respectively, which indicated poor fuel production and
+thermochemical cycle potential of the above two samples. For LCZ-91
+and LSCZ-9191, the O2 evolution was gradually decreased but still
+higher than CeO2 during the cycles, the amounts of CO were 210.3,
+140.2 and 142.4 μmol/g for the former during three CDS processes and
+178.9, 111.1 and 116.4 μmol/g for the latter, respectively. The amounts
+of CO for the second and third cycles remained stable, showing the
+Table 1
+The EDS results of the elemental compositions and contents for the freshly prepared doped LaCoO3 powders via sol–gel method.
+Target materials
+Metal ion ratio (as prepared)
+Metal ion ratio (from EDS)
+Composition
+LaCoO3
+La:Co = 1:1
+La:Co = 1.14: 1
+La1.14Co1.0O3-δ
+La0.9Sr0.1CoO3
+La:Sr:Co = 0.9:0.1:1
+La:Sr:Co = 0.93:0.1:0.99
+La0.93Sr0.1Co0.99O3-δ
+LaCo0.9Zr0.1O3
+La:Co:Zr = 1:0.9:0.1
+La:Co:Zr = 1.05:0.82:0.1
+La1.05Co0.82Zr0.1O3-δ
+La0.9Sr0.1Co0.9Zr0.1O3
+La:Sr:Co:Zr=0.9:0.1:0.9:0.1
+La:Sr:Co:Zr=1.1:0.1:1:0.1
+La1.1Sr0.1Co1.0Zr0.1O3-δ
+Fig. 4. The SEM images of the freshly prepared doped LaCoO3 perovskite powders.
+Fig. 5. TGA proﬁles during three CDS cycles performed using LC, LSC-91, LCZ-
+91 and LSCZ-9191 (the commercial CeO2 is used for comparison).
+L. Wang, et al.
+Chemical Engineering Journal 389 (2020) 124426
+5
+
+
+===== Page 6 =====
+
+potential for thermochemical CDS applications. Compared with LCZ-91,
+LSCZ-9191 released more oxygen during the reduction process, but the
+amounts of CO during the reoxidation process were just the opposite.
+Considering all the perovskites synthesized, Zr doping released fewer
+oxygen and but more CO compared with pure LaCoO3. And the stability
+was also improved if the amounts of CO produced were used as a
+measure. The corresponding ratio of CO/O2 for each cycle was also
+listed in Table 2, among these, LCZ-91 showed a larger CO/O2 of 1.14
+as the cycle proceeded, which indicated that the sample had better
+reoxidation capacity after being reduced in TR process.
+3.2. Potential for further optimization
+3.2.1. Preparation and characterization of LaCo1-xZrxO3-δ perovskites
+Based on the above analysis, further optimizations of LaCo1-xZrxO3-δ
+(x = 0.3, 0.5 and 0.7) perovskites were conducted. Synthesis and
+characterization of diﬀerent concentrations of Zr doped LaCoO3 per-
+ovskites were performed according to the synthesis and characteriza-
+tion methods as previously mentioned. XRD patterns of these newly
+prepared samples were illustrated in Fig. 6. The comparison of the
+diﬀractograms with the database of powder crystal diﬀraction indicated
+that the perovskite structure was obtained in all the samples. As the Zr
+content increases, the perovskite structure transforms into a La2Zr2O7
+phase with a cubic structure and this phase becomes the main phase of
+the sample with high Zr [58]. The characterization results of the LaCo1-
+xZrxO3-δ from EDS are presented in Table 3, the molar ratios of metal
+ions as prepared and from EDS are almost identical, which shows that
+the materials we get are in conformity with the expected requirements.
+3.2.2. Inﬂuence of the zirconium content
+The inﬂuences of Zr content on the thermochemical CDS cycle were
+investigated.
+Samples
+with
+compositions
+of
+LaCo0.9Zr0.1O3,
+LaCo0.7Zr0.3O3, LaCo0.5Zr0.5O3 and LaCo0.3Zr0.7O3 were abbreviated as
+LCZ-91, LCZ-73, LCZ-55 and LCZ-37, respectively. Three successive
+CDS cycles were performed to investigate the inﬂuence of Zr content on
+the thermochemical reactivity and the results were presented in Fig. 7.
+For the purpose of comparison, the tests were performed under the
+same conditions as mentioned before. Fast weight losses were observed
+for all samples followed by a slower reduction as the temperature rises
+to 1300 °C. With the introduction of CO2, the samples underwent a fast
+weight gain followed by a slow weight gain process until equilibrium
+was reached and most of the weight recovery was completed in a few
+minutes. Comparing the three cycles, it was found that the rates of CO2
+oxidation in the last two cycles were lower than that in the ﬁrst oxi-
+dation process. The reason may be principally due to that the sample in
+the crucible was compacted under the action of high temperature and
+became densiﬁcation after the ﬁrst thermochemical CDS process, re-
+sulting in a decrease in the contact area between CO2 and particles and
+an increase in CO2 diﬀusion resistance [40]. For larger doses of Zr
+doped samples (LCZ-55 and LCZ-37), the CDS process quickly stabilized
+after a rapid weight gain process, but the weight gain was signiﬁcantly
+lower than that with small doses Zr doped samples. Similarly, the LCZ
+series perovskites thermochemical CDS process also consists of two
+phases, a steep increase reaction upon CO2 injection followed by a slow
+gain process.
+The amounts of O2 and CO produced in the TGA experiments with
+respect to each cycle were estimated from the loss and weight gain of
+the samples during the redox reactions were presented in Fig. 8. As seen
+in Fig. 8(a), the undoped LC has the largest oxygen evolution capacity
+during the cycles, which indicates the highest reduction extent, but the
+amounts of O2 decreased after the ﬁrst cycle. The corresponding values
+were 581.5, 266.7 and 270.0 μmol/g, respectively. Similarly, the same
+trend in the amount of O2 released during the reduction process was
+also observed for Zr doped LC samples. The reason was the same as the
+previous analysis, it was also due to the thermal eﬀect of the ﬁrst cycle,
+which led to denser powder accumulation and reduced the eﬀective
+contact area between CO2 and solid particles. Among these Zr doped LC
+series materials, LCZ-73 exhibited the higher reduction extent although
+the amount of O2 released in the ﬁrst cycle is not the highest. Com-
+paring with undoped LC, the presence of Zr in B site lowered the
+amount of evolved O2, however, the appropriate dose of Zr doping can
+signiﬁcantly improve CO yield as well as the thermochemical cycle
+stability of LC. In Fig. 8(b), it can be seen that LCZ-91 and LCZ-73
+produced much higher CO productivity than the undoped LC, which
+shows low CO yield and poor stability (reduced from 205.0 μmol/g in
+Table 2
+TGA results of O2 and CO yields during three successive CDS cycles using LC, LSC-91, LCZ-91 and LSCZ-9191.
+O2 released (μmol/g)
+CO produced (μmol/g)
+CO/O2 ratio
+1st
+2nd
+3rd
+1st
+2nd
+3rd
+1st
+2nd
+3rd
+cycle
+cycle
+cycle
+cycle
+cycle
+cycle
+cycle
+cycle
+cycle
+LC
+581.5
+266.7
+270.0
+205.0
+86.8
+76.9
+0.35
+0.33
+0.28
+LSC-91
+571.1
+241.2
+211.7
+108.8
+88.1
+74.8
+0.19
+0.37
+0.35
+LCZ-91
+476.3
+178.4
+124.7
+210.3
+140.2
+142.4
+0.44
+0.79
+1.14
+LSCZ-9191
+487.6
+230.9
+180.5
+178.9
+111.1
+116.4
+0.37
+0.48
+0.64
+CeO2
+233.3
+134.1
+122.9
+51.5
+50.4
+65.7
+0.22
+0.38
+0.53
+Fig. 6. XRD patterns of Zr doped LaCoO3 fresh samples.
+Table 3
+Characterization results of LaCo1-xZrxO3-δ (x = 0.1, 0.3, 0.5, 0.7).
+Target materials
+La:Co:Zr ratio (as
+prepared)
+La:Co:Zr ratio
+(from EDS)
+Composition
+LaCo0.9Zr0.1O3
+1:0.9:0.1
+1.05:0.82:0.1
+La1.05Co0.82Zr0.1O3-δ
+LaCo0.7Zr0.3O3
+1:0.7:0.3
+0.99:0.61:0.3
+La0.99Co0.61Zr0.3O3-δ
+LaCo0.5Zr0.5O3
+1:0.5:0.5
+1.05:0.53:0.5
+La1.05Co0.53Zr0.5O3-δ
+LaCo0.3Zr0.7O3
+1:0.3:0.7
+1.07:0.3:0.69
+La1.07Co0.3Zr0.69O3-δ
+L. Wang, et al.
+Chemical Engineering Journal 389 (2020) 124426
+6
+
+
+===== Page 7 =====
+
+the ﬁrst cycle to 76.9 μmol/g in the third). Both samples have good
+stability in terms of CO yield in the second and third cycles and LCZ-73
+shows a higher CO yield, indicating that it has better reoxidation
+ability. Similarly, the ratios of CO/O2 in each cycle of LCZ series are
+given in Fig. 8(c), and the results also indicate that LCZ-73 has better
+reoxidation capacity and thermochemical stability. When further in-
+creasing the content of Zr in LC (LCZ-55 and LCZ-37), both the O2 re-
+leased in reduction step and CO produced in the CDS process decreased
+when compared with LCZ-73, also the same is true for redox stability.
+Therefore, through the analysis of the impact of Zr content on ther-
+mochemical properties, the following conclusions can be obtained:
+partial substitution of Co by Zr in B site lowers the reducing ability of
+LaCoO3 to some extent, but signiﬁcantly improves the reoxidation
+ability with reasonable doping (LCZ-73) and achieves better cycling
+stability.
+3.3. The thermochemical cycle performance for LCZ-73
+3.3.1. Inﬂuence of oxidation temperature
+Based on the analysis of diﬀerent content of Zr on the thermo-
+chemical cycle performance of LCZ, LCZ-73 was screened and identiﬁed
+as the optimal dopant among the studied materials with diﬀerent
+contents of Zr. For the sake of further discussion, the appropriate oxi-
+dation temperature will be discussed and selected here. The reduction
+temperature maintained at 1300 °C for 60 min, and the oxidation tem-
+perature varied from 800 to 1300 ℃and retained for 60 min. The
+heating rate of 10℃/min was adopted here. In order to avoid the in-
+ﬂuence between experiments, a new crucible and the same amount of
+powder samples (∼10 mg) were weighed for each experiment. The
+evolution of O2 and CO produced as functions of oxidation temperature
+varying from 800 to 1300 °C with the screened material LCZ-73 was
+given in Fig. 9, after a 1300 °C reduction process for 60 min. As shown
+in the ﬁgure, in the ﬁrst thermochemical redox process, the amount of
+O2 changes relatively stable with the increase of oxidation temperature,
+and the order of magnitude ﬂuctuates around 2500 μmol/g. However,
+in the second thermochemical process, with the increase of oxidation
+temperature, the amount of O2 produced in the reduction step decreases
+gradually, and the order of magnitude decreases from 1680 μmol/g at
+800 °C to 150 μmol/g at 1300 °C. Meanwhile, the CO production of the
+two thermochemical cycles decreases with the increase of oxidation
+temperature, which is lower than 1000 μmol/g, but the diﬀerence be-
+tween the two oxidation processes is not very signiﬁcant. And the CO
+production of both oxidation processes reaches the highest when the
+oxidation temperature is 800 °C. Further observation shows that the CO
+production of the second oxidation reaction is slightly higher than that
+of the ﬁrst one in the oxidation temperature range of 800–1100 °C. At
+1200 °C, the diﬀerence of CO production between the two cycles is
+further narrowed, but the second cycle is still slightly higher than the
+ﬁrst cycle. At 1300 °C, the CO production of the second cycle is sig-
+niﬁcantly lower than that of the ﬁrst one, which might be due to the
+error in the detection process, but this would not aﬀect the overall
+conclusion. Therefore, it is more favorable for CO2 oxidation when the
+oxidation temperature is 800 °C for LCZ-73 during the oxidation which
+is carried out at 800–1300 °C.
+3.3.2. Inﬂuence of heating rate
+In order to ﬁnd out whether the heating rate will aﬀect the ther-
+mochemical cycle, two successive tests were conducted at 1300 °C for a
+60-minute reduction process and 800 °C for oxidation with the heating
+rates of 10, 20 and 30 °C/min. Approximately 20 mg of powder sample
+was used for the experiment. Fig. 10 shows the TG curves of LCZ-73
+over time at the above three diﬀerent heating rates. As can be seen in
+Fig. 10(a)–(c), higher reduction extent is achieved as the heating rate
+rises, which is beneﬁcial to the oxidation step to produce more CO. To
+Fig. 7. TG curves during three CDS cycles performed using LCZ series materials.
+L. Wang, et al.
+Chemical Engineering Journal 389 (2020) 124426
+7
+
+
+===== Page 8 =====
+
+note, weight change during heating and cooling process is not taken
+into account. Only the weight changes during isothermal reduction and
+isothermal oxidation processes are considered in this paper.
+Fig.
+10(d)
+shows
+the
+temporal
+curves
+of
+perovskite
+non-
+stoichiometry 3-δ during the CDS runs. Two consecutive cycles are
+averaged in the following analysis. The nonstoichiometry has been
+calculated based on the weight change of the samples according to the
+following formula:
+=
+−
+δ
+m
+m
+M
+M
+m
+·
+oxi
+red
+O
+Perovskite
+oxi
+(5)
+The similar conclusion can be got as obtained in Fig. 10(a)-(c).
+Moreover, a higher heating rate can achieve the same degree of re-
+duction in a shorter period of time, which indicates a faster rate of
+reduction kinetics at high heating rates. Similarly, for the oxidation
+process, the high heating rate can reach a larger weight gain in the CDS
+process, which means more CO is produced.
+The evolved O2 and produced CO during two successive thermo-
+chemical reduction were calculated from the weight change of ther-
+mogravimetric data at diﬀerent heating rates at 1300 °C for 60 min
+under Ar and followed by a CO2 splitting step performed at 800 °C for
+60 min are depicted in Fig. 11. As seen in Fig. 11(a), the heating rates
+shows a positive eﬀect on the production of gaseous products. The in-
+crease in heating rate leads to a substantial enhancement in the degree
+of reduction and oxygen releasing and thus results in a signiﬁcant en-
+hancement of CO production. In the ﬁrst cycle, the escaping O2 at
+heating rates of 20 and 30 °C/min are approximately twice of that at
+10 °C/min. Similarly, the amount of CO produced at 30 °C/min is more
+than twice of that at 20 °C/min and much higher than that at 10 °C/min.
+In the second cycle, the amounts of O2 and CO at each heating rate are
+signiﬁcantly lower than that in the ﬁrst, the diﬀerence in the amount of
+O2 and CO produced at diﬀerent heating rates is signiﬁcantly narrowed.
+1066.6 μmol/g CO is produced in average, which is an encouraging
+performance in the ﬁeld of thermochemical fuel production. And at
+Fig. 8. Evolved O2 and CO yields during three successive CDS cycles using LCZ series materials reduced at 1300 °C for 20 min and oxidized at 800 °C for 60 min.
+Fig. 9. Evolution of O2 and CO yield as functions of the oxidation temperature
+with LCZ-73 materials oxidized at 800–1300 °C after a 60-min reduction at
+1300 °C.
+L. Wang, et al.
+Chemical Engineering Journal 389 (2020) 124426
+8
+
+
+===== Page 9 =====
+
+higher heating rates, the mole ratio of CO/O2 is closer to the theoretical
+value of 2, which represents the degree of recovery of non-stoichio-
+metric oxygen during oxidation. Fig. 11(b) shows the reoxidation yields
+of two thermochemical cycles with three heating rates. It is obvious that
+as the heating rate increases, the reoxidation yield increases progres-
+sively. It can be seen that at 30 °C/min, the reoxidation yield in the
+second cycle reaches 97%, almost completely returns to the oxidation
+state. Moreover, the reoxidation yield in the second cycle is sig-
+niﬁcantly higher than the ﬁrst one. We attributed this to the much
+higher O2 released during the ﬁrst reduction process, which results in a
+lower reoxidation yield in the ﬁrst cycle. This may be due to the weight
+loss caused by the desorption of the adsorbed gas on the surface of the
+material, which is also considered to be the oxygen extraction during
+reduction.
+3.3.3. Inﬂuence of reduction temperature
+To ﬁnd out the impact of reduction temperature on the redox ca-
+pacity, the sample of LCZ-73 was continuously reduced in Ar and
+Fig. 10. (a)–(c) TG curves of LCZ-73 during two consecutive cycles for 60-minute TR at 1300 °C and 60-minute CDS at 800 °C with three diﬀerent heating rates and
+(d) evolution of non-stoichiometric oxygen over time during isothermal reduction and oxidation at diﬀerent heating rates.
+Fig. 11. (a) Oxygen evolution and carbon monoxide production during two successive cycles and (b) reoxidation yields under the CO2 atmosphere with diﬀerent
+heating rates at 1300 °C reduction and 800 °C reoxidation with LCZ-73 as the redox material.
+L. Wang, et al.
+Chemical Engineering Journal 389 (2020) 124426
+9
+
+
+===== Page 10 =====
+
+reoxidized under CO2. 1000, 1100, 1200, 1300 and 1400 °C were
+adopted to conduct the reduction processes for 60 min followed by the
+CO2 reoxidation process at 800 °C for 60 min with the heating rate of
+30 °C/min. The reduction capacities at diﬀerent reduction temperatures
+are shown in Fig. 12. It can be found that the reduction temperature
+shows considerable eﬀect on the reduction capacity of LCZ-73, an in-
+crease in reduction temperature signiﬁcantly enhances the amount of
+evolved O2 and hence improves CO yield. It should be noted that, al-
+though the best reduction ability is obtained at 1400 °C, the CO pro-
+duction in oxidation step decreases because of severe sintering, the
+reduced sample hardened and is diﬃcult to remove from the crucible.
+Therefore, 1300 °C is a suitable reduction temperature for LCZ-73.
+3.3.4. Kinetics analysis of isothermal reduction reaction
+The reaction fraction α during the thermal reduction step can be
+deﬁned as follow [59,60]:
+=
+−
+−
+α
+w
+w
+w
+w
+i
+i
+f
+(6)
+where wi, wf and w are the initial weight, ﬁnal weight and the actual
+weight of the sample at time t, respectively. The reaction fraction α was
+calculated by the measured weight change of the sample.
+For an isothermal thermochemical reduction, the reduction rate was
+ﬁtted to obtain the kinetic parameters. Arrhenius expression was
+chosen as the kinetic rate model [44,61].
+=
+⎛
+⎝
+−
+⎞
+⎠
+α
+f α
+d
+dt
+A·exp
+E
+RT
+( )
+a
+(7)
+=
+−
+f α
+α
+( )
+(1
+)n
+(8)
+where T is the reduction temperature, R is the gas constant, A is the pre-
+exponential factor, Ea represents the apparent activation energy, f(α) is
+a function of α, n is the reaction order and n = 1, 2 and 3 are assumed
+for calculating the kinetic parameters for the experimental data. The
+parameters of A and Ea can be obtained by ﬁtting the experimental
+data.
+Take the natural logarithm on both sides of Eq. (7):
+⎡
+⎣⎢
+⎤
+⎦⎥=
+−
+α
+t
+f α
+ln d
+d ·
+1
+( )
+lnA
+E
+RT
+a
+(9)
+The left side is a linear function of 1/T, lnA is the intercept, and Ea
+can be calculated based on the slope of the curve.
+As depicted above and plots of the linear ﬁtting of the experimental
+data during the isothermal reduction process are shown in Fig. 13. The
+experiments of kinetic rate of reduction reaction were conducted at
+constant temperatures 1000, 1100, 1200, 1300 and 1400 °C. As seen in
+Fig. 13, the R2 value for the reaction order n = 1 is the highest and thus
+the kinetic parameters of the reduction reaction of LCZ-73 sample are
+obtained based on n = 1. The activation energy and pre-exponential
+factor for the LCZ-73 perovskite powder reduction are 107.1 kJ/mol
+and 268.89 s−1, respectively, which are lower than that for CeO2 at the
+same heating rate [59] and hence a higher degree of reduction than
+CeO2.
+3.4. Comparing with similar materials in literatures
+Comparison of the CO yield and the activation energy Ea with that
+reported in literatures using the similar materials is performed in
+Fig. 14. As seen in Fig. 14(a), a lot of studies on two-step thermo-
+chemical CDS for CO production based on CeO2 [37,52,62], CeO2-based
+dopants [52,62] and perovskites [37,39,40,63–66] have been searched
+and compared. CO production reported in most literatures based on
+CeO2 and its dopants [37,52,62] is less than 200 μmol/g. The same
+value reported with Mn-based perovskites [63–66] is signiﬁcantly
+higher than that of CeO2 and its dopants. The highest CO yield reached
+757 μmol/g [64]. Studies on Co-based perovskites [37,40] have lower
+CO yield, and the reported values are all below 200 μmol/g. However,
+the average yield of CO for the optimized LCZ-73 perovskite in this
+paper reached 1066.6 μmol/g, which is the highest value reported so
+far.
+Although there are many studies reported on thermochemical fuel
+preparation, few studies have been done on kinetics. This can also be
+clearly seen from the number of documents we obtained in Fig. 14(b).
+The kinetic data of thermochemical CDS based on CeO2 [59] and per-
+ovskite LFC-73 [67] reported in literatures are given. Obviously, CeO2
+has the highest activation energy, which is consistent with the need for
+reduction at higher temperatures. It should be noted that the activation
+energy Ea corresponding to the ﬁrst-order and the second-order reaction
+models for LFC-73 are given in Fig. 14(b). Correspondingly, the cor-
+responding values for LCZ-73 studied in this paper are also given. By
+comparison, it is found that the results in this paper are lower than
+those reported in literatures. Overall, therefore, the LCZ-73 perovskite
+obtained in this paper can be used as another good choice for solar
+thermochemical fuel production.
+4. Conclusions
+In the present research, several doped LaCoO3 perovskites were
+prepared via citric acid sol–gel method and tested through thermo-
+chemical CDS experiments to explore an eﬀective elemental doping
+strategy to obtain a practically applicable thermochemical material. As
+an excellent candidate, Zr doped LaCoO3 was found and further opti-
+mized to obtain the best performing material for thermochemical ap-
+plications. The eﬀects of heating rate and redox temperatures on ther-
+mochemical CDS process were analyzed for the best performance
+perovskite obtained. Finally, kinetic parameters during isothermal re-
+duction process were also studied. Crystal structure, lattice parameters,
+surface morphology and chemical composition were characterized and
+identiﬁed by XRD, SEM and EDS. The results indicated that Zr doped
+LaCoO3 lowered the oxygen releasing capacity compared with the un-
+doped one, but greatly improved CO production performance and
+thermochemical CDS durability. An optimum of doping for CO pro-
+duction, LaCo0.7Zr0.3O3, produced an average of 1066.6 μmol/g CO,
+which was an encouraging performance in the ﬁeld of thermochemical
+fuel production. The degree of reduction of LaCo0.7Zr0.3O3 was posi-
+tively correlated with temperature and heating rate. 1.4 times O2 and
+more than twice as much CO were produced, as the heating rate
+changed from 10 °C/min to 30 °C/min, meanwhile, the degree of re-
+oxidation was close to 100%. The activation energy of LaCo0.7Zr0.3O3
+thermochemical reduction is 107.1 kJ/mol, which is much less than
+Fig. 12. Reduction capacities during reduction in Ar at 1000, 1100, 1200, 1300
+and 1400 °C for 60 min, the reoxidation under CO2 is ﬁxed at 800 °C for 60 min
+(with the heating rate of 30℃/min).
+L. Wang, et al.
+Chemical Engineering Journal 389 (2020) 124426
+10
+
+
+===== Page 11 =====
+
+that of CeO2 and the reduction process is a ﬁrst order reaction. And
+LaCo0.7Zr0.3O3 has better performances by comparison with CeO2 and
+other similar materials reported in literatures. The excellent thermo-
+chemical performance of LaCo0.7Zr0.3O3 provided a new approach for
+exploiting higher performing materials for solar thermochemical CO2
+splitting.
+Fig. 13. Arrhenius plots for the isothermal reduction of LCZ-73 powder for the reaction order of (a) n = 1, (b) n = 2 and (c) n = 3.
+Fig. 14. Comparing data of (a) CO yield [37,39,40,52,62–66] and (b) the activation energy Ea [59,67] with similar materials reported in literatures with the
+corresponding values in this work. (The quadrate corresponds to the ﬁrst-order reaction model and the ball corresponds to the second-order reaction model).
+L. Wang, et al.
+Chemical Engineering Journal 389 (2020) 124426
+11
+
+
+===== Page 12 =====
+
+Declaration of Competing Interest
+The authors declare that they have no known competing ﬁnancial
+interests or personal relationships that could have appeared to inﬂu-
+ence the work reported in this paper.
+Acknowledgements
+This work was ﬁnancially supported by the National Key Research
+and Development Program of China (Grant No. 2018YFB1502005),
+National Natural Science Foundation of China (Grant Nos. 51806209
+and 21908219), Institute of Electrical Engineering, Chinese Academy of
+Sciences (Grant No. Y770111CSC).
+References
+[1] C. Ruan, Z.-Q. Huang, J. Lin, L. Li, X. Liu, M. Tian, C. Huang, C.-R. Chang, J. Li,
+X. Wang, Synergy of the catalytic activation on Ni and the CeO2–TiO2/Ce2Ti2O7
+stoichiometric redox cycle for dramatically enhanced solar fuel production, Energy
+Environ. Sci. 12 (2019) 767–779.
+[2] S. Chu, A. Majumdar, Opportunities and challenges for a sustainable energy future,
+Nature 488 (2012) 294–303.
+[3] N.S. Lewis, Researchopportunities to advance solar energy utilization, Science 351
+(2016) aad1920.
+[4] N.S. Lewis, Toward cost-eﬀective solar energy use, Science 315 (2007) 798–801.
+[5] Y. Hao, J. Jin, H. Jin, Thermodynamic analysis of isothermal CO2 splitting and CO2-
+H2O Co-splitting for solar fuel production, Appl. Therm. Eng. (2019).
+[6] D.S. Mallapragada, N.R. Singh, V. Curteanu, R. Agrawal, Sun-to-fuel assessment of
+routes for ﬁxing CO2 as liquid fuel, Ind. Eng. Chem. Res. 52 (2013) 5136–5144.
+[7] J.A. Herron, J. Kim, A.A. Upadhye, G.W. Huber, C.T. Maravelias, A general fra-
+mework for the assessment of solar fuel technologies, Energy Environ. Sci. 8 (2015)
+126–157.
+[8] A.M.A. Hussein, K.G. Burra, G. Bassioni, R.M. Hammouda, A.K. Gupta, Production
+of CO from CO2 over mixed-metal oxides derived from layered-double-hydroxides,
+Appl. Energy 235 (2019) 1183–1191.
+[9] J. Jin, X. Wei, M. Liu, Y. Yu, W. Li, H. Kong, Y. Hao, A solar methane reforming
+reactor design with enhanced eﬃciency, Appl. Energy 226 (2018) 797–807.
+[10] L.Y. Zhu, Y.J. Lu, S.H. Shen, Solar fuel production at high temperatures using ceria
+as a dense membrane, Energy 104 (2016) 53–63.
+[11] W.C. Chueh, C. Falter, M. Abbott, D. Scipio, P. Furler, S.M. Haile, A. Steinfeld, High-
+Flux solar-driven thermochemical dissociation of CO2 and H2O using nonstoichio-
+metric ceria, Science 330 (2010) 1787–1797.
+[12] C.L. Muhich, B.W. Evanko, K.C. Weston, P. Lichty, X. Liang, J. Martinek,
+C.B. Musgrave, A.W. Weimer, Eﬃcient generation of H2 by splitting water with an
+isothermal redox cycle, Science 341 (2013) 540–542.
+[13] A.L. Hoskins, S.L. Millican, C.E. Czernik, I. Alshankiti, J.C. Netter, T.J. Wendelin,
+C.B. Musgrave, A.W. Weimer, Continuous on-sun solar thermochemical hydrogen
+production via an isothermal redox cycle, Appl. Energy 249 (2019) 368–376.
+[14] L. Wang, T. Ma, Z. Chang, H. Li, M. Fu, X. Li, Solar fuels production via two-step
+thermochemical cycle based on Fe3O4/Fe with methane reduction, Sol. Energy 177
+(2019) 772–781.
+[15] E. Koepf, I. Alxneit, C. Wieckert, A. Meier, A review of high temperature solar
+driven reactor technology: 25 years of experience in research and development at
+the Paul Scherrer Institute, Appl. Energy 188 (2017) 620–651.
+[16] H. Kong, Y. Hao, H. Jin, Isothermal versus two-temperature solar thermochemical
+fuel synthesis: A comparative study, Appl. Energy 228 (2018) 301–308.
+[17] J.R. Scheﬀe, A. Steinfeld, Oxygen exchange materials for solar thermochemical
+splitting of H2O and CO2: a review, Mater. Today 17 (2014) 341–348.
+[18] R.R. Bhosale, A. Kumar, F. AlMomani, U. Ghosh, M. Khraisheh, A comparative
+thermodynamic analysis of samarium and erbium oxide based solar thermo-
+chemical water splitting cycles, Int. J. Hydrogen Energy 42 (2017) 23416–23426.
+[19] T.C. Davenport, C.K. Yang, C.J. Kucharczyk, M.J. Ignatowich, S.M. Haile,
+Maximizing fuel production rates in isothermal solar thermochemical fuel pro-
+duction, Appl. Energy 183 (2016) 1098–1111.
+[20] Muhich C., Hoes M., Steinfeld A., Advanced redox materials for the solar-driven
+thermochemical splitting of H2O and CO2, 5th International Conference 2017,
+Tailor-Made Fuels From Production to Propulsion, Aachen, Germany, June 20-22,
+2017 (2017) 66-68.
+[21] D. Marxer, P. Furler, M. Takacs, A. Steinfeld, Solar thermochemical splitting of CO2
+into separate streams of CO and O2 with high selectivity, stability, conversion, and
+eﬃciency, Energy Environ. Sci. 10 (2017) 1142–1149.
+[22] R.R. Bhosale, A. Kumar, P. Sutar, Thermodynamic analysis of solar driven SnO2/
+SnO based thermochemical water splitting cycle, Energy Convers. Manage. 135
+(2017) 226–235.
+[23] G. Takalkar, R.R. Bhosale, F. AlMomani, Sol-gel synthesized NixFe3−xO4 for ther-
+mochemical conversion of CO2, Appl. Surf. Sci. 489 (2019) 693–700.
+[24] M. Tou, R. Michalsky, A. Steinfeld, Solar-driven thermochemical splitting of CO2
+and in situ separation of CO and O2 across a ceria redox membrane reactor, Joule 1
+(2017) 146–154.
+[25] B. Bulﬁn, F. Call, M. Lange, O. Lübben, C. Sattler, R. Pitz-Paal, I.V. Shvets,
+Thermodynamics of CeO2 thermochemical fuel production, Energy Fuels 29 (2015)
+1001–1009.
+[26] C.L. Muhich, B.D. Ehrhart, I. Al-Shankiti, B.J. Ward, C.B. Musgrave, A.W. Weimer, A
+review and perspective of eﬃcient hydrogen generation via solar thermal water
+splitting, Wiley Interdisciplinary Reviews-Energy and Environment 5 (2016)
+261–287.
+[27] Y. Lu, L. Zhu, C. Agraﬁotis, J. Vieten, M. Roeb, C. Sattler, Solar fuels production:
+Two-step thermochemical cycles with cerium-based oxides, Prog. Energy Combust.
+Sci. 75 (2019) 100785.
+[28] L.Y. Zhu, Y.J. Lu, Reactivity and Eﬃciency of Ceria-Based Oxides for Solar CO2
+Splitting via Isothermal and Near-Isothermal Cycles, Energy Fuels 32 (2018)
+736–746.
+[29] A. Jun, S. Yoo, O.-H. Gwon, J. Shin, G. Kim, Thermodynamic and electrical prop-
+erties of Ba0.5Sr0.5Co0.8Fe0.2O3−δ and La0.6Sr0.4Co0.2Fe0.8O3−δ for intermediate-
+temperature solid oxide fuel cells, Electrochim. Acta 89 (2013) 372–376.
+[30] A. Giuliano, M.P. Carpanese, M. Panizza, G. Cerisola, D. Clematis, A. Barbucci,
+Characterisation of La0.6Sr0.4Co0.2Fe0.8O3-δ–Ba0.5Sr0.5Co0.8Fe0.2O3-δ composite as
+cathode for solid oxide fuel cells, Electrochim. Acta 240 (2017) 258–266.
+[31] E. Grabowska, Selected perovskite oxides: Characterization, preparation and pho-
+tocatalytic properties—A review, Appl. Catal. B 186 (2016) 97–126.
+[32] Y. Maeno, H. Hashimoto, K. Yoshida, S. Nishizaki, T. Fujita, J.G. Bednorz,
+F. Lichtenberg, Superconductivity in a layered perovskite without copper, Nature
+372 (1994) 532–534.
+[33] Q.W. Shen, Y. Zheng, C. Luo, N. Ding, C.G. Zheng, M. Thern, Eﬀect of A/B-site
+substitution on oxygen production performance of strontium cobalt based per-
+ovskites for CO2 capture application, RSC Adv. 5 (2015) 39785–39790.
+[34] S.M. Babiniec, E.N. Coker, J.E. Miller, A. Ambrosini, Investigation of
+LaxSr1−xCoyM1−yO3-δ (M=Mn, Fe) perovskite materials as thermochemical energy
+storage media, Sol. Energy 118 (2015) 451–459.
+[35] B.W. Kwon, J.H. Oh, G.S. Kim, S.P. Yoon, J. Han, S.W. Nam, H.C. Ham, The novel
+perovskite-type Ni-doped Sr0.92Y0.08TiO3 as a reforming biogas (CH4+CO2) for H2
+production, Appl. Energy 227 (2018) 213–219.
+[36] N. Galinsky, A. Mishra, J. Zhang, F. Li, Ca1−xAxMnO3 (A = Sr and Ba) perovskite
+based oxygen carriers for chemical looping with oxygen uncoupling (CLOU), Appl.
+Energy 157 (2015) 358–367.
+[37] A.H. Bork, M. Kubicek, M. Struzik, J.L.M. Rupp, Perovskite La0.6Sr0.4Cr1−xCoxO3−δ
+solid solutions for solar-thermochemical fuel production: strategies to lower the
+operation temperature, J. Mater. Chem. A 3 (2015) 15546–15557.
+[38] J.R. Scheﬀe, D. Weibel, A. Steinfeld, Lanthanum–Strontium–Manganese Perovskites
+as Redox Materials for Solar Thermochemical Splitting of H2O and CO2, Energy
+Fuels 27 (2013) 4250–4257.
+[39] A.H. McDaniel, E.C. Miller, D. Ariﬁn, A. Ambrosini, E.N. Coker, R. O'Hayre,
+W.C. Chueh, J. Tong, Sr- and Mn-doped LaAlO3−δ for solar thermochemical H2 and
+CO production, Energy Environ. Sci. 6 (2013) 2424–2428.
+[40] M. Mahesh, S. Nair, Abanades, Experimental screening of perovskite oxides as ef-
+ﬁcient redox materials for solar thermochemical CO2 conversion, Sustainable
+Energy Fuels 2 (2018) 843–854.
+[41] A.H. Bork, E. Povoden-Karadeniz, J.L.M. Rupp, Modeling Thermochemical Solar-to-
+Fuel Conversion: CALPHAD for Thermodynamic Assessment Studies of Perovskites,
+Exempliﬁed for (La, Sr)MnO3, Adv. Energy Mater. 7 (2017) 1601086.
+[42] A.E. Ramos, D. Maiti, Y.A. Daza, J.N. Kuhn, V.R. Bhethanabotla Co, Fe, and Mn in
+La-perovskite oxides for low temperature thermochemical CO2 conversion, Catal.
+Today (2019).
+[43] A. Demont, S. Abanades, E. Beche, Investigation of Perovskite Structures as Oxygen-
+Exchange Redox Materials for Hydrogen Production from Thermochemical Two-
+Step Water-Splitting Cycles, J. Phys. Chem. C 118 (2014) 12682–12692.
+[44] A. Le Gal, S. Abanades, Catalytic investigation of ceria-zirconia solid solutions for
+solar hydrogen production, Int. J. Hydrogen Energy 36 (2011) 4739–4748.
+[45] S. Abanades, A. Legal, A. Cordier, G. Peraudeau, G. Flamant, A. Julbe, Investigation
+of reactive cerium-based oxides for H2 production by thermochemical two-step
+water-splitting, J. Mater. Sci. 45 (2010) 4163–4173.
+[46] H. Kaneko, S. Taku, Y. Tamaura, Reduction reactivity of CeO2–ZrO2 oxide under
+high O2 partial pressure in two-step water splitting process, Sol. Energy 85 (2011)
+2321–2330.
+[47] J.-C. Ryu, D.-H. Lee, K.-S. Kang, C.-S. Park, J.-W. Kim, Y.-H. Kim, Eﬀect of additives
+on redox behavior of iron oxide for chemical hydrogen storage, J. Ind. Eng. Chem.
+14 (2008) 252–260.
+[48] J.M.V. Taeyoon Kim, Raymond J. Gorte, Thermodynamic Investigation of the
+Redox Properties of Ceria-Zirconia Solid Solutions, Ind. Eng. Chem. Res. 45 (2006)
+5561–5565.
+[49] E. Mamontov, T. Egami, R. Brezny, M. Koranne, S. Tyagi, Lattice Defects and
+Oxygen Storage Capacity of Nanocrystalline Ceria and Ceria-Zirconia, J. Phys.
+Chem. B 104 (2000) 11110–11116.
+[50] M. Ozawa, M. Kimura, A. Isogai, The application of Ce-Zr oxide solid solution to
+oxygen storage promoters in automotive catalysts, J. Alloy. Compd. 193 (1993)
+73–75.
+[51] R.R. Bhosale, A. Kumar, F. AlMomani, I. Alxneit, Sol–gel derived CeO2–Fe2O3 na-
+noparticles: Synthesis, characterization and solar thermochemical application,
+Ceram. Int. 42 (2016) 6728–6737.
+[52] A. Le Gal, S. Abanades, G. Flamant, CO2 and H2O Splitting for Thermochemical
+Production of Solar Fuels Using Nonstoichiometric Ceria and Ceria/Zirconia Solid
+Solutions, Energy Fuels 25 (2011) 4836–4845.
+[53] L. Wang, M. Al-Mamun, P. Liu, Y. Wang, H.G. Yang, H. Zhao, Notable hydrogen
+production on LaxCa1−xCoO3 perovskites via two-step thermochemical water
+splitting, J. Mater. Sci. 53 (2018) 6796–6806.
+[54] Z.K. Zhang, L. Andre, S. Abanades, Experimental assessment of oxygen exchange
+capacity and thermochemical redox cycle behavior of Ba and Sr series perovskites
+L. Wang, et al.
+Chemical Engineering Journal 389 (2020) 124426
+12
+
+
+===== Page 13 =====
+
+for solar energy storage, Sol. Energy 134 (2016) 494–502.
+[55] N. Gokon, T. Yawata, S. Bellan, T. Kodama, H.-S. Cho, Thermochemical behavior of
+perovskite oxides based on LaxSr1-x(Mn, Fe, Co)O3-δ and BaySr1-yCoO3-δ redox
+system for thermochemical energy storage at high temperatures, Energy 171 (2019)
+971–980.
+[56] G.D. Takalkar, R.R. Bhosale, Application of cobalt incorporated Iron oxide catalytic
+nanoparticles for thermochemical conversion of CO2, Appl. Surf. Sci. 495 (2019).
+[57] S.U. Rehman, R.-H. Song, T.-H. Lim, S.-J. Park, J.-E. Hong, J.-W. Lee, S.-B. Lee,
+High-performance nanoﬁbrous LaCoO3 perovskite cathode for solid oxide fuel cells
+fabricated via chemically assisted electrodeposition, J. Mater. Chem. A 6 (2018)
+6987–6996.
+[58] S. Liu, Y. Cong, C. Kappenstein, T. Zhang, Eﬀect of Zirconium in La(Ba)ZrxCo1-xO3-δ
+Perovskite Catalysts for N2O Decomposition, Chin. J. Catal. 33 (2012) 907–913.
+[59] T. Ishida, N. Gokon, T. Hatamachi, T. Kodama, Kinetics of Thermal Reduction Step
+of Thermochemical Two-step Water Splitting Using CeO2 Particles: MASTER-plot
+Method for Analyzing Non-isothermal Experiments, Energy Procedia 49 (2014)
+1970–1979.
+[60] C. Lu, K. Li, H. Wang, X. Zhu, Y. Wei, M. Zheng, C. Zeng, Chemical looping re-
+forming of methane using magnetite as oxygen carrier: Structure evolution and
+reduction kinetics, Appl. Energy 211 (2018) 1–14.
+[61] G. Levêque, S. Abanades, Thermodynamic and Kinetic Study of the Carbothermal
+Reduction of SnO2 for Solar Thermochemical Fuel Generation, Energy Fuels 28
+(2013) 1396–1405.
+[62] R.R. Bhosale, G.D. Takalkar, Nanostructured co-precipitated Ce0.9Ln0.1O2 (Ln = La,
+Pr, Sm, Nd, Gd, Tb, Dy, or Er) for thermochemical conversion of CO2, Ceram. Int. 44
+(2018) 16688–16697.
+[63] A. Demont, S. Abanades, High redox activity of Sr-substituted lanthanum manganite
+perovskites for two-step thermochemical dissociation of CO2, RSC Adv. 4 (2014)
+54885–54891.
+[64] S. Dey, B.S. Naidu, C.N. Rao, Ln0.5A0.5MnO3 (Ln=Lanthanide, A= Ca, Sr)
+Perovskites Exhibiting Remarkable Performance in the Thermochemical Generation
+of CO and H2 from CO2 and H2O, Chemistry 21 (2015) 7077–7081.
+[65] S. Dey, B.S. Naidu, A. Govindaraj, C.N. Rao, Noteworthy performance of
+La(1–x)CaxMnO3 perovskites in generating H2 and CO by the thermochemical
+splitting of H2O and CO2, Phys Chem Chem Phys 17 (2015) 122–125.
+[66] A. Demont, S. Abanades, Solar thermochemical conversion of CO2 into fuel via two-
+step redox cycling of non-stoichiometric Mn-containing perovskite oxides, J. Mater.
+Chem. A 3 (2015) 3536–3546.
+[67] Q. Jiang, J. Tong, G. Zhou, Z. Jiang, Z. Li, C. Li, Thermochemical CO2 splitting
+reaction with supported LaxA1−xFeyB1−yO3 (A=Sr, Ce, B=Co, Mn; 0≤x, y≤1)
+perovskite oxides, Sol. Energy 103 (2014) 425–437.
+L. Wang, et al.
+Chemical Engineering Journal 389 (2020) 124426
+13

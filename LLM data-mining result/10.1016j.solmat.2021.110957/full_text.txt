@@ -1,0 +1,1180 @@
+
+
+===== Page 1 =====
+
+Solar Energy Materials & Solar Cells 223 (2021) 110957
+Available online 20 January 2021
+0927-0248/© 2021 Elsevier B.V. All rights reserved.
+An in-depth investigation of BaO2/BaO redox oxides for reversible solar 
+thermochemical energy storage 
+Fuqiong Lei , Alexander Dyall , Nick AuYeung * 
+116 Johnson Hall, School of Chemical, Biological, and Environmental Engineering, Oregon State University Corvallis, OR, 97331, USA   
+A R T I C L E  I N F O   
+Keywords: 
+Solar thermochemical 
+Solar thermal 
+Barium oxides 
+Barium peroxides 
+Energy storage 
+A B S T R A C T   
+An in-depth investigation of the BaO2/BaO redox couple for reversible solar thermochemical energy storage has 
+been performed. Beyond improving the cyclability and energy storage density of the material, an additional 
+objective of this work is to better understand inconsistencies in the literature surrounding this chemistry. Sin­
+tering of BaO2/BaO is a hindrance for practical high temperature energy storage. MgO-stabilized BaO-based 
+materials were synthesized by co-precipitation methods and investigated for improving the longevity and 
+reactivity of the redox materials. The effect of the calcination environment during synthesis on sample purity was 
+evaluated. Energy storage capacity and stability of commercial BaO2 and BaO2 made by co-precipitation methods 
+were compared over 25 consecutive redox cycles. The effect of different amounts of MgO was studied, and it was 
+discovered that with increasing amounts of MgO, the stability and reactivity of BaO2 increases while the energy 
+storage density decreases. 15 wt% MgO/BaO2 exhibits the greatest stable weight gain/loss with a value of 6.62% 
+(estimated 338 kJ/kg). A BaO2/MgO sample with 33 wt% MgO shows good storage capacity with weight gain/ 
+loss at 5.65% (corresponds to approximately 290 kJ/kg) over 200 redox cycles.   
+1. Introduction 
+Harvesting and utilizing solar energy offers a sustainable way to 
+reduce fossil fuel use and meet increasing energy demands [1–3]. Solar 
+energy is an abundant, clean, and renewable resource, but it is only 
+available intermittently. Effective methods need to be developed for 
+short- and long-term energy storage to account for the intermittency of 
+solar energy and meet changing electricity demand throughout the day. 
+Currently, there are three main routes for solar thermal energy storage: 
+sensible heat storage, latent heat storage, and thermochemical energy 
+storage (TCES). TCES involves storing thermal energy via reversible 
+chemical reactions, which is more attractive than the other two methods 
+due to its inherently greater energy density. It also offers virtually in­
+definite energy storage, provided the charged species are kept separate. 
+Recently, solid-gas reactions have become the prevalent form of high 
+temperature thermochemical energy storage. Such reversible reactions 
+used for TCES have the general form: 
+A + B⇄AB + ΔHr
+(1) 
+Energy is stored via the reverse endothermic reaction and released by 
+the forward exothermic reaction. Chemical components investigated for 
+TCES systems [3] include metal hydrides, carbonates, hydroxides, ox­
+ides, ammonia, and organic species. Most of the reversible chemical 
+reactions investigated operate at a higher temperature range of 
+600–1200 ◦C, which is attainable using solar tower and dish systems. 
+Nevertheless, the promise of reversible reactions has not yet been real­
+ized due to issues including but not limited to: reduced material lifetimes 
+due to sintering during cycling, impractical and ineffective heat transfer 
+with the solar field and/or power block, a dearth of suitable high tem­
+perature construction materials, the increased complexity of using 
+chemical reactions, and the need to store and release mobile-phase 
+reactive species such as H2, CO2, and H2O. A system using O2 as the 
+mobile reactant is of interest since the system can operate in air, which 
+streamlines the process and can potentially reduce the capital cost. 
+R.G. Bowrey and J. Jutsen [4] first reported on the redox couple 
+BaO2/BaO for energy storage in 1978. Few additional reports were 
+published until recently [5–7] due to renewed interest in redox systems 
+for energy storage applications. Other redox couples like Mn2O3/Mn3O4, 
+[8–11] CoO/Co3O4, [12–17] and CuO/Cu2O [18,19] have also been 
+considered. More recently, perovskite oxides like Ca(1-x)SrxMnO3 [20] 
+and mixed oxides such as LiMnO2 [21] for TCES have been proposed, 
+which opens new possibilities for finding suitable materials for TCES 
+* Corresponding author. 
+E-mail address: nick.auyeung@oregonstate.edu (N. AuYeung).  
+Contents lists available at ScienceDirect 
+Solar Energy Materials and Solar Cells 
+journal homepage: http://www.elsevier.com/locate/solmat 
+https://doi.org/10.1016/j.solmat.2021.110957 
+Received 13 July 2020; Received in revised form 3 January 2021; Accepted 5 January 2021   
+
+
+===== Page 2 =====
+
+Solar Energy Materials and Solar Cells 223 (2021) 110957
+2
+applications. The BaO2/BaO redox pair has moderate heat storage ca­
+pacity (474 kJ/mol), which is almost twice that of Mn3O4/Mn2O3 (202 
+kJ/mol). Although it has lower energy storage capacity compared with 
+Co3O4/CoO (844 kJ/mol) and CuO/Cu2O (811 kJ/mol), Ba-based redox 
+materials can store solar thermal energy at the lowest capital cost among 
+the redox pairs analyzed, based on a recent techno-economic assessment 
+from Bayon et al. [22]. 
+Table 1 summarizes the relevant characteristics of pertinent redox 
+materials for TCES applications. 
+Relevant research on Ba-based redox materials is summarized in 
+Table 2. The BaO2/BaO redox couple has been recently revisited by 
+Carrillo et al. [5] for solar thermochemical energy storage. It shows the 
+redox couple has good stability and almost 100% conversion is obtained. 
+The effect of the cooling rate on the oxidation conversion was investi­
+gated. It was found that faster cooling rates led to faster oxidation ki­
+netics. However, the effect of cooling rates on oxidation extent was not 
+obvious. A nearly complete oxidation extent is observed for all three 
+different cooling rates: 10 ◦C/min, 5 ◦C/min, and 2 ◦C/min. Based on 
+our literature review, Carrillo et al. [5] is the only paper that observed 
+no loss of reversibility for the BaO2/BaO redox material. 
+On the contrary, Fahim and Ford [23] reported that the BaO2/BaO 
+reaction system showed a substantial conversion decrease of 60% over 
+20 cycles with reduction step carried out at 850 ◦C and re-oxidation step 
+dwelt at 550 ◦C. A similar phenomenon was found by Wong et al. [6] 
+where subsequent re-oxidation conversions were significantly less than 
+that of the initial cycle. Ramping rates of 30 ◦C/min was used for both 
+heating and cooling. Agrafiotis et al. [7] also investigates BaO2/BaO for 
+potential cascaded thermochemical energy storage operation. In the 
+paper, they observed nearly full recovery of the weight loss during 
+reduction by lowering the cooling rates during cycling for 
+Mn2O3/Mn3O4 redox couple. However, this is not the case for BaO2/­
+BaO. The weight gain during oxidation improves from 2% to 3.5% by 
+lowering the cooling rates from 5 ◦C/min to 2 ◦C/min, which is still far 
+from the weight loss in the initial reduction step. Further lowering the 
+cooling rates to 1 ◦C/min does not improve the weight gain in the 
+oxidation step. They also observed that lower minimum temperatures 
+(Tlow) do not result in higher extent of oxidation reaction at 2 ◦C/min. 
+Based on conflicting results on the cyclic stability of BaO2/BaO re­
+ported in the literature, it appears there is a need for a deeper look at the 
+longevity of the material. From the work of Carrillo et al. [5] and 
+Agrafiotis et al. [7], different cooling rates do not have much improve­
+ment on oxidation extent and cyclic stability. In previous literature, it 
+was reported that an ash layer of BaO2 (formed on the surface of BaO 
+particles during re-oxidation) will create an oxygen diffusion barrier 
+thus slowing the re-oxidation process and leading to incomplete con­
+version [23]. Wong et al. [6] think that morphological changes might be 
+the possible reason for the low oxidation conversion. Jin et al. report 
+that pure BaO2/BaO system suffers from sintering and integration issue 
+from their observation that BaO2 melts at around 450 ◦C, which is lower 
+than the typical operating temperature [26]. However, melting at 450 ◦C 
+has not been reported elsewhere [5,23], or in our work presented here. 
+Here, an extensive characterization is performed to gain insight on 
+the correlation of physiochemical properties with the stability and 
+reactivity of the BaO2/BaO redox pair. 
+Table 1 
+Comparison of redox materials for TCES.  
+Redox 
+couple 
+Operating temperature (Tox- 
+Tred) [22] 
+ΔHr (kJ/ 
+kg) 
+Total capital cost [22] 
+($/MJ) 
+Advantages (+)/Disadvantages (−) 
+BaO2/BaO 
+690–980 ◦C 
+474 [5] 
+23.93 
++Low capital cost [22] 
+-Incomplete conversion for reduction and re-oxidation and sintering [6,7,23], reaction with 
+residual moisture and CO2 [5,7], 
+Mn3O4/ 
+Mn2O3 
+650–989 ◦C 
+202 [6] 
+126.96 
++Abundant, low toxicity 
+-Slow re-oxidation [6,24], moderate energy storage density 
+Co3O4/CoO 
+885–905 ◦C 
+844 [15] 
+306.84 
++High reversibility (500 cycles) [6] and high energy storage density 
+-High cost [22] and toxicity 
+CuO/Cu2O 
+900–1100 ◦C 
+811 [19] 
+55.51 
++High energy storage density 
+-Tred close to melting point of Cu2O [25] 
+-High charging temperature  
+Table 2 
+Summary of research on Ba-based redox materials.  
+Literature 
+Year 
+Sample 
+Materials 
+Cycles 
+Longevity 
+Comments 
+Fahim and 
+Ford [23] 
+1983 
+BaO2, 
+powder 
+BaO2 (J.T. Baker Co., >95% purity) 
+20 
+Substantial decrease of conversion 
+from 100% to 20%. 
+Tested in TGA. For energy storage purposes. 
+Particle size reported: 0.01 mm. 
+Carrillo et al. 
+[5] 
+2016 
+BaO2, 
+powder 
+BaO2 (Sigma Aldrich, 95% purity) 
+30 
+No loss of reversibility. 
+Tested in TGA under air. For energy storage 
+purposes. 
+Agrafiotis 
+et al. [7] 
+2016 
+BaO2, 
+powder 
+BaO2 obtained by calcination of Ba 
+(NO3)2 at 950 ◦C under air in a 
+furnace 
+4 
+Re-oxidation is only about half of the 
+weight loss during reduction in the 
+first cycle 
+Tested in TGA. 
+Wong et al. 
+[6] 
+2011 
+BaO2, 
+powder 
+– 
+3 
+Re-oxidation and conversion were 
+reduced significantly on the second 
+cycle. 
+Tested in TGA under air. 
+Park et al. 
+[27] 
+2010 
+BaO2/MgO, 
+powder 
+BaO2 (Junsei chemical, 99%) 
+BaO2/MgO made by hydrothermal 
+method and sol-gel method 
+13 
+Sol-gel method showed better cyclic 
+stability and adsorption capacity. 
+Tested in a packed bed. For air separation. No 
+reported optimal BaO2/MgO ratio. 
+Jin et al. [26] 
+2001 
+BaO2/MgO, 
+pellet 
+BaO2 (Soekawa Science Ltd, 99%) 
+BaO2/MgO pressed pellet made by 
+mechanically mixing 
+90 
+No degradation observed for pellets of 
+1:1 wt BaO2/MgO (no data provided) 
+Tested in a packed bed. For oxygen 
+production purpose. Reported optimal BaO2/ 
+MgO ratio is 1:1 (by wt). 
+Jung et al. 
+[28,29] 
+2015 
+(BaSrMg)O, 
+powder 
+Mg–Sr co-doping using co- 
+precipitated carbonates 
+10 
+No degradation 
+Tested in TGA. For air separation purposes.  
+F. Lei et al.                                                                                                                                                                                                                                       
+
+
+===== Page 3 =====
+
+Solar Energy Materials and Solar Cells 223 (2021) 110957
+3
+Different strategies can be employed to combat sintering of the 
+material. One way is using steam treatment, widely studied and used in 
+calcium looping for CO2 capture [30–34], and initially proposed by In­
+dustrial Research Limited of New Zealand [35]. It has been demon­
+strated that steam treatment can activate sorbents and regenerate 
+surface area owing to structural changes. Different additives can be 
+added to facilitate oxygen transport. Addition of MgO has been shown to 
+improve the lifetime [26] and oxygen adsorption capacity [27] of BaO2. 
+Other oxides such as Al2O3 [36], ZrO2 [37,38], TiO2 [39], La2O3 [40]40 
+and Y2O3 [41], have also been studied to improve the stability of other 
+redox systems. A third direction involves using a polymorphic spacer 
+material (Ca2SiO4) which undergoes a crystal structure change during 
+carbonation and calcination of CaCO3/CaO [42]. The effect of poly­
+morphic spacers such as CaSO4 and Sr3(PO4)2 and initial moisture 
+content of the material on the performance of the SrCO3/SrO system has 
+been investigated [43]. 
+Addition of MgO has been shown to improve the lifetime [26] and 
+oxygen adsorption capacity [27] of BaO2. Pressure pressed pellets of 
+mixed BaO2/MgO (weight ratio = 1:1)26 were tested, and the paper [26] 
+claimed 90 cycles were tested without loss of reactivity. Park et al. [27] 
+used two methods to synthesize mixed BaO2/MgO: hydrothermal and 
+sol-gel. The sol-gel method showed better cyclic stability and higher 
+adsorption capacity. By substituting Sr2+ for Ba2+ in the crystal lattice, 
+Jung et al. [28,29] synthesized mixed metal peroxides (BaSrMgO). Both 
+groups used the resultant mixed compounds for air separation and 
+demonstrated increasing transition O2 pressure with increasing 
+Sr2+/Ba2+ ratios. 
+Previously, MgO has been added to mixtures reactive oxides for 
+sintering prevention due to its high Tamman temperature and inertness 
+to the reactive components [44]. In this work, MgO is also considered as 
+an inert support to prevent sintering and improve the reactivity of 
+BaO2/BaO redox cycles, especially the peroxide formation step. The 
+effectiveness of MgO as a sintering inhibitor made by a different syn­
+thesis method (co-precipitation) was investigated. A closer look was 
+taken at the effects of composition and morphological properties for 
+short-term (25 cycles) and long-term (200 cycles) stability and 
+reactivity. 
+2. Materials synthesis 
+Materials purchased are shown in Table 3. Co-precipitation was 
+adopted to synthesize barium peroxide, either pure or mixed with other 
+additives. Metal nitrates were added to DI water and stirred until 
+completely dissolved. A mixture of ammonium hydroxide and hydrogen 
+peroxide was added to the solution. Materials precipitate immediately. 
+The slurry was then filtered, washed twice with DI water, and then dried 
+overnight under an inert N2 environment at 120 ◦C in the tube furnace. 
+The product was then crushed into fine powder in an agate mortar. 
+In a typical synthesis, 5 g Ba(NO3)2 precursor was added to 125 mL 
+DI water in a 250 mL beaker. The Ba(NO3)2 was completely dissolved by 
+continuous stirring at room temperature. Next, a mixture of 5 mL 30% 
+H2O2 and 7 mL 30% NH4OH was added to the solution. After 5 min of 
+stirring, the precipitated slurry was filtered, rinsed, and dried. 
+3. Materials test and characterization 
+Before each test, samples were sieved to reduce the effect of particle 
+size distribution. 
+X-ray diffraction (XRD) measurements were used to obtain infor­
+mation about phases of the synthesized materials. XRD analysis was 
+conducted on a Bruker-AXS D8 DISCOVER X-ray diffraction instrument. 
+Measured materials were supported on a glass sample holder. 
+Energy dispersive X-ray Spectroscopy (EDS) in conjunction with 
+Scanning electron microscopy (FEI QUANTA 600F environmental SEM) 
+was used to obtain information about morphology, composition, and 
+elemental distribution. The samples were prepared by applying a thin 
+layer of powder on a double-sided carbon tape mounted on the sample 
+holder and gently tapping the stub to remove any excess powder. 
+Brunauer-Emmett-Teller (BET) surface area and pore width distri­
+bution were measured using nitrogen adsorption and desorption iso­
+therms at −196 ◦C (77 K) using a Micromeritics ASAP 2020 High 
+Vacuum Micropore Physisorption - Chemisorption instrument. Before 
+actual measurement, samples were initially degassed at around 150 ◦C 
+for a few hours to remove absorbed moisture. Surface area (A) was 
+calculated based on BET theory. Reported pore volume (V) was calcu­
+lated by single point desorption with pores less than 1241.402 Å 
+diameter at P/Po = 0.984. Reported average diameter (D) was calcu­
+lated using D = 4V/A, according to BET. 
+Thermogravimetric analyzer (TGA, Netzsch STA 449) measurements 
+were performed with sample masses of 20–30 mg placed in an alumina 
+crucible. Ultra-high purity gases (99.999% O2 and Ar) were used 
+throughout the tests. Weight variations during oxygen release and up­
+take cycles were recorded with an accuracy up to ±0.1 μg. All temper­
+atures and gas compositions were programmed for each test. A 
+correction was conducted to avoid the buoyancy effect by running blank 
+runs with an empty alumina crucible under an identical temperature 
+program and gas environment. 
+In a typical TGA test, shown in Fig. 1, samples were pre-treated (in 
+the TGA) to 1200 ◦C at 20 ◦C/min under an 80 mL/min argon envi­
+ronment to remove the effect of impurities such as hydroxides and 
+carbonates. The TGA program was setup to commence redox cycles 
+immediately after this calcination period. Cycles consisting of a heating 
+step from 400 ◦C to 950 ◦C and a cooling step from 950 ◦C to 400 ◦C were 
+executed for assessing the performance of different samples. Both steps 
+were at 5 ◦C/min under an 80% O2 environment with a total flow rate of 
+100 mL/min. Mass variations for each cycle were collected and used to 
+calculate performance indicators and compare the reactivity and sta­
+bility of different materials. 
+It should be noted that in several instances, the weight percentages 
+exceeded 100% (see Fig. 7 and Fig. 15). This is because the thermal pre- 
+treatment was conducted under Ar environment and thus the materials 
+were in a decomposed state before the cycling test. The weight of the 
+sample was recorded after the thermal pre-treatment. During the sub­
+sequent cycling test, the sample was then exposed to oxygen environ­
+ment and gained weight. An exception to this pattern is illustrated in 
+Fig. 19 which shows cycles 100–125 of a 200-cycle test (Section 5.6). To 
+minimize the need for a lengthy correction file, the 200-cycle experi­
+mental campaign employed a 25-cycle correction file which was carried 
+out 4 times in succession. Although the first segment of this campaign 
+showed weight percentages greater than 100% due to the initial thermal 
+pretreatment step (and decomposed state), segments thereafter (e.g. 
+cycles 100–125 shown in Fig. 19) have weight percentages within the 
+normal 100% bounds since they start with the sample in an oxidized 
+form. 
+For XRD measurements, the as-synthesized materials were charac­
+terized without thermal pre-treatment. 
+4. Performance evaluation metrics 
+Energy storage capacity of the synthesized materials is estimated by 
+Table 3 
+Summary of chemicals used.  
+Materials 
+Company 
+purity 
+Ba(NO3)2 
+Alfa Aesar 
+99+% 
+Mg(NO3)2⋅6H2O 
+EMD Millipore Corporation 
+99–102% 
+H2O2 
+EMD Millipore Corporation 
+30% solution 
+NH4OH 
+VWR Chemicals 
+28–30%  
+F. Lei et al.                                                                                                                                                                                                                                       
+
+
+===== Page 4 =====
+
+Solar Energy Materials and Solar Cells 223 (2021) 110957
+4
+the following formula: 
+Em = 2⋅ΔnO2⋅ΔHr,298K
+m
+(2)  
+where Em is the gravimetric energy density (kJ/kg), m is the mass of 
+sample measured after an initial thermal treatment at 1200 ◦C under an 
+inert Argon environment in the TGA to reduce the effect if impurities, Δ 
+Hr,298K is the standard enthalpy change of the reaction (81.72 kJ/mol), 
+ΔnO2is the amount of moles of oxygen that react with BaO. 
+Percentage decay of the weight change over all cycles (%decay tot and 
+the last 5 cycles (%decay last 5) as well as average gravimetric energy 
+density (wt%avg last 5) for the last 5 cycles were used to compare the 
+energy storage performance of the studied materials. 
+%decay tot = 100% x wt%inital cycle −wt%last cycle
+wt%inital cycle
+(3)  
+%decay last 5 = 100% x wt%(last cycle−5) −wt%last cycle
+wt%(last cycle−5)
+(4)  
+wt%avg last 5 =
+∑(wt% for the last 5 cycles)
+5
+(5)  
+5. Results and discussion 
+5.1. Effect of oxygen pressure 
+The effect of oxygen pressure on the temperature difference between 
+peroxide formation and decomposition temperatures was investigated. 
+Bp (BaO2 made by the precipitation method) was tested in the TGA. Two 
+cycles with a maximum temperature (Tmax) of 950 ◦C, a minimum 
+temperature (Tmin) of 400 ◦C, and a 5 ◦C/min ramping rate under 
+different oxygen partial pressures (0.2, 0.4, 0.6, and 0.8 bar) were 
+measured. The peroxide formation and decomposition temperature 
+were determined by measuring the onset temperatures based on the TG 
+Fig. 1. A typical sample test procedure in the TGA. Samples were first pre-treated (in the TGA) to 1200 ◦C at 20 ◦C/min under Ar and followed by cycling tests with a 
+Tmax of 950 ◦C and Tmin of 400 ◦C at a 5 ◦C/min ramping rate. 
+Fig. 2. A typical TGA graph showing the onset temperature of peroxide formation and decomposition.  
+F. Lei et al.                                                                                                                                                                                                                                       
+
+
+===== Page 5 =====
+
+Solar Energy Materials and Solar Cells 223 (2021) 110957
+5
+signal change during the cycling test shown in Fig. 2. Fig. 3 shows that 
+temperature difference decreases with increasing oxygen partial pres­
+sure. The result is critical for practical applications; if the peroxide 
+formation and decomposition occur in a narrow temperature range, the 
+products must be separated quickly to prevent a reverse reaction. This 
+needs to be taken into consideration for future TCES or air separation 
+studies. 
+5.2. Effect of drying environment (air vs inert) 
+BaO2 was synthesized in the lab using the precipitation method, and 
+the effect of the drying environment on the purity of products was 
+investigated. The precipitated materials were divided in half and each 
+was dried overnight in the oven at 120 ◦C under nitrogen and air en­
+vironments, respectively. Samples were then tested in the TGA by 
+heating up to 1200 ◦C at 20 ◦C/min under an Argon environment. It was 
+discovered that an inert drying environment is critical for the purity of 
+the synthesized materials, as the sample dried under an air environment 
+contained more BaCO3. 
+BaCO3 is more stable than BaO2 at high temperatures and it de­
+composes later than BaO2, which is clearly shown from Fig. 4. Under an 
+Ar environment in the TGA, BaO2 starts to decompose at 600 ◦C and 
+finishes at around 800 ◦C, followed by decomposition of BaCO3 at 
+around 1000 ◦C. From Table 4 and Fig. 4, it can be seen that weight loss 
+due to decomposition of carbonates for the sample dried under air 
+(7.33%) is much higher than for the one dried under an inert environ­
+ment (1.52%). Due to the low quantities of BaCO3 in the sample dried 
+under an inert environment, a BaCO3 phase is not clearly detectable in 
+Fig. 3. Temperature difference between onset peroxide decomposition temperature and peroxide formation temperature vs. oxygen partial pressure. The material 
+used was Bp using two cycles with a Tmax of 950 ◦C and Tmin of 400 ◦C at a 5 ◦C/min ramp rate under different oxygen partial pressures: 0.2, 0.4, 0.6, and 0.8 bar. 
+Fig. 4. Thermal pre-treatment up to 1200 ◦C at 20 ◦C/min with a 100 mL/min 
+flow of Ar in the TGA for precipitated BaO2 dried in two different environments: 
+N2 & Air. A particle size range of 25–53 μm was used for all tests. 
+Table 4 
+Comparison of precipitated-BaO2 drying at 120 ◦C under inert N2 vs. air.  
+Sample 
+Drying 
+environment 
+Weight change % (O2 
+released) 
+Weight change % (CO2 
+released) 
+Bp 
+N2 
+8.65 
+1.52 
+Bp 
+Air 
+5.22 
+7.33  
+Fig. 5. X-ray diffraction pattern for precipitated BaO2 dried in two different 
+environments: N2 & Air. 
+Table 5 
+Samples and their material notation, compositions.  
+Samples 
+Notation 
+Compositions before cycle 
+BaO2_commercial 
+Bc 
+BaO2, BaCO3
+b 
+BaO2_precipitated 
+Bp 
+BaO2, BaCO3
+b 
+BaO2/15 wt%MgO 
+BM15a 
+BaO2, Mg(OH)2, BaCO3
+b 
+BaO2/33 wt%MgO 
+BM33a 
+BaO2, Mg(OH)2, BaCO3
+b 
+BaO2/55 wt%MgO 
+BM55a 
+BaO2, Mg(OH)2, BaCO3
+b  
+a BM15, BM33 and BM55 indicate 15 wt%, 33 wt% and 55 wt% MgO in BaO2/ 
+MgO sample, respectively. 
+b Small traces. 
+F. Lei et al.                                                                                                                                                                                                                                       
+
+
+===== Page 6 =====
+
+Solar Energy Materials and Solar Cells 223 (2021) 110957
+6
+Fig. 6. a) Thermal pre-treatment of Ba-based samples up to 1200 ◦C at 20 ◦C/min under Ar environment in TGA. Particle size ranges of 25 μm–53 μm were used for 
+all the tests. b) X-ray diffraction pattern of the as-synthesized Ba-based materials before thermal pre-treatment in the TGA: BM55, BM33, BM15, Bc and Bp. 
+F. Lei et al.                                                                                                                                                                                                                                       
+
+
+===== Page 7 =====
+
+Solar Energy Materials and Solar Cells 223 (2021) 110957
+7
+the XRD analysis (Fig. 5), while for the sample dried in air, the BaCO3 
+phase is clearly detectable. 
+As noted by others [4,5,7], BaO2 can readily react with CO2 and H2O 
+in the environment. Additionally, since BaO is very sensitive to its sur­
+roundings [5], it easily reacts with residual moisture and CO2 in the air, 
+which can also be a technical problem and an obstacle for commercial 
+applications. Thus, for future scaling up of such a process, operating 
+under a CO2 and moisture free environment is vital. Contamination of 
+the solid materials by water or CO2 can be mitigated by passing the air 
+over a sorbent substance which absorbs moisture and CO2. In addition, 
+stored products must be dealt with carefully to prevent deterioration at 
+room temperature for further use. 
+5.3. Sample notation and composition 
+Table 5 lists the materials, their corresponding notation, and com­
+positions. For better comparison, all samples went through thermal pre- 
+treatment by heating the sample up to 1200 ◦C under an Argon envi­
+ronment (in the TGA) before the cycling test. 
+Fig. 6(a) shows the weight loss over time when heating the samples 
+up to 1200 ◦C at 20 ◦C/min under an argon environment in the TGA 
+before commencing redox cycles immediately afterwards. It can be seen 
+from Fig. 6(a) that various weight drops correspond to different 
+decomposition steps: decomposition of hydroxides (H2O released), fol­
+lowed by decomposition of peroxide (O2 released), and lastly carbonates 
+(CO2 released). Compositions were inferred from the various weight 
+changes of sample components decomposing at different temperatures 
+and verified from the elemental mapping data obtained from SEM-EDS. 
+A typical calculation, for example, assumes a BM sample contains only 
+Mg(OH)2, BaO2 and BaCO3 (which was confirmed by XRD measure­
+ments shown in Fig. 6(b)). First, the amount of each gas (H2O, O2, and 
+CO2) can be calculated by its corresponding weight decrease at different 
+decomposition temperatures shown in Table 6. Masses of Mg(OH)2, 
+BaO2 and BaCO3 can then be calculated based on how much gas is 
+released during decomposition. By doing so, total mass is conserved 
+within 5% error. For Bc and Bp, weight loss due to decomposition of 
+peroxide is smaller than the theoretical total weight loss based on stoi­
+chiometric reduction if assuming pure BaO2. The test results make sense 
+since Bc and Bp both contain small amounts of impurities. 
+*Assuming samples are pure BaO2 for Bc and Bp. For BM15, BM33, 
+BM55 assuming 15 wt%, 33 wt%, and 55 wt%MgO in BaO2/MgO, 
+respectively. 
+Fig. 6(b) shows the phases for each sample before redox cycling. 
+Samples Bc and Bp contain mostly BaO2 and a small amount BaCO3. 
+With increasing amounts of Mg content in BM samples, the peaks for Mg 
+(OH)2 become more obvious. 
+5.4. Comparison between commercial BaO2 and BaO2 made by the 
+precipitation method 
+Based on our literature review, this is the first time BaO2 made in the 
+lab using the precipitation method has been compared with commercial 
+BaO2 (95% purity, ACROS Organics™) in terms of their thermochemical 
+energy storage performance. Through comparing BaO2 made by 
+different synthesis methods and tested under similar conditions, it 
+would be helpful and meaningful to gain insight on inconsistencies in 
+the literature surrounding this chemistry. Extensive characterizations 
+have been performed to better understand the correlation of physi­
+ochemical properties with stability and reactivity of the BaO2/BaO 
+redox pair. 
+BaO2 was precipitated out by adding a mixture of H2O2 and NH4OH 
+to a Ba(NO3)2 solution and dried under an inert Nitrogen environment. 
+Fig. 7 shows a TGA experiment for both Bp (BaO2 made using the pre­
+cipitation method) and Bc (commercial BaO2) using the last 6 out of 25 
+consecutive peroxide formation-decomposition cycles using a maximum 
+temperature (Tmax) of 950 ◦C and minimum temperature (Tmin) of 
+Table 6 
+Weight change based on different decomposition steps from TGA test: decom­
+position of hydroxides (H2O released), followed by decomposition of peroxide 
+(O2 released), and lastly carbonates (CO2 released). Theoretical weight change is 
+calculated based on the stoichiometric reaction if assuming pure BaO2.  
+Samples 
+H2O 
+released 
+wt% 
+O2 
+released 
+wt% 
+CO2 
+released 
+wt% 
+Total 
+wt% 
+Theoretical O2 
+released * wt% 
+Bc 
+– 
+9.12 
+0.50 
+9.62 
+9.45 
+Bp 
+– 
+8.80 
+0.85 
+9.65 
+9.45 
+BM15 
+6.31 
+6.90 
+1.60 
+14.81 
+8.03 
+BM33 
+12.76 
+4.61 
+2.17 
+19.54 
+6.33 
+BM55 
+20.36 
+2.84 
+2.00 
+25.20 
+4.25  
+Fig. 7. Variation of mass and temperature (gray) as a function of time for Bp (top yellow) and Bc (bottom red) tested for the last 6 cycles out of 25 consecutive 
+peroxide formation-decomposition cycles using a Tmax of 950 ◦C and Tmin of 400 ◦C, ramped at 5 ◦C/min under 0.8 bar oxygen, with a particle size range of 25–53 
+μm. (For interpretation of the references to colour in this figure legend, the reader is referred to the Web version of this article.) 
+F. Lei et al.                                                                                                                                                                                                                                       
+
+
+===== Page 8 =====
+
+Solar Energy Materials and Solar Cells 223 (2021) 110957
+8
+400 ◦C, ramped at 5 ◦C/min under 0.8 bar oxygen pressure with a 
+particle size range of 25–53 μm. It can be seen from Fig. 7 that the 
+decomposition step is faster than the peroxide formation step. The 
+peroxide formation happens again at the following heating step, which 
+suggests the incomplete conversion of BaO to BaO2 in the previous 
+cooling step. Literature results also confirm that the peroxide formation 
+step is slower than the decomposition step [5,23]. 
+Interestingly, the overall performance of Bp is better than that of Bc. 
+Fig. 8. Weight change over 25 consecutive peroxide formation-decomposition cycles for Bp and Bc material tested in a TGA using a Tmax of 950 ◦C and Tmin of 
+400 ◦C, ramped at 5 ◦C/min under 0.8 bar oxygen pressure, with a particle size range of 25–53 μm. 
+Table 7 
+Performance comparison between Bc and Bp with a particle size range of 25–53 
+μm.  
+Material 
+wt% (1st cycle) 
+%decay tot  
+%decay last 5  
+wt%avg last 5  
+Bc 
+8.82 
+45.66 
+2.00 
+4.82 
+Bp 
+7.35 
+26.53 
+2.60 
+5.88  
+Fig. 9. 100 μm scale SEM images for a) Bc (commercial BaO2) b) Bp (BaO2 synthesized by the co-precipitation method) before and after 25 consecutive peroxide 
+formation-decomposition cycles. A particle size range of 25 μm–53 μm was used for all the tests. 
+F. Lei et al.                                                                                                                                                                                                                                       
+
+
+===== Page 9 =====
+
+Solar Energy Materials and Solar Cells 223 (2021) 110957
+9
+From Fig. 8 and Table 7, it can be seen that weight change decays over 
+the 25 consecutive peroxide formation-decomposition cycles for both 
+materials, while Bp has the larger weight percentage change 
+(wt%avg last 5) for the last 5 cycles, and total percentage decay (%decay tot) 
+is much higher for Bc (45.66%) than for Bp (26.53%). Weight percent­
+age loss over the last five cycles (%decay last 5) is similar for both 
+materials. 
+Fig. 9 shows micrographs of Bc (a) and Bp (b) before and after 25 
+consecutive peroxide formation-decomposition cycles. It was noticed 
+that both materials showed cluster formation after the cycles. The par­
+ticle size distribution for Bc and Bp is different even though the samples 
+were sieved to a range of 25–53 μm. Bc tends to have smaller particle 
+sizes compared with Bp. To demystify the reason why the two materials 
+(Bc and Bp) performed differently, the samples were sieved into smaller 
+size ranges to further reduce the effect of particle size distribution. 
+Bc and Bp were sieved into four different size ranges: <25 μm, 25–32 
+μm, 32–38 μm, and 38–53 μm. Fig. 10 shows how the weight change 
+differs for the two samples under different size ranges. With decreasing 
+size, weight change becomes closer between Bc and Bp over the 15 cy­
+cles studied. From Fig. 11 and Fig. 12, it can be seen that particle size has 
+little effect on weight change for Bc (commercial BaO2). In contrast, 
+weight change increases with increasing particle size for Bp (precipi­
+tated BaO2). 
+Fig. 13 shows micrographs of Bc and Bp under four different size 
+ranges before the cycling test. It shows a different particle size distri­
+bution for the sieved samples. Morphological properties obtained from 
+BET measurements for Bp and Bc under difference particle size ranges 
+are listed in Table 8. As can be seen, surface area, pore volume, and 
+Fig. 10. Comparison of weight change over 16 consecutive peroxide formation-decomposition cycles for Bp and Bc material tested in a TGA using a Tmax of 950 ◦C 
+and a Tmin of 400 ◦C, ramped at 5 ◦C/min under 0.8 bar oxygen pressure with four different particle size ranges: <25 μm, 25–32 μm, 32–38 μm, and 38–53 μm. 
+Fig. 11. Comparison of weight change over 16 consecutive peroxide formation-decomposition cycles for Bp material tested in a TGA using a Tmax of 950 ◦C and a 
+Tmin of 400 ◦C, ramped at 5 ◦C/min under 0.8 bar oxygen pressure, with four different particle size ranges: <25 μm, 25–32 μm, 32–38 μm, and 38–53 μm. 
+F. Lei et al.                                                                                                                                                                                                                                       
+
+
+===== Page 10 =====
+
+Solar Energy Materials and Solar Cells 223 (2021) 110957
+10
+average pore width for Bp are much higher than for Bc. This might 
+explain why the energy storage stability of Bp is better than Bc. 
+5.5. The effect of MgO content 
+Table 9 lists samples with different MgO content in mixed BaO2/MgO 
+as well as their corresponding energy storage performance and 
+morphological properties. From Table 9, it can be seen that with 
+increasing Mg loading, total weight change (wt%loss tot) across 25 
+consecutive peroxide formation-decomposition cycles decreases, while 
+the initial total weight change also decreases. Meanwhile, surface areas 
+and pore volume go up significantly as MgO content increases, which 
+might be the fundamental reason for the different cyclic performance. 
+Fig. 14 shows how weight change of mixed BaO2/MgO samples with 
+different MgO loadings changes with each cycle. Sample BM55 showed 
+low initial weight change but extremely stable cyclic weight loss/gain 
+(wt%avg last 5) at 3.78%. Without MgO loading, Bp had the most 
+aggressive degradation rate with a total percentage decay (%decay tot) of 
+26.53% (shown in Table 7) over 25 consecutive cycles. BM15 exhibits 
+the greatest stable weight change (wt%avg last 5) with a value of 6.62% 
+(estimated 338 kJ/kg), while BM33 demonstrated a smaller total per­
+centage decay but a lower stable weight change (wt%avg last 5) of 5.65% 
+(corresponds to approximately 290 kJ/kg). Fig. 15 shows representative 
+(12th to 17th cycle) TGA curves of weight versus temperature over 25 
+cycles for samples Bp, BM15, BM33 and BM55. With decreasing MgO 
+content, the peroxide formation reaction separated further into two 
+consecutives steps. It can be seen from Fig. 15 that the two different 
+shoulders in the weight gain step become steeper with decreasing MgO 
+content. There is a tradeoff between higher reactivity/higher energy 
+density vs. longevity when selecting the amount of MgO support added 
+to the reactive materials. With more inert support materials, the stability 
+is greater but at a cost of lower energy density. Jin et al. [45] tested 
+pellets of BaO2 and MgO made through mechanical mixing and pressing 
+and reported the released oxygen during reduction for BM33 and BM50 
+is around 1.5 mmol/g and 1 mmol/g, respectively. In comparison, the 
+stable oxygen sorption capacity for BM15, BM33, and BM55 synthesized 
+by the co-precipitation method in this paper is around 2.0 mmol/g, 1.8 
+mmol/g, and 1.2 mmol/g, respectively. It is clearly better than the 
+sample made through the mechanical mixing and pressing method. The 
+co-precipitation method showed a comparable result with the sol-gel 
+method in the work of Park et al. [27] The best oxygen sorption ca­
+pacity synthesized by the sol-gel method is reported to be 2.13 mmol/g. 
+The effect of MgO content on sintering and stability is further illus­
+trated by SEM images of the samples, shown in Fig. 16. Micrographs are 
+shown for samples Bp, BM15, BM33 and BM55 before and after 25 
+consecutive redox cycles performed using cooling and heating steps 
+between 400 ◦C and 950 ◦C, ramped at 5 ◦C/min under 0.8 bar O2 
+pressure. The sample without MgO (Bp) showed a higher degree of 
+cluster formation after 25 cycles compared to samples with MgO added. 
+Reactivity of Bp decreases gradually over cycles due to less reactive 
+materials exposed to oxygen. 
+Samples collected before and after TGA testing were characterized by 
+SEM to obtain information about morphology change and the distribu­
+tion of inert support and reactive materials was measured by EDS 
+elemental mapping. In Fig. 17, results of elemental mapping for samples 
+BM17, BM33, and BM55 are shown. Mg and Ba are uniformly distributed 
+both before and after cycles, indicating the well mixed products pro­
+duced by the co-precipitation method. 
+Fig. 18 shows the XRD pattern of sample BM55 before and after 
+redox cycling. In the freshly synthesized sample (before thermal pre- 
+treatment up to 1200 ◦C), it was primarily composed of BaO2, Mg 
+(OH)2, and BaCO3. After thermal pre-treatment and redox cycles, peaks 
+for Mg(OH)2 disappeared and an MgO phase evolved due to the 
+decomposition of Mg(OH)2. It can be seen from Fig. 18 that peaks of 
+BaCO3 still exist, indicating an incomplete decomposition during ther­
+mal pre-treatment at 1200 ◦C. For complete decomposition of BaCO3, a 
+higher decomposition temperature would be required. The absence of 
+any apparent BaO2 peak shifting indicates no mixed phase of Ba and Mg 
+compounds formed. The only shifting peak of BaO2 after cycling is from 
+42.2◦to 43.5◦, the peak becomes broader and asymmetrical compared 
+with the freshly synthesized sample due to the overlap of the BaO2 and 
+MgO peaks at that angle period. 
+5.6. Long-term cycling performance 
+Fig. 19 shows a representative (100th to 125th cycle) TGA curve of 
+weight versus temperature over 200 cycles for sample BM33 (mixed 
+BaO2/MgO with 33 wt% MgO). Fig. 20 shows the weight change over 
+200 cycles for sample BM33. After the initial weight drop, the materials 
+become extremely stable without much deactivation and have excellent 
+stability and reactivity over the cycles at 5.65% (estimated 290 kJ/kg 
+based on formula (2)). 
+6. Conclusion 
+Fundamental explorations were performed on an air-based thermo­
+chemical cycle employing barium peroxide/oxide. This cycle can be 
+used for applications such as thermochemical energy storage and air 
+Fig. 12. Comparison of weight change over 16 consecutive peroxide formation-decomposition cycles for Bc material tested in TGA using a Tmax of 950 ◦C and a Tmin 
+of 400 ◦C, ramped at 5 ◦C/min under 0.8 bar oxygen pressure with four different particle size ranges: <25 μm, 25–32 μm, 32–38 μm, and 38–53 μm. 
+F. Lei et al.                                                                                                                                                                                                                                       
+
+
+===== Page 11 =====
+
+Solar Energy Materials and Solar Cells 223 (2021) 110957
+11
+Fig. 13. 100 μm scale SEM images for Bc (commercial BaO2) and Bp (BaO2 synthesized by co-precipitation method) before cycles for four different particle size 
+ranges: a) < 25 μm, b) 25–32 μm, c) 32–38 μm, and d) 38–53 μm. 
+F. Lei et al.                                                                                                                                                                                                                                       
+
+
+===== Page 12 =====
+
+Solar Energy Materials and Solar Cells 223 (2021) 110957
+12
+Table 8 
+Morphological properties and energy storage performance over 16 consecutive peroxide formation-decomposition cycles for Bc and Bp with four different particle size 
+ranges: <25 μm, 25–32 μm, 32–38 μm, and 38–53 μm.  
+Materials 
+wt% (1st cycle) 
+wt%avg last 5  
+Particle size range [μm] 
+Surface area [m [2]/g] 
+Pore volume [cm [3]/g] 
+Average pore width [Å] 
+Bc 
+8.99 
+5.35 
+<25 
+1.11 
+0.0015 
+55 
+8.47 
+5.16 
+25–32 
+0.88 
+0.0013 
+60 
+8.68 
+5.18 
+32–38 
+0.97 
+0.0017 
+70 
+9.32 
+5.58 
+38–53 
+1.40 
+0.0017 
+49 
+Bp 
+9.03 
+5.38 
+<25 
+4.57 
+0.0377 
+330 
+9.46 
+5.53 
+25–32 
+4.07 
+0.0341 
+336 
+9.65 
+5.90 
+32–38 
+4.93 
+0.0480 
+389 
+8.99 
+6.94 
+38–53 
+4.58 
+0.0491 
+430  
+Table 9 
+Morphological properties (before cycling) and energy storage performance over 16 consecutive peroxide formation-decomposition cycles for synthesized Ba-based 
+materials. MgO content is the weight percentage of MgO in mixed BaO2/MgO. A particle size range of 25–53 μm was used for all tests.   
+MgO content [wt%] 
+wt%(1st cycle)  
+%decay tot  
+%decay last 5  
+Surface area [m [2]/g] 
+Pore volume [cm [3]/g] 
+Average pore width [Å] 
+BM15 
+15 
+8.14 
+18.71 
+0 
+4.18 
+0.0237 
+231 
+BM33 
+33 
+6.27 
+9.84 
+0 
+15.17 
+0.1517 
+438 
+BM55 
+55 
+3.78 
+0 
+0 
+31.93 
+0.2655 
+313  
+Fig. 14. Weight change over 25 consecutive peroxide formation-decomposition cycles for four Ba-based samples tested in a TGA using cooling and heating steps 
+between 400 ◦C and 950 ◦C, ramped at 5 ◦C/min under 0.8 bar oxygen pressure. A particle size range of 25–53 μm was used for all tests. 
+Fig. 15. Comparison of cycles 12 thru 17 of 25 consecutive redox cycles on four different Ba-based samples tested in a TGA using cooling and heating steps between 
+400 ◦C and 950 ◦C, ramped at 5 ◦C/min under 0.8 bar O2 pressure. A particle size range of 25–53 μm was used for all tests. 
+F. Lei et al.                                                                                                                                                                                                                                       
+
+
+===== Page 13 =====
+
+Solar Energy Materials and Solar Cells 223 (2021) 110957
+13
+Fig. 16. SEM of four Ba-based materials synthesized by the co-precipitation method before and after 25 consecutive redox cycles: a) Bp b) BM15 c) BM33 d) BM55. A 
+particle size range of 25–53 μm was used for all tests. 
+F. Lei et al.                                                                                                                                                                                                                                       
+
+
+===== Page 14 =====
+
+Solar Energy Materials and Solar Cells 223 (2021) 110957
+14
+Fig. 17. SEM-EDS elemental mapping of three Ba-based materials synthesized by co-precipitation method before and after 25 consecutive redox cycles: BM15, BM33 
+and BM55. A particle size range of 25–53 μm was used for all tests. 
+F. Lei et al.                                                                                                                                                                                                                                       
+
+
+===== Page 15 =====
+
+Solar Energy Materials and Solar Cells 223 (2021) 110957
+15
+separation. Barium peroxides/oxides by themselves are much cheaper 
+than other materials for air-based thermochemical energy storage, such 
+as manganese, cobalt, and copper-based oxides. 
+With increasing oxygen pressure, the charging temperature is closer 
+to the discharging temperature. Separation of products from the reaction 
+vicinity will be critical to prevent the reverse reaction and can be real­
+ized through reactor design and process implementation. As was ex­
+pected, it was also found that the synthesis and reaction processes are 
+sensitive to moisture and CO2 in the air. Contamination of the solid 
+materials by water or CO2 can be mitigated by passing the air over a 
+sorbent substance to absorb moisture and CO2. 
+To elucidate the disparity in results on the stability of BaO2/BaO in 
+the literature, performance differences between BaO2 made by the 
+precipitation method and commercial BaO2 were evaluated. It was 
+found that BaO2 made by the precipitation method had greater cycla­
+bility and energy density than commercial BaO2 due to larger surface 
+area, average pore width, and pore volume. 
+Samples of BaO2 with inert MgO support were synthesized by a new 
+co-precipitation method. MgO was found to be an effective additive to 
+improve the stability and reactivity of the BaO2/BaO redox cycle. 
+Comparing samples with different MgO loading, it was shown that with 
+increasing MgO content, the reactive stability of redox cycles improved. 
+The increasing surface area, pore volume and average pore width ach­
+ieved with increased MgO support might be the reason for the improved 
+reactive stability. 
+Mixed BaO2/MgO with 55 wt% MgO has a stable weight gain/loss at 
+3.78% (estimated 193 kJ/kg) that does not change over 25 cycles. For 
+the 15 wt% MgO sample, the stable weight gain/loss of 6.62% (esti­
+mated 338 kJ/kg) is even higher compared to the sample without MgO 
+added. A 200-cycle test of 33 wt% MgO in BaO2/MgO was performed to 
+further test the stability after 25 cycles. Weight gain/loss at 5.65% 
+(corresponds to approximately 290 kJ/kg) remains stable after an initial 
+energy density drop. 
+Although these energy densities may not be the highest values 
+among reported thermochemical energy storage chemistries, they are 
+still significantly higher than latent or sensible energy storage schemes. 
+Fig. 18. X-ray diffraction pattern of sample BM55 before and after redox cycles.  
+Fig. 19. Cycles 100 thru 125 of 200 consecutive redox cycle test on the BM33 sample, tested in a TGA using cooling and heating steps between 400 ◦C and 950 ◦C, 
+ramped at 5 ◦C/min under 0.8 bar O2 pressure. A particle size range of 25–53 μm was used for the test. 
+F. Lei et al.                                                                                                                                                                                                                                       
+
+
+===== Page 16 =====
+
+Solar Energy Materials and Solar Cells 223 (2021) 110957
+16
+There should exist an optimal MgO content which will maintain the 
+greatest stable energy density value over numerous cycles. Other pa­
+rameters of interest such as temperature, pressure, particle size range, 
+heating/cooling rate, and the material used for inert support can be 
+explored in the future to further improve energy density and reactivity. 
+CRediT authorship contribution statement 
+Fuqiong Lei: Conceptualization, Methodology, Validation, Formal 
+analysis, Investigation, Data curation, Writing - original draft, Writing - 
+review & editing, Visualization. Alexander Dyall: Investigation, 
+Writing - review & editing. Nick AuYeung: Conceptualization, Re­
+sources, Writing - review & editing, Supervision, Project administration. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgements 
+The authors would like to thank Dr. Nick Wannenmacher for his 
+assistance in collecting BET data and his helpful comments on editing 
+the manuscript. We would also like to thank Oregon State University for 
+funding this work. The authors would like to thank Peter and Rosalie 
+Johnson Internship Program. 
+References 
+[1] M. Liu, N.H.S. Tay, S. Bell, M. Belusko, R. Jacob, G. Will, W. Saman, F. Bruno, 
+Review on concentrating solar power plants and new developments in high 
+temperature thermal energy storage technologies, Renew. Sustain. Energy Rev. 53 
+(2016) 1411–1432. 
+[2] L.A. Weinstein, J. Loomis, B. Bhatia, D.M. Bierman, E.N. Wang, G. Chen, 
+Concentrating solar power, Chem. Rev. 115 (23) (2015) 12797–12838. 
+[3] P. Pardo, A. Deydier, Z. Anxionnaz-Minvielle, S. Rouge, M. Cabassud, P. Cognet, 
+A review on high temperature thermochemical heat energy storage, Renew. 
+Sustain. Energy Rev. 32 (2014) 591–610. 
+[4] R.G. Bowrey, J. Jutsen, ENERGY-STORAGE using the reversible oxidation OF 
+barium oxide, Sol. Energy 21 (6) (1978) 523–525. 
+[5] A.J. Carrillo, D. Sastre, D.P. Serrano, P. Pizarro, J.M. Coronado, Revisiting the 
+BaO2/BaO redox cycle for solar thermochemical energy storage, Phys. Chem. 
+Chem. Phys. 18 (11) (2016) 8039–8048. 
+[6] B. Wong, THERMOCHEMICAL HEAT STORAGE FOR CONCENTRATED SOLAR 
+POWER, Final Report for the U.S. Department of Energy, United States, 2011, 
+pp. 10–31. 
+[7] C. Agrafiotis, M. Roeb, C. Sattler, Exploitation of thermochemical cycles based on 
+solid oxide redox systems for thermochemical storage of solar heat. Part 4: 
+screening of oxides for use in cascaded thermochemical storage concepts, Sol. 
+Energy 139 (2016) 695–710. 
+[8] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Thermochemical heat 
+storage based on the Mn2O3/Mn3O4 redox couple: influence of the initial particle 
+size on the morphological evolution and cyclability, J. Mater. Chem. 2 (45) (2014) 
+19435–19443. 
+[9] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Improving the 
+thermochemical energy storage performance of the Mn2O3/Mn3O4 redox couple 
+by the incorporation of iron, Chemsuschem 8 (11) (2015) 1947–1954. 
+[10] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Manganese oxide-based 
+thermochemical energy storage: modulating temperatures of redox cycles by Fe–Cu 
+co-doping, Journal of Energy Storage 5 (2016) 169–176. 
+[11] E.R. Stobbe, B.A. de Boer, J.W. Geus, The reduction and oxidation behaviour of 
+manganese oxides, Catal. Today 47 (1–4) (1999) 161–167. 
+[12] A.J. Schrader, A.P. Muroyama, P.G. Loutzenhiser, Solar electricity via an Air 
+Brayton cycle with an integrated two-step thermochemical cycle for heat storage 
+based on Co3O4/CoO redox reactions: thermodynamic analysis, Sol. Energy 118 
+(2015) 485–495. 
+[13] A.J. Schrader, G. De Dominicis, G.L. Schieber, P.G. Loutzenhiser, Solar electricity 
+via an Air Brayton cycle with an integrated two-step thermochemical cycle for heat 
+storage based on Co3O4/CoO redox reactions III: solar thermochemical reactor 
+design and modeling, Sol. Energy 150 (2017) 584–595. 
+[14] A.P. Muroyama, A.J. Schrader, P.G. Loutzenhiser, Solar electricity via an Air 
+Brayton cycle with an integrated two-step thermochemical cycle for heat storage 
+based on Co3O4/CoO redox reactions II: kinetic analyses, Sol. Energy 122 (2015) 
+409–418. 
+[15] A. Singh, S. Tescari, G. Lantin, C. Agrafiotis, M. Roeb, C. Sattler, Solar 
+thermochemical heat storage via the Co3O4/CoO looping cycle: storage reactor 
+modelling and experimental validation, Sol. Energy 144 (2017) 453–465. 
+[16] N. Vahedi, A. Oztekin, Experimental Analysis of Kinetics and Cyclic Performance of 
+Cobalt Oxide Powder as Redox Reactant Agent for High-Temperature 
+Thermochemical Energy Storage, 2019. 
+[17] C. Agrafiotis, M. Roeb, C. Sattler, Cobalt Oxide-Based Structured Thermochemical 
+Reactors/Heat Exchangers for Solar Thermal Energy Storage in Concentrated Solar 
+Power Plants, 2014. 
+[18] D. Chadda, J.D. Ford, M.A. Fahim, Chemical energy-storage BY the reaction cycle 
+CUO/CU2O, Int. J. Energy Res. 13 (1) (1989) 63–73. 
+[19] M. Deutsch, F. Horvath, C. Knoll, D. Lager, C. Gierl-Mayer, P. Weinberger, 
+F. Winter, High-temperature energy storage: kinetic investigations of the CuO/ 
+Cu2O reaction cycle, Energy Fuels 31 (3) (2017) 2324–2334. 
+[20] S.M. Babiniec, E.N. Coker, J.E. Miller, A. Ambrosini, Doped calcium manganites for 
+advanced high-temperature thermochemical energy storage, Int. J. Energy Res. 40 
+(2) (2016) 280–284. 
+[21] F. Varsano, C. Alvani, A. La Barbera, A. Masi, F. Padella, Lithium manganese oxides 
+as high-temperature thermal energy storage system, Thermochim. Acta 640 (2016) 
+26–35. 
+[22] A. Bayon, R. Bader, M. Jafarian, L. Fedunik-Hofman, Y. Sun, J. Hinkley, S. Miller, 
+W. Lipi´nski, Techno-economic assessment of solid–gas thermochemical energy 
+storage systems for solar thermal power applications, Energy 149 (2018) 473–484. 
+Fig. 20. Weight change over 200 consecutive peroxide formation-decomposition cycles for BM33 tested in a TGA using cooling and heating steps between 400 ◦C 
+and 950 ◦C, ramped at 5 ◦C/min under 0.8 bar oxygen pressure. A particle size range of 25–53 μm was used for the test. 
+F. Lei et al.                                                                                                                                                                                                                                       
+
+
+===== Page 17 =====
+
+Solar Energy Materials and Solar Cells 223 (2021) 110957
+17
+[23] M.A. Fahim, J.D. Ford, ENERGY-STORAGE using the BAO2-BAO reaction cycle, 
+Chem. Eng. J. Biochem. Eng. J. 27 (1) (1983) 21–28. 
+[24] G. Karagiannakis, C. Pagkoura, A. Zygogianni, S. Lorentzou, A.G. Konstandopoulos, 
+Monolithic ceramic redox materials for thermochemical heat storage applications 
+in CSP plants, Energy Procedia 49 (2014) 820–829. 
+[25] S. Wu, C. Zhou, E. Doroodchi, R. Nellore, B. Moghtaderi, A review on high- 
+temperature thermochemical energy storage based on metal oxides redox cycle, 
+Energy Convers. Manag. 168 (2018) 421–453. 
+[26] C. Jin, T. Suehiro, A. Kodama, M. Goto, T. Hirose, Equilibrium and reaction rate of 
+reversible BaO-BaO2 reaction for oxygen production, J. Chem. Eng. Jpn. 34 (2) 
+(2001) 279–282. 
+[27] J.H. Park, Y.S. Cho, K.B. Yi, S.S. Han, S.H. Cho, Adsorption and desorption 
+characteristics of barium oxide at high temperature, Appl. Surf. Sci. 256 (17) 
+(2010) 5528–5532. 
+[28] X. Chen, T. Jung, J. Park, W.S. Kim, Preparation of single-phase three-component 
+alkaline earth oxide of (BaSrMg)O: a high capacity and thermally stable 
+chemisorbent for oxygen separation, J. Mater. Chem. 3 (1) (2015) 258–265. 
+[29] T. Jung, J.G. Na, D.W. Cho, J.H. Park, R.T. Yang, BaxSr1-xO/MgO nano-composite 
+sorbents for tuning the transition pressure of oxygen: application to air separation, 
+Chem. Eng. Sci. 137 (2015) 532–540. 
+[30] A. Coppola, L. Palladino, F. Montagnaro, F. Scala, P. Salatino, Reactivation by 
+steam hydration of sorbents for fluidized-bed calcium looping, Energy Fuels 29 (7) 
+(2015) 4436–4446. 
+[31] C.C. Li, J.Y. Cheng, W.H. Liu, C.M. Huang, H.W. Hsu, H.P. Lin, Enhancement in 
+cyclic stability of the CO2 adsorption capacity of CaO-based sorbents by hydration 
+for the calcium looping cycle, Journal of the Taiwan Institute of Chemical 
+Engineers 45 (1) (2014) 227–232. 
+[32] N. Rong, Q.H. Wang, M.X. Fang, L.M. Cheng, Z.Y. Luo, K.F. Cen, Steam hydration 
+reactivation of CaO-based sorbent in cyclic carbonation/calcination for CO2 
+capture, Energy Fuels 27 (9) (2013) 5332–5340. 
+[33] A. Coppola, E. Gais, G. Mancino, F. Montagnaro, F. Scala, P. Salatino, Effect of 
+steam on the performance of Ca-based sorbents in calcium looping processes, 
+Powder Technol. 316 (2017) 578–584. 
+[34] K. Kudlacz, C. Rodriguez-Navarro, The mechanism of vapor phase hydration of 
+calcium oxide: implications for CO2 capture, Environ. Sci. Technol. 48 (20) (2014) 
+12411–12418. 
+[35] V. Materic, S. Edwards, S.I. Smedley, R. Holt, O.H. Ca(, (2) superheating as a low- 
+attrition steam reactivation method for CaO in calcium looping applications, Ind. 
+Eng. Chem. Res. 49 (24) (2010) 12429–12434. 
+[36] M. Broda, C.R. Muller, Synthesis of highly efficient, Ca-based, Al2O3-stabilized, 
+carbon gel-templated CO2 sorbents, Adv. Mater. 24 (22) (2012) 3059–3064. 
+[37] M. Zhao, M. Bilton, A.P. Brown, A.M. Cunliffe, E. Dvininov, V. Dupont, T.P. Comyn, 
+S.J. Milne, Durability of CaO-CaZrO3 sorbents for high-temperature CO2 capture 
+prepared by a wet chemical method, Energy Fuels 28 (2) (2014) 1275–1283. 
+[38] N.R. Rhodes, A. Barde, K. Randhir, L. Li, D.W. Hahn, R.W. Mei, J.F. Klausner, 
+N. AuYeung, Solar thermochemical energy storage through carbonation cycles of 
+SrCO3/SrO supported on SrZrO3, Chemsuschem 8 (22) (2015) 3793–3798. 
+[39] S.F. Wu, Y.Q. Zhu, Behavior of CaTiO3/nano-CaO as a CO2 reactive adsorbent, Ind. 
+Eng. Chem. Res. 49 (6) (2010) 2701–2706. 
+[40] C. Luo, Y. Zheng, N. Ding, C.G. Zheng, Enhanced cyclic stability of CO2 adsorption 
+capacity of CaO-based sorbents using La2O3 or Ca12Al14O33 as additives, Kor. J. 
+Chem. Eng. 28 (4) (2011) 1042–1046. 
+[41] V.S. Derevschikov, A.I. Lysikov, A.G. Okunev, High temperature CaO/Y2O3 carbon 
+dioxide absorbent with enhanced stability for sorption-enhanced reforming 
+applications, Ind. Eng. Chem. Res. 50 (22) (2011) 12741–12749. 
+[42] M. Zhao, J. Shi, X. Zhong, S.C. Tian, J. Blamey, J.G. Jiang, P.S. Fennell, A novel 
+calcium looping absorbent incorporated with polymorphic spacers for hydrogen 
+production and CO2 capture, Energy Environ. Sci. 7 (10) (2014) 3291–3295. 
+[43] E. Bagherisereshki, J. Tran, F.Q. Lei, N. AuYeung, Investigation into SrO/SrCO3 for 
+high temperature thermochemical energy storage, Sol. Energy 160 (2018) 85–93. 
+[44] M. Gigantino, D. Kiwic, A. Steinfeld, Thermochemical energy storage via 
+isothermal carbonation-calcination cycles of MgO-stabilized SrO in the range of 
+1000–1100 ◦C, Sol. Energy 188 (2019) 720–729. 
+[45] C. Jin, T. Hirose, M. Koto, Effect of barium content and sample size of BaO2-MgO 
+oxygen acceptor on reaction rate, Ind. Eng. Chem. Res. 44 (9) (2005) 2942–2947. 
+F. Lei et al.                                                                                                                                                                                                                                       

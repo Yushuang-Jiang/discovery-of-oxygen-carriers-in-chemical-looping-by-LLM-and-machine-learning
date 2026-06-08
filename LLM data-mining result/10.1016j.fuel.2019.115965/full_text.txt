@@ -1,0 +1,850 @@
+
+
+===== Page 1 =====
+
+Contents lists available at ScienceDirect
+Fuel
+journal homepage: www.elsevier.com/locate/fuel
+Full Length Article
+Thermocatalytic splitting of CO2 using sol-gel synthesized Co-ferrite redox
+materials
+Gorakshnath Takalkar, Rahul R. Bhosale⁎, Fares AlMomani, Majeda Khraisheh
+Department of Chemical Engineering, College of Engineering, Qatar University, P. O. Box – 2713, Doha, Qatar
+A R T I C L E I N F O
+Keywords:
+Co-ferrite
+CO2 splitting
+Sol-gel method
+Thermochemical cycles
+Thermogravimetric analyzer
+Solar energy
+A B S T R A C T
+In this investigation, the redox reactivity of CoxFe3−xO4 materials was examined in multiple thermochemical
+CO2 splitting cycles. Sol-gel method was applied for the synthesis of CoxFe3−xO4 materials and the prepared gels
+of CoxFe3−xO4 materials were aged, dried, and further annealed up to 600 °C in air. The characterization results
+indicate formation of phase pure CoxFe3−xO4 materials. The thermal reduction (at 1400 °C for 60 min in the
+presence of inert Ar) and CO2 splitting (at 1000 °C for 30 min in the presence of CO2/Ar mixture) aptitude of each
+CoxFe3−xO4 material was estimated by using a high temperature set-up consisting of a thermogravimetric
+analyzer. From the TGA analysis, it was understood that the amounts of O2 released and CO produced by
+CoFe2O4 was higher and stable as compared to the other Co-ferrite materials. CoFe2O4 was capable of producing
+76.2 µmol of O2/g·cycle and 139 µmol of CO/g·cycle in ten thermochemical. The thermal reduction and CO2
+splitting aptitude of the CoFe2O4 was spotted to be greater than the CeO2 material.
+1. Introduction
+Incessant emission of CO2 (mainly via combustion of fossil fuels)
+and its accumulation in the earth’s atmosphere is deemed as one of the
+main causes of global warming. To avoid these unfavorable penalties,
+the translation of CO2 into treasured products is currently the prime
+focus of a plentiful research teams [1,2]. The chemical transformation
+of thermodynamically stable CO2 into CO, utilization of this CO to form
+syngas, and conversion of the syngas into liquid fuels via Fisher Tropshe
+technology is considered as one of the favorable processes for the
+conversion of CO2 [3–6]. A metal oxide (MO) based thermocatalytic
+conversion of H2O/CO2 into H2 and syngas is judged, by several re-
+searchers, as one of the most efficient ways to convert CO2 into fuels.
+This process runs as a two-step cycle, and it is more advantageous over
+direct splitting of H2O/CO2 due to the lower reaction temperatures and
+the elimination of the problem associated with the separation of H2/CO
+and O2.
+Several MOs, such as zinc oxide [6–10], tin oxide [11–14], iron
+oxide [15–18], ceria and doped ceria [19–29], perovskites [4,30–38],
+ferrites [39–49], and others [50–53] were utilized for the thermo-
+chemical conversion of H2O/CO2. Especially, in case of ferrites, Co-
+ferrite appears to be a remarkable option for the production of H2 via
+thermochemical splitting of H2O. Kodama et al. [54] examined the
+ZrO2-supported CoxFe3-xO4 for H2O splitting (WS) application and
+reported
+that
+Co0.4Fe2.6O4/ZrO2,
+Co0.5Fe2.5O4/ZrO2,
+Co0.6Fe2.4O4/
+ZrO2, and Co0.7Fe2.3O4/ZrO2 were appears to be the capable choices.
+Miller et al. [55] have developed a new reactor arrangement to perform
+the
+ferrite
+based
+WS
+cycle
+with
+heat
+recuperation
+and
+listed
+Co0.67Fe2.33O4 and YSZ in a 1:3 weight ratio as the baseline material.
+Allendorf et al. [56] thermodynamically concluded that the Co-ferrite is
+thermally more stable than Ni-ferrite and Zn-ferrite towards H2 pro-
+duction via WS reaction. A spinel ferrite/hercynite based H2O splitting
+cycle, by depositing the Co-ferrite on the Al2O3 substrates via the
+atomic layer deposition method, was explored by Scheffe et al. [43] and
+reported that this combination can be recycled for multiple thermal
+reduction (TR) of WS steps (without any deactivation) at 1200 °C. By
+using the same atomic layer deposition method, Scheffe et al. [17]
+synthesized the thin films of Co-ferrite on the ZrO2 support and stated
+that these thin films can produce elevated amounts of H2 in multiple WS
+cycles. Muhich et al. [57] testified that the Hercynite cycle is proficient
+enough to produce upper levels of H2 as compared to ceria at iso-
+thermal operating conditions (1350 °C). Agrafiotis et al. [58] reported
+that the combustion synthesized Co-ferrite has the potential to produce
+higher and steady quantities of H2 as compared to the other ferrite
+materials. By conducting the WS experiments in a stagnant flow reactor
+(900 to 1450 °C), Scheffe et al. [40] stated that the Co-ferrite/YSZ
+material follows a second order reaction kinetics with a diffusion-con-
+trolled mechanism.
+https://doi.org/10.1016/j.fuel.2019.115965
+Received 8 February 2019; Received in revised form 9 May 2019; Accepted 5 August 2019
+⁎ Corresponding author.
+E-mail address: rahul.bhosale@qu.edu.qa (R.R. Bhosale).
+Fuel 257 (2019) 115965
+Available online 17 August 2019
+0016-2361/ © 2019 Elsevier Ltd. All rights reserved.
+T
+
+
+===== Page 2 =====
+
+As per the literature, the WS ability of the Co-ferrite (CoF) was
+significantly explored, however; its utilization towards thermocatalytic
+conversion of CO2 was very limited [59–63]. To produce a high quality
+syngas, in addition to the H2 production via WS, generation of CO via
+CO2 splitting (CS) is also important. Furthermore, to explore the long-
+term redox reactivity and thermal stability, a methodical estimation of
+the H2O/CO2 splitting ability of the ferrites in multiple cycles is es-
+sential. Therefore, in this study, the CoF materials were thermo-
+chemically scrutinized towards CO2 splitting reactions by performing
+multiple cycles. The CoF materials examined for the thermocatalytic
+conversion of CO2 were prepared via sol-gel method.
+2. Experimental section
+2.1. Chemicals, synthesis approach and characterization
+The Co and Fe nitrate precursors, ethanol as the solvent, and the
+proton scavenger i.e., propylene oxide (PO) were procured from Sigma
+Aldrich. Inert Ar (99.999%) and feed gas mixture (50% CO2 in Ar) were
+purchased from Buzwair Scientific and Technical Gases supplier, Qatar.
+The sol-gel approach utilized for the synthesis of CoF materials is al-
+ready reported in detail in our previous study (for the production of Ni-
+ferrite) [63]. The process flow diagram associated with the synthesis of
+CoF materials is presented in Fig. 1. Following are the key steps allied
+with the sol-gel synthesis of CoF materials:
+• Dissolution of the metal precursors in ethanol
+• Dropwise addition of the PO in the metal precursor – ethanol solu-
+tion
+• Attainment of CoF gel formation
+• Aging of the CoF gel for 24 h
+• Drying of the aged gel at 120 °C for 4 h
+• Calcination of the dried CoF powder at 600 °C for 4 h
+Fig. 1. Sol-gel synthesis of CoF materials.
+Fig. 2. The high temperature experimental setup used for the investigation of the thermochemical redox reactivity of sol-gel derived CoF materials.
+G. Takalkar, et al.
+Fuel 257 (2019) 115965
+2
+
+
+===== Page 3 =====
+
+The sol-gel derived CoF materials synthesized in this study were
+abbreviated as: Co0.2Fe2.8O4 (CoF2), Co0.4Fe2.6O4 (CoF4), Co0.5Fe2.5O4
+(CoF5),
+Co0.6Fe2.4O4
+(CoF6),
+Co0.8Fe2.2O4
+(CoF8),
+and
+CoFe2O4
+(CoF10). The phase purity of the sol-gel synthesized CoF materials was
+scrutinized by using a Panalytical XPert MPD/DY636 powder X-ray
+diffractometer (PXRD). Moreover, the particle morphology of the de-
+rived CoF materials was ascertained by utilizing the Scanning Electron
+Microscope (Nova Nano 450, FEI) equipped with an Energy-dispersive
+X-ray spectroscopy (EDS).
+2.2. Thermocatalytic CO2 splitting experiments
+The TR capacity followed by the CS aptitude of the CoF materials
+was assessed by using a high temperature experimental set-up shown in
+Fig. 3. PXRD patterns of sol-gel synthesized CoF: a) Brag Angle 2θ from 20 to 60° and b) Brag angle of 2θ from 34.5 to 36.5°.
+G. Takalkar, et al.
+Fuel 257 (2019) 115965
+3
+
+
+===== Page 4 =====
+
+Fig. 2, which contains a thermogravimetric analyzer (TGA-DSC from
+Setaram Instruments, France). The major parts of the TGA set-up are: a
+hanging TGA balance, a heating furnace, an alumina tube, a tempera-
+ture controller, a chiller, a vacuum pump, and mass flow controllers.
+The role of each section is already explained in our previous study [21].
+The oxidation of the graphite-element (positioned inside the heating
+furnace) and the pollution that can occur near the TGA balance after
+conducting the gas-solid reaction was avoided by passing a continuous
+flow of ultrapure inert Ar through furnace and the sample chamber. By
+using approximately 75 mg of the reactive sample, the TR and CS ability
+of each CoF material was investigated. Firstly, the high temperature TR
+of CoF materials was examined in the presence of inert Ar (purity
+99.999%, 100 ml/min) at 1400 °C for 60 min. Secondly, the CS aptitude
+of the CoF materials was determined by using a 50% CO2/Ar gas
+mixture (100 ml/min) at 1000 °C for 30 min. To eliminate the influence
+of buoyancy on the final results, a baseline TGA profile obtained by
+conducting a blank run (by using an empty alumina crucible only) at
+operating conditions identical to the CS experiments and was sub-
+tracted from the actual experiment. The amounts of O2 released (nO2)
+during TR and CO produced (nCO) during CS by each CoF material was
+computed via employing the following expressions.
+=
+×
+n
+m
+M
+m
+(
+)
+O
+loss
+O
+CoF
+2
+2
+(1)
+=
+×
+n
+m
+M
+m
+(
+)
+CO
+gain
+O
+CoF
+(2)
+where
+MO2 Molecular weight of O2
+MO Molecular weight of O
+mCoF Mass of CoF material
+Fig. 4. SEM images of sol-gel derived CoF materials.
+G. Takalkar, et al.
+Fuel 257 (2019) 115965
+4
+
+
+===== Page 5 =====
+
+3. Results and discussion
+3.1. PXRD and SEM analysis
+The phase composition and the morphology of the CoF powders,
+acquired after annealing at 600 °C, was determined via PXRD and SEM
+analysis. The PXRD results of the calcined CoF, displayed in Fig. 3,
+indicate following three key features that endorsed the formation of
+CoF materials with a phase pure composition.
+a) The PXRD patterns of all the CoF materials matches very well with
+the reflections associated with a cubic structure of the spinel phase.
+b) Absence of any peaks associated with any metal/metal oxide im-
+purities such as Co, Fe, CoO, FeO, Fe3O4, and Fe2O3.
+c) A shift in the PXRD peaks towards the lower 2θ angles and increase
+in the peak intensity of the CoF as the atomic concentration of Co+2
+was increased from 0.2 to 1.0.
+In addition to the phase composition, by applying the Scherrer’s
+equation [64], the average crystallite size of each sol-gel derived CoF
+material was computed and detected to be in the range of 21–35 nm.
+The results obtained via the SEM analysis further confirmed the num-
+bers obtained via the Scherrer’s equation. The SEM image of each CoF
+material synthesized in this study is presented in Fig. 4. A close in-
+spection of each SEM image indicate formation of CoF nanoparticles
+with average particles size in the range of 25 to 100 nm. Additional
+confirmation of the formation of the ferrite nanoparticles was obtained
+by TEM analysis and exemplified TEM image for the CoF10 material is
+presented in Fig. 5.
+The chemical composition of all the CoF materials were also de-
+termined by performing the EDS analysis and the obtained results are
+reported in Table 1. The results obtained via EDS analysis confirmed
+formation of CoF materials.
+3.2. Thermocatalytic splitting of CO2
+As shown in Fig. 6, the sol-gel synthesized CoF materials were first
+tested in three successive thermochemical cycles to identify their redox
+reactivity towards TR and CS. The amounts of mass reduced and gained
+during each TR and CS step was determined by using the TGA profiles
+(presented in Fig. 6). This mass variation was further converted into the
+nO2 and nCO by each CoF material via Eqs. (1) and (2). The values ob-
+tained after computations are listed in Table 2. The nO2 by all CoF
+materials in the 1st cycle was considerably higher than the nCO. It was
+also observed that the nO2 was decreased and nCO was increased with
+the rise in the Co+2 atomic concentration. In the 1st cycle, the highest
+nO2 was observed in case of CoF2 (855.5 μmol/g) and the maximum CO
+production was noticed for CoF10 (143.2 μmol/g).
+In cycle 2, the nO2 and nCO by each CoF material was reduced
+considerable as compared to the 1st thermochemical cycle. The CoF2,
+CoF4, CoF5, CoF6, CoF8, and CoF10 materials lost their TR capacity (in
+terms of nO2) by 98.7%, 96.7%, 97.0%, 91.1%, 86.3%, and 63.4%, re-
+spectively in the 2nd cycle as compared to the 1st cycle. Likewise, the
+nCO by CoF2, CoF4, CoF5, CoF6, CoF8, and CoF10 materials was also
+diminished by 78.8%, 57.7%, 69.9%, 25.0%, 35.6%, and 1.8%, in-
+dividually in cycle 2 in comparison to the cycle 1. In cycle 3, the TR
+aptitude of all the CoF materials was further dropped but the magnitude
+of decrease was less as compared to the reduction observed in the 2nd
+cycle. For instance, the nO2 by CoF2, CoF4, CoF5, CoF6, CoF8, and
+CoF10 materials was lessened in cycle 3 by 18.2%, 13.6%, 10.0%,
+5.2%, 4.0%, and 11.3%, correspondingly as compared to the cycle 2.
+Opposite to this, the CO production capacity of all the CoF materials in
+the 3rd cycle was identical to that of the cycle 2.
+The findings obtained in the first three cycles indicate that the CoF
+Fig. 5. TEM images of sol-gel derived CoF10 materials.
+Table 1
+Chemical composition, Co/Fe molar ratio (as-prepared and from EDS), and the
+abbreviations assigned to each CoF material.
+Abbreviation
+Co/Fe (as-prepared)
+Co/Fe (from EDS)
+Composition
+CoF2
+0.20/2.80
+0.195/2.805
+Co0.195Fe2.805O4-δ
+CoF4
+0.40/2.60
+0.410/2.59
+Co0.410Fe2.590O4-δ
+CoF5
+0.50/2.50
+0.515/2.485
+Co0.515Fe2.485O4-δ
+CoF6
+0.60/2.40
+0.622/2.378
+Co0.622Fe2.378O4-δ
+CoF8
+0.80/2.20
+0.798/2.202
+Co0.798Fe2.202O4-δ
+CoF10
+1.00/2.00
+1.010/1.990
+Co1.010Fe1.990O4-δ
+Fig 6. Exemplified TGA profiles of CoF8 and CoF10 acquired during three cycles consecutively performed using CoF materials.
+G. Takalkar, et al.
+Fuel 257 (2019) 115965
+5
+
+
+===== Page 6 =====
+
+materials showed signs of stability in terms of nCO in the 2nd and 3rd
+cycle. In contrast to this, a continuous decline in the nO2 by all the CoF
+materials was recorded for all three cycles. From the data listed in
+Table 1, it is clearly noticeable that the nO2 and nCO by each CoF ma-
+terial in the first CS cycle was extremely high as compared to the second
+and third CS cycles. Therefore, to avoid the deceitful depiction, the nO2
+and nCO by each CoF material in the first CS cycle was not considered
+for further analysis.
+In order to explore the long-term TR and CS aptitude of CoF ma-
+terials, ten consecutive thermochemical redox cycles were conducted
+by using the TGA setup shown in Fig. 2. The %mass reduction and %
+mass gain noticed for all the CoF materials during ten thermochemical
+cycles (experimental time ~22 h) was recorded and presented in Fig. 7.
+The nO2, nCO, and n
+n
+/
+CO
+O2 associated with each CoF material, calculated
+by using the mass variation reported in Fig. 7, is presented in
+Figs. 8–10, individually.
+Fig. 8 represents that the nO2 by CoF8 and CoF10 was stable for all
+ten cycles. However, for other CoF materials, variation in the nO2 in
+multiple cycles was clearly recorded. In case of the CoF2, CoF5, and
+CoF6, the nO2 from cycle 2 to cycle 6 was higher as compared to the nO2
+from cycle 7 to cycle 10. For CoF4, the nO2 in the first two cycles was
+considerably greater than the remaining cycles. For instance, for CoF6,
+the nO2 was decreased from 30.0 to 15.8 μmol/g from cycle 2 to cycle 7
+and from cycle 7 to cycle 10 it was increased again from 15.8 to
+20.0 μmol/g. Likewise, In case of CoF4, the nO2 was diminished from
+18.0 to 8.6 μmol/g from cycle 2 to cycle 10. In terms of average nO2
+from cycle 2 to cycle cycle 10, the sol-gel derived CoF materials can be
+arranged as: CoF2 (9.3 µmol/g·cycle) < CoF4 (11.6 µmol/g·cycle) <
+CoF5
+(14.8 µmol/g·cycle) < CoF6
+(23.0 µmol/g·cycle) < CoF8
+(37.5 µmol/g·cycle) < CoF10 (72.7 µmol/g·cycle).
+As per Fig. 9, similar to the nO2, the nCO by CoF8 and CoF10 was also
+steady from cycle 2 to cycle 10. In addition to the CoF8 and CoF10
+materials, the nCO by CoF2 and CoF5 was also observed to be roughly
+constant from 2nd to 10th cycle. Opposite to this, In case of CoF4 and
+CoF6, the nCO was higher during first few cycles and then it was reduced
+considerably. The nCO by CoF4 in cycle 2 and cycle 3 was 18.0 μmol/g
+and 15.6 μmol/g. As the number of cycles was increased from cycle 3 to
+cycle 10, nCO by CoF4 was dropped from 15.6 μmol/g to 8.6 μmol/g.
+For CoF6, the average nCO from cycle 2 to cycle 5 was higher by
+10.3 μmol/g·cycle as compared to the average nCO from cycle 6 to cycle
+10. The CoF materials can be organized based on the average nCO as:
+CoF10
+(139.6 µmol/g·cycle) > CoF8
+(70.5 µmol/g·cycle) > CoF6
+(28.1 µmol/g·cycle) > CoF5 (13.5 µmol/g·cycle) > CoF4 (11.2 µmol/
+g·cycle) > CoF2 (6.7 µmol/g·cycle).
+Similar to the nO2 and nCO, the n
+n
+/
+CO
+O2 associated with the CoF2,
+CoF4, CoF5, and CoF6 was observed to be unstable for all thermo-
+chemical cycles (Fig. 10). For instance, from cycle 2 to cycle 10, the
+n
+n
+/
+CO
+O2 in case of CoF5 was varied in the range of 0.71 to 1.12 and the
+n
+n
+/
+CO
+O2 allied with the CoF6 was drifted from 0.95 to 1.48. Contrasting
+to this, the n
+n
+/
+CO
+O2 related to the CoF8 and CoF10 was steady for most
+of the thermochemical cycles. The average n
+n
+/
+CO
+O2 for CoF10 (1.92)
+was superior than CoF2, CoF4, CoF5, CoF6, and CoF8 by 1.18, 0.97,
+1.00, 0.71, and 0.06, respectively.
+The obtained findings indicate that, among all the CoF materials
+examined in this study, the CoF10 appears to be the foremost choice as
+it was adept of achieving maximum nO2 and nCO with a highest n
+n
+/
+CO
+O2
+molar ratio. Table 3 reports the comparison between the sol–gel derived
+CoF10 and the benchmark CeO2 material [21,26] based on the nO2, nCO,
+and n
+n
+/
+CO
+O2 molar ratio from cycle 2 to cycle 10. When compared with
+the CeO2 material, the nO2 and nCO by the CoF10 material higher for all
+thermochemical cycles. In terms of numbers, the average nO2 and nCOby
+the CoF10 was greater than CeO2 by a factor of 1.50 and 1.47, re-
+spectively.
+4. Summary and conclusions
+By employing the PO-assisted sol-gel method, CoxFe3−xO4 (CoF)
+materials (where x = 0.2, 0.4, 0.5, 0.6, 0.8, and 1.0) were successfully
+synthesized. The PXRD analysis indicate formation of phase pure CoF
+materials and the SEM analysis confirms formation of CoF nanoparticles
+(25–100 nm). The TR and CS capacity of each CoF material was as-
+sessed by performing multiple thermochemical cycles in two sets i.e.,
+set-1: three cycles and set-2: ten cycles. The results associated with the
+first three cycles indicate that the CoF materials showed signs of sta-
+bility in terms of nCO in the 2nd and 3rd cycle, however; a continuous
+decline in the nO2 for all the CoF materials was recorded. Set-2 (ten
+cycles) was performed in order to explore the long-term redox activity
+and thermal stability of CoF materials. Among all the CoF materials
+examined, only CoF8 and CoF10 indicate stable nO2 and nCO in ten
+consecutive thermochemical cycles. In terms of numbers, CoF8 and
+CoF10 were capable of releasing 37.5 µmol of O2/g·cycle and 72.7 µmol
+of O2/g·cycle, individually. Likewise, the nCO by CoF8 and CoF10 was
+Table 2
+nO2 and nCO by each sol-gel derived CoF material during three CS cycles.
+CoF Materials
+Cycle 1
+Cycle 2
+Cycle 3
+nO2
+(μmol/
+g)
+nCO
+(μmol/
+g)
+nO2
+(μmol/
+g)
+nCO
+(μmol/
+g)
+nO2
+(μmol/
+g)
+nCO
+(μmol/g)
+CoF2
+855.5
+35.6
+11.0
+7.6
+9.0
+7.2
+CoF4
+541.5
+42.5
+18.0
+18.0
+15.5
+16.9
+CoF5
+513.5
+47.3
+15.3
+14.2
+13.7
+14.3
+CoF6
+338.2
+52.6
+30.0
+39.4
+28.4
+40.8
+CoF8
+281.2
+112.9
+38.4
+72.7
+36.9
+71.7
+CoF10
+219.3
+143.2
+80.2
+140.6
+71.1
+139.7
+Fig 7. Exemplified TGA profiles for CoF8 and CoF10 acquired during ten consecutive thermochemical cycles.
+G. Takalkar, et al.
+Fuel 257 (2019) 115965
+6
+
+
+===== Page 7 =====
+
+equal to 70.5 µmol of CO/g·cycle and 139.6 µmol of CO/g·cycle, re-
+spectively. The re-oxidation ability of CoF10 (n
+n
+/
+CO
+O2 = 1.92) was
+greater than CoF2, CoF4, CoF5, CoF6, and CoF8 by 1.18, 0.97, 1.00,
+0.71, and 0.06, respectively. In comparison to CeO2, the average nO2
+and nCO by CoF10 in ten cycles was superior by 24.1 µmol of O2/g·cycle
+and 44.6 µmol of CO/g·cycle, respectively. Currently, our research team
+is working towards investigation of the reaction kinetics of the redox
+reactions associated with the CoF based thermochemical H2O/CO2
+splitting reactions.
+Acknowledgments
+This publication was made possible by the NPRP grant (NPRP8-370-
+2-154) from the Qatar National Research Fund (a member of Qatar
+Foundation). The statements made herein are solely the responsibility
+of author(s).
+References
+[1] Lingampalli SR, Ayyub MM, Rao CNR. Recent progress in the photocatalytic re-
+duction of carbon dioxide. ACS Omega 2017;2:2740–8. https://doi.org/10.1021/
+acsomega.7b00721.
+[2] Koepf E, Alxneit I, Wieckert C, Meier A. A review of high temperature solar driven
+reactor technology: 25 years of experience in research and development at the Paul
+Scherrer Institute. Appl Energy 2017. https://doi.org/10.1016/j.apenergy.2016.11.
+088.
+[3] Bhosale RR, Takalkar G, Sutar P, Kumar A, AlMomani F, Khraisheh M. A decade of
+ceria based solar thermochemical H2O/CO2 splitting cycle. Int J Hydrogen Energy
+2018. https://doi.org/10.1016/j.ijhydene.2018.04.080.
+[4] Takacs M, Hoes M, Caduff M, Cooper T, Scheffe JR, Steinfeld A. Oxygen non-
+stoichiometry, defect equilibria, and thermodynamic characterization of LaMnO3
+perovskites with Ca/Sr A-site and Al B-site doping. Acta Mater 2016. https://doi.
+org/10.1016/j.actamat.2015.10.026.
+[5] Carrillo RJ, Scheffe JR. Advances and trends in redox materials for solar thermo-
+chemical fuel production. Sol Energy 2017;156:3–20. https://doi.org/10.1016/j.
+solener.2017.05.032.
+[6] Steinfeld A. Solar thermochemical production of hydrogen––a review. Sol Energy
+2005;78:603–15. https://doi.org/10.1016/j.solener.2003.12.012.
+[7] Loutzenhiser PG, Meier A, Steinfeld A. Review of the two-step H2O/CO2-splitting
+solar thermochemical cycle based on Zn/ZnO redox reactions. Materials (Basel)
+2010;3:4922–38. https://doi.org/10.3390/ma3114922.
+[8] Bhosale R, Kumar A, AlMomani F, Gupta RB. Solar thermochemical ZnO/ZnSO4
+water splitting cycle for hydrogen production. Int J Hydrogen Energy 2016. https://
+doi.org/10.1016/j.ijhydene.2017.02.190.
+[9] Statnatiou A, Loutzenhiser PG, Steinfeld A. Solar syngas production via H2O/CO2-
+splitting thermochemical cycles with Zn/ZnO and FeO/Fe3O4 redox reactions. Chem
+Mater 2010. https://doi.org/10.1021/cm9016529.
+[10] Bhosale RR. Thermodynamic efficiency analysis of zinc oxide based solar driven
+thermochemical H2O splitting cycle: effect of partial pressure of O2, thermal re-
+duction and H2O splitting temperatures. Int J Hydrogen Energy 2018. https://doi.
+org/10.1016/j.ijhydene.2018.06.074.
+[11] Abanades S, Charvin P, Lemont F, Flamant G. Novel two-step SnO2/SnO water-
+splitting cycle for solar thermochemical production of hydrogen. Int J Hydrogen
+Energy 2008;33:6021–30. https://doi.org/10.1016/j.ijhydene.2008.05.042.
+[12] Bhosale RR, Kumar A, Sutar P. Thermodynamic analysis of solar driven SnO2/SnO
+based thermochemical water splitting cycle. Energy Convers Manag
+2017;135:226–35. https://doi.org/10.1016/j.enconman.2016.12.067.
+[13] Chambon M, Abanades S, Flamant G. Thermal dissociation of compressed ZnO and
+SnO2 powders in a moving-front solar thermochemical reactor. AIChE J 2011.
+https://doi.org/10.1002/aic.12432.
+[14] Abanades S. CO2 and H2O reduction by solar thermochemical looping using SnO2/
+SnO redox reactions: thermogravimetric analysis. Int J Hydrogen Energy 2012.
+https://doi.org/10.1016/j.ijhydene.2012.02.158.
+[15] Diver RB, Miller JE, Allendorf MD, Siegel NP, Hogan RE. Solar thermochemical
+water-splitting ferrite-cycle heat engines. J Sol Energy Eng 2008. https://doi.org/
+10.1115/1.2969781.
+[16] Bhosale RR, Kumar A, Van Den Broeke LJP, Gharbia S, Dardor D, Jilani M, et al.
+Solar hydrogen production via thermochemical iron oxide-iron sulfate water split-
+ting cycle. Int J Hydrogen Energy 2015;40:1639–50. https://doi.org/10.1016/j.
+Fig. 8. nO2 by CoF materials from cycle 2 to cycle 10.
+Fig. 9. nCO by CoF materials from cycle 2 to cycle 10.
+Fig. 10. n
+n
+/
+CO
+O2 associated with each CoF material from cycle 2 to cycle 10.
+Table 3
+nO2 and nCO by CeO2 [21,26] and CoF10 materials from cycle 2 to cycle 10.
+Cycles
+CeO2 [21,26]
+CoF10
+nO2
+(μmol/g)
+nCO
+(μmol/g)
+n
+n
+/
+CO
+O2
+nO2
+(μmol/g)
+nCO
+(μmol/g)
+n
+n
+/
+CO
+O2
+Cycle 2
+47.5
+93.8
+1.97
+80.2
+140.6
+1.75
+Cycle 3
+48.8
+94.3
+1.93
+71.1
+139.7
+1.96
+Cycle 4
+48.6
+94.7
+1.95
+71.1
+141.4
+1.99
+Cycle 5
+48.3
+95.9
+1.99
+69.8
+137.9
+1.98
+Cycle 6
+49.2
+95.9
+1.95
+71.1
+139.7
+1.96
+Cycle 7
+47.7
+95.3
+2.00
+72.6
+135.0
+1.86
+Cycle 8
+50.5
+94.7
+1.88
+70.7
+138.9
+1.96
+Cycle 9
+47.7
+94.1
+1.97
+74.6
+144.0
+1.93
+Cycle 10
+48.7
+96.6
+1.98
+72.6
+139.5
+1.92
+Average
+48.5
+95.0
+1.96
+72.6
+139.6
+1.92
+G. Takalkar, et al.
+Fuel 257 (2019) 115965
+7
+
+
+===== Page 8 =====
+
+ijhydene.2014.11.118.
+[17] Scheffe JR, Allendorf MD, Coker EN, Jacobs BW, McDaniel AH, Weimer AW.
+Hydrogen production via chemical looping redox cycles using atomic layer de-
+position-synthesized iron oxide and cobalt ferrites. Chem Mater 2011;23:2030–8.
+https://doi.org/10.1021/cm103622e.
+[18] Gokon N, Hasegawa T, Takahashi S, Kodama T. Thermochemical two-step water-
+splitting for hydrogen production using Fe-YSZ particles and a ceramic foam device.
+Energy 2008. https://doi.org/10.1016/j.energy.2008.04.011.
+[19] Scheffe JR, Steinfeld A. Thermodynamic analysis of cerium-based oxides for solar
+thermochemical fuel production. Energy Fuels 2012;26:1928–36. https://doi.org/
+10.1021/ef201875v.
+[20] Abanades S, Le Gal A. CO2 splitting by thermo-chemical looping based on
+ZrxCe1−xO2 oxygen carriers for synthetic fuel generation. Fuel 2012;102:180–6.
+https://doi.org/10.1016/j.fuel.2012.06.068.
+[21] Bhosale RR, Takalkar GD. Nanostructured co-precipitated Ce0.9Ln0.1O2(Ln = La, Pr,
+Sm, Nd, Gd, Tb, Dy, or Er) for thermochemical conversion of CO2. Ceram Int 2018.
+https://doi.org/10.1016/j.ceramint.2018.06.096.
+[22] Bhosale RR, Kumar A, AlMomani F, Alxneit I. Sol-gel derived CeO2-Fe2O3 nano-
+particles: synthesis, characterization and solar thermochemical application. Ceram
+Int 2015. https://doi.org/10.1016/j.ceramint.2016.01.042.
+[23] Chueh WC, Falter C, Abbott M, Scipio D, Furler P, Haile SM, et al. High-flux solar-
+driven thermochemical dissociation of CO2 and H2O using nonstoichiometric ceria.
+Science (80-) 2010;330:1797–801. https://doi.org/10.1126/science.1197834.
+[24] Bhosale RR, Kumar A, Almomani F, Ghosh U, Al-Muhtaseb S, Gupta R, et al.
+Assessment of CexZryHfzO2 based oxides as potential solar thermochemical CO2
+splitting materials. Ceram Int 2016;42:9354–62. https://doi.org/10.1016/j.
+ceramint.2016.02.100.
+[25] Ackermann S, Takacs M, Scheffe J, Steinfeld A. Reticulated porous ceria undergoing
+thermochemical reduction with high-flux irradiation. Int J Heat Mass Transf
+2017;107:439–49. https://doi.org/10.1016/j.ijheatmasstransfer.2016.11.032.
+[26] Takalkar GD, Bhosale RR, Kumar A, AlMomani F, Khraisheh M, Shakoor RA, et al.
+Transition metal doped ceria for solar thermochemical fuel production. Sol Energy
+2018. https://doi.org/10.1016/j.solener.2018.03.022.
+[27] Scheffe J, Welte M, Steinfeld A. Reduction of cerium dioxide in an aerosol tubular
+reactor for the thermal dissociation of CO2 and H2O two-step solar thermochemical
+cycle. Ind Eng Chem Res 2014;53:2175–82.
+[28] Bhosale RR, Takalkar G, Sutar P, Kumar A, AlMomani F, Khraisheh M. A decade of
+ceria based solar thermochemical H2O/CO2 splitting cycle. Int J Hydrogen Energy
+2018. https://doi.org/10.1016/j.ijhydene.2018.04.080.
+[29] Venstrom LJ, De Smith RM, Hao Y, Haile SM, Davidson JH. Efficient splitting of CO2
+in an isothermal redox cycle based on ceria. Energy Fuels 2014. https://doi.org/10.
+1021/ef402492e.
+[30] Scheffe JR, Weibel D, Steinfeld A. Lanthanum-strontium-manganese perovskites as
+redox materials for solar thermochemical splitting of H2O and CO2. Energy Fuels
+2013;27:4250–7. https://doi.org/10.1021/ef301923h.
+[31] Demont A, Abanades S. Solar thermochemical conversion of CO2 into fuel via two-
+step redox cycling of non-stoichiometric Mn-containing perovskite oxides. J Mater
+Chem A 2015. https://doi.org/10.1039/c4ta06655c.
+[32] Demont A, Abanades S, Beche E. Investigation of perovskite structures as oxygen-
+exchange redox materials for hydrogen production from thermochemical two-step
+water-splitting cycles. J Phys Chem C 2014;118:12682–92. https://doi.org/10.
+1021/jp5034849.
+[33] Bhosale Rahul R, Kumar Anand, Ashok Anchu. La-based perovskites as oxygen-
+exchange redox materials for solar syngas production. MRS Adv 2017:1–8. https://
+doi.org/10.1557/adv.2017.300.
+[34] Ezbiri M, Takacs M, Theiler D, Michalsky R, Steinfeld A. Tunable thermodynamic
+activity of LaxSr1−xMnyAl1−yO3−δ(0 ≤x ≤1, 0 ≤y ≤1) perovskites for solar
+thermochemical fuel synthesis. J Mater Chem A 2017. https://doi.org/10.1039/
+c6ta06644e.
+[35] Gálvez ME, Jacot R, Scheffe J, Cooper T, Patzke G, Steinfeld A. Physico-chemical
+changes in Ca, Sr and Al-doped La-Mn-O perovskites upon thermochemical splitting
+of CO2 via redox cycling. Phys Chem Chem Phys 2015. https://doi.org/10.1039/
+c4cp05898d.
+[36] Steinberg M, Cheng HC. Modern and prospective technologies for hydrogen pro-
+duction from fossil fuels. Int J Hydrogen Energy 1989. https://doi.org/10.1016/
+0360-3199(89)90018-9.
+[37] Dey S, Naidu BS, Rao CNR. Ln0.5A0.5MnO3 (Ln=Lanthanide, A=Ca, Sr) perovskites
+exhibiting remarkable performance in the thermochemical generation of CO and H2
+from CO2 and H2O. Chem Eur J 2015. https://doi.org/10.1002/chem.201500442.
+[38] McDaniel AH, Miller EC, Arifin D, Ambrosini A, Coker EN, O’Hayre R, et al. Sr- and
+Mn-doped LaAlO3-δfor solar thermochemical H2 and CO production. Energy
+Environ Sci 2013. https://doi.org/10.1039/c3ee41372a.
+[39] Muhich CL, Aston VJ, Trottier RM, Weimer AW, Musgrave CB. First-principles
+analysis of cation diffusion in mixed metal ferrite spinels. Chem Mater
+2016;28:214–26. https://doi.org/10.1021/acs.chemmater.5b03911.
+[40] Scheffe JR, McDaniel AH, Allendorf MD, Weimer AW. Kinetics and mechanism of
+solar-thermochemical H2 production by oxidation of a cobalt ferrite–zirconia
+composite. Energy Environ Sci 2013;6:963. https://doi.org/10.1039/c3ee23568h.
+[41] Roeb M, Gathmann N, Neises M, Sattler C, Pitz-Paal R. Thermodynamic analysis of
+two-step solar water splitting with mixed iron oxides. Int J Energy Res 2009.
+https://doi.org/10.1002/er.1513.
+[42] Arifin D, Aston VJ, Liang X, McDaniel AH, Weimer AW. CoFe2O4 on a porous Al2O3
+nanostructure for solar thermochemical CO2 splitting. Energy Environ Sci 2012.
+https://doi.org/10.1039/c2ee22090c.
+[43] Scheffe JR, Li J, Weimer AW. A spinel ferrite/hercynite water-splitting redox cycle.
+Int J Hydrogen Energy 2010;35:3333–40. https://doi.org/10.1016/j.ijhydene.
+2010.01.140.
+[44] Shende R, Puszynski J, Opoku M, Bhosale R. Synthesis of Novel Ferrite Foam
+Material for Water-Splitting Application. NSTI-Nanotech 2009.
+[45] Bhosale RR, Pasala X, Yelakanti S, Puszynski JA, Shende RV. Solar thermochemical
+water-splitting for H2 generation using sol-gel derived ferrite nanomaterials. Tech.
+Proc. 2012 NSTI Nanotechnol. Conf. Expo, NSTI-Nanotech 2012, 2012.
+[46] Bhosale RR, Shende RV, Puszynski JA. Thermochemical water-splitting for H2
+generation using sol-gel derived Mn-ferrite in a packed bed reactor. Int J Hydrogen
+Energy 2012;37. https://doi.org/10.1016/j.ijhydene.2011.03.010.
+[47] Bhosale RR, Kumar A, AlMomani F, Ghosh U, Sutar P, Takalkar G, et al.
+Effectiveness of Ni incorporation in iron oxide crystal structure towards thermo-
+chemical CO2 splitting reaction. Ceram Int 2017;43:5150–5. https://doi.org/10.
+1016/j.ceramint.2017.01.034.
+[48] Agrafiotis C, Zygogianni A, Pagkoura C, Kostoglou M, Konstandopoulos AG.
+Hydrogen production via solar-aided water splitting thermochemical cycles with
+nickel ferrite: experiments and modeling. AIChE J 2013;59:1213–25. https://doi.
+org/10.1002/aic.13882.
+[49] Lorentzou S, Agrafiotis CC, Konstandopoulos AG. Aerosol spray pyrolysis synthesis
+of water-splitting ferrites for solar hydrogen production. Granul Matter 2008.
+https://doi.org/10.1007/s10035-007-0069-8.
+[50] Bhosale RR, Kumar A, AlMomani F, Ghosh U, Khraisheh M. A comparative ther-
+modynamic analysis of samarium and erbium oxide based solar thermochemical
+water splitting cycles. Int J Hydrogen Energy 2017. https://doi.org/10.1016/j.
+ijhydene.2017.03.172.
+[51] Bhosale R, Kumar A, AlMomani F, Ghosh U, Anis MS, Kakosimos K, et al. Solar
+hydrogen production via a samarium oxide-based thermochemical water splitting
+cycle. Energies 2016. https://doi.org/10.3390/en9050316.
+[52] Bhosale RR, Sutar P, Kumar A, Almomani F, Ali MH, Ghosh U, et al. Solar hydrogen
+production via erbium oxide based thermochemical water splitting cycle. J Renew
+Sustain Energy 2016:8. https://doi.org/10.1063/1.4953166.
+[53] Bhosale R, Kumar A, Almomani F. Solar thermochemical hydrogen production via
+terbium oxide based redox reactions. Int J Photoenergy 2016:2016. https://doi.
+org/10.1155/2016/9727895.
+[54] Kodama T, Kondoh Y, Yamamoto R, Andou H, Satou N. Thermochemical hydrogen
+production by a redox system of ZrO2-supported Co(II)-ferrite. Sol Energy 2005.
+https://doi.org/10.1016/j.solener.2004.04.008.
+[55] Miller JE, Allendorf MD, Diver RB, Evans LR, Siegel NP, Stuecker JN. Metal oxide
+composites and structures for ultra-high temperature solar thermochemical cycles. J
+Mater Sci 2008. https://doi.org/10.1007/s10853-007-2354-7.
+[56] Allendorf MD, Diver RB, Siegel NP, Miller JE. Two-step water splitting using mixed-
+metal ferrites: thermodynamic analysis and characterization of synthesized mate-
+rials. Energy Fuels 2008;22:4115–24. https://doi.org/10.1021/ef8005004.
+[57] Muhich CL, Evanko BW, Weston KC, Lichty P, Liang X, Martinek J, et al. Efficient
+generation of H2 by splitting water with an isothermal redox cycle. Science (80-)
+2013;341:540–2. https://doi.org/10.1126/science.1239454.
+[58] Agrafiotis CC, Pagkoura C, Zygogianni A, Karagiannakis G, Kostoglou M,
+Konstandopoulos AG. Hydrogen production via solar-aided water splitting ther-
+mochemical cycles: combustion synthesis and preliminary evaluation of spinel
+redox-pair materials. Int J Hydrogen Energy 2012. https://doi.org/10.1016/j.
+ijhydene.2012.02.196.
+[59] Allen KM, Coker EN, Auyeung N, Klausner JF. Cobalt ferrite in YSZ for use as re-
+active material in solar thermochemical water and carbon dioxide splitting, Part I:
+Material characterization. JOM 2013. https://doi.org/10.1007/s11837-013-
+0704-2.
+[60] Lorentzou S, Karagiannakis G, Pagkoura C, Zygogianni A, Konstandopoulos AG.
+Thermochemical CO2 and CO2/H2O splitting over NiFe2O4 for solar fuels synthesis.
+Energy Procedia 2014;49:1999–2008. https://doi.org/10.1016/j.egypro.2014.03.
+212.
+[61] Teknetzi I, Nessi P, Zaspalis V, Nalbandian L. Ni-ferrite with structural stability for
+solar thermochemical H2O/CO2 splitting. Int J Hydrogen Energy
+2017;42:26231–42. https://doi.org/10.1016/j.ijhydene.2017.08.195.
+[62] Tong J, Jiang Q, Chen Z, Jiang Z, Li C. Two-step thermochemical cycles for CO2
+splitting on Zr-doped cobalt ferrite supported on silica. Sol Energy
+2015;116:133–43. https://doi.org/10.1016/j.solener.2015.04.007.
+[63] Bhosale RR, Kumar A, AlMomani F, Ghosh U, Sutar P, Takalkar G, et al.
+Effectiveness of Ni incorporation in iron oxide crystal structure towards thermo-
+chemical CO2 splitting reaction. Ceram Int 2017;43:5150–5. https://doi.org/10.
+1016/j.ceramint.2017.01.034.
+[64] Patterson AL. The Scherrer formula for X-ray particle size determination. Phys Rev
+1939;56:978–82. https://doi.org/10.1103/PhysRev. 56.978.
+G. Takalkar, et al.
+Fuel 257 (2019) 115965
+8

@@ -1,0 +1,1137 @@
+
+
+===== Page 1 =====
+
+Journal of Energy Storage 73 (2023) 108804
+Available online 7 September 2023
+2352-152X/© 2023 Elsevier Ltd. All rights reserved.
+Research Papers 
+Investigations on substituted Si-doped Mn2O3/Mn3O4 redox pair for 
+thermochemical energy storage 
+Yan Huang a, Peiwang Zhu a, Changdong Gu b, Haoran Xu a, Jinsong Zhou a, Gang Xiao a,* 
+a State Key Laboratory of Clean Energy Utilization, College of Energy Engineering, Zhejiang University, Hangzhou, Zhejiang 310027, China 
+b State Key Laboratory of Silicon Materials, College of Materials Science and Engineering, Zhejiang University, Hangzhou, Zhejiang 310027, China   
+A R T I C L E  I N F O   
+Keywords: 
+Thermochemical energy storage 
+Manganese oxide 
+Doped mental oxides 
+Redox reaction 
+Density functional theory 
+A B S T R A C T   
+Next-generation concentrated solar power plants with thermochemical energy storage can meet the demand for 
+peak regulation and power supply, which stimulates the development and application of low-priced metal oxide 
+thermochemical thermal storage materials. Mn-based composite metal oxide is a competitive candidate for large- 
+scale applications given its character of being non-toxic, cheap, and highly efficient. However, the utilization of 
+pure Mn2O3 suffers from sintering, which limits its re-oxidation and hence affects the applicability. In this study, 
+Si is introduced to solve the above problems and improve the reaction characteristics of pure Mn2O3. 
+(Mn1−xSix)2O3 is synthesized by substituent doping, with the best performance at x = 3 % and 5 %, reaching 
+96.18 % and 94.71 % of reduction conversion rate, respectively. The performance decay of the (Mn0.95Si0.05)2O3 
+sample was tested and evaluated, with reduction conversions of 90.92 % and 63.64 % after 50 and 300 cycles, 
+respectively. A series of characterization results confirm that Si4+ is successfully doped into the Mn2O3 lattice, 
+introducing defects into the crystal structure, which is favorable for the oxidation reaction. Density functional 
+theory calculations of oxygen adsorption/dissociation and oxygen diffusion indicate that the doped Mn-Si oxides 
+have lower reaction potentials and energies, which explains the promotion of the re-oxidation reaction by Si. By 
+investigating the thermochemical energy storage properties and mechanism of Mn-Si composite metal oxides, we 
+provide guidance for large-scale, cheap, and eco-friendly energy storage applications.   
+1. Introduction 
+Thermochemical energy storage (TCES) is of enormous potential in 
+supporting next-generation concentrated solar power (CSP) plants to 
+meet the requirement of peak load regulation and provide electricity on 
+demand [1]. Compared to sensible heat storage materials commonly 
+implemented in commercial CSP plants, TCES materials are competitive 
+in terms of storage density and operation temperature (700–1500 ◦C), 
+enabling higher power generation efficiency and lower operating costs 
+for CSP plants [2]. In addition, metal oxide systems based on reversible 
+endothermic-exothermic redox reactions possess a wide variety of ad­
+vantages, including abundant raw materials, high reaction enthalpy, fast 
+reaction kinetics [3], and no need for gas storage [4]. 
+Among numerous metal oxide redox pairs, Co3O4/CoO [5–7], CuO/ 
+Cu2O [8–10], Mn2O3/Mn3O4 [11], have received the most attention in 
+TCES field. Co3O4/CoO pair was intensively investigated in early studies 
+because of its high energy storage density and completely reversible 
+reaction. Nevertheless, high material costs and toxicity impede its 
+practical application [5,6,12]. The operation temperature of CuO/Cu2O 
+pair is close to the melting points of Cu2O (1235 ◦C) [1], leading to 
+severe sintering and poor kinetics [13]. Mn2O3/Mn3O4 pair is inex­
+pensive and environmentally friendly but the re-oxidation is difficult to 
+occurs [14,15], which is because sintering inhibits oxygen diffusion 
+[16]. Previous studies have found that re-oxidation properties of 
+Mn2O3/Mn3O4 pair can be improved to varying degrees by doping a 
+range of cations, including Fe3+ [17], Mg2+ [18], and Cu2+ [19]. 
+The initial trial on doping modification of Mn2O3/Mn3O4 is to add 
+iron [15], which allows the formation of stable solid solutions due to the 
+similar ionic radius of Mn3+ and Fe3+, and effectively avoids the particle 
+sintering of pure Mn2O3 during the reaction. Carrillo et al. and Xiang 
+et al. obtained commendable thermal performances by doping 20 mol% 
+Fe, which forms a uniform solid solution (Mn0.8Fe0.2)2O3 [11,20]. Due to 
+the formation of the core-shell structure MnFe2O4@Mn2.7Fe0.3O4 at 
+reduced state, the oxidation energy barrier of the core MnFe2O4 is 
+* Corresponding author. 
+E-mail addresses: yanhuang@zju.edu.cn (Y. Huang), zhupw@zju.edu.cn (P. Zhu), cdgu@zju.edu.cn (C. Gu), haoranxu@zju.edu.cn (H. Xu), zhoujs@zju.edu.cn 
+(J. Zhou), xiaogangtianmen@zju.edu.cn (G. Xiao).  
+Contents lists available at ScienceDirect 
+Journal of Energy Storage 
+journal homepage: www.elsevier.com/locate/est 
+https://doi.org/10.1016/j.est.2023.108804 
+Received 5 February 2023; Received in revised form 16 August 2023; Accepted 21 August 2023   
+
+
+===== Page 2 =====
+
+Journal of Energy Storage 73 (2023) 108804
+2
+drastically reduced, enabling re-oxidation reaction to complete in a few 
+minutes [20]. Randhir et al. investigated the performance of Mn-Mg 
+composite oxide thermochemical materials with Mn/Mg molar ratios 
+of 2/3, 1/1, and 2/1 and tested the cycling stability for 10 redox cycles 
+between 1200 ◦C and 1500 ◦C [18,21,22]. Solid-state thermochemical 
+fuels based on magnesium manganese oxides can provide high- 
+temperature (>1000 ◦C) energy storage/releasing capabilities across 
+seasons and are also cost-effective [23]. Hlongwa et al. proposed Cu-Mn 
+composite spinel type oxide CuMn2O4, and verified the stable cycling 
+performance between 900 and 1000 ◦C through 5 cycles [24]. The re­
+action enthalpy of CuMn2O4 under air and argon atmosphere is 14 kJ/kg 
+and 144 kJ/kg [24], respectively. Generally speaking, the heteroatom 
+doping ratios in existing studies are usually not <20 %, so new sub­
+stances are formed during the reaction to alleviate the sintering 
+problem. 
+In this work, we modified Mn2O3/Mn3O4 pair by doping with a low 
+percentage of Si elements to investigate the inhibition of sintering by 
+cationic substitution doping as well as its modification mechanism. 
+Compared to the above-mentioned elements, Si is second only to oxygen 
+on the Earth’s surface, occupying nearly 28 %, which is cheap and non- 
+toxic [25]. Shulman et al. developed Mn-Si composite metal oxides 
+based on chemical looping and CO2 capture with SiO2 doping ratio of 20 
+wt%, which performed unsatisfactory reversibility under 10 % O2 in N2 
+[26]. Bielsa et al. [25] and D. Yilmaz et al. [27] firstly applied Mn-Si 
+oxides to the TCES field, and investigated the reversibility of redox re­
+actions at lower Si doping ratios. Bielsa et al. demonstrated the effect of 
+Si doping at 1 mol% and 5 mol% by dry method and sol-gel method, 
+respectively, and verified the improvement of Si4+ on the cyclic 
+behavior of material re-oxidation rate by 40 redox cycles [25]. It was 
+found that the sintering rate in Mn2O3 is governed by the ionic grain 
+boundary diffusion rate, and the segregation of Si4+ dopant at the grain 
+boundary would hinder the ionic grain boundary diffusion rate [25]. In 
+subsequent work, (Mn0.99Si0.01)2O3 was preferentially selected for the 
+reaction kinetics study, and kinetic parameter models for the reduction 
+and oxidation reactions were obtained, both of that were determined to 
+be controlled by nucleation and growth mechanisms [28]. The work of 
+Yilmaz elaborated that at from 2 to 30 wt% Si content, Mn2O3 could 
+react continuously with SiO2, with an optimal reactivity material doping 
+of 6 wt%. When composed of 30 wt% SiO2, side reactions occurred to 
+generate MnSiO3 that is stable at high temperatures unfavorable to the 
+oxygen coupling-uncoupling ability [27]. 
+Existing research has applied Mn-Si composition metal oxides in 
+chemical-looping combustion with oxygen uncoupling. Still, there are 
+much fewer studies in the field of TCES, which remain mainly in the 
+reactive characters, with less exploration of the microscopic level and a 
+need of long-cycle tests for heat storage and discharge. This study 
+investigated Si4+ substitutional doped in Mn2O3/Mn3O4 pair with no 
+>10 mol% and verified the successful incorporation of Si into the lattice 
+by a series of characterization means. In terms of storage and exothermic 
+performance, redox properties were studied by STA (simultaneous 
+thermal analyzers). Over 300 cycles in the reaction temperature region 
+and corresponding microscopic morphological evolution were also 
+studied. In addition, the bonding of Mn-Si-O as well as its microscopic 
+mechanism were also explored, and the reaction and diffusion energy 
+barriers of (Mn1−xSix)2O3 during the redox were computed based on 
+density functional theory (DFT). Through this study, we seek to inves­
+tigate a cheaper and more environmentally friendly TCES material, and 
+provide a guideline for future large-scale applications of thermochem­
+ical energy storage in CSP. 
+2. Experimental section 
+2.1. Material preparation 
+The Mn-Si composite metal oxide with the molecular formula 
+(Mn1−xSix)2O3 (0 ≤x ≤0.15) was synthesized using the sol-gel method. 
+Mn(NO3)2 (50 %, Sinopharm) and Si(C8H20O4) (Silicon acetate, 98 %, 
+Sigma Aldrich) were dissolved in 200 mL of deionized (DI) water under 
+magnetic stirring to afford a homogeneous solution, and citric acid (AR, 
+Sinopharm) at a molar proportion of 1:5 was added into the mixture. 
+After stirring for 2 h, the ethylene glycol (AR, Sinopharm) with 2/3 mole 
+ratio to citric acid was added. The solution was kept under stirring for 
+another 3 h. When the gel was formed, the gelatinous mixture was dried 
+at 200 ◦C for 3 h, and then calcined at 450 ◦C and 800 ◦C for 2 h and 4 h, 
+respectively. 
+2.2. Characterization techniques 
+Structural analysis of the material was carried out by X-ray powder 
+diffraction (XRD) using a PANalytical B.V. (Netherland) X-pert Powder 
+diffractometer (Cu Kα radiation). The data were collected at room 
+temperature between 10◦and 80◦in 2θ with a step size of 0.02◦and a 
+counting time of 30s per angel. The MDI Jade 9.0 software was used to 
+determine the phase composition of the material. The crystal phases 
+were identified by using the ICDD PDF-4 database. The Fourier trans­
+form infrared spectra (FTIR) of the as-synthetic samples were recorded 
+in the mid-IR frequency region at 4000–400 cm−1 using Nicolet iS20 
+infrared spectrometer from Thermo Scientific at 4 cm−1 resolution. 
+Thermogravimetric analysis (TGA) and differential scanning calorim­
+etry (DSC) measurements were performed with TGA/DSC3+ simulta­
+neous thermal analyzer (METTLER TOLED) at air atmosphere. In redox 
+property and cyclability studies, 10 mg of sample were placed into 
+alumina crucibles and subjected to charging and discharging cycles 
+between 650 ◦C and 1000 ◦C under air atmosphere. The prepared 
+samples were imaged by means of a SU-8010 field-emission scanning 
+electron microscope (SEM) to investigate the particle morphologies and 
+energy-dispersive X-ray spectroscopy (EDS) analysis was carried out to 
+obtain chemical composition maps of the different observed sample 
+zones. The X-ray photoelectron spectroscopy (XPS) measurements were 
+carried out using a Thermo Scientific K-Alpha spectrometer by using Al 
+Ka (1486.6 eV) radiation as the excitation source. Samples were cor­
+rected by setting the binding energy (BE) maximum of the adventitious 
+carbon (C 1s) at 284.6 eV. The XPS analysis was performed at room 
+temperature with pressures <10−8 Pa. The samples were outgassed in a 
+vacuum oven overnight before XPS measurements. Scanning trans­
+mission electron microscopy (STEM) equipped with selected area elec­
+tron diffraction (SAED) analysis was employed to visualize the 
+crystallinity, microstructure, and distribution of different elements at 
+different stages, which were carried out on a Hitachi HT-7700 trans­
+mission electron microscopy system operated at 100 kV. 
+2.3. Calculation methods 
+Vienna Ab-initio Simulation Package (VASP) was adopted to perform 
+density functional theory calculations [29,30]. The core electrons were 
+represented by the projector augmented wave (PAW)method [31], and 
+the Kohn-Sham equations were solved by the generalized gradient 
+approximation 
+(GGA), 
+and 
+the 
+Perdew-Burke-Ernzerhof 
+(PBE) 
+exchange-correlation functional [32]. The plane-wave basis set was 
+obtained for valence electrons with a kinetic energy cutoff of 450 eV. 
+The low-index surfaces Mn3O4 (100) and (Mn0.95Si0.05)3O4 (100) are 
+selected to investigate the O2 adsorption, dissociation as well as O anion 
+migrations [20], and detailed test data is presented in Table S1. The 
+vacuum layer is set to build the slab model, and we choose a vacuum 
+layer with a thickness of 12 Å in the z-direction to avoid spurious in­
+teractions between adjacent slabs. Concerning the Mn3O4 (100) and 
+(Mn0.95Si0.05)3O4 (100) slabs, the sampling of the Brillouin zone by 4 ×
+3 × 1 and 5 × 4 × 1 k-point grids were tested under the Monkhorst-Pack 
+scheme [33], respectively, and it was found that the use of 4 × 3 × 1 k 
+points could reduce the number of operations while satisfying the 
+computational accuracy. The structural relaxation was performed in 
+accordance with the Hellmann-Feynman approximation, whereas the 
+Y. Huang et al.                                                                                                                                                                                                                                  
+
+
+===== Page 3 =====
+
+Journal of Energy Storage 73 (2023) 108804
+3
+atomic positions were relaxed to the extent that the force acting on each 
+atom was <0.02 eV/Å. To describe the strongly correlated electrons in 
+manganese, the DFT + U method was employed, where the introduced 
+Hubbard parameter “U” altered the self-interaction error of the electrons 
+and enhanced the description of the correlation effect [34,35]. 
+Accordingly, U = 2.0 eV was used for the Mn(3d) orbitals in metal oxides 
+[20]. The energy barriers for VO diffusion and oxygen adsorption/ 
+dissociation were computed using the climbing-image nudged elastic 
+band (CI-NEB) method implemented in VASP. CI-NEB includes the 
+simultaneous calculation of several coupled structural optimizations 
+(images) along the diffusion paths linking the initial and final states 
+[36]. 
+3. Results and discussion 
+3.1. Structure and composition of substitution doping of Si 
+The composition and crystalline properties of the samples are sum­
+marized in Table 1. The composition of samples with different Si doping 
+ratios is obtained from the X-Ray powder diffraction (XRD) patterns 
+(Fig. 1), which is well fitted with the Mn-Si-O phase diagram (Fig. S1) 
+under respective proportions and synthetized temperature. The XRD 
+patterns of 1 %–7 % Si-doped samples exhibited only the reflections 
+typical of (211), (222), (400), (332), (431), (440), and (622) planes 
+corresponding to the characteristic defective structure of the cubic 
+Mn2O3 (ICCD#00-031-0825 bixbyite). Further, by enlarging the 
+32◦–34◦region of the XRD pattern, it can be found that the diffraction 
+peaks of samples with different doping ratios are slightly shifted to the 
+right compared with the standard values, stating that the lattice pa­
+rameters of the synthesized samples are smaller than the un-doped 
+sample. Since the doped ionic radius of Si4+ (0.4 Å) in six-fold coordi­
+nation is smaller than that of Mn3+ (0.645 Å), that is, Si4+ is incorpo­
+rated into the lattice of Mn2O3 by sol-gel method, thereby forming stable 
+solid solutions (Mn1−xSix)2O3. As shown in Table 1, a slight decrease in 
+the lattice parameter can be observed with the increase in the doping 
+ratio. This observation is coherent with Vegard’s law, which states a 
+linear relationship between the lattice parameters and the concentration 
+of its constituent elements at a constant temperature [37]. The grain size 
+of different samples can be calculated using jade 9.0, whose values are 
+very close to the literature, and the results are shown in Table 1. The 
+half-height widths of multiple characteristic diffraction peaks were 
+measured, then the data points were linearly fitted by least squares, and 
+their particle sizes were calculated by Hall’s method. In this way, we can 
+obtain that the average particle size of different samples ranges from 
+103 nm to 127 nm. In particular, when the doping ratio of Si exceeds 10 
+mol%, Si will not be completely incorporated into the lattice, and a new 
+complex Mn7SiO12 will be generated. Mn7SiO12 does exist though its 
+characteristic peak in XRD patterns is not obvious since its characteristic 
+peak coincides with that of Mn2O3. By using Jade 9.0, Mn7SiO12 content 
+could be analyzed at about 1.5 wt%. Studies related to phases such as 
+MnSiO3 and Mn7SiO12 have shown that the presence of these phases is 
+undesirable since they present different reaction parameters [25,27]. 
+Thus, the samples whose doping ratio beneath 10 mol% were chosen for 
+further study. 
+Fig. 1c displays the reduced XRD patterns of 1–5 mol% Si-doped 
+samples, which exhibits characteristic peaks consistent with Mn3O4 
+(ICCD #01-089-4837 hausmannite). Similarly, in the low-ratio doping 
+scenario, the reduction product of (Mn1−xSix)2O3 is only a single phase 
+of Mn3O4 with a slight shift compared to the standard card peak line, 
+indicating that the Si element remains in the lattice during the transition 
+of the composite metal oxide from the bixbyite to the hausmannite. After 
+one redox cycle, the sample maintains the same crystalline phase as 
+before the reaction (Fig. S2), thus confirming the reversibility of the 
+redox reaction. From this we verified its reaction equation of low-doped 
+Mn-Si composite metal oxide [25]: 
+6(Mn1−xSix)2O3 ↔4(Mn1−xSix)3O4 + O2
+(1) 
+The FT-IR spectrum can provide additional evidence for the structure 
+of (Mn1−xSix)2O3. In order to avoid low Si content conditions where the 
+test signal is noisy, and the peak is not obvious, pure Mn2O3 and 
+(Mn0.95Si0.05)2O3 samples were chosen for FT-IR, as shown in Fig. 2. The 
+detailed FTIR spectra at 400–1200 cm−1 are presented in Fig. S2. For 
+fresh samples of pure Mn2O3 (Fig. 2a) and (Mn0.95Si0.05)2O3 (Fig. 2b), 
+the vibrational bands located at 521, 572, and 665 cm−1 are referred to 
+as the stretching vibrations of Mn-O [38,39]. And the peaks at 1045 
+cm−1 and 961 cm−1 shown in Fig. 2b could be attributed to the anti­
+symmetric stretching vibration of O-Si-O and the vibration of Si-O-Mn, 
+respectively. The vibrational frequencies of Si-O-M (M = Ti, Fe) have 
+been discussed in some literature [40–43], and it is generally agreed that 
+doping of metal cations in Si-O-Si causes a vibrational band to appear at 
+950–970 cm−1 and intensity grows with increasing doping ratio. Wang 
+[44] et al. attributed the peak appearing at 960 cm−1 to the vibration of 
+the Si-O-Mn bond. Consequently, it is believed that Si ions would have 
+been incorporated into the framework of Mn band, leading to the 
+evident vibration of Si-O-Mn bond near 960 cm−1. As for the reduction 
+state (Fig. 2e), two obvious absorption peaks at 499 and 613 cm−1 were 
+observed, which may be related to the coupling of the Mn–O stretching 
+modes in the tetrahedral and octahedral sites. The absorption peak at 
+415 cm−1 in the 500 to 400 cm−1 region was a band stretching mode at 
+the octahedral site [45], and the above three peaks are consistent with 
+the 
+peaks 
+of 
+Mn3O4 
+in 
+the 
+literature 
+[46]. 
+Furthermore, 
+(Mn0.95Si0.05)2O3 after 1st cycle (as is conveyed by Fig. 2c) shows cor­
+responding peaks at around 517, 570, 666, 955, and 1041 cm−1, which 
+indicates that after redox, the sample structure is restored to the initial 
+state and the reaction is completely reversible. Nevertheless, after the 
+100th redox cycle, the Si-O-Mn peak at 954 cm−1 is much stronger and 
+the vibrational peak of O-Si-O is blue-shifted from 1045 cm−1 to 1108 
+cm−1 along with broadening in Fig. 2d, due to the silica tetrahedron 
+formation. The stronger the chemical bonding, the higher the frequency 
+of the peak position. The repeated heat absorption and exothermic 
+processes lead to the formation of amorphous SiO2 by combining part of 
+the silicon with oxygen, which is in accordance with the shoulder peak 
+presented at 800 cm−1. Naturally, the presence of different phase will 
+deteriorate thermal performance, which is undesirable. 
+Note worthily, O atoms in crystalline water are apt to coordinate 
+with metal cations. The stronger the coordination ability of metal ions 
+on the O–H bond, the stronger the induction of electron clouds and the 
+stretching vibration of water molecules squint to move to the lower 
+frequency. Usually, the wave number at 3424 cm−1 is the water of 
+crystal between the compounds, and its absorption peak of bending vi­
+bration at about 1640 cm−1 shows 1/3 as strong as stretching vibration. 
+So, the broad band centered at 3427 cm−1 as well as the peak at about 
+1627 cm−1 correspond to stretching and bending vibration of hydroxyl 
+groups of H2O absorbed by the samples or KBr [47], respectively. 
+Table 1 
+Material identification, doping composition, composition of the synthesized 
+samples, and lattice parameter.  
+Sample 
+Si 
+(mol 
+%)a 
+Composition 
+Lattice 
+parameter a 
+(Å) 
+Average 
+crystallite size 
+(nm) 
+Mn2O3  
+0 
+Mn2O3  
+9.430  
+128 
+(Mn0.99Si0.01)2O3  
+1 
+Mn2O3  
+9.415  
+127 
+(Mn0.97Si0.03)2O3  
+3 
+Mn2O3  
+9.412  
+106 
+(Mn0.95Si0.05)2O3  
+5 
+Mn2O3  
+9.410  
+114 
+(Mn0.93Si0.07)2O3  
+7 
+Mn2O3  
+9.404  
+103 
+(Mn0.9Si0.1)2O3  
+10 
+Mn2O3/ 
+Mn7SiO12  
+9.415  
+185  
+a Si (mol%) = 100 * n(Si) / {n(Si) + n(Mn)}. 
+Y. Huang et al.                                                                                                                                                                                                                                  
+
+
+===== Page 4 =====
+
+Journal of Energy Storage 73 (2023) 108804
+4
+3.2. Thermal performance 
+The degree of redox reactions is a vital indicator of heat absorption 
+and discharge for thermochemical thermal storage materials. In this 
+study, the degree of reaction of the samples was obtained by the 
+simultaneous thermal analyzer (STA) at 650–1000 ◦C (50 mL min−1). 
+The temperature was first ramped up to 1000 ◦C at a rate of 20 ◦C min−1, 
+which is a sufficient temperature for the reduction reaction. In order to 
+ensure the entire progress of the reduction reaction and avoid unnec­
+essary sintering caused by higher temperature [48], the temperature is 
+maintained at 1000 ◦C for 10 min. The cooling down process was also 
+carried out at a rate of 20 ◦C min−1 until 650 ◦C, which is the temper­
+ature at which the oxidation reaction of the Mn-Si composite oxide can 
+occur rapidly. The isothermal condition for 40 min was maintained to 
+ensure the completion of oxidation. As presented in Fig. 3, the oxidation 
+rate of Mn2O3 is 0.24 wt% over a period of >50 min, indicating a need to 
+improve the kinetics of the oxidation reaction. In this study, samples 
+doped with 1 to 10 mol% Si could all improve the re-oxidation rate to 
+varying degrees, while the reaction performance decreased with doping 
+ratios above 10 % (Fig. 3). Notably, the reduction rate diminishes with 
+the increment of Si percentage, while the re-oxidation rate follows the 
+same trend as the exothermic enthalpy, increasing at first and then 
+decreasing. That is because the low Si content of (Mn0.99Si0.01)2O3 
+makes it behave similarly to pure Mn2O3 with a relatively slow oxidation 
+rate [49]; nevertheless, too high content of Si leads to the formation of 
+Braunite 3Mn2O3⋅MnSiO3, which is a more stable manganese silicate in 
+the reaction temperature region and results in a decrease in mass loss 
+[25]. Carrillo et al. [50] demonstrated that Mn2+ ions on the tetrahedral 
+sites are the main species involved in the oxidation process. Due to the 
+incorporation of a smaller radius (0.4 Å) Si4+, the Mn2+-O bond length 
+increases, and the bond strength weakens [25], making it easier for bond 
+breaking and electron migration during the oxidation process. 
+From Table 2, it can be seen that (Mn0.97Si0.03)2O3 and 
+(Mn0.95Si0.05)2O3 exhibit excellent redox performance with mass losses 
+of 3.27 % and 3.22 %, whose reduction conversion rates are up to 96.18 
+% and 94.71 %, respectively. And their re-oxidation conversion rates are 
+Fig. 1. XRD patterns of samples with different doping ratios: (a) in the oxidized state; (b) detail graph of the peak in 32– 34◦region; (c) in the reduced state.  
+Fig. 2. FT-IR transmittance spectrum: (a) pure Mn2O3; (b) fresh sample of 
+(Mn0.95Si0.05)2O3; 
+(c) 
+(Mn0.95Si0.05)2O3 
+after 
+1st 
+re-oxidation; 
+(d) 
+(Mn0.95Si0.05)2O3 after 100th redox; (e) (Mn0.95Si0.05)2O3 after 1st reduction. 
+Fig. 3. TG curves of fresh samples with different doping ratios.  
+Y. Huang et al.                                                                                                                                                                                                                                  
+
+
+===== Page 5 =====
+
+Journal of Energy Storage 73 (2023) 108804
+5
+90.29 % and 86.18 %, respectively, reflecting their good reversibility. 
+The reduction time Δtred of the doped samples did not change substan­
+tially compared with that of pure Mn2O3, with an average reduction 
+time of 4.3 min and a slight difference in accordance with the amount of 
+doping. For the samples with Si doping amount of 3 %–10 %, the re- 
+oxidation time Δtox was all around 20 min. Moreover, the trend of the 
+reaction enthalpy with the doping amount is rising, followed by 
+descending, and reaches a maximum value at x = 3 %. Fig. S4 shows that 
+the reduction enthalpy for (Mn0.97Si0.03)2O3 is 189.8 kJ/kg while that of 
+re-oxidation is 179.9 kJ/kg. 
+The morphological differences between Mn-Si oxides with different 
+doping ratios and commercial Mn2O3 can be observed by scanning 
+electron microscopy (SEM), as presented in Fig. 4. The corresponding 
+particle size distribution statistics are shown in Fig. S5, and the average 
+particle size is consistent with the calculation results of jade 9.0 (shown 
+in Table 1). Commercial Mn2O3 shows a typical coral-like shape with 
+relatively small pores, while the morphology remains basically the same 
+as Mn2O3 when the Si-doped content is low (<5 %). However, when the 
+doping rate reaches 10 %, the morphologies become flattened like lotus 
+leaves stacked on top of each other, while at x = 15 %, the structures are 
+denser with almost no holes. This is attributed to the formation of new 
+products or the precipitation of SiO2, and the small specific surface area 
+is not conducive to gas diffusion and hinders the redox reaction, which 
+can explain the decrease of the reaction rate shown in Fig. 3. 
+3.3. Thermochemical cycling behavior 
+The application of TCES materials needs to consider the ability to 
+store and release heat over a long period. In the existing TCES studies, 
+the Mn-Si oxides were tested up to 80 cycles [28], while the present 
+research cycled for up to 300 cycles to observe the degree of decay. The 
+TG curves and morphological changes of (Mn0.95Si0.05)2O3 after long- 
+term cycles are shown in Fig. 5, and the corresponding data are sum­
+marized in Table 3. Redox cyclic testing was performed in an air at­
+mosphere (50 mL min−1) between 650 ◦C and 1000 ◦C. The TG data of 
+the first reaction showed that the reduction reaction could be completed 
+in a few minutes under these conditions. Thus, the temperature was first 
+raised to 1000 ◦C at a rate of 20 ◦C min−1, then immediately cooled to 
+650 ◦C at the same rate and held in isothermal conditions for 30 min. As 
+for the aging process, the sample powder is placed in a Muffle furnace for 
+redox cycling between 650 ◦C and 1000 ◦C. In order to ensure the full 
+reaction of the sample, stay in the reduction temperature and oxidation 
+temperature section for 30 min each. Every completed reduction and 
+then oxidation is regarded as a cycle. As the number of cycles increases, 
+the reduction temperature remains almost unchanged while the onset 
+temperature of re-oxidation increases. Owing to the sintering phenom­
+enon after the redox cycle test, the pores become larger and the specific 
+surface area decreases, which is not conducive to the diffusion of gas. 
+When the gas-solid reaction enters the product layer diffusion phase, 
+where the reaction rate is low, a higher reaction temperature is required 
+to bring the reaction back to the fast reaction phase [51]. 
+The performance degradation was less pronounced in the first 50 
+cycles, and the reduction reaction conversion remained above 90 %, 
+with a re-oxidation conversion of 82.74 %. Compared with Fig. 5b, the 
+microscopic morphology shown in Fig. 5c is similar, but there is some 
+growth in the average grain size from 0.105 μm to 0.254 μm after 50 
+cycles. After 100 cycles, significant grain growth occurs and the average 
+particle size is 0.621 μm. Accordingly, a more obvious decay in con­
+version occurs compared to the first 50 cycles. The conversion rate 
+decreased from 90.92 % to 77.66 %, which may be ascribed to grain 
+growth and precipitation of Si elements (consistent with the analysis 
+results of FTIR spectra in Fig. 2). The overall morphology of the 
+(Mn0.95Si0.05)2O3 remained basically unchanged during 100–300 cycles, 
+while the average grain size increased from 0.703 μm to 0.778 μm. The 
+increase of average particle size caused by grain growth is the main 
+reason for the deterioration of reversibility [25]. It should be noted that 
+the weight loss of part of the samples after the initial reduction was not 
+recovered. That could be attributed to some impurities mixed in the 
+preparation process and Mn2O3 that was not successfully doped with Si, 
+which was lost in the beginning few cycles, as observed by other authors 
+Table 2 
+Thermal performance of (Mn1−xSix)2O3 samples.  
+Sample 
+x 
+Tred (◦C) 
+Reduction rate (%) 
+Δt red (min) 
+Tox (◦C) 
+Oxidation rate (%) 
+Δtox (min) 
+Thermal storage (kJ/kg) 
+Mn2O3 
+0  
+937  
+3.36  
+3.7 
+678 
+0.24 
+>50  
+197.6 
+(Mn0.99Si0.01)2O3 
+1 %  
+920  
+3.27  
+4.6 
+683 
+1.91 
+>30  
+139.5 
+(Mn0.97Si0.03)2O3 
+3 %  
+916  
+3.27  
+4.2 
+702 
+3.07 
+21  
+189.8 
+(Mn0.95Si0.05)2O3 
+5 %  
+924  
+3.22  
+3.5 
+707 
+2.93 
+20  
+183.9 
+(Mn0.93Si0.07)2O3 
+7 %  
+931  
+2.82  
+4.6 
+724 
+2.45 
+22  
+172.9 
+(Mn0.9Si0.1)2O3 
+10 %  
+932  
+2.44  
+5.1 
+719 
+2.28 
+19  
+161.5 
+(Mn0.85Si0.15)2O3 
+15 %  
+940  
+2.21  
+3.8 
+– 
+– 
+–  
+154.7  
+Fig. 4. SEM images of (Mn1−xSix)2O3 samples: (a) commercial Mn2O3, (b) x(Si) = 1 mol%, (c) x(Si) = 5 mol%, (d) x(Si) = 10 mol%, (e) x(Si) = 15 mol%.  
+Y. Huang et al.                                                                                                                                                                                                                                  
+
+
+===== Page 6 =====
+
+Journal of Energy Storage 73 (2023) 108804
+6
+[11,25,28]. The reduction conversions of (Mn0.95Si0.05)2O3 are 71.03 % 
+and 63.46 % after 200 and 300 cycles, respectively. Although there is 
+still an unavoidable property degradation of the Mn-Si oxides, the evo­
+lution of the reoxidation kinetics is still faster than that of the undoped 
+samples. In general, the cycling stability improves significantly with the 
+introduction of Si, and the sample powder remains loose throughout the 
+cycle without caking, while pure Mn2O3 powder undergoes significant 
+shrinkage after 40 cycles, as described in the work of Bielsa et al. [25]. 
+3.4. Surface analysis 
+X-ray photoelectron spectra (XPS) measurements reveal the surface 
+composition and elemental state of samples at different reaction stages. 
+The 5 % Si-doped sample was further studied by XPS, and full spectrum 
+was shown in Fig. S6a, which was only composed of Mn, O, Si and C. As 
+presented in Fig. 6a, Mn2p spectra include two peaks associated with the 
+core Mn2p3/2 and Mn2p1/2 levels. Both the energy position and profile 
+of the Mn2p3/2 peak depend on the ionic state of Mn. Thus Mn2p3/2 peak 
+positions of the pure Mn2O3 and (Mn0.95Si0.05)2O3 at various stages are 
+641.38, 641.42, 640.97, and 641.45 eV (as shown in Fig. 6a). Mn2p3/2 
+peak of (Mn0.95Si0.05)2O3 after reduction at 640.97 eV corresponds to 
+Mn2+, while the peak near 641.5 eV corresponds to Mn3+ [52]. Since the 
+characteristic satellite feature of the reduced sample at 647 eV cannot be 
+observed in Mn2p spectra, Mn3s spectra were also analyzed to aid in 
+determining the valence of Mn ions (Shown in Fig. 6b), and the 
+magnitude of multiplet split components of fresh and reduction samples 
+are 5.56 and 5.98 eV, illustrating the Mn3+ and Mn2+, respectively [53]. 
+The corresponding O1s spectra of pure Mn2O3 and (Mn0.95Si0.05)2O3 at 
+different stages are demonstrated in Figs. S6b–c and 6c, respectively. 
+O1s spectra possess three peaks, including lattice oxygen at ~530 eV, 
+surface oxygen at ~531 eV assigned to defect oxide or the surface ox­
+ygen ions, and the adsorbed oxygen species at ~533 eV [54]. Table 4 
+shows the atom ratio of three different oxygen, the lattice oxygen con­
+tent of Mn2O3 is 57.57 %, while those of (Mn0.95Si0.05)2O3 at fresh, 
+reduction, and re-oxidation stages increased to 67.78 %, 67.14 %, and 
+70.23 %, respectively. It is proved that the introduction of Si remarkably 
+improved the content of lattice oxygen and made part of adsorbed ox­
+ygen transform into the lattice oxygen on the surface, which is a rate- 
+determining step in the redox reaction [55]. In addition, adsorbed ox­
+ygen on the surface of (Mn0.95Si0.05)2O3 also increased after the redox 
+reaction, which may be due to the gas phase O2 adsorb onto the surface 
+O-vacancy to supplement the active oxygen, caused by continuous 
+consumption of defect oxygen and lattice oxygen species during re- 
+oxidation process [56]. 
+TEM micrographs and SAED patterns of (Mn0.95Si0.05)2O3 after 
+different processes are presented in Fig. 7, while those of different stages 
+of Mn2O3 are demonstrated in Fig. S8. It can be seen from Fig. 7a–c that 
+the grains at different stages show typical coral-like morphology and are 
+approximately 200 nm in size, which confirms the grain size of the 
+sample calculated by XRD analysis using Scherrer’s formula. Moreover, 
+the grain boundaries are clean and clear, and amorphous or secondary 
+phases cannot be seen. By comparing Fig. 7a and c, it was spotted that 
+densification or coarsening did not occur after one cycle. Additionally, 
+no evident grain size growth was found. This phenomenon may be 
+attributed to the addition of Si elements which inhibits the sintering 
+between grains, thus allowing the re-oxidation reaction to occur [25]. In 
+order to prove that Si element is uniformly doped, EDS mapping was 
+further carried out. Fig. S7 provides TEM images and corresponding EDS 
+mapping of (Mn0.95Si0.05)2O3 at different stages. EDS mapping graphs 
+present homogeneous distribution of Mn and Si, indicating the synthesis 
+of homogeneous solid solution. In addition, in the whole process of 
+redox reaction, Si element always exists in Mn2O3, without local element 
+aggregation or forming SiO2, which further confirms Eq. (1). SAED 
+patterns for fresh, reduction, and oxidation stages are shown in 
+Fig. 7d–f, respectively. The diffraction patterns show the great crystal­
+line characteristic of (Mn0.95Si0.05)2O3, and it can be determined that the 
+synthesized sample is monocrystal. By measuring the vector length of 
+the projected spot to each diffraction spot and calculating the crystal 
+plane spacing corresponding to each diffraction spot using Bragg’s for­
+mula, the possible crystal plane index can be determined, and measure 
+Fig. 5. Cyclicality test of (Mn0.95Si0.05)2O3: (a) Cyclic TG curves, (b)–(f) SEM images of (Mn0.95Si0.05)2O3 after redox cycling.  
+Table 3 
+Performance evolution of (Mn0.95Si0.05)2O3 samples after cyclic redox reaction.  
+Number of 
+cycles 
+Mean 
+particle size 
+(μm) 
+Tred 
+(◦C) 
+Reduction 
+conversion (%) 
+Tox 
+(◦C) 
+Re-oxidation 
+conversion (%) 
+1st  
+0.105  
+924  
+94.71  
+707  
+86.18 
+50th  
+0.254  
+925  
+90.92  
+710  
+82.74 
+100th  
+0.621  
+932  
+77.66  
+741  
+72.22 
+200th  
+0.703  
+933  
+71.03  
+747  
+70.32 
+300th  
+0.778  
+935  
+63.46  
+749  
+62.82  
+Y. Huang et al.                                                                                                                                                                                                                                  
+
+
+===== Page 7 =====
+
+Journal of Energy Storage 73 (2023) 108804
+7
+the vector angle between diffraction spots to determine the crystal plane 
+(as marked in Fig. 7d–f). Corresponding crystal planes in the diffracto­
+gram are in accord with XRD patterns (As shown in Fig. 1), confirming 
+the bixbyite as well as hausmannite of (Mn0.95Si0.05)2O3 at different 
+stages and their phase purity. 
+3.5. Si-doping modification mechanism 
+In this part, DFT calculations are adopted to gain a deeper insight 
+into the manganese oxide modification mechanism by doping Si. Based 
+on the study mentioned above of different samples, modeling and cal­
+culations are carried out here with (Mn0.95Si0.05)2O3 as a representative 
+to elucidate the mechanism of its improvement on the re-oxidation re­
+action. In the process of lattice parameters calculation, we could obtain 
+Mn-Si composite metal oxide models with different doping ratios by 
+replacing corresponding numbers of Mn atoms in the Mn2O3 (IA-3 space 
+group) bulk model with Si atoms and the most stable site is shown in 
+Table S1. The lattice parameters optimized by DFT are in good 
+Fig. 6. XPS spectra of Mn 2p (a), Mn 3s (b) and O 1s (c).  
+Table 4 
+Oxygen species and surface molar ratio based on XPS spectra of pure Mn2O3 and (Mn0.95Si0.05)2O3 at different stages.  
+Sample 
+Peak position (eV) 
+Surface molar ratio (%) 
+Lattice O 
+Defect O 
+Adsorbed O 
+Lattice O 
+Defect O 
+Adsorbed O 
+Mn2O3 fresh  
+529.33  
+531.03  
+532.13  
+57.57  
+20.33  
+23.10 
+Mn2O3 after reduction  
+529.58  
+531.03  
+532.09  
+59.37  
+18.70  
+21.93 
+(Mn0.95Si0.05)2O3 fresh  
+529.48  
+531.18  
+532.78  
+67.78  
+23.29  
+8.94 
+(Mn0.95Si0.05)2O3 after reduction  
+529.68  
+531.40  
+532.79  
+67.14  
+25.22  
+7.63 
+(Mn0.95Si0.05)2O3 after oxidation  
+529.41  
+530.91  
+532.02  
+70.23  
+17.27  
+12.50  
+Y. Huang et al.                                                                                                                                                                                                                                  
+
+
+===== Page 8 =====
+
+Journal of Energy Storage 73 (2023) 108804
+8
+agreement with the experimental data with small deviations, as shown 
+in Table S2. 
+As shown in Fig. 8a, we report the results for calculations of oxygen 
+interactions on the reduced (Mn0.95Si0.05)3O4 (100) slab. We studied the 
+configurations resulting from the O2 molecule interaction above 
+different sites on both (Mn0.95Si0.05)3O4 (100) and Mn3O4 (100) sur­
+faces, and the most stable adsorption sites of both models were found to 
+be located at the bridge position, as shown in Fig. 8a–b. By calculating 
+the energy involved in O2 adsorption (ΔEO2−Ads.) processes on the 
+reduced (Mn0.95Si0.05)3O4 (100) and Mn3O4 (100) surfaces, as [57]: 
+ΔEO2−Ads. = E(O2/slab) −E(O2) −E(slab)
+(2) 
+In this formula, E(O2/slab) is the calculated energy for O2/ 
+(Mn0.95Si0.05)3O4 (100) or O2/Mn3O4 (100); E(slab) is that for clean 
+(Mn0.95Si0.05)3O4 (100) slab or Mn3O4 (100) one; finally, E(O2) is the 
+corresponding total energy for an O2 molecule in vacuum [57]. In this 
+way, we calculated an adsorption energy value of −2.88 eV and O–O 
+distance of 1.41 Å, while those of Mn3O4 (100) were at a relatively high 
+value of −1.13 eV and 1.43 Å, respectively. As shown in Fig. 8c, the 
+Mn3O4 has a very large O2 dissociation energy barrier (ΔE = 1.59 eV), 
+and its final state energy is −2.88 eV, indicating an extremely sluggish 
+oxidation step, which also explains the fact that re-oxidation processes 
+can hardly occur. In contrast, the energy barrier ΔE of (Mn0.95Si0.05)3O4 
+falls to only 0.33 eV, and the energy (−3.94 eV) is at a much lower level 
+after oxygen dissociation, suggesting that the dissociation process has 
+been greatly accelerated after the introduction of Si dopants. Compared 
+with Mn3O4 (100) slab, our calculations indicate that M-O (M = Si or 
+Mn) bond length in (Mn0.95Si0.05)3O4 (100) slab shrank from 1.98 Å (for 
+Mn-O) to 1.62 Å (for Si-O), The doping of Si changes the charge balance 
+at the defect site, which results in the relaxation of oxygen, giving rise to 
+changes in the lattice constant as well as lattice strain. 
+As shown in Fig. 9b, the oxygen vacancy formation E(VO) and the 
+migration energy barriers of (Mn0.95Si0.05)3O4 (100) plates in the first 
+and second atomic layers were calculated in order to further investigate 
+the diffusion of oxygen ions within the lattice, using Mn3O4 (100) as a 
+reference. The oxygen vacancy formation energy E(VO) is calculated as 
+follows: 
+E(VO) = E(slab/VO) + 1/2E(O2) −E(slab)
+(3)  
+where: E(slab/VO) and E(slab) are the energies of the relaxed surfaces 
+slabs with and without oxygen vacancy, respectively, and E(O2) is the 
+energy of the oxygen molecule in vacuum. With this, the calculation 
+values of the VO at the first layer and the second layer of 
+(Mn0.95Si0.05)3O4 (100) are about 1.24 eV and 1.36 eV, respectively, and 
+this value is lower than that of 2.03 eV and 2.75 eV for Mn3O4 (100). The 
+calculated Mn–O bond length near Si in the lattice of (Mn0.95Si0.05)3O4 
+(100) increases to 2.29 Å, while the Mn–O bond length in undoped 
+Mn2O3 is 1.98 Å. The Mn–O bond breaks more easily and the oxygen 
+vacancy formation energy is reduced, and the hypothesis is based on the 
+fact that longer Mn–O bonds will be easier to break and rearrange than 
+shorter bonds [50]，indicating that the Mn–O bond is weakened by the 
+Si cation. The oxygen ion migration process of (Mn0.95Si0.05)3O4 (100) 
+slab is shown in Fig. 9a, while that of Mn3O4 (100) is presented in 
+Fig. S9. Especially, as shown in Fig. 9b, the energy barrier reduces from 
+2.90 eV for Mn3O4 (100) to 0.22 eV for (Mn0.95Si0.05)3O4 (100), indi­
+cating the higher activity for oxygen ion migration in (Mn0.95Si0.05)3O4. 
+After the oxidation reaction continues for some time when the surface is 
+completely covered with oxidation products, oxygen must diffuse within 
+the lattice of the oxidation product layers. Therefore, the oxygen va­
+cancy formation energy and migration energy barriers of Mn2O3 and 
+(Mn0.95O0.05)2O3 were calculated. As shown in Fig. S10, the oxygen 
+vacancy formation energy of both the first and second layers of Mn2O3 is 
+higher than that of (Mn0.95O0.05)2O3, indicating that it is theoretically 
+easier to form oxygen vacancy defects in (Mn0.95O0.05)2O3. Calculations 
+show that the energy barriers for oxygen vacancy migration in Mn2O3 
+and (Mn0.95O0.05)2O3 are 1.79 eV and 0.56 eV, respectively, which in­
+dicates that that the lattice diffusion of O2−in Mn-Si oxides is also more 
+likely to occur during the product layer diffusion phase than before 
+doping. 
+Thus, the defects resulting from Si-doped reduce the diffusion barrier 
+of ions in the crystal, which increases the diffusion rate of ions, 
+conducive to the occurrence of gas-solid reaction in the re-oxidation 
+process. All these calculations theoretically elucidate that introducing 
+the Si dopant can effectively ameliorate the poor reaction kinetics of re- 
+oxidation caused by obstructed oxygen diffusion and significantly 
+improve the heat and mass transfer properties of heat storage materials. 
+Based on the experimental analyses and DFT calculations presented 
+above, a possible modification mechanism by doping Si element in 
+Mn2O3/Mn3O4 couple was proposed and is shown in Fig. 10. In the 
+reduction process, when the Mn-based composite metal oxide thermal 
+storage material (Mn1−xSix)2O3 is excited by sunlight or external energy, 
+Fig. 7. TEM images and corresponding SAED images of (Mn0.95Si0.05)2O3. (a) (d) Fresh sample, (b) (e) after reduction, (c) (f) after 1st redox cycle.  
+Y. Huang et al.                                                                                                                                                                                                                                  
+
+
+===== Page 9 =====
+
+Journal of Energy Storage 73 (2023) 108804
+9
+Fig. 8. Oxygen adsorption and dissociation process. (a) The O2/(Mn0.95Si0.05)3O4 (100) system with a dioxygen species adsorbed on hollow site and dissociation 
+process. (b) The O2/Mn3O4 (100) system with a dioxygen species adsorbed on hollow site and dissociation process. (c) Oxygen adsorption/dissociation potential 
+energy diagram. 
+Y. Huang et al.                                                                                                                                                                                                                                  
+
+
+===== Page 10 =====
+
+Journal of Energy Storage 73 (2023) 108804
+10
+surface lattice oxygen ions desorb and diffuse outward to form oxygen 
+molecules. To maintain charge balance, more inner Mn–O bonds are 
+broken by free electrons and more oxygen ions are driven to migrate 
+outward [20]. At this point, the Mn3+ ions transform into Mn2+ and 
+regenerate into (Mn1−xSix)3O4−δ. In re-oxidation, the oxygen molecules 
+are adsorbed and dissociated into O ions, which migrate to the surface 
+oxygen vacancies and disrupt the local charge balance. The introduction 
+of Si reduces the adsorption/dissociation energy of oxygen molecules 
+and the migration energy barrier of oxygen vacancies in the reduced and 
+re-oxidized products, increasing the migration rate of oxygen ions 
+within the lattice. In this way, the emergence-annihilation of oxygen 
+vacancy defects during the oxidation process can be easily achieved 
+[58], thus enhancing the oxidation reaction activity. 
+4. Conclusions 
+The purpose of the current work is to propose a cheap and envi­
+ronmentally 
+friendly 
+modified 
+Mn-Si 
+composite 
+metal 
+oxide 
+(Mn1−xSix)2O3 and investigate its performance enhancement mecha­
+nism. Mn2O3/Mn3O4 redox pair was highly researched as a thermo­
+chemical thermal storage material because of its cheap and non-toxic 
+character, but the poor reaction kinetics triggered by sintering limited 
+its practical application and development. In this study, the homoge­
+neous solid solution was obtained by substituting Si into the lattice of 
+Mn2O3, which exhibited excellent reversibility and cyclic stability. 
+Samples with different Si ratios from 1 to 15 % were synthesized by sol- 
+gel method for comparison, and it was found that (Mn0.97Si0.03)2O3 and 
+(Mn0.95Si0.05)2O3 exhibited the best performances, showing re-oxidation 
+conversion rate of 90.29 % and 86.18 %, respectively, in the first cycle. 
+The measured thermal storage density of (Mn0.97Si0.03)2O3 is 189.8 kJ/ 
+kg, close to the theoretical value of 202 kJ/kg for Mn2O3. Cycling tests 
+were performed to evaluate the cycling stability of (Mn0.95Si0.05)2O3, 
+and the reduction conversion remained above 90 % after 50 cycles and 
+was 63.64 % after 300 cycles. A small amount of doping (<5 mol%) does 
+not seriously affect the microstructure, including grain size and specific 
+surface area. However, Si4+ doping at the atomic scale causes lattice 
+distortion, which triggers defects and elevates the ratio of lattice oxygen 
+and defects oxygen. Based on density functional theory, it is found that 
+the reaction barrier of surface oxygen adsorption and oxygen dissocia­
+tion decreases obviously after doping. Moreover, the oxygen vacancy 
+formation energy is reduced, and the oxygen migration energy barrier 
+inside the crystal is also substantially lower than that of pure Mn2O3, 
+Fig. 9. (a) Top and side view of (Mn0.95Si0.05)3O4 geometric structures at different state during oxygen ions migration. (b) The formation energies of oxygen va­
+cancies E(VO) at different sites of (Mn0.95Si0.05)3O4 (100) slab and Mn3O4 (100) and energy barriers of migration. 
+Y. Huang et al.                                                                                                                                                                                                                                  
+
+
+===== Page 11 =====
+
+Journal of Energy Storage 73 (2023) 108804
+11
+which explains the re-oxidation reaction that occurs more easily in 
+(Mn1−xSix)3O4 under the same conditions. The introduction of Si enables 
+the Mn2O3/Mn3O4 pair to react efficiently and reversibly, providing an 
+economical option for future thermochemical energy storage materials 
+for the next generation of concentrated solar power plants. 
+CRediT authorship contribution statement 
+Y.H. was responsible for conceptualization, methodology, software, 
+investigation, and writing the original draft. P.Z. reviewed and edit the 
+manuscript. C.G. validated the study and wrote, reviewed, and edited 
+the manuscript. H.X. visualized the experiment and wrote, reviewed, 
+and edited the manuscript. J.Z. was responsible for the resources, project 
+administration, and funding acquisition. G.X. was responsible for the 
+resources, supervision, project administration, and funding acquisition. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Data availability 
+Data will be made available on request. 
+Acknowledgment 
+This work was supported by the National Natural Science Foundation 
+of China (52176207), the Zhejiang Provincial Natural Science Founda­
+tion (LR20E060001), and the Fundamental Research Funds for the 
+Central Universities (2022ZFJH04). 
+Appendix A. Supplementary data 
+Details of TGA-DSC measurements, phase diagram, FTIR spectra, 
+XPS spectra, SEM-EDS mapping, statistics of particle size distribution, 
+and DFT calculations. Supplementary data to this article can be found 
+online at https://doi.org/10.1016/j.est.2023.108804. 
+References 
+[1] A.J. Carrillo, J. Gonz´alez-Aguilar, M. Romero, J.M. Coronado, Solar energy on 
+demand: a review on high temperature thermochemical heat storage systems and 
+materials, Chem. Rev. 119 (7) (2019) 4777. 
+[2] L.A. Weinstein, J. Loomis, B. Bhatia, D.M. Bierman, E.N. Wang, G. Chen, 
+Concentrating solar power, Chem. Rev. 115 (23) (2015) 12797. 
+[3] H. Zhang, J. Baeyens, G. C´aceres, J. Degr`eve, Y. Lv, Thermal energy storage: recent 
+developments and practical aspects, Prog. Energy Combust. Sci. 53 (2016) 1. 
+[4] S. Wu, C. Zhou, E. Doroodchi, R. Nellore, B. Moghtaderi, A review on high- 
+temperature thermochemical energy storage based on metal oxides redox cycle, 
+Energy Convers. Manag. 168 (2018) 421. 
+[5] C. Agrafiotis, M. Roeb, C. Sattler, Exploitation of thermochemical cycles based on 
+solid oxide redox systems for thermochemical storage of solar heat. Part 4: 
+screening of oxides for use in cascaded thermochemical storage concepts, Sol. 
+Energy 139 (2016) 695. 
+[6] A.J. Schrader, A.P. Muroyama, P.G. Loutzenhiser, Solar electricity via an Air 
+Brayton cycle with an integrated two-step thermochemical cycle for heat storage 
+based on Co3O4/CoO redox reactions: thermodynamic analysis, Sol. Energy 118 
+(2015) 485. 
+[7] S. Tescari, A. Singh, C. Agrafiotis, L. de Oliveira, S. Breuer, B. Schl¨ogl-Knothe, 
+M. Roeb, C. Sattler, Experimental evaluation of a pilot-scale thermochemical 
+storage system for a concentrated solar power plant, Appl. Energy 189 (2017) 66. 
+[8] M. Deutsch, F. Horvath, C. Knoll, D. Lager, C. Gierl-Mayer, P. Weinberger, 
+F. Winter, High-temperature energy storage: kinetic investigations of the CuO/ 
+Cu2O reaction cycle, Energy Fuel 31 (3) (2017) 2324. 
+[9] M. Gigantino, S. Sas Brunser, A. Steinfeld, High-temperature thermochemical heat 
+storage via the CuO/Cu2O redox cycle: from material synthesis to packed-bed 
+reactor engineering and cyclic operation, Energy Fuel 34 (12) (2020) 16772. 
+[10] S. Setoodeh Jahromy, F. Birkelbach, C. Jordan, C. Huber, M. Harasek, A. Werner, 
+F. Winter, Impact of partial pressure, conversion, and temperature on the oxidation 
+reaction kinetics of Cu2O to CuO in thermochemical energy storage, Energies 12 
+(3) (2019). 
+[11] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Thermochemical heat 
+storage based on the Mn2O3/Mn3O4redox couple: influence of the initial particle 
+size on the morphological evolution and cyclability, J. Mater. Chem. A 2 (45) 
+(2014) 19435. 
+[12] Alonso, E.; Gallo, A.; P´erez-R´abago, C.; Fuentealba, E., 2016, DOI:https://doi.org/ 
+10.1063/1.4949102. 
+[13] D. Xiang, C. Gu, H. Xu, J. Deng, P. Zhu, G. Xiao, Al-modified CuO/Cu2O for high- 
+temperature thermochemical energy storage: from reaction performance to 
+modification mechanism, ACS Appl. Mater. Interfaces 13 (48) (2021) 57274. 
+[14] C. Agrafiotis, S. Tescari, M. Roeb, M. Schmücker, C. Sattler, Exploitation of 
+thermochemical cycles based on solid oxide redox systems for thermochemical 
+storage of solar heat. Part 3: cobalt oxide monolithic porous structures as 
+integrated thermochemical reactors/heat exchangers, Sol. Energy 114 (2015) 459. 
+[15] B. Wong, Thermochemical Heat Storage for Concentrated Solar Power, 2011. 
+[16] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Improving the 
+thermochemical energy storage performance of the Mn2O3/Mn3O4 redox couple 
+by the incorporation of iron, ChemSusChem 2015 (1947) 8. 
+[17] S. Project, Thermochemical Heat Storage for Concentrated Solar Power, 2011. 
+[18] W. Huang, D. Korba, K. Randhir, J. Petrasch, J. Klausner, N. AuYeung, L. Li, 
+Thermochemical reduction modeling in a high-temperature moving-bed reactor for 
+energy storage: 1D model, Appl. Energy 306 (2022). 
+[19] J. Fan, Y. Zhang, Y. Yang, J. Hao, Y. Wang, A. Qian, Performance of 
+thermochemical energy storage for spinel CuMn2O4 material, J. Energy Storage 
+(2021) 41. 
+[20] D. Xiang, C. Gu, H. Xu, G. Xiao, Self-assembled structure evolution of MnFe oxides 
+for high temperature thermochemical energy storage, Small 17 (29) (2021), 
+e2101524. 
+[21] K. Randhir, K. King, N. Rhodes, L. Li, D. Hahn, R. Mei, N. Auyeung, J. Klausner, 
+Magnesium-manganese oxides for high temperature thermochemical energy 
+storage, J. Energy Storage 21 (2019) 599. 
+[22] K. King, K. Randhir, J. Klausner, Calorimetric method for determining the 
+thermochemical energy storage capacities of redox metal oxides, Thermochim. 
+Acta 673 (2019) 105. 
+[23] K. Randhir, M. Hayes, P. Schimmels, J. Petrasch, J. Klausner, Zero carbon solid- 
+state rechargeable redox fuel for long duration and seasonal storage, Joule 6 (11) 
+(2022) 2513. 
+[24] N.W. Hlongwa, D. Sastre, E. Iwuoha, A.J. Carrillo, C. Ikpo, D.P. Serrano, P. Pizarro, 
+J.M. Coronado, Exploring the thermochemical heat storage capacity of AMn2O4 
+(A = Li or Cu) spinels, Solid State Ionics 320 (2018) 316. 
+[25] D. Bielsa, A. Zaki, P.L. Arias, A. Faik, Improving the redox performance of Mn2O3/ 
+Mn3O4 pair by Si doping to be used as thermochemical energy storage for 
+concentrated solar power plants, Sol. Energy 204 (2020) 144. 
+[26] A. Shulman, E. Cleverstam, T. Mattisson, A. Lyngfelt, Manganese/iron, manganese/ 
+nickel, and manganese/silicon oxides used in chemical-looping with oxygen 
+uncoupling (CLOU) for combustion of methane, Energy Fuel 23 (10) (2009) 5269. 
+[27] D. Yilmaz, E. Darwish, H. Leion, Investigation of the combined Mn-Si oxide system 
+for thermochemical energy storage applications, J. Energy Storage (2020) 28. 
+[28] D. Bielsa, A. Zaki, P.L. Arias, A. Faik, Development of a kinetic reaction model for 
+reduction and oxidation of Si doped Mn2O3 for thermochemical energy storage in 
+concentrated solar power plants, J. Energy Storage (2021) 43. 
+[29] G. Kresse, J. Furthmüller, Efficiency of ab-initio total energy calculations for metals 
+and semiconductors using a plane-wave basis set, Comput. Mater. Sci. 6 (1) (1996) 
+15. 
+Fig. 10. Schematic of the modification mechanism by displacement doping Si.  
+Y. Huang et al.                                                                                                                                                                                                                                  
+
+
+===== Page 12 =====
+
+Journal of Energy Storage 73 (2023) 108804
+12
+[30] G. Kresse, J. Hafner, Abinitio molecular-dynamics for liquid-metals, Phys. Rev. B 
+Condens. Matter 47 (1) (1993) 558. 
+[31] G. Kresse, D. Joubert, From ultrasoft pseudopotentials to the projector augmented- 
+wave method, Phys. Rev. B Condens. Matter 59 (3) (1999) 1758. 
+[32] J.P. Perdew, K. Burke, M. Ernzerhof, Generalized gradient approximation made 
+simple, Phys. Rev. Lett. 77 (18) (1996) 3865. 
+[33] H.J. Monkhorst, J.D. Pack, Special points for Brillouin-zone integrations, Phys. 
+Rev. B Condens. Matter 13 (12) (1976) 5188. 
+[34] V.I. Anisimov, J. Zaanen, O.K. Andersen, Band theory and Mott insulators: 
+Hubbard U instead of Stoner I, Phys. Rev. B Condens. Matter 44 (3) (1991) 943. 
+[35] S.L. Dudarev, G. Botton, S.Y. Savrasov, C.J. Humphreys, A.P. Sutton, Electron- 
+energy-loss spectra and the structural stability of nickel oxide: an LSDA+U study, 
+Phys. Rev. B Condens. Matter 57 (3) (1998) 1505. 
+[36] A. Zaki, J. Carrasco, D. Bielsa, A. Faik, Tunable redox temperature of a Co3- 
+xMnxO4 (0 </= x </= 3) continuous solid solution for thermochemical energy 
+storage, ACS Appl. Mater. Interfaces 12 (6) (2020) 7010. 
+[37] B.M. Reddy, G. Thrimurthulu, L. Katta, Y. Yamada, S.-E. Park, Structural 
+characteristics and catalytic activity of nanocrystalline ceria-praseodymia solid 
+solutions, J. Phys. Chem. C 113 (2009) 15882–15890. 
+[38] F. Gong, S. Lu, L. Peng, J. Zhou, J. Kong, D. Jia, F. Li, Hierarchical Mn(2)O(3) 
+microspheres in-situ coated with carbon for supercapacitors with highly enhanced 
+performances, Nanomaterials (Basel) 7 (12) (2017). 
+[39] A. Aridi, R. Awad, A. Khalaf, Synthesis and characterization of ZnFe2O4/ Mn2O3 
+nanocomposites, Appl. Phys. A 127 (3) (2021). 
+[40] M.T. Kim, Deposition behavior of hexamethyldisiloxane films based on the FTIR 
+analysis of Si-O-Si and Si-CH3 bonds, Thin Solid Films 311 (1–2) (1997) 157. 
+[41] M.D. Alba, Z. Luan, J. Klinowski, Titanosilicate mesoporous molecular sieve MCM- 
+41: synthesis and characterization, J. Phys. Chem. (1952) 100 (6) (1996) 2178. 
+[42] S. Schwarz, D.R. Corbin, A.J. Vega, The band at “960”, Microporous Macroporous 
+Mater. 431 (1996) 137. 
+[43] Z.Y. Yuan, S.Q. Liu, T.H. Chen, J.Z. Wang, H.X. Li, Synthesis of iron-containing 
+MCM-41, J. Chem. Soc. Chem. Commun. 10.1039/C39950000973(9) (1995) 973, 
+https://doi.org/10.1039/C39950000973. 
+[44] L.-z. Wang, J.-l. Shi, J. Yu, D.-s. Yan, Synthesis of nanostructured mesoporous silica 
+materials containing manganese, Nanostruct. Mater. 10 (8) (1998) 1289. 
+[45] M. Ishii, M. Nakahira, T. Yamanaka, Infrared absorption spectra and cation 
+distributions in (Mn, Fe)3O4, Solid State Commun. 11 (1) (1972) 209. 
+[46] S. Ashoka, G. Nagaraju, G.T. Chandrappa, Reduction of KMnO4 to Mn3O4 via 
+hydrothermal process, Mater. Lett. 64 (22) (2010) 2538. 
+[47] A. Askarinejad, A. Morsali, Direct ultrasonic-assisted synthesis of sphere-like 
+nanocrystals of spinel Co3O4 and Mn3O4, Ultrason. Sonochem. 16 (1) (2009) 124. 
+[48] L. Andr´e, S. Abanades, L. Cassayre, High-temperature thermochemical energy 
+storage based on redox reactions using Co-Fe and Mn-Fe mixed metal oxides, 
+J. Solid State Chem. 253 (2017) 6. 
+[49] M. Ryd´en, H. Leion, T. Mattisson, A. Lyngfelt, Combined oxides as oxygen-carrier 
+material for chemical-looping with oxygen uncoupling, Appl. Energy 2014 (1924) 
+113. 
+[50] A.J. Carrillo, D.P. Serrano, P. Pizarro, J.M. Coronado, Understanding redox kinetics 
+of iron-doped manganese oxides for high temperature thermochemical energy 
+storage, J. Phys. Chem. C 120 (49) (2016) 27800. 
+[51] F. García-Labiano, L.F. de Diego, J. Ad´anez, A. Abad, P. Gay´an, Reduction and 
+oxidation kinetics of a copper-based oxygen carrier prepared by impregnation for 
+chemical-looping combustion, Ind. Eng. Chem. Res. 43 (26) (2004) 8168. 
+[52] Y. Fang, Y. Wang, F. Wang, J. Zhu, 3D structured Mn2O3 synthesized using tween 
+surfactant: influence on the morphology and oxygen reduction catalytic 
+performance, CrystEngComm 21 (3) (2019) 420. 
+[53] M. Fujiwara, T. Matsushita, S. Ikeda, Evaluation of Mn3s X-ray photoelectron 
+spectroscopy for characterization of manganese complexes, J. Electron Spectrosc. 
+Relat. Phenom. 74 (3) (1995) 201. 
+[54] X. Lin, S. Li, H. He, Z. Wu, J. Wu, L. Chen, D. Ye, M. Fu, Evolution of oxygen 
+vacancies in MnOx-CeO2 mixed oxides for soot oxidation, Appl. Catal. B Environ. 
+223 (2018) 91. 
+[55] Z. Zhang, J. Yu, J. Zhang, Q. Ge, H. Xu, F. Dallmann, R. Dittmeyer, J. Sun, Tailored 
+metastable Ce-Zr oxides with highly distorted lattice oxygen for accelerating redox 
+cycles, Chem. Sci. 9 (13) (2018) 3386. 
+[56] V. Rico-P´erez, E. Aneggi, A. Bueno-L´opez, A. Trovarelli, Synergic effect of Cu/ 
+Ce0.5Pr0.5O2-δ and Ce0.5Pr0.5O2-δ in soot combustion, Appl. Catal. B Environ. 
+197 (2016) 95. 
+[57] B. Milberg, A. Juan, B. Irigoyen, Redox behavior of a low-doped Pr-CeO2(111) 
+surface. A DFT+U study, Appl. Surf. Sci. 401 (2017) 206. 
+[58] P. Wang, J. Wang, X. An, J. Shi, W. Shangguan, X. Hao, G. Xu, B. Tang, A. Abudula, 
+G. Guan, Generation of abundant defects in Mn-Co mixed oxides by a facile agar- 
+gel method for highly efficient catalysis of total toluene oxidation, Appl. Catal. B 
+Environ. 282 (2021). 
+Y. Huang et al.                                                                                                                                                                                                                                  
