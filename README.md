@@ -13,7 +13,9 @@ The extracted information mainly includes characterization figure types, figure 
 * **`data mining results.xlsx`**: Summary file of the LLM-based literature data mining results, including XRD and TGA figure number obtained from image-based input, text-based input, and the manually verified actual figure numbers reported in the literature.
 * **`Machine learning model/`**: Folder containing the codes for machine learning model construction and optimization, including 1D-CNN and Transformer models based on XRD pattern features.
 * **`LLM data-mining code/`**: Folder containing the codes for converting PDF literature into text and images, as well as the codes for calling the locally deployed LLM to perform literature data mining using text and image inputs, respectively.
-* **`LLM data-mining result/`**: Folder containing the literature text-mining results, including full-text files and LLM-based data mining results from both image and text inputs.
+* **`LLM data-mining result/`**: Folder containing the literature text-mining results, including full-text files and LLM-based data mining results from both image and text inputs. The converted page images are provided separately via the following Google Drive link: https://drive.google.com/drive/folders/1QziAkeP4vK7qe06XjOrRng6jI8shlFhI?usp=drive_link
+
+
 
 ## Local LLM Deployment
 
